@@ -1,0 +1,11 @@
+name = "bind_inline"
+version = "1.0"
+description = "Bind inline test"
+
+requires = "camlp4"
+
+archive(syntax, create_toploop) = "pa_bind_inline.cmo"
+archive(syntax, preprocessor) = "pa_bind_inline.cmo"
+archive(syntax, toploop) = "pa_bind_inline.cmo"
+archive(syntax, byte) = ""
+archive(syntax, native) = ""

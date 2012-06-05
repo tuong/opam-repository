@@ -1,0 +1,1844 @@
+"gtkThread.ml" 29 1726 1730 "gtkThread.ml" 29 1726 1734
+type(
+  (unit -> unit) Queue.t
+)
+ident(
+  def jobs "gtkThread.ml" 30 1778 1778 --
+)
+"gtkThread.ml" 29 1726 1762 "gtkThread.ml" 29 1726 1774
+type(
+  unit -> (unit -> unit) Queue.t
+)
+ident(
+  ext_ref Queue.create
+)
+"gtkThread.ml" 29 1726 1775 "gtkThread.ml" 29 1726 1777
+type(
+  unit
+)
+"gtkThread.ml" 29 1726 1762 "gtkThread.ml" 29 1726 1777
+call(
+  stack
+)
+type(
+  (unit -> unit) Queue.t
+)
+type(
+  (unit -> unit) Queue.t
+)
+"gtkThread.ml" 30 1778 1782 "gtkThread.ml" 30 1778 1783
+type(
+  Mutex.t
+)
+ident(
+  def m "gtkThread.ml" 31 1802 1802 --
+)
+"gtkThread.ml" 30 1778 1786 "gtkThread.ml" 30 1778 1798
+type(
+  unit -> Mutex.t
+)
+ident(
+  ext_ref Mutex.create
+)
+"gtkThread.ml" 30 1778 1799 "gtkThread.ml" 30 1778 1801
+type(
+  unit
+)
+"gtkThread.ml" 30 1778 1786 "gtkThread.ml" 30 1778 1801
+call(
+  stack
+)
+type(
+  Mutex.t
+)
+"gtkThread.ml" 31 1802 1806 "gtkThread.ml" 31 1802 1815
+type(
+  ((unit -> unit) Queue.t -> 'a) -> 'a
+)
+ident(
+  def with_jobs "gtkThread.ml" 34 1873 1873 --
+)
+"gtkThread.ml" 31 1802 1816 "gtkThread.ml" 31 1802 1817
+type(
+  (unit -> unit) Queue.t -> 'a
+)
+ident(
+  def f "gtkThread.ml" 32 1820 1822 "gtkThread.ml" 32 1820 1871
+)
+"gtkThread.ml" 32 1820 1822 "gtkThread.ml" 32 1820 1832
+type(
+  Mutex.t -> unit
+)
+ident(
+  ext_ref Mutex.lock
+)
+"gtkThread.ml" 32 1820 1833 "gtkThread.ml" 32 1820 1834
+type(
+  Mutex.t
+)
+ident(
+  int_ref m "gtkThread.ml" 30 1778 1782 "gtkThread.ml" 30 1778 1783
+)
+"gtkThread.ml" 32 1820 1822 "gtkThread.ml" 32 1820 1834
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkThread.ml" 32 1820 1840 "gtkThread.ml" 32 1820 1841
+type(
+  'a
+)
+"gtkThread.ml" 32 1820 1844 "gtkThread.ml" 32 1820 1845
+type(
+  (unit -> unit) Queue.t -> 'a
+)
+ident(
+  int_ref f "gtkThread.ml" 31 1802 1816 "gtkThread.ml" 31 1802 1817
+)
+"gtkThread.ml" 32 1820 1846 "gtkThread.ml" 32 1820 1850
+type(
+  (unit -> unit) Queue.t
+)
+ident(
+  int_ref jobs "gtkThread.ml" 29 1726 1730 "gtkThread.ml" 29 1726 1734
+)
+"gtkThread.ml" 32 1820 1844 "gtkThread.ml" 32 1820 1850
+call(
+  stack
+)
+type(
+  'a
+)
+"gtkThread.ml" 32 1820 1854 "gtkThread.ml" 32 1820 1866
+type(
+  Mutex.t -> unit
+)
+ident(
+  ext_ref Mutex.unlock
+)
+"gtkThread.ml" 32 1820 1867 "gtkThread.ml" 32 1820 1868
+type(
+  Mutex.t
+)
+ident(
+  int_ref m "gtkThread.ml" 30 1778 1782 "gtkThread.ml" 30 1778 1783
+)
+"gtkThread.ml" 32 1820 1854 "gtkThread.ml" 32 1820 1868
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkThread.ml" 32 1820 1870 "gtkThread.ml" 32 1820 1871
+type(
+  'a
+)
+ident(
+  int_ref y "gtkThread.ml" 32 1820 1840 "gtkThread.ml" 32 1820 1841
+)
+"gtkThread.ml" 32 1820 1854 "gtkThread.ml" 32 1820 1871
+type(
+  'a
+)
+"gtkThread.ml" 32 1820 1836 "gtkThread.ml" 32 1820 1871
+type(
+  'a
+)
+"gtkThread.ml" 32 1820 1822 "gtkThread.ml" 32 1820 1871
+type(
+  'a
+)
+"gtkThread.ml" 34 1873 1877 "gtkThread.ml" 34 1873 1884
+type(
+  int option ref
+)
+ident(
+  def loop_id "gtkThread.ml" 35 1896 1896 --
+)
+"gtkThread.ml" 34 1873 1887 "gtkThread.ml" 34 1873 1890
+type(
+  int option -> int option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gtkThread.ml" 34 1873 1891 "gtkThread.ml" 34 1873 1895
+type(
+  int option
+)
+"gtkThread.ml" 34 1873 1887 "gtkThread.ml" 34 1873 1895
+type(
+  int option ref
+)
+"gtkThread.ml" 35 1896 1900 "gtkThread.ml" 35 1896 1905
+type(
+  unit -> unit
+)
+ident(
+  def reset "gtkThread.ml" 36 1927 1927 --
+)
+"gtkThread.ml" 35 1896 1906 "gtkThread.ml" 35 1896 1908
+type(
+  unit
+)
+"gtkThread.ml" 35 1896 1911 "gtkThread.ml" 35 1896 1918
+type(
+  int option ref
+)
+ident(
+  int_ref loop_id "gtkThread.ml" 34 1873 1877 "gtkThread.ml" 34 1873 1884
+)
+"gtkThread.ml" 35 1896 1919 "gtkThread.ml" 35 1896 1921
+type(
+  int option ref -> int option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gtkThread.ml" 35 1896 1922 "gtkThread.ml" 35 1896 1926
+type(
+  int option
+)
+"gtkThread.ml" 35 1896 1911 "gtkThread.ml" 35 1896 1926
+type(
+  unit
+)
+"gtkThread.ml" 36 1927 1931 "gtkThread.ml" 36 1927 1942
+type(
+  unit -> bool
+)
+ident(
+  def cannot_sync "gtkThread.ml" 40 2031 2031 --
+)
+"gtkThread.ml" 36 1927 1943 "gtkThread.ml" 36 1927 1945
+type(
+  unit
+)
+"gtkThread.ml" 37 1948 1956 "gtkThread.ml" 37 1948 1957
+type(
+  int option ref -> int option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkThread.ml" 37 1948 1957 "gtkThread.ml" 37 1948 1964
+type(
+  int option ref
+)
+ident(
+  int_ref loop_id "gtkThread.ml" 34 1873 1877 "gtkThread.ml" 34 1873 1884
+)
+"gtkThread.ml" 37 1948 1956 "gtkThread.ml" 37 1948 1964
+type(
+  int option
+)
+"gtkThread.ml" 37 1948 1970 "gtkThread.ml" 37 1948 1974
+type(
+  int option
+)
+"gtkThread.ml" 37 1948 1978 "gtkThread.ml" 37 1948 1982
+type(
+  bool
+)
+"gtkThread.ml" 38 1983 1992 "gtkThread.ml" 38 1983 1994
+type(
+  int
+)
+ident(
+  def id "gtkThread.ml" 38 1983 1998 "gtkThread.ml" 38 1983 2029
+)
+"gtkThread.ml" 38 1983 1987 "gtkThread.ml" 38 1983 1994
+type(
+  int option
+)
+"gtkThread.ml" 38 1983 1998 "gtkThread.ml" 38 1983 2007
+type(
+  Thread.t -> int
+)
+ident(
+  ext_ref Thread.id
+)
+"gtkThread.ml" 38 1983 2009 "gtkThread.ml" 38 1983 2020
+type(
+  unit -> Thread.t
+)
+ident(
+  ext_ref Thread.self
+)
+"gtkThread.ml" 38 1983 2021 "gtkThread.ml" 38 1983 2023
+type(
+  unit
+)
+"gtkThread.ml" 38 1983 2008 "gtkThread.ml" 38 1983 2024
+call(
+  stack
+)
+type(
+  Thread.t
+)
+"gtkThread.ml" 38 1983 1998 "gtkThread.ml" 38 1983 2024
+call(
+  stack
+)
+type(
+  int
+)
+"gtkThread.ml" 38 1983 2025 "gtkThread.ml" 38 1983 2026
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gtkThread.ml" 38 1983 2027 "gtkThread.ml" 38 1983 2029
+type(
+  int
+)
+ident(
+  int_ref id "gtkThread.ml" 38 1983 1992 "gtkThread.ml" 38 1983 1994
+)
+"gtkThread.ml" 38 1983 1998 "gtkThread.ml" 38 1983 2029
+type(
+  bool
+)
+"gtkThread.ml" 37 1948 1950 "gtkThread.ml" 38 1983 2029
+type(
+  bool
+)
+"gtkThread.ml" 40 2031 2035 "gtkThread.ml" 40 2031 2043
+type(
+  unit -> bool
+)
+ident(
+  def gui_safe "gtkThread.ml" 43 2127 2127 --
+)
+"gtkThread.ml" 40 2031 2044 "gtkThread.ml" 40 2031 2046
+type(
+  unit
+)
+"gtkThread.ml" 41 2049 2051 "gtkThread.ml" 41 2049 2054
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"gtkThread.ml" 41 2049 2056 "gtkThread.ml" 41 2049 2067
+type(
+  string
+)
+ident(
+  ext_ref Sys.os_type
+)
+"gtkThread.ml" 41 2049 2068 "gtkThread.ml" 41 2049 2069
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gtkThread.ml" 41 2049 2070 "gtkThread.ml" 41 2049 2077
+type(
+  string
+)
+"gtkThread.ml" 41 2049 2055 "gtkThread.ml" 41 2049 2078
+type(
+  bool
+)
+"gtkThread.ml" 41 2049 2051 "gtkThread.ml" 41 2049 2078
+type(
+  bool
+)
+"gtkThread.ml" 41 2049 2079 "gtkThread.ml" 41 2049 2081
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gtkThread.ml" 41 2049 2082 "gtkThread.ml" 41 2049 2083
+type(
+  int option ref -> int option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkThread.ml" 41 2049 2083 "gtkThread.ml" 41 2049 2090
+type(
+  int option ref
+)
+ident(
+  int_ref loop_id "gtkThread.ml" 34 1873 1877 "gtkThread.ml" 34 1873 1884
+)
+"gtkThread.ml" 41 2049 2082 "gtkThread.ml" 41 2049 2090
+type(
+  int option
+)
+"gtkThread.ml" 41 2049 2091 "gtkThread.ml" 41 2049 2092
+type(
+  int option -> int option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gtkThread.ml" 41 2049 2098 "gtkThread.ml" 41 2049 2107
+type(
+  Thread.t -> int
+)
+ident(
+  ext_ref Thread.id
+)
+"gtkThread.ml" 41 2049 2109 "gtkThread.ml" 41 2049 2120
+type(
+  unit -> Thread.t
+)
+ident(
+  ext_ref Thread.self
+)
+"gtkThread.ml" 41 2049 2121 "gtkThread.ml" 41 2049 2123
+type(
+  unit
+)
+"gtkThread.ml" 41 2049 2108 "gtkThread.ml" 41 2049 2124
+call(
+  stack
+)
+type(
+  Thread.t
+)
+"gtkThread.ml" 41 2049 2097 "gtkThread.ml" 41 2049 2125
+call(
+  stack
+)
+type(
+  int
+)
+"gtkThread.ml" 41 2049 2093 "gtkThread.ml" 41 2049 2125
+type(
+  int option
+)
+"gtkThread.ml" 41 2049 2082 "gtkThread.ml" 41 2049 2125
+type(
+  bool
+)
+"gtkThread.ml" 41 2049 2051 "gtkThread.ml" 41 2049 2125
+type(
+  bool
+)
+"gtkThread.ml" 43 2127 2131 "gtkThread.ml" 43 2127 2139
+type(
+  unit -> bool
+)
+ident(
+  def has_jobs "gtkThread.ml" 44 2176 2176 --
+)
+"gtkThread.ml" 43 2127 2140 "gtkThread.ml" 43 2127 2142
+type(
+  unit
+)
+"gtkThread.ml" 43 2127 2145 "gtkThread.ml" 43 2127 2148
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"gtkThread.ml" 43 2127 2150 "gtkThread.ml" 43 2127 2159
+type(
+  ((unit -> unit) Queue.t -> bool) -> bool
+)
+ident(
+  int_ref with_jobs "gtkThread.ml" 31 1802 1806 "gtkThread.ml" 31 1802 1815
+)
+"gtkThread.ml" 43 2127 2160 "gtkThread.ml" 43 2127 2174
+type(
+  (unit -> unit) Queue.t -> bool
+)
+ident(
+  ext_ref Queue.is_empty
+)
+"gtkThread.ml" 43 2127 2149 "gtkThread.ml" 43 2127 2175
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkThread.ml" 43 2127 2145 "gtkThread.ml" 43 2127 2175
+type(
+  bool
+)
+"gtkThread.ml" 44 2176 2180 "gtkThread.ml" 44 2176 2186
+type(
+  unit -> int
+)
+ident(
+  def n_jobs "gtkThread.ml" 45 2215 2215 --
+)
+"gtkThread.ml" 44 2176 2187 "gtkThread.ml" 44 2176 2189
+type(
+  unit
+)
+"gtkThread.ml" 44 2176 2192 "gtkThread.ml" 44 2176 2201
+type(
+  ((unit -> unit) Queue.t -> int) -> int
+)
+ident(
+  int_ref with_jobs "gtkThread.ml" 31 1802 1806 "gtkThread.ml" 31 1802 1815
+)
+"gtkThread.ml" 44 2176 2202 "gtkThread.ml" 44 2176 2214
+type(
+  (unit -> unit) Queue.t -> int
+)
+ident(
+  ext_ref Queue.length
+)
+"gtkThread.ml" 44 2176 2192 "gtkThread.ml" 44 2176 2214
+call(
+  tail
+)
+type(
+  int
+)
+"gtkThread.ml" 45 2215 2219 "gtkThread.ml" 45 2215 2230
+type(
+  unit -> unit
+)
+ident(
+  def do_next_job "gtkThread.ml" 46 2260 2260 --
+)
+"gtkThread.ml" 45 2215 2231 "gtkThread.ml" 45 2215 2233
+type(
+  unit
+)
+"gtkThread.ml" 45 2215 2236 "gtkThread.ml" 45 2215 2245
+type(
+  ((unit -> unit) Queue.t -> unit -> unit) -> unit -> unit
+)
+ident(
+  int_ref with_jobs "gtkThread.ml" 31 1802 1806 "gtkThread.ml" 31 1802 1815
+)
+"gtkThread.ml" 45 2215 2246 "gtkThread.ml" 45 2215 2256
+type(
+  (unit -> unit) Queue.t -> unit -> unit
+)
+ident(
+  ext_ref Queue.take
+)
+"gtkThread.ml" 45 2215 2257 "gtkThread.ml" 45 2215 2259
+type(
+  unit
+)
+"gtkThread.ml" 45 2215 2236 "gtkThread.ml" 45 2215 2259
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkThread.ml" 46 2260 2264 "gtkThread.ml" 46 2260 2269
+type(
+  ('a -> unit) -> 'a -> unit
+)
+ident(
+  def async "gtkThread.ml" 49 2371 2371 --
+)
+"gtkThread.ml" 46 2260 2270 "gtkThread.ml" 46 2260 2271
+type(
+  'a -> unit
+)
+ident(
+  def j "gtkThread.ml" 46 2260 2272 "gtkThread.ml" 48 2312 2370
+)
+"gtkThread.ml" 46 2260 2272 "gtkThread.ml" 46 2260 2273
+type(
+  'a
+)
+ident(
+  def x "gtkThread.ml" 46 2260 2276 "gtkThread.ml" 48 2312 2370
+)
+"gtkThread.ml" 46 2260 2276 "gtkThread.ml" 46 2260 2285
+type(
+  ((unit -> unit) Queue.t -> unit) -> unit
+)
+ident(
+  int_ref with_jobs "gtkThread.ml" 31 1802 1806 "gtkThread.ml" 31 1802 1815
+)
+"gtkThread.ml" 47 2286 2291 "gtkThread.ml" 47 2286 2300
+type(
+  (unit -> unit) -> (unit -> unit) Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"gtkThread.ml" 47 2286 2306 "gtkThread.ml" 47 2286 2308
+type(
+  unit
+)
+"gtkThread.ml" 48 2312 2318 "gtkThread.ml" 48 2312 2337
+type(
+  ?where:string -> ('a -> unit) -> 'a -> unit
+)
+ident(
+  ext_ref GtkSignal.safe_call
+)
+"gtkThread.ml" 48 2312 2338 "gtkThread.ml" 48 2312 2339
+type(
+  'a -> unit
+)
+ident(
+  int_ref j "gtkThread.ml" 46 2260 2270 "gtkThread.ml" 46 2260 2271
+)
+"gtkThread.ml" 48 2312 2340 "gtkThread.ml" 48 2312 2341
+type(
+  'a
+)
+ident(
+  int_ref x "gtkThread.ml" 46 2260 2272 "gtkThread.ml" 46 2260 2273
+)
+"gtkThread.ml" 48 2312 2349 "gtkThread.ml" 48 2312 2368
+type(
+  string
+)
+"gtkThread.ml" 48 2312 2318 "gtkThread.ml" 48 2312 2368
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkThread.ml" 47 2286 2301 "gtkThread.ml" 48 2312 2369
+type(
+  unit -> unit
+)
+"gtkThread.ml" 47 2286 2290 "gtkThread.ml" 48 2312 2370
+call(
+  stack
+)
+type(
+  (unit -> unit) Queue.t -> unit
+)
+"gtkThread.ml" 46 2260 2276 "gtkThread.ml" 48 2312 2370
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkThread.ml" 50 2416 2420 "gtkThread.ml" 50 2416 2424
+type(
+  ('a -> 'b) -> 'a -> 'b
+)
+ident(
+  def sync "gtkThread.ml" 65 2823 2823 --
+)
+"gtkThread.ml" 50 2416 2425 "gtkThread.ml" 50 2416 2426
+type(
+  'a -> 'b
+)
+ident(
+  def f "gtkThread.ml" 50 2416 2427 "gtkThread.ml" 63 2753 2821
+)
+"gtkThread.ml" 50 2416 2427 "gtkThread.ml" 50 2416 2428
+type(
+  'a
+)
+ident(
+  def x "gtkThread.ml" 51 2431 2433 "gtkThread.ml" 63 2753 2821
+)
+"gtkThread.ml" 51 2431 2436 "gtkThread.ml" 51 2431 2447
+type(
+  unit -> bool
+)
+ident(
+  int_ref cannot_sync "gtkThread.ml" 36 1927 1931 "gtkThread.ml" 36 1927 1942
+)
+"gtkThread.ml" 51 2431 2448 "gtkThread.ml" 51 2431 2450
+type(
+  unit
+)
+"gtkThread.ml" 51 2431 2436 "gtkThread.ml" 51 2431 2450
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkThread.ml" 51 2431 2456 "gtkThread.ml" 51 2431 2457
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "gtkThread.ml" 50 2416 2425 "gtkThread.ml" 50 2416 2426
+)
+"gtkThread.ml" 51 2431 2458 "gtkThread.ml" 51 2431 2459
+type(
+  'a
+)
+ident(
+  int_ref x "gtkThread.ml" 50 2416 2427 "gtkThread.ml" 50 2416 2428
+)
+"gtkThread.ml" 51 2431 2456 "gtkThread.ml" 51 2431 2459
+call(
+  tail
+)
+type(
+  'b
+)
+"gtkThread.ml" 52 2465 2471 "gtkThread.ml" 52 2465 2472
+type(
+  Mutex.t
+)
+"gtkThread.ml" 52 2465 2475 "gtkThread.ml" 52 2465 2487
+type(
+  unit -> Mutex.t
+)
+ident(
+  ext_ref Mutex.create
+)
+"gtkThread.ml" 52 2465 2488 "gtkThread.ml" 52 2465 2490
+type(
+  unit
+)
+"gtkThread.ml" 52 2465 2475 "gtkThread.ml" 52 2465 2490
+call(
+  stack
+)
+type(
+  Mutex.t
+)
+"gtkThread.ml" 53 2494 2500 "gtkThread.ml" 53 2494 2503
+type(
+  'b result ref
+)
+"gtkThread.ml" 53 2494 2506 "gtkThread.ml" 53 2494 2509
+type(
+  'b result -> 'b result ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gtkThread.ml" 53 2494 2510 "gtkThread.ml" 53 2494 2512
+type(
+  'b result
+)
+"gtkThread.ml" 53 2494 2506 "gtkThread.ml" 53 2494 2512
+type(
+  'b result ref
+)
+"gtkThread.ml" 54 2516 2518 "gtkThread.ml" 54 2516 2528
+type(
+  Mutex.t -> unit
+)
+ident(
+  ext_ref Mutex.lock
+)
+"gtkThread.ml" 54 2516 2529 "gtkThread.ml" 54 2516 2530
+type(
+  Mutex.t
+)
+ident(
+  int_ref m "gtkThread.ml" 52 2465 2471 "gtkThread.ml" 52 2465 2472
+)
+"gtkThread.ml" 54 2516 2518 "gtkThread.ml" 54 2516 2530
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkThread.ml" 55 2532 2538 "gtkThread.ml" 55 2532 2539
+type(
+  Condition.t
+)
+"gtkThread.ml" 55 2532 2542 "gtkThread.ml" 55 2532 2558
+type(
+  unit -> Condition.t
+)
+ident(
+  ext_ref Condition.create
+)
+"gtkThread.ml" 55 2532 2559 "gtkThread.ml" 55 2532 2561
+type(
+  unit
+)
+"gtkThread.ml" 55 2532 2542 "gtkThread.ml" 55 2532 2561
+call(
+  stack
+)
+type(
+  Condition.t
+)
+"gtkThread.ml" 56 2565 2571 "gtkThread.ml" 56 2565 2572
+type(
+  'a -> unit
+)
+"gtkThread.ml" 56 2565 2573 "gtkThread.ml" 56 2565 2574
+type(
+  'a
+)
+ident(
+  def x "gtkThread.ml" 57 2577 2581 "gtkThread.ml" 59 2666 2688
+)
+"gtkThread.ml" 57 2577 2585 "gtkThread.ml" 57 2577 2586
+type(
+  'b result
+)
+"gtkThread.ml" 57 2577 2598 "gtkThread.ml" 57 2577 2599
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "gtkThread.ml" 50 2416 2425 "gtkThread.ml" 50 2416 2426
+)
+"gtkThread.ml" 57 2577 2600 "gtkThread.ml" 57 2577 2601
+type(
+  'a
+)
+ident(
+  int_ref x "gtkThread.ml" 56 2565 2573 "gtkThread.ml" 56 2565 2574
+)
+"gtkThread.ml" 57 2577 2597 "gtkThread.ml" 57 2577 2602
+call(
+  stack
+)
+type(
+  'b
+)
+"gtkThread.ml" 57 2577 2593 "gtkThread.ml" 57 2577 2602
+type(
+  'b result
+)
+"gtkThread.ml" 57 2577 2608 "gtkThread.ml" 57 2577 2609
+type(
+  exn
+)
+ident(
+  def e "gtkThread.ml" 57 2577 2613 "gtkThread.ml" 57 2577 2618
+)
+"gtkThread.ml" 57 2577 2617 "gtkThread.ml" 57 2577 2618
+type(
+  exn
+)
+ident(
+  int_ref e "gtkThread.ml" 57 2577 2608 "gtkThread.ml" 57 2577 2609
+)
+"gtkThread.ml" 57 2577 2613 "gtkThread.ml" 57 2577 2618
+type(
+  'b result
+)
+"gtkThread.ml" 57 2577 2589 "gtkThread.ml" 57 2577 2618
+type(
+  'b result
+)
+"gtkThread.ml" 58 2622 2626 "gtkThread.ml" 58 2622 2636
+type(
+  Mutex.t -> unit
+)
+ident(
+  ext_ref Mutex.lock
+)
+"gtkThread.ml" 58 2622 2637 "gtkThread.ml" 58 2622 2638
+type(
+  Mutex.t
+)
+ident(
+  int_ref m "gtkThread.ml" 52 2465 2471 "gtkThread.ml" 52 2465 2472
+)
+"gtkThread.ml" 58 2622 2626 "gtkThread.ml" 58 2622 2638
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkThread.ml" 58 2622 2640 "gtkThread.ml" 58 2622 2643
+type(
+  'b result ref
+)
+ident(
+  int_ref res "gtkThread.ml" 53 2494 2500 "gtkThread.ml" 53 2494 2503
+)
+"gtkThread.ml" 58 2622 2644 "gtkThread.ml" 58 2622 2646
+type(
+  'b result ref -> 'b result -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gtkThread.ml" 58 2622 2647 "gtkThread.ml" 58 2622 2648
+type(
+  'b result
+)
+ident(
+  int_ref y "gtkThread.ml" 57 2577 2585 "gtkThread.ml" 57 2577 2586
+)
+"gtkThread.ml" 58 2622 2640 "gtkThread.ml" 58 2622 2648
+type(
+  unit
+)
+"gtkThread.ml" 58 2622 2650 "gtkThread.ml" 58 2622 2662
+type(
+  Mutex.t -> unit
+)
+ident(
+  ext_ref Mutex.unlock
+)
+"gtkThread.ml" 58 2622 2663 "gtkThread.ml" 58 2622 2664
+type(
+  Mutex.t
+)
+ident(
+  int_ref m "gtkThread.ml" 52 2465 2471 "gtkThread.ml" 52 2465 2472
+)
+"gtkThread.ml" 58 2622 2650 "gtkThread.ml" 58 2622 2664
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkThread.ml" 59 2666 2670 "gtkThread.ml" 59 2666 2686
+type(
+  Condition.t -> unit
+)
+ident(
+  ext_ref Condition.signal
+)
+"gtkThread.ml" 59 2666 2687 "gtkThread.ml" 59 2666 2688
+type(
+  Condition.t
+)
+ident(
+  int_ref c "gtkThread.ml" 55 2532 2538 "gtkThread.ml" 55 2532 2539
+)
+"gtkThread.ml" 59 2666 2670 "gtkThread.ml" 59 2666 2688
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkThread.ml" 58 2622 2650 "gtkThread.ml" 59 2666 2688
+type(
+  unit
+)
+"gtkThread.ml" 58 2622 2640 "gtkThread.ml" 59 2666 2688
+type(
+  unit
+)
+"gtkThread.ml" 58 2622 2626 "gtkThread.ml" 59 2666 2688
+type(
+  unit
+)
+"gtkThread.ml" 57 2577 2581 "gtkThread.ml" 59 2666 2688
+type(
+  unit
+)
+"gtkThread.ml" 61 2694 2696 "gtkThread.ml" 61 2694 2701
+type(
+  ('a -> unit) -> 'a -> unit
+)
+ident(
+  int_ref async "gtkThread.ml" 46 2260 2264 "gtkThread.ml" 46 2260 2269
+)
+"gtkThread.ml" 61 2694 2702 "gtkThread.ml" 61 2694 2703
+type(
+  'a -> unit
+)
+ident(
+  int_ref j "gtkThread.ml" 56 2565 2571 "gtkThread.ml" 56 2565 2572
+)
+"gtkThread.ml" 61 2694 2704 "gtkThread.ml" 61 2694 2705
+type(
+  'a
+)
+ident(
+  int_ref x "gtkThread.ml" 50 2416 2427 "gtkThread.ml" 50 2416 2428
+)
+"gtkThread.ml" 61 2694 2696 "gtkThread.ml" 61 2694 2705
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkThread.ml" 62 2707 2715 "gtkThread.ml" 62 2707 2716
+type(
+  'b result ref -> 'b result
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkThread.ml" 62 2707 2716 "gtkThread.ml" 62 2707 2719
+type(
+  'b result ref
+)
+ident(
+  int_ref res "gtkThread.ml" 53 2494 2500 "gtkThread.ml" 53 2494 2503
+)
+"gtkThread.ml" 62 2707 2715 "gtkThread.ml" 62 2707 2719
+type(
+  'b result
+)
+"gtkThread.ml" 62 2707 2720 "gtkThread.ml" 62 2707 2721
+type(
+  'b result -> 'b result -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gtkThread.ml" 62 2707 2722 "gtkThread.ml" 62 2707 2724
+type(
+  'b result
+)
+"gtkThread.ml" 62 2707 2715 "gtkThread.ml" 62 2707 2724
+type(
+  bool
+)
+"gtkThread.ml" 62 2707 2728 "gtkThread.ml" 62 2707 2742
+type(
+  Condition.t -> Mutex.t -> unit
+)
+ident(
+  ext_ref Condition.wait
+)
+"gtkThread.ml" 62 2707 2743 "gtkThread.ml" 62 2707 2744
+type(
+  Condition.t
+)
+ident(
+  int_ref c "gtkThread.ml" 55 2532 2538 "gtkThread.ml" 55 2532 2539
+)
+"gtkThread.ml" 62 2707 2745 "gtkThread.ml" 62 2707 2746
+type(
+  Mutex.t
+)
+ident(
+  int_ref m "gtkThread.ml" 52 2465 2471 "gtkThread.ml" 52 2465 2472
+)
+"gtkThread.ml" 62 2707 2728 "gtkThread.ml" 62 2707 2746
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkThread.ml" 62 2707 2709 "gtkThread.ml" 62 2707 2751
+type(
+  unit
+)
+"gtkThread.ml" 63 2753 2761 "gtkThread.ml" 63 2753 2762
+type(
+  'b result ref -> 'b result
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkThread.ml" 63 2753 2762 "gtkThread.ml" 63 2753 2765
+type(
+  'b result ref
+)
+ident(
+  int_ref res "gtkThread.ml" 53 2494 2500 "gtkThread.ml" 53 2494 2503
+)
+"gtkThread.ml" 63 2753 2761 "gtkThread.ml" 63 2753 2765
+type(
+  'b result
+)
+"gtkThread.ml" 63 2753 2775 "gtkThread.ml" 63 2753 2776
+type(
+  'b
+)
+ident(
+  def y "gtkThread.ml" 63 2753 2780 "gtkThread.ml" 63 2753 2781
+)
+"gtkThread.ml" 63 2753 2771 "gtkThread.ml" 63 2753 2776
+type(
+  'b result
+)
+"gtkThread.ml" 63 2753 2780 "gtkThread.ml" 63 2753 2781
+type(
+  'b
+)
+ident(
+  int_ref y "gtkThread.ml" 63 2753 2775 "gtkThread.ml" 63 2753 2776
+)
+"gtkThread.ml" 63 2753 2788 "gtkThread.ml" 63 2753 2789
+type(
+  exn
+)
+ident(
+  def e "gtkThread.ml" 63 2753 2793 "gtkThread.ml" 63 2753 2800
+)
+"gtkThread.ml" 63 2753 2784 "gtkThread.ml" 63 2753 2789
+type(
+  'b result
+)
+"gtkThread.ml" 63 2753 2793 "gtkThread.ml" 63 2753 2798
+type(
+  exn -> 'b
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gtkThread.ml" 63 2753 2799 "gtkThread.ml" 63 2753 2800
+type(
+  exn
+)
+ident(
+  int_ref e "gtkThread.ml" 63 2753 2788 "gtkThread.ml" 63 2753 2789
+)
+"gtkThread.ml" 63 2753 2793 "gtkThread.ml" 63 2753 2800
+type(
+  'b
+)
+"gtkThread.ml" 63 2753 2803 "gtkThread.ml" 63 2753 2805
+type(
+  'b result
+)
+"gtkThread.ml" 63 2753 2809 "gtkThread.ml" 63 2753 2821
+type(
+  'b
+)
+"gtkThread.ml" 63 2753 2755 "gtkThread.ml" 63 2753 2821
+type(
+  'b
+)
+"gtkThread.ml" 62 2707 2709 "gtkThread.ml" 63 2753 2821
+type(
+  'b
+)
+"gtkThread.ml" 61 2694 2696 "gtkThread.ml" 63 2753 2821
+type(
+  'b
+)
+"gtkThread.ml" 56 2565 2567 "gtkThread.ml" 63 2753 2821
+type(
+  'b
+)
+"gtkThread.ml" 55 2532 2534 "gtkThread.ml" 63 2753 2821
+type(
+  'b
+)
+"gtkThread.ml" 54 2516 2518 "gtkThread.ml" 63 2753 2821
+type(
+  'b
+)
+"gtkThread.ml" 53 2494 2496 "gtkThread.ml" 63 2753 2821
+type(
+  'b
+)
+"gtkThread.ml" 52 2465 2467 "gtkThread.ml" 63 2753 2821
+type(
+  'b
+)
+"gtkThread.ml" 51 2431 2433 "gtkThread.ml" 63 2753 2821
+type(
+  'b
+)
+"gtkThread.ml" 65 2823 2827 "gtkThread.ml" 65 2823 2834
+type(
+  unit -> bool
+)
+ident(
+  def do_jobs "gtkThread.ml" 74 3063 3063 --
+)
+"gtkThread.ml" 65 2823 2835 "gtkThread.ml" 65 2823 2837
+type(
+  unit
+)
+"gtkThread.ml" 66 2840 2842 "gtkThread.ml" 66 2840 2854
+type(
+  float -> unit
+)
+ident(
+  ext_ref Thread.delay
+)
+"gtkThread.ml" 66 2840 2855 "gtkThread.ml" 66 2840 2861
+type(
+  float
+)
+"gtkThread.ml" 66 2840 2842 "gtkThread.ml" 66 2840 2861
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkThread.ml" 67 2863 2873 "gtkThread.ml" 67 2863 2874
+type(
+  int
+)
+"gtkThread.ml" 67 2863 2878 "gtkThread.ml" 67 2863 2884
+type(
+  unit -> int
+)
+ident(
+  int_ref n_jobs "gtkThread.ml" 44 2176 2180 "gtkThread.ml" 44 2176 2186
+)
+"gtkThread.ml" 67 2863 2885 "gtkThread.ml" 67 2863 2887
+type(
+  unit
+)
+"gtkThread.ml" 67 2863 2878 "gtkThread.ml" 67 2863 2887
+call(
+  stack
+)
+type(
+  int
+)
+"gtkThread.ml" 67 2863 2891 "gtkThread.ml" 67 2863 2902
+type(
+  unit -> unit
+)
+ident(
+  int_ref do_next_job "gtkThread.ml" 45 2215 2219 "gtkThread.ml" 45 2215 2230
+)
+"gtkThread.ml" 67 2863 2903 "gtkThread.ml" 67 2863 2905
+type(
+  unit
+)
+"gtkThread.ml" 67 2863 2891 "gtkThread.ml" 67 2863 2905
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkThread.ml" 67 2863 2865 "gtkThread.ml" 67 2863 2910
+type(
+  unit
+)
+"gtkThread.ml" 68 2912 2914 "gtkThread.ml" 68 2912 2918
+type(
+  bool
+)
+"gtkThread.ml" 67 2863 2865 "gtkThread.ml" 68 2912 2918
+type(
+  bool
+)
+"gtkThread.ml" 66 2840 2842 "gtkThread.ml" 68 2912 2918
+type(
+  bool
+)
+"gtkThread.ml" 74 3063 3067 "gtkThread.ml" 74 3063 3083
+type(
+  unit -> unit
+)
+ident(
+  def thread_main_real "gtkThread.ml" 92 3517 3517 --
+)
+"gtkThread.ml" 74 3063 3084 "gtkThread.ml" 74 3063 3086
+type(
+  unit
+)
+"gtkThread.ml" 76 3095 3103 "gtkThread.ml" 76 3095 3107
+type(
+  Glib.Main.t
+)
+ident(
+  def loop "gtkThread.ml" 77 3137 3141 "gtkThread.ml" 87 3410 3448
+)
+"gtkThread.ml" 76 3095 3111 "gtkThread.ml" 76 3095 3127
+type(
+  bool -> Glib.Main.t
+)
+ident(
+  ext_ref Glib.Main.create
+)
+"gtkThread.ml" 76 3095 3128 "gtkThread.ml" 76 3095 3132
+type(
+  bool
+)
+"gtkThread.ml" 76 3095 3110 "gtkThread.ml" 76 3095 3133
+call(
+  stack
+)
+type(
+  Glib.Main.t
+)
+"gtkThread.ml" 77 3137 3141 "gtkThread.ml" 77 3137 3151
+type(
+  Glib.Main.t list ref
+)
+ident(
+  ext_ref GtkMain.Main.loops
+)
+"gtkThread.ml" 77 3137 3152 "gtkThread.ml" 77 3137 3154
+type(
+  Glib.Main.t list ref -> Glib.Main.t list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gtkThread.ml" 77 3137 3155 "gtkThread.ml" 77 3137 3159
+type(
+  Glib.Main.t
+)
+ident(
+  int_ref loop "gtkThread.ml" 76 3095 3103 "gtkThread.ml" 76 3095 3107
+)
+"gtkThread.ml" 77 3137 3163 "gtkThread.ml" 77 3137 3164
+type(
+  Glib.Main.t list ref -> Glib.Main.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkThread.ml" 77 3137 3164 "gtkThread.ml" 77 3137 3174
+type(
+  Glib.Main.t list ref
+)
+ident(
+  ext_ref GtkMain.Main.loops
+)
+"gtkThread.ml" 77 3137 3163 "gtkThread.ml" 77 3137 3174
+type(
+  Glib.Main.t list
+)
+"gtkThread.ml" 77 3137 3155 "gtkThread.ml" 77 3137 3174
+type(
+  Glib.Main.t list
+)
+"gtkThread.ml" 77 3137 3141 "gtkThread.ml" 77 3137 3174
+type(
+  unit
+)
+"gtkThread.ml" 78 3176 3180 "gtkThread.ml" 78 3176 3187
+type(
+  int option ref
+)
+ident(
+  int_ref loop_id "gtkThread.ml" 34 1873 1877 "gtkThread.ml" 34 1873 1884
+)
+"gtkThread.ml" 78 3176 3188 "gtkThread.ml" 78 3176 3190
+type(
+  int option ref -> int option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gtkThread.ml" 78 3176 3197 "gtkThread.ml" 78 3176 3206
+type(
+  Thread.t -> int
+)
+ident(
+  ext_ref Thread.id
+)
+"gtkThread.ml" 78 3176 3208 "gtkThread.ml" 78 3176 3219
+type(
+  unit -> Thread.t
+)
+ident(
+  ext_ref Thread.self
+)
+"gtkThread.ml" 78 3176 3220 "gtkThread.ml" 78 3176 3222
+type(
+  unit
+)
+"gtkThread.ml" 78 3176 3207 "gtkThread.ml" 78 3176 3223
+call(
+  stack
+)
+type(
+  Thread.t
+)
+"gtkThread.ml" 78 3176 3196 "gtkThread.ml" 78 3176 3224
+call(
+  stack
+)
+type(
+  int
+)
+"gtkThread.ml" 78 3176 3191 "gtkThread.ml" 78 3176 3224
+type(
+  int option
+)
+"gtkThread.ml" 78 3176 3180 "gtkThread.ml" 78 3176 3224
+type(
+  unit
+)
+"gtkThread.ml" 79 3226 3236 "gtkThread.ml" 79 3226 3256
+type(
+  Glib.Main.t -> bool
+)
+ident(
+  ext_ref Glib.Main.is_running
+)
+"gtkThread.ml" 79 3226 3257 "gtkThread.ml" 79 3226 3261
+type(
+  Glib.Main.t
+)
+ident(
+  int_ref loop "gtkThread.ml" 76 3095 3103 "gtkThread.ml" 76 3095 3107
+)
+"gtkThread.ml" 79 3226 3236 "gtkThread.ml" 79 3226 3261
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkThread.ml" 80 3265 3275 "gtkThread.ml" 80 3265 3276
+type(
+  int ref
+)
+ident(
+  def i "gtkThread.ml" 81 3288 3294 "gtkThread.ml" 85 3383 3399
+)
+"gtkThread.ml" 80 3265 3279 "gtkThread.ml" 80 3265 3282
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gtkThread.ml" 80 3265 3283 "gtkThread.ml" 80 3265 3284
+type(
+  int
+)
+"gtkThread.ml" 80 3265 3279 "gtkThread.ml" 80 3265 3284
+type(
+  int ref
+)
+"gtkThread.ml" 81 3288 3300 "gtkThread.ml" 81 3288 3301
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkThread.ml" 81 3288 3301 "gtkThread.ml" 81 3288 3302
+type(
+  int ref
+)
+ident(
+  int_ref i "gtkThread.ml" 80 3265 3275 "gtkThread.ml" 80 3265 3276
+)
+"gtkThread.ml" 81 3288 3300 "gtkThread.ml" 81 3288 3302
+type(
+  int
+)
+"gtkThread.ml" 81 3288 3303 "gtkThread.ml" 81 3288 3304
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gtkThread.ml" 81 3288 3305 "gtkThread.ml" 81 3288 3308
+type(
+  int
+)
+"gtkThread.ml" 81 3288 3300 "gtkThread.ml" 81 3288 3308
+type(
+  bool
+)
+"gtkThread.ml" 81 3288 3309 "gtkThread.ml" 81 3288 3311
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"gtkThread.ml" 81 3288 3312 "gtkThread.ml" 81 3288 3329
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Glib.Main.pending
+)
+"gtkThread.ml" 81 3288 3330 "gtkThread.ml" 81 3288 3332
+type(
+  unit
+)
+"gtkThread.ml" 81 3288 3312 "gtkThread.ml" 81 3288 3332
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkThread.ml" 81 3288 3300 "gtkThread.ml" 81 3288 3332
+type(
+  bool
+)
+"gtkThread.ml" 82 3336 3337 "gtkThread.ml" 82 3336 3356
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Glib.Main.iteration
+)
+"gtkThread.ml" 82 3336 3357 "gtkThread.ml" 82 3336 3361
+type(
+  bool
+)
+"gtkThread.ml" 82 3336 3337 "gtkThread.ml" 82 3336 3361
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkThread.ml" 83 3363 3364 "gtkThread.ml" 83 3363 3368
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"gtkThread.ml" 83 3363 3369 "gtkThread.ml" 83 3363 3370
+type(
+  int ref
+)
+ident(
+  int_ref i "gtkThread.ml" 80 3265 3275 "gtkThread.ml" 80 3265 3276
+)
+"gtkThread.ml" 83 3363 3364 "gtkThread.ml" 83 3363 3370
+type(
+  unit
+)
+"gtkThread.ml" 82 3336 3337 "gtkThread.ml" 83 3363 3370
+type(
+  unit
+)
+"gtkThread.ml" 81 3288 3294 "gtkThread.ml" 84 3371 3381
+type(
+  unit
+)
+"gtkThread.ml" 85 3383 3389 "gtkThread.ml" 85 3383 3396
+type(
+  unit -> bool
+)
+ident(
+  int_ref do_jobs "gtkThread.ml" 65 2823 2827 "gtkThread.ml" 65 2823 2834
+)
+"gtkThread.ml" 85 3383 3397 "gtkThread.ml" 85 3383 3399
+type(
+  unit
+)
+"gtkThread.ml" 85 3383 3389 "gtkThread.ml" 85 3383 3399
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkThread.ml" 81 3288 3294 "gtkThread.ml" 85 3383 3399
+type(
+  bool
+)
+"gtkThread.ml" 80 3265 3271 "gtkThread.ml" 85 3383 3399
+type(
+  bool
+)
+"gtkThread.ml" 79 3226 3230 "gtkThread.ml" 86 3400 3408
+type(
+  unit
+)
+"gtkThread.ml" 87 3410 3414 "gtkThread.ml" 87 3410 3424
+type(
+  Glib.Main.t list ref
+)
+ident(
+  ext_ref GtkMain.Main.loops
+)
+"gtkThread.ml" 87 3410 3425 "gtkThread.ml" 87 3410 3427
+type(
+  Glib.Main.t list ref -> Glib.Main.t list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gtkThread.ml" 87 3410 3428 "gtkThread.ml" 87 3410 3435
+type(
+  Glib.Main.t list -> Glib.Main.t list
+)
+ident(
+  ext_ref List.tl
+)
+"gtkThread.ml" 87 3410 3436 "gtkThread.ml" 87 3410 3437
+type(
+  Glib.Main.t list ref -> Glib.Main.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkThread.ml" 87 3410 3437 "gtkThread.ml" 87 3410 3447
+type(
+  Glib.Main.t list ref
+)
+ident(
+  ext_ref GtkMain.Main.loops
+)
+"gtkThread.ml" 87 3410 3436 "gtkThread.ml" 87 3410 3447
+type(
+  Glib.Main.t list
+)
+"gtkThread.ml" 87 3410 3428 "gtkThread.ml" 87 3410 3447
+call(
+  stack
+)
+type(
+  Glib.Main.t list
+)
+"gtkThread.ml" 87 3410 3414 "gtkThread.ml" 87 3410 3448
+type(
+  unit
+)
+"gtkThread.ml" 79 3226 3230 "gtkThread.ml" 87 3410 3448
+type(
+  unit
+)
+"gtkThread.ml" 78 3176 3180 "gtkThread.ml" 87 3410 3448
+type(
+  unit
+)
+"gtkThread.ml" 77 3137 3141 "gtkThread.ml" 87 3410 3448
+type(
+  unit
+)
+"gtkThread.ml" 76 3095 3099 "gtkThread.ml" 87 3410 3448
+type(
+  unit
+)
+"gtkThread.ml" 88 3449 3456 "gtkThread.ml" 88 3449 3459
+type(
+  exn
+)
+ident(
+  def exn "gtkThread.ml" 89 3463 3467 "gtkThread.ml" 90 3502 3515
+)
+"gtkThread.ml" 89 3463 3467 "gtkThread.ml" 89 3463 3477
+type(
+  Glib.Main.t list ref
+)
+ident(
+  ext_ref GtkMain.Main.loops
+)
+"gtkThread.ml" 89 3463 3478 "gtkThread.ml" 89 3463 3480
+type(
+  Glib.Main.t list ref -> Glib.Main.t list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gtkThread.ml" 89 3463 3481 "gtkThread.ml" 89 3463 3488
+type(
+  Glib.Main.t list -> Glib.Main.t list
+)
+ident(
+  ext_ref List.tl
+)
+"gtkThread.ml" 89 3463 3489 "gtkThread.ml" 89 3463 3490
+type(
+  Glib.Main.t list ref -> Glib.Main.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkThread.ml" 89 3463 3490 "gtkThread.ml" 89 3463 3500
+type(
+  Glib.Main.t list ref
+)
+ident(
+  ext_ref GtkMain.Main.loops
+)
+"gtkThread.ml" 89 3463 3489 "gtkThread.ml" 89 3463 3500
+type(
+  Glib.Main.t list
+)
+"gtkThread.ml" 89 3463 3481 "gtkThread.ml" 89 3463 3500
+call(
+  stack
+)
+type(
+  Glib.Main.t list
+)
+"gtkThread.ml" 89 3463 3467 "gtkThread.ml" 89 3463 3500
+type(
+  unit
+)
+"gtkThread.ml" 90 3502 3506 "gtkThread.ml" 90 3502 3511
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gtkThread.ml" 90 3502 3512 "gtkThread.ml" 90 3502 3515
+type(
+  exn
+)
+ident(
+  int_ref exn "gtkThread.ml" 88 3449 3456 "gtkThread.ml" 88 3449 3459
+)
+"gtkThread.ml" 90 3502 3506 "gtkThread.ml" 90 3502 3515
+type(
+  unit
+)
+"gtkThread.ml" 89 3463 3467 "gtkThread.ml" 90 3502 3515
+type(
+  unit
+)
+"gtkThread.ml" 75 3089 3091 "gtkThread.ml" 90 3502 3515
+type(
+  unit
+)
+"gtkThread.ml" 92 3517 3521 "gtkThread.ml" 92 3517 3532
+type(
+  unit -> unit
+)
+ident(
+  def thread_main "gtkThread.ml" 95 3566 3566 --
+)
+"gtkThread.ml" 92 3517 3533 "gtkThread.ml" 92 3517 3535
+type(
+  unit
+)
+"gtkThread.ml" 93 3538 3540 "gtkThread.ml" 93 3538 3544
+type(
+  (unit -> unit) -> unit -> unit
+)
+ident(
+  int_ref sync "gtkThread.ml" 50 2416 2420 "gtkThread.ml" 50 2416 2424
+)
+"gtkThread.ml" 93 3538 3545 "gtkThread.ml" 93 3538 3561
+type(
+  unit -> unit
+)
+ident(
+  int_ref thread_main_real "gtkThread.ml" 74 3063 3067 "gtkThread.ml" 74 3063 3083
+)
+"gtkThread.ml" 93 3538 3562 "gtkThread.ml" 93 3538 3564
+type(
+  unit
+)
+"gtkThread.ml" 93 3538 3540 "gtkThread.ml" 93 3538 3564
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkThread.ml" 95 3566 3570 "gtkThread.ml" 95 3566 3574
+type(
+  unit -> unit
+)
+ident(
+  def main "gtkThread.ml" 99 3645 3645 --
+)
+"gtkThread.ml" 95 3566 3575 "gtkThread.ml" 95 3566 3577
+type(
+  unit
+)
+"gtkThread.ml" 96 3580 3582 "gtkThread.ml" 96 3580 3604
+type(
+  (unit -> unit) ref
+)
+ident(
+  ext_ref GtkMain.Main.main_func
+)
+"gtkThread.ml" 96 3580 3605 "gtkThread.ml" 96 3580 3607
+type(
+  (unit -> unit) ref -> (unit -> unit) -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gtkThread.ml" 96 3580 3608 "gtkThread.ml" 96 3580 3619
+type(
+  unit -> unit
+)
+ident(
+  int_ref thread_main "gtkThread.ml" 92 3517 3521 "gtkThread.ml" 92 3517 3532
+)
+"gtkThread.ml" 96 3580 3582 "gtkThread.ml" 96 3580 3619
+type(
+  unit
+)
+"gtkThread.ml" 97 3621 3623 "gtkThread.ml" 97 3621 3634
+type(
+  unit -> unit
+)
+ident(
+  int_ref thread_main "gtkThread.ml" 92 3517 3521 "gtkThread.ml" 92 3517 3532
+)
+"gtkThread.ml" 97 3621 3635 "gtkThread.ml" 97 3621 3637
+type(
+  unit
+)
+"gtkThread.ml" 97 3621 3623 "gtkThread.ml" 97 3621 3637
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkThread.ml" 96 3580 3582 "gtkThread.ml" 97 3621 3637
+type(
+  unit
+)
+"gtkThread.ml" 99 3645 3649 "gtkThread.ml" 99 3645 3654
+type(
+  unit -> Thread.t
+)
+ident(
+  def start "gtkThread.ml" 101 3672 3695 --
+)
+"gtkThread.ml" 99 3645 3655 "gtkThread.ml" 99 3645 3657
+type(
+  unit
+)
+"gtkThread.ml" 100 3660 3662 "gtkThread.ml" 100 3660 3667
+type(
+  unit -> unit
+)
+ident(
+  int_ref reset "gtkThread.ml" 35 1896 1900 "gtkThread.ml" 35 1896 1905
+)
+"gtkThread.ml" 100 3660 3668 "gtkThread.ml" 100 3660 3670
+type(
+  unit
+)
+"gtkThread.ml" 100 3660 3662 "gtkThread.ml" 100 3660 3670
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkThread.ml" 101 3672 3674 "gtkThread.ml" 101 3672 3687
+type(
+  (unit -> unit) -> unit -> Thread.t
+)
+ident(
+  ext_ref Thread.create
+)
+"gtkThread.ml" 101 3672 3688 "gtkThread.ml" 101 3672 3692
+type(
+  unit -> unit
+)
+ident(
+  int_ref main "gtkThread.ml" 95 3566 3570 "gtkThread.ml" 95 3566 3574
+)
+"gtkThread.ml" 101 3672 3693 "gtkThread.ml" 101 3672 3695
+type(
+  unit
+)
+"gtkThread.ml" 101 3672 3674 "gtkThread.ml" 101 3672 3695
+call(
+  tail
+)
+type(
+  Thread.t
+)
+"gtkThread.ml" 100 3660 3662 "gtkThread.ml" 101 3672 3695
+type(
+  Thread.t
+)

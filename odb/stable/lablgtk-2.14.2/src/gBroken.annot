@@ -1,0 +1,2134 @@
+"gBroken.ml" 38 1865 1889 "gBroken.ml" 38 1865 1892
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 39 1902 1936 "gBroken.ml" 39 1902 1939
+type(
+  Gtk.tree_item Gtk.obj
+)
+type(
+  Gtk.tree_item Gtk.obj
+)
+ident(
+  int_ref obj "gBroken.ml" 38 1865 1889 "gBroken.ml" 38 1865 1892
+)
+"gBroken.ml" 44 2007 2023 "gBroken.ml" 44 2007 2026
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 45 2036 2056 "gBroken.ml" 45 2036 2059
+type(
+  Gtk.tree_item Gtk.obj
+)
+ident(
+  int_ref obj "gBroken.ml" 44 2007 2023 "gBroken.ml" 44 2007 2026
+)
+"gBroken.ml" 46 2060 2077 "gBroken.ml" 46 2060 2095
+type(
+  Gtk.tree_item Gtk.obj -> GObj.event_ops
+)
+"gBroken.ml" 46 2060 2096 "gBroken.ml" 46 2060 2099
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 46 2060 2077 "gBroken.ml" 46 2060 2099
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gBroken.ml" 47 2100 2139 "gBroken.ml" 47 2100 2142
+type(
+  Gtk.tree_item Gtk.obj
+)
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 48 2143 2162 "gBroken.ml" 48 2143 2183
+type(
+  Gtk.tree_item Gtk.obj -> tree_item_signals
+)
+"gBroken.ml" 48 2143 2184 "gBroken.ml" 48 2143 2187
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 48 2143 2162 "gBroken.ml" 48 2143 2187
+call(
+  tail
+)
+type(
+  tree_item_signals
+)
+type(
+  tree_item_signals
+)
+"gBroken.ml" 49 2188 2210 "gBroken.ml" 49 2188 2211
+type(
+  tree
+)
+ident(
+  def w "gBroken.ml" 49 2188 2222 "gBroken.ml" 49 2188 2256
+)
+"gBroken.ml" 49 2188 2222 "gBroken.ml" 49 2188 2242
+type(
+  Gtk.tree_item Gtk.obj -> Gtk.tree Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBroken.TreeItem.set_subtree
+)
+"gBroken.ml" 49 2188 2243 "gBroken.ml" 49 2188 2246
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 49 2188 2247 "gBroken.ml" 49 2188 2248
+type(
+  tree
+)
+ident(
+  int_ref w "gBroken.ml" 49 2188 2210 "gBroken.ml" 49 2188 2211
+)
+"gBroken.ml" 49 2188 2247 "gBroken.ml" 49 2188 2256
+call(
+  stack
+)
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 49 2188 2222 "gBroken.ml" 49 2188 2256
+type(
+  unit
+)
+"gBroken.ml" 50 2257 2281 "gBroken.ml" 50 2257 2283
+type(
+  unit
+)
+"gBroken.ml" 50 2257 2286 "gBroken.ml" 50 2257 2309
+type(
+  Gtk.tree_item Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBroken.TreeItem.remove_subtree
+)
+"gBroken.ml" 50 2257 2310 "gBroken.ml" 50 2257 2313
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 50 2257 2286 "gBroken.ml" 50 2257 2313
+type(
+  unit
+)
+"gBroken.ml" 51 2314 2330 "gBroken.ml" 51 2314 2332
+type(
+  unit
+)
+"gBroken.ml" 51 2314 2335 "gBroken.ml" 51 2314 2350
+type(
+  Gtk.tree_item Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBroken.TreeItem.expand
+)
+"gBroken.ml" 51 2314 2351 "gBroken.ml" 51 2314 2354
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 51 2314 2335 "gBroken.ml" 51 2314 2354
+type(
+  unit
+)
+"gBroken.ml" 52 2355 2373 "gBroken.ml" 52 2355 2375
+type(
+  unit
+)
+"gBroken.ml" 52 2355 2378 "gBroken.ml" 52 2355 2395
+type(
+  Gtk.tree_item Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBroken.TreeItem.collapse
+)
+"gBroken.ml" 52 2355 2396 "gBroken.ml" 52 2355 2399
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 52 2355 2378 "gBroken.ml" 52 2355 2399
+type(
+  unit
+)
+"gBroken.ml" 54 2419 2432 "gBroken.ml" 54 2419 2440
+type(
+  Gtk.tree Gtk.obj -> tree
+)
+"gBroken.ml" 54 2419 2442 "gBroken.ml" 54 2419 2458
+type(
+  Gtk.tree_item Gtk.obj -> Gtk.tree Gtk.obj
+)
+ident(
+  ext_ref GtkBroken.TreeItem.subtree
+)
+"gBroken.ml" 54 2419 2459 "gBroken.ml" 54 2419 2462
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 54 2419 2441 "gBroken.ml" 54 2419 2463
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 54 2419 2431 "gBroken.ml" 54 2419 2464
+call(
+  stack
+)
+type(
+  tree
+)
+"gBroken.ml" 54 2419 2427 "gBroken.ml" 54 2419 2464
+type(
+  tree option
+)
+"gBroken.ml" 54 2419 2470 "gBroken.ml" 54 2419 2483
+type(
+  exn
+)
+"gBroken.ml" 54 2419 2487 "gBroken.ml" 54 2419 2491
+type(
+  tree option
+)
+"gBroken.ml" 54 2419 2423 "gBroken.ml" 54 2419 2491
+type(
+  tree option
+)
+type(
+  tree option
+)
+"gBroken.ml" 57 2497 2514 "gBroken.ml" 57 2497 2517
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 57 2497 2527 "gBroken.ml" 57 2497 2533
+type(
+  < add : callback:(GObj.widget -> unit) -> GtkSignal.id; after : 'a;
+    destroy : callback:(unit -> unit) -> GtkSignal.id;
+    remove : callback:(GObj.widget -> unit) -> GtkSignal.id;
+    select_child : callback:(tree_item -> unit) -> GtkSignal.id;
+    selection_changed : callback:(unit -> unit) -> GtkSignal.id;
+    unselect_child : callback:(tree_item -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"gBroken.ml" 58 2534 2567 "gBroken.ml" 58 2534 2570
+type(
+  Gtk.tree Gtk.obj
+)
+ident(
+  int_ref obj "gBroken.ml" 57 2497 2514 "gBroken.ml" 57 2497 2517
+)
+"gBroken.ml" 59 2571 2600 "gBroken.ml" 59 2571 2604
+type(
+  'a
+)
+"gBroken.ml" 59 2571 2600 "gBroken.ml" 59 2571 2612
+call(
+  tail
+)
+type(
+  (Gtk.tree, unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gBroken.ml" 59 2571 2613 "gBroken.ml" 59 2571 2637
+type(
+  (Gtk.tree, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBroken.Tree.S.selection_changed
+)
+"gBroken.ml" 59 2571 2600 "gBroken.ml" 59 2571 2637
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gBroken.ml" 60 2638 2661 "gBroken.ml" 60 2638 2669
+type(
+  tree_item -> unit
+)
+ident(
+  def callback "gBroken.ml" 61 2672 2676 "gBroken.ml" 62 2709 2778
+)
+"gBroken.ml" 61 2672 2676 "gBroken.ml" 61 2672 2680
+type(
+  'a
+)
+"gBroken.ml" 61 2672 2676 "gBroken.ml" 61 2672 2688
+call(
+  tail
+)
+type(
+  (Gtk.tree, Gtk.widget Gtk.obj -> unit) GtkSignal.t ->
+  callback:(Gtk.widget Gtk.obj -> unit) -> GtkSignal.id
+)
+"gBroken.ml" 61 2672 2689 "gBroken.ml" 61 2672 2708
+type(
+  (Gtk.tree, Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBroken.Tree.S.select_child
+)
+"gBroken.ml" 62 2709 2730 "gBroken.ml" 62 2709 2731
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  def w "gBroken.ml" 62 2709 2735 "gBroken.ml" 62 2709 2777
+)
+"gBroken.ml" 62 2709 2735 "gBroken.ml" 62 2709 2743
+type(
+  tree_item -> unit
+)
+ident(
+  int_ref callback "gBroken.ml" 60 2638 2661 "gBroken.ml" 60 2638 2669
+)
+"gBroken.ml" 62 2709 2745 "gBroken.ml" 62 2709 2758
+type(
+  Gtk.tree_item Gtk.obj -> tree_item
+)
+"gBroken.ml" 62 2709 2760 "gBroken.ml" 62 2709 2773
+type(
+  Gtk.widget Gtk.obj -> Gtk.tree_item Gtk.obj
+)
+ident(
+  ext_ref GtkBroken.TreeItem.cast
+)
+"gBroken.ml" 62 2709 2774 "gBroken.ml" 62 2709 2775
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gBroken.ml" 62 2709 2730 "gBroken.ml" 62 2709 2731
+)
+"gBroken.ml" 62 2709 2759 "gBroken.ml" 62 2709 2776
+call(
+  stack
+)
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 62 2709 2744 "gBroken.ml" 62 2709 2777
+call(
+  stack
+)
+type(
+  tree_item
+)
+"gBroken.ml" 62 2709 2735 "gBroken.ml" 62 2709 2777
+call(
+  tail
+)
+type(
+  unit
+)
+"gBroken.ml" 62 2709 2725 "gBroken.ml" 62 2709 2778
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+"gBroken.ml" 61 2672 2676 "gBroken.ml" 62 2709 2778
+type(
+  GtkSignal.id
+)
+"gBroken.ml" 63 2780 2805 "gBroken.ml" 63 2780 2813
+type(
+  tree_item -> unit
+)
+ident(
+  def callback "gBroken.ml" 64 2816 2820 "gBroken.ml" 65 2855 2924
+)
+"gBroken.ml" 64 2816 2820 "gBroken.ml" 64 2816 2824
+type(
+  'a
+)
+"gBroken.ml" 64 2816 2820 "gBroken.ml" 64 2816 2832
+call(
+  tail
+)
+type(
+  (Gtk.tree, Gtk.widget Gtk.obj -> unit) GtkSignal.t ->
+  callback:(Gtk.widget Gtk.obj -> unit) -> GtkSignal.id
+)
+"gBroken.ml" 64 2816 2833 "gBroken.ml" 64 2816 2854
+type(
+  (Gtk.tree, Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBroken.Tree.S.unselect_child
+)
+"gBroken.ml" 65 2855 2876 "gBroken.ml" 65 2855 2877
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  def w "gBroken.ml" 65 2855 2881 "gBroken.ml" 65 2855 2923
+)
+"gBroken.ml" 65 2855 2881 "gBroken.ml" 65 2855 2889
+type(
+  tree_item -> unit
+)
+ident(
+  int_ref callback "gBroken.ml" 63 2780 2805 "gBroken.ml" 63 2780 2813
+)
+"gBroken.ml" 65 2855 2891 "gBroken.ml" 65 2855 2904
+type(
+  Gtk.tree_item Gtk.obj -> tree_item
+)
+"gBroken.ml" 65 2855 2906 "gBroken.ml" 65 2855 2919
+type(
+  Gtk.widget Gtk.obj -> Gtk.tree_item Gtk.obj
+)
+ident(
+  ext_ref GtkBroken.TreeItem.cast
+)
+"gBroken.ml" 65 2855 2920 "gBroken.ml" 65 2855 2921
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gBroken.ml" 65 2855 2876 "gBroken.ml" 65 2855 2877
+)
+"gBroken.ml" 65 2855 2905 "gBroken.ml" 65 2855 2922
+call(
+  stack
+)
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 65 2855 2890 "gBroken.ml" 65 2855 2923
+call(
+  stack
+)
+type(
+  tree_item
+)
+"gBroken.ml" 65 2855 2881 "gBroken.ml" 65 2855 2923
+call(
+  tail
+)
+type(
+  unit
+)
+"gBroken.ml" 65 2855 2871 "gBroken.ml" 65 2855 2924
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+"gBroken.ml" 64 2816 2820 "gBroken.ml" 65 2855 2924
+type(
+  GtkSignal.id
+)
+"gBroken.ml" 68 2931 2940 "gBroken.ml" 68 2931 2943
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 68 2931 2953 "gBroken.ml" 68 2931 2959
+type(
+  < add : tree_item -> unit; all_children : tree_item list;
+    append : tree_item -> unit; as_tree : Gtk.tree Gtk.obj;
+    as_widget : Gtk.widget Gtk.obj; border_width : int;
+    child_position : tree_item -> int; children : tree_item list;
+    clear_items : start:int -> stop:int -> unit; coerce : GObj.widget;
+    connect : tree_signals; destroy : unit -> unit; drag : GObj.drag_ops;
+    event : GObj.event_ops; focus : GContainer.focus; get_oid : int;
+    insert : tree_item -> pos:int -> unit; misc : GObj.misc_ops;
+    prepend : tree_item -> unit; remove : tree_item -> unit;
+    remove_items : tree_item list -> unit;
+    resize_mode : Gtk.Tags.resize_mode; select_item : pos:int -> unit;
+    selection : tree_item list; set_border_width : int -> unit;
+    set_resize_mode : Gtk.Tags.resize_mode -> unit;
+    set_selection_mode : Gtk.Tags.selection_mode -> unit;
+    set_view_lines : bool -> unit; set_view_mode : [ `ITEM | `LINE ] -> unit;
+    unselect_item : pos:int -> unit; .. >
+)
+"gBroken.ml" 69 2960 2997 "gBroken.ml" 69 2960 3000
+type(
+  Gtk.tree Gtk.obj
+)
+ident(
+  int_ref obj "gBroken.ml" 68 2931 2940 "gBroken.ml" 68 2931 2943
+)
+"gBroken.ml" 70 3001 3018 "gBroken.ml" 70 3001 3036
+type(
+  Gtk.tree Gtk.obj -> GObj.event_ops
+)
+"gBroken.ml" 70 3001 3037 "gBroken.ml" 70 3001 3040
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 70 3001 3018 "gBroken.ml" 70 3001 3040
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gBroken.ml" 71 3041 3061 "gBroken.ml" 71 3041 3064
+type(
+  Gtk.tree Gtk.obj
+)
+type(
+  Gtk.tree Gtk.obj
+)
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 72 3082 3098 "gBroken.ml" 72 3082 3099
+type(
+  tree_item
+)
+ident(
+  def w "gBroken.ml" 72 3082 3100 "gBroken.ml" 72 3082 3137
+)
+"gBroken.ml" 72 3082 3101 "gBroken.ml" 72 3082 3104
+type(
+  int
+)
+ident(
+  def pos "gBroken.ml" 72 3082 3107 "gBroken.ml" 72 3082 3137
+)
+"gBroken.ml" 72 3082 3107 "gBroken.ml" 72 3082 3118
+type(
+  Gtk.tree Gtk.obj -> Gtk.tree_item Gtk.obj -> pos:int -> unit
+)
+ident(
+  ext_ref GtkBroken.Tree.insert
+)
+"gBroken.ml" 72 3082 3119 "gBroken.ml" 72 3082 3122
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 72 3082 3123 "gBroken.ml" 72 3082 3124
+type(
+  tree_item
+)
+ident(
+  int_ref w "gBroken.ml" 72 3082 3098 "gBroken.ml" 72 3082 3099
+)
+"gBroken.ml" 72 3082 3123 "gBroken.ml" 72 3082 3132
+call(
+  stack
+)
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 72 3082 3134 "gBroken.ml" 72 3082 3137
+type(
+  int
+)
+ident(
+  int_ref pos "gBroken.ml" 72 3082 3101 "gBroken.ml" 72 3082 3104
+)
+"gBroken.ml" 72 3082 3107 "gBroken.ml" 72 3082 3137
+type(
+  unit
+)
+"gBroken.ml" 73 3138 3157 "gBroken.ml" 73 3138 3173
+type(
+  Gtk.tree Gtk.obj -> tree_signals
+)
+"gBroken.ml" 73 3138 3174 "gBroken.ml" 73 3138 3177
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 73 3138 3157 "gBroken.ml" 73 3138 3177
+call(
+  tail
+)
+type(
+  tree_signals
+)
+type(
+  tree_signals
+)
+"gBroken.ml" 74 3178 3201 "gBroken.ml" 74 3178 3217
+type(
+  Gtk.tree Gtk.obj -> start:int -> stop:int -> unit
+)
+ident(
+  ext_ref GtkBroken.Tree.clear_items
+)
+"gBroken.ml" 74 3178 3218 "gBroken.ml" 74 3178 3221
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 74 3178 3201 "gBroken.ml" 74 3178 3221
+call(
+  tail
+)
+type(
+  start:int -> stop:int -> unit
+)
+type(
+  start:int -> stop:int -> unit
+)
+"gBroken.ml" 75 3222 3245 "gBroken.ml" 75 3222 3261
+type(
+  Gtk.tree Gtk.obj -> pos:int -> unit
+)
+ident(
+  ext_ref GtkBroken.Tree.select_item
+)
+"gBroken.ml" 75 3222 3262 "gBroken.ml" 75 3222 3265
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 75 3222 3245 "gBroken.ml" 75 3222 3265
+call(
+  tail
+)
+type(
+  pos:int -> unit
+)
+type(
+  pos:int -> unit
+)
+"gBroken.ml" 76 3266 3291 "gBroken.ml" 76 3266 3309
+type(
+  Gtk.tree Gtk.obj -> pos:int -> unit
+)
+ident(
+  ext_ref GtkBroken.Tree.unselect_item
+)
+"gBroken.ml" 76 3266 3310 "gBroken.ml" 76 3266 3313
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 76 3266 3291 "gBroken.ml" 76 3266 3313
+call(
+  tail
+)
+type(
+  pos:int -> unit
+)
+type(
+  pos:int -> unit
+)
+"gBroken.ml" 77 3314 3339 "gBroken.ml" 77 3314 3340
+type(
+  tree_item
+)
+ident(
+  def w "gBroken.ml" 77 3314 3356 "gBroken.ml" 77 3314 3389
+)
+"gBroken.ml" 77 3314 3356 "gBroken.ml" 77 3314 3375
+type(
+  Gtk.tree Gtk.obj -> Gtk.tree_item Gtk.obj -> int
+)
+ident(
+  ext_ref GtkBroken.Tree.child_position
+)
+"gBroken.ml" 77 3314 3376 "gBroken.ml" 77 3314 3379
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 77 3314 3380 "gBroken.ml" 77 3314 3381
+type(
+  tree_item
+)
+ident(
+  int_ref w "gBroken.ml" 77 3314 3339 "gBroken.ml" 77 3314 3340
+)
+"gBroken.ml" 77 3314 3380 "gBroken.ml" 77 3314 3389
+call(
+  stack
+)
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 77 3314 3356 "gBroken.ml" 77 3314 3389
+type(
+  int
+)
+"gBroken.ml" 78 3390 3412 "gBroken.ml" 78 3390 3417
+type(
+  tree_item list
+)
+ident(
+  def items "gBroken.ml" 79 3420 3424 "gBroken.ml" 80 3446 3506
+)
+"gBroken.ml" 79 3420 3424 "gBroken.ml" 79 3420 3441
+type(
+  Gtk.tree Gtk.obj -> Gtk.tree_item Gtk.obj list -> unit
+)
+ident(
+  ext_ref GtkBroken.Tree.remove_items
+)
+"gBroken.ml" 79 3420 3442 "gBroken.ml" 79 3420 3445
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 80 3446 3453 "gBroken.ml" 80 3446 3461
+type(
+  f:(tree_item -> Gtk.tree_item Gtk.obj) ->
+  tree_item list -> Gtk.tree_item Gtk.obj list
+)
+ident(
+  ext_ref StdLabels.List.map
+)
+"gBroken.ml" 80 3446 3471 "gBroken.ml" 80 3446 3472
+type(
+  tree_item
+)
+ident(
+  def t "gBroken.ml" 80 3446 3489 "gBroken.ml" 80 3446 3498
+)
+"gBroken.ml" 80 3446 3489 "gBroken.ml" 80 3446 3490
+type(
+  tree_item
+)
+ident(
+  int_ref t "gBroken.ml" 80 3446 3471 "gBroken.ml" 80 3446 3472
+)
+"gBroken.ml" 80 3446 3489 "gBroken.ml" 80 3446 3498
+call(
+  tail
+)
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 80 3446 3465 "gBroken.ml" 80 3446 3499
+type(
+  tree_item -> Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 80 3446 3500 "gBroken.ml" 80 3446 3505
+type(
+  tree_item list
+)
+ident(
+  int_ref items "gBroken.ml" 78 3390 3412 "gBroken.ml" 78 3390 3417
+)
+"gBroken.ml" 80 3446 3452 "gBroken.ml" 80 3446 3506
+call(
+  stack
+)
+type(
+  Gtk.tree_item Gtk.obj list
+)
+"gBroken.ml" 79 3420 3424 "gBroken.ml" 80 3446 3506
+type(
+  unit
+)
+"gBroken.ml" 81 3507 3537 "gBroken.ml" 81 3507 3560
+type(
+  Gtk.tree Gtk.obj -> Gtk.Tags.selection_mode -> unit
+)
+ident(
+  ext_ref GtkBroken.Tree.set_selection_mode
+)
+"gBroken.ml" 81 3507 3561 "gBroken.ml" 81 3507 3564
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 81 3507 3537 "gBroken.ml" 81 3507 3564
+call(
+  tail
+)
+type(
+  Gtk.Tags.selection_mode -> unit
+)
+type(
+  Gtk.Tags.selection_mode -> unit
+)
+"gBroken.ml" 82 3565 3590 "gBroken.ml" 82 3565 3608
+type(
+  Gtk.tree Gtk.obj -> [ `ITEM | `LINE ] -> unit
+)
+ident(
+  ext_ref GtkBroken.Tree.set_view_mode
+)
+"gBroken.ml" 82 3565 3609 "gBroken.ml" 82 3565 3612
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 82 3565 3590 "gBroken.ml" 82 3565 3612
+call(
+  tail
+)
+type(
+  [ `ITEM | `LINE ] -> unit
+)
+type(
+  [ `ITEM | `LINE ] -> unit
+)
+"gBroken.ml" 83 3613 3639 "gBroken.ml" 83 3613 3658
+type(
+  Gtk.tree Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkBroken.Tree.set_view_lines
+)
+"gBroken.ml" 83 3613 3659 "gBroken.ml" 83 3613 3662
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 83 3613 3639 "gBroken.ml" 83 3613 3662
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gBroken.ml" 85 3684 3688 "gBroken.ml" 85 3684 3696
+type(
+  f:(Gtk.tree_item Gtk.obj -> tree_item) ->
+  Gtk.tree_item Gtk.obj list -> tree_item list
+)
+ident(
+  ext_ref StdLabels.List.map
+)
+"gBroken.ml" 85 3684 3705 "gBroken.ml" 85 3684 3706
+type(
+  Gtk.tree_item Gtk.obj
+)
+ident(
+  def w "gBroken.ml" 85 3684 3710 "gBroken.ml" 85 3684 3741
+)
+"gBroken.ml" 85 3684 3710 "gBroken.ml" 85 3684 3714
+type(
+  < add : tree_item -> unit; all_children : tree_item list;
+    append : tree_item -> unit; as_tree : Gtk.tree Gtk.obj;
+    as_widget : Gtk.widget Gtk.obj; border_width : int;
+    child_position : tree_item -> int; children : tree_item list;
+    clear_items : start:int -> stop:int -> unit; coerce : GObj.widget;
+    connect : tree_signals; destroy : unit -> unit; drag : GObj.drag_ops;
+    event : GObj.event_ops; focus : GContainer.focus; get_oid : int;
+    insert : tree_item -> pos:int -> unit; misc : GObj.misc_ops;
+    prepend : tree_item -> unit; remove : tree_item -> unit;
+    remove_items : tree_item list -> unit;
+    resize_mode : Gtk.Tags.resize_mode; select_item : pos:int -> unit;
+    selection : tree_item list; set_border_width : int -> unit;
+    set_resize_mode : Gtk.Tags.resize_mode -> unit;
+    set_selection_mode : Gtk.Tags.selection_mode -> unit;
+    set_view_lines : bool -> unit; set_view_mode : [ `ITEM | `LINE ] -> unit;
+    unselect_item : pos:int -> unit; .. >
+  as 'b
+)
+"gBroken.ml" 85 3684 3710 "gBroken.ml" 85 3684 3719
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj -> tree_item
+)
+"gBroken.ml" 85 3684 3721 "gBroken.ml" 85 3684 3722
+type(
+  Gtk.widget Gtk.obj
+)
+type(
+  Gtk.tree_item Gtk.obj
+)
+ident(
+  int_ref w "gBroken.ml" 85 3684 3705 "gBroken.ml" 85 3684 3706
+)
+"gBroken.ml" 85 3684 3710 "gBroken.ml" 85 3684 3741
+type(
+  tree_item
+)
+"gBroken.ml" 85 3684 3700 "gBroken.ml" 85 3684 3742
+type(
+  Gtk.tree_item Gtk.obj -> tree_item
+)
+"gBroken.ml" 85 3684 3744 "gBroken.ml" 85 3684 3758
+type(
+  Gtk.tree Gtk.obj -> Gtk.tree_item Gtk.obj list
+)
+ident(
+  ext_ref GtkBroken.Tree.selection
+)
+"gBroken.ml" 85 3684 3759 "gBroken.ml" 85 3684 3762
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 85 3684 3743 "gBroken.ml" 85 3684 3763
+type(
+  Gtk.tree_item Gtk.obj list
+)
+"gBroken.ml" 85 3684 3688 "gBroken.ml" 85 3684 3763
+call(
+  tail
+)
+type(
+  tree_item list
+)
+type(
+  tree_item list
+)
+"gBroken.ml" 86 3764 3786 "gBroken.ml" 86 3764 3787
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  def w "gBroken.ml" 87 3790 3794 "gBroken.ml" 87 3790 3825
+)
+"gBroken.ml" 87 3790 3794 "gBroken.ml" 87 3790 3807
+type(
+  Gtk.tree_item Gtk.obj -> tree_item
+)
+"gBroken.ml" 87 3790 3809 "gBroken.ml" 87 3790 3822
+type(
+  Gtk.widget Gtk.obj -> Gtk.tree_item Gtk.obj
+)
+ident(
+  ext_ref GtkBroken.TreeItem.cast
+)
+"gBroken.ml" 87 3790 3823 "gBroken.ml" 87 3790 3824
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gBroken.ml" 86 3764 3786 "gBroken.ml" 86 3764 3787
+)
+"gBroken.ml" 87 3790 3808 "gBroken.ml" 87 3790 3825
+call(
+  stack
+)
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 87 3790 3794 "gBroken.ml" 87 3790 3825
+call(
+  tail
+)
+type(
+  tree_item
+)
+"gBroken.ml" 90 3831 3835 "gBroken.ml" 90 3831 3844
+type(
+  ?label:string ->
+  ?packing:(tree_item -> unit) -> ?show:bool -> unit -> tree_item
+)
+ident(
+  def tree_item "gBroken.ml" 97 4044 4044 --
+)
+"gBroken.ml" 90 3831 3846 "gBroken.ml" 90 3831 3851
+type(
+  string option
+)
+ident(
+  def label "gBroken.ml" 90 3831 3852 "gBroken.ml" 95 4036 4042
+)
+"gBroken.ml" 90 3831 3853 "gBroken.ml" 90 3831 3860
+type(
+  (tree_item -> unit) option
+)
+ident(
+  def packing "gBroken.ml" 90 3831 3861 "gBroken.ml" 95 4036 4042
+)
+"gBroken.ml" 90 3831 3862 "gBroken.ml" 90 3831 3866
+type(
+  bool option
+)
+ident(
+  def show "gBroken.ml" 90 3831 3867 "gBroken.ml" 95 4036 4042
+)
+"gBroken.ml" 90 3831 3867 "gBroken.ml" 90 3831 3869
+type(
+  unit
+)
+"gBroken.ml" 91 3872 3878 "gBroken.ml" 91 3872 3879
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 91 3872 3882 "gBroken.ml" 91 3872 3897
+type(
+  ?label:string -> unit -> Gtk.tree_item Gtk.obj
+)
+ident(
+  ext_ref GtkBroken.TreeItem.create
+)
+"gBroken.ml" 91 3872 3899 "gBroken.ml" 91 3872 3904
+type(
+  string option
+)
+ident(
+  int_ref label "gBroken.ml" 90 3831 3846 "gBroken.ml" 90 3831 3851
+)
+"gBroken.ml" 91 3872 3905 "gBroken.ml" 91 3872 3907
+type(
+  unit
+)
+"gBroken.ml" 91 3872 3882 "gBroken.ml" 91 3872 3907
+call(
+  stack
+)
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gBroken.ml" 92 3911 3917 "gBroken.ml" 92 3911 3921
+type(
+  tree_item
+)
+"gBroken.ml" 92 3911 3924 "gBroken.ml" 92 3911 3937
+type(
+  Gtk.tree_item Gtk.obj -> tree_item
+)
+"gBroken.ml" 92 3911 3938 "gBroken.ml" 92 3911 3939
+type(
+  Gtk.tree_item Gtk.obj
+)
+ident(
+  int_ref w "gBroken.ml" 91 3872 3878 "gBroken.ml" 91 3872 3879
+)
+"gBroken.ml" 92 3911 3924 "gBroken.ml" 92 3911 3939
+call(
+  stack
+)
+type(
+  tree_item
+)
+"gBroken.ml" 93 3943 3945 "gBroken.ml" 93 3943 3948
+type(
+  f:((tree_item -> unit) -> unit) -> (tree_item -> unit) option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gBroken.ml" 93 3943 3949 "gBroken.ml" 93 3943 3956
+type(
+  (tree_item -> unit) option
+)
+ident(
+  int_ref packing "gBroken.ml" 90 3831 3853 "gBroken.ml" 90 3831 3860
+)
+"gBroken.ml" 93 3943 3965 "gBroken.ml" 93 3943 3966
+type(
+  tree_item -> unit
+)
+ident(
+  def f "gBroken.ml" 93 3943 3970 "gBroken.ml" 93 3943 3985
+)
+"gBroken.ml" 93 3943 3971 "gBroken.ml" 93 3943 3972
+type(
+  tree_item -> unit
+)
+ident(
+  int_ref f "gBroken.ml" 93 3943 3965 "gBroken.ml" 93 3943 3966
+)
+"gBroken.ml" 93 3943 3973 "gBroken.ml" 93 3943 3977
+type(
+  tree_item
+)
+ident(
+  int_ref self "gBroken.ml" 92 3911 3917 "gBroken.ml" 92 3911 3921
+)
+"gBroken.ml" 93 3943 3971 "gBroken.ml" 93 3943 3977
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"gBroken.ml" 93 3943 3960 "gBroken.ml" 93 3943 3986
+type(
+  (tree_item -> unit) -> unit
+)
+"gBroken.ml" 93 3943 3945 "gBroken.ml" 93 3943 3986
+call(
+  stack
+)
+type(
+  unit
+)
+"gBroken.ml" 94 3988 3993 "gBroken.ml" 94 3988 3997
+type(
+  bool option
+)
+ident(
+  int_ref show "gBroken.ml" 90 3831 3862 "gBroken.ml" 90 3831 3866
+)
+"gBroken.ml" 94 3988 3998 "gBroken.ml" 94 3988 4000
+type(
+  bool option -> bool option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gBroken.ml" 94 3988 4006 "gBroken.ml" 94 3988 4011
+type(
+  bool
+)
+"gBroken.ml" 94 3988 4001 "gBroken.ml" 94 3988 4011
+type(
+  bool option
+)
+"gBroken.ml" 94 3988 3993 "gBroken.ml" 94 3988 4011
+type(
+  bool
+)
+"gBroken.ml" 94 3988 4017 "gBroken.ml" 94 3988 4021
+type(
+  tree_item
+)
+ident(
+  int_ref self "gBroken.ml" 92 3911 3917 "gBroken.ml" 92 3911 3921
+)
+"gBroken.ml" 94 3988 4017 "gBroken.ml" 94 3988 4026
+call(
+  stack
+)
+type(
+  GObj.misc_ops
+)
+"gBroken.ml" 94 3988 4017 "gBroken.ml" 94 3988 4031
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gBroken.ml" 94 3988 4032 "gBroken.ml" 94 3988 4034
+type(
+  unit
+)
+"gBroken.ml" 94 3988 4017 "gBroken.ml" 94 3988 4034
+type(
+  unit
+)
+"gBroken.ml" 94 3988 3990 "gBroken.ml" 94 3988 4034
+type(
+  unit
+)
+"gBroken.ml" 95 4036 4038 "gBroken.ml" 95 4036 4042
+type(
+  tree_item
+)
+ident(
+  int_ref self "gBroken.ml" 92 3911 3917 "gBroken.ml" 92 3911 3921
+)
+"gBroken.ml" 94 3988 3990 "gBroken.ml" 95 4036 4042
+type(
+  tree_item
+)
+"gBroken.ml" 93 3943 3945 "gBroken.ml" 95 4036 4042
+type(
+  tree_item
+)
+"gBroken.ml" 92 3911 3913 "gBroken.ml" 95 4036 4042
+type(
+  tree_item
+)
+"gBroken.ml" 91 3872 3874 "gBroken.ml" 95 4036 4042
+type(
+  tree_item
+)
+"gBroken.ml" 97 4044 4048 "gBroken.ml" 97 4044 4052
+type(
+  ?selection_mode:Gtk.Tags.selection_mode ->
+  ?view_mode:[ `ITEM | `LINE ] ->
+  ?view_lines:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> tree
+)
+ident(
+  def tree "gBroken.ml" 105 4286 4286 --
+)
+"gBroken.ml" 97 4044 4054 "gBroken.ml" 97 4044 4068
+type(
+  Gtk.Tags.selection_mode option
+)
+ident(
+  def selection_mode "gBroken.ml" 97 4044 4069 "gBroken.ml" 101 4227 4242
+)
+"gBroken.ml" 97 4044 4070 "gBroken.ml" 97 4044 4079
+type(
+  [ `ITEM | `LINE ] option
+)
+ident(
+  def view_mode "gBroken.ml" 97 4044 4080 "gBroken.ml" 101 4227 4242
+)
+"gBroken.ml" 97 4044 4081 "gBroken.ml" 97 4044 4091
+type(
+  bool option
+)
+ident(
+  def view_lines "gBroken.ml" 98 4094 4096 "gBroken.ml" 101 4227 4242
+)
+"gBroken.ml" 98 4094 4096 "gBroken.ml" 98 4094 4121
+type(
+  create:(Gtk.tree Gobject.param list -> tree) ->
+  Gtk.tree Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> tree
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gBroken.ml" 98 4094 4122 "gBroken.ml" 98 4094 4124
+type(
+  Gtk.tree Gobject.param list
+)
+"gBroken.ml" 98 4094 4138 "gBroken.ml" 98 4094 4139
+type(
+  Gtk.tree Gobject.param list
+)
+ident(
+  def p "gBroken.ml" 99 4143 4147 "gBroken.ml" 101 4227 4241
+)
+"gBroken.ml" 99 4143 4151 "gBroken.ml" 99 4143 4152
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 99 4143 4155 "gBroken.ml" 99 4143 4166
+type(
+  Gtk.tree Gobject.param list -> Gtk.tree Gtk.obj
+)
+ident(
+  ext_ref GtkBroken.Tree.create
+)
+"gBroken.ml" 99 4143 4167 "gBroken.ml" 99 4143 4168
+type(
+  Gtk.tree Gobject.param list
+)
+ident(
+  int_ref p "gBroken.ml" 98 4094 4138 "gBroken.ml" 98 4094 4139
+)
+"gBroken.ml" 99 4143 4155 "gBroken.ml" 99 4143 4168
+call(
+  stack
+)
+type(
+  Gtk.tree Gtk.obj
+)
+"gBroken.ml" 100 4172 4176 "gBroken.ml" 100 4172 4184
+type(
+  ?selection_mode:Gtk.Tags.selection_mode ->
+  ?view_mode:[ `ITEM | `LINE ] ->
+  ?view_lines:bool -> Gtk.tree Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBroken.Tree.set
+)
+"gBroken.ml" 100 4172 4185 "gBroken.ml" 100 4172 4186
+type(
+  Gtk.tree Gtk.obj
+)
+ident(
+  int_ref w "gBroken.ml" 99 4143 4151 "gBroken.ml" 99 4143 4152
+)
+"gBroken.ml" 100 4172 4188 "gBroken.ml" 100 4172 4202
+type(
+  Gtk.Tags.selection_mode option
+)
+ident(
+  int_ref selection_mode "gBroken.ml" 97 4044 4054 "gBroken.ml" 97 4044 4068
+)
+"gBroken.ml" 100 4172 4204 "gBroken.ml" 100 4172 4213
+type(
+  [ `ITEM | `LINE ] option
+)
+ident(
+  int_ref view_mode "gBroken.ml" 97 4044 4070 "gBroken.ml" 97 4044 4079
+)
+"gBroken.ml" 100 4172 4215 "gBroken.ml" 100 4172 4225
+type(
+  bool option
+)
+ident(
+  int_ref view_lines "gBroken.ml" 97 4044 4081 "gBroken.ml" 97 4044 4091
+)
+"gBroken.ml" 100 4172 4176 "gBroken.ml" 100 4172 4225
+call(
+  stack
+)
+type(
+  unit
+)
+"gBroken.ml" 101 4227 4231 "gBroken.ml" 101 4227 4239
+type(
+  Gtk.tree Gtk.obj -> tree
+)
+"gBroken.ml" 101 4227 4240 "gBroken.ml" 101 4227 4241
+type(
+  Gtk.tree Gtk.obj
+)
+ident(
+  int_ref w "gBroken.ml" 99 4143 4151 "gBroken.ml" 99 4143 4152
+)
+"gBroken.ml" 101 4227 4231 "gBroken.ml" 101 4227 4241
+call(
+  tail
+)
+type(
+  tree
+)
+"gBroken.ml" 100 4172 4176 "gBroken.ml" 101 4227 4241
+type(
+  tree
+)
+"gBroken.ml" 99 4143 4147 "gBroken.ml" 101 4227 4241
+type(
+  tree
+)
+"gBroken.ml" 98 4094 4133 "gBroken.ml" 101 4227 4242
+type(
+  Gtk.tree Gobject.param list -> tree
+)
+"gBroken.ml" 98 4094 4096 "gBroken.ml" 101 4227 4242
+call(
+  tail
+)
+type(
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> tree
+)
+"gBroken.ml" 105 4286 4313 "gBroken.ml" 105 4286 4316
+type(
+  [> Gtk.old_editable ] Gtk.obj
+)
+"gBroken.ml" 106 4326 4357 "gBroken.ml" 106 4326 4360
+type(
+  ([> Gtk.old_editable ] as 'a) Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref obj "gBroken.ml" 105 4286 4313 "gBroken.ml" 105 4286 4316
+)
+"gBroken.ml" 111 4455 4466 "gBroken.ml" 111 4455 4469
+type(
+  Gtk.text Gtk.obj
+)
+"gBroken.ml" 111 4455 4479 "gBroken.ml" 111 4455 4485
+type(
+  < as_widget : Gtk.widget Gtk.obj; backward_delete : int -> unit;
+    coerce : GObj.widget; connect : old_editable_signals;
+    copy_clipboard : unit -> unit; cut_clipboard : unit -> unit;
+    delete_selection : unit -> unit;
+    delete_text : start:int -> stop:int -> unit; destroy : unit -> unit;
+    drag : GObj.drag_ops; editable : bool; event : GObj.event_ops;
+    forward_delete : int -> unit; freeze : unit -> unit;
+    get_chars : start:int -> stop:int -> string; get_oid : int;
+    hadjustment : GData.adjustment;
+    insert : ?font:Gdk.font ->
+             ?foreground:GDraw.color ->
+             ?background:GDraw.color -> string -> unit;
+    insert_text : string -> pos:int -> int; length : int; line_wrap : 
+    bool; misc : GObj.misc_ops; paste_clipboard : unit -> unit; point : 
+    int; position : int; select_region : start:int -> stop:int -> unit;
+    selection : (int * int) option; set_editable : bool -> unit;
+    set_hadjustment : GData.adjustment -> unit; set_line_wrap : bool -> unit;
+    set_point : int -> unit; set_position : int -> unit;
+    set_vadjustment : GData.adjustment -> unit; set_word_wrap : bool -> unit;
+    thaw : unit -> unit; vadjustment : GData.adjustment; word_wrap : 
+    bool; .. >
+)
+"gBroken.ml" 112 4486 4512 "gBroken.ml" 112 4486 4515
+type(
+  Gtk.text Gtk.obj
+)
+type(
+  Gtk.text Gtk.obj
+)
+ident(
+  int_ref obj "gBroken.ml" 111 4455 4466 "gBroken.ml" 111 4455 4469
+)
+"gBroken.ml" 114 4562 4581 "gBroken.ml" 114 4562 4605
+type(
+  Gtk.text Gtk.obj -> old_editable_signals
+)
+"gBroken.ml" 114 4562 4606 "gBroken.ml" 114 4562 4609
+type(
+  Gtk.text Gtk.obj
+)
+"gBroken.ml" 114 4562 4581 "gBroken.ml" 114 4562 4609
+call(
+  tail
+)
+type(
+  old_editable_signals
+)
+type(
+  old_editable_signals
+)
+"gBroken.ml" 115 4610 4627 "gBroken.ml" 115 4610 4645
+type(
+  Gtk.text Gtk.obj -> GObj.event_ops
+)
+"gBroken.ml" 115 4610 4646 "gBroken.ml" 115 4610 4649
+type(
+  Gtk.text Gtk.obj
+)
+"gBroken.ml" 115 4610 4627 "gBroken.ml" 115 4610 4649
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gBroken.ml" 116 4650 4670 "gBroken.ml" 116 4650 4675
+type(
+  int
+)
+ident(
+  def start "gBroken.ml" 116 4650 4676 "gBroken.ml" 119 4792 4826
+)
+"gBroken.ml" 116 4650 4682 "gBroken.ml" 116 4650 4683
+type(
+  int
+)
+ident(
+  def e "gBroken.ml" 117 4686 4690 "gBroken.ml" 119 4792 4826
+)
+"gBroken.ml" 117 4686 4693 "gBroken.ml" 117 4686 4698
+type(
+  int
+)
+ident(
+  int_ref start "gBroken.ml" 116 4650 4670 "gBroken.ml" 116 4650 4675
+)
+"gBroken.ml" 117 4686 4699 "gBroken.ml" 117 4686 4700
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gBroken.ml" 117 4686 4701 "gBroken.ml" 117 4686 4702
+type(
+  int
+)
+"gBroken.ml" 117 4686 4693 "gBroken.ml" 117 4686 4702
+type(
+  bool
+)
+"gBroken.ml" 117 4686 4703 "gBroken.ml" 117 4686 4705
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gBroken.ml" 117 4686 4706 "gBroken.ml" 117 4686 4707
+type(
+  int
+)
+ident(
+  int_ref e "gBroken.ml" 116 4650 4682 "gBroken.ml" 116 4650 4683
+)
+"gBroken.ml" 117 4686 4708 "gBroken.ml" 117 4686 4709
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"gBroken.ml" 117 4686 4710 "gBroken.ml" 117 4686 4725
+type(
+  Gtk.text Gtk.obj -> int
+)
+ident(
+  ext_ref GtkBroken.Text.get_length
+)
+"gBroken.ml" 117 4686 4726 "gBroken.ml" 117 4686 4729
+type(
+  Gtk.text Gtk.obj
+)
+"gBroken.ml" 117 4686 4710 "gBroken.ml" 117 4686 4729
+type(
+  int
+)
+"gBroken.ml" 117 4686 4706 "gBroken.ml" 117 4686 4729
+type(
+  bool
+)
+"gBroken.ml" 117 4686 4730 "gBroken.ml" 117 4686 4732
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gBroken.ml" 117 4686 4733 "gBroken.ml" 117 4686 4734
+type(
+  int
+)
+ident(
+  int_ref e "gBroken.ml" 116 4650 4682 "gBroken.ml" 116 4650 4683
+)
+"gBroken.ml" 117 4686 4735 "gBroken.ml" 117 4686 4736
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gBroken.ml" 117 4686 4737 "gBroken.ml" 117 4686 4742
+type(
+  int
+)
+ident(
+  int_ref start "gBroken.ml" 116 4650 4670 "gBroken.ml" 116 4650 4675
+)
+"gBroken.ml" 117 4686 4733 "gBroken.ml" 117 4686 4742
+type(
+  bool
+)
+"gBroken.ml" 117 4686 4706 "gBroken.ml" 117 4686 4742
+type(
+  bool
+)
+"gBroken.ml" 117 4686 4693 "gBroken.ml" 117 4686 4742
+type(
+  bool
+)
+"gBroken.ml" 118 4748 4754 "gBroken.ml" 118 4748 4765
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gBroken.ml" 118 4748 4766 "gBroken.ml" 118 4748 4790
+type(
+  string
+)
+"gBroken.ml" 118 4748 4754 "gBroken.ml" 118 4748 4790
+call(
+  stack
+)
+type(
+  unit
+)
+"gBroken.ml" 117 4686 4690 "gBroken.ml" 118 4748 4790
+type(
+  unit
+)
+"gBroken.ml" 119 4792 4796 "gBroken.ml" 119 4792 4801
+type(
+  < as_widget : Gtk.widget Gtk.obj; backward_delete : int -> unit;
+    coerce : GObj.widget; connect : old_editable_signals;
+    copy_clipboard : unit -> unit; cut_clipboard : unit -> unit;
+    delete_selection : unit -> unit;
+    delete_text : start:int -> stop:int -> unit; destroy : unit -> unit;
+    drag : GObj.drag_ops; editable : bool; event : GObj.event_ops;
+    forward_delete : int -> unit; freeze : unit -> unit;
+    get_chars : start:int -> stop:int -> string; get_oid : int;
+    hadjustment : GData.adjustment;
+    insert : ?font:Gdk.font ->
+             ?foreground:GDraw.color ->
+             ?background:GDraw.color -> string -> unit;
+    insert_text : string -> pos:int -> int; length : int; line_wrap : 
+    bool; misc : GObj.misc_ops; paste_clipboard : unit -> unit; point : 
+    int; position : int; select_region : start:int -> stop:int -> unit;
+    selection : (int * int) option; set_editable : bool -> unit;
+    set_hadjustment : GData.adjustment -> unit; set_line_wrap : bool -> unit;
+    set_point : int -> unit; set_position : int -> unit;
+    set_vadjustment : GData.adjustment -> unit; set_word_wrap : bool -> unit;
+    thaw : unit -> unit; vadjustment : GData.adjustment; word_wrap : 
+    bool; .. >
+  as 'a
+)
+"gBroken.ml" 119 4792 4796 "gBroken.ml" 119 4792 4811
+type(
+  start:int -> stop:int -> string
+)
+"gBroken.ml" 119 4792 4813 "gBroken.ml" 119 4792 4818
+type(
+  int
+)
+ident(
+  int_ref start "gBroken.ml" 116 4650 4670 "gBroken.ml" 116 4650 4675
+)
+"gBroken.ml" 119 4792 4825 "gBroken.ml" 119 4792 4826
+type(
+  int
+)
+ident(
+  int_ref e "gBroken.ml" 116 4650 4682 "gBroken.ml" 116 4650 4683
+)
+"gBroken.ml" 119 4792 4796 "gBroken.ml" 119 4792 4826
+call(
+  tail
+)
+type(
+  string
+)
+"gBroken.ml" 117 4686 4690 "gBroken.ml" 119 4792 4826
+type(
+  string
+)
+"gBroken.ml" 120 4827 4848 "gBroken.ml" 120 4827 4862
+type(
+  Gtk.text Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkBroken.Text.set_point
+)
+"gBroken.ml" 120 4827 4863 "gBroken.ml" 120 4827 4866
+type(
+  Gtk.text Gtk.obj
+)
+"gBroken.ml" 120 4827 4848 "gBroken.ml" 120 4827 4866
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gBroken.ml" 121 4867 4884 "gBroken.ml" 121 4867 4898
+type(
+  Gtk.text Gtk.obj -> int
+)
+ident(
+  ext_ref GtkBroken.Text.get_point
+)
+"gBroken.ml" 121 4867 4899 "gBroken.ml" 121 4867 4902
+type(
+  Gtk.text Gtk.obj
+)
+"gBroken.ml" 121 4867 4884 "gBroken.ml" 121 4867 4902
+type(
+  int
+)
+type(
+  int
+)
+"gBroken.ml" 122 4903 4921 "gBroken.ml" 122 4903 4936
+type(
+  Gtk.text Gtk.obj -> int
+)
+ident(
+  ext_ref GtkBroken.Text.get_length
+)
+"gBroken.ml" 122 4903 4937 "gBroken.ml" 122 4903 4940
+type(
+  Gtk.text Gtk.obj
+)
+"gBroken.ml" 122 4903 4921 "gBroken.ml" 122 4903 4940
+type(
+  int
+)
+type(
+  int
+)
+"gBroken.ml" 123 4941 4957 "gBroken.ml" 123 4941 4959
+type(
+  unit
+)
+"gBroken.ml" 123 4941 4962 "gBroken.ml" 123 4941 4973
+type(
+  Gtk.text Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBroken.Text.freeze
+)
+"gBroken.ml" 123 4941 4974 "gBroken.ml" 123 4941 4977
+type(
+  Gtk.text Gtk.obj
+)
+"gBroken.ml" 123 4941 4962 "gBroken.ml" 123 4941 4977
+type(
+  unit
+)
+"gBroken.ml" 124 4978 4992 "gBroken.ml" 124 4978 4994
+type(
+  unit
+)
+"gBroken.ml" 124 4978 4997 "gBroken.ml" 124 4978 5006
+type(
+  Gtk.text Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBroken.Text.thaw
+)
+"gBroken.ml" 124 4978 5007 "gBroken.ml" 124 4978 5010
+type(
+  Gtk.text Gtk.obj
+)
+"gBroken.ml" 124 4978 4997 "gBroken.ml" 124 4978 5010
+type(
+  unit
+)
+"gBroken.ml" 125 5011 5028 "gBroken.ml" 125 5011 5032
+type(
+  Gdk.font option
+)
+ident(
+  def font "gBroken.ml" 125 5011 5033 "gBroken.ml" 129 5226 5291
+)
+"gBroken.ml" 125 5011 5034 "gBroken.ml" 125 5011 5044
+type(
+  GDraw.color option
+)
+ident(
+  def foreground "gBroken.ml" 125 5011 5045 "gBroken.ml" 129 5226 5291
+)
+"gBroken.ml" 125 5011 5046 "gBroken.ml" 125 5011 5056
+type(
+  GDraw.color option
+)
+ident(
+  def background "gBroken.ml" 125 5011 5057 "gBroken.ml" 129 5226 5291
+)
+"gBroken.ml" 125 5011 5057 "gBroken.ml" 125 5011 5061
+type(
+  string
+)
+ident(
+  def text "gBroken.ml" 126 5064 5068 "gBroken.ml" 129 5226 5291
+)
+"gBroken.ml" 126 5064 5072 "gBroken.ml" 126 5064 5080
+type(
+  Gdk.colormap option
+)
+"gBroken.ml" 126 5064 5092 "gBroken.ml" 126 5064 5096
+type(
+  'a
+)
+"gBroken.ml" 126 5064 5092 "gBroken.ml" 126 5064 5101
+call(
+  stack
+)
+type(
+  GObj.misc_ops
+)
+"gBroken.ml" 126 5064 5092 "gBroken.ml" 126 5064 5110
+call(
+  stack
+)
+type(
+  Gdk.colormap
+)
+"gBroken.ml" 126 5064 5087 "gBroken.ml" 126 5064 5110
+type(
+  Gdk.colormap option
+)
+"gBroken.ml" 126 5064 5116 "gBroken.ml" 126 5064 5117
+type(
+  exn
+)
+"gBroken.ml" 126 5064 5121 "gBroken.ml" 126 5064 5125
+type(
+  Gdk.colormap option
+)
+"gBroken.ml" 126 5064 5083 "gBroken.ml" 126 5064 5125
+type(
+  Gdk.colormap option
+)
+"gBroken.ml" 127 5129 5133 "gBroken.ml" 127 5129 5144
+type(
+  Gtk.text Gtk.obj ->
+  ?font:Gdk.font ->
+  ?foreground:Gdk.color -> ?background:Gdk.color -> string -> unit
+)
+ident(
+  ext_ref GtkBroken.Text.insert
+)
+"gBroken.ml" 127 5129 5145 "gBroken.ml" 127 5129 5148
+type(
+  Gtk.text Gtk.obj
+)
+"gBroken.ml" 127 5129 5149 "gBroken.ml" 127 5129 5153
+type(
+  string
+)
+ident(
+  int_ref text "gBroken.ml" 125 5011 5057 "gBroken.ml" 125 5011 5061
+)
+"gBroken.ml" 127 5129 5155 "gBroken.ml" 127 5129 5159
+type(
+  Gdk.font option
+)
+ident(
+  int_ref font "gBroken.ml" 125 5011 5028 "gBroken.ml" 125 5011 5032
+)
+"gBroken.ml" 128 5160 5179 "gBroken.ml" 128 5160 5186
+type(
+  f:(GDraw.color -> Gdk.color) -> GDraw.color option -> Gdk.color option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gBroken.ml" 128 5160 5187 "gBroken.ml" 128 5160 5197
+type(
+  GDraw.color option
+)
+ident(
+  int_ref foreground "gBroken.ml" 125 5011 5034 "gBroken.ml" 125 5011 5044
+)
+"gBroken.ml" 128 5160 5202 "gBroken.ml" 128 5160 5213
+type(
+  ?colormap:Gdk.colormap -> GDraw.color -> Gdk.color
+)
+ident(
+  ext_ref GDraw.color
+)
+"gBroken.ml" 128 5160 5215 "gBroken.ml" 128 5160 5223
+type(
+  Gdk.colormap option
+)
+ident(
+  int_ref colormap "gBroken.ml" 126 5064 5072 "gBroken.ml" 126 5064 5080
+)
+"gBroken.ml" 128 5160 5201 "gBroken.ml" 128 5160 5224
+call(
+  stack
+)
+type(
+  GDraw.color -> Gdk.color
+)
+"gBroken.ml" 128 5160 5178 "gBroken.ml" 128 5160 5225
+call(
+  stack
+)
+type(
+  Gdk.color option
+)
+"gBroken.ml" 129 5226 5245 "gBroken.ml" 129 5226 5252
+type(
+  f:(GDraw.color -> Gdk.color) -> GDraw.color option -> Gdk.color option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gBroken.ml" 129 5226 5253 "gBroken.ml" 129 5226 5263
+type(
+  GDraw.color option
+)
+ident(
+  int_ref background "gBroken.ml" 125 5011 5046 "gBroken.ml" 125 5011 5056
+)
+"gBroken.ml" 129 5226 5268 "gBroken.ml" 129 5226 5279
+type(
+  ?colormap:Gdk.colormap -> GDraw.color -> Gdk.color
+)
+ident(
+  ext_ref GDraw.color
+)
+"gBroken.ml" 129 5226 5281 "gBroken.ml" 129 5226 5289
+type(
+  Gdk.colormap option
+)
+ident(
+  int_ref colormap "gBroken.ml" 126 5064 5072 "gBroken.ml" 126 5064 5080
+)
+"gBroken.ml" 129 5226 5267 "gBroken.ml" 129 5226 5290
+call(
+  stack
+)
+type(
+  GDraw.color -> Gdk.color
+)
+"gBroken.ml" 129 5226 5244 "gBroken.ml" 129 5226 5291
+call(
+  stack
+)
+type(
+  Gdk.color option
+)
+"gBroken.ml" 127 5129 5133 "gBroken.ml" 129 5226 5291
+type(
+  unit
+)
+"gBroken.ml" 126 5064 5068 "gBroken.ml" 129 5226 5291
+type(
+  unit
+)
+"gBroken.ml" 130 5292 5319 "gBroken.ml" 130 5292 5338
+type(
+  Gtk.text Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkBroken.Text.forward_delete
+)
+"gBroken.ml" 130 5292 5340 "gBroken.ml" 130 5292 5343
+type(
+  Gtk.text Gtk.obj
+)
+"gBroken.ml" 130 5292 5319 "gBroken.ml" 130 5292 5343
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gBroken.ml" 131 5344 5371 "gBroken.ml" 131 5344 5391
+type(
+  Gtk.text Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkBroken.Text.backward_delete
+)
+"gBroken.ml" 131 5344 5392 "gBroken.ml" 131 5344 5395
+type(
+  Gtk.text Gtk.obj
+)
+"gBroken.ml" 131 5344 5371 "gBroken.ml" 131 5344 5395
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gBroken.ml" 134 5401 5405 "gBroken.ml" 134 5401 5409
+type(
+  ?hadjustment:GData.adjustment ->
+  ?vadjustment:GData.adjustment ->
+  ?editable:bool ->
+  ?line_wrap:bool ->
+  ?word_wrap:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> text
+)
+ident(
+  def text "gBroken.ml" 139 5651 5711 --
+)
+"gBroken.ml" 134 5401 5411 "gBroken.ml" 134 5401 5422
+type(
+  GData.adjustment option
+)
+ident(
+  def hadjustment "gBroken.ml" 134 5401 5423 "gBroken.ml" 139 5651 5711
+)
+"gBroken.ml" 134 5401 5424 "gBroken.ml" 134 5401 5435
+type(
+  GData.adjustment option
+)
+ident(
+  def vadjustment "gBroken.ml" 135 5438 5440 "gBroken.ml" 139 5651 5711
+)
+"gBroken.ml" 135 5438 5444 "gBroken.ml" 135 5438 5455
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gBroken.ml" 135 5438 5458 "gBroken.ml" 135 5438 5465
+type(
+  f:(GData.adjustment -> Gtk.adjustment Gtk.obj) ->
+  GData.adjustment option -> Gtk.adjustment Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gBroken.ml" 135 5438 5466 "gBroken.ml" 135 5438 5485
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gBroken.ml" 135 5438 5486 "gBroken.ml" 135 5438 5497
+type(
+  GData.adjustment option
+)
+ident(
+  int_ref hadjustment "gBroken.ml" 134 5401 5411 "gBroken.ml" 134 5401 5422
+)
+"gBroken.ml" 135 5438 5458 "gBroken.ml" 135 5438 5497
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gBroken.ml" 136 5501 5507 "gBroken.ml" 136 5501 5518
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gBroken.ml" 136 5501 5521 "gBroken.ml" 136 5501 5528
+type(
+  f:(GData.adjustment -> Gtk.adjustment Gtk.obj) ->
+  GData.adjustment option -> Gtk.adjustment Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gBroken.ml" 136 5501 5529 "gBroken.ml" 136 5501 5548
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gBroken.ml" 136 5501 5549 "gBroken.ml" 136 5501 5560
+type(
+  GData.adjustment option
+)
+ident(
+  int_ref vadjustment "gBroken.ml" 134 5401 5424 "gBroken.ml" 134 5401 5435
+)
+"gBroken.ml" 136 5501 5521 "gBroken.ml" 136 5501 5560
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gBroken.ml" 137 5564 5566 "gBroken.ml" 137 5564 5582
+type(
+  cont:(Gtk.text Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> text) ->
+  Gtk.text Gobject.param list ->
+  ?hadjustment:Gtk.adjustment Gtk.obj ->
+  ?vadjustment:Gtk.adjustment Gtk.obj ->
+  ?editable:bool ->
+  ?line_wrap:bool ->
+  ?word_wrap:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> text
+)
+ident(
+  ext_ref GtkBroken.Text.make_params
+)
+"gBroken.ml" 137 5564 5583 "gBroken.ml" 137 5564 5585
+type(
+  Gtk.text Gobject.param list
+)
+"gBroken.ml" 137 5564 5587 "gBroken.ml" 137 5564 5598
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  int_ref hadjustment "gBroken.ml" 135 5438 5444 "gBroken.ml" 135 5438 5455
+)
+"gBroken.ml" 137 5564 5600 "gBroken.ml" 137 5564 5611
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  int_ref vadjustment "gBroken.ml" 136 5501 5507 "gBroken.ml" 136 5501 5518
+)
+"gBroken.ml" 138 5619 5628 "gBroken.ml" 138 5619 5629
+type(
+  Gtk.text Gobject.param list
+)
+ident(
+  def p "gBroken.ml" 138 5619 5630 "gBroken.ml" 139 5651 5710
+)
+"gBroken.ml" 138 5619 5631 "gBroken.ml" 138 5619 5638
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gBroken.ml" 138 5619 5639 "gBroken.ml" 139 5651 5710
+)
+"gBroken.ml" 138 5619 5640 "gBroken.ml" 138 5619 5644
+type(
+  bool option
+)
+ident(
+  def show "gBroken.ml" 138 5619 5645 "gBroken.ml" 139 5651 5710
+)
+"gBroken.ml" 138 5619 5645 "gBroken.ml" 138 5619 5647
+type(
+  unit
+)
+"gBroken.ml" 139 5651 5657 "gBroken.ml" 139 5651 5668
+type(
+  text -> packing:(GObj.widget -> unit) option -> show:bool option -> text
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gBroken.ml" 139 5651 5670 "gBroken.ml" 139 5651 5678
+type(
+  Gtk.text Gtk.obj -> text
+)
+"gBroken.ml" 139 5651 5680 "gBroken.ml" 139 5651 5691
+type(
+  Gtk.text Gobject.param list -> Gtk.text Gtk.obj
+)
+ident(
+  ext_ref GtkBroken.Text.create
+)
+"gBroken.ml" 139 5651 5692 "gBroken.ml" 139 5651 5693
+type(
+  Gtk.text Gobject.param list
+)
+ident(
+  int_ref p "gBroken.ml" 138 5619 5628 "gBroken.ml" 138 5619 5629
+)
+"gBroken.ml" 139 5651 5679 "gBroken.ml" 139 5651 5694
+call(
+  stack
+)
+type(
+  Gtk.text Gtk.obj
+)
+"gBroken.ml" 139 5651 5669 "gBroken.ml" 139 5651 5695
+call(
+  stack
+)
+type(
+  text
+)
+"gBroken.ml" 139 5651 5697 "gBroken.ml" 139 5651 5704
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gBroken.ml" 138 5619 5631 "gBroken.ml" 138 5619 5638
+)
+"gBroken.ml" 139 5651 5706 "gBroken.ml" 139 5651 5710
+type(
+  bool option
+)
+ident(
+  int_ref show "gBroken.ml" 138 5619 5640 "gBroken.ml" 138 5619 5644
+)
+"gBroken.ml" 139 5651 5657 "gBroken.ml" 139 5651 5710
+call(
+  tail
+)
+type(
+  text
+)
+"gBroken.ml" 138 5619 5623 "gBroken.ml" 139 5651 5711
+type(
+  Gtk.text Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> text
+)
+"gBroken.ml" 137 5564 5566 "gBroken.ml" 139 5651 5711
+call(
+  tail
+)
+type(
+  ?editable:bool ->
+  ?line_wrap:bool ->
+  ?word_wrap:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> text
+)
+"gBroken.ml" 136 5501 5503 "gBroken.ml" 139 5651 5711
+type(
+  ?editable:bool ->
+  ?line_wrap:bool ->
+  ?word_wrap:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> text
+)
+"gBroken.ml" 135 5438 5440 "gBroken.ml" 139 5651 5711
+type(
+  ?editable:bool ->
+  ?line_wrap:bool ->
+  ?word_wrap:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> text
+)

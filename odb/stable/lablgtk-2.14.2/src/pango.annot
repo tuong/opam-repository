@@ -1,0 +1,662 @@
+"pango.ml" 39 2014 2018 "pango.ml" 39 2014 2020
+type(
+  unit
+)
+"pango.ml" 39 2014 2023 "pango.ml" 39 2014 2034
+type(
+  unit -> unit
+)
+"pango.ml" 39 2014 2035 "pango.ml" 39 2014 2037
+type(
+  unit
+)
+"pango.ml" 39 2014 2023 "pango.ml" 39 2014 2037
+type(
+  unit
+)
+"pango.ml" 81 3164 3170 "pango.ml" 81 3164 3175
+type(
+  style Gpointer.variant_table
+)
+ident(
+  def style "pango.ml" 84 3262 3264 "pango.ml" 88 3396 3399
+)
+"pango.ml" 81 3164 3177 "pango.ml" 81 3164 3183
+type(
+  weight_internal Gpointer.variant_table
+)
+ident(
+  def weight "pango.ml" 84 3262 3264 "pango.ml" 88 3396 3399
+)
+"pango.ml" 81 3164 3185 "pango.ml" 81 3164 3192
+type(
+  variant Gpointer.variant_table
+)
+ident(
+  def variant "pango.ml" 84 3262 3264 "pango.ml" 88 3396 3399
+)
+"pango.ml" 81 3164 3194 "pango.ml" 81 3164 3201
+type(
+  stretch Gpointer.variant_table
+)
+ident(
+  def stretch "pango.ml" 84 3262 3264 "pango.ml" 88 3396 3399
+)
+"pango.ml" 81 3164 3203 "pango.ml" 81 3164 3212
+type(
+  underline Gpointer.variant_table
+)
+ident(
+  def underline "pango.ml" 84 3262 3264 "pango.ml" 88 3396 3399
+)
+"pango.ml" 81 3164 3214 "pango.ml" 81 3164 3223
+type(
+  wrap_mode Gpointer.variant_table
+)
+ident(
+  def wrap_mode "pango.ml" 84 3262 3264 "pango.ml" 88 3396 3399
+)
+"pango.ml" 82 3225 3229 "pango.ml" 82 3225 3243
+type(
+  ellipsize_mode Gpointer.variant_table
+)
+ident(
+  def ellipsize_mode "pango.ml" 84 3262 3264 "pango.ml" 88 3396 3399
+)
+"pango.ml" 81 3164 3170 "pango.ml" 82 3225 3243
+type(
+  style Gpointer.variant_table * weight_internal Gpointer.variant_table *
+  variant Gpointer.variant_table * stretch Gpointer.variant_table *
+  underline Gpointer.variant_table * wrap_mode Gpointer.variant_table *
+  ellipsize_mode Gpointer.variant_table
+)
+"pango.ml" 82 3225 3246 "pango.ml" 82 3225 3257
+type(
+  unit ->
+  style Gpointer.variant_table * weight_internal Gpointer.variant_table *
+  variant Gpointer.variant_table * stretch Gpointer.variant_table *
+  underline Gpointer.variant_table * wrap_mode Gpointer.variant_table *
+  ellipsize_mode Gpointer.variant_table
+)
+"pango.ml" 82 3225 3258 "pango.ml" 82 3225 3260
+type(
+  unit
+)
+"pango.ml" 82 3225 3246 "pango.ml" 82 3225 3260
+type(
+  style Gpointer.variant_table * weight_internal Gpointer.variant_table *
+  variant Gpointer.variant_table * stretch Gpointer.variant_table *
+  underline Gpointer.variant_table * wrap_mode Gpointer.variant_table *
+  ellipsize_mode Gpointer.variant_table
+)
+"pango.ml" 84 3262 3268 "pango.ml" 84 3262 3281
+type(
+  weight -> int
+)
+ident(
+  def weight_to_int "pango.ml" 87 3339 3395 "pango.ml" 88 3396 3399
+)
+"pango.ml" 84 3262 3283 "pango.ml" 84 3262 3284
+type(
+  weight
+)
+ident(
+  def w "pango.ml" 85 3297 3301 "pango.ml" 87 3339 3395
+)
+"pango.ml" 85 3297 3307 "pango.ml" 85 3297 3308
+type(
+  weight
+)
+ident(
+  int_ref w "pango.ml" 84 3262 3283 "pango.ml" 84 3262 3284
+)
+"pango.ml" 86 3315 3331 "pango.ml" 86 3315 3332
+type(
+  int
+)
+ident(
+  def b "pango.ml" 86 3315 3336 "pango.ml" 86 3315 3337
+)
+"pango.ml" 86 3315 3323 "pango.ml" 86 3315 3332
+type(
+  weight
+)
+"pango.ml" 86 3315 3336 "pango.ml" 86 3315 3337
+type(
+  int
+)
+ident(
+  int_ref b "pango.ml" 86 3315 3331 "pango.ml" 86 3315 3332
+)
+"pango.ml" 87 3339 3347 "pango.ml" 87 3339 3363
+type(
+  weight
+)
+"pango.ml" 87 3339 3347 "pango.ml" 87 3339 3368
+type(
+  weight
+)
+ident(
+  def w "pango.ml" 87 3339 3372 "pango.ml" 87 3339 3395
+)
+"pango.ml" 87 3339 3372 "pango.ml" 87 3339 3386
+type(
+  weight_internal Gpointer.variant_table -> weight_internal -> int
+)
+ident(
+  ext_ref Gpointer.encode_variant
+)
+"pango.ml" 87 3339 3387 "pango.ml" 87 3339 3393
+type(
+  weight_internal Gpointer.variant_table
+)
+ident(
+  int_ref weight "pango.ml" 81 3164 3177 "pango.ml" 81 3164 3183
+)
+"pango.ml" 87 3339 3394 "pango.ml" 87 3339 3395
+type(
+  weight_internal
+)
+ident(
+  int_ref w "pango.ml" 87 3339 3347 "pango.ml" 87 3339 3368
+)
+"pango.ml" 87 3339 3372 "pango.ml" 87 3339 3395
+call(
+  tail
+)
+type(
+  int
+)
+"pango.ml" 85 3297 3301 "pango.ml" 87 3339 3395
+type(
+  int
+)
+"pango.ml" 112 4424 4430 "pango.ml" 112 4424 4440
+type(
+  font_description -> Tags.weight -> unit
+)
+ident(
+  def set_weight "pango.ml" 113 4480 4482 "pango.ml" 143 5775 5778
+)
+"pango.ml" 112 4424 4441 "pango.ml" 112 4424 4443
+type(
+  font_description
+)
+ident(
+  def fd "pango.ml" 112 4424 4444 "pango.ml" 112 4424 4479
+)
+"pango.ml" 112 4424 4444 "pango.ml" 112 4424 4445
+type(
+  Tags.weight
+)
+ident(
+  def w "pango.ml" 112 4424 4448 "pango.ml" 112 4424 4479
+)
+"pango.ml" 112 4424 4448 "pango.ml" 112 4424 4458
+type(
+  font_description -> int -> unit
+)
+"pango.ml" 112 4424 4459 "pango.ml" 112 4424 4461
+type(
+  font_description
+)
+ident(
+  int_ref fd "pango.ml" 112 4424 4441 "pango.ml" 112 4424 4443
+)
+"pango.ml" 112 4424 4463 "pango.ml" 112 4424 4476
+type(
+  Tags.weight -> int
+)
+ident(
+  ext_ref Tags.weight_to_int
+)
+"pango.ml" 112 4424 4477 "pango.ml" 112 4424 4478
+type(
+  Tags.weight
+)
+ident(
+  int_ref w "pango.ml" 112 4424 4444 "pango.ml" 112 4424 4445
+)
+"pango.ml" 112 4424 4462 "pango.ml" 112 4424 4479
+call(
+  stack
+)
+type(
+  int
+)
+"pango.ml" 112 4424 4448 "pango.ml" 112 4424 4479
+type(
+  unit
+)
+"pango.ml" 123 4965 4971 "pango.ml" 123 4965 4977
+type(
+  font_description ->
+  ?family:string ->
+  ?style:Tags.style ->
+  ?variant:Tags.variant ->
+  ?weight:Tags.weight -> ?stretch:Tags.stretch -> ?size:int -> unit -> unit
+)
+ident(
+  def modify "pango.ml" 132 5266 5268 "pango.ml" 143 5775 5778
+)
+"pango.ml" 123 4965 4978 "pango.ml" 123 4965 4980
+type(
+  font_description
+)
+ident(
+  def fd "pango.ml" 123 4965 4981 "pango.ml" 130 5239 5264
+)
+"pango.ml" 123 4965 4982 "pango.ml" 123 4965 4988
+type(
+  string option
+)
+ident(
+  def family "pango.ml" 123 4965 4989 "pango.ml" 130 5239 5264
+)
+"pango.ml" 123 4965 4990 "pango.ml" 123 4965 4995
+type(
+  Tags.style option
+)
+ident(
+  def style "pango.ml" 123 4965 4996 "pango.ml" 130 5239 5264
+)
+"pango.ml" 123 4965 4997 "pango.ml" 123 4965 5004
+type(
+  Tags.variant option
+)
+ident(
+  def variant "pango.ml" 123 4965 5005 "pango.ml" 130 5239 5264
+)
+"pango.ml" 123 4965 5006 "pango.ml" 123 4965 5012
+type(
+  Tags.weight option
+)
+ident(
+  def weight "pango.ml" 123 4965 5013 "pango.ml" 130 5239 5264
+)
+"pango.ml" 123 4965 5014 "pango.ml" 123 4965 5021
+type(
+  Tags.stretch option
+)
+ident(
+  def stretch "pango.ml" 123 4965 5022 "pango.ml" 130 5239 5264
+)
+"pango.ml" 123 4965 5023 "pango.ml" 123 4965 5027
+type(
+  int option
+)
+ident(
+  def size "pango.ml" 123 4965 5028 "pango.ml" 130 5239 5264
+)
+"pango.ml" 123 4965 5028 "pango.ml" 123 4965 5030
+type(
+  unit
+)
+"pango.ml" 124 5033 5041 "pango.ml" 124 5033 5048
+type(
+  (font_description -> 'a -> 'b) -> 'a option -> unit
+)
+"pango.ml" 124 5033 5049 "pango.ml" 124 5033 5054
+type(
+  font_description -> 'a -> 'b
+)
+ident(
+  def set_x "pango.ml" 124 5033 5055 "pango.ml" 124 5033 5078
+)
+"pango.ml" 124 5033 5055 "pango.ml" 124 5033 5056
+type(
+  'a option
+)
+ident(
+  def x "pango.ml" 124 5033 5059 "pango.ml" 124 5033 5078
+)
+"pango.ml" 124 5033 5059 "pango.ml" 124 5033 5062
+type(
+  f:('a -> 'b) -> 'a option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"pango.ml" 124 5033 5063 "pango.ml" 124 5033 5064
+type(
+  'a option
+)
+ident(
+  int_ref x "pango.ml" 124 5033 5055 "pango.ml" 124 5033 5056
+)
+"pango.ml" 124 5033 5069 "pango.ml" 124 5033 5074
+type(
+  font_description -> 'a -> 'b
+)
+ident(
+  int_ref set_x "pango.ml" 124 5033 5049 "pango.ml" 124 5033 5054
+)
+"pango.ml" 124 5033 5075 "pango.ml" 124 5033 5077
+type(
+  font_description
+)
+ident(
+  int_ref fd "pango.ml" 123 4965 4978 "pango.ml" 123 4965 4980
+)
+"pango.ml" 124 5033 5068 "pango.ml" 124 5033 5078
+call(
+  stack
+)
+type(
+  'a -> 'b
+)
+"pango.ml" 124 5033 5059 "pango.ml" 124 5033 5078
+call(
+  tail
+)
+type(
+  unit
+)
+"pango.ml" 125 5082 5086 "pango.ml" 125 5082 5093
+type(
+  (font_description -> string -> unit) -> string option -> unit
+)
+ident(
+  int_ref may_set "pango.ml" 124 5033 5041 "pango.ml" 124 5033 5048
+)
+"pango.ml" 125 5082 5094 "pango.ml" 125 5082 5104
+type(
+  font_description -> string -> unit
+)
+"pango.ml" 125 5082 5105 "pango.ml" 125 5082 5111
+type(
+  string option
+)
+ident(
+  int_ref family "pango.ml" 123 4965 4982 "pango.ml" 123 4965 4988
+)
+"pango.ml" 125 5082 5086 "pango.ml" 125 5082 5111
+call(
+  stack
+)
+type(
+  unit
+)
+"pango.ml" 126 5113 5117 "pango.ml" 126 5113 5124
+type(
+  (font_description -> Tags.style -> unit) -> Tags.style option -> unit
+)
+ident(
+  int_ref may_set "pango.ml" 124 5033 5041 "pango.ml" 124 5033 5048
+)
+"pango.ml" 126 5113 5125 "pango.ml" 126 5113 5134
+type(
+  font_description -> Tags.style -> unit
+)
+"pango.ml" 126 5113 5135 "pango.ml" 126 5113 5140
+type(
+  Tags.style option
+)
+ident(
+  int_ref style "pango.ml" 123 4965 4990 "pango.ml" 123 4965 4995
+)
+"pango.ml" 126 5113 5117 "pango.ml" 126 5113 5140
+call(
+  stack
+)
+type(
+  unit
+)
+"pango.ml" 127 5142 5146 "pango.ml" 127 5142 5153
+type(
+  (font_description -> Tags.stretch -> unit) -> Tags.stretch option -> unit
+)
+ident(
+  int_ref may_set "pango.ml" 124 5033 5041 "pango.ml" 124 5033 5048
+)
+"pango.ml" 127 5142 5154 "pango.ml" 127 5142 5165
+type(
+  font_description -> Tags.stretch -> unit
+)
+"pango.ml" 127 5142 5166 "pango.ml" 127 5142 5173
+type(
+  Tags.stretch option
+)
+ident(
+  int_ref stretch "pango.ml" 123 4965 5014 "pango.ml" 123 4965 5021
+)
+"pango.ml" 127 5142 5146 "pango.ml" 127 5142 5173
+call(
+  stack
+)
+type(
+  unit
+)
+"pango.ml" 128 5175 5179 "pango.ml" 128 5175 5186
+type(
+  (font_description -> Tags.variant -> unit) -> Tags.variant option -> unit
+)
+ident(
+  int_ref may_set "pango.ml" 124 5033 5041 "pango.ml" 124 5033 5048
+)
+"pango.ml" 128 5175 5187 "pango.ml" 128 5175 5198
+type(
+  font_description -> Tags.variant -> unit
+)
+"pango.ml" 128 5175 5199 "pango.ml" 128 5175 5206
+type(
+  Tags.variant option
+)
+ident(
+  int_ref variant "pango.ml" 123 4965 4997 "pango.ml" 123 4965 5004
+)
+"pango.ml" 128 5175 5179 "pango.ml" 128 5175 5206
+call(
+  stack
+)
+type(
+  unit
+)
+"pango.ml" 129 5208 5212 "pango.ml" 129 5208 5219
+type(
+  (font_description -> Tags.weight -> unit) -> Tags.weight option -> unit
+)
+ident(
+  int_ref may_set "pango.ml" 124 5033 5041 "pango.ml" 124 5033 5048
+)
+"pango.ml" 129 5208 5220 "pango.ml" 129 5208 5230
+type(
+  font_description -> Tags.weight -> unit
+)
+ident(
+  int_ref set_weight "pango.ml" 112 4424 4430 "pango.ml" 112 4424 4440
+)
+"pango.ml" 129 5208 5231 "pango.ml" 129 5208 5237
+type(
+  Tags.weight option
+)
+ident(
+  int_ref weight "pango.ml" 123 4965 5006 "pango.ml" 123 4965 5012
+)
+"pango.ml" 129 5208 5212 "pango.ml" 129 5208 5237
+call(
+  stack
+)
+type(
+  unit
+)
+"pango.ml" 130 5239 5243 "pango.ml" 130 5239 5250
+type(
+  (font_description -> int -> unit) -> int option -> unit
+)
+ident(
+  int_ref may_set "pango.ml" 124 5033 5041 "pango.ml" 124 5033 5048
+)
+"pango.ml" 130 5239 5251 "pango.ml" 130 5239 5259
+type(
+  font_description -> int -> unit
+)
+"pango.ml" 130 5239 5260 "pango.ml" 130 5239 5264
+type(
+  int option
+)
+ident(
+  int_ref size "pango.ml" 123 4965 5023 "pango.ml" 123 4965 5027
+)
+"pango.ml" 130 5239 5243 "pango.ml" 130 5239 5264
+call(
+  tail
+)
+type(
+  unit
+)
+"pango.ml" 129 5208 5212 "pango.ml" 130 5239 5264
+type(
+  unit
+)
+"pango.ml" 128 5175 5179 "pango.ml" 130 5239 5264
+type(
+  unit
+)
+"pango.ml" 127 5142 5146 "pango.ml" 130 5239 5264
+type(
+  unit
+)
+"pango.ml" 126 5113 5117 "pango.ml" 130 5239 5264
+type(
+  unit
+)
+"pango.ml" 125 5082 5086 "pango.ml" 130 5239 5264
+type(
+  unit
+)
+"pango.ml" 124 5033 5037 "pango.ml" 130 5239 5264
+type(
+  unit
+)
+"pango.ml" 154 6171 6177 "pango.ml" 154 6171 6181
+type(
+  language
+)
+ident(
+  def none "pango.ml" 154 6171 6224 "pango.ml" 155 6225 6228
+)
+"pango.ml" 154 6171 6195 "pango.ml" 154 6171 6204
+type(
+  Gpointer.boxed -> language
+)
+ident(
+  ext_ref Obj.magic
+)
+"pango.ml" 154 6171 6205 "pango.ml" 154 6171 6224
+type(
+  Gpointer.boxed
+)
+ident(
+  ext_ref Gpointer.boxed_null
+)
+"pango.ml" 154 6171 6195 "pango.ml" 154 6171 6224
+type(
+  language
+)
+type(
+  language
+)
+"pango.ml" 158 6254 6260 "pango.ml" 158 6254 6264
+type(
+  'a Gobject.obj -> context
+)
+ident(
+  def cast "pango.ml" 159 6313 6315 "pango.ml" 174 7048 7051
+)
+"pango.ml" 158 6254 6265 "pango.ml" 158 6254 6266
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "pango.ml" 158 6254 6267 "pango.ml" 158 6254 6312
+)
+"pango.ml" 158 6254 6279 "pango.ml" 158 6254 6295
+type(
+  'a Gobject.obj -> string -> context
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"pango.ml" 158 6254 6296 "pango.ml" 158 6254 6297
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "pango.ml" 158 6254 6265 "pango.ml" 158 6254 6266
+)
+"pango.ml" 158 6254 6298 "pango.ml" 158 6254 6312
+type(
+  string
+)
+"pango.ml" 158 6254 6279 "pango.ml" 158 6254 6312
+call(
+  tail
+)
+type(
+  context
+)
+type(
+  context
+)
+"pango.ml" 177 7101 7105 "pango.ml" 177 7101 7110
+type(
+  int
+)
+ident(
+  def scale "pango.ml" 179 7123 7123 --
+)
+"pango.ml" 177 7101 7113 "pango.ml" 177 7101 7118
+type(
+  unit -> int
+)
+"pango.ml" 177 7101 7119 "pango.ml" 177 7101 7121
+type(
+  unit
+)
+"pango.ml" 177 7101 7113 "pango.ml" 177 7101 7121
+type(
+  int
+)
+"pango.ml" 181 7158 7164 "pango.ml" 181 7158 7168
+type(
+  'a Gobject.obj -> layout
+)
+ident(
+  def cast "pango.ml" 182 7215 7217 "pango.ml" 221 9620 9623
+)
+"pango.ml" 181 7158 7169 "pango.ml" 181 7158 7170
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "pango.ml" 181 7158 7171 "pango.ml" 181 7158 7214
+)
+"pango.ml" 181 7158 7182 "pango.ml" 181 7158 7198
+type(
+  'a Gobject.obj -> string -> layout
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"pango.ml" 181 7158 7199 "pango.ml" 181 7158 7200
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "pango.ml" 181 7158 7169 "pango.ml" 181 7158 7170
+)
+"pango.ml" 181 7158 7201 "pango.ml" 181 7158 7214
+type(
+  string
+)
+"pango.ml" 181 7158 7182 "pango.ml" 181 7158 7214
+call(
+  tail
+)
+type(
+  layout
+)
+type(
+  layout
+)

@@ -1,0 +1,25 @@
+"gtkInit.ml" 27 1722 1726 "gtkInit.ml" 27 1722 1732
+type(
+  string
+)
+ident(
+  def locale "gtkInit.ml" 27 1722 1755 --
+)
+"gtkInit.ml" 27 1722 1735 "gtkInit.ml" 27 1722 1752
+type(
+  ?setlocale:bool -> unit -> string
+)
+ident(
+  ext_ref GtkMain.Main.init
+)
+"gtkInit.ml" 27 1722 1753 "gtkInit.ml" 27 1722 1755
+type(
+  unit
+)
+"gtkInit.ml" 27 1722 1735 "gtkInit.ml" 27 1722 1755
+call(
+  stack
+)
+type(
+  string
+)

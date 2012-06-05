@@ -1,0 +1,895 @@
+"gtkMain.ml" 28 1703 1707 "gtkMain.ml" 28 1703 1709
+type(
+  unit
+)
+"gtkMain.ml" 28 1703 1712 "gtkMain.ml" 28 1703 1739
+type(
+  string -> exn -> unit
+)
+ident(
+  ext_ref Callback.register_exception
+)
+"gtkMain.ml" 28 1703 1740 "gtkMain.ml" 28 1703 1750
+type(
+  string
+)
+"gtkMain.ml" 28 1703 1757 "gtkMain.ml" 28 1703 1759
+type(
+  string
+)
+"gtkMain.ml" 28 1703 1751 "gtkMain.ml" 28 1703 1760
+type(
+  exn
+)
+"gtkMain.ml" 28 1703 1712 "gtkMain.ml" 28 1703 1760
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkMain.ml" 29 1761 1765 "gtkMain.ml" 29 1761 1767
+type(
+  unit
+)
+"gtkMain.ml" 29 1761 1770 "gtkMain.ml" 29 1761 1776
+type(
+  Gc.control -> unit
+)
+ident(
+  ext_ref Gc.set
+)
+"gtkMain.ml" 29 1761 1779 "gtkMain.ml" 29 1761 1785
+type(
+  unit -> Gc.control
+)
+ident(
+  ext_ref Gc.get
+)
+"gtkMain.ml" 29 1761 1785 "gtkMain.ml" 29 1761 1787
+type(
+  unit
+)
+"gtkMain.ml" 29 1761 1778 "gtkMain.ml" 29 1761 1788
+type(
+  Gc.control
+)
+"gtkMain.ml" 29 1761 1812 "gtkMain.ml" 29 1761 1819
+type(
+  int
+)
+"gtkMain.ml" 29 1761 1777 "gtkMain.ml" 29 1761 1820
+type(
+  Gc.control
+)
+"gtkMain.ml" 29 1761 1770 "gtkMain.ml" 29 1761 1820
+type(
+  unit
+)
+"gtkMain.ml" 36 2099 2105 "gtkMain.ml" 36 2099 2109
+type(
+  ?setlocale:bool -> unit -> string
+)
+ident(
+  def init "gtkMain.ml" 51 2700 2702 "gtkMain.ml" 65 3252 3255
+)
+"gtkMain.ml" 36 2099 2112 "gtkMain.ml" 36 2099 2121
+type(
+  bool
+)
+"gtkMain.ml" 36 2099 2122 "gtkMain.ml" 36 2099 2126
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gtkMain.ml" 36 2099 2122 "gtkMain.ml" 36 2099 2126
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gtkMain.ml" 36 2099 2122 "gtkMain.ml" 36 2099 2126
+)
+"gtkMain.ml" 36 2099 2128 "gtkMain.ml" 36 2099 2130
+type(
+  unit
+)
+"gtkMain.ml" 37 2133 2141 "gtkMain.ml" 37 2133 2150
+type(
+  bool
+)
+"gtkMain.ml" 38 2153 2163 "gtkMain.ml" 38 2153 2173
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"gtkMain.ml" 38 2153 2174 "gtkMain.ml" 38 2153 2189
+type(
+  string
+)
+"gtkMain.ml" 38 2153 2163 "gtkMain.ml" 38 2153 2189
+type(
+  string
+)
+"gtkMain.ml" 38 2153 2190 "gtkMain.ml" 38 2153 2192
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gtkMain.ml" 38 2153 2193 "gtkMain.ml" 38 2153 2196
+type(
+  string
+)
+"gtkMain.ml" 38 2153 2163 "gtkMain.ml" 38 2153 2196
+type(
+  bool
+)
+"gtkMain.ml" 38 2153 2202 "gtkMain.ml" 38 2153 2211
+type(
+  exn
+)
+"gtkMain.ml" 38 2153 2215 "gtkMain.ml" 38 2153 2224
+type(
+  bool
+)
+ident(
+  int_ref setlocale "gtkMain.ml" 36 2099 2112 "gtkMain.ml" 36 2099 2121
+)
+"gtkMain.ml" 38 2153 2159 "gtkMain.ml" 38 2153 2224
+type(
+  bool
+)
+"gtkMain.ml" 39 2228 2235 "gtkMain.ml" 39 2228 2238
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"gtkMain.ml" 39 2228 2239 "gtkMain.ml" 39 2228 2248
+type(
+  bool
+)
+ident(
+  int_ref setlocale "gtkMain.ml" 37 2133 2141 "gtkMain.ml" 37 2133 2150
+)
+"gtkMain.ml" 39 2228 2235 "gtkMain.ml" 39 2228 2248
+type(
+  bool
+)
+"gtkMain.ml" 39 2228 2254 "gtkMain.ml" 39 2228 2271
+type(
+  unit -> unit
+)
+"gtkMain.ml" 39 2228 2272 "gtkMain.ml" 39 2228 2274
+type(
+  unit
+)
+"gtkMain.ml" 39 2228 2254 "gtkMain.ml" 39 2228 2274
+type(
+  unit
+)
+"gtkMain.ml" 39 2228 2232 "gtkMain.ml" 39 2228 2274
+type(
+  unit
+)
+"gtkMain.ml" 40 2276 2284 "gtkMain.ml" 40 2276 2288
+type(
+  string array
+)
+"gtkMain.ml" 42 2301 2302 "gtkMain.ml" 42 2301 2306
+type(
+  string array -> string array
+)
+"gtkMain.ml" 42 2301 2307 "gtkMain.ml" 42 2301 2315
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"gtkMain.ml" 42 2301 2302 "gtkMain.ml" 42 2301 2315
+type(
+  string array
+)
+"gtkMain.ml" 43 2316 2333 "gtkMain.ml" 43 2316 2336
+type(
+  string
+)
+ident(
+  def err "gtkMain.ml" 44 2340 2348 "gtkMain.ml" 44 2340 2409
+)
+"gtkMain.ml" 43 2316 2327 "gtkMain.ml" 43 2316 2336
+type(
+  exn
+)
+"gtkMain.ml" 44 2340 2348 "gtkMain.ml" 44 2340 2353
+type(
+  exn -> string array
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gtkMain.ml" 44 2340 2362 "gtkMain.ml" 44 2340 2401
+type(
+  string
+)
+"gtkMain.ml" 44 2340 2402 "gtkMain.ml" 44 2340 2403
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gtkMain.ml" 44 2340 2404 "gtkMain.ml" 44 2340 2407
+type(
+  string
+)
+ident(
+  int_ref err "gtkMain.ml" 43 2316 2333 "gtkMain.ml" 43 2316 2336
+)
+"gtkMain.ml" 44 2340 2361 "gtkMain.ml" 44 2340 2408
+call(
+  stack
+)
+type(
+  string
+)
+"gtkMain.ml" 44 2340 2354 "gtkMain.ml" 44 2340 2409
+type(
+  exn
+)
+"gtkMain.ml" 44 2340 2348 "gtkMain.ml" 44 2340 2409
+type(
+  string array
+)
+"gtkMain.ml" 41 2291 2297 "gtkMain.ml" 44 2340 2409
+type(
+  string array
+)
+"gtkMain.ml" 46 2417 2424 "gtkMain.ml" 46 2417 2433
+type(
+  bool
+)
+ident(
+  int_ref setlocale "gtkMain.ml" 37 2133 2141 "gtkMain.ml" 37 2133 2150
+)
+"gtkMain.ml" 46 2417 2439 "gtkMain.ml" 46 2417 2445
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gtkMain.ml" 46 2417 2447 "gtkMain.ml" 46 2417 2466
+type(
+  Glib.Main.locale_category -> string option -> string
+)
+ident(
+  ext_ref Glib.Main.setlocale
+)
+"gtkMain.ml" 46 2417 2467 "gtkMain.ml" 46 2417 2475
+type(
+  Glib.Main.locale_category
+)
+"gtkMain.ml" 46 2417 2482 "gtkMain.ml" 46 2417 2485
+type(
+  string
+)
+"gtkMain.ml" 46 2417 2476 "gtkMain.ml" 46 2417 2486
+type(
+  string option
+)
+"gtkMain.ml" 46 2417 2446 "gtkMain.ml" 46 2417 2487
+call(
+  stack
+)
+type(
+  string
+)
+"gtkMain.ml" 46 2417 2439 "gtkMain.ml" 46 2417 2487
+type(
+  unit
+)
+"gtkMain.ml" 46 2417 2421 "gtkMain.ml" 46 2417 2487
+type(
+  unit
+)
+"gtkMain.ml" 47 2489 2493 "gtkMain.ml" 47 2489 2503
+type(
+  src:string array ->
+  src_pos:int -> dst:string array -> dst_pos:int -> len:int -> unit
+)
+ident(
+  ext_ref StdLabels.Array.blit
+)
+"gtkMain.ml" 47 2489 2509 "gtkMain.ml" 47 2489 2513
+type(
+  string array
+)
+ident(
+  int_ref argv "gtkMain.ml" 40 2276 2284 "gtkMain.ml" 40 2276 2288
+)
+"gtkMain.ml" 47 2489 2519 "gtkMain.ml" 47 2489 2527
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"gtkMain.ml" 47 2489 2534 "gtkMain.ml" 47 2489 2546
+type(
+  string array -> int
+)
+ident(
+  ext_ref StdLabels.Array.length
+)
+"gtkMain.ml" 47 2489 2547 "gtkMain.ml" 47 2489 2551
+type(
+  string array
+)
+ident(
+  int_ref argv "gtkMain.ml" 40 2276 2284 "gtkMain.ml" 40 2276 2288
+)
+"gtkMain.ml" 47 2489 2533 "gtkMain.ml" 47 2489 2552
+type(
+  int
+)
+"gtkMain.ml" 48 2553 2568 "gtkMain.ml" 48 2553 2569
+type(
+  int
+)
+"gtkMain.ml" 48 2553 2579 "gtkMain.ml" 48 2553 2580
+type(
+  int
+)
+"gtkMain.ml" 47 2489 2493 "gtkMain.ml" 48 2553 2580
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkMain.ml" 49 2582 2586 "gtkMain.ml" 49 2582 2598
+type(
+  Obj.t -> int -> unit
+)
+ident(
+  ext_ref Obj.truncate
+)
+"gtkMain.ml" 49 2582 2600 "gtkMain.ml" 49 2582 2608
+type(
+  string array -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"gtkMain.ml" 49 2582 2609 "gtkMain.ml" 49 2582 2617
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"gtkMain.ml" 49 2582 2599 "gtkMain.ml" 49 2582 2618
+type(
+  Obj.t
+)
+"gtkMain.ml" 49 2582 2620 "gtkMain.ml" 49 2582 2632
+type(
+  string array -> int
+)
+ident(
+  ext_ref StdLabels.Array.length
+)
+"gtkMain.ml" 49 2582 2633 "gtkMain.ml" 49 2582 2637
+type(
+  string array
+)
+ident(
+  int_ref argv "gtkMain.ml" 40 2276 2284 "gtkMain.ml" 40 2276 2288
+)
+"gtkMain.ml" 49 2582 2619 "gtkMain.ml" 49 2582 2638
+type(
+  int
+)
+"gtkMain.ml" 49 2582 2586 "gtkMain.ml" 49 2582 2638
+type(
+  unit
+)
+"gtkMain.ml" 50 2640 2647 "gtkMain.ml" 50 2640 2656
+type(
+  bool
+)
+ident(
+  int_ref setlocale "gtkMain.ml" 37 2133 2141 "gtkMain.ml" 37 2133 2150
+)
+"gtkMain.ml" 50 2640 2662 "gtkMain.ml" 50 2640 2681
+type(
+  Glib.Main.locale_category -> string option -> string
+)
+ident(
+  ext_ref Glib.Main.setlocale
+)
+"gtkMain.ml" 50 2640 2682 "gtkMain.ml" 50 2640 2686
+type(
+  Glib.Main.locale_category
+)
+"gtkMain.ml" 50 2640 2687 "gtkMain.ml" 50 2640 2691
+type(
+  string option
+)
+"gtkMain.ml" 50 2640 2662 "gtkMain.ml" 50 2640 2691
+call(
+  tail
+)
+type(
+  string
+)
+"gtkMain.ml" 50 2640 2697 "gtkMain.ml" 50 2640 2699
+type(
+  string
+)
+"gtkMain.ml" 50 2640 2644 "gtkMain.ml" 50 2640 2699
+type(
+  string
+)
+"gtkMain.ml" 49 2582 2586 "gtkMain.ml" 50 2640 2699
+type(
+  string
+)
+"gtkMain.ml" 47 2489 2493 "gtkMain.ml" 50 2640 2699
+type(
+  string
+)
+"gtkMain.ml" 46 2417 2421 "gtkMain.ml" 50 2640 2699
+type(
+  string
+)
+"gtkMain.ml" 40 2276 2280 "gtkMain.ml" 50 2640 2699
+type(
+  string
+)
+"gtkMain.ml" 39 2228 2232 "gtkMain.ml" 50 2640 2699
+type(
+  string
+)
+"gtkMain.ml" 37 2133 2137 "gtkMain.ml" 50 2640 2699
+type(
+  string
+)
+"gtkMain.ml" 52 2712 2718 "gtkMain.ml" 52 2712 2723
+type(
+  Glib.Main.t list ref
+)
+ident(
+  def loops "gtkMain.ml" 53 2733 2735 "gtkMain.ml" 65 3252 3255
+)
+"gtkMain.ml" 52 2712 2726 "gtkMain.ml" 52 2712 2729
+type(
+  Glib.Main.t list -> Glib.Main.t list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gtkMain.ml" 52 2712 2730 "gtkMain.ml" 52 2712 2732
+type(
+  Glib.Main.t list
+)
+"gtkMain.ml" 52 2712 2726 "gtkMain.ml" 52 2712 2732
+type(
+  Glib.Main.t list ref
+)
+"gtkMain.ml" 53 2733 2739 "gtkMain.ml" 53 2733 2751
+type(
+  unit -> unit
+)
+ident(
+  def default_main "gtkMain.ml" 58 2932 2934 "gtkMain.ml" 65 3252 3255
+)
+"gtkMain.ml" 53 2733 2752 "gtkMain.ml" 53 2733 2754
+type(
+  unit
+)
+"gtkMain.ml" 54 2757 2765 "gtkMain.ml" 54 2757 2769
+type(
+  Glib.Main.t
+)
+"gtkMain.ml" 54 2757 2773 "gtkMain.ml" 54 2757 2784
+type(
+  bool -> Glib.Main.t
+)
+ident(
+  ext_ref Glib.Main.create
+)
+"gtkMain.ml" 54 2757 2785 "gtkMain.ml" 54 2757 2789
+type(
+  bool
+)
+"gtkMain.ml" 54 2757 2772 "gtkMain.ml" 54 2757 2790
+call(
+  stack
+)
+type(
+  Glib.Main.t
+)
+"gtkMain.ml" 55 2794 2798 "gtkMain.ml" 55 2794 2803
+type(
+  Glib.Main.t list ref
+)
+ident(
+  int_ref loops "gtkMain.ml" 52 2712 2718 "gtkMain.ml" 52 2712 2723
+)
+"gtkMain.ml" 55 2794 2804 "gtkMain.ml" 55 2794 2806
+type(
+  Glib.Main.t list ref -> Glib.Main.t list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gtkMain.ml" 55 2794 2807 "gtkMain.ml" 55 2794 2811
+type(
+  Glib.Main.t
+)
+ident(
+  int_ref loop "gtkMain.ml" 54 2757 2765 "gtkMain.ml" 54 2757 2769
+)
+"gtkMain.ml" 55 2794 2815 "gtkMain.ml" 55 2794 2816
+type(
+  Glib.Main.t list ref -> Glib.Main.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkMain.ml" 55 2794 2816 "gtkMain.ml" 55 2794 2821
+type(
+  Glib.Main.t list ref
+)
+ident(
+  int_ref loops "gtkMain.ml" 52 2712 2718 "gtkMain.ml" 52 2712 2723
+)
+"gtkMain.ml" 55 2794 2815 "gtkMain.ml" 55 2794 2821
+type(
+  Glib.Main.t list
+)
+"gtkMain.ml" 55 2794 2807 "gtkMain.ml" 55 2794 2821
+type(
+  Glib.Main.t list
+)
+"gtkMain.ml" 55 2794 2798 "gtkMain.ml" 55 2794 2821
+type(
+  unit
+)
+"gtkMain.ml" 56 2823 2833 "gtkMain.ml" 56 2823 2848
+type(
+  Glib.Main.t -> bool
+)
+ident(
+  ext_ref Glib.Main.is_running
+)
+"gtkMain.ml" 56 2823 2849 "gtkMain.ml" 56 2823 2853
+type(
+  Glib.Main.t
+)
+ident(
+  int_ref loop "gtkMain.ml" 54 2757 2765 "gtkMain.ml" 54 2757 2769
+)
+"gtkMain.ml" 56 2823 2833 "gtkMain.ml" 56 2823 2853
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkMain.ml" 56 2823 2857 "gtkMain.ml" 56 2823 2871
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Glib.Main.iteration
+)
+"gtkMain.ml" 56 2823 2872 "gtkMain.ml" 56 2823 2876
+type(
+  bool
+)
+"gtkMain.ml" 56 2823 2857 "gtkMain.ml" 56 2823 2876
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkMain.ml" 56 2823 2827 "gtkMain.ml" 56 2823 2881
+type(
+  unit
+)
+"gtkMain.ml" 57 2883 2890 "gtkMain.ml" 57 2883 2891
+type(
+  Glib.Main.t list ref -> Glib.Main.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkMain.ml" 57 2883 2891 "gtkMain.ml" 57 2883 2896
+type(
+  Glib.Main.t list ref
+)
+ident(
+  int_ref loops "gtkMain.ml" 52 2712 2718 "gtkMain.ml" 52 2712 2723
+)
+"gtkMain.ml" 57 2883 2890 "gtkMain.ml" 57 2883 2896
+type(
+  Glib.Main.t list
+)
+"gtkMain.ml" 57 2883 2897 "gtkMain.ml" 57 2883 2899
+type(
+  Glib.Main.t list -> Glib.Main.t list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gtkMain.ml" 57 2883 2900 "gtkMain.ml" 57 2883 2902
+type(
+  Glib.Main.t list
+)
+"gtkMain.ml" 57 2883 2890 "gtkMain.ml" 57 2883 2902
+type(
+  bool
+)
+"gtkMain.ml" 57 2883 2908 "gtkMain.ml" 57 2883 2913
+type(
+  Glib.Main.t list ref
+)
+ident(
+  int_ref loops "gtkMain.ml" 52 2712 2718 "gtkMain.ml" 52 2712 2723
+)
+"gtkMain.ml" 57 2883 2914 "gtkMain.ml" 57 2883 2916
+type(
+  Glib.Main.t list ref -> Glib.Main.t list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gtkMain.ml" 57 2883 2917 "gtkMain.ml" 57 2883 2924
+type(
+  Glib.Main.t list -> Glib.Main.t list
+)
+ident(
+  ext_ref StdLabels.List.tl
+)
+"gtkMain.ml" 57 2883 2925 "gtkMain.ml" 57 2883 2926
+type(
+  Glib.Main.t list ref -> Glib.Main.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkMain.ml" 57 2883 2926 "gtkMain.ml" 57 2883 2931
+type(
+  Glib.Main.t list ref
+)
+ident(
+  int_ref loops "gtkMain.ml" 52 2712 2718 "gtkMain.ml" 52 2712 2723
+)
+"gtkMain.ml" 57 2883 2925 "gtkMain.ml" 57 2883 2931
+type(
+  Glib.Main.t list
+)
+"gtkMain.ml" 57 2883 2917 "gtkMain.ml" 57 2883 2931
+call(
+  stack
+)
+type(
+  Glib.Main.t list
+)
+"gtkMain.ml" 57 2883 2908 "gtkMain.ml" 57 2883 2931
+type(
+  unit
+)
+"gtkMain.ml" 57 2883 2887 "gtkMain.ml" 57 2883 2931
+type(
+  unit
+)
+"gtkMain.ml" 56 2823 2827 "gtkMain.ml" 57 2883 2931
+type(
+  unit
+)
+"gtkMain.ml" 55 2794 2798 "gtkMain.ml" 57 2883 2931
+type(
+  unit
+)
+"gtkMain.ml" 54 2757 2761 "gtkMain.ml" 57 2883 2931
+type(
+  unit
+)
+"gtkMain.ml" 58 2932 2938 "gtkMain.ml" 58 2932 2947
+type(
+  (unit -> unit) ref
+)
+ident(
+  def main_func "gtkMain.ml" 59 2967 2969 "gtkMain.ml" 65 3252 3255
+)
+"gtkMain.ml" 58 2932 2950 "gtkMain.ml" 58 2932 2953
+type(
+  (unit -> unit) -> (unit -> unit) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gtkMain.ml" 58 2932 2954 "gtkMain.ml" 58 2932 2966
+type(
+  unit -> unit
+)
+ident(
+  int_ref default_main "gtkMain.ml" 53 2733 2739 "gtkMain.ml" 53 2733 2751
+)
+"gtkMain.ml" 58 2932 2950 "gtkMain.ml" 58 2932 2966
+type(
+  (unit -> unit) ref
+)
+"gtkMain.ml" 59 2967 2973 "gtkMain.ml" 59 2967 2977
+type(
+  unit -> unit
+)
+ident(
+  def main "gtkMain.ml" 60 2997 2999 "gtkMain.ml" 65 3252 3255
+)
+"gtkMain.ml" 59 2967 2978 "gtkMain.ml" 59 2967 2980
+type(
+  unit
+)
+"gtkMain.ml" 59 2967 2983 "gtkMain.ml" 59 2967 2984
+type(
+  (unit -> unit) ref -> unit -> unit
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkMain.ml" 59 2967 2984 "gtkMain.ml" 59 2967 2993
+type(
+  (unit -> unit) ref
+)
+ident(
+  int_ref main_func "gtkMain.ml" 58 2932 2938 "gtkMain.ml" 58 2932 2947
+)
+"gtkMain.ml" 59 2967 2983 "gtkMain.ml" 59 2967 2993
+type(
+  unit -> unit
+)
+"gtkMain.ml" 59 2967 2994 "gtkMain.ml" 59 2967 2996
+type(
+  unit
+)
+"gtkMain.ml" 59 2967 2983 "gtkMain.ml" 59 2967 2996
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkMain.ml" 60 2997 3003 "gtkMain.ml" 60 2997 3007
+type(
+  unit -> unit
+)
+ident(
+  def quit "gtkMain.ml" 61 3061 3063 "gtkMain.ml" 65 3252 3255
+)
+"gtkMain.ml" 60 2997 3008 "gtkMain.ml" 60 2997 3010
+type(
+  unit
+)
+"gtkMain.ml" 60 2997 3016 "gtkMain.ml" 60 2997 3017
+type(
+  Glib.Main.t list ref -> Glib.Main.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkMain.ml" 60 2997 3017 "gtkMain.ml" 60 2997 3022
+type(
+  Glib.Main.t list ref
+)
+ident(
+  int_ref loops "gtkMain.ml" 52 2712 2718 "gtkMain.ml" 52 2712 2723
+)
+"gtkMain.ml" 60 2997 3016 "gtkMain.ml" 60 2997 3022
+type(
+  Glib.Main.t list
+)
+"gtkMain.ml" 60 2997 3023 "gtkMain.ml" 60 2997 3025
+type(
+  Glib.Main.t list -> Glib.Main.t list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gtkMain.ml" 60 2997 3026 "gtkMain.ml" 60 2997 3028
+type(
+  Glib.Main.t list
+)
+"gtkMain.ml" 60 2997 3016 "gtkMain.ml" 60 2997 3028
+type(
+  bool
+)
+"gtkMain.ml" 60 2997 3034 "gtkMain.ml" 60 2997 3043
+type(
+  Glib.Main.t -> unit
+)
+ident(
+  ext_ref Glib.Main.quit
+)
+"gtkMain.ml" 60 2997 3045 "gtkMain.ml" 60 2997 3052
+type(
+  Glib.Main.t list -> Glib.Main.t
+)
+ident(
+  ext_ref StdLabels.List.hd
+)
+"gtkMain.ml" 60 2997 3053 "gtkMain.ml" 60 2997 3054
+type(
+  Glib.Main.t list ref -> Glib.Main.t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkMain.ml" 60 2997 3054 "gtkMain.ml" 60 2997 3059
+type(
+  Glib.Main.t list ref
+)
+ident(
+  int_ref loops "gtkMain.ml" 52 2712 2718 "gtkMain.ml" 52 2712 2723
+)
+"gtkMain.ml" 60 2997 3053 "gtkMain.ml" 60 2997 3059
+type(
+  Glib.Main.t list
+)
+"gtkMain.ml" 60 2997 3044 "gtkMain.ml" 60 2997 3060
+call(
+  stack
+)
+type(
+  Glib.Main.t
+)
+"gtkMain.ml" 60 2997 3034 "gtkMain.ml" 60 2997 3060
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkMain.ml" 60 2997 3013 "gtkMain.ml" 60 2997 3060
+type(
+  unit
+)
+"gtkMain.ml" 62 3133 3139 "gtkMain.ml" 62 3133 3146
+type(
+  int * int * int
+)
+ident(
+  def version "gtkMain.ml" 63 3164 3166 "gtkMain.ml" 65 3252 3255
+)
+"gtkMain.ml" 62 3133 3149 "gtkMain.ml" 62 3133 3160
+type(
+  unit -> int * int * int
+)
+"gtkMain.ml" 62 3133 3161 "gtkMain.ml" 62 3133 3163
+type(
+  unit
+)
+"gtkMain.ml" 62 3133 3149 "gtkMain.ml" 62 3133 3163
+type(
+  int * int * int
+)

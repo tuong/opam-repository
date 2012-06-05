@@ -1,0 +1,4 @@
+deps=make
+tarball=ulib-1.0~oasis1.tar.gz
+is_library=true
+is_program=false

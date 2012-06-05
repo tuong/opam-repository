@@ -1,0 +1,7163 @@
+"gtkTreeProps.ml" 7 84 90 "gtkTreeProps.ml" 7 84 106
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  def tree_path_string "gtkTreeProps.ml" 8 152 154 "gtkTreeProps.ml" 9 218 221
+)
+"gtkTreeProps.ml" 7 84 109 "gtkTreeProps.ml" 7 84 112
+type(
+  Gtk.tree_path Gobject.data_conv -> Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gtkTreeProps.ml" 7 84 114 "gtkTreeProps.ml" 7 84 128
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 7 84 109 "gtkTreeProps.ml" 7 84 151
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+"gtkTreeProps.ml" 8 152 158 "gtkTreeProps.ml" 8 152 172
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  def tree_path_copy "gtkTreeProps.ml" 8 152 217 "gtkTreeProps.ml" 9 218 221
+)
+"gtkTreeProps.ml" 8 152 175 "gtkTreeProps.ml" 8 152 178
+type(
+  Gtk.tree_path Gobject.data_conv -> Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gtkTreeProps.ml" 8 152 180 "gtkTreeProps.ml" 8 152 194
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 8 152 175 "gtkTreeProps.ml" 8 152 217
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+"gtkTreeProps.ml" 12 252 258 "gtkTreeProps.ml" 12 252 263
+type(
+  ('a, Gtk.tree_model option) Gobject.property
+)
+ident(
+  def model "gtkTreeProps.ml" 14 338 340 "gtkTreeProps.ml" 17 479 482
+)
+"gtkTreeProps.ml" 13 266 276 "gtkTreeProps.ml" 13 266 283
+type(
+  string
+)
+"gtkTreeProps.ml" 13 266 291 "gtkTreeProps.ml" 13 266 305
+type(
+  Gtk.tree_model option Gobject.data_conv
+)
+type(
+  Gtk.tree_model option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkTreeProps.ml" 13 266 270 "gtkTreeProps.ml" 13 266 337
+type(
+  ('a, Gtk.tree_model option) Gobject.property
+)
+"gtkTreeProps.ml" 14 338 344 "gtkTreeProps.ml" 14 338 355
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  def reorderable "gtkTreeProps.ml" 15 393 395 "gtkTreeProps.ml" 17 479 482
+)
+"gtkTreeProps.ml" 14 338 364 "gtkTreeProps.ml" 14 338 377
+type(
+  string
+)
+"gtkTreeProps.ml" 14 338 384 "gtkTreeProps.ml" 14 338 391
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 14 338 358 "gtkTreeProps.ml" 14 338 392
+type(
+  ('b, bool) Gobject.property
+)
+"gtkTreeProps.ml" 15 393 399 "gtkTreeProps.ml" 15 393 406
+type(
+  ('c, bool) Gobject.property
+)
+ident(
+  def visible "gtkTreeProps.ml" 16 440 442 "gtkTreeProps.ml" 17 479 482
+)
+"gtkTreeProps.ml" 15 393 415 "gtkTreeProps.ml" 15 393 424
+type(
+  string
+)
+"gtkTreeProps.ml" 15 393 431 "gtkTreeProps.ml" 15 393 438
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 15 393 409 "gtkTreeProps.ml" 15 393 439
+type(
+  ('c, bool) Gobject.property
+)
+"gtkTreeProps.ml" 16 440 446 "gtkTreeProps.ml" 16 440 451
+type(
+  ('d, int) Gobject.property
+)
+ident(
+  def width "gtkTreeProps.ml" 16 440 478 "gtkTreeProps.ml" 17 479 482
+)
+"gtkTreeProps.ml" 16 440 460 "gtkTreeProps.ml" 16 440 467
+type(
+  string
+)
+"gtkTreeProps.ml" 16 440 474 "gtkTreeProps.ml" 16 440 477
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 16 440 454 "gtkTreeProps.ml" 16 440 478
+type(
+  ('d, int) Gobject.property
+)
+"gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons "gtkTreeProps.ml" 20 517 517 --
+)
+"gtkTreeProps.ml" 19 484 499 "gtkTreeProps.ml" 19 484 516
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gtkTreeProps.ml" 20 517 521 "gtkTreeProps.ml" 20 517 533
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons_opt "gtkTreeProps.ml" 22 559 559 --
+)
+"gtkTreeProps.ml" 20 517 536 "gtkTreeProps.ml" 20 517 557
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons_opt
+)
+"gtkTreeProps.ml" 23 584 590 "gtkTreeProps.ml" 23 584 594
+type(
+  'a Gobject.obj -> Gtk.tree_view Gtk.obj
+)
+ident(
+  def cast "gtkTreeProps.ml" 24 644 646 "gtkTreeProps.ml" 135 6076 6079
+)
+"gtkTreeProps.ml" 23 584 595 "gtkTreeProps.ml" 23 584 596
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTreeProps.ml" 23 584 597 "gtkTreeProps.ml" 23 584 643
+)
+"gtkTreeProps.ml" 23 584 619 "gtkTreeProps.ml" 23 584 627
+type(
+  'a Gobject.obj -> string -> Gtk.tree_view Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTreeProps.ml" 23 584 628 "gtkTreeProps.ml" 23 584 629
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTreeProps.ml" 23 584 595 "gtkTreeProps.ml" 23 584 596
+)
+"gtkTreeProps.ml" 23 584 630 "gtkTreeProps.ml" 23 584 643
+type(
+  string
+)
+"gtkTreeProps.ml" 23 584 619 "gtkTreeProps.ml" 23 584 643
+call(
+  tail
+)
+type(
+  Gtk.tree_view Gtk.obj
+)
+type(
+  Gtk.tree_view Gtk.obj
+)
+"gtkTreeProps.ml" 25 664 672 "gtkTreeProps.ml" 25 664 685
+type(
+  ([> `treeview ], bool) Gobject.property
+)
+ident(
+  def enable_search "gtkTreeProps.ml" 27 759 763 "gtkTreeProps.ml" 52 2074 2079
+)
+"gtkTreeProps.ml" 26 716 728 "gtkTreeProps.ml" 26 716 743
+type(
+  string
+)
+"gtkTreeProps.ml" 26 716 750 "gtkTreeProps.ml" 26 716 757
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 26 716 722 "gtkTreeProps.ml" 26 716 758
+type(
+  ([> `treeview ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkTreeProps.ml" 27 759 767 "gtkTreeProps.ml" 27 759 782
+type(
+  ([> `treeview ], Gtk.tree_view_column Gtk.obj option) Gobject.property
+)
+ident(
+  def expander_column "gtkTreeProps.ml" 30 918 922 "gtkTreeProps.ml" 52 2074 2079
+)
+"gtkTreeProps.ml" 28 813 825 "gtkTreeProps.ml" 28 813 842
+type(
+  string
+)
+"gtkTreeProps.ml" 29 844 857 "gtkTreeProps.ml" 29 844 871
+type(
+  Gtk.tree_view_column Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.tree_view_column Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkTreeProps.ml" 28 813 819 "gtkTreeProps.ml" 29 844 917
+type(
+  ([> `treeview ] as 'c, Gtk.tree_view_column Gtk.obj option)
+  Gobject.property
+)
+type(
+  ('c, Gtk.tree_view_column Gtk.obj option) Gobject.property
+)
+"gtkTreeProps.ml" 30 918 926 "gtkTreeProps.ml" 30 918 943
+type(
+  ([> `treeview ], bool) Gobject.property
+)
+ident(
+  def fixed_height_mode "gtkTreeProps.ml" 32 1021 1025 "gtkTreeProps.ml" 52 2074 2079
+)
+"gtkTreeProps.ml" 31 974 986 "gtkTreeProps.ml" 31 974 1005
+type(
+  string
+)
+"gtkTreeProps.ml" 31 974 1012 "gtkTreeProps.ml" 31 974 1019
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 31 974 980 "gtkTreeProps.ml" 31 974 1020
+type(
+  ([> `treeview ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkTreeProps.ml" 32 1021 1029 "gtkTreeProps.ml" 32 1021 1040
+type(
+  ([> `treeview ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  def hadjustment "gtkTreeProps.ml" 34 1145 1149 "gtkTreeProps.ml" 52 2074 2079
+)
+"gtkTreeProps.ml" 33 1071 1083 "gtkTreeProps.ml" 33 1071 1096
+type(
+  string
+)
+"gtkTreeProps.ml" 33 1071 1104 "gtkTreeProps.ml" 33 1071 1111
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTreeProps.ml" 33 1071 1077 "gtkTreeProps.ml" 33 1071 1144
+type(
+  ([> `treeview ] as 'e, Gtk.adjustment Gtk.obj) Gobject.property
+)
+type(
+  ('e, Gtk.adjustment Gtk.obj) Gobject.property
+)
+"gtkTreeProps.ml" 34 1145 1153 "gtkTreeProps.ml" 34 1145 1170
+type(
+  ([> `treeview ], bool) Gobject.property
+)
+ident(
+  def headers_clickable "gtkTreeProps.ml" 36 1248 1252 "gtkTreeProps.ml" 52 2074 2079
+)
+"gtkTreeProps.ml" 35 1201 1213 "gtkTreeProps.ml" 35 1201 1232
+type(
+  string
+)
+"gtkTreeProps.ml" 35 1201 1239 "gtkTreeProps.ml" 35 1201 1246
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 35 1201 1207 "gtkTreeProps.ml" 35 1201 1247
+type(
+  ([> `treeview ] as 'f, bool) Gobject.property
+)
+type(
+  ('f, bool) Gobject.property
+)
+"gtkTreeProps.ml" 36 1248 1256 "gtkTreeProps.ml" 36 1248 1271
+type(
+  ([> `treeview ], bool) Gobject.property
+)
+ident(
+  def headers_visible "gtkTreeProps.ml" 38 1347 1351 "gtkTreeProps.ml" 52 2074 2079
+)
+"gtkTreeProps.ml" 37 1302 1314 "gtkTreeProps.ml" 37 1302 1331
+type(
+  string
+)
+"gtkTreeProps.ml" 37 1302 1338 "gtkTreeProps.ml" 37 1302 1345
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 37 1302 1308 "gtkTreeProps.ml" 37 1302 1346
+type(
+  ([> `treeview ] as 'g, bool) Gobject.property
+)
+type(
+  ('g, bool) Gobject.property
+)
+"gtkTreeProps.ml" 38 1347 1355 "gtkTreeProps.ml" 38 1347 1360
+type(
+  ([> `treeview ], Gtk.tree_model option) Gobject.property
+)
+ident(
+  def model "gtkTreeProps.ml" 39 1410 1414 "gtkTreeProps.ml" 52 2074 2079
+)
+"gtkTreeProps.ml" 38 1347 1391 "gtkTreeProps.ml" 38 1347 1409
+type(
+  ([> `treeview ] as 'h, Gtk.tree_model option) Gobject.property
+)
+type(
+  ('h, Gtk.tree_model option) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.model
+)
+"gtkTreeProps.ml" 39 1410 1418 "gtkTreeProps.ml" 39 1410 1429
+type(
+  ([> `treeview ], bool) Gobject.property
+)
+ident(
+  def reorderable "gtkTreeProps.ml" 40 1485 1489 "gtkTreeProps.ml" 52 2074 2079
+)
+"gtkTreeProps.ml" 39 1410 1460 "gtkTreeProps.ml" 39 1410 1484
+type(
+  ([> `treeview ] as 'i, bool) Gobject.property
+)
+type(
+  ('i, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.reorderable
+)
+"gtkTreeProps.ml" 40 1485 1493 "gtkTreeProps.ml" 40 1485 1503
+type(
+  ([> `treeview ], bool) Gobject.property
+)
+ident(
+  def rules_hint "gtkTreeProps.ml" 42 1574 1578 "gtkTreeProps.ml" 52 2074 2079
+)
+"gtkTreeProps.ml" 41 1534 1546 "gtkTreeProps.ml" 41 1534 1558
+type(
+  string
+)
+"gtkTreeProps.ml" 41 1534 1565 "gtkTreeProps.ml" 41 1534 1572
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 41 1534 1540 "gtkTreeProps.ml" 41 1534 1573
+type(
+  ([> `treeview ] as 'j, bool) Gobject.property
+)
+type(
+  ('j, bool) Gobject.property
+)
+"gtkTreeProps.ml" 42 1574 1582 "gtkTreeProps.ml" 42 1574 1595
+type(
+  ([> `treeview ], int) Gobject.property
+)
+ident(
+  def search_column "gtkTreeProps.ml" 44 1665 1669 "gtkTreeProps.ml" 52 2074 2079
+)
+"gtkTreeProps.ml" 43 1626 1638 "gtkTreeProps.ml" 43 1626 1653
+type(
+  string
+)
+"gtkTreeProps.ml" 43 1626 1660 "gtkTreeProps.ml" 43 1626 1663
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 43 1626 1632 "gtkTreeProps.ml" 43 1626 1664
+type(
+  ([> `treeview ] as 'k, int) Gobject.property
+)
+type(
+  ('k, int) Gobject.property
+)
+"gtkTreeProps.ml" 44 1665 1673 "gtkTreeProps.ml" 44 1665 1684
+type(
+  ([> `treeview ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  def vadjustment "gtkTreeProps.ml" 46 1789 1793 "gtkTreeProps.ml" 52 2074 2079
+)
+"gtkTreeProps.ml" 45 1715 1727 "gtkTreeProps.ml" 45 1715 1740
+type(
+  string
+)
+"gtkTreeProps.ml" 45 1715 1748 "gtkTreeProps.ml" 45 1715 1755
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTreeProps.ml" 45 1715 1721 "gtkTreeProps.ml" 45 1715 1788
+type(
+  ([> `treeview ] as 'l, Gtk.adjustment Gtk.obj) Gobject.property
+)
+type(
+  ('l, Gtk.adjustment Gtk.obj) Gobject.property
+)
+"gtkTreeProps.ml" 46 1789 1797 "gtkTreeProps.ml" 46 1789 1809
+type(
+  ([> `treeview ], bool) Gobject.property
+)
+ident(
+  def hover_expand "gtkTreeProps.ml" 48 1882 1886 "gtkTreeProps.ml" 52 2074 2079
+)
+"gtkTreeProps.ml" 47 1840 1852 "gtkTreeProps.ml" 47 1840 1866
+type(
+  string
+)
+"gtkTreeProps.ml" 47 1840 1873 "gtkTreeProps.ml" 47 1840 1880
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 47 1840 1846 "gtkTreeProps.ml" 47 1840 1881
+type(
+  ([> `treeview ] as 'm, bool) Gobject.property
+)
+type(
+  ('m, bool) Gobject.property
+)
+"gtkTreeProps.ml" 48 1882 1890 "gtkTreeProps.ml" 48 1882 1905
+type(
+  ([> `treeview ], bool) Gobject.property
+)
+ident(
+  def hover_selection "gtkTreeProps.ml" 50 1981 1985 "gtkTreeProps.ml" 52 2074 2079
+)
+"gtkTreeProps.ml" 49 1936 1948 "gtkTreeProps.ml" 49 1936 1965
+type(
+  string
+)
+"gtkTreeProps.ml" 49 1936 1972 "gtkTreeProps.ml" 49 1936 1979
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 49 1936 1942 "gtkTreeProps.ml" 49 1936 1980
+type(
+  ([> `treeview ] as 'n, bool) Gobject.property
+)
+type(
+  ('n, bool) Gobject.property
+)
+"gtkTreeProps.ml" 50 1981 1989 "gtkTreeProps.ml" 50 1981 2003
+type(
+  ([> `treeview ], int) Gobject.property
+)
+ident(
+  def tooltip_column "gtkTreeProps.ml" 51 2034 2073 "gtkTreeProps.ml" 52 2074 2079
+)
+"gtkTreeProps.ml" 51 2034 2046 "gtkTreeProps.ml" 51 2034 2062
+type(
+  string
+)
+"gtkTreeProps.ml" 51 2034 2069 "gtkTreeProps.ml" 51 2034 2072
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 51 2034 2040 "gtkTreeProps.ml" 51 2034 2073
+type(
+  ([> `treeview ] as 'o, int) Gobject.property
+)
+type(
+  ('o, int) Gobject.property
+)
+"gtkTreeProps.ml" 55 2119 2127 "gtkTreeProps.ml" 55 2119 2142
+type(
+  ([> `treeview ], unit -> unit) GtkSignal.t
+)
+ident(
+  def columns_changed "gtkTreeProps.ml" 57 2219 2223 "gtkTreeProps.ml" 114 5123 5128
+)
+"gtkTreeProps.ml" 56 2145 2157 "gtkTreeProps.ml" 56 2145 2174
+type(
+  string
+)
+"gtkTreeProps.ml" 56 2145 2183 "gtkTreeProps.ml" 56 2145 2192
+type(
+  [> `treeview ] as 'p
+)
+"gtkTreeProps.ml" 56 2145 2205 "gtkTreeProps.ml" 56 2145 2217
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkTreeProps.ml" 56 2145 2151 "gtkTreeProps.ml" 56 2145 2218
+type(
+  ('p, unit -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 57 2219 2227 "gtkTreeProps.ml" 57 2219 2241
+type(
+  ([> `treeview ], unit -> unit) GtkSignal.t
+)
+ident(
+  def cursor_changed "gtkTreeProps.ml" 59 2317 2321 "gtkTreeProps.ml" 114 5123 5128
+)
+"gtkTreeProps.ml" 58 2244 2256 "gtkTreeProps.ml" 58 2244 2272
+type(
+  string
+)
+"gtkTreeProps.ml" 58 2244 2281 "gtkTreeProps.ml" 58 2244 2290
+type(
+  [> `treeview ] as 'q
+)
+"gtkTreeProps.ml" 58 2244 2303 "gtkTreeProps.ml" 58 2244 2315
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkTreeProps.ml" 58 2244 2250 "gtkTreeProps.ml" 58 2244 2316
+type(
+  ('q, unit -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 59 2317 2325 "gtkTreeProps.ml" 59 2317 2351
+type(
+  ([> `treeview ], logical:bool -> expand:bool -> all:bool -> bool)
+  GtkSignal.t
+)
+ident(
+  def expand_collapse_cursor_row "gtkTreeProps.ml" 65 2610 2614 "gtkTreeProps.ml" 114 5123 5128
+)
+"gtkTreeProps.ml" 60 2354 2366 "gtkTreeProps.ml" 60 2354 2394
+type(
+  string
+)
+"gtkTreeProps.ml" 60 2354 2403 "gtkTreeProps.ml" 60 2354 2412
+type(
+  [> `treeview ] as 'r
+)
+"gtkTreeProps.ml" 61 2414 2436 "gtkTreeProps.ml" 61 2414 2437
+type(
+  logical:bool -> expand:bool -> all:bool -> bool
+)
+ident(
+  def f "gtkTreeProps.ml" 62 2441 2448 "gtkTreeProps.ml" 64 2549 2608
+)
+"gtkTreeProps.ml" 62 2441 2448 "gtkTreeProps.ml" 62 2441 2460
+type(
+  ret:bool Gobject.data_conv ->
+  bool Gobject.data_conv ->
+  bool Gobject.data_conv ->
+  bool Gobject.data_conv ->
+  string -> (bool -> bool -> bool -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal3_ret
+)
+"gtkTreeProps.ml" 62 2441 2466 "gtkTreeProps.ml" 62 2441 2473
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 62 2441 2474 "gtkTreeProps.ml" 62 2441 2481
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 62 2441 2482 "gtkTreeProps.ml" 62 2441 2489
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 62 2441 2490 "gtkTreeProps.ml" 62 2441 2497
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 63 2498 2507 "gtkTreeProps.ml" 63 2498 2548
+type(
+  string
+)
+"gtkTreeProps.ml" 64 2549 2563 "gtkTreeProps.ml" 64 2549 2565
+type(
+  bool
+)
+ident(
+  def x1 "gtkTreeProps.ml" 64 2549 2566 "gtkTreeProps.ml" 64 2549 2607
+)
+"gtkTreeProps.ml" 64 2549 2566 "gtkTreeProps.ml" 64 2549 2568
+type(
+  bool
+)
+ident(
+  def x2 "gtkTreeProps.ml" 64 2549 2569 "gtkTreeProps.ml" 64 2549 2607
+)
+"gtkTreeProps.ml" 64 2549 2569 "gtkTreeProps.ml" 64 2549 2571
+type(
+  bool
+)
+ident(
+  def x3 "gtkTreeProps.ml" 64 2549 2575 "gtkTreeProps.ml" 64 2549 2607
+)
+"gtkTreeProps.ml" 64 2549 2575 "gtkTreeProps.ml" 64 2549 2576
+type(
+  logical:bool -> expand:bool -> all:bool -> bool
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 61 2414 2436 "gtkTreeProps.ml" 61 2414 2437
+)
+"gtkTreeProps.ml" 64 2549 2586 "gtkTreeProps.ml" 64 2549 2588
+type(
+  bool
+)
+ident(
+  int_ref x1 "gtkTreeProps.ml" 64 2549 2563 "gtkTreeProps.ml" 64 2549 2565
+)
+"gtkTreeProps.ml" 64 2549 2597 "gtkTreeProps.ml" 64 2549 2599
+type(
+  bool
+)
+ident(
+  int_ref x2 "gtkTreeProps.ml" 64 2549 2566 "gtkTreeProps.ml" 64 2549 2568
+)
+"gtkTreeProps.ml" 64 2549 2605 "gtkTreeProps.ml" 64 2549 2607
+type(
+  bool
+)
+ident(
+  int_ref x3 "gtkTreeProps.ml" 64 2549 2569 "gtkTreeProps.ml" 64 2549 2571
+)
+"gtkTreeProps.ml" 64 2549 2575 "gtkTreeProps.ml" 64 2549 2607
+call(
+  tail
+)
+type(
+  bool
+)
+"gtkTreeProps.ml" 64 2549 2558 "gtkTreeProps.ml" 64 2549 2608
+type(
+  bool -> bool -> bool -> bool
+)
+"gtkTreeProps.ml" 62 2441 2448 "gtkTreeProps.ml" 64 2549 2608
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 61 2414 2432 "gtkTreeProps.ml" 64 2549 2608
+type(
+  (logical:bool -> expand:bool -> all:bool -> bool) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 60 2354 2360 "gtkTreeProps.ml" 64 2549 2609
+type(
+  ('r, logical:bool -> expand:bool -> all:bool -> bool) GtkSignal.t
+)
+"gtkTreeProps.ml" 65 2610 2618 "gtkTreeProps.ml" 65 2610 2629
+type(
+  ([> `treeview ], GtkEnums.movement_step -> int -> bool) GtkSignal.t
+)
+ident(
+  def move_cursor "gtkTreeProps.ml" 69 2801 2805 "gtkTreeProps.ml" 114 5123 5128
+)
+"gtkTreeProps.ml" 66 2632 2644 "gtkTreeProps.ml" 66 2632 2657
+type(
+  string
+)
+"gtkTreeProps.ml" 66 2632 2666 "gtkTreeProps.ml" 66 2632 2675
+type(
+  [> `treeview ] as 's
+)
+"gtkTreeProps.ml" 66 2632 2692 "gtkTreeProps.ml" 66 2632 2693
+type(
+  GtkEnums.movement_step -> int -> bool
+)
+ident(
+  def f "gtkTreeProps.ml" 67 2697 2704 "gtkTreeProps.ml" 68 2762 2799
+)
+"gtkTreeProps.ml" 67 2697 2704 "gtkTreeProps.ml" 67 2697 2716
+type(
+  ret:bool Gobject.data_conv ->
+  GtkEnums.movement_step Gobject.data_conv ->
+  int Gobject.data_conv ->
+  string -> (GtkEnums.movement_step -> int -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2_ret
+)
+"gtkTreeProps.ml" 67 2697 2722 "gtkTreeProps.ml" 67 2697 2729
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 67 2697 2730 "gtkTreeProps.ml" 67 2697 2757
+type(
+  GtkEnums.movement_step Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.movement_step_conv
+)
+"gtkTreeProps.ml" 67 2697 2758 "gtkTreeProps.ml" 67 2697 2761
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 68 2762 2771 "gtkTreeProps.ml" 68 2762 2797
+type(
+  string
+)
+"gtkTreeProps.ml" 68 2762 2798 "gtkTreeProps.ml" 68 2762 2799
+type(
+  GtkEnums.movement_step -> int -> bool
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 66 2632 2692 "gtkTreeProps.ml" 66 2632 2693
+)
+"gtkTreeProps.ml" 67 2697 2704 "gtkTreeProps.ml" 68 2762 2799
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 66 2632 2688 "gtkTreeProps.ml" 68 2762 2799
+type(
+  (GtkEnums.movement_step -> int -> bool) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 66 2632 2638 "gtkTreeProps.ml" 68 2762 2800
+type(
+  ('s, GtkEnums.movement_step -> int -> bool) GtkSignal.t
+)
+"gtkTreeProps.ml" 69 2801 2809 "gtkTreeProps.ml" 69 2801 2822
+type(
+  ([> `treeview ], Gtk.tree_path -> Gtk.tree_view_column Gtk.obj -> unit)
+  GtkSignal.t
+)
+ident(
+  def row_activated "gtkTreeProps.ml" 74 3030 3034 "gtkTreeProps.ml" 114 5123 5128
+)
+"gtkTreeProps.ml" 70 2825 2837 "gtkTreeProps.ml" 70 2825 2852
+type(
+  string
+)
+"gtkTreeProps.ml" 70 2825 2861 "gtkTreeProps.ml" 70 2825 2870
+type(
+  [> `treeview ] as 't
+)
+"gtkTreeProps.ml" 70 2825 2887 "gtkTreeProps.ml" 70 2825 2888
+type(
+  Gtk.tree_path -> Gtk.tree_view_column Gtk.obj -> unit
+)
+ident(
+  def f "gtkTreeProps.ml" 71 2892 2899 "gtkTreeProps.ml" 73 2989 3028
+)
+"gtkTreeProps.ml" 71 2892 2899 "gtkTreeProps.ml" 71 2892 2907
+type(
+  Gtk.tree_path Gobject.data_conv ->
+  Gtk.tree_view_column Gtk.obj Gobject.data_conv ->
+  string ->
+  (Gtk.tree_path -> Gtk.tree_view_column Gtk.obj -> unit)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTreeProps.ml" 71 2892 2908 "gtkTreeProps.ml" 71 2892 2909
+type(
+  Gtk.tree_path Gobject.data_conv ref -> Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkTreeProps.ml" 71 2892 2909 "gtkTreeProps.ml" 71 2892 2932
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Internal.tree_path_copy
+)
+"gtkTreeProps.ml" 71 2892 2908 "gtkTreeProps.ml" 71 2892 2932
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+"gtkTreeProps.ml" 72 2933 2943 "gtkTreeProps.ml" 72 2933 2950
+type(
+  Gtk.tree_view_column Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.tree_view_column Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTreeProps.ml" 73 2989 2998 "gtkTreeProps.ml" 73 2989 3026
+type(
+  string
+)
+"gtkTreeProps.ml" 73 2989 3027 "gtkTreeProps.ml" 73 2989 3028
+type(
+  Gtk.tree_path -> Gtk.tree_view_column Gtk.obj -> unit
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 70 2825 2887 "gtkTreeProps.ml" 70 2825 2888
+)
+"gtkTreeProps.ml" 71 2892 2899 "gtkTreeProps.ml" 73 2989 3028
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 70 2825 2883 "gtkTreeProps.ml" 73 2989 3028
+type(
+  (Gtk.tree_path -> Gtk.tree_view_column Gtk.obj -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 70 2825 2831 "gtkTreeProps.ml" 73 2989 3029
+type(
+  ('t, Gtk.tree_path -> Gtk.tree_view_column Gtk.obj -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 74 3030 3038 "gtkTreeProps.ml" 74 3030 3051
+type(
+  ([> `treeview ], Gtk.tree_iter -> Gtk.tree_path -> unit) GtkSignal.t
+)
+ident(
+  def row_collapsed "gtkTreeProps.ml" 78 3246 3250 "gtkTreeProps.ml" 114 5123 5128
+)
+"gtkTreeProps.ml" 75 3054 3066 "gtkTreeProps.ml" 75 3054 3081
+type(
+  string
+)
+"gtkTreeProps.ml" 75 3054 3090 "gtkTreeProps.ml" 75 3054 3099
+type(
+  [> `treeview ] as 'u
+)
+"gtkTreeProps.ml" 75 3054 3116 "gtkTreeProps.ml" 75 3054 3117
+type(
+  Gtk.tree_iter -> Gtk.tree_path -> unit
+)
+ident(
+  def f "gtkTreeProps.ml" 76 3121 3128 "gtkTreeProps.ml" 77 3180 3244
+)
+"gtkTreeProps.ml" 76 3121 3128 "gtkTreeProps.ml" 76 3121 3136
+type(
+  Gtk.tree_iter Gobject.data_conv ->
+  Gtk.tree_path Gobject.data_conv ->
+  string -> (Gtk.tree_iter -> Gtk.tree_path -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTreeProps.ml" 76 3121 3138 "gtkTreeProps.ml" 76 3121 3152
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 77 3180 3189 "gtkTreeProps.ml" 77 3180 3190
+type(
+  Gtk.tree_path Gobject.data_conv ref -> Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkTreeProps.ml" 77 3180 3190 "gtkTreeProps.ml" 77 3180 3213
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Internal.tree_path_copy
+)
+"gtkTreeProps.ml" 77 3180 3189 "gtkTreeProps.ml" 77 3180 3213
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+"gtkTreeProps.ml" 77 3180 3214 "gtkTreeProps.ml" 77 3180 3242
+type(
+  string
+)
+"gtkTreeProps.ml" 77 3180 3243 "gtkTreeProps.ml" 77 3180 3244
+type(
+  Gtk.tree_iter -> Gtk.tree_path -> unit
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 75 3054 3116 "gtkTreeProps.ml" 75 3054 3117
+)
+"gtkTreeProps.ml" 76 3121 3128 "gtkTreeProps.ml" 77 3180 3244
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 75 3054 3112 "gtkTreeProps.ml" 77 3180 3244
+type(
+  (Gtk.tree_iter -> Gtk.tree_path -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 75 3054 3060 "gtkTreeProps.ml" 77 3180 3245
+type(
+  ('u, Gtk.tree_iter -> Gtk.tree_path -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 78 3246 3254 "gtkTreeProps.ml" 78 3246 3266
+type(
+  ([> `treeview ], Gtk.tree_iter -> Gtk.tree_path -> unit) GtkSignal.t
+)
+ident(
+  def row_expanded "gtkTreeProps.ml" 82 3459 3463 "gtkTreeProps.ml" 114 5123 5128
+)
+"gtkTreeProps.ml" 79 3269 3281 "gtkTreeProps.ml" 79 3269 3295
+type(
+  string
+)
+"gtkTreeProps.ml" 79 3269 3304 "gtkTreeProps.ml" 79 3269 3313
+type(
+  [> `treeview ] as 'v
+)
+"gtkTreeProps.ml" 79 3269 3330 "gtkTreeProps.ml" 79 3269 3331
+type(
+  Gtk.tree_iter -> Gtk.tree_path -> unit
+)
+ident(
+  def f "gtkTreeProps.ml" 80 3335 3342 "gtkTreeProps.ml" 81 3394 3457
+)
+"gtkTreeProps.ml" 80 3335 3342 "gtkTreeProps.ml" 80 3335 3350
+type(
+  Gtk.tree_iter Gobject.data_conv ->
+  Gtk.tree_path Gobject.data_conv ->
+  string -> (Gtk.tree_iter -> Gtk.tree_path -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTreeProps.ml" 80 3335 3352 "gtkTreeProps.ml" 80 3335 3366
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 81 3394 3403 "gtkTreeProps.ml" 81 3394 3404
+type(
+  Gtk.tree_path Gobject.data_conv ref -> Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkTreeProps.ml" 81 3394 3404 "gtkTreeProps.ml" 81 3394 3427
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Internal.tree_path_copy
+)
+"gtkTreeProps.ml" 81 3394 3403 "gtkTreeProps.ml" 81 3394 3427
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+"gtkTreeProps.ml" 81 3394 3428 "gtkTreeProps.ml" 81 3394 3455
+type(
+  string
+)
+"gtkTreeProps.ml" 81 3394 3456 "gtkTreeProps.ml" 81 3394 3457
+type(
+  Gtk.tree_iter -> Gtk.tree_path -> unit
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 79 3269 3330 "gtkTreeProps.ml" 79 3269 3331
+)
+"gtkTreeProps.ml" 80 3335 3342 "gtkTreeProps.ml" 81 3394 3457
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 79 3269 3326 "gtkTreeProps.ml" 81 3394 3457
+type(
+  (Gtk.tree_iter -> Gtk.tree_path -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 79 3269 3275 "gtkTreeProps.ml" 81 3394 3458
+type(
+  ('v, Gtk.tree_iter -> Gtk.tree_path -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 82 3459 3467 "gtkTreeProps.ml" 82 3459 3477
+type(
+  ([> `treeview ], unit -> bool) GtkSignal.t
+)
+ident(
+  def select_all "gtkTreeProps.ml" 85 3580 3584 "gtkTreeProps.ml" 114 5123 5128
+)
+"gtkTreeProps.ml" 83 3480 3492 "gtkTreeProps.ml" 83 3480 3504
+type(
+  string
+)
+"gtkTreeProps.ml" 83 3480 3513 "gtkTreeProps.ml" 83 3480 3522
+type(
+  [> `treeview ] as 'w
+)
+"gtkTreeProps.ml" 84 3524 3546 "gtkTreeProps.ml" 84 3524 3547
+type(
+  unit -> bool
+)
+ident(
+  def f "gtkTreeProps.ml" 84 3524 3551 "gtkTreeProps.ml" 84 3524 3578
+)
+"gtkTreeProps.ml" 84 3524 3551 "gtkTreeProps.ml" 84 3524 3563
+type(
+  ret:bool Gobject.data_conv -> (unit -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal0_ret
+)
+"gtkTreeProps.ml" 84 3524 3569 "gtkTreeProps.ml" 84 3524 3576
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 84 3524 3577 "gtkTreeProps.ml" 84 3524 3578
+type(
+  unit -> bool
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 84 3524 3546 "gtkTreeProps.ml" 84 3524 3547
+)
+"gtkTreeProps.ml" 84 3524 3551 "gtkTreeProps.ml" 84 3524 3578
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 84 3524 3542 "gtkTreeProps.ml" 84 3524 3578
+type(
+  (unit -> bool) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 83 3480 3486 "gtkTreeProps.ml" 84 3524 3579
+type(
+  ('w, unit -> bool) GtkSignal.t
+)
+"gtkTreeProps.ml" 85 3580 3588 "gtkTreeProps.ml" 85 3580 3608
+type(
+  ([> `treeview ], unit -> bool) GtkSignal.t
+)
+ident(
+  def select_cursor_parent "gtkTreeProps.ml" 88 3721 3725 "gtkTreeProps.ml" 114 5123 5128
+)
+"gtkTreeProps.ml" 86 3611 3623 "gtkTreeProps.ml" 86 3611 3645
+type(
+  string
+)
+"gtkTreeProps.ml" 86 3611 3654 "gtkTreeProps.ml" 86 3611 3663
+type(
+  [> `treeview ] as 'x
+)
+"gtkTreeProps.ml" 87 3665 3687 "gtkTreeProps.ml" 87 3665 3688
+type(
+  unit -> bool
+)
+ident(
+  def f "gtkTreeProps.ml" 87 3665 3692 "gtkTreeProps.ml" 87 3665 3719
+)
+"gtkTreeProps.ml" 87 3665 3692 "gtkTreeProps.ml" 87 3665 3704
+type(
+  ret:bool Gobject.data_conv -> (unit -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal0_ret
+)
+"gtkTreeProps.ml" 87 3665 3710 "gtkTreeProps.ml" 87 3665 3717
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 87 3665 3718 "gtkTreeProps.ml" 87 3665 3719
+type(
+  unit -> bool
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 87 3665 3687 "gtkTreeProps.ml" 87 3665 3688
+)
+"gtkTreeProps.ml" 87 3665 3692 "gtkTreeProps.ml" 87 3665 3719
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 87 3665 3683 "gtkTreeProps.ml" 87 3665 3719
+type(
+  (unit -> bool) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 86 3611 3617 "gtkTreeProps.ml" 87 3665 3720
+type(
+  ('x, unit -> bool) GtkSignal.t
+)
+"gtkTreeProps.ml" 88 3721 3729 "gtkTreeProps.ml" 88 3721 3746
+type(
+  ([> `treeview ], start_editing:bool -> bool) GtkSignal.t
+)
+ident(
+  def select_cursor_row "gtkTreeProps.ml" 92 3936 3940 "gtkTreeProps.ml" 114 5123 5128
+)
+"gtkTreeProps.ml" 89 3749 3761 "gtkTreeProps.ml" 89 3749 3780
+type(
+  string
+)
+"gtkTreeProps.ml" 89 3749 3789 "gtkTreeProps.ml" 89 3749 3798
+type(
+  [> `treeview ] as 'y
+)
+"gtkTreeProps.ml" 89 3749 3815 "gtkTreeProps.ml" 89 3749 3816
+type(
+  start_editing:bool -> bool
+)
+ident(
+  def f "gtkTreeProps.ml" 90 3820 3827 "gtkTreeProps.ml" 91 3894 3934
+)
+"gtkTreeProps.ml" 90 3820 3827 "gtkTreeProps.ml" 90 3820 3839
+type(
+  ret:bool Gobject.data_conv ->
+  bool Gobject.data_conv -> string -> (bool -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1_ret
+)
+"gtkTreeProps.ml" 90 3820 3845 "gtkTreeProps.ml" 90 3820 3852
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 90 3820 3853 "gtkTreeProps.ml" 90 3820 3860
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 90 3820 3861 "gtkTreeProps.ml" 90 3820 3893
+type(
+  string
+)
+"gtkTreeProps.ml" 91 3894 3908 "gtkTreeProps.ml" 91 3894 3910
+type(
+  bool
+)
+ident(
+  def x1 "gtkTreeProps.ml" 91 3894 3914 "gtkTreeProps.ml" 91 3894 3933
+)
+"gtkTreeProps.ml" 91 3894 3914 "gtkTreeProps.ml" 91 3894 3915
+type(
+  start_editing:bool -> bool
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 89 3749 3815 "gtkTreeProps.ml" 89 3749 3816
+)
+"gtkTreeProps.ml" 91 3894 3931 "gtkTreeProps.ml" 91 3894 3933
+type(
+  bool
+)
+ident(
+  int_ref x1 "gtkTreeProps.ml" 91 3894 3908 "gtkTreeProps.ml" 91 3894 3910
+)
+"gtkTreeProps.ml" 91 3894 3914 "gtkTreeProps.ml" 91 3894 3933
+call(
+  tail
+)
+type(
+  bool
+)
+"gtkTreeProps.ml" 91 3894 3903 "gtkTreeProps.ml" 91 3894 3934
+type(
+  bool -> bool
+)
+"gtkTreeProps.ml" 90 3820 3827 "gtkTreeProps.ml" 91 3894 3934
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 89 3749 3811 "gtkTreeProps.ml" 91 3894 3934
+type(
+  (start_editing:bool -> bool) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 89 3749 3755 "gtkTreeProps.ml" 91 3894 3935
+type(
+  ('y, start_editing:bool -> bool) GtkSignal.t
+)
+"gtkTreeProps.ml" 92 3936 3944 "gtkTreeProps.ml" 92 3936 3966
+type(
+  ([> `treeview ],
+   Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit)
+  GtkSignal.t
+)
+ident(
+  def set_scroll_adjustments "gtkTreeProps.ml" 97 4230 4234 "gtkTreeProps.ml" 114 5123 5128
+)
+"gtkTreeProps.ml" 93 3969 3981 "gtkTreeProps.ml" 93 3969 4005
+type(
+  string
+)
+"gtkTreeProps.ml" 93 3969 4014 "gtkTreeProps.ml" 93 3969 4023
+type(
+  [> `treeview ] as 'z
+)
+"gtkTreeProps.ml" 93 3969 4040 "gtkTreeProps.ml" 93 3969 4041
+type(
+  Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit
+)
+ident(
+  def f "gtkTreeProps.ml" 94 4045 4052 "gtkTreeProps.ml" 96 4180 4228
+)
+"gtkTreeProps.ml" 94 4045 4052 "gtkTreeProps.ml" 94 4045 4060
+type(
+  Gtk.adjustment Gtk.obj option Gobject.data_conv ->
+  Gtk.adjustment Gtk.obj option Gobject.data_conv ->
+  string ->
+  (Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTreeProps.ml" 94 4045 4062 "gtkTreeProps.ml" 94 4045 4076
+type(
+  Gtk.adjustment Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.adjustment Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkTreeProps.ml" 95 4116 4126 "gtkTreeProps.ml" 95 4116 4140
+type(
+  Gtk.adjustment Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.adjustment Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkTreeProps.ml" 96 4180 4189 "gtkTreeProps.ml" 96 4180 4226
+type(
+  string
+)
+"gtkTreeProps.ml" 96 4180 4227 "gtkTreeProps.ml" 96 4180 4228
+type(
+  Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 93 3969 4040 "gtkTreeProps.ml" 93 3969 4041
+)
+"gtkTreeProps.ml" 94 4045 4052 "gtkTreeProps.ml" 96 4180 4228
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 93 3969 4036 "gtkTreeProps.ml" 96 4180 4228
+type(
+  (Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 93 3969 3975 "gtkTreeProps.ml" 96 4180 4229
+type(
+  ('z,
+   Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit)
+  GtkSignal.t
+)
+"gtkTreeProps.ml" 97 4230 4238 "gtkTreeProps.ml" 97 4230 4262
+type(
+  ([> `treeview ], unit -> bool) GtkSignal.t
+)
+ident(
+  def start_interactive_search "gtkTreeProps.ml" 100 4379 4383 "gtkTreeProps.ml" 114 5123 5128
+)
+"gtkTreeProps.ml" 98 4265 4277 "gtkTreeProps.ml" 98 4265 4303
+type(
+  string
+)
+"gtkTreeProps.ml" 98 4265 4312 "gtkTreeProps.ml" 98 4265 4321
+type(
+  [> `treeview ] as 'a1
+)
+"gtkTreeProps.ml" 99 4323 4345 "gtkTreeProps.ml" 99 4323 4346
+type(
+  unit -> bool
+)
+ident(
+  def f "gtkTreeProps.ml" 99 4323 4350 "gtkTreeProps.ml" 99 4323 4377
+)
+"gtkTreeProps.ml" 99 4323 4350 "gtkTreeProps.ml" 99 4323 4362
+type(
+  ret:bool Gobject.data_conv -> (unit -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal0_ret
+)
+"gtkTreeProps.ml" 99 4323 4368 "gtkTreeProps.ml" 99 4323 4375
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 99 4323 4376 "gtkTreeProps.ml" 99 4323 4377
+type(
+  unit -> bool
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 99 4323 4345 "gtkTreeProps.ml" 99 4323 4346
+)
+"gtkTreeProps.ml" 99 4323 4350 "gtkTreeProps.ml" 99 4323 4377
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 99 4323 4341 "gtkTreeProps.ml" 99 4323 4377
+type(
+  (unit -> bool) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 98 4265 4271 "gtkTreeProps.ml" 99 4323 4378
+type(
+  ('a1, unit -> bool) GtkSignal.t
+)
+"gtkTreeProps.ml" 100 4379 4387 "gtkTreeProps.ml" 100 4379 4404
+type(
+  ([> `treeview ], Gtk.tree_iter -> Gtk.tree_path -> bool) GtkSignal.t
+)
+ident(
+  def test_collapse_row "gtkTreeProps.ml" 104 4624 4628 "gtkTreeProps.ml" 114 5123 5128
+)
+"gtkTreeProps.ml" 101 4407 4419 "gtkTreeProps.ml" 101 4407 4438
+type(
+  string
+)
+"gtkTreeProps.ml" 101 4407 4447 "gtkTreeProps.ml" 101 4407 4456
+type(
+  [> `treeview ] as 'b1
+)
+"gtkTreeProps.ml" 101 4407 4473 "gtkTreeProps.ml" 101 4407 4474
+type(
+  Gtk.tree_iter -> Gtk.tree_path -> bool
+)
+ident(
+  def f "gtkTreeProps.ml" 102 4478 4485 "gtkTreeProps.ml" 103 4554 4622
+)
+"gtkTreeProps.ml" 102 4478 4485 "gtkTreeProps.ml" 102 4478 4497
+type(
+  ret:bool Gobject.data_conv ->
+  Gtk.tree_iter Gobject.data_conv ->
+  Gtk.tree_path Gobject.data_conv ->
+  string -> (Gtk.tree_iter -> Gtk.tree_path -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2_ret
+)
+"gtkTreeProps.ml" 102 4478 4503 "gtkTreeProps.ml" 102 4478 4510
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 102 4478 4512 "gtkTreeProps.ml" 102 4478 4526
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 103 4554 4563 "gtkTreeProps.ml" 103 4554 4564
+type(
+  Gtk.tree_path Gobject.data_conv ref -> Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkTreeProps.ml" 103 4554 4564 "gtkTreeProps.ml" 103 4554 4587
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Internal.tree_path_copy
+)
+"gtkTreeProps.ml" 103 4554 4563 "gtkTreeProps.ml" 103 4554 4587
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+"gtkTreeProps.ml" 103 4554 4588 "gtkTreeProps.ml" 103 4554 4620
+type(
+  string
+)
+"gtkTreeProps.ml" 103 4554 4621 "gtkTreeProps.ml" 103 4554 4622
+type(
+  Gtk.tree_iter -> Gtk.tree_path -> bool
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 101 4407 4473 "gtkTreeProps.ml" 101 4407 4474
+)
+"gtkTreeProps.ml" 102 4478 4485 "gtkTreeProps.ml" 103 4554 4622
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 101 4407 4469 "gtkTreeProps.ml" 103 4554 4622
+type(
+  (Gtk.tree_iter -> Gtk.tree_path -> bool) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 101 4407 4413 "gtkTreeProps.ml" 103 4554 4623
+type(
+  ('b1, Gtk.tree_iter -> Gtk.tree_path -> bool) GtkSignal.t
+)
+"gtkTreeProps.ml" 104 4624 4632 "gtkTreeProps.ml" 104 4624 4647
+type(
+  ([> `treeview ], Gtk.tree_iter -> Gtk.tree_path -> bool) GtkSignal.t
+)
+ident(
+  def test_expand_row "gtkTreeProps.ml" 108 4863 4867 "gtkTreeProps.ml" 114 5123 5128
+)
+"gtkTreeProps.ml" 105 4650 4662 "gtkTreeProps.ml" 105 4650 4679
+type(
+  string
+)
+"gtkTreeProps.ml" 105 4650 4688 "gtkTreeProps.ml" 105 4650 4697
+type(
+  [> `treeview ] as 'c1
+)
+"gtkTreeProps.ml" 105 4650 4714 "gtkTreeProps.ml" 105 4650 4715
+type(
+  Gtk.tree_iter -> Gtk.tree_path -> bool
+)
+ident(
+  def f "gtkTreeProps.ml" 106 4719 4726 "gtkTreeProps.ml" 107 4795 4861
+)
+"gtkTreeProps.ml" 106 4719 4726 "gtkTreeProps.ml" 106 4719 4738
+type(
+  ret:bool Gobject.data_conv ->
+  Gtk.tree_iter Gobject.data_conv ->
+  Gtk.tree_path Gobject.data_conv ->
+  string -> (Gtk.tree_iter -> Gtk.tree_path -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2_ret
+)
+"gtkTreeProps.ml" 106 4719 4744 "gtkTreeProps.ml" 106 4719 4751
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 106 4719 4753 "gtkTreeProps.ml" 106 4719 4767
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 107 4795 4804 "gtkTreeProps.ml" 107 4795 4805
+type(
+  Gtk.tree_path Gobject.data_conv ref -> Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkTreeProps.ml" 107 4795 4805 "gtkTreeProps.ml" 107 4795 4828
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Internal.tree_path_copy
+)
+"gtkTreeProps.ml" 107 4795 4804 "gtkTreeProps.ml" 107 4795 4828
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+"gtkTreeProps.ml" 107 4795 4829 "gtkTreeProps.ml" 107 4795 4859
+type(
+  string
+)
+"gtkTreeProps.ml" 107 4795 4860 "gtkTreeProps.ml" 107 4795 4861
+type(
+  Gtk.tree_iter -> Gtk.tree_path -> bool
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 105 4650 4714 "gtkTreeProps.ml" 105 4650 4715
+)
+"gtkTreeProps.ml" 106 4719 4726 "gtkTreeProps.ml" 107 4795 4861
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 105 4650 4710 "gtkTreeProps.ml" 107 4795 4861
+type(
+  (Gtk.tree_iter -> Gtk.tree_path -> bool) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 105 4650 4656 "gtkTreeProps.ml" 107 4795 4862
+type(
+  ('c1, Gtk.tree_iter -> Gtk.tree_path -> bool) GtkSignal.t
+)
+"gtkTreeProps.ml" 108 4863 4871 "gtkTreeProps.ml" 108 4863 4888
+type(
+  ([> `treeview ], unit -> bool) GtkSignal.t
+)
+ident(
+  def toggle_cursor_row "gtkTreeProps.ml" 111 4998 5002 "gtkTreeProps.ml" 114 5123 5128
+)
+"gtkTreeProps.ml" 109 4891 4903 "gtkTreeProps.ml" 109 4891 4922
+type(
+  string
+)
+"gtkTreeProps.ml" 109 4891 4931 "gtkTreeProps.ml" 109 4891 4940
+type(
+  [> `treeview ] as 'd1
+)
+"gtkTreeProps.ml" 110 4942 4964 "gtkTreeProps.ml" 110 4942 4965
+type(
+  unit -> bool
+)
+ident(
+  def f "gtkTreeProps.ml" 110 4942 4969 "gtkTreeProps.ml" 110 4942 4996
+)
+"gtkTreeProps.ml" 110 4942 4969 "gtkTreeProps.ml" 110 4942 4981
+type(
+  ret:bool Gobject.data_conv -> (unit -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal0_ret
+)
+"gtkTreeProps.ml" 110 4942 4987 "gtkTreeProps.ml" 110 4942 4994
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 110 4942 4995 "gtkTreeProps.ml" 110 4942 4996
+type(
+  unit -> bool
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 110 4942 4964 "gtkTreeProps.ml" 110 4942 4965
+)
+"gtkTreeProps.ml" 110 4942 4969 "gtkTreeProps.ml" 110 4942 4996
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 110 4942 4960 "gtkTreeProps.ml" 110 4942 4996
+type(
+  (unit -> bool) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 109 4891 4897 "gtkTreeProps.ml" 110 4942 4997
+type(
+  ('d1, unit -> bool) GtkSignal.t
+)
+"gtkTreeProps.ml" 111 4998 5006 "gtkTreeProps.ml" 111 4998 5018
+type(
+  ([> `treeview ], unit -> bool) GtkSignal.t
+)
+ident(
+  def unselect_all "gtkTreeProps.ml" 113 5067 5122 "gtkTreeProps.ml" 114 5123 5128
+)
+"gtkTreeProps.ml" 112 5021 5033 "gtkTreeProps.ml" 112 5021 5047
+type(
+  string
+)
+"gtkTreeProps.ml" 112 5021 5056 "gtkTreeProps.ml" 112 5021 5065
+type(
+  [> `treeview ] as 'e1
+)
+"gtkTreeProps.ml" 113 5067 5089 "gtkTreeProps.ml" 113 5067 5090
+type(
+  unit -> bool
+)
+ident(
+  def f "gtkTreeProps.ml" 113 5067 5094 "gtkTreeProps.ml" 113 5067 5121
+)
+"gtkTreeProps.ml" 113 5067 5094 "gtkTreeProps.ml" 113 5067 5106
+type(
+  ret:bool Gobject.data_conv -> (unit -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal0_ret
+)
+"gtkTreeProps.ml" 113 5067 5112 "gtkTreeProps.ml" 113 5067 5119
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 113 5067 5120 "gtkTreeProps.ml" 113 5067 5121
+type(
+  unit -> bool
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 113 5067 5089 "gtkTreeProps.ml" 113 5067 5090
+)
+"gtkTreeProps.ml" 113 5067 5094 "gtkTreeProps.ml" 113 5067 5121
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 113 5067 5085 "gtkTreeProps.ml" 113 5067 5121
+type(
+  (unit -> bool) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 112 5021 5027 "gtkTreeProps.ml" 113 5067 5122
+type(
+  ('e1, unit -> bool) GtkSignal.t
+)
+"gtkTreeProps.ml" 115 5129 5135 "gtkTreeProps.ml" 115 5129 5141
+type(
+  Gtk.tree_view Gobject.param list -> Gtk.tree_view Gtk.obj
+)
+ident(
+  def create "gtkTreeProps.ml" 116 5196 5198 "gtkTreeProps.ml" 135 6076 6079
+)
+"gtkTreeProps.ml" 115 5129 5142 "gtkTreeProps.ml" 115 5129 5144
+type(
+  Gtk.tree_view Gobject.param list
+)
+ident(
+  def pl "gtkTreeProps.ml" 115 5129 5145 "gtkTreeProps.ml" 115 5129 5195
+)
+"gtkTreeProps.ml" 115 5129 5167 "gtkTreeProps.ml" 115 5129 5178
+type(
+  classe:string -> Gtk.tree_view Gobject.param list -> Gtk.tree_view Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkTreeProps.ml" 115 5129 5179 "gtkTreeProps.ml" 115 5129 5192
+type(
+  string
+)
+"gtkTreeProps.ml" 115 5129 5193 "gtkTreeProps.ml" 115 5129 5195
+type(
+  Gtk.tree_view Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 115 5129 5142 "gtkTreeProps.ml" 115 5129 5144
+)
+"gtkTreeProps.ml" 115 5129 5167 "gtkTreeProps.ml" 115 5129 5195
+call(
+  tail
+)
+type(
+  Gtk.tree_view Gtk.obj
+)
+type(
+  Gtk.tree_view Gtk.obj
+)
+"gtkTreeProps.ml" 119 5325 5331 "gtkTreeProps.ml" 119 5325 5342
+type(
+  cont:(([> `treeview ] as 'f1) Gobject.param list -> 'g1) ->
+  'f1 Gobject.param list ->
+  ?enable_search:bool ->
+  ?fixed_height_mode:bool ->
+  ?hadjustment:Gtk.adjustment Gtk.obj ->
+  ?headers_clickable:bool ->
+  ?headers_visible:bool ->
+  ?model:Gtk.tree_model ->
+  ?reorderable:bool ->
+  ?rules_hint:bool ->
+  ?search_column:int ->
+  ?vadjustment:Gtk.adjustment Gtk.obj -> ?tooltip_column:int -> 'g1
+)
+ident(
+  def make_params "gtkTreeProps.ml" 134 6064 6075 "gtkTreeProps.ml" 135 6076 6079
+)
+"gtkTreeProps.ml" 119 5325 5344 "gtkTreeProps.ml" 119 5325 5348
+type(
+  'f1 Gobject.param list -> 'g1
+)
+ident(
+  def cont "gtkTreeProps.ml" 119 5325 5349 "gtkTreeProps.ml" 134 6064 6075
+)
+"gtkTreeProps.ml" 119 5325 5349 "gtkTreeProps.ml" 119 5325 5351
+type(
+  'f1 Gobject.param list
+)
+ident(
+  def pl "gtkTreeProps.ml" 119 5325 5352 "gtkTreeProps.ml" 134 6064 6075
+)
+"gtkTreeProps.ml" 119 5325 5353 "gtkTreeProps.ml" 119 5325 5366
+type(
+  bool option
+)
+ident(
+  def enable_search "gtkTreeProps.ml" 119 5325 5367 "gtkTreeProps.ml" 134 6064 6075
+)
+"gtkTreeProps.ml" 119 5325 5368 "gtkTreeProps.ml" 119 5325 5385
+type(
+  bool option
+)
+ident(
+  def fixed_height_mode "gtkTreeProps.ml" 119 5325 5386 "gtkTreeProps.ml" 134 6064 6075
+)
+"gtkTreeProps.ml" 119 5325 5387 "gtkTreeProps.ml" 119 5325 5398
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  def hadjustment "gtkTreeProps.ml" 120 5399 5405 "gtkTreeProps.ml" 134 6064 6075
+)
+"gtkTreeProps.ml" 120 5399 5406 "gtkTreeProps.ml" 120 5399 5423
+type(
+  bool option
+)
+ident(
+  def headers_clickable "gtkTreeProps.ml" 120 5399 5424 "gtkTreeProps.ml" 134 6064 6075
+)
+"gtkTreeProps.ml" 120 5399 5425 "gtkTreeProps.ml" 120 5399 5440
+type(
+  bool option
+)
+ident(
+  def headers_visible "gtkTreeProps.ml" 120 5399 5441 "gtkTreeProps.ml" 134 6064 6075
+)
+"gtkTreeProps.ml" 120 5399 5442 "gtkTreeProps.ml" 120 5399 5447
+type(
+  Gtk.tree_model option
+)
+ident(
+  def model "gtkTreeProps.ml" 120 5399 5448 "gtkTreeProps.ml" 134 6064 6075
+)
+"gtkTreeProps.ml" 120 5399 5449 "gtkTreeProps.ml" 120 5399 5460
+type(
+  bool option
+)
+ident(
+  def reorderable "gtkTreeProps.ml" 120 5399 5461 "gtkTreeProps.ml" 134 6064 6075
+)
+"gtkTreeProps.ml" 120 5399 5462 "gtkTreeProps.ml" 120 5399 5472
+type(
+  bool option
+)
+ident(
+  def rules_hint "gtkTreeProps.ml" 121 5473 5479 "gtkTreeProps.ml" 134 6064 6075
+)
+"gtkTreeProps.ml" 121 5473 5480 "gtkTreeProps.ml" 121 5473 5493
+type(
+  int option
+)
+ident(
+  def search_column "gtkTreeProps.ml" 121 5473 5494 "gtkTreeProps.ml" 134 6064 6075
+)
+"gtkTreeProps.ml" 121 5473 5495 "gtkTreeProps.ml" 121 5473 5506
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  def vadjustment "gtkTreeProps.ml" 121 5473 5507 "gtkTreeProps.ml" 134 6064 6075
+)
+"gtkTreeProps.ml" 121 5473 5508 "gtkTreeProps.ml" 121 5473 5522
+type(
+  int option
+)
+ident(
+  def tooltip_column "gtkTreeProps.ml" 122 5525 5529 "gtkTreeProps.ml" 134 6064 6075
+)
+"gtkTreeProps.ml" 122 5525 5533 "gtkTreeProps.ml" 122 5525 5535
+type(
+  'f1 Gobject.param list
+)
+"gtkTreeProps.ml" 123 5540 5546 "gtkTreeProps.ml" 123 5540 5554
+type(
+  ('f1, bool) Gobject.property ->
+  bool option -> 'f1 Gobject.param list -> 'f1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+)
+"gtkTreeProps.ml" 123 5540 5555 "gtkTreeProps.ml" 123 5540 5570
+type(
+  ('f1, bool) Gobject.property
+)
+ident(
+  ext_ref P.enable_search
+)
+"gtkTreeProps.ml" 123 5540 5571 "gtkTreeProps.ml" 123 5540 5584
+type(
+  bool option
+)
+ident(
+  int_ref enable_search "gtkTreeProps.ml" 119 5325 5353 "gtkTreeProps.ml" 119 5325 5366
+)
+"gtkTreeProps.ml" 124 5587 5593 "gtkTreeProps.ml" 124 5587 5601
+type(
+  ('f1, bool) Gobject.property ->
+  bool option -> 'f1 Gobject.param list -> 'f1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+)
+"gtkTreeProps.ml" 124 5587 5602 "gtkTreeProps.ml" 124 5587 5621
+type(
+  ('f1, bool) Gobject.property
+)
+ident(
+  ext_ref P.fixed_height_mode
+)
+"gtkTreeProps.ml" 124 5587 5622 "gtkTreeProps.ml" 124 5587 5639
+type(
+  bool option
+)
+ident(
+  int_ref fixed_height_mode "gtkTreeProps.ml" 119 5325 5368 "gtkTreeProps.ml" 119 5325 5385
+)
+"gtkTreeProps.ml" 125 5642 5648 "gtkTreeProps.ml" 125 5642 5656
+type(
+  ('f1, Gtk.adjustment Gtk.obj) Gobject.property ->
+  Gtk.adjustment Gtk.obj option ->
+  'f1 Gobject.param list -> 'f1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+)
+"gtkTreeProps.ml" 125 5642 5657 "gtkTreeProps.ml" 125 5642 5670
+type(
+  ('f1, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref P.hadjustment
+)
+"gtkTreeProps.ml" 125 5642 5671 "gtkTreeProps.ml" 125 5642 5682
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  int_ref hadjustment "gtkTreeProps.ml" 119 5325 5387 "gtkTreeProps.ml" 119 5325 5398
+)
+"gtkTreeProps.ml" 126 5685 5691 "gtkTreeProps.ml" 126 5685 5699
+type(
+  ('f1, bool) Gobject.property ->
+  bool option -> 'f1 Gobject.param list -> 'f1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+)
+"gtkTreeProps.ml" 126 5685 5700 "gtkTreeProps.ml" 126 5685 5719
+type(
+  ('f1, bool) Gobject.property
+)
+ident(
+  ext_ref P.headers_clickable
+)
+"gtkTreeProps.ml" 126 5685 5720 "gtkTreeProps.ml" 126 5685 5737
+type(
+  bool option
+)
+ident(
+  int_ref headers_clickable "gtkTreeProps.ml" 120 5399 5406 "gtkTreeProps.ml" 120 5399 5423
+)
+"gtkTreeProps.ml" 127 5740 5746 "gtkTreeProps.ml" 127 5740 5754
+type(
+  ('f1, bool) Gobject.property ->
+  bool option -> 'f1 Gobject.param list -> 'f1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+)
+"gtkTreeProps.ml" 127 5740 5755 "gtkTreeProps.ml" 127 5740 5772
+type(
+  ('f1, bool) Gobject.property
+)
+ident(
+  ext_ref P.headers_visible
+)
+"gtkTreeProps.ml" 127 5740 5773 "gtkTreeProps.ml" 127 5740 5788
+type(
+  bool option
+)
+ident(
+  int_ref headers_visible "gtkTreeProps.ml" 120 5399 5425 "gtkTreeProps.ml" 120 5399 5440
+)
+"gtkTreeProps.ml" 128 5791 5797 "gtkTreeProps.ml" 128 5791 5809
+type(
+  ('f1, Gtk.tree_model option) Gobject.property ->
+  Gtk.tree_model option -> 'f1 Gobject.param list -> 'f1 Gobject.param list
+)
+ident(
+  int_ref may_cons_opt "gtkTreeProps.ml" 20 517 521 "gtkTreeProps.ml" 20 517 533
+)
+"gtkTreeProps.ml" 128 5791 5810 "gtkTreeProps.ml" 128 5791 5817
+type(
+  ('f1, Gtk.tree_model option) Gobject.property
+)
+ident(
+  ext_ref P.model
+)
+"gtkTreeProps.ml" 128 5791 5818 "gtkTreeProps.ml" 128 5791 5823
+type(
+  Gtk.tree_model option
+)
+ident(
+  int_ref model "gtkTreeProps.ml" 120 5399 5442 "gtkTreeProps.ml" 120 5399 5447
+)
+"gtkTreeProps.ml" 129 5826 5832 "gtkTreeProps.ml" 129 5826 5840
+type(
+  ('f1, bool) Gobject.property ->
+  bool option -> 'f1 Gobject.param list -> 'f1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+)
+"gtkTreeProps.ml" 129 5826 5841 "gtkTreeProps.ml" 129 5826 5854
+type(
+  ('f1, bool) Gobject.property
+)
+ident(
+  ext_ref P.reorderable
+)
+"gtkTreeProps.ml" 129 5826 5855 "gtkTreeProps.ml" 129 5826 5866
+type(
+  bool option
+)
+ident(
+  int_ref reorderable "gtkTreeProps.ml" 120 5399 5449 "gtkTreeProps.ml" 120 5399 5460
+)
+"gtkTreeProps.ml" 130 5869 5875 "gtkTreeProps.ml" 130 5869 5883
+type(
+  ('f1, bool) Gobject.property ->
+  bool option -> 'f1 Gobject.param list -> 'f1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+)
+"gtkTreeProps.ml" 130 5869 5884 "gtkTreeProps.ml" 130 5869 5896
+type(
+  ('f1, bool) Gobject.property
+)
+ident(
+  ext_ref P.rules_hint
+)
+"gtkTreeProps.ml" 130 5869 5897 "gtkTreeProps.ml" 130 5869 5907
+type(
+  bool option
+)
+ident(
+  int_ref rules_hint "gtkTreeProps.ml" 120 5399 5462 "gtkTreeProps.ml" 120 5399 5472
+)
+"gtkTreeProps.ml" 131 5910 5916 "gtkTreeProps.ml" 131 5910 5924
+type(
+  ('f1, int) Gobject.property ->
+  int option -> 'f1 Gobject.param list -> 'f1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+)
+"gtkTreeProps.ml" 131 5910 5925 "gtkTreeProps.ml" 131 5910 5940
+type(
+  ('f1, int) Gobject.property
+)
+ident(
+  ext_ref P.search_column
+)
+"gtkTreeProps.ml" 131 5910 5941 "gtkTreeProps.ml" 131 5910 5954
+type(
+  int option
+)
+ident(
+  int_ref search_column "gtkTreeProps.ml" 121 5473 5480 "gtkTreeProps.ml" 121 5473 5493
+)
+"gtkTreeProps.ml" 132 5957 5963 "gtkTreeProps.ml" 132 5957 5971
+type(
+  ('f1, Gtk.adjustment Gtk.obj) Gobject.property ->
+  Gtk.adjustment Gtk.obj option ->
+  'f1 Gobject.param list -> 'f1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+)
+"gtkTreeProps.ml" 132 5957 5972 "gtkTreeProps.ml" 132 5957 5985
+type(
+  ('f1, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref P.vadjustment
+)
+"gtkTreeProps.ml" 132 5957 5986 "gtkTreeProps.ml" 132 5957 5997
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  int_ref vadjustment "gtkTreeProps.ml" 121 5473 5495 "gtkTreeProps.ml" 121 5473 5506
+)
+"gtkTreeProps.ml" 133 6000 6006 "gtkTreeProps.ml" 133 6000 6014
+type(
+  ('f1, int) Gobject.property ->
+  int option -> 'f1 Gobject.param list -> 'f1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+)
+"gtkTreeProps.ml" 133 6000 6015 "gtkTreeProps.ml" 133 6000 6031
+type(
+  ('f1, int) Gobject.property
+)
+ident(
+  ext_ref P.tooltip_column
+)
+"gtkTreeProps.ml" 133 6000 6032 "gtkTreeProps.ml" 133 6000 6046
+type(
+  int option
+)
+ident(
+  int_ref tooltip_column "gtkTreeProps.ml" 121 5473 5508 "gtkTreeProps.ml" 121 5473 5522
+)
+"gtkTreeProps.ml" 133 6000 6047 "gtkTreeProps.ml" 133 6000 6049
+type(
+  'f1 Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 119 5325 5349 "gtkTreeProps.ml" 119 5325 5351
+)
+"gtkTreeProps.ml" 132 5957 5998 "gtkTreeProps.ml" 133 6000 6050
+call(
+  stack
+)
+type(
+  'f1 Gobject.param list
+)
+"gtkTreeProps.ml" 131 5910 5955 "gtkTreeProps.ml" 133 6000 6051
+call(
+  stack
+)
+type(
+  'f1 Gobject.param list
+)
+"gtkTreeProps.ml" 130 5869 5908 "gtkTreeProps.ml" 133 6000 6052
+call(
+  stack
+)
+type(
+  'f1 Gobject.param list
+)
+"gtkTreeProps.ml" 129 5826 5867 "gtkTreeProps.ml" 133 6000 6053
+call(
+  stack
+)
+type(
+  'f1 Gobject.param list
+)
+"gtkTreeProps.ml" 128 5791 5824 "gtkTreeProps.ml" 133 6000 6054
+call(
+  stack
+)
+type(
+  'f1 Gobject.param list
+)
+"gtkTreeProps.ml" 127 5740 5789 "gtkTreeProps.ml" 133 6000 6055
+call(
+  stack
+)
+type(
+  'f1 Gobject.param list
+)
+"gtkTreeProps.ml" 126 5685 5738 "gtkTreeProps.ml" 133 6000 6056
+call(
+  stack
+)
+type(
+  'f1 Gobject.param list
+)
+"gtkTreeProps.ml" 125 5642 5683 "gtkTreeProps.ml" 133 6000 6057
+call(
+  stack
+)
+type(
+  'f1 Gobject.param list
+)
+"gtkTreeProps.ml" 124 5587 5640 "gtkTreeProps.ml" 133 6000 6058
+call(
+  stack
+)
+type(
+  'f1 Gobject.param list
+)
+"gtkTreeProps.ml" 123 5540 5585 "gtkTreeProps.ml" 133 6000 6059
+call(
+  stack
+)
+type(
+  'f1 Gobject.param list
+)
+"gtkTreeProps.ml" 122 5525 5538 "gtkTreeProps.ml" 133 6000 6060
+call(
+  stack
+)
+type(
+  'f1 Gobject.param list
+)
+"gtkTreeProps.ml" 134 6064 6068 "gtkTreeProps.ml" 134 6064 6072
+type(
+  'f1 Gobject.param list -> 'g1
+)
+ident(
+  int_ref cont "gtkTreeProps.ml" 119 5325 5344 "gtkTreeProps.ml" 119 5325 5348
+)
+"gtkTreeProps.ml" 134 6064 6073 "gtkTreeProps.ml" 134 6064 6075
+type(
+  'f1 Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 122 5525 5533 "gtkTreeProps.ml" 122 5525 5535
+)
+"gtkTreeProps.ml" 134 6064 6068 "gtkTreeProps.ml" 134 6064 6075
+call(
+  tail
+)
+type(
+  'g1
+)
+"gtkTreeProps.ml" 122 5525 5529 "gtkTreeProps.ml" 134 6064 6075
+type(
+  'g1
+)
+"gtkTreeProps.ml" 138 6110 6116 "gtkTreeProps.ml" 138 6110 6120
+type(
+  'a Gobject.obj -> Gtk.cell_renderer Gtk.obj
+)
+ident(
+  def cast "gtkTreeProps.ml" 139 6178 6180 "gtkTreeProps.ml" 162 7448 7451
+)
+"gtkTreeProps.ml" 138 6110 6121 "gtkTreeProps.ml" 138 6110 6122
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTreeProps.ml" 138 6110 6123 "gtkTreeProps.ml" 138 6110 6177
+)
+"gtkTreeProps.ml" 138 6110 6149 "gtkTreeProps.ml" 138 6110 6157
+type(
+  'a Gobject.obj -> string -> Gtk.cell_renderer Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTreeProps.ml" 138 6110 6158 "gtkTreeProps.ml" 138 6110 6159
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTreeProps.ml" 138 6110 6121 "gtkTreeProps.ml" 138 6110 6122
+)
+"gtkTreeProps.ml" 138 6110 6160 "gtkTreeProps.ml" 138 6110 6177
+type(
+  string
+)
+"gtkTreeProps.ml" 138 6110 6149 "gtkTreeProps.ml" 138 6110 6177
+call(
+  tail
+)
+type(
+  Gtk.cell_renderer Gtk.obj
+)
+type(
+  Gtk.cell_renderer Gtk.obj
+)
+"gtkTreeProps.ml" 140 6198 6206 "gtkTreeProps.ml" 140 6198 6221
+type(
+  ([> `cellrenderer ], string) Gobject.property
+)
+ident(
+  def cell_background "gtkTreeProps.ml" 142 6300 6304 "gtkTreeProps.ml" 160 7367 7372
+)
+"gtkTreeProps.ml" 141 6256 6268 "gtkTreeProps.ml" 141 6256 6285
+type(
+  string
+)
+"gtkTreeProps.ml" 141 6256 6292 "gtkTreeProps.ml" 141 6256 6298
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTreeProps.ml" 141 6256 6262 "gtkTreeProps.ml" 141 6256 6299
+type(
+  ([> `cellrenderer ] as 'b, string) Gobject.property
+)
+type(
+  ('b, string) Gobject.property
+)
+"gtkTreeProps.ml" 142 6300 6308 "gtkTreeProps.ml" 142 6300 6327
+type(
+  ([> `cellrenderer ], Gdk.color) Gobject.property
+)
+ident(
+  def cell_background_gdk "gtkTreeProps.ml" 145 6449 6453 "gtkTreeProps.ml" 160 7367 7372
+)
+"gtkTreeProps.ml" 143 6362 6374 "gtkTreeProps.ml" 143 6362 6395
+type(
+  string
+)
+"gtkTreeProps.ml" 144 6397 6410 "gtkTreeProps.ml" 144 6397 6424
+type(
+  Gdk.color Gobject.data_conv
+)
+type(
+  Gdk.color Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 143 6362 6368 "gtkTreeProps.ml" 144 6397 6448
+type(
+  ([> `cellrenderer ] as 'c, Gdk.color) Gobject.property
+)
+type(
+  ('c, Gdk.color) Gobject.property
+)
+"gtkTreeProps.ml" 145 6449 6457 "gtkTreeProps.ml" 145 6449 6476
+type(
+  ([> `cellrenderer ], bool) Gobject.property
+)
+ident(
+  def cell_background_set "gtkTreeProps.ml" 147 6560 6564 "gtkTreeProps.ml" 160 7367 7372
+)
+"gtkTreeProps.ml" 146 6511 6523 "gtkTreeProps.ml" 146 6511 6544
+type(
+  string
+)
+"gtkTreeProps.ml" 146 6511 6551 "gtkTreeProps.ml" 146 6511 6558
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 146 6511 6517 "gtkTreeProps.ml" 146 6511 6559
+type(
+  ([> `cellrenderer ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkTreeProps.ml" 147 6560 6568 "gtkTreeProps.ml" 147 6560 6574
+type(
+  ([> `cellrenderer ], int) Gobject.property
+)
+ident(
+  def height "gtkTreeProps.ml" 148 6635 6639 "gtkTreeProps.ml" 160 7367 7372
+)
+"gtkTreeProps.ml" 147 6560 6615 "gtkTreeProps.ml" 147 6560 6623
+type(
+  string
+)
+"gtkTreeProps.ml" 147 6560 6630 "gtkTreeProps.ml" 147 6560 6633
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 147 6560 6609 "gtkTreeProps.ml" 147 6560 6634
+type(
+  ([> `cellrenderer ] as 'e, int) Gobject.property
+)
+type(
+  ('e, int) Gobject.property
+)
+"gtkTreeProps.ml" 148 6635 6643 "gtkTreeProps.ml" 148 6635 6654
+type(
+  ([> `cellrenderer ], bool) Gobject.property
+)
+ident(
+  def is_expanded "gtkTreeProps.ml" 150 6730 6734 "gtkTreeProps.ml" 160 7367 7372
+)
+"gtkTreeProps.ml" 149 6689 6701 "gtkTreeProps.ml" 149 6689 6714
+type(
+  string
+)
+"gtkTreeProps.ml" 149 6689 6721 "gtkTreeProps.ml" 149 6689 6728
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 149 6689 6695 "gtkTreeProps.ml" 149 6689 6729
+type(
+  ([> `cellrenderer ] as 'f, bool) Gobject.property
+)
+type(
+  ('f, bool) Gobject.property
+)
+"gtkTreeProps.ml" 150 6730 6738 "gtkTreeProps.ml" 150 6730 6749
+type(
+  ([> `cellrenderer ], bool) Gobject.property
+)
+ident(
+  def is_expander "gtkTreeProps.ml" 152 6825 6829 "gtkTreeProps.ml" 160 7367 7372
+)
+"gtkTreeProps.ml" 151 6784 6796 "gtkTreeProps.ml" 151 6784 6809
+type(
+  string
+)
+"gtkTreeProps.ml" 151 6784 6816 "gtkTreeProps.ml" 151 6784 6823
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 151 6784 6790 "gtkTreeProps.ml" 151 6784 6824
+type(
+  ([> `cellrenderer ] as 'g, bool) Gobject.property
+)
+type(
+  ('g, bool) Gobject.property
+)
+"gtkTreeProps.ml" 152 6825 6833 "gtkTreeProps.ml" 152 6825 6837
+type(
+  ([> `cellrenderer ], GtkEnums.cell_renderer_mode) Gobject.property
+)
+ident(
+  def mode "gtkTreeProps.ml" 154 6931 6935 "gtkTreeProps.ml" 160 7367 7372
+)
+"gtkTreeProps.ml" 153 6872 6884 "gtkTreeProps.ml" 153 6872 6890
+type(
+  string
+)
+"gtkTreeProps.ml" 153 6872 6897 "gtkTreeProps.ml" 153 6872 6929
+type(
+  GtkEnums.cell_renderer_mode Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.cell_renderer_mode_conv
+)
+"gtkTreeProps.ml" 153 6872 6878 "gtkTreeProps.ml" 153 6872 6930
+type(
+  ([> `cellrenderer ] as 'h, GtkEnums.cell_renderer_mode) Gobject.property
+)
+type(
+  ('h, GtkEnums.cell_renderer_mode) Gobject.property
+)
+"gtkTreeProps.ml" 154 6931 6939 "gtkTreeProps.ml" 154 6931 6946
+type(
+  ([> `cellrenderer ], bool) Gobject.property
+)
+ident(
+  def visible "gtkTreeProps.ml" 155 7002 7006 "gtkTreeProps.ml" 160 7367 7372
+)
+"gtkTreeProps.ml" 154 6931 6981 "gtkTreeProps.ml" 154 6931 7001
+type(
+  ([> `cellrenderer ] as 'i, bool) Gobject.property
+)
+type(
+  ('i, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.visible
+)
+"gtkTreeProps.ml" 155 7002 7010 "gtkTreeProps.ml" 155 7002 7015
+type(
+  ([> `cellrenderer ], int) Gobject.property
+)
+ident(
+  def width "gtkTreeProps.ml" 156 7069 7073 "gtkTreeProps.ml" 160 7367 7372
+)
+"gtkTreeProps.ml" 155 7002 7050 "gtkTreeProps.ml" 155 7002 7068
+type(
+  ([> `cellrenderer ] as 'j, int) Gobject.property
+)
+type(
+  ('j, int) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.width
+)
+"gtkTreeProps.ml" 156 7069 7077 "gtkTreeProps.ml" 156 7069 7083
+type(
+  ([> `cellrenderer ], float) Gobject.property
+)
+ident(
+  def xalign "gtkTreeProps.ml" 157 7146 7150 "gtkTreeProps.ml" 160 7367 7372
+)
+"gtkTreeProps.ml" 156 7069 7124 "gtkTreeProps.ml" 156 7069 7132
+type(
+  string
+)
+"gtkTreeProps.ml" 156 7069 7139 "gtkTreeProps.ml" 156 7069 7144
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkTreeProps.ml" 156 7069 7118 "gtkTreeProps.ml" 156 7069 7145
+type(
+  ([> `cellrenderer ] as 'k, float) Gobject.property
+)
+type(
+  ('k, float) Gobject.property
+)
+"gtkTreeProps.ml" 157 7146 7154 "gtkTreeProps.ml" 157 7146 7158
+type(
+  ([> `cellrenderer ], int) Gobject.property
+)
+ident(
+  def xpad "gtkTreeProps.ml" 158 7218 7222 "gtkTreeProps.ml" 160 7367 7372
+)
+"gtkTreeProps.ml" 157 7146 7199 "gtkTreeProps.ml" 157 7146 7205
+type(
+  string
+)
+"gtkTreeProps.ml" 157 7146 7212 "gtkTreeProps.ml" 157 7146 7216
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkTreeProps.ml" 157 7146 7193 "gtkTreeProps.ml" 157 7146 7217
+type(
+  ([> `cellrenderer ] as 'l, int) Gobject.property
+)
+type(
+  ('l, int) Gobject.property
+)
+"gtkTreeProps.ml" 158 7218 7226 "gtkTreeProps.ml" 158 7218 7232
+type(
+  ([> `cellrenderer ], float) Gobject.property
+)
+ident(
+  def yalign "gtkTreeProps.ml" 159 7295 7299 "gtkTreeProps.ml" 160 7367 7372
+)
+"gtkTreeProps.ml" 158 7218 7273 "gtkTreeProps.ml" 158 7218 7281
+type(
+  string
+)
+"gtkTreeProps.ml" 158 7218 7288 "gtkTreeProps.ml" 158 7218 7293
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkTreeProps.ml" 158 7218 7267 "gtkTreeProps.ml" 158 7218 7294
+type(
+  ([> `cellrenderer ] as 'm, float) Gobject.property
+)
+type(
+  ('m, float) Gobject.property
+)
+"gtkTreeProps.ml" 159 7295 7303 "gtkTreeProps.ml" 159 7295 7307
+type(
+  ([> `cellrenderer ], int) Gobject.property
+)
+ident(
+  def ypad "gtkTreeProps.ml" 159 7295 7366 "gtkTreeProps.ml" 160 7367 7372
+)
+"gtkTreeProps.ml" 159 7295 7348 "gtkTreeProps.ml" 159 7295 7354
+type(
+  string
+)
+"gtkTreeProps.ml" 159 7295 7361 "gtkTreeProps.ml" 159 7295 7365
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkTreeProps.ml" 159 7295 7342 "gtkTreeProps.ml" 159 7295 7366
+type(
+  ([> `cellrenderer ] as 'n, int) Gobject.property
+)
+type(
+  ('n, int) Gobject.property
+)
+"gtkTreeProps.ml" 161 7373 7379 "gtkTreeProps.ml" 161 7373 7385
+type(
+  Gtk.cell_renderer Gobject.param list -> Gtk.cell_renderer Gtk.obj
+)
+ident(
+  def create "gtkTreeProps.ml" 161 7373 7447 "gtkTreeProps.ml" 162 7448 7451
+)
+"gtkTreeProps.ml" 161 7373 7386 "gtkTreeProps.ml" 161 7373 7388
+type(
+  Gtk.cell_renderer Gobject.param list
+)
+ident(
+  def pl "gtkTreeProps.ml" 161 7373 7389 "gtkTreeProps.ml" 161 7373 7447
+)
+"gtkTreeProps.ml" 161 7373 7415 "gtkTreeProps.ml" 161 7373 7426
+type(
+  classe:string ->
+  Gtk.cell_renderer Gobject.param list -> Gtk.cell_renderer Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkTreeProps.ml" 161 7373 7427 "gtkTreeProps.ml" 161 7373 7444
+type(
+  string
+)
+"gtkTreeProps.ml" 161 7373 7445 "gtkTreeProps.ml" 161 7373 7447
+type(
+  Gtk.cell_renderer Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 161 7373 7386 "gtkTreeProps.ml" 161 7373 7388
+)
+"gtkTreeProps.ml" 161 7373 7415 "gtkTreeProps.ml" 161 7373 7447
+call(
+  tail
+)
+type(
+  Gtk.cell_renderer Gtk.obj
+)
+type(
+  Gtk.cell_renderer Gtk.obj
+)
+"gtkTreeProps.ml" 165 7488 7494 "gtkTreeProps.ml" 165 7488 7498
+type(
+  'a Gobject.obj -> Gtk.cell_renderer_pixbuf Gtk.obj
+)
+ident(
+  def cast "gtkTreeProps.ml" 167 7573 7575 "gtkTreeProps.ml" 185 8442 8445
+)
+"gtkTreeProps.ml" 165 7488 7499 "gtkTreeProps.ml" 165 7488 7500
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTreeProps.ml" 165 7488 7501 "gtkTreeProps.ml" 166 7534 7572
+)
+"gtkTreeProps.ml" 166 7534 7538 "gtkTreeProps.ml" 166 7534 7546
+type(
+  'a Gobject.obj -> string -> Gtk.cell_renderer_pixbuf Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTreeProps.ml" 166 7534 7547 "gtkTreeProps.ml" 166 7534 7548
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTreeProps.ml" 165 7488 7499 "gtkTreeProps.ml" 165 7488 7500
+)
+"gtkTreeProps.ml" 166 7534 7549 "gtkTreeProps.ml" 166 7534 7572
+type(
+  string
+)
+"gtkTreeProps.ml" 166 7534 7538 "gtkTreeProps.ml" 166 7534 7572
+call(
+  tail
+)
+type(
+  Gtk.cell_renderer_pixbuf Gtk.obj
+)
+type(
+  Gtk.cell_renderer_pixbuf Gtk.obj
+)
+"gtkTreeProps.ml" 168 7593 7601 "gtkTreeProps.ml" 168 7593 7607
+type(
+  ([> `cellrendererpixbuf ], GdkPixbuf.pixbuf) Gobject.property
+)
+ident(
+  def pixbuf "gtkTreeProps.ml" 170 7715 7719 "gtkTreeProps.ml" 182 8344 8349
+)
+"gtkTreeProps.ml" 169 7648 7660 "gtkTreeProps.ml" 169 7648 7668
+type(
+  string
+)
+"gtkTreeProps.ml" 169 7648 7676 "gtkTreeProps.ml" 169 7648 7683
+type(
+  GdkPixbuf.pixbuf Gobject.data_conv
+)
+type(
+  GdkPixbuf.pixbuf Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTreeProps.ml" 169 7648 7654 "gtkTreeProps.ml" 169 7648 7714
+type(
+  ([> `cellrendererpixbuf ] as 'b, GdkPixbuf.pixbuf) Gobject.property
+)
+type(
+  ('b, GdkPixbuf.pixbuf) Gobject.property
+)
+"gtkTreeProps.ml" 170 7715 7723 "gtkTreeProps.ml" 170 7715 7745
+type(
+  ([> `cellrendererpixbuf ], GdkPixbuf.pixbuf) Gobject.property
+)
+ident(
+  def pixbuf_expander_closed "gtkTreeProps.ml" 173 7876 7880 "gtkTreeProps.ml" 182 8344 8349
+)
+"gtkTreeProps.ml" 171 7786 7798 "gtkTreeProps.ml" 171 7786 7822
+type(
+  string
+)
+"gtkTreeProps.ml" 172 7824 7837 "gtkTreeProps.ml" 172 7824 7844
+type(
+  GdkPixbuf.pixbuf Gobject.data_conv
+)
+type(
+  GdkPixbuf.pixbuf Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTreeProps.ml" 171 7786 7792 "gtkTreeProps.ml" 172 7824 7875
+type(
+  ([> `cellrendererpixbuf ] as 'c, GdkPixbuf.pixbuf) Gobject.property
+)
+type(
+  ('c, GdkPixbuf.pixbuf) Gobject.property
+)
+"gtkTreeProps.ml" 173 7876 7884 "gtkTreeProps.ml" 173 7876 7904
+type(
+  ([> `cellrendererpixbuf ], GdkPixbuf.pixbuf) Gobject.property
+)
+ident(
+  def pixbuf_expander_open "gtkTreeProps.ml" 176 8033 8037 "gtkTreeProps.ml" 182 8344 8349
+)
+"gtkTreeProps.ml" 174 7945 7957 "gtkTreeProps.ml" 174 7945 7979
+type(
+  string
+)
+"gtkTreeProps.ml" 175 7981 7994 "gtkTreeProps.ml" 175 7981 8001
+type(
+  GdkPixbuf.pixbuf Gobject.data_conv
+)
+type(
+  GdkPixbuf.pixbuf Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTreeProps.ml" 174 7945 7951 "gtkTreeProps.ml" 175 7981 8032
+type(
+  ([> `cellrendererpixbuf ] as 'd, GdkPixbuf.pixbuf) Gobject.property
+)
+type(
+  ('d, GdkPixbuf.pixbuf) Gobject.property
+)
+"gtkTreeProps.ml" 176 8033 8041 "gtkTreeProps.ml" 176 8033 8053
+type(
+  ([> `cellrendererpixbuf ], string) Gobject.property
+)
+ident(
+  def stock_detail "gtkTreeProps.ml" 178 8135 8139 "gtkTreeProps.ml" 182 8344 8349
+)
+"gtkTreeProps.ml" 177 8094 8106 "gtkTreeProps.ml" 177 8094 8120
+type(
+  string
+)
+"gtkTreeProps.ml" 177 8094 8127 "gtkTreeProps.ml" 177 8094 8133
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTreeProps.ml" 177 8094 8100 "gtkTreeProps.ml" 177 8094 8134
+type(
+  ([> `cellrendererpixbuf ] as 'e, string) Gobject.property
+)
+type(
+  ('e, string) Gobject.property
+)
+"gtkTreeProps.ml" 178 8135 8143 "gtkTreeProps.ml" 178 8135 8151
+type(
+  ([> `cellrendererpixbuf ], string) Gobject.property
+)
+ident(
+  def stock_id "gtkTreeProps.ml" 180 8229 8233 "gtkTreeProps.ml" 182 8344 8349
+)
+"gtkTreeProps.ml" 179 8192 8204 "gtkTreeProps.ml" 179 8192 8214
+type(
+  string
+)
+"gtkTreeProps.ml" 179 8192 8221 "gtkTreeProps.ml" 179 8192 8227
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTreeProps.ml" 179 8192 8198 "gtkTreeProps.ml" 179 8192 8228
+type(
+  ([> `cellrendererpixbuf ] as 'f, string) Gobject.property
+)
+type(
+  ('f, string) Gobject.property
+)
+"gtkTreeProps.ml" 180 8229 8237 "gtkTreeProps.ml" 180 8229 8247
+type(
+  ([> `cellrendererpixbuf ], GtkEnums.icon_size) Gobject.property
+)
+ident(
+  def stock_size "gtkTreeProps.ml" 181 8288 8343 "gtkTreeProps.ml" 182 8344 8349
+)
+"gtkTreeProps.ml" 181 8288 8300 "gtkTreeProps.ml" 181 8288 8312
+type(
+  string
+)
+"gtkTreeProps.ml" 181 8288 8319 "gtkTreeProps.ml" 181 8288 8342
+type(
+  GtkEnums.icon_size Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.icon_size_conv
+)
+"gtkTreeProps.ml" 181 8288 8294 "gtkTreeProps.ml" 181 8288 8343
+type(
+  ([> `cellrendererpixbuf ] as 'g, GtkEnums.icon_size) Gobject.property
+)
+type(
+  ('g, GtkEnums.icon_size) Gobject.property
+)
+"gtkTreeProps.ml" 183 8350 8356 "gtkTreeProps.ml" 183 8350 8362
+type(
+  Gtk.cell_renderer_pixbuf Gobject.param list ->
+  Gtk.cell_renderer_pixbuf Gtk.obj
+)
+ident(
+  def create "gtkTreeProps.ml" 184 8399 8441 "gtkTreeProps.ml" 185 8442 8445
+)
+"gtkTreeProps.ml" 183 8350 8363 "gtkTreeProps.ml" 183 8350 8365
+type(
+  Gtk.cell_renderer_pixbuf Gobject.param list
+)
+ident(
+  def pl "gtkTreeProps.ml" 183 8350 8366 "gtkTreeProps.ml" 184 8399 8441
+)
+"gtkTreeProps.ml" 184 8399 8403 "gtkTreeProps.ml" 184 8399 8414
+type(
+  classe:string ->
+  Gtk.cell_renderer_pixbuf Gobject.param list ->
+  Gtk.cell_renderer_pixbuf Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkTreeProps.ml" 184 8399 8415 "gtkTreeProps.ml" 184 8399 8438
+type(
+  string
+)
+"gtkTreeProps.ml" 184 8399 8439 "gtkTreeProps.ml" 184 8399 8441
+type(
+  Gtk.cell_renderer_pixbuf Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 183 8350 8363 "gtkTreeProps.ml" 183 8350 8365
+)
+"gtkTreeProps.ml" 184 8399 8403 "gtkTreeProps.ml" 184 8399 8441
+call(
+  tail
+)
+type(
+  Gtk.cell_renderer_pixbuf Gtk.obj
+)
+type(
+  Gtk.cell_renderer_pixbuf Gtk.obj
+)
+"gtkTreeProps.ml" 188 8480 8486 "gtkTreeProps.ml" 188 8480 8490
+type(
+  'a Gobject.obj -> Gtk.cell_renderer_text Gtk.obj
+)
+ident(
+  def cast "gtkTreeProps.ml" 189 8557 8559 "gtkTreeProps.ml" 268 12435 12438
+)
+"gtkTreeProps.ml" 188 8480 8491 "gtkTreeProps.ml" 188 8480 8492
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTreeProps.ml" 188 8480 8493 "gtkTreeProps.ml" 188 8480 8556
+)
+"gtkTreeProps.ml" 188 8480 8524 "gtkTreeProps.ml" 188 8480 8532
+type(
+  'a Gobject.obj -> string -> Gtk.cell_renderer_text Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTreeProps.ml" 188 8480 8533 "gtkTreeProps.ml" 188 8480 8534
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTreeProps.ml" 188 8480 8491 "gtkTreeProps.ml" 188 8480 8492
+)
+"gtkTreeProps.ml" 188 8480 8535 "gtkTreeProps.ml" 188 8480 8556
+type(
+  string
+)
+"gtkTreeProps.ml" 188 8480 8524 "gtkTreeProps.ml" 188 8480 8556
+call(
+  tail
+)
+type(
+  Gtk.cell_renderer_text Gtk.obj
+)
+type(
+  Gtk.cell_renderer_text Gtk.obj
+)
+"gtkTreeProps.ml" 190 8577 8585 "gtkTreeProps.ml" 190 8577 8595
+type(
+  ([> `cellrenderertext ], string) Gobject.property
+)
+ident(
+  def background "gtkTreeProps.ml" 192 8673 8677 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 191 8634 8646 "gtkTreeProps.ml" 191 8634 8658
+type(
+  string
+)
+"gtkTreeProps.ml" 191 8634 8665 "gtkTreeProps.ml" 191 8634 8671
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTreeProps.ml" 191 8634 8640 "gtkTreeProps.ml" 191 8634 8672
+type(
+  ([> `cellrenderertext ] as 'b, string) Gobject.property
+)
+type(
+  ('b, string) Gobject.property
+)
+"gtkTreeProps.ml" 192 8673 8681 "gtkTreeProps.ml" 192 8673 8695
+type(
+  ([> `cellrenderertext ], Gdk.color) Gobject.property
+)
+ident(
+  def background_gdk "gtkTreeProps.ml" 194 8809 8813 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 193 8734 8746 "gtkTreeProps.ml" 193 8734 8762
+type(
+  string
+)
+"gtkTreeProps.ml" 193 8734 8770 "gtkTreeProps.ml" 193 8734 8784
+type(
+  Gdk.color Gobject.data_conv
+)
+type(
+  Gdk.color Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 193 8734 8740 "gtkTreeProps.ml" 193 8734 8808
+type(
+  ([> `cellrenderertext ] as 'c, Gdk.color) Gobject.property
+)
+type(
+  ('c, Gdk.color) Gobject.property
+)
+"gtkTreeProps.ml" 194 8809 8817 "gtkTreeProps.ml" 194 8809 8831
+type(
+  ([> `cellrenderertext ], bool) Gobject.property
+)
+ident(
+  def background_set "gtkTreeProps.ml" 196 8914 8918 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 195 8870 8882 "gtkTreeProps.ml" 195 8870 8898
+type(
+  string
+)
+"gtkTreeProps.ml" 195 8870 8905 "gtkTreeProps.ml" 195 8870 8912
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 195 8870 8876 "gtkTreeProps.ml" 195 8870 8913
+type(
+  ([> `cellrenderertext ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkTreeProps.ml" 196 8914 8922 "gtkTreeProps.ml" 196 8914 8930
+type(
+  ([> `cellrenderertext ], bool) Gobject.property
+)
+ident(
+  def editable "gtkTreeProps.ml" 198 9007 9011 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 197 8969 8981 "gtkTreeProps.ml" 197 8969 8991
+type(
+  string
+)
+"gtkTreeProps.ml" 197 8969 8998 "gtkTreeProps.ml" 197 8969 9005
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 197 8969 8975 "gtkTreeProps.ml" 197 8969 9006
+type(
+  ([> `cellrenderertext ] as 'e, bool) Gobject.property
+)
+type(
+  ('e, bool) Gobject.property
+)
+"gtkTreeProps.ml" 198 9007 9015 "gtkTreeProps.ml" 198 9007 9027
+type(
+  ([> `cellrenderertext ], bool) Gobject.property
+)
+ident(
+  def editable_set "gtkTreeProps.ml" 200 9108 9112 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 199 9066 9078 "gtkTreeProps.ml" 199 9066 9092
+type(
+  string
+)
+"gtkTreeProps.ml" 199 9066 9099 "gtkTreeProps.ml" 199 9066 9106
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 199 9066 9072 "gtkTreeProps.ml" 199 9066 9107
+type(
+  ([> `cellrenderertext ] as 'f, bool) Gobject.property
+)
+type(
+  ('f, bool) Gobject.property
+)
+"gtkTreeProps.ml" 200 9108 9116 "gtkTreeProps.ml" 200 9108 9122
+type(
+  ([> `cellrenderertext ], string) Gobject.property
+)
+ident(
+  def family "gtkTreeProps.ml" 202 9196 9200 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 201 9161 9173 "gtkTreeProps.ml" 201 9161 9181
+type(
+  string
+)
+"gtkTreeProps.ml" 201 9161 9188 "gtkTreeProps.ml" 201 9161 9194
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTreeProps.ml" 201 9161 9167 "gtkTreeProps.ml" 201 9161 9195
+type(
+  ([> `cellrenderertext ] as 'g, string) Gobject.property
+)
+type(
+  ('g, string) Gobject.property
+)
+"gtkTreeProps.ml" 202 9196 9204 "gtkTreeProps.ml" 202 9196 9214
+type(
+  ([> `cellrenderertext ], bool) Gobject.property
+)
+ident(
+  def family_set "gtkTreeProps.ml" 204 9293 9297 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 203 9253 9265 "gtkTreeProps.ml" 203 9253 9277
+type(
+  string
+)
+"gtkTreeProps.ml" 203 9253 9284 "gtkTreeProps.ml" 203 9253 9291
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 203 9253 9259 "gtkTreeProps.ml" 203 9253 9292
+type(
+  ([> `cellrenderertext ] as 'h, bool) Gobject.property
+)
+type(
+  ('h, bool) Gobject.property
+)
+"gtkTreeProps.ml" 204 9293 9301 "gtkTreeProps.ml" 204 9293 9305
+type(
+  ([> `cellrenderertext ], string) Gobject.property
+)
+ident(
+  def font "gtkTreeProps.ml" 205 9371 9375 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 204 9293 9350 "gtkTreeProps.ml" 204 9293 9356
+type(
+  string
+)
+"gtkTreeProps.ml" 204 9293 9363 "gtkTreeProps.ml" 204 9293 9369
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTreeProps.ml" 204 9293 9344 "gtkTreeProps.ml" 204 9293 9370
+type(
+  ([> `cellrenderertext ] as 'i, string) Gobject.property
+)
+type(
+  ('i, string) Gobject.property
+)
+"gtkTreeProps.ml" 205 9371 9379 "gtkTreeProps.ml" 205 9371 9388
+type(
+  ([> `cellrenderertext ], Pango.font_description) Gobject.property
+)
+ident(
+  def font_desc "gtkTreeProps.ml" 208 9517 9521 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 206 9427 9439 "gtkTreeProps.ml" 206 9427 9450
+type(
+  string
+)
+"gtkTreeProps.ml" 207 9452 9465 "gtkTreeProps.ml" 207 9452 9479
+type(
+  Pango.font_description Gobject.data_conv
+)
+type(
+  Pango.font_description Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 206 9427 9433 "gtkTreeProps.ml" 207 9452 9516
+type(
+  ([> `cellrenderertext ] as 'j, Pango.font_description) Gobject.property
+)
+type(
+  ('j, Pango.font_description) Gobject.property
+)
+"gtkTreeProps.ml" 208 9517 9525 "gtkTreeProps.ml" 208 9517 9535
+type(
+  ([> `cellrenderertext ], string) Gobject.property
+)
+ident(
+  def foreground "gtkTreeProps.ml" 210 9613 9617 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 209 9574 9586 "gtkTreeProps.ml" 209 9574 9598
+type(
+  string
+)
+"gtkTreeProps.ml" 209 9574 9605 "gtkTreeProps.ml" 209 9574 9611
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTreeProps.ml" 209 9574 9580 "gtkTreeProps.ml" 209 9574 9612
+type(
+  ([> `cellrenderertext ] as 'k, string) Gobject.property
+)
+type(
+  ('k, string) Gobject.property
+)
+"gtkTreeProps.ml" 210 9613 9621 "gtkTreeProps.ml" 210 9613 9635
+type(
+  ([> `cellrenderertext ], Gdk.color) Gobject.property
+)
+ident(
+  def foreground_gdk "gtkTreeProps.ml" 212 9749 9753 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 211 9674 9686 "gtkTreeProps.ml" 211 9674 9702
+type(
+  string
+)
+"gtkTreeProps.ml" 211 9674 9710 "gtkTreeProps.ml" 211 9674 9724
+type(
+  Gdk.color Gobject.data_conv
+)
+type(
+  Gdk.color Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 211 9674 9680 "gtkTreeProps.ml" 211 9674 9748
+type(
+  ([> `cellrenderertext ] as 'l, Gdk.color) Gobject.property
+)
+type(
+  ('l, Gdk.color) Gobject.property
+)
+"gtkTreeProps.ml" 212 9749 9757 "gtkTreeProps.ml" 212 9749 9771
+type(
+  ([> `cellrenderertext ], bool) Gobject.property
+)
+ident(
+  def foreground_set "gtkTreeProps.ml" 214 9854 9858 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 213 9810 9822 "gtkTreeProps.ml" 213 9810 9838
+type(
+  string
+)
+"gtkTreeProps.ml" 213 9810 9845 "gtkTreeProps.ml" 213 9810 9852
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 213 9810 9816 "gtkTreeProps.ml" 213 9810 9853
+type(
+  ([> `cellrenderertext ] as 'm, bool) Gobject.property
+)
+type(
+  ('m, bool) Gobject.property
+)
+"gtkTreeProps.ml" 214 9854 9862 "gtkTreeProps.ml" 214 9854 9868
+type(
+  ([> `cellrenderertext ], string) Gobject.property
+)
+ident(
+  def markup "gtkTreeProps.ml" 216 9942 9946 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 215 9907 9919 "gtkTreeProps.ml" 215 9907 9927
+type(
+  string
+)
+"gtkTreeProps.ml" 215 9907 9934 "gtkTreeProps.ml" 215 9907 9940
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTreeProps.ml" 215 9907 9913 "gtkTreeProps.ml" 215 9907 9941
+type(
+  ([> `cellrenderertext ] as 'n, string) Gobject.property
+)
+type(
+  ('n, string) Gobject.property
+)
+"gtkTreeProps.ml" 216 9942 9950 "gtkTreeProps.ml" 216 9942 9954
+type(
+  ([> `cellrenderertext ], int) Gobject.property
+)
+ident(
+  def rise "gtkTreeProps.ml" 217 10017 10021 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 216 9942 9999 "gtkTreeProps.ml" 216 9942 10005
+type(
+  string
+)
+"gtkTreeProps.ml" 216 9942 10012 "gtkTreeProps.ml" 216 9942 10015
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 216 9942 9993 "gtkTreeProps.ml" 216 9942 10016
+type(
+  ([> `cellrenderertext ] as 'o, int) Gobject.property
+)
+type(
+  ('o, int) Gobject.property
+)
+"gtkTreeProps.ml" 217 10017 10025 "gtkTreeProps.ml" 217 10017 10033
+type(
+  ([> `cellrenderertext ], bool) Gobject.property
+)
+ident(
+  def rise_set "gtkTreeProps.ml" 219 10110 10114 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 218 10072 10084 "gtkTreeProps.ml" 218 10072 10094
+type(
+  string
+)
+"gtkTreeProps.ml" 218 10072 10101 "gtkTreeProps.ml" 218 10072 10108
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 218 10072 10078 "gtkTreeProps.ml" 218 10072 10109
+type(
+  ([> `cellrenderertext ] as 'p, bool) Gobject.property
+)
+type(
+  ('p, bool) Gobject.property
+)
+"gtkTreeProps.ml" 219 10110 10118 "gtkTreeProps.ml" 219 10110 10123
+type(
+  ([> `cellrenderertext ], float) Gobject.property
+)
+ident(
+  def scale "gtkTreeProps.ml" 221 10196 10200 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 220 10162 10174 "gtkTreeProps.ml" 220 10162 10181
+type(
+  string
+)
+"gtkTreeProps.ml" 220 10162 10188 "gtkTreeProps.ml" 220 10162 10194
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gtkTreeProps.ml" 220 10162 10168 "gtkTreeProps.ml" 220 10162 10195
+type(
+  ([> `cellrenderertext ] as 'q, float) Gobject.property
+)
+type(
+  ('q, float) Gobject.property
+)
+"gtkTreeProps.ml" 221 10196 10204 "gtkTreeProps.ml" 221 10196 10213
+type(
+  ([> `cellrenderertext ], bool) Gobject.property
+)
+ident(
+  def scale_set "gtkTreeProps.ml" 223 10291 10295 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 222 10252 10264 "gtkTreeProps.ml" 222 10252 10275
+type(
+  string
+)
+"gtkTreeProps.ml" 222 10252 10282 "gtkTreeProps.ml" 222 10252 10289
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 222 10252 10258 "gtkTreeProps.ml" 222 10252 10290
+type(
+  ([> `cellrenderertext ] as 'r, bool) Gobject.property
+)
+type(
+  ('r, bool) Gobject.property
+)
+"gtkTreeProps.ml" 223 10291 10299 "gtkTreeProps.ml" 223 10291 10320
+type(
+  ([> `cellrenderertext ], bool) Gobject.property
+)
+ident(
+  def single_paragraph_mode "gtkTreeProps.ml" 225 10410 10414 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 224 10359 10371 "gtkTreeProps.ml" 224 10359 10394
+type(
+  string
+)
+"gtkTreeProps.ml" 224 10359 10401 "gtkTreeProps.ml" 224 10359 10408
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 224 10359 10365 "gtkTreeProps.ml" 224 10359 10409
+type(
+  ([> `cellrenderertext ] as 's, bool) Gobject.property
+)
+type(
+  ('s, bool) Gobject.property
+)
+"gtkTreeProps.ml" 225 10410 10418 "gtkTreeProps.ml" 225 10410 10422
+type(
+  ([> `cellrenderertext ], int) Gobject.property
+)
+ident(
+  def size "gtkTreeProps.ml" 226 10485 10489 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 225 10410 10467 "gtkTreeProps.ml" 225 10410 10473
+type(
+  string
+)
+"gtkTreeProps.ml" 225 10410 10480 "gtkTreeProps.ml" 225 10410 10483
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 225 10410 10461 "gtkTreeProps.ml" 225 10410 10484
+type(
+  ([> `cellrenderertext ] as 't, int) Gobject.property
+)
+type(
+  ('t, int) Gobject.property
+)
+"gtkTreeProps.ml" 226 10485 10493 "gtkTreeProps.ml" 226 10485 10504
+type(
+  ([> `cellrenderertext ], float) Gobject.property
+)
+ident(
+  def size_points "gtkTreeProps.ml" 228 10583 10587 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 227 10543 10555 "gtkTreeProps.ml" 227 10543 10568
+type(
+  string
+)
+"gtkTreeProps.ml" 227 10543 10575 "gtkTreeProps.ml" 227 10543 10581
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gtkTreeProps.ml" 227 10543 10549 "gtkTreeProps.ml" 227 10543 10582
+type(
+  ([> `cellrenderertext ] as 'u, float) Gobject.property
+)
+type(
+  ('u, float) Gobject.property
+)
+"gtkTreeProps.ml" 228 10583 10591 "gtkTreeProps.ml" 228 10583 10599
+type(
+  ([> `cellrenderertext ], bool) Gobject.property
+)
+ident(
+  def size_set "gtkTreeProps.ml" 230 10676 10680 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 229 10638 10650 "gtkTreeProps.ml" 229 10638 10660
+type(
+  string
+)
+"gtkTreeProps.ml" 229 10638 10667 "gtkTreeProps.ml" 229 10638 10674
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 229 10638 10644 "gtkTreeProps.ml" 229 10638 10675
+type(
+  ([> `cellrenderertext ] as 'v, bool) Gobject.property
+)
+type(
+  ('v, bool) Gobject.property
+)
+"gtkTreeProps.ml" 230 10676 10684 "gtkTreeProps.ml" 230 10676 10691
+type(
+  ([> `cellrenderertext ], PangoEnums.stretch) Gobject.property
+)
+ident(
+  def stretch "gtkTreeProps.ml" 232 10783 10787 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 231 10730 10742 "gtkTreeProps.ml" 231 10730 10751
+type(
+  string
+)
+"gtkTreeProps.ml" 231 10730 10758 "gtkTreeProps.ml" 231 10730 10781
+type(
+  PangoEnums.stretch Gobject.data_conv
+)
+ident(
+  ext_ref PangoEnums.stretch_conv
+)
+"gtkTreeProps.ml" 231 10730 10736 "gtkTreeProps.ml" 231 10730 10782
+type(
+  ([> `cellrenderertext ] as 'w, PangoEnums.stretch) Gobject.property
+)
+type(
+  ('w, PangoEnums.stretch) Gobject.property
+)
+"gtkTreeProps.ml" 232 10783 10791 "gtkTreeProps.ml" 232 10783 10802
+type(
+  ([> `cellrenderertext ], bool) Gobject.property
+)
+ident(
+  def stretch_set "gtkTreeProps.ml" 234 10882 10886 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 233 10841 10853 "gtkTreeProps.ml" 233 10841 10866
+type(
+  string
+)
+"gtkTreeProps.ml" 233 10841 10873 "gtkTreeProps.ml" 233 10841 10880
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 233 10841 10847 "gtkTreeProps.ml" 233 10841 10881
+type(
+  ([> `cellrenderertext ] as 'x, bool) Gobject.property
+)
+type(
+  ('x, bool) Gobject.property
+)
+"gtkTreeProps.ml" 234 10882 10890 "gtkTreeProps.ml" 234 10882 10903
+type(
+  ([> `cellrenderertext ], bool) Gobject.property
+)
+ident(
+  def strikethrough "gtkTreeProps.ml" 236 10985 10989 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 235 10942 10954 "gtkTreeProps.ml" 235 10942 10969
+type(
+  string
+)
+"gtkTreeProps.ml" 235 10942 10976 "gtkTreeProps.ml" 235 10942 10983
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 235 10942 10948 "gtkTreeProps.ml" 235 10942 10984
+type(
+  ([> `cellrenderertext ] as 'y, bool) Gobject.property
+)
+type(
+  ('y, bool) Gobject.property
+)
+"gtkTreeProps.ml" 236 10985 10993 "gtkTreeProps.ml" 236 10985 11010
+type(
+  ([> `cellrenderertext ], bool) Gobject.property
+)
+ident(
+  def strikethrough_set "gtkTreeProps.ml" 238 11096 11100 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 237 11049 11061 "gtkTreeProps.ml" 237 11049 11080
+type(
+  string
+)
+"gtkTreeProps.ml" 237 11049 11087 "gtkTreeProps.ml" 237 11049 11094
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 237 11049 11055 "gtkTreeProps.ml" 237 11049 11095
+type(
+  ([> `cellrenderertext ] as 'z, bool) Gobject.property
+)
+type(
+  ('z, bool) Gobject.property
+)
+"gtkTreeProps.ml" 238 11096 11104 "gtkTreeProps.ml" 238 11096 11109
+type(
+  ([> `cellrenderertext ], PangoEnums.style) Gobject.property
+)
+ident(
+  def style "gtkTreeProps.ml" 240 11197 11201 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 239 11148 11160 "gtkTreeProps.ml" 239 11148 11167
+type(
+  string
+)
+"gtkTreeProps.ml" 239 11148 11174 "gtkTreeProps.ml" 239 11148 11195
+type(
+  PangoEnums.style Gobject.data_conv
+)
+ident(
+  ext_ref PangoEnums.style_conv
+)
+"gtkTreeProps.ml" 239 11148 11154 "gtkTreeProps.ml" 239 11148 11196
+type(
+  ([> `cellrenderertext ] as 'a1, PangoEnums.style) Gobject.property
+)
+type(
+  ('a1, PangoEnums.style) Gobject.property
+)
+"gtkTreeProps.ml" 240 11197 11205 "gtkTreeProps.ml" 240 11197 11214
+type(
+  ([> `cellrenderertext ], bool) Gobject.property
+)
+ident(
+  def style_set "gtkTreeProps.ml" 242 11292 11296 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 241 11253 11265 "gtkTreeProps.ml" 241 11253 11276
+type(
+  string
+)
+"gtkTreeProps.ml" 241 11253 11283 "gtkTreeProps.ml" 241 11253 11290
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 241 11253 11259 "gtkTreeProps.ml" 241 11253 11291
+type(
+  ([> `cellrenderertext ] as 'b1, bool) Gobject.property
+)
+type(
+  ('b1, bool) Gobject.property
+)
+"gtkTreeProps.ml" 242 11292 11300 "gtkTreeProps.ml" 242 11292 11304
+type(
+  ([> `cellrenderertext ], string) Gobject.property
+)
+ident(
+  def text "gtkTreeProps.ml" 243 11370 11374 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 242 11292 11349 "gtkTreeProps.ml" 242 11292 11355
+type(
+  string
+)
+"gtkTreeProps.ml" 242 11292 11362 "gtkTreeProps.ml" 242 11292 11368
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTreeProps.ml" 242 11292 11343 "gtkTreeProps.ml" 242 11292 11369
+type(
+  ([> `cellrenderertext ] as 'c1, string) Gobject.property
+)
+type(
+  ('c1, string) Gobject.property
+)
+"gtkTreeProps.ml" 243 11370 11378 "gtkTreeProps.ml" 243 11370 11387
+type(
+  ([> `cellrenderertext ], PangoEnums.underline) Gobject.property
+)
+ident(
+  def underline "gtkTreeProps.ml" 245 11483 11487 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 244 11426 11438 "gtkTreeProps.ml" 244 11426 11449
+type(
+  string
+)
+"gtkTreeProps.ml" 244 11426 11456 "gtkTreeProps.ml" 244 11426 11481
+type(
+  PangoEnums.underline Gobject.data_conv
+)
+ident(
+  ext_ref PangoEnums.underline_conv
+)
+"gtkTreeProps.ml" 244 11426 11432 "gtkTreeProps.ml" 244 11426 11482
+type(
+  ([> `cellrenderertext ] as 'd1, PangoEnums.underline) Gobject.property
+)
+type(
+  ('d1, PangoEnums.underline) Gobject.property
+)
+"gtkTreeProps.ml" 245 11483 11491 "gtkTreeProps.ml" 245 11483 11504
+type(
+  ([> `cellrenderertext ], bool) Gobject.property
+)
+ident(
+  def underline_set "gtkTreeProps.ml" 247 11586 11590 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 246 11543 11555 "gtkTreeProps.ml" 246 11543 11570
+type(
+  string
+)
+"gtkTreeProps.ml" 246 11543 11577 "gtkTreeProps.ml" 246 11543 11584
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 246 11543 11549 "gtkTreeProps.ml" 246 11543 11585
+type(
+  ([> `cellrenderertext ] as 'e1, bool) Gobject.property
+)
+type(
+  ('e1, bool) Gobject.property
+)
+"gtkTreeProps.ml" 247 11586 11594 "gtkTreeProps.ml" 247 11586 11601
+type(
+  ([> `cellrenderertext ], PangoEnums.variant) Gobject.property
+)
+ident(
+  def variant "gtkTreeProps.ml" 249 11693 11697 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 248 11640 11652 "gtkTreeProps.ml" 248 11640 11661
+type(
+  string
+)
+"gtkTreeProps.ml" 248 11640 11668 "gtkTreeProps.ml" 248 11640 11691
+type(
+  PangoEnums.variant Gobject.data_conv
+)
+ident(
+  ext_ref PangoEnums.variant_conv
+)
+"gtkTreeProps.ml" 248 11640 11646 "gtkTreeProps.ml" 248 11640 11692
+type(
+  ([> `cellrenderertext ] as 'f1, PangoEnums.variant) Gobject.property
+)
+type(
+  ('f1, PangoEnums.variant) Gobject.property
+)
+"gtkTreeProps.ml" 249 11693 11701 "gtkTreeProps.ml" 249 11693 11712
+type(
+  ([> `cellrenderertext ], bool) Gobject.property
+)
+ident(
+  def variant_set "gtkTreeProps.ml" 251 11792 11796 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 250 11751 11763 "gtkTreeProps.ml" 250 11751 11776
+type(
+  string
+)
+"gtkTreeProps.ml" 250 11751 11783 "gtkTreeProps.ml" 250 11751 11790
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 250 11751 11757 "gtkTreeProps.ml" 250 11751 11791
+type(
+  ([> `cellrenderertext ] as 'g1, bool) Gobject.property
+)
+type(
+  ('g1, bool) Gobject.property
+)
+"gtkTreeProps.ml" 251 11792 11800 "gtkTreeProps.ml" 251 11792 11806
+type(
+  ([> `cellrenderertext ], int) Gobject.property
+)
+ident(
+  def weight "gtkTreeProps.ml" 253 11877 11881 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 252 11845 11857 "gtkTreeProps.ml" 252 11845 11865
+type(
+  string
+)
+"gtkTreeProps.ml" 252 11845 11872 "gtkTreeProps.ml" 252 11845 11875
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 252 11845 11851 "gtkTreeProps.ml" 252 11845 11876
+type(
+  ([> `cellrenderertext ] as 'h1, int) Gobject.property
+)
+type(
+  ('h1, int) Gobject.property
+)
+"gtkTreeProps.ml" 253 11877 11885 "gtkTreeProps.ml" 253 11877 11895
+type(
+  ([> `cellrenderertext ], bool) Gobject.property
+)
+ident(
+  def weight_set "gtkTreeProps.ml" 254 11934 11973 "gtkTreeProps.ml" 255 11974 11979
+)
+"gtkTreeProps.ml" 254 11934 11946 "gtkTreeProps.ml" 254 11934 11958
+type(
+  string
+)
+"gtkTreeProps.ml" 254 11934 11965 "gtkTreeProps.ml" 254 11934 11972
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 254 11934 11940 "gtkTreeProps.ml" 254 11934 11973
+type(
+  ([> `cellrenderertext ] as 'i1, bool) Gobject.property
+)
+type(
+  ('i1, bool) Gobject.property
+)
+"gtkTreeProps.ml" 258 12019 12027 "gtkTreeProps.ml" 258 12019 12033
+type(
+  ([> `cellrenderertext ], Gtk.tree_path -> string -> unit) GtkSignal.t
+)
+ident(
+  def edited "gtkTreeProps.ml" 261 12154 12195 "gtkTreeProps.ml" 262 12196 12201
+)
+"gtkTreeProps.ml" 259 12036 12048 "gtkTreeProps.ml" 259 12036 12056
+type(
+  string
+)
+"gtkTreeProps.ml" 259 12036 12065 "gtkTreeProps.ml" 259 12036 12082
+type(
+  [> `cellrenderertext ] as 'j1
+)
+"gtkTreeProps.ml" 259 12036 12099 "gtkTreeProps.ml" 259 12036 12100
+type(
+  Gtk.tree_path -> string -> unit
+)
+ident(
+  def f "gtkTreeProps.ml" 260 12104 12111 "gtkTreeProps.ml" 261 12154 12194
+)
+"gtkTreeProps.ml" 260 12104 12111 "gtkTreeProps.ml" 260 12104 12119
+type(
+  Gtk.tree_path Gobject.data_conv ->
+  string Gobject.data_conv ->
+  string -> (Gtk.tree_path -> string -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTreeProps.ml" 260 12104 12120 "gtkTreeProps.ml" 260 12104 12121
+type(
+  Gtk.tree_path Gobject.data_conv ref -> Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkTreeProps.ml" 260 12104 12121 "gtkTreeProps.ml" 260 12104 12146
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Internal.tree_path_string
+)
+"gtkTreeProps.ml" 260 12104 12120 "gtkTreeProps.ml" 260 12104 12146
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+"gtkTreeProps.ml" 260 12104 12147 "gtkTreeProps.ml" 260 12104 12153
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTreeProps.ml" 261 12154 12163 "gtkTreeProps.ml" 261 12154 12192
+type(
+  string
+)
+"gtkTreeProps.ml" 261 12154 12193 "gtkTreeProps.ml" 261 12154 12194
+type(
+  Gtk.tree_path -> string -> unit
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 259 12036 12099 "gtkTreeProps.ml" 259 12036 12100
+)
+"gtkTreeProps.ml" 260 12104 12111 "gtkTreeProps.ml" 261 12154 12194
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 259 12036 12095 "gtkTreeProps.ml" 261 12154 12194
+type(
+  (Gtk.tree_path -> string -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 259 12036 12042 "gtkTreeProps.ml" 261 12154 12195
+type(
+  ('j1, Gtk.tree_path -> string -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 263 12202 12208 "gtkTreeProps.ml" 263 12202 12214
+type(
+  Gtk.cell_renderer_text Gobject.param list -> Gtk.cell_renderer_text Gtk.obj
+)
+ident(
+  def create "gtkTreeProps.ml" 265 12290 12292 "gtkTreeProps.ml" 268 12435 12438
+)
+"gtkTreeProps.ml" 263 12202 12215 "gtkTreeProps.ml" 263 12202 12217
+type(
+  Gtk.cell_renderer_text Gobject.param list
+)
+ident(
+  def pl "gtkTreeProps.ml" 263 12202 12218 "gtkTreeProps.ml" 264 12249 12289
+)
+"gtkTreeProps.ml" 264 12249 12253 "gtkTreeProps.ml" 264 12249 12264
+type(
+  classe:string ->
+  Gtk.cell_renderer_text Gobject.param list -> Gtk.cell_renderer_text Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkTreeProps.ml" 264 12249 12265 "gtkTreeProps.ml" 264 12249 12286
+type(
+  string
+)
+"gtkTreeProps.ml" 264 12249 12287 "gtkTreeProps.ml" 264 12249 12289
+type(
+  Gtk.cell_renderer_text Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 263 12202 12215 "gtkTreeProps.ml" 263 12202 12217
+)
+"gtkTreeProps.ml" 264 12249 12253 "gtkTreeProps.ml" 264 12249 12289
+call(
+  tail
+)
+type(
+  Gtk.cell_renderer_text Gtk.obj
+)
+type(
+  Gtk.cell_renderer_text Gtk.obj
+)
+"gtkTreeProps.ml" 271 12475 12481 "gtkTreeProps.ml" 271 12475 12485
+type(
+  'a Gobject.obj -> Gtk.cell_renderer_toggle Gtk.obj
+)
+ident(
+  def cast "gtkTreeProps.ml" 273 12560 12562 "gtkTreeProps.ml" 291 13275 13278
+)
+"gtkTreeProps.ml" 271 12475 12486 "gtkTreeProps.ml" 271 12475 12487
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTreeProps.ml" 271 12475 12488 "gtkTreeProps.ml" 272 12521 12559
+)
+"gtkTreeProps.ml" 272 12521 12525 "gtkTreeProps.ml" 272 12521 12533
+type(
+  'a Gobject.obj -> string -> Gtk.cell_renderer_toggle Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTreeProps.ml" 272 12521 12534 "gtkTreeProps.ml" 272 12521 12535
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTreeProps.ml" 271 12475 12486 "gtkTreeProps.ml" 271 12475 12487
+)
+"gtkTreeProps.ml" 272 12521 12536 "gtkTreeProps.ml" 272 12521 12559
+type(
+  string
+)
+"gtkTreeProps.ml" 272 12521 12525 "gtkTreeProps.ml" 272 12521 12559
+call(
+  tail
+)
+type(
+  Gtk.cell_renderer_toggle Gtk.obj
+)
+type(
+  Gtk.cell_renderer_toggle Gtk.obj
+)
+"gtkTreeProps.ml" 274 12580 12588 "gtkTreeProps.ml" 274 12580 12599
+type(
+  ([> `cellrenderertoggle ], bool) Gobject.property
+)
+ident(
+  def activatable "gtkTreeProps.ml" 276 12681 12685 "gtkTreeProps.ml" 282 12964 12969
+)
+"gtkTreeProps.ml" 275 12640 12652 "gtkTreeProps.ml" 275 12640 12665
+type(
+  string
+)
+"gtkTreeProps.ml" 275 12640 12672 "gtkTreeProps.ml" 275 12640 12679
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 275 12640 12646 "gtkTreeProps.ml" 275 12640 12680
+type(
+  ([> `cellrenderertoggle ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkTreeProps.ml" 276 12681 12689 "gtkTreeProps.ml" 276 12681 12695
+type(
+  ([> `cellrenderertoggle ], bool) Gobject.property
+)
+ident(
+  def active "gtkTreeProps.ml" 278 12772 12776 "gtkTreeProps.ml" 282 12964 12969
+)
+"gtkTreeProps.ml" 277 12736 12748 "gtkTreeProps.ml" 277 12736 12756
+type(
+  string
+)
+"gtkTreeProps.ml" 277 12736 12763 "gtkTreeProps.ml" 277 12736 12770
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 277 12736 12742 "gtkTreeProps.ml" 277 12736 12771
+type(
+  ([> `cellrenderertoggle ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkTreeProps.ml" 278 12772 12780 "gtkTreeProps.ml" 278 12772 12792
+type(
+  ([> `cellrenderertoggle ], bool) Gobject.property
+)
+ident(
+  def inconsistent "gtkTreeProps.ml" 280 12875 12879 "gtkTreeProps.ml" 282 12964 12969
+)
+"gtkTreeProps.ml" 279 12833 12845 "gtkTreeProps.ml" 279 12833 12859
+type(
+  string
+)
+"gtkTreeProps.ml" 279 12833 12866 "gtkTreeProps.ml" 279 12833 12873
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 279 12833 12839 "gtkTreeProps.ml" 279 12833 12874
+type(
+  ([> `cellrenderertoggle ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkTreeProps.ml" 280 12875 12883 "gtkTreeProps.ml" 280 12875 12888
+type(
+  ([> `cellrenderertoggle ], bool) Gobject.property
+)
+ident(
+  def radio "gtkTreeProps.ml" 281 12929 12963 "gtkTreeProps.ml" 282 12964 12969
+)
+"gtkTreeProps.ml" 281 12929 12941 "gtkTreeProps.ml" 281 12929 12948
+type(
+  string
+)
+"gtkTreeProps.ml" 281 12929 12955 "gtkTreeProps.ml" 281 12929 12962
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 281 12929 12935 "gtkTreeProps.ml" 281 12929 12963
+type(
+  ([> `cellrenderertoggle ] as 'e, bool) Gobject.property
+)
+type(
+  ('e, bool) Gobject.property
+)
+"gtkTreeProps.ml" 285 13009 13017 "gtkTreeProps.ml" 285 13009 13024
+type(
+  ([> `cellrenderertoggle ], Gtk.tree_path -> unit) GtkSignal.t
+)
+ident(
+  def toggled "gtkTreeProps.ml" 287 13098 13176 "gtkTreeProps.ml" 288 13177 13182
+)
+"gtkTreeProps.ml" 286 13027 13039 "gtkTreeProps.ml" 286 13027 13048
+type(
+  string
+)
+"gtkTreeProps.ml" 286 13027 13057 "gtkTreeProps.ml" 286 13027 13076
+type(
+  [> `cellrenderertoggle ] as 'f
+)
+"gtkTreeProps.ml" 286 13027 13093 "gtkTreeProps.ml" 286 13027 13094
+type(
+  Gtk.tree_path -> unit
+)
+ident(
+  def f "gtkTreeProps.ml" 287 13098 13105 "gtkTreeProps.ml" 287 13098 13175
+)
+"gtkTreeProps.ml" 287 13098 13105 "gtkTreeProps.ml" 287 13098 13113
+type(
+  Gtk.tree_path Gobject.data_conv ->
+  string -> (Gtk.tree_path -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkTreeProps.ml" 287 13098 13114 "gtkTreeProps.ml" 287 13098 13115
+type(
+  Gtk.tree_path Gobject.data_conv ref -> Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkTreeProps.ml" 287 13098 13115 "gtkTreeProps.ml" 287 13098 13140
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Internal.tree_path_string
+)
+"gtkTreeProps.ml" 287 13098 13114 "gtkTreeProps.ml" 287 13098 13140
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+"gtkTreeProps.ml" 287 13098 13141 "gtkTreeProps.ml" 287 13098 13173
+type(
+  string
+)
+"gtkTreeProps.ml" 287 13098 13174 "gtkTreeProps.ml" 287 13098 13175
+type(
+  Gtk.tree_path -> unit
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 286 13027 13093 "gtkTreeProps.ml" 286 13027 13094
+)
+"gtkTreeProps.ml" 287 13098 13105 "gtkTreeProps.ml" 287 13098 13175
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 286 13027 13089 "gtkTreeProps.ml" 287 13098 13175
+type(
+  (Gtk.tree_path -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 286 13027 13033 "gtkTreeProps.ml" 287 13098 13176
+type(
+  ('f, Gtk.tree_path -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 289 13183 13189 "gtkTreeProps.ml" 289 13183 13195
+type(
+  Gtk.cell_renderer_toggle Gobject.param list ->
+  Gtk.cell_renderer_toggle Gtk.obj
+)
+ident(
+  def create "gtkTreeProps.ml" 290 13232 13274 "gtkTreeProps.ml" 291 13275 13278
+)
+"gtkTreeProps.ml" 289 13183 13196 "gtkTreeProps.ml" 289 13183 13198
+type(
+  Gtk.cell_renderer_toggle Gobject.param list
+)
+ident(
+  def pl "gtkTreeProps.ml" 289 13183 13199 "gtkTreeProps.ml" 290 13232 13274
+)
+"gtkTreeProps.ml" 290 13232 13236 "gtkTreeProps.ml" 290 13232 13247
+type(
+  classe:string ->
+  Gtk.cell_renderer_toggle Gobject.param list ->
+  Gtk.cell_renderer_toggle Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkTreeProps.ml" 290 13232 13248 "gtkTreeProps.ml" 290 13232 13271
+type(
+  string
+)
+"gtkTreeProps.ml" 290 13232 13272 "gtkTreeProps.ml" 290 13232 13274
+type(
+  Gtk.cell_renderer_toggle Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 289 13183 13196 "gtkTreeProps.ml" 289 13183 13198
+)
+"gtkTreeProps.ml" 290 13232 13236 "gtkTreeProps.ml" 290 13232 13274
+call(
+  tail
+)
+type(
+  Gtk.cell_renderer_toggle Gtk.obj
+)
+type(
+  Gtk.cell_renderer_toggle Gtk.obj
+)
+"gtkTreeProps.ml" 294 13317 13323 "gtkTreeProps.ml" 294 13317 13327
+type(
+  'a Gobject.obj -> Gtk.cell_renderer_progress Gtk.obj
+)
+ident(
+  def cast "gtkTreeProps.ml" 296 13406 13408 "gtkTreeProps.ml" 304 13710 13713
+)
+"gtkTreeProps.ml" 294 13317 13328 "gtkTreeProps.ml" 294 13317 13329
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTreeProps.ml" 294 13317 13330 "gtkTreeProps.ml" 295 13365 13405
+)
+"gtkTreeProps.ml" 295 13365 13369 "gtkTreeProps.ml" 295 13365 13377
+type(
+  'a Gobject.obj -> string -> Gtk.cell_renderer_progress Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTreeProps.ml" 295 13365 13378 "gtkTreeProps.ml" 295 13365 13379
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTreeProps.ml" 294 13317 13328 "gtkTreeProps.ml" 294 13317 13329
+)
+"gtkTreeProps.ml" 295 13365 13380 "gtkTreeProps.ml" 295 13365 13405
+type(
+  string
+)
+"gtkTreeProps.ml" 295 13365 13369 "gtkTreeProps.ml" 295 13365 13405
+call(
+  tail
+)
+type(
+  Gtk.cell_renderer_progress Gtk.obj
+)
+type(
+  Gtk.cell_renderer_progress Gtk.obj
+)
+"gtkTreeProps.ml" 297 13426 13434 "gtkTreeProps.ml" 297 13426 13439
+type(
+  ([> `cellrendererprogress ], int) Gobject.property
+)
+ident(
+  def value "gtkTreeProps.ml" 299 13513 13517 "gtkTreeProps.ml" 301 13608 13613
+)
+"gtkTreeProps.ml" 298 13482 13494 "gtkTreeProps.ml" 298 13482 13501
+type(
+  string
+)
+"gtkTreeProps.ml" 298 13482 13508 "gtkTreeProps.ml" 298 13482 13511
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 298 13482 13488 "gtkTreeProps.ml" 298 13482 13512
+type(
+  ([> `cellrendererprogress ] as 'b, int) Gobject.property
+)
+type(
+  ('b, int) Gobject.property
+)
+"gtkTreeProps.ml" 299 13513 13521 "gtkTreeProps.ml" 299 13513 13525
+type(
+  ([> `cellrendererprogress ], string option) Gobject.property
+)
+ident(
+  def text "gtkTreeProps.ml" 300 13568 13607 "gtkTreeProps.ml" 301 13608 13613
+)
+"gtkTreeProps.ml" 300 13568 13580 "gtkTreeProps.ml" 300 13568 13586
+type(
+  string
+)
+"gtkTreeProps.ml" 300 13568 13593 "gtkTreeProps.ml" 300 13568 13606
+type(
+  string option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string_option
+)
+"gtkTreeProps.ml" 300 13568 13574 "gtkTreeProps.ml" 300 13568 13607
+type(
+  ([> `cellrendererprogress ] as 'c, string option) Gobject.property
+)
+type(
+  ('c, string option) Gobject.property
+)
+"gtkTreeProps.ml" 302 13614 13620 "gtkTreeProps.ml" 302 13614 13626
+type(
+  Gtk.cell_renderer_progress Gobject.param list ->
+  Gtk.cell_renderer_progress Gtk.obj
+)
+ident(
+  def create "gtkTreeProps.ml" 303 13665 13709 "gtkTreeProps.ml" 304 13710 13713
+)
+"gtkTreeProps.ml" 302 13614 13627 "gtkTreeProps.ml" 302 13614 13629
+type(
+  Gtk.cell_renderer_progress Gobject.param list
+)
+ident(
+  def pl "gtkTreeProps.ml" 302 13614 13630 "gtkTreeProps.ml" 303 13665 13709
+)
+"gtkTreeProps.ml" 303 13665 13669 "gtkTreeProps.ml" 303 13665 13680
+type(
+  classe:string ->
+  Gtk.cell_renderer_progress Gobject.param list ->
+  Gtk.cell_renderer_progress Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkTreeProps.ml" 303 13665 13681 "gtkTreeProps.ml" 303 13665 13706
+type(
+  string
+)
+"gtkTreeProps.ml" 303 13665 13707 "gtkTreeProps.ml" 303 13665 13709
+type(
+  Gtk.cell_renderer_progress Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 302 13614 13627 "gtkTreeProps.ml" 302 13614 13629
+)
+"gtkTreeProps.ml" 303 13665 13669 "gtkTreeProps.ml" 303 13665 13709
+call(
+  tail
+)
+type(
+  Gtk.cell_renderer_progress Gtk.obj
+)
+type(
+  Gtk.cell_renderer_progress Gtk.obj
+)
+"gtkTreeProps.ml" 307 13749 13755 "gtkTreeProps.ml" 307 13749 13759
+type(
+  'a Gobject.obj -> Gtk.cell_renderer_combo Gtk.obj
+)
+ident(
+  def cast "gtkTreeProps.ml" 309 13832 13834 "gtkTreeProps.ml" 326 14484 14487
+)
+"gtkTreeProps.ml" 307 13749 13760 "gtkTreeProps.ml" 307 13749 13761
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTreeProps.ml" 307 13749 13762 "gtkTreeProps.ml" 308 13794 13831
+)
+"gtkTreeProps.ml" 308 13794 13798 "gtkTreeProps.ml" 308 13794 13806
+type(
+  'a Gobject.obj -> string -> Gtk.cell_renderer_combo Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTreeProps.ml" 308 13794 13807 "gtkTreeProps.ml" 308 13794 13808
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTreeProps.ml" 307 13749 13760 "gtkTreeProps.ml" 307 13749 13761
+)
+"gtkTreeProps.ml" 308 13794 13809 "gtkTreeProps.ml" 308 13794 13831
+type(
+  string
+)
+"gtkTreeProps.ml" 308 13794 13798 "gtkTreeProps.ml" 308 13794 13831
+call(
+  tail
+)
+type(
+  Gtk.cell_renderer_combo Gtk.obj
+)
+type(
+  Gtk.cell_renderer_combo Gtk.obj
+)
+"gtkTreeProps.ml" 310 13852 13860 "gtkTreeProps.ml" 310 13852 13865
+type(
+  ([> `cellrenderercombo ], Gtk.tree_model option) Gobject.property
+)
+ident(
+  def model "gtkTreeProps.ml" 311 13924 13928 "gtkTreeProps.ml" 315 14116 14121
+)
+"gtkTreeProps.ml" 310 13852 13905 "gtkTreeProps.ml" 310 13852 13923
+type(
+  ([> `cellrenderercombo ] as 'b, Gtk.tree_model option) Gobject.property
+)
+type(
+  ('b, Gtk.tree_model option) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.model
+)
+"gtkTreeProps.ml" 311 13924 13932 "gtkTreeProps.ml" 311 13924 13943
+type(
+  ([> `cellrenderercombo ], int) Gobject.property
+)
+ident(
+  def text_column "gtkTreeProps.ml" 313 14020 14024 "gtkTreeProps.ml" 315 14116 14121
+)
+"gtkTreeProps.ml" 312 13983 13995 "gtkTreeProps.ml" 312 13983 14008
+type(
+  string
+)
+"gtkTreeProps.ml" 312 13983 14015 "gtkTreeProps.ml" 312 13983 14018
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 312 13983 13989 "gtkTreeProps.ml" 312 13983 14019
+type(
+  ([> `cellrenderercombo ] as 'c, int) Gobject.property
+)
+type(
+  ('c, int) Gobject.property
+)
+"gtkTreeProps.ml" 313 14020 14028 "gtkTreeProps.ml" 313 14020 14037
+type(
+  ([> `cellrenderercombo ], bool) Gobject.property
+)
+ident(
+  def has_entry "gtkTreeProps.ml" 314 14077 14115 "gtkTreeProps.ml" 315 14116 14121
+)
+"gtkTreeProps.ml" 314 14077 14089 "gtkTreeProps.ml" 314 14077 14100
+type(
+  string
+)
+"gtkTreeProps.ml" 314 14077 14107 "gtkTreeProps.ml" 314 14077 14114
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 314 14077 14083 "gtkTreeProps.ml" 314 14077 14115
+type(
+  ([> `cellrenderercombo ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkTreeProps.ml" 318 14161 14169 "gtkTreeProps.ml" 318 14161 14176
+type(
+  ([> `cellrenderercombo ], Gtk.tree_path -> Gtk.tree_iter -> unit)
+  GtkSignal.t
+)
+ident(
+  def changed "gtkTreeProps.ml" 322 14344 14387 "gtkTreeProps.ml" 323 14388 14393
+)
+"gtkTreeProps.ml" 319 14179 14191 "gtkTreeProps.ml" 319 14179 14200
+type(
+  string
+)
+"gtkTreeProps.ml" 319 14179 14209 "gtkTreeProps.ml" 319 14179 14227
+type(
+  [> `cellrenderercombo ] as 'e
+)
+"gtkTreeProps.ml" 319 14179 14244 "gtkTreeProps.ml" 319 14179 14245
+type(
+  Gtk.tree_path -> Gtk.tree_iter -> unit
+)
+ident(
+  def f "gtkTreeProps.ml" 320 14249 14256 "gtkTreeProps.ml" 322 14344 14386
+)
+"gtkTreeProps.ml" 320 14249 14256 "gtkTreeProps.ml" 320 14249 14264
+type(
+  Gtk.tree_path Gobject.data_conv ->
+  Gtk.tree_iter Gobject.data_conv ->
+  string -> (Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTreeProps.ml" 320 14249 14265 "gtkTreeProps.ml" 320 14249 14266
+type(
+  Gtk.tree_path Gobject.data_conv ref -> Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkTreeProps.ml" 320 14249 14266 "gtkTreeProps.ml" 320 14249 14291
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Internal.tree_path_string
+)
+"gtkTreeProps.ml" 320 14249 14265 "gtkTreeProps.ml" 320 14249 14291
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+"gtkTreeProps.ml" 321 14292 14302 "gtkTreeProps.ml" 321 14292 14316
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 322 14344 14353 "gtkTreeProps.ml" 322 14344 14384
+type(
+  string
+)
+"gtkTreeProps.ml" 322 14344 14385 "gtkTreeProps.ml" 322 14344 14386
+type(
+  Gtk.tree_path -> Gtk.tree_iter -> unit
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 319 14179 14244 "gtkTreeProps.ml" 319 14179 14245
+)
+"gtkTreeProps.ml" 320 14249 14256 "gtkTreeProps.ml" 322 14344 14386
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 319 14179 14240 "gtkTreeProps.ml" 322 14344 14386
+type(
+  (Gtk.tree_path -> Gtk.tree_iter -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 319 14179 14185 "gtkTreeProps.ml" 322 14344 14387
+type(
+  ('e, Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 324 14394 14400 "gtkTreeProps.ml" 324 14394 14406
+type(
+  Gtk.cell_renderer_combo Gobject.param list ->
+  Gtk.cell_renderer_combo Gtk.obj
+)
+ident(
+  def create "gtkTreeProps.ml" 325 14442 14483 "gtkTreeProps.ml" 326 14484 14487
+)
+"gtkTreeProps.ml" 324 14394 14407 "gtkTreeProps.ml" 324 14394 14409
+type(
+  Gtk.cell_renderer_combo Gobject.param list
+)
+ident(
+  def pl "gtkTreeProps.ml" 324 14394 14410 "gtkTreeProps.ml" 325 14442 14483
+)
+"gtkTreeProps.ml" 325 14442 14446 "gtkTreeProps.ml" 325 14442 14457
+type(
+  classe:string ->
+  Gtk.cell_renderer_combo Gobject.param list ->
+  Gtk.cell_renderer_combo Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkTreeProps.ml" 325 14442 14458 "gtkTreeProps.ml" 325 14442 14480
+type(
+  string
+)
+"gtkTreeProps.ml" 325 14442 14481 "gtkTreeProps.ml" 325 14442 14483
+type(
+  Gtk.cell_renderer_combo Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 324 14394 14407 "gtkTreeProps.ml" 324 14394 14409
+)
+"gtkTreeProps.ml" 325 14442 14446 "gtkTreeProps.ml" 325 14442 14483
+call(
+  tail
+)
+type(
+  Gtk.cell_renderer_combo Gtk.obj
+)
+type(
+  Gtk.cell_renderer_combo Gtk.obj
+)
+"gtkTreeProps.ml" 329 14523 14529 "gtkTreeProps.ml" 329 14523 14533
+type(
+  'a Gobject.obj -> Gtk.cell_renderer_accel Gtk.obj
+)
+ident(
+  def cast "gtkTreeProps.ml" 331 14606 14608 "gtkTreeProps.ml" 356 15659 15662
+)
+"gtkTreeProps.ml" 329 14523 14534 "gtkTreeProps.ml" 329 14523 14535
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTreeProps.ml" 329 14523 14536 "gtkTreeProps.ml" 330 14568 14605
+)
+"gtkTreeProps.ml" 330 14568 14572 "gtkTreeProps.ml" 330 14568 14580
+type(
+  'a Gobject.obj -> string -> Gtk.cell_renderer_accel Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTreeProps.ml" 330 14568 14581 "gtkTreeProps.ml" 330 14568 14582
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTreeProps.ml" 329 14523 14534 "gtkTreeProps.ml" 329 14523 14535
+)
+"gtkTreeProps.ml" 330 14568 14583 "gtkTreeProps.ml" 330 14568 14605
+type(
+  string
+)
+"gtkTreeProps.ml" 330 14568 14572 "gtkTreeProps.ml" 330 14568 14605
+call(
+  tail
+)
+type(
+  Gtk.cell_renderer_accel Gtk.obj
+)
+type(
+  Gtk.cell_renderer_accel Gtk.obj
+)
+"gtkTreeProps.ml" 332 14626 14634 "gtkTreeProps.ml" 332 14626 14643
+type(
+  ([> `cellrendereraccel ], int) Gobject.property
+)
+ident(
+  def accel_key "gtkTreeProps.ml" 334 14718 14722 "gtkTreeProps.ml" 340 15029 15034
+)
+"gtkTreeProps.ml" 333 14683 14695 "gtkTreeProps.ml" 333 14683 14706
+type(
+  string
+)
+"gtkTreeProps.ml" 333 14683 14713 "gtkTreeProps.ml" 333 14683 14716
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 333 14683 14689 "gtkTreeProps.ml" 333 14683 14717
+type(
+  ([> `cellrendereraccel ] as 'b, int) Gobject.property
+)
+type(
+  ('b, int) Gobject.property
+)
+"gtkTreeProps.ml" 334 14718 14726 "gtkTreeProps.ml" 334 14718 14736
+type(
+  ([> `cellrendereraccel ], GtkEnums.cell_renderer_accel_mode)
+  Gobject.property
+)
+ident(
+  def accel_mode "gtkTreeProps.ml" 336 14847 14851 "gtkTreeProps.ml" 340 15029 15034
+)
+"gtkTreeProps.ml" 335 14776 14788 "gtkTreeProps.ml" 335 14776 14800
+type(
+  string
+)
+"gtkTreeProps.ml" 335 14776 14807 "gtkTreeProps.ml" 335 14776 14845
+type(
+  GtkEnums.cell_renderer_accel_mode Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.cell_renderer_accel_mode_conv
+)
+"gtkTreeProps.ml" 335 14776 14782 "gtkTreeProps.ml" 335 14776 14846
+type(
+  ([> `cellrendereraccel ] as 'c, GtkEnums.cell_renderer_accel_mode)
+  Gobject.property
+)
+type(
+  ('c, GtkEnums.cell_renderer_accel_mode) Gobject.property
+)
+"gtkTreeProps.ml" 336 14847 14855 "gtkTreeProps.ml" 336 14847 14865
+type(
+  ([> `cellrendereraccel ], int) Gobject.property
+)
+ident(
+  def accel_mods "gtkTreeProps.ml" 338 14941 14945 "gtkTreeProps.ml" 340 15029 15034
+)
+"gtkTreeProps.ml" 337 14905 14917 "gtkTreeProps.ml" 337 14905 14929
+type(
+  string
+)
+"gtkTreeProps.ml" 337 14905 14936 "gtkTreeProps.ml" 337 14905 14939
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 337 14905 14911 "gtkTreeProps.ml" 337 14905 14940
+type(
+  ([> `cellrendereraccel ] as 'd, int) Gobject.property
+)
+type(
+  ('d, int) Gobject.property
+)
+"gtkTreeProps.ml" 338 14941 14949 "gtkTreeProps.ml" 338 14941 14956
+type(
+  ([> `cellrendereraccel ], int) Gobject.property
+)
+ident(
+  def keycode "gtkTreeProps.ml" 339 14996 15028 "gtkTreeProps.ml" 340 15029 15034
+)
+"gtkTreeProps.ml" 339 14996 15008 "gtkTreeProps.ml" 339 14996 15017
+type(
+  string
+)
+"gtkTreeProps.ml" 339 14996 15024 "gtkTreeProps.ml" 339 14996 15027
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 339 14996 15002 "gtkTreeProps.ml" 339 14996 15028
+type(
+  ([> `cellrendereraccel ] as 'e, int) Gobject.property
+)
+type(
+  ('e, int) Gobject.property
+)
+"gtkTreeProps.ml" 343 15074 15082 "gtkTreeProps.ml" 343 15074 15095
+type(
+  ([> `cellrendereraccel ], Gtk.tree_path -> unit) GtkSignal.t
+)
+ident(
+  def accel_cleared "gtkTreeProps.ml" 347 15267 15271 "gtkTreeProps.ml" 353 15563 15568
+)
+"gtkTreeProps.ml" 344 15098 15110 "gtkTreeProps.ml" 344 15098 15125
+type(
+  string
+)
+"gtkTreeProps.ml" 344 15098 15134 "gtkTreeProps.ml" 344 15098 15152
+type(
+  [> `cellrendereraccel ] as 'f
+)
+"gtkTreeProps.ml" 344 15098 15169 "gtkTreeProps.ml" 344 15098 15170
+type(
+  Gtk.tree_path -> unit
+)
+ident(
+  def f "gtkTreeProps.ml" 345 15174 15181 "gtkTreeProps.ml" 346 15217 15265
+)
+"gtkTreeProps.ml" 345 15174 15181 "gtkTreeProps.ml" 345 15174 15189
+type(
+  Gtk.tree_path Gobject.data_conv ->
+  string -> (Gtk.tree_path -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkTreeProps.ml" 345 15174 15190 "gtkTreeProps.ml" 345 15174 15191
+type(
+  Gtk.tree_path Gobject.data_conv ref -> Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkTreeProps.ml" 345 15174 15191 "gtkTreeProps.ml" 345 15174 15216
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Internal.tree_path_string
+)
+"gtkTreeProps.ml" 345 15174 15190 "gtkTreeProps.ml" 345 15174 15216
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+"gtkTreeProps.ml" 346 15217 15226 "gtkTreeProps.ml" 346 15217 15263
+type(
+  string
+)
+"gtkTreeProps.ml" 346 15217 15264 "gtkTreeProps.ml" 346 15217 15265
+type(
+  Gtk.tree_path -> unit
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 344 15098 15169 "gtkTreeProps.ml" 344 15098 15170
+)
+"gtkTreeProps.ml" 345 15174 15181 "gtkTreeProps.ml" 346 15217 15265
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 344 15098 15165 "gtkTreeProps.ml" 346 15217 15265
+type(
+  (Gtk.tree_path -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 344 15098 15104 "gtkTreeProps.ml" 346 15217 15266
+type(
+  ('f, Gtk.tree_path -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 347 15267 15275 "gtkTreeProps.ml" 347 15267 15287
+type(
+  ([> `cellrendereraccel ],
+   Gtk.tree_path ->
+   accel_key:int -> accel_mods:int -> hardware_keycode:int -> unit)
+  GtkSignal.t
+)
+ident(
+  def accel_edited "gtkTreeProps.ml" 352 15529 15562 "gtkTreeProps.ml" 353 15563 15568
+)
+"gtkTreeProps.ml" 348 15290 15302 "gtkTreeProps.ml" 348 15290 15316
+type(
+  string
+)
+"gtkTreeProps.ml" 348 15290 15325 "gtkTreeProps.ml" 348 15290 15343
+type(
+  [> `cellrendereraccel ] as 'g
+)
+"gtkTreeProps.ml" 348 15290 15360 "gtkTreeProps.ml" 348 15290 15361
+type(
+  Gtk.tree_path ->
+  accel_key:int -> accel_mods:int -> hardware_keycode:int -> unit
+)
+ident(
+  def f "gtkTreeProps.ml" 349 15365 15372 "gtkTreeProps.ml" 352 15529 15561
+)
+"gtkTreeProps.ml" 349 15365 15372 "gtkTreeProps.ml" 349 15365 15380
+type(
+  Gtk.tree_path Gobject.data_conv ->
+  int Gobject.data_conv ->
+  int Gobject.data_conv ->
+  int Gobject.data_conv ->
+  string -> (Gtk.tree_path -> int -> int -> int -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal4
+)
+"gtkTreeProps.ml" 349 15365 15381 "gtkTreeProps.ml" 349 15365 15382
+type(
+  Gtk.tree_path Gobject.data_conv ref -> Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkTreeProps.ml" 349 15365 15382 "gtkTreeProps.ml" 349 15365 15407
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Internal.tree_path_string
+)
+"gtkTreeProps.ml" 349 15365 15381 "gtkTreeProps.ml" 349 15365 15407
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+"gtkTreeProps.ml" 349 15365 15408 "gtkTreeProps.ml" 349 15365 15411
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 349 15365 15412 "gtkTreeProps.ml" 349 15365 15415
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 349 15365 15416 "gtkTreeProps.ml" 349 15365 15419
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 350 15420 15429 "gtkTreeProps.ml" 350 15420 15465
+type(
+  string
+)
+"gtkTreeProps.ml" 351 15466 15480 "gtkTreeProps.ml" 351 15466 15482
+type(
+  Gtk.tree_path
+)
+ident(
+  def x1 "gtkTreeProps.ml" 351 15466 15483 "gtkTreeProps.ml" 352 15529 15560
+)
+"gtkTreeProps.ml" 351 15466 15483 "gtkTreeProps.ml" 351 15466 15485
+type(
+  int
+)
+ident(
+  def x2 "gtkTreeProps.ml" 351 15466 15486 "gtkTreeProps.ml" 352 15529 15560
+)
+"gtkTreeProps.ml" 351 15466 15486 "gtkTreeProps.ml" 351 15466 15488
+type(
+  int
+)
+ident(
+  def x3 "gtkTreeProps.ml" 351 15466 15489 "gtkTreeProps.ml" 352 15529 15560
+)
+"gtkTreeProps.ml" 351 15466 15489 "gtkTreeProps.ml" 351 15466 15491
+type(
+  int
+)
+ident(
+  def x4 "gtkTreeProps.ml" 351 15466 15495 "gtkTreeProps.ml" 352 15529 15560
+)
+"gtkTreeProps.ml" 351 15466 15495 "gtkTreeProps.ml" 351 15466 15496
+type(
+  Gtk.tree_path ->
+  accel_key:int -> accel_mods:int -> hardware_keycode:int -> unit
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 348 15290 15360 "gtkTreeProps.ml" 348 15290 15361
+)
+"gtkTreeProps.ml" 351 15466 15497 "gtkTreeProps.ml" 351 15466 15499
+type(
+  Gtk.tree_path
+)
+ident(
+  int_ref x1 "gtkTreeProps.ml" 351 15466 15480 "gtkTreeProps.ml" 351 15466 15482
+)
+"gtkTreeProps.ml" 351 15466 15511 "gtkTreeProps.ml" 351 15466 15513
+type(
+  int
+)
+ident(
+  int_ref x2 "gtkTreeProps.ml" 351 15466 15483 "gtkTreeProps.ml" 351 15466 15485
+)
+"gtkTreeProps.ml" 351 15466 15526 "gtkTreeProps.ml" 351 15466 15528
+type(
+  int
+)
+ident(
+  int_ref x3 "gtkTreeProps.ml" 351 15466 15486 "gtkTreeProps.ml" 351 15466 15488
+)
+"gtkTreeProps.ml" 352 15529 15558 "gtkTreeProps.ml" 352 15529 15560
+type(
+  int
+)
+ident(
+  int_ref x4 "gtkTreeProps.ml" 351 15466 15489 "gtkTreeProps.ml" 351 15466 15491
+)
+"gtkTreeProps.ml" 351 15466 15495 "gtkTreeProps.ml" 352 15529 15560
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkTreeProps.ml" 351 15466 15475 "gtkTreeProps.ml" 352 15529 15561
+type(
+  Gtk.tree_path -> int -> int -> int -> unit
+)
+"gtkTreeProps.ml" 349 15365 15372 "gtkTreeProps.ml" 352 15529 15561
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 348 15290 15356 "gtkTreeProps.ml" 352 15529 15561
+type(
+  (Gtk.tree_path ->
+   accel_key:int -> accel_mods:int -> hardware_keycode:int -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 348 15290 15296 "gtkTreeProps.ml" 352 15529 15562
+type(
+  ('g,
+   Gtk.tree_path ->
+   accel_key:int -> accel_mods:int -> hardware_keycode:int -> unit)
+  GtkSignal.t
+)
+"gtkTreeProps.ml" 354 15569 15575 "gtkTreeProps.ml" 354 15569 15581
+type(
+  Gtk.cell_renderer_accel Gobject.param list ->
+  Gtk.cell_renderer_accel Gtk.obj
+)
+ident(
+  def create "gtkTreeProps.ml" 355 15617 15658 "gtkTreeProps.ml" 356 15659 15662
+)
+"gtkTreeProps.ml" 354 15569 15582 "gtkTreeProps.ml" 354 15569 15584
+type(
+  Gtk.cell_renderer_accel Gobject.param list
+)
+ident(
+  def pl "gtkTreeProps.ml" 354 15569 15585 "gtkTreeProps.ml" 355 15617 15658
+)
+"gtkTreeProps.ml" 355 15617 15621 "gtkTreeProps.ml" 355 15617 15632
+type(
+  classe:string ->
+  Gtk.cell_renderer_accel Gobject.param list ->
+  Gtk.cell_renderer_accel Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkTreeProps.ml" 355 15617 15633 "gtkTreeProps.ml" 355 15617 15655
+type(
+  string
+)
+"gtkTreeProps.ml" 355 15617 15656 "gtkTreeProps.ml" 355 15617 15658
+type(
+  Gtk.cell_renderer_accel Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 354 15569 15582 "gtkTreeProps.ml" 354 15569 15584
+)
+"gtkTreeProps.ml" 355 15617 15621 "gtkTreeProps.ml" 355 15617 15658
+call(
+  tail
+)
+type(
+  Gtk.cell_renderer_accel Gtk.obj
+)
+type(
+  Gtk.cell_renderer_accel Gtk.obj
+)
+"gtkTreeProps.ml" 359 15691 15697 "gtkTreeProps.ml" 359 15691 15701
+type(
+  'a Gobject.obj -> Gtk.cell_layout Gtk.obj
+)
+ident(
+  def cast "gtkTreeProps.ml" 360 15755 15757 "gtkTreeProps.ml" 380 16694 16697
+)
+"gtkTreeProps.ml" 359 15691 15702 "gtkTreeProps.ml" 359 15691 15703
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTreeProps.ml" 359 15691 15704 "gtkTreeProps.ml" 359 15691 15754
+)
+"gtkTreeProps.ml" 359 15691 15728 "gtkTreeProps.ml" 359 15691 15736
+type(
+  'a Gobject.obj -> string -> Gtk.cell_layout Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTreeProps.ml" 359 15691 15737 "gtkTreeProps.ml" 359 15691 15738
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTreeProps.ml" 359 15691 15702 "gtkTreeProps.ml" 359 15691 15703
+)
+"gtkTreeProps.ml" 359 15691 15739 "gtkTreeProps.ml" 359 15691 15754
+type(
+  string
+)
+"gtkTreeProps.ml" 359 15691 15728 "gtkTreeProps.ml" 359 15691 15754
+call(
+  tail
+)
+type(
+  Gtk.cell_layout Gtk.obj
+)
+type(
+  Gtk.cell_layout Gtk.obj
+)
+"gtkTreeProps.ml" 383 16730 16736 "gtkTreeProps.ml" 383 16730 16740
+type(
+  'a Gobject.obj -> Gtk.tree_view_column Gtk.obj
+)
+ident(
+  def cast "gtkTreeProps.ml" 384 16803 16805 "gtkTreeProps.ml" 418 18365 18368
+)
+"gtkTreeProps.ml" 383 16730 16741 "gtkTreeProps.ml" 383 16730 16742
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTreeProps.ml" 383 16730 16743 "gtkTreeProps.ml" 383 16730 16802
+)
+"gtkTreeProps.ml" 383 16730 16772 "gtkTreeProps.ml" 383 16730 16780
+type(
+  'a Gobject.obj -> string -> Gtk.tree_view_column Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTreeProps.ml" 383 16730 16781 "gtkTreeProps.ml" 383 16730 16782
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTreeProps.ml" 383 16730 16741 "gtkTreeProps.ml" 383 16730 16742
+)
+"gtkTreeProps.ml" 383 16730 16783 "gtkTreeProps.ml" 383 16730 16802
+type(
+  string
+)
+"gtkTreeProps.ml" 383 16730 16772 "gtkTreeProps.ml" 383 16730 16802
+call(
+  tail
+)
+type(
+  Gtk.tree_view_column Gtk.obj
+)
+type(
+  Gtk.tree_view_column Gtk.obj
+)
+"gtkTreeProps.ml" 385 16823 16831 "gtkTreeProps.ml" 385 16823 16840
+type(
+  ([> `treeviewcolumn ], float) Gobject.property
+)
+ident(
+  def alignment "gtkTreeProps.ml" 387 16914 16918 "gtkTreeProps.ml" 410 18140 18145
+)
+"gtkTreeProps.ml" 386 16877 16889 "gtkTreeProps.ml" 386 16877 16900
+type(
+  string
+)
+"gtkTreeProps.ml" 386 16877 16907 "gtkTreeProps.ml" 386 16877 16912
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkTreeProps.ml" 386 16877 16883 "gtkTreeProps.ml" 386 16877 16913
+type(
+  ([> `treeviewcolumn ] as 'b, float) Gobject.property
+)
+type(
+  ('b, float) Gobject.property
+)
+"gtkTreeProps.ml" 387 16914 16922 "gtkTreeProps.ml" 387 16914 16931
+type(
+  ([> `treeviewcolumn ], bool) Gobject.property
+)
+ident(
+  def clickable "gtkTreeProps.ml" 389 17007 17011 "gtkTreeProps.ml" 410 18140 18145
+)
+"gtkTreeProps.ml" 388 16968 16980 "gtkTreeProps.ml" 388 16968 16991
+type(
+  string
+)
+"gtkTreeProps.ml" 388 16968 16998 "gtkTreeProps.ml" 388 16968 17005
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 388 16968 16974 "gtkTreeProps.ml" 388 16968 17006
+type(
+  ([> `treeviewcolumn ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkTreeProps.ml" 389 17007 17015 "gtkTreeProps.ml" 389 17007 17026
+type(
+  ([> `treeviewcolumn ], int) Gobject.property
+)
+ident(
+  def fixed_width "gtkTreeProps.ml" 391 17100 17104 "gtkTreeProps.ml" 410 18140 18145
+)
+"gtkTreeProps.ml" 390 17063 17075 "gtkTreeProps.ml" 390 17063 17088
+type(
+  string
+)
+"gtkTreeProps.ml" 390 17063 17095 "gtkTreeProps.ml" 390 17063 17098
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 390 17063 17069 "gtkTreeProps.ml" 390 17063 17099
+type(
+  ([> `treeviewcolumn ] as 'd, int) Gobject.property
+)
+type(
+  ('d, int) Gobject.property
+)
+"gtkTreeProps.ml" 391 17100 17108 "gtkTreeProps.ml" 391 17100 17117
+type(
+  ([> `treeviewcolumn ], int) Gobject.property
+)
+ident(
+  def max_width "gtkTreeProps.ml" 393 17189 17193 "gtkTreeProps.ml" 410 18140 18145
+)
+"gtkTreeProps.ml" 392 17154 17166 "gtkTreeProps.ml" 392 17154 17177
+type(
+  string
+)
+"gtkTreeProps.ml" 392 17154 17184 "gtkTreeProps.ml" 392 17154 17187
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 392 17154 17160 "gtkTreeProps.ml" 392 17154 17188
+type(
+  ([> `treeviewcolumn ] as 'e, int) Gobject.property
+)
+type(
+  ('e, int) Gobject.property
+)
+"gtkTreeProps.ml" 393 17189 17197 "gtkTreeProps.ml" 393 17189 17206
+type(
+  ([> `treeviewcolumn ], int) Gobject.property
+)
+ident(
+  def min_width "gtkTreeProps.ml" 395 17278 17282 "gtkTreeProps.ml" 410 18140 18145
+)
+"gtkTreeProps.ml" 394 17243 17255 "gtkTreeProps.ml" 394 17243 17266
+type(
+  string
+)
+"gtkTreeProps.ml" 394 17243 17273 "gtkTreeProps.ml" 394 17243 17276
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 394 17243 17249 "gtkTreeProps.ml" 394 17243 17277
+type(
+  ([> `treeviewcolumn ] as 'f, int) Gobject.property
+)
+type(
+  ('f, int) Gobject.property
+)
+"gtkTreeProps.ml" 395 17278 17286 "gtkTreeProps.ml" 395 17278 17297
+type(
+  ([> `treeviewcolumn ], bool) Gobject.property
+)
+ident(
+  def reorderable "gtkTreeProps.ml" 396 17359 17363 "gtkTreeProps.ml" 410 18140 18145
+)
+"gtkTreeProps.ml" 395 17278 17334 "gtkTreeProps.ml" 395 17278 17358
+type(
+  ([> `treeviewcolumn ] as 'g, bool) Gobject.property
+)
+type(
+  ('g, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.reorderable
+)
+"gtkTreeProps.ml" 396 17359 17367 "gtkTreeProps.ml" 396 17359 17376
+type(
+  ([> `treeviewcolumn ], bool) Gobject.property
+)
+ident(
+  def resizable "gtkTreeProps.ml" 398 17452 17456 "gtkTreeProps.ml" 410 18140 18145
+)
+"gtkTreeProps.ml" 397 17413 17425 "gtkTreeProps.ml" 397 17413 17436
+type(
+  string
+)
+"gtkTreeProps.ml" 397 17413 17443 "gtkTreeProps.ml" 397 17413 17450
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 397 17413 17419 "gtkTreeProps.ml" 397 17413 17451
+type(
+  ([> `treeviewcolumn ] as 'h, bool) Gobject.property
+)
+type(
+  ('h, bool) Gobject.property
+)
+"gtkTreeProps.ml" 398 17452 17460 "gtkTreeProps.ml" 398 17452 17466
+type(
+  ([> `treeviewcolumn ], GtkEnums.tree_view_column_sizing) Gobject.property
+)
+ident(
+  def sizing "gtkTreeProps.ml" 400 17569 17573 "gtkTreeProps.ml" 410 18140 18145
+)
+"gtkTreeProps.ml" 399 17503 17515 "gtkTreeProps.ml" 399 17503 17523
+type(
+  string
+)
+"gtkTreeProps.ml" 399 17503 17530 "gtkTreeProps.ml" 399 17503 17567
+type(
+  GtkEnums.tree_view_column_sizing Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.tree_view_column_sizing_conv
+)
+"gtkTreeProps.ml" 399 17503 17509 "gtkTreeProps.ml" 399 17503 17568
+type(
+  ([> `treeviewcolumn ] as 'i, GtkEnums.tree_view_column_sizing)
+  Gobject.property
+)
+type(
+  ('i, GtkEnums.tree_view_column_sizing) Gobject.property
+)
+"gtkTreeProps.ml" 400 17569 17577 "gtkTreeProps.ml" 400 17569 17591
+type(
+  ([> `treeviewcolumn ], bool) Gobject.property
+)
+ident(
+  def sort_indicator "gtkTreeProps.ml" 402 17672 17676 "gtkTreeProps.ml" 410 18140 18145
+)
+"gtkTreeProps.ml" 401 17628 17640 "gtkTreeProps.ml" 401 17628 17656
+type(
+  string
+)
+"gtkTreeProps.ml" 401 17628 17663 "gtkTreeProps.ml" 401 17628 17670
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTreeProps.ml" 401 17628 17634 "gtkTreeProps.ml" 401 17628 17671
+type(
+  ([> `treeviewcolumn ] as 'j, bool) Gobject.property
+)
+type(
+  ('j, bool) Gobject.property
+)
+"gtkTreeProps.ml" 402 17672 17680 "gtkTreeProps.ml" 402 17672 17690
+type(
+  ([> `treeviewcolumn ], GtkEnums.sort_type) Gobject.property
+)
+ident(
+  def sort_order "gtkTreeProps.ml" 404 17783 17787 "gtkTreeProps.ml" 410 18140 18145
+)
+"gtkTreeProps.ml" 403 17727 17739 "gtkTreeProps.ml" 403 17727 17751
+type(
+  string
+)
+"gtkTreeProps.ml" 403 17727 17758 "gtkTreeProps.ml" 403 17727 17781
+type(
+  GtkEnums.sort_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.sort_type_conv
+)
+"gtkTreeProps.ml" 403 17727 17733 "gtkTreeProps.ml" 403 17727 17782
+type(
+  ([> `treeviewcolumn ] as 'k, GtkEnums.sort_type) Gobject.property
+)
+type(
+  ('k, GtkEnums.sort_type) Gobject.property
+)
+"gtkTreeProps.ml" 404 17783 17791 "gtkTreeProps.ml" 404 17783 17796
+type(
+  ([> `treeviewcolumn ], string) Gobject.property
+)
+ident(
+  def title "gtkTreeProps.ml" 405 17861 17865 "gtkTreeProps.ml" 410 18140 18145
+)
+"gtkTreeProps.ml" 404 17783 17839 "gtkTreeProps.ml" 404 17783 17846
+type(
+  string
+)
+"gtkTreeProps.ml" 404 17783 17853 "gtkTreeProps.ml" 404 17783 17859
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTreeProps.ml" 404 17783 17833 "gtkTreeProps.ml" 404 17783 17860
+type(
+  ([> `treeviewcolumn ] as 'l, string) Gobject.property
+)
+type(
+  ('l, string) Gobject.property
+)
+"gtkTreeProps.ml" 405 17861 17869 "gtkTreeProps.ml" 405 17861 17876
+type(
+  ([> `treeviewcolumn ], bool) Gobject.property
+)
+ident(
+  def visible "gtkTreeProps.ml" 406 17934 17938 "gtkTreeProps.ml" 410 18140 18145
+)
+"gtkTreeProps.ml" 405 17861 17913 "gtkTreeProps.ml" 405 17861 17933
+type(
+  ([> `treeviewcolumn ] as 'm, bool) Gobject.property
+)
+type(
+  ('m, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.visible
+)
+"gtkTreeProps.ml" 406 17934 17942 "gtkTreeProps.ml" 406 17934 17948
+type(
+  ([> `treeviewcolumn ], Gtk.widget Gtk.obj option) Gobject.property
+)
+ident(
+  def widget "gtkTreeProps.ml" 409 18071 18075 "gtkTreeProps.ml" 410 18140 18145
+)
+"gtkTreeProps.ml" 407 17985 17997 "gtkTreeProps.ml" 407 17985 18005
+type(
+  string
+)
+"gtkTreeProps.ml" 408 18007 18020 "gtkTreeProps.ml" 408 18007 18034
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkTreeProps.ml" 407 17985 17991 "gtkTreeProps.ml" 408 18007 18070
+type(
+  ([> `treeviewcolumn ] as 'n, Gtk.widget Gtk.obj option) Gobject.property
+)
+type(
+  ('n, Gtk.widget Gtk.obj option) Gobject.property
+)
+"gtkTreeProps.ml" 409 18071 18079 "gtkTreeProps.ml" 409 18071 18084
+type(
+  ([> `treeviewcolumn ], int) Gobject.property
+)
+ident(
+  def width "gtkTreeProps.ml" 409 18071 18139 "gtkTreeProps.ml" 410 18140 18145
+)
+"gtkTreeProps.ml" 409 18071 18121 "gtkTreeProps.ml" 409 18071 18139
+type(
+  ([> `treeviewcolumn ] as 'o, int) Gobject.property
+)
+type(
+  ('o, int) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.width
+)
+"gtkTreeProps.ml" 413 18185 18193 "gtkTreeProps.ml" 413 18185 18200
+type(
+  ([> `treeviewcolumn ], unit -> unit) GtkSignal.t
+)
+ident(
+  def clicked "gtkTreeProps.ml" 414 18203 18274 "gtkTreeProps.ml" 415 18275 18280
+)
+"gtkTreeProps.ml" 414 18203 18215 "gtkTreeProps.ml" 414 18203 18224
+type(
+  string
+)
+"gtkTreeProps.ml" 414 18203 18233 "gtkTreeProps.ml" 414 18203 18248
+type(
+  [> `treeviewcolumn ] as 'p
+)
+"gtkTreeProps.ml" 414 18203 18261 "gtkTreeProps.ml" 414 18203 18273
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkTreeProps.ml" 414 18203 18209 "gtkTreeProps.ml" 414 18203 18274
+type(
+  ('p, unit -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 416 18281 18287 "gtkTreeProps.ml" 416 18281 18293
+type(
+  Gtk.tree_view_column Gobject.param list -> Gtk.tree_view_column Gtk.obj
+)
+ident(
+  def create "gtkTreeProps.ml" 417 18326 18364 "gtkTreeProps.ml" 418 18365 18368
+)
+"gtkTreeProps.ml" 416 18281 18294 "gtkTreeProps.ml" 416 18281 18296
+type(
+  Gtk.tree_view_column Gobject.param list
+)
+ident(
+  def pl "gtkTreeProps.ml" 416 18281 18297 "gtkTreeProps.ml" 417 18326 18364
+)
+"gtkTreeProps.ml" 417 18326 18330 "gtkTreeProps.ml" 417 18326 18341
+type(
+  classe:string ->
+  Gtk.tree_view_column Gobject.param list -> Gtk.tree_view_column Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkTreeProps.ml" 417 18326 18342 "gtkTreeProps.ml" 417 18326 18361
+type(
+  string
+)
+"gtkTreeProps.ml" 417 18326 18362 "gtkTreeProps.ml" 417 18326 18364
+type(
+  Gtk.tree_view_column Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 416 18281 18294 "gtkTreeProps.ml" 416 18281 18296
+)
+"gtkTreeProps.ml" 417 18326 18330 "gtkTreeProps.ml" 417 18326 18364
+call(
+  tail
+)
+type(
+  Gtk.tree_view_column Gtk.obj
+)
+type(
+  Gtk.tree_view_column Gtk.obj
+)
+"gtkTreeProps.ml" 421 18400 18406 "gtkTreeProps.ml" 421 18400 18410
+type(
+  'a Gobject.obj -> Gtk.tree_selection
+)
+ident(
+  def cast "gtkTreeProps.ml" 422 18462 18464 "gtkTreeProps.ml" 427 18596 18599
+)
+"gtkTreeProps.ml" 421 18400 18411 "gtkTreeProps.ml" 421 18400 18412
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTreeProps.ml" 421 18400 18413 "gtkTreeProps.ml" 421 18400 18461
+)
+"gtkTreeProps.ml" 421 18400 18432 "gtkTreeProps.ml" 421 18400 18440
+type(
+  'a Gobject.obj -> string -> Gtk.tree_selection
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTreeProps.ml" 421 18400 18441 "gtkTreeProps.ml" 421 18400 18442
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTreeProps.ml" 421 18400 18411 "gtkTreeProps.ml" 421 18400 18412
+)
+"gtkTreeProps.ml" 421 18400 18443 "gtkTreeProps.ml" 421 18400 18461
+type(
+  string
+)
+"gtkTreeProps.ml" 421 18400 18432 "gtkTreeProps.ml" 421 18400 18461
+call(
+  tail
+)
+type(
+  Gtk.tree_selection
+)
+type(
+  Gtk.tree_selection
+)
+"gtkTreeProps.ml" 424 18501 18509 "gtkTreeProps.ml" 424 18501 18516
+type(
+  ([> `treeselection ], unit -> unit) GtkSignal.t
+)
+ident(
+  def changed "gtkTreeProps.ml" 425 18519 18589 "gtkTreeProps.ml" 426 18590 18595
+)
+"gtkTreeProps.ml" 425 18519 18531 "gtkTreeProps.ml" 425 18519 18540
+type(
+  string
+)
+"gtkTreeProps.ml" 425 18519 18549 "gtkTreeProps.ml" 425 18519 18563
+type(
+  [> `treeselection ] as 'b
+)
+"gtkTreeProps.ml" 425 18519 18576 "gtkTreeProps.ml" 425 18519 18588
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkTreeProps.ml" 425 18519 18525 "gtkTreeProps.ml" 425 18519 18589
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 430 18627 18633 "gtkTreeProps.ml" 430 18627 18637
+type(
+  'a Gobject.obj -> Gtk.tree_model
+)
+ident(
+  def cast "gtkTreeProps.ml" 431 18681 18683 "gtkTreeProps.ml" 457 19812 19815
+)
+"gtkTreeProps.ml" 430 18627 18638 "gtkTreeProps.ml" 430 18627 18639
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTreeProps.ml" 430 18627 18640 "gtkTreeProps.ml" 430 18627 18680
+)
+"gtkTreeProps.ml" 430 18627 18655 "gtkTreeProps.ml" 430 18627 18663
+type(
+  'a Gobject.obj -> string -> Gtk.tree_model
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTreeProps.ml" 430 18627 18664 "gtkTreeProps.ml" 430 18627 18665
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTreeProps.ml" 430 18627 18638 "gtkTreeProps.ml" 430 18627 18639
+)
+"gtkTreeProps.ml" 430 18627 18666 "gtkTreeProps.ml" 430 18627 18680
+type(
+  string
+)
+"gtkTreeProps.ml" 430 18627 18655 "gtkTreeProps.ml" 430 18627 18680
+call(
+  tail
+)
+type(
+  Gtk.tree_model
+)
+type(
+  Gtk.tree_model
+)
+"gtkTreeProps.ml" 433 18720 18728 "gtkTreeProps.ml" 433 18720 18739
+type(
+  ([> `treemodel ], Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t
+)
+ident(
+  def row_changed "gtkTreeProps.ml" 438 18941 18945 "gtkTreeProps.ml" 456 19806 19811
+)
+"gtkTreeProps.ml" 434 18742 18754 "gtkTreeProps.ml" 434 18742 18767
+type(
+  string
+)
+"gtkTreeProps.ml" 434 18742 18776 "gtkTreeProps.ml" 434 18742 18786
+type(
+  [> `treemodel ] as 'b
+)
+"gtkTreeProps.ml" 434 18742 18803 "gtkTreeProps.ml" 434 18742 18804
+type(
+  Gtk.tree_path -> Gtk.tree_iter -> unit
+)
+ident(
+  def f "gtkTreeProps.ml" 435 18808 18815 "gtkTreeProps.ml" 437 18901 18939
+)
+"gtkTreeProps.ml" 435 18808 18815 "gtkTreeProps.ml" 435 18808 18823
+type(
+  Gtk.tree_path Gobject.data_conv ->
+  Gtk.tree_iter Gobject.data_conv ->
+  string -> (Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTreeProps.ml" 435 18808 18824 "gtkTreeProps.ml" 435 18808 18825
+type(
+  Gtk.tree_path Gobject.data_conv ref -> Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkTreeProps.ml" 435 18808 18825 "gtkTreeProps.ml" 435 18808 18848
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Internal.tree_path_copy
+)
+"gtkTreeProps.ml" 435 18808 18824 "gtkTreeProps.ml" 435 18808 18848
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+"gtkTreeProps.ml" 436 18849 18859 "gtkTreeProps.ml" 436 18849 18873
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 437 18901 18910 "gtkTreeProps.ml" 437 18901 18937
+type(
+  string
+)
+"gtkTreeProps.ml" 437 18901 18938 "gtkTreeProps.ml" 437 18901 18939
+type(
+  Gtk.tree_path -> Gtk.tree_iter -> unit
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 434 18742 18803 "gtkTreeProps.ml" 434 18742 18804
+)
+"gtkTreeProps.ml" 435 18808 18815 "gtkTreeProps.ml" 437 18901 18939
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 434 18742 18799 "gtkTreeProps.ml" 437 18901 18939
+type(
+  (Gtk.tree_path -> Gtk.tree_iter -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 434 18742 18748 "gtkTreeProps.ml" 437 18901 18940
+type(
+  ('b, Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 438 18941 18949 "gtkTreeProps.ml" 438 18941 18960
+type(
+  ([> `treemodel ], Gtk.tree_path -> unit) GtkSignal.t
+)
+ident(
+  def row_deleted "gtkTreeProps.ml" 441 19101 19105 "gtkTreeProps.ml" 456 19806 19811
+)
+"gtkTreeProps.ml" 439 18963 18975 "gtkTreeProps.ml" 439 18963 18988
+type(
+  string
+)
+"gtkTreeProps.ml" 439 18963 18997 "gtkTreeProps.ml" 439 18963 19007
+type(
+  [> `treemodel ] as 'c
+)
+"gtkTreeProps.ml" 439 18963 19024 "gtkTreeProps.ml" 439 18963 19025
+type(
+  Gtk.tree_path -> unit
+)
+ident(
+  def f "gtkTreeProps.ml" 440 19029 19036 "gtkTreeProps.ml" 440 19029 19099
+)
+"gtkTreeProps.ml" 440 19029 19036 "gtkTreeProps.ml" 440 19029 19044
+type(
+  Gtk.tree_path Gobject.data_conv ->
+  string -> (Gtk.tree_path -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkTreeProps.ml" 440 19029 19045 "gtkTreeProps.ml" 440 19029 19046
+type(
+  Gtk.tree_path Gobject.data_conv ref -> Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkTreeProps.ml" 440 19029 19046 "gtkTreeProps.ml" 440 19029 19069
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Internal.tree_path_copy
+)
+"gtkTreeProps.ml" 440 19029 19045 "gtkTreeProps.ml" 440 19029 19069
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+"gtkTreeProps.ml" 440 19029 19070 "gtkTreeProps.ml" 440 19029 19097
+type(
+  string
+)
+"gtkTreeProps.ml" 440 19029 19098 "gtkTreeProps.ml" 440 19029 19099
+type(
+  Gtk.tree_path -> unit
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 439 18963 19024 "gtkTreeProps.ml" 439 18963 19025
+)
+"gtkTreeProps.ml" 440 19029 19036 "gtkTreeProps.ml" 440 19029 19099
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 439 18963 19020 "gtkTreeProps.ml" 440 19029 19099
+type(
+  (Gtk.tree_path -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 439 18963 18969 "gtkTreeProps.ml" 440 19029 19100
+type(
+  ('c, Gtk.tree_path -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 441 19101 19109 "gtkTreeProps.ml" 441 19101 19130
+type(
+  ([> `treemodel ], Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t
+)
+ident(
+  def row_has_child_toggled "gtkTreeProps.ml" 446 19352 19356 "gtkTreeProps.ml" 456 19806 19811
+)
+"gtkTreeProps.ml" 442 19133 19145 "gtkTreeProps.ml" 442 19133 19168
+type(
+  string
+)
+"gtkTreeProps.ml" 442 19133 19177 "gtkTreeProps.ml" 442 19133 19187
+type(
+  [> `treemodel ] as 'd
+)
+"gtkTreeProps.ml" 442 19133 19204 "gtkTreeProps.ml" 442 19133 19205
+type(
+  Gtk.tree_path -> Gtk.tree_iter -> unit
+)
+ident(
+  def f "gtkTreeProps.ml" 443 19209 19216 "gtkTreeProps.ml" 445 19302 19350
+)
+"gtkTreeProps.ml" 443 19209 19216 "gtkTreeProps.ml" 443 19209 19224
+type(
+  Gtk.tree_path Gobject.data_conv ->
+  Gtk.tree_iter Gobject.data_conv ->
+  string -> (Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTreeProps.ml" 443 19209 19225 "gtkTreeProps.ml" 443 19209 19226
+type(
+  Gtk.tree_path Gobject.data_conv ref -> Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkTreeProps.ml" 443 19209 19226 "gtkTreeProps.ml" 443 19209 19249
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Internal.tree_path_copy
+)
+"gtkTreeProps.ml" 443 19209 19225 "gtkTreeProps.ml" 443 19209 19249
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+"gtkTreeProps.ml" 444 19250 19260 "gtkTreeProps.ml" 444 19250 19274
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 445 19302 19311 "gtkTreeProps.ml" 445 19302 19348
+type(
+  string
+)
+"gtkTreeProps.ml" 445 19302 19349 "gtkTreeProps.ml" 445 19302 19350
+type(
+  Gtk.tree_path -> Gtk.tree_iter -> unit
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 442 19133 19204 "gtkTreeProps.ml" 442 19133 19205
+)
+"gtkTreeProps.ml" 443 19209 19216 "gtkTreeProps.ml" 445 19302 19350
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 442 19133 19200 "gtkTreeProps.ml" 445 19302 19350
+type(
+  (Gtk.tree_path -> Gtk.tree_iter -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 442 19133 19139 "gtkTreeProps.ml" 445 19302 19351
+type(
+  ('d, Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 446 19352 19360 "gtkTreeProps.ml" 446 19352 19372
+type(
+  ([> `treemodel ], Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t
+)
+ident(
+  def row_inserted "gtkTreeProps.ml" 451 19576 19580 "gtkTreeProps.ml" 456 19806 19811
+)
+"gtkTreeProps.ml" 447 19375 19387 "gtkTreeProps.ml" 447 19375 19401
+type(
+  string
+)
+"gtkTreeProps.ml" 447 19375 19410 "gtkTreeProps.ml" 447 19375 19420
+type(
+  [> `treemodel ] as 'e
+)
+"gtkTreeProps.ml" 447 19375 19437 "gtkTreeProps.ml" 447 19375 19438
+type(
+  Gtk.tree_path -> Gtk.tree_iter -> unit
+)
+ident(
+  def f "gtkTreeProps.ml" 448 19442 19449 "gtkTreeProps.ml" 450 19535 19574
+)
+"gtkTreeProps.ml" 448 19442 19449 "gtkTreeProps.ml" 448 19442 19457
+type(
+  Gtk.tree_path Gobject.data_conv ->
+  Gtk.tree_iter Gobject.data_conv ->
+  string -> (Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTreeProps.ml" 448 19442 19458 "gtkTreeProps.ml" 448 19442 19459
+type(
+  Gtk.tree_path Gobject.data_conv ref -> Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkTreeProps.ml" 448 19442 19459 "gtkTreeProps.ml" 448 19442 19482
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Internal.tree_path_copy
+)
+"gtkTreeProps.ml" 448 19442 19458 "gtkTreeProps.ml" 448 19442 19482
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+"gtkTreeProps.ml" 449 19483 19493 "gtkTreeProps.ml" 449 19483 19507
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 450 19535 19544 "gtkTreeProps.ml" 450 19535 19572
+type(
+  string
+)
+"gtkTreeProps.ml" 450 19535 19573 "gtkTreeProps.ml" 450 19535 19574
+type(
+  Gtk.tree_path -> Gtk.tree_iter -> unit
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 447 19375 19437 "gtkTreeProps.ml" 447 19375 19438
+)
+"gtkTreeProps.ml" 448 19442 19449 "gtkTreeProps.ml" 450 19535 19574
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 447 19375 19433 "gtkTreeProps.ml" 450 19535 19574
+type(
+  (Gtk.tree_path -> Gtk.tree_iter -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 447 19375 19381 "gtkTreeProps.ml" 450 19535 19575
+type(
+  ('e, Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 451 19576 19584 "gtkTreeProps.ml" 451 19576 19598
+type(
+  ([> `treemodel ], Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t
+)
+ident(
+  def rows_reordered "gtkTreeProps.ml" 455 19763 19805 "gtkTreeProps.ml" 456 19806 19811
+)
+"gtkTreeProps.ml" 452 19601 19613 "gtkTreeProps.ml" 452 19601 19629
+type(
+  string
+)
+"gtkTreeProps.ml" 452 19601 19638 "gtkTreeProps.ml" 452 19601 19648
+type(
+  [> `treemodel ] as 'f
+)
+"gtkTreeProps.ml" 452 19601 19665 "gtkTreeProps.ml" 452 19601 19666
+type(
+  Gtk.tree_path -> Gtk.tree_iter -> unit
+)
+ident(
+  def f "gtkTreeProps.ml" 453 19670 19677 "gtkTreeProps.ml" 455 19763 19804
+)
+"gtkTreeProps.ml" 453 19670 19677 "gtkTreeProps.ml" 453 19670 19685
+type(
+  Gtk.tree_path Gobject.data_conv ->
+  Gtk.tree_iter Gobject.data_conv ->
+  string -> (Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTreeProps.ml" 453 19670 19686 "gtkTreeProps.ml" 453 19670 19687
+type(
+  Gtk.tree_path Gobject.data_conv ref -> Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkTreeProps.ml" 453 19670 19687 "gtkTreeProps.ml" 453 19670 19710
+type(
+  Gtk.tree_path Gobject.data_conv ref
+)
+ident(
+  ext_ref Internal.tree_path_copy
+)
+"gtkTreeProps.ml" 453 19670 19686 "gtkTreeProps.ml" 453 19670 19710
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+"gtkTreeProps.ml" 454 19711 19721 "gtkTreeProps.ml" 454 19711 19735
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 455 19763 19772 "gtkTreeProps.ml" 455 19763 19802
+type(
+  string
+)
+"gtkTreeProps.ml" 455 19763 19803 "gtkTreeProps.ml" 455 19763 19804
+type(
+  Gtk.tree_path -> Gtk.tree_iter -> unit
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 452 19601 19665 "gtkTreeProps.ml" 452 19601 19666
+)
+"gtkTreeProps.ml" 453 19670 19677 "gtkTreeProps.ml" 455 19763 19804
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 452 19601 19661 "gtkTreeProps.ml" 455 19763 19804
+type(
+  (Gtk.tree_path -> Gtk.tree_iter -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 452 19601 19607 "gtkTreeProps.ml" 455 19763 19805
+type(
+  ('f, Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 460 19847 19853 "gtkTreeProps.ml" 460 19847 19857
+type(
+  'a Gobject.obj -> Gtk.tree_model_sort
+)
+ident(
+  def cast "gtkTreeProps.ml" 461 19910 19912 "gtkTreeProps.ml" 484 21053 21056
+)
+"gtkTreeProps.ml" 460 19847 19858 "gtkTreeProps.ml" 460 19847 19859
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTreeProps.ml" 460 19847 19860 "gtkTreeProps.ml" 460 19847 19909
+)
+"gtkTreeProps.ml" 460 19847 19880 "gtkTreeProps.ml" 460 19847 19888
+type(
+  'a Gobject.obj -> string -> Gtk.tree_model_sort
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTreeProps.ml" 460 19847 19889 "gtkTreeProps.ml" 460 19847 19890
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTreeProps.ml" 460 19847 19858 "gtkTreeProps.ml" 460 19847 19859
+)
+"gtkTreeProps.ml" 460 19847 19891 "gtkTreeProps.ml" 460 19847 19909
+type(
+  string
+)
+"gtkTreeProps.ml" 460 19847 19880 "gtkTreeProps.ml" 460 19847 19909
+call(
+  tail
+)
+type(
+  Gtk.tree_model_sort
+)
+type(
+  Gtk.tree_model_sort
+)
+"gtkTreeProps.ml" 462 19930 19938 "gtkTreeProps.ml" 462 19930 19943
+type(
+  ([> `treemodelsort ], Gtk.tree_model) Gobject.property
+)
+ident(
+  def model "gtkTreeProps.ml" 463 19979 20038 "gtkTreeProps.ml" 464 20039 20044
+)
+"gtkTreeProps.ml" 463 19979 19991 "gtkTreeProps.ml" 463 19979 19998
+type(
+  string
+)
+"gtkTreeProps.ml" 463 19979 20006 "gtkTreeProps.ml" 463 19979 20013
+type(
+  Gtk.tree_model Gobject.data_conv
+)
+type(
+  Gtk.tree_model Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTreeProps.ml" 463 19979 19985 "gtkTreeProps.ml" 463 19979 20038
+type(
+  ([> `treemodelsort ] as 'b, Gtk.tree_model) Gobject.property
+)
+type(
+  ('b, Gtk.tree_model) Gobject.property
+)
+"gtkTreeProps.ml" 465 20045 20051 "gtkTreeProps.ml" 465 20045 20057
+type(
+  ?model:Gtk.tree_model ->
+  [ `treemodel | `treemodelsort | `treesortable ] Gobject.param list ->
+  Gtk.tree_model_sort
+)
+ident(
+  def create "gtkTreeProps.ml" 468 20180 20182 "gtkTreeProps.ml" 484 21053 21056
+)
+"gtkTreeProps.ml" 465 20045 20059 "gtkTreeProps.ml" 465 20045 20064
+type(
+  Gtk.tree_model option
+)
+ident(
+  def model "gtkTreeProps.ml" 465 20045 20065 "gtkTreeProps.ml" 467 20132 20179
+)
+"gtkTreeProps.ml" 465 20045 20065 "gtkTreeProps.ml" 465 20045 20067
+type(
+  [ `treemodel | `treemodelsort | `treesortable ] Gobject.param list
+)
+ident(
+  def pl "gtkTreeProps.ml" 465 20045 20068 "gtkTreeProps.ml" 467 20132 20179
+)
+"gtkTreeProps.ml" 466 20088 20096 "gtkTreeProps.ml" 466 20088 20098
+type(
+  [ `treemodel | `treemodelsort | `treesortable ] Gobject.param list
+)
+"gtkTreeProps.ml" 466 20088 20102 "gtkTreeProps.ml" 466 20088 20110
+type(
+  ([ `treemodel | `treemodelsort | `treesortable ], Gtk.tree_model)
+  Gobject.property ->
+  Gtk.tree_model option ->
+  [ `treemodel | `treemodelsort | `treesortable ] Gobject.param list ->
+  [ `treemodel | `treemodelsort | `treesortable ] Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+)
+"gtkTreeProps.ml" 466 20088 20111 "gtkTreeProps.ml" 466 20088 20118
+type(
+  ([ `treemodel | `treemodelsort | `treesortable ], Gtk.tree_model)
+  Gobject.property
+)
+ident(
+  ext_ref P.model
+)
+"gtkTreeProps.ml" 466 20088 20119 "gtkTreeProps.ml" 466 20088 20124
+type(
+  Gtk.tree_model option
+)
+ident(
+  int_ref model "gtkTreeProps.ml" 465 20045 20059 "gtkTreeProps.ml" 465 20045 20064
+)
+"gtkTreeProps.ml" 466 20088 20125 "gtkTreeProps.ml" 466 20088 20127
+type(
+  [ `treemodel | `treemodelsort | `treesortable ] Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 465 20045 20065 "gtkTreeProps.ml" 465 20045 20067
+)
+"gtkTreeProps.ml" 466 20088 20101 "gtkTreeProps.ml" 466 20088 20128
+call(
+  stack
+)
+type(
+  [ `treemodel | `treemodelsort | `treesortable ] Gobject.param list
+)
+"gtkTreeProps.ml" 467 20132 20136 "gtkTreeProps.ml" 467 20132 20157
+type(
+  classe:string ->
+  [ `treemodel | `treemodelsort | `treesortable ] Gobject.param list ->
+  Gtk.tree_model_sort
+)
+ident(
+  ext_ref Gobject.unsafe_create
+)
+"gtkTreeProps.ml" 467 20132 20158 "gtkTreeProps.ml" 467 20132 20176
+type(
+  string
+)
+"gtkTreeProps.ml" 467 20132 20177 "gtkTreeProps.ml" 467 20132 20179
+type(
+  [ `treemodel | `treemodelsort | `treesortable ] Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 466 20088 20096 "gtkTreeProps.ml" 466 20088 20098
+)
+"gtkTreeProps.ml" 467 20132 20136 "gtkTreeProps.ml" 467 20132 20179
+call(
+  tail
+)
+type(
+  Gtk.tree_model_sort
+)
+"gtkTreeProps.ml" 466 20088 20092 "gtkTreeProps.ml" 467 20132 20179
+type(
+  Gtk.tree_model_sort
+)
+type(
+  Gtk.tree_model_sort
+)
+"gtkTreeProps.ml" 487 21087 21093 "gtkTreeProps.ml" 487 21087 21097
+type(
+  'a Gobject.obj -> Gtk.tree_sortable
+)
+ident(
+  def cast "gtkTreeProps.ml" 488 21147 21149 "gtkTreeProps.ml" 512 22200 22203
+)
+"gtkTreeProps.ml" 487 21087 21098 "gtkTreeProps.ml" 487 21087 21099
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTreeProps.ml" 487 21087 21100 "gtkTreeProps.ml" 487 21087 21146
+)
+"gtkTreeProps.ml" 487 21087 21118 "gtkTreeProps.ml" 487 21087 21126
+type(
+  'a Gobject.obj -> string -> Gtk.tree_sortable
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTreeProps.ml" 487 21087 21127 "gtkTreeProps.ml" 487 21087 21128
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTreeProps.ml" 487 21087 21098 "gtkTreeProps.ml" 487 21087 21099
+)
+"gtkTreeProps.ml" 487 21087 21129 "gtkTreeProps.ml" 487 21087 21146
+type(
+  string
+)
+"gtkTreeProps.ml" 487 21087 21118 "gtkTreeProps.ml" 487 21087 21146
+call(
+  tail
+)
+type(
+  Gtk.tree_sortable
+)
+type(
+  Gtk.tree_sortable
+)
+"gtkTreeProps.ml" 490 21186 21194 "gtkTreeProps.ml" 490 21186 21213
+type(
+  ([> `treesortable ], unit -> unit) GtkSignal.t
+)
+ident(
+  def sort_column_changed "gtkTreeProps.ml" 492 21273 21304 "gtkTreeProps.ml" 493 21305 21310
+)
+"gtkTreeProps.ml" 491 21216 21228 "gtkTreeProps.ml" 491 21216 21249
+type(
+  string
+)
+"gtkTreeProps.ml" 491 21216 21258 "gtkTreeProps.ml" 491 21216 21271
+type(
+  [> `treesortable ] as 'b
+)
+"gtkTreeProps.ml" 492 21273 21291 "gtkTreeProps.ml" 492 21273 21303
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkTreeProps.ml" 491 21216 21222 "gtkTreeProps.ml" 492 21273 21304
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 515 22237 22243 "gtkTreeProps.ml" 515 22237 22247
+type(
+  'a Gobject.obj -> Gtk.tree_model_filter
+)
+ident(
+  def cast "gtkTreeProps.ml" 516 22304 22306 "gtkTreeProps.ml" 547 23854 23857
+)
+"gtkTreeProps.ml" 515 22237 22248 "gtkTreeProps.ml" 515 22237 22249
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTreeProps.ml" 515 22237 22250 "gtkTreeProps.ml" 515 22237 22303
+)
+"gtkTreeProps.ml" 515 22237 22272 "gtkTreeProps.ml" 515 22237 22280
+type(
+  'a Gobject.obj -> string -> Gtk.tree_model_filter
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTreeProps.ml" 515 22237 22281 "gtkTreeProps.ml" 515 22237 22282
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTreeProps.ml" 515 22237 22248 "gtkTreeProps.ml" 515 22237 22249
+)
+"gtkTreeProps.ml" 515 22237 22283 "gtkTreeProps.ml" 515 22237 22303
+type(
+  string
+)
+"gtkTreeProps.ml" 515 22237 22272 "gtkTreeProps.ml" 515 22237 22303
+call(
+  tail
+)
+type(
+  Gtk.tree_model_filter
+)
+type(
+  Gtk.tree_model_filter
+)
+"gtkTreeProps.ml" 517 22324 22332 "gtkTreeProps.ml" 517 22324 22343
+type(
+  ([> `treemodelfilter ], Gtk.tree_model) Gobject.property
+)
+ident(
+  def child_model "gtkTreeProps.ml" 519 22447 22451 "gtkTreeProps.ml" 521 22582 22587
+)
+"gtkTreeProps.ml" 518 22381 22393 "gtkTreeProps.ml" 518 22381 22406
+type(
+  string
+)
+"gtkTreeProps.ml" 518 22381 22414 "gtkTreeProps.ml" 518 22381 22421
+type(
+  Gtk.tree_model Gobject.data_conv
+)
+type(
+  Gtk.tree_model Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTreeProps.ml" 518 22381 22387 "gtkTreeProps.ml" 518 22381 22446
+type(
+  ([> `treemodelfilter ] as 'b, Gtk.tree_model) Gobject.property
+)
+type(
+  ('b, Gtk.tree_model) Gobject.property
+)
+"gtkTreeProps.ml" 519 22447 22455 "gtkTreeProps.ml" 519 22447 22467
+type(
+  ([> `treemodelfilter ], Gtk.tree_path) Gobject.property
+)
+ident(
+  def virtual_root "gtkTreeProps.ml" 520 22505 22581 "gtkTreeProps.ml" 521 22582 22587
+)
+"gtkTreeProps.ml" 520 22505 22517 "gtkTreeProps.ml" 520 22505 22531
+type(
+  string
+)
+"gtkTreeProps.ml" 520 22505 22539 "gtkTreeProps.ml" 520 22505 22553
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 520 22505 22511 "gtkTreeProps.ml" 520 22505 22581
+type(
+  ([> `treemodelfilter ] as 'c, Gtk.tree_path) Gobject.property
+)
+type(
+  ('c, Gtk.tree_path) Gobject.property
+)
+"gtkTreeProps.ml" 522 22588 22594 "gtkTreeProps.ml" 522 22588 22600
+type(
+  ?child_model:Gtk.tree_model ->
+  ?virtual_root:Gtk.tree_path ->
+  [ `treemodel | `treemodelfilter ] Gobject.param list ->
+  Gtk.tree_model_filter
+)
+ident(
+  def create "gtkTreeProps.ml" 527 22812 22814 "gtkTreeProps.ml" 547 23854 23857
+)
+"gtkTreeProps.ml" 522 22588 22602 "gtkTreeProps.ml" 522 22588 22613
+type(
+  Gtk.tree_model option
+)
+ident(
+  def child_model "gtkTreeProps.ml" 522 22588 22614 "gtkTreeProps.ml" 526 22762 22811
+)
+"gtkTreeProps.ml" 522 22588 22615 "gtkTreeProps.ml" 522 22588 22627
+type(
+  Gtk.tree_path option
+)
+ident(
+  def virtual_root "gtkTreeProps.ml" 522 22588 22628 "gtkTreeProps.ml" 526 22762 22811
+)
+"gtkTreeProps.ml" 522 22588 22628 "gtkTreeProps.ml" 522 22588 22630
+type(
+  [ `treemodel | `treemodelfilter ] Gobject.param list
+)
+ident(
+  def pl "gtkTreeProps.ml" 522 22588 22631 "gtkTreeProps.ml" 526 22762 22811
+)
+"gtkTreeProps.ml" 523 22653 22661 "gtkTreeProps.ml" 523 22653 22663
+type(
+  [ `treemodel | `treemodelfilter ] Gobject.param list
+)
+"gtkTreeProps.ml" 524 22668 22674 "gtkTreeProps.ml" 524 22668 22682
+type(
+  ([ `treemodel | `treemodelfilter ], Gtk.tree_model) Gobject.property ->
+  Gtk.tree_model option ->
+  [ `treemodel | `treemodelfilter ] Gobject.param list ->
+  [ `treemodel | `treemodelfilter ] Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+)
+"gtkTreeProps.ml" 524 22668 22683 "gtkTreeProps.ml" 524 22668 22696
+type(
+  ([ `treemodel | `treemodelfilter ], Gtk.tree_model) Gobject.property
+)
+ident(
+  ext_ref P.child_model
+)
+"gtkTreeProps.ml" 524 22668 22697 "gtkTreeProps.ml" 524 22668 22708
+type(
+  Gtk.tree_model option
+)
+ident(
+  int_ref child_model "gtkTreeProps.ml" 522 22588 22602 "gtkTreeProps.ml" 522 22588 22613
+)
+"gtkTreeProps.ml" 525 22711 22717 "gtkTreeProps.ml" 525 22711 22725
+type(
+  ([ `treemodel | `treemodelfilter ], Gtk.tree_path) Gobject.property ->
+  Gtk.tree_path option ->
+  [ `treemodel | `treemodelfilter ] Gobject.param list ->
+  [ `treemodel | `treemodelfilter ] Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+)
+"gtkTreeProps.ml" 525 22711 22726 "gtkTreeProps.ml" 525 22711 22740
+type(
+  ([ `treemodel | `treemodelfilter ], Gtk.tree_path) Gobject.property
+)
+ident(
+  ext_ref P.virtual_root
+)
+"gtkTreeProps.ml" 525 22711 22741 "gtkTreeProps.ml" 525 22711 22753
+type(
+  Gtk.tree_path option
+)
+ident(
+  int_ref virtual_root "gtkTreeProps.ml" 522 22588 22615 "gtkTreeProps.ml" 522 22588 22627
+)
+"gtkTreeProps.ml" 525 22711 22754 "gtkTreeProps.ml" 525 22711 22756
+type(
+  [ `treemodel | `treemodelfilter ] Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 522 22588 22628 "gtkTreeProps.ml" 522 22588 22630
+)
+"gtkTreeProps.ml" 524 22668 22709 "gtkTreeProps.ml" 525 22711 22757
+call(
+  stack
+)
+type(
+  [ `treemodel | `treemodelfilter ] Gobject.param list
+)
+"gtkTreeProps.ml" 523 22653 22666 "gtkTreeProps.ml" 525 22711 22758
+call(
+  stack
+)
+type(
+  [ `treemodel | `treemodelfilter ] Gobject.param list
+)
+"gtkTreeProps.ml" 526 22762 22766 "gtkTreeProps.ml" 526 22762 22787
+type(
+  classe:string ->
+  [ `treemodel | `treemodelfilter ] Gobject.param list ->
+  Gtk.tree_model_filter
+)
+ident(
+  ext_ref Gobject.unsafe_create
+)
+"gtkTreeProps.ml" 526 22762 22788 "gtkTreeProps.ml" 526 22762 22808
+type(
+  string
+)
+"gtkTreeProps.ml" 526 22762 22809 "gtkTreeProps.ml" 526 22762 22811
+type(
+  [ `treemodel | `treemodelfilter ] Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 523 22653 22661 "gtkTreeProps.ml" 523 22653 22663
+)
+"gtkTreeProps.ml" 526 22762 22766 "gtkTreeProps.ml" 526 22762 22811
+call(
+  tail
+)
+type(
+  Gtk.tree_model_filter
+)
+"gtkTreeProps.ml" 523 22653 22657 "gtkTreeProps.ml" 526 22762 22811
+type(
+  Gtk.tree_model_filter
+)
+type(
+  Gtk.tree_model_filter
+)
+"gtkTreeProps.ml" 550 23884 23890 "gtkTreeProps.ml" 550 23884 23894
+type(
+  'a Gobject.obj -> Gtk.icon_view Gtk.obj
+)
+ident(
+  def cast "gtkTreeProps.ml" 551 23944 23946 "gtkTreeProps.ml" 609 26663 26666
+)
+"gtkTreeProps.ml" 550 23884 23895 "gtkTreeProps.ml" 550 23884 23896
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTreeProps.ml" 550 23884 23897 "gtkTreeProps.ml" 550 23884 23943
+)
+"gtkTreeProps.ml" 550 23884 23919 "gtkTreeProps.ml" 550 23884 23927
+type(
+  'a Gobject.obj -> string -> Gtk.icon_view Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTreeProps.ml" 550 23884 23928 "gtkTreeProps.ml" 550 23884 23929
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTreeProps.ml" 550 23884 23895 "gtkTreeProps.ml" 550 23884 23896
+)
+"gtkTreeProps.ml" 550 23884 23930 "gtkTreeProps.ml" 550 23884 23943
+type(
+  string
+)
+"gtkTreeProps.ml" 550 23884 23919 "gtkTreeProps.ml" 550 23884 23943
+call(
+  tail
+)
+type(
+  Gtk.icon_view Gtk.obj
+)
+type(
+  Gtk.icon_view Gtk.obj
+)
+"gtkTreeProps.ml" 552 23964 23972 "gtkTreeProps.ml" 552 23964 23986
+type(
+  ([> `iconview ], int) Gobject.property
+)
+ident(
+  def column_spacing "gtkTreeProps.ml" 554 24057 24061 "gtkTreeProps.ml" 572 25005 25010
+)
+"gtkTreeProps.ml" 553 24017 24029 "gtkTreeProps.ml" 553 24017 24045
+type(
+  string
+)
+"gtkTreeProps.ml" 553 24017 24052 "gtkTreeProps.ml" 553 24017 24055
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 553 24017 24023 "gtkTreeProps.ml" 553 24017 24056
+type(
+  ([> `iconview ] as 'b, int) Gobject.property
+)
+type(
+  ('b, int) Gobject.property
+)
+"gtkTreeProps.ml" 554 24057 24065 "gtkTreeProps.ml" 554 24057 24072
+type(
+  ([> `iconview ], int) Gobject.property
+)
+ident(
+  def columns "gtkTreeProps.ml" 555 24130 24134 "gtkTreeProps.ml" 572 25005 25010
+)
+"gtkTreeProps.ml" 554 24057 24109 "gtkTreeProps.ml" 554 24057 24118
+type(
+  string
+)
+"gtkTreeProps.ml" 554 24057 24125 "gtkTreeProps.ml" 554 24057 24128
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 554 24057 24103 "gtkTreeProps.ml" 554 24057 24129
+type(
+  ([> `iconview ] as 'c, int) Gobject.property
+)
+type(
+  ('c, int) Gobject.property
+)
+"gtkTreeProps.ml" 555 24130 24138 "gtkTreeProps.ml" 555 24130 24148
+type(
+  ([> `iconview ], int) Gobject.property
+)
+ident(
+  def item_width "gtkTreeProps.ml" 557 24215 24219 "gtkTreeProps.ml" 572 25005 25010
+)
+"gtkTreeProps.ml" 556 24179 24191 "gtkTreeProps.ml" 556 24179 24203
+type(
+  string
+)
+"gtkTreeProps.ml" 556 24179 24210 "gtkTreeProps.ml" 556 24179 24213
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 556 24179 24185 "gtkTreeProps.ml" 556 24179 24214
+type(
+  ([> `iconview ] as 'd, int) Gobject.property
+)
+type(
+  ('d, int) Gobject.property
+)
+"gtkTreeProps.ml" 557 24215 24223 "gtkTreeProps.ml" 557 24215 24229
+type(
+  ([> `iconview ], int) Gobject.property
+)
+ident(
+  def margin "gtkTreeProps.ml" 558 24286 24290 "gtkTreeProps.ml" 572 25005 25010
+)
+"gtkTreeProps.ml" 557 24215 24266 "gtkTreeProps.ml" 557 24215 24274
+type(
+  string
+)
+"gtkTreeProps.ml" 557 24215 24281 "gtkTreeProps.ml" 557 24215 24284
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 557 24215 24260 "gtkTreeProps.ml" 557 24215 24285
+type(
+  ([> `iconview ] as 'e, int) Gobject.property
+)
+type(
+  ('e, int) Gobject.property
+)
+"gtkTreeProps.ml" 558 24286 24294 "gtkTreeProps.ml" 558 24286 24307
+type(
+  ([> `iconview ], int) Gobject.property
+)
+ident(
+  def markup_column "gtkTreeProps.ml" 560 24377 24381 "gtkTreeProps.ml" 572 25005 25010
+)
+"gtkTreeProps.ml" 559 24338 24350 "gtkTreeProps.ml" 559 24338 24365
+type(
+  string
+)
+"gtkTreeProps.ml" 559 24338 24372 "gtkTreeProps.ml" 559 24338 24375
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 559 24338 24344 "gtkTreeProps.ml" 559 24338 24376
+type(
+  ([> `iconview ] as 'f, int) Gobject.property
+)
+type(
+  ('f, int) Gobject.property
+)
+"gtkTreeProps.ml" 560 24377 24385 "gtkTreeProps.ml" 560 24377 24390
+type(
+  ([> `iconview ], Gtk.tree_model option) Gobject.property
+)
+ident(
+  def model "gtkTreeProps.ml" 561 24440 24444 "gtkTreeProps.ml" 572 25005 25010
+)
+"gtkTreeProps.ml" 560 24377 24421 "gtkTreeProps.ml" 560 24377 24439
+type(
+  ([> `iconview ] as 'g, Gtk.tree_model option) Gobject.property
+)
+type(
+  ('g, Gtk.tree_model option) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.model
+)
+"gtkTreeProps.ml" 561 24440 24448 "gtkTreeProps.ml" 561 24440 24459
+type(
+  ([> `iconview ], GtkEnums.orientation) Gobject.property
+)
+ident(
+  def orientation "gtkTreeProps.ml" 563 24549 24553 "gtkTreeProps.ml" 572 25005 25010
+)
+"gtkTreeProps.ml" 562 24490 24502 "gtkTreeProps.ml" 562 24490 24515
+type(
+  string
+)
+"gtkTreeProps.ml" 562 24490 24522 "gtkTreeProps.ml" 562 24490 24547
+type(
+  GtkEnums.orientation Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.orientation_conv
+)
+"gtkTreeProps.ml" 562 24490 24496 "gtkTreeProps.ml" 562 24490 24548
+type(
+  ([> `iconview ] as 'h, GtkEnums.orientation) Gobject.property
+)
+type(
+  ('h, GtkEnums.orientation) Gobject.property
+)
+"gtkTreeProps.ml" 563 24549 24557 "gtkTreeProps.ml" 563 24549 24570
+type(
+  ([> `iconview ], int) Gobject.property
+)
+ident(
+  def pixbuf_column "gtkTreeProps.ml" 565 24640 24644 "gtkTreeProps.ml" 572 25005 25010
+)
+"gtkTreeProps.ml" 564 24601 24613 "gtkTreeProps.ml" 564 24601 24628
+type(
+  string
+)
+"gtkTreeProps.ml" 564 24601 24635 "gtkTreeProps.ml" 564 24601 24638
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 564 24601 24607 "gtkTreeProps.ml" 564 24601 24639
+type(
+  ([> `iconview ] as 'i, int) Gobject.property
+)
+type(
+  ('i, int) Gobject.property
+)
+"gtkTreeProps.ml" 565 24640 24648 "gtkTreeProps.ml" 565 24640 24659
+type(
+  ([> `iconview ], int) Gobject.property
+)
+ident(
+  def row_spacing "gtkTreeProps.ml" 567 24727 24731 "gtkTreeProps.ml" 572 25005 25010
+)
+"gtkTreeProps.ml" 566 24690 24702 "gtkTreeProps.ml" 566 24690 24715
+type(
+  string
+)
+"gtkTreeProps.ml" 566 24690 24722 "gtkTreeProps.ml" 566 24690 24725
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 566 24690 24696 "gtkTreeProps.ml" 566 24690 24726
+type(
+  ([> `iconview ] as 'j, int) Gobject.property
+)
+type(
+  ('j, int) Gobject.property
+)
+"gtkTreeProps.ml" 567 24727 24735 "gtkTreeProps.ml" 567 24727 24749
+type(
+  ([> `iconview ], GtkEnums.selection_mode) Gobject.property
+)
+ident(
+  def selection_mode "gtkTreeProps.ml" 569 24845 24849 "gtkTreeProps.ml" 572 25005 25010
+)
+"gtkTreeProps.ml" 568 24780 24792 "gtkTreeProps.ml" 568 24780 24808
+type(
+  string
+)
+"gtkTreeProps.ml" 568 24780 24815 "gtkTreeProps.ml" 568 24780 24843
+type(
+  GtkEnums.selection_mode Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.selection_mode_conv
+)
+"gtkTreeProps.ml" 568 24780 24786 "gtkTreeProps.ml" 568 24780 24844
+type(
+  ([> `iconview ] as 'k, GtkEnums.selection_mode) Gobject.property
+)
+type(
+  ('k, GtkEnums.selection_mode) Gobject.property
+)
+"gtkTreeProps.ml" 569 24845 24853 "gtkTreeProps.ml" 569 24845 24860
+type(
+  ([> `iconview ], int) Gobject.property
+)
+ident(
+  def spacing "gtkTreeProps.ml" 570 24918 24922 "gtkTreeProps.ml" 572 25005 25010
+)
+"gtkTreeProps.ml" 569 24845 24897 "gtkTreeProps.ml" 569 24845 24906
+type(
+  string
+)
+"gtkTreeProps.ml" 569 24845 24913 "gtkTreeProps.ml" 569 24845 24916
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 569 24845 24891 "gtkTreeProps.ml" 569 24845 24917
+type(
+  ([> `iconview ] as 'l, int) Gobject.property
+)
+type(
+  ('l, int) Gobject.property
+)
+"gtkTreeProps.ml" 570 24918 24926 "gtkTreeProps.ml" 570 24918 24937
+type(
+  ([> `iconview ], int) Gobject.property
+)
+ident(
+  def text_column "gtkTreeProps.ml" 571 24968 25004 "gtkTreeProps.ml" 572 25005 25010
+)
+"gtkTreeProps.ml" 571 24968 24980 "gtkTreeProps.ml" 571 24968 24993
+type(
+  string
+)
+"gtkTreeProps.ml" 571 24968 25000 "gtkTreeProps.ml" 571 24968 25003
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTreeProps.ml" 571 24968 24974 "gtkTreeProps.ml" 571 24968 25004
+type(
+  ([> `iconview ] as 'm, int) Gobject.property
+)
+type(
+  ('m, int) Gobject.property
+)
+"gtkTreeProps.ml" 575 25050 25058 "gtkTreeProps.ml" 575 25050 25072
+type(
+  ([> `iconview ], Gtk.tree_path -> unit) GtkSignal.t
+)
+ident(
+  def item_activated "gtkTreeProps.ml" 579 25244 25248 "gtkTreeProps.ml" 581 25348 25353
+)
+"gtkTreeProps.ml" 576 25075 25087 "gtkTreeProps.ml" 576 25075 25103
+type(
+  string
+)
+"gtkTreeProps.ml" 576 25075 25112 "gtkTreeProps.ml" 576 25075 25121
+type(
+  [> `iconview ] as 'n
+)
+"gtkTreeProps.ml" 576 25075 25138 "gtkTreeProps.ml" 576 25075 25139
+type(
+  Gtk.tree_path -> unit
+)
+ident(
+  def f "gtkTreeProps.ml" 577 25143 25150 "gtkTreeProps.ml" 578 25202 25242
+)
+"gtkTreeProps.ml" 577 25143 25150 "gtkTreeProps.ml" 577 25143 25158
+type(
+  Gtk.tree_path Gobject.data_conv ->
+  string -> (Gtk.tree_path -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkTreeProps.ml" 577 25143 25160 "gtkTreeProps.ml" 577 25143 25174
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+type(
+  Gtk.tree_path Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTreeProps.ml" 578 25202 25211 "gtkTreeProps.ml" 578 25202 25240
+type(
+  string
+)
+"gtkTreeProps.ml" 578 25202 25241 "gtkTreeProps.ml" 578 25202 25242
+type(
+  Gtk.tree_path -> unit
+)
+ident(
+  int_ref f "gtkTreeProps.ml" 576 25075 25138 "gtkTreeProps.ml" 576 25075 25139
+)
+"gtkTreeProps.ml" 577 25143 25150 "gtkTreeProps.ml" 578 25202 25242
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 576 25075 25134 "gtkTreeProps.ml" 578 25202 25242
+type(
+  (Gtk.tree_path -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTreeProps.ml" 576 25075 25081 "gtkTreeProps.ml" 578 25202 25243
+type(
+  ('n, Gtk.tree_path -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 579 25244 25252 "gtkTreeProps.ml" 579 25244 25269
+type(
+  ([> `iconview ], unit -> unit) GtkSignal.t
+)
+ident(
+  def selection_changed "gtkTreeProps.ml" 580 25272 25347 "gtkTreeProps.ml" 581 25348 25353
+)
+"gtkTreeProps.ml" 580 25272 25284 "gtkTreeProps.ml" 580 25272 25303
+type(
+  string
+)
+"gtkTreeProps.ml" 580 25272 25312 "gtkTreeProps.ml" 580 25272 25321
+type(
+  [> `iconview ] as 'o
+)
+"gtkTreeProps.ml" 580 25272 25334 "gtkTreeProps.ml" 580 25272 25346
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkTreeProps.ml" 580 25272 25278 "gtkTreeProps.ml" 580 25272 25347
+type(
+  ('o, unit -> unit) GtkSignal.t
+)
+"gtkTreeProps.ml" 582 25354 25360 "gtkTreeProps.ml" 582 25354 25366
+type(
+  Gtk.icon_view Gobject.param list -> Gtk.icon_view Gtk.obj
+)
+ident(
+  def create "gtkTreeProps.ml" 583 25421 25423 "gtkTreeProps.ml" 609 26663 26666
+)
+"gtkTreeProps.ml" 582 25354 25367 "gtkTreeProps.ml" 582 25354 25369
+type(
+  Gtk.icon_view Gobject.param list
+)
+ident(
+  def pl "gtkTreeProps.ml" 582 25354 25370 "gtkTreeProps.ml" 582 25354 25420
+)
+"gtkTreeProps.ml" 582 25354 25392 "gtkTreeProps.ml" 582 25354 25403
+type(
+  classe:string -> Gtk.icon_view Gobject.param list -> Gtk.icon_view Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkTreeProps.ml" 582 25354 25404 "gtkTreeProps.ml" 582 25354 25417
+type(
+  string
+)
+"gtkTreeProps.ml" 582 25354 25418 "gtkTreeProps.ml" 582 25354 25420
+type(
+  Gtk.icon_view Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 582 25354 25367 "gtkTreeProps.ml" 582 25354 25369
+)
+"gtkTreeProps.ml" 582 25354 25392 "gtkTreeProps.ml" 582 25354 25420
+call(
+  tail
+)
+type(
+  Gtk.icon_view Gtk.obj
+)
+type(
+  Gtk.icon_view Gtk.obj
+)
+"gtkTreeProps.ml" 602 26392 26398 "gtkTreeProps.ml" 602 26392 26409
+type(
+  cont:(([> `iconview ] as 'p) Gobject.param list -> 'q) ->
+  'p Gobject.param list ->
+  ?columns:int ->
+  ?model:Gtk.tree_model ->
+  ?orientation:GtkEnums.orientation ->
+  ?selection_mode:GtkEnums.selection_mode -> 'q
+)
+ident(
+  def make_params "gtkTreeProps.ml" 608 26651 26662 "gtkTreeProps.ml" 609 26663 26666
+)
+"gtkTreeProps.ml" 602 26392 26411 "gtkTreeProps.ml" 602 26392 26415
+type(
+  'p Gobject.param list -> 'q
+)
+ident(
+  def cont "gtkTreeProps.ml" 602 26392 26416 "gtkTreeProps.ml" 608 26651 26662
+)
+"gtkTreeProps.ml" 602 26392 26416 "gtkTreeProps.ml" 602 26392 26418
+type(
+  'p Gobject.param list
+)
+ident(
+  def pl "gtkTreeProps.ml" 602 26392 26419 "gtkTreeProps.ml" 608 26651 26662
+)
+"gtkTreeProps.ml" 602 26392 26420 "gtkTreeProps.ml" 602 26392 26427
+type(
+  int option
+)
+ident(
+  def columns "gtkTreeProps.ml" 602 26392 26428 "gtkTreeProps.ml" 608 26651 26662
+)
+"gtkTreeProps.ml" 602 26392 26429 "gtkTreeProps.ml" 602 26392 26434
+type(
+  Gtk.tree_model option
+)
+ident(
+  def model "gtkTreeProps.ml" 602 26392 26435 "gtkTreeProps.ml" 608 26651 26662
+)
+"gtkTreeProps.ml" 602 26392 26436 "gtkTreeProps.ml" 602 26392 26447
+type(
+  GtkEnums.orientation option
+)
+ident(
+  def orientation "gtkTreeProps.ml" 602 26392 26448 "gtkTreeProps.ml" 608 26651 26662
+)
+"gtkTreeProps.ml" 602 26392 26449 "gtkTreeProps.ml" 602 26392 26463
+type(
+  GtkEnums.selection_mode option
+)
+ident(
+  def selection_mode "gtkTreeProps.ml" 603 26466 26470 "gtkTreeProps.ml" 608 26651 26662
+)
+"gtkTreeProps.ml" 603 26466 26474 "gtkTreeProps.ml" 603 26466 26476
+type(
+  'p Gobject.param list
+)
+"gtkTreeProps.ml" 604 26481 26487 "gtkTreeProps.ml" 604 26481 26495
+type(
+  ('p, int) Gobject.property ->
+  int option -> 'p Gobject.param list -> 'p Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+)
+"gtkTreeProps.ml" 604 26481 26496 "gtkTreeProps.ml" 604 26481 26505
+type(
+  ('p, int) Gobject.property
+)
+ident(
+  ext_ref P.columns
+)
+"gtkTreeProps.ml" 604 26481 26506 "gtkTreeProps.ml" 604 26481 26513
+type(
+  int option
+)
+ident(
+  int_ref columns "gtkTreeProps.ml" 602 26392 26420 "gtkTreeProps.ml" 602 26392 26427
+)
+"gtkTreeProps.ml" 605 26516 26522 "gtkTreeProps.ml" 605 26516 26534
+type(
+  ('p, Gtk.tree_model option) Gobject.property ->
+  Gtk.tree_model option -> 'p Gobject.param list -> 'p Gobject.param list
+)
+ident(
+  int_ref may_cons_opt "gtkTreeProps.ml" 20 517 521 "gtkTreeProps.ml" 20 517 533
+)
+"gtkTreeProps.ml" 605 26516 26535 "gtkTreeProps.ml" 605 26516 26542
+type(
+  ('p, Gtk.tree_model option) Gobject.property
+)
+ident(
+  ext_ref P.model
+)
+"gtkTreeProps.ml" 605 26516 26543 "gtkTreeProps.ml" 605 26516 26548
+type(
+  Gtk.tree_model option
+)
+ident(
+  int_ref model "gtkTreeProps.ml" 602 26392 26429 "gtkTreeProps.ml" 602 26392 26434
+)
+"gtkTreeProps.ml" 606 26551 26557 "gtkTreeProps.ml" 606 26551 26565
+type(
+  ('p, GtkEnums.orientation) Gobject.property ->
+  GtkEnums.orientation option ->
+  'p Gobject.param list -> 'p Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+)
+"gtkTreeProps.ml" 606 26551 26566 "gtkTreeProps.ml" 606 26551 26579
+type(
+  ('p, GtkEnums.orientation) Gobject.property
+)
+ident(
+  ext_ref P.orientation
+)
+"gtkTreeProps.ml" 606 26551 26580 "gtkTreeProps.ml" 606 26551 26591
+type(
+  GtkEnums.orientation option
+)
+ident(
+  int_ref orientation "gtkTreeProps.ml" 602 26392 26436 "gtkTreeProps.ml" 602 26392 26447
+)
+"gtkTreeProps.ml" 607 26594 26600 "gtkTreeProps.ml" 607 26594 26608
+type(
+  ('p, GtkEnums.selection_mode) Gobject.property ->
+  GtkEnums.selection_mode option ->
+  'p Gobject.param list -> 'p Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTreeProps.ml" 19 484 488 "gtkTreeProps.ml" 19 484 496
+)
+"gtkTreeProps.ml" 607 26594 26609 "gtkTreeProps.ml" 607 26594 26625
+type(
+  ('p, GtkEnums.selection_mode) Gobject.property
+)
+ident(
+  ext_ref P.selection_mode
+)
+"gtkTreeProps.ml" 607 26594 26626 "gtkTreeProps.ml" 607 26594 26640
+type(
+  GtkEnums.selection_mode option
+)
+ident(
+  int_ref selection_mode "gtkTreeProps.ml" 602 26392 26449 "gtkTreeProps.ml" 602 26392 26463
+)
+"gtkTreeProps.ml" 607 26594 26641 "gtkTreeProps.ml" 607 26594 26643
+type(
+  'p Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 602 26392 26416 "gtkTreeProps.ml" 602 26392 26418
+)
+"gtkTreeProps.ml" 606 26551 26592 "gtkTreeProps.ml" 607 26594 26644
+call(
+  stack
+)
+type(
+  'p Gobject.param list
+)
+"gtkTreeProps.ml" 605 26516 26549 "gtkTreeProps.ml" 607 26594 26645
+call(
+  stack
+)
+type(
+  'p Gobject.param list
+)
+"gtkTreeProps.ml" 604 26481 26514 "gtkTreeProps.ml" 607 26594 26646
+call(
+  stack
+)
+type(
+  'p Gobject.param list
+)
+"gtkTreeProps.ml" 603 26466 26479 "gtkTreeProps.ml" 607 26594 26647
+call(
+  stack
+)
+type(
+  'p Gobject.param list
+)
+"gtkTreeProps.ml" 608 26651 26655 "gtkTreeProps.ml" 608 26651 26659
+type(
+  'p Gobject.param list -> 'q
+)
+ident(
+  int_ref cont "gtkTreeProps.ml" 602 26392 26411 "gtkTreeProps.ml" 602 26392 26415
+)
+"gtkTreeProps.ml" 608 26651 26660 "gtkTreeProps.ml" 608 26651 26662
+type(
+  'p Gobject.param list
+)
+ident(
+  int_ref pl "gtkTreeProps.ml" 603 26466 26474 "gtkTreeProps.ml" 603 26466 26476
+)
+"gtkTreeProps.ml" 608 26651 26655 "gtkTreeProps.ml" 608 26651 26662
+call(
+  tail
+)
+type(
+  'q
+)
+"gtkTreeProps.ml" 603 26466 26470 "gtkTreeProps.ml" 608 26651 26662
+type(
+  'q
+)

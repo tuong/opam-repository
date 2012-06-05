@@ -1,0 +1,72 @@
+#                                                               -*-conf-*-
+OASISFormat: 0.2
+Name:        lbfgs
+Version:     0.8.3
+Synopsis:    Minimization of multidimensional functions on bounded or unbounded domains.
+Description: This is a binding to L-BFGS-B, a library for Large-scale
+  Bound-constrained Optimization.
+Authors:     Christophe Troestler <Christophe.Troestler@umons.ac.be>
+License:     LGPL-3.0 with OCaml linking exception
+Plugins:     META (0.2), StdFiles (0.2)
+FilesAB:     src/lbfgs.ml.ab
+Homepage:    https://forge.ocamlcore.org/projects/lbfgs/
+PostConfCommand: ocaml rename_c_prims.ml
+
+Flag has_lacaml
+  Description: Whether the lacaml findlib package is installed.
+  Default:     false
+
+Library lbfgs
+  Path:	      src
+  BuildTools: ocamlbuild
+  Modules:    Lbfgs
+  CSources:   lbfgs_stubs.c
+  # Lbfgsb.*/*.f added via myocamlbuild.ml
+  BuildDepends: bigarray
+
+Document API
+  Title:           API reference for Lbfgs
+  Type:            OCamlbuild (0.2)
+  InstallDir:      $docdir/api
+  BuildTools:      ocamldoc, ocamlbuild
+  XOCamlbuildPath: .
+  XOCamlbuildLibraries: lbfgs
+
+
+Executable simple
+  Path:           examples/
+  MainIs:         simple.ml
+  BuildDepends:   lbfgs
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable Rosenbrock
+  Path:           examples/
+  MainIs:         Rosenbrock.ml
+  BuildDepends:   lbfgs
+  BuildTools:     ocamlbuild
+  Install:        false
+  CompiledObject: best
+
+Executable error
+  Path:           examples/
+  MainIs:         error.ml
+  BuildDepends:   lbfgs
+  BuildTools:     ocamlbuild
+  Install:        false
+  CompiledObject: best
+
+Executable unconstrained
+  Build$:         flag(has_lacaml)
+  Path:           examples/
+  MainIs:         unconstrained.ml
+  BuildDepends:   lbfgs, lacaml
+  BuildTools:     ocamlbuild
+  Install:        false
+  DllPath:        ../src
+
+
+SourceRepository trunk
+  Type:       bzr
+  Location:   https://forge.ocamlcore.org/anonscm/bzr/lbfgs/trunk
+#  Browser:    http://forge.ocamlcore.org/scm/browser.php?group_id=232

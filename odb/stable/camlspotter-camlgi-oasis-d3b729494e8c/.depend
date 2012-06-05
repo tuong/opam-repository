@@ -1,0 +1,26 @@
+camlGI.cmo: camlGI.cmi
+camlGI.cmx: camlGI.cmi
+cgi.cmo: cookie.cmo cgi_types.cmo cgi_std.cmo cgi_fast.cmo cgi_common.cmi
+cgi.cmx: cookie.cmx cgi_types.cmx cgi_std.cmx cgi_fast.cmx cgi_common.cmx
+cgi_common.cmo: cgi_types.cmo cgi_common.cmi
+cgi_common.cmx: cgi_types.cmx cgi_common.cmi
+cgi_fast.cmo: cgi_types.cmo cgi_common.cmi
+cgi_fast.cmx: cgi_types.cmx cgi_common.cmx
+cgi_std.cmo: cgi_types.cmo cgi_common.cmi
+cgi_std.cmx: cgi_types.cmx cgi_common.cmx
+cgi_types.cmo:
+cgi_types.cmx:
+cookie.cmo: expires.cmo cgi_common.cmi
+cookie.cmx: expires.cmx cgi_common.cmx
+dbiPool.cmo:
+dbiPool.cmx:
+expires.cmo: cgi_common.cmi
+expires.cmx: cgi_common.cmx
+sendmail.cmo:
+sendmail.cmx:
+setup.cmo:
+setup.cmx:
+template.cmo: cgi_common.cmi
+template.cmx: cgi_common.cmx
+camlGI.cmi:
+cgi_common.cmi: cgi_types.cmo

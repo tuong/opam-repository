@@ -1,0 +1,25 @@
+"gtkThInit.ml" 28 1802 1806 "gtkThInit.ml" 28 1802 1812
+type(
+  Thread.t
+)
+ident(
+  def thread "gtkThInit.ml" 28 1802 1833 --
+)
+"gtkThInit.ml" 28 1802 1815 "gtkThInit.ml" 28 1802 1830
+type(
+  unit -> Thread.t
+)
+ident(
+  ext_ref GtkThread.start
+)
+"gtkThInit.ml" 28 1802 1831 "gtkThInit.ml" 28 1802 1833
+type(
+  unit
+)
+"gtkThInit.ml" 28 1802 1815 "gtkThInit.ml" 28 1802 1833
+call(
+  stack
+)
+type(
+  Thread.t
+)

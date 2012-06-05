@@ -1,0 +1,4 @@
+deps=make
+tarball=ocamlscript-2.0.2~oasis4.tar.gz
+is_library=true
+is_program=true

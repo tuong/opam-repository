@@ -1,0 +1,45 @@
+.PHONY: all install clean
+
+USE_OCAMLFIND = true
+
+OCAMLPACKS[] =
+	camlp4
+
+OCAMLINCLUDES +=
+
+NATIVE_ENABLED = $(OCAMLOPT_EXISTS)
+BYTE_ENABLED = true
+
+# OCAMLFLAGS    +=
+OCAMLCFLAGS   += -annot -w Ae
+# OCAMLOPTFLAGS +=
+# OCAML_LINK_FLAGS +=
+# OCAML_BYTE_LINK_FLAGS +=
+# OCAML_NATIVE_LINK_FLAGS +=
+
+OCAMLPACKAGEFLAGS= 
+
+FILES[] =
+	pa_bind_inline
+
+LIB = pa_bind_inline
+
+.DEFAULT: $(OCamlLibrary $(LIB), $(FILES))
+
+clean:
+	rm $(filter-proper-targets $(ls R, .))
+
+OCAMLDEPFLAGS=-pp camlp4of
+OCAMLPPFLAGS=-pp camlp4of
+
+top_test: pa_bind_inline.cma
+	ocaml -I +camlp4 dynlink.cma camlp4o.cma pa_bind_inline.cma 
+
+.PHONY: test
+
+test: pa_bind_inline.cma
+	camlp4o -printer OCaml -I . pa_bind_inline.cma test_pa_bind_inline.ml  
+
+install: pa_bind_inline.cma pa_bind_inline.cmxa
+	ocamlfind remove bind_inline
+	ocamlfind install bind_inline META pa*.cmo pa*.cmx pa*.cmi pa*.cma pa*.cmxa

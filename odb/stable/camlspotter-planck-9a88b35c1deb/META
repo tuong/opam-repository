@@ -1,0 +1,7 @@
+name="planck"
+version="0.0.1"
+description="Parser LANguage Combinator Kit"
+requires="sexplib"
+archive(byte)="planck.cmo"
+archive(native)="planck.cmx"
+linkopts = ""

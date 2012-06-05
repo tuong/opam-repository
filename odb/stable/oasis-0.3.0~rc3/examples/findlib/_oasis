@@ -1,0 +1,11 @@
+Name: findlib
+Version: 0.0.1
+OASISFormat: 0.1
+Authors: Sylvain Le Gall
+Copyrights: (C) 2008 Sylvain Le Gall
+Homepage: http://example.com
+LicenseFile: LICENSE
+License: LGPL with OCaml linking exception
+Synopsis: Minimal ADT just to illustrate how libs work.
+BuildDepends: oUnit (>= 0.1.1)
+

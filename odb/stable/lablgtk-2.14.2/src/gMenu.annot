@@ -1,0 +1,4820 @@
+"gMenu.ml" 38 1829 1854 "gMenu.ml" 38 1829 1857
+type(
+  [> `container | `gtk | `menushell | `widget ] Gtk.obj
+)
+"gMenu.ml" 38 1829 1867 "gMenu.ml" 38 1829 1873
+type(
+  < add : callback:(GObj.widget -> unit) -> GtkSignal.id; after : 'a;
+    deactivate : callback:(unit -> unit) -> GtkSignal.id;
+    destroy : callback:(unit -> unit) -> GtkSignal.id;
+    remove : callback:(GObj.widget -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"gMenu.ml" 39 1874 1907 "gMenu.ml" 39 1874 1910
+type(
+  ([> `container | `gtk | `menushell | `widget ] as 'b) Gtk.obj
+)
+ident(
+  int_ref obj "gMenu.ml" 38 1829 1854 "gMenu.ml" 38 1829 1857
+)
+"gMenu.ml" 40 1911 1933 "gMenu.ml" 40 1911 1937
+type(
+  'a
+)
+"gMenu.ml" 40 1911 1933 "gMenu.ml" 40 1911 1945
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"gMenu.ml" 40 1911 1946 "gMenu.ml" 40 1911 1968
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkMenu.MenuShell.S.deactivate
+)
+"gMenu.ml" 40 1911 1933 "gMenu.ml" 40 1911 1968
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gMenu.ml" 57 2375 2399 "gMenu.ml" 57 2375 2402
+type(
+  [> Gtk.menu_item ] Gtk.obj
+)
+"gMenu.ml" 57 2375 2412 "gMenu.ml" 57 2375 2418
+type(
+  < activate : callback:(unit -> unit) -> GtkSignal.id;
+    add : callback:(GObj.widget -> unit) -> GtkSignal.id; after : 'a;
+    deselect : callback:(unit -> unit) -> GtkSignal.id;
+    destroy : callback:(unit -> unit) -> GtkSignal.id;
+    remove : callback:(GObj.widget -> unit) -> GtkSignal.id;
+    select : callback:(unit -> unit) -> GtkSignal.id;
+    toggle : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"gMenu.ml" 58 2419 2453 "gMenu.ml" 58 2419 2456
+type(
+  ([> Gtk.menu_item ] as 'b) Gtk.obj
+)
+type(
+  'b Gtk.obj
+)
+ident(
+  int_ref obj "gMenu.ml" 57 2375 2399 "gMenu.ml" 57 2375 2402
+)
+"gMenu.ml" 60 2497 2517 "gMenu.ml" 60 2497 2521
+type(
+  'a
+)
+"gMenu.ml" 60 2497 2517 "gMenu.ml" 60 2497 2529
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"gMenu.ml" 60 2497 2530 "gMenu.ml" 60 2497 2549
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkMenu.MenuItem.S.activate
+)
+"gMenu.ml" 60 2497 2517 "gMenu.ml" 60 2497 2549
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gMenu.ml" 64 2556 2586 "gMenu.ml" 64 2556 2589
+type(
+  [> Gtk.menu_item ] Gtk.obj
+)
+"gMenu.ml" 65 2599 2619 "gMenu.ml" 65 2599 2622
+type(
+  ([> Gtk.menu_item ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gMenu.ml" 64 2556 2586 "gMenu.ml" 64 2556 2589
+)
+"gMenu.ml" 66 2623 2643 "gMenu.ml" 66 2623 2646
+type(
+  Gtk.menu_item Gtk.obj
+)
+type(
+  Gtk.menu_item Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 67 2669 2691 "gMenu.ml" 67 2669 2692
+type(
+  < as_item : [> `widget ] Gtk.obj; .. > pre_menu
+)
+ident(
+  def w "gMenu.ml" 67 2669 2710 "gMenu.ml" 67 2669 2744
+)
+"gMenu.ml" 67 2669 2710 "gMenu.ml" 67 2669 2730
+type(
+  'a Gtk.obj -> Gtk.menu Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMenu.MenuItem.set_submenu
+)
+"gMenu.ml" 67 2669 2731 "gMenu.ml" 67 2669 2734
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 67 2669 2735 "gMenu.ml" 67 2669 2736
+type(
+  (< as_item : [> `widget ] Gtk.obj; .. > as 'b) pre_menu
+)
+ident(
+  int_ref w "gMenu.ml" 67 2669 2691 "gMenu.ml" 67 2669 2692
+)
+"gMenu.ml" 67 2669 2735 "gMenu.ml" 67 2669 2744
+call(
+  stack
+)
+type(
+  Gtk.menu Gtk.obj
+)
+"gMenu.ml" 67 2669 2710 "gMenu.ml" 67 2669 2744
+type(
+  unit
+)
+"gMenu.ml" 68 2745 2769 "gMenu.ml" 68 2745 2771
+type(
+  unit
+)
+"gMenu.ml" 68 2745 2774 "gMenu.ml" 68 2745 2797
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMenu.MenuItem.remove_submenu
+)
+"gMenu.ml" 68 2745 2798 "gMenu.ml" 68 2745 2801
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 68 2745 2774 "gMenu.ml" 68 2745 2801
+type(
+  unit
+)
+"gMenu.ml" 69 2802 2831 "gMenu.ml" 69 2802 2851
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj option
+)
+ident(
+  ext_ref GtkMenu.MenuItem.get_submenu
+)
+"gMenu.ml" 69 2802 2852 "gMenu.ml" 69 2802 2855
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 69 2802 2831 "gMenu.ml" 69 2802 2855
+type(
+  Gtk.widget Gtk.obj option
+)
+"gMenu.ml" 70 2862 2868 "gMenu.ml" 70 2862 2872
+type(
+  Gtk.widget Gtk.obj option
+)
+"gMenu.ml" 70 2862 2876 "gMenu.ml" 70 2862 2880
+type(
+  GObj.widget option
+)
+"gMenu.ml" 71 2881 2892 "gMenu.ml" 71 2881 2893
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  def w "gMenu.ml" 71 2881 2897 "gMenu.ml" 71 2881 2921
+)
+"gMenu.ml" 71 2881 2887 "gMenu.ml" 71 2881 2893
+type(
+  Gtk.widget Gtk.obj option
+)
+"gMenu.ml" 71 2881 2903 "gMenu.ml" 71 2881 2918
+type(
+  Gtk.widget Gtk.obj -> GObj.widget
+)
+"gMenu.ml" 71 2881 2919 "gMenu.ml" 71 2881 2920
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gMenu.ml" 71 2881 2892 "gMenu.ml" 71 2881 2893
+)
+"gMenu.ml" 71 2881 2902 "gMenu.ml" 71 2881 2921
+call(
+  stack
+)
+type(
+  GObj.widget
+)
+"gMenu.ml" 71 2881 2897 "gMenu.ml" 71 2881 2921
+type(
+  GObj.widget option
+)
+"gMenu.ml" 69 2802 2825 "gMenu.ml" 71 2881 2921
+type(
+  GObj.widget option
+)
+type(
+  GObj.widget option
+)
+"gMenu.ml" 72 2922 2940 "gMenu.ml" 72 2922 2942
+type(
+  unit
+)
+"gMenu.ml" 72 2922 2945 "gMenu.ml" 72 2922 2962
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMenu.MenuItem.activate
+)
+"gMenu.ml" 72 2922 2963 "gMenu.ml" 72 2922 2966
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 72 2922 2945 "gMenu.ml" 72 2922 2966
+type(
+  unit
+)
+"gMenu.ml" 73 2967 2983 "gMenu.ml" 73 2967 2985
+type(
+  unit
+)
+"gMenu.ml" 73 2967 2988 "gMenu.ml" 73 2967 3003
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMenu.MenuItem.select
+)
+"gMenu.ml" 73 2967 3004 "gMenu.ml" 73 2967 3007
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 73 2967 2988 "gMenu.ml" 73 2967 3007
+type(
+  unit
+)
+"gMenu.ml" 74 3008 3026 "gMenu.ml" 74 3008 3028
+type(
+  unit
+)
+"gMenu.ml" 74 3008 3031 "gMenu.ml" 74 3008 3048
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMenu.MenuItem.deselect
+)
+"gMenu.ml" 74 3008 3049 "gMenu.ml" 74 3008 3052
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 74 3008 3031 "gMenu.ml" 74 3008 3052
+type(
+  unit
+)
+"gMenu.ml" 75 3053 3084 "gMenu.ml" 75 3053 3112
+type(
+  'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkMenu.MenuItem.set_right_justified
+)
+"gMenu.ml" 75 3053 3113 "gMenu.ml" 75 3053 3116
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 75 3053 3084 "gMenu.ml" 75 3053 3116
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gMenu.ml" 76 3117 3144 "gMenu.ml" 76 3117 3172
+type(
+  'a Gtk.obj -> bool
+)
+ident(
+  ext_ref GtkMenu.MenuItem.get_right_justified
+)
+"gMenu.ml" 76 3117 3173 "gMenu.ml" 76 3117 3176
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 76 3117 3144 "gMenu.ml" 76 3117 3176
+type(
+  bool
+)
+type(
+  bool
+)
+"gMenu.ml" 77 3177 3203 "gMenu.ml" 77 3177 3208
+type(
+  Gtk.accel_group
+)
+ident(
+  def group "gMenu.ml" 77 3177 3209 "gMenu.ml" 79 3298 3316
+)
+"gMenu.ml" 77 3177 3215 "gMenu.ml" 77 3177 3216
+type(
+  Gdk.Tags.modifier list option
+)
+ident(
+  def m "gMenu.ml" 77 3177 3217 "gMenu.ml" 79 3298 3316
+)
+"gMenu.ml" 77 3177 3218 "gMenu.ml" 77 3177 3223
+type(
+  Gtk.Tags.accel_flag list option
+)
+ident(
+  def flags "gMenu.ml" 77 3177 3224 "gMenu.ml" 79 3298 3316
+)
+"gMenu.ml" 77 3177 3224 "gMenu.ml" 77 3177 3227
+type(
+  Gdk.keysym
+)
+ident(
+  def key "gMenu.ml" 78 3229 3233 "gMenu.ml" 79 3298 3316
+)
+"gMenu.ml" 78 3229 3233 "gMenu.ml" 78 3229 3255
+type(
+  'a Gtk.obj ->
+  sgn:('a, unit -> unit) GtkSignal.t ->
+  Gtk.accel_group ->
+  key:Gdk.keysym ->
+  ?modi:Gdk.Tags.modifier list -> ?flags:Gtk.Tags.accel_flag list -> unit
+)
+ident(
+  ext_ref GtkBase.Widget.add_accelerator
+)
+"gMenu.ml" 78 3229 3256 "gMenu.ml" 78 3229 3259
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 78 3229 3265 "gMenu.ml" 78 3229 3284
+type(
+  ('a, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkMenu.MenuItem.S.activate
+)
+"gMenu.ml" 78 3229 3285 "gMenu.ml" 78 3229 3290
+type(
+  Gtk.accel_group
+)
+ident(
+  int_ref group "gMenu.ml" 77 3177 3203 "gMenu.ml" 77 3177 3208
+)
+"gMenu.ml" 78 3229 3292 "gMenu.ml" 78 3229 3297
+type(
+  Gtk.Tags.accel_flag list option
+)
+ident(
+  int_ref flags "gMenu.ml" 77 3177 3218 "gMenu.ml" 77 3177 3223
+)
+"gMenu.ml" 79 3298 3310 "gMenu.ml" 79 3298 3311
+type(
+  Gdk.Tags.modifier list option
+)
+ident(
+  int_ref m "gMenu.ml" 77 3177 3215 "gMenu.ml" 77 3177 3216
+)
+"gMenu.ml" 79 3298 3313 "gMenu.ml" 79 3298 3316
+type(
+  Gdk.keysym
+)
+ident(
+  int_ref key "gMenu.ml" 77 3177 3224 "gMenu.ml" 77 3177 3227
+)
+"gMenu.ml" 78 3229 3233 "gMenu.ml" 79 3298 3316
+type(
+  unit
+)
+"gMenu.ml" 82 3322 3338 "gMenu.ml" 82 3322 3341
+type(
+  [> Gtk.menu_item ] Gtk.obj
+)
+"gMenu.ml" 83 3351 3392 "gMenu.ml" 83 3351 3395
+type(
+  ([> Gtk.menu_item ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gMenu.ml" 82 3322 3338 "gMenu.ml" 82 3322 3341
+)
+"gMenu.ml" 84 3396 3415 "gMenu.ml" 84 3396 3436
+type(
+  'a Gtk.obj -> menu_item_signals
+)
+"gMenu.ml" 84 3396 3437 "gMenu.ml" 84 3396 3440
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 84 3396 3415 "gMenu.ml" 84 3396 3440
+call(
+  tail
+)
+type(
+  menu_item_signals
+)
+type(
+  menu_item_signals
+)
+"gMenu.ml" 85 3441 3458 "gMenu.ml" 85 3441 3476
+type(
+  'a Gtk.obj -> GObj.event_ops
+)
+"gMenu.ml" 85 3441 3477 "gMenu.ml" 85 3441 3480
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 85 3441 3458 "gMenu.ml" 85 3441 3480
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gMenu.ml" 90 3541 3545 "gMenu.ml" 90 3541 3554
+type(
+  (< activate : unit -> unit; add : GObj.widget -> unit;
+     add_accelerator : group:Gtk.accel_group ->
+                       ?modi:[> Gdk.Tags.modifier ] list ->
+                       ?flags:[> Gtk.Tags.accel_flag ] list ->
+                       Gdk.keysym -> unit;
+     all_children : #GObj.widget list;
+     as_item : [> Gtk.menu_item ] Gobject.obj;
+     as_widget : [> Gtk.widget ] Gobject.obj; border_width : int;
+     children : #GObj.widget list; coerce : #GObj.widget;
+     connect : #menu_item_signals; deselect : unit -> unit;
+     destroy : unit -> unit; drag : #GObj.drag_ops; event : #GObj.event_ops;
+     focus : #GContainer.focus; get_oid : int;
+     get_submenu : #GObj.widget option; misc : #GObj.misc_ops;
+     remove : GObj.widget -> unit; remove_submenu : unit -> unit;
+     resize_mode : [< Gtk.Tags.resize_mode ]; right_justified : bool;
+     select : unit -> unit; set_border_width : int -> unit;
+     set_resize_mode : [> Gtk.Tags.resize_mode ] -> unit;
+     set_right_justified : bool -> unit;
+     set_submenu : menu_item pre_menu -> unit; .. >
+   as 'a) ->
+  packing:(menu_item -> unit) option -> show:bool option -> 'a
+)
+ident(
+  def pack_item "gMenu.ml" 95 3693 3693 --
+)
+"gMenu.ml" 90 3541 3555 "gMenu.ml" 90 3541 3559
+type(
+  'a
+)
+ident(
+  def self "gMenu.ml" 90 3541 3560 "gMenu.ml" 93 3685 3691
+)
+"gMenu.ml" 90 3541 3561 "gMenu.ml" 90 3541 3568
+type(
+  (menu_item -> unit) option
+)
+ident(
+  def packing "gMenu.ml" 90 3541 3569 "gMenu.ml" 93 3685 3691
+)
+"gMenu.ml" 90 3541 3570 "gMenu.ml" 90 3541 3574
+type(
+  bool option
+)
+ident(
+  def show "gMenu.ml" 91 3577 3579 "gMenu.ml" 93 3685 3691
+)
+"gMenu.ml" 91 3577 3579 "gMenu.ml" 91 3577 3582
+type(
+  f:((menu_item -> unit) -> unit) -> (menu_item -> unit) option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gMenu.ml" 91 3577 3583 "gMenu.ml" 91 3577 3590
+type(
+  (menu_item -> unit) option
+)
+ident(
+  int_ref packing "gMenu.ml" 90 3541 3561 "gMenu.ml" 90 3541 3568
+)
+"gMenu.ml" 91 3577 3599 "gMenu.ml" 91 3577 3600
+type(
+  menu_item -> unit
+)
+ident(
+  def f "gMenu.ml" 91 3577 3604 "gMenu.ml" 91 3577 3634
+)
+"gMenu.ml" 91 3577 3605 "gMenu.ml" 91 3577 3606
+type(
+  menu_item -> unit
+)
+ident(
+  int_ref f "gMenu.ml" 91 3577 3599 "gMenu.ml" 91 3577 3600
+)
+"gMenu.ml" 91 3577 3608 "gMenu.ml" 91 3577 3612
+type(
+  menu_item
+)
+type(
+  'a
+)
+ident(
+  int_ref self "gMenu.ml" 90 3541 3555 "gMenu.ml" 90 3541 3559
+)
+"gMenu.ml" 91 3577 3605 "gMenu.ml" 91 3577 3626
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"gMenu.ml" 91 3577 3594 "gMenu.ml" 91 3577 3635
+type(
+  (menu_item -> unit) -> unit
+)
+"gMenu.ml" 91 3577 3579 "gMenu.ml" 91 3577 3635
+call(
+  stack
+)
+type(
+  unit
+)
+"gMenu.ml" 92 3637 3642 "gMenu.ml" 92 3637 3646
+type(
+  bool option
+)
+ident(
+  int_ref show "gMenu.ml" 90 3541 3570 "gMenu.ml" 90 3541 3574
+)
+"gMenu.ml" 92 3637 3647 "gMenu.ml" 92 3637 3649
+type(
+  bool option -> bool option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gMenu.ml" 92 3637 3655 "gMenu.ml" 92 3637 3660
+type(
+  bool
+)
+"gMenu.ml" 92 3637 3650 "gMenu.ml" 92 3637 3660
+type(
+  bool option
+)
+"gMenu.ml" 92 3637 3642 "gMenu.ml" 92 3637 3660
+type(
+  bool
+)
+"gMenu.ml" 92 3637 3666 "gMenu.ml" 92 3637 3670
+type(
+  'a
+)
+ident(
+  int_ref self "gMenu.ml" 90 3541 3555 "gMenu.ml" 90 3541 3559
+)
+"gMenu.ml" 92 3637 3666 "gMenu.ml" 92 3637 3675
+call(
+  stack
+)
+type(
+  #GObj.misc_ops as 'b
+)
+"gMenu.ml" 92 3637 3666 "gMenu.ml" 92 3637 3680
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gMenu.ml" 92 3637 3681 "gMenu.ml" 92 3637 3683
+type(
+  unit
+)
+"gMenu.ml" 92 3637 3666 "gMenu.ml" 92 3637 3683
+type(
+  unit
+)
+"gMenu.ml" 92 3637 3639 "gMenu.ml" 92 3637 3683
+type(
+  unit
+)
+"gMenu.ml" 93 3685 3687 "gMenu.ml" 93 3685 3691
+type(
+  'a
+)
+ident(
+  int_ref self "gMenu.ml" 90 3541 3555 "gMenu.ml" 90 3541 3559
+)
+"gMenu.ml" 92 3637 3639 "gMenu.ml" 93 3685 3691
+type(
+  'a
+)
+"gMenu.ml" 91 3577 3579 "gMenu.ml" 93 3685 3691
+type(
+  'a
+)
+"gMenu.ml" 95 3693 3697 "gMenu.ml" 95 3693 3706
+type(
+  ?use_mnemonic:bool ->
+  ?label:string ->
+  ?right_justified:bool ->
+  ?packing:(menu_item -> unit) -> ?show:bool -> unit -> menu_item
+)
+ident(
+  def menu_item "gMenu.ml" 100 3923 3923 --
+)
+"gMenu.ml" 95 3693 3708 "gMenu.ml" 95 3693 3720
+type(
+  bool option
+)
+ident(
+  def use_mnemonic "gMenu.ml" 95 3693 3721 "gMenu.ml" 98 3877 3921
+)
+"gMenu.ml" 95 3693 3722 "gMenu.ml" 95 3693 3727
+type(
+  string option
+)
+ident(
+  def label "gMenu.ml" 95 3693 3728 "gMenu.ml" 98 3877 3921
+)
+"gMenu.ml" 95 3693 3729 "gMenu.ml" 95 3693 3744
+type(
+  bool option
+)
+ident(
+  def right_justified "gMenu.ml" 95 3693 3745 "gMenu.ml" 98 3877 3921
+)
+"gMenu.ml" 95 3693 3746 "gMenu.ml" 95 3693 3753
+type(
+  (menu_item -> unit) option
+)
+ident(
+  def packing "gMenu.ml" 95 3693 3754 "gMenu.ml" 98 3877 3921
+)
+"gMenu.ml" 95 3693 3755 "gMenu.ml" 95 3693 3759
+type(
+  bool option
+)
+ident(
+  def show "gMenu.ml" 95 3693 3760 "gMenu.ml" 98 3877 3921
+)
+"gMenu.ml" 95 3693 3760 "gMenu.ml" 95 3693 3762
+type(
+  unit
+)
+"gMenu.ml" 96 3765 3771 "gMenu.ml" 96 3765 3772
+type(
+  Gtk.menu_item Gtk.obj
+)
+"gMenu.ml" 96 3765 3775 "gMenu.ml" 96 3765 3790
+type(
+  ?use_mnemonic:bool -> ?label:string -> unit -> Gtk.menu_item Gtk.obj
+)
+ident(
+  ext_ref GtkMenu.MenuItem.create
+)
+"gMenu.ml" 96 3765 3792 "gMenu.ml" 96 3765 3804
+type(
+  bool option
+)
+ident(
+  int_ref use_mnemonic "gMenu.ml" 95 3693 3708 "gMenu.ml" 95 3693 3720
+)
+"gMenu.ml" 96 3765 3806 "gMenu.ml" 96 3765 3811
+type(
+  string option
+)
+ident(
+  int_ref label "gMenu.ml" 95 3693 3722 "gMenu.ml" 95 3693 3727
+)
+"gMenu.ml" 96 3765 3812 "gMenu.ml" 96 3765 3814
+type(
+  unit
+)
+"gMenu.ml" 96 3765 3775 "gMenu.ml" 96 3765 3814
+call(
+  stack
+)
+type(
+  Gtk.menu_item Gtk.obj
+)
+"gMenu.ml" 97 3818 3820 "gMenu.ml" 97 3818 3823
+type(
+  f:(bool -> unit) -> bool option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gMenu.ml" 97 3818 3824 "gMenu.ml" 97 3818 3839
+type(
+  bool option
+)
+ident(
+  int_ref right_justified "gMenu.ml" 95 3693 3729 "gMenu.ml" 95 3693 3744
+)
+"gMenu.ml" 97 3818 3844 "gMenu.ml" 97 3818 3872
+type(
+  Gtk.menu_item Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkMenu.MenuItem.set_right_justified
+)
+"gMenu.ml" 97 3818 3873 "gMenu.ml" 97 3818 3874
+type(
+  Gtk.menu_item Gtk.obj
+)
+ident(
+  int_ref w "gMenu.ml" 96 3765 3771 "gMenu.ml" 96 3765 3772
+)
+"gMenu.ml" 97 3818 3843 "gMenu.ml" 97 3818 3875
+call(
+  stack
+)
+type(
+  bool -> unit
+)
+"gMenu.ml" 97 3818 3820 "gMenu.ml" 97 3818 3875
+call(
+  stack
+)
+type(
+  unit
+)
+"gMenu.ml" 98 3877 3879 "gMenu.ml" 98 3877 3888
+type(
+  menu_item ->
+  packing:(menu_item -> unit) option -> show:bool option -> menu_item
+)
+ident(
+  int_ref pack_item "gMenu.ml" 90 3541 3545 "gMenu.ml" 90 3541 3554
+)
+"gMenu.ml" 98 3877 3890 "gMenu.ml" 98 3877 3903
+type(
+  Gtk.menu_item Gtk.obj -> menu_item
+)
+"gMenu.ml" 98 3877 3904 "gMenu.ml" 98 3877 3905
+type(
+  Gtk.menu_item Gtk.obj
+)
+ident(
+  int_ref w "gMenu.ml" 96 3765 3771 "gMenu.ml" 96 3765 3772
+)
+"gMenu.ml" 98 3877 3889 "gMenu.ml" 98 3877 3906
+call(
+  stack
+)
+type(
+  menu_item
+)
+"gMenu.ml" 98 3877 3908 "gMenu.ml" 98 3877 3915
+type(
+  (menu_item -> unit) option
+)
+ident(
+  int_ref packing "gMenu.ml" 95 3693 3746 "gMenu.ml" 95 3693 3753
+)
+"gMenu.ml" 98 3877 3917 "gMenu.ml" 98 3877 3921
+type(
+  bool option
+)
+ident(
+  int_ref show "gMenu.ml" 95 3693 3755 "gMenu.ml" 95 3693 3759
+)
+"gMenu.ml" 98 3877 3879 "gMenu.ml" 98 3877 3921
+call(
+  tail
+)
+type(
+  menu_item
+)
+"gMenu.ml" 97 3818 3820 "gMenu.ml" 98 3877 3921
+type(
+  menu_item
+)
+"gMenu.ml" 96 3765 3767 "gMenu.ml" 98 3877 3921
+type(
+  menu_item
+)
+"gMenu.ml" 100 3923 3927 "gMenu.ml" 100 3923 3939
+type(
+  ?packing:(menu_item -> unit) -> ?show:bool -> unit -> menu_item
+)
+ident(
+  def tearoff_item "gMenu.ml" 104 4046 4046 --
+)
+"gMenu.ml" 100 3923 3941 "gMenu.ml" 100 3923 3948
+type(
+  (menu_item -> unit) option
+)
+ident(
+  def packing "gMenu.ml" 100 3923 3949 "gMenu.ml" 102 4000 4044
+)
+"gMenu.ml" 100 3923 3950 "gMenu.ml" 100 3923 3954
+type(
+  bool option
+)
+ident(
+  def show "gMenu.ml" 100 3923 3955 "gMenu.ml" 102 4000 4044
+)
+"gMenu.ml" 100 3923 3955 "gMenu.ml" 100 3923 3957
+type(
+  unit
+)
+"gMenu.ml" 101 3960 3966 "gMenu.ml" 101 3960 3967
+type(
+  Gtk.menu_item Gtk.obj
+)
+"gMenu.ml" 101 3960 3970 "gMenu.ml" 101 3960 3993
+type(
+  unit -> Gtk.menu_item Gtk.obj
+)
+ident(
+  ext_ref GtkMenu.MenuItem.tearoff_create
+)
+"gMenu.ml" 101 3960 3994 "gMenu.ml" 101 3960 3996
+type(
+  unit
+)
+"gMenu.ml" 101 3960 3970 "gMenu.ml" 101 3960 3996
+type(
+  Gtk.menu_item Gtk.obj
+)
+"gMenu.ml" 102 4000 4002 "gMenu.ml" 102 4000 4011
+type(
+  menu_item ->
+  packing:(menu_item -> unit) option -> show:bool option -> menu_item
+)
+ident(
+  int_ref pack_item "gMenu.ml" 90 3541 3545 "gMenu.ml" 90 3541 3554
+)
+"gMenu.ml" 102 4000 4013 "gMenu.ml" 102 4000 4026
+type(
+  Gtk.menu_item Gtk.obj -> menu_item
+)
+"gMenu.ml" 102 4000 4027 "gMenu.ml" 102 4000 4028
+type(
+  Gtk.menu_item Gtk.obj
+)
+ident(
+  int_ref w "gMenu.ml" 101 3960 3966 "gMenu.ml" 101 3960 3967
+)
+"gMenu.ml" 102 4000 4012 "gMenu.ml" 102 4000 4029
+call(
+  stack
+)
+type(
+  menu_item
+)
+"gMenu.ml" 102 4000 4031 "gMenu.ml" 102 4000 4038
+type(
+  (menu_item -> unit) option
+)
+ident(
+  int_ref packing "gMenu.ml" 100 3923 3941 "gMenu.ml" 100 3923 3948
+)
+"gMenu.ml" 102 4000 4040 "gMenu.ml" 102 4000 4044
+type(
+  bool option
+)
+ident(
+  int_ref show "gMenu.ml" 100 3923 3950 "gMenu.ml" 100 3923 3954
+)
+"gMenu.ml" 102 4000 4002 "gMenu.ml" 102 4000 4044
+call(
+  tail
+)
+type(
+  menu_item
+)
+"gMenu.ml" 101 3960 3962 "gMenu.ml" 102 4000 4044
+type(
+  menu_item
+)
+"gMenu.ml" 104 4046 4050 "gMenu.ml" 104 4046 4064
+type(
+  ?packing:(menu_item -> unit) -> ?show:bool -> unit -> menu_item
+)
+ident(
+  def separator_item "gMenu.ml" 109 4174 4174 --
+)
+"gMenu.ml" 104 4046 4066 "gMenu.ml" 104 4046 4073
+type(
+  (menu_item -> unit) option
+)
+ident(
+  def packing "gMenu.ml" 104 4046 4074 "gMenu.ml" 106 4127 4171
+)
+"gMenu.ml" 104 4046 4075 "gMenu.ml" 104 4046 4079
+type(
+  bool option
+)
+ident(
+  def show "gMenu.ml" 104 4046 4080 "gMenu.ml" 106 4127 4171
+)
+"gMenu.ml" 104 4046 4080 "gMenu.ml" 104 4046 4082
+type(
+  unit
+)
+"gMenu.ml" 105 4085 4091 "gMenu.ml" 105 4085 4092
+type(
+  Gtk.menu_item Gtk.obj
+)
+"gMenu.ml" 105 4085 4095 "gMenu.ml" 105 4085 4120
+type(
+  unit -> Gtk.menu_item Gtk.obj
+)
+ident(
+  ext_ref GtkMenu.MenuItem.separator_create
+)
+"gMenu.ml" 105 4085 4121 "gMenu.ml" 105 4085 4123
+type(
+  unit
+)
+"gMenu.ml" 105 4085 4095 "gMenu.ml" 105 4085 4123
+type(
+  Gtk.menu_item Gtk.obj
+)
+"gMenu.ml" 106 4127 4129 "gMenu.ml" 106 4127 4138
+type(
+  menu_item ->
+  packing:(menu_item -> unit) option -> show:bool option -> menu_item
+)
+ident(
+  int_ref pack_item "gMenu.ml" 90 3541 3545 "gMenu.ml" 90 3541 3554
+)
+"gMenu.ml" 106 4127 4140 "gMenu.ml" 106 4127 4153
+type(
+  Gtk.menu_item Gtk.obj -> menu_item
+)
+"gMenu.ml" 106 4127 4154 "gMenu.ml" 106 4127 4155
+type(
+  Gtk.menu_item Gtk.obj
+)
+ident(
+  int_ref w "gMenu.ml" 105 4085 4091 "gMenu.ml" 105 4085 4092
+)
+"gMenu.ml" 106 4127 4139 "gMenu.ml" 106 4127 4156
+call(
+  stack
+)
+type(
+  menu_item
+)
+"gMenu.ml" 106 4127 4158 "gMenu.ml" 106 4127 4165
+type(
+  (menu_item -> unit) option
+)
+ident(
+  int_ref packing "gMenu.ml" 104 4046 4066 "gMenu.ml" 104 4046 4073
+)
+"gMenu.ml" 106 4127 4167 "gMenu.ml" 106 4127 4171
+type(
+  bool option
+)
+ident(
+  int_ref show "gMenu.ml" 104 4046 4075 "gMenu.ml" 104 4046 4079
+)
+"gMenu.ml" 106 4127 4129 "gMenu.ml" 106 4127 4171
+call(
+  tail
+)
+type(
+  menu_item
+)
+"gMenu.ml" 105 4085 4087 "gMenu.ml" 106 4127 4171
+type(
+  menu_item
+)
+"gMenu.ml" 109 4174 4196 "gMenu.ml" 109 4174 4199
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gMenu.ml" 110 4209 4235 "gMenu.ml" 110 4209 4238
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+ident(
+  int_ref obj "gMenu.ml" 109 4174 4196 "gMenu.ml" 109 4174 4199
+)
+"gMenu.ml" 111 4266 4285 "gMenu.ml" 111 4266 4286
+type(
+  GObj.widget
+)
+ident(
+  def w "gMenu.ml" 111 4266 4289 "gMenu.ml" 111 4266 4332
+)
+"gMenu.ml" 111 4266 4289 "gMenu.ml" 111 4266 4292
+type(
+  (Gtk.image_menu_item, Gtk.widget Gtk.obj) Gobject.property ->
+  Gtk.image_menu_item Gtk.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref OgtkMenuProps.set
+)
+"gMenu.ml" 111 4266 4293 "gMenu.ml" 111 4266 4314
+type(
+  (Gtk.image_menu_item, Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkMenu.ImageMenuItem.P.image
+)
+"gMenu.ml" 111 4266 4315 "gMenu.ml" 111 4266 4318
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gMenu.ml" 111 4266 4320 "gMenu.ml" 111 4266 4329
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gMenu.ml" 111 4266 4330 "gMenu.ml" 111 4266 4331
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gMenu.ml" 111 4266 4285 "gMenu.ml" 111 4266 4286
+)
+"gMenu.ml" 111 4266 4319 "gMenu.ml" 111 4266 4332
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gMenu.ml" 111 4266 4289 "gMenu.ml" 111 4266 4332
+call(
+  tail
+)
+type(
+  unit
+)
+"gMenu.ml" 112 4333 4350 "gMenu.ml" 112 4333 4360
+type(
+  Gtk.widget Gtk.obj -> GObj.widget
+)
+"gMenu.ml" 112 4333 4362 "gMenu.ml" 112 4333 4365
+type(
+  (Gtk.image_menu_item, Gtk.widget Gtk.obj) Gobject.property ->
+  Gtk.image_menu_item Gtk.obj -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref OgtkMenuProps.get
+)
+"gMenu.ml" 112 4333 4366 "gMenu.ml" 112 4333 4387
+type(
+  (Gtk.image_menu_item, Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkMenu.ImageMenuItem.P.image
+)
+"gMenu.ml" 112 4333 4388 "gMenu.ml" 112 4333 4391
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gMenu.ml" 112 4333 4361 "gMenu.ml" 112 4333 4392
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gMenu.ml" 112 4333 4350 "gMenu.ml" 112 4333 4392
+call(
+  tail
+)
+type(
+  GObj.widget
+)
+type(
+  GObj.widget
+)
+"gMenu.ml" 113 4393 4412 "gMenu.ml" 113 4393 4433
+type(
+  Gtk.image_menu_item Gtk.obj -> menu_item_signals
+)
+"gMenu.ml" 113 4393 4434 "gMenu.ml" 113 4393 4437
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gMenu.ml" 113 4393 4412 "gMenu.ml" 113 4393 4437
+call(
+  tail
+)
+type(
+  menu_item_signals
+)
+type(
+  menu_item_signals
+)
+"gMenu.ml" 114 4438 4455 "gMenu.ml" 114 4438 4473
+type(
+  Gtk.image_menu_item Gtk.obj -> GObj.event_ops
+)
+"gMenu.ml" 114 4438 4474 "gMenu.ml" 114 4438 4477
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gMenu.ml" 114 4438 4455 "gMenu.ml" 114 4438 4477
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gMenu.ml" 117 4483 4487 "gMenu.ml" 117 4483 4502
+type(
+  ?image:< as_widget : Gtk.widget Gtk.obj; .. > ->
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?right_justified:bool ->
+  ?packing:(menu_item -> unit) -> ?show:bool -> unit -> image_menu_item
+)
+ident(
+  def image_menu_item "gMenu.ml" 125 4833 4833 --
+)
+"gMenu.ml" 118 4504 4507 "gMenu.ml" 118 4504 4512
+type(
+  (< as_widget : Gtk.widget Gtk.obj; .. > as 'a) option
+)
+ident(
+  def image "gMenu.ml" 118 4504 4513 "gMenu.ml" 123 4781 4831
+)
+"gMenu.ml" 118 4504 4514 "gMenu.ml" 118 4504 4519
+type(
+  string option
+)
+ident(
+  def label "gMenu.ml" 118 4504 4520 "gMenu.ml" 123 4781 4831
+)
+"gMenu.ml" 118 4504 4522 "gMenu.ml" 118 4504 4534
+type(
+  bool
+)
+"gMenu.ml" 118 4504 4535 "gMenu.ml" 118 4504 4540
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gMenu.ml" 118 4504 4535 "gMenu.ml" 118 4504 4540
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gMenu.ml" 118 4504 4535 "gMenu.ml" 118 4504 4540
+)
+"gMenu.ml" 118 4504 4543 "gMenu.ml" 118 4504 4548
+type(
+  GtkStock.id option
+)
+ident(
+  def stock "gMenu.ml" 118 4504 4549 "gMenu.ml" 123 4781 4831
+)
+"gMenu.ml" 118 4504 4550 "gMenu.ml" 118 4504 4565
+type(
+  bool option
+)
+ident(
+  def right_justified "gMenu.ml" 119 4566 4568 "gMenu.ml" 123 4781 4831
+)
+"gMenu.ml" 119 4566 4569 "gMenu.ml" 119 4566 4576
+type(
+  (menu_item -> unit) option
+)
+ident(
+  def packing "gMenu.ml" 119 4566 4577 "gMenu.ml" 123 4781 4831
+)
+"gMenu.ml" 119 4566 4578 "gMenu.ml" 119 4566 4582
+type(
+  bool option
+)
+ident(
+  def show "gMenu.ml" 119 4566 4583 "gMenu.ml" 123 4781 4831
+)
+"gMenu.ml" 119 4566 4583 "gMenu.ml" 119 4566 4585
+type(
+  unit
+)
+"gMenu.ml" 120 4588 4594 "gMenu.ml" 120 4588 4595
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gMenu.ml" 120 4588 4598 "gMenu.ml" 120 4588 4618
+type(
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?accel_group:Gtk.accel_group -> unit -> Gtk.image_menu_item Gtk.obj
+)
+ident(
+  ext_ref GtkMenu.ImageMenuItem.create
+)
+"gMenu.ml" 120 4588 4620 "gMenu.ml" 120 4588 4625
+type(
+  string option
+)
+ident(
+  int_ref label "gMenu.ml" 118 4504 4514 "gMenu.ml" 118 4504 4519
+)
+"gMenu.ml" 120 4588 4627 "gMenu.ml" 120 4588 4632
+type(
+  GtkStock.id option
+)
+ident(
+  int_ref stock "gMenu.ml" 118 4504 4543 "gMenu.ml" 118 4504 4548
+)
+"gMenu.ml" 120 4588 4634 "gMenu.ml" 120 4588 4646
+type(
+  bool
+)
+ident(
+  int_ref use_mnemonic "gMenu.ml" 118 4504 4522 "gMenu.ml" 118 4504 4534
+)
+"gMenu.ml" 120 4588 4647 "gMenu.ml" 120 4588 4649
+type(
+  unit
+)
+"gMenu.ml" 120 4588 4598 "gMenu.ml" 120 4588 4649
+call(
+  stack
+)
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gMenu.ml" 121 4653 4655 "gMenu.ml" 121 4653 4658
+type(
+  f:(bool -> unit) -> bool option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gMenu.ml" 121 4653 4659 "gMenu.ml" 121 4653 4674
+type(
+  bool option
+)
+ident(
+  int_ref right_justified "gMenu.ml" 118 4504 4550 "gMenu.ml" 118 4504 4565
+)
+"gMenu.ml" 121 4653 4679 "gMenu.ml" 121 4653 4707
+type(
+  Gtk.image_menu_item Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkMenu.MenuItem.set_right_justified
+)
+"gMenu.ml" 121 4653 4708 "gMenu.ml" 121 4653 4709
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+ident(
+  int_ref w "gMenu.ml" 120 4588 4594 "gMenu.ml" 120 4588 4595
+)
+"gMenu.ml" 121 4653 4678 "gMenu.ml" 121 4653 4710
+call(
+  stack
+)
+type(
+  bool -> unit
+)
+"gMenu.ml" 121 4653 4655 "gMenu.ml" 121 4653 4710
+call(
+  stack
+)
+type(
+  unit
+)
+"gMenu.ml" 122 4712 4714 "gMenu.ml" 122 4712 4717
+type(
+  f:('a -> unit) -> 'a option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gMenu.ml" 122 4712 4718 "gMenu.ml" 122 4712 4723
+type(
+  'a option
+)
+ident(
+  int_ref image "gMenu.ml" 118 4504 4507 "gMenu.ml" 118 4504 4512
+)
+"gMenu.ml" 122 4712 4732 "gMenu.ml" 122 4712 4734
+type(
+  'a
+)
+ident(
+  def im "gMenu.ml" 122 4712 4738 "gMenu.ml" 122 4712 4778
+)
+"gMenu.ml" 122 4712 4738 "gMenu.ml" 122 4712 4741
+type(
+  (Gtk.image_menu_item, Gtk.widget Gtk.obj) Gobject.property ->
+  Gtk.image_menu_item Gtk.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref OgtkMenuProps.set
+)
+"gMenu.ml" 122 4712 4742 "gMenu.ml" 122 4712 4763
+type(
+  (Gtk.image_menu_item, Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkMenu.ImageMenuItem.P.image
+)
+"gMenu.ml" 122 4712 4764 "gMenu.ml" 122 4712 4765
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+ident(
+  int_ref w "gMenu.ml" 120 4588 4594 "gMenu.ml" 120 4588 4595
+)
+"gMenu.ml" 122 4712 4766 "gMenu.ml" 122 4712 4768
+type(
+  'a
+)
+ident(
+  int_ref im "gMenu.ml" 122 4712 4732 "gMenu.ml" 122 4712 4734
+)
+"gMenu.ml" 122 4712 4766 "gMenu.ml" 122 4712 4778
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gMenu.ml" 122 4712 4738 "gMenu.ml" 122 4712 4778
+call(
+  tail
+)
+type(
+  unit
+)
+"gMenu.ml" 122 4712 4727 "gMenu.ml" 122 4712 4779
+type(
+  'a -> unit
+)
+"gMenu.ml" 122 4712 4714 "gMenu.ml" 122 4712 4779
+call(
+  stack
+)
+type(
+  unit
+)
+"gMenu.ml" 123 4781 4783 "gMenu.ml" 123 4781 4792
+type(
+  image_menu_item ->
+  packing:(menu_item -> unit) option -> show:bool option -> image_menu_item
+)
+ident(
+  int_ref pack_item "gMenu.ml" 90 3541 3545 "gMenu.ml" 90 3541 3554
+)
+"gMenu.ml" 123 4781 4794 "gMenu.ml" 123 4781 4813
+type(
+  Gtk.image_menu_item Gtk.obj -> image_menu_item
+)
+"gMenu.ml" 123 4781 4814 "gMenu.ml" 123 4781 4815
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+ident(
+  int_ref w "gMenu.ml" 120 4588 4594 "gMenu.ml" 120 4588 4595
+)
+"gMenu.ml" 123 4781 4793 "gMenu.ml" 123 4781 4816
+call(
+  stack
+)
+type(
+  image_menu_item
+)
+"gMenu.ml" 123 4781 4818 "gMenu.ml" 123 4781 4825
+type(
+  (menu_item -> unit) option
+)
+ident(
+  int_ref packing "gMenu.ml" 119 4566 4569 "gMenu.ml" 119 4566 4576
+)
+"gMenu.ml" 123 4781 4827 "gMenu.ml" 123 4781 4831
+type(
+  bool option
+)
+ident(
+  int_ref show "gMenu.ml" 119 4566 4578 "gMenu.ml" 119 4566 4582
+)
+"gMenu.ml" 123 4781 4783 "gMenu.ml" 123 4781 4831
+call(
+  tail
+)
+type(
+  image_menu_item
+)
+"gMenu.ml" 122 4712 4714 "gMenu.ml" 123 4781 4831
+type(
+  image_menu_item
+)
+"gMenu.ml" 121 4653 4655 "gMenu.ml" 123 4781 4831
+type(
+  image_menu_item
+)
+"gMenu.ml" 120 4588 4590 "gMenu.ml" 123 4781 4831
+type(
+  image_menu_item
+)
+"gMenu.ml" 125 4833 4863 "gMenu.ml" 125 4833 4866
+type(
+  [> `bin | `checkmenuitem | `container | `gtk | `item | `menuitem | `widget ]
+  Gtk.obj
+)
+"gMenu.ml" 125 4833 4876 "gMenu.ml" 125 4833 4882
+type(
+  < activate : callback:(unit -> unit) -> GtkSignal.id;
+    add : callback:(GObj.widget -> unit) -> GtkSignal.id; after : 'a;
+    deselect : callback:(unit -> unit) -> GtkSignal.id;
+    destroy : callback:(unit -> unit) -> GtkSignal.id;
+    remove : callback:(GObj.widget -> unit) -> GtkSignal.id;
+    select : callback:(unit -> unit) -> GtkSignal.id;
+    toggle : callback:(unit -> unit) -> GtkSignal.id;
+    toggled : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"gMenu.ml" 126 4883 4911 "gMenu.ml" 126 4883 4914
+type(
+  ([> `bin | `checkmenuitem | `container | `gtk | `item | `menuitem | `widget ]
+   as 'b)
+  Gtk.obj
+)
+ident(
+  int_ref obj "gMenu.ml" 125 4833 4863 "gMenu.ml" 125 4833 4866
+)
+"gMenu.ml" 127 4915 4934 "gMenu.ml" 127 4915 4938
+type(
+  'a
+)
+"gMenu.ml" 127 4915 4934 "gMenu.ml" 127 4915 4946
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"gMenu.ml" 127 4915 4947 "gMenu.ml" 127 4915 4970
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkMenu.CheckMenuItem.S.toggled
+)
+"gMenu.ml" 127 4915 4934 "gMenu.ml" 127 4915 4970
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gMenu.ml" 130 4976 4998 "gMenu.ml" 130 4976 5001
+type(
+  [> `bin | `checkmenuitem | `container | `gtk | `item | `menuitem | `widget ]
+  Gtk.obj
+)
+"gMenu.ml" 131 5011 5036 "gMenu.ml" 131 5011 5039
+type(
+  ([> `bin | `checkmenuitem | `container | `gtk | `item | `menuitem | `widget ]
+   as 'a)
+  Gtk.obj
+)
+ident(
+  int_ref obj "gMenu.ml" 130 4976 4998 "gMenu.ml" 130 4976 5001
+)
+"gMenu.ml" 132 5040 5062 "gMenu.ml" 132 5040 5065
+type(
+  ('a, bool) Gobject.property -> 'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref OgtkMenuProps.set
+)
+"gMenu.ml" 132 5040 5066 "gMenu.ml" 132 5040 5088
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMenu.CheckMenuItem.P.active
+)
+"gMenu.ml" 132 5040 5089 "gMenu.ml" 132 5040 5092
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 132 5040 5062 "gMenu.ml" 132 5040 5092
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gMenu.ml" 133 5093 5121 "gMenu.ml" 133 5093 5124
+type(
+  ('a, bool) Gobject.property -> 'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref OgtkMenuProps.set
+)
+"gMenu.ml" 133 5093 5125 "gMenu.ml" 133 5093 5153
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMenu.CheckMenuItem.P.inconsistent
+)
+"gMenu.ml" 133 5093 5154 "gMenu.ml" 133 5093 5157
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 133 5093 5121 "gMenu.ml" 133 5093 5157
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gMenu.ml" 134 5158 5182 "gMenu.ml" 134 5158 5185
+type(
+  ('a, bool) Gobject.property -> 'a Gtk.obj -> bool
+)
+ident(
+  ext_ref OgtkMenuProps.get
+)
+"gMenu.ml" 134 5158 5186 "gMenu.ml" 134 5158 5214
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMenu.CheckMenuItem.P.inconsistent
+)
+"gMenu.ml" 134 5158 5215 "gMenu.ml" 134 5158 5218
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 134 5158 5182 "gMenu.ml" 134 5158 5218
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"gMenu.ml" 135 5219 5246 "gMenu.ml" 135 5219 5275
+type(
+  'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkMenu.CheckMenuItem.set_show_toggle
+)
+"gMenu.ml" 135 5219 5276 "gMenu.ml" 135 5219 5279
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 135 5219 5246 "gMenu.ml" 135 5219 5279
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gMenu.ml" 136 5280 5298 "gMenu.ml" 136 5280 5301
+type(
+  ('a, bool) Gobject.property -> 'a Gtk.obj -> bool
+)
+ident(
+  ext_ref OgtkMenuProps.get
+)
+"gMenu.ml" 136 5280 5302 "gMenu.ml" 136 5280 5324
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMenu.CheckMenuItem.P.active
+)
+"gMenu.ml" 136 5280 5325 "gMenu.ml" 136 5280 5328
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 136 5280 5298 "gMenu.ml" 136 5280 5328
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"gMenu.ml" 137 5329 5346 "gMenu.ml" 137 5329 5348
+type(
+  unit
+)
+"gMenu.ml" 137 5329 5351 "gMenu.ml" 137 5329 5372
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMenu.CheckMenuItem.toggled
+)
+"gMenu.ml" 137 5329 5373 "gMenu.ml" 137 5329 5376
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 137 5329 5351 "gMenu.ml" 137 5329 5376
+type(
+  unit
+)
+"gMenu.ml" 138 5377 5396 "gMenu.ml" 138 5377 5423
+type(
+  'a Gtk.obj -> check_menu_item_signals
+)
+"gMenu.ml" 138 5377 5424 "gMenu.ml" 138 5377 5427
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 138 5377 5396 "gMenu.ml" 138 5377 5427
+call(
+  tail
+)
+type(
+  check_menu_item_signals
+)
+type(
+  check_menu_item_signals
+)
+"gMenu.ml" 139 5428 5445 "gMenu.ml" 139 5428 5463
+type(
+  'a Gtk.obj -> GObj.event_ops
+)
+"gMenu.ml" 139 5428 5464 "gMenu.ml" 139 5428 5467
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 139 5428 5445 "gMenu.ml" 139 5428 5467
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gMenu.ml" 142 5473 5477 "gMenu.ml" 142 5473 5492
+type(
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?active:bool ->
+  ?show_toggle:bool ->
+  ?right_justified:bool ->
+  ?packing:(menu_item -> unit) -> ?show:bool -> unit -> check_menu_item
+)
+ident(
+  def check_menu_item "gMenu.ml" 148 5747 5747 --
+)
+"gMenu.ml" 142 5473 5494 "gMenu.ml" 142 5473 5499
+type(
+  string option
+)
+ident(
+  def label "gMenu.ml" 142 5473 5500 "gMenu.ml" 146 5695 5745
+)
+"gMenu.ml" 142 5473 5501 "gMenu.ml" 142 5473 5513
+type(
+  bool option
+)
+ident(
+  def use_mnemonic "gMenu.ml" 142 5473 5514 "gMenu.ml" 146 5695 5745
+)
+"gMenu.ml" 142 5473 5515 "gMenu.ml" 142 5473 5521
+type(
+  bool option
+)
+ident(
+  def active "gMenu.ml" 142 5473 5522 "gMenu.ml" 146 5695 5745
+)
+"gMenu.ml" 142 5473 5523 "gMenu.ml" 142 5473 5534
+type(
+  bool option
+)
+ident(
+  def show_toggle "gMenu.ml" 142 5473 5535 "gMenu.ml" 146 5695 5745
+)
+"gMenu.ml" 142 5473 5536 "gMenu.ml" 142 5473 5551
+type(
+  bool option
+)
+ident(
+  def right_justified "gMenu.ml" 143 5552 5556 "gMenu.ml" 146 5695 5745
+)
+"gMenu.ml" 143 5552 5557 "gMenu.ml" 143 5552 5564
+type(
+  (menu_item -> unit) option
+)
+ident(
+  def packing "gMenu.ml" 143 5552 5565 "gMenu.ml" 146 5695 5745
+)
+"gMenu.ml" 143 5552 5566 "gMenu.ml" 143 5552 5570
+type(
+  bool option
+)
+ident(
+  def show "gMenu.ml" 143 5552 5571 "gMenu.ml" 146 5695 5745
+)
+"gMenu.ml" 143 5552 5571 "gMenu.ml" 143 5552 5573
+type(
+  unit
+)
+"gMenu.ml" 144 5576 5582 "gMenu.ml" 144 5576 5583
+type(
+  Gtk.check_menu_item Gtk.obj
+)
+"gMenu.ml" 144 5576 5586 "gMenu.ml" 144 5576 5606
+type(
+  ?use_mnemonic:bool -> ?label:string -> unit -> Gtk.check_menu_item Gtk.obj
+)
+ident(
+  ext_ref GtkMenu.CheckMenuItem.create
+)
+"gMenu.ml" 144 5576 5608 "gMenu.ml" 144 5576 5620
+type(
+  bool option
+)
+ident(
+  int_ref use_mnemonic "gMenu.ml" 142 5473 5501 "gMenu.ml" 142 5473 5513
+)
+"gMenu.ml" 144 5576 5622 "gMenu.ml" 144 5576 5627
+type(
+  string option
+)
+ident(
+  int_ref label "gMenu.ml" 142 5473 5494 "gMenu.ml" 142 5473 5499
+)
+"gMenu.ml" 144 5576 5628 "gMenu.ml" 144 5576 5630
+type(
+  unit
+)
+"gMenu.ml" 144 5576 5586 "gMenu.ml" 144 5576 5630
+call(
+  stack
+)
+type(
+  Gtk.check_menu_item Gtk.obj
+)
+"gMenu.ml" 145 5634 5636 "gMenu.ml" 145 5634 5653
+type(
+  ?active:bool ->
+  ?show_toggle:bool ->
+  ?right_justified:bool -> Gtk.check_menu_item Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMenu.CheckMenuItem.set
+)
+"gMenu.ml" 145 5634 5654 "gMenu.ml" 145 5634 5655
+type(
+  Gtk.check_menu_item Gtk.obj
+)
+ident(
+  int_ref w "gMenu.ml" 144 5576 5582 "gMenu.ml" 144 5576 5583
+)
+"gMenu.ml" 145 5634 5657 "gMenu.ml" 145 5634 5663
+type(
+  bool option
+)
+ident(
+  int_ref active "gMenu.ml" 142 5473 5515 "gMenu.ml" 142 5473 5521
+)
+"gMenu.ml" 145 5634 5665 "gMenu.ml" 145 5634 5676
+type(
+  bool option
+)
+ident(
+  int_ref show_toggle "gMenu.ml" 142 5473 5523 "gMenu.ml" 142 5473 5534
+)
+"gMenu.ml" 145 5634 5678 "gMenu.ml" 145 5634 5693
+type(
+  bool option
+)
+ident(
+  int_ref right_justified "gMenu.ml" 142 5473 5536 "gMenu.ml" 142 5473 5551
+)
+"gMenu.ml" 145 5634 5636 "gMenu.ml" 145 5634 5693
+call(
+  stack
+)
+type(
+  unit
+)
+"gMenu.ml" 146 5695 5697 "gMenu.ml" 146 5695 5706
+type(
+  check_menu_item ->
+  packing:(menu_item -> unit) option -> show:bool option -> check_menu_item
+)
+ident(
+  int_ref pack_item "gMenu.ml" 90 3541 3545 "gMenu.ml" 90 3541 3554
+)
+"gMenu.ml" 146 5695 5708 "gMenu.ml" 146 5695 5727
+type(
+  Gtk.check_menu_item Gtk.obj -> check_menu_item
+)
+"gMenu.ml" 146 5695 5728 "gMenu.ml" 146 5695 5729
+type(
+  Gtk.check_menu_item Gtk.obj
+)
+ident(
+  int_ref w "gMenu.ml" 144 5576 5582 "gMenu.ml" 144 5576 5583
+)
+"gMenu.ml" 146 5695 5707 "gMenu.ml" 146 5695 5730
+call(
+  stack
+)
+type(
+  check_menu_item
+)
+"gMenu.ml" 146 5695 5732 "gMenu.ml" 146 5695 5739
+type(
+  (menu_item -> unit) option
+)
+ident(
+  int_ref packing "gMenu.ml" 143 5552 5557 "gMenu.ml" 143 5552 5564
+)
+"gMenu.ml" 146 5695 5741 "gMenu.ml" 146 5695 5745
+type(
+  bool option
+)
+ident(
+  int_ref show "gMenu.ml" 143 5552 5566 "gMenu.ml" 143 5552 5570
+)
+"gMenu.ml" 146 5695 5697 "gMenu.ml" 146 5695 5745
+call(
+  tail
+)
+type(
+  check_menu_item
+)
+"gMenu.ml" 145 5634 5636 "gMenu.ml" 146 5695 5745
+type(
+  check_menu_item
+)
+"gMenu.ml" 144 5576 5578 "gMenu.ml" 146 5695 5745
+type(
+  check_menu_item
+)
+"gMenu.ml" 148 5747 5769 "gMenu.ml" 148 5747 5772
+type(
+  Gtk.radio_menu_item Gtk.obj
+)
+"gMenu.ml" 149 5782 5809 "gMenu.ml" 149 5782 5812
+type(
+  Gtk.radio_menu_item Gtk.obj
+)
+type(
+  Gtk.radio_menu_item Gtk.obj
+)
+ident(
+  int_ref obj "gMenu.ml" 148 5747 5769 "gMenu.ml" 148 5747 5772
+)
+"gMenu.ml" 150 5840 5862 "gMenu.ml" 150 5840 5865
+type(
+  Gtk.radio_menu_item Gtk.obj
+)
+"gMenu.ml" 150 5840 5857 "gMenu.ml" 150 5840 5865
+type(
+  Gtk.radio_menu_item Gtk.obj option
+)
+type(
+  Gtk.radio_menu_item Gtk.obj option
+)
+"gMenu.ml" 151 5866 5887 "gMenu.ml" 151 5866 5910
+type(
+  Gtk.radio_menu_item Gtk.obj -> Gtk.radio_menu_item Gtk.group -> unit
+)
+ident(
+  ext_ref GtkMenu.RadioMenuItem.set_group
+)
+"gMenu.ml" 151 5866 5911 "gMenu.ml" 151 5866 5914
+type(
+  Gtk.radio_menu_item Gtk.obj
+)
+"gMenu.ml" 151 5866 5887 "gMenu.ml" 151 5866 5914
+call(
+  tail
+)
+type(
+  Gtk.radio_menu_item Gtk.group -> unit
+)
+type(
+  Gtk.radio_menu_item Gtk.group -> unit
+)
+"gMenu.ml" 154 5920 5924 "gMenu.ml" 154 5920 5939
+type(
+  ?group:Gtk.radio_menu_item Gtk.group ->
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?active:bool ->
+  ?show_toggle:bool ->
+  ?right_justified:bool ->
+  ?packing:(menu_item -> unit) -> ?show:bool -> unit -> radio_menu_item
+)
+ident(
+  def radio_menu_item "gMenu.ml" 162 6220 6220 --
+)
+"gMenu.ml" 154 5920 5941 "gMenu.ml" 154 5920 5946
+type(
+  Gtk.radio_menu_item Gtk.group option
+)
+ident(
+  def group "gMenu.ml" 154 5920 5947 "gMenu.ml" 158 6155 6205
+)
+"gMenu.ml" 154 5920 5948 "gMenu.ml" 154 5920 5953
+type(
+  string option
+)
+ident(
+  def label "gMenu.ml" 154 5920 5954 "gMenu.ml" 158 6155 6205
+)
+"gMenu.ml" 154 5920 5955 "gMenu.ml" 154 5920 5967
+type(
+  bool option
+)
+ident(
+  def use_mnemonic "gMenu.ml" 154 5920 5968 "gMenu.ml" 158 6155 6205
+)
+"gMenu.ml" 154 5920 5969 "gMenu.ml" 154 5920 5975
+type(
+  bool option
+)
+ident(
+  def active "gMenu.ml" 154 5920 5976 "gMenu.ml" 158 6155 6205
+)
+"gMenu.ml" 154 5920 5977 "gMenu.ml" 154 5920 5988
+type(
+  bool option
+)
+ident(
+  def show_toggle "gMenu.ml" 155 5990 5992 "gMenu.ml" 158 6155 6205
+)
+"gMenu.ml" 155 5990 5993 "gMenu.ml" 155 5990 6008
+type(
+  bool option
+)
+ident(
+  def right_justified "gMenu.ml" 155 5990 6009 "gMenu.ml" 158 6155 6205
+)
+"gMenu.ml" 155 5990 6010 "gMenu.ml" 155 5990 6017
+type(
+  (menu_item -> unit) option
+)
+ident(
+  def packing "gMenu.ml" 155 5990 6018 "gMenu.ml" 158 6155 6205
+)
+"gMenu.ml" 155 5990 6019 "gMenu.ml" 155 5990 6023
+type(
+  bool option
+)
+ident(
+  def show "gMenu.ml" 155 5990 6024 "gMenu.ml" 158 6155 6205
+)
+"gMenu.ml" 155 5990 6024 "gMenu.ml" 155 5990 6026
+type(
+  unit
+)
+"gMenu.ml" 156 6029 6035 "gMenu.ml" 156 6029 6036
+type(
+  Gtk.radio_menu_item Gtk.obj
+)
+"gMenu.ml" 156 6029 6039 "gMenu.ml" 156 6029 6059
+type(
+  ?group:Gtk.radio_menu_item Gtk.group ->
+  ?use_mnemonic:bool -> ?label:string -> unit -> Gtk.radio_menu_item Gtk.obj
+)
+ident(
+  ext_ref GtkMenu.RadioMenuItem.create
+)
+"gMenu.ml" 156 6029 6061 "gMenu.ml" 156 6029 6073
+type(
+  bool option
+)
+ident(
+  int_ref use_mnemonic "gMenu.ml" 154 5920 5955 "gMenu.ml" 154 5920 5967
+)
+"gMenu.ml" 156 6029 6075 "gMenu.ml" 156 6029 6080
+type(
+  Gtk.radio_menu_item Gtk.group option
+)
+ident(
+  int_ref group "gMenu.ml" 154 5920 5941 "gMenu.ml" 154 5920 5946
+)
+"gMenu.ml" 156 6029 6082 "gMenu.ml" 156 6029 6087
+type(
+  string option
+)
+ident(
+  int_ref label "gMenu.ml" 154 5920 5948 "gMenu.ml" 154 5920 5953
+)
+"gMenu.ml" 156 6029 6088 "gMenu.ml" 156 6029 6090
+type(
+  unit
+)
+"gMenu.ml" 156 6029 6039 "gMenu.ml" 156 6029 6090
+call(
+  stack
+)
+type(
+  Gtk.radio_menu_item Gtk.obj
+)
+"gMenu.ml" 157 6094 6096 "gMenu.ml" 157 6094 6113
+type(
+  ?active:bool ->
+  ?show_toggle:bool ->
+  ?right_justified:bool -> Gtk.radio_menu_item Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMenu.CheckMenuItem.set
+)
+"gMenu.ml" 157 6094 6114 "gMenu.ml" 157 6094 6115
+type(
+  Gtk.radio_menu_item Gtk.obj
+)
+ident(
+  int_ref w "gMenu.ml" 156 6029 6035 "gMenu.ml" 156 6029 6036
+)
+"gMenu.ml" 157 6094 6117 "gMenu.ml" 157 6094 6123
+type(
+  bool option
+)
+ident(
+  int_ref active "gMenu.ml" 154 5920 5969 "gMenu.ml" 154 5920 5975
+)
+"gMenu.ml" 157 6094 6125 "gMenu.ml" 157 6094 6136
+type(
+  bool option
+)
+ident(
+  int_ref show_toggle "gMenu.ml" 154 5920 5977 "gMenu.ml" 154 5920 5988
+)
+"gMenu.ml" 157 6094 6138 "gMenu.ml" 157 6094 6153
+type(
+  bool option
+)
+ident(
+  int_ref right_justified "gMenu.ml" 155 5990 5993 "gMenu.ml" 155 5990 6008
+)
+"gMenu.ml" 157 6094 6096 "gMenu.ml" 157 6094 6153
+call(
+  stack
+)
+type(
+  unit
+)
+"gMenu.ml" 158 6155 6157 "gMenu.ml" 158 6155 6166
+type(
+  radio_menu_item ->
+  packing:(menu_item -> unit) option -> show:bool option -> radio_menu_item
+)
+ident(
+  int_ref pack_item "gMenu.ml" 90 3541 3545 "gMenu.ml" 90 3541 3554
+)
+"gMenu.ml" 158 6155 6168 "gMenu.ml" 158 6155 6187
+type(
+  Gtk.radio_menu_item Gtk.obj -> radio_menu_item
+)
+"gMenu.ml" 158 6155 6188 "gMenu.ml" 158 6155 6189
+type(
+  Gtk.radio_menu_item Gtk.obj
+)
+ident(
+  int_ref w "gMenu.ml" 156 6029 6035 "gMenu.ml" 156 6029 6036
+)
+"gMenu.ml" 158 6155 6167 "gMenu.ml" 158 6155 6190
+call(
+  stack
+)
+type(
+  radio_menu_item
+)
+"gMenu.ml" 158 6155 6192 "gMenu.ml" 158 6155 6199
+type(
+  (menu_item -> unit) option
+)
+ident(
+  int_ref packing "gMenu.ml" 155 5990 6010 "gMenu.ml" 155 5990 6017
+)
+"gMenu.ml" 158 6155 6201 "gMenu.ml" 158 6155 6205
+type(
+  bool option
+)
+ident(
+  int_ref show "gMenu.ml" 155 5990 6019 "gMenu.ml" 155 5990 6023
+)
+"gMenu.ml" 158 6155 6157 "gMenu.ml" 158 6155 6205
+call(
+  tail
+)
+type(
+  radio_menu_item
+)
+"gMenu.ml" 157 6094 6096 "gMenu.ml" 158 6155 6205
+type(
+  radio_menu_item
+)
+"gMenu.ml" 156 6029 6031 "gMenu.ml" 158 6155 6205
+type(
+  radio_menu_item
+)
+"gMenu.ml" 162 6220 6237 "gMenu.ml" 162 6220 6240
+type(
+  [> `container | `gtk | `menushell | `widget ] Gtk.obj
+)
+"gMenu.ml" 163 6250 6287 "gMenu.ml" 163 6250 6290
+type(
+  ([> `container | `gtk | `menushell | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gMenu.ml" 162 6220 6237 "gMenu.ml" 162 6220 6240
+)
+"gMenu.ml" 164 6291 6313 "gMenu.ml" 164 6291 6314
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  def w "gMenu.ml" 164 6291 6317 "gMenu.ml" 164 6291 6348
+)
+"gMenu.ml" 164 6291 6317 "gMenu.ml" 164 6291 6330
+type(
+  Gtk.menu_item Gtk.obj -> menu_item
+)
+"gMenu.ml" 164 6291 6332 "gMenu.ml" 164 6291 6345
+type(
+  Gtk.widget Gtk.obj -> Gtk.menu_item Gtk.obj
+)
+ident(
+  ext_ref GtkMenu.MenuItem.cast
+)
+"gMenu.ml" 164 6291 6346 "gMenu.ml" 164 6291 6347
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gMenu.ml" 164 6291 6313 "gMenu.ml" 164 6291 6314
+)
+"gMenu.ml" 164 6291 6331 "gMenu.ml" 164 6291 6348
+call(
+  stack
+)
+type(
+  Gtk.menu_item Gtk.obj
+)
+"gMenu.ml" 164 6291 6317 "gMenu.ml" 164 6291 6348
+call(
+  tail
+)
+type(
+  menu_item
+)
+"gMenu.ml" 165 6349 6365 "gMenu.ml" 165 6349 6366
+type(
+  menu_item
+)
+ident(
+  def w "gMenu.ml" 165 6349 6369 "gMenu.ml" 165 6349 6399
+)
+"gMenu.ml" 165 6349 6369 "gMenu.ml" 165 6349 6385
+type(
+  'a Gtk.obj -> Gtk.menu_item Gtk.obj -> pos:int -> unit
+)
+ident(
+  ext_ref GtkMenu.MenuShell.insert
+)
+"gMenu.ml" 165 6349 6386 "gMenu.ml" 165 6349 6389
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 165 6349 6390 "gMenu.ml" 165 6349 6391
+type(
+  menu_item
+)
+ident(
+  int_ref w "gMenu.ml" 165 6349 6365 "gMenu.ml" 165 6349 6366
+)
+"gMenu.ml" 165 6349 6390 "gMenu.ml" 165 6349 6399
+call(
+  stack
+)
+type(
+  Gtk.menu_item Gtk.obj
+)
+"gMenu.ml" 165 6349 6369 "gMenu.ml" 165 6349 6399
+call(
+  tail
+)
+type(
+  pos:int -> unit
+)
+"gMenu.ml" 166 6400 6420 "gMenu.ml" 166 6400 6422
+type(
+  unit
+)
+"gMenu.ml" 166 6400 6425 "gMenu.ml" 166 6400 6445
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMenu.MenuShell.deactivate
+)
+"gMenu.ml" 166 6400 6446 "gMenu.ml" 166 6400 6449
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 166 6400 6425 "gMenu.ml" 166 6400 6449
+type(
+  unit
+)
+"gMenu.ml" 167 6450 6469 "gMenu.ml" 167 6450 6491
+type(
+  'a Gtk.obj -> menu_shell_signals
+)
+"gMenu.ml" 167 6450 6492 "gMenu.ml" 167 6450 6495
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 167 6450 6469 "gMenu.ml" 167 6450 6495
+call(
+  tail
+)
+type(
+  menu_shell_signals
+)
+type(
+  menu_shell_signals
+)
+"gMenu.ml" 168 6496 6513 "gMenu.ml" 168 6496 6531
+type(
+  'a Gtk.obj -> GObj.event_ops
+)
+"gMenu.ml" 168 6496 6532 "gMenu.ml" 168 6496 6535
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 168 6496 6513 "gMenu.ml" 168 6496 6535
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gMenu.ml" 171 6541 6552 "gMenu.ml" 171 6541 6555
+type(
+  Gtk.menu Gtk.obj
+)
+"gMenu.ml" 172 6565 6586 "gMenu.ml" 172 6565 6589
+type(
+  Gtk.menu Gtk.obj
+)
+ident(
+  int_ref obj "gMenu.ml" 171 6541 6552 "gMenu.ml" 171 6541 6555
+)
+"gMenu.ml" 173 6590 6607 "gMenu.ml" 173 6590 6617
+type(
+  ?parent_menu:_[> `menushell ] Gobject.obj ->
+  ?parent_item:_[> `menuitem ] Gobject.obj ->
+  Gtk.menu Gtk.obj -> button:int -> time:int32 -> unit
+)
+ident(
+  ext_ref GtkMenu.Menu.popup
+)
+"gMenu.ml" 173 6590 6618 "gMenu.ml" 173 6590 6621
+type(
+  Gtk.menu Gtk.obj
+)
+"gMenu.ml" 173 6590 6607 "gMenu.ml" 173 6590 6621
+call(
+  tail
+)
+type(
+  button:int -> time:int32 -> unit
+)
+type(
+  button:int -> time:int32 -> unit
+)
+"gMenu.ml" 174 6622 6639 "gMenu.ml" 174 6622 6641
+type(
+  unit
+)
+"gMenu.ml" 174 6622 6644 "gMenu.ml" 174 6622 6656
+type(
+  Gtk.menu Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMenu.Menu.popdown
+)
+"gMenu.ml" 174 6622 6657 "gMenu.ml" 174 6622 6660
+type(
+  Gtk.menu Gtk.obj
+)
+"gMenu.ml" 174 6622 6644 "gMenu.ml" 174 6622 6660
+type(
+  unit
+)
+"gMenu.ml" 175 6661 6695 "gMenu.ml" 175 6661 6698
+type(
+  Gtk.menu Gtk.obj
+)
+type(
+  Gtk.menu Gtk.obj
+)
+"gMenu.ml" 176 6699 6726 "gMenu.ml" 176 6699 6746
+type(
+  Gtk.menu Gtk.obj -> Gtk.accel_group -> unit
+)
+ident(
+  ext_ref GtkMenu.Menu.set_accel_group
+)
+"gMenu.ml" 176 6699 6747 "gMenu.ml" 176 6699 6750
+type(
+  Gtk.menu Gtk.obj
+)
+"gMenu.ml" 176 6699 6726 "gMenu.ml" 176 6699 6750
+call(
+  tail
+)
+type(
+  Gtk.accel_group -> unit
+)
+type(
+  Gtk.accel_group -> unit
+)
+"gMenu.ml" 177 6751 6777 "gMenu.ml" 177 6751 6796
+type(
+  Gtk.menu Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkMenu.Menu.set_accel_path
+)
+"gMenu.ml" 177 6751 6797 "gMenu.ml" 177 6751 6800
+type(
+  Gtk.menu Gtk.obj
+)
+"gMenu.ml" 177 6751 6777 "gMenu.ml" 177 6751 6800
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gMenu.ml" 180 6806 6810 "gMenu.ml" 180 6806 6814
+type(
+  ?accel_path:string ->
+  ?border_width:int -> ?packing:(menu -> unit) -> ?show:bool -> unit -> menu
+)
+ident(
+  def menu "gMenu.ml" 191 7163 7163 --
+)
+"gMenu.ml" 180 6806 6816 "gMenu.ml" 180 6806 6826
+type(
+  string option
+)
+ident(
+  def accel_path "gMenu.ml" 180 6806 6827 "gMenu.ml" 187 7123 7129
+)
+"gMenu.ml" 180 6806 6828 "gMenu.ml" 180 6806 6840
+type(
+  int option
+)
+ident(
+  def border_width "gMenu.ml" 180 6806 6841 "gMenu.ml" 187 7123 7129
+)
+"gMenu.ml" 180 6806 6842 "gMenu.ml" 180 6806 6849
+type(
+  (menu -> unit) option
+)
+ident(
+  def packing "gMenu.ml" 180 6806 6850 "gMenu.ml" 187 7123 7129
+)
+"gMenu.ml" 180 6806 6851 "gMenu.ml" 180 6806 6855
+type(
+  bool option
+)
+ident(
+  def show "gMenu.ml" 180 6806 6856 "gMenu.ml" 187 7123 7129
+)
+"gMenu.ml" 180 6806 6856 "gMenu.ml" 180 6806 6858
+type(
+  unit
+)
+"gMenu.ml" 181 6861 6867 "gMenu.ml" 181 6861 6868
+type(
+  Gtk.menu Gtk.obj
+)
+"gMenu.ml" 181 6861 6871 "gMenu.ml" 181 6861 6882
+type(
+  Gtk.menu Gobject.param list -> Gtk.menu Gtk.obj
+)
+ident(
+  ext_ref GtkMenu.Menu.create
+)
+"gMenu.ml" 181 6861 6883 "gMenu.ml" 181 6861 6885
+type(
+  Gtk.menu Gobject.param list
+)
+"gMenu.ml" 181 6861 6871 "gMenu.ml" 181 6861 6885
+call(
+  stack
+)
+type(
+  Gtk.menu Gtk.obj
+)
+"gMenu.ml" 182 6889 6891 "gMenu.ml" 182 6889 6894
+type(
+  f:(int -> unit) -> int option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gMenu.ml" 182 6889 6895 "gMenu.ml" 182 6889 6907
+type(
+  int option
+)
+ident(
+  int_ref border_width "gMenu.ml" 180 6806 6828 "gMenu.ml" 180 6806 6840
+)
+"gMenu.ml" 182 6889 6912 "gMenu.ml" 182 6889 6915
+type(
+  (Gtk.menu, int) Gobject.property -> Gtk.menu Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref OgtkMenuProps.set
+)
+"gMenu.ml" 182 6889 6916 "gMenu.ml" 182 6889 6940
+type(
+  (Gtk.menu, int) Gobject.property
+)
+ident(
+  ext_ref GtkBase.Container.P.border_width
+)
+"gMenu.ml" 182 6889 6941 "gMenu.ml" 182 6889 6942
+type(
+  Gtk.menu Gtk.obj
+)
+ident(
+  int_ref w "gMenu.ml" 181 6861 6867 "gMenu.ml" 181 6861 6868
+)
+"gMenu.ml" 182 6889 6911 "gMenu.ml" 182 6889 6943
+call(
+  stack
+)
+type(
+  int -> unit
+)
+"gMenu.ml" 182 6889 6891 "gMenu.ml" 182 6889 6943
+call(
+  stack
+)
+type(
+  unit
+)
+"gMenu.ml" 183 6945 6947 "gMenu.ml" 183 6945 6950
+type(
+  f:(string -> unit) -> string option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gMenu.ml" 183 6945 6951 "gMenu.ml" 183 6945 6961
+type(
+  string option
+)
+ident(
+  int_ref accel_path "gMenu.ml" 180 6806 6816 "gMenu.ml" 180 6806 6826
+)
+"gMenu.ml" 183 6945 6970 "gMenu.ml" 183 6945 6972
+type(
+  string
+)
+ident(
+  def ap "gMenu.ml" 183 6945 6976 "gMenu.ml" 183 6945 7000
+)
+"gMenu.ml" 183 6945 6976 "gMenu.ml" 183 6945 6995
+type(
+  Gtk.menu Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkMenu.Menu.set_accel_path
+)
+"gMenu.ml" 183 6945 6996 "gMenu.ml" 183 6945 6997
+type(
+  Gtk.menu Gtk.obj
+)
+ident(
+  int_ref w "gMenu.ml" 181 6861 6867 "gMenu.ml" 181 6861 6868
+)
+"gMenu.ml" 183 6945 6998 "gMenu.ml" 183 6945 7000
+type(
+  string
+)
+ident(
+  int_ref ap "gMenu.ml" 183 6945 6970 "gMenu.ml" 183 6945 6972
+)
+"gMenu.ml" 183 6945 6976 "gMenu.ml" 183 6945 7000
+type(
+  unit
+)
+"gMenu.ml" 183 6945 6965 "gMenu.ml" 183 6945 7001
+type(
+  string -> unit
+)
+"gMenu.ml" 183 6945 6947 "gMenu.ml" 183 6945 7001
+call(
+  stack
+)
+type(
+  unit
+)
+"gMenu.ml" 184 7003 7009 "gMenu.ml" 184 7003 7013
+type(
+  menu
+)
+"gMenu.ml" 184 7003 7016 "gMenu.ml" 184 7003 7024
+type(
+  Gtk.menu Gtk.obj -> menu
+)
+"gMenu.ml" 184 7003 7025 "gMenu.ml" 184 7003 7026
+type(
+  Gtk.menu Gtk.obj
+)
+ident(
+  int_ref w "gMenu.ml" 181 6861 6867 "gMenu.ml" 181 6861 6868
+)
+"gMenu.ml" 184 7003 7016 "gMenu.ml" 184 7003 7026
+call(
+  stack
+)
+type(
+  menu
+)
+"gMenu.ml" 185 7030 7032 "gMenu.ml" 185 7030 7035
+type(
+  f:((menu -> unit) -> unit) -> (menu -> unit) option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gMenu.ml" 185 7030 7036 "gMenu.ml" 185 7030 7043
+type(
+  (menu -> unit) option
+)
+ident(
+  int_ref packing "gMenu.ml" 180 6806 6842 "gMenu.ml" 180 6806 6849
+)
+"gMenu.ml" 185 7030 7052 "gMenu.ml" 185 7030 7053
+type(
+  menu -> unit
+)
+ident(
+  def f "gMenu.ml" 185 7030 7057 "gMenu.ml" 185 7030 7072
+)
+"gMenu.ml" 185 7030 7058 "gMenu.ml" 185 7030 7059
+type(
+  menu -> unit
+)
+ident(
+  int_ref f "gMenu.ml" 185 7030 7052 "gMenu.ml" 185 7030 7053
+)
+"gMenu.ml" 185 7030 7060 "gMenu.ml" 185 7030 7064
+type(
+  menu
+)
+ident(
+  int_ref self "gMenu.ml" 184 7003 7009 "gMenu.ml" 184 7003 7013
+)
+"gMenu.ml" 185 7030 7058 "gMenu.ml" 185 7030 7064
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"gMenu.ml" 185 7030 7047 "gMenu.ml" 185 7030 7073
+type(
+  (menu -> unit) -> unit
+)
+"gMenu.ml" 185 7030 7032 "gMenu.ml" 185 7030 7073
+call(
+  stack
+)
+type(
+  unit
+)
+"gMenu.ml" 186 7075 7080 "gMenu.ml" 186 7075 7084
+type(
+  bool option
+)
+ident(
+  int_ref show "gMenu.ml" 180 6806 6851 "gMenu.ml" 180 6806 6855
+)
+"gMenu.ml" 186 7075 7085 "gMenu.ml" 186 7075 7087
+type(
+  bool option -> bool option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gMenu.ml" 186 7075 7093 "gMenu.ml" 186 7075 7098
+type(
+  bool
+)
+"gMenu.ml" 186 7075 7088 "gMenu.ml" 186 7075 7098
+type(
+  bool option
+)
+"gMenu.ml" 186 7075 7080 "gMenu.ml" 186 7075 7098
+type(
+  bool
+)
+"gMenu.ml" 186 7075 7104 "gMenu.ml" 186 7075 7108
+type(
+  menu
+)
+ident(
+  int_ref self "gMenu.ml" 184 7003 7009 "gMenu.ml" 184 7003 7013
+)
+"gMenu.ml" 186 7075 7104 "gMenu.ml" 186 7075 7113
+call(
+  stack
+)
+type(
+  GObj.misc_ops
+)
+"gMenu.ml" 186 7075 7104 "gMenu.ml" 186 7075 7118
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gMenu.ml" 186 7075 7119 "gMenu.ml" 186 7075 7121
+type(
+  unit
+)
+"gMenu.ml" 186 7075 7104 "gMenu.ml" 186 7075 7121
+type(
+  unit
+)
+"gMenu.ml" 186 7075 7077 "gMenu.ml" 186 7075 7121
+type(
+  unit
+)
+"gMenu.ml" 187 7123 7125 "gMenu.ml" 187 7123 7129
+type(
+  menu
+)
+ident(
+  int_ref self "gMenu.ml" 184 7003 7009 "gMenu.ml" 184 7003 7013
+)
+"gMenu.ml" 186 7075 7077 "gMenu.ml" 187 7123 7129
+type(
+  menu
+)
+"gMenu.ml" 185 7030 7032 "gMenu.ml" 187 7123 7129
+type(
+  menu
+)
+"gMenu.ml" 184 7003 7005 "gMenu.ml" 187 7123 7129
+type(
+  menu
+)
+"gMenu.ml" 183 6945 6947 "gMenu.ml" 187 7123 7129
+type(
+  menu
+)
+"gMenu.ml" 182 6889 6891 "gMenu.ml" 187 7123 7129
+type(
+  menu
+)
+"gMenu.ml" 181 6861 6863 "gMenu.ml" 187 7123 7129
+type(
+  menu
+)
+"gMenu.ml" 191 7163 7181 "gMenu.ml" 191 7163 7184
+type(
+  [> `bin | `button | `container | `gtk | `optionmenu | `widget ] Gtk.obj
+)
+"gMenu.ml" 192 7194 7224 "gMenu.ml" 192 7194 7227
+type(
+  ([> `bin | `button | `container | `gtk | `optionmenu | `widget ] as 'a)
+  Gtk.obj
+)
+ident(
+  int_ref obj "gMenu.ml" 191 7163 7181 "gMenu.ml" 191 7163 7184
+)
+"gMenu.ml" 193 7228 7247 "gMenu.ml" 193 7228 7273
+type(
+  'a Gtk.obj -> GButton.button_signals
+)
+"gMenu.ml" 193 7228 7274 "gMenu.ml" 193 7228 7277
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 193 7228 7247 "gMenu.ml" 193 7228 7277
+call(
+  tail
+)
+type(
+  GButton.button_signals
+)
+type(
+  GButton.button_signals
+)
+"gMenu.ml" 194 7278 7297 "gMenu.ml" 194 7278 7301
+type(
+  menu
+)
+ident(
+  def menu "gMenu.ml" 194 7278 7312 "gMenu.ml" 194 7278 7350
+)
+"gMenu.ml" 194 7278 7312 "gMenu.ml" 194 7278 7315
+type(
+  ('a, Gtk.menu Gtk.obj) Gobject.property ->
+  'a Gtk.obj -> Gtk.menu Gtk.obj -> unit
+)
+ident(
+  ext_ref OgtkMenuProps.set
+)
+"gMenu.ml" 194 7278 7316 "gMenu.ml" 194 7278 7333
+type(
+  ('a, Gtk.menu Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkMenu.OptionMenu.P.menu
+)
+"gMenu.ml" 194 7278 7334 "gMenu.ml" 194 7278 7337
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 194 7278 7338 "gMenu.ml" 194 7278 7342
+type(
+  menu
+)
+ident(
+  int_ref menu "gMenu.ml" 194 7278 7297 "gMenu.ml" 194 7278 7301
+)
+"gMenu.ml" 194 7278 7338 "gMenu.ml" 194 7278 7350
+call(
+  stack
+)
+type(
+  Gtk.menu Gtk.obj
+)
+"gMenu.ml" 194 7278 7312 "gMenu.ml" 194 7278 7350
+call(
+  tail
+)
+type(
+  unit
+)
+"gMenu.ml" 195 7351 7371 "gMenu.ml" 195 7351 7379
+type(
+  Gtk.menu Gtk.obj -> menu
+)
+"gMenu.ml" 195 7351 7381 "gMenu.ml" 195 7351 7384
+type(
+  ('a, Gtk.menu Gtk.obj) Gobject.property -> 'a Gtk.obj -> Gtk.menu Gtk.obj
+)
+ident(
+  ext_ref OgtkMenuProps.get
+)
+"gMenu.ml" 195 7351 7385 "gMenu.ml" 195 7351 7402
+type(
+  ('a, Gtk.menu Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkMenu.OptionMenu.P.menu
+)
+"gMenu.ml" 195 7351 7403 "gMenu.ml" 195 7351 7406
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 195 7351 7380 "gMenu.ml" 195 7351 7407
+call(
+  stack
+)
+type(
+  Gtk.menu Gtk.obj
+)
+"gMenu.ml" 195 7351 7371 "gMenu.ml" 195 7351 7407
+call(
+  tail
+)
+type(
+  menu
+)
+type(
+  menu
+)
+"gMenu.ml" 196 7408 7429 "gMenu.ml" 196 7408 7431
+type(
+  unit
+)
+"gMenu.ml" 196 7408 7434 "gMenu.ml" 196 7408 7456
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMenu.OptionMenu.remove_menu
+)
+"gMenu.ml" 196 7408 7457 "gMenu.ml" 196 7408 7460
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 196 7408 7434 "gMenu.ml" 196 7408 7460
+type(
+  unit
+)
+"gMenu.ml" 197 7461 7484 "gMenu.ml" 197 7461 7506
+type(
+  'a Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkMenu.OptionMenu.set_history
+)
+"gMenu.ml" 197 7461 7507 "gMenu.ml" 197 7461 7510
+type(
+  'a Gtk.obj
+)
+"gMenu.ml" 197 7461 7484 "gMenu.ml" 197 7461 7510
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gMenu.ml" 200 7516 7520 "gMenu.ml" 200 7516 7531
+type(
+  ?menu:< as_menu : Gtk.menu Gtk.obj; .. > ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> option_menu
+)
+ident(
+  def option_menu "gMenu.ml" 209 7757 7757 --
+)
+"gMenu.ml" 200 7516 7533 "gMenu.ml" 200 7516 7537
+type(
+  (< as_menu : Gtk.menu Gtk.obj; .. > as 'a) option
+)
+ident(
+  def menu "gMenu.ml" 201 7540 7542 "gMenu.ml" 205 7685 7739
+)
+"gMenu.ml" 201 7540 7546 "gMenu.ml" 201 7540 7548
+type(
+  [> `optionmenu ] Gobject.param list
+)
+"gMenu.ml" 202 7551 7561 "gMenu.ml" 202 7551 7565
+type(
+  'a option
+)
+ident(
+  int_ref menu "gMenu.ml" 200 7516 7533 "gMenu.ml" 200 7516 7537
+)
+"gMenu.ml" 202 7551 7571 "gMenu.ml" 202 7551 7575
+type(
+  'a option
+)
+"gMenu.ml" 202 7551 7579 "gMenu.ml" 202 7551 7581
+type(
+  ([> `optionmenu ] as 'b) Gobject.param list
+)
+"gMenu.ml" 203 7582 7593 "gMenu.ml" 203 7582 7594
+type(
+  'a
+)
+ident(
+  def m "gMenu.ml" 203 7582 7598 "gMenu.ml" 203 7582 7641
+)
+"gMenu.ml" 203 7582 7588 "gMenu.ml" 203 7582 7594
+type(
+  'a option
+)
+"gMenu.ml" 203 7582 7599 "gMenu.ml" 203 7582 7612
+type(
+  ('b, Gtk.menu Gtk.obj) Gobject.property ->
+  Gtk.menu Gtk.obj -> 'b Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"gMenu.ml" 203 7582 7613 "gMenu.ml" 203 7582 7630
+type(
+  ('b, Gtk.menu Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkMenu.OptionMenu.P.menu
+)
+"gMenu.ml" 203 7582 7631 "gMenu.ml" 203 7582 7632
+type(
+  'a
+)
+ident(
+  int_ref m "gMenu.ml" 203 7582 7593 "gMenu.ml" 203 7582 7594
+)
+"gMenu.ml" 203 7582 7631 "gMenu.ml" 203 7582 7640
+call(
+  stack
+)
+type(
+  Gtk.menu Gtk.obj
+)
+"gMenu.ml" 203 7582 7599 "gMenu.ml" 203 7582 7640
+call(
+  stack
+)
+type(
+  'b Gobject.param
+)
+"gMenu.ml" 203 7582 7598 "gMenu.ml" 203 7582 7641
+type(
+  'b Gobject.param list
+)
+"gMenu.ml" 202 7551 7555 "gMenu.ml" 203 7582 7641
+type(
+  'b Gobject.param list
+)
+"gMenu.ml" 204 7645 7647 "gMenu.ml" 204 7645 7672
+type(
+  create:(Gtk.option_menu Gobject.param list -> option_menu) ->
+  Gtk.option_menu Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> option_menu
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gMenu.ml" 204 7645 7673 "gMenu.ml" 204 7645 7675
+type(
+  Gtk.option_menu Gobject.param list
+)
+ident(
+  int_ref pl "gMenu.ml" 201 7540 7546 "gMenu.ml" 201 7540 7548
+)
+"gMenu.ml" 205 7685 7694 "gMenu.ml" 205 7685 7696
+type(
+  Gtk.option_menu Gobject.param list
+)
+ident(
+  def pl "gMenu.ml" 205 7685 7700 "gMenu.ml" 205 7685 7738
+)
+"gMenu.ml" 205 7685 7700 "gMenu.ml" 205 7685 7715
+type(
+  Gtk.option_menu Gtk.obj -> option_menu
+)
+"gMenu.ml" 205 7685 7717 "gMenu.ml" 205 7685 7734
+type(
+  Gtk.option_menu Gobject.param list -> Gtk.option_menu Gtk.obj
+)
+ident(
+  ext_ref GtkMenu.OptionMenu.create
+)
+"gMenu.ml" 205 7685 7735 "gMenu.ml" 205 7685 7737
+type(
+  Gtk.option_menu Gobject.param list
+)
+ident(
+  int_ref pl "gMenu.ml" 205 7685 7694 "gMenu.ml" 205 7685 7696
+)
+"gMenu.ml" 205 7685 7716 "gMenu.ml" 205 7685 7738
+call(
+  stack
+)
+type(
+  Gtk.option_menu Gtk.obj
+)
+"gMenu.ml" 205 7685 7700 "gMenu.ml" 205 7685 7738
+call(
+  tail
+)
+type(
+  option_menu
+)
+"gMenu.ml" 205 7685 7689 "gMenu.ml" 205 7685 7739
+type(
+  Gtk.option_menu Gobject.param list -> option_menu
+)
+"gMenu.ml" 204 7645 7647 "gMenu.ml" 205 7685 7739
+call(
+  tail
+)
+type(
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> option_menu
+)
+"gMenu.ml" 201 7540 7542 "gMenu.ml" 205 7685 7739
+type(
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> option_menu
+)
+"gMenu.ml" 209 7757 7761 "gMenu.ml" 209 7757 7769
+type(
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> menu_shell
+)
+ident(
+  def menu_bar "gMenu.ml" 214 7866 7866 --
+)
+"gMenu.ml" 210 7772 7774 "gMenu.ml" 210 7772 7788
+type(
+  create:(Gtk.menu_bar Gobject.param list -> menu_shell) ->
+  Gtk.menu_bar Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> menu_shell
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gMenu.ml" 210 7772 7789 "gMenu.ml" 210 7772 7791
+type(
+  Gtk.menu_bar Gobject.param list
+)
+"gMenu.ml" 210 7772 7805 "gMenu.ml" 210 7772 7806
+type(
+  Gtk.menu_bar Gobject.param list
+)
+ident(
+  def p "gMenu.ml" 210 7772 7810 "gMenu.ml" 210 7772 7843
+)
+"gMenu.ml" 210 7772 7810 "gMenu.ml" 210 7772 7824
+type(
+  Gtk.menu_bar Gtk.obj -> menu_shell
+)
+"gMenu.ml" 210 7772 7826 "gMenu.ml" 210 7772 7840
+type(
+  Gtk.menu_bar Gobject.param list -> Gtk.menu_bar Gtk.obj
+)
+ident(
+  ext_ref GtkMenu.MenuBar.create
+)
+"gMenu.ml" 210 7772 7841 "gMenu.ml" 210 7772 7842
+type(
+  Gtk.menu_bar Gobject.param list
+)
+ident(
+  int_ref p "gMenu.ml" 210 7772 7805 "gMenu.ml" 210 7772 7806
+)
+"gMenu.ml" 210 7772 7825 "gMenu.ml" 210 7772 7843
+call(
+  stack
+)
+type(
+  Gtk.menu_bar Gtk.obj
+)
+"gMenu.ml" 210 7772 7810 "gMenu.ml" 210 7772 7843
+call(
+  tail
+)
+type(
+  menu_shell
+)
+"gMenu.ml" 210 7772 7800 "gMenu.ml" 210 7772 7844
+type(
+  Gtk.menu_bar Gobject.param list -> menu_shell
+)
+"gMenu.ml" 210 7772 7774 "gMenu.ml" 210 7772 7844
+call(
+  stack
+)
+type(
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> menu_shell
+)
+"gMenu.ml" 215 7885 7891 "gMenu.ml" 215 7885 7902
+type(
+  Gtk.accel_group
+)
+"gMenu.ml" 215 7885 7903 "gMenu.ml" 215 7885 7920
+type(
+  unit -> Gtk.accel_group
+)
+ident(
+  ext_ref GtkData.AccelGroup.create
+)
+"gMenu.ml" 215 7885 7921 "gMenu.ml" 215 7885 7923
+type(
+  unit
+)
+"gMenu.ml" 215 7885 7903 "gMenu.ml" 215 7885 7923
+type(
+  Gtk.accel_group
+)
+type(
+  Gtk.accel_group
+)
+type(
+  Gtk.accel_group
+)
+ident(
+  int_ref *sth* "gMenu.ml" 215 7885 7903 "gMenu.ml" 215 7885 7923
+)
+type(
+  Gtk.accel_group option
+)
+type(
+  Gtk.accel_group option
+)
+type(
+  Gtk.accel_group
+)
+ident(
+  def *sth* "gMenu.ml" 215 7885 7903 "gMenu.ml" 215 7885 7923
+)
+type(
+  Gtk.accel_group option
+)
+ident(
+  int_ref *opt* "gMenu.ml" 215 7885 7903 "gMenu.ml" 215 7885 7923
+)
+type(
+  Gtk.accel_group option
+)
+"gMenu.ml" 216 7925 7931 "gMenu.ml" 216 7925 7941
+type(
+  string
+)
+"gMenu.ml" 216 7925 7942 "gMenu.ml" 216 7925 7959
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "gMenu.ml" 216 7925 7942 "gMenu.ml" 216 7925 7959
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "gMenu.ml" 216 7925 7942 "gMenu.ml" 216 7925 7959
+)
+type(
+  string option
+)
+ident(
+  int_ref *opt* "gMenu.ml" 216 7925 7942 "gMenu.ml" 216 7925 7959
+)
+type(
+  string option
+)
+"gMenu.ml" 217 7961 7967 "gMenu.ml" 217 7961 7977
+type(
+  Gdk.Tags.modifier list
+)
+"gMenu.ml" 217 7961 7979 "gMenu.ml" 217 7961 7987
+type(
+  Gdk.Tags.modifier
+)
+"gMenu.ml" 217 7961 7978 "gMenu.ml" 217 7961 7988
+type(
+  Gdk.Tags.modifier list
+)
+type(
+  Gdk.Tags.modifier list
+)
+type(
+  Gdk.Tags.modifier list
+)
+ident(
+  int_ref *sth* "gMenu.ml" 217 7961 7978 "gMenu.ml" 217 7961 7988
+)
+type(
+  Gdk.Tags.modifier list option
+)
+type(
+  Gdk.Tags.modifier list option
+)
+type(
+  Gdk.Tags.modifier list
+)
+ident(
+  def *sth* "gMenu.ml" 217 7961 7978 "gMenu.ml" 217 7961 7988
+)
+type(
+  Gdk.Tags.modifier list option
+)
+ident(
+  int_ref *opt* "gMenu.ml" 217 7961 7978 "gMenu.ml" 217 7961 7988
+)
+type(
+  Gdk.Tags.modifier list option
+)
+"gMenu.ml" 218 7990 7996 "gMenu.ml" 218 7990 8007
+type(
+  Gtk.Tags.accel_flag list
+)
+"gMenu.ml" 218 7990 8009 "gMenu.ml" 218 7990 8017
+type(
+  Gtk.Tags.accel_flag
+)
+"gMenu.ml" 218 7990 8008 "gMenu.ml" 218 7990 8018
+type(
+  Gtk.Tags.accel_flag list
+)
+type(
+  Gtk.Tags.accel_flag list
+)
+type(
+  Gtk.Tags.accel_flag list
+)
+ident(
+  int_ref *sth* "gMenu.ml" 218 7990 8008 "gMenu.ml" 218 7990 8018
+)
+type(
+  Gtk.Tags.accel_flag list option
+)
+type(
+  Gtk.Tags.accel_flag list option
+)
+type(
+  Gtk.Tags.accel_flag list
+)
+ident(
+  def *sth* "gMenu.ml" 218 7990 8008 "gMenu.ml" 218 7990 8018
+)
+type(
+  Gtk.Tags.accel_flag list option
+)
+ident(
+  int_ref *opt* "gMenu.ml" 218 7990 8008 "gMenu.ml" 218 7990 8018
+)
+type(
+  Gtk.Tags.accel_flag list option
+)
+"gMenu.ml" 218 7990 8021 "gMenu.ml" 218 7990 8031
+type(
+  #menu_shell
+)
+"gMenu.ml" 219 8040 8049 "gMenu.ml" 219 8040 8055
+type(
+  < accel_group : Gtk.accel_group;
+    add_check_item : ?active:bool ->
+                     ?key:Gdk.keysym ->
+                     ?callback:(bool -> unit) -> string -> check_menu_item;
+    add_image_item : ?image:GObj.widget ->
+                     ?key:Gdk.keysym ->
+                     ?callback:(unit -> unit) ->
+                     ?stock:GtkStock.id ->
+                     ?label:string -> unit -> image_menu_item;
+    add_item : ?key:Gdk.keysym ->
+               ?callback:(unit -> unit) ->
+               ?submenu:menu -> string -> menu_item;
+    add_radio_item : ?group:Gtk.radio_menu_item Gtk.group ->
+                     ?active:bool ->
+                     ?key:Gdk.keysym ->
+                     ?callback:(bool -> unit) -> string -> radio_menu_item;
+    add_separator : unit -> menu_item;
+    add_submenu : ?key:Gdk.keysym -> string -> menu;
+    add_tearoff : unit -> menu_item; menu : #menu_shell as 'a; .. >
+)
+"gMenu.ml" 220 8056 8091 "gMenu.ml" 220 8056 8101
+type(
+  'a
+)
+type(
+  'a
+)
+ident(
+  int_ref menu_shell "gMenu.ml" 218 7990 8021 "gMenu.ml" 218 7990 8031
+)
+"gMenu.ml" 221 8102 8118 "gMenu.ml" 221 8102 8129
+type(
+  Gtk.accel_group
+)
+ident(
+  int_ref accel_group "gMenu.ml" 215 7885 7891 "gMenu.ml" 215 7885 7902
+)
+"gMenu.ml" 222 8130 8142 "gMenu.ml" 222 8130 8152
+type(
+  Gdk.Tags.modifier list
+)
+ident(
+  int_ref accel_modi "gMenu.ml" 217 7961 7967 "gMenu.ml" 217 7961 7977
+)
+"gMenu.ml" 223 8153 8170 "gMenu.ml" 223 8153 8181
+type(
+  Gtk.Tags.accel_flag list
+)
+type(
+  Gtk.Tags.accel_flag list
+)
+ident(
+  int_ref accel_flags "gMenu.ml" 218 7990 7996 "gMenu.ml" 218 7990 8007
+)
+"gMenu.ml" 224 8208 8229 "gMenu.ml" 224 8208 8239
+type(
+  string
+)
+ident(
+  int_ref accel_path "gMenu.ml" 216 7925 7931 "gMenu.ml" 216 7925 7941
+)
+"gMenu.ml" 225 8240 8258 "gMenu.ml" 225 8240 8268
+type(
+  'a
+)
+type(
+  'a
+)
+"gMenu.ml" 226 8269 8294 "gMenu.ml" 226 8269 8299
+type(
+  Gtk.accel_group
+)
+type(
+  Gtk.accel_group
+)
+"gMenu.ml" 227 8300 8326 "gMenu.ml" 227 8300 8330
+type(
+  Gdk.Tags.modifier list
+)
+"gMenu.ml" 227 8300 8331 "gMenu.ml" 227 8300 8332
+type(
+  Gdk.Tags.modifier list
+)
+type(
+  Gdk.Tags.modifier list
+)
+ident(
+  int_ref *sth* "gMenu.ml" 227 8300 8331 "gMenu.ml" 227 8300 8332
+)
+type(
+  Gdk.Tags.modifier list option
+)
+type(
+  Gdk.Tags.modifier list option
+)
+type(
+  Gdk.Tags.modifier list
+)
+ident(
+  def *sth* "gMenu.ml" 227 8300 8331 "gMenu.ml" 227 8300 8332
+)
+"gMenu.ml" 227 8300 8335 "gMenu.ml" 227 8300 8338
+type(
+  Gdk.keysym option
+)
+ident(
+  def key "gMenu.ml" 227 8300 8339 "gMenu.ml" 234 8664 8735
+)
+"gMenu.ml" 227 8300 8340 "gMenu.ml" 227 8300 8348
+type(
+  (unit -> unit) option
+)
+ident(
+  def callback "gMenu.ml" 227 8300 8349 "gMenu.ml" 234 8664 8735
+)
+"gMenu.ml" 227 8300 8350 "gMenu.ml" 227 8300 8354
+type(
+  menu_item
+)
+ident(
+  def item "gMenu.ml" 227 8300 8368 "gMenu.ml" 234 8664 8735
+)
+"gMenu.ml" 227 8300 8368 "gMenu.ml" 227 8300 8373
+type(
+  string
+)
+ident(
+  def label "gMenu.ml" 228 8376 8382 "gMenu.ml" 234 8664 8735
+)
+"gMenu.ml" 228 8376 8382 "gMenu.ml" 228 8376 8392
+type(
+  'a
+)
+"gMenu.ml" 228 8376 8382 "gMenu.ml" 228 8376 8399
+call(
+  stack
+)
+type(
+  menu_item -> unit
+)
+"gMenu.ml" 228 8376 8400 "gMenu.ml" 228 8376 8404
+type(
+  menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 227 8300 8350 "gMenu.ml" 227 8300 8354
+)
+"gMenu.ml" 228 8376 8382 "gMenu.ml" 228 8376 8404
+type(
+  unit
+)
+"gMenu.ml" 229 8406 8416 "gMenu.ml" 229 8406 8426
+type(
+  string
+)
+"gMenu.ml" 229 8406 8429 "gMenu.ml" 229 8406 8439
+type(
+  string
+)
+"gMenu.ml" 229 8406 8440 "gMenu.ml" 229 8406 8441
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gMenu.ml" 229 8406 8442 "gMenu.ml" 229 8406 8447
+type(
+  string
+)
+ident(
+  int_ref label "gMenu.ml" 227 8300 8368 "gMenu.ml" 227 8300 8373
+)
+"gMenu.ml" 229 8406 8448 "gMenu.ml" 229 8406 8449
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gMenu.ml" 229 8406 8450 "gMenu.ml" 229 8406 8453
+type(
+  string
+)
+"gMenu.ml" 229 8406 8442 "gMenu.ml" 229 8406 8453
+call(
+  stack
+)
+type(
+  string
+)
+"gMenu.ml" 229 8406 8429 "gMenu.ml" 229 8406 8453
+call(
+  stack
+)
+type(
+  string
+)
+"gMenu.ml" 231 8494 8500 "gMenu.ml" 231 8494 8526
+type(
+  ?key:Gdk.keysym -> ?modi:Gdk.Tags.modifier list -> string -> unit
+)
+ident(
+  ext_ref GtkData.AccelMap.add_entry
+)
+"gMenu.ml" 231 8494 8527 "gMenu.ml" 231 8494 8537
+type(
+  string
+)
+ident(
+  int_ref accel_path "gMenu.ml" 229 8406 8416 "gMenu.ml" 229 8406 8426
+)
+"gMenu.ml" 231 8494 8539 "gMenu.ml" 231 8494 8542
+type(
+  Gdk.keysym option
+)
+ident(
+  int_ref key "gMenu.ml" 227 8300 8335 "gMenu.ml" 227 8300 8338
+)
+"gMenu.ml" 231 8494 8549 "gMenu.ml" 231 8494 8550
+type(
+  Gdk.Tags.modifier list
+)
+"gMenu.ml" 231 8494 8500 "gMenu.ml" 231 8494 8550
+call(
+  stack
+)
+type(
+  unit
+)
+"gMenu.ml" 233 8589 8595 "gMenu.ml" 233 8589 8624
+type(
+  Gtk.widget Gtk.obj -> string -> Gtk.accel_group -> unit
+)
+ident(
+  ext_ref GtkBase.Widget.set_accel_path
+)
+"gMenu.ml" 233 8589 8625 "gMenu.ml" 233 8589 8629
+type(
+  menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 227 8300 8350 "gMenu.ml" 227 8300 8354
+)
+"gMenu.ml" 233 8589 8625 "gMenu.ml" 233 8589 8639
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gMenu.ml" 233 8589 8640 "gMenu.ml" 233 8589 8650
+type(
+  string
+)
+ident(
+  int_ref accel_path "gMenu.ml" 229 8406 8416 "gMenu.ml" 229 8406 8426
+)
+"gMenu.ml" 233 8589 8651 "gMenu.ml" 233 8589 8662
+type(
+  Gtk.accel_group
+)
+"gMenu.ml" 233 8589 8595 "gMenu.ml" 233 8589 8662
+type(
+  unit
+)
+"gMenu.ml" 234 8664 8670 "gMenu.ml" 234 8664 8673
+type(
+  f:((unit -> unit) -> GtkSignal.id) -> (unit -> unit) option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gMenu.ml" 234 8664 8674 "gMenu.ml" 234 8664 8682
+type(
+  (unit -> unit) option
+)
+ident(
+  int_ref callback "gMenu.ml" 227 8300 8340 "gMenu.ml" 227 8300 8348
+)
+"gMenu.ml" 234 8664 8691 "gMenu.ml" 234 8664 8699
+type(
+  unit -> unit
+)
+ident(
+  def callback "gMenu.ml" 234 8664 8703 "gMenu.ml" 234 8664 8734
+)
+"gMenu.ml" 234 8664 8703 "gMenu.ml" 234 8664 8707
+type(
+  menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 227 8300 8350 "gMenu.ml" 227 8300 8354
+)
+"gMenu.ml" 234 8664 8703 "gMenu.ml" 234 8664 8715
+call(
+  stack
+)
+type(
+  menu_item_signals
+)
+"gMenu.ml" 234 8664 8703 "gMenu.ml" 234 8664 8724
+call(
+  tail
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gMenu.ml" 234 8664 8726 "gMenu.ml" 234 8664 8734
+type(
+  unit -> unit
+)
+ident(
+  int_ref callback "gMenu.ml" 234 8664 8691 "gMenu.ml" 234 8664 8699
+)
+"gMenu.ml" 234 8664 8703 "gMenu.ml" 234 8664 8734
+type(
+  GtkSignal.id
+)
+"gMenu.ml" 234 8664 8686 "gMenu.ml" 234 8664 8735
+type(
+  (unit -> unit) -> GtkSignal.id
+)
+"gMenu.ml" 234 8664 8670 "gMenu.ml" 234 8664 8735
+call(
+  tail
+)
+type(
+  unit
+)
+"gMenu.ml" 233 8589 8595 "gMenu.ml" 234 8664 8735
+type(
+  unit
+)
+"gMenu.ml" 231 8494 8500 "gMenu.ml" 234 8664 8735
+type(
+  unit
+)
+"gMenu.ml" 229 8406 8412 "gMenu.ml" 234 8664 8735
+type(
+  unit
+)
+"gMenu.ml" 228 8376 8382 "gMenu.ml" 234 8664 8735
+type(
+  unit
+)
+"gMenu.ml" 235 8736 8757 "gMenu.ml" 235 8736 8760
+type(
+  Gdk.keysym option
+)
+ident(
+  def key "gMenu.ml" 235 8736 8761 "gMenu.ml" 239 8946 8956
+)
+"gMenu.ml" 235 8736 8762 "gMenu.ml" 235 8736 8770
+type(
+  (unit -> unit) option
+)
+ident(
+  def callback "gMenu.ml" 235 8736 8771 "gMenu.ml" 239 8946 8956
+)
+"gMenu.ml" 235 8736 8772 "gMenu.ml" 235 8736 8779
+type(
+  menu_item pre_menu option
+)
+ident(
+  def submenu "gMenu.ml" 235 8736 8780 "gMenu.ml" 239 8946 8956
+)
+"gMenu.ml" 235 8736 8780 "gMenu.ml" 235 8736 8785
+type(
+  string
+)
+ident(
+  def label "gMenu.ml" 236 8788 8794 "gMenu.ml" 239 8946 8956
+)
+"gMenu.ml" 236 8788 8798 "gMenu.ml" 236 8788 8802
+type(
+  menu_item
+)
+"gMenu.ml" 236 8788 8805 "gMenu.ml" 236 8788 8814
+type(
+  ?use_mnemonic:bool ->
+  ?label:string ->
+  ?right_justified:bool ->
+  ?packing:(menu_item -> unit) -> ?show:bool -> unit -> menu_item
+)
+ident(
+  int_ref menu_item "gMenu.ml" 95 3693 3697 "gMenu.ml" 95 3693 3706
+)
+"gMenu.ml" 236 8788 8830 "gMenu.ml" 236 8788 8834
+type(
+  bool
+)
+"gMenu.ml" 236 8788 8836 "gMenu.ml" 236 8788 8841
+type(
+  string
+)
+ident(
+  int_ref label "gMenu.ml" 235 8736 8780 "gMenu.ml" 235 8736 8785
+)
+"gMenu.ml" 236 8788 8842 "gMenu.ml" 236 8788 8844
+type(
+  unit
+)
+"gMenu.ml" 236 8788 8805 "gMenu.ml" 236 8788 8844
+call(
+  stack
+)
+type(
+  menu_item
+)
+"gMenu.ml" 237 8848 8854 "gMenu.ml" 237 8848 8858
+type(
+  < accel_group : Gtk.accel_group;
+    add_check_item : ?active:bool ->
+                     ?key:Gdk.keysym ->
+                     ?callback:(bool -> unit) -> string -> check_menu_item;
+    add_image_item : ?image:GObj.widget ->
+                     ?key:Gdk.keysym ->
+                     ?callback:(unit -> unit) ->
+                     ?stock:GtkStock.id ->
+                     ?label:string -> unit -> image_menu_item;
+    add_item : ?key:Gdk.keysym ->
+               ?callback:(unit -> unit) ->
+               ?submenu:menu -> string -> menu_item;
+    add_radio_item : ?group:Gtk.radio_menu_item Gtk.group ->
+                     ?active:bool ->
+                     ?key:Gdk.keysym ->
+                     ?callback:(bool -> unit) -> string -> radio_menu_item;
+    add_separator : unit -> menu_item;
+    add_submenu : ?key:Gdk.keysym -> string -> menu;
+    add_tearoff : unit -> menu_item; menu : 'a; .. >
+  as 'b
+)
+"gMenu.ml" 237 8848 8854 "gMenu.ml" 237 8848 8863
+call(
+  stack
+)
+type(
+  ?modi:Gdk.Tags.modifier list ->
+  ?key:Gdk.keysym -> ?callback:(unit -> unit) -> menu_item -> string -> unit
+)
+"gMenu.ml" 237 8848 8864 "gMenu.ml" 237 8848 8868
+type(
+  menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 236 8788 8798 "gMenu.ml" 236 8788 8802
+)
+"gMenu.ml" 237 8848 8870 "gMenu.ml" 237 8848 8873
+type(
+  Gdk.keysym option
+)
+ident(
+  int_ref key "gMenu.ml" 235 8736 8757 "gMenu.ml" 235 8736 8760
+)
+"gMenu.ml" 237 8848 8875 "gMenu.ml" 237 8848 8883
+type(
+  (unit -> unit) option
+)
+ident(
+  int_ref callback "gMenu.ml" 235 8736 8762 "gMenu.ml" 235 8736 8770
+)
+"gMenu.ml" 237 8848 8884 "gMenu.ml" 237 8848 8889
+type(
+  string
+)
+ident(
+  int_ref label "gMenu.ml" 235 8736 8780 "gMenu.ml" 235 8736 8785
+)
+"gMenu.ml" 237 8848 8854 "gMenu.ml" 237 8848 8889
+type(
+  unit
+)
+"gMenu.ml" 238 8891 8897 "gMenu.ml" 238 8891 8900
+type(
+  f:(menu_item pre_menu -> unit) -> menu_item pre_menu option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gMenu.ml" 238 8891 8902 "gMenu.ml" 238 8891 8909
+type(
+  menu_item pre_menu option
+)
+type(
+  menu_item pre_menu option
+)
+ident(
+  int_ref submenu "gMenu.ml" 235 8736 8772 "gMenu.ml" 235 8736 8779
+)
+"gMenu.ml" 238 8891 8928 "gMenu.ml" 238 8891 8932
+type(
+  menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 236 8788 8798 "gMenu.ml" 236 8788 8802
+)
+"gMenu.ml" 238 8891 8928 "gMenu.ml" 238 8891 8944
+call(
+  stack
+)
+type(
+  menu_item pre_menu -> unit
+)
+"gMenu.ml" 238 8891 8897 "gMenu.ml" 238 8891 8944
+call(
+  stack
+)
+type(
+  unit
+)
+"gMenu.ml" 239 8946 8952 "gMenu.ml" 239 8946 8956
+type(
+  menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 236 8788 8798 "gMenu.ml" 236 8788 8802
+)
+"gMenu.ml" 238 8891 8897 "gMenu.ml" 239 8946 8956
+type(
+  menu_item
+)
+"gMenu.ml" 237 8848 8854 "gMenu.ml" 239 8946 8956
+type(
+  menu_item
+)
+"gMenu.ml" 236 8788 8794 "gMenu.ml" 239 8946 8956
+type(
+  menu_item
+)
+"gMenu.ml" 240 8957 8985 "gMenu.ml" 240 8957 8990
+type(
+  GObj.widget option
+)
+ident(
+  def image "gMenu.ml" 241 9008 9016 "gMenu.ml" 255 9540 9565
+)
+"gMenu.ml" 241 9008 9017 "gMenu.ml" 241 9008 9020
+type(
+  Gdk.keysym option
+)
+ident(
+  def key "gMenu.ml" 241 9008 9021 "gMenu.ml" 255 9540 9565
+)
+"gMenu.ml" 241 9008 9022 "gMenu.ml" 241 9008 9030
+type(
+  (unit -> unit) option
+)
+ident(
+  def callback "gMenu.ml" 241 9008 9031 "gMenu.ml" 255 9540 9565
+)
+"gMenu.ml" 241 9008 9032 "gMenu.ml" 241 9008 9037
+type(
+  GtkStock.id option
+)
+ident(
+  def stock "gMenu.ml" 241 9008 9038 "gMenu.ml" 255 9540 9565
+)
+"gMenu.ml" 241 9008 9039 "gMenu.ml" 241 9008 9044
+type(
+  string option
+)
+ident(
+  def label "gMenu.ml" 241 9008 9045 "gMenu.ml" 255 9540 9565
+)
+"gMenu.ml" 241 9008 9045 "gMenu.ml" 241 9008 9047
+type(
+  unit
+)
+"gMenu.ml" 242 9050 9060 "gMenu.ml" 242 9050 9064
+type(
+  image_menu_item
+)
+"gMenu.ml" 242 9050 9067 "gMenu.ml" 242 9050 9082
+type(
+  ?image:GObj.widget ->
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?right_justified:bool ->
+  ?packing:(menu_item -> unit) -> ?show:bool -> unit -> image_menu_item
+)
+ident(
+  int_ref image_menu_item "gMenu.ml" 117 4483 4487 "gMenu.ml" 117 4483 4502
+)
+"gMenu.ml" 242 9050 9097 "gMenu.ml" 242 9050 9101
+type(
+  bool
+)
+"gMenu.ml" 242 9050 9103 "gMenu.ml" 242 9050 9108
+type(
+  GObj.widget option
+)
+ident(
+  int_ref image "gMenu.ml" 240 8957 8985 "gMenu.ml" 240 8957 8990
+)
+"gMenu.ml" 242 9050 9110 "gMenu.ml" 242 9050 9115
+type(
+  string option
+)
+ident(
+  int_ref label "gMenu.ml" 241 9008 9039 "gMenu.ml" 241 9008 9044
+)
+"gMenu.ml" 242 9050 9117 "gMenu.ml" 242 9050 9122
+type(
+  GtkStock.id option
+)
+ident(
+  int_ref stock "gMenu.ml" 241 9008 9032 "gMenu.ml" 241 9008 9037
+)
+"gMenu.ml" 242 9050 9123 "gMenu.ml" 242 9050 9125
+type(
+  unit
+)
+"gMenu.ml" 242 9050 9067 "gMenu.ml" 242 9050 9125
+call(
+  stack
+)
+type(
+  image_menu_item
+)
+"gMenu.ml" 243 9129 9141 "gMenu.ml" 243 9129 9146
+type(
+  GtkStock.id option
+)
+ident(
+  int_ref stock "gMenu.ml" 241 9008 9032 "gMenu.ml" 241 9008 9037
+)
+"gMenu.ml" 244 9154 9162 "gMenu.ml" 244 9154 9166
+type(
+  GtkStock.id option
+)
+"gMenu.ml" 245 9171 9174 "gMenu.ml" 245 9171 9178
+type(
+  'b
+)
+"gMenu.ml" 245 9171 9174 "gMenu.ml" 245 9171 9183
+call(
+  stack
+)
+type(
+  ?modi:Gdk.Tags.modifier list ->
+  ?key:Gdk.keysym -> ?callback:(unit -> unit) -> menu_item -> string -> unit
+)
+"gMenu.ml" 245 9171 9185 "gMenu.ml" 245 9171 9189
+type(
+  menu_item
+)
+type(
+  image_menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 242 9050 9060 "gMenu.ml" 242 9050 9064
+)
+"gMenu.ml" 246 9222 9235 "gMenu.ml" 246 9222 9238
+type(
+  Gdk.keysym option
+)
+ident(
+  int_ref key "gMenu.ml" 241 9008 9017 "gMenu.ml" 241 9008 9020
+)
+"gMenu.ml" 246 9222 9240 "gMenu.ml" 246 9222 9248
+type(
+  (unit -> unit) option
+)
+ident(
+  int_ref callback "gMenu.ml" 241 9008 9022 "gMenu.ml" 241 9008 9030
+)
+"gMenu.ml" 246 9222 9250 "gMenu.ml" 246 9222 9257
+type(
+  string -> opt:string option -> string
+)
+ident(
+  ext_ref Gaux.default
+)
+"gMenu.ml" 246 9222 9258 "gMenu.ml" 246 9222 9270
+type(
+  string
+)
+"gMenu.ml" 246 9222 9276 "gMenu.ml" 246 9222 9281
+type(
+  string option
+)
+ident(
+  int_ref label "gMenu.ml" 241 9008 9039 "gMenu.ml" 241 9008 9044
+)
+"gMenu.ml" 246 9222 9249 "gMenu.ml" 246 9222 9282
+call(
+  stack
+)
+type(
+  string
+)
+"gMenu.ml" 245 9171 9174 "gMenu.ml" 246 9222 9282
+type(
+  unit
+)
+"gMenu.ml" 247 9284 9287 "gMenu.ml" 247 9284 9291
+type(
+  image_menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 242 9050 9060 "gMenu.ml" 242 9050 9064
+)
+"gMenu.ml" 245 9171 9174 "gMenu.ml" 247 9284 9291
+type(
+  image_menu_item
+)
+"gMenu.ml" 248 9292 9305 "gMenu.ml" 248 9292 9306
+type(
+  GtkStock.id
+)
+ident(
+  def s "gMenu.ml" 249 9311 9314 "gMenu.ml" 255 9540 9565
+)
+"gMenu.ml" 248 9292 9300 "gMenu.ml" 248 9292 9306
+type(
+  GtkStock.id option
+)
+"gMenu.ml" 250 9318 9334 "gMenu.ml" 250 9318 9336
+type(
+  GtkStock.item
+)
+ident(
+  def st "gMenu.ml" 251 9365 9370 "gMenu.ml" 254 9530 9539
+)
+"gMenu.ml" 250 9318 9339 "gMenu.ml" 250 9318 9359
+type(
+  GtkStock.id -> GtkStock.item
+)
+ident(
+  ext_ref GtkStock.Item.lookup
+)
+"gMenu.ml" 250 9318 9360 "gMenu.ml" 250 9318 9361
+type(
+  GtkStock.id
+)
+ident(
+  int_ref s "gMenu.ml" 248 9292 9305 "gMenu.ml" 248 9292 9306
+)
+"gMenu.ml" 250 9318 9339 "gMenu.ml" 250 9318 9361
+call(
+  stack
+)
+type(
+  GtkStock.item
+)
+"gMenu.ml" 251 9365 9370 "gMenu.ml" 251 9365 9374
+type(
+  'b
+)
+"gMenu.ml" 251 9365 9370 "gMenu.ml" 251 9365 9379
+call(
+  stack
+)
+type(
+  ?modi:Gdk.Tags.modifier list ->
+  ?key:Gdk.keysym -> ?callback:(unit -> unit) -> menu_item -> string -> unit
+)
+"gMenu.ml" 251 9365 9381 "gMenu.ml" 251 9365 9385
+type(
+  menu_item
+)
+type(
+  image_menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 242 9050 9060 "gMenu.ml" 242 9050 9064
+)
+"gMenu.ml" 252 9419 9435 "gMenu.ml" 252 9419 9437
+type(
+  GtkStock.item
+)
+ident(
+  int_ref st "gMenu.ml" 250 9318 9334 "gMenu.ml" 250 9318 9336
+)
+"gMenu.ml" 252 9419 9435 "gMenu.ml" 252 9419 9453
+type(
+  Gdk.keysym
+)
+"gMenu.ml" 252 9419 9453 "gMenu.ml" 252 9419 9454
+type(
+  Gdk.keysym -> Gdk.keysym -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gMenu.ml" 252 9419 9454 "gMenu.ml" 252 9419 9455
+type(
+  Gdk.keysym
+)
+"gMenu.ml" 252 9419 9435 "gMenu.ml" 252 9419 9455
+type(
+  bool
+)
+"gMenu.ml" 252 9419 9461 "gMenu.ml" 252 9419 9464
+type(
+  Gdk.keysym option
+)
+ident(
+  int_ref key "gMenu.ml" 241 9008 9017 "gMenu.ml" 241 9008 9020
+)
+"gMenu.ml" 252 9419 9470 "gMenu.ml" 252 9419 9474
+type(
+  Gdk.keysym option
+)
+"gMenu.ml" 252 9419 9431 "gMenu.ml" 252 9419 9475
+type(
+  Gdk.keysym option
+)
+"gMenu.ml" 253 9476 9484 "gMenu.ml" 253 9476 9492
+type(
+  (unit -> unit) option
+)
+ident(
+  int_ref callback "gMenu.ml" 241 9008 9022 "gMenu.ml" 241 9008 9030
+)
+"gMenu.ml" 253 9476 9494 "gMenu.ml" 253 9476 9501
+type(
+  string -> opt:string option -> string
+)
+ident(
+  ext_ref Gaux.default
+)
+"gMenu.ml" 253 9476 9502 "gMenu.ml" 253 9476 9516
+type(
+  string
+)
+"gMenu.ml" 253 9476 9522 "gMenu.ml" 253 9476 9527
+type(
+  string option
+)
+ident(
+  int_ref label "gMenu.ml" 241 9008 9039 "gMenu.ml" 241 9008 9044
+)
+"gMenu.ml" 253 9476 9493 "gMenu.ml" 253 9476 9528
+call(
+  stack
+)
+type(
+  string
+)
+"gMenu.ml" 251 9365 9370 "gMenu.ml" 253 9476 9528
+type(
+  unit
+)
+"gMenu.ml" 254 9530 9535 "gMenu.ml" 254 9530 9539
+type(
+  image_menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 242 9050 9060 "gMenu.ml" 242 9050 9064
+)
+"gMenu.ml" 251 9365 9370 "gMenu.ml" 254 9530 9539
+type(
+  image_menu_item
+)
+"gMenu.ml" 250 9318 9330 "gMenu.ml" 254 9530 9539
+type(
+  image_menu_item
+)
+"gMenu.ml" 255 9540 9548 "gMenu.ml" 255 9540 9557
+type(
+  exn
+)
+"gMenu.ml" 255 9540 9561 "gMenu.ml" 255 9540 9565
+type(
+  image_menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 242 9050 9060 "gMenu.ml" 242 9050 9064
+)
+"gMenu.ml" 249 9311 9314 "gMenu.ml" 255 9540 9565
+type(
+  image_menu_item
+)
+"gMenu.ml" 243 9129 9135 "gMenu.ml" 255 9540 9565
+type(
+  image_menu_item
+)
+"gMenu.ml" 242 9050 9056 "gMenu.ml" 255 9540 9565
+type(
+  image_menu_item
+)
+"gMenu.ml" 257 9567 9594 "gMenu.ml" 257 9567 9600
+type(
+  bool option
+)
+ident(
+  def active "gMenu.ml" 257 9567 9601 "gMenu.ml" 261 9824 9834
+)
+"gMenu.ml" 257 9567 9602 "gMenu.ml" 257 9567 9605
+type(
+  Gdk.keysym option
+)
+ident(
+  def key "gMenu.ml" 257 9567 9606 "gMenu.ml" 261 9824 9834
+)
+"gMenu.ml" 257 9567 9607 "gMenu.ml" 257 9567 9615
+type(
+  (bool -> unit) option
+)
+ident(
+  def callback "gMenu.ml" 257 9567 9616 "gMenu.ml" 261 9824 9834
+)
+"gMenu.ml" 257 9567 9616 "gMenu.ml" 257 9567 9621
+type(
+  string
+)
+ident(
+  def label "gMenu.ml" 258 9624 9630 "gMenu.ml" 261 9824 9834
+)
+"gMenu.ml" 258 9624 9634 "gMenu.ml" 258 9624 9638
+type(
+  check_menu_item
+)
+"gMenu.ml" 258 9624 9641 "gMenu.ml" 258 9624 9656
+type(
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?active:bool ->
+  ?show_toggle:bool ->
+  ?right_justified:bool ->
+  ?packing:(menu_item -> unit) -> ?show:bool -> unit -> check_menu_item
+)
+ident(
+  int_ref check_menu_item "gMenu.ml" 142 5473 5477 "gMenu.ml" 142 5473 5492
+)
+"gMenu.ml" 258 9624 9658 "gMenu.ml" 258 9624 9663
+type(
+  string
+)
+ident(
+  int_ref label "gMenu.ml" 257 9567 9616 "gMenu.ml" 257 9567 9621
+)
+"gMenu.ml" 258 9624 9678 "gMenu.ml" 258 9624 9682
+type(
+  bool
+)
+"gMenu.ml" 258 9624 9684 "gMenu.ml" 258 9624 9690
+type(
+  bool option
+)
+ident(
+  int_ref active "gMenu.ml" 257 9567 9594 "gMenu.ml" 257 9567 9600
+)
+"gMenu.ml" 258 9624 9691 "gMenu.ml" 258 9624 9693
+type(
+  unit
+)
+"gMenu.ml" 258 9624 9641 "gMenu.ml" 258 9624 9693
+call(
+  stack
+)
+type(
+  check_menu_item
+)
+"gMenu.ml" 259 9697 9703 "gMenu.ml" 259 9697 9707
+type(
+  'b
+)
+"gMenu.ml" 259 9697 9703 "gMenu.ml" 259 9697 9712
+call(
+  stack
+)
+type(
+  ?modi:Gdk.Tags.modifier list ->
+  ?key:Gdk.keysym -> ?callback:(unit -> unit) -> menu_item -> string -> unit
+)
+"gMenu.ml" 259 9697 9714 "gMenu.ml" 259 9697 9718
+type(
+  menu_item
+)
+type(
+  check_menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 258 9624 9634 "gMenu.ml" 258 9624 9638
+)
+"gMenu.ml" 259 9697 9751 "gMenu.ml" 259 9697 9756
+type(
+  string
+)
+ident(
+  int_ref label "gMenu.ml" 257 9567 9616 "gMenu.ml" 257 9567 9621
+)
+"gMenu.ml" 259 9697 9758 "gMenu.ml" 259 9697 9761
+type(
+  Gdk.keysym option
+)
+ident(
+  int_ref key "gMenu.ml" 257 9567 9602 "gMenu.ml" 257 9567 9605
+)
+"gMenu.ml" 260 9762 9774 "gMenu.ml" 260 9762 9781
+type(
+  f:((bool -> unit) -> unit -> unit) ->
+  (bool -> unit) option -> (unit -> unit) option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gMenu.ml" 260 9762 9782 "gMenu.ml" 260 9762 9790
+type(
+  (bool -> unit) option
+)
+ident(
+  int_ref callback "gMenu.ml" 257 9567 9607 "gMenu.ml" 257 9567 9615
+)
+"gMenu.ml" 260 9762 9799 "gMenu.ml" 260 9762 9800
+type(
+  bool -> unit
+)
+ident(
+  def f "gMenu.ml" 260 9762 9801 "gMenu.ml" 260 9762 9820
+)
+"gMenu.ml" 260 9762 9801 "gMenu.ml" 260 9762 9803
+type(
+  unit
+)
+"gMenu.ml" 260 9762 9807 "gMenu.ml" 260 9762 9808
+type(
+  bool -> unit
+)
+ident(
+  int_ref f "gMenu.ml" 260 9762 9799 "gMenu.ml" 260 9762 9800
+)
+"gMenu.ml" 260 9762 9809 "gMenu.ml" 260 9762 9813
+type(
+  check_menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 258 9624 9634 "gMenu.ml" 258 9624 9638
+)
+"gMenu.ml" 260 9762 9809 "gMenu.ml" 260 9762 9820
+call(
+  stack
+)
+type(
+  bool
+)
+"gMenu.ml" 260 9762 9807 "gMenu.ml" 260 9762 9820
+call(
+  tail
+)
+type(
+  unit
+)
+"gMenu.ml" 260 9762 9794 "gMenu.ml" 260 9762 9821
+type(
+  (bool -> unit) -> unit -> unit
+)
+"gMenu.ml" 260 9762 9773 "gMenu.ml" 260 9762 9822
+call(
+  stack
+)
+type(
+  (unit -> unit) option
+)
+"gMenu.ml" 259 9697 9703 "gMenu.ml" 260 9762 9822
+type(
+  unit
+)
+"gMenu.ml" 261 9824 9830 "gMenu.ml" 261 9824 9834
+type(
+  check_menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 258 9624 9634 "gMenu.ml" 258 9624 9638
+)
+"gMenu.ml" 259 9697 9703 "gMenu.ml" 261 9824 9834
+type(
+  check_menu_item
+)
+"gMenu.ml" 258 9624 9630 "gMenu.ml" 261 9824 9834
+type(
+  check_menu_item
+)
+"gMenu.ml" 262 9835 9862 "gMenu.ml" 262 9835 9867
+type(
+  Gtk.radio_menu_item Gtk.group option
+)
+ident(
+  def group "gMenu.ml" 262 9835 9868 "gMenu.ml" 266 10106 10116
+)
+"gMenu.ml" 262 9835 9869 "gMenu.ml" 262 9835 9875
+type(
+  bool option
+)
+ident(
+  def active "gMenu.ml" 262 9835 9876 "gMenu.ml" 266 10106 10116
+)
+"gMenu.ml" 262 9835 9877 "gMenu.ml" 262 9835 9880
+type(
+  Gdk.keysym option
+)
+ident(
+  def key "gMenu.ml" 262 9835 9881 "gMenu.ml" 266 10106 10116
+)
+"gMenu.ml" 262 9835 9882 "gMenu.ml" 262 9835 9890
+type(
+  (bool -> unit) option
+)
+ident(
+  def callback "gMenu.ml" 262 9835 9891 "gMenu.ml" 266 10106 10116
+)
+"gMenu.ml" 262 9835 9891 "gMenu.ml" 262 9835 9896
+type(
+  string
+)
+ident(
+  def label "gMenu.ml" 263 9899 9905 "gMenu.ml" 266 10106 10116
+)
+"gMenu.ml" 263 9899 9909 "gMenu.ml" 263 9899 9913
+type(
+  radio_menu_item
+)
+"gMenu.ml" 263 9899 9916 "gMenu.ml" 263 9899 9931
+type(
+  ?group:Gtk.radio_menu_item Gtk.group ->
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?active:bool ->
+  ?show_toggle:bool ->
+  ?right_justified:bool ->
+  ?packing:(menu_item -> unit) -> ?show:bool -> unit -> radio_menu_item
+)
+ident(
+  int_ref radio_menu_item "gMenu.ml" 154 5920 5924 "gMenu.ml" 154 5920 5939
+)
+"gMenu.ml" 263 9899 9933 "gMenu.ml" 263 9899 9938
+type(
+  string
+)
+ident(
+  int_ref label "gMenu.ml" 262 9835 9891 "gMenu.ml" 262 9835 9896
+)
+"gMenu.ml" 263 9899 9953 "gMenu.ml" 263 9899 9957
+type(
+  bool
+)
+"gMenu.ml" 263 9899 9959 "gMenu.ml" 263 9899 9964
+type(
+  Gtk.radio_menu_item Gtk.group option
+)
+ident(
+  int_ref group "gMenu.ml" 262 9835 9862 "gMenu.ml" 262 9835 9867
+)
+"gMenu.ml" 263 9899 9966 "gMenu.ml" 263 9899 9972
+type(
+  bool option
+)
+ident(
+  int_ref active "gMenu.ml" 262 9835 9869 "gMenu.ml" 262 9835 9875
+)
+"gMenu.ml" 263 9899 9973 "gMenu.ml" 263 9899 9975
+type(
+  unit
+)
+"gMenu.ml" 263 9899 9916 "gMenu.ml" 263 9899 9975
+call(
+  stack
+)
+type(
+  radio_menu_item
+)
+"gMenu.ml" 264 9979 9985 "gMenu.ml" 264 9979 9989
+type(
+  'b
+)
+"gMenu.ml" 264 9979 9985 "gMenu.ml" 264 9979 9994
+call(
+  stack
+)
+type(
+  ?modi:Gdk.Tags.modifier list ->
+  ?key:Gdk.keysym -> ?callback:(unit -> unit) -> menu_item -> string -> unit
+)
+"gMenu.ml" 264 9979 9996 "gMenu.ml" 264 9979 10000
+type(
+  menu_item
+)
+type(
+  radio_menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 263 9899 9909 "gMenu.ml" 263 9899 9913
+)
+"gMenu.ml" 264 9979 10033 "gMenu.ml" 264 9979 10038
+type(
+  string
+)
+ident(
+  int_ref label "gMenu.ml" 262 9835 9891 "gMenu.ml" 262 9835 9896
+)
+"gMenu.ml" 264 9979 10040 "gMenu.ml" 264 9979 10043
+type(
+  Gdk.keysym option
+)
+ident(
+  int_ref key "gMenu.ml" 262 9835 9877 "gMenu.ml" 262 9835 9880
+)
+"gMenu.ml" 265 10044 10056 "gMenu.ml" 265 10044 10063
+type(
+  f:((bool -> unit) -> unit -> unit) ->
+  (bool -> unit) option -> (unit -> unit) option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gMenu.ml" 265 10044 10064 "gMenu.ml" 265 10044 10072
+type(
+  (bool -> unit) option
+)
+ident(
+  int_ref callback "gMenu.ml" 262 9835 9882 "gMenu.ml" 262 9835 9890
+)
+"gMenu.ml" 265 10044 10081 "gMenu.ml" 265 10044 10082
+type(
+  bool -> unit
+)
+ident(
+  def f "gMenu.ml" 265 10044 10083 "gMenu.ml" 265 10044 10102
+)
+"gMenu.ml" 265 10044 10083 "gMenu.ml" 265 10044 10085
+type(
+  unit
+)
+"gMenu.ml" 265 10044 10089 "gMenu.ml" 265 10044 10090
+type(
+  bool -> unit
+)
+ident(
+  int_ref f "gMenu.ml" 265 10044 10081 "gMenu.ml" 265 10044 10082
+)
+"gMenu.ml" 265 10044 10091 "gMenu.ml" 265 10044 10095
+type(
+  radio_menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 263 9899 9909 "gMenu.ml" 263 9899 9913
+)
+"gMenu.ml" 265 10044 10091 "gMenu.ml" 265 10044 10102
+call(
+  stack
+)
+type(
+  bool
+)
+"gMenu.ml" 265 10044 10089 "gMenu.ml" 265 10044 10102
+call(
+  tail
+)
+type(
+  unit
+)
+"gMenu.ml" 265 10044 10076 "gMenu.ml" 265 10044 10103
+type(
+  (bool -> unit) -> unit -> unit
+)
+"gMenu.ml" 265 10044 10055 "gMenu.ml" 265 10044 10104
+call(
+  stack
+)
+type(
+  (unit -> unit) option
+)
+"gMenu.ml" 264 9979 9985 "gMenu.ml" 265 10044 10104
+type(
+  unit
+)
+"gMenu.ml" 266 10106 10112 "gMenu.ml" 266 10106 10116
+type(
+  radio_menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 263 9899 9909 "gMenu.ml" 263 9899 9913
+)
+"gMenu.ml" 264 9979 9985 "gMenu.ml" 266 10106 10116
+type(
+  radio_menu_item
+)
+"gMenu.ml" 263 9899 9905 "gMenu.ml" 266 10106 10116
+type(
+  radio_menu_item
+)
+"gMenu.ml" 267 10117 10142 "gMenu.ml" 267 10117 10144
+type(
+  unit
+)
+"gMenu.ml" 267 10117 10147 "gMenu.ml" 267 10117 10161
+type(
+  ?packing:(menu_item -> unit) -> ?show:bool -> unit -> menu_item
+)
+ident(
+  int_ref separator_item "gMenu.ml" 104 4046 4050 "gMenu.ml" 104 4046 4064
+)
+"gMenu.ml" 267 10117 10171 "gMenu.ml" 267 10117 10181
+type(
+  'a
+)
+"gMenu.ml" 267 10117 10171 "gMenu.ml" 267 10117 10188
+call(
+  stack
+)
+type(
+  menu_item -> unit
+)
+"gMenu.ml" 267 10117 10189 "gMenu.ml" 267 10117 10191
+type(
+  unit
+)
+"gMenu.ml" 267 10117 10147 "gMenu.ml" 267 10117 10191
+call(
+  tail
+)
+type(
+  menu_item
+)
+"gMenu.ml" 268 10192 10216 "gMenu.ml" 268 10192 10219
+type(
+  Gdk.keysym option
+)
+ident(
+  def key "gMenu.ml" 268 10192 10220 "gMenu.ml" 271 10320 10359
+)
+"gMenu.ml" 268 10192 10220 "gMenu.ml" 268 10192 10225
+type(
+  string
+)
+ident(
+  def label "gMenu.ml" 269 10228 10234 "gMenu.ml" 271 10320 10359
+)
+"gMenu.ml" 269 10228 10238 "gMenu.ml" 269 10228 10242
+type(
+  menu_item
+)
+"gMenu.ml" 269 10228 10245 "gMenu.ml" 269 10228 10254
+type(
+  ?use_mnemonic:bool ->
+  ?label:string ->
+  ?right_justified:bool ->
+  ?packing:(menu_item -> unit) -> ?show:bool -> unit -> menu_item
+)
+ident(
+  int_ref menu_item "gMenu.ml" 95 3693 3697 "gMenu.ml" 95 3693 3706
+)
+"gMenu.ml" 269 10228 10269 "gMenu.ml" 269 10228 10273
+type(
+  bool
+)
+"gMenu.ml" 269 10228 10275 "gMenu.ml" 269 10228 10280
+type(
+  string
+)
+ident(
+  int_ref label "gMenu.ml" 268 10192 10220 "gMenu.ml" 268 10192 10225
+)
+"gMenu.ml" 269 10228 10281 "gMenu.ml" 269 10228 10283
+type(
+  unit
+)
+"gMenu.ml" 269 10228 10245 "gMenu.ml" 269 10228 10283
+call(
+  stack
+)
+type(
+  menu_item
+)
+"gMenu.ml" 270 10287 10293 "gMenu.ml" 270 10287 10297
+type(
+  'b
+)
+"gMenu.ml" 270 10287 10293 "gMenu.ml" 270 10287 10302
+call(
+  stack
+)
+type(
+  ?modi:Gdk.Tags.modifier list ->
+  ?key:Gdk.keysym -> ?callback:(unit -> unit) -> menu_item -> string -> unit
+)
+"gMenu.ml" 270 10287 10303 "gMenu.ml" 270 10287 10307
+type(
+  menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 269 10228 10238 "gMenu.ml" 269 10228 10242
+)
+"gMenu.ml" 270 10287 10309 "gMenu.ml" 270 10287 10312
+type(
+  Gdk.keysym option
+)
+ident(
+  int_ref key "gMenu.ml" 268 10192 10216 "gMenu.ml" 268 10192 10219
+)
+"gMenu.ml" 270 10287 10313 "gMenu.ml" 270 10287 10318
+type(
+  string
+)
+ident(
+  int_ref label "gMenu.ml" 268 10192 10220 "gMenu.ml" 268 10192 10225
+)
+"gMenu.ml" 270 10287 10293 "gMenu.ml" 270 10287 10318
+type(
+  unit
+)
+"gMenu.ml" 271 10320 10326 "gMenu.ml" 271 10320 10330
+type(
+  ?accel_path:string ->
+  ?border_width:int -> ?packing:(menu -> unit) -> ?show:bool -> unit -> menu
+)
+ident(
+  int_ref menu "gMenu.ml" 180 6806 6810 "gMenu.ml" 180 6806 6814
+)
+"gMenu.ml" 271 10320 10340 "gMenu.ml" 271 10320 10344
+type(
+  menu_item
+)
+ident(
+  int_ref item "gMenu.ml" 269 10228 10238 "gMenu.ml" 269 10228 10242
+)
+"gMenu.ml" 271 10320 10340 "gMenu.ml" 271 10320 10356
+call(
+  stack
+)
+type(
+  menu -> unit
+)
+"gMenu.ml" 271 10320 10357 "gMenu.ml" 271 10320 10359
+type(
+  unit
+)
+"gMenu.ml" 271 10320 10326 "gMenu.ml" 271 10320 10359
+call(
+  tail
+)
+type(
+  menu
+)
+"gMenu.ml" 270 10287 10293 "gMenu.ml" 271 10320 10359
+type(
+  menu
+)
+"gMenu.ml" 269 10228 10234 "gMenu.ml" 271 10320 10359
+type(
+  menu
+)
+"gMenu.ml" 272 10360 10383 "gMenu.ml" 272 10360 10385
+type(
+  unit
+)
+"gMenu.ml" 272 10360 10388 "gMenu.ml" 272 10360 10400
+type(
+  ?packing:(menu_item -> unit) -> ?show:bool -> unit -> menu_item
+)
+ident(
+  int_ref tearoff_item "gMenu.ml" 100 3923 3927 "gMenu.ml" 100 3923 3939
+)
+"gMenu.ml" 272 10360 10410 "gMenu.ml" 272 10360 10420
+type(
+  'a
+)
+"gMenu.ml" 272 10360 10410 "gMenu.ml" 272 10360 10427
+call(
+  stack
+)
+type(
+  menu_item -> unit
+)
+"gMenu.ml" 272 10360 10428 "gMenu.ml" 272 10360 10430
+type(
+  unit
+)
+"gMenu.ml" 272 10360 10388 "gMenu.ml" 272 10360 10430
+call(
+  tail
+)
+type(
+  menu_item
+)

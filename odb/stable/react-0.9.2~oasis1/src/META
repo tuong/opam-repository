@@ -1,0 +1,9 @@
+# OASIS_START
+# DO NOT EDIT (digest: 0614f6305254eb69df9ab76940080e8a)
+version = "0.9.2~oasis1"
+description = "Applicative events and signals for OCaml"
+archive(byte) = "react.cma"
+archive(native) = "react.cmxa"
+exists_if = "react.cma"
+# OASIS_STOP
+

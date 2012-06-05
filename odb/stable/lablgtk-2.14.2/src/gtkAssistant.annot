@@ -1,0 +1,16 @@
+"gtkAssistant.ml" 9 147 151 "gtkAssistant.ml" 9 147 153
+type(
+  unit
+)
+"gtkAssistant.ml" 9 147 156 "gtkAssistant.ml" 9 147 174
+type(
+  unit -> unit
+)
+"gtkAssistant.ml" 9 147 175 "gtkAssistant.ml" 9 147 177
+type(
+  unit
+)
+"gtkAssistant.ml" 9 147 156 "gtkAssistant.ml" 9 147 177
+type(
+  unit
+)

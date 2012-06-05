@@ -1,0 +1,8 @@
+# Specifications for the OCaml-Cgi library                 -*-shell-script-*-
+# 	$Id: META,v 1.7 2005/01/31 19:35:35 chris_77 Exp $	
+name="CamlGI"
+description="OCaml (F)CGI library"
+requires = "threads unix str"
+archive(byte) = "camlGI.cma"
+archive(native) = "camlGI.cmxa"
+version = "0.6"

@@ -1,0 +1,88 @@
+<html><head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Glpk" rel="Chapter" href="Glpk.html"><title>Glpk</title>
+</head>
+<body>
+<code class="code"><span class="keyword">sig</span><br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;lp<br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;direction&nbsp;=&nbsp;<span class="constructor">Minimize</span>&nbsp;<span class="keywordsign">|</span>&nbsp;<span class="constructor">Maximize</span><br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;aux_var_type&nbsp;=<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Free_var</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordsign">|</span>&nbsp;<span class="constructor">Lower_bounded_var</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordsign">|</span>&nbsp;<span class="constructor">Upper_bounded_var</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordsign">|</span>&nbsp;<span class="constructor">Double_bounded_var</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordsign">|</span>&nbsp;<span class="constructor">Fixed_var</span><br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;prob_class&nbsp;=&nbsp;<span class="constructor">Linear_prog</span>&nbsp;<span class="keywordsign">|</span>&nbsp;<span class="constructor">Mixed_integer_prog</span><br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;var_kind&nbsp;=&nbsp;<span class="constructor">Continuous_var</span>&nbsp;<span class="keywordsign">|</span>&nbsp;<span class="constructor">Integer_var</span><br>
+&nbsp;&nbsp;<span class="keyword">exception</span>&nbsp;<span class="constructor">Fault</span><br>
+&nbsp;&nbsp;<span class="keyword">exception</span>&nbsp;<span class="constructor">Empty</span><br>
+&nbsp;&nbsp;<span class="keyword">exception</span>&nbsp;<span class="constructor">Bad_basis</span><br>
+&nbsp;&nbsp;<span class="keyword">exception</span>&nbsp;<span class="constructor">Lower_limit</span><br>
+&nbsp;&nbsp;<span class="keyword">exception</span>&nbsp;<span class="constructor">Upper_limit</span><br>
+&nbsp;&nbsp;<span class="keyword">exception</span>&nbsp;<span class="constructor">No_primal_feasible_solution</span><br>
+&nbsp;&nbsp;<span class="keyword">exception</span>&nbsp;<span class="constructor">No_dual_feasible_solution</span><br>
+&nbsp;&nbsp;<span class="keyword">exception</span>&nbsp;<span class="constructor">Iteration_limit</span><br>
+&nbsp;&nbsp;<span class="keyword">exception</span>&nbsp;<span class="constructor">Time_limit</span><br>
+&nbsp;&nbsp;<span class="keyword">exception</span>&nbsp;<span class="constructor">No_convergence</span><br>
+&nbsp;&nbsp;<span class="keyword">exception</span>&nbsp;<span class="constructor">Solver_failure</span><br>
+&nbsp;&nbsp;<span class="keyword">exception</span>&nbsp;<span class="constructor">Unknown_error</span><br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;new_problem&nbsp;:&nbsp;unit&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Glpk</span>.lp<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;make_problem&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Glpk</span>.direction&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;float&nbsp;array&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;float&nbsp;array&nbsp;array&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;(float&nbsp;*&nbsp;float)&nbsp;array&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;(float&nbsp;*&nbsp;float)&nbsp;array&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Glpk</span>.lp<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;read_cplex&nbsp;:&nbsp;string&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Glpk</span>.lp<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;write_cplex&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;set_prob_name&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_prob_name&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;set_class&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Glpk</span>.prob_class&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_class&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Glpk</span>.prob_class<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;set_direction&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Glpk</span>.direction&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_direction&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Glpk</span>.direction<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;set_obj_name&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_obj_name&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;add_rows&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_num_rows&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;set_row_name&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_row_name&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;set_row_bounds&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Glpk</span>.aux_var_type&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;add_columns&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_num_cols&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;set_col_name&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_col_name&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;set_col_kind&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Glpk</span>.var_kind&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;set_col_bounds&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Glpk</span>.aux_var_type&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;set_obj_coef&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;load_matrix&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;array&nbsp;array&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;load_sparse_matrix&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;((int&nbsp;*&nbsp;int)&nbsp;*&nbsp;float)&nbsp;array&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;scale_problem&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;unscale_problem&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;warm_up&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;simplex&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;interior&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;branch_and_bound&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;branch_and_bound_opt&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_obj_val&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_col_primal&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_col_primals&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;array<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_row_primal&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_row_dual&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;set_message_level&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;use_presolver&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;bool&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;set_simplex_iteration_count&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;reset_simplex_iteration_count&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_simplex_iteration_count&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;set_simplex_iteration_limit&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_simplex_iteration_limit&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;set_simplex_time_limit&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_simplex_time_limit&nbsp;:&nbsp;<span class="constructor">Glpk</span>.lp&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float<br>
+<span class="keyword">end</span></code></body></html>

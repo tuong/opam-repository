@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="next" href="Json_type.Build.html">
+<link rel="Up" href="Json_type.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Json_type" rel="Chapter" href="Json_type.html">
+<link title="Json_io" rel="Chapter" href="Json_io.html">
+<link title="Json_compat" rel="Chapter" href="Json_compat.html"><title>Json_type.Browse</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a href="Json_type.html">Up</a>
+&nbsp;<a href="Json_type.Build.html">Next</a>
+</div>
+<center><h1>Module <a href="type_Json_type.Browse.html">Json_type.Browse</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Browse: <code class="code">sig</code> <a href="Json_type.Browse.html">..</a> <code class="code">end</code></pre>This submodule provides some simple functions for checking
+  and reading the structure of JSON data.
+<p>
+
+  Use <code class="code">open Json_type.Browse</code> when you want to convert JSON data
+  into another OCaml type.<br>
+<hr width="100%">
+<pre><span class="keyword">val</span> <a name="VALmake_table"></a>make_table : <code class="type">(string * <a href="Json_type.html#TYPEt">Json_type.t</a>) list -> (string, <a href="Json_type.html#TYPEt">Json_type.t</a>) Hashtbl.t</code></pre><div class="info">
+<code class="code">make_table</code> creates a hash table from the contents of a JSON <code class="code">Object</code>.
+  For example, if <code class="code">x</code> is a JSON <code class="code">Object</code>, then the corresponding table
+  can be created by <code class="code">let tbl = make_table (objekt x)</code>.
+<p>
+
+  Hash tables are more efficient than lists
+  if several fields must be extracted 
+  and converted into something like an OCaml record.
+<p>
+
+  The key/value pairs are added from left to right.
+  Therefore if there are several bindings for the same key, the latest
+  to appear in the list will be the first in the list
+  returned by <code class="code">Hashtbl.find_all</code>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALfield"></a>field : <code class="type">(string, <a href="Json_type.html#TYPEt">Json_type.t</a>) Hashtbl.t -> string -> <a href="Json_type.html#TYPEt">Json_type.t</a></code></pre><div class="info">
+<code class="code">field tbl key</code> looks for a unique field <code class="code">key</code> in hash table <code class="code">tbl</code>.
+  It raises a <code class="code">Json_error</code> if <code class="code">key</code> is not found in the table
+  or if it is present multiple times.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALfieldx"></a>fieldx : <code class="type">(string, <a href="Json_type.html#TYPEt">Json_type.t</a>) Hashtbl.t -> string -> <a href="Json_type.html#TYPEt">Json_type.t</a></code></pre><div class="info">
+<code class="code">fieldx tbl key</code> works like <code class="code">field tbl key</code>, but returns <code class="code">Null</code> if
+  <code class="code">key</code> is not found in the table. This function is convenient when
+  assuming that a field which is set to <code class="code">Null</code> is the same
+  as if it were not defined. 
+<p>
+
+  For instance, <code class="code">optional int (fieldx tbl "year")</code> looks in 
+  table <code class="code">tbl</code> for a field <code class="code">"year"</code>. If this field is set to <code class="code">Null</code>
+  or if it is undefined, then <code class="code">None</code> is returned, otherwise
+  an <code class="code">Int</code> is expected and returned, for example as <code class="code">Some 2006</code>.
+  If the value is of another JSON type than <code class="code">Int</code> or <code class="code">Null</code>, it causes an
+  error.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALoptfield"></a>optfield : <code class="type">(string, <a href="Json_type.html#TYPEt">Json_type.t</a>) Hashtbl.t -> string -> <a href="Json_type.html#TYPEt">Json_type.t</a> option</code></pre><div class="info">
+<code class="code">optfield tbl key</code> queries hash table <code class="code">tbl</code> for zero or one field <code class="code">key</code>.
+  The result is returned as <code class="code">None</code> or <code class="code">Some result</code>. If there are several
+  fields with the same <code class="code">key</code>, then a <code class="code">Json_error</code> is produced.
+<p>
+
+  <code class="code">Null</code> is returned as <code class="code">Some Null</code>, not
+  as <code class="code">None</code>. For other behaviors see <a href="Json_type.Browse.html#VALfieldx"><code class="code">Json_type.Browse.fieldx</code></a>
+  and <a href="Json_type.Browse.html#VALoptfieldx"><code class="code">Json_type.Browse.optfieldx</code></a>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALoptfieldx"></a>optfieldx : <code class="type">(string, <a href="Json_type.html#TYPEt">Json_type.t</a>) Hashtbl.t -> string -> <a href="Json_type.html#TYPEt">Json_type.t</a> option</code></pre><div class="info">
+<code class="code">optfieldx</code> is the same as <code class="code">optfield</code> except that it
+  will never return <code class="code">Some Null</code>
+  but <code class="code">None</code> instead.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALdescribe"></a>describe : <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a> -> string</code></pre><div class="info">
+<code class="code">describe x</code> returns a short description of the given JSON data.
+  Its purpose is to help build error messages.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALtype_mismatch"></a>type_mismatch : <code class="type">string -> <a href="Json_type.html#TYPEt">Json_type.t</a> -> 'a</code></pre><div class="info">
+<code class="code">type_mismatch expected x</code> raises the <code class="code">Json_error msg</code> exception,
+  where <code class="code">msg</code> is a message that describes the error as a type mismatch
+  between the element <code class="code">x</code> and what is <code class="code">expected</code>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALis_null"></a>is_null : <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a> -> bool</code></pre><div class="info">
+tells whether the given JSON element is null<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALis_defined"></a>is_defined : <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a> -> bool</code></pre><div class="info">
+tells whether the given JSON element is not null<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALnull"></a>null : <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a> -> unit</code></pre><div class="info">
+raises a <code class="code">Json_error</code> exception if the given JSON value is not <code class="code">Null</code>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALstring"></a>string : <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a> -> string</code></pre><div class="info">
+reads a JSON element as a string or raises a <code class="code">Json_error</code> exception.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALbool"></a>bool : <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a> -> bool</code></pre><div class="info">
+reads a JSON element as a bool or raises a <code class="code">Json_error</code> exception.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALnumber"></a>number : <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a> -> float</code></pre><div class="info">
+reads a JSON element as an int or a float and returns a float 
+  or raises a <code class="code">Json_error</code> exception.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALint"></a>int : <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a> -> int</code></pre><div class="info">
+reads a JSON element as an int or raises a <code class="code">Json_error</code> exception.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALfloat"></a>float : <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a> -> float</code></pre><div class="info">
+reads a JSON element as a float or raises a <code class="code">Json_error</code> exception.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALarray"></a>array : <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a> -> <a href="Json_type.html#TYPEt">Json_type.t</a> list</code></pre><div class="info">
+reads a JSON element as a JSON <code class="code">Array</code> and returns an OCaml list,
+  or raises a <code class="code">Json_error</code> exception.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALobjekt"></a>objekt : <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a> -> (string * <a href="Json_type.html#TYPEt">Json_type.t</a>) list</code></pre><div class="info">
+reads a JSON element as a JSON <code class="code">Object</code> and returns an OCaml list,
+  or raises a <code class="code">Json_error</code> exception.
+<p>
+
+  Note the unusual spelling. <code class="code">object</code> being
+  a keyword in OCaml, we use <code class="code">objekt</code>. <code class="code">Object</code> with a capital is still
+  spelled <code class="code">Object</code>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALlist"></a>list : <code class="type">(<a href="Json_type.html#TYPEt">Json_type.t</a> -> 'a) -> <a href="Json_type.html#TYPEt">Json_type.t</a> -> 'a list</code></pre><div class="info">
+<code class="code">list f x</code> maps a JSON <code class="code">Array x</code> to an OCaml list, 
+  converting each element
+  of list <code class="code">x</code> using <code class="code">f</code>. A <code class="code">Json_error</code> exception is raised if 
+  the given element is not a JSON <code class="code">Array</code>. 
+<p>
+
+  For example, converting a JSON array that must contain only ints 
+  is performed using <code class="code">list int x</code>. Similarly, a list of lists of ints 
+  can be obtained using <code class="code">list (list int) x</code>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALoption"></a>option : <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a> -> <a href="Json_type.html#TYPEt">Json_type.t</a> option</code></pre><div class="info">
+<code class="code">option x</code> returns <code class="code">None</code> is <code class="code">x</code> is <code class="code">Null</code> and <code class="code">Some x</code> otherwise.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALoptional"></a>optional : <code class="type">(<a href="Json_type.html#TYPEt">Json_type.t</a> -> 'a) -> <a href="Json_type.html#TYPEt">Json_type.t</a> -> 'a option</code></pre><div class="info">
+<code class="code">optional f x</code> maps x using the given function <code class="code">f</code> and returns 
+  <code class="code">Some result</code>, unless <code class="code">x</code> is <code class="code">Null</code> in which case it returns <code class="code">None</code>.
+<p>
+
+  For example, <code class="code">optional int x</code> may return something like
+  <code class="code">Some 123</code> or <code class="code">None</code> or raise a <code class="code">Json_error</code> exception in case
+  <code class="code">x</code> is neither <code class="code">Null</code> nor an <code class="code">Int</code>.
+<p>
+
+  See also <a href="Json_type.Browse.html#VALfieldx"><code class="code">Json_type.Browse.fieldx</code></a>.<br>
+</div>
+</body></html>

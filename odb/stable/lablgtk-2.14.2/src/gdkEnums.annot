@@ -1,0 +1,1138 @@
+"gdkEnums.ml" 112 4838 4842 "gdkEnums.ml" 112 4838 4852
+type(
+  event_type Gpointer.variant_table
+)
+ident(
+  def event_type "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 112 4838 4854 "gdkEnums.ml" 112 4838 4864
+type(
+  event_mask Gpointer.variant_table
+)
+ident(
+  def event_mask "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 112 4838 4866 "gdkEnums.ml" 112 4838 4880
+type(
+  extension_mode Gpointer.variant_table
+)
+ident(
+  def extension_mode "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 112 4838 4882 "gdkEnums.ml" 112 4838 4898
+type(
+  visibility_state Gpointer.variant_table
+)
+ident(
+  def visibility_state "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 112 4838 4900 "gdkEnums.ml" 112 4838 4912
+type(
+  input_source Gpointer.variant_table
+)
+ident(
+  def input_source "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 113 4914 4918 "gdkEnums.ml" 113 4914 4934
+type(
+  scroll_direction Gpointer.variant_table
+)
+ident(
+  def scroll_direction "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 113 4914 4936 "gdkEnums.ml" 113 4914 4949
+type(
+  crossing_mode Gpointer.variant_table
+)
+ident(
+  def crossing_mode "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 113 4914 4951 "gdkEnums.ml" 113 4914 4962
+type(
+  notify_type Gpointer.variant_table
+)
+ident(
+  def notify_type "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 113 4914 4964 "gdkEnums.ml" 113 4914 4978
+type(
+  setting_action Gpointer.variant_table
+)
+ident(
+  def setting_action "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 114 4980 4984 "gdkEnums.ml" 114 4980 4996
+type(
+  window_state Gpointer.variant_table
+)
+ident(
+  def window_state "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 114 4980 4998 "gdkEnums.ml" 114 4980 5007
+type(
+  fill_rule Gpointer.variant_table
+)
+ident(
+  def fill_rule "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 114 4980 5009 "gdkEnums.ml" 114 4980 5021
+type(
+  overlap_type Gpointer.variant_table
+)
+ident(
+  def overlap_type "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 114 4980 5023 "gdkEnums.ml" 114 4980 5036
+type(
+  function_type Gpointer.variant_table
+)
+ident(
+  def function_type "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 114 4980 5038 "gdkEnums.ml" 114 4980 5042
+type(
+  fill Gpointer.variant_table
+)
+ident(
+  def fill "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 115 5044 5048 "gdkEnums.ml" 115 5044 5062
+type(
+  subwindow_mode Gpointer.variant_table
+)
+ident(
+  def subwindow_mode "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 115 5044 5064 "gdkEnums.ml" 115 5044 5074
+type(
+  line_style Gpointer.variant_table
+)
+ident(
+  def line_style "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 115 5044 5076 "gdkEnums.ml" 115 5044 5085
+type(
+  cap_style Gpointer.variant_table
+)
+ident(
+  def cap_style "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 115 5044 5087 "gdkEnums.ml" 115 5044 5097
+type(
+  join_style Gpointer.variant_table
+)
+ident(
+  def join_style "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 115 5044 5099 "gdkEnums.ml" 115 5044 5107
+type(
+  modifier Gpointer.variant_table
+)
+ident(
+  def modifier "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 115 5044 5109 "gdkEnums.ml" 115 5044 5119
+type(
+  image_type Gpointer.variant_table
+)
+ident(
+  def image_type "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 116 5121 5125 "gdkEnums.ml" 116 5121 5136
+type(
+  visual_type Gpointer.variant_table
+)
+ident(
+  def visual_type "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 116 5121 5138 "gdkEnums.ml" 116 5121 5147
+type(
+  font_type Gpointer.variant_table
+)
+ident(
+  def font_type "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 116 5121 5149 "gdkEnums.ml" 116 5121 5160
+type(
+  drag_action Gpointer.variant_table
+)
+ident(
+  def drag_action "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 116 5121 5162 "gdkEnums.ml" 116 5121 5172
+type(
+  rgb_dither Gpointer.variant_table
+)
+ident(
+  def rgb_dither "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 116 5121 5174 "gdkEnums.ml" 116 5121 5179
+type(
+  xdata Gpointer.variant_table
+)
+ident(
+  def xdata "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 116 5121 5181 "gdkEnums.ml" 116 5121 5195
+type(
+  property_state Gpointer.variant_table
+)
+ident(
+  def property_state "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 117 5197 5201 "gdkEnums.ml" 117 5197 5214
+type(
+  property_mode Gpointer.variant_table
+)
+ident(
+  def property_mode "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 117 5197 5216 "gdkEnums.ml" 117 5197 5223
+type(
+  gravity Gpointer.variant_table
+)
+ident(
+  def gravity "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 117 5197 5225 "gdkEnums.ml" 117 5197 5241
+type(
+  window_type_hint Gpointer.variant_table
+)
+ident(
+  def window_type_hint "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 117 5197 5243 "gdkEnums.ml" 117 5197 5254
+type(
+  cursor_type Gpointer.variant_table
+)
+ident(
+  def cursor_type "gdkEnums.ml" 119 5273 5273 --
+)
+"gdkEnums.ml" 112 4838 4842 "gdkEnums.ml" 117 5197 5254
+type(
+  event_type Gpointer.variant_table * event_mask Gpointer.variant_table *
+  extension_mode Gpointer.variant_table *
+  visibility_state Gpointer.variant_table *
+  input_source Gpointer.variant_table *
+  scroll_direction Gpointer.variant_table *
+  crossing_mode Gpointer.variant_table * notify_type Gpointer.variant_table *
+  setting_action Gpointer.variant_table *
+  window_state Gpointer.variant_table * fill_rule Gpointer.variant_table *
+  overlap_type Gpointer.variant_table *
+  function_type Gpointer.variant_table * fill Gpointer.variant_table *
+  subwindow_mode Gpointer.variant_table * line_style Gpointer.variant_table *
+  cap_style Gpointer.variant_table * join_style Gpointer.variant_table *
+  modifier Gpointer.variant_table * image_type Gpointer.variant_table *
+  visual_type Gpointer.variant_table * font_type Gpointer.variant_table *
+  drag_action Gpointer.variant_table * rgb_dither Gpointer.variant_table *
+  xdata Gpointer.variant_table * property_state Gpointer.variant_table *
+  property_mode Gpointer.variant_table * gravity Gpointer.variant_table *
+  window_type_hint Gpointer.variant_table *
+  cursor_type Gpointer.variant_table
+)
+"gdkEnums.ml" 117 5197 5257 "gdkEnums.ml" 117 5197 5268
+type(
+  unit ->
+  event_type Gpointer.variant_table * event_mask Gpointer.variant_table *
+  extension_mode Gpointer.variant_table *
+  visibility_state Gpointer.variant_table *
+  input_source Gpointer.variant_table *
+  scroll_direction Gpointer.variant_table *
+  crossing_mode Gpointer.variant_table * notify_type Gpointer.variant_table *
+  setting_action Gpointer.variant_table *
+  window_state Gpointer.variant_table * fill_rule Gpointer.variant_table *
+  overlap_type Gpointer.variant_table *
+  function_type Gpointer.variant_table * fill Gpointer.variant_table *
+  subwindow_mode Gpointer.variant_table * line_style Gpointer.variant_table *
+  cap_style Gpointer.variant_table * join_style Gpointer.variant_table *
+  modifier Gpointer.variant_table * image_type Gpointer.variant_table *
+  visual_type Gpointer.variant_table * font_type Gpointer.variant_table *
+  drag_action Gpointer.variant_table * rgb_dither Gpointer.variant_table *
+  xdata Gpointer.variant_table * property_state Gpointer.variant_table *
+  property_mode Gpointer.variant_table * gravity Gpointer.variant_table *
+  window_type_hint Gpointer.variant_table *
+  cursor_type Gpointer.variant_table
+)
+"gdkEnums.ml" 117 5197 5269 "gdkEnums.ml" 117 5197 5271
+type(
+  unit
+)
+"gdkEnums.ml" 117 5197 5257 "gdkEnums.ml" 117 5197 5271
+type(
+  event_type Gpointer.variant_table * event_mask Gpointer.variant_table *
+  extension_mode Gpointer.variant_table *
+  visibility_state Gpointer.variant_table *
+  input_source Gpointer.variant_table *
+  scroll_direction Gpointer.variant_table *
+  crossing_mode Gpointer.variant_table * notify_type Gpointer.variant_table *
+  setting_action Gpointer.variant_table *
+  window_state Gpointer.variant_table * fill_rule Gpointer.variant_table *
+  overlap_type Gpointer.variant_table *
+  function_type Gpointer.variant_table * fill Gpointer.variant_table *
+  subwindow_mode Gpointer.variant_table * line_style Gpointer.variant_table *
+  cap_style Gpointer.variant_table * join_style Gpointer.variant_table *
+  modifier Gpointer.variant_table * image_type Gpointer.variant_table *
+  visual_type Gpointer.variant_table * font_type Gpointer.variant_table *
+  drag_action Gpointer.variant_table * rgb_dither Gpointer.variant_table *
+  xdata Gpointer.variant_table * property_state Gpointer.variant_table *
+  property_mode Gpointer.variant_table * gravity Gpointer.variant_table *
+  window_type_hint Gpointer.variant_table *
+  cursor_type Gpointer.variant_table
+)
+"gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+type(
+  ([>  ] as 'a) Gpointer.variant_table -> 'a Gobject.data_conv
+)
+ident(
+  def _make_enum "gdkEnums.ml" 120 5308 5308 --
+)
+"gdkEnums.ml" 119 5273 5290 "gdkEnums.ml" 119 5273 5307
+type(
+  'a Gpointer.variant_table -> 'a Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.enum
+)
+"gdkEnums.ml" 120 5308 5312 "gdkEnums.ml" 120 5308 5327
+type(
+  event_type Gobject.data_conv
+)
+ident(
+  def event_type_conv "gdkEnums.ml" 121 5352 5352 --
+)
+"gdkEnums.ml" 120 5308 5330 "gdkEnums.ml" 120 5308 5340
+type(
+  event_type Gpointer.variant_table -> event_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 120 5308 5341 "gdkEnums.ml" 120 5308 5351
+type(
+  event_type Gpointer.variant_table
+)
+ident(
+  int_ref event_type "gdkEnums.ml" 112 4838 4842 "gdkEnums.ml" 112 4838 4852
+)
+"gdkEnums.ml" 120 5308 5330 "gdkEnums.ml" 120 5308 5351
+call(
+  stack
+)
+type(
+  event_type Gobject.data_conv
+)
+"gdkEnums.ml" 121 5352 5356 "gdkEnums.ml" 121 5352 5371
+type(
+  event_mask list Gobject.data_conv
+)
+ident(
+  def event_mask_conv "gdkEnums.ml" 122 5404 5404 --
+)
+"gdkEnums.ml" 121 5352 5374 "gdkEnums.ml" 121 5352 5392
+type(
+  event_mask Gpointer.variant_table -> event_mask list Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.flags
+)
+"gdkEnums.ml" 121 5352 5393 "gdkEnums.ml" 121 5352 5403
+type(
+  event_mask Gpointer.variant_table
+)
+ident(
+  int_ref event_mask "gdkEnums.ml" 112 4838 4854 "gdkEnums.ml" 112 4838 4864
+)
+"gdkEnums.ml" 121 5352 5374 "gdkEnums.ml" 121 5352 5403
+call(
+  stack
+)
+type(
+  event_mask list Gobject.data_conv
+)
+"gdkEnums.ml" 122 5404 5408 "gdkEnums.ml" 122 5404 5427
+type(
+  extension_mode Gobject.data_conv
+)
+ident(
+  def extension_mode_conv "gdkEnums.ml" 123 5456 5456 --
+)
+"gdkEnums.ml" 122 5404 5430 "gdkEnums.ml" 122 5404 5440
+type(
+  extension_mode Gpointer.variant_table -> extension_mode Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 122 5404 5441 "gdkEnums.ml" 122 5404 5455
+type(
+  extension_mode Gpointer.variant_table
+)
+ident(
+  int_ref extension_mode "gdkEnums.ml" 112 4838 4866 "gdkEnums.ml" 112 4838 4880
+)
+"gdkEnums.ml" 122 5404 5430 "gdkEnums.ml" 122 5404 5455
+call(
+  stack
+)
+type(
+  extension_mode Gobject.data_conv
+)
+"gdkEnums.ml" 123 5456 5460 "gdkEnums.ml" 123 5456 5481
+type(
+  visibility_state Gobject.data_conv
+)
+ident(
+  def visibility_state_conv "gdkEnums.ml" 124 5512 5512 --
+)
+"gdkEnums.ml" 123 5456 5484 "gdkEnums.ml" 123 5456 5494
+type(
+  visibility_state Gpointer.variant_table ->
+  visibility_state Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 123 5456 5495 "gdkEnums.ml" 123 5456 5511
+type(
+  visibility_state Gpointer.variant_table
+)
+ident(
+  int_ref visibility_state "gdkEnums.ml" 112 4838 4882 "gdkEnums.ml" 112 4838 4898
+)
+"gdkEnums.ml" 123 5456 5484 "gdkEnums.ml" 123 5456 5511
+call(
+  stack
+)
+type(
+  visibility_state Gobject.data_conv
+)
+"gdkEnums.ml" 124 5512 5516 "gdkEnums.ml" 124 5512 5533
+type(
+  input_source Gobject.data_conv
+)
+ident(
+  def input_source_conv "gdkEnums.ml" 125 5560 5560 --
+)
+"gdkEnums.ml" 124 5512 5536 "gdkEnums.ml" 124 5512 5546
+type(
+  input_source Gpointer.variant_table -> input_source Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 124 5512 5547 "gdkEnums.ml" 124 5512 5559
+type(
+  input_source Gpointer.variant_table
+)
+ident(
+  int_ref input_source "gdkEnums.ml" 112 4838 4900 "gdkEnums.ml" 112 4838 4912
+)
+"gdkEnums.ml" 124 5512 5536 "gdkEnums.ml" 124 5512 5559
+call(
+  stack
+)
+type(
+  input_source Gobject.data_conv
+)
+"gdkEnums.ml" 125 5560 5564 "gdkEnums.ml" 125 5560 5585
+type(
+  scroll_direction Gobject.data_conv
+)
+ident(
+  def scroll_direction_conv "gdkEnums.ml" 126 5616 5616 --
+)
+"gdkEnums.ml" 125 5560 5588 "gdkEnums.ml" 125 5560 5598
+type(
+  scroll_direction Gpointer.variant_table ->
+  scroll_direction Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 125 5560 5599 "gdkEnums.ml" 125 5560 5615
+type(
+  scroll_direction Gpointer.variant_table
+)
+ident(
+  int_ref scroll_direction "gdkEnums.ml" 113 4914 4918 "gdkEnums.ml" 113 4914 4934
+)
+"gdkEnums.ml" 125 5560 5588 "gdkEnums.ml" 125 5560 5615
+call(
+  stack
+)
+type(
+  scroll_direction Gobject.data_conv
+)
+"gdkEnums.ml" 126 5616 5620 "gdkEnums.ml" 126 5616 5638
+type(
+  crossing_mode Gobject.data_conv
+)
+ident(
+  def crossing_mode_conv "gdkEnums.ml" 127 5666 5666 --
+)
+"gdkEnums.ml" 126 5616 5641 "gdkEnums.ml" 126 5616 5651
+type(
+  crossing_mode Gpointer.variant_table -> crossing_mode Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 126 5616 5652 "gdkEnums.ml" 126 5616 5665
+type(
+  crossing_mode Gpointer.variant_table
+)
+ident(
+  int_ref crossing_mode "gdkEnums.ml" 113 4914 4936 "gdkEnums.ml" 113 4914 4949
+)
+"gdkEnums.ml" 126 5616 5641 "gdkEnums.ml" 126 5616 5665
+call(
+  stack
+)
+type(
+  crossing_mode Gobject.data_conv
+)
+"gdkEnums.ml" 127 5666 5670 "gdkEnums.ml" 127 5666 5686
+type(
+  notify_type Gobject.data_conv
+)
+ident(
+  def notify_type_conv "gdkEnums.ml" 128 5712 5712 --
+)
+"gdkEnums.ml" 127 5666 5689 "gdkEnums.ml" 127 5666 5699
+type(
+  notify_type Gpointer.variant_table -> notify_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 127 5666 5700 "gdkEnums.ml" 127 5666 5711
+type(
+  notify_type Gpointer.variant_table
+)
+ident(
+  int_ref notify_type "gdkEnums.ml" 113 4914 4951 "gdkEnums.ml" 113 4914 4962
+)
+"gdkEnums.ml" 127 5666 5689 "gdkEnums.ml" 127 5666 5711
+call(
+  stack
+)
+type(
+  notify_type Gobject.data_conv
+)
+"gdkEnums.ml" 128 5712 5716 "gdkEnums.ml" 128 5712 5735
+type(
+  setting_action Gobject.data_conv
+)
+ident(
+  def setting_action_conv "gdkEnums.ml" 129 5764 5764 --
+)
+"gdkEnums.ml" 128 5712 5738 "gdkEnums.ml" 128 5712 5748
+type(
+  setting_action Gpointer.variant_table -> setting_action Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 128 5712 5749 "gdkEnums.ml" 128 5712 5763
+type(
+  setting_action Gpointer.variant_table
+)
+ident(
+  int_ref setting_action "gdkEnums.ml" 113 4914 4964 "gdkEnums.ml" 113 4914 4978
+)
+"gdkEnums.ml" 128 5712 5738 "gdkEnums.ml" 128 5712 5763
+call(
+  stack
+)
+type(
+  setting_action Gobject.data_conv
+)
+"gdkEnums.ml" 129 5764 5768 "gdkEnums.ml" 129 5764 5785
+type(
+  window_state Gobject.data_conv
+)
+ident(
+  def window_state_conv "gdkEnums.ml" 130 5812 5812 --
+)
+"gdkEnums.ml" 129 5764 5788 "gdkEnums.ml" 129 5764 5798
+type(
+  window_state Gpointer.variant_table -> window_state Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 129 5764 5799 "gdkEnums.ml" 129 5764 5811
+type(
+  window_state Gpointer.variant_table
+)
+ident(
+  int_ref window_state "gdkEnums.ml" 114 4980 4984 "gdkEnums.ml" 114 4980 4996
+)
+"gdkEnums.ml" 129 5764 5788 "gdkEnums.ml" 129 5764 5811
+call(
+  stack
+)
+type(
+  window_state Gobject.data_conv
+)
+"gdkEnums.ml" 130 5812 5816 "gdkEnums.ml" 130 5812 5830
+type(
+  fill_rule Gobject.data_conv
+)
+ident(
+  def fill_rule_conv "gdkEnums.ml" 131 5854 5854 --
+)
+"gdkEnums.ml" 130 5812 5833 "gdkEnums.ml" 130 5812 5843
+type(
+  fill_rule Gpointer.variant_table -> fill_rule Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 130 5812 5844 "gdkEnums.ml" 130 5812 5853
+type(
+  fill_rule Gpointer.variant_table
+)
+ident(
+  int_ref fill_rule "gdkEnums.ml" 114 4980 4998 "gdkEnums.ml" 114 4980 5007
+)
+"gdkEnums.ml" 130 5812 5833 "gdkEnums.ml" 130 5812 5853
+call(
+  stack
+)
+type(
+  fill_rule Gobject.data_conv
+)
+"gdkEnums.ml" 131 5854 5858 "gdkEnums.ml" 131 5854 5875
+type(
+  overlap_type Gobject.data_conv
+)
+ident(
+  def overlap_type_conv "gdkEnums.ml" 132 5902 5902 --
+)
+"gdkEnums.ml" 131 5854 5878 "gdkEnums.ml" 131 5854 5888
+type(
+  overlap_type Gpointer.variant_table -> overlap_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 131 5854 5889 "gdkEnums.ml" 131 5854 5901
+type(
+  overlap_type Gpointer.variant_table
+)
+ident(
+  int_ref overlap_type "gdkEnums.ml" 114 4980 5009 "gdkEnums.ml" 114 4980 5021
+)
+"gdkEnums.ml" 131 5854 5878 "gdkEnums.ml" 131 5854 5901
+call(
+  stack
+)
+type(
+  overlap_type Gobject.data_conv
+)
+"gdkEnums.ml" 132 5902 5906 "gdkEnums.ml" 132 5902 5924
+type(
+  function_type Gobject.data_conv
+)
+ident(
+  def function_type_conv "gdkEnums.ml" 133 5952 5952 --
+)
+"gdkEnums.ml" 132 5902 5927 "gdkEnums.ml" 132 5902 5937
+type(
+  function_type Gpointer.variant_table -> function_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 132 5902 5938 "gdkEnums.ml" 132 5902 5951
+type(
+  function_type Gpointer.variant_table
+)
+ident(
+  int_ref function_type "gdkEnums.ml" 114 4980 5023 "gdkEnums.ml" 114 4980 5036
+)
+"gdkEnums.ml" 132 5902 5927 "gdkEnums.ml" 132 5902 5951
+call(
+  stack
+)
+type(
+  function_type Gobject.data_conv
+)
+"gdkEnums.ml" 133 5952 5956 "gdkEnums.ml" 133 5952 5965
+type(
+  fill Gobject.data_conv
+)
+ident(
+  def fill_conv "gdkEnums.ml" 134 5984 5984 --
+)
+"gdkEnums.ml" 133 5952 5968 "gdkEnums.ml" 133 5952 5978
+type(
+  fill Gpointer.variant_table -> fill Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 133 5952 5979 "gdkEnums.ml" 133 5952 5983
+type(
+  fill Gpointer.variant_table
+)
+ident(
+  int_ref fill "gdkEnums.ml" 114 4980 5038 "gdkEnums.ml" 114 4980 5042
+)
+"gdkEnums.ml" 133 5952 5968 "gdkEnums.ml" 133 5952 5983
+call(
+  stack
+)
+type(
+  fill Gobject.data_conv
+)
+"gdkEnums.ml" 134 5984 5988 "gdkEnums.ml" 134 5984 6007
+type(
+  subwindow_mode Gobject.data_conv
+)
+ident(
+  def subwindow_mode_conv "gdkEnums.ml" 135 6036 6036 --
+)
+"gdkEnums.ml" 134 5984 6010 "gdkEnums.ml" 134 5984 6020
+type(
+  subwindow_mode Gpointer.variant_table -> subwindow_mode Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 134 5984 6021 "gdkEnums.ml" 134 5984 6035
+type(
+  subwindow_mode Gpointer.variant_table
+)
+ident(
+  int_ref subwindow_mode "gdkEnums.ml" 115 5044 5048 "gdkEnums.ml" 115 5044 5062
+)
+"gdkEnums.ml" 134 5984 6010 "gdkEnums.ml" 134 5984 6035
+call(
+  stack
+)
+type(
+  subwindow_mode Gobject.data_conv
+)
+"gdkEnums.ml" 135 6036 6040 "gdkEnums.ml" 135 6036 6055
+type(
+  line_style Gobject.data_conv
+)
+ident(
+  def line_style_conv "gdkEnums.ml" 136 6080 6080 --
+)
+"gdkEnums.ml" 135 6036 6058 "gdkEnums.ml" 135 6036 6068
+type(
+  line_style Gpointer.variant_table -> line_style Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 135 6036 6069 "gdkEnums.ml" 135 6036 6079
+type(
+  line_style Gpointer.variant_table
+)
+ident(
+  int_ref line_style "gdkEnums.ml" 115 5044 5064 "gdkEnums.ml" 115 5044 5074
+)
+"gdkEnums.ml" 135 6036 6058 "gdkEnums.ml" 135 6036 6079
+call(
+  stack
+)
+type(
+  line_style Gobject.data_conv
+)
+"gdkEnums.ml" 136 6080 6084 "gdkEnums.ml" 136 6080 6098
+type(
+  cap_style Gobject.data_conv
+)
+ident(
+  def cap_style_conv "gdkEnums.ml" 137 6122 6122 --
+)
+"gdkEnums.ml" 136 6080 6101 "gdkEnums.ml" 136 6080 6111
+type(
+  cap_style Gpointer.variant_table -> cap_style Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 136 6080 6112 "gdkEnums.ml" 136 6080 6121
+type(
+  cap_style Gpointer.variant_table
+)
+ident(
+  int_ref cap_style "gdkEnums.ml" 115 5044 5076 "gdkEnums.ml" 115 5044 5085
+)
+"gdkEnums.ml" 136 6080 6101 "gdkEnums.ml" 136 6080 6121
+call(
+  stack
+)
+type(
+  cap_style Gobject.data_conv
+)
+"gdkEnums.ml" 137 6122 6126 "gdkEnums.ml" 137 6122 6141
+type(
+  join_style Gobject.data_conv
+)
+ident(
+  def join_style_conv "gdkEnums.ml" 138 6166 6166 --
+)
+"gdkEnums.ml" 137 6122 6144 "gdkEnums.ml" 137 6122 6154
+type(
+  join_style Gpointer.variant_table -> join_style Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 137 6122 6155 "gdkEnums.ml" 137 6122 6165
+type(
+  join_style Gpointer.variant_table
+)
+ident(
+  int_ref join_style "gdkEnums.ml" 115 5044 5087 "gdkEnums.ml" 115 5044 5097
+)
+"gdkEnums.ml" 137 6122 6144 "gdkEnums.ml" 137 6122 6165
+call(
+  stack
+)
+type(
+  join_style Gobject.data_conv
+)
+"gdkEnums.ml" 138 6166 6170 "gdkEnums.ml" 138 6166 6183
+type(
+  modifier Gobject.data_conv
+)
+ident(
+  def modifier_conv "gdkEnums.ml" 139 6206 6206 --
+)
+"gdkEnums.ml" 138 6166 6186 "gdkEnums.ml" 138 6166 6196
+type(
+  modifier Gpointer.variant_table -> modifier Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 138 6166 6197 "gdkEnums.ml" 138 6166 6205
+type(
+  modifier Gpointer.variant_table
+)
+ident(
+  int_ref modifier "gdkEnums.ml" 115 5044 5099 "gdkEnums.ml" 115 5044 5107
+)
+"gdkEnums.ml" 138 6166 6186 "gdkEnums.ml" 138 6166 6205
+call(
+  stack
+)
+type(
+  modifier Gobject.data_conv
+)
+"gdkEnums.ml" 139 6206 6210 "gdkEnums.ml" 139 6206 6225
+type(
+  image_type Gobject.data_conv
+)
+ident(
+  def image_type_conv "gdkEnums.ml" 140 6250 6250 --
+)
+"gdkEnums.ml" 139 6206 6228 "gdkEnums.ml" 139 6206 6238
+type(
+  image_type Gpointer.variant_table -> image_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 139 6206 6239 "gdkEnums.ml" 139 6206 6249
+type(
+  image_type Gpointer.variant_table
+)
+ident(
+  int_ref image_type "gdkEnums.ml" 115 5044 5109 "gdkEnums.ml" 115 5044 5119
+)
+"gdkEnums.ml" 139 6206 6228 "gdkEnums.ml" 139 6206 6249
+call(
+  stack
+)
+type(
+  image_type Gobject.data_conv
+)
+"gdkEnums.ml" 140 6250 6254 "gdkEnums.ml" 140 6250 6270
+type(
+  visual_type Gobject.data_conv
+)
+ident(
+  def visual_type_conv "gdkEnums.ml" 141 6296 6296 --
+)
+"gdkEnums.ml" 140 6250 6273 "gdkEnums.ml" 140 6250 6283
+type(
+  visual_type Gpointer.variant_table -> visual_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 140 6250 6284 "gdkEnums.ml" 140 6250 6295
+type(
+  visual_type Gpointer.variant_table
+)
+ident(
+  int_ref visual_type "gdkEnums.ml" 116 5121 5125 "gdkEnums.ml" 116 5121 5136
+)
+"gdkEnums.ml" 140 6250 6273 "gdkEnums.ml" 140 6250 6295
+call(
+  stack
+)
+type(
+  visual_type Gobject.data_conv
+)
+"gdkEnums.ml" 141 6296 6300 "gdkEnums.ml" 141 6296 6314
+type(
+  font_type Gobject.data_conv
+)
+ident(
+  def font_type_conv "gdkEnums.ml" 142 6338 6338 --
+)
+"gdkEnums.ml" 141 6296 6317 "gdkEnums.ml" 141 6296 6327
+type(
+  font_type Gpointer.variant_table -> font_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 141 6296 6328 "gdkEnums.ml" 141 6296 6337
+type(
+  font_type Gpointer.variant_table
+)
+ident(
+  int_ref font_type "gdkEnums.ml" 116 5121 5138 "gdkEnums.ml" 116 5121 5147
+)
+"gdkEnums.ml" 141 6296 6317 "gdkEnums.ml" 141 6296 6337
+call(
+  stack
+)
+type(
+  font_type Gobject.data_conv
+)
+"gdkEnums.ml" 142 6338 6342 "gdkEnums.ml" 142 6338 6358
+type(
+  drag_action Gobject.data_conv
+)
+ident(
+  def drag_action_conv "gdkEnums.ml" 143 6384 6384 --
+)
+"gdkEnums.ml" 142 6338 6361 "gdkEnums.ml" 142 6338 6371
+type(
+  drag_action Gpointer.variant_table -> drag_action Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 142 6338 6372 "gdkEnums.ml" 142 6338 6383
+type(
+  drag_action Gpointer.variant_table
+)
+ident(
+  int_ref drag_action "gdkEnums.ml" 116 5121 5149 "gdkEnums.ml" 116 5121 5160
+)
+"gdkEnums.ml" 142 6338 6361 "gdkEnums.ml" 142 6338 6383
+call(
+  stack
+)
+type(
+  drag_action Gobject.data_conv
+)
+"gdkEnums.ml" 143 6384 6388 "gdkEnums.ml" 143 6384 6403
+type(
+  rgb_dither Gobject.data_conv
+)
+ident(
+  def rgb_dither_conv "gdkEnums.ml" 144 6428 6428 --
+)
+"gdkEnums.ml" 143 6384 6406 "gdkEnums.ml" 143 6384 6416
+type(
+  rgb_dither Gpointer.variant_table -> rgb_dither Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 143 6384 6417 "gdkEnums.ml" 143 6384 6427
+type(
+  rgb_dither Gpointer.variant_table
+)
+ident(
+  int_ref rgb_dither "gdkEnums.ml" 116 5121 5162 "gdkEnums.ml" 116 5121 5172
+)
+"gdkEnums.ml" 143 6384 6406 "gdkEnums.ml" 143 6384 6427
+call(
+  stack
+)
+type(
+  rgb_dither Gobject.data_conv
+)
+"gdkEnums.ml" 144 6428 6432 "gdkEnums.ml" 144 6428 6442
+type(
+  xdata Gobject.data_conv
+)
+ident(
+  def xdata_conv "gdkEnums.ml" 145 6462 6462 --
+)
+"gdkEnums.ml" 144 6428 6445 "gdkEnums.ml" 144 6428 6455
+type(
+  xdata Gpointer.variant_table -> xdata Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 144 6428 6456 "gdkEnums.ml" 144 6428 6461
+type(
+  xdata Gpointer.variant_table
+)
+ident(
+  int_ref xdata "gdkEnums.ml" 116 5121 5174 "gdkEnums.ml" 116 5121 5179
+)
+"gdkEnums.ml" 144 6428 6445 "gdkEnums.ml" 144 6428 6461
+call(
+  stack
+)
+type(
+  xdata Gobject.data_conv
+)
+"gdkEnums.ml" 145 6462 6466 "gdkEnums.ml" 145 6462 6485
+type(
+  property_state Gobject.data_conv
+)
+ident(
+  def property_state_conv "gdkEnums.ml" 146 6514 6514 --
+)
+"gdkEnums.ml" 145 6462 6488 "gdkEnums.ml" 145 6462 6498
+type(
+  property_state Gpointer.variant_table -> property_state Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 145 6462 6499 "gdkEnums.ml" 145 6462 6513
+type(
+  property_state Gpointer.variant_table
+)
+ident(
+  int_ref property_state "gdkEnums.ml" 116 5121 5181 "gdkEnums.ml" 116 5121 5195
+)
+"gdkEnums.ml" 145 6462 6488 "gdkEnums.ml" 145 6462 6513
+call(
+  stack
+)
+type(
+  property_state Gobject.data_conv
+)
+"gdkEnums.ml" 146 6514 6518 "gdkEnums.ml" 146 6514 6536
+type(
+  property_mode Gobject.data_conv
+)
+ident(
+  def property_mode_conv "gdkEnums.ml" 147 6564 6564 --
+)
+"gdkEnums.ml" 146 6514 6539 "gdkEnums.ml" 146 6514 6549
+type(
+  property_mode Gpointer.variant_table -> property_mode Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 146 6514 6550 "gdkEnums.ml" 146 6514 6563
+type(
+  property_mode Gpointer.variant_table
+)
+ident(
+  int_ref property_mode "gdkEnums.ml" 117 5197 5201 "gdkEnums.ml" 117 5197 5214
+)
+"gdkEnums.ml" 146 6514 6539 "gdkEnums.ml" 146 6514 6563
+call(
+  stack
+)
+type(
+  property_mode Gobject.data_conv
+)
+"gdkEnums.ml" 147 6564 6568 "gdkEnums.ml" 147 6564 6580
+type(
+  gravity Gobject.data_conv
+)
+ident(
+  def gravity_conv "gdkEnums.ml" 148 6602 6602 --
+)
+"gdkEnums.ml" 147 6564 6583 "gdkEnums.ml" 147 6564 6593
+type(
+  gravity Gpointer.variant_table -> gravity Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 147 6564 6594 "gdkEnums.ml" 147 6564 6601
+type(
+  gravity Gpointer.variant_table
+)
+ident(
+  int_ref gravity "gdkEnums.ml" 117 5197 5216 "gdkEnums.ml" 117 5197 5223
+)
+"gdkEnums.ml" 147 6564 6583 "gdkEnums.ml" 147 6564 6601
+call(
+  stack
+)
+type(
+  gravity Gobject.data_conv
+)
+"gdkEnums.ml" 148 6602 6606 "gdkEnums.ml" 148 6602 6627
+type(
+  window_type_hint Gobject.data_conv
+)
+ident(
+  def window_type_hint_conv "gdkEnums.ml" 149 6658 6658 --
+)
+"gdkEnums.ml" 148 6602 6630 "gdkEnums.ml" 148 6602 6640
+type(
+  window_type_hint Gpointer.variant_table ->
+  window_type_hint Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 148 6602 6641 "gdkEnums.ml" 148 6602 6657
+type(
+  window_type_hint Gpointer.variant_table
+)
+ident(
+  int_ref window_type_hint "gdkEnums.ml" 117 5197 5225 "gdkEnums.ml" 117 5197 5241
+)
+"gdkEnums.ml" 148 6602 6630 "gdkEnums.ml" 148 6602 6657
+call(
+  stack
+)
+type(
+  window_type_hint Gobject.data_conv
+)
+"gdkEnums.ml" 149 6658 6662 "gdkEnums.ml" 149 6658 6678
+type(
+  cursor_type Gobject.data_conv
+)
+ident(
+  def cursor_type_conv "gdkEnums.ml" 149 6658 6703 --
+)
+"gdkEnums.ml" 149 6658 6681 "gdkEnums.ml" 149 6658 6691
+type(
+  cursor_type Gpointer.variant_table -> cursor_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gdkEnums.ml" 119 5273 5277 "gdkEnums.ml" 119 5273 5287
+)
+"gdkEnums.ml" 149 6658 6692 "gdkEnums.ml" 149 6658 6703
+type(
+  cursor_type Gpointer.variant_table
+)
+ident(
+  int_ref cursor_type "gdkEnums.ml" 117 5197 5243 "gdkEnums.ml" 117 5197 5254
+)
+"gdkEnums.ml" 149 6658 6681 "gdkEnums.ml" 149 6658 6703
+call(
+  stack
+)
+type(
+  cursor_type Gobject.data_conv
+)

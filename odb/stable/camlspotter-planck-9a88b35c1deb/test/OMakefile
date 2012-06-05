@@ -1,0 +1,47 @@
+.PHONY: all install clean
+
+BYTE_ENABLED= true
+
+OCAMLINCLUDES += ../lib
+
+OCAMLFLAGS    += -annot -w Ae
+OCAMLCFLAGS   +=
+OCAMLOPTFLAGS +=
+OCAML_LINK_FLAGS += 
+OCAML_BYTE_LINK_FLAGS += planck.cmo
+OCAML_NATIVE_LINK_FLAGS += planck.cmx
+
+CAMLP4PACKS[]=
+
+OCAMLPACKS[]= 
+    sexplib
+    spotlib
+
+# CR jfuruse: depflags need to list the packages manually
+OCAMLDEPFLAGS= -syntax camlp4o -package sexplib.syntax
+OCAMLPPFLAGS= -syntax camlp4o -package sexplib.syntax
+
+OCAML_LIBS +=
+OCAML_CLIBS +=
+OCAML_OTHER_LIBS +=
+OCAML_LIB_FLAGS +=
+
+%.cmo %.cmi %.cma %.annot %.spot %.spit : ../lib/planck.cmo ../lib/planck.cmi
+%.cmx %.cmxa : ../lib/planck.cmx ../lib/planck.cmo
+
+Test(name) = 
+   MyOCamlProgram($(name), $(name))
+
+Test(expr)
+# Test(exprexn)
+# Test(exprref)
+
+.PHONY: test
+
+expr_test.ml: expr
+    ./expr > $@
+
+# Check the parsed result using ocaml toplevel
+test: expr_test.ml
+     println(Testing the output of expr)
+     ocaml $<

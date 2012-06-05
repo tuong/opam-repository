@@ -1,0 +1,9 @@
+# OASIS_START
+# DO NOT EDIT (digest: 40525dbdcffd675db507a88c94cb0361)
+version = "0.0.1"
+description = "Radix tree for string"
+archive(byte) = "radixtree.cma"
+archive(native) = "radixtree.cmxa"
+exists_if = "radixtree.cma"
+# OASIS_STOP
+

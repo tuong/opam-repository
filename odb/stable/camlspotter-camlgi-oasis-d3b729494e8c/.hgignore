@@ -1,0 +1,6 @@
+.*~$
+.*\.(a|annot|cm.*|o|sp.t)$
+setup\.(data|log)
+
+
+

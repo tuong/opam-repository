@@ -1,0 +1,1927 @@
+"gtkRangeProps.ml" 8 89 95 "gtkRangeProps.ml" 8 89 105
+type(
+  ('a, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  def adjustment "gtkRangeProps.ml" 9 108 178 "gtkRangeProps.ml" 10 179 182
+)
+"gtkRangeProps.ml" 9 108 118 "gtkRangeProps.ml" 9 108 130
+type(
+  string
+)
+"gtkRangeProps.ml" 9 108 138 "gtkRangeProps.ml" 9 108 145
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkRangeProps.ml" 9 108 112 "gtkRangeProps.ml" 9 108 178
+type(
+  ('a, Gtk.adjustment Gtk.obj) Gobject.property
+)
+"gtkRangeProps.ml" 12 184 188 "gtkRangeProps.ml" 12 184 196
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons "gtkRangeProps.ml" 13 217 217 --
+)
+"gtkRangeProps.ml" 12 184 199 "gtkRangeProps.ml" 12 184 216
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gtkRangeProps.ml" 13 217 221 "gtkRangeProps.ml" 13 217 233
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons_opt "gtkRangeProps.ml" 15 259 259 --
+)
+"gtkRangeProps.ml" 13 217 236 "gtkRangeProps.ml" 13 217 257
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons_opt
+)
+"gtkRangeProps.ml" 16 281 287 "gtkRangeProps.ml" 16 281 291
+type(
+  'a Gobject.obj -> Gtk.ruler Gtk.obj
+)
+ident(
+  def cast "gtkRangeProps.ml" 17 334 336 "gtkRangeProps.ml" 34 1120 1123
+)
+"gtkRangeProps.ml" 16 281 292 "gtkRangeProps.ml" 16 281 293
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkRangeProps.ml" 16 281 294 "gtkRangeProps.ml" 16 281 333
+)
+"gtkRangeProps.ml" 16 281 312 "gtkRangeProps.ml" 16 281 320
+type(
+  'a Gobject.obj -> string -> Gtk.ruler Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkRangeProps.ml" 16 281 321 "gtkRangeProps.ml" 16 281 322
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkRangeProps.ml" 16 281 292 "gtkRangeProps.ml" 16 281 293
+)
+"gtkRangeProps.ml" 16 281 323 "gtkRangeProps.ml" 16 281 333
+type(
+  string
+)
+"gtkRangeProps.ml" 16 281 312 "gtkRangeProps.ml" 16 281 333
+call(
+  tail
+)
+type(
+  Gtk.ruler Gtk.obj
+)
+type(
+  Gtk.ruler Gtk.obj
+)
+"gtkRangeProps.ml" 18 354 362 "gtkRangeProps.ml" 18 354 367
+type(
+  ([> `ruler ], float) Gobject.property
+)
+ident(
+  def lower "gtkRangeProps.ml" 19 423 427 "gtkRangeProps.ml" 22 642 647
+)
+"gtkRangeProps.ml" 18 354 401 "gtkRangeProps.ml" 18 354 408
+type(
+  string
+)
+"gtkRangeProps.ml" 18 354 415 "gtkRangeProps.ml" 18 354 421
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gtkRangeProps.ml" 18 354 395 "gtkRangeProps.ml" 18 354 422
+type(
+  ([> `ruler ] as 'b, float) Gobject.property
+)
+type(
+  ('b, float) Gobject.property
+)
+"gtkRangeProps.ml" 19 423 431 "gtkRangeProps.ml" 19 423 436
+type(
+  ([> `ruler ], float) Gobject.property
+)
+ident(
+  def upper "gtkRangeProps.ml" 20 492 496 "gtkRangeProps.ml" 22 642 647
+)
+"gtkRangeProps.ml" 19 423 470 "gtkRangeProps.ml" 19 423 477
+type(
+  string
+)
+"gtkRangeProps.ml" 19 423 484 "gtkRangeProps.ml" 19 423 490
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gtkRangeProps.ml" 19 423 464 "gtkRangeProps.ml" 19 423 491
+type(
+  ([> `ruler ] as 'c, float) Gobject.property
+)
+type(
+  ('c, float) Gobject.property
+)
+"gtkRangeProps.ml" 20 492 500 "gtkRangeProps.ml" 20 492 508
+type(
+  ([> `ruler ], float) Gobject.property
+)
+ident(
+  def max_size "gtkRangeProps.ml" 21 567 571 "gtkRangeProps.ml" 22 642 647
+)
+"gtkRangeProps.ml" 20 492 542 "gtkRangeProps.ml" 20 492 552
+type(
+  string
+)
+"gtkRangeProps.ml" 20 492 559 "gtkRangeProps.ml" 20 492 565
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gtkRangeProps.ml" 20 492 536 "gtkRangeProps.ml" 20 492 566
+type(
+  ([> `ruler ] as 'd, float) Gobject.property
+)
+type(
+  ('d, float) Gobject.property
+)
+"gtkRangeProps.ml" 21 567 575 "gtkRangeProps.ml" 21 567 583
+type(
+  ([> `ruler ], float) Gobject.property
+)
+ident(
+  def position "gtkRangeProps.ml" 21 567 641 "gtkRangeProps.ml" 22 642 647
+)
+"gtkRangeProps.ml" 21 567 617 "gtkRangeProps.ml" 21 567 627
+type(
+  string
+)
+"gtkRangeProps.ml" 21 567 634 "gtkRangeProps.ml" 21 567 640
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gtkRangeProps.ml" 21 567 611 "gtkRangeProps.ml" 21 567 641
+type(
+  ([> `ruler ] as 'e, float) Gobject.property
+)
+type(
+  ('e, float) Gobject.property
+)
+"gtkRangeProps.ml" 23 648 654 "gtkRangeProps.ml" 23 648 660
+type(
+  Gtk.Tags.orientation -> Gtk.ruler Gobject.param list -> Gtk.ruler Gtk.obj
+)
+ident(
+  def create "gtkRangeProps.ml" 25 788 790 "gtkRangeProps.ml" 34 1120 1123
+)
+"gtkRangeProps.ml" 23 648 662 "gtkRangeProps.ml" 23 648 665
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  def dir "gtkRangeProps.ml" 23 648 690 "gtkRangeProps.ml" 24 711 787
+)
+"gtkRangeProps.ml" 23 648 690 "gtkRangeProps.ml" 23 648 692
+type(
+  Gtk.ruler Gobject.param list
+)
+ident(
+  def pl "gtkRangeProps.ml" 23 648 693 "gtkRangeProps.ml" 24 711 787
+)
+"gtkRangeProps.ml" 24 711 715 "gtkRangeProps.ml" 24 711 726
+type(
+  classe:string -> Gtk.ruler Gobject.param list -> Gtk.ruler Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkRangeProps.ml" 24 711 731 "gtkRangeProps.ml" 24 711 734
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  int_ref dir "gtkRangeProps.ml" 23 648 662 "gtkRangeProps.ml" 23 648 665
+)
+"gtkRangeProps.ml" 24 711 735 "gtkRangeProps.ml" 24 711 736
+type(
+  Gtk.Tags.orientation -> Gtk.Tags.orientation -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gtkRangeProps.ml" 24 711 737 "gtkRangeProps.ml" 24 711 748
+type(
+  Gtk.Tags.orientation
+)
+"gtkRangeProps.ml" 24 711 731 "gtkRangeProps.ml" 24 711 748
+type(
+  bool
+)
+"gtkRangeProps.ml" 24 711 754 "gtkRangeProps.ml" 24 711 765
+type(
+  string
+)
+"gtkRangeProps.ml" 24 711 771 "gtkRangeProps.ml" 24 711 782
+type(
+  string
+)
+"gtkRangeProps.ml" 24 711 727 "gtkRangeProps.ml" 24 711 783
+type(
+  string
+)
+"gtkRangeProps.ml" 24 711 785 "gtkRangeProps.ml" 24 711 787
+type(
+  Gtk.ruler Gobject.param list
+)
+ident(
+  int_ref pl "gtkRangeProps.ml" 23 648 690 "gtkRangeProps.ml" 23 648 692
+)
+"gtkRangeProps.ml" 24 711 715 "gtkRangeProps.ml" 24 711 787
+call(
+  tail
+)
+type(
+  Gtk.ruler Gtk.obj
+)
+type(
+  Gtk.ruler Gtk.obj
+)
+"gtkRangeProps.ml" 27 886 892 "gtkRangeProps.ml" 27 886 903
+type(
+  cont:(([> `ruler ] as 'f) Gobject.param list -> 'g) ->
+  'f Gobject.param list ->
+  ?lower:float -> ?upper:float -> ?max_size:float -> ?position:float -> 'g
+)
+ident(
+  def make_params "gtkRangeProps.ml" 33 1108 1119 "gtkRangeProps.ml" 34 1120 1123
+)
+"gtkRangeProps.ml" 27 886 905 "gtkRangeProps.ml" 27 886 909
+type(
+  'f Gobject.param list -> 'g
+)
+ident(
+  def cont "gtkRangeProps.ml" 27 886 910 "gtkRangeProps.ml" 33 1108 1119
+)
+"gtkRangeProps.ml" 27 886 910 "gtkRangeProps.ml" 27 886 912
+type(
+  'f Gobject.param list
+)
+ident(
+  def pl "gtkRangeProps.ml" 27 886 913 "gtkRangeProps.ml" 33 1108 1119
+)
+"gtkRangeProps.ml" 27 886 914 "gtkRangeProps.ml" 27 886 919
+type(
+  float option
+)
+ident(
+  def lower "gtkRangeProps.ml" 27 886 920 "gtkRangeProps.ml" 33 1108 1119
+)
+"gtkRangeProps.ml" 27 886 921 "gtkRangeProps.ml" 27 886 926
+type(
+  float option
+)
+ident(
+  def upper "gtkRangeProps.ml" 27 886 927 "gtkRangeProps.ml" 33 1108 1119
+)
+"gtkRangeProps.ml" 27 886 928 "gtkRangeProps.ml" 27 886 936
+type(
+  float option
+)
+ident(
+  def max_size "gtkRangeProps.ml" 27 886 937 "gtkRangeProps.ml" 33 1108 1119
+)
+"gtkRangeProps.ml" 27 886 938 "gtkRangeProps.ml" 27 886 946
+type(
+  float option
+)
+ident(
+  def position "gtkRangeProps.ml" 28 949 953 "gtkRangeProps.ml" 33 1108 1119
+)
+"gtkRangeProps.ml" 28 949 957 "gtkRangeProps.ml" 28 949 959
+type(
+  'f Gobject.param list
+)
+"gtkRangeProps.ml" 29 964 970 "gtkRangeProps.ml" 29 964 978
+type(
+  ('f, float) Gobject.property ->
+  float option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkRangeProps.ml" 12 184 188 "gtkRangeProps.ml" 12 184 196
+)
+"gtkRangeProps.ml" 29 964 979 "gtkRangeProps.ml" 29 964 986
+type(
+  ('f, float) Gobject.property
+)
+ident(
+  ext_ref P.lower
+)
+"gtkRangeProps.ml" 29 964 987 "gtkRangeProps.ml" 29 964 992
+type(
+  float option
+)
+ident(
+  int_ref lower "gtkRangeProps.ml" 27 886 914 "gtkRangeProps.ml" 27 886 919
+)
+"gtkRangeProps.ml" 30 995 1001 "gtkRangeProps.ml" 30 995 1009
+type(
+  ('f, float) Gobject.property ->
+  float option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkRangeProps.ml" 12 184 188 "gtkRangeProps.ml" 12 184 196
+)
+"gtkRangeProps.ml" 30 995 1010 "gtkRangeProps.ml" 30 995 1017
+type(
+  ('f, float) Gobject.property
+)
+ident(
+  ext_ref P.upper
+)
+"gtkRangeProps.ml" 30 995 1018 "gtkRangeProps.ml" 30 995 1023
+type(
+  float option
+)
+ident(
+  int_ref upper "gtkRangeProps.ml" 27 886 921 "gtkRangeProps.ml" 27 886 926
+)
+"gtkRangeProps.ml" 31 1026 1032 "gtkRangeProps.ml" 31 1026 1040
+type(
+  ('f, float) Gobject.property ->
+  float option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkRangeProps.ml" 12 184 188 "gtkRangeProps.ml" 12 184 196
+)
+"gtkRangeProps.ml" 31 1026 1041 "gtkRangeProps.ml" 31 1026 1051
+type(
+  ('f, float) Gobject.property
+)
+ident(
+  ext_ref P.max_size
+)
+"gtkRangeProps.ml" 31 1026 1052 "gtkRangeProps.ml" 31 1026 1060
+type(
+  float option
+)
+ident(
+  int_ref max_size "gtkRangeProps.ml" 27 886 928 "gtkRangeProps.ml" 27 886 936
+)
+"gtkRangeProps.ml" 32 1063 1069 "gtkRangeProps.ml" 32 1063 1077
+type(
+  ('f, float) Gobject.property ->
+  float option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkRangeProps.ml" 12 184 188 "gtkRangeProps.ml" 12 184 196
+)
+"gtkRangeProps.ml" 32 1063 1078 "gtkRangeProps.ml" 32 1063 1088
+type(
+  ('f, float) Gobject.property
+)
+ident(
+  ext_ref P.position
+)
+"gtkRangeProps.ml" 32 1063 1089 "gtkRangeProps.ml" 32 1063 1097
+type(
+  float option
+)
+ident(
+  int_ref position "gtkRangeProps.ml" 27 886 938 "gtkRangeProps.ml" 27 886 946
+)
+"gtkRangeProps.ml" 32 1063 1098 "gtkRangeProps.ml" 32 1063 1100
+type(
+  'f Gobject.param list
+)
+ident(
+  int_ref pl "gtkRangeProps.ml" 27 886 910 "gtkRangeProps.ml" 27 886 912
+)
+"gtkRangeProps.ml" 31 1026 1061 "gtkRangeProps.ml" 32 1063 1101
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkRangeProps.ml" 30 995 1024 "gtkRangeProps.ml" 32 1063 1102
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkRangeProps.ml" 29 964 993 "gtkRangeProps.ml" 32 1063 1103
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkRangeProps.ml" 28 949 962 "gtkRangeProps.ml" 32 1063 1104
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkRangeProps.ml" 33 1108 1112 "gtkRangeProps.ml" 33 1108 1116
+type(
+  'f Gobject.param list -> 'g
+)
+ident(
+  int_ref cont "gtkRangeProps.ml" 27 886 905 "gtkRangeProps.ml" 27 886 909
+)
+"gtkRangeProps.ml" 33 1108 1117 "gtkRangeProps.ml" 33 1108 1119
+type(
+  'f Gobject.param list
+)
+ident(
+  int_ref pl "gtkRangeProps.ml" 28 949 957 "gtkRangeProps.ml" 28 949 959
+)
+"gtkRangeProps.ml" 33 1108 1112 "gtkRangeProps.ml" 33 1108 1119
+call(
+  tail
+)
+type(
+  'g
+)
+"gtkRangeProps.ml" 28 949 953 "gtkRangeProps.ml" 33 1108 1119
+type(
+  'g
+)
+"gtkRangeProps.ml" 37 1147 1153 "gtkRangeProps.ml" 37 1147 1157
+type(
+  'a Gobject.obj -> Gtk.range Gtk.obj
+)
+ident(
+  def cast "gtkRangeProps.ml" 38 1200 1202 "gtkRangeProps.ml" 61 2138 2141
+)
+"gtkRangeProps.ml" 37 1147 1158 "gtkRangeProps.ml" 37 1147 1159
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkRangeProps.ml" 37 1147 1160 "gtkRangeProps.ml" 37 1147 1199
+)
+"gtkRangeProps.ml" 37 1147 1178 "gtkRangeProps.ml" 37 1147 1186
+type(
+  'a Gobject.obj -> string -> Gtk.range Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkRangeProps.ml" 37 1147 1187 "gtkRangeProps.ml" 37 1147 1188
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkRangeProps.ml" 37 1147 1158 "gtkRangeProps.ml" 37 1147 1159
+)
+"gtkRangeProps.ml" 37 1147 1189 "gtkRangeProps.ml" 37 1147 1199
+type(
+  string
+)
+"gtkRangeProps.ml" 37 1147 1178 "gtkRangeProps.ml" 37 1147 1199
+call(
+  tail
+)
+type(
+  Gtk.range Gtk.obj
+)
+type(
+  Gtk.range Gtk.obj
+)
+"gtkRangeProps.ml" 39 1220 1228 "gtkRangeProps.ml" 39 1220 1238
+type(
+  ([> `range ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  def adjustment "gtkRangeProps.ml" 40 1290 1294 "gtkRangeProps.ml" 43 1476 1481
+)
+"gtkRangeProps.ml" 39 1220 1266 "gtkRangeProps.ml" 39 1220 1289
+type(
+  ([> `range ] as 'b, Gtk.adjustment Gtk.obj) Gobject.property
+)
+type(
+  ('b, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.adjustment
+)
+"gtkRangeProps.ml" 40 1290 1298 "gtkRangeProps.ml" 40 1290 1306
+type(
+  ([> `range ], bool) Gobject.property
+)
+ident(
+  def inverted "gtkRangeProps.ml" 41 1366 1370 "gtkRangeProps.ml" 43 1476 1481
+)
+"gtkRangeProps.ml" 40 1290 1340 "gtkRangeProps.ml" 40 1290 1350
+type(
+  string
+)
+"gtkRangeProps.ml" 40 1290 1357 "gtkRangeProps.ml" 40 1290 1364
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkRangeProps.ml" 40 1290 1334 "gtkRangeProps.ml" 40 1290 1365
+type(
+  ([> `range ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkRangeProps.ml" 41 1366 1374 "gtkRangeProps.ml" 41 1366 1387
+type(
+  ([> `range ], GtkEnums.update_type) Gobject.property
+)
+ident(
+  def update_policy "gtkRangeProps.ml" 42 1415 1475 "gtkRangeProps.ml" 43 1476 1481
+)
+"gtkRangeProps.ml" 42 1415 1427 "gtkRangeProps.ml" 42 1415 1442
+type(
+  string
+)
+"gtkRangeProps.ml" 42 1415 1449 "gtkRangeProps.ml" 42 1415 1474
+type(
+  GtkEnums.update_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.update_type_conv
+)
+"gtkRangeProps.ml" 42 1415 1421 "gtkRangeProps.ml" 42 1415 1475
+type(
+  ([> `range ] as 'd, GtkEnums.update_type) Gobject.property
+)
+type(
+  ('d, GtkEnums.update_type) Gobject.property
+)
+"gtkRangeProps.ml" 46 1521 1529 "gtkRangeProps.ml" 46 1521 1542
+type(
+  ([> `range ], float -> unit) GtkSignal.t
+)
+ident(
+  def adjust_bounds "gtkRangeProps.ml" 49 1661 1665 "gtkRangeProps.ml" 54 1907 1912
+)
+"gtkRangeProps.ml" 47 1545 1557 "gtkRangeProps.ml" 47 1545 1572
+type(
+  string
+)
+"gtkRangeProps.ml" 47 1545 1581 "gtkRangeProps.ml" 47 1545 1587
+type(
+  [> `range ] as 'e
+)
+"gtkRangeProps.ml" 47 1545 1604 "gtkRangeProps.ml" 47 1545 1605
+type(
+  float -> unit
+)
+ident(
+  def f "gtkRangeProps.ml" 48 1609 1616 "gtkRangeProps.ml" 48 1609 1659
+)
+"gtkRangeProps.ml" 48 1609 1616 "gtkRangeProps.ml" 48 1609 1624
+type(
+  float Gobject.data_conv -> string -> (float -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkRangeProps.ml" 48 1609 1625 "gtkRangeProps.ml" 48 1609 1631
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gtkRangeProps.ml" 48 1609 1632 "gtkRangeProps.ml" 48 1609 1657
+type(
+  string
+)
+"gtkRangeProps.ml" 48 1609 1658 "gtkRangeProps.ml" 48 1609 1659
+type(
+  float -> unit
+)
+ident(
+  int_ref f "gtkRangeProps.ml" 47 1545 1604 "gtkRangeProps.ml" 47 1545 1605
+)
+"gtkRangeProps.ml" 48 1609 1616 "gtkRangeProps.ml" 48 1609 1659
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkRangeProps.ml" 47 1545 1600 "gtkRangeProps.ml" 48 1609 1659
+type(
+  (float -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkRangeProps.ml" 47 1545 1551 "gtkRangeProps.ml" 48 1609 1660
+type(
+  ('e, float -> unit) GtkSignal.t
+)
+"gtkRangeProps.ml" 49 1661 1669 "gtkRangeProps.ml" 49 1661 1680
+type(
+  ([> `range ], GtkEnums.scroll_type -> unit) GtkSignal.t
+)
+ident(
+  def move_slider "gtkRangeProps.ml" 52 1814 1818 "gtkRangeProps.ml" 54 1907 1912
+)
+"gtkRangeProps.ml" 50 1683 1695 "gtkRangeProps.ml" 50 1683 1708
+type(
+  string
+)
+"gtkRangeProps.ml" 50 1683 1717 "gtkRangeProps.ml" 50 1683 1723
+type(
+  [> `range ] as 'f
+)
+"gtkRangeProps.ml" 50 1683 1740 "gtkRangeProps.ml" 50 1683 1741
+type(
+  GtkEnums.scroll_type -> unit
+)
+ident(
+  def f "gtkRangeProps.ml" 51 1745 1752 "gtkRangeProps.ml" 51 1745 1812
+)
+"gtkRangeProps.ml" 51 1745 1752 "gtkRangeProps.ml" 51 1745 1760
+type(
+  GtkEnums.scroll_type Gobject.data_conv ->
+  string -> (GtkEnums.scroll_type -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkRangeProps.ml" 51 1745 1761 "gtkRangeProps.ml" 51 1745 1786
+type(
+  GtkEnums.scroll_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.scroll_type_conv
+)
+"gtkRangeProps.ml" 51 1745 1787 "gtkRangeProps.ml" 51 1745 1810
+type(
+  string
+)
+"gtkRangeProps.ml" 51 1745 1811 "gtkRangeProps.ml" 51 1745 1812
+type(
+  GtkEnums.scroll_type -> unit
+)
+ident(
+  int_ref f "gtkRangeProps.ml" 50 1683 1740 "gtkRangeProps.ml" 50 1683 1741
+)
+"gtkRangeProps.ml" 51 1745 1752 "gtkRangeProps.ml" 51 1745 1812
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkRangeProps.ml" 50 1683 1736 "gtkRangeProps.ml" 51 1745 1812
+type(
+  (GtkEnums.scroll_type -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkRangeProps.ml" 50 1683 1689 "gtkRangeProps.ml" 51 1745 1813
+type(
+  ('f, GtkEnums.scroll_type -> unit) GtkSignal.t
+)
+"gtkRangeProps.ml" 52 1814 1822 "gtkRangeProps.ml" 52 1814 1835
+type(
+  ([> `range ], unit -> unit) GtkSignal.t
+)
+ident(
+  def value_changed "gtkRangeProps.ml" 53 1838 1906 "gtkRangeProps.ml" 54 1907 1912
+)
+"gtkRangeProps.ml" 53 1838 1850 "gtkRangeProps.ml" 53 1838 1865
+type(
+  string
+)
+"gtkRangeProps.ml" 53 1838 1874 "gtkRangeProps.ml" 53 1838 1880
+type(
+  [> `range ] as 'g
+)
+"gtkRangeProps.ml" 53 1838 1893 "gtkRangeProps.ml" 53 1838 1905
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkRangeProps.ml" 53 1838 1844 "gtkRangeProps.ml" 53 1838 1906
+type(
+  ('g, unit -> unit) GtkSignal.t
+)
+"gtkRangeProps.ml" 55 1913 1919 "gtkRangeProps.ml" 55 1913 1930
+type(
+  cont:(([> `range ] as 'h) Gobject.param list -> 'i) ->
+  'h Gobject.param list ->
+  ?adjustment:Gtk.adjustment Gtk.obj ->
+  ?inverted:bool -> ?update_policy:GtkEnums.update_type -> 'i
+)
+ident(
+  def make_params "gtkRangeProps.ml" 60 2126 2137 "gtkRangeProps.ml" 61 2138 2141
+)
+"gtkRangeProps.ml" 55 1913 1932 "gtkRangeProps.ml" 55 1913 1936
+type(
+  'h Gobject.param list -> 'i
+)
+ident(
+  def cont "gtkRangeProps.ml" 55 1913 1937 "gtkRangeProps.ml" 60 2126 2137
+)
+"gtkRangeProps.ml" 55 1913 1937 "gtkRangeProps.ml" 55 1913 1939
+type(
+  'h Gobject.param list
+)
+ident(
+  def pl "gtkRangeProps.ml" 55 1913 1940 "gtkRangeProps.ml" 60 2126 2137
+)
+"gtkRangeProps.ml" 55 1913 1941 "gtkRangeProps.ml" 55 1913 1951
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  def adjustment "gtkRangeProps.ml" 55 1913 1952 "gtkRangeProps.ml" 60 2126 2137
+)
+"gtkRangeProps.ml" 55 1913 1953 "gtkRangeProps.ml" 55 1913 1961
+type(
+  bool option
+)
+ident(
+  def inverted "gtkRangeProps.ml" 55 1913 1962 "gtkRangeProps.ml" 60 2126 2137
+)
+"gtkRangeProps.ml" 55 1913 1963 "gtkRangeProps.ml" 55 1913 1976
+type(
+  GtkEnums.update_type option
+)
+ident(
+  def update_policy "gtkRangeProps.ml" 56 1979 1983 "gtkRangeProps.ml" 60 2126 2137
+)
+"gtkRangeProps.ml" 56 1979 1987 "gtkRangeProps.ml" 56 1979 1989
+type(
+  'h Gobject.param list
+)
+"gtkRangeProps.ml" 57 1994 2000 "gtkRangeProps.ml" 57 1994 2008
+type(
+  ('h, Gtk.adjustment Gtk.obj) Gobject.property ->
+  Gtk.adjustment Gtk.obj option ->
+  'h Gobject.param list -> 'h Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkRangeProps.ml" 12 184 188 "gtkRangeProps.ml" 12 184 196
+)
+"gtkRangeProps.ml" 57 1994 2009 "gtkRangeProps.ml" 57 1994 2021
+type(
+  ('h, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref P.adjustment
+)
+"gtkRangeProps.ml" 57 1994 2022 "gtkRangeProps.ml" 57 1994 2032
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  int_ref adjustment "gtkRangeProps.ml" 55 1913 1941 "gtkRangeProps.ml" 55 1913 1951
+)
+"gtkRangeProps.ml" 58 2035 2041 "gtkRangeProps.ml" 58 2035 2049
+type(
+  ('h, bool) Gobject.property ->
+  bool option -> 'h Gobject.param list -> 'h Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkRangeProps.ml" 12 184 188 "gtkRangeProps.ml" 12 184 196
+)
+"gtkRangeProps.ml" 58 2035 2050 "gtkRangeProps.ml" 58 2035 2060
+type(
+  ('h, bool) Gobject.property
+)
+ident(
+  ext_ref P.inverted
+)
+"gtkRangeProps.ml" 58 2035 2061 "gtkRangeProps.ml" 58 2035 2069
+type(
+  bool option
+)
+ident(
+  int_ref inverted "gtkRangeProps.ml" 55 1913 1953 "gtkRangeProps.ml" 55 1913 1961
+)
+"gtkRangeProps.ml" 59 2072 2078 "gtkRangeProps.ml" 59 2072 2086
+type(
+  ('h, GtkEnums.update_type) Gobject.property ->
+  GtkEnums.update_type option ->
+  'h Gobject.param list -> 'h Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkRangeProps.ml" 12 184 188 "gtkRangeProps.ml" 12 184 196
+)
+"gtkRangeProps.ml" 59 2072 2087 "gtkRangeProps.ml" 59 2072 2102
+type(
+  ('h, GtkEnums.update_type) Gobject.property
+)
+ident(
+  ext_ref P.update_policy
+)
+"gtkRangeProps.ml" 59 2072 2103 "gtkRangeProps.ml" 59 2072 2116
+type(
+  GtkEnums.update_type option
+)
+ident(
+  int_ref update_policy "gtkRangeProps.ml" 55 1913 1963 "gtkRangeProps.ml" 55 1913 1976
+)
+"gtkRangeProps.ml" 59 2072 2117 "gtkRangeProps.ml" 59 2072 2119
+type(
+  'h Gobject.param list
+)
+ident(
+  int_ref pl "gtkRangeProps.ml" 55 1913 1937 "gtkRangeProps.ml" 55 1913 1939
+)
+"gtkRangeProps.ml" 58 2035 2070 "gtkRangeProps.ml" 59 2072 2120
+call(
+  stack
+)
+type(
+  'h Gobject.param list
+)
+"gtkRangeProps.ml" 57 1994 2033 "gtkRangeProps.ml" 59 2072 2121
+call(
+  stack
+)
+type(
+  'h Gobject.param list
+)
+"gtkRangeProps.ml" 56 1979 1992 "gtkRangeProps.ml" 59 2072 2122
+call(
+  stack
+)
+type(
+  'h Gobject.param list
+)
+"gtkRangeProps.ml" 60 2126 2130 "gtkRangeProps.ml" 60 2126 2134
+type(
+  'h Gobject.param list -> 'i
+)
+ident(
+  int_ref cont "gtkRangeProps.ml" 55 1913 1932 "gtkRangeProps.ml" 55 1913 1936
+)
+"gtkRangeProps.ml" 60 2126 2135 "gtkRangeProps.ml" 60 2126 2137
+type(
+  'h Gobject.param list
+)
+ident(
+  int_ref pl "gtkRangeProps.ml" 56 1979 1987 "gtkRangeProps.ml" 56 1979 1989
+)
+"gtkRangeProps.ml" 60 2126 2130 "gtkRangeProps.ml" 60 2126 2137
+call(
+  tail
+)
+type(
+  'i
+)
+"gtkRangeProps.ml" 56 1979 1983 "gtkRangeProps.ml" 60 2126 2137
+type(
+  'i
+)
+"gtkRangeProps.ml" 64 2165 2171 "gtkRangeProps.ml" 64 2165 2175
+type(
+  'a Gobject.obj -> Gtk.scale Gtk.obj
+)
+ident(
+  def cast "gtkRangeProps.ml" 65 2218 2220 "gtkRangeProps.ml" 86 3047 3050
+)
+"gtkRangeProps.ml" 64 2165 2176 "gtkRangeProps.ml" 64 2165 2177
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkRangeProps.ml" 64 2165 2178 "gtkRangeProps.ml" 64 2165 2217
+)
+"gtkRangeProps.ml" 64 2165 2196 "gtkRangeProps.ml" 64 2165 2204
+type(
+  'a Gobject.obj -> string -> Gtk.scale Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkRangeProps.ml" 64 2165 2205 "gtkRangeProps.ml" 64 2165 2206
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkRangeProps.ml" 64 2165 2176 "gtkRangeProps.ml" 64 2165 2177
+)
+"gtkRangeProps.ml" 64 2165 2207 "gtkRangeProps.ml" 64 2165 2217
+type(
+  string
+)
+"gtkRangeProps.ml" 64 2165 2196 "gtkRangeProps.ml" 64 2165 2217
+call(
+  tail
+)
+type(
+  Gtk.scale Gtk.obj
+)
+type(
+  Gtk.scale Gtk.obj
+)
+"gtkRangeProps.ml" 66 2238 2246 "gtkRangeProps.ml" 66 2238 2252
+type(
+  ([> `scale ], int) Gobject.property
+)
+ident(
+  def digits "gtkRangeProps.ml" 67 2306 2310 "gtkRangeProps.ml" 71 2496 2501
+)
+"gtkRangeProps.ml" 66 2238 2286 "gtkRangeProps.ml" 66 2238 2294
+type(
+  string
+)
+"gtkRangeProps.ml" 66 2238 2301 "gtkRangeProps.ml" 66 2238 2304
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkRangeProps.ml" 66 2238 2280 "gtkRangeProps.ml" 66 2238 2305
+type(
+  ([> `scale ] as 'b, int) Gobject.property
+)
+type(
+  ('b, int) Gobject.property
+)
+"gtkRangeProps.ml" 67 2306 2314 "gtkRangeProps.ml" 67 2306 2324
+type(
+  ([> `scale ], bool) Gobject.property
+)
+ident(
+  def draw_value "gtkRangeProps.ml" 69 2392 2396 "gtkRangeProps.ml" 71 2496 2501
+)
+"gtkRangeProps.ml" 68 2352 2364 "gtkRangeProps.ml" 68 2352 2376
+type(
+  string
+)
+"gtkRangeProps.ml" 68 2352 2383 "gtkRangeProps.ml" 68 2352 2390
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkRangeProps.ml" 68 2352 2358 "gtkRangeProps.ml" 68 2352 2391
+type(
+  ([> `scale ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkRangeProps.ml" 69 2392 2400 "gtkRangeProps.ml" 69 2392 2409
+type(
+  ([> `scale ], GtkEnums.position_type) Gobject.property
+)
+ident(
+  def value_pos "gtkRangeProps.ml" 70 2437 2495 "gtkRangeProps.ml" 71 2496 2501
+)
+"gtkRangeProps.ml" 70 2437 2449 "gtkRangeProps.ml" 70 2437 2460
+type(
+  string
+)
+"gtkRangeProps.ml" 70 2437 2467 "gtkRangeProps.ml" 70 2437 2494
+type(
+  GtkEnums.position_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.position_type_conv
+)
+"gtkRangeProps.ml" 70 2437 2443 "gtkRangeProps.ml" 70 2437 2495
+type(
+  ([> `scale ] as 'd, GtkEnums.position_type) Gobject.property
+)
+type(
+  ('d, GtkEnums.position_type) Gobject.property
+)
+"gtkRangeProps.ml" 74 2541 2549 "gtkRangeProps.ml" 74 2541 2561
+type(
+  ([> `scale ], float -> string) GtkSignal.t
+)
+ident(
+  def format_value "gtkRangeProps.ml" 76 2627 2693 "gtkRangeProps.ml" 77 2694 2699
+)
+"gtkRangeProps.ml" 75 2564 2576 "gtkRangeProps.ml" 75 2564 2590
+type(
+  string
+)
+"gtkRangeProps.ml" 75 2564 2599 "gtkRangeProps.ml" 75 2564 2605
+type(
+  [> `scale ] as 'e
+)
+"gtkRangeProps.ml" 75 2564 2622 "gtkRangeProps.ml" 75 2564 2623
+type(
+  float -> string
+)
+ident(
+  def f "gtkRangeProps.ml" 76 2627 2634 "gtkRangeProps.ml" 76 2627 2692
+)
+"gtkRangeProps.ml" 76 2627 2634 "gtkRangeProps.ml" 76 2627 2646
+type(
+  ret:string Gobject.data_conv ->
+  float Gobject.data_conv -> string -> (float -> string) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1_ret
+)
+"gtkRangeProps.ml" 76 2627 2652 "gtkRangeProps.ml" 76 2627 2658
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkRangeProps.ml" 76 2627 2659 "gtkRangeProps.ml" 76 2627 2665
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gtkRangeProps.ml" 76 2627 2666 "gtkRangeProps.ml" 76 2627 2690
+type(
+  string
+)
+"gtkRangeProps.ml" 76 2627 2691 "gtkRangeProps.ml" 76 2627 2692
+type(
+  float -> string
+)
+ident(
+  int_ref f "gtkRangeProps.ml" 75 2564 2622 "gtkRangeProps.ml" 75 2564 2623
+)
+"gtkRangeProps.ml" 76 2627 2634 "gtkRangeProps.ml" 76 2627 2692
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkRangeProps.ml" 75 2564 2618 "gtkRangeProps.ml" 76 2627 2692
+type(
+  (float -> string) -> Gobject.Closure.argv -> unit
+)
+"gtkRangeProps.ml" 75 2564 2570 "gtkRangeProps.ml" 76 2627 2693
+type(
+  ('e, float -> string) GtkSignal.t
+)
+"gtkRangeProps.ml" 78 2700 2706 "gtkRangeProps.ml" 78 2700 2712
+type(
+  Gtk.Tags.orientation -> Gtk.scale Gobject.param list -> Gtk.scale Gtk.obj
+)
+ident(
+  def create "gtkRangeProps.ml" 80 2840 2842 "gtkRangeProps.ml" 86 3047 3050
+)
+"gtkRangeProps.ml" 78 2700 2714 "gtkRangeProps.ml" 78 2700 2717
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  def dir "gtkRangeProps.ml" 78 2700 2742 "gtkRangeProps.ml" 79 2763 2839
+)
+"gtkRangeProps.ml" 78 2700 2742 "gtkRangeProps.ml" 78 2700 2744
+type(
+  Gtk.scale Gobject.param list
+)
+ident(
+  def pl "gtkRangeProps.ml" 78 2700 2745 "gtkRangeProps.ml" 79 2763 2839
+)
+"gtkRangeProps.ml" 79 2763 2767 "gtkRangeProps.ml" 79 2763 2778
+type(
+  classe:string -> Gtk.scale Gobject.param list -> Gtk.scale Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkRangeProps.ml" 79 2763 2783 "gtkRangeProps.ml" 79 2763 2786
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  int_ref dir "gtkRangeProps.ml" 78 2700 2714 "gtkRangeProps.ml" 78 2700 2717
+)
+"gtkRangeProps.ml" 79 2763 2787 "gtkRangeProps.ml" 79 2763 2788
+type(
+  Gtk.Tags.orientation -> Gtk.Tags.orientation -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gtkRangeProps.ml" 79 2763 2789 "gtkRangeProps.ml" 79 2763 2800
+type(
+  Gtk.Tags.orientation
+)
+"gtkRangeProps.ml" 79 2763 2783 "gtkRangeProps.ml" 79 2763 2800
+type(
+  bool
+)
+"gtkRangeProps.ml" 79 2763 2806 "gtkRangeProps.ml" 79 2763 2817
+type(
+  string
+)
+"gtkRangeProps.ml" 79 2763 2823 "gtkRangeProps.ml" 79 2763 2834
+type(
+  string
+)
+"gtkRangeProps.ml" 79 2763 2779 "gtkRangeProps.ml" 79 2763 2835
+type(
+  string
+)
+"gtkRangeProps.ml" 79 2763 2837 "gtkRangeProps.ml" 79 2763 2839
+type(
+  Gtk.scale Gobject.param list
+)
+ident(
+  int_ref pl "gtkRangeProps.ml" 78 2700 2742 "gtkRangeProps.ml" 78 2700 2744
+)
+"gtkRangeProps.ml" 79 2763 2767 "gtkRangeProps.ml" 79 2763 2839
+call(
+  tail
+)
+type(
+  Gtk.scale Gtk.obj
+)
+type(
+  Gtk.scale Gtk.obj
+)
+"gtkRangeProps.ml" 80 2840 2846 "gtkRangeProps.ml" 80 2840 2857
+type(
+  cont:(([> `scale ] as 'f) Gobject.param list -> 'g) ->
+  'f Gobject.param list ->
+  ?digits:int -> ?draw_value:bool -> ?value_pos:GtkEnums.position_type -> 'g
+)
+ident(
+  def make_params "gtkRangeProps.ml" 85 3035 3046 "gtkRangeProps.ml" 86 3047 3050
+)
+"gtkRangeProps.ml" 80 2840 2859 "gtkRangeProps.ml" 80 2840 2863
+type(
+  'f Gobject.param list -> 'g
+)
+ident(
+  def cont "gtkRangeProps.ml" 80 2840 2864 "gtkRangeProps.ml" 85 3035 3046
+)
+"gtkRangeProps.ml" 80 2840 2864 "gtkRangeProps.ml" 80 2840 2866
+type(
+  'f Gobject.param list
+)
+ident(
+  def pl "gtkRangeProps.ml" 80 2840 2867 "gtkRangeProps.ml" 85 3035 3046
+)
+"gtkRangeProps.ml" 80 2840 2868 "gtkRangeProps.ml" 80 2840 2874
+type(
+  int option
+)
+ident(
+  def digits "gtkRangeProps.ml" 80 2840 2875 "gtkRangeProps.ml" 85 3035 3046
+)
+"gtkRangeProps.ml" 80 2840 2876 "gtkRangeProps.ml" 80 2840 2886
+type(
+  bool option
+)
+ident(
+  def draw_value "gtkRangeProps.ml" 80 2840 2887 "gtkRangeProps.ml" 85 3035 3046
+)
+"gtkRangeProps.ml" 80 2840 2888 "gtkRangeProps.ml" 80 2840 2897
+type(
+  GtkEnums.position_type option
+)
+ident(
+  def value_pos "gtkRangeProps.ml" 81 2900 2904 "gtkRangeProps.ml" 85 3035 3046
+)
+"gtkRangeProps.ml" 81 2900 2908 "gtkRangeProps.ml" 81 2900 2910
+type(
+  'f Gobject.param list
+)
+"gtkRangeProps.ml" 82 2915 2921 "gtkRangeProps.ml" 82 2915 2929
+type(
+  ('f, int) Gobject.property ->
+  int option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkRangeProps.ml" 12 184 188 "gtkRangeProps.ml" 12 184 196
+)
+"gtkRangeProps.ml" 82 2915 2930 "gtkRangeProps.ml" 82 2915 2938
+type(
+  ('f, int) Gobject.property
+)
+ident(
+  ext_ref P.digits
+)
+"gtkRangeProps.ml" 82 2915 2939 "gtkRangeProps.ml" 82 2915 2945
+type(
+  int option
+)
+ident(
+  int_ref digits "gtkRangeProps.ml" 80 2840 2868 "gtkRangeProps.ml" 80 2840 2874
+)
+"gtkRangeProps.ml" 83 2948 2954 "gtkRangeProps.ml" 83 2948 2962
+type(
+  ('f, bool) Gobject.property ->
+  bool option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkRangeProps.ml" 12 184 188 "gtkRangeProps.ml" 12 184 196
+)
+"gtkRangeProps.ml" 83 2948 2963 "gtkRangeProps.ml" 83 2948 2975
+type(
+  ('f, bool) Gobject.property
+)
+ident(
+  ext_ref P.draw_value
+)
+"gtkRangeProps.ml" 83 2948 2976 "gtkRangeProps.ml" 83 2948 2986
+type(
+  bool option
+)
+ident(
+  int_ref draw_value "gtkRangeProps.ml" 80 2840 2876 "gtkRangeProps.ml" 80 2840 2886
+)
+"gtkRangeProps.ml" 84 2989 2995 "gtkRangeProps.ml" 84 2989 3003
+type(
+  ('f, GtkEnums.position_type) Gobject.property ->
+  GtkEnums.position_type option ->
+  'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkRangeProps.ml" 12 184 188 "gtkRangeProps.ml" 12 184 196
+)
+"gtkRangeProps.ml" 84 2989 3004 "gtkRangeProps.ml" 84 2989 3015
+type(
+  ('f, GtkEnums.position_type) Gobject.property
+)
+ident(
+  ext_ref P.value_pos
+)
+"gtkRangeProps.ml" 84 2989 3016 "gtkRangeProps.ml" 84 2989 3025
+type(
+  GtkEnums.position_type option
+)
+ident(
+  int_ref value_pos "gtkRangeProps.ml" 80 2840 2888 "gtkRangeProps.ml" 80 2840 2897
+)
+"gtkRangeProps.ml" 84 2989 3026 "gtkRangeProps.ml" 84 2989 3028
+type(
+  'f Gobject.param list
+)
+ident(
+  int_ref pl "gtkRangeProps.ml" 80 2840 2864 "gtkRangeProps.ml" 80 2840 2866
+)
+"gtkRangeProps.ml" 83 2948 2987 "gtkRangeProps.ml" 84 2989 3029
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkRangeProps.ml" 82 2915 2946 "gtkRangeProps.ml" 84 2989 3030
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkRangeProps.ml" 81 2900 2913 "gtkRangeProps.ml" 84 2989 3031
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkRangeProps.ml" 85 3035 3039 "gtkRangeProps.ml" 85 3035 3043
+type(
+  'f Gobject.param list -> 'g
+)
+ident(
+  int_ref cont "gtkRangeProps.ml" 80 2840 2859 "gtkRangeProps.ml" 80 2840 2863
+)
+"gtkRangeProps.ml" 85 3035 3044 "gtkRangeProps.ml" 85 3035 3046
+type(
+  'f Gobject.param list
+)
+ident(
+  int_ref pl "gtkRangeProps.ml" 81 2900 2908 "gtkRangeProps.ml" 81 2900 2910
+)
+"gtkRangeProps.ml" 85 3035 3039 "gtkRangeProps.ml" 85 3035 3046
+call(
+  tail
+)
+type(
+  'g
+)
+"gtkRangeProps.ml" 81 2900 2904 "gtkRangeProps.ml" 85 3035 3046
+type(
+  'g
+)
+"gtkRangeProps.ml" 89 3078 3084 "gtkRangeProps.ml" 89 3078 3088
+type(
+  'a Gobject.obj -> Gtk.scrollbar Gtk.obj
+)
+ident(
+  def cast "gtkRangeProps.ml" 90 3139 3141 "gtkRangeProps.ml" 93 3297 3300
+)
+"gtkRangeProps.ml" 89 3078 3089 "gtkRangeProps.ml" 89 3078 3090
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkRangeProps.ml" 89 3078 3091 "gtkRangeProps.ml" 89 3078 3138
+)
+"gtkRangeProps.ml" 89 3078 3113 "gtkRangeProps.ml" 89 3078 3121
+type(
+  'a Gobject.obj -> string -> Gtk.scrollbar Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkRangeProps.ml" 89 3078 3122 "gtkRangeProps.ml" 89 3078 3123
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkRangeProps.ml" 89 3078 3089 "gtkRangeProps.ml" 89 3078 3090
+)
+"gtkRangeProps.ml" 89 3078 3124 "gtkRangeProps.ml" 89 3078 3138
+type(
+  string
+)
+"gtkRangeProps.ml" 89 3078 3113 "gtkRangeProps.ml" 89 3078 3138
+call(
+  tail
+)
+type(
+  Gtk.scrollbar Gtk.obj
+)
+type(
+  Gtk.scrollbar Gtk.obj
+)
+"gtkRangeProps.ml" 90 3139 3145 "gtkRangeProps.ml" 90 3139 3151
+type(
+  Gtk.Tags.orientation ->
+  Gtk.scrollbar Gobject.param list -> Gtk.scrollbar Gtk.obj
+)
+ident(
+  def create "gtkRangeProps.ml" 92 3222 3296 "gtkRangeProps.ml" 93 3297 3300
+)
+"gtkRangeProps.ml" 90 3139 3153 "gtkRangeProps.ml" 90 3139 3156
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  def dir "gtkRangeProps.ml" 90 3139 3181 "gtkRangeProps.ml" 92 3222 3296
+)
+"gtkRangeProps.ml" 90 3139 3181 "gtkRangeProps.ml" 90 3139 3183
+type(
+  Gtk.scrollbar Gobject.param list
+)
+ident(
+  def pl "gtkRangeProps.ml" 90 3139 3184 "gtkRangeProps.ml" 92 3222 3296
+)
+"gtkRangeProps.ml" 91 3206 3210 "gtkRangeProps.ml" 91 3206 3221
+type(
+  classe:string -> Gtk.scrollbar Gobject.param list -> Gtk.scrollbar Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkRangeProps.ml" 92 3222 3232 "gtkRangeProps.ml" 92 3222 3235
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  int_ref dir "gtkRangeProps.ml" 90 3139 3153 "gtkRangeProps.ml" 90 3139 3156
+)
+"gtkRangeProps.ml" 92 3222 3236 "gtkRangeProps.ml" 92 3222 3237
+type(
+  Gtk.Tags.orientation -> Gtk.Tags.orientation -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gtkRangeProps.ml" 92 3222 3238 "gtkRangeProps.ml" 92 3222 3249
+type(
+  Gtk.Tags.orientation
+)
+"gtkRangeProps.ml" 92 3222 3232 "gtkRangeProps.ml" 92 3222 3249
+type(
+  bool
+)
+"gtkRangeProps.ml" 92 3222 3255 "gtkRangeProps.ml" 92 3222 3270
+type(
+  string
+)
+"gtkRangeProps.ml" 92 3222 3276 "gtkRangeProps.ml" 92 3222 3291
+type(
+  string
+)
+"gtkRangeProps.ml" 92 3222 3228 "gtkRangeProps.ml" 92 3222 3292
+type(
+  string
+)
+"gtkRangeProps.ml" 92 3222 3294 "gtkRangeProps.ml" 92 3222 3296
+type(
+  Gtk.scrollbar Gobject.param list
+)
+ident(
+  int_ref pl "gtkRangeProps.ml" 90 3139 3181 "gtkRangeProps.ml" 90 3139 3183
+)
+"gtkRangeProps.ml" 91 3206 3210 "gtkRangeProps.ml" 92 3222 3296
+call(
+  tail
+)
+type(
+  Gtk.scrollbar Gtk.obj
+)
+type(
+  Gtk.scrollbar Gtk.obj
+)
+"gtkRangeProps.ml" 96 3330 3336 "gtkRangeProps.ml" 96 3330 3340
+type(
+  'a Gobject.obj -> Gtk.progress_bar Gtk.obj
+)
+ident(
+  def cast "gtkRangeProps.ml" 97 3396 3398 "gtkRangeProps.ml" 124 4716 4719
+)
+"gtkRangeProps.ml" 96 3330 3341 "gtkRangeProps.ml" 96 3330 3342
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkRangeProps.ml" 96 3330 3343 "gtkRangeProps.ml" 96 3330 3395
+)
+"gtkRangeProps.ml" 96 3330 3368 "gtkRangeProps.ml" 96 3330 3376
+type(
+  'a Gobject.obj -> string -> Gtk.progress_bar Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkRangeProps.ml" 96 3330 3377 "gtkRangeProps.ml" 96 3330 3378
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkRangeProps.ml" 96 3330 3341 "gtkRangeProps.ml" 96 3330 3342
+)
+"gtkRangeProps.ml" 96 3330 3379 "gtkRangeProps.ml" 96 3330 3395
+type(
+  string
+)
+"gtkRangeProps.ml" 96 3330 3368 "gtkRangeProps.ml" 96 3330 3395
+call(
+  tail
+)
+type(
+  Gtk.progress_bar Gtk.obj
+)
+type(
+  Gtk.progress_bar Gtk.obj
+)
+"gtkRangeProps.ml" 98 3416 3424 "gtkRangeProps.ml" 98 3416 3434
+type(
+  ([> `progressbar ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  def adjustment "gtkRangeProps.ml" 99 3492 3496 "gtkRangeProps.ml" 116 4389 4394
+)
+"gtkRangeProps.ml" 98 3416 3468 "gtkRangeProps.ml" 98 3416 3491
+type(
+  ([> `progressbar ] as 'b, Gtk.adjustment Gtk.obj) Gobject.property
+)
+type(
+  ('b, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.adjustment
+)
+"gtkRangeProps.ml" 99 3492 3500 "gtkRangeProps.ml" 99 3492 3511
+type(
+  ([> `progressbar ], GtkEnums.progress_bar_orientation) Gobject.property
+)
+ident(
+  def orientation "gtkRangeProps.ml" 101 3617 3621 "gtkRangeProps.ml" 116 4389 4394
+)
+"gtkRangeProps.ml" 100 3545 3557 "gtkRangeProps.ml" 100 3545 3570
+type(
+  string
+)
+"gtkRangeProps.ml" 100 3545 3577 "gtkRangeProps.ml" 100 3545 3615
+type(
+  GtkEnums.progress_bar_orientation Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.progress_bar_orientation_conv
+)
+"gtkRangeProps.ml" 100 3545 3551 "gtkRangeProps.ml" 100 3545 3616
+type(
+  ([> `progressbar ] as 'c, GtkEnums.progress_bar_orientation)
+  Gobject.property
+)
+type(
+  ('c, GtkEnums.progress_bar_orientation) Gobject.property
+)
+"gtkRangeProps.ml" 101 3617 3625 "gtkRangeProps.ml" 101 3617 3640
+type(
+  ([> `progressbar ], int) Gobject.property
+)
+ident(
+  def activity_blocks "gtkRangeProps.ml" 103 3716 3720 "gtkRangeProps.ml" 116 4389 4394
+)
+"gtkRangeProps.ml" 102 3674 3686 "gtkRangeProps.ml" 102 3674 3703
+type(
+  string
+)
+"gtkRangeProps.ml" 102 3674 3710 "gtkRangeProps.ml" 102 3674 3714
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkRangeProps.ml" 102 3674 3680 "gtkRangeProps.ml" 102 3674 3715
+type(
+  ([> `progressbar ] as 'd, int) Gobject.property
+)
+type(
+  ('d, int) Gobject.property
+)
+"gtkRangeProps.ml" 103 3716 3724 "gtkRangeProps.ml" 103 3716 3737
+type(
+  ([> `progressbar ], int) Gobject.property
+)
+ident(
+  def activity_step "gtkRangeProps.ml" 105 3811 3815 "gtkRangeProps.ml" 116 4389 4394
+)
+"gtkRangeProps.ml" 104 3771 3783 "gtkRangeProps.ml" 104 3771 3798
+type(
+  string
+)
+"gtkRangeProps.ml" 104 3771 3805 "gtkRangeProps.ml" 104 3771 3809
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkRangeProps.ml" 104 3771 3777 "gtkRangeProps.ml" 104 3771 3810
+type(
+  ([> `progressbar ] as 'e, int) Gobject.property
+)
+type(
+  ('e, int) Gobject.property
+)
+"gtkRangeProps.ml" 105 3811 3819 "gtkRangeProps.ml" 105 3811 3828
+type(
+  ([> `progressbar ], GtkEnums.progress_bar_style) Gobject.property
+)
+ident(
+  def bar_style "gtkRangeProps.ml" 107 3926 3930 "gtkRangeProps.ml" 116 4389 4394
+)
+"gtkRangeProps.ml" 106 3862 3874 "gtkRangeProps.ml" 106 3862 3885
+type(
+  string
+)
+"gtkRangeProps.ml" 106 3862 3892 "gtkRangeProps.ml" 106 3862 3924
+type(
+  GtkEnums.progress_bar_style Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.progress_bar_style_conv
+)
+"gtkRangeProps.ml" 106 3862 3868 "gtkRangeProps.ml" 106 3862 3925
+type(
+  ([> `progressbar ] as 'f, GtkEnums.progress_bar_style) Gobject.property
+)
+type(
+  ('f, GtkEnums.progress_bar_style) Gobject.property
+)
+"gtkRangeProps.ml" 107 3926 3934 "gtkRangeProps.ml" 107 3926 3949
+type(
+  ([> `progressbar ], int) Gobject.property
+)
+ident(
+  def discrete_blocks "gtkRangeProps.ml" 109 4025 4029 "gtkRangeProps.ml" 116 4389 4394
+)
+"gtkRangeProps.ml" 108 3983 3995 "gtkRangeProps.ml" 108 3983 4012
+type(
+  string
+)
+"gtkRangeProps.ml" 108 3983 4019 "gtkRangeProps.ml" 108 3983 4023
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkRangeProps.ml" 108 3983 3989 "gtkRangeProps.ml" 108 3983 4024
+type(
+  ([> `progressbar ] as 'g, int) Gobject.property
+)
+type(
+  ('g, int) Gobject.property
+)
+"gtkRangeProps.ml" 109 4025 4033 "gtkRangeProps.ml" 109 4025 4041
+type(
+  ([> `progressbar ], float) Gobject.property
+)
+ident(
+  def fraction "gtkRangeProps.ml" 111 4112 4116 "gtkRangeProps.ml" 116 4389 4394
+)
+"gtkRangeProps.ml" 110 4075 4087 "gtkRangeProps.ml" 110 4075 4097
+type(
+  string
+)
+"gtkRangeProps.ml" 110 4075 4104 "gtkRangeProps.ml" 110 4075 4110
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gtkRangeProps.ml" 110 4075 4081 "gtkRangeProps.ml" 110 4075 4111
+type(
+  ([> `progressbar ] as 'h, float) Gobject.property
+)
+type(
+  ('h, float) Gobject.property
+)
+"gtkRangeProps.ml" 111 4112 4120 "gtkRangeProps.ml" 111 4112 4130
+type(
+  ([> `progressbar ], float) Gobject.property
+)
+ident(
+  def pulse_step "gtkRangeProps.ml" 113 4203 4207 "gtkRangeProps.ml" 116 4389 4394
+)
+"gtkRangeProps.ml" 112 4164 4176 "gtkRangeProps.ml" 112 4164 4188
+type(
+  string
+)
+"gtkRangeProps.ml" 112 4164 4195 "gtkRangeProps.ml" 112 4164 4201
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gtkRangeProps.ml" 112 4164 4170 "gtkRangeProps.ml" 112 4164 4202
+type(
+  ([> `progressbar ] as 'i, float) Gobject.property
+)
+type(
+  ('i, float) Gobject.property
+)
+"gtkRangeProps.ml" 113 4203 4211 "gtkRangeProps.ml" 113 4203 4215
+type(
+  ([> `progressbar ], string) Gobject.property
+)
+ident(
+  def text "gtkRangeProps.ml" 114 4276 4280 "gtkRangeProps.ml" 116 4389 4394
+)
+"gtkRangeProps.ml" 113 4203 4255 "gtkRangeProps.ml" 113 4203 4261
+type(
+  string
+)
+"gtkRangeProps.ml" 113 4203 4268 "gtkRangeProps.ml" 113 4203 4274
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkRangeProps.ml" 113 4203 4249 "gtkRangeProps.ml" 113 4203 4275
+type(
+  ([> `progressbar ] as 'j, string) Gobject.property
+)
+type(
+  ('j, string) Gobject.property
+)
+"gtkRangeProps.ml" 114 4276 4284 "gtkRangeProps.ml" 114 4276 4293
+type(
+  ([> `progressbar ], PangoEnums.ellipsize_mode) Gobject.property
+)
+ident(
+  def ellipsize "gtkRangeProps.ml" 115 4327 4388 "gtkRangeProps.ml" 116 4389 4394
+)
+"gtkRangeProps.ml" 115 4327 4339 "gtkRangeProps.ml" 115 4327 4350
+type(
+  string
+)
+"gtkRangeProps.ml" 115 4327 4357 "gtkRangeProps.ml" 115 4327 4387
+type(
+  PangoEnums.ellipsize_mode Gobject.data_conv
+)
+ident(
+  ext_ref PangoEnums.ellipsize_mode_conv
+)
+"gtkRangeProps.ml" 115 4327 4333 "gtkRangeProps.ml" 115 4327 4388
+type(
+  ([> `progressbar ] as 'k, PangoEnums.ellipsize_mode) Gobject.property
+)
+type(
+  ('k, PangoEnums.ellipsize_mode) Gobject.property
+)
+"gtkRangeProps.ml" 117 4395 4401 "gtkRangeProps.ml" 117 4395 4407
+type(
+  Gtk.progress_bar Gobject.param list -> Gtk.progress_bar Gtk.obj
+)
+ident(
+  def create "gtkRangeProps.ml" 118 4468 4470 "gtkRangeProps.ml" 124 4716 4719
+)
+"gtkRangeProps.ml" 117 4395 4408 "gtkRangeProps.ml" 117 4395 4410
+type(
+  Gtk.progress_bar Gobject.param list
+)
+ident(
+  def pl "gtkRangeProps.ml" 117 4395 4411 "gtkRangeProps.ml" 117 4395 4467
+)
+"gtkRangeProps.ml" 117 4395 4436 "gtkRangeProps.ml" 117 4395 4447
+type(
+  classe:string ->
+  Gtk.progress_bar Gobject.param list -> Gtk.progress_bar Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkRangeProps.ml" 117 4395 4448 "gtkRangeProps.ml" 117 4395 4464
+type(
+  string
+)
+"gtkRangeProps.ml" 117 4395 4465 "gtkRangeProps.ml" 117 4395 4467
+type(
+  Gtk.progress_bar Gobject.param list
+)
+ident(
+  int_ref pl "gtkRangeProps.ml" 117 4395 4408 "gtkRangeProps.ml" 117 4395 4410
+)
+"gtkRangeProps.ml" 117 4395 4436 "gtkRangeProps.ml" 117 4395 4467
+call(
+  tail
+)
+type(
+  Gtk.progress_bar Gtk.obj
+)
+type(
+  Gtk.progress_bar Gtk.obj
+)
+"gtkRangeProps.ml" 119 4545 4551 "gtkRangeProps.ml" 119 4545 4562
+type(
+  cont:(([> `progressbar ] as 'l) Gobject.param list -> 'm) ->
+  'l Gobject.param list ->
+  ?orientation:GtkEnums.progress_bar_orientation -> ?pulse_step:float -> 'm
+)
+ident(
+  def make_params "gtkRangeProps.ml" 123 4704 4715 "gtkRangeProps.ml" 124 4716 4719
+)
+"gtkRangeProps.ml" 119 4545 4564 "gtkRangeProps.ml" 119 4545 4568
+type(
+  'l Gobject.param list -> 'm
+)
+ident(
+  def cont "gtkRangeProps.ml" 119 4545 4569 "gtkRangeProps.ml" 123 4704 4715
+)
+"gtkRangeProps.ml" 119 4545 4569 "gtkRangeProps.ml" 119 4545 4571
+type(
+  'l Gobject.param list
+)
+ident(
+  def pl "gtkRangeProps.ml" 119 4545 4572 "gtkRangeProps.ml" 123 4704 4715
+)
+"gtkRangeProps.ml" 119 4545 4573 "gtkRangeProps.ml" 119 4545 4584
+type(
+  GtkEnums.progress_bar_orientation option
+)
+ident(
+  def orientation "gtkRangeProps.ml" 119 4545 4585 "gtkRangeProps.ml" 123 4704 4715
+)
+"gtkRangeProps.ml" 119 4545 4586 "gtkRangeProps.ml" 119 4545 4596
+type(
+  float option
+)
+ident(
+  def pulse_step "gtkRangeProps.ml" 120 4599 4603 "gtkRangeProps.ml" 123 4704 4715
+)
+"gtkRangeProps.ml" 120 4599 4607 "gtkRangeProps.ml" 120 4599 4609
+type(
+  'l Gobject.param list
+)
+"gtkRangeProps.ml" 121 4614 4620 "gtkRangeProps.ml" 121 4614 4628
+type(
+  ('l, GtkEnums.progress_bar_orientation) Gobject.property ->
+  GtkEnums.progress_bar_orientation option ->
+  'l Gobject.param list -> 'l Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkRangeProps.ml" 12 184 188 "gtkRangeProps.ml" 12 184 196
+)
+"gtkRangeProps.ml" 121 4614 4629 "gtkRangeProps.ml" 121 4614 4642
+type(
+  ('l, GtkEnums.progress_bar_orientation) Gobject.property
+)
+ident(
+  ext_ref P.orientation
+)
+"gtkRangeProps.ml" 121 4614 4643 "gtkRangeProps.ml" 121 4614 4654
+type(
+  GtkEnums.progress_bar_orientation option
+)
+ident(
+  int_ref orientation "gtkRangeProps.ml" 119 4545 4573 "gtkRangeProps.ml" 119 4545 4584
+)
+"gtkRangeProps.ml" 122 4657 4663 "gtkRangeProps.ml" 122 4657 4671
+type(
+  ('l, float) Gobject.property ->
+  float option -> 'l Gobject.param list -> 'l Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkRangeProps.ml" 12 184 188 "gtkRangeProps.ml" 12 184 196
+)
+"gtkRangeProps.ml" 122 4657 4672 "gtkRangeProps.ml" 122 4657 4684
+type(
+  ('l, float) Gobject.property
+)
+ident(
+  ext_ref P.pulse_step
+)
+"gtkRangeProps.ml" 122 4657 4685 "gtkRangeProps.ml" 122 4657 4695
+type(
+  float option
+)
+ident(
+  int_ref pulse_step "gtkRangeProps.ml" 119 4545 4586 "gtkRangeProps.ml" 119 4545 4596
+)
+"gtkRangeProps.ml" 122 4657 4696 "gtkRangeProps.ml" 122 4657 4698
+type(
+  'l Gobject.param list
+)
+ident(
+  int_ref pl "gtkRangeProps.ml" 119 4545 4569 "gtkRangeProps.ml" 119 4545 4571
+)
+"gtkRangeProps.ml" 121 4614 4655 "gtkRangeProps.ml" 122 4657 4699
+call(
+  stack
+)
+type(
+  'l Gobject.param list
+)
+"gtkRangeProps.ml" 120 4599 4612 "gtkRangeProps.ml" 122 4657 4700
+call(
+  stack
+)
+type(
+  'l Gobject.param list
+)
+"gtkRangeProps.ml" 123 4704 4708 "gtkRangeProps.ml" 123 4704 4712
+type(
+  'l Gobject.param list -> 'm
+)
+ident(
+  int_ref cont "gtkRangeProps.ml" 119 4545 4564 "gtkRangeProps.ml" 119 4545 4568
+)
+"gtkRangeProps.ml" 123 4704 4713 "gtkRangeProps.ml" 123 4704 4715
+type(
+  'l Gobject.param list
+)
+ident(
+  int_ref pl "gtkRangeProps.ml" 120 4599 4607 "gtkRangeProps.ml" 120 4599 4609
+)
+"gtkRangeProps.ml" 123 4704 4708 "gtkRangeProps.ml" 123 4704 4715
+call(
+  tail
+)
+type(
+  'm
+)
+"gtkRangeProps.ml" 120 4599 4603 "gtkRangeProps.ml" 123 4704 4715
+type(
+  'm
+)

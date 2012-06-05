@@ -1,0 +1,2 @@
+VarString      nonesys_ml          "NoneSys.ml"
+VarStringList  readme_template_mkd "MANUAL-template.mkd"

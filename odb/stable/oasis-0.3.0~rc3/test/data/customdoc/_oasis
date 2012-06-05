@@ -1,0 +1,22 @@
+OASISFormat: 0.1
+Name:        with-c
+Version:     0.0.1
+Authors:     Sylvain Le Gall
+LicenseFile: LICENSE
+License:     LGPL with OCaml linking exception
+Synopsis:    Minimal project in a single directory.
+Plugins:     META
+BuildTools:  ocamlbuild
+
+Library "with-a"
+  Path: .
+  Modules: A
+  CompiledObject: byte
+
+Document "manual-custom"
+  Type: custom (0.1.0)
+  Title: Manual
+  XCustom: $make doc
+  XCustomClean: $make doc-clean
+  BuildTools: make
+

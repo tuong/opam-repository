@@ -1,0 +1,90 @@
+src/calendar.cmo: src/time.cmi src/date.cmi src/calendar_builder.cmi \
+    src/calendar.cmi
+src/calendar.cmx: src/time.cmx src/date.cmx src/calendar_builder.cmx \
+    src/calendar.cmi
+src/calendar_builder.cmo: src/utils.cmi src/time_sig.cmi src/time_Zone.cmi \
+    src/period.cmi src/date_sig.cmi src/calendar_builder.cmi
+src/calendar_builder.cmx: src/utils.cmx src/time_sig.cmi src/time_Zone.cmx \
+    src/period.cmi src/date_sig.cmi src/calendar_builder.cmi
+src/date.cmo: src/utils.cmi src/time_Zone.cmi src/period.cmi src/date.cmi
+src/date.cmx: src/utils.cmx src/time_Zone.cmx src/period.cmi src/date.cmi
+src/fcalendar.cmo: src/ftime.cmi src/date.cmi src/calendar_builder.cmi \
+    src/fcalendar.cmi
+src/fcalendar.cmx: src/ftime.cmx src/date.cmx src/calendar_builder.cmx \
+    src/fcalendar.cmi
+src/ftime.cmo: src/utils.cmi src/time_Zone.cmi src/period.cmi src/ftime.cmi
+src/ftime.cmx: src/utils.cmx src/time_Zone.cmx src/period.cmi src/ftime.cmi
+src/printer.cmo: src/time_Zone.cmi src/time.cmi src/period.cmi src/ftime.cmi \
+    src/fcalendar.cmi src/date.cmi src/calendar.cmi src/printer.cmi
+src/printer.cmx: src/time_Zone.cmx src/time.cmx src/period.cmi src/ftime.cmx \
+    src/fcalendar.cmx src/date.cmx src/calendar.cmx src/printer.cmi
+src/time.cmo: src/utils.cmi src/time_Zone.cmi src/period.cmi src/time.cmi
+src/time.cmx: src/utils.cmx src/time_Zone.cmx src/period.cmi src/time.cmi
+src/time_Zone.cmo: src/time_Zone.cmi
+src/time_Zone.cmx: src/time_Zone.cmi
+src/utils.cmo: src/utils.cmi
+src/utils.cmx: src/utils.cmi
+src/version.cmo: src/version.cmi
+src/version.cmx: src/version.cmi
+src/calendar.cmi: src/time.cmi src/date.cmi src/calendar_sig.cmi
+src/calendar_builder.cmi: src/time_sig.cmi src/date_sig.cmi \
+    src/calendar_sig.cmi
+src/calendar_sig.cmi: src/time_sig.cmi src/time_Zone.cmi src/period.cmi \
+    src/date_sig.cmi
+src/date.cmi: src/date_sig.cmi
+src/date_sig.cmi: src/period.cmi
+src/fcalendar.cmi: src/ftime.cmi src/date.cmi src/calendar_sig.cmi
+src/ftime.cmi: src/time_sig.cmi
+src/period.cmi:
+src/printer.cmi: src/time.cmi src/ftime.cmi src/fcalendar.cmi src/date.cmi \
+    src/calendar.cmi
+src/time.cmi: src/time_sig.cmi
+src/time_Zone.cmi:
+src/time_sig.cmi: src/time_Zone.cmi src/period.cmi
+src/utils.cmi:
+src/version.cmi:
+tests/gen_test.cmo: tests/gen_test.cmi
+tests/gen_test.cmx: tests/gen_test.cmi
+tests/test.cmo: tests/test_timezone.cmo tests/test_time.cmo \
+    tests/test_printer.cmo tests/test_pcalendar.cmo tests/test_ftime.cmo \
+    tests/test_fpcalendar.cmo tests/test_fcalendar.cmo tests/test_date.cmo \
+    tests/test_calendar.cmo
+tests/test.cmx: tests/test_timezone.cmx tests/test_time.cmx \
+    tests/test_printer.cmx tests/test_pcalendar.cmx tests/test_ftime.cmx \
+    tests/test_fpcalendar.cmx tests/test_fcalendar.cmx tests/test_date.cmx \
+    tests/test_calendar.cmx
+tests/test_calendar.cmo: src/utils.cmi src/time_Zone.cmi src/time.cmi \
+    src/period.cmi tests/gen_test.cmi src/date.cmi src/calendar.cmi
+tests/test_calendar.cmx: src/utils.cmx src/time_Zone.cmx src/time.cmx \
+    src/period.cmi tests/gen_test.cmx src/date.cmx src/calendar.cmx
+tests/test_date.cmo: src/time_Zone.cmi src/period.cmi tests/gen_test.cmi \
+    src/date.cmi
+tests/test_date.cmx: src/time_Zone.cmx src/period.cmi tests/gen_test.cmx \
+    src/date.cmx
+tests/test_fcalendar.cmo: src/utils.cmi src/time_Zone.cmi src/time.cmi \
+    src/period.cmi tests/gen_test.cmi src/fcalendar.cmi src/date.cmi
+tests/test_fcalendar.cmx: src/utils.cmx src/time_Zone.cmx src/time.cmx \
+    src/period.cmi tests/gen_test.cmx src/fcalendar.cmx src/date.cmx
+tests/test_fpcalendar.cmo: src/utils.cmi src/time_Zone.cmi src/time.cmi \
+    src/period.cmi tests/gen_test.cmi src/fcalendar.cmi src/date.cmi
+tests/test_fpcalendar.cmx: src/utils.cmx src/time_Zone.cmx src/time.cmx \
+    src/period.cmi tests/gen_test.cmx src/fcalendar.cmx src/date.cmx
+tests/test_ftime.cmo: src/utils.cmi src/time_Zone.cmi src/period.cmi \
+    tests/gen_test.cmi src/ftime.cmi
+tests/test_ftime.cmx: src/utils.cmx src/time_Zone.cmx src/period.cmi \
+    tests/gen_test.cmx src/ftime.cmx
+tests/test_pcalendar.cmo: src/utils.cmi src/time_Zone.cmi src/time.cmi \
+    src/period.cmi tests/gen_test.cmi src/date.cmi src/calendar.cmi
+tests/test_pcalendar.cmx: src/utils.cmx src/time_Zone.cmx src/time.cmx \
+    src/period.cmi tests/gen_test.cmx src/date.cmx src/calendar.cmx
+tests/test_printer.cmo: src/time_Zone.cmi src/time.cmi src/printer.cmi \
+    tests/gen_test.cmi src/date.cmi src/calendar.cmi
+tests/test_printer.cmx: src/time_Zone.cmx src/time.cmx src/printer.cmx \
+    tests/gen_test.cmx src/date.cmx src/calendar.cmx
+tests/test_time.cmo: src/utils.cmi src/time_Zone.cmi src/time.cmi \
+    src/period.cmi tests/gen_test.cmi
+tests/test_time.cmx: src/utils.cmx src/time_Zone.cmx src/time.cmx \
+    src/period.cmi tests/gen_test.cmx
+tests/test_timezone.cmo: src/time_Zone.cmi tests/gen_test.cmi
+tests/test_timezone.cmx: src/time_Zone.cmx tests/gen_test.cmx
+tests/gen_test.cmi:

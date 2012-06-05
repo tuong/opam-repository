@@ -1,0 +1,7 @@
+version = "2.0.2"
+name = "ocamlscript"
+description = "Runtime library for ocamlscript"
+
+requires = "unix"
+archive(byte)    = "ocamlscript.cmo"
+archive(native)  = "ocamlscript.cmx"

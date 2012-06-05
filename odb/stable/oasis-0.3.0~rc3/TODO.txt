@@ -1,0 +1,2 @@
+* Finish guess-cmx to install all files for libraries, integrate it in buildsys
+* "..." in freeform doesn't work

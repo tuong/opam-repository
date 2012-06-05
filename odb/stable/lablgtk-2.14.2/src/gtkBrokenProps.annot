@@ -1,0 +1,1358 @@
+"gtkBrokenProps.ml" 7 60 64 "gtkBrokenProps.ml" 7 60 72
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons "gtkBrokenProps.ml" 8 93 93 --
+)
+"gtkBrokenProps.ml" 7 60 75 "gtkBrokenProps.ml" 7 60 92
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gtkBrokenProps.ml" 8 93 97 "gtkBrokenProps.ml" 8 93 109
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons_opt "gtkBrokenProps.ml" 10 135 135 --
+)
+"gtkBrokenProps.ml" 8 93 112 "gtkBrokenProps.ml" 8 93 133
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons_opt
+)
+"gtkBrokenProps.ml" 11 160 166 "gtkBrokenProps.ml" 11 160 170
+type(
+  'a Gobject.obj -> Gtk.tree_item Gtk.obj
+)
+ident(
+  def cast "gtkBrokenProps.ml" 12 220 222 "gtkBrokenProps.ml" 25 842 845
+)
+"gtkBrokenProps.ml" 11 160 171 "gtkBrokenProps.ml" 11 160 172
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBrokenProps.ml" 11 160 173 "gtkBrokenProps.ml" 11 160 219
+)
+"gtkBrokenProps.ml" 11 160 195 "gtkBrokenProps.ml" 11 160 203
+type(
+  'a Gobject.obj -> string -> Gtk.tree_item Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBrokenProps.ml" 11 160 204 "gtkBrokenProps.ml" 11 160 205
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBrokenProps.ml" 11 160 171 "gtkBrokenProps.ml" 11 160 172
+)
+"gtkBrokenProps.ml" 11 160 206 "gtkBrokenProps.ml" 11 160 219
+type(
+  string
+)
+"gtkBrokenProps.ml" 11 160 195 "gtkBrokenProps.ml" 11 160 219
+call(
+  tail
+)
+type(
+  Gtk.tree_item Gtk.obj
+)
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gtkBrokenProps.ml" 14 259 267 "gtkBrokenProps.ml" 14 259 275
+type(
+  ([> `treeitem ], unit -> unit) GtkSignal.t
+)
+ident(
+  def collapse "gtkBrokenProps.ml" 16 345 349 "gtkBrokenProps.ml" 17 421 426
+)
+"gtkBrokenProps.ml" 15 278 290 "gtkBrokenProps.ml" 15 278 300
+type(
+  string
+)
+"gtkBrokenProps.ml" 15 278 309 "gtkBrokenProps.ml" 15 278 318
+type(
+  [> `treeitem ] as 'b
+)
+"gtkBrokenProps.ml" 15 278 331 "gtkBrokenProps.ml" 15 278 343
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBrokenProps.ml" 15 278 284 "gtkBrokenProps.ml" 15 278 344
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+"gtkBrokenProps.ml" 16 345 353 "gtkBrokenProps.ml" 16 345 359
+type(
+  ([> `treeitem ], unit -> unit) GtkSignal.t
+)
+ident(
+  def expand "gtkBrokenProps.ml" 16 345 420 "gtkBrokenProps.ml" 17 421 426
+)
+"gtkBrokenProps.ml" 16 345 368 "gtkBrokenProps.ml" 16 345 376
+type(
+  string
+)
+"gtkBrokenProps.ml" 16 345 385 "gtkBrokenProps.ml" 16 345 394
+type(
+  [> `treeitem ] as 'c
+)
+"gtkBrokenProps.ml" 16 345 407 "gtkBrokenProps.ml" 16 345 419
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBrokenProps.ml" 16 345 362 "gtkBrokenProps.ml" 16 345 420
+type(
+  ('c, unit -> unit) GtkSignal.t
+)
+"gtkBrokenProps.ml" 18 427 433 "gtkBrokenProps.ml" 18 427 439
+type(
+  Gtk.tree_item Gobject.param list -> Gtk.tree_item Gtk.obj
+)
+ident(
+  def create "gtkBrokenProps.ml" 19 494 496 "gtkBrokenProps.ml" 25 842 845
+)
+"gtkBrokenProps.ml" 18 427 440 "gtkBrokenProps.ml" 18 427 442
+type(
+  Gtk.tree_item Gobject.param list
+)
+ident(
+  def pl "gtkBrokenProps.ml" 18 427 443 "gtkBrokenProps.ml" 18 427 493
+)
+"gtkBrokenProps.ml" 18 427 465 "gtkBrokenProps.ml" 18 427 476
+type(
+  classe:string -> Gtk.tree_item Gobject.param list -> Gtk.tree_item Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBrokenProps.ml" 18 427 477 "gtkBrokenProps.ml" 18 427 490
+type(
+  string
+)
+"gtkBrokenProps.ml" 18 427 491 "gtkBrokenProps.ml" 18 427 493
+type(
+  Gtk.tree_item Gobject.param list
+)
+ident(
+  int_ref pl "gtkBrokenProps.ml" 18 427 440 "gtkBrokenProps.ml" 18 427 442
+)
+"gtkBrokenProps.ml" 18 427 465 "gtkBrokenProps.ml" 18 427 493
+call(
+  tail
+)
+type(
+  Gtk.tree_item Gtk.obj
+)
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gtkBrokenProps.ml" 28 868 874 "gtkBrokenProps.ml" 28 868 878
+type(
+  'a Gobject.obj -> Gtk.tree Gtk.obj
+)
+ident(
+  def cast "gtkBrokenProps.ml" 29 919 921 "gtkBrokenProps.ml" 43 1476 1479
+)
+"gtkBrokenProps.ml" 28 868 879 "gtkBrokenProps.ml" 28 868 880
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBrokenProps.ml" 28 868 881 "gtkBrokenProps.ml" 28 868 918
+)
+"gtkBrokenProps.ml" 28 868 898 "gtkBrokenProps.ml" 28 868 906
+type(
+  'a Gobject.obj -> string -> Gtk.tree Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBrokenProps.ml" 28 868 907 "gtkBrokenProps.ml" 28 868 908
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBrokenProps.ml" 28 868 879 "gtkBrokenProps.ml" 28 868 880
+)
+"gtkBrokenProps.ml" 28 868 909 "gtkBrokenProps.ml" 28 868 918
+type(
+  string
+)
+"gtkBrokenProps.ml" 28 868 898 "gtkBrokenProps.ml" 28 868 918
+call(
+  tail
+)
+type(
+  Gtk.tree Gtk.obj
+)
+type(
+  Gtk.tree Gtk.obj
+)
+"gtkBrokenProps.ml" 31 958 966 "gtkBrokenProps.ml" 31 958 978
+type(
+  ([> `tree ], Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  def select_child "gtkBrokenProps.ml" 35 1132 1136 "gtkBrokenProps.ml" 41 1412 1417
+)
+"gtkBrokenProps.ml" 32 981 993 "gtkBrokenProps.ml" 32 981 1007
+type(
+  string
+)
+"gtkBrokenProps.ml" 32 981 1016 "gtkBrokenProps.ml" 32 981 1021
+type(
+  [> `tree ] as 'b
+)
+"gtkBrokenProps.ml" 32 981 1038 "gtkBrokenProps.ml" 32 981 1039
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  def f "gtkBrokenProps.ml" 33 1043 1050 "gtkBrokenProps.ml" 34 1096 1130
+)
+"gtkBrokenProps.ml" 33 1043 1050 "gtkBrokenProps.ml" 33 1043 1058
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv ->
+  string -> (Gtk.widget Gtk.obj -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBrokenProps.ml" 33 1043 1060 "gtkBrokenProps.ml" 33 1043 1067
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBrokenProps.ml" 34 1096 1105 "gtkBrokenProps.ml" 34 1096 1128
+type(
+  string
+)
+"gtkBrokenProps.ml" 34 1096 1129 "gtkBrokenProps.ml" 34 1096 1130
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  int_ref f "gtkBrokenProps.ml" 32 981 1038 "gtkBrokenProps.ml" 32 981 1039
+)
+"gtkBrokenProps.ml" 33 1043 1050 "gtkBrokenProps.ml" 34 1096 1130
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBrokenProps.ml" 32 981 1034 "gtkBrokenProps.ml" 34 1096 1130
+type(
+  (Gtk.widget Gtk.obj -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBrokenProps.ml" 32 981 987 "gtkBrokenProps.ml" 34 1096 1131
+type(
+  ('b, Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+"gtkBrokenProps.ml" 35 1132 1140 "gtkBrokenProps.ml" 35 1132 1157
+type(
+  ([> `tree ], unit -> unit) GtkSignal.t
+)
+ident(
+  def selection_changed "gtkBrokenProps.ml" 37 1232 1236 "gtkBrokenProps.ml" 41 1412 1417
+)
+"gtkBrokenProps.ml" 36 1160 1172 "gtkBrokenProps.ml" 36 1160 1191
+type(
+  string
+)
+"gtkBrokenProps.ml" 36 1160 1200 "gtkBrokenProps.ml" 36 1160 1205
+type(
+  [> `tree ] as 'c
+)
+"gtkBrokenProps.ml" 36 1160 1218 "gtkBrokenProps.ml" 36 1160 1230
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBrokenProps.ml" 36 1160 1166 "gtkBrokenProps.ml" 36 1160 1231
+type(
+  ('c, unit -> unit) GtkSignal.t
+)
+"gtkBrokenProps.ml" 37 1232 1240 "gtkBrokenProps.ml" 37 1232 1254
+type(
+  ([> `tree ], Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  def unselect_child "gtkBrokenProps.ml" 40 1374 1411 "gtkBrokenProps.ml" 41 1412 1417
+)
+"gtkBrokenProps.ml" 38 1257 1269 "gtkBrokenProps.ml" 38 1257 1285
+type(
+  string
+)
+"gtkBrokenProps.ml" 38 1257 1294 "gtkBrokenProps.ml" 38 1257 1299
+type(
+  [> `tree ] as 'd
+)
+"gtkBrokenProps.ml" 38 1257 1316 "gtkBrokenProps.ml" 38 1257 1317
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  def f "gtkBrokenProps.ml" 39 1321 1328 "gtkBrokenProps.ml" 40 1374 1410
+)
+"gtkBrokenProps.ml" 39 1321 1328 "gtkBrokenProps.ml" 39 1321 1336
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv ->
+  string -> (Gtk.widget Gtk.obj -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBrokenProps.ml" 39 1321 1338 "gtkBrokenProps.ml" 39 1321 1345
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBrokenProps.ml" 40 1374 1383 "gtkBrokenProps.ml" 40 1374 1408
+type(
+  string
+)
+"gtkBrokenProps.ml" 40 1374 1409 "gtkBrokenProps.ml" 40 1374 1410
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  int_ref f "gtkBrokenProps.ml" 38 1257 1316 "gtkBrokenProps.ml" 38 1257 1317
+)
+"gtkBrokenProps.ml" 39 1321 1328 "gtkBrokenProps.ml" 40 1374 1410
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBrokenProps.ml" 38 1257 1312 "gtkBrokenProps.ml" 40 1374 1410
+type(
+  (Gtk.widget Gtk.obj -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBrokenProps.ml" 38 1257 1263 "gtkBrokenProps.ml" 40 1374 1411
+type(
+  ('d, Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+"gtkBrokenProps.ml" 42 1418 1424 "gtkBrokenProps.ml" 42 1418 1430
+type(
+  Gtk.tree Gobject.param list -> Gtk.tree Gtk.obj
+)
+ident(
+  def create "gtkBrokenProps.ml" 42 1418 1475 "gtkBrokenProps.ml" 43 1476 1479
+)
+"gtkBrokenProps.ml" 42 1418 1431 "gtkBrokenProps.ml" 42 1418 1433
+type(
+  Gtk.tree Gobject.param list
+)
+ident(
+  def pl "gtkBrokenProps.ml" 42 1418 1434 "gtkBrokenProps.ml" 42 1418 1475
+)
+"gtkBrokenProps.ml" 42 1418 1451 "gtkBrokenProps.ml" 42 1418 1462
+type(
+  classe:string -> Gtk.tree Gobject.param list -> Gtk.tree Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBrokenProps.ml" 42 1418 1463 "gtkBrokenProps.ml" 42 1418 1472
+type(
+  string
+)
+"gtkBrokenProps.ml" 42 1418 1473 "gtkBrokenProps.ml" 42 1418 1475
+type(
+  Gtk.tree Gobject.param list
+)
+ident(
+  int_ref pl "gtkBrokenProps.ml" 42 1418 1431 "gtkBrokenProps.ml" 42 1418 1433
+)
+"gtkBrokenProps.ml" 42 1418 1451 "gtkBrokenProps.ml" 42 1418 1475
+call(
+  tail
+)
+type(
+  Gtk.tree Gtk.obj
+)
+type(
+  Gtk.tree Gtk.obj
+)
+"gtkBrokenProps.ml" 46 1509 1515 "gtkBrokenProps.ml" 46 1509 1519
+type(
+  'a Gobject.obj -> Gtk.old_editable Gtk.obj
+)
+ident(
+  def cast "gtkBrokenProps.ml" 47 1575 1577 "gtkBrokenProps.ml" 82 3064 3067
+)
+"gtkBrokenProps.ml" 46 1509 1520 "gtkBrokenProps.ml" 46 1509 1521
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBrokenProps.ml" 46 1509 1522 "gtkBrokenProps.ml" 46 1509 1574
+)
+"gtkBrokenProps.ml" 46 1509 1547 "gtkBrokenProps.ml" 46 1509 1555
+type(
+  'a Gobject.obj -> string -> Gtk.old_editable Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBrokenProps.ml" 46 1509 1556 "gtkBrokenProps.ml" 46 1509 1557
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBrokenProps.ml" 46 1509 1520 "gtkBrokenProps.ml" 46 1509 1521
+)
+"gtkBrokenProps.ml" 46 1509 1558 "gtkBrokenProps.ml" 46 1509 1574
+type(
+  string
+)
+"gtkBrokenProps.ml" 46 1509 1547 "gtkBrokenProps.ml" 46 1509 1574
+call(
+  tail
+)
+type(
+  Gtk.old_editable Gtk.obj
+)
+type(
+  Gtk.old_editable Gtk.obj
+)
+"gtkBrokenProps.ml" 48 1595 1603 "gtkBrokenProps.ml" 48 1595 1616
+type(
+  ([> `oldeditable ], int) Gobject.property
+)
+ident(
+  def text_position "gtkBrokenProps.ml" 49 1650 1688 "gtkBrokenProps.ml" 50 1689 1694
+)
+"gtkBrokenProps.ml" 49 1650 1662 "gtkBrokenProps.ml" 49 1650 1677
+type(
+  string
+)
+"gtkBrokenProps.ml" 49 1650 1684 "gtkBrokenProps.ml" 49 1650 1687
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBrokenProps.ml" 49 1650 1656 "gtkBrokenProps.ml" 49 1650 1688
+type(
+  ([> `oldeditable ] as 'b, int) Gobject.property
+)
+type(
+  ('b, int) Gobject.property
+)
+"gtkBrokenProps.ml" 53 1734 1742 "gtkBrokenProps.ml" 53 1734 1750
+type(
+  ([> `oldeditable ], unit -> unit) GtkSignal.t
+)
+ident(
+  def activate "gtkBrokenProps.ml" 55 1823 1827 "gtkBrokenProps.ml" 76 2842 2847
+)
+"gtkBrokenProps.ml" 54 1753 1765 "gtkBrokenProps.ml" 54 1753 1775
+type(
+  string
+)
+"gtkBrokenProps.ml" 54 1753 1784 "gtkBrokenProps.ml" 54 1753 1796
+type(
+  [> `oldeditable ] as 'c
+)
+"gtkBrokenProps.ml" 54 1753 1809 "gtkBrokenProps.ml" 54 1753 1821
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBrokenProps.ml" 54 1753 1759 "gtkBrokenProps.ml" 54 1753 1822
+type(
+  ('c, unit -> unit) GtkSignal.t
+)
+"gtkBrokenProps.ml" 55 1823 1831 "gtkBrokenProps.ml" 55 1823 1845
+type(
+  ([> `oldeditable ], unit -> unit) GtkSignal.t
+)
+ident(
+  def copy_clipboard "gtkBrokenProps.ml" 57 1924 1928 "gtkBrokenProps.ml" 76 2842 2847
+)
+"gtkBrokenProps.ml" 56 1848 1860 "gtkBrokenProps.ml" 56 1848 1876
+type(
+  string
+)
+"gtkBrokenProps.ml" 56 1848 1885 "gtkBrokenProps.ml" 56 1848 1897
+type(
+  [> `oldeditable ] as 'd
+)
+"gtkBrokenProps.ml" 56 1848 1910 "gtkBrokenProps.ml" 56 1848 1922
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBrokenProps.ml" 56 1848 1854 "gtkBrokenProps.ml" 56 1848 1923
+type(
+  ('d, unit -> unit) GtkSignal.t
+)
+"gtkBrokenProps.ml" 57 1924 1932 "gtkBrokenProps.ml" 57 1924 1945
+type(
+  ([> `oldeditable ], unit -> unit) GtkSignal.t
+)
+ident(
+  def cut_clipboard "gtkBrokenProps.ml" 59 2023 2027 "gtkBrokenProps.ml" 76 2842 2847
+)
+"gtkBrokenProps.ml" 58 1948 1960 "gtkBrokenProps.ml" 58 1948 1975
+type(
+  string
+)
+"gtkBrokenProps.ml" 58 1948 1984 "gtkBrokenProps.ml" 58 1948 1996
+type(
+  [> `oldeditable ] as 'e
+)
+"gtkBrokenProps.ml" 58 1948 2009 "gtkBrokenProps.ml" 58 1948 2021
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBrokenProps.ml" 58 1948 1954 "gtkBrokenProps.ml" 58 1948 2022
+type(
+  ('e, unit -> unit) GtkSignal.t
+)
+"gtkBrokenProps.ml" 59 2023 2031 "gtkBrokenProps.ml" 59 2023 2046
+type(
+  ([> `oldeditable ], unit -> unit) GtkSignal.t
+)
+ident(
+  def paste_clipboard "gtkBrokenProps.ml" 61 2126 2130 "gtkBrokenProps.ml" 76 2842 2847
+)
+"gtkBrokenProps.ml" 60 2049 2061 "gtkBrokenProps.ml" 60 2049 2078
+type(
+  string
+)
+"gtkBrokenProps.ml" 60 2049 2087 "gtkBrokenProps.ml" 60 2049 2099
+type(
+  [> `oldeditable ] as 'f
+)
+"gtkBrokenProps.ml" 60 2049 2112 "gtkBrokenProps.ml" 60 2049 2124
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBrokenProps.ml" 60 2049 2055 "gtkBrokenProps.ml" 60 2049 2125
+type(
+  ('f, unit -> unit) GtkSignal.t
+)
+"gtkBrokenProps.ml" 61 2126 2134 "gtkBrokenProps.ml" 61 2126 2145
+type(
+  ([> `oldeditable ], int -> int -> unit) GtkSignal.t
+)
+ident(
+  def move_cursor "gtkBrokenProps.ml" 64 2273 2277 "gtkBrokenProps.ml" 76 2842 2847
+)
+"gtkBrokenProps.ml" 62 2148 2160 "gtkBrokenProps.ml" 62 2148 2173
+type(
+  string
+)
+"gtkBrokenProps.ml" 62 2148 2182 "gtkBrokenProps.ml" 62 2148 2194
+type(
+  [> `oldeditable ] as 'g
+)
+"gtkBrokenProps.ml" 62 2148 2211 "gtkBrokenProps.ml" 62 2148 2212
+type(
+  int -> int -> unit
+)
+ident(
+  def f "gtkBrokenProps.ml" 63 2216 2223 "gtkBrokenProps.ml" 63 2216 2271
+)
+"gtkBrokenProps.ml" 63 2216 2223 "gtkBrokenProps.ml" 63 2216 2231
+type(
+  int Gobject.data_conv ->
+  int Gobject.data_conv ->
+  string -> (int -> int -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkBrokenProps.ml" 63 2216 2232 "gtkBrokenProps.ml" 63 2216 2235
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBrokenProps.ml" 63 2216 2236 "gtkBrokenProps.ml" 63 2216 2239
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBrokenProps.ml" 63 2216 2240 "gtkBrokenProps.ml" 63 2216 2269
+type(
+  string
+)
+"gtkBrokenProps.ml" 63 2216 2270 "gtkBrokenProps.ml" 63 2216 2271
+type(
+  int -> int -> unit
+)
+ident(
+  int_ref f "gtkBrokenProps.ml" 62 2148 2211 "gtkBrokenProps.ml" 62 2148 2212
+)
+"gtkBrokenProps.ml" 63 2216 2223 "gtkBrokenProps.ml" 63 2216 2271
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBrokenProps.ml" 62 2148 2207 "gtkBrokenProps.ml" 63 2216 2271
+type(
+  (int -> int -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBrokenProps.ml" 62 2148 2154 "gtkBrokenProps.ml" 63 2216 2272
+type(
+  ('g, int -> int -> unit) GtkSignal.t
+)
+"gtkBrokenProps.ml" 64 2273 2281 "gtkBrokenProps.ml" 64 2273 2290
+type(
+  ([> `oldeditable ], int -> unit) GtkSignal.t
+)
+ident(
+  def move_word "gtkBrokenProps.ml" 67 2410 2414 "gtkBrokenProps.ml" 76 2842 2847
+)
+"gtkBrokenProps.ml" 65 2293 2305 "gtkBrokenProps.ml" 65 2293 2316
+type(
+  string
+)
+"gtkBrokenProps.ml" 65 2293 2325 "gtkBrokenProps.ml" 65 2293 2337
+type(
+  [> `oldeditable ] as 'h
+)
+"gtkBrokenProps.ml" 65 2293 2354 "gtkBrokenProps.ml" 65 2293 2355
+type(
+  int -> unit
+)
+ident(
+  def f "gtkBrokenProps.ml" 66 2359 2366 "gtkBrokenProps.ml" 66 2359 2408
+)
+"gtkBrokenProps.ml" 66 2359 2366 "gtkBrokenProps.ml" 66 2359 2374
+type(
+  int Gobject.data_conv -> string -> (int -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBrokenProps.ml" 66 2359 2375 "gtkBrokenProps.ml" 66 2359 2378
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBrokenProps.ml" 66 2359 2379 "gtkBrokenProps.ml" 66 2359 2406
+type(
+  string
+)
+"gtkBrokenProps.ml" 66 2359 2407 "gtkBrokenProps.ml" 66 2359 2408
+type(
+  int -> unit
+)
+ident(
+  int_ref f "gtkBrokenProps.ml" 65 2293 2354 "gtkBrokenProps.ml" 65 2293 2355
+)
+"gtkBrokenProps.ml" 66 2359 2366 "gtkBrokenProps.ml" 66 2359 2408
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBrokenProps.ml" 65 2293 2350 "gtkBrokenProps.ml" 66 2359 2408
+type(
+  (int -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBrokenProps.ml" 65 2293 2299 "gtkBrokenProps.ml" 66 2359 2409
+type(
+  ('h, int -> unit) GtkSignal.t
+)
+"gtkBrokenProps.ml" 67 2410 2418 "gtkBrokenProps.ml" 67 2410 2427
+type(
+  ([> `oldeditable ], int -> unit) GtkSignal.t
+)
+ident(
+  def move_page "gtkBrokenProps.ml" 70 2547 2551 "gtkBrokenProps.ml" 76 2842 2847
+)
+"gtkBrokenProps.ml" 68 2430 2442 "gtkBrokenProps.ml" 68 2430 2453
+type(
+  string
+)
+"gtkBrokenProps.ml" 68 2430 2462 "gtkBrokenProps.ml" 68 2430 2474
+type(
+  [> `oldeditable ] as 'i
+)
+"gtkBrokenProps.ml" 68 2430 2491 "gtkBrokenProps.ml" 68 2430 2492
+type(
+  int -> unit
+)
+ident(
+  def f "gtkBrokenProps.ml" 69 2496 2503 "gtkBrokenProps.ml" 69 2496 2545
+)
+"gtkBrokenProps.ml" 69 2496 2503 "gtkBrokenProps.ml" 69 2496 2511
+type(
+  int Gobject.data_conv -> string -> (int -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBrokenProps.ml" 69 2496 2512 "gtkBrokenProps.ml" 69 2496 2515
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBrokenProps.ml" 69 2496 2516 "gtkBrokenProps.ml" 69 2496 2543
+type(
+  string
+)
+"gtkBrokenProps.ml" 69 2496 2544 "gtkBrokenProps.ml" 69 2496 2545
+type(
+  int -> unit
+)
+ident(
+  int_ref f "gtkBrokenProps.ml" 68 2430 2491 "gtkBrokenProps.ml" 68 2430 2492
+)
+"gtkBrokenProps.ml" 69 2496 2503 "gtkBrokenProps.ml" 69 2496 2545
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBrokenProps.ml" 68 2430 2487 "gtkBrokenProps.ml" 69 2496 2545
+type(
+  (int -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBrokenProps.ml" 68 2430 2436 "gtkBrokenProps.ml" 69 2496 2546
+type(
+  ('i, int -> unit) GtkSignal.t
+)
+"gtkBrokenProps.ml" 70 2547 2555 "gtkBrokenProps.ml" 70 2547 2566
+type(
+  ([> `oldeditable ], int -> unit) GtkSignal.t
+)
+ident(
+  def move_to_row "gtkBrokenProps.ml" 73 2690 2694 "gtkBrokenProps.ml" 76 2842 2847
+)
+"gtkBrokenProps.ml" 71 2569 2581 "gtkBrokenProps.ml" 71 2569 2594
+type(
+  string
+)
+"gtkBrokenProps.ml" 71 2569 2603 "gtkBrokenProps.ml" 71 2569 2615
+type(
+  [> `oldeditable ] as 'j
+)
+"gtkBrokenProps.ml" 71 2569 2632 "gtkBrokenProps.ml" 71 2569 2633
+type(
+  int -> unit
+)
+ident(
+  def f "gtkBrokenProps.ml" 72 2637 2644 "gtkBrokenProps.ml" 72 2637 2688
+)
+"gtkBrokenProps.ml" 72 2637 2644 "gtkBrokenProps.ml" 72 2637 2652
+type(
+  int Gobject.data_conv -> string -> (int -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBrokenProps.ml" 72 2637 2653 "gtkBrokenProps.ml" 72 2637 2656
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBrokenProps.ml" 72 2637 2657 "gtkBrokenProps.ml" 72 2637 2686
+type(
+  string
+)
+"gtkBrokenProps.ml" 72 2637 2687 "gtkBrokenProps.ml" 72 2637 2688
+type(
+  int -> unit
+)
+ident(
+  int_ref f "gtkBrokenProps.ml" 71 2569 2632 "gtkBrokenProps.ml" 71 2569 2633
+)
+"gtkBrokenProps.ml" 72 2637 2644 "gtkBrokenProps.ml" 72 2637 2688
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBrokenProps.ml" 71 2569 2628 "gtkBrokenProps.ml" 72 2637 2688
+type(
+  (int -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBrokenProps.ml" 71 2569 2575 "gtkBrokenProps.ml" 72 2637 2689
+type(
+  ('j, int -> unit) GtkSignal.t
+)
+"gtkBrokenProps.ml" 73 2690 2698 "gtkBrokenProps.ml" 73 2690 2712
+type(
+  ([> `oldeditable ], int -> unit) GtkSignal.t
+)
+ident(
+  def move_to_column "gtkBrokenProps.ml" 75 2786 2841 "gtkBrokenProps.ml" 76 2842 2847
+)
+"gtkBrokenProps.ml" 74 2715 2727 "gtkBrokenProps.ml" 74 2715 2743
+type(
+  string
+)
+"gtkBrokenProps.ml" 74 2715 2752 "gtkBrokenProps.ml" 74 2715 2764
+type(
+  [> `oldeditable ] as 'k
+)
+"gtkBrokenProps.ml" 74 2715 2781 "gtkBrokenProps.ml" 74 2715 2782
+type(
+  int -> unit
+)
+ident(
+  def f "gtkBrokenProps.ml" 75 2786 2793 "gtkBrokenProps.ml" 75 2786 2840
+)
+"gtkBrokenProps.ml" 75 2786 2793 "gtkBrokenProps.ml" 75 2786 2801
+type(
+  int Gobject.data_conv -> string -> (int -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBrokenProps.ml" 75 2786 2802 "gtkBrokenProps.ml" 75 2786 2805
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBrokenProps.ml" 75 2786 2806 "gtkBrokenProps.ml" 75 2786 2838
+type(
+  string
+)
+"gtkBrokenProps.ml" 75 2786 2839 "gtkBrokenProps.ml" 75 2786 2840
+type(
+  int -> unit
+)
+ident(
+  int_ref f "gtkBrokenProps.ml" 74 2715 2781 "gtkBrokenProps.ml" 74 2715 2782
+)
+"gtkBrokenProps.ml" 75 2786 2793 "gtkBrokenProps.ml" 75 2786 2840
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBrokenProps.ml" 74 2715 2777 "gtkBrokenProps.ml" 75 2786 2840
+type(
+  (int -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBrokenProps.ml" 74 2715 2721 "gtkBrokenProps.ml" 75 2786 2841
+type(
+  ('k, int -> unit) GtkSignal.t
+)
+"gtkBrokenProps.ml" 85 3090 3096 "gtkBrokenProps.ml" 85 3090 3100
+type(
+  'a Gobject.obj -> Gtk.text Gtk.obj
+)
+ident(
+  def cast "gtkBrokenProps.ml" 86 3141 3143 "gtkBrokenProps.ml" 105 4024 4027
+)
+"gtkBrokenProps.ml" 85 3090 3101 "gtkBrokenProps.ml" 85 3090 3102
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBrokenProps.ml" 85 3090 3103 "gtkBrokenProps.ml" 85 3090 3140
+)
+"gtkBrokenProps.ml" 85 3090 3120 "gtkBrokenProps.ml" 85 3090 3128
+type(
+  'a Gobject.obj -> string -> Gtk.text Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBrokenProps.ml" 85 3090 3129 "gtkBrokenProps.ml" 85 3090 3130
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBrokenProps.ml" 85 3090 3101 "gtkBrokenProps.ml" 85 3090 3102
+)
+"gtkBrokenProps.ml" 85 3090 3131 "gtkBrokenProps.ml" 85 3090 3140
+type(
+  string
+)
+"gtkBrokenProps.ml" 85 3090 3120 "gtkBrokenProps.ml" 85 3090 3140
+call(
+  tail
+)
+type(
+  Gtk.text Gtk.obj
+)
+type(
+  Gtk.text Gtk.obj
+)
+"gtkBrokenProps.ml" 87 3161 3169 "gtkBrokenProps.ml" 87 3161 3180
+type(
+  ([> `text ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  def hadjustment "gtkBrokenProps.ml" 89 3281 3285 "gtkBrokenProps.ml" 94 3630 3635
+)
+"gtkBrokenProps.ml" 88 3207 3219 "gtkBrokenProps.ml" 88 3207 3232
+type(
+  string
+)
+"gtkBrokenProps.ml" 88 3207 3240 "gtkBrokenProps.ml" 88 3207 3247
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBrokenProps.ml" 88 3207 3213 "gtkBrokenProps.ml" 88 3207 3280
+type(
+  ([> `text ] as 'b, Gtk.adjustment Gtk.obj) Gobject.property
+)
+type(
+  ('b, Gtk.adjustment Gtk.obj) Gobject.property
+)
+"gtkBrokenProps.ml" 89 3281 3289 "gtkBrokenProps.ml" 89 3281 3300
+type(
+  ([> `text ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  def vadjustment "gtkBrokenProps.ml" 91 3401 3405 "gtkBrokenProps.ml" 94 3630 3635
+)
+"gtkBrokenProps.ml" 90 3327 3339 "gtkBrokenProps.ml" 90 3327 3352
+type(
+  string
+)
+"gtkBrokenProps.ml" 90 3327 3360 "gtkBrokenProps.ml" 90 3327 3367
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBrokenProps.ml" 90 3327 3333 "gtkBrokenProps.ml" 90 3327 3400
+type(
+  ([> `text ] as 'c, Gtk.adjustment Gtk.obj) Gobject.property
+)
+type(
+  ('c, Gtk.adjustment Gtk.obj) Gobject.property
+)
+"gtkBrokenProps.ml" 91 3401 3409 "gtkBrokenProps.ml" 91 3401 3417
+type(
+  ([> `text ], bool) Gobject.property
+)
+ident(
+  def editable "gtkBrokenProps.ml" 92 3476 3480 "gtkBrokenProps.ml" 94 3630 3635
+)
+"gtkBrokenProps.ml" 91 3401 3450 "gtkBrokenProps.ml" 91 3401 3460
+type(
+  string
+)
+"gtkBrokenProps.ml" 91 3401 3467 "gtkBrokenProps.ml" 91 3401 3474
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBrokenProps.ml" 91 3401 3444 "gtkBrokenProps.ml" 91 3401 3475
+type(
+  ([> `text ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkBrokenProps.ml" 92 3476 3484 "gtkBrokenProps.ml" 92 3476 3493
+type(
+  ([> `text ], bool) Gobject.property
+)
+ident(
+  def line_wrap "gtkBrokenProps.ml" 93 3553 3557 "gtkBrokenProps.ml" 94 3630 3635
+)
+"gtkBrokenProps.ml" 92 3476 3526 "gtkBrokenProps.ml" 92 3476 3537
+type(
+  string
+)
+"gtkBrokenProps.ml" 92 3476 3544 "gtkBrokenProps.ml" 92 3476 3551
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBrokenProps.ml" 92 3476 3520 "gtkBrokenProps.ml" 92 3476 3552
+type(
+  ([> `text ] as 'e, bool) Gobject.property
+)
+type(
+  ('e, bool) Gobject.property
+)
+"gtkBrokenProps.ml" 93 3553 3561 "gtkBrokenProps.ml" 93 3553 3570
+type(
+  ([> `text ], bool) Gobject.property
+)
+ident(
+  def word_wrap "gtkBrokenProps.ml" 93 3553 3629 "gtkBrokenProps.ml" 94 3630 3635
+)
+"gtkBrokenProps.ml" 93 3553 3603 "gtkBrokenProps.ml" 93 3553 3614
+type(
+  string
+)
+"gtkBrokenProps.ml" 93 3553 3621 "gtkBrokenProps.ml" 93 3553 3628
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBrokenProps.ml" 93 3553 3597 "gtkBrokenProps.ml" 93 3553 3629
+type(
+  ([> `text ] as 'f, bool) Gobject.property
+)
+type(
+  ('f, bool) Gobject.property
+)
+"gtkBrokenProps.ml" 95 3636 3642 "gtkBrokenProps.ml" 95 3636 3648
+type(
+  Gtk.text Gobject.param list -> Gtk.text Gtk.obj
+)
+ident(
+  def create "gtkBrokenProps.ml" 96 3694 3696 "gtkBrokenProps.ml" 105 4024 4027
+)
+"gtkBrokenProps.ml" 95 3636 3649 "gtkBrokenProps.ml" 95 3636 3651
+type(
+  Gtk.text Gobject.param list
+)
+ident(
+  def pl "gtkBrokenProps.ml" 95 3636 3652 "gtkBrokenProps.ml" 95 3636 3693
+)
+"gtkBrokenProps.ml" 95 3636 3669 "gtkBrokenProps.ml" 95 3636 3680
+type(
+  classe:string -> Gtk.text Gobject.param list -> Gtk.text Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBrokenProps.ml" 95 3636 3681 "gtkBrokenProps.ml" 95 3636 3690
+type(
+  string
+)
+"gtkBrokenProps.ml" 95 3636 3691 "gtkBrokenProps.ml" 95 3636 3693
+type(
+  Gtk.text Gobject.param list
+)
+ident(
+  int_ref pl "gtkBrokenProps.ml" 95 3636 3649 "gtkBrokenProps.ml" 95 3636 3651
+)
+"gtkBrokenProps.ml" 95 3636 3669 "gtkBrokenProps.ml" 95 3636 3693
+call(
+  tail
+)
+type(
+  Gtk.text Gtk.obj
+)
+type(
+  Gtk.text Gtk.obj
+)
+"gtkBrokenProps.ml" 96 3694 3700 "gtkBrokenProps.ml" 96 3694 3711
+type(
+  cont:(([> `text ] as 'g) Gobject.param list -> 'h) ->
+  'g Gobject.param list ->
+  ?hadjustment:Gtk.adjustment Gtk.obj ->
+  ?vadjustment:Gtk.adjustment Gtk.obj ->
+  ?editable:bool -> ?line_wrap:bool -> ?word_wrap:bool -> 'h
+)
+ident(
+  def make_params "gtkBrokenProps.ml" 104 4012 4023 "gtkBrokenProps.ml" 105 4024 4027
+)
+"gtkBrokenProps.ml" 96 3694 3713 "gtkBrokenProps.ml" 96 3694 3717
+type(
+  'g Gobject.param list -> 'h
+)
+ident(
+  def cont "gtkBrokenProps.ml" 96 3694 3718 "gtkBrokenProps.ml" 104 4012 4023
+)
+"gtkBrokenProps.ml" 96 3694 3718 "gtkBrokenProps.ml" 96 3694 3720
+type(
+  'g Gobject.param list
+)
+ident(
+  def pl "gtkBrokenProps.ml" 96 3694 3721 "gtkBrokenProps.ml" 104 4012 4023
+)
+"gtkBrokenProps.ml" 96 3694 3722 "gtkBrokenProps.ml" 96 3694 3733
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  def hadjustment "gtkBrokenProps.ml" 96 3694 3734 "gtkBrokenProps.ml" 104 4012 4023
+)
+"gtkBrokenProps.ml" 96 3694 3735 "gtkBrokenProps.ml" 96 3694 3746
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  def vadjustment "gtkBrokenProps.ml" 96 3694 3747 "gtkBrokenProps.ml" 104 4012 4023
+)
+"gtkBrokenProps.ml" 96 3694 3748 "gtkBrokenProps.ml" 96 3694 3756
+type(
+  bool option
+)
+ident(
+  def editable "gtkBrokenProps.ml" 96 3694 3757 "gtkBrokenProps.ml" 104 4012 4023
+)
+"gtkBrokenProps.ml" 96 3694 3758 "gtkBrokenProps.ml" 96 3694 3767
+type(
+  bool option
+)
+ident(
+  def line_wrap "gtkBrokenProps.ml" 97 3768 3774 "gtkBrokenProps.ml" 104 4012 4023
+)
+"gtkBrokenProps.ml" 97 3768 3775 "gtkBrokenProps.ml" 97 3768 3784
+type(
+  bool option
+)
+ident(
+  def word_wrap "gtkBrokenProps.ml" 98 3787 3791 "gtkBrokenProps.ml" 104 4012 4023
+)
+"gtkBrokenProps.ml" 98 3787 3795 "gtkBrokenProps.ml" 98 3787 3797
+type(
+  'g Gobject.param list
+)
+"gtkBrokenProps.ml" 99 3802 3808 "gtkBrokenProps.ml" 99 3802 3816
+type(
+  ('g, Gtk.adjustment Gtk.obj) Gobject.property ->
+  Gtk.adjustment Gtk.obj option ->
+  'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBrokenProps.ml" 7 60 64 "gtkBrokenProps.ml" 7 60 72
+)
+"gtkBrokenProps.ml" 99 3802 3817 "gtkBrokenProps.ml" 99 3802 3830
+type(
+  ('g, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref P.hadjustment
+)
+"gtkBrokenProps.ml" 99 3802 3831 "gtkBrokenProps.ml" 99 3802 3842
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  int_ref hadjustment "gtkBrokenProps.ml" 96 3694 3722 "gtkBrokenProps.ml" 96 3694 3733
+)
+"gtkBrokenProps.ml" 100 3845 3851 "gtkBrokenProps.ml" 100 3845 3859
+type(
+  ('g, Gtk.adjustment Gtk.obj) Gobject.property ->
+  Gtk.adjustment Gtk.obj option ->
+  'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBrokenProps.ml" 7 60 64 "gtkBrokenProps.ml" 7 60 72
+)
+"gtkBrokenProps.ml" 100 3845 3860 "gtkBrokenProps.ml" 100 3845 3873
+type(
+  ('g, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref P.vadjustment
+)
+"gtkBrokenProps.ml" 100 3845 3874 "gtkBrokenProps.ml" 100 3845 3885
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  int_ref vadjustment "gtkBrokenProps.ml" 96 3694 3735 "gtkBrokenProps.ml" 96 3694 3746
+)
+"gtkBrokenProps.ml" 101 3888 3894 "gtkBrokenProps.ml" 101 3888 3902
+type(
+  ('g, bool) Gobject.property ->
+  bool option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBrokenProps.ml" 7 60 64 "gtkBrokenProps.ml" 7 60 72
+)
+"gtkBrokenProps.ml" 101 3888 3903 "gtkBrokenProps.ml" 101 3888 3913
+type(
+  ('g, bool) Gobject.property
+)
+ident(
+  ext_ref P.editable
+)
+"gtkBrokenProps.ml" 101 3888 3914 "gtkBrokenProps.ml" 101 3888 3922
+type(
+  bool option
+)
+ident(
+  int_ref editable "gtkBrokenProps.ml" 96 3694 3748 "gtkBrokenProps.ml" 96 3694 3756
+)
+"gtkBrokenProps.ml" 102 3925 3931 "gtkBrokenProps.ml" 102 3925 3939
+type(
+  ('g, bool) Gobject.property ->
+  bool option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBrokenProps.ml" 7 60 64 "gtkBrokenProps.ml" 7 60 72
+)
+"gtkBrokenProps.ml" 102 3925 3940 "gtkBrokenProps.ml" 102 3925 3951
+type(
+  ('g, bool) Gobject.property
+)
+ident(
+  ext_ref P.line_wrap
+)
+"gtkBrokenProps.ml" 102 3925 3952 "gtkBrokenProps.ml" 102 3925 3961
+type(
+  bool option
+)
+ident(
+  int_ref line_wrap "gtkBrokenProps.ml" 96 3694 3758 "gtkBrokenProps.ml" 96 3694 3767
+)
+"gtkBrokenProps.ml" 103 3964 3970 "gtkBrokenProps.ml" 103 3964 3978
+type(
+  ('g, bool) Gobject.property ->
+  bool option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBrokenProps.ml" 7 60 64 "gtkBrokenProps.ml" 7 60 72
+)
+"gtkBrokenProps.ml" 103 3964 3979 "gtkBrokenProps.ml" 103 3964 3990
+type(
+  ('g, bool) Gobject.property
+)
+ident(
+  ext_ref P.word_wrap
+)
+"gtkBrokenProps.ml" 103 3964 3991 "gtkBrokenProps.ml" 103 3964 4000
+type(
+  bool option
+)
+ident(
+  int_ref word_wrap "gtkBrokenProps.ml" 97 3768 3775 "gtkBrokenProps.ml" 97 3768 3784
+)
+"gtkBrokenProps.ml" 103 3964 4001 "gtkBrokenProps.ml" 103 3964 4003
+type(
+  'g Gobject.param list
+)
+ident(
+  int_ref pl "gtkBrokenProps.ml" 96 3694 3718 "gtkBrokenProps.ml" 96 3694 3720
+)
+"gtkBrokenProps.ml" 102 3925 3962 "gtkBrokenProps.ml" 103 3964 4004
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkBrokenProps.ml" 101 3888 3923 "gtkBrokenProps.ml" 103 3964 4005
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkBrokenProps.ml" 100 3845 3886 "gtkBrokenProps.ml" 103 3964 4006
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkBrokenProps.ml" 99 3802 3843 "gtkBrokenProps.ml" 103 3964 4007
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkBrokenProps.ml" 98 3787 3800 "gtkBrokenProps.ml" 103 3964 4008
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkBrokenProps.ml" 104 4012 4016 "gtkBrokenProps.ml" 104 4012 4020
+type(
+  'g Gobject.param list -> 'h
+)
+ident(
+  int_ref cont "gtkBrokenProps.ml" 96 3694 3713 "gtkBrokenProps.ml" 96 3694 3717
+)
+"gtkBrokenProps.ml" 104 4012 4021 "gtkBrokenProps.ml" 104 4012 4023
+type(
+  'g Gobject.param list
+)
+ident(
+  int_ref pl "gtkBrokenProps.ml" 98 3787 3795 "gtkBrokenProps.ml" 98 3787 3797
+)
+"gtkBrokenProps.ml" 104 4012 4016 "gtkBrokenProps.ml" 104 4012 4023
+call(
+  tail
+)
+type(
+  'h
+)
+"gtkBrokenProps.ml" 98 3787 3791 "gtkBrokenProps.ml" 104 4012 4023
+type(
+  'h
+)

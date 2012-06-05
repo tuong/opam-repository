@@ -1,0 +1,42 @@
+OASISFormat: 0.1
+Name:        uuidm
+Version:     0.9.3
+Authors:     Daniel Buenzli
+LicenseFile: LICENSE
+License:     BSD3
+Plugins:     META (0.0.1), StdFiles (0.1.0), DevFiles (0.1.0)
+Synopsis:    Universally unique identifiers (UUIDs) for OCaml
+BuildTools:  ocamlbuild
+
+Library uuidm
+  Path: src
+  Modules: Uuidm
+
+Executable perf
+  Path: test
+  MainIs: perf.ml
+  Install: false
+  BuildDepends: uuidm
+
+Test perf
+  Type: Custom (0.0.1)
+  Command: $(utoh "_build/test/perf")
+
+Executable test
+  Path: test
+  MainIs: test.ml
+  Install: false
+  BuildDepends: uuidm
+
+Test test
+  Type: Custom (0.0.1)
+  Command: $(utoh "_build/test/test")
+
+Executable uuid
+  Path: test
+  MainIs: uuid.ml
+  Install: false
+  BuildDepends: uuidm
+
+Test uuid
+  Command: $uuid

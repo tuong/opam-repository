@@ -1,0 +1,5118 @@
+"gDraw.ml" 37 1820 1824 "gDraw.ml" 37 1820 1840
+type(
+  unit -> Gdk.colormap
+)
+ident(
+  def default_colormap "gDraw.ml" 39 1880 1880 --
+)
+"gDraw.ml" 37 1820 1843 "gDraw.ml" 37 1820 1878
+type(
+  unit -> Gdk.colormap
+)
+ident(
+  ext_ref GtkBase.Widget.get_default_colormap
+)
+"gDraw.ml" 39 1880 1884 "gDraw.ml" 39 1880 1889
+type(
+  ?colormap:Gdk.colormap -> color -> Gdk.color
+)
+ident(
+  def color "gDraw.ml" 44 2032 2032 --
+)
+"gDraw.ml" 39 1880 1892 "gDraw.ml" 39 1880 1900
+type(
+  Gdk.colormap
+)
+"gDraw.ml" 39 1880 1903 "gDraw.ml" 39 1880 1919
+type(
+  unit -> Gdk.colormap
+)
+ident(
+  int_ref default_colormap "gDraw.ml" 37 1820 1824 "gDraw.ml" 37 1820 1840
+)
+"gDraw.ml" 39 1880 1920 "gDraw.ml" 39 1880 1922
+type(
+  unit
+)
+"gDraw.ml" 39 1880 1903 "gDraw.ml" 39 1880 1922
+call(
+  stack
+)
+type(
+  Gdk.colormap
+)
+type(
+  Gdk.colormap
+)
+ident(
+  int_ref *sth* "gDraw.ml" 39 1880 1903 "gDraw.ml" 39 1880 1922
+)
+type(
+  Gdk.colormap option
+)
+type(
+  Gdk.colormap option
+)
+type(
+  Gdk.colormap
+)
+ident(
+  def *sth* "gDraw.ml" 39 1880 1903 "gDraw.ml" 39 1880 1922
+)
+"gDraw.ml" 39 1880 1925 "gDraw.ml" 39 1880 1926
+type(
+  color
+)
+ident(
+  def c "gDraw.ml" 40 1938 1940 "gDraw.ml" 42 1975 2030
+)
+"gDraw.ml" 40 1938 1946 "gDraw.ml" 40 1938 1947
+type(
+  color
+)
+ident(
+  int_ref c "gDraw.ml" 39 1880 1925 "gDraw.ml" 39 1880 1926
+)
+"gDraw.ml" 41 1953 1964 "gDraw.ml" 41 1953 1967
+type(
+  Gdk.color
+)
+ident(
+  def col "gDraw.ml" 41 1953 1971 "gDraw.ml" 41 1953 1974
+)
+"gDraw.ml" 41 1953 1957 "gDraw.ml" 41 1953 1967
+type(
+  color
+)
+"gDraw.ml" 41 1953 1971 "gDraw.ml" 41 1953 1974
+type(
+  Gdk.color
+)
+ident(
+  int_ref col "gDraw.ml" 41 1953 1964 "gDraw.ml" 41 1953 1967
+)
+"gDraw.ml" 42 1975 1979 "gDraw.ml" 42 1975 1994
+type(
+  color
+)
+"gDraw.ml" 42 1975 1979 "gDraw.ml" 42 1975 2001
+type(
+  color
+)
+ident(
+  def def "gDraw.ml" 42 1975 2005 "gDraw.ml" 42 1975 2030
+)
+"gDraw.ml" 42 1975 2005 "gDraw.ml" 42 1975 2016
+type(
+  colormap:Gdk.colormap -> Gdk.Color.spec -> Gdk.color
+)
+ident(
+  ext_ref Gdk.Color.alloc
+)
+"gDraw.ml" 42 1975 2018 "gDraw.ml" 42 1975 2026
+type(
+  Gdk.colormap
+)
+ident(
+  int_ref colormap "gDraw.ml" 39 1880 1892 "gDraw.ml" 39 1880 1900
+)
+"gDraw.ml" 42 1975 2027 "gDraw.ml" 42 1975 2030
+type(
+  Gdk.Color.spec
+)
+ident(
+  int_ref def "gDraw.ml" 42 1975 1979 "gDraw.ml" 42 1975 2001
+)
+"gDraw.ml" 42 1975 2005 "gDraw.ml" 42 1975 2030
+call(
+  tail
+)
+type(
+  Gdk.color
+)
+"gDraw.ml" 40 1938 1940 "gDraw.ml" 42 1975 2030
+type(
+  Gdk.color
+)
+"gDraw.ml" 44 2032 2036 "gDraw.ml" 44 2032 2046
+type(
+  color Gobject.data_conv
+)
+ident(
+  def conv_color "gDraw.ml" 50 2272 2272 --
+)
+"gDraw.ml" 45 2067 2078 "gDraw.ml" 45 2067 2086
+type(
+  Gobject.data_kind
+)
+"gDraw.ml" 46 2088 2124 "gDraw.ml" 46 2088 2125
+type(
+  Gpointer.boxed
+)
+ident(
+  def c "gDraw.ml" 46 2088 2130 "gDraw.ml" 46 2088 2150
+)
+"gDraw.ml" 46 2088 2118 "gDraw.ml" 46 2088 2126
+type(
+  Gpointer.boxed option
+)
+"gDraw.ml" 46 2088 2109 "gDraw.ml" 46 2088 2126
+type(
+  Gobject.data_conv_get
+)
+"gDraw.ml" 46 2088 2138 "gDraw.ml" 46 2088 2147
+type(
+  Gpointer.boxed -> Gdk.color
+)
+ident(
+  ext_ref Obj.magic
+)
+"gDraw.ml" 46 2088 2148 "gDraw.ml" 46 2088 2149
+type(
+  Gpointer.boxed
+)
+ident(
+  int_ref c "gDraw.ml" 46 2088 2124 "gDraw.ml" 46 2088 2125
+)
+"gDraw.ml" 46 2088 2137 "gDraw.ml" 46 2088 2150
+type(
+  Gdk.color
+)
+"gDraw.ml" 46 2088 2130 "gDraw.ml" 46 2088 2150
+type(
+  color
+)
+"gDraw.ml" 47 2151 2164 "gDraw.ml" 47 2151 2165
+type(
+  Gobject.data_conv_get
+)
+"gDraw.ml" 47 2151 2169 "gDraw.ml" 47 2151 2177
+type(
+  string -> color
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gDraw.ml" 47 2151 2178 "gDraw.ml" 47 2151 2195
+type(
+  string
+)
+"gDraw.ml" 47 2151 2169 "gDraw.ml" 47 2151 2195
+call(
+  tail
+)
+type(
+  color
+)
+"gDraw.ml" 46 2088 2099 "gDraw.ml" 47 2151 2196
+type(
+  Gobject.data_conv_get -> color
+)
+"gDraw.ml" 48 2198 2213 "gDraw.ml" 48 2198 2214
+type(
+  color
+)
+ident(
+  def c "gDraw.ml" 48 2198 2218 "gDraw.ml" 48 2198 2267
+)
+"gDraw.ml" 48 2198 2234 "gDraw.ml" 48 2198 2243
+type(
+  Gdk.color -> Gpointer.boxed
+)
+ident(
+  ext_ref Obj.magic
+)
+"gDraw.ml" 48 2198 2245 "gDraw.ml" 48 2198 2250
+type(
+  ?colormap:Gdk.colormap -> color -> Gdk.color
+)
+ident(
+  int_ref color "gDraw.ml" 39 1880 1884 "gDraw.ml" 39 1880 1889
+)
+"gDraw.ml" 48 2198 2251 "gDraw.ml" 48 2198 2252
+type(
+  color
+)
+ident(
+  int_ref c "gDraw.ml" 48 2198 2213 "gDraw.ml" 48 2198 2214
+)
+"gDraw.ml" 48 2198 2245 "gDraw.ml" 48 2198 2252
+call(
+  stack
+)
+type(
+  Gdk.color
+)
+type(
+  Gdk.color
+)
+"gDraw.ml" 48 2198 2233 "gDraw.ml" 48 2198 2266
+type(
+  Gpointer.boxed
+)
+"gDraw.ml" 48 2198 2227 "gDraw.ml" 48 2198 2267
+type(
+  Gpointer.boxed option
+)
+"gDraw.ml" 48 2198 2218 "gDraw.ml" 48 2198 2267
+type(
+  unit Gobject.data_set
+)
+"gDraw.ml" 48 2198 2208 "gDraw.ml" 48 2198 2268
+type(
+  color -> unit Gobject.data_set
+)
+"gDraw.ml" 45 2067 2069 "gDraw.ml" 48 2198 2270
+type(
+  color Gobject.data_conv
+)
+type(
+  color Gobject.data_conv
+)
+"gDraw.ml" 59 2400 2404 "gDraw.ml" 59 2400 2412
+type(
+  ?colormap:Gdk.colormap -> optcolor -> Gdk.color option
+)
+ident(
+  def optcolor "gDraw.ml" 64 2521 2521 --
+)
+"gDraw.ml" 59 2400 2414 "gDraw.ml" 59 2400 2422
+type(
+  Gdk.colormap option
+)
+ident(
+  def colormap "gDraw.ml" 59 2400 2423 "gDraw.ml" 62 2476 2519
+)
+"gDraw.ml" 59 2400 2424 "gDraw.ml" 59 2400 2425
+type(
+  optcolor
+)
+ident(
+  def c "gDraw.ml" 60 2440 2442 "gDraw.ml" 62 2476 2519
+)
+"gDraw.ml" 60 2440 2448 "gDraw.ml" 60 2440 2449
+type(
+  optcolor
+)
+ident(
+  int_ref c "gDraw.ml" 59 2400 2424 "gDraw.ml" 59 2400 2425
+)
+"gDraw.ml" 61 2455 2459 "gDraw.ml" 61 2455 2467
+type(
+  optcolor
+)
+"gDraw.ml" 61 2455 2471 "gDraw.ml" 61 2455 2475
+type(
+  Gdk.color option
+)
+"gDraw.ml" 62 2476 2480 "gDraw.ml" 62 2476 2486
+type(
+  optcolor
+)
+"gDraw.ml" 62 2476 2480 "gDraw.ml" 62 2476 2491
+type(
+  optcolor
+)
+ident(
+  def c "gDraw.ml" 62 2476 2495 "gDraw.ml" 62 2476 2519
+)
+"gDraw.ml" 62 2476 2501 "gDraw.ml" 62 2476 2506
+type(
+  ?colormap:Gdk.colormap -> color -> Gdk.color
+)
+ident(
+  int_ref color "gDraw.ml" 39 1880 1884 "gDraw.ml" 39 1880 1889
+)
+"gDraw.ml" 62 2476 2508 "gDraw.ml" 62 2476 2516
+type(
+  Gdk.colormap option
+)
+ident(
+  int_ref colormap "gDraw.ml" 59 2400 2414 "gDraw.ml" 59 2400 2422
+)
+"gDraw.ml" 62 2476 2517 "gDraw.ml" 62 2476 2518
+type(
+  color
+)
+ident(
+  int_ref c "gDraw.ml" 62 2476 2480 "gDraw.ml" 62 2476 2491
+)
+"gDraw.ml" 62 2476 2500 "gDraw.ml" 62 2476 2519
+call(
+  stack
+)
+type(
+  Gdk.color
+)
+"gDraw.ml" 62 2476 2495 "gDraw.ml" 62 2476 2519
+type(
+  Gdk.color option
+)
+"gDraw.ml" 60 2440 2442 "gDraw.ml" 62 2476 2519
+type(
+  Gdk.color option
+)
+"gDraw.ml" 64 2521 2525 "gDraw.ml" 64 2521 2538
+type(
+  optcolor Gobject.data_conv
+)
+ident(
+  def conv_optcolor "gDraw.ml" 71 2809 2809 --
+)
+"gDraw.ml" 65 2562 2573 "gDraw.ml" 65 2562 2581
+type(
+  Gobject.data_kind
+)
+"gDraw.ml" 66 2583 2619 "gDraw.ml" 66 2583 2620
+type(
+  Gpointer.boxed
+)
+ident(
+  def c "gDraw.ml" 66 2583 2625 "gDraw.ml" 66 2583 2645
+)
+"gDraw.ml" 66 2583 2613 "gDraw.ml" 66 2583 2621
+type(
+  Gpointer.boxed option
+)
+"gDraw.ml" 66 2583 2604 "gDraw.ml" 66 2583 2621
+type(
+  Gobject.data_conv_get
+)
+"gDraw.ml" 66 2583 2633 "gDraw.ml" 66 2583 2642
+type(
+  Gpointer.boxed -> Gdk.color
+)
+ident(
+  ext_ref Obj.magic
+)
+"gDraw.ml" 66 2583 2643 "gDraw.ml" 66 2583 2644
+type(
+  Gpointer.boxed
+)
+ident(
+  int_ref c "gDraw.ml" 66 2583 2619 "gDraw.ml" 66 2583 2620
+)
+"gDraw.ml" 66 2583 2632 "gDraw.ml" 66 2583 2645
+type(
+  Gdk.color
+)
+"gDraw.ml" 66 2583 2625 "gDraw.ml" 66 2583 2645
+type(
+  optcolor
+)
+"gDraw.ml" 67 2646 2668 "gDraw.ml" 67 2646 2672
+type(
+  Gpointer.boxed option
+)
+"gDraw.ml" 67 2646 2659 "gDraw.ml" 67 2646 2672
+type(
+  Gobject.data_conv_get
+)
+"gDraw.ml" 67 2646 2676 "gDraw.ml" 67 2646 2684
+type(
+  optcolor
+)
+"gDraw.ml" 68 2685 2698 "gDraw.ml" 68 2685 2699
+type(
+  Gobject.data_conv_get
+)
+"gDraw.ml" 68 2685 2703 "gDraw.ml" 68 2685 2711
+type(
+  string -> optcolor
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gDraw.ml" 68 2685 2712 "gDraw.ml" 68 2685 2729
+type(
+  string
+)
+"gDraw.ml" 68 2685 2703 "gDraw.ml" 68 2685 2729
+call(
+  tail
+)
+type(
+  optcolor
+)
+"gDraw.ml" 66 2583 2594 "gDraw.ml" 68 2685 2730
+type(
+  Gobject.data_conv_get -> optcolor
+)
+"gDraw.ml" 69 2732 2747 "gDraw.ml" 69 2732 2748
+type(
+  optcolor
+)
+ident(
+  def c "gDraw.ml" 69 2732 2752 "gDraw.ml" 69 2732 2804
+)
+"gDraw.ml" 69 2732 2762 "gDraw.ml" 69 2732 2771
+type(
+  Gdk.color option -> Gpointer.boxed option
+)
+ident(
+  ext_ref Obj.magic
+)
+"gDraw.ml" 69 2732 2773 "gDraw.ml" 69 2732 2781
+type(
+  ?colormap:Gdk.colormap -> optcolor -> Gdk.color option
+)
+ident(
+  int_ref optcolor "gDraw.ml" 59 2400 2404 "gDraw.ml" 59 2400 2412
+)
+"gDraw.ml" 69 2732 2782 "gDraw.ml" 69 2732 2783
+type(
+  optcolor
+)
+ident(
+  int_ref c "gDraw.ml" 69 2732 2747 "gDraw.ml" 69 2732 2748
+)
+"gDraw.ml" 69 2732 2773 "gDraw.ml" 69 2732 2783
+call(
+  stack
+)
+type(
+  Gdk.color option
+)
+type(
+  Gdk.color option
+)
+"gDraw.ml" 69 2732 2761 "gDraw.ml" 69 2732 2804
+type(
+  Gpointer.boxed option
+)
+"gDraw.ml" 69 2732 2752 "gDraw.ml" 69 2732 2804
+type(
+  unit Gobject.data_set
+)
+"gDraw.ml" 69 2732 2742 "gDraw.ml" 69 2732 2805
+type(
+  optcolor -> unit Gobject.data_set
+)
+"gDraw.ml" 65 2562 2564 "gDraw.ml" 69 2732 2807
+type(
+  optcolor Gobject.data_conv
+)
+type(
+  optcolor Gobject.data_conv
+)
+"gDraw.ml" 71 2809 2826 "gDraw.ml" 71 2809 2834
+type(
+  Gdk.colormap
+)
+"gDraw.ml" 71 2809 2837 "gDraw.ml" 71 2809 2853
+type(
+  unit -> Gdk.colormap
+)
+ident(
+  int_ref default_colormap "gDraw.ml" 37 1820 1824 "gDraw.ml" 37 1820 1840
+)
+"gDraw.ml" 71 2809 2854 "gDraw.ml" 71 2809 2856
+type(
+  unit
+)
+"gDraw.ml" 71 2809 2837 "gDraw.ml" 71 2809 2856
+call(
+  stack
+)
+type(
+  Gdk.colormap
+)
+type(
+  Gdk.colormap
+)
+type(
+  Gdk.colormap
+)
+ident(
+  int_ref *sth* "gDraw.ml" 71 2809 2837 "gDraw.ml" 71 2809 2856
+)
+type(
+  Gdk.colormap option
+)
+type(
+  Gdk.colormap option
+)
+type(
+  Gdk.colormap
+)
+ident(
+  def *sth* "gDraw.ml" 71 2809 2837 "gDraw.ml" 71 2809 2856
+)
+type(
+  Gdk.colormap option
+)
+ident(
+  int_ref *opt* "gDraw.ml" 71 2809 2837 "gDraw.ml" 71 2809 2856
+)
+type(
+  Gdk.colormap option
+)
+"gDraw.ml" 71 2809 2858 "gDraw.ml" 71 2809 2859
+type(
+  [> `drawable ] Gobject.obj
+)
+"gDraw.ml" 71 2809 2869 "gDraw.ml" 71 2809 2875
+type(
+  < arc : x:int ->
+          y:int ->
+          width:int ->
+          height:int ->
+          ?filled:bool -> ?start:float -> ?angle:float -> unit -> unit;
+    color : color -> Gdk.color; colormap : Gdk.colormap; depth : int;
+    gc : Gdk.gc; gc_values : Gdk.GC.values;
+    line : x:int -> y:int -> x:int -> y:int -> unit;
+    lines : (int * int) list -> unit; point : x:int -> y:int -> unit;
+    points : (int * int) list -> unit;
+    polygon : ?filled:bool -> (int * int) list -> unit;
+    put_image : x:int ->
+                y:int ->
+                ?xsrc:int ->
+                ?ysrc:int -> ?width:int -> ?height:int -> Gdk.image -> unit;
+    put_layout : x:int ->
+                 y:int -> ?fore:color -> ?back:color -> Pango.layout -> unit;
+    put_pixbuf : x:int ->
+                 y:int ->
+                 ?width:int ->
+                 ?height:int ->
+                 ?dither:Gdk.Tags.rgb_dither ->
+                 ?x_dither:int ->
+                 ?y_dither:int ->
+                 ?src_x:int -> ?src_y:int -> GdkPixbuf.pixbuf -> unit;
+    put_pixmap : x:int ->
+                 y:int ->
+                 ?xsrc:int ->
+                 ?ysrc:int -> ?width:int -> ?height:int -> Gdk.pixmap -> unit;
+    put_rgb_data : width:int ->
+                   height:int ->
+                   ?x:int ->
+                   ?y:int ->
+                   ?dither:Gdk.Tags.rgb_dither ->
+                   ?row_stride:int -> Gpointer.region -> unit;
+    rectangle : x:int ->
+                y:int ->
+                width:int -> height:int -> ?filled:bool -> unit -> unit;
+    segments : ((int * int) * (int * int)) list -> unit;
+    set_background : color -> unit; set_clip_mask : Gdk.bitmap -> unit;
+    set_clip_origin : x:int -> y:int -> unit;
+    set_clip_rectangle : Gdk.Rectangle.t -> unit;
+    set_clip_region : Gdk.region -> unit; set_foreground : color -> unit;
+    set_gc : Gdk.gc -> unit;
+    set_line_attributes : ?width:int ->
+                          ?style:Gdk.GC.gdkLineStyle ->
+                          ?cap:Gdk.GC.gdkCapStyle ->
+                          ?join:Gdk.GC.gdkJoinStyle -> unit -> unit;
+    size : int * int;
+    string : string -> font:Gdk.font -> x:int -> y:int -> unit; .. >
+)
+"gDraw.ml" 72 2876 2893 "gDraw.ml" 72 2876 2901
+type(
+  Gdk.colormap
+)
+ident(
+  int_ref colormap "gDraw.ml" 71 2809 2826 "gDraw.ml" 71 2809 2834
+)
+"gDraw.ml" 73 2902 2921 "gDraw.ml" 73 2902 2930
+type(
+  ([> `drawable ] as 'a) Gobject.obj -> Gdk.gc
+)
+ident(
+  ext_ref Gdk.GC.create
+)
+"gDraw.ml" 73 2902 2931 "gDraw.ml" 73 2902 2932
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gDraw.ml" 71 2809 2858 "gDraw.ml" 71 2809 2859
+)
+"gDraw.ml" 73 2902 2921 "gDraw.ml" 73 2902 2932
+call(
+  stack
+)
+type(
+  Gdk.gc
+)
+"gDraw.ml" 74 2933 2943 "gDraw.ml" 74 2933 2944
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gDraw.ml" 71 2809 2858 "gDraw.ml" 71 2809 2859
+)
+"gDraw.ml" 75 2945 2965 "gDraw.ml" 75 2945 2973
+type(
+  Gdk.colormap
+)
+type(
+  Gdk.colormap
+)
+"gDraw.ml" 76 2974 2988 "gDraw.ml" 76 2974 2990
+type(
+  Gdk.gc
+)
+type(
+  Gdk.gc
+)
+"gDraw.ml" 77 2991 3007 "gDraw.ml" 77 2991 3008
+type(
+  Gdk.gc
+)
+ident(
+  def x "gDraw.ml" 77 2991 3011 "gDraw.ml" 77 2991 3018
+)
+"gDraw.ml" 77 2991 3017 "gDraw.ml" 77 2991 3018
+type(
+  Gdk.gc
+)
+ident(
+  int_ref x "gDraw.ml" 77 2991 3007 "gDraw.ml" 77 2991 3008
+)
+"gDraw.ml" 77 2991 3011 "gDraw.ml" 77 2991 3018
+type(
+  unit
+)
+"gDraw.ml" 78 3019 3036 "gDraw.ml" 78 3019 3041
+type(
+  ?colormap:Gdk.colormap -> color -> Gdk.color
+)
+ident(
+  int_ref color "gDraw.ml" 39 1880 1884 "gDraw.ml" 39 1880 1889
+)
+"gDraw.ml" 78 3019 3043 "gDraw.ml" 78 3019 3051
+type(
+  Gdk.colormap
+)
+"gDraw.ml" 78 3019 3036 "gDraw.ml" 78 3019 3051
+call(
+  tail
+)
+type(
+  color -> Gdk.color
+)
+type(
+  color -> Gdk.color
+)
+"gDraw.ml" 79 3052 3076 "gDraw.ml" 79 3052 3079
+type(
+  color
+)
+ident(
+  def col "gDraw.ml" 79 3052 3082 "gDraw.ml" 79 3052 3119
+)
+"gDraw.ml" 79 3052 3082 "gDraw.ml" 79 3052 3099
+type(
+  Gdk.gc -> Gdk.color -> unit
+)
+ident(
+  ext_ref Gdk.GC.set_foreground
+)
+"gDraw.ml" 79 3052 3100 "gDraw.ml" 79 3052 3102
+type(
+  Gdk.gc
+)
+"gDraw.ml" 79 3052 3104 "gDraw.ml" 79 3052 3108
+type(
+  < arc : x:int ->
+          y:int ->
+          width:int ->
+          height:int ->
+          ?filled:bool -> ?start:float -> ?angle:float -> unit -> unit;
+    color : color -> Gdk.color; colormap : Gdk.colormap; depth : int;
+    gc : Gdk.gc; gc_values : Gdk.GC.values;
+    line : x:int -> y:int -> x:int -> y:int -> unit;
+    lines : (int * int) list -> unit; point : x:int -> y:int -> unit;
+    points : (int * int) list -> unit;
+    polygon : ?filled:bool -> (int * int) list -> unit;
+    put_image : x:int ->
+                y:int ->
+                ?xsrc:int ->
+                ?ysrc:int -> ?width:int -> ?height:int -> Gdk.image -> unit;
+    put_layout : x:int ->
+                 y:int -> ?fore:color -> ?back:color -> Pango.layout -> unit;
+    put_pixbuf : x:int ->
+                 y:int ->
+                 ?width:int ->
+                 ?height:int ->
+                 ?dither:Gdk.Tags.rgb_dither ->
+                 ?x_dither:int ->
+                 ?y_dither:int ->
+                 ?src_x:int -> ?src_y:int -> GdkPixbuf.pixbuf -> unit;
+    put_pixmap : x:int ->
+                 y:int ->
+                 ?xsrc:int ->
+                 ?ysrc:int -> ?width:int -> ?height:int -> Gdk.pixmap -> unit;
+    put_rgb_data : width:int ->
+                   height:int ->
+                   ?x:int ->
+                   ?y:int ->
+                   ?dither:Gdk.Tags.rgb_dither ->
+                   ?row_stride:int -> Gpointer.region -> unit;
+    rectangle : x:int ->
+                y:int ->
+                width:int -> height:int -> ?filled:bool -> unit -> unit;
+    segments : ((int * int) * (int * int)) list -> unit;
+    set_background : color -> unit; set_clip_mask : Gdk.bitmap -> unit;
+    set_clip_origin : x:int -> y:int -> unit;
+    set_clip_rectangle : Gdk.Rectangle.t -> unit;
+    set_clip_region : Gdk.region -> unit; set_foreground : color -> unit;
+    set_gc : Gdk.gc -> unit;
+    set_line_attributes : ?width:int ->
+                          ?style:Gdk.GC.gdkLineStyle ->
+                          ?cap:Gdk.GC.gdkCapStyle ->
+                          ?join:Gdk.GC.gdkJoinStyle -> unit -> unit;
+    size : int * int;
+    string : string -> font:Gdk.font -> x:int -> y:int -> unit; .. >
+  as 'b
+)
+"gDraw.ml" 79 3052 3104 "gDraw.ml" 79 3052 3114
+call(
+  stack
+)
+type(
+  color -> Gdk.color
+)
+"gDraw.ml" 79 3052 3115 "gDraw.ml" 79 3052 3118
+type(
+  color
+)
+ident(
+  int_ref col "gDraw.ml" 79 3052 3076 "gDraw.ml" 79 3052 3079
+)
+"gDraw.ml" 79 3052 3103 "gDraw.ml" 79 3052 3119
+type(
+  Gdk.color
+)
+"gDraw.ml" 79 3052 3082 "gDraw.ml" 79 3052 3119
+call(
+  tail
+)
+type(
+  unit
+)
+"gDraw.ml" 80 3120 3144 "gDraw.ml" 80 3120 3147
+type(
+  color
+)
+ident(
+  def col "gDraw.ml" 80 3120 3150 "gDraw.ml" 80 3120 3187
+)
+"gDraw.ml" 80 3120 3150 "gDraw.ml" 80 3120 3167
+type(
+  Gdk.gc -> Gdk.color -> unit
+)
+ident(
+  ext_ref Gdk.GC.set_background
+)
+"gDraw.ml" 80 3120 3168 "gDraw.ml" 80 3120 3170
+type(
+  Gdk.gc
+)
+"gDraw.ml" 80 3120 3172 "gDraw.ml" 80 3120 3176
+type(
+  'b
+)
+"gDraw.ml" 80 3120 3172 "gDraw.ml" 80 3120 3182
+call(
+  stack
+)
+type(
+  color -> Gdk.color
+)
+"gDraw.ml" 80 3120 3183 "gDraw.ml" 80 3120 3186
+type(
+  color
+)
+ident(
+  int_ref col "gDraw.ml" 80 3120 3144 "gDraw.ml" 80 3120 3147
+)
+"gDraw.ml" 80 3120 3171 "gDraw.ml" 80 3120 3187
+type(
+  Gdk.color
+)
+"gDraw.ml" 80 3120 3150 "gDraw.ml" 80 3120 3187
+call(
+  tail
+)
+type(
+  unit
+)
+"gDraw.ml" 81 3188 3204 "gDraw.ml" 81 3188 3221
+type(
+  'a Gobject.obj -> int * int
+)
+ident(
+  ext_ref Gdk.Drawable.get_size
+)
+"gDraw.ml" 81 3188 3222 "gDraw.ml" 81 3188 3223
+type(
+  'a Gobject.obj
+)
+"gDraw.ml" 81 3188 3204 "gDraw.ml" 81 3188 3223
+call(
+  tail
+)
+type(
+  int * int
+)
+type(
+  int * int
+)
+"gDraw.ml" 82 3224 3241 "gDraw.ml" 82 3224 3259
+type(
+  'a Gobject.obj -> int
+)
+ident(
+  ext_ref Gdk.Drawable.get_depth
+)
+"gDraw.ml" 82 3224 3260 "gDraw.ml" 82 3224 3261
+type(
+  'a Gobject.obj
+)
+"gDraw.ml" 82 3224 3241 "gDraw.ml" 82 3224 3261
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"gDraw.ml" 83 3262 3283 "gDraw.ml" 83 3262 3296
+type(
+  Gdk.gc -> Gdk.GC.values
+)
+ident(
+  ext_ref Gdk.GC.get_values
+)
+"gDraw.ml" 83 3262 3297 "gDraw.ml" 83 3262 3299
+type(
+  Gdk.gc
+)
+"gDraw.ml" 83 3262 3283 "gDraw.ml" 83 3262 3299
+call(
+  tail
+)
+type(
+  Gdk.GC.values
+)
+type(
+  Gdk.GC.values
+)
+"gDraw.ml" 84 3300 3327 "gDraw.ml" 84 3300 3345
+type(
+  Gdk.gc -> Gdk.region -> unit
+)
+ident(
+  ext_ref Gdk.GC.set_clip_region
+)
+"gDraw.ml" 84 3300 3346 "gDraw.ml" 84 3300 3348
+type(
+  Gdk.gc
+)
+"gDraw.ml" 84 3300 3327 "gDraw.ml" 84 3300 3348
+call(
+  tail
+)
+type(
+  Gdk.region -> unit
+)
+type(
+  Gdk.region -> unit
+)
+"gDraw.ml" 85 3349 3376 "gDraw.ml" 85 3349 3394
+type(
+  Gdk.gc -> x:int -> y:int -> unit
+)
+ident(
+  ext_ref Gdk.GC.set_clip_origin
+)
+"gDraw.ml" 85 3349 3395 "gDraw.ml" 85 3349 3397
+type(
+  Gdk.gc
+)
+"gDraw.ml" 85 3349 3376 "gDraw.ml" 85 3349 3397
+call(
+  tail
+)
+type(
+  x:int -> y:int -> unit
+)
+type(
+  x:int -> y:int -> unit
+)
+"gDraw.ml" 86 3398 3423 "gDraw.ml" 86 3398 3439
+type(
+  Gdk.gc -> Gdk.bitmap -> unit
+)
+ident(
+  ext_ref Gdk.GC.set_clip_mask
+)
+"gDraw.ml" 86 3398 3440 "gDraw.ml" 86 3398 3442
+type(
+  Gdk.gc
+)
+"gDraw.ml" 86 3398 3423 "gDraw.ml" 86 3398 3442
+call(
+  tail
+)
+type(
+  Gdk.bitmap -> unit
+)
+type(
+  Gdk.bitmap -> unit
+)
+"gDraw.ml" 87 3443 3473 "gDraw.ml" 87 3443 3494
+type(
+  Gdk.gc -> Gdk.Rectangle.t -> unit
+)
+ident(
+  ext_ref Gdk.GC.set_clip_rectangle
+)
+"gDraw.ml" 87 3443 3495 "gDraw.ml" 87 3443 3497
+type(
+  Gdk.gc
+)
+"gDraw.ml" 87 3443 3473 "gDraw.ml" 87 3443 3497
+call(
+  tail
+)
+type(
+  Gdk.Rectangle.t -> unit
+)
+type(
+  Gdk.Rectangle.t -> unit
+)
+"gDraw.ml" 88 3498 3528 "gDraw.ml" 88 3498 3533
+type(
+  int option
+)
+ident(
+  def width "gDraw.ml" 88 3498 3534 "gDraw.ml" 94 3764 3811
+)
+"gDraw.ml" 88 3498 3535 "gDraw.ml" 88 3498 3540
+type(
+  Gdk.GC.gdkLineStyle option
+)
+ident(
+  def style "gDraw.ml" 88 3498 3541 "gDraw.ml" 94 3764 3811
+)
+"gDraw.ml" 88 3498 3542 "gDraw.ml" 88 3498 3545
+type(
+  Gdk.GC.gdkCapStyle option
+)
+ident(
+  def cap "gDraw.ml" 88 3498 3546 "gDraw.ml" 94 3764 3811
+)
+"gDraw.ml" 88 3498 3547 "gDraw.ml" 88 3498 3551
+type(
+  Gdk.GC.gdkJoinStyle option
+)
+ident(
+  def join "gDraw.ml" 88 3498 3552 "gDraw.ml" 94 3764 3811
+)
+"gDraw.ml" 88 3498 3552 "gDraw.ml" 88 3498 3554
+type(
+  unit
+)
+"gDraw.ml" 89 3557 3565 "gDraw.ml" 89 3557 3566
+type(
+  Gdk.GC.values
+)
+"gDraw.ml" 89 3557 3569 "gDraw.ml" 89 3557 3582
+type(
+  Gdk.gc -> Gdk.GC.values
+)
+ident(
+  ext_ref Gdk.GC.get_values
+)
+"gDraw.ml" 89 3557 3583 "gDraw.ml" 89 3557 3585
+type(
+  Gdk.gc
+)
+"gDraw.ml" 89 3557 3569 "gDraw.ml" 89 3557 3585
+call(
+  stack
+)
+type(
+  Gdk.GC.values
+)
+"gDraw.ml" 90 3589 3593 "gDraw.ml" 90 3589 3615
+type(
+  Gdk.gc ->
+  width:int ->
+  style:Gdk.GC.gdkLineStyle ->
+  cap:Gdk.GC.gdkCapStyle -> join:Gdk.GC.gdkJoinStyle -> unit
+)
+ident(
+  ext_ref Gdk.GC.set_line_attributes
+)
+"gDraw.ml" 90 3589 3616 "gDraw.ml" 90 3589 3618
+type(
+  Gdk.gc
+)
+"gDraw.ml" 91 3619 3633 "gDraw.ml" 91 3619 3640
+type(
+  int -> opt:int option -> int
+)
+ident(
+  ext_ref Gaux.default
+)
+"gDraw.ml" 91 3619 3641 "gDraw.ml" 91 3619 3642
+type(
+  Gdk.GC.values
+)
+ident(
+  int_ref v "gDraw.ml" 89 3557 3565 "gDraw.ml" 89 3557 3566
+)
+"gDraw.ml" 91 3619 3641 "gDraw.ml" 91 3619 3656
+type(
+  int
+)
+"gDraw.ml" 91 3619 3662 "gDraw.ml" 91 3619 3667
+type(
+  int option
+)
+ident(
+  int_ref width "gDraw.ml" 88 3498 3528 "gDraw.ml" 88 3498 3533
+)
+"gDraw.ml" 91 3619 3632 "gDraw.ml" 91 3619 3668
+call(
+  stack
+)
+type(
+  int
+)
+"gDraw.ml" 92 3669 3683 "gDraw.ml" 92 3669 3690
+type(
+  Gdk.GC.gdkLineStyle ->
+  opt:Gdk.GC.gdkLineStyle option -> Gdk.GC.gdkLineStyle
+)
+ident(
+  ext_ref Gaux.default
+)
+"gDraw.ml" 92 3669 3691 "gDraw.ml" 92 3669 3692
+type(
+  Gdk.GC.values
+)
+ident(
+  int_ref v "gDraw.ml" 89 3557 3565 "gDraw.ml" 89 3557 3566
+)
+"gDraw.ml" 92 3669 3691 "gDraw.ml" 92 3669 3706
+type(
+  Gdk.GC.gdkLineStyle
+)
+"gDraw.ml" 92 3669 3712 "gDraw.ml" 92 3669 3717
+type(
+  Gdk.GC.gdkLineStyle option
+)
+ident(
+  int_ref style "gDraw.ml" 88 3498 3535 "gDraw.ml" 88 3498 3540
+)
+"gDraw.ml" 92 3669 3682 "gDraw.ml" 92 3669 3718
+call(
+  stack
+)
+type(
+  Gdk.GC.gdkLineStyle
+)
+"gDraw.ml" 93 3719 3731 "gDraw.ml" 93 3719 3738
+type(
+  Gdk.GC.gdkCapStyle -> opt:Gdk.GC.gdkCapStyle option -> Gdk.GC.gdkCapStyle
+)
+ident(
+  ext_ref Gaux.default
+)
+"gDraw.ml" 93 3719 3739 "gDraw.ml" 93 3719 3740
+type(
+  Gdk.GC.values
+)
+ident(
+  int_ref v "gDraw.ml" 89 3557 3565 "gDraw.ml" 89 3557 3566
+)
+"gDraw.ml" 93 3719 3739 "gDraw.ml" 93 3719 3753
+type(
+  Gdk.GC.gdkCapStyle
+)
+"gDraw.ml" 93 3719 3759 "gDraw.ml" 93 3719 3762
+type(
+  Gdk.GC.gdkCapStyle option
+)
+ident(
+  int_ref cap "gDraw.ml" 88 3498 3542 "gDraw.ml" 88 3498 3545
+)
+"gDraw.ml" 93 3719 3730 "gDraw.ml" 93 3719 3763
+call(
+  stack
+)
+type(
+  Gdk.GC.gdkCapStyle
+)
+"gDraw.ml" 94 3764 3777 "gDraw.ml" 94 3764 3784
+type(
+  Gdk.GC.gdkJoinStyle ->
+  opt:Gdk.GC.gdkJoinStyle option -> Gdk.GC.gdkJoinStyle
+)
+ident(
+  ext_ref Gaux.default
+)
+"gDraw.ml" 94 3764 3785 "gDraw.ml" 94 3764 3786
+type(
+  Gdk.GC.values
+)
+ident(
+  int_ref v "gDraw.ml" 89 3557 3565 "gDraw.ml" 89 3557 3566
+)
+"gDraw.ml" 94 3764 3785 "gDraw.ml" 94 3764 3800
+type(
+  Gdk.GC.gdkJoinStyle
+)
+"gDraw.ml" 94 3764 3806 "gDraw.ml" 94 3764 3810
+type(
+  Gdk.GC.gdkJoinStyle option
+)
+ident(
+  int_ref join "gDraw.ml" 88 3498 3547 "gDraw.ml" 88 3498 3551
+)
+"gDraw.ml" 94 3764 3776 "gDraw.ml" 94 3764 3811
+call(
+  stack
+)
+type(
+  Gdk.GC.gdkJoinStyle
+)
+"gDraw.ml" 90 3589 3593 "gDraw.ml" 94 3764 3811
+call(
+  tail
+)
+type(
+  unit
+)
+"gDraw.ml" 89 3557 3561 "gDraw.ml" 94 3764 3811
+type(
+  unit
+)
+"gDraw.ml" 95 3812 3829 "gDraw.ml" 95 3812 3839
+type(
+  'a Gobject.obj -> Gdk.gc -> x:int -> y:int -> unit
+)
+ident(
+  ext_ref Gdk.Draw.point
+)
+"gDraw.ml" 95 3812 3840 "gDraw.ml" 95 3812 3841
+type(
+  'a Gobject.obj
+)
+"gDraw.ml" 95 3812 3842 "gDraw.ml" 95 3812 3844
+type(
+  Gdk.gc
+)
+"gDraw.ml" 95 3812 3829 "gDraw.ml" 95 3812 3844
+call(
+  tail
+)
+type(
+  x:int -> y:int -> unit
+)
+type(
+  x:int -> y:int -> unit
+)
+"gDraw.ml" 96 3845 3861 "gDraw.ml" 96 3845 3870
+type(
+  'a Gobject.obj -> Gdk.gc -> x:int -> y:int -> x:int -> y:int -> unit
+)
+ident(
+  ext_ref Gdk.Draw.line
+)
+"gDraw.ml" 96 3845 3871 "gDraw.ml" 96 3845 3872
+type(
+  'a Gobject.obj
+)
+"gDraw.ml" 96 3845 3873 "gDraw.ml" 96 3845 3875
+type(
+  Gdk.gc
+)
+"gDraw.ml" 96 3845 3861 "gDraw.ml" 96 3845 3875
+call(
+  tail
+)
+type(
+  x:int -> y:int -> x:int -> y:int -> unit
+)
+type(
+  x:int -> y:int -> x:int -> y:int -> unit
+)
+"gDraw.ml" 97 3876 3897 "gDraw.ml" 97 3876 3911
+type(
+  'a Gobject.obj ->
+  Gdk.gc ->
+  x:int -> y:int -> width:int -> height:int -> ?filled:bool -> unit -> unit
+)
+ident(
+  ext_ref Gdk.Draw.rectangle
+)
+"gDraw.ml" 97 3876 3912 "gDraw.ml" 97 3876 3913
+type(
+  'a Gobject.obj
+)
+"gDraw.ml" 97 3876 3914 "gDraw.ml" 97 3876 3916
+type(
+  Gdk.gc
+)
+"gDraw.ml" 97 3876 3897 "gDraw.ml" 97 3876 3916
+call(
+  tail
+)
+type(
+  x:int -> y:int -> width:int -> height:int -> ?filled:bool -> unit -> unit
+)
+type(
+  x:int -> y:int -> width:int -> height:int -> ?filled:bool -> unit -> unit
+)
+"gDraw.ml" 98 3917 3932 "gDraw.ml" 98 3917 3940
+type(
+  'a Gobject.obj ->
+  Gdk.gc ->
+  x:int ->
+  y:int ->
+  width:int ->
+  height:int -> ?filled:bool -> ?start:float -> ?angle:float -> unit -> unit
+)
+ident(
+  ext_ref Gdk.Draw.arc
+)
+"gDraw.ml" 98 3917 3941 "gDraw.ml" 98 3917 3942
+type(
+  'a Gobject.obj
+)
+"gDraw.ml" 98 3917 3943 "gDraw.ml" 98 3917 3945
+type(
+  Gdk.gc
+)
+"gDraw.ml" 98 3917 3932 "gDraw.ml" 98 3917 3945
+call(
+  tail
+)
+type(
+  x:int ->
+  y:int ->
+  width:int ->
+  height:int -> ?filled:bool -> ?start:float -> ?angle:float -> unit -> unit
+)
+type(
+  x:int ->
+  y:int ->
+  width:int ->
+  height:int -> ?filled:bool -> ?start:float -> ?angle:float -> unit -> unit
+)
+"gDraw.ml" 99 3946 3965 "gDraw.ml" 99 3946 3977
+type(
+  'a Gobject.obj -> Gdk.gc -> ?filled:bool -> (int * int) list -> unit
+)
+ident(
+  ext_ref Gdk.Draw.polygon
+)
+"gDraw.ml" 99 3946 3978 "gDraw.ml" 99 3946 3979
+type(
+  'a Gobject.obj
+)
+"gDraw.ml" 99 3946 3980 "gDraw.ml" 99 3946 3982
+type(
+  Gdk.gc
+)
+"gDraw.ml" 99 3946 3965 "gDraw.ml" 99 3946 3982
+call(
+  tail
+)
+type(
+  ?filled:bool -> (int * int) list -> unit
+)
+type(
+  ?filled:bool -> (int * int) list -> unit
+)
+"gDraw.ml" 100 3983 3999 "gDraw.ml" 100 3983 4000
+type(
+  string
+)
+ident(
+  def s "gDraw.ml" 100 3983 4003 "gDraw.ml" 100 3983 4021
+)
+"gDraw.ml" 100 3983 4003 "gDraw.ml" 100 3983 4014
+type(
+  'a Gobject.obj ->
+  font:Gdk.font -> Gdk.gc -> x:int -> y:int -> string -> unit
+)
+ident(
+  ext_ref Gdk.Draw.string
+)
+"gDraw.ml" 100 3983 4015 "gDraw.ml" 100 3983 4016
+type(
+  'a Gobject.obj
+)
+"gDraw.ml" 100 3983 4017 "gDraw.ml" 100 3983 4019
+type(
+  Gdk.gc
+)
+"gDraw.ml" 100 3983 4020 "gDraw.ml" 100 3983 4021
+type(
+  string
+)
+ident(
+  int_ref s "gDraw.ml" 100 3983 3999 "gDraw.ml" 100 3983 4000
+)
+"gDraw.ml" 100 3983 4003 "gDraw.ml" 100 3983 4021
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  font:Gdk.font -> x:int -> y:int -> unit
+)
+"gDraw.ml" 101 4022 4043 "gDraw.ml" 101 4022 4044
+type(
+  int
+)
+ident(
+  def x "gDraw.ml" 101 4022 4045 "gDraw.ml" 103 4097 4166
+)
+"gDraw.ml" 101 4022 4046 "gDraw.ml" 101 4022 4047
+type(
+  int
+)
+ident(
+  def y "gDraw.ml" 101 4022 4048 "gDraw.ml" 103 4097 4166
+)
+"gDraw.ml" 101 4022 4049 "gDraw.ml" 101 4022 4053
+type(
+  color option
+)
+ident(
+  def fore "gDraw.ml" 101 4022 4054 "gDraw.ml" 103 4097 4166
+)
+"gDraw.ml" 101 4022 4055 "gDraw.ml" 101 4022 4059
+type(
+  color option
+)
+ident(
+  def back "gDraw.ml" 101 4022 4060 "gDraw.ml" 103 4097 4166
+)
+"gDraw.ml" 101 4022 4060 "gDraw.ml" 101 4022 4063
+type(
+  Pango.layout
+)
+ident(
+  def lay "gDraw.ml" 102 4066 4070 "gDraw.ml" 103 4097 4166
+)
+"gDraw.ml" 102 4066 4070 "gDraw.ml" 102 4066 4081
+type(
+  'a Gobject.obj ->
+  Gdk.gc ->
+  x:int ->
+  y:int -> Pango.layout -> ?fore:Gdk.color -> ?back:Gdk.color -> unit
+)
+ident(
+  ext_ref Gdk.Draw.layout
+)
+"gDraw.ml" 102 4066 4082 "gDraw.ml" 102 4066 4083
+type(
+  'a Gobject.obj
+)
+"gDraw.ml" 102 4066 4084 "gDraw.ml" 102 4066 4086
+type(
+  Gdk.gc
+)
+"gDraw.ml" 102 4066 4088 "gDraw.ml" 102 4066 4089
+type(
+  int
+)
+ident(
+  int_ref x "gDraw.ml" 101 4022 4043 "gDraw.ml" 101 4022 4044
+)
+"gDraw.ml" 102 4066 4091 "gDraw.ml" 102 4066 4092
+type(
+  int
+)
+ident(
+  int_ref y "gDraw.ml" 101 4022 4046 "gDraw.ml" 101 4022 4047
+)
+"gDraw.ml" 102 4066 4093 "gDraw.ml" 102 4066 4096
+type(
+  Pango.layout
+)
+ident(
+  int_ref lay "gDraw.ml" 101 4022 4060 "gDraw.ml" 101 4022 4063
+)
+"gDraw.ml" 103 4097 4110 "gDraw.ml" 103 4097 4117
+type(
+  f:(color -> Gdk.color) -> color option -> Gdk.color option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gDraw.ml" 103 4097 4118 "gDraw.ml" 103 4097 4122
+type(
+  'b
+)
+"gDraw.ml" 103 4097 4118 "gDraw.ml" 103 4097 4128
+call(
+  stack
+)
+type(
+  color -> Gdk.color
+)
+"gDraw.ml" 103 4097 4129 "gDraw.ml" 103 4097 4133
+type(
+  color option
+)
+ident(
+  int_ref fore "gDraw.ml" 101 4022 4049 "gDraw.ml" 101 4022 4053
+)
+"gDraw.ml" 103 4097 4109 "gDraw.ml" 103 4097 4134
+call(
+  stack
+)
+type(
+  Gdk.color option
+)
+"gDraw.ml" 103 4097 4142 "gDraw.ml" 103 4097 4149
+type(
+  f:(color -> Gdk.color) -> color option -> Gdk.color option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gDraw.ml" 103 4097 4150 "gDraw.ml" 103 4097 4154
+type(
+  'b
+)
+"gDraw.ml" 103 4097 4150 "gDraw.ml" 103 4097 4160
+call(
+  stack
+)
+type(
+  color -> Gdk.color
+)
+"gDraw.ml" 103 4097 4161 "gDraw.ml" 103 4097 4165
+type(
+  color option
+)
+ident(
+  int_ref back "gDraw.ml" 101 4022 4055 "gDraw.ml" 101 4022 4059
+)
+"gDraw.ml" 103 4097 4141 "gDraw.ml" 103 4097 4166
+call(
+  stack
+)
+type(
+  Gdk.color option
+)
+"gDraw.ml" 102 4066 4070 "gDraw.ml" 103 4097 4166
+call(
+  tail
+)
+type(
+  unit
+)
+"gDraw.ml" 104 4167 4187 "gDraw.ml" 104 4167 4188
+type(
+  int
+)
+ident(
+  def x "gDraw.ml" 104 4167 4189 "gDraw.ml" 104 4167 4227
+)
+"gDraw.ml" 104 4167 4190 "gDraw.ml" 104 4167 4191
+type(
+  int
+)
+ident(
+  def y "gDraw.ml" 104 4167 4194 "gDraw.ml" 104 4167 4227
+)
+"gDraw.ml" 104 4167 4194 "gDraw.ml" 104 4167 4204
+type(
+  'a Gobject.obj ->
+  Gdk.gc ->
+  ?xsrc:int ->
+  ?ysrc:int ->
+  ?xdest:int -> ?ydest:int -> ?width:int -> ?height:int -> Gdk.image -> unit
+)
+ident(
+  ext_ref Gdk.Draw.image
+)
+"gDraw.ml" 104 4167 4205 "gDraw.ml" 104 4167 4206
+type(
+  'a Gobject.obj
+)
+"gDraw.ml" 104 4167 4207 "gDraw.ml" 104 4167 4209
+type(
+  Gdk.gc
+)
+"gDraw.ml" 104 4167 4217 "gDraw.ml" 104 4167 4218
+type(
+  int
+)
+ident(
+  int_ref x "gDraw.ml" 104 4167 4187 "gDraw.ml" 104 4167 4188
+)
+"gDraw.ml" 104 4167 4226 "gDraw.ml" 104 4167 4227
+type(
+  int
+)
+ident(
+  int_ref y "gDraw.ml" 104 4167 4190 "gDraw.ml" 104 4167 4191
+)
+"gDraw.ml" 104 4167 4194 "gDraw.ml" 104 4167 4227
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  ?xsrc:int -> ?ysrc:int -> ?width:int -> ?height:int -> Gdk.image -> unit
+)
+"gDraw.ml" 105 4228 4249 "gDraw.ml" 105 4228 4250
+type(
+  int
+)
+ident(
+  def x "gDraw.ml" 105 4228 4251 "gDraw.ml" 105 4228 4290
+)
+"gDraw.ml" 105 4228 4252 "gDraw.ml" 105 4228 4253
+type(
+  int
+)
+ident(
+  def y "gDraw.ml" 105 4228 4256 "gDraw.ml" 105 4228 4290
+)
+"gDraw.ml" 105 4228 4256 "gDraw.ml" 105 4228 4267
+type(
+  'a Gobject.obj ->
+  Gdk.gc ->
+  ?xsrc:int ->
+  ?ysrc:int ->
+  ?xdest:int -> ?ydest:int -> ?width:int -> ?height:int -> Gdk.pixmap -> unit
+)
+ident(
+  ext_ref Gdk.Draw.pixmap
+)
+"gDraw.ml" 105 4228 4268 "gDraw.ml" 105 4228 4269
+type(
+  'a Gobject.obj
+)
+"gDraw.ml" 105 4228 4270 "gDraw.ml" 105 4228 4272
+type(
+  Gdk.gc
+)
+"gDraw.ml" 105 4228 4280 "gDraw.ml" 105 4228 4281
+type(
+  int
+)
+ident(
+  int_ref x "gDraw.ml" 105 4228 4249 "gDraw.ml" 105 4228 4250
+)
+"gDraw.ml" 105 4228 4289 "gDraw.ml" 105 4228 4290
+type(
+  int
+)
+ident(
+  int_ref y "gDraw.ml" 105 4228 4252 "gDraw.ml" 105 4228 4253
+)
+"gDraw.ml" 105 4228 4256 "gDraw.ml" 105 4228 4290
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  ?xsrc:int -> ?ysrc:int -> ?width:int -> ?height:int -> Gdk.pixmap -> unit
+)
+"gDraw.ml" 106 4291 4315 "gDraw.ml" 106 4291 4329
+type(
+  'a Gobject.obj ->
+  Gdk.gc ->
+  width:int ->
+  height:int ->
+  ?x:int ->
+  ?y:int ->
+  ?dither:Gdk.Tags.rgb_dither -> ?row_stride:int -> Gpointer.region -> unit
+)
+ident(
+  ext_ref Gdk.Rgb.draw_image
+)
+"gDraw.ml" 106 4291 4330 "gDraw.ml" 106 4291 4331
+type(
+  'a Gobject.obj
+)
+"gDraw.ml" 106 4291 4332 "gDraw.ml" 106 4291 4334
+type(
+  Gdk.gc
+)
+"gDraw.ml" 106 4291 4315 "gDraw.ml" 106 4291 4334
+call(
+  tail
+)
+type(
+  width:int ->
+  height:int ->
+  ?x:int ->
+  ?y:int ->
+  ?dither:Gdk.Tags.rgb_dither -> ?row_stride:int -> Gpointer.region -> unit
+)
+type(
+  width:int ->
+  height:int ->
+  ?x:int ->
+  ?y:int ->
+  ?dither:Gdk.Tags.rgb_dither -> ?row_stride:int -> Gpointer.region -> unit
+)
+"gDraw.ml" 107 4335 4356 "gDraw.ml" 107 4335 4357
+type(
+  int
+)
+ident(
+  def x "gDraw.ml" 107 4335 4358 "gDraw.ml" 107 4335 4409
+)
+"gDraw.ml" 107 4335 4359 "gDraw.ml" 107 4335 4360
+type(
+  int
+)
+ident(
+  def y "gDraw.ml" 107 4335 4363 "gDraw.ml" 107 4335 4409
+)
+"gDraw.ml" 107 4335 4363 "gDraw.ml" 107 4335 4384
+type(
+  'a Gobject.obj ->
+  Gdk.gc ->
+  ?dest_x:int ->
+  ?dest_y:int ->
+  ?width:int ->
+  ?height:int ->
+  ?dither:Gdk.Tags.rgb_dither ->
+  ?x_dither:int ->
+  ?y_dither:int -> ?src_x:int -> ?src_y:int -> GdkPixbuf.pixbuf -> unit
+)
+ident(
+  ext_ref GdkPixbuf.draw_pixbuf
+)
+"gDraw.ml" 107 4335 4385 "gDraw.ml" 107 4335 4386
+type(
+  'a Gobject.obj
+)
+"gDraw.ml" 107 4335 4387 "gDraw.ml" 107 4335 4389
+type(
+  Gdk.gc
+)
+"gDraw.ml" 107 4335 4398 "gDraw.ml" 107 4335 4399
+type(
+  int
+)
+ident(
+  int_ref x "gDraw.ml" 107 4335 4356 "gDraw.ml" 107 4335 4357
+)
+"gDraw.ml" 107 4335 4408 "gDraw.ml" 107 4335 4409
+type(
+  int
+)
+ident(
+  int_ref y "gDraw.ml" 107 4335 4359 "gDraw.ml" 107 4335 4360
+)
+"gDraw.ml" 107 4335 4363 "gDraw.ml" 107 4335 4409
+call(
+  tail
+)
+type(
+  ?width:int ->
+  ?height:int ->
+  ?dither:Gdk.Tags.rgb_dither ->
+  ?x_dither:int ->
+  ?y_dither:int -> ?src_x:int -> ?src_y:int -> GdkPixbuf.pixbuf -> unit
+)
+"gDraw.ml" 108 4410 4428 "gDraw.ml" 108 4410 4439
+type(
+  'a Gobject.obj -> Gdk.gc -> (int * int) list -> unit
+)
+ident(
+  ext_ref Gdk.Draw.points
+)
+"gDraw.ml" 108 4410 4440 "gDraw.ml" 108 4410 4441
+type(
+  'a Gobject.obj
+)
+"gDraw.ml" 108 4410 4442 "gDraw.ml" 108 4410 4444
+type(
+  Gdk.gc
+)
+"gDraw.ml" 108 4410 4428 "gDraw.ml" 108 4410 4444
+call(
+  tail
+)
+type(
+  (int * int) list -> unit
+)
+type(
+  (int * int) list -> unit
+)
+"gDraw.ml" 109 4445 4462 "gDraw.ml" 109 4445 4472
+type(
+  'a Gobject.obj -> Gdk.gc -> (int * int) list -> unit
+)
+ident(
+  ext_ref Gdk.Draw.lines
+)
+"gDraw.ml" 109 4445 4473 "gDraw.ml" 109 4445 4474
+type(
+  'a Gobject.obj
+)
+"gDraw.ml" 109 4445 4475 "gDraw.ml" 109 4445 4477
+type(
+  Gdk.gc
+)
+"gDraw.ml" 109 4445 4462 "gDraw.ml" 109 4445 4477
+call(
+  tail
+)
+type(
+  (int * int) list -> unit
+)
+type(
+  (int * int) list -> unit
+)
+"gDraw.ml" 110 4478 4498 "gDraw.ml" 110 4478 4511
+type(
+  'a Gobject.obj -> Gdk.gc -> ((int * int) * (int * int)) list -> unit
+)
+ident(
+  ext_ref Gdk.Draw.segments
+)
+"gDraw.ml" 110 4478 4512 "gDraw.ml" 110 4478 4513
+type(
+  'a Gobject.obj
+)
+"gDraw.ml" 110 4478 4514 "gDraw.ml" 110 4478 4516
+type(
+  Gdk.gc
+)
+"gDraw.ml" 110 4478 4498 "gDraw.ml" 110 4478 4516
+call(
+  tail
+)
+type(
+  ((int * int) * (int * int)) list -> unit
+)
+type(
+  ((int * int) * (int * int)) list -> unit
+)
+"gDraw.ml" 113 4522 4536 "gDraw.ml" 113 4522 4544
+type(
+  Gdk.colormap option
+)
+"gDraw.ml" 113 4522 4546 "gDraw.ml" 113 4522 4550
+type(
+  Gdk.bitmap option
+)
+"gDraw.ml" 113 4522 4551 "gDraw.ml" 113 4522 4553
+type(
+  Gdk.pixmap
+)
+"gDraw.ml" 114 4563 4583 "gDraw.ml" 114 4563 4591
+type(
+  Gdk.colormap option
+)
+ident(
+  int_ref colormap "gDraw.ml" 113 4522 4536 "gDraw.ml" 113 4522 4544
+)
+"gDraw.ml" 114 4563 4592 "gDraw.ml" 114 4563 4594
+type(
+  Gdk.pixmap
+)
+ident(
+  int_ref pm "gDraw.ml" 113 4522 4551 "gDraw.ml" 113 4522 4553
+)
+"gDraw.ml" 115 4605 4620 "gDraw.ml" 115 4605 4627
+type(
+  f:(Gdk.bitmap -> drawable) -> Gdk.bitmap option -> drawable option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gDraw.ml" 115 4605 4628 "gDraw.ml" 115 4605 4632
+type(
+  Gdk.bitmap option
+)
+ident(
+  int_ref mask "gDraw.ml" 113 4522 4546 "gDraw.ml" 113 4522 4550
+)
+"gDraw.ml" 116 4637 4653 "gDraw.ml" 116 4637 4654
+type(
+  Gdk.bitmap
+)
+ident(
+  def x "gDraw.ml" 117 4658 4666 "gDraw.ml" 119 4731 4743
+)
+"gDraw.ml" 117 4658 4670 "gDraw.ml" 117 4658 4674
+type(
+  drawable
+)
+"gDraw.ml" 117 4658 4677 "gDraw.ml" 117 4658 4689
+type(
+  ?colormap:Gdk.colormap -> Gdk.bitmap -> drawable
+)
+"gDraw.ml" 117 4658 4690 "gDraw.ml" 117 4658 4691
+type(
+  Gdk.bitmap
+)
+ident(
+  int_ref x "gDraw.ml" 116 4637 4653 "gDraw.ml" 116 4637 4654
+)
+"gDraw.ml" 117 4658 4677 "gDraw.ml" 117 4658 4691
+call(
+  stack
+)
+type(
+  drawable
+)
+"gDraw.ml" 118 4695 4703 "gDraw.ml" 118 4695 4707
+type(
+  drawable
+)
+ident(
+  int_ref mask "gDraw.ml" 117 4658 4670 "gDraw.ml" 117 4658 4674
+)
+"gDraw.ml" 118 4695 4703 "gDraw.ml" 118 4695 4722
+call(
+  stack
+)
+type(
+  color -> unit
+)
+"gDraw.ml" 118 4695 4723 "gDraw.ml" 118 4695 4729
+type(
+  color
+)
+"gDraw.ml" 118 4695 4703 "gDraw.ml" 118 4695 4729
+type(
+  unit
+)
+"gDraw.ml" 119 4731 4739 "gDraw.ml" 119 4731 4743
+type(
+  drawable
+)
+ident(
+  int_ref mask "gDraw.ml" 117 4658 4670 "gDraw.ml" 117 4658 4674
+)
+"gDraw.ml" 118 4695 4703 "gDraw.ml" 119 4731 4743
+type(
+  drawable
+)
+"gDraw.ml" 117 4658 4666 "gDraw.ml" 119 4731 4743
+type(
+  drawable
+)
+"gDraw.ml" 116 4637 4643 "gDraw.ml" 120 4744 4753
+type(
+  Gdk.bitmap -> drawable
+)
+"gDraw.ml" 115 4605 4620 "gDraw.ml" 120 4744 4753
+call(
+  stack
+)
+type(
+  drawable option
+)
+"gDraw.ml" 121 4754 4787 "gDraw.ml" 121 4754 4791
+type(
+  Gdk.bitmap option
+)
+type(
+  Gdk.bitmap option
+)
+ident(
+  int_ref mask "gDraw.ml" 113 4522 4546 "gDraw.ml" 113 4522 4550
+)
+"gDraw.ml" 122 4792 4823 "gDraw.ml" 122 4792 4824
+type(
+  Gdk.pixmap
+)
+type(
+  Gdk.pixmap
+)
+"gDraw.ml" 123 4825 4841 "gDraw.ml" 123 4825 4845
+type(
+  Gdk.bitmap option
+)
+type(
+  Gdk.bitmap option
+)
+"gDraw.ml" 124 4846 4876 "gDraw.ml" 124 4846 4881
+type(
+  int option
+)
+ident(
+  def width "gDraw.ml" 124 4846 4882 "gDraw.ml" 126 4965 5043
+)
+"gDraw.ml" 124 4846 4883 "gDraw.ml" 124 4846 4888
+type(
+  Gdk.GC.gdkLineStyle option
+)
+ident(
+  def style "gDraw.ml" 124 4846 4889 "gDraw.ml" 126 4965 5043
+)
+"gDraw.ml" 124 4846 4890 "gDraw.ml" 124 4846 4893
+type(
+  Gdk.GC.gdkCapStyle option
+)
+ident(
+  def cap "gDraw.ml" 124 4846 4894 "gDraw.ml" 126 4965 5043
+)
+"gDraw.ml" 124 4846 4895 "gDraw.ml" 124 4846 4899
+type(
+  Gdk.GC.gdkJoinStyle option
+)
+ident(
+  def join "gDraw.ml" 124 4846 4900 "gDraw.ml" 126 4965 5043
+)
+"gDraw.ml" 124 4846 4900 "gDraw.ml" 124 4846 4902
+type(
+  unit
+)
+"gDraw.ml" 125 4905 4909 "gDraw.ml" 125 4905 4915
+type(
+  < arc : x:int ->
+          y:int ->
+          width:int ->
+          height:int ->
+          ?filled:bool -> ?start:float -> ?angle:float -> unit -> unit;
+    color : color -> Gdk.color; colormap : Gdk.colormap; depth : int;
+    gc : Gdk.gc; gc_values : Gdk.GC.values;
+    line : x:int -> y:int -> x:int -> y:int -> unit;
+    lines : (int * int) list -> unit; mask : Gdk.bitmap option;
+    pixmap : Gdk.pixmap; point : x:int -> y:int -> unit;
+    points : (int * int) list -> unit;
+    polygon : ?filled:bool -> (int * int) list -> unit;
+    put_image : x:int ->
+                y:int ->
+                ?xsrc:int ->
+                ?ysrc:int -> ?width:int -> ?height:int -> Gdk.image -> unit;
+    put_layout : x:int ->
+                 y:int -> ?fore:color -> ?back:color -> Pango.layout -> unit;
+    put_pixbuf : x:int ->
+                 y:int ->
+                 ?width:int ->
+                 ?height:int ->
+                 ?dither:Gdk.Tags.rgb_dither ->
+                 ?x_dither:int ->
+                 ?y_dither:int ->
+                 ?src_x:int -> ?src_y:int -> GdkPixbuf.pixbuf -> unit;
+    put_pixmap : x:int ->
+                 y:int ->
+                 ?xsrc:int ->
+                 ?ysrc:int -> ?width:int -> ?height:int -> Gdk.pixmap -> unit;
+    put_rgb_data : width:int ->
+                   height:int ->
+                   ?x:int ->
+                   ?y:int ->
+                   ?dither:Gdk.Tags.rgb_dither ->
+                   ?row_stride:int -> Gpointer.region -> unit;
+    rectangle : x:int ->
+                y:int ->
+                width:int -> height:int -> ?filled:bool -> unit -> unit;
+    segments : ((int * int) * (int * int)) list -> unit;
+    set_background : color -> unit; set_clip_mask : Gdk.bitmap -> unit;
+    set_clip_origin : x:int -> y:int -> unit;
+    set_clip_rectangle : Gdk.Rectangle.t -> unit;
+    set_clip_region : Gdk.region -> unit; set_foreground : color -> unit;
+    set_gc : Gdk.gc -> unit;
+    set_line_attributes : ?width:int ->
+                          ?style:Gdk.GC.gdkLineStyle ->
+                          ?cap:Gdk.GC.gdkCapStyle ->
+                          ?join:Gdk.GC.gdkJoinStyle -> unit -> unit;
+    size : int * int;
+    string : string -> font:Gdk.font -> x:int -> y:int -> unit; .. >
+)
+"gDraw.ml" 125 4905 4909 "gDraw.ml" 125 4905 4935
+type(
+  ?width:int ->
+  ?style:Gdk.GC.gdkLineStyle ->
+  ?cap:Gdk.GC.gdkCapStyle -> ?join:Gdk.GC.gdkJoinStyle -> unit -> unit
+)
+"gDraw.ml" 125 4905 4937 "gDraw.ml" 125 4905 4942
+type(
+  int option
+)
+ident(
+  int_ref width "gDraw.ml" 124 4846 4876 "gDraw.ml" 124 4846 4881
+)
+"gDraw.ml" 125 4905 4944 "gDraw.ml" 125 4905 4949
+type(
+  Gdk.GC.gdkLineStyle option
+)
+ident(
+  int_ref style "gDraw.ml" 124 4846 4883 "gDraw.ml" 124 4846 4888
+)
+"gDraw.ml" 125 4905 4951 "gDraw.ml" 125 4905 4954
+type(
+  Gdk.GC.gdkCapStyle option
+)
+ident(
+  int_ref cap "gDraw.ml" 124 4846 4890 "gDraw.ml" 124 4846 4893
+)
+"gDraw.ml" 125 4905 4956 "gDraw.ml" 125 4905 4960
+type(
+  Gdk.GC.gdkJoinStyle option
+)
+ident(
+  int_ref join "gDraw.ml" 124 4846 4895 "gDraw.ml" 124 4846 4899
+)
+"gDraw.ml" 125 4905 4961 "gDraw.ml" 125 4905 4963
+type(
+  unit
+)
+"gDraw.ml" 125 4905 4909 "gDraw.ml" 125 4905 4963
+call(
+  stack
+)
+type(
+  unit
+)
+"gDraw.ml" 126 4965 4969 "gDraw.ml" 126 4965 4972
+type(
+  f:(drawable -> unit) -> drawable option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gDraw.ml" 126 4965 4973 "gDraw.ml" 126 4965 4979
+type(
+  drawable option
+)
+"gDraw.ml" 126 4965 4988 "gDraw.ml" 126 4965 4989
+type(
+  drawable
+)
+ident(
+  def m "gDraw.ml" 126 4965 4993 "gDraw.ml" 126 4965 5042
+)
+"gDraw.ml" 126 4965 4993 "gDraw.ml" 126 4965 4994
+type(
+  drawable
+)
+ident(
+  int_ref m "gDraw.ml" 126 4965 4988 "gDraw.ml" 126 4965 4989
+)
+"gDraw.ml" 126 4965 4993 "gDraw.ml" 126 4965 5014
+call(
+  tail
+)
+type(
+  ?width:int ->
+  ?style:Gdk.GC.gdkLineStyle ->
+  ?cap:Gdk.GC.gdkCapStyle -> ?join:Gdk.GC.gdkJoinStyle -> unit -> unit
+)
+"gDraw.ml" 126 4965 5016 "gDraw.ml" 126 4965 5021
+type(
+  int option
+)
+ident(
+  int_ref width "gDraw.ml" 124 4846 4876 "gDraw.ml" 124 4846 4881
+)
+"gDraw.ml" 126 4965 5023 "gDraw.ml" 126 4965 5028
+type(
+  Gdk.GC.gdkLineStyle option
+)
+ident(
+  int_ref style "gDraw.ml" 124 4846 4883 "gDraw.ml" 124 4846 4888
+)
+"gDraw.ml" 126 4965 5030 "gDraw.ml" 126 4965 5033
+type(
+  Gdk.GC.gdkCapStyle option
+)
+ident(
+  int_ref cap "gDraw.ml" 124 4846 4890 "gDraw.ml" 124 4846 4893
+)
+"gDraw.ml" 126 4965 5035 "gDraw.ml" 126 4965 5039
+type(
+  Gdk.GC.gdkJoinStyle option
+)
+ident(
+  int_ref join "gDraw.ml" 124 4846 4895 "gDraw.ml" 124 4846 4899
+)
+"gDraw.ml" 126 4965 5040 "gDraw.ml" 126 4965 5042
+type(
+  unit
+)
+"gDraw.ml" 126 4965 4993 "gDraw.ml" 126 4965 5042
+type(
+  unit
+)
+"gDraw.ml" 126 4965 4983 "gDraw.ml" 126 4965 5043
+type(
+  drawable -> unit
+)
+"gDraw.ml" 126 4965 4969 "gDraw.ml" 126 4965 5043
+call(
+  tail
+)
+type(
+  unit
+)
+"gDraw.ml" 125 4905 4909 "gDraw.ml" 126 4965 5043
+type(
+  unit
+)
+"gDraw.ml" 127 5044 5060 "gDraw.ml" 127 5044 5061
+type(
+  int
+)
+ident(
+  def x "gDraw.ml" 127 5044 5062 "gDraw.ml" 129 5091 5133
+)
+"gDraw.ml" 127 5044 5063 "gDraw.ml" 127 5044 5064
+type(
+  int
+)
+ident(
+  def y "gDraw.ml" 128 5067 5071 "gDraw.ml" 129 5091 5133
+)
+"gDraw.ml" 128 5067 5071 "gDraw.ml" 128 5067 5077
+type(
+  < arc : x:int ->
+          y:int ->
+          width:int ->
+          height:int ->
+          ?filled:bool -> ?start:float -> ?angle:float -> unit -> unit;
+    color : color -> Gdk.color; colormap : Gdk.colormap; depth : int;
+    gc : Gdk.gc; gc_values : Gdk.GC.values;
+    line : x:int -> y:int -> x:int -> y:int -> unit;
+    lines : (int * int) list -> unit; mask : Gdk.bitmap option;
+    pixmap : Gdk.pixmap; point : x:int -> y:int -> unit;
+    points : (int * int) list -> unit;
+    polygon : ?filled:bool -> (int * int) list -> unit;
+    put_image : x:int ->
+                y:int ->
+                ?xsrc:int ->
+                ?ysrc:int -> ?width:int -> ?height:int -> Gdk.image -> unit;
+    put_layout : x:int ->
+                 y:int -> ?fore:color -> ?back:color -> Pango.layout -> unit;
+    put_pixbuf : x:int ->
+                 y:int ->
+                 ?width:int ->
+                 ?height:int ->
+                 ?dither:Gdk.Tags.rgb_dither ->
+                 ?x_dither:int ->
+                 ?y_dither:int ->
+                 ?src_x:int -> ?src_y:int -> GdkPixbuf.pixbuf -> unit;
+    put_pixmap : x:int ->
+                 y:int ->
+                 ?xsrc:int ->
+                 ?ysrc:int -> ?width:int -> ?height:int -> Gdk.pixmap -> unit;
+    put_rgb_data : width:int ->
+                   height:int ->
+                   ?x:int ->
+                   ?y:int ->
+                   ?dither:Gdk.Tags.rgb_dither ->
+                   ?row_stride:int -> Gpointer.region -> unit;
+    rectangle : x:int ->
+                y:int ->
+                width:int -> height:int -> ?filled:bool -> unit -> unit;
+    segments : ((int * int) * (int * int)) list -> unit;
+    set_background : color -> unit; set_clip_mask : Gdk.bitmap -> unit;
+    set_clip_origin : x:int -> y:int -> unit;
+    set_clip_rectangle : Gdk.Rectangle.t -> unit;
+    set_clip_region : Gdk.region -> unit; set_foreground : color -> unit;
+    set_gc : Gdk.gc -> unit;
+    set_line_attributes : ?width:int ->
+                          ?style:Gdk.GC.gdkLineStyle ->
+                          ?cap:Gdk.GC.gdkCapStyle ->
+                          ?join:Gdk.GC.gdkJoinStyle -> unit -> unit;
+    size : int * int;
+    string : string -> font:Gdk.font -> x:int -> y:int -> unit; .. >
+  as 'a
+)
+"gDraw.ml" 128 5067 5071 "gDraw.ml" 128 5067 5083
+type(
+  x:int -> y:int -> unit
+)
+"gDraw.ml" 128 5067 5085 "gDraw.ml" 128 5067 5086
+type(
+  int
+)
+ident(
+  int_ref x "gDraw.ml" 127 5044 5060 "gDraw.ml" 127 5044 5061
+)
+"gDraw.ml" 128 5067 5088 "gDraw.ml" 128 5067 5089
+type(
+  int
+)
+ident(
+  int_ref y "gDraw.ml" 127 5044 5063 "gDraw.ml" 127 5044 5064
+)
+"gDraw.ml" 128 5067 5071 "gDraw.ml" 128 5067 5089
+call(
+  stack
+)
+type(
+  unit
+)
+"gDraw.ml" 129 5091 5095 "gDraw.ml" 129 5091 5098
+type(
+  f:(drawable -> unit) -> drawable option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gDraw.ml" 129 5091 5099 "gDraw.ml" 129 5091 5105
+type(
+  drawable option
+)
+"gDraw.ml" 129 5091 5114 "gDraw.ml" 129 5091 5115
+type(
+  drawable
+)
+ident(
+  def m "gDraw.ml" 129 5091 5119 "gDraw.ml" 129 5091 5132
+)
+"gDraw.ml" 129 5091 5119 "gDraw.ml" 129 5091 5120
+type(
+  drawable
+)
+ident(
+  int_ref m "gDraw.ml" 129 5091 5114 "gDraw.ml" 129 5091 5115
+)
+"gDraw.ml" 129 5091 5119 "gDraw.ml" 129 5091 5126
+call(
+  tail
+)
+type(
+  x:int -> y:int -> unit
+)
+"gDraw.ml" 129 5091 5128 "gDraw.ml" 129 5091 5129
+type(
+  int
+)
+ident(
+  int_ref x "gDraw.ml" 127 5044 5060 "gDraw.ml" 127 5044 5061
+)
+"gDraw.ml" 129 5091 5131 "gDraw.ml" 129 5091 5132
+type(
+  int
+)
+ident(
+  int_ref y "gDraw.ml" 127 5044 5063 "gDraw.ml" 127 5044 5064
+)
+"gDraw.ml" 129 5091 5119 "gDraw.ml" 129 5091 5132
+type(
+  unit
+)
+"gDraw.ml" 129 5091 5109 "gDraw.ml" 129 5091 5133
+type(
+  drawable -> unit
+)
+"gDraw.ml" 129 5091 5095 "gDraw.ml" 129 5091 5133
+call(
+  tail
+)
+type(
+  unit
+)
+"gDraw.ml" 128 5067 5071 "gDraw.ml" 129 5091 5133
+type(
+  unit
+)
+"gDraw.ml" 130 5134 5149 "gDraw.ml" 130 5134 5150
+type(
+  int
+)
+ident(
+  def x "gDraw.ml" 130 5134 5151 "gDraw.ml" 132 5203 5256
+)
+"gDraw.ml" 130 5134 5152 "gDraw.ml" 130 5134 5153
+type(
+  int
+)
+ident(
+  def y "gDraw.ml" 130 5134 5154 "gDraw.ml" 132 5203 5256
+)
+"gDraw.ml" 130 5134 5157 "gDraw.ml" 130 5134 5159
+type(
+  int
+)
+ident(
+  def x' "gDraw.ml" 130 5134 5160 "gDraw.ml" 132 5203 5256
+)
+"gDraw.ml" 130 5134 5163 "gDraw.ml" 130 5134 5165
+type(
+  int
+)
+ident(
+  def y' "gDraw.ml" 131 5168 5172 "gDraw.ml" 132 5203 5256
+)
+"gDraw.ml" 131 5168 5172 "gDraw.ml" 131 5168 5178
+type(
+  'a
+)
+"gDraw.ml" 131 5168 5172 "gDraw.ml" 131 5168 5183
+type(
+  x:int -> y:int -> x:int -> y:int -> unit
+)
+"gDraw.ml" 131 5168 5185 "gDraw.ml" 131 5168 5186
+type(
+  int
+)
+ident(
+  int_ref x "gDraw.ml" 130 5134 5149 "gDraw.ml" 130 5134 5150
+)
+"gDraw.ml" 131 5168 5188 "gDraw.ml" 131 5168 5189
+type(
+  int
+)
+ident(
+  int_ref y "gDraw.ml" 130 5134 5152 "gDraw.ml" 130 5134 5153
+)
+"gDraw.ml" 131 5168 5193 "gDraw.ml" 131 5168 5195
+type(
+  int
+)
+ident(
+  int_ref x' "gDraw.ml" 130 5134 5157 "gDraw.ml" 130 5134 5159
+)
+"gDraw.ml" 131 5168 5199 "gDraw.ml" 131 5168 5201
+type(
+  int
+)
+ident(
+  int_ref y' "gDraw.ml" 130 5134 5163 "gDraw.ml" 130 5134 5165
+)
+"gDraw.ml" 131 5168 5172 "gDraw.ml" 131 5168 5201
+call(
+  stack
+)
+type(
+  unit
+)
+"gDraw.ml" 132 5203 5207 "gDraw.ml" 132 5203 5210
+type(
+  f:(drawable -> unit) -> drawable option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gDraw.ml" 132 5203 5211 "gDraw.ml" 132 5203 5217
+type(
+  drawable option
+)
+"gDraw.ml" 132 5203 5226 "gDraw.ml" 132 5203 5227
+type(
+  drawable
+)
+ident(
+  def m "gDraw.ml" 132 5203 5231 "gDraw.ml" 132 5203 5255
+)
+"gDraw.ml" 132 5203 5231 "gDraw.ml" 132 5203 5232
+type(
+  drawable
+)
+ident(
+  int_ref m "gDraw.ml" 132 5203 5226 "gDraw.ml" 132 5203 5227
+)
+"gDraw.ml" 132 5203 5231 "gDraw.ml" 132 5203 5237
+call(
+  tail
+)
+type(
+  x:int -> y:int -> x:int -> y:int -> unit
+)
+"gDraw.ml" 132 5203 5239 "gDraw.ml" 132 5203 5240
+type(
+  int
+)
+ident(
+  int_ref x "gDraw.ml" 130 5134 5149 "gDraw.ml" 130 5134 5150
+)
+"gDraw.ml" 132 5203 5242 "gDraw.ml" 132 5203 5243
+type(
+  int
+)
+ident(
+  int_ref y "gDraw.ml" 130 5134 5152 "gDraw.ml" 130 5134 5153
+)
+"gDraw.ml" 132 5203 5247 "gDraw.ml" 132 5203 5249
+type(
+  int
+)
+ident(
+  int_ref x' "gDraw.ml" 130 5134 5157 "gDraw.ml" 130 5134 5159
+)
+"gDraw.ml" 132 5203 5253 "gDraw.ml" 132 5203 5255
+type(
+  int
+)
+ident(
+  int_ref y' "gDraw.ml" 130 5134 5163 "gDraw.ml" 130 5134 5165
+)
+"gDraw.ml" 132 5203 5231 "gDraw.ml" 132 5203 5255
+type(
+  unit
+)
+"gDraw.ml" 132 5203 5221 "gDraw.ml" 132 5203 5256
+type(
+  drawable -> unit
+)
+"gDraw.ml" 132 5203 5207 "gDraw.ml" 132 5203 5256
+call(
+  tail
+)
+type(
+  unit
+)
+"gDraw.ml" 131 5168 5172 "gDraw.ml" 132 5203 5256
+type(
+  unit
+)
+"gDraw.ml" 133 5257 5277 "gDraw.ml" 133 5257 5278
+type(
+  int
+)
+ident(
+  def x "gDraw.ml" 133 5257 5279 "gDraw.ml" 135 5364 5436
+)
+"gDraw.ml" 133 5257 5280 "gDraw.ml" 133 5257 5281
+type(
+  int
+)
+ident(
+  def y "gDraw.ml" 133 5257 5282 "gDraw.ml" 135 5364 5436
+)
+"gDraw.ml" 133 5257 5283 "gDraw.ml" 133 5257 5288
+type(
+  int
+)
+ident(
+  def width "gDraw.ml" 133 5257 5289 "gDraw.ml" 135 5364 5436
+)
+"gDraw.ml" 133 5257 5290 "gDraw.ml" 133 5257 5296
+type(
+  int
+)
+ident(
+  def height "gDraw.ml" 133 5257 5297 "gDraw.ml" 135 5364 5436
+)
+"gDraw.ml" 133 5257 5298 "gDraw.ml" 133 5257 5304
+type(
+  bool option
+)
+ident(
+  def filled "gDraw.ml" 133 5257 5305 "gDraw.ml" 135 5364 5436
+)
+"gDraw.ml" 133 5257 5305 "gDraw.ml" 133 5257 5307
+type(
+  unit
+)
+"gDraw.ml" 134 5310 5314 "gDraw.ml" 134 5310 5320
+type(
+  'a
+)
+"gDraw.ml" 134 5310 5314 "gDraw.ml" 134 5310 5330
+type(
+  x:int -> y:int -> width:int -> height:int -> ?filled:bool -> unit -> unit
+)
+"gDraw.ml" 134 5310 5332 "gDraw.ml" 134 5310 5333
+type(
+  int
+)
+ident(
+  int_ref x "gDraw.ml" 133 5257 5277 "gDraw.ml" 133 5257 5278
+)
+"gDraw.ml" 134 5310 5335 "gDraw.ml" 134 5310 5336
+type(
+  int
+)
+ident(
+  int_ref y "gDraw.ml" 133 5257 5280 "gDraw.ml" 133 5257 5281
+)
+"gDraw.ml" 134 5310 5338 "gDraw.ml" 134 5310 5343
+type(
+  int
+)
+ident(
+  int_ref width "gDraw.ml" 133 5257 5283 "gDraw.ml" 133 5257 5288
+)
+"gDraw.ml" 134 5310 5345 "gDraw.ml" 134 5310 5351
+type(
+  int
+)
+ident(
+  int_ref height "gDraw.ml" 133 5257 5290 "gDraw.ml" 133 5257 5296
+)
+"gDraw.ml" 134 5310 5353 "gDraw.ml" 134 5310 5359
+type(
+  bool option
+)
+ident(
+  int_ref filled "gDraw.ml" 133 5257 5298 "gDraw.ml" 133 5257 5304
+)
+"gDraw.ml" 134 5310 5360 "gDraw.ml" 134 5310 5362
+type(
+  unit
+)
+"gDraw.ml" 134 5310 5314 "gDraw.ml" 134 5310 5362
+call(
+  stack
+)
+type(
+  unit
+)
+"gDraw.ml" 135 5364 5368 "gDraw.ml" 135 5364 5371
+type(
+  f:(drawable -> unit) -> drawable option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gDraw.ml" 135 5364 5372 "gDraw.ml" 135 5364 5378
+type(
+  drawable option
+)
+"gDraw.ml" 135 5364 5387 "gDraw.ml" 135 5364 5388
+type(
+  drawable
+)
+ident(
+  def m "gDraw.ml" 135 5364 5392 "gDraw.ml" 135 5364 5435
+)
+"gDraw.ml" 135 5364 5392 "gDraw.ml" 135 5364 5393
+type(
+  drawable
+)
+ident(
+  int_ref m "gDraw.ml" 135 5364 5387 "gDraw.ml" 135 5364 5388
+)
+"gDraw.ml" 135 5364 5392 "gDraw.ml" 135 5364 5403
+call(
+  tail
+)
+type(
+  x:int -> y:int -> width:int -> height:int -> ?filled:bool -> unit -> unit
+)
+"gDraw.ml" 135 5364 5405 "gDraw.ml" 135 5364 5406
+type(
+  int
+)
+ident(
+  int_ref x "gDraw.ml" 133 5257 5277 "gDraw.ml" 133 5257 5278
+)
+"gDraw.ml" 135 5364 5408 "gDraw.ml" 135 5364 5409
+type(
+  int
+)
+ident(
+  int_ref y "gDraw.ml" 133 5257 5280 "gDraw.ml" 133 5257 5281
+)
+"gDraw.ml" 135 5364 5411 "gDraw.ml" 135 5364 5416
+type(
+  int
+)
+ident(
+  int_ref width "gDraw.ml" 133 5257 5283 "gDraw.ml" 133 5257 5288
+)
+"gDraw.ml" 135 5364 5418 "gDraw.ml" 135 5364 5424
+type(
+  int
+)
+ident(
+  int_ref height "gDraw.ml" 133 5257 5290 "gDraw.ml" 133 5257 5296
+)
+"gDraw.ml" 135 5364 5426 "gDraw.ml" 135 5364 5432
+type(
+  bool option
+)
+ident(
+  int_ref filled "gDraw.ml" 133 5257 5298 "gDraw.ml" 133 5257 5304
+)
+"gDraw.ml" 135 5364 5433 "gDraw.ml" 135 5364 5435
+type(
+  unit
+)
+"gDraw.ml" 135 5364 5392 "gDraw.ml" 135 5364 5435
+type(
+  unit
+)
+"gDraw.ml" 135 5364 5382 "gDraw.ml" 135 5364 5436
+type(
+  drawable -> unit
+)
+"gDraw.ml" 135 5364 5368 "gDraw.ml" 135 5364 5436
+call(
+  tail
+)
+type(
+  unit
+)
+"gDraw.ml" 134 5310 5314 "gDraw.ml" 135 5364 5436
+type(
+  unit
+)
+"gDraw.ml" 136 5437 5451 "gDraw.ml" 136 5437 5452
+type(
+  int
+)
+ident(
+  def x "gDraw.ml" 136 5437 5453 "gDraw.ml" 139 5575 5647
+)
+"gDraw.ml" 136 5437 5454 "gDraw.ml" 136 5437 5455
+type(
+  int
+)
+ident(
+  def y "gDraw.ml" 136 5437 5456 "gDraw.ml" 139 5575 5647
+)
+"gDraw.ml" 136 5437 5457 "gDraw.ml" 136 5437 5462
+type(
+  int
+)
+ident(
+  def width "gDraw.ml" 136 5437 5463 "gDraw.ml" 139 5575 5647
+)
+"gDraw.ml" 136 5437 5464 "gDraw.ml" 136 5437 5470
+type(
+  int
+)
+ident(
+  def height "gDraw.ml" 136 5437 5471 "gDraw.ml" 139 5575 5647
+)
+"gDraw.ml" 136 5437 5472 "gDraw.ml" 136 5437 5478
+type(
+  bool option
+)
+ident(
+  def filled "gDraw.ml" 136 5437 5479 "gDraw.ml" 139 5575 5647
+)
+"gDraw.ml" 136 5437 5480 "gDraw.ml" 136 5437 5485
+type(
+  float option
+)
+ident(
+  def start "gDraw.ml" 136 5437 5486 "gDraw.ml" 139 5575 5647
+)
+"gDraw.ml" 136 5437 5487 "gDraw.ml" 136 5437 5492
+type(
+  float option
+)
+ident(
+  def angle "gDraw.ml" 136 5437 5493 "gDraw.ml" 139 5575 5647
+)
+"gDraw.ml" 136 5437 5493 "gDraw.ml" 136 5437 5495
+type(
+  unit
+)
+"gDraw.ml" 137 5498 5502 "gDraw.ml" 137 5498 5508
+type(
+  'a
+)
+"gDraw.ml" 137 5498 5502 "gDraw.ml" 137 5498 5512
+type(
+  x:int ->
+  y:int ->
+  width:int ->
+  height:int -> ?filled:bool -> ?start:float -> ?angle:float -> unit -> unit
+)
+"gDraw.ml" 137 5498 5514 "gDraw.ml" 137 5498 5515
+type(
+  int
+)
+ident(
+  int_ref x "gDraw.ml" 136 5437 5451 "gDraw.ml" 136 5437 5452
+)
+"gDraw.ml" 137 5498 5517 "gDraw.ml" 137 5498 5518
+type(
+  int
+)
+ident(
+  int_ref y "gDraw.ml" 136 5437 5454 "gDraw.ml" 136 5437 5455
+)
+"gDraw.ml" 137 5498 5520 "gDraw.ml" 137 5498 5525
+type(
+  int
+)
+ident(
+  int_ref width "gDraw.ml" 136 5437 5457 "gDraw.ml" 136 5437 5462
+)
+"gDraw.ml" 137 5498 5527 "gDraw.ml" 137 5498 5533
+type(
+  int
+)
+ident(
+  int_ref height "gDraw.ml" 136 5437 5464 "gDraw.ml" 136 5437 5470
+)
+"gDraw.ml" 137 5498 5535 "gDraw.ml" 137 5498 5541
+type(
+  bool option
+)
+ident(
+  int_ref filled "gDraw.ml" 136 5437 5472 "gDraw.ml" 136 5437 5478
+)
+"gDraw.ml" 137 5498 5543 "gDraw.ml" 137 5498 5548
+type(
+  float option
+)
+ident(
+  int_ref start "gDraw.ml" 136 5437 5480 "gDraw.ml" 136 5437 5485
+)
+"gDraw.ml" 137 5498 5550 "gDraw.ml" 137 5498 5555
+type(
+  float option
+)
+ident(
+  int_ref angle "gDraw.ml" 136 5437 5487 "gDraw.ml" 136 5437 5492
+)
+"gDraw.ml" 137 5498 5556 "gDraw.ml" 137 5498 5558
+type(
+  unit
+)
+"gDraw.ml" 137 5498 5502 "gDraw.ml" 137 5498 5558
+call(
+  stack
+)
+type(
+  unit
+)
+"gDraw.ml" 138 5560 5564 "gDraw.ml" 138 5560 5567
+type(
+  f:(drawable -> unit) -> drawable option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gDraw.ml" 138 5560 5568 "gDraw.ml" 138 5560 5574
+type(
+  drawable option
+)
+"gDraw.ml" 139 5575 5589 "gDraw.ml" 139 5575 5590
+type(
+  drawable
+)
+ident(
+  def m "gDraw.ml" 139 5575 5594 "gDraw.ml" 139 5575 5645
+)
+"gDraw.ml" 139 5575 5594 "gDraw.ml" 139 5575 5595
+type(
+  drawable
+)
+ident(
+  int_ref m "gDraw.ml" 139 5575 5589 "gDraw.ml" 139 5575 5590
+)
+"gDraw.ml" 139 5575 5594 "gDraw.ml" 139 5575 5599
+call(
+  tail
+)
+type(
+  x:int ->
+  y:int ->
+  width:int ->
+  height:int -> ?filled:bool -> ?start:float -> ?angle:float -> unit -> unit
+)
+"gDraw.ml" 139 5575 5601 "gDraw.ml" 139 5575 5602
+type(
+  int
+)
+ident(
+  int_ref x "gDraw.ml" 136 5437 5451 "gDraw.ml" 136 5437 5452
+)
+"gDraw.ml" 139 5575 5604 "gDraw.ml" 139 5575 5605
+type(
+  int
+)
+ident(
+  int_ref y "gDraw.ml" 136 5437 5454 "gDraw.ml" 136 5437 5455
+)
+"gDraw.ml" 139 5575 5607 "gDraw.ml" 139 5575 5612
+type(
+  int
+)
+ident(
+  int_ref width "gDraw.ml" 136 5437 5457 "gDraw.ml" 136 5437 5462
+)
+"gDraw.ml" 139 5575 5614 "gDraw.ml" 139 5575 5620
+type(
+  int
+)
+ident(
+  int_ref height "gDraw.ml" 136 5437 5464 "gDraw.ml" 136 5437 5470
+)
+"gDraw.ml" 139 5575 5622 "gDraw.ml" 139 5575 5628
+type(
+  bool option
+)
+ident(
+  int_ref filled "gDraw.ml" 136 5437 5472 "gDraw.ml" 136 5437 5478
+)
+"gDraw.ml" 139 5575 5630 "gDraw.ml" 139 5575 5635
+type(
+  float option
+)
+ident(
+  int_ref start "gDraw.ml" 136 5437 5480 "gDraw.ml" 136 5437 5485
+)
+"gDraw.ml" 139 5575 5637 "gDraw.ml" 139 5575 5642
+type(
+  float option
+)
+ident(
+  int_ref angle "gDraw.ml" 136 5437 5487 "gDraw.ml" 136 5437 5492
+)
+"gDraw.ml" 139 5575 5643 "gDraw.ml" 139 5575 5645
+type(
+  unit
+)
+"gDraw.ml" 139 5575 5594 "gDraw.ml" 139 5575 5645
+type(
+  unit
+)
+"gDraw.ml" 139 5575 5584 "gDraw.ml" 139 5575 5646
+type(
+  drawable -> unit
+)
+"gDraw.ml" 138 5560 5564 "gDraw.ml" 139 5575 5647
+call(
+  tail
+)
+type(
+  unit
+)
+"gDraw.ml" 137 5498 5502 "gDraw.ml" 139 5575 5647
+type(
+  unit
+)
+"gDraw.ml" 140 5648 5666 "gDraw.ml" 140 5648 5672
+type(
+  bool option
+)
+ident(
+  def filled "gDraw.ml" 140 5648 5673 "gDraw.ml" 142 5707 5755
+)
+"gDraw.ml" 140 5648 5673 "gDraw.ml" 140 5648 5674
+type(
+  (int * int) list
+)
+ident(
+  def l "gDraw.ml" 141 5677 5681 "gDraw.ml" 142 5707 5755
+)
+"gDraw.ml" 141 5677 5681 "gDraw.ml" 141 5677 5687
+type(
+  'a
+)
+"gDraw.ml" 141 5677 5681 "gDraw.ml" 141 5677 5695
+type(
+  ?filled:bool -> (int * int) list -> unit
+)
+"gDraw.ml" 141 5677 5697 "gDraw.ml" 141 5677 5703
+type(
+  bool option
+)
+ident(
+  int_ref filled "gDraw.ml" 140 5648 5666 "gDraw.ml" 140 5648 5672
+)
+"gDraw.ml" 141 5677 5704 "gDraw.ml" 141 5677 5705
+type(
+  (int * int) list
+)
+ident(
+  int_ref l "gDraw.ml" 140 5648 5673 "gDraw.ml" 140 5648 5674
+)
+"gDraw.ml" 141 5677 5681 "gDraw.ml" 141 5677 5705
+call(
+  stack
+)
+type(
+  unit
+)
+"gDraw.ml" 142 5707 5711 "gDraw.ml" 142 5707 5714
+type(
+  f:(drawable -> unit) -> drawable option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gDraw.ml" 142 5707 5715 "gDraw.ml" 142 5707 5721
+type(
+  drawable option
+)
+"gDraw.ml" 142 5707 5730 "gDraw.ml" 142 5707 5731
+type(
+  drawable
+)
+ident(
+  def m "gDraw.ml" 142 5707 5735 "gDraw.ml" 142 5707 5754
+)
+"gDraw.ml" 142 5707 5735 "gDraw.ml" 142 5707 5736
+type(
+  drawable
+)
+ident(
+  int_ref m "gDraw.ml" 142 5707 5730 "gDraw.ml" 142 5707 5731
+)
+"gDraw.ml" 142 5707 5735 "gDraw.ml" 142 5707 5744
+call(
+  tail
+)
+type(
+  ?filled:bool -> (int * int) list -> unit
+)
+"gDraw.ml" 142 5707 5746 "gDraw.ml" 142 5707 5752
+type(
+  bool option
+)
+ident(
+  int_ref filled "gDraw.ml" 140 5648 5666 "gDraw.ml" 140 5648 5672
+)
+"gDraw.ml" 142 5707 5753 "gDraw.ml" 142 5707 5754
+type(
+  (int * int) list
+)
+ident(
+  int_ref l "gDraw.ml" 140 5648 5673 "gDraw.ml" 140 5648 5674
+)
+"gDraw.ml" 142 5707 5735 "gDraw.ml" 142 5707 5754
+type(
+  unit
+)
+"gDraw.ml" 142 5707 5725 "gDraw.ml" 142 5707 5755
+type(
+  drawable -> unit
+)
+"gDraw.ml" 142 5707 5711 "gDraw.ml" 142 5707 5755
+call(
+  tail
+)
+type(
+  unit
+)
+"gDraw.ml" 141 5677 5681 "gDraw.ml" 142 5707 5755
+type(
+  unit
+)
+"gDraw.ml" 143 5756 5772 "gDraw.ml" 143 5756 5773
+type(
+  string
+)
+ident(
+  def s "gDraw.ml" 143 5756 5774 "gDraw.ml" 145 5821 5872
+)
+"gDraw.ml" 143 5756 5775 "gDraw.ml" 143 5756 5779
+type(
+  Gdk.font
+)
+ident(
+  def font "gDraw.ml" 143 5756 5780 "gDraw.ml" 145 5821 5872
+)
+"gDraw.ml" 143 5756 5781 "gDraw.ml" 143 5756 5782
+type(
+  int
+)
+ident(
+  def x "gDraw.ml" 143 5756 5783 "gDraw.ml" 145 5821 5872
+)
+"gDraw.ml" 143 5756 5784 "gDraw.ml" 143 5756 5785
+type(
+  int
+)
+ident(
+  def y "gDraw.ml" 144 5788 5792 "gDraw.ml" 145 5821 5872
+)
+"gDraw.ml" 144 5788 5792 "gDraw.ml" 144 5788 5798
+type(
+  'a
+)
+"gDraw.ml" 144 5788 5792 "gDraw.ml" 144 5788 5805
+type(
+  string -> font:Gdk.font -> x:int -> y:int -> unit
+)
+"gDraw.ml" 144 5788 5806 "gDraw.ml" 144 5788 5807
+type(
+  string
+)
+ident(
+  int_ref s "gDraw.ml" 143 5756 5772 "gDraw.ml" 143 5756 5773
+)
+"gDraw.ml" 144 5788 5809 "gDraw.ml" 144 5788 5813
+type(
+  Gdk.font
+)
+ident(
+  int_ref font "gDraw.ml" 143 5756 5775 "gDraw.ml" 143 5756 5779
+)
+"gDraw.ml" 144 5788 5815 "gDraw.ml" 144 5788 5816
+type(
+  int
+)
+ident(
+  int_ref x "gDraw.ml" 143 5756 5781 "gDraw.ml" 143 5756 5782
+)
+"gDraw.ml" 144 5788 5818 "gDraw.ml" 144 5788 5819
+type(
+  int
+)
+ident(
+  int_ref y "gDraw.ml" 143 5756 5784 "gDraw.ml" 143 5756 5785
+)
+"gDraw.ml" 144 5788 5792 "gDraw.ml" 144 5788 5819
+call(
+  stack
+)
+type(
+  unit
+)
+"gDraw.ml" 145 5821 5825 "gDraw.ml" 145 5821 5828
+type(
+  f:(drawable -> unit) -> drawable option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gDraw.ml" 145 5821 5829 "gDraw.ml" 145 5821 5835
+type(
+  drawable option
+)
+"gDraw.ml" 145 5821 5844 "gDraw.ml" 145 5821 5845
+type(
+  drawable
+)
+ident(
+  def m "gDraw.ml" 145 5821 5849 "gDraw.ml" 145 5821 5871
+)
+"gDraw.ml" 145 5821 5849 "gDraw.ml" 145 5821 5850
+type(
+  drawable
+)
+ident(
+  int_ref m "gDraw.ml" 145 5821 5844 "gDraw.ml" 145 5821 5845
+)
+"gDraw.ml" 145 5821 5849 "gDraw.ml" 145 5821 5857
+call(
+  tail
+)
+type(
+  string -> font:Gdk.font -> x:int -> y:int -> unit
+)
+"gDraw.ml" 145 5821 5858 "gDraw.ml" 145 5821 5859
+type(
+  string
+)
+ident(
+  int_ref s "gDraw.ml" 143 5756 5772 "gDraw.ml" 143 5756 5773
+)
+"gDraw.ml" 145 5821 5861 "gDraw.ml" 145 5821 5865
+type(
+  Gdk.font
+)
+ident(
+  int_ref font "gDraw.ml" 143 5756 5775 "gDraw.ml" 143 5756 5779
+)
+"gDraw.ml" 145 5821 5867 "gDraw.ml" 145 5821 5868
+type(
+  int
+)
+ident(
+  int_ref x "gDraw.ml" 143 5756 5781 "gDraw.ml" 143 5756 5782
+)
+"gDraw.ml" 145 5821 5870 "gDraw.ml" 145 5821 5871
+type(
+  int
+)
+ident(
+  int_ref y "gDraw.ml" 143 5756 5784 "gDraw.ml" 143 5756 5785
+)
+"gDraw.ml" 145 5821 5849 "gDraw.ml" 145 5821 5871
+type(
+  unit
+)
+"gDraw.ml" 145 5821 5839 "gDraw.ml" 145 5821 5872
+type(
+  drawable -> unit
+)
+"gDraw.ml" 145 5821 5825 "gDraw.ml" 145 5821 5872
+call(
+  tail
+)
+type(
+  unit
+)
+"gDraw.ml" 144 5788 5792 "gDraw.ml" 145 5821 5872
+type(
+  unit
+)
+"gDraw.ml" 146 5873 5889 "gDraw.ml" 146 5873 5892
+type(
+  (int * int) list
+)
+ident(
+  def pts "gDraw.ml" 146 5873 5895 "gDraw.ml" 146 5873 5951
+)
+"gDraw.ml" 146 5873 5895 "gDraw.ml" 146 5873 5901
+type(
+  'a
+)
+"gDraw.ml" 146 5873 5895 "gDraw.ml" 146 5873 5908
+type(
+  (int * int) list -> unit
+)
+"gDraw.ml" 146 5873 5909 "gDraw.ml" 146 5873 5912
+type(
+  (int * int) list
+)
+ident(
+  int_ref pts "gDraw.ml" 146 5873 5889 "gDraw.ml" 146 5873 5892
+)
+"gDraw.ml" 146 5873 5895 "gDraw.ml" 146 5873 5912
+call(
+  stack
+)
+type(
+  unit
+)
+"gDraw.ml" 146 5873 5914 "gDraw.ml" 146 5873 5917
+type(
+  f:(drawable -> unit) -> drawable option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gDraw.ml" 146 5873 5918 "gDraw.ml" 146 5873 5924
+type(
+  drawable option
+)
+"gDraw.ml" 146 5873 5933 "gDraw.ml" 146 5873 5934
+type(
+  drawable
+)
+ident(
+  def m "gDraw.ml" 146 5873 5938 "gDraw.ml" 146 5873 5950
+)
+"gDraw.ml" 146 5873 5938 "gDraw.ml" 146 5873 5939
+type(
+  drawable
+)
+ident(
+  int_ref m "gDraw.ml" 146 5873 5933 "gDraw.ml" 146 5873 5934
+)
+"gDraw.ml" 146 5873 5938 "gDraw.ml" 146 5873 5946
+call(
+  tail
+)
+type(
+  (int * int) list -> unit
+)
+"gDraw.ml" 146 5873 5947 "gDraw.ml" 146 5873 5950
+type(
+  (int * int) list
+)
+ident(
+  int_ref pts "gDraw.ml" 146 5873 5889 "gDraw.ml" 146 5873 5892
+)
+"gDraw.ml" 146 5873 5938 "gDraw.ml" 146 5873 5950
+type(
+  unit
+)
+"gDraw.ml" 146 5873 5928 "gDraw.ml" 146 5873 5951
+type(
+  drawable -> unit
+)
+"gDraw.ml" 146 5873 5914 "gDraw.ml" 146 5873 5951
+call(
+  tail
+)
+type(
+  unit
+)
+"gDraw.ml" 146 5873 5895 "gDraw.ml" 146 5873 5951
+type(
+  unit
+)
+"gDraw.ml" 147 5952 5967 "gDraw.ml" 147 5952 5970
+type(
+  (int * int) list
+)
+ident(
+  def pts "gDraw.ml" 147 5952 5973 "gDraw.ml" 147 5952 6027
+)
+"gDraw.ml" 147 5952 5973 "gDraw.ml" 147 5952 5979
+type(
+  'a
+)
+"gDraw.ml" 147 5952 5973 "gDraw.ml" 147 5952 5985
+type(
+  (int * int) list -> unit
+)
+"gDraw.ml" 147 5952 5986 "gDraw.ml" 147 5952 5989
+type(
+  (int * int) list
+)
+ident(
+  int_ref pts "gDraw.ml" 147 5952 5967 "gDraw.ml" 147 5952 5970
+)
+"gDraw.ml" 147 5952 5973 "gDraw.ml" 147 5952 5989
+call(
+  stack
+)
+type(
+  unit
+)
+"gDraw.ml" 147 5952 5991 "gDraw.ml" 147 5952 5994
+type(
+  f:(drawable -> unit) -> drawable option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gDraw.ml" 147 5952 5995 "gDraw.ml" 147 5952 6001
+type(
+  drawable option
+)
+"gDraw.ml" 147 5952 6010 "gDraw.ml" 147 5952 6011
+type(
+  drawable
+)
+ident(
+  def m "gDraw.ml" 147 5952 6015 "gDraw.ml" 147 5952 6026
+)
+"gDraw.ml" 147 5952 6015 "gDraw.ml" 147 5952 6016
+type(
+  drawable
+)
+ident(
+  int_ref m "gDraw.ml" 147 5952 6010 "gDraw.ml" 147 5952 6011
+)
+"gDraw.ml" 147 5952 6015 "gDraw.ml" 147 5952 6022
+call(
+  tail
+)
+type(
+  (int * int) list -> unit
+)
+"gDraw.ml" 147 5952 6023 "gDraw.ml" 147 5952 6026
+type(
+  (int * int) list
+)
+ident(
+  int_ref pts "gDraw.ml" 147 5952 5967 "gDraw.ml" 147 5952 5970
+)
+"gDraw.ml" 147 5952 6015 "gDraw.ml" 147 5952 6026
+type(
+  unit
+)
+"gDraw.ml" 147 5952 6005 "gDraw.ml" 147 5952 6027
+type(
+  drawable -> unit
+)
+"gDraw.ml" 147 5952 5991 "gDraw.ml" 147 5952 6027
+call(
+  tail
+)
+type(
+  unit
+)
+"gDraw.ml" 147 5952 5973 "gDraw.ml" 147 5952 6027
+type(
+  unit
+)
+"gDraw.ml" 148 6028 6046 "gDraw.ml" 148 6028 6049
+type(
+  ((int * int) * (int * int)) list
+)
+ident(
+  def lns "gDraw.ml" 149 6052 6056 "gDraw.ml" 149 6052 6116
+)
+"gDraw.ml" 149 6052 6056 "gDraw.ml" 149 6052 6062
+type(
+  'a
+)
+"gDraw.ml" 149 6052 6056 "gDraw.ml" 149 6052 6071
+type(
+  ((int * int) * (int * int)) list -> unit
+)
+"gDraw.ml" 149 6052 6072 "gDraw.ml" 149 6052 6075
+type(
+  ((int * int) * (int * int)) list
+)
+ident(
+  int_ref lns "gDraw.ml" 148 6028 6046 "gDraw.ml" 148 6028 6049
+)
+"gDraw.ml" 149 6052 6056 "gDraw.ml" 149 6052 6075
+call(
+  stack
+)
+type(
+  unit
+)
+"gDraw.ml" 149 6052 6077 "gDraw.ml" 149 6052 6080
+type(
+  f:(drawable -> unit) -> drawable option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gDraw.ml" 149 6052 6081 "gDraw.ml" 149 6052 6087
+type(
+  drawable option
+)
+"gDraw.ml" 149 6052 6096 "gDraw.ml" 149 6052 6097
+type(
+  drawable
+)
+ident(
+  def m "gDraw.ml" 149 6052 6101 "gDraw.ml" 149 6052 6115
+)
+"gDraw.ml" 149 6052 6101 "gDraw.ml" 149 6052 6102
+type(
+  drawable
+)
+ident(
+  int_ref m "gDraw.ml" 149 6052 6096 "gDraw.ml" 149 6052 6097
+)
+"gDraw.ml" 149 6052 6101 "gDraw.ml" 149 6052 6111
+call(
+  tail
+)
+type(
+  ((int * int) * (int * int)) list -> unit
+)
+"gDraw.ml" 149 6052 6112 "gDraw.ml" 149 6052 6115
+type(
+  ((int * int) * (int * int)) list
+)
+ident(
+  int_ref lns "gDraw.ml" 148 6028 6046 "gDraw.ml" 148 6028 6049
+)
+"gDraw.ml" 149 6052 6101 "gDraw.ml" 149 6052 6115
+type(
+  unit
+)
+"gDraw.ml" 149 6052 6091 "gDraw.ml" 149 6052 6116
+type(
+  drawable -> unit
+)
+"gDraw.ml" 149 6052 6077 "gDraw.ml" 149 6052 6116
+call(
+  tail
+)
+type(
+  unit
+)
+"gDraw.ml" 149 6052 6056 "gDraw.ml" 149 6052 6116
+type(
+  unit
+)
+"gDraw.ml" 150 6117 6138 "gDraw.ml" 150 6117 6139
+type(
+  int
+)
+ident(
+  def x "gDraw.ml" 150 6117 6140 "gDraw.ml" 152 6206 6271
+)
+"gDraw.ml" 150 6117 6141 "gDraw.ml" 150 6117 6142
+type(
+  int
+)
+ident(
+  def y "gDraw.ml" 150 6117 6143 "gDraw.ml" 152 6206 6271
+)
+"gDraw.ml" 150 6117 6144 "gDraw.ml" 150 6117 6148
+type(
+  color option
+)
+ident(
+  def fore "gDraw.ml" 150 6117 6149 "gDraw.ml" 152 6206 6271
+)
+"gDraw.ml" 150 6117 6150 "gDraw.ml" 150 6117 6154
+type(
+  color option
+)
+ident(
+  def back "gDraw.ml" 150 6117 6155 "gDraw.ml" 152 6206 6271
+)
+"gDraw.ml" 150 6117 6155 "gDraw.ml" 150 6117 6158
+type(
+  Pango.layout
+)
+ident(
+  def lay "gDraw.ml" 151 6161 6165 "gDraw.ml" 152 6206 6271
+)
+"gDraw.ml" 151 6161 6165 "gDraw.ml" 151 6161 6171
+type(
+  'a
+)
+"gDraw.ml" 151 6161 6165 "gDraw.ml" 151 6161 6182
+type(
+  x:int -> y:int -> ?fore:color -> ?back:color -> Pango.layout -> unit
+)
+"gDraw.ml" 151 6161 6184 "gDraw.ml" 151 6161 6185
+type(
+  int
+)
+ident(
+  int_ref x "gDraw.ml" 150 6117 6138 "gDraw.ml" 150 6117 6139
+)
+"gDraw.ml" 151 6161 6187 "gDraw.ml" 151 6161 6188
+type(
+  int
+)
+ident(
+  int_ref y "gDraw.ml" 150 6117 6141 "gDraw.ml" 150 6117 6142
+)
+"gDraw.ml" 151 6161 6190 "gDraw.ml" 151 6161 6194
+type(
+  color option
+)
+ident(
+  int_ref fore "gDraw.ml" 150 6117 6144 "gDraw.ml" 150 6117 6148
+)
+"gDraw.ml" 151 6161 6196 "gDraw.ml" 151 6161 6200
+type(
+  color option
+)
+ident(
+  int_ref back "gDraw.ml" 150 6117 6150 "gDraw.ml" 150 6117 6154
+)
+"gDraw.ml" 151 6161 6201 "gDraw.ml" 151 6161 6204
+type(
+  Pango.layout
+)
+ident(
+  int_ref lay "gDraw.ml" 150 6117 6155 "gDraw.ml" 150 6117 6158
+)
+"gDraw.ml" 151 6161 6165 "gDraw.ml" 151 6161 6204
+call(
+  stack
+)
+type(
+  unit
+)
+"gDraw.ml" 152 6206 6210 "gDraw.ml" 152 6206 6213
+type(
+  f:(drawable -> unit) -> drawable option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gDraw.ml" 152 6206 6214 "gDraw.ml" 152 6206 6220
+type(
+  drawable option
+)
+"gDraw.ml" 152 6206 6230 "gDraw.ml" 152 6206 6231
+type(
+  drawable
+)
+ident(
+  def m "gDraw.ml" 152 6206 6248 "gDraw.ml" 152 6206 6270
+)
+"gDraw.ml" 152 6206 6248 "gDraw.ml" 152 6206 6249
+type(
+  drawable
+)
+ident(
+  int_ref m "gDraw.ml" 152 6206 6230 "gDraw.ml" 152 6206 6231
+)
+"gDraw.ml" 152 6206 6248 "gDraw.ml" 152 6206 6260
+call(
+  tail
+)
+type(
+  x:int -> y:int -> ?fore:color -> ?back:color -> Pango.layout -> unit
+)
+"gDraw.ml" 152 6206 6262 "gDraw.ml" 152 6206 6263
+type(
+  int
+)
+ident(
+  int_ref x "gDraw.ml" 150 6117 6138 "gDraw.ml" 150 6117 6139
+)
+"gDraw.ml" 152 6206 6265 "gDraw.ml" 152 6206 6266
+type(
+  int
+)
+ident(
+  int_ref y "gDraw.ml" 150 6117 6141 "gDraw.ml" 150 6117 6142
+)
+"gDraw.ml" 152 6206 6267 "gDraw.ml" 152 6206 6270
+type(
+  Pango.layout
+)
+ident(
+  int_ref lay "gDraw.ml" 150 6117 6155 "gDraw.ml" 150 6117 6158
+)
+"gDraw.ml" 152 6206 6248 "gDraw.ml" 152 6206 6270
+type(
+  unit
+)
+"gDraw.ml" 152 6206 6224 "gDraw.ml" 152 6206 6271
+type(
+  drawable -> unit
+)
+"gDraw.ml" 152 6206 6210 "gDraw.ml" 152 6206 6271
+call(
+  tail
+)
+type(
+  unit
+)
+"gDraw.ml" 151 6161 6165 "gDraw.ml" 152 6206 6271
+type(
+  unit
+)
+"gDraw.ml" 162 6425 6429 "gDraw.ml" 162 6425 6435
+type(
+  width:int ->
+  height:int ->
+  ?mask:bool ->
+  ?window:< misc : #misc_ops; .. > ->
+  ?colormap:Gdk.colormap -> unit -> pixmap
+)
+ident(
+  def pixmap "gDraw.ml" 188 7354 7354 --
+)
+"gDraw.ml" 162 6425 6437 "gDraw.ml" 162 6425 6442
+type(
+  int
+)
+ident(
+  def width "gDraw.ml" 162 6425 6443 "gDraw.ml" 186 7275 7352
+)
+"gDraw.ml" 162 6425 6444 "gDraw.ml" 162 6425 6450
+type(
+  int
+)
+ident(
+  def height "gDraw.ml" 162 6425 6451 "gDraw.ml" 186 7275 7352
+)
+"gDraw.ml" 162 6425 6453 "gDraw.ml" 162 6425 6457
+type(
+  bool
+)
+"gDraw.ml" 162 6425 6458 "gDraw.ml" 162 6425 6463
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gDraw.ml" 162 6425 6458 "gDraw.ml" 162 6425 6463
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gDraw.ml" 162 6425 6458 "gDraw.ml" 162 6425 6463
+)
+"gDraw.ml" 163 6465 6471 "gDraw.ml" 163 6465 6477
+type(
+  (< misc : #misc_ops; .. > as 'a) option
+)
+ident(
+  def window "gDraw.ml" 163 6465 6513 "gDraw.ml" 186 7275 7352
+)
+"gDraw.ml" 163 6465 6514 "gDraw.ml" 163 6465 6522
+type(
+  Gdk.colormap option
+)
+ident(
+  def colormap "gDraw.ml" 163 6465 6523 "gDraw.ml" 186 7275 7352
+)
+"gDraw.ml" 163 6465 6523 "gDraw.ml" 163 6465 6525
+type(
+  unit
+)
+"gDraw.ml" 164 6528 6534 "gDraw.ml" 164 6528 6540
+type(
+  Gdk.window option
+)
+"gDraw.ml" 164 6528 6542 "gDraw.ml" 164 6528 6547
+type(
+  int
+)
+"gDraw.ml" 164 6528 6549 "gDraw.ml" 164 6528 6557
+type(
+  Gdk.colormap
+)
+"gDraw.ml" 164 6528 6534 "gDraw.ml" 164 6528 6557
+type(
+  Gdk.window option * int * Gdk.colormap
+)
+"gDraw.ml" 165 6560 6570 "gDraw.ml" 165 6560 6576
+type(
+  'a option
+)
+ident(
+  int_ref window "gDraw.ml" 163 6465 6471 "gDraw.ml" 163 6465 6477
+)
+"gDraw.ml" 166 6582 6593 "gDraw.ml" 166 6582 6594
+type(
+  'a
+)
+ident(
+  def w "gDraw.ml" 167 6598 6606 "gDraw.ml" 172 6827 6838
+)
+"gDraw.ml" 166 6582 6588 "gDraw.ml" 166 6582 6594
+type(
+  'a option
+)
+"gDraw.ml" 168 6616 6626 "gDraw.ml" 168 6616 6627
+type(
+  'a
+)
+ident(
+  int_ref w "gDraw.ml" 166 6582 6593 "gDraw.ml" 166 6582 6594
+)
+"gDraw.ml" 168 6616 6626 "gDraw.ml" 168 6616 6632
+call(
+  stack
+)
+type(
+  #misc_ops as 'b
+)
+"gDraw.ml" 168 6616 6626 "gDraw.ml" 168 6616 6640
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gDraw.ml" 168 6616 6641 "gDraw.ml" 168 6616 6643
+type(
+  unit
+)
+"gDraw.ml" 168 6616 6626 "gDraw.ml" 168 6616 6643
+type(
+  unit
+)
+"gDraw.ml" 169 6645 6660 "gDraw.ml" 169 6645 6661
+type(
+  'a
+)
+ident(
+  int_ref w "gDraw.ml" 166 6582 6593 "gDraw.ml" 166 6582 6594
+)
+"gDraw.ml" 169 6645 6660 "gDraw.ml" 169 6645 6666
+call(
+  stack
+)
+type(
+  'b
+)
+"gDraw.ml" 169 6645 6660 "gDraw.ml" 169 6645 6673
+call(
+  stack
+)
+type(
+  Gdk.window
+)
+"gDraw.ml" 169 6645 6655 "gDraw.ml" 169 6645 6673
+type(
+  Gdk.window option
+)
+"gDraw.ml" 169 6645 6675 "gDraw.ml" 169 6645 6676
+type(
+  'a
+)
+ident(
+  int_ref w "gDraw.ml" 166 6582 6593 "gDraw.ml" 166 6582 6594
+)
+"gDraw.ml" 169 6645 6675 "gDraw.ml" 169 6645 6681
+call(
+  stack
+)
+type(
+  'b
+)
+"gDraw.ml" 169 6645 6675 "gDraw.ml" 169 6645 6694
+call(
+  stack
+)
+type(
+  int
+)
+"gDraw.ml" 170 6696 6712 "gDraw.ml" 170 6696 6720
+type(
+  Gdk.colormap option
+)
+ident(
+  int_ref colormap "gDraw.ml" 163 6465 6514 "gDraw.ml" 163 6465 6522
+)
+"gDraw.ml" 170 6696 6731 "gDraw.ml" 170 6696 6732
+type(
+  Gdk.colormap
+)
+ident(
+  def c "gDraw.ml" 170 6696 6736 "gDraw.ml" 170 6696 6737
+)
+"gDraw.ml" 170 6696 6726 "gDraw.ml" 170 6696 6732
+type(
+  Gdk.colormap option
+)
+"gDraw.ml" 170 6696 6736 "gDraw.ml" 170 6696 6737
+type(
+  Gdk.colormap
+)
+ident(
+  int_ref c "gDraw.ml" 170 6696 6731 "gDraw.ml" 170 6696 6732
+)
+"gDraw.ml" 170 6696 6740 "gDraw.ml" 170 6696 6744
+type(
+  Gdk.colormap option
+)
+"gDraw.ml" 170 6696 6748 "gDraw.ml" 170 6696 6749
+type(
+  'a
+)
+ident(
+  int_ref w "gDraw.ml" 166 6582 6593 "gDraw.ml" 166 6582 6594
+)
+"gDraw.ml" 170 6696 6748 "gDraw.ml" 170 6696 6754
+call(
+  stack
+)
+type(
+  'b
+)
+"gDraw.ml" 170 6696 6748 "gDraw.ml" 170 6696 6763
+call(
+  stack
+)
+type(
+  Gdk.colormap
+)
+"gDraw.ml" 170 6696 6706 "gDraw.ml" 170 6696 6763
+type(
+  Gdk.colormap
+)
+"gDraw.ml" 169 6645 6655 "gDraw.ml" 170 6696 6763
+type(
+  Gdk.window option * int * Gdk.colormap
+)
+"gDraw.ml" 168 6616 6626 "gDraw.ml" 170 6696 6763
+type(
+  Gdk.window option * int * Gdk.colormap
+)
+"gDraw.ml" 171 6764 6777 "gDraw.ml" 171 6764 6790
+type(
+  exn
+)
+"gDraw.ml" 171 6764 6794 "gDraw.ml" 171 6764 6802
+type(
+  string -> Gdk.window option * int * Gdk.colormap
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gDraw.ml" 171 6764 6803 "gDraw.ml" 171 6764 6826
+type(
+  string
+)
+"gDraw.ml" 171 6764 6794 "gDraw.ml" 171 6764 6826
+call(
+  stack
+)
+type(
+  Gdk.window option * int * Gdk.colormap
+)
+"gDraw.ml" 167 6598 6606 "gDraw.ml" 172 6827 6838
+type(
+  Gdk.window option * int * Gdk.colormap
+)
+"gDraw.ml" 173 6839 6845 "gDraw.ml" 173 6839 6849
+type(
+  'a option
+)
+"gDraw.ml" 174 6853 6865 "gDraw.ml" 174 6853 6873
+type(
+  Gdk.colormap
+)
+"gDraw.ml" 175 6876 6892 "gDraw.ml" 175 6876 6900
+type(
+  Gdk.colormap option
+)
+ident(
+  int_ref colormap "gDraw.ml" 163 6465 6514 "gDraw.ml" 163 6465 6522
+)
+"gDraw.ml" 175 6876 6911 "gDraw.ml" 175 6876 6912
+type(
+  Gdk.colormap
+)
+ident(
+  def c "gDraw.ml" 175 6876 6916 "gDraw.ml" 175 6876 6917
+)
+"gDraw.ml" 175 6876 6906 "gDraw.ml" 175 6876 6912
+type(
+  Gdk.colormap option
+)
+"gDraw.ml" 175 6876 6916 "gDraw.ml" 175 6876 6917
+type(
+  Gdk.colormap
+)
+ident(
+  int_ref c "gDraw.ml" 175 6876 6911 "gDraw.ml" 175 6876 6912
+)
+"gDraw.ml" 175 6876 6920 "gDraw.ml" 175 6876 6924
+type(
+  Gdk.colormap option
+)
+"gDraw.ml" 175 6876 6928 "gDraw.ml" 175 6876 6944
+type(
+  unit -> Gdk.colormap
+)
+ident(
+  int_ref default_colormap "gDraw.ml" 37 1820 1824 "gDraw.ml" 37 1820 1840
+)
+"gDraw.ml" 175 6876 6945 "gDraw.ml" 175 6876 6947
+type(
+  unit
+)
+"gDraw.ml" 175 6876 6928 "gDraw.ml" 175 6876 6947
+call(
+  stack
+)
+type(
+  Gdk.colormap
+)
+"gDraw.ml" 175 6876 6886 "gDraw.ml" 175 6876 6947
+type(
+  Gdk.colormap
+)
+"gDraw.ml" 176 6951 6959 "gDraw.ml" 176 6951 6963
+type(
+  Gdk.window option
+)
+"gDraw.ml" 176 6951 6966 "gDraw.ml" 176 6951 6982
+type(
+  Gdk.visual -> int
+)
+ident(
+  ext_ref Gdk.Visual.depth
+)
+"gDraw.ml" 176 6951 6984 "gDraw.ml" 176 6951 7004
+type(
+  Gdk.colormap -> Gdk.visual
+)
+ident(
+  ext_ref Gdk.Color.get_visual
+)
+"gDraw.ml" 176 6951 7005 "gDraw.ml" 176 6951 7013
+type(
+  Gdk.colormap
+)
+ident(
+  int_ref colormap "gDraw.ml" 174 6853 6865 "gDraw.ml" 174 6853 6873
+)
+"gDraw.ml" 176 6951 6983 "gDraw.ml" 176 6951 7014
+call(
+  stack
+)
+type(
+  Gdk.visual
+)
+"gDraw.ml" 176 6951 6965 "gDraw.ml" 176 6951 7015
+call(
+  stack
+)
+type(
+  int
+)
+"gDraw.ml" 176 6951 7017 "gDraw.ml" 176 6951 7025
+type(
+  Gdk.colormap
+)
+ident(
+  int_ref colormap "gDraw.ml" 174 6853 6865 "gDraw.ml" 174 6853 6873
+)
+"gDraw.ml" 176 6951 6959 "gDraw.ml" 176 6951 7025
+type(
+  Gdk.window option * int * Gdk.colormap
+)
+"gDraw.ml" 174 6853 6861 "gDraw.ml" 176 6951 7025
+type(
+  Gdk.window option * int * Gdk.colormap
+)
+"gDraw.ml" 165 6560 6564 "gDraw.ml" 176 6951 7025
+type(
+  Gdk.window option * int * Gdk.colormap
+)
+"gDraw.ml" 178 7031 7037 "gDraw.ml" 178 7031 7041
+type(
+  Gdk.bitmap option
+)
+"gDraw.ml" 179 7044 7051 "gDraw.ml" 179 7044 7054
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"gDraw.ml" 179 7044 7055 "gDraw.ml" 179 7044 7059
+type(
+  bool
+)
+ident(
+  int_ref mask "gDraw.ml" 162 6425 6453 "gDraw.ml" 162 6425 6457
+)
+"gDraw.ml" 179 7044 7051 "gDraw.ml" 179 7044 7059
+type(
+  bool
+)
+"gDraw.ml" 179 7044 7065 "gDraw.ml" 179 7044 7069
+type(
+  Gdk.bitmap option
+)
+"gDraw.ml" 180 7075 7083 "gDraw.ml" 180 7075 7085
+type(
+  Gdk.bitmap
+)
+"gDraw.ml" 180 7075 7088 "gDraw.ml" 180 7075 7101
+type(
+  ?window:Gdk.window -> width:int -> height:int -> unit -> Gdk.bitmap
+)
+ident(
+  ext_ref Gdk.Bitmap.create
+)
+"gDraw.ml" 180 7075 7103 "gDraw.ml" 180 7075 7109
+type(
+  Gdk.window option
+)
+ident(
+  int_ref window "gDraw.ml" 164 6528 6534 "gDraw.ml" 164 6528 6540
+)
+"gDraw.ml" 180 7075 7111 "gDraw.ml" 180 7075 7116
+type(
+  int
+)
+ident(
+  int_ref width "gDraw.ml" 162 6425 6437 "gDraw.ml" 162 6425 6442
+)
+"gDraw.ml" 180 7075 7118 "gDraw.ml" 180 7075 7124
+type(
+  int
+)
+ident(
+  int_ref height "gDraw.ml" 162 6425 6444 "gDraw.ml" 162 6425 6450
+)
+"gDraw.ml" 180 7075 7125 "gDraw.ml" 180 7075 7127
+type(
+  unit
+)
+"gDraw.ml" 180 7075 7088 "gDraw.ml" 180 7075 7127
+call(
+  stack
+)
+type(
+  Gdk.bitmap
+)
+"gDraw.ml" 181 7131 7139 "gDraw.ml" 181 7131 7143
+type(
+  drawable
+)
+"gDraw.ml" 181 7131 7146 "gDraw.ml" 181 7131 7158
+type(
+  ?colormap:Gdk.colormap -> Gdk.bitmap -> drawable
+)
+"gDraw.ml" 181 7131 7159 "gDraw.ml" 181 7131 7161
+type(
+  Gdk.bitmap
+)
+ident(
+  int_ref bm "gDraw.ml" 180 7075 7083 "gDraw.ml" 180 7075 7085
+)
+"gDraw.ml" 181 7131 7146 "gDraw.ml" 181 7131 7161
+call(
+  stack
+)
+type(
+  drawable
+)
+"gDraw.ml" 182 7165 7169 "gDraw.ml" 182 7165 7173
+type(
+  drawable
+)
+ident(
+  int_ref mask "gDraw.ml" 181 7131 7139 "gDraw.ml" 181 7131 7143
+)
+"gDraw.ml" 182 7165 7169 "gDraw.ml" 182 7165 7188
+call(
+  stack
+)
+type(
+  color -> unit
+)
+"gDraw.ml" 182 7165 7189 "gDraw.ml" 182 7165 7195
+type(
+  color
+)
+"gDraw.ml" 182 7165 7169 "gDraw.ml" 182 7165 7195
+type(
+  unit
+)
+"gDraw.ml" 183 7197 7201 "gDraw.ml" 183 7197 7205
+type(
+  drawable
+)
+ident(
+  int_ref mask "gDraw.ml" 181 7131 7139 "gDraw.ml" 181 7131 7143
+)
+"gDraw.ml" 183 7197 7201 "gDraw.ml" 183 7197 7215
+call(
+  stack
+)
+type(
+  x:int -> y:int -> width:int -> height:int -> ?filled:bool -> unit -> unit
+)
+"gDraw.ml" 183 7197 7219 "gDraw.ml" 183 7197 7220
+type(
+  int
+)
+"gDraw.ml" 183 7197 7224 "gDraw.ml" 183 7197 7225
+type(
+  int
+)
+"gDraw.ml" 183 7197 7227 "gDraw.ml" 183 7197 7232
+type(
+  int
+)
+ident(
+  int_ref width "gDraw.ml" 162 6425 6437 "gDraw.ml" 162 6425 6442
+)
+"gDraw.ml" 183 7197 7234 "gDraw.ml" 183 7197 7240
+type(
+  int
+)
+ident(
+  int_ref height "gDraw.ml" 162 6425 6444 "gDraw.ml" 162 6425 6450
+)
+"gDraw.ml" 183 7197 7249 "gDraw.ml" 183 7197 7253
+type(
+  bool
+)
+"gDraw.ml" 183 7197 7254 "gDraw.ml" 183 7197 7256
+type(
+  unit
+)
+"gDraw.ml" 183 7197 7201 "gDraw.ml" 183 7197 7256
+type(
+  unit
+)
+"gDraw.ml" 184 7258 7267 "gDraw.ml" 184 7258 7269
+type(
+  Gdk.bitmap
+)
+ident(
+  int_ref bm "gDraw.ml" 180 7075 7083 "gDraw.ml" 180 7075 7085
+)
+"gDraw.ml" 184 7258 7262 "gDraw.ml" 184 7258 7269
+type(
+  Gdk.bitmap option
+)
+"gDraw.ml" 183 7197 7201 "gDraw.ml" 184 7258 7269
+type(
+  Gdk.bitmap option
+)
+"gDraw.ml" 182 7165 7169 "gDraw.ml" 184 7258 7269
+type(
+  Gdk.bitmap option
+)
+"gDraw.ml" 181 7131 7135 "gDraw.ml" 184 7258 7269
+type(
+  Gdk.bitmap option
+)
+"gDraw.ml" 180 7075 7079 "gDraw.ml" 184 7258 7269
+type(
+  Gdk.bitmap option
+)
+"gDraw.ml" 179 7044 7048 "gDraw.ml" 184 7258 7269
+type(
+  Gdk.bitmap option
+)
+"gDraw.ml" 186 7275 7277 "gDraw.ml" 186 7275 7287
+type(
+  ?colormap:Gdk.colormap -> ?mask:Gdk.bitmap -> Gdk.pixmap -> pixmap
+)
+"gDraw.ml" 186 7275 7289 "gDraw.ml" 186 7275 7302
+type(
+  ?window:Gdk.window ->
+  width:int -> height:int -> ?depth:int -> unit -> Gdk.pixmap
+)
+ident(
+  ext_ref Gdk.Pixmap.create
+)
+"gDraw.ml" 186 7275 7304 "gDraw.ml" 186 7275 7310
+type(
+  Gdk.window option
+)
+ident(
+  int_ref window "gDraw.ml" 164 6528 6534 "gDraw.ml" 164 6528 6540
+)
+"gDraw.ml" 186 7275 7312 "gDraw.ml" 186 7275 7317
+type(
+  int
+)
+ident(
+  int_ref width "gDraw.ml" 162 6425 6437 "gDraw.ml" 162 6425 6442
+)
+"gDraw.ml" 186 7275 7319 "gDraw.ml" 186 7275 7325
+type(
+  int
+)
+ident(
+  int_ref height "gDraw.ml" 162 6425 6444 "gDraw.ml" 162 6425 6450
+)
+"gDraw.ml" 186 7275 7327 "gDraw.ml" 186 7275 7332
+type(
+  int
+)
+ident(
+  int_ref depth "gDraw.ml" 164 6528 6542 "gDraw.ml" 164 6528 6547
+)
+"gDraw.ml" 186 7275 7333 "gDraw.ml" 186 7275 7335
+type(
+  unit
+)
+"gDraw.ml" 186 7275 7288 "gDraw.ml" 186 7275 7336
+call(
+  stack
+)
+type(
+  Gdk.pixmap
+)
+"gDraw.ml" 186 7275 7338 "gDraw.ml" 186 7275 7346
+type(
+  Gdk.colormap
+)
+ident(
+  int_ref colormap "gDraw.ml" 164 6528 6549 "gDraw.ml" 164 6528 6557
+)
+"gDraw.ml" 186 7275 7348 "gDraw.ml" 186 7275 7352
+type(
+  Gdk.bitmap option
+)
+ident(
+  int_ref mask "gDraw.ml" 178 7031 7037 "gDraw.ml" 178 7031 7041
+)
+"gDraw.ml" 186 7275 7277 "gDraw.ml" 186 7275 7352
+call(
+  tail
+)
+type(
+  pixmap
+)
+"gDraw.ml" 178 7031 7033 "gDraw.ml" 186 7275 7352
+type(
+  pixmap
+)
+"gDraw.ml" 164 6528 6530 "gDraw.ml" 186 7275 7352
+type(
+  pixmap
+)
+"gDraw.ml" 188 7354 7358 "gDraw.ml" 188 7354 7373
+type(
+  file:string ->
+  ?window:< misc : < realize : unit -> 'a; window : Gdk.window; .. >; .. > ->
+  ?colormap:Gdk.colormap -> ?transparent:color -> unit -> pixmap
+)
+ident(
+  def pixmap_from_xpm "gDraw.ml" 203 7923 7923 --
+)
+"gDraw.ml" 188 7354 7375 "gDraw.ml" 188 7354 7379
+type(
+  string
+)
+ident(
+  def file "gDraw.ml" 188 7354 7380 "gDraw.ml" 201 7890 7921
+)
+"gDraw.ml" 188 7354 7381 "gDraw.ml" 188 7354 7387
+type(
+  (< misc : < realize : unit -> 'a; window : Gdk.window; .. >; .. > as 'b)
+  option
+)
+ident(
+  def window "gDraw.ml" 188 7354 7388 "gDraw.ml" 201 7890 7921
+)
+"gDraw.ml" 188 7354 7389 "gDraw.ml" 188 7354 7397
+type(
+  Gdk.colormap option
+)
+ident(
+  def colormap "gDraw.ml" 188 7354 7398 "gDraw.ml" 201 7890 7921
+)
+"gDraw.ml" 188 7354 7399 "gDraw.ml" 188 7354 7410
+type(
+  color option
+)
+ident(
+  def transparent "gDraw.ml" 188 7354 7411 "gDraw.ml" 201 7890 7921
+)
+"gDraw.ml" 188 7354 7411 "gDraw.ml" 188 7354 7413
+type(
+  unit
+)
+"gDraw.ml" 189 7416 7422 "gDraw.ml" 189 7416 7428
+type(
+  Gdk.window option
+)
+"gDraw.ml" 190 7431 7439 "gDraw.ml" 190 7431 7446
+type(
+  f:('b -> Gdk.window) -> 'b option -> Gdk.window option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gDraw.ml" 190 7431 7447 "gDraw.ml" 190 7431 7453
+type(
+  'b option
+)
+ident(
+  int_ref window "gDraw.ml" 188 7354 7381 "gDraw.ml" 188 7354 7387
+)
+"gDraw.ml" 190 7431 7462 "gDraw.ml" 190 7431 7463
+type(
+  'b
+)
+ident(
+  def w "gDraw.ml" 190 7431 7467 "gDraw.ml" 190 7431 7499
+)
+"gDraw.ml" 190 7431 7467 "gDraw.ml" 190 7431 7468
+type(
+  'b
+)
+ident(
+  int_ref w "gDraw.ml" 190 7431 7462 "gDraw.ml" 190 7431 7463
+)
+"gDraw.ml" 190 7431 7467 "gDraw.ml" 190 7431 7473
+call(
+  stack
+)
+type(
+  < realize : unit -> 'a; window : Gdk.window; .. > as 'c
+)
+"gDraw.ml" 190 7431 7467 "gDraw.ml" 190 7431 7481
+call(
+  stack
+)
+type(
+  unit -> 'a
+)
+"gDraw.ml" 190 7431 7482 "gDraw.ml" 190 7431 7484
+type(
+  unit
+)
+"gDraw.ml" 190 7431 7467 "gDraw.ml" 190 7431 7484
+type(
+  'a
+)
+"gDraw.ml" 190 7431 7486 "gDraw.ml" 190 7431 7487
+type(
+  'b
+)
+ident(
+  int_ref w "gDraw.ml" 190 7431 7462 "gDraw.ml" 190 7431 7463
+)
+"gDraw.ml" 190 7431 7486 "gDraw.ml" 190 7431 7492
+call(
+  stack
+)
+type(
+  'c
+)
+"gDraw.ml" 190 7431 7486 "gDraw.ml" 190 7431 7499
+call(
+  tail
+)
+type(
+  Gdk.window
+)
+"gDraw.ml" 190 7431 7467 "gDraw.ml" 190 7431 7499
+type(
+  Gdk.window
+)
+"gDraw.ml" 190 7431 7457 "gDraw.ml" 190 7431 7500
+type(
+  'b -> Gdk.window
+)
+"gDraw.ml" 190 7431 7439 "gDraw.ml" 190 7431 7500
+call(
+  stack
+)
+type(
+  Gdk.window option
+)
+"gDraw.ml" 191 7501 7510 "gDraw.ml" 191 7501 7523
+type(
+  exn
+)
+"gDraw.ml" 191 7501 7527 "gDraw.ml" 191 7501 7538
+type(
+  string -> Gdk.window option
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gDraw.ml" 191 7501 7539 "gDraw.ml" 191 7501 7571
+type(
+  string
+)
+"gDraw.ml" 191 7501 7527 "gDraw.ml" 191 7501 7571
+call(
+  stack
+)
+type(
+  Gdk.window option
+)
+"gDraw.ml" 190 7431 7435 "gDraw.ml" 191 7501 7571
+type(
+  Gdk.window option
+)
+"gDraw.ml" 193 7577 7583 "gDraw.ml" 193 7577 7591
+type(
+  Gdk.colormap option
+)
+"gDraw.ml" 194 7594 7601 "gDraw.ml" 194 7594 7609
+type(
+  Gdk.colormap option
+)
+ident(
+  int_ref colormap "gDraw.ml" 188 7354 7389 "gDraw.ml" 188 7354 7397
+)
+"gDraw.ml" 194 7594 7610 "gDraw.ml" 194 7594 7612
+type(
+  Gdk.colormap option -> Gdk.colormap option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gDraw.ml" 194 7594 7613 "gDraw.ml" 194 7594 7617
+type(
+  Gdk.colormap option
+)
+"gDraw.ml" 194 7594 7601 "gDraw.ml" 194 7594 7617
+type(
+  bool
+)
+"gDraw.ml" 194 7594 7618 "gDraw.ml" 194 7594 7620
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gDraw.ml" 194 7594 7621 "gDraw.ml" 194 7594 7627
+type(
+  Gdk.window option
+)
+ident(
+  int_ref window "gDraw.ml" 189 7416 7422 "gDraw.ml" 189 7416 7428
+)
+"gDraw.ml" 194 7594 7628 "gDraw.ml" 194 7594 7630
+type(
+  Gdk.window option -> Gdk.window option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gDraw.ml" 194 7594 7631 "gDraw.ml" 194 7594 7635
+type(
+  Gdk.window option
+)
+"gDraw.ml" 194 7594 7621 "gDraw.ml" 194 7594 7635
+type(
+  bool
+)
+"gDraw.ml" 194 7594 7601 "gDraw.ml" 194 7594 7635
+type(
+  bool
+)
+"gDraw.ml" 194 7594 7641 "gDraw.ml" 194 7594 7649
+type(
+  Gdk.colormap option
+)
+ident(
+  int_ref colormap "gDraw.ml" 188 7354 7389 "gDraw.ml" 188 7354 7397
+)
+"gDraw.ml" 195 7650 7665 "gDraw.ml" 195 7650 7681
+type(
+  unit -> Gdk.colormap
+)
+ident(
+  int_ref default_colormap "gDraw.ml" 37 1820 1824 "gDraw.ml" 37 1820 1840
+)
+"gDraw.ml" 195 7650 7682 "gDraw.ml" 195 7650 7684
+type(
+  unit
+)
+"gDraw.ml" 195 7650 7664 "gDraw.ml" 195 7650 7685
+call(
+  stack
+)
+type(
+  Gdk.colormap
+)
+"gDraw.ml" 195 7650 7659 "gDraw.ml" 195 7650 7685
+type(
+  Gdk.colormap option
+)
+"gDraw.ml" 194 7594 7598 "gDraw.ml" 195 7650 7685
+type(
+  Gdk.colormap option
+)
+"gDraw.ml" 197 7691 7697 "gDraw.ml" 197 7691 7699
+type(
+  Gdk.pixmap
+)
+"gDraw.ml" 197 7691 7701 "gDraw.ml" 197 7691 7705
+type(
+  Gdk.bitmap
+)
+"gDraw.ml" 197 7691 7697 "gDraw.ml" 197 7691 7705
+type(
+  Gdk.pixmap * Gdk.bitmap
+)
+"gDraw.ml" 198 7708 7716 "gDraw.ml" 198 7708 7738
+type(
+  ?window:Gdk.window ->
+  ?colormap:Gdk.colormap ->
+  ?transparent:Gdk.color -> file:string -> unit -> Gdk.pixmap * Gdk.bitmap
+)
+ident(
+  ext_ref Gdk.Pixmap.create_from_xpm
+)
+"gDraw.ml" 198 7708 7741 "gDraw.ml" 198 7708 7745
+type(
+  string
+)
+ident(
+  int_ref file "gDraw.ml" 188 7354 7375 "gDraw.ml" 188 7354 7379
+)
+"gDraw.ml" 198 7708 7747 "gDraw.ml" 198 7708 7753
+type(
+  Gdk.window option
+)
+ident(
+  int_ref window "gDraw.ml" 189 7416 7422 "gDraw.ml" 189 7416 7428
+)
+"gDraw.ml" 198 7708 7755 "gDraw.ml" 198 7708 7763
+type(
+  Gdk.colormap option
+)
+ident(
+  int_ref colormap "gDraw.ml" 193 7577 7583 "gDraw.ml" 193 7577 7591
+)
+"gDraw.ml" 199 7764 7779 "gDraw.ml" 199 7764 7786
+type(
+  f:(color -> Gdk.color) -> color option -> Gdk.color option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gDraw.ml" 199 7764 7787 "gDraw.ml" 199 7764 7798
+type(
+  color option
+)
+ident(
+  int_ref transparent "gDraw.ml" 188 7354 7399 "gDraw.ml" 188 7354 7410
+)
+"gDraw.ml" 199 7764 7807 "gDraw.ml" 199 7764 7808
+type(
+  color
+)
+ident(
+  def c "gDraw.ml" 199 7764 7812 "gDraw.ml" 199 7764 7819
+)
+"gDraw.ml" 199 7764 7812 "gDraw.ml" 199 7764 7817
+type(
+  ?colormap:Gdk.colormap -> color -> Gdk.color
+)
+ident(
+  int_ref color "gDraw.ml" 39 1880 1884 "gDraw.ml" 39 1880 1889
+)
+"gDraw.ml" 199 7764 7818 "gDraw.ml" 199 7764 7819
+type(
+  color
+)
+ident(
+  int_ref c "gDraw.ml" 199 7764 7807 "gDraw.ml" 199 7764 7808
+)
+"gDraw.ml" 199 7764 7812 "gDraw.ml" 199 7764 7819
+call(
+  tail
+)
+type(
+  Gdk.color
+)
+"gDraw.ml" 199 7764 7802 "gDraw.ml" 199 7764 7820
+type(
+  color -> Gdk.color
+)
+"gDraw.ml" 199 7764 7778 "gDraw.ml" 199 7764 7821
+call(
+  stack
+)
+type(
+  Gdk.color option
+)
+"gDraw.ml" 199 7764 7822 "gDraw.ml" 199 7764 7824
+type(
+  unit
+)
+"gDraw.ml" 198 7708 7716 "gDraw.ml" 199 7764 7824
+call(
+  stack
+)
+type(
+  Gdk.pixmap * Gdk.bitmap
+)
+"gDraw.ml" 200 7825 7834 "gDraw.ml" 200 7825 7835
+type(
+  exn
+)
+"gDraw.ml" 200 7825 7839 "gDraw.ml" 200 7825 7850
+type(
+  string -> Gdk.pixmap * Gdk.bitmap
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gDraw.ml" 200 7825 7852 "gDraw.ml" 200 7825 7878
+type(
+  string
+)
+"gDraw.ml" 200 7825 7879 "gDraw.ml" 200 7825 7880
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gDraw.ml" 200 7825 7881 "gDraw.ml" 200 7825 7885
+type(
+  string
+)
+ident(
+  int_ref file "gDraw.ml" 188 7354 7375 "gDraw.ml" 188 7354 7379
+)
+"gDraw.ml" 200 7825 7851 "gDraw.ml" 200 7825 7886
+call(
+  stack
+)
+type(
+  string
+)
+"gDraw.ml" 200 7825 7839 "gDraw.ml" 200 7825 7886
+call(
+  stack
+)
+type(
+  Gdk.pixmap * Gdk.bitmap
+)
+"gDraw.ml" 198 7708 7712 "gDraw.ml" 200 7825 7886
+type(
+  Gdk.pixmap * Gdk.bitmap
+)
+"gDraw.ml" 201 7890 7892 "gDraw.ml" 201 7890 7902
+type(
+  ?colormap:Gdk.colormap -> ?mask:Gdk.bitmap -> Gdk.pixmap -> pixmap
+)
+"gDraw.ml" 201 7890 7903 "gDraw.ml" 201 7890 7905
+type(
+  Gdk.pixmap
+)
+ident(
+  int_ref pm "gDraw.ml" 197 7691 7697 "gDraw.ml" 197 7691 7699
+)
+"gDraw.ml" 201 7890 7907 "gDraw.ml" 201 7890 7915
+type(
+  Gdk.colormap option
+)
+ident(
+  int_ref colormap "gDraw.ml" 193 7577 7583 "gDraw.ml" 193 7577 7591
+)
+"gDraw.ml" 201 7890 7917 "gDraw.ml" 201 7890 7921
+type(
+  Gdk.bitmap
+)
+ident(
+  int_ref mask "gDraw.ml" 197 7691 7701 "gDraw.ml" 197 7691 7705
+)
+"gDraw.ml" 201 7890 7892 "gDraw.ml" 201 7890 7921
+call(
+  tail
+)
+type(
+  pixmap
+)
+"gDraw.ml" 197 7691 7693 "gDraw.ml" 201 7890 7921
+type(
+  pixmap
+)
+"gDraw.ml" 193 7577 7579 "gDraw.ml" 201 7890 7921
+type(
+  pixmap
+)
+"gDraw.ml" 189 7416 7418 "gDraw.ml" 201 7890 7921
+type(
+  pixmap
+)
+"gDraw.ml" 203 7923 7927 "gDraw.ml" 203 7923 7944
+type(
+  data:string array ->
+  ?window:< misc : < realize : unit -> 'a; window : Gdk.window; .. >; .. > ->
+  ?colormap:Gdk.colormap -> ?transparent:color -> unit -> pixmap
+)
+ident(
+  def pixmap_from_xpm_d "gDraw.ml" 212 8320 8320 --
+)
+"gDraw.ml" 203 7923 7946 "gDraw.ml" 203 7923 7950
+type(
+  string array
+)
+ident(
+  def data "gDraw.ml" 203 7923 7951 "gDraw.ml" 210 8287 8318
+)
+"gDraw.ml" 203 7923 7952 "gDraw.ml" 203 7923 7958
+type(
+  (< misc : < realize : unit -> 'a; window : Gdk.window; .. >; .. > as 'b)
+  option
+)
+ident(
+  def window "gDraw.ml" 203 7923 7959 "gDraw.ml" 210 8287 8318
+)
+"gDraw.ml" 203 7923 7960 "gDraw.ml" 203 7923 7968
+type(
+  Gdk.colormap option
+)
+ident(
+  def colormap "gDraw.ml" 203 7923 7969 "gDraw.ml" 210 8287 8318
+)
+"gDraw.ml" 203 7923 7970 "gDraw.ml" 203 7923 7981
+type(
+  color option
+)
+ident(
+  def transparent "gDraw.ml" 203 7923 7982 "gDraw.ml" 210 8287 8318
+)
+"gDraw.ml" 203 7923 7982 "gDraw.ml" 203 7923 7984
+type(
+  unit
+)
+"gDraw.ml" 204 7987 7993 "gDraw.ml" 204 7987 7999
+type(
+  Gdk.window option
+)
+"gDraw.ml" 205 8002 8010 "gDraw.ml" 205 8002 8017
+type(
+  f:('b -> Gdk.window) -> 'b option -> Gdk.window option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gDraw.ml" 205 8002 8018 "gDraw.ml" 205 8002 8024
+type(
+  'b option
+)
+ident(
+  int_ref window "gDraw.ml" 203 7923 7952 "gDraw.ml" 203 7923 7958
+)
+"gDraw.ml" 205 8002 8033 "gDraw.ml" 205 8002 8034
+type(
+  'b
+)
+ident(
+  def w "gDraw.ml" 205 8002 8038 "gDraw.ml" 205 8002 8070
+)
+"gDraw.ml" 205 8002 8038 "gDraw.ml" 205 8002 8039
+type(
+  'b
+)
+ident(
+  int_ref w "gDraw.ml" 205 8002 8033 "gDraw.ml" 205 8002 8034
+)
+"gDraw.ml" 205 8002 8038 "gDraw.ml" 205 8002 8044
+call(
+  stack
+)
+type(
+  < realize : unit -> 'a; window : Gdk.window; .. > as 'c
+)
+"gDraw.ml" 205 8002 8038 "gDraw.ml" 205 8002 8052
+call(
+  stack
+)
+type(
+  unit -> 'a
+)
+"gDraw.ml" 205 8002 8053 "gDraw.ml" 205 8002 8055
+type(
+  unit
+)
+"gDraw.ml" 205 8002 8038 "gDraw.ml" 205 8002 8055
+type(
+  'a
+)
+"gDraw.ml" 205 8002 8057 "gDraw.ml" 205 8002 8058
+type(
+  'b
+)
+ident(
+  int_ref w "gDraw.ml" 205 8002 8033 "gDraw.ml" 205 8002 8034
+)
+"gDraw.ml" 205 8002 8057 "gDraw.ml" 205 8002 8063
+call(
+  stack
+)
+type(
+  'c
+)
+"gDraw.ml" 205 8002 8057 "gDraw.ml" 205 8002 8070
+call(
+  tail
+)
+type(
+  Gdk.window
+)
+"gDraw.ml" 205 8002 8038 "gDraw.ml" 205 8002 8070
+type(
+  Gdk.window
+)
+"gDraw.ml" 205 8002 8028 "gDraw.ml" 205 8002 8071
+type(
+  'b -> Gdk.window
+)
+"gDraw.ml" 205 8002 8010 "gDraw.ml" 205 8002 8071
+call(
+  stack
+)
+type(
+  Gdk.window option
+)
+"gDraw.ml" 206 8072 8081 "gDraw.ml" 206 8072 8094
+type(
+  exn
+)
+"gDraw.ml" 206 8072 8098 "gDraw.ml" 206 8072 8106
+type(
+  string -> Gdk.window option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gDraw.ml" 206 8072 8107 "gDraw.ml" 206 8072 8144
+type(
+  string
+)
+"gDraw.ml" 206 8072 8098 "gDraw.ml" 206 8072 8144
+call(
+  stack
+)
+type(
+  Gdk.window option
+)
+"gDraw.ml" 205 8002 8006 "gDraw.ml" 206 8072 8144
+type(
+  Gdk.window option
+)
+"gDraw.ml" 207 8148 8154 "gDraw.ml" 207 8148 8156
+type(
+  Gdk.pixmap
+)
+"gDraw.ml" 207 8148 8158 "gDraw.ml" 207 8148 8162
+type(
+  Gdk.bitmap
+)
+"gDraw.ml" 207 8148 8154 "gDraw.ml" 207 8148 8162
+type(
+  Gdk.pixmap * Gdk.bitmap
+)
+"gDraw.ml" 208 8165 8169 "gDraw.ml" 208 8165 8193
+type(
+  ?window:Gdk.window ->
+  ?colormap:Gdk.colormap ->
+  ?transparent:Gdk.color ->
+  data:string array -> unit -> Gdk.pixmap * Gdk.bitmap
+)
+ident(
+  ext_ref Gdk.Pixmap.create_from_xpm_d
+)
+"gDraw.ml" 208 8165 8195 "gDraw.ml" 208 8165 8199
+type(
+  string array
+)
+ident(
+  int_ref data "gDraw.ml" 203 7923 7946 "gDraw.ml" 203 7923 7950
+)
+"gDraw.ml" 208 8165 8201 "gDraw.ml" 208 8165 8209
+type(
+  Gdk.colormap option
+)
+ident(
+  int_ref colormap "gDraw.ml" 203 7923 7960 "gDraw.ml" 203 7923 7968
+)
+"gDraw.ml" 208 8165 8211 "gDraw.ml" 208 8165 8217
+type(
+  Gdk.window option
+)
+ident(
+  int_ref window "gDraw.ml" 204 7987 7993 "gDraw.ml" 204 7987 7999
+)
+"gDraw.ml" 209 8218 8238 "gDraw.ml" 209 8218 8245
+type(
+  f:(color -> Gdk.color) -> color option -> Gdk.color option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gDraw.ml" 209 8218 8246 "gDraw.ml" 209 8218 8257
+type(
+  color option
+)
+ident(
+  int_ref transparent "gDraw.ml" 203 7923 7970 "gDraw.ml" 203 7923 7981
+)
+"gDraw.ml" 209 8218 8266 "gDraw.ml" 209 8218 8267
+type(
+  color
+)
+ident(
+  def c "gDraw.ml" 209 8218 8271 "gDraw.ml" 209 8218 8278
+)
+"gDraw.ml" 209 8218 8271 "gDraw.ml" 209 8218 8276
+type(
+  ?colormap:Gdk.colormap -> color -> Gdk.color
+)
+ident(
+  int_ref color "gDraw.ml" 39 1880 1884 "gDraw.ml" 39 1880 1889
+)
+"gDraw.ml" 209 8218 8277 "gDraw.ml" 209 8218 8278
+type(
+  color
+)
+ident(
+  int_ref c "gDraw.ml" 209 8218 8266 "gDraw.ml" 209 8218 8267
+)
+"gDraw.ml" 209 8218 8271 "gDraw.ml" 209 8218 8278
+call(
+  tail
+)
+type(
+  Gdk.color
+)
+"gDraw.ml" 209 8218 8261 "gDraw.ml" 209 8218 8279
+type(
+  color -> Gdk.color
+)
+"gDraw.ml" 209 8218 8237 "gDraw.ml" 209 8218 8280
+call(
+  stack
+)
+type(
+  Gdk.color option
+)
+"gDraw.ml" 209 8218 8281 "gDraw.ml" 209 8218 8283
+type(
+  unit
+)
+"gDraw.ml" 208 8165 8169 "gDraw.ml" 209 8218 8283
+call(
+  stack
+)
+type(
+  Gdk.pixmap * Gdk.bitmap
+)
+"gDraw.ml" 210 8287 8289 "gDraw.ml" 210 8287 8299
+type(
+  ?colormap:Gdk.colormap -> ?mask:Gdk.bitmap -> Gdk.pixmap -> pixmap
+)
+"gDraw.ml" 210 8287 8300 "gDraw.ml" 210 8287 8302
+type(
+  Gdk.pixmap
+)
+ident(
+  int_ref pm "gDraw.ml" 207 8148 8154 "gDraw.ml" 207 8148 8156
+)
+"gDraw.ml" 210 8287 8304 "gDraw.ml" 210 8287 8312
+type(
+  Gdk.colormap option
+)
+ident(
+  int_ref colormap "gDraw.ml" 203 7923 7960 "gDraw.ml" 203 7923 7968
+)
+"gDraw.ml" 210 8287 8314 "gDraw.ml" 210 8287 8318
+type(
+  Gdk.bitmap
+)
+ident(
+  int_ref mask "gDraw.ml" 207 8148 8158 "gDraw.ml" 207 8148 8162
+)
+"gDraw.ml" 210 8287 8289 "gDraw.ml" 210 8287 8318
+call(
+  tail
+)
+type(
+  pixmap
+)
+"gDraw.ml" 207 8148 8150 "gDraw.ml" 210 8287 8318
+type(
+  pixmap
+)
+"gDraw.ml" 204 7987 7989 "gDraw.ml" 210 8287 8318
+type(
+  pixmap
+)
+"gDraw.ml" 212 8320 8339 "gDraw.ml" 212 8320 8346
+type(
+  Gdk.drag_context
+)
+"gDraw.ml" 213 8356 8372 "gDraw.ml" 213 8356 8379
+type(
+  Gdk.drag_context
+)
+ident(
+  int_ref context "gDraw.ml" 212 8320 8339 "gDraw.ml" 212 8320 8346
+)
+"gDraw.ml" 214 8380 8398 "gDraw.ml" 214 8380 8402
+type(
+  int32
+)
+"gDraw.ml" 214 8380 8403 "gDraw.ml" 214 8380 8413
+type(
+  int32
+)
+ident(
+  ext_ref Int32.zero
+)
+type(
+  int32
+)
+ident(
+  int_ref *sth* "gDraw.ml" 214 8380 8403 "gDraw.ml" 214 8380 8413
+)
+type(
+  int32 option
+)
+type(
+  int32 option
+)
+type(
+  int32
+)
+ident(
+  def *sth* "gDraw.ml" 214 8380 8403 "gDraw.ml" 214 8380 8413
+)
+"gDraw.ml" 214 8380 8415 "gDraw.ml" 214 8380 8418
+type(
+  Gdk.Tags.drag_action option
+)
+ident(
+  def act "gDraw.ml" 214 8380 8421 "gDraw.ml" 214 8380 8454
+)
+"gDraw.ml" 214 8380 8421 "gDraw.ml" 214 8380 8436
+type(
+  Gdk.drag_context -> Gdk.Tags.drag_action option -> time:int32 -> unit
+)
+ident(
+  ext_ref Gdk.DnD.drag_status
+)
+"gDraw.ml" 214 8380 8437 "gDraw.ml" 214 8380 8444
+type(
+  Gdk.drag_context
+)
+"gDraw.ml" 214 8380 8445 "gDraw.ml" 214 8380 8448
+type(
+  Gdk.Tags.drag_action option
+)
+ident(
+  int_ref act "gDraw.ml" 214 8380 8415 "gDraw.ml" 214 8380 8418
+)
+"gDraw.ml" 214 8380 8450 "gDraw.ml" 214 8380 8454
+type(
+  int32
+)
+ident(
+  int_ref time "gDraw.ml" 214 8380 8398 "gDraw.ml" 214 8380 8402
+)
+"gDraw.ml" 214 8380 8421 "gDraw.ml" 214 8380 8454
+call(
+  tail
+)
+type(
+  unit
+)
+"gDraw.ml" 215 8455 8483 "gDraw.ml" 215 8455 8516
+type(
+  Gdk.drag_context -> Gdk.Tags.drag_action
+)
+ident(
+  ext_ref Gdk.DnD.drag_context_suggested_action
+)
+"gDraw.ml" 215 8455 8517 "gDraw.ml" 215 8455 8524
+type(
+  Gdk.drag_context
+)
+"gDraw.ml" 215 8455 8483 "gDraw.ml" 215 8455 8524
+call(
+  tail
+)
+type(
+  Gdk.Tags.drag_action
+)
+type(
+  Gdk.Tags.drag_action
+)
+"gDraw.ml" 216 8525 8544 "gDraw.ml" 216 8525 8552
+type(
+  (Gdk.atom -> string) -> Gdk.atom list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"gDraw.ml" 216 8525 8553 "gDraw.ml" 216 8525 8566
+type(
+  Gdk.atom -> string
+)
+ident(
+  ext_ref Gdk.Atom.name
+)
+"gDraw.ml" 216 8525 8568 "gDraw.ml" 216 8525 8592
+type(
+  Gdk.drag_context -> Gdk.atom list
+)
+ident(
+  ext_ref Gdk.DnD.drag_context_targets
+)
+"gDraw.ml" 216 8525 8593 "gDraw.ml" 216 8525 8600
+type(
+  Gdk.drag_context
+)
+"gDraw.ml" 216 8525 8567 "gDraw.ml" 216 8525 8601
+call(
+  stack
+)
+type(
+  Gdk.atom list
+)
+"gDraw.ml" 216 8525 8544 "gDraw.ml" 216 8525 8601
+call(
+  tail
+)
+type(
+  string list
+)
+type(
+  string list
+)

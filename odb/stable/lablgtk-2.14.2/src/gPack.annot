@@ -1,0 +1,4362 @@
+"gPack.ml" 36 1797 1812 "gPack.ml" 36 1797 1815
+type(
+  [> Gtk.box ] Gtk.obj
+)
+"gPack.ml" 37 1825 1864 "gPack.ml" 37 1825 1867
+type(
+  ([> Gtk.box ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gPack.ml" 36 1797 1812 "gPack.ml" 36 1797 1815
+)
+"gPack.ml" 38 1868 1888 "gPack.ml" 38 1868 1889
+type(
+  Gtk.Tags.pack_type option
+)
+ident(
+  def f "gPack.ml" 38 1868 1890 "gPack.ml" 39 1917 1978
+)
+"gPack.ml" 38 1868 1891 "gPack.ml" 38 1868 1897
+type(
+  bool option
+)
+ident(
+  def expand "gPack.ml" 38 1868 1898 "gPack.ml" 39 1917 1978
+)
+"gPack.ml" 38 1868 1899 "gPack.ml" 38 1868 1903
+type(
+  bool option
+)
+ident(
+  def fill "gPack.ml" 38 1868 1904 "gPack.ml" 39 1917 1978
+)
+"gPack.ml" 38 1868 1905 "gPack.ml" 38 1868 1912
+type(
+  int option
+)
+ident(
+  def padding "gPack.ml" 38 1868 1913 "gPack.ml" 39 1917 1978
+)
+"gPack.ml" 38 1868 1913 "gPack.ml" 38 1868 1914
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 39 1917 1921 "gPack.ml" 39 1917 1978
+)
+"gPack.ml" 39 1917 1921 "gPack.ml" 39 1917 1929
+type(
+  'a Gtk.obj ->
+  ?from:Gtk.Tags.pack_type ->
+  ?expand:bool -> ?fill:bool -> ?padding:int -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkPack.Box.pack
+)
+"gPack.ml" 39 1917 1930 "gPack.ml" 39 1917 1933
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 39 1917 1935 "gPack.ml" 39 1917 1944
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 39 1917 1945 "gPack.ml" 39 1917 1946
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 38 1868 1913 "gPack.ml" 38 1868 1914
+)
+"gPack.ml" 39 1917 1934 "gPack.ml" 39 1917 1947
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 39 1917 1954 "gPack.ml" 39 1917 1955
+type(
+  Gtk.Tags.pack_type option
+)
+ident(
+  int_ref f "gPack.ml" 38 1868 1888 "gPack.ml" 38 1868 1889
+)
+"gPack.ml" 39 1917 1957 "gPack.ml" 39 1917 1963
+type(
+  bool option
+)
+ident(
+  int_ref expand "gPack.ml" 38 1868 1891 "gPack.ml" 38 1868 1897
+)
+"gPack.ml" 39 1917 1965 "gPack.ml" 39 1917 1969
+type(
+  bool option
+)
+ident(
+  int_ref fill "gPack.ml" 38 1868 1899 "gPack.ml" 38 1868 1903
+)
+"gPack.ml" 39 1917 1971 "gPack.ml" 39 1917 1978
+type(
+  int option
+)
+ident(
+  int_ref padding "gPack.ml" 38 1868 1905 "gPack.ml" 38 1868 1912
+)
+"gPack.ml" 39 1917 1921 "gPack.ml" 39 1917 1978
+call(
+  tail
+)
+type(
+  unit
+)
+"gPack.ml" 40 1979 2006 "gPack.ml" 40 1979 2009
+type(
+  ('a, bool) Gobject.property -> 'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref OgtkPackProps.set
+)
+"gPack.ml" 40 1979 2010 "gPack.ml" 40 1979 2023
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref P.homogeneous
+)
+"gPack.ml" 40 1979 2024 "gPack.ml" 40 1979 2027
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 40 1979 2006 "gPack.ml" 40 1979 2027
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gPack.ml" 41 2028 2051 "gPack.ml" 41 2028 2054
+type(
+  ('a, bool) Gobject.property -> 'a Gtk.obj -> bool
+)
+ident(
+  ext_ref OgtkPackProps.get
+)
+"gPack.ml" 41 2028 2055 "gPack.ml" 41 2028 2068
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref P.homogeneous
+)
+"gPack.ml" 41 2028 2069 "gPack.ml" 41 2028 2072
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 41 2028 2051 "gPack.ml" 41 2028 2072
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"gPack.ml" 42 2073 2096 "gPack.ml" 42 2073 2099
+type(
+  ('a, int) Gobject.property -> 'a Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref OgtkPackProps.set
+)
+"gPack.ml" 42 2073 2100 "gPack.ml" 42 2073 2109
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref P.spacing
+)
+"gPack.ml" 42 2073 2110 "gPack.ml" 42 2073 2113
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 42 2073 2096 "gPack.ml" 42 2073 2113
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gPack.ml" 43 2114 2133 "gPack.ml" 43 2114 2136
+type(
+  ('a, int) Gobject.property -> 'a Gtk.obj -> int
+)
+ident(
+  ext_ref OgtkPackProps.get
+)
+"gPack.ml" 43 2114 2137 "gPack.ml" 43 2114 2146
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref P.spacing
+)
+"gPack.ml" 43 2114 2147 "gPack.ml" 43 2114 2150
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 43 2114 2133 "gPack.ml" 43 2114 2150
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"gPack.ml" 44 2151 2184 "gPack.ml" 44 2151 2185
+type(
+  Gtk.Tags.pack_type option
+)
+ident(
+  def f "gPack.ml" 44 2151 2186 "gPack.ml" 45 2213 2287
+)
+"gPack.ml" 44 2151 2187 "gPack.ml" 44 2151 2193
+type(
+  bool option
+)
+ident(
+  def expand "gPack.ml" 44 2151 2194 "gPack.ml" 45 2213 2287
+)
+"gPack.ml" 44 2151 2195 "gPack.ml" 44 2151 2199
+type(
+  bool option
+)
+ident(
+  def fill "gPack.ml" 44 2151 2200 "gPack.ml" 45 2213 2287
+)
+"gPack.ml" 44 2151 2201 "gPack.ml" 44 2151 2208
+type(
+  int option
+)
+ident(
+  def padding "gPack.ml" 44 2151 2209 "gPack.ml" 45 2213 2287
+)
+"gPack.ml" 44 2151 2209 "gPack.ml" 44 2151 2210
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 45 2213 2217 "gPack.ml" 45 2213 2287
+)
+"gPack.ml" 45 2213 2217 "gPack.ml" 45 2213 2238
+type(
+  'a Gtk.obj ->
+  Gtk.widget Gtk.obj ->
+  ?expand:bool ->
+  ?fill:bool -> ?padding:int -> ?from:Gtk.Tags.pack_type -> unit
+)
+ident(
+  ext_ref GtkPack.Box.set_child_packing
+)
+"gPack.ml" 45 2213 2239 "gPack.ml" 45 2213 2242
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 45 2213 2244 "gPack.ml" 45 2213 2253
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 45 2213 2254 "gPack.ml" 45 2213 2255
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 44 2151 2209 "gPack.ml" 44 2151 2210
+)
+"gPack.ml" 45 2213 2243 "gPack.ml" 45 2213 2256
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 45 2213 2263 "gPack.ml" 45 2213 2264
+type(
+  Gtk.Tags.pack_type option
+)
+ident(
+  int_ref f "gPack.ml" 44 2151 2184 "gPack.ml" 44 2151 2185
+)
+"gPack.ml" 45 2213 2266 "gPack.ml" 45 2213 2272
+type(
+  bool option
+)
+ident(
+  int_ref expand "gPack.ml" 44 2151 2187 "gPack.ml" 44 2151 2193
+)
+"gPack.ml" 45 2213 2274 "gPack.ml" 45 2213 2278
+type(
+  bool option
+)
+ident(
+  int_ref fill "gPack.ml" 44 2151 2195 "gPack.ml" 44 2151 2199
+)
+"gPack.ml" 45 2213 2280 "gPack.ml" 45 2213 2287
+type(
+  int option
+)
+ident(
+  int_ref padding "gPack.ml" 44 2151 2201 "gPack.ml" 44 2151 2208
+)
+"gPack.ml" 45 2213 2217 "gPack.ml" 45 2213 2287
+type(
+  unit
+)
+"gPack.ml" 46 2288 2311 "gPack.ml" 46 2288 2312
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 46 2288 2315 "gPack.ml" 46 2288 2350
+)
+"gPack.ml" 46 2288 2315 "gPack.ml" 46 2288 2332
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> pos:int -> unit
+)
+ident(
+  ext_ref GtkPack.Box.reorder_child
+)
+"gPack.ml" 46 2288 2333 "gPack.ml" 46 2288 2336
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 46 2288 2338 "gPack.ml" 46 2288 2347
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 46 2288 2348 "gPack.ml" 46 2288 2349
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 46 2288 2311 "gPack.ml" 46 2288 2312
+)
+"gPack.ml" 46 2288 2337 "gPack.ml" 46 2288 2350
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 46 2288 2315 "gPack.ml" 46 2288 2350
+call(
+  tail
+)
+type(
+  pos:int -> unit
+)
+"gPack.ml" 49 2356 2366 "gPack.ml" 49 2356 2369
+type(
+  [> Gtk.box ] Gtk.obj
+)
+"gPack.ml" 50 2379 2398 "gPack.ml" 50 2379 2401
+type(
+  ([> Gtk.box ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gPack.ml" 49 2356 2366 "gPack.ml" 49 2356 2369
+)
+"gPack.ml" 51 2402 2421 "gPack.ml" 51 2402 2447
+type(
+  'a Gtk.obj -> GContainer.container_signals_impl
+)
+"gPack.ml" 51 2402 2448 "gPack.ml" 51 2402 2451
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 51 2402 2421 "gPack.ml" 51 2402 2451
+call(
+  tail
+)
+type(
+  GContainer.container_signals_impl
+)
+type(
+  GContainer.container_signals_impl
+)
+"gPack.ml" 54 2459 2463 "gPack.ml" 54 2459 2466
+type(
+  Gtk.Tags.orientation ->
+  ?homogeneous:bool ->
+  ?spacing:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> box
+)
+ident(
+  def box "gPack.ml" 58 2567 2567 --
+)
+"gPack.ml" 54 2459 2467 "gPack.ml" 54 2459 2470
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  def dir "gPack.ml" 55 2473 2475 "gPack.ml" 56 2502 2565
+)
+"gPack.ml" 55 2473 2475 "gPack.ml" 55 2473 2490
+type(
+  cont:(Gtk.box Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> box) ->
+  Gtk.box Gobject.param list ->
+  ?homogeneous:bool ->
+  ?spacing:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> box
+)
+ident(
+  ext_ref GtkPack.Box.make_params
+)
+"gPack.ml" 55 2473 2491 "gPack.ml" 55 2473 2493
+type(
+  Gtk.box Gobject.param list
+)
+"gPack.ml" 56 2502 2504 "gPack.ml" 56 2502 2518
+type(
+  create:(Gtk.box Gobject.param list -> box) ->
+  Gtk.box Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> box
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gPack.ml" 56 2502 2532 "gPack.ml" 56 2502 2533
+type(
+  Gtk.box Gobject.param list
+)
+ident(
+  def p "gPack.ml" 56 2502 2537 "gPack.ml" 56 2502 2563
+)
+"gPack.ml" 56 2502 2537 "gPack.ml" 56 2502 2544
+type(
+  Gtk.box Gtk.obj -> box
+)
+"gPack.ml" 56 2502 2546 "gPack.ml" 56 2502 2556
+type(
+  Gtk.Tags.orientation -> Gtk.box Gobject.param list -> Gtk.box Gtk.obj
+)
+ident(
+  ext_ref GtkPack.Box.create
+)
+"gPack.ml" 56 2502 2557 "gPack.ml" 56 2502 2560
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  int_ref dir "gPack.ml" 54 2459 2467 "gPack.ml" 54 2459 2470
+)
+"gPack.ml" 56 2502 2561 "gPack.ml" 56 2502 2562
+type(
+  Gtk.box Gobject.param list
+)
+ident(
+  int_ref p "gPack.ml" 56 2502 2532 "gPack.ml" 56 2502 2533
+)
+"gPack.ml" 56 2502 2545 "gPack.ml" 56 2502 2563
+call(
+  stack
+)
+type(
+  Gtk.box Gtk.obj
+)
+"gPack.ml" 56 2502 2537 "gPack.ml" 56 2502 2563
+call(
+  tail
+)
+type(
+  box
+)
+"gPack.ml" 56 2502 2527 "gPack.ml" 56 2502 2564
+type(
+  Gtk.box Gobject.param list -> box
+)
+"gPack.ml" 55 2473 2500 "gPack.ml" 56 2502 2565
+call(
+  stack
+)
+type(
+  Gtk.box Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> box
+)
+"gPack.ml" 55 2473 2475 "gPack.ml" 56 2502 2565
+call(
+  tail
+)
+type(
+  ?homogeneous:bool ->
+  ?spacing:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> box
+)
+"gPack.ml" 58 2567 2571 "gPack.ml" 58 2567 2575
+type(
+  ?homogeneous:bool ->
+  ?spacing:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> box
+)
+ident(
+  def vbox "gPack.ml" 59 2592 2592 --
+)
+"gPack.ml" 58 2567 2578 "gPack.ml" 58 2567 2581
+type(
+  Gtk.Tags.orientation ->
+  ?homogeneous:bool ->
+  ?spacing:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> box
+)
+ident(
+  int_ref box "gPack.ml" 54 2459 2463 "gPack.ml" 54 2459 2466
+)
+"gPack.ml" 58 2567 2582 "gPack.ml" 58 2567 2591
+type(
+  Gtk.Tags.orientation
+)
+"gPack.ml" 58 2567 2578 "gPack.ml" 58 2567 2591
+call(
+  stack
+)
+type(
+  ?homogeneous:bool ->
+  ?spacing:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> box
+)
+"gPack.ml" 59 2592 2596 "gPack.ml" 59 2592 2600
+type(
+  ?homogeneous:bool ->
+  ?spacing:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> box
+)
+ident(
+  def hbox "gPack.ml" 61 2620 2620 --
+)
+"gPack.ml" 59 2592 2603 "gPack.ml" 59 2592 2606
+type(
+  Gtk.Tags.orientation ->
+  ?homogeneous:bool ->
+  ?spacing:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> box
+)
+ident(
+  int_ref box "gPack.ml" 54 2459 2463 "gPack.ml" 54 2459 2466
+)
+"gPack.ml" 59 2592 2607 "gPack.ml" 59 2592 2618
+type(
+  Gtk.Tags.orientation
+)
+"gPack.ml" 59 2592 2603 "gPack.ml" 59 2592 2618
+call(
+  stack
+)
+type(
+  ?homogeneous:bool ->
+  ?spacing:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> box
+)
+"gPack.ml" 61 2620 2637 "gPack.ml" 61 2620 2640
+type(
+  [> `box | `buttonbox | `container | `gtk | `widget ] Gtk.obj
+)
+"gPack.ml" 62 2650 2669 "gPack.ml" 62 2650 2672
+type(
+  ([> `box | `buttonbox | `container | `gtk | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gPack.ml" 61 2620 2637 "gPack.ml" 61 2620 2640
+)
+"gPack.ml" 63 2673 2692 "gPack.ml" 63 2673 2718
+type(
+  'a Gtk.obj -> GContainer.container_signals_impl
+)
+"gPack.ml" 63 2673 2719 "gPack.ml" 63 2673 2722
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 63 2673 2692 "gPack.ml" 63 2673 2722
+call(
+  tail
+)
+type(
+  GContainer.container_signals_impl
+)
+type(
+  GContainer.container_signals_impl
+)
+"gPack.ml" 64 2723 2746 "gPack.ml" 64 2723 2749
+type(
+  ('a, GtkEnums.button_box_style) Gobject.property ->
+  'a Gtk.obj -> GtkEnums.button_box_style -> unit
+)
+ident(
+  ext_ref OgtkPackProps.set
+)
+"gPack.ml" 64 2723 2750 "gPack.ml" 64 2723 2769
+type(
+  ('a, GtkEnums.button_box_style) Gobject.property
+)
+ident(
+  ext_ref GtkPack.BBox.P.layout_style
+)
+"gPack.ml" 64 2723 2771 "gPack.ml" 64 2723 2774
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 64 2723 2746 "gPack.ml" 64 2723 2774
+call(
+  tail
+)
+type(
+  GtkEnums.button_box_style -> unit
+)
+type(
+  GtkEnums.button_box_style -> unit
+)
+"gPack.ml" 65 2775 2794 "gPack.ml" 65 2775 2797
+type(
+  ('a, GtkEnums.button_box_style) Gobject.property ->
+  'a Gtk.obj -> GtkEnums.button_box_style
+)
+ident(
+  ext_ref OgtkPackProps.get
+)
+"gPack.ml" 65 2775 2798 "gPack.ml" 65 2775 2817
+type(
+  ('a, GtkEnums.button_box_style) Gobject.property
+)
+ident(
+  ext_ref GtkPack.BBox.P.layout_style
+)
+"gPack.ml" 65 2775 2819 "gPack.ml" 65 2775 2822
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 65 2775 2794 "gPack.ml" 65 2775 2822
+call(
+  tail
+)
+type(
+  GtkEnums.button_box_style
+)
+type(
+  GtkEnums.button_box_style
+)
+"gPack.ml" 66 2823 2849 "gPack.ml" 66 2823 2868
+type(
+  'a Gtk.obj -> ?width:int -> ?height:int -> unit -> unit
+)
+ident(
+  ext_ref GtkPack.BBox.set_child_size
+)
+"gPack.ml" 66 2823 2869 "gPack.ml" 66 2823 2872
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 66 2823 2849 "gPack.ml" 66 2823 2872
+call(
+  tail
+)
+type(
+  ?width:int -> ?height:int -> unit -> unit
+)
+type(
+  ?width:int -> ?height:int -> unit -> unit
+)
+"gPack.ml" 67 2873 2903 "gPack.ml" 67 2873 2926
+type(
+  'a Gtk.obj -> ?x:int -> ?y:int -> unit -> unit
+)
+ident(
+  ext_ref GtkPack.BBox.set_child_ipadding
+)
+"gPack.ml" 67 2873 2927 "gPack.ml" 67 2873 2930
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 67 2873 2903 "gPack.ml" 67 2873 2930
+call(
+  tail
+)
+type(
+  ?x:int -> ?y:int -> unit -> unit
+)
+type(
+  ?x:int -> ?y:int -> unit -> unit
+)
+"gPack.ml" 68 2931 2961 "gPack.ml" 68 2931 2962
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 68 2931 2975 "gPack.ml" 68 2931 3015
+)
+"gPack.ml" 68 2931 2975 "gPack.ml" 68 2931 2999
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> bool
+)
+ident(
+  ext_ref GtkPack.BBox.get_child_secondary
+)
+"gPack.ml" 68 2931 3000 "gPack.ml" 68 2931 3003
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 68 2931 3004 "gPack.ml" 68 2931 3005
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 68 2931 2961 "gPack.ml" 68 2931 2962
+)
+"gPack.ml" 68 2931 3004 "gPack.ml" 68 2931 3015
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 68 2931 2975 "gPack.ml" 68 2931 3015
+type(
+  bool
+)
+"gPack.ml" 69 3016 3046 "gPack.ml" 69 3016 3047
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 69 3016 3060 "gPack.ml" 69 3016 3100
+)
+"gPack.ml" 69 3016 3060 "gPack.ml" 69 3016 3084
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkPack.BBox.set_child_secondary
+)
+"gPack.ml" 69 3016 3085 "gPack.ml" 69 3016 3088
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 69 3016 3089 "gPack.ml" 69 3016 3090
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 69 3016 3046 "gPack.ml" 69 3016 3047
+)
+"gPack.ml" 69 3016 3089 "gPack.ml" 69 3016 3100
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 69 3016 3060 "gPack.ml" 69 3016 3100
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+"gPack.ml" 72 3106 3110 "gPack.ml" 72 3106 3120
+type(
+  Gtk.Tags.orientation ->
+  ?spacing:int ->
+  ?child_width:int ->
+  ?child_height:int ->
+  ?child_ipadx:int ->
+  ?child_ipady:int ->
+  ?layout:GtkEnums.button_box_style ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> button_box
+)
+ident(
+  def button_box "gPack.ml" 83 3495 3495 --
+)
+"gPack.ml" 72 3106 3121 "gPack.ml" 72 3106 3124
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  def dir "gPack.ml" 72 3106 3125 "gPack.ml" 81 3472 3493
+)
+"gPack.ml" 72 3106 3126 "gPack.ml" 72 3106 3133
+type(
+  int option
+)
+ident(
+  def spacing "gPack.ml" 72 3106 3134 "gPack.ml" 81 3472 3493
+)
+"gPack.ml" 72 3106 3135 "gPack.ml" 72 3106 3146
+type(
+  int option
+)
+ident(
+  def child_width "gPack.ml" 72 3106 3147 "gPack.ml" 81 3472 3493
+)
+"gPack.ml" 72 3106 3148 "gPack.ml" 72 3106 3160
+type(
+  int option
+)
+ident(
+  def child_height "gPack.ml" 72 3106 3161 "gPack.ml" 81 3472 3493
+)
+"gPack.ml" 72 3106 3162 "gPack.ml" 72 3106 3173
+type(
+  int option
+)
+ident(
+  def child_ipadx "gPack.ml" 73 3174 3178 "gPack.ml" 81 3472 3493
+)
+"gPack.ml" 73 3174 3179 "gPack.ml" 73 3174 3190
+type(
+  int option
+)
+ident(
+  def child_ipady "gPack.ml" 73 3174 3191 "gPack.ml" 81 3472 3493
+)
+"gPack.ml" 73 3174 3192 "gPack.ml" 73 3174 3198
+type(
+  GtkEnums.button_box_style option
+)
+ident(
+  def layout "gPack.ml" 74 3201 3203 "gPack.ml" 81 3472 3493
+)
+"gPack.ml" 74 3201 3203 "gPack.ml" 74 3201 3217
+type(
+  create:(Gtk.button_box Gobject.param list -> button_box) ->
+  Gtk.button_box Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> button_box
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gPack.ml" 74 3201 3218 "gPack.ml" 74 3201 3220
+type(
+  Gtk.button_box Gobject.param list
+)
+"gPack.ml" 74 3201 3234 "gPack.ml" 74 3201 3235
+type(
+  Gtk.button_box Gobject.param list
+)
+ident(
+  def p "gPack.ml" 75 3239 3243 "gPack.ml" 81 3472 3492
+)
+"gPack.ml" 75 3239 3247 "gPack.ml" 75 3239 3248
+type(
+  Gtk.button_box Gobject.param list
+)
+"gPack.ml" 76 3251 3257 "gPack.ml" 76 3251 3274
+type(
+  (Gtk.button_box, int) Gobject.property ->
+  int option ->
+  Gtk.button_box Gobject.param list -> Gtk.button_box Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gPack.ml" 76 3251 3275 "gPack.ml" 76 3251 3288
+type(
+  (Gtk.button_box, int) Gobject.property
+)
+ident(
+  ext_ref GtkPack.Box.P.spacing
+)
+"gPack.ml" 76 3251 3289 "gPack.ml" 76 3251 3296
+type(
+  int option
+)
+ident(
+  int_ref spacing "gPack.ml" 72 3106 3126 "gPack.ml" 72 3106 3133
+)
+"gPack.ml" 77 3299 3305 "gPack.ml" 77 3299 3322
+type(
+  (Gtk.button_box, GtkEnums.button_box_style) Gobject.property ->
+  GtkEnums.button_box_style option ->
+  Gtk.button_box Gobject.param list -> Gtk.button_box Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gPack.ml" 77 3299 3323 "gPack.ml" 77 3299 3342
+type(
+  (Gtk.button_box, GtkEnums.button_box_style) Gobject.property
+)
+ident(
+  ext_ref GtkPack.BBox.P.layout_style
+)
+"gPack.ml" 77 3299 3343 "gPack.ml" 77 3299 3349
+type(
+  GtkEnums.button_box_style option
+)
+ident(
+  int_ref layout "gPack.ml" 73 3174 3192 "gPack.ml" 73 3174 3198
+)
+"gPack.ml" 77 3299 3350 "gPack.ml" 77 3299 3351
+type(
+  Gtk.button_box Gobject.param list
+)
+ident(
+  int_ref p "gPack.ml" 74 3201 3234 "gPack.ml" 74 3201 3235
+)
+"gPack.ml" 76 3251 3297 "gPack.ml" 77 3299 3352
+call(
+  stack
+)
+type(
+  Gtk.button_box Gobject.param list
+)
+"gPack.ml" 76 3251 3257 "gPack.ml" 77 3299 3352
+call(
+  stack
+)
+type(
+  Gtk.button_box Gobject.param list
+)
+"gPack.ml" 78 3356 3364 "gPack.ml" 78 3356 3365
+type(
+  Gtk.button_box Gtk.obj
+)
+"gPack.ml" 78 3356 3368 "gPack.ml" 78 3356 3379
+type(
+  Gtk.Tags.orientation ->
+  Gtk.button_box Gobject.param list -> Gtk.button_box Gtk.obj
+)
+ident(
+  ext_ref GtkPack.BBox.create
+)
+"gPack.ml" 78 3356 3380 "gPack.ml" 78 3356 3383
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  int_ref dir "gPack.ml" 72 3106 3121 "gPack.ml" 72 3106 3124
+)
+"gPack.ml" 78 3356 3384 "gPack.ml" 78 3356 3385
+type(
+  Gtk.button_box Gobject.param list
+)
+ident(
+  int_ref p "gPack.ml" 75 3239 3247 "gPack.ml" 75 3239 3248
+)
+"gPack.ml" 78 3356 3368 "gPack.ml" 78 3356 3385
+call(
+  stack
+)
+type(
+  Gtk.button_box Gtk.obj
+)
+"gPack.ml" 79 3389 3393 "gPack.ml" 79 3389 3401
+type(
+  ?child_width:int ->
+  ?child_height:int ->
+  ?child_ipadx:int ->
+  ?child_ipady:int ->
+  ?layout:GtkEnums.button_box_style -> Gtk.button_box Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkPack.BBox.set
+)
+"gPack.ml" 79 3389 3402 "gPack.ml" 79 3389 3403
+type(
+  Gtk.button_box Gtk.obj
+)
+ident(
+  int_ref w "gPack.ml" 78 3356 3364 "gPack.ml" 78 3356 3365
+)
+"gPack.ml" 79 3389 3405 "gPack.ml" 79 3389 3416
+type(
+  int option
+)
+ident(
+  int_ref child_width "gPack.ml" 72 3106 3135 "gPack.ml" 72 3106 3146
+)
+"gPack.ml" 79 3389 3418 "gPack.ml" 79 3389 3430
+type(
+  int option
+)
+ident(
+  int_ref child_height "gPack.ml" 72 3106 3148 "gPack.ml" 72 3106 3160
+)
+"gPack.ml" 79 3389 3432 "gPack.ml" 79 3389 3443
+type(
+  int option
+)
+ident(
+  int_ref child_ipadx "gPack.ml" 72 3106 3162 "gPack.ml" 72 3106 3173
+)
+"gPack.ml" 80 3444 3451 "gPack.ml" 80 3444 3462
+type(
+  int option
+)
+ident(
+  int_ref child_ipady "gPack.ml" 73 3174 3179 "gPack.ml" 73 3174 3190
+)
+"gPack.ml" 80 3444 3464 "gPack.ml" 80 3444 3470
+type(
+  GtkEnums.button_box_style option
+)
+ident(
+  int_ref layout "gPack.ml" 73 3174 3192 "gPack.ml" 73 3174 3198
+)
+"gPack.ml" 79 3389 3393 "gPack.ml" 80 3444 3470
+call(
+  stack
+)
+type(
+  unit
+)
+"gPack.ml" 81 3472 3476 "gPack.ml" 81 3472 3490
+type(
+  Gtk.button_box Gtk.obj -> button_box
+)
+"gPack.ml" 81 3472 3491 "gPack.ml" 81 3472 3492
+type(
+  Gtk.button_box Gtk.obj
+)
+ident(
+  int_ref w "gPack.ml" 78 3356 3364 "gPack.ml" 78 3356 3365
+)
+"gPack.ml" 81 3472 3476 "gPack.ml" 81 3472 3492
+call(
+  tail
+)
+type(
+  button_box
+)
+"gPack.ml" 79 3389 3393 "gPack.ml" 81 3472 3492
+type(
+  button_box
+)
+"gPack.ml" 78 3356 3360 "gPack.ml" 81 3472 3492
+type(
+  button_box
+)
+"gPack.ml" 75 3239 3243 "gPack.ml" 81 3472 3492
+type(
+  button_box
+)
+"gPack.ml" 74 3201 3229 "gPack.ml" 81 3472 3493
+type(
+  Gtk.button_box Gobject.param list -> button_box
+)
+"gPack.ml" 74 3201 3203 "gPack.ml" 81 3472 3493
+call(
+  tail
+)
+type(
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> button_box
+)
+"gPack.ml" 83 3495 3507 "gPack.ml" 83 3495 3510
+type(
+  Gtk.table Gtk.obj
+)
+"gPack.ml" 84 3520 3546 "gPack.ml" 84 3520 3549
+type(
+  Gtk.table Gtk.obj
+)
+type(
+  Gtk.table Gtk.obj
+)
+ident(
+  int_ref obj "gPack.ml" 83 3495 3507 "gPack.ml" 83 3495 3510
+)
+"gPack.ml" 85 3567 3590 "gPack.ml" 85 3567 3593
+type(
+  Gtk.table Gtk.obj
+)
+type(
+  Gtk.table Gtk.obj
+)
+"gPack.ml" 87 3616 3633 "gPack.ml" 87 3616 3637
+type(
+  int
+)
+ident(
+  def left "gPack.ml" 87 3616 3638 "gPack.ml" 90 3779 3818
+)
+"gPack.ml" 87 3616 3639 "gPack.ml" 87 3616 3642
+type(
+  int
+)
+ident(
+  def top "gPack.ml" 87 3616 3643 "gPack.ml" 90 3779 3818
+)
+"gPack.ml" 87 3616 3644 "gPack.ml" 87 3616 3649
+type(
+  int option
+)
+ident(
+  def right "gPack.ml" 87 3616 3650 "gPack.ml" 90 3779 3818
+)
+"gPack.ml" 87 3616 3651 "gPack.ml" 87 3616 3657
+type(
+  int option
+)
+ident(
+  def bottom "gPack.ml" 87 3616 3658 "gPack.ml" 90 3779 3818
+)
+"gPack.ml" 87 3616 3659 "gPack.ml" 87 3616 3665
+type(
+  Gtk.Tags.expand_type option
+)
+ident(
+  def expand "gPack.ml" 87 3616 3666 "gPack.ml" 90 3779 3818
+)
+"gPack.ml" 87 3616 3667 "gPack.ml" 87 3616 3671
+type(
+  Gtk.Tags.expand_type option
+)
+ident(
+  def fill "gPack.ml" 87 3616 3672 "gPack.ml" 90 3779 3818
+)
+"gPack.ml" 87 3616 3673 "gPack.ml" 87 3616 3679
+type(
+  Gtk.Tags.expand_type option
+)
+ident(
+  def shrink "gPack.ml" 88 3680 3686 "gPack.ml" 90 3779 3818
+)
+"gPack.ml" 88 3680 3687 "gPack.ml" 88 3680 3695
+type(
+  int option
+)
+ident(
+  def xpadding "gPack.ml" 88 3680 3696 "gPack.ml" 90 3779 3818
+)
+"gPack.ml" 88 3680 3697 "gPack.ml" 88 3680 3705
+type(
+  int option
+)
+ident(
+  def ypadding "gPack.ml" 88 3680 3706 "gPack.ml" 90 3779 3818
+)
+"gPack.ml" 88 3680 3706 "gPack.ml" 88 3680 3707
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 89 3710 3714 "gPack.ml" 90 3779 3818
+)
+"gPack.ml" 89 3710 3714 "gPack.ml" 89 3710 3726
+type(
+  Gtk.table Gtk.obj ->
+  left:int ->
+  top:int ->
+  ?right:int ->
+  ?bottom:int ->
+  ?expand:Gtk.Tags.expand_type ->
+  ?fill:Gtk.Tags.expand_type ->
+  ?shrink:Gtk.Tags.expand_type ->
+  ?xpadding:int -> ?ypadding:int -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkPack.Table.attach
+)
+"gPack.ml" 89 3710 3727 "gPack.ml" 89 3710 3730
+type(
+  Gtk.table Gtk.obj
+)
+"gPack.ml" 89 3710 3732 "gPack.ml" 89 3710 3741
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 89 3710 3742 "gPack.ml" 89 3710 3743
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 88 3680 3706 "gPack.ml" 88 3680 3707
+)
+"gPack.ml" 89 3710 3731 "gPack.ml" 89 3710 3744
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 89 3710 3746 "gPack.ml" 89 3710 3750
+type(
+  int
+)
+ident(
+  int_ref left "gPack.ml" 87 3616 3633 "gPack.ml" 87 3616 3637
+)
+"gPack.ml" 89 3710 3752 "gPack.ml" 89 3710 3755
+type(
+  int
+)
+ident(
+  int_ref top "gPack.ml" 87 3616 3639 "gPack.ml" 87 3616 3642
+)
+"gPack.ml" 89 3710 3757 "gPack.ml" 89 3710 3762
+type(
+  int option
+)
+ident(
+  int_ref right "gPack.ml" 87 3616 3644 "gPack.ml" 87 3616 3649
+)
+"gPack.ml" 89 3710 3764 "gPack.ml" 89 3710 3770
+type(
+  int option
+)
+ident(
+  int_ref bottom "gPack.ml" 87 3616 3651 "gPack.ml" 87 3616 3657
+)
+"gPack.ml" 89 3710 3772 "gPack.ml" 89 3710 3778
+type(
+  Gtk.Tags.expand_type option
+)
+ident(
+  int_ref expand "gPack.ml" 87 3616 3659 "gPack.ml" 87 3616 3665
+)
+"gPack.ml" 90 3779 3786 "gPack.ml" 90 3779 3790
+type(
+  Gtk.Tags.expand_type option
+)
+ident(
+  int_ref fill "gPack.ml" 87 3616 3667 "gPack.ml" 87 3616 3671
+)
+"gPack.ml" 90 3779 3792 "gPack.ml" 90 3779 3798
+type(
+  Gtk.Tags.expand_type option
+)
+ident(
+  int_ref shrink "gPack.ml" 87 3616 3673 "gPack.ml" 87 3616 3679
+)
+"gPack.ml" 90 3779 3800 "gPack.ml" 90 3779 3808
+type(
+  int option
+)
+ident(
+  int_ref xpadding "gPack.ml" 88 3680 3687 "gPack.ml" 88 3680 3695
+)
+"gPack.ml" 90 3779 3810 "gPack.ml" 90 3779 3818
+type(
+  int option
+)
+ident(
+  int_ref ypadding "gPack.ml" 88 3680 3697 "gPack.ml" 88 3680 3705
+)
+"gPack.ml" 89 3710 3714 "gPack.ml" 90 3779 3818
+call(
+  tail
+)
+type(
+  unit
+)
+"gPack.ml" 91 3819 3846 "gPack.ml" 91 3819 3867
+type(
+  Gtk.table Gtk.obj -> int -> int -> unit
+)
+ident(
+  ext_ref GtkPack.Table.set_row_spacing
+)
+"gPack.ml" 91 3819 3868 "gPack.ml" 91 3819 3871
+type(
+  Gtk.table Gtk.obj
+)
+"gPack.ml" 91 3819 3846 "gPack.ml" 91 3819 3871
+call(
+  tail
+)
+type(
+  int -> int -> unit
+)
+type(
+  int -> int -> unit
+)
+"gPack.ml" 92 3872 3899 "gPack.ml" 92 3872 3920
+type(
+  Gtk.table Gtk.obj -> int -> int -> unit
+)
+ident(
+  ext_ref GtkPack.Table.set_col_spacing
+)
+"gPack.ml" 92 3872 3921 "gPack.ml" 92 3872 3924
+type(
+  Gtk.table Gtk.obj
+)
+"gPack.ml" 92 3872 3899 "gPack.ml" 92 3872 3924
+call(
+  tail
+)
+type(
+  int -> int -> unit
+)
+type(
+  int -> int -> unit
+)
+"gPack.ml" 95 3930 3934 "gPack.ml" 95 3930 3939
+type(
+  ?columns:int ->
+  ?rows:int ->
+  ?homogeneous:bool ->
+  ?row_spacings:int ->
+  ?col_spacings:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> table
+)
+ident(
+  def table "gPack.ml" 99 4038 4038 --
+)
+"gPack.ml" 96 3942 3944 "gPack.ml" 96 3942 3961
+type(
+  cont:(Gtk.table Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> table) ->
+  Gtk.table Gobject.param list ->
+  ?columns:int ->
+  ?rows:int ->
+  ?homogeneous:bool ->
+  ?row_spacings:int ->
+  ?col_spacings:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> table
+)
+ident(
+  ext_ref GtkPack.Table.make_params
+)
+"gPack.ml" 96 3942 3962 "gPack.ml" 96 3942 3964
+type(
+  Gtk.table Gobject.param list
+)
+"gPack.ml" 97 3973 3975 "gPack.ml" 97 3973 3989
+type(
+  create:(Gtk.table Gobject.param list -> table) ->
+  Gtk.table Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> table
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gPack.ml" 97 3973 4003 "gPack.ml" 97 3973 4004
+type(
+  Gtk.table Gobject.param list
+)
+ident(
+  def p "gPack.ml" 97 3973 4008 "gPack.ml" 97 3973 4034
+)
+"gPack.ml" 97 3973 4008 "gPack.ml" 97 3973 4017
+type(
+  Gtk.table Gtk.obj -> table
+)
+"gPack.ml" 97 3973 4019 "gPack.ml" 97 3973 4031
+type(
+  Gtk.table Gobject.param list -> Gtk.table Gtk.obj
+)
+ident(
+  ext_ref GtkPack.Table.create
+)
+"gPack.ml" 97 3973 4032 "gPack.ml" 97 3973 4033
+type(
+  Gtk.table Gobject.param list
+)
+ident(
+  int_ref p "gPack.ml" 97 3973 4003 "gPack.ml" 97 3973 4004
+)
+"gPack.ml" 97 3973 4018 "gPack.ml" 97 3973 4034
+call(
+  stack
+)
+type(
+  Gtk.table Gtk.obj
+)
+"gPack.ml" 97 3973 4008 "gPack.ml" 97 3973 4034
+call(
+  tail
+)
+type(
+  table
+)
+"gPack.ml" 97 3973 3998 "gPack.ml" 97 3973 4035
+type(
+  Gtk.table Gobject.param list -> table
+)
+"gPack.ml" 96 3942 3971 "gPack.ml" 97 3973 4036
+call(
+  stack
+)
+type(
+  Gtk.table Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> table
+)
+"gPack.ml" 96 3942 3944 "gPack.ml" 97 3973 4036
+call(
+  stack
+)
+type(
+  ?columns:int ->
+  ?rows:int ->
+  ?homogeneous:bool ->
+  ?row_spacings:int ->
+  ?col_spacings:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> table
+)
+"gPack.ml" 99 4038 4050 "gPack.ml" 99 4038 4053
+type(
+  Gtk.fixed Gtk.obj
+)
+"gPack.ml" 100 4063 4089 "gPack.ml" 100 4063 4092
+type(
+  Gtk.fixed Gtk.obj
+)
+type(
+  Gtk.fixed Gtk.obj
+)
+ident(
+  int_ref obj "gPack.ml" 99 4038 4050 "gPack.ml" 99 4038 4053
+)
+"gPack.ml" 101 4110 4127 "gPack.ml" 101 4110 4145
+type(
+  Gtk.fixed Gtk.obj -> GObj.event_ops
+)
+"gPack.ml" 101 4110 4146 "gPack.ml" 101 4110 4149
+type(
+  Gtk.fixed Gtk.obj
+)
+"gPack.ml" 101 4110 4127 "gPack.ml" 101 4110 4149
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gPack.ml" 102 4150 4163 "gPack.ml" 102 4150 4164
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 102 4150 4167 "gPack.ml" 102 4150 4194
+)
+"gPack.ml" 102 4150 4167 "gPack.ml" 102 4150 4176
+type(
+  Gtk.fixed Gtk.obj -> Gtk.widget Gtk.obj -> x:int -> y:int -> unit
+)
+ident(
+  ext_ref GtkPack.Fixed.put
+)
+"gPack.ml" 102 4150 4177 "gPack.ml" 102 4150 4180
+type(
+  Gtk.fixed Gtk.obj
+)
+"gPack.ml" 102 4150 4182 "gPack.ml" 102 4150 4191
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 102 4150 4192 "gPack.ml" 102 4150 4193
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 102 4150 4163 "gPack.ml" 102 4150 4164
+)
+"gPack.ml" 102 4150 4181 "gPack.ml" 102 4150 4194
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 102 4150 4167 "gPack.ml" 102 4150 4194
+call(
+  tail
+)
+type(
+  x:int -> y:int -> unit
+)
+"gPack.ml" 103 4195 4209 "gPack.ml" 103 4195 4210
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 103 4195 4213 "gPack.ml" 103 4195 4241
+)
+"gPack.ml" 103 4195 4213 "gPack.ml" 103 4195 4223
+type(
+  Gtk.fixed Gtk.obj -> Gtk.widget Gtk.obj -> x:int -> y:int -> unit
+)
+ident(
+  ext_ref GtkPack.Fixed.move
+)
+"gPack.ml" 103 4195 4224 "gPack.ml" 103 4195 4227
+type(
+  Gtk.fixed Gtk.obj
+)
+"gPack.ml" 103 4195 4229 "gPack.ml" 103 4195 4238
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 103 4195 4239 "gPack.ml" 103 4195 4240
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 103 4195 4209 "gPack.ml" 103 4195 4210
+)
+"gPack.ml" 103 4195 4228 "gPack.ml" 103 4195 4241
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 103 4195 4213 "gPack.ml" 103 4195 4241
+call(
+  tail
+)
+type(
+  x:int -> y:int -> unit
+)
+"gPack.ml" 104 4242 4268 "gPack.ml" 104 4242 4288
+type(
+  Gtk.fixed Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkPack.Fixed.set_has_window
+)
+"gPack.ml" 104 4242 4289 "gPack.ml" 104 4242 4292
+type(
+  Gtk.fixed Gtk.obj
+)
+"gPack.ml" 104 4242 4268 "gPack.ml" 104 4242 4292
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gPack.ml" 105 4293 4315 "gPack.ml" 105 4293 4335
+type(
+  Gtk.fixed Gtk.obj -> bool
+)
+ident(
+  ext_ref GtkPack.Fixed.get_has_window
+)
+"gPack.ml" 105 4293 4336 "gPack.ml" 105 4293 4339
+type(
+  Gtk.fixed Gtk.obj
+)
+"gPack.ml" 105 4293 4315 "gPack.ml" 105 4293 4339
+type(
+  bool
+)
+type(
+  bool
+)
+"gPack.ml" 108 4345 4349 "gPack.ml" 108 4345 4354
+type(
+  ?has_window:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> fixed
+)
+ident(
+  def fixed "gPack.ml" 114 4497 4497 --
+)
+"gPack.ml" 108 4345 4356 "gPack.ml" 108 4345 4366
+type(
+  bool option
+)
+ident(
+  def has_window "gPack.ml" 109 4369 4371 "gPack.ml" 112 4489 4495
+)
+"gPack.ml" 109 4369 4371 "gPack.ml" 109 4369 4385
+type(
+  create:(Gtk.fixed Gobject.param list -> fixed) ->
+  Gtk.fixed Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> fixed
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gPack.ml" 109 4369 4386 "gPack.ml" 109 4369 4388
+type(
+  Gtk.fixed Gobject.param list
+)
+"gPack.ml" 109 4369 4402 "gPack.ml" 109 4369 4403
+type(
+  Gtk.fixed Gobject.param list
+)
+ident(
+  def p "gPack.ml" 110 4407 4411 "gPack.ml" 112 4489 4494
+)
+"gPack.ml" 110 4407 4415 "gPack.ml" 110 4407 4416
+type(
+  fixed
+)
+"gPack.ml" 110 4407 4419 "gPack.ml" 110 4407 4428
+type(
+  Gtk.fixed Gtk.obj -> fixed
+)
+"gPack.ml" 110 4407 4430 "gPack.ml" 110 4407 4442
+type(
+  Gtk.fixed Gobject.param list -> Gtk.fixed Gtk.obj
+)
+ident(
+  ext_ref GtkPack.Fixed.create
+)
+"gPack.ml" 110 4407 4443 "gPack.ml" 110 4407 4444
+type(
+  Gtk.fixed Gobject.param list
+)
+ident(
+  int_ref p "gPack.ml" 109 4369 4402 "gPack.ml" 109 4369 4403
+)
+"gPack.ml" 110 4407 4429 "gPack.ml" 110 4407 4445
+call(
+  stack
+)
+type(
+  Gtk.fixed Gtk.obj
+)
+"gPack.ml" 110 4407 4419 "gPack.ml" 110 4407 4445
+call(
+  stack
+)
+type(
+  fixed
+)
+"gPack.ml" 111 4449 4453 "gPack.ml" 111 4449 4456
+type(
+  f:(bool -> unit) -> bool option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gPack.ml" 111 4449 4457 "gPack.ml" 111 4449 4467
+type(
+  bool option
+)
+ident(
+  int_ref has_window "gPack.ml" 108 4345 4356 "gPack.ml" 108 4345 4366
+)
+"gPack.ml" 111 4449 4471 "gPack.ml" 111 4449 4472
+type(
+  fixed
+)
+ident(
+  int_ref w "gPack.ml" 110 4407 4415 "gPack.ml" 110 4407 4416
+)
+"gPack.ml" 111 4449 4471 "gPack.ml" 111 4449 4487
+call(
+  stack
+)
+type(
+  bool -> unit
+)
+"gPack.ml" 111 4449 4453 "gPack.ml" 111 4449 4487
+call(
+  stack
+)
+type(
+  unit
+)
+"gPack.ml" 112 4489 4493 "gPack.ml" 112 4489 4494
+type(
+  fixed
+)
+ident(
+  int_ref w "gPack.ml" 110 4407 4415 "gPack.ml" 110 4407 4416
+)
+"gPack.ml" 111 4449 4453 "gPack.ml" 112 4489 4494
+type(
+  fixed
+)
+"gPack.ml" 110 4407 4411 "gPack.ml" 112 4489 4494
+type(
+  fixed
+)
+"gPack.ml" 109 4369 4397 "gPack.ml" 112 4489 4495
+type(
+  Gtk.fixed Gobject.param list -> fixed
+)
+"gPack.ml" 109 4369 4371 "gPack.ml" 112 4489 4495
+call(
+  tail
+)
+type(
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> fixed
+)
+"gPack.ml" 114 4497 4510 "gPack.ml" 114 4497 4513
+type(
+  [> `container | `gtk | `layout | `widget ] Gtk.obj
+)
+"gPack.ml" 115 4523 4548 "gPack.ml" 115 4523 4551
+type(
+  ([> `container | `gtk | `layout | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gPack.ml" 114 4497 4510 "gPack.ml" 114 4497 4513
+)
+"gPack.ml" 116 4552 4569 "gPack.ml" 116 4552 4587
+type(
+  'a Gtk.obj -> GObj.event_ops
+)
+"gPack.ml" 116 4552 4588 "gPack.ml" 116 4552 4591
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 116 4552 4569 "gPack.ml" 116 4552 4591
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gPack.ml" 117 4592 4605 "gPack.ml" 117 4592 4606
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 117 4592 4609 "gPack.ml" 117 4592 4637
+)
+"gPack.ml" 117 4592 4609 "gPack.ml" 117 4592 4619
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> x:int -> y:int -> unit
+)
+ident(
+  ext_ref GtkPack.Layout.put
+)
+"gPack.ml" 117 4592 4620 "gPack.ml" 117 4592 4623
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 117 4592 4625 "gPack.ml" 117 4592 4634
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 117 4592 4635 "gPack.ml" 117 4592 4636
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 117 4592 4605 "gPack.ml" 117 4592 4606
+)
+"gPack.ml" 117 4592 4624 "gPack.ml" 117 4592 4637
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 117 4592 4609 "gPack.ml" 117 4592 4637
+call(
+  tail
+)
+type(
+  x:int -> y:int -> unit
+)
+"gPack.ml" 118 4638 4652 "gPack.ml" 118 4638 4653
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 118 4638 4656 "gPack.ml" 118 4638 4685
+)
+"gPack.ml" 118 4638 4656 "gPack.ml" 118 4638 4667
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> x:int -> y:int -> unit
+)
+ident(
+  ext_ref GtkPack.Layout.move
+)
+"gPack.ml" 118 4638 4668 "gPack.ml" 118 4638 4671
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 118 4638 4673 "gPack.ml" 118 4638 4682
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 118 4638 4683 "gPack.ml" 118 4638 4684
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 118 4638 4652 "gPack.ml" 118 4638 4653
+)
+"gPack.ml" 118 4638 4672 "gPack.ml" 118 4638 4685
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 118 4638 4656 "gPack.ml" 118 4638 4685
+call(
+  tail
+)
+type(
+  x:int -> y:int -> unit
+)
+"gPack.ml" 119 4686 4711 "gPack.ml" 119 4686 4714
+type(
+  GData.adjustment
+)
+ident(
+  def adj "gPack.ml" 120 4717 4721 "gPack.ml" 120 4717 4775
+)
+"gPack.ml" 120 4717 4721 "gPack.ml" 120 4717 4724
+type(
+  ('a, Gtk.adjustment Gtk.obj) Gobject.property ->
+  'a Gtk.obj -> Gtk.adjustment Gtk.obj -> unit
+)
+ident(
+  ext_ref OgtkPackProps.set
+)
+"gPack.ml" 120 4717 4725 "gPack.ml" 120 4717 4745
+type(
+  ('a, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkPack.Layout.P.hadjustment
+)
+"gPack.ml" 120 4717 4746 "gPack.ml" 120 4717 4749
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 120 4717 4751 "gPack.ml" 120 4717 4770
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gPack.ml" 120 4717 4771 "gPack.ml" 120 4717 4774
+type(
+  GData.adjustment
+)
+ident(
+  int_ref adj "gPack.ml" 119 4686 4711 "gPack.ml" 119 4686 4714
+)
+"gPack.ml" 120 4717 4750 "gPack.ml" 120 4717 4775
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gPack.ml" 120 4717 4721 "gPack.ml" 120 4717 4775
+call(
+  tail
+)
+type(
+  unit
+)
+"gPack.ml" 121 4776 4801 "gPack.ml" 121 4776 4804
+type(
+  GData.adjustment
+)
+ident(
+  def adj "gPack.ml" 122 4807 4811 "gPack.ml" 122 4807 4865
+)
+"gPack.ml" 122 4807 4811 "gPack.ml" 122 4807 4814
+type(
+  ('a, Gtk.adjustment Gtk.obj) Gobject.property ->
+  'a Gtk.obj -> Gtk.adjustment Gtk.obj -> unit
+)
+ident(
+  ext_ref OgtkPackProps.set
+)
+"gPack.ml" 122 4807 4815 "gPack.ml" 122 4807 4835
+type(
+  ('a, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkPack.Layout.P.vadjustment
+)
+"gPack.ml" 122 4807 4836 "gPack.ml" 122 4807 4839
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 122 4807 4841 "gPack.ml" 122 4807 4860
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gPack.ml" 122 4807 4861 "gPack.ml" 122 4807 4864
+type(
+  GData.adjustment
+)
+ident(
+  int_ref adj "gPack.ml" 121 4776 4801 "gPack.ml" 121 4776 4804
+)
+"gPack.ml" 122 4807 4840 "gPack.ml" 122 4807 4865
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gPack.ml" 122 4807 4811 "gPack.ml" 122 4807 4865
+call(
+  tail
+)
+type(
+  unit
+)
+"gPack.ml" 123 4866 4887 "gPack.ml" 123 4866 4890
+type(
+  ('a, int) Gobject.property -> 'a Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref OgtkPackProps.set
+)
+"gPack.ml" 123 4866 4891 "gPack.ml" 123 4866 4905
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPack.Layout.P.width
+)
+"gPack.ml" 123 4866 4906 "gPack.ml" 123 4866 4909
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 123 4866 4887 "gPack.ml" 123 4866 4909
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gPack.ml" 124 4910 4932 "gPack.ml" 124 4910 4935
+type(
+  ('a, int) Gobject.property -> 'a Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref OgtkPackProps.set
+)
+"gPack.ml" 124 4910 4936 "gPack.ml" 124 4910 4951
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPack.Layout.P.height
+)
+"gPack.ml" 124 4910 4952 "gPack.ml" 124 4910 4955
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 124 4910 4932 "gPack.ml" 124 4910 4955
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gPack.ml" 125 4956 4979 "gPack.ml" 125 4956 4999
+type(
+  Gtk.adjustment Gtk.obj -> GData.adjustment
+)
+"gPack.ml" 125 4956 5001 "gPack.ml" 125 4956 5004
+type(
+  ('a, Gtk.adjustment Gtk.obj) Gobject.property ->
+  'a Gtk.obj -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref OgtkPackProps.get
+)
+"gPack.ml" 125 4956 5005 "gPack.ml" 125 4956 5025
+type(
+  ('a, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkPack.Layout.P.hadjustment
+)
+"gPack.ml" 125 4956 5026 "gPack.ml" 125 4956 5029
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 125 4956 5000 "gPack.ml" 125 4956 5030
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gPack.ml" 125 4956 4979 "gPack.ml" 125 4956 5030
+call(
+  tail
+)
+type(
+  GData.adjustment
+)
+type(
+  GData.adjustment
+)
+"gPack.ml" 126 5031 5054 "gPack.ml" 126 5031 5074
+type(
+  Gtk.adjustment Gtk.obj -> GData.adjustment
+)
+"gPack.ml" 126 5031 5076 "gPack.ml" 126 5031 5079
+type(
+  ('a, Gtk.adjustment Gtk.obj) Gobject.property ->
+  'a Gtk.obj -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref OgtkPackProps.get
+)
+"gPack.ml" 126 5031 5080 "gPack.ml" 126 5031 5100
+type(
+  ('a, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkPack.Layout.P.vadjustment
+)
+"gPack.ml" 126 5031 5101 "gPack.ml" 126 5031 5104
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 126 5031 5075 "gPack.ml" 126 5031 5105
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gPack.ml" 126 5031 5054 "gPack.ml" 126 5031 5105
+call(
+  tail
+)
+type(
+  GData.adjustment
+)
+type(
+  GData.adjustment
+)
+"gPack.ml" 127 5106 5122 "gPack.ml" 127 5106 5124
+type(
+  unit
+)
+"gPack.ml" 127 5106 5127 "gPack.ml" 127 5106 5140
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkPack.Layout.freeze
+)
+"gPack.ml" 127 5106 5141 "gPack.ml" 127 5106 5144
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 127 5106 5127 "gPack.ml" 127 5106 5144
+type(
+  unit
+)
+"gPack.ml" 128 5145 5167 "gPack.ml" 128 5145 5184
+type(
+  'a Gtk.obj -> Gdk.window
+)
+ident(
+  ext_ref GtkPack.Layout.bin_window
+)
+"gPack.ml" 128 5145 5185 "gPack.ml" 128 5145 5188
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 128 5145 5167 "gPack.ml" 128 5145 5188
+type(
+  Gdk.window
+)
+type(
+  Gdk.window
+)
+"gPack.ml" 129 5189 5203 "gPack.ml" 129 5189 5205
+type(
+  unit
+)
+"gPack.ml" 129 5189 5208 "gPack.ml" 129 5189 5219
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkPack.Layout.thaw
+)
+"gPack.ml" 129 5189 5220 "gPack.ml" 129 5189 5223
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 129 5189 5208 "gPack.ml" 129 5189 5223
+type(
+  unit
+)
+"gPack.ml" 130 5224 5241 "gPack.ml" 130 5224 5244
+type(
+  ('a, int) Gobject.property -> 'a Gtk.obj -> int
+)
+ident(
+  ext_ref OgtkPackProps.get
+)
+"gPack.ml" 130 5224 5245 "gPack.ml" 130 5224 5259
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPack.Layout.P.width
+)
+"gPack.ml" 130 5224 5260 "gPack.ml" 130 5224 5263
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 130 5224 5241 "gPack.ml" 130 5224 5263
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"gPack.ml" 131 5264 5282 "gPack.ml" 131 5264 5285
+type(
+  ('a, int) Gobject.property -> 'a Gtk.obj -> int
+)
+ident(
+  ext_ref OgtkPackProps.get
+)
+"gPack.ml" 131 5264 5286 "gPack.ml" 131 5264 5301
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPack.Layout.P.height
+)
+"gPack.ml" 131 5264 5302 "gPack.ml" 131 5264 5305
+type(
+  'a Gtk.obj
+)
+"gPack.ml" 131 5264 5282 "gPack.ml" 131 5264 5305
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"gPack.ml" 134 5311 5315 "gPack.ml" 134 5311 5321
+type(
+  ?hadjustment:GData.adjustment ->
+  ?vadjustment:'a ->
+  ?layout_width:int ->
+  ?layout_height:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> layout
+)
+ident(
+  def layout "gPack.ml" 169 6846 6846 --
+)
+"gPack.ml" 134 5311 5323 "gPack.ml" 134 5311 5334
+type(
+  GData.adjustment option
+)
+ident(
+  def hadjustment "gPack.ml" 134 5311 5335 "gPack.ml" 139 5575 5640
+)
+"gPack.ml" 134 5311 5336 "gPack.ml" 134 5311 5347
+type(
+  'a option
+)
+ident(
+  def vadjustment "gPack.ml" 134 5311 5348 "gPack.ml" 139 5575 5640
+)
+"gPack.ml" 134 5311 5349 "gPack.ml" 134 5311 5361
+type(
+  int option
+)
+ident(
+  def layout_width "gPack.ml" 134 5311 5362 "gPack.ml" 139 5575 5640
+)
+"gPack.ml" 134 5311 5363 "gPack.ml" 134 5311 5376
+type(
+  int option
+)
+ident(
+  def layout_height "gPack.ml" 135 5379 5381 "gPack.ml" 139 5575 5640
+)
+"gPack.ml" 135 5379 5381 "gPack.ml" 135 5379 5399
+type(
+  cont:(Gtk.layout Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> layout) ->
+  Gtk.layout Gobject.param list ->
+  ?hadjustment:Gtk.adjustment Gtk.obj ->
+  ?height:int ->
+  ?vadjustment:Gtk.adjustment Gtk.obj ->
+  ?width:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> layout
+)
+ident(
+  ext_ref GtkPack.Layout.make_params
+)
+"gPack.ml" 135 5379 5400 "gPack.ml" 135 5379 5402
+type(
+  Gtk.layout Gobject.param list
+)
+"gPack.ml" 136 5403 5421 "gPack.ml" 136 5403 5428
+type(
+  f:(GData.adjustment -> Gtk.adjustment Gtk.obj) ->
+  GData.adjustment option -> Gtk.adjustment Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gPack.ml" 136 5403 5429 "gPack.ml" 136 5403 5448
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gPack.ml" 136 5403 5449 "gPack.ml" 136 5403 5460
+type(
+  GData.adjustment option
+)
+ident(
+  int_ref hadjustment "gPack.ml" 134 5311 5323 "gPack.ml" 134 5311 5334
+)
+"gPack.ml" 136 5403 5420 "gPack.ml" 136 5403 5461
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gPack.ml" 137 5462 5480 "gPack.ml" 137 5462 5487
+type(
+  f:(GData.adjustment -> Gtk.adjustment Gtk.obj) ->
+  GData.adjustment option -> Gtk.adjustment Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gPack.ml" 137 5462 5488 "gPack.ml" 137 5462 5507
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gPack.ml" 137 5462 5508 "gPack.ml" 137 5462 5519
+type(
+  GData.adjustment option
+)
+ident(
+  int_ref hadjustment "gPack.ml" 134 5311 5323 "gPack.ml" 134 5311 5334
+)
+"gPack.ml" 137 5462 5479 "gPack.ml" 137 5462 5520
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gPack.ml" 138 5521 5532 "gPack.ml" 138 5521 5544
+type(
+  int option
+)
+ident(
+  int_ref layout_width "gPack.ml" 134 5311 5349 "gPack.ml" 134 5311 5361
+)
+"gPack.ml" 138 5521 5553 "gPack.ml" 138 5521 5566
+type(
+  int option
+)
+ident(
+  int_ref layout_height "gPack.ml" 134 5311 5363 "gPack.ml" 134 5311 5376
+)
+"gPack.ml" 139 5575 5577 "gPack.ml" 139 5575 5591
+type(
+  create:(Gtk.layout Gobject.param list -> layout) ->
+  Gtk.layout Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> layout
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gPack.ml" 139 5575 5605 "gPack.ml" 139 5575 5606
+type(
+  Gtk.layout Gobject.param list
+)
+ident(
+  def p "gPack.ml" 139 5575 5610 "gPack.ml" 139 5575 5638
+)
+"gPack.ml" 139 5575 5610 "gPack.ml" 139 5575 5620
+type(
+  Gtk.layout Gtk.obj -> layout
+)
+"gPack.ml" 139 5575 5622 "gPack.ml" 139 5575 5635
+type(
+  Gtk.layout Gobject.param list -> Gtk.layout Gtk.obj
+)
+ident(
+  ext_ref GtkPack.Layout.create
+)
+"gPack.ml" 139 5575 5636 "gPack.ml" 139 5575 5637
+type(
+  Gtk.layout Gobject.param list
+)
+ident(
+  int_ref p "gPack.ml" 139 5575 5605 "gPack.ml" 139 5575 5606
+)
+"gPack.ml" 139 5575 5621 "gPack.ml" 139 5575 5638
+call(
+  stack
+)
+type(
+  Gtk.layout Gtk.obj
+)
+"gPack.ml" 139 5575 5610 "gPack.ml" 139 5575 5638
+call(
+  tail
+)
+type(
+  layout
+)
+"gPack.ml" 139 5575 5600 "gPack.ml" 139 5575 5639
+type(
+  Gtk.layout Gobject.param list -> layout
+)
+"gPack.ml" 138 5521 5573 "gPack.ml" 139 5575 5640
+call(
+  stack
+)
+type(
+  Gtk.layout Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> layout
+)
+"gPack.ml" 135 5379 5381 "gPack.ml" 139 5575 5640
+call(
+  tail
+)
+type(
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> layout
+)
+"gPack.ml" 169 6846 6858 "gPack.ml" 169 6846 6861
+type(
+  Gtk.paned Gtk.obj
+)
+"gPack.ml" 170 6871 6908 "gPack.ml" 170 6871 6911
+type(
+  Gtk.paned Gtk.obj
+)
+ident(
+  int_ref obj "gPack.ml" 169 6846 6858 "gPack.ml" 169 6846 6861
+)
+"gPack.ml" 172 6934 6953 "gPack.ml" 172 6934 6979
+type(
+  Gtk.paned Gtk.obj -> GContainer.container_signals_impl
+)
+"gPack.ml" 172 6934 6980 "gPack.ml" 172 6934 6983
+type(
+  Gtk.paned Gtk.obj
+)
+"gPack.ml" 172 6934 6953 "gPack.ml" 172 6934 6983
+call(
+  tail
+)
+type(
+  GContainer.container_signals_impl
+)
+type(
+  GContainer.container_signals_impl
+)
+"gPack.ml" 173 6984 7001 "gPack.ml" 173 6984 7019
+type(
+  Gtk.paned Gtk.obj -> GObj.event_ops
+)
+"gPack.ml" 173 6984 7020 "gPack.ml" 173 6984 7023
+type(
+  Gtk.paned Gtk.obj
+)
+"gPack.ml" 173 6984 7001 "gPack.ml" 173 6984 7023
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gPack.ml" 174 7024 7037 "gPack.ml" 174 7024 7038
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 175 7041 7045 "gPack.ml" 177 7146 7181
+)
+"gPack.ml" 175 7041 7048 "gPack.ml" 175 7041 7059
+type(
+  Gtk.widget Gtk.obj list -> int
+)
+ident(
+  ext_ref List.length
+)
+"gPack.ml" 175 7041 7061 "gPack.ml" 175 7041 7079
+type(
+  Gtk.paned Gtk.obj -> Gtk.widget Gtk.obj list
+)
+ident(
+  ext_ref GtkBase.Container.children
+)
+"gPack.ml" 175 7041 7080 "gPack.ml" 175 7041 7083
+type(
+  Gtk.paned Gtk.obj
+)
+"gPack.ml" 175 7041 7060 "gPack.ml" 175 7041 7084
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj list
+)
+"gPack.ml" 175 7041 7048 "gPack.ml" 175 7041 7084
+call(
+  stack
+)
+type(
+  int
+)
+"gPack.ml" 175 7041 7085 "gPack.ml" 175 7041 7086
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gPack.ml" 175 7041 7087 "gPack.ml" 175 7041 7088
+type(
+  int
+)
+"gPack.ml" 175 7041 7048 "gPack.ml" 175 7041 7088
+type(
+  bool
+)
+"gPack.ml" 176 7094 7100 "gPack.ml" 176 7094 7105
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gPack.ml" 176 7094 7112 "gPack.ml" 176 7094 7143
+type(
+  string
+)
+"gPack.ml" 176 7094 7105 "gPack.ml" 176 7094 7144
+type(
+  exn
+)
+"gPack.ml" 176 7094 7100 "gPack.ml" 176 7094 7144
+type(
+  unit
+)
+"gPack.ml" 175 7041 7045 "gPack.ml" 176 7094 7144
+type(
+  unit
+)
+"gPack.ml" 177 7146 7150 "gPack.ml" 177 7146 7163
+type(
+  Gtk.paned Gtk.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBase.Container.add
+)
+"gPack.ml" 177 7146 7164 "gPack.ml" 177 7146 7167
+type(
+  Gtk.paned Gtk.obj
+)
+"gPack.ml" 177 7146 7169 "gPack.ml" 177 7146 7178
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 177 7146 7179 "gPack.ml" 177 7146 7180
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 174 7024 7037 "gPack.ml" 174 7024 7038
+)
+"gPack.ml" 177 7146 7168 "gPack.ml" 177 7146 7181
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 177 7146 7150 "gPack.ml" 177 7146 7181
+type(
+  unit
+)
+"gPack.ml" 175 7041 7045 "gPack.ml" 177 7146 7181
+type(
+  unit
+)
+"gPack.ml" 178 7182 7196 "gPack.ml" 178 7182 7197
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 179 7200 7204 "gPack.ml" 180 7280 7322
+)
+"gPack.ml" 179 7200 7208 "gPack.ml" 179 7200 7214
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gPack.ml" 179 7200 7215 "gPack.ml" 179 7200 7227
+type(
+  Gtk.paned Gtk.obj -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GtkPack.Paned.child1
+)
+"gPack.ml" 179 7200 7228 "gPack.ml" 179 7200 7231
+type(
+  Gtk.paned Gtk.obj
+)
+"gPack.ml" 179 7200 7214 "gPack.ml" 179 7200 7232
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 179 7200 7208 "gPack.ml" 179 7200 7232
+type(
+  unit
+)
+"gPack.ml" 179 7200 7234 "gPack.ml" 179 7200 7239
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gPack.ml" 179 7200 7246 "gPack.ml" 179 7200 7278
+type(
+  string
+)
+"gPack.ml" 179 7200 7239 "gPack.ml" 179 7200 7279
+type(
+  exn
+)
+"gPack.ml" 179 7200 7234 "gPack.ml" 179 7200 7279
+type(
+  unit
+)
+"gPack.ml" 179 7200 7208 "gPack.ml" 179 7200 7279
+type(
+  unit
+)
+"gPack.ml" 180 7280 7289 "gPack.ml" 180 7280 7290
+type(
+  exn
+)
+"gPack.ml" 180 7280 7294 "gPack.ml" 180 7280 7304
+type(
+  Gtk.paned Gtk.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkPack.Paned.add1
+)
+"gPack.ml" 180 7280 7305 "gPack.ml" 180 7280 7308
+type(
+  Gtk.paned Gtk.obj
+)
+"gPack.ml" 180 7280 7310 "gPack.ml" 180 7280 7319
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 180 7280 7320 "gPack.ml" 180 7280 7321
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 178 7182 7196 "gPack.ml" 178 7182 7197
+)
+"gPack.ml" 180 7280 7309 "gPack.ml" 180 7280 7322
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 180 7280 7294 "gPack.ml" 180 7280 7322
+type(
+  unit
+)
+"gPack.ml" 179 7200 7204 "gPack.ml" 180 7280 7322
+type(
+  unit
+)
+"gPack.ml" 181 7323 7337 "gPack.ml" 181 7323 7338
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 182 7341 7345 "gPack.ml" 183 7421 7463
+)
+"gPack.ml" 182 7341 7349 "gPack.ml" 182 7341 7355
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gPack.ml" 182 7341 7356 "gPack.ml" 182 7341 7368
+type(
+  Gtk.paned Gtk.obj -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GtkPack.Paned.child2
+)
+"gPack.ml" 182 7341 7369 "gPack.ml" 182 7341 7372
+type(
+  Gtk.paned Gtk.obj
+)
+"gPack.ml" 182 7341 7355 "gPack.ml" 182 7341 7373
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 182 7341 7349 "gPack.ml" 182 7341 7373
+type(
+  unit
+)
+"gPack.ml" 182 7341 7375 "gPack.ml" 182 7341 7380
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gPack.ml" 182 7341 7387 "gPack.ml" 182 7341 7419
+type(
+  string
+)
+"gPack.ml" 182 7341 7380 "gPack.ml" 182 7341 7420
+type(
+  exn
+)
+"gPack.ml" 182 7341 7375 "gPack.ml" 182 7341 7420
+type(
+  unit
+)
+"gPack.ml" 182 7341 7349 "gPack.ml" 182 7341 7420
+type(
+  unit
+)
+"gPack.ml" 183 7421 7430 "gPack.ml" 183 7421 7431
+type(
+  exn
+)
+"gPack.ml" 183 7421 7435 "gPack.ml" 183 7421 7445
+type(
+  Gtk.paned Gtk.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkPack.Paned.add2
+)
+"gPack.ml" 183 7421 7446 "gPack.ml" 183 7421 7449
+type(
+  Gtk.paned Gtk.obj
+)
+"gPack.ml" 183 7421 7451 "gPack.ml" 183 7421 7460
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 183 7421 7461 "gPack.ml" 183 7421 7462
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 181 7323 7337 "gPack.ml" 181 7323 7338
+)
+"gPack.ml" 183 7421 7450 "gPack.ml" 183 7421 7463
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 183 7421 7435 "gPack.ml" 183 7421 7463
+type(
+  unit
+)
+"gPack.ml" 182 7341 7345 "gPack.ml" 183 7421 7463
+type(
+  unit
+)
+"gPack.ml" 184 7464 7481 "gPack.ml" 184 7464 7487
+type(
+  bool
+)
+"gPack.ml" 184 7464 7488 "gPack.ml" 184 7464 7493
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gPack.ml" 184 7464 7488 "gPack.ml" 184 7464 7493
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gPack.ml" 184 7464 7488 "gPack.ml" 184 7464 7493
+)
+"gPack.ml" 184 7464 7497 "gPack.ml" 184 7464 7503
+type(
+  bool
+)
+"gPack.ml" 184 7464 7504 "gPack.ml" 184 7464 7509
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gPack.ml" 184 7464 7504 "gPack.ml" 184 7464 7509
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gPack.ml" 184 7464 7504 "gPack.ml" 184 7464 7509
+)
+"gPack.ml" 184 7464 7511 "gPack.ml" 184 7464 7512
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 185 7515 7519 "gPack.ml" 187 7602 7661
+)
+"gPack.ml" 185 7515 7523 "gPack.ml" 185 7515 7529
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gPack.ml" 185 7515 7530 "gPack.ml" 185 7515 7542
+type(
+  Gtk.paned Gtk.obj -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GtkPack.Paned.child1
+)
+"gPack.ml" 185 7515 7543 "gPack.ml" 185 7515 7546
+type(
+  Gtk.paned Gtk.obj
+)
+"gPack.ml" 185 7515 7529 "gPack.ml" 185 7515 7547
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 185 7515 7523 "gPack.ml" 185 7515 7547
+type(
+  unit
+)
+"gPack.ml" 186 7549 7555 "gPack.ml" 186 7549 7560
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gPack.ml" 186 7549 7567 "gPack.ml" 186 7549 7600
+type(
+  string
+)
+"gPack.ml" 186 7549 7560 "gPack.ml" 186 7549 7601
+type(
+  exn
+)
+"gPack.ml" 186 7549 7555 "gPack.ml" 186 7549 7601
+type(
+  unit
+)
+"gPack.ml" 185 7515 7523 "gPack.ml" 186 7549 7601
+type(
+  unit
+)
+"gPack.ml" 187 7602 7611 "gPack.ml" 187 7602 7612
+type(
+  exn
+)
+"gPack.ml" 187 7602 7616 "gPack.ml" 187 7602 7627
+type(
+  Gtk.paned Gtk.obj ->
+  Gtk.widget Gtk.obj -> resize:bool -> shrink:bool -> unit
+)
+ident(
+  ext_ref GtkPack.Paned.pack1
+)
+"gPack.ml" 187 7602 7628 "gPack.ml" 187 7602 7631
+type(
+  Gtk.paned Gtk.obj
+)
+"gPack.ml" 187 7602 7633 "gPack.ml" 187 7602 7642
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 187 7602 7643 "gPack.ml" 187 7602 7644
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 184 7464 7511 "gPack.ml" 184 7464 7512
+)
+"gPack.ml" 187 7602 7632 "gPack.ml" 187 7602 7645
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 187 7602 7647 "gPack.ml" 187 7602 7653
+type(
+  bool
+)
+ident(
+  int_ref resize "gPack.ml" 184 7464 7481 "gPack.ml" 184 7464 7487
+)
+"gPack.ml" 187 7602 7655 "gPack.ml" 187 7602 7661
+type(
+  bool
+)
+ident(
+  int_ref shrink "gPack.ml" 184 7464 7497 "gPack.ml" 184 7464 7503
+)
+"gPack.ml" 187 7602 7616 "gPack.ml" 187 7602 7661
+type(
+  unit
+)
+"gPack.ml" 185 7515 7519 "gPack.ml" 187 7602 7661
+type(
+  unit
+)
+"gPack.ml" 188 7662 7679 "gPack.ml" 188 7662 7685
+type(
+  bool
+)
+"gPack.ml" 188 7662 7686 "gPack.ml" 188 7662 7691
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gPack.ml" 188 7662 7686 "gPack.ml" 188 7662 7691
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gPack.ml" 188 7662 7686 "gPack.ml" 188 7662 7691
+)
+"gPack.ml" 188 7662 7695 "gPack.ml" 188 7662 7701
+type(
+  bool
+)
+"gPack.ml" 188 7662 7702 "gPack.ml" 188 7662 7707
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gPack.ml" 188 7662 7702 "gPack.ml" 188 7662 7707
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gPack.ml" 188 7662 7702 "gPack.ml" 188 7662 7707
+)
+"gPack.ml" 188 7662 7709 "gPack.ml" 188 7662 7710
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 189 7713 7717 "gPack.ml" 191 7800 7859
+)
+"gPack.ml" 189 7713 7721 "gPack.ml" 189 7713 7727
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gPack.ml" 189 7713 7728 "gPack.ml" 189 7713 7740
+type(
+  Gtk.paned Gtk.obj -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GtkPack.Paned.child2
+)
+"gPack.ml" 189 7713 7741 "gPack.ml" 189 7713 7744
+type(
+  Gtk.paned Gtk.obj
+)
+"gPack.ml" 189 7713 7727 "gPack.ml" 189 7713 7745
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 189 7713 7721 "gPack.ml" 189 7713 7745
+type(
+  unit
+)
+"gPack.ml" 190 7747 7753 "gPack.ml" 190 7747 7758
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gPack.ml" 190 7747 7765 "gPack.ml" 190 7747 7798
+type(
+  string
+)
+"gPack.ml" 190 7747 7758 "gPack.ml" 190 7747 7799
+type(
+  exn
+)
+"gPack.ml" 190 7747 7753 "gPack.ml" 190 7747 7799
+type(
+  unit
+)
+"gPack.ml" 189 7713 7721 "gPack.ml" 190 7747 7799
+type(
+  unit
+)
+"gPack.ml" 191 7800 7809 "gPack.ml" 191 7800 7810
+type(
+  exn
+)
+"gPack.ml" 191 7800 7814 "gPack.ml" 191 7800 7825
+type(
+  Gtk.paned Gtk.obj ->
+  Gtk.widget Gtk.obj -> resize:bool -> shrink:bool -> unit
+)
+ident(
+  ext_ref GtkPack.Paned.pack2
+)
+"gPack.ml" 191 7800 7826 "gPack.ml" 191 7800 7829
+type(
+  Gtk.paned Gtk.obj
+)
+"gPack.ml" 191 7800 7831 "gPack.ml" 191 7800 7840
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 191 7800 7841 "gPack.ml" 191 7800 7842
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 188 7662 7709 "gPack.ml" 188 7662 7710
+)
+"gPack.ml" 191 7800 7830 "gPack.ml" 191 7800 7843
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 191 7800 7845 "gPack.ml" 191 7800 7851
+type(
+  bool
+)
+ident(
+  int_ref resize "gPack.ml" 188 7662 7679 "gPack.ml" 188 7662 7685
+)
+"gPack.ml" 191 7800 7853 "gPack.ml" 191 7800 7859
+type(
+  bool
+)
+ident(
+  int_ref shrink "gPack.ml" 188 7662 7695 "gPack.ml" 188 7662 7701
+)
+"gPack.ml" 191 7800 7814 "gPack.ml" 191 7800 7859
+type(
+  unit
+)
+"gPack.ml" 189 7713 7717 "gPack.ml" 191 7800 7859
+type(
+  unit
+)
+"gPack.ml" 192 7860 7878 "gPack.ml" 192 7860 7888
+type(
+  Gtk.widget Gtk.obj -> GObj.widget
+)
+"gPack.ml" 192 7860 7890 "gPack.ml" 192 7860 7902
+type(
+  Gtk.paned Gtk.obj -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GtkPack.Paned.child1
+)
+"gPack.ml" 192 7860 7903 "gPack.ml" 192 7860 7906
+type(
+  Gtk.paned Gtk.obj
+)
+"gPack.ml" 192 7860 7889 "gPack.ml" 192 7860 7907
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 192 7860 7878 "gPack.ml" 192 7860 7907
+call(
+  tail
+)
+type(
+  GObj.widget
+)
+type(
+  GObj.widget
+)
+"gPack.ml" 193 7908 7926 "gPack.ml" 193 7908 7936
+type(
+  Gtk.widget Gtk.obj -> GObj.widget
+)
+"gPack.ml" 193 7908 7938 "gPack.ml" 193 7908 7950
+type(
+  Gtk.paned Gtk.obj -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GtkPack.Paned.child2
+)
+"gPack.ml" 193 7908 7951 "gPack.ml" 193 7908 7954
+type(
+  Gtk.paned Gtk.obj
+)
+"gPack.ml" 193 7908 7937 "gPack.ml" 193 7908 7955
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 193 7908 7926 "gPack.ml" 193 7908 7955
+call(
+  tail
+)
+type(
+  GObj.widget
+)
+type(
+  GObj.widget
+)
+"gPack.ml" 196 7961 7965 "gPack.ml" 196 7961 7970
+type(
+  Gtk.Tags.orientation ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> paned
+)
+ident(
+  def paned "gPack.ml" 199 8048 8048 --
+)
+"gPack.ml" 196 7961 7971 "gPack.ml" 196 7961 7974
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  def dir "gPack.ml" 197 7977 7979 "gPack.ml" 197 7977 8046
+)
+"gPack.ml" 197 7977 7979 "gPack.ml" 197 7977 7993
+type(
+  create:(Gtk.paned Gobject.param list -> paned) ->
+  Gtk.paned Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> paned
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gPack.ml" 197 7977 7994 "gPack.ml" 197 7977 7996
+type(
+  Gtk.paned Gobject.param list
+)
+"gPack.ml" 197 7977 8010 "gPack.ml" 197 7977 8011
+type(
+  Gtk.paned Gobject.param list
+)
+ident(
+  def p "gPack.ml" 197 7977 8015 "gPack.ml" 197 7977 8045
+)
+"gPack.ml" 197 7977 8015 "gPack.ml" 197 7977 8024
+type(
+  Gtk.paned Gtk.obj -> paned
+)
+"gPack.ml" 197 7977 8026 "gPack.ml" 197 7977 8038
+type(
+  Gtk.Tags.orientation -> Gtk.paned Gobject.param list -> Gtk.paned Gtk.obj
+)
+ident(
+  ext_ref GtkPack.Paned.create
+)
+"gPack.ml" 197 7977 8039 "gPack.ml" 197 7977 8042
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  int_ref dir "gPack.ml" 196 7961 7971 "gPack.ml" 196 7961 7974
+)
+"gPack.ml" 197 7977 8043 "gPack.ml" 197 7977 8044
+type(
+  Gtk.paned Gobject.param list
+)
+ident(
+  int_ref p "gPack.ml" 197 7977 8010 "gPack.ml" 197 7977 8011
+)
+"gPack.ml" 197 7977 8025 "gPack.ml" 197 7977 8045
+call(
+  stack
+)
+type(
+  Gtk.paned Gtk.obj
+)
+"gPack.ml" 197 7977 8015 "gPack.ml" 197 7977 8045
+call(
+  tail
+)
+type(
+  paned
+)
+"gPack.ml" 197 7977 8005 "gPack.ml" 197 7977 8046
+type(
+  Gtk.paned Gobject.param list -> paned
+)
+"gPack.ml" 197 7977 7979 "gPack.ml" 197 7977 8046
+call(
+  tail
+)
+type(
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> paned
+)
+"gPack.ml" 199 8048 8071 "gPack.ml" 199 8048 8074
+type(
+  [> `container | `gtk | `notebook | `widget ] Gtk.obj
+)
+"gPack.ml" 199 8048 8084 "gPack.ml" 199 8048 8090
+type(
+  < add : callback:(GObj.widget -> unit) -> GtkSignal.id; after : 'a;
+    destroy : callback:(unit -> unit) -> GtkSignal.id;
+    remove : callback:(GObj.widget -> unit) -> GtkSignal.id;
+    switch_page : callback:(int -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"gPack.ml" 200 8091 8124 "gPack.ml" 200 8091 8127
+type(
+  ([> `container | `gtk | `notebook | `widget ] as 'b) Gtk.obj
+)
+ident(
+  int_ref obj "gPack.ml" 199 8048 8071 "gPack.ml" 199 8048 8074
+)
+"gPack.ml" 201 8128 8150 "gPack.ml" 201 8128 8158
+type(
+  int -> unit
+)
+ident(
+  def callback "gPack.ml" 202 8162 8166 "gPack.ml" 202 8162 8231
+)
+"gPack.ml" 202 8162 8166 "gPack.ml" 202 8162 8170
+type(
+  'a
+)
+"gPack.ml" 202 8162 8166 "gPack.ml" 202 8162 8178
+call(
+  tail
+)
+type(
+  ('b, Gpointer.boxed option -> int -> unit) GtkSignal.t ->
+  callback:(Gpointer.boxed option -> int -> unit) -> GtkSignal.id
+)
+"gPack.ml" 202 8162 8179 "gPack.ml" 202 8162 8201
+type(
+  ('b, Gpointer.boxed option -> int -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkPack.Notebook.S.switch_page
+)
+"gPack.ml" 202 8162 8207 "gPack.ml" 202 8162 8208
+type(
+  Gpointer.boxed option
+)
+"gPack.ml" 202 8162 8209 "gPack.ml" 202 8162 8213
+type(
+  int
+)
+ident(
+  def arg1 "gPack.ml" 202 8162 8217 "gPack.ml" 202 8162 8230
+)
+"gPack.ml" 202 8162 8217 "gPack.ml" 202 8162 8225
+type(
+  int -> unit
+)
+ident(
+  int_ref callback "gPack.ml" 201 8128 8150 "gPack.ml" 201 8128 8158
+)
+"gPack.ml" 202 8162 8226 "gPack.ml" 202 8162 8230
+type(
+  int
+)
+ident(
+  int_ref arg1 "gPack.ml" 202 8162 8209 "gPack.ml" 202 8162 8213
+)
+"gPack.ml" 202 8162 8217 "gPack.ml" 202 8162 8230
+call(
+  tail
+)
+type(
+  unit
+)
+"gPack.ml" 202 8162 8202 "gPack.ml" 202 8162 8231
+type(
+  Gpointer.boxed option -> int -> unit
+)
+"gPack.ml" 202 8162 8166 "gPack.ml" 202 8162 8231
+type(
+  GtkSignal.id
+)
+"gPack.ml" 205 8237 8252 "gPack.ml" 205 8237 8255
+type(
+  Gtk.notebook Gtk.obj
+)
+"gPack.ml" 205 8237 8265 "gPack.ml" 205 8237 8271
+type(
+  < add : GObj.widget -> unit; all_children : GObj.widget list;
+    append_page : ?tab_label:GObj.widget ->
+                  ?menu_label:GObj.widget -> GObj.widget -> int;
+    as_widget : Gtk.widget Gtk.obj; border_width : int;
+    children : GObj.widget list; coerce : GObj.widget;
+    connect : notebook_signals; current_page : int; destroy : unit -> unit;
+    drag : GObj.drag_ops; enable_popup : bool; event : GObj.event_ops;
+    focus : GContainer.focus; get_menu_label : GObj.widget -> GObj.widget;
+    get_nth_page : int -> GObj.widget; get_oid : int;
+    get_tab_label : GObj.widget -> GObj.widget; goto_page : int -> unit;
+    homogeneous_tabs : bool;
+    insert_page : ?tab_label:GObj.widget ->
+                  ?menu_label:GObj.widget -> ?pos:int -> GObj.widget -> int;
+    misc : GObj.misc_ops; next_page : unit -> unit;
+    page_num : GObj.widget -> int;
+    prepend_page : ?tab_label:GObj.widget ->
+                   ?menu_label:GObj.widget -> GObj.widget -> int;
+    previous_page : unit -> unit; remove : GObj.widget -> unit;
+    remove_page : int -> unit; resize_mode : Gtk.Tags.resize_mode;
+    scrollable : bool; set_border_width : int -> unit;
+    set_enable_popup : bool -> unit; set_homogeneous_tabs : bool -> unit;
+    set_page : ?tab_label:GObj.widget ->
+               ?menu_label:GObj.widget -> GObj.widget -> unit;
+    set_resize_mode : Gtk.Tags.resize_mode -> unit;
+    set_scrollable : bool -> unit; set_show_border : bool -> unit;
+    set_show_tabs : bool -> unit; set_tab_border : int -> unit;
+    set_tab_hborder : int -> unit;
+    set_tab_pos : GtkEnums.position_type -> unit;
+    set_tab_vborder : int -> unit; show_border : bool; show_tabs : bool;
+    tab_hborder : int; tab_pos : GtkEnums.position_type; tab_vborder : 
+    int; .. >
+)
+"gPack.ml" 206 8272 8323 "gPack.ml" 206 8272 8326
+type(
+  Gtk.notebook Gtk.obj
+)
+ident(
+  int_ref obj "gPack.ml" 205 8237 8252 "gPack.ml" 205 8237 8255
+)
+"gPack.ml" 208 8352 8369 "gPack.ml" 208 8352 8387
+type(
+  Gtk.notebook Gtk.obj -> GObj.event_ops
+)
+"gPack.ml" 208 8352 8388 "gPack.ml" 208 8352 8391
+type(
+  Gtk.notebook Gtk.obj
+)
+"gPack.ml" 208 8352 8369 "gPack.ml" 208 8352 8391
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gPack.ml" 209 8392 8411 "gPack.ml" 209 8392 8431
+type(
+  Gtk.notebook Gtk.obj -> notebook_signals
+)
+"gPack.ml" 209 8392 8432 "gPack.ml" 209 8392 8435
+type(
+  Gtk.notebook Gtk.obj
+)
+"gPack.ml" 209 8392 8411 "gPack.ml" 209 8392 8435
+call(
+  tail
+)
+type(
+  notebook_signals
+)
+type(
+  notebook_signals
+)
+"gPack.ml" 210 8436 8458 "gPack.ml" 210 8436 8467
+type(
+  GObj.widget option
+)
+ident(
+  def tab_label "gPack.ml" 210 8436 8468 "gPack.ml" 214 8658 8670
+)
+"gPack.ml" 210 8436 8469 "gPack.ml" 210 8436 8479
+type(
+  GObj.widget option
+)
+ident(
+  def menu_label "gPack.ml" 210 8436 8480 "gPack.ml" 214 8658 8670
+)
+"gPack.ml" 210 8436 8481 "gPack.ml" 210 8436 8484
+type(
+  int option
+)
+ident(
+  def pos "gPack.ml" 210 8436 8485 "gPack.ml" 214 8658 8670
+)
+"gPack.ml" 210 8436 8485 "gPack.ml" 210 8436 8490
+type(
+  GObj.widget
+)
+ident(
+  def child "gPack.ml" 211 8493 8499 "gPack.ml" 214 8658 8670
+)
+"gPack.ml" 211 8493 8499 "gPack.ml" 211 8493 8524
+type(
+  Gtk.notebook Gtk.obj ->
+  Gtk.widget Gtk.obj ->
+  tab_label:Gtk.widget Gtk.optobj ->
+  menu_label:Gtk.widget Gtk.optobj -> ?pos:int -> int
+)
+ident(
+  ext_ref GtkPack.Notebook.insert_page_menu
+)
+"gPack.ml" 211 8493 8525 "gPack.ml" 211 8493 8528
+type(
+  Gtk.notebook Gtk.obj
+)
+"gPack.ml" 211 8493 8530 "gPack.ml" 211 8493 8539
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 211 8493 8540 "gPack.ml" 211 8493 8545
+type(
+  GObj.widget
+)
+ident(
+  int_ref child "gPack.ml" 210 8436 8485 "gPack.ml" 210 8436 8490
+)
+"gPack.ml" 211 8493 8529 "gPack.ml" 211 8493 8546
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 212 8548 8561 "gPack.ml" 212 8548 8577
+type(
+  f:(GObj.widget -> Gtk.widget Gtk.obj) ->
+  GObj.widget option -> Gtk.widget Gtk.optobj
+)
+ident(
+  ext_ref Gpointer.may_box
+)
+"gPack.ml" 212 8548 8578 "gPack.ml" 212 8548 8587
+type(
+  GObj.widget option
+)
+ident(
+  int_ref tab_label "gPack.ml" 210 8436 8458 "gPack.ml" 210 8436 8467
+)
+"gPack.ml" 212 8548 8591 "gPack.ml" 212 8548 8600
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 212 8548 8560 "gPack.ml" 212 8548 8601
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.optobj
+)
+"gPack.ml" 213 8602 8616 "gPack.ml" 213 8602 8632
+type(
+  f:(GObj.widget -> Gtk.widget Gtk.obj) ->
+  GObj.widget option -> Gtk.widget Gtk.optobj
+)
+ident(
+  ext_ref Gpointer.may_box
+)
+"gPack.ml" 213 8602 8633 "gPack.ml" 213 8602 8643
+type(
+  GObj.widget option
+)
+ident(
+  int_ref menu_label "gPack.ml" 210 8436 8469 "gPack.ml" 210 8436 8479
+)
+"gPack.ml" 213 8602 8647 "gPack.ml" 213 8602 8656
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 213 8602 8615 "gPack.ml" 213 8602 8657
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.optobj
+)
+"gPack.ml" 214 8658 8667 "gPack.ml" 214 8658 8670
+type(
+  int option
+)
+ident(
+  int_ref pos "gPack.ml" 210 8436 8481 "gPack.ml" 210 8436 8484
+)
+"gPack.ml" 211 8493 8499 "gPack.ml" 214 8658 8670
+type(
+  int
+)
+"gPack.ml" 215 8671 8693 "gPack.ml" 215 8671 8702
+type(
+  GObj.widget option
+)
+ident(
+  def tab_label "gPack.ml" 215 8671 8703 "gPack.ml" 216 8724 8773
+)
+"gPack.ml" 215 8671 8704 "gPack.ml" 215 8671 8714
+type(
+  GObj.widget option
+)
+ident(
+  def menu_label "gPack.ml" 215 8671 8715 "gPack.ml" 216 8724 8773
+)
+"gPack.ml" 215 8671 8715 "gPack.ml" 215 8671 8720
+type(
+  GObj.widget
+)
+ident(
+  def child "gPack.ml" 216 8724 8728 "gPack.ml" 216 8724 8773
+)
+"gPack.ml" 216 8724 8728 "gPack.ml" 216 8724 8732
+type(
+  < add : GObj.widget -> unit; all_children : GObj.widget list;
+    append_page : ?tab_label:GObj.widget ->
+                  ?menu_label:GObj.widget -> GObj.widget -> int;
+    as_widget : Gtk.widget Gtk.obj; border_width : int;
+    children : GObj.widget list; coerce : GObj.widget;
+    connect : notebook_signals; current_page : int; destroy : unit -> unit;
+    drag : GObj.drag_ops; enable_popup : bool; event : GObj.event_ops;
+    focus : GContainer.focus; get_menu_label : GObj.widget -> GObj.widget;
+    get_nth_page : int -> GObj.widget; get_oid : int;
+    get_tab_label : GObj.widget -> GObj.widget; goto_page : int -> unit;
+    homogeneous_tabs : bool;
+    insert_page : ?tab_label:GObj.widget ->
+                  ?menu_label:GObj.widget -> ?pos:int -> GObj.widget -> int;
+    misc : GObj.misc_ops; next_page : unit -> unit;
+    page_num : GObj.widget -> int;
+    prepend_page : ?tab_label:GObj.widget ->
+                   ?menu_label:GObj.widget -> GObj.widget -> int;
+    previous_page : unit -> unit; remove : GObj.widget -> unit;
+    remove_page : int -> unit; resize_mode : Gtk.Tags.resize_mode;
+    scrollable : bool; set_border_width : int -> unit;
+    set_enable_popup : bool -> unit; set_homogeneous_tabs : bool -> unit;
+    set_page : ?tab_label:GObj.widget ->
+               ?menu_label:GObj.widget -> GObj.widget -> unit;
+    set_resize_mode : Gtk.Tags.resize_mode -> unit;
+    set_scrollable : bool -> unit; set_show_border : bool -> unit;
+    set_show_tabs : bool -> unit; set_tab_border : int -> unit;
+    set_tab_hborder : int -> unit;
+    set_tab_pos : GtkEnums.position_type -> unit;
+    set_tab_vborder : int -> unit; show_border : bool; show_tabs : bool;
+    tab_hborder : int; tab_pos : GtkEnums.position_type; tab_vborder : 
+    int; .. >
+  as 'a
+)
+"gPack.ml" 216 8724 8728 "gPack.ml" 216 8724 8744
+call(
+  tail
+)
+type(
+  ?tab_label:GObj.widget ->
+  ?menu_label:GObj.widget -> ?pos:int -> GObj.widget -> int
+)
+"gPack.ml" 216 8724 8746 "gPack.ml" 216 8724 8755
+type(
+  GObj.widget option
+)
+ident(
+  int_ref tab_label "gPack.ml" 215 8671 8693 "gPack.ml" 215 8671 8702
+)
+"gPack.ml" 216 8724 8757 "gPack.ml" 216 8724 8767
+type(
+  GObj.widget option
+)
+ident(
+  int_ref menu_label "gPack.ml" 215 8671 8704 "gPack.ml" 215 8671 8714
+)
+"gPack.ml" 216 8724 8768 "gPack.ml" 216 8724 8773
+type(
+  GObj.widget
+)
+ident(
+  int_ref child "gPack.ml" 215 8671 8715 "gPack.ml" 215 8671 8720
+)
+"gPack.ml" 216 8724 8728 "gPack.ml" 216 8724 8773
+type(
+  int
+)
+"gPack.ml" 217 8775 8799 "gPack.ml" 217 8775 8803
+type(
+  'a
+)
+"gPack.ml" 217 8775 8799 "gPack.ml" 217 8775 8815
+call(
+  stack
+)
+type(
+  ?tab_label:GObj.widget ->
+  ?menu_label:GObj.widget -> ?pos:int -> GObj.widget -> int
+)
+"gPack.ml" 217 8775 8821 "gPack.ml" 217 8775 8822
+type(
+  int
+)
+"gPack.ml" 217 8775 8799 "gPack.ml" 217 8775 8822
+call(
+  tail
+)
+type(
+  ?tab_label:GObj.widget -> ?menu_label:GObj.widget -> GObj.widget -> int
+)
+type(
+  ?tab_label:GObj.widget -> ?menu_label:GObj.widget -> GObj.widget -> int
+)
+"gPack.ml" 218 8823 8846 "gPack.ml" 218 8823 8866
+type(
+  Gtk.notebook Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkPack.Notebook.remove_page
+)
+"gPack.ml" 218 8823 8867 "gPack.ml" 218 8823 8870
+type(
+  Gtk.notebook Gtk.obj
+)
+"gPack.ml" 218 8823 8846 "gPack.ml" 218 8823 8870
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gPack.ml" 219 8871 8895 "gPack.ml" 219 8871 8898
+type(
+  (Gtk.notebook, int) Gobject.property -> Gtk.notebook Gtk.obj -> int
+)
+ident(
+  ext_ref OgtkPackProps.get
+)
+"gPack.ml" 219 8871 8899 "gPack.ml" 219 8871 8914
+type(
+  (Gtk.notebook, int) Gobject.property
+)
+ident(
+  ext_ref GtkPack.Notebook.P.page
+)
+"gPack.ml" 219 8871 8915 "gPack.ml" 219 8871 8918
+type(
+  Gtk.notebook Gtk.obj
+)
+"gPack.ml" 219 8871 8895 "gPack.ml" 219 8871 8918
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"gPack.ml" 220 8919 8942 "gPack.ml" 220 8919 8944
+type(
+  unit
+)
+"gPack.ml" 220 8919 8947 "gPack.ml" 220 8919 8965
+type(
+  Gtk.notebook Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkPack.Notebook.prev_page
+)
+"gPack.ml" 220 8919 8966 "gPack.ml" 220 8919 8969
+type(
+  Gtk.notebook Gtk.obj
+)
+"gPack.ml" 220 8919 8947 "gPack.ml" 220 8919 8969
+type(
+  unit
+)
+"gPack.ml" 221 8970 8991 "gPack.ml" 221 8970 8994
+type(
+  (Gtk.notebook, int) Gobject.property -> Gtk.notebook Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref OgtkPackProps.set
+)
+"gPack.ml" 221 8970 8995 "gPack.ml" 221 8970 9010
+type(
+  (Gtk.notebook, int) Gobject.property
+)
+ident(
+  ext_ref GtkPack.Notebook.P.page
+)
+"gPack.ml" 221 8970 9011 "gPack.ml" 221 8970 9014
+type(
+  Gtk.notebook Gtk.obj
+)
+"gPack.ml" 221 8970 8991 "gPack.ml" 221 8970 9014
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gPack.ml" 222 9015 9034 "gPack.ml" 222 9015 9036
+type(
+  unit
+)
+"gPack.ml" 222 9015 9039 "gPack.ml" 222 9015 9057
+type(
+  Gtk.notebook Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkPack.Notebook.next_page
+)
+"gPack.ml" 222 9015 9058 "gPack.ml" 222 9015 9061
+type(
+  Gtk.notebook Gtk.obj
+)
+"gPack.ml" 222 9015 9039 "gPack.ml" 222 9015 9061
+type(
+  unit
+)
+"gPack.ml" 223 9062 9080 "gPack.ml" 223 9062 9081
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 223 9062 9084 "gPack.ml" 223 9062 9119
+)
+"gPack.ml" 223 9062 9084 "gPack.ml" 223 9062 9101
+type(
+  Gtk.notebook Gtk.obj -> Gtk.widget Gtk.obj -> int
+)
+ident(
+  ext_ref GtkPack.Notebook.page_num
+)
+"gPack.ml" 223 9062 9102 "gPack.ml" 223 9062 9105
+type(
+  Gtk.notebook Gtk.obj
+)
+"gPack.ml" 223 9062 9107 "gPack.ml" 223 9062 9116
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 223 9062 9117 "gPack.ml" 223 9062 9118
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 223 9062 9080 "gPack.ml" 223 9062 9081
+)
+"gPack.ml" 223 9062 9106 "gPack.ml" 223 9062 9119
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 223 9062 9084 "gPack.ml" 223 9062 9119
+type(
+  int
+)
+"gPack.ml" 224 9120 9142 "gPack.ml" 224 9120 9143
+type(
+  int
+)
+ident(
+  def n "gPack.ml" 224 9120 9146 "gPack.ml" 224 9120 9186
+)
+"gPack.ml" 224 9120 9146 "gPack.ml" 224 9120 9156
+type(
+  Gtk.widget Gtk.obj -> GObj.widget
+)
+"gPack.ml" 224 9120 9158 "gPack.ml" 224 9120 9179
+type(
+  Gtk.notebook Gtk.obj -> int -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GtkPack.Notebook.get_nth_page
+)
+"gPack.ml" 224 9120 9180 "gPack.ml" 224 9120 9183
+type(
+  Gtk.notebook Gtk.obj
+)
+"gPack.ml" 224 9120 9184 "gPack.ml" 224 9120 9185
+type(
+  int
+)
+ident(
+  int_ref n "gPack.ml" 224 9120 9142 "gPack.ml" 224 9120 9143
+)
+"gPack.ml" 224 9120 9157 "gPack.ml" 224 9120 9186
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 224 9120 9146 "gPack.ml" 224 9120 9186
+call(
+  tail
+)
+type(
+  GObj.widget
+)
+"gPack.ml" 225 9187 9210 "gPack.ml" 225 9187 9211
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 226 9214 9218 "gPack.ml" 226 9214 9271
+)
+"gPack.ml" 226 9214 9218 "gPack.ml" 226 9214 9228
+type(
+  Gtk.widget Gtk.obj -> GObj.widget
+)
+"gPack.ml" 226 9214 9230 "gPack.ml" 226 9214 9252
+type(
+  Gtk.notebook Gtk.obj -> Gtk.widget Gtk.obj -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GtkPack.Notebook.get_tab_label
+)
+"gPack.ml" 226 9214 9253 "gPack.ml" 226 9214 9256
+type(
+  Gtk.notebook Gtk.obj
+)
+"gPack.ml" 226 9214 9258 "gPack.ml" 226 9214 9267
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 226 9214 9268 "gPack.ml" 226 9214 9269
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 225 9187 9210 "gPack.ml" 225 9187 9211
+)
+"gPack.ml" 226 9214 9257 "gPack.ml" 226 9214 9270
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 226 9214 9229 "gPack.ml" 226 9214 9271
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 226 9214 9218 "gPack.ml" 226 9214 9271
+call(
+  tail
+)
+type(
+  GObj.widget
+)
+"gPack.ml" 227 9272 9296 "gPack.ml" 227 9272 9297
+type(
+  GObj.widget
+)
+ident(
+  def w "gPack.ml" 228 9300 9304 "gPack.ml" 228 9300 9358
+)
+"gPack.ml" 228 9300 9304 "gPack.ml" 228 9300 9314
+type(
+  Gtk.widget Gtk.obj -> GObj.widget
+)
+"gPack.ml" 228 9300 9316 "gPack.ml" 228 9300 9339
+type(
+  Gtk.notebook Gtk.obj -> Gtk.widget Gtk.obj -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GtkPack.Notebook.get_menu_label
+)
+"gPack.ml" 228 9300 9340 "gPack.ml" 228 9300 9343
+type(
+  Gtk.notebook Gtk.obj
+)
+"gPack.ml" 228 9300 9345 "gPack.ml" 228 9300 9354
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 228 9300 9355 "gPack.ml" 228 9300 9356
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gPack.ml" 227 9272 9296 "gPack.ml" 227 9272 9297
+)
+"gPack.ml" 228 9300 9344 "gPack.ml" 228 9300 9357
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 228 9300 9315 "gPack.ml" 228 9300 9358
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 228 9300 9304 "gPack.ml" 228 9300 9358
+call(
+  tail
+)
+type(
+  GObj.widget
+)
+"gPack.ml" 229 9359 9378 "gPack.ml" 229 9359 9387
+type(
+  GObj.widget option
+)
+ident(
+  def tab_label "gPack.ml" 229 9359 9388 "gPack.ml" 234 9550 9621
+)
+"gPack.ml" 229 9359 9389 "gPack.ml" 229 9359 9399
+type(
+  GObj.widget option
+)
+ident(
+  def menu_label "gPack.ml" 229 9359 9400 "gPack.ml" 234 9550 9621
+)
+"gPack.ml" 229 9359 9400 "gPack.ml" 229 9359 9404
+type(
+  GObj.widget
+)
+ident(
+  def page "gPack.ml" 230 9407 9411 "gPack.ml" 234 9550 9621
+)
+"gPack.ml" 230 9407 9415 "gPack.ml" 230 9407 9420
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 230 9407 9423 "gPack.ml" 230 9407 9432
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 230 9407 9433 "gPack.ml" 230 9407 9437
+type(
+  GObj.widget
+)
+ident(
+  int_ref page "gPack.ml" 229 9359 9400 "gPack.ml" 229 9359 9404
+)
+"gPack.ml" 230 9407 9423 "gPack.ml" 230 9407 9437
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 231 9441 9445 "gPack.ml" 231 9441 9448
+type(
+  f:(GObj.widget -> unit) -> GObj.widget option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gPack.ml" 231 9441 9449 "gPack.ml" 231 9441 9458
+type(
+  GObj.widget option
+)
+ident(
+  int_ref tab_label "gPack.ml" 229 9359 9378 "gPack.ml" 229 9359 9387
+)
+"gPack.ml" 232 9459 9473 "gPack.ml" 232 9459 9476
+type(
+  GObj.widget
+)
+ident(
+  def lbl "gPack.ml" 232 9459 9480 "gPack.ml" 232 9459 9528
+)
+"gPack.ml" 232 9459 9480 "gPack.ml" 232 9459 9502
+type(
+  Gtk.notebook Gtk.obj -> Gtk.widget Gtk.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkPack.Notebook.set_tab_label
+)
+"gPack.ml" 232 9459 9503 "gPack.ml" 232 9459 9506
+type(
+  Gtk.notebook Gtk.obj
+)
+"gPack.ml" 232 9459 9507 "gPack.ml" 232 9459 9512
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref child "gPack.ml" 230 9407 9415 "gPack.ml" 230 9407 9420
+)
+"gPack.ml" 232 9459 9514 "gPack.ml" 232 9459 9523
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 232 9459 9524 "gPack.ml" 232 9459 9527
+type(
+  GObj.widget
+)
+ident(
+  int_ref lbl "gPack.ml" 232 9459 9473 "gPack.ml" 232 9459 9476
+)
+"gPack.ml" 232 9459 9513 "gPack.ml" 232 9459 9528
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 232 9459 9480 "gPack.ml" 232 9459 9528
+type(
+  unit
+)
+"gPack.ml" 232 9459 9468 "gPack.ml" 232 9459 9529
+type(
+  GObj.widget -> unit
+)
+"gPack.ml" 231 9441 9445 "gPack.ml" 232 9459 9529
+call(
+  stack
+)
+type(
+  unit
+)
+"gPack.ml" 233 9531 9535 "gPack.ml" 233 9531 9538
+type(
+  f:(GObj.widget -> unit) -> GObj.widget option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gPack.ml" 233 9531 9539 "gPack.ml" 233 9531 9549
+type(
+  GObj.widget option
+)
+ident(
+  int_ref menu_label "gPack.ml" 229 9359 9389 "gPack.ml" 229 9359 9399
+)
+"gPack.ml" 234 9550 9564 "gPack.ml" 234 9550 9567
+type(
+  GObj.widget
+)
+ident(
+  def lbl "gPack.ml" 234 9550 9571 "gPack.ml" 234 9550 9620
+)
+"gPack.ml" 234 9550 9571 "gPack.ml" 234 9550 9594
+type(
+  Gtk.notebook Gtk.obj -> Gtk.widget Gtk.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkPack.Notebook.set_menu_label
+)
+"gPack.ml" 234 9550 9595 "gPack.ml" 234 9550 9598
+type(
+  Gtk.notebook Gtk.obj
+)
+"gPack.ml" 234 9550 9599 "gPack.ml" 234 9550 9604
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref child "gPack.ml" 230 9407 9415 "gPack.ml" 230 9407 9420
+)
+"gPack.ml" 234 9550 9606 "gPack.ml" 234 9550 9615
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gPack.ml" 234 9550 9616 "gPack.ml" 234 9550 9619
+type(
+  GObj.widget
+)
+ident(
+  int_ref lbl "gPack.ml" 234 9550 9564 "gPack.ml" 234 9550 9567
+)
+"gPack.ml" 234 9550 9605 "gPack.ml" 234 9550 9620
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gPack.ml" 234 9550 9571 "gPack.ml" 234 9550 9620
+type(
+  unit
+)
+"gPack.ml" 234 9550 9559 "gPack.ml" 234 9550 9621
+type(
+  GObj.widget -> unit
+)
+"gPack.ml" 233 9531 9535 "gPack.ml" 234 9550 9621
+call(
+  tail
+)
+type(
+  unit
+)
+"gPack.ml" 231 9441 9445 "gPack.ml" 234 9550 9621
+type(
+  unit
+)
+"gPack.ml" 230 9407 9411 "gPack.ml" 234 9550 9621
+type(
+  unit
+)
+"gPack.ml" 237 9627 9631 "gPack.ml" 237 9627 9639
+type(
+  ?enable_popup:bool ->
+  ?homogeneous_tabs:bool ->
+  ?scrollable:bool ->
+  ?show_border:bool ->
+  ?show_tabs:bool ->
+  ?tab_border:int ->
+  ?tab_pos:GtkEnums.position_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> notebook
+)
+ident(
+  def notebook "gPack.ml" 239 9676 9745 --
+)
+"gPack.ml" 238 9642 9644 "gPack.ml" 238 9642 9664
+type(
+  cont:(Gtk.notebook Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> notebook) ->
+  Gtk.notebook Gobject.param list ->
+  ?enable_popup:bool ->
+  ?homogeneous_tabs:bool ->
+  ?scrollable:bool ->
+  ?show_border:bool ->
+  ?show_tabs:bool ->
+  ?tab_border:int ->
+  ?tab_pos:GtkEnums.position_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> notebook
+)
+ident(
+  ext_ref GtkPack.Notebook.make_params
+)
+"gPack.ml" 238 9642 9665 "gPack.ml" 238 9642 9667
+type(
+  Gtk.notebook Gobject.param list
+)
+"gPack.ml" 239 9676 9678 "gPack.ml" 239 9676 9692
+type(
+  create:(Gtk.notebook Gobject.param list -> notebook) ->
+  Gtk.notebook Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> notebook
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gPack.ml" 239 9676 9706 "gPack.ml" 239 9676 9707
+type(
+  Gtk.notebook Gobject.param list
+)
+ident(
+  def p "gPack.ml" 239 9676 9711 "gPack.ml" 239 9676 9743
+)
+"gPack.ml" 239 9676 9711 "gPack.ml" 239 9676 9723
+type(
+  Gtk.notebook Gtk.obj -> notebook
+)
+"gPack.ml" 239 9676 9725 "gPack.ml" 239 9676 9740
+type(
+  Gtk.notebook Gobject.param list -> Gtk.notebook Gtk.obj
+)
+ident(
+  ext_ref GtkPack.Notebook.create
+)
+"gPack.ml" 239 9676 9741 "gPack.ml" 239 9676 9742
+type(
+  Gtk.notebook Gobject.param list
+)
+ident(
+  int_ref p "gPack.ml" 239 9676 9706 "gPack.ml" 239 9676 9707
+)
+"gPack.ml" 239 9676 9724 "gPack.ml" 239 9676 9743
+call(
+  stack
+)
+type(
+  Gtk.notebook Gtk.obj
+)
+"gPack.ml" 239 9676 9711 "gPack.ml" 239 9676 9743
+call(
+  tail
+)
+type(
+  notebook
+)
+"gPack.ml" 239 9676 9701 "gPack.ml" 239 9676 9744
+type(
+  Gtk.notebook Gobject.param list -> notebook
+)
+"gPack.ml" 238 9642 9674 "gPack.ml" 239 9676 9745
+call(
+  stack
+)
+type(
+  Gtk.notebook Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> notebook
+)
+"gPack.ml" 238 9642 9644 "gPack.ml" 239 9676 9745
+call(
+  stack
+)
+type(
+  ?enable_popup:bool ->
+  ?homogeneous_tabs:bool ->
+  ?scrollable:bool ->
+  ?show_border:bool ->
+  ?show_tabs:bool ->
+  ?tab_border:int ->
+  ?tab_pos:GtkEnums.position_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> notebook
+)

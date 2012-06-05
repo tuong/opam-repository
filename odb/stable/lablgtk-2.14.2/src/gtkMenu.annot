@@ -1,0 +1,1065 @@
+"gtkMenu.ml" 32 1799 1803 "gtkMenu.ml" 32 1799 1805
+type(
+  unit
+)
+"gtkMenu.ml" 32 1799 1808 "gtkMenu.ml" 32 1799 1821
+type(
+  unit -> unit
+)
+"gtkMenu.ml" 32 1799 1822 "gtkMenu.ml" 32 1799 1824
+type(
+  unit
+)
+"gtkMenu.ml" 32 1799 1808 "gtkMenu.ml" 32 1799 1824
+type(
+  unit
+)
+"gtkMenu.ml" 44 2252 2258 "gtkMenu.ml" 44 2252 2264
+type(
+  ?use_mnemonic:bool -> ?label:string -> unit -> Gtk.menu_item Gtk.obj
+)
+ident(
+  def create "gtkMenu.ml" 47 2380 2436 "gtkMenu.ml" 48 2437 2440
+)
+"gtkMenu.ml" 44 2252 2267 "gtkMenu.ml" 44 2252 2279
+type(
+  bool
+)
+"gtkMenu.ml" 44 2252 2280 "gtkMenu.ml" 44 2252 2285
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gtkMenu.ml" 44 2252 2280 "gtkMenu.ml" 44 2252 2285
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gtkMenu.ml" 44 2252 2280 "gtkMenu.ml" 44 2252 2285
+)
+"gtkMenu.ml" 44 2252 2288 "gtkMenu.ml" 44 2252 2293
+type(
+  string option
+)
+ident(
+  def label "gtkMenu.ml" 44 2252 2294 "gtkMenu.ml" 47 2380 2436
+)
+"gtkMenu.ml" 44 2252 2294 "gtkMenu.ml" 44 2252 2296
+type(
+  unit
+)
+"gtkMenu.ml" 45 2299 2309 "gtkMenu.ml" 45 2299 2314
+type(
+  string option
+)
+ident(
+  int_ref label "gtkMenu.ml" 44 2252 2288 "gtkMenu.ml" 44 2252 2293
+)
+"gtkMenu.ml" 45 2299 2320 "gtkMenu.ml" 45 2299 2324
+type(
+  string option
+)
+"gtkMenu.ml" 45 2299 2328 "gtkMenu.ml" 45 2299 2334
+type(
+  Gtk.menu_item Gobject.param list -> Gtk.menu_item Gtk.obj
+)
+"gtkMenu.ml" 45 2299 2335 "gtkMenu.ml" 45 2299 2337
+type(
+  Gtk.menu_item Gobject.param list
+)
+"gtkMenu.ml" 45 2299 2328 "gtkMenu.ml" 45 2299 2337
+call(
+  tail
+)
+type(
+  Gtk.menu_item Gtk.obj
+)
+"gtkMenu.ml" 46 2338 2349 "gtkMenu.ml" 46 2338 2354
+type(
+  string
+)
+ident(
+  def label "gtkMenu.ml" 46 2338 2358 "gtkMenu.ml" 47 2380 2436
+)
+"gtkMenu.ml" 46 2338 2344 "gtkMenu.ml" 46 2338 2354
+type(
+  string option
+)
+"gtkMenu.ml" 46 2338 2361 "gtkMenu.ml" 46 2338 2373
+type(
+  bool
+)
+ident(
+  int_ref use_mnemonic "gtkMenu.ml" 44 2252 2267 "gtkMenu.ml" 44 2252 2279
+)
+"gtkMenu.ml" 47 2380 2381 "gtkMenu.ml" 47 2380 2401
+type(
+  string -> Gtk.menu_item Gtk.obj
+)
+"gtkMenu.ml" 47 2380 2402 "gtkMenu.ml" 47 2380 2407
+type(
+  string
+)
+ident(
+  int_ref label "gtkMenu.ml" 46 2338 2349 "gtkMenu.ml" 46 2338 2354
+)
+"gtkMenu.ml" 47 2380 2381 "gtkMenu.ml" 47 2380 2407
+type(
+  Gtk.menu_item Gtk.obj
+)
+"gtkMenu.ml" 47 2380 2413 "gtkMenu.ml" 47 2380 2430
+type(
+  string -> Gtk.menu_item Gtk.obj
+)
+"gtkMenu.ml" 47 2380 2431 "gtkMenu.ml" 47 2380 2436
+type(
+  string
+)
+ident(
+  int_ref label "gtkMenu.ml" 46 2338 2349 "gtkMenu.ml" 46 2338 2354
+)
+"gtkMenu.ml" 47 2380 2413 "gtkMenu.ml" 47 2380 2436
+type(
+  Gtk.menu_item Gtk.obj
+)
+"gtkMenu.ml" 46 2338 2358 "gtkMenu.ml" 47 2380 2436
+type(
+  Gtk.menu_item Gtk.obj
+)
+"gtkMenu.ml" 45 2299 2303 "gtkMenu.ml" 47 2380 2436
+type(
+  Gtk.menu_item Gtk.obj
+)
+"gtkMenu.ml" 58 2850 2856 "gtkMenu.ml" 58 2850 2873
+type(
+  ?accel_group:Gtk.accel_group -> GtkStock.id -> Gtk.image_menu_item Gtk.obj
+)
+ident(
+  def create_from_stock "gtkMenu.ml" 60 2950 2952 "gtkMenu.ml" 70 3249 3252
+)
+"gtkMenu.ml" 58 2850 2875 "gtkMenu.ml" 58 2850 2886
+type(
+  Gtk.accel_group option
+)
+ident(
+  def accel_group "gtkMenu.ml" 58 2850 2887 "gtkMenu.ml" 59 2892 2949
+)
+"gtkMenu.ml" 58 2850 2887 "gtkMenu.ml" 58 2850 2888
+type(
+  GtkStock.id
+)
+ident(
+  def s "gtkMenu.ml" 59 2892 2896 "gtkMenu.ml" 59 2892 2949
+)
+"gtkMenu.ml" 59 2892 2896 "gtkMenu.ml" 59 2892 2913
+type(
+  string -> Gtk.accel_group option -> Gtk.image_menu_item Gtk.obj
+)
+"gtkMenu.ml" 59 2892 2915 "gtkMenu.ml" 59 2892 2934
+type(
+  GtkStock.id -> string
+)
+ident(
+  ext_ref GtkStock.convert_id
+)
+"gtkMenu.ml" 59 2892 2935 "gtkMenu.ml" 59 2892 2936
+type(
+  GtkStock.id
+)
+ident(
+  int_ref s "gtkMenu.ml" 58 2850 2887 "gtkMenu.ml" 58 2850 2888
+)
+"gtkMenu.ml" 59 2892 2914 "gtkMenu.ml" 59 2892 2937
+call(
+  stack
+)
+type(
+  string
+)
+"gtkMenu.ml" 59 2892 2938 "gtkMenu.ml" 59 2892 2949
+type(
+  Gtk.accel_group option
+)
+ident(
+  int_ref accel_group "gtkMenu.ml" 58 2850 2875 "gtkMenu.ml" 58 2850 2886
+)
+"gtkMenu.ml" 59 2892 2896 "gtkMenu.ml" 59 2892 2949
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gtkMenu.ml" 60 2950 2956 "gtkMenu.ml" 60 2950 2962
+type(
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?accel_group:Gtk.accel_group -> unit -> Gtk.image_menu_item Gtk.obj
+)
+ident(
+  def create "gtkMenu.ml" 69 3200 3248 "gtkMenu.ml" 70 3249 3252
+)
+"gtkMenu.ml" 60 2950 2964 "gtkMenu.ml" 60 2950 2969
+type(
+  string option
+)
+ident(
+  def label "gtkMenu.ml" 60 2950 2970 "gtkMenu.ml" 69 3200 3248
+)
+"gtkMenu.ml" 60 2950 2972 "gtkMenu.ml" 60 2950 2984
+type(
+  bool
+)
+"gtkMenu.ml" 60 2950 2985 "gtkMenu.ml" 60 2950 2990
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gtkMenu.ml" 60 2950 2985 "gtkMenu.ml" 60 2950 2990
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gtkMenu.ml" 60 2950 2985 "gtkMenu.ml" 60 2950 2990
+)
+"gtkMenu.ml" 60 2950 2993 "gtkMenu.ml" 60 2950 2998
+type(
+  GtkStock.id option
+)
+ident(
+  def stock "gtkMenu.ml" 60 2950 2999 "gtkMenu.ml" 69 3200 3248
+)
+"gtkMenu.ml" 60 2950 3000 "gtkMenu.ml" 60 2950 3011
+type(
+  Gtk.accel_group option
+)
+ident(
+  def accel_group "gtkMenu.ml" 60 2950 3012 "gtkMenu.ml" 69 3200 3248
+)
+"gtkMenu.ml" 60 2950 3012 "gtkMenu.ml" 60 2950 3014
+type(
+  unit
+)
+"gtkMenu.ml" 61 3018 3028 "gtkMenu.ml" 61 3018 3033
+type(
+  GtkStock.id option
+)
+ident(
+  int_ref stock "gtkMenu.ml" 60 2950 2993 "gtkMenu.ml" 60 2950 2998
+)
+"gtkMenu.ml" 62 3040 3046 "gtkMenu.ml" 62 3040 3050
+type(
+  GtkStock.id option
+)
+"gtkMenu.ml" 63 3055 3068 "gtkMenu.ml" 63 3055 3073
+type(
+  string option
+)
+ident(
+  int_ref label "gtkMenu.ml" 60 2950 2964 "gtkMenu.ml" 60 2950 2969
+)
+"gtkMenu.ml" 64 3079 3082 "gtkMenu.ml" 64 3079 3086
+type(
+  string option
+)
+"gtkMenu.ml" 64 3079 3090 "gtkMenu.ml" 64 3079 3096
+type(
+  Gtk.image_menu_item Gobject.param list -> Gtk.image_menu_item Gtk.obj
+)
+"gtkMenu.ml" 64 3079 3097 "gtkMenu.ml" 64 3079 3099
+type(
+  Gtk.image_menu_item Gobject.param list
+)
+"gtkMenu.ml" 64 3079 3090 "gtkMenu.ml" 64 3079 3099
+call(
+  tail
+)
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gtkMenu.ml" 65 3100 3108 "gtkMenu.ml" 65 3100 3109
+type(
+  string
+)
+ident(
+  def l "gtkMenu.ml" 66 3114 3119 "gtkMenu.ml" 67 3164 3193
+)
+"gtkMenu.ml" 65 3100 3103 "gtkMenu.ml" 65 3100 3109
+type(
+  string option
+)
+"gtkMenu.ml" 66 3114 3122 "gtkMenu.ml" 66 3114 3134
+type(
+  bool
+)
+ident(
+  int_ref use_mnemonic "gtkMenu.ml" 60 2950 2972 "gtkMenu.ml" 60 2950 2984
+)
+"gtkMenu.ml" 66 3114 3140 "gtkMenu.ml" 66 3114 3160
+type(
+  string -> Gtk.image_menu_item Gtk.obj
+)
+"gtkMenu.ml" 66 3114 3161 "gtkMenu.ml" 66 3114 3162
+type(
+  string
+)
+ident(
+  int_ref l "gtkMenu.ml" 65 3100 3108 "gtkMenu.ml" 65 3100 3109
+)
+"gtkMenu.ml" 66 3114 3140 "gtkMenu.ml" 66 3114 3162
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gtkMenu.ml" 67 3164 3174 "gtkMenu.ml" 67 3164 3191
+type(
+  string -> Gtk.image_menu_item Gtk.obj
+)
+"gtkMenu.ml" 67 3164 3192 "gtkMenu.ml" 67 3164 3193
+type(
+  string
+)
+ident(
+  int_ref l "gtkMenu.ml" 65 3100 3108 "gtkMenu.ml" 65 3100 3109
+)
+"gtkMenu.ml" 67 3164 3174 "gtkMenu.ml" 67 3164 3193
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gtkMenu.ml" 66 3114 3119 "gtkMenu.ml" 67 3164 3193
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gtkMenu.ml" 63 3055 3056 "gtkMenu.ml" 68 3195 3199
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gtkMenu.ml" 69 3200 3211 "gtkMenu.ml" 69 3200 3212
+type(
+  GtkStock.id
+)
+ident(
+  def s "gtkMenu.ml" 69 3200 3216 "gtkMenu.ml" 69 3200 3248
+)
+"gtkMenu.ml" 69 3200 3206 "gtkMenu.ml" 69 3200 3212
+type(
+  GtkStock.id option
+)
+"gtkMenu.ml" 69 3200 3216 "gtkMenu.ml" 69 3200 3233
+type(
+  ?accel_group:Gtk.accel_group -> GtkStock.id -> Gtk.image_menu_item Gtk.obj
+)
+ident(
+  int_ref create_from_stock "gtkMenu.ml" 58 2850 2856 "gtkMenu.ml" 58 2850 2873
+)
+"gtkMenu.ml" 69 3200 3235 "gtkMenu.ml" 69 3200 3246
+type(
+  Gtk.accel_group option
+)
+ident(
+  int_ref accel_group "gtkMenu.ml" 60 2950 3000 "gtkMenu.ml" 60 2950 3011
+)
+"gtkMenu.ml" 69 3200 3247 "gtkMenu.ml" 69 3200 3248
+type(
+  GtkStock.id
+)
+ident(
+  int_ref s "gtkMenu.ml" 69 3200 3211 "gtkMenu.ml" 69 3200 3212
+)
+"gtkMenu.ml" 69 3200 3216 "gtkMenu.ml" 69 3200 3248
+call(
+  tail
+)
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gtkMenu.ml" 61 3018 3022 "gtkMenu.ml" 69 3200 3248
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gtkMenu.ml" 78 3532 3538 "gtkMenu.ml" 78 3532 3544
+type(
+  ?use_mnemonic:bool -> ?label:string -> unit -> Gtk.check_menu_item Gtk.obj
+)
+ident(
+  def create "gtkMenu.ml" 83 3723 3725 "gtkMenu.ml" 87 3915 3918
+)
+"gtkMenu.ml" 78 3532 3547 "gtkMenu.ml" 78 3532 3559
+type(
+  bool
+)
+"gtkMenu.ml" 78 3532 3560 "gtkMenu.ml" 78 3532 3565
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gtkMenu.ml" 78 3532 3560 "gtkMenu.ml" 78 3532 3565
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gtkMenu.ml" 78 3532 3560 "gtkMenu.ml" 78 3532 3565
+)
+"gtkMenu.ml" 78 3532 3568 "gtkMenu.ml" 78 3532 3573
+type(
+  string option
+)
+ident(
+  def label "gtkMenu.ml" 78 3532 3574 "gtkMenu.ml" 82 3688 3722
+)
+"gtkMenu.ml" 78 3532 3574 "gtkMenu.ml" 78 3532 3576
+type(
+  unit
+)
+"gtkMenu.ml" 79 3579 3589 "gtkMenu.ml" 79 3579 3594
+type(
+  string option
+)
+ident(
+  int_ref label "gtkMenu.ml" 78 3532 3568 "gtkMenu.ml" 78 3532 3573
+)
+"gtkMenu.ml" 79 3579 3600 "gtkMenu.ml" 79 3579 3604
+type(
+  string option
+)
+"gtkMenu.ml" 79 3579 3608 "gtkMenu.ml" 79 3579 3614
+type(
+  Gtk.check_menu_item Gobject.param list -> Gtk.check_menu_item Gtk.obj
+)
+"gtkMenu.ml" 79 3579 3615 "gtkMenu.ml" 79 3579 3617
+type(
+  Gtk.check_menu_item Gobject.param list
+)
+"gtkMenu.ml" 79 3579 3608 "gtkMenu.ml" 79 3579 3617
+call(
+  tail
+)
+type(
+  Gtk.check_menu_item Gtk.obj
+)
+"gtkMenu.ml" 80 3618 3629 "gtkMenu.ml" 80 3618 3634
+type(
+  string
+)
+ident(
+  def label "gtkMenu.ml" 80 3618 3638 "gtkMenu.ml" 82 3688 3722
+)
+"gtkMenu.ml" 80 3618 3624 "gtkMenu.ml" 80 3618 3634
+type(
+  string option
+)
+"gtkMenu.ml" 80 3618 3641 "gtkMenu.ml" 80 3618 3653
+type(
+  bool
+)
+ident(
+  int_ref use_mnemonic "gtkMenu.ml" 78 3532 3547 "gtkMenu.ml" 78 3532 3559
+)
+"gtkMenu.ml" 81 3660 3661 "gtkMenu.ml" 81 3660 3681
+type(
+  string -> Gtk.check_menu_item Gtk.obj
+)
+"gtkMenu.ml" 81 3660 3682 "gtkMenu.ml" 81 3660 3687
+type(
+  string
+)
+ident(
+  int_ref label "gtkMenu.ml" 80 3618 3629 "gtkMenu.ml" 80 3618 3634
+)
+"gtkMenu.ml" 81 3660 3661 "gtkMenu.ml" 81 3660 3687
+type(
+  Gtk.check_menu_item Gtk.obj
+)
+"gtkMenu.ml" 82 3688 3699 "gtkMenu.ml" 82 3688 3716
+type(
+  string -> Gtk.check_menu_item Gtk.obj
+)
+"gtkMenu.ml" 82 3688 3717 "gtkMenu.ml" 82 3688 3722
+type(
+  string
+)
+ident(
+  int_ref label "gtkMenu.ml" 80 3618 3629 "gtkMenu.ml" 80 3618 3634
+)
+"gtkMenu.ml" 82 3688 3699 "gtkMenu.ml" 82 3688 3722
+type(
+  Gtk.check_menu_item Gtk.obj
+)
+"gtkMenu.ml" 80 3618 3638 "gtkMenu.ml" 82 3688 3722
+type(
+  Gtk.check_menu_item Gtk.obj
+)
+"gtkMenu.ml" 79 3579 3583 "gtkMenu.ml" 82 3688 3722
+type(
+  Gtk.check_menu_item Gtk.obj
+)
+"gtkMenu.ml" 83 3723 3729 "gtkMenu.ml" 83 3723 3732
+type(
+  ?active:bool ->
+  ?show_toggle:bool ->
+  ?right_justified:bool -> [> `checkmenuitem | `menuitem ] Gtk.obj -> unit
+)
+ident(
+  def set "gtkMenu.ml" 86 3855 3914 "gtkMenu.ml" 87 3915 3918
+)
+"gtkMenu.ml" 83 3723 3734 "gtkMenu.ml" 83 3723 3740
+type(
+  bool option
+)
+ident(
+  def active "gtkMenu.ml" 83 3723 3741 "gtkMenu.ml" 86 3855 3914
+)
+"gtkMenu.ml" 83 3723 3742 "gtkMenu.ml" 83 3723 3753
+type(
+  bool option
+)
+ident(
+  def show_toggle "gtkMenu.ml" 83 3723 3754 "gtkMenu.ml" 86 3855 3914
+)
+"gtkMenu.ml" 83 3723 3755 "gtkMenu.ml" 83 3723 3770
+type(
+  bool option
+)
+ident(
+  def right_justified "gtkMenu.ml" 83 3723 3771 "gtkMenu.ml" 86 3855 3914
+)
+"gtkMenu.ml" 83 3723 3771 "gtkMenu.ml" 83 3723 3772
+type(
+  ([> `checkmenuitem | `menuitem ] as 'a) Gtk.obj
+)
+ident(
+  def w "gtkMenu.ml" 84 3775 3779 "gtkMenu.ml" 86 3855 3914
+)
+"gtkMenu.ml" 84 3775 3779 "gtkMenu.ml" 84 3775 3782
+type(
+  f:(bool -> unit) -> bool option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gtkMenu.ml" 84 3775 3783 "gtkMenu.ml" 84 3775 3789
+type(
+  bool option
+)
+ident(
+  int_ref active "gtkMenu.ml" 83 3723 3734 "gtkMenu.ml" 83 3723 3740
+)
+"gtkMenu.ml" 84 3775 3794 "gtkMenu.ml" 84 3775 3797
+type(
+  ('a, bool) Gobject.property -> 'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gtkMenu.ml" 84 3775 3798 "gtkMenu.ml" 84 3775 3806
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref P.active
+)
+"gtkMenu.ml" 84 3775 3807 "gtkMenu.ml" 84 3775 3808
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref w "gtkMenu.ml" 83 3723 3771 "gtkMenu.ml" 83 3723 3772
+)
+"gtkMenu.ml" 84 3775 3793 "gtkMenu.ml" 84 3775 3809
+call(
+  stack
+)
+type(
+  bool -> unit
+)
+"gtkMenu.ml" 84 3775 3779 "gtkMenu.ml" 84 3775 3809
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkMenu.ml" 85 3811 3815 "gtkMenu.ml" 85 3811 3818
+type(
+  f:(bool -> unit) -> bool option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gtkMenu.ml" 85 3811 3819 "gtkMenu.ml" 85 3811 3830
+type(
+  bool option
+)
+ident(
+  int_ref show_toggle "gtkMenu.ml" 83 3723 3742 "gtkMenu.ml" 83 3723 3753
+)
+"gtkMenu.ml" 85 3811 3835 "gtkMenu.ml" 85 3811 3850
+type(
+  'a Gtk.obj -> bool -> unit
+)
+"gtkMenu.ml" 85 3811 3851 "gtkMenu.ml" 85 3811 3852
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref w "gtkMenu.ml" 83 3723 3771 "gtkMenu.ml" 83 3723 3772
+)
+"gtkMenu.ml" 85 3811 3834 "gtkMenu.ml" 85 3811 3853
+call(
+  stack
+)
+type(
+  bool -> unit
+)
+"gtkMenu.ml" 85 3811 3815 "gtkMenu.ml" 85 3811 3853
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkMenu.ml" 86 3855 3859 "gtkMenu.ml" 86 3855 3862
+type(
+  f:(bool -> unit) -> bool option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gtkMenu.ml" 86 3855 3863 "gtkMenu.ml" 86 3855 3878
+type(
+  bool option
+)
+ident(
+  int_ref right_justified "gtkMenu.ml" 83 3723 3755 "gtkMenu.ml" 83 3723 3770
+)
+"gtkMenu.ml" 86 3855 3883 "gtkMenu.ml" 86 3855 3911
+type(
+  'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref MenuItem.set_right_justified
+)
+"gtkMenu.ml" 86 3855 3912 "gtkMenu.ml" 86 3855 3913
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref w "gtkMenu.ml" 83 3723 3771 "gtkMenu.ml" 83 3723 3772
+)
+"gtkMenu.ml" 86 3855 3882 "gtkMenu.ml" 86 3855 3914
+call(
+  stack
+)
+type(
+  bool -> unit
+)
+"gtkMenu.ml" 86 3855 3859 "gtkMenu.ml" 86 3855 3914
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkMenu.ml" 85 3811 3815 "gtkMenu.ml" 86 3855 3914
+type(
+  unit
+)
+"gtkMenu.ml" 84 3775 3779 "gtkMenu.ml" 86 3855 3914
+type(
+  unit
+)
+"gtkMenu.ml" 99 4362 4368 "gtkMenu.ml" 99 4362 4374
+type(
+  ?group:Gtk.radio_menu_item Gtk.group ->
+  ?use_mnemonic:bool -> ?label:string -> unit -> Gtk.radio_menu_item Gtk.obj
+)
+ident(
+  def create "gtkMenu.ml" 103 4543 4578 "gtkMenu.ml" 104 4579 4582
+)
+"gtkMenu.ml" 99 4362 4377 "gtkMenu.ml" 99 4362 4382
+type(
+  Gtk.radio_menu_item Gtk.group
+)
+"gtkMenu.ml" 99 4362 4385 "gtkMenu.ml" 99 4362 4389
+type(
+  Gtk.radio_menu_item Gtk.group
+)
+type(
+  Gtk.radio_menu_item Gtk.group
+)
+ident(
+  int_ref *sth* "gtkMenu.ml" 99 4362 4385 "gtkMenu.ml" 99 4362 4389
+)
+type(
+  Gtk.radio_menu_item Gtk.group option
+)
+type(
+  Gtk.radio_menu_item Gtk.group option
+)
+type(
+  Gtk.radio_menu_item Gtk.group
+)
+ident(
+  def *sth* "gtkMenu.ml" 99 4362 4385 "gtkMenu.ml" 99 4362 4389
+)
+"gtkMenu.ml" 99 4362 4393 "gtkMenu.ml" 99 4362 4405
+type(
+  bool
+)
+"gtkMenu.ml" 99 4362 4406 "gtkMenu.ml" 99 4362 4411
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gtkMenu.ml" 99 4362 4406 "gtkMenu.ml" 99 4362 4411
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gtkMenu.ml" 99 4362 4406 "gtkMenu.ml" 99 4362 4411
+)
+"gtkMenu.ml" 99 4362 4414 "gtkMenu.ml" 99 4362 4419
+type(
+  string option
+)
+ident(
+  def label "gtkMenu.ml" 99 4362 4420 "gtkMenu.ml" 103 4543 4578
+)
+"gtkMenu.ml" 99 4362 4420 "gtkMenu.ml" 99 4362 4422
+type(
+  unit
+)
+"gtkMenu.ml" 100 4425 4435 "gtkMenu.ml" 100 4425 4440
+type(
+  string option
+)
+ident(
+  int_ref label "gtkMenu.ml" 99 4362 4414 "gtkMenu.ml" 99 4362 4419
+)
+"gtkMenu.ml" 100 4425 4446 "gtkMenu.ml" 100 4425 4450
+type(
+  string option
+)
+"gtkMenu.ml" 100 4425 4454 "gtkMenu.ml" 100 4425 4460
+type(
+  Gtk.radio_menu_item Gtk.group -> Gtk.radio_menu_item Gtk.obj
+)
+"gtkMenu.ml" 100 4425 4461 "gtkMenu.ml" 100 4425 4466
+type(
+  Gtk.radio_menu_item Gtk.group
+)
+ident(
+  int_ref group "gtkMenu.ml" 99 4362 4377 "gtkMenu.ml" 99 4362 4382
+)
+"gtkMenu.ml" 100 4425 4454 "gtkMenu.ml" 100 4425 4466
+type(
+  Gtk.radio_menu_item Gtk.obj
+)
+"gtkMenu.ml" 101 4467 4478 "gtkMenu.ml" 101 4467 4483
+type(
+  string
+)
+ident(
+  def label "gtkMenu.ml" 102 4488 4489 "gtkMenu.ml" 103 4543 4578
+)
+"gtkMenu.ml" 101 4467 4473 "gtkMenu.ml" 101 4467 4483
+type(
+  string option
+)
+"gtkMenu.ml" 102 4488 4492 "gtkMenu.ml" 102 4488 4504
+type(
+  bool
+)
+ident(
+  int_ref use_mnemonic "gtkMenu.ml" 99 4362 4393 "gtkMenu.ml" 99 4362 4405
+)
+"gtkMenu.ml" 102 4488 4510 "gtkMenu.ml" 102 4488 4530
+type(
+  Gtk.radio_menu_item Gtk.group -> string -> Gtk.radio_menu_item Gtk.obj
+)
+"gtkMenu.ml" 102 4488 4531 "gtkMenu.ml" 102 4488 4536
+type(
+  Gtk.radio_menu_item Gtk.group
+)
+ident(
+  int_ref group "gtkMenu.ml" 99 4362 4377 "gtkMenu.ml" 99 4362 4382
+)
+"gtkMenu.ml" 102 4488 4537 "gtkMenu.ml" 102 4488 4542
+type(
+  string
+)
+ident(
+  int_ref label "gtkMenu.ml" 101 4467 4478 "gtkMenu.ml" 101 4467 4483
+)
+"gtkMenu.ml" 102 4488 4510 "gtkMenu.ml" 102 4488 4542
+type(
+  Gtk.radio_menu_item Gtk.obj
+)
+"gtkMenu.ml" 103 4543 4549 "gtkMenu.ml" 103 4543 4566
+type(
+  Gtk.radio_menu_item Gtk.group -> string -> Gtk.radio_menu_item Gtk.obj
+)
+"gtkMenu.ml" 103 4543 4567 "gtkMenu.ml" 103 4543 4572
+type(
+  Gtk.radio_menu_item Gtk.group
+)
+ident(
+  int_ref group "gtkMenu.ml" 99 4362 4377 "gtkMenu.ml" 99 4362 4382
+)
+"gtkMenu.ml" 103 4543 4573 "gtkMenu.ml" 103 4543 4578
+type(
+  string
+)
+ident(
+  int_ref label "gtkMenu.ml" 101 4467 4478 "gtkMenu.ml" 101 4467 4483
+)
+"gtkMenu.ml" 103 4543 4549 "gtkMenu.ml" 103 4543 4578
+type(
+  Gtk.radio_menu_item Gtk.obj
+)
+"gtkMenu.ml" 102 4488 4489 "gtkMenu.ml" 103 4543 4578
+type(
+  Gtk.radio_menu_item Gtk.obj
+)
+"gtkMenu.ml" 100 4425 4429 "gtkMenu.ml" 103 4543 4578
+type(
+  Gtk.radio_menu_item Gtk.obj
+)
+"gtkMenu.ml" 112 4682 4688 "gtkMenu.ml" 112 4682 4693
+type(
+  ?parent_menu:[> `menushell ] Gobject.obj ->
+  ?parent_item:[> `menuitem ] Gobject.obj ->
+  [> `menu ] Gtk.obj -> button:int -> time:int32 -> unit
+)
+ident(
+  def popup "gtkMenu.ml" 114 4800 4802 "gtkMenu.ml" 117 4912 4915
+)
+"gtkMenu.ml" 112 4682 4695 "gtkMenu.ml" 112 4682 4706
+type(
+  ([> `menushell ] as 'a) Gobject.obj option
+)
+ident(
+  def parent_menu "gtkMenu.ml" 112 4682 4707 "gtkMenu.ml" 113 4724 4799
+)
+"gtkMenu.ml" 112 4682 4708 "gtkMenu.ml" 112 4682 4719
+type(
+  ([> `menuitem ] as 'b) Gobject.obj option
+)
+ident(
+  def parent_item "gtkMenu.ml" 112 4682 4720 "gtkMenu.ml" 113 4724 4799
+)
+"gtkMenu.ml" 112 4682 4720 "gtkMenu.ml" 112 4682 4721
+type(
+  ([> `menu ] as 'c) Gtk.obj
+)
+ident(
+  def w "gtkMenu.ml" 113 4724 4728 "gtkMenu.ml" 113 4724 4799
+)
+"gtkMenu.ml" 113 4724 4728 "gtkMenu.ml" 113 4724 4733
+type(
+  'c Gtk.obj ->
+  'a Gtk.optobj -> 'b Gtk.optobj -> button:int -> time:int32 -> unit
+)
+"gtkMenu.ml" 113 4724 4734 "gtkMenu.ml" 113 4724 4735
+type(
+  'c Gtk.obj
+)
+ident(
+  int_ref w "gtkMenu.ml" 112 4682 4720 "gtkMenu.ml" 112 4682 4721
+)
+"gtkMenu.ml" 113 4724 4737 "gtkMenu.ml" 113 4724 4754
+type(
+  'a Gobject.obj option -> 'a Gtk.optobj
+)
+ident(
+  ext_ref Gpointer.optboxed
+)
+"gtkMenu.ml" 113 4724 4755 "gtkMenu.ml" 113 4724 4766
+type(
+  'a Gobject.obj option
+)
+ident(
+  int_ref parent_menu "gtkMenu.ml" 112 4682 4695 "gtkMenu.ml" 112 4682 4706
+)
+"gtkMenu.ml" 113 4724 4736 "gtkMenu.ml" 113 4724 4767
+call(
+  stack
+)
+type(
+  'a Gtk.optobj
+)
+"gtkMenu.ml" 113 4724 4769 "gtkMenu.ml" 113 4724 4786
+type(
+  'b Gobject.obj option -> 'b Gtk.optobj
+)
+ident(
+  ext_ref Gpointer.optboxed
+)
+"gtkMenu.ml" 113 4724 4787 "gtkMenu.ml" 113 4724 4798
+type(
+  'b Gobject.obj option
+)
+ident(
+  int_ref parent_item "gtkMenu.ml" 112 4682 4708 "gtkMenu.ml" 112 4682 4719
+)
+"gtkMenu.ml" 113 4724 4768 "gtkMenu.ml" 113 4724 4799
+call(
+  stack
+)
+type(
+  'b Gtk.optobj
+)
+"gtkMenu.ml" 113 4724 4728 "gtkMenu.ml" 113 4724 4799
+call(
+  tail
+)
+type(
+  button:int -> time:int32 -> unit
+)
+"gtkMenu.ml" 114 4800 4806 "gtkMenu.ml" 114 4800 4809
+type(
+  ?active:int -> ?accel_group:Gtk.accel_group -> [> `menu ] Gtk.obj -> unit
+)
+ident(
+  def set "gtkMenu.ml" 116 4869 4911 "gtkMenu.ml" 117 4912 4915
+)
+"gtkMenu.ml" 114 4800 4811 "gtkMenu.ml" 114 4800 4817
+type(
+  int option
+)
+ident(
+  def active "gtkMenu.ml" 114 4800 4818 "gtkMenu.ml" 116 4869 4911
+)
+"gtkMenu.ml" 114 4800 4819 "gtkMenu.ml" 114 4800 4830
+type(
+  Gtk.accel_group option
+)
+ident(
+  def accel_group "gtkMenu.ml" 114 4800 4831 "gtkMenu.ml" 116 4869 4911
+)
+"gtkMenu.ml" 114 4800 4831 "gtkMenu.ml" 114 4800 4832
+type(
+  ([> `menu ] as 'd) Gtk.obj
+)
+ident(
+  def w "gtkMenu.ml" 115 4835 4839 "gtkMenu.ml" 116 4869 4911
+)
+"gtkMenu.ml" 115 4835 4839 "gtkMenu.ml" 115 4835 4842
+type(
+  f:(int -> unit) -> int option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gtkMenu.ml" 115 4835 4843 "gtkMenu.ml" 115 4835 4849
+type(
+  int option
+)
+ident(
+  int_ref active "gtkMenu.ml" 114 4800 4811 "gtkMenu.ml" 114 4800 4817
+)
+"gtkMenu.ml" 115 4835 4854 "gtkMenu.ml" 115 4835 4864
+type(
+  'd Gtk.obj -> int -> unit
+)
+"gtkMenu.ml" 115 4835 4865 "gtkMenu.ml" 115 4835 4866
+type(
+  'd Gtk.obj
+)
+ident(
+  int_ref w "gtkMenu.ml" 114 4800 4831 "gtkMenu.ml" 114 4800 4832
+)
+"gtkMenu.ml" 115 4835 4853 "gtkMenu.ml" 115 4835 4867
+call(
+  stack
+)
+type(
+  int -> unit
+)
+"gtkMenu.ml" 115 4835 4839 "gtkMenu.ml" 115 4835 4867
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkMenu.ml" 116 4869 4873 "gtkMenu.ml" 116 4869 4876
+type(
+  f:(Gtk.accel_group -> unit) -> Gtk.accel_group option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gtkMenu.ml" 116 4869 4877 "gtkMenu.ml" 116 4869 4888
+type(
+  Gtk.accel_group option
+)
+ident(
+  int_ref accel_group "gtkMenu.ml" 114 4800 4819 "gtkMenu.ml" 114 4800 4830
+)
+"gtkMenu.ml" 116 4869 4893 "gtkMenu.ml" 116 4869 4908
+type(
+  'd Gtk.obj -> Gtk.accel_group -> unit
+)
+"gtkMenu.ml" 116 4869 4909 "gtkMenu.ml" 116 4869 4910
+type(
+  'd Gtk.obj
+)
+ident(
+  int_ref w "gtkMenu.ml" 114 4800 4831 "gtkMenu.ml" 114 4800 4832
+)
+"gtkMenu.ml" 116 4869 4892 "gtkMenu.ml" 116 4869 4911
+call(
+  stack
+)
+type(
+  Gtk.accel_group -> unit
+)
+"gtkMenu.ml" 116 4869 4873 "gtkMenu.ml" 116 4869 4911
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkMenu.ml" 115 4835 4839 "gtkMenu.ml" 116 4869 4911
+type(
+  unit
+)

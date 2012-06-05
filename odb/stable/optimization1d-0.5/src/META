@@ -1,0 +1,9 @@
+# OASIS_START
+# DO NOT EDIT (digest: dd4a2a1a1515e53527bcea3ea60e2ace)
+version = "0.5"
+description = "Find extrema of 1D functions."
+archive(byte) = "optimization1d.cma"
+archive(native) = "optimization1d.cmxa"
+exists_if = "optimization1d.cma"
+# OASIS_STOP
+

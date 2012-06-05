@@ -1,0 +1,335 @@
+"gtkText.ml" 33 1810 1814 "gtkText.ml" 33 1810 1816
+type(
+  unit
+)
+"gtkText.ml" 33 1810 1819 "gtkText.ml" 33 1810 1832
+type(
+  unit -> unit
+)
+"gtkText.ml" 33 1810 1833 "gtkText.ml" 33 1810 1835
+type(
+  unit
+)
+"gtkText.ml" 33 1810 1819 "gtkText.ml" 33 1810 1835
+type(
+  unit
+)
+"gtkText.ml" 54 2398 2404 "gtkText.ml" 54 2398 2410
+type(
+  Gtk.text_buffer -> Gtk.text_iter -> string -> unit
+)
+ident(
+  def insert "gtkText.ml" 55 2446 2448 "gtkText.ml" 167 8366 8369
+)
+"gtkText.ml" 54 2398 2411 "gtkText.ml" 54 2398 2412
+type(
+  Gtk.text_buffer
+)
+ident(
+  def a "gtkText.ml" 54 2398 2413 "gtkText.ml" 54 2398 2445
+)
+"gtkText.ml" 54 2398 2413 "gtkText.ml" 54 2398 2414
+type(
+  Gtk.text_iter
+)
+ident(
+  def b "gtkText.ml" 54 2398 2415 "gtkText.ml" 54 2398 2445
+)
+"gtkText.ml" 54 2398 2415 "gtkText.ml" 54 2398 2416
+type(
+  string
+)
+ident(
+  def c "gtkText.ml" 54 2398 2419 "gtkText.ml" 54 2398 2445
+)
+"gtkText.ml" 54 2398 2419 "gtkText.ml" 54 2398 2425
+type(
+  Gtk.text_buffer -> Gtk.text_iter -> string Gpointer.stable -> unit
+)
+"gtkText.ml" 54 2398 2426 "gtkText.ml" 54 2398 2427
+type(
+  Gtk.text_buffer
+)
+ident(
+  int_ref a "gtkText.ml" 54 2398 2411 "gtkText.ml" 54 2398 2412
+)
+"gtkText.ml" 54 2398 2428 "gtkText.ml" 54 2398 2429
+type(
+  Gtk.text_iter
+)
+ident(
+  int_ref b "gtkText.ml" 54 2398 2413 "gtkText.ml" 54 2398 2414
+)
+"gtkText.ml" 54 2398 2431 "gtkText.ml" 54 2398 2442
+type(
+  string -> string Gpointer.stable
+)
+ident(
+  ext_ref Gpointer.stable_copy
+)
+"gtkText.ml" 54 2398 2443 "gtkText.ml" 54 2398 2444
+type(
+  string
+)
+ident(
+  int_ref c "gtkText.ml" 54 2398 2415 "gtkText.ml" 54 2398 2416
+)
+"gtkText.ml" 54 2398 2430 "gtkText.ml" 54 2398 2445
+call(
+  stack
+)
+type(
+  string Gpointer.stable
+)
+"gtkText.ml" 54 2398 2419 "gtkText.ml" 54 2398 2445
+type(
+  unit
+)
+"gtkText.ml" 57 2557 2563 "gtkText.ml" 57 2557 2579
+type(
+  Gtk.text_buffer -> string -> unit
+)
+ident(
+  def insert_at_cursor "gtkText.ml" 58 2621 2623 "gtkText.ml" 167 8366 8369
+)
+"gtkText.ml" 57 2557 2580 "gtkText.ml" 57 2557 2581
+type(
+  Gtk.text_buffer
+)
+ident(
+  def a "gtkText.ml" 57 2557 2582 "gtkText.ml" 57 2557 2620
+)
+"gtkText.ml" 57 2557 2582 "gtkText.ml" 57 2557 2583
+type(
+  string
+)
+ident(
+  def b "gtkText.ml" 57 2557 2586 "gtkText.ml" 57 2557 2620
+)
+"gtkText.ml" 57 2557 2586 "gtkText.ml" 57 2557 2602
+type(
+  Gtk.text_buffer -> string Gpointer.stable -> unit
+)
+"gtkText.ml" 57 2557 2603 "gtkText.ml" 57 2557 2604
+type(
+  Gtk.text_buffer
+)
+ident(
+  int_ref a "gtkText.ml" 57 2557 2580 "gtkText.ml" 57 2557 2581
+)
+"gtkText.ml" 57 2557 2606 "gtkText.ml" 57 2557 2617
+type(
+  string -> string Gpointer.stable
+)
+ident(
+  ext_ref Gpointer.stable_copy
+)
+"gtkText.ml" 57 2557 2618 "gtkText.ml" 57 2557 2619
+type(
+  string
+)
+ident(
+  int_ref b "gtkText.ml" 57 2557 2582 "gtkText.ml" 57 2557 2583
+)
+"gtkText.ml" 57 2557 2605 "gtkText.ml" 57 2557 2620
+call(
+  stack
+)
+type(
+  string Gpointer.stable
+)
+"gtkText.ml" 57 2557 2586 "gtkText.ml" 57 2557 2620
+type(
+  unit
+)
+"gtkText.ml" 61 2761 2767 "gtkText.ml" 61 2761 2785
+type(
+  Gtk.text_buffer -> Gtk.text_iter -> string -> bool -> bool
+)
+ident(
+  def insert_interactive "gtkText.ml" 62 2833 2835 "gtkText.ml" 167 8366 8369
+)
+"gtkText.ml" 61 2761 2786 "gtkText.ml" 61 2761 2787
+type(
+  Gtk.text_buffer
+)
+ident(
+  def a "gtkText.ml" 61 2761 2788 "gtkText.ml" 61 2761 2832
+)
+"gtkText.ml" 61 2761 2788 "gtkText.ml" 61 2761 2789
+type(
+  Gtk.text_iter
+)
+ident(
+  def b "gtkText.ml" 61 2761 2790 "gtkText.ml" 61 2761 2832
+)
+"gtkText.ml" 61 2761 2790 "gtkText.ml" 61 2761 2791
+type(
+  string
+)
+ident(
+  def c "gtkText.ml" 61 2761 2794 "gtkText.ml" 61 2761 2832
+)
+"gtkText.ml" 61 2761 2794 "gtkText.ml" 61 2761 2812
+type(
+  Gtk.text_buffer -> Gtk.text_iter -> string Gpointer.stable -> bool -> bool
+)
+"gtkText.ml" 61 2761 2813 "gtkText.ml" 61 2761 2814
+type(
+  Gtk.text_buffer
+)
+ident(
+  int_ref a "gtkText.ml" 61 2761 2786 "gtkText.ml" 61 2761 2787
+)
+"gtkText.ml" 61 2761 2815 "gtkText.ml" 61 2761 2816
+type(
+  Gtk.text_iter
+)
+ident(
+  int_ref b "gtkText.ml" 61 2761 2788 "gtkText.ml" 61 2761 2789
+)
+"gtkText.ml" 61 2761 2818 "gtkText.ml" 61 2761 2829
+type(
+  string -> string Gpointer.stable
+)
+ident(
+  ext_ref Gpointer.stable_copy
+)
+"gtkText.ml" 61 2761 2830 "gtkText.ml" 61 2761 2831
+type(
+  string
+)
+ident(
+  int_ref c "gtkText.ml" 61 2761 2790 "gtkText.ml" 61 2761 2791
+)
+"gtkText.ml" 61 2761 2817 "gtkText.ml" 61 2761 2832
+call(
+  stack
+)
+type(
+  string Gpointer.stable
+)
+"gtkText.ml" 61 2761 2794 "gtkText.ml" 61 2761 2832
+call(
+  tail
+)
+type(
+  bool -> bool
+)
+"gtkText.ml" 65 2980 2986 "gtkText.ml" 65 2980 3014
+type(
+  Gtk.text_buffer -> string -> bool -> bool
+)
+ident(
+  def insert_interactive_at_cursor "gtkText.ml" 67 3072 3074 "gtkText.ml" 167 8366 8369
+)
+"gtkText.ml" 65 2980 3015 "gtkText.ml" 65 2980 3016
+type(
+  Gtk.text_buffer
+)
+ident(
+  def a "gtkText.ml" 65 2980 3017 "gtkText.ml" 66 3021 3071
+)
+"gtkText.ml" 65 2980 3017 "gtkText.ml" 65 2980 3018
+type(
+  string
+)
+ident(
+  def b "gtkText.ml" 66 3021 3025 "gtkText.ml" 66 3021 3071
+)
+"gtkText.ml" 66 3021 3025 "gtkText.ml" 66 3021 3053
+type(
+  Gtk.text_buffer -> string Gpointer.stable -> bool -> bool
+)
+"gtkText.ml" 66 3021 3054 "gtkText.ml" 66 3021 3055
+type(
+  Gtk.text_buffer
+)
+ident(
+  int_ref a "gtkText.ml" 65 2980 3015 "gtkText.ml" 65 2980 3016
+)
+"gtkText.ml" 66 3021 3057 "gtkText.ml" 66 3021 3068
+type(
+  string -> string Gpointer.stable
+)
+ident(
+  ext_ref Gpointer.stable_copy
+)
+"gtkText.ml" 66 3021 3069 "gtkText.ml" 66 3021 3070
+type(
+  string
+)
+ident(
+  int_ref b "gtkText.ml" 65 2980 3017 "gtkText.ml" 65 2980 3018
+)
+"gtkText.ml" 66 3021 3056 "gtkText.ml" 66 3021 3071
+call(
+  stack
+)
+type(
+  string Gpointer.stable
+)
+"gtkText.ml" 66 3021 3025 "gtkText.ml" 66 3021 3071
+call(
+  tail
+)
+type(
+  bool -> bool
+)
+"gtkText.ml" 77 3682 3688 "gtkText.ml" 77 3682 3696
+type(
+  Gtk.text_buffer -> string -> unit
+)
+ident(
+  def set_text "gtkText.ml" 78 3730 3732 "gtkText.ml" 167 8366 8369
+)
+"gtkText.ml" 77 3682 3697 "gtkText.ml" 77 3682 3698
+type(
+  Gtk.text_buffer
+)
+ident(
+  def b "gtkText.ml" 77 3682 3699 "gtkText.ml" 77 3682 3729
+)
+"gtkText.ml" 77 3682 3699 "gtkText.ml" 77 3682 3700
+type(
+  string
+)
+ident(
+  def s "gtkText.ml" 77 3682 3703 "gtkText.ml" 77 3682 3729
+)
+"gtkText.ml" 77 3682 3703 "gtkText.ml" 77 3682 3711
+type(
+  Gtk.text_buffer -> string Gpointer.stable -> unit
+)
+"gtkText.ml" 77 3682 3712 "gtkText.ml" 77 3682 3713
+type(
+  Gtk.text_buffer
+)
+ident(
+  int_ref b "gtkText.ml" 77 3682 3697 "gtkText.ml" 77 3682 3698
+)
+"gtkText.ml" 77 3682 3715 "gtkText.ml" 77 3682 3726
+type(
+  string -> string Gpointer.stable
+)
+ident(
+  ext_ref Gpointer.stable_copy
+)
+"gtkText.ml" 77 3682 3727 "gtkText.ml" 77 3682 3728
+type(
+  string
+)
+ident(
+  int_ref s "gtkText.ml" 77 3682 3699 "gtkText.ml" 77 3682 3700
+)
+"gtkText.ml" 77 3682 3714 "gtkText.ml" 77 3682 3729
+call(
+  stack
+)
+type(
+  string Gpointer.stable
+)
+"gtkText.ml" 77 3682 3703 "gtkText.ml" 77 3682 3729
+type(
+  unit
+)

@@ -1,0 +1,19 @@
+OASISFormat:  0.2
+Name:         ocamlgraph
+Version:      1.7-oasis2
+Authors:      Sylvain Conchon, Jean-Cristophe Filliâtre, Julien Signoles
+License:      LGPL-2.1 with OCaml linking exception
+LicenseFile:  LICENSE
+ConfType:   custom (0.2)
+BuildType:    custom (0.2)
+InstallType:  custom (0.2)
+BuildTools:   make
+Synopsis:     Library to provide pure OCaml functions to manipulate real file (POSIX like) and filename.
+
+XCustomConf: touch setup.data; ./configure
+XCustomBuild: make
+XCustomInstall: make install-findlib
+XCustomUninstall: ocamlfind remove ocamlgraph
+
+Library "ocamlgraph"
+    Path: src/

@@ -1,0 +1,121 @@
+#                                                               -*-conf-*-
+OASISFormat: 0.2
+Name:        benchmark
+Version:     1.1
+Synopsis:    Benchmark running times of code.
+Authors:     Christophe Troestler <Christophe.Troestler@umons.ac.be>
+License:     LGPL-3.0 with OCaml linking exception
+Description: This module provides a set of tools to measure the running times
+  of your functions and to easily compare the results.  A statistical
+  test is used to determine whether the results truly differ.
+Plugins:     META (0.2)
+Homepage:    http://ocaml-benchmark.forge.ocamlcore.org/
+
+Library benchmark
+  Path:         .
+  BuildTools:   ocamlbuild
+  Modules:      Benchmark
+  BuildDepends: unix
+
+Document API
+  Title:           API reference for Benchmark
+  Type:            OCamlbuild (0.2)
+  InstallDir:      $docdir/api
+  BuildTools:      ocamldoc, ocamlbuild
+  XOCamlbuildPath: .
+  XOCamlbuildLibraries: benchmark
+
+# Examples
+Executable ar_ba
+  Path:         examples/
+  MainIs:       ar_ba.ml
+  BuildTools:   ocamlbuild
+  BuildDepends: benchmark, bigarray
+  CompiledObject: best
+  Install:      false
+
+Executable composition
+  Path:         examples/
+  MainIs:	composition.ml
+  BuildTools:   ocamlbuild
+  BuildDepends: benchmark
+  CompiledObject: best
+  Install:      false
+
+Executable iter
+  Path:         examples/
+  MainIs:	iter.ml
+  BuildTools:   ocamlbuild
+  BuildDepends: benchmark, bigarray
+  CompiledObject: best
+  Install:      false
+
+Executable let_try
+  Path:         examples/
+  MainIs:	let_try.ml
+  BuildTools:   ocamlbuild
+  BuildDepends: benchmark, bigarray
+  CompiledObject: best
+  Install:      false
+
+Executable loops
+  Path:         examples/
+  MainIs:	loops.ml
+  BuildTools:   ocamlbuild
+  BuildDepends: benchmark
+  CompiledObject: best
+  Install:      false
+
+Executable match_array
+  Path:         examples/
+  MainIs:	match_array.ml
+  BuildTools:   ocamlbuild
+  BuildDepends: benchmark
+  CompiledObject: best
+  Install:      false
+
+Executable numbers
+  Path:         examples/
+  MainIs:	numbers.ml
+  BuildTools:   ocamlbuild
+  BuildDepends: benchmark
+  CompiledObject: best
+  Install:      false
+
+Executable regexps
+  Path:         examples/
+  MainIs:	regexps.ml
+  BuildTools:   ocamlbuild
+  BuildDepends: benchmark, str, pcre
+  CompiledObject: best
+  Install:      false
+
+Executable try_if
+  Path:         examples/
+  MainIs:	try_if.ml
+  BuildTools:   ocamlbuild
+  BuildDepends: benchmark, bigarray
+  CompiledObject: best
+  Install:      false
+
+Executable func_record
+  Path:         examples/
+  MainIs:	func_record.ml
+  BuildTools:   ocamlbuild
+  BuildDepends: benchmark
+  CompiledObject: best
+  Install:      false
+
+# Tests
+Executable long_run
+  Path:           tests
+  MainIs:	  long_run.ml
+  BuildTools:     ocamlbuild
+  BuildDepends:   benchmark, unix
+  CompiledObject: best
+  Install:        false
+
+SourceRepository trunk
+  Type:       svn
+  Location:   svn://scm.ocamlcore.org/svn/ocaml-benchmark/trunk
+  Browser:    https://forge.ocamlcore.org/scm/browser.php?group_id=197

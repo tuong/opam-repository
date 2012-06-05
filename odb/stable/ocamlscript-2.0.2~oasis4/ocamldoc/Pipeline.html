@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="next" href="Common.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Pipeline" rel="Chapter" href="Pipeline.html">
+<link title="Common" rel="Chapter" href="Common.html">
+<link title="Utils" rel="Chapter" href="Utils.html">
+<link title="Ocaml" rel="Chapter" href="Ocaml.html"><title>Pipeline</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a href="index.html">Up</a>
+&nbsp;<a href="Common.html">Next</a>
+</div>
+<center><h1>Module <a href="type_Pipeline.html">Pipeline</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Pipeline: <code class="code">sig</code> <a href="Pipeline.html">..</a> <code class="code">end</code></pre>Portable command pipeline<br>
+<hr width="100%">
+<pre><span class="keyword">type</span> <a name="TYPEcommand"></a><code class="type"></code>command </pre>
+
+<br><code><span class="keyword">type</span> <a name="TYPEpipeline"></a><code class="type"></code>pipeline = {</code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>input&nbsp;: <code class="type">string list</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >internal names of the input files</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>output&nbsp;: <code class="type">string list</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >internal names of the result files</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>commands&nbsp;: <code class="type"><a href="Pipeline.html#TYPEcommand">command</a> list</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >commands which operate on the 
+                               internal file names</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+}
+
+<div class="info">
+A given pipeline always executes the same commands from a given temporary
+  directory. The input files have been copied into the directory by the time
+  the execution starts. After execution, the output files are copied
+  to some specified location and then the directory is removed.<br>
+</div>
+
+<pre><span class="keyword">val</span> <a name="VALcommand"></a>command : <code class="type">?stdin:string -> ?stdout:string -> string list -> <a href="Pipeline.html#TYPEcommand">command</a></code></pre><div class="info">
+<code class="code">command ?stdin ?stdout l</code> creates a command which redirects stdin and
+  stdout to the given files, if these options are used.
+  For example, <code class="code">command ~stdout:"bigfile" ["cat"; "file1"; "file2"]</code>
+  is equivalent to the shell command <code class="code">cat file1 file2 &gt; bigfile</code>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALrun"></a>run : <code class="type">?log:Pervasives.out_channel -><br>       ?before:(unit -> unit) -><br>       ?after:(unit -> unit) -><br>       ?input:(string * string) list -><br>       ?output:(string * string) list -> <a href="Pipeline.html#TYPEpipeline">pipeline</a> -> int</code></pre><div class="info">
+<code class="code">run ~input ~output pip</code> executes the given pipeline <code class="code">pip</code> by
+  instanciating the internal file names used in the pipeline using
+  input and output files.
+  For example, a pipeline <code class="code">pip</code> which works on one input file named file1
+  and on one output file named file2 would be executed using
+  <code class="code">run ~input:["file1", any_input_file] 
+  ~output:["file2", any_output_file] pip</code>.
+  The <code class="code">log</code> option can be used to collect information for debugging.<br>
+</div>
+</body></html>

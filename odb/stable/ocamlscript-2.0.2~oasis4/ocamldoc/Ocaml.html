@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Utils.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Pipeline" rel="Chapter" href="Pipeline.html">
+<link title="Common" rel="Chapter" href="Common.html">
+<link title="Utils" rel="Chapter" href="Utils.html">
+<link title="Ocaml" rel="Chapter" href="Ocaml.html"><title>Ocaml</title>
+</head>
+<body>
+<div class="navbar"><a href="Utils.html">Previous</a>
+&nbsp;<a href="index.html">Up</a>
+&nbsp;</div>
+<center><h1>Module <a href="type_Ocaml.html">Ocaml</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Ocaml: <code class="code">sig</code> <a href="Ocaml.html">..</a> <code class="code">end</code></pre>Default compilation module: settings for the Ocaml compilers<br>
+<hr width="100%">
+<pre><span class="keyword">val</span> <a name="VALcamlp4o"></a>camlp4o : <code class="type">string Pervasives.ref</code></pre><div class="info">
+the name of the camlp4o command; default: "camlp4o"<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALcamlp4r"></a>camlp4r : <code class="type">string Pervasives.ref</code></pre><div class="info">
+the name of the camlp4r command; default: "camlp4r"<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALocamllex"></a>ocamllex : <code class="type">string Pervasives.ref</code></pre><div class="info">
+the name of the ocamllex command; default: "ocamllex"<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALocamlyacc"></a>ocamlyacc : <code class="type">string Pervasives.ref</code></pre><div class="info">
+the name of the ocamlyacc command; default: "ocamlyacc"<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALocamlc"></a>ocamlc : <code class="type">string Pervasives.ref</code></pre><div class="info">
+the name of the ocamlc command; default: "ocamlc"<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALocamlopt"></a>ocamlopt : <code class="type">string Pervasives.ref</code></pre><div class="info">
+the name of the ocamlopt command; default: "ocamlopt"<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALocamlfind"></a>ocamlfind : <code class="type">string Pervasives.ref</code></pre><div class="info">
+the name of the ocamlfind command; default: "ocamlfind"<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALpacks"></a>packs : <code class="type">string list Pervasives.ref</code></pre><div class="info">
+Specific Findlib/ocamlfind packages to use<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALsources"></a>sources : <code class="type">string list Pervasives.ref</code></pre><div class="info">
+Extra source files (processed with camlp4 but not ocamllex). 
+  They can be referenced either by an absolute path or by a path relative 
+  to the script directory.
+  They are compiled and linked in like regular OCaml compilation units.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALuse_ocamllex"></a>use_ocamllex : <code class="type">bool Pervasives.ref</code></pre><div class="info">
+whether to use ocamllex or not; default: false<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALuse_camlp4"></a>use_camlp4 : <code class="type">bool Pervasives.ref</code></pre><div class="info">
+whether to use camlp4 preprocessing or not; default: true<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALuse_ocamlc"></a>use_ocamlc : <code class="type">bool Pervasives.ref</code></pre><div class="info">
+whether to use ocamlc instead of ocamlopt; default: false<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALuse_ocamlfind"></a>use_ocamlfind : <code class="type">bool Pervasives.ref</code></pre><div class="info">
+whether to use ocamlfind even if <code class="code">!packs</code> is empty; default: false<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALrevised"></a>revised : <code class="type">bool Pervasives.ref</code></pre><div class="info">
+whether the revised syntax of OCaml should be used; default: false<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALocamlflags"></a>ocamlflags : <code class="type">string list Pervasives.ref</code></pre><div class="info">
+any other options to pass to the compiler<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALppopt"></a>ppopt : <code class="type">string list Pervasives.ref</code></pre><div class="info">
+any other options to pass to the preprocessor<br>
+</div>
+<pre><span class="keyword">type</span> <a name="TYPEpp"></a><code class="type"></code>pp = <code class="type">string -> <a href="Pipeline.html#TYPEcommand">Pipeline.command</a> * string list</code> </pre>
+<div class="info">
+type of a preprocessor: takes an input file and returns a command and 
+  the list of files to be processed further.<br>
+</div>
+
+<pre><span class="keyword">val</span> <a name="VALpp"></a>pp : <code class="type"><a href="Ocaml.html#TYPEpp">pp</a> option Pervasives.ref</code></pre><div class="info">
+optional preprocessor that comes before all other preprocessors<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALppsrcloc"></a>ppsrcloc : <code class="type">(string -> string) option Pervasives.ref</code></pre><div class="info">
+the function which takes the source file path and generates the string
+  the will be inserted at the beginning of files when they are copied.
+  The default is set to follow OCaml's standard syntax, 
+  like "#1 \"file.ml\";;\n" for instance.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALcompile"></a>compile : <code class="type">string -> string -> int</code></pre><div class="info">
+the compilation function which is used
+  to set <code class="code">Ocamlscript.Common.compile</code><br>
+</div>
+</body></html>

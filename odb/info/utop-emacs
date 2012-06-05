@@ -1,0 +1,4 @@
+deps=threads,ocamlbuild,lwt,lambda-term(>=1.1),findlib,camlp4
+tarball=utop-1.1.tar.gz
+is_library=false
+is_program=true

@@ -1,0 +1,12 @@
+.*\.cm[a-z]+$
+.*~$
+\.(sp[io]t|annot|o|cm[a-z]+|orig|omc|lock|a|so)$
+\.(byt|opt|run)$
+\.omakedb$
+\.depend$
+CVS/.*
+gen_phantom$
+phantom\.ml.*
+OMakeroot
+setup.data
+setup.log

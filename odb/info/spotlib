@@ -1,0 +1,4 @@
+deps=unix,omake
+tarball=spotlib-1.0.0.tar.gz
+is_library=true
+is_program=false

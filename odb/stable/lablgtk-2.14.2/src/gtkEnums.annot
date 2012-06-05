@@ -1,0 +1,2658 @@
+"gtkEnums.ml" 190 7798 7802 "gtkEnums.ml" 190 7798 7813
+type(
+  anchor_type Gpointer.variant_table
+)
+ident(
+  def anchor_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 190 7798 7815 "gtkEnums.ml" 190 7798 7825
+type(
+  arrow_type Gpointer.variant_table
+)
+ident(
+  def arrow_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 190 7798 7827 "gtkEnums.ml" 190 7798 7841
+type(
+  attach_options Gpointer.variant_table
+)
+ident(
+  def attach_options "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 190 7798 7843 "gtkEnums.ml" 190 7798 7859
+type(
+  button_box_style Gpointer.variant_table
+)
+ident(
+  def button_box_style "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 190 7798 7861 "gtkEnums.ml" 190 7798 7871
+type(
+  curve_type Gpointer.variant_table
+)
+ident(
+  def curve_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 191 7873 7877 "gtkEnums.ml" 191 7873 7888
+type(
+  delete_type Gpointer.variant_table
+)
+ident(
+  def delete_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 191 7873 7890 "gtkEnums.ml" 191 7873 7904
+type(
+  direction_type Gpointer.variant_table
+)
+ident(
+  def direction_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 191 7873 7906 "gtkEnums.ml" 191 7873 7920
+type(
+  expander_style Gpointer.variant_table
+)
+ident(
+  def expander_style "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 191 7873 7922 "gtkEnums.ml" 191 7873 7931
+type(
+  icon_size Gpointer.variant_table
+)
+ident(
+  def icon_size "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 191 7873 7933 "gtkEnums.ml" 191 7873 7942
+type(
+  side_type Gpointer.variant_table
+)
+ident(
+  def side_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 192 7944 7948 "gtkEnums.ml" 192 7944 7962
+type(
+  text_direction Gpointer.variant_table
+)
+ident(
+  def text_direction "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 192 7944 7964 "gtkEnums.ml" 192 7944 7977
+type(
+  justification Gpointer.variant_table
+)
+ident(
+  def justification "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 192 7944 7979 "gtkEnums.ml" 192 7944 7989
+type(
+  match_type Gpointer.variant_table
+)
+ident(
+  def match_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 192 7944 7991 "gtkEnums.ml" 192 7944 8010
+type(
+  menu_direction_type Gpointer.variant_table
+)
+ident(
+  def menu_direction_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 193 8012 8016 "gtkEnums.ml" 193 8012 8027
+type(
+  metric_type Gpointer.variant_table
+)
+ident(
+  def metric_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 193 8012 8029 "gtkEnums.ml" 193 8012 8042
+type(
+  movement_step Gpointer.variant_table
+)
+ident(
+  def movement_step "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 193 8012 8044 "gtkEnums.ml" 193 8012 8055
+type(
+  orientation Gpointer.variant_table
+)
+ident(
+  def orientation "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 193 8012 8057 "gtkEnums.ml" 193 8012 8068
+type(
+  corner_type Gpointer.variant_table
+)
+ident(
+  def corner_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 193 8012 8070 "gtkEnums.ml" 193 8012 8079
+type(
+  pack_type Gpointer.variant_table
+)
+ident(
+  def pack_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 194 8081 8085 "gtkEnums.ml" 194 8081 8098
+type(
+  path_priority Gpointer.variant_table
+)
+ident(
+  def path_priority "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 194 8081 8100 "gtkEnums.ml" 194 8081 8109
+type(
+  path_type Gpointer.variant_table
+)
+ident(
+  def path_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 194 8081 8111 "gtkEnums.ml" 194 8081 8122
+type(
+  policy_type Gpointer.variant_table
+)
+ident(
+  def policy_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 194 8081 8124 "gtkEnums.ml" 194 8081 8137
+type(
+  position_type Gpointer.variant_table
+)
+ident(
+  def position_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 194 8081 8139 "gtkEnums.ml" 194 8081 8151
+type(
+  preview_type Gpointer.variant_table
+)
+ident(
+  def preview_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 195 8153 8157 "gtkEnums.ml" 195 8153 8169
+type(
+  relief_style Gpointer.variant_table
+)
+ident(
+  def relief_style "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 195 8153 8171 "gtkEnums.ml" 195 8153 8182
+type(
+  resize_mode Gpointer.variant_table
+)
+ident(
+  def resize_mode "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 195 8153 8184 "gtkEnums.ml" 195 8153 8199
+type(
+  signal_run_type Gpointer.variant_table
+)
+ident(
+  def signal_run_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 195 8153 8201 "gtkEnums.ml" 195 8153 8212
+type(
+  scroll_type Gpointer.variant_table
+)
+ident(
+  def scroll_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 195 8153 8214 "gtkEnums.ml" 195 8153 8228
+type(
+  selection_mode Gpointer.variant_table
+)
+ident(
+  def selection_mode "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 196 8230 8234 "gtkEnums.ml" 196 8230 8245
+type(
+  shadow_type Gpointer.variant_table
+)
+ident(
+  def shadow_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 196 8230 8247 "gtkEnums.ml" 196 8230 8257
+type(
+  state_type Gpointer.variant_table
+)
+ident(
+  def state_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 196 8230 8259 "gtkEnums.ml" 196 8230 8276
+type(
+  submenu_direction Gpointer.variant_table
+)
+ident(
+  def submenu_direction "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 196 8230 8278 "gtkEnums.ml" 196 8230 8295
+type(
+  submenu_placement Gpointer.variant_table
+)
+ident(
+  def submenu_placement "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 197 8297 8301 "gtkEnums.ml" 197 8297 8314
+type(
+  toolbar_style Gpointer.variant_table
+)
+ident(
+  def toolbar_style "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 197 8297 8316 "gtkEnums.ml" 197 8297 8327
+type(
+  update_type Gpointer.variant_table
+)
+ident(
+  def update_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 197 8297 8329 "gtkEnums.ml" 197 8297 8339
+type(
+  visibility Gpointer.variant_table
+)
+ident(
+  def visibility "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 197 8297 8341 "gtkEnums.ml" 197 8297 8356
+type(
+  window_position Gpointer.variant_table
+)
+ident(
+  def window_position "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 197 8297 8358 "gtkEnums.ml" 197 8297 8369
+type(
+  window_type Gpointer.variant_table
+)
+ident(
+  def window_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 198 8371 8375 "gtkEnums.ml" 198 8371 8384
+type(
+  wrap_mode Gpointer.variant_table
+)
+ident(
+  def wrap_mode "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 198 8371 8386 "gtkEnums.ml" 198 8371 8395
+type(
+  sort_type Gpointer.variant_table
+)
+ident(
+  def sort_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 198 8371 8397 "gtkEnums.ml" 198 8371 8406
+type(
+  cell_type Gpointer.variant_table
+)
+ident(
+  def cell_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 198 8371 8408 "gtkEnums.ml" 198 8371 8421
+type(
+  toolbar_child Gpointer.variant_table
+)
+ident(
+  def toolbar_child "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 198 8371 8423 "gtkEnums.ml" 198 8371 8442
+type(
+  toolbar_space_style Gpointer.variant_table
+)
+ident(
+  def toolbar_space_style "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 199 8444 8448 "gtkEnums.ml" 199 8444 8457
+type(
+  spin_type Gpointer.variant_table
+)
+ident(
+  def spin_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 199 8444 8459 "gtkEnums.ml" 199 8444 8469
+type(
+  accel_flag Gpointer.variant_table
+)
+ident(
+  def accel_flag "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 199 8444 8471 "gtkEnums.ml" 199 8444 8484
+type(
+  button_action Gpointer.variant_table
+)
+ident(
+  def button_action "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 199 8444 8486 "gtkEnums.ml" 199 8444 8510
+type(
+  calendar_display_options Gpointer.variant_table
+)
+ident(
+  def calendar_display_options "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 200 8512 8516 "gtkEnums.ml" 200 8512 8534
+type(
+  progress_bar_style Gpointer.variant_table
+)
+ident(
+  def progress_bar_style "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 200 8512 8536 "gtkEnums.ml" 200 8512 8560
+type(
+  progress_bar_orientation Gpointer.variant_table
+)
+ident(
+  def progress_bar_orientation "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 200 8512 8562 "gtkEnums.ml" 200 8512 8575
+type(
+  dest_defaults Gpointer.variant_table
+)
+ident(
+  def dest_defaults "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 201 8577 8581 "gtkEnums.ml" 201 8577 8593
+type(
+  target_flags Gpointer.variant_table
+)
+ident(
+  def target_flags "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 201 8577 8595 "gtkEnums.ml" 201 8577 8620
+type(
+  spin_button_update_policy Gpointer.variant_table
+)
+ident(
+  def spin_button_update_policy "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 201 8577 8622 "gtkEnums.ml" 201 8577 8638
+type(
+  text_window_type Gpointer.variant_table
+)
+ident(
+  def text_window_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 202 8640 8644 "gtkEnums.ml" 202 8640 8660
+type(
+  text_search_flag Gpointer.variant_table
+)
+ident(
+  def text_search_flag "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 202 8640 8662 "gtkEnums.ml" 202 8640 8685
+type(
+  tree_view_column_sizing Gpointer.variant_table
+)
+ident(
+  def tree_view_column_sizing "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 202 8640 8687 "gtkEnums.ml" 202 8640 8705
+type(
+  cell_renderer_mode Gpointer.variant_table
+)
+ident(
+  def cell_renderer_mode "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 203 8707 8711 "gtkEnums.ml" 203 8707 8723
+type(
+  message_type Gpointer.variant_table
+)
+ident(
+  def message_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 203 8707 8725 "gtkEnums.ml" 203 8707 8737
+type(
+  buttons_type Gpointer.variant_table
+)
+ident(
+  def buttons_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 203 8707 8739 "gtkEnums.ml" 203 8707 8747
+type(
+  response Gpointer.variant_table
+)
+ident(
+  def response "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 203 8707 8749 "gtkEnums.ml" 203 8707 8761
+type(
+  widget_flags Gpointer.variant_table
+)
+ident(
+  def widget_flags "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 203 8707 8763 "gtkEnums.ml" 203 8707 8773
+type(
+  image_type Gpointer.variant_table
+)
+ident(
+  def image_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 204 8775 8779 "gtkEnums.ml" 204 8775 8794
+type(
+  size_group_mode Gpointer.variant_table
+)
+ident(
+  def size_group_mode "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 204 8775 8796 "gtkEnums.ml" 204 8775 8815
+type(
+  file_chooser_action Gpointer.variant_table
+)
+ident(
+  def file_chooser_action "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 204 8775 8817 "gtkEnums.ml" 204 8775 8833
+type(
+  tree_model_flags Gpointer.variant_table
+)
+ident(
+  def tree_model_flags "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 205 8835 8839 "gtkEnums.ml" 205 8835 8862
+type(
+  tree_view_drop_position Gpointer.variant_table
+)
+ident(
+  def tree_view_drop_position "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 205 8835 8864 "gtkEnums.ml" 205 8835 8881
+type(
+  file_filter_flags Gpointer.variant_table
+)
+ident(
+  def file_filter_flags "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 205 8835 8883 "gtkEnums.ml" 205 8835 8903
+type(
+  ui_manager_item_type Gpointer.variant_table
+)
+ident(
+  def ui_manager_item_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 206 8905 8909 "gtkEnums.ml" 206 8905 8928
+type(
+  assistant_page_type Gpointer.variant_table
+)
+ident(
+  def assistant_page_type "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 206 8905 8930 "gtkEnums.ml" 206 8905 8954
+type(
+  cell_renderer_accel_mode Gpointer.variant_table
+)
+ident(
+  def cell_renderer_accel_mode "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 207 8956 8960 "gtkEnums.ml" 207 8956 8985
+type(
+  file_chooser_confirmation Gpointer.variant_table
+)
+ident(
+  def file_chooser_confirmation "gtkEnums.ml" 209 9004 9004 --
+)
+"gtkEnums.ml" 190 7798 7802 "gtkEnums.ml" 207 8956 8985
+type(
+  anchor_type Gpointer.variant_table * arrow_type Gpointer.variant_table *
+  attach_options Gpointer.variant_table *
+  button_box_style Gpointer.variant_table *
+  curve_type Gpointer.variant_table * delete_type Gpointer.variant_table *
+  direction_type Gpointer.variant_table *
+  expander_style Gpointer.variant_table * icon_size Gpointer.variant_table *
+  side_type Gpointer.variant_table * text_direction Gpointer.variant_table *
+  justification Gpointer.variant_table * match_type Gpointer.variant_table *
+  menu_direction_type Gpointer.variant_table *
+  metric_type Gpointer.variant_table * movement_step Gpointer.variant_table *
+  orientation Gpointer.variant_table * corner_type Gpointer.variant_table *
+  pack_type Gpointer.variant_table * path_priority Gpointer.variant_table *
+  path_type Gpointer.variant_table * policy_type Gpointer.variant_table *
+  position_type Gpointer.variant_table *
+  preview_type Gpointer.variant_table * relief_style Gpointer.variant_table *
+  resize_mode Gpointer.variant_table *
+  signal_run_type Gpointer.variant_table *
+  scroll_type Gpointer.variant_table *
+  selection_mode Gpointer.variant_table *
+  shadow_type Gpointer.variant_table * state_type Gpointer.variant_table *
+  submenu_direction Gpointer.variant_table *
+  submenu_placement Gpointer.variant_table *
+  toolbar_style Gpointer.variant_table * update_type Gpointer.variant_table *
+  visibility Gpointer.variant_table *
+  window_position Gpointer.variant_table *
+  window_type Gpointer.variant_table * wrap_mode Gpointer.variant_table *
+  sort_type Gpointer.variant_table * cell_type Gpointer.variant_table *
+  toolbar_child Gpointer.variant_table *
+  toolbar_space_style Gpointer.variant_table *
+  spin_type Gpointer.variant_table * accel_flag Gpointer.variant_table *
+  button_action Gpointer.variant_table *
+  calendar_display_options Gpointer.variant_table *
+  progress_bar_style Gpointer.variant_table *
+  progress_bar_orientation Gpointer.variant_table *
+  dest_defaults Gpointer.variant_table *
+  target_flags Gpointer.variant_table *
+  spin_button_update_policy Gpointer.variant_table *
+  text_window_type Gpointer.variant_table *
+  text_search_flag Gpointer.variant_table *
+  tree_view_column_sizing Gpointer.variant_table *
+  cell_renderer_mode Gpointer.variant_table *
+  message_type Gpointer.variant_table * buttons_type Gpointer.variant_table *
+  response Gpointer.variant_table * widget_flags Gpointer.variant_table *
+  image_type Gpointer.variant_table *
+  size_group_mode Gpointer.variant_table *
+  file_chooser_action Gpointer.variant_table *
+  tree_model_flags Gpointer.variant_table *
+  tree_view_drop_position Gpointer.variant_table *
+  file_filter_flags Gpointer.variant_table *
+  ui_manager_item_type Gpointer.variant_table *
+  assistant_page_type Gpointer.variant_table *
+  cell_renderer_accel_mode Gpointer.variant_table *
+  file_chooser_confirmation Gpointer.variant_table
+)
+"gtkEnums.ml" 207 8956 8988 "gtkEnums.ml" 207 8956 8999
+type(
+  unit ->
+  anchor_type Gpointer.variant_table * arrow_type Gpointer.variant_table *
+  attach_options Gpointer.variant_table *
+  button_box_style Gpointer.variant_table *
+  curve_type Gpointer.variant_table * delete_type Gpointer.variant_table *
+  direction_type Gpointer.variant_table *
+  expander_style Gpointer.variant_table * icon_size Gpointer.variant_table *
+  side_type Gpointer.variant_table * text_direction Gpointer.variant_table *
+  justification Gpointer.variant_table * match_type Gpointer.variant_table *
+  menu_direction_type Gpointer.variant_table *
+  metric_type Gpointer.variant_table * movement_step Gpointer.variant_table *
+  orientation Gpointer.variant_table * corner_type Gpointer.variant_table *
+  pack_type Gpointer.variant_table * path_priority Gpointer.variant_table *
+  path_type Gpointer.variant_table * policy_type Gpointer.variant_table *
+  position_type Gpointer.variant_table *
+  preview_type Gpointer.variant_table * relief_style Gpointer.variant_table *
+  resize_mode Gpointer.variant_table *
+  signal_run_type Gpointer.variant_table *
+  scroll_type Gpointer.variant_table *
+  selection_mode Gpointer.variant_table *
+  shadow_type Gpointer.variant_table * state_type Gpointer.variant_table *
+  submenu_direction Gpointer.variant_table *
+  submenu_placement Gpointer.variant_table *
+  toolbar_style Gpointer.variant_table * update_type Gpointer.variant_table *
+  visibility Gpointer.variant_table *
+  window_position Gpointer.variant_table *
+  window_type Gpointer.variant_table * wrap_mode Gpointer.variant_table *
+  sort_type Gpointer.variant_table * cell_type Gpointer.variant_table *
+  toolbar_child Gpointer.variant_table *
+  toolbar_space_style Gpointer.variant_table *
+  spin_type Gpointer.variant_table * accel_flag Gpointer.variant_table *
+  button_action Gpointer.variant_table *
+  calendar_display_options Gpointer.variant_table *
+  progress_bar_style Gpointer.variant_table *
+  progress_bar_orientation Gpointer.variant_table *
+  dest_defaults Gpointer.variant_table *
+  target_flags Gpointer.variant_table *
+  spin_button_update_policy Gpointer.variant_table *
+  text_window_type Gpointer.variant_table *
+  text_search_flag Gpointer.variant_table *
+  tree_view_column_sizing Gpointer.variant_table *
+  cell_renderer_mode Gpointer.variant_table *
+  message_type Gpointer.variant_table * buttons_type Gpointer.variant_table *
+  response Gpointer.variant_table * widget_flags Gpointer.variant_table *
+  image_type Gpointer.variant_table *
+  size_group_mode Gpointer.variant_table *
+  file_chooser_action Gpointer.variant_table *
+  tree_model_flags Gpointer.variant_table *
+  tree_view_drop_position Gpointer.variant_table *
+  file_filter_flags Gpointer.variant_table *
+  ui_manager_item_type Gpointer.variant_table *
+  assistant_page_type Gpointer.variant_table *
+  cell_renderer_accel_mode Gpointer.variant_table *
+  file_chooser_confirmation Gpointer.variant_table
+)
+"gtkEnums.ml" 207 8956 9000 "gtkEnums.ml" 207 8956 9002
+type(
+  unit
+)
+"gtkEnums.ml" 207 8956 8988 "gtkEnums.ml" 207 8956 9002
+type(
+  anchor_type Gpointer.variant_table * arrow_type Gpointer.variant_table *
+  attach_options Gpointer.variant_table *
+  button_box_style Gpointer.variant_table *
+  curve_type Gpointer.variant_table * delete_type Gpointer.variant_table *
+  direction_type Gpointer.variant_table *
+  expander_style Gpointer.variant_table * icon_size Gpointer.variant_table *
+  side_type Gpointer.variant_table * text_direction Gpointer.variant_table *
+  justification Gpointer.variant_table * match_type Gpointer.variant_table *
+  menu_direction_type Gpointer.variant_table *
+  metric_type Gpointer.variant_table * movement_step Gpointer.variant_table *
+  orientation Gpointer.variant_table * corner_type Gpointer.variant_table *
+  pack_type Gpointer.variant_table * path_priority Gpointer.variant_table *
+  path_type Gpointer.variant_table * policy_type Gpointer.variant_table *
+  position_type Gpointer.variant_table *
+  preview_type Gpointer.variant_table * relief_style Gpointer.variant_table *
+  resize_mode Gpointer.variant_table *
+  signal_run_type Gpointer.variant_table *
+  scroll_type Gpointer.variant_table *
+  selection_mode Gpointer.variant_table *
+  shadow_type Gpointer.variant_table * state_type Gpointer.variant_table *
+  submenu_direction Gpointer.variant_table *
+  submenu_placement Gpointer.variant_table *
+  toolbar_style Gpointer.variant_table * update_type Gpointer.variant_table *
+  visibility Gpointer.variant_table *
+  window_position Gpointer.variant_table *
+  window_type Gpointer.variant_table * wrap_mode Gpointer.variant_table *
+  sort_type Gpointer.variant_table * cell_type Gpointer.variant_table *
+  toolbar_child Gpointer.variant_table *
+  toolbar_space_style Gpointer.variant_table *
+  spin_type Gpointer.variant_table * accel_flag Gpointer.variant_table *
+  button_action Gpointer.variant_table *
+  calendar_display_options Gpointer.variant_table *
+  progress_bar_style Gpointer.variant_table *
+  progress_bar_orientation Gpointer.variant_table *
+  dest_defaults Gpointer.variant_table *
+  target_flags Gpointer.variant_table *
+  spin_button_update_policy Gpointer.variant_table *
+  text_window_type Gpointer.variant_table *
+  text_search_flag Gpointer.variant_table *
+  tree_view_column_sizing Gpointer.variant_table *
+  cell_renderer_mode Gpointer.variant_table *
+  message_type Gpointer.variant_table * buttons_type Gpointer.variant_table *
+  response Gpointer.variant_table * widget_flags Gpointer.variant_table *
+  image_type Gpointer.variant_table *
+  size_group_mode Gpointer.variant_table *
+  file_chooser_action Gpointer.variant_table *
+  tree_model_flags Gpointer.variant_table *
+  tree_view_drop_position Gpointer.variant_table *
+  file_filter_flags Gpointer.variant_table *
+  ui_manager_item_type Gpointer.variant_table *
+  assistant_page_type Gpointer.variant_table *
+  cell_renderer_accel_mode Gpointer.variant_table *
+  file_chooser_confirmation Gpointer.variant_table
+)
+"gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+type(
+  ([>  ] as 'a) Gpointer.variant_table -> 'a Gobject.data_conv
+)
+ident(
+  def _make_enum "gtkEnums.ml" 210 9039 9039 --
+)
+"gtkEnums.ml" 209 9004 9021 "gtkEnums.ml" 209 9004 9038
+type(
+  'a Gpointer.variant_table -> 'a Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.enum
+)
+"gtkEnums.ml" 210 9039 9043 "gtkEnums.ml" 210 9039 9059
+type(
+  anchor_type Gobject.data_conv
+)
+ident(
+  def anchor_type_conv "gtkEnums.ml" 211 9085 9085 --
+)
+"gtkEnums.ml" 210 9039 9062 "gtkEnums.ml" 210 9039 9072
+type(
+  anchor_type Gpointer.variant_table -> anchor_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 210 9039 9073 "gtkEnums.ml" 210 9039 9084
+type(
+  anchor_type Gpointer.variant_table
+)
+ident(
+  int_ref anchor_type "gtkEnums.ml" 190 7798 7802 "gtkEnums.ml" 190 7798 7813
+)
+"gtkEnums.ml" 210 9039 9062 "gtkEnums.ml" 210 9039 9084
+call(
+  stack
+)
+type(
+  anchor_type Gobject.data_conv
+)
+"gtkEnums.ml" 211 9085 9089 "gtkEnums.ml" 211 9085 9104
+type(
+  arrow_type Gobject.data_conv
+)
+ident(
+  def arrow_type_conv "gtkEnums.ml" 212 9129 9129 --
+)
+"gtkEnums.ml" 211 9085 9107 "gtkEnums.ml" 211 9085 9117
+type(
+  arrow_type Gpointer.variant_table -> arrow_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 211 9085 9118 "gtkEnums.ml" 211 9085 9128
+type(
+  arrow_type Gpointer.variant_table
+)
+ident(
+  int_ref arrow_type "gtkEnums.ml" 190 7798 7815 "gtkEnums.ml" 190 7798 7825
+)
+"gtkEnums.ml" 211 9085 9107 "gtkEnums.ml" 211 9085 9128
+call(
+  stack
+)
+type(
+  arrow_type Gobject.data_conv
+)
+"gtkEnums.ml" 212 9129 9133 "gtkEnums.ml" 212 9129 9152
+type(
+  attach_options Gobject.data_conv
+)
+ident(
+  def attach_options_conv "gtkEnums.ml" 213 9181 9181 --
+)
+"gtkEnums.ml" 212 9129 9155 "gtkEnums.ml" 212 9129 9165
+type(
+  attach_options Gpointer.variant_table -> attach_options Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 212 9129 9166 "gtkEnums.ml" 212 9129 9180
+type(
+  attach_options Gpointer.variant_table
+)
+ident(
+  int_ref attach_options "gtkEnums.ml" 190 7798 7827 "gtkEnums.ml" 190 7798 7841
+)
+"gtkEnums.ml" 212 9129 9155 "gtkEnums.ml" 212 9129 9180
+call(
+  stack
+)
+type(
+  attach_options Gobject.data_conv
+)
+"gtkEnums.ml" 213 9181 9185 "gtkEnums.ml" 213 9181 9206
+type(
+  button_box_style Gobject.data_conv
+)
+ident(
+  def button_box_style_conv "gtkEnums.ml" 214 9237 9237 --
+)
+"gtkEnums.ml" 213 9181 9209 "gtkEnums.ml" 213 9181 9219
+type(
+  button_box_style Gpointer.variant_table ->
+  button_box_style Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 213 9181 9220 "gtkEnums.ml" 213 9181 9236
+type(
+  button_box_style Gpointer.variant_table
+)
+ident(
+  int_ref button_box_style "gtkEnums.ml" 190 7798 7843 "gtkEnums.ml" 190 7798 7859
+)
+"gtkEnums.ml" 213 9181 9209 "gtkEnums.ml" 213 9181 9236
+call(
+  stack
+)
+type(
+  button_box_style Gobject.data_conv
+)
+"gtkEnums.ml" 214 9237 9241 "gtkEnums.ml" 214 9237 9256
+type(
+  curve_type Gobject.data_conv
+)
+ident(
+  def curve_type_conv "gtkEnums.ml" 215 9281 9281 --
+)
+"gtkEnums.ml" 214 9237 9259 "gtkEnums.ml" 214 9237 9269
+type(
+  curve_type Gpointer.variant_table -> curve_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 214 9237 9270 "gtkEnums.ml" 214 9237 9280
+type(
+  curve_type Gpointer.variant_table
+)
+ident(
+  int_ref curve_type "gtkEnums.ml" 190 7798 7861 "gtkEnums.ml" 190 7798 7871
+)
+"gtkEnums.ml" 214 9237 9259 "gtkEnums.ml" 214 9237 9280
+call(
+  stack
+)
+type(
+  curve_type Gobject.data_conv
+)
+"gtkEnums.ml" 215 9281 9285 "gtkEnums.ml" 215 9281 9301
+type(
+  delete_type Gobject.data_conv
+)
+ident(
+  def delete_type_conv "gtkEnums.ml" 216 9327 9327 --
+)
+"gtkEnums.ml" 215 9281 9304 "gtkEnums.ml" 215 9281 9314
+type(
+  delete_type Gpointer.variant_table -> delete_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 215 9281 9315 "gtkEnums.ml" 215 9281 9326
+type(
+  delete_type Gpointer.variant_table
+)
+ident(
+  int_ref delete_type "gtkEnums.ml" 191 7873 7877 "gtkEnums.ml" 191 7873 7888
+)
+"gtkEnums.ml" 215 9281 9304 "gtkEnums.ml" 215 9281 9326
+call(
+  stack
+)
+type(
+  delete_type Gobject.data_conv
+)
+"gtkEnums.ml" 216 9327 9331 "gtkEnums.ml" 216 9327 9350
+type(
+  direction_type Gobject.data_conv
+)
+ident(
+  def direction_type_conv "gtkEnums.ml" 217 9379 9379 --
+)
+"gtkEnums.ml" 216 9327 9353 "gtkEnums.ml" 216 9327 9363
+type(
+  direction_type Gpointer.variant_table -> direction_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 216 9327 9364 "gtkEnums.ml" 216 9327 9378
+type(
+  direction_type Gpointer.variant_table
+)
+ident(
+  int_ref direction_type "gtkEnums.ml" 191 7873 7890 "gtkEnums.ml" 191 7873 7904
+)
+"gtkEnums.ml" 216 9327 9353 "gtkEnums.ml" 216 9327 9378
+call(
+  stack
+)
+type(
+  direction_type Gobject.data_conv
+)
+"gtkEnums.ml" 217 9379 9383 "gtkEnums.ml" 217 9379 9402
+type(
+  expander_style Gobject.data_conv
+)
+ident(
+  def expander_style_conv "gtkEnums.ml" 218 9431 9431 --
+)
+"gtkEnums.ml" 217 9379 9405 "gtkEnums.ml" 217 9379 9415
+type(
+  expander_style Gpointer.variant_table -> expander_style Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 217 9379 9416 "gtkEnums.ml" 217 9379 9430
+type(
+  expander_style Gpointer.variant_table
+)
+ident(
+  int_ref expander_style "gtkEnums.ml" 191 7873 7906 "gtkEnums.ml" 191 7873 7920
+)
+"gtkEnums.ml" 217 9379 9405 "gtkEnums.ml" 217 9379 9430
+call(
+  stack
+)
+type(
+  expander_style Gobject.data_conv
+)
+"gtkEnums.ml" 218 9431 9435 "gtkEnums.ml" 218 9431 9449
+type(
+  icon_size Gobject.data_conv
+)
+ident(
+  def icon_size_conv "gtkEnums.ml" 219 9473 9473 --
+)
+"gtkEnums.ml" 218 9431 9452 "gtkEnums.ml" 218 9431 9462
+type(
+  icon_size Gpointer.variant_table -> icon_size Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 218 9431 9463 "gtkEnums.ml" 218 9431 9472
+type(
+  icon_size Gpointer.variant_table
+)
+ident(
+  int_ref icon_size "gtkEnums.ml" 191 7873 7922 "gtkEnums.ml" 191 7873 7931
+)
+"gtkEnums.ml" 218 9431 9452 "gtkEnums.ml" 218 9431 9472
+call(
+  stack
+)
+type(
+  icon_size Gobject.data_conv
+)
+"gtkEnums.ml" 219 9473 9477 "gtkEnums.ml" 219 9473 9491
+type(
+  side_type Gobject.data_conv
+)
+ident(
+  def side_type_conv "gtkEnums.ml" 220 9515 9515 --
+)
+"gtkEnums.ml" 219 9473 9494 "gtkEnums.ml" 219 9473 9504
+type(
+  side_type Gpointer.variant_table -> side_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 219 9473 9505 "gtkEnums.ml" 219 9473 9514
+type(
+  side_type Gpointer.variant_table
+)
+ident(
+  int_ref side_type "gtkEnums.ml" 191 7873 7933 "gtkEnums.ml" 191 7873 7942
+)
+"gtkEnums.ml" 219 9473 9494 "gtkEnums.ml" 219 9473 9514
+call(
+  stack
+)
+type(
+  side_type Gobject.data_conv
+)
+"gtkEnums.ml" 220 9515 9519 "gtkEnums.ml" 220 9515 9538
+type(
+  text_direction Gobject.data_conv
+)
+ident(
+  def text_direction_conv "gtkEnums.ml" 221 9567 9567 --
+)
+"gtkEnums.ml" 220 9515 9541 "gtkEnums.ml" 220 9515 9551
+type(
+  text_direction Gpointer.variant_table -> text_direction Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 220 9515 9552 "gtkEnums.ml" 220 9515 9566
+type(
+  text_direction Gpointer.variant_table
+)
+ident(
+  int_ref text_direction "gtkEnums.ml" 192 7944 7948 "gtkEnums.ml" 192 7944 7962
+)
+"gtkEnums.ml" 220 9515 9541 "gtkEnums.ml" 220 9515 9566
+call(
+  stack
+)
+type(
+  text_direction Gobject.data_conv
+)
+"gtkEnums.ml" 221 9567 9571 "gtkEnums.ml" 221 9567 9589
+type(
+  justification Gobject.data_conv
+)
+ident(
+  def justification_conv "gtkEnums.ml" 222 9617 9617 --
+)
+"gtkEnums.ml" 221 9567 9592 "gtkEnums.ml" 221 9567 9602
+type(
+  justification Gpointer.variant_table -> justification Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 221 9567 9603 "gtkEnums.ml" 221 9567 9616
+type(
+  justification Gpointer.variant_table
+)
+ident(
+  int_ref justification "gtkEnums.ml" 192 7944 7964 "gtkEnums.ml" 192 7944 7977
+)
+"gtkEnums.ml" 221 9567 9592 "gtkEnums.ml" 221 9567 9616
+call(
+  stack
+)
+type(
+  justification Gobject.data_conv
+)
+"gtkEnums.ml" 222 9617 9621 "gtkEnums.ml" 222 9617 9636
+type(
+  match_type Gobject.data_conv
+)
+ident(
+  def match_type_conv "gtkEnums.ml" 223 9661 9661 --
+)
+"gtkEnums.ml" 222 9617 9639 "gtkEnums.ml" 222 9617 9649
+type(
+  match_type Gpointer.variant_table -> match_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 222 9617 9650 "gtkEnums.ml" 222 9617 9660
+type(
+  match_type Gpointer.variant_table
+)
+ident(
+  int_ref match_type "gtkEnums.ml" 192 7944 7979 "gtkEnums.ml" 192 7944 7989
+)
+"gtkEnums.ml" 222 9617 9639 "gtkEnums.ml" 222 9617 9660
+call(
+  stack
+)
+type(
+  match_type Gobject.data_conv
+)
+"gtkEnums.ml" 223 9661 9665 "gtkEnums.ml" 223 9661 9689
+type(
+  menu_direction_type Gobject.data_conv
+)
+ident(
+  def menu_direction_type_conv "gtkEnums.ml" 224 9723 9723 --
+)
+"gtkEnums.ml" 223 9661 9692 "gtkEnums.ml" 223 9661 9702
+type(
+  menu_direction_type Gpointer.variant_table ->
+  menu_direction_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 223 9661 9703 "gtkEnums.ml" 223 9661 9722
+type(
+  menu_direction_type Gpointer.variant_table
+)
+ident(
+  int_ref menu_direction_type "gtkEnums.ml" 192 7944 7991 "gtkEnums.ml" 192 7944 8010
+)
+"gtkEnums.ml" 223 9661 9692 "gtkEnums.ml" 223 9661 9722
+call(
+  stack
+)
+type(
+  menu_direction_type Gobject.data_conv
+)
+"gtkEnums.ml" 224 9723 9727 "gtkEnums.ml" 224 9723 9743
+type(
+  metric_type Gobject.data_conv
+)
+ident(
+  def metric_type_conv "gtkEnums.ml" 225 9769 9769 --
+)
+"gtkEnums.ml" 224 9723 9746 "gtkEnums.ml" 224 9723 9756
+type(
+  metric_type Gpointer.variant_table -> metric_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 224 9723 9757 "gtkEnums.ml" 224 9723 9768
+type(
+  metric_type Gpointer.variant_table
+)
+ident(
+  int_ref metric_type "gtkEnums.ml" 193 8012 8016 "gtkEnums.ml" 193 8012 8027
+)
+"gtkEnums.ml" 224 9723 9746 "gtkEnums.ml" 224 9723 9768
+call(
+  stack
+)
+type(
+  metric_type Gobject.data_conv
+)
+"gtkEnums.ml" 225 9769 9773 "gtkEnums.ml" 225 9769 9791
+type(
+  movement_step Gobject.data_conv
+)
+ident(
+  def movement_step_conv "gtkEnums.ml" 226 9819 9819 --
+)
+"gtkEnums.ml" 225 9769 9794 "gtkEnums.ml" 225 9769 9804
+type(
+  movement_step Gpointer.variant_table -> movement_step Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 225 9769 9805 "gtkEnums.ml" 225 9769 9818
+type(
+  movement_step Gpointer.variant_table
+)
+ident(
+  int_ref movement_step "gtkEnums.ml" 193 8012 8029 "gtkEnums.ml" 193 8012 8042
+)
+"gtkEnums.ml" 225 9769 9794 "gtkEnums.ml" 225 9769 9818
+call(
+  stack
+)
+type(
+  movement_step Gobject.data_conv
+)
+"gtkEnums.ml" 226 9819 9823 "gtkEnums.ml" 226 9819 9839
+type(
+  orientation Gobject.data_conv
+)
+ident(
+  def orientation_conv "gtkEnums.ml" 227 9865 9865 --
+)
+"gtkEnums.ml" 226 9819 9842 "gtkEnums.ml" 226 9819 9852
+type(
+  orientation Gpointer.variant_table -> orientation Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 226 9819 9853 "gtkEnums.ml" 226 9819 9864
+type(
+  orientation Gpointer.variant_table
+)
+ident(
+  int_ref orientation "gtkEnums.ml" 193 8012 8044 "gtkEnums.ml" 193 8012 8055
+)
+"gtkEnums.ml" 226 9819 9842 "gtkEnums.ml" 226 9819 9864
+call(
+  stack
+)
+type(
+  orientation Gobject.data_conv
+)
+"gtkEnums.ml" 227 9865 9869 "gtkEnums.ml" 227 9865 9885
+type(
+  corner_type Gobject.data_conv
+)
+ident(
+  def corner_type_conv "gtkEnums.ml" 228 9911 9911 --
+)
+"gtkEnums.ml" 227 9865 9888 "gtkEnums.ml" 227 9865 9898
+type(
+  corner_type Gpointer.variant_table -> corner_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 227 9865 9899 "gtkEnums.ml" 227 9865 9910
+type(
+  corner_type Gpointer.variant_table
+)
+ident(
+  int_ref corner_type "gtkEnums.ml" 193 8012 8057 "gtkEnums.ml" 193 8012 8068
+)
+"gtkEnums.ml" 227 9865 9888 "gtkEnums.ml" 227 9865 9910
+call(
+  stack
+)
+type(
+  corner_type Gobject.data_conv
+)
+"gtkEnums.ml" 228 9911 9915 "gtkEnums.ml" 228 9911 9929
+type(
+  pack_type Gobject.data_conv
+)
+ident(
+  def pack_type_conv "gtkEnums.ml" 229 9953 9953 --
+)
+"gtkEnums.ml" 228 9911 9932 "gtkEnums.ml" 228 9911 9942
+type(
+  pack_type Gpointer.variant_table -> pack_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 228 9911 9943 "gtkEnums.ml" 228 9911 9952
+type(
+  pack_type Gpointer.variant_table
+)
+ident(
+  int_ref pack_type "gtkEnums.ml" 193 8012 8070 "gtkEnums.ml" 193 8012 8079
+)
+"gtkEnums.ml" 228 9911 9932 "gtkEnums.ml" 228 9911 9952
+call(
+  stack
+)
+type(
+  pack_type Gobject.data_conv
+)
+"gtkEnums.ml" 229 9953 9957 "gtkEnums.ml" 229 9953 9975
+type(
+  path_priority Gobject.data_conv
+)
+ident(
+  def path_priority_conv "gtkEnums.ml" 230 10003 10003 --
+)
+"gtkEnums.ml" 229 9953 9978 "gtkEnums.ml" 229 9953 9988
+type(
+  path_priority Gpointer.variant_table -> path_priority Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 229 9953 9989 "gtkEnums.ml" 229 9953 10002
+type(
+  path_priority Gpointer.variant_table
+)
+ident(
+  int_ref path_priority "gtkEnums.ml" 194 8081 8085 "gtkEnums.ml" 194 8081 8098
+)
+"gtkEnums.ml" 229 9953 9978 "gtkEnums.ml" 229 9953 10002
+call(
+  stack
+)
+type(
+  path_priority Gobject.data_conv
+)
+"gtkEnums.ml" 230 10003 10007 "gtkEnums.ml" 230 10003 10021
+type(
+  path_type Gobject.data_conv
+)
+ident(
+  def path_type_conv "gtkEnums.ml" 231 10045 10045 --
+)
+"gtkEnums.ml" 230 10003 10024 "gtkEnums.ml" 230 10003 10034
+type(
+  path_type Gpointer.variant_table -> path_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 230 10003 10035 "gtkEnums.ml" 230 10003 10044
+type(
+  path_type Gpointer.variant_table
+)
+ident(
+  int_ref path_type "gtkEnums.ml" 194 8081 8100 "gtkEnums.ml" 194 8081 8109
+)
+"gtkEnums.ml" 230 10003 10024 "gtkEnums.ml" 230 10003 10044
+call(
+  stack
+)
+type(
+  path_type Gobject.data_conv
+)
+"gtkEnums.ml" 231 10045 10049 "gtkEnums.ml" 231 10045 10065
+type(
+  policy_type Gobject.data_conv
+)
+ident(
+  def policy_type_conv "gtkEnums.ml" 232 10091 10091 --
+)
+"gtkEnums.ml" 231 10045 10068 "gtkEnums.ml" 231 10045 10078
+type(
+  policy_type Gpointer.variant_table -> policy_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 231 10045 10079 "gtkEnums.ml" 231 10045 10090
+type(
+  policy_type Gpointer.variant_table
+)
+ident(
+  int_ref policy_type "gtkEnums.ml" 194 8081 8111 "gtkEnums.ml" 194 8081 8122
+)
+"gtkEnums.ml" 231 10045 10068 "gtkEnums.ml" 231 10045 10090
+call(
+  stack
+)
+type(
+  policy_type Gobject.data_conv
+)
+"gtkEnums.ml" 232 10091 10095 "gtkEnums.ml" 232 10091 10113
+type(
+  position_type Gobject.data_conv
+)
+ident(
+  def position_type_conv "gtkEnums.ml" 233 10141 10141 --
+)
+"gtkEnums.ml" 232 10091 10116 "gtkEnums.ml" 232 10091 10126
+type(
+  position_type Gpointer.variant_table -> position_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 232 10091 10127 "gtkEnums.ml" 232 10091 10140
+type(
+  position_type Gpointer.variant_table
+)
+ident(
+  int_ref position_type "gtkEnums.ml" 194 8081 8124 "gtkEnums.ml" 194 8081 8137
+)
+"gtkEnums.ml" 232 10091 10116 "gtkEnums.ml" 232 10091 10140
+call(
+  stack
+)
+type(
+  position_type Gobject.data_conv
+)
+"gtkEnums.ml" 233 10141 10145 "gtkEnums.ml" 233 10141 10162
+type(
+  preview_type Gobject.data_conv
+)
+ident(
+  def preview_type_conv "gtkEnums.ml" 234 10189 10189 --
+)
+"gtkEnums.ml" 233 10141 10165 "gtkEnums.ml" 233 10141 10175
+type(
+  preview_type Gpointer.variant_table -> preview_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 233 10141 10176 "gtkEnums.ml" 233 10141 10188
+type(
+  preview_type Gpointer.variant_table
+)
+ident(
+  int_ref preview_type "gtkEnums.ml" 194 8081 8139 "gtkEnums.ml" 194 8081 8151
+)
+"gtkEnums.ml" 233 10141 10165 "gtkEnums.ml" 233 10141 10188
+call(
+  stack
+)
+type(
+  preview_type Gobject.data_conv
+)
+"gtkEnums.ml" 234 10189 10193 "gtkEnums.ml" 234 10189 10210
+type(
+  relief_style Gobject.data_conv
+)
+ident(
+  def relief_style_conv "gtkEnums.ml" 235 10237 10237 --
+)
+"gtkEnums.ml" 234 10189 10213 "gtkEnums.ml" 234 10189 10223
+type(
+  relief_style Gpointer.variant_table -> relief_style Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 234 10189 10224 "gtkEnums.ml" 234 10189 10236
+type(
+  relief_style Gpointer.variant_table
+)
+ident(
+  int_ref relief_style "gtkEnums.ml" 195 8153 8157 "gtkEnums.ml" 195 8153 8169
+)
+"gtkEnums.ml" 234 10189 10213 "gtkEnums.ml" 234 10189 10236
+call(
+  stack
+)
+type(
+  relief_style Gobject.data_conv
+)
+"gtkEnums.ml" 235 10237 10241 "gtkEnums.ml" 235 10237 10257
+type(
+  resize_mode Gobject.data_conv
+)
+ident(
+  def resize_mode_conv "gtkEnums.ml" 236 10283 10283 --
+)
+"gtkEnums.ml" 235 10237 10260 "gtkEnums.ml" 235 10237 10270
+type(
+  resize_mode Gpointer.variant_table -> resize_mode Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 235 10237 10271 "gtkEnums.ml" 235 10237 10282
+type(
+  resize_mode Gpointer.variant_table
+)
+ident(
+  int_ref resize_mode "gtkEnums.ml" 195 8153 8171 "gtkEnums.ml" 195 8153 8182
+)
+"gtkEnums.ml" 235 10237 10260 "gtkEnums.ml" 235 10237 10282
+call(
+  stack
+)
+type(
+  resize_mode Gobject.data_conv
+)
+"gtkEnums.ml" 236 10283 10287 "gtkEnums.ml" 236 10283 10307
+type(
+  signal_run_type Gobject.data_conv
+)
+ident(
+  def signal_run_type_conv "gtkEnums.ml" 237 10337 10337 --
+)
+"gtkEnums.ml" 236 10283 10310 "gtkEnums.ml" 236 10283 10320
+type(
+  signal_run_type Gpointer.variant_table -> signal_run_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 236 10283 10321 "gtkEnums.ml" 236 10283 10336
+type(
+  signal_run_type Gpointer.variant_table
+)
+ident(
+  int_ref signal_run_type "gtkEnums.ml" 195 8153 8184 "gtkEnums.ml" 195 8153 8199
+)
+"gtkEnums.ml" 236 10283 10310 "gtkEnums.ml" 236 10283 10336
+call(
+  stack
+)
+type(
+  signal_run_type Gobject.data_conv
+)
+"gtkEnums.ml" 237 10337 10341 "gtkEnums.ml" 237 10337 10357
+type(
+  scroll_type Gobject.data_conv
+)
+ident(
+  def scroll_type_conv "gtkEnums.ml" 238 10383 10383 --
+)
+"gtkEnums.ml" 237 10337 10360 "gtkEnums.ml" 237 10337 10370
+type(
+  scroll_type Gpointer.variant_table -> scroll_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 237 10337 10371 "gtkEnums.ml" 237 10337 10382
+type(
+  scroll_type Gpointer.variant_table
+)
+ident(
+  int_ref scroll_type "gtkEnums.ml" 195 8153 8201 "gtkEnums.ml" 195 8153 8212
+)
+"gtkEnums.ml" 237 10337 10360 "gtkEnums.ml" 237 10337 10382
+call(
+  stack
+)
+type(
+  scroll_type Gobject.data_conv
+)
+"gtkEnums.ml" 238 10383 10387 "gtkEnums.ml" 238 10383 10406
+type(
+  selection_mode Gobject.data_conv
+)
+ident(
+  def selection_mode_conv "gtkEnums.ml" 239 10435 10435 --
+)
+"gtkEnums.ml" 238 10383 10409 "gtkEnums.ml" 238 10383 10419
+type(
+  selection_mode Gpointer.variant_table -> selection_mode Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 238 10383 10420 "gtkEnums.ml" 238 10383 10434
+type(
+  selection_mode Gpointer.variant_table
+)
+ident(
+  int_ref selection_mode "gtkEnums.ml" 195 8153 8214 "gtkEnums.ml" 195 8153 8228
+)
+"gtkEnums.ml" 238 10383 10409 "gtkEnums.ml" 238 10383 10434
+call(
+  stack
+)
+type(
+  selection_mode Gobject.data_conv
+)
+"gtkEnums.ml" 239 10435 10439 "gtkEnums.ml" 239 10435 10455
+type(
+  shadow_type Gobject.data_conv
+)
+ident(
+  def shadow_type_conv "gtkEnums.ml" 240 10481 10481 --
+)
+"gtkEnums.ml" 239 10435 10458 "gtkEnums.ml" 239 10435 10468
+type(
+  shadow_type Gpointer.variant_table -> shadow_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 239 10435 10469 "gtkEnums.ml" 239 10435 10480
+type(
+  shadow_type Gpointer.variant_table
+)
+ident(
+  int_ref shadow_type "gtkEnums.ml" 196 8230 8234 "gtkEnums.ml" 196 8230 8245
+)
+"gtkEnums.ml" 239 10435 10458 "gtkEnums.ml" 239 10435 10480
+call(
+  stack
+)
+type(
+  shadow_type Gobject.data_conv
+)
+"gtkEnums.ml" 240 10481 10485 "gtkEnums.ml" 240 10481 10500
+type(
+  state_type Gobject.data_conv
+)
+ident(
+  def state_type_conv "gtkEnums.ml" 241 10525 10525 --
+)
+"gtkEnums.ml" 240 10481 10503 "gtkEnums.ml" 240 10481 10513
+type(
+  state_type Gpointer.variant_table -> state_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 240 10481 10514 "gtkEnums.ml" 240 10481 10524
+type(
+  state_type Gpointer.variant_table
+)
+ident(
+  int_ref state_type "gtkEnums.ml" 196 8230 8247 "gtkEnums.ml" 196 8230 8257
+)
+"gtkEnums.ml" 240 10481 10503 "gtkEnums.ml" 240 10481 10524
+call(
+  stack
+)
+type(
+  state_type Gobject.data_conv
+)
+"gtkEnums.ml" 241 10525 10529 "gtkEnums.ml" 241 10525 10551
+type(
+  submenu_direction Gobject.data_conv
+)
+ident(
+  def submenu_direction_conv "gtkEnums.ml" 242 10583 10583 --
+)
+"gtkEnums.ml" 241 10525 10554 "gtkEnums.ml" 241 10525 10564
+type(
+  submenu_direction Gpointer.variant_table ->
+  submenu_direction Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 241 10525 10565 "gtkEnums.ml" 241 10525 10582
+type(
+  submenu_direction Gpointer.variant_table
+)
+ident(
+  int_ref submenu_direction "gtkEnums.ml" 196 8230 8259 "gtkEnums.ml" 196 8230 8276
+)
+"gtkEnums.ml" 241 10525 10554 "gtkEnums.ml" 241 10525 10582
+call(
+  stack
+)
+type(
+  submenu_direction Gobject.data_conv
+)
+"gtkEnums.ml" 242 10583 10587 "gtkEnums.ml" 242 10583 10609
+type(
+  submenu_placement Gobject.data_conv
+)
+ident(
+  def submenu_placement_conv "gtkEnums.ml" 243 10641 10641 --
+)
+"gtkEnums.ml" 242 10583 10612 "gtkEnums.ml" 242 10583 10622
+type(
+  submenu_placement Gpointer.variant_table ->
+  submenu_placement Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 242 10583 10623 "gtkEnums.ml" 242 10583 10640
+type(
+  submenu_placement Gpointer.variant_table
+)
+ident(
+  int_ref submenu_placement "gtkEnums.ml" 196 8230 8278 "gtkEnums.ml" 196 8230 8295
+)
+"gtkEnums.ml" 242 10583 10612 "gtkEnums.ml" 242 10583 10640
+call(
+  stack
+)
+type(
+  submenu_placement Gobject.data_conv
+)
+"gtkEnums.ml" 243 10641 10645 "gtkEnums.ml" 243 10641 10663
+type(
+  toolbar_style Gobject.data_conv
+)
+ident(
+  def toolbar_style_conv "gtkEnums.ml" 244 10691 10691 --
+)
+"gtkEnums.ml" 243 10641 10666 "gtkEnums.ml" 243 10641 10676
+type(
+  toolbar_style Gpointer.variant_table -> toolbar_style Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 243 10641 10677 "gtkEnums.ml" 243 10641 10690
+type(
+  toolbar_style Gpointer.variant_table
+)
+ident(
+  int_ref toolbar_style "gtkEnums.ml" 197 8297 8301 "gtkEnums.ml" 197 8297 8314
+)
+"gtkEnums.ml" 243 10641 10666 "gtkEnums.ml" 243 10641 10690
+call(
+  stack
+)
+type(
+  toolbar_style Gobject.data_conv
+)
+"gtkEnums.ml" 244 10691 10695 "gtkEnums.ml" 244 10691 10711
+type(
+  update_type Gobject.data_conv
+)
+ident(
+  def update_type_conv "gtkEnums.ml" 245 10737 10737 --
+)
+"gtkEnums.ml" 244 10691 10714 "gtkEnums.ml" 244 10691 10724
+type(
+  update_type Gpointer.variant_table -> update_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 244 10691 10725 "gtkEnums.ml" 244 10691 10736
+type(
+  update_type Gpointer.variant_table
+)
+ident(
+  int_ref update_type "gtkEnums.ml" 197 8297 8316 "gtkEnums.ml" 197 8297 8327
+)
+"gtkEnums.ml" 244 10691 10714 "gtkEnums.ml" 244 10691 10736
+call(
+  stack
+)
+type(
+  update_type Gobject.data_conv
+)
+"gtkEnums.ml" 245 10737 10741 "gtkEnums.ml" 245 10737 10756
+type(
+  visibility Gobject.data_conv
+)
+ident(
+  def visibility_conv "gtkEnums.ml" 246 10781 10781 --
+)
+"gtkEnums.ml" 245 10737 10759 "gtkEnums.ml" 245 10737 10769
+type(
+  visibility Gpointer.variant_table -> visibility Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 245 10737 10770 "gtkEnums.ml" 245 10737 10780
+type(
+  visibility Gpointer.variant_table
+)
+ident(
+  int_ref visibility "gtkEnums.ml" 197 8297 8329 "gtkEnums.ml" 197 8297 8339
+)
+"gtkEnums.ml" 245 10737 10759 "gtkEnums.ml" 245 10737 10780
+call(
+  stack
+)
+type(
+  visibility Gobject.data_conv
+)
+"gtkEnums.ml" 246 10781 10785 "gtkEnums.ml" 246 10781 10805
+type(
+  window_position Gobject.data_conv
+)
+ident(
+  def window_position_conv "gtkEnums.ml" 247 10835 10835 --
+)
+"gtkEnums.ml" 246 10781 10808 "gtkEnums.ml" 246 10781 10818
+type(
+  window_position Gpointer.variant_table -> window_position Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 246 10781 10819 "gtkEnums.ml" 246 10781 10834
+type(
+  window_position Gpointer.variant_table
+)
+ident(
+  int_ref window_position "gtkEnums.ml" 197 8297 8341 "gtkEnums.ml" 197 8297 8356
+)
+"gtkEnums.ml" 246 10781 10808 "gtkEnums.ml" 246 10781 10834
+call(
+  stack
+)
+type(
+  window_position Gobject.data_conv
+)
+"gtkEnums.ml" 247 10835 10839 "gtkEnums.ml" 247 10835 10855
+type(
+  window_type Gobject.data_conv
+)
+ident(
+  def window_type_conv "gtkEnums.ml" 248 10881 10881 --
+)
+"gtkEnums.ml" 247 10835 10858 "gtkEnums.ml" 247 10835 10868
+type(
+  window_type Gpointer.variant_table -> window_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 247 10835 10869 "gtkEnums.ml" 247 10835 10880
+type(
+  window_type Gpointer.variant_table
+)
+ident(
+  int_ref window_type "gtkEnums.ml" 197 8297 8358 "gtkEnums.ml" 197 8297 8369
+)
+"gtkEnums.ml" 247 10835 10858 "gtkEnums.ml" 247 10835 10880
+call(
+  stack
+)
+type(
+  window_type Gobject.data_conv
+)
+"gtkEnums.ml" 248 10881 10885 "gtkEnums.ml" 248 10881 10899
+type(
+  wrap_mode Gobject.data_conv
+)
+ident(
+  def wrap_mode_conv "gtkEnums.ml" 249 10923 10923 --
+)
+"gtkEnums.ml" 248 10881 10902 "gtkEnums.ml" 248 10881 10912
+type(
+  wrap_mode Gpointer.variant_table -> wrap_mode Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 248 10881 10913 "gtkEnums.ml" 248 10881 10922
+type(
+  wrap_mode Gpointer.variant_table
+)
+ident(
+  int_ref wrap_mode "gtkEnums.ml" 198 8371 8375 "gtkEnums.ml" 198 8371 8384
+)
+"gtkEnums.ml" 248 10881 10902 "gtkEnums.ml" 248 10881 10922
+call(
+  stack
+)
+type(
+  wrap_mode Gobject.data_conv
+)
+"gtkEnums.ml" 249 10923 10927 "gtkEnums.ml" 249 10923 10941
+type(
+  sort_type Gobject.data_conv
+)
+ident(
+  def sort_type_conv "gtkEnums.ml" 250 10965 10965 --
+)
+"gtkEnums.ml" 249 10923 10944 "gtkEnums.ml" 249 10923 10954
+type(
+  sort_type Gpointer.variant_table -> sort_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 249 10923 10955 "gtkEnums.ml" 249 10923 10964
+type(
+  sort_type Gpointer.variant_table
+)
+ident(
+  int_ref sort_type "gtkEnums.ml" 198 8371 8386 "gtkEnums.ml" 198 8371 8395
+)
+"gtkEnums.ml" 249 10923 10944 "gtkEnums.ml" 249 10923 10964
+call(
+  stack
+)
+type(
+  sort_type Gobject.data_conv
+)
+"gtkEnums.ml" 250 10965 10969 "gtkEnums.ml" 250 10965 10983
+type(
+  cell_type Gobject.data_conv
+)
+ident(
+  def cell_type_conv "gtkEnums.ml" 251 11007 11007 --
+)
+"gtkEnums.ml" 250 10965 10986 "gtkEnums.ml" 250 10965 10996
+type(
+  cell_type Gpointer.variant_table -> cell_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 250 10965 10997 "gtkEnums.ml" 250 10965 11006
+type(
+  cell_type Gpointer.variant_table
+)
+ident(
+  int_ref cell_type "gtkEnums.ml" 198 8371 8397 "gtkEnums.ml" 198 8371 8406
+)
+"gtkEnums.ml" 250 10965 10986 "gtkEnums.ml" 250 10965 11006
+call(
+  stack
+)
+type(
+  cell_type Gobject.data_conv
+)
+"gtkEnums.ml" 251 11007 11011 "gtkEnums.ml" 251 11007 11029
+type(
+  toolbar_child Gobject.data_conv
+)
+ident(
+  def toolbar_child_conv "gtkEnums.ml" 252 11057 11057 --
+)
+"gtkEnums.ml" 251 11007 11032 "gtkEnums.ml" 251 11007 11042
+type(
+  toolbar_child Gpointer.variant_table -> toolbar_child Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 251 11007 11043 "gtkEnums.ml" 251 11007 11056
+type(
+  toolbar_child Gpointer.variant_table
+)
+ident(
+  int_ref toolbar_child "gtkEnums.ml" 198 8371 8408 "gtkEnums.ml" 198 8371 8421
+)
+"gtkEnums.ml" 251 11007 11032 "gtkEnums.ml" 251 11007 11056
+call(
+  stack
+)
+type(
+  toolbar_child Gobject.data_conv
+)
+"gtkEnums.ml" 252 11057 11061 "gtkEnums.ml" 252 11057 11085
+type(
+  toolbar_space_style Gobject.data_conv
+)
+ident(
+  def toolbar_space_style_conv "gtkEnums.ml" 253 11119 11119 --
+)
+"gtkEnums.ml" 252 11057 11088 "gtkEnums.ml" 252 11057 11098
+type(
+  toolbar_space_style Gpointer.variant_table ->
+  toolbar_space_style Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 252 11057 11099 "gtkEnums.ml" 252 11057 11118
+type(
+  toolbar_space_style Gpointer.variant_table
+)
+ident(
+  int_ref toolbar_space_style "gtkEnums.ml" 198 8371 8423 "gtkEnums.ml" 198 8371 8442
+)
+"gtkEnums.ml" 252 11057 11088 "gtkEnums.ml" 252 11057 11118
+call(
+  stack
+)
+type(
+  toolbar_space_style Gobject.data_conv
+)
+"gtkEnums.ml" 253 11119 11123 "gtkEnums.ml" 253 11119 11137
+type(
+  spin_type Gobject.data_conv
+)
+ident(
+  def spin_type_conv "gtkEnums.ml" 254 11161 11161 --
+)
+"gtkEnums.ml" 253 11119 11140 "gtkEnums.ml" 253 11119 11150
+type(
+  spin_type Gpointer.variant_table -> spin_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 253 11119 11151 "gtkEnums.ml" 253 11119 11160
+type(
+  spin_type Gpointer.variant_table
+)
+ident(
+  int_ref spin_type "gtkEnums.ml" 199 8444 8448 "gtkEnums.ml" 199 8444 8457
+)
+"gtkEnums.ml" 253 11119 11140 "gtkEnums.ml" 253 11119 11160
+call(
+  stack
+)
+type(
+  spin_type Gobject.data_conv
+)
+"gtkEnums.ml" 254 11161 11165 "gtkEnums.ml" 254 11161 11180
+type(
+  accel_flag Gobject.data_conv
+)
+ident(
+  def accel_flag_conv "gtkEnums.ml" 255 11205 11205 --
+)
+"gtkEnums.ml" 254 11161 11183 "gtkEnums.ml" 254 11161 11193
+type(
+  accel_flag Gpointer.variant_table -> accel_flag Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 254 11161 11194 "gtkEnums.ml" 254 11161 11204
+type(
+  accel_flag Gpointer.variant_table
+)
+ident(
+  int_ref accel_flag "gtkEnums.ml" 199 8444 8459 "gtkEnums.ml" 199 8444 8469
+)
+"gtkEnums.ml" 254 11161 11183 "gtkEnums.ml" 254 11161 11204
+call(
+  stack
+)
+type(
+  accel_flag Gobject.data_conv
+)
+"gtkEnums.ml" 255 11205 11209 "gtkEnums.ml" 255 11205 11227
+type(
+  button_action Gobject.data_conv
+)
+ident(
+  def button_action_conv "gtkEnums.ml" 256 11255 11255 --
+)
+"gtkEnums.ml" 255 11205 11230 "gtkEnums.ml" 255 11205 11240
+type(
+  button_action Gpointer.variant_table -> button_action Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 255 11205 11241 "gtkEnums.ml" 255 11205 11254
+type(
+  button_action Gpointer.variant_table
+)
+ident(
+  int_ref button_action "gtkEnums.ml" 199 8444 8471 "gtkEnums.ml" 199 8444 8484
+)
+"gtkEnums.ml" 255 11205 11230 "gtkEnums.ml" 255 11205 11254
+call(
+  stack
+)
+type(
+  button_action Gobject.data_conv
+)
+"gtkEnums.ml" 256 11255 11259 "gtkEnums.ml" 256 11255 11288
+type(
+  calendar_display_options Gobject.data_conv
+)
+ident(
+  def calendar_display_options_conv "gtkEnums.ml" 257 11327 11327 --
+)
+"gtkEnums.ml" 256 11255 11291 "gtkEnums.ml" 256 11255 11301
+type(
+  calendar_display_options Gpointer.variant_table ->
+  calendar_display_options Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 256 11255 11302 "gtkEnums.ml" 256 11255 11326
+type(
+  calendar_display_options Gpointer.variant_table
+)
+ident(
+  int_ref calendar_display_options "gtkEnums.ml" 199 8444 8486 "gtkEnums.ml" 199 8444 8510
+)
+"gtkEnums.ml" 256 11255 11291 "gtkEnums.ml" 256 11255 11326
+call(
+  stack
+)
+type(
+  calendar_display_options Gobject.data_conv
+)
+"gtkEnums.ml" 257 11327 11331 "gtkEnums.ml" 257 11327 11354
+type(
+  progress_bar_style Gobject.data_conv
+)
+ident(
+  def progress_bar_style_conv "gtkEnums.ml" 258 11387 11387 --
+)
+"gtkEnums.ml" 257 11327 11357 "gtkEnums.ml" 257 11327 11367
+type(
+  progress_bar_style Gpointer.variant_table ->
+  progress_bar_style Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 257 11327 11368 "gtkEnums.ml" 257 11327 11386
+type(
+  progress_bar_style Gpointer.variant_table
+)
+ident(
+  int_ref progress_bar_style "gtkEnums.ml" 200 8512 8516 "gtkEnums.ml" 200 8512 8534
+)
+"gtkEnums.ml" 257 11327 11357 "gtkEnums.ml" 257 11327 11386
+call(
+  stack
+)
+type(
+  progress_bar_style Gobject.data_conv
+)
+"gtkEnums.ml" 258 11387 11391 "gtkEnums.ml" 258 11387 11420
+type(
+  progress_bar_orientation Gobject.data_conv
+)
+ident(
+  def progress_bar_orientation_conv "gtkEnums.ml" 259 11459 11459 --
+)
+"gtkEnums.ml" 258 11387 11423 "gtkEnums.ml" 258 11387 11433
+type(
+  progress_bar_orientation Gpointer.variant_table ->
+  progress_bar_orientation Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 258 11387 11434 "gtkEnums.ml" 258 11387 11458
+type(
+  progress_bar_orientation Gpointer.variant_table
+)
+ident(
+  int_ref progress_bar_orientation "gtkEnums.ml" 200 8512 8536 "gtkEnums.ml" 200 8512 8560
+)
+"gtkEnums.ml" 258 11387 11423 "gtkEnums.ml" 258 11387 11458
+call(
+  stack
+)
+type(
+  progress_bar_orientation Gobject.data_conv
+)
+"gtkEnums.ml" 259 11459 11463 "gtkEnums.ml" 259 11459 11481
+type(
+  dest_defaults Gobject.data_conv
+)
+ident(
+  def dest_defaults_conv "gtkEnums.ml" 260 11509 11509 --
+)
+"gtkEnums.ml" 259 11459 11484 "gtkEnums.ml" 259 11459 11494
+type(
+  dest_defaults Gpointer.variant_table -> dest_defaults Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 259 11459 11495 "gtkEnums.ml" 259 11459 11508
+type(
+  dest_defaults Gpointer.variant_table
+)
+ident(
+  int_ref dest_defaults "gtkEnums.ml" 200 8512 8562 "gtkEnums.ml" 200 8512 8575
+)
+"gtkEnums.ml" 259 11459 11484 "gtkEnums.ml" 259 11459 11508
+call(
+  stack
+)
+type(
+  dest_defaults Gobject.data_conv
+)
+"gtkEnums.ml" 260 11509 11513 "gtkEnums.ml" 260 11509 11530
+type(
+  target_flags Gobject.data_conv
+)
+ident(
+  def target_flags_conv "gtkEnums.ml" 261 11557 11557 --
+)
+"gtkEnums.ml" 260 11509 11533 "gtkEnums.ml" 260 11509 11543
+type(
+  target_flags Gpointer.variant_table -> target_flags Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 260 11509 11544 "gtkEnums.ml" 260 11509 11556
+type(
+  target_flags Gpointer.variant_table
+)
+ident(
+  int_ref target_flags "gtkEnums.ml" 201 8577 8581 "gtkEnums.ml" 201 8577 8593
+)
+"gtkEnums.ml" 260 11509 11533 "gtkEnums.ml" 260 11509 11556
+call(
+  stack
+)
+type(
+  target_flags Gobject.data_conv
+)
+"gtkEnums.ml" 261 11557 11561 "gtkEnums.ml" 261 11557 11591
+type(
+  spin_button_update_policy Gobject.data_conv
+)
+ident(
+  def spin_button_update_policy_conv "gtkEnums.ml" 262 11631 11631 --
+)
+"gtkEnums.ml" 261 11557 11594 "gtkEnums.ml" 261 11557 11604
+type(
+  spin_button_update_policy Gpointer.variant_table ->
+  spin_button_update_policy Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 261 11557 11605 "gtkEnums.ml" 261 11557 11630
+type(
+  spin_button_update_policy Gpointer.variant_table
+)
+ident(
+  int_ref spin_button_update_policy "gtkEnums.ml" 201 8577 8595 "gtkEnums.ml" 201 8577 8620
+)
+"gtkEnums.ml" 261 11557 11594 "gtkEnums.ml" 261 11557 11630
+call(
+  stack
+)
+type(
+  spin_button_update_policy Gobject.data_conv
+)
+"gtkEnums.ml" 262 11631 11635 "gtkEnums.ml" 262 11631 11656
+type(
+  text_window_type Gobject.data_conv
+)
+ident(
+  def text_window_type_conv "gtkEnums.ml" 263 11687 11687 --
+)
+"gtkEnums.ml" 262 11631 11659 "gtkEnums.ml" 262 11631 11669
+type(
+  text_window_type Gpointer.variant_table ->
+  text_window_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 262 11631 11670 "gtkEnums.ml" 262 11631 11686
+type(
+  text_window_type Gpointer.variant_table
+)
+ident(
+  int_ref text_window_type "gtkEnums.ml" 201 8577 8622 "gtkEnums.ml" 201 8577 8638
+)
+"gtkEnums.ml" 262 11631 11659 "gtkEnums.ml" 262 11631 11686
+call(
+  stack
+)
+type(
+  text_window_type Gobject.data_conv
+)
+"gtkEnums.ml" 263 11687 11691 "gtkEnums.ml" 263 11687 11712
+type(
+  text_search_flag Gobject.data_conv
+)
+ident(
+  def text_search_flag_conv "gtkEnums.ml" 264 11743 11743 --
+)
+"gtkEnums.ml" 263 11687 11715 "gtkEnums.ml" 263 11687 11725
+type(
+  text_search_flag Gpointer.variant_table ->
+  text_search_flag Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 263 11687 11726 "gtkEnums.ml" 263 11687 11742
+type(
+  text_search_flag Gpointer.variant_table
+)
+ident(
+  int_ref text_search_flag "gtkEnums.ml" 202 8640 8644 "gtkEnums.ml" 202 8640 8660
+)
+"gtkEnums.ml" 263 11687 11715 "gtkEnums.ml" 263 11687 11742
+call(
+  stack
+)
+type(
+  text_search_flag Gobject.data_conv
+)
+"gtkEnums.ml" 264 11743 11747 "gtkEnums.ml" 264 11743 11775
+type(
+  tree_view_column_sizing Gobject.data_conv
+)
+ident(
+  def tree_view_column_sizing_conv "gtkEnums.ml" 265 11813 11813 --
+)
+"gtkEnums.ml" 264 11743 11778 "gtkEnums.ml" 264 11743 11788
+type(
+  tree_view_column_sizing Gpointer.variant_table ->
+  tree_view_column_sizing Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 264 11743 11789 "gtkEnums.ml" 264 11743 11812
+type(
+  tree_view_column_sizing Gpointer.variant_table
+)
+ident(
+  int_ref tree_view_column_sizing "gtkEnums.ml" 202 8640 8662 "gtkEnums.ml" 202 8640 8685
+)
+"gtkEnums.ml" 264 11743 11778 "gtkEnums.ml" 264 11743 11812
+call(
+  stack
+)
+type(
+  tree_view_column_sizing Gobject.data_conv
+)
+"gtkEnums.ml" 265 11813 11817 "gtkEnums.ml" 265 11813 11840
+type(
+  cell_renderer_mode Gobject.data_conv
+)
+ident(
+  def cell_renderer_mode_conv "gtkEnums.ml" 266 11873 11873 --
+)
+"gtkEnums.ml" 265 11813 11843 "gtkEnums.ml" 265 11813 11853
+type(
+  cell_renderer_mode Gpointer.variant_table ->
+  cell_renderer_mode Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 265 11813 11854 "gtkEnums.ml" 265 11813 11872
+type(
+  cell_renderer_mode Gpointer.variant_table
+)
+ident(
+  int_ref cell_renderer_mode "gtkEnums.ml" 202 8640 8687 "gtkEnums.ml" 202 8640 8705
+)
+"gtkEnums.ml" 265 11813 11843 "gtkEnums.ml" 265 11813 11872
+call(
+  stack
+)
+type(
+  cell_renderer_mode Gobject.data_conv
+)
+"gtkEnums.ml" 266 11873 11877 "gtkEnums.ml" 266 11873 11894
+type(
+  message_type Gobject.data_conv
+)
+ident(
+  def message_type_conv "gtkEnums.ml" 267 11921 11921 --
+)
+"gtkEnums.ml" 266 11873 11897 "gtkEnums.ml" 266 11873 11907
+type(
+  message_type Gpointer.variant_table -> message_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 266 11873 11908 "gtkEnums.ml" 266 11873 11920
+type(
+  message_type Gpointer.variant_table
+)
+ident(
+  int_ref message_type "gtkEnums.ml" 203 8707 8711 "gtkEnums.ml" 203 8707 8723
+)
+"gtkEnums.ml" 266 11873 11897 "gtkEnums.ml" 266 11873 11920
+call(
+  stack
+)
+type(
+  message_type Gobject.data_conv
+)
+"gtkEnums.ml" 267 11921 11925 "gtkEnums.ml" 267 11921 11942
+type(
+  buttons_type Gobject.data_conv
+)
+ident(
+  def buttons_type_conv "gtkEnums.ml" 268 11969 11969 --
+)
+"gtkEnums.ml" 267 11921 11945 "gtkEnums.ml" 267 11921 11955
+type(
+  buttons_type Gpointer.variant_table -> buttons_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 267 11921 11956 "gtkEnums.ml" 267 11921 11968
+type(
+  buttons_type Gpointer.variant_table
+)
+ident(
+  int_ref buttons_type "gtkEnums.ml" 203 8707 8725 "gtkEnums.ml" 203 8707 8737
+)
+"gtkEnums.ml" 267 11921 11945 "gtkEnums.ml" 267 11921 11968
+call(
+  stack
+)
+type(
+  buttons_type Gobject.data_conv
+)
+"gtkEnums.ml" 268 11969 11973 "gtkEnums.ml" 268 11969 11986
+type(
+  response Gobject.data_conv
+)
+ident(
+  def response_conv "gtkEnums.ml" 269 12009 12009 --
+)
+"gtkEnums.ml" 268 11969 11989 "gtkEnums.ml" 268 11969 11999
+type(
+  response Gpointer.variant_table -> response Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 268 11969 12000 "gtkEnums.ml" 268 11969 12008
+type(
+  response Gpointer.variant_table
+)
+ident(
+  int_ref response "gtkEnums.ml" 203 8707 8739 "gtkEnums.ml" 203 8707 8747
+)
+"gtkEnums.ml" 268 11969 11989 "gtkEnums.ml" 268 11969 12008
+call(
+  stack
+)
+type(
+  response Gobject.data_conv
+)
+"gtkEnums.ml" 269 12009 12013 "gtkEnums.ml" 269 12009 12030
+type(
+  widget_flags Gobject.data_conv
+)
+ident(
+  def widget_flags_conv "gtkEnums.ml" 270 12057 12057 --
+)
+"gtkEnums.ml" 269 12009 12033 "gtkEnums.ml" 269 12009 12043
+type(
+  widget_flags Gpointer.variant_table -> widget_flags Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 269 12009 12044 "gtkEnums.ml" 269 12009 12056
+type(
+  widget_flags Gpointer.variant_table
+)
+ident(
+  int_ref widget_flags "gtkEnums.ml" 203 8707 8749 "gtkEnums.ml" 203 8707 8761
+)
+"gtkEnums.ml" 269 12009 12033 "gtkEnums.ml" 269 12009 12056
+call(
+  stack
+)
+type(
+  widget_flags Gobject.data_conv
+)
+"gtkEnums.ml" 270 12057 12061 "gtkEnums.ml" 270 12057 12076
+type(
+  image_type Gobject.data_conv
+)
+ident(
+  def image_type_conv "gtkEnums.ml" 271 12101 12101 --
+)
+"gtkEnums.ml" 270 12057 12079 "gtkEnums.ml" 270 12057 12089
+type(
+  image_type Gpointer.variant_table -> image_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 270 12057 12090 "gtkEnums.ml" 270 12057 12100
+type(
+  image_type Gpointer.variant_table
+)
+ident(
+  int_ref image_type "gtkEnums.ml" 203 8707 8763 "gtkEnums.ml" 203 8707 8773
+)
+"gtkEnums.ml" 270 12057 12079 "gtkEnums.ml" 270 12057 12100
+call(
+  stack
+)
+type(
+  image_type Gobject.data_conv
+)
+"gtkEnums.ml" 271 12101 12105 "gtkEnums.ml" 271 12101 12125
+type(
+  size_group_mode Gobject.data_conv
+)
+ident(
+  def size_group_mode_conv "gtkEnums.ml" 272 12155 12155 --
+)
+"gtkEnums.ml" 271 12101 12128 "gtkEnums.ml" 271 12101 12138
+type(
+  size_group_mode Gpointer.variant_table -> size_group_mode Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 271 12101 12139 "gtkEnums.ml" 271 12101 12154
+type(
+  size_group_mode Gpointer.variant_table
+)
+ident(
+  int_ref size_group_mode "gtkEnums.ml" 204 8775 8779 "gtkEnums.ml" 204 8775 8794
+)
+"gtkEnums.ml" 271 12101 12128 "gtkEnums.ml" 271 12101 12154
+call(
+  stack
+)
+type(
+  size_group_mode Gobject.data_conv
+)
+"gtkEnums.ml" 272 12155 12159 "gtkEnums.ml" 272 12155 12183
+type(
+  file_chooser_action Gobject.data_conv
+)
+ident(
+  def file_chooser_action_conv "gtkEnums.ml" 273 12217 12217 --
+)
+"gtkEnums.ml" 272 12155 12186 "gtkEnums.ml" 272 12155 12196
+type(
+  file_chooser_action Gpointer.variant_table ->
+  file_chooser_action Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 272 12155 12197 "gtkEnums.ml" 272 12155 12216
+type(
+  file_chooser_action Gpointer.variant_table
+)
+ident(
+  int_ref file_chooser_action "gtkEnums.ml" 204 8775 8796 "gtkEnums.ml" 204 8775 8815
+)
+"gtkEnums.ml" 272 12155 12186 "gtkEnums.ml" 272 12155 12216
+call(
+  stack
+)
+type(
+  file_chooser_action Gobject.data_conv
+)
+"gtkEnums.ml" 273 12217 12221 "gtkEnums.ml" 273 12217 12242
+type(
+  tree_model_flags Gobject.data_conv
+)
+ident(
+  def tree_model_flags_conv "gtkEnums.ml" 274 12273 12273 --
+)
+"gtkEnums.ml" 273 12217 12245 "gtkEnums.ml" 273 12217 12255
+type(
+  tree_model_flags Gpointer.variant_table ->
+  tree_model_flags Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 273 12217 12256 "gtkEnums.ml" 273 12217 12272
+type(
+  tree_model_flags Gpointer.variant_table
+)
+ident(
+  int_ref tree_model_flags "gtkEnums.ml" 204 8775 8817 "gtkEnums.ml" 204 8775 8833
+)
+"gtkEnums.ml" 273 12217 12245 "gtkEnums.ml" 273 12217 12272
+call(
+  stack
+)
+type(
+  tree_model_flags Gobject.data_conv
+)
+"gtkEnums.ml" 274 12273 12277 "gtkEnums.ml" 274 12273 12305
+type(
+  tree_view_drop_position Gobject.data_conv
+)
+ident(
+  def tree_view_drop_position_conv "gtkEnums.ml" 275 12343 12343 --
+)
+"gtkEnums.ml" 274 12273 12308 "gtkEnums.ml" 274 12273 12318
+type(
+  tree_view_drop_position Gpointer.variant_table ->
+  tree_view_drop_position Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 274 12273 12319 "gtkEnums.ml" 274 12273 12342
+type(
+  tree_view_drop_position Gpointer.variant_table
+)
+ident(
+  int_ref tree_view_drop_position "gtkEnums.ml" 205 8835 8839 "gtkEnums.ml" 205 8835 8862
+)
+"gtkEnums.ml" 274 12273 12308 "gtkEnums.ml" 274 12273 12342
+call(
+  stack
+)
+type(
+  tree_view_drop_position Gobject.data_conv
+)
+"gtkEnums.ml" 275 12343 12347 "gtkEnums.ml" 275 12343 12369
+type(
+  file_filter_flags Gobject.data_conv
+)
+ident(
+  def file_filter_flags_conv "gtkEnums.ml" 276 12401 12401 --
+)
+"gtkEnums.ml" 275 12343 12372 "gtkEnums.ml" 275 12343 12382
+type(
+  file_filter_flags Gpointer.variant_table ->
+  file_filter_flags Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 275 12343 12383 "gtkEnums.ml" 275 12343 12400
+type(
+  file_filter_flags Gpointer.variant_table
+)
+ident(
+  int_ref file_filter_flags "gtkEnums.ml" 205 8835 8864 "gtkEnums.ml" 205 8835 8881
+)
+"gtkEnums.ml" 275 12343 12372 "gtkEnums.ml" 275 12343 12400
+call(
+  stack
+)
+type(
+  file_filter_flags Gobject.data_conv
+)
+"gtkEnums.ml" 276 12401 12405 "gtkEnums.ml" 276 12401 12430
+type(
+  ui_manager_item_type Gobject.data_conv
+)
+ident(
+  def ui_manager_item_type_conv "gtkEnums.ml" 277 12465 12465 --
+)
+"gtkEnums.ml" 276 12401 12433 "gtkEnums.ml" 276 12401 12443
+type(
+  ui_manager_item_type Gpointer.variant_table ->
+  ui_manager_item_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 276 12401 12444 "gtkEnums.ml" 276 12401 12464
+type(
+  ui_manager_item_type Gpointer.variant_table
+)
+ident(
+  int_ref ui_manager_item_type "gtkEnums.ml" 205 8835 8883 "gtkEnums.ml" 205 8835 8903
+)
+"gtkEnums.ml" 276 12401 12433 "gtkEnums.ml" 276 12401 12464
+call(
+  stack
+)
+type(
+  ui_manager_item_type Gobject.data_conv
+)
+"gtkEnums.ml" 277 12465 12469 "gtkEnums.ml" 277 12465 12493
+type(
+  assistant_page_type Gobject.data_conv
+)
+ident(
+  def assistant_page_type_conv "gtkEnums.ml" 278 12527 12527 --
+)
+"gtkEnums.ml" 277 12465 12496 "gtkEnums.ml" 277 12465 12506
+type(
+  assistant_page_type Gpointer.variant_table ->
+  assistant_page_type Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 277 12465 12507 "gtkEnums.ml" 277 12465 12526
+type(
+  assistant_page_type Gpointer.variant_table
+)
+ident(
+  int_ref assistant_page_type "gtkEnums.ml" 206 8905 8909 "gtkEnums.ml" 206 8905 8928
+)
+"gtkEnums.ml" 277 12465 12496 "gtkEnums.ml" 277 12465 12526
+call(
+  stack
+)
+type(
+  assistant_page_type Gobject.data_conv
+)
+"gtkEnums.ml" 278 12527 12531 "gtkEnums.ml" 278 12527 12560
+type(
+  cell_renderer_accel_mode Gobject.data_conv
+)
+ident(
+  def cell_renderer_accel_mode_conv "gtkEnums.ml" 279 12599 12599 --
+)
+"gtkEnums.ml" 278 12527 12563 "gtkEnums.ml" 278 12527 12573
+type(
+  cell_renderer_accel_mode Gpointer.variant_table ->
+  cell_renderer_accel_mode Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 278 12527 12574 "gtkEnums.ml" 278 12527 12598
+type(
+  cell_renderer_accel_mode Gpointer.variant_table
+)
+ident(
+  int_ref cell_renderer_accel_mode "gtkEnums.ml" 206 8905 8930 "gtkEnums.ml" 206 8905 8954
+)
+"gtkEnums.ml" 278 12527 12563 "gtkEnums.ml" 278 12527 12598
+call(
+  stack
+)
+type(
+  cell_renderer_accel_mode Gobject.data_conv
+)
+"gtkEnums.ml" 279 12599 12603 "gtkEnums.ml" 279 12599 12633
+type(
+  file_chooser_confirmation Gobject.data_conv
+)
+ident(
+  def file_chooser_confirmation_conv "gtkEnums.ml" 279 12599 12672 --
+)
+"gtkEnums.ml" 279 12599 12636 "gtkEnums.ml" 279 12599 12646
+type(
+  file_chooser_confirmation Gpointer.variant_table ->
+  file_chooser_confirmation Gobject.data_conv
+)
+ident(
+  int_ref _make_enum "gtkEnums.ml" 209 9004 9008 "gtkEnums.ml" 209 9004 9018
+)
+"gtkEnums.ml" 279 12599 12647 "gtkEnums.ml" 279 12599 12672
+type(
+  file_chooser_confirmation Gpointer.variant_table
+)
+ident(
+  int_ref file_chooser_confirmation "gtkEnums.ml" 207 8956 8960 "gtkEnums.ml" 207 8956 8985
+)
+"gtkEnums.ml" 279 12599 12636 "gtkEnums.ml" 279 12599 12672
+call(
+  stack
+)
+type(
+  file_chooser_confirmation Gobject.data_conv
+)

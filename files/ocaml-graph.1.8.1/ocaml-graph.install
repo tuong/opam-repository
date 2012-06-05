@@ -3,4 +3,5 @@ lib: [
   "graph.cmi"
   "graph.cmxa"
   "graph.a"
+  "META"
 ]

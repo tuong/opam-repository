@@ -1,0 +1,6448 @@
+"gdk.ml" 50 2145 2153 "gdk.ml" 50 2145 2180
+type(
+  string -> exn -> unit
+)
+ident(
+  ext_ref Callback.register_exception
+)
+"gdk.ml" 50 2145 2181 "gdk.ml" 50 2145 2191
+type(
+  string
+)
+"gdk.ml" 50 2145 2198 "gdk.ml" 50 2145 2200
+type(
+  string
+)
+"gdk.ml" 50 2145 2192 "gdk.ml" 50 2145 2201
+type(
+  exn
+)
+"gdk.ml" 50 2145 2153 "gdk.ml" 50 2145 2201
+call(
+  stack
+)
+type(
+  unit
+)
+"gdk.ml" 53 2253 2257 "gdk.ml" 53 2253 2259
+type(
+  unit
+)
+"gdk.ml" 53 2253 2262 "gdk.ml" 53 2253 2271
+type(
+  unit -> unit
+)
+"gdk.ml" 53 2253 2272 "gdk.ml" 53 2253 2274
+type(
+  unit
+)
+"gdk.ml" 53 2253 2262 "gdk.ml" 53 2253 2274
+type(
+  unit
+)
+"gdk.ml" 137 4784 4790 "gdk.ml" 137 4784 4798
+type(
+  int -> Tags.modifier list
+)
+ident(
+  def modifier "gdk.ml" 141 4960 4962 "gdk.ml" 146 5185 5188
+)
+"gdk.ml" 137 4784 4799 "gdk.ml" 137 4784 4800
+type(
+  int
+)
+ident(
+  def i "gdk.ml" 138 4803 4807 "gdk.ml" 140 4922 4959
+)
+"gdk.ml" 138 4803 4807 "gdk.ml" 138 4803 4818
+type(
+  f:(Tags.modifier -> bool) -> Tags.modifier list -> Tags.modifier list
+)
+ident(
+  ext_ref StdLabels.List.filter
+)
+"gdk.ml" 138 4803 4820 "gdk.ml" 138 4803 4826
+type(
+  Tags.modifier
+)
+"gdk.ml" 138 4803 4827 "gdk.ml" 138 4803 4832
+type(
+  Tags.modifier
+)
+"gdk.ml" 138 4803 4833 "gdk.ml" 138 4803 4841
+type(
+  Tags.modifier
+)
+"gdk.ml" 138 4803 4842 "gdk.ml" 138 4803 4847
+type(
+  Tags.modifier
+)
+"gdk.ml" 138 4803 4848 "gdk.ml" 138 4803 4853
+type(
+  Tags.modifier
+)
+"gdk.ml" 138 4803 4854 "gdk.ml" 138 4803 4859
+type(
+  Tags.modifier
+)
+"gdk.ml" 138 4803 4860 "gdk.ml" 138 4803 4865
+type(
+  Tags.modifier
+)
+"gdk.ml" 138 4803 4866 "gdk.ml" 138 4803 4871
+type(
+  Tags.modifier
+)
+"gdk.ml" 139 4873 4876 "gdk.ml" 139 4873 4884
+type(
+  Tags.modifier
+)
+"gdk.ml" 139 4873 4885 "gdk.ml" 139 4873 4893
+type(
+  Tags.modifier
+)
+"gdk.ml" 139 4873 4894 "gdk.ml" 139 4873 4902
+type(
+  Tags.modifier
+)
+"gdk.ml" 139 4873 4903 "gdk.ml" 139 4873 4911
+type(
+  Tags.modifier
+)
+"gdk.ml" 139 4873 4912 "gdk.ml" 139 4873 4920
+type(
+  Tags.modifier
+)
+"gdk.ml" 138 4803 4819 "gdk.ml" 139 4873 4921
+type(
+  Tags.modifier list
+)
+"gdk.ml" 140 4922 4936 "gdk.ml" 140 4922 4937
+type(
+  Tags.modifier
+)
+ident(
+  def m "gdk.ml" 140 4922 4941 "gdk.ml" 140 4922 4958
+)
+"gdk.ml" 140 4922 4941 "gdk.ml" 140 4922 4954
+type(
+  Tags.modifier -> int -> bool
+)
+"gdk.ml" 140 4922 4955 "gdk.ml" 140 4922 4956
+type(
+  Tags.modifier
+)
+ident(
+  int_ref m "gdk.ml" 140 4922 4936 "gdk.ml" 140 4922 4937
+)
+"gdk.ml" 140 4922 4957 "gdk.ml" 140 4922 4958
+type(
+  int
+)
+ident(
+  int_ref i "gdk.ml" 137 4784 4799 "gdk.ml" 137 4784 4800
+)
+"gdk.ml" 140 4922 4941 "gdk.ml" 140 4922 4958
+type(
+  bool
+)
+"gdk.ml" 140 4922 4931 "gdk.ml" 140 4922 4959
+type(
+  Tags.modifier -> bool
+)
+"gdk.ml" 138 4803 4807 "gdk.ml" 140 4922 4959
+call(
+  tail
+)
+type(
+  Tags.modifier list
+)
+"gdk.ml" 143 5056 5062 "gdk.ml" 143 5056 5074
+type(
+  int -> Tags.window_state list
+)
+ident(
+  def window_state "gdk.ml" 145 5143 5184 "gdk.ml" 146 5185 5188
+)
+"gdk.ml" 143 5056 5075 "gdk.ml" 143 5056 5076
+type(
+  int
+)
+ident(
+  def i "gdk.ml" 144 5079 5083 "gdk.ml" 145 5143 5184
+)
+"gdk.ml" 144 5079 5083 "gdk.ml" 144 5079 5094
+type(
+  f:(Tags.window_state -> bool) ->
+  Tags.window_state list -> Tags.window_state list
+)
+ident(
+  ext_ref StdLabels.List.filter
+)
+"gdk.ml" 144 5079 5097 "gdk.ml" 144 5079 5107
+type(
+  Tags.window_state
+)
+"gdk.ml" 144 5079 5109 "gdk.ml" 144 5079 5119
+type(
+  Tags.window_state
+)
+"gdk.ml" 144 5079 5121 "gdk.ml" 144 5079 5131
+type(
+  Tags.window_state
+)
+"gdk.ml" 144 5079 5133 "gdk.ml" 144 5079 5140
+type(
+  Tags.window_state
+)
+"gdk.ml" 144 5079 5095 "gdk.ml" 144 5079 5142
+type(
+  Tags.window_state list
+)
+"gdk.ml" 145 5143 5157 "gdk.ml" 145 5143 5158
+type(
+  Tags.window_state
+)
+ident(
+  def m "gdk.ml" 145 5143 5162 "gdk.ml" 145 5143 5183
+)
+"gdk.ml" 145 5143 5162 "gdk.ml" 145 5143 5179
+type(
+  Tags.window_state -> int -> bool
+)
+"gdk.ml" 145 5143 5180 "gdk.ml" 145 5143 5181
+type(
+  Tags.window_state
+)
+ident(
+  int_ref m "gdk.ml" 145 5143 5157 "gdk.ml" 145 5143 5158
+)
+"gdk.ml" 145 5143 5182 "gdk.ml" 145 5143 5183
+type(
+  int
+)
+ident(
+  int_ref i "gdk.ml" 143 5056 5075 "gdk.ml" 143 5056 5076
+)
+"gdk.ml" 145 5143 5162 "gdk.ml" 145 5143 5183
+type(
+  bool
+)
+"gdk.ml" 145 5143 5152 "gdk.ml" 145 5143 5184
+type(
+  Tags.window_state -> bool
+)
+"gdk.ml" 144 5079 5083 "gdk.ml" 145 5143 5184
+call(
+  tail
+)
+type(
+  Tags.window_state list
+)
+"gdk.ml" 150 5277 5283 "gdk.ml" 150 5277 5289
+type(
+  ?dont_create:bool -> string -> atom
+)
+ident(
+  def intern "gdk.ml" 151 5342 5344 "gdk.ml" 157 5561 5564
+)
+"gdk.ml" 150 5277 5292 "gdk.ml" 150 5277 5303
+type(
+  bool
+)
+"gdk.ml" 150 5277 5304 "gdk.ml" 150 5277 5309
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gdk.ml" 150 5277 5304 "gdk.ml" 150 5277 5309
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gdk.ml" 150 5277 5304 "gdk.ml" 150 5277 5309
+)
+"gdk.ml" 150 5277 5311 "gdk.ml" 150 5277 5315
+type(
+  string
+)
+ident(
+  def name "gdk.ml" 150 5277 5318 "gdk.ml" 150 5277 5341
+)
+"gdk.ml" 150 5277 5318 "gdk.ml" 150 5277 5324
+type(
+  string -> bool -> atom
+)
+"gdk.ml" 150 5277 5325 "gdk.ml" 150 5277 5329
+type(
+  string
+)
+ident(
+  int_ref name "gdk.ml" 150 5277 5311 "gdk.ml" 150 5277 5315
+)
+"gdk.ml" 150 5277 5330 "gdk.ml" 150 5277 5341
+type(
+  bool
+)
+ident(
+  int_ref dont_create "gdk.ml" 150 5277 5292 "gdk.ml" 150 5277 5303
+)
+"gdk.ml" 150 5277 5318 "gdk.ml" 150 5277 5341
+type(
+  atom
+)
+"gdk.ml" 152 5396 5402 "gdk.ml" 152 5396 5406
+type(
+  atom
+)
+ident(
+  def none "gdk.ml" 153 5423 5425 "gdk.ml" 157 5561 5564
+)
+"gdk.ml" 152 5396 5409 "gdk.ml" 152 5396 5415
+type(
+  ?dont_create:bool -> string -> atom
+)
+ident(
+  int_ref intern "gdk.ml" 150 5277 5283 "gdk.ml" 150 5277 5289
+)
+"gdk.ml" 152 5396 5416 "gdk.ml" 152 5396 5422
+type(
+  string
+)
+"gdk.ml" 152 5396 5409 "gdk.ml" 152 5396 5422
+call(
+  stack
+)
+type(
+  atom
+)
+"gdk.ml" 153 5423 5429 "gdk.ml" 153 5423 5436
+type(
+  atom
+)
+ident(
+  def primary "gdk.ml" 154 5456 5458 "gdk.ml" 157 5561 5564
+)
+"gdk.ml" 153 5423 5439 "gdk.ml" 153 5423 5445
+type(
+  ?dont_create:bool -> string -> atom
+)
+ident(
+  int_ref intern "gdk.ml" 150 5277 5283 "gdk.ml" 150 5277 5289
+)
+"gdk.ml" 153 5423 5446 "gdk.ml" 153 5423 5455
+type(
+  string
+)
+"gdk.ml" 153 5423 5439 "gdk.ml" 153 5423 5455
+call(
+  stack
+)
+type(
+  atom
+)
+"gdk.ml" 154 5456 5462 "gdk.ml" 154 5456 5471
+type(
+  atom
+)
+ident(
+  def secondary "gdk.ml" 155 5493 5495 "gdk.ml" 157 5561 5564
+)
+"gdk.ml" 154 5456 5474 "gdk.ml" 154 5456 5480
+type(
+  ?dont_create:bool -> string -> atom
+)
+ident(
+  int_ref intern "gdk.ml" 150 5277 5283 "gdk.ml" 150 5277 5289
+)
+"gdk.ml" 154 5456 5481 "gdk.ml" 154 5456 5492
+type(
+  string
+)
+"gdk.ml" 154 5456 5474 "gdk.ml" 154 5456 5492
+call(
+  stack
+)
+type(
+  atom
+)
+"gdk.ml" 155 5493 5499 "gdk.ml" 155 5493 5508
+type(
+  atom
+)
+ident(
+  def clipboard "gdk.ml" 156 5530 5532 "gdk.ml" 157 5561 5564
+)
+"gdk.ml" 155 5493 5511 "gdk.ml" 155 5493 5517
+type(
+  ?dont_create:bool -> string -> atom
+)
+ident(
+  int_ref intern "gdk.ml" 150 5277 5283 "gdk.ml" 150 5277 5289
+)
+"gdk.ml" 155 5493 5518 "gdk.ml" 155 5493 5529
+type(
+  string
+)
+"gdk.ml" 155 5493 5511 "gdk.ml" 155 5493 5529
+call(
+  stack
+)
+type(
+  atom
+)
+"gdk.ml" 156 5530 5536 "gdk.ml" 156 5530 5542
+type(
+  atom
+)
+ident(
+  def string "gdk.ml" 156 5530 5560 "gdk.ml" 157 5561 5564
+)
+"gdk.ml" 156 5530 5545 "gdk.ml" 156 5530 5551
+type(
+  ?dont_create:bool -> string -> atom
+)
+ident(
+  int_ref intern "gdk.ml" 150 5277 5283 "gdk.ml" 150 5277 5289
+)
+"gdk.ml" 156 5530 5552 "gdk.ml" 156 5530 5560
+type(
+  string
+)
+"gdk.ml" 156 5530 5545 "gdk.ml" 156 5530 5560
+call(
+  stack
+)
+type(
+  atom
+)
+"gdk.ml" 164 5731 5737 "gdk.ml" 164 5731 5743
+type(
+  window:window ->
+  typ:atom -> ?mode:Tags.property_mode -> atom -> Tags.xdata -> unit
+)
+ident(
+  def change "gdk.ml" 166 5834 5836 "gdk.ml" 174 6168 6171
+)
+"gdk.ml" 164 5731 5745 "gdk.ml" 164 5731 5751
+type(
+  window
+)
+ident(
+  def window "gdk.ml" 164 5731 5752 "gdk.ml" 165 5790 5833
+)
+"gdk.ml" 164 5731 5753 "gdk.ml" 164 5731 5756
+type(
+  atom
+)
+ident(
+  def typ "gdk.ml" 164 5731 5757 "gdk.ml" 165 5790 5833
+)
+"gdk.ml" 164 5731 5759 "gdk.ml" 164 5731 5763
+type(
+  Tags.property_mode
+)
+"gdk.ml" 164 5731 5764 "gdk.ml" 164 5731 5772
+type(
+  Tags.property_mode
+)
+type(
+  Tags.property_mode
+)
+ident(
+  int_ref *sth* "gdk.ml" 164 5731 5764 "gdk.ml" 164 5731 5772
+)
+type(
+  Tags.property_mode option
+)
+type(
+  Tags.property_mode option
+)
+type(
+  Tags.property_mode
+)
+ident(
+  def *sth* "gdk.ml" 164 5731 5764 "gdk.ml" 164 5731 5772
+)
+"gdk.ml" 164 5731 5774 "gdk.ml" 164 5731 5782
+type(
+  atom
+)
+ident(
+  def property "gdk.ml" 164 5731 5783 "gdk.ml" 165 5790 5833
+)
+"gdk.ml" 164 5731 5783 "gdk.ml" 164 5731 5787
+type(
+  Tags.xdata
+)
+ident(
+  def data "gdk.ml" 165 5790 5794 "gdk.ml" 165 5790 5833
+)
+"gdk.ml" 165 5790 5794 "gdk.ml" 165 5790 5800
+type(
+  window ->
+  property:atom -> typ:atom -> mode:Tags.property_mode -> Tags.xdata -> unit
+)
+"gdk.ml" 165 5790 5801 "gdk.ml" 165 5790 5807
+type(
+  window
+)
+ident(
+  int_ref window "gdk.ml" 164 5731 5745 "gdk.ml" 164 5731 5751
+)
+"gdk.ml" 165 5790 5809 "gdk.ml" 165 5790 5817
+type(
+  atom
+)
+ident(
+  int_ref property "gdk.ml" 164 5731 5774 "gdk.ml" 164 5731 5782
+)
+"gdk.ml" 165 5790 5819 "gdk.ml" 165 5790 5822
+type(
+  atom
+)
+ident(
+  int_ref typ "gdk.ml" 164 5731 5753 "gdk.ml" 164 5731 5756
+)
+"gdk.ml" 165 5790 5824 "gdk.ml" 165 5790 5828
+type(
+  Tags.property_mode
+)
+ident(
+  int_ref mode "gdk.ml" 164 5731 5759 "gdk.ml" 164 5731 5763
+)
+"gdk.ml" 165 5790 5829 "gdk.ml" 165 5790 5833
+type(
+  Tags.xdata
+)
+ident(
+  int_ref data "gdk.ml" 164 5731 5783 "gdk.ml" 164 5731 5787
+)
+"gdk.ml" 165 5790 5794 "gdk.ml" 165 5790 5833
+type(
+  unit
+)
+"gdk.ml" 170 5975 5981 "gdk.ml" 170 5975 5984
+type(
+  window:window ->
+  ?max_length:int -> ?delete:bool -> atom -> (atom * Tags.xdata) option
+)
+ident(
+  def get "gdk.ml" 172 6085 6087 "gdk.ml" 174 6168 6171
+)
+"gdk.ml" 170 5975 5986 "gdk.ml" 170 5975 5992
+type(
+  window
+)
+ident(
+  def window "gdk.ml" 170 5975 5993 "gdk.ml" 171 6040 6084
+)
+"gdk.ml" 170 5975 5995 "gdk.ml" 170 5975 6005
+type(
+  int
+)
+"gdk.ml" 170 5975 6006 "gdk.ml" 170 5975 6011
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 170 5975 6006 "gdk.ml" 170 5975 6011
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 170 5975 6006 "gdk.ml" 170 5975 6011
+)
+"gdk.ml" 170 5975 6015 "gdk.ml" 170 5975 6021
+type(
+  bool
+)
+"gdk.ml" 170 5975 6022 "gdk.ml" 170 5975 6027
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gdk.ml" 170 5975 6022 "gdk.ml" 170 5975 6027
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gdk.ml" 170 5975 6022 "gdk.ml" 170 5975 6027
+)
+"gdk.ml" 170 5975 6029 "gdk.ml" 170 5975 6037
+type(
+  atom
+)
+ident(
+  def property "gdk.ml" 171 6040 6044 "gdk.ml" 171 6040 6084
+)
+"gdk.ml" 171 6040 6044 "gdk.ml" 171 6040 6047
+type(
+  window ->
+  property:atom ->
+  max_length:int -> delete:bool -> (atom * Tags.xdata) option
+)
+ident(
+  ext_ref Gobject.get
+)
+"gdk.ml" 171 6040 6048 "gdk.ml" 171 6040 6054
+type(
+  window
+)
+ident(
+  int_ref window "gdk.ml" 170 5975 5986 "gdk.ml" 170 5975 5992
+)
+"gdk.ml" 171 6040 6056 "gdk.ml" 171 6040 6064
+type(
+  atom
+)
+ident(
+  int_ref property "gdk.ml" 170 5975 6029 "gdk.ml" 170 5975 6037
+)
+"gdk.ml" 171 6040 6066 "gdk.ml" 171 6040 6076
+type(
+  int
+)
+ident(
+  int_ref max_length "gdk.ml" 170 5975 5995 "gdk.ml" 170 5975 6005
+)
+"gdk.ml" 171 6040 6078 "gdk.ml" 171 6040 6084
+type(
+  bool
+)
+ident(
+  int_ref delete "gdk.ml" 170 5975 6015 "gdk.ml" 170 5975 6021
+)
+"gdk.ml" 171 6040 6044 "gdk.ml" 171 6040 6084
+type(
+  (atom * Tags.xdata) option
+)
+"gdk.ml" 179 6316 6322 "gdk.ml" 179 6316 6327
+type(
+  ?screen:screen -> unit -> int
+)
+ident(
+  def width "gdk.ml" 181 6404 6406 "gdk.ml" 195 7029 7032
+)
+"gdk.ml" 179 6316 6329 "gdk.ml" 179 6316 6335
+type(
+  screen option
+)
+ident(
+  def screen "gdk.ml" 179 6316 6336 "gdk.ml" 180 6341 6403
+)
+"gdk.ml" 179 6316 6336 "gdk.ml" 179 6316 6338
+type(
+  unit
+)
+"gdk.ml" 180 6341 6351 "gdk.ml" 180 6341 6357
+type(
+  screen option
+)
+ident(
+  int_ref screen "gdk.ml" 179 6316 6329 "gdk.ml" 179 6316 6335
+)
+"gdk.ml" 180 6341 6363 "gdk.ml" 180 6341 6367
+type(
+  screen option
+)
+"gdk.ml" 180 6341 6371 "gdk.ml" 180 6341 6376
+type(
+  unit -> int
+)
+"gdk.ml" 180 6341 6377 "gdk.ml" 180 6341 6379
+type(
+  unit
+)
+"gdk.ml" 180 6341 6371 "gdk.ml" 180 6341 6379
+type(
+  int
+)
+"gdk.ml" 180 6341 6387 "gdk.ml" 180 6341 6388
+type(
+  screen
+)
+ident(
+  def s "gdk.ml" 180 6341 6392 "gdk.ml" 180 6341 6403
+)
+"gdk.ml" 180 6341 6382 "gdk.ml" 180 6341 6388
+type(
+  screen option
+)
+"gdk.ml" 180 6341 6392 "gdk.ml" 180 6341 6401
+type(
+  screen -> int
+)
+"gdk.ml" 180 6341 6402 "gdk.ml" 180 6341 6403
+type(
+  screen
+)
+ident(
+  int_ref s "gdk.ml" 180 6341 6387 "gdk.ml" 180 6341 6388
+)
+"gdk.ml" 180 6341 6392 "gdk.ml" 180 6341 6403
+type(
+  int
+)
+"gdk.ml" 180 6341 6345 "gdk.ml" 180 6341 6403
+type(
+  int
+)
+"gdk.ml" 183 6528 6534 "gdk.ml" 183 6528 6540
+type(
+  ?screen:screen -> unit -> int
+)
+ident(
+  def height "gdk.ml" 185 6619 6621 "gdk.ml" 195 7029 7032
+)
+"gdk.ml" 183 6528 6542 "gdk.ml" 183 6528 6548
+type(
+  screen option
+)
+ident(
+  def screen "gdk.ml" 183 6528 6549 "gdk.ml" 184 6554 6618
+)
+"gdk.ml" 183 6528 6549 "gdk.ml" 183 6528 6551
+type(
+  unit
+)
+"gdk.ml" 184 6554 6564 "gdk.ml" 184 6554 6570
+type(
+  screen option
+)
+ident(
+  int_ref screen "gdk.ml" 183 6528 6542 "gdk.ml" 183 6528 6548
+)
+"gdk.ml" 184 6554 6576 "gdk.ml" 184 6554 6580
+type(
+  screen option
+)
+"gdk.ml" 184 6554 6584 "gdk.ml" 184 6554 6590
+type(
+  unit -> int
+)
+"gdk.ml" 184 6554 6591 "gdk.ml" 184 6554 6593
+type(
+  unit
+)
+"gdk.ml" 184 6554 6584 "gdk.ml" 184 6554 6593
+type(
+  int
+)
+"gdk.ml" 184 6554 6601 "gdk.ml" 184 6554 6602
+type(
+  screen
+)
+ident(
+  def s "gdk.ml" 184 6554 6606 "gdk.ml" 184 6554 6618
+)
+"gdk.ml" 184 6554 6596 "gdk.ml" 184 6554 6602
+type(
+  screen option
+)
+"gdk.ml" 184 6554 6606 "gdk.ml" 184 6554 6616
+type(
+  screen -> int
+)
+"gdk.ml" 184 6554 6617 "gdk.ml" 184 6554 6618
+type(
+  screen
+)
+ident(
+  int_ref s "gdk.ml" 184 6554 6601 "gdk.ml" 184 6554 6602
+)
+"gdk.ml" 184 6554 6606 "gdk.ml" 184 6554 6618
+type(
+  int
+)
+"gdk.ml" 184 6554 6558 "gdk.ml" 184 6554 6618
+type(
+  int
+)
+"gdk.ml" 189 6808 6814 "gdk.ml" 189 6808 6831
+type(
+  ?screen:screen -> unit -> Pango.context
+)
+ident(
+  def get_pango_context "gdk.ml" 194 6963 6965 "gdk.ml" 195 7029 7032
+)
+"gdk.ml" 189 6808 6833 "gdk.ml" 189 6808 6839
+type(
+  screen option
+)
+ident(
+  def screen "gdk.ml" 189 6808 6840 "gdk.ml" 191 6896 6935
+)
+"gdk.ml" 189 6808 6840 "gdk.ml" 189 6808 6842
+type(
+  unit
+)
+"gdk.ml" 190 6845 6855 "gdk.ml" 190 6845 6861
+type(
+  screen option
+)
+ident(
+  int_ref screen "gdk.ml" 189 6808 6833 "gdk.ml" 189 6808 6839
+)
+"gdk.ml" 190 6845 6867 "gdk.ml" 190 6845 6871
+type(
+  screen option
+)
+"gdk.ml" 190 6845 6875 "gdk.ml" 190 6845 6892
+type(
+  unit -> Pango.context
+)
+"gdk.ml" 190 6845 6893 "gdk.ml" 190 6845 6895
+type(
+  unit
+)
+"gdk.ml" 190 6845 6875 "gdk.ml" 190 6845 6895
+type(
+  Pango.context
+)
+"gdk.ml" 191 6896 6907 "gdk.ml" 191 6896 6908
+type(
+  screen
+)
+ident(
+  def s "gdk.ml" 191 6896 6912 "gdk.ml" 191 6896 6935
+)
+"gdk.ml" 191 6896 6902 "gdk.ml" 191 6896 6908
+type(
+  screen option
+)
+"gdk.ml" 191 6896 6912 "gdk.ml" 191 6896 6933
+type(
+  screen -> Pango.context
+)
+"gdk.ml" 191 6896 6934 "gdk.ml" 191 6896 6935
+type(
+  screen
+)
+ident(
+  int_ref s "gdk.ml" 191 6896 6907 "gdk.ml" 191 6896 6908
+)
+"gdk.ml" 191 6896 6912 "gdk.ml" 191 6896 6935
+type(
+  Pango.context
+)
+"gdk.ml" 190 6845 6849 "gdk.ml" 191 6896 6935
+type(
+  Pango.context
+)
+"gdk.ml" 221 8061 8067 "gdk.ml" 221 8061 8071
+type(
+  'a Gobject.obj -> image
+)
+ident(
+  def cast "gdk.ml" 222 8114 8116 "gdk.ml" 238 8831 8834
+)
+"gdk.ml" 221 8061 8072 "gdk.ml" 221 8061 8073
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gdk.ml" 221 8061 8074 "gdk.ml" 221 8061 8113
+)
+"gdk.ml" 221 8061 8084 "gdk.ml" 221 8061 8100
+type(
+  'a Gobject.obj -> string -> image
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gdk.ml" 221 8061 8101 "gdk.ml" 221 8061 8102
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gdk.ml" 221 8061 8072 "gdk.ml" 221 8061 8073
+)
+"gdk.ml" 221 8061 8103 "gdk.ml" 221 8061 8113
+type(
+  string
+)
+"gdk.ml" 221 8061 8084 "gdk.ml" 221 8061 8113
+call(
+  tail
+)
+type(
+  image
+)
+type(
+  image
+)
+"gdk.ml" 222 8114 8120 "gdk.ml" 222 8114 8127
+type(
+  'b Gobject.obj -> unit
+)
+ident(
+  def destroy "gdk.ml" 224 8152 8154 "gdk.ml" 238 8831 8834
+)
+"gdk.ml" 222 8114 8130 "gdk.ml" 222 8114 8150
+type(
+  'b Gobject.obj -> unit
+)
+ident(
+  ext_ref Gobject.unsafe_unref
+)
+"gdk.ml" 252 9396 9402 "gdk.ml" 252 9396 9414
+type(
+  ?privat:bool -> visual -> colormap
+)
+ident(
+  def get_colormap "gdk.ml" 253 9462 9464 "gdk.ml" 272 10217 10220
+)
+"gdk.ml" 252 9396 9417 "gdk.ml" 252 9396 9423
+type(
+  bool
+)
+"gdk.ml" 252 9396 9424 "gdk.ml" 252 9396 9429
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gdk.ml" 252 9396 9424 "gdk.ml" 252 9396 9429
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gdk.ml" 252 9396 9424 "gdk.ml" 252 9396 9429
+)
+"gdk.ml" 252 9396 9431 "gdk.ml" 252 9396 9434
+type(
+  visual
+)
+ident(
+  def vis "gdk.ml" 252 9396 9437 "gdk.ml" 252 9396 9461
+)
+"gdk.ml" 252 9396 9437 "gdk.ml" 252 9396 9449
+type(
+  visual -> privat:bool -> colormap
+)
+"gdk.ml" 252 9396 9450 "gdk.ml" 252 9396 9453
+type(
+  visual
+)
+ident(
+  int_ref vis "gdk.ml" 252 9396 9431 "gdk.ml" 252 9396 9434
+)
+"gdk.ml" 252 9396 9455 "gdk.ml" 252 9396 9461
+type(
+  bool
+)
+ident(
+  int_ref privat "gdk.ml" 252 9396 9417 "gdk.ml" 252 9396 9423
+)
+"gdk.ml" 252 9396 9437 "gdk.ml" 252 9396 9461
+type(
+  colormap
+)
+"gdk.ml" 257 9620 9626 "gdk.ml" 257 9620 9637
+type(
+  colormap:colormap -> color -> color
+)
+ident(
+  def color_alloc "gdk.ml" 260 9739 9741 "gdk.ml" 272 10217 10220
+)
+"gdk.ml" 257 9620 9639 "gdk.ml" 257 9620 9647
+type(
+  colormap
+)
+ident(
+  def colormap "gdk.ml" 257 9620 9648 "gdk.ml" 259 9729 9738
+)
+"gdk.ml" 257 9620 9648 "gdk.ml" 257 9620 9653
+type(
+  color
+)
+ident(
+  def color "gdk.ml" 258 9656 9660 "gdk.ml" 259 9729 9738
+)
+"gdk.ml" 258 9656 9663 "gdk.ml" 258 9656 9666
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"gdk.ml" 258 9656 9668 "gdk.ml" 258 9656 9679
+type(
+  colormap -> color -> bool
+)
+"gdk.ml" 258 9656 9680 "gdk.ml" 258 9656 9688
+type(
+  colormap
+)
+ident(
+  int_ref colormap "gdk.ml" 257 9620 9639 "gdk.ml" 257 9620 9647
+)
+"gdk.ml" 258 9656 9689 "gdk.ml" 258 9656 9694
+type(
+  color
+)
+ident(
+  int_ref color "gdk.ml" 257 9620 9648 "gdk.ml" 257 9620 9653
+)
+"gdk.ml" 258 9656 9667 "gdk.ml" 258 9656 9695
+type(
+  bool
+)
+"gdk.ml" 258 9656 9663 "gdk.ml" 258 9656 9695
+type(
+  bool
+)
+"gdk.ml" 258 9656 9701 "gdk.ml" 258 9656 9706
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gdk.ml" 258 9656 9713 "gdk.ml" 258 9656 9726
+type(
+  string
+)
+"gdk.ml" 258 9656 9707 "gdk.ml" 258 9656 9727
+type(
+  exn
+)
+"gdk.ml" 258 9656 9701 "gdk.ml" 258 9656 9727
+type(
+  unit
+)
+"gdk.ml" 258 9656 9660 "gdk.ml" 258 9656 9727
+type(
+  unit
+)
+"gdk.ml" 259 9729 9733 "gdk.ml" 259 9729 9738
+type(
+  color
+)
+ident(
+  int_ref color "gdk.ml" 257 9620 9648 "gdk.ml" 257 9620 9653
+)
+"gdk.ml" 258 9656 9660 "gdk.ml" 259 9729 9738
+type(
+  color
+)
+"gdk.ml" 260 9739 9745 "gdk.ml" 260 9739 9750
+type(
+  colormap:colormap ->
+  [< `BLACK | `NAME of string | `RGB of int * int * int | `WHITE ] -> color
+)
+ident(
+  def alloc "gdk.ml" 268 10007 10009 "gdk.ml" 272 10217 10220
+)
+"gdk.ml" 260 9739 9752 "gdk.ml" 260 9739 9760
+type(
+  colormap
+)
+ident(
+  def colormap "gdk.ml" 260 9739 9761 "gdk.ml" 266 9950 10005
+)
+"gdk.ml" 260 9739 9761 "gdk.ml" 260 9739 9766
+type(
+  [< `BLACK | `NAME of string | `RGB of int * int * int | `WHITE ] as 'a
+)
+ident(
+  def color "gdk.ml" 261 9769 9773 "gdk.ml" 266 9950 10005
+)
+"gdk.ml" 261 9769 9779 "gdk.ml" 261 9769 9784
+type(
+  'a
+)
+ident(
+  int_ref color "gdk.ml" 260 9739 9761 "gdk.ml" 260 9739 9766
+)
+"gdk.ml" 262 9790 9796 "gdk.ml" 262 9790 9802
+type(
+  'a
+)
+"gdk.ml" 262 9790 9806 "gdk.ml" 262 9790 9817
+type(
+  colormap -> color
+)
+"gdk.ml" 262 9790 9818 "gdk.ml" 262 9790 9826
+type(
+  colormap
+)
+ident(
+  int_ref colormap "gdk.ml" 260 9739 9752 "gdk.ml" 260 9739 9760
+)
+"gdk.ml" 262 9790 9806 "gdk.ml" 262 9790 9826
+type(
+  color
+)
+"gdk.ml" 263 9827 9833 "gdk.ml" 263 9827 9839
+type(
+  'a
+)
+"gdk.ml" 263 9827 9843 "gdk.ml" 263 9827 9854
+type(
+  colormap -> color
+)
+"gdk.ml" 263 9827 9855 "gdk.ml" 263 9827 9863
+type(
+  colormap
+)
+ident(
+  int_ref colormap "gdk.ml" 260 9739 9752 "gdk.ml" 260 9739 9760
+)
+"gdk.ml" 263 9827 9843 "gdk.ml" 263 9827 9863
+type(
+  color
+)
+"gdk.ml" 264 9864 9876 "gdk.ml" 264 9864 9877
+type(
+  string
+)
+ident(
+  def s "gdk.ml" 264 9864 9881 "gdk.ml" 264 9864 9918
+)
+"gdk.ml" 264 9864 9870 "gdk.ml" 264 9864 9877
+type(
+  'a
+)
+"gdk.ml" 264 9864 9881 "gdk.ml" 264 9864 9892
+type(
+  colormap:colormap -> color -> color
+)
+ident(
+  int_ref color_alloc "gdk.ml" 257 9620 9626 "gdk.ml" 257 9620 9637
+)
+"gdk.ml" 264 9864 9894 "gdk.ml" 264 9864 9902
+type(
+  colormap
+)
+ident(
+  int_ref colormap "gdk.ml" 260 9739 9752 "gdk.ml" 260 9739 9760
+)
+"gdk.ml" 264 9864 9904 "gdk.ml" 264 9864 9915
+type(
+  string -> color
+)
+"gdk.ml" 264 9864 9916 "gdk.ml" 264 9864 9917
+type(
+  string
+)
+ident(
+  int_ref s "gdk.ml" 264 9864 9876 "gdk.ml" 264 9864 9877
+)
+"gdk.ml" 264 9864 9903 "gdk.ml" 264 9864 9918
+type(
+  color
+)
+"gdk.ml" 264 9864 9881 "gdk.ml" 264 9864 9918
+call(
+  tail
+)
+type(
+  color
+)
+"gdk.ml" 265 9919 9931 "gdk.ml" 265 9919 9934
+type(
+  int
+)
+ident(
+  def red "gdk.ml" 266 9950 9951 "gdk.ml" 266 9950 10005
+)
+"gdk.ml" 265 9919 9935 "gdk.ml" 265 9919 9940
+type(
+  int
+)
+ident(
+  def green "gdk.ml" 266 9950 9951 "gdk.ml" 266 9950 10005
+)
+"gdk.ml" 265 9919 9941 "gdk.ml" 265 9919 9945
+type(
+  int
+)
+ident(
+  def blue "gdk.ml" 266 9950 9951 "gdk.ml" 266 9950 10005
+)
+"gdk.ml" 265 9919 9930 "gdk.ml" 265 9919 9946
+type(
+  int * int * int
+)
+"gdk.ml" 265 9919 9925 "gdk.ml" 265 9919 9946
+type(
+  'a
+)
+"gdk.ml" 266 9950 9951 "gdk.ml" 266 9950 9962
+type(
+  colormap:colormap -> color -> color
+)
+ident(
+  int_ref color_alloc "gdk.ml" 257 9620 9626 "gdk.ml" 257 9620 9637
+)
+"gdk.ml" 266 9950 9964 "gdk.ml" 266 9950 9972
+type(
+  colormap
+)
+ident(
+  int_ref colormap "gdk.ml" 260 9739 9752 "gdk.ml" 260 9739 9760
+)
+"gdk.ml" 266 9950 9974 "gdk.ml" 266 9950 9986
+type(
+  red:int -> green:int -> blue:int -> color
+)
+"gdk.ml" 266 9950 9988 "gdk.ml" 266 9950 9991
+type(
+  int
+)
+ident(
+  int_ref red "gdk.ml" 265 9919 9931 "gdk.ml" 265 9919 9934
+)
+"gdk.ml" 266 9950 9993 "gdk.ml" 266 9950 9998
+type(
+  int
+)
+ident(
+  int_ref green "gdk.ml" 265 9919 9935 "gdk.ml" 265 9919 9940
+)
+"gdk.ml" 266 9950 10000 "gdk.ml" 266 9950 10004
+type(
+  int
+)
+ident(
+  int_ref blue "gdk.ml" 265 9919 9941 "gdk.ml" 265 9919 9945
+)
+"gdk.ml" 266 9950 9973 "gdk.ml" 266 9950 10005
+type(
+  color
+)
+"gdk.ml" 266 9950 9951 "gdk.ml" 266 9950 10005
+call(
+  tail
+)
+type(
+  color
+)
+"gdk.ml" 261 9769 9773 "gdk.ml" 266 9950 10005
+type(
+  color
+)
+"gdk.ml" 285 10582 10588 "gdk.ml" 285 10582 10592
+type(
+  'a Gobject.obj -> [ `drawable ] Gobject.obj
+)
+ident(
+  def cast "gdk.ml" 286 10648 10650 "gdk.ml" 294 10992 10995
+)
+"gdk.ml" 285 10582 10593 "gdk.ml" 285 10582 10594
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gdk.ml" 285 10582 10595 "gdk.ml" 285 10582 10647
+)
+"gdk.ml" 285 10582 10615 "gdk.ml" 285 10582 10631
+type(
+  'a Gobject.obj -> string -> [ `drawable ] Gobject.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gdk.ml" 285 10582 10632 "gdk.ml" 285 10582 10633
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gdk.ml" 285 10582 10593 "gdk.ml" 285 10582 10594
+)
+"gdk.ml" 285 10582 10634 "gdk.ml" 285 10582 10647
+type(
+  string
+)
+"gdk.ml" 285 10582 10615 "gdk.ml" 285 10582 10647
+call(
+  tail
+)
+type(
+  [ `drawable ] Gobject.obj
+)
+type(
+  [ `drawable ] Gobject.obj
+)
+"gdk.ml" 297 11020 11026 "gdk.ml" 297 11020 11030
+type(
+  'a Gobject.obj -> window
+)
+ident(
+  def cast "gdk.ml" 298 11075 11077 "gdk.ml" 321 12184 12187
+)
+"gdk.ml" 297 11020 11031 "gdk.ml" 297 11020 11032
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gdk.ml" 297 11020 11033 "gdk.ml" 297 11020 11074
+)
+"gdk.ml" 297 11020 11044 "gdk.ml" 297 11020 11060
+type(
+  'a Gobject.obj -> string -> window
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gdk.ml" 297 11020 11061 "gdk.ml" 297 11020 11062
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gdk.ml" 297 11020 11031 "gdk.ml" 297 11020 11032
+)
+"gdk.ml" 297 11020 11063 "gdk.ml" 297 11020 11074
+type(
+  string
+)
+"gdk.ml" 297 11020 11044 "gdk.ml" 297 11020 11074
+call(
+  tail
+)
+type(
+  window
+)
+type(
+  window
+)
+"gdk.ml" 311 11774 11780 "gdk.ml" 311 11774 11795
+type(
+  window -> [< `NONE | `PARENT_RELATIVE | `PIXMAP of pixmap ] -> unit
+)
+ident(
+  def set_back_pixmap "gdk.ml" 320 12145 12147 "gdk.ml" 321 12184 12187
+)
+"gdk.ml" 311 11774 11796 "gdk.ml" 311 11774 11797
+type(
+  window
+)
+ident(
+  def w "gdk.ml" 311 11774 11798 "gdk.ml" 316 11995 12046
+)
+"gdk.ml" 311 11774 11798 "gdk.ml" 311 11774 11801
+type(
+  [< `NONE | `PARENT_RELATIVE | `PIXMAP of pixmap ] as 'b
+)
+ident(
+  def pix "gdk.ml" 312 11805 11809 "gdk.ml" 316 11995 12046
+)
+"gdk.ml" 312 11805 11813 "gdk.ml" 312 11805 11824
+type(
+  pixmap
+)
+"gdk.ml" 312 11805 11828 "gdk.ml" 312 11805 11837
+type(
+  Gpointer.boxed -> pixmap
+)
+ident(
+  ext_ref Obj.magic
+)
+"gdk.ml" 312 11805 11838 "gdk.ml" 312 11805 11857
+type(
+  Gpointer.boxed
+)
+ident(
+  ext_ref Gpointer.boxed_null
+)
+"gdk.ml" 312 11805 11828 "gdk.ml" 312 11805 11857
+type(
+  pixmap
+)
+type(
+  pixmap
+)
+"gdk.ml" 313 11871 11881 "gdk.ml" 313 11871 11884
+type(
+  'b
+)
+ident(
+  int_ref pix "gdk.ml" 311 11774 11798 "gdk.ml" 311 11774 11801
+)
+"gdk.ml" 314 11890 11896 "gdk.ml" 314 11890 11901
+type(
+  'b
+)
+"gdk.ml" 314 11890 11905 "gdk.ml" 314 11890 11920
+type(
+  window -> pixmap -> int -> unit
+)
+"gdk.ml" 314 11890 11921 "gdk.ml" 314 11890 11922
+type(
+  window
+)
+ident(
+  int_ref w "gdk.ml" 311 11774 11796 "gdk.ml" 311 11774 11797
+)
+"gdk.ml" 314 11890 11923 "gdk.ml" 314 11890 11934
+type(
+  pixmap
+)
+ident(
+  int_ref null_pixmap "gdk.ml" 312 11805 11813 "gdk.ml" 312 11805 11824
+)
+"gdk.ml" 314 11890 11935 "gdk.ml" 314 11890 11936
+type(
+  int
+)
+"gdk.ml" 314 11890 11905 "gdk.ml" 314 11890 11936
+type(
+  unit
+)
+"gdk.ml" 315 11937 11943 "gdk.ml" 315 11937 11959
+type(
+  'b
+)
+"gdk.ml" 315 11937 11963 "gdk.ml" 315 11937 11978
+type(
+  window -> pixmap -> int -> unit
+)
+"gdk.ml" 315 11937 11979 "gdk.ml" 315 11937 11980
+type(
+  window
+)
+ident(
+  int_ref w "gdk.ml" 311 11774 11796 "gdk.ml" 311 11774 11797
+)
+"gdk.ml" 315 11937 11981 "gdk.ml" 315 11937 11992
+type(
+  pixmap
+)
+ident(
+  int_ref null_pixmap "gdk.ml" 312 11805 11813 "gdk.ml" 312 11805 11824
+)
+"gdk.ml" 315 11937 11993 "gdk.ml" 315 11937 11994
+type(
+  int
+)
+"gdk.ml" 315 11937 11963 "gdk.ml" 315 11937 11994
+type(
+  unit
+)
+"gdk.ml" 316 11995 12008 "gdk.ml" 316 11995 12016
+type(
+  pixmap
+)
+ident(
+  def pixmap "gdk.ml" 316 11995 12020 "gdk.ml" 316 11995 12046
+)
+"gdk.ml" 316 11995 12001 "gdk.ml" 316 11995 12016
+type(
+  'b
+)
+"gdk.ml" 316 11995 12020 "gdk.ml" 316 11995 12035
+type(
+  window -> pixmap -> int -> unit
+)
+"gdk.ml" 316 11995 12036 "gdk.ml" 316 11995 12037
+type(
+  window
+)
+ident(
+  int_ref w "gdk.ml" 311 11774 11796 "gdk.ml" 311 11774 11797
+)
+"gdk.ml" 316 11995 12038 "gdk.ml" 316 11995 12044
+type(
+  pixmap
+)
+ident(
+  int_ref pixmap "gdk.ml" 316 11995 12008 "gdk.ml" 316 11995 12016
+)
+"gdk.ml" 316 11995 12045 "gdk.ml" 316 11995 12046
+type(
+  int
+)
+"gdk.ml" 316 11995 12020 "gdk.ml" 316 11995 12046
+type(
+  unit
+)
+"gdk.ml" 313 11871 11875 "gdk.ml" 316 11995 12046
+type(
+  unit
+)
+"gdk.ml" 312 11805 11809 "gdk.ml" 316 11995 12046
+type(
+  unit
+)
+"gdk.ml" 320 12145 12151 "gdk.ml" 320 12145 12161
+type(
+  [> `drawable ] Gobject.obj -> visual
+)
+ident(
+  def get_visual "gdk.ml" 320 12145 12183 "gdk.ml" 321 12184 12187
+)
+"gdk.ml" 320 12145 12164 "gdk.ml" 320 12145 12183
+type(
+  ([> `drawable ] as 'c) Gobject.obj -> visual
+)
+ident(
+  ext_ref Drawable.get_visual
+)
+"gdk.ml" 327 12374 12380 "gdk.ml" 327 12374 12383
+type(
+  t -> pos:int -> x:int -> y:int -> unit
+)
+ident(
+  def set "gdk.ml" 329 12463 12479 "gdk.ml" 330 12480 12483
+)
+"gdk.ml" 327 12374 12384 "gdk.ml" 327 12374 12387
+type(
+  t
+)
+ident(
+  def arr "gdk.ml" 327 12374 12388 "gdk.ml" 329 12463 12479
+)
+"gdk.ml" 327 12374 12389 "gdk.ml" 327 12374 12392
+type(
+  int
+)
+ident(
+  def pos "gdk.ml" 328 12395 12399 "gdk.ml" 329 12463 12479
+)
+"gdk.ml" 328 12395 12402 "gdk.ml" 328 12395 12405
+type(
+  int
+)
+ident(
+  int_ref pos "gdk.ml" 327 12374 12389 "gdk.ml" 327 12374 12392
+)
+"gdk.ml" 328 12395 12406 "gdk.ml" 328 12395 12407
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gdk.ml" 328 12395 12408 "gdk.ml" 328 12395 12409
+type(
+  int
+)
+"gdk.ml" 328 12395 12402 "gdk.ml" 328 12395 12409
+type(
+  bool
+)
+"gdk.ml" 328 12395 12410 "gdk.ml" 328 12395 12412
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdk.ml" 328 12395 12413 "gdk.ml" 328 12395 12416
+type(
+  int
+)
+ident(
+  int_ref pos "gdk.ml" 327 12374 12389 "gdk.ml" 327 12374 12392
+)
+"gdk.ml" 328 12395 12417 "gdk.ml" 328 12395 12419
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"gdk.ml" 328 12395 12420 "gdk.ml" 328 12395 12423
+type(
+  t
+)
+ident(
+  int_ref arr "gdk.ml" 327 12374 12384 "gdk.ml" 327 12374 12387
+)
+"gdk.ml" 328 12395 12420 "gdk.ml" 328 12395 12427
+type(
+  int
+)
+"gdk.ml" 328 12395 12413 "gdk.ml" 328 12395 12427
+type(
+  bool
+)
+"gdk.ml" 328 12395 12402 "gdk.ml" 328 12395 12427
+type(
+  bool
+)
+"gdk.ml" 328 12395 12433 "gdk.ml" 328 12395 12444
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gdk.ml" 328 12395 12445 "gdk.ml" 328 12395 12461
+type(
+  string
+)
+"gdk.ml" 328 12395 12433 "gdk.ml" 328 12395 12461
+call(
+  stack
+)
+type(
+  unit
+)
+"gdk.ml" 328 12395 12399 "gdk.ml" 328 12395 12461
+type(
+  unit
+)
+"gdk.ml" 329 12463 12467 "gdk.ml" 329 12463 12470
+type(
+  t -> pos:int -> x:int -> y:int -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gdk.ml" 329 12463 12471 "gdk.ml" 329 12463 12474
+type(
+  t
+)
+ident(
+  int_ref arr "gdk.ml" 327 12374 12384 "gdk.ml" 327 12374 12387
+)
+"gdk.ml" 329 12463 12476 "gdk.ml" 329 12463 12479
+type(
+  int
+)
+ident(
+  int_ref pos "gdk.ml" 327 12374 12389 "gdk.ml" 327 12374 12392
+)
+"gdk.ml" 329 12463 12467 "gdk.ml" 329 12463 12479
+call(
+  tail
+)
+type(
+  x:int -> y:int -> unit
+)
+"gdk.ml" 328 12395 12399 "gdk.ml" 329 12463 12479
+type(
+  x:int -> y:int -> unit
+)
+"gdk.ml" 336 12725 12731 "gdk.ml" 336 12725 12734
+type(
+  t -> pos:int -> x1:int -> y1:int -> x2:int -> y2:int -> unit
+)
+ident(
+  def set "gdk.ml" 338 12816 12832 "gdk.ml" 339 12833 12836
+)
+"gdk.ml" 336 12725 12735 "gdk.ml" 336 12725 12738
+type(
+  t
+)
+ident(
+  def arr "gdk.ml" 336 12725 12739 "gdk.ml" 338 12816 12832
+)
+"gdk.ml" 336 12725 12740 "gdk.ml" 336 12725 12743
+type(
+  int
+)
+ident(
+  def pos "gdk.ml" 337 12746 12750 "gdk.ml" 338 12816 12832
+)
+"gdk.ml" 337 12746 12753 "gdk.ml" 337 12746 12756
+type(
+  int
+)
+ident(
+  int_ref pos "gdk.ml" 336 12725 12740 "gdk.ml" 336 12725 12743
+)
+"gdk.ml" 337 12746 12757 "gdk.ml" 337 12746 12758
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gdk.ml" 337 12746 12759 "gdk.ml" 337 12746 12760
+type(
+  int
+)
+"gdk.ml" 337 12746 12753 "gdk.ml" 337 12746 12760
+type(
+  bool
+)
+"gdk.ml" 337 12746 12761 "gdk.ml" 337 12746 12763
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdk.ml" 337 12746 12764 "gdk.ml" 337 12746 12767
+type(
+  int
+)
+ident(
+  int_ref pos "gdk.ml" 336 12725 12740 "gdk.ml" 336 12725 12743
+)
+"gdk.ml" 337 12746 12768 "gdk.ml" 337 12746 12770
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"gdk.ml" 337 12746 12771 "gdk.ml" 337 12746 12774
+type(
+  t
+)
+ident(
+  int_ref arr "gdk.ml" 336 12725 12735 "gdk.ml" 336 12725 12738
+)
+"gdk.ml" 337 12746 12771 "gdk.ml" 337 12746 12778
+type(
+  int
+)
+"gdk.ml" 337 12746 12764 "gdk.ml" 337 12746 12778
+type(
+  bool
+)
+"gdk.ml" 337 12746 12753 "gdk.ml" 337 12746 12778
+type(
+  bool
+)
+"gdk.ml" 337 12746 12784 "gdk.ml" 337 12746 12795
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gdk.ml" 337 12746 12796 "gdk.ml" 337 12746 12814
+type(
+  string
+)
+"gdk.ml" 337 12746 12784 "gdk.ml" 337 12746 12814
+call(
+  stack
+)
+type(
+  unit
+)
+"gdk.ml" 337 12746 12750 "gdk.ml" 337 12746 12814
+type(
+  unit
+)
+"gdk.ml" 338 12816 12820 "gdk.ml" 338 12816 12823
+type(
+  t -> pos:int -> x1:int -> y1:int -> x2:int -> y2:int -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gdk.ml" 338 12816 12824 "gdk.ml" 338 12816 12827
+type(
+  t
+)
+ident(
+  int_ref arr "gdk.ml" 336 12725 12735 "gdk.ml" 336 12725 12738
+)
+"gdk.ml" 338 12816 12829 "gdk.ml" 338 12816 12832
+type(
+  int
+)
+ident(
+  int_ref pos "gdk.ml" 336 12725 12740 "gdk.ml" 336 12725 12743
+)
+"gdk.ml" 338 12816 12820 "gdk.ml" 338 12816 12832
+call(
+  tail
+)
+type(
+  x1:int -> y1:int -> x2:int -> y2:int -> unit
+)
+"gdk.ml" 337 12746 12750 "gdk.ml" 338 12816 12832
+type(
+  x1:int -> y1:int -> x2:int -> y2:int -> unit
+)
+"gdk.ml" 348 13169 13175 "gdk.ml" 348 13169 13182
+type(
+  (int * int) list -> gdkFillRule -> region
+)
+ident(
+  def polygon "gdk.ml" 354 13369 13371 "gdk.ml" 381 14716 14719
+)
+"gdk.ml" 348 13169 13183 "gdk.ml" 348 13169 13184
+type(
+  (int * int) list
+)
+ident(
+  def l "gdk.ml" 349 13187 13191 "gdk.ml" 353 13353 13368
+)
+"gdk.ml" 349 13187 13195 "gdk.ml" 349 13187 13198
+type(
+  int
+)
+"gdk.ml" 349 13187 13201 "gdk.ml" 349 13187 13212
+type(
+  (int * int) list -> int
+)
+ident(
+  ext_ref StdLabels.List.length
+)
+"gdk.ml" 349 13187 13213 "gdk.ml" 349 13187 13214
+type(
+  (int * int) list
+)
+ident(
+  int_ref l "gdk.ml" 348 13169 13183 "gdk.ml" 348 13169 13184
+)
+"gdk.ml" 349 13187 13201 "gdk.ml" 349 13187 13214
+call(
+  stack
+)
+type(
+  int
+)
+"gdk.ml" 350 13218 13226 "gdk.ml" 350 13218 13229
+type(
+  PointArray.t
+)
+"gdk.ml" 350 13218 13232 "gdk.ml" 350 13218 13249
+type(
+  len:int -> PointArray.t
+)
+ident(
+  ext_ref PointArray.create
+)
+"gdk.ml" 350 13218 13251 "gdk.ml" 350 13218 13254
+type(
+  int
+)
+ident(
+  int_ref len "gdk.ml" 349 13187 13195 "gdk.ml" 349 13187 13198
+)
+"gdk.ml" 350 13218 13232 "gdk.ml" 350 13218 13254
+type(
+  PointArray.t
+)
+"gdk.ml" 351 13258 13262 "gdk.ml" 351 13258 13276
+type(
+  f:(int -> int * int -> int) -> init:int -> (int * int) list -> int
+)
+ident(
+  ext_ref StdLabels.List.fold_left
+)
+"gdk.ml" 351 13258 13277 "gdk.ml" 351 13258 13278
+type(
+  (int * int) list
+)
+ident(
+  int_ref l "gdk.ml" 348 13169 13183 "gdk.ml" 348 13169 13184
+)
+"gdk.ml" 351 13258 13285 "gdk.ml" 351 13258 13286
+type(
+  int
+)
+"gdk.ml" 352 13287 13301 "gdk.ml" 352 13287 13304
+type(
+  int
+)
+ident(
+  def pos "gdk.ml" 352 13287 13305 "gdk.ml" 352 13287 13350
+)
+"gdk.ml" 352 13287 13306 "gdk.ml" 352 13287 13307
+type(
+  int
+)
+ident(
+  def x "gdk.ml" 352 13287 13314 "gdk.ml" 352 13287 13350
+)
+"gdk.ml" 352 13287 13308 "gdk.ml" 352 13287 13309
+type(
+  int
+)
+ident(
+  def y "gdk.ml" 352 13287 13314 "gdk.ml" 352 13287 13350
+)
+"gdk.ml" 352 13287 13305 "gdk.ml" 352 13287 13310
+type(
+  int * int
+)
+"gdk.ml" 352 13287 13314 "gdk.ml" 352 13287 13328
+type(
+  PointArray.t -> pos:int -> x:int -> y:int -> unit
+)
+ident(
+  ext_ref PointArray.set
+)
+"gdk.ml" 352 13287 13329 "gdk.ml" 352 13287 13332
+type(
+  PointArray.t
+)
+ident(
+  int_ref arr "gdk.ml" 350 13218 13226 "gdk.ml" 350 13218 13229
+)
+"gdk.ml" 352 13287 13334 "gdk.ml" 352 13287 13337
+type(
+  int
+)
+ident(
+  int_ref pos "gdk.ml" 352 13287 13301 "gdk.ml" 352 13287 13304
+)
+"gdk.ml" 352 13287 13339 "gdk.ml" 352 13287 13340
+type(
+  int
+)
+ident(
+  int_ref x "gdk.ml" 352 13287 13306 "gdk.ml" 352 13287 13307
+)
+"gdk.ml" 352 13287 13342 "gdk.ml" 352 13287 13343
+type(
+  int
+)
+ident(
+  int_ref y "gdk.ml" 352 13287 13308 "gdk.ml" 352 13287 13309
+)
+"gdk.ml" 352 13287 13314 "gdk.ml" 352 13287 13343
+call(
+  stack
+)
+type(
+  unit
+)
+"gdk.ml" 352 13287 13345 "gdk.ml" 352 13287 13348
+type(
+  int
+)
+ident(
+  int_ref pos "gdk.ml" 352 13287 13301 "gdk.ml" 352 13287 13304
+)
+"gdk.ml" 352 13287 13348 "gdk.ml" 352 13287 13349
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"gdk.ml" 352 13287 13349 "gdk.ml" 352 13287 13350
+type(
+  int
+)
+"gdk.ml" 352 13287 13345 "gdk.ml" 352 13287 13350
+type(
+  int
+)
+"gdk.ml" 352 13287 13314 "gdk.ml" 352 13287 13350
+type(
+  int
+)
+"gdk.ml" 352 13287 13296 "gdk.ml" 352 13287 13351
+type(
+  int -> int * int -> int
+)
+"gdk.ml" 351 13258 13262 "gdk.ml" 352 13287 13351
+call(
+  stack
+)
+type(
+  int
+)
+"gdk.ml" 353 13353 13357 "gdk.ml" 353 13353 13364
+type(
+  PointArray.t -> gdkFillRule -> region
+)
+"gdk.ml" 353 13353 13365 "gdk.ml" 353 13353 13368
+type(
+  PointArray.t
+)
+ident(
+  int_ref arr "gdk.ml" 350 13218 13226 "gdk.ml" 350 13218 13229
+)
+"gdk.ml" 353 13353 13357 "gdk.ml" 353 13353 13368
+call(
+  tail
+)
+type(
+  gdkFillRule -> region
+)
+"gdk.ml" 351 13258 13262 "gdk.ml" 353 13353 13368
+type(
+  gdkFillRule -> region
+)
+"gdk.ml" 350 13218 13222 "gdk.ml" 353 13353 13368
+type(
+  gdkFillRule -> region
+)
+"gdk.ml" 349 13187 13191 "gdk.ml" 353 13353 13368
+type(
+  gdkFillRule -> region
+)
+"gdk.ml" 366 13851 13857 "gdk.ml" 366 13851 13866
+type(
+  region -> region -> region
+)
+ident(
+  def intersect "gdk.ml" 367 13915 13917 "gdk.ml" 381 14716 14719
+)
+"gdk.ml" 366 13851 13867 "gdk.ml" 366 13851 13869
+type(
+  region
+)
+ident(
+  def r1 "gdk.ml" 366 13851 13870 "gdk.ml" 366 13851 13914
+)
+"gdk.ml" 366 13851 13870 "gdk.ml" 366 13851 13872
+type(
+  region
+)
+ident(
+  def r2 "gdk.ml" 366 13851 13875 "gdk.ml" 366 13851 13914
+)
+"gdk.ml" 366 13851 13879 "gdk.ml" 366 13851 13881
+type(
+  region
+)
+"gdk.ml" 366 13851 13884 "gdk.ml" 366 13851 13888
+type(
+  region -> region
+)
+"gdk.ml" 366 13851 13889 "gdk.ml" 366 13851 13891
+type(
+  region
+)
+ident(
+  int_ref r1 "gdk.ml" 366 13851 13867 "gdk.ml" 366 13851 13869
+)
+"gdk.ml" 366 13851 13884 "gdk.ml" 366 13851 13891
+type(
+  region
+)
+"gdk.ml" 366 13851 13895 "gdk.ml" 366 13851 13904
+type(
+  region -> region -> region
+)
+"gdk.ml" 366 13851 13905 "gdk.ml" 366 13851 13907
+type(
+  region
+)
+ident(
+  int_ref r3 "gdk.ml" 366 13851 13879 "gdk.ml" 366 13851 13881
+)
+"gdk.ml" 366 13851 13908 "gdk.ml" 366 13851 13910
+type(
+  region
+)
+ident(
+  int_ref r2 "gdk.ml" 366 13851 13870 "gdk.ml" 366 13851 13872
+)
+"gdk.ml" 366 13851 13895 "gdk.ml" 366 13851 13910
+type(
+  region
+)
+"gdk.ml" 366 13851 13912 "gdk.ml" 366 13851 13914
+type(
+  region
+)
+ident(
+  int_ref r3 "gdk.ml" 366 13851 13879 "gdk.ml" 366 13851 13881
+)
+"gdk.ml" 366 13851 13895 "gdk.ml" 366 13851 13914
+type(
+  region
+)
+"gdk.ml" 366 13851 13875 "gdk.ml" 366 13851 13914
+type(
+  region
+)
+"gdk.ml" 367 13915 13921 "gdk.ml" 367 13915 13926
+type(
+  region -> region -> region
+)
+ident(
+  def union "gdk.ml" 368 13971 13973 "gdk.ml" 381 14716 14719
+)
+"gdk.ml" 367 13915 13927 "gdk.ml" 367 13915 13929
+type(
+  region
+)
+ident(
+  def r1 "gdk.ml" 367 13915 13930 "gdk.ml" 367 13915 13970
+)
+"gdk.ml" 367 13915 13930 "gdk.ml" 367 13915 13932
+type(
+  region
+)
+ident(
+  def r2 "gdk.ml" 367 13915 13935 "gdk.ml" 367 13915 13970
+)
+"gdk.ml" 367 13915 13939 "gdk.ml" 367 13915 13941
+type(
+  region
+)
+"gdk.ml" 367 13915 13944 "gdk.ml" 367 13915 13948
+type(
+  region -> region
+)
+"gdk.ml" 367 13915 13949 "gdk.ml" 367 13915 13951
+type(
+  region
+)
+ident(
+  int_ref r1 "gdk.ml" 367 13915 13927 "gdk.ml" 367 13915 13929
+)
+"gdk.ml" 367 13915 13944 "gdk.ml" 367 13915 13951
+type(
+  region
+)
+"gdk.ml" 367 13915 13955 "gdk.ml" 367 13915 13960
+type(
+  region -> region -> region
+)
+"gdk.ml" 367 13915 13961 "gdk.ml" 367 13915 13963
+type(
+  region
+)
+ident(
+  int_ref r3 "gdk.ml" 367 13915 13939 "gdk.ml" 367 13915 13941
+)
+"gdk.ml" 367 13915 13964 "gdk.ml" 367 13915 13966
+type(
+  region
+)
+ident(
+  int_ref r2 "gdk.ml" 367 13915 13930 "gdk.ml" 367 13915 13932
+)
+"gdk.ml" 367 13915 13955 "gdk.ml" 367 13915 13966
+type(
+  region
+)
+"gdk.ml" 367 13915 13968 "gdk.ml" 367 13915 13970
+type(
+  region
+)
+ident(
+  int_ref r3 "gdk.ml" 367 13915 13939 "gdk.ml" 367 13915 13941
+)
+"gdk.ml" 367 13915 13955 "gdk.ml" 367 13915 13970
+type(
+  region
+)
+"gdk.ml" 367 13915 13935 "gdk.ml" 367 13915 13970
+type(
+  region
+)
+"gdk.ml" 368 13971 13977 "gdk.ml" 368 13971 13985
+type(
+  region -> region -> region
+)
+ident(
+  def subtract "gdk.ml" 369 14033 14035 "gdk.ml" 381 14716 14719
+)
+"gdk.ml" 368 13971 13986 "gdk.ml" 368 13971 13988
+type(
+  region
+)
+ident(
+  def r1 "gdk.ml" 368 13971 13989 "gdk.ml" 368 13971 14032
+)
+"gdk.ml" 368 13971 13989 "gdk.ml" 368 13971 13991
+type(
+  region
+)
+ident(
+  def r2 "gdk.ml" 368 13971 13994 "gdk.ml" 368 13971 14032
+)
+"gdk.ml" 368 13971 13998 "gdk.ml" 368 13971 14000
+type(
+  region
+)
+"gdk.ml" 368 13971 14003 "gdk.ml" 368 13971 14007
+type(
+  region -> region
+)
+"gdk.ml" 368 13971 14008 "gdk.ml" 368 13971 14010
+type(
+  region
+)
+ident(
+  int_ref r1 "gdk.ml" 368 13971 13986 "gdk.ml" 368 13971 13988
+)
+"gdk.ml" 368 13971 14003 "gdk.ml" 368 13971 14010
+type(
+  region
+)
+"gdk.ml" 368 13971 14014 "gdk.ml" 368 13971 14022
+type(
+  region -> region -> region
+)
+"gdk.ml" 368 13971 14023 "gdk.ml" 368 13971 14025
+type(
+  region
+)
+ident(
+  int_ref r3 "gdk.ml" 368 13971 13998 "gdk.ml" 368 13971 14000
+)
+"gdk.ml" 368 13971 14026 "gdk.ml" 368 13971 14028
+type(
+  region
+)
+ident(
+  int_ref r2 "gdk.ml" 368 13971 13989 "gdk.ml" 368 13971 13991
+)
+"gdk.ml" 368 13971 14014 "gdk.ml" 368 13971 14028
+type(
+  region
+)
+"gdk.ml" 368 13971 14030 "gdk.ml" 368 13971 14032
+type(
+  region
+)
+ident(
+  int_ref r3 "gdk.ml" 368 13971 13998 "gdk.ml" 368 13971 14000
+)
+"gdk.ml" 368 13971 14014 "gdk.ml" 368 13971 14032
+type(
+  region
+)
+"gdk.ml" 368 13971 13994 "gdk.ml" 368 13971 14032
+type(
+  region
+)
+"gdk.ml" 369 14033 14039 "gdk.ml" 369 14033 14042
+type(
+  region -> region -> region
+)
+ident(
+  def xor "gdk.ml" 370 14085 14087 "gdk.ml" 381 14716 14719
+)
+"gdk.ml" 369 14033 14043 "gdk.ml" 369 14033 14045
+type(
+  region
+)
+ident(
+  def r1 "gdk.ml" 369 14033 14046 "gdk.ml" 369 14033 14084
+)
+"gdk.ml" 369 14033 14046 "gdk.ml" 369 14033 14048
+type(
+  region
+)
+ident(
+  def r2 "gdk.ml" 369 14033 14051 "gdk.ml" 369 14033 14084
+)
+"gdk.ml" 369 14033 14055 "gdk.ml" 369 14033 14057
+type(
+  region
+)
+"gdk.ml" 369 14033 14060 "gdk.ml" 369 14033 14064
+type(
+  region -> region
+)
+"gdk.ml" 369 14033 14065 "gdk.ml" 369 14033 14067
+type(
+  region
+)
+ident(
+  int_ref r1 "gdk.ml" 369 14033 14043 "gdk.ml" 369 14033 14045
+)
+"gdk.ml" 369 14033 14060 "gdk.ml" 369 14033 14067
+type(
+  region
+)
+"gdk.ml" 369 14033 14071 "gdk.ml" 369 14033 14074
+type(
+  region -> region -> region
+)
+"gdk.ml" 369 14033 14075 "gdk.ml" 369 14033 14077
+type(
+  region
+)
+ident(
+  int_ref r3 "gdk.ml" 369 14033 14055 "gdk.ml" 369 14033 14057
+)
+"gdk.ml" 369 14033 14078 "gdk.ml" 369 14033 14080
+type(
+  region
+)
+ident(
+  int_ref r2 "gdk.ml" 369 14033 14046 "gdk.ml" 369 14033 14048
+)
+"gdk.ml" 369 14033 14071 "gdk.ml" 369 14033 14080
+type(
+  region
+)
+"gdk.ml" 369 14033 14082 "gdk.ml" 369 14033 14084
+type(
+  region
+)
+ident(
+  int_ref r3 "gdk.ml" 369 14033 14055 "gdk.ml" 369 14033 14057
+)
+"gdk.ml" 369 14033 14071 "gdk.ml" 369 14033 14084
+type(
+  region
+)
+"gdk.ml" 369 14033 14051 "gdk.ml" 369 14033 14084
+type(
+  region
+)
+"gdk.ml" 370 14085 14091 "gdk.ml" 370 14085 14106
+type(
+  region -> Rectangle.t -> region
+)
+ident(
+  def union_with_rect "gdk.ml" 371 14161 14163 "gdk.ml" 381 14716 14719
+)
+"gdk.ml" 370 14085 14107 "gdk.ml" 370 14085 14109
+type(
+  region
+)
+ident(
+  def r1 "gdk.ml" 370 14085 14110 "gdk.ml" 370 14085 14160
+)
+"gdk.ml" 370 14085 14110 "gdk.ml" 370 14085 14112
+type(
+  Rectangle.t
+)
+ident(
+  def r2 "gdk.ml" 370 14085 14115 "gdk.ml" 370 14085 14160
+)
+"gdk.ml" 370 14085 14119 "gdk.ml" 370 14085 14121
+type(
+  region
+)
+"gdk.ml" 370 14085 14124 "gdk.ml" 370 14085 14128
+type(
+  region -> region
+)
+"gdk.ml" 370 14085 14129 "gdk.ml" 370 14085 14131
+type(
+  region
+)
+ident(
+  int_ref r1 "gdk.ml" 370 14085 14107 "gdk.ml" 370 14085 14109
+)
+"gdk.ml" 370 14085 14124 "gdk.ml" 370 14085 14131
+type(
+  region
+)
+"gdk.ml" 370 14085 14135 "gdk.ml" 370 14085 14150
+type(
+  region -> Rectangle.t -> region
+)
+"gdk.ml" 370 14085 14151 "gdk.ml" 370 14085 14153
+type(
+  region
+)
+ident(
+  int_ref r3 "gdk.ml" 370 14085 14119 "gdk.ml" 370 14085 14121
+)
+"gdk.ml" 370 14085 14154 "gdk.ml" 370 14085 14156
+type(
+  Rectangle.t
+)
+ident(
+  int_ref r2 "gdk.ml" 370 14085 14110 "gdk.ml" 370 14085 14112
+)
+"gdk.ml" 370 14085 14135 "gdk.ml" 370 14085 14156
+type(
+  region
+)
+"gdk.ml" 370 14085 14158 "gdk.ml" 370 14085 14160
+type(
+  region
+)
+ident(
+  int_ref r3 "gdk.ml" 370 14085 14119 "gdk.ml" 370 14085 14121
+)
+"gdk.ml" 370 14085 14135 "gdk.ml" 370 14085 14160
+type(
+  region
+)
+"gdk.ml" 370 14085 14115 "gdk.ml" 370 14085 14160
+type(
+  region
+)
+"gdk.ml" 441 17206 17212 "gdk.ml" 441 17206 17216
+type(
+  'a Gobject.obj -> pixmap
+)
+ident(
+  def cast "gdk.ml" 442 17261 17263 "gdk.ml" 465 18404 18407
+)
+"gdk.ml" 441 17206 17217 "gdk.ml" 441 17206 17218
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gdk.ml" 441 17206 17219 "gdk.ml" 441 17206 17260
+)
+"gdk.ml" 441 17206 17230 "gdk.ml" 441 17206 17246
+type(
+  'a Gobject.obj -> string -> pixmap
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gdk.ml" 441 17206 17247 "gdk.ml" 441 17206 17248
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gdk.ml" 441 17206 17217 "gdk.ml" 441 17206 17218
+)
+"gdk.ml" 441 17206 17249 "gdk.ml" 441 17206 17260
+type(
+  string
+)
+"gdk.ml" 441 17206 17230 "gdk.ml" 441 17206 17260
+call(
+  tail
+)
+type(
+  pixmap
+)
+type(
+  pixmap
+)
+"gdk.ml" 442 17261 17267 "gdk.ml" 442 17261 17274
+type(
+  'b Gobject.obj -> unit
+)
+ident(
+  def destroy "gdk.ml" 443 17298 17300 "gdk.ml" 465 18404 18407
+)
+"gdk.ml" 442 17261 17277 "gdk.ml" 442 17261 17297
+type(
+  'b Gobject.obj -> unit
+)
+ident(
+  ext_ref Gobject.unsafe_unref
+)
+"gdk.ml" 447 17434 17440 "gdk.ml" 447 17434 17446
+type(
+  ?window:window -> width:int -> height:int -> ?depth:int -> unit -> pixmap
+)
+ident(
+  def create "gdk.ml" 450 17587 17589 "gdk.ml" 465 18404 18407
+)
+"gdk.ml" 447 17434 17448 "gdk.ml" 447 17434 17454
+type(
+  window option
+)
+ident(
+  def window "gdk.ml" 447 17434 17455 "gdk.ml" 449 17544 17586
+)
+"gdk.ml" 447 17434 17456 "gdk.ml" 447 17434 17461
+type(
+  int
+)
+ident(
+  def width "gdk.ml" 447 17434 17462 "gdk.ml" 449 17544 17586
+)
+"gdk.ml" 447 17434 17463 "gdk.ml" 447 17434 17469
+type(
+  int
+)
+ident(
+  def height "gdk.ml" 447 17434 17470 "gdk.ml" 449 17544 17586
+)
+"gdk.ml" 447 17434 17472 "gdk.ml" 447 17434 17477
+type(
+  int
+)
+"gdk.ml" 447 17434 17480 "gdk.ml" 447 17434 17482
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 447 17434 17480 "gdk.ml" 447 17434 17482
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 447 17434 17480 "gdk.ml" 447 17434 17482
+)
+"gdk.ml" 447 17434 17484 "gdk.ml" 447 17434 17486
+type(
+  unit
+)
+"gdk.ml" 448 17489 17497 "gdk.ml" 448 17489 17503
+type(
+  window Gpointer.optboxed -> width:int -> height:int -> depth:int -> pixmap
+)
+"gdk.ml" 448 17489 17505 "gdk.ml" 448 17489 17513
+type(
+  window option -> window Gpointer.optboxed
+)
+ident(
+  ext_ref Gpointer.optboxed
+)
+"gdk.ml" 448 17489 17514 "gdk.ml" 448 17489 17520
+type(
+  window option
+)
+ident(
+  int_ref window "gdk.ml" 447 17434 17448 "gdk.ml" 447 17434 17454
+)
+"gdk.ml" 448 17489 17504 "gdk.ml" 448 17489 17521
+call(
+  stack
+)
+type(
+  window Gpointer.optboxed
+)
+"gdk.ml" 448 17489 17523 "gdk.ml" 448 17489 17528
+type(
+  int
+)
+ident(
+  int_ref width "gdk.ml" 447 17434 17456 "gdk.ml" 447 17434 17461
+)
+"gdk.ml" 448 17489 17530 "gdk.ml" 448 17489 17536
+type(
+  int
+)
+ident(
+  int_ref height "gdk.ml" 447 17434 17463 "gdk.ml" 447 17434 17469
+)
+"gdk.ml" 448 17489 17538 "gdk.ml" 448 17489 17543
+type(
+  int
+)
+ident(
+  int_ref depth "gdk.ml" 447 17434 17472 "gdk.ml" 447 17434 17477
+)
+"gdk.ml" 448 17489 17497 "gdk.ml" 448 17489 17543
+type(
+  pixmap
+)
+"gdk.ml" 449 17544 17553 "gdk.ml" 449 17544 17554
+type(
+  exn
+)
+"gdk.ml" 449 17544 17558 "gdk.ml" 449 17544 17566
+type(
+  string -> pixmap
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gdk.ml" 449 17544 17567 "gdk.ml" 449 17544 17586
+type(
+  string
+)
+"gdk.ml" 449 17544 17558 "gdk.ml" 449 17544 17586
+call(
+  tail
+)
+type(
+  pixmap
+)
+"gdk.ml" 448 17489 17493 "gdk.ml" 449 17544 17586
+type(
+  pixmap
+)
+"gdk.ml" 454 17806 17812 "gdk.ml" 454 17806 17828
+type(
+  ?window:window ->
+  width:int ->
+  height:int -> ?depth:int -> fg:color -> bg:color -> string -> pixmap
+)
+ident(
+  def create_from_data "gdk.ml" 457 18012 18014 "gdk.ml" 465 18404 18407
+)
+"gdk.ml" 454 17806 17830 "gdk.ml" 454 17806 17836
+type(
+  window option
+)
+ident(
+  def window "gdk.ml" 454 17806 17837 "gdk.ml" 456 17959 18011
+)
+"gdk.ml" 454 17806 17838 "gdk.ml" 454 17806 17843
+type(
+  int
+)
+ident(
+  def width "gdk.ml" 454 17806 17844 "gdk.ml" 456 17959 18011
+)
+"gdk.ml" 454 17806 17845 "gdk.ml" 454 17806 17851
+type(
+  int
+)
+ident(
+  def height "gdk.ml" 454 17806 17852 "gdk.ml" 456 17959 18011
+)
+"gdk.ml" 454 17806 17854 "gdk.ml" 454 17806 17859
+type(
+  int
+)
+"gdk.ml" 454 17806 17862 "gdk.ml" 454 17806 17864
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 454 17806 17862 "gdk.ml" 454 17806 17864
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 454 17806 17862 "gdk.ml" 454 17806 17864
+)
+"gdk.ml" 454 17806 17867 "gdk.ml" 454 17806 17869
+type(
+  color
+)
+ident(
+  def fg "gdk.ml" 454 17806 17870 "gdk.ml" 456 17959 18011
+)
+"gdk.ml" 454 17806 17871 "gdk.ml" 454 17806 17873
+type(
+  color
+)
+ident(
+  def bg "gdk.ml" 454 17806 17874 "gdk.ml" 456 17959 18011
+)
+"gdk.ml" 454 17806 17874 "gdk.ml" 454 17806 17878
+type(
+  string
+)
+ident(
+  def data "gdk.ml" 455 17881 17885 "gdk.ml" 456 17959 18011
+)
+"gdk.ml" 455 17881 17889 "gdk.ml" 455 17881 17905
+type(
+  window Gpointer.optboxed ->
+  string ->
+  width:int -> height:int -> depth:int -> fg:color -> bg:color -> pixmap
+)
+"gdk.ml" 455 17881 17907 "gdk.ml" 455 17881 17915
+type(
+  window option -> window Gpointer.optboxed
+)
+ident(
+  ext_ref Gpointer.optboxed
+)
+"gdk.ml" 455 17881 17916 "gdk.ml" 455 17881 17922
+type(
+  window option
+)
+ident(
+  int_ref window "gdk.ml" 454 17806 17830 "gdk.ml" 454 17806 17836
+)
+"gdk.ml" 455 17881 17906 "gdk.ml" 455 17881 17923
+call(
+  stack
+)
+type(
+  window Gpointer.optboxed
+)
+"gdk.ml" 455 17881 17924 "gdk.ml" 455 17881 17928
+type(
+  string
+)
+ident(
+  int_ref data "gdk.ml" 454 17806 17874 "gdk.ml" 454 17806 17878
+)
+"gdk.ml" 455 17881 17930 "gdk.ml" 455 17881 17935
+type(
+  int
+)
+ident(
+  int_ref width "gdk.ml" 454 17806 17838 "gdk.ml" 454 17806 17843
+)
+"gdk.ml" 455 17881 17937 "gdk.ml" 455 17881 17943
+type(
+  int
+)
+ident(
+  int_ref height "gdk.ml" 454 17806 17845 "gdk.ml" 454 17806 17851
+)
+"gdk.ml" 455 17881 17945 "gdk.ml" 455 17881 17950
+type(
+  int
+)
+ident(
+  int_ref depth "gdk.ml" 454 17806 17854 "gdk.ml" 454 17806 17859
+)
+"gdk.ml" 455 17881 17952 "gdk.ml" 455 17881 17954
+type(
+  color
+)
+ident(
+  int_ref fg "gdk.ml" 454 17806 17867 "gdk.ml" 454 17806 17869
+)
+"gdk.ml" 455 17881 17956 "gdk.ml" 455 17881 17958
+type(
+  color
+)
+ident(
+  int_ref bg "gdk.ml" 454 17806 17871 "gdk.ml" 454 17806 17873
+)
+"gdk.ml" 455 17881 17889 "gdk.ml" 455 17881 17958
+type(
+  pixmap
+)
+"gdk.ml" 456 17959 17968 "gdk.ml" 456 17959 17969
+type(
+  exn
+)
+"gdk.ml" 456 17959 17973 "gdk.ml" 456 17959 17981
+type(
+  string -> pixmap
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gdk.ml" 456 17959 17982 "gdk.ml" 456 17959 18011
+type(
+  string
+)
+"gdk.ml" 456 17959 17973 "gdk.ml" 456 17959 18011
+call(
+  tail
+)
+type(
+  pixmap
+)
+"gdk.ml" 455 17881 17885 "gdk.ml" 456 17959 18011
+type(
+  pixmap
+)
+"gdk.ml" 468 18432 18438 "gdk.ml" 468 18432 18442
+type(
+  'a Gobject.obj -> bitmap
+)
+ident(
+  def cast "gdk.ml" 473 18606 18608 "gdk.ml" 482 19056 19059
+)
+"gdk.ml" 468 18432 18443 "gdk.ml" 468 18432 18444
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gdk.ml" 468 18432 18445 "gdk.ml" 472 18600 18605
+)
+"gdk.ml" 469 18456 18464 "gdk.ml" 469 18456 18465
+type(
+  [ `drawable | `gdkbitmap | `gdkpixmap ] Gobject.obj
+)
+"gdk.ml" 469 18456 18468 "gdk.ml" 469 18456 18484
+type(
+  'a Gobject.obj ->
+  string -> [ `drawable | `gdkbitmap | `gdkpixmap ] Gobject.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gdk.ml" 469 18456 18485 "gdk.ml" 469 18456 18486
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gdk.ml" 468 18432 18443 "gdk.ml" 468 18432 18444
+)
+"gdk.ml" 469 18456 18487 "gdk.ml" 469 18456 18498
+type(
+  string
+)
+"gdk.ml" 469 18456 18468 "gdk.ml" 469 18456 18498
+call(
+  stack
+)
+type(
+  [ `drawable | `gdkbitmap | `gdkpixmap ] Gobject.obj
+)
+"gdk.ml" 470 18502 18509 "gdk.ml" 470 18502 18527
+type(
+  [ `drawable | `gdkbitmap | `gdkpixmap ] Gobject.obj -> int
+)
+ident(
+  ext_ref Drawable.get_depth
+)
+"gdk.ml" 470 18502 18528 "gdk.ml" 470 18502 18529
+type(
+  [ `drawable | `gdkbitmap | `gdkpixmap ] Gobject.obj
+)
+ident(
+  int_ref w "gdk.ml" 469 18456 18464 "gdk.ml" 469 18456 18465
+)
+"gdk.ml" 470 18502 18509 "gdk.ml" 470 18502 18529
+type(
+  int
+)
+"gdk.ml" 470 18502 18530 "gdk.ml" 470 18502 18532
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gdk.ml" 470 18502 18533 "gdk.ml" 470 18502 18534
+type(
+  int
+)
+"gdk.ml" 470 18502 18509 "gdk.ml" 470 18502 18534
+type(
+  bool
+)
+"gdk.ml" 471 18540 18546 "gdk.ml" 471 18540 18551
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gdk.ml" 471 18540 18573 "gdk.ml" 471 18540 18584
+type(
+  string
+)
+"gdk.ml" 471 18540 18585 "gdk.ml" 471 18540 18596
+type(
+  string
+)
+"gdk.ml" 471 18540 18552 "gdk.ml" 471 18540 18598
+type(
+  exn
+)
+"gdk.ml" 471 18540 18546 "gdk.ml" 471 18540 18598
+type(
+  unit
+)
+"gdk.ml" 470 18502 18506 "gdk.ml" 471 18540 18598
+type(
+  unit
+)
+"gdk.ml" 472 18600 18604 "gdk.ml" 472 18600 18605
+type(
+  bitmap
+)
+ident(
+  int_ref w "gdk.ml" 469 18456 18464 "gdk.ml" 469 18456 18465
+)
+"gdk.ml" 470 18502 18506 "gdk.ml" 472 18600 18605
+type(
+  bitmap
+)
+"gdk.ml" 469 18456 18460 "gdk.ml" 472 18600 18605
+type(
+  bitmap
+)
+type(
+  bitmap
+)
+"gdk.ml" 474 18622 18628 "gdk.ml" 474 18622 18634
+type(
+  ?window:window -> width:int -> height:int -> unit -> bitmap
+)
+ident(
+  def create "gdk.ml" 476 18747 18749 "gdk.ml" 482 19056 19059
+)
+"gdk.ml" 474 18622 18636 "gdk.ml" 474 18622 18642
+type(
+  window option
+)
+ident(
+  def window "gdk.ml" 474 18622 18643 "gdk.ml" 475 18672 18746
+)
+"gdk.ml" 474 18622 18644 "gdk.ml" 474 18622 18649
+type(
+  int
+)
+ident(
+  def width "gdk.ml" 474 18622 18650 "gdk.ml" 475 18672 18746
+)
+"gdk.ml" 474 18622 18651 "gdk.ml" 474 18622 18657
+type(
+  int
+)
+ident(
+  def height "gdk.ml" 474 18622 18658 "gdk.ml" 475 18672 18746
+)
+"gdk.ml" 474 18622 18658 "gdk.ml" 474 18622 18660
+type(
+  unit
+)
+"gdk.ml" 475 18672 18676 "gdk.ml" 475 18672 18695
+type(
+  pixmap -> bitmap
+)
+ident(
+  ext_ref Gobject.unsafe_cast
+)
+"gdk.ml" 475 18672 18697 "gdk.ml" 475 18672 18710
+type(
+  ?window:window -> width:int -> height:int -> ?depth:int -> unit -> pixmap
+)
+ident(
+  ext_ref Pixmap.create
+)
+"gdk.ml" 475 18672 18712 "gdk.ml" 475 18672 18718
+type(
+  window option
+)
+ident(
+  int_ref window "gdk.ml" 474 18622 18636 "gdk.ml" 474 18622 18642
+)
+"gdk.ml" 475 18672 18720 "gdk.ml" 475 18672 18725
+type(
+  int
+)
+ident(
+  int_ref width "gdk.ml" 474 18622 18644 "gdk.ml" 474 18622 18649
+)
+"gdk.ml" 475 18672 18727 "gdk.ml" 475 18672 18733
+type(
+  int
+)
+ident(
+  int_ref height "gdk.ml" 474 18622 18651 "gdk.ml" 474 18622 18657
+)
+"gdk.ml" 475 18672 18741 "gdk.ml" 475 18672 18742
+type(
+  int
+)
+"gdk.ml" 475 18672 18743 "gdk.ml" 475 18672 18745
+type(
+  unit
+)
+"gdk.ml" 475 18672 18696 "gdk.ml" 475 18672 18746
+call(
+  tail
+)
+type(
+  pixmap
+)
+"gdk.ml" 475 18672 18676 "gdk.ml" 475 18672 18746
+type(
+  bitmap
+)
+type(
+  bitmap
+)
+"gdk.ml" 479 18887 18893 "gdk.ml" 479 18887 18909
+type(
+  ?window:window -> width:int -> height:int -> string -> bitmap
+)
+ident(
+  def create_from_data "gdk.ml" 481 19003 19055 "gdk.ml" 482 19056 19059
+)
+"gdk.ml" 479 18887 18911 "gdk.ml" 479 18887 18917
+type(
+  window option
+)
+ident(
+  def window "gdk.ml" 479 18887 18918 "gdk.ml" 481 19003 19055
+)
+"gdk.ml" 479 18887 18919 "gdk.ml" 479 18887 18924
+type(
+  int
+)
+ident(
+  def width "gdk.ml" 479 18887 18925 "gdk.ml" 481 19003 19055
+)
+"gdk.ml" 479 18887 18926 "gdk.ml" 479 18887 18932
+type(
+  int
+)
+ident(
+  def height "gdk.ml" 479 18887 18933 "gdk.ml" 481 19003 19055
+)
+"gdk.ml" 479 18887 18933 "gdk.ml" 479 18887 18937
+type(
+  string
+)
+ident(
+  def data "gdk.ml" 480 18940 18944 "gdk.ml" 481 19003 19055
+)
+"gdk.ml" 480 18940 18948 "gdk.ml" 480 18940 18964
+type(
+  window Gpointer.optboxed -> string -> width:int -> height:int -> bitmap
+)
+"gdk.ml" 480 18940 18966 "gdk.ml" 480 18940 18974
+type(
+  window option -> window Gpointer.optboxed
+)
+ident(
+  ext_ref Gpointer.optboxed
+)
+"gdk.ml" 480 18940 18975 "gdk.ml" 480 18940 18981
+type(
+  window option
+)
+ident(
+  int_ref window "gdk.ml" 479 18887 18911 "gdk.ml" 479 18887 18917
+)
+"gdk.ml" 480 18940 18965 "gdk.ml" 480 18940 18982
+call(
+  stack
+)
+type(
+  window Gpointer.optboxed
+)
+"gdk.ml" 480 18940 18983 "gdk.ml" 480 18940 18987
+type(
+  string
+)
+ident(
+  int_ref data "gdk.ml" 479 18887 18933 "gdk.ml" 479 18887 18937
+)
+"gdk.ml" 480 18940 18989 "gdk.ml" 480 18940 18994
+type(
+  int
+)
+ident(
+  int_ref width "gdk.ml" 479 18887 18919 "gdk.ml" 479 18887 18924
+)
+"gdk.ml" 480 18940 18996 "gdk.ml" 480 18940 19002
+type(
+  int
+)
+ident(
+  int_ref height "gdk.ml" 479 18887 18926 "gdk.ml" 479 18887 18932
+)
+"gdk.ml" 480 18940 18948 "gdk.ml" 480 18940 19002
+type(
+  bitmap
+)
+"gdk.ml" 481 19003 19012 "gdk.ml" 481 19003 19013
+type(
+  exn
+)
+"gdk.ml" 481 19003 19017 "gdk.ml" 481 19003 19025
+type(
+  string -> bitmap
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gdk.ml" 481 19003 19026 "gdk.ml" 481 19003 19055
+type(
+  string
+)
+"gdk.ml" 481 19003 19017 "gdk.ml" 481 19003 19055
+call(
+  tail
+)
+type(
+  bitmap
+)
+"gdk.ml" 480 18940 18944 "gdk.ml" 481 19003 19055
+type(
+  bitmap
+)
+"gdk.ml" 508 20253 20259 "gdk.ml" 508 20253 20268
+type(
+  [> `drawable ] Gobject.obj ->
+  gc ->
+  x:int -> y:int -> width:int -> height:int -> ?filled:bool -> unit -> unit
+)
+ident(
+  def rectangle "gdk.ml" 510 20364 20366 "gdk.ml" 586 23361 23364
+)
+"gdk.ml" 508 20253 20269 "gdk.ml" 508 20253 20270
+type(
+  ([> `drawable ] as 'a) Gobject.obj
+)
+ident(
+  def w "gdk.ml" 508 20253 20271 "gdk.ml" 509 20316 20363
+)
+"gdk.ml" 508 20253 20271 "gdk.ml" 508 20253 20273
+type(
+  gc
+)
+ident(
+  def gc "gdk.ml" 508 20253 20274 "gdk.ml" 509 20316 20363
+)
+"gdk.ml" 508 20253 20275 "gdk.ml" 508 20253 20276
+type(
+  int
+)
+ident(
+  def x "gdk.ml" 508 20253 20277 "gdk.ml" 509 20316 20363
+)
+"gdk.ml" 508 20253 20278 "gdk.ml" 508 20253 20279
+type(
+  int
+)
+ident(
+  def y "gdk.ml" 508 20253 20280 "gdk.ml" 509 20316 20363
+)
+"gdk.ml" 508 20253 20281 "gdk.ml" 508 20253 20286
+type(
+  int
+)
+ident(
+  def width "gdk.ml" 508 20253 20287 "gdk.ml" 509 20316 20363
+)
+"gdk.ml" 508 20253 20288 "gdk.ml" 508 20253 20294
+type(
+  int
+)
+ident(
+  def height "gdk.ml" 508 20253 20295 "gdk.ml" 509 20316 20363
+)
+"gdk.ml" 508 20253 20297 "gdk.ml" 508 20253 20303
+type(
+  bool
+)
+"gdk.ml" 508 20253 20304 "gdk.ml" 508 20253 20309
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gdk.ml" 508 20253 20304 "gdk.ml" 508 20253 20309
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gdk.ml" 508 20253 20304 "gdk.ml" 508 20253 20309
+)
+"gdk.ml" 508 20253 20311 "gdk.ml" 508 20253 20313
+type(
+  unit
+)
+"gdk.ml" 509 20316 20320 "gdk.ml" 509 20316 20329
+type(
+  'a Gobject.obj ->
+  gc -> filled:bool -> x:int -> y:int -> width:int -> height:int -> unit
+)
+"gdk.ml" 509 20316 20330 "gdk.ml" 509 20316 20331
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gdk.ml" 508 20253 20269 "gdk.ml" 508 20253 20270
+)
+"gdk.ml" 509 20316 20332 "gdk.ml" 509 20316 20334
+type(
+  gc
+)
+ident(
+  int_ref gc "gdk.ml" 508 20253 20271 "gdk.ml" 508 20253 20273
+)
+"gdk.ml" 509 20316 20336 "gdk.ml" 509 20316 20337
+type(
+  int
+)
+ident(
+  int_ref x "gdk.ml" 508 20253 20275 "gdk.ml" 508 20253 20276
+)
+"gdk.ml" 509 20316 20339 "gdk.ml" 509 20316 20340
+type(
+  int
+)
+ident(
+  int_ref y "gdk.ml" 508 20253 20278 "gdk.ml" 508 20253 20279
+)
+"gdk.ml" 509 20316 20342 "gdk.ml" 509 20316 20347
+type(
+  int
+)
+ident(
+  int_ref width "gdk.ml" 508 20253 20281 "gdk.ml" 508 20253 20286
+)
+"gdk.ml" 509 20316 20349 "gdk.ml" 509 20316 20355
+type(
+  int
+)
+ident(
+  int_ref height "gdk.ml" 508 20253 20288 "gdk.ml" 508 20253 20294
+)
+"gdk.ml" 509 20316 20357 "gdk.ml" 509 20316 20363
+type(
+  bool
+)
+ident(
+  int_ref filled "gdk.ml" 508 20253 20297 "gdk.ml" 508 20253 20303
+)
+"gdk.ml" 509 20316 20320 "gdk.ml" 509 20316 20363
+type(
+  unit
+)
+"gdk.ml" 514 20557 20563 "gdk.ml" 514 20557 20566
+type(
+  [> `drawable ] Gobject.obj ->
+  gc ->
+  x:int ->
+  y:int ->
+  width:int ->
+  height:int -> ?filled:bool -> ?start:float -> ?angle:float -> unit -> unit
+)
+ident(
+  def arc "gdk.ml" 520 20765 20767 "gdk.ml" 586 23361 23364
+)
+"gdk.ml" 514 20557 20567 "gdk.ml" 514 20557 20568
+type(
+  ([> `drawable ] as 'b) Gobject.obj
+)
+ident(
+  def w "gdk.ml" 514 20557 20569 "gdk.ml" 518 20726 20763
+)
+"gdk.ml" 514 20557 20569 "gdk.ml" 514 20557 20571
+type(
+  gc
+)
+ident(
+  def gc "gdk.ml" 514 20557 20572 "gdk.ml" 518 20726 20763
+)
+"gdk.ml" 514 20557 20573 "gdk.ml" 514 20557 20574
+type(
+  int
+)
+ident(
+  def x "gdk.ml" 514 20557 20575 "gdk.ml" 518 20726 20763
+)
+"gdk.ml" 514 20557 20576 "gdk.ml" 514 20557 20577
+type(
+  int
+)
+ident(
+  def y "gdk.ml" 514 20557 20578 "gdk.ml" 518 20726 20763
+)
+"gdk.ml" 514 20557 20579 "gdk.ml" 514 20557 20584
+type(
+  int
+)
+ident(
+  def width "gdk.ml" 514 20557 20585 "gdk.ml" 518 20726 20763
+)
+"gdk.ml" 514 20557 20586 "gdk.ml" 514 20557 20592
+type(
+  int
+)
+ident(
+  def height "gdk.ml" 514 20557 20593 "gdk.ml" 518 20726 20763
+)
+"gdk.ml" 514 20557 20595 "gdk.ml" 514 20557 20601
+type(
+  bool
+)
+"gdk.ml" 514 20557 20602 "gdk.ml" 514 20557 20607
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gdk.ml" 514 20557 20602 "gdk.ml" 514 20557 20607
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gdk.ml" 514 20557 20602 "gdk.ml" 514 20557 20607
+)
+"gdk.ml" 514 20557 20611 "gdk.ml" 514 20557 20616
+type(
+  float
+)
+"gdk.ml" 514 20557 20617 "gdk.ml" 514 20557 20619
+type(
+  float
+)
+type(
+  float
+)
+ident(
+  int_ref *sth* "gdk.ml" 514 20557 20617 "gdk.ml" 514 20557 20619
+)
+type(
+  float option
+)
+type(
+  float option
+)
+type(
+  float
+)
+ident(
+  def *sth* "gdk.ml" 514 20557 20617 "gdk.ml" 514 20557 20619
+)
+"gdk.ml" 515 20621 20629 "gdk.ml" 515 20621 20634
+type(
+  float
+)
+"gdk.ml" 515 20621 20635 "gdk.ml" 515 20621 20639
+type(
+  float
+)
+type(
+  float
+)
+ident(
+  int_ref *sth* "gdk.ml" 515 20621 20635 "gdk.ml" 515 20621 20639
+)
+type(
+  float option
+)
+type(
+  float option
+)
+type(
+  float
+)
+ident(
+  def *sth* "gdk.ml" 515 20621 20635 "gdk.ml" 515 20621 20639
+)
+"gdk.ml" 515 20621 20641 "gdk.ml" 515 20621 20643
+type(
+  unit
+)
+"gdk.ml" 516 20646 20650 "gdk.ml" 516 20646 20653
+type(
+  'b Gobject.obj ->
+  gc ->
+  filled:bool ->
+  x:int -> y:int -> width:int -> height:int -> start:int -> angle:int -> unit
+)
+"gdk.ml" 516 20646 20654 "gdk.ml" 516 20646 20655
+type(
+  'b Gobject.obj
+)
+ident(
+  int_ref w "gdk.ml" 514 20557 20567 "gdk.ml" 514 20557 20568
+)
+"gdk.ml" 516 20646 20656 "gdk.ml" 516 20646 20658
+type(
+  gc
+)
+ident(
+  int_ref gc "gdk.ml" 514 20557 20569 "gdk.ml" 514 20557 20571
+)
+"gdk.ml" 516 20646 20660 "gdk.ml" 516 20646 20661
+type(
+  int
+)
+ident(
+  int_ref x "gdk.ml" 514 20557 20573 "gdk.ml" 514 20557 20574
+)
+"gdk.ml" 516 20646 20663 "gdk.ml" 516 20646 20664
+type(
+  int
+)
+ident(
+  int_ref y "gdk.ml" 514 20557 20576 "gdk.ml" 514 20557 20577
+)
+"gdk.ml" 516 20646 20666 "gdk.ml" 516 20646 20671
+type(
+  int
+)
+ident(
+  int_ref width "gdk.ml" 514 20557 20579 "gdk.ml" 514 20557 20584
+)
+"gdk.ml" 516 20646 20673 "gdk.ml" 516 20646 20679
+type(
+  int
+)
+ident(
+  int_ref height "gdk.ml" 514 20557 20586 "gdk.ml" 514 20557 20592
+)
+"gdk.ml" 516 20646 20681 "gdk.ml" 516 20646 20687
+type(
+  bool
+)
+ident(
+  int_ref filled "gdk.ml" 514 20557 20595 "gdk.ml" 514 20557 20601
+)
+"gdk.ml" 517 20688 20702 "gdk.ml" 517 20688 20710
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.truncate
+)
+"gdk.ml" 517 20688 20711 "gdk.ml" 517 20688 20716
+type(
+  float
+)
+ident(
+  int_ref start "gdk.ml" 514 20557 20611 "gdk.ml" 514 20557 20616
+)
+"gdk.ml" 517 20688 20717 "gdk.ml" 517 20688 20719
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"gdk.ml" 517 20688 20720 "gdk.ml" 517 20688 20723
+type(
+  float
+)
+"gdk.ml" 517 20688 20710 "gdk.ml" 517 20688 20724
+type(
+  float
+)
+"gdk.ml" 517 20688 20701 "gdk.ml" 517 20688 20725
+type(
+  int
+)
+"gdk.ml" 518 20726 20740 "gdk.ml" 518 20726 20748
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.truncate
+)
+"gdk.ml" 518 20726 20749 "gdk.ml" 518 20726 20754
+type(
+  float
+)
+ident(
+  int_ref angle "gdk.ml" 515 20621 20629 "gdk.ml" 515 20621 20634
+)
+"gdk.ml" 518 20726 20755 "gdk.ml" 518 20726 20757
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"gdk.ml" 518 20726 20758 "gdk.ml" 518 20726 20761
+type(
+  float
+)
+"gdk.ml" 518 20726 20748 "gdk.ml" 518 20726 20762
+type(
+  float
+)
+"gdk.ml" 518 20726 20739 "gdk.ml" 518 20726 20763
+type(
+  int
+)
+"gdk.ml" 516 20646 20650 "gdk.ml" 518 20726 20763
+type(
+  unit
+)
+"gdk.ml" 520 20765 20771 "gdk.ml" 520 20765 20783
+type(
+  (PointArray.t -> 'c) -> (int * int) list -> 'c
+)
+ident(
+  def f_pointarray "gdk.ml" 530 21036 21038 "gdk.ml" 586 23361 23364
+)
+"gdk.ml" 520 20765 20784 "gdk.ml" 520 20765 20785
+type(
+  PointArray.t -> 'c
+)
+ident(
+  def f "gdk.ml" 520 20765 20786 "gdk.ml" 528 21009 21034
+)
+"gdk.ml" 520 20765 20786 "gdk.ml" 520 20765 20787
+type(
+  (int * int) list
+)
+ident(
+  def l "gdk.ml" 521 20791 20795 "gdk.ml" 528 21009 21034
+)
+"gdk.ml" 521 20791 20799 "gdk.ml" 521 20791 20814
+type(
+  (int * int) list -> PointArray.t
+)
+"gdk.ml" 521 20791 20815 "gdk.ml" 521 20791 20816
+type(
+  (int * int) list
+)
+ident(
+  def l "gdk.ml" 522 20819 20825 "gdk.ml" 526 20992 21001
+)
+"gdk.ml" 522 20819 20829 "gdk.ml" 522 20819 20832
+type(
+  int
+)
+"gdk.ml" 522 20819 20835 "gdk.ml" 522 20819 20846
+type(
+  (int * int) list -> int
+)
+ident(
+  ext_ref StdLabels.List.length
+)
+"gdk.ml" 522 20819 20847 "gdk.ml" 522 20819 20848
+type(
+  (int * int) list
+)
+ident(
+  int_ref l "gdk.ml" 521 20791 20815 "gdk.ml" 521 20791 20816
+)
+"gdk.ml" 522 20819 20835 "gdk.ml" 522 20819 20848
+call(
+  stack
+)
+type(
+  int
+)
+"gdk.ml" 523 20852 20862 "gdk.ml" 523 20852 20865
+type(
+  PointArray.t
+)
+"gdk.ml" 523 20852 20868 "gdk.ml" 523 20852 20885
+type(
+  len:int -> PointArray.t
+)
+ident(
+  ext_ref PointArray.create
+)
+"gdk.ml" 523 20852 20887 "gdk.ml" 523 20852 20890
+type(
+  int
+)
+ident(
+  int_ref len "gdk.ml" 522 20819 20829 "gdk.ml" 522 20819 20832
+)
+"gdk.ml" 523 20852 20868 "gdk.ml" 523 20852 20890
+type(
+  PointArray.t
+)
+"gdk.ml" 524 20894 20900 "gdk.ml" 524 20894 20914
+type(
+  f:(int -> int * int -> int) -> init:int -> (int * int) list -> int
+)
+ident(
+  ext_ref StdLabels.List.fold_left
+)
+"gdk.ml" 524 20894 20915 "gdk.ml" 524 20894 20916
+type(
+  (int * int) list
+)
+ident(
+  int_ref l "gdk.ml" 521 20791 20815 "gdk.ml" 521 20791 20816
+)
+"gdk.ml" 524 20894 20923 "gdk.ml" 524 20894 20924
+type(
+  int
+)
+"gdk.ml" 525 20925 20940 "gdk.ml" 525 20925 20943
+type(
+  int
+)
+ident(
+  def pos "gdk.ml" 525 20925 20944 "gdk.ml" 525 20925 20989
+)
+"gdk.ml" 525 20925 20945 "gdk.ml" 525 20925 20946
+type(
+  int
+)
+ident(
+  def x "gdk.ml" 525 20925 20953 "gdk.ml" 525 20925 20989
+)
+"gdk.ml" 525 20925 20947 "gdk.ml" 525 20925 20948
+type(
+  int
+)
+ident(
+  def y "gdk.ml" 525 20925 20953 "gdk.ml" 525 20925 20989
+)
+"gdk.ml" 525 20925 20944 "gdk.ml" 525 20925 20949
+type(
+  int * int
+)
+"gdk.ml" 525 20925 20953 "gdk.ml" 525 20925 20967
+type(
+  PointArray.t -> pos:int -> x:int -> y:int -> unit
+)
+ident(
+  ext_ref PointArray.set
+)
+"gdk.ml" 525 20925 20968 "gdk.ml" 525 20925 20971
+type(
+  PointArray.t
+)
+ident(
+  int_ref arr "gdk.ml" 523 20852 20862 "gdk.ml" 523 20852 20865
+)
+"gdk.ml" 525 20925 20973 "gdk.ml" 525 20925 20976
+type(
+  int
+)
+ident(
+  int_ref pos "gdk.ml" 525 20925 20940 "gdk.ml" 525 20925 20943
+)
+"gdk.ml" 525 20925 20978 "gdk.ml" 525 20925 20979
+type(
+  int
+)
+ident(
+  int_ref x "gdk.ml" 525 20925 20945 "gdk.ml" 525 20925 20946
+)
+"gdk.ml" 525 20925 20981 "gdk.ml" 525 20925 20982
+type(
+  int
+)
+ident(
+  int_ref y "gdk.ml" 525 20925 20947 "gdk.ml" 525 20925 20948
+)
+"gdk.ml" 525 20925 20953 "gdk.ml" 525 20925 20982
+call(
+  stack
+)
+type(
+  unit
+)
+"gdk.ml" 525 20925 20984 "gdk.ml" 525 20925 20987
+type(
+  int
+)
+ident(
+  int_ref pos "gdk.ml" 525 20925 20940 "gdk.ml" 525 20925 20943
+)
+"gdk.ml" 525 20925 20987 "gdk.ml" 525 20925 20988
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"gdk.ml" 525 20925 20988 "gdk.ml" 525 20925 20989
+type(
+  int
+)
+"gdk.ml" 525 20925 20984 "gdk.ml" 525 20925 20989
+type(
+  int
+)
+"gdk.ml" 525 20925 20953 "gdk.ml" 525 20925 20989
+type(
+  int
+)
+"gdk.ml" 525 20925 20935 "gdk.ml" 525 20925 20990
+type(
+  int -> int * int -> int
+)
+"gdk.ml" 524 20894 20900 "gdk.ml" 525 20925 20990
+call(
+  stack
+)
+type(
+  int
+)
+"gdk.ml" 526 20992 20998 "gdk.ml" 526 20992 21001
+type(
+  PointArray.t
+)
+ident(
+  int_ref arr "gdk.ml" 523 20852 20862 "gdk.ml" 523 20852 20865
+)
+"gdk.ml" 524 20894 20900 "gdk.ml" 526 20992 21001
+type(
+  PointArray.t
+)
+"gdk.ml" 523 20852 20858 "gdk.ml" 526 20992 21001
+type(
+  PointArray.t
+)
+"gdk.ml" 522 20819 20825 "gdk.ml" 526 20992 21001
+type(
+  PointArray.t
+)
+"gdk.ml" 528 21009 21013 "gdk.ml" 528 21009 21014
+type(
+  PointArray.t -> 'c
+)
+ident(
+  int_ref f "gdk.ml" 520 20765 20784 "gdk.ml" 520 20765 20785
+)
+"gdk.ml" 528 21009 21016 "gdk.ml" 528 21009 21031
+type(
+  (int * int) list -> PointArray.t
+)
+ident(
+  int_ref array_of_points "gdk.ml" 521 20791 20799 "gdk.ml" 521 20791 20814
+)
+"gdk.ml" 528 21009 21032 "gdk.ml" 528 21009 21033
+type(
+  (int * int) list
+)
+ident(
+  int_ref l "gdk.ml" 520 20765 20786 "gdk.ml" 520 20765 20787
+)
+"gdk.ml" 528 21009 21015 "gdk.ml" 528 21009 21034
+call(
+  stack
+)
+type(
+  PointArray.t
+)
+"gdk.ml" 528 21009 21013 "gdk.ml" 528 21009 21034
+call(
+  tail
+)
+type(
+  'c
+)
+"gdk.ml" 521 20791 20795 "gdk.ml" 528 21009 21034
+type(
+  'c
+)
+"gdk.ml" 530 21036 21042 "gdk.ml" 530 21036 21056
+type(
+  (SegmentArray.t -> 'd) -> ((int * int) * (int * int)) list -> 'd
+)
+ident(
+  def f_segmentarray "gdk.ml" 541 21343 21345 "gdk.ml" 586 23361 23364
+)
+"gdk.ml" 530 21036 21057 "gdk.ml" 530 21036 21058
+type(
+  SegmentArray.t -> 'd
+)
+ident(
+  def f "gdk.ml" 530 21036 21059 "gdk.ml" 539 21314 21341
+)
+"gdk.ml" 530 21036 21059 "gdk.ml" 530 21036 21060
+type(
+  ((int * int) * (int * int)) list
+)
+ident(
+  def l "gdk.ml" 531 21064 21068 "gdk.ml" 539 21314 21341
+)
+"gdk.ml" 531 21064 21072 "gdk.ml" 531 21064 21089
+type(
+  ((int * int) * (int * int)) list -> SegmentArray.t
+)
+"gdk.ml" 531 21064 21090 "gdk.ml" 531 21064 21091
+type(
+  ((int * int) * (int * int)) list
+)
+ident(
+  def l "gdk.ml" 532 21094 21100 "gdk.ml" 537 21297 21306
+)
+"gdk.ml" 532 21094 21104 "gdk.ml" 532 21094 21107
+type(
+  int
+)
+"gdk.ml" 532 21094 21110 "gdk.ml" 532 21094 21121
+type(
+  ((int * int) * (int * int)) list -> int
+)
+ident(
+  ext_ref StdLabels.List.length
+)
+"gdk.ml" 532 21094 21122 "gdk.ml" 532 21094 21123
+type(
+  ((int * int) * (int * int)) list
+)
+ident(
+  int_ref l "gdk.ml" 531 21064 21090 "gdk.ml" 531 21064 21091
+)
+"gdk.ml" 532 21094 21110 "gdk.ml" 532 21094 21123
+call(
+  stack
+)
+type(
+  int
+)
+"gdk.ml" 533 21127 21137 "gdk.ml" 533 21127 21140
+type(
+  SegmentArray.t
+)
+"gdk.ml" 533 21127 21143 "gdk.ml" 533 21127 21162
+type(
+  len:int -> SegmentArray.t
+)
+ident(
+  ext_ref SegmentArray.create
+)
+"gdk.ml" 533 21127 21164 "gdk.ml" 533 21127 21167
+type(
+  int
+)
+ident(
+  int_ref len "gdk.ml" 532 21094 21104 "gdk.ml" 532 21094 21107
+)
+"gdk.ml" 533 21127 21143 "gdk.ml" 533 21127 21167
+type(
+  SegmentArray.t
+)
+"gdk.ml" 534 21171 21177 "gdk.ml" 534 21171 21191
+type(
+  f:(int -> (int * int) * (int * int) -> int) ->
+  init:int -> ((int * int) * (int * int)) list -> int
+)
+ident(
+  ext_ref StdLabels.List.fold_left
+)
+"gdk.ml" 534 21171 21192 "gdk.ml" 534 21171 21193
+type(
+  ((int * int) * (int * int)) list
+)
+ident(
+  int_ref l "gdk.ml" 531 21064 21090 "gdk.ml" 531 21064 21091
+)
+"gdk.ml" 534 21171 21200 "gdk.ml" 534 21171 21201
+type(
+  int
+)
+"gdk.ml" 535 21202 21217 "gdk.ml" 535 21202 21220
+type(
+  int
+)
+ident(
+  def pos "gdk.ml" 535 21202 21221 "gdk.ml" 536 21243 21294
+)
+"gdk.ml" 535 21202 21223 "gdk.ml" 535 21202 21225
+type(
+  int
+)
+ident(
+  def x1 "gdk.ml" 536 21243 21246 "gdk.ml" 536 21243 21294
+)
+"gdk.ml" 535 21202 21226 "gdk.ml" 535 21202 21228
+type(
+  int
+)
+ident(
+  def y1 "gdk.ml" 536 21243 21246 "gdk.ml" 536 21243 21294
+)
+"gdk.ml" 535 21202 21222 "gdk.ml" 535 21202 21229
+type(
+  int * int
+)
+"gdk.ml" 535 21202 21231 "gdk.ml" 535 21202 21233
+type(
+  int
+)
+ident(
+  def x2 "gdk.ml" 536 21243 21246 "gdk.ml" 536 21243 21294
+)
+"gdk.ml" 535 21202 21234 "gdk.ml" 535 21202 21236
+type(
+  int
+)
+ident(
+  def y2 "gdk.ml" 536 21243 21246 "gdk.ml" 536 21243 21294
+)
+"gdk.ml" 535 21202 21230 "gdk.ml" 535 21202 21237
+type(
+  int * int
+)
+"gdk.ml" 535 21202 21221 "gdk.ml" 535 21202 21238
+type(
+  (int * int) * (int * int)
+)
+"gdk.ml" 536 21243 21246 "gdk.ml" 536 21243 21262
+type(
+  SegmentArray.t -> pos:int -> x1:int -> y1:int -> x2:int -> y2:int -> unit
+)
+ident(
+  ext_ref SegmentArray.set
+)
+"gdk.ml" 536 21243 21263 "gdk.ml" 536 21243 21266
+type(
+  SegmentArray.t
+)
+ident(
+  int_ref arr "gdk.ml" 533 21127 21137 "gdk.ml" 533 21127 21140
+)
+"gdk.ml" 536 21243 21268 "gdk.ml" 536 21243 21271
+type(
+  int
+)
+ident(
+  int_ref pos "gdk.ml" 535 21202 21217 "gdk.ml" 535 21202 21220
+)
+"gdk.ml" 536 21243 21273 "gdk.ml" 536 21243 21275
+type(
+  int
+)
+ident(
+  int_ref x1 "gdk.ml" 535 21202 21223 "gdk.ml" 535 21202 21225
+)
+"gdk.ml" 536 21243 21277 "gdk.ml" 536 21243 21279
+type(
+  int
+)
+ident(
+  int_ref y1 "gdk.ml" 535 21202 21226 "gdk.ml" 535 21202 21228
+)
+"gdk.ml" 536 21243 21281 "gdk.ml" 536 21243 21283
+type(
+  int
+)
+ident(
+  int_ref x2 "gdk.ml" 535 21202 21231 "gdk.ml" 535 21202 21233
+)
+"gdk.ml" 536 21243 21285 "gdk.ml" 536 21243 21287
+type(
+  int
+)
+ident(
+  int_ref y2 "gdk.ml" 535 21202 21234 "gdk.ml" 535 21202 21236
+)
+"gdk.ml" 536 21243 21246 "gdk.ml" 536 21243 21287
+call(
+  stack
+)
+type(
+  unit
+)
+"gdk.ml" 536 21243 21289 "gdk.ml" 536 21243 21292
+type(
+  int
+)
+ident(
+  int_ref pos "gdk.ml" 535 21202 21217 "gdk.ml" 535 21202 21220
+)
+"gdk.ml" 536 21243 21292 "gdk.ml" 536 21243 21293
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"gdk.ml" 536 21243 21293 "gdk.ml" 536 21243 21294
+type(
+  int
+)
+"gdk.ml" 536 21243 21289 "gdk.ml" 536 21243 21294
+type(
+  int
+)
+"gdk.ml" 536 21243 21246 "gdk.ml" 536 21243 21294
+type(
+  int
+)
+"gdk.ml" 535 21202 21212 "gdk.ml" 536 21243 21295
+type(
+  int -> (int * int) * (int * int) -> int
+)
+"gdk.ml" 534 21171 21177 "gdk.ml" 536 21243 21295
+call(
+  stack
+)
+type(
+  int
+)
+"gdk.ml" 537 21297 21303 "gdk.ml" 537 21297 21306
+type(
+  SegmentArray.t
+)
+ident(
+  int_ref arr "gdk.ml" 533 21127 21137 "gdk.ml" 533 21127 21140
+)
+"gdk.ml" 534 21171 21177 "gdk.ml" 537 21297 21306
+type(
+  SegmentArray.t
+)
+"gdk.ml" 533 21127 21133 "gdk.ml" 537 21297 21306
+type(
+  SegmentArray.t
+)
+"gdk.ml" 532 21094 21100 "gdk.ml" 537 21297 21306
+type(
+  SegmentArray.t
+)
+"gdk.ml" 539 21314 21318 "gdk.ml" 539 21314 21319
+type(
+  SegmentArray.t -> 'd
+)
+ident(
+  int_ref f "gdk.ml" 530 21036 21057 "gdk.ml" 530 21036 21058
+)
+"gdk.ml" 539 21314 21321 "gdk.ml" 539 21314 21338
+type(
+  ((int * int) * (int * int)) list -> SegmentArray.t
+)
+ident(
+  int_ref array_of_segments "gdk.ml" 531 21064 21072 "gdk.ml" 531 21064 21089
+)
+"gdk.ml" 539 21314 21339 "gdk.ml" 539 21314 21340
+type(
+  ((int * int) * (int * int)) list
+)
+ident(
+  int_ref l "gdk.ml" 530 21036 21059 "gdk.ml" 530 21036 21060
+)
+"gdk.ml" 539 21314 21320 "gdk.ml" 539 21314 21341
+call(
+  stack
+)
+type(
+  SegmentArray.t
+)
+"gdk.ml" 539 21314 21318 "gdk.ml" 539 21314 21341
+call(
+  tail
+)
+type(
+  'd
+)
+"gdk.ml" 531 21064 21068 "gdk.ml" 539 21314 21341
+type(
+  'd
+)
+"gdk.ml" 544 21458 21464 "gdk.ml" 544 21458 21471
+type(
+  [> `drawable ] Gobject.obj ->
+  gc -> ?filled:bool -> (int * int) list -> unit
+)
+ident(
+  def polygon "gdk.ml" 547 21568 21570 "gdk.ml" 586 23361 23364
+)
+"gdk.ml" 544 21458 21472 "gdk.ml" 544 21458 21473
+type(
+  ([> `drawable ] as 'e) Gobject.obj
+)
+ident(
+  def w "gdk.ml" 544 21458 21474 "gdk.ml" 546 21519 21567
+)
+"gdk.ml" 544 21458 21474 "gdk.ml" 544 21458 21476
+type(
+  gc
+)
+ident(
+  def gc "gdk.ml" 544 21458 21477 "gdk.ml" 546 21519 21567
+)
+"gdk.ml" 544 21458 21479 "gdk.ml" 544 21458 21485
+type(
+  bool
+)
+"gdk.ml" 544 21458 21486 "gdk.ml" 544 21458 21491
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gdk.ml" 544 21458 21486 "gdk.ml" 544 21458 21491
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gdk.ml" 544 21458 21486 "gdk.ml" 544 21458 21491
+)
+"gdk.ml" 545 21504 21510 "gdk.ml" 545 21504 21512
+type(
+  (int * int) list
+)
+"gdk.ml" 545 21504 21516 "gdk.ml" 545 21504 21518
+type(
+  unit
+)
+"gdk.ml" 546 21519 21525 "gdk.ml" 546 21519 21526
+type(
+  (int * int) list
+)
+ident(
+  def l "gdk.ml" 546 21519 21530 "gdk.ml" 546 21519 21567
+)
+"gdk.ml" 546 21519 21530 "gdk.ml" 546 21519 21542
+type(
+  (PointArray.t -> unit) -> (int * int) list -> unit
+)
+ident(
+  int_ref f_pointarray "gdk.ml" 520 20765 20771 "gdk.ml" 520 20765 20783
+)
+"gdk.ml" 546 21519 21544 "gdk.ml" 546 21519 21551
+type(
+  'e Gobject.obj -> gc -> filled:bool -> PointArray.t -> unit
+)
+"gdk.ml" 546 21519 21552 "gdk.ml" 546 21519 21553
+type(
+  'e Gobject.obj
+)
+ident(
+  int_ref w "gdk.ml" 544 21458 21472 "gdk.ml" 544 21458 21473
+)
+"gdk.ml" 546 21519 21554 "gdk.ml" 546 21519 21556
+type(
+  gc
+)
+ident(
+  int_ref gc "gdk.ml" 544 21458 21474 "gdk.ml" 544 21458 21476
+)
+"gdk.ml" 546 21519 21558 "gdk.ml" 546 21519 21564
+type(
+  bool
+)
+ident(
+  int_ref filled "gdk.ml" 544 21458 21479 "gdk.ml" 544 21458 21485
+)
+"gdk.ml" 546 21519 21543 "gdk.ml" 546 21519 21565
+call(
+  stack
+)
+type(
+  PointArray.t -> unit
+)
+"gdk.ml" 546 21519 21566 "gdk.ml" 546 21519 21567
+type(
+  (int * int) list
+)
+ident(
+  int_ref l "gdk.ml" 546 21519 21525 "gdk.ml" 546 21519 21526
+)
+"gdk.ml" 546 21519 21530 "gdk.ml" 546 21519 21567
+call(
+  tail
+)
+type(
+  unit
+)
+"gdk.ml" 544 21458 21495 "gdk.ml" 546 21519 21567
+type(
+  (int * int) list -> unit
+)
+"gdk.ml" 558 22121 22127 "gdk.ml" 558 22121 22132
+type(
+  [> `drawable ] Gobject.obj ->
+  gc ->
+  ?xsrc:int ->
+  ?ysrc:int ->
+  ?xdest:int -> ?ydest:int -> ?width:int -> ?height:int -> image -> unit
+)
+ident(
+  def image "gdk.ml" 567 22505 22507 "gdk.ml" 586 23361 23364
+)
+"gdk.ml" 558 22121 22133 "gdk.ml" 558 22121 22134
+type(
+  ([> `drawable ] as 'f) Gobject.obj
+)
+ident(
+  def w "gdk.ml" 558 22121 22135 "gdk.ml" 560 22221 22283
+)
+"gdk.ml" 558 22121 22135 "gdk.ml" 558 22121 22137
+type(
+  gc
+)
+ident(
+  def gc "gdk.ml" 558 22121 22138 "gdk.ml" 560 22221 22283
+)
+"gdk.ml" 558 22121 22140 "gdk.ml" 558 22121 22144
+type(
+  int
+)
+"gdk.ml" 558 22121 22145 "gdk.ml" 558 22121 22146
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 558 22121 22145 "gdk.ml" 558 22121 22146
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 558 22121 22145 "gdk.ml" 558 22121 22146
+)
+"gdk.ml" 558 22121 22150 "gdk.ml" 558 22121 22154
+type(
+  int
+)
+"gdk.ml" 558 22121 22155 "gdk.ml" 558 22121 22156
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 558 22121 22155 "gdk.ml" 558 22121 22156
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 558 22121 22155 "gdk.ml" 558 22121 22156
+)
+"gdk.ml" 558 22121 22160 "gdk.ml" 558 22121 22165
+type(
+  int
+)
+"gdk.ml" 558 22121 22166 "gdk.ml" 558 22121 22167
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 558 22121 22166 "gdk.ml" 558 22121 22167
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 558 22121 22166 "gdk.ml" 558 22121 22167
+)
+"gdk.ml" 558 22121 22171 "gdk.ml" 558 22121 22176
+type(
+  int
+)
+"gdk.ml" 558 22121 22177 "gdk.ml" 558 22121 22178
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 558 22121 22177 "gdk.ml" 558 22121 22178
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 558 22121 22177 "gdk.ml" 558 22121 22178
+)
+"gdk.ml" 559 22180 22188 "gdk.ml" 559 22180 22193
+type(
+  int
+)
+"gdk.ml" 559 22180 22195 "gdk.ml" 559 22180 22197
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 559 22180 22195 "gdk.ml" 559 22180 22197
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 559 22180 22195 "gdk.ml" 559 22180 22197
+)
+"gdk.ml" 559 22180 22201 "gdk.ml" 559 22180 22207
+type(
+  int
+)
+"gdk.ml" 559 22180 22209 "gdk.ml" 559 22180 22211
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 559 22180 22209 "gdk.ml" 559 22180 22211
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 559 22180 22209 "gdk.ml" 559 22180 22211
+)
+"gdk.ml" 559 22180 22213 "gdk.ml" 559 22180 22218
+type(
+  image
+)
+ident(
+  def image "gdk.ml" 560 22221 22225 "gdk.ml" 560 22221 22283
+)
+"gdk.ml" 560 22221 22225 "gdk.ml" 560 22221 22231
+type(
+  'f Gobject.obj ->
+  gc ->
+  image ->
+  xsrc:int ->
+  ysrc:int -> xdest:int -> ydest:int -> width:int -> height:int -> unit
+)
+"gdk.ml" 560 22221 22232 "gdk.ml" 560 22221 22233
+type(
+  'f Gobject.obj
+)
+ident(
+  int_ref w "gdk.ml" 558 22121 22133 "gdk.ml" 558 22121 22134
+)
+"gdk.ml" 560 22221 22234 "gdk.ml" 560 22221 22236
+type(
+  gc
+)
+ident(
+  int_ref gc "gdk.ml" 558 22121 22135 "gdk.ml" 558 22121 22137
+)
+"gdk.ml" 560 22221 22237 "gdk.ml" 560 22221 22242
+type(
+  image
+)
+ident(
+  int_ref image "gdk.ml" 559 22180 22213 "gdk.ml" 559 22180 22218
+)
+"gdk.ml" 560 22221 22244 "gdk.ml" 560 22221 22248
+type(
+  int
+)
+ident(
+  int_ref xsrc "gdk.ml" 558 22121 22140 "gdk.ml" 558 22121 22144
+)
+"gdk.ml" 560 22221 22250 "gdk.ml" 560 22221 22254
+type(
+  int
+)
+ident(
+  int_ref ysrc "gdk.ml" 558 22121 22150 "gdk.ml" 558 22121 22154
+)
+"gdk.ml" 560 22221 22256 "gdk.ml" 560 22221 22261
+type(
+  int
+)
+ident(
+  int_ref xdest "gdk.ml" 558 22121 22160 "gdk.ml" 558 22121 22165
+)
+"gdk.ml" 560 22221 22263 "gdk.ml" 560 22221 22268
+type(
+  int
+)
+ident(
+  int_ref ydest "gdk.ml" 558 22121 22171 "gdk.ml" 558 22121 22176
+)
+"gdk.ml" 560 22221 22270 "gdk.ml" 560 22221 22275
+type(
+  int
+)
+ident(
+  int_ref width "gdk.ml" 559 22180 22188 "gdk.ml" 559 22180 22193
+)
+"gdk.ml" 560 22221 22277 "gdk.ml" 560 22221 22283
+type(
+  int
+)
+ident(
+  int_ref height "gdk.ml" 559 22180 22201 "gdk.ml" 559 22180 22207
+)
+"gdk.ml" 560 22221 22225 "gdk.ml" 560 22221 22283
+type(
+  unit
+)
+"gdk.ml" 571 22711 22717 "gdk.ml" 571 22711 22723
+type(
+  [> `drawable ] Gobject.obj ->
+  gc ->
+  ?xsrc:int ->
+  ?ysrc:int ->
+  ?xdest:int -> ?ydest:int -> ?width:int -> ?height:int -> pixmap -> unit
+)
+ident(
+  def pixmap "gdk.ml" 575 22879 22881 "gdk.ml" 586 23361 23364
+)
+"gdk.ml" 571 22711 22724 "gdk.ml" 571 22711 22725
+type(
+  ([> `drawable ] as 'g) Gobject.obj
+)
+ident(
+  def w "gdk.ml" 571 22711 22726 "gdk.ml" 573 22813 22877
+)
+"gdk.ml" 571 22711 22726 "gdk.ml" 571 22711 22728
+type(
+  gc
+)
+ident(
+  def gc "gdk.ml" 571 22711 22729 "gdk.ml" 573 22813 22877
+)
+"gdk.ml" 571 22711 22731 "gdk.ml" 571 22711 22735
+type(
+  int
+)
+"gdk.ml" 571 22711 22736 "gdk.ml" 571 22711 22737
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 571 22711 22736 "gdk.ml" 571 22711 22737
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 571 22711 22736 "gdk.ml" 571 22711 22737
+)
+"gdk.ml" 571 22711 22741 "gdk.ml" 571 22711 22745
+type(
+  int
+)
+"gdk.ml" 571 22711 22746 "gdk.ml" 571 22711 22747
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 571 22711 22746 "gdk.ml" 571 22711 22747
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 571 22711 22746 "gdk.ml" 571 22711 22747
+)
+"gdk.ml" 571 22711 22751 "gdk.ml" 571 22711 22756
+type(
+  int
+)
+"gdk.ml" 571 22711 22757 "gdk.ml" 571 22711 22758
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 571 22711 22757 "gdk.ml" 571 22711 22758
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 571 22711 22757 "gdk.ml" 571 22711 22758
+)
+"gdk.ml" 571 22711 22762 "gdk.ml" 571 22711 22767
+type(
+  int
+)
+"gdk.ml" 571 22711 22768 "gdk.ml" 571 22711 22769
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 571 22711 22768 "gdk.ml" 571 22711 22769
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 571 22711 22768 "gdk.ml" 571 22711 22769
+)
+"gdk.ml" 572 22771 22779 "gdk.ml" 572 22771 22784
+type(
+  int
+)
+"gdk.ml" 572 22771 22786 "gdk.ml" 572 22771 22788
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 572 22771 22786 "gdk.ml" 572 22771 22788
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 572 22771 22786 "gdk.ml" 572 22771 22788
+)
+"gdk.ml" 572 22771 22792 "gdk.ml" 572 22771 22798
+type(
+  int
+)
+"gdk.ml" 572 22771 22800 "gdk.ml" 572 22771 22802
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 572 22771 22800 "gdk.ml" 572 22771 22802
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 572 22771 22800 "gdk.ml" 572 22771 22802
+)
+"gdk.ml" 572 22771 22804 "gdk.ml" 572 22771 22810
+type(
+  pixmap
+)
+ident(
+  def pixmap "gdk.ml" 573 22813 22817 "gdk.ml" 573 22813 22877
+)
+"gdk.ml" 573 22813 22817 "gdk.ml" 573 22813 22824
+type(
+  'g Gobject.obj ->
+  gc ->
+  pixmap ->
+  xsrc:int ->
+  ysrc:int -> xdest:int -> ydest:int -> width:int -> height:int -> unit
+)
+"gdk.ml" 573 22813 22825 "gdk.ml" 573 22813 22826
+type(
+  'g Gobject.obj
+)
+ident(
+  int_ref w "gdk.ml" 571 22711 22724 "gdk.ml" 571 22711 22725
+)
+"gdk.ml" 573 22813 22827 "gdk.ml" 573 22813 22829
+type(
+  gc
+)
+ident(
+  int_ref gc "gdk.ml" 571 22711 22726 "gdk.ml" 571 22711 22728
+)
+"gdk.ml" 573 22813 22830 "gdk.ml" 573 22813 22836
+type(
+  pixmap
+)
+ident(
+  int_ref pixmap "gdk.ml" 572 22771 22804 "gdk.ml" 572 22771 22810
+)
+"gdk.ml" 573 22813 22838 "gdk.ml" 573 22813 22842
+type(
+  int
+)
+ident(
+  int_ref xsrc "gdk.ml" 571 22711 22731 "gdk.ml" 571 22711 22735
+)
+"gdk.ml" 573 22813 22844 "gdk.ml" 573 22813 22848
+type(
+  int
+)
+ident(
+  int_ref ysrc "gdk.ml" 571 22711 22741 "gdk.ml" 571 22711 22745
+)
+"gdk.ml" 573 22813 22850 "gdk.ml" 573 22813 22855
+type(
+  int
+)
+ident(
+  int_ref xdest "gdk.ml" 571 22711 22751 "gdk.ml" 571 22711 22756
+)
+"gdk.ml" 573 22813 22857 "gdk.ml" 573 22813 22862
+type(
+  int
+)
+ident(
+  int_ref ydest "gdk.ml" 571 22711 22762 "gdk.ml" 571 22711 22767
+)
+"gdk.ml" 573 22813 22864 "gdk.ml" 573 22813 22869
+type(
+  int
+)
+ident(
+  int_ref width "gdk.ml" 572 22771 22779 "gdk.ml" 572 22771 22784
+)
+"gdk.ml" 573 22813 22871 "gdk.ml" 573 22813 22877
+type(
+  int
+)
+ident(
+  int_ref height "gdk.ml" 572 22771 22792 "gdk.ml" 572 22771 22798
+)
+"gdk.ml" 573 22813 22817 "gdk.ml" 573 22813 22877
+type(
+  unit
+)
+"gdk.ml" 577 22975 22981 "gdk.ml" 577 22975 22987
+type(
+  [> `drawable ] Gobject.obj -> gc -> (int * int) list -> unit
+)
+ident(
+  def points "gdk.ml" 578 23026 23028 "gdk.ml" 586 23361 23364
+)
+"gdk.ml" 577 22975 22988 "gdk.ml" 577 22975 22989
+type(
+  ([> `drawable ] as 'h) Gobject.obj
+)
+ident(
+  def w "gdk.ml" 577 22975 22990 "gdk.ml" 577 22975 23025
+)
+"gdk.ml" 577 22975 22990 "gdk.ml" 577 22975 22992
+type(
+  gc
+)
+ident(
+  def gc "gdk.ml" 577 22975 22993 "gdk.ml" 577 22975 23025
+)
+"gdk.ml" 577 22975 22993 "gdk.ml" 577 22975 22994
+type(
+  (int * int) list
+)
+ident(
+  def l "gdk.ml" 577 22975 22997 "gdk.ml" 577 22975 23025
+)
+"gdk.ml" 577 22975 22997 "gdk.ml" 577 22975 23009
+type(
+  (PointArray.t -> unit) -> (int * int) list -> unit
+)
+ident(
+  int_ref f_pointarray "gdk.ml" 520 20765 20771 "gdk.ml" 520 20765 20783
+)
+"gdk.ml" 577 22975 23011 "gdk.ml" 577 22975 23017
+type(
+  'h Gobject.obj -> gc -> PointArray.t -> unit
+)
+"gdk.ml" 577 22975 23018 "gdk.ml" 577 22975 23019
+type(
+  'h Gobject.obj
+)
+ident(
+  int_ref w "gdk.ml" 577 22975 22988 "gdk.ml" 577 22975 22989
+)
+"gdk.ml" 577 22975 23020 "gdk.ml" 577 22975 23022
+type(
+  gc
+)
+ident(
+  int_ref gc "gdk.ml" 577 22975 22990 "gdk.ml" 577 22975 22992
+)
+"gdk.ml" 577 22975 23010 "gdk.ml" 577 22975 23023
+call(
+  stack
+)
+type(
+  PointArray.t -> unit
+)
+"gdk.ml" 577 22975 23024 "gdk.ml" 577 22975 23025
+type(
+  (int * int) list
+)
+ident(
+  int_ref l "gdk.ml" 577 22975 22993 "gdk.ml" 577 22975 22994
+)
+"gdk.ml" 577 22975 22997 "gdk.ml" 577 22975 23025
+call(
+  tail
+)
+type(
+  unit
+)
+"gdk.ml" 580 23120 23126 "gdk.ml" 580 23120 23131
+type(
+  [> `drawable ] Gobject.obj -> gc -> (int * int) list -> unit
+)
+ident(
+  def lines "gdk.ml" 581 23169 23171 "gdk.ml" 586 23361 23364
+)
+"gdk.ml" 580 23120 23132 "gdk.ml" 580 23120 23133
+type(
+  ([> `drawable ] as 'i) Gobject.obj
+)
+ident(
+  def w "gdk.ml" 580 23120 23134 "gdk.ml" 580 23120 23168
+)
+"gdk.ml" 580 23120 23134 "gdk.ml" 580 23120 23136
+type(
+  gc
+)
+ident(
+  def gc "gdk.ml" 580 23120 23137 "gdk.ml" 580 23120 23168
+)
+"gdk.ml" 580 23120 23137 "gdk.ml" 580 23120 23138
+type(
+  (int * int) list
+)
+ident(
+  def l "gdk.ml" 580 23120 23141 "gdk.ml" 580 23120 23168
+)
+"gdk.ml" 580 23120 23141 "gdk.ml" 580 23120 23153
+type(
+  (PointArray.t -> unit) -> (int * int) list -> unit
+)
+ident(
+  int_ref f_pointarray "gdk.ml" 520 20765 20771 "gdk.ml" 520 20765 20783
+)
+"gdk.ml" 580 23120 23155 "gdk.ml" 580 23120 23160
+type(
+  'i Gobject.obj -> gc -> PointArray.t -> unit
+)
+"gdk.ml" 580 23120 23161 "gdk.ml" 580 23120 23162
+type(
+  'i Gobject.obj
+)
+ident(
+  int_ref w "gdk.ml" 580 23120 23132 "gdk.ml" 580 23120 23133
+)
+"gdk.ml" 580 23120 23163 "gdk.ml" 580 23120 23165
+type(
+  gc
+)
+ident(
+  int_ref gc "gdk.ml" 580 23120 23134 "gdk.ml" 580 23120 23136
+)
+"gdk.ml" 580 23120 23154 "gdk.ml" 580 23120 23166
+call(
+  stack
+)
+type(
+  PointArray.t -> unit
+)
+"gdk.ml" 580 23120 23167 "gdk.ml" 580 23120 23168
+type(
+  (int * int) list
+)
+ident(
+  int_ref l "gdk.ml" 580 23120 23137 "gdk.ml" 580 23120 23138
+)
+"gdk.ml" 580 23120 23141 "gdk.ml" 580 23120 23168
+call(
+  tail
+)
+type(
+  unit
+)
+"gdk.ml" 583 23271 23277 "gdk.ml" 583 23271 23285
+type(
+  [> `drawable ] Gobject.obj ->
+  gc -> ((int * int) * (int * int)) list -> unit
+)
+ident(
+  def segments "gdk.ml" 585 23317 23360 "gdk.ml" 586 23361 23364
+)
+"gdk.ml" 583 23271 23286 "gdk.ml" 583 23271 23287
+type(
+  ([> `drawable ] as 'j) Gobject.obj
+)
+ident(
+  def w "gdk.ml" 583 23271 23288 "gdk.ml" 585 23317 23360
+)
+"gdk.ml" 583 23271 23288 "gdk.ml" 583 23271 23290
+type(
+  gc
+)
+ident(
+  def gc "gdk.ml" 583 23271 23293 "gdk.ml" 585 23317 23360
+)
+"gdk.ml" 584 23302 23308 "gdk.ml" 584 23302 23310
+type(
+  ((int * int) * (int * int)) list
+)
+"gdk.ml" 584 23302 23314 "gdk.ml" 584 23302 23316
+type(
+  unit
+)
+"gdk.ml" 585 23317 23323 "gdk.ml" 585 23317 23324
+type(
+  ((int * int) * (int * int)) list
+)
+ident(
+  def l "gdk.ml" 585 23317 23328 "gdk.ml" 585 23317 23360
+)
+"gdk.ml" 585 23317 23328 "gdk.ml" 585 23317 23342
+type(
+  (SegmentArray.t -> unit) -> ((int * int) * (int * int)) list -> unit
+)
+ident(
+  int_ref f_segmentarray "gdk.ml" 530 21036 21042 "gdk.ml" 530 21036 21056
+)
+"gdk.ml" 585 23317 23344 "gdk.ml" 585 23317 23352
+type(
+  'j Gobject.obj -> gc -> SegmentArray.t -> unit
+)
+"gdk.ml" 585 23317 23353 "gdk.ml" 585 23317 23354
+type(
+  'j Gobject.obj
+)
+ident(
+  int_ref w "gdk.ml" 583 23271 23286 "gdk.ml" 583 23271 23287
+)
+"gdk.ml" 585 23317 23355 "gdk.ml" 585 23317 23357
+type(
+  gc
+)
+ident(
+  int_ref gc "gdk.ml" 583 23271 23288 "gdk.ml" 583 23271 23290
+)
+"gdk.ml" 585 23317 23343 "gdk.ml" 585 23317 23358
+call(
+  stack
+)
+type(
+  SegmentArray.t -> unit
+)
+"gdk.ml" 585 23317 23359 "gdk.ml" 585 23317 23360
+type(
+  ((int * int) * (int * int)) list
+)
+ident(
+  int_ref l "gdk.ml" 585 23317 23323 "gdk.ml" 585 23317 23324
+)
+"gdk.ml" 585 23317 23328 "gdk.ml" 585 23317 23360
+call(
+  tail
+)
+type(
+  unit
+)
+"gdk.ml" 583 23271 23293 "gdk.ml" 585 23317 23360
+type(
+  ((int * int) * (int * int)) list -> unit
+)
+"gdk.ml" 596 23793 23799 "gdk.ml" 596 23793 23809
+type(
+  [> `drawable ] Gobject.obj ->
+  gc ->
+  width:int ->
+  height:int ->
+  ?x:int ->
+  ?y:int ->
+  ?dither:Tags.rgb_dither -> ?row_stride:int -> Gpointer.region -> unit
+)
+ident(
+  def draw_image "gdk.ml" 601 24059 24125 "gdk.ml" 602 24126 24129
+)
+"gdk.ml" 596 23793 23810 "gdk.ml" 596 23793 23811
+type(
+  ([> `drawable ] as 'a) Gobject.obj
+)
+ident(
+  def w "gdk.ml" 596 23793 23812 "gdk.ml" 601 24059 24125
+)
+"gdk.ml" 596 23793 23812 "gdk.ml" 596 23793 23814
+type(
+  gc
+)
+ident(
+  def gc "gdk.ml" 596 23793 23815 "gdk.ml" 601 24059 24125
+)
+"gdk.ml" 596 23793 23816 "gdk.ml" 596 23793 23821
+type(
+  int
+)
+ident(
+  def width "gdk.ml" 596 23793 23822 "gdk.ml" 601 24059 24125
+)
+"gdk.ml" 596 23793 23823 "gdk.ml" 596 23793 23829
+type(
+  int
+)
+ident(
+  def height "gdk.ml" 596 23793 23830 "gdk.ml" 601 24059 24125
+)
+"gdk.ml" 596 23793 23832 "gdk.ml" 596 23793 23833
+type(
+  int
+)
+"gdk.ml" 596 23793 23834 "gdk.ml" 596 23793 23835
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 596 23793 23834 "gdk.ml" 596 23793 23835
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 596 23793 23834 "gdk.ml" 596 23793 23835
+)
+"gdk.ml" 596 23793 23839 "gdk.ml" 596 23793 23840
+type(
+  int
+)
+"gdk.ml" 596 23793 23841 "gdk.ml" 596 23793 23842
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 596 23793 23841 "gdk.ml" 596 23793 23842
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 596 23793 23841 "gdk.ml" 596 23793 23842
+)
+"gdk.ml" 596 23793 23846 "gdk.ml" 596 23793 23852
+type(
+  Tags.rgb_dither
+)
+"gdk.ml" 596 23793 23853 "gdk.ml" 596 23793 23860
+type(
+  Tags.rgb_dither
+)
+type(
+  Tags.rgb_dither
+)
+ident(
+  int_ref *sth* "gdk.ml" 596 23793 23853 "gdk.ml" 596 23793 23860
+)
+type(
+  Tags.rgb_dither option
+)
+type(
+  Tags.rgb_dither option
+)
+type(
+  Tags.rgb_dither
+)
+ident(
+  def *sth* "gdk.ml" 596 23793 23853 "gdk.ml" 596 23793 23860
+)
+"gdk.ml" 597 23862 23868 "gdk.ml" 597 23862 23878
+type(
+  int
+)
+"gdk.ml" 597 23862 23879 "gdk.ml" 597 23862 23884
+type(
+  int
+)
+ident(
+  int_ref width "gdk.ml" 596 23793 23816 "gdk.ml" 596 23793 23821
+)
+"gdk.ml" 597 23862 23884 "gdk.ml" 597 23862 23885
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"gdk.ml" 597 23862 23885 "gdk.ml" 597 23862 23886
+type(
+  int
+)
+"gdk.ml" 597 23862 23879 "gdk.ml" 597 23862 23886
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdk.ml" 597 23862 23879 "gdk.ml" 597 23862 23886
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdk.ml" 597 23862 23879 "gdk.ml" 597 23862 23886
+)
+"gdk.ml" 597 23862 23888 "gdk.ml" 597 23862 23891
+type(
+  Gpointer.region
+)
+ident(
+  def buf "gdk.ml" 598 23894 23898 "gdk.ml" 601 24059 24125
+)
+"gdk.ml" 598 23894 23901 "gdk.ml" 598 23894 23907
+type(
+  int
+)
+ident(
+  int_ref height "gdk.ml" 596 23793 23823 "gdk.ml" 596 23793 23829
+)
+"gdk.ml" 598 23894 23908 "gdk.ml" 598 23894 23910
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"gdk.ml" 598 23894 23911 "gdk.ml" 598 23894 23912
+type(
+  int
+)
+"gdk.ml" 598 23894 23901 "gdk.ml" 598 23894 23912
+type(
+  bool
+)
+"gdk.ml" 598 23894 23913 "gdk.ml" 598 23894 23915
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdk.ml" 598 23894 23916 "gdk.ml" 598 23894 23921
+type(
+  int
+)
+ident(
+  int_ref width "gdk.ml" 596 23793 23816 "gdk.ml" 596 23793 23821
+)
+"gdk.ml" 598 23894 23922 "gdk.ml" 598 23894 23924
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"gdk.ml" 598 23894 23925 "gdk.ml" 598 23894 23926
+type(
+  int
+)
+"gdk.ml" 598 23894 23916 "gdk.ml" 598 23894 23926
+type(
+  bool
+)
+"gdk.ml" 598 23894 23927 "gdk.ml" 598 23894 23929
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdk.ml" 598 23894 23930 "gdk.ml" 598 23894 23940
+type(
+  int
+)
+ident(
+  int_ref row_stride "gdk.ml" 597 23862 23868 "gdk.ml" 597 23862 23878
+)
+"gdk.ml" 598 23894 23941 "gdk.ml" 598 23894 23942
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gdk.ml" 598 23894 23943 "gdk.ml" 598 23894 23948
+type(
+  int
+)
+ident(
+  int_ref width "gdk.ml" 596 23793 23816 "gdk.ml" 596 23793 23821
+)
+"gdk.ml" 598 23894 23949 "gdk.ml" 598 23894 23950
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"gdk.ml" 598 23894 23951 "gdk.ml" 598 23894 23952
+type(
+  int
+)
+"gdk.ml" 598 23894 23943 "gdk.ml" 598 23894 23952
+type(
+  int
+)
+"gdk.ml" 598 23894 23930 "gdk.ml" 598 23894 23952
+type(
+  bool
+)
+"gdk.ml" 599 23953 23957 "gdk.ml" 599 23953 23959
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdk.ml" 599 23953 23960 "gdk.ml" 599 23953 23975
+type(
+  Gpointer.region -> int
+)
+ident(
+  ext_ref Gpointer.length
+)
+"gdk.ml" 599 23953 23976 "gdk.ml" 599 23953 23979
+type(
+  Gpointer.region
+)
+ident(
+  int_ref buf "gdk.ml" 597 23862 23888 "gdk.ml" 597 23862 23891
+)
+"gdk.ml" 599 23953 23960 "gdk.ml" 599 23953 23979
+call(
+  stack
+)
+type(
+  int
+)
+"gdk.ml" 599 23953 23980 "gdk.ml" 599 23953 23981
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gdk.ml" 599 23953 23982 "gdk.ml" 599 23953 23992
+type(
+  int
+)
+ident(
+  int_ref row_stride "gdk.ml" 597 23862 23868 "gdk.ml" 597 23862 23878
+)
+"gdk.ml" 599 23953 23993 "gdk.ml" 599 23953 23994
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"gdk.ml" 599 23953 23996 "gdk.ml" 599 23953 24002
+type(
+  int
+)
+ident(
+  int_ref height "gdk.ml" 596 23793 23823 "gdk.ml" 596 23793 23829
+)
+"gdk.ml" 599 23953 24003 "gdk.ml" 599 23953 24004
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdk.ml" 599 23953 24005 "gdk.ml" 599 23953 24006
+type(
+  int
+)
+"gdk.ml" 599 23953 23995 "gdk.ml" 599 23953 24007
+type(
+  int
+)
+"gdk.ml" 599 23953 23982 "gdk.ml" 599 23953 24007
+type(
+  int
+)
+"gdk.ml" 599 23953 24008 "gdk.ml" 599 23953 24009
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"gdk.ml" 599 23953 24010 "gdk.ml" 599 23953 24015
+type(
+  int
+)
+ident(
+  int_ref width "gdk.ml" 596 23793 23816 "gdk.ml" 596 23793 23821
+)
+"gdk.ml" 599 23953 23982 "gdk.ml" 599 23953 24015
+type(
+  int
+)
+"gdk.ml" 599 23953 23960 "gdk.ml" 599 23953 24015
+type(
+  bool
+)
+"gdk.ml" 598 23894 23930 "gdk.ml" 599 23953 24015
+type(
+  bool
+)
+"gdk.ml" 598 23894 23916 "gdk.ml" 599 23953 24015
+type(
+  bool
+)
+"gdk.ml" 598 23894 23901 "gdk.ml" 599 23953 24015
+type(
+  bool
+)
+"gdk.ml" 600 24016 24025 "gdk.ml" 600 24016 24036
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gdk.ml" 600 24016 24037 "gdk.ml" 600 24016 24057
+type(
+  string
+)
+"gdk.ml" 600 24016 24025 "gdk.ml" 600 24016 24057
+call(
+  stack
+)
+type(
+  unit
+)
+"gdk.ml" 598 23894 23898 "gdk.ml" 600 24016 24057
+type(
+  unit
+)
+"gdk.ml" 601 24059 24063 "gdk.ml" 601 24059 24074
+type(
+  'a Gobject.obj ->
+  gc ->
+  x:int ->
+  y:int ->
+  width:int ->
+  height:int ->
+  dither:Tags.rgb_dither -> buf:Gpointer.region -> row_stride:int -> unit
+)
+"gdk.ml" 601 24059 24075 "gdk.ml" 601 24059 24076
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gdk.ml" 596 23793 23810 "gdk.ml" 596 23793 23811
+)
+"gdk.ml" 601 24059 24077 "gdk.ml" 601 24059 24079
+type(
+  gc
+)
+ident(
+  int_ref gc "gdk.ml" 596 23793 23812 "gdk.ml" 596 23793 23814
+)
+"gdk.ml" 601 24059 24081 "gdk.ml" 601 24059 24082
+type(
+  int
+)
+ident(
+  int_ref x "gdk.ml" 596 23793 23832 "gdk.ml" 596 23793 23833
+)
+"gdk.ml" 601 24059 24084 "gdk.ml" 601 24059 24085
+type(
+  int
+)
+ident(
+  int_ref y "gdk.ml" 596 23793 23839 "gdk.ml" 596 23793 23840
+)
+"gdk.ml" 601 24059 24087 "gdk.ml" 601 24059 24092
+type(
+  int
+)
+ident(
+  int_ref width "gdk.ml" 596 23793 23816 "gdk.ml" 596 23793 23821
+)
+"gdk.ml" 601 24059 24094 "gdk.ml" 601 24059 24100
+type(
+  int
+)
+ident(
+  int_ref height "gdk.ml" 596 23793 23823 "gdk.ml" 596 23793 23829
+)
+"gdk.ml" 601 24059 24102 "gdk.ml" 601 24059 24108
+type(
+  Tags.rgb_dither
+)
+ident(
+  int_ref dither "gdk.ml" 596 23793 23846 "gdk.ml" 596 23793 23852
+)
+"gdk.ml" 601 24059 24110 "gdk.ml" 601 24059 24113
+type(
+  Gpointer.region
+)
+ident(
+  int_ref buf "gdk.ml" 597 23862 23888 "gdk.ml" 597 23862 23891
+)
+"gdk.ml" 601 24059 24115 "gdk.ml" 601 24059 24125
+type(
+  int
+)
+ident(
+  int_ref row_stride "gdk.ml" 597 23862 23868 "gdk.ml" 597 23862 23878
+)
+"gdk.ml" 601 24059 24063 "gdk.ml" 601 24059 24125
+type(
+  unit
+)
+"gdk.ml" 598 23894 23898 "gdk.ml" 601 24059 24125
+type(
+  unit
+)
+"gdk.ml" 625 24720 24726 "gdk.ml" 625 24720 24736
+type(
+  visual -> visual_shift_prec
+)
+ident(
+  def shift_prec "gdk.ml" 634 25005 25007 "gdk.ml" 667 26429 26432
+)
+"gdk.ml" 625 24720 24737 "gdk.ml" 625 24720 24743
+type(
+  visual
+)
+ident(
+  def visual "gdk.ml" 625 24720 24746 "gdk.ml" 632 25000 25003
+)
+"gdk.ml" 626 24748 24764 "gdk.ml" 626 24748 24780
+type(
+  visual -> int
+)
+ident(
+  ext_ref Visual.red_shift
+)
+"gdk.ml" 626 24748 24781 "gdk.ml" 626 24748 24787
+type(
+  visual
+)
+ident(
+  int_ref visual "gdk.ml" 625 24720 24737 "gdk.ml" 625 24720 24743
+)
+"gdk.ml" 626 24748 24764 "gdk.ml" 626 24748 24787
+type(
+  int
+)
+"gdk.ml" 627 24789 24804 "gdk.ml" 627 24789 24819
+type(
+  visual -> int
+)
+ident(
+  ext_ref Visual.red_prec
+)
+"gdk.ml" 627 24789 24820 "gdk.ml" 627 24789 24826
+type(
+  visual
+)
+ident(
+  int_ref visual "gdk.ml" 625 24720 24737 "gdk.ml" 625 24720 24743
+)
+"gdk.ml" 627 24789 24804 "gdk.ml" 627 24789 24826
+type(
+  int
+)
+"gdk.ml" 628 24828 24846 "gdk.ml" 628 24828 24864
+type(
+  visual -> int
+)
+ident(
+  ext_ref Visual.green_shift
+)
+"gdk.ml" 628 24828 24865 "gdk.ml" 628 24828 24871
+type(
+  visual
+)
+ident(
+  int_ref visual "gdk.ml" 625 24720 24737 "gdk.ml" 625 24720 24743
+)
+"gdk.ml" 628 24828 24846 "gdk.ml" 628 24828 24871
+type(
+  int
+)
+"gdk.ml" 629 24873 24890 "gdk.ml" 629 24873 24907
+type(
+  visual -> int
+)
+ident(
+  ext_ref Visual.green_prec
+)
+"gdk.ml" 629 24873 24908 "gdk.ml" 629 24873 24914
+type(
+  visual
+)
+ident(
+  int_ref visual "gdk.ml" 625 24720 24737 "gdk.ml" 625 24720 24743
+)
+"gdk.ml" 629 24873 24890 "gdk.ml" 629 24873 24914
+type(
+  int
+)
+"gdk.ml" 630 24916 24933 "gdk.ml" 630 24916 24950
+type(
+  visual -> int
+)
+ident(
+  ext_ref Visual.blue_shift
+)
+"gdk.ml" 630 24916 24951 "gdk.ml" 630 24916 24957
+type(
+  visual
+)
+ident(
+  int_ref visual "gdk.ml" 625 24720 24737 "gdk.ml" 625 24720 24743
+)
+"gdk.ml" 630 24916 24933 "gdk.ml" 630 24916 24957
+type(
+  int
+)
+"gdk.ml" 631 24959 24975 "gdk.ml" 631 24959 24991
+type(
+  visual -> int
+)
+ident(
+  ext_ref Visual.blue_prec
+)
+"gdk.ml" 631 24959 24992 "gdk.ml" 631 24959 24998
+type(
+  visual
+)
+ident(
+  int_ref visual "gdk.ml" 625 24720 24737 "gdk.ml" 625 24720 24743
+)
+"gdk.ml" 631 24959 24975 "gdk.ml" 631 24959 24998
+type(
+  int
+)
+"gdk.ml" 625 24720 24746 "gdk.ml" 632 25000 25003
+type(
+  visual_shift_prec
+)
+"gdk.ml" 634 25005 25011 "gdk.ml" 634 25005 25024
+type(
+  visual -> red:int -> green:int -> blue:int -> int
+)
+ident(
+  def color_creator "gdk.ml" 654 25863 25865 "gdk.ml" 667 26429 26432
+)
+"gdk.ml" 634 25005 25025 "gdk.ml" 634 25005 25031
+type(
+  visual
+)
+ident(
+  def visual "gdk.ml" 635 25034 25038 "gdk.ml" 652 25796 25861
+)
+"gdk.ml" 635 25034 25044 "gdk.ml" 635 25034 25059
+type(
+  visual -> Visual.visual_type
+)
+ident(
+  ext_ref Visual.get_type
+)
+"gdk.ml" 635 25034 25060 "gdk.ml" 635 25034 25066
+type(
+  visual
+)
+ident(
+  int_ref visual "gdk.ml" 634 25005 25025 "gdk.ml" 634 25005 25031
+)
+"gdk.ml" 635 25034 25044 "gdk.ml" 635 25034 25066
+type(
+  Visual.visual_type
+)
+"gdk.ml" 636 25072 25078 "gdk.ml" 636 25072 25089
+type(
+  Visual.visual_type
+)
+"gdk.ml" 636 25072 25092 "gdk.ml" 636 25072 25105
+type(
+  Visual.visual_type
+)
+"gdk.ml" 636 25072 25078 "gdk.ml" 636 25072 25105
+type(
+  Visual.visual_type
+)
+"gdk.ml" 637 25109 25114 "gdk.ml" 637 25109 25124
+type(
+  visual_shift_prec
+)
+"gdk.ml" 637 25109 25127 "gdk.ml" 637 25109 25137
+type(
+  visual -> visual_shift_prec
+)
+ident(
+  int_ref shift_prec "gdk.ml" 625 24720 24726 "gdk.ml" 625 24720 24736
+)
+"gdk.ml" 637 25109 25138 "gdk.ml" 637 25109 25144
+type(
+  visual
+)
+ident(
+  int_ref visual "gdk.ml" 634 25005 25025 "gdk.ml" 634 25005 25031
+)
+"gdk.ml" 637 25109 25127 "gdk.ml" 637 25109 25144
+call(
+  stack
+)
+type(
+  visual_shift_prec
+)
+"gdk.ml" 645 25449 25454 "gdk.ml" 645 25449 25461
+type(
+  int
+)
+"gdk.ml" 645 25449 25464 "gdk.ml" 645 25449 25466
+type(
+  int
+)
+"gdk.ml" 645 25449 25467 "gdk.ml" 645 25449 25468
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdk.ml" 645 25449 25469 "gdk.ml" 645 25449 25479
+type(
+  visual_shift_prec
+)
+ident(
+  int_ref shift_prec "gdk.ml" 637 25109 25114 "gdk.ml" 637 25109 25124
+)
+"gdk.ml" 645 25449 25469 "gdk.ml" 645 25449 25488
+type(
+  int
+)
+"gdk.ml" 645 25449 25464 "gdk.ml" 645 25449 25488
+type(
+  int
+)
+"gdk.ml" 646 25489 25494 "gdk.ml" 646 25489 25503
+type(
+  int
+)
+"gdk.ml" 646 25489 25506 "gdk.ml" 646 25489 25508
+type(
+  int
+)
+"gdk.ml" 646 25489 25509 "gdk.ml" 646 25489 25510
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdk.ml" 646 25489 25511 "gdk.ml" 646 25489 25521
+type(
+  visual_shift_prec
+)
+ident(
+  int_ref shift_prec "gdk.ml" 637 25109 25114 "gdk.ml" 637 25109 25124
+)
+"gdk.ml" 646 25489 25511 "gdk.ml" 646 25489 25532
+type(
+  int
+)
+"gdk.ml" 646 25489 25506 "gdk.ml" 646 25489 25532
+type(
+  int
+)
+"gdk.ml" 647 25533 25538 "gdk.ml" 647 25533 25546
+type(
+  int
+)
+"gdk.ml" 647 25533 25549 "gdk.ml" 647 25533 25551
+type(
+  int
+)
+"gdk.ml" 647 25533 25552 "gdk.ml" 647 25533 25553
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdk.ml" 647 25533 25554 "gdk.ml" 647 25533 25564
+type(
+  visual_shift_prec
+)
+ident(
+  int_ref shift_prec "gdk.ml" 637 25109 25114 "gdk.ml" 637 25109 25124
+)
+"gdk.ml" 647 25533 25554 "gdk.ml" 647 25533 25574
+type(
+  int
+)
+"gdk.ml" 647 25533 25549 "gdk.ml" 647 25533 25574
+type(
+  int
+)
+"gdk.ml" 648 25578 25589 "gdk.ml" 648 25578 25592
+type(
+  int
+)
+ident(
+  def red "gdk.ml" 648 25578 25593 "gdk.ml" 651 25739 25795
+)
+"gdk.ml" 648 25578 25601 "gdk.ml" 648 25578 25606
+type(
+  int
+)
+ident(
+  def green "gdk.ml" 648 25578 25607 "gdk.ml" 651 25739 25795
+)
+"gdk.ml" 648 25578 25614 "gdk.ml" 648 25578 25618
+type(
+  int
+)
+ident(
+  def blue "gdk.ml" 649 25622 25625 "gdk.ml" 651 25739 25795
+)
+"gdk.ml" 649 25622 25628 "gdk.ml" 649 25622 25631
+type(
+  int
+)
+ident(
+  int_ref red "gdk.ml" 648 25578 25589 "gdk.ml" 648 25578 25592
+)
+"gdk.ml" 649 25622 25632 "gdk.ml" 649 25622 25635
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"gdk.ml" 649 25622 25636 "gdk.ml" 649 25622 25643
+type(
+  int
+)
+ident(
+  int_ref red_lsr "gdk.ml" 645 25449 25454 "gdk.ml" 645 25449 25461
+)
+"gdk.ml" 649 25622 25627 "gdk.ml" 649 25622 25644
+type(
+  int
+)
+"gdk.ml" 649 25622 25645 "gdk.ml" 649 25622 25648
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"gdk.ml" 649 25622 25649 "gdk.ml" 649 25622 25659
+type(
+  visual_shift_prec
+)
+ident(
+  int_ref shift_prec "gdk.ml" 637 25109 25114 "gdk.ml" 637 25109 25124
+)
+"gdk.ml" 649 25622 25649 "gdk.ml" 649 25622 25669
+type(
+  int
+)
+"gdk.ml" 649 25622 25626 "gdk.ml" 649 25622 25670
+type(
+  int
+)
+"gdk.ml" 649 25622 25671 "gdk.ml" 649 25622 25674
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lor )
+)
+"gdk.ml" 650 25676 25686 "gdk.ml" 650 25676 25691
+type(
+  int
+)
+ident(
+  int_ref green "gdk.ml" 648 25578 25601 "gdk.ml" 648 25578 25606
+)
+"gdk.ml" 650 25676 25692 "gdk.ml" 650 25676 25695
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"gdk.ml" 650 25676 25696 "gdk.ml" 650 25676 25705
+type(
+  int
+)
+ident(
+  int_ref green_lsr "gdk.ml" 646 25489 25494 "gdk.ml" 646 25489 25503
+)
+"gdk.ml" 650 25676 25685 "gdk.ml" 650 25676 25706
+type(
+  int
+)
+"gdk.ml" 650 25676 25707 "gdk.ml" 650 25676 25710
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"gdk.ml" 650 25676 25711 "gdk.ml" 650 25676 25721
+type(
+  visual_shift_prec
+)
+ident(
+  int_ref shift_prec "gdk.ml" 637 25109 25114 "gdk.ml" 637 25109 25124
+)
+"gdk.ml" 650 25676 25711 "gdk.ml" 650 25676 25733
+type(
+  int
+)
+"gdk.ml" 650 25676 25684 "gdk.ml" 650 25676 25734
+type(
+  int
+)
+"gdk.ml" 649 25622 25626 "gdk.ml" 650 25676 25734
+type(
+  int
+)
+"gdk.ml" 650 25676 25735 "gdk.ml" 650 25676 25738
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lor )
+)
+"gdk.ml" 651 25739 25749 "gdk.ml" 651 25739 25753
+type(
+  int
+)
+ident(
+  int_ref blue "gdk.ml" 648 25578 25614 "gdk.ml" 648 25578 25618
+)
+"gdk.ml" 651 25739 25754 "gdk.ml" 651 25739 25757
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"gdk.ml" 651 25739 25758 "gdk.ml" 651 25739 25766
+type(
+  int
+)
+ident(
+  int_ref blue_lsr "gdk.ml" 647 25533 25538 "gdk.ml" 647 25533 25546
+)
+"gdk.ml" 651 25739 25748 "gdk.ml" 651 25739 25767
+type(
+  int
+)
+"gdk.ml" 651 25739 25768 "gdk.ml" 651 25739 25771
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"gdk.ml" 651 25739 25772 "gdk.ml" 651 25739 25782
+type(
+  visual_shift_prec
+)
+ident(
+  int_ref shift_prec "gdk.ml" 637 25109 25114 "gdk.ml" 637 25109 25124
+)
+"gdk.ml" 651 25739 25772 "gdk.ml" 651 25739 25793
+type(
+  int
+)
+"gdk.ml" 651 25739 25747 "gdk.ml" 651 25739 25794
+type(
+  int
+)
+"gdk.ml" 649 25622 25625 "gdk.ml" 651 25739 25795
+type(
+  int
+)
+"gdk.ml" 648 25578 25579 "gdk.ml" 651 25739 25795
+type(
+  red:int -> green:int -> blue:int -> int
+)
+"gdk.ml" 645 25449 25450 "gdk.ml" 651 25739 25795
+type(
+  red:int -> green:int -> blue:int -> int
+)
+"gdk.ml" 637 25109 25110 "gdk.ml" 651 25739 25795
+type(
+  red:int -> green:int -> blue:int -> int
+)
+"gdk.ml" 652 25796 25802 "gdk.ml" 652 25796 25803
+type(
+  Visual.visual_type
+)
+"gdk.ml" 652 25796 25807 "gdk.ml" 652 25796 25812
+type(
+  exn -> red:int -> green:int -> blue:int -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gdk.ml" 652 25796 25831 "gdk.ml" 652 25796 25860
+type(
+  string
+)
+"gdk.ml" 652 25796 25813 "gdk.ml" 652 25796 25861
+type(
+  exn
+)
+"gdk.ml" 652 25796 25807 "gdk.ml" 652 25796 25861
+type(
+  red:int -> green:int -> blue:int -> int
+)
+"gdk.ml" 635 25034 25038 "gdk.ml" 652 25796 25861
+type(
+  red:int -> green:int -> blue:int -> int
+)
+"gdk.ml" 654 25863 25869 "gdk.ml" 654 25863 25881
+type(
+  visual -> int -> int * int * int
+)
+ident(
+  def color_parser "gdk.ml" 666 26364 26428 "gdk.ml" 667 26429 26432
+)
+"gdk.ml" 654 25863 25882 "gdk.ml" 654 25863 25888
+type(
+  visual
+)
+ident(
+  def visual "gdk.ml" 655 25891 25895 "gdk.ml" 666 26364 26428
+)
+"gdk.ml" 655 25891 25901 "gdk.ml" 655 25891 25916
+type(
+  visual -> Visual.visual_type
+)
+ident(
+  ext_ref Visual.get_type
+)
+"gdk.ml" 655 25891 25917 "gdk.ml" 655 25891 25923
+type(
+  visual
+)
+ident(
+  int_ref visual "gdk.ml" 654 25863 25882 "gdk.ml" 654 25863 25888
+)
+"gdk.ml" 655 25891 25901 "gdk.ml" 655 25891 25923
+type(
+  Visual.visual_type
+)
+"gdk.ml" 656 25929 25935 "gdk.ml" 656 25929 25946
+type(
+  Visual.visual_type
+)
+"gdk.ml" 656 25929 25949 "gdk.ml" 656 25929 25962
+type(
+  Visual.visual_type
+)
+"gdk.ml" 656 25929 25935 "gdk.ml" 656 25929 25962
+type(
+  Visual.visual_type
+)
+"gdk.ml" 657 25966 25971 "gdk.ml" 657 25966 25981
+type(
+  visual_shift_prec
+)
+"gdk.ml" 657 25966 25984 "gdk.ml" 657 25966 25994
+type(
+  visual -> visual_shift_prec
+)
+ident(
+  int_ref shift_prec "gdk.ml" 625 24720 24726 "gdk.ml" 625 24720 24736
+)
+"gdk.ml" 657 25966 25995 "gdk.ml" 657 25966 26001
+type(
+  visual
+)
+ident(
+  int_ref visual "gdk.ml" 654 25863 25882 "gdk.ml" 654 25863 25888
+)
+"gdk.ml" 657 25966 25984 "gdk.ml" 657 25966 26001
+call(
+  stack
+)
+type(
+  visual_shift_prec
+)
+"gdk.ml" 658 26005 26010 "gdk.ml" 658 26005 26017
+type(
+  int
+)
+"gdk.ml" 658 26005 26020 "gdk.ml" 658 26005 26022
+type(
+  int
+)
+"gdk.ml" 658 26005 26023 "gdk.ml" 658 26005 26024
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdk.ml" 658 26005 26025 "gdk.ml" 658 26005 26035
+type(
+  visual_shift_prec
+)
+ident(
+  int_ref shift_prec "gdk.ml" 657 25966 25971 "gdk.ml" 657 25966 25981
+)
+"gdk.ml" 658 26005 26025 "gdk.ml" 658 26005 26044
+type(
+  int
+)
+"gdk.ml" 658 26005 26020 "gdk.ml" 658 26005 26044
+type(
+  int
+)
+"gdk.ml" 659 26045 26050 "gdk.ml" 659 26045 26059
+type(
+  int
+)
+"gdk.ml" 659 26045 26062 "gdk.ml" 659 26045 26064
+type(
+  int
+)
+"gdk.ml" 659 26045 26065 "gdk.ml" 659 26045 26066
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdk.ml" 659 26045 26067 "gdk.ml" 659 26045 26077
+type(
+  visual_shift_prec
+)
+ident(
+  int_ref shift_prec "gdk.ml" 657 25966 25971 "gdk.ml" 657 25966 25981
+)
+"gdk.ml" 659 26045 26067 "gdk.ml" 659 26045 26088
+type(
+  int
+)
+"gdk.ml" 659 26045 26062 "gdk.ml" 659 26045 26088
+type(
+  int
+)
+"gdk.ml" 660 26089 26094 "gdk.ml" 660 26089 26102
+type(
+  int
+)
+"gdk.ml" 660 26089 26105 "gdk.ml" 660 26089 26107
+type(
+  int
+)
+"gdk.ml" 660 26089 26108 "gdk.ml" 660 26089 26109
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdk.ml" 660 26089 26110 "gdk.ml" 660 26089 26120
+type(
+  visual_shift_prec
+)
+ident(
+  int_ref shift_prec "gdk.ml" 657 25966 25971 "gdk.ml" 657 25966 25981
+)
+"gdk.ml" 660 26089 26110 "gdk.ml" 660 26089 26130
+type(
+  int
+)
+"gdk.ml" 660 26089 26105 "gdk.ml" 660 26089 26130
+type(
+  int
+)
+"gdk.ml" 661 26134 26139 "gdk.ml" 661 26134 26143
+type(
+  int
+)
+"gdk.ml" 661 26134 26146 "gdk.ml" 661 26134 26147
+type(
+  int
+)
+"gdk.ml" 661 26134 26148 "gdk.ml" 661 26134 26151
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"gdk.ml" 661 26134 26152 "gdk.ml" 661 26134 26154
+type(
+  int
+)
+"gdk.ml" 661 26134 26146 "gdk.ml" 661 26134 26154
+type(
+  int
+)
+"gdk.ml" 661 26134 26155 "gdk.ml" 661 26134 26156
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdk.ml" 661 26134 26157 "gdk.ml" 661 26134 26158
+type(
+  int
+)
+"gdk.ml" 661 26134 26146 "gdk.ml" 661 26134 26158
+type(
+  int
+)
+"gdk.ml" 662 26162 26167 "gdk.ml" 662 26162 26172
+type(
+  int
+)
+ident(
+  def pixel "gdk.ml" 663 26176 26179 "gdk.ml" 665 26302 26363
+)
+"gdk.ml" 663 26176 26181 "gdk.ml" 663 26176 26186
+type(
+  int
+)
+ident(
+  int_ref pixel "gdk.ml" 662 26162 26167 "gdk.ml" 662 26162 26172
+)
+"gdk.ml" 663 26176 26187 "gdk.ml" 663 26176 26190
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"gdk.ml" 663 26176 26191 "gdk.ml" 663 26176 26201
+type(
+  visual_shift_prec
+)
+ident(
+  int_ref shift_prec "gdk.ml" 657 25966 25971 "gdk.ml" 657 25966 25981
+)
+"gdk.ml" 663 26176 26191 "gdk.ml" 663 26176 26211
+type(
+  int
+)
+"gdk.ml" 663 26176 26180 "gdk.ml" 663 26176 26212
+type(
+  int
+)
+"gdk.ml" 663 26176 26213 "gdk.ml" 663 26176 26216
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"gdk.ml" 663 26176 26217 "gdk.ml" 663 26176 26224
+type(
+  int
+)
+ident(
+  int_ref red_lsr "gdk.ml" 658 26005 26010 "gdk.ml" 658 26005 26017
+)
+"gdk.ml" 663 26176 26179 "gdk.ml" 663 26176 26225
+type(
+  int
+)
+"gdk.ml" 663 26176 26226 "gdk.ml" 663 26176 26230
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"gdk.ml" 663 26176 26231 "gdk.ml" 663 26176 26235
+type(
+  int
+)
+ident(
+  int_ref mask "gdk.ml" 661 26134 26139 "gdk.ml" 661 26134 26143
+)
+"gdk.ml" 663 26176 26179 "gdk.ml" 663 26176 26235
+type(
+  int
+)
+"gdk.ml" 664 26237 26242 "gdk.ml" 664 26237 26247
+type(
+  int
+)
+ident(
+  int_ref pixel "gdk.ml" 662 26162 26167 "gdk.ml" 662 26162 26172
+)
+"gdk.ml" 664 26237 26248 "gdk.ml" 664 26237 26251
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"gdk.ml" 664 26237 26252 "gdk.ml" 664 26237 26262
+type(
+  visual_shift_prec
+)
+ident(
+  int_ref shift_prec "gdk.ml" 657 25966 25971 "gdk.ml" 657 25966 25981
+)
+"gdk.ml" 664 26237 26252 "gdk.ml" 664 26237 26274
+type(
+  int
+)
+"gdk.ml" 664 26237 26241 "gdk.ml" 664 26237 26275
+type(
+  int
+)
+"gdk.ml" 664 26237 26276 "gdk.ml" 664 26237 26279
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"gdk.ml" 664 26237 26280 "gdk.ml" 664 26237 26289
+type(
+  int
+)
+ident(
+  int_ref green_lsr "gdk.ml" 659 26045 26050 "gdk.ml" 659 26045 26059
+)
+"gdk.ml" 664 26237 26240 "gdk.ml" 664 26237 26290
+type(
+  int
+)
+"gdk.ml" 664 26237 26291 "gdk.ml" 664 26237 26295
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"gdk.ml" 664 26237 26296 "gdk.ml" 664 26237 26300
+type(
+  int
+)
+ident(
+  int_ref mask "gdk.ml" 661 26134 26139 "gdk.ml" 661 26134 26143
+)
+"gdk.ml" 664 26237 26240 "gdk.ml" 664 26237 26300
+type(
+  int
+)
+"gdk.ml" 665 26302 26307 "gdk.ml" 665 26302 26312
+type(
+  int
+)
+ident(
+  int_ref pixel "gdk.ml" 662 26162 26167 "gdk.ml" 662 26162 26172
+)
+"gdk.ml" 665 26302 26313 "gdk.ml" 665 26302 26316
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"gdk.ml" 665 26302 26317 "gdk.ml" 665 26302 26327
+type(
+  visual_shift_prec
+)
+ident(
+  int_ref shift_prec "gdk.ml" 657 25966 25971 "gdk.ml" 657 25966 25981
+)
+"gdk.ml" 665 26302 26317 "gdk.ml" 665 26302 26338
+type(
+  int
+)
+"gdk.ml" 665 26302 26306 "gdk.ml" 665 26302 26339
+type(
+  int
+)
+"gdk.ml" 665 26302 26340 "gdk.ml" 665 26302 26343
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"gdk.ml" 665 26302 26344 "gdk.ml" 665 26302 26352
+type(
+  int
+)
+ident(
+  int_ref blue_lsr "gdk.ml" 660 26089 26094 "gdk.ml" 660 26089 26102
+)
+"gdk.ml" 665 26302 26305 "gdk.ml" 665 26302 26353
+type(
+  int
+)
+"gdk.ml" 665 26302 26354 "gdk.ml" 665 26302 26358
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"gdk.ml" 665 26302 26359 "gdk.ml" 665 26302 26363
+type(
+  int
+)
+ident(
+  int_ref mask "gdk.ml" 661 26134 26139 "gdk.ml" 661 26134 26143
+)
+"gdk.ml" 665 26302 26305 "gdk.ml" 665 26302 26363
+type(
+  int
+)
+"gdk.ml" 663 26176 26179 "gdk.ml" 665 26302 26363
+type(
+  int * int * int
+)
+"gdk.ml" 662 26162 26163 "gdk.ml" 665 26302 26363
+type(
+  int -> int * int * int
+)
+"gdk.ml" 661 26134 26135 "gdk.ml" 665 26302 26363
+type(
+  int -> int * int * int
+)
+"gdk.ml" 658 26005 26006 "gdk.ml" 665 26302 26363
+type(
+  int -> int * int * int
+)
+"gdk.ml" 657 25966 25967 "gdk.ml" 665 26302 26363
+type(
+  int -> int * int * int
+)
+"gdk.ml" 666 26364 26370 "gdk.ml" 666 26364 26371
+type(
+  Visual.visual_type
+)
+"gdk.ml" 666 26364 26375 "gdk.ml" 666 26364 26380
+type(
+  exn -> int -> int * int * int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gdk.ml" 666 26364 26399 "gdk.ml" 666 26364 26427
+type(
+  string
+)
+"gdk.ml" 666 26364 26381 "gdk.ml" 666 26364 26428
+type(
+  exn
+)
+"gdk.ml" 666 26364 26375 "gdk.ml" 666 26364 26428
+type(
+  int -> int * int * int
+)
+"gdk.ml" 655 25891 25895 "gdk.ml" 666 26364 26428
+type(
+  int -> int * int * int
+)
+"gdk.ml" 778 28692 28698 "gdk.ml" 778 28692 28715
+type(
+  ?display:display -> unit -> (window * int * int) option
+)
+ident(
+  def window_at_pointer "gdk.ml" 781 28801 28827 "gdk.ml" 782 28828 28831
+)
+"gdk.ml" 778 28692 28717 "gdk.ml" 778 28692 28724
+type(
+  display option
+)
+ident(
+  def display "gdk.ml" 778 28692 28725 "gdk.ml" 781 28801 28827
+)
+"gdk.ml" 778 28692 28725 "gdk.ml" 778 28692 28727
+type(
+  unit
+)
+"gdk.ml" 779 28730 28734 "gdk.ml" 779 28730 28755
+type(
+  display -> (window * int * int) option
+)
+"gdk.ml" 780 28756 28769 "gdk.ml" 780 28756 28776
+type(
+  display option
+)
+ident(
+  int_ref display "gdk.ml" 778 28692 28717 "gdk.ml" 778 28692 28724
+)
+"gdk.ml" 780 28756 28782 "gdk.ml" 780 28756 28786
+type(
+  display option
+)
+"gdk.ml" 780 28756 28790 "gdk.ml" 780 28756 28797
+type(
+  unit -> display
+)
+ident(
+  ext_ref Gaux.default
+)
+"gdk.ml" 780 28756 28798 "gdk.ml" 780 28756 28800
+type(
+  unit
+)
+"gdk.ml" 780 28756 28790 "gdk.ml" 780 28756 28800
+type(
+  display
+)
+"gdk.ml" 781 28801 28814 "gdk.ml" 781 28801 28818
+type(
+  display
+)
+ident(
+  def disp "gdk.ml" 781 28801 28822 "gdk.ml" 781 28801 28826
+)
+"gdk.ml" 781 28801 28809 "gdk.ml" 781 28801 28818
+type(
+  display option
+)
+"gdk.ml" 781 28801 28822 "gdk.ml" 781 28801 28826
+type(
+  display
+)
+ident(
+  int_ref disp "gdk.ml" 781 28801 28814 "gdk.ml" 781 28801 28818
+)
+"gdk.ml" 780 28756 28762 "gdk.ml" 781 28801 28827
+type(
+  display
+)
+"gdk.ml" 779 28730 28734 "gdk.ml" 781 28801 28827
+type(
+  (window * int * int) option
+)
+"gdk.ml" 786 28934 28940 "gdk.ml" 786 28934 28948
+type(
+  [ `QUARTZ | `WIN32 | `X11 ]
+)
+ident(
+  def platform "gdk.ml" 786 28934 28957 "gdk.ml" 787 28958 28961
+)
+"gdk.ml" 786 28934 28951 "gdk.ml" 786 28934 28954
+type(
+  unit -> [ `QUARTZ | `WIN32 | `X11 ]
+)
+ident(
+  ext_ref Gobject.get
+)
+"gdk.ml" 786 28934 28955 "gdk.ml" 786 28934 28957
+type(
+  unit
+)
+"gdk.ml" 786 28934 28951 "gdk.ml" 786 28934 28957
+type(
+  [ `QUARTZ | `WIN32 | `X11 ]
+)

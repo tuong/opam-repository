@@ -1,0 +1,2295 @@
+"ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  def set "ogtkBinProps.ml" 5 52 52 --
+)
+"ogtkBinProps.ml" 4 38 48 "ogtkBinProps.ml" 4 38 51
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  def get "ogtkBinProps.ml" 6 66 66 --
+)
+"ogtkBinProps.ml" 5 52 62 "ogtkBinProps.ml" 5 52 65
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  ext_ref Gobject.get
+)
+"ogtkBinProps.ml" 6 66 70 "ogtkBinProps.ml" 6 66 75
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  def param "ogtkBinProps.ml" 8 85 85 --
+)
+"ogtkBinProps.ml" 6 66 78 "ogtkBinProps.ml" 6 66 83
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"ogtkBinProps.ml" 14 187 209 "ogtkBinProps.ml" 14 187 212
+type(
+  ([> `alignment ] as 'a, float) Gobject.property ->
+  'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 14 187 213 "ogtkBinProps.ml" 14 187 231
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Alignment.P.xalign
+)
+"ogtkBinProps.ml" 14 187 232 "ogtkBinProps.ml" 14 187 235
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 14 187 209 "ogtkBinProps.ml" 14 187 235
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkBinProps.ml" 15 236 258 "ogtkBinProps.ml" 15 236 261
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 15 236 262 "ogtkBinProps.ml" 15 236 280
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Alignment.P.yalign
+)
+"ogtkBinProps.ml" 15 236 281 "ogtkBinProps.ml" 15 236 284
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 15 236 258 "ogtkBinProps.ml" 15 236 284
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkBinProps.ml" 16 285 307 "ogtkBinProps.ml" 16 285 310
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 16 285 311 "ogtkBinProps.ml" 16 285 329
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Alignment.P.xscale
+)
+"ogtkBinProps.ml" 16 285 330 "ogtkBinProps.ml" 16 285 333
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 16 285 307 "ogtkBinProps.ml" 16 285 333
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkBinProps.ml" 17 334 356 "ogtkBinProps.ml" 17 334 359
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 17 334 360 "ogtkBinProps.ml" 17 334 378
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Alignment.P.yscale
+)
+"ogtkBinProps.ml" 17 334 379 "ogtkBinProps.ml" 17 334 382
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 17 334 356 "ogtkBinProps.ml" 17 334 382
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkBinProps.ml" 18 383 413 "ogtkBinProps.ml" 18 383 416
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 18 383 417 "ogtkBinProps.ml" 18 383 443
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Alignment.P.bottom_padding
+)
+"ogtkBinProps.ml" 18 383 444 "ogtkBinProps.ml" 18 383 447
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 18 383 413 "ogtkBinProps.ml" 18 383 447
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkBinProps.ml" 19 448 476 "ogtkBinProps.ml" 19 448 479
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 19 448 480 "ogtkBinProps.ml" 19 448 504
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Alignment.P.left_padding
+)
+"ogtkBinProps.ml" 19 448 505 "ogtkBinProps.ml" 19 448 508
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 19 448 476 "ogtkBinProps.ml" 19 448 508
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkBinProps.ml" 20 509 538 "ogtkBinProps.ml" 20 509 541
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 20 509 542 "ogtkBinProps.ml" 20 509 567
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Alignment.P.right_padding
+)
+"ogtkBinProps.ml" 20 509 568 "ogtkBinProps.ml" 20 509 571
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 20 509 538 "ogtkBinProps.ml" 20 509 571
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkBinProps.ml" 21 572 599 "ogtkBinProps.ml" 21 572 602
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 21 572 603 "ogtkBinProps.ml" 21 572 626
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Alignment.P.top_padding
+)
+"ogtkBinProps.ml" 21 572 627 "ogtkBinProps.ml" 21 572 630
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 21 572 599 "ogtkBinProps.ml" 21 572 630
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkBinProps.ml" 22 631 649 "ogtkBinProps.ml" 22 631 652
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 22 631 653 "ogtkBinProps.ml" 22 631 671
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Alignment.P.xalign
+)
+"ogtkBinProps.ml" 22 631 672 "ogtkBinProps.ml" 22 631 675
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 22 631 649 "ogtkBinProps.ml" 22 631 675
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkBinProps.ml" 23 676 694 "ogtkBinProps.ml" 23 676 697
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 23 676 698 "ogtkBinProps.ml" 23 676 716
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Alignment.P.yalign
+)
+"ogtkBinProps.ml" 23 676 717 "ogtkBinProps.ml" 23 676 720
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 23 676 694 "ogtkBinProps.ml" 23 676 720
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkBinProps.ml" 24 721 739 "ogtkBinProps.ml" 24 721 742
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 24 721 743 "ogtkBinProps.ml" 24 721 761
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Alignment.P.xscale
+)
+"ogtkBinProps.ml" 24 721 762 "ogtkBinProps.ml" 24 721 765
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 24 721 739 "ogtkBinProps.ml" 24 721 765
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkBinProps.ml" 25 766 784 "ogtkBinProps.ml" 25 766 787
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 25 766 788 "ogtkBinProps.ml" 25 766 806
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Alignment.P.yscale
+)
+"ogtkBinProps.ml" 25 766 807 "ogtkBinProps.ml" 25 766 810
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 25 766 784 "ogtkBinProps.ml" 25 766 810
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkBinProps.ml" 26 811 837 "ogtkBinProps.ml" 26 811 840
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 26 811 841 "ogtkBinProps.ml" 26 811 867
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Alignment.P.bottom_padding
+)
+"ogtkBinProps.ml" 26 811 868 "ogtkBinProps.ml" 26 811 871
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 26 811 837 "ogtkBinProps.ml" 26 811 871
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkBinProps.ml" 27 872 896 "ogtkBinProps.ml" 27 872 899
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 27 872 900 "ogtkBinProps.ml" 27 872 924
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Alignment.P.left_padding
+)
+"ogtkBinProps.ml" 27 872 925 "ogtkBinProps.ml" 27 872 928
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 27 872 896 "ogtkBinProps.ml" 27 872 928
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkBinProps.ml" 28 929 954 "ogtkBinProps.ml" 28 929 957
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 28 929 958 "ogtkBinProps.ml" 28 929 983
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Alignment.P.right_padding
+)
+"ogtkBinProps.ml" 28 929 984 "ogtkBinProps.ml" 28 929 987
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 28 929 954 "ogtkBinProps.ml" 28 929 987
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkBinProps.ml" 29 988 1011 "ogtkBinProps.ml" 29 988 1014
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 29 988 1015 "ogtkBinProps.ml" 29 988 1038
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Alignment.P.top_padding
+)
+"ogtkBinProps.ml" 29 988 1039 "ogtkBinProps.ml" 29 988 1042
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 29 988 1011 "ogtkBinProps.ml" 29 988 1042
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkBinProps.ml" 34 1109 1130 "ogtkBinProps.ml" 34 1109 1133
+type(
+  ([> `frame ] as 'a, string option) Gobject.property ->
+  'a Gobject.obj -> string option -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 34 1109 1134 "ogtkBinProps.ml" 34 1109 1147
+type(
+  ('a, string option) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Frame.P.label
+)
+"ogtkBinProps.ml" 34 1109 1148 "ogtkBinProps.ml" 34 1109 1151
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 34 1109 1130 "ogtkBinProps.ml" 34 1109 1151
+call(
+  tail
+)
+type(
+  string option -> unit
+)
+type(
+  string option -> unit
+)
+"ogtkBinProps.ml" 36 1180 1184 "ogtkBinProps.ml" 36 1180 1187
+type(
+  ('a, GObj.widget option) Gobject.property ->
+  'a Gobject.obj -> GObj.widget option -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 36 1180 1189 "ogtkBinProps.ml" 36 1180 1209
+type(
+  (_[> `frame ], Gtk.widget Gtk.obj option) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Frame.P.label_widget
+)
+"ogtkBinProps.ml" 36 1180 1220 "ogtkBinProps.ml" 36 1180 1243
+type(
+  GObj.widget option Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget_option
+)
+"ogtkBinProps.ml" 36 1180 1188 "ogtkBinProps.ml" 36 1180 1244
+type(
+  ('a, GObj.widget option) Gobject.property
+)
+"ogtkBinProps.ml" 36 1180 1245 "ogtkBinProps.ml" 36 1180 1248
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 36 1180 1184 "ogtkBinProps.ml" 36 1180 1248
+call(
+  tail
+)
+type(
+  GObj.widget option -> unit
+)
+type(
+  GObj.widget option -> unit
+)
+"ogtkBinProps.ml" 37 1249 1277 "ogtkBinProps.ml" 37 1249 1280
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 37 1249 1281 "ogtkBinProps.ml" 37 1249 1301
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Frame.P.label_xalign
+)
+"ogtkBinProps.ml" 37 1249 1302 "ogtkBinProps.ml" 37 1249 1305
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 37 1249 1277 "ogtkBinProps.ml" 37 1249 1305
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkBinProps.ml" 38 1306 1334 "ogtkBinProps.ml" 38 1306 1337
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 38 1306 1338 "ogtkBinProps.ml" 38 1306 1358
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Frame.P.label_yalign
+)
+"ogtkBinProps.ml" 38 1306 1359 "ogtkBinProps.ml" 38 1306 1362
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 38 1306 1334 "ogtkBinProps.ml" 38 1306 1362
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkBinProps.ml" 39 1363 1390 "ogtkBinProps.ml" 39 1363 1393
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.shadow_type -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 39 1363 1394 "ogtkBinProps.ml" 39 1363 1413
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Frame.P.shadow_type
+)
+"ogtkBinProps.ml" 39 1363 1414 "ogtkBinProps.ml" 39 1363 1417
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 39 1363 1390 "ogtkBinProps.ml" 39 1363 1417
+call(
+  tail
+)
+type(
+  GtkEnums.shadow_type -> unit
+)
+type(
+  GtkEnums.shadow_type -> unit
+)
+"ogtkBinProps.ml" 40 1418 1435 "ogtkBinProps.ml" 40 1418 1438
+type(
+  ('a, string option) Gobject.property -> 'a Gobject.obj -> string option
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 40 1418 1439 "ogtkBinProps.ml" 40 1418 1452
+type(
+  ('a, string option) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Frame.P.label
+)
+"ogtkBinProps.ml" 40 1418 1453 "ogtkBinProps.ml" 40 1418 1456
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 40 1418 1435 "ogtkBinProps.ml" 40 1418 1456
+call(
+  tail
+)
+type(
+  string option
+)
+type(
+  string option
+)
+"ogtkBinProps.ml" 42 1481 1485 "ogtkBinProps.ml" 42 1481 1488
+type(
+  ('a, GObj.widget option) Gobject.property ->
+  'a Gobject.obj -> GObj.widget option
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 42 1481 1490 "ogtkBinProps.ml" 42 1481 1510
+type(
+  (_[> `frame ], Gtk.widget Gtk.obj option) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Frame.P.label_widget
+)
+"ogtkBinProps.ml" 42 1481 1521 "ogtkBinProps.ml" 42 1481 1544
+type(
+  GObj.widget option Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget_option
+)
+"ogtkBinProps.ml" 42 1481 1489 "ogtkBinProps.ml" 42 1481 1545
+type(
+  ('a, GObj.widget option) Gobject.property
+)
+"ogtkBinProps.ml" 42 1481 1546 "ogtkBinProps.ml" 42 1481 1549
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 42 1481 1485 "ogtkBinProps.ml" 42 1481 1549
+call(
+  tail
+)
+type(
+  GObj.widget option
+)
+type(
+  GObj.widget option
+)
+"ogtkBinProps.ml" 43 1550 1574 "ogtkBinProps.ml" 43 1550 1577
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 43 1550 1578 "ogtkBinProps.ml" 43 1550 1598
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Frame.P.label_xalign
+)
+"ogtkBinProps.ml" 43 1550 1599 "ogtkBinProps.ml" 43 1550 1602
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 43 1550 1574 "ogtkBinProps.ml" 43 1550 1602
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkBinProps.ml" 44 1603 1627 "ogtkBinProps.ml" 44 1603 1630
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 44 1603 1631 "ogtkBinProps.ml" 44 1603 1651
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Frame.P.label_yalign
+)
+"ogtkBinProps.ml" 44 1603 1652 "ogtkBinProps.ml" 44 1603 1655
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 44 1603 1627 "ogtkBinProps.ml" 44 1603 1655
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkBinProps.ml" 45 1656 1679 "ogtkBinProps.ml" 45 1656 1682
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.shadow_type
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 45 1656 1683 "ogtkBinProps.ml" 45 1656 1702
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Frame.P.shadow_type
+)
+"ogtkBinProps.ml" 45 1656 1703 "ogtkBinProps.ml" 45 1656 1706
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 45 1656 1679 "ogtkBinProps.ml" 45 1656 1706
+call(
+  tail
+)
+type(
+  GtkEnums.shadow_type
+)
+type(
+  GtkEnums.shadow_type
+)
+"ogtkBinProps.ml" 50 1780 1806 "ogtkBinProps.ml" 50 1780 1809
+type(
+  ([> `aspectframe ] as 'a, bool) Gobject.property ->
+  'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 50 1780 1810 "ogtkBinProps.ml" 50 1780 1834
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.AspectFrame.P.obey_child
+)
+"ogtkBinProps.ml" 50 1780 1835 "ogtkBinProps.ml" 50 1780 1838
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 50 1780 1806 "ogtkBinProps.ml" 50 1780 1838
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBinProps.ml" 51 1839 1860 "ogtkBinProps.ml" 51 1839 1863
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 51 1839 1864 "ogtkBinProps.ml" 51 1839 1883
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.AspectFrame.P.ratio
+)
+"ogtkBinProps.ml" 51 1839 1884 "ogtkBinProps.ml" 51 1839 1887
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 51 1839 1860 "ogtkBinProps.ml" 51 1839 1887
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkBinProps.ml" 52 1888 1910 "ogtkBinProps.ml" 52 1888 1913
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 52 1888 1914 "ogtkBinProps.ml" 52 1888 1934
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.AspectFrame.P.xalign
+)
+"ogtkBinProps.ml" 52 1888 1935 "ogtkBinProps.ml" 52 1888 1938
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 52 1888 1910 "ogtkBinProps.ml" 52 1888 1938
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkBinProps.ml" 53 1939 1961 "ogtkBinProps.ml" 53 1939 1964
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 53 1939 1965 "ogtkBinProps.ml" 53 1939 1985
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.AspectFrame.P.yalign
+)
+"ogtkBinProps.ml" 53 1939 1986 "ogtkBinProps.ml" 53 1939 1989
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 53 1939 1961 "ogtkBinProps.ml" 53 1939 1989
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkBinProps.ml" 54 1990 2012 "ogtkBinProps.ml" 54 1990 2015
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 54 1990 2016 "ogtkBinProps.ml" 54 1990 2040
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.AspectFrame.P.obey_child
+)
+"ogtkBinProps.ml" 54 1990 2041 "ogtkBinProps.ml" 54 1990 2044
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 54 1990 2012 "ogtkBinProps.ml" 54 1990 2044
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBinProps.ml" 55 2045 2062 "ogtkBinProps.ml" 55 2045 2065
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 55 2045 2066 "ogtkBinProps.ml" 55 2045 2085
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.AspectFrame.P.ratio
+)
+"ogtkBinProps.ml" 55 2045 2086 "ogtkBinProps.ml" 55 2045 2089
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 55 2045 2062 "ogtkBinProps.ml" 55 2045 2089
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkBinProps.ml" 56 2090 2108 "ogtkBinProps.ml" 56 2090 2111
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 56 2090 2112 "ogtkBinProps.ml" 56 2090 2132
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.AspectFrame.P.xalign
+)
+"ogtkBinProps.ml" 56 2090 2133 "ogtkBinProps.ml" 56 2090 2136
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 56 2090 2108 "ogtkBinProps.ml" 56 2090 2136
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkBinProps.ml" 57 2137 2155 "ogtkBinProps.ml" 57 2137 2158
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 57 2137 2159 "ogtkBinProps.ml" 57 2137 2179
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.AspectFrame.P.yalign
+)
+"ogtkBinProps.ml" 57 2137 2180 "ogtkBinProps.ml" 57 2137 2183
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 57 2137 2155 "ogtkBinProps.ml" 57 2137 2183
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkBinProps.ml" 62 2255 2286 "ogtkBinProps.ml" 62 2255 2289
+type(
+  ([> `handlebox ] as 'a, GtkEnums.position_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.position_type -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 62 2255 2290 "ogtkBinProps.ml" 62 2255 2317
+type(
+  ('a, GtkEnums.position_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.HandleBox.P.handle_position
+)
+"ogtkBinProps.ml" 62 2255 2318 "ogtkBinProps.ml" 62 2255 2321
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 62 2255 2286 "ogtkBinProps.ml" 62 2255 2321
+call(
+  tail
+)
+type(
+  GtkEnums.position_type -> unit
+)
+type(
+  GtkEnums.position_type -> unit
+)
+"ogtkBinProps.ml" 63 2322 2347 "ogtkBinProps.ml" 63 2322 2350
+type(
+  ('a, GtkEnums.position_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.position_type -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 63 2322 2351 "ogtkBinProps.ml" 63 2322 2372
+type(
+  ('a, GtkEnums.position_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.HandleBox.P.snap_edge
+)
+"ogtkBinProps.ml" 63 2322 2373 "ogtkBinProps.ml" 63 2322 2376
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 63 2322 2347 "ogtkBinProps.ml" 63 2322 2376
+call(
+  tail
+)
+type(
+  GtkEnums.position_type -> unit
+)
+type(
+  GtkEnums.position_type -> unit
+)
+"ogtkBinProps.ml" 64 2377 2404 "ogtkBinProps.ml" 64 2377 2407
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.shadow_type -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 64 2377 2408 "ogtkBinProps.ml" 64 2377 2431
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.HandleBox.P.shadow_type
+)
+"ogtkBinProps.ml" 64 2377 2432 "ogtkBinProps.ml" 64 2377 2435
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 64 2377 2404 "ogtkBinProps.ml" 64 2377 2435
+call(
+  tail
+)
+type(
+  GtkEnums.shadow_type -> unit
+)
+type(
+  GtkEnums.shadow_type -> unit
+)
+"ogtkBinProps.ml" 65 2436 2463 "ogtkBinProps.ml" 65 2436 2466
+type(
+  ('a, GtkEnums.position_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.position_type
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 65 2436 2467 "ogtkBinProps.ml" 65 2436 2494
+type(
+  ('a, GtkEnums.position_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.HandleBox.P.handle_position
+)
+"ogtkBinProps.ml" 65 2436 2495 "ogtkBinProps.ml" 65 2436 2498
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 65 2436 2463 "ogtkBinProps.ml" 65 2436 2498
+call(
+  tail
+)
+type(
+  GtkEnums.position_type
+)
+type(
+  GtkEnums.position_type
+)
+"ogtkBinProps.ml" 66 2499 2520 "ogtkBinProps.ml" 66 2499 2523
+type(
+  ('a, GtkEnums.position_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.position_type
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 66 2499 2524 "ogtkBinProps.ml" 66 2499 2545
+type(
+  ('a, GtkEnums.position_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.HandleBox.P.snap_edge
+)
+"ogtkBinProps.ml" 66 2499 2546 "ogtkBinProps.ml" 66 2499 2549
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 66 2499 2520 "ogtkBinProps.ml" 66 2499 2549
+call(
+  tail
+)
+type(
+  GtkEnums.position_type
+)
+type(
+  GtkEnums.position_type
+)
+"ogtkBinProps.ml" 67 2550 2573 "ogtkBinProps.ml" 67 2550 2576
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.shadow_type
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 67 2550 2577 "ogtkBinProps.ml" 67 2550 2600
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.HandleBox.P.shadow_type
+)
+"ogtkBinProps.ml" 67 2550 2601 "ogtkBinProps.ml" 67 2550 2604
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 67 2550 2573 "ogtkBinProps.ml" 67 2550 2604
+call(
+  tail
+)
+type(
+  GtkEnums.shadow_type
+)
+type(
+  GtkEnums.shadow_type
+)
+"ogtkBinProps.ml" 70 2610 2649 "ogtkBinProps.ml" 70 2610 2655
+type(
+  < child_attached : callback:(GObj.widget -> unit) -> GtkSignal.id;
+    child_detached : callback:(GObj.widget -> unit) -> GtkSignal.id; .. >
+)
+"ogtkBinProps.ml" 73 2750 2776 "ogtkBinProps.ml" 73 2750 2780
+type(
+  < child_attached : callback:(GObj.widget -> unit) -> GtkSignal.id;
+    child_detached : callback:(GObj.widget -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkBinProps.ml" 73 2750 2776 "ogtkBinProps.ml" 73 2750 2788
+call(
+  tail
+)
+type(
+  ([> `handlebox ], GObj.widget -> unit) GtkSignal.t ->
+  callback:(GObj.widget -> unit) -> GtkSignal.id
+)
+"ogtkBinProps.ml" 74 2789 2794 "ogtkBinProps.ml" 74 2789 2820
+type(
+  ([> `handlebox ] as 'b, Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBinProps.HandleBox.S.child_attached
+)
+"ogtkBinProps.ml" 74 2789 2843 "ogtkBinProps.ml" 74 2789 2844
+type(
+  GObj.widget -> unit
+)
+ident(
+  def f "ogtkBinProps.ml" 75 2848 2853 "ogtkBinProps.ml" 75 2848 2911
+)
+"ogtkBinProps.ml" 75 2848 2853 "ogtkBinProps.ml" 75 2848 2861
+type(
+  GObj.widget Gobject.data_conv ->
+  string -> (GObj.widget -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"ogtkBinProps.ml" 75 2848 2862 "ogtkBinProps.ml" 75 2848 2878
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkBinProps.ml" 75 2848 2879 "ogtkBinProps.ml" 75 2848 2909
+type(
+  string
+)
+"ogtkBinProps.ml" 75 2848 2910 "ogtkBinProps.ml" 75 2848 2911
+type(
+  GObj.widget -> unit
+)
+ident(
+  int_ref f "ogtkBinProps.ml" 74 2789 2843 "ogtkBinProps.ml" 74 2789 2844
+)
+"ogtkBinProps.ml" 75 2848 2853 "ogtkBinProps.ml" 75 2848 2911
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"ogtkBinProps.ml" 74 2789 2839 "ogtkBinProps.ml" 75 2848 2911
+type(
+  (GObj.widget -> unit) -> Gobject.Closure.argv -> unit
+)
+"ogtkBinProps.ml" 74 2789 2793 "ogtkBinProps.ml" 75 2848 2912
+type(
+  ('b, GObj.widget -> unit) GtkSignal.t
+)
+"ogtkBinProps.ml" 73 2750 2776 "ogtkBinProps.ml" 75 2848 2912
+type(
+  callback:(GObj.widget -> unit) -> GtkSignal.id
+)
+type(
+  callback:(GObj.widget -> unit) -> GtkSignal.id
+)
+"ogtkBinProps.ml" 76 2913 2939 "ogtkBinProps.ml" 76 2913 2943
+type(
+  'a
+)
+"ogtkBinProps.ml" 76 2913 2939 "ogtkBinProps.ml" 76 2913 2951
+call(
+  tail
+)
+type(
+  ('b, GObj.widget -> unit) GtkSignal.t ->
+  callback:(GObj.widget -> unit) -> GtkSignal.id
+)
+"ogtkBinProps.ml" 77 2952 2957 "ogtkBinProps.ml" 77 2952 2983
+type(
+  ('b, Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBinProps.HandleBox.S.child_detached
+)
+"ogtkBinProps.ml" 77 2952 3006 "ogtkBinProps.ml" 77 2952 3007
+type(
+  GObj.widget -> unit
+)
+ident(
+  def f "ogtkBinProps.ml" 78 3011 3016 "ogtkBinProps.ml" 78 3011 3074
+)
+"ogtkBinProps.ml" 78 3011 3016 "ogtkBinProps.ml" 78 3011 3024
+type(
+  GObj.widget Gobject.data_conv ->
+  string -> (GObj.widget -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"ogtkBinProps.ml" 78 3011 3025 "ogtkBinProps.ml" 78 3011 3041
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkBinProps.ml" 78 3011 3042 "ogtkBinProps.ml" 78 3011 3072
+type(
+  string
+)
+"ogtkBinProps.ml" 78 3011 3073 "ogtkBinProps.ml" 78 3011 3074
+type(
+  GObj.widget -> unit
+)
+ident(
+  int_ref f "ogtkBinProps.ml" 77 2952 3006 "ogtkBinProps.ml" 77 2952 3007
+)
+"ogtkBinProps.ml" 78 3011 3016 "ogtkBinProps.ml" 78 3011 3074
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"ogtkBinProps.ml" 77 2952 3002 "ogtkBinProps.ml" 78 3011 3074
+type(
+  (GObj.widget -> unit) -> Gobject.Closure.argv -> unit
+)
+"ogtkBinProps.ml" 77 2952 2956 "ogtkBinProps.ml" 78 3011 3075
+type(
+  ('b, GObj.widget -> unit) GtkSignal.t
+)
+"ogtkBinProps.ml" 76 2913 2939 "ogtkBinProps.ml" 78 3011 3075
+type(
+  callback:(GObj.widget -> unit) -> GtkSignal.id
+)
+type(
+  callback:(GObj.widget -> unit) -> GtkSignal.id
+)
+"ogtkBinProps.ml" 84 3179 3183 "ogtkBinProps.ml" 84 3179 3186
+type(
+  ([> `scrolledwindow ] as 'a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 84 3179 3188 "ogtkBinProps.ml" 84 3179 3216
+type(
+  (_[> `scrolledwindow ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.ScrolledWindow.P.hadjustment
+)
+"ogtkBinProps.ml" 84 3179 3227 "ogtkBinProps.ml" 84 3179 3248
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkBinProps.ml" 84 3179 3187 "ogtkBinProps.ml" 84 3179 3249
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkBinProps.ml" 84 3179 3250 "ogtkBinProps.ml" 84 3179 3253
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 84 3179 3183 "ogtkBinProps.ml" 84 3179 3253
+call(
+  tail
+)
+type(
+  GData.adjustment -> unit
+)
+type(
+  GData.adjustment -> unit
+)
+"ogtkBinProps.ml" 86 3281 3285 "ogtkBinProps.ml" 86 3281 3288
+type(
+  ('a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 86 3281 3290 "ogtkBinProps.ml" 86 3281 3318
+type(
+  (_[> `scrolledwindow ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.ScrolledWindow.P.vadjustment
+)
+"ogtkBinProps.ml" 86 3281 3329 "ogtkBinProps.ml" 86 3281 3350
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkBinProps.ml" 86 3281 3289 "ogtkBinProps.ml" 86 3281 3351
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkBinProps.ml" 86 3281 3352 "ogtkBinProps.ml" 86 3281 3355
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 86 3281 3285 "ogtkBinProps.ml" 86 3281 3355
+call(
+  tail
+)
+type(
+  GData.adjustment -> unit
+)
+type(
+  GData.adjustment -> unit
+)
+"ogtkBinProps.ml" 87 3356 3379 "ogtkBinProps.ml" 87 3356 3382
+type(
+  ('a, GtkEnums.policy_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.policy_type -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 87 3356 3383 "ogtkBinProps.ml" 87 3356 3417
+type(
+  ('a, GtkEnums.policy_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.ScrolledWindow.P.hscrollbar_policy
+)
+"ogtkBinProps.ml" 87 3356 3418 "ogtkBinProps.ml" 87 3356 3421
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 87 3356 3379 "ogtkBinProps.ml" 87 3356 3421
+call(
+  tail
+)
+type(
+  GtkEnums.policy_type -> unit
+)
+type(
+  GtkEnums.policy_type -> unit
+)
+"ogtkBinProps.ml" 88 3422 3445 "ogtkBinProps.ml" 88 3422 3448
+type(
+  ('a, GtkEnums.policy_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.policy_type -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 88 3422 3449 "ogtkBinProps.ml" 88 3422 3483
+type(
+  ('a, GtkEnums.policy_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.ScrolledWindow.P.vscrollbar_policy
+)
+"ogtkBinProps.ml" 88 3422 3484 "ogtkBinProps.ml" 88 3422 3487
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 88 3422 3445 "ogtkBinProps.ml" 88 3422 3487
+call(
+  tail
+)
+type(
+  GtkEnums.policy_type -> unit
+)
+type(
+  GtkEnums.policy_type -> unit
+)
+"ogtkBinProps.ml" 89 3488 3513 "ogtkBinProps.ml" 89 3488 3516
+type(
+  ('a, GtkEnums.corner_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.corner_type -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 89 3488 3517 "ogtkBinProps.ml" 89 3488 3550
+type(
+  ('a, GtkEnums.corner_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.ScrolledWindow.P.window_placement
+)
+"ogtkBinProps.ml" 89 3488 3551 "ogtkBinProps.ml" 89 3488 3554
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 89 3488 3513 "ogtkBinProps.ml" 89 3488 3554
+call(
+  tail
+)
+type(
+  GtkEnums.corner_type -> unit
+)
+type(
+  GtkEnums.corner_type -> unit
+)
+"ogtkBinProps.ml" 90 3555 3582 "ogtkBinProps.ml" 90 3555 3585
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.shadow_type -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 90 3555 3586 "ogtkBinProps.ml" 90 3555 3614
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.ScrolledWindow.P.shadow_type
+)
+"ogtkBinProps.ml" 90 3555 3615 "ogtkBinProps.ml" 90 3555 3618
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 90 3555 3582 "ogtkBinProps.ml" 90 3555 3618
+call(
+  tail
+)
+type(
+  GtkEnums.shadow_type -> unit
+)
+type(
+  GtkEnums.shadow_type -> unit
+)
+"ogtkBinProps.ml" 92 3642 3646 "ogtkBinProps.ml" 92 3642 3649
+type(
+  ('a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 92 3642 3651 "ogtkBinProps.ml" 92 3642 3679
+type(
+  (_[> `scrolledwindow ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.ScrolledWindow.P.hadjustment
+)
+"ogtkBinProps.ml" 92 3642 3690 "ogtkBinProps.ml" 92 3642 3711
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkBinProps.ml" 92 3642 3650 "ogtkBinProps.ml" 92 3642 3712
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkBinProps.ml" 92 3642 3713 "ogtkBinProps.ml" 92 3642 3716
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 92 3642 3646 "ogtkBinProps.ml" 92 3642 3716
+call(
+  tail
+)
+type(
+  GData.adjustment
+)
+type(
+  GData.adjustment
+)
+"ogtkBinProps.ml" 94 3740 3744 "ogtkBinProps.ml" 94 3740 3747
+type(
+  ('a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 94 3740 3749 "ogtkBinProps.ml" 94 3740 3777
+type(
+  (_[> `scrolledwindow ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.ScrolledWindow.P.vadjustment
+)
+"ogtkBinProps.ml" 94 3740 3788 "ogtkBinProps.ml" 94 3740 3809
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkBinProps.ml" 94 3740 3748 "ogtkBinProps.ml" 94 3740 3810
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkBinProps.ml" 94 3740 3811 "ogtkBinProps.ml" 94 3740 3814
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 94 3740 3744 "ogtkBinProps.ml" 94 3740 3814
+call(
+  tail
+)
+type(
+  GData.adjustment
+)
+type(
+  GData.adjustment
+)
+"ogtkBinProps.ml" 95 3815 3834 "ogtkBinProps.ml" 95 3815 3837
+type(
+  ('a, GtkEnums.policy_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.policy_type
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 95 3815 3838 "ogtkBinProps.ml" 95 3815 3872
+type(
+  ('a, GtkEnums.policy_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.ScrolledWindow.P.hscrollbar_policy
+)
+"ogtkBinProps.ml" 95 3815 3873 "ogtkBinProps.ml" 95 3815 3876
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 95 3815 3834 "ogtkBinProps.ml" 95 3815 3876
+call(
+  tail
+)
+type(
+  GtkEnums.policy_type
+)
+type(
+  GtkEnums.policy_type
+)
+"ogtkBinProps.ml" 96 3877 3896 "ogtkBinProps.ml" 96 3877 3899
+type(
+  ('a, GtkEnums.policy_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.policy_type
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 96 3877 3900 "ogtkBinProps.ml" 96 3877 3934
+type(
+  ('a, GtkEnums.policy_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.ScrolledWindow.P.vscrollbar_policy
+)
+"ogtkBinProps.ml" 96 3877 3935 "ogtkBinProps.ml" 96 3877 3938
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 96 3877 3896 "ogtkBinProps.ml" 96 3877 3938
+call(
+  tail
+)
+type(
+  GtkEnums.policy_type
+)
+type(
+  GtkEnums.policy_type
+)
+"ogtkBinProps.ml" 97 3939 3960 "ogtkBinProps.ml" 97 3939 3963
+type(
+  ('a, GtkEnums.corner_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.corner_type
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 97 3939 3964 "ogtkBinProps.ml" 97 3939 3997
+type(
+  ('a, GtkEnums.corner_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.ScrolledWindow.P.window_placement
+)
+"ogtkBinProps.ml" 97 3939 3998 "ogtkBinProps.ml" 97 3939 4001
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 97 3939 3960 "ogtkBinProps.ml" 97 3939 4001
+call(
+  tail
+)
+type(
+  GtkEnums.corner_type
+)
+type(
+  GtkEnums.corner_type
+)
+"ogtkBinProps.ml" 98 4002 4025 "ogtkBinProps.ml" 98 4002 4028
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.shadow_type
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 98 4002 4029 "ogtkBinProps.ml" 98 4002 4057
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.ScrolledWindow.P.shadow_type
+)
+"ogtkBinProps.ml" 98 4002 4058 "ogtkBinProps.ml" 98 4002 4061
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 98 4002 4025 "ogtkBinProps.ml" 98 4002 4061
+call(
+  tail
+)
+type(
+  GtkEnums.shadow_type
+)
+type(
+  GtkEnums.shadow_type
+)
+"ogtkBinProps.ml" 104 4158 4162 "ogtkBinProps.ml" 104 4158 4165
+type(
+  ([> `viewport ] as 'a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 104 4158 4167 "ogtkBinProps.ml" 104 4158 4189
+type(
+  (_[> `viewport ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Viewport.P.hadjustment
+)
+"ogtkBinProps.ml" 104 4158 4200 "ogtkBinProps.ml" 104 4158 4221
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkBinProps.ml" 104 4158 4166 "ogtkBinProps.ml" 104 4158 4222
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkBinProps.ml" 104 4158 4223 "ogtkBinProps.ml" 104 4158 4226
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 104 4158 4162 "ogtkBinProps.ml" 104 4158 4226
+call(
+  tail
+)
+type(
+  GData.adjustment -> unit
+)
+type(
+  GData.adjustment -> unit
+)
+"ogtkBinProps.ml" 106 4254 4258 "ogtkBinProps.ml" 106 4254 4261
+type(
+  ('a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 106 4254 4263 "ogtkBinProps.ml" 106 4254 4285
+type(
+  (_[> `viewport ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Viewport.P.vadjustment
+)
+"ogtkBinProps.ml" 106 4254 4296 "ogtkBinProps.ml" 106 4254 4317
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkBinProps.ml" 106 4254 4262 "ogtkBinProps.ml" 106 4254 4318
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkBinProps.ml" 106 4254 4319 "ogtkBinProps.ml" 106 4254 4322
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 106 4254 4258 "ogtkBinProps.ml" 106 4254 4322
+call(
+  tail
+)
+type(
+  GData.adjustment -> unit
+)
+type(
+  GData.adjustment -> unit
+)
+"ogtkBinProps.ml" 107 4323 4350 "ogtkBinProps.ml" 107 4323 4353
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.shadow_type -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 107 4323 4354 "ogtkBinProps.ml" 107 4323 4376
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Viewport.P.shadow_type
+)
+"ogtkBinProps.ml" 107 4323 4377 "ogtkBinProps.ml" 107 4323 4380
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 107 4323 4350 "ogtkBinProps.ml" 107 4323 4380
+call(
+  tail
+)
+type(
+  GtkEnums.shadow_type -> unit
+)
+type(
+  GtkEnums.shadow_type -> unit
+)
+"ogtkBinProps.ml" 109 4404 4408 "ogtkBinProps.ml" 109 4404 4411
+type(
+  ('a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 109 4404 4413 "ogtkBinProps.ml" 109 4404 4435
+type(
+  (_[> `viewport ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Viewport.P.hadjustment
+)
+"ogtkBinProps.ml" 109 4404 4446 "ogtkBinProps.ml" 109 4404 4467
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkBinProps.ml" 109 4404 4412 "ogtkBinProps.ml" 109 4404 4468
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkBinProps.ml" 109 4404 4469 "ogtkBinProps.ml" 109 4404 4472
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 109 4404 4408 "ogtkBinProps.ml" 109 4404 4472
+call(
+  tail
+)
+type(
+  GData.adjustment
+)
+type(
+  GData.adjustment
+)
+"ogtkBinProps.ml" 111 4496 4500 "ogtkBinProps.ml" 111 4496 4503
+type(
+  ('a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 111 4496 4505 "ogtkBinProps.ml" 111 4496 4527
+type(
+  (_[> `viewport ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Viewport.P.vadjustment
+)
+"ogtkBinProps.ml" 111 4496 4538 "ogtkBinProps.ml" 111 4496 4559
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkBinProps.ml" 111 4496 4504 "ogtkBinProps.ml" 111 4496 4560
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkBinProps.ml" 111 4496 4561 "ogtkBinProps.ml" 111 4496 4564
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 111 4496 4500 "ogtkBinProps.ml" 111 4496 4564
+call(
+  tail
+)
+type(
+  GData.adjustment
+)
+type(
+  GData.adjustment
+)
+"ogtkBinProps.ml" 112 4565 4588 "ogtkBinProps.ml" 112 4565 4591
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.shadow_type
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 112 4565 4592 "ogtkBinProps.ml" 112 4565 4614
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Viewport.P.shadow_type
+)
+"ogtkBinProps.ml" 112 4565 4615 "ogtkBinProps.ml" 112 4565 4618
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 112 4565 4588 "ogtkBinProps.ml" 112 4565 4618
+call(
+  tail
+)
+type(
+  GtkEnums.shadow_type
+)
+type(
+  GtkEnums.shadow_type
+)
+"ogtkBinProps.ml" 117 4688 4712 "ogtkBinProps.ml" 117 4688 4715
+type(
+  ([> `expander ] as 'a, bool) Gobject.property ->
+  'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 117 4688 4716 "ogtkBinProps.ml" 117 4688 4735
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Expander.P.expanded
+)
+"ogtkBinProps.ml" 117 4688 4736 "ogtkBinProps.ml" 117 4688 4739
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 117 4688 4712 "ogtkBinProps.ml" 117 4688 4739
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBinProps.ml" 118 4740 4761 "ogtkBinProps.ml" 118 4740 4764
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 118 4740 4765 "ogtkBinProps.ml" 118 4740 4781
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Expander.P.label
+)
+"ogtkBinProps.ml" 118 4740 4782 "ogtkBinProps.ml" 118 4740 4785
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 118 4740 4761 "ogtkBinProps.ml" 118 4740 4785
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkBinProps.ml" 120 4814 4818 "ogtkBinProps.ml" 120 4814 4821
+type(
+  ('a, GObj.widget) Gobject.property -> 'a Gobject.obj -> GObj.widget -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 120 4814 4823 "ogtkBinProps.ml" 120 4814 4846
+type(
+  (_[> `expander ], Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Expander.P.label_widget
+)
+"ogtkBinProps.ml" 120 4814 4857 "ogtkBinProps.ml" 120 4814 4873
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkBinProps.ml" 120 4814 4822 "ogtkBinProps.ml" 120 4814 4874
+type(
+  ('a, GObj.widget) Gobject.property
+)
+"ogtkBinProps.ml" 120 4814 4875 "ogtkBinProps.ml" 120 4814 4878
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 120 4814 4818 "ogtkBinProps.ml" 120 4814 4878
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+type(
+  GObj.widget -> unit
+)
+"ogtkBinProps.ml" 121 4879 4902 "ogtkBinProps.ml" 121 4879 4905
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 121 4879 4906 "ogtkBinProps.ml" 121 4879 4924
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Expander.P.spacing
+)
+"ogtkBinProps.ml" 121 4879 4925 "ogtkBinProps.ml" 121 4879 4928
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 121 4879 4902 "ogtkBinProps.ml" 121 4879 4928
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkBinProps.ml" 122 4929 4958 "ogtkBinProps.ml" 122 4929 4961
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBinProps.ml" 4 38 42 "ogtkBinProps.ml" 4 38 45
+)
+"ogtkBinProps.ml" 122 4929 4962 "ogtkBinProps.ml" 122 4929 4986
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Expander.P.use_underline
+)
+"ogtkBinProps.ml" 122 4929 4987 "ogtkBinProps.ml" 122 4929 4990
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 122 4929 4958 "ogtkBinProps.ml" 122 4929 4990
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBinProps.ml" 123 4991 5011 "ogtkBinProps.ml" 123 4991 5014
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 123 4991 5015 "ogtkBinProps.ml" 123 4991 5034
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Expander.P.expanded
+)
+"ogtkBinProps.ml" 123 4991 5035 "ogtkBinProps.ml" 123 4991 5038
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 123 4991 5011 "ogtkBinProps.ml" 123 4991 5038
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBinProps.ml" 124 5039 5056 "ogtkBinProps.ml" 124 5039 5059
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 124 5039 5060 "ogtkBinProps.ml" 124 5039 5076
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Expander.P.label
+)
+"ogtkBinProps.ml" 124 5039 5077 "ogtkBinProps.ml" 124 5039 5080
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 124 5039 5056 "ogtkBinProps.ml" 124 5039 5080
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkBinProps.ml" 126 5105 5109 "ogtkBinProps.ml" 126 5105 5112
+type(
+  ('a, GObj.widget) Gobject.property -> 'a Gobject.obj -> GObj.widget
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 126 5105 5114 "ogtkBinProps.ml" 126 5105 5137
+type(
+  (_[> `expander ], Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Expander.P.label_widget
+)
+"ogtkBinProps.ml" 126 5105 5148 "ogtkBinProps.ml" 126 5105 5164
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkBinProps.ml" 126 5105 5113 "ogtkBinProps.ml" 126 5105 5165
+type(
+  ('a, GObj.widget) Gobject.property
+)
+"ogtkBinProps.ml" 126 5105 5166 "ogtkBinProps.ml" 126 5105 5169
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 126 5105 5109 "ogtkBinProps.ml" 126 5105 5169
+call(
+  tail
+)
+type(
+  GObj.widget
+)
+type(
+  GObj.widget
+)
+"ogtkBinProps.ml" 127 5170 5189 "ogtkBinProps.ml" 127 5170 5192
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 127 5170 5193 "ogtkBinProps.ml" 127 5170 5211
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Expander.P.spacing
+)
+"ogtkBinProps.ml" 127 5170 5212 "ogtkBinProps.ml" 127 5170 5215
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 127 5170 5189 "ogtkBinProps.ml" 127 5170 5215
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkBinProps.ml" 128 5216 5241 "ogtkBinProps.ml" 128 5216 5244
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBinProps.ml" 5 52 56 "ogtkBinProps.ml" 5 52 59
+)
+"ogtkBinProps.ml" 128 5216 5245 "ogtkBinProps.ml" 128 5216 5269
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBinProps.Expander.P.use_underline
+)
+"ogtkBinProps.ml" 128 5216 5270 "ogtkBinProps.ml" 128 5216 5273
+type(
+  'a Gobject.obj
+)
+"ogtkBinProps.ml" 128 5216 5241 "ogtkBinProps.ml" 128 5216 5273
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBinProps.ml" 131 5279 5316 "ogtkBinProps.ml" 131 5279 5322
+type(
+  < activate : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkBinProps.ml" 134 5417 5437 "ogtkBinProps.ml" 134 5417 5441
+type(
+  < activate : callback:(unit -> unit) -> GtkSignal.id; .. > as 'a
+)
+"ogtkBinProps.ml" 134 5417 5437 "ogtkBinProps.ml" 134 5417 5449
+call(
+  tail
+)
+type(
+  ([> `expander ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBinProps.ml" 134 5417 5450 "ogtkBinProps.ml" 134 5417 5469
+type(
+  ([> `expander ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBinProps.Expander.S.activate
+)
+"ogtkBinProps.ml" 134 5417 5437 "ogtkBinProps.ml" 134 5417 5469
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)

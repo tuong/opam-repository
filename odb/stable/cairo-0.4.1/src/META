@@ -1,0 +1,18 @@
+# OASIS_START
+# DO NOT EDIT (digest: cb210ae80d64f456af087dba4308930a)
+version = "0.4.1"
+description = "Binding to Cairo, a Vector Graphics Library."
+requires = "bigarray"
+archive(byte) = "cairo2.cma"
+archive(native) = "cairo2.cmxa"
+exists_if = "cairo2.cma"
+package "lablgtk2" (
+ version = "0.4.1"
+ description = "Rendering Cairo on Gtk canvas."
+ requires = "lablgtk2 cairo2"
+ archive(byte) = "cairo_gtk.cma"
+ archive(native) = "cairo_gtk.cmxa"
+ exists_if = "cairo_gtk.cma"
+)
+# OASIS_STOP
+

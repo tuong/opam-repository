@@ -1,0 +1,5530 @@
+"gdkPixbuf.ml" 43 2144 2148 "gdkPixbuf.ml" 43 2144 2150
+type(
+  unit
+)
+"gdkPixbuf.ml" 43 2144 2153 "gdkPixbuf.ml" 43 2144 2158
+type(
+  unit -> unit
+)
+"gdkPixbuf.ml" 43 2144 2159 "gdkPixbuf.ml" 43 2144 2161
+type(
+  unit
+)
+"gdkPixbuf.ml" 43 2144 2153 "gdkPixbuf.ml" 43 2144 2161
+type(
+  unit
+)
+"gdkPixbuf.ml" 43 2144 2164 "gdkPixbuf.ml" 43 2144 2191
+type(
+  string -> exn -> unit
+)
+ident(
+  ext_ref Callback.register_exception
+)
+"gdkPixbuf.ml" 43 2144 2192 "gdkPixbuf.ml" 43 2144 2210
+type(
+  string
+)
+"gdkPixbuf.ml" 43 2144 2228 "gdkPixbuf.ml" 43 2144 2247
+type(
+  gdkpixbuferror
+)
+"gdkPixbuf.ml" 43 2144 2249 "gdkPixbuf.ml" 43 2144 2251
+type(
+  string
+)
+"gdkPixbuf.ml" 43 2144 2211 "gdkPixbuf.ml" 43 2144 2253
+type(
+  exn
+)
+"gdkPixbuf.ml" 43 2144 2164 "gdkPixbuf.ml" 43 2144 2253
+call(
+  stack
+)
+type(
+  unit
+)
+"gdkPixbuf.ml" 43 2144 2153 "gdkPixbuf.ml" 43 2144 2253
+type(
+  unit
+)
+"gdkPixbuf.ml" 57 2858 2862 "gdkPixbuf.ml" 57 2858 2872
+type(
+  pixbuf -> Gpointer.region
+)
+ident(
+  def get_pixels "gdkPixbuf.ml" 68 3136 3136 --
+)
+"gdkPixbuf.ml" 57 2858 2873 "gdkPixbuf.ml" 57 2858 2879
+type(
+  pixbuf
+)
+ident(
+  def pixbuf "gdkPixbuf.ml" 58 2882 2884 "gdkPixbuf.ml" 64 3093 3114
+)
+"gdkPixbuf.ml" 58 2882 2888 "gdkPixbuf.ml" 58 2882 2891
+type(
+  Obj.t
+)
+"gdkPixbuf.ml" 58 2882 2893 "gdkPixbuf.ml" 58 2882 2896
+type(
+  int
+)
+"gdkPixbuf.ml" 58 2882 2888 "gdkPixbuf.ml" 58 2882 2896
+type(
+  Obj.t * int
+)
+"gdkPixbuf.ml" 58 2882 2899 "gdkPixbuf.ml" 58 2882 2910
+type(
+  pixbuf -> Obj.t * int
+)
+"gdkPixbuf.ml" 58 2882 2911 "gdkPixbuf.ml" 58 2882 2917
+type(
+  pixbuf
+)
+ident(
+  int_ref pixbuf "gdkPixbuf.ml" 57 2858 2873 "gdkPixbuf.ml" 57 2858 2879
+)
+"gdkPixbuf.ml" 58 2882 2899 "gdkPixbuf.ml" 58 2882 2917
+type(
+  Obj.t * int
+)
+"gdkPixbuf.ml" 59 2921 2927 "gdkPixbuf.ml" 59 2921 2937
+type(
+  'a * pixbuf -> int
+)
+"gdkPixbuf.ml" 59 2921 2939 "gdkPixbuf.ml" 59 2921 2940
+type(
+  'a
+)
+"gdkPixbuf.ml" 59 2921 2942 "gdkPixbuf.ml" 59 2921 2948
+type(
+  pixbuf
+)
+ident(
+  def pixbuf "gdkPixbuf.ml" 60 2952 2956 "gdkPixbuf.ml" 60 2952 3002
+)
+"gdkPixbuf.ml" 59 2921 2938 "gdkPixbuf.ml" 59 2921 2949
+type(
+  'a * pixbuf
+)
+"gdkPixbuf.ml" 60 2952 2956 "gdkPixbuf.ml" 60 2952 2969
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 60 2952 2970 "gdkPixbuf.ml" 60 2952 2976
+type(
+  pixbuf
+)
+ident(
+  int_ref pixbuf "gdkPixbuf.ml" 59 2921 2942 "gdkPixbuf.ml" 59 2921 2948
+)
+"gdkPixbuf.ml" 60 2952 2956 "gdkPixbuf.ml" 60 2952 2976
+type(
+  int
+)
+"gdkPixbuf.ml" 60 2952 2977 "gdkPixbuf.ml" 60 2952 2978
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"gdkPixbuf.ml" 60 2952 2979 "gdkPixbuf.ml" 60 2952 2989
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 60 2952 2990 "gdkPixbuf.ml" 60 2952 2996
+type(
+  pixbuf
+)
+ident(
+  int_ref pixbuf "gdkPixbuf.ml" 59 2921 2942 "gdkPixbuf.ml" 59 2921 2948
+)
+"gdkPixbuf.ml" 60 2952 2979 "gdkPixbuf.ml" 60 2952 2996
+type(
+  int
+)
+"gdkPixbuf.ml" 60 2952 2956 "gdkPixbuf.ml" 60 2952 2996
+type(
+  int
+)
+"gdkPixbuf.ml" 60 2952 2997 "gdkPixbuf.ml" 60 2952 2998
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"gdkPixbuf.ml" 60 2952 2999 "gdkPixbuf.ml" 60 2952 3002
+type(
+  int
+)
+ident(
+  int_ref pos "gdkPixbuf.ml" 58 2882 2893 "gdkPixbuf.ml" 58 2882 2896
+)
+"gdkPixbuf.ml" 60 2952 2956 "gdkPixbuf.ml" 60 2952 3002
+type(
+  int
+)
+"gdkPixbuf.ml" 62 3008 3014 "gdkPixbuf.ml" 62 3008 3015
+type(
+  Gpointer.region
+)
+"gdkPixbuf.ml" 63 3018 3022 "gdkPixbuf.ml" 63 3018 3051
+type(
+  path:int array ->
+  get_length:(Obj.t * pixbuf -> int) -> Obj.t * pixbuf -> Gpointer.region
+)
+ident(
+  ext_ref Gpointer.unsafe_create_region
+)
+"gdkPixbuf.ml" 63 3018 3060 "gdkPixbuf.ml" 63 3018 3061
+type(
+  int
+)
+"gdkPixbuf.ml" 63 3018 3058 "gdkPixbuf.ml" 63 3018 3063
+type(
+  int array
+)
+"gdkPixbuf.ml" 63 3018 3065 "gdkPixbuf.ml" 63 3018 3075
+type(
+  Obj.t * pixbuf -> int
+)
+ident(
+  int_ref get_length "gdkPixbuf.ml" 59 2921 2927 "gdkPixbuf.ml" 59 2921 2937
+)
+"gdkPixbuf.ml" 63 3018 3077 "gdkPixbuf.ml" 63 3018 3080
+type(
+  Obj.t
+)
+ident(
+  int_ref obj "gdkPixbuf.ml" 58 2882 2888 "gdkPixbuf.ml" 58 2882 2891
+)
+"gdkPixbuf.ml" 63 3018 3082 "gdkPixbuf.ml" 63 3018 3088
+type(
+  pixbuf
+)
+ident(
+  int_ref pixbuf "gdkPixbuf.ml" 57 2858 2873 "gdkPixbuf.ml" 57 2858 2879
+)
+"gdkPixbuf.ml" 63 3018 3076 "gdkPixbuf.ml" 63 3018 3089
+type(
+  Obj.t * pixbuf
+)
+"gdkPixbuf.ml" 63 3018 3022 "gdkPixbuf.ml" 63 3018 3089
+call(
+  stack
+)
+type(
+  Gpointer.region
+)
+"gdkPixbuf.ml" 64 3093 3095 "gdkPixbuf.ml" 64 3093 3107
+type(
+  ?pos:int -> ?len:int -> Gpointer.region -> Gpointer.region
+)
+ident(
+  ext_ref Gpointer.sub
+)
+"gdkPixbuf.ml" 64 3093 3109 "gdkPixbuf.ml" 64 3093 3112
+type(
+  int
+)
+ident(
+  int_ref pos "gdkPixbuf.ml" 58 2882 2893 "gdkPixbuf.ml" 58 2882 2896
+)
+"gdkPixbuf.ml" 64 3093 3113 "gdkPixbuf.ml" 64 3093 3114
+type(
+  Gpointer.region
+)
+ident(
+  int_ref r "gdkPixbuf.ml" 62 3008 3014 "gdkPixbuf.ml" 62 3008 3015
+)
+"gdkPixbuf.ml" 64 3093 3095 "gdkPixbuf.ml" 64 3093 3114
+call(
+  tail
+)
+type(
+  Gpointer.region
+)
+"gdkPixbuf.ml" 62 3008 3010 "gdkPixbuf.ml" 64 3093 3114
+type(
+  Gpointer.region
+)
+"gdkPixbuf.ml" 59 2921 2923 "gdkPixbuf.ml" 64 3093 3114
+type(
+  Gpointer.region
+)
+"gdkPixbuf.ml" 58 2882 2884 "gdkPixbuf.ml" 64 3093 3114
+type(
+  Gpointer.region
+)
+"gdkPixbuf.ml" 72 3272 3276 "gdkPixbuf.ml" 72 3272 3282
+type(
+  width:int ->
+  height:int ->
+  ?bits:int -> ?colorspace:colorspace -> ?has_alpha:bool -> unit -> pixbuf
+)
+ident(
+  def create "gdkPixbuf.ml" 75 3406 3406 --
+)
+"gdkPixbuf.ml" 72 3272 3284 "gdkPixbuf.ml" 72 3272 3289
+type(
+  int
+)
+ident(
+  def width "gdkPixbuf.ml" 72 3272 3290 "gdkPixbuf.ml" 73 3351 3404
+)
+"gdkPixbuf.ml" 72 3272 3291 "gdkPixbuf.ml" 72 3272 3297
+type(
+  int
+)
+ident(
+  def height "gdkPixbuf.ml" 72 3272 3298 "gdkPixbuf.ml" 73 3351 3404
+)
+"gdkPixbuf.ml" 72 3272 3300 "gdkPixbuf.ml" 72 3272 3304
+type(
+  int
+)
+"gdkPixbuf.ml" 72 3272 3305 "gdkPixbuf.ml" 72 3272 3306
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 72 3272 3305 "gdkPixbuf.ml" 72 3272 3306
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 72 3272 3305 "gdkPixbuf.ml" 72 3272 3306
+)
+"gdkPixbuf.ml" 72 3272 3310 "gdkPixbuf.ml" 72 3272 3320
+type(
+  colorspace
+)
+"gdkPixbuf.ml" 72 3272 3321 "gdkPixbuf.ml" 72 3272 3325
+type(
+  colorspace
+)
+type(
+  colorspace
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 72 3272 3321 "gdkPixbuf.ml" 72 3272 3325
+)
+type(
+  colorspace option
+)
+type(
+  colorspace option
+)
+type(
+  colorspace
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 72 3272 3321 "gdkPixbuf.ml" 72 3272 3325
+)
+"gdkPixbuf.ml" 72 3272 3329 "gdkPixbuf.ml" 72 3272 3338
+type(
+  bool
+)
+"gdkPixbuf.ml" 72 3272 3339 "gdkPixbuf.ml" 72 3272 3344
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 72 3272 3339 "gdkPixbuf.ml" 72 3272 3344
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 72 3272 3339 "gdkPixbuf.ml" 72 3272 3344
+)
+"gdkPixbuf.ml" 72 3272 3346 "gdkPixbuf.ml" 72 3272 3348
+type(
+  unit
+)
+"gdkPixbuf.ml" 73 3351 3353 "gdkPixbuf.ml" 73 3351 3360
+type(
+  colorspace:colorspace ->
+  has_alpha:bool -> bits:int -> width:int -> height:int -> pixbuf
+)
+"gdkPixbuf.ml" 73 3351 3362 "gdkPixbuf.ml" 73 3351 3372
+type(
+  colorspace
+)
+ident(
+  int_ref colorspace "gdkPixbuf.ml" 72 3272 3310 "gdkPixbuf.ml" 72 3272 3320
+)
+"gdkPixbuf.ml" 73 3351 3374 "gdkPixbuf.ml" 73 3351 3383
+type(
+  bool
+)
+ident(
+  int_ref has_alpha "gdkPixbuf.ml" 72 3272 3329 "gdkPixbuf.ml" 72 3272 3338
+)
+"gdkPixbuf.ml" 73 3351 3385 "gdkPixbuf.ml" 73 3351 3389
+type(
+  int
+)
+ident(
+  int_ref bits "gdkPixbuf.ml" 72 3272 3300 "gdkPixbuf.ml" 72 3272 3304
+)
+"gdkPixbuf.ml" 73 3351 3391 "gdkPixbuf.ml" 73 3351 3396
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 72 3272 3284 "gdkPixbuf.ml" 72 3272 3289
+)
+"gdkPixbuf.ml" 73 3351 3398 "gdkPixbuf.ml" 73 3351 3404
+type(
+  int
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 72 3272 3291 "gdkPixbuf.ml" 72 3272 3297
+)
+"gdkPixbuf.ml" 73 3351 3353 "gdkPixbuf.ml" 73 3351 3404
+type(
+  pixbuf
+)
+"gdkPixbuf.ml" 75 3406 3410 "gdkPixbuf.ml" 75 3406 3414
+type(
+  'a Gobject.obj -> pixbuf
+)
+ident(
+  def cast "gdkPixbuf.ml" 77 3460 3460 --
+)
+"gdkPixbuf.ml" 75 3406 3415 "gdkPixbuf.ml" 75 3406 3416
+type(
+  'a Gobject.obj
+)
+ident(
+  def o "gdkPixbuf.ml" 75 3406 3417 "gdkPixbuf.ml" 75 3406 3458
+)
+"gdkPixbuf.ml" 75 3406 3428 "gdkPixbuf.ml" 75 3406 3444
+type(
+  'a Gobject.obj -> string -> pixbuf
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gdkPixbuf.ml" 75 3406 3445 "gdkPixbuf.ml" 75 3406 3446
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref o "gdkPixbuf.ml" 75 3406 3415 "gdkPixbuf.ml" 75 3406 3416
+)
+"gdkPixbuf.ml" 75 3406 3447 "gdkPixbuf.ml" 75 3406 3458
+type(
+  string
+)
+"gdkPixbuf.ml" 75 3406 3428 "gdkPixbuf.ml" 75 3406 3458
+call(
+  tail
+)
+type(
+  pixbuf
+)
+type(
+  pixbuf
+)
+"gdkPixbuf.ml" 91 4195 4199 "gdkPixbuf.ml" 91 4195 4208
+type(
+  width:int ->
+  height:int ->
+  ?bits:int -> ?rowstride:int -> ?has_alpha:bool -> Gpointer.region -> pixbuf
+)
+ident(
+  def from_data "gdkPixbuf.ml" 99 4627 4627 --
+)
+"gdkPixbuf.ml" 91 4195 4210 "gdkPixbuf.ml" 91 4195 4215
+type(
+  int
+)
+ident(
+  def width "gdkPixbuf.ml" 91 4195 4216 "gdkPixbuf.ml" 97 4565 4625
+)
+"gdkPixbuf.ml" 91 4195 4217 "gdkPixbuf.ml" 91 4195 4223
+type(
+  int
+)
+ident(
+  def height "gdkPixbuf.ml" 91 4195 4224 "gdkPixbuf.ml" 97 4565 4625
+)
+"gdkPixbuf.ml" 91 4195 4226 "gdkPixbuf.ml" 91 4195 4230
+type(
+  int
+)
+"gdkPixbuf.ml" 91 4195 4231 "gdkPixbuf.ml" 91 4195 4232
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 91 4195 4231 "gdkPixbuf.ml" 91 4195 4232
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 91 4195 4231 "gdkPixbuf.ml" 91 4195 4232
+)
+"gdkPixbuf.ml" 91 4195 4235 "gdkPixbuf.ml" 91 4195 4244
+type(
+  int option
+)
+ident(
+  def rowstride "gdkPixbuf.ml" 91 4195 4245 "gdkPixbuf.ml" 97 4565 4625
+)
+"gdkPixbuf.ml" 91 4195 4247 "gdkPixbuf.ml" 91 4195 4256
+type(
+  bool
+)
+"gdkPixbuf.ml" 91 4195 4257 "gdkPixbuf.ml" 91 4195 4262
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 91 4195 4257 "gdkPixbuf.ml" 91 4195 4262
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 91 4195 4257 "gdkPixbuf.ml" 91 4195 4262
+)
+"gdkPixbuf.ml" 91 4195 4264 "gdkPixbuf.ml" 91 4195 4268
+type(
+  Gpointer.region
+)
+ident(
+  def data "gdkPixbuf.ml" 92 4271 4273 "gdkPixbuf.ml" 97 4565 4625
+)
+"gdkPixbuf.ml" 92 4271 4277 "gdkPixbuf.ml" 92 4271 4279
+type(
+  int
+)
+"gdkPixbuf.ml" 92 4271 4285 "gdkPixbuf.ml" 92 4271 4294
+type(
+  bool
+)
+ident(
+  int_ref has_alpha "gdkPixbuf.ml" 91 4195 4247 "gdkPixbuf.ml" 91 4195 4256
+)
+"gdkPixbuf.ml" 92 4271 4300 "gdkPixbuf.ml" 92 4271 4301
+type(
+  int
+)
+"gdkPixbuf.ml" 92 4271 4307 "gdkPixbuf.ml" 92 4271 4308
+type(
+  int
+)
+"gdkPixbuf.ml" 92 4271 4282 "gdkPixbuf.ml" 92 4271 4308
+type(
+  int
+)
+"gdkPixbuf.ml" 93 4312 4318 "gdkPixbuf.ml" 93 4312 4327
+type(
+  int
+)
+"gdkPixbuf.ml" 93 4312 4336 "gdkPixbuf.ml" 93 4312 4345
+type(
+  int option
+)
+ident(
+  int_ref rowstride "gdkPixbuf.ml" 91 4195 4235 "gdkPixbuf.ml" 91 4195 4244
+)
+"gdkPixbuf.ml" 93 4312 4351 "gdkPixbuf.ml" 93 4312 4355
+type(
+  int option
+)
+"gdkPixbuf.ml" 93 4312 4359 "gdkPixbuf.ml" 93 4312 4364
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 91 4195 4210 "gdkPixbuf.ml" 91 4195 4215
+)
+"gdkPixbuf.ml" 93 4312 4365 "gdkPixbuf.ml" 93 4312 4366
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"gdkPixbuf.ml" 93 4312 4367 "gdkPixbuf.ml" 93 4312 4369
+type(
+  int
+)
+ident(
+  int_ref nc "gdkPixbuf.ml" 92 4271 4277 "gdkPixbuf.ml" 92 4271 4279
+)
+"gdkPixbuf.ml" 93 4312 4359 "gdkPixbuf.ml" 93 4312 4369
+type(
+  int
+)
+"gdkPixbuf.ml" 93 4312 4377 "gdkPixbuf.ml" 93 4312 4378
+type(
+  int
+)
+ident(
+  def r "gdkPixbuf.ml" 93 4312 4382 "gdkPixbuf.ml" 93 4312 4383
+)
+"gdkPixbuf.ml" 93 4312 4372 "gdkPixbuf.ml" 93 4312 4378
+type(
+  int option
+)
+"gdkPixbuf.ml" 93 4312 4382 "gdkPixbuf.ml" 93 4312 4383
+type(
+  int
+)
+ident(
+  int_ref r "gdkPixbuf.ml" 93 4312 4377 "gdkPixbuf.ml" 93 4312 4378
+)
+"gdkPixbuf.ml" 93 4312 4330 "gdkPixbuf.ml" 93 4312 4383
+type(
+  int
+)
+"gdkPixbuf.ml" 94 4387 4392 "gdkPixbuf.ml" 94 4387 4396
+type(
+  int
+)
+ident(
+  int_ref bits "gdkPixbuf.ml" 91 4195 4226 "gdkPixbuf.ml" 91 4195 4230
+)
+"gdkPixbuf.ml" 94 4387 4397 "gdkPixbuf.ml" 94 4387 4399
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gdkPixbuf.ml" 94 4387 4400 "gdkPixbuf.ml" 94 4387 4401
+type(
+  int
+)
+"gdkPixbuf.ml" 94 4387 4392 "gdkPixbuf.ml" 94 4387 4401
+type(
+  bool
+)
+"gdkPixbuf.ml" 94 4387 4402 "gdkPixbuf.ml" 94 4387 4404
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 94 4387 4405 "gdkPixbuf.ml" 94 4387 4414
+type(
+  int
+)
+ident(
+  int_ref rowstride "gdkPixbuf.ml" 93 4312 4318 "gdkPixbuf.ml" 93 4312 4327
+)
+"gdkPixbuf.ml" 94 4387 4415 "gdkPixbuf.ml" 94 4387 4416
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gdkPixbuf.ml" 94 4387 4417 "gdkPixbuf.ml" 94 4387 4422
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 91 4195 4210 "gdkPixbuf.ml" 91 4195 4215
+)
+"gdkPixbuf.ml" 94 4387 4423 "gdkPixbuf.ml" 94 4387 4424
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"gdkPixbuf.ml" 94 4387 4425 "gdkPixbuf.ml" 94 4387 4427
+type(
+  int
+)
+ident(
+  int_ref nc "gdkPixbuf.ml" 92 4271 4277 "gdkPixbuf.ml" 92 4271 4279
+)
+"gdkPixbuf.ml" 94 4387 4417 "gdkPixbuf.ml" 94 4387 4427
+type(
+  int
+)
+"gdkPixbuf.ml" 94 4387 4405 "gdkPixbuf.ml" 94 4387 4427
+type(
+  bool
+)
+"gdkPixbuf.ml" 94 4387 4428 "gdkPixbuf.ml" 94 4387 4430
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 94 4387 4431 "gdkPixbuf.ml" 94 4387 4436
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 91 4195 4210 "gdkPixbuf.ml" 91 4195 4215
+)
+"gdkPixbuf.ml" 94 4387 4437 "gdkPixbuf.ml" 94 4387 4439
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"gdkPixbuf.ml" 94 4387 4440 "gdkPixbuf.ml" 94 4387 4441
+type(
+  int
+)
+"gdkPixbuf.ml" 94 4387 4431 "gdkPixbuf.ml" 94 4387 4441
+type(
+  bool
+)
+"gdkPixbuf.ml" 94 4387 4442 "gdkPixbuf.ml" 94 4387 4444
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 94 4387 4445 "gdkPixbuf.ml" 94 4387 4451
+type(
+  int
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 91 4195 4217 "gdkPixbuf.ml" 91 4195 4223
+)
+"gdkPixbuf.ml" 94 4387 4452 "gdkPixbuf.ml" 94 4387 4454
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"gdkPixbuf.ml" 94 4387 4455 "gdkPixbuf.ml" 94 4387 4456
+type(
+  int
+)
+"gdkPixbuf.ml" 94 4387 4445 "gdkPixbuf.ml" 94 4387 4456
+type(
+  bool
+)
+"gdkPixbuf.ml" 95 4457 4459 "gdkPixbuf.ml" 95 4457 4461
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 95 4457 4462 "gdkPixbuf.ml" 95 4457 4477
+type(
+  Gpointer.region -> int
+)
+ident(
+  ext_ref Gpointer.length
+)
+"gdkPixbuf.ml" 95 4457 4478 "gdkPixbuf.ml" 95 4457 4482
+type(
+  Gpointer.region
+)
+ident(
+  int_ref data "gdkPixbuf.ml" 91 4195 4264 "gdkPixbuf.ml" 91 4195 4268
+)
+"gdkPixbuf.ml" 95 4457 4462 "gdkPixbuf.ml" 95 4457 4482
+call(
+  stack
+)
+type(
+  int
+)
+"gdkPixbuf.ml" 95 4457 4483 "gdkPixbuf.ml" 95 4457 4484
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gdkPixbuf.ml" 95 4457 4485 "gdkPixbuf.ml" 95 4457 4494
+type(
+  int
+)
+ident(
+  int_ref rowstride "gdkPixbuf.ml" 93 4312 4318 "gdkPixbuf.ml" 93 4312 4327
+)
+"gdkPixbuf.ml" 95 4457 4495 "gdkPixbuf.ml" 95 4457 4496
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"gdkPixbuf.ml" 95 4457 4498 "gdkPixbuf.ml" 95 4457 4504
+type(
+  int
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 91 4195 4217 "gdkPixbuf.ml" 91 4195 4223
+)
+"gdkPixbuf.ml" 95 4457 4505 "gdkPixbuf.ml" 95 4457 4506
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdkPixbuf.ml" 95 4457 4507 "gdkPixbuf.ml" 95 4457 4508
+type(
+  int
+)
+"gdkPixbuf.ml" 95 4457 4497 "gdkPixbuf.ml" 95 4457 4509
+type(
+  int
+)
+"gdkPixbuf.ml" 95 4457 4485 "gdkPixbuf.ml" 95 4457 4509
+type(
+  int
+)
+"gdkPixbuf.ml" 95 4457 4510 "gdkPixbuf.ml" 95 4457 4511
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"gdkPixbuf.ml" 95 4457 4512 "gdkPixbuf.ml" 95 4457 4517
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 91 4195 4210 "gdkPixbuf.ml" 91 4195 4215
+)
+"gdkPixbuf.ml" 95 4457 4518 "gdkPixbuf.ml" 95 4457 4519
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"gdkPixbuf.ml" 95 4457 4520 "gdkPixbuf.ml" 95 4457 4522
+type(
+  int
+)
+ident(
+  int_ref nc "gdkPixbuf.ml" 92 4271 4277 "gdkPixbuf.ml" 92 4271 4279
+)
+"gdkPixbuf.ml" 95 4457 4512 "gdkPixbuf.ml" 95 4457 4522
+type(
+  int
+)
+"gdkPixbuf.ml" 95 4457 4485 "gdkPixbuf.ml" 95 4457 4522
+type(
+  int
+)
+"gdkPixbuf.ml" 95 4457 4462 "gdkPixbuf.ml" 95 4457 4522
+type(
+  bool
+)
+"gdkPixbuf.ml" 94 4387 4445 "gdkPixbuf.ml" 95 4457 4522
+type(
+  bool
+)
+"gdkPixbuf.ml" 94 4387 4431 "gdkPixbuf.ml" 95 4457 4522
+type(
+  bool
+)
+"gdkPixbuf.ml" 94 4387 4405 "gdkPixbuf.ml" 95 4457 4522
+type(
+  bool
+)
+"gdkPixbuf.ml" 94 4387 4392 "gdkPixbuf.ml" 95 4457 4522
+type(
+  bool
+)
+"gdkPixbuf.ml" 96 4523 4530 "gdkPixbuf.ml" 96 4523 4541
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gdkPixbuf.ml" 96 4523 4542 "gdkPixbuf.ml" 96 4523 4563
+type(
+  string
+)
+"gdkPixbuf.ml" 96 4523 4530 "gdkPixbuf.ml" 96 4523 4563
+call(
+  stack
+)
+type(
+  unit
+)
+"gdkPixbuf.ml" 94 4387 4389 "gdkPixbuf.ml" 96 4523 4563
+type(
+  unit
+)
+"gdkPixbuf.ml" 97 4565 4567 "gdkPixbuf.ml" 97 4565 4577
+type(
+  Gpointer.region ->
+  has_alpha:bool ->
+  bits:int -> width:int -> height:int -> rowstride:int -> pixbuf
+)
+"gdkPixbuf.ml" 97 4565 4578 "gdkPixbuf.ml" 97 4565 4582
+type(
+  Gpointer.region
+)
+ident(
+  int_ref data "gdkPixbuf.ml" 91 4195 4264 "gdkPixbuf.ml" 91 4195 4268
+)
+"gdkPixbuf.ml" 97 4565 4584 "gdkPixbuf.ml" 97 4565 4593
+type(
+  bool
+)
+ident(
+  int_ref has_alpha "gdkPixbuf.ml" 91 4195 4247 "gdkPixbuf.ml" 91 4195 4256
+)
+"gdkPixbuf.ml" 97 4565 4595 "gdkPixbuf.ml" 97 4565 4599
+type(
+  int
+)
+ident(
+  int_ref bits "gdkPixbuf.ml" 91 4195 4226 "gdkPixbuf.ml" 91 4195 4230
+)
+"gdkPixbuf.ml" 97 4565 4601 "gdkPixbuf.ml" 97 4565 4606
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 91 4195 4210 "gdkPixbuf.ml" 91 4195 4215
+)
+"gdkPixbuf.ml" 97 4565 4608 "gdkPixbuf.ml" 97 4565 4614
+type(
+  int
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 91 4195 4217 "gdkPixbuf.ml" 91 4195 4223
+)
+"gdkPixbuf.ml" 97 4565 4616 "gdkPixbuf.ml" 97 4565 4625
+type(
+  int
+)
+ident(
+  int_ref rowstride "gdkPixbuf.ml" 93 4312 4318 "gdkPixbuf.ml" 93 4312 4327
+)
+"gdkPixbuf.ml" 97 4565 4567 "gdkPixbuf.ml" 97 4565 4625
+type(
+  pixbuf
+)
+"gdkPixbuf.ml" 94 4387 4389 "gdkPixbuf.ml" 97 4565 4625
+type(
+  pixbuf
+)
+"gdkPixbuf.ml" 93 4312 4314 "gdkPixbuf.ml" 97 4565 4625
+type(
+  pixbuf
+)
+"gdkPixbuf.ml" 92 4271 4273 "gdkPixbuf.ml" 97 4565 4625
+type(
+  pixbuf
+)
+"gdkPixbuf.ml" 103 4864 4868 "gdkPixbuf.ml" 103 4864 4885
+type(
+  dest:pixbuf ->
+  ?dest_x:int ->
+  ?dest_y:int ->
+  ?width:int ->
+  ?height:int ->
+  ?src_x:int ->
+  ?src_y:int -> ?colormap:Gdk.colormap -> [> `drawable ] Gobject.obj -> unit
+)
+ident(
+  def get_from_drawable "gdkPixbuf.ml" 117 5494 5494 --
+)
+"gdkPixbuf.ml" 103 4864 4887 "gdkPixbuf.ml" 103 4864 4891
+type(
+  pixbuf
+)
+ident(
+  def dest "gdkPixbuf.ml" 103 4864 4892 "gdkPixbuf.ml" 113 5460 5478
+)
+"gdkPixbuf.ml" 103 4864 4894 "gdkPixbuf.ml" 103 4864 4900
+type(
+  int
+)
+"gdkPixbuf.ml" 103 4864 4901 "gdkPixbuf.ml" 103 4864 4902
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 103 4864 4901 "gdkPixbuf.ml" 103 4864 4902
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 103 4864 4901 "gdkPixbuf.ml" 103 4864 4902
+)
+"gdkPixbuf.ml" 103 4864 4906 "gdkPixbuf.ml" 103 4864 4912
+type(
+  int
+)
+"gdkPixbuf.ml" 103 4864 4913 "gdkPixbuf.ml" 103 4864 4914
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 103 4864 4913 "gdkPixbuf.ml" 103 4864 4914
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 103 4864 4913 "gdkPixbuf.ml" 103 4864 4914
+)
+"gdkPixbuf.ml" 103 4864 4917 "gdkPixbuf.ml" 103 4864 4922
+type(
+  int option
+)
+ident(
+  def width "gdkPixbuf.ml" 103 4864 4923 "gdkPixbuf.ml" 113 5460 5478
+)
+"gdkPixbuf.ml" 103 4864 4924 "gdkPixbuf.ml" 103 4864 4930
+type(
+  int option
+)
+ident(
+  def height "gdkPixbuf.ml" 104 4931 4935 "gdkPixbuf.ml" 113 5460 5478
+)
+"gdkPixbuf.ml" 104 4931 4937 "gdkPixbuf.ml" 104 4931 4942
+type(
+  int
+)
+"gdkPixbuf.ml" 104 4931 4943 "gdkPixbuf.ml" 104 4931 4944
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 104 4931 4943 "gdkPixbuf.ml" 104 4931 4944
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 104 4931 4943 "gdkPixbuf.ml" 104 4931 4944
+)
+"gdkPixbuf.ml" 104 4931 4948 "gdkPixbuf.ml" 104 4931 4953
+type(
+  int
+)
+"gdkPixbuf.ml" 104 4931 4954 "gdkPixbuf.ml" 104 4931 4955
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 104 4931 4954 "gdkPixbuf.ml" 104 4931 4955
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 104 4931 4954 "gdkPixbuf.ml" 104 4931 4955
+)
+"gdkPixbuf.ml" 104 4931 4959 "gdkPixbuf.ml" 104 4931 4967
+type(
+  Gdk.colormap
+)
+"gdkPixbuf.ml" 104 4931 4968 "gdkPixbuf.ml" 104 4931 4984
+type(
+  unit -> Gdk.colormap
+)
+ident(
+  ext_ref Gdk.Rgb.get_cmap
+)
+"gdkPixbuf.ml" 104 4931 4984 "gdkPixbuf.ml" 104 4931 4986
+type(
+  unit
+)
+"gdkPixbuf.ml" 104 4931 4968 "gdkPixbuf.ml" 104 4931 4986
+call(
+  stack
+)
+type(
+  Gdk.colormap
+)
+type(
+  Gdk.colormap
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 104 4931 4968 "gdkPixbuf.ml" 104 4931 4986
+)
+type(
+  Gdk.colormap option
+)
+type(
+  Gdk.colormap option
+)
+type(
+  Gdk.colormap
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 104 4931 4968 "gdkPixbuf.ml" 104 4931 4986
+)
+"gdkPixbuf.ml" 104 4931 4988 "gdkPixbuf.ml" 104 4931 4991
+type(
+  ([> `drawable ] as 'a) Gobject.obj
+)
+ident(
+  def src "gdkPixbuf.ml" 105 4994 4996 "gdkPixbuf.ml" 113 5460 5478
+)
+"gdkPixbuf.ml" 105 4994 5000 "gdkPixbuf.ml" 105 4994 5002
+type(
+  int
+)
+"gdkPixbuf.ml" 105 4994 5004 "gdkPixbuf.ml" 105 4994 5006
+type(
+  int
+)
+"gdkPixbuf.ml" 105 4994 5000 "gdkPixbuf.ml" 105 4994 5006
+type(
+  int * int
+)
+"gdkPixbuf.ml" 105 4994 5009 "gdkPixbuf.ml" 105 4994 5030
+type(
+  'a Gobject.obj -> int * int
+)
+ident(
+  ext_ref Gdk.Drawable.get_size
+)
+"gdkPixbuf.ml" 105 4994 5031 "gdkPixbuf.ml" 105 4994 5034
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 104 4931 4988 "gdkPixbuf.ml" 104 4931 4991
+)
+"gdkPixbuf.ml" 105 4994 5009 "gdkPixbuf.ml" 105 4994 5034
+call(
+  stack
+)
+type(
+  int * int
+)
+"gdkPixbuf.ml" 106 5038 5044 "gdkPixbuf.ml" 106 5038 5046
+type(
+  int
+)
+"gdkPixbuf.ml" 106 5038 5049 "gdkPixbuf.ml" 106 5038 5052
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"gdkPixbuf.ml" 106 5038 5054 "gdkPixbuf.ml" 106 5038 5056
+type(
+  int
+)
+ident(
+  int_ref dw "gdkPixbuf.ml" 105 4994 5000 "gdkPixbuf.ml" 105 4994 5002
+)
+"gdkPixbuf.ml" 106 5038 5057 "gdkPixbuf.ml" 106 5038 5058
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdkPixbuf.ml" 106 5038 5059 "gdkPixbuf.ml" 106 5038 5064
+type(
+  int
+)
+ident(
+  int_ref src_x "gdkPixbuf.ml" 104 4931 4937 "gdkPixbuf.ml" 104 4931 4942
+)
+"gdkPixbuf.ml" 106 5038 5053 "gdkPixbuf.ml" 106 5038 5065
+type(
+  int
+)
+"gdkPixbuf.ml" 106 5038 5067 "gdkPixbuf.ml" 106 5038 5076
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 106 5038 5077 "gdkPixbuf.ml" 106 5038 5081
+type(
+  pixbuf
+)
+ident(
+  int_ref dest "gdkPixbuf.ml" 103 4864 4887 "gdkPixbuf.ml" 103 4864 4891
+)
+"gdkPixbuf.ml" 106 5038 5067 "gdkPixbuf.ml" 106 5038 5081
+type(
+  int
+)
+"gdkPixbuf.ml" 106 5038 5082 "gdkPixbuf.ml" 106 5038 5083
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdkPixbuf.ml" 106 5038 5084 "gdkPixbuf.ml" 106 5038 5090
+type(
+  int
+)
+ident(
+  int_ref dest_x "gdkPixbuf.ml" 103 4864 4894 "gdkPixbuf.ml" 103 4864 4900
+)
+"gdkPixbuf.ml" 106 5038 5066 "gdkPixbuf.ml" 106 5038 5091
+type(
+  int
+)
+"gdkPixbuf.ml" 106 5038 5049 "gdkPixbuf.ml" 106 5038 5091
+call(
+  stack
+)
+type(
+  int
+)
+"gdkPixbuf.ml" 107 5092 5098 "gdkPixbuf.ml" 107 5092 5100
+type(
+  int
+)
+"gdkPixbuf.ml" 107 5092 5103 "gdkPixbuf.ml" 107 5092 5106
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"gdkPixbuf.ml" 107 5092 5108 "gdkPixbuf.ml" 107 5092 5110
+type(
+  int
+)
+ident(
+  int_ref dh "gdkPixbuf.ml" 105 4994 5004 "gdkPixbuf.ml" 105 4994 5006
+)
+"gdkPixbuf.ml" 107 5092 5111 "gdkPixbuf.ml" 107 5092 5112
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdkPixbuf.ml" 107 5092 5113 "gdkPixbuf.ml" 107 5092 5118
+type(
+  int
+)
+ident(
+  int_ref src_y "gdkPixbuf.ml" 104 4931 4948 "gdkPixbuf.ml" 104 4931 4953
+)
+"gdkPixbuf.ml" 107 5092 5107 "gdkPixbuf.ml" 107 5092 5119
+type(
+  int
+)
+"gdkPixbuf.ml" 107 5092 5121 "gdkPixbuf.ml" 107 5092 5131
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 107 5092 5132 "gdkPixbuf.ml" 107 5092 5136
+type(
+  pixbuf
+)
+ident(
+  int_ref dest "gdkPixbuf.ml" 103 4864 4887 "gdkPixbuf.ml" 103 4864 4891
+)
+"gdkPixbuf.ml" 107 5092 5121 "gdkPixbuf.ml" 107 5092 5136
+type(
+  int
+)
+"gdkPixbuf.ml" 107 5092 5137 "gdkPixbuf.ml" 107 5092 5138
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdkPixbuf.ml" 107 5092 5139 "gdkPixbuf.ml" 107 5092 5145
+type(
+  int
+)
+ident(
+  int_ref dest_y "gdkPixbuf.ml" 103 4864 4906 "gdkPixbuf.ml" 103 4864 4912
+)
+"gdkPixbuf.ml" 107 5092 5120 "gdkPixbuf.ml" 107 5092 5146
+type(
+  int
+)
+"gdkPixbuf.ml" 107 5092 5103 "gdkPixbuf.ml" 107 5092 5146
+call(
+  stack
+)
+type(
+  int
+)
+"gdkPixbuf.ml" 108 5150 5156 "gdkPixbuf.ml" 108 5150 5161
+type(
+  int
+)
+"gdkPixbuf.ml" 108 5150 5164 "gdkPixbuf.ml" 108 5150 5171
+type(
+  int -> opt:int option -> int
+)
+ident(
+  ext_ref Gaux.default
+)
+"gdkPixbuf.ml" 108 5150 5172 "gdkPixbuf.ml" 108 5150 5174
+type(
+  int
+)
+ident(
+  int_ref mw "gdkPixbuf.ml" 106 5038 5044 "gdkPixbuf.ml" 106 5038 5046
+)
+"gdkPixbuf.ml" 108 5150 5180 "gdkPixbuf.ml" 108 5150 5185
+type(
+  int option
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 103 4864 4917 "gdkPixbuf.ml" 103 4864 4922
+)
+"gdkPixbuf.ml" 108 5150 5164 "gdkPixbuf.ml" 108 5150 5185
+call(
+  stack
+)
+type(
+  int
+)
+"gdkPixbuf.ml" 108 5150 5190 "gdkPixbuf.ml" 108 5150 5196
+type(
+  int
+)
+"gdkPixbuf.ml" 108 5150 5199 "gdkPixbuf.ml" 108 5150 5206
+type(
+  int -> opt:int option -> int
+)
+ident(
+  ext_ref Gaux.default
+)
+"gdkPixbuf.ml" 108 5150 5207 "gdkPixbuf.ml" 108 5150 5209
+type(
+  int
+)
+ident(
+  int_ref mh "gdkPixbuf.ml" 107 5092 5098 "gdkPixbuf.ml" 107 5092 5100
+)
+"gdkPixbuf.ml" 108 5150 5215 "gdkPixbuf.ml" 108 5150 5221
+type(
+  int option
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 103 4864 4924 "gdkPixbuf.ml" 103 4864 4930
+)
+"gdkPixbuf.ml" 108 5150 5199 "gdkPixbuf.ml" 108 5150 5221
+call(
+  stack
+)
+type(
+  int
+)
+"gdkPixbuf.ml" 109 5225 5230 "gdkPixbuf.ml" 109 5225 5235
+type(
+  int
+)
+ident(
+  int_ref src_x "gdkPixbuf.ml" 104 4931 4937 "gdkPixbuf.ml" 104 4931 4942
+)
+"gdkPixbuf.ml" 109 5225 5236 "gdkPixbuf.ml" 109 5225 5237
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gdkPixbuf.ml" 109 5225 5238 "gdkPixbuf.ml" 109 5225 5239
+type(
+  int
+)
+"gdkPixbuf.ml" 109 5225 5230 "gdkPixbuf.ml" 109 5225 5239
+type(
+  bool
+)
+"gdkPixbuf.ml" 109 5225 5240 "gdkPixbuf.ml" 109 5225 5242
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 109 5225 5243 "gdkPixbuf.ml" 109 5225 5248
+type(
+  int
+)
+ident(
+  int_ref src_y "gdkPixbuf.ml" 104 4931 4948 "gdkPixbuf.ml" 104 4931 4953
+)
+"gdkPixbuf.ml" 109 5225 5249 "gdkPixbuf.ml" 109 5225 5250
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gdkPixbuf.ml" 109 5225 5251 "gdkPixbuf.ml" 109 5225 5252
+type(
+  int
+)
+"gdkPixbuf.ml" 109 5225 5243 "gdkPixbuf.ml" 109 5225 5252
+type(
+  bool
+)
+"gdkPixbuf.ml" 109 5225 5253 "gdkPixbuf.ml" 109 5225 5255
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 109 5225 5256 "gdkPixbuf.ml" 109 5225 5262
+type(
+  int
+)
+ident(
+  int_ref dest_x "gdkPixbuf.ml" 103 4864 4894 "gdkPixbuf.ml" 103 4864 4900
+)
+"gdkPixbuf.ml" 109 5225 5263 "gdkPixbuf.ml" 109 5225 5264
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gdkPixbuf.ml" 109 5225 5265 "gdkPixbuf.ml" 109 5225 5266
+type(
+  int
+)
+"gdkPixbuf.ml" 109 5225 5256 "gdkPixbuf.ml" 109 5225 5266
+type(
+  bool
+)
+"gdkPixbuf.ml" 109 5225 5267 "gdkPixbuf.ml" 109 5225 5269
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 109 5225 5270 "gdkPixbuf.ml" 109 5225 5276
+type(
+  int
+)
+ident(
+  int_ref dest_y "gdkPixbuf.ml" 103 4864 4906 "gdkPixbuf.ml" 103 4864 4912
+)
+"gdkPixbuf.ml" 109 5225 5277 "gdkPixbuf.ml" 109 5225 5278
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gdkPixbuf.ml" 109 5225 5279 "gdkPixbuf.ml" 109 5225 5280
+type(
+  int
+)
+"gdkPixbuf.ml" 109 5225 5270 "gdkPixbuf.ml" 109 5225 5280
+type(
+  bool
+)
+"gdkPixbuf.ml" 110 5281 5283 "gdkPixbuf.ml" 110 5281 5285
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 110 5281 5286 "gdkPixbuf.ml" 110 5281 5291
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 108 5150 5156 "gdkPixbuf.ml" 108 5150 5161
+)
+"gdkPixbuf.ml" 110 5281 5292 "gdkPixbuf.ml" 110 5281 5294
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"gdkPixbuf.ml" 110 5281 5295 "gdkPixbuf.ml" 110 5281 5296
+type(
+  int
+)
+"gdkPixbuf.ml" 110 5281 5286 "gdkPixbuf.ml" 110 5281 5296
+type(
+  bool
+)
+"gdkPixbuf.ml" 110 5281 5297 "gdkPixbuf.ml" 110 5281 5299
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 110 5281 5300 "gdkPixbuf.ml" 110 5281 5306
+type(
+  int
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 108 5150 5190 "gdkPixbuf.ml" 108 5150 5196
+)
+"gdkPixbuf.ml" 110 5281 5307 "gdkPixbuf.ml" 110 5281 5309
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"gdkPixbuf.ml" 110 5281 5310 "gdkPixbuf.ml" 110 5281 5311
+type(
+  int
+)
+"gdkPixbuf.ml" 110 5281 5300 "gdkPixbuf.ml" 110 5281 5311
+type(
+  bool
+)
+"gdkPixbuf.ml" 110 5281 5312 "gdkPixbuf.ml" 110 5281 5314
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 110 5281 5315 "gdkPixbuf.ml" 110 5281 5320
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 108 5150 5156 "gdkPixbuf.ml" 108 5150 5161
+)
+"gdkPixbuf.ml" 110 5281 5321 "gdkPixbuf.ml" 110 5281 5322
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"gdkPixbuf.ml" 110 5281 5323 "gdkPixbuf.ml" 110 5281 5325
+type(
+  int
+)
+ident(
+  int_ref mw "gdkPixbuf.ml" 106 5038 5044 "gdkPixbuf.ml" 106 5038 5046
+)
+"gdkPixbuf.ml" 110 5281 5315 "gdkPixbuf.ml" 110 5281 5325
+type(
+  bool
+)
+"gdkPixbuf.ml" 110 5281 5326 "gdkPixbuf.ml" 110 5281 5328
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 110 5281 5329 "gdkPixbuf.ml" 110 5281 5335
+type(
+  int
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 108 5150 5190 "gdkPixbuf.ml" 108 5150 5196
+)
+"gdkPixbuf.ml" 110 5281 5336 "gdkPixbuf.ml" 110 5281 5337
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"gdkPixbuf.ml" 110 5281 5338 "gdkPixbuf.ml" 110 5281 5340
+type(
+  int
+)
+ident(
+  int_ref mh "gdkPixbuf.ml" 107 5092 5098 "gdkPixbuf.ml" 107 5092 5100
+)
+"gdkPixbuf.ml" 110 5281 5329 "gdkPixbuf.ml" 110 5281 5340
+type(
+  bool
+)
+"gdkPixbuf.ml" 110 5281 5315 "gdkPixbuf.ml" 110 5281 5340
+type(
+  bool
+)
+"gdkPixbuf.ml" 110 5281 5300 "gdkPixbuf.ml" 110 5281 5340
+type(
+  bool
+)
+"gdkPixbuf.ml" 110 5281 5286 "gdkPixbuf.ml" 110 5281 5340
+type(
+  bool
+)
+"gdkPixbuf.ml" 109 5225 5270 "gdkPixbuf.ml" 110 5281 5340
+type(
+  bool
+)
+"gdkPixbuf.ml" 109 5225 5256 "gdkPixbuf.ml" 110 5281 5340
+type(
+  bool
+)
+"gdkPixbuf.ml" 109 5225 5243 "gdkPixbuf.ml" 110 5281 5340
+type(
+  bool
+)
+"gdkPixbuf.ml" 109 5225 5230 "gdkPixbuf.ml" 110 5281 5340
+type(
+  bool
+)
+"gdkPixbuf.ml" 111 5341 5348 "gdkPixbuf.ml" 111 5341 5359
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gdkPixbuf.ml" 111 5341 5360 "gdkPixbuf.ml" 111 5341 5389
+type(
+  string
+)
+"gdkPixbuf.ml" 111 5341 5348 "gdkPixbuf.ml" 111 5341 5389
+call(
+  stack
+)
+type(
+  unit
+)
+"gdkPixbuf.ml" 109 5225 5227 "gdkPixbuf.ml" 111 5341 5389
+type(
+  unit
+)
+"gdkPixbuf.ml" 112 5391 5393 "gdkPixbuf.ml" 112 5391 5411
+type(
+  pixbuf ->
+  'a Gobject.obj ->
+  Gdk.colormap ->
+  src_x:int ->
+  src_y:int -> dest_x:int -> dest_y:int -> width:int -> height:int -> unit
+)
+"gdkPixbuf.ml" 112 5391 5412 "gdkPixbuf.ml" 112 5391 5416
+type(
+  pixbuf
+)
+ident(
+  int_ref dest "gdkPixbuf.ml" 103 4864 4887 "gdkPixbuf.ml" 103 4864 4891
+)
+"gdkPixbuf.ml" 112 5391 5417 "gdkPixbuf.ml" 112 5391 5420
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 104 4931 4988 "gdkPixbuf.ml" 104 4931 4991
+)
+"gdkPixbuf.ml" 112 5391 5421 "gdkPixbuf.ml" 112 5391 5429
+type(
+  Gdk.colormap
+)
+ident(
+  int_ref colormap "gdkPixbuf.ml" 104 4931 4959 "gdkPixbuf.ml" 104 4931 4967
+)
+"gdkPixbuf.ml" 112 5391 5431 "gdkPixbuf.ml" 112 5391 5436
+type(
+  int
+)
+ident(
+  int_ref src_x "gdkPixbuf.ml" 104 4931 4937 "gdkPixbuf.ml" 104 4931 4942
+)
+"gdkPixbuf.ml" 112 5391 5438 "gdkPixbuf.ml" 112 5391 5443
+type(
+  int
+)
+ident(
+  int_ref src_y "gdkPixbuf.ml" 104 4931 4948 "gdkPixbuf.ml" 104 4931 4953
+)
+"gdkPixbuf.ml" 112 5391 5445 "gdkPixbuf.ml" 112 5391 5451
+type(
+  int
+)
+ident(
+  int_ref dest_x "gdkPixbuf.ml" 103 4864 4894 "gdkPixbuf.ml" 103 4864 4900
+)
+"gdkPixbuf.ml" 112 5391 5453 "gdkPixbuf.ml" 112 5391 5459
+type(
+  int
+)
+ident(
+  int_ref dest_y "gdkPixbuf.ml" 103 4864 4906 "gdkPixbuf.ml" 103 4864 4912
+)
+"gdkPixbuf.ml" 113 5460 5465 "gdkPixbuf.ml" 113 5460 5470
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 108 5150 5156 "gdkPixbuf.ml" 108 5150 5161
+)
+"gdkPixbuf.ml" 113 5460 5472 "gdkPixbuf.ml" 113 5460 5478
+type(
+  int
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 108 5150 5190 "gdkPixbuf.ml" 108 5150 5196
+)
+"gdkPixbuf.ml" 112 5391 5393 "gdkPixbuf.ml" 113 5460 5478
+type(
+  unit
+)
+"gdkPixbuf.ml" 109 5225 5227 "gdkPixbuf.ml" 113 5460 5478
+type(
+  unit
+)
+"gdkPixbuf.ml" 108 5150 5152 "gdkPixbuf.ml" 113 5460 5478
+type(
+  unit
+)
+"gdkPixbuf.ml" 106 5038 5040 "gdkPixbuf.ml" 113 5460 5478
+type(
+  unit
+)
+"gdkPixbuf.ml" 105 4994 4996 "gdkPixbuf.ml" 113 5460 5478
+type(
+  unit
+)
+"gdkPixbuf.ml" 122 5739 5743 "gdkPixbuf.ml" 122 5739 5755
+type(
+  Gdk.bitmap ->
+  ?dest_x:int ->
+  ?dest_y:int ->
+  ?width:int ->
+  ?height:int -> ?threshold:int -> ?src_x:int -> ?src_y:int -> pixbuf -> unit
+)
+ident(
+  def render_alpha "gdkPixbuf.ml" 128 6036 6036 --
+)
+"gdkPixbuf.ml" 122 5739 5756 "gdkPixbuf.ml" 122 5739 5758
+type(
+  Gdk.bitmap
+)
+ident(
+  def bm "gdkPixbuf.ml" 122 5739 5759 "gdkPixbuf.ml" 126 5955 6034
+)
+"gdkPixbuf.ml" 122 5739 5761 "gdkPixbuf.ml" 122 5739 5767
+type(
+  int
+)
+"gdkPixbuf.ml" 122 5739 5768 "gdkPixbuf.ml" 122 5739 5769
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 122 5739 5768 "gdkPixbuf.ml" 122 5739 5769
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 122 5739 5768 "gdkPixbuf.ml" 122 5739 5769
+)
+"gdkPixbuf.ml" 122 5739 5773 "gdkPixbuf.ml" 122 5739 5779
+type(
+  int
+)
+"gdkPixbuf.ml" 122 5739 5780 "gdkPixbuf.ml" 122 5739 5781
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 122 5739 5780 "gdkPixbuf.ml" 122 5739 5781
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 122 5739 5780 "gdkPixbuf.ml" 122 5739 5781
+)
+"gdkPixbuf.ml" 122 5739 5784 "gdkPixbuf.ml" 122 5739 5789
+type(
+  int option
+)
+ident(
+  def width "gdkPixbuf.ml" 122 5739 5790 "gdkPixbuf.ml" 126 5955 6034
+)
+"gdkPixbuf.ml" 122 5739 5791 "gdkPixbuf.ml" 122 5739 5797
+type(
+  int option
+)
+ident(
+  def height "gdkPixbuf.ml" 122 5739 5798 "gdkPixbuf.ml" 126 5955 6034
+)
+"gdkPixbuf.ml" 122 5739 5800 "gdkPixbuf.ml" 122 5739 5809
+type(
+  int
+)
+"gdkPixbuf.ml" 122 5739 5810 "gdkPixbuf.ml" 122 5739 5813
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 122 5739 5810 "gdkPixbuf.ml" 122 5739 5813
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 122 5739 5810 "gdkPixbuf.ml" 122 5739 5813
+)
+"gdkPixbuf.ml" 123 5815 5821 "gdkPixbuf.ml" 123 5815 5826
+type(
+  int
+)
+"gdkPixbuf.ml" 123 5815 5827 "gdkPixbuf.ml" 123 5815 5828
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 123 5815 5827 "gdkPixbuf.ml" 123 5815 5828
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 123 5815 5827 "gdkPixbuf.ml" 123 5815 5828
+)
+"gdkPixbuf.ml" 123 5815 5832 "gdkPixbuf.ml" 123 5815 5837
+type(
+  int
+)
+"gdkPixbuf.ml" 123 5815 5838 "gdkPixbuf.ml" 123 5815 5839
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 123 5815 5838 "gdkPixbuf.ml" 123 5815 5839
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 123 5815 5838 "gdkPixbuf.ml" 123 5815 5839
+)
+"gdkPixbuf.ml" 123 5815 5841 "gdkPixbuf.ml" 123 5815 5844
+type(
+  pixbuf
+)
+ident(
+  def src "gdkPixbuf.ml" 124 5847 5849 "gdkPixbuf.ml" 126 5955 6034
+)
+"gdkPixbuf.ml" 124 5847 5853 "gdkPixbuf.ml" 124 5847 5858
+type(
+  int
+)
+"gdkPixbuf.ml" 124 5847 5861 "gdkPixbuf.ml" 124 5847 5872
+type(
+  (pixbuf -> int) -> pixbuf -> opt:int option -> int
+)
+ident(
+  ext_ref Gaux.may_default
+)
+"gdkPixbuf.ml" 124 5847 5873 "gdkPixbuf.ml" 124 5847 5882
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 124 5847 5883 "gdkPixbuf.ml" 124 5847 5886
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 123 5815 5841 "gdkPixbuf.ml" 123 5815 5844
+)
+"gdkPixbuf.ml" 124 5847 5892 "gdkPixbuf.ml" 124 5847 5897
+type(
+  int option
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 122 5739 5784 "gdkPixbuf.ml" 122 5739 5789
+)
+"gdkPixbuf.ml" 124 5847 5861 "gdkPixbuf.ml" 124 5847 5897
+call(
+  stack
+)
+type(
+  int
+)
+"gdkPixbuf.ml" 125 5898 5904 "gdkPixbuf.ml" 125 5898 5910
+type(
+  int
+)
+"gdkPixbuf.ml" 125 5898 5913 "gdkPixbuf.ml" 125 5898 5924
+type(
+  (pixbuf -> int) -> pixbuf -> opt:int option -> int
+)
+ident(
+  ext_ref Gaux.may_default
+)
+"gdkPixbuf.ml" 125 5898 5925 "gdkPixbuf.ml" 125 5898 5935
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 125 5898 5936 "gdkPixbuf.ml" 125 5898 5939
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 123 5815 5841 "gdkPixbuf.ml" 123 5815 5844
+)
+"gdkPixbuf.ml" 125 5898 5945 "gdkPixbuf.ml" 125 5898 5951
+type(
+  int option
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 122 5739 5791 "gdkPixbuf.ml" 122 5739 5797
+)
+"gdkPixbuf.ml" 125 5898 5913 "gdkPixbuf.ml" 125 5898 5951
+call(
+  stack
+)
+type(
+  int
+)
+"gdkPixbuf.ml" 126 5955 5957 "gdkPixbuf.ml" 126 5955 5970
+type(
+  src:pixbuf ->
+  Gdk.bitmap ->
+  src_x:int ->
+  src_y:int ->
+  dest_x:int ->
+  dest_y:int -> width:int -> height:int -> threshold:int -> unit
+)
+"gdkPixbuf.ml" 126 5955 5972 "gdkPixbuf.ml" 126 5955 5975
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 123 5815 5841 "gdkPixbuf.ml" 123 5815 5844
+)
+"gdkPixbuf.ml" 126 5955 5976 "gdkPixbuf.ml" 126 5955 5978
+type(
+  Gdk.bitmap
+)
+ident(
+  int_ref bm "gdkPixbuf.ml" 122 5739 5756 "gdkPixbuf.ml" 122 5739 5758
+)
+"gdkPixbuf.ml" 126 5955 5980 "gdkPixbuf.ml" 126 5955 5985
+type(
+  int
+)
+ident(
+  int_ref src_x "gdkPixbuf.ml" 123 5815 5821 "gdkPixbuf.ml" 123 5815 5826
+)
+"gdkPixbuf.ml" 126 5955 5987 "gdkPixbuf.ml" 126 5955 5992
+type(
+  int
+)
+ident(
+  int_ref src_y "gdkPixbuf.ml" 123 5815 5832 "gdkPixbuf.ml" 123 5815 5837
+)
+"gdkPixbuf.ml" 126 5955 5994 "gdkPixbuf.ml" 126 5955 6000
+type(
+  int
+)
+ident(
+  int_ref dest_x "gdkPixbuf.ml" 122 5739 5761 "gdkPixbuf.ml" 122 5739 5767
+)
+"gdkPixbuf.ml" 126 5955 6002 "gdkPixbuf.ml" 126 5955 6008
+type(
+  int
+)
+ident(
+  int_ref dest_y "gdkPixbuf.ml" 122 5739 5773 "gdkPixbuf.ml" 122 5739 5779
+)
+"gdkPixbuf.ml" 126 5955 6010 "gdkPixbuf.ml" 126 5955 6015
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 124 5847 5853 "gdkPixbuf.ml" 124 5847 5858
+)
+"gdkPixbuf.ml" 126 5955 6017 "gdkPixbuf.ml" 126 5955 6023
+type(
+  int
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 125 5898 5904 "gdkPixbuf.ml" 125 5898 5910
+)
+"gdkPixbuf.ml" 126 5955 6025 "gdkPixbuf.ml" 126 5955 6034
+type(
+  int
+)
+ident(
+  int_ref threshold "gdkPixbuf.ml" 122 5739 5800 "gdkPixbuf.ml" 122 5739 5809
+)
+"gdkPixbuf.ml" 126 5955 5957 "gdkPixbuf.ml" 126 5955 6034
+type(
+  unit
+)
+"gdkPixbuf.ml" 124 5847 5849 "gdkPixbuf.ml" 126 5955 6034
+type(
+  unit
+)
+"gdkPixbuf.ml" 134 6331 6335 "gdkPixbuf.ml" 134 6331 6346
+type(
+  [> `drawable ] Gobject.obj ->
+  Gdk.gc ->
+  ?dest_x:int ->
+  ?dest_y:int ->
+  ?width:int ->
+  ?height:int ->
+  ?dither:Gdk.Tags.rgb_dither ->
+  ?x_dither:int ->
+  ?y_dither:int -> ?src_x:int -> ?src_y:int -> pixbuf -> unit
+)
+ident(
+  def draw_pixbuf "gdkPixbuf.ml" 142 6684 6684 --
+)
+"gdkPixbuf.ml" 134 6331 6347 "gdkPixbuf.ml" 134 6331 6349
+type(
+  ([> `drawable ] as 'a) Gobject.obj
+)
+ident(
+  def dw "gdkPixbuf.ml" 134 6331 6350 "gdkPixbuf.ml" 140 6651 6682
+)
+"gdkPixbuf.ml" 134 6331 6350 "gdkPixbuf.ml" 134 6331 6352
+type(
+  Gdk.gc
+)
+ident(
+  def gc "gdkPixbuf.ml" 134 6331 6353 "gdkPixbuf.ml" 140 6651 6682
+)
+"gdkPixbuf.ml" 134 6331 6355 "gdkPixbuf.ml" 134 6331 6361
+type(
+  int
+)
+"gdkPixbuf.ml" 134 6331 6362 "gdkPixbuf.ml" 134 6331 6363
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 134 6331 6362 "gdkPixbuf.ml" 134 6331 6363
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 134 6331 6362 "gdkPixbuf.ml" 134 6331 6363
+)
+"gdkPixbuf.ml" 134 6331 6367 "gdkPixbuf.ml" 134 6331 6373
+type(
+  int
+)
+"gdkPixbuf.ml" 134 6331 6374 "gdkPixbuf.ml" 134 6331 6375
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 134 6331 6374 "gdkPixbuf.ml" 134 6331 6375
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 134 6331 6374 "gdkPixbuf.ml" 134 6331 6375
+)
+"gdkPixbuf.ml" 135 6377 6382 "gdkPixbuf.ml" 135 6377 6387
+type(
+  int option
+)
+ident(
+  def width "gdkPixbuf.ml" 135 6377 6388 "gdkPixbuf.ml" 140 6651 6682
+)
+"gdkPixbuf.ml" 135 6377 6389 "gdkPixbuf.ml" 135 6377 6395
+type(
+  int option
+)
+ident(
+  def height "gdkPixbuf.ml" 135 6377 6396 "gdkPixbuf.ml" 140 6651 6682
+)
+"gdkPixbuf.ml" 135 6377 6398 "gdkPixbuf.ml" 135 6377 6404
+type(
+  Gdk.Tags.rgb_dither
+)
+"gdkPixbuf.ml" 135 6377 6405 "gdkPixbuf.ml" 135 6377 6410
+type(
+  Gdk.Tags.rgb_dither
+)
+type(
+  Gdk.Tags.rgb_dither
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 135 6377 6405 "gdkPixbuf.ml" 135 6377 6410
+)
+type(
+  Gdk.Tags.rgb_dither option
+)
+type(
+  Gdk.Tags.rgb_dither option
+)
+type(
+  Gdk.Tags.rgb_dither
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 135 6377 6405 "gdkPixbuf.ml" 135 6377 6410
+)
+"gdkPixbuf.ml" 135 6377 6414 "gdkPixbuf.ml" 135 6377 6422
+type(
+  int
+)
+"gdkPixbuf.ml" 135 6377 6423 "gdkPixbuf.ml" 135 6377 6424
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 135 6377 6423 "gdkPixbuf.ml" 135 6377 6424
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 135 6377 6423 "gdkPixbuf.ml" 135 6377 6424
+)
+"gdkPixbuf.ml" 135 6377 6428 "gdkPixbuf.ml" 135 6377 6436
+type(
+  int
+)
+"gdkPixbuf.ml" 135 6377 6437 "gdkPixbuf.ml" 135 6377 6438
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 135 6377 6437 "gdkPixbuf.ml" 135 6377 6438
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 135 6377 6437 "gdkPixbuf.ml" 135 6377 6438
+)
+"gdkPixbuf.ml" 136 6440 6446 "gdkPixbuf.ml" 136 6440 6451
+type(
+  int
+)
+"gdkPixbuf.ml" 136 6440 6452 "gdkPixbuf.ml" 136 6440 6453
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 136 6440 6452 "gdkPixbuf.ml" 136 6440 6453
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 136 6440 6452 "gdkPixbuf.ml" 136 6440 6453
+)
+"gdkPixbuf.ml" 136 6440 6457 "gdkPixbuf.ml" 136 6440 6462
+type(
+  int
+)
+"gdkPixbuf.ml" 136 6440 6463 "gdkPixbuf.ml" 136 6440 6464
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 136 6440 6463 "gdkPixbuf.ml" 136 6440 6464
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 136 6440 6463 "gdkPixbuf.ml" 136 6440 6464
+)
+"gdkPixbuf.ml" 136 6440 6466 "gdkPixbuf.ml" 136 6440 6469
+type(
+  pixbuf
+)
+ident(
+  def src "gdkPixbuf.ml" 137 6472 6474 "gdkPixbuf.ml" 140 6651 6682
+)
+"gdkPixbuf.ml" 137 6472 6478 "gdkPixbuf.ml" 137 6472 6483
+type(
+  int
+)
+"gdkPixbuf.ml" 137 6472 6486 "gdkPixbuf.ml" 137 6472 6497
+type(
+  (pixbuf -> int) -> pixbuf -> opt:int option -> int
+)
+ident(
+  ext_ref Gaux.may_default
+)
+"gdkPixbuf.ml" 137 6472 6498 "gdkPixbuf.ml" 137 6472 6507
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 137 6472 6508 "gdkPixbuf.ml" 137 6472 6511
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 136 6440 6466 "gdkPixbuf.ml" 136 6440 6469
+)
+"gdkPixbuf.ml" 137 6472 6517 "gdkPixbuf.ml" 137 6472 6522
+type(
+  int option
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 135 6377 6382 "gdkPixbuf.ml" 135 6377 6387
+)
+"gdkPixbuf.ml" 137 6472 6486 "gdkPixbuf.ml" 137 6472 6522
+call(
+  stack
+)
+type(
+  int
+)
+"gdkPixbuf.ml" 138 6523 6529 "gdkPixbuf.ml" 138 6523 6535
+type(
+  int
+)
+"gdkPixbuf.ml" 138 6523 6538 "gdkPixbuf.ml" 138 6523 6549
+type(
+  (pixbuf -> int) -> pixbuf -> opt:int option -> int
+)
+ident(
+  ext_ref Gaux.may_default
+)
+"gdkPixbuf.ml" 138 6523 6550 "gdkPixbuf.ml" 138 6523 6560
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 138 6523 6561 "gdkPixbuf.ml" 138 6523 6564
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 136 6440 6466 "gdkPixbuf.ml" 136 6440 6469
+)
+"gdkPixbuf.ml" 138 6523 6570 "gdkPixbuf.ml" 138 6523 6576
+type(
+  int option
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 135 6377 6389 "gdkPixbuf.ml" 135 6377 6395
+)
+"gdkPixbuf.ml" 138 6523 6538 "gdkPixbuf.ml" 138 6523 6576
+call(
+  stack
+)
+type(
+  int
+)
+"gdkPixbuf.ml" 139 6580 6582 "gdkPixbuf.ml" 139 6580 6594
+type(
+  src:pixbuf ->
+  'a Gobject.obj ->
+  Gdk.gc ->
+  src_x:int ->
+  src_y:int ->
+  dest_x:int ->
+  dest_y:int ->
+  width:int ->
+  height:int ->
+  dither:Gdk.Tags.rgb_dither -> x_dither:int -> y_dither:int -> unit
+)
+"gdkPixbuf.ml" 139 6580 6595 "gdkPixbuf.ml" 139 6580 6597
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref dw "gdkPixbuf.ml" 134 6331 6347 "gdkPixbuf.ml" 134 6331 6349
+)
+"gdkPixbuf.ml" 139 6580 6598 "gdkPixbuf.ml" 139 6580 6600
+type(
+  Gdk.gc
+)
+ident(
+  int_ref gc "gdkPixbuf.ml" 134 6331 6350 "gdkPixbuf.ml" 134 6331 6352
+)
+"gdkPixbuf.ml" 139 6580 6602 "gdkPixbuf.ml" 139 6580 6605
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 136 6440 6466 "gdkPixbuf.ml" 136 6440 6469
+)
+"gdkPixbuf.ml" 139 6580 6607 "gdkPixbuf.ml" 139 6580 6612
+type(
+  int
+)
+ident(
+  int_ref src_x "gdkPixbuf.ml" 136 6440 6446 "gdkPixbuf.ml" 136 6440 6451
+)
+"gdkPixbuf.ml" 139 6580 6614 "gdkPixbuf.ml" 139 6580 6619
+type(
+  int
+)
+ident(
+  int_ref src_y "gdkPixbuf.ml" 136 6440 6457 "gdkPixbuf.ml" 136 6440 6462
+)
+"gdkPixbuf.ml" 139 6580 6621 "gdkPixbuf.ml" 139 6580 6627
+type(
+  int
+)
+ident(
+  int_ref dest_x "gdkPixbuf.ml" 134 6331 6355 "gdkPixbuf.ml" 134 6331 6361
+)
+"gdkPixbuf.ml" 139 6580 6629 "gdkPixbuf.ml" 139 6580 6635
+type(
+  int
+)
+ident(
+  int_ref dest_y "gdkPixbuf.ml" 134 6331 6367 "gdkPixbuf.ml" 134 6331 6373
+)
+"gdkPixbuf.ml" 139 6580 6637 "gdkPixbuf.ml" 139 6580 6642
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 137 6472 6478 "gdkPixbuf.ml" 137 6472 6483
+)
+"gdkPixbuf.ml" 139 6580 6644 "gdkPixbuf.ml" 139 6580 6650
+type(
+  int
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 138 6523 6529 "gdkPixbuf.ml" 138 6523 6535
+)
+"gdkPixbuf.ml" 140 6651 6656 "gdkPixbuf.ml" 140 6651 6662
+type(
+  Gdk.Tags.rgb_dither
+)
+ident(
+  int_ref dither "gdkPixbuf.ml" 135 6377 6398 "gdkPixbuf.ml" 135 6377 6404
+)
+"gdkPixbuf.ml" 140 6651 6664 "gdkPixbuf.ml" 140 6651 6672
+type(
+  int
+)
+ident(
+  int_ref x_dither "gdkPixbuf.ml" 135 6377 6414 "gdkPixbuf.ml" 135 6377 6422
+)
+"gdkPixbuf.ml" 140 6651 6674 "gdkPixbuf.ml" 140 6651 6682
+type(
+  int
+)
+ident(
+  int_ref y_dither "gdkPixbuf.ml" 135 6377 6428 "gdkPixbuf.ml" 135 6377 6436
+)
+"gdkPixbuf.ml" 139 6580 6582 "gdkPixbuf.ml" 140 6651 6682
+type(
+  unit
+)
+"gdkPixbuf.ml" 137 6472 6474 "gdkPixbuf.ml" 140 6651 6682
+type(
+  unit
+)
+"gdkPixbuf.ml" 142 6684 6688 "gdkPixbuf.ml" 142 6684 6706
+type(
+  [> `drawable ] Gobject.obj ->
+  ?gc:Gdk.gc ->
+  ?dest_x:int ->
+  ?dest_y:int ->
+  ?width:int ->
+  ?height:int ->
+  ?dither:Gdk.Tags.rgb_dither ->
+  ?x_dither:int ->
+  ?y_dither:int -> ?src_x:int -> ?src_y:int -> pixbuf -> unit
+)
+ident(
+  def render_to_drawable "gdkPixbuf.ml" 145 6756 6756 --
+)
+"gdkPixbuf.ml" 142 6684 6707 "gdkPixbuf.ml" 142 6684 6709
+type(
+  ([> `drawable ] as 'a) Gobject.obj
+)
+ident(
+  def dw "gdkPixbuf.ml" 142 6684 6710 "gdkPixbuf.ml" 143 6735 6754
+)
+"gdkPixbuf.ml" 142 6684 6712 "gdkPixbuf.ml" 142 6684 6714
+type(
+  Gdk.gc
+)
+"gdkPixbuf.ml" 142 6684 6715 "gdkPixbuf.ml" 142 6684 6728
+type(
+  'a Gobject.obj -> Gdk.gc
+)
+ident(
+  ext_ref Gdk.GC.create
+)
+"gdkPixbuf.ml" 142 6684 6729 "gdkPixbuf.ml" 142 6684 6731
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref dw "gdkPixbuf.ml" 142 6684 6707 "gdkPixbuf.ml" 142 6684 6709
+)
+"gdkPixbuf.ml" 142 6684 6715 "gdkPixbuf.ml" 142 6684 6731
+call(
+  stack
+)
+type(
+  Gdk.gc
+)
+type(
+  Gdk.gc
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 142 6684 6715 "gdkPixbuf.ml" 142 6684 6731
+)
+type(
+  Gdk.gc option
+)
+type(
+  Gdk.gc option
+)
+type(
+  Gdk.gc
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 142 6684 6715 "gdkPixbuf.ml" 142 6684 6731
+)
+"gdkPixbuf.ml" 143 6735 6737 "gdkPixbuf.ml" 143 6735 6748
+type(
+  'a Gobject.obj ->
+  Gdk.gc ->
+  ?dest_x:int ->
+  ?dest_y:int ->
+  ?width:int ->
+  ?height:int ->
+  ?dither:Gdk.Tags.rgb_dither ->
+  ?x_dither:int ->
+  ?y_dither:int -> ?src_x:int -> ?src_y:int -> pixbuf -> unit
+)
+ident(
+  int_ref draw_pixbuf "gdkPixbuf.ml" 134 6331 6335 "gdkPixbuf.ml" 134 6331 6346
+)
+"gdkPixbuf.ml" 143 6735 6749 "gdkPixbuf.ml" 143 6735 6751
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref dw "gdkPixbuf.ml" 142 6684 6707 "gdkPixbuf.ml" 142 6684 6709
+)
+"gdkPixbuf.ml" 143 6735 6752 "gdkPixbuf.ml" 143 6735 6754
+type(
+  Gdk.gc
+)
+ident(
+  int_ref gc "gdkPixbuf.ml" 142 6684 6712 "gdkPixbuf.ml" 142 6684 6714
+)
+"gdkPixbuf.ml" 143 6735 6737 "gdkPixbuf.ml" 143 6735 6754
+call(
+  tail
+)
+type(
+  ?dest_x:int ->
+  ?dest_y:int ->
+  ?width:int ->
+  ?height:int ->
+  ?dither:Gdk.Tags.rgb_dither ->
+  ?x_dither:int ->
+  ?y_dither:int -> ?src_x:int -> ?src_y:int -> pixbuf -> unit
+)
+"gdkPixbuf.ml" 152 7109 7113 "gdkPixbuf.ml" 152 7109 7137
+type(
+  [> `drawable ] Gobject.obj ->
+  ?dest_x:int ->
+  ?dest_y:int ->
+  ?width:int ->
+  ?height:int ->
+  ?alpha:alpha_mode ->
+  ?threshold:int ->
+  ?dither:Gdk.Tags.rgb_dither ->
+  ?x_dither:int ->
+  ?y_dither:int -> ?src_x:int -> ?src_y:int -> pixbuf -> unit
+)
+ident(
+  def render_to_drawable_alpha "gdkPixbuf.ml" 160 7532 7532 --
+)
+"gdkPixbuf.ml" 152 7109 7138 "gdkPixbuf.ml" 152 7109 7140
+type(
+  ([> `drawable ] as 'a) Gobject.obj
+)
+ident(
+  def dw "gdkPixbuf.ml" 152 7109 7141 "gdkPixbuf.ml" 158 7473 7530
+)
+"gdkPixbuf.ml" 152 7109 7143 "gdkPixbuf.ml" 152 7109 7149
+type(
+  int
+)
+"gdkPixbuf.ml" 152 7109 7150 "gdkPixbuf.ml" 152 7109 7151
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 152 7109 7150 "gdkPixbuf.ml" 152 7109 7151
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 152 7109 7150 "gdkPixbuf.ml" 152 7109 7151
+)
+"gdkPixbuf.ml" 152 7109 7155 "gdkPixbuf.ml" 152 7109 7161
+type(
+  int
+)
+"gdkPixbuf.ml" 152 7109 7162 "gdkPixbuf.ml" 152 7109 7163
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 152 7109 7162 "gdkPixbuf.ml" 152 7109 7163
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 152 7109 7162 "gdkPixbuf.ml" 152 7109 7163
+)
+"gdkPixbuf.ml" 152 7109 7166 "gdkPixbuf.ml" 152 7109 7171
+type(
+  int option
+)
+ident(
+  def width "gdkPixbuf.ml" 152 7109 7172 "gdkPixbuf.ml" 158 7473 7530
+)
+"gdkPixbuf.ml" 152 7109 7173 "gdkPixbuf.ml" 152 7109 7179
+type(
+  int option
+)
+ident(
+  def height "gdkPixbuf.ml" 153 7180 7184 "gdkPixbuf.ml" 158 7473 7530
+)
+"gdkPixbuf.ml" 153 7180 7186 "gdkPixbuf.ml" 153 7180 7191
+type(
+  alpha_mode
+)
+"gdkPixbuf.ml" 153 7180 7192 "gdkPixbuf.ml" 153 7180 7197
+type(
+  alpha_mode
+)
+type(
+  alpha_mode
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 153 7180 7192 "gdkPixbuf.ml" 153 7180 7197
+)
+type(
+  alpha_mode option
+)
+type(
+  alpha_mode option
+)
+type(
+  alpha_mode
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 153 7180 7192 "gdkPixbuf.ml" 153 7180 7197
+)
+"gdkPixbuf.ml" 153 7180 7201 "gdkPixbuf.ml" 153 7180 7210
+type(
+  int
+)
+"gdkPixbuf.ml" 153 7180 7211 "gdkPixbuf.ml" 153 7180 7214
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 153 7180 7211 "gdkPixbuf.ml" 153 7180 7214
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 153 7180 7211 "gdkPixbuf.ml" 153 7180 7214
+)
+"gdkPixbuf.ml" 154 7216 7222 "gdkPixbuf.ml" 154 7216 7228
+type(
+  Gdk.Tags.rgb_dither
+)
+"gdkPixbuf.ml" 154 7216 7229 "gdkPixbuf.ml" 154 7216 7234
+type(
+  Gdk.Tags.rgb_dither
+)
+type(
+  Gdk.Tags.rgb_dither
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 154 7216 7229 "gdkPixbuf.ml" 154 7216 7234
+)
+type(
+  Gdk.Tags.rgb_dither option
+)
+type(
+  Gdk.Tags.rgb_dither option
+)
+type(
+  Gdk.Tags.rgb_dither
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 154 7216 7229 "gdkPixbuf.ml" 154 7216 7234
+)
+"gdkPixbuf.ml" 154 7216 7238 "gdkPixbuf.ml" 154 7216 7246
+type(
+  int
+)
+"gdkPixbuf.ml" 154 7216 7247 "gdkPixbuf.ml" 154 7216 7248
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 154 7216 7247 "gdkPixbuf.ml" 154 7216 7248
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 154 7216 7247 "gdkPixbuf.ml" 154 7216 7248
+)
+"gdkPixbuf.ml" 154 7216 7252 "gdkPixbuf.ml" 154 7216 7260
+type(
+  int
+)
+"gdkPixbuf.ml" 154 7216 7261 "gdkPixbuf.ml" 154 7216 7262
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 154 7216 7261 "gdkPixbuf.ml" 154 7216 7262
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 154 7216 7261 "gdkPixbuf.ml" 154 7216 7262
+)
+"gdkPixbuf.ml" 154 7216 7266 "gdkPixbuf.ml" 154 7216 7271
+type(
+  int
+)
+"gdkPixbuf.ml" 154 7216 7272 "gdkPixbuf.ml" 154 7216 7273
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 154 7216 7272 "gdkPixbuf.ml" 154 7216 7273
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 154 7216 7272 "gdkPixbuf.ml" 154 7216 7273
+)
+"gdkPixbuf.ml" 154 7216 7277 "gdkPixbuf.ml" 154 7216 7282
+type(
+  int
+)
+"gdkPixbuf.ml" 154 7216 7283 "gdkPixbuf.ml" 154 7216 7284
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 154 7216 7283 "gdkPixbuf.ml" 154 7216 7284
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 154 7216 7283 "gdkPixbuf.ml" 154 7216 7284
+)
+"gdkPixbuf.ml" 154 7216 7286 "gdkPixbuf.ml" 154 7216 7289
+type(
+  pixbuf
+)
+ident(
+  def src "gdkPixbuf.ml" 155 7292 7294 "gdkPixbuf.ml" 158 7473 7530
+)
+"gdkPixbuf.ml" 155 7292 7298 "gdkPixbuf.ml" 155 7292 7303
+type(
+  int
+)
+"gdkPixbuf.ml" 155 7292 7306 "gdkPixbuf.ml" 155 7292 7317
+type(
+  (pixbuf -> int) -> pixbuf -> opt:int option -> int
+)
+ident(
+  ext_ref Gaux.may_default
+)
+"gdkPixbuf.ml" 155 7292 7318 "gdkPixbuf.ml" 155 7292 7327
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 155 7292 7328 "gdkPixbuf.ml" 155 7292 7331
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 154 7216 7286 "gdkPixbuf.ml" 154 7216 7289
+)
+"gdkPixbuf.ml" 155 7292 7337 "gdkPixbuf.ml" 155 7292 7342
+type(
+  int option
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 152 7109 7166 "gdkPixbuf.ml" 152 7109 7171
+)
+"gdkPixbuf.ml" 155 7292 7306 "gdkPixbuf.ml" 155 7292 7342
+call(
+  stack
+)
+type(
+  int
+)
+"gdkPixbuf.ml" 156 7343 7349 "gdkPixbuf.ml" 156 7343 7355
+type(
+  int
+)
+"gdkPixbuf.ml" 156 7343 7358 "gdkPixbuf.ml" 156 7343 7369
+type(
+  (pixbuf -> int) -> pixbuf -> opt:int option -> int
+)
+ident(
+  ext_ref Gaux.may_default
+)
+"gdkPixbuf.ml" 156 7343 7370 "gdkPixbuf.ml" 156 7343 7380
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 156 7343 7381 "gdkPixbuf.ml" 156 7343 7384
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 154 7216 7286 "gdkPixbuf.ml" 154 7216 7289
+)
+"gdkPixbuf.ml" 156 7343 7390 "gdkPixbuf.ml" 156 7343 7396
+type(
+  int option
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 152 7109 7173 "gdkPixbuf.ml" 152 7109 7179
+)
+"gdkPixbuf.ml" 156 7343 7358 "gdkPixbuf.ml" 156 7343 7396
+call(
+  stack
+)
+type(
+  int
+)
+"gdkPixbuf.ml" 157 7400 7402 "gdkPixbuf.ml" 157 7400 7427
+type(
+  src:pixbuf ->
+  'a Gobject.obj ->
+  src_x:int ->
+  src_y:int ->
+  dest_x:int ->
+  dest_y:int ->
+  width:int ->
+  height:int ->
+  alpha:alpha_mode ->
+  threshold:int ->
+  dither:Gdk.Tags.rgb_dither -> x_dither:int -> y_dither:int -> unit
+)
+"gdkPixbuf.ml" 157 7400 7429 "gdkPixbuf.ml" 157 7400 7432
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 154 7216 7286 "gdkPixbuf.ml" 154 7216 7289
+)
+"gdkPixbuf.ml" 157 7400 7433 "gdkPixbuf.ml" 157 7400 7435
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref dw "gdkPixbuf.ml" 152 7109 7138 "gdkPixbuf.ml" 152 7109 7140
+)
+"gdkPixbuf.ml" 157 7400 7437 "gdkPixbuf.ml" 157 7400 7442
+type(
+  int
+)
+ident(
+  int_ref src_x "gdkPixbuf.ml" 154 7216 7266 "gdkPixbuf.ml" 154 7216 7271
+)
+"gdkPixbuf.ml" 157 7400 7444 "gdkPixbuf.ml" 157 7400 7449
+type(
+  int
+)
+ident(
+  int_ref src_y "gdkPixbuf.ml" 154 7216 7277 "gdkPixbuf.ml" 154 7216 7282
+)
+"gdkPixbuf.ml" 157 7400 7451 "gdkPixbuf.ml" 157 7400 7457
+type(
+  int
+)
+ident(
+  int_ref dest_x "gdkPixbuf.ml" 152 7109 7143 "gdkPixbuf.ml" 152 7109 7149
+)
+"gdkPixbuf.ml" 157 7400 7459 "gdkPixbuf.ml" 157 7400 7465
+type(
+  int
+)
+ident(
+  int_ref dest_y "gdkPixbuf.ml" 152 7109 7155 "gdkPixbuf.ml" 152 7109 7161
+)
+"gdkPixbuf.ml" 157 7400 7467 "gdkPixbuf.ml" 157 7400 7472
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 155 7292 7298 "gdkPixbuf.ml" 155 7292 7303
+)
+"gdkPixbuf.ml" 158 7473 7478 "gdkPixbuf.ml" 158 7473 7484
+type(
+  int
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 156 7343 7349 "gdkPixbuf.ml" 156 7343 7355
+)
+"gdkPixbuf.ml" 158 7473 7486 "gdkPixbuf.ml" 158 7473 7492
+type(
+  Gdk.Tags.rgb_dither
+)
+ident(
+  int_ref dither "gdkPixbuf.ml" 154 7216 7222 "gdkPixbuf.ml" 154 7216 7228
+)
+"gdkPixbuf.ml" 158 7473 7494 "gdkPixbuf.ml" 158 7473 7502
+type(
+  int
+)
+ident(
+  int_ref x_dither "gdkPixbuf.ml" 154 7216 7238 "gdkPixbuf.ml" 154 7216 7246
+)
+"gdkPixbuf.ml" 158 7473 7504 "gdkPixbuf.ml" 158 7473 7512
+type(
+  int
+)
+ident(
+  int_ref y_dither "gdkPixbuf.ml" 154 7216 7252 "gdkPixbuf.ml" 154 7216 7260
+)
+"gdkPixbuf.ml" 158 7473 7514 "gdkPixbuf.ml" 158 7473 7519
+type(
+  alpha_mode
+)
+ident(
+  int_ref alpha "gdkPixbuf.ml" 153 7180 7186 "gdkPixbuf.ml" 153 7180 7191
+)
+"gdkPixbuf.ml" 158 7473 7521 "gdkPixbuf.ml" 158 7473 7530
+type(
+  int
+)
+ident(
+  int_ref threshold "gdkPixbuf.ml" 153 7180 7201 "gdkPixbuf.ml" 153 7180 7210
+)
+"gdkPixbuf.ml" 157 7400 7402 "gdkPixbuf.ml" 158 7473 7530
+type(
+  unit
+)
+"gdkPixbuf.ml" 155 7292 7294 "gdkPixbuf.ml" 158 7473 7530
+type(
+  unit
+)
+"gdkPixbuf.ml" 162 7651 7655 "gdkPixbuf.ml" 162 7651 7668
+type(
+  ?threshold:int -> pixbuf -> Gdk.pixmap * Gdk.bitmap option
+)
+ident(
+  def create_pixmap "gdkPixbuf.ml" 166 7738 7738 --
+)
+"gdkPixbuf.ml" 162 7651 7671 "gdkPixbuf.ml" 162 7651 7680
+type(
+  int
+)
+"gdkPixbuf.ml" 162 7651 7681 "gdkPixbuf.ml" 162 7651 7684
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 162 7651 7681 "gdkPixbuf.ml" 162 7651 7684
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 162 7651 7681 "gdkPixbuf.ml" 162 7651 7684
+)
+"gdkPixbuf.ml" 162 7651 7686 "gdkPixbuf.ml" 162 7651 7688
+type(
+  pixbuf
+)
+ident(
+  def pb "gdkPixbuf.ml" 162 7651 7691 "gdkPixbuf.ml" 162 7651 7719
+)
+"gdkPixbuf.ml" 162 7651 7691 "gdkPixbuf.ml" 162 7651 7705
+type(
+  pixbuf -> threshold:int -> Gdk.pixmap * Gdk.bitmap option
+)
+"gdkPixbuf.ml" 162 7651 7706 "gdkPixbuf.ml" 162 7651 7708
+type(
+  pixbuf
+)
+ident(
+  int_ref pb "gdkPixbuf.ml" 162 7651 7686 "gdkPixbuf.ml" 162 7651 7688
+)
+"gdkPixbuf.ml" 162 7651 7710 "gdkPixbuf.ml" 162 7651 7719
+type(
+  int
+)
+ident(
+  int_ref threshold "gdkPixbuf.ml" 162 7651 7671 "gdkPixbuf.ml" 162 7651 7680
+)
+"gdkPixbuf.ml" 162 7651 7691 "gdkPixbuf.ml" 162 7651 7719
+type(
+  Gdk.pixmap * Gdk.bitmap option
+)
+"gdkPixbuf.ml" 168 7848 7852 "gdkPixbuf.ml" 168 7848 7861
+type(
+  ?transparent:int * int * int -> pixbuf -> pixbuf
+)
+ident(
+  def add_alpha "gdkPixbuf.ml" 172 8013 8013 --
+)
+"gdkPixbuf.ml" 168 7848 7863 "gdkPixbuf.ml" 168 7848 7874
+type(
+  (int * int * int) option
+)
+ident(
+  def transparent "gdkPixbuf.ml" 168 7848 7875 "gdkPixbuf.ml" 170 7955 8011
+)
+"gdkPixbuf.ml" 168 7848 7875 "gdkPixbuf.ml" 168 7848 7877
+type(
+  pixbuf
+)
+ident(
+  def pb "gdkPixbuf.ml" 169 7880 7882 "gdkPixbuf.ml" 170 7955 8011
+)
+"gdkPixbuf.ml" 169 7880 7888 "gdkPixbuf.ml" 169 7880 7899
+type(
+  (int * int * int) option
+)
+ident(
+  int_ref transparent "gdkPixbuf.ml" 168 7848 7863 "gdkPixbuf.ml" 168 7848 7874
+)
+"gdkPixbuf.ml" 169 7880 7905 "gdkPixbuf.ml" 169 7880 7909
+type(
+  (int * int * int) option
+)
+"gdkPixbuf.ml" 169 7880 7913 "gdkPixbuf.ml" 169 7880 7923
+type(
+  pixbuf -> subst:bool -> r:int -> g:int -> b:int -> pixbuf
+)
+"gdkPixbuf.ml" 169 7880 7924 "gdkPixbuf.ml" 169 7880 7926
+type(
+  pixbuf
+)
+ident(
+  int_ref pb "gdkPixbuf.ml" 168 7848 7875 "gdkPixbuf.ml" 168 7848 7877
+)
+"gdkPixbuf.ml" 169 7880 7934 "gdkPixbuf.ml" 169 7880 7939
+type(
+  bool
+)
+"gdkPixbuf.ml" 169 7880 7943 "gdkPixbuf.ml" 169 7880 7944
+type(
+  int
+)
+"gdkPixbuf.ml" 169 7880 7948 "gdkPixbuf.ml" 169 7880 7949
+type(
+  int
+)
+"gdkPixbuf.ml" 169 7880 7953 "gdkPixbuf.ml" 169 7880 7954
+type(
+  int
+)
+"gdkPixbuf.ml" 169 7880 7913 "gdkPixbuf.ml" 169 7880 7954
+type(
+  pixbuf
+)
+"gdkPixbuf.ml" 170 7955 7965 "gdkPixbuf.ml" 170 7955 7966
+type(
+  int
+)
+ident(
+  def r "gdkPixbuf.ml" 170 7955 7977 "gdkPixbuf.ml" 170 7955 8011
+)
+"gdkPixbuf.ml" 170 7955 7968 "gdkPixbuf.ml" 170 7955 7969
+type(
+  int
+)
+ident(
+  def g "gdkPixbuf.ml" 170 7955 7977 "gdkPixbuf.ml" 170 7955 8011
+)
+"gdkPixbuf.ml" 170 7955 7971 "gdkPixbuf.ml" 170 7955 7972
+type(
+  int
+)
+ident(
+  def b "gdkPixbuf.ml" 170 7955 7977 "gdkPixbuf.ml" 170 7955 8011
+)
+"gdkPixbuf.ml" 170 7955 7964 "gdkPixbuf.ml" 170 7955 7973
+type(
+  int * int * int
+)
+"gdkPixbuf.ml" 170 7955 7959 "gdkPixbuf.ml" 170 7955 7973
+type(
+  (int * int * int) option
+)
+"gdkPixbuf.ml" 170 7955 7977 "gdkPixbuf.ml" 170 7955 7987
+type(
+  pixbuf -> subst:bool -> r:int -> g:int -> b:int -> pixbuf
+)
+"gdkPixbuf.ml" 170 7955 7988 "gdkPixbuf.ml" 170 7955 7990
+type(
+  pixbuf
+)
+ident(
+  int_ref pb "gdkPixbuf.ml" 168 7848 7875 "gdkPixbuf.ml" 168 7848 7877
+)
+"gdkPixbuf.ml" 170 7955 7998 "gdkPixbuf.ml" 170 7955 8002
+type(
+  bool
+)
+"gdkPixbuf.ml" 170 7955 8004 "gdkPixbuf.ml" 170 7955 8005
+type(
+  int
+)
+ident(
+  int_ref r "gdkPixbuf.ml" 170 7955 7965 "gdkPixbuf.ml" 170 7955 7966
+)
+"gdkPixbuf.ml" 170 7955 8007 "gdkPixbuf.ml" 170 7955 8008
+type(
+  int
+)
+ident(
+  int_ref g "gdkPixbuf.ml" 170 7955 7968 "gdkPixbuf.ml" 170 7955 7969
+)
+"gdkPixbuf.ml" 170 7955 8010 "gdkPixbuf.ml" 170 7955 8011
+type(
+  int
+)
+ident(
+  int_ref b "gdkPixbuf.ml" 170 7955 7971 "gdkPixbuf.ml" 170 7955 7972
+)
+"gdkPixbuf.ml" 170 7955 7977 "gdkPixbuf.ml" 170 7955 8011
+type(
+  pixbuf
+)
+"gdkPixbuf.ml" 169 7880 7882 "gdkPixbuf.ml" 170 7955 8011
+type(
+  pixbuf
+)
+"gdkPixbuf.ml" 175 8221 8225 "gdkPixbuf.ml" 175 8221 8246
+type(
+  dest:pixbuf -> saturation:float -> pixelate:bool -> pixbuf -> unit
+)
+ident(
+  def saturate_and_pixelate "gdkPixbuf.ml" 178 8339 8339 --
+)
+"gdkPixbuf.ml" 175 8221 8248 "gdkPixbuf.ml" 175 8221 8252
+type(
+  pixbuf
+)
+ident(
+  def dest "gdkPixbuf.ml" 175 8221 8253 "gdkPixbuf.ml" 176 8281 8337
+)
+"gdkPixbuf.ml" 175 8221 8254 "gdkPixbuf.ml" 175 8221 8264
+type(
+  float
+)
+ident(
+  def saturation "gdkPixbuf.ml" 175 8221 8265 "gdkPixbuf.ml" 176 8281 8337
+)
+"gdkPixbuf.ml" 175 8221 8266 "gdkPixbuf.ml" 175 8221 8274
+type(
+  bool
+)
+ident(
+  def pixelate "gdkPixbuf.ml" 175 8221 8275 "gdkPixbuf.ml" 176 8281 8337
+)
+"gdkPixbuf.ml" 175 8221 8275 "gdkPixbuf.ml" 175 8221 8278
+type(
+  pixbuf
+)
+ident(
+  def src "gdkPixbuf.ml" 176 8281 8283 "gdkPixbuf.ml" 176 8281 8337
+)
+"gdkPixbuf.ml" 176 8281 8283 "gdkPixbuf.ml" 176 8281 8305
+type(
+  pixbuf -> dest:pixbuf -> saturation:float -> pixelate:bool -> unit
+)
+"gdkPixbuf.ml" 176 8281 8306 "gdkPixbuf.ml" 176 8281 8309
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 175 8221 8275 "gdkPixbuf.ml" 175 8221 8278
+)
+"gdkPixbuf.ml" 176 8281 8311 "gdkPixbuf.ml" 176 8281 8315
+type(
+  pixbuf
+)
+ident(
+  int_ref dest "gdkPixbuf.ml" 175 8221 8248 "gdkPixbuf.ml" 175 8221 8252
+)
+"gdkPixbuf.ml" 176 8281 8317 "gdkPixbuf.ml" 176 8281 8327
+type(
+  float
+)
+ident(
+  int_ref saturation "gdkPixbuf.ml" 175 8221 8254 "gdkPixbuf.ml" 175 8221 8264
+)
+"gdkPixbuf.ml" 176 8281 8329 "gdkPixbuf.ml" 176 8281 8337
+type(
+  bool
+)
+ident(
+  int_ref pixelate "gdkPixbuf.ml" 175 8221 8266 "gdkPixbuf.ml" 175 8221 8274
+)
+"gdkPixbuf.ml" 176 8281 8283 "gdkPixbuf.ml" 176 8281 8337
+type(
+  unit
+)
+"gdkPixbuf.ml" 182 8539 8543 "gdkPixbuf.ml" 182 8539 8552
+type(
+  dest:pixbuf ->
+  ?dest_x:int ->
+  ?dest_y:int ->
+  ?width:int -> ?height:int -> ?src_x:int -> ?src_y:int -> pixbuf -> unit
+)
+ident(
+  def copy_area "gdkPixbuf.ml" 193 9110 9110 --
+)
+"gdkPixbuf.ml" 182 8539 8554 "gdkPixbuf.ml" 182 8539 8558
+type(
+  pixbuf
+)
+ident(
+  def dest "gdkPixbuf.ml" 182 8539 8559 "gdkPixbuf.ml" 191 9040 9108
+)
+"gdkPixbuf.ml" 182 8539 8561 "gdkPixbuf.ml" 182 8539 8567
+type(
+  int
+)
+"gdkPixbuf.ml" 182 8539 8568 "gdkPixbuf.ml" 182 8539 8569
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 182 8539 8568 "gdkPixbuf.ml" 182 8539 8569
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 182 8539 8568 "gdkPixbuf.ml" 182 8539 8569
+)
+"gdkPixbuf.ml" 182 8539 8573 "gdkPixbuf.ml" 182 8539 8579
+type(
+  int
+)
+"gdkPixbuf.ml" 182 8539 8580 "gdkPixbuf.ml" 182 8539 8581
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 182 8539 8580 "gdkPixbuf.ml" 182 8539 8581
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 182 8539 8580 "gdkPixbuf.ml" 182 8539 8581
+)
+"gdkPixbuf.ml" 182 8539 8584 "gdkPixbuf.ml" 182 8539 8589
+type(
+  int option
+)
+ident(
+  def width "gdkPixbuf.ml" 182 8539 8590 "gdkPixbuf.ml" 191 9040 9108
+)
+"gdkPixbuf.ml" 182 8539 8591 "gdkPixbuf.ml" 182 8539 8597
+type(
+  int option
+)
+ident(
+  def height "gdkPixbuf.ml" 183 8598 8602 "gdkPixbuf.ml" 191 9040 9108
+)
+"gdkPixbuf.ml" 183 8598 8604 "gdkPixbuf.ml" 183 8598 8609
+type(
+  int
+)
+"gdkPixbuf.ml" 183 8598 8610 "gdkPixbuf.ml" 183 8598 8611
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 183 8598 8610 "gdkPixbuf.ml" 183 8598 8611
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 183 8598 8610 "gdkPixbuf.ml" 183 8598 8611
+)
+"gdkPixbuf.ml" 183 8598 8615 "gdkPixbuf.ml" 183 8598 8620
+type(
+  int
+)
+"gdkPixbuf.ml" 183 8598 8621 "gdkPixbuf.ml" 183 8598 8622
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 183 8598 8621 "gdkPixbuf.ml" 183 8598 8622
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 183 8598 8621 "gdkPixbuf.ml" 183 8598 8622
+)
+"gdkPixbuf.ml" 183 8598 8624 "gdkPixbuf.ml" 183 8598 8627
+type(
+  pixbuf
+)
+ident(
+  def src "gdkPixbuf.ml" 184 8630 8632 "gdkPixbuf.ml" 191 9040 9108
+)
+"gdkPixbuf.ml" 184 8630 8636 "gdkPixbuf.ml" 184 8630 8638
+type(
+  int
+)
+"gdkPixbuf.ml" 184 8630 8641 "gdkPixbuf.ml" 184 8630 8644
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"gdkPixbuf.ml" 184 8630 8646 "gdkPixbuf.ml" 184 8630 8655
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 184 8630 8656 "gdkPixbuf.ml" 184 8630 8659
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 183 8598 8624 "gdkPixbuf.ml" 183 8598 8627
+)
+"gdkPixbuf.ml" 184 8630 8646 "gdkPixbuf.ml" 184 8630 8659
+type(
+  int
+)
+"gdkPixbuf.ml" 184 8630 8660 "gdkPixbuf.ml" 184 8630 8661
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdkPixbuf.ml" 184 8630 8662 "gdkPixbuf.ml" 184 8630 8667
+type(
+  int
+)
+ident(
+  int_ref src_x "gdkPixbuf.ml" 183 8598 8604 "gdkPixbuf.ml" 183 8598 8609
+)
+"gdkPixbuf.ml" 184 8630 8645 "gdkPixbuf.ml" 184 8630 8668
+type(
+  int
+)
+"gdkPixbuf.ml" 184 8630 8670 "gdkPixbuf.ml" 184 8630 8679
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 184 8630 8680 "gdkPixbuf.ml" 184 8630 8684
+type(
+  pixbuf
+)
+ident(
+  int_ref dest "gdkPixbuf.ml" 182 8539 8554 "gdkPixbuf.ml" 182 8539 8558
+)
+"gdkPixbuf.ml" 184 8630 8670 "gdkPixbuf.ml" 184 8630 8684
+type(
+  int
+)
+"gdkPixbuf.ml" 184 8630 8685 "gdkPixbuf.ml" 184 8630 8686
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdkPixbuf.ml" 184 8630 8687 "gdkPixbuf.ml" 184 8630 8693
+type(
+  int
+)
+ident(
+  int_ref dest_x "gdkPixbuf.ml" 182 8539 8561 "gdkPixbuf.ml" 182 8539 8567
+)
+"gdkPixbuf.ml" 184 8630 8669 "gdkPixbuf.ml" 184 8630 8694
+type(
+  int
+)
+"gdkPixbuf.ml" 184 8630 8641 "gdkPixbuf.ml" 184 8630 8694
+call(
+  stack
+)
+type(
+  int
+)
+"gdkPixbuf.ml" 185 8695 8701 "gdkPixbuf.ml" 185 8695 8703
+type(
+  int
+)
+"gdkPixbuf.ml" 185 8695 8706 "gdkPixbuf.ml" 185 8695 8709
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"gdkPixbuf.ml" 185 8695 8711 "gdkPixbuf.ml" 185 8695 8721
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 185 8695 8722 "gdkPixbuf.ml" 185 8695 8725
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 183 8598 8624 "gdkPixbuf.ml" 183 8598 8627
+)
+"gdkPixbuf.ml" 185 8695 8711 "gdkPixbuf.ml" 185 8695 8725
+type(
+  int
+)
+"gdkPixbuf.ml" 185 8695 8726 "gdkPixbuf.ml" 185 8695 8727
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdkPixbuf.ml" 185 8695 8728 "gdkPixbuf.ml" 185 8695 8733
+type(
+  int
+)
+ident(
+  int_ref src_y "gdkPixbuf.ml" 183 8598 8615 "gdkPixbuf.ml" 183 8598 8620
+)
+"gdkPixbuf.ml" 185 8695 8710 "gdkPixbuf.ml" 185 8695 8734
+type(
+  int
+)
+"gdkPixbuf.ml" 185 8695 8736 "gdkPixbuf.ml" 185 8695 8746
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 185 8695 8747 "gdkPixbuf.ml" 185 8695 8751
+type(
+  pixbuf
+)
+ident(
+  int_ref dest "gdkPixbuf.ml" 182 8539 8554 "gdkPixbuf.ml" 182 8539 8558
+)
+"gdkPixbuf.ml" 185 8695 8736 "gdkPixbuf.ml" 185 8695 8751
+type(
+  int
+)
+"gdkPixbuf.ml" 185 8695 8752 "gdkPixbuf.ml" 185 8695 8753
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdkPixbuf.ml" 185 8695 8754 "gdkPixbuf.ml" 185 8695 8760
+type(
+  int
+)
+ident(
+  int_ref dest_y "gdkPixbuf.ml" 182 8539 8573 "gdkPixbuf.ml" 182 8539 8579
+)
+"gdkPixbuf.ml" 185 8695 8735 "gdkPixbuf.ml" 185 8695 8761
+type(
+  int
+)
+"gdkPixbuf.ml" 185 8695 8706 "gdkPixbuf.ml" 185 8695 8761
+call(
+  stack
+)
+type(
+  int
+)
+"gdkPixbuf.ml" 186 8765 8771 "gdkPixbuf.ml" 186 8765 8776
+type(
+  int
+)
+"gdkPixbuf.ml" 186 8765 8785 "gdkPixbuf.ml" 186 8765 8790
+type(
+  int option
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 182 8539 8584 "gdkPixbuf.ml" 182 8539 8589
+)
+"gdkPixbuf.ml" 186 8765 8801 "gdkPixbuf.ml" 186 8765 8802
+type(
+  int
+)
+ident(
+  def w "gdkPixbuf.ml" 186 8765 8806 "gdkPixbuf.ml" 186 8765 8807
+)
+"gdkPixbuf.ml" 186 8765 8796 "gdkPixbuf.ml" 186 8765 8802
+type(
+  int option
+)
+"gdkPixbuf.ml" 186 8765 8806 "gdkPixbuf.ml" 186 8765 8807
+type(
+  int
+)
+ident(
+  int_ref w "gdkPixbuf.ml" 186 8765 8801 "gdkPixbuf.ml" 186 8765 8802
+)
+"gdkPixbuf.ml" 186 8765 8810 "gdkPixbuf.ml" 186 8765 8814
+type(
+  int option
+)
+"gdkPixbuf.ml" 186 8765 8818 "gdkPixbuf.ml" 186 8765 8820
+type(
+  int
+)
+ident(
+  int_ref mw "gdkPixbuf.ml" 184 8630 8636 "gdkPixbuf.ml" 184 8630 8638
+)
+"gdkPixbuf.ml" 186 8765 8779 "gdkPixbuf.ml" 186 8765 8820
+type(
+  int
+)
+"gdkPixbuf.ml" 187 8821 8827 "gdkPixbuf.ml" 187 8821 8833
+type(
+  int
+)
+"gdkPixbuf.ml" 187 8821 8842 "gdkPixbuf.ml" 187 8821 8848
+type(
+  int option
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 182 8539 8591 "gdkPixbuf.ml" 182 8539 8597
+)
+"gdkPixbuf.ml" 187 8821 8859 "gdkPixbuf.ml" 187 8821 8860
+type(
+  int
+)
+ident(
+  def h "gdkPixbuf.ml" 187 8821 8864 "gdkPixbuf.ml" 187 8821 8865
+)
+"gdkPixbuf.ml" 187 8821 8854 "gdkPixbuf.ml" 187 8821 8860
+type(
+  int option
+)
+"gdkPixbuf.ml" 187 8821 8864 "gdkPixbuf.ml" 187 8821 8865
+type(
+  int
+)
+ident(
+  int_ref h "gdkPixbuf.ml" 187 8821 8859 "gdkPixbuf.ml" 187 8821 8860
+)
+"gdkPixbuf.ml" 187 8821 8868 "gdkPixbuf.ml" 187 8821 8872
+type(
+  int option
+)
+"gdkPixbuf.ml" 187 8821 8876 "gdkPixbuf.ml" 187 8821 8878
+type(
+  int
+)
+ident(
+  int_ref mh "gdkPixbuf.ml" 185 8695 8701 "gdkPixbuf.ml" 185 8695 8703
+)
+"gdkPixbuf.ml" 187 8821 8836 "gdkPixbuf.ml" 187 8821 8878
+type(
+  int
+)
+"gdkPixbuf.ml" 188 8882 8887 "gdkPixbuf.ml" 188 8882 8892
+type(
+  int
+)
+ident(
+  int_ref src_x "gdkPixbuf.ml" 183 8598 8604 "gdkPixbuf.ml" 183 8598 8609
+)
+"gdkPixbuf.ml" 188 8882 8893 "gdkPixbuf.ml" 188 8882 8894
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gdkPixbuf.ml" 188 8882 8895 "gdkPixbuf.ml" 188 8882 8896
+type(
+  int
+)
+"gdkPixbuf.ml" 188 8882 8887 "gdkPixbuf.ml" 188 8882 8896
+type(
+  bool
+)
+"gdkPixbuf.ml" 188 8882 8897 "gdkPixbuf.ml" 188 8882 8899
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 188 8882 8900 "gdkPixbuf.ml" 188 8882 8905
+type(
+  int
+)
+ident(
+  int_ref src_y "gdkPixbuf.ml" 183 8598 8615 "gdkPixbuf.ml" 183 8598 8620
+)
+"gdkPixbuf.ml" 188 8882 8906 "gdkPixbuf.ml" 188 8882 8907
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gdkPixbuf.ml" 188 8882 8908 "gdkPixbuf.ml" 188 8882 8909
+type(
+  int
+)
+"gdkPixbuf.ml" 188 8882 8900 "gdkPixbuf.ml" 188 8882 8909
+type(
+  bool
+)
+"gdkPixbuf.ml" 188 8882 8910 "gdkPixbuf.ml" 188 8882 8912
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 188 8882 8913 "gdkPixbuf.ml" 188 8882 8919
+type(
+  int
+)
+ident(
+  int_ref dest_x "gdkPixbuf.ml" 182 8539 8561 "gdkPixbuf.ml" 182 8539 8567
+)
+"gdkPixbuf.ml" 188 8882 8920 "gdkPixbuf.ml" 188 8882 8921
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gdkPixbuf.ml" 188 8882 8922 "gdkPixbuf.ml" 188 8882 8923
+type(
+  int
+)
+"gdkPixbuf.ml" 188 8882 8913 "gdkPixbuf.ml" 188 8882 8923
+type(
+  bool
+)
+"gdkPixbuf.ml" 188 8882 8924 "gdkPixbuf.ml" 188 8882 8926
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 188 8882 8927 "gdkPixbuf.ml" 188 8882 8933
+type(
+  int
+)
+ident(
+  int_ref dest_y "gdkPixbuf.ml" 182 8539 8573 "gdkPixbuf.ml" 182 8539 8579
+)
+"gdkPixbuf.ml" 188 8882 8934 "gdkPixbuf.ml" 188 8882 8935
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gdkPixbuf.ml" 188 8882 8936 "gdkPixbuf.ml" 188 8882 8937
+type(
+  int
+)
+"gdkPixbuf.ml" 188 8882 8927 "gdkPixbuf.ml" 188 8882 8937
+type(
+  bool
+)
+"gdkPixbuf.ml" 189 8938 8940 "gdkPixbuf.ml" 189 8938 8942
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 189 8938 8943 "gdkPixbuf.ml" 189 8938 8948
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 186 8765 8771 "gdkPixbuf.ml" 186 8765 8776
+)
+"gdkPixbuf.ml" 189 8938 8949 "gdkPixbuf.ml" 189 8938 8951
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"gdkPixbuf.ml" 189 8938 8952 "gdkPixbuf.ml" 189 8938 8953
+type(
+  int
+)
+"gdkPixbuf.ml" 189 8938 8943 "gdkPixbuf.ml" 189 8938 8953
+type(
+  bool
+)
+"gdkPixbuf.ml" 189 8938 8954 "gdkPixbuf.ml" 189 8938 8956
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 189 8938 8957 "gdkPixbuf.ml" 189 8938 8963
+type(
+  int
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 187 8821 8827 "gdkPixbuf.ml" 187 8821 8833
+)
+"gdkPixbuf.ml" 189 8938 8964 "gdkPixbuf.ml" 189 8938 8966
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"gdkPixbuf.ml" 189 8938 8967 "gdkPixbuf.ml" 189 8938 8968
+type(
+  int
+)
+"gdkPixbuf.ml" 189 8938 8957 "gdkPixbuf.ml" 189 8938 8968
+type(
+  bool
+)
+"gdkPixbuf.ml" 189 8938 8969 "gdkPixbuf.ml" 189 8938 8971
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 189 8938 8972 "gdkPixbuf.ml" 189 8938 8977
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 186 8765 8771 "gdkPixbuf.ml" 186 8765 8776
+)
+"gdkPixbuf.ml" 189 8938 8978 "gdkPixbuf.ml" 189 8938 8979
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"gdkPixbuf.ml" 189 8938 8980 "gdkPixbuf.ml" 189 8938 8982
+type(
+  int
+)
+ident(
+  int_ref mw "gdkPixbuf.ml" 184 8630 8636 "gdkPixbuf.ml" 184 8630 8638
+)
+"gdkPixbuf.ml" 189 8938 8972 "gdkPixbuf.ml" 189 8938 8982
+type(
+  bool
+)
+"gdkPixbuf.ml" 189 8938 8983 "gdkPixbuf.ml" 189 8938 8985
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gdkPixbuf.ml" 189 8938 8986 "gdkPixbuf.ml" 189 8938 8992
+type(
+  int
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 187 8821 8827 "gdkPixbuf.ml" 187 8821 8833
+)
+"gdkPixbuf.ml" 189 8938 8993 "gdkPixbuf.ml" 189 8938 8994
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"gdkPixbuf.ml" 189 8938 8995 "gdkPixbuf.ml" 189 8938 8997
+type(
+  int
+)
+ident(
+  int_ref mh "gdkPixbuf.ml" 185 8695 8701 "gdkPixbuf.ml" 185 8695 8703
+)
+"gdkPixbuf.ml" 189 8938 8986 "gdkPixbuf.ml" 189 8938 8997
+type(
+  bool
+)
+"gdkPixbuf.ml" 189 8938 8972 "gdkPixbuf.ml" 189 8938 8997
+type(
+  bool
+)
+"gdkPixbuf.ml" 189 8938 8957 "gdkPixbuf.ml" 189 8938 8997
+type(
+  bool
+)
+"gdkPixbuf.ml" 189 8938 8943 "gdkPixbuf.ml" 189 8938 8997
+type(
+  bool
+)
+"gdkPixbuf.ml" 188 8882 8927 "gdkPixbuf.ml" 189 8938 8997
+type(
+  bool
+)
+"gdkPixbuf.ml" 188 8882 8913 "gdkPixbuf.ml" 189 8938 8997
+type(
+  bool
+)
+"gdkPixbuf.ml" 188 8882 8900 "gdkPixbuf.ml" 189 8938 8997
+type(
+  bool
+)
+"gdkPixbuf.ml" 188 8882 8887 "gdkPixbuf.ml" 189 8938 8997
+type(
+  bool
+)
+"gdkPixbuf.ml" 190 8998 9005 "gdkPixbuf.ml" 190 8998 9016
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gdkPixbuf.ml" 190 8998 9017 "gdkPixbuf.ml" 190 8998 9038
+type(
+  string
+)
+"gdkPixbuf.ml" 190 8998 9005 "gdkPixbuf.ml" 190 8998 9038
+call(
+  stack
+)
+type(
+  unit
+)
+"gdkPixbuf.ml" 188 8882 8884 "gdkPixbuf.ml" 190 8998 9038
+type(
+  unit
+)
+"gdkPixbuf.ml" 191 9040 9042 "gdkPixbuf.ml" 191 9040 9052
+type(
+  src:pixbuf ->
+  src_x:int ->
+  src_y:int ->
+  width:int -> height:int -> dest:pixbuf -> dest_x:int -> dest_y:int -> unit
+)
+"gdkPixbuf.ml" 191 9040 9054 "gdkPixbuf.ml" 191 9040 9057
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 183 8598 8624 "gdkPixbuf.ml" 183 8598 8627
+)
+"gdkPixbuf.ml" 191 9040 9059 "gdkPixbuf.ml" 191 9040 9064
+type(
+  int
+)
+ident(
+  int_ref src_x "gdkPixbuf.ml" 183 8598 8604 "gdkPixbuf.ml" 183 8598 8609
+)
+"gdkPixbuf.ml" 191 9040 9066 "gdkPixbuf.ml" 191 9040 9071
+type(
+  int
+)
+ident(
+  int_ref src_y "gdkPixbuf.ml" 183 8598 8615 "gdkPixbuf.ml" 183 8598 8620
+)
+"gdkPixbuf.ml" 191 9040 9073 "gdkPixbuf.ml" 191 9040 9078
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 186 8765 8771 "gdkPixbuf.ml" 186 8765 8776
+)
+"gdkPixbuf.ml" 191 9040 9080 "gdkPixbuf.ml" 191 9040 9086
+type(
+  int
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 187 8821 8827 "gdkPixbuf.ml" 187 8821 8833
+)
+"gdkPixbuf.ml" 191 9040 9088 "gdkPixbuf.ml" 191 9040 9092
+type(
+  pixbuf
+)
+ident(
+  int_ref dest "gdkPixbuf.ml" 182 8539 8554 "gdkPixbuf.ml" 182 8539 8558
+)
+"gdkPixbuf.ml" 191 9040 9094 "gdkPixbuf.ml" 191 9040 9100
+type(
+  int
+)
+ident(
+  int_ref dest_x "gdkPixbuf.ml" 182 8539 8561 "gdkPixbuf.ml" 182 8539 8567
+)
+"gdkPixbuf.ml" 191 9040 9102 "gdkPixbuf.ml" 191 9040 9108
+type(
+  int
+)
+ident(
+  int_ref dest_y "gdkPixbuf.ml" 182 8539 8573 "gdkPixbuf.ml" 182 8539 8579
+)
+"gdkPixbuf.ml" 191 9040 9042 "gdkPixbuf.ml" 191 9040 9108
+type(
+  unit
+)
+"gdkPixbuf.ml" 188 8882 8884 "gdkPixbuf.ml" 191 9040 9108
+type(
+  unit
+)
+"gdkPixbuf.ml" 186 8765 8767 "gdkPixbuf.ml" 191 9040 9108
+type(
+  unit
+)
+"gdkPixbuf.ml" 184 8630 8632 "gdkPixbuf.ml" 191 9040 9108
+type(
+  unit
+)
+"gdkPixbuf.ml" 193 9110 9114 "gdkPixbuf.ml" 193 9110 9122
+type(
+  int option ->
+  float option ->
+  ssrc:int -> sdest:int -> dest:int -> ofs:float -> int * float
+)
+ident(
+  def get_size "gdkPixbuf.ml" 200 9400 9400 --
+)
+"gdkPixbuf.ml" 193 9110 9123 "gdkPixbuf.ml" 193 9110 9125
+type(
+  int option
+)
+ident(
+  def sz "gdkPixbuf.ml" 193 9110 9126 "gdkPixbuf.ml" 198 9366 9398
+)
+"gdkPixbuf.ml" 193 9110 9126 "gdkPixbuf.ml" 193 9110 9128
+type(
+  float option
+)
+ident(
+  def sc "gdkPixbuf.ml" 193 9110 9129 "gdkPixbuf.ml" 198 9366 9398
+)
+"gdkPixbuf.ml" 193 9110 9130 "gdkPixbuf.ml" 193 9110 9134
+type(
+  int
+)
+ident(
+  def ssrc "gdkPixbuf.ml" 193 9110 9135 "gdkPixbuf.ml" 198 9366 9398
+)
+"gdkPixbuf.ml" 193 9110 9136 "gdkPixbuf.ml" 193 9110 9141
+type(
+  int
+)
+ident(
+  def sdest "gdkPixbuf.ml" 193 9110 9142 "gdkPixbuf.ml" 198 9366 9398
+)
+"gdkPixbuf.ml" 193 9110 9143 "gdkPixbuf.ml" 193 9110 9147
+type(
+  int
+)
+ident(
+  def dest "gdkPixbuf.ml" 193 9110 9148 "gdkPixbuf.ml" 198 9366 9398
+)
+"gdkPixbuf.ml" 193 9110 9149 "gdkPixbuf.ml" 193 9110 9152
+type(
+  float
+)
+ident(
+  def ofs "gdkPixbuf.ml" 194 9155 9157 "gdkPixbuf.ml" 198 9366 9398
+)
+"gdkPixbuf.ml" 194 9155 9163 "gdkPixbuf.ml" 194 9155 9165
+type(
+  int option
+)
+ident(
+  int_ref sz "gdkPixbuf.ml" 193 9110 9123 "gdkPixbuf.ml" 193 9110 9125
+)
+"gdkPixbuf.ml" 194 9155 9167 "gdkPixbuf.ml" 194 9155 9169
+type(
+  float option
+)
+ident(
+  int_ref sc "gdkPixbuf.ml" 193 9110 9126 "gdkPixbuf.ml" 193 9110 9128
+)
+"gdkPixbuf.ml" 194 9155 9163 "gdkPixbuf.ml" 194 9155 9169
+type(
+  int option * float option
+)
+"gdkPixbuf.ml" 195 9175 9179 "gdkPixbuf.ml" 195 9175 9183
+type(
+  int option
+)
+"gdkPixbuf.ml" 195 9175 9185 "gdkPixbuf.ml" 195 9175 9189
+type(
+  float option
+)
+"gdkPixbuf.ml" 195 9175 9179 "gdkPixbuf.ml" 195 9175 9189
+type(
+  int option * float option
+)
+"gdkPixbuf.ml" 195 9175 9197 "gdkPixbuf.ml" 195 9175 9202
+type(
+  int
+)
+ident(
+  int_ref sdest "gdkPixbuf.ml" 193 9110 9136 "gdkPixbuf.ml" 193 9110 9141
+)
+"gdkPixbuf.ml" 195 9175 9203 "gdkPixbuf.ml" 195 9175 9204
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gdkPixbuf.ml" 195 9175 9205 "gdkPixbuf.ml" 195 9175 9209
+type(
+  int
+)
+ident(
+  int_ref dest "gdkPixbuf.ml" 193 9110 9143 "gdkPixbuf.ml" 193 9110 9147
+)
+"gdkPixbuf.ml" 195 9175 9197 "gdkPixbuf.ml" 195 9175 9209
+type(
+  int
+)
+"gdkPixbuf.ml" 195 9175 9212 "gdkPixbuf.ml" 195 9175 9217
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"gdkPixbuf.ml" 195 9175 9218 "gdkPixbuf.ml" 195 9175 9222
+type(
+  int
+)
+ident(
+  int_ref dest "gdkPixbuf.ml" 193 9110 9143 "gdkPixbuf.ml" 193 9110 9147
+)
+"gdkPixbuf.ml" 195 9175 9212 "gdkPixbuf.ml" 195 9175 9222
+type(
+  float
+)
+"gdkPixbuf.ml" 195 9175 9223 "gdkPixbuf.ml" 195 9175 9225
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"gdkPixbuf.ml" 195 9175 9226 "gdkPixbuf.ml" 195 9175 9229
+type(
+  float
+)
+ident(
+  int_ref ofs "gdkPixbuf.ml" 193 9110 9149 "gdkPixbuf.ml" 193 9110 9152
+)
+"gdkPixbuf.ml" 195 9175 9211 "gdkPixbuf.ml" 195 9175 9230
+type(
+  float
+)
+"gdkPixbuf.ml" 195 9175 9231 "gdkPixbuf.ml" 195 9175 9233
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"gdkPixbuf.ml" 195 9175 9234 "gdkPixbuf.ml" 195 9175 9239
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"gdkPixbuf.ml" 195 9175 9240 "gdkPixbuf.ml" 195 9175 9244
+type(
+  int
+)
+ident(
+  int_ref ssrc "gdkPixbuf.ml" 193 9110 9130 "gdkPixbuf.ml" 193 9110 9134
+)
+"gdkPixbuf.ml" 195 9175 9234 "gdkPixbuf.ml" 195 9175 9244
+type(
+  float
+)
+"gdkPixbuf.ml" 195 9175 9211 "gdkPixbuf.ml" 195 9175 9244
+type(
+  float
+)
+"gdkPixbuf.ml" 195 9175 9196 "gdkPixbuf.ml" 195 9175 9245
+type(
+  int * float
+)
+"gdkPixbuf.ml" 196 9246 9250 "gdkPixbuf.ml" 196 9246 9254
+type(
+  int option
+)
+"gdkPixbuf.ml" 196 9246 9261 "gdkPixbuf.ml" 196 9246 9263
+type(
+  float
+)
+ident(
+  def sc "gdkPixbuf.ml" 196 9246 9267 "gdkPixbuf.ml" 196 9246 9306
+)
+"gdkPixbuf.ml" 196 9246 9256 "gdkPixbuf.ml" 196 9246 9263
+type(
+  float option
+)
+"gdkPixbuf.ml" 196 9246 9250 "gdkPixbuf.ml" 196 9246 9263
+type(
+  int option * float option
+)
+"gdkPixbuf.ml" 196 9246 9268 "gdkPixbuf.ml" 196 9246 9276
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.truncate
+)
+"gdkPixbuf.ml" 196 9246 9277 "gdkPixbuf.ml" 196 9246 9282
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"gdkPixbuf.ml" 196 9246 9283 "gdkPixbuf.ml" 196 9246 9287
+type(
+  int
+)
+ident(
+  int_ref ssrc "gdkPixbuf.ml" 193 9110 9130 "gdkPixbuf.ml" 193 9110 9134
+)
+"gdkPixbuf.ml" 196 9246 9277 "gdkPixbuf.ml" 196 9246 9287
+type(
+  float
+)
+"gdkPixbuf.ml" 196 9246 9288 "gdkPixbuf.ml" 196 9246 9290
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"gdkPixbuf.ml" 196 9246 9291 "gdkPixbuf.ml" 196 9246 9293
+type(
+  float
+)
+ident(
+  int_ref sc "gdkPixbuf.ml" 196 9246 9261 "gdkPixbuf.ml" 196 9246 9263
+)
+"gdkPixbuf.ml" 196 9246 9277 "gdkPixbuf.ml" 196 9246 9293
+type(
+  float
+)
+"gdkPixbuf.ml" 196 9246 9294 "gdkPixbuf.ml" 196 9246 9296
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"gdkPixbuf.ml" 196 9246 9297 "gdkPixbuf.ml" 196 9246 9300
+type(
+  float
+)
+ident(
+  int_ref ofs "gdkPixbuf.ml" 193 9110 9149 "gdkPixbuf.ml" 193 9110 9152
+)
+"gdkPixbuf.ml" 196 9246 9276 "gdkPixbuf.ml" 196 9246 9301
+type(
+  float
+)
+"gdkPixbuf.ml" 196 9246 9268 "gdkPixbuf.ml" 196 9246 9301
+type(
+  int
+)
+"gdkPixbuf.ml" 196 9246 9303 "gdkPixbuf.ml" 196 9246 9305
+type(
+  float
+)
+ident(
+  int_ref sc "gdkPixbuf.ml" 196 9246 9261 "gdkPixbuf.ml" 196 9246 9263
+)
+"gdkPixbuf.ml" 196 9246 9267 "gdkPixbuf.ml" 196 9246 9306
+type(
+  int * float
+)
+"gdkPixbuf.ml" 197 9307 9316 "gdkPixbuf.ml" 197 9307 9318
+type(
+  int
+)
+ident(
+  def sz "gdkPixbuf.ml" 197 9307 9328 "gdkPixbuf.ml" 197 9307 9365
+)
+"gdkPixbuf.ml" 197 9307 9311 "gdkPixbuf.ml" 197 9307 9318
+type(
+  int option
+)
+"gdkPixbuf.ml" 197 9307 9320 "gdkPixbuf.ml" 197 9307 9324
+type(
+  float option
+)
+"gdkPixbuf.ml" 197 9307 9311 "gdkPixbuf.ml" 197 9307 9324
+type(
+  int option * float option
+)
+"gdkPixbuf.ml" 197 9307 9329 "gdkPixbuf.ml" 197 9307 9331
+type(
+  int
+)
+ident(
+  int_ref sz "gdkPixbuf.ml" 197 9307 9316 "gdkPixbuf.ml" 197 9307 9318
+)
+"gdkPixbuf.ml" 197 9307 9334 "gdkPixbuf.ml" 197 9307 9339
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"gdkPixbuf.ml" 197 9307 9340 "gdkPixbuf.ml" 197 9307 9342
+type(
+  int
+)
+ident(
+  int_ref sz "gdkPixbuf.ml" 197 9307 9316 "gdkPixbuf.ml" 197 9307 9318
+)
+"gdkPixbuf.ml" 197 9307 9334 "gdkPixbuf.ml" 197 9307 9342
+type(
+  float
+)
+"gdkPixbuf.ml" 197 9307 9343 "gdkPixbuf.ml" 197 9307 9345
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"gdkPixbuf.ml" 197 9307 9346 "gdkPixbuf.ml" 197 9307 9349
+type(
+  float
+)
+ident(
+  int_ref ofs "gdkPixbuf.ml" 193 9110 9149 "gdkPixbuf.ml" 193 9110 9152
+)
+"gdkPixbuf.ml" 197 9307 9333 "gdkPixbuf.ml" 197 9307 9350
+type(
+  float
+)
+"gdkPixbuf.ml" 197 9307 9351 "gdkPixbuf.ml" 197 9307 9353
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"gdkPixbuf.ml" 197 9307 9354 "gdkPixbuf.ml" 197 9307 9359
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"gdkPixbuf.ml" 197 9307 9360 "gdkPixbuf.ml" 197 9307 9364
+type(
+  int
+)
+ident(
+  int_ref ssrc "gdkPixbuf.ml" 193 9110 9130 "gdkPixbuf.ml" 193 9110 9134
+)
+"gdkPixbuf.ml" 197 9307 9354 "gdkPixbuf.ml" 197 9307 9364
+type(
+  float
+)
+"gdkPixbuf.ml" 197 9307 9333 "gdkPixbuf.ml" 197 9307 9364
+type(
+  float
+)
+"gdkPixbuf.ml" 197 9307 9328 "gdkPixbuf.ml" 197 9307 9365
+type(
+  int * float
+)
+"gdkPixbuf.ml" 198 9366 9375 "gdkPixbuf.ml" 198 9366 9377
+type(
+  int
+)
+ident(
+  def sz "gdkPixbuf.ml" 198 9366 9390 "gdkPixbuf.ml" 198 9366 9398
+)
+"gdkPixbuf.ml" 198 9366 9370 "gdkPixbuf.ml" 198 9366 9377
+type(
+  int option
+)
+"gdkPixbuf.ml" 198 9366 9384 "gdkPixbuf.ml" 198 9366 9386
+type(
+  float
+)
+ident(
+  def sc "gdkPixbuf.ml" 198 9366 9390 "gdkPixbuf.ml" 198 9366 9398
+)
+"gdkPixbuf.ml" 198 9366 9379 "gdkPixbuf.ml" 198 9366 9386
+type(
+  float option
+)
+"gdkPixbuf.ml" 198 9366 9370 "gdkPixbuf.ml" 198 9366 9386
+type(
+  int option * float option
+)
+"gdkPixbuf.ml" 198 9366 9391 "gdkPixbuf.ml" 198 9366 9393
+type(
+  int
+)
+ident(
+  int_ref sz "gdkPixbuf.ml" 198 9366 9375 "gdkPixbuf.ml" 198 9366 9377
+)
+"gdkPixbuf.ml" 198 9366 9395 "gdkPixbuf.ml" 198 9366 9397
+type(
+  float
+)
+ident(
+  int_ref sc "gdkPixbuf.ml" 198 9366 9384 "gdkPixbuf.ml" 198 9366 9386
+)
+"gdkPixbuf.ml" 198 9366 9390 "gdkPixbuf.ml" 198 9366 9398
+type(
+  int * float
+)
+"gdkPixbuf.ml" 194 9155 9157 "gdkPixbuf.ml" 198 9366 9398
+type(
+  int * float
+)
+"gdkPixbuf.ml" 205 9652 9656 "gdkPixbuf.ml" 205 9652 9661
+type(
+  dest:pixbuf ->
+  ?dest_x:int ->
+  ?dest_y:int ->
+  ?width:int ->
+  ?height:int ->
+  ?ofs_x:float ->
+  ?ofs_y:float ->
+  ?scale_x:float -> ?scale_y:float -> ?interp:interpolation -> pixbuf -> unit
+)
+ident(
+  def scale "gdkPixbuf.ml" 217 10136 10136 --
+)
+"gdkPixbuf.ml" 205 9652 9663 "gdkPixbuf.ml" 205 9652 9667
+type(
+  pixbuf
+)
+ident(
+  def dest "gdkPixbuf.ml" 205 9652 9668 "gdkPixbuf.ml" 215 10114 10134
+)
+"gdkPixbuf.ml" 205 9652 9670 "gdkPixbuf.ml" 205 9652 9676
+type(
+  int
+)
+"gdkPixbuf.ml" 205 9652 9677 "gdkPixbuf.ml" 205 9652 9678
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 205 9652 9677 "gdkPixbuf.ml" 205 9652 9678
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 205 9652 9677 "gdkPixbuf.ml" 205 9652 9678
+)
+"gdkPixbuf.ml" 205 9652 9682 "gdkPixbuf.ml" 205 9652 9688
+type(
+  int
+)
+"gdkPixbuf.ml" 205 9652 9689 "gdkPixbuf.ml" 205 9652 9690
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 205 9652 9689 "gdkPixbuf.ml" 205 9652 9690
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 205 9652 9689 "gdkPixbuf.ml" 205 9652 9690
+)
+"gdkPixbuf.ml" 205 9652 9693 "gdkPixbuf.ml" 205 9652 9698
+type(
+  int option
+)
+ident(
+  def width "gdkPixbuf.ml" 205 9652 9699 "gdkPixbuf.ml" 215 10114 10134
+)
+"gdkPixbuf.ml" 205 9652 9700 "gdkPixbuf.ml" 205 9652 9706
+type(
+  int option
+)
+ident(
+  def height "gdkPixbuf.ml" 205 9652 9707 "gdkPixbuf.ml" 215 10114 10134
+)
+"gdkPixbuf.ml" 205 9652 9709 "gdkPixbuf.ml" 205 9652 9714
+type(
+  float
+)
+"gdkPixbuf.ml" 205 9652 9715 "gdkPixbuf.ml" 205 9652 9717
+type(
+  float
+)
+type(
+  float
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 205 9652 9715 "gdkPixbuf.ml" 205 9652 9717
+)
+type(
+  float option
+)
+type(
+  float option
+)
+type(
+  float
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 205 9652 9715 "gdkPixbuf.ml" 205 9652 9717
+)
+"gdkPixbuf.ml" 205 9652 9721 "gdkPixbuf.ml" 205 9652 9726
+type(
+  float
+)
+"gdkPixbuf.ml" 205 9652 9727 "gdkPixbuf.ml" 205 9652 9729
+type(
+  float
+)
+type(
+  float
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 205 9652 9727 "gdkPixbuf.ml" 205 9652 9729
+)
+type(
+  float option
+)
+type(
+  float option
+)
+type(
+  float
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 205 9652 9727 "gdkPixbuf.ml" 205 9652 9729
+)
+"gdkPixbuf.ml" 206 9731 9736 "gdkPixbuf.ml" 206 9731 9743
+type(
+  float option
+)
+ident(
+  def scale_x "gdkPixbuf.ml" 206 9731 9744 "gdkPixbuf.ml" 215 10114 10134
+)
+"gdkPixbuf.ml" 206 9731 9745 "gdkPixbuf.ml" 206 9731 9752
+type(
+  float option
+)
+ident(
+  def scale_y "gdkPixbuf.ml" 206 9731 9753 "gdkPixbuf.ml" 215 10114 10134
+)
+"gdkPixbuf.ml" 206 9731 9755 "gdkPixbuf.ml" 206 9731 9761
+type(
+  interpolation
+)
+"gdkPixbuf.ml" 206 9731 9762 "gdkPixbuf.ml" 206 9731 9771
+type(
+  interpolation
+)
+type(
+  interpolation
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 206 9731 9762 "gdkPixbuf.ml" 206 9731 9771
+)
+type(
+  interpolation option
+)
+type(
+  interpolation option
+)
+type(
+  interpolation
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 206 9731 9762 "gdkPixbuf.ml" 206 9731 9771
+)
+"gdkPixbuf.ml" 206 9731 9773 "gdkPixbuf.ml" 206 9731 9776
+type(
+  pixbuf
+)
+ident(
+  def src "gdkPixbuf.ml" 207 9779 9781 "gdkPixbuf.ml" 215 10114 10134
+)
+"gdkPixbuf.ml" 207 9779 9785 "gdkPixbuf.ml" 207 9779 9790
+type(
+  int
+)
+"gdkPixbuf.ml" 207 9779 9792 "gdkPixbuf.ml" 207 9779 9799
+type(
+  float
+)
+"gdkPixbuf.ml" 207 9779 9785 "gdkPixbuf.ml" 207 9779 9799
+type(
+  int * float
+)
+"gdkPixbuf.ml" 208 9802 9806 "gdkPixbuf.ml" 208 9802 9814
+type(
+  int option ->
+  float option ->
+  ssrc:int -> sdest:int -> dest:int -> ofs:float -> int * float
+)
+ident(
+  int_ref get_size "gdkPixbuf.ml" 193 9110 9114 "gdkPixbuf.ml" 193 9110 9122
+)
+"gdkPixbuf.ml" 208 9802 9815 "gdkPixbuf.ml" 208 9802 9820
+type(
+  int option
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 205 9652 9693 "gdkPixbuf.ml" 205 9652 9698
+)
+"gdkPixbuf.ml" 208 9802 9821 "gdkPixbuf.ml" 208 9802 9828
+type(
+  float option
+)
+ident(
+  int_ref scale_x "gdkPixbuf.ml" 206 9731 9736 "gdkPixbuf.ml" 206 9731 9743
+)
+"gdkPixbuf.ml" 208 9802 9836 "gdkPixbuf.ml" 208 9802 9845
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 208 9802 9846 "gdkPixbuf.ml" 208 9802 9849
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 206 9731 9773 "gdkPixbuf.ml" 206 9731 9776
+)
+"gdkPixbuf.ml" 208 9802 9835 "gdkPixbuf.ml" 208 9802 9850
+type(
+  int
+)
+"gdkPixbuf.ml" 209 9851 9865 "gdkPixbuf.ml" 209 9851 9874
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 209 9851 9875 "gdkPixbuf.ml" 209 9851 9879
+type(
+  pixbuf
+)
+ident(
+  int_ref dest "gdkPixbuf.ml" 205 9652 9663 "gdkPixbuf.ml" 205 9652 9667
+)
+"gdkPixbuf.ml" 209 9851 9864 "gdkPixbuf.ml" 209 9851 9880
+type(
+  int
+)
+"gdkPixbuf.ml" 209 9851 9887 "gdkPixbuf.ml" 209 9851 9893
+type(
+  int
+)
+ident(
+  int_ref dest_x "gdkPixbuf.ml" 205 9652 9670 "gdkPixbuf.ml" 205 9652 9676
+)
+"gdkPixbuf.ml" 209 9851 9899 "gdkPixbuf.ml" 209 9851 9904
+type(
+  float
+)
+ident(
+  int_ref ofs_x "gdkPixbuf.ml" 205 9652 9709 "gdkPixbuf.ml" 205 9652 9714
+)
+"gdkPixbuf.ml" 208 9802 9806 "gdkPixbuf.ml" 209 9851 9904
+call(
+  stack
+)
+type(
+  int * float
+)
+"gdkPixbuf.ml" 210 9905 9911 "gdkPixbuf.ml" 210 9905 9917
+type(
+  int
+)
+"gdkPixbuf.ml" 210 9905 9919 "gdkPixbuf.ml" 210 9905 9926
+type(
+  float
+)
+"gdkPixbuf.ml" 210 9905 9911 "gdkPixbuf.ml" 210 9905 9926
+type(
+  int * float
+)
+"gdkPixbuf.ml" 211 9929 9933 "gdkPixbuf.ml" 211 9929 9941
+type(
+  int option ->
+  float option ->
+  ssrc:int -> sdest:int -> dest:int -> ofs:float -> int * float
+)
+ident(
+  int_ref get_size "gdkPixbuf.ml" 193 9110 9114 "gdkPixbuf.ml" 193 9110 9122
+)
+"gdkPixbuf.ml" 211 9929 9942 "gdkPixbuf.ml" 211 9929 9948
+type(
+  int option
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 205 9652 9700 "gdkPixbuf.ml" 205 9652 9706
+)
+"gdkPixbuf.ml" 211 9929 9949 "gdkPixbuf.ml" 211 9929 9956
+type(
+  float option
+)
+ident(
+  int_ref scale_y "gdkPixbuf.ml" 206 9731 9745 "gdkPixbuf.ml" 206 9731 9752
+)
+"gdkPixbuf.ml" 211 9929 9964 "gdkPixbuf.ml" 211 9929 9974
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 211 9929 9975 "gdkPixbuf.ml" 211 9929 9978
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 206 9731 9773 "gdkPixbuf.ml" 206 9731 9776
+)
+"gdkPixbuf.ml" 211 9929 9963 "gdkPixbuf.ml" 211 9929 9979
+type(
+  int
+)
+"gdkPixbuf.ml" 212 9980 9994 "gdkPixbuf.ml" 212 9980 10004
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 212 9980 10005 "gdkPixbuf.ml" 212 9980 10009
+type(
+  pixbuf
+)
+ident(
+  int_ref dest "gdkPixbuf.ml" 205 9652 9663 "gdkPixbuf.ml" 205 9652 9667
+)
+"gdkPixbuf.ml" 212 9980 9993 "gdkPixbuf.ml" 212 9980 10010
+type(
+  int
+)
+"gdkPixbuf.ml" 212 9980 10017 "gdkPixbuf.ml" 212 9980 10023
+type(
+  int
+)
+ident(
+  int_ref dest_y "gdkPixbuf.ml" 205 9652 9682 "gdkPixbuf.ml" 205 9652 9688
+)
+"gdkPixbuf.ml" 212 9980 10029 "gdkPixbuf.ml" 212 9980 10034
+type(
+  float
+)
+ident(
+  int_ref ofs_y "gdkPixbuf.ml" 205 9652 9721 "gdkPixbuf.ml" 205 9652 9726
+)
+"gdkPixbuf.ml" 211 9929 9933 "gdkPixbuf.ml" 212 9980 10034
+call(
+  stack
+)
+type(
+  int * float
+)
+"gdkPixbuf.ml" 214 10040 10042 "gdkPixbuf.ml" 214 10040 10048
+type(
+  src:pixbuf ->
+  dest:pixbuf ->
+  dest_x:int ->
+  dest_y:int ->
+  width:int ->
+  height:int ->
+  ofs_x:float ->
+  ofs_y:float ->
+  scale_x:float -> scale_y:float -> interp:interpolation -> unit
+)
+"gdkPixbuf.ml" 214 10040 10050 "gdkPixbuf.ml" 214 10040 10053
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 206 9731 9773 "gdkPixbuf.ml" 206 9731 9776
+)
+"gdkPixbuf.ml" 214 10040 10055 "gdkPixbuf.ml" 214 10040 10059
+type(
+  pixbuf
+)
+ident(
+  int_ref dest "gdkPixbuf.ml" 205 9652 9663 "gdkPixbuf.ml" 205 9652 9667
+)
+"gdkPixbuf.ml" 214 10040 10061 "gdkPixbuf.ml" 214 10040 10067
+type(
+  int
+)
+ident(
+  int_ref dest_x "gdkPixbuf.ml" 205 9652 9670 "gdkPixbuf.ml" 205 9652 9676
+)
+"gdkPixbuf.ml" 214 10040 10069 "gdkPixbuf.ml" 214 10040 10075
+type(
+  int
+)
+ident(
+  int_ref dest_y "gdkPixbuf.ml" 205 9652 9682 "gdkPixbuf.ml" 205 9652 9688
+)
+"gdkPixbuf.ml" 214 10040 10077 "gdkPixbuf.ml" 214 10040 10082
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 207 9779 9785 "gdkPixbuf.ml" 207 9779 9790
+)
+"gdkPixbuf.ml" 214 10040 10084 "gdkPixbuf.ml" 214 10040 10090
+type(
+  int
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 210 9905 9911 "gdkPixbuf.ml" 210 9905 9917
+)
+"gdkPixbuf.ml" 214 10040 10092 "gdkPixbuf.ml" 214 10040 10097
+type(
+  float
+)
+ident(
+  int_ref ofs_x "gdkPixbuf.ml" 205 9652 9709 "gdkPixbuf.ml" 205 9652 9714
+)
+"gdkPixbuf.ml" 214 10040 10099 "gdkPixbuf.ml" 214 10040 10104
+type(
+  float
+)
+ident(
+  int_ref ofs_y "gdkPixbuf.ml" 205 9652 9721 "gdkPixbuf.ml" 205 9652 9726
+)
+"gdkPixbuf.ml" 214 10040 10106 "gdkPixbuf.ml" 214 10040 10113
+type(
+  float
+)
+ident(
+  int_ref scale_x "gdkPixbuf.ml" 207 9779 9792 "gdkPixbuf.ml" 207 9779 9799
+)
+"gdkPixbuf.ml" 215 10114 10119 "gdkPixbuf.ml" 215 10114 10126
+type(
+  float
+)
+ident(
+  int_ref scale_y "gdkPixbuf.ml" 210 9905 9919 "gdkPixbuf.ml" 210 9905 9926
+)
+"gdkPixbuf.ml" 215 10114 10128 "gdkPixbuf.ml" 215 10114 10134
+type(
+  interpolation
+)
+ident(
+  int_ref interp "gdkPixbuf.ml" 206 9731 9755 "gdkPixbuf.ml" 206 9731 9761
+)
+"gdkPixbuf.ml" 214 10040 10042 "gdkPixbuf.ml" 215 10114 10134
+type(
+  unit
+)
+"gdkPixbuf.ml" 207 9779 9781 "gdkPixbuf.ml" 215 10114 10134
+type(
+  unit
+)
+"gdkPixbuf.ml" 222 10413 10417 "gdkPixbuf.ml" 222 10413 10426
+type(
+  dest:pixbuf ->
+  alpha:int ->
+  ?dest_x:int ->
+  ?dest_y:int ->
+  ?width:int ->
+  ?height:int ->
+  ?ofs_x:float ->
+  ?ofs_y:float ->
+  ?scale_x:float -> ?scale_y:float -> ?interp:interpolation -> pixbuf -> unit
+)
+ident(
+  def composite "gdkPixbuf.ml" 236 10933 10933 --
+)
+"gdkPixbuf.ml" 222 10413 10428 "gdkPixbuf.ml" 222 10413 10432
+type(
+  pixbuf
+)
+ident(
+  def dest "gdkPixbuf.ml" 222 10413 10433 "gdkPixbuf.ml" 232 10890 10917
+)
+"gdkPixbuf.ml" 222 10413 10434 "gdkPixbuf.ml" 222 10413 10439
+type(
+  int
+)
+ident(
+  def alpha "gdkPixbuf.ml" 222 10413 10440 "gdkPixbuf.ml" 232 10890 10917
+)
+"gdkPixbuf.ml" 222 10413 10442 "gdkPixbuf.ml" 222 10413 10448
+type(
+  int
+)
+"gdkPixbuf.ml" 222 10413 10449 "gdkPixbuf.ml" 222 10413 10450
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 222 10413 10449 "gdkPixbuf.ml" 222 10413 10450
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 222 10413 10449 "gdkPixbuf.ml" 222 10413 10450
+)
+"gdkPixbuf.ml" 222 10413 10454 "gdkPixbuf.ml" 222 10413 10460
+type(
+  int
+)
+"gdkPixbuf.ml" 222 10413 10461 "gdkPixbuf.ml" 222 10413 10462
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 222 10413 10461 "gdkPixbuf.ml" 222 10413 10462
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 222 10413 10461 "gdkPixbuf.ml" 222 10413 10462
+)
+"gdkPixbuf.ml" 222 10413 10465 "gdkPixbuf.ml" 222 10413 10470
+type(
+  int option
+)
+ident(
+  def width "gdkPixbuf.ml" 222 10413 10471 "gdkPixbuf.ml" 232 10890 10917
+)
+"gdkPixbuf.ml" 222 10413 10472 "gdkPixbuf.ml" 222 10413 10478
+type(
+  int option
+)
+ident(
+  def height "gdkPixbuf.ml" 223 10479 10483 "gdkPixbuf.ml" 232 10890 10917
+)
+"gdkPixbuf.ml" 223 10479 10485 "gdkPixbuf.ml" 223 10479 10490
+type(
+  float
+)
+"gdkPixbuf.ml" 223 10479 10491 "gdkPixbuf.ml" 223 10479 10493
+type(
+  float
+)
+type(
+  float
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 223 10479 10491 "gdkPixbuf.ml" 223 10479 10493
+)
+type(
+  float option
+)
+type(
+  float option
+)
+type(
+  float
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 223 10479 10491 "gdkPixbuf.ml" 223 10479 10493
+)
+"gdkPixbuf.ml" 223 10479 10497 "gdkPixbuf.ml" 223 10479 10502
+type(
+  float
+)
+"gdkPixbuf.ml" 223 10479 10503 "gdkPixbuf.ml" 223 10479 10505
+type(
+  float
+)
+type(
+  float
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 223 10479 10503 "gdkPixbuf.ml" 223 10479 10505
+)
+type(
+  float option
+)
+type(
+  float option
+)
+type(
+  float
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 223 10479 10503 "gdkPixbuf.ml" 223 10479 10505
+)
+"gdkPixbuf.ml" 223 10479 10508 "gdkPixbuf.ml" 223 10479 10515
+type(
+  float option
+)
+ident(
+  def scale_x "gdkPixbuf.ml" 223 10479 10516 "gdkPixbuf.ml" 232 10890 10917
+)
+"gdkPixbuf.ml" 223 10479 10517 "gdkPixbuf.ml" 223 10479 10524
+type(
+  float option
+)
+ident(
+  def scale_y "gdkPixbuf.ml" 223 10479 10525 "gdkPixbuf.ml" 232 10890 10917
+)
+"gdkPixbuf.ml" 223 10479 10527 "gdkPixbuf.ml" 223 10479 10533
+type(
+  interpolation
+)
+"gdkPixbuf.ml" 223 10479 10534 "gdkPixbuf.ml" 223 10479 10543
+type(
+  interpolation
+)
+type(
+  interpolation
+)
+ident(
+  int_ref *sth* "gdkPixbuf.ml" 223 10479 10534 "gdkPixbuf.ml" 223 10479 10543
+)
+type(
+  interpolation option
+)
+type(
+  interpolation option
+)
+type(
+  interpolation
+)
+ident(
+  def *sth* "gdkPixbuf.ml" 223 10479 10534 "gdkPixbuf.ml" 223 10479 10543
+)
+"gdkPixbuf.ml" 223 10479 10545 "gdkPixbuf.ml" 223 10479 10548
+type(
+  pixbuf
+)
+ident(
+  def src "gdkPixbuf.ml" 224 10551 10553 "gdkPixbuf.ml" 232 10890 10917
+)
+"gdkPixbuf.ml" 224 10551 10557 "gdkPixbuf.ml" 224 10551 10562
+type(
+  int
+)
+"gdkPixbuf.ml" 224 10551 10564 "gdkPixbuf.ml" 224 10551 10571
+type(
+  float
+)
+"gdkPixbuf.ml" 224 10551 10557 "gdkPixbuf.ml" 224 10551 10571
+type(
+  int * float
+)
+"gdkPixbuf.ml" 225 10574 10578 "gdkPixbuf.ml" 225 10574 10586
+type(
+  int option ->
+  float option ->
+  ssrc:int -> sdest:int -> dest:int -> ofs:float -> int * float
+)
+ident(
+  int_ref get_size "gdkPixbuf.ml" 193 9110 9114 "gdkPixbuf.ml" 193 9110 9122
+)
+"gdkPixbuf.ml" 225 10574 10587 "gdkPixbuf.ml" 225 10574 10592
+type(
+  int option
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 222 10413 10465 "gdkPixbuf.ml" 222 10413 10470
+)
+"gdkPixbuf.ml" 225 10574 10593 "gdkPixbuf.ml" 225 10574 10600
+type(
+  float option
+)
+ident(
+  int_ref scale_x "gdkPixbuf.ml" 223 10479 10508 "gdkPixbuf.ml" 223 10479 10515
+)
+"gdkPixbuf.ml" 225 10574 10608 "gdkPixbuf.ml" 225 10574 10617
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 225 10574 10618 "gdkPixbuf.ml" 225 10574 10621
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 223 10479 10545 "gdkPixbuf.ml" 223 10479 10548
+)
+"gdkPixbuf.ml" 225 10574 10607 "gdkPixbuf.ml" 225 10574 10622
+type(
+  int
+)
+"gdkPixbuf.ml" 226 10623 10637 "gdkPixbuf.ml" 226 10623 10646
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 226 10623 10647 "gdkPixbuf.ml" 226 10623 10651
+type(
+  pixbuf
+)
+ident(
+  int_ref dest "gdkPixbuf.ml" 222 10413 10428 "gdkPixbuf.ml" 222 10413 10432
+)
+"gdkPixbuf.ml" 226 10623 10636 "gdkPixbuf.ml" 226 10623 10652
+type(
+  int
+)
+"gdkPixbuf.ml" 226 10623 10659 "gdkPixbuf.ml" 226 10623 10665
+type(
+  int
+)
+ident(
+  int_ref dest_x "gdkPixbuf.ml" 222 10413 10442 "gdkPixbuf.ml" 222 10413 10448
+)
+"gdkPixbuf.ml" 226 10623 10671 "gdkPixbuf.ml" 226 10623 10676
+type(
+  float
+)
+ident(
+  int_ref ofs_x "gdkPixbuf.ml" 223 10479 10485 "gdkPixbuf.ml" 223 10479 10490
+)
+"gdkPixbuf.ml" 225 10574 10578 "gdkPixbuf.ml" 226 10623 10676
+call(
+  stack
+)
+type(
+  int * float
+)
+"gdkPixbuf.ml" 227 10677 10683 "gdkPixbuf.ml" 227 10677 10689
+type(
+  int
+)
+"gdkPixbuf.ml" 227 10677 10691 "gdkPixbuf.ml" 227 10677 10698
+type(
+  float
+)
+"gdkPixbuf.ml" 227 10677 10683 "gdkPixbuf.ml" 227 10677 10698
+type(
+  int * float
+)
+"gdkPixbuf.ml" 228 10701 10705 "gdkPixbuf.ml" 228 10701 10713
+type(
+  int option ->
+  float option ->
+  ssrc:int -> sdest:int -> dest:int -> ofs:float -> int * float
+)
+ident(
+  int_ref get_size "gdkPixbuf.ml" 193 9110 9114 "gdkPixbuf.ml" 193 9110 9122
+)
+"gdkPixbuf.ml" 228 10701 10714 "gdkPixbuf.ml" 228 10701 10720
+type(
+  int option
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 222 10413 10472 "gdkPixbuf.ml" 222 10413 10478
+)
+"gdkPixbuf.ml" 228 10701 10721 "gdkPixbuf.ml" 228 10701 10728
+type(
+  float option
+)
+ident(
+  int_ref scale_y "gdkPixbuf.ml" 223 10479 10517 "gdkPixbuf.ml" 223 10479 10524
+)
+"gdkPixbuf.ml" 228 10701 10736 "gdkPixbuf.ml" 228 10701 10746
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 228 10701 10747 "gdkPixbuf.ml" 228 10701 10750
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 223 10479 10545 "gdkPixbuf.ml" 223 10479 10548
+)
+"gdkPixbuf.ml" 228 10701 10735 "gdkPixbuf.ml" 228 10701 10751
+type(
+  int
+)
+"gdkPixbuf.ml" 229 10752 10766 "gdkPixbuf.ml" 229 10752 10776
+type(
+  pixbuf -> int
+)
+"gdkPixbuf.ml" 229 10752 10777 "gdkPixbuf.ml" 229 10752 10781
+type(
+  pixbuf
+)
+ident(
+  int_ref dest "gdkPixbuf.ml" 222 10413 10428 "gdkPixbuf.ml" 222 10413 10432
+)
+"gdkPixbuf.ml" 229 10752 10765 "gdkPixbuf.ml" 229 10752 10782
+type(
+  int
+)
+"gdkPixbuf.ml" 229 10752 10789 "gdkPixbuf.ml" 229 10752 10795
+type(
+  int
+)
+ident(
+  int_ref dest_y "gdkPixbuf.ml" 222 10413 10454 "gdkPixbuf.ml" 222 10413 10460
+)
+"gdkPixbuf.ml" 229 10752 10801 "gdkPixbuf.ml" 229 10752 10806
+type(
+  float
+)
+ident(
+  int_ref ofs_y "gdkPixbuf.ml" 223 10479 10497 "gdkPixbuf.ml" 223 10479 10502
+)
+"gdkPixbuf.ml" 228 10701 10705 "gdkPixbuf.ml" 229 10752 10806
+call(
+  stack
+)
+type(
+  int * float
+)
+"gdkPixbuf.ml" 231 10812 10814 "gdkPixbuf.ml" 231 10812 10824
+type(
+  src:pixbuf ->
+  dest:pixbuf ->
+  dest_x:int ->
+  dest_y:int ->
+  width:int ->
+  height:int ->
+  ofs_x:float ->
+  ofs_y:float ->
+  scale_x:float -> scale_y:float -> interp:interpolation -> alpha:int -> unit
+)
+"gdkPixbuf.ml" 231 10812 10826 "gdkPixbuf.ml" 231 10812 10829
+type(
+  pixbuf
+)
+ident(
+  int_ref src "gdkPixbuf.ml" 223 10479 10545 "gdkPixbuf.ml" 223 10479 10548
+)
+"gdkPixbuf.ml" 231 10812 10831 "gdkPixbuf.ml" 231 10812 10835
+type(
+  pixbuf
+)
+ident(
+  int_ref dest "gdkPixbuf.ml" 222 10413 10428 "gdkPixbuf.ml" 222 10413 10432
+)
+"gdkPixbuf.ml" 231 10812 10837 "gdkPixbuf.ml" 231 10812 10843
+type(
+  int
+)
+ident(
+  int_ref dest_x "gdkPixbuf.ml" 222 10413 10442 "gdkPixbuf.ml" 222 10413 10448
+)
+"gdkPixbuf.ml" 231 10812 10845 "gdkPixbuf.ml" 231 10812 10851
+type(
+  int
+)
+ident(
+  int_ref dest_y "gdkPixbuf.ml" 222 10413 10454 "gdkPixbuf.ml" 222 10413 10460
+)
+"gdkPixbuf.ml" 231 10812 10853 "gdkPixbuf.ml" 231 10812 10858
+type(
+  int
+)
+ident(
+  int_ref width "gdkPixbuf.ml" 224 10551 10557 "gdkPixbuf.ml" 224 10551 10562
+)
+"gdkPixbuf.ml" 231 10812 10860 "gdkPixbuf.ml" 231 10812 10866
+type(
+  int
+)
+ident(
+  int_ref height "gdkPixbuf.ml" 227 10677 10683 "gdkPixbuf.ml" 227 10677 10689
+)
+"gdkPixbuf.ml" 231 10812 10868 "gdkPixbuf.ml" 231 10812 10873
+type(
+  float
+)
+ident(
+  int_ref ofs_x "gdkPixbuf.ml" 223 10479 10485 "gdkPixbuf.ml" 223 10479 10490
+)
+"gdkPixbuf.ml" 231 10812 10875 "gdkPixbuf.ml" 231 10812 10880
+type(
+  float
+)
+ident(
+  int_ref ofs_y "gdkPixbuf.ml" 223 10479 10497 "gdkPixbuf.ml" 223 10479 10502
+)
+"gdkPixbuf.ml" 231 10812 10882 "gdkPixbuf.ml" 231 10812 10889
+type(
+  float
+)
+ident(
+  int_ref scale_x "gdkPixbuf.ml" 224 10551 10564 "gdkPixbuf.ml" 224 10551 10571
+)
+"gdkPixbuf.ml" 232 10890 10895 "gdkPixbuf.ml" 232 10890 10902
+type(
+  float
+)
+ident(
+  int_ref scale_y "gdkPixbuf.ml" 227 10677 10691 "gdkPixbuf.ml" 227 10677 10698
+)
+"gdkPixbuf.ml" 232 10890 10904 "gdkPixbuf.ml" 232 10890 10910
+type(
+  interpolation
+)
+ident(
+  int_ref interp "gdkPixbuf.ml" 223 10479 10527 "gdkPixbuf.ml" 223 10479 10533
+)
+"gdkPixbuf.ml" 232 10890 10912 "gdkPixbuf.ml" 232 10890 10917
+type(
+  int
+)
+ident(
+  int_ref alpha "gdkPixbuf.ml" 222 10413 10434 "gdkPixbuf.ml" 222 10413 10439
+)
+"gdkPixbuf.ml" 231 10812 10814 "gdkPixbuf.ml" 232 10890 10917
+type(
+  unit
+)
+"gdkPixbuf.ml" 224 10551 10553 "gdkPixbuf.ml" 232 10890 10917
+type(
+  unit
+)
+"gdkPixbuf.ml" 243 11214 11218 "gdkPixbuf.ml" 243 11214 11232
+type(
+  pixbuf -> typ:string -> ?options:(string * string) list -> Buffer.t -> unit
+)
+ident(
+  def save_to_buffer "gdkPixbuf.ml" 244 11259 11321 --
+)
+"gdkPixbuf.ml" 243 11214 11233 "gdkPixbuf.ml" 243 11214 11235
+type(
+  pixbuf
+)
+ident(
+  def pb "gdkPixbuf.ml" 243 11214 11236 "gdkPixbuf.ml" 244 11259 11321
+)
+"gdkPixbuf.ml" 243 11214 11237 "gdkPixbuf.ml" 243 11214 11240
+type(
+  string
+)
+ident(
+  def typ "gdkPixbuf.ml" 243 11214 11241 "gdkPixbuf.ml" 244 11259 11321
+)
+"gdkPixbuf.ml" 243 11214 11242 "gdkPixbuf.ml" 243 11214 11249
+type(
+  (string * string) list option
+)
+ident(
+  def options "gdkPixbuf.ml" 243 11214 11250 "gdkPixbuf.ml" 244 11259 11321
+)
+"gdkPixbuf.ml" 243 11214 11250 "gdkPixbuf.ml" 243 11214 11256
+type(
+  Buffer.t
+)
+ident(
+  def buffer "gdkPixbuf.ml" 244 11259 11261 "gdkPixbuf.ml" 244 11259 11321
+)
+"gdkPixbuf.ml" 244 11259 11261 "gdkPixbuf.ml" 244 11259 11277
+type(
+  pixbuf ->
+  typ:string -> ?options:(string * string) list -> (string -> unit) -> unit
+)
+"gdkPixbuf.ml" 244 11259 11278 "gdkPixbuf.ml" 244 11259 11280
+type(
+  pixbuf
+)
+ident(
+  int_ref pb "gdkPixbuf.ml" 243 11214 11233 "gdkPixbuf.ml" 243 11214 11235
+)
+"gdkPixbuf.ml" 244 11259 11282 "gdkPixbuf.ml" 244 11259 11285
+type(
+  string
+)
+ident(
+  int_ref typ "gdkPixbuf.ml" 243 11214 11237 "gdkPixbuf.ml" 243 11214 11240
+)
+"gdkPixbuf.ml" 244 11259 11287 "gdkPixbuf.ml" 244 11259 11294
+type(
+  (string * string) list option
+)
+ident(
+  int_ref options "gdkPixbuf.ml" 243 11214 11242 "gdkPixbuf.ml" 243 11214 11249
+)
+"gdkPixbuf.ml" 244 11259 11296 "gdkPixbuf.ml" 244 11259 11313
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"gdkPixbuf.ml" 244 11259 11314 "gdkPixbuf.ml" 244 11259 11320
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "gdkPixbuf.ml" 243 11214 11250 "gdkPixbuf.ml" 243 11214 11256
+)
+"gdkPixbuf.ml" 244 11259 11295 "gdkPixbuf.ml" 244 11259 11321
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"gdkPixbuf.ml" 244 11259 11261 "gdkPixbuf.ml" 244 11259 11321
+type(
+  unit
+)

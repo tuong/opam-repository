@@ -1,0 +1,4 @@
+deps=ocamlbuild
+tarball=react-0.9.2~oasis1.tar.gz
+is_library=true
+is_program=false

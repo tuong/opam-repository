@@ -1,0 +1,4 @@
+deps=unix,ocamlbuild
+tarball=ANSITerminal-0.6.1.tar.gz
+is_library=true
+is_program=false

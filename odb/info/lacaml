@@ -1,0 +1,4 @@
+deps=ocamlbuild,bigarray
+tarball=lacaml-6.0.4.tar.gz
+is_library=true
+is_program=false

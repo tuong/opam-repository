@@ -1,0 +1,9 @@
+# OASIS_START
+# DO NOT EDIT (digest: 2237ba15be64f3da4f0b4b554e23d59a)
+# Library getopt
+# Executable sample
+"sample.byte": use_getopt
+"sample.byte": pkg_unix
+<*.ml{,i}>: use_getopt
+<*.ml{,i}>: pkg_unix
+# OASIS_STOP

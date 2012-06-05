@@ -1,0 +1,6212 @@
+"gToolbox.ml" 36 1894 1902 "gToolbox.ml" 36 1894 1912
+type(
+  GMenu.menu -> entries:menu_entry list -> unit
+)
+ident(
+  def build_menu "gToolbox.ml" 36 1894 1894 --
+)
+"gToolbox.ml" 36 1894 1913 "gToolbox.ml" 36 1894 1917
+type(
+  GMenu.menu
+)
+ident(
+  def menu "gToolbox.ml" 36 1894 1918 "gToolbox.ml" 57 2644 2651
+)
+"gToolbox.ml" 36 1894 1920 "gToolbox.ml" 36 1894 1927
+type(
+  menu_entry list
+)
+ident(
+  def entries "gToolbox.ml" 37 1949 1951 "gToolbox.ml" 57 2644 2651
+)
+"gToolbox.ml" 37 1949 1955 "gToolbox.ml" 37 1949 1956
+type(
+  GMenu.menu GMenu.factory
+)
+"gToolbox.ml" 37 1949 1959 "gToolbox.ml" 37 1949 1976
+type(
+  ?accel_group:Gtk.accel_group ->
+  ?accel_path:string ->
+  ?accel_modi:Gdk.Tags.modifier list ->
+  ?accel_flags:Gtk.Tags.accel_flag list ->
+  GMenu.menu -> GMenu.menu GMenu.factory
+)
+"gToolbox.ml" 37 1949 1977 "gToolbox.ml" 37 1949 1981
+type(
+  GMenu.menu
+)
+ident(
+  int_ref menu "gToolbox.ml" 36 1894 1913 "gToolbox.ml" 36 1894 1917
+)
+"gToolbox.ml" 37 1949 1959 "gToolbox.ml" 37 1949 1981
+call(
+  stack
+)
+type(
+  GMenu.menu GMenu.factory
+)
+"gToolbox.ml" 38 1985 1987 "gToolbox.ml" 38 1985 1996
+type(
+  f:(menu_entry -> unit) -> menu_entry list -> unit
+)
+ident(
+  ext_ref StdLabels.List.iter
+)
+"gToolbox.ml" 38 1985 1997 "gToolbox.ml" 38 1985 2004
+type(
+  menu_entry list
+)
+ident(
+  int_ref entries "gToolbox.ml" 36 1894 1920 "gToolbox.ml" 36 1894 1927
+)
+"gToolbox.ml" 40 2028 2038 "gToolbox.ml" 40 2028 2043
+type(
+  string
+)
+ident(
+  def label "gToolbox.ml" 41 2058 2066 "gToolbox.ml" 41 2058 2101
+)
+"gToolbox.ml" 40 2028 2045 "gToolbox.ml" 40 2028 2053
+type(
+  unit -> unit
+)
+ident(
+  def callback "gToolbox.ml" 41 2058 2066 "gToolbox.ml" 41 2058 2101
+)
+"gToolbox.ml" 40 2028 2037 "gToolbox.ml" 40 2028 2054
+type(
+  string * (unit -> unit)
+)
+"gToolbox.ml" 40 2028 2034 "gToolbox.ml" 40 2028 2054
+type(
+  menu_entry
+)
+"gToolbox.ml" 41 2058 2066 "gToolbox.ml" 41 2058 2072
+type(
+  GMenu.menu_item -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gToolbox.ml" 41 2058 2074 "gToolbox.ml" 41 2058 2075
+type(
+  GMenu.menu GMenu.factory
+)
+ident(
+  int_ref f "gToolbox.ml" 37 1949 1955 "gToolbox.ml" 37 1949 1956
+)
+"gToolbox.ml" 41 2058 2074 "gToolbox.ml" 41 2058 2084
+call(
+  stack
+)
+type(
+  ?key:Gdk.keysym ->
+  ?callback:(unit -> unit) ->
+  ?submenu:GMenu.menu -> string -> GMenu.menu_item
+)
+"gToolbox.ml" 41 2058 2085 "gToolbox.ml" 41 2058 2090
+type(
+  string
+)
+ident(
+  int_ref label "gToolbox.ml" 40 2028 2038 "gToolbox.ml" 40 2028 2043
+)
+"gToolbox.ml" 41 2058 2092 "gToolbox.ml" 41 2058 2100
+type(
+  unit -> unit
+)
+ident(
+  int_ref callback "gToolbox.ml" 40 2028 2045 "gToolbox.ml" 40 2028 2053
+)
+"gToolbox.ml" 41 2058 2073 "gToolbox.ml" 41 2058 2101
+type(
+  GMenu.menu_item
+)
+"gToolbox.ml" 41 2058 2066 "gToolbox.ml" 41 2058 2101
+type(
+  unit
+)
+"gToolbox.ml" 42 2102 2112 "gToolbox.ml" 42 2102 2117
+type(
+  string
+)
+ident(
+  def label "gToolbox.ml" 43 2140 2148 "gToolbox.ml" 43 2140 2197
+)
+"gToolbox.ml" 42 2102 2119 "gToolbox.ml" 42 2102 2125
+type(
+  bool
+)
+ident(
+  def active "gToolbox.ml" 43 2140 2148 "gToolbox.ml" 43 2140 2197
+)
+"gToolbox.ml" 42 2102 2127 "gToolbox.ml" 42 2102 2135
+type(
+  bool -> unit
+)
+ident(
+  def callback "gToolbox.ml" 43 2140 2148 "gToolbox.ml" 43 2140 2197
+)
+"gToolbox.ml" 42 2102 2111 "gToolbox.ml" 42 2102 2136
+type(
+  string * bool * (bool -> unit)
+)
+"gToolbox.ml" 42 2102 2108 "gToolbox.ml" 42 2102 2136
+type(
+  menu_entry
+)
+"gToolbox.ml" 43 2140 2148 "gToolbox.ml" 43 2140 2154
+type(
+  GMenu.check_menu_item -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gToolbox.ml" 43 2140 2156 "gToolbox.ml" 43 2140 2157
+type(
+  GMenu.menu GMenu.factory
+)
+ident(
+  int_ref f "gToolbox.ml" 37 1949 1955 "gToolbox.ml" 37 1949 1956
+)
+"gToolbox.ml" 43 2140 2156 "gToolbox.ml" 43 2140 2172
+call(
+  stack
+)
+type(
+  ?active:bool ->
+  ?key:Gdk.keysym ->
+  ?callback:(bool -> unit) -> string -> GMenu.check_menu_item
+)
+"gToolbox.ml" 43 2140 2173 "gToolbox.ml" 43 2140 2178
+type(
+  string
+)
+ident(
+  int_ref label "gToolbox.ml" 42 2102 2112 "gToolbox.ml" 42 2102 2117
+)
+"gToolbox.ml" 43 2140 2180 "gToolbox.ml" 43 2140 2188
+type(
+  bool -> unit
+)
+ident(
+  int_ref callback "gToolbox.ml" 42 2102 2127 "gToolbox.ml" 42 2102 2135
+)
+"gToolbox.ml" 43 2140 2190 "gToolbox.ml" 43 2140 2196
+type(
+  bool
+)
+ident(
+  int_ref active "gToolbox.ml" 42 2102 2119 "gToolbox.ml" 42 2102 2125
+)
+"gToolbox.ml" 43 2140 2155 "gToolbox.ml" 43 2140 2197
+type(
+  GMenu.check_menu_item
+)
+"gToolbox.ml" 43 2140 2148 "gToolbox.ml" 43 2140 2197
+type(
+  unit
+)
+"gToolbox.ml" 44 2198 2209 "gToolbox.ml" 44 2198 2214
+type(
+  string
+)
+ident(
+  def label "gToolbox.ml" 45 2243 2251 "gToolbox.ml" 49 2402 2471
+)
+"gToolbox.ml" 44 2198 2216 "gToolbox.ml" 44 2198 2222
+type(
+  bool
+)
+ident(
+  def active "gToolbox.ml" 45 2243 2251 "gToolbox.ml" 49 2402 2471
+)
+"gToolbox.ml" 44 2198 2224 "gToolbox.ml" 44 2198 2232
+type(
+  bool -> unit
+)
+ident(
+  def callback "gToolbox.ml" 45 2243 2251 "gToolbox.ml" 49 2402 2471
+)
+"gToolbox.ml" 44 2198 2208 "gToolbox.ml" 44 2198 2233
+type(
+  string * bool * (bool -> unit)
+)
+"gToolbox.ml" 44 2198 2237 "gToolbox.ml" 44 2198 2238
+type(
+  (string * bool * (bool -> unit)) list
+)
+ident(
+  def l "gToolbox.ml" 45 2243 2251 "gToolbox.ml" 49 2402 2471
+)
+"gToolbox.ml" 44 2198 2207 "gToolbox.ml" 44 2198 2239
+type(
+  (string * bool * (bool -> unit)) list
+)
+"gToolbox.ml" 44 2198 2204 "gToolbox.ml" 44 2198 2239
+type(
+  menu_entry
+)
+"gToolbox.ml" 45 2243 2255 "gToolbox.ml" 45 2243 2256
+type(
+  GMenu.radio_menu_item
+)
+"gToolbox.ml" 45 2243 2259 "gToolbox.ml" 45 2243 2260
+type(
+  GMenu.menu GMenu.factory
+)
+ident(
+  int_ref f "gToolbox.ml" 37 1949 1955 "gToolbox.ml" 37 1949 1956
+)
+"gToolbox.ml" 45 2243 2259 "gToolbox.ml" 45 2243 2275
+call(
+  stack
+)
+type(
+  ?group:Gtk.radio_menu_item Gtk.group ->
+  ?active:bool ->
+  ?key:Gdk.keysym ->
+  ?callback:(bool -> unit) -> string -> GMenu.radio_menu_item
+)
+"gToolbox.ml" 45 2243 2276 "gToolbox.ml" 45 2243 2281
+type(
+  string
+)
+ident(
+  int_ref label "gToolbox.ml" 44 2198 2209 "gToolbox.ml" 44 2198 2214
+)
+"gToolbox.ml" 45 2243 2283 "gToolbox.ml" 45 2243 2289
+type(
+  bool
+)
+ident(
+  int_ref active "gToolbox.ml" 44 2198 2216 "gToolbox.ml" 44 2198 2222
+)
+"gToolbox.ml" 45 2243 2291 "gToolbox.ml" 45 2243 2299
+type(
+  bool -> unit
+)
+ident(
+  int_ref callback "gToolbox.ml" 44 2198 2224 "gToolbox.ml" 44 2198 2232
+)
+"gToolbox.ml" 45 2243 2259 "gToolbox.ml" 45 2243 2299
+type(
+  GMenu.radio_menu_item
+)
+"gToolbox.ml" 46 2303 2315 "gToolbox.ml" 46 2303 2320
+type(
+  Gtk.radio_menu_item Gtk.group
+)
+"gToolbox.ml" 46 2303 2323 "gToolbox.ml" 46 2303 2324
+type(
+  GMenu.radio_menu_item
+)
+ident(
+  int_ref r "gToolbox.ml" 45 2243 2255 "gToolbox.ml" 45 2243 2256
+)
+"gToolbox.ml" 46 2303 2323 "gToolbox.ml" 46 2303 2330
+call(
+  stack
+)
+type(
+  Gtk.radio_menu_item Gtk.group
+)
+"gToolbox.ml" 47 2334 2342 "gToolbox.ml" 47 2334 2351
+type(
+  f:(string * bool * (bool -> unit) -> unit) ->
+  (string * bool * (bool -> unit)) list -> unit
+)
+ident(
+  ext_ref StdLabels.List.iter
+)
+"gToolbox.ml" 47 2334 2352 "gToolbox.ml" 47 2334 2353
+type(
+  (string * bool * (bool -> unit)) list
+)
+ident(
+  int_ref l "gToolbox.ml" 44 2198 2237 "gToolbox.ml" 44 2198 2238
+)
+"gToolbox.ml" 48 2358 2374 "gToolbox.ml" 48 2358 2379
+type(
+  string
+)
+ident(
+  def label "gToolbox.ml" 49 2402 2414 "gToolbox.ml" 49 2402 2470
+)
+"gToolbox.ml" 48 2358 2381 "gToolbox.ml" 48 2358 2387
+type(
+  bool
+)
+ident(
+  def active "gToolbox.ml" 49 2402 2414 "gToolbox.ml" 49 2402 2470
+)
+"gToolbox.ml" 48 2358 2389 "gToolbox.ml" 48 2358 2397
+type(
+  bool -> unit
+)
+ident(
+  def callback "gToolbox.ml" 49 2402 2414 "gToolbox.ml" 49 2402 2470
+)
+"gToolbox.ml" 48 2358 2373 "gToolbox.ml" 48 2358 2398
+type(
+  string * bool * (bool -> unit)
+)
+"gToolbox.ml" 49 2402 2414 "gToolbox.ml" 49 2402 2420
+type(
+  GMenu.radio_menu_item -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gToolbox.ml" 49 2402 2422 "gToolbox.ml" 49 2402 2423
+type(
+  GMenu.menu GMenu.factory
+)
+ident(
+  int_ref f "gToolbox.ml" 37 1949 1955 "gToolbox.ml" 37 1949 1956
+)
+"gToolbox.ml" 49 2402 2422 "gToolbox.ml" 49 2402 2438
+call(
+  stack
+)
+type(
+  ?group:Gtk.radio_menu_item Gtk.group ->
+  ?active:bool ->
+  ?key:Gdk.keysym ->
+  ?callback:(bool -> unit) -> string -> GMenu.radio_menu_item
+)
+"gToolbox.ml" 49 2402 2439 "gToolbox.ml" 49 2402 2444
+type(
+  string
+)
+ident(
+  int_ref label "gToolbox.ml" 48 2358 2374 "gToolbox.ml" 48 2358 2379
+)
+"gToolbox.ml" 49 2402 2446 "gToolbox.ml" 49 2402 2452
+type(
+  bool
+)
+ident(
+  int_ref active "gToolbox.ml" 48 2358 2381 "gToolbox.ml" 48 2358 2387
+)
+"gToolbox.ml" 49 2402 2454 "gToolbox.ml" 49 2402 2462
+type(
+  bool -> unit
+)
+ident(
+  int_ref callback "gToolbox.ml" 48 2358 2389 "gToolbox.ml" 48 2358 2397
+)
+"gToolbox.ml" 49 2402 2464 "gToolbox.ml" 49 2402 2469
+type(
+  Gtk.radio_menu_item Gtk.group
+)
+ident(
+  int_ref group "gToolbox.ml" 46 2303 2315 "gToolbox.ml" 46 2303 2320
+)
+"gToolbox.ml" 49 2402 2421 "gToolbox.ml" 49 2402 2470
+type(
+  GMenu.radio_menu_item
+)
+"gToolbox.ml" 49 2402 2414 "gToolbox.ml" 49 2402 2470
+type(
+  unit
+)
+"gToolbox.ml" 48 2358 2368 "gToolbox.ml" 49 2402 2471
+type(
+  string * bool * (bool -> unit) -> unit
+)
+"gToolbox.ml" 47 2334 2342 "gToolbox.ml" 49 2402 2471
+call(
+  tail
+)
+type(
+  unit
+)
+"gToolbox.ml" 46 2303 2311 "gToolbox.ml" 49 2402 2471
+type(
+  unit
+)
+"gToolbox.ml" 45 2243 2251 "gToolbox.ml" 49 2402 2471
+type(
+  unit
+)
+"gToolbox.ml" 50 2472 2481 "gToolbox.ml" 50 2472 2483
+type(
+  (string * bool * (bool -> unit)) list
+)
+"gToolbox.ml" 50 2472 2478 "gToolbox.ml" 50 2472 2483
+type(
+  menu_entry
+)
+"gToolbox.ml" 51 2487 2495 "gToolbox.ml" 51 2487 2497
+type(
+  unit
+)
+"gToolbox.ml" 52 2498 2508 "gToolbox.ml" 52 2498 2513
+type(
+  string
+)
+ident(
+  def label "gToolbox.ml" 53 2527 2535 "gToolbox.ml" 54 2566 2595
+)
+"gToolbox.ml" 52 2498 2515 "gToolbox.ml" 52 2498 2522
+type(
+  menu_entry list
+)
+ident(
+  def entries "gToolbox.ml" 53 2527 2535 "gToolbox.ml" 54 2566 2595
+)
+"gToolbox.ml" 52 2498 2507 "gToolbox.ml" 52 2498 2523
+type(
+  string * menu_entry list
+)
+"gToolbox.ml" 52 2498 2504 "gToolbox.ml" 52 2498 2523
+type(
+  menu_entry
+)
+"gToolbox.ml" 53 2527 2539 "gToolbox.ml" 53 2527 2540
+type(
+  GMenu.menu
+)
+"gToolbox.ml" 53 2527 2543 "gToolbox.ml" 53 2527 2544
+type(
+  GMenu.menu GMenu.factory
+)
+ident(
+  int_ref f "gToolbox.ml" 37 1949 1955 "gToolbox.ml" 37 1949 1956
+)
+"gToolbox.ml" 53 2527 2543 "gToolbox.ml" 53 2527 2556
+call(
+  stack
+)
+type(
+  ?key:Gdk.keysym -> string -> GMenu.menu
+)
+"gToolbox.ml" 53 2527 2557 "gToolbox.ml" 53 2527 2562
+type(
+  string
+)
+ident(
+  int_ref label "gToolbox.ml" 52 2498 2508 "gToolbox.ml" 52 2498 2513
+)
+"gToolbox.ml" 53 2527 2543 "gToolbox.ml" 53 2527 2562
+type(
+  GMenu.menu
+)
+"gToolbox.ml" 54 2566 2574 "gToolbox.ml" 54 2566 2584
+type(
+  GMenu.menu -> entries:menu_entry list -> unit
+)
+ident(
+  int_ref build_menu "gToolbox.ml" 36 1894 1902 "gToolbox.ml" 36 1894 1912
+)
+"gToolbox.ml" 54 2566 2585 "gToolbox.ml" 54 2566 2586
+type(
+  GMenu.menu
+)
+ident(
+  int_ref m "gToolbox.ml" 53 2527 2539 "gToolbox.ml" 53 2527 2540
+)
+"gToolbox.ml" 54 2566 2588 "gToolbox.ml" 54 2566 2595
+type(
+  menu_entry list
+)
+ident(
+  int_ref entries "gToolbox.ml" 52 2498 2515 "gToolbox.ml" 52 2498 2522
+)
+"gToolbox.ml" 54 2566 2574 "gToolbox.ml" 54 2566 2595
+call(
+  tail
+)
+type(
+  unit
+)
+"gToolbox.ml" 53 2527 2535 "gToolbox.ml" 54 2566 2595
+type(
+  unit
+)
+"gToolbox.ml" 55 2596 2602 "gToolbox.ml" 55 2596 2604
+type(
+  menu_entry
+)
+"gToolbox.ml" 56 2608 2616 "gToolbox.ml" 56 2608 2622
+type(
+  GMenu.menu_item -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gToolbox.ml" 56 2608 2624 "gToolbox.ml" 56 2608 2625
+type(
+  GMenu.menu GMenu.factory
+)
+ident(
+  int_ref f "gToolbox.ml" 37 1949 1955 "gToolbox.ml" 37 1949 1956
+)
+"gToolbox.ml" 56 2608 2624 "gToolbox.ml" 56 2608 2639
+call(
+  stack
+)
+type(
+  unit -> GMenu.menu_item
+)
+"gToolbox.ml" 56 2608 2640 "gToolbox.ml" 56 2608 2642
+type(
+  unit
+)
+"gToolbox.ml" 56 2608 2623 "gToolbox.ml" 56 2608 2643
+type(
+  GMenu.menu_item
+)
+"gToolbox.ml" 56 2608 2616 "gToolbox.ml" 56 2608 2643
+type(
+  unit
+)
+"gToolbox.ml" 39 2009 2013 "gToolbox.ml" 57 2644 2651
+type(
+  menu_entry -> unit
+)
+"gToolbox.ml" 38 1985 1987 "gToolbox.ml" 57 2644 2651
+call(
+  tail
+)
+type(
+  unit
+)
+"gToolbox.ml" 37 1949 1951 "gToolbox.ml" 57 2644 2651
+type(
+  unit
+)
+"gToolbox.ml" 59 2653 2657 "gToolbox.ml" 59 2653 2667
+type(
+  entries:menu_entry list -> button:int -> time:int32 -> unit
+)
+ident(
+  def popup_menu "gToolbox.ml" 70 2855 2855 --
+)
+"gToolbox.ml" 59 2653 2669 "gToolbox.ml" 59 2653 2676
+type(
+  menu_entry list
+)
+ident(
+  def entries "gToolbox.ml" 60 2679 2681 "gToolbox.ml" 66 2807 2837
+)
+"gToolbox.ml" 60 2679 2685 "gToolbox.ml" 60 2679 2689
+type(
+  GMenu.menu
+)
+"gToolbox.ml" 60 2679 2692 "gToolbox.ml" 60 2679 2702
+type(
+  ?accel_path:string ->
+  ?border_width:int ->
+  ?packing:(GMenu.menu -> unit) -> ?show:bool -> unit -> GMenu.menu
+)
+ident(
+  ext_ref GMenu.menu
+)
+"gToolbox.ml" 60 2679 2703 "gToolbox.ml" 60 2679 2705
+type(
+  unit
+)
+"gToolbox.ml" 60 2679 2692 "gToolbox.ml" 60 2679 2705
+call(
+  stack
+)
+type(
+  GMenu.menu
+)
+"gToolbox.ml" 61 2709 2711 "gToolbox.ml" 61 2709 2721
+type(
+  GMenu.menu -> entries:menu_entry list -> unit
+)
+ident(
+  int_ref build_menu "gToolbox.ml" 36 1894 1902 "gToolbox.ml" 36 1894 1912
+)
+"gToolbox.ml" 61 2709 2722 "gToolbox.ml" 61 2709 2726
+type(
+  GMenu.menu
+)
+ident(
+  int_ref menu "gToolbox.ml" 60 2679 2685 "gToolbox.ml" 60 2679 2689
+)
+"gToolbox.ml" 61 2709 2728 "gToolbox.ml" 61 2709 2735
+type(
+  menu_entry list
+)
+ident(
+  int_ref entries "gToolbox.ml" 59 2653 2669 "gToolbox.ml" 59 2653 2676
+)
+"gToolbox.ml" 61 2709 2711 "gToolbox.ml" 61 2709 2735
+call(
+  stack
+)
+type(
+  unit
+)
+"gToolbox.ml" 62 2737 2744 "gToolbox.ml" 62 2737 2750
+type(
+  int
+)
+ident(
+  def button "gToolbox.ml" 62 2737 2751 "gToolbox.ml" 66 2807 2837
+)
+"gToolbox.ml" 62 2737 2752 "gToolbox.ml" 62 2737 2756
+type(
+  int32
+)
+ident(
+  def time "gToolbox.ml" 63 2761 2765 "gToolbox.ml" 66 2807 2837
+)
+"gToolbox.ml" 63 2761 2768 "gToolbox.ml" 63 2761 2775
+type(
+  menu_entry list
+)
+ident(
+  int_ref entries "gToolbox.ml" 59 2653 2669 "gToolbox.ml" 59 2653 2676
+)
+"gToolbox.ml" 63 2761 2776 "gToolbox.ml" 63 2761 2777
+type(
+  menu_entry list -> menu_entry list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gToolbox.ml" 63 2761 2778 "gToolbox.ml" 63 2761 2780
+type(
+  menu_entry list
+)
+"gToolbox.ml" 63 2761 2768 "gToolbox.ml" 63 2761 2780
+type(
+  bool
+)
+"gToolbox.ml" 64 2787 2793 "gToolbox.ml" 64 2787 2795
+type(
+  unit
+)
+"gToolbox.ml" 66 2807 2813 "gToolbox.ml" 66 2807 2817
+type(
+  GMenu.menu
+)
+ident(
+  int_ref menu "gToolbox.ml" 60 2679 2685 "gToolbox.ml" 60 2679 2689
+)
+"gToolbox.ml" 66 2807 2813 "gToolbox.ml" 66 2807 2823
+call(
+  tail
+)
+type(
+  button:int -> time:int32 -> unit
+)
+"gToolbox.ml" 66 2807 2825 "gToolbox.ml" 66 2807 2831
+type(
+  int
+)
+ident(
+  int_ref button "gToolbox.ml" 62 2737 2744 "gToolbox.ml" 62 2737 2750
+)
+"gToolbox.ml" 66 2807 2833 "gToolbox.ml" 66 2807 2837
+type(
+  int32
+)
+ident(
+  int_ref time "gToolbox.ml" 62 2737 2752 "gToolbox.ml" 62 2737 2756
+)
+"gToolbox.ml" 66 2807 2813 "gToolbox.ml" 66 2807 2837
+type(
+  unit
+)
+"gToolbox.ml" 63 2761 2765 "gToolbox.ml" 66 2807 2837
+type(
+  unit
+)
+"gToolbox.ml" 62 2737 2739 "gToolbox.ml" 66 2807 2837
+type(
+  button:int -> time:int32 -> unit
+)
+"gToolbox.ml" 61 2709 2711 "gToolbox.ml" 66 2807 2837
+type(
+  button:int -> time:int32 -> unit
+)
+"gToolbox.ml" 60 2679 2681 "gToolbox.ml" 66 2807 2837
+type(
+  button:int -> time:int32 -> unit
+)
+"gToolbox.ml" 70 2855 2859 "gToolbox.ml" 70 2855 2862
+type(
+  string
+)
+ident(
+  def mOk "gToolbox.ml" 71 2870 2870 --
+)
+"gToolbox.ml" 70 2855 2865 "gToolbox.ml" 70 2855 2869
+type(
+  string
+)
+"gToolbox.ml" 71 2870 2874 "gToolbox.ml" 71 2870 2881
+type(
+  string
+)
+ident(
+  def mCancel "gToolbox.ml" 73 2894 2894 --
+)
+"gToolbox.ml" 71 2870 2884 "gToolbox.ml" 71 2870 2892
+type(
+  string
+)
+"gToolbox.ml" 73 2894 2898 "gToolbox.ml" 73 2894 2910
+type(
+  title:string ->
+  buttons:string list ->
+  ?default:int -> ?icon:< coerce : GObj.widget; .. > -> string -> int
+)
+ident(
+  def question_box "gToolbox.ml" 106 3985 3985 --
+)
+"gToolbox.ml" 73 2894 2912 "gToolbox.ml" 73 2894 2917
+type(
+  string
+)
+ident(
+  def title "gToolbox.ml" 73 2894 2919 "gToolbox.ml" 103 3970 3982
+)
+"gToolbox.ml" 73 2894 2920 "gToolbox.ml" 73 2894 2927
+type(
+  string list
+)
+ident(
+  def buttons "gToolbox.ml" 73 2894 2928 "gToolbox.ml" 103 3970 3982
+)
+"gToolbox.ml" 73 2894 2930 "gToolbox.ml" 73 2894 2937
+type(
+  int
+)
+"gToolbox.ml" 73 2894 2938 "gToolbox.ml" 73 2894 2939
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gToolbox.ml" 73 2894 2938 "gToolbox.ml" 73 2894 2939
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gToolbox.ml" 73 2894 2938 "gToolbox.ml" 73 2894 2939
+)
+"gToolbox.ml" 73 2894 2942 "gToolbox.ml" 73 2894 2946
+type(
+  (< coerce : GObj.widget; .. > as 'a) option
+)
+ident(
+  def icon "gToolbox.ml" 73 2894 2947 "gToolbox.ml" 103 3970 3982
+)
+"gToolbox.ml" 73 2894 2947 "gToolbox.ml" 73 2894 2954
+type(
+  string
+)
+ident(
+  def message "gToolbox.ml" 74 2957 2959 "gToolbox.ml" 103 3970 3982
+)
+"gToolbox.ml" 74 2957 2963 "gToolbox.ml" 74 2957 2972
+type(
+  int ref
+)
+"gToolbox.ml" 74 2957 2975 "gToolbox.ml" 74 2957 2978
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gToolbox.ml" 74 2957 2979 "gToolbox.ml" 74 2957 2980
+type(
+  int
+)
+"gToolbox.ml" 74 2957 2975 "gToolbox.ml" 74 2957 2980
+type(
+  int ref
+)
+"gToolbox.ml" 75 2984 2990 "gToolbox.ml" 75 2984 2996
+type(
+  _[> `DELETE_EVENT ] GWindow.dialog
+)
+"gToolbox.ml" 75 2984 2999 "gToolbox.ml" 75 2984 3013
+type(
+  ?no_separator:bool ->
+  ?parent:_#GWindow.window_skel ->
+  ?destroy_with_parent:bool ->
+  ?title:string ->
+  ?allow_grow:bool ->
+  ?allow_shrink:bool ->
+  ?decorated:bool ->
+  ?deletable:bool ->
+  ?focus_on_map:bool ->
+  ?icon:GdkPixbuf.pixbuf ->
+  ?icon_name:string ->
+  ?modal:bool ->
+  ?position:Gtk.Tags.window_position ->
+  ?resizable:bool ->
+  ?screen:Gdk.screen ->
+  ?type_hint:Gdk.Tags.window_type_hint ->
+  ?urgency_hint:bool ->
+  ?wm_name:string ->
+  ?wm_class:string ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?show:bool -> unit -> (_[> `DELETE_EVENT ] as 'b) GWindow.dialog
+)
+ident(
+  ext_ref GWindow.dialog
+)
+"gToolbox.ml" 75 2984 3021 "gToolbox.ml" 75 2984 3025
+type(
+  bool
+)
+"gToolbox.ml" 75 2984 3027 "gToolbox.ml" 75 2984 3032
+type(
+  string
+)
+ident(
+  int_ref title "gToolbox.ml" 73 2894 2912 "gToolbox.ml" 73 2894 2917
+)
+"gToolbox.ml" 75 2984 3033 "gToolbox.ml" 75 2984 3035
+type(
+  unit
+)
+"gToolbox.ml" 75 2984 2999 "gToolbox.ml" 75 2984 3035
+call(
+  stack
+)
+type(
+  'b GWindow.dialog
+)
+"gToolbox.ml" 76 3039 3045 "gToolbox.ml" 76 3039 3049
+type(
+  GPack.box
+)
+"gToolbox.ml" 76 3039 3052 "gToolbox.ml" 76 3039 3062
+type(
+  ?homogeneous:bool ->
+  ?spacing:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> GPack.box
+)
+ident(
+  ext_ref GPack.hbox
+)
+"gToolbox.ml" 76 3039 3077 "gToolbox.ml" 76 3039 3079
+type(
+  int
+)
+"gToolbox.ml" 76 3039 3089 "gToolbox.ml" 76 3039 3095
+type(
+  'b GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 75 2984 2990 "gToolbox.ml" 75 2984 2996
+)
+"gToolbox.ml" 76 3039 3089 "gToolbox.ml" 76 3039 3100
+call(
+  stack
+)
+type(
+  GPack.box
+)
+"gToolbox.ml" 76 3039 3089 "gToolbox.ml" 76 3039 3104
+call(
+  stack
+)
+type(
+  GObj.widget -> unit
+)
+"gToolbox.ml" 76 3039 3105 "gToolbox.ml" 76 3039 3107
+type(
+  unit
+)
+"gToolbox.ml" 76 3039 3052 "gToolbox.ml" 76 3039 3107
+call(
+  stack
+)
+type(
+  GPack.box
+)
+"gToolbox.ml" 77 3111 3117 "gToolbox.ml" 77 3111 3121
+type(
+  GPack.button_box
+)
+"gToolbox.ml" 77 3111 3124 "gToolbox.ml" 77 3111 3130
+type(
+  'b GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 75 2984 2990 "gToolbox.ml" 75 2984 2996
+)
+"gToolbox.ml" 77 3111 3124 "gToolbox.ml" 77 3111 3142
+call(
+  stack
+)
+type(
+  GPack.button_box
+)
+"gToolbox.ml" 78 3146 3160 "gToolbox.ml" 78 3146 3164
+type(
+  'a option
+)
+ident(
+  int_ref icon "gToolbox.ml" 73 2894 2942 "gToolbox.ml" 73 2894 2946
+)
+"gToolbox.ml" 79 3170 3174 "gToolbox.ml" 79 3170 3178
+type(
+  'a option
+)
+"gToolbox.ml" 79 3170 3182 "gToolbox.ml" 79 3170 3184
+type(
+  unit
+)
+"gToolbox.ml" 80 3185 3194 "gToolbox.ml" 80 3185 3195
+type(
+  'a
+)
+ident(
+  def i "gToolbox.ml" 80 3185 3199 "gToolbox.ml" 80 3185 3228
+)
+"gToolbox.ml" 80 3185 3189 "gToolbox.ml" 80 3185 3195
+type(
+  'a option
+)
+"gToolbox.ml" 80 3185 3199 "gToolbox.ml" 80 3185 3203
+type(
+  GPack.box
+)
+ident(
+  int_ref hbox "gToolbox.ml" 76 3039 3045 "gToolbox.ml" 76 3039 3049
+)
+"gToolbox.ml" 80 3185 3199 "gToolbox.ml" 80 3185 3208
+call(
+  stack
+)
+type(
+  ?from:Gtk.Tags.pack_type ->
+  ?expand:bool -> ?fill:bool -> ?padding:int -> GObj.widget -> unit
+)
+"gToolbox.ml" 80 3185 3209 "gToolbox.ml" 80 3185 3210
+type(
+  'a
+)
+ident(
+  int_ref i "gToolbox.ml" 80 3185 3194 "gToolbox.ml" 80 3185 3195
+)
+"gToolbox.ml" 80 3185 3209 "gToolbox.ml" 80 3185 3217
+call(
+  stack
+)
+type(
+  GObj.widget
+)
+"gToolbox.ml" 80 3185 3227 "gToolbox.ml" 80 3185 3228
+type(
+  int
+)
+"gToolbox.ml" 80 3185 3199 "gToolbox.ml" 80 3185 3228
+type(
+  unit
+)
+"gToolbox.ml" 78 3146 3148 "gToolbox.ml" 81 3229 3234
+type(
+  unit
+)
+"gToolbox.ml" 82 3236 3238 "gToolbox.ml" 82 3236 3244
+type(
+  GMisc.label -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gToolbox.ml" 82 3236 3246 "gToolbox.ml" 82 3236 3257
+type(
+  ?text:string ->
+  ?markup:string ->
+  ?use_underline:bool ->
+  ?mnemonic_widget:_#GObj.widget ->
+  ?justify:Gtk.Tags.justification ->
+  ?line_wrap:bool ->
+  ?pattern:string ->
+  ?selectable:bool ->
+  ?ellipsize:PangoEnums.ellipsize_mode ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> GMisc.label
+)
+ident(
+  ext_ref GMisc.label
+)
+"gToolbox.ml" 82 3236 3265 "gToolbox.ml" 82 3236 3272
+type(
+  string
+)
+ident(
+  int_ref message "gToolbox.ml" 73 2894 2947 "gToolbox.ml" 73 2894 2954
+)
+"gToolbox.ml" 82 3236 3283 "gToolbox.ml" 82 3236 3287
+type(
+  GPack.box
+)
+ident(
+  int_ref hbox "gToolbox.ml" 76 3039 3045 "gToolbox.ml" 76 3039 3049
+)
+"gToolbox.ml" 82 3236 3283 "gToolbox.ml" 82 3236 3291
+call(
+  stack
+)
+type(
+  GObj.widget -> unit
+)
+"gToolbox.ml" 82 3236 3292 "gToolbox.ml" 82 3236 3294
+type(
+  unit
+)
+"gToolbox.ml" 82 3236 3245 "gToolbox.ml" 82 3236 3295
+call(
+  stack
+)
+type(
+  GMisc.label
+)
+"gToolbox.ml" 82 3236 3238 "gToolbox.ml" 82 3236 3295
+type(
+  unit
+)
+"gToolbox.ml" 84 3360 3370 "gToolbox.ml" 84 3360 3382
+type(
+  int -> string list -> unit
+)
+"gToolbox.ml" 84 3360 3383 "gToolbox.ml" 84 3360 3384
+type(
+  int
+)
+ident(
+  def n "gToolbox.ml" 84 3360 3387 "gToolbox.ml" 96 3786 3814
+)
+"gToolbox.ml" 85 3396 3402 "gToolbox.ml" 85 3396 3404
+type(
+  string list
+)
+"gToolbox.ml" 86 3408 3416 "gToolbox.ml" 86 3408 3418
+type(
+  unit
+)
+"gToolbox.ml" 87 3419 3425 "gToolbox.ml" 87 3419 3437
+type(
+  string
+)
+ident(
+  def button_label "gToolbox.ml" 88 3450 3458 "gToolbox.ml" 96 3786 3814
+)
+"gToolbox.ml" 87 3419 3441 "gToolbox.ml" 87 3419 3442
+type(
+  string list
+)
+ident(
+  def q "gToolbox.ml" 88 3450 3458 "gToolbox.ml" 96 3786 3814
+)
+"gToolbox.ml" 87 3419 3425 "gToolbox.ml" 87 3419 3442
+type(
+  string list
+)
+"gToolbox.ml" 88 3450 3462 "gToolbox.ml" 88 3450 3463
+type(
+  GButton.button
+)
+"gToolbox.ml" 88 3450 3466 "gToolbox.ml" 88 3450 3480
+type(
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:Gtk.Tags.relief_style ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> GButton.button
+)
+ident(
+  ext_ref GButton.button
+)
+"gToolbox.ml" 88 3450 3489 "gToolbox.ml" 88 3450 3501
+type(
+  string
+)
+ident(
+  int_ref button_label "gToolbox.ml" 87 3419 3425 "gToolbox.ml" 87 3419 3437
+)
+"gToolbox.ml" 89 3503 3525 "gToolbox.ml" 89 3503 3529
+type(
+  GPack.button_box
+)
+ident(
+  int_ref bbox "gToolbox.ml" 77 3111 3117 "gToolbox.ml" 77 3111 3121
+)
+"gToolbox.ml" 89 3503 3525 "gToolbox.ml" 89 3503 3534
+call(
+  stack
+)
+type(
+  ?from:Gtk.Tags.pack_type ->
+  ?expand:bool -> ?fill:bool -> ?padding:int -> GObj.widget -> unit
+)
+"gToolbox.ml" 89 3503 3543 "gToolbox.ml" 89 3503 3547
+type(
+  bool
+)
+"gToolbox.ml" 89 3503 3557 "gToolbox.ml" 89 3503 3558
+type(
+  int
+)
+"gToolbox.ml" 89 3503 3524 "gToolbox.ml" 89 3503 3559
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+type(
+  ?from:Gtk.Tags.pack_type -> ?fill:bool -> GObj.widget -> unit
+)
+"gToolbox.ml" 89 3503 3560 "gToolbox.ml" 89 3503 3562
+type(
+  unit
+)
+"gToolbox.ml" 88 3450 3466 "gToolbox.ml" 89 3503 3562
+call(
+  stack
+)
+type(
+  GButton.button
+)
+"gToolbox.ml" 91 3574 3582 "gToolbox.ml" 91 3574 3583
+type(
+  GButton.button
+)
+ident(
+  int_ref b "gToolbox.ml" 88 3450 3462 "gToolbox.ml" 88 3450 3463
+)
+"gToolbox.ml" 91 3574 3582 "gToolbox.ml" 91 3574 3591
+call(
+  stack
+)
+type(
+  GButton.button_signals
+)
+"gToolbox.ml" 91 3574 3582 "gToolbox.ml" 91 3574 3599
+call(
+  stack
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gToolbox.ml" 92 3611 3626 "gToolbox.ml" 92 3611 3628
+type(
+  unit
+)
+"gToolbox.ml" 92 3611 3632 "gToolbox.ml" 92 3611 3641
+type(
+  int ref
+)
+ident(
+  int_ref button_nb "gToolbox.ml" 74 2957 2963 "gToolbox.ml" 74 2957 2972
+)
+"gToolbox.ml" 92 3611 3642 "gToolbox.ml" 92 3611 3644
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gToolbox.ml" 92 3611 3645 "gToolbox.ml" 92 3611 3646
+type(
+  int
+)
+ident(
+  int_ref n "gToolbox.ml" 84 3360 3383 "gToolbox.ml" 84 3360 3384
+)
+"gToolbox.ml" 92 3611 3632 "gToolbox.ml" 92 3611 3646
+type(
+  unit
+)
+"gToolbox.ml" 92 3611 3648 "gToolbox.ml" 92 3611 3654
+type(
+  'b GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 75 2984 2990 "gToolbox.ml" 75 2984 2996
+)
+"gToolbox.ml" 92 3611 3648 "gToolbox.ml" 92 3611 3662
+call(
+  tail
+)
+type(
+  unit -> unit
+)
+"gToolbox.ml" 92 3611 3663 "gToolbox.ml" 92 3611 3665
+type(
+  unit
+)
+"gToolbox.ml" 92 3611 3648 "gToolbox.ml" 92 3611 3665
+type(
+  unit
+)
+"gToolbox.ml" 92 3611 3632 "gToolbox.ml" 92 3611 3665
+type(
+  unit
+)
+"gToolbox.ml" 92 3611 3621 "gToolbox.ml" 92 3611 3666
+type(
+  unit -> unit
+)
+"gToolbox.ml" 91 3574 3582 "gToolbox.ml" 92 3611 3666
+type(
+  GtkSignal.id
+)
+"gToolbox.ml" 94 3730 3741 "gToolbox.ml" 94 3730 3742
+type(
+  int
+)
+ident(
+  int_ref n "gToolbox.ml" 84 3360 3383 "gToolbox.ml" 84 3360 3384
+)
+"gToolbox.ml" 94 3730 3743 "gToolbox.ml" 94 3730 3744
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gToolbox.ml" 94 3730 3745 "gToolbox.ml" 94 3730 3752
+type(
+  int
+)
+ident(
+  int_ref default "gToolbox.ml" 73 2894 2930 "gToolbox.ml" 73 2894 2937
+)
+"gToolbox.ml" 94 3730 3741 "gToolbox.ml" 94 3730 3752
+type(
+  bool
+)
+"gToolbox.ml" 94 3730 3758 "gToolbox.ml" 94 3730 3759
+type(
+  GButton.button
+)
+ident(
+  int_ref b "gToolbox.ml" 88 3450 3462 "gToolbox.ml" 88 3450 3463
+)
+"gToolbox.ml" 94 3730 3758 "gToolbox.ml" 94 3730 3772
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gToolbox.ml" 94 3730 3773 "gToolbox.ml" 94 3730 3775
+type(
+  unit
+)
+"gToolbox.ml" 94 3730 3758 "gToolbox.ml" 94 3730 3775
+type(
+  unit
+)
+"gToolbox.ml" 94 3730 3781 "gToolbox.ml" 94 3730 3783
+type(
+  unit
+)
+"gToolbox.ml" 94 3730 3738 "gToolbox.ml" 94 3730 3783
+type(
+  unit
+)
+"gToolbox.ml" 96 3786 3794 "gToolbox.ml" 96 3786 3806
+type(
+  int -> string list -> unit
+)
+ident(
+  int_ref iter_buttons "gToolbox.ml" 84 3360 3370 "gToolbox.ml" 84 3360 3382
+)
+"gToolbox.ml" 96 3786 3808 "gToolbox.ml" 96 3786 3809
+type(
+  int
+)
+ident(
+  int_ref n "gToolbox.ml" 84 3360 3383 "gToolbox.ml" 84 3360 3384
+)
+"gToolbox.ml" 96 3786 3809 "gToolbox.ml" 96 3786 3810
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"gToolbox.ml" 96 3786 3810 "gToolbox.ml" 96 3786 3811
+type(
+  int
+)
+"gToolbox.ml" 96 3786 3807 "gToolbox.ml" 96 3786 3812
+type(
+  int
+)
+"gToolbox.ml" 96 3786 3813 "gToolbox.ml" 96 3786 3814
+type(
+  string list
+)
+ident(
+  int_ref q "gToolbox.ml" 87 3419 3441 "gToolbox.ml" 87 3419 3442
+)
+"gToolbox.ml" 96 3786 3794 "gToolbox.ml" 96 3786 3814
+call(
+  tail
+)
+type(
+  unit
+)
+"gToolbox.ml" 94 3730 3738 "gToolbox.ml" 96 3786 3814
+type(
+  unit
+)
+"gToolbox.ml" 91 3574 3582 "gToolbox.ml" 96 3786 3814
+type(
+  unit
+)
+"gToolbox.ml" 88 3450 3458 "gToolbox.ml" 96 3786 3814
+type(
+  unit
+)
+"gToolbox.ml" 84 3360 3387 "gToolbox.ml" 96 3786 3814
+type(
+  string list -> unit
+)
+"gToolbox.ml" 98 3820 3822 "gToolbox.ml" 98 3820 3834
+type(
+  int -> string list -> unit
+)
+ident(
+  int_ref iter_buttons "gToolbox.ml" 84 3360 3370 "gToolbox.ml" 84 3360 3382
+)
+"gToolbox.ml" 98 3820 3835 "gToolbox.ml" 98 3820 3836
+type(
+  int
+)
+"gToolbox.ml" 98 3820 3837 "gToolbox.ml" 98 3820 3844
+type(
+  string list
+)
+ident(
+  int_ref buttons "gToolbox.ml" 73 2894 2920 "gToolbox.ml" 73 2894 2927
+)
+"gToolbox.ml" 98 3820 3822 "gToolbox.ml" 98 3820 3844
+call(
+  stack
+)
+type(
+  unit
+)
+"gToolbox.ml" 99 3846 3848 "gToolbox.ml" 99 3846 3854
+type(
+  'b GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 75 2984 2990 "gToolbox.ml" 75 2984 2996
+)
+"gToolbox.ml" 99 3846 3848 "gToolbox.ml" 99 3846 3862
+call(
+  stack
+)
+type(
+  'b GWindow.dialog_signals
+)
+"gToolbox.ml" 99 3846 3848 "gToolbox.ml" 99 3846 3870
+call(
+  stack
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gToolbox.ml" 99 3846 3882 "gToolbox.ml" 99 3846 3897
+type(
+  unit -> unit
+)
+ident(
+  ext_ref GMain.Main.quit
+)
+"gToolbox.ml" 99 3846 3848 "gToolbox.ml" 99 3846 3897
+type(
+  GtkSignal.id
+)
+"gToolbox.ml" 100 3899 3901 "gToolbox.ml" 100 3899 3907
+type(
+  'b GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 75 2984 2990 "gToolbox.ml" 75 2984 2996
+)
+"gToolbox.ml" 100 3899 3901 "gToolbox.ml" 100 3899 3920
+call(
+  stack
+)
+type(
+  Gtk.Tags.window_position -> unit
+)
+"gToolbox.ml" 100 3899 3921 "gToolbox.ml" 100 3899 3928
+type(
+  Gtk.Tags.window_position
+)
+"gToolbox.ml" 100 3899 3901 "gToolbox.ml" 100 3899 3928
+type(
+  unit
+)
+"gToolbox.ml" 101 3930 3932 "gToolbox.ml" 101 3930 3938
+type(
+  'b GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 75 2984 2990 "gToolbox.ml" 75 2984 2996
+)
+"gToolbox.ml" 101 3930 3932 "gToolbox.ml" 101 3930 3943
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gToolbox.ml" 101 3930 3944 "gToolbox.ml" 101 3930 3946
+type(
+  unit
+)
+"gToolbox.ml" 101 3930 3932 "gToolbox.ml" 101 3930 3946
+type(
+  unit
+)
+"gToolbox.ml" 102 3948 3950 "gToolbox.ml" 102 3948 3965
+type(
+  unit -> unit
+)
+ident(
+  ext_ref GMain.Main.main
+)
+"gToolbox.ml" 102 3948 3966 "gToolbox.ml" 102 3948 3968
+type(
+  unit
+)
+"gToolbox.ml" 102 3948 3950 "gToolbox.ml" 102 3948 3968
+call(
+  stack
+)
+type(
+  unit
+)
+"gToolbox.ml" 103 3970 3972 "gToolbox.ml" 103 3970 3973
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gToolbox.ml" 103 3970 3973 "gToolbox.ml" 103 3970 3982
+type(
+  int ref
+)
+ident(
+  int_ref button_nb "gToolbox.ml" 74 2957 2963 "gToolbox.ml" 74 2957 2972
+)
+"gToolbox.ml" 103 3970 3972 "gToolbox.ml" 103 3970 3982
+type(
+  int
+)
+"gToolbox.ml" 102 3948 3950 "gToolbox.ml" 103 3970 3982
+type(
+  int
+)
+"gToolbox.ml" 101 3930 3932 "gToolbox.ml" 103 3970 3982
+type(
+  int
+)
+"gToolbox.ml" 100 3899 3901 "gToolbox.ml" 103 3970 3982
+type(
+  int
+)
+"gToolbox.ml" 99 3846 3848 "gToolbox.ml" 103 3970 3982
+type(
+  int
+)
+"gToolbox.ml" 98 3820 3822 "gToolbox.ml" 103 3970 3982
+type(
+  int
+)
+"gToolbox.ml" 84 3360 3362 "gToolbox.ml" 103 3970 3982
+type(
+  int
+)
+"gToolbox.ml" 82 3236 3238 "gToolbox.ml" 103 3970 3982
+type(
+  int
+)
+"gToolbox.ml" 78 3146 3148 "gToolbox.ml" 103 3970 3982
+type(
+  int
+)
+"gToolbox.ml" 77 3111 3113 "gToolbox.ml" 103 3970 3982
+type(
+  int
+)
+"gToolbox.ml" 76 3039 3041 "gToolbox.ml" 103 3970 3982
+type(
+  int
+)
+"gToolbox.ml" 75 2984 2986 "gToolbox.ml" 103 3970 3982
+type(
+  int
+)
+"gToolbox.ml" 74 2957 2959 "gToolbox.ml" 103 3970 3982
+type(
+  int
+)
+"gToolbox.ml" 106 3985 3989 "gToolbox.ml" 106 3985 4000
+type(
+  title:string ->
+  ?icon:< coerce : GObj.widget; .. > -> ?ok:string -> string -> unit
+)
+ident(
+  def message_box "gToolbox.ml" 110 4097 4097 --
+)
+"gToolbox.ml" 106 3985 4002 "gToolbox.ml" 106 3985 4007
+type(
+  string
+)
+ident(
+  def title "gToolbox.ml" 106 3985 4008 "gToolbox.ml" 107 4034 4094
+)
+"gToolbox.ml" 106 3985 4009 "gToolbox.ml" 106 3985 4013
+type(
+  (< coerce : GObj.widget; .. > as 'a) option
+)
+ident(
+  def icon "gToolbox.ml" 106 3985 4014 "gToolbox.ml" 107 4034 4094
+)
+"gToolbox.ml" 106 3985 4016 "gToolbox.ml" 106 3985 4018
+type(
+  string
+)
+"gToolbox.ml" 106 3985 4019 "gToolbox.ml" 106 3985 4022
+type(
+  string
+)
+ident(
+  int_ref mOk "gToolbox.ml" 70 2855 2859 "gToolbox.ml" 70 2855 2862
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "gToolbox.ml" 106 3985 4019 "gToolbox.ml" 106 3985 4022
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "gToolbox.ml" 106 3985 4019 "gToolbox.ml" 106 3985 4022
+)
+"gToolbox.ml" 106 3985 4024 "gToolbox.ml" 106 3985 4031
+type(
+  string
+)
+ident(
+  def message "gToolbox.ml" 107 4034 4036 "gToolbox.ml" 107 4034 4094
+)
+"gToolbox.ml" 107 4034 4036 "gToolbox.ml" 107 4034 4042
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gToolbox.ml" 107 4034 4044 "gToolbox.ml" 107 4034 4056
+type(
+  title:string ->
+  buttons:string list -> ?default:int -> ?icon:'a -> string -> int
+)
+ident(
+  int_ref question_box "gToolbox.ml" 73 2894 2898 "gToolbox.ml" 73 2894 2910
+)
+"gToolbox.ml" 107 4034 4058 "gToolbox.ml" 107 4034 4062
+type(
+  'a option
+)
+ident(
+  int_ref icon "gToolbox.ml" 106 3985 4009 "gToolbox.ml" 106 3985 4013
+)
+"gToolbox.ml" 107 4034 4064 "gToolbox.ml" 107 4034 4069
+type(
+  string
+)
+ident(
+  int_ref title "gToolbox.ml" 106 3985 4002 "gToolbox.ml" 106 3985 4007
+)
+"gToolbox.ml" 107 4034 4070 "gToolbox.ml" 107 4034 4077
+type(
+  string
+)
+ident(
+  int_ref message "gToolbox.ml" 106 3985 4024 "gToolbox.ml" 106 3985 4031
+)
+"gToolbox.ml" 107 4034 4089 "gToolbox.ml" 107 4034 4091
+type(
+  string
+)
+ident(
+  int_ref ok "gToolbox.ml" 106 3985 4016 "gToolbox.ml" 106 3985 4018
+)
+"gToolbox.ml" 107 4034 4087 "gToolbox.ml" 107 4034 4093
+type(
+  string list
+)
+"gToolbox.ml" 107 4034 4043 "gToolbox.ml" 107 4034 4094
+call(
+  stack
+)
+type(
+  int
+)
+"gToolbox.ml" 107 4034 4036 "gToolbox.ml" 107 4034 4094
+type(
+  unit
+)
+"gToolbox.ml" 110 4097 4101 "gToolbox.ml" 110 4097 4113
+type(
+  widget:GObj.widget ->
+  event:< connect : < key_press : callback:(GdkEvent.Key.t -> bool) -> 'a;
+                      .. >;
+          .. > ->
+  get_text:(unit -> 'b) ->
+  bind_ok:bool ->
+  expand:bool ->
+  title:string -> ?ok:string -> ?cancel:string -> string -> 'b option
+)
+ident(
+  def input_widget "gToolbox.ml" 155 5503 5503 --
+)
+"gToolbox.ml" 110 4097 4115 "gToolbox.ml" 110 4097 4121
+type(
+  GObj.widget
+)
+ident(
+  def widget "gToolbox.ml" 110 4097 4122 "gToolbox.ml" 153 5492 5501
+)
+"gToolbox.ml" 110 4097 4123 "gToolbox.ml" 110 4097 4128
+type(
+  < connect : < key_press : callback:(GdkEvent.Key.t -> bool) -> 'a; .. >;
+    .. >
+  as 'c
+)
+ident(
+  def event "gToolbox.ml" 110 4097 4129 "gToolbox.ml" 153 5492 5501
+)
+"gToolbox.ml" 110 4097 4130 "gToolbox.ml" 110 4097 4138
+type(
+  unit -> 'b
+)
+ident(
+  def get_text "gToolbox.ml" 110 4097 4139 "gToolbox.ml" 153 5492 5501
+)
+"gToolbox.ml" 110 4097 4140 "gToolbox.ml" 110 4097 4147
+type(
+  bool
+)
+ident(
+  def bind_ok "gToolbox.ml" 110 4097 4148 "gToolbox.ml" 153 5492 5501
+)
+"gToolbox.ml" 110 4097 4149 "gToolbox.ml" 110 4097 4155
+type(
+  bool
+)
+ident(
+  def expand "gToolbox.ml" 111 4156 4160 "gToolbox.ml" 153 5492 5501
+)
+"gToolbox.ml" 111 4156 4161 "gToolbox.ml" 111 4156 4166
+type(
+  string
+)
+ident(
+  def title "gToolbox.ml" 111 4156 4167 "gToolbox.ml" 153 5492 5501
+)
+"gToolbox.ml" 111 4156 4169 "gToolbox.ml" 111 4156 4171
+type(
+  string
+)
+"gToolbox.ml" 111 4156 4172 "gToolbox.ml" 111 4156 4175
+type(
+  string
+)
+ident(
+  int_ref mOk "gToolbox.ml" 70 2855 2859 "gToolbox.ml" 70 2855 2862
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "gToolbox.ml" 111 4156 4172 "gToolbox.ml" 111 4156 4175
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "gToolbox.ml" 111 4156 4172 "gToolbox.ml" 111 4156 4175
+)
+"gToolbox.ml" 111 4156 4179 "gToolbox.ml" 111 4156 4185
+type(
+  string
+)
+"gToolbox.ml" 111 4156 4186 "gToolbox.ml" 111 4156 4193
+type(
+  string
+)
+ident(
+  int_ref mCancel "gToolbox.ml" 71 2870 2874 "gToolbox.ml" 71 2870 2881
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "gToolbox.ml" 111 4156 4186 "gToolbox.ml" 111 4156 4193
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "gToolbox.ml" 111 4156 4186 "gToolbox.ml" 111 4156 4193
+)
+"gToolbox.ml" 111 4156 4195 "gToolbox.ml" 111 4156 4202
+type(
+  string
+)
+ident(
+  def message "gToolbox.ml" 112 4205 4207 "gToolbox.ml" 153 5492 5501
+)
+"gToolbox.ml" 112 4205 4211 "gToolbox.ml" 112 4205 4217
+type(
+  'b option ref
+)
+"gToolbox.ml" 112 4205 4220 "gToolbox.ml" 112 4205 4223
+type(
+  'b option -> 'b option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gToolbox.ml" 112 4205 4224 "gToolbox.ml" 112 4205 4228
+type(
+  'b option
+)
+"gToolbox.ml" 112 4205 4220 "gToolbox.ml" 112 4205 4228
+type(
+  'b option ref
+)
+"gToolbox.ml" 113 4232 4238 "gToolbox.ml" 113 4232 4244
+type(
+  _[> `DELETE_EVENT ] GWindow.dialog
+)
+"gToolbox.ml" 113 4232 4247 "gToolbox.ml" 113 4232 4261
+type(
+  ?no_separator:bool ->
+  ?parent:_#GWindow.window_skel ->
+  ?destroy_with_parent:bool ->
+  ?title:string ->
+  ?allow_grow:bool ->
+  ?allow_shrink:bool ->
+  ?decorated:bool ->
+  ?deletable:bool ->
+  ?focus_on_map:bool ->
+  ?icon:GdkPixbuf.pixbuf ->
+  ?icon_name:string ->
+  ?modal:bool ->
+  ?position:Gtk.Tags.window_position ->
+  ?resizable:bool ->
+  ?screen:Gdk.screen ->
+  ?type_hint:Gdk.Tags.window_type_hint ->
+  ?urgency_hint:bool ->
+  ?wm_name:string ->
+  ?wm_class:string ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?show:bool -> unit -> (_[> `DELETE_EVENT ] as 'd) GWindow.dialog
+)
+ident(
+  ext_ref GWindow.dialog
+)
+"gToolbox.ml" 113 4232 4263 "gToolbox.ml" 113 4232 4268
+type(
+  string
+)
+ident(
+  int_ref title "gToolbox.ml" 111 4156 4161 "gToolbox.ml" 111 4156 4166
+)
+"gToolbox.ml" 113 4232 4276 "gToolbox.ml" 113 4232 4280
+type(
+  bool
+)
+"gToolbox.ml" 113 4232 4281 "gToolbox.ml" 113 4232 4283
+type(
+  unit
+)
+"gToolbox.ml" 113 4232 4247 "gToolbox.ml" 113 4232 4283
+call(
+  stack
+)
+type(
+  'd GWindow.dialog
+)
+"gToolbox.ml" 114 4287 4289 "gToolbox.ml" 114 4287 4295
+type(
+  'd GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 113 4232 4238 "gToolbox.ml" 113 4232 4244
+)
+"gToolbox.ml" 114 4287 4289 "gToolbox.ml" 114 4287 4303
+call(
+  stack
+)
+type(
+  'd GWindow.dialog_signals
+)
+"gToolbox.ml" 114 4287 4289 "gToolbox.ml" 114 4287 4311
+call(
+  stack
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gToolbox.ml" 114 4287 4323 "gToolbox.ml" 114 4287 4338
+type(
+  unit -> unit
+)
+ident(
+  ext_ref GMain.Main.quit
+)
+"gToolbox.ml" 114 4287 4289 "gToolbox.ml" 114 4287 4338
+type(
+  GtkSignal.id
+)
+"gToolbox.ml" 115 4340 4346 "gToolbox.ml" 115 4340 4354
+type(
+  GPack.box
+)
+"gToolbox.ml" 115 4340 4357 "gToolbox.ml" 115 4340 4363
+type(
+  'd GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 113 4232 4238 "gToolbox.ml" 113 4232 4244
+)
+"gToolbox.ml" 115 4340 4357 "gToolbox.ml" 115 4340 4368
+call(
+  stack
+)
+type(
+  GPack.box
+)
+"gToolbox.ml" 116 4372 4378 "gToolbox.ml" 116 4372 4390
+type(
+  GPack.button_box
+)
+"gToolbox.ml" 116 4372 4393 "gToolbox.ml" 116 4372 4399
+type(
+  'd GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 113 4232 4238 "gToolbox.ml" 113 4232 4244
+)
+"gToolbox.ml" 116 4372 4393 "gToolbox.ml" 116 4372 4411
+call(
+  stack
+)
+type(
+  GPack.button_box
+)
+"gToolbox.ml" 118 4416 4422 "gToolbox.ml" 118 4416 4433
+type(
+  GPack.box
+)
+"gToolbox.ml" 118 4416 4436 "gToolbox.ml" 118 4416 4446
+type(
+  ?homogeneous:bool ->
+  ?spacing:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> GPack.box
+)
+ident(
+  ext_ref GPack.vbox
+)
+"gToolbox.ml" 118 4416 4458 "gToolbox.ml" 118 4416 4466
+type(
+  GPack.box
+)
+ident(
+  int_ref main_box "gToolbox.ml" 115 4340 4346 "gToolbox.ml" 115 4340 4354
+)
+"gToolbox.ml" 118 4416 4458 "gToolbox.ml" 118 4416 4471
+call(
+  stack
+)
+type(
+  ?from:Gtk.Tags.pack_type ->
+  ?expand:bool -> ?fill:bool -> ?padding:int -> GObj.widget -> unit
+)
+"gToolbox.ml" 118 4416 4481 "gToolbox.ml" 118 4416 4485
+type(
+  bool
+)
+"gToolbox.ml" 118 4416 4457 "gToolbox.ml" 118 4416 4486
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+type(
+  ?from:Gtk.Tags.pack_type ->
+  ?fill:bool -> ?padding:int -> GObj.widget -> unit
+)
+"gToolbox.ml" 118 4416 4487 "gToolbox.ml" 118 4416 4489
+type(
+  unit
+)
+"gToolbox.ml" 118 4416 4436 "gToolbox.ml" 118 4416 4489
+call(
+  stack
+)
+type(
+  GPack.box
+)
+"gToolbox.ml" 120 4496 4498 "gToolbox.ml" 120 4496 4504
+type(
+  GMisc.label -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gToolbox.ml" 120 4496 4506 "gToolbox.ml" 120 4496 4517
+type(
+  ?text:string ->
+  ?markup:string ->
+  ?use_underline:bool ->
+  ?mnemonic_widget:_#GObj.widget ->
+  ?justify:Gtk.Tags.justification ->
+  ?line_wrap:bool ->
+  ?pattern:string ->
+  ?selectable:bool ->
+  ?ellipsize:PangoEnums.ellipsize_mode ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> GMisc.label
+)
+ident(
+  ext_ref GMisc.label
+)
+"gToolbox.ml" 120 4496 4524 "gToolbox.ml" 120 4496 4531
+type(
+  string
+)
+ident(
+  int_ref message "gToolbox.ml" 111 4156 4195 "gToolbox.ml" 111 4156 4202
+)
+"gToolbox.ml" 120 4496 4542 "gToolbox.ml" 120 4496 4553
+type(
+  GPack.box
+)
+ident(
+  int_ref vbox_saisie "gToolbox.ml" 118 4416 4422 "gToolbox.ml" 118 4416 4433
+)
+"gToolbox.ml" 120 4496 4542 "gToolbox.ml" 120 4496 4558
+call(
+  stack
+)
+type(
+  ?from:Gtk.Tags.pack_type ->
+  ?expand:bool -> ?fill:bool -> ?padding:int -> GObj.widget -> unit
+)
+"gToolbox.ml" 120 4496 4568 "gToolbox.ml" 120 4496 4569
+type(
+  int
+)
+"gToolbox.ml" 120 4496 4541 "gToolbox.ml" 120 4496 4570
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+type(
+  ?from:Gtk.Tags.pack_type ->
+  ?expand:bool -> ?fill:bool -> GObj.widget -> unit
+)
+"gToolbox.ml" 120 4496 4571 "gToolbox.ml" 120 4496 4573
+type(
+  unit
+)
+"gToolbox.ml" 120 4496 4505 "gToolbox.ml" 120 4496 4574
+call(
+  stack
+)
+type(
+  GMisc.label
+)
+"gToolbox.ml" 120 4496 4498 "gToolbox.ml" 120 4496 4574
+type(
+  unit
+)
+"gToolbox.ml" 122 4577 4579 "gToolbox.ml" 122 4577 4590
+type(
+  GPack.box
+)
+ident(
+  int_ref vbox_saisie "gToolbox.ml" 118 4416 4422 "gToolbox.ml" 118 4416 4433
+)
+"gToolbox.ml" 122 4577 4579 "gToolbox.ml" 122 4577 4595
+call(
+  stack
+)
+type(
+  ?from:Gtk.Tags.pack_type ->
+  ?expand:bool -> ?fill:bool -> ?padding:int -> GObj.widget -> unit
+)
+"gToolbox.ml" 122 4577 4596 "gToolbox.ml" 122 4577 4602
+type(
+  GObj.widget
+)
+ident(
+  int_ref widget "gToolbox.ml" 110 4097 4115 "gToolbox.ml" 110 4097 4121
+)
+"gToolbox.ml" 122 4577 4604 "gToolbox.ml" 122 4577 4610
+type(
+  bool
+)
+ident(
+  int_ref expand "gToolbox.ml" 110 4097 4149 "gToolbox.ml" 110 4097 4155
+)
+"gToolbox.ml" 122 4577 4621 "gToolbox.ml" 122 4577 4622
+type(
+  int
+)
+"gToolbox.ml" 122 4577 4579 "gToolbox.ml" 122 4577 4622
+type(
+  unit
+)
+"gToolbox.ml" 124 4625 4631 "gToolbox.ml" 124 4625 4636
+type(
+  GButton.button
+)
+"gToolbox.ml" 124 4625 4639 "gToolbox.ml" 124 4625 4653
+type(
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:Gtk.Tags.relief_style ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> GButton.button
+)
+ident(
+  ext_ref GButton.button
+)
+"gToolbox.ml" 124 4625 4662 "gToolbox.ml" 124 4625 4664
+type(
+  string
+)
+ident(
+  int_ref ok "gToolbox.ml" 111 4156 4169 "gToolbox.ml" 111 4156 4171
+)
+"gToolbox.ml" 125 4665 4682 "gToolbox.ml" 125 4665 4694
+type(
+  GPack.button_box
+)
+ident(
+  int_ref hbox_boutons "gToolbox.ml" 116 4372 4378 "gToolbox.ml" 116 4372 4390
+)
+"gToolbox.ml" 125 4665 4682 "gToolbox.ml" 125 4665 4699
+call(
+  stack
+)
+type(
+  ?from:Gtk.Tags.pack_type ->
+  ?expand:bool -> ?fill:bool -> ?padding:int -> GObj.widget -> unit
+)
+"gToolbox.ml" 125 4665 4709 "gToolbox.ml" 125 4665 4713
+type(
+  bool
+)
+"gToolbox.ml" 125 4665 4724 "gToolbox.ml" 125 4665 4725
+type(
+  int
+)
+"gToolbox.ml" 125 4665 4681 "gToolbox.ml" 125 4665 4726
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+type(
+  ?from:Gtk.Tags.pack_type -> ?fill:bool -> GObj.widget -> unit
+)
+"gToolbox.ml" 125 4665 4727 "gToolbox.ml" 125 4665 4729
+type(
+  unit
+)
+"gToolbox.ml" 124 4625 4639 "gToolbox.ml" 125 4665 4729
+call(
+  stack
+)
+type(
+  GButton.button
+)
+"gToolbox.ml" 126 4733 4735 "gToolbox.ml" 126 4733 4740
+type(
+  GButton.button
+)
+ident(
+  int_ref wb_ok "gToolbox.ml" 124 4625 4631 "gToolbox.ml" 124 4625 4636
+)
+"gToolbox.ml" 126 4733 4735 "gToolbox.ml" 126 4733 4753
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gToolbox.ml" 126 4733 4754 "gToolbox.ml" 126 4733 4756
+type(
+  unit
+)
+"gToolbox.ml" 126 4733 4735 "gToolbox.ml" 126 4733 4756
+type(
+  unit
+)
+"gToolbox.ml" 127 4758 4764 "gToolbox.ml" 127 4758 4773
+type(
+  GButton.button
+)
+"gToolbox.ml" 127 4758 4776 "gToolbox.ml" 127 4758 4790
+type(
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:Gtk.Tags.relief_style ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> GButton.button
+)
+ident(
+  ext_ref GButton.button
+)
+"gToolbox.ml" 127 4758 4799 "gToolbox.ml" 127 4758 4805
+type(
+  string
+)
+ident(
+  int_ref cancel "gToolbox.ml" 111 4156 4179 "gToolbox.ml" 111 4156 4185
+)
+"gToolbox.ml" 128 4806 4823 "gToolbox.ml" 128 4806 4835
+type(
+  GPack.button_box
+)
+ident(
+  int_ref hbox_boutons "gToolbox.ml" 116 4372 4378 "gToolbox.ml" 116 4372 4390
+)
+"gToolbox.ml" 128 4806 4823 "gToolbox.ml" 128 4806 4840
+call(
+  stack
+)
+type(
+  ?from:Gtk.Tags.pack_type ->
+  ?expand:bool -> ?fill:bool -> ?padding:int -> GObj.widget -> unit
+)
+"gToolbox.ml" 128 4806 4850 "gToolbox.ml" 128 4806 4854
+type(
+  bool
+)
+"gToolbox.ml" 128 4806 4865 "gToolbox.ml" 128 4806 4866
+type(
+  int
+)
+"gToolbox.ml" 128 4806 4822 "gToolbox.ml" 128 4806 4867
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+type(
+  ?from:Gtk.Tags.pack_type -> ?fill:bool -> GObj.widget -> unit
+)
+"gToolbox.ml" 128 4806 4868 "gToolbox.ml" 128 4806 4870
+type(
+  unit
+)
+"gToolbox.ml" 127 4758 4776 "gToolbox.ml" 128 4806 4870
+call(
+  stack
+)
+type(
+  GButton.button
+)
+"gToolbox.ml" 129 4874 4880 "gToolbox.ml" 129 4874 4884
+type(
+  unit -> unit
+)
+"gToolbox.ml" 129 4874 4885 "gToolbox.ml" 129 4874 4887
+type(
+  unit
+)
+"gToolbox.ml" 130 4890 4894 "gToolbox.ml" 130 4890 4900
+type(
+  'b option ref
+)
+ident(
+  int_ref retour "gToolbox.ml" 112 4205 4211 "gToolbox.ml" 112 4205 4217
+)
+"gToolbox.ml" 130 4890 4901 "gToolbox.ml" 130 4890 4903
+type(
+  'b option ref -> 'b option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gToolbox.ml" 130 4890 4910 "gToolbox.ml" 130 4890 4918
+type(
+  unit -> 'b
+)
+ident(
+  int_ref get_text "gToolbox.ml" 110 4097 4130 "gToolbox.ml" 110 4097 4138
+)
+"gToolbox.ml" 130 4890 4919 "gToolbox.ml" 130 4890 4921
+type(
+  unit
+)
+"gToolbox.ml" 130 4890 4909 "gToolbox.ml" 130 4890 4922
+call(
+  stack
+)
+type(
+  'b
+)
+"gToolbox.ml" 130 4890 4904 "gToolbox.ml" 130 4890 4922
+type(
+  'b option
+)
+"gToolbox.ml" 130 4890 4894 "gToolbox.ml" 130 4890 4922
+type(
+  unit
+)
+"gToolbox.ml" 131 4925 4929 "gToolbox.ml" 131 4925 4935
+type(
+  'd GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 113 4232 4238 "gToolbox.ml" 113 4232 4244
+)
+"gToolbox.ml" 131 4925 4929 "gToolbox.ml" 131 4925 4943
+call(
+  tail
+)
+type(
+  unit -> unit
+)
+"gToolbox.ml" 131 4925 4944 "gToolbox.ml" 131 4925 4946
+type(
+  unit
+)
+"gToolbox.ml" 131 4925 4929 "gToolbox.ml" 131 4925 4946
+type(
+  unit
+)
+"gToolbox.ml" 130 4890 4894 "gToolbox.ml" 131 4925 4946
+type(
+  unit
+)
+"gToolbox.ml" 133 4952 4958 "gToolbox.ml" 133 4952 4966
+type(
+  unit -> unit
+)
+"gToolbox.ml" 133 4952 4967 "gToolbox.ml" 133 4952 4969
+type(
+  unit
+)
+"gToolbox.ml" 134 4973 4977 "gToolbox.ml" 134 4973 4983
+type(
+  'b option ref
+)
+ident(
+  int_ref retour "gToolbox.ml" 112 4205 4211 "gToolbox.ml" 112 4205 4217
+)
+"gToolbox.ml" 134 4973 4984 "gToolbox.ml" 134 4973 4986
+type(
+  'b option ref -> 'b option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gToolbox.ml" 134 4973 4987 "gToolbox.ml" 134 4973 4991
+type(
+  'b option
+)
+"gToolbox.ml" 134 4973 4977 "gToolbox.ml" 134 4973 4991
+type(
+  unit
+)
+"gToolbox.ml" 135 4993 4997 "gToolbox.ml" 135 4993 5003
+type(
+  'd GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 113 4232 4238 "gToolbox.ml" 113 4232 4244
+)
+"gToolbox.ml" 135 4993 4997 "gToolbox.ml" 135 4993 5011
+call(
+  tail
+)
+type(
+  unit -> unit
+)
+"gToolbox.ml" 135 4993 5012 "gToolbox.ml" 135 4993 5014
+type(
+  unit
+)
+"gToolbox.ml" 135 4993 4997 "gToolbox.ml" 135 4993 5014
+type(
+  unit
+)
+"gToolbox.ml" 134 4973 4977 "gToolbox.ml" 135 4993 5014
+type(
+  unit
+)
+"gToolbox.ml" 137 5021 5023 "gToolbox.ml" 137 5021 5028
+type(
+  GButton.button
+)
+ident(
+  int_ref wb_ok "gToolbox.ml" 124 4625 4631 "gToolbox.ml" 124 4625 4636
+)
+"gToolbox.ml" 137 5021 5023 "gToolbox.ml" 137 5021 5036
+call(
+  stack
+)
+type(
+  GButton.button_signals
+)
+"gToolbox.ml" 137 5021 5023 "gToolbox.ml" 137 5021 5044
+call(
+  stack
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gToolbox.ml" 137 5021 5045 "gToolbox.ml" 137 5021 5049
+type(
+  unit -> unit
+)
+ident(
+  int_ref f_ok "gToolbox.ml" 129 4874 4880 "gToolbox.ml" 129 4874 4884
+)
+"gToolbox.ml" 137 5021 5023 "gToolbox.ml" 137 5021 5049
+type(
+  GtkSignal.id
+)
+"gToolbox.ml" 138 5051 5053 "gToolbox.ml" 138 5051 5062
+type(
+  GButton.button
+)
+ident(
+  int_ref wb_cancel "gToolbox.ml" 127 4758 4764 "gToolbox.ml" 127 4758 4773
+)
+"gToolbox.ml" 138 5051 5053 "gToolbox.ml" 138 5051 5070
+call(
+  stack
+)
+type(
+  GButton.button_signals
+)
+"gToolbox.ml" 138 5051 5053 "gToolbox.ml" 138 5051 5078
+call(
+  stack
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gToolbox.ml" 138 5051 5079 "gToolbox.ml" 138 5051 5087
+type(
+  unit -> unit
+)
+ident(
+  int_ref f_cancel "gToolbox.ml" 133 4952 4958 "gToolbox.ml" 133 4952 4966
+)
+"gToolbox.ml" 138 5051 5053 "gToolbox.ml" 138 5051 5087
+type(
+  GtkSignal.id
+)
+"gToolbox.ml" 142 5193 5195 "gToolbox.ml" 142 5193 5200
+type(
+  'c
+)
+ident(
+  int_ref event "gToolbox.ml" 110 4097 4123 "gToolbox.ml" 110 4097 4128
+)
+"gToolbox.ml" 142 5193 5195 "gToolbox.ml" 142 5193 5208
+call(
+  stack
+)
+type(
+  < key_press : callback:(GdkEvent.Key.t -> bool) -> 'a; .. > as 'e
+)
+"gToolbox.ml" 142 5193 5195 "gToolbox.ml" 142 5193 5218
+call(
+  stack
+)
+type(
+  callback:(GdkEvent.Key.t -> bool) -> 'a
+)
+"gToolbox.ml" 143 5230 5244 "gToolbox.ml" 143 5230 5246
+type(
+  GdkEvent.Key.t
+)
+ident(
+  def ev "gToolbox.ml" 144 5251 5257 "gToolbox.ml" 146 5400 5411
+)
+"gToolbox.ml" 144 5251 5260 "gToolbox.ml" 144 5251 5279
+type(
+  GdkEvent.Key.t -> Gdk.keysym
+)
+ident(
+  ext_ref GdkEvent.Key.keyval
+)
+"gToolbox.ml" 144 5251 5280 "gToolbox.ml" 144 5251 5282
+type(
+  GdkEvent.Key.t
+)
+ident(
+  int_ref ev "gToolbox.ml" 143 5230 5244 "gToolbox.ml" 143 5230 5246
+)
+"gToolbox.ml" 144 5251 5260 "gToolbox.ml" 144 5251 5282
+type(
+  Gdk.keysym
+)
+"gToolbox.ml" 144 5251 5283 "gToolbox.ml" 144 5251 5284
+type(
+  Gdk.keysym -> Gdk.keysym -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gToolbox.ml" 144 5251 5285 "gToolbox.ml" 144 5251 5303
+type(
+  Gdk.keysym
+)
+ident(
+  ext_ref GdkKeysyms._Return
+)
+"gToolbox.ml" 144 5251 5260 "gToolbox.ml" 144 5251 5303
+type(
+  bool
+)
+"gToolbox.ml" 144 5251 5304 "gToolbox.ml" 144 5251 5306
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"gToolbox.ml" 144 5251 5307 "gToolbox.ml" 144 5251 5314
+type(
+  bool
+)
+ident(
+  int_ref bind_ok "gToolbox.ml" 110 4097 4140 "gToolbox.ml" 110 4097 4147
+)
+"gToolbox.ml" 144 5251 5260 "gToolbox.ml" 144 5251 5314
+type(
+  bool
+)
+"gToolbox.ml" 144 5251 5320 "gToolbox.ml" 144 5251 5324
+type(
+  unit -> unit
+)
+ident(
+  int_ref f_ok "gToolbox.ml" 129 4874 4880 "gToolbox.ml" 129 4874 4884
+)
+"gToolbox.ml" 144 5251 5325 "gToolbox.ml" 144 5251 5327
+type(
+  unit
+)
+"gToolbox.ml" 144 5251 5320 "gToolbox.ml" 144 5251 5327
+call(
+  stack
+)
+type(
+  unit
+)
+"gToolbox.ml" 144 5251 5257 "gToolbox.ml" 144 5251 5327
+type(
+  unit
+)
+"gToolbox.ml" 145 5329 5338 "gToolbox.ml" 145 5329 5357
+type(
+  GdkEvent.Key.t -> Gdk.keysym
+)
+ident(
+  ext_ref GdkEvent.Key.keyval
+)
+"gToolbox.ml" 145 5329 5358 "gToolbox.ml" 145 5329 5360
+type(
+  GdkEvent.Key.t
+)
+ident(
+  int_ref ev "gToolbox.ml" 143 5230 5244 "gToolbox.ml" 143 5230 5246
+)
+"gToolbox.ml" 145 5329 5338 "gToolbox.ml" 145 5329 5360
+type(
+  Gdk.keysym
+)
+"gToolbox.ml" 145 5329 5361 "gToolbox.ml" 145 5329 5362
+type(
+  Gdk.keysym -> Gdk.keysym -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gToolbox.ml" 145 5329 5363 "gToolbox.ml" 145 5329 5381
+type(
+  Gdk.keysym
+)
+ident(
+  ext_ref GdkKeysyms._Escape
+)
+"gToolbox.ml" 145 5329 5338 "gToolbox.ml" 145 5329 5381
+type(
+  bool
+)
+"gToolbox.ml" 145 5329 5387 "gToolbox.ml" 145 5329 5395
+type(
+  unit -> unit
+)
+ident(
+  int_ref f_cancel "gToolbox.ml" 133 4952 4958 "gToolbox.ml" 133 4952 4966
+)
+"gToolbox.ml" 145 5329 5396 "gToolbox.ml" 145 5329 5398
+type(
+  unit
+)
+"gToolbox.ml" 145 5329 5387 "gToolbox.ml" 145 5329 5398
+call(
+  stack
+)
+type(
+  unit
+)
+"gToolbox.ml" 145 5329 5335 "gToolbox.ml" 145 5329 5398
+type(
+  unit
+)
+"gToolbox.ml" 146 5400 5406 "gToolbox.ml" 146 5400 5411
+type(
+  bool
+)
+"gToolbox.ml" 145 5329 5335 "gToolbox.ml" 146 5400 5411
+type(
+  bool
+)
+"gToolbox.ml" 144 5251 5257 "gToolbox.ml" 146 5400 5411
+type(
+  bool
+)
+"gToolbox.ml" 143 5230 5234 "gToolbox.ml" 147 5412 5419
+type(
+  GdkEvent.Key.t -> bool
+)
+"gToolbox.ml" 142 5193 5195 "gToolbox.ml" 147 5412 5419
+type(
+  'a
+)
+"gToolbox.ml" 149 5422 5424 "gToolbox.ml" 149 5422 5430
+type(
+  GObj.widget
+)
+ident(
+  int_ref widget "gToolbox.ml" 110 4097 4115 "gToolbox.ml" 110 4097 4121
+)
+"gToolbox.ml" 149 5422 5424 "gToolbox.ml" 149 5422 5435
+call(
+  stack
+)
+type(
+  GObj.misc_ops
+)
+"gToolbox.ml" 149 5422 5424 "gToolbox.ml" 149 5422 5446
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gToolbox.ml" 149 5422 5447 "gToolbox.ml" 149 5422 5449
+type(
+  unit
+)
+"gToolbox.ml" 149 5422 5424 "gToolbox.ml" 149 5422 5449
+type(
+  unit
+)
+"gToolbox.ml" 150 5451 5453 "gToolbox.ml" 150 5451 5459
+type(
+  'd GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 113 4232 4238 "gToolbox.ml" 113 4232 4244
+)
+"gToolbox.ml" 150 5451 5453 "gToolbox.ml" 150 5451 5464
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gToolbox.ml" 150 5451 5465 "gToolbox.ml" 150 5451 5467
+type(
+  unit
+)
+"gToolbox.ml" 150 5451 5453 "gToolbox.ml" 150 5451 5467
+type(
+  unit
+)
+"gToolbox.ml" 151 5469 5471 "gToolbox.ml" 151 5469 5486
+type(
+  unit -> unit
+)
+ident(
+  ext_ref GMain.Main.main
+)
+"gToolbox.ml" 151 5469 5487 "gToolbox.ml" 151 5469 5489
+type(
+  unit
+)
+"gToolbox.ml" 151 5469 5471 "gToolbox.ml" 151 5469 5489
+call(
+  stack
+)
+type(
+  unit
+)
+"gToolbox.ml" 153 5492 5494 "gToolbox.ml" 153 5492 5495
+type(
+  'b option ref -> 'b option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gToolbox.ml" 153 5492 5495 "gToolbox.ml" 153 5492 5501
+type(
+  'b option ref
+)
+ident(
+  int_ref retour "gToolbox.ml" 112 4205 4211 "gToolbox.ml" 112 4205 4217
+)
+"gToolbox.ml" 153 5492 5494 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 151 5469 5471 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 150 5451 5453 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 149 5422 5424 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 142 5193 5195 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 138 5051 5053 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 137 5021 5023 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 133 4952 4954 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 129 4874 4876 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 127 4758 4760 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 126 4733 4735 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 124 4625 4627 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 122 4577 4579 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 120 4496 4498 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 118 4416 4418 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 116 4372 4374 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 115 4340 4342 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 114 4287 4289 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 113 4232 4234 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 112 4205 4207 "gToolbox.ml" 153 5492 5501
+type(
+  'b option
+)
+"gToolbox.ml" 155 5503 5507 "gToolbox.ml" 155 5503 5519
+type(
+  title:string ->
+  ?ok:string -> ?cancel:string -> ?text:string -> string -> string option
+)
+ident(
+  def input_string "gToolbox.ml" 165 5848 5848 --
+)
+"gToolbox.ml" 155 5503 5521 "gToolbox.ml" 155 5503 5526
+type(
+  string
+)
+ident(
+  def title "gToolbox.ml" 155 5503 5527 "gToolbox.ml" 162 5815 5845
+)
+"gToolbox.ml" 155 5503 5528 "gToolbox.ml" 155 5503 5530
+type(
+  string option
+)
+ident(
+  def ok "gToolbox.ml" 155 5503 5531 "gToolbox.ml" 162 5815 5845
+)
+"gToolbox.ml" 155 5503 5532 "gToolbox.ml" 155 5503 5538
+type(
+  string option
+)
+ident(
+  def cancel "gToolbox.ml" 155 5503 5539 "gToolbox.ml" 162 5815 5845
+)
+"gToolbox.ml" 155 5503 5541 "gToolbox.ml" 155 5503 5545
+type(
+  string
+)
+"gToolbox.ml" 155 5503 5546 "gToolbox.ml" 155 5503 5548
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "gToolbox.ml" 155 5503 5546 "gToolbox.ml" 155 5503 5548
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "gToolbox.ml" 155 5503 5546 "gToolbox.ml" 155 5503 5548
+)
+"gToolbox.ml" 155 5503 5550 "gToolbox.ml" 155 5503 5557
+type(
+  string
+)
+ident(
+  def message "gToolbox.ml" 156 5560 5562 "gToolbox.ml" 162 5815 5845
+)
+"gToolbox.ml" 156 5560 5566 "gToolbox.ml" 156 5560 5575
+type(
+  GEdit.entry
+)
+"gToolbox.ml" 156 5560 5578 "gToolbox.ml" 156 5560 5589
+type(
+  ?text:string ->
+  ?visibility:bool ->
+  ?max_length:int ->
+  ?activates_default:bool ->
+  ?editable:bool ->
+  ?has_frame:bool ->
+  ?width_chars:int ->
+  ?xalign:float ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> GEdit.entry
+)
+ident(
+  ext_ref GEdit.entry
+)
+"gToolbox.ml" 156 5560 5591 "gToolbox.ml" 156 5560 5595
+type(
+  string
+)
+ident(
+  int_ref text "gToolbox.ml" 155 5503 5541 "gToolbox.ml" 155 5503 5545
+)
+"gToolbox.ml" 156 5560 5596 "gToolbox.ml" 156 5560 5598
+type(
+  unit
+)
+"gToolbox.ml" 156 5560 5578 "gToolbox.ml" 156 5560 5598
+call(
+  stack
+)
+type(
+  GEdit.entry
+)
+"gToolbox.ml" 157 5602 5607 "gToolbox.ml" 157 5602 5611
+type(
+  string
+)
+ident(
+  int_ref text "gToolbox.ml" 155 5503 5541 "gToolbox.ml" 155 5503 5545
+)
+"gToolbox.ml" 157 5602 5612 "gToolbox.ml" 157 5602 5614
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gToolbox.ml" 157 5602 5615 "gToolbox.ml" 157 5602 5617
+type(
+  string
+)
+"gToolbox.ml" 157 5602 5607 "gToolbox.ml" 157 5602 5617
+type(
+  bool
+)
+"gToolbox.ml" 158 5623 5627 "gToolbox.ml" 158 5623 5636
+type(
+  GEdit.entry
+)
+ident(
+  int_ref we_chaine "gToolbox.ml" 156 5560 5566 "gToolbox.ml" 156 5560 5575
+)
+"gToolbox.ml" 158 5623 5627 "gToolbox.ml" 158 5623 5650
+call(
+  stack
+)
+type(
+  start:int -> stop:int -> unit
+)
+"gToolbox.ml" 158 5623 5651 "gToolbox.ml" 158 5623 5652
+type(
+  int
+)
+"gToolbox.ml" 158 5623 5654 "gToolbox.ml" 158 5623 5663
+type(
+  GEdit.entry
+)
+ident(
+  int_ref we_chaine "gToolbox.ml" 156 5560 5566 "gToolbox.ml" 156 5560 5575
+)
+"gToolbox.ml" 158 5623 5653 "gToolbox.ml" 158 5623 5676
+call(
+  stack
+)
+type(
+  int
+)
+"gToolbox.ml" 158 5623 5627 "gToolbox.ml" 158 5623 5676
+type(
+  unit
+)
+"gToolbox.ml" 157 5602 5604 "gToolbox.ml" 158 5623 5676
+type(
+  unit
+)
+"gToolbox.ml" 159 5678 5680 "gToolbox.ml" 159 5678 5692
+type(
+  widget:GObj.widget ->
+  event:GObj.event_ops ->
+  get_text:(unit -> string) ->
+  bind_ok:bool ->
+  expand:bool ->
+  title:string -> ?ok:string -> ?cancel:string -> string -> string option
+)
+ident(
+  int_ref input_widget "gToolbox.ml" 110 4097 4101 "gToolbox.ml" 110 4097 4113
+)
+"gToolbox.ml" 159 5678 5701 "gToolbox.ml" 159 5678 5710
+type(
+  GEdit.entry
+)
+ident(
+  int_ref we_chaine "gToolbox.ml" 156 5560 5566 "gToolbox.ml" 156 5560 5575
+)
+"gToolbox.ml" 159 5678 5701 "gToolbox.ml" 159 5678 5717
+call(
+  stack
+)
+type(
+  GObj.widget
+)
+"gToolbox.ml" 159 5678 5725 "gToolbox.ml" 159 5678 5734
+type(
+  GEdit.entry
+)
+ident(
+  int_ref we_chaine "gToolbox.ml" 156 5560 5566 "gToolbox.ml" 156 5560 5575
+)
+"gToolbox.ml" 159 5678 5725 "gToolbox.ml" 159 5678 5740
+call(
+  stack
+)
+type(
+  GObj.event_ops
+)
+"gToolbox.ml" 160 5741 5760 "gToolbox.ml" 160 5741 5762
+type(
+  unit
+)
+"gToolbox.ml" 160 5741 5766 "gToolbox.ml" 160 5741 5775
+type(
+  GEdit.entry
+)
+ident(
+  int_ref we_chaine "gToolbox.ml" 156 5560 5566 "gToolbox.ml" 156 5560 5575
+)
+"gToolbox.ml" 160 5741 5766 "gToolbox.ml" 160 5741 5780
+call(
+  tail
+)
+type(
+  string
+)
+"gToolbox.ml" 160 5741 5755 "gToolbox.ml" 160 5741 5781
+type(
+  unit -> string
+)
+"gToolbox.ml" 160 5741 5791 "gToolbox.ml" 160 5741 5795
+type(
+  bool
+)
+"gToolbox.ml" 161 5796 5809 "gToolbox.ml" 161 5796 5814
+type(
+  bool
+)
+"gToolbox.ml" 162 5815 5820 "gToolbox.ml" 162 5815 5825
+type(
+  string
+)
+ident(
+  int_ref title "gToolbox.ml" 155 5503 5521 "gToolbox.ml" 155 5503 5526
+)
+"gToolbox.ml" 162 5815 5827 "gToolbox.ml" 162 5815 5829
+type(
+  string option
+)
+ident(
+  int_ref ok "gToolbox.ml" 155 5503 5528 "gToolbox.ml" 155 5503 5530
+)
+"gToolbox.ml" 162 5815 5831 "gToolbox.ml" 162 5815 5837
+type(
+  string option
+)
+ident(
+  int_ref cancel "gToolbox.ml" 155 5503 5532 "gToolbox.ml" 155 5503 5538
+)
+"gToolbox.ml" 162 5815 5838 "gToolbox.ml" 162 5815 5845
+type(
+  string
+)
+ident(
+  int_ref message "gToolbox.ml" 155 5503 5550 "gToolbox.ml" 155 5503 5557
+)
+"gToolbox.ml" 159 5678 5680 "gToolbox.ml" 162 5815 5845
+call(
+  tail
+)
+type(
+  string option
+)
+"gToolbox.ml" 157 5602 5604 "gToolbox.ml" 162 5815 5845
+type(
+  string option
+)
+"gToolbox.ml" 156 5560 5562 "gToolbox.ml" 162 5815 5845
+type(
+  string option
+)
+"gToolbox.ml" 165 5848 5852 "gToolbox.ml" 165 5848 5862
+type(
+  title:string ->
+  ?ok:string -> ?cancel:string -> ?text:string -> string -> string option
+)
+ident(
+  def input_text "gToolbox.ml" 184 6502 6502 --
+)
+"gToolbox.ml" 165 5848 5864 "gToolbox.ml" 165 5848 5869
+type(
+  string
+)
+ident(
+  def title "gToolbox.ml" 165 5848 5870 "gToolbox.ml" 180 6361 6420
+)
+"gToolbox.ml" 165 5848 5871 "gToolbox.ml" 165 5848 5873
+type(
+  string option
+)
+ident(
+  def ok "gToolbox.ml" 165 5848 5874 "gToolbox.ml" 180 6361 6420
+)
+"gToolbox.ml" 165 5848 5875 "gToolbox.ml" 165 5848 5881
+type(
+  string option
+)
+ident(
+  def cancel "gToolbox.ml" 165 5848 5882 "gToolbox.ml" 180 6361 6420
+)
+"gToolbox.ml" 165 5848 5884 "gToolbox.ml" 165 5848 5888
+type(
+  string
+)
+"gToolbox.ml" 165 5848 5889 "gToolbox.ml" 165 5848 5891
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "gToolbox.ml" 165 5848 5889 "gToolbox.ml" 165 5848 5891
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "gToolbox.ml" 165 5848 5889 "gToolbox.ml" 165 5848 5891
+)
+"gToolbox.ml" 165 5848 5893 "gToolbox.ml" 165 5848 5900
+type(
+  string
+)
+ident(
+  def message "gToolbox.ml" 166 5903 5905 "gToolbox.ml" 180 6361 6420
+)
+"gToolbox.ml" 166 5903 5909 "gToolbox.ml" 166 5903 5916
+type(
+  GBin.scrolled_window
+)
+"gToolbox.ml" 166 5903 5919 "gToolbox.ml" 166 5903 5939
+type(
+  ?hadjustment:GData.adjustment ->
+  ?vadjustment:GData.adjustment ->
+  ?hpolicy:Gtk.Tags.policy_type ->
+  ?vpolicy:Gtk.Tags.policy_type ->
+  ?placement:Gtk.Tags.corner_type ->
+  ?shadow_type:Gtk.Tags.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) ->
+  ?show:bool -> unit -> GBin.scrolled_window
+)
+ident(
+  ext_ref GBin.scrolled_window
+)
+"gToolbox.ml" 167 5940 5956 "gToolbox.ml" 167 5940 5966
+type(
+  Gtk.Tags.policy_type
+)
+"gToolbox.ml" 168 5967 5983 "gToolbox.ml" 168 5967 5993
+type(
+  Gtk.Tags.policy_type
+)
+"gToolbox.ml" 169 5994 6000 "gToolbox.ml" 169 5994 6002
+type(
+  unit
+)
+"gToolbox.ml" 166 5903 5919 "gToolbox.ml" 169 5994 6002
+call(
+  stack
+)
+type(
+  GBin.scrolled_window
+)
+"gToolbox.ml" 171 6009 6015 "gToolbox.ml" 171 6009 6027
+type(
+  GText.view
+)
+"gToolbox.ml" 171 6009 6030 "gToolbox.ml" 171 6009 6040
+type(
+  ?buffer:GText.buffer ->
+  ?editable:bool ->
+  ?cursor_visible:bool ->
+  ?justification:Gtk.Tags.justification ->
+  ?wrap_mode:Gtk.Tags.wrap_mode ->
+  ?accepts_tab:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> GText.view
+)
+ident(
+  ext_ref GText.view
+)
+"gToolbox.ml" 171 6009 6052 "gToolbox.ml" 171 6009 6056
+type(
+  bool
+)
+"gToolbox.ml" 171 6009 6067 "gToolbox.ml" 171 6009 6074
+type(
+  GBin.scrolled_window
+)
+ident(
+  int_ref wscroll "gToolbox.ml" 166 5903 5909 "gToolbox.ml" 166 5903 5916
+)
+"gToolbox.ml" 171 6009 6067 "gToolbox.ml" 171 6009 6078
+call(
+  stack
+)
+type(
+  GObj.widget -> unit
+)
+"gToolbox.ml" 171 6009 6079 "gToolbox.ml" 171 6009 6081
+type(
+  unit
+)
+"gToolbox.ml" 171 6009 6030 "gToolbox.ml" 171 6009 6081
+call(
+  stack
+)
+type(
+  GText.view
+)
+"gToolbox.ml" 172 6085 6090 "gToolbox.ml" 172 6085 6094
+type(
+  string
+)
+ident(
+  int_ref text "gToolbox.ml" 165 5848 5884 "gToolbox.ml" 165 5848 5888
+)
+"gToolbox.ml" 172 6085 6095 "gToolbox.ml" 172 6085 6097
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gToolbox.ml" 172 6085 6098 "gToolbox.ml" 172 6085 6100
+type(
+  string
+)
+"gToolbox.ml" 172 6085 6090 "gToolbox.ml" 172 6085 6100
+type(
+  bool
+)
+"gToolbox.ml" 173 6112 6116 "gToolbox.ml" 173 6112 6128
+type(
+  GText.view
+)
+ident(
+  int_ref wview_chaine "gToolbox.ml" 171 6009 6015 "gToolbox.ml" 171 6009 6027
+)
+"gToolbox.ml" 173 6112 6116 "gToolbox.ml" 173 6112 6135
+call(
+  stack
+)
+type(
+  GText.buffer
+)
+"gToolbox.ml" 173 6112 6116 "gToolbox.ml" 173 6112 6142
+call(
+  stack
+)
+type(
+  ?iter:GText.iter ->
+  ?tag_names:string list -> ?tags:GText.tag list -> string -> unit
+)
+"gToolbox.ml" 173 6112 6143 "gToolbox.ml" 173 6112 6147
+type(
+  string
+)
+ident(
+  int_ref text "gToolbox.ml" 165 5848 5884 "gToolbox.ml" 165 5848 5888
+)
+"gToolbox.ml" 173 6112 6116 "gToolbox.ml" 173 6112 6147
+type(
+  unit
+)
+"gToolbox.ml" 174 6149 6153 "gToolbox.ml" 174 6149 6165
+type(
+  GText.view
+)
+ident(
+  int_ref wview_chaine "gToolbox.ml" 171 6009 6015 "gToolbox.ml" 171 6009 6027
+)
+"gToolbox.ml" 174 6149 6153 "gToolbox.ml" 174 6149 6172
+call(
+  stack
+)
+type(
+  GText.buffer
+)
+"gToolbox.ml" 174 6149 6153 "gToolbox.ml" 174 6149 6182
+call(
+  stack
+)
+type(
+  GText.mark -> where:GText.iter -> unit
+)
+"gToolbox.ml" 175 6184 6190 "gToolbox.ml" 175 6184 6200
+type(
+  GText.mark
+)
+"gToolbox.ml" 176 6201 6214 "gToolbox.ml" 176 6201 6226
+type(
+  GText.view
+)
+ident(
+  int_ref wview_chaine "gToolbox.ml" 171 6009 6015 "gToolbox.ml" 171 6009 6027
+)
+"gToolbox.ml" 176 6201 6214 "gToolbox.ml" 176 6201 6233
+call(
+  stack
+)
+type(
+  GText.buffer
+)
+"gToolbox.ml" 176 6201 6214 "gToolbox.ml" 176 6201 6244
+call(
+  stack
+)
+type(
+  GText.iter
+)
+"gToolbox.ml" 174 6149 6153 "gToolbox.ml" 176 6201 6245
+type(
+  unit
+)
+"gToolbox.ml" 172 6085 6106 "gToolbox.ml" 177 6246 6251
+type(
+  unit
+)
+"gToolbox.ml" 172 6085 6087 "gToolbox.ml" 177 6246 6251
+type(
+  unit
+)
+"gToolbox.ml" 178 6253 6255 "gToolbox.ml" 178 6253 6267
+type(
+  widget:GObj.widget ->
+  event:GObj.event_ops ->
+  get_text:(unit -> string) ->
+  bind_ok:bool ->
+  expand:bool ->
+  title:string -> ?ok:string -> ?cancel:string -> string -> string option
+)
+ident(
+  int_ref input_widget "gToolbox.ml" 110 4097 4101 "gToolbox.ml" 110 4097 4113
+)
+"gToolbox.ml" 178 6253 6276 "gToolbox.ml" 178 6253 6283
+type(
+  GBin.scrolled_window
+)
+ident(
+  int_ref wscroll "gToolbox.ml" 166 5903 5909 "gToolbox.ml" 166 5903 5916
+)
+"gToolbox.ml" 178 6253 6276 "gToolbox.ml" 178 6253 6290
+call(
+  stack
+)
+type(
+  GObj.widget
+)
+"gToolbox.ml" 178 6253 6298 "gToolbox.ml" 178 6253 6310
+type(
+  GText.view
+)
+ident(
+  int_ref wview_chaine "gToolbox.ml" 171 6009 6015 "gToolbox.ml" 171 6009 6027
+)
+"gToolbox.ml" 178 6253 6298 "gToolbox.ml" 178 6253 6316
+call(
+  stack
+)
+type(
+  GObj.event_ops
+)
+"gToolbox.ml" 179 6317 6332 "gToolbox.ml" 179 6317 6344
+type(
+  GText.view
+)
+ident(
+  int_ref wview_chaine "gToolbox.ml" 171 6009 6015 "gToolbox.ml" 171 6009 6027
+)
+"gToolbox.ml" 179 6317 6332 "gToolbox.ml" 179 6317 6351
+call(
+  stack
+)
+type(
+  GText.buffer
+)
+"gToolbox.ml" 179 6317 6332 "gToolbox.ml" 179 6317 6360
+call(
+  stack
+)
+type(
+  unit -> string
+)
+type(
+  ?start:GText.iter ->
+  ?stop:GText.iter -> ?slice:bool -> ?visible:bool -> unit -> string
+)
+"gToolbox.ml" 180 6361 6374 "gToolbox.ml" 180 6361 6379
+type(
+  bool
+)
+"gToolbox.ml" 180 6361 6389 "gToolbox.ml" 180 6361 6393
+type(
+  bool
+)
+"gToolbox.ml" 180 6361 6395 "gToolbox.ml" 180 6361 6400
+type(
+  string
+)
+ident(
+  int_ref title "gToolbox.ml" 165 5848 5864 "gToolbox.ml" 165 5848 5869
+)
+"gToolbox.ml" 180 6361 6402 "gToolbox.ml" 180 6361 6404
+type(
+  string option
+)
+ident(
+  int_ref ok "gToolbox.ml" 165 5848 5871 "gToolbox.ml" 165 5848 5873
+)
+"gToolbox.ml" 180 6361 6406 "gToolbox.ml" 180 6361 6412
+type(
+  string option
+)
+ident(
+  int_ref cancel "gToolbox.ml" 165 5848 5875 "gToolbox.ml" 165 5848 5881
+)
+"gToolbox.ml" 180 6361 6413 "gToolbox.ml" 180 6361 6420
+type(
+  string
+)
+ident(
+  int_ref message "gToolbox.ml" 165 5848 5893 "gToolbox.ml" 165 5848 5900
+)
+"gToolbox.ml" 178 6253 6255 "gToolbox.ml" 180 6361 6420
+call(
+  tail
+)
+type(
+  string option
+)
+"gToolbox.ml" 172 6085 6087 "gToolbox.ml" 180 6361 6420
+type(
+  string option
+)
+"gToolbox.ml" 171 6009 6011 "gToolbox.ml" 180 6361 6420
+type(
+  string option
+)
+"gToolbox.ml" 166 5903 5905 "gToolbox.ml" 180 6361 6420
+type(
+  string option
+)
+"gToolbox.ml" 184 6502 6506 "gToolbox.ml" 184 6502 6514
+type(
+  string ref
+)
+ident(
+  def last_dir "gToolbox.ml" 186 6525 6525 --
+)
+"gToolbox.ml" 184 6502 6517 "gToolbox.ml" 184 6502 6520
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gToolbox.ml" 184 6502 6521 "gToolbox.ml" 184 6502 6523
+type(
+  string
+)
+"gToolbox.ml" 184 6502 6517 "gToolbox.ml" 184 6502 6523
+type(
+  string ref
+)
+"gToolbox.ml" 186 6525 6529 "gToolbox.ml" 186 6525 6540
+type(
+  title:string ->
+  ?dir:string ref -> ?filename:string -> unit -> string option
+)
+ident(
+  def select_file "gToolbox.ml" 213 7338 7338 --
+)
+"gToolbox.ml" 186 6525 6542 "gToolbox.ml" 186 6525 6547
+type(
+  string
+)
+ident(
+  def title "gToolbox.ml" 186 6525 6548 "gToolbox.ml" 210 7328 7335
+)
+"gToolbox.ml" 186 6525 6550 "gToolbox.ml" 186 6525 6553
+type(
+  string ref
+)
+"gToolbox.ml" 186 6525 6556 "gToolbox.ml" 186 6525 6564
+type(
+  string ref
+)
+ident(
+  int_ref last_dir "gToolbox.ml" 184 6502 6506 "gToolbox.ml" 184 6502 6514
+)
+type(
+  string ref
+)
+ident(
+  int_ref *sth* "gToolbox.ml" 186 6525 6556 "gToolbox.ml" 186 6525 6564
+)
+type(
+  string ref option
+)
+type(
+  string ref option
+)
+type(
+  string ref
+)
+ident(
+  def *sth* "gToolbox.ml" 186 6525 6556 "gToolbox.ml" 186 6525 6564
+)
+"gToolbox.ml" 186 6525 6568 "gToolbox.ml" 186 6525 6576
+type(
+  string
+)
+"gToolbox.ml" 186 6525 6577 "gToolbox.ml" 186 6525 6579
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "gToolbox.ml" 186 6525 6577 "gToolbox.ml" 186 6525 6579
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "gToolbox.ml" 186 6525 6577 "gToolbox.ml" 186 6525 6579
+)
+"gToolbox.ml" 186 6525 6581 "gToolbox.ml" 186 6525 6583
+type(
+  unit
+)
+"gToolbox.ml" 187 6586 6592 "gToolbox.ml" 187 6586 6594
+type(
+  GWindow.file_selection
+)
+"gToolbox.ml" 188 6597 6604 "gToolbox.ml" 188 6597 6624
+type(
+  string -> bool
+)
+ident(
+  ext_ref Filename.is_relative
+)
+"gToolbox.ml" 188 6597 6625 "gToolbox.ml" 188 6597 6633
+type(
+  string
+)
+ident(
+  int_ref filename "gToolbox.ml" 186 6525 6568 "gToolbox.ml" 186 6525 6576
+)
+"gToolbox.ml" 188 6597 6604 "gToolbox.ml" 188 6597 6633
+call(
+  stack
+)
+type(
+  bool
+)
+"gToolbox.ml" 189 6645 6654 "gToolbox.ml" 189 6645 6655
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gToolbox.ml" 189 6645 6655 "gToolbox.ml" 189 6645 6658
+type(
+  string ref
+)
+ident(
+  int_ref dir "gToolbox.ml" 186 6525 6550 "gToolbox.ml" 186 6525 6553
+)
+"gToolbox.ml" 189 6645 6654 "gToolbox.ml" 189 6645 6658
+type(
+  string
+)
+"gToolbox.ml" 189 6645 6659 "gToolbox.ml" 189 6645 6661
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gToolbox.ml" 189 6645 6662 "gToolbox.ml" 189 6645 6664
+type(
+  string
+)
+"gToolbox.ml" 189 6645 6654 "gToolbox.ml" 189 6645 6664
+type(
+  bool
+)
+"gToolbox.ml" 190 6670 6682 "gToolbox.ml" 190 6670 6690
+type(
+  string
+)
+ident(
+  def filename "gToolbox.ml" 191 6727 6735 "gToolbox.ml" 191 6727 6789
+)
+"gToolbox.ml" 190 6670 6693 "gToolbox.ml" 190 6670 6708
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"gToolbox.ml" 190 6670 6709 "gToolbox.ml" 190 6670 6710
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gToolbox.ml" 190 6670 6710 "gToolbox.ml" 190 6670 6713
+type(
+  string ref
+)
+ident(
+  int_ref dir "gToolbox.ml" 186 6525 6550 "gToolbox.ml" 186 6525 6553
+)
+"gToolbox.ml" 190 6670 6709 "gToolbox.ml" 190 6670 6713
+type(
+  string
+)
+"gToolbox.ml" 190 6670 6714 "gToolbox.ml" 190 6670 6722
+type(
+  string
+)
+ident(
+  int_ref filename "gToolbox.ml" 186 6525 6568 "gToolbox.ml" 186 6525 6576
+)
+"gToolbox.ml" 190 6670 6693 "gToolbox.ml" 190 6670 6722
+call(
+  stack
+)
+type(
+  string
+)
+"gToolbox.ml" 191 6727 6735 "gToolbox.ml" 191 6727 6757
+type(
+  ?title:string ->
+  ?show_fileops:bool ->
+  ?filename:string ->
+  ?select_multiple:bool ->
+  ?parent:_#GWindow.window_skel ->
+  ?destroy_with_parent:bool ->
+  ?allow_grow:bool ->
+  ?allow_shrink:bool ->
+  ?decorated:bool ->
+  ?deletable:bool ->
+  ?focus_on_map:bool ->
+  ?icon:GdkPixbuf.pixbuf ->
+  ?icon_name:string ->
+  ?modal:bool ->
+  ?position:Gtk.Tags.window_position ->
+  ?resizable:bool ->
+  ?screen:Gdk.screen ->
+  ?type_hint:Gdk.Tags.window_type_hint ->
+  ?urgency_hint:bool ->
+  ?wm_name:string ->
+  ?wm_class:string ->
+  ?border_width:int ->
+  ?width:int -> ?height:int -> ?show:bool -> unit -> GWindow.file_selection
+)
+ident(
+  ext_ref GWindow.file_selection
+)
+"gToolbox.ml" 191 6727 6765 "gToolbox.ml" 191 6727 6769
+type(
+  bool
+)
+"gToolbox.ml" 191 6727 6771 "gToolbox.ml" 191 6727 6776
+type(
+  string
+)
+ident(
+  int_ref title "gToolbox.ml" 186 6525 6542 "gToolbox.ml" 186 6525 6547
+)
+"gToolbox.ml" 191 6727 6778 "gToolbox.ml" 191 6727 6786
+type(
+  string
+)
+ident(
+  int_ref filename "gToolbox.ml" 190 6670 6682 "gToolbox.ml" 190 6670 6690
+)
+"gToolbox.ml" 191 6727 6787 "gToolbox.ml" 191 6727 6789
+type(
+  unit
+)
+"gToolbox.ml" 191 6727 6735 "gToolbox.ml" 191 6727 6789
+call(
+  stack
+)
+type(
+  GWindow.file_selection
+)
+"gToolbox.ml" 190 6670 6678 "gToolbox.ml" 191 6727 6789
+type(
+  GWindow.file_selection
+)
+"gToolbox.ml" 193 6801 6809 "gToolbox.ml" 193 6801 6831
+type(
+  ?title:string ->
+  ?show_fileops:bool ->
+  ?filename:string ->
+  ?select_multiple:bool ->
+  ?parent:_#GWindow.window_skel ->
+  ?destroy_with_parent:bool ->
+  ?allow_grow:bool ->
+  ?allow_shrink:bool ->
+  ?decorated:bool ->
+  ?deletable:bool ->
+  ?focus_on_map:bool ->
+  ?icon:GdkPixbuf.pixbuf ->
+  ?icon_name:string ->
+  ?modal:bool ->
+  ?position:Gtk.Tags.window_position ->
+  ?resizable:bool ->
+  ?screen:Gdk.screen ->
+  ?type_hint:Gdk.Tags.window_type_hint ->
+  ?urgency_hint:bool ->
+  ?wm_name:string ->
+  ?wm_class:string ->
+  ?border_width:int ->
+  ?width:int -> ?height:int -> ?show:bool -> unit -> GWindow.file_selection
+)
+ident(
+  ext_ref GWindow.file_selection
+)
+"gToolbox.ml" 193 6801 6839 "gToolbox.ml" 193 6801 6843
+type(
+  bool
+)
+"gToolbox.ml" 193 6801 6845 "gToolbox.ml" 193 6801 6850
+type(
+  string
+)
+ident(
+  int_ref title "gToolbox.ml" 186 6525 6542 "gToolbox.ml" 186 6525 6547
+)
+"gToolbox.ml" 193 6801 6851 "gToolbox.ml" 193 6801 6853
+type(
+  unit
+)
+"gToolbox.ml" 193 6801 6809 "gToolbox.ml" 193 6801 6853
+call(
+  stack
+)
+type(
+  GWindow.file_selection
+)
+"gToolbox.ml" 188 6597 6639 "gToolbox.ml" 194 6854 6861
+type(
+  GWindow.file_selection
+)
+"gToolbox.ml" 195 6873 6879 "gToolbox.ml" 195 6873 6882
+type(
+  string ref
+)
+ident(
+  int_ref dir "gToolbox.ml" 186 6525 6550 "gToolbox.ml" 186 6525 6553
+)
+"gToolbox.ml" 195 6873 6883 "gToolbox.ml" 195 6873 6885
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gToolbox.ml" 195 6873 6886 "gToolbox.ml" 195 6873 6902
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.dirname
+)
+"gToolbox.ml" 195 6873 6903 "gToolbox.ml" 195 6873 6911
+type(
+  string
+)
+ident(
+  int_ref filename "gToolbox.ml" 186 6525 6568 "gToolbox.ml" 186 6525 6576
+)
+"gToolbox.ml" 195 6873 6886 "gToolbox.ml" 195 6873 6911
+call(
+  stack
+)
+type(
+  string
+)
+"gToolbox.ml" 195 6873 6879 "gToolbox.ml" 195 6873 6911
+type(
+  unit
+)
+"gToolbox.ml" 196 6913 6919 "gToolbox.ml" 196 6913 6941
+type(
+  ?title:string ->
+  ?show_fileops:bool ->
+  ?filename:string ->
+  ?select_multiple:bool ->
+  ?parent:_#GWindow.window_skel ->
+  ?destroy_with_parent:bool ->
+  ?allow_grow:bool ->
+  ?allow_shrink:bool ->
+  ?decorated:bool ->
+  ?deletable:bool ->
+  ?focus_on_map:bool ->
+  ?icon:GdkPixbuf.pixbuf ->
+  ?icon_name:string ->
+  ?modal:bool ->
+  ?position:Gtk.Tags.window_position ->
+  ?resizable:bool ->
+  ?screen:Gdk.screen ->
+  ?type_hint:Gdk.Tags.window_type_hint ->
+  ?urgency_hint:bool ->
+  ?wm_name:string ->
+  ?wm_class:string ->
+  ?border_width:int ->
+  ?width:int -> ?height:int -> ?show:bool -> unit -> GWindow.file_selection
+)
+ident(
+  ext_ref GWindow.file_selection
+)
+"gToolbox.ml" 196 6913 6949 "gToolbox.ml" 196 6913 6953
+type(
+  bool
+)
+"gToolbox.ml" 196 6913 6955 "gToolbox.ml" 196 6913 6960
+type(
+  string
+)
+ident(
+  int_ref title "gToolbox.ml" 186 6525 6542 "gToolbox.ml" 186 6525 6547
+)
+"gToolbox.ml" 196 6913 6962 "gToolbox.ml" 196 6913 6970
+type(
+  string
+)
+ident(
+  int_ref filename "gToolbox.ml" 186 6525 6568 "gToolbox.ml" 186 6525 6576
+)
+"gToolbox.ml" 196 6913 6971 "gToolbox.ml" 196 6913 6973
+type(
+  unit
+)
+"gToolbox.ml" 196 6913 6919 "gToolbox.ml" 196 6913 6973
+call(
+  stack
+)
+type(
+  GWindow.file_selection
+)
+"gToolbox.ml" 194 6854 6867 "gToolbox.ml" 197 6974 6981
+type(
+  GWindow.file_selection
+)
+"gToolbox.ml" 188 6597 6601 "gToolbox.ml" 197 6974 6981
+type(
+  GWindow.file_selection
+)
+"gToolbox.ml" 199 6987 6989 "gToolbox.ml" 199 6987 6991
+type(
+  GWindow.file_selection
+)
+ident(
+  int_ref fs "gToolbox.ml" 187 6586 6592 "gToolbox.ml" 187 6586 6594
+)
+"gToolbox.ml" 199 6987 6989 "gToolbox.ml" 199 6987 6999
+call(
+  stack
+)
+type(
+  GWindow.Buttons.file_selection GWindow.dialog_signals
+)
+"gToolbox.ml" 199 6987 6989 "gToolbox.ml" 199 6987 7007
+call(
+  stack
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gToolbox.ml" 199 6987 7019 "gToolbox.ml" 199 6987 7034
+type(
+  unit -> unit
+)
+ident(
+  ext_ref GMain.Main.quit
+)
+"gToolbox.ml" 199 6987 6989 "gToolbox.ml" 199 6987 7034
+type(
+  GtkSignal.id
+)
+"gToolbox.ml" 200 7036 7042 "gToolbox.ml" 200 7036 7046
+type(
+  string option ref
+)
+"gToolbox.ml" 200 7036 7049 "gToolbox.ml" 200 7036 7052
+type(
+  string option -> string option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gToolbox.ml" 200 7036 7053 "gToolbox.ml" 200 7036 7057
+type(
+  string option
+)
+"gToolbox.ml" 200 7036 7049 "gToolbox.ml" 200 7036 7057
+type(
+  string option ref
+)
+"gToolbox.ml" 201 7062 7064 "gToolbox.ml" 201 7062 7066
+type(
+  GWindow.file_selection
+)
+ident(
+  int_ref fs "gToolbox.ml" 187 6586 6592 "gToolbox.ml" 187 6586 6594
+)
+"gToolbox.ml" 201 7062 7064 "gToolbox.ml" 201 7062 7076
+call(
+  stack
+)
+type(
+  GButton.button
+)
+"gToolbox.ml" 201 7062 7064 "gToolbox.ml" 201 7062 7084
+call(
+  stack
+)
+type(
+  GButton.button_signals
+)
+"gToolbox.ml" 201 7062 7064 "gToolbox.ml" 201 7062 7092
+call(
+  stack
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gToolbox.ml" 202 7104 7118 "gToolbox.ml" 202 7104 7120
+type(
+  unit
+)
+"gToolbox.ml" 203 7124 7130 "gToolbox.ml" 203 7124 7134
+type(
+  string option ref
+)
+ident(
+  int_ref file "gToolbox.ml" 200 7036 7042 "gToolbox.ml" 200 7036 7046
+)
+"gToolbox.ml" 203 7124 7135 "gToolbox.ml" 203 7124 7137
+type(
+  string option ref -> string option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gToolbox.ml" 203 7124 7143 "gToolbox.ml" 203 7124 7145
+type(
+  GWindow.file_selection
+)
+ident(
+  int_ref fs "gToolbox.ml" 187 6586 6592 "gToolbox.ml" 187 6586 6594
+)
+"gToolbox.ml" 203 7124 7143 "gToolbox.ml" 203 7124 7154
+call(
+  stack
+)
+type(
+  string
+)
+"gToolbox.ml" 203 7124 7138 "gToolbox.ml" 203 7124 7154
+type(
+  string option
+)
+"gToolbox.ml" 203 7124 7130 "gToolbox.ml" 203 7124 7154
+type(
+  unit
+)
+"gToolbox.ml" 204 7157 7163 "gToolbox.ml" 204 7157 7166
+type(
+  string ref
+)
+ident(
+  int_ref dir "gToolbox.ml" 186 6525 6550 "gToolbox.ml" 186 6525 6553
+)
+"gToolbox.ml" 204 7157 7167 "gToolbox.ml" 204 7157 7169
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gToolbox.ml" 204 7157 7170 "gToolbox.ml" 204 7157 7186
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.dirname
+)
+"gToolbox.ml" 204 7157 7187 "gToolbox.ml" 204 7157 7189
+type(
+  GWindow.file_selection
+)
+ident(
+  int_ref fs "gToolbox.ml" 187 6586 6592 "gToolbox.ml" 187 6586 6594
+)
+"gToolbox.ml" 204 7157 7187 "gToolbox.ml" 204 7157 7198
+call(
+  stack
+)
+type(
+  string
+)
+"gToolbox.ml" 204 7157 7170 "gToolbox.ml" 204 7157 7198
+call(
+  stack
+)
+type(
+  string
+)
+"gToolbox.ml" 204 7157 7163 "gToolbox.ml" 204 7157 7198
+type(
+  unit
+)
+"gToolbox.ml" 205 7200 7206 "gToolbox.ml" 205 7200 7208
+type(
+  GWindow.file_selection
+)
+ident(
+  int_ref fs "gToolbox.ml" 187 6586 6592 "gToolbox.ml" 187 6586 6594
+)
+"gToolbox.ml" 205 7200 7206 "gToolbox.ml" 205 7200 7216
+call(
+  tail
+)
+type(
+  unit -> unit
+)
+"gToolbox.ml" 205 7200 7217 "gToolbox.ml" 205 7200 7219
+type(
+  unit
+)
+"gToolbox.ml" 205 7200 7206 "gToolbox.ml" 205 7200 7219
+type(
+  unit
+)
+"gToolbox.ml" 204 7157 7163 "gToolbox.ml" 205 7200 7219
+type(
+  unit
+)
+"gToolbox.ml" 203 7124 7130 "gToolbox.ml" 205 7200 7219
+type(
+  unit
+)
+"gToolbox.ml" 202 7104 7108 "gToolbox.ml" 206 7220 7227
+type(
+  unit -> unit
+)
+"gToolbox.ml" 201 7062 7064 "gToolbox.ml" 206 7220 7227
+type(
+  GtkSignal.id
+)
+"gToolbox.ml" 207 7229 7231 "gToolbox.ml" 207 7229 7233
+type(
+  GWindow.file_selection
+)
+ident(
+  int_ref fs "gToolbox.ml" 187 6586 6592 "gToolbox.ml" 187 6586 6594
+)
+"gToolbox.ml" 207 7229 7231 "gToolbox.ml" 207 7229 7249
+call(
+  stack
+)
+type(
+  GButton.button
+)
+"gToolbox.ml" 207 7229 7231 "gToolbox.ml" 207 7229 7259
+call(
+  stack
+)
+type(
+  GButton.button_signals
+)
+"gToolbox.ml" 207 7229 7231 "gToolbox.ml" 207 7229 7267
+call(
+  stack
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gToolbox.ml" 207 7229 7278 "gToolbox.ml" 207 7229 7280
+type(
+  GWindow.file_selection
+)
+ident(
+  int_ref fs "gToolbox.ml" 187 6586 6592 "gToolbox.ml" 187 6586 6594
+)
+"gToolbox.ml" 207 7229 7278 "gToolbox.ml" 207 7229 7288
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gToolbox.ml" 207 7229 7231 "gToolbox.ml" 207 7229 7288
+type(
+  GtkSignal.id
+)
+"gToolbox.ml" 208 7290 7292 "gToolbox.ml" 208 7290 7294
+type(
+  GWindow.file_selection
+)
+ident(
+  int_ref fs "gToolbox.ml" 187 6586 6592 "gToolbox.ml" 187 6586 6594
+)
+"gToolbox.ml" 208 7290 7292 "gToolbox.ml" 208 7290 7301
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gToolbox.ml" 208 7290 7302 "gToolbox.ml" 208 7290 7304
+type(
+  unit
+)
+"gToolbox.ml" 208 7290 7292 "gToolbox.ml" 208 7290 7304
+type(
+  unit
+)
+"gToolbox.ml" 209 7306 7308 "gToolbox.ml" 209 7306 7323
+type(
+  unit -> unit
+)
+ident(
+  ext_ref GMain.Main.main
+)
+"gToolbox.ml" 209 7306 7324 "gToolbox.ml" 209 7306 7326
+type(
+  unit
+)
+"gToolbox.ml" 209 7306 7308 "gToolbox.ml" 209 7306 7326
+call(
+  stack
+)
+type(
+  unit
+)
+"gToolbox.ml" 210 7328 7330 "gToolbox.ml" 210 7328 7331
+type(
+  string option ref -> string option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gToolbox.ml" 210 7328 7331 "gToolbox.ml" 210 7328 7335
+type(
+  string option ref
+)
+ident(
+  int_ref file "gToolbox.ml" 200 7036 7042 "gToolbox.ml" 200 7036 7046
+)
+"gToolbox.ml" 210 7328 7330 "gToolbox.ml" 210 7328 7335
+type(
+  string option
+)
+"gToolbox.ml" 209 7306 7308 "gToolbox.ml" 210 7328 7335
+type(
+  string option
+)
+"gToolbox.ml" 208 7290 7292 "gToolbox.ml" 210 7328 7335
+type(
+  string option
+)
+"gToolbox.ml" 207 7229 7231 "gToolbox.ml" 210 7328 7335
+type(
+  string option
+)
+"gToolbox.ml" 201 7062 7064 "gToolbox.ml" 210 7328 7335
+type(
+  string option
+)
+"gToolbox.ml" 200 7036 7038 "gToolbox.ml" 210 7328 7335
+type(
+  string option
+)
+"gToolbox.ml" 199 6987 6989 "gToolbox.ml" 210 7328 7335
+type(
+  string option
+)
+"gToolbox.ml" 187 6586 6588 "gToolbox.ml" 210 7328 7335
+type(
+  string option
+)
+"gToolbox.ml" 216 7392 7419 "gToolbox.ml" 216 7392 7423
+type(
+  'a tree
+)
+"gToolbox.ml" 216 7392 7425 "gToolbox.ml" 216 7392 7430
+type(
+  'a -> string
+)
+"gToolbox.ml" 216 7392 7432 "gToolbox.ml" 216 7392 7436
+type(
+  'a -> string
+)
+"gToolbox.ml" 216 7392 7438 "gToolbox.ml" 216 7392 7445
+type(
+  (GObj.widget -> unit) option
+)
+"gToolbox.ml" 216 7392 7447 "gToolbox.ml" 216 7392 7451
+type(
+  bool option
+)
+"gToolbox.ml" 216 7392 7452 "gToolbox.ml" 216 7392 7454
+type(
+  unit
+)
+"gToolbox.ml" 217 7457 7463 "gToolbox.ml" 217 7457 7471
+type(
+  GPack.box
+)
+"gToolbox.ml" 217 7457 7474 "gToolbox.ml" 217 7457 7484
+type(
+  ?homogeneous:bool ->
+  ?spacing:int ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> GPack.box
+)
+ident(
+  ext_ref GPack.vbox
+)
+"gToolbox.ml" 217 7457 7486 "gToolbox.ml" 217 7457 7493
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gToolbox.ml" 216 7392 7438 "gToolbox.ml" 216 7392 7445
+)
+"gToolbox.ml" 217 7457 7495 "gToolbox.ml" 217 7457 7499
+type(
+  bool option
+)
+ident(
+  int_ref show "gToolbox.ml" 216 7392 7447 "gToolbox.ml" 216 7392 7451
+)
+"gToolbox.ml" 217 7457 7500 "gToolbox.ml" 217 7457 7502
+type(
+  unit
+)
+"gToolbox.ml" 217 7457 7474 "gToolbox.ml" 217 7457 7502
+call(
+  stack
+)
+type(
+  GPack.box
+)
+"gToolbox.ml" 219 7566 7572 "gToolbox.ml" 219 7566 7584
+type(
+  GBin.scrolled_window
+)
+"gToolbox.ml" 219 7566 7587 "gToolbox.ml" 219 7566 7607
+type(
+  ?hadjustment:GData.adjustment ->
+  ?vadjustment:GData.adjustment ->
+  ?hpolicy:Gtk.Tags.policy_type ->
+  ?vpolicy:Gtk.Tags.policy_type ->
+  ?placement:Gtk.Tags.corner_type ->
+  ?shadow_type:Gtk.Tags.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) ->
+  ?show:bool -> unit -> GBin.scrolled_window
+)
+ident(
+  ext_ref GBin.scrolled_window
+)
+"gToolbox.ml" 219 7566 7618 "gToolbox.ml" 219 7566 7626
+type(
+  GPack.box
+)
+ident(
+  int_ref main_box "gToolbox.ml" 217 7457 7463 "gToolbox.ml" 217 7457 7471
+)
+"gToolbox.ml" 219 7566 7618 "gToolbox.ml" 219 7566 7630
+call(
+  stack
+)
+type(
+  GObj.widget -> unit
+)
+"gToolbox.ml" 219 7566 7631 "gToolbox.ml" 219 7566 7633
+type(
+  unit
+)
+"gToolbox.ml" 219 7566 7587 "gToolbox.ml" 219 7566 7633
+call(
+  stack
+)
+type(
+  GBin.scrolled_window
+)
+"gToolbox.ml" 221 7678 7684 "gToolbox.ml" 221 7678 7689
+type(
+  GBroken.tree
+)
+"gToolbox.ml" 221 7678 7692 "gToolbox.ml" 221 7678 7704
+type(
+  ?selection_mode:Gtk.Tags.selection_mode ->
+  ?view_mode:[ `ITEM | `LINE ] ->
+  ?view_lines:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> GBroken.tree
+)
+ident(
+  ext_ref GBroken.tree
+)
+"gToolbox.ml" 222 7705 7720 "gToolbox.ml" 222 7705 7732
+type(
+  GBin.scrolled_window
+)
+ident(
+  int_ref wscroll_tree "gToolbox.ml" 219 7566 7572 "gToolbox.ml" 219 7566 7584
+)
+"gToolbox.ml" 222 7705 7720 "gToolbox.ml" 222 7705 7750
+call(
+  stack
+)
+type(
+  GObj.widget -> unit
+)
+"gToolbox.ml" 222 7705 7751 "gToolbox.ml" 222 7705 7753
+type(
+  unit
+)
+"gToolbox.ml" 221 7678 7692 "gToolbox.ml" 222 7705 7753
+call(
+  stack
+)
+type(
+  GBroken.tree
+)
+"gToolbox.ml" 224 7831 7837 "gToolbox.ml" 224 7831 7842
+type(
+  GText.view
+)
+"gToolbox.ml" 224 7831 7845 "gToolbox.ml" 224 7831 7855
+type(
+  ?buffer:GText.buffer ->
+  ?editable:bool ->
+  ?cursor_visible:bool ->
+  ?justification:Gtk.Tags.justification ->
+  ?wrap_mode:Gtk.Tags.wrap_mode ->
+  ?accepts_tab:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> GText.view
+)
+ident(
+  ext_ref GText.view
+)
+"gToolbox.ml" 224 7831 7867 "gToolbox.ml" 224 7831 7872
+type(
+  bool
+)
+"gToolbox.ml" 224 7831 7883 "gToolbox.ml" 224 7831 7891
+type(
+  GPack.box
+)
+ident(
+  int_ref main_box "gToolbox.ml" 217 7457 7463 "gToolbox.ml" 217 7457 7471
+)
+"gToolbox.ml" 224 7831 7883 "gToolbox.ml" 224 7831 7896
+call(
+  stack
+)
+type(
+  GObj.widget -> unit
+)
+type(
+  ?from:Gtk.Tags.pack_type ->
+  ?expand:bool -> ?fill:bool -> ?padding:int -> GObj.widget -> unit
+)
+"gToolbox.ml" 224 7831 7897 "gToolbox.ml" 224 7831 7899
+type(
+  unit
+)
+"gToolbox.ml" 224 7831 7845 "gToolbox.ml" 224 7831 7899
+call(
+  stack
+)
+type(
+  GText.view
+)
+"gToolbox.ml" 227 7935 7959 "gToolbox.ml" 227 7935 7967
+type(
+  GPack.box
+)
+ident(
+  int_ref main_box "gToolbox.ml" 217 7457 7463 "gToolbox.ml" 217 7457 7471
+)
+"gToolbox.ml" 227 7935 7959 "gToolbox.ml" 227 7935 7977
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gToolbox.ml" 228 7978 8006 "gToolbox.ml" 228 7978 8010
+type(
+  'a option
+)
+"gToolbox.ml" 229 8011 8034 "gToolbox.ml" 229 8011 8043
+type(
+  'a option
+)
+type(
+  'a option
+)
+"gToolbox.ml" 230 8044 8071 "gToolbox.ml" 230 8044 8073
+type(
+  unit
+)
+"gToolbox.ml" 230 8044 8089 "gToolbox.ml" 230 8044 8093
+type(
+  'a option
+)
+"gToolbox.ml" 230 8044 8076 "gToolbox.ml" 230 8044 8093
+type(
+  unit
+)
+"gToolbox.ml" 231 8094 8113 "gToolbox.ml" 231 8094 8118
+type(
+  GBroken.tree
+)
+type(
+  GBroken.tree
+)
+"gToolbox.ml" 232 8119 8138 "gToolbox.ml" 232 8119 8143
+type(
+  GText.view
+)
+type(
+  GText.view
+)
+"gToolbox.ml" 235 8161 8175 "gToolbox.ml" 235 8161 8186
+type(
+  GBroken.tree -> 'a tree -> unit
+)
+"gToolbox.ml" 235 8161 8187 "gToolbox.ml" 235 8161 8189
+type(
+  GBroken.tree
+)
+ident(
+  def wt "gToolbox.ml" 235 8161 8190 "gToolbox.ml" 262 9116 9179
+)
+"gToolbox.ml" 235 8161 8191 "gToolbox.ml" 235 8161 8192
+type(
+  'a tree
+)
+ident(
+  def t "gToolbox.ml" 236 8206 8214 "gToolbox.ml" 262 9116 9179
+)
+"gToolbox.ml" 236 8206 8218 "gToolbox.ml" 236 8206 8222
+type(
+  'a
+)
+"gToolbox.ml" 236 8206 8224 "gToolbox.ml" 236 8206 8232
+type(
+  'a tree list
+)
+"gToolbox.ml" 236 8206 8218 "gToolbox.ml" 236 8206 8232
+type(
+  'a * 'a tree list
+)
+"gToolbox.ml" 237 8235 8251 "gToolbox.ml" 237 8235 8252
+type(
+  'a tree
+)
+ident(
+  int_ref t "gToolbox.ml" 235 8161 8191 "gToolbox.ml" 235 8161 8192
+)
+"gToolbox.ml" 237 8235 8261 "gToolbox.ml" 237 8235 8262
+type(
+  'a
+)
+ident(
+  def d "gToolbox.ml" 237 8235 8266 "gToolbox.ml" 237 8235 8271
+)
+"gToolbox.ml" 237 8235 8258 "gToolbox.ml" 237 8235 8262
+type(
+  'a tree
+)
+"gToolbox.ml" 237 8235 8266 "gToolbox.ml" 237 8235 8267
+type(
+  'a
+)
+ident(
+  int_ref d "gToolbox.ml" 237 8235 8261 "gToolbox.ml" 237 8235 8262
+)
+"gToolbox.ml" 237 8235 8269 "gToolbox.ml" 237 8235 8271
+type(
+  'a tree list
+)
+"gToolbox.ml" 237 8235 8266 "gToolbox.ml" 237 8235 8271
+type(
+  'a * 'a tree list
+)
+"gToolbox.ml" 237 8235 8277 "gToolbox.ml" 237 8235 8278
+type(
+  'a
+)
+ident(
+  def d "gToolbox.ml" 237 8235 8285 "gToolbox.ml" 237 8235 8289
+)
+"gToolbox.ml" 237 8235 8279 "gToolbox.ml" 237 8235 8280
+type(
+  'a tree list
+)
+ident(
+  def c "gToolbox.ml" 237 8235 8285 "gToolbox.ml" 237 8235 8289
+)
+"gToolbox.ml" 237 8235 8276 "gToolbox.ml" 237 8235 8281
+type(
+  'a * 'a tree list
+)
+"gToolbox.ml" 237 8235 8274 "gToolbox.ml" 237 8235 8281
+type(
+  'a tree
+)
+"gToolbox.ml" 237 8235 8285 "gToolbox.ml" 237 8235 8286
+type(
+  'a
+)
+ident(
+  int_ref d "gToolbox.ml" 237 8235 8277 "gToolbox.ml" 237 8235 8278
+)
+"gToolbox.ml" 237 8235 8288 "gToolbox.ml" 237 8235 8289
+type(
+  'a tree list
+)
+ident(
+  int_ref c "gToolbox.ml" 237 8235 8279 "gToolbox.ml" 237 8235 8280
+)
+"gToolbox.ml" 237 8235 8285 "gToolbox.ml" 237 8235 8289
+type(
+  'a * 'a tree list
+)
+"gToolbox.ml" 237 8235 8245 "gToolbox.ml" 237 8235 8289
+type(
+  'a * 'a tree list
+)
+"gToolbox.ml" 238 8293 8305 "gToolbox.ml" 238 8293 8309
+type(
+  GBroken.tree_item
+)
+"gToolbox.ml" 238 8293 8312 "gToolbox.ml" 238 8293 8329
+type(
+  ?label:string ->
+  ?packing:(GBroken.tree_item -> unit) ->
+  ?show:bool -> unit -> GBroken.tree_item
+)
+ident(
+  ext_ref GBroken.tree_item
+)
+"gToolbox.ml" 238 8293 8339 "gToolbox.ml" 238 8293 8344
+type(
+  'a -> string
+)
+"gToolbox.ml" 238 8293 8345 "gToolbox.ml" 238 8293 8349
+type(
+  'a
+)
+ident(
+  int_ref data "gToolbox.ml" 236 8206 8218 "gToolbox.ml" 236 8206 8222
+)
+"gToolbox.ml" 238 8293 8338 "gToolbox.ml" 238 8293 8350
+call(
+  stack
+)
+type(
+  string
+)
+"gToolbox.ml" 238 8293 8351 "gToolbox.ml" 238 8293 8353
+type(
+  unit
+)
+"gToolbox.ml" 238 8293 8312 "gToolbox.ml" 238 8293 8353
+call(
+  stack
+)
+type(
+  GBroken.tree_item
+)
+"gToolbox.ml" 239 8357 8365 "gToolbox.ml" 239 8357 8367
+type(
+  GBroken.tree
+)
+ident(
+  int_ref wt "gToolbox.ml" 235 8161 8187 "gToolbox.ml" 235 8161 8189
+)
+"gToolbox.ml" 239 8357 8365 "gToolbox.ml" 239 8357 8374
+call(
+  stack
+)
+type(
+  GBroken.tree_item -> pos:int -> unit
+)
+"gToolbox.ml" 239 8357 8375 "gToolbox.ml" 239 8357 8379
+type(
+  GBroken.tree_item
+)
+ident(
+  int_ref item "gToolbox.ml" 238 8293 8305 "gToolbox.ml" 238 8293 8309
+)
+"gToolbox.ml" 239 8357 8386 "gToolbox.ml" 239 8357 8387
+type(
+  int
+)
+"gToolbox.ml" 239 8357 8365 "gToolbox.ml" 239 8357 8387
+type(
+  unit
+)
+"gToolbox.ml" 240 8389 8397 "gToolbox.ml" 240 8389 8401
+type(
+  GBroken.tree_item
+)
+ident(
+  int_ref item "gToolbox.ml" 238 8293 8305 "gToolbox.ml" 238 8293 8309
+)
+"gToolbox.ml" 240 8389 8397 "gToolbox.ml" 240 8389 8409
+call(
+  stack
+)
+type(
+  GBroken.tree_item_signals
+)
+"gToolbox.ml" 240 8389 8397 "gToolbox.ml" 240 8389 8416
+call(
+  stack
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gToolbox.ml" 241 8428 8448 "gToolbox.ml" 241 8428 8450
+type(
+  unit
+)
+"gToolbox.ml" 242 8455 8478 "gToolbox.ml" 242 8455 8482
+type(
+  'a
+)
+ident(
+  int_ref data "gToolbox.ml" 236 8206 8218 "gToolbox.ml" 236 8206 8222
+)
+"gToolbox.ml" 242 8455 8473 "gToolbox.ml" 242 8455 8482
+type(
+  'a option
+)
+"gToolbox.ml" 242 8455 8460 "gToolbox.ml" 242 8455 8482
+type(
+  unit
+)
+"gToolbox.ml" 243 8484 8489 "gToolbox.ml" 243 8484 8494
+type(
+  GText.view
+)
+"gToolbox.ml" 243 8484 8489 "gToolbox.ml" 243 8484 8501
+call(
+  stack
+)
+type(
+  GText.buffer
+)
+"gToolbox.ml" 243 8484 8489 "gToolbox.ml" 243 8484 8508
+call(
+  stack
+)
+type(
+  start:GText.iter -> stop:GText.iter -> unit
+)
+"gToolbox.ml" 243 8484 8517 "gToolbox.ml" 243 8484 8522
+type(
+  GText.view
+)
+"gToolbox.ml" 243 8484 8517 "gToolbox.ml" 243 8484 8529
+call(
+  stack
+)
+type(
+  GText.buffer
+)
+"gToolbox.ml" 243 8484 8517 "gToolbox.ml" 243 8484 8540
+call(
+  stack
+)
+type(
+  GText.iter
+)
+"gToolbox.ml" 243 8484 8547 "gToolbox.ml" 243 8484 8552
+type(
+  GText.view
+)
+"gToolbox.ml" 243 8484 8547 "gToolbox.ml" 243 8484 8559
+call(
+  stack
+)
+type(
+  GText.buffer
+)
+"gToolbox.ml" 243 8484 8547 "gToolbox.ml" 243 8484 8568
+call(
+  stack
+)
+type(
+  GText.iter
+)
+"gToolbox.ml" 243 8484 8489 "gToolbox.ml" 243 8484 8568
+type(
+  unit
+)
+"gToolbox.ml" 244 8571 8583 "gToolbox.ml" 244 8571 8588
+type(
+  GText.view
+)
+"gToolbox.ml" 244 8571 8583 "gToolbox.ml" 244 8571 8595
+call(
+  stack
+)
+type(
+  GText.buffer
+)
+"gToolbox.ml" 244 8571 8583 "gToolbox.ml" 244 8571 8602
+call(
+  stack
+)
+type(
+  ?iter:GText.iter ->
+  ?tag_names:string list -> ?tags:GText.tag list -> string -> unit
+)
+"gToolbox.ml" 244 8571 8610 "gToolbox.ml" 244 8571 8615
+type(
+  GText.view
+)
+"gToolbox.ml" 244 8571 8610 "gToolbox.ml" 244 8571 8622
+call(
+  stack
+)
+type(
+  GText.buffer
+)
+"gToolbox.ml" 244 8571 8610 "gToolbox.ml" 244 8571 8633
+call(
+  stack
+)
+type(
+  GText.iter
+)
+"gToolbox.ml" 244 8571 8635 "gToolbox.ml" 244 8571 8639
+type(
+  'a -> string
+)
+"gToolbox.ml" 244 8571 8640 "gToolbox.ml" 244 8571 8644
+type(
+  'a
+)
+ident(
+  int_ref data "gToolbox.ml" 236 8206 8218 "gToolbox.ml" 236 8206 8222
+)
+"gToolbox.ml" 244 8571 8634 "gToolbox.ml" 244 8571 8645
+call(
+  stack
+)
+type(
+  string
+)
+"gToolbox.ml" 244 8571 8583 "gToolbox.ml" 244 8571 8645
+type(
+  unit
+)
+"gToolbox.ml" 245 8647 8652 "gToolbox.ml" 245 8647 8654
+type(
+  unit
+)
+"gToolbox.ml" 244 8571 8583 "gToolbox.ml" 245 8647 8654
+type(
+  unit
+)
+"gToolbox.ml" 243 8484 8489 "gToolbox.ml" 245 8647 8654
+type(
+  unit
+)
+"gToolbox.ml" 242 8455 8460 "gToolbox.ml" 245 8647 8654
+type(
+  unit
+)
+"gToolbox.ml" 241 8428 8438 "gToolbox.ml" 246 8655 8668
+type(
+  unit -> unit
+)
+"gToolbox.ml" 240 8389 8397 "gToolbox.ml" 246 8655 8668
+type(
+  GtkSignal.id
+)
+"gToolbox.ml" 247 8670 8678 "gToolbox.ml" 247 8670 8682
+type(
+  GBroken.tree_item
+)
+ident(
+  int_ref item "gToolbox.ml" 238 8293 8305 "gToolbox.ml" 238 8293 8309
+)
+"gToolbox.ml" 247 8670 8678 "gToolbox.ml" 247 8670 8690
+call(
+  stack
+)
+type(
+  GBroken.tree_item_signals
+)
+"gToolbox.ml" 247 8670 8678 "gToolbox.ml" 247 8670 8699
+call(
+  stack
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gToolbox.ml" 248 8711 8731 "gToolbox.ml" 248 8711 8733
+type(
+  unit
+)
+"gToolbox.ml" 249 8737 8755 "gToolbox.ml" 249 8737 8759
+type(
+  'a option
+)
+"gToolbox.ml" 249 8737 8742 "gToolbox.ml" 249 8737 8759
+type(
+  unit
+)
+"gToolbox.ml" 250 8761 8766 "gToolbox.ml" 250 8761 8771
+type(
+  GText.view
+)
+"gToolbox.ml" 250 8761 8766 "gToolbox.ml" 250 8761 8778
+call(
+  stack
+)
+type(
+  GText.buffer
+)
+"gToolbox.ml" 250 8761 8766 "gToolbox.ml" 250 8761 8787
+call(
+  tail
+)
+type(
+  string -> unit
+)
+"gToolbox.ml" 250 8761 8788 "gToolbox.ml" 250 8761 8790
+type(
+  string
+)
+"gToolbox.ml" 250 8761 8766 "gToolbox.ml" 250 8761 8791
+type(
+  unit
+)
+"gToolbox.ml" 249 8737 8742 "gToolbox.ml" 250 8761 8791
+type(
+  unit
+)
+"gToolbox.ml" 248 8711 8721 "gToolbox.ml" 251 8792 8805
+type(
+  unit -> unit
+)
+"gToolbox.ml" 247 8670 8678 "gToolbox.ml" 251 8792 8805
+type(
+  GtkSignal.id
+)
+"gToolbox.ml" 252 8807 8821 "gToolbox.ml" 252 8807 8829
+type(
+  'a tree list
+)
+ident(
+  int_ref children "gToolbox.ml" 236 8206 8224 "gToolbox.ml" 236 8206 8232
+)
+"gToolbox.ml" 253 8835 8845 "gToolbox.ml" 253 8835 8847
+type(
+  'a tree list
+)
+"gToolbox.ml" 255 8888 8900 "gToolbox.ml" 255 8888 8902
+type(
+  unit
+)
+"gToolbox.ml" 256 8903 8913 "gToolbox.ml" 256 8903 8914
+type(
+  'a tree list
+)
+ident(
+  def l "gToolbox.ml" 258 8967 8979 "gToolbox.ml" 262 9116 9179
+)
+"gToolbox.ml" 258 8967 8983 "gToolbox.ml" 258 8967 8990
+type(
+  GBroken.tree
+)
+"gToolbox.ml" 258 8967 8993 "gToolbox.ml" 258 8967 9005
+type(
+  ?selection_mode:Gtk.Tags.selection_mode ->
+  ?view_mode:[ `ITEM | `LINE ] ->
+  ?view_lines:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> GBroken.tree
+)
+ident(
+  ext_ref GBroken.tree
+)
+"gToolbox.ml" 258 8967 9006 "gToolbox.ml" 258 8967 9008
+type(
+  unit
+)
+"gToolbox.ml" 258 8967 8993 "gToolbox.ml" 258 8967 9008
+call(
+  stack
+)
+type(
+  GBroken.tree
+)
+"gToolbox.ml" 259 9012 9024 "gToolbox.ml" 259 9012 9028
+type(
+  GBroken.tree_item
+)
+ident(
+  int_ref item "gToolbox.ml" 238 8293 8305 "gToolbox.ml" 238 8293 8309
+)
+"gToolbox.ml" 259 9012 9024 "gToolbox.ml" 259 9012 9040
+call(
+  stack
+)
+type(
+  GBroken.tree -> unit
+)
+"gToolbox.ml" 259 9012 9041 "gToolbox.ml" 259 9012 9048
+type(
+  GBroken.tree
+)
+ident(
+  int_ref newtree "gToolbox.ml" 258 8967 8983 "gToolbox.ml" 258 8967 8990
+)
+"gToolbox.ml" 259 9012 9024 "gToolbox.ml" 259 9012 9048
+type(
+  unit
+)
+"gToolbox.ml" 260 9050 9062 "gToolbox.ml" 260 9050 9066
+type(
+  GBroken.tree_item
+)
+ident(
+  int_ref item "gToolbox.ml" 238 8293 8305 "gToolbox.ml" 238 8293 8309
+)
+"gToolbox.ml" 260 9050 9062 "gToolbox.ml" 260 9050 9073
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gToolbox.ml" 260 9050 9074 "gToolbox.ml" 260 9050 9076
+type(
+  unit
+)
+"gToolbox.ml" 260 9050 9062 "gToolbox.ml" 260 9050 9076
+type(
+  unit
+)
+"gToolbox.ml" 262 9116 9128 "gToolbox.ml" 262 9116 9137
+type(
+  f:('a tree -> unit) -> 'a tree list -> unit
+)
+ident(
+  ext_ref StdLabels.List.iter
+)
+"gToolbox.ml" 262 9116 9139 "gToolbox.ml" 262 9116 9150
+type(
+  GBroken.tree -> 'a tree -> unit
+)
+ident(
+  int_ref insert_node "gToolbox.ml" 235 8161 8175 "gToolbox.ml" 235 8161 8186
+)
+"gToolbox.ml" 262 9116 9151 "gToolbox.ml" 262 9116 9158
+type(
+  GBroken.tree
+)
+ident(
+  int_ref newtree "gToolbox.ml" 258 8967 8983 "gToolbox.ml" 258 8967 8990
+)
+"gToolbox.ml" 262 9116 9138 "gToolbox.ml" 262 9116 9159
+call(
+  stack
+)
+type(
+  'a tree -> unit
+)
+"gToolbox.ml" 262 9116 9161 "gToolbox.ml" 262 9116 9169
+type(
+  'a tree list -> 'a tree list
+)
+ident(
+  ext_ref StdLabels.List.rev
+)
+"gToolbox.ml" 262 9116 9170 "gToolbox.ml" 262 9116 9178
+type(
+  'a tree list
+)
+ident(
+  int_ref children "gToolbox.ml" 236 8206 8224 "gToolbox.ml" 236 8206 8232
+)
+"gToolbox.ml" 262 9116 9160 "gToolbox.ml" 262 9116 9179
+call(
+  stack
+)
+type(
+  'a tree list
+)
+"gToolbox.ml" 262 9116 9128 "gToolbox.ml" 262 9116 9179
+call(
+  tail
+)
+type(
+  unit
+)
+"gToolbox.ml" 260 9050 9062 "gToolbox.ml" 262 9116 9179
+type(
+  unit
+)
+"gToolbox.ml" 259 9012 9024 "gToolbox.ml" 262 9116 9179
+type(
+  unit
+)
+"gToolbox.ml" 258 8967 8979 "gToolbox.ml" 262 9116 9179
+type(
+  unit
+)
+"gToolbox.ml" 252 8807 8815 "gToolbox.ml" 262 9116 9179
+type(
+  unit
+)
+"gToolbox.ml" 247 8670 8678 "gToolbox.ml" 262 9116 9179
+type(
+  unit
+)
+"gToolbox.ml" 240 8389 8397 "gToolbox.ml" 262 9116 9179
+type(
+  unit
+)
+"gToolbox.ml" 239 8357 8365 "gToolbox.ml" 262 9116 9179
+type(
+  unit
+)
+"gToolbox.ml" 238 8293 8301 "gToolbox.ml" 262 9116 9179
+type(
+  unit
+)
+"gToolbox.ml" 236 8206 8214 "gToolbox.ml" 262 9116 9179
+type(
+  unit
+)
+"gToolbox.ml" 264 9189 9195 "gToolbox.ml" 264 9189 9206
+type(
+  GBroken.tree -> 'a tree -> unit
+)
+ident(
+  int_ref insert_node "gToolbox.ml" 235 8161 8175 "gToolbox.ml" 235 8161 8186
+)
+"gToolbox.ml" 264 9189 9207 "gToolbox.ml" 264 9189 9212
+type(
+  GBroken.tree
+)
+"gToolbox.ml" 264 9189 9213 "gToolbox.ml" 264 9189 9217
+type(
+  'a tree
+)
+"gToolbox.ml" 264 9189 9195 "gToolbox.ml" 264 9189 9217
+call(
+  tail
+)
+type(
+  unit
+)
+"gToolbox.ml" 235 8161 8167 "gToolbox.ml" 264 9189 9217
+type(
+  < as_widget : Gtk.widget Gtk.obj; clear_selection : unit -> unit;
+    coerce : GObj.widget; destroy : unit -> unit; drag : GObj.drag_ops;
+    get_oid : int; misc : GObj.misc_ops; selection : 'a option;
+    wtree : GBroken.tree; wview : GText.view; .. > ->
+  unit
+)
+type(
+  unit
+)
+"gToolbox.ml" 267 9225 9229 "gToolbox.ml" 267 9225 9250
+type(
+  tree:'a tree ->
+  label:('a -> string) ->
+  info:('a -> string) ->
+  title:string ->
+  ?ok:string ->
+  ?cancel:string ->
+  ?width:int -> ?height:int -> ?show:bool -> unit -> 'a option
+)
+ident(
+  def tree_selection_dialog "gToolbox.ml" 296 10107 10107 --
+)
+"gToolbox.ml" 267 9225 9252 "gToolbox.ml" 267 9225 9256
+type(
+  'a tree
+)
+ident(
+  def tree "gToolbox.ml" 267 9225 9257 "gToolbox.ml" 291 10077 10091
+)
+"gToolbox.ml" 267 9225 9258 "gToolbox.ml" 267 9225 9263
+type(
+  'a -> string
+)
+ident(
+  def label "gToolbox.ml" 267 9225 9264 "gToolbox.ml" 291 10077 10091
+)
+"gToolbox.ml" 267 9225 9265 "gToolbox.ml" 267 9225 9269
+type(
+  'a -> string
+)
+ident(
+  def info "gToolbox.ml" 267 9225 9270 "gToolbox.ml" 291 10077 10091
+)
+"gToolbox.ml" 267 9225 9271 "gToolbox.ml" 267 9225 9276
+type(
+  string
+)
+ident(
+  def title "gToolbox.ml" 268 9277 9281 "gToolbox.ml" 291 10077 10091
+)
+"gToolbox.ml" 268 9277 9283 "gToolbox.ml" 268 9277 9285
+type(
+  string
+)
+"gToolbox.ml" 268 9277 9286 "gToolbox.ml" 268 9277 9289
+type(
+  string
+)
+ident(
+  int_ref mOk "gToolbox.ml" 70 2855 2859 "gToolbox.ml" 70 2855 2862
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "gToolbox.ml" 268 9277 9286 "gToolbox.ml" 268 9277 9289
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "gToolbox.ml" 268 9277 9286 "gToolbox.ml" 268 9277 9289
+)
+"gToolbox.ml" 268 9277 9293 "gToolbox.ml" 268 9277 9299
+type(
+  string
+)
+"gToolbox.ml" 268 9277 9300 "gToolbox.ml" 268 9277 9307
+type(
+  string
+)
+ident(
+  int_ref mCancel "gToolbox.ml" 71 2870 2874 "gToolbox.ml" 71 2870 2881
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "gToolbox.ml" 268 9277 9300 "gToolbox.ml" 268 9277 9307
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "gToolbox.ml" 268 9277 9300 "gToolbox.ml" 268 9277 9307
+)
+"gToolbox.ml" 268 9277 9311 "gToolbox.ml" 268 9277 9316
+type(
+  int
+)
+"gToolbox.ml" 268 9277 9317 "gToolbox.ml" 268 9277 9320
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gToolbox.ml" 268 9277 9317 "gToolbox.ml" 268 9277 9320
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gToolbox.ml" 268 9277 9317 "gToolbox.ml" 268 9277 9320
+)
+"gToolbox.ml" 268 9277 9324 "gToolbox.ml" 268 9277 9330
+type(
+  int
+)
+"gToolbox.ml" 268 9277 9331 "gToolbox.ml" 268 9277 9334
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gToolbox.ml" 268 9277 9331 "gToolbox.ml" 268 9277 9334
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gToolbox.ml" 268 9277 9331 "gToolbox.ml" 268 9277 9334
+)
+"gToolbox.ml" 269 9336 9341 "gToolbox.ml" 269 9336 9345
+type(
+  bool option
+)
+ident(
+  def show "gToolbox.ml" 269 9336 9346 "gToolbox.ml" 291 10077 10091
+)
+"gToolbox.ml" 269 9336 9346 "gToolbox.ml" 269 9336 9348
+type(
+  unit
+)
+"gToolbox.ml" 270 9351 9357 "gToolbox.ml" 270 9351 9363
+type(
+  _[> `DELETE_EVENT ] GWindow.dialog
+)
+"gToolbox.ml" 270 9351 9366 "gToolbox.ml" 270 9351 9380
+type(
+  ?no_separator:bool ->
+  ?parent:_#GWindow.window_skel ->
+  ?destroy_with_parent:bool ->
+  ?title:string ->
+  ?allow_grow:bool ->
+  ?allow_shrink:bool ->
+  ?decorated:bool ->
+  ?deletable:bool ->
+  ?focus_on_map:bool ->
+  ?icon:GdkPixbuf.pixbuf ->
+  ?icon_name:string ->
+  ?modal:bool ->
+  ?position:Gtk.Tags.window_position ->
+  ?resizable:bool ->
+  ?screen:Gdk.screen ->
+  ?type_hint:Gdk.Tags.window_type_hint ->
+  ?urgency_hint:bool ->
+  ?wm_name:string ->
+  ?wm_class:string ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?show:bool -> unit -> (_[> `DELETE_EVENT ] as 'b) GWindow.dialog
+)
+ident(
+  ext_ref GWindow.dialog
+)
+"gToolbox.ml" 270 9351 9388 "gToolbox.ml" 270 9351 9392
+type(
+  bool
+)
+"gToolbox.ml" 270 9351 9394 "gToolbox.ml" 270 9351 9399
+type(
+  string
+)
+ident(
+  int_ref title "gToolbox.ml" 267 9225 9271 "gToolbox.ml" 267 9225 9276
+)
+"gToolbox.ml" 270 9351 9401 "gToolbox.ml" 270 9351 9406
+type(
+  int
+)
+ident(
+  int_ref width "gToolbox.ml" 268 9277 9311 "gToolbox.ml" 268 9277 9316
+)
+"gToolbox.ml" 270 9351 9408 "gToolbox.ml" 270 9351 9414
+type(
+  int
+)
+ident(
+  int_ref height "gToolbox.ml" 268 9277 9324 "gToolbox.ml" 268 9277 9330
+)
+"gToolbox.ml" 270 9351 9416 "gToolbox.ml" 270 9351 9420
+type(
+  bool option
+)
+ident(
+  int_ref show "gToolbox.ml" 269 9336 9341 "gToolbox.ml" 269 9336 9345
+)
+"gToolbox.ml" 270 9351 9421 "gToolbox.ml" 270 9351 9423
+type(
+  unit
+)
+"gToolbox.ml" 270 9351 9366 "gToolbox.ml" 270 9351 9423
+call(
+  stack
+)
+type(
+  'b GWindow.dialog
+)
+"gToolbox.ml" 272 9458 9464 "gToolbox.ml" 272 9458 9466
+type(
+  'a tree_selection
+)
+"gToolbox.ml" 272 9458 9469 "gToolbox.ml" 272 9458 9487
+type(
+  tree:'a tree ->
+  label:('a -> string) ->
+  info:('a -> string) ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'a tree_selection
+)
+"gToolbox.ml" 272 9458 9489 "gToolbox.ml" 272 9458 9493
+type(
+  'a tree
+)
+ident(
+  int_ref tree "gToolbox.ml" 267 9225 9252 "gToolbox.ml" 267 9225 9256
+)
+"gToolbox.ml" 272 9458 9495 "gToolbox.ml" 272 9458 9500
+type(
+  'a -> string
+)
+ident(
+  int_ref label "gToolbox.ml" 267 9225 9258 "gToolbox.ml" 267 9225 9263
+)
+"gToolbox.ml" 272 9458 9502 "gToolbox.ml" 272 9458 9506
+type(
+  'a -> string
+)
+ident(
+  int_ref info "gToolbox.ml" 267 9225 9265 "gToolbox.ml" 267 9225 9269
+)
+"gToolbox.ml" 273 9507 9522 "gToolbox.ml" 273 9507 9528
+type(
+  'b GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 270 9351 9357 "gToolbox.ml" 270 9351 9363
+)
+"gToolbox.ml" 273 9507 9522 "gToolbox.ml" 273 9507 9533
+call(
+  stack
+)
+type(
+  GPack.box
+)
+"gToolbox.ml" 273 9507 9522 "gToolbox.ml" 273 9507 9537
+call(
+  stack
+)
+type(
+  GObj.widget -> unit
+)
+"gToolbox.ml" 273 9507 9538 "gToolbox.ml" 273 9507 9540
+type(
+  unit
+)
+"gToolbox.ml" 272 9458 9469 "gToolbox.ml" 273 9507 9540
+call(
+  stack
+)
+type(
+  'a tree_selection
+)
+"gToolbox.ml" 277 9601 9607 "gToolbox.ml" 277 9601 9611
+type(
+  GPack.button_box
+)
+"gToolbox.ml" 277 9601 9614 "gToolbox.ml" 277 9601 9620
+type(
+  'b GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 270 9351 9357 "gToolbox.ml" 270 9351 9363
+)
+"gToolbox.ml" 277 9601 9614 "gToolbox.ml" 277 9601 9632
+call(
+  stack
+)
+type(
+  GPack.button_box
+)
+"gToolbox.ml" 279 9637 9643 "gToolbox.ml" 279 9637 9646
+type(
+  GButton.button
+)
+"gToolbox.ml" 279 9637 9649 "gToolbox.ml" 279 9637 9663
+type(
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:Gtk.Tags.relief_style ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> GButton.button
+)
+ident(
+  ext_ref GButton.button
+)
+"gToolbox.ml" 279 9637 9672 "gToolbox.ml" 279 9637 9674
+type(
+  string
+)
+ident(
+  int_ref ok "gToolbox.ml" 268 9277 9283 "gToolbox.ml" 268 9277 9285
+)
+"gToolbox.ml" 280 9675 9691 "gToolbox.ml" 280 9675 9695
+type(
+  GPack.button_box
+)
+ident(
+  int_ref hbox "gToolbox.ml" 277 9601 9607 "gToolbox.ml" 277 9601 9611
+)
+"gToolbox.ml" 280 9675 9691 "gToolbox.ml" 280 9675 9700
+call(
+  stack
+)
+type(
+  ?from:Gtk.Tags.pack_type ->
+  ?expand:bool -> ?fill:bool -> ?padding:int -> GObj.widget -> unit
+)
+"gToolbox.ml" 280 9675 9710 "gToolbox.ml" 280 9675 9711
+type(
+  int
+)
+"gToolbox.ml" 280 9675 9721 "gToolbox.ml" 280 9675 9725
+type(
+  bool
+)
+"gToolbox.ml" 280 9675 9690 "gToolbox.ml" 280 9675 9726
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+type(
+  ?from:Gtk.Tags.pack_type -> ?fill:bool -> GObj.widget -> unit
+)
+"gToolbox.ml" 280 9675 9727 "gToolbox.ml" 280 9675 9729
+type(
+  unit
+)
+"gToolbox.ml" 279 9637 9649 "gToolbox.ml" 280 9675 9729
+call(
+  stack
+)
+type(
+  GButton.button
+)
+"gToolbox.ml" 282 9735 9741 "gToolbox.ml" 282 9735 9748
+type(
+  GButton.button
+)
+"gToolbox.ml" 282 9735 9751 "gToolbox.ml" 282 9735 9765
+type(
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:Gtk.Tags.relief_style ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> GButton.button
+)
+ident(
+  ext_ref GButton.button
+)
+"gToolbox.ml" 282 9735 9774 "gToolbox.ml" 282 9735 9780
+type(
+  string
+)
+ident(
+  int_ref cancel "gToolbox.ml" 268 9277 9293 "gToolbox.ml" 268 9277 9299
+)
+"gToolbox.ml" 283 9781 9797 "gToolbox.ml" 283 9781 9801
+type(
+  GPack.button_box
+)
+ident(
+  int_ref hbox "gToolbox.ml" 277 9601 9607 "gToolbox.ml" 277 9601 9611
+)
+"gToolbox.ml" 283 9781 9797 "gToolbox.ml" 283 9781 9806
+call(
+  stack
+)
+type(
+  ?from:Gtk.Tags.pack_type ->
+  ?expand:bool -> ?fill:bool -> ?padding:int -> GObj.widget -> unit
+)
+"gToolbox.ml" 283 9781 9816 "gToolbox.ml" 283 9781 9817
+type(
+  int
+)
+"gToolbox.ml" 283 9781 9827 "gToolbox.ml" 283 9781 9831
+type(
+  bool
+)
+"gToolbox.ml" 283 9781 9796 "gToolbox.ml" 283 9781 9832
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+type(
+  ?from:Gtk.Tags.pack_type -> ?fill:bool -> GObj.widget -> unit
+)
+"gToolbox.ml" 283 9781 9833 "gToolbox.ml" 283 9781 9835
+type(
+  unit
+)
+"gToolbox.ml" 282 9735 9751 "gToolbox.ml" 283 9781 9835
+call(
+  stack
+)
+type(
+  GButton.button
+)
+"gToolbox.ml" 285 9841 9843 "gToolbox.ml" 285 9841 9846
+type(
+  GButton.button
+)
+ident(
+  int_ref bOk "gToolbox.ml" 279 9637 9643 "gToolbox.ml" 279 9637 9646
+)
+"gToolbox.ml" 285 9841 9843 "gToolbox.ml" 285 9841 9854
+call(
+  stack
+)
+type(
+  GButton.button_signals
+)
+"gToolbox.ml" 285 9841 9843 "gToolbox.ml" 285 9841 9862
+call(
+  stack
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gToolbox.ml" 285 9841 9873 "gToolbox.ml" 285 9841 9879
+type(
+  'b GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 270 9351 9357 "gToolbox.ml" 270 9351 9363
+)
+"gToolbox.ml" 285 9841 9873 "gToolbox.ml" 285 9841 9887
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gToolbox.ml" 285 9841 9843 "gToolbox.ml" 285 9841 9887
+type(
+  GtkSignal.id
+)
+"gToolbox.ml" 286 9889 9891 "gToolbox.ml" 286 9889 9898
+type(
+  GButton.button
+)
+ident(
+  int_ref bCancel "gToolbox.ml" 282 9735 9741 "gToolbox.ml" 282 9735 9748
+)
+"gToolbox.ml" 286 9889 9891 "gToolbox.ml" 286 9889 9906
+call(
+  stack
+)
+type(
+  GButton.button_signals
+)
+"gToolbox.ml" 286 9889 9891 "gToolbox.ml" 286 9889 9914
+call(
+  stack
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gToolbox.ml" 287 9915 9934 "gToolbox.ml" 287 9915 9935
+type(
+  unit
+)
+"gToolbox.ml" 287 9915 9939 "gToolbox.ml" 287 9915 9941
+type(
+  'a tree_selection
+)
+ident(
+  int_ref ts "gToolbox.ml" 272 9458 9464 "gToolbox.ml" 272 9458 9466
+)
+"gToolbox.ml" 287 9915 9939 "gToolbox.ml" 287 9915 9957
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gToolbox.ml" 287 9915 9958 "gToolbox.ml" 287 9915 9960
+type(
+  unit
+)
+"gToolbox.ml" 287 9915 9939 "gToolbox.ml" 287 9915 9960
+type(
+  unit
+)
+"gToolbox.ml" 287 9915 9963 "gToolbox.ml" 287 9915 9969
+type(
+  'b GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 270 9351 9357 "gToolbox.ml" 270 9351 9363
+)
+"gToolbox.ml" 287 9915 9963 "gToolbox.ml" 287 9915 9977
+call(
+  tail
+)
+type(
+  unit -> unit
+)
+"gToolbox.ml" 287 9915 9978 "gToolbox.ml" 287 9915 9980
+type(
+  unit
+)
+"gToolbox.ml" 287 9915 9963 "gToolbox.ml" 287 9915 9980
+type(
+  unit
+)
+"gToolbox.ml" 287 9915 9939 "gToolbox.ml" 287 9915 9980
+type(
+  unit
+)
+"gToolbox.ml" 287 9915 9929 "gToolbox.ml" 287 9915 9981
+type(
+  unit -> unit
+)
+"gToolbox.ml" 286 9889 9891 "gToolbox.ml" 287 9915 9981
+type(
+  GtkSignal.id
+)
+"gToolbox.ml" 288 9983 9985 "gToolbox.ml" 288 9983 9991
+type(
+  'b GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 270 9351 9357 "gToolbox.ml" 270 9351 9363
+)
+"gToolbox.ml" 288 9983 9985 "gToolbox.ml" 288 9983 9999
+call(
+  stack
+)
+type(
+  'b GWindow.dialog_signals
+)
+"gToolbox.ml" 288 9983 9985 "gToolbox.ml" 288 9983 10007
+call(
+  stack
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gToolbox.ml" 288 9983 10019 "gToolbox.ml" 288 9983 10034
+type(
+  unit -> unit
+)
+ident(
+  ext_ref GMain.Main.quit
+)
+"gToolbox.ml" 288 9983 9985 "gToolbox.ml" 288 9983 10034
+type(
+  GtkSignal.id
+)
+"gToolbox.ml" 289 10036 10038 "gToolbox.ml" 289 10036 10044
+type(
+  'b GWindow.dialog
+)
+ident(
+  int_ref window "gToolbox.ml" 270 9351 9357 "gToolbox.ml" 270 9351 9363
+)
+"gToolbox.ml" 289 10036 10038 "gToolbox.ml" 289 10036 10049
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gToolbox.ml" 289 10036 10050 "gToolbox.ml" 289 10036 10052
+type(
+  unit
+)
+"gToolbox.ml" 289 10036 10038 "gToolbox.ml" 289 10036 10052
+type(
+  unit
+)
+"gToolbox.ml" 290 10054 10056 "gToolbox.ml" 290 10054 10071
+type(
+  unit -> unit
+)
+ident(
+  ext_ref GMain.Main.main
+)
+"gToolbox.ml" 290 10054 10072 "gToolbox.ml" 290 10054 10074
+type(
+  unit
+)
+"gToolbox.ml" 290 10054 10056 "gToolbox.ml" 290 10054 10074
+call(
+  stack
+)
+type(
+  unit
+)
+"gToolbox.ml" 291 10077 10079 "gToolbox.ml" 291 10077 10081
+type(
+  'a tree_selection
+)
+ident(
+  int_ref ts "gToolbox.ml" 272 9458 9464 "gToolbox.ml" 272 9458 9466
+)
+"gToolbox.ml" 291 10077 10079 "gToolbox.ml" 291 10077 10091
+call(
+  tail
+)
+type(
+  'a option
+)
+"gToolbox.ml" 290 10054 10056 "gToolbox.ml" 291 10077 10091
+type(
+  'a option
+)
+"gToolbox.ml" 289 10036 10038 "gToolbox.ml" 291 10077 10091
+type(
+  'a option
+)
+"gToolbox.ml" 288 9983 9985 "gToolbox.ml" 291 10077 10091
+type(
+  'a option
+)
+"gToolbox.ml" 286 9889 9891 "gToolbox.ml" 291 10077 10091
+type(
+  'a option
+)
+"gToolbox.ml" 285 9841 9843 "gToolbox.ml" 291 10077 10091
+type(
+  'a option
+)
+"gToolbox.ml" 282 9735 9737 "gToolbox.ml" 291 10077 10091
+type(
+  'a option
+)
+"gToolbox.ml" 279 9637 9639 "gToolbox.ml" 291 10077 10091
+type(
+  'a option
+)
+"gToolbox.ml" 277 9601 9603 "gToolbox.ml" 291 10077 10091
+type(
+  'a option
+)
+"gToolbox.ml" 272 9458 9460 "gToolbox.ml" 291 10077 10091
+type(
+  'a option
+)
+"gToolbox.ml" 270 9351 9353 "gToolbox.ml" 291 10077 10091
+type(
+  'a option
+)
+"gToolbox.ml" 296 10107 10111 "gToolbox.ml" 296 10107 10125
+type(
+  < column_title : int -> string; columns : int;
+    columns_autosize : unit -> 'a; insert : row:int -> string list -> 'b;
+    remove : row:int -> 'c; .. > ->
+  unit
+)
+ident(
+  def autosize_clist "gToolbox.ml" 313 10599 10630 --
+)
+"gToolbox.ml" 296 10107 10126 "gToolbox.ml" 296 10107 10131
+type(
+  < column_title : int -> string; columns : int;
+    columns_autosize : unit -> 'a; insert : row:int -> string list -> 'b;
+    remove : row:int -> 'c; .. >
+  as 'd
+)
+ident(
+  def wlist "gToolbox.ml" 298 10168 10170 "gToolbox.ml" 313 10599 10630
+)
+"gToolbox.ml" 298 10168 10174 "gToolbox.ml" 298 10168 10184
+type(
+  int
+)
+"gToolbox.ml" 298 10168 10187 "gToolbox.ml" 298 10168 10192
+type(
+  'd
+)
+ident(
+  int_ref wlist "gToolbox.ml" 296 10107 10126 "gToolbox.ml" 296 10107 10131
+)
+"gToolbox.ml" 298 10168 10187 "gToolbox.ml" 298 10168 10200
+call(
+  stack
+)
+type(
+  int
+)
+"gToolbox.ml" 300 10235 10245 "gToolbox.ml" 300 10235 10249
+type(
+  string list -> int -> string list
+)
+"gToolbox.ml" 300 10235 10250 "gToolbox.ml" 300 10235 10254
+type(
+  string list
+)
+ident(
+  def lacc "gToolbox.ml" 300 10235 10255 "gToolbox.ml" 305 10349 10392
+)
+"gToolbox.ml" 300 10235 10255 "gToolbox.ml" 300 10235 10256
+type(
+  int
+)
+ident(
+  def i "gToolbox.ml" 301 10259 10263 "gToolbox.ml" 305 10349 10392
+)
+"gToolbox.ml" 301 10259 10266 "gToolbox.ml" 301 10259 10267
+type(
+  int
+)
+ident(
+  int_ref i "gToolbox.ml" 300 10235 10255 "gToolbox.ml" 300 10235 10256
+)
+"gToolbox.ml" 301 10259 10268 "gToolbox.ml" 301 10259 10270
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"gToolbox.ml" 301 10259 10271 "gToolbox.ml" 301 10259 10281
+type(
+  int
+)
+ident(
+  int_ref nb_columns "gToolbox.ml" 298 10168 10174 "gToolbox.ml" 298 10168 10184
+)
+"gToolbox.ml" 301 10259 10266 "gToolbox.ml" 301 10259 10281
+type(
+  bool
+)
+"gToolbox.ml" 302 10287 10293 "gToolbox.ml" 302 10287 10297
+type(
+  string list
+)
+ident(
+  int_ref lacc "gToolbox.ml" 300 10235 10250 "gToolbox.ml" 300 10235 10254
+)
+"gToolbox.ml" 304 10307 10317 "gToolbox.ml" 304 10307 10322
+type(
+  string
+)
+"gToolbox.ml" 304 10307 10325 "gToolbox.ml" 304 10307 10330
+type(
+  'd
+)
+ident(
+  int_ref wlist "gToolbox.ml" 296 10107 10126 "gToolbox.ml" 296 10107 10131
+)
+"gToolbox.ml" 304 10307 10325 "gToolbox.ml" 304 10307 10343
+call(
+  stack
+)
+type(
+  int -> string
+)
+"gToolbox.ml" 304 10307 10344 "gToolbox.ml" 304 10307 10345
+type(
+  int
+)
+ident(
+  int_ref i "gToolbox.ml" 300 10235 10255 "gToolbox.ml" 300 10235 10256
+)
+"gToolbox.ml" 304 10307 10325 "gToolbox.ml" 304 10307 10345
+type(
+  string
+)
+"gToolbox.ml" 305 10349 10355 "gToolbox.ml" 305 10349 10359
+type(
+  string list -> int -> string list
+)
+ident(
+  int_ref iter "gToolbox.ml" 300 10235 10245 "gToolbox.ml" 300 10235 10249
+)
+"gToolbox.ml" 305 10349 10361 "gToolbox.ml" 305 10349 10365
+type(
+  string list
+)
+ident(
+  int_ref lacc "gToolbox.ml" 300 10235 10250 "gToolbox.ml" 300 10235 10254
+)
+"gToolbox.ml" 305 10349 10365 "gToolbox.ml" 305 10349 10366
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"gToolbox.ml" 305 10349 10368 "gToolbox.ml" 305 10349 10372
+type(
+  string
+)
+"gToolbox.ml" 305 10349 10372 "gToolbox.ml" 305 10349 10373
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gToolbox.ml" 305 10349 10373 "gToolbox.ml" 305 10349 10378
+type(
+  string
+)
+ident(
+  int_ref title "gToolbox.ml" 304 10307 10317 "gToolbox.ml" 304 10307 10322
+)
+"gToolbox.ml" 305 10349 10378 "gToolbox.ml" 305 10349 10379
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gToolbox.ml" 305 10349 10379 "gToolbox.ml" 305 10349 10383
+type(
+  string
+)
+"gToolbox.ml" 305 10349 10373 "gToolbox.ml" 305 10349 10383
+call(
+  stack
+)
+type(
+  string
+)
+"gToolbox.ml" 305 10349 10367 "gToolbox.ml" 305 10349 10384
+call(
+  stack
+)
+type(
+  string
+)
+"gToolbox.ml" 305 10349 10366 "gToolbox.ml" 305 10349 10385
+type(
+  string list
+)
+"gToolbox.ml" 305 10349 10360 "gToolbox.ml" 305 10349 10386
+call(
+  stack
+)
+type(
+  string list
+)
+"gToolbox.ml" 305 10349 10388 "gToolbox.ml" 305 10349 10389
+type(
+  int
+)
+ident(
+  int_ref i "gToolbox.ml" 300 10235 10255 "gToolbox.ml" 300 10235 10256
+)
+"gToolbox.ml" 305 10349 10389 "gToolbox.ml" 305 10349 10390
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"gToolbox.ml" 305 10349 10390 "gToolbox.ml" 305 10349 10391
+type(
+  int
+)
+"gToolbox.ml" 305 10349 10387 "gToolbox.ml" 305 10349 10392
+type(
+  int
+)
+"gToolbox.ml" 305 10349 10355 "gToolbox.ml" 305 10349 10392
+call(
+  tail
+)
+type(
+  string list
+)
+"gToolbox.ml" 304 10307 10313 "gToolbox.ml" 305 10349 10392
+type(
+  string list
+)
+"gToolbox.ml" 301 10259 10263 "gToolbox.ml" 305 10349 10392
+type(
+  string list
+)
+"gToolbox.ml" 307 10398 10404 "gToolbox.ml" 307 10398 10410
+type(
+  string list
+)
+"gToolbox.ml" 307 10398 10413 "gToolbox.ml" 307 10398 10417
+type(
+  string list -> int -> string list
+)
+ident(
+  int_ref iter "gToolbox.ml" 300 10235 10245 "gToolbox.ml" 300 10235 10249
+)
+"gToolbox.ml" 307 10398 10418 "gToolbox.ml" 307 10398 10420
+type(
+  string list
+)
+"gToolbox.ml" 307 10398 10421 "gToolbox.ml" 307 10398 10422
+type(
+  int
+)
+"gToolbox.ml" 307 10398 10413 "gToolbox.ml" 307 10398 10422
+call(
+  stack
+)
+type(
+  string list
+)
+"gToolbox.ml" 309 10463 10465 "gToolbox.ml" 309 10463 10470
+type(
+  'd
+)
+ident(
+  int_ref wlist "gToolbox.ml" 296 10107 10126 "gToolbox.ml" 296 10107 10131
+)
+"gToolbox.ml" 309 10463 10465 "gToolbox.ml" 309 10463 10477
+call(
+  stack
+)
+type(
+  row:int -> string list -> 'b
+)
+"gToolbox.ml" 309 10463 10483 "gToolbox.ml" 309 10463 10484
+type(
+  int
+)
+"gToolbox.ml" 309 10463 10485 "gToolbox.ml" 309 10463 10491
+type(
+  string list
+)
+ident(
+  int_ref titles "gToolbox.ml" 307 10398 10404 "gToolbox.ml" 307 10398 10410
+)
+"gToolbox.ml" 309 10463 10465 "gToolbox.ml" 309 10463 10491
+type(
+  'b
+)
+"gToolbox.ml" 311 10538 10540 "gToolbox.ml" 311 10538 10545
+type(
+  'd
+)
+ident(
+  int_ref wlist "gToolbox.ml" 296 10107 10126 "gToolbox.ml" 296 10107 10131
+)
+"gToolbox.ml" 311 10538 10540 "gToolbox.ml" 311 10538 10562
+call(
+  stack
+)
+type(
+  unit -> 'a
+)
+"gToolbox.ml" 311 10538 10563 "gToolbox.ml" 311 10538 10565
+type(
+  unit
+)
+"gToolbox.ml" 311 10538 10540 "gToolbox.ml" 311 10538 10565
+type(
+  'a
+)
+"gToolbox.ml" 313 10599 10601 "gToolbox.ml" 313 10599 10607
+type(
+  'c -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gToolbox.ml" 313 10599 10609 "gToolbox.ml" 313 10599 10614
+type(
+  'd
+)
+ident(
+  int_ref wlist "gToolbox.ml" 296 10107 10126 "gToolbox.ml" 296 10107 10131
+)
+"gToolbox.ml" 313 10599 10609 "gToolbox.ml" 313 10599 10621
+call(
+  stack
+)
+type(
+  row:int -> 'c
+)
+"gToolbox.ml" 313 10599 10628 "gToolbox.ml" 313 10599 10629
+type(
+  int
+)
+"gToolbox.ml" 313 10599 10608 "gToolbox.ml" 313 10599 10630
+type(
+  'c
+)
+"gToolbox.ml" 313 10599 10601 "gToolbox.ml" 313 10599 10630
+type(
+  unit
+)
+"gToolbox.ml" 311 10538 10540 "gToolbox.ml" 313 10599 10630
+type(
+  unit
+)
+"gToolbox.ml" 309 10463 10465 "gToolbox.ml" 313 10599 10630
+type(
+  unit
+)
+"gToolbox.ml" 307 10398 10400 "gToolbox.ml" 313 10599 10630
+type(
+  unit
+)
+"gToolbox.ml" 300 10235 10237 "gToolbox.ml" 313 10599 10630
+type(
+  unit
+)
+"gToolbox.ml" 298 10168 10170 "gToolbox.ml" 313 10599 10630
+type(
+  unit
+)

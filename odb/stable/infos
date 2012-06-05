@@ -1,0 +1,265 @@
+ANSITerminal CamlGI ZMQ archimedes batteries bench benchmark bin_prot cairo2 calendar camomile cryptokit csv curl estring expect extlib extunix fastrandom fieldslib fileutils geoip getopt glpk gsl hdf4 integration1d janest-core janest-core_extended json-wheel lablgtk2 lacaml lambda-term lambda-term-actions lbfgs lpd lwt lwt-zmq lzo mesh monad-custom netcamlbox netcgi2 netcgi2-plex netclient netmulticore netplex netshm netstring netsys oUnit oasis ocaml-mysql ocamlgraph ocamlify ocamlmod ocamlscript odepack odn optimization1d ospec pcre planck pop posix_resource radixtree react res root1d sample sexplib shell smtp spotlib sqlexpr sqlite3 text type-conv uint ulib utop utop-emacs wyrd xmlm xstrp4 zarith zed zipdeps=unix,ocamlbuild
+tarball=ANSITerminal-0.6.1.tar.gz
+is_library=true
+is_program=falsedeps=ocamlbuild,graphics,dynlink,cairo2,bigarray
+tarball=archimedes-0.4.12.tar.gz
+is_library=true
+is_program=falsedeps=make,camomile(>=0.7.0)
+tarball=batteries-1.4.2.tar.gz
+is_library=true
+is_program=falsedeps=ocamlbuild
+tarball=bench-1.3.tar.gz
+is_library=true
+is_program=falsedeps=unix,str,pcre,ocamlbuild,bigarray
+tarball=benchmark-1.1.tar.gz
+is_library=true
+is_program=false# External library added by administrator
+is_library=true# no valid _oasis
+tarball=bin_prot-1.3.1.tar.gzdeps=ocamlbuild,lablgtk2,bigarray
+tarball=cairo-0.4.1.tar.gz
+is_library=true
+is_program=falsedeps=make
+tarball=calendar-2.03.1~oasis1.tar.gz
+is_library=true
+is_program=falsedeps=unix,threads,str,make
+tarball=camlgi-0.6-oasis1.tar.gz
+is_library=true
+is_program=false# External program added by administrator
+is_program=true# External program added by administrator
+is_program=true# External program added by administrator
+is_program=true# no valid _oasis
+tarball=camomile-0.8.1.tar.bz2deps=unix,ocamldoc,ocamlbuild,num
+tarball=cryptokit-1.5.tar.gz
+is_library=true
+is_program=falsedeps=ocamlbuild
+tarball=csv-1.2.2.tar.gz
+is_library=true
+is_program=falsedeps=make
+tarball=ocurl-0.5.3~oasis4.tar.gz
+is_library=true
+is_program=false# External library added by administrator
+is_library=truedeps=make,camomile(>=0.7.0)
+tarball=batteries-1.4.2.tar.gz
+is_library=true
+is_program=falsedeps=unix,threads,str,pcre,ocamlbuild,oUnit,extlib
+tarball=ocaml-expect-0.0.2.tar.gz
+is_library=true
+is_program=false# no valid _oasis
+tarball=extlib-1.5.2.tar.gzdeps=unix,ocamlbuild,oUnit(>=1.0.3),camlp4,bigarray
+tarball=ocaml-extunix-0.0.4.tar.gz
+is_library=true
+is_program=falsedeps=ocamlbuild,oUnit,benchmark(>=0.9)
+tarball=ocaml-fastrandom-0.0.2.tar.gz
+is_library=true
+is_program=false# no valid _oasis
+tarball=fieldslib-0.1.2.tar.gzdeps=unix,str,ocamlbuild,oUnit
+tarball=ocaml-fileutils-0.4.3.tar.gz
+is_library=true
+is_program=false# External library added by administrator
+is_library=truedeps=unix,ocamlbuild
+tarball=ocaml-geoip-0.0.1.tar.gz
+is_library=true
+is_program=falsedeps=unix,ocamlbuild
+tarball=ocaml-getopt.tar.gz
+is_library=true
+is_program=falsedeps=ocamlbuild
+tarball=ocaml-glpk-0.1.6-oasis2.tar.gz
+is_library=true
+is_program=false# External library added by administrator
+is_library=truedeps=make
+tarball=ocamlgsl-0.6.2-oasis1.tar.gz
+is_library=true
+is_program=false# External program added by administrator
+is_program=truedeps=pcre,ocamlbuild,h4cc,batteries
+tarball=ocaml-hdf-4.2r1beta3.tar.gz
+is_library=true
+is_program=falsedeps=ocamlbuild,camlp4
+tarball=integration1d-0.3.tar.gz
+is_library=true
+is_program=false# no valid _oasis
+tarball=janest-core-0.7.0.tar.gz# no valid _oasis
+tarball=janest-core_extended-0.7.0.tar.gz# External library added by administrator
+is_library=truedeps=make
+tarball=json-wheel-1.0.6~oasis3.tar.gz
+is_library=true
+is_program=false# External program added by administrator
+is_program=truedeps=make
+tarball=lablgtk-2.14.2-oasis8.tar.gz
+is_library=true
+is_program=false# External library added by administrator
+is_library=truedeps=ocamlbuild,bigarray
+tarball=lacaml-6.0.4.tar.gz
+is_library=true
+is_program=falsedeps=zed(>=1.1),str,ocamlbuild,lwt(>=2.3.0)
+tarball=lambda-term-1.1.tar.gz
+is_library=true
+is_program=falsedeps=zed(>=1.1),str,ocamlbuild,lwt(>=2.3.0)
+tarball=lambda-term-1.1.tar.gz
+is_library=false
+is_program=truedeps=ocamlbuild,bigarray
+tarball=lbfgs-0.8.3.tar.gz
+is_library=true
+is_program=falsedeps=unix,threads,ocamlbuild
+tarball=lpd-1.1.tar.gz
+is_library=true
+is_program=falsedeps=unix,threads,ocamlbuild,camlp4,bigarray
+tarball=lwt-2.3.2.tar.gz
+is_library=true
+is_program=falsedeps=ocamlbuild,lwt,ZMQ
+tarball=lwt-zmq-1.0~beta2.tar.gz
+is_library=true
+is_program=falsedeps=ocamlbuild
+tarball=ocaml-lzo-0.0.1.tar.gz
+is_library=true
+is_program=false# External program added by administrator
+is_program=truedeps=ocamlbuild,lacaml,graphics,bigarray
+tarball=mesh-0.7.2.tar.gz
+is_library=true
+is_program=falsedeps=make,camlp4
+tarball=v6.0.0.tar.gz
+is_library=true
+is_program=falsedeps=make
+tarball=ocamlnet-3.4.1~oasis3.tar.gz
+is_library=true
+is_program=falsedeps=make
+tarball=ocamlnet-3.4.1~oasis3.tar.gz
+is_library=true
+is_program=falsedeps=make
+tarball=ocamlnet-3.4.1~oasis3.tar.gz
+is_library=true
+is_program=falsedeps=make
+tarball=ocamlnet-3.4.1~oasis3.tar.gz
+is_library=true
+is_program=falsedeps=make
+tarball=ocamlnet-3.4.1~oasis3.tar.gz
+is_library=true
+is_program=falsedeps=make
+tarball=ocamlnet-3.4.1~oasis3.tar.gz
+is_library=true
+is_program=falsedeps=make
+tarball=ocamlnet-3.4.1~oasis3.tar.gz
+is_library=true
+is_program=falsedeps=make
+tarball=ocamlnet-3.4.1~oasis3.tar.gz
+is_library=true
+is_program=falsedeps=make
+tarball=ocamlnet-3.4.1~oasis3.tar.gz
+is_library=true
+is_program=false# External library added by administrator
+is_library=truedeps=unix,pcre,odn(>=0.0.3),ocamlyacc,ocamlmod,ocamllex,ocamlify,ocamlgraph,ocamlbuild,make,fileutils(>=0.4.2),batteries
+tarball=oasis-0.3.0~rc3.tar.gz
+is_library=true
+is_program=true# External program added by administrator
+is_program=true# External program added by administrator
+is_program=truedeps=make
+tarball=ocamlgraph-1.7-oasis2.tar.gz
+is_library=true
+is_program=falsedeps=
+tarball=ocamlify-0.0.1.tar.gz
+is_library=false
+is_program=true# External program added by administrator
+is_program=truedeps=pcre,ocamlbuild,fileutils
+tarball=ocamlmod-0.0.2.tar.gz
+is_library=false
+is_program=true# no valid _oasis
+tarball=ocaml-mysql-1.1.1.tar.gzdeps=make
+tarball=ocamlscript-2.0.2~oasis4.tar.gz
+is_library=true
+is_program=true# External program added by administrator
+is_program=truedeps=ocamlbuild,bigarray
+tarball=odepack-0.6.2.tar.gz
+is_library=true
+is_program=falsedeps=type-conv(>=3.0.4),ocamlbuild,camlp4
+tarball=ocaml-data-notation-0.0.8.tar.gz
+is_library=true
+is_program=false# External program added by administrator
+is_program=truedeps=ocamlbuild
+tarball=optimization1d-0.5.tar.gz
+is_library=true
+is_program=falsedeps=ocamlbuild
+tarball=ospec-0.2.1.tar.gz
+is_library=true
+is_program=truedeps=unix,ocamlbuild,camlp4
+tarball=ounit-1.1.1.tar.gz
+is_library=true
+is_program=false# no valid _oasis
+tarball=pcre-ocaml-6.2.5.tar.gz# External program added by administrator
+is_program=truedeps=spotlib(>=1.0.0),sexplib(>=5.2.1),omake
+tarball=v1.0.1.tar.gz
+is_library=true
+is_program=falsedeps=make
+tarball=ocamlnet-3.4.1~oasis3.tar.gz
+is_library=true
+is_program=falsedeps=unix,ocamlbuild,oUnit(>=1.0.3)
+tarball=ocaml-posix-resource-0.0.1.tar.gz
+is_library=true
+is_program=falsedeps=ocamlbuild,oUnit(>=1.1.0),benchmark
+tarball=ocaml-radixtree-0.0.1.tar.gz
+is_library=true
+is_program=falsedeps=ocamlbuild
+tarball=react-0.9.2~oasis1.tar.gz
+is_library=true
+is_program=false# no valid _oasis
+tarball=res-3.2.0.tar.gzdeps=ocamlbuild
+tarball=root1d-0.2.tar.gz
+is_library=true
+is_program=falsedeps=unix,ocamlbuild
+tarball=ocaml-getopt.tar.gz
+is_library=false
+is_program=true# no valid _oasis
+tarball=sexplib-5.2.1.tar.gzdeps=make
+tarball=ocamlnet-3.4.1~oasis3.tar.gz
+is_library=true
+is_program=falsedeps=make
+tarball=ocamlnet-3.4.1~oasis3.tar.gz
+is_library=true
+is_program=falsedeps=unix,omake
+tarball=spotlib-1.0.0.tar.gz
+is_library=true
+is_program=falsedeps=unix,threads,sqlite3,ocamlbuild,lwt(>=2.2.0),estring,csv,camlp4,batteries
+tarball=mfp-ocaml-sqlexpr-0.4.1-0-gdff5913.tar.gz
+is_library=true
+is_program=falsedeps=make
+tarball=ocaml-sqlite3-release-1.6.1-oasis1.tar.gz
+is_library=true
+is_program=false# External library added by administrator
+is_library=truedeps=ocamlbuild,bigarray
+tarball=ocaml-text-0.5.tar.gz
+is_library=true
+is_program=false# External library added by administrator
+is_library=truedeps=ocamlbuild,camlp4o,camlp4
+tarball=type-conv-3.0.4.tar.gz
+is_library=true
+is_program=falsedeps=ocamlbuild
+tarball=ocaml-uint-1.0.2.tar.gz
+is_library=true
+is_program=falsedeps=make
+tarball=ulib-1.0~oasis1.tar.gz
+is_library=true
+is_program=false# External library added by administrator
+is_library=truedeps=threads,ocamlbuild,lwt,lambda-term(>=1.1),findlib,camlp4
+tarball=utop-1.1.tar.gz
+is_library=true
+is_program=truedeps=threads,ocamlbuild,lwt,lambda-term(>=1.1),findlib,camlp4
+tarball=utop-1.1.tar.gz
+is_library=false
+is_program=truedeps=
+tarball=wyrd-1.4.5-oasis2.tar.gz
+is_library=false
+is_program=truedeps=ocamlbuild
+tarball=xmlm-1.0.2-oasis1.tar.gz
+is_library=true
+is_program=falsedeps=ocamllex,ocamlbuild,camlp4o,camlp4
+tarball=xstrp4-2.0alpha5.tar.gz
+is_library=true
+is_program=false# no valid _oasis
+tarball=zarith-1.0.tgzdeps=react,ocamlbuild,camomile(>=0.8)
+tarball=zed-1.1.tar.gz
+is_library=true
+is_program=falsedeps=ocamlbuild
+tarball=zip-1.04+svn~oasis3.tar.gz
+is_library=true
+is_program=falsedeps=uint,ocamlbuild,oUnit(>=1.1.0)
+tarball=ocaml-zmq-0.0.3.tar.gz
+is_library=true
+is_program=false

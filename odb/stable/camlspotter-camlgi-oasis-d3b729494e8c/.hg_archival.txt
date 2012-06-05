@@ -1,0 +1,4 @@
+repo: c20e6c1579c3ca1312e02ee26b0a0ea966e111a4
+node: d3b729494e8ca7b545913f430dc2c8986dd82554
+branch: default
+tag: v0.6-oasis1

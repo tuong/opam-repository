@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="Up" href="Date_sig.S.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Utils" rel="Chapter" href="Utils.html">
+<link title="Time_Zone" rel="Chapter" href="Time_Zone.html">
+<link title="Period" rel="Chapter" href="Period.html">
+<link title="Time_sig" rel="Chapter" href="Time_sig.html">
+<link title="Time" rel="Chapter" href="Time.html">
+<link title="Ftime" rel="Chapter" href="Ftime.html">
+<link title="Date_sig" rel="Chapter" href="Date_sig.html">
+<link title="Date" rel="Chapter" href="Date.html">
+<link title="Calendar_sig" rel="Chapter" href="Calendar_sig.html">
+<link title="Calendar_builder" rel="Chapter" href="Calendar_builder.html">
+<link title="Calendar" rel="Chapter" href="Calendar.html">
+<link title="Fcalendar" rel="Chapter" href="Fcalendar.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Version" rel="Chapter" href="Version.html"><link title="Arithmetic operations" rel="Section" href="#3_Arithmeticoperations">
+<link title="Constructors" rel="Section" href="#3_Constructors">
+<link title="Getters" rel="Section" href="#3_Getters">
+<title>Date_sig.S.Period</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a href="Date_sig.S.html">Up</a>
+&nbsp;</div>
+<center><h1>Module <a href="type_Date_sig.S.Period.html">Date_sig.S.Period</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Period: <code class="code"><span class="keyword">sig</span></code> <a href="Date_sig.S.Period.html">..</a> <code class="code"><span class="keyword">end</span></code></pre>A period is the number of days between two dates.<br>
+<hr width="100%">
+<br>
+<span id="3_Arithmeticoperations"><h3>Arithmetic operations</h3></span><br>
+<pre><span id="TYPEp"><span class="keyword">type</span> <code class="type">+[< <a href="Date_sig.S.html#TYPEfield">Date_sig.S.field</a> ]</code> p</span> </pre>
+
+<pre><span class="keyword">include</span> <a href="Period.S.html">Period.S</a></pre>
+<br>
+<span id="3_Constructors"><h3>Constructors</h3></span><br>
+<pre><span id="VALmake"><span class="keyword">val</span> make</span> : <code class="type">int -> int -> int -> <a href="Date_sig.S.html#TYPEt">Date_sig.S.t</a></code></pre><div class="info">
+<code class="code">make year month day</code> makes a period of the specified length.<br>
+</div>
+<pre><span id="VALlmake"><span class="keyword">val</span> lmake</span> : <code class="type">?year:int -> ?month:int -> ?day:int -> unit -> <a href="Date_sig.S.html#TYPEt">Date_sig.S.t</a></code></pre><div class="info">
+Labelled version of <code class="code">make</code>.
+	  The default value of each argument is <code class="code">0</code>.<br>
+</div>
+<pre><span id="VALyear"><span class="keyword">val</span> year</span> : <code class="type">int -> [< <a href="Date_sig.S.html#TYPEfield">Date_sig.S.field</a> > `Year ] period</code></pre><div class="info">
+<code class="code">year n</code> makes a period of <code class="code">n</code> years.<br>
+</div>
+<pre><span id="VALmonth"><span class="keyword">val</span> month</span> : <code class="type">int -> [< <a href="Date_sig.S.html#TYPEfield">Date_sig.S.field</a> > `Month `Year ] period</code></pre><div class="info">
+<code class="code">month n</code> makes a period of <code class="code">n</code> months.<br>
+</div>
+<pre><span id="VALweek"><span class="keyword">val</span> week</span> : <code class="type">int -> [< <a href="Date_sig.S.html#TYPEfield">Date_sig.S.field</a> > `Day `Week ] period</code></pre><div class="info">
+<code class="code">week n</code> makes a period of <code class="code">n</code> weeks.<br>
+</div>
+<pre><span id="VALday"><span class="keyword">val</span> day</span> : <code class="type">int -> [< <a href="Date_sig.S.html#TYPEfield">Date_sig.S.field</a> > `Day `Week ] period</code></pre><div class="info">
+<code class="code">day n</code> makes a period of <code class="code">n</code> days.<br>
+</div>
+<br>
+<span id="3_Getters"><h3>Getters</h3></span><br>
+<pre><span id="EXCEPTIONNot_computable"><span class="keyword">exception</span> Not_computable</span></pre>
+<div class="info">
+<b>Since</b> 1.04<br>
+</div>
+<pre><span id="VALnb_days"><span class="keyword">val</span> nb_days</span> : <code class="type">[< <a href="Date_sig.S.html#TYPEfield">Date_sig.S.field</a> ] period -> int</code></pre><div class="info">
+<span class="warning">Deprecated.</span>since 2.02: use <a href="Date_sig.S.Period.html#VALsafe_nb_days"><code class="code"><span class="constructor">Date_sig</span>.<span class="constructor">S</span>.<span class="constructor">Period</span>.safe_nb_days</code></a> instead<br>
+Number of days in a period.<br>
+<b>Since</b> 1.04<br>
+<b>Raises</b> <code>Not_computable</code> if the number of days is not computable.<br>
+<b>Examples:</b><ul><li><code class="code">nb_days (year 1)</code> raises <code class="code"><span class="constructor">Not_computable</span></code> because a year is
+	  not a constant number of days.<br>
+</li><li><code class="code">nb_days (day 6)</code> returns <code class="code">6</code><br>
+</li></ul></div>
+<pre><span id="VALsafe_nb_days"><span class="keyword">val</span> safe_nb_days</span> : <code class="type">[< `Day | `Week ] period -> int</code></pre><div class="info">
+Equivalent to <a href="Date_sig.S.Period.html#VALnb_days"><code class="code"><span class="constructor">Date_sig</span>.<span class="constructor">S</span>.<span class="constructor">Period</span>.nb_days</code></a> but never raises any exception.<br>
+<b>Since</b> 2.02<br>
+</div>
+<pre><span id="VALymd"><span class="keyword">val</span> ymd</span> : <code class="type">[< <a href="Date_sig.S.html#TYPEfield">Date_sig.S.field</a> ] period -> int * int * int</code></pre><div class="info">
+Number of years, months and days in a period.<br>
+<b>Since</b> 1.09.0<br>
+<b>Example:</b> <code class="code">ymd (make 1 2 3)</code> returns <code class="code">1, 2, 3</code>.<br>
+</div>
+</body></html>

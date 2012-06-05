@@ -1,0 +1,5 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: dc0f05649362d07495930ced6986e2c3) *)
+Authors of lbfgs
+Christophe Troestler <Christophe.Troestler@umons.ac.be>
+(* OASIS_STOP *)

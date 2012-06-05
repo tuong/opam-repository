@@ -1,0 +1,11 @@
+# OASIS_START
+# DO NOT EDIT (digest: 84f25a3f1bc0015fa55e4c59758665af)
+bigstring_marshal_stubs.o
+bigstring_stubs.o
+linebuf_stubs.o
+misc.o
+ocaml_utils_stubs.o
+open_stubs.o
+signal_stubs.o
+unix_stubs.o
+# OASIS_STOP

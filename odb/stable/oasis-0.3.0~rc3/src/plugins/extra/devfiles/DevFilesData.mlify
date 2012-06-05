@@ -1,0 +1,2 @@
+VarStringList  configure           "configure"
+VarStringList  readme_template_mkd "MANUAL-template.mkd"

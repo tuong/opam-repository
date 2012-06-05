@@ -1,0 +1,328 @@
+#								-*-conf-*-
+OASISFormat: 0.2
+Name:        cairo
+Version:     0.4.1
+Synopsis:    Binding to Cairo, a Vector Graphics Library.
+Description: This is a binding to Cairo, a 2D graphics library with
+  support for multiple output devices.  Currently supported output targets
+  include the X Window System, Quartz, Win32, image buffers, PostScript,
+  PDF, and SVG file output. 
+Authors:     Christophe Troestler <Christophe.Troestler@umons.ac.be>,
+  Pierre Hauweele <antegallya@gmail.com>
+License:     LGPL-3.0 with OCaml linking exception
+Maintainers: Christophe Troestler <Christophe.Troestler@umons.ac.be>
+Homepage:    http://forge.ocamlcore.org/projects/cairo/
+Plugins:     META (0.2), StdFiles (0.2)
+
+Flag lablgtk2
+  Description: Whether to connect Cairo and lablgtk2.
+  Default: true
+
+Library cairo2
+  Path:         src
+  BuildTools:   ocamlbuild
+  Modules:      Cairo
+  CSources:     cairo_stubs.c
+  BuildDepends: bigarray
+
+Library cairo_gtk
+  Build: false
+  if flag(lablgtk2)
+    Build: true
+  Path:         src/
+  BuildTools:   ocamlbuild
+  Modules:	Cairo_gtk
+  CSources:	cairo_gtk_stubs.c
+  BuildDepends: lablgtk2, cairo2
+  FindlibParent: cairo2
+  FindlibName:   lablgtk2
+  XMETADescription: Rendering Cairo on Gtk canvas.
+
+# Library win32
+#   Path:	         src/
+#   FindlibParent: cairo
+#   XMETADescription: Rendering on Windows.
+
+# Library quartz
+#   Path:	         src/
+#   FindlibParent: cairo
+#   XMETADescription: Rendering on Quartz (MacOS).
+
+Document API
+  Title:           API reference for Cairo
+  Type:            OCamlbuild (0.2)
+  InstallDir:      $docdir/api
+  BuildTools:      ocamldoc, ocamlbuild
+  XOCamlbuildPath: src/
+  XOCamlbuildLibraries: cairo2, cairo2.lablgtk2
+
+
+# Tests
+######################################################################
+Executable image_create
+  Path:           tests/
+  MainIs:         image_create.ml
+  BuildDepends:   cairo2
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable matrix_set
+  Path:           tests/
+  MainIs:         matrix_set.ml
+  BuildDepends:   cairo2
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable surface_gc
+  Path:           tests/
+  MainIs:         surface_gc.ml
+  BuildDepends:   cairo2
+  BuildTools:     ocamlbuild
+  Install:        false
+
+# Examples
+######################################################################
+Executable arcs
+  Path:           examples/
+  MainIs:         arcs.ml
+  BuildDepends:   cairo2
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable clip
+  Path:           examples/
+  MainIs:         clip.ml
+  BuildDepends:   cairo2
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable curve_to
+  Path:           examples/
+  MainIs:         curve_to.ml
+  BuildDepends:   cairo2
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable dash
+  Path:           examples/
+  MainIs:         dash.ml
+  BuildDepends:   cairo2
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable fill_stroke
+  Path:           examples/
+  MainIs:         fill_stroke.ml
+  BuildDepends:   cairo2
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable fill_style
+  Path:           examples/
+  MainIs:         fill_style.ml
+  BuildDepends:   cairo2
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable gradient
+  Path:           examples/
+  MainIs:         gradient.ml
+  BuildDepends:   cairo2
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable set_line_cap
+  Path:           examples/
+  MainIs:         set_line_cap.ml
+  BuildDepends:   cairo2
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable set_line_join
+  Path:           examples/
+  MainIs:         set_line_join.ml
+  BuildDepends:   cairo2
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable text
+  Path:           examples/
+  MainIs:         text.ml
+  BuildDepends:   cairo2
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable text_align_center
+  Path:           examples/
+  MainIs:         text_align_center.ml
+  BuildDepends:   cairo2
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable text_extents
+  Path:           examples/
+  MainIs:         text_extents.ml
+  BuildDepends:   cairo2
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable text_rotate
+  Path:           examples/
+  MainIs:         text_rotate.ml
+  BuildDepends:   cairo2
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable gtk_demo
+  Build: false
+  if flag(lablgtk2)
+    Build: true
+  Path:           examples/
+  MainIs:         gtk_demo.ml
+  BuildDepends:   cairo2, cairo2.lablgtk2, lablgtk2
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable cloud
+  Path:           examples/word_cloud/
+  MainIs:         run.ml
+  BuildDepends:   cairo2
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable recording
+  Path:           examples
+  MainIs:         recording.ml
+  BuildDepends:   cairo2
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+# Tutorial sources
+######################################################################
+Executable stroke
+  Path:           examples/
+  MainIs:         stroke.ml
+  BuildDepends:   cairo2
+  CompiledObject: byte
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable fill
+  Path:           examples/
+  MainIs:         fill.ml
+  BuildDepends:   cairo2
+  CompiledObject: byte
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable showtext
+  Path:           examples/
+  MainIs:         showtext.ml
+  BuildDepends:   cairo2
+  CompiledObject: byte
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable paint
+  Path:           examples/
+  MainIs:         paint.ml
+  BuildDepends:   cairo2
+  CompiledObject: byte
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable mask
+  Path:           examples/
+  MainIs:         mask.ml
+  BuildDepends:   cairo2
+  CompiledObject: byte
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable setsourcergba
+  Path:           examples/
+  MainIs:         setsourcergba.ml
+  BuildDepends:   cairo2
+  CompiledObject: byte
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable setsourcegradient
+  Path:           examples/
+  MainIs:         setsourcegradient.ml
+  BuildDepends:   cairo2
+  CompiledObject: byte
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable path_close
+  Path:           examples/
+  MainIs:         path_close.ml
+  BuildDepends:   cairo2
+  CompiledObject: byte
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable textextents
+  Path:           examples/
+  MainIs:         textextents.ml
+  BuildDepends:   cairo2
+  CompiledObject: byte
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable diagram
+  Path:           examples/
+  MainIs:         diagram.ml
+  BuildDepends:   cairo2
+  CompiledObject: byte
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable draw
+  Path:           examples/
+  MainIs:         draw.ml
+  BuildDepends:   cairo2
+  CompiledObject: byte
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable tips_ellipse
+  Path:           examples/
+  MainIs:         tips_ellipse.ml
+  BuildDepends:   cairo2
+  CompiledObject: byte
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable tips_letter
+  Path:           examples/
+  MainIs:         tips_letter.ml
+  BuildDepends:   cairo2
+  CompiledObject: byte
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable tips_font
+  Path:           examples/
+  MainIs:         tips_font.ml
+  BuildDepends:   cairo2
+  CompiledObject: byte
+  BuildTools:     ocamlbuild
+  Install:        false

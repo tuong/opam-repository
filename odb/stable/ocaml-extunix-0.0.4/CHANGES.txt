@@ -1,0 +1,71 @@
+0.0.4 - 19 May 2012
+* ExtUnix now depends on Bigarray and provides variants of 
+  some bindings operating on bigarray buffers (BA submodule)
+* New bindings :
+  * timegm
+  * malloc_stats
+  * malloc_info
+  * read_credentials
+  * fexecve
+  * sendmsg recvmsg
+  * pread pwrite (+ LargeFile and BA variants)
+  * read write (+ LargeFile and BA variants)
+  * mkstemp mkostemp
+  * setresuid setresgid
+  * posix_memalign
+  * New submodules: BigEndian LittleEndian HostEndian
+    * New bindings
+      * uint16_from_host uint16_to_host
+      *  int16_from_host  int16_to_host
+      * uint31_from_host uint31_to_host
+      *  int31_from_host  int31_to_host
+      *  int32_from_host  int32_to_host
+      *  int64_from_host  int64_to_host
+    * New string and bigarray functions
+      * get_uint8  set_uint8  get_int8  set_int8
+      * get_uint16 set_uint16 get_int16 set_int16
+      * get_uint31 set_uint31 get_int31 set_int31
+      * get_int32  set_int32
+      * get_int64 set_int64
+
+0.0.3 - 12 Jul 2011
+* Keep unlinkat interface compatible with Netsys
+* statvfs : return all fields, use POSIX names
+* realpath : fix segfault on non-glibc systems
+* New bindings :
+  * backtrace
+  * setenv unsetenv clearenv
+  * linkat symlinkat
+  * mkdtemp
+
+0.0.2 - 26 Dec 2010
+* New bindings :
+  * getrlimit setrlimit
+  * getpriority setpriority
+  * ptrace (minimal)
+  * renameat mkdirat
+  * mlockall munlockall
+  * strftime strptime asctime
+  * tzname
+  * posix_openpt grantpt unlockpt ptsname (Niki Yoshiuchi)
+  * getsid
+  * ctermid
+  * is_open_descr
+  * tcgetpgrp tcsetpgrp
+  * int_of_file_descr file_descr_of_int
+  * sys_exit
+* Separate configure test for fsync and fdatasync
+* ExtUnix.All.have function to test for features at runtime
+* Skip tests of functions not available on the current platform
+
+0.0.1 - 7 Nov 2010
+* First release, implemented bindings :
+  * fsync fdatasync
+  * eventfd signalfd
+  * statvfs fstatvfs
+  * dirfd openat unlinkat fstatat
+  * uname
+  * fadvise fallocate
+  * ttyname setpgid getpgid setreuid setregid
+  * realpath
+

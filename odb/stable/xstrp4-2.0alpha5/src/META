@@ -1,0 +1,52 @@
+# OASIS_START
+# DO NOT EDIT (digest: 878bf0150a007109073756c2110aaafa)
+version = "2.0alpha4"
+description = "Base for further xstrp4 customization/development"
+requires = "camlp4"
+archive(byte) = "xstrp4.cma"
+exists_if = "xstrp4.cma"
+package "syntax" (
+ description = "Virtual container"
+ package "strings" (
+  version = "2.0alpha4"
+  description = "Interpolation of OCaml values in strings"
+  requires = "camlp4 xstrp4"
+  archive(syntax, preprocessor) = "xstrp4_strings.cma"
+  archive(syntax, toploop) = "xstrp4_strings.cma"
+  exists_if = "xstrp4_strings.cma"
+ )
+ package "here" (
+  version = "2.0alpha4"
+  description = "Interpolation of OCaml values in quotations"
+  requires = "camlp4 xstrp4"
+  archive(syntax, preprocessor) = "xstrp4_here.cma"
+  archive(syntax, toploop) = "xstrp4_here.cma"
+  exists_if = "xstrp4_here.cma"
+ )
+ package "batteries_strings" (
+  version = "2.0alpha4"
+  description = "Example of a Batteries-focused xstrp4 extension"
+  requires = "camlp4 xstrp4 batteries"
+  archive(syntax, preprocessor) = "xstrp4_batteries_strings.cma"
+  archive(syntax, toploop) = "xstrp4_batteries_strings.cma"
+  exists_if = "xstrp4_batteries_strings.cma"
+ )
+ package "here_quote" (
+  version = "2.0alpha4"
+  description = "Interpolation of OCaml values in quotations"
+  requires = "camlp4 xstrp4"
+  archive(syntax, preprocessor) = "xstrp4_here_quote.cma"
+  archive(syntax, toploop) = "xstrp4_here_quote.cma"
+  exists_if = "xstrp4_here_quote.cma"
+ )
+ package "batteries_quote" (
+  version = "2.0alpha4"
+  description = "Example of a Batteries-focused xstrp4 extension"
+  requires = "camlp4 xstrp4 batteries"
+  archive(syntax, preprocessor) = "xstrp4_batteries_quote.cma"
+  archive(syntax, toploop) = "xstrp4_batteries_quote.cma"
+  exists_if = "xstrp4_batteries_quote.cma"
+ )
+)
+# OASIS_STOP
+

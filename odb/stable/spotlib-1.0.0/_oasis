@@ -1,0 +1,30 @@
+OASISFormat: 0.2
+Name:        spotlib
+Version:     1.0.0
+Synopsis:    Camlspotter's personal library
+Authors:     Jun FURUSE
+License:     LGPL-2.0 with OCaml linking exception
+Plugins:      StdFiles (0.2)
+BuildType:    Custom (0.2)
+InstallType:    Custom (0.2)
+XCustomBuild: yes no | omake --install; omake
+XCustomInstall: omake install
+XCustomUninstall: omake uninstall
+BuildTools: omake
+
+Library spotlib
+  Path:          lib
+  FindlibName:   spotlib
+  BuildDepends:  unix
+  Modules:       Base,
+                 Monad_intf,
+                 Monad,
+                 Option,
+                 Xlist,
+                 HashSet,
+                 Xformat,
+                 Xhashtbl,
+                 Xstring,
+                 Phantom,
+                 Weaktbl,
+                 Spot

@@ -1,0 +1,8 @@
+# Specifications for the "ExtBigarray" library: (based on c_examples)
+requires = "bigarray unix"
+description = "Ulib from OCaml bazar"
+version = "1.0"
+browse_interfaces = " Ulib "
+archive(byte) = "ulib.cma"
+archive(native) = "ulib.cmxa"
+

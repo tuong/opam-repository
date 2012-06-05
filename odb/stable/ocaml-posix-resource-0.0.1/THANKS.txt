@@ -1,0 +1,3 @@
+Thanks to:
+Talend S.A for allowing to release this code under LGPL-like license.
+

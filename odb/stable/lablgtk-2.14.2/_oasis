@@ -1,0 +1,19 @@
+OASISFormat: 0.2
+Name:        lablgtk2
+Version:     2.14.2-oasis8
+Synopsis:    Bindings for gtk2
+Authors:     Jacques Garrigue et al.
+License:     LGPL-2.1 with OCaml linking exception
+LicenseFile: LGPL
+ConfType:    custom (0.2)
+BuildType:   custom (0.2)
+InstallType: custom (0.2)
+BuildTools:  make
+
+XCustomConf: touch setup.data && ./configure
+XCustomBuild: make all opt
+XCustomInstall: ocamlfind install lablgtk2 META src/*.*
+XCustomUninstall: ocamlfind remove lablgtk2
+
+Library "lablgtk2"
+  Path: src/

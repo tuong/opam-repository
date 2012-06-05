@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Json_type.Browse.html">
+<link rel="Up" href="Json_type.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Json_type" rel="Chapter" href="Json_type.html">
+<link title="Json_io" rel="Chapter" href="Json_io.html">
+<link title="Json_compat" rel="Chapter" href="Json_compat.html"><title>Json_type.Build</title>
+</head>
+<body>
+<div class="navbar"><a href="Json_type.Browse.html">Previous</a>
+&nbsp;<a href="Json_type.html">Up</a>
+&nbsp;</div>
+<center><h1>Module <a href="type_Json_type.Build.html">Json_type.Build</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Build: <code class="code">sig</code> <a href="Json_type.Build.html">..</a> <code class="code">end</code></pre>This submodule provides some simple functions for building
+  JSON data from other OCaml types.
+<p>
+
+  Use <code class="code">open Json_type.Build</code> when you want to convert JSON data
+  into another OCaml type.<br>
+<hr width="100%">
+<pre><span class="keyword">val</span> <a name="VALnull"></a>null : <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a></code></pre><div class="info">
+The <code class="code">Null</code> value<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALbool"></a>bool : <code class="type">bool -> <a href="Json_type.html#TYPEt">Json_type.t</a></code></pre><div class="info">
+builds a JSON <code class="code">Bool</code><br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALint"></a>int : <code class="type">int -> <a href="Json_type.html#TYPEt">Json_type.t</a></code></pre><div class="info">
+builds a JSON <code class="code">Int</code><br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALfloat"></a>float : <code class="type">float -> <a href="Json_type.html#TYPEt">Json_type.t</a></code></pre><div class="info">
+builds a JSON <code class="code">Float</code><br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALstring"></a>string : <code class="type">string -> <a href="Json_type.html#TYPEt">Json_type.t</a></code></pre><div class="info">
+builds a JSON <code class="code">String</code><br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALobjekt"></a>objekt : <code class="type">(string * <a href="Json_type.html#TYPEt">Json_type.t</a>) list -> <a href="Json_type.html#TYPEt">Json_type.t</a></code></pre><div class="info">
+builds a JSON <code class="code">Object</code>.
+<p>
+
+	See <a href="Json_type.Browse.html#VALobjekt"><code class="code">Json_type.Browse.objekt</code></a> for an explanation about the unusual
+	spelling.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALarray"></a>array : <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a> list -> <a href="Json_type.html#TYPEt">Json_type.t</a></code></pre><div class="info">
+builds a JSON <code class="code">Array</code>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALlist"></a>list : <code class="type">('a -> <a href="Json_type.html#TYPEt">Json_type.t</a>) -> 'a list -> <a href="Json_type.html#TYPEt">Json_type.t</a></code></pre><div class="info">
+<code class="code">list f l</code> maps OCaml list <code class="code">l</code> to a JSON list using 
+	function <code class="code">f</code> to convert the elements into JSON values.
+<p>
+
+      For example, <code class="code">list int [1; 2; 3]</code> is a shortcut for
+      <code class="code">Array [ Int 1; Int 2; Int 3 ]</code>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALoption"></a>option : <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a> option -> <a href="Json_type.html#TYPEt">Json_type.t</a></code></pre><div class="info">
+<code class="code">option x</code> returns <code class="code">Null</code> is <code class="code">x</code> is <code class="code">None</code>, or <code class="code">y</code> if 
+	<code class="code">x</code> is <code class="code">Some y</code>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALoptional"></a>optional : <code class="type">('a -> <a href="Json_type.html#TYPEt">Json_type.t</a>) -> 'a option -> <a href="Json_type.html#TYPEt">Json_type.t</a></code></pre><div class="info">
+<code class="code">optional f x</code> returns <code class="code">Null</code> if <code class="code">x</code> is <code class="code">None</code>, or <code class="code">f x</code>
+	otherwise.
+<p>
+
+      For example, <code class="code">list (optional int) [Some 1; Some 2; None]</code> returns
+      <code class="code">Array [ Int 1; Int 2; Null ]</code>.<br>
+</div>
+</body></html>

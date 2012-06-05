@@ -1,0 +1,4 @@
+deps=ocamlbuild,bigarray
+tarball=ocaml-text-0.5.tar.gz
+is_library=true
+is_program=false

@@ -1,0 +1,157 @@
+### Starting build.
+# Target: zlibstubs.c, tags: { c, compile, debug, extension:c, file:zlibstubs.c, quiet, traverse }
+ocamlfind ocamlc -c zlibstubs.c
++ ocamlfind ocamlc -c zlibstubs.c
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/bin_prot
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/bin_prot
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/core
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/core
+# Target: zip, tags: { c, debug, extension:a, file:libzip.a, oasis_library_zip_cclib, ocamlmklib, quiet, traverse }
+/home/lefessan/.ocaml/roots/ocaml-3.12.1/bin/ocamlmklib -o zip -lz zlibstubs.o
+# Target: zip.mli.depends, tags: { debug, extension:mli, file:zip.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -modules zip.mli > zip.mli.depends
+# Target: zip.cmi, tags: { byte, compile, debug, extension:mli, file:zip.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -o zip.cmi zip.mli
++ ocamlfind ocamlc -c -g -o zip.cmi zip.mli
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/bin_prot
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/bin_prot
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/core
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/core
+# Target: zip.ml.depends, tags: { debug, extension:ml, file:zip.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -modules zip.ml > zip.ml.depends
++ ocamlfind ocamlc -where > '/home/lefessan/OPAM/odb/stable/pkg/zip-1.04+svn~oasis3/_build/ocamlc.where'
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/bin_prot
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/bin_prot
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/core
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/core
+# Target: zlib.mli.depends, tags: { debug, extension:mli, file:zlib.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -modules zlib.mli > zlib.mli.depends
+# Target: zlib.cmi, tags: { byte, compile, debug, extension:mli, file:zlib.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -o zlib.cmi zlib.mli
++ ocamlfind ocamlc -c -g -o zlib.cmi zlib.mli
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/bin_prot
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/bin_prot
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/core
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/core
+# Target: gzip.mli.depends, tags: { debug, extension:mli, file:gzip.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -modules gzip.mli > gzip.mli.depends
+# Target: gzip.cmi, tags: { byte, compile, debug, extension:mli, file:gzip.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -o gzip.cmi gzip.mli
++ ocamlfind ocamlc -c -g -o gzip.cmi gzip.mli
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/bin_prot
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/bin_prot
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/core
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/core
+# Target: gzip.ml.depends, tags: { debug, extension:ml, file:gzip.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -modules gzip.ml > gzip.ml.depends
+# Target: zlib.ml.depends, tags: { debug, extension:ml, file:zlib.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -modules zlib.ml > zlib.ml.depends
+# Target: zip.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:zip.cmo, file:zip.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -o zip.cmo zip.ml
++ ocamlfind ocamlc -c -g -o zip.cmo zip.ml
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/bin_prot
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/bin_prot
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/core
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/core
+# Target: gzip.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:gzip.cmo, file:gzip.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -o gzip.cmo gzip.ml
++ ocamlfind ocamlc -c -g -o gzip.cmo gzip.ml
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/bin_prot
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/bin_prot
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/core
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/core
+# Target: zlib.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:zlib.cmo, file:zlib.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -o zlib.cmo zlib.ml
++ ocamlfind ocamlc -c -g -o zlib.cmo zlib.ml
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/bin_prot
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/bin_prot
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/core
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/core
+# Target: zip.cma, tags: { byte, debug, extension:cma, file:zip.cma, library, link, oasis_library_zip_cclib, ocaml, quiet, traverse, use_libzip }
+ocamlfind ocamlc -a -dllib -lzip -cclib -lzip -cclib -lz zlib.cmo zip.cmo gzip.cmo -o zip.cma
++ ocamlfind ocamlc -a -dllib -lzip -cclib -lzip -cclib -lz zlib.cmo zip.cmo gzip.cmo -o zip.cma
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/bin_prot
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/bin_prot
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/core
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/core
+# Target: zlib.cmx, tags: { compile, debug, extension:cmx, extension:ml, file:zlib.cmx, file:zlib.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -g -o zlib.cmx zlib.ml
++ ocamlfind ocamlopt -c -g -o zlib.cmx zlib.ml
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/bin_prot
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/bin_prot
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/core
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/core
+# Target: zip.cmx, tags: { compile, debug, extension:cmx, extension:ml, file:zip.cmx, file:zip.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -g -o zip.cmx zip.ml
++ ocamlfind ocamlopt -c -g -o zip.cmx zip.ml
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/bin_prot
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/bin_prot
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/core
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/core
+# Target: gzip.cmx, tags: { compile, debug, extension:cmx, extension:ml, file:gzip.cmx, file:gzip.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -g -o gzip.cmx gzip.ml
++ ocamlfind ocamlopt -c -g -o gzip.cmx gzip.ml
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/bin_prot
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/bin_prot
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/core
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/core
+# Target: zip.cmxa, tags: { debug, extension:cmxa, file:zip.cmxa, library, link, native, oasis_library_zip_cclib, ocaml, quiet, traverse, use_libzip }
+ocamlfind ocamlopt -a -cclib -lzip -cclib -lz zlib.cmx zip.cmx gzip.cmx -o zip.cmxa
++ ocamlfind ocamlopt -a -cclib -lzip -cclib -lz zlib.cmx zip.cmx gzip.cmx -o zip.cmxa
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/TEST_SUITE/test-2011-12-20/BUILD/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/lwt which is mentioned in ld.conf
+ocamlfind: [WARNING] Cannot read directory /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/share/js_of_ocaml which is mentioned in ld.conf
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/bin_prot
+ocamlfind: [WARNING] The DLL dllbin_prot.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/bin_prot
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/share/core
+ocamlfind: [WARNING] The DLL dllcore.so occurs in multiple directories: /home/lefessan/.ocaml/roots/ocaml-3.12.1/lib/ocaml/site-lib/core
+# Compilation successful.

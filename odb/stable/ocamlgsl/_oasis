@@ -1,0 +1,19 @@
+OASISFormat:  0.2
+Name:         ocamlgsl
+Version:      0.6.2-oasis1
+Authors:      Olivier Anderiu, Markus Mottl
+License:      GPL-2
+LicenseFile:  COPYING
+ConfType:   custom (0.2)
+BuildType:    custom (0.2)
+InstallType:  custom (0.2)
+BuildTools:   make
+Synopsis:     This is an interface to GSL (GNU scientific library), for the Objective Caml langage.
+
+XCustomConf: touch setup.data
+XCustomBuild: make
+XCustomInstall: make install
+XCustomUninstall: ocamlfind remove gsl
+
+Library "gsl"
+    Path: .

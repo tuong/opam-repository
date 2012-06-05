@@ -1,0 +1,42 @@
+"ogtkMenuProps.ml" 4 38 42 "ogtkMenuProps.ml" 4 38 45
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  def set "ogtkMenuProps.ml" 5 52 52 --
+)
+"ogtkMenuProps.ml" 4 38 48 "ogtkMenuProps.ml" 4 38 51
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"ogtkMenuProps.ml" 5 52 56 "ogtkMenuProps.ml" 5 52 59
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  def get "ogtkMenuProps.ml" 6 66 66 --
+)
+"ogtkMenuProps.ml" 5 52 62 "ogtkMenuProps.ml" 5 52 65
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  ext_ref Gobject.get
+)
+"ogtkMenuProps.ml" 6 66 70 "ogtkMenuProps.ml" 6 66 75
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  def param "ogtkMenuProps.ml" 7 84 84 --
+)
+"ogtkMenuProps.ml" 6 66 78 "ogtkMenuProps.ml" 6 66 83
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)

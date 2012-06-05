@@ -1,0 +1,15 @@
+.*\.cm[a-z]+$
+.*~$
+\.(sp[io]t|annot|o|cm[a-z]+|orig|omc|lock|opt|run)$
+\.omakedb$
+.*\.a
+test/expr$
+test/expr_test.ml$
+test/exprexn$
+test/exprref$
+ocaml/lablgtk-2\.14\.2$
+ocaml/ocaml$
+ocaml/lexer$
+ocaml/ocaml$
+ocaml/parser$
+ocaml/token$

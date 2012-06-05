@@ -1,0 +1,19 @@
+OASISFormat:  0.2
+Name:         ocurl
+Version:      0.5.3~oasis4
+Authors:      Lars Nilsson
+License:      MIT
+LicenseFile:  COPYING
+ConfType:   custom (0.2)
+BuildType:    custom (0.2)
+InstallType:  custom (0.2)
+BuildTools:   make
+Synopsis:     OCaml bindings to libcurl.
+
+XCustomConf: touch setup.data && ./configure --with-findlib
+XCustomBuild: make
+XCustomInstall: make install
+XCustomUninstall: ocamlfind remove curl
+
+Library curl
+    Path: .

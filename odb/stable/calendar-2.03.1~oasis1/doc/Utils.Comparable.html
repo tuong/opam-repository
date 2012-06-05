@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="Up" href="Utils.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Utils" rel="Chapter" href="Utils.html">
+<link title="Time_Zone" rel="Chapter" href="Time_Zone.html">
+<link title="Period" rel="Chapter" href="Period.html">
+<link title="Time_sig" rel="Chapter" href="Time_sig.html">
+<link title="Time" rel="Chapter" href="Time.html">
+<link title="Ftime" rel="Chapter" href="Ftime.html">
+<link title="Date_sig" rel="Chapter" href="Date_sig.html">
+<link title="Date" rel="Chapter" href="Date.html">
+<link title="Calendar_sig" rel="Chapter" href="Calendar_sig.html">
+<link title="Calendar_builder" rel="Chapter" href="Calendar_builder.html">
+<link title="Calendar" rel="Chapter" href="Calendar.html">
+<link title="Fcalendar" rel="Chapter" href="Fcalendar.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Version" rel="Chapter" href="Version.html"><title>Utils.Comparable</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a href="Utils.html">Up</a>
+&nbsp;</div>
+<center><h1>Module type <a href="type_Utils.Comparable.html">Utils.Comparable</a></h1></center>
+<br>
+<pre><span class="keyword">module type</span> Comparable = <code class="code"><span class="keyword">sig</span></code> <a href="Utils.Comparable.html">..</a> <code class="code"><span class="keyword">end</span></code></pre>Interface for comparable and hashable types.
+    Modules implementing this interface can be an argument of <code class="code"><span class="constructor">Map</span>.<span class="constructor">Make</span></code>,
+    <code class="code"><span class="constructor">Set</span>.<span class="constructor">Make</span></code> or <code class="code"><span class="constructor">Hashtbl</span>.<span class="constructor">Make</span></code>.<br>
+<b>Since</b> 2.0<br>
+<hr width="100%">
+<pre><span id="TYPEt"><span class="keyword">type</span> <code class="type"></code>t</span> </pre>
+
+<pre><span id="VALequal"><span class="keyword">val</span> equal</span> : <code class="type"><a href="Utils.Comparable.html#TYPEt">t</a> -> <a href="Utils.Comparable.html#TYPEt">t</a> -> bool</code></pre><div class="info">
+Equality over <code class="code">t</code>.<br>
+</div>
+<pre><span id="VALcompare"><span class="keyword">val</span> compare</span> : <code class="type"><a href="Utils.Comparable.html#TYPEt">t</a> -> <a href="Utils.Comparable.html#TYPEt">t</a> -> int</code></pre><div class="info">
+Comparison over <code class="code">t</code>.
+	<code class="code">compare x y</code> returns <code class="code">0</code> iff <code class="code">equal x y = 0</code>. If <code class="code">x</code> and <code class="code">y</code> are not
+	equal, it returns a negative integer iff <code class="code">x</code> is lesser than <code class="code">y</code> and a
+	positive integer otherwise.<br>
+</div>
+<pre><span id="VALhash"><span class="keyword">val</span> hash</span> : <code class="type"><a href="Utils.Comparable.html#TYPEt">t</a> -> int</code></pre><div class="info">
+A hash function over <code class="code">t</code>.<br>
+</div>
+</body></html>

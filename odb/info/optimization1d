@@ -1,0 +1,4 @@
+deps=ocamlbuild
+tarball=optimization1d-0.5.tar.gz
+is_library=true
+is_program=false

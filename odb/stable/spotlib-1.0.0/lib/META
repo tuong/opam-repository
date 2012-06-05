@@ -1,0 +1,7 @@
+name="spotlib"
+version="1.0.0"
+description="Spotter's garbages"
+requires="unix"
+archive(byte)="spotlib.cmo"
+archive(native)="spotlib.cmx"
+linkopts = ""

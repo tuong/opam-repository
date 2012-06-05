@@ -1,0 +1,10 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: ab871827987ec967cf5d0e5b4ff72680) *)
+Authors of archimedes
+Christophe Troestler <Christophe.Troestler@umons.ac.be>
+Pierre Hauweele <pierre@hauweele.net>
+Fabian Pijcke <fabian.pijcke@gmail.com>
+Noémie Meunier <noemie_6462@hotmail.com>
+Bertrand Desmons <bibi-6@hotmail.fr>
+Xavier Deschuyteneer <xavier.deschuyteneer@gmail.com>
+(* OASIS_STOP *)

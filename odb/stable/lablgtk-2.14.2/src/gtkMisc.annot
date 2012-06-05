@@ -1,0 +1,71 @@
+"gtkMisc.ml" 33 1810 1814 "gtkMisc.ml" 33 1810 1816
+type(
+  unit
+)
+"gtkMisc.ml" 33 1810 1819 "gtkMisc.ml" 33 1810 1832
+type(
+  unit -> unit
+)
+"gtkMisc.ml" 33 1810 1833 "gtkMisc.ml" 33 1810 1835
+type(
+  unit
+)
+"gtkMisc.ml" 33 1810 1819 "gtkMisc.ml" 33 1810 1835
+type(
+  unit
+)
+"gtkMisc.ml" 51 2094 2100 "gtkMisc.ml" 51 2094 2110
+type(
+  cont:(([> `misc | `widget ] as 'a) Gobject.param list -> 'b) ->
+  'a Gobject.param list ->
+  ?xalign:float ->
+  ?yalign:float -> ?xpad:int -> ?ypad:int -> ?width:int -> ?height:int -> 'b
+)
+ident(
+  def all_params "gtkMisc.ml" 52 2119 2167 "gtkMisc.ml" 53 2168 2171
+)
+"gtkMisc.ml" 51 2094 2112 "gtkMisc.ml" 51 2094 2116
+type(
+  'a Gobject.param list -> 'b
+)
+ident(
+  def cont "gtkMisc.ml" 52 2119 2123 "gtkMisc.ml" 52 2119 2167
+)
+"gtkMisc.ml" 52 2119 2123 "gtkMisc.ml" 52 2119 2134
+type(
+  cont:('a Gobject.param list -> ?width:int -> ?height:int -> 'b) ->
+  'a Gobject.param list ->
+  ?xalign:float ->
+  ?yalign:float -> ?xpad:int -> ?ypad:int -> ?width:int -> ?height:int -> 'b
+)
+"gtkMisc.ml" 52 2119 2142 "gtkMisc.ml" 52 2119 2160
+type(
+  cont:('a Gobject.param list -> 'b) ->
+  'a Gobject.param list -> ?width:int -> ?height:int -> 'b
+)
+ident(
+  ext_ref GtkBase.Widget.size_params
+)
+"gtkMisc.ml" 52 2119 2162 "gtkMisc.ml" 52 2119 2166
+type(
+  'a Gobject.param list -> 'b
+)
+ident(
+  int_ref cont "gtkMisc.ml" 51 2094 2112 "gtkMisc.ml" 51 2094 2116
+)
+"gtkMisc.ml" 52 2119 2141 "gtkMisc.ml" 52 2119 2167
+call(
+  stack
+)
+type(
+  'a Gobject.param list -> ?width:int -> ?height:int -> 'b
+)
+"gtkMisc.ml" 52 2119 2123 "gtkMisc.ml" 52 2119 2167
+call(
+  tail
+)
+type(
+  'a Gobject.param list ->
+  ?xalign:float ->
+  ?yalign:float -> ?xpad:int -> ?ypad:int -> ?width:int -> ?height:int -> 'b
+)

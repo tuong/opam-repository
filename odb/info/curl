@@ -1,0 +1,4 @@
+deps=make
+tarball=ocurl-0.5.3~oasis4.tar.gz
+is_library=true
+is_program=false

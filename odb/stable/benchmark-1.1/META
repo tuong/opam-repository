@@ -1,0 +1,10 @@
+# OASIS_START
+# DO NOT EDIT (digest: 7d46811a78ca0d62c852e1b4f62c0c89)
+version = "1.1"
+description = "Benchmark running times of code."
+requires = "unix"
+archive(byte) = "benchmark.cma"
+archive(native) = "benchmark.cmxa"
+exists_if = "benchmark.cma"
+# OASIS_STOP
+

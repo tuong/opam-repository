@@ -1,0 +1,4 @@
+deps=ocamlbuild,oUnit,benchmark(>=0.9)
+tarball=ocaml-fastrandom-0.0.2.tar.gz
+is_library=true
+is_program=false

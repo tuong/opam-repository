@@ -1,0 +1,3899 @@
+"gAction.ml" 24 1669 1673 "gAction.ml" 24 1669 1675
+type(
+  unit
+)
+"gAction.ml" 24 1669 1678 "gAction.ml" 24 1669 1682
+type(
+  unit -> unit
+)
+"gAction.ml" 24 1669 1683 "gAction.ml" 24 1669 1685
+type(
+  unit
+)
+"gAction.ml" 24 1669 1678 "gAction.ml" 24 1669 1685
+type(
+  unit
+)
+"gAction.ml" 29 1737 1758 "gAction.ml" 29 1737 1761
+type(
+  [> Gtk.action ] Gtk.obj
+)
+"gAction.ml" 30 1771 1819 "gAction.ml" 30 1771 1822
+type(
+  ([> Gtk.action ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gAction.ml" 29 1737 1758 "gAction.ml" 29 1737 1761
+)
+"gAction.ml" 34 1866 1884 "gAction.ml" 34 1866 1887
+type(
+  [> Gtk.action ] Gobject.obj
+)
+"gAction.ml" 35 1897 1909 "gAction.ml" 35 1897 1912
+type(
+  ([> Gtk.action ] as 'a) Gobject.obj
+)
+ident(
+  int_ref obj "gAction.ml" 34 1866 1884 "gAction.ml" 34 1866 1887
+)
+"gAction.ml" 36 1913 1936 "gAction.ml" 36 1913 1939
+type(
+  'a Gobject.obj
+)
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 38 1979 2001 "gAction.ml" 38 1979 2004
+type(
+  Gtk.action Gobject.obj
+)
+type(
+  Gtk.action Gobject.obj
+)
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 40 2033 2051 "gAction.ml" 40 2033 2053
+type(
+  unit
+)
+"gAction.ml" 40 2033 2056 "gAction.ml" 40 2033 2071
+type(
+  'a Gobject.obj -> unit
+)
+ident(
+  ext_ref GtkAction.Action.activate
+)
+"gAction.ml" 40 2033 2072 "gAction.ml" 40 2033 2075
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 40 2033 2056 "gAction.ml" 40 2033 2075
+type(
+  unit
+)
+"gAction.ml" 41 2076 2100 "gAction.ml" 41 2076 2119
+type(
+  'a Gobject.obj -> bool
+)
+ident(
+  ext_ref GtkAction.Action.is_sensitive
+)
+"gAction.ml" 41 2076 2120 "gAction.ml" 41 2076 2123
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 41 2076 2100 "gAction.ml" 41 2076 2123
+type(
+  bool
+)
+type(
+  bool
+)
+"gAction.ml" 42 2124 2146 "gAction.ml" 42 2124 2163
+type(
+  'a Gobject.obj -> bool
+)
+ident(
+  ext_ref GtkAction.Action.is_visible
+)
+"gAction.ml" 42 2124 2164 "gAction.ml" 42 2124 2167
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 42 2124 2146 "gAction.ml" 42 2124 2167
+type(
+  bool
+)
+type(
+  bool
+)
+"gAction.ml" 43 2168 2191 "gAction.ml" 43 2168 2192
+type(
+  GObj.widget
+)
+ident(
+  def w "gAction.ml" 43 2168 2195 "gAction.ml" 43 2168 2238
+)
+"gAction.ml" 43 2168 2195 "gAction.ml" 43 2168 2215
+type(
+  'a Gobject.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkAction.Action.connect_proxy
+)
+"gAction.ml" 43 2168 2216 "gAction.ml" 43 2168 2219
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 43 2168 2221 "gAction.ml" 43 2168 2235
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gAction.ml" 43 2168 2236 "gAction.ml" 43 2168 2237
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gAction.ml" 43 2168 2191 "gAction.ml" 43 2168 2192
+)
+"gAction.ml" 43 2168 2220 "gAction.ml" 43 2168 2238
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gAction.ml" 43 2168 2195 "gAction.ml" 43 2168 2238
+type(
+  unit
+)
+"gAction.ml" 44 2239 2265 "gAction.ml" 44 2239 2266
+type(
+  GObj.widget
+)
+ident(
+  def w "gAction.ml" 44 2239 2269 "gAction.ml" 44 2239 2315
+)
+"gAction.ml" 44 2239 2269 "gAction.ml" 44 2239 2292
+type(
+  'a Gobject.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkAction.Action.disconnect_proxy
+)
+"gAction.ml" 44 2239 2293 "gAction.ml" 44 2239 2296
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 44 2239 2298 "gAction.ml" 44 2239 2312
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gAction.ml" 44 2239 2313 "gAction.ml" 44 2239 2314
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gAction.ml" 44 2239 2265 "gAction.ml" 44 2239 2266
+)
+"gAction.ml" 44 2239 2297 "gAction.ml" 44 2239 2315
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gAction.ml" 44 2239 2269 "gAction.ml" 44 2239 2315
+type(
+  unit
+)
+"gAction.ml" 45 2316 2339 "gAction.ml" 45 2316 2347
+type(
+  (Gtk.widget Gtk.obj -> GObj.widget) ->
+  Gtk.widget Gtk.obj list -> GObj.widget list
+)
+ident(
+  ext_ref List.map
+)
+"gAction.ml" 45 2316 2348 "gAction.ml" 45 2316 2365
+type(
+  Gtk.widget Gtk.obj -> GObj.widget
+)
+"gAction.ml" 45 2316 2367 "gAction.ml" 45 2316 2385
+type(
+  'a Gobject.obj -> Gtk.widget Gtk.obj list
+)
+ident(
+  ext_ref GtkAction.Action.get_proxies
+)
+"gAction.ml" 45 2316 2386 "gAction.ml" 45 2316 2389
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 45 2316 2366 "gAction.ml" 45 2316 2390
+type(
+  Gtk.widget Gtk.obj list
+)
+"gAction.ml" 45 2316 2339 "gAction.ml" 45 2316 2390
+call(
+  tail
+)
+type(
+  GObj.widget list
+)
+type(
+  GObj.widget list
+)
+"gAction.ml" 46 2391 2420 "gAction.ml" 46 2391 2422
+type(
+  unit
+)
+"gAction.ml" 46 2391 2425 "gAction.ml" 46 2391 2451
+type(
+  'a Gobject.obj -> unit
+)
+ident(
+  ext_ref GtkAction.Action.connect_accelerator
+)
+"gAction.ml" 46 2391 2452 "gAction.ml" 46 2391 2455
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 46 2391 2425 "gAction.ml" 46 2391 2455
+type(
+  unit
+)
+"gAction.ml" 47 2456 2488 "gAction.ml" 47 2456 2490
+type(
+  unit
+)
+"gAction.ml" 47 2456 2493 "gAction.ml" 47 2456 2522
+type(
+  'a Gobject.obj -> unit
+)
+ident(
+  ext_ref GtkAction.Action.disconnect_accelerator
+)
+"gAction.ml" 47 2456 2523 "gAction.ml" 47 2456 2526
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 47 2456 2493 "gAction.ml" 47 2456 2526
+type(
+  unit
+)
+"gAction.ml" 48 2527 2553 "gAction.ml" 48 2527 2574
+type(
+  'a Gobject.obj -> string -> unit
+)
+ident(
+  ext_ref GtkAction.Action.set_accel_path
+)
+"gAction.ml" 48 2527 2575 "gAction.ml" 48 2527 2578
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 48 2527 2553 "gAction.ml" 48 2527 2578
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gAction.ml" 49 2579 2606 "gAction.ml" 49 2579 2628
+type(
+  'a Gobject.obj -> Gtk.accel_group -> unit
+)
+ident(
+  ext_ref GtkAction.Action.set_accel_group
+)
+"gAction.ml" 49 2579 2629 "gAction.ml" 49 2579 2632
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 49 2579 2606 "gAction.ml" 49 2579 2632
+call(
+  tail
+)
+type(
+  Gtk.accel_group -> unit
+)
+type(
+  Gtk.accel_group -> unit
+)
+"gAction.ml" 50 2633 2663 "gAction.ml" 50 2633 2664
+type(
+  GObj.widget
+)
+ident(
+  def w "gAction.ml" 50 2633 2682 "gAction.ml" 50 2633 2724
+)
+"gAction.ml" 50 2633 2682 "gAction.ml" 50 2633 2708
+type(
+  'a Gobject.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkAction.Action.block_activate_from
+)
+"gAction.ml" 50 2633 2709 "gAction.ml" 50 2633 2712
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 50 2633 2713 "gAction.ml" 50 2633 2714
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gAction.ml" 50 2633 2663 "gAction.ml" 50 2633 2664
+)
+"gAction.ml" 50 2633 2713 "gAction.ml" 50 2633 2724
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gAction.ml" 50 2633 2682 "gAction.ml" 50 2633 2724
+type(
+  unit
+)
+"gAction.ml" 51 2725 2757 "gAction.ml" 51 2725 2758
+type(
+  GObj.widget
+)
+ident(
+  def w "gAction.ml" 51 2725 2776 "gAction.ml" 51 2725 2820
+)
+"gAction.ml" 51 2725 2776 "gAction.ml" 51 2725 2804
+type(
+  'a Gobject.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkAction.Action.unblock_activate_from
+)
+"gAction.ml" 51 2725 2805 "gAction.ml" 51 2725 2808
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 51 2725 2809 "gAction.ml" 51 2725 2810
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gAction.ml" 51 2725 2757 "gAction.ml" 51 2725 2758
+)
+"gAction.ml" 51 2725 2809 "gAction.ml" 51 2725 2820
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gAction.ml" 51 2725 2776 "gAction.ml" 51 2725 2820
+type(
+  unit
+)
+"gAction.ml" 54 2826 2839 "gAction.ml" 54 2826 2842
+type(
+  [> Gtk.action ] Gtk.obj
+)
+"gAction.ml" 55 2852 2874 "gAction.ml" 55 2852 2877
+type(
+  ([> Gtk.action ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gAction.ml" 54 2826 2839 "gAction.ml" 54 2826 2842
+)
+"gAction.ml" 56 2878 2897 "gAction.ml" 56 2878 2915
+type(
+  'a Gtk.obj -> action_signals
+)
+"gAction.ml" 56 2878 2916 "gAction.ml" 56 2878 2919
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 56 2878 2897 "gAction.ml" 56 2878 2919
+call(
+  tail
+)
+type(
+  action_signals
+)
+type(
+  action_signals
+)
+"gAction.ml" 59 2925 2929 "gAction.ml" 59 2925 2935
+type(
+  name:string -> unit -> action
+)
+ident(
+  def action "gAction.ml" 62 2986 2986 --
+)
+"gAction.ml" 59 2925 2937 "gAction.ml" 59 2925 2941
+type(
+  string
+)
+ident(
+  def name "gAction.ml" 59 2925 2942 "gAction.ml" 60 2947 2984
+)
+"gAction.ml" 59 2925 2942 "gAction.ml" 59 2925 2944
+type(
+  unit
+)
+"gAction.ml" 60 2947 2949 "gAction.ml" 60 2947 2959
+type(
+  Gtk.action Gtk.obj -> action
+)
+"gAction.ml" 60 2947 2961 "gAction.ml" 60 2947 2974
+type(
+  ?name:string -> Gtk.action Gobject.param list -> Gtk.action Gtk.obj
+)
+ident(
+  ext_ref GtkAction.Action.create
+)
+"gAction.ml" 60 2947 2976 "gAction.ml" 60 2947 2980
+type(
+  string
+)
+ident(
+  int_ref name "gAction.ml" 59 2925 2937 "gAction.ml" 59 2925 2941
+)
+"gAction.ml" 60 2947 2981 "gAction.ml" 60 2947 2983
+type(
+  Gtk.action Gobject.param list
+)
+"gAction.ml" 60 2947 2960 "gAction.ml" 60 2947 2984
+call(
+  stack
+)
+type(
+  Gtk.action Gtk.obj
+)
+"gAction.ml" 60 2947 2949 "gAction.ml" 60 2947 2984
+call(
+  tail
+)
+type(
+  action
+)
+"gAction.ml" 62 2986 3014 "gAction.ml" 62 2986 3017
+type(
+  [> `action | `toggleaction ] Gtk.obj
+)
+"gAction.ml" 63 3027 3052 "gAction.ml" 63 3027 3055
+type(
+  ([> `action | `toggleaction ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gAction.ml" 62 2986 3014 "gAction.ml" 62 2986 3017
+)
+"gAction.ml" 67 3106 3131 "gAction.ml" 67 3106 3134
+type(
+  [> `action | `toggleaction ] Gobject.obj
+)
+"gAction.ml" 68 3144 3166 "gAction.ml" 68 3144 3169
+type(
+  ([> `action | `toggleaction ] as 'a) Gobject.obj
+)
+ident(
+  int_ref obj "gAction.ml" 67 3106 3131 "gAction.ml" 67 3106 3134
+)
+"gAction.ml" 70 3216 3233 "gAction.ml" 70 3216 3235
+type(
+  unit
+)
+"gAction.ml" 70 3216 3238 "gAction.ml" 70 3216 3258
+type(
+  'a Gobject.obj -> unit
+)
+ident(
+  ext_ref GtkAction.ToggleAction.toggled
+)
+"gAction.ml" 70 3216 3259 "gAction.ml" 70 3216 3262
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 70 3216 3238 "gAction.ml" 70 3216 3262
+type(
+  unit
+)
+"gAction.ml" 71 3263 3285 "gAction.ml" 71 3263 3308
+type(
+  'a Gobject.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkAction.ToggleAction.set_active
+)
+"gAction.ml" 71 3263 3309 "gAction.ml" 71 3263 3312
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 71 3263 3285 "gAction.ml" 71 3263 3312
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gAction.ml" 72 3313 3335 "gAction.ml" 72 3313 3358
+type(
+  'a Gobject.obj -> bool
+)
+ident(
+  ext_ref GtkAction.ToggleAction.get_active
+)
+"gAction.ml" 72 3313 3359 "gAction.ml" 72 3313 3362
+type(
+  'a Gobject.obj
+)
+"gAction.ml" 72 3313 3335 "gAction.ml" 72 3313 3362
+type(
+  bool
+)
+type(
+  bool
+)
+"gAction.ml" 75 3368 3388 "gAction.ml" 75 3368 3391
+type(
+  [> `action | `toggleaction ] Gtk.obj
+)
+"gAction.ml" 76 3401 3430 "gAction.ml" 76 3401 3433
+type(
+  ([> `action | `toggleaction ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gAction.ml" 75 3368 3388 "gAction.ml" 75 3368 3391
+)
+"gAction.ml" 77 3434 3453 "gAction.ml" 77 3434 3478
+type(
+  'a Gtk.obj -> toggle_action_signals
+)
+"gAction.ml" 77 3434 3479 "gAction.ml" 77 3434 3482
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 77 3434 3453 "gAction.ml" 77 3434 3482
+call(
+  tail
+)
+type(
+  toggle_action_signals
+)
+type(
+  toggle_action_signals
+)
+"gAction.ml" 80 3488 3492 "gAction.ml" 80 3488 3505
+type(
+  name:string -> unit -> toggle_action
+)
+ident(
+  def toggle_action "gAction.ml" 83 3597 3597 --
+)
+"gAction.ml" 80 3488 3507 "gAction.ml" 80 3488 3511
+type(
+  string
+)
+ident(
+  def name "gAction.ml" 80 3488 3512 "gAction.ml" 81 3517 3595
+)
+"gAction.ml" 80 3488 3512 "gAction.ml" 80 3488 3514
+type(
+  unit
+)
+"gAction.ml" 81 3517 3519 "gAction.ml" 81 3517 3536
+type(
+  Gtk.toggle_action Gtk.obj -> toggle_action
+)
+"gAction.ml" 81 3517 3538 "gAction.ml" 81 3517 3557
+type(
+  Gtk.toggle_action Gobject.param list -> Gtk.toggle_action Gtk.obj
+)
+ident(
+  ext_ref GtkAction.ToggleAction.create
+)
+"gAction.ml" 81 3517 3560 "gAction.ml" 81 3517 3573
+type(
+  (Gtk.toggle_action, string) Gobject.property ->
+  string -> Gtk.toggle_action Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"gAction.ml" 81 3517 3574 "gAction.ml" 81 3517 3587
+type(
+  (Gtk.toggle_action, string) Gobject.property
+)
+ident(
+  ext_ref GtkAction.Action.P.name
+)
+"gAction.ml" 81 3517 3588 "gAction.ml" 81 3517 3592
+type(
+  string
+)
+ident(
+  int_ref name "gAction.ml" 80 3488 3507 "gAction.ml" 80 3488 3511
+)
+"gAction.ml" 81 3517 3560 "gAction.ml" 81 3517 3592
+call(
+  stack
+)
+type(
+  Gtk.toggle_action Gobject.param
+)
+"gAction.ml" 81 3517 3558 "gAction.ml" 81 3517 3594
+type(
+  Gtk.toggle_action Gobject.param list
+)
+"gAction.ml" 81 3517 3537 "gAction.ml" 81 3517 3595
+call(
+  stack
+)
+type(
+  Gtk.toggle_action Gtk.obj
+)
+"gAction.ml" 81 3517 3519 "gAction.ml" 81 3517 3595
+call(
+  tail
+)
+type(
+  toggle_action
+)
+"gAction.ml" 83 3597 3624 "gAction.ml" 83 3597 3627
+type(
+  [> `action | `radioaction | `toggleaction ] Gtk.obj
+)
+"gAction.ml" 84 3637 3669 "gAction.ml" 84 3637 3672
+type(
+  ([> `action | `radioaction | `toggleaction ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gAction.ml" 83 3597 3624 "gAction.ml" 83 3597 3627
+)
+"gAction.ml" 85 3673 3691 "gAction.ml" 85 3673 3699
+type(
+  int -> unit
+)
+ident(
+  def callback "gAction.ml" 86 3702 3706 "gAction.ml" 89 3828 3844
+)
+"gAction.ml" 86 3702 3706 "gAction.ml" 86 3702 3723
+type(
+  sgn:('a, Gtk.radio_action Gobject.obj -> unit) GtkSignal.t ->
+  callback:(Gtk.radio_action Gobject.obj -> unit) ->
+  ?after:bool -> 'a Gtk.obj -> GtkSignal.id
+)
+ident(
+  ext_ref GtkSignal.connect
+)
+"gAction.ml" 87 3725 3736 "gAction.ml" 87 3725 3757
+type(
+  ('a, Gtk.radio_action Gobject.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkAction.RadioAction.S.changed
+)
+"gAction.ml" 88 3758 3779 "gAction.ml" 88 3758 3780
+type(
+  Gtk.radio_action Gobject.obj
+)
+ident(
+  def o "gAction.ml" 88 3758 3784 "gAction.ml" 88 3758 3826
+)
+"gAction.ml" 88 3758 3784 "gAction.ml" 88 3758 3792
+type(
+  int -> unit
+)
+ident(
+  int_ref callback "gAction.ml" 85 3673 3691 "gAction.ml" 85 3673 3699
+)
+"gAction.ml" 88 3758 3794 "gAction.ml" 88 3758 3823
+type(
+  Gtk.radio_action Gobject.obj -> int
+)
+ident(
+  ext_ref GtkAction.RadioAction.get_current_value
+)
+"gAction.ml" 88 3758 3824 "gAction.ml" 88 3758 3825
+type(
+  Gtk.radio_action Gobject.obj
+)
+ident(
+  int_ref o "gAction.ml" 88 3758 3779 "gAction.ml" 88 3758 3780
+)
+"gAction.ml" 88 3758 3793 "gAction.ml" 88 3758 3826
+type(
+  int
+)
+"gAction.ml" 88 3758 3784 "gAction.ml" 88 3758 3826
+call(
+  tail
+)
+type(
+  unit
+)
+"gAction.ml" 88 3758 3774 "gAction.ml" 88 3758 3827
+type(
+  Gtk.radio_action Gobject.obj -> unit
+)
+"gAction.ml" 89 3828 3835 "gAction.ml" 89 3828 3840
+type(
+  bool
+)
+"gAction.ml" 89 3828 3841 "gAction.ml" 89 3828 3844
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 86 3702 3706 "gAction.ml" 89 3828 3844
+call(
+  tail
+)
+type(
+  GtkSignal.id
+)
+"gAction.ml" 92 3850 3869 "gAction.ml" 92 3850 3872
+type(
+  [> Gtk.radio_action ] Gtk.obj
+)
+"gAction.ml" 93 3882 3911 "gAction.ml" 93 3882 3914
+type(
+  ([> Gtk.radio_action ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gAction.ml" 92 3850 3869 "gAction.ml" 92 3850 3872
+)
+"gAction.ml" 95 3960 3979 "gAction.ml" 95 3960 4003
+type(
+  'a Gtk.obj -> radio_action_signals
+)
+"gAction.ml" 95 3960 4004 "gAction.ml" 95 3960 4007
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 95 3960 3979 "gAction.ml" 95 3960 4007
+call(
+  tail
+)
+type(
+  radio_action_signals
+)
+type(
+  radio_action_signals
+)
+"gAction.ml" 96 4008 4036 "gAction.ml" 96 4008 4039
+type(
+  Gtk.radio_action Gobject.obj
+)
+type(
+  Gtk.radio_action Gobject.obj
+)
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 97 4073 4102 "gAction.ml" 97 4073 4131
+type(
+  'a Gtk.obj -> int
+)
+ident(
+  ext_ref GtkAction.RadioAction.get_current_value
+)
+"gAction.ml" 97 4073 4132 "gAction.ml" 97 4073 4135
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 97 4073 4102 "gAction.ml" 97 4073 4135
+type(
+  int
+)
+type(
+  int
+)
+"gAction.ml" 100 4141 4145 "gAction.ml" 100 4141 4157
+type(
+  ?group:< as_radio_action : Gtk.radio_action Gobject.obj; .. > ->
+  name:string -> value:int -> unit -> radio_action
+)
+ident(
+  def radio_action "gAction.ml" 107 4431 4431 --
+)
+"gAction.ml" 100 4141 4159 "gAction.ml" 100 4141 4164
+type(
+  (< as_radio_action : Gtk.radio_action Gobject.obj; .. > as 'a) option
+)
+ident(
+  def group "gAction.ml" 100 4141 4165 "gAction.ml" 105 4380 4429
+)
+"gAction.ml" 100 4141 4166 "gAction.ml" 100 4141 4170
+type(
+  string
+)
+ident(
+  def name "gAction.ml" 100 4141 4171 "gAction.ml" 105 4380 4429
+)
+"gAction.ml" 100 4141 4172 "gAction.ml" 100 4141 4177
+type(
+  int
+)
+ident(
+  def value "gAction.ml" 100 4141 4178 "gAction.ml" 105 4380 4429
+)
+"gAction.ml" 100 4141 4178 "gAction.ml" 100 4141 4180
+type(
+  unit
+)
+"gAction.ml" 101 4183 4185 "gAction.ml" 101 4183 4201
+type(
+  Gtk.radio_action Gtk.obj -> radio_action
+)
+"gAction.ml" 101 4183 4203 "gAction.ml" 101 4183 4221
+type(
+  Gtk.radio_action Gobject.param list -> Gtk.radio_action Gtk.obj
+)
+ident(
+  ext_ref GtkAction.RadioAction.create
+)
+"gAction.ml" 102 4223 4232 "gAction.ml" 102 4223 4257
+type(
+  (Gtk.radio_action, Gtk.radio_action Gobject.obj option) Gobject.property ->
+  Gtk.radio_action Gobject.obj option option ->
+  Gtk.radio_action Gobject.param list -> Gtk.radio_action Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gAction.ml" 102 4223 4258 "gAction.ml" 102 4223 4277
+type(
+  (Gtk.radio_action, Gtk.radio_action Gobject.obj option) Gobject.property
+)
+ident(
+  ext_ref GtkAction.RadioAction.P.group
+)
+"gAction.ml" 103 4278 4283 "gAction.ml" 103 4278 4295
+type(
+  f:('a -> Gtk.radio_action Gobject.obj option) ->
+  'a option -> Gtk.radio_action Gobject.obj option option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gAction.ml" 103 4278 4301 "gAction.ml" 103 4278 4302
+type(
+  'a
+)
+ident(
+  def g "gAction.ml" 103 4278 4306 "gAction.ml" 103 4278 4330
+)
+"gAction.ml" 103 4278 4312 "gAction.ml" 103 4278 4313
+type(
+  'a
+)
+ident(
+  int_ref g "gAction.ml" 103 4278 4301 "gAction.ml" 103 4278 4302
+)
+"gAction.ml" 103 4278 4311 "gAction.ml" 103 4278 4330
+call(
+  stack
+)
+type(
+  Gtk.radio_action Gobject.obj
+)
+"gAction.ml" 103 4278 4306 "gAction.ml" 103 4278 4330
+type(
+  Gtk.radio_action Gobject.obj option
+)
+"gAction.ml" 103 4278 4296 "gAction.ml" 103 4278 4331
+type(
+  'a -> Gtk.radio_action Gobject.obj option
+)
+"gAction.ml" 103 4278 4332 "gAction.ml" 103 4278 4337
+type(
+  'a option
+)
+ident(
+  int_ref group "gAction.ml" 100 4141 4159 "gAction.ml" 100 4141 4164
+)
+"gAction.ml" 103 4278 4282 "gAction.ml" 103 4278 4338
+call(
+  stack
+)
+type(
+  Gtk.radio_action Gobject.obj option option
+)
+"gAction.ml" 104 4339 4345 "gAction.ml" 104 4339 4358
+type(
+  (Gtk.radio_action, string) Gobject.property ->
+  string -> Gtk.radio_action Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"gAction.ml" 104 4339 4359 "gAction.ml" 104 4339 4372
+type(
+  (Gtk.radio_action, string) Gobject.property
+)
+ident(
+  ext_ref GtkAction.Action.P.name
+)
+"gAction.ml" 104 4339 4373 "gAction.ml" 104 4339 4377
+type(
+  string
+)
+ident(
+  int_ref name "gAction.ml" 100 4141 4166 "gAction.ml" 100 4141 4170
+)
+"gAction.ml" 104 4339 4345 "gAction.ml" 104 4339 4377
+call(
+  stack
+)
+type(
+  Gtk.radio_action Gobject.param
+)
+"gAction.ml" 105 4380 4386 "gAction.ml" 105 4380 4399
+type(
+  (Gtk.radio_action, int) Gobject.property ->
+  int -> Gtk.radio_action Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"gAction.ml" 105 4380 4400 "gAction.ml" 105 4380 4419
+type(
+  (Gtk.radio_action, int) Gobject.property
+)
+ident(
+  ext_ref GtkAction.RadioAction.P.value
+)
+"gAction.ml" 105 4380 4420 "gAction.ml" 105 4380 4425
+type(
+  int
+)
+ident(
+  int_ref value "gAction.ml" 100 4141 4172 "gAction.ml" 100 4141 4177
+)
+"gAction.ml" 105 4380 4386 "gAction.ml" 105 4380 4425
+call(
+  stack
+)
+type(
+  Gtk.radio_action Gobject.param
+)
+"gAction.ml" 104 4339 4343 "gAction.ml" 105 4380 4427
+type(
+  Gtk.radio_action Gobject.param list
+)
+"gAction.ml" 102 4223 4231 "gAction.ml" 105 4380 4428
+call(
+  stack
+)
+type(
+  Gtk.radio_action Gobject.param list
+)
+"gAction.ml" 101 4183 4202 "gAction.ml" 105 4380 4429
+call(
+  stack
+)
+type(
+  Gtk.radio_action Gtk.obj
+)
+"gAction.ml" 101 4183 4185 "gAction.ml" 105 4380 4429
+call(
+  tail
+)
+type(
+  radio_action
+)
+"gAction.ml" 107 4431 4458 "gAction.ml" 107 4431 4461
+type(
+  [> Gtk.action_group ] Gtk.obj
+)
+"gAction.ml" 107 4431 4471 "gAction.ml" 107 4431 4477
+type(
+  < after : 'a;
+    connect_proxy : callback:(action -> GObj.widget -> unit) -> GtkSignal.id;
+    disconnect_proxy : callback:(action -> GObj.widget -> unit) ->
+                       GtkSignal.id;
+    post_activate : callback:(action -> unit) -> GtkSignal.id;
+    pre_activate : callback:(action -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"gAction.ml" 108 4478 4532 "gAction.ml" 108 4478 4535
+type(
+  ([> Gtk.action_group ] as 'b) Gtk.obj
+)
+ident(
+  int_ref obj "gAction.ml" 107 4431 4458 "gAction.ml" 107 4431 4461
+)
+"gAction.ml" 111 4630 4654 "gAction.ml" 111 4630 4662
+type(
+  action -> GObj.widget -> unit
+)
+ident(
+  def callback "gAction.ml" 111 4630 4665 "gAction.ml" 117 4897 4937
+)
+"gAction.ml" 111 4630 4665 "gAction.ml" 111 4630 4669
+type(
+  'a
+)
+"gAction.ml" 111 4630 4665 "gAction.ml" 111 4630 4677
+call(
+  tail
+)
+type(
+  ('b, Gtk.action Gtk.obj -> GObj.widget -> unit) GtkSignal.t ->
+  callback:(Gtk.action Gtk.obj -> GObj.widget -> unit) -> GtkSignal.id
+)
+"gAction.ml" 112 4678 4683 "gAction.ml" 112 4678 4710
+type(
+  ('b, Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkAction.ActionGroup.S.connect_proxy
+)
+"gAction.ml" 112 4678 4743 "gAction.ml" 112 4678 4744
+type(
+  Gtk.action Gtk.obj -> GObj.widget -> unit
+)
+ident(
+  def f "gAction.ml" 113 4748 4753 "gAction.ml" 116 4855 4895
+)
+"gAction.ml" 113 4748 4753 "gAction.ml" 113 4748 4771
+type(
+  Gtk.action Gtk.obj Gobject.data_conv ->
+  GObj.widget Gobject.data_conv ->
+  string -> (Gtk.action Gtk.obj -> GObj.widget -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gAction.ml" 114 4773 4775 "gAction.ml" 114 4773 4795
+type(
+  Gtk.action Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.action Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gAction.ml" 115 4837 4838 "gAction.ml" 115 4837 4854
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"gAction.ml" 116 4855 4862 "gAction.ml" 116 4855 4893
+type(
+  string
+)
+"gAction.ml" 116 4855 4894 "gAction.ml" 116 4855 4895
+type(
+  Gtk.action Gtk.obj -> GObj.widget -> unit
+)
+ident(
+  int_ref f "gAction.ml" 112 4678 4743 "gAction.ml" 112 4678 4744
+)
+"gAction.ml" 113 4748 4753 "gAction.ml" 116 4855 4895
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gAction.ml" 112 4678 4739 "gAction.ml" 116 4855 4895
+type(
+  (Gtk.action Gtk.obj -> GObj.widget -> unit) -> Gobject.Closure.argv -> unit
+)
+"gAction.ml" 112 4678 4682 "gAction.ml" 116 4855 4896
+type(
+  ('b, Gtk.action Gtk.obj -> GObj.widget -> unit) GtkSignal.t
+)
+"gAction.ml" 117 4897 4908 "gAction.ml" 117 4897 4909
+type(
+  Gtk.action Gtk.obj
+)
+ident(
+  def o "gAction.ml" 117 4897 4913 "gAction.ml" 117 4897 4936
+)
+"gAction.ml" 117 4897 4913 "gAction.ml" 117 4897 4921
+type(
+  action -> GObj.widget -> unit
+)
+ident(
+  int_ref callback "gAction.ml" 111 4630 4654 "gAction.ml" 111 4630 4662
+)
+"gAction.ml" 117 4897 4923 "gAction.ml" 117 4897 4933
+type(
+  Gtk.action Gtk.obj -> action
+)
+"gAction.ml" 117 4897 4934 "gAction.ml" 117 4897 4935
+type(
+  Gtk.action Gtk.obj
+)
+ident(
+  int_ref o "gAction.ml" 117 4897 4908 "gAction.ml" 117 4897 4909
+)
+"gAction.ml" 117 4897 4922 "gAction.ml" 117 4897 4936
+call(
+  stack
+)
+type(
+  action
+)
+"gAction.ml" 117 4897 4913 "gAction.ml" 117 4897 4936
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+"gAction.ml" 117 4897 4903 "gAction.ml" 117 4897 4937
+type(
+  Gtk.action Gtk.obj -> GObj.widget -> unit
+)
+"gAction.ml" 111 4630 4665 "gAction.ml" 117 4897 4937
+type(
+  GtkSignal.id
+)
+"gAction.ml" 118 4938 4965 "gAction.ml" 118 4938 4973
+type(
+  action -> GObj.widget -> unit
+)
+ident(
+  def callback "gAction.ml" 118 4938 4976 "gAction.ml" 124 5208 5248
+)
+"gAction.ml" 118 4938 4976 "gAction.ml" 118 4938 4980
+type(
+  'a
+)
+"gAction.ml" 118 4938 4976 "gAction.ml" 118 4938 4988
+call(
+  tail
+)
+type(
+  ('b, Gtk.action Gtk.obj -> GObj.widget -> unit) GtkSignal.t ->
+  callback:(Gtk.action Gtk.obj -> GObj.widget -> unit) -> GtkSignal.id
+)
+"gAction.ml" 119 4989 4994 "gAction.ml" 119 4989 5024
+type(
+  ('b, Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkAction.ActionGroup.S.disconnect_proxy
+)
+"gAction.ml" 119 4989 5057 "gAction.ml" 119 4989 5058
+type(
+  Gtk.action Gtk.obj -> GObj.widget -> unit
+)
+ident(
+  def f "gAction.ml" 120 5062 5067 "gAction.ml" 123 5169 5206
+)
+"gAction.ml" 120 5062 5067 "gAction.ml" 120 5062 5085
+type(
+  Gtk.action Gtk.obj Gobject.data_conv ->
+  GObj.widget Gobject.data_conv ->
+  string -> (Gtk.action Gtk.obj -> GObj.widget -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gAction.ml" 121 5087 5089 "gAction.ml" 121 5087 5109
+type(
+  Gtk.action Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.action Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gAction.ml" 122 5151 5152 "gAction.ml" 122 5151 5168
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"gAction.ml" 123 5169 5170 "gAction.ml" 123 5169 5204
+type(
+  string
+)
+"gAction.ml" 123 5169 5205 "gAction.ml" 123 5169 5206
+type(
+  Gtk.action Gtk.obj -> GObj.widget -> unit
+)
+ident(
+  int_ref f "gAction.ml" 119 4989 5057 "gAction.ml" 119 4989 5058
+)
+"gAction.ml" 120 5062 5067 "gAction.ml" 123 5169 5206
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gAction.ml" 119 4989 5053 "gAction.ml" 123 5169 5206
+type(
+  (Gtk.action Gtk.obj -> GObj.widget -> unit) -> Gobject.Closure.argv -> unit
+)
+"gAction.ml" 119 4989 4993 "gAction.ml" 123 5169 5207
+type(
+  ('b, Gtk.action Gtk.obj -> GObj.widget -> unit) GtkSignal.t
+)
+"gAction.ml" 124 5208 5219 "gAction.ml" 124 5208 5220
+type(
+  Gtk.action Gtk.obj
+)
+ident(
+  def o "gAction.ml" 124 5208 5224 "gAction.ml" 124 5208 5247
+)
+"gAction.ml" 124 5208 5224 "gAction.ml" 124 5208 5232
+type(
+  action -> GObj.widget -> unit
+)
+ident(
+  int_ref callback "gAction.ml" 118 4938 4965 "gAction.ml" 118 4938 4973
+)
+"gAction.ml" 124 5208 5234 "gAction.ml" 124 5208 5244
+type(
+  Gtk.action Gtk.obj -> action
+)
+"gAction.ml" 124 5208 5245 "gAction.ml" 124 5208 5246
+type(
+  Gtk.action Gtk.obj
+)
+ident(
+  int_ref o "gAction.ml" 124 5208 5219 "gAction.ml" 124 5208 5220
+)
+"gAction.ml" 124 5208 5233 "gAction.ml" 124 5208 5247
+call(
+  stack
+)
+type(
+  action
+)
+"gAction.ml" 124 5208 5224 "gAction.ml" 124 5208 5247
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+"gAction.ml" 124 5208 5214 "gAction.ml" 124 5208 5248
+type(
+  Gtk.action Gtk.obj -> GObj.widget -> unit
+)
+"gAction.ml" 118 4938 4976 "gAction.ml" 124 5208 5248
+type(
+  GtkSignal.id
+)
+"gAction.ml" 125 5249 5273 "gAction.ml" 125 5249 5281
+type(
+  action -> unit
+)
+ident(
+  def callback "gAction.ml" 125 5249 5284 "gAction.ml" 126 5325 5365
+)
+"gAction.ml" 125 5249 5284 "gAction.ml" 125 5249 5288
+type(
+  'a
+)
+"gAction.ml" 125 5249 5284 "gAction.ml" 125 5249 5296
+call(
+  tail
+)
+type(
+  ('b, Gtk.action Gtk.obj -> unit) GtkSignal.t ->
+  callback:(Gtk.action Gtk.obj -> unit) -> GtkSignal.id
+)
+"gAction.ml" 125 5249 5297 "gAction.ml" 125 5249 5324
+type(
+  ('b, Gtk.action Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkAction.ActionGroup.S.post_activate
+)
+"gAction.ml" 126 5325 5336 "gAction.ml" 126 5325 5337
+type(
+  Gtk.action Gtk.obj
+)
+ident(
+  def o "gAction.ml" 126 5325 5341 "gAction.ml" 126 5325 5364
+)
+"gAction.ml" 126 5325 5341 "gAction.ml" 126 5325 5349
+type(
+  action -> unit
+)
+ident(
+  int_ref callback "gAction.ml" 125 5249 5273 "gAction.ml" 125 5249 5281
+)
+"gAction.ml" 126 5325 5351 "gAction.ml" 126 5325 5361
+type(
+  Gtk.action Gtk.obj -> action
+)
+"gAction.ml" 126 5325 5362 "gAction.ml" 126 5325 5363
+type(
+  Gtk.action Gtk.obj
+)
+ident(
+  int_ref o "gAction.ml" 126 5325 5336 "gAction.ml" 126 5325 5337
+)
+"gAction.ml" 126 5325 5350 "gAction.ml" 126 5325 5364
+call(
+  stack
+)
+type(
+  action
+)
+"gAction.ml" 126 5325 5341 "gAction.ml" 126 5325 5364
+call(
+  tail
+)
+type(
+  unit
+)
+"gAction.ml" 126 5325 5331 "gAction.ml" 126 5325 5365
+type(
+  Gtk.action Gtk.obj -> unit
+)
+"gAction.ml" 125 5249 5284 "gAction.ml" 126 5325 5365
+type(
+  GtkSignal.id
+)
+"gAction.ml" 127 5366 5389 "gAction.ml" 127 5366 5397
+type(
+  action -> unit
+)
+ident(
+  def callback "gAction.ml" 127 5366 5400 "gAction.ml" 128 5440 5480
+)
+"gAction.ml" 127 5366 5400 "gAction.ml" 127 5366 5404
+type(
+  'a
+)
+"gAction.ml" 127 5366 5400 "gAction.ml" 127 5366 5412
+call(
+  tail
+)
+type(
+  ('b, Gtk.action Gtk.obj -> unit) GtkSignal.t ->
+  callback:(Gtk.action Gtk.obj -> unit) -> GtkSignal.id
+)
+"gAction.ml" 127 5366 5413 "gAction.ml" 127 5366 5439
+type(
+  ('b, Gtk.action Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkAction.ActionGroup.S.pre_activate
+)
+"gAction.ml" 128 5440 5451 "gAction.ml" 128 5440 5452
+type(
+  Gtk.action Gtk.obj
+)
+ident(
+  def o "gAction.ml" 128 5440 5456 "gAction.ml" 128 5440 5479
+)
+"gAction.ml" 128 5440 5456 "gAction.ml" 128 5440 5464
+type(
+  action -> unit
+)
+ident(
+  int_ref callback "gAction.ml" 127 5366 5389 "gAction.ml" 127 5366 5397
+)
+"gAction.ml" 128 5440 5466 "gAction.ml" 128 5440 5476
+type(
+  Gtk.action Gtk.obj -> action
+)
+"gAction.ml" 128 5440 5477 "gAction.ml" 128 5440 5478
+type(
+  Gtk.action Gtk.obj
+)
+ident(
+  int_ref o "gAction.ml" 128 5440 5451 "gAction.ml" 128 5440 5452
+)
+"gAction.ml" 128 5440 5465 "gAction.ml" 128 5440 5479
+call(
+  stack
+)
+type(
+  action
+)
+"gAction.ml" 128 5440 5456 "gAction.ml" 128 5440 5479
+call(
+  tail
+)
+type(
+  unit
+)
+"gAction.ml" 128 5440 5446 "gAction.ml" 128 5440 5480
+type(
+  Gtk.action Gtk.obj -> unit
+)
+"gAction.ml" 127 5366 5400 "gAction.ml" 128 5440 5480
+type(
+  GtkSignal.id
+)
+"gAction.ml" 131 5486 5505 "gAction.ml" 131 5486 5508
+type(
+  [> Gtk.action_group ] Gtk.obj
+)
+"gAction.ml" 132 5518 5530 "gAction.ml" 132 5518 5533
+type(
+  ([> Gtk.action_group ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gAction.ml" 131 5486 5505 "gAction.ml" 131 5486 5508
+)
+"gAction.ml" 133 5534 5557 "gAction.ml" 133 5534 5560
+type(
+  'a Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 135 5606 5627 "gAction.ml" 135 5606 5630
+type(
+  Gtk.action_group Gobject.obj
+)
+type(
+  Gtk.action_group Gobject.obj
+)
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 136 5664 5683 "gAction.ml" 136 5664 5707
+type(
+  'a Gtk.obj -> action_group_signals
+)
+"gAction.ml" 136 5664 5708 "gAction.ml" 136 5664 5711
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 136 5664 5683 "gAction.ml" 136 5664 5711
+call(
+  tail
+)
+type(
+  action_group_signals
+)
+type(
+  action_group_signals
+)
+"gAction.ml" 137 5712 5732 "gAction.ml" 137 5712 5733
+type(
+  string
+)
+ident(
+  def n "gAction.ml" 137 5712 5736 "gAction.ml" 137 5712 5777
+)
+"gAction.ml" 137 5712 5736 "gAction.ml" 137 5712 5746
+type(
+  Gtk.action Gtk.obj -> action
+)
+"gAction.ml" 137 5712 5748 "gAction.ml" 137 5712 5770
+type(
+  'a Gtk.obj -> string -> Gtk.action Gtk.obj
+)
+ident(
+  ext_ref GtkAction.ActionGroup.get_action
+)
+"gAction.ml" 137 5712 5771 "gAction.ml" 137 5712 5774
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 137 5712 5775 "gAction.ml" 137 5712 5776
+type(
+  string
+)
+ident(
+  int_ref n "gAction.ml" 137 5712 5732 "gAction.ml" 137 5712 5733
+)
+"gAction.ml" 137 5712 5747 "gAction.ml" 137 5712 5777
+type(
+  Gtk.action Gtk.obj
+)
+"gAction.ml" 137 5712 5736 "gAction.ml" 137 5712 5777
+call(
+  tail
+)
+type(
+  action
+)
+"gAction.ml" 138 5778 5802 "gAction.ml" 138 5778 5810
+type(
+  (Gtk.action Gtk.obj -> action) -> Gtk.action Gtk.obj list -> action list
+)
+ident(
+  ext_ref List.map
+)
+"gAction.ml" 138 5778 5811 "gAction.ml" 138 5778 5823
+type(
+  Gtk.action Gtk.obj -> action
+)
+"gAction.ml" 138 5778 5825 "gAction.ml" 138 5778 5849
+type(
+  'a Gtk.obj -> Gtk.action Gtk.obj list
+)
+ident(
+  ext_ref GtkAction.ActionGroup.list_actions
+)
+"gAction.ml" 138 5778 5850 "gAction.ml" 138 5778 5853
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 138 5778 5824 "gAction.ml" 138 5778 5854
+type(
+  Gtk.action Gtk.obj list
+)
+"gAction.ml" 138 5778 5802 "gAction.ml" 138 5778 5854
+call(
+  tail
+)
+type(
+  action list
+)
+type(
+  action list
+)
+"gAction.ml" 140 5913 5921 "gAction.ml" 140 5913 5922
+type(
+  #action_skel
+)
+ident(
+  def a "gAction.ml" 140 5913 5926 "gAction.ml" 140 5913 5964
+)
+"gAction.ml" 140 5913 5926 "gAction.ml" 140 5913 5948
+type(
+  'a Gtk.obj -> Gtk.action Gobject.obj -> unit
+)
+ident(
+  ext_ref GtkAction.ActionGroup.add_action
+)
+"gAction.ml" 140 5913 5949 "gAction.ml" 140 5913 5952
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 140 5913 5953 "gAction.ml" 140 5913 5954
+type(
+  #action_skel as 'b
+)
+ident(
+  int_ref a "gAction.ml" 140 5913 5921 "gAction.ml" 140 5913 5922
+)
+"gAction.ml" 140 5913 5953 "gAction.ml" 140 5913 5964
+call(
+  stack
+)
+type(
+  Gtk.action Gobject.obj
+)
+"gAction.ml" 140 5913 5926 "gAction.ml" 140 5913 5964
+type(
+  unit
+)
+"gAction.ml" 140 5913 5917 "gAction.ml" 140 5913 5964
+type(
+  'c. (#action_skel as 'c) -> unit
+)
+type(
+  'b -> unit
+)
+"gAction.ml" 142 6051 6060 "gAction.ml" 142 6051 6065
+type(
+  string option
+)
+ident(
+  def accel "gAction.ml" 142 6051 6066 "gAction.ml" 142 6051 6126
+)
+"gAction.ml" 142 6051 6066 "gAction.ml" 142 6051 6067
+type(
+  #action_skel
+)
+ident(
+  def a "gAction.ml" 142 6051 6071 "gAction.ml" 142 6051 6126
+)
+"gAction.ml" 142 6051 6071 "gAction.ml" 142 6051 6104
+type(
+  'a Gtk.obj -> Gtk.action Gobject.obj -> string option -> unit
+)
+ident(
+  ext_ref GtkAction.ActionGroup.add_action_with_accel
+)
+"gAction.ml" 142 6051 6105 "gAction.ml" 142 6051 6108
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 142 6051 6109 "gAction.ml" 142 6051 6110
+type(
+  #action_skel as 'd
+)
+ident(
+  int_ref a "gAction.ml" 142 6051 6066 "gAction.ml" 142 6051 6067
+)
+"gAction.ml" 142 6051 6109 "gAction.ml" 142 6051 6120
+call(
+  stack
+)
+type(
+  Gtk.action Gobject.obj
+)
+"gAction.ml" 142 6051 6121 "gAction.ml" 142 6051 6126
+type(
+  string option
+)
+ident(
+  int_ref accel "gAction.ml" 142 6051 6060 "gAction.ml" 142 6051 6065
+)
+"gAction.ml" 142 6051 6071 "gAction.ml" 142 6051 6126
+type(
+  unit
+)
+"gAction.ml" 142 6051 6055 "gAction.ml" 142 6051 6126
+type(
+  'e. ?accel:string -> (#action_skel as 'e) -> unit
+)
+type(
+  ?accel:string -> 'd -> unit
+)
+"gAction.ml" 144 6188 6196 "gAction.ml" 144 6188 6197
+type(
+  #action_skel
+)
+ident(
+  def a "gAction.ml" 144 6188 6201 "gAction.ml" 144 6188 6242
+)
+"gAction.ml" 144 6188 6201 "gAction.ml" 144 6188 6226
+type(
+  'a Gtk.obj -> Gtk.action Gobject.obj -> unit
+)
+ident(
+  ext_ref GtkAction.ActionGroup.remove_action
+)
+"gAction.ml" 144 6188 6227 "gAction.ml" 144 6188 6230
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 144 6188 6231 "gAction.ml" 144 6188 6232
+type(
+  #action_skel as 'f
+)
+ident(
+  int_ref a "gAction.ml" 144 6188 6196 "gAction.ml" 144 6188 6197
+)
+"gAction.ml" 144 6188 6231 "gAction.ml" 144 6188 6242
+call(
+  stack
+)
+type(
+  Gtk.action Gobject.obj
+)
+"gAction.ml" 144 6188 6201 "gAction.ml" 144 6188 6242
+type(
+  unit
+)
+"gAction.ml" 144 6188 6192 "gAction.ml" 144 6188 6242
+type(
+  'g. (#action_skel as 'g) -> unit
+)
+type(
+  'f -> unit
+)
+"gAction.ml" 147 6248 6252 "gAction.ml" 147 6248 6264
+type(
+  name:string -> unit -> action_group
+)
+ident(
+  def action_group "gAction.ml" 150 6326 6326 --
+)
+"gAction.ml" 147 6248 6266 "gAction.ml" 147 6248 6270
+type(
+  string
+)
+ident(
+  def name "gAction.ml" 147 6248 6271 "gAction.ml" 148 6276 6324
+)
+"gAction.ml" 147 6248 6271 "gAction.ml" 147 6248 6273
+type(
+  unit
+)
+"gAction.ml" 148 6276 6278 "gAction.ml" 148 6276 6294
+type(
+  Gtk.action_group Gtk.obj -> action_group
+)
+"gAction.ml" 148 6276 6296 "gAction.ml" 148 6276 6314
+type(
+  ?name:string ->
+  Gtk.action_group Gobject.param list -> Gtk.action_group Gtk.obj
+)
+ident(
+  ext_ref GtkAction.ActionGroup.create
+)
+"gAction.ml" 148 6276 6316 "gAction.ml" 148 6276 6320
+type(
+  string
+)
+ident(
+  int_ref name "gAction.ml" 147 6248 6266 "gAction.ml" 147 6248 6270
+)
+"gAction.ml" 148 6276 6321 "gAction.ml" 148 6276 6323
+type(
+  Gtk.action_group Gobject.param list
+)
+"gAction.ml" 148 6276 6295 "gAction.ml" 148 6276 6324
+call(
+  stack
+)
+type(
+  Gtk.action_group Gtk.obj
+)
+"gAction.ml" 148 6276 6278 "gAction.ml" 148 6276 6324
+call(
+  tail
+)
+type(
+  action_group
+)
+"gAction.ml" 152 6362 6366 "gAction.ml" 152 6362 6383
+type(
+  ((#action_skel as 'a) -> 'b) ->
+  'a ->
+  ?stock:GtkStock.id ->
+  ?label:string -> ?accel:string -> ?tooltip:string -> #action_group -> 'b
+)
+ident(
+  def add_single_action "gAction.ml" 160 6600 6600 --
+)
+"gAction.ml" 152 6362 6384 "gAction.ml" 152 6362 6387
+type(
+  'a -> 'b
+)
+ident(
+  def ret "gAction.ml" 152 6362 6388 "gAction.ml" 158 6591 6598
+)
+"gAction.ml" 152 6362 6388 "gAction.ml" 152 6362 6389
+type(
+  'a
+)
+ident(
+  def a "gAction.ml" 152 6362 6390 "gAction.ml" 158 6591 6598
+)
+"gAction.ml" 152 6362 6391 "gAction.ml" 152 6362 6396
+type(
+  GtkStock.id option
+)
+ident(
+  def stock "gAction.ml" 152 6362 6397 "gAction.ml" 158 6591 6598
+)
+"gAction.ml" 152 6362 6398 "gAction.ml" 152 6362 6403
+type(
+  string option
+)
+ident(
+  def label "gAction.ml" 152 6362 6404 "gAction.ml" 158 6591 6598
+)
+"gAction.ml" 152 6362 6405 "gAction.ml" 152 6362 6410
+type(
+  string option
+)
+ident(
+  def accel "gAction.ml" 152 6362 6411 "gAction.ml" 158 6591 6598
+)
+"gAction.ml" 152 6362 6412 "gAction.ml" 152 6362 6419
+type(
+  string option
+)
+ident(
+  def tooltip "gAction.ml" 153 6420 6424 "gAction.ml" 158 6591 6598
+)
+"gAction.ml" 153 6420 6425 "gAction.ml" 153 6420 6430
+type(
+  #action_group as 'c
+)
+ident(
+  def group "gAction.ml" 154 6450 6452 "gAction.ml" 158 6591 6598
+)
+"gAction.ml" 154 6450 6452 "gAction.ml" 154 6450 6460
+type(
+  f:(string -> unit) -> string option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gAction.ml" 154 6450 6461 "gAction.ml" 154 6450 6462
+type(
+  'a
+)
+ident(
+  int_ref a "gAction.ml" 152 6362 6388 "gAction.ml" 152 6362 6389
+)
+"gAction.ml" 154 6450 6461 "gAction.ml" 154 6450 6472
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"gAction.ml" 154 6450 6473 "gAction.ml" 154 6450 6478
+type(
+  string option
+)
+ident(
+  int_ref label "gAction.ml" 152 6362 6398 "gAction.ml" 152 6362 6403
+)
+"gAction.ml" 154 6450 6452 "gAction.ml" 154 6450 6478
+call(
+  stack
+)
+type(
+  unit
+)
+"gAction.ml" 155 6481 6483 "gAction.ml" 155 6481 6491
+type(
+  f:(string -> unit) -> string option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gAction.ml" 155 6481 6492 "gAction.ml" 155 6481 6493
+type(
+  'a
+)
+ident(
+  int_ref a "gAction.ml" 152 6362 6388 "gAction.ml" 152 6362 6389
+)
+"gAction.ml" 155 6481 6492 "gAction.ml" 155 6481 6505
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"gAction.ml" 155 6481 6506 "gAction.ml" 155 6481 6513
+type(
+  string option
+)
+ident(
+  int_ref tooltip "gAction.ml" 152 6362 6412 "gAction.ml" 152 6362 6419
+)
+"gAction.ml" 155 6481 6483 "gAction.ml" 155 6481 6513
+call(
+  stack
+)
+type(
+  unit
+)
+"gAction.ml" 156 6516 6518 "gAction.ml" 156 6516 6526
+type(
+  f:(GtkStock.id -> unit) -> GtkStock.id option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gAction.ml" 156 6516 6527 "gAction.ml" 156 6516 6528
+type(
+  'a
+)
+ident(
+  int_ref a "gAction.ml" 152 6362 6388 "gAction.ml" 152 6362 6389
+)
+"gAction.ml" 156 6516 6527 "gAction.ml" 156 6516 6541
+call(
+  stack
+)
+type(
+  GtkStock.id -> unit
+)
+"gAction.ml" 156 6516 6542 "gAction.ml" 156 6516 6547
+type(
+  GtkStock.id option
+)
+ident(
+  int_ref stock "gAction.ml" 152 6362 6391 "gAction.ml" 152 6362 6396
+)
+"gAction.ml" 156 6516 6518 "gAction.ml" 156 6516 6547
+call(
+  stack
+)
+type(
+  unit
+)
+"gAction.ml" 157 6550 6552 "gAction.ml" 157 6550 6557
+type(
+  'c
+)
+ident(
+  int_ref group "gAction.ml" 153 6420 6425 "gAction.ml" 153 6420 6430
+)
+"gAction.ml" 157 6550 6552 "gAction.ml" 157 6550 6579
+call(
+  stack
+)
+type(
+  ?accel:string -> 'a -> unit
+)
+"gAction.ml" 157 6550 6581 "gAction.ml" 157 6550 6586
+type(
+  string option
+)
+ident(
+  int_ref accel "gAction.ml" 152 6362 6405 "gAction.ml" 152 6362 6410
+)
+"gAction.ml" 157 6550 6587 "gAction.ml" 157 6550 6588
+type(
+  'a
+)
+ident(
+  int_ref a "gAction.ml" 152 6362 6388 "gAction.ml" 152 6362 6389
+)
+"gAction.ml" 157 6550 6552 "gAction.ml" 157 6550 6588
+type(
+  unit
+)
+"gAction.ml" 158 6591 6593 "gAction.ml" 158 6591 6596
+type(
+  'a -> 'b
+)
+ident(
+  int_ref ret "gAction.ml" 152 6362 6384 "gAction.ml" 152 6362 6387
+)
+"gAction.ml" 158 6591 6597 "gAction.ml" 158 6591 6598
+type(
+  'a
+)
+ident(
+  int_ref a "gAction.ml" 152 6362 6388 "gAction.ml" 152 6362 6389
+)
+"gAction.ml" 158 6591 6593 "gAction.ml" 158 6591 6598
+call(
+  tail
+)
+type(
+  'b
+)
+"gAction.ml" 157 6550 6552 "gAction.ml" 158 6591 6598
+type(
+  'b
+)
+"gAction.ml" 156 6516 6518 "gAction.ml" 158 6591 6598
+type(
+  'b
+)
+"gAction.ml" 155 6481 6483 "gAction.ml" 158 6591 6598
+type(
+  'b
+)
+"gAction.ml" 154 6450 6452 "gAction.ml" 158 6591 6598
+type(
+  'b
+)
+"gAction.ml" 160 6600 6604 "gAction.ml" 160 6600 6614
+type(
+  string ->
+  ?callback:(action -> unit) ->
+  ?stock:GtkStock.id ->
+  ?label:string -> ?accel:string -> ?tooltip:string -> #action_group -> unit
+)
+ident(
+  def add_action "gAction.ml" 166 6778 6778 --
+)
+"gAction.ml" 160 6600 6615 "gAction.ml" 160 6600 6619
+type(
+  string
+)
+ident(
+  def name "gAction.ml" 160 6600 6620 "gAction.ml" 164 6748 6776
+)
+"gAction.ml" 160 6600 6621 "gAction.ml" 160 6600 6629
+type(
+  (action -> unit) option
+)
+ident(
+  def callback "gAction.ml" 161 6632 6634 "gAction.ml" 164 6748 6776
+)
+"gAction.ml" 161 6632 6638 "gAction.ml" 161 6632 6639
+type(
+  action
+)
+"gAction.ml" 161 6632 6642 "gAction.ml" 161 6632 6648
+type(
+  name:string -> unit -> action
+)
+ident(
+  int_ref action "gAction.ml" 59 2925 2929 "gAction.ml" 59 2925 2935
+)
+"gAction.ml" 161 6632 6650 "gAction.ml" 161 6632 6654
+type(
+  string
+)
+ident(
+  int_ref name "gAction.ml" 160 6600 6615 "gAction.ml" 160 6600 6619
+)
+"gAction.ml" 161 6632 6655 "gAction.ml" 161 6632 6657
+type(
+  unit
+)
+"gAction.ml" 161 6632 6642 "gAction.ml" 161 6632 6657
+call(
+  stack
+)
+type(
+  action
+)
+"gAction.ml" 162 6661 6663 "gAction.ml" 162 6661 6671
+type(
+  f:((action -> unit) -> GtkSignal.id) -> (action -> unit) option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gAction.ml" 162 6661 6672 "gAction.ml" 162 6661 6680
+type(
+  (action -> unit) option
+)
+ident(
+  int_ref callback "gAction.ml" 160 6600 6621 "gAction.ml" 160 6600 6629
+)
+"gAction.ml" 163 6681 6693 "gAction.ml" 163 6681 6695
+type(
+  action -> unit
+)
+ident(
+  def cb "gAction.ml" 163 6681 6699 "gAction.ml" 163 6681 6744
+)
+"gAction.ml" 163 6681 6699 "gAction.ml" 163 6681 6700
+type(
+  action
+)
+ident(
+  int_ref a "gAction.ml" 161 6632 6638 "gAction.ml" 161 6632 6639
+)
+"gAction.ml" 163 6681 6699 "gAction.ml" 163 6681 6708
+call(
+  stack
+)
+type(
+  action_signals
+)
+"gAction.ml" 163 6681 6699 "gAction.ml" 163 6681 6717
+call(
+  tail
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gAction.ml" 163 6681 6733 "gAction.ml" 163 6681 6735
+type(
+  unit
+)
+"gAction.ml" 163 6681 6739 "gAction.ml" 163 6681 6741
+type(
+  action -> unit
+)
+ident(
+  int_ref cb "gAction.ml" 163 6681 6693 "gAction.ml" 163 6681 6695
+)
+"gAction.ml" 163 6681 6742 "gAction.ml" 163 6681 6743
+type(
+  action
+)
+ident(
+  int_ref a "gAction.ml" 161 6632 6638 "gAction.ml" 161 6632 6639
+)
+"gAction.ml" 163 6681 6739 "gAction.ml" 163 6681 6743
+call(
+  tail
+)
+type(
+  unit
+)
+"gAction.ml" 163 6681 6728 "gAction.ml" 163 6681 6744
+type(
+  unit -> unit
+)
+"gAction.ml" 163 6681 6699 "gAction.ml" 163 6681 6744
+type(
+  GtkSignal.id
+)
+"gAction.ml" 163 6681 6688 "gAction.ml" 163 6681 6745
+type(
+  (action -> unit) -> GtkSignal.id
+)
+"gAction.ml" 162 6661 6663 "gAction.ml" 163 6681 6745
+call(
+  stack
+)
+type(
+  unit
+)
+"gAction.ml" 164 6748 6750 "gAction.ml" 164 6748 6767
+type(
+  (action -> unit) ->
+  action ->
+  ?stock:GtkStock.id ->
+  ?label:string ->
+  ?accel:string -> ?tooltip:string -> (#action_group as 'a) -> unit
+)
+ident(
+  int_ref add_single_action "gAction.ml" 152 6362 6366 "gAction.ml" 152 6362 6383
+)
+"gAction.ml" 164 6748 6768 "gAction.ml" 164 6748 6774
+type(
+  action -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gAction.ml" 164 6748 6775 "gAction.ml" 164 6748 6776
+type(
+  action
+)
+ident(
+  int_ref a "gAction.ml" 161 6632 6638 "gAction.ml" 161 6632 6639
+)
+"gAction.ml" 164 6748 6750 "gAction.ml" 164 6748 6776
+call(
+  tail
+)
+type(
+  ?stock:GtkStock.id ->
+  ?label:string -> ?accel:string -> ?tooltip:string -> 'a -> unit
+)
+"gAction.ml" 162 6661 6663 "gAction.ml" 164 6748 6776
+type(
+  ?stock:GtkStock.id ->
+  ?label:string -> ?accel:string -> ?tooltip:string -> 'a -> unit
+)
+"gAction.ml" 161 6632 6634 "gAction.ml" 164 6748 6776
+type(
+  ?stock:GtkStock.id ->
+  ?label:string -> ?accel:string -> ?tooltip:string -> 'a -> unit
+)
+"gAction.ml" 166 6778 6782 "gAction.ml" 166 6778 6799
+type(
+  string ->
+  ?active:bool ->
+  ?callback:(toggle_action -> unit) ->
+  ?stock:GtkStock.id ->
+  ?label:string -> ?accel:string -> ?tooltip:string -> #action_group -> unit
+)
+ident(
+  def add_toggle_action "gAction.ml" 173 7011 7011 --
+)
+"gAction.ml" 166 6778 6800 "gAction.ml" 166 6778 6804
+type(
+  string
+)
+ident(
+  def name "gAction.ml" 166 6778 6805 "gAction.ml" 171 6981 7009
+)
+"gAction.ml" 166 6778 6806 "gAction.ml" 166 6778 6812
+type(
+  bool option
+)
+ident(
+  def active "gAction.ml" 166 6778 6813 "gAction.ml" 171 6981 7009
+)
+"gAction.ml" 166 6778 6814 "gAction.ml" 166 6778 6822
+type(
+  (toggle_action -> unit) option
+)
+ident(
+  def callback "gAction.ml" 167 6825 6827 "gAction.ml" 171 6981 7009
+)
+"gAction.ml" 167 6825 6831 "gAction.ml" 167 6825 6832
+type(
+  toggle_action
+)
+"gAction.ml" 167 6825 6835 "gAction.ml" 167 6825 6848
+type(
+  name:string -> unit -> toggle_action
+)
+ident(
+  int_ref toggle_action "gAction.ml" 80 3488 3492 "gAction.ml" 80 3488 3505
+)
+"gAction.ml" 167 6825 6850 "gAction.ml" 167 6825 6854
+type(
+  string
+)
+ident(
+  int_ref name "gAction.ml" 166 6778 6800 "gAction.ml" 166 6778 6804
+)
+"gAction.ml" 167 6825 6855 "gAction.ml" 167 6825 6857
+type(
+  unit
+)
+"gAction.ml" 167 6825 6835 "gAction.ml" 167 6825 6857
+call(
+  stack
+)
+type(
+  toggle_action
+)
+"gAction.ml" 168 6861 6863 "gAction.ml" 168 6861 6871
+type(
+  f:(bool -> unit) -> bool option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gAction.ml" 168 6861 6872 "gAction.ml" 168 6861 6873
+type(
+  toggle_action
+)
+ident(
+  int_ref a "gAction.ml" 167 6825 6831 "gAction.ml" 167 6825 6832
+)
+"gAction.ml" 168 6861 6872 "gAction.ml" 168 6861 6884
+call(
+  stack
+)
+type(
+  bool -> unit
+)
+"gAction.ml" 168 6861 6885 "gAction.ml" 168 6861 6891
+type(
+  bool option
+)
+ident(
+  int_ref active "gAction.ml" 166 6778 6806 "gAction.ml" 166 6778 6812
+)
+"gAction.ml" 168 6861 6863 "gAction.ml" 168 6861 6891
+call(
+  stack
+)
+type(
+  unit
+)
+"gAction.ml" 169 6894 6896 "gAction.ml" 169 6894 6904
+type(
+  f:((toggle_action -> unit) -> GtkSignal.id) ->
+  (toggle_action -> unit) option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gAction.ml" 169 6894 6905 "gAction.ml" 169 6894 6913
+type(
+  (toggle_action -> unit) option
+)
+ident(
+  int_ref callback "gAction.ml" 166 6778 6814 "gAction.ml" 166 6778 6822
+)
+"gAction.ml" 170 6914 6926 "gAction.ml" 170 6914 6928
+type(
+  toggle_action -> unit
+)
+ident(
+  def cb "gAction.ml" 170 6914 6932 "gAction.ml" 170 6914 6977
+)
+"gAction.ml" 170 6914 6932 "gAction.ml" 170 6914 6933
+type(
+  toggle_action
+)
+ident(
+  int_ref a "gAction.ml" 167 6825 6831 "gAction.ml" 167 6825 6832
+)
+"gAction.ml" 170 6914 6932 "gAction.ml" 170 6914 6941
+call(
+  stack
+)
+type(
+  toggle_action_signals
+)
+"gAction.ml" 170 6914 6932 "gAction.ml" 170 6914 6950
+call(
+  tail
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gAction.ml" 170 6914 6966 "gAction.ml" 170 6914 6968
+type(
+  unit
+)
+"gAction.ml" 170 6914 6972 "gAction.ml" 170 6914 6974
+type(
+  toggle_action -> unit
+)
+ident(
+  int_ref cb "gAction.ml" 170 6914 6926 "gAction.ml" 170 6914 6928
+)
+"gAction.ml" 170 6914 6975 "gAction.ml" 170 6914 6976
+type(
+  toggle_action
+)
+ident(
+  int_ref a "gAction.ml" 167 6825 6831 "gAction.ml" 167 6825 6832
+)
+"gAction.ml" 170 6914 6972 "gAction.ml" 170 6914 6976
+call(
+  tail
+)
+type(
+  unit
+)
+"gAction.ml" 170 6914 6961 "gAction.ml" 170 6914 6977
+type(
+  unit -> unit
+)
+"gAction.ml" 170 6914 6932 "gAction.ml" 170 6914 6977
+type(
+  GtkSignal.id
+)
+"gAction.ml" 170 6914 6921 "gAction.ml" 170 6914 6978
+type(
+  (toggle_action -> unit) -> GtkSignal.id
+)
+"gAction.ml" 169 6894 6896 "gAction.ml" 170 6914 6978
+call(
+  stack
+)
+type(
+  unit
+)
+"gAction.ml" 171 6981 6983 "gAction.ml" 171 6981 7000
+type(
+  (toggle_action -> unit) ->
+  toggle_action ->
+  ?stock:GtkStock.id ->
+  ?label:string ->
+  ?accel:string -> ?tooltip:string -> (#action_group as 'a) -> unit
+)
+ident(
+  int_ref add_single_action "gAction.ml" 152 6362 6366 "gAction.ml" 152 6362 6383
+)
+"gAction.ml" 171 6981 7001 "gAction.ml" 171 6981 7007
+type(
+  toggle_action -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gAction.ml" 171 6981 7008 "gAction.ml" 171 6981 7009
+type(
+  toggle_action
+)
+ident(
+  int_ref a "gAction.ml" 167 6825 6831 "gAction.ml" 167 6825 6832
+)
+"gAction.ml" 171 6981 6983 "gAction.ml" 171 6981 7009
+call(
+  tail
+)
+type(
+  ?stock:GtkStock.id ->
+  ?label:string -> ?accel:string -> ?tooltip:string -> 'a -> unit
+)
+"gAction.ml" 169 6894 6896 "gAction.ml" 171 6981 7009
+type(
+  ?stock:GtkStock.id ->
+  ?label:string -> ?accel:string -> ?tooltip:string -> 'a -> unit
+)
+"gAction.ml" 168 6861 6863 "gAction.ml" 171 6981 7009
+type(
+  ?stock:GtkStock.id ->
+  ?label:string -> ?accel:string -> ?tooltip:string -> 'a -> unit
+)
+"gAction.ml" 167 6825 6827 "gAction.ml" 171 6981 7009
+type(
+  ?stock:GtkStock.id ->
+  ?label:string -> ?accel:string -> ?tooltip:string -> 'a -> unit
+)
+"gAction.ml" 173 7011 7015 "gAction.ml" 173 7011 7031
+type(
+  string ->
+  int ->
+  ?stock:GtkStock.id ->
+  ?label:string ->
+  ?accel:string -> ?tooltip:string -> #action_group -> radio_action
+)
+ident(
+  def add_radio_action "gAction.ml" 177 7125 7125 --
+)
+"gAction.ml" 173 7011 7032 "gAction.ml" 173 7011 7036
+type(
+  string
+)
+ident(
+  def name "gAction.ml" 173 7011 7037 "gAction.ml" 175 7087 7121
+)
+"gAction.ml" 173 7011 7037 "gAction.ml" 173 7011 7042
+type(
+  int
+)
+ident(
+  def value "gAction.ml" 174 7045 7047 "gAction.ml" 175 7087 7121
+)
+"gAction.ml" 174 7045 7051 "gAction.ml" 174 7045 7052
+type(
+  radio_action
+)
+"gAction.ml" 174 7045 7055 "gAction.ml" 174 7045 7067
+type(
+  ?group:< as_radio_action : Gtk.radio_action Gobject.obj; _.. > ->
+  name:string -> value:int -> unit -> radio_action
+)
+ident(
+  int_ref radio_action "gAction.ml" 100 4141 4145 "gAction.ml" 100 4141 4157
+)
+"gAction.ml" 174 7045 7069 "gAction.ml" 174 7045 7073
+type(
+  string
+)
+ident(
+  int_ref name "gAction.ml" 173 7011 7032 "gAction.ml" 173 7011 7036
+)
+"gAction.ml" 174 7045 7075 "gAction.ml" 174 7045 7080
+type(
+  int
+)
+ident(
+  int_ref value "gAction.ml" 173 7011 7037 "gAction.ml" 173 7011 7042
+)
+"gAction.ml" 174 7045 7081 "gAction.ml" 174 7045 7083
+type(
+  unit
+)
+"gAction.ml" 174 7045 7055 "gAction.ml" 174 7045 7083
+call(
+  stack
+)
+type(
+  radio_action
+)
+"gAction.ml" 175 7087 7089 "gAction.ml" 175 7087 7106
+type(
+  (radio_action -> radio_action) ->
+  radio_action ->
+  ?stock:GtkStock.id ->
+  ?label:string ->
+  ?accel:string -> ?tooltip:string -> (#action_group as 'a) -> radio_action
+)
+ident(
+  int_ref add_single_action "gAction.ml" 152 6362 6366 "gAction.ml" 152 6362 6383
+)
+"gAction.ml" 175 7087 7112 "gAction.ml" 175 7087 7113
+type(
+  radio_action
+)
+ident(
+  def a "gAction.ml" 175 7087 7117 "gAction.ml" 175 7087 7118
+)
+"gAction.ml" 175 7087 7117 "gAction.ml" 175 7087 7118
+type(
+  radio_action
+)
+ident(
+  int_ref a "gAction.ml" 175 7087 7112 "gAction.ml" 175 7087 7113
+)
+"gAction.ml" 175 7087 7107 "gAction.ml" 175 7087 7119
+type(
+  radio_action -> radio_action
+)
+"gAction.ml" 175 7087 7120 "gAction.ml" 175 7087 7121
+type(
+  radio_action
+)
+ident(
+  int_ref a "gAction.ml" 174 7045 7051 "gAction.ml" 174 7045 7052
+)
+"gAction.ml" 175 7087 7089 "gAction.ml" 175 7087 7121
+call(
+  tail
+)
+type(
+  ?stock:GtkStock.id ->
+  ?label:string -> ?accel:string -> ?tooltip:string -> 'a -> radio_action
+)
+"gAction.ml" 174 7045 7047 "gAction.ml" 175 7087 7121
+type(
+  ?stock:GtkStock.id ->
+  ?label:string -> ?accel:string -> ?tooltip:string -> 'a -> radio_action
+)
+"gAction.ml" 177 7125 7129 "gAction.ml" 177 7125 7140
+type(
+  'a -> ('a -> unit) list -> unit
+)
+ident(
+  def add_actions "gAction.ml" 179 7201 7201 --
+)
+"gAction.ml" 177 7125 7141 "gAction.ml" 177 7125 7149
+type(
+  'a
+)
+ident(
+  def ac_group "gAction.ml" 178 7152 7154 "gAction.ml" 178 7152 7200
+)
+"gAction.ml" 178 7152 7154 "gAction.ml" 178 7152 7163
+type(
+  (('a -> unit) -> unit) -> ('a -> unit) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"gAction.ml" 178 7152 7169 "gAction.ml" 178 7152 7170
+type(
+  'a -> unit
+)
+ident(
+  def f "gAction.ml" 178 7152 7174 "gAction.ml" 178 7152 7199
+)
+"gAction.ml" 178 7152 7178 "gAction.ml" 178 7152 7180
+type(
+  unit
+)
+"gAction.ml" 178 7152 7183 "gAction.ml" 178 7152 7184
+type(
+  'a -> unit
+)
+ident(
+  int_ref f "gAction.ml" 178 7152 7169 "gAction.ml" 178 7152 7170
+)
+"gAction.ml" 178 7152 7185 "gAction.ml" 178 7152 7193
+type(
+  'a
+)
+ident(
+  int_ref ac_group "gAction.ml" 177 7125 7141 "gAction.ml" 177 7125 7149
+)
+"gAction.ml" 178 7152 7183 "gAction.ml" 178 7152 7193
+call(
+  stack
+)
+type(
+  unit
+)
+"gAction.ml" 178 7152 7197 "gAction.ml" 178 7152 7199
+type(
+  unit
+)
+"gAction.ml" 178 7152 7174 "gAction.ml" 178 7152 7199
+type(
+  unit
+)
+"gAction.ml" 178 7152 7164 "gAction.ml" 178 7152 7200
+type(
+  ('a -> unit) -> unit
+)
+"gAction.ml" 178 7152 7154 "gAction.ml" 178 7152 7200
+call(
+  tail
+)
+type(
+  ('a -> unit) list -> unit
+)
+"gAction.ml" 179 7201 7205 "gAction.ml" 179 7201 7224
+type(
+  ?init_value:'a ->
+  ?callback:(int -> unit) ->
+  ('b ->
+   < as_radio_action : ([> `radioaction ] as 'c) Gobject.obj;
+     set_active : bool -> 'd; set_group : 'c Gobject.obj option -> 'e;
+     value : 'a; .. >)
+  list -> 'b -> unit
+)
+ident(
+  def group_radio_actions "gAction.ml" 202 7789 7789 --
+)
+"gAction.ml" 179 7201 7226 "gAction.ml" 179 7201 7236
+type(
+  'a option
+)
+ident(
+  def init_value "gAction.ml" 179 7201 7237 "gAction.ml" 200 7783 7787
+)
+"gAction.ml" 179 7201 7238 "gAction.ml" 179 7201 7246
+type(
+  (int -> unit) option
+)
+ident(
+  def callback "gAction.ml" 179 7201 7247 "gAction.ml" 200 7783 7787
+)
+"gAction.ml" 179 7201 7247 "gAction.ml" 179 7201 7267
+type(
+  ('b ->
+   (< as_radio_action : 'c Gobject.obj; set_active : bool -> 'd;
+      set_group : 'c Gobject.obj option -> 'e; value : 'a; .. >
+    as 'f))
+  list
+)
+ident(
+  def radio_action_entries "gAction.ml" 179 7201 7268 "gAction.ml" 200 7783 7787
+)
+"gAction.ml" 179 7201 7268 "gAction.ml" 179 7201 7276
+type(
+  'b
+)
+ident(
+  def ac_group "gAction.ml" 180 7279 7281 "gAction.ml" 200 7783 7787
+)
+"gAction.ml" 180 7279 7285 "gAction.ml" 180 7279 7298
+type(
+  'c Gobject.obj option
+)
+"gAction.ml" 181 7301 7305 "gAction.ml" 181 7301 7319
+type(
+  ('c Gobject.obj option -> ('b -> 'f) -> 'c Gobject.obj option) ->
+  'c Gobject.obj option -> ('b -> 'f) list -> 'c Gobject.obj option
+)
+ident(
+  ext_ref List.fold_left
+)
+"gAction.ml" 182 7321 7332 "gAction.ml" 182 7321 7341
+type(
+  'c Gobject.obj option
+)
+ident(
+  def radio_grp "gAction.ml" 182 7321 7342 "gAction.ml" 188 7503 7533
+)
+"gAction.ml" 182 7321 7342 "gAction.ml" 182 7321 7343
+type(
+  'b -> 'f
+)
+ident(
+  def f "gAction.ml" 183 7348 7349 "gAction.ml" 188 7503 7533
+)
+"gAction.ml" 183 7348 7353 "gAction.ml" 183 7348 7361
+type(
+  'f
+)
+"gAction.ml" 183 7348 7364 "gAction.ml" 183 7348 7365
+type(
+  'b -> 'f
+)
+ident(
+  int_ref f "gAction.ml" 182 7321 7342 "gAction.ml" 182 7321 7343
+)
+"gAction.ml" 183 7348 7366 "gAction.ml" 183 7348 7374
+type(
+  'b
+)
+ident(
+  int_ref ac_group "gAction.ml" 179 7201 7268 "gAction.ml" 179 7201 7276
+)
+"gAction.ml" 183 7348 7364 "gAction.ml" 183 7348 7374
+call(
+  stack
+)
+type(
+  'f
+)
+"gAction.ml" 184 7378 7379 "gAction.ml" 184 7378 7387
+type(
+  'f
+)
+ident(
+  int_ref radio_ac "gAction.ml" 183 7348 7353 "gAction.ml" 183 7348 7361
+)
+"gAction.ml" 184 7378 7379 "gAction.ml" 184 7378 7397
+call(
+  stack
+)
+type(
+  'c Gobject.obj option -> 'e
+)
+"gAction.ml" 184 7378 7398 "gAction.ml" 184 7378 7407
+type(
+  'c Gobject.obj option
+)
+ident(
+  int_ref radio_grp "gAction.ml" 182 7321 7332 "gAction.ml" 182 7321 7341
+)
+"gAction.ml" 184 7378 7379 "gAction.ml" 184 7378 7407
+type(
+  'e
+)
+"gAction.ml" 185 7410 7411 "gAction.ml" 185 7410 7419
+type(
+  f:('a -> 'd) -> 'a option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gAction.ml" 186 7421 7429 "gAction.ml" 186 7421 7435
+type(
+  'a
+)
+ident(
+  def init_v "gAction.ml" 186 7421 7439 "gAction.ml" 186 7421 7484
+)
+"gAction.ml" 186 7421 7439 "gAction.ml" 186 7421 7447
+type(
+  'f
+)
+ident(
+  int_ref radio_ac "gAction.ml" 183 7348 7353 "gAction.ml" 183 7348 7361
+)
+"gAction.ml" 186 7421 7439 "gAction.ml" 186 7421 7458
+call(
+  tail
+)
+type(
+  bool -> 'd
+)
+"gAction.ml" 186 7421 7460 "gAction.ml" 186 7421 7468
+type(
+  'f
+)
+ident(
+  int_ref radio_ac "gAction.ml" 183 7348 7353 "gAction.ml" 183 7348 7361
+)
+"gAction.ml" 186 7421 7460 "gAction.ml" 186 7421 7474
+call(
+  stack
+)
+type(
+  'a
+)
+"gAction.ml" 186 7421 7475 "gAction.ml" 186 7421 7476
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gAction.ml" 186 7421 7477 "gAction.ml" 186 7421 7483
+type(
+  'a
+)
+ident(
+  int_ref init_v "gAction.ml" 186 7421 7429 "gAction.ml" 186 7421 7435
+)
+"gAction.ml" 186 7421 7459 "gAction.ml" 186 7421 7484
+type(
+  bool
+)
+"gAction.ml" 186 7421 7439 "gAction.ml" 186 7421 7484
+type(
+  'd
+)
+"gAction.ml" 186 7421 7424 "gAction.ml" 186 7421 7485
+type(
+  'a -> 'd
+)
+"gAction.ml" 187 7487 7490 "gAction.ml" 187 7487 7500
+type(
+  'a option
+)
+ident(
+  int_ref init_value "gAction.ml" 179 7201 7226 "gAction.ml" 179 7201 7236
+)
+"gAction.ml" 185 7410 7411 "gAction.ml" 187 7487 7500
+call(
+  stack
+)
+type(
+  unit
+)
+"gAction.ml" 188 7503 7509 "gAction.ml" 188 7503 7517
+type(
+  'f
+)
+ident(
+  int_ref radio_ac "gAction.ml" 183 7348 7353 "gAction.ml" 183 7348 7361
+)
+"gAction.ml" 188 7503 7509 "gAction.ml" 188 7503 7533
+call(
+  stack
+)
+type(
+  'c Gobject.obj
+)
+"gAction.ml" 188 7503 7504 "gAction.ml" 188 7503 7533
+type(
+  'c Gobject.obj option
+)
+"gAction.ml" 185 7410 7411 "gAction.ml" 188 7503 7533
+type(
+  'c Gobject.obj option
+)
+"gAction.ml" 184 7378 7379 "gAction.ml" 188 7503 7533
+type(
+  'c Gobject.obj option
+)
+"gAction.ml" 183 7348 7349 "gAction.ml" 188 7503 7533
+type(
+  'c Gobject.obj option
+)
+"gAction.ml" 182 7321 7327 "gAction.ml" 188 7503 7534
+type(
+  'c Gobject.obj option -> ('b -> 'f) -> 'c Gobject.obj option
+)
+"gAction.ml" 189 7535 7541 "gAction.ml" 189 7535 7545
+type(
+  'c Gobject.obj option
+)
+"gAction.ml" 189 7535 7546 "gAction.ml" 189 7535 7566
+type(
+  ('b -> 'f) list
+)
+ident(
+  int_ref radio_action_entries "gAction.ml" 179 7201 7247 "gAction.ml" 179 7201 7267
+)
+"gAction.ml" 181 7301 7305 "gAction.ml" 189 7535 7566
+call(
+  stack
+)
+type(
+  'c Gobject.obj option
+)
+"gAction.ml" 190 7570 7572 "gAction.ml" 190 7570 7580
+type(
+  f:((int -> unit) -> unit) -> (int -> unit) option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gAction.ml" 191 7581 7590 "gAction.ml" 191 7581 7592
+type(
+  int -> unit
+)
+ident(
+  def cb "gAction.ml" 192 7596 7602 "gAction.ml" 198 7752 7766
+)
+"gAction.ml" 192 7596 7602 "gAction.ml" 192 7596 7610
+type(
+  f:('c Gobject.obj -> GtkSignal.id) -> 'c Gobject.obj option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gAction.ml" 193 7611 7617 "gAction.ml" 193 7611 7618
+type(
+  'c Gobject.obj
+)
+ident(
+  def o "gAction.ml" 194 7622 7625 "gAction.ml" 197 7744 7750
+)
+"gAction.ml" 194 7622 7625 "gAction.ml" 194 7622 7642
+type(
+  sgn:('c, Gtk.radio_action Gobject.obj -> unit) GtkSignal.t ->
+  callback:(Gtk.radio_action Gobject.obj -> unit) ->
+  ?after:bool -> 'c Gobject.obj -> GtkSignal.id
+)
+ident(
+  ext_ref GtkSignal.connect
+)
+"gAction.ml" 195 7643 7653 "gAction.ml" 195 7643 7674
+type(
+  ('c, Gtk.radio_action Gobject.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkAction.RadioAction.S.changed
+)
+"gAction.ml" 196 7675 7695 "gAction.ml" 196 7675 7699
+type(
+  Gtk.radio_action Gobject.obj
+)
+ident(
+  def curr "gAction.ml" 196 7675 7703 "gAction.ml" 196 7675 7742
+)
+"gAction.ml" 196 7675 7703 "gAction.ml" 196 7675 7705
+type(
+  int -> unit
+)
+ident(
+  int_ref cb "gAction.ml" 191 7581 7590 "gAction.ml" 191 7581 7592
+)
+"gAction.ml" 196 7675 7707 "gAction.ml" 196 7675 7736
+type(
+  Gtk.radio_action Gobject.obj -> int
+)
+ident(
+  ext_ref GtkAction.RadioAction.get_current_value
+)
+"gAction.ml" 196 7675 7737 "gAction.ml" 196 7675 7741
+type(
+  Gtk.radio_action Gobject.obj
+)
+ident(
+  int_ref curr "gAction.ml" 196 7675 7695 "gAction.ml" 196 7675 7699
+)
+"gAction.ml" 196 7675 7706 "gAction.ml" 196 7675 7742
+type(
+  int
+)
+"gAction.ml" 196 7675 7703 "gAction.ml" 196 7675 7742
+call(
+  tail
+)
+type(
+  unit
+)
+"gAction.ml" 196 7675 7690 "gAction.ml" 196 7675 7743
+type(
+  Gtk.radio_action Gobject.obj -> unit
+)
+"gAction.ml" 197 7744 7749 "gAction.ml" 197 7744 7750
+type(
+  'c Gobject.obj
+)
+ident(
+  int_ref o "gAction.ml" 193 7611 7617 "gAction.ml" 193 7611 7618
+)
+"gAction.ml" 194 7622 7625 "gAction.ml" 197 7744 7750
+call(
+  tail
+)
+type(
+  GtkSignal.id
+)
+"gAction.ml" 193 7611 7612 "gAction.ml" 197 7744 7751
+type(
+  'c Gobject.obj -> GtkSignal.id
+)
+"gAction.ml" 198 7752 7753 "gAction.ml" 198 7752 7766
+type(
+  'c Gobject.obj option
+)
+ident(
+  int_ref last_radio_ac "gAction.ml" 180 7279 7285 "gAction.ml" 180 7279 7298
+)
+"gAction.ml" 192 7596 7602 "gAction.ml" 198 7752 7766
+call(
+  tail
+)
+type(
+  unit
+)
+"gAction.ml" 191 7581 7585 "gAction.ml" 198 7752 7767
+type(
+  (int -> unit) -> unit
+)
+"gAction.ml" 199 7768 7772 "gAction.ml" 199 7768 7780
+type(
+  (int -> unit) option
+)
+ident(
+  int_ref callback "gAction.ml" 179 7201 7238 "gAction.ml" 179 7201 7246
+)
+"gAction.ml" 190 7570 7572 "gAction.ml" 199 7768 7780
+call(
+  stack
+)
+type(
+  unit
+)
+"gAction.ml" 200 7783 7785 "gAction.ml" 200 7783 7787
+type(
+  unit
+)
+"gAction.ml" 190 7570 7572 "gAction.ml" 200 7783 7787
+type(
+  unit
+)
+"gAction.ml" 180 7279 7281 "gAction.ml" 200 7783 7787
+type(
+  unit
+)
+"gAction.ml" 202 7789 7814 "gAction.ml" 202 7789 7817
+type(
+  [> Gtk.ui_manager ] Gtk.obj
+)
+"gAction.ml" 202 7789 7827 "gAction.ml" 202 7789 7833
+type(
+  < actions_changed : callback:(unit -> unit) -> GtkSignal.id;
+    add_widget : callback:(GObj.widget -> unit) -> GtkSignal.id; after : 'a;
+    connect_proxy : callback:(action -> GObj.widget -> unit) -> GtkSignal.id;
+    disconnect_proxy : callback:(action -> GObj.widget -> unit) ->
+                       GtkSignal.id;
+    post_activate : callback:(action -> unit) -> GtkSignal.id;
+    pre_activate : callback:(action -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"gAction.ml" 203 7834 7886 "gAction.ml" 203 7834 7889
+type(
+  ([> Gtk.ui_manager ] as 'b) Gtk.obj
+)
+ident(
+  int_ref obj "gAction.ml" 202 7789 7814 "gAction.ml" 202 7789 7817
+)
+"gAction.ml" 205 7932 7956 "gAction.ml" 205 7932 7964
+type(
+  action -> GObj.widget -> unit
+)
+ident(
+  def callback "gAction.ml" 205 7932 7967 "gAction.ml" 211 8195 8235
+)
+"gAction.ml" 205 7932 7967 "gAction.ml" 205 7932 7971
+type(
+  'a
+)
+"gAction.ml" 205 7932 7967 "gAction.ml" 205 7932 7979
+call(
+  tail
+)
+type(
+  ('b, Gtk.action Gtk.obj -> GObj.widget -> unit) GtkSignal.t ->
+  callback:(Gtk.action Gtk.obj -> GObj.widget -> unit) -> GtkSignal.id
+)
+"gAction.ml" 206 7980 7985 "gAction.ml" 206 7980 8010
+type(
+  ('b, Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkAction.UIManager.S.connect_proxy
+)
+"gAction.ml" 206 7980 8043 "gAction.ml" 206 7980 8044
+type(
+  Gtk.action Gtk.obj -> GObj.widget -> unit
+)
+ident(
+  def f "gAction.ml" 207 8048 8053 "gAction.ml" 210 8155 8193
+)
+"gAction.ml" 207 8048 8053 "gAction.ml" 207 8048 8071
+type(
+  Gtk.action Gtk.obj Gobject.data_conv ->
+  GObj.widget Gobject.data_conv ->
+  string -> (Gtk.action Gtk.obj -> GObj.widget -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gAction.ml" 208 8073 8075 "gAction.ml" 208 8073 8095
+type(
+  Gtk.action Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.action Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gAction.ml" 209 8137 8138 "gAction.ml" 209 8137 8154
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"gAction.ml" 210 8155 8162 "gAction.ml" 210 8155 8191
+type(
+  string
+)
+"gAction.ml" 210 8155 8192 "gAction.ml" 210 8155 8193
+type(
+  Gtk.action Gtk.obj -> GObj.widget -> unit
+)
+ident(
+  int_ref f "gAction.ml" 206 7980 8043 "gAction.ml" 206 7980 8044
+)
+"gAction.ml" 207 8048 8053 "gAction.ml" 210 8155 8193
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gAction.ml" 206 7980 8039 "gAction.ml" 210 8155 8193
+type(
+  (Gtk.action Gtk.obj -> GObj.widget -> unit) -> Gobject.Closure.argv -> unit
+)
+"gAction.ml" 206 7980 7984 "gAction.ml" 210 8155 8194
+type(
+  ('b, Gtk.action Gtk.obj -> GObj.widget -> unit) GtkSignal.t
+)
+"gAction.ml" 211 8195 8206 "gAction.ml" 211 8195 8207
+type(
+  Gtk.action Gtk.obj
+)
+ident(
+  def o "gAction.ml" 211 8195 8211 "gAction.ml" 211 8195 8234
+)
+"gAction.ml" 211 8195 8211 "gAction.ml" 211 8195 8219
+type(
+  action -> GObj.widget -> unit
+)
+ident(
+  int_ref callback "gAction.ml" 205 7932 7956 "gAction.ml" 205 7932 7964
+)
+"gAction.ml" 211 8195 8221 "gAction.ml" 211 8195 8231
+type(
+  Gtk.action Gtk.obj -> action
+)
+"gAction.ml" 211 8195 8232 "gAction.ml" 211 8195 8233
+type(
+  Gtk.action Gtk.obj
+)
+ident(
+  int_ref o "gAction.ml" 211 8195 8206 "gAction.ml" 211 8195 8207
+)
+"gAction.ml" 211 8195 8220 "gAction.ml" 211 8195 8234
+call(
+  stack
+)
+type(
+  action
+)
+"gAction.ml" 211 8195 8211 "gAction.ml" 211 8195 8234
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+"gAction.ml" 211 8195 8201 "gAction.ml" 211 8195 8235
+type(
+  Gtk.action Gtk.obj -> GObj.widget -> unit
+)
+"gAction.ml" 205 7932 7967 "gAction.ml" 211 8195 8235
+type(
+  GtkSignal.id
+)
+"gAction.ml" 212 8236 8263 "gAction.ml" 212 8236 8271
+type(
+  action -> GObj.widget -> unit
+)
+ident(
+  def callback "gAction.ml" 212 8236 8274 "gAction.ml" 218 8508 8548
+)
+"gAction.ml" 212 8236 8274 "gAction.ml" 212 8236 8278
+type(
+  'a
+)
+"gAction.ml" 212 8236 8274 "gAction.ml" 212 8236 8286
+call(
+  tail
+)
+type(
+  ('b, Gtk.action Gtk.obj -> GObj.widget -> unit) GtkSignal.t ->
+  callback:(Gtk.action Gtk.obj -> GObj.widget -> unit) -> GtkSignal.id
+)
+"gAction.ml" 213 8287 8292 "gAction.ml" 213 8287 8320
+type(
+  ('b, Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkAction.UIManager.S.disconnect_proxy
+)
+"gAction.ml" 213 8287 8353 "gAction.ml" 213 8287 8354
+type(
+  Gtk.action Gtk.obj -> GObj.widget -> unit
+)
+ident(
+  def f "gAction.ml" 214 8358 8363 "gAction.ml" 217 8465 8506
+)
+"gAction.ml" 214 8358 8363 "gAction.ml" 214 8358 8381
+type(
+  Gtk.action Gtk.obj Gobject.data_conv ->
+  GObj.widget Gobject.data_conv ->
+  string -> (Gtk.action Gtk.obj -> GObj.widget -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gAction.ml" 215 8383 8385 "gAction.ml" 215 8383 8405
+type(
+  Gtk.action Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.action Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gAction.ml" 216 8447 8448 "gAction.ml" 216 8447 8464
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"gAction.ml" 217 8465 8472 "gAction.ml" 217 8465 8504
+type(
+  string
+)
+"gAction.ml" 217 8465 8505 "gAction.ml" 217 8465 8506
+type(
+  Gtk.action Gtk.obj -> GObj.widget -> unit
+)
+ident(
+  int_ref f "gAction.ml" 213 8287 8353 "gAction.ml" 213 8287 8354
+)
+"gAction.ml" 214 8358 8363 "gAction.ml" 217 8465 8506
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gAction.ml" 213 8287 8349 "gAction.ml" 217 8465 8506
+type(
+  (Gtk.action Gtk.obj -> GObj.widget -> unit) -> Gobject.Closure.argv -> unit
+)
+"gAction.ml" 213 8287 8291 "gAction.ml" 217 8465 8507
+type(
+  ('b, Gtk.action Gtk.obj -> GObj.widget -> unit) GtkSignal.t
+)
+"gAction.ml" 218 8508 8519 "gAction.ml" 218 8508 8520
+type(
+  Gtk.action Gtk.obj
+)
+ident(
+  def o "gAction.ml" 218 8508 8524 "gAction.ml" 218 8508 8547
+)
+"gAction.ml" 218 8508 8524 "gAction.ml" 218 8508 8532
+type(
+  action -> GObj.widget -> unit
+)
+ident(
+  int_ref callback "gAction.ml" 212 8236 8263 "gAction.ml" 212 8236 8271
+)
+"gAction.ml" 218 8508 8534 "gAction.ml" 218 8508 8544
+type(
+  Gtk.action Gtk.obj -> action
+)
+"gAction.ml" 218 8508 8545 "gAction.ml" 218 8508 8546
+type(
+  Gtk.action Gtk.obj
+)
+ident(
+  int_ref o "gAction.ml" 218 8508 8519 "gAction.ml" 218 8508 8520
+)
+"gAction.ml" 218 8508 8533 "gAction.ml" 218 8508 8547
+call(
+  stack
+)
+type(
+  action
+)
+"gAction.ml" 218 8508 8524 "gAction.ml" 218 8508 8547
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+"gAction.ml" 218 8508 8514 "gAction.ml" 218 8508 8548
+type(
+  Gtk.action Gtk.obj -> GObj.widget -> unit
+)
+"gAction.ml" 212 8236 8274 "gAction.ml" 218 8508 8548
+type(
+  GtkSignal.id
+)
+"gAction.ml" 219 8549 8573 "gAction.ml" 219 8549 8581
+type(
+  action -> unit
+)
+ident(
+  def callback "gAction.ml" 219 8549 8584 "gAction.ml" 220 8623 8663
+)
+"gAction.ml" 219 8549 8584 "gAction.ml" 219 8549 8588
+type(
+  'a
+)
+"gAction.ml" 219 8549 8584 "gAction.ml" 219 8549 8596
+call(
+  tail
+)
+type(
+  ('b, Gtk.action Gtk.obj -> unit) GtkSignal.t ->
+  callback:(Gtk.action Gtk.obj -> unit) -> GtkSignal.id
+)
+"gAction.ml" 219 8549 8597 "gAction.ml" 219 8549 8622
+type(
+  ('b, Gtk.action Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkAction.UIManager.S.post_activate
+)
+"gAction.ml" 220 8623 8634 "gAction.ml" 220 8623 8635
+type(
+  Gtk.action Gtk.obj
+)
+ident(
+  def o "gAction.ml" 220 8623 8639 "gAction.ml" 220 8623 8662
+)
+"gAction.ml" 220 8623 8639 "gAction.ml" 220 8623 8647
+type(
+  action -> unit
+)
+ident(
+  int_ref callback "gAction.ml" 219 8549 8573 "gAction.ml" 219 8549 8581
+)
+"gAction.ml" 220 8623 8649 "gAction.ml" 220 8623 8659
+type(
+  Gtk.action Gtk.obj -> action
+)
+"gAction.ml" 220 8623 8660 "gAction.ml" 220 8623 8661
+type(
+  Gtk.action Gtk.obj
+)
+ident(
+  int_ref o "gAction.ml" 220 8623 8634 "gAction.ml" 220 8623 8635
+)
+"gAction.ml" 220 8623 8648 "gAction.ml" 220 8623 8662
+call(
+  stack
+)
+type(
+  action
+)
+"gAction.ml" 220 8623 8639 "gAction.ml" 220 8623 8662
+call(
+  tail
+)
+type(
+  unit
+)
+"gAction.ml" 220 8623 8629 "gAction.ml" 220 8623 8663
+type(
+  Gtk.action Gtk.obj -> unit
+)
+"gAction.ml" 219 8549 8584 "gAction.ml" 220 8623 8663
+type(
+  GtkSignal.id
+)
+"gAction.ml" 221 8664 8687 "gAction.ml" 221 8664 8695
+type(
+  action -> unit
+)
+ident(
+  def callback "gAction.ml" 221 8664 8698 "gAction.ml" 222 8736 8776
+)
+"gAction.ml" 221 8664 8698 "gAction.ml" 221 8664 8702
+type(
+  'a
+)
+"gAction.ml" 221 8664 8698 "gAction.ml" 221 8664 8710
+call(
+  tail
+)
+type(
+  ('b, Gtk.action Gtk.obj -> unit) GtkSignal.t ->
+  callback:(Gtk.action Gtk.obj -> unit) -> GtkSignal.id
+)
+"gAction.ml" 221 8664 8711 "gAction.ml" 221 8664 8735
+type(
+  ('b, Gtk.action Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkAction.UIManager.S.pre_activate
+)
+"gAction.ml" 222 8736 8747 "gAction.ml" 222 8736 8748
+type(
+  Gtk.action Gtk.obj
+)
+ident(
+  def o "gAction.ml" 222 8736 8752 "gAction.ml" 222 8736 8775
+)
+"gAction.ml" 222 8736 8752 "gAction.ml" 222 8736 8760
+type(
+  action -> unit
+)
+ident(
+  int_ref callback "gAction.ml" 221 8664 8687 "gAction.ml" 221 8664 8695
+)
+"gAction.ml" 222 8736 8762 "gAction.ml" 222 8736 8772
+type(
+  Gtk.action Gtk.obj -> action
+)
+"gAction.ml" 222 8736 8773 "gAction.ml" 222 8736 8774
+type(
+  Gtk.action Gtk.obj
+)
+ident(
+  int_ref o "gAction.ml" 222 8736 8747 "gAction.ml" 222 8736 8748
+)
+"gAction.ml" 222 8736 8761 "gAction.ml" 222 8736 8775
+call(
+  stack
+)
+type(
+  action
+)
+"gAction.ml" 222 8736 8752 "gAction.ml" 222 8736 8775
+call(
+  tail
+)
+type(
+  unit
+)
+"gAction.ml" 222 8736 8742 "gAction.ml" 222 8736 8776
+type(
+  Gtk.action Gtk.obj -> unit
+)
+"gAction.ml" 221 8664 8698 "gAction.ml" 222 8736 8776
+type(
+  GtkSignal.id
+)
+"gAction.ml" 227 8800 8804 "gAction.ml" 227 8800 8814
+type(
+  int
+)
+ident(
+  def invalid_id "gAction.ml" 229 8820 8820 --
+)
+"gAction.ml" 227 8800 8817 "gAction.ml" 227 8800 8818
+type(
+  int
+)
+"gAction.ml" 229 8820 8837 "gAction.ml" 229 8820 8840
+type(
+  [> Gtk.ui_manager ] Gtk.obj
+)
+"gAction.ml" 230 8850 8862 "gAction.ml" 230 8850 8865
+type(
+  ([> Gtk.ui_manager ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gAction.ml" 229 8820 8837 "gAction.ml" 229 8820 8840
+)
+"gAction.ml" 231 8866 8889 "gAction.ml" 231 8866 8892
+type(
+  'a Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 233 8936 8955 "gAction.ml" 233 8936 8977
+type(
+  'a Gtk.obj -> ui_manager_signals
+)
+"gAction.ml" 233 8936 8978 "gAction.ml" 233 8936 8981
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 233 8936 8955 "gAction.ml" 233 8936 8981
+call(
+  tail
+)
+type(
+  ui_manager_signals
+)
+type(
+  ui_manager_signals
+)
+"gAction.ml" 234 8982 9008 "gAction.ml" 234 8982 9011
+type(
+  Gtk.ui_manager Gtk.obj
+)
+type(
+  Gtk.ui_manager Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 235 9038 9068 "gAction.ml" 235 9038 9069
+type(
+  action_group
+)
+ident(
+  def g "gAction.ml" 236 9089 9093 "gAction.ml" 236 9089 9137
+)
+"gAction.ml" 236 9089 9093 "gAction.ml" 236 9089 9122
+type(
+  'a Gtk.obj -> Gtk.action_group Gobject.obj -> int -> unit
+)
+ident(
+  ext_ref GtkAction.UIManager.insert_action_group
+)
+"gAction.ml" 236 9089 9123 "gAction.ml" 236 9089 9126
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 236 9089 9127 "gAction.ml" 236 9089 9128
+type(
+  action_group
+)
+ident(
+  int_ref g "gAction.ml" 235 9038 9068 "gAction.ml" 235 9038 9069
+)
+"gAction.ml" 236 9089 9127 "gAction.ml" 236 9089 9137
+call(
+  stack
+)
+type(
+  Gtk.action_group Gobject.obj
+)
+"gAction.ml" 236 9089 9093 "gAction.ml" 236 9089 9137
+call(
+  tail
+)
+type(
+  int -> unit
+)
+"gAction.ml" 237 9138 9168 "gAction.ml" 237 9138 9169
+type(
+  action_group
+)
+ident(
+  def g "gAction.ml" 238 9188 9192 "gAction.ml" 238 9188 9236
+)
+"gAction.ml" 238 9188 9192 "gAction.ml" 238 9188 9221
+type(
+  'a Gtk.obj -> Gtk.action_group Gobject.obj -> unit
+)
+ident(
+  ext_ref GtkAction.UIManager.remove_action_group
+)
+"gAction.ml" 238 9188 9222 "gAction.ml" 238 9188 9225
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 238 9188 9226 "gAction.ml" 238 9188 9227
+type(
+  action_group
+)
+ident(
+  int_ref g "gAction.ml" 237 9138 9168 "gAction.ml" 237 9138 9169
+)
+"gAction.ml" 238 9188 9226 "gAction.ml" 238 9188 9236
+call(
+  stack
+)
+type(
+  Gtk.action_group Gobject.obj
+)
+"gAction.ml" 238 9188 9192 "gAction.ml" 238 9188 9236
+type(
+  unit
+)
+"gAction.ml" 240 9266 9270 "gAction.ml" 240 9266 9278
+type(
+  (Gtk.action_group Gtk.obj -> action_group) ->
+  Gtk.action_group Gtk.obj list -> action_group list
+)
+ident(
+  ext_ref List.map
+)
+"gAction.ml" 240 9266 9279 "gAction.ml" 240 9266 9297
+type(
+  Gtk.action_group Gtk.obj -> action_group
+)
+"gAction.ml" 240 9266 9299 "gAction.ml" 240 9266 9326
+type(
+  'a Gtk.obj -> Gtk.action_group Gtk.obj list
+)
+ident(
+  ext_ref GtkAction.UIManager.get_action_groups
+)
+"gAction.ml" 240 9266 9327 "gAction.ml" 240 9266 9330
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 240 9266 9298 "gAction.ml" 240 9266 9331
+type(
+  Gtk.action_group Gtk.obj list
+)
+"gAction.ml" 240 9266 9270 "gAction.ml" 240 9266 9331
+call(
+  tail
+)
+type(
+  action_group list
+)
+type(
+  action_group list
+)
+"gAction.ml" 241 9332 9359 "gAction.ml" 241 9332 9384
+type(
+  'a Gtk.obj -> Gtk.accel_group
+)
+ident(
+  ext_ref GtkAction.UIManager.get_accel_group
+)
+"gAction.ml" 241 9332 9385 "gAction.ml" 241 9332 9388
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 241 9332 9359 "gAction.ml" 241 9332 9388
+type(
+  Gtk.accel_group
+)
+type(
+  Gtk.accel_group
+)
+"gAction.ml" 242 9389 9409 "gAction.ml" 242 9389 9410
+type(
+  string
+)
+ident(
+  def s "gAction.ml" 242 9389 9413 "gAction.ml" 242 9389 9457
+)
+"gAction.ml" 242 9389 9413 "gAction.ml" 242 9389 9428
+type(
+  Gtk.widget Gtk.obj -> GObj.widget
+)
+"gAction.ml" 242 9389 9430 "gAction.ml" 242 9389 9450
+type(
+  'a Gtk.obj -> string -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GtkAction.UIManager.get_widget
+)
+"gAction.ml" 242 9389 9451 "gAction.ml" 242 9389 9454
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 242 9389 9455 "gAction.ml" 242 9389 9456
+type(
+  string
+)
+ident(
+  int_ref s "gAction.ml" 242 9389 9409 "gAction.ml" 242 9389 9410
+)
+"gAction.ml" 242 9389 9429 "gAction.ml" 242 9389 9457
+type(
+  Gtk.widget Gtk.obj
+)
+"gAction.ml" 242 9389 9413 "gAction.ml" 242 9389 9457
+call(
+  tail
+)
+type(
+  GObj.widget
+)
+"gAction.ml" 243 9458 9481 "gAction.ml" 243 9458 9485
+type(
+  GtkEnums.ui_manager_item_type list
+)
+ident(
+  def kind "gAction.ml" 244 9488 9492 "gAction.ml" 244 9488 9553
+)
+"gAction.ml" 244 9488 9492 "gAction.ml" 244 9488 9500
+type(
+  (Gtk.widget Gtk.obj -> GObj.widget) ->
+  Gtk.widget Gtk.obj list -> GObj.widget list
+)
+ident(
+  ext_ref List.map
+)
+"gAction.ml" 244 9488 9501 "gAction.ml" 244 9488 9518
+type(
+  Gtk.widget Gtk.obj -> GObj.widget
+)
+"gAction.ml" 244 9488 9520 "gAction.ml" 244 9488 9543
+type(
+  'a Gtk.obj -> GtkEnums.ui_manager_item_type list -> Gtk.widget Gtk.obj list
+)
+ident(
+  ext_ref GtkAction.UIManager.get_toplevels
+)
+"gAction.ml" 244 9488 9544 "gAction.ml" 244 9488 9547
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 244 9488 9548 "gAction.ml" 244 9488 9552
+type(
+  GtkEnums.ui_manager_item_type list
+)
+ident(
+  int_ref kind "gAction.ml" 243 9458 9481 "gAction.ml" 243 9458 9485
+)
+"gAction.ml" 244 9488 9519 "gAction.ml" 244 9488 9553
+type(
+  Gtk.widget Gtk.obj list
+)
+"gAction.ml" 244 9488 9492 "gAction.ml" 244 9488 9553
+call(
+  tail
+)
+type(
+  GObj.widget list
+)
+"gAction.ml" 245 9554 9574 "gAction.ml" 245 9554 9575
+type(
+  string
+)
+ident(
+  def s "gAction.ml" 245 9554 9578 "gAction.ml" 245 9554 9617
+)
+"gAction.ml" 245 9554 9578 "gAction.ml" 245 9554 9588
+type(
+  Gtk.action Gtk.obj -> action
+)
+"gAction.ml" 245 9554 9590 "gAction.ml" 245 9554 9610
+type(
+  'a Gtk.obj -> string -> Gtk.action Gtk.obj
+)
+ident(
+  ext_ref GtkAction.UIManager.get_action
+)
+"gAction.ml" 245 9554 9611 "gAction.ml" 245 9554 9614
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 245 9554 9615 "gAction.ml" 245 9554 9616
+type(
+  string
+)
+ident(
+  int_ref s "gAction.ml" 245 9554 9574 "gAction.ml" 245 9554 9575
+)
+"gAction.ml" 245 9554 9589 "gAction.ml" 245 9554 9617
+type(
+  Gtk.action Gtk.obj
+)
+"gAction.ml" 245 9554 9578 "gAction.ml" 245 9554 9617
+call(
+  tail
+)
+type(
+  action
+)
+"gAction.ml" 246 9618 9648 "gAction.ml" 246 9618 9676
+type(
+  'a Gtk.obj -> string -> int
+)
+ident(
+  ext_ref GtkAction.UIManager.add_ui_from_string
+)
+"gAction.ml" 246 9618 9677 "gAction.ml" 246 9618 9680
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 246 9618 9648 "gAction.ml" 246 9618 9680
+call(
+  tail
+)
+type(
+  string -> int
+)
+type(
+  string -> int
+)
+"gAction.ml" 247 9681 9709 "gAction.ml" 247 9681 9735
+type(
+  'a Gtk.obj -> string -> int
+)
+ident(
+  ext_ref GtkAction.UIManager.add_ui_from_file
+)
+"gAction.ml" 247 9681 9736 "gAction.ml" 247 9681 9739
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 247 9681 9709 "gAction.ml" 247 9681 9739
+call(
+  tail
+)
+type(
+  string -> int
+)
+type(
+  string -> int
+)
+"gAction.ml" 248 9740 9762 "gAction.ml" 248 9740 9764
+type(
+  unit
+)
+"gAction.ml" 248 9740 9767 "gAction.ml" 248 9740 9789
+type(
+  'a Gtk.obj -> int
+)
+ident(
+  ext_ref GtkAction.UIManager.new_merge_id
+)
+"gAction.ml" 248 9740 9790 "gAction.ml" 248 9740 9793
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 248 9740 9767 "gAction.ml" 248 9740 9793
+type(
+  int
+)
+"gAction.ml" 249 9794 9812 "gAction.ml" 249 9794 9828
+type(
+  'a Gtk.obj ->
+  int ->
+  path:string ->
+  name:string ->
+  action:string option -> GtkEnums.ui_manager_item_type -> top:bool -> unit
+)
+ident(
+  ext_ref GtkAction.UIManager.add_ui
+)
+"gAction.ml" 249 9794 9829 "gAction.ml" 249 9794 9832
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 249 9794 9812 "gAction.ml" 249 9794 9832
+call(
+  tail
+)
+type(
+  int ->
+  path:string ->
+  name:string ->
+  action:string option -> GtkEnums.ui_manager_item_type -> top:bool -> unit
+)
+type(
+  int ->
+  path:string ->
+  name:string ->
+  action:string option -> GtkEnums.ui_manager_item_type -> top:bool -> unit
+)
+"gAction.ml" 250 9833 9854 "gAction.ml" 250 9833 9873
+type(
+  'a Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkAction.UIManager.remove_ui
+)
+"gAction.ml" 250 9833 9874 "gAction.ml" 250 9833 9877
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 250 9833 9854 "gAction.ml" 250 9833 9877
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gAction.ml" 251 9878 9901 "gAction.ml" 251 9878 9903
+type(
+  unit
+)
+"gAction.ml" 251 9878 9906 "gAction.ml" 251 9878 9929
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkAction.UIManager.ensure_update
+)
+"gAction.ml" 251 9878 9930 "gAction.ml" 251 9878 9933
+type(
+  'a Gtk.obj
+)
+"gAction.ml" 251 9878 9906 "gAction.ml" 251 9878 9933
+type(
+  unit
+)
+"gAction.ml" 254 9939 9943 "gAction.ml" 254 9939 9953
+type(
+  unit -> ui_manager
+)
+ident(
+  def ui_manager "gAction.ml" 255 9959 9997 --
+)
+"gAction.ml" 254 9939 9954 "gAction.ml" 254 9939 9956
+type(
+  unit
+)
+"gAction.ml" 255 9959 9961 "gAction.ml" 255 9959 9975
+type(
+  Gtk.ui_manager Gtk.obj -> ui_manager
+)
+"gAction.ml" 255 9959 9977 "gAction.ml" 255 9959 9993
+type(
+  Gtk.ui_manager Gobject.param list -> Gtk.ui_manager Gtk.obj
+)
+ident(
+  ext_ref GtkAction.UIManager.create
+)
+"gAction.ml" 255 9959 9994 "gAction.ml" 255 9959 9996
+type(
+  Gtk.ui_manager Gobject.param list
+)
+"gAction.ml" 255 9959 9976 "gAction.ml" 255 9959 9997
+call(
+  stack
+)
+type(
+  Gtk.ui_manager Gtk.obj
+)
+"gAction.ml" 255 9959 9961 "gAction.ml" 255 9959 9997
+call(
+  tail
+)
+type(
+  ui_manager
+)

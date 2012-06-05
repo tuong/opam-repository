@@ -1,0 +1,34 @@
+OASISFormat: 0.2
+Name:        planck
+Version:     1.0.1
+Synopsis:    Planck(Parser LANguage Combinator Kit): a small parser combinator library
+Authors:     Jun FURUSE
+License:     LGPL-2.0 with OCaml linking exception
+Plugins:      StdFiles (0.2)
+BuildType:    Custom (0.2)
+InstallType:    Custom (0.2)
+XCustomBuild: yes no | omake --install; omake
+XCustomInstall: omake install
+XCustomUninstall: omake uninstall
+BuildTools: omake
+
+Library planck
+  Path:          lib
+  FindlibName:   planck
+  BuildDepends:  sexplib (>= 5.2.1), spotlib (>= 1.0.0)
+  Modules:       Position,
+                 Result,
+                 Lazylist,
+                 Stream_intf,
+                 Stream,
+                 Sstring,
+                 Smemo,
+                 Sbuffer,
+                 Planck_intf,
+                 Pbase,
+                 Pbaseexn,
+                 Pbaseref,
+                 Pchar,
+                 Pbuffer,
+                 Pmemo,
+                 Op_prec

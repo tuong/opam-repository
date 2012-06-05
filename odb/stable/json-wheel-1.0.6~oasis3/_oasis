@@ -1,0 +1,20 @@
+OASISFormat:  0.2
+Name:         json-wheel
+Version:      1.0.6~oasis3
+Authors:      Mika Illouz, Martin Jambon
+License:      BSD3
+LicenseFile:  LICENSE
+ConfType:   custom (0.2)
+BuildType:    custom (0.2)
+InstallType:  custom (0.2)
+BuildTools:   make
+Synopsis:     JSON library for OCaml.
+
+XCustomConf: touch setup.data && echo
+XCustomBuild: make bcl ncl
+XCustomInstall: make install
+XCustomUninstall: ocamlfind remove json-wheel
+
+Library jsonwheel
+    Path: .
+    FindlibName: json-wheel

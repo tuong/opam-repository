@@ -1,0 +1,4 @@
+deps=ocamlbuild,bigarray
+tarball=lbfgs-0.8.3.tar.gz
+is_library=true
+is_program=false

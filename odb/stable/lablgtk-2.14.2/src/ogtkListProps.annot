@@ -1,0 +1,779 @@
+"ogtkListProps.ml" 4 38 42 "ogtkListProps.ml" 4 38 45
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  def set "ogtkListProps.ml" 5 52 52 --
+)
+"ogtkListProps.ml" 4 38 48 "ogtkListProps.ml" 4 38 51
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"ogtkListProps.ml" 5 52 56 "ogtkListProps.ml" 5 52 59
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  def get "ogtkListProps.ml" 6 66 66 --
+)
+"ogtkListProps.ml" 5 52 62 "ogtkListProps.ml" 5 52 65
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  ext_ref Gobject.get
+)
+"ogtkListProps.ml" 6 66 70 "ogtkListProps.ml" 6 66 75
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  def param "ogtkListProps.ml" 7 84 84 --
+)
+"ogtkListProps.ml" 6 66 78 "ogtkListProps.ml" 6 66 83
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"ogtkListProps.ml" 11 164 194 "ogtkListProps.ml" 11 164 197
+type(
+  ([> `list ] as 'a, GtkEnums.selection_mode) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.selection_mode -> unit
+)
+ident(
+  int_ref set "ogtkListProps.ml" 4 38 42 "ogtkListProps.ml" 4 38 45
+)
+"ogtkListProps.ml" 11 164 198 "ogtkListProps.ml" 11 164 220
+type(
+  ('a, GtkEnums.selection_mode) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Liste.P.selection_mode
+)
+"ogtkListProps.ml" 11 164 221 "ogtkListProps.ml" 11 164 224
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 11 164 194 "ogtkListProps.ml" 11 164 224
+call(
+  tail
+)
+type(
+  GtkEnums.selection_mode -> unit
+)
+type(
+  GtkEnums.selection_mode -> unit
+)
+"ogtkListProps.ml" 12 225 251 "ogtkListProps.ml" 12 225 254
+type(
+  ('a, GtkEnums.selection_mode) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.selection_mode
+)
+ident(
+  int_ref get "ogtkListProps.ml" 5 52 56 "ogtkListProps.ml" 5 52 59
+)
+"ogtkListProps.ml" 12 225 255 "ogtkListProps.ml" 12 225 277
+type(
+  ('a, GtkEnums.selection_mode) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Liste.P.selection_mode
+)
+"ogtkListProps.ml" 12 225 278 "ogtkListProps.ml" 12 225 281
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 12 225 251 "ogtkListProps.ml" 12 225 281
+call(
+  tail
+)
+type(
+  GtkEnums.selection_mode
+)
+type(
+  GtkEnums.selection_mode
+)
+"ogtkListProps.ml" 17 348 373 "ogtkListProps.ml" 17 348 376
+type(
+  ([> `clist ] as 'a, GtkEnums.sort_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.sort_type -> unit
+)
+ident(
+  int_ref set "ogtkListProps.ml" 4 38 42 "ogtkListProps.ml" 4 38 45
+)
+"ogtkListProps.ml" 17 348 377 "ogtkListProps.ml" 17 348 394
+type(
+  ('a, GtkEnums.sort_type) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Clist.P.sort_type
+)
+"ogtkListProps.ml" 17 348 395 "ogtkListProps.ml" 17 348 398
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 17 348 373 "ogtkListProps.ml" 17 348 398
+call(
+  tail
+)
+type(
+  GtkEnums.sort_type -> unit
+)
+type(
+  GtkEnums.sort_type -> unit
+)
+"ogtkListProps.ml" 18 399 426 "ogtkListProps.ml" 18 399 429
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkListProps.ml" 4 38 42 "ogtkListProps.ml" 4 38 45
+)
+"ogtkListProps.ml" 18 399 430 "ogtkListProps.ml" 18 399 449
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Clist.P.reorderable
+)
+"ogtkListProps.ml" 18 399 450 "ogtkListProps.ml" 18 399 453
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 18 399 426 "ogtkListProps.ml" 18 399 453
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkListProps.ml" 19 454 480 "ogtkListProps.ml" 19 454 483
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkListProps.ml" 4 38 42 "ogtkListProps.ml" 4 38 45
+)
+"ogtkListProps.ml" 19 454 484 "ogtkListProps.ml" 19 454 502
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Clist.P.row_height
+)
+"ogtkListProps.ml" 19 454 503 "ogtkListProps.ml" 19 454 506
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 19 454 480 "ogtkListProps.ml" 19 454 506
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkListProps.ml" 20 507 537 "ogtkListProps.ml" 20 507 540
+type(
+  ('a, GtkEnums.selection_mode) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.selection_mode -> unit
+)
+ident(
+  int_ref set "ogtkListProps.ml" 4 38 42 "ogtkListProps.ml" 4 38 45
+)
+"ogtkListProps.ml" 20 507 541 "ogtkListProps.ml" 20 507 563
+type(
+  ('a, GtkEnums.selection_mode) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Clist.P.selection_mode
+)
+"ogtkListProps.ml" 20 507 564 "ogtkListProps.ml" 20 507 567
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 20 507 537 "ogtkListProps.ml" 20 507 567
+call(
+  tail
+)
+type(
+  GtkEnums.selection_mode -> unit
+)
+type(
+  GtkEnums.selection_mode -> unit
+)
+"ogtkListProps.ml" 21 568 595 "ogtkListProps.ml" 21 568 598
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.shadow_type -> unit
+)
+ident(
+  int_ref set "ogtkListProps.ml" 4 38 42 "ogtkListProps.ml" 4 38 45
+)
+"ogtkListProps.ml" 21 568 599 "ogtkListProps.ml" 21 568 618
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Clist.P.shadow_type
+)
+"ogtkListProps.ml" 21 568 619 "ogtkListProps.ml" 21 568 622
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 21 568 595 "ogtkListProps.ml" 21 568 622
+call(
+  tail
+)
+type(
+  GtkEnums.shadow_type -> unit
+)
+type(
+  GtkEnums.shadow_type -> unit
+)
+"ogtkListProps.ml" 22 623 652 "ogtkListProps.ml" 22 623 655
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkListProps.ml" 4 38 42 "ogtkListProps.ml" 4 38 45
+)
+"ogtkListProps.ml" 22 623 656 "ogtkListProps.ml" 22 623 677
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Clist.P.titles_active
+)
+"ogtkListProps.ml" 22 623 678 "ogtkListProps.ml" 22 623 681
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 22 623 652 "ogtkListProps.ml" 22 623 681
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkListProps.ml" 23 682 712 "ogtkListProps.ml" 23 682 715
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkListProps.ml" 4 38 42 "ogtkListProps.ml" 4 38 45
+)
+"ogtkListProps.ml" 23 682 716 "ogtkListProps.ml" 23 682 738
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Clist.P.use_drag_icons
+)
+"ogtkListProps.ml" 23 682 739 "ogtkListProps.ml" 23 682 742
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 23 682 712 "ogtkListProps.ml" 23 682 742
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkListProps.ml" 24 743 764 "ogtkListProps.ml" 24 743 767
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkListProps.ml" 5 52 56 "ogtkListProps.ml" 5 52 59
+)
+"ogtkListProps.ml" 24 743 768 "ogtkListProps.ml" 24 743 785
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Clist.P.n_columns
+)
+"ogtkListProps.ml" 24 743 786 "ogtkListProps.ml" 24 743 789
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 24 743 764 "ogtkListProps.ml" 24 743 789
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkListProps.ml" 25 790 811 "ogtkListProps.ml" 25 790 814
+type(
+  ('a, GtkEnums.sort_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.sort_type
+)
+ident(
+  int_ref get "ogtkListProps.ml" 5 52 56 "ogtkListProps.ml" 5 52 59
+)
+"ogtkListProps.ml" 25 790 815 "ogtkListProps.ml" 25 790 832
+type(
+  ('a, GtkEnums.sort_type) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Clist.P.sort_type
+)
+"ogtkListProps.ml" 25 790 833 "ogtkListProps.ml" 25 790 836
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 25 790 811 "ogtkListProps.ml" 25 790 836
+call(
+  tail
+)
+type(
+  GtkEnums.sort_type
+)
+type(
+  GtkEnums.sort_type
+)
+"ogtkListProps.ml" 26 837 860 "ogtkListProps.ml" 26 837 863
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkListProps.ml" 5 52 56 "ogtkListProps.ml" 5 52 59
+)
+"ogtkListProps.ml" 26 837 864 "ogtkListProps.ml" 26 837 883
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Clist.P.reorderable
+)
+"ogtkListProps.ml" 26 837 884 "ogtkListProps.ml" 26 837 887
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 26 837 860 "ogtkListProps.ml" 26 837 887
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkListProps.ml" 27 888 910 "ogtkListProps.ml" 27 888 913
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkListProps.ml" 5 52 56 "ogtkListProps.ml" 5 52 59
+)
+"ogtkListProps.ml" 27 888 914 "ogtkListProps.ml" 27 888 932
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Clist.P.row_height
+)
+"ogtkListProps.ml" 27 888 933 "ogtkListProps.ml" 27 888 936
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 27 888 910 "ogtkListProps.ml" 27 888 936
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkListProps.ml" 28 937 963 "ogtkListProps.ml" 28 937 966
+type(
+  ('a, GtkEnums.selection_mode) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.selection_mode
+)
+ident(
+  int_ref get "ogtkListProps.ml" 5 52 56 "ogtkListProps.ml" 5 52 59
+)
+"ogtkListProps.ml" 28 937 967 "ogtkListProps.ml" 28 937 989
+type(
+  ('a, GtkEnums.selection_mode) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Clist.P.selection_mode
+)
+"ogtkListProps.ml" 28 937 990 "ogtkListProps.ml" 28 937 993
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 28 937 963 "ogtkListProps.ml" 28 937 993
+call(
+  tail
+)
+type(
+  GtkEnums.selection_mode
+)
+type(
+  GtkEnums.selection_mode
+)
+"ogtkListProps.ml" 29 994 1017 "ogtkListProps.ml" 29 994 1020
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.shadow_type
+)
+ident(
+  int_ref get "ogtkListProps.ml" 5 52 56 "ogtkListProps.ml" 5 52 59
+)
+"ogtkListProps.ml" 29 994 1021 "ogtkListProps.ml" 29 994 1040
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Clist.P.shadow_type
+)
+"ogtkListProps.ml" 29 994 1041 "ogtkListProps.ml" 29 994 1044
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 29 994 1017 "ogtkListProps.ml" 29 994 1044
+call(
+  tail
+)
+type(
+  GtkEnums.shadow_type
+)
+type(
+  GtkEnums.shadow_type
+)
+"ogtkListProps.ml" 30 1045 1070 "ogtkListProps.ml" 30 1045 1073
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkListProps.ml" 5 52 56 "ogtkListProps.ml" 5 52 59
+)
+"ogtkListProps.ml" 30 1045 1074 "ogtkListProps.ml" 30 1045 1095
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Clist.P.titles_active
+)
+"ogtkListProps.ml" 30 1045 1096 "ogtkListProps.ml" 30 1045 1099
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 30 1045 1070 "ogtkListProps.ml" 30 1045 1099
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkListProps.ml" 31 1100 1126 "ogtkListProps.ml" 31 1100 1129
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkListProps.ml" 5 52 56 "ogtkListProps.ml" 5 52 59
+)
+"ogtkListProps.ml" 31 1100 1130 "ogtkListProps.ml" 31 1100 1152
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkListProps.Clist.P.use_drag_icons
+)
+"ogtkListProps.ml" 31 1100 1153 "ogtkListProps.ml" 31 1100 1156
+type(
+  'a Gobject.obj
+)
+"ogtkListProps.ml" 31 1100 1126 "ogtkListProps.ml" 31 1100 1156
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkListProps.ml" 34 1162 1196 "ogtkListProps.ml" 34 1162 1202
+type(
+  < click_column : callback:(int -> unit) -> GtkSignal.id;
+    resize_column : callback:(int -> int -> unit) -> GtkSignal.id;
+    scroll_horizontal : callback:(GtkEnums.scroll_type -> pos:float -> unit) ->
+                        GtkSignal.id;
+    scroll_vertical : callback:(GtkEnums.scroll_type -> pos:float -> unit) ->
+                      GtkSignal.id;
+    select_all : callback:(unit -> unit) -> GtkSignal.id;
+    select_row : callback:(row:int ->
+                           column:int ->
+                           event:GdkEvent.Button.t option -> unit) ->
+                 GtkSignal.id;
+    unselect_all : callback:(unit -> unit) -> GtkSignal.id;
+    unselect_row : callback:(row:int ->
+                             column:int ->
+                             event:GdkEvent.Button.t option -> unit) ->
+                   GtkSignal.id;
+    .. >
+)
+"ogtkListProps.ml" 37 1297 1321 "ogtkListProps.ml" 37 1297 1325
+type(
+  < click_column : callback:(int -> unit) -> GtkSignal.id;
+    resize_column : callback:(int -> int -> unit) -> GtkSignal.id;
+    scroll_horizontal : callback:(GtkEnums.scroll_type -> pos:float -> unit) ->
+                        GtkSignal.id;
+    scroll_vertical : callback:(GtkEnums.scroll_type -> pos:float -> unit) ->
+                      GtkSignal.id;
+    select_all : callback:(unit -> unit) -> GtkSignal.id;
+    select_row : callback:(row:int ->
+                           column:int ->
+                           event:GdkEvent.Button.t option -> unit) ->
+                 GtkSignal.id;
+    unselect_all : callback:(unit -> unit) -> GtkSignal.id;
+    unselect_row : callback:(row:int ->
+                             column:int ->
+                             event:GdkEvent.Button.t option -> unit) ->
+                   GtkSignal.id;
+    .. >
+  as 'a
+)
+"ogtkListProps.ml" 37 1297 1321 "ogtkListProps.ml" 37 1297 1333
+call(
+  tail
+)
+type(
+  ([> `clist ], int -> unit) GtkSignal.t ->
+  callback:(int -> unit) -> GtkSignal.id
+)
+"ogtkListProps.ml" 37 1297 1334 "ogtkListProps.ml" 37 1297 1354
+type(
+  ([> `clist ] as 'b, int -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkListProps.Clist.S.click_column
+)
+"ogtkListProps.ml" 37 1297 1321 "ogtkListProps.ml" 37 1297 1354
+type(
+  callback:(int -> unit) -> GtkSignal.id
+)
+type(
+  callback:(int -> unit) -> GtkSignal.id
+)
+"ogtkListProps.ml" 38 1355 1380 "ogtkListProps.ml" 38 1355 1384
+type(
+  'a
+)
+"ogtkListProps.ml" 38 1355 1380 "ogtkListProps.ml" 38 1355 1392
+call(
+  tail
+)
+type(
+  ('b, int -> int -> unit) GtkSignal.t ->
+  callback:(int -> int -> unit) -> GtkSignal.id
+)
+"ogtkListProps.ml" 38 1355 1393 "ogtkListProps.ml" 38 1355 1414
+type(
+  ('b, int -> int -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkListProps.Clist.S.resize_column
+)
+"ogtkListProps.ml" 38 1355 1380 "ogtkListProps.ml" 38 1355 1414
+type(
+  callback:(int -> int -> unit) -> GtkSignal.id
+)
+type(
+  callback:(int -> int -> unit) -> GtkSignal.id
+)
+"ogtkListProps.ml" 39 1415 1444 "ogtkListProps.ml" 39 1415 1448
+type(
+  'a
+)
+"ogtkListProps.ml" 39 1415 1444 "ogtkListProps.ml" 39 1415 1456
+call(
+  tail
+)
+type(
+  ('b, GtkEnums.scroll_type -> pos:float -> unit) GtkSignal.t ->
+  callback:(GtkEnums.scroll_type -> pos:float -> unit) -> GtkSignal.id
+)
+"ogtkListProps.ml" 39 1415 1457 "ogtkListProps.ml" 39 1415 1482
+type(
+  ('b, GtkEnums.scroll_type -> pos:float -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkListProps.Clist.S.scroll_horizontal
+)
+"ogtkListProps.ml" 39 1415 1444 "ogtkListProps.ml" 39 1415 1482
+type(
+  callback:(GtkEnums.scroll_type -> pos:float -> unit) -> GtkSignal.id
+)
+type(
+  callback:(GtkEnums.scroll_type -> pos:float -> unit) -> GtkSignal.id
+)
+"ogtkListProps.ml" 40 1483 1510 "ogtkListProps.ml" 40 1483 1514
+type(
+  'a
+)
+"ogtkListProps.ml" 40 1483 1510 "ogtkListProps.ml" 40 1483 1522
+call(
+  tail
+)
+type(
+  ('b, GtkEnums.scroll_type -> pos:float -> unit) GtkSignal.t ->
+  callback:(GtkEnums.scroll_type -> pos:float -> unit) -> GtkSignal.id
+)
+"ogtkListProps.ml" 40 1483 1523 "ogtkListProps.ml" 40 1483 1546
+type(
+  ('b, GtkEnums.scroll_type -> pos:float -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkListProps.Clist.S.scroll_vertical
+)
+"ogtkListProps.ml" 40 1483 1510 "ogtkListProps.ml" 40 1483 1546
+type(
+  callback:(GtkEnums.scroll_type -> pos:float -> unit) -> GtkSignal.id
+)
+type(
+  callback:(GtkEnums.scroll_type -> pos:float -> unit) -> GtkSignal.id
+)
+"ogtkListProps.ml" 41 1547 1569 "ogtkListProps.ml" 41 1547 1573
+type(
+  'a
+)
+"ogtkListProps.ml" 41 1547 1569 "ogtkListProps.ml" 41 1547 1581
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkListProps.ml" 41 1547 1582 "ogtkListProps.ml" 41 1547 1600
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkListProps.Clist.S.select_all
+)
+"ogtkListProps.ml" 41 1547 1569 "ogtkListProps.ml" 41 1547 1600
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkListProps.ml" 42 1601 1623 "ogtkListProps.ml" 42 1601 1627
+type(
+  'a
+)
+"ogtkListProps.ml" 42 1601 1623 "ogtkListProps.ml" 42 1601 1635
+call(
+  tail
+)
+type(
+  ('b, row:int -> column:int -> event:GdkEvent.Button.t option -> unit)
+  GtkSignal.t ->
+  callback:(row:int -> column:int -> event:GdkEvent.Button.t option -> unit) ->
+  GtkSignal.id
+)
+"ogtkListProps.ml" 42 1601 1636 "ogtkListProps.ml" 42 1601 1654
+type(
+  ('b, row:int -> column:int -> event:GdkEvent.Button.t option -> unit)
+  GtkSignal.t
+)
+ident(
+  ext_ref GtkListProps.Clist.S.select_row
+)
+"ogtkListProps.ml" 42 1601 1623 "ogtkListProps.ml" 42 1601 1654
+type(
+  callback:(row:int -> column:int -> event:GdkEvent.Button.t option -> unit) ->
+  GtkSignal.id
+)
+type(
+  callback:(row:int -> column:int -> event:GdkEvent.Button.t option -> unit) ->
+  GtkSignal.id
+)
+"ogtkListProps.ml" 43 1655 1679 "ogtkListProps.ml" 43 1655 1683
+type(
+  'a
+)
+"ogtkListProps.ml" 43 1655 1679 "ogtkListProps.ml" 43 1655 1691
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkListProps.ml" 43 1655 1692 "ogtkListProps.ml" 43 1655 1712
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkListProps.Clist.S.unselect_all
+)
+"ogtkListProps.ml" 43 1655 1679 "ogtkListProps.ml" 43 1655 1712
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkListProps.ml" 44 1713 1737 "ogtkListProps.ml" 44 1713 1741
+type(
+  'a
+)
+"ogtkListProps.ml" 44 1713 1737 "ogtkListProps.ml" 44 1713 1749
+call(
+  tail
+)
+type(
+  ('b, row:int -> column:int -> event:GdkEvent.Button.t option -> unit)
+  GtkSignal.t ->
+  callback:(row:int -> column:int -> event:GdkEvent.Button.t option -> unit) ->
+  GtkSignal.id
+)
+"ogtkListProps.ml" 44 1713 1750 "ogtkListProps.ml" 44 1713 1770
+type(
+  ('b, row:int -> column:int -> event:GdkEvent.Button.t option -> unit)
+  GtkSignal.t
+)
+ident(
+  ext_ref GtkListProps.Clist.S.unselect_row
+)
+"ogtkListProps.ml" 44 1713 1737 "ogtkListProps.ml" 44 1713 1770
+type(
+  callback:(row:int -> column:int -> event:GdkEvent.Button.t option -> unit) ->
+  GtkSignal.id
+)
+type(
+  callback:(row:int -> column:int -> event:GdkEvent.Button.t option -> unit) ->
+  GtkSignal.id
+)

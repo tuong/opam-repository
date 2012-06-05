@@ -1,0 +1,928 @@
+"gPango.ml" 29 1708 1712 "gPango.ml" 29 1708 1721
+type(
+  Pango.units -> int
+)
+ident(
+  def to_pixels "gPango.ml" 30 1754 1754 --
+)
+"gPango.ml" 29 1708 1723 "gPango.ml" 29 1708 1724
+type(
+  Pango.units
+)
+ident(
+  def x "gPango.ml" 29 1708 1736 "gPango.ml" 29 1708 1753
+)
+"gPango.ml" 29 1708 1737 "gPango.ml" 29 1708 1738
+type(
+  Pango.units
+)
+ident(
+  int_ref x "gPango.ml" 29 1708 1723 "gPango.ml" 29 1708 1724
+)
+"gPango.ml" 29 1708 1738 "gPango.ml" 29 1708 1739
+type(
+  Pango.units -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gPango.ml" 29 1708 1739 "gPango.ml" 29 1708 1740
+type(
+  int
+)
+"gPango.ml" 29 1708 1736 "gPango.ml" 29 1708 1741
+type(
+  int
+)
+"gPango.ml" 29 1708 1742 "gPango.ml" 29 1708 1743
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"gPango.ml" 29 1708 1744 "gPango.ml" 29 1708 1749
+type(
+  int
+)
+ident(
+  ext_ref Pango.scale
+)
+"gPango.ml" 29 1708 1736 "gPango.ml" 29 1708 1749
+type(
+  int
+)
+"gPango.ml" 29 1708 1750 "gPango.ml" 29 1708 1751
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"gPango.ml" 29 1708 1752 "gPango.ml" 29 1708 1753
+type(
+  int
+)
+"gPango.ml" 29 1708 1736 "gPango.ml" 29 1708 1753
+type(
+  int
+)
+"gPango.ml" 30 1754 1758 "gPango.ml" 30 1754 1769
+type(
+  int -> Pango.units
+)
+ident(
+  def from_pixels "gPango.ml" 32 1793 1793 --
+)
+"gPango.ml" 30 1754 1770 "gPango.ml" 30 1754 1771
+type(
+  int
+)
+ident(
+  def x "gPango.ml" 30 1754 1772 "gPango.ml" 30 1754 1791
+)
+"gPango.ml" 30 1754 1782 "gPango.ml" 30 1754 1783
+type(
+  int
+)
+ident(
+  int_ref x "gPango.ml" 30 1754 1770 "gPango.ml" 30 1754 1771
+)
+"gPango.ml" 30 1754 1784 "gPango.ml" 30 1754 1785
+type(
+  int -> int -> Pango.units
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"gPango.ml" 30 1754 1786 "gPango.ml" 30 1754 1791
+type(
+  int
+)
+ident(
+  ext_ref Pango.scale
+)
+"gPango.ml" 30 1754 1782 "gPango.ml" 30 1754 1791
+type(
+  Pango.units
+)
+type(
+  Pango.units
+)
+"gPango.ml" 32 1793 1807 "gPango.ml" 32 1793 1810
+type(
+  Pango.font_metrics
+)
+"gPango.ml" 33 1820 1838 "gPango.ml" 33 1820 1848
+type(
+  Pango.font_metrics -> Pango.units
+)
+ident(
+  ext_ref Pango.Font.get_ascent
+)
+"gPango.ml" 33 1820 1849 "gPango.ml" 33 1820 1852
+type(
+  Pango.font_metrics
+)
+"gPango.ml" 33 1820 1838 "gPango.ml" 33 1820 1852
+type(
+  Pango.units
+)
+type(
+  Pango.units
+)
+"gPango.ml" 34 1853 1872 "gPango.ml" 34 1853 1883
+type(
+  Pango.font_metrics -> Pango.units
+)
+ident(
+  ext_ref Pango.Font.get_descent
+)
+"gPango.ml" 34 1853 1884 "gPango.ml" 34 1853 1887
+type(
+  Pango.font_metrics
+)
+"gPango.ml" 34 1853 1872 "gPango.ml" 34 1853 1887
+type(
+  Pango.units
+)
+type(
+  Pango.units
+)
+"gPango.ml" 35 1888 1917 "gPango.ml" 35 1888 1943
+type(
+  Pango.font_metrics -> Pango.units
+)
+ident(
+  ext_ref Pango.Font.get_approximate_char_width
+)
+"gPango.ml" 35 1888 1944 "gPango.ml" 35 1888 1947
+type(
+  Pango.font_metrics
+)
+"gPango.ml" 35 1888 1917 "gPango.ml" 35 1888 1947
+type(
+  Pango.units
+)
+type(
+  Pango.units
+)
+"gPango.ml" 36 1948 1978 "gPango.ml" 36 1948 2005
+type(
+  Pango.font_metrics -> Pango.units
+)
+ident(
+  ext_ref Pango.Font.get_approximate_digit_width
+)
+"gPango.ml" 36 1948 2006 "gPango.ml" 36 1948 2009
+type(
+  Pango.font_metrics
+)
+"gPango.ml" 36 1948 1978 "gPango.ml" 36 1948 2009
+type(
+  Pango.units
+)
+type(
+  Pango.units
+)
+"gPango.ml" 39 2015 2038 "gPango.ml" 39 2015 2040
+type(
+  Pango.font_description
+)
+"gPango.ml" 40 2050 2064 "gPango.ml" 40 2050 2066
+type(
+  Pango.font_description
+)
+type(
+  Pango.font_description
+)
+"gPango.ml" 41 2067 2083 "gPango.ml" 41 2067 2103
+type(
+  Pango.font_description -> font_description
+)
+"gPango.ml" 41 2067 2105 "gPango.ml" 41 2067 2109
+type(
+  Pango.font_description -> Pango.font_description
+)
+ident(
+  ext_ref Pango.Font.copy
+)
+"gPango.ml" 41 2067 2110 "gPango.ml" 41 2067 2112
+type(
+  Pango.font_description
+)
+"gPango.ml" 41 2067 2104 "gPango.ml" 41 2067 2113
+type(
+  Pango.font_description
+)
+"gPango.ml" 41 2067 2083 "gPango.ml" 41 2067 2113
+call(
+  tail
+)
+type(
+  font_description
+)
+type(
+  font_description
+)
+"gPango.ml" 42 2114 2135 "gPango.ml" 42 2114 2144
+type(
+  Pango.font_description -> string
+)
+ident(
+  ext_ref Pango.Font.to_string
+)
+"gPango.ml" 42 2114 2145 "gPango.ml" 42 2114 2147
+type(
+  Pango.font_description
+)
+"gPango.ml" 42 2114 2135 "gPango.ml" 42 2114 2147
+type(
+  string
+)
+type(
+  string
+)
+"gPango.ml" 43 2148 2166 "gPango.ml" 43 2148 2176
+type(
+  Pango.font_description -> string
+)
+ident(
+  ext_ref Pango.Font.get_family
+)
+"gPango.ml" 43 2148 2177 "gPango.ml" 43 2148 2179
+type(
+  Pango.font_description
+)
+"gPango.ml" 43 2148 2166 "gPango.ml" 43 2148 2179
+type(
+  string
+)
+type(
+  string
+)
+"gPango.ml" 44 2180 2197 "gPango.ml" 44 2180 2206
+type(
+  Pango.font_description -> Pango.Tags.style
+)
+ident(
+  ext_ref Pango.Font.get_style
+)
+"gPango.ml" 44 2180 2207 "gPango.ml" 44 2180 2209
+type(
+  Pango.font_description
+)
+"gPango.ml" 44 2180 2197 "gPango.ml" 44 2180 2209
+type(
+  Pango.Tags.style
+)
+type(
+  Pango.Tags.style
+)
+"gPango.ml" 45 2210 2229 "gPango.ml" 45 2210 2240
+type(
+  Pango.font_description -> Pango.Tags.variant
+)
+ident(
+  ext_ref Pango.Font.get_variant
+)
+"gPango.ml" 45 2210 2241 "gPango.ml" 45 2210 2243
+type(
+  Pango.font_description
+)
+"gPango.ml" 45 2210 2229 "gPango.ml" 45 2210 2243
+type(
+  Pango.Tags.variant
+)
+type(
+  Pango.Tags.variant
+)
+"gPango.ml" 46 2244 2262 "gPango.ml" 46 2244 2272
+type(
+  Pango.font_description -> int
+)
+ident(
+  ext_ref Pango.Font.get_weight
+)
+"gPango.ml" 46 2244 2273 "gPango.ml" 46 2244 2275
+type(
+  Pango.font_description
+)
+"gPango.ml" 46 2244 2262 "gPango.ml" 46 2244 2275
+type(
+  int
+)
+type(
+  int
+)
+"gPango.ml" 47 2276 2295 "gPango.ml" 47 2276 2306
+type(
+  Pango.font_description -> Pango.Tags.stretch
+)
+ident(
+  ext_ref Pango.Font.get_stretch
+)
+"gPango.ml" 47 2276 2307 "gPango.ml" 47 2276 2309
+type(
+  Pango.font_description
+)
+"gPango.ml" 47 2276 2295 "gPango.ml" 47 2276 2309
+type(
+  Pango.Tags.stretch
+)
+type(
+  Pango.Tags.stretch
+)
+"gPango.ml" 48 2310 2326 "gPango.ml" 48 2310 2334
+type(
+  Pango.font_description -> int
+)
+ident(
+  ext_ref Pango.Font.get_size
+)
+"gPango.ml" 48 2310 2335 "gPango.ml" 48 2310 2337
+type(
+  Pango.font_description
+)
+"gPango.ml" 48 2310 2326 "gPango.ml" 48 2310 2337
+type(
+  int
+)
+type(
+  int
+)
+"gPango.ml" 49 2338 2356 "gPango.ml" 49 2338 2362
+type(
+  Pango.font_description ->
+  ?family:string ->
+  ?style:Pango.Tags.style ->
+  ?variant:Pango.Tags.variant ->
+  ?weight:Pango.Tags.weight ->
+  ?stretch:Pango.Tags.stretch -> ?size:int -> unit -> unit
+)
+ident(
+  ext_ref Pango.Font.modify
+)
+"gPango.ml" 49 2338 2363 "gPango.ml" 49 2338 2365
+type(
+  Pango.font_description
+)
+"gPango.ml" 49 2338 2356 "gPango.ml" 49 2338 2365
+call(
+  tail
+)
+type(
+  ?family:string ->
+  ?style:Pango.Tags.style ->
+  ?variant:Pango.Tags.variant ->
+  ?weight:Pango.Tags.weight ->
+  ?stretch:Pango.Tags.stretch -> ?size:int -> unit -> unit
+)
+type(
+  ?family:string ->
+  ?style:Pango.Tags.style ->
+  ?variant:Pango.Tags.variant ->
+  ?weight:Pango.Tags.weight ->
+  ?stretch:Pango.Tags.stretch -> ?size:int -> unit -> unit
+)
+"gPango.ml" 52 2371 2375 "gPango.ml" 52 2371 2391
+type(
+  string -> Pango.font_description
+)
+ident(
+  def font_description "gPango.ml" 54 2407 2407 --
+)
+"gPango.ml" 52 2371 2394 "gPango.ml" 52 2371 2405
+type(
+  string -> Pango.font_description
+)
+ident(
+  ext_ref Pango.Font.from_string
+)
+"gPango.ml" 56 2421 2435 "gPango.ml" 56 2421 2438
+type(
+  Pango.context
+)
+"gPango.ml" 56 2421 2448 "gPango.ml" 56 2421 2454
+type(
+  < as_context : Pango.context; create_layout : Pango.layout;
+    font_description : Pango.font_description; font_name : string;
+    get_metrics : ?desc:Pango.font_description ->
+                  ?lang:string -> unit -> metrics;
+    language : string; load_font : string -> Pango.font;
+    load_fontset : ?desc:Pango.font_description ->
+                   ?lang:string -> unit -> Pango.font;
+    .. >
+)
+"gPango.ml" 57 2455 2467 "gPango.ml" 57 2455 2470
+type(
+  Pango.context
+)
+ident(
+  int_ref obj "gPango.ml" 56 2421 2435 "gPango.ml" 56 2421 2438
+)
+"gPango.ml" 58 2471 2493 "gPango.ml" 58 2471 2496
+type(
+  Pango.context
+)
+type(
+  Pango.context
+)
+"gPango.ml" 59 2497 2525 "gPango.ml" 59 2497 2545
+type(
+  Pango.context -> Pango.font_description
+)
+ident(
+  ext_ref Pango.Context.get_font_description
+)
+"gPango.ml" 59 2497 2546 "gPango.ml" 59 2497 2549
+type(
+  Pango.context
+)
+"gPango.ml" 59 2497 2525 "gPango.ml" 59 2497 2549
+type(
+  Pango.font_description
+)
+type(
+  Pango.font_description
+)
+"gPango.ml" 60 2550 2571 "gPango.ml" 60 2550 2585
+type(
+  Pango.font_description -> string
+)
+ident(
+  ext_ref Pango.Font.to_string
+)
+"gPango.ml" 60 2550 2587 "gPango.ml" 60 2550 2607
+type(
+  Pango.context -> Pango.font_description
+)
+ident(
+  ext_ref Pango.Context.get_font_description
+)
+"gPango.ml" 60 2550 2608 "gPango.ml" 60 2550 2611
+type(
+  Pango.context
+)
+"gPango.ml" 60 2550 2586 "gPango.ml" 60 2550 2612
+type(
+  Pango.font_description
+)
+"gPango.ml" 60 2550 2571 "gPango.ml" 60 2550 2612
+type(
+  string
+)
+type(
+  string
+)
+"gPango.ml" 61 2613 2633 "gPango.ml" 61 2613 2651
+type(
+  Pango.language -> string
+)
+ident(
+  ext_ref Pango.Language.to_string
+)
+"gPango.ml" 61 2613 2653 "gPango.ml" 61 2613 2665
+type(
+  Pango.context -> Pango.language
+)
+ident(
+  ext_ref Pango.Context.get_language
+)
+"gPango.ml" 61 2613 2666 "gPango.ml" 61 2613 2669
+type(
+  Pango.context
+)
+"gPango.ml" 61 2613 2652 "gPango.ml" 61 2613 2670
+type(
+  Pango.language
+)
+"gPango.ml" 61 2613 2633 "gPango.ml" 61 2613 2670
+type(
+  string
+)
+type(
+  string
+)
+"gPango.ml" 62 2671 2690 "gPango.ml" 62 2671 2694
+type(
+  string
+)
+ident(
+  def desc "gPango.ml" 62 2671 2697 "gPango.ml" 62 2671 2734
+)
+"gPango.ml" 62 2671 2697 "gPango.ml" 62 2671 2706
+type(
+  Pango.context -> Pango.font_description -> Pango.font
+)
+ident(
+  ext_ref Pango.Context.load_font
+)
+"gPango.ml" 62 2671 2707 "gPango.ml" 62 2671 2710
+type(
+  Pango.context
+)
+"gPango.ml" 62 2671 2712 "gPango.ml" 62 2671 2728
+type(
+  string -> Pango.font_description
+)
+ident(
+  ext_ref Pango.Font.from_string
+)
+"gPango.ml" 62 2671 2729 "gPango.ml" 62 2671 2733
+type(
+  string
+)
+ident(
+  int_ref desc "gPango.ml" 62 2671 2690 "gPango.ml" 62 2671 2694
+)
+"gPango.ml" 62 2671 2711 "gPango.ml" 62 2671 2734
+type(
+  Pango.font_description
+)
+"gPango.ml" 62 2671 2697 "gPango.ml" 62 2671 2734
+type(
+  Pango.font
+)
+"gPango.ml" 64 2757 2765 "gPango.ml" 64 2757 2769
+type(
+  Pango.font_description
+)
+"gPango.ml" 64 2757 2772 "gPango.ml" 64 2757 2776
+type(
+  < as_context : Pango.context; create_layout : Pango.layout;
+    font_description : Pango.font_description; font_name : string;
+    get_metrics : ?desc:Pango.font_description ->
+                  ?lang:string -> unit -> metrics;
+    language : string; load_font : string -> Pango.font;
+    load_fontset : ?desc:Pango.font_description ->
+                   ?lang:string -> unit -> Pango.font;
+    .. >
+  as 'a
+)
+"gPango.ml" 64 2757 2772 "gPango.ml" 64 2757 2793
+call(
+  stack
+)
+type(
+  Pango.font_description
+)
+type(
+  Pango.font_description
+)
+ident(
+  int_ref *sth* "gPango.ml" 64 2757 2772 "gPango.ml" 64 2757 2793
+)
+type(
+  Pango.font_description option
+)
+type(
+  Pango.font_description option
+)
+type(
+  Pango.font_description
+)
+ident(
+  def *sth* "gPango.ml" 64 2757 2772 "gPango.ml" 64 2757 2793
+)
+"gPango.ml" 64 2757 2797 "gPango.ml" 64 2757 2801
+type(
+  string
+)
+"gPango.ml" 64 2757 2804 "gPango.ml" 64 2757 2808
+type(
+  'a
+)
+"gPango.ml" 64 2757 2804 "gPango.ml" 64 2757 2817
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "gPango.ml" 64 2757 2804 "gPango.ml" 64 2757 2817
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "gPango.ml" 64 2757 2804 "gPango.ml" 64 2757 2817
+)
+"gPango.ml" 64 2757 2819 "gPango.ml" 64 2757 2821
+type(
+  unit
+)
+"gPango.ml" 65 2824 2828 "gPango.ml" 65 2824 2840
+type(
+  Pango.context -> Pango.font_description -> Pango.language -> Pango.font
+)
+ident(
+  ext_ref Pango.Context.load_fontset
+)
+"gPango.ml" 65 2824 2841 "gPango.ml" 65 2824 2844
+type(
+  Pango.context
+)
+"gPango.ml" 65 2824 2845 "gPango.ml" 65 2824 2849
+type(
+  Pango.font_description
+)
+ident(
+  int_ref desc "gPango.ml" 64 2757 2765 "gPango.ml" 64 2757 2769
+)
+"gPango.ml" 65 2824 2851 "gPango.ml" 65 2824 2871
+type(
+  string -> Pango.language
+)
+ident(
+  ext_ref Pango.Language.from_string
+)
+"gPango.ml" 65 2824 2872 "gPango.ml" 65 2824 2876
+type(
+  string
+)
+ident(
+  int_ref lang "gPango.ml" 64 2757 2797 "gPango.ml" 64 2757 2801
+)
+"gPango.ml" 65 2824 2850 "gPango.ml" 65 2824 2877
+type(
+  Pango.language
+)
+"gPango.ml" 65 2824 2828 "gPango.ml" 65 2824 2877
+type(
+  Pango.font
+)
+"gPango.ml" 67 2899 2907 "gPango.ml" 67 2899 2911
+type(
+  Pango.font_description
+)
+"gPango.ml" 67 2899 2914 "gPango.ml" 67 2899 2918
+type(
+  'a
+)
+"gPango.ml" 67 2899 2914 "gPango.ml" 67 2899 2935
+call(
+  stack
+)
+type(
+  Pango.font_description
+)
+type(
+  Pango.font_description
+)
+ident(
+  int_ref *sth* "gPango.ml" 67 2899 2914 "gPango.ml" 67 2899 2935
+)
+type(
+  Pango.font_description option
+)
+type(
+  Pango.font_description option
+)
+type(
+  Pango.font_description
+)
+ident(
+  def *sth* "gPango.ml" 67 2899 2914 "gPango.ml" 67 2899 2935
+)
+"gPango.ml" 67 2899 2939 "gPango.ml" 67 2899 2943
+type(
+  string
+)
+"gPango.ml" 67 2899 2946 "gPango.ml" 67 2899 2950
+type(
+  'a
+)
+"gPango.ml" 67 2899 2946 "gPango.ml" 67 2899 2959
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "gPango.ml" 67 2899 2946 "gPango.ml" 67 2899 2959
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "gPango.ml" 67 2899 2946 "gPango.ml" 67 2899 2959
+)
+"gPango.ml" 67 2899 2961 "gPango.ml" 67 2899 2963
+type(
+  unit
+)
+"gPango.ml" 68 2966 2970 "gPango.ml" 68 2966 2981
+type(
+  Pango.font_metrics -> metrics
+)
+"gPango.ml" 68 2966 2983 "gPango.ml" 68 2966 2994
+type(
+  Pango.context ->
+  Pango.font_description -> Pango.language option -> Pango.font_metrics
+)
+ident(
+  ext_ref Pango.Context.get_metrics
+)
+"gPango.ml" 68 2966 2995 "gPango.ml" 68 2966 2998
+type(
+  Pango.context
+)
+"gPango.ml" 68 2966 2999 "gPango.ml" 68 2966 3003
+type(
+  Pango.font_description
+)
+ident(
+  int_ref desc "gPango.ml" 67 2899 2907 "gPango.ml" 67 2899 2911
+)
+"gPango.ml" 68 2966 3011 "gPango.ml" 68 2966 3031
+type(
+  string -> Pango.language
+)
+ident(
+  ext_ref Pango.Language.from_string
+)
+"gPango.ml" 68 2966 3032 "gPango.ml" 68 2966 3036
+type(
+  string
+)
+ident(
+  int_ref lang "gPango.ml" 67 2899 2939 "gPango.ml" 67 2899 2943
+)
+"gPango.ml" 68 2966 3010 "gPango.ml" 68 2966 3037
+type(
+  Pango.language
+)
+"gPango.ml" 68 2966 3004 "gPango.ml" 68 2966 3038
+type(
+  Pango.language option
+)
+"gPango.ml" 68 2966 2982 "gPango.ml" 68 2966 3039
+type(
+  Pango.font_metrics
+)
+"gPango.ml" 68 2966 2970 "gPango.ml" 68 2966 3039
+call(
+  tail
+)
+type(
+  metrics
+)
+"gPango.ml" 69 3040 3065 "gPango.ml" 69 3040 3078
+type(
+  Pango.context -> Pango.layout
+)
+ident(
+  ext_ref Pango.Layout.create
+)
+"gPango.ml" 69 3040 3079 "gPango.ml" 69 3040 3082
+type(
+  Pango.context
+)
+"gPango.ml" 69 3040 3065 "gPango.ml" 69 3040 3082
+type(
+  Pango.layout
+)
+type(
+  Pango.layout
+)
+"gPango.ml" 72 3088 3105 "gPango.ml" 72 3088 3108
+type(
+  Pango.context
+)
+"gPango.ml" 73 3118 3136 "gPango.ml" 73 3118 3139
+type(
+  Pango.context
+)
+ident(
+  int_ref obj "gPango.ml" 72 3088 3105 "gPango.ml" 72 3088 3108
+)
+"gPango.ml" 74 3140 3170 "gPango.ml" 74 3140 3174
+type(
+  Pango.font_description
+)
+ident(
+  def desc "gPango.ml" 75 3177 3181 "gPango.ml" 75 3177 3210
+)
+"gPango.ml" 75 3177 3181 "gPango.ml" 75 3177 3201
+type(
+  Pango.context -> Pango.font_description -> unit
+)
+ident(
+  ext_ref Pango.Context.set_font_description
+)
+"gPango.ml" 75 3177 3202 "gPango.ml" 75 3177 3205
+type(
+  Pango.context
+)
+"gPango.ml" 75 3177 3206 "gPango.ml" 75 3177 3210
+type(
+  Pango.font_description
+)
+ident(
+  int_ref desc "gPango.ml" 74 3140 3170 "gPango.ml" 74 3140 3174
+)
+"gPango.ml" 75 3177 3181 "gPango.ml" 75 3177 3210
+type(
+  unit
+)
+"gPango.ml" 76 3211 3237 "gPango.ml" 76 3211 3241
+type(
+  string
+)
+ident(
+  def desc "gPango.ml" 77 3244 3248 "gPango.ml" 77 3244 3296
+)
+"gPango.ml" 77 3244 3248 "gPango.ml" 77 3244 3268
+type(
+  Pango.context -> Pango.font_description -> unit
+)
+ident(
+  ext_ref Pango.Context.set_font_description
+)
+"gPango.ml" 77 3244 3269 "gPango.ml" 77 3244 3272
+type(
+  Pango.context
+)
+"gPango.ml" 77 3244 3274 "gPango.ml" 77 3244 3290
+type(
+  string -> Pango.font_description
+)
+ident(
+  ext_ref Pango.Font.from_string
+)
+"gPango.ml" 77 3244 3291 "gPango.ml" 77 3244 3295
+type(
+  string
+)
+ident(
+  int_ref desc "gPango.ml" 76 3211 3237 "gPango.ml" 76 3211 3241
+)
+"gPango.ml" 77 3244 3273 "gPango.ml" 77 3244 3296
+type(
+  Pango.font_description
+)
+"gPango.ml" 77 3244 3248 "gPango.ml" 77 3244 3296
+type(
+  unit
+)
+"gPango.ml" 78 3297 3319 "gPango.ml" 78 3297 3323
+type(
+  string
+)
+ident(
+  def lang "gPango.ml" 78 3297 3326 "gPango.ml" 78 3297 3370
+)
+"gPango.ml" 78 3297 3326 "gPango.ml" 78 3297 3338
+type(
+  Pango.context -> Pango.language -> unit
+)
+ident(
+  ext_ref Pango.Context.set_language
+)
+"gPango.ml" 78 3297 3339 "gPango.ml" 78 3297 3342
+type(
+  Pango.context
+)
+"gPango.ml" 78 3297 3344 "gPango.ml" 78 3297 3364
+type(
+  string -> Pango.language
+)
+ident(
+  ext_ref Pango.Language.from_string
+)
+"gPango.ml" 78 3297 3365 "gPango.ml" 78 3297 3369
+type(
+  string
+)
+ident(
+  int_ref lang "gPango.ml" 78 3297 3319 "gPango.ml" 78 3297 3323
+)
+"gPango.ml" 78 3297 3343 "gPango.ml" 78 3297 3370
+type(
+  Pango.language
+)
+"gPango.ml" 78 3297 3326 "gPango.ml" 78 3297 3370
+type(
+  unit
+)

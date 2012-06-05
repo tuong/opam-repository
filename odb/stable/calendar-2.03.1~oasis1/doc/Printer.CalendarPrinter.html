@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Printer.Calendar.html">
+<link rel="next" href="Printer.Precise_Fcalendar.html">
+<link rel="Up" href="Printer.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Utils" rel="Chapter" href="Utils.html">
+<link title="Time_Zone" rel="Chapter" href="Time_Zone.html">
+<link title="Period" rel="Chapter" href="Period.html">
+<link title="Time_sig" rel="Chapter" href="Time_sig.html">
+<link title="Time" rel="Chapter" href="Time.html">
+<link title="Ftime" rel="Chapter" href="Ftime.html">
+<link title="Date_sig" rel="Chapter" href="Date_sig.html">
+<link title="Date" rel="Chapter" href="Date.html">
+<link title="Calendar_sig" rel="Chapter" href="Calendar_sig.html">
+<link title="Calendar_builder" rel="Chapter" href="Calendar_builder.html">
+<link title="Calendar" rel="Chapter" href="Calendar.html">
+<link title="Fcalendar" rel="Chapter" href="Fcalendar.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Version" rel="Chapter" href="Version.html"><link title="Parsers from string" rel="Section" href="#3_Parsersfromstring">
+<title>Printer.CalendarPrinter</title>
+</head>
+<body>
+<div class="navbar"><a href="Printer.Calendar.html">Previous</a>
+&nbsp;<a href="Printer.html">Up</a>
+&nbsp;<a href="Printer.Precise_Fcalendar.html">Next</a>
+</div>
+<center><h1>Module <a href="type_Printer.CalendarPrinter.html">Printer.CalendarPrinter</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> CalendarPrinter: <code class="type"><a href="Printer.S.html">S</a></code><code class="type">  with type t = Calendar.t</code></pre><span class="warning">Deprecated.</span>Replaced by <a href="Printer.Calendar.html"><code class="code"><span class="constructor">Printer</span>.<span class="constructor">Calendar</span></code></a>.<br>
+<hr width="100%">
+<pre><span id="TYPEt"><span class="keyword">type</span> <code class="type"></code>t</span> </pre>
+<div class="info">
+Generic type of a printer.<br>
+</div>
+
+<pre><span id="VALfprint"><span class="keyword">val</span> fprint</span> : <code class="type">string -> Format.formatter -> <a href="Printer.S.html#TYPEt">t</a> -> unit</code></pre><div class="info">
+<code class="code">fprint format formatter x</code> outputs <code class="code">x</code> on <code class="code">formatter</code> according to
+	the specified <code class="code">format</code>.<br>
+<b>Raises</b> <code>Invalid_argument</code> if the format is incorrect.<br>
+</div>
+<pre><span id="VALprint"><span class="keyword">val</span> print</span> : <code class="type">string -> <a href="Printer.S.html#TYPEt">t</a> -> unit</code></pre><div class="info">
+<code class="code">print format</code> is equivalent to <code class="code">fprint format <span class="constructor">Format</span>.std_formatter</code><br>
+</div>
+<pre><span id="VALdprint"><span class="keyword">val</span> dprint</span> : <code class="type"><a href="Printer.S.html#TYPEt">t</a> -> unit</code></pre><div class="info">
+Same as <code class="code">print d</code> where <code class="code">d</code> is the default format
+	(see the printer implementations).<br>
+</div>
+<pre><span id="VALsprint"><span class="keyword">val</span> sprint</span> : <code class="type">string -> <a href="Printer.S.html#TYPEt">t</a> -> string</code></pre><div class="info">
+<code class="code">sprint format date</code> converts <code class="code">date</code> to a string according to
+	<code class="code">format</code>.<br>
+</div>
+<pre><span id="VALto_string"><span class="keyword">val</span> to_string</span> : <code class="type"><a href="Printer.S.html#TYPEt">t</a> -> string</code></pre><div class="info">
+Same as <code class="code">sprint d</code> where <code class="code">d</code> is the default format
+	(see the printer implementations).<br>
+</div>
+<br>
+<span id="3_Parsersfromstring"><h3>Parsers from string</h3></span><br>
+<pre><span id="VALfrom_fstring"><span class="keyword">val</span> from_fstring</span> : <code class="type">string -> string -> <a href="Printer.S.html#TYPEt">t</a></code></pre><div class="info">
+<code class="code">from_fstring format s</code> converts <code class="code">s</code> to a date according to <code class="code">format</code>.
+<p>
+
+      Date padding (i.e. a special directive following <code class="code"><span class="string">'%'</span></code>) and
+      specifiers <code class="code">%e</code>, <code class="code">%k</code> and <code class="code">%l</code> are not recognized. Specifiers
+      <code class="code">%a</code>, <code class="code">%<span class="constructor">A</span></code>, <code class="code">%j</code>, <code class="code">%v</code>, <code class="code">%w</code> and <code class="code">%<span class="constructor">W</span></code> are recognized but mainly ignored:
+      only the validity of the format is checked.
+<p>
+
+      In order to recognize words (used by <code class="code">%a</code>, <code class="code">%<span class="constructor">A</span></code>, <code class="code">%b</code>, <code class="code">%<span class="constructor">B</span></code> and <code class="code">%p</code>), a
+      regular expression is used which can be configured by
+      <a href="Printer.html#VALset_word_regexp"><code class="code"><span class="constructor">Printer</span>.set_word_regexp</code></a>. When the format has only two digits for the
+      year number, 1900 are added to this number (see examples).<br>
+<b>Raises</b> <code>Invalid_argument</code> if either the format is incorrect or the string
+      does not match the format or the event cannot be created (e.g. if you do
+      not specify a year for a date).<br>
+<b>Examples:</b><ul><li><code class="code">from_fstring <span class="string">"the date is %B, the %dth %Y"</span> <span class="string">"the date is May,
+      the 14th 2007"</span></code> returns a date equivalent to <code class="code"><span class="constructor">Date</span>.make 2007 5 14</code> (with
+      default internationalization).<br>
+</li><li><code class="code">from_fstring <span class="string">"the date is %D"</span> <span class="string">"the date is 01/06/03"</span></code>
+      returns a date equivalent to <code class="code"><span class="constructor">Date</span>.make 1903 1 6</code><br>
+</li></ul></div>
+<pre><span id="VALfrom_string"><span class="keyword">val</span> from_string</span> : <code class="type">string -> <a href="Printer.S.html#TYPEt">t</a></code></pre><div class="info">
+Same as <code class="code">from_fstring d</code> where <code class="code">d</code> is the default format.<br>
+</div>
+</body></html>

@@ -1,0 +1,137 @@
+.PHONY: all install clean
+
+OCAMLPACKAGEFLAGS=
+
+# BYTE_ENABLED= true
+
+OCAMLINCLUDES += ../lib ocaml/utils ocaml/parsing
+
+OCAMLFLAGS    += -annot -w Ae
+OCAMLCFLAGS   +=
+OCAMLOPTFLAGS += 
+OCAML_LINK_FLAGS += 
+OCAML_BYTE_LINK_FLAGS +=
+OCAML_NATIVE_LINK_FLAGS +=
+
+CAMLP4PACKS[]=
+    monad-custom
+
+OCAMLPACKS[]= 
+    spotlib
+    sexplib
+
+# camlp4o ../pa_monad_custom/pa_monad.cmo ../pa_bind_inline/pa_bind_inline.cmo lex.ml
+%.out.ml: %.ml ../../pa_monad_custom/pa_monad.cmo ../pa_bind_inline/pa_bind_inline.cmo
+	camlp4o -printer OCaml ../../pa_monad_custom/pa_monad.cmo ../pa_bind_inline/pa_bind_inline.cmo $< > $@
+
+OCAMLDEPFLAGS= -syntax camlp4o -package sexplib.syntax,monad-custom -ppopt ../pa_bind_inline/pa_bind_inline.cmo
+OCAMLPPFLAGS= -syntax camlp4o -package sexplib.syntax,monad-custom -ppopt ../pa_bind_inline/pa_bind_inline.cmo
+# OCAMLDEPFLAGS= -syntax camlp4o -package sexplib.syntax,monad
+# OCAMLPPFLAGS= -syntax camlp4o -package sexplib.syntax,monad
+
+FILES[] = 
+   ../lib/planck
+   input
+   token
+   lex
+   yacc
+   ocamlyacc
+   ocamlyacctest
+
+# MyOCamlProgram(hamkl, $(FILES))
+
+FILES0[] =
+   ../lib/planck
+   input
+   token
+   lex
+   lextest
+
+if $(file-exists ocaml/VERSION)
+   MyOCamlProgram(lexer, $(FILES0))
+   export
+
+FILES1[] =
+   ../lib/planck
+   input
+   token
+   lex
+   tokentest
+
+if $(file-exists ocaml/VERSION)
+   MyOCamlProgram(token, $(FILES1))
+   export
+
+FILES2[] =
+   ../lib/planck
+   input
+   token
+   lex
+   ocaml/utils/misc
+   ocaml/utils/config
+   ocaml/utils/clflags
+   ocaml/utils/warnings
+   ocaml/utils/terminfo
+
+   ocaml/parsing/linenum
+   ocaml/parsing/location
+   ocaml/parsing/syntaxerr
+   ocaml/parsing/lexer
+   ocaml/parsing/longident
+   ocaml/parsing/parser
+   ocaml/parsing/parse
+
+   xlocation
+   xparsetree
+   plphelper
+   plparser
+   parsertest
+
+if $(file-exists ocaml/VERSION)
+   MyOCamlProgram(parser, $(FILES2))
+   export
+
+FILES3[] =
+   ../lib/planck
+   input
+   token
+   lex
+
+   ocaml/utils/misc
+   ocaml/utils/config
+   ocaml/utils/clflags
+   ocaml/utils/warnings
+   ocaml/utils/terminfo
+
+   ocaml/parsing/linenum
+   ocaml/parsing/location
+   ocaml/parsing/syntaxerr
+   ocaml/parsing/lexer
+   ocaml/parsing/longident
+   ocaml/parsing/parser
+   ocaml/parsing/parse
+
+   lexertest
+
+if $(file-exists ocaml/VERSION)
+   MyOCamlProgram(lexertest, $(FILES3))
+   export
+
+plparser.auto.ml: hamkl.opt ../ocaml/parsing/parser.mly
+    ./hamkl.opt ../ocaml/parsing/parser.mly > $@
+
+OCAML_LIBS +=
+OCAML_CLIBS +=
+OCAML_OTHER_LIBS +=
+OCAML_LIB_FLAGS +=
+
+.PHONY: test test2
+
+test: parser
+    $(shell bash -c 'for i in test*.ml test*.mli; do ./parser $$i; done') 
+
+test2: parser
+    $(shell bash -c 'for i in test*.ml test*.mli; do ./lexertest $$i; done') 
+
+diff.txt: plparser.auto.ml
+    diff -c plparser.auto.ml plparser.ml  > diff.txt

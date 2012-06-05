@@ -1,0 +1,1223 @@
+"ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  def set "ogtkActionProps.ml" 5 52 52 --
+)
+"ogtkActionProps.ml" 4 38 48 "ogtkActionProps.ml" 4 38 51
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  def get "ogtkActionProps.ml" 6 66 66 --
+)
+"ogtkActionProps.ml" 5 52 62 "ogtkActionProps.ml" 5 52 65
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  ext_ref Gobject.get
+)
+"ogtkActionProps.ml" 6 66 70 "ogtkActionProps.ml" 6 66 75
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  def param "ogtkActionProps.ml" 7 84 84 --
+)
+"ogtkActionProps.ml" 6 66 78 "ogtkActionProps.ml" 6 66 83
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"ogtkActionProps.ml" 11 167 196 "ogtkActionProps.ml" 11 167 199
+type(
+  ([> `action ] as 'a, bool) Gobject.property ->
+  'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 11 167 200 "ogtkActionProps.ml" 11 167 222
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.hide_if_empty
+)
+"ogtkActionProps.ml" 11 167 223 "ogtkActionProps.ml" 11 167 226
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 11 167 196 "ogtkActionProps.ml" 11 167 226
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkActionProps.ml" 12 227 255 "ogtkActionProps.ml" 12 227 258
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 12 227 259 "ogtkActionProps.ml" 12 227 280
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.is_important
+)
+"ogtkActionProps.ml" 12 227 281 "ogtkActionProps.ml" 12 227 284
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 12 227 255 "ogtkActionProps.ml" 12 227 284
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkActionProps.ml" 13 285 306 "ogtkActionProps.ml" 13 285 309
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 13 285 310 "ogtkActionProps.ml" 13 285 324
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.label
+)
+"ogtkActionProps.ml" 13 285 325 "ogtkActionProps.ml" 13 285 328
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 13 285 306 "ogtkActionProps.ml" 13 285 328
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkActionProps.ml" 14 329 354 "ogtkActionProps.ml" 14 329 357
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 14 329 358 "ogtkActionProps.ml" 14 329 376
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.icon_name
+)
+"ogtkActionProps.ml" 14 329 377 "ogtkActionProps.ml" 14 329 380
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 14 329 354 "ogtkActionProps.ml" 14 329 380
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkActionProps.ml" 15 381 406 "ogtkActionProps.ml" 15 381 409
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 15 381 410 "ogtkActionProps.ml" 15 381 428
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.sensitive
+)
+"ogtkActionProps.ml" 15 381 429 "ogtkActionProps.ml" 15 381 432
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 15 381 406 "ogtkActionProps.ml" 15 381 432
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkActionProps.ml" 16 433 460 "ogtkActionProps.ml" 16 433 463
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 16 433 464 "ogtkActionProps.ml" 16 433 484
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.short_label
+)
+"ogtkActionProps.ml" 16 433 485 "ogtkActionProps.ml" 16 433 488
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 16 433 460 "ogtkActionProps.ml" 16 433 488
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkActionProps.ml" 17 489 513 "ogtkActionProps.ml" 17 489 516
+type(
+  ('a, GtkStock.id) Gobject.property -> 'a Gobject.obj -> GtkStock.id -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 17 489 517 "ogtkActionProps.ml" 17 489 534
+type(
+  ('a, GtkStock.id) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.stock_id
+)
+"ogtkActionProps.ml" 17 489 535 "ogtkActionProps.ml" 17 489 538
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 17 489 513 "ogtkActionProps.ml" 17 489 538
+call(
+  tail
+)
+type(
+  GtkStock.id -> unit
+)
+type(
+  GtkStock.id -> unit
+)
+"ogtkActionProps.ml" 18 539 562 "ogtkActionProps.ml" 18 539 565
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 18 539 566 "ogtkActionProps.ml" 18 539 582
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.tooltip
+)
+"ogtkActionProps.ml" 18 539 583 "ogtkActionProps.ml" 18 539 586
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 18 539 562 "ogtkActionProps.ml" 18 539 586
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkActionProps.ml" 19 587 610 "ogtkActionProps.ml" 19 587 613
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 19 587 614 "ogtkActionProps.ml" 19 587 630
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.visible
+)
+"ogtkActionProps.ml" 19 587 631 "ogtkActionProps.ml" 19 587 634
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 19 587 610 "ogtkActionProps.ml" 19 587 634
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkActionProps.ml" 20 635 669 "ogtkActionProps.ml" 20 635 672
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 20 635 673 "ogtkActionProps.ml" 20 635 700
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.visible_horizontal
+)
+"ogtkActionProps.ml" 20 635 701 "ogtkActionProps.ml" 20 635 704
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 20 635 669 "ogtkActionProps.ml" 20 635 704
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkActionProps.ml" 21 705 737 "ogtkActionProps.ml" 21 705 740
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 21 705 741 "ogtkActionProps.ml" 21 705 766
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.visible_vertical
+)
+"ogtkActionProps.ml" 21 705 767 "ogtkActionProps.ml" 21 705 770
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 21 705 737 "ogtkActionProps.ml" 21 705 770
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkActionProps.ml" 22 771 796 "ogtkActionProps.ml" 22 771 799
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 22 771 800 "ogtkActionProps.ml" 22 771 822
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.hide_if_empty
+)
+"ogtkActionProps.ml" 22 771 823 "ogtkActionProps.ml" 22 771 826
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 22 771 796 "ogtkActionProps.ml" 22 771 826
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkActionProps.ml" 23 827 851 "ogtkActionProps.ml" 23 827 854
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 23 827 855 "ogtkActionProps.ml" 23 827 876
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.is_important
+)
+"ogtkActionProps.ml" 23 827 877 "ogtkActionProps.ml" 23 827 880
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 23 827 851 "ogtkActionProps.ml" 23 827 880
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkActionProps.ml" 24 881 898 "ogtkActionProps.ml" 24 881 901
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 24 881 902 "ogtkActionProps.ml" 24 881 916
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.label
+)
+"ogtkActionProps.ml" 24 881 917 "ogtkActionProps.ml" 24 881 920
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 24 881 898 "ogtkActionProps.ml" 24 881 920
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkActionProps.ml" 25 921 942 "ogtkActionProps.ml" 25 921 945
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 25 921 946 "ogtkActionProps.ml" 25 921 964
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.icon_name
+)
+"ogtkActionProps.ml" 25 921 965 "ogtkActionProps.ml" 25 921 968
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 25 921 942 "ogtkActionProps.ml" 25 921 968
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkActionProps.ml" 26 969 985 "ogtkActionProps.ml" 26 969 988
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 26 969 989 "ogtkActionProps.ml" 26 969 1002
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.name
+)
+"ogtkActionProps.ml" 26 969 1003 "ogtkActionProps.ml" 26 969 1006
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 26 969 985 "ogtkActionProps.ml" 26 969 1006
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkActionProps.ml" 27 1007 1028 "ogtkActionProps.ml" 27 1007 1031
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 27 1007 1032 "ogtkActionProps.ml" 27 1007 1050
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.sensitive
+)
+"ogtkActionProps.ml" 27 1007 1051 "ogtkActionProps.ml" 27 1007 1054
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 27 1007 1028 "ogtkActionProps.ml" 27 1007 1054
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkActionProps.ml" 28 1055 1078 "ogtkActionProps.ml" 28 1055 1081
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 28 1055 1082 "ogtkActionProps.ml" 28 1055 1102
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.short_label
+)
+"ogtkActionProps.ml" 28 1055 1103 "ogtkActionProps.ml" 28 1055 1106
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 28 1055 1078 "ogtkActionProps.ml" 28 1055 1106
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkActionProps.ml" 29 1107 1127 "ogtkActionProps.ml" 29 1107 1130
+type(
+  ('a, GtkStock.id) Gobject.property -> 'a Gobject.obj -> GtkStock.id
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 29 1107 1131 "ogtkActionProps.ml" 29 1107 1148
+type(
+  ('a, GtkStock.id) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.stock_id
+)
+"ogtkActionProps.ml" 29 1107 1149 "ogtkActionProps.ml" 29 1107 1152
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 29 1107 1127 "ogtkActionProps.ml" 29 1107 1152
+call(
+  tail
+)
+type(
+  GtkStock.id
+)
+type(
+  GtkStock.id
+)
+"ogtkActionProps.ml" 30 1153 1172 "ogtkActionProps.ml" 30 1153 1175
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 30 1153 1176 "ogtkActionProps.ml" 30 1153 1192
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.tooltip
+)
+"ogtkActionProps.ml" 30 1153 1193 "ogtkActionProps.ml" 30 1153 1196
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 30 1153 1172 "ogtkActionProps.ml" 30 1153 1196
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkActionProps.ml" 31 1197 1216 "ogtkActionProps.ml" 31 1197 1219
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 31 1197 1220 "ogtkActionProps.ml" 31 1197 1236
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.visible
+)
+"ogtkActionProps.ml" 31 1197 1237 "ogtkActionProps.ml" 31 1197 1240
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 31 1197 1216 "ogtkActionProps.ml" 31 1197 1240
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkActionProps.ml" 32 1241 1271 "ogtkActionProps.ml" 32 1241 1274
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 32 1241 1275 "ogtkActionProps.ml" 32 1241 1302
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.visible_horizontal
+)
+"ogtkActionProps.ml" 32 1241 1303 "ogtkActionProps.ml" 32 1241 1306
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 32 1241 1271 "ogtkActionProps.ml" 32 1241 1306
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkActionProps.ml" 33 1307 1335 "ogtkActionProps.ml" 33 1307 1338
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 33 1307 1339 "ogtkActionProps.ml" 33 1307 1364
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.Action.P.visible_vertical
+)
+"ogtkActionProps.ml" 33 1307 1365 "ogtkActionProps.ml" 33 1307 1368
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 33 1307 1335 "ogtkActionProps.ml" 33 1307 1368
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkActionProps.ml" 36 1374 1409 "ogtkActionProps.ml" 36 1374 1415
+type(
+  < activate : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkActionProps.ml" 39 1510 1530 "ogtkActionProps.ml" 39 1510 1534
+type(
+  < activate : callback:(unit -> unit) -> GtkSignal.id; .. > as 'a
+)
+"ogtkActionProps.ml" 39 1510 1530 "ogtkActionProps.ml" 39 1510 1542
+call(
+  tail
+)
+type(
+  ([> `action ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkActionProps.ml" 39 1510 1543 "ogtkActionProps.ml" 39 1510 1560
+type(
+  ([> `action ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkActionProps.Action.S.activate
+)
+"ogtkActionProps.ml" 39 1510 1530 "ogtkActionProps.ml" 39 1510 1560
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkActionProps.ml" 44 1635 1664 "ogtkActionProps.ml" 44 1635 1667
+type(
+  ([> `toggleaction ] as 'a, bool) Gobject.property ->
+  'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 44 1635 1668 "ogtkActionProps.ml" 44 1635 1696
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.ToggleAction.P.draw_as_radio
+)
+"ogtkActionProps.ml" 44 1635 1697 "ogtkActionProps.ml" 44 1635 1700
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 44 1635 1664 "ogtkActionProps.ml" 44 1635 1700
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkActionProps.ml" 45 1701 1726 "ogtkActionProps.ml" 45 1701 1729
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 45 1701 1730 "ogtkActionProps.ml" 45 1701 1758
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.ToggleAction.P.draw_as_radio
+)
+"ogtkActionProps.ml" 45 1701 1759 "ogtkActionProps.ml" 45 1701 1762
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 45 1701 1726 "ogtkActionProps.ml" 45 1701 1762
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkActionProps.ml" 48 1768 1810 "ogtkActionProps.ml" 48 1768 1816
+type(
+  < toggled : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkActionProps.ml" 51 1911 1930 "ogtkActionProps.ml" 51 1911 1934
+type(
+  < toggled : callback:(unit -> unit) -> GtkSignal.id; .. > as 'a
+)
+"ogtkActionProps.ml" 51 1911 1930 "ogtkActionProps.ml" 51 1911 1942
+call(
+  tail
+)
+type(
+  ([> `toggleaction ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkActionProps.ml" 51 1911 1943 "ogtkActionProps.ml" 51 1911 1965
+type(
+  ([> `toggleaction ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkActionProps.ToggleAction.S.toggled
+)
+"ogtkActionProps.ml" 51 1911 1930 "ogtkActionProps.ml" 51 1911 1965
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkActionProps.ml" 56 2039 2060 "ogtkActionProps.ml" 56 2039 2063
+type(
+  ([> `radioaction ] as 'a, Gtk.radio_action Gobject.obj option)
+  Gobject.property ->
+  'a Gobject.obj -> Gtk.radio_action Gobject.obj option -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 56 2039 2064 "ogtkActionProps.ml" 56 2039 2083
+type(
+  ('a, Gtk.radio_action Gobject.obj option) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.RadioAction.P.group
+)
+"ogtkActionProps.ml" 56 2039 2084 "ogtkActionProps.ml" 56 2039 2087
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 56 2039 2060 "ogtkActionProps.ml" 56 2039 2087
+call(
+  tail
+)
+type(
+  Gtk.radio_action Gobject.obj option -> unit
+)
+type(
+  Gtk.radio_action Gobject.obj option -> unit
+)
+"ogtkActionProps.ml" 57 2088 2109 "ogtkActionProps.ml" 57 2088 2112
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 57 2088 2113 "ogtkActionProps.ml" 57 2088 2132
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.RadioAction.P.value
+)
+"ogtkActionProps.ml" 57 2088 2133 "ogtkActionProps.ml" 57 2088 2136
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 57 2088 2109 "ogtkActionProps.ml" 57 2088 2136
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkActionProps.ml" 58 2137 2154 "ogtkActionProps.ml" 58 2137 2157
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 58 2137 2158 "ogtkActionProps.ml" 58 2137 2177
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.RadioAction.P.value
+)
+"ogtkActionProps.ml" 58 2137 2178 "ogtkActionProps.ml" 58 2137 2181
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 58 2137 2154 "ogtkActionProps.ml" 58 2137 2181
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkActionProps.ml" 63 2253 2281 "ogtkActionProps.ml" 63 2253 2284
+type(
+  ([> `uimanager ] as 'a, bool) Gobject.property ->
+  'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 63 2253 2285 "ogtkActionProps.ml" 63 2253 2309
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.UIManager.P.add_tearoffs
+)
+"ogtkActionProps.ml" 63 2253 2310 "ogtkActionProps.ml" 63 2253 2313
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 63 2253 2281 "ogtkActionProps.ml" 63 2253 2313
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkActionProps.ml" 64 2314 2338 "ogtkActionProps.ml" 64 2314 2341
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 64 2314 2342 "ogtkActionProps.ml" 64 2314 2366
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.UIManager.P.add_tearoffs
+)
+"ogtkActionProps.ml" 64 2314 2367 "ogtkActionProps.ml" 64 2314 2370
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 64 2314 2338 "ogtkActionProps.ml" 64 2314 2370
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkActionProps.ml" 65 2371 2385 "ogtkActionProps.ml" 65 2371 2388
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 65 2371 2389 "ogtkActionProps.ml" 65 2371 2403
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.UIManager.P.ui
+)
+"ogtkActionProps.ml" 65 2371 2404 "ogtkActionProps.ml" 65 2371 2407
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 65 2371 2385 "ogtkActionProps.ml" 65 2371 2407
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkActionProps.ml" 68 2413 2452 "ogtkActionProps.ml" 68 2413 2458
+type(
+  < actions_changed : callback:(unit -> unit) -> GtkSignal.id;
+    add_widget : callback:(GObj.widget -> unit) -> GtkSignal.id; .. >
+)
+"ogtkActionProps.ml" 71 2553 2580 "ogtkActionProps.ml" 71 2553 2584
+type(
+  < actions_changed : callback:(unit -> unit) -> GtkSignal.id;
+    add_widget : callback:(GObj.widget -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkActionProps.ml" 71 2553 2580 "ogtkActionProps.ml" 71 2553 2592
+call(
+  tail
+)
+type(
+  ([> `uimanager ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkActionProps.ml" 71 2553 2593 "ogtkActionProps.ml" 71 2553 2620
+type(
+  ([> `uimanager ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkActionProps.UIManager.S.actions_changed
+)
+"ogtkActionProps.ml" 71 2553 2580 "ogtkActionProps.ml" 71 2553 2620
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkActionProps.ml" 72 2621 2643 "ogtkActionProps.ml" 72 2621 2647
+type(
+  'a
+)
+"ogtkActionProps.ml" 72 2621 2643 "ogtkActionProps.ml" 72 2621 2655
+call(
+  tail
+)
+type(
+  ('b, GObj.widget -> unit) GtkSignal.t ->
+  callback:(GObj.widget -> unit) -> GtkSignal.id
+)
+"ogtkActionProps.ml" 73 2656 2661 "ogtkActionProps.ml" 73 2656 2683
+type(
+  ('b, Gtk.widget Gobject.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkActionProps.UIManager.S.add_widget
+)
+"ogtkActionProps.ml" 73 2656 2706 "ogtkActionProps.ml" 73 2656 2707
+type(
+  GObj.widget -> unit
+)
+ident(
+  def f "ogtkActionProps.ml" 74 2711 2716 "ogtkActionProps.ml" 74 2711 2770
+)
+"ogtkActionProps.ml" 74 2711 2716 "ogtkActionProps.ml" 74 2711 2724
+type(
+  GObj.widget Gobject.data_conv ->
+  string -> (GObj.widget -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"ogtkActionProps.ml" 74 2711 2725 "ogtkActionProps.ml" 74 2711 2741
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkActionProps.ml" 74 2711 2742 "ogtkActionProps.ml" 74 2711 2768
+type(
+  string
+)
+"ogtkActionProps.ml" 74 2711 2769 "ogtkActionProps.ml" 74 2711 2770
+type(
+  GObj.widget -> unit
+)
+ident(
+  int_ref f "ogtkActionProps.ml" 73 2656 2706 "ogtkActionProps.ml" 73 2656 2707
+)
+"ogtkActionProps.ml" 74 2711 2716 "ogtkActionProps.ml" 74 2711 2770
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"ogtkActionProps.ml" 73 2656 2702 "ogtkActionProps.ml" 74 2711 2770
+type(
+  (GObj.widget -> unit) -> Gobject.Closure.argv -> unit
+)
+"ogtkActionProps.ml" 73 2656 2660 "ogtkActionProps.ml" 74 2711 2771
+type(
+  ('b, GObj.widget -> unit) GtkSignal.t
+)
+"ogtkActionProps.ml" 72 2621 2643 "ogtkActionProps.ml" 74 2711 2771
+type(
+  callback:(GObj.widget -> unit) -> GtkSignal.id
+)
+type(
+  callback:(GObj.widget -> unit) -> GtkSignal.id
+)
+"ogtkActionProps.ml" 79 2845 2870 "ogtkActionProps.ml" 79 2845 2873
+type(
+  ([> `actiongroup ] as 'a, bool) Gobject.property ->
+  'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 79 2845 2874 "ogtkActionProps.ml" 79 2845 2897
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.ActionGroup.P.sensitive
+)
+"ogtkActionProps.ml" 79 2845 2898 "ogtkActionProps.ml" 79 2845 2901
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 79 2845 2870 "ogtkActionProps.ml" 79 2845 2901
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkActionProps.ml" 80 2902 2925 "ogtkActionProps.ml" 80 2902 2928
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkActionProps.ml" 4 38 42 "ogtkActionProps.ml" 4 38 45
+)
+"ogtkActionProps.ml" 80 2902 2929 "ogtkActionProps.ml" 80 2902 2950
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.ActionGroup.P.visible
+)
+"ogtkActionProps.ml" 80 2902 2951 "ogtkActionProps.ml" 80 2902 2954
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 80 2902 2925 "ogtkActionProps.ml" 80 2902 2954
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkActionProps.ml" 81 2955 2971 "ogtkActionProps.ml" 81 2955 2974
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 81 2955 2975 "ogtkActionProps.ml" 81 2955 2993
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.ActionGroup.P.name
+)
+"ogtkActionProps.ml" 81 2955 2994 "ogtkActionProps.ml" 81 2955 2997
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 81 2955 2971 "ogtkActionProps.ml" 81 2955 2997
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkActionProps.ml" 82 2998 3019 "ogtkActionProps.ml" 82 2998 3022
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 82 2998 3023 "ogtkActionProps.ml" 82 2998 3046
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.ActionGroup.P.sensitive
+)
+"ogtkActionProps.ml" 82 2998 3047 "ogtkActionProps.ml" 82 2998 3050
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 82 2998 3019 "ogtkActionProps.ml" 82 2998 3050
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkActionProps.ml" 83 3051 3070 "ogtkActionProps.ml" 83 3051 3073
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkActionProps.ml" 5 52 56 "ogtkActionProps.ml" 5 52 59
+)
+"ogtkActionProps.ml" 83 3051 3074 "ogtkActionProps.ml" 83 3051 3095
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkActionProps.ActionGroup.P.visible
+)
+"ogtkActionProps.ml" 83 3051 3096 "ogtkActionProps.ml" 83 3051 3099
+type(
+  'a Gobject.obj
+)
+"ogtkActionProps.ml" 83 3051 3070 "ogtkActionProps.ml" 83 3051 3099
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)

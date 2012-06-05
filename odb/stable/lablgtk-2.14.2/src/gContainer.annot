@@ -1,0 +1,1198 @@
+"gContainer.ml" 36 1798 1810 "gContainer.ml" 36 1798 1813
+type(
+  [> `container ] Gtk.obj
+)
+"gContainer.ml" 37 1823 1835 "gContainer.ml" 37 1823 1838
+type(
+  ([> `container ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gContainer.ml" 36 1798 1810 "gContainer.ml" 36 1798 1813
+)
+"gContainer.ml" 39 1876 1890 "gContainer.ml" 39 1876 1895
+type(
+  GObj.widget option
+)
+ident(
+  def child "gContainer.ml" 40 1915 1919 "gContainer.ml" 41 1974 2023
+)
+"gContainer.ml" 40 1915 1923 "gContainer.ml" 40 1915 1928
+type(
+  Gtk.widget Gtk.obj option
+)
+"gContainer.ml" 40 1915 1931 "gContainer.ml" 40 1915 1938
+type(
+  f:(GObj.widget -> Gtk.widget Gtk.obj) ->
+  GObj.widget option -> Gtk.widget Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gContainer.ml" 40 1915 1939 "gContainer.ml" 40 1915 1944
+type(
+  GObj.widget option
+)
+ident(
+  int_ref child "gContainer.ml" 39 1876 1890 "gContainer.ml" 39 1876 1895
+)
+"gContainer.ml" 40 1915 1953 "gContainer.ml" 40 1915 1954
+type(
+  GObj.widget
+)
+ident(
+  def x "gContainer.ml" 40 1915 1958 "gContainer.ml" 40 1915 1969
+)
+"gContainer.ml" 40 1915 1958 "gContainer.ml" 40 1915 1959
+type(
+  GObj.widget
+)
+ident(
+  int_ref x "gContainer.ml" 40 1915 1953 "gContainer.ml" 40 1915 1954
+)
+"gContainer.ml" 40 1915 1958 "gContainer.ml" 40 1915 1969
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gContainer.ml" 40 1915 1948 "gContainer.ml" 40 1915 1970
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+"gContainer.ml" 40 1915 1931 "gContainer.ml" 40 1915 1970
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj option
+)
+"gContainer.ml" 41 1974 1978 "gContainer.ml" 41 1974 1993
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.optobj -> unit
+)
+ident(
+  ext_ref GtkBase.Container.set_focus_child
+)
+"gContainer.ml" 41 1974 1994 "gContainer.ml" 41 1974 1997
+type(
+  'a Gtk.obj
+)
+"gContainer.ml" 41 1974 1999 "gContainer.ml" 41 1974 2016
+type(
+  Gtk.widget Gtk.obj option -> Gtk.widget Gtk.optobj
+)
+ident(
+  ext_ref Gpointer.optboxed
+)
+"gContainer.ml" 41 1974 2017 "gContainer.ml" 41 1974 2022
+type(
+  Gtk.widget Gtk.obj option
+)
+ident(
+  int_ref child "gContainer.ml" 40 1915 1923 "gContainer.ml" 40 1915 1928
+)
+"gContainer.ml" 41 1974 1998 "gContainer.ml" 41 1974 2023
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.optobj
+)
+"gContainer.ml" 41 1974 1978 "gContainer.ml" 41 1974 2023
+type(
+  unit
+)
+"gContainer.ml" 40 1915 1919 "gContainer.ml" 41 1974 2023
+type(
+  unit
+)
+"gContainer.ml" 42 2024 2049 "gContainer.ml" 42 2024 2052
+type(
+  GData.adjustment option
+)
+ident(
+  def adj "gContainer.ml" 43 2055 2059 "gContainer.ml" 44 2085 2141
+)
+"gContainer.ml" 43 2055 2059 "gContainer.ml" 43 2055 2080
+type(
+  'a Gtk.obj -> Gtk.adjustment Gtk.optobj -> unit
+)
+ident(
+  ext_ref GtkBase.Container.set_focus_hadjustment
+)
+"gContainer.ml" 43 2055 2081 "gContainer.ml" 43 2055 2084
+type(
+  'a Gtk.obj
+)
+"gContainer.ml" 44 2085 2092 "gContainer.ml" 44 2085 2109
+type(
+  Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.optobj
+)
+ident(
+  ext_ref Gpointer.optboxed
+)
+"gContainer.ml" 44 2085 2111 "gContainer.ml" 44 2085 2118
+type(
+  f:(GData.adjustment -> Gtk.adjustment Gtk.obj) ->
+  GData.adjustment option -> Gtk.adjustment Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gContainer.ml" 44 2085 2119 "gContainer.ml" 44 2085 2122
+type(
+  GData.adjustment option
+)
+ident(
+  int_ref adj "gContainer.ml" 42 2024 2049 "gContainer.ml" 42 2024 2052
+)
+"gContainer.ml" 44 2085 2126 "gContainer.ml" 44 2085 2139
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gContainer.ml" 44 2085 2110 "gContainer.ml" 44 2085 2140
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gContainer.ml" 44 2085 2091 "gContainer.ml" 44 2085 2141
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.optobj
+)
+"gContainer.ml" 43 2055 2059 "gContainer.ml" 44 2085 2141
+type(
+  unit
+)
+"gContainer.ml" 45 2142 2167 "gContainer.ml" 45 2142 2170
+type(
+  GData.adjustment option
+)
+ident(
+  def adj "gContainer.ml" 46 2173 2177 "gContainer.ml" 47 2203 2259
+)
+"gContainer.ml" 46 2173 2177 "gContainer.ml" 46 2173 2198
+type(
+  'a Gtk.obj -> Gtk.adjustment Gtk.optobj -> unit
+)
+ident(
+  ext_ref GtkBase.Container.set_focus_vadjustment
+)
+"gContainer.ml" 46 2173 2199 "gContainer.ml" 46 2173 2202
+type(
+  'a Gtk.obj
+)
+"gContainer.ml" 47 2203 2210 "gContainer.ml" 47 2203 2227
+type(
+  Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.optobj
+)
+ident(
+  ext_ref Gpointer.optboxed
+)
+"gContainer.ml" 47 2203 2229 "gContainer.ml" 47 2203 2236
+type(
+  f:(GData.adjustment -> Gtk.adjustment Gtk.obj) ->
+  GData.adjustment option -> Gtk.adjustment Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gContainer.ml" 47 2203 2237 "gContainer.ml" 47 2203 2240
+type(
+  GData.adjustment option
+)
+ident(
+  int_ref adj "gContainer.ml" 45 2142 2167 "gContainer.ml" 45 2142 2170
+)
+"gContainer.ml" 47 2203 2244 "gContainer.ml" 47 2203 2257
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gContainer.ml" 47 2203 2228 "gContainer.ml" 47 2203 2258
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gContainer.ml" 47 2203 2209 "gContainer.ml" 47 2203 2259
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.optobj
+)
+"gContainer.ml" 46 2173 2177 "gContainer.ml" 47 2203 2259
+type(
+  unit
+)
+"gContainer.ml" 50 2265 2291 "gContainer.ml" 50 2265 2294
+type(
+  [> `container | `gtk | `widget ] Gtk.obj
+)
+"gContainer.ml" 50 2265 2304 "gContainer.ml" 50 2265 2310
+type(
+  < add : GObj.widget -> unit; all_children : GObj.widget list;
+    as_widget : Gtk.widget Gtk.obj; border_width : int;
+    children : GObj.widget list; coerce : GObj.widget;
+    destroy : unit -> unit; drag : GObj.drag_ops; focus : focus;
+    get_oid : int; misc : GObj.misc_ops; remove : GObj.widget -> unit;
+    resize_mode : GtkEnums.resize_mode; set_border_width : int -> unit;
+    set_resize_mode : GtkEnums.resize_mode -> unit; .. >
+)
+"gContainer.ml" 51 2311 2338 "gContainer.ml" 51 2311 2341
+type(
+  ([> `container | `gtk | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gContainer.ml" 50 2265 2291 "gContainer.ml" 50 2265 2294
+)
+"gContainer.ml" 53 2368 2381 "gContainer.ml" 53 2368 2382
+type(
+  GObj.widget
+)
+ident(
+  def w "gContainer.ml" 53 2368 2385 "gContainer.ml" 53 2368 2406
+)
+"gContainer.ml" 53 2368 2385 "gContainer.ml" 53 2368 2388
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBase.Container.add
+)
+"gContainer.ml" 53 2368 2389 "gContainer.ml" 53 2368 2392
+type(
+  'a Gtk.obj
+)
+"gContainer.ml" 53 2368 2394 "gContainer.ml" 53 2368 2403
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gContainer.ml" 53 2368 2404 "gContainer.ml" 53 2368 2405
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gContainer.ml" 53 2368 2381 "gContainer.ml" 53 2368 2382
+)
+"gContainer.ml" 53 2368 2393 "gContainer.ml" 53 2368 2406
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gContainer.ml" 53 2368 2385 "gContainer.ml" 53 2368 2406
+type(
+  unit
+)
+"gContainer.ml" 54 2407 2423 "gContainer.ml" 54 2407 2424
+type(
+  GObj.widget
+)
+ident(
+  def w "gContainer.ml" 54 2407 2427 "gContainer.ml" 54 2407 2451
+)
+"gContainer.ml" 54 2407 2427 "gContainer.ml" 54 2407 2433
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBase.Container.remove
+)
+"gContainer.ml" 54 2407 2434 "gContainer.ml" 54 2407 2437
+type(
+  'a Gtk.obj
+)
+"gContainer.ml" 54 2407 2439 "gContainer.ml" 54 2407 2448
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gContainer.ml" 54 2407 2449 "gContainer.ml" 54 2407 2450
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gContainer.ml" 54 2407 2423 "gContainer.ml" 54 2407 2424
+)
+"gContainer.ml" 54 2407 2438 "gContainer.ml" 54 2407 2451
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gContainer.ml" 54 2407 2427 "gContainer.ml" 54 2407 2451
+type(
+  unit
+)
+"gContainer.ml" 55 2452 2472 "gContainer.ml" 55 2452 2480
+type(
+  f:(Gtk.widget Gtk.obj -> GObj.widget) ->
+  Gtk.widget Gtk.obj list -> GObj.widget list
+)
+ident(
+  ext_ref StdLabels.List.map
+)
+"gContainer.ml" 55 2452 2484 "gContainer.ml" 55 2452 2496
+type(
+  Gtk.widget Gtk.obj -> GObj.widget
+)
+"gContainer.ml" 55 2452 2498 "gContainer.ml" 55 2452 2506
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj list
+)
+ident(
+  ext_ref GtkBase.Container.children
+)
+"gContainer.ml" 55 2452 2507 "gContainer.ml" 55 2452 2510
+type(
+  'a Gtk.obj
+)
+"gContainer.ml" 55 2452 2497 "gContainer.ml" 55 2452 2511
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj list
+)
+"gContainer.ml" 55 2452 2472 "gContainer.ml" 55 2452 2511
+call(
+  tail
+)
+type(
+  GObj.widget list
+)
+type(
+  GObj.widget list
+)
+"gContainer.ml" 57 2536 2544 "gContainer.ml" 57 2536 2545
+type(
+  GObj.widget list ref
+)
+"gContainer.ml" 57 2536 2548 "gContainer.ml" 57 2536 2551
+type(
+  GObj.widget list -> GObj.widget list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gContainer.ml" 57 2536 2552 "gContainer.ml" 57 2536 2554
+type(
+  GObj.widget list
+)
+"gContainer.ml" 57 2536 2548 "gContainer.ml" 57 2536 2554
+type(
+  GObj.widget list ref
+)
+"gContainer.ml" 58 2558 2562 "gContainer.ml" 58 2558 2568
+type(
+  'a Gtk.obj -> f:(Gtk.widget Gtk.obj -> unit) -> unit
+)
+ident(
+  ext_ref GtkBase.Container.forall
+)
+"gContainer.ml" 58 2558 2569 "gContainer.ml" 58 2558 2572
+type(
+  'a Gtk.obj
+)
+"gContainer.ml" 58 2558 2581 "gContainer.ml" 58 2558 2582
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  def w "gContainer.ml" 58 2558 2586 "gContainer.ml" 58 2558 2609
+)
+"gContainer.ml" 58 2558 2586 "gContainer.ml" 58 2558 2587
+type(
+  GObj.widget list ref
+)
+ident(
+  int_ref l "gContainer.ml" 57 2536 2544 "gContainer.ml" 57 2536 2545
+)
+"gContainer.ml" 58 2558 2588 "gContainer.ml" 58 2558 2590
+type(
+  GObj.widget list ref -> GObj.widget list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gContainer.ml" 58 2558 2591 "gContainer.ml" 58 2558 2601
+type(
+  Gtk.widget Gtk.obj -> GObj.widget
+)
+"gContainer.ml" 58 2558 2602 "gContainer.ml" 58 2558 2603
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gContainer.ml" 58 2558 2581 "gContainer.ml" 58 2558 2582
+)
+"gContainer.ml" 58 2558 2591 "gContainer.ml" 58 2558 2603
+call(
+  stack
+)
+type(
+  GObj.widget
+)
+"gContainer.ml" 58 2558 2607 "gContainer.ml" 58 2558 2608
+type(
+  GObj.widget list ref -> GObj.widget list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gContainer.ml" 58 2558 2608 "gContainer.ml" 58 2558 2609
+type(
+  GObj.widget list ref
+)
+ident(
+  int_ref l "gContainer.ml" 57 2536 2544 "gContainer.ml" 57 2536 2545
+)
+"gContainer.ml" 58 2558 2607 "gContainer.ml" 58 2558 2609
+type(
+  GObj.widget list
+)
+"gContainer.ml" 58 2558 2591 "gContainer.ml" 58 2558 2609
+type(
+  GObj.widget list
+)
+"gContainer.ml" 58 2558 2586 "gContainer.ml" 58 2558 2609
+type(
+  unit
+)
+"gContainer.ml" 58 2558 2576 "gContainer.ml" 58 2558 2610
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+"gContainer.ml" 58 2558 2562 "gContainer.ml" 58 2558 2610
+type(
+  unit
+)
+"gContainer.ml" 59 2612 2616 "gContainer.ml" 59 2612 2624
+type(
+  GObj.widget list -> GObj.widget list
+)
+ident(
+  ext_ref StdLabels.List.rev
+)
+"gContainer.ml" 59 2612 2625 "gContainer.ml" 59 2612 2626
+type(
+  GObj.widget list ref -> GObj.widget list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gContainer.ml" 59 2612 2626 "gContainer.ml" 59 2612 2627
+type(
+  GObj.widget list ref
+)
+ident(
+  int_ref l "gContainer.ml" 57 2536 2544 "gContainer.ml" 57 2536 2545
+)
+"gContainer.ml" 59 2612 2625 "gContainer.ml" 59 2612 2627
+type(
+  GObj.widget list
+)
+"gContainer.ml" 59 2612 2616 "gContainer.ml" 59 2612 2627
+call(
+  tail
+)
+type(
+  GObj.widget list
+)
+"gContainer.ml" 58 2558 2562 "gContainer.ml" 59 2612 2627
+type(
+  GObj.widget list
+)
+"gContainer.ml" 57 2536 2540 "gContainer.ml" 59 2612 2627
+type(
+  GObj.widget list
+)
+type(
+  GObj.widget list
+)
+"gContainer.ml" 60 2628 2645 "gContainer.ml" 60 2628 2654
+type(
+  'a Gtk.obj -> focus
+)
+"gContainer.ml" 60 2628 2655 "gContainer.ml" 60 2628 2658
+type(
+  'a Gtk.obj
+)
+"gContainer.ml" 60 2628 2645 "gContainer.ml" 60 2628 2658
+call(
+  tail
+)
+type(
+  focus
+)
+type(
+  focus
+)
+"gContainer.ml" 65 2703 2732 "gContainer.ml" 65 2703 2735
+type(
+  [> `container | `gtk | `widget ] Gtk.obj
+)
+"gContainer.ml" 66 2745 2775 "gContainer.ml" 66 2745 2778
+type(
+  ([> `container | `gtk | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gContainer.ml" 65 2703 2732 "gContainer.ml" 65 2703 2735
+)
+"gContainer.ml" 72 2864 2885 "gContainer.ml" 72 2864 2888
+type(
+  [> `container | `gtk | `widget ] Gtk.obj
+)
+"gContainer.ml" 73 2898 2918 "gContainer.ml" 73 2898 2921
+type(
+  ([> `container | `gtk | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gContainer.ml" 72 2864 2885 "gContainer.ml" 72 2864 2888
+)
+"gContainer.ml" 74 2922 2941 "gContainer.ml" 74 2922 2967
+type(
+  'a Gtk.obj -> container_signals_impl
+)
+"gContainer.ml" 74 2922 2968 "gContainer.ml" 74 2922 2971
+type(
+  'a Gtk.obj
+)
+"gContainer.ml" 74 2922 2941 "gContainer.ml" 74 2922 2971
+call(
+  tail
+)
+type(
+  container_signals_impl
+)
+type(
+  container_signals_impl
+)
+"gContainer.ml" 77 2977 2981 "gContainer.ml" 77 2977 2995
+type(
+  GObj.widget -> container_full
+)
+ident(
+  def cast_container "gContainer.ml" 80 3052 3052 --
+)
+"gContainer.ml" 77 2977 2997 "gContainer.ml" 77 2977 2998
+type(
+  GObj.widget
+)
+ident(
+  def w "gContainer.ml" 78 3011 3013 "gContainer.ml" 78 3011 3050
+)
+"gContainer.ml" 78 3011 3013 "gContainer.ml" 78 3011 3031
+type(
+  Gtk.container Gtk.obj -> container_full
+)
+"gContainer.ml" 78 3011 3033 "gContainer.ml" 78 3011 3037
+type(
+  Gtk.widget Gtk.obj -> Gtk.container Gtk.obj
+)
+ident(
+  ext_ref GtkBase.Container.cast
+)
+"gContainer.ml" 78 3011 3038 "gContainer.ml" 78 3011 3039
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gContainer.ml" 77 2977 2997 "gContainer.ml" 77 2977 2998
+)
+"gContainer.ml" 78 3011 3038 "gContainer.ml" 78 3011 3049
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gContainer.ml" 78 3011 3032 "gContainer.ml" 78 3011 3050
+call(
+  stack
+)
+type(
+  Gtk.container Gtk.obj
+)
+"gContainer.ml" 78 3011 3013 "gContainer.ml" 78 3011 3050
+call(
+  tail
+)
+type(
+  container_full
+)
+"gContainer.ml" 80 3052 3056 "gContainer.ml" 80 3052 3070
+type(
+  create:(([> `container | `widget ] as 'a) Gobject.param list ->
+          (#GObj.widget as 'b)) ->
+  'a Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'b
+)
+ident(
+  def pack_container "gContainer.ml" 84 3184 3184 --
+)
+"gContainer.ml" 80 3052 3072 "gContainer.ml" 80 3052 3078
+type(
+  'a Gobject.param list -> 'b
+)
+ident(
+  def create "gContainer.ml" 81 3081 3083 "gContainer.ml" 82 3112 3182
+)
+"gContainer.ml" 81 3081 3083 "gContainer.ml" 81 3081 3104
+type(
+  cont:('a Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'b) ->
+  'a Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'b
+)
+ident(
+  ext_ref GtkBase.Container.make_params
+)
+"gContainer.ml" 82 3112 3121 "gContainer.ml" 82 3112 3122
+type(
+  'a Gobject.param list
+)
+ident(
+  def p "gContainer.ml" 82 3112 3123 "gContainer.ml" 82 3112 3181
+)
+"gContainer.ml" 82 3112 3124 "gContainer.ml" 82 3112 3131
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gContainer.ml" 82 3112 3132 "gContainer.ml" 82 3112 3181
+)
+"gContainer.ml" 82 3112 3133 "gContainer.ml" 82 3112 3137
+type(
+  bool option
+)
+ident(
+  def show "gContainer.ml" 82 3112 3138 "gContainer.ml" 82 3112 3181
+)
+"gContainer.ml" 82 3112 3138 "gContainer.ml" 82 3112 3140
+type(
+  unit
+)
+"gContainer.ml" 82 3112 3144 "gContainer.ml" 82 3112 3155
+type(
+  'b -> packing:(GObj.widget -> unit) option -> show:bool option -> 'b
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gContainer.ml" 82 3112 3157 "gContainer.ml" 82 3112 3163
+type(
+  'a Gobject.param list -> 'b
+)
+ident(
+  int_ref create "gContainer.ml" 80 3052 3072 "gContainer.ml" 80 3052 3078
+)
+"gContainer.ml" 82 3112 3164 "gContainer.ml" 82 3112 3165
+type(
+  'a Gobject.param list
+)
+ident(
+  int_ref p "gContainer.ml" 82 3112 3121 "gContainer.ml" 82 3112 3122
+)
+"gContainer.ml" 82 3112 3156 "gContainer.ml" 82 3112 3166
+call(
+  stack
+)
+type(
+  'b
+)
+"gContainer.ml" 82 3112 3168 "gContainer.ml" 82 3112 3175
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gContainer.ml" 82 3112 3124 "gContainer.ml" 82 3112 3131
+)
+"gContainer.ml" 82 3112 3177 "gContainer.ml" 82 3112 3181
+type(
+  bool option
+)
+ident(
+  int_ref show "gContainer.ml" 82 3112 3133 "gContainer.ml" 82 3112 3137
+)
+"gContainer.ml" 82 3112 3144 "gContainer.ml" 82 3112 3181
+call(
+  tail
+)
+type(
+  'b
+)
+"gContainer.ml" 82 3112 3116 "gContainer.ml" 82 3112 3182
+type(
+  'a Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'b
+)
+"gContainer.ml" 81 3081 3083 "gContainer.ml" 82 3112 3182
+call(
+  tail
+)
+type(
+  'a Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'b
+)
+"gContainer.ml" 84 3184 3204 "gContainer.ml" 84 3184 3207
+type(
+  [> `bin | `container | `gtk | `widget ] Gtk.obj
+)
+"gContainer.ml" 85 3217 3247 "gContainer.ml" 85 3217 3250
+type(
+  ([> `bin | `container | `gtk | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gContainer.ml" 84 3184 3204 "gContainer.ml" 84 3184 3207
+)
+"gContainer.ml" 86 3251 3268 "gContainer.ml" 86 3251 3278
+type(
+  Gtk.widget Gtk.obj -> GObj.widget
+)
+"gContainer.ml" 86 3251 3280 "gContainer.ml" 86 3251 3293
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GtkBase.Bin.get_child
+)
+"gContainer.ml" 86 3251 3294 "gContainer.ml" 86 3251 3297
+type(
+  'a Gtk.obj
+)
+"gContainer.ml" 86 3251 3279 "gContainer.ml" 86 3251 3298
+type(
+  Gtk.widget Gtk.obj
+)
+"gContainer.ml" 86 3251 3268 "gContainer.ml" 86 3251 3298
+call(
+  tail
+)
+type(
+  GObj.widget
+)
+type(
+  GObj.widget
+)
+"gContainer.ml" 91 3331 3365 "gContainer.ml" 91 3331 3368
+type(
+  [> `container | `gtk | `widget ] Gtk.obj
+)
+"gContainer.ml" 91 3331 3378 "gContainer.ml" 91 3331 3384
+type(
+  < add : (< as_item : [> `widget ] Gtk.obj; .. > as 'a) -> unit;
+    all_children : 'a list; append : 'a -> unit;
+    as_widget : Gtk.widget Gtk.obj; border_width : int; children : 'a list;
+    coerce : GObj.widget; destroy : unit -> unit; drag : GObj.drag_ops;
+    focus : focus; get_oid : int; insert : 'a -> pos:int -> unit;
+    misc : GObj.misc_ops; prepend : 'a -> unit; remove : 'a -> unit;
+    resize_mode : GtkEnums.resize_mode; set_border_width : int -> unit;
+    set_resize_mode : GtkEnums.resize_mode -> unit; .. >
+)
+"gContainer.ml" 92 3385 3412 "gContainer.ml" 92 3385 3415
+type(
+  ([> `container | `gtk | `widget ] as 'b) Gtk.obj
+)
+ident(
+  int_ref obj "gContainer.ml" 91 3331 3365 "gContainer.ml" 91 3331 3368
+)
+"gContainer.ml" 94 3442 3456 "gContainer.ml" 94 3442 3457
+type(
+  'a
+)
+ident(
+  def w "gContainer.ml" 95 3466 3470 "gContainer.ml" 95 3466 3487
+)
+"gContainer.ml" 95 3466 3470 "gContainer.ml" 95 3466 3473
+type(
+  'b Gtk.obj -> ([> `widget ] as 'c) Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBase.Container.add
+)
+"gContainer.ml" 95 3466 3474 "gContainer.ml" 95 3466 3477
+type(
+  'b Gtk.obj
+)
+"gContainer.ml" 95 3466 3478 "gContainer.ml" 95 3466 3479
+type(
+  'a
+)
+ident(
+  int_ref w "gContainer.ml" 94 3442 3456 "gContainer.ml" 94 3442 3457
+)
+"gContainer.ml" 95 3466 3478 "gContainer.ml" 95 3466 3487
+call(
+  stack
+)
+type(
+  'c Gtk.obj
+)
+"gContainer.ml" 95 3466 3470 "gContainer.ml" 95 3466 3487
+type(
+  unit
+)
+"gContainer.ml" 96 3488 3505 "gContainer.ml" 96 3488 3506
+type(
+  'a
+)
+ident(
+  def w "gContainer.ml" 97 3515 3519 "gContainer.ml" 97 3515 3539
+)
+"gContainer.ml" 97 3515 3519 "gContainer.ml" 97 3515 3525
+type(
+  'b Gtk.obj -> 'c Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBase.Container.remove
+)
+"gContainer.ml" 97 3515 3526 "gContainer.ml" 97 3515 3529
+type(
+  'b Gtk.obj
+)
+"gContainer.ml" 97 3515 3530 "gContainer.ml" 97 3515 3531
+type(
+  'a
+)
+ident(
+  int_ref w "gContainer.ml" 96 3488 3505 "gContainer.ml" 96 3488 3506
+)
+"gContainer.ml" 97 3515 3530 "gContainer.ml" 97 3515 3539
+call(
+  stack
+)
+type(
+  'c Gtk.obj
+)
+"gContainer.ml" 97 3515 3519 "gContainer.ml" 97 3515 3539
+type(
+  unit
+)
+"gContainer.ml" 100 3623 3627 "gContainer.ml" 100 3623 3635
+type(
+  f:(Gtk.widget Gtk.obj -> 'a) -> Gtk.widget Gtk.obj list -> 'a list
+)
+ident(
+  ext_ref StdLabels.List.map
+)
+"gContainer.ml" 100 3623 3639 "gContainer.ml" 100 3623 3643
+type(
+  < add : 'a -> unit; all_children : 'a list; append : 'a -> unit;
+    as_widget : Gtk.widget Gtk.obj; border_width : int; children : 'a list;
+    coerce : GObj.widget; destroy : unit -> unit; drag : GObj.drag_ops;
+    focus : focus; get_oid : int; insert : 'a -> pos:int -> unit;
+    misc : GObj.misc_ops; prepend : 'a -> unit; remove : 'a -> unit;
+    resize_mode : GtkEnums.resize_mode; set_border_width : int -> unit;
+    set_resize_mode : GtkEnums.resize_mode -> unit; .. >
+  as 'd
+)
+"gContainer.ml" 100 3623 3639 "gContainer.ml" 100 3623 3648
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj -> 'a
+)
+"gContainer.ml" 100 3623 3650 "gContainer.ml" 100 3623 3658
+type(
+  'b Gtk.obj -> Gtk.widget Gtk.obj list
+)
+ident(
+  ext_ref GtkBase.Container.children
+)
+"gContainer.ml" 100 3623 3659 "gContainer.ml" 100 3623 3662
+type(
+  'b Gtk.obj
+)
+"gContainer.ml" 100 3623 3649 "gContainer.ml" 100 3623 3663
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj list
+)
+"gContainer.ml" 100 3623 3627 "gContainer.ml" 100 3623 3663
+call(
+  tail
+)
+type(
+  'a list
+)
+type(
+  'a list
+)
+"gContainer.ml" 102 3688 3696 "gContainer.ml" 102 3688 3697
+type(
+  'a list ref
+)
+"gContainer.ml" 102 3688 3700 "gContainer.ml" 102 3688 3703
+type(
+  'a list -> 'a list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gContainer.ml" 102 3688 3704 "gContainer.ml" 102 3688 3706
+type(
+  'a list
+)
+"gContainer.ml" 102 3688 3700 "gContainer.ml" 102 3688 3706
+type(
+  'a list ref
+)
+"gContainer.ml" 103 3710 3714 "gContainer.ml" 103 3710 3720
+type(
+  'b Gtk.obj -> f:(Gtk.widget Gtk.obj -> unit) -> unit
+)
+ident(
+  ext_ref GtkBase.Container.forall
+)
+"gContainer.ml" 103 3710 3721 "gContainer.ml" 103 3710 3724
+type(
+  'b Gtk.obj
+)
+"gContainer.ml" 103 3710 3733 "gContainer.ml" 103 3710 3734
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  def w "gContainer.ml" 103 3710 3738 "gContainer.ml" 103 3710 3760
+)
+"gContainer.ml" 103 3710 3738 "gContainer.ml" 103 3710 3739
+type(
+  'a list ref
+)
+ident(
+  int_ref l "gContainer.ml" 102 3688 3696 "gContainer.ml" 102 3688 3697
+)
+"gContainer.ml" 103 3710 3740 "gContainer.ml" 103 3710 3742
+type(
+  'a list ref -> 'a list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gContainer.ml" 103 3710 3743 "gContainer.ml" 103 3710 3747
+type(
+  'd
+)
+"gContainer.ml" 103 3710 3743 "gContainer.ml" 103 3710 3752
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj -> 'a
+)
+"gContainer.ml" 103 3710 3753 "gContainer.ml" 103 3710 3754
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gContainer.ml" 103 3710 3733 "gContainer.ml" 103 3710 3734
+)
+"gContainer.ml" 103 3710 3743 "gContainer.ml" 103 3710 3754
+type(
+  'a
+)
+"gContainer.ml" 103 3710 3758 "gContainer.ml" 103 3710 3759
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gContainer.ml" 103 3710 3759 "gContainer.ml" 103 3710 3760
+type(
+  'a list ref
+)
+ident(
+  int_ref l "gContainer.ml" 102 3688 3696 "gContainer.ml" 102 3688 3697
+)
+"gContainer.ml" 103 3710 3758 "gContainer.ml" 103 3710 3760
+type(
+  'a list
+)
+"gContainer.ml" 103 3710 3743 "gContainer.ml" 103 3710 3760
+type(
+  'a list
+)
+"gContainer.ml" 103 3710 3738 "gContainer.ml" 103 3710 3760
+type(
+  unit
+)
+"gContainer.ml" 103 3710 3728 "gContainer.ml" 103 3710 3761
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+"gContainer.ml" 103 3710 3714 "gContainer.ml" 103 3710 3761
+type(
+  unit
+)
+"gContainer.ml" 104 3763 3767 "gContainer.ml" 104 3763 3775
+type(
+  'a list -> 'a list
+)
+ident(
+  ext_ref StdLabels.List.rev
+)
+"gContainer.ml" 104 3763 3776 "gContainer.ml" 104 3763 3777
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gContainer.ml" 104 3763 3777 "gContainer.ml" 104 3763 3778
+type(
+  'a list ref
+)
+ident(
+  int_ref l "gContainer.ml" 102 3688 3696 "gContainer.ml" 102 3688 3697
+)
+"gContainer.ml" 104 3763 3776 "gContainer.ml" 104 3763 3778
+type(
+  'a list
+)
+"gContainer.ml" 104 3763 3767 "gContainer.ml" 104 3763 3778
+call(
+  tail
+)
+type(
+  'a list
+)
+"gContainer.ml" 103 3710 3714 "gContainer.ml" 104 3763 3778
+type(
+  'a list
+)
+"gContainer.ml" 102 3688 3692 "gContainer.ml" 104 3763 3778
+type(
+  'a list
+)
+type(
+  'a list
+)
+"gContainer.ml" 105 3779 3796 "gContainer.ml" 105 3779 3805
+type(
+  'b Gtk.obj -> focus
+)
+"gContainer.ml" 105 3779 3806 "gContainer.ml" 105 3779 3809
+type(
+  'b Gtk.obj
+)
+"gContainer.ml" 105 3779 3796 "gContainer.ml" 105 3779 3809
+call(
+  tail
+)
+type(
+  focus
+)
+type(
+  focus
+)
+"gContainer.ml" 107 3858 3875 "gContainer.ml" 107 3858 3876
+type(
+  'a
+)
+ident(
+  def w "gContainer.ml" 107 3858 3885 "gContainer.ml" 107 3858 3908
+)
+"gContainer.ml" 107 3858 3885 "gContainer.ml" 107 3858 3889
+type(
+  'd
+)
+"gContainer.ml" 107 3858 3885 "gContainer.ml" 107 3858 3896
+call(
+  tail
+)
+type(
+  'a -> pos:int -> unit
+)
+"gContainer.ml" 107 3858 3897 "gContainer.ml" 107 3858 3898
+type(
+  'a
+)
+ident(
+  int_ref w "gContainer.ml" 107 3858 3875 "gContainer.ml" 107 3858 3876
+)
+"gContainer.ml" 107 3858 3904 "gContainer.ml" 107 3858 3908
+type(
+  int
+)
+"gContainer.ml" 107 3858 3885 "gContainer.ml" 107 3858 3908
+type(
+  unit
+)
+"gContainer.ml" 108 3909 3927 "gContainer.ml" 108 3909 3928
+type(
+  'a
+)
+ident(
+  def w "gContainer.ml" 108 3909 3937 "gContainer.ml" 108 3909 3957
+)
+"gContainer.ml" 108 3909 3937 "gContainer.ml" 108 3909 3941
+type(
+  'd
+)
+"gContainer.ml" 108 3909 3937 "gContainer.ml" 108 3909 3948
+call(
+  tail
+)
+type(
+  'a -> pos:int -> unit
+)
+"gContainer.ml" 108 3909 3949 "gContainer.ml" 108 3909 3950
+type(
+  'a
+)
+ident(
+  int_ref w "gContainer.ml" 108 3909 3927 "gContainer.ml" 108 3909 3928
+)
+"gContainer.ml" 108 3909 3956 "gContainer.ml" 108 3909 3957
+type(
+  int
+)
+"gContainer.ml" 108 3909 3937 "gContainer.ml" 108 3909 3957
+type(
+  unit
+)
+"gContainer.ml" 111 3963 3982 "gContainer.ml" 111 3963 3985
+type(
+  [> Gtk.item ] Gtk.obj
+)
+"gContainer.ml" 112 3995 4029 "gContainer.ml" 112 3995 4032
+type(
+  ([> Gtk.item ] as 'a) Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref obj "gContainer.ml" 111 3963 3982 "gContainer.ml" 111 3963 3985
+)

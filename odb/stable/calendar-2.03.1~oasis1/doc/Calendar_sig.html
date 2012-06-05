@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Date.html">
+<link rel="next" href="Calendar_builder.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Utils" rel="Chapter" href="Utils.html">
+<link title="Time_Zone" rel="Chapter" href="Time_Zone.html">
+<link title="Period" rel="Chapter" href="Period.html">
+<link title="Time_sig" rel="Chapter" href="Time_sig.html">
+<link title="Time" rel="Chapter" href="Time.html">
+<link title="Ftime" rel="Chapter" href="Ftime.html">
+<link title="Date_sig" rel="Chapter" href="Date_sig.html">
+<link title="Date" rel="Chapter" href="Date.html">
+<link title="Calendar_sig" rel="Chapter" href="Calendar_sig.html">
+<link title="Calendar_builder" rel="Chapter" href="Calendar_builder.html">
+<link title="Calendar" rel="Chapter" href="Calendar.html">
+<link title="Fcalendar" rel="Chapter" href="Fcalendar.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Version" rel="Chapter" href="Version.html"><title>Calendar_sig</title>
+</head>
+<body>
+<div class="navbar"><a href="Date.html">Previous</a>
+&nbsp;<a href="index.html">Up</a>
+&nbsp;<a href="Calendar_builder.html">Next</a>
+</div>
+<center><h1>Module <a href="type_Calendar_sig.html">Calendar_sig</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Calendar_sig: <code class="code"><span class="keyword">sig</span></code> <a href="Calendar_sig.html">..</a> <code class="code"><span class="keyword">end</span></code></pre>Calendar interface. A calendar combines a date and a time: it may be seen
+    as a 6-uple (year, month, day, hour, minute, second).
+<p>
+
+    If you only need operations on dates, you should better use a date
+    implementation (like module <code class="code"><span class="constructor">Date</span></code>). But if you need to manage more precise
+    dates, use this module. The exact Julian period is now <code class="code">[<span class="constructor">January</span>, 1st 4713
+    <span class="constructor">BC</span> at midday <span class="constructor">GMT</span>; <span class="constructor">January</span> 22th, 3268 <span class="constructor">AC</span> at midday <span class="constructor">GMT</span>]</code>.<br>
+<hr width="100%">
+<pre><span class="keyword">module type</span> <a href="Calendar_sig.S.html">S</a> = <code class="code"><span class="keyword">sig</span></code> <a href="Calendar_sig.S.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info">
+Common operations for all calendar representations.
+</div>
+</body></html>

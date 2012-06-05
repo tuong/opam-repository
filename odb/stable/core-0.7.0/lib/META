@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: aaa4c84ca63a90a3ad1908777c1e8960)
+version = "0.7.0"
+description = "Jane Street Capital's standard library overlay"
+requires
+ =
+ "sexplib.syntax sexplib fieldslib.syntax fieldslib bin_prot bin_prot.syntax bigarray res unix threads"
+archive(byte) = "core.cma"
+archive(native) = "core.cmxa"
+exists_if = "core.cma"
+# OASIS_STOP
+

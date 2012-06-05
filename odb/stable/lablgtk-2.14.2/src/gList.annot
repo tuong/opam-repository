@@ -1,0 +1,3692 @@
+"gList.ml" 34 1781 1797 "gList.ml" 34 1781 1800
+type(
+  Gtk.list_item Gtk.obj
+)
+"gList.ml" 35 1810 1831 "gList.ml" 35 1810 1834
+type(
+  Gtk.list_item Gtk.obj
+)
+type(
+  Gtk.list_item Gtk.obj
+)
+ident(
+  int_ref obj "gList.ml" 34 1781 1797 "gList.ml" 34 1781 1800
+)
+"gList.ml" 36 1856 1873 "gList.ml" 36 1856 1891
+type(
+  Gtk.list_item Gtk.obj -> GObj.event_ops
+)
+"gList.ml" 36 1856 1892 "gList.ml" 36 1856 1895
+type(
+  Gtk.list_item Gtk.obj
+)
+"gList.ml" 36 1856 1873 "gList.ml" 36 1856 1895
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gList.ml" 37 1896 1915 "gList.ml" 37 1896 1918
+type(
+  Gtk.list_item Gtk.obj
+)
+type(
+  Gtk.list_item Gtk.obj
+)
+"gList.ml" 38 1919 1935 "gList.ml" 38 1919 1937
+type(
+  unit
+)
+"gList.ml" 38 1919 1940 "gList.ml" 38 1919 1951
+type(
+  Gtk.list_item Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBase.Item.select
+)
+"gList.ml" 38 1919 1952 "gList.ml" 38 1919 1955
+type(
+  Gtk.list_item Gtk.obj
+)
+"gList.ml" 38 1919 1940 "gList.ml" 38 1919 1955
+type(
+  unit
+)
+"gList.ml" 39 1956 1974 "gList.ml" 39 1956 1976
+type(
+  unit
+)
+"gList.ml" 39 1956 1979 "gList.ml" 39 1956 1992
+type(
+  Gtk.list_item Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBase.Item.deselect
+)
+"gList.ml" 39 1956 1993 "gList.ml" 39 1956 1996
+type(
+  Gtk.list_item Gtk.obj
+)
+"gList.ml" 39 1956 1979 "gList.ml" 39 1956 1996
+type(
+  unit
+)
+"gList.ml" 40 1997 2013 "gList.ml" 40 1997 2015
+type(
+  unit
+)
+"gList.ml" 40 1997 2018 "gList.ml" 40 1997 2029
+type(
+  Gtk.list_item Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBase.Item.toggle
+)
+"gList.ml" 40 1997 2030 "gList.ml" 40 1997 2033
+type(
+  Gtk.list_item Gtk.obj
+)
+"gList.ml" 40 1997 2018 "gList.ml" 40 1997 2033
+type(
+  unit
+)
+"gList.ml" 41 2034 2053 "gList.ml" 41 2034 2069
+type(
+  Gtk.list_item Gtk.obj -> GContainer.item_signals
+)
+"gList.ml" 41 2034 2070 "gList.ml" 41 2034 2073
+type(
+  Gtk.list_item Gtk.obj
+)
+"gList.ml" 41 2034 2053 "gList.ml" 41 2034 2073
+call(
+  tail
+)
+type(
+  GContainer.item_signals
+)
+type(
+  GContainer.item_signals
+)
+"gList.ml" 44 2079 2083 "gList.ml" 44 2079 2092
+type(
+  ?label:string ->
+  ?packing:(list_item -> unit) -> ?show:bool -> unit -> list_item
+)
+ident(
+  def list_item "gList.ml" 51 2285 2285 --
+)
+"gList.ml" 44 2079 2094 "gList.ml" 44 2079 2099
+type(
+  string option
+)
+ident(
+  def label "gList.ml" 44 2079 2100 "gList.ml" 49 2277 2283
+)
+"gList.ml" 44 2079 2101 "gList.ml" 44 2079 2108
+type(
+  (list_item -> unit) option
+)
+ident(
+  def packing "gList.ml" 44 2079 2109 "gList.ml" 49 2277 2283
+)
+"gList.ml" 44 2079 2111 "gList.ml" 44 2079 2115
+type(
+  bool
+)
+"gList.ml" 44 2079 2116 "gList.ml" 44 2079 2120
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gList.ml" 44 2079 2116 "gList.ml" 44 2079 2120
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gList.ml" 44 2079 2116 "gList.ml" 44 2079 2120
+)
+"gList.ml" 44 2079 2122 "gList.ml" 44 2079 2124
+type(
+  unit
+)
+"gList.ml" 45 2127 2133 "gList.ml" 45 2127 2134
+type(
+  Gtk.list_item Gtk.obj
+)
+"gList.ml" 45 2127 2137 "gList.ml" 45 2127 2152
+type(
+  ?label:string -> unit -> Gtk.list_item Gtk.obj
+)
+ident(
+  ext_ref GtkList.ListItem.create
+)
+"gList.ml" 45 2127 2154 "gList.ml" 45 2127 2159
+type(
+  string option
+)
+ident(
+  int_ref label "gList.ml" 44 2079 2094 "gList.ml" 44 2079 2099
+)
+"gList.ml" 45 2127 2160 "gList.ml" 45 2127 2162
+type(
+  unit
+)
+"gList.ml" 45 2127 2137 "gList.ml" 45 2127 2162
+call(
+  stack
+)
+type(
+  Gtk.list_item Gtk.obj
+)
+"gList.ml" 46 2166 2172 "gList.ml" 46 2166 2176
+type(
+  list_item
+)
+"gList.ml" 46 2166 2179 "gList.ml" 46 2166 2192
+type(
+  Gtk.list_item Gtk.obj -> list_item
+)
+"gList.ml" 46 2166 2193 "gList.ml" 46 2166 2194
+type(
+  Gtk.list_item Gtk.obj
+)
+ident(
+  int_ref w "gList.ml" 45 2127 2133 "gList.ml" 45 2127 2134
+)
+"gList.ml" 46 2166 2179 "gList.ml" 46 2166 2194
+call(
+  stack
+)
+type(
+  list_item
+)
+"gList.ml" 47 2198 2200 "gList.ml" 47 2198 2203
+type(
+  f:((list_item -> unit) -> unit) -> (list_item -> unit) option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gList.ml" 47 2198 2204 "gList.ml" 47 2198 2211
+type(
+  (list_item -> unit) option
+)
+ident(
+  int_ref packing "gList.ml" 44 2079 2101 "gList.ml" 44 2079 2108
+)
+"gList.ml" 47 2198 2220 "gList.ml" 47 2198 2221
+type(
+  list_item -> unit
+)
+ident(
+  def f "gList.ml" 47 2198 2225 "gList.ml" 47 2198 2240
+)
+"gList.ml" 47 2198 2226 "gList.ml" 47 2198 2227
+type(
+  list_item -> unit
+)
+ident(
+  int_ref f "gList.ml" 47 2198 2220 "gList.ml" 47 2198 2221
+)
+"gList.ml" 47 2198 2228 "gList.ml" 47 2198 2232
+type(
+  list_item
+)
+ident(
+  int_ref item "gList.ml" 46 2166 2172 "gList.ml" 46 2166 2176
+)
+"gList.ml" 47 2198 2226 "gList.ml" 47 2198 2232
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"gList.ml" 47 2198 2215 "gList.ml" 47 2198 2241
+type(
+  (list_item -> unit) -> unit
+)
+"gList.ml" 47 2198 2200 "gList.ml" 47 2198 2241
+call(
+  stack
+)
+type(
+  unit
+)
+"gList.ml" 48 2243 2248 "gList.ml" 48 2243 2252
+type(
+  bool
+)
+ident(
+  int_ref show "gList.ml" 44 2079 2111 "gList.ml" 44 2079 2115
+)
+"gList.ml" 48 2243 2258 "gList.ml" 48 2243 2262
+type(
+  list_item
+)
+ident(
+  int_ref item "gList.ml" 46 2166 2172 "gList.ml" 46 2166 2176
+)
+"gList.ml" 48 2243 2258 "gList.ml" 48 2243 2267
+call(
+  stack
+)
+type(
+  GObj.misc_ops
+)
+"gList.ml" 48 2243 2258 "gList.ml" 48 2243 2272
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gList.ml" 48 2243 2273 "gList.ml" 48 2243 2275
+type(
+  unit
+)
+"gList.ml" 48 2243 2258 "gList.ml" 48 2243 2275
+type(
+  unit
+)
+"gList.ml" 48 2243 2245 "gList.ml" 48 2243 2275
+type(
+  unit
+)
+"gList.ml" 49 2277 2279 "gList.ml" 49 2277 2283
+type(
+  list_item
+)
+ident(
+  int_ref item "gList.ml" 46 2166 2172 "gList.ml" 46 2166 2176
+)
+"gList.ml" 48 2243 2245 "gList.ml" 49 2277 2283
+type(
+  list_item
+)
+"gList.ml" 47 2198 2200 "gList.ml" 49 2277 2283
+type(
+  list_item
+)
+"gList.ml" 46 2166 2168 "gList.ml" 49 2277 2283
+type(
+  list_item
+)
+"gList.ml" 45 2127 2129 "gList.ml" 49 2277 2283
+type(
+  list_item
+)
+"gList.ml" 51 2285 2305 "gList.ml" 51 2285 2308
+type(
+  Gtk.liste Gtk.obj
+)
+"gList.ml" 51 2285 2318 "gList.ml" 51 2285 2324
+type(
+  < add : callback:(GObj.widget -> unit) -> GtkSignal.id; after : 'a;
+    destroy : callback:(unit -> unit) -> GtkSignal.id;
+    remove : callback:(GObj.widget -> unit) -> GtkSignal.id;
+    select_child : callback:(list_item -> unit) -> GtkSignal.id;
+    selection_changed : callback:(unit -> unit) -> GtkSignal.id;
+    unselect_child : callback:(list_item -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"gList.ml" 52 2325 2359 "gList.ml" 52 2325 2362
+type(
+  Gtk.liste Gtk.obj
+)
+type(
+  Gtk.liste Gtk.obj
+)
+ident(
+  int_ref obj "gList.ml" 51 2285 2305 "gList.ml" 51 2285 2308
+)
+"gList.ml" 53 2380 2409 "gList.ml" 53 2380 2413
+type(
+  'a
+)
+"gList.ml" 53 2380 2409 "gList.ml" 53 2380 2421
+call(
+  tail
+)
+type(
+  (Gtk.liste, unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gList.ml" 53 2380 2422 "gList.ml" 53 2380 2447
+type(
+  (Gtk.liste, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkList.Liste.S.selection_changed
+)
+"gList.ml" 53 2380 2409 "gList.ml" 53 2380 2447
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gList.ml" 54 2448 2471 "gList.ml" 54 2448 2479
+type(
+  list_item -> unit
+)
+ident(
+  def callback "gList.ml" 55 2482 2486 "gList.ml" 56 2520 2589
+)
+"gList.ml" 55 2482 2486 "gList.ml" 55 2482 2490
+type(
+  'a
+)
+"gList.ml" 55 2482 2486 "gList.ml" 55 2482 2498
+call(
+  tail
+)
+type(
+  (Gtk.liste, Gtk.widget Gtk.obj -> unit) GtkSignal.t ->
+  callback:(Gtk.widget Gtk.obj -> unit) -> GtkSignal.id
+)
+"gList.ml" 55 2482 2499 "gList.ml" 55 2482 2519
+type(
+  (Gtk.liste, Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkList.Liste.S.select_child
+)
+"gList.ml" 56 2520 2541 "gList.ml" 56 2520 2542
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  def w "gList.ml" 56 2520 2546 "gList.ml" 56 2520 2588
+)
+"gList.ml" 56 2520 2546 "gList.ml" 56 2520 2554
+type(
+  list_item -> unit
+)
+ident(
+  int_ref callback "gList.ml" 54 2448 2471 "gList.ml" 54 2448 2479
+)
+"gList.ml" 56 2520 2556 "gList.ml" 56 2520 2569
+type(
+  Gtk.list_item Gtk.obj -> list_item
+)
+"gList.ml" 56 2520 2571 "gList.ml" 56 2520 2584
+type(
+  Gtk.widget Gtk.obj -> Gtk.list_item Gtk.obj
+)
+ident(
+  ext_ref GtkList.ListItem.cast
+)
+"gList.ml" 56 2520 2585 "gList.ml" 56 2520 2586
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gList.ml" 56 2520 2541 "gList.ml" 56 2520 2542
+)
+"gList.ml" 56 2520 2570 "gList.ml" 56 2520 2587
+call(
+  stack
+)
+type(
+  Gtk.list_item Gtk.obj
+)
+"gList.ml" 56 2520 2555 "gList.ml" 56 2520 2588
+call(
+  stack
+)
+type(
+  list_item
+)
+"gList.ml" 56 2520 2546 "gList.ml" 56 2520 2588
+call(
+  tail
+)
+type(
+  unit
+)
+"gList.ml" 56 2520 2536 "gList.ml" 56 2520 2589
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+"gList.ml" 55 2482 2486 "gList.ml" 56 2520 2589
+type(
+  GtkSignal.id
+)
+"gList.ml" 57 2591 2616 "gList.ml" 57 2591 2624
+type(
+  list_item -> unit
+)
+ident(
+  def callback "gList.ml" 58 2627 2631 "gList.ml" 59 2667 2736
+)
+"gList.ml" 58 2627 2631 "gList.ml" 58 2627 2635
+type(
+  'a
+)
+"gList.ml" 58 2627 2631 "gList.ml" 58 2627 2643
+call(
+  tail
+)
+type(
+  (Gtk.liste, Gtk.widget Gtk.obj -> unit) GtkSignal.t ->
+  callback:(Gtk.widget Gtk.obj -> unit) -> GtkSignal.id
+)
+"gList.ml" 58 2627 2644 "gList.ml" 58 2627 2666
+type(
+  (Gtk.liste, Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkList.Liste.S.unselect_child
+)
+"gList.ml" 59 2667 2688 "gList.ml" 59 2667 2689
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  def w "gList.ml" 59 2667 2693 "gList.ml" 59 2667 2735
+)
+"gList.ml" 59 2667 2693 "gList.ml" 59 2667 2701
+type(
+  list_item -> unit
+)
+ident(
+  int_ref callback "gList.ml" 57 2591 2616 "gList.ml" 57 2591 2624
+)
+"gList.ml" 59 2667 2703 "gList.ml" 59 2667 2716
+type(
+  Gtk.list_item Gtk.obj -> list_item
+)
+"gList.ml" 59 2667 2718 "gList.ml" 59 2667 2731
+type(
+  Gtk.widget Gtk.obj -> Gtk.list_item Gtk.obj
+)
+ident(
+  ext_ref GtkList.ListItem.cast
+)
+"gList.ml" 59 2667 2732 "gList.ml" 59 2667 2733
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gList.ml" 59 2667 2688 "gList.ml" 59 2667 2689
+)
+"gList.ml" 59 2667 2717 "gList.ml" 59 2667 2734
+call(
+  stack
+)
+type(
+  Gtk.list_item Gtk.obj
+)
+"gList.ml" 59 2667 2702 "gList.ml" 59 2667 2735
+call(
+  stack
+)
+type(
+  list_item
+)
+"gList.ml" 59 2667 2693 "gList.ml" 59 2667 2735
+call(
+  tail
+)
+type(
+  unit
+)
+"gList.ml" 59 2667 2683 "gList.ml" 59 2667 2736
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+"gList.ml" 58 2627 2631 "gList.ml" 59 2667 2736
+type(
+  GtkSignal.id
+)
+"gList.ml" 62 2743 2755 "gList.ml" 62 2743 2758
+type(
+  Gtk.liste Gtk.obj
+)
+"gList.ml" 63 2768 2806 "gList.ml" 63 2768 2809
+type(
+  Gtk.liste Gtk.obj
+)
+type(
+  Gtk.liste Gtk.obj
+)
+ident(
+  int_ref obj "gList.ml" 62 2743 2755 "gList.ml" 62 2743 2758
+)
+"gList.ml" 64 2827 2850 "gList.ml" 64 2827 2853
+type(
+  Gtk.liste Gtk.obj
+)
+type(
+  Gtk.liste Gtk.obj
+)
+"gList.ml" 66 2876 2898 "gList.ml" 66 2876 2899
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  def w "gList.ml" 66 2876 2902 "gList.ml" 66 2876 2933
+)
+"gList.ml" 66 2876 2902 "gList.ml" 66 2876 2915
+type(
+  Gtk.list_item Gtk.obj -> list_item
+)
+"gList.ml" 66 2876 2917 "gList.ml" 66 2876 2930
+type(
+  Gtk.widget Gtk.obj -> Gtk.list_item Gtk.obj
+)
+ident(
+  ext_ref GtkList.ListItem.cast
+)
+"gList.ml" 66 2876 2931 "gList.ml" 66 2876 2932
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gList.ml" 66 2876 2898 "gList.ml" 66 2876 2899
+)
+"gList.ml" 66 2876 2916 "gList.ml" 66 2876 2933
+call(
+  stack
+)
+type(
+  Gtk.list_item Gtk.obj
+)
+"gList.ml" 66 2876 2902 "gList.ml" 66 2876 2933
+call(
+  tail
+)
+type(
+  list_item
+)
+"gList.ml" 67 2934 2953 "gList.ml" 67 2934 2970
+type(
+  Gtk.liste Gtk.obj -> liste_signals
+)
+"gList.ml" 67 2934 2971 "gList.ml" 67 2934 2974
+type(
+  Gtk.liste Gtk.obj
+)
+"gList.ml" 67 2934 2953 "gList.ml" 67 2934 2974
+call(
+  tail
+)
+type(
+  liste_signals
+)
+type(
+  liste_signals
+)
+"gList.ml" 68 2975 2991 "gList.ml" 68 2975 2992
+type(
+  list_item
+)
+ident(
+  def w "gList.ml" 68 2975 2995 "gList.ml" 68 2975 3026
+)
+"gList.ml" 68 2975 2995 "gList.ml" 68 2975 3012
+type(
+  Gtk.liste Gtk.obj -> Gtk.list_item Gtk.obj -> pos:int -> unit
+)
+ident(
+  ext_ref GtkList.Liste.insert_item
+)
+"gList.ml" 68 2975 3013 "gList.ml" 68 2975 3016
+type(
+  Gtk.liste Gtk.obj
+)
+"gList.ml" 68 2975 3017 "gList.ml" 68 2975 3018
+type(
+  list_item
+)
+ident(
+  int_ref w "gList.ml" 68 2975 2991 "gList.ml" 68 2975 2992
+)
+"gList.ml" 68 2975 3017 "gList.ml" 68 2975 3026
+call(
+  stack
+)
+type(
+  Gtk.list_item Gtk.obj
+)
+"gList.ml" 68 2975 2995 "gList.ml" 68 2975 3026
+call(
+  tail
+)
+type(
+  pos:int -> unit
+)
+"gList.ml" 69 3027 3050 "gList.ml" 69 3027 3067
+type(
+  Gtk.liste Gtk.obj -> start:int -> stop:int -> unit
+)
+ident(
+  ext_ref GtkList.Liste.clear_items
+)
+"gList.ml" 69 3027 3068 "gList.ml" 69 3027 3071
+type(
+  Gtk.liste Gtk.obj
+)
+"gList.ml" 69 3027 3050 "gList.ml" 69 3027 3071
+call(
+  tail
+)
+type(
+  start:int -> stop:int -> unit
+)
+type(
+  start:int -> stop:int -> unit
+)
+"gList.ml" 70 3072 3095 "gList.ml" 70 3072 3112
+type(
+  Gtk.liste Gtk.obj -> pos:int -> unit
+)
+ident(
+  ext_ref GtkList.Liste.select_item
+)
+"gList.ml" 70 3072 3113 "gList.ml" 70 3072 3116
+type(
+  Gtk.liste Gtk.obj
+)
+"gList.ml" 70 3072 3095 "gList.ml" 70 3072 3116
+call(
+  tail
+)
+type(
+  pos:int -> unit
+)
+type(
+  pos:int -> unit
+)
+"gList.ml" 71 3117 3142 "gList.ml" 71 3117 3161
+type(
+  Gtk.liste Gtk.obj -> pos:int -> unit
+)
+ident(
+  ext_ref GtkList.Liste.unselect_item
+)
+"gList.ml" 71 3117 3162 "gList.ml" 71 3117 3165
+type(
+  Gtk.liste Gtk.obj
+)
+"gList.ml" 71 3117 3142 "gList.ml" 71 3117 3165
+call(
+  tail
+)
+type(
+  pos:int -> unit
+)
+type(
+  pos:int -> unit
+)
+"gList.ml" 72 3166 3191 "gList.ml" 72 3166 3192
+type(
+  list_item
+)
+ident(
+  def w "gList.ml" 72 3166 3208 "gList.ml" 72 3166 3242
+)
+"gList.ml" 72 3166 3208 "gList.ml" 72 3166 3228
+type(
+  Gtk.liste Gtk.obj -> Gtk.list_item Gtk.obj -> int
+)
+ident(
+  ext_ref GtkList.Liste.child_position
+)
+"gList.ml" 72 3166 3229 "gList.ml" 72 3166 3232
+type(
+  Gtk.liste Gtk.obj
+)
+"gList.ml" 72 3166 3233 "gList.ml" 72 3166 3234
+type(
+  list_item
+)
+ident(
+  int_ref w "gList.ml" 72 3166 3191 "gList.ml" 72 3166 3192
+)
+"gList.ml" 72 3166 3233 "gList.ml" 72 3166 3242
+call(
+  stack
+)
+type(
+  Gtk.list_item Gtk.obj
+)
+"gList.ml" 72 3166 3208 "gList.ml" 72 3166 3242
+type(
+  int
+)
+"gList.ml" 75 3248 3252 "gList.ml" 75 3248 3257
+type(
+  ?selection_mode:GtkEnums.selection_mode ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> liste
+)
+ident(
+  def liste "gList.ml" 81 3385 3385 --
+)
+"gList.ml" 76 3260 3262 "gList.ml" 76 3260 3279
+type(
+  cont:(Gtk.liste Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> liste) ->
+  Gtk.liste Gobject.param list ->
+  ?selection_mode:GtkEnums.selection_mode ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> liste
+)
+ident(
+  ext_ref GtkList.Liste.make_params
+)
+"gList.ml" 76 3260 3280 "gList.ml" 76 3260 3282
+type(
+  Gtk.liste Gobject.param list
+)
+"gList.ml" 77 3291 3293 "gList.ml" 77 3291 3318
+type(
+  create:(Gtk.liste Gobject.param list -> liste) ->
+  Gtk.liste Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> liste
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gList.ml" 77 3291 3332 "gList.ml" 77 3291 3333
+type(
+  Gtk.liste Gobject.param list
+)
+ident(
+  def p "gList.ml" 77 3291 3337 "gList.ml" 77 3291 3363
+)
+"gList.ml" 77 3291 3337 "gList.ml" 77 3291 3346
+type(
+  Gtk.liste Gtk.obj -> liste
+)
+"gList.ml" 77 3291 3348 "gList.ml" 77 3291 3360
+type(
+  Gtk.liste Gobject.param list -> Gtk.liste Gtk.obj
+)
+ident(
+  ext_ref GtkList.Liste.create
+)
+"gList.ml" 77 3291 3361 "gList.ml" 77 3291 3362
+type(
+  Gtk.liste Gobject.param list
+)
+ident(
+  int_ref p "gList.ml" 77 3291 3332 "gList.ml" 77 3291 3333
+)
+"gList.ml" 77 3291 3347 "gList.ml" 77 3291 3363
+call(
+  stack
+)
+type(
+  Gtk.liste Gtk.obj
+)
+"gList.ml" 77 3291 3337 "gList.ml" 77 3291 3363
+call(
+  tail
+)
+type(
+  liste
+)
+"gList.ml" 77 3291 3327 "gList.ml" 77 3291 3364
+type(
+  Gtk.liste Gobject.param list -> liste
+)
+"gList.ml" 76 3260 3289 "gList.ml" 77 3291 3365
+call(
+  stack
+)
+type(
+  Gtk.liste Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> liste
+)
+"gList.ml" 76 3260 3262 "gList.ml" 77 3291 3365
+call(
+  stack
+)
+type(
+  ?selection_mode:GtkEnums.selection_mode ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> liste
+)
+"gList.ml" 81 3385 3405 "gList.ml" 81 3385 3408
+type(
+  [> Gtk.clist ] Gtk.obj
+)
+"gList.ml" 82 3418 3452 "gList.ml" 82 3418 3455
+type(
+  ([> Gtk.clist ] as 'a) Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref obj "gList.ml" 81 3385 3405 "gList.ml" 81 3385 3408
+)
+"gList.ml" 86 3503 3520 "gList.ml" 86 3503 3523
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 86 3503 3533 "gList.ml" 86 3503 3539
+type(
+  < append : string list -> int; as_widget : Gtk.widget Gtk.obj;
+    cell_pixmap : int -> int -> GDraw.pixmap option;
+    cell_style : int -> int -> GObj.style option;
+    cell_text : int -> int -> string;
+    cell_type : int -> int -> Gtk.Tags.cell_type; clear : unit -> unit;
+    coerce : GObj.widget; column_title : int -> string;
+    column_widget : int -> GObj.widget; columns : int;
+    columns_autosize : unit -> unit; connect : clist_signals;
+    destroy : unit -> unit; drag : GObj.drag_ops; event : GObj.event_ops;
+    focus_row : int; freeze : unit -> unit; get_oid : int;
+    get_row_column : x:int -> y:int -> int * int; get_row_data : int -> 'a;
+    get_row_state : int -> Gtk.Tags.state_type;
+    hadjustment : GData.adjustment; insert : row:int -> string list -> int;
+    misc : GObj.misc_ops;
+    moveto : ?row_align:Gtk.clampf ->
+             ?col_align:Gtk.clampf -> int -> int -> unit;
+    optimal_column_width : int -> int; prepend : string list -> int;
+    remove : row:int -> unit; row_is_visible : int -> Gtk.Tags.visibility;
+    row_move : int -> dst:int -> unit; row_selectable : int -> bool;
+    row_style : int -> GObj.style option; rows : int;
+    scroll_horizontal : GtkEnums.scroll_type -> pos:Gtk.clampf -> unit;
+    scroll_vertical : GtkEnums.scroll_type -> pos:Gtk.clampf -> unit;
+    select : int -> int -> unit; select_all : unit -> unit;
+    set_border_width : int -> unit;
+    set_button_actions : int -> Gtk.Tags.button_action list -> unit;
+    set_cell : ?text:string ->
+               ?pixmap:GDraw.pixmap ->
+               ?spacing:int -> ?style:GObj.style -> int -> int -> unit;
+    set_column : ?widget:GObj.widget ->
+                 ?title:string ->
+                 ?title_active:bool ->
+                 ?justification:Gtk.Tags.justification ->
+                 ?visibility:bool ->
+                 ?resizeable:bool ->
+                 ?auto_resize:bool ->
+                 ?width:int ->
+                 ?min_width:int -> ?max_width:int -> int -> unit;
+    set_hadjustment : GData.adjustment -> unit;
+    set_reorderable : bool -> unit;
+    set_row : ?foreground:GDraw.optcolor ->
+              ?background:GDraw.optcolor ->
+              ?selectable:bool -> ?style:GObj.style -> int -> unit;
+    set_row_data : int -> data:'a -> unit; set_row_height : int -> unit;
+    set_selection_mode : Gtk.Tags.selection_mode -> unit;
+    set_shadow_type : Gtk.Tags.shadow_type -> unit;
+    set_shift : int -> int -> vertical:int -> horizontal:int -> unit;
+    set_sort : ?auto:bool ->
+               ?column:int -> ?dir:Gtk.Tags.sort_type -> unit -> unit;
+    set_titles_active : bool -> unit; set_titles_show : bool -> unit;
+    set_use_drag_icons : bool -> unit;
+    set_vadjustment : GData.adjustment -> unit; sort : unit -> unit;
+    swap_rows : int -> int -> unit; thaw : unit -> unit;
+    unselect : int -> int -> unit; unselect_all : unit -> unit;
+    vadjustment : GData.adjustment; .. >
+)
+"gList.ml" 87 3540 3558 "gList.ml" 87 3540 3561
+type(
+  Gtk.clist Gtk.obj
+)
+type(
+  Gtk.clist Gtk.obj
+)
+ident(
+  int_ref obj "gList.ml" 86 3503 3520 "gList.ml" 86 3503 3523
+)
+"gList.ml" 88 3579 3607 "gList.ml" 88 3579 3618
+type(
+  (Gtk.clist, int) Gobject.property -> Gtk.clist Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gList.ml" 88 3579 3619 "gList.ml" 88 3579 3643
+type(
+  (Gtk.clist, int) Gobject.property
+)
+ident(
+  ext_ref GtkBase.Container.P.border_width
+)
+"gList.ml" 88 3579 3644 "gList.ml" 88 3579 3647
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 88 3579 3607 "gList.ml" 88 3579 3647
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gList.ml" 89 3648 3665 "gList.ml" 89 3648 3683
+type(
+  Gtk.clist Gtk.obj -> GObj.event_ops
+)
+"gList.ml" 89 3648 3684 "gList.ml" 89 3648 3687
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 89 3648 3665 "gList.ml" 89 3648 3687
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gList.ml" 90 3688 3707 "gList.ml" 90 3688 3724
+type(
+  Gtk.clist Gtk.obj -> clist_signals
+)
+"gList.ml" 90 3688 3725 "gList.ml" 90 3688 3728
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 90 3688 3707 "gList.ml" 90 3688 3728
+call(
+  tail
+)
+type(
+  clist_signals
+)
+type(
+  clist_signals
+)
+"gList.ml" 91 3729 3745 "gList.ml" 91 3729 3759
+type(
+  Gtk.clist Gtk.obj -> int
+)
+ident(
+  ext_ref GtkList.CList.get_rows
+)
+"gList.ml" 91 3729 3760 "gList.ml" 91 3729 3763
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 91 3729 3745 "gList.ml" 91 3729 3763
+type(
+  int
+)
+type(
+  int
+)
+"gList.ml" 92 3764 3783 "gList.ml" 92 3764 3800
+type(
+  Gtk.clist Gtk.obj -> int
+)
+ident(
+  ext_ref GtkList.CList.get_columns
+)
+"gList.ml" 92 3764 3801 "gList.ml" 92 3764 3804
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 92 3764 3783 "gList.ml" 92 3764 3804
+type(
+  int
+)
+type(
+  int
+)
+"gList.ml" 93 3805 3826 "gList.ml" 93 3805 3845
+type(
+  Gtk.clist Gtk.obj -> int
+)
+ident(
+  ext_ref GtkList.CList.get_focus_row
+)
+"gList.ml" 93 3805 3846 "gList.ml" 93 3805 3849
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 93 3805 3826 "gList.ml" 93 3805 3849
+type(
+  int
+)
+type(
+  int
+)
+"gList.ml" 94 3850 3873 "gList.ml" 94 3850 3893
+type(
+  Gtk.adjustment Gtk.obj -> GData.adjustment
+)
+"gList.ml" 94 3850 3895 "gList.ml" 94 3850 3916
+type(
+  Gtk.clist Gtk.obj -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GtkList.CList.get_hadjustment
+)
+"gList.ml" 94 3850 3917 "gList.ml" 94 3850 3920
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 94 3850 3894 "gList.ml" 94 3850 3921
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gList.ml" 94 3850 3873 "gList.ml" 94 3850 3921
+call(
+  tail
+)
+type(
+  GData.adjustment
+)
+type(
+  GData.adjustment
+)
+"gList.ml" 95 3922 3945 "gList.ml" 95 3922 3965
+type(
+  Gtk.adjustment Gtk.obj -> GData.adjustment
+)
+"gList.ml" 95 3922 3967 "gList.ml" 95 3922 3988
+type(
+  Gtk.clist Gtk.obj -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GtkList.CList.get_vadjustment
+)
+"gList.ml" 95 3922 3989 "gList.ml" 95 3922 3992
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 95 3922 3966 "gList.ml" 95 3922 3993
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gList.ml" 95 3922 3945 "gList.ml" 95 3922 3993
+call(
+  tail
+)
+type(
+  GData.adjustment
+)
+type(
+  GData.adjustment
+)
+"gList.ml" 96 3994 4010 "gList.ml" 96 3994 4012
+type(
+  unit
+)
+"gList.ml" 96 3994 4015 "gList.ml" 96 3994 4027
+type(
+  Gtk.clist Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkList.CList.freeze
+)
+"gList.ml" 96 3994 4028 "gList.ml" 96 3994 4031
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 96 3994 4015 "gList.ml" 96 3994 4031
+type(
+  unit
+)
+"gList.ml" 97 4032 4046 "gList.ml" 97 4032 4048
+type(
+  unit
+)
+"gList.ml" 97 4032 4051 "gList.ml" 97 4032 4061
+type(
+  Gtk.clist Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkList.CList.thaw
+)
+"gList.ml" 97 4032 4062 "gList.ml" 97 4032 4065
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 97 4032 4051 "gList.ml" 97 4032 4065
+type(
+  unit
+)
+"gList.ml" 98 4066 4090 "gList.ml" 98 4066 4112
+type(
+  Gtk.clist Gtk.obj -> int -> string
+)
+ident(
+  ext_ref GtkList.CList.get_column_title
+)
+"gList.ml" 98 4066 4113 "gList.ml" 98 4066 4116
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 98 4066 4090 "gList.ml" 98 4066 4116
+call(
+  tail
+)
+type(
+  int -> string
+)
+type(
+  int -> string
+)
+"gList.ml" 99 4117 4140 "gList.ml" 99 4117 4143
+type(
+  int
+)
+ident(
+  def col "gList.ml" 100 4146 4150 "gList.ml" 100 4146 4194
+)
+"gList.ml" 100 4146 4150 "gList.ml" 100 4146 4160
+type(
+  Gtk.widget Gtk.obj -> GObj.widget
+)
+"gList.ml" 100 4146 4162 "gList.ml" 100 4146 4185
+type(
+  Gtk.clist Gtk.obj -> int -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GtkList.CList.get_column_widget
+)
+"gList.ml" 100 4146 4186 "gList.ml" 100 4146 4189
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 100 4146 4190 "gList.ml" 100 4146 4193
+type(
+  int
+)
+ident(
+  int_ref col "gList.ml" 99 4117 4140 "gList.ml" 99 4117 4143
+)
+"gList.ml" 100 4146 4161 "gList.ml" 100 4146 4194
+type(
+  Gtk.widget Gtk.obj
+)
+"gList.ml" 100 4146 4150 "gList.ml" 100 4146 4194
+call(
+  tail
+)
+type(
+  GObj.widget
+)
+"gList.ml" 101 4195 4221 "gList.ml" 101 4195 4223
+type(
+  unit
+)
+"gList.ml" 101 4195 4226 "gList.ml" 101 4195 4248
+type(
+  Gtk.clist Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkList.CList.columns_autosize
+)
+"gList.ml" 101 4195 4249 "gList.ml" 101 4195 4252
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 101 4195 4226 "gList.ml" 101 4195 4252
+type(
+  unit
+)
+"gList.ml" 102 4253 4285 "gList.ml" 102 4253 4311
+type(
+  Gtk.clist Gtk.obj -> int -> int
+)
+ident(
+  ext_ref GtkList.CList.optimal_column_width
+)
+"gList.ml" 102 4253 4312 "gList.ml" 102 4253 4315
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 102 4253 4285 "gList.ml" 102 4253 4315
+call(
+  tail
+)
+type(
+  int -> int
+)
+type(
+  int -> int
+)
+"gList.ml" 103 4316 4334 "gList.ml" 103 4316 4343
+type(
+  Gtk.clampf
+)
+"gList.ml" 103 4316 4344 "gList.ml" 103 4316 4346
+type(
+  Gtk.clampf
+)
+type(
+  Gtk.clampf
+)
+ident(
+  int_ref *sth* "gList.ml" 103 4316 4344 "gList.ml" 103 4316 4346
+)
+type(
+  Gtk.clampf option
+)
+type(
+  Gtk.clampf option
+)
+type(
+  Gtk.clampf
+)
+ident(
+  def *sth* "gList.ml" 103 4316 4344 "gList.ml" 103 4316 4346
+)
+"gList.ml" 103 4316 4350 "gList.ml" 103 4316 4359
+type(
+  Gtk.clampf
+)
+"gList.ml" 103 4316 4360 "gList.ml" 103 4316 4362
+type(
+  Gtk.clampf
+)
+type(
+  Gtk.clampf
+)
+ident(
+  int_ref *sth* "gList.ml" 103 4316 4360 "gList.ml" 103 4316 4362
+)
+type(
+  Gtk.clampf option
+)
+type(
+  Gtk.clampf option
+)
+type(
+  Gtk.clampf
+)
+ident(
+  def *sth* "gList.ml" 103 4316 4360 "gList.ml" 103 4316 4362
+)
+"gList.ml" 103 4316 4364 "gList.ml" 103 4316 4367
+type(
+  int
+)
+ident(
+  def row "gList.ml" 103 4316 4368 "gList.ml" 104 4374 4424
+)
+"gList.ml" 103 4316 4368 "gList.ml" 103 4316 4371
+type(
+  int
+)
+ident(
+  def col "gList.ml" 104 4374 4378 "gList.ml" 104 4374 4424
+)
+"gList.ml" 104 4374 4378 "gList.ml" 104 4374 4390
+type(
+  Gtk.clist Gtk.obj ->
+  int -> int -> row_align:Gtk.clampf -> col_align:Gtk.clampf -> unit
+)
+ident(
+  ext_ref GtkList.CList.moveto
+)
+"gList.ml" 104 4374 4391 "gList.ml" 104 4374 4394
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 104 4374 4395 "gList.ml" 104 4374 4398
+type(
+  int
+)
+ident(
+  int_ref row "gList.ml" 103 4316 4364 "gList.ml" 103 4316 4367
+)
+"gList.ml" 104 4374 4399 "gList.ml" 104 4374 4402
+type(
+  int
+)
+ident(
+  int_ref col "gList.ml" 103 4316 4368 "gList.ml" 103 4316 4371
+)
+"gList.ml" 104 4374 4404 "gList.ml" 104 4374 4413
+type(
+  Gtk.clampf
+)
+ident(
+  int_ref row_align "gList.ml" 103 4316 4334 "gList.ml" 103 4316 4343
+)
+"gList.ml" 104 4374 4415 "gList.ml" 104 4374 4424
+type(
+  Gtk.clampf
+)
+ident(
+  int_ref col_align "gList.ml" 103 4316 4350 "gList.ml" 103 4316 4359
+)
+"gList.ml" 104 4374 4378 "gList.ml" 104 4374 4424
+type(
+  unit
+)
+"gList.ml" 105 4425 4451 "gList.ml" 105 4425 4471
+type(
+  Gtk.clist Gtk.obj -> int -> Gtk.Tags.visibility
+)
+ident(
+  ext_ref GtkList.CList.row_is_visible
+)
+"gList.ml" 105 4425 4472 "gList.ml" 105 4425 4475
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 105 4425 4451 "gList.ml" 105 4425 4475
+call(
+  tail
+)
+type(
+  int -> Gtk.Tags.visibility
+)
+type(
+  int -> Gtk.Tags.visibility
+)
+"gList.ml" 106 4476 4497 "gList.ml" 106 4476 4516
+type(
+  Gtk.clist Gtk.obj -> int -> int -> Gtk.Tags.cell_type
+)
+ident(
+  ext_ref GtkList.CList.get_cell_type
+)
+"gList.ml" 106 4476 4517 "gList.ml" 106 4476 4520
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 106 4476 4497 "gList.ml" 106 4476 4520
+call(
+  tail
+)
+type(
+  int -> int -> Gtk.Tags.cell_type
+)
+type(
+  int -> int -> Gtk.Tags.cell_type
+)
+"gList.ml" 107 4521 4542 "gList.ml" 107 4521 4556
+type(
+  Gtk.clist Gtk.obj -> int -> int -> string
+)
+ident(
+  ext_ref GtkList.CList.get_text
+)
+"gList.ml" 107 4521 4557 "gList.ml" 107 4521 4560
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 107 4521 4542 "gList.ml" 107 4521 4560
+call(
+  tail
+)
+type(
+  int -> int -> string
+)
+type(
+  int -> int -> string
+)
+"gList.ml" 108 4561 4582 "gList.ml" 108 4561 4585
+type(
+  int
+)
+ident(
+  def row "gList.ml" 108 4561 4586 "gList.ml" 110 4643 4696
+)
+"gList.ml" 108 4561 4586 "gList.ml" 108 4561 4589
+type(
+  int
+)
+ident(
+  def col "gList.ml" 109 4592 4596 "gList.ml" 110 4643 4696
+)
+"gList.ml" 109 4592 4600 "gList.ml" 109 4592 4602
+type(
+  Gdk.pixmap option
+)
+"gList.ml" 109 4592 4604 "gList.ml" 109 4592 4608
+type(
+  Gdk.bitmap option
+)
+"gList.ml" 109 4592 4600 "gList.ml" 109 4592 4608
+type(
+  Gdk.pixmap option * Gdk.bitmap option
+)
+"gList.ml" 109 4592 4611 "gList.ml" 109 4592 4627
+type(
+  Gtk.clist Gtk.obj -> int -> int -> Gdk.pixmap option * Gdk.bitmap option
+)
+ident(
+  ext_ref GtkList.CList.get_pixmap
+)
+"gList.ml" 109 4592 4628 "gList.ml" 109 4592 4631
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 109 4592 4632 "gList.ml" 109 4592 4635
+type(
+  int
+)
+ident(
+  int_ref row "gList.ml" 108 4561 4582 "gList.ml" 108 4561 4585
+)
+"gList.ml" 109 4592 4636 "gList.ml" 109 4592 4639
+type(
+  int
+)
+ident(
+  int_ref col "gList.ml" 108 4561 4586 "gList.ml" 108 4561 4589
+)
+"gList.ml" 109 4592 4611 "gList.ml" 109 4592 4639
+type(
+  Gdk.pixmap option * Gdk.bitmap option
+)
+"gList.ml" 110 4643 4647 "gList.ml" 110 4643 4654
+type(
+  f:(Gdk.pixmap -> GDraw.pixmap) -> Gdk.pixmap option -> GDraw.pixmap option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gList.ml" 110 4643 4655 "gList.ml" 110 4643 4657
+type(
+  Gdk.pixmap option
+)
+ident(
+  int_ref pm "gList.ml" 109 4592 4600 "gList.ml" 109 4592 4602
+)
+"gList.ml" 110 4643 4666 "gList.ml" 110 4643 4667
+type(
+  Gdk.pixmap
+)
+ident(
+  def x "gList.ml" 110 4643 4671 "gList.ml" 110 4643 4695
+)
+"gList.ml" 110 4643 4671 "gList.ml" 110 4643 4687
+type(
+  ?colormap:Gdk.colormap -> ?mask:Gdk.bitmap -> Gdk.pixmap -> GDraw.pixmap
+)
+"gList.ml" 110 4643 4689 "gList.ml" 110 4643 4693
+type(
+  Gdk.bitmap option
+)
+ident(
+  int_ref mask "gList.ml" 109 4592 4604 "gList.ml" 109 4592 4608
+)
+"gList.ml" 110 4643 4694 "gList.ml" 110 4643 4695
+type(
+  Gdk.pixmap
+)
+ident(
+  int_ref x "gList.ml" 110 4643 4666 "gList.ml" 110 4643 4667
+)
+"gList.ml" 110 4643 4671 "gList.ml" 110 4643 4695
+call(
+  tail
+)
+type(
+  GDraw.pixmap
+)
+"gList.ml" 110 4643 4661 "gList.ml" 110 4643 4696
+type(
+  Gdk.pixmap -> GDraw.pixmap
+)
+"gList.ml" 110 4643 4647 "gList.ml" 110 4643 4696
+call(
+  tail
+)
+type(
+  GDraw.pixmap option
+)
+"gList.ml" 109 4592 4596 "gList.ml" 110 4643 4696
+type(
+  GDraw.pixmap option
+)
+"gList.ml" 111 4697 4718 "gList.ml" 111 4697 4721
+type(
+  int
+)
+ident(
+  def row "gList.ml" 111 4697 4722 "gList.ml" 113 4788 4818
+)
+"gList.ml" 111 4697 4722 "gList.ml" 111 4697 4725
+type(
+  int
+)
+ident(
+  def col "gList.ml" 112 4728 4732 "gList.ml" 113 4788 4818
+)
+"gList.ml" 112 4728 4742 "gList.ml" 112 4728 4751
+type(
+  Gtk.style -> GObj.style
+)
+"gList.ml" 112 4728 4753 "gList.ml" 112 4728 4773
+type(
+  Gtk.clist Gtk.obj -> int -> int -> Gtk.style
+)
+ident(
+  ext_ref GtkList.CList.get_cell_style
+)
+"gList.ml" 112 4728 4774 "gList.ml" 112 4728 4777
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 112 4728 4778 "gList.ml" 112 4728 4781
+type(
+  int
+)
+ident(
+  int_ref row "gList.ml" 111 4697 4718 "gList.ml" 111 4697 4721
+)
+"gList.ml" 112 4728 4782 "gList.ml" 112 4728 4785
+type(
+  int
+)
+ident(
+  int_ref col "gList.ml" 111 4697 4722 "gList.ml" 111 4697 4725
+)
+"gList.ml" 112 4728 4752 "gList.ml" 112 4728 4786
+type(
+  Gtk.style
+)
+"gList.ml" 112 4728 4741 "gList.ml" 112 4728 4787
+call(
+  stack
+)
+type(
+  GObj.style
+)
+"gList.ml" 112 4728 4736 "gList.ml" 112 4728 4787
+type(
+  GObj.style option
+)
+"gList.ml" 113 4788 4797 "gList.ml" 113 4788 4810
+type(
+  exn
+)
+"gList.ml" 113 4788 4814 "gList.ml" 113 4788 4818
+type(
+  GObj.style option
+)
+"gList.ml" 112 4728 4732 "gList.ml" 113 4788 4818
+type(
+  GObj.style option
+)
+"gList.ml" 114 4819 4843 "gList.ml" 114 4819 4846
+type(
+  int
+)
+ident(
+  def row "gList.ml" 114 4819 4849 "gList.ml" 114 4819 4878
+)
+"gList.ml" 114 4819 4849 "gList.ml" 114 4819 4869
+type(
+  Gtk.clist Gtk.obj -> row:int -> bool
+)
+ident(
+  ext_ref GtkList.CList.get_selectable
+)
+"gList.ml" 114 4819 4870 "gList.ml" 114 4819 4873
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 114 4819 4875 "gList.ml" 114 4819 4878
+type(
+  int
+)
+ident(
+  int_ref row "gList.ml" 114 4819 4843 "gList.ml" 114 4819 4846
+)
+"gList.ml" 114 4819 4849 "gList.ml" 114 4819 4878
+type(
+  bool
+)
+"gList.ml" 115 4879 4898 "gList.ml" 115 4879 4901
+type(
+  int
+)
+ident(
+  def row "gList.ml" 116 4904 4908 "gList.ml" 117 4960 4990
+)
+"gList.ml" 116 4904 4918 "gList.ml" 116 4904 4927
+type(
+  Gtk.style -> GObj.style
+)
+"gList.ml" 116 4904 4929 "gList.ml" 116 4904 4948
+type(
+  Gtk.clist Gtk.obj -> row:int -> Gtk.style
+)
+ident(
+  ext_ref GtkList.CList.get_row_style
+)
+"gList.ml" 116 4904 4949 "gList.ml" 116 4904 4952
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 116 4904 4954 "gList.ml" 116 4904 4957
+type(
+  int
+)
+ident(
+  int_ref row "gList.ml" 115 4879 4898 "gList.ml" 115 4879 4901
+)
+"gList.ml" 116 4904 4928 "gList.ml" 116 4904 4958
+type(
+  Gtk.style
+)
+"gList.ml" 116 4904 4917 "gList.ml" 116 4904 4959
+call(
+  stack
+)
+type(
+  GObj.style
+)
+"gList.ml" 116 4904 4912 "gList.ml" 116 4904 4959
+type(
+  GObj.style option
+)
+"gList.ml" 117 4960 4969 "gList.ml" 117 4960 4982
+type(
+  exn
+)
+"gList.ml" 117 4960 4986 "gList.ml" 117 4960 4990
+type(
+  GObj.style option
+)
+"gList.ml" 116 4904 4908 "gList.ml" 117 4960 4990
+type(
+  GObj.style option
+)
+"gList.ml" 118 4991 5012 "gList.ml" 118 4991 5027
+type(
+  Gtk.clist Gtk.obj -> int -> int -> vertical:int -> horizontal:int -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_shift
+)
+"gList.ml" 118 4991 5028 "gList.ml" 118 4991 5031
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 118 4991 5012 "gList.ml" 118 4991 5031
+call(
+  tail
+)
+type(
+  int -> int -> vertical:int -> horizontal:int -> unit
+)
+type(
+  int -> int -> vertical:int -> horizontal:int -> unit
+)
+"gList.ml" 119 5032 5049 "gList.ml" 119 5032 5052
+type(
+  int
+)
+ident(
+  def row "gList.ml" 119 5032 5053 "gList.ml" 121 5116 5147
+)
+"gList.ml" 119 5032 5053 "gList.ml" 119 5032 5058
+type(
+  string list
+)
+ident(
+  def texts "gList.ml" 120 5061 5065 "gList.ml" 121 5116 5147
+)
+"gList.ml" 120 5061 5069 "gList.ml" 120 5061 5074
+type(
+  string option list
+)
+"gList.ml" 120 5061 5077 "gList.ml" 120 5061 5085
+type(
+  f:(string -> string option) -> string list -> string option list
+)
+ident(
+  ext_ref StdLabels.List.map
+)
+"gList.ml" 120 5061 5086 "gList.ml" 120 5061 5091
+type(
+  string list
+)
+ident(
+  int_ref texts "gList.ml" 119 5032 5053 "gList.ml" 119 5032 5058
+)
+"gList.ml" 120 5061 5100 "gList.ml" 120 5061 5101
+type(
+  string
+)
+ident(
+  def x "gList.ml" 120 5061 5105 "gList.ml" 120 5061 5111
+)
+"gList.ml" 120 5061 5110 "gList.ml" 120 5061 5111
+type(
+  string
+)
+ident(
+  int_ref x "gList.ml" 120 5061 5100 "gList.ml" 120 5061 5101
+)
+"gList.ml" 120 5061 5105 "gList.ml" 120 5061 5111
+type(
+  string option
+)
+"gList.ml" 120 5061 5095 "gList.ml" 120 5061 5112
+type(
+  string -> string option
+)
+"gList.ml" 120 5061 5077 "gList.ml" 120 5061 5112
+call(
+  stack
+)
+type(
+  string option list
+)
+"gList.ml" 121 5116 5120 "gList.ml" 121 5116 5132
+type(
+  Gtk.clist Gtk.obj -> row:int -> string option list -> int
+)
+ident(
+  ext_ref GtkList.CList.insert
+)
+"gList.ml" 121 5116 5133 "gList.ml" 121 5116 5136
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 121 5116 5138 "gList.ml" 121 5116 5141
+type(
+  int
+)
+ident(
+  int_ref row "gList.ml" 119 5032 5049 "gList.ml" 119 5032 5052
+)
+"gList.ml" 121 5116 5142 "gList.ml" 121 5116 5147
+type(
+  string option list
+)
+ident(
+  int_ref texts "gList.ml" 120 5061 5069 "gList.ml" 120 5061 5074
+)
+"gList.ml" 121 5116 5120 "gList.ml" 121 5116 5147
+call(
+  tail
+)
+type(
+  int
+)
+"gList.ml" 120 5061 5065 "gList.ml" 121 5116 5147
+type(
+  int
+)
+"gList.ml" 122 5148 5166 "gList.ml" 122 5148 5170
+type(
+  < append : string list -> int; as_widget : Gtk.widget Gtk.obj;
+    cell_pixmap : int -> int -> GDraw.pixmap option;
+    cell_style : int -> int -> GObj.style option;
+    cell_text : int -> int -> string;
+    cell_type : int -> int -> Gtk.Tags.cell_type; clear : unit -> unit;
+    coerce : GObj.widget; column_title : int -> string;
+    column_widget : int -> GObj.widget; columns : int;
+    columns_autosize : unit -> unit; connect : clist_signals;
+    destroy : unit -> unit; drag : GObj.drag_ops; event : GObj.event_ops;
+    focus_row : int; freeze : unit -> unit; get_oid : int;
+    get_row_column : x:int -> y:int -> int * int; get_row_data : int -> 'a;
+    get_row_state : int -> Gtk.Tags.state_type;
+    hadjustment : GData.adjustment; insert : row:int -> string list -> int;
+    misc : GObj.misc_ops;
+    moveto : ?row_align:Gtk.clampf ->
+             ?col_align:Gtk.clampf -> int -> int -> unit;
+    optimal_column_width : int -> int; prepend : string list -> int;
+    remove : row:int -> unit; row_is_visible : int -> Gtk.Tags.visibility;
+    row_move : int -> dst:int -> unit; row_selectable : int -> bool;
+    row_style : int -> GObj.style option; rows : int;
+    scroll_horizontal : GtkEnums.scroll_type -> pos:Gtk.clampf -> unit;
+    scroll_vertical : GtkEnums.scroll_type -> pos:Gtk.clampf -> unit;
+    select : int -> int -> unit; select_all : unit -> unit;
+    set_border_width : int -> unit;
+    set_button_actions : int -> Gtk.Tags.button_action list -> unit;
+    set_cell : ?text:string ->
+               ?pixmap:GDraw.pixmap ->
+               ?spacing:int -> ?style:GObj.style -> int -> int -> unit;
+    set_column : ?widget:GObj.widget ->
+                 ?title:string ->
+                 ?title_active:bool ->
+                 ?justification:Gtk.Tags.justification ->
+                 ?visibility:bool ->
+                 ?resizeable:bool ->
+                 ?auto_resize:bool ->
+                 ?width:int ->
+                 ?min_width:int -> ?max_width:int -> int -> unit;
+    set_hadjustment : GData.adjustment -> unit;
+    set_reorderable : bool -> unit;
+    set_row : ?foreground:GDraw.optcolor ->
+              ?background:GDraw.optcolor ->
+              ?selectable:bool -> ?style:GObj.style -> int -> unit;
+    set_row_data : int -> data:'a -> unit; set_row_height : int -> unit;
+    set_selection_mode : Gtk.Tags.selection_mode -> unit;
+    set_shadow_type : Gtk.Tags.shadow_type -> unit;
+    set_shift : int -> int -> vertical:int -> horizontal:int -> unit;
+    set_sort : ?auto:bool ->
+               ?column:int -> ?dir:Gtk.Tags.sort_type -> unit -> unit;
+    set_titles_active : bool -> unit; set_titles_show : bool -> unit;
+    set_use_drag_icons : bool -> unit;
+    set_vadjustment : GData.adjustment -> unit; sort : unit -> unit;
+    swap_rows : int -> int -> unit; thaw : unit -> unit;
+    unselect : int -> int -> unit; unselect_all : unit -> unit;
+    vadjustment : GData.adjustment; .. >
+  as 'b
+)
+"gList.ml" 122 5148 5166 "gList.ml" 122 5148 5177
+call(
+  tail
+)
+type(
+  row:int -> string list -> int
+)
+"gList.ml" 122 5148 5183 "gList.ml" 122 5148 5187
+type(
+  'b
+)
+"gList.ml" 122 5148 5183 "gList.ml" 122 5148 5192
+call(
+  stack
+)
+type(
+  int
+)
+"gList.ml" 122 5148 5166 "gList.ml" 122 5148 5192
+type(
+  string list -> int
+)
+type(
+  string list -> int
+)
+"gList.ml" 123 5193 5212 "gList.ml" 123 5193 5216
+type(
+  'b
+)
+"gList.ml" 123 5193 5212 "gList.ml" 123 5193 5223
+call(
+  tail
+)
+type(
+  row:int -> string list -> int
+)
+"gList.ml" 123 5193 5229 "gList.ml" 123 5193 5230
+type(
+  int
+)
+"gList.ml" 123 5193 5212 "gList.ml" 123 5193 5230
+type(
+  string list -> int
+)
+type(
+  string list -> int
+)
+"gList.ml" 124 5231 5249 "gList.ml" 124 5231 5261
+type(
+  Gtk.clist Gtk.obj -> row:int -> unit
+)
+ident(
+  ext_ref GtkList.CList.remove
+)
+"gList.ml" 124 5231 5262 "gList.ml" 124 5231 5265
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 124 5231 5249 "gList.ml" 124 5231 5265
+call(
+  tail
+)
+type(
+  row:int -> unit
+)
+type(
+  row:int -> unit
+)
+"gList.ml" 125 5266 5284 "gList.ml" 125 5266 5296
+type(
+  Gtk.clist Gtk.obj -> int -> int -> unit
+)
+ident(
+  ext_ref GtkList.CList.select
+)
+"gList.ml" 125 5266 5297 "gList.ml" 125 5266 5300
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 125 5266 5284 "gList.ml" 125 5266 5300
+call(
+  tail
+)
+type(
+  int -> int -> unit
+)
+type(
+  int -> int -> unit
+)
+"gList.ml" 126 5301 5321 "gList.ml" 126 5301 5335
+type(
+  Gtk.clist Gtk.obj -> int -> int -> unit
+)
+ident(
+  ext_ref GtkList.CList.unselect
+)
+"gList.ml" 126 5301 5336 "gList.ml" 126 5301 5339
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 126 5301 5321 "gList.ml" 126 5301 5339
+call(
+  tail
+)
+type(
+  int -> int -> unit
+)
+type(
+  int -> int -> unit
+)
+"gList.ml" 127 5340 5355 "gList.ml" 127 5340 5357
+type(
+  unit
+)
+"gList.ml" 127 5340 5360 "gList.ml" 127 5340 5371
+type(
+  Gtk.clist Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkList.CList.clear
+)
+"gList.ml" 127 5340 5372 "gList.ml" 127 5340 5375
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 127 5340 5360 "gList.ml" 127 5340 5375
+type(
+  unit
+)
+"gList.ml" 128 5376 5402 "gList.ml" 128 5376 5422
+type(
+  Gtk.clist Gtk.obj -> x:int -> y:int -> int * int
+)
+ident(
+  ext_ref GtkList.CList.get_row_column
+)
+"gList.ml" 128 5376 5423 "gList.ml" 128 5376 5426
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 128 5376 5402 "gList.ml" 128 5376 5426
+call(
+  tail
+)
+type(
+  x:int -> y:int -> int * int
+)
+type(
+  x:int -> y:int -> int * int
+)
+"gList.ml" 129 5427 5447 "gList.ml" 129 5427 5449
+type(
+  unit
+)
+"gList.ml" 129 5427 5452 "gList.ml" 129 5427 5468
+type(
+  Gtk.clist Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkList.CList.select_all
+)
+"gList.ml" 129 5427 5469 "gList.ml" 129 5427 5472
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 129 5427 5452 "gList.ml" 129 5427 5472
+type(
+  unit
+)
+"gList.ml" 130 5473 5495 "gList.ml" 130 5473 5497
+type(
+  unit
+)
+"gList.ml" 130 5473 5500 "gList.ml" 130 5473 5518
+type(
+  Gtk.clist Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkList.CList.unselect_all
+)
+"gList.ml" 130 5473 5519 "gList.ml" 130 5473 5522
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 130 5473 5500 "gList.ml" 130 5473 5522
+type(
+  unit
+)
+"gList.ml" 131 5523 5544 "gList.ml" 131 5523 5559
+type(
+  Gtk.clist Gtk.obj -> int -> int -> unit
+)
+ident(
+  ext_ref GtkList.CList.swap_rows
+)
+"gList.ml" 131 5523 5560 "gList.ml" 131 5523 5563
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 131 5523 5544 "gList.ml" 131 5523 5563
+call(
+  tail
+)
+type(
+  int -> int -> unit
+)
+type(
+  int -> int -> unit
+)
+"gList.ml" 132 5564 5584 "gList.ml" 132 5564 5598
+type(
+  Gtk.clist Gtk.obj -> int -> dst:int -> unit
+)
+ident(
+  ext_ref GtkList.CList.row_move
+)
+"gList.ml" 132 5564 5599 "gList.ml" 132 5564 5602
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 132 5564 5584 "gList.ml" 132 5564 5602
+call(
+  tail
+)
+type(
+  int -> dst:int -> unit
+)
+type(
+  int -> dst:int -> unit
+)
+"gList.ml" 133 5603 5617 "gList.ml" 133 5603 5619
+type(
+  unit
+)
+"gList.ml" 133 5603 5622 "gList.ml" 133 5603 5632
+type(
+  Gtk.clist Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkList.CList.sort
+)
+"gList.ml" 133 5603 5633 "gList.ml" 133 5603 5636
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 133 5603 5622 "gList.ml" 133 5603 5636
+type(
+  unit
+)
+"gList.ml" 134 5637 5662 "gList.ml" 134 5637 5665
+type(
+  GData.adjustment
+)
+ident(
+  def adj "gList.ml" 135 5668 5672 "gList.ml" 135 5668 5723
+)
+"gList.ml" 135 5668 5672 "gList.ml" 135 5668 5693
+type(
+  Gtk.clist Gtk.obj -> Gtk.adjustment Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_hadjustment
+)
+"gList.ml" 135 5668 5694 "gList.ml" 135 5668 5697
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 135 5668 5699 "gList.ml" 135 5668 5718
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gList.ml" 135 5668 5719 "gList.ml" 135 5668 5722
+type(
+  GData.adjustment
+)
+ident(
+  int_ref adj "gList.ml" 134 5637 5662 "gList.ml" 134 5637 5665
+)
+"gList.ml" 135 5668 5698 "gList.ml" 135 5668 5723
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gList.ml" 135 5668 5672 "gList.ml" 135 5668 5723
+type(
+  unit
+)
+"gList.ml" 136 5724 5749 "gList.ml" 136 5724 5752
+type(
+  GData.adjustment
+)
+ident(
+  def adj "gList.ml" 137 5755 5759 "gList.ml" 137 5755 5810
+)
+"gList.ml" 137 5755 5759 "gList.ml" 137 5755 5780
+type(
+  Gtk.clist Gtk.obj -> Gtk.adjustment Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_vadjustment
+)
+"gList.ml" 137 5755 5781 "gList.ml" 137 5755 5784
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 137 5755 5786 "gList.ml" 137 5755 5805
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gList.ml" 137 5755 5806 "gList.ml" 137 5755 5809
+type(
+  GData.adjustment
+)
+ident(
+  int_ref adj "gList.ml" 136 5724 5749 "gList.ml" 136 5724 5752
+)
+"gList.ml" 137 5755 5785 "gList.ml" 137 5755 5810
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gList.ml" 137 5755 5759 "gList.ml" 137 5755 5810
+type(
+  unit
+)
+"gList.ml" 138 5811 5838 "gList.ml" 138 5811 5859
+type(
+  Gtk.clist Gtk.obj -> Gtk.Tags.shadow_type -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_shadow_type
+)
+"gList.ml" 138 5811 5860 "gList.ml" 138 5811 5863
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 138 5811 5838 "gList.ml" 138 5811 5863
+call(
+  tail
+)
+type(
+  Gtk.Tags.shadow_type -> unit
+)
+type(
+  Gtk.Tags.shadow_type -> unit
+)
+"gList.ml" 139 5864 5894 "gList.ml" 139 5864 5918
+type(
+  Gtk.clist Gtk.obj -> int -> Gtk.Tags.button_action list -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_button_actions
+)
+"gList.ml" 139 5864 5919 "gList.ml" 139 5864 5922
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 139 5864 5894 "gList.ml" 139 5864 5922
+call(
+  tail
+)
+type(
+  int -> Gtk.Tags.button_action list -> unit
+)
+type(
+  int -> Gtk.Tags.button_action list -> unit
+)
+"gList.ml" 140 5923 5953 "gList.ml" 140 5923 5977
+type(
+  Gtk.clist Gtk.obj -> Gtk.Tags.selection_mode -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_selection_mode
+)
+"gList.ml" 140 5923 5978 "gList.ml" 140 5923 5981
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 140 5923 5953 "gList.ml" 140 5923 5981
+call(
+  tail
+)
+type(
+  Gtk.Tags.selection_mode -> unit
+)
+type(
+  Gtk.Tags.selection_mode -> unit
+)
+"gList.ml" 141 5982 6009 "gList.ml" 141 5982 6030
+type(
+  Gtk.clist Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_reorderable
+)
+"gList.ml" 141 5982 6031 "gList.ml" 141 5982 6034
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 141 5982 6009 "gList.ml" 141 5982 6034
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gList.ml" 142 6035 6065 "gList.ml" 142 6035 6089
+type(
+  Gtk.clist Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_use_drag_icons
+)
+"gList.ml" 142 6035 6090 "gList.ml" 142 6035 6093
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 142 6035 6065 "gList.ml" 142 6035 6093
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gList.ml" 143 6094 6120 "gList.ml" 143 6094 6140
+type(
+  Gtk.clist Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_row_height
+)
+"gList.ml" 143 6094 6141 "gList.ml" 143 6094 6144
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 143 6094 6120 "gList.ml" 143 6094 6144
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gList.ml" 144 6145 6172 "gList.ml" 144 6145 6193
+type(
+  Gtk.clist Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_titles_show
+)
+"gList.ml" 144 6145 6194 "gList.ml" 144 6145 6197
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 144 6145 6172 "gList.ml" 144 6145 6197
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gList.ml" 145 6198 6227 "gList.ml" 145 6198 6250
+type(
+  Gtk.clist Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_titles_active
+)
+"gList.ml" 145 6198 6251 "gList.ml" 145 6198 6254
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 145 6198 6227 "gList.ml" 145 6198 6254
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gList.ml" 146 6255 6275 "gList.ml" 146 6255 6289
+type(
+  Gtk.clist Gtk.obj ->
+  ?auto:bool -> ?column:int -> ?dir:Gtk.Tags.sort_type -> unit -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_sort
+)
+"gList.ml" 146 6255 6290 "gList.ml" 146 6255 6293
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 146 6255 6275 "gList.ml" 146 6255 6293
+call(
+  tail
+)
+type(
+  ?auto:bool -> ?column:int -> ?dir:Gtk.Tags.sort_type -> unit -> unit
+)
+type(
+  ?auto:bool -> ?column:int -> ?dir:Gtk.Tags.sort_type -> unit -> unit
+)
+"gList.ml" 147 6294 6315 "gList.ml" 147 6294 6321
+type(
+  GObj.widget option
+)
+ident(
+  def widget "gList.ml" 148 6324 6328 "gList.ml" 148 6324 6386
+)
+"gList.ml" 148 6324 6328 "gList.ml" 148 6324 6344
+type(
+  Gtk.clist Gtk.obj ->
+  ?widget:Gtk.widget Gtk.obj ->
+  ?title:string ->
+  ?title_active:bool ->
+  ?justification:Gtk.Tags.justification ->
+  ?visibility:bool ->
+  ?resizeable:bool ->
+  ?auto_resize:bool ->
+  ?width:int -> ?min_width:int -> ?max_width:int -> int -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_column
+)
+"gList.ml" 148 6324 6345 "gList.ml" 148 6324 6348
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 148 6324 6358 "gList.ml" 148 6324 6365
+type(
+  f:(GObj.widget -> Gtk.widget Gtk.obj) ->
+  GObj.widget option -> Gtk.widget Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gList.ml" 148 6324 6366 "gList.ml" 148 6324 6372
+type(
+  GObj.widget option
+)
+ident(
+  int_ref widget "gList.ml" 147 6294 6315 "gList.ml" 147 6294 6321
+)
+"gList.ml" 148 6324 6376 "gList.ml" 148 6324 6385
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gList.ml" 148 6324 6357 "gList.ml" 148 6324 6386
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj option
+)
+"gList.ml" 148 6324 6328 "gList.ml" 148 6324 6386
+call(
+  tail
+)
+type(
+  ?title:string ->
+  ?title_active:bool ->
+  ?justification:Gtk.Tags.justification ->
+  ?visibility:bool ->
+  ?resizeable:bool ->
+  ?auto_resize:bool ->
+  ?width:int -> ?min_width:int -> ?max_width:int -> int -> unit
+)
+"gList.ml" 149 6387 6405 "gList.ml" 149 6387 6415
+type(
+  GDraw.optcolor option
+)
+ident(
+  def foreground "gList.ml" 149 6387 6416 "gList.ml" 154 6684 6708
+)
+"gList.ml" 149 6387 6417 "gList.ml" 149 6387 6427
+type(
+  GDraw.optcolor option
+)
+ident(
+  def background "gList.ml" 149 6387 6428 "gList.ml" 154 6684 6708
+)
+"gList.ml" 149 6387 6429 "gList.ml" 149 6387 6439
+type(
+  bool option
+)
+ident(
+  def selectable "gList.ml" 149 6387 6440 "gList.ml" 154 6684 6708
+)
+"gList.ml" 149 6387 6441 "gList.ml" 149 6387 6446
+type(
+  GObj.style option
+)
+ident(
+  def style "gList.ml" 150 6449 6453 "gList.ml" 154 6684 6708
+)
+"gList.ml" 150 6449 6457 "gList.ml" 150 6449 6462
+type(
+  GDraw.optcolor option -> Gdk.color Gpointer.optboxed option
+)
+"gList.ml" 150 6449 6465 "gList.ml" 150 6449 6472
+type(
+  f:(GDraw.optcolor -> Gdk.color Gpointer.optboxed) ->
+  GDraw.optcolor option -> Gdk.color Gpointer.optboxed option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gList.ml" 150 6449 6481 "gList.ml" 150 6449 6482
+type(
+  GDraw.optcolor
+)
+ident(
+  def c "gList.ml" 150 6449 6486 "gList.ml" 150 6449 6522
+)
+"gList.ml" 150 6449 6486 "gList.ml" 150 6449 6503
+type(
+  Gdk.color option -> Gdk.color Gpointer.optboxed
+)
+ident(
+  ext_ref Gpointer.optboxed
+)
+"gList.ml" 150 6449 6505 "gList.ml" 150 6449 6519
+type(
+  ?colormap:Gdk.colormap -> GDraw.optcolor -> Gdk.color option
+)
+ident(
+  ext_ref GDraw.optcolor
+)
+"gList.ml" 150 6449 6520 "gList.ml" 150 6449 6521
+type(
+  GDraw.optcolor
+)
+ident(
+  int_ref c "gList.ml" 150 6449 6481 "gList.ml" 150 6449 6482
+)
+"gList.ml" 150 6449 6504 "gList.ml" 150 6449 6522
+call(
+  stack
+)
+type(
+  Gdk.color option
+)
+"gList.ml" 150 6449 6486 "gList.ml" 150 6449 6522
+call(
+  tail
+)
+type(
+  Gdk.color Gpointer.optboxed
+)
+"gList.ml" 150 6449 6476 "gList.ml" 150 6449 6523
+type(
+  GDraw.optcolor -> Gdk.color Gpointer.optboxed
+)
+"gList.ml" 150 6449 6465 "gList.ml" 150 6449 6523
+call(
+  stack
+)
+type(
+  GDraw.optcolor option -> Gdk.color Gpointer.optboxed option
+)
+"gList.ml" 151 6524 6532 "gList.ml" 151 6524 6537
+type(
+  Gtk.style option
+)
+"gList.ml" 151 6524 6540 "gList.ml" 151 6524 6547
+type(
+  f:(GObj.style -> Gtk.style) -> GObj.style option -> Gtk.style option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gList.ml" 151 6524 6557 "gList.ml" 151 6524 6559
+type(
+  GObj.style
+)
+ident(
+  def st "gList.ml" 151 6524 6572 "gList.ml" 151 6524 6583
+)
+"gList.ml" 151 6524 6572 "gList.ml" 151 6524 6574
+type(
+  GObj.style
+)
+ident(
+  int_ref st "gList.ml" 151 6524 6557 "gList.ml" 151 6524 6559
+)
+"gList.ml" 151 6524 6572 "gList.ml" 151 6524 6583
+call(
+  tail
+)
+type(
+  Gtk.style
+)
+"gList.ml" 151 6524 6551 "gList.ml" 151 6524 6584
+type(
+  GObj.style -> Gtk.style
+)
+"gList.ml" 151 6524 6585 "gList.ml" 151 6524 6590
+type(
+  GObj.style option
+)
+ident(
+  int_ref style "gList.ml" 149 6387 6441 "gList.ml" 149 6387 6446
+)
+"gList.ml" 151 6524 6540 "gList.ml" 151 6524 6590
+call(
+  stack
+)
+type(
+  Gtk.style option
+)
+"gList.ml" 152 6594 6598 "gList.ml" 152 6594 6611
+type(
+  Gtk.clist Gtk.obj ->
+  ?foreground:Gdk.color Gpointer.optboxed ->
+  ?background:Gdk.color Gpointer.optboxed ->
+  ?selectable:bool -> ?style:Gtk.style -> int -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_row
+)
+"gList.ml" 152 6594 6612 "gList.ml" 152 6594 6615
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 153 6616 6635 "gList.ml" 153 6616 6640
+type(
+  GDraw.optcolor option -> Gdk.color Gpointer.optboxed option
+)
+ident(
+  int_ref color "gList.ml" 150 6449 6457 "gList.ml" 150 6449 6462
+)
+"gList.ml" 153 6616 6641 "gList.ml" 153 6616 6651
+type(
+  GDraw.optcolor option
+)
+ident(
+  int_ref foreground "gList.ml" 149 6387 6405 "gList.ml" 149 6387 6415
+)
+"gList.ml" 153 6616 6634 "gList.ml" 153 6616 6652
+call(
+  stack
+)
+type(
+  Gdk.color Gpointer.optboxed option
+)
+"gList.ml" 153 6616 6666 "gList.ml" 153 6616 6671
+type(
+  GDraw.optcolor option -> Gdk.color Gpointer.optboxed option
+)
+ident(
+  int_ref color "gList.ml" 150 6449 6457 "gList.ml" 150 6449 6462
+)
+"gList.ml" 153 6616 6672 "gList.ml" 153 6616 6682
+type(
+  GDraw.optcolor option
+)
+ident(
+  int_ref background "gList.ml" 149 6387 6417 "gList.ml" 149 6387 6427
+)
+"gList.ml" 153 6616 6665 "gList.ml" 153 6616 6683
+call(
+  stack
+)
+type(
+  Gdk.color Gpointer.optboxed option
+)
+"gList.ml" 154 6684 6691 "gList.ml" 154 6684 6701
+type(
+  bool option
+)
+ident(
+  int_ref selectable "gList.ml" 149 6387 6429 "gList.ml" 149 6387 6439
+)
+"gList.ml" 154 6684 6703 "gList.ml" 154 6684 6708
+type(
+  Gtk.style option
+)
+ident(
+  int_ref style "gList.ml" 151 6524 6532 "gList.ml" 151 6524 6537
+)
+"gList.ml" 152 6594 6598 "gList.ml" 154 6684 6708
+call(
+  tail
+)
+type(
+  int -> unit
+)
+"gList.ml" 150 6449 6453 "gList.ml" 154 6684 6708
+type(
+  int -> unit
+)
+"gList.ml" 155 6709 6728 "gList.ml" 155 6709 6732
+type(
+  string option
+)
+ident(
+  def text "gList.ml" 155 6709 6733 "gList.ml" 160 6955 7013
+)
+"gList.ml" 155 6709 6734 "gList.ml" 155 6709 6740
+type(
+  GDraw.pixmap option
+)
+ident(
+  def pixmap "gList.ml" 155 6709 6741 "gList.ml" 160 6955 7013
+)
+"gList.ml" 155 6709 6742 "gList.ml" 155 6709 6749
+type(
+  int option
+)
+ident(
+  def spacing "gList.ml" 155 6709 6750 "gList.ml" 160 6955 7013
+)
+"gList.ml" 155 6709 6751 "gList.ml" 155 6709 6756
+type(
+  GObj.style option
+)
+ident(
+  def style "gList.ml" 156 6759 6763 "gList.ml" 160 6955 7013
+)
+"gList.ml" 156 6759 6767 "gList.ml" 156 6759 6773
+type(
+  Gdk.pixmap option
+)
+"gList.ml" 156 6759 6775 "gList.ml" 156 6759 6779
+type(
+  Gdk.bitmap option
+)
+"gList.ml" 156 6759 6767 "gList.ml" 156 6759 6779
+type(
+  Gdk.pixmap option * Gdk.bitmap option
+)
+"gList.ml" 157 6782 6794 "gList.ml" 157 6782 6800
+type(
+  GDraw.pixmap option
+)
+ident(
+  int_ref pixmap "gList.ml" 155 6709 6734 "gList.ml" 155 6709 6740
+)
+"gList.ml" 157 6782 6806 "gList.ml" 157 6782 6810
+type(
+  GDraw.pixmap option
+)
+"gList.ml" 157 6782 6814 "gList.ml" 157 6782 6818
+type(
+  Gdk.pixmap option
+)
+"gList.ml" 157 6782 6820 "gList.ml" 157 6782 6824
+type(
+  Gdk.bitmap option
+)
+"gList.ml" 157 6782 6814 "gList.ml" 157 6782 6824
+type(
+  Gdk.pixmap option * Gdk.bitmap option
+)
+"gList.ml" 158 6825 6839 "gList.ml" 158 6825 6841
+type(
+  GDraw.pixmap
+)
+ident(
+  def pm "gList.ml" 158 6825 6861 "gList.ml" 158 6825 6884
+)
+"gList.ml" 158 6825 6833 "gList.ml" 158 6825 6857
+type(
+  GDraw.pixmap option
+)
+"gList.ml" 158 6825 6866 "gList.ml" 158 6825 6868
+type(
+  GDraw.pixmap
+)
+ident(
+  int_ref pm "gList.ml" 158 6825 6839 "gList.ml" 158 6825 6841
+)
+"gList.ml" 158 6825 6866 "gList.ml" 158 6825 6875
+call(
+  stack
+)
+type(
+  Gdk.pixmap
+)
+"gList.ml" 158 6825 6861 "gList.ml" 158 6825 6875
+type(
+  Gdk.pixmap option
+)
+"gList.ml" 158 6825 6877 "gList.ml" 158 6825 6879
+type(
+  GDraw.pixmap
+)
+ident(
+  int_ref pm "gList.ml" 158 6825 6839 "gList.ml" 158 6825 6841
+)
+"gList.ml" 158 6825 6877 "gList.ml" 158 6825 6884
+call(
+  stack
+)
+type(
+  Gdk.bitmap option
+)
+"gList.ml" 158 6825 6861 "gList.ml" 158 6825 6884
+type(
+  Gdk.pixmap option * Gdk.bitmap option
+)
+"gList.ml" 157 6782 6788 "gList.ml" 158 6825 6884
+type(
+  Gdk.pixmap option * Gdk.bitmap option
+)
+"gList.ml" 159 6885 6893 "gList.ml" 159 6885 6898
+type(
+  Gtk.style option
+)
+"gList.ml" 159 6885 6901 "gList.ml" 159 6885 6908
+type(
+  f:(GObj.style -> Gtk.style) -> GObj.style option -> Gtk.style option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gList.ml" 159 6885 6918 "gList.ml" 159 6885 6920
+type(
+  GObj.style
+)
+ident(
+  def st "gList.ml" 159 6885 6933 "gList.ml" 159 6885 6944
+)
+"gList.ml" 159 6885 6933 "gList.ml" 159 6885 6935
+type(
+  GObj.style
+)
+ident(
+  int_ref st "gList.ml" 159 6885 6918 "gList.ml" 159 6885 6920
+)
+"gList.ml" 159 6885 6933 "gList.ml" 159 6885 6944
+call(
+  tail
+)
+type(
+  Gtk.style
+)
+"gList.ml" 159 6885 6912 "gList.ml" 159 6885 6945
+type(
+  GObj.style -> Gtk.style
+)
+"gList.ml" 159 6885 6946 "gList.ml" 159 6885 6951
+type(
+  GObj.style option
+)
+ident(
+  int_ref style "gList.ml" 155 6709 6751 "gList.ml" 155 6709 6756
+)
+"gList.ml" 159 6885 6901 "gList.ml" 159 6885 6951
+call(
+  stack
+)
+type(
+  Gtk.style option
+)
+"gList.ml" 160 6955 6959 "gList.ml" 160 6955 6973
+type(
+  Gtk.clist Gtk.obj ->
+  ?text:string ->
+  ?pixmap:Gdk.pixmap ->
+  ?mask:Gdk.bitmap -> ?spacing:int -> ?style:Gtk.style -> int -> int -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_cell
+)
+"gList.ml" 160 6955 6974 "gList.ml" 160 6955 6977
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 160 6955 6979 "gList.ml" 160 6955 6983
+type(
+  string option
+)
+ident(
+  int_ref text "gList.ml" 155 6709 6728 "gList.ml" 155 6709 6732
+)
+"gList.ml" 160 6955 6985 "gList.ml" 160 6955 6991
+type(
+  Gdk.pixmap option
+)
+ident(
+  int_ref pixmap "gList.ml" 156 6759 6767 "gList.ml" 156 6759 6773
+)
+"gList.ml" 160 6955 6993 "gList.ml" 160 6955 6997
+type(
+  Gdk.bitmap option
+)
+ident(
+  int_ref mask "gList.ml" 156 6759 6775 "gList.ml" 156 6759 6779
+)
+"gList.ml" 160 6955 6999 "gList.ml" 160 6955 7006
+type(
+  int option
+)
+ident(
+  int_ref spacing "gList.ml" 155 6709 6742 "gList.ml" 155 6709 6749
+)
+"gList.ml" 160 6955 7008 "gList.ml" 160 6955 7013
+type(
+  Gtk.style option
+)
+ident(
+  int_ref style "gList.ml" 159 6885 6893 "gList.ml" 159 6885 6898
+)
+"gList.ml" 160 6955 6959 "gList.ml" 160 6955 7013
+call(
+  tail
+)
+type(
+  int -> int -> unit
+)
+"gList.ml" 156 6759 6763 "gList.ml" 160 6955 7013
+type(
+  int -> int -> unit
+)
+"gList.ml" 161 7014 7036 "gList.ml" 161 7014 7037
+type(
+  int
+)
+ident(
+  def n "gList.ml" 161 7014 7038 "gList.ml" 162 7046 7102
+)
+"gList.ml" 161 7014 7039 "gList.ml" 161 7014 7043
+type(
+  'a
+)
+ident(
+  def data "gList.ml" 162 7046 7050 "gList.ml" 162 7046 7102
+)
+"gList.ml" 162 7046 7050 "gList.ml" 162 7046 7068
+type(
+  Gtk.clist Gtk.obj -> row:int -> Obj.t -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_row_data
+)
+"gList.ml" 162 7046 7069 "gList.ml" 162 7046 7072
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 162 7046 7078 "gList.ml" 162 7046 7079
+type(
+  int
+)
+ident(
+  int_ref n "gList.ml" 161 7014 7036 "gList.ml" 161 7014 7037
+)
+"gList.ml" 162 7046 7081 "gList.ml" 162 7046 7089
+type(
+  'a -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"gList.ml" 162 7046 7091 "gList.ml" 162 7046 7095
+type(
+  'a
+)
+type(
+  'a
+)
+ident(
+  int_ref data "gList.ml" 161 7014 7039 "gList.ml" 161 7014 7043
+)
+"gList.ml" 162 7046 7080 "gList.ml" 162 7046 7102
+type(
+  Obj.t
+)
+"gList.ml" 162 7046 7050 "gList.ml" 162 7046 7102
+type(
+  unit
+)
+"gList.ml" 163 7103 7125 "gList.ml" 163 7103 7126
+type(
+  int
+)
+ident(
+  def n "gList.ml" 163 7103 7127 "gList.ml" 163 7103 7173
+)
+"gList.ml" 163 7103 7134 "gList.ml" 163 7103 7141
+type(
+  Obj.t -> 'a
+)
+ident(
+  ext_ref Obj.obj
+)
+"gList.ml" 163 7103 7143 "gList.ml" 163 7103 7161
+type(
+  Gtk.clist Gtk.obj -> row:int -> Obj.t
+)
+ident(
+  ext_ref GtkList.CList.get_row_data
+)
+"gList.ml" 163 7103 7162 "gList.ml" 163 7103 7165
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 163 7103 7171 "gList.ml" 163 7103 7172
+type(
+  int
+)
+ident(
+  int_ref n "gList.ml" 163 7103 7125 "gList.ml" 163 7103 7126
+)
+"gList.ml" 163 7103 7142 "gList.ml" 163 7103 7173
+type(
+  Obj.t
+)
+"gList.ml" 163 7103 7134 "gList.ml" 163 7103 7173
+type(
+  'a
+)
+type(
+  'a
+)
+"gList.ml" 165 7201 7205 "gList.ml" 165 7201 7222
+type(
+  Gtk.clist Gtk.obj ->
+  sgn:(Gtk.clist, GtkEnums.scroll_type -> pos:Gtk.clampf -> unit) GtkSignal.t ->
+  GtkEnums.scroll_type -> pos:Gtk.clampf -> unit
+)
+ident(
+  ext_ref GtkList.CList.emit_scroll
+)
+"gList.ml" 165 7201 7223 "gList.ml" 165 7201 7226
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 165 7201 7232 "gList.ml" 165 7201 7255
+type(
+  (Gtk.clist, GtkEnums.scroll_type -> pos:Gtk.clampf -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkList.CList.S.scroll_vertical
+)
+"gList.ml" 165 7201 7205 "gList.ml" 165 7201 7255
+call(
+  tail
+)
+type(
+  GtkEnums.scroll_type -> pos:Gtk.clampf -> unit
+)
+type(
+  GtkEnums.scroll_type -> pos:Gtk.clampf -> unit
+)
+"gList.ml" 167 7285 7289 "gList.ml" 167 7285 7306
+type(
+  Gtk.clist Gtk.obj ->
+  sgn:(Gtk.clist, GtkEnums.scroll_type -> pos:Gtk.clampf -> unit) GtkSignal.t ->
+  GtkEnums.scroll_type -> pos:Gtk.clampf -> unit
+)
+ident(
+  ext_ref GtkList.CList.emit_scroll
+)
+"gList.ml" 167 7285 7307 "gList.ml" 167 7285 7310
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 167 7285 7316 "gList.ml" 167 7285 7341
+type(
+  (Gtk.clist, GtkEnums.scroll_type -> pos:Gtk.clampf -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkList.CList.S.scroll_horizontal
+)
+"gList.ml" 167 7285 7289 "gList.ml" 167 7285 7341
+call(
+  tail
+)
+type(
+  GtkEnums.scroll_type -> pos:Gtk.clampf -> unit
+)
+type(
+  GtkEnums.scroll_type -> pos:Gtk.clampf -> unit
+)
+"gList.ml" 168 7342 7365 "gList.ml" 168 7342 7368
+type(
+  int
+)
+ident(
+  def row "gList.ml" 168 7342 7371 "gList.ml" 168 7342 7398
+)
+"gList.ml" 168 7342 7371 "gList.ml" 168 7342 7390
+type(
+  Gtk.clist Gtk.obj -> int -> Gtk.Tags.state_type
+)
+ident(
+  ext_ref GtkList.CList.get_row_state
+)
+"gList.ml" 168 7342 7391 "gList.ml" 168 7342 7394
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 168 7342 7395 "gList.ml" 168 7342 7398
+type(
+  int
+)
+ident(
+  int_ref row "gList.ml" 168 7342 7365 "gList.ml" 168 7342 7368
+)
+"gList.ml" 168 7342 7371 "gList.ml" 168 7342 7398
+type(
+  Gtk.Tags.state_type
+)
+"gList.ml" 171 7404 7408 "gList.ml" 171 7404 7418
+type(
+  ?columns:int ->
+  ?hadjustment:GData.adjustment ->
+  ?vadjustment:GData.adjustment ->
+  ?titles:string list ->
+  ?button_actions:(int * Gtk.Tags.button_action list) list ->
+  ?titles_show:bool ->
+  ?auto_sort:bool ->
+  ?sort_column:int ->
+  ?sort_type:GtkEnums.sort_type ->
+  ?reorderable:bool ->
+  ?row_height:int ->
+  ?selection_mode:GtkEnums.selection_mode ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?titles_active:bool ->
+  ?use_drag_icons:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'a clist
+)
+ident(
+  def clist_poly "gList.ml" 185 7999 7999 --
+)
+"gList.ml" 171 7404 7421 "gList.ml" 171 7404 7428
+type(
+  int
+)
+"gList.ml" 171 7404 7429 "gList.ml" 171 7404 7430
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gList.ml" 171 7404 7429 "gList.ml" 171 7404 7430
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gList.ml" 171 7404 7429 "gList.ml" 171 7404 7430
+)
+"gList.ml" 171 7404 7433 "gList.ml" 171 7404 7444
+type(
+  GData.adjustment option
+)
+ident(
+  def hadjustment "gList.ml" 171 7404 7445 "gList.ml" 183 7977 7997
+)
+"gList.ml" 171 7404 7446 "gList.ml" 171 7404 7457
+type(
+  GData.adjustment option
+)
+ident(
+  def vadjustment "gList.ml" 171 7404 7458 "gList.ml" 183 7977 7997
+)
+"gList.ml" 171 7404 7459 "gList.ml" 171 7404 7465
+type(
+  string list option
+)
+ident(
+  def titles "gList.ml" 172 7468 7470 "gList.ml" 183 7977 7997
+)
+"gList.ml" 172 7468 7470 "gList.ml" 172 7468 7482
+type(
+  cont:((Gtk.clist Gtk.obj -> unit) ->
+        ?auto_sort:bool ->
+        ?sort_column:int ->
+        ?sort_type:GtkEnums.sort_type ->
+        ?reorderable:bool ->
+        ?row_height:int ->
+        ?selection_mode:GtkEnums.selection_mode ->
+        ?shadow_type:GtkEnums.shadow_type ->
+        ?titles_active:bool ->
+        ?use_drag_icons:bool ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'a clist) ->
+  ?hadjustment:Gtk.adjustment Gtk.obj ->
+  ?vadjustment:Gtk.adjustment Gtk.obj ->
+  ?button_actions:(int * Gtk.Tags.button_action list) list ->
+  ?titles_show:bool ->
+  ?auto_sort:bool ->
+  ?sort_column:int ->
+  ?sort_type:GtkEnums.sort_type ->
+  ?reorderable:bool ->
+  ?row_height:int ->
+  ?selection_mode:GtkEnums.selection_mode ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?titles_active:bool ->
+  ?use_drag_icons:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'a clist
+)
+ident(
+  ext_ref GtkList.CList.setter
+)
+"gList.ml" 172 7468 7497 "gList.ml" 172 7468 7504
+type(
+  f:(GData.adjustment -> Gtk.adjustment Gtk.obj) ->
+  GData.adjustment option -> Gtk.adjustment Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gList.ml" 172 7468 7505 "gList.ml" 172 7468 7524
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gList.ml" 172 7468 7525 "gList.ml" 172 7468 7536
+type(
+  GData.adjustment option
+)
+ident(
+  int_ref hadjustment "gList.ml" 171 7404 7433 "gList.ml" 171 7404 7444
+)
+"gList.ml" 172 7468 7496 "gList.ml" 172 7468 7537
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gList.ml" 173 7538 7556 "gList.ml" 173 7538 7563
+type(
+  f:(GData.adjustment -> Gtk.adjustment Gtk.obj) ->
+  GData.adjustment option -> Gtk.adjustment Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gList.ml" 173 7538 7564 "gList.ml" 173 7538 7583
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gList.ml" 173 7538 7584 "gList.ml" 173 7538 7595
+type(
+  GData.adjustment option
+)
+ident(
+  int_ref vadjustment "gList.ml" 171 7404 7446 "gList.ml" 171 7404 7457
+)
+"gList.ml" 173 7538 7555 "gList.ml" 173 7538 7596
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gList.ml" 174 7605 7611 "gList.ml" 174 7605 7612
+type(
+  Gtk.clist Gtk.obj -> unit
+)
+ident(
+  def f "gList.ml" 174 7605 7614 "gList.ml" 183 7977 7996
+)
+"gList.ml" 174 7605 7615 "gList.ml" 174 7605 7624
+type(
+  bool option
+)
+ident(
+  def auto_sort "gList.ml" 174 7605 7625 "gList.ml" 183 7977 7996
+)
+"gList.ml" 174 7605 7626 "gList.ml" 174 7605 7637
+type(
+  int option
+)
+ident(
+  def sort_column "gList.ml" 175 7641 7645 "gList.ml" 183 7977 7996
+)
+"gList.ml" 175 7641 7645 "gList.ml" 175 7641 7662
+type(
+  cont:(Gtk.clist Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'a clist) ->
+  Gtk.clist Gobject.param list ->
+  ?sort_type:GtkEnums.sort_type ->
+  ?reorderable:bool ->
+  ?row_height:int ->
+  ?selection_mode:GtkEnums.selection_mode ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?titles_active:bool ->
+  ?use_drag_icons:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'a clist
+)
+ident(
+  ext_ref GtkList.CList.make_params
+)
+"gList.ml" 175 7641 7663 "gList.ml" 175 7641 7665
+type(
+  Gtk.clist Gobject.param list
+)
+"gList.ml" 176 7674 7678 "gList.ml" 176 7674 7703
+type(
+  create:(Gtk.clist Gobject.param list -> 'a clist) ->
+  Gtk.clist Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'a clist
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gList.ml" 176 7674 7717 "gList.ml" 176 7674 7718
+type(
+  Gtk.clist Gobject.param list
+)
+ident(
+  def p "gList.ml" 177 7722 7728 "gList.ml" 183 7977 7994
+)
+"gList.ml" 177 7722 7732 "gList.ml" 177 7722 7733
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 178 7736 7750 "gList.ml" 178 7736 7756
+type(
+  string list option
+)
+ident(
+  int_ref titles "gList.ml" 171 7404 7459 "gList.ml" 171 7404 7465
+)
+"gList.ml" 178 7736 7762 "gList.ml" 178 7736 7766
+type(
+  string list option
+)
+"gList.ml" 178 7736 7770 "gList.ml" 178 7736 7782
+type(
+  cols:int -> Gtk.clist Gtk.obj
+)
+ident(
+  ext_ref GtkList.CList.create
+)
+"gList.ml" 178 7736 7789 "gList.ml" 178 7736 7796
+type(
+  int
+)
+ident(
+  int_ref columns "gList.ml" 171 7404 7421 "gList.ml" 171 7404 7428
+)
+"gList.ml" 178 7736 7770 "gList.ml" 178 7736 7796
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 179 7797 7812 "gList.ml" 179 7797 7818
+type(
+  string list
+)
+ident(
+  def titles "gList.ml" 179 7797 7822 "gList.ml" 179 7797 7869
+)
+"gList.ml" 179 7797 7807 "gList.ml" 179 7797 7818
+type(
+  string list option
+)
+"gList.ml" 179 7797 7822 "gList.ml" 179 7797 7846
+type(
+  string array -> Gtk.clist Gtk.obj
+)
+ident(
+  ext_ref GtkList.CList.create_with_titles
+)
+"gList.ml" 179 7797 7848 "gList.ml" 179 7797 7861
+type(
+  string list -> string array
+)
+ident(
+  ext_ref StdLabels.Array.of_list
+)
+"gList.ml" 179 7797 7862 "gList.ml" 179 7797 7868
+type(
+  string list
+)
+ident(
+  int_ref titles "gList.ml" 179 7797 7812 "gList.ml" 179 7797 7818
+)
+"gList.ml" 179 7797 7847 "gList.ml" 179 7797 7869
+call(
+  stack
+)
+type(
+  string array
+)
+"gList.ml" 179 7797 7822 "gList.ml" 179 7797 7869
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 178 7736 7744 "gList.ml" 179 7797 7869
+type(
+  Gtk.clist Gtk.obj
+)
+"gList.ml" 181 7879 7885 "gList.ml" 181 7879 7903
+type(
+  Gtk.clist Gtk.obj -> Gtk.clist Gobject.param list -> unit
+)
+ident(
+  ext_ref Gobject.set_params
+)
+"gList.ml" 181 7879 7904 "gList.ml" 181 7879 7905
+type(
+  Gtk.clist Gtk.obj
+)
+ident(
+  int_ref w "gList.ml" 177 7722 7732 "gList.ml" 177 7722 7733
+)
+"gList.ml" 181 7879 7906 "gList.ml" 181 7879 7907
+type(
+  Gtk.clist Gobject.param list
+)
+ident(
+  int_ref p "gList.ml" 176 7674 7717 "gList.ml" 176 7674 7718
+)
+"gList.ml" 181 7879 7885 "gList.ml" 181 7879 7907
+call(
+  stack
+)
+type(
+  unit
+)
+"gList.ml" 181 7879 7909 "gList.ml" 181 7879 7910
+type(
+  Gtk.clist Gtk.obj -> unit
+)
+ident(
+  int_ref f "gList.ml" 174 7605 7611 "gList.ml" 174 7605 7612
+)
+"gList.ml" 181 7879 7911 "gList.ml" 181 7879 7912
+type(
+  Gtk.clist Gtk.obj
+)
+ident(
+  int_ref w "gList.ml" 177 7722 7732 "gList.ml" 177 7722 7733
+)
+"gList.ml" 181 7879 7909 "gList.ml" 181 7879 7912
+call(
+  stack
+)
+type(
+  unit
+)
+"gList.ml" 182 7914 7920 "gList.ml" 182 7914 7934
+type(
+  Gtk.clist Gtk.obj ->
+  ?auto:bool -> ?column:int -> ?dir:Gtk.Tags.sort_type -> unit -> unit
+)
+ident(
+  ext_ref GtkList.CList.set_sort
+)
+"gList.ml" 182 7914 7935 "gList.ml" 182 7914 7936
+type(
+  Gtk.clist Gtk.obj
+)
+ident(
+  int_ref w "gList.ml" 177 7722 7732 "gList.ml" 177 7722 7733
+)
+"gList.ml" 182 7914 7943 "gList.ml" 182 7914 7952
+type(
+  bool option
+)
+ident(
+  int_ref auto_sort "gList.ml" 174 7605 7615 "gList.ml" 174 7605 7624
+)
+"gList.ml" 182 7914 7961 "gList.ml" 182 7914 7972
+type(
+  int option
+)
+ident(
+  int_ref sort_column "gList.ml" 174 7605 7626 "gList.ml" 174 7605 7637
+)
+"gList.ml" 182 7914 7973 "gList.ml" 182 7914 7975
+type(
+  unit
+)
+"gList.ml" 182 7914 7920 "gList.ml" 182 7914 7975
+call(
+  stack
+)
+type(
+  unit
+)
+"gList.ml" 183 7977 7983 "gList.ml" 183 7977 7992
+type(
+  Gtk.clist Gtk.obj -> 'a clist
+)
+"gList.ml" 183 7977 7993 "gList.ml" 183 7977 7994
+type(
+  Gtk.clist Gtk.obj
+)
+ident(
+  int_ref w "gList.ml" 177 7722 7732 "gList.ml" 177 7722 7733
+)
+"gList.ml" 183 7977 7983 "gList.ml" 183 7977 7994
+call(
+  tail
+)
+type(
+  'a clist
+)
+"gList.ml" 182 7914 7920 "gList.ml" 183 7977 7994
+type(
+  'a clist
+)
+"gList.ml" 181 7879 7909 "gList.ml" 183 7977 7994
+type(
+  'a clist
+)
+"gList.ml" 181 7879 7885 "gList.ml" 183 7977 7994
+type(
+  'a clist
+)
+"gList.ml" 177 7722 7728 "gList.ml" 183 7977 7994
+type(
+  'a clist
+)
+"gList.ml" 176 7674 7712 "gList.ml" 183 7977 7995
+type(
+  Gtk.clist Gobject.param list -> 'a clist
+)
+"gList.ml" 175 7641 7672 "gList.ml" 183 7977 7996
+call(
+  stack
+)
+type(
+  Gtk.clist Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'a clist
+)
+"gList.ml" 175 7641 7645 "gList.ml" 183 7977 7996
+call(
+  tail
+)
+type(
+  ?sort_type:GtkEnums.sort_type ->
+  ?reorderable:bool ->
+  ?row_height:int ->
+  ?selection_mode:GtkEnums.selection_mode ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?titles_active:bool ->
+  ?use_drag_icons:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'a clist
+)
+"gList.ml" 173 7538 7603 "gList.ml" 183 7977 7997
+type(
+  (Gtk.clist Gtk.obj -> unit) ->
+  ?auto_sort:bool ->
+  ?sort_column:int ->
+  ?sort_type:GtkEnums.sort_type ->
+  ?reorderable:bool ->
+  ?row_height:int ->
+  ?selection_mode:GtkEnums.selection_mode ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?titles_active:bool ->
+  ?use_drag_icons:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'a clist
+)
+"gList.ml" 172 7468 7470 "gList.ml" 183 7977 7997
+call(
+  tail
+)
+type(
+  ?button_actions:(int * Gtk.Tags.button_action list) list ->
+  ?titles_show:bool ->
+  ?auto_sort:bool ->
+  ?sort_column:int ->
+  ?sort_type:GtkEnums.sort_type ->
+  ?reorderable:bool ->
+  ?row_height:int ->
+  ?selection_mode:GtkEnums.selection_mode ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?titles_active:bool ->
+  ?use_drag_icons:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'a clist
+)
+"gList.ml" 185 7999 8003 "gList.ml" 185 7999 8008
+type(
+  ?columns:int ->
+  ?hadjustment:GData.adjustment ->
+  ?vadjustment:GData.adjustment ->
+  ?titles:string list ->
+  ?button_actions:(int * Gtk.Tags.button_action list) list ->
+  ?titles_show:bool ->
+  ?auto_sort:bool ->
+  ?sort_column:int ->
+  ?sort_type:GtkEnums.sort_type ->
+  ?reorderable:bool ->
+  ?row_height:int ->
+  ?selection_mode:GtkEnums.selection_mode ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?titles_active:bool ->
+  ?use_drag_icons:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'a clist
+)
+ident(
+  def clist "gList.ml" 185 7999 8021 --
+)
+"gList.ml" 185 7999 8011 "gList.ml" 185 7999 8021
+type(
+  ?columns:int ->
+  ?hadjustment:GData.adjustment ->
+  ?vadjustment:GData.adjustment ->
+  ?titles:string list ->
+  ?button_actions:(int * Gtk.Tags.button_action list) list ->
+  ?titles_show:bool ->
+  ?auto_sort:bool ->
+  ?sort_column:int ->
+  ?sort_type:GtkEnums.sort_type ->
+  ?reorderable:bool ->
+  ?row_height:int ->
+  ?selection_mode:GtkEnums.selection_mode ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?titles_active:bool ->
+  ?use_drag_icons:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'a clist
+)
+ident(
+  int_ref clist_poly "gList.ml" 171 7404 7408 "gList.ml" 171 7404 7418
+)

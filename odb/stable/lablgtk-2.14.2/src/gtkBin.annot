@@ -1,0 +1,16 @@
+"gtkBin.ml" 32 1792 1796 "gtkBin.ml" 32 1792 1798
+type(
+  unit
+)
+"gtkBin.ml" 32 1792 1801 "gtkBin.ml" 32 1792 1813
+type(
+  unit -> unit
+)
+"gtkBin.ml" 32 1792 1814 "gtkBin.ml" 32 1792 1816
+type(
+  unit
+)
+"gtkBin.ml" 32 1792 1801 "gtkBin.ml" 32 1792 1816
+type(
+  unit
+)

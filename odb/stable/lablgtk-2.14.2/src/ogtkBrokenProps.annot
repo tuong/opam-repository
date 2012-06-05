@@ -1,0 +1,620 @@
+"ogtkBrokenProps.ml" 4 38 42 "ogtkBrokenProps.ml" 4 38 45
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  def set "ogtkBrokenProps.ml" 5 52 52 --
+)
+"ogtkBrokenProps.ml" 4 38 48 "ogtkBrokenProps.ml" 4 38 51
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"ogtkBrokenProps.ml" 5 52 56 "ogtkBrokenProps.ml" 5 52 59
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  def get "ogtkBrokenProps.ml" 6 66 66 --
+)
+"ogtkBrokenProps.ml" 5 52 62 "ogtkBrokenProps.ml" 5 52 65
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  ext_ref Gobject.get
+)
+"ogtkBrokenProps.ml" 6 66 70 "ogtkBrokenProps.ml" 6 66 75
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  def param "ogtkBrokenProps.ml" 7 84 84 --
+)
+"ogtkBrokenProps.ml" 6 66 78 "ogtkBrokenProps.ml" 6 66 83
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"ogtkBrokenProps.ml" 9 105 143 "ogtkBrokenProps.ml" 9 105 149
+type(
+  < collapse : callback:(unit -> unit) -> GtkSignal.id;
+    expand : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkBrokenProps.ml" 12 244 264 "ogtkBrokenProps.ml" 12 244 268
+type(
+  < collapse : callback:(unit -> unit) -> GtkSignal.id;
+    expand : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkBrokenProps.ml" 12 244 264 "ogtkBrokenProps.ml" 12 244 276
+call(
+  tail
+)
+type(
+  ([> `treeitem ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 12 244 277 "ogtkBrokenProps.ml" 12 244 296
+type(
+  ([> `treeitem ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBrokenProps.TreeItem.S.collapse
+)
+"ogtkBrokenProps.ml" 12 244 264 "ogtkBrokenProps.ml" 12 244 296
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 13 297 315 "ogtkBrokenProps.ml" 13 297 319
+type(
+  'a
+)
+"ogtkBrokenProps.ml" 13 297 315 "ogtkBrokenProps.ml" 13 297 327
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 13 297 328 "ogtkBrokenProps.ml" 13 297 345
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBrokenProps.TreeItem.S.expand
+)
+"ogtkBrokenProps.ml" 13 297 315 "ogtkBrokenProps.ml" 13 297 345
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 16 351 392 "ogtkBrokenProps.ml" 16 351 398
+type(
+  < activate : callback:(unit -> unit) -> GtkSignal.id;
+    copy_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    cut_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    move_cursor : callback:(int -> int -> unit) -> GtkSignal.id;
+    move_page : callback:(int -> unit) -> GtkSignal.id;
+    move_to_column : callback:(int -> unit) -> GtkSignal.id;
+    move_to_row : callback:(int -> unit) -> GtkSignal.id;
+    move_word : callback:(int -> unit) -> GtkSignal.id;
+    paste_clipboard : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkBrokenProps.ml" 19 493 513 "ogtkBrokenProps.ml" 19 493 517
+type(
+  < activate : callback:(unit -> unit) -> GtkSignal.id;
+    copy_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    cut_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    move_cursor : callback:(int -> int -> unit) -> GtkSignal.id;
+    move_page : callback:(int -> unit) -> GtkSignal.id;
+    move_to_column : callback:(int -> unit) -> GtkSignal.id;
+    move_to_row : callback:(int -> unit) -> GtkSignal.id;
+    move_word : callback:(int -> unit) -> GtkSignal.id;
+    paste_clipboard : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkBrokenProps.ml" 19 493 513 "ogtkBrokenProps.ml" 19 493 525
+call(
+  tail
+)
+type(
+  ([> `oldeditable ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 19 493 526 "ogtkBrokenProps.ml" 19 493 548
+type(
+  ([> `oldeditable ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBrokenProps.OldEditable.S.activate
+)
+"ogtkBrokenProps.ml" 19 493 513 "ogtkBrokenProps.ml" 19 493 548
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 20 549 575 "ogtkBrokenProps.ml" 20 549 579
+type(
+  'a
+)
+"ogtkBrokenProps.ml" 20 549 575 "ogtkBrokenProps.ml" 20 549 587
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 20 549 588 "ogtkBrokenProps.ml" 20 549 616
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBrokenProps.OldEditable.S.copy_clipboard
+)
+"ogtkBrokenProps.ml" 20 549 575 "ogtkBrokenProps.ml" 20 549 616
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 21 617 642 "ogtkBrokenProps.ml" 21 617 646
+type(
+  'a
+)
+"ogtkBrokenProps.ml" 21 617 642 "ogtkBrokenProps.ml" 21 617 654
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 21 617 655 "ogtkBrokenProps.ml" 21 617 682
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBrokenProps.OldEditable.S.cut_clipboard
+)
+"ogtkBrokenProps.ml" 21 617 642 "ogtkBrokenProps.ml" 21 617 682
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 22 683 710 "ogtkBrokenProps.ml" 22 683 714
+type(
+  'a
+)
+"ogtkBrokenProps.ml" 22 683 710 "ogtkBrokenProps.ml" 22 683 722
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 22 683 723 "ogtkBrokenProps.ml" 22 683 752
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBrokenProps.OldEditable.S.paste_clipboard
+)
+"ogtkBrokenProps.ml" 22 683 710 "ogtkBrokenProps.ml" 22 683 752
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 23 753 776 "ogtkBrokenProps.ml" 23 753 780
+type(
+  'a
+)
+"ogtkBrokenProps.ml" 23 753 776 "ogtkBrokenProps.ml" 23 753 788
+call(
+  tail
+)
+type(
+  ('b, int -> int -> unit) GtkSignal.t ->
+  callback:(int -> int -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 23 753 789 "ogtkBrokenProps.ml" 23 753 814
+type(
+  ('b, int -> int -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBrokenProps.OldEditable.S.move_cursor
+)
+"ogtkBrokenProps.ml" 23 753 776 "ogtkBrokenProps.ml" 23 753 814
+type(
+  callback:(int -> int -> unit) -> GtkSignal.id
+)
+type(
+  callback:(int -> int -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 24 815 836 "ogtkBrokenProps.ml" 24 815 840
+type(
+  'a
+)
+"ogtkBrokenProps.ml" 24 815 836 "ogtkBrokenProps.ml" 24 815 848
+call(
+  tail
+)
+type(
+  ('b, int -> unit) GtkSignal.t -> callback:(int -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 24 815 849 "ogtkBrokenProps.ml" 24 815 872
+type(
+  ('b, int -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBrokenProps.OldEditable.S.move_word
+)
+"ogtkBrokenProps.ml" 24 815 836 "ogtkBrokenProps.ml" 24 815 872
+type(
+  callback:(int -> unit) -> GtkSignal.id
+)
+type(
+  callback:(int -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 25 873 894 "ogtkBrokenProps.ml" 25 873 898
+type(
+  'a
+)
+"ogtkBrokenProps.ml" 25 873 894 "ogtkBrokenProps.ml" 25 873 906
+call(
+  tail
+)
+type(
+  ('b, int -> unit) GtkSignal.t -> callback:(int -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 25 873 907 "ogtkBrokenProps.ml" 25 873 930
+type(
+  ('b, int -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBrokenProps.OldEditable.S.move_page
+)
+"ogtkBrokenProps.ml" 25 873 894 "ogtkBrokenProps.ml" 25 873 930
+type(
+  callback:(int -> unit) -> GtkSignal.id
+)
+type(
+  callback:(int -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 26 931 954 "ogtkBrokenProps.ml" 26 931 958
+type(
+  'a
+)
+"ogtkBrokenProps.ml" 26 931 954 "ogtkBrokenProps.ml" 26 931 966
+call(
+  tail
+)
+type(
+  ('b, int -> unit) GtkSignal.t -> callback:(int -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 26 931 967 "ogtkBrokenProps.ml" 26 931 992
+type(
+  ('b, int -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBrokenProps.OldEditable.S.move_to_row
+)
+"ogtkBrokenProps.ml" 26 931 954 "ogtkBrokenProps.ml" 26 931 992
+type(
+  callback:(int -> unit) -> GtkSignal.id
+)
+type(
+  callback:(int -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 27 993 1019 "ogtkBrokenProps.ml" 27 993 1023
+type(
+  'a
+)
+"ogtkBrokenProps.ml" 27 993 1019 "ogtkBrokenProps.ml" 27 993 1031
+call(
+  tail
+)
+type(
+  ('b, int -> unit) GtkSignal.t -> callback:(int -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 27 993 1032 "ogtkBrokenProps.ml" 27 993 1060
+type(
+  ('b, int -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBrokenProps.OldEditable.S.move_to_column
+)
+"ogtkBrokenProps.ml" 27 993 1019 "ogtkBrokenProps.ml" 27 993 1060
+type(
+  callback:(int -> unit) -> GtkSignal.id
+)
+type(
+  callback:(int -> unit) -> GtkSignal.id
+)
+"ogtkBrokenProps.ml" 33 1153 1157 "ogtkBrokenProps.ml" 33 1153 1160
+type(
+  ([> `text ] as 'a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment -> unit
+)
+ident(
+  int_ref set "ogtkBrokenProps.ml" 4 38 42 "ogtkBrokenProps.ml" 4 38 45
+)
+"ogtkBrokenProps.ml" 33 1153 1162 "ogtkBrokenProps.ml" 33 1153 1180
+type(
+  (_[> `text ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkBrokenProps.Text.P.hadjustment
+)
+"ogtkBrokenProps.ml" 33 1153 1191 "ogtkBrokenProps.ml" 33 1153 1212
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkBrokenProps.ml" 33 1153 1161 "ogtkBrokenProps.ml" 33 1153 1213
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkBrokenProps.ml" 33 1153 1214 "ogtkBrokenProps.ml" 33 1153 1217
+type(
+  'a Gobject.obj
+)
+"ogtkBrokenProps.ml" 33 1153 1157 "ogtkBrokenProps.ml" 33 1153 1217
+call(
+  tail
+)
+type(
+  GData.adjustment -> unit
+)
+type(
+  GData.adjustment -> unit
+)
+"ogtkBrokenProps.ml" 35 1245 1249 "ogtkBrokenProps.ml" 35 1245 1252
+type(
+  ('a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment -> unit
+)
+ident(
+  int_ref set "ogtkBrokenProps.ml" 4 38 42 "ogtkBrokenProps.ml" 4 38 45
+)
+"ogtkBrokenProps.ml" 35 1245 1254 "ogtkBrokenProps.ml" 35 1245 1272
+type(
+  (_[> `text ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkBrokenProps.Text.P.vadjustment
+)
+"ogtkBrokenProps.ml" 35 1245 1283 "ogtkBrokenProps.ml" 35 1245 1304
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkBrokenProps.ml" 35 1245 1253 "ogtkBrokenProps.ml" 35 1245 1305
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkBrokenProps.ml" 35 1245 1306 "ogtkBrokenProps.ml" 35 1245 1309
+type(
+  'a Gobject.obj
+)
+"ogtkBrokenProps.ml" 35 1245 1249 "ogtkBrokenProps.ml" 35 1245 1309
+call(
+  tail
+)
+type(
+  GData.adjustment -> unit
+)
+type(
+  GData.adjustment -> unit
+)
+"ogtkBrokenProps.ml" 36 1310 1335 "ogtkBrokenProps.ml" 36 1310 1338
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBrokenProps.ml" 4 38 42 "ogtkBrokenProps.ml" 4 38 45
+)
+"ogtkBrokenProps.ml" 36 1310 1339 "ogtkBrokenProps.ml" 36 1310 1355
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBrokenProps.Text.P.line_wrap
+)
+"ogtkBrokenProps.ml" 36 1310 1356 "ogtkBrokenProps.ml" 36 1310 1359
+type(
+  'a Gobject.obj
+)
+"ogtkBrokenProps.ml" 36 1310 1335 "ogtkBrokenProps.ml" 36 1310 1359
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBrokenProps.ml" 37 1360 1385 "ogtkBrokenProps.ml" 37 1360 1388
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBrokenProps.ml" 4 38 42 "ogtkBrokenProps.ml" 4 38 45
+)
+"ogtkBrokenProps.ml" 37 1360 1389 "ogtkBrokenProps.ml" 37 1360 1405
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBrokenProps.Text.P.word_wrap
+)
+"ogtkBrokenProps.ml" 37 1360 1406 "ogtkBrokenProps.ml" 37 1360 1409
+type(
+  'a Gobject.obj
+)
+"ogtkBrokenProps.ml" 37 1360 1385 "ogtkBrokenProps.ml" 37 1360 1409
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBrokenProps.ml" 39 1433 1437 "ogtkBrokenProps.ml" 39 1433 1440
+type(
+  ('a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment
+)
+ident(
+  int_ref get "ogtkBrokenProps.ml" 5 52 56 "ogtkBrokenProps.ml" 5 52 59
+)
+"ogtkBrokenProps.ml" 39 1433 1442 "ogtkBrokenProps.ml" 39 1433 1460
+type(
+  (_[> `text ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkBrokenProps.Text.P.hadjustment
+)
+"ogtkBrokenProps.ml" 39 1433 1471 "ogtkBrokenProps.ml" 39 1433 1492
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkBrokenProps.ml" 39 1433 1441 "ogtkBrokenProps.ml" 39 1433 1493
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkBrokenProps.ml" 39 1433 1494 "ogtkBrokenProps.ml" 39 1433 1497
+type(
+  'a Gobject.obj
+)
+"ogtkBrokenProps.ml" 39 1433 1437 "ogtkBrokenProps.ml" 39 1433 1497
+call(
+  tail
+)
+type(
+  GData.adjustment
+)
+type(
+  GData.adjustment
+)
+"ogtkBrokenProps.ml" 41 1521 1525 "ogtkBrokenProps.ml" 41 1521 1528
+type(
+  ('a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment
+)
+ident(
+  int_ref get "ogtkBrokenProps.ml" 5 52 56 "ogtkBrokenProps.ml" 5 52 59
+)
+"ogtkBrokenProps.ml" 41 1521 1530 "ogtkBrokenProps.ml" 41 1521 1548
+type(
+  (_[> `text ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkBrokenProps.Text.P.vadjustment
+)
+"ogtkBrokenProps.ml" 41 1521 1559 "ogtkBrokenProps.ml" 41 1521 1580
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkBrokenProps.ml" 41 1521 1529 "ogtkBrokenProps.ml" 41 1521 1581
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkBrokenProps.ml" 41 1521 1582 "ogtkBrokenProps.ml" 41 1521 1585
+type(
+  'a Gobject.obj
+)
+"ogtkBrokenProps.ml" 41 1521 1525 "ogtkBrokenProps.ml" 41 1521 1585
+call(
+  tail
+)
+type(
+  GData.adjustment
+)
+type(
+  GData.adjustment
+)
+"ogtkBrokenProps.ml" 42 1586 1607 "ogtkBrokenProps.ml" 42 1586 1610
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBrokenProps.ml" 5 52 56 "ogtkBrokenProps.ml" 5 52 59
+)
+"ogtkBrokenProps.ml" 42 1586 1611 "ogtkBrokenProps.ml" 42 1586 1627
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBrokenProps.Text.P.line_wrap
+)
+"ogtkBrokenProps.ml" 42 1586 1628 "ogtkBrokenProps.ml" 42 1586 1631
+type(
+  'a Gobject.obj
+)
+"ogtkBrokenProps.ml" 42 1586 1607 "ogtkBrokenProps.ml" 42 1586 1631
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBrokenProps.ml" 43 1632 1653 "ogtkBrokenProps.ml" 43 1632 1656
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBrokenProps.ml" 5 52 56 "ogtkBrokenProps.ml" 5 52 59
+)
+"ogtkBrokenProps.ml" 43 1632 1657 "ogtkBrokenProps.ml" 43 1632 1673
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBrokenProps.Text.P.word_wrap
+)
+"ogtkBrokenProps.ml" 43 1632 1674 "ogtkBrokenProps.ml" 43 1632 1677
+type(
+  'a Gobject.obj
+)
+"ogtkBrokenProps.ml" 43 1632 1653 "ogtkBrokenProps.ml" 43 1632 1677
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)

@@ -1,0 +1,1706 @@
+"gpointer.ml" 30 1733 1737 "gpointer.ml" 30 1733 1744
+type(
+  'a option -> 'a optaddr
+)
+ident(
+  def optaddr "gpointer.ml" 36 1860 1860 --
+)
+"gpointer.ml" 32 1784 1790 "gpointer.ml" 32 1784 1794
+type(
+  'a option
+)
+"gpointer.ml" 32 1784 1798 "gpointer.ml" 32 1784 1807
+type(
+  int -> 'a optaddr
+)
+ident(
+  ext_ref Obj.magic
+)
+"gpointer.ml" 32 1784 1808 "gpointer.ml" 32 1784 1809
+type(
+  int
+)
+"gpointer.ml" 32 1784 1798 "gpointer.ml" 32 1784 1809
+type(
+  'a optaddr
+)
+"gpointer.ml" 33 1810 1821 "gpointer.ml" 33 1810 1822
+type(
+  'a
+)
+ident(
+  def x "gpointer.ml" 33 1810 1826 "gpointer.ml" 33 1810 1837
+)
+"gpointer.ml" 33 1810 1816 "gpointer.ml" 33 1810 1822
+type(
+  'a option
+)
+"gpointer.ml" 33 1810 1826 "gpointer.ml" 33 1810 1835
+type(
+  'a -> 'a optaddr
+)
+ident(
+  ext_ref Obj.magic
+)
+"gpointer.ml" 33 1810 1836 "gpointer.ml" 33 1810 1837
+type(
+  'a
+)
+ident(
+  int_ref x "gpointer.ml" 33 1810 1821 "gpointer.ml" 33 1810 1822
+)
+"gpointer.ml" 33 1810 1826 "gpointer.ml" 33 1810 1837
+type(
+  'a optaddr
+)
+"gpointer.ml" 31 1773 1775 "gpointer.ml" 33 1810 1837
+type(
+  'a option -> 'a optaddr
+)
+type(
+  'a option -> 'a optaddr
+)
+"gpointer.ml" 38 1876 1880 "gpointer.ml" 38 1876 1888
+type(
+  'a
+)
+ident(
+  def raw_null "gpointer.ml" 40 1923 1923 --
+)
+"gpointer.ml" 38 1876 1891 "gpointer.ml" 38 1876 1894
+type(
+  '_b * 'a -> 'a
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"gpointer.ml" 38 1876 1896 "gpointer.ml" 38 1876 1905
+type(
+  nativeint -> '_b * 'a
+)
+ident(
+  ext_ref Obj.magic
+)
+"gpointer.ml" 38 1876 1906 "gpointer.ml" 38 1876 1920
+type(
+  nativeint
+)
+ident(
+  ext_ref Nativeint.zero
+)
+"gpointer.ml" 38 1876 1895 "gpointer.ml" 38 1876 1921
+type(
+  '_b * 'a
+)
+"gpointer.ml" 38 1876 1891 "gpointer.ml" 38 1876 1921
+type(
+  'a
+)
+"gpointer.ml" 40 1923 1927 "gpointer.ml" 40 1923 1936
+type(
+  string option -> optstring
+)
+ident(
+  def optstring "gpointer.ml" 46 2052 2052 --
+)
+"gpointer.ml" 42 1979 1985 "gpointer.ml" 42 1979 1989
+type(
+  string option
+)
+"gpointer.ml" 42 1979 1993 "gpointer.ml" 42 1979 2001
+type(
+  optstring
+)
+ident(
+  int_ref raw_null "gpointer.ml" 38 1876 1880 "gpointer.ml" 38 1876 1888
+)
+"gpointer.ml" 43 2002 2013 "gpointer.ml" 43 2002 2014
+type(
+  string
+)
+ident(
+  def x "gpointer.ml" 43 2002 2018 "gpointer.ml" 43 2002 2029
+)
+"gpointer.ml" 43 2002 2008 "gpointer.ml" 43 2002 2014
+type(
+  string option
+)
+"gpointer.ml" 43 2002 2018 "gpointer.ml" 43 2002 2027
+type(
+  string -> optstring
+)
+ident(
+  ext_ref Obj.magic
+)
+"gpointer.ml" 43 2002 2028 "gpointer.ml" 43 2002 2029
+type(
+  string
+)
+ident(
+  int_ref x "gpointer.ml" 43 2002 2013 "gpointer.ml" 43 2002 2014
+)
+"gpointer.ml" 43 2002 2018 "gpointer.ml" 43 2002 2029
+type(
+  optstring
+)
+"gpointer.ml" 41 1968 1970 "gpointer.ml" 43 2002 2029
+type(
+  string option -> optstring
+)
+type(
+  string option -> optstring
+)
+"gpointer.ml" 47 2063 2067 "gpointer.ml" 47 2063 2077
+type(
+  boxed
+)
+ident(
+  def boxed_null "gpointer.ml" 49 2114 2114 --
+)
+"gpointer.ml" 47 2063 2088 "gpointer.ml" 47 2063 2097
+type(
+  nativeint -> boxed
+)
+ident(
+  ext_ref Obj.magic
+)
+"gpointer.ml" 47 2063 2098 "gpointer.ml" 47 2063 2112
+type(
+  nativeint
+)
+ident(
+  ext_ref Nativeint.zero
+)
+"gpointer.ml" 47 2063 2088 "gpointer.ml" 47 2063 2112
+type(
+  boxed
+)
+type(
+  boxed
+)
+"gpointer.ml" 62 2511 2515 "gpointer.ml" 62 2511 2523
+type(
+  'a option -> 'a optboxed
+)
+ident(
+  def optboxed "gpointer.ml" 67 2632 2632 --
+)
+"gpointer.ml" 64 2564 2570 "gpointer.ml" 64 2564 2574
+type(
+  'a option
+)
+"gpointer.ml" 64 2564 2578 "gpointer.ml" 64 2564 2587
+type(
+  boxed -> 'a optboxed
+)
+ident(
+  ext_ref Obj.magic
+)
+"gpointer.ml" 64 2564 2588 "gpointer.ml" 64 2564 2598
+type(
+  boxed
+)
+ident(
+  int_ref boxed_null "gpointer.ml" 47 2063 2067 "gpointer.ml" 47 2063 2077
+)
+"gpointer.ml" 64 2564 2578 "gpointer.ml" 64 2564 2598
+type(
+  'a optboxed
+)
+"gpointer.ml" 65 2599 2610 "gpointer.ml" 65 2599 2613
+type(
+  'a
+)
+ident(
+  def obj "gpointer.ml" 65 2599 2617 "gpointer.ml" 65 2599 2630
+)
+"gpointer.ml" 65 2599 2605 "gpointer.ml" 65 2599 2613
+type(
+  'a option
+)
+"gpointer.ml" 65 2599 2617 "gpointer.ml" 65 2599 2626
+type(
+  'a -> 'a optboxed
+)
+ident(
+  ext_ref Obj.magic
+)
+"gpointer.ml" 65 2599 2627 "gpointer.ml" 65 2599 2630
+type(
+  'a
+)
+ident(
+  int_ref obj "gpointer.ml" 65 2599 2610 "gpointer.ml" 65 2599 2613
+)
+"gpointer.ml" 65 2599 2617 "gpointer.ml" 65 2599 2630
+type(
+  'a optboxed
+)
+"gpointer.ml" 63 2553 2555 "gpointer.ml" 65 2599 2630
+type(
+  'a option -> 'a optboxed
+)
+type(
+  'a option -> 'a optboxed
+)
+"gpointer.ml" 67 2632 2636 "gpointer.ml" 67 2632 2643
+type(
+  f:('a -> 'b) -> 'a option -> 'b optboxed
+)
+ident(
+  def may_box "gpointer.ml" 74 2779 2779 --
+)
+"gpointer.ml" 67 2632 2645 "gpointer.ml" 67 2632 2646
+type(
+  'a -> 'b
+)
+ident(
+  def f "gpointer.ml" 67 2632 2647 "gpointer.ml" 70 2717 2755
+)
+"gpointer.ml" 67 2632 2647 "gpointer.ml" 67 2632 2650
+type(
+  'a option
+)
+ident(
+  def obj "gpointer.ml" 67 2632 2651 "gpointer.ml" 70 2717 2755
+)
+"gpointer.ml" 68 2667 2675 "gpointer.ml" 68 2667 2678
+type(
+  'a option
+)
+ident(
+  int_ref obj "gpointer.ml" 67 2632 2647 "gpointer.ml" 67 2632 2650
+)
+"gpointer.ml" 69 2684 2688 "gpointer.ml" 69 2684 2692
+type(
+  'a option
+)
+"gpointer.ml" 69 2684 2696 "gpointer.ml" 69 2684 2705
+type(
+  boxed -> 'b optboxed
+)
+ident(
+  ext_ref Obj.magic
+)
+"gpointer.ml" 69 2684 2706 "gpointer.ml" 69 2684 2716
+type(
+  boxed
+)
+ident(
+  int_ref boxed_null "gpointer.ml" 47 2063 2067 "gpointer.ml" 47 2063 2077
+)
+"gpointer.ml" 69 2684 2696 "gpointer.ml" 69 2684 2716
+type(
+  'b optboxed
+)
+"gpointer.ml" 70 2717 2726 "gpointer.ml" 70 2717 2729
+type(
+  'a
+)
+ident(
+  def obj "gpointer.ml" 70 2717 2733 "gpointer.ml" 70 2717 2755
+)
+"gpointer.ml" 70 2717 2721 "gpointer.ml" 70 2717 2729
+type(
+  'a option
+)
+"gpointer.ml" 70 2717 2733 "gpointer.ml" 70 2717 2742
+type(
+  'b -> 'b optboxed
+)
+ident(
+  ext_ref Obj.magic
+)
+"gpointer.ml" 70 2717 2744 "gpointer.ml" 70 2717 2745
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "gpointer.ml" 67 2632 2645 "gpointer.ml" 67 2632 2646
+)
+"gpointer.ml" 70 2717 2746 "gpointer.ml" 70 2717 2749
+type(
+  'a
+)
+ident(
+  int_ref obj "gpointer.ml" 70 2717 2726 "gpointer.ml" 70 2717 2729
+)
+"gpointer.ml" 70 2717 2744 "gpointer.ml" 70 2717 2749
+call(
+  tail
+)
+type(
+  'b
+)
+type(
+  'b
+)
+"gpointer.ml" 70 2717 2733 "gpointer.ml" 70 2717 2755
+type(
+  'b optboxed
+)
+"gpointer.ml" 68 2667 2669 "gpointer.ml" 70 2717 2755
+type(
+  'b optboxed
+)
+type(
+  'b optboxed
+)
+"gpointer.ml" 81 2986 2990 "gpointer.ml" 81 2986 3002
+type(
+  ([>  ] as 'a) variant_table -> 'a list -> int
+)
+ident(
+  def encode_flags "gpointer.ml" 84 3088 3088 --
+)
+"gpointer.ml" 81 2986 3003 "gpointer.ml" 81 2986 3006
+type(
+  'a variant_table
+)
+ident(
+  def tbl "gpointer.ml" 81 2986 3007 "gpointer.ml" 82 3011 3086
+)
+"gpointer.ml" 81 2986 3007 "gpointer.ml" 81 2986 3008
+type(
+  'a list
+)
+ident(
+  def l "gpointer.ml" 82 3011 3013 "gpointer.ml" 82 3011 3086
+)
+"gpointer.ml" 82 3011 3013 "gpointer.ml" 82 3011 3027
+type(
+  f:(int -> 'a -> int) -> init:int -> 'a list -> int
+)
+ident(
+  ext_ref StdLabels.List.fold_left
+)
+"gpointer.ml" 82 3011 3028 "gpointer.ml" 82 3011 3029
+type(
+  'a list
+)
+ident(
+  int_ref l "gpointer.ml" 81 2986 3007 "gpointer.ml" 81 2986 3008
+)
+"gpointer.ml" 82 3011 3036 "gpointer.ml" 82 3011 3037
+type(
+  int
+)
+"gpointer.ml" 82 3011 3046 "gpointer.ml" 82 3011 3049
+type(
+  int
+)
+ident(
+  def acc "gpointer.ml" 82 3011 3050 "gpointer.ml" 82 3011 3085
+)
+"gpointer.ml" 82 3011 3050 "gpointer.ml" 82 3011 3051
+type(
+  'a
+)
+ident(
+  def v "gpointer.ml" 82 3011 3055 "gpointer.ml" 82 3011 3085
+)
+"gpointer.ml" 82 3011 3055 "gpointer.ml" 82 3011 3058
+type(
+  int
+)
+ident(
+  int_ref acc "gpointer.ml" 82 3011 3046 "gpointer.ml" 82 3011 3049
+)
+"gpointer.ml" 82 3011 3059 "gpointer.ml" 82 3011 3062
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lor )
+)
+"gpointer.ml" 82 3011 3064 "gpointer.ml" 82 3011 3078
+type(
+  'a variant_table -> 'a -> int
+)
+"gpointer.ml" 82 3011 3079 "gpointer.ml" 82 3011 3082
+type(
+  'a variant_table
+)
+ident(
+  int_ref tbl "gpointer.ml" 81 2986 3003 "gpointer.ml" 81 2986 3006
+)
+"gpointer.ml" 82 3011 3083 "gpointer.ml" 82 3011 3084
+type(
+  'a
+)
+ident(
+  int_ref v "gpointer.ml" 82 3011 3050 "gpointer.ml" 82 3011 3051
+)
+"gpointer.ml" 82 3011 3063 "gpointer.ml" 82 3011 3085
+type(
+  int
+)
+"gpointer.ml" 82 3011 3055 "gpointer.ml" 82 3011 3085
+type(
+  int
+)
+"gpointer.ml" 82 3011 3041 "gpointer.ml" 82 3011 3086
+type(
+  int -> 'a -> int
+)
+"gpointer.ml" 82 3011 3013 "gpointer.ml" 82 3011 3086
+call(
+  tail
+)
+type(
+  int
+)
+"gpointer.ml" 84 3088 3092 "gpointer.ml" 84 3088 3104
+type(
+  ([>  ] as 'a) variant_table -> int -> 'a list
+)
+ident(
+  def decode_flags "gpointer.ml" 94 3314 3314 --
+)
+"gpointer.ml" 84 3088 3105 "gpointer.ml" 84 3088 3108
+type(
+  'a variant_table
+)
+ident(
+  def tbl "gpointer.ml" 84 3088 3109 "gpointer.ml" 90 3290 3294
+)
+"gpointer.ml" 84 3088 3109 "gpointer.ml" 84 3088 3110
+type(
+  int
+)
+ident(
+  def c "gpointer.ml" 85 3113 3115 "gpointer.ml" 90 3290 3294
+)
+"gpointer.ml" 85 3113 3119 "gpointer.ml" 85 3113 3120
+type(
+  'a list ref
+)
+"gpointer.ml" 85 3113 3123 "gpointer.ml" 85 3113 3126
+type(
+  'a list -> 'a list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gpointer.ml" 85 3113 3127 "gpointer.ml" 85 3113 3129
+type(
+  'a list
+)
+"gpointer.ml" 85 3113 3123 "gpointer.ml" 85 3113 3129
+type(
+  'a list ref
+)
+"gpointer.ml" 86 3133 3143 "gpointer.ml" 86 3133 3145
+type(
+  int
+)
+"gpointer.ml" 86 3133 3153 "gpointer.ml" 86 3133 3154
+type(
+  int
+)
+"gpointer.ml" 87 3201 3209 "gpointer.ml" 87 3201 3210
+type(
+  int
+)
+ident(
+  def d "gpointer.ml" 88 3224 3228 "gpointer.ml" 88 3224 3281
+)
+"gpointer.ml" 87 3201 3213 "gpointer.ml" 87 3201 3214
+type(
+  int
+)
+"gpointer.ml" 87 3201 3215 "gpointer.ml" 87 3201 3218
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"gpointer.ml" 87 3201 3219 "gpointer.ml" 87 3201 3220
+type(
+  int
+)
+"gpointer.ml" 87 3201 3213 "gpointer.ml" 87 3201 3220
+type(
+  int
+)
+"gpointer.ml" 88 3224 3231 "gpointer.ml" 88 3224 3232
+type(
+  int
+)
+ident(
+  int_ref c "gpointer.ml" 84 3088 3109 "gpointer.ml" 84 3088 3110
+)
+"gpointer.ml" 88 3224 3233 "gpointer.ml" 88 3224 3237
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"gpointer.ml" 88 3224 3238 "gpointer.ml" 88 3224 3239
+type(
+  int
+)
+ident(
+  int_ref d "gpointer.ml" 87 3201 3209 "gpointer.ml" 87 3201 3210
+)
+"gpointer.ml" 88 3224 3231 "gpointer.ml" 88 3224 3239
+type(
+  int
+)
+"gpointer.ml" 88 3224 3240 "gpointer.ml" 88 3224 3242
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gpointer.ml" 88 3224 3243 "gpointer.ml" 88 3224 3244
+type(
+  int
+)
+"gpointer.ml" 88 3224 3231 "gpointer.ml" 88 3224 3244
+type(
+  bool
+)
+"gpointer.ml" 88 3224 3250 "gpointer.ml" 88 3224 3251
+type(
+  'a list ref
+)
+ident(
+  int_ref l "gpointer.ml" 85 3113 3119 "gpointer.ml" 85 3113 3120
+)
+"gpointer.ml" 88 3224 3252 "gpointer.ml" 88 3224 3254
+type(
+  'a list ref -> 'a list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gpointer.ml" 88 3224 3255 "gpointer.ml" 88 3224 3269
+type(
+  'a variant_table -> int -> 'a
+)
+"gpointer.ml" 88 3224 3270 "gpointer.ml" 88 3224 3273
+type(
+  'a variant_table
+)
+ident(
+  int_ref tbl "gpointer.ml" 84 3088 3105 "gpointer.ml" 84 3088 3108
+)
+"gpointer.ml" 88 3224 3274 "gpointer.ml" 88 3224 3275
+type(
+  int
+)
+ident(
+  int_ref d "gpointer.ml" 87 3201 3209 "gpointer.ml" 87 3201 3210
+)
+"gpointer.ml" 88 3224 3255 "gpointer.ml" 88 3224 3275
+type(
+  'a
+)
+"gpointer.ml" 88 3224 3279 "gpointer.ml" 88 3224 3280
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gpointer.ml" 88 3224 3280 "gpointer.ml" 88 3224 3281
+type(
+  'a list ref
+)
+ident(
+  int_ref l "gpointer.ml" 85 3113 3119 "gpointer.ml" 85 3113 3120
+)
+"gpointer.ml" 88 3224 3279 "gpointer.ml" 88 3224 3281
+type(
+  'a list
+)
+"gpointer.ml" 88 3224 3255 "gpointer.ml" 88 3224 3281
+type(
+  'a list
+)
+"gpointer.ml" 88 3224 3250 "gpointer.ml" 88 3224 3281
+type(
+  unit
+)
+"gpointer.ml" 88 3224 3228 "gpointer.ml" 88 3224 3281
+type(
+  unit
+)
+"gpointer.ml" 87 3201 3205 "gpointer.ml" 88 3224 3281
+type(
+  unit
+)
+"gpointer.ml" 86 3133 3135 "gpointer.ml" 89 3282 3288
+type(
+  unit
+)
+"gpointer.ml" 90 3290 3292 "gpointer.ml" 90 3290 3293
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gpointer.ml" 90 3290 3293 "gpointer.ml" 90 3290 3294
+type(
+  'a list ref
+)
+ident(
+  int_ref l "gpointer.ml" 85 3113 3119 "gpointer.ml" 85 3113 3120
+)
+"gpointer.ml" 90 3290 3292 "gpointer.ml" 90 3290 3294
+type(
+  'a list
+)
+"gpointer.ml" 86 3133 3135 "gpointer.ml" 90 3290 3294
+type(
+  'a list
+)
+"gpointer.ml" 85 3113 3115 "gpointer.ml" 90 3290 3294
+type(
+  'a list
+)
+"gpointer.ml" 95 3329 3338 "gpointer.ml" 95 3329 3365
+type(
+  string -> exn -> unit
+)
+ident(
+  ext_ref Callback.register_exception
+)
+"gpointer.ml" 95 3329 3366 "gpointer.ml" 95 3329 3380
+type(
+  string
+)
+"gpointer.ml" 95 3329 3381 "gpointer.ml" 95 3329 3385
+type(
+  exn
+)
+"gpointer.ml" 95 3329 3338 "gpointer.ml" 95 3329 3385
+call(
+  stack
+)
+type(
+  unit
+)
+"gpointer.ml" 105 3578 3582 "gpointer.ml" 105 3578 3588
+type(
+  region -> int
+)
+ident(
+  def length "gpointer.ml" 107 3607 3607 --
+)
+"gpointer.ml" 105 3578 3589 "gpointer.ml" 105 3578 3592
+type(
+  region
+)
+ident(
+  def reg "gpointer.ml" 105 3578 3595 "gpointer.ml" 105 3578 3605
+)
+"gpointer.ml" 105 3578 3595 "gpointer.ml" 105 3578 3598
+type(
+  region
+)
+ident(
+  int_ref reg "gpointer.ml" 105 3578 3589 "gpointer.ml" 105 3578 3592
+)
+"gpointer.ml" 105 3578 3595 "gpointer.ml" 105 3578 3605
+type(
+  int
+)
+"gpointer.ml" 107 3607 3611 "gpointer.ml" 107 3607 3631
+type(
+  path:int array -> get_length:('a -> int) -> 'a -> region
+)
+ident(
+  def unsafe_create_region "gpointer.ml" 110 3736 3736 --
+)
+"gpointer.ml" 107 3607 3633 "gpointer.ml" 107 3607 3637
+type(
+  int array
+)
+ident(
+  def path "gpointer.ml" 107 3607 3638 "gpointer.ml" 108 3657 3734
+)
+"gpointer.ml" 107 3607 3639 "gpointer.ml" 107 3607 3649
+type(
+  'a -> int
+)
+ident(
+  def get_length "gpointer.ml" 107 3607 3650 "gpointer.ml" 108 3657 3734
+)
+"gpointer.ml" 107 3607 3650 "gpointer.ml" 107 3607 3654
+type(
+  'a
+)
+ident(
+  def data "gpointer.ml" 108 3657 3659 "gpointer.ml" 108 3657 3734
+)
+"gpointer.ml" 108 3657 3668 "gpointer.ml" 108 3657 3676
+type(
+  'a -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"gpointer.ml" 108 3657 3677 "gpointer.ml" 108 3657 3681
+type(
+  'a
+)
+ident(
+  int_ref data "gpointer.ml" 107 3607 3650 "gpointer.ml" 107 3607 3654
+)
+"gpointer.ml" 108 3657 3668 "gpointer.ml" 108 3657 3681
+type(
+  Obj.t
+)
+"gpointer.ml" 108 3657 3690 "gpointer.ml" 108 3657 3694
+type(
+  int array
+)
+ident(
+  int_ref path "gpointer.ml" 107 3607 3633 "gpointer.ml" 107 3607 3637
+)
+"gpointer.ml" 108 3657 3705 "gpointer.ml" 108 3657 3706
+type(
+  int
+)
+"gpointer.ml" 108 3657 3717 "gpointer.ml" 108 3657 3727
+type(
+  'a -> int
+)
+ident(
+  int_ref get_length "gpointer.ml" 107 3607 3639 "gpointer.ml" 107 3607 3649
+)
+"gpointer.ml" 108 3657 3728 "gpointer.ml" 108 3657 3732
+type(
+  'a
+)
+ident(
+  int_ref data "gpointer.ml" 107 3607 3650 "gpointer.ml" 107 3607 3654
+)
+"gpointer.ml" 108 3657 3717 "gpointer.ml" 108 3657 3732
+call(
+  stack
+)
+type(
+  int
+)
+"gpointer.ml" 108 3657 3659 "gpointer.ml" 108 3657 3734
+type(
+  region
+)
+"gpointer.ml" 110 3736 3740 "gpointer.ml" 110 3736 3743
+type(
+  ?pos:int -> ?len:int -> region -> region
+)
+ident(
+  def sub "gpointer.ml" 116 3985 3985 --
+)
+"gpointer.ml" 110 3736 3746 "gpointer.ml" 110 3736 3749
+type(
+  int
+)
+"gpointer.ml" 110 3736 3750 "gpointer.ml" 110 3736 3751
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gpointer.ml" 110 3736 3750 "gpointer.ml" 110 3736 3751
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gpointer.ml" 110 3736 3750 "gpointer.ml" 110 3736 3751
+)
+"gpointer.ml" 110 3736 3754 "gpointer.ml" 110 3736 3757
+type(
+  int option
+)
+ident(
+  def len "gpointer.ml" 110 3736 3758 "gpointer.ml" 114 3929 3983
+)
+"gpointer.ml" 110 3736 3758 "gpointer.ml" 110 3736 3761
+type(
+  region
+)
+ident(
+  def reg "gpointer.ml" 111 3764 3766 "gpointer.ml" 114 3929 3983
+)
+"gpointer.ml" 111 3764 3770 "gpointer.ml" 111 3764 3773
+type(
+  int
+)
+"gpointer.ml" 111 3764 3782 "gpointer.ml" 111 3764 3785
+type(
+  int option
+)
+ident(
+  int_ref len "gpointer.ml" 110 3736 3754 "gpointer.ml" 110 3736 3757
+)
+"gpointer.ml" 111 3764 3796 "gpointer.ml" 111 3764 3797
+type(
+  int
+)
+ident(
+  def x "gpointer.ml" 111 3764 3801 "gpointer.ml" 111 3764 3802
+)
+"gpointer.ml" 111 3764 3791 "gpointer.ml" 111 3764 3797
+type(
+  int option
+)
+"gpointer.ml" 111 3764 3801 "gpointer.ml" 111 3764 3802
+type(
+  int
+)
+ident(
+  int_ref x "gpointer.ml" 111 3764 3796 "gpointer.ml" 111 3764 3797
+)
+"gpointer.ml" 111 3764 3805 "gpointer.ml" 111 3764 3809
+type(
+  int option
+)
+"gpointer.ml" 111 3764 3813 "gpointer.ml" 111 3764 3816
+type(
+  region
+)
+ident(
+  int_ref reg "gpointer.ml" 110 3736 3758 "gpointer.ml" 110 3736 3761
+)
+"gpointer.ml" 111 3764 3813 "gpointer.ml" 111 3764 3823
+type(
+  int
+)
+"gpointer.ml" 111 3764 3824 "gpointer.ml" 111 3764 3825
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gpointer.ml" 111 3764 3826 "gpointer.ml" 111 3764 3829
+type(
+  int
+)
+ident(
+  int_ref pos "gpointer.ml" 110 3736 3746 "gpointer.ml" 110 3736 3749
+)
+"gpointer.ml" 111 3764 3813 "gpointer.ml" 111 3764 3829
+type(
+  int
+)
+"gpointer.ml" 111 3764 3776 "gpointer.ml" 111 3764 3829
+type(
+  int
+)
+"gpointer.ml" 112 3833 3838 "gpointer.ml" 112 3833 3841
+type(
+  int
+)
+ident(
+  int_ref pos "gpointer.ml" 110 3736 3746 "gpointer.ml" 110 3736 3749
+)
+"gpointer.ml" 112 3833 3842 "gpointer.ml" 112 3833 3843
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gpointer.ml" 112 3833 3844 "gpointer.ml" 112 3833 3845
+type(
+  int
+)
+"gpointer.ml" 112 3833 3838 "gpointer.ml" 112 3833 3845
+type(
+  bool
+)
+"gpointer.ml" 112 3833 3846 "gpointer.ml" 112 3833 3848
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gpointer.ml" 112 3833 3849 "gpointer.ml" 112 3833 3852
+type(
+  int
+)
+ident(
+  int_ref pos "gpointer.ml" 110 3736 3746 "gpointer.ml" 110 3736 3749
+)
+"gpointer.ml" 112 3833 3853 "gpointer.ml" 112 3833 3854
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"gpointer.ml" 112 3833 3855 "gpointer.ml" 112 3833 3858
+type(
+  region
+)
+ident(
+  int_ref reg "gpointer.ml" 110 3736 3758 "gpointer.ml" 110 3736 3761
+)
+"gpointer.ml" 112 3833 3855 "gpointer.ml" 112 3833 3865
+type(
+  int
+)
+"gpointer.ml" 112 3833 3849 "gpointer.ml" 112 3833 3865
+type(
+  bool
+)
+"gpointer.ml" 112 3833 3866 "gpointer.ml" 112 3833 3868
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gpointer.ml" 112 3833 3869 "gpointer.ml" 112 3833 3872
+type(
+  int
+)
+ident(
+  int_ref pos "gpointer.ml" 110 3736 3746 "gpointer.ml" 110 3736 3749
+)
+"gpointer.ml" 112 3833 3873 "gpointer.ml" 112 3833 3874
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"gpointer.ml" 112 3833 3875 "gpointer.ml" 112 3833 3878
+type(
+  int
+)
+ident(
+  int_ref len "gpointer.ml" 111 3764 3770 "gpointer.ml" 111 3764 3773
+)
+"gpointer.ml" 112 3833 3869 "gpointer.ml" 112 3833 3878
+type(
+  int
+)
+"gpointer.ml" 112 3833 3879 "gpointer.ml" 112 3833 3880
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"gpointer.ml" 112 3833 3881 "gpointer.ml" 112 3833 3884
+type(
+  region
+)
+ident(
+  int_ref reg "gpointer.ml" 110 3736 3758 "gpointer.ml" 110 3736 3761
+)
+"gpointer.ml" 112 3833 3881 "gpointer.ml" 112 3833 3891
+type(
+  int
+)
+"gpointer.ml" 112 3833 3869 "gpointer.ml" 112 3833 3891
+type(
+  bool
+)
+"gpointer.ml" 112 3833 3849 "gpointer.ml" 112 3833 3891
+type(
+  bool
+)
+"gpointer.ml" 112 3833 3838 "gpointer.ml" 112 3833 3891
+type(
+  bool
+)
+"gpointer.ml" 113 3897 3901 "gpointer.ml" 113 3897 3912
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gpointer.ml" 113 3897 3913 "gpointer.ml" 113 3897 3927
+type(
+  string
+)
+"gpointer.ml" 113 3897 3901 "gpointer.ml" 113 3897 3927
+call(
+  stack
+)
+type(
+  unit
+)
+"gpointer.ml" 112 3833 3835 "gpointer.ml" 113 3897 3927
+type(
+  unit
+)
+"gpointer.ml" 114 3929 3933 "gpointer.ml" 114 3929 3936
+type(
+  region
+)
+ident(
+  int_ref reg "gpointer.ml" 110 3736 3758 "gpointer.ml" 110 3736 3761
+)
+"gpointer.ml" 114 3929 3951 "gpointer.ml" 114 3929 3954
+type(
+  region
+)
+ident(
+  int_ref reg "gpointer.ml" 110 3736 3758 "gpointer.ml" 110 3736 3761
+)
+"gpointer.ml" 114 3929 3951 "gpointer.ml" 114 3929 3961
+type(
+  int
+)
+"gpointer.ml" 114 3929 3962 "gpointer.ml" 114 3929 3963
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"gpointer.ml" 114 3929 3964 "gpointer.ml" 114 3929 3967
+type(
+  int
+)
+ident(
+  int_ref pos "gpointer.ml" 110 3736 3746 "gpointer.ml" 110 3736 3749
+)
+"gpointer.ml" 114 3929 3951 "gpointer.ml" 114 3929 3967
+type(
+  int
+)
+"gpointer.ml" 114 3929 3978 "gpointer.ml" 114 3929 3981
+type(
+  int
+)
+ident(
+  int_ref len "gpointer.ml" 111 3764 3770 "gpointer.ml" 111 3764 3773
+)
+"gpointer.ml" 114 3929 3931 "gpointer.ml" 114 3929 3983
+type(
+  region
+)
+"gpointer.ml" 112 3833 3835 "gpointer.ml" 114 3929 3983
+type(
+  region
+)
+"gpointer.ml" 111 3764 3766 "gpointer.ml" 114 3929 3983
+type(
+  region
+)
+"gpointer.ml" 127 4355 4359 "gpointer.ml" 127 4355 4367
+type(
+  region -> pos:int -> int
+)
+ident(
+  def get_byte "gpointer.ml" 131 4468 4468 --
+)
+"gpointer.ml" 127 4355 4368 "gpointer.ml" 127 4355 4371
+type(
+  region
+)
+ident(
+  def reg "gpointer.ml" 127 4355 4372 "gpointer.ml" 129 4440 4466
+)
+"gpointer.ml" 127 4355 4373 "gpointer.ml" 127 4355 4376
+type(
+  int
+)
+ident(
+  def pos "gpointer.ml" 128 4379 4381 "gpointer.ml" 129 4440 4466
+)
+"gpointer.ml" 128 4379 4384 "gpointer.ml" 128 4379 4387
+type(
+  int
+)
+ident(
+  int_ref pos "gpointer.ml" 127 4355 4373 "gpointer.ml" 127 4355 4376
+)
+"gpointer.ml" 128 4379 4388 "gpointer.ml" 128 4379 4390
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"gpointer.ml" 128 4379 4391 "gpointer.ml" 128 4379 4394
+type(
+  region
+)
+ident(
+  int_ref reg "gpointer.ml" 127 4355 4368 "gpointer.ml" 127 4355 4371
+)
+"gpointer.ml" 128 4379 4391 "gpointer.ml" 128 4379 4401
+type(
+  int
+)
+"gpointer.ml" 128 4379 4384 "gpointer.ml" 128 4379 4401
+type(
+  bool
+)
+"gpointer.ml" 128 4379 4407 "gpointer.ml" 128 4379 4418
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gpointer.ml" 128 4379 4419 "gpointer.ml" 128 4379 4438
+type(
+  string
+)
+"gpointer.ml" 128 4379 4407 "gpointer.ml" 128 4379 4438
+call(
+  stack
+)
+type(
+  unit
+)
+"gpointer.ml" 128 4379 4381 "gpointer.ml" 128 4379 4438
+type(
+  unit
+)
+"gpointer.ml" 129 4440 4442 "gpointer.ml" 129 4440 4457
+type(
+  region -> pos:int -> int
+)
+"gpointer.ml" 129 4440 4458 "gpointer.ml" 129 4440 4461
+type(
+  region
+)
+ident(
+  int_ref reg "gpointer.ml" 127 4355 4368 "gpointer.ml" 127 4355 4371
+)
+"gpointer.ml" 129 4440 4463 "gpointer.ml" 129 4440 4466
+type(
+  int
+)
+ident(
+  int_ref pos "gpointer.ml" 127 4355 4373 "gpointer.ml" 127 4355 4376
+)
+"gpointer.ml" 129 4440 4442 "gpointer.ml" 129 4440 4466
+type(
+  int
+)
+"gpointer.ml" 128 4379 4381 "gpointer.ml" 129 4440 4466
+type(
+  int
+)
+"gpointer.ml" 131 4468 4472 "gpointer.ml" 131 4468 4480
+type(
+  region -> pos:int -> int -> unit
+)
+ident(
+  def set_byte "gpointer.ml" 135 4587 4587 --
+)
+"gpointer.ml" 131 4468 4481 "gpointer.ml" 131 4468 4484
+type(
+  region
+)
+ident(
+  def reg "gpointer.ml" 131 4468 4485 "gpointer.ml" 133 4556 4585
+)
+"gpointer.ml" 131 4468 4486 "gpointer.ml" 131 4468 4489
+type(
+  int
+)
+ident(
+  def pos "gpointer.ml" 131 4468 4490 "gpointer.ml" 133 4556 4585
+)
+"gpointer.ml" 131 4468 4490 "gpointer.ml" 131 4468 4492
+type(
+  int
+)
+ident(
+  def ch "gpointer.ml" 132 4495 4497 "gpointer.ml" 133 4556 4585
+)
+"gpointer.ml" 132 4495 4500 "gpointer.ml" 132 4495 4503
+type(
+  int
+)
+ident(
+  int_ref pos "gpointer.ml" 131 4468 4486 "gpointer.ml" 131 4468 4489
+)
+"gpointer.ml" 132 4495 4504 "gpointer.ml" 132 4495 4506
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"gpointer.ml" 132 4495 4507 "gpointer.ml" 132 4495 4510
+type(
+  region
+)
+ident(
+  int_ref reg "gpointer.ml" 131 4468 4481 "gpointer.ml" 131 4468 4484
+)
+"gpointer.ml" 132 4495 4507 "gpointer.ml" 132 4495 4517
+type(
+  int
+)
+"gpointer.ml" 132 4495 4500 "gpointer.ml" 132 4495 4517
+type(
+  bool
+)
+"gpointer.ml" 132 4495 4523 "gpointer.ml" 132 4495 4534
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gpointer.ml" 132 4495 4535 "gpointer.ml" 132 4495 4554
+type(
+  string
+)
+"gpointer.ml" 132 4495 4523 "gpointer.ml" 132 4495 4554
+call(
+  stack
+)
+type(
+  unit
+)
+"gpointer.ml" 132 4495 4497 "gpointer.ml" 132 4495 4554
+type(
+  unit
+)
+"gpointer.ml" 133 4556 4558 "gpointer.ml" 133 4556 4573
+type(
+  region -> pos:int -> int -> unit
+)
+"gpointer.ml" 133 4556 4574 "gpointer.ml" 133 4556 4577
+type(
+  region
+)
+ident(
+  int_ref reg "gpointer.ml" 131 4468 4481 "gpointer.ml" 131 4468 4484
+)
+"gpointer.ml" 133 4556 4579 "gpointer.ml" 133 4556 4582
+type(
+  int
+)
+ident(
+  int_ref pos "gpointer.ml" 131 4468 4486 "gpointer.ml" 131 4468 4489
+)
+"gpointer.ml" 133 4556 4583 "gpointer.ml" 133 4556 4585
+type(
+  int
+)
+ident(
+  int_ref ch "gpointer.ml" 131 4468 4490 "gpointer.ml" 131 4468 4492
+)
+"gpointer.ml" 133 4556 4558 "gpointer.ml" 133 4556 4585
+type(
+  unit
+)
+"gpointer.ml" 132 4495 4497 "gpointer.ml" 133 4556 4585
+type(
+  unit
+)
+"gpointer.ml" 135 4587 4591 "gpointer.ml" 135 4587 4595
+type(
+  src:region -> dst:region -> unit
+)
+ident(
+  def blit "gpointer.ml" 140 4741 4741 --
+)
+"gpointer.ml" 135 4587 4597 "gpointer.ml" 135 4587 4600
+type(
+  region
+)
+ident(
+  def src "gpointer.ml" 135 4587 4601 "gpointer.ml" 137 4672 4695
+)
+"gpointer.ml" 135 4587 4602 "gpointer.ml" 135 4587 4605
+type(
+  region
+)
+ident(
+  def dst "gpointer.ml" 136 4608 4610 "gpointer.ml" 137 4672 4695
+)
+"gpointer.ml" 136 4608 4613 "gpointer.ml" 136 4608 4616
+type(
+  region
+)
+ident(
+  int_ref src "gpointer.ml" 135 4587 4597 "gpointer.ml" 135 4587 4600
+)
+"gpointer.ml" 136 4608 4613 "gpointer.ml" 136 4608 4623
+type(
+  int
+)
+"gpointer.ml" 136 4608 4624 "gpointer.ml" 136 4608 4626
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gpointer.ml" 136 4608 4627 "gpointer.ml" 136 4608 4630
+type(
+  region
+)
+ident(
+  int_ref dst "gpointer.ml" 135 4587 4602 "gpointer.ml" 135 4587 4605
+)
+"gpointer.ml" 136 4608 4627 "gpointer.ml" 136 4608 4637
+type(
+  int
+)
+"gpointer.ml" 136 4608 4613 "gpointer.ml" 136 4608 4637
+type(
+  bool
+)
+"gpointer.ml" 136 4608 4643 "gpointer.ml" 136 4608 4654
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gpointer.ml" 136 4608 4655 "gpointer.ml" 136 4608 4670
+type(
+  string
+)
+"gpointer.ml" 136 4608 4643 "gpointer.ml" 136 4608 4670
+call(
+  stack
+)
+type(
+  unit
+)
+"gpointer.ml" 136 4608 4610 "gpointer.ml" 136 4608 4670
+type(
+  unit
+)
+"gpointer.ml" 137 4672 4674 "gpointer.ml" 137 4672 4685
+type(
+  src:region -> dst:region -> unit
+)
+"gpointer.ml" 137 4672 4687 "gpointer.ml" 137 4672 4690
+type(
+  region
+)
+ident(
+  int_ref src "gpointer.ml" 135 4587 4597 "gpointer.ml" 135 4587 4600
+)
+"gpointer.ml" 137 4672 4692 "gpointer.ml" 137 4672 4695
+type(
+  region
+)
+ident(
+  int_ref dst "gpointer.ml" 135 4587 4602 "gpointer.ml" 135 4587 4605
+)
+"gpointer.ml" 137 4672 4674 "gpointer.ml" 137 4672 4695
+type(
+  unit
+)
+"gpointer.ml" 136 4608 4610 "gpointer.ml" 137 4672 4695
+type(
+  unit
+)
+"gpointer.ml" 140 4741 4745 "gpointer.ml" 140 4741 4761
+type(
+  string -> region
+)
+ident(
+  def region_of_string "gpointer.ml" 143 4825 4825 --
+)
+"gpointer.ml" 141 4764 4766 "gpointer.ml" 141 4764 4786
+type(
+  path:int array -> get_length:(string -> int) -> string -> region
+)
+ident(
+  int_ref unsafe_create_region "gpointer.ml" 107 3607 3611 "gpointer.ml" 107 3607 3631
+)
+"gpointer.ml" 141 4764 4793 "gpointer.ml" 141 4764 4797
+type(
+  int array
+)
+"gpointer.ml" 141 4764 4810 "gpointer.ml" 141 4764 4823
+type(
+  string -> int
+)
+ident(
+  ext_ref StdLabels.String.length
+)
+"gpointer.ml" 141 4764 4766 "gpointer.ml" 141 4764 4823
+call(
+  stack
+)
+type(
+  string -> region
+)
+"gpointer.ml" 143 4825 4829 "gpointer.ml" 143 4825 4845
+type(
+  region -> string
+)
+ident(
+  def string_of_region "gpointer.ml" 150 5011 5011 --
+)
+"gpointer.ml" 143 4825 4846 "gpointer.ml" 143 4825 4849
+type(
+  region
+)
+ident(
+  def reg "gpointer.ml" 144 4852 4854 "gpointer.ml" 147 4949 4952
+)
+"gpointer.ml" 144 4852 4858 "gpointer.ml" 144 4852 4859
+type(
+  string
+)
+"gpointer.ml" 144 4852 4862 "gpointer.ml" 144 4852 4875
+type(
+  int -> string
+)
+ident(
+  ext_ref StdLabels.String.create
+)
+"gpointer.ml" 144 4852 4876 "gpointer.ml" 144 4852 4879
+type(
+  region
+)
+ident(
+  int_ref reg "gpointer.ml" 143 4825 4846 "gpointer.ml" 143 4825 4849
+)
+"gpointer.ml" 144 4852 4876 "gpointer.ml" 144 4852 4886
+type(
+  int
+)
+"gpointer.ml" 144 4852 4862 "gpointer.ml" 144 4852 4886
+type(
+  string
+)
+"gpointer.ml" 145 4890 4896 "gpointer.ml" 145 4890 4900
+type(
+  region
+)
+"gpointer.ml" 145 4890 4903 "gpointer.ml" 145 4890 4919
+type(
+  string -> region
+)
+ident(
+  int_ref region_of_string "gpointer.ml" 140 4741 4745 "gpointer.ml" 140 4741 4761
+)
+"gpointer.ml" 145 4890 4920 "gpointer.ml" 145 4890 4921
+type(
+  string
+)
+ident(
+  int_ref s "gpointer.ml" 144 4852 4858 "gpointer.ml" 144 4852 4859
+)
+"gpointer.ml" 145 4890 4903 "gpointer.ml" 145 4890 4921
+call(
+  stack
+)
+type(
+  region
+)
+"gpointer.ml" 146 4925 4927 "gpointer.ml" 146 4925 4938
+type(
+  src:region -> dst:region -> unit
+)
+"gpointer.ml" 146 4925 4939 "gpointer.ml" 146 4925 4942
+type(
+  region
+)
+ident(
+  int_ref reg "gpointer.ml" 143 4825 4846 "gpointer.ml" 143 4825 4849
+)
+"gpointer.ml" 146 4925 4943 "gpointer.ml" 146 4925 4947
+type(
+  region
+)
+ident(
+  int_ref reg' "gpointer.ml" 145 4890 4896 "gpointer.ml" 145 4890 4900
+)
+"gpointer.ml" 146 4925 4927 "gpointer.ml" 146 4925 4947
+type(
+  unit
+)
+"gpointer.ml" 147 4949 4951 "gpointer.ml" 147 4949 4952
+type(
+  string
+)
+ident(
+  int_ref s "gpointer.ml" 144 4852 4858 "gpointer.ml" 144 4852 4859
+)
+"gpointer.ml" 146 4925 4927 "gpointer.ml" 147 4949 4952
+type(
+  string
+)
+"gpointer.ml" 145 4890 4892 "gpointer.ml" 147 4949 4952
+type(
+  string
+)
+"gpointer.ml" 144 4852 4854 "gpointer.ml" 147 4949 4952
+type(
+  string
+)
+"gpointer.ml" 151 5086 5090 "gpointer.ml" 151 5086 5103
+type(
+  'a bigarray -> int
+)
+ident(
+  def bigarray_size "gpointer.ml" 155 5245 5245 --
+)
+"gpointer.ml" 151 5086 5105 "gpointer.ml" 151 5086 5108
+type(
+  'a bigarray
+)
+ident(
+  def arr "gpointer.ml" 152 5126 5128 "gpointer.ml" 154 5210 5244
+)
+"gpointer.ml" 152 5126 5132 "gpointer.ml" 152 5126 5136
+type(
+  region
+)
+"gpointer.ml" 153 5139 5152 "gpointer.ml" 153 5139 5160
+type(
+  'a bigarray -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"gpointer.ml" 153 5139 5161 "gpointer.ml" 153 5139 5164
+type(
+  'a bigarray
+)
+ident(
+  int_ref arr "gpointer.ml" 151 5086 5105 "gpointer.ml" 151 5086 5108
+)
+"gpointer.ml" 153 5139 5152 "gpointer.ml" 153 5139 5164
+type(
+  Obj.t
+)
+"gpointer.ml" 153 5139 5175 "gpointer.ml" 153 5139 5176
+type(
+  int
+)
+"gpointer.ml" 153 5139 5176 "gpointer.ml" 153 5139 5177
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"gpointer.ml" 153 5139 5177 "gpointer.ml" 153 5139 5178
+type(
+  int
+)
+"gpointer.ml" 153 5139 5175 "gpointer.ml" 153 5139 5178
+type(
+  int
+)
+"gpointer.ml" 153 5139 5173 "gpointer.ml" 153 5139 5180
+type(
+  int array
+)
+"gpointer.ml" 153 5139 5191 "gpointer.ml" 153 5139 5192
+type(
+  int
+)
+"gpointer.ml" 153 5139 5203 "gpointer.ml" 153 5139 5204
+type(
+  int
+)
+"gpointer.ml" 153 5139 5143 "gpointer.ml" 153 5139 5206
+type(
+  region
+)
+"gpointer.ml" 154 5210 5212 "gpointer.ml" 154 5210 5228
+type(
+  nativeint -> int
+)
+ident(
+  ext_ref Nativeint.to_int
+)
+"gpointer.ml" 154 5210 5230 "gpointer.ml" 154 5210 5238
+type(
+  region -> nativeint
+)
+"gpointer.ml" 154 5210 5239 "gpointer.ml" 154 5210 5243
+type(
+  region
+)
+ident(
+  int_ref size "gpointer.ml" 152 5126 5132 "gpointer.ml" 152 5126 5136
+)
+"gpointer.ml" 154 5210 5229 "gpointer.ml" 154 5210 5244
+type(
+  nativeint
+)
+"gpointer.ml" 154 5210 5212 "gpointer.ml" 154 5210 5244
+type(
+  int
+)
+"gpointer.ml" 152 5126 5128 "gpointer.ml" 154 5210 5244
+type(
+  int
+)
+"gpointer.ml" 155 5245 5249 "gpointer.ml" 155 5245 5267
+type(
+  'a bigarray -> region
+)
+ident(
+  def region_of_bigarray "gpointer.ml" 156 5274 5338 --
+)
+"gpointer.ml" 155 5245 5268 "gpointer.ml" 155 5245 5271
+type(
+  'a bigarray
+)
+ident(
+  def arr "gpointer.ml" 156 5274 5276 "gpointer.ml" 156 5274 5338
+)
+"gpointer.ml" 156 5274 5276 "gpointer.ml" 156 5274 5296
+type(
+  path:int array -> get_length:('a bigarray -> int) -> 'a bigarray -> region
+)
+ident(
+  int_ref unsafe_create_region "gpointer.ml" 107 3607 3611 "gpointer.ml" 107 3607 3631
+)
+"gpointer.ml" 156 5274 5305 "gpointer.ml" 156 5274 5306
+type(
+  int
+)
+"gpointer.ml" 156 5274 5303 "gpointer.ml" 156 5274 5308
+type(
+  int array
+)
+"gpointer.ml" 156 5274 5321 "gpointer.ml" 156 5274 5334
+type(
+  'a bigarray -> int
+)
+ident(
+  int_ref bigarray_size "gpointer.ml" 151 5086 5090 "gpointer.ml" 151 5086 5103
+)
+"gpointer.ml" 156 5274 5335 "gpointer.ml" 156 5274 5338
+type(
+  'a bigarray
+)
+ident(
+  int_ref arr "gpointer.ml" 155 5245 5268 "gpointer.ml" 155 5245 5271
+)
+"gpointer.ml" 156 5274 5276 "gpointer.ml" 156 5274 5338
+call(
+  tail
+)
+type(
+  region
+)

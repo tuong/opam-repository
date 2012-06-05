@@ -1,0 +1,41 @@
+OASISFormat:  0.1
+Name:         flags
+Version:      0.0.1
+Authors:      Sylvain Le Gall
+LicenseFile:  LICENSE
+License:      LGPL with OCaml linking exception
+Synopsis:     Demonstrate the use of Flag.
+BuildDepends: extlib
+BuildTools:   ocamlbuild
+FilesAB:      src/simplelib/Conf.ml.ab
+
+Flag buildext
+  Description: build simplelibext
+
+Library simplelib
+  Path: src/simplelib
+  Modules: Foo, Bar
+
+Document simplelib
+  Title:                API reference for simplelib
+  Type:                 ocamlbuild (0.1.0)
+  InstallDir:           $htmldir/simplelib
+  BuildTools+:          ocamldoc
+  XOCamlbuildPath:      src/simplelib
+  XOCamlbuildLibraries: simplelib
+
+Library simplelibext
+  Build: false
+  if flag(buildext) 
+    Build: true
+  Path: src/simplelibext
+  Modules: FooExt, BarExt
+
+Document simplelibext
+  Title:                API reference for simplelibext
+  Type:                 ocamlbuild (0.1.0)
+  InstallDir:           $htmldir/simplelibext
+  BuildTools+:          ocamldoc
+  XOCamlbuildPath:      src/simplelibext
+  XOCamlbuildLibraries: simplelibext
+

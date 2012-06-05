@@ -1,0 +1,47 @@
+#                                                               -*-conf-*-
+OASISFormat: 0.2
+Name:        ANSITerminal
+Version:     0.6.1
+Synopsis:    Basic control of ANSI compliant terminals and the windows shell.
+Description: ANSITerminal is a module allowing to use the colors and cursor movements on ANSI terminals. It also works on the windows shell (but this part is currently work in progress).
+Authors:     Christophe Troestler, Vincent Hugot
+License:     LGPL-3.0 with OCaml linking exception
+Plugins:     META (0.2), StdFiles (0.2)
+PostConfCommand: ocaml choose_implementation.ml
+Homepage:    https://forge.ocamlcore.org/projects/ansiterminal/    
+
+Library "ANSITerminal"
+  Path:         .
+  BuildTools:   ocamlbuild
+  Modules:      ANSITerminal
+  InternalModules: ANSITerminal_common
+  CSources:     ANSITerminal_stubs.c
+  BuildDepends: unix
+  
+Document API
+  Title:           API reference for ANSITerminal
+  Type:            OCamlbuild (0.2)
+  InstallDir:      $docdir/api
+  BuildTools:      ocamldoc, ocamlbuild
+  XOCamlbuildPath: .
+  XOCamlbuildLibraries: ANSITerminal
+
+Executable showcolors
+  Path:           .
+  MainIs:         showcolors.ml
+  BuildDepends:   ANSITerminal
+  CompiledObject: best
+  BuildTools:     ocamlbuild
+  Install:        false
+
+Executable test
+  Path:           .
+  MainIs:         test.ml
+  BuildDepends:   ANSITerminal
+  BuildTools:     ocamlbuild
+  Install:        false
+
+SourceRepository trunk
+  Type:       svn
+  Location:   svn://scm.ocamlcore.org/svn/ansiterminal/trunk
+  Browser:    https://forge.ocamlcore.org/scm/browser.php?group_id=187

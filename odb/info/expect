@@ -1,0 +1,4 @@
+deps=unix,threads,str,pcre,ocamlbuild,oUnit,extlib
+tarball=ocaml-expect-0.0.2.tar.gz
+is_library=true
+is_program=false

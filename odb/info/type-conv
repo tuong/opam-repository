@@ -1,0 +1,4 @@
+deps=ocamlbuild,camlp4o,camlp4
+tarball=type-conv-3.0.4.tar.gz
+is_library=true
+is_program=false

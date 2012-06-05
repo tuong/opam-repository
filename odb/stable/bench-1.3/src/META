@@ -1,0 +1,9 @@
+# OASIS_START
+# DO NOT EDIT (digest: 79d81d937d78063dbc78a880c42bd601)
+version = "1.3"
+description = "A benchmarking tool for statistically valid benchmarks"
+archive(byte) = "bench.cma"
+archive(native) = "bench.cmxa"
+exists_if = "bench.cma"
+# OASIS_STOP
+

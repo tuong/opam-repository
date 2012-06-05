@@ -1,0 +1,5785 @@
+"gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons "gtkMiscProps.ml" 8 93 93 --
+)
+"gtkMiscProps.ml" 7 60 75 "gtkMiscProps.ml" 7 60 92
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gtkMiscProps.ml" 8 93 97 "gtkMiscProps.ml" 8 93 109
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons_opt "gtkMiscProps.ml" 10 135 135 --
+)
+"gtkMiscProps.ml" 8 93 112 "gtkMiscProps.ml" 8 93 133
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons_opt
+)
+"gtkMiscProps.ml" 11 165 171 "gtkMiscProps.ml" 11 165 175
+type(
+  'a Gobject.obj -> Gtk.gtk_status_icon
+)
+ident(
+  def cast "gtkMiscProps.ml" 12 225 227 "gtkMiscProps.ml" 71 2885 2888
+)
+"gtkMiscProps.ml" 11 165 176 "gtkMiscProps.ml" 11 165 177
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMiscProps.ml" 11 165 178 "gtkMiscProps.ml" 11 165 224
+)
+"gtkMiscProps.ml" 11 165 198 "gtkMiscProps.ml" 11 165 206
+type(
+  'a Gobject.obj -> string -> Gtk.gtk_status_icon
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMiscProps.ml" 11 165 207 "gtkMiscProps.ml" 11 165 208
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMiscProps.ml" 11 165 176 "gtkMiscProps.ml" 11 165 177
+)
+"gtkMiscProps.ml" 11 165 209 "gtkMiscProps.ml" 11 165 224
+type(
+  string
+)
+"gtkMiscProps.ml" 11 165 198 "gtkMiscProps.ml" 11 165 224
+call(
+  tail
+)
+type(
+  Gtk.gtk_status_icon
+)
+type(
+  Gtk.gtk_status_icon
+)
+"gtkMiscProps.ml" 13 245 253 "gtkMiscProps.ml" 13 245 259
+type(
+  ([> `gtkstatusicon ], Gdk.screen) Gobject.property
+)
+ident(
+  def screen "gtkMiscProps.ml" 15 356 360 "gtkMiscProps.ml" 19 534 539
+)
+"gtkMiscProps.ml" 14 295 307 "gtkMiscProps.ml" 14 295 315
+type(
+  string
+)
+"gtkMiscProps.ml" 14 295 323 "gtkMiscProps.ml" 14 295 330
+type(
+  Gdk.screen Gobject.data_conv
+)
+type(
+  Gdk.screen Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkMiscProps.ml" 14 295 301 "gtkMiscProps.ml" 14 295 355
+type(
+  ([> `gtkstatusicon ] as 'b, Gdk.screen) Gobject.property
+)
+type(
+  ('b, Gdk.screen) Gobject.property
+)
+"gtkMiscProps.ml" 15 356 364 "gtkMiscProps.ml" 15 356 371
+type(
+  ([> `gtkstatusicon ], bool) Gobject.property
+)
+ident(
+  def visible "gtkMiscProps.ml" 17 444 448 "gtkMiscProps.ml" 19 534 539
+)
+"gtkMiscProps.ml" 16 407 419 "gtkMiscProps.ml" 16 407 428
+type(
+  string
+)
+"gtkMiscProps.ml" 16 407 435 "gtkMiscProps.ml" 16 407 442
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkMiscProps.ml" 16 407 413 "gtkMiscProps.ml" 16 407 443
+type(
+  ([> `gtkstatusicon ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkMiscProps.ml" 17 444 452 "gtkMiscProps.ml" 17 444 460
+type(
+  ([> `gtkstatusicon ], bool) Gobject.property
+)
+ident(
+  def blinking "gtkMiscProps.ml" 18 496 533 "gtkMiscProps.ml" 19 534 539
+)
+"gtkMiscProps.ml" 18 496 508 "gtkMiscProps.ml" 18 496 518
+type(
+  string
+)
+"gtkMiscProps.ml" 18 496 525 "gtkMiscProps.ml" 18 496 532
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkMiscProps.ml" 18 496 502 "gtkMiscProps.ml" 18 496 533
+type(
+  ([> `gtkstatusicon ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkMiscProps.ml" 22 579 587 "gtkMiscProps.ml" 22 579 595
+type(
+  ([> `gtkstatusicon ], unit -> unit) GtkSignal.t
+)
+ident(
+  def activate "gtkMiscProps.ml" 24 670 674 "gtkMiscProps.ml" 30 964 969
+)
+"gtkMiscProps.ml" 23 598 610 "gtkMiscProps.ml" 23 598 620
+type(
+  string
+)
+"gtkMiscProps.ml" 23 598 629 "gtkMiscProps.ml" 23 598 643
+type(
+  [> `gtkstatusicon ] as 'e
+)
+"gtkMiscProps.ml" 23 598 656 "gtkMiscProps.ml" 23 598 668
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMiscProps.ml" 23 598 604 "gtkMiscProps.ml" 23 598 669
+type(
+  ('e, unit -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 24 670 678 "gtkMiscProps.ml" 24 670 688
+type(
+  ([> `gtkstatusicon ], int -> int -> unit) GtkSignal.t
+)
+ident(
+  def popup_menu "gtkMiscProps.ml" 27 817 821 "gtkMiscProps.ml" 30 964 969
+)
+"gtkMiscProps.ml" 25 691 703 "gtkMiscProps.ml" 25 691 715
+type(
+  string
+)
+"gtkMiscProps.ml" 25 691 724 "gtkMiscProps.ml" 25 691 738
+type(
+  [> `gtkstatusicon ] as 'f
+)
+"gtkMiscProps.ml" 25 691 755 "gtkMiscProps.ml" 25 691 756
+type(
+  int -> int -> unit
+)
+ident(
+  def f "gtkMiscProps.ml" 26 760 767 "gtkMiscProps.ml" 26 760 815
+)
+"gtkMiscProps.ml" 26 760 767 "gtkMiscProps.ml" 26 760 775
+type(
+  int Gobject.data_conv ->
+  int Gobject.data_conv ->
+  string -> (int -> int -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkMiscProps.ml" 26 760 776 "gtkMiscProps.ml" 26 760 780
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkMiscProps.ml" 26 760 781 "gtkMiscProps.ml" 26 760 785
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkMiscProps.ml" 26 760 786 "gtkMiscProps.ml" 26 760 813
+type(
+  string
+)
+"gtkMiscProps.ml" 26 760 814 "gtkMiscProps.ml" 26 760 815
+type(
+  int -> int -> unit
+)
+ident(
+  int_ref f "gtkMiscProps.ml" 25 691 755 "gtkMiscProps.ml" 25 691 756
+)
+"gtkMiscProps.ml" 26 760 767 "gtkMiscProps.ml" 26 760 815
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkMiscProps.ml" 25 691 751 "gtkMiscProps.ml" 26 760 815
+type(
+  (int -> int -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkMiscProps.ml" 25 691 697 "gtkMiscProps.ml" 26 760 816
+type(
+  ('f, int -> int -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 27 817 825 "gtkMiscProps.ml" 27 817 837
+type(
+  ([> `gtkstatusicon ], int -> unit) GtkSignal.t
+)
+ident(
+  def size_changed "gtkMiscProps.ml" 29 911 963 "gtkMiscProps.ml" 30 964 969
+)
+"gtkMiscProps.ml" 28 840 852 "gtkMiscProps.ml" 28 840 866
+type(
+  string
+)
+"gtkMiscProps.ml" 28 840 875 "gtkMiscProps.ml" 28 840 889
+type(
+  [> `gtkstatusicon ] as 'g
+)
+"gtkMiscProps.ml" 28 840 906 "gtkMiscProps.ml" 28 840 907
+type(
+  int -> unit
+)
+ident(
+  def f "gtkMiscProps.ml" 29 911 918 "gtkMiscProps.ml" 29 911 962
+)
+"gtkMiscProps.ml" 29 911 918 "gtkMiscProps.ml" 29 911 926
+type(
+  int Gobject.data_conv -> string -> (int -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkMiscProps.ml" 29 911 927 "gtkMiscProps.ml" 29 911 930
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkMiscProps.ml" 29 911 931 "gtkMiscProps.ml" 29 911 960
+type(
+  string
+)
+"gtkMiscProps.ml" 29 911 961 "gtkMiscProps.ml" 29 911 962
+type(
+  int -> unit
+)
+ident(
+  int_ref f "gtkMiscProps.ml" 28 840 906 "gtkMiscProps.ml" 28 840 907
+)
+"gtkMiscProps.ml" 29 911 918 "gtkMiscProps.ml" 29 911 962
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkMiscProps.ml" 28 840 902 "gtkMiscProps.ml" 29 911 962
+type(
+  (int -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkMiscProps.ml" 28 840 846 "gtkMiscProps.ml" 29 911 963
+type(
+  ('g, int -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 31 970 976 "gtkMiscProps.ml" 31 970 982
+type(
+  Gtk.status_icon Gobject.param list -> Gtk.gtk_status_icon
+)
+ident(
+  def create "gtkMiscProps.ml" 32 1047 1049 "gtkMiscProps.ml" 71 2885 2888
+)
+"gtkMiscProps.ml" 31 970 983 "gtkMiscProps.ml" 31 970 985
+type(
+  Gtk.status_icon Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 31 970 986 "gtkMiscProps.ml" 31 970 1046
+)
+"gtkMiscProps.ml" 31 970 1006 "gtkMiscProps.ml" 31 970 1027
+type(
+  classe:string -> Gtk.status_icon Gobject.param list -> Gtk.gtk_status_icon
+)
+ident(
+  ext_ref Gobject.unsafe_create
+)
+"gtkMiscProps.ml" 31 970 1028 "gtkMiscProps.ml" 31 970 1043
+type(
+  string
+)
+"gtkMiscProps.ml" 31 970 1044 "gtkMiscProps.ml" 31 970 1046
+type(
+  Gtk.status_icon Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 31 970 983 "gtkMiscProps.ml" 31 970 985
+)
+"gtkMiscProps.ml" 31 970 1006 "gtkMiscProps.ml" 31 970 1046
+call(
+  tail
+)
+type(
+  Gtk.gtk_status_icon
+)
+type(
+  Gtk.gtk_status_icon
+)
+"gtkMiscProps.ml" 65 2690 2696 "gtkMiscProps.ml" 65 2690 2707
+type(
+  cont:(([> `gtkstatusicon ] as 'h) Gobject.param list -> 'i) ->
+  'h Gobject.param list ->
+  ?screen:Gdk.screen -> ?visible:bool -> ?blinking:bool -> 'i
+)
+ident(
+  def make_params "gtkMiscProps.ml" 70 2873 2884 "gtkMiscProps.ml" 71 2885 2888
+)
+"gtkMiscProps.ml" 65 2690 2709 "gtkMiscProps.ml" 65 2690 2713
+type(
+  'h Gobject.param list -> 'i
+)
+ident(
+  def cont "gtkMiscProps.ml" 65 2690 2714 "gtkMiscProps.ml" 70 2873 2884
+)
+"gtkMiscProps.ml" 65 2690 2714 "gtkMiscProps.ml" 65 2690 2716
+type(
+  'h Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 65 2690 2717 "gtkMiscProps.ml" 70 2873 2884
+)
+"gtkMiscProps.ml" 65 2690 2718 "gtkMiscProps.ml" 65 2690 2724
+type(
+  Gdk.screen option
+)
+ident(
+  def screen "gtkMiscProps.ml" 65 2690 2725 "gtkMiscProps.ml" 70 2873 2884
+)
+"gtkMiscProps.ml" 65 2690 2726 "gtkMiscProps.ml" 65 2690 2733
+type(
+  bool option
+)
+ident(
+  def visible "gtkMiscProps.ml" 65 2690 2734 "gtkMiscProps.ml" 70 2873 2884
+)
+"gtkMiscProps.ml" 65 2690 2735 "gtkMiscProps.ml" 65 2690 2743
+type(
+  bool option
+)
+ident(
+  def blinking "gtkMiscProps.ml" 66 2746 2750 "gtkMiscProps.ml" 70 2873 2884
+)
+"gtkMiscProps.ml" 66 2746 2754 "gtkMiscProps.ml" 66 2746 2756
+type(
+  'h Gobject.param list
+)
+"gtkMiscProps.ml" 67 2761 2767 "gtkMiscProps.ml" 67 2761 2775
+type(
+  ('h, Gdk.screen) Gobject.property ->
+  Gdk.screen option -> 'h Gobject.param list -> 'h Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 67 2761 2776 "gtkMiscProps.ml" 67 2761 2784
+type(
+  ('h, Gdk.screen) Gobject.property
+)
+ident(
+  ext_ref P.screen
+)
+"gtkMiscProps.ml" 67 2761 2785 "gtkMiscProps.ml" 67 2761 2791
+type(
+  Gdk.screen option
+)
+ident(
+  int_ref screen "gtkMiscProps.ml" 65 2690 2718 "gtkMiscProps.ml" 65 2690 2724
+)
+"gtkMiscProps.ml" 68 2794 2800 "gtkMiscProps.ml" 68 2794 2808
+type(
+  ('h, bool) Gobject.property ->
+  bool option -> 'h Gobject.param list -> 'h Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 68 2794 2809 "gtkMiscProps.ml" 68 2794 2818
+type(
+  ('h, bool) Gobject.property
+)
+ident(
+  ext_ref P.visible
+)
+"gtkMiscProps.ml" 68 2794 2819 "gtkMiscProps.ml" 68 2794 2826
+type(
+  bool option
+)
+ident(
+  int_ref visible "gtkMiscProps.ml" 65 2690 2726 "gtkMiscProps.ml" 65 2690 2733
+)
+"gtkMiscProps.ml" 69 2829 2835 "gtkMiscProps.ml" 69 2829 2843
+type(
+  ('h, bool) Gobject.property ->
+  bool option -> 'h Gobject.param list -> 'h Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 69 2829 2844 "gtkMiscProps.ml" 69 2829 2854
+type(
+  ('h, bool) Gobject.property
+)
+ident(
+  ext_ref P.blinking
+)
+"gtkMiscProps.ml" 69 2829 2855 "gtkMiscProps.ml" 69 2829 2863
+type(
+  bool option
+)
+ident(
+  int_ref blinking "gtkMiscProps.ml" 65 2690 2735 "gtkMiscProps.ml" 65 2690 2743
+)
+"gtkMiscProps.ml" 69 2829 2864 "gtkMiscProps.ml" 69 2829 2866
+type(
+  'h Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 65 2690 2714 "gtkMiscProps.ml" 65 2690 2716
+)
+"gtkMiscProps.ml" 68 2794 2827 "gtkMiscProps.ml" 69 2829 2867
+call(
+  stack
+)
+type(
+  'h Gobject.param list
+)
+"gtkMiscProps.ml" 67 2761 2792 "gtkMiscProps.ml" 69 2829 2868
+call(
+  stack
+)
+type(
+  'h Gobject.param list
+)
+"gtkMiscProps.ml" 66 2746 2759 "gtkMiscProps.ml" 69 2829 2869
+call(
+  stack
+)
+type(
+  'h Gobject.param list
+)
+"gtkMiscProps.ml" 70 2873 2877 "gtkMiscProps.ml" 70 2873 2881
+type(
+  'h Gobject.param list -> 'i
+)
+ident(
+  int_ref cont "gtkMiscProps.ml" 65 2690 2709 "gtkMiscProps.ml" 65 2690 2713
+)
+"gtkMiscProps.ml" 70 2873 2882 "gtkMiscProps.ml" 70 2873 2884
+type(
+  'h Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 66 2746 2754 "gtkMiscProps.ml" 66 2746 2756
+)
+"gtkMiscProps.ml" 70 2873 2877 "gtkMiscProps.ml" 70 2873 2884
+call(
+  tail
+)
+type(
+  'i
+)
+"gtkMiscProps.ml" 66 2746 2750 "gtkMiscProps.ml" 70 2873 2884
+type(
+  'i
+)
+"gtkMiscProps.ml" 74 2911 2917 "gtkMiscProps.ml" 74 2911 2921
+type(
+  'a Gobject.obj -> Gtk.misc Gtk.obj
+)
+ident(
+  def cast "gtkMiscProps.ml" 75 2962 2964 "gtkMiscProps.ml" 88 3468 3471
+)
+"gtkMiscProps.ml" 74 2911 2922 "gtkMiscProps.ml" 74 2911 2923
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMiscProps.ml" 74 2911 2924 "gtkMiscProps.ml" 74 2911 2961
+)
+"gtkMiscProps.ml" 74 2911 2941 "gtkMiscProps.ml" 74 2911 2949
+type(
+  'a Gobject.obj -> string -> Gtk.misc Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMiscProps.ml" 74 2911 2950 "gtkMiscProps.ml" 74 2911 2951
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMiscProps.ml" 74 2911 2922 "gtkMiscProps.ml" 74 2911 2923
+)
+"gtkMiscProps.ml" 74 2911 2952 "gtkMiscProps.ml" 74 2911 2961
+type(
+  string
+)
+"gtkMiscProps.ml" 74 2911 2941 "gtkMiscProps.ml" 74 2911 2961
+call(
+  tail
+)
+type(
+  Gtk.misc Gtk.obj
+)
+type(
+  Gtk.misc Gtk.obj
+)
+"gtkMiscProps.ml" 76 2982 2990 "gtkMiscProps.ml" 76 2982 2996
+type(
+  ([> `misc ], float) Gobject.property
+)
+ident(
+  def xalign "gtkMiscProps.ml" 77 3051 3055 "gtkMiscProps.ml" 80 3246 3251
+)
+"gtkMiscProps.ml" 76 2982 3029 "gtkMiscProps.ml" 76 2982 3037
+type(
+  string
+)
+"gtkMiscProps.ml" 76 2982 3044 "gtkMiscProps.ml" 76 2982 3049
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkMiscProps.ml" 76 2982 3023 "gtkMiscProps.ml" 76 2982 3050
+type(
+  ([> `misc ] as 'b, float) Gobject.property
+)
+type(
+  ('b, float) Gobject.property
+)
+"gtkMiscProps.ml" 77 3051 3059 "gtkMiscProps.ml" 77 3051 3065
+type(
+  ([> `misc ], float) Gobject.property
+)
+ident(
+  def yalign "gtkMiscProps.ml" 78 3120 3124 "gtkMiscProps.ml" 80 3246 3251
+)
+"gtkMiscProps.ml" 77 3051 3098 "gtkMiscProps.ml" 77 3051 3106
+type(
+  string
+)
+"gtkMiscProps.ml" 77 3051 3113 "gtkMiscProps.ml" 77 3051 3118
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkMiscProps.ml" 77 3051 3092 "gtkMiscProps.ml" 77 3051 3119
+type(
+  ([> `misc ] as 'c, float) Gobject.property
+)
+type(
+  ('c, float) Gobject.property
+)
+"gtkMiscProps.ml" 78 3120 3128 "gtkMiscProps.ml" 78 3120 3132
+type(
+  ([> `misc ], int) Gobject.property
+)
+ident(
+  def xpad "gtkMiscProps.ml" 79 3183 3187 "gtkMiscProps.ml" 80 3246 3251
+)
+"gtkMiscProps.ml" 78 3120 3165 "gtkMiscProps.ml" 78 3120 3171
+type(
+  string
+)
+"gtkMiscProps.ml" 78 3120 3178 "gtkMiscProps.ml" 78 3120 3181
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkMiscProps.ml" 78 3120 3159 "gtkMiscProps.ml" 78 3120 3182
+type(
+  ([> `misc ] as 'd, int) Gobject.property
+)
+type(
+  ('d, int) Gobject.property
+)
+"gtkMiscProps.ml" 79 3183 3191 "gtkMiscProps.ml" 79 3183 3195
+type(
+  ([> `misc ], int) Gobject.property
+)
+ident(
+  def ypad "gtkMiscProps.ml" 79 3183 3245 "gtkMiscProps.ml" 80 3246 3251
+)
+"gtkMiscProps.ml" 79 3183 3228 "gtkMiscProps.ml" 79 3183 3234
+type(
+  string
+)
+"gtkMiscProps.ml" 79 3183 3241 "gtkMiscProps.ml" 79 3183 3244
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkMiscProps.ml" 79 3183 3222 "gtkMiscProps.ml" 79 3183 3245
+type(
+  ([> `misc ] as 'e, int) Gobject.property
+)
+type(
+  ('e, int) Gobject.property
+)
+"gtkMiscProps.ml" 81 3252 3258 "gtkMiscProps.ml" 81 3252 3269
+type(
+  cont:(([> `misc ] as 'f) Gobject.param list -> 'g) ->
+  'f Gobject.param list ->
+  ?xalign:float -> ?yalign:float -> ?xpad:int -> ?ypad:int -> 'g
+)
+ident(
+  def make_params "gtkMiscProps.ml" 87 3456 3467 "gtkMiscProps.ml" 88 3468 3471
+)
+"gtkMiscProps.ml" 81 3252 3271 "gtkMiscProps.ml" 81 3252 3275
+type(
+  'f Gobject.param list -> 'g
+)
+ident(
+  def cont "gtkMiscProps.ml" 81 3252 3276 "gtkMiscProps.ml" 87 3456 3467
+)
+"gtkMiscProps.ml" 81 3252 3276 "gtkMiscProps.ml" 81 3252 3278
+type(
+  'f Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 81 3252 3279 "gtkMiscProps.ml" 87 3456 3467
+)
+"gtkMiscProps.ml" 81 3252 3280 "gtkMiscProps.ml" 81 3252 3286
+type(
+  float option
+)
+ident(
+  def xalign "gtkMiscProps.ml" 81 3252 3287 "gtkMiscProps.ml" 87 3456 3467
+)
+"gtkMiscProps.ml" 81 3252 3288 "gtkMiscProps.ml" 81 3252 3294
+type(
+  float option
+)
+ident(
+  def yalign "gtkMiscProps.ml" 81 3252 3295 "gtkMiscProps.ml" 87 3456 3467
+)
+"gtkMiscProps.ml" 81 3252 3296 "gtkMiscProps.ml" 81 3252 3300
+type(
+  int option
+)
+ident(
+  def xpad "gtkMiscProps.ml" 81 3252 3301 "gtkMiscProps.ml" 87 3456 3467
+)
+"gtkMiscProps.ml" 81 3252 3302 "gtkMiscProps.ml" 81 3252 3306
+type(
+  int option
+)
+ident(
+  def ypad "gtkMiscProps.ml" 82 3309 3313 "gtkMiscProps.ml" 87 3456 3467
+)
+"gtkMiscProps.ml" 82 3309 3317 "gtkMiscProps.ml" 82 3309 3319
+type(
+  'f Gobject.param list
+)
+"gtkMiscProps.ml" 83 3324 3330 "gtkMiscProps.ml" 83 3324 3338
+type(
+  ('f, float) Gobject.property ->
+  float option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 83 3324 3339 "gtkMiscProps.ml" 83 3324 3347
+type(
+  ('f, float) Gobject.property
+)
+ident(
+  ext_ref P.xalign
+)
+"gtkMiscProps.ml" 83 3324 3348 "gtkMiscProps.ml" 83 3324 3354
+type(
+  float option
+)
+ident(
+  int_ref xalign "gtkMiscProps.ml" 81 3252 3280 "gtkMiscProps.ml" 81 3252 3286
+)
+"gtkMiscProps.ml" 84 3357 3363 "gtkMiscProps.ml" 84 3357 3371
+type(
+  ('f, float) Gobject.property ->
+  float option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 84 3357 3372 "gtkMiscProps.ml" 84 3357 3380
+type(
+  ('f, float) Gobject.property
+)
+ident(
+  ext_ref P.yalign
+)
+"gtkMiscProps.ml" 84 3357 3381 "gtkMiscProps.ml" 84 3357 3387
+type(
+  float option
+)
+ident(
+  int_ref yalign "gtkMiscProps.ml" 81 3252 3288 "gtkMiscProps.ml" 81 3252 3294
+)
+"gtkMiscProps.ml" 85 3390 3396 "gtkMiscProps.ml" 85 3390 3404
+type(
+  ('f, int) Gobject.property ->
+  int option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 85 3390 3405 "gtkMiscProps.ml" 85 3390 3411
+type(
+  ('f, int) Gobject.property
+)
+ident(
+  ext_ref P.xpad
+)
+"gtkMiscProps.ml" 85 3390 3412 "gtkMiscProps.ml" 85 3390 3416
+type(
+  int option
+)
+ident(
+  int_ref xpad "gtkMiscProps.ml" 81 3252 3296 "gtkMiscProps.ml" 81 3252 3300
+)
+"gtkMiscProps.ml" 86 3419 3425 "gtkMiscProps.ml" 86 3419 3433
+type(
+  ('f, int) Gobject.property ->
+  int option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 86 3419 3434 "gtkMiscProps.ml" 86 3419 3440
+type(
+  ('f, int) Gobject.property
+)
+ident(
+  ext_ref P.ypad
+)
+"gtkMiscProps.ml" 86 3419 3441 "gtkMiscProps.ml" 86 3419 3445
+type(
+  int option
+)
+ident(
+  int_ref ypad "gtkMiscProps.ml" 81 3252 3302 "gtkMiscProps.ml" 81 3252 3306
+)
+"gtkMiscProps.ml" 86 3419 3446 "gtkMiscProps.ml" 86 3419 3448
+type(
+  'f Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 81 3252 3276 "gtkMiscProps.ml" 81 3252 3278
+)
+"gtkMiscProps.ml" 85 3390 3417 "gtkMiscProps.ml" 86 3419 3449
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkMiscProps.ml" 84 3357 3388 "gtkMiscProps.ml" 86 3419 3450
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkMiscProps.ml" 83 3324 3355 "gtkMiscProps.ml" 86 3419 3451
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkMiscProps.ml" 82 3309 3322 "gtkMiscProps.ml" 86 3419 3452
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkMiscProps.ml" 87 3456 3460 "gtkMiscProps.ml" 87 3456 3464
+type(
+  'f Gobject.param list -> 'g
+)
+ident(
+  int_ref cont "gtkMiscProps.ml" 81 3252 3271 "gtkMiscProps.ml" 81 3252 3275
+)
+"gtkMiscProps.ml" 87 3456 3465 "gtkMiscProps.ml" 87 3456 3467
+type(
+  'f Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 82 3309 3317 "gtkMiscProps.ml" 82 3309 3319
+)
+"gtkMiscProps.ml" 87 3456 3460 "gtkMiscProps.ml" 87 3456 3467
+call(
+  tail
+)
+type(
+  'g
+)
+"gtkMiscProps.ml" 82 3309 3313 "gtkMiscProps.ml" 87 3456 3467
+type(
+  'g
+)
+"gtkMiscProps.ml" 91 3495 3501 "gtkMiscProps.ml" 91 3495 3505
+type(
+  'a Gobject.obj -> Gtk.label Gtk.obj
+)
+ident(
+  def cast "gtkMiscProps.ml" 92 3548 3550 "gtkMiscProps.ml" 156 6473 6476
+)
+"gtkMiscProps.ml" 91 3495 3506 "gtkMiscProps.ml" 91 3495 3507
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMiscProps.ml" 91 3495 3508 "gtkMiscProps.ml" 91 3495 3547
+)
+"gtkMiscProps.ml" 91 3495 3526 "gtkMiscProps.ml" 91 3495 3534
+type(
+  'a Gobject.obj -> string -> Gtk.label Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMiscProps.ml" 91 3495 3535 "gtkMiscProps.ml" 91 3495 3536
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMiscProps.ml" 91 3495 3506 "gtkMiscProps.ml" 91 3495 3507
+)
+"gtkMiscProps.ml" 91 3495 3537 "gtkMiscProps.ml" 91 3495 3547
+type(
+  string
+)
+"gtkMiscProps.ml" 91 3495 3526 "gtkMiscProps.ml" 91 3495 3547
+call(
+  tail
+)
+type(
+  Gtk.label Gtk.obj
+)
+type(
+  Gtk.label Gtk.obj
+)
+"gtkMiscProps.ml" 93 3568 3576 "gtkMiscProps.ml" 93 3568 3581
+type(
+  ([> `label ], string) Gobject.property
+)
+ident(
+  def label "gtkMiscProps.ml" 94 3637 3641 "gtkMiscProps.ml" 121 5009 5014
+)
+"gtkMiscProps.ml" 93 3568 3615 "gtkMiscProps.ml" 93 3568 3622
+type(
+  string
+)
+"gtkMiscProps.ml" 93 3568 3629 "gtkMiscProps.ml" 93 3568 3635
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkMiscProps.ml" 93 3568 3609 "gtkMiscProps.ml" 93 3568 3636
+type(
+  ([> `label ] as 'b, string) Gobject.property
+)
+type(
+  ('b, string) Gobject.property
+)
+"gtkMiscProps.ml" 94 3637 3645 "gtkMiscProps.ml" 94 3637 3655
+type(
+  ([> `label ], bool) Gobject.property
+)
+ident(
+  def use_markup "gtkMiscProps.ml" 96 3723 3727 "gtkMiscProps.ml" 121 5009 5014
+)
+"gtkMiscProps.ml" 95 3683 3695 "gtkMiscProps.ml" 95 3683 3707
+type(
+  string
+)
+"gtkMiscProps.ml" 95 3683 3714 "gtkMiscProps.ml" 95 3683 3721
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkMiscProps.ml" 95 3683 3689 "gtkMiscProps.ml" 95 3683 3722
+type(
+  ([> `label ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkMiscProps.ml" 96 3723 3731 "gtkMiscProps.ml" 96 3723 3744
+type(
+  ([> `label ], bool) Gobject.property
+)
+ident(
+  def use_underline "gtkMiscProps.ml" 98 3815 3819 "gtkMiscProps.ml" 121 5009 5014
+)
+"gtkMiscProps.ml" 97 3772 3784 "gtkMiscProps.ml" 97 3772 3799
+type(
+  string
+)
+"gtkMiscProps.ml" 97 3772 3806 "gtkMiscProps.ml" 97 3772 3813
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkMiscProps.ml" 97 3772 3778 "gtkMiscProps.ml" 97 3772 3814
+type(
+  ([> `label ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkMiscProps.ml" 98 3815 3823 "gtkMiscProps.ml" 98 3815 3838
+type(
+  ([> `label ], int) Gobject.property
+)
+ident(
+  def mnemonic_keyval "gtkMiscProps.ml" 100 3908 3912 "gtkMiscProps.ml" 121 5009 5014
+)
+"gtkMiscProps.ml" 99 3866 3878 "gtkMiscProps.ml" 99 3866 3895
+type(
+  string
+)
+"gtkMiscProps.ml" 99 3866 3902 "gtkMiscProps.ml" 99 3866 3906
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkMiscProps.ml" 99 3866 3872 "gtkMiscProps.ml" 99 3866 3907
+type(
+  ([> `label ] as 'e, int) Gobject.property
+)
+type(
+  ('e, int) Gobject.property
+)
+"gtkMiscProps.ml" 100 3908 3916 "gtkMiscProps.ml" 100 3908 3931
+type(
+  ([> `label ], Gtk.widget Gtk.obj option) Gobject.property
+)
+ident(
+  def mnemonic_widget "gtkMiscProps.ml" 103 4054 4058 "gtkMiscProps.ml" 121 5009 5014
+)
+"gtkMiscProps.ml" 101 3959 3971 "gtkMiscProps.ml" 101 3959 3988
+type(
+  string
+)
+"gtkMiscProps.ml" 102 3990 4003 "gtkMiscProps.ml" 102 3990 4017
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkMiscProps.ml" 101 3959 3965 "gtkMiscProps.ml" 102 3990 4053
+type(
+  ([> `label ] as 'f, Gtk.widget Gtk.obj option) Gobject.property
+)
+type(
+  ('f, Gtk.widget Gtk.obj option) Gobject.property
+)
+"gtkMiscProps.ml" 103 4054 4062 "gtkMiscProps.ml" 103 4054 4069
+type(
+  ([> `label ], GtkEnums.justification) Gobject.property
+)
+ident(
+  def justify "gtkMiscProps.ml" 105 4154 4158 "gtkMiscProps.ml" 121 5009 5014
+)
+"gtkMiscProps.ml" 104 4097 4109 "gtkMiscProps.ml" 104 4097 4118
+type(
+  string
+)
+"gtkMiscProps.ml" 104 4097 4125 "gtkMiscProps.ml" 104 4097 4152
+type(
+  GtkEnums.justification Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.justification_conv
+)
+"gtkMiscProps.ml" 104 4097 4103 "gtkMiscProps.ml" 104 4097 4153
+type(
+  ([> `label ] as 'g, GtkEnums.justification) Gobject.property
+)
+type(
+  ('g, GtkEnums.justification) Gobject.property
+)
+"gtkMiscProps.ml" 105 4154 4162 "gtkMiscProps.ml" 105 4154 4166
+type(
+  ([> `label ], bool) Gobject.property
+)
+ident(
+  def wrap "gtkMiscProps.ml" 106 4222 4226 "gtkMiscProps.ml" 121 5009 5014
+)
+"gtkMiscProps.ml" 105 4154 4200 "gtkMiscProps.ml" 105 4154 4206
+type(
+  string
+)
+"gtkMiscProps.ml" 105 4154 4213 "gtkMiscProps.ml" 105 4154 4220
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkMiscProps.ml" 105 4154 4194 "gtkMiscProps.ml" 105 4154 4221
+type(
+  ([> `label ] as 'h, bool) Gobject.property
+)
+type(
+  ('h, bool) Gobject.property
+)
+"gtkMiscProps.ml" 106 4222 4230 "gtkMiscProps.ml" 106 4222 4237
+type(
+  ([> `label ], string) Gobject.property
+)
+ident(
+  def pattern "gtkMiscProps.ml" 107 4295 4299 "gtkMiscProps.ml" 121 5009 5014
+)
+"gtkMiscProps.ml" 106 4222 4271 "gtkMiscProps.ml" 106 4222 4280
+type(
+  string
+)
+"gtkMiscProps.ml" 106 4222 4287 "gtkMiscProps.ml" 106 4222 4293
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkMiscProps.ml" 106 4222 4265 "gtkMiscProps.ml" 106 4222 4294
+type(
+  ([> `label ] as 'i, string) Gobject.property
+)
+type(
+  ('i, string) Gobject.property
+)
+"gtkMiscProps.ml" 107 4295 4303 "gtkMiscProps.ml" 107 4295 4313
+type(
+  ([> `label ], bool) Gobject.property
+)
+ident(
+  def selectable "gtkMiscProps.ml" 109 4381 4385 "gtkMiscProps.ml" 121 5009 5014
+)
+"gtkMiscProps.ml" 108 4341 4353 "gtkMiscProps.ml" 108 4341 4365
+type(
+  string
+)
+"gtkMiscProps.ml" 108 4341 4372 "gtkMiscProps.ml" 108 4341 4379
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkMiscProps.ml" 108 4341 4347 "gtkMiscProps.ml" 108 4341 4380
+type(
+  ([> `label ] as 'j, bool) Gobject.property
+)
+type(
+  ('j, bool) Gobject.property
+)
+"gtkMiscProps.ml" 109 4381 4389 "gtkMiscProps.ml" 109 4381 4404
+type(
+  ([> `label ], int) Gobject.property
+)
+ident(
+  def cursor_position "gtkMiscProps.ml" 111 4473 4477 "gtkMiscProps.ml" 121 5009 5014
+)
+"gtkMiscProps.ml" 110 4432 4444 "gtkMiscProps.ml" 110 4432 4461
+type(
+  string
+)
+"gtkMiscProps.ml" 110 4432 4468 "gtkMiscProps.ml" 110 4432 4471
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkMiscProps.ml" 110 4432 4438 "gtkMiscProps.ml" 110 4432 4472
+type(
+  ([> `label ] as 'k, int) Gobject.property
+)
+type(
+  ('k, int) Gobject.property
+)
+"gtkMiscProps.ml" 111 4473 4481 "gtkMiscProps.ml" 111 4473 4496
+type(
+  ([> `label ], int) Gobject.property
+)
+ident(
+  def selection_bound "gtkMiscProps.ml" 113 4565 4569 "gtkMiscProps.ml" 121 5009 5014
+)
+"gtkMiscProps.ml" 112 4524 4536 "gtkMiscProps.ml" 112 4524 4553
+type(
+  string
+)
+"gtkMiscProps.ml" 112 4524 4560 "gtkMiscProps.ml" 112 4524 4563
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkMiscProps.ml" 112 4524 4530 "gtkMiscProps.ml" 112 4524 4564
+type(
+  ([> `label ] as 'l, int) Gobject.property
+)
+type(
+  ('l, int) Gobject.property
+)
+"gtkMiscProps.ml" 113 4565 4573 "gtkMiscProps.ml" 113 4565 4578
+type(
+  ([> `label ], float) Gobject.property
+)
+ident(
+  def angle "gtkMiscProps.ml" 114 4634 4638 "gtkMiscProps.ml" 121 5009 5014
+)
+"gtkMiscProps.ml" 113 4565 4612 "gtkMiscProps.ml" 113 4565 4619
+type(
+  string
+)
+"gtkMiscProps.ml" 113 4565 4626 "gtkMiscProps.ml" 113 4565 4632
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gtkMiscProps.ml" 113 4565 4606 "gtkMiscProps.ml" 113 4565 4633
+type(
+  ([> `label ] as 'm, float) Gobject.property
+)
+type(
+  ('m, float) Gobject.property
+)
+"gtkMiscProps.ml" 114 4634 4642 "gtkMiscProps.ml" 114 4634 4651
+type(
+  ([> `label ], PangoEnums.ellipsize_mode) Gobject.property
+)
+ident(
+  def ellipsize "gtkMiscProps.ml" 116 4741 4745 "gtkMiscProps.ml" 121 5009 5014
+)
+"gtkMiscProps.ml" 115 4679 4691 "gtkMiscProps.ml" 115 4679 4702
+type(
+  string
+)
+"gtkMiscProps.ml" 115 4679 4709 "gtkMiscProps.ml" 115 4679 4739
+type(
+  PangoEnums.ellipsize_mode Gobject.data_conv
+)
+ident(
+  ext_ref PangoEnums.ellipsize_mode_conv
+)
+"gtkMiscProps.ml" 115 4679 4685 "gtkMiscProps.ml" 115 4679 4740
+type(
+  ([> `label ] as 'n, PangoEnums.ellipsize_mode) Gobject.property
+)
+type(
+  ('n, PangoEnums.ellipsize_mode) Gobject.property
+)
+"gtkMiscProps.ml" 116 4741 4749 "gtkMiscProps.ml" 116 4741 4764
+type(
+  ([> `label ], int) Gobject.property
+)
+ident(
+  def max_width_chars "gtkMiscProps.ml" 118 4833 4837 "gtkMiscProps.ml" 121 5009 5014
+)
+"gtkMiscProps.ml" 117 4792 4804 "gtkMiscProps.ml" 117 4792 4821
+type(
+  string
+)
+"gtkMiscProps.ml" 117 4792 4828 "gtkMiscProps.ml" 117 4792 4831
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkMiscProps.ml" 117 4792 4798 "gtkMiscProps.ml" 117 4792 4832
+type(
+  ([> `label ] as 'o, int) Gobject.property
+)
+type(
+  ('o, int) Gobject.property
+)
+"gtkMiscProps.ml" 118 4833 4841 "gtkMiscProps.ml" 118 4833 4857
+type(
+  ([> `label ], bool) Gobject.property
+)
+ident(
+  def single_line_mode "gtkMiscProps.ml" 120 4931 4935 "gtkMiscProps.ml" 121 5009 5014
+)
+"gtkMiscProps.ml" 119 4885 4897 "gtkMiscProps.ml" 119 4885 4915
+type(
+  string
+)
+"gtkMiscProps.ml" 119 4885 4922 "gtkMiscProps.ml" 119 4885 4929
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkMiscProps.ml" 119 4885 4891 "gtkMiscProps.ml" 119 4885 4930
+type(
+  ([> `label ] as 'p, bool) Gobject.property
+)
+type(
+  ('p, bool) Gobject.property
+)
+"gtkMiscProps.ml" 120 4931 4939 "gtkMiscProps.ml" 120 4931 4950
+type(
+  ([> `label ], int) Gobject.property
+)
+ident(
+  def width_chars "gtkMiscProps.ml" 120 4931 5008 "gtkMiscProps.ml" 121 5009 5014
+)
+"gtkMiscProps.ml" 120 4931 4984 "gtkMiscProps.ml" 120 4931 4997
+type(
+  string
+)
+"gtkMiscProps.ml" 120 4931 5004 "gtkMiscProps.ml" 120 4931 5007
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkMiscProps.ml" 120 4931 4978 "gtkMiscProps.ml" 120 4931 5008
+type(
+  ([> `label ] as 'q, int) Gobject.property
+)
+type(
+  ('q, int) Gobject.property
+)
+"gtkMiscProps.ml" 124 5054 5062 "gtkMiscProps.ml" 124 5054 5076
+type(
+  ([> `label ], unit -> unit) GtkSignal.t
+)
+ident(
+  def copy_clipboard "gtkMiscProps.ml" 126 5149 5153 "gtkMiscProps.ml" 134 5505 5510
+)
+"gtkMiscProps.ml" 125 5079 5091 "gtkMiscProps.ml" 125 5079 5107
+type(
+  string
+)
+"gtkMiscProps.ml" 125 5079 5116 "gtkMiscProps.ml" 125 5079 5122
+type(
+  [> `label ] as 'r
+)
+"gtkMiscProps.ml" 125 5079 5135 "gtkMiscProps.ml" 125 5079 5147
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMiscProps.ml" 125 5079 5085 "gtkMiscProps.ml" 125 5079 5148
+type(
+  ('r, unit -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 126 5149 5157 "gtkMiscProps.ml" 126 5149 5168
+type(
+  ([> `label ], GtkEnums.movement_step -> int -> bool -> unit) GtkSignal.t
+)
+ident(
+  def move_cursor "gtkMiscProps.ml" 130 5325 5329 "gtkMiscProps.ml" 134 5505 5510
+)
+"gtkMiscProps.ml" 127 5171 5183 "gtkMiscProps.ml" 127 5171 5196
+type(
+  string
+)
+"gtkMiscProps.ml" 127 5171 5205 "gtkMiscProps.ml" 127 5171 5211
+type(
+  [> `label ] as 's
+)
+"gtkMiscProps.ml" 127 5171 5228 "gtkMiscProps.ml" 127 5171 5229
+type(
+  GtkEnums.movement_step -> int -> bool -> unit
+)
+ident(
+  def f "gtkMiscProps.ml" 128 5233 5240 "gtkMiscProps.ml" 129 5289 5323
+)
+"gtkMiscProps.ml" 128 5233 5240 "gtkMiscProps.ml" 128 5233 5248
+type(
+  GtkEnums.movement_step Gobject.data_conv ->
+  int Gobject.data_conv ->
+  bool Gobject.data_conv ->
+  string ->
+  (GtkEnums.movement_step -> int -> bool -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal3
+)
+"gtkMiscProps.ml" 128 5233 5249 "gtkMiscProps.ml" 128 5233 5276
+type(
+  GtkEnums.movement_step Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.movement_step_conv
+)
+"gtkMiscProps.ml" 128 5233 5277 "gtkMiscProps.ml" 128 5233 5280
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkMiscProps.ml" 128 5233 5281 "gtkMiscProps.ml" 128 5233 5288
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkMiscProps.ml" 129 5289 5298 "gtkMiscProps.ml" 129 5289 5321
+type(
+  string
+)
+"gtkMiscProps.ml" 129 5289 5322 "gtkMiscProps.ml" 129 5289 5323
+type(
+  GtkEnums.movement_step -> int -> bool -> unit
+)
+ident(
+  int_ref f "gtkMiscProps.ml" 127 5171 5228 "gtkMiscProps.ml" 127 5171 5229
+)
+"gtkMiscProps.ml" 128 5233 5240 "gtkMiscProps.ml" 129 5289 5323
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkMiscProps.ml" 127 5171 5224 "gtkMiscProps.ml" 129 5289 5323
+type(
+  (GtkEnums.movement_step -> int -> bool -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkMiscProps.ml" 127 5171 5177 "gtkMiscProps.ml" 129 5289 5324
+type(
+  ('s, GtkEnums.movement_step -> int -> bool -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 130 5325 5333 "gtkMiscProps.ml" 130 5325 5347
+type(
+  ([> `label ], Gtk.menu Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  def populate_popup "gtkMiscProps.ml" 133 5466 5504 "gtkMiscProps.ml" 134 5505 5510
+)
+"gtkMiscProps.ml" 131 5350 5362 "gtkMiscProps.ml" 131 5350 5378
+type(
+  string
+)
+"gtkMiscProps.ml" 131 5350 5387 "gtkMiscProps.ml" 131 5350 5393
+type(
+  [> `label ] as 't
+)
+"gtkMiscProps.ml" 131 5350 5410 "gtkMiscProps.ml" 131 5350 5411
+type(
+  Gtk.menu Gtk.obj -> unit
+)
+ident(
+  def f "gtkMiscProps.ml" 132 5415 5422 "gtkMiscProps.ml" 133 5466 5503
+)
+"gtkMiscProps.ml" 132 5415 5422 "gtkMiscProps.ml" 132 5415 5430
+type(
+  Gtk.menu Gtk.obj Gobject.data_conv ->
+  string -> (Gtk.menu Gtk.obj -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkMiscProps.ml" 132 5415 5432 "gtkMiscProps.ml" 132 5415 5439
+type(
+  Gtk.menu Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.menu Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkMiscProps.ml" 133 5466 5475 "gtkMiscProps.ml" 133 5466 5501
+type(
+  string
+)
+"gtkMiscProps.ml" 133 5466 5502 "gtkMiscProps.ml" 133 5466 5503
+type(
+  Gtk.menu Gtk.obj -> unit
+)
+ident(
+  int_ref f "gtkMiscProps.ml" 131 5350 5410 "gtkMiscProps.ml" 131 5350 5411
+)
+"gtkMiscProps.ml" 132 5415 5422 "gtkMiscProps.ml" 133 5466 5503
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkMiscProps.ml" 131 5350 5406 "gtkMiscProps.ml" 133 5466 5503
+type(
+  (Gtk.menu Gtk.obj -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkMiscProps.ml" 131 5350 5356 "gtkMiscProps.ml" 133 5466 5504
+type(
+  ('t, Gtk.menu Gtk.obj -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 135 5511 5517 "gtkMiscProps.ml" 135 5511 5523
+type(
+  Gtk.label Gobject.param list -> Gtk.label Gtk.obj
+)
+ident(
+  def create "gtkMiscProps.ml" 136 5571 5573 "gtkMiscProps.ml" 156 6473 6476
+)
+"gtkMiscProps.ml" 135 5511 5524 "gtkMiscProps.ml" 135 5511 5526
+type(
+  Gtk.label Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 135 5511 5527 "gtkMiscProps.ml" 135 5511 5570
+)
+"gtkMiscProps.ml" 135 5511 5545 "gtkMiscProps.ml" 135 5511 5556
+type(
+  classe:string -> Gtk.label Gobject.param list -> Gtk.label Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMiscProps.ml" 135 5511 5557 "gtkMiscProps.ml" 135 5511 5567
+type(
+  string
+)
+"gtkMiscProps.ml" 135 5511 5568 "gtkMiscProps.ml" 135 5511 5570
+type(
+  Gtk.label Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 135 5511 5524 "gtkMiscProps.ml" 135 5511 5526
+)
+"gtkMiscProps.ml" 135 5511 5545 "gtkMiscProps.ml" 135 5511 5570
+call(
+  tail
+)
+type(
+  Gtk.label Gtk.obj
+)
+type(
+  Gtk.label Gtk.obj
+)
+"gtkMiscProps.ml" 143 5937 5943 "gtkMiscProps.ml" 143 5937 5954
+type(
+  cont:(([> `label ] as 'u) Gobject.param list -> 'v) ->
+  'u Gobject.param list ->
+  ?label:string ->
+  ?use_markup:bool ->
+  ?use_underline:bool ->
+  ?mnemonic_widget:Gtk.widget Gtk.obj ->
+  ?justify:GtkEnums.justification ->
+  ?line_wrap:bool ->
+  ?pattern:string ->
+  ?selectable:bool -> ?ellipsize:PangoEnums.ellipsize_mode -> 'v
+)
+ident(
+  def make_params "gtkMiscProps.ml" 155 6461 6472 "gtkMiscProps.ml" 156 6473 6476
+)
+"gtkMiscProps.ml" 143 5937 5956 "gtkMiscProps.ml" 143 5937 5960
+type(
+  'u Gobject.param list -> 'v
+)
+ident(
+  def cont "gtkMiscProps.ml" 143 5937 5961 "gtkMiscProps.ml" 155 6461 6472
+)
+"gtkMiscProps.ml" 143 5937 5961 "gtkMiscProps.ml" 143 5937 5963
+type(
+  'u Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 143 5937 5964 "gtkMiscProps.ml" 155 6461 6472
+)
+"gtkMiscProps.ml" 143 5937 5965 "gtkMiscProps.ml" 143 5937 5970
+type(
+  string option
+)
+ident(
+  def label "gtkMiscProps.ml" 143 5937 5971 "gtkMiscProps.ml" 155 6461 6472
+)
+"gtkMiscProps.ml" 143 5937 5972 "gtkMiscProps.ml" 143 5937 5982
+type(
+  bool option
+)
+ident(
+  def use_markup "gtkMiscProps.ml" 143 5937 5983 "gtkMiscProps.ml" 155 6461 6472
+)
+"gtkMiscProps.ml" 143 5937 5984 "gtkMiscProps.ml" 143 5937 5997
+type(
+  bool option
+)
+ident(
+  def use_underline "gtkMiscProps.ml" 143 5937 5998 "gtkMiscProps.ml" 155 6461 6472
+)
+"gtkMiscProps.ml" 143 5937 5999 "gtkMiscProps.ml" 143 5937 6014
+type(
+  Gtk.widget Gtk.obj option
+)
+ident(
+  def mnemonic_widget "gtkMiscProps.ml" 144 6015 6021 "gtkMiscProps.ml" 155 6461 6472
+)
+"gtkMiscProps.ml" 144 6015 6022 "gtkMiscProps.ml" 144 6015 6029
+type(
+  GtkEnums.justification option
+)
+ident(
+  def justify "gtkMiscProps.ml" 144 6015 6030 "gtkMiscProps.ml" 155 6461 6472
+)
+"gtkMiscProps.ml" 144 6015 6031 "gtkMiscProps.ml" 144 6015 6040
+type(
+  bool option
+)
+ident(
+  def line_wrap "gtkMiscProps.ml" 144 6015 6041 "gtkMiscProps.ml" 155 6461 6472
+)
+"gtkMiscProps.ml" 144 6015 6042 "gtkMiscProps.ml" 144 6015 6049
+type(
+  string option
+)
+ident(
+  def pattern "gtkMiscProps.ml" 144 6015 6050 "gtkMiscProps.ml" 155 6461 6472
+)
+"gtkMiscProps.ml" 144 6015 6051 "gtkMiscProps.ml" 144 6015 6061
+type(
+  bool option
+)
+ident(
+  def selectable "gtkMiscProps.ml" 144 6015 6062 "gtkMiscProps.ml" 155 6461 6472
+)
+"gtkMiscProps.ml" 144 6015 6063 "gtkMiscProps.ml" 144 6015 6072
+type(
+  PangoEnums.ellipsize_mode option
+)
+ident(
+  def ellipsize "gtkMiscProps.ml" 145 6075 6079 "gtkMiscProps.ml" 155 6461 6472
+)
+"gtkMiscProps.ml" 145 6075 6083 "gtkMiscProps.ml" 145 6075 6085
+type(
+  'u Gobject.param list
+)
+"gtkMiscProps.ml" 146 6090 6096 "gtkMiscProps.ml" 146 6090 6104
+type(
+  ('u, string) Gobject.property ->
+  string option -> 'u Gobject.param list -> 'u Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 146 6090 6105 "gtkMiscProps.ml" 146 6090 6112
+type(
+  ('u, string) Gobject.property
+)
+ident(
+  ext_ref P.label
+)
+"gtkMiscProps.ml" 146 6090 6113 "gtkMiscProps.ml" 146 6090 6118
+type(
+  string option
+)
+ident(
+  int_ref label "gtkMiscProps.ml" 143 5937 5965 "gtkMiscProps.ml" 143 5937 5970
+)
+"gtkMiscProps.ml" 147 6121 6127 "gtkMiscProps.ml" 147 6121 6135
+type(
+  ('u, bool) Gobject.property ->
+  bool option -> 'u Gobject.param list -> 'u Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 147 6121 6136 "gtkMiscProps.ml" 147 6121 6148
+type(
+  ('u, bool) Gobject.property
+)
+ident(
+  ext_ref P.use_markup
+)
+"gtkMiscProps.ml" 147 6121 6149 "gtkMiscProps.ml" 147 6121 6159
+type(
+  bool option
+)
+ident(
+  int_ref use_markup "gtkMiscProps.ml" 143 5937 5972 "gtkMiscProps.ml" 143 5937 5982
+)
+"gtkMiscProps.ml" 148 6162 6168 "gtkMiscProps.ml" 148 6162 6176
+type(
+  ('u, bool) Gobject.property ->
+  bool option -> 'u Gobject.param list -> 'u Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 148 6162 6177 "gtkMiscProps.ml" 148 6162 6192
+type(
+  ('u, bool) Gobject.property
+)
+ident(
+  ext_ref P.use_underline
+)
+"gtkMiscProps.ml" 148 6162 6193 "gtkMiscProps.ml" 148 6162 6206
+type(
+  bool option
+)
+ident(
+  int_ref use_underline "gtkMiscProps.ml" 143 5937 5984 "gtkMiscProps.ml" 143 5937 5997
+)
+"gtkMiscProps.ml" 149 6209 6215 "gtkMiscProps.ml" 149 6209 6227
+type(
+  ('u, Gtk.widget Gtk.obj option) Gobject.property ->
+  Gtk.widget Gtk.obj option -> 'u Gobject.param list -> 'u Gobject.param list
+)
+ident(
+  int_ref may_cons_opt "gtkMiscProps.ml" 8 93 97 "gtkMiscProps.ml" 8 93 109
+)
+"gtkMiscProps.ml" 149 6209 6228 "gtkMiscProps.ml" 149 6209 6245
+type(
+  ('u, Gtk.widget Gtk.obj option) Gobject.property
+)
+ident(
+  ext_ref P.mnemonic_widget
+)
+"gtkMiscProps.ml" 149 6209 6246 "gtkMiscProps.ml" 149 6209 6261
+type(
+  Gtk.widget Gtk.obj option
+)
+ident(
+  int_ref mnemonic_widget "gtkMiscProps.ml" 143 5937 5999 "gtkMiscProps.ml" 143 5937 6014
+)
+"gtkMiscProps.ml" 150 6264 6270 "gtkMiscProps.ml" 150 6264 6278
+type(
+  ('u, GtkEnums.justification) Gobject.property ->
+  GtkEnums.justification option ->
+  'u Gobject.param list -> 'u Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 150 6264 6279 "gtkMiscProps.ml" 150 6264 6288
+type(
+  ('u, GtkEnums.justification) Gobject.property
+)
+ident(
+  ext_ref P.justify
+)
+"gtkMiscProps.ml" 150 6264 6289 "gtkMiscProps.ml" 150 6264 6296
+type(
+  GtkEnums.justification option
+)
+ident(
+  int_ref justify "gtkMiscProps.ml" 144 6015 6022 "gtkMiscProps.ml" 144 6015 6029
+)
+"gtkMiscProps.ml" 151 6299 6305 "gtkMiscProps.ml" 151 6299 6313
+type(
+  ('u, bool) Gobject.property ->
+  bool option -> 'u Gobject.param list -> 'u Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 151 6299 6314 "gtkMiscProps.ml" 151 6299 6320
+type(
+  ('u, bool) Gobject.property
+)
+ident(
+  ext_ref P.wrap
+)
+"gtkMiscProps.ml" 151 6299 6321 "gtkMiscProps.ml" 151 6299 6330
+type(
+  bool option
+)
+ident(
+  int_ref line_wrap "gtkMiscProps.ml" 144 6015 6031 "gtkMiscProps.ml" 144 6015 6040
+)
+"gtkMiscProps.ml" 152 6333 6339 "gtkMiscProps.ml" 152 6333 6347
+type(
+  ('u, string) Gobject.property ->
+  string option -> 'u Gobject.param list -> 'u Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 152 6333 6348 "gtkMiscProps.ml" 152 6333 6357
+type(
+  ('u, string) Gobject.property
+)
+ident(
+  ext_ref P.pattern
+)
+"gtkMiscProps.ml" 152 6333 6358 "gtkMiscProps.ml" 152 6333 6365
+type(
+  string option
+)
+ident(
+  int_ref pattern "gtkMiscProps.ml" 144 6015 6042 "gtkMiscProps.ml" 144 6015 6049
+)
+"gtkMiscProps.ml" 153 6368 6374 "gtkMiscProps.ml" 153 6368 6382
+type(
+  ('u, bool) Gobject.property ->
+  bool option -> 'u Gobject.param list -> 'u Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 153 6368 6383 "gtkMiscProps.ml" 153 6368 6395
+type(
+  ('u, bool) Gobject.property
+)
+ident(
+  ext_ref P.selectable
+)
+"gtkMiscProps.ml" 153 6368 6396 "gtkMiscProps.ml" 153 6368 6406
+type(
+  bool option
+)
+ident(
+  int_ref selectable "gtkMiscProps.ml" 144 6015 6051 "gtkMiscProps.ml" 144 6015 6061
+)
+"gtkMiscProps.ml" 154 6409 6415 "gtkMiscProps.ml" 154 6409 6423
+type(
+  ('u, PangoEnums.ellipsize_mode) Gobject.property ->
+  PangoEnums.ellipsize_mode option ->
+  'u Gobject.param list -> 'u Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 154 6409 6424 "gtkMiscProps.ml" 154 6409 6435
+type(
+  ('u, PangoEnums.ellipsize_mode) Gobject.property
+)
+ident(
+  ext_ref P.ellipsize
+)
+"gtkMiscProps.ml" 154 6409 6436 "gtkMiscProps.ml" 154 6409 6445
+type(
+  PangoEnums.ellipsize_mode option
+)
+ident(
+  int_ref ellipsize "gtkMiscProps.ml" 144 6015 6063 "gtkMiscProps.ml" 144 6015 6072
+)
+"gtkMiscProps.ml" 154 6409 6446 "gtkMiscProps.ml" 154 6409 6448
+type(
+  'u Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 143 5937 5961 "gtkMiscProps.ml" 143 5937 5963
+)
+"gtkMiscProps.ml" 153 6368 6407 "gtkMiscProps.ml" 154 6409 6449
+call(
+  stack
+)
+type(
+  'u Gobject.param list
+)
+"gtkMiscProps.ml" 152 6333 6366 "gtkMiscProps.ml" 154 6409 6450
+call(
+  stack
+)
+type(
+  'u Gobject.param list
+)
+"gtkMiscProps.ml" 151 6299 6331 "gtkMiscProps.ml" 154 6409 6451
+call(
+  stack
+)
+type(
+  'u Gobject.param list
+)
+"gtkMiscProps.ml" 150 6264 6297 "gtkMiscProps.ml" 154 6409 6452
+call(
+  stack
+)
+type(
+  'u Gobject.param list
+)
+"gtkMiscProps.ml" 149 6209 6262 "gtkMiscProps.ml" 154 6409 6453
+call(
+  stack
+)
+type(
+  'u Gobject.param list
+)
+"gtkMiscProps.ml" 148 6162 6207 "gtkMiscProps.ml" 154 6409 6454
+call(
+  stack
+)
+type(
+  'u Gobject.param list
+)
+"gtkMiscProps.ml" 147 6121 6160 "gtkMiscProps.ml" 154 6409 6455
+call(
+  stack
+)
+type(
+  'u Gobject.param list
+)
+"gtkMiscProps.ml" 146 6090 6119 "gtkMiscProps.ml" 154 6409 6456
+call(
+  stack
+)
+type(
+  'u Gobject.param list
+)
+"gtkMiscProps.ml" 145 6075 6088 "gtkMiscProps.ml" 154 6409 6457
+call(
+  stack
+)
+type(
+  'u Gobject.param list
+)
+"gtkMiscProps.ml" 155 6461 6465 "gtkMiscProps.ml" 155 6461 6469
+type(
+  'u Gobject.param list -> 'v
+)
+ident(
+  int_ref cont "gtkMiscProps.ml" 143 5937 5956 "gtkMiscProps.ml" 143 5937 5960
+)
+"gtkMiscProps.ml" 155 6461 6470 "gtkMiscProps.ml" 155 6461 6472
+type(
+  'u Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 145 6075 6083 "gtkMiscProps.ml" 145 6075 6085
+)
+"gtkMiscProps.ml" 155 6461 6465 "gtkMiscProps.ml" 155 6461 6472
+call(
+  tail
+)
+type(
+  'v
+)
+"gtkMiscProps.ml" 145 6075 6079 "gtkMiscProps.ml" 155 6461 6472
+type(
+  'v
+)
+"gtkMiscProps.ml" 159 6504 6510 "gtkMiscProps.ml" 159 6504 6514
+type(
+  'a Gobject.obj -> Gtk.tips_query Gtk.obj
+)
+ident(
+  def cast "gtkMiscProps.ml" 160 6566 6568 "gtkMiscProps.ml" 203 8396 8399
+)
+"gtkMiscProps.ml" 159 6504 6515 "gtkMiscProps.ml" 159 6504 6516
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMiscProps.ml" 159 6504 6517 "gtkMiscProps.ml" 159 6504 6565
+)
+"gtkMiscProps.ml" 159 6504 6540 "gtkMiscProps.ml" 159 6504 6548
+type(
+  'a Gobject.obj -> string -> Gtk.tips_query Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMiscProps.ml" 159 6504 6549 "gtkMiscProps.ml" 159 6504 6550
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMiscProps.ml" 159 6504 6515 "gtkMiscProps.ml" 159 6504 6516
+)
+"gtkMiscProps.ml" 159 6504 6551 "gtkMiscProps.ml" 159 6504 6565
+type(
+  string
+)
+"gtkMiscProps.ml" 159 6504 6540 "gtkMiscProps.ml" 159 6504 6565
+call(
+  tail
+)
+type(
+  Gtk.tips_query Gtk.obj
+)
+type(
+  Gtk.tips_query Gtk.obj
+)
+"gtkMiscProps.ml" 161 6586 6594 "gtkMiscProps.ml" 161 6586 6600
+type(
+  ([> `tipsquery ], Gtk.widget Gtk.obj option) Gobject.property
+)
+ident(
+  def caller "gtkMiscProps.ml" 164 6718 6722 "gtkMiscProps.ml" 170 7000 7005
+)
+"gtkMiscProps.ml" 162 6632 6644 "gtkMiscProps.ml" 162 6632 6652
+type(
+  string
+)
+"gtkMiscProps.ml" 163 6654 6667 "gtkMiscProps.ml" 163 6654 6681
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkMiscProps.ml" 162 6632 6638 "gtkMiscProps.ml" 163 6654 6717
+type(
+  ([> `tipsquery ] as 'b, Gtk.widget Gtk.obj option) Gobject.property
+)
+type(
+  ('b, Gtk.widget Gtk.obj option) Gobject.property
+)
+"gtkMiscProps.ml" 164 6718 6726 "gtkMiscProps.ml" 164 6718 6737
+type(
+  ([> `tipsquery ], bool) Gobject.property
+)
+ident(
+  def emit_always "gtkMiscProps.ml" 166 6810 6814 "gtkMiscProps.ml" 170 7000 7005
+)
+"gtkMiscProps.ml" 165 6769 6781 "gtkMiscProps.ml" 165 6769 6794
+type(
+  string
+)
+"gtkMiscProps.ml" 165 6769 6801 "gtkMiscProps.ml" 165 6769 6808
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkMiscProps.ml" 165 6769 6775 "gtkMiscProps.ml" 165 6769 6809
+type(
+  ([> `tipsquery ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkMiscProps.ml" 166 6810 6818 "gtkMiscProps.ml" 166 6810 6832
+type(
+  ([> `tipsquery ], string) Gobject.property
+)
+ident(
+  def label_inactive "gtkMiscProps.ml" 168 6907 6911 "gtkMiscProps.ml" 170 7000 7005
+)
+"gtkMiscProps.ml" 167 6864 6876 "gtkMiscProps.ml" 167 6864 6892
+type(
+  string
+)
+"gtkMiscProps.ml" 167 6864 6899 "gtkMiscProps.ml" 167 6864 6905
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkMiscProps.ml" 167 6864 6870 "gtkMiscProps.ml" 167 6864 6906
+type(
+  ([> `tipsquery ] as 'd, string) Gobject.property
+)
+type(
+  ('d, string) Gobject.property
+)
+"gtkMiscProps.ml" 168 6907 6915 "gtkMiscProps.ml" 168 6907 6927
+type(
+  ([> `tipsquery ], string) Gobject.property
+)
+ident(
+  def label_no_tip "gtkMiscProps.ml" 169 6959 6999 "gtkMiscProps.ml" 170 7000 7005
+)
+"gtkMiscProps.ml" 169 6959 6971 "gtkMiscProps.ml" 169 6959 6985
+type(
+  string
+)
+"gtkMiscProps.ml" 169 6959 6992 "gtkMiscProps.ml" 169 6959 6998
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkMiscProps.ml" 169 6959 6965 "gtkMiscProps.ml" 169 6959 6999
+type(
+  ([> `tipsquery ] as 'e, string) Gobject.property
+)
+type(
+  ('e, string) Gobject.property
+)
+"gtkMiscProps.ml" 173 7045 7053 "gtkMiscProps.ml" 173 7045 7064
+type(
+  ([> `tipsquery ], unit -> unit) GtkSignal.t
+)
+ident(
+  def start_query "gtkMiscProps.ml" 175 7138 7142 "gtkMiscProps.ml" 189 7850 7855
+)
+"gtkMiscProps.ml" 174 7067 7079 "gtkMiscProps.ml" 174 7067 7092
+type(
+  string
+)
+"gtkMiscProps.ml" 174 7067 7101 "gtkMiscProps.ml" 174 7067 7111
+type(
+  [> `tipsquery ] as 'f
+)
+"gtkMiscProps.ml" 174 7067 7124 "gtkMiscProps.ml" 174 7067 7136
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMiscProps.ml" 174 7067 7073 "gtkMiscProps.ml" 174 7067 7137
+type(
+  ('f, unit -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 175 7138 7146 "gtkMiscProps.ml" 175 7138 7156
+type(
+  ([> `tipsquery ], unit -> unit) GtkSignal.t
+)
+ident(
+  def stop_query "gtkMiscProps.ml" 177 7229 7233 "gtkMiscProps.ml" 189 7850 7855
+)
+"gtkMiscProps.ml" 176 7159 7171 "gtkMiscProps.ml" 176 7159 7183
+type(
+  string
+)
+"gtkMiscProps.ml" 176 7159 7192 "gtkMiscProps.ml" 176 7159 7202
+type(
+  [> `tipsquery ] as 'g
+)
+"gtkMiscProps.ml" 176 7159 7215 "gtkMiscProps.ml" 176 7159 7227
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMiscProps.ml" 176 7159 7165 "gtkMiscProps.ml" 176 7159 7228
+type(
+  ('g, unit -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 177 7229 7237 "gtkMiscProps.ml" 177 7229 7251
+type(
+  ([> `tipsquery ],
+   Gtk.widget Gtk.obj option -> text:string -> privat:string -> unit)
+  GtkSignal.t
+)
+ident(
+  def widget_entered "gtkMiscProps.ml" 182 7497 7501 "gtkMiscProps.ml" 189 7850 7855
+)
+"gtkMiscProps.ml" 178 7254 7266 "gtkMiscProps.ml" 178 7254 7282
+type(
+  string
+)
+"gtkMiscProps.ml" 178 7254 7291 "gtkMiscProps.ml" 178 7254 7301
+type(
+  [> `tipsquery ] as 'h
+)
+"gtkMiscProps.ml" 178 7254 7318 "gtkMiscProps.ml" 178 7254 7319
+type(
+  Gtk.widget Gtk.obj option -> text:string -> privat:string -> unit
+)
+ident(
+  def f "gtkMiscProps.ml" 179 7323 7330 "gtkMiscProps.ml" 181 7444 7495
+)
+"gtkMiscProps.ml" 179 7323 7330 "gtkMiscProps.ml" 179 7323 7338
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv ->
+  string Gobject.data_conv ->
+  string Gobject.data_conv ->
+  string ->
+  (Gtk.widget Gtk.obj option -> string -> string -> unit)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal3
+)
+"gtkMiscProps.ml" 179 7323 7340 "gtkMiscProps.ml" 179 7323 7354
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkMiscProps.ml" 179 7323 7390 "gtkMiscProps.ml" 179 7323 7396
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkMiscProps.ml" 180 7397 7406 "gtkMiscProps.ml" 180 7397 7412
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkMiscProps.ml" 180 7397 7413 "gtkMiscProps.ml" 180 7397 7443
+type(
+  string
+)
+"gtkMiscProps.ml" 181 7444 7458 "gtkMiscProps.ml" 181 7444 7460
+type(
+  Gtk.widget Gtk.obj option
+)
+ident(
+  def x1 "gtkMiscProps.ml" 181 7444 7461 "gtkMiscProps.ml" 181 7444 7494
+)
+"gtkMiscProps.ml" 181 7444 7461 "gtkMiscProps.ml" 181 7444 7463
+type(
+  string
+)
+ident(
+  def x2 "gtkMiscProps.ml" 181 7444 7464 "gtkMiscProps.ml" 181 7444 7494
+)
+"gtkMiscProps.ml" 181 7444 7464 "gtkMiscProps.ml" 181 7444 7466
+type(
+  string
+)
+ident(
+  def x3 "gtkMiscProps.ml" 181 7444 7470 "gtkMiscProps.ml" 181 7444 7494
+)
+"gtkMiscProps.ml" 181 7444 7470 "gtkMiscProps.ml" 181 7444 7471
+type(
+  Gtk.widget Gtk.obj option -> text:string -> privat:string -> unit
+)
+ident(
+  int_ref f "gtkMiscProps.ml" 178 7254 7318 "gtkMiscProps.ml" 178 7254 7319
+)
+"gtkMiscProps.ml" 181 7444 7472 "gtkMiscProps.ml" 181 7444 7474
+type(
+  Gtk.widget Gtk.obj option
+)
+ident(
+  int_ref x1 "gtkMiscProps.ml" 181 7444 7458 "gtkMiscProps.ml" 181 7444 7460
+)
+"gtkMiscProps.ml" 181 7444 7481 "gtkMiscProps.ml" 181 7444 7483
+type(
+  string
+)
+ident(
+  int_ref x2 "gtkMiscProps.ml" 181 7444 7461 "gtkMiscProps.ml" 181 7444 7463
+)
+"gtkMiscProps.ml" 181 7444 7492 "gtkMiscProps.ml" 181 7444 7494
+type(
+  string
+)
+ident(
+  int_ref x3 "gtkMiscProps.ml" 181 7444 7464 "gtkMiscProps.ml" 181 7444 7466
+)
+"gtkMiscProps.ml" 181 7444 7470 "gtkMiscProps.ml" 181 7444 7494
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkMiscProps.ml" 181 7444 7453 "gtkMiscProps.ml" 181 7444 7495
+type(
+  Gtk.widget Gtk.obj option -> string -> string -> unit
+)
+"gtkMiscProps.ml" 179 7323 7330 "gtkMiscProps.ml" 181 7444 7495
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkMiscProps.ml" 178 7254 7314 "gtkMiscProps.ml" 181 7444 7495
+type(
+  (Gtk.widget Gtk.obj option -> text:string -> privat:string -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkMiscProps.ml" 178 7254 7260 "gtkMiscProps.ml" 181 7444 7496
+type(
+  ('h, Gtk.widget Gtk.obj option -> text:string -> privat:string -> unit)
+  GtkSignal.t
+)
+"gtkMiscProps.ml" 182 7497 7505 "gtkMiscProps.ml" 182 7497 7520
+type(
+  ([> `tipsquery ],
+   Gtk.widget Gtk.obj option ->
+   text:string -> privat:string -> GdkEvent.Button.t -> bool)
+  GtkSignal.t
+)
+ident(
+  def widget_selected "gtkMiscProps.ml" 188 7797 7849 "gtkMiscProps.ml" 189 7850 7855
+)
+"gtkMiscProps.ml" 183 7523 7535 "gtkMiscProps.ml" 183 7523 7552
+type(
+  string
+)
+"gtkMiscProps.ml" 183 7523 7561 "gtkMiscProps.ml" 183 7523 7571
+type(
+  [> `tipsquery ] as 'i
+)
+"gtkMiscProps.ml" 183 7523 7588 "gtkMiscProps.ml" 183 7523 7589
+type(
+  Gtk.widget Gtk.obj option ->
+  text:string -> privat:string -> GdkEvent.Button.t -> bool
+)
+ident(
+  def f "gtkMiscProps.ml" 184 7593 7600 "gtkMiscProps.ml" 188 7797 7848
+)
+"gtkMiscProps.ml" 184 7593 7600 "gtkMiscProps.ml" 184 7593 7612
+type(
+  ret:bool Gobject.data_conv ->
+  Gtk.widget Gtk.obj option Gobject.data_conv ->
+  string Gobject.data_conv ->
+  string Gobject.data_conv ->
+  GdkEvent.Button.t Gobject.data_conv ->
+  string ->
+  (Gtk.widget Gtk.obj option -> string -> string -> GdkEvent.Button.t -> bool)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal4_ret
+)
+"gtkMiscProps.ml" 184 7593 7618 "gtkMiscProps.ml" 184 7593 7625
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkMiscProps.ml" 185 7626 7636 "gtkMiscProps.ml" 185 7626 7650
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkMiscProps.ml" 185 7626 7686 "gtkMiscProps.ml" 185 7626 7692
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkMiscProps.ml" 185 7626 7693 "gtkMiscProps.ml" 185 7626 7699
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkMiscProps.ml" 186 7700 7710 "gtkMiscProps.ml" 186 7700 7724
+type(
+  GdkEvent.Button.t Gobject.data_conv
+)
+type(
+  GdkEvent.Button.t Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkMiscProps.ml" 187 7756 7765 "gtkMiscProps.ml" 187 7756 7796
+type(
+  string
+)
+"gtkMiscProps.ml" 188 7797 7811 "gtkMiscProps.ml" 188 7797 7813
+type(
+  Gtk.widget Gtk.obj option
+)
+ident(
+  def x1 "gtkMiscProps.ml" 188 7797 7814 "gtkMiscProps.ml" 188 7797 7847
+)
+"gtkMiscProps.ml" 188 7797 7814 "gtkMiscProps.ml" 188 7797 7816
+type(
+  string
+)
+ident(
+  def x2 "gtkMiscProps.ml" 188 7797 7817 "gtkMiscProps.ml" 188 7797 7847
+)
+"gtkMiscProps.ml" 188 7797 7817 "gtkMiscProps.ml" 188 7797 7819
+type(
+  string
+)
+ident(
+  def x3 "gtkMiscProps.ml" 188 7797 7823 "gtkMiscProps.ml" 188 7797 7847
+)
+"gtkMiscProps.ml" 188 7797 7823 "gtkMiscProps.ml" 188 7797 7824
+type(
+  Gtk.widget Gtk.obj option ->
+  text:string -> privat:string -> GdkEvent.Button.t -> bool
+)
+ident(
+  int_ref f "gtkMiscProps.ml" 183 7523 7588 "gtkMiscProps.ml" 183 7523 7589
+)
+"gtkMiscProps.ml" 188 7797 7825 "gtkMiscProps.ml" 188 7797 7827
+type(
+  Gtk.widget Gtk.obj option
+)
+ident(
+  int_ref x1 "gtkMiscProps.ml" 188 7797 7811 "gtkMiscProps.ml" 188 7797 7813
+)
+"gtkMiscProps.ml" 188 7797 7834 "gtkMiscProps.ml" 188 7797 7836
+type(
+  string
+)
+ident(
+  int_ref x2 "gtkMiscProps.ml" 188 7797 7814 "gtkMiscProps.ml" 188 7797 7816
+)
+"gtkMiscProps.ml" 188 7797 7845 "gtkMiscProps.ml" 188 7797 7847
+type(
+  string
+)
+ident(
+  int_ref x3 "gtkMiscProps.ml" 188 7797 7817 "gtkMiscProps.ml" 188 7797 7819
+)
+"gtkMiscProps.ml" 188 7797 7823 "gtkMiscProps.ml" 188 7797 7847
+call(
+  tail
+)
+type(
+  GdkEvent.Button.t -> bool
+)
+"gtkMiscProps.ml" 188 7797 7806 "gtkMiscProps.ml" 188 7797 7848
+type(
+  Gtk.widget Gtk.obj option -> string -> string -> GdkEvent.Button.t -> bool
+)
+"gtkMiscProps.ml" 184 7593 7600 "gtkMiscProps.ml" 188 7797 7848
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkMiscProps.ml" 183 7523 7584 "gtkMiscProps.ml" 188 7797 7848
+type(
+  (Gtk.widget Gtk.obj option ->
+   text:string -> privat:string -> GdkEvent.Button.t -> bool) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkMiscProps.ml" 183 7523 7529 "gtkMiscProps.ml" 188 7797 7849
+type(
+  ('i,
+   Gtk.widget Gtk.obj option ->
+   text:string -> privat:string -> GdkEvent.Button.t -> bool)
+  GtkSignal.t
+)
+"gtkMiscProps.ml" 190 7856 7862 "gtkMiscProps.ml" 190 7856 7868
+type(
+  Gtk.tips_query Gobject.param list -> Gtk.tips_query Gtk.obj
+)
+ident(
+  def create "gtkMiscProps.ml" 191 7925 7927 "gtkMiscProps.ml" 203 8396 8399
+)
+"gtkMiscProps.ml" 190 7856 7869 "gtkMiscProps.ml" 190 7856 7871
+type(
+  Gtk.tips_query Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 190 7856 7872 "gtkMiscProps.ml" 190 7856 7924
+)
+"gtkMiscProps.ml" 190 7856 7895 "gtkMiscProps.ml" 190 7856 7906
+type(
+  classe:string ->
+  Gtk.tips_query Gobject.param list -> Gtk.tips_query Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMiscProps.ml" 190 7856 7907 "gtkMiscProps.ml" 190 7856 7921
+type(
+  string
+)
+"gtkMiscProps.ml" 190 7856 7922 "gtkMiscProps.ml" 190 7856 7924
+type(
+  Gtk.tips_query Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 190 7856 7869 "gtkMiscProps.ml" 190 7856 7871
+)
+"gtkMiscProps.ml" 190 7856 7895 "gtkMiscProps.ml" 190 7856 7924
+call(
+  tail
+)
+type(
+  Gtk.tips_query Gtk.obj
+)
+type(
+  Gtk.tips_query Gtk.obj
+)
+"gtkMiscProps.ml" 195 8101 8107 "gtkMiscProps.ml" 195 8101 8118
+type(
+  cont:(([> `tipsquery ] as 'j) Gobject.param list -> 'k) ->
+  'j Gobject.param list ->
+  ?caller:Gtk.widget Gtk.obj ->
+  ?emit_always:bool -> ?label_inactive:string -> ?label_no_tip:string -> 'k
+)
+ident(
+  def make_params "gtkMiscProps.ml" 202 8384 8395 "gtkMiscProps.ml" 203 8396 8399
+)
+"gtkMiscProps.ml" 195 8101 8120 "gtkMiscProps.ml" 195 8101 8124
+type(
+  'j Gobject.param list -> 'k
+)
+ident(
+  def cont "gtkMiscProps.ml" 195 8101 8125 "gtkMiscProps.ml" 202 8384 8395
+)
+"gtkMiscProps.ml" 195 8101 8125 "gtkMiscProps.ml" 195 8101 8127
+type(
+  'j Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 195 8101 8128 "gtkMiscProps.ml" 202 8384 8395
+)
+"gtkMiscProps.ml" 195 8101 8129 "gtkMiscProps.ml" 195 8101 8135
+type(
+  Gtk.widget Gtk.obj option
+)
+ident(
+  def caller "gtkMiscProps.ml" 195 8101 8136 "gtkMiscProps.ml" 202 8384 8395
+)
+"gtkMiscProps.ml" 195 8101 8137 "gtkMiscProps.ml" 195 8101 8148
+type(
+  bool option
+)
+ident(
+  def emit_always "gtkMiscProps.ml" 195 8101 8149 "gtkMiscProps.ml" 202 8384 8395
+)
+"gtkMiscProps.ml" 195 8101 8150 "gtkMiscProps.ml" 195 8101 8164
+type(
+  string option
+)
+ident(
+  def label_inactive "gtkMiscProps.ml" 196 8165 8171 "gtkMiscProps.ml" 202 8384 8395
+)
+"gtkMiscProps.ml" 196 8165 8172 "gtkMiscProps.ml" 196 8165 8184
+type(
+  string option
+)
+ident(
+  def label_no_tip "gtkMiscProps.ml" 197 8187 8191 "gtkMiscProps.ml" 202 8384 8395
+)
+"gtkMiscProps.ml" 197 8187 8195 "gtkMiscProps.ml" 197 8187 8197
+type(
+  'j Gobject.param list
+)
+"gtkMiscProps.ml" 198 8202 8208 "gtkMiscProps.ml" 198 8202 8220
+type(
+  ('j, Gtk.widget Gtk.obj option) Gobject.property ->
+  Gtk.widget Gtk.obj option -> 'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons_opt "gtkMiscProps.ml" 8 93 97 "gtkMiscProps.ml" 8 93 109
+)
+"gtkMiscProps.ml" 198 8202 8221 "gtkMiscProps.ml" 198 8202 8229
+type(
+  ('j, Gtk.widget Gtk.obj option) Gobject.property
+)
+ident(
+  ext_ref P.caller
+)
+"gtkMiscProps.ml" 198 8202 8230 "gtkMiscProps.ml" 198 8202 8236
+type(
+  Gtk.widget Gtk.obj option
+)
+ident(
+  int_ref caller "gtkMiscProps.ml" 195 8101 8129 "gtkMiscProps.ml" 195 8101 8135
+)
+"gtkMiscProps.ml" 199 8239 8245 "gtkMiscProps.ml" 199 8239 8253
+type(
+  ('j, bool) Gobject.property ->
+  bool option -> 'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 199 8239 8254 "gtkMiscProps.ml" 199 8239 8267
+type(
+  ('j, bool) Gobject.property
+)
+ident(
+  ext_ref P.emit_always
+)
+"gtkMiscProps.ml" 199 8239 8268 "gtkMiscProps.ml" 199 8239 8279
+type(
+  bool option
+)
+ident(
+  int_ref emit_always "gtkMiscProps.ml" 195 8101 8137 "gtkMiscProps.ml" 195 8101 8148
+)
+"gtkMiscProps.ml" 200 8282 8288 "gtkMiscProps.ml" 200 8282 8296
+type(
+  ('j, string) Gobject.property ->
+  string option -> 'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 200 8282 8297 "gtkMiscProps.ml" 200 8282 8313
+type(
+  ('j, string) Gobject.property
+)
+ident(
+  ext_ref P.label_inactive
+)
+"gtkMiscProps.ml" 200 8282 8314 "gtkMiscProps.ml" 200 8282 8328
+type(
+  string option
+)
+ident(
+  int_ref label_inactive "gtkMiscProps.ml" 195 8101 8150 "gtkMiscProps.ml" 195 8101 8164
+)
+"gtkMiscProps.ml" 201 8331 8337 "gtkMiscProps.ml" 201 8331 8345
+type(
+  ('j, string) Gobject.property ->
+  string option -> 'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 201 8331 8346 "gtkMiscProps.ml" 201 8331 8360
+type(
+  ('j, string) Gobject.property
+)
+ident(
+  ext_ref P.label_no_tip
+)
+"gtkMiscProps.ml" 201 8331 8361 "gtkMiscProps.ml" 201 8331 8373
+type(
+  string option
+)
+ident(
+  int_ref label_no_tip "gtkMiscProps.ml" 196 8165 8172 "gtkMiscProps.ml" 196 8165 8184
+)
+"gtkMiscProps.ml" 201 8331 8374 "gtkMiscProps.ml" 201 8331 8376
+type(
+  'j Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 195 8101 8125 "gtkMiscProps.ml" 195 8101 8127
+)
+"gtkMiscProps.ml" 200 8282 8329 "gtkMiscProps.ml" 201 8331 8377
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkMiscProps.ml" 199 8239 8280 "gtkMiscProps.ml" 201 8331 8378
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkMiscProps.ml" 198 8202 8237 "gtkMiscProps.ml" 201 8331 8379
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkMiscProps.ml" 197 8187 8200 "gtkMiscProps.ml" 201 8331 8380
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkMiscProps.ml" 202 8384 8388 "gtkMiscProps.ml" 202 8384 8392
+type(
+  'j Gobject.param list -> 'k
+)
+ident(
+  int_ref cont "gtkMiscProps.ml" 195 8101 8120 "gtkMiscProps.ml" 195 8101 8124
+)
+"gtkMiscProps.ml" 202 8384 8393 "gtkMiscProps.ml" 202 8384 8395
+type(
+  'j Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 197 8187 8195 "gtkMiscProps.ml" 197 8187 8197
+)
+"gtkMiscProps.ml" 202 8384 8388 "gtkMiscProps.ml" 202 8384 8395
+call(
+  tail
+)
+type(
+  'k
+)
+"gtkMiscProps.ml" 197 8187 8191 "gtkMiscProps.ml" 202 8384 8395
+type(
+  'k
+)
+"gtkMiscProps.ml" 206 8423 8429 "gtkMiscProps.ml" 206 8423 8433
+type(
+  'a Gobject.obj -> Gtk.arrow Gtk.obj
+)
+ident(
+  def cast "gtkMiscProps.ml" 207 8476 8478 "gtkMiscProps.ml" 219 8920 8923
+)
+"gtkMiscProps.ml" 206 8423 8434 "gtkMiscProps.ml" 206 8423 8435
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMiscProps.ml" 206 8423 8436 "gtkMiscProps.ml" 206 8423 8475
+)
+"gtkMiscProps.ml" 206 8423 8454 "gtkMiscProps.ml" 206 8423 8462
+type(
+  'a Gobject.obj -> string -> Gtk.arrow Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMiscProps.ml" 206 8423 8463 "gtkMiscProps.ml" 206 8423 8464
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMiscProps.ml" 206 8423 8434 "gtkMiscProps.ml" 206 8423 8435
+)
+"gtkMiscProps.ml" 206 8423 8465 "gtkMiscProps.ml" 206 8423 8475
+type(
+  string
+)
+"gtkMiscProps.ml" 206 8423 8454 "gtkMiscProps.ml" 206 8423 8475
+call(
+  tail
+)
+type(
+  Gtk.arrow Gtk.obj
+)
+type(
+  Gtk.arrow Gtk.obj
+)
+"gtkMiscProps.ml" 208 8496 8504 "gtkMiscProps.ml" 208 8496 8514
+type(
+  ([> `arrow ], GtkEnums.arrow_type) Gobject.property
+)
+ident(
+  def arrow_type "gtkMiscProps.ml" 210 8599 8603 "gtkMiscProps.ml" 212 8705 8710
+)
+"gtkMiscProps.ml" 209 8542 8554 "gtkMiscProps.ml" 209 8542 8566
+type(
+  string
+)
+"gtkMiscProps.ml" 209 8542 8573 "gtkMiscProps.ml" 209 8542 8597
+type(
+  GtkEnums.arrow_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.arrow_type_conv
+)
+"gtkMiscProps.ml" 209 8542 8548 "gtkMiscProps.ml" 209 8542 8598
+type(
+  ([> `arrow ] as 'b, GtkEnums.arrow_type) Gobject.property
+)
+type(
+  ('b, GtkEnums.arrow_type) Gobject.property
+)
+"gtkMiscProps.ml" 210 8599 8607 "gtkMiscProps.ml" 210 8599 8618
+type(
+  ([> `arrow ], GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  def shadow_type "gtkMiscProps.ml" 211 8646 8704 "gtkMiscProps.ml" 212 8705 8710
+)
+"gtkMiscProps.ml" 211 8646 8658 "gtkMiscProps.ml" 211 8646 8671
+type(
+  string
+)
+"gtkMiscProps.ml" 211 8646 8678 "gtkMiscProps.ml" 211 8646 8703
+type(
+  GtkEnums.shadow_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.shadow_type_conv
+)
+"gtkMiscProps.ml" 211 8646 8652 "gtkMiscProps.ml" 211 8646 8704
+type(
+  ([> `arrow ] as 'c, GtkEnums.shadow_type) Gobject.property
+)
+type(
+  ('c, GtkEnums.shadow_type) Gobject.property
+)
+"gtkMiscProps.ml" 213 8711 8717 "gtkMiscProps.ml" 213 8711 8723
+type(
+  Gtk.arrow Gobject.param list -> Gtk.arrow Gtk.obj
+)
+ident(
+  def create "gtkMiscProps.ml" 214 8771 8773 "gtkMiscProps.ml" 219 8920 8923
+)
+"gtkMiscProps.ml" 213 8711 8724 "gtkMiscProps.ml" 213 8711 8726
+type(
+  Gtk.arrow Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 213 8711 8727 "gtkMiscProps.ml" 213 8711 8770
+)
+"gtkMiscProps.ml" 213 8711 8745 "gtkMiscProps.ml" 213 8711 8756
+type(
+  classe:string -> Gtk.arrow Gobject.param list -> Gtk.arrow Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMiscProps.ml" 213 8711 8757 "gtkMiscProps.ml" 213 8711 8767
+type(
+  string
+)
+"gtkMiscProps.ml" 213 8711 8768 "gtkMiscProps.ml" 213 8711 8770
+type(
+  Gtk.arrow Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 213 8711 8724 "gtkMiscProps.ml" 213 8711 8726
+)
+"gtkMiscProps.ml" 213 8711 8745 "gtkMiscProps.ml" 213 8711 8770
+call(
+  tail
+)
+type(
+  Gtk.arrow Gtk.obj
+)
+type(
+  Gtk.arrow Gtk.obj
+)
+"gtkMiscProps.ml" 214 8771 8777 "gtkMiscProps.ml" 214 8771 8788
+type(
+  cont:(([> `arrow ] as 'd) Gobject.param list -> 'e) ->
+  'd Gobject.param list ->
+  ?kind:GtkEnums.arrow_type -> ?shadow:GtkEnums.shadow_type -> 'e
+)
+ident(
+  def make_params "gtkMiscProps.ml" 218 8908 8919 "gtkMiscProps.ml" 219 8920 8923
+)
+"gtkMiscProps.ml" 214 8771 8790 "gtkMiscProps.ml" 214 8771 8794
+type(
+  'd Gobject.param list -> 'e
+)
+ident(
+  def cont "gtkMiscProps.ml" 214 8771 8795 "gtkMiscProps.ml" 218 8908 8919
+)
+"gtkMiscProps.ml" 214 8771 8795 "gtkMiscProps.ml" 214 8771 8797
+type(
+  'd Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 214 8771 8798 "gtkMiscProps.ml" 218 8908 8919
+)
+"gtkMiscProps.ml" 214 8771 8799 "gtkMiscProps.ml" 214 8771 8803
+type(
+  GtkEnums.arrow_type option
+)
+ident(
+  def kind "gtkMiscProps.ml" 214 8771 8804 "gtkMiscProps.ml" 218 8908 8919
+)
+"gtkMiscProps.ml" 214 8771 8805 "gtkMiscProps.ml" 214 8771 8811
+type(
+  GtkEnums.shadow_type option
+)
+ident(
+  def shadow "gtkMiscProps.ml" 215 8814 8818 "gtkMiscProps.ml" 218 8908 8919
+)
+"gtkMiscProps.ml" 215 8814 8822 "gtkMiscProps.ml" 215 8814 8824
+type(
+  'd Gobject.param list
+)
+"gtkMiscProps.ml" 216 8829 8835 "gtkMiscProps.ml" 216 8829 8843
+type(
+  ('d, GtkEnums.arrow_type) Gobject.property ->
+  GtkEnums.arrow_type option ->
+  'd Gobject.param list -> 'd Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 216 8829 8844 "gtkMiscProps.ml" 216 8829 8856
+type(
+  ('d, GtkEnums.arrow_type) Gobject.property
+)
+ident(
+  ext_ref P.arrow_type
+)
+"gtkMiscProps.ml" 216 8829 8857 "gtkMiscProps.ml" 216 8829 8861
+type(
+  GtkEnums.arrow_type option
+)
+ident(
+  int_ref kind "gtkMiscProps.ml" 214 8771 8799 "gtkMiscProps.ml" 214 8771 8803
+)
+"gtkMiscProps.ml" 217 8864 8870 "gtkMiscProps.ml" 217 8864 8878
+type(
+  ('d, GtkEnums.shadow_type) Gobject.property ->
+  GtkEnums.shadow_type option ->
+  'd Gobject.param list -> 'd Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 217 8864 8879 "gtkMiscProps.ml" 217 8864 8892
+type(
+  ('d, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref P.shadow_type
+)
+"gtkMiscProps.ml" 217 8864 8893 "gtkMiscProps.ml" 217 8864 8899
+type(
+  GtkEnums.shadow_type option
+)
+ident(
+  int_ref shadow "gtkMiscProps.ml" 214 8771 8805 "gtkMiscProps.ml" 214 8771 8811
+)
+"gtkMiscProps.ml" 217 8864 8900 "gtkMiscProps.ml" 217 8864 8902
+type(
+  'd Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 214 8771 8795 "gtkMiscProps.ml" 214 8771 8797
+)
+"gtkMiscProps.ml" 216 8829 8862 "gtkMiscProps.ml" 217 8864 8903
+call(
+  stack
+)
+type(
+  'd Gobject.param list
+)
+"gtkMiscProps.ml" 215 8814 8827 "gtkMiscProps.ml" 217 8864 8904
+call(
+  stack
+)
+type(
+  'd Gobject.param list
+)
+"gtkMiscProps.ml" 218 8908 8912 "gtkMiscProps.ml" 218 8908 8916
+type(
+  'd Gobject.param list -> 'e
+)
+ident(
+  int_ref cont "gtkMiscProps.ml" 214 8771 8790 "gtkMiscProps.ml" 214 8771 8794
+)
+"gtkMiscProps.ml" 218 8908 8917 "gtkMiscProps.ml" 218 8908 8919
+type(
+  'd Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 215 8814 8822 "gtkMiscProps.ml" 215 8814 8824
+)
+"gtkMiscProps.ml" 218 8908 8912 "gtkMiscProps.ml" 218 8908 8919
+call(
+  tail
+)
+type(
+  'e
+)
+"gtkMiscProps.ml" 215 8814 8818 "gtkMiscProps.ml" 218 8908 8919
+type(
+  'e
+)
+"gtkMiscProps.ml" 222 8947 8953 "gtkMiscProps.ml" 222 8947 8957
+type(
+  'a Gobject.obj -> Gtk.image Gtk.obj
+)
+ident(
+  def cast "gtkMiscProps.ml" 223 9000 9002 "gtkMiscProps.ml" 257 10574 10577
+)
+"gtkMiscProps.ml" 222 8947 8958 "gtkMiscProps.ml" 222 8947 8959
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMiscProps.ml" 222 8947 8960 "gtkMiscProps.ml" 222 8947 8999
+)
+"gtkMiscProps.ml" 222 8947 8978 "gtkMiscProps.ml" 222 8947 8986
+type(
+  'a Gobject.obj -> string -> Gtk.image Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMiscProps.ml" 222 8947 8987 "gtkMiscProps.ml" 222 8947 8988
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMiscProps.ml" 222 8947 8958 "gtkMiscProps.ml" 222 8947 8959
+)
+"gtkMiscProps.ml" 222 8947 8989 "gtkMiscProps.ml" 222 8947 8999
+type(
+  string
+)
+"gtkMiscProps.ml" 222 8947 8978 "gtkMiscProps.ml" 222 8947 8999
+call(
+  tail
+)
+type(
+  Gtk.image Gtk.obj
+)
+type(
+  Gtk.image Gtk.obj
+)
+"gtkMiscProps.ml" 224 9020 9028 "gtkMiscProps.ml" 224 9020 9032
+type(
+  ([> `image ], string) Gobject.property
+)
+ident(
+  def file "gtkMiscProps.ml" 225 9087 9091 "gtkMiscProps.ml" 241 9987 9992
+)
+"gtkMiscProps.ml" 224 9020 9066 "gtkMiscProps.ml" 224 9020 9072
+type(
+  string
+)
+"gtkMiscProps.ml" 224 9020 9079 "gtkMiscProps.ml" 224 9020 9085
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkMiscProps.ml" 224 9020 9060 "gtkMiscProps.ml" 224 9020 9086
+type(
+  ([> `image ] as 'b, string) Gobject.property
+)
+type(
+  ('b, string) Gobject.property
+)
+"gtkMiscProps.ml" 225 9087 9095 "gtkMiscProps.ml" 225 9087 9100
+type(
+  ([> `image ], Gdk.image) Gobject.property
+)
+ident(
+  def image "gtkMiscProps.ml" 227 9187 9191 "gtkMiscProps.ml" 241 9987 9992
+)
+"gtkMiscProps.ml" 226 9128 9140 "gtkMiscProps.ml" 226 9128 9147
+type(
+  string
+)
+"gtkMiscProps.ml" 226 9128 9155 "gtkMiscProps.ml" 226 9128 9162
+type(
+  Gdk.image Gobject.data_conv
+)
+type(
+  Gdk.image Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkMiscProps.ml" 226 9128 9134 "gtkMiscProps.ml" 226 9128 9186
+type(
+  ([> `image ] as 'c, Gdk.image) Gobject.property
+)
+type(
+  ('c, Gdk.image) Gobject.property
+)
+"gtkMiscProps.ml" 227 9187 9195 "gtkMiscProps.ml" 227 9187 9201
+type(
+  ([> `image ], GdkPixbuf.pixbuf) Gobject.property
+)
+ident(
+  def pixbuf "gtkMiscProps.ml" 229 9296 9300 "gtkMiscProps.ml" 241 9987 9992
+)
+"gtkMiscProps.ml" 228 9229 9241 "gtkMiscProps.ml" 228 9229 9249
+type(
+  string
+)
+"gtkMiscProps.ml" 228 9229 9257 "gtkMiscProps.ml" 228 9229 9264
+type(
+  GdkPixbuf.pixbuf Gobject.data_conv
+)
+type(
+  GdkPixbuf.pixbuf Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkMiscProps.ml" 228 9229 9235 "gtkMiscProps.ml" 228 9229 9295
+type(
+  ([> `image ] as 'd, GdkPixbuf.pixbuf) Gobject.property
+)
+type(
+  ('d, GdkPixbuf.pixbuf) Gobject.property
+)
+"gtkMiscProps.ml" 229 9296 9304 "gtkMiscProps.ml" 229 9296 9314
+type(
+  ([> `image ], int) Gobject.property
+)
+ident(
+  def pixel_size "gtkMiscProps.ml" 230 9372 9376 "gtkMiscProps.ml" 241 9987 9992
+)
+"gtkMiscProps.ml" 229 9296 9348 "gtkMiscProps.ml" 229 9296 9360
+type(
+  string
+)
+"gtkMiscProps.ml" 229 9296 9367 "gtkMiscProps.ml" 229 9296 9370
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkMiscProps.ml" 229 9296 9342 "gtkMiscProps.ml" 229 9296 9371
+type(
+  ([> `image ] as 'e, int) Gobject.property
+)
+type(
+  ('e, int) Gobject.property
+)
+"gtkMiscProps.ml" 230 9372 9380 "gtkMiscProps.ml" 230 9372 9386
+type(
+  ([> `image ], Gdk.pixmap) Gobject.property
+)
+ident(
+  def pixmap "gtkMiscProps.ml" 232 9475 9479 "gtkMiscProps.ml" 241 9987 9992
+)
+"gtkMiscProps.ml" 231 9414 9426 "gtkMiscProps.ml" 231 9414 9434
+type(
+  string
+)
+"gtkMiscProps.ml" 231 9414 9442 "gtkMiscProps.ml" 231 9414 9449
+type(
+  Gdk.pixmap Gobject.data_conv
+)
+type(
+  Gdk.pixmap Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkMiscProps.ml" 231 9414 9420 "gtkMiscProps.ml" 231 9414 9474
+type(
+  ([> `image ] as 'f, Gdk.pixmap) Gobject.property
+)
+type(
+  ('f, Gdk.pixmap) Gobject.property
+)
+"gtkMiscProps.ml" 232 9475 9483 "gtkMiscProps.ml" 232 9475 9487
+type(
+  ([> `image ], Gdk.bitmap option) Gobject.property
+)
+ident(
+  def mask "gtkMiscProps.ml" 234 9588 9592 "gtkMiscProps.ml" 241 9987 9992
+)
+"gtkMiscProps.ml" 233 9515 9527 "gtkMiscProps.ml" 233 9515 9533
+type(
+  string
+)
+"gtkMiscProps.ml" 233 9515 9541 "gtkMiscProps.ml" 233 9515 9555
+type(
+  Gdk.bitmap option Gobject.data_conv
+)
+type(
+  Gdk.bitmap option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkMiscProps.ml" 233 9515 9521 "gtkMiscProps.ml" 233 9515 9587
+type(
+  ([> `image ] as 'g, Gdk.bitmap option) Gobject.property
+)
+type(
+  ('g, Gdk.bitmap option) Gobject.property
+)
+"gtkMiscProps.ml" 234 9588 9596 "gtkMiscProps.ml" 234 9588 9601
+type(
+  ([> `image ], GtkStock.id) Gobject.property
+)
+ident(
+  def stock "gtkMiscProps.ml" 235 9664 9668 "gtkMiscProps.ml" 241 9987 9992
+)
+"gtkMiscProps.ml" 234 9588 9635 "gtkMiscProps.ml" 234 9588 9642
+type(
+  string
+)
+"gtkMiscProps.ml" 234 9588 9649 "gtkMiscProps.ml" 234 9588 9662
+type(
+  GtkStock.id Gobject.data_conv
+)
+ident(
+  ext_ref GtkStock.conv
+)
+"gtkMiscProps.ml" 234 9588 9629 "gtkMiscProps.ml" 234 9588 9663
+type(
+  ([> `image ] as 'h, GtkStock.id) Gobject.property
+)
+type(
+  ('h, GtkStock.id) Gobject.property
+)
+"gtkMiscProps.ml" 235 9664 9672 "gtkMiscProps.ml" 235 9664 9680
+type(
+  ([> `image ], Gtk.icon_set) Gobject.property
+)
+ident(
+  def icon_set "gtkMiscProps.ml" 237 9780 9784 "gtkMiscProps.ml" 241 9987 9992
+)
+"gtkMiscProps.ml" 236 9708 9720 "gtkMiscProps.ml" 236 9708 9730
+type(
+  string
+)
+"gtkMiscProps.ml" 236 9708 9738 "gtkMiscProps.ml" 236 9708 9752
+type(
+  Gtk.icon_set Gobject.data_conv
+)
+type(
+  Gtk.icon_set Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkMiscProps.ml" 236 9708 9714 "gtkMiscProps.ml" 236 9708 9779
+type(
+  ([> `image ] as 'i, Gtk.icon_set) Gobject.property
+)
+type(
+  ('i, Gtk.icon_set) Gobject.property
+)
+"gtkMiscProps.ml" 237 9780 9788 "gtkMiscProps.ml" 237 9780 9797
+type(
+  ([> `image ], GtkEnums.icon_size) Gobject.property
+)
+ident(
+  def icon_size "gtkMiscProps.ml" 239 9880 9884 "gtkMiscProps.ml" 241 9987 9992
+)
+"gtkMiscProps.ml" 238 9825 9837 "gtkMiscProps.ml" 238 9825 9848
+type(
+  string
+)
+"gtkMiscProps.ml" 238 9825 9855 "gtkMiscProps.ml" 238 9825 9878
+type(
+  GtkEnums.icon_size Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.icon_size_conv
+)
+"gtkMiscProps.ml" 238 9825 9831 "gtkMiscProps.ml" 238 9825 9879
+type(
+  ([> `image ] as 'j, GtkEnums.icon_size) Gobject.property
+)
+type(
+  ('j, GtkEnums.icon_size) Gobject.property
+)
+"gtkMiscProps.ml" 239 9880 9888 "gtkMiscProps.ml" 239 9880 9900
+type(
+  ([> `image ], GtkEnums.image_type) Gobject.property
+)
+ident(
+  def storage_type "gtkMiscProps.ml" 240 9928 9986 "gtkMiscProps.ml" 241 9987 9992
+)
+"gtkMiscProps.ml" 240 9928 9940 "gtkMiscProps.ml" 240 9928 9954
+type(
+  string
+)
+"gtkMiscProps.ml" 240 9928 9961 "gtkMiscProps.ml" 240 9928 9985
+type(
+  GtkEnums.image_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.image_type_conv
+)
+"gtkMiscProps.ml" 240 9928 9934 "gtkMiscProps.ml" 240 9928 9986
+type(
+  ([> `image ] as 'k, GtkEnums.image_type) Gobject.property
+)
+type(
+  ('k, GtkEnums.image_type) Gobject.property
+)
+"gtkMiscProps.ml" 242 9993 9999 "gtkMiscProps.ml" 242 9993 10005
+type(
+  Gtk.image Gobject.param list -> Gtk.image Gtk.obj
+)
+ident(
+  def create "gtkMiscProps.ml" 243 10053 10055 "gtkMiscProps.ml" 257 10574 10577
+)
+"gtkMiscProps.ml" 242 9993 10006 "gtkMiscProps.ml" 242 9993 10008
+type(
+  Gtk.image Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 242 9993 10009 "gtkMiscProps.ml" 242 9993 10052
+)
+"gtkMiscProps.ml" 242 9993 10027 "gtkMiscProps.ml" 242 9993 10038
+type(
+  classe:string -> Gtk.image Gobject.param list -> Gtk.image Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMiscProps.ml" 242 9993 10039 "gtkMiscProps.ml" 242 9993 10049
+type(
+  string
+)
+"gtkMiscProps.ml" 242 9993 10050 "gtkMiscProps.ml" 242 9993 10052
+type(
+  Gtk.image Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 242 9993 10006 "gtkMiscProps.ml" 242 9993 10008
+)
+"gtkMiscProps.ml" 242 9993 10027 "gtkMiscProps.ml" 242 9993 10052
+call(
+  tail
+)
+type(
+  Gtk.image Gtk.obj
+)
+type(
+  Gtk.image Gtk.obj
+)
+"gtkMiscProps.ml" 244 10117 10123 "gtkMiscProps.ml" 244 10117 10134
+type(
+  cont:(([> `image ] as 'l) Gobject.param list -> 'm) ->
+  'l Gobject.param list ->
+  ?file:string ->
+  ?image:Gdk.image ->
+  ?pixbuf:GdkPixbuf.pixbuf ->
+  ?pixel_size:int ->
+  ?pixmap:Gdk.pixmap ->
+  ?mask:Gdk.bitmap ->
+  ?stock:GtkStock.id ->
+  ?icon_set:Gtk.icon_set -> ?icon_size:GtkEnums.icon_size -> 'm
+)
+ident(
+  def make_params "gtkMiscProps.ml" 256 10562 10573 "gtkMiscProps.ml" 257 10574 10577
+)
+"gtkMiscProps.ml" 244 10117 10136 "gtkMiscProps.ml" 244 10117 10140
+type(
+  'l Gobject.param list -> 'm
+)
+ident(
+  def cont "gtkMiscProps.ml" 244 10117 10141 "gtkMiscProps.ml" 256 10562 10573
+)
+"gtkMiscProps.ml" 244 10117 10141 "gtkMiscProps.ml" 244 10117 10143
+type(
+  'l Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 244 10117 10144 "gtkMiscProps.ml" 256 10562 10573
+)
+"gtkMiscProps.ml" 244 10117 10145 "gtkMiscProps.ml" 244 10117 10149
+type(
+  string option
+)
+ident(
+  def file "gtkMiscProps.ml" 244 10117 10150 "gtkMiscProps.ml" 256 10562 10573
+)
+"gtkMiscProps.ml" 244 10117 10151 "gtkMiscProps.ml" 244 10117 10156
+type(
+  Gdk.image option
+)
+ident(
+  def image "gtkMiscProps.ml" 244 10117 10157 "gtkMiscProps.ml" 256 10562 10573
+)
+"gtkMiscProps.ml" 244 10117 10158 "gtkMiscProps.ml" 244 10117 10164
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  def pixbuf "gtkMiscProps.ml" 244 10117 10165 "gtkMiscProps.ml" 256 10562 10573
+)
+"gtkMiscProps.ml" 244 10117 10166 "gtkMiscProps.ml" 244 10117 10176
+type(
+  int option
+)
+ident(
+  def pixel_size "gtkMiscProps.ml" 244 10117 10177 "gtkMiscProps.ml" 256 10562 10573
+)
+"gtkMiscProps.ml" 244 10117 10178 "gtkMiscProps.ml" 244 10117 10184
+type(
+  Gdk.pixmap option
+)
+ident(
+  def pixmap "gtkMiscProps.ml" 244 10117 10185 "gtkMiscProps.ml" 256 10562 10573
+)
+"gtkMiscProps.ml" 244 10117 10186 "gtkMiscProps.ml" 244 10117 10190
+type(
+  Gdk.bitmap option
+)
+ident(
+  def mask "gtkMiscProps.ml" 245 10191 10197 "gtkMiscProps.ml" 256 10562 10573
+)
+"gtkMiscProps.ml" 245 10191 10198 "gtkMiscProps.ml" 245 10191 10203
+type(
+  GtkStock.id option
+)
+ident(
+  def stock "gtkMiscProps.ml" 245 10191 10204 "gtkMiscProps.ml" 256 10562 10573
+)
+"gtkMiscProps.ml" 245 10191 10205 "gtkMiscProps.ml" 245 10191 10213
+type(
+  Gtk.icon_set option
+)
+ident(
+  def icon_set "gtkMiscProps.ml" 245 10191 10214 "gtkMiscProps.ml" 256 10562 10573
+)
+"gtkMiscProps.ml" 245 10191 10215 "gtkMiscProps.ml" 245 10191 10224
+type(
+  GtkEnums.icon_size option
+)
+ident(
+  def icon_size "gtkMiscProps.ml" 246 10227 10231 "gtkMiscProps.ml" 256 10562 10573
+)
+"gtkMiscProps.ml" 246 10227 10235 "gtkMiscProps.ml" 246 10227 10237
+type(
+  'l Gobject.param list
+)
+"gtkMiscProps.ml" 247 10242 10248 "gtkMiscProps.ml" 247 10242 10256
+type(
+  ('l, string) Gobject.property ->
+  string option -> 'l Gobject.param list -> 'l Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 247 10242 10257 "gtkMiscProps.ml" 247 10242 10263
+type(
+  ('l, string) Gobject.property
+)
+ident(
+  ext_ref P.file
+)
+"gtkMiscProps.ml" 247 10242 10264 "gtkMiscProps.ml" 247 10242 10268
+type(
+  string option
+)
+ident(
+  int_ref file "gtkMiscProps.ml" 244 10117 10145 "gtkMiscProps.ml" 244 10117 10149
+)
+"gtkMiscProps.ml" 248 10271 10277 "gtkMiscProps.ml" 248 10271 10285
+type(
+  ('l, Gdk.image) Gobject.property ->
+  Gdk.image option -> 'l Gobject.param list -> 'l Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 248 10271 10286 "gtkMiscProps.ml" 248 10271 10293
+type(
+  ('l, Gdk.image) Gobject.property
+)
+ident(
+  ext_ref P.image
+)
+"gtkMiscProps.ml" 248 10271 10294 "gtkMiscProps.ml" 248 10271 10299
+type(
+  Gdk.image option
+)
+ident(
+  int_ref image "gtkMiscProps.ml" 244 10117 10151 "gtkMiscProps.ml" 244 10117 10156
+)
+"gtkMiscProps.ml" 249 10302 10308 "gtkMiscProps.ml" 249 10302 10316
+type(
+  ('l, GdkPixbuf.pixbuf) Gobject.property ->
+  GdkPixbuf.pixbuf option -> 'l Gobject.param list -> 'l Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 249 10302 10317 "gtkMiscProps.ml" 249 10302 10325
+type(
+  ('l, GdkPixbuf.pixbuf) Gobject.property
+)
+ident(
+  ext_ref P.pixbuf
+)
+"gtkMiscProps.ml" 249 10302 10326 "gtkMiscProps.ml" 249 10302 10332
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  int_ref pixbuf "gtkMiscProps.ml" 244 10117 10158 "gtkMiscProps.ml" 244 10117 10164
+)
+"gtkMiscProps.ml" 250 10335 10341 "gtkMiscProps.ml" 250 10335 10349
+type(
+  ('l, int) Gobject.property ->
+  int option -> 'l Gobject.param list -> 'l Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 250 10335 10350 "gtkMiscProps.ml" 250 10335 10362
+type(
+  ('l, int) Gobject.property
+)
+ident(
+  ext_ref P.pixel_size
+)
+"gtkMiscProps.ml" 250 10335 10363 "gtkMiscProps.ml" 250 10335 10373
+type(
+  int option
+)
+ident(
+  int_ref pixel_size "gtkMiscProps.ml" 244 10117 10166 "gtkMiscProps.ml" 244 10117 10176
+)
+"gtkMiscProps.ml" 251 10376 10382 "gtkMiscProps.ml" 251 10376 10390
+type(
+  ('l, Gdk.pixmap) Gobject.property ->
+  Gdk.pixmap option -> 'l Gobject.param list -> 'l Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 251 10376 10391 "gtkMiscProps.ml" 251 10376 10399
+type(
+  ('l, Gdk.pixmap) Gobject.property
+)
+ident(
+  ext_ref P.pixmap
+)
+"gtkMiscProps.ml" 251 10376 10400 "gtkMiscProps.ml" 251 10376 10406
+type(
+  Gdk.pixmap option
+)
+ident(
+  int_ref pixmap "gtkMiscProps.ml" 244 10117 10178 "gtkMiscProps.ml" 244 10117 10184
+)
+"gtkMiscProps.ml" 252 10409 10415 "gtkMiscProps.ml" 252 10409 10427
+type(
+  ('l, Gdk.bitmap option) Gobject.property ->
+  Gdk.bitmap option -> 'l Gobject.param list -> 'l Gobject.param list
+)
+ident(
+  int_ref may_cons_opt "gtkMiscProps.ml" 8 93 97 "gtkMiscProps.ml" 8 93 109
+)
+"gtkMiscProps.ml" 252 10409 10428 "gtkMiscProps.ml" 252 10409 10434
+type(
+  ('l, Gdk.bitmap option) Gobject.property
+)
+ident(
+  ext_ref P.mask
+)
+"gtkMiscProps.ml" 252 10409 10435 "gtkMiscProps.ml" 252 10409 10439
+type(
+  Gdk.bitmap option
+)
+ident(
+  int_ref mask "gtkMiscProps.ml" 244 10117 10186 "gtkMiscProps.ml" 244 10117 10190
+)
+"gtkMiscProps.ml" 253 10442 10448 "gtkMiscProps.ml" 253 10442 10456
+type(
+  ('l, GtkStock.id) Gobject.property ->
+  GtkStock.id option -> 'l Gobject.param list -> 'l Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 253 10442 10457 "gtkMiscProps.ml" 253 10442 10464
+type(
+  ('l, GtkStock.id) Gobject.property
+)
+ident(
+  ext_ref P.stock
+)
+"gtkMiscProps.ml" 253 10442 10465 "gtkMiscProps.ml" 253 10442 10470
+type(
+  GtkStock.id option
+)
+ident(
+  int_ref stock "gtkMiscProps.ml" 245 10191 10198 "gtkMiscProps.ml" 245 10191 10203
+)
+"gtkMiscProps.ml" 254 10473 10479 "gtkMiscProps.ml" 254 10473 10487
+type(
+  ('l, Gtk.icon_set) Gobject.property ->
+  Gtk.icon_set option -> 'l Gobject.param list -> 'l Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 254 10473 10488 "gtkMiscProps.ml" 254 10473 10498
+type(
+  ('l, Gtk.icon_set) Gobject.property
+)
+ident(
+  ext_ref P.icon_set
+)
+"gtkMiscProps.ml" 254 10473 10499 "gtkMiscProps.ml" 254 10473 10507
+type(
+  Gtk.icon_set option
+)
+ident(
+  int_ref icon_set "gtkMiscProps.ml" 245 10191 10205 "gtkMiscProps.ml" 245 10191 10213
+)
+"gtkMiscProps.ml" 255 10510 10516 "gtkMiscProps.ml" 255 10510 10524
+type(
+  ('l, GtkEnums.icon_size) Gobject.property ->
+  GtkEnums.icon_size option -> 'l Gobject.param list -> 'l Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 255 10510 10525 "gtkMiscProps.ml" 255 10510 10536
+type(
+  ('l, GtkEnums.icon_size) Gobject.property
+)
+ident(
+  ext_ref P.icon_size
+)
+"gtkMiscProps.ml" 255 10510 10537 "gtkMiscProps.ml" 255 10510 10546
+type(
+  GtkEnums.icon_size option
+)
+ident(
+  int_ref icon_size "gtkMiscProps.ml" 245 10191 10215 "gtkMiscProps.ml" 245 10191 10224
+)
+"gtkMiscProps.ml" 255 10510 10547 "gtkMiscProps.ml" 255 10510 10549
+type(
+  'l Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 244 10117 10141 "gtkMiscProps.ml" 244 10117 10143
+)
+"gtkMiscProps.ml" 254 10473 10508 "gtkMiscProps.ml" 255 10510 10550
+call(
+  stack
+)
+type(
+  'l Gobject.param list
+)
+"gtkMiscProps.ml" 253 10442 10471 "gtkMiscProps.ml" 255 10510 10551
+call(
+  stack
+)
+type(
+  'l Gobject.param list
+)
+"gtkMiscProps.ml" 252 10409 10440 "gtkMiscProps.ml" 255 10510 10552
+call(
+  stack
+)
+type(
+  'l Gobject.param list
+)
+"gtkMiscProps.ml" 251 10376 10407 "gtkMiscProps.ml" 255 10510 10553
+call(
+  stack
+)
+type(
+  'l Gobject.param list
+)
+"gtkMiscProps.ml" 250 10335 10374 "gtkMiscProps.ml" 255 10510 10554
+call(
+  stack
+)
+type(
+  'l Gobject.param list
+)
+"gtkMiscProps.ml" 249 10302 10333 "gtkMiscProps.ml" 255 10510 10555
+call(
+  stack
+)
+type(
+  'l Gobject.param list
+)
+"gtkMiscProps.ml" 248 10271 10300 "gtkMiscProps.ml" 255 10510 10556
+call(
+  stack
+)
+type(
+  'l Gobject.param list
+)
+"gtkMiscProps.ml" 247 10242 10269 "gtkMiscProps.ml" 255 10510 10557
+call(
+  stack
+)
+type(
+  'l Gobject.param list
+)
+"gtkMiscProps.ml" 246 10227 10240 "gtkMiscProps.ml" 255 10510 10558
+call(
+  stack
+)
+type(
+  'l Gobject.param list
+)
+"gtkMiscProps.ml" 256 10562 10566 "gtkMiscProps.ml" 256 10562 10570
+type(
+  'l Gobject.param list -> 'm
+)
+ident(
+  int_ref cont "gtkMiscProps.ml" 244 10117 10136 "gtkMiscProps.ml" 244 10117 10140
+)
+"gtkMiscProps.ml" 256 10562 10571 "gtkMiscProps.ml" 256 10562 10573
+type(
+  'l Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 246 10227 10235 "gtkMiscProps.ml" 246 10227 10237
+)
+"gtkMiscProps.ml" 256 10562 10566 "gtkMiscProps.ml" 256 10562 10573
+call(
+  tail
+)
+type(
+  'm
+)
+"gtkMiscProps.ml" 246 10227 10231 "gtkMiscProps.ml" 256 10562 10573
+type(
+  'm
+)
+"gtkMiscProps.ml" 260 10610 10616 "gtkMiscProps.ml" 260 10610 10620
+type(
+  'a Gobject.obj -> Gtk.color_selection Gtk.obj
+)
+ident(
+  def cast "gtkMiscProps.ml" 261 10682 10684 "gtkMiscProps.ml" 285 11670 11673
+)
+"gtkMiscProps.ml" 260 10610 10621 "gtkMiscProps.ml" 260 10610 10622
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMiscProps.ml" 260 10610 10623 "gtkMiscProps.ml" 260 10610 10681
+)
+"gtkMiscProps.ml" 260 10610 10651 "gtkMiscProps.ml" 260 10610 10659
+type(
+  'a Gobject.obj -> string -> Gtk.color_selection Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMiscProps.ml" 260 10610 10660 "gtkMiscProps.ml" 260 10610 10661
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMiscProps.ml" 260 10610 10621 "gtkMiscProps.ml" 260 10610 10622
+)
+"gtkMiscProps.ml" 260 10610 10662 "gtkMiscProps.ml" 260 10610 10681
+type(
+  string
+)
+"gtkMiscProps.ml" 260 10610 10651 "gtkMiscProps.ml" 260 10610 10681
+call(
+  tail
+)
+type(
+  Gtk.color_selection Gtk.obj
+)
+type(
+  Gtk.color_selection Gtk.obj
+)
+"gtkMiscProps.ml" 262 10702 10710 "gtkMiscProps.ml" 262 10702 10723
+type(
+  ([> `colorselection ], int) Gobject.property
+)
+ident(
+  def current_alpha "gtkMiscProps.ml" 264 10800 10804 "gtkMiscProps.ml" 270 11142 11147
+)
+"gtkMiscProps.ml" 263 10760 10772 "gtkMiscProps.ml" 263 10760 10787
+type(
+  string
+)
+"gtkMiscProps.ml" 263 10760 10794 "gtkMiscProps.ml" 263 10760 10798
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkMiscProps.ml" 263 10760 10766 "gtkMiscProps.ml" 263 10760 10799
+type(
+  ([> `colorselection ] as 'b, int) Gobject.property
+)
+type(
+  ('b, int) Gobject.property
+)
+"gtkMiscProps.ml" 264 10800 10808 "gtkMiscProps.ml" 264 10800 10821
+type(
+  ([> `colorselection ], Gdk.color) Gobject.property
+)
+ident(
+  def current_color "gtkMiscProps.ml" 266 10932 10936 "gtkMiscProps.ml" 270 11142 11147
+)
+"gtkMiscProps.ml" 265 10858 10870 "gtkMiscProps.ml" 265 10858 10885
+type(
+  string
+)
+"gtkMiscProps.ml" 265 10858 10893 "gtkMiscProps.ml" 265 10858 10907
+type(
+  Gdk.color Gobject.data_conv
+)
+type(
+  Gdk.color Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkMiscProps.ml" 265 10858 10864 "gtkMiscProps.ml" 265 10858 10931
+type(
+  ([> `colorselection ] as 'c, Gdk.color) Gobject.property
+)
+type(
+  ('c, Gdk.color) Gobject.property
+)
+"gtkMiscProps.ml" 266 10932 10940 "gtkMiscProps.ml" 266 10932 10959
+type(
+  ([> `colorselection ], bool) Gobject.property
+)
+ident(
+  def has_opacity_control "gtkMiscProps.ml" 268 11045 11049 "gtkMiscProps.ml" 270 11142 11147
+)
+"gtkMiscProps.ml" 267 10996 11008 "gtkMiscProps.ml" 267 10996 11029
+type(
+  string
+)
+"gtkMiscProps.ml" 267 10996 11036 "gtkMiscProps.ml" 267 10996 11043
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkMiscProps.ml" 267 10996 11002 "gtkMiscProps.ml" 267 10996 11044
+type(
+  ([> `colorselection ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkMiscProps.ml" 268 11045 11053 "gtkMiscProps.ml" 268 11045 11064
+type(
+  ([> `colorselection ], bool) Gobject.property
+)
+ident(
+  def has_palette "gtkMiscProps.ml" 269 11101 11141 "gtkMiscProps.ml" 270 11142 11147
+)
+"gtkMiscProps.ml" 269 11101 11113 "gtkMiscProps.ml" 269 11101 11126
+type(
+  string
+)
+"gtkMiscProps.ml" 269 11101 11133 "gtkMiscProps.ml" 269 11101 11140
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkMiscProps.ml" 269 11101 11107 "gtkMiscProps.ml" 269 11101 11141
+type(
+  ([> `colorselection ] as 'e, bool) Gobject.property
+)
+type(
+  ('e, bool) Gobject.property
+)
+"gtkMiscProps.ml" 273 11187 11195 "gtkMiscProps.ml" 273 11187 11208
+type(
+  ([> `colorselection ], unit -> unit) GtkSignal.t
+)
+ident(
+  def color_changed "gtkMiscProps.ml" 274 11211 11288 "gtkMiscProps.ml" 275 11289 11294
+)
+"gtkMiscProps.ml" 274 11211 11223 "gtkMiscProps.ml" 274 11211 11238
+type(
+  string
+)
+"gtkMiscProps.ml" 274 11211 11247 "gtkMiscProps.ml" 274 11211 11262
+type(
+  [> `colorselection ] as 'f
+)
+"gtkMiscProps.ml" 274 11211 11275 "gtkMiscProps.ml" 274 11211 11287
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMiscProps.ml" 274 11211 11217 "gtkMiscProps.ml" 274 11211 11288
+type(
+  ('f, unit -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 276 11295 11301 "gtkMiscProps.ml" 276 11295 11307
+type(
+  Gtk.color_selection Gobject.param list -> Gtk.color_selection Gtk.obj
+)
+ident(
+  def create "gtkMiscProps.ml" 278 11378 11380 "gtkMiscProps.ml" 285 11670 11673
+)
+"gtkMiscProps.ml" 276 11295 11308 "gtkMiscProps.ml" 276 11295 11310
+type(
+  Gtk.color_selection Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 276 11295 11311 "gtkMiscProps.ml" 277 11339 11377
+)
+"gtkMiscProps.ml" 277 11339 11343 "gtkMiscProps.ml" 277 11339 11354
+type(
+  classe:string ->
+  Gtk.color_selection Gobject.param list -> Gtk.color_selection Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMiscProps.ml" 277 11339 11355 "gtkMiscProps.ml" 277 11339 11374
+type(
+  string
+)
+"gtkMiscProps.ml" 277 11339 11375 "gtkMiscProps.ml" 277 11339 11377
+type(
+  Gtk.color_selection Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 276 11295 11308 "gtkMiscProps.ml" 276 11295 11310
+)
+"gtkMiscProps.ml" 277 11339 11343 "gtkMiscProps.ml" 277 11339 11377
+call(
+  tail
+)
+type(
+  Gtk.color_selection Gtk.obj
+)
+type(
+  Gtk.color_selection Gtk.obj
+)
+"gtkMiscProps.ml" 278 11378 11384 "gtkMiscProps.ml" 278 11378 11395
+type(
+  cont:(([> `colorselection ] as 'g) Gobject.param list -> 'h) ->
+  'g Gobject.param list ->
+  ?alpha:int ->
+  ?color:Gdk.color -> ?has_opacity_control:bool -> ?has_palette:bool -> 'h
+)
+ident(
+  def make_params "gtkMiscProps.ml" 284 11658 11669 "gtkMiscProps.ml" 285 11670 11673
+)
+"gtkMiscProps.ml" 278 11378 11397 "gtkMiscProps.ml" 278 11378 11401
+type(
+  'g Gobject.param list -> 'h
+)
+ident(
+  def cont "gtkMiscProps.ml" 278 11378 11402 "gtkMiscProps.ml" 284 11658 11669
+)
+"gtkMiscProps.ml" 278 11378 11402 "gtkMiscProps.ml" 278 11378 11404
+type(
+  'g Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 278 11378 11405 "gtkMiscProps.ml" 284 11658 11669
+)
+"gtkMiscProps.ml" 278 11378 11406 "gtkMiscProps.ml" 278 11378 11411
+type(
+  int option
+)
+ident(
+  def alpha "gtkMiscProps.ml" 278 11378 11412 "gtkMiscProps.ml" 284 11658 11669
+)
+"gtkMiscProps.ml" 278 11378 11413 "gtkMiscProps.ml" 278 11378 11418
+type(
+  Gdk.color option
+)
+ident(
+  def color "gtkMiscProps.ml" 278 11378 11419 "gtkMiscProps.ml" 284 11658 11669
+)
+"gtkMiscProps.ml" 278 11378 11420 "gtkMiscProps.ml" 278 11378 11439
+type(
+  bool option
+)
+ident(
+  def has_opacity_control "gtkMiscProps.ml" 278 11378 11440 "gtkMiscProps.ml" 284 11658 11669
+)
+"gtkMiscProps.ml" 278 11378 11441 "gtkMiscProps.ml" 278 11378 11452
+type(
+  bool option
+)
+ident(
+  def has_palette "gtkMiscProps.ml" 279 11455 11459 "gtkMiscProps.ml" 284 11658 11669
+)
+"gtkMiscProps.ml" 279 11455 11463 "gtkMiscProps.ml" 279 11455 11465
+type(
+  'g Gobject.param list
+)
+"gtkMiscProps.ml" 280 11470 11476 "gtkMiscProps.ml" 280 11470 11484
+type(
+  ('g, int) Gobject.property ->
+  int option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 280 11470 11485 "gtkMiscProps.ml" 280 11470 11500
+type(
+  ('g, int) Gobject.property
+)
+ident(
+  ext_ref P.current_alpha
+)
+"gtkMiscProps.ml" 280 11470 11501 "gtkMiscProps.ml" 280 11470 11506
+type(
+  int option
+)
+ident(
+  int_ref alpha "gtkMiscProps.ml" 278 11378 11406 "gtkMiscProps.ml" 278 11378 11411
+)
+"gtkMiscProps.ml" 281 11509 11515 "gtkMiscProps.ml" 281 11509 11523
+type(
+  ('g, Gdk.color) Gobject.property ->
+  Gdk.color option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 281 11509 11524 "gtkMiscProps.ml" 281 11509 11539
+type(
+  ('g, Gdk.color) Gobject.property
+)
+ident(
+  ext_ref P.current_color
+)
+"gtkMiscProps.ml" 281 11509 11540 "gtkMiscProps.ml" 281 11509 11545
+type(
+  Gdk.color option
+)
+ident(
+  int_ref color "gtkMiscProps.ml" 278 11378 11413 "gtkMiscProps.ml" 278 11378 11418
+)
+"gtkMiscProps.ml" 282 11548 11554 "gtkMiscProps.ml" 282 11548 11562
+type(
+  ('g, bool) Gobject.property ->
+  bool option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 282 11548 11563 "gtkMiscProps.ml" 282 11548 11584
+type(
+  ('g, bool) Gobject.property
+)
+ident(
+  ext_ref P.has_opacity_control
+)
+"gtkMiscProps.ml" 282 11548 11585 "gtkMiscProps.ml" 282 11548 11604
+type(
+  bool option
+)
+ident(
+  int_ref has_opacity_control "gtkMiscProps.ml" 278 11378 11420 "gtkMiscProps.ml" 278 11378 11439
+)
+"gtkMiscProps.ml" 283 11607 11613 "gtkMiscProps.ml" 283 11607 11621
+type(
+  ('g, bool) Gobject.property ->
+  bool option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 283 11607 11622 "gtkMiscProps.ml" 283 11607 11635
+type(
+  ('g, bool) Gobject.property
+)
+ident(
+  ext_ref P.has_palette
+)
+"gtkMiscProps.ml" 283 11607 11636 "gtkMiscProps.ml" 283 11607 11647
+type(
+  bool option
+)
+ident(
+  int_ref has_palette "gtkMiscProps.ml" 278 11378 11441 "gtkMiscProps.ml" 278 11378 11452
+)
+"gtkMiscProps.ml" 283 11607 11648 "gtkMiscProps.ml" 283 11607 11650
+type(
+  'g Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 278 11378 11402 "gtkMiscProps.ml" 278 11378 11404
+)
+"gtkMiscProps.ml" 282 11548 11605 "gtkMiscProps.ml" 283 11607 11651
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkMiscProps.ml" 281 11509 11546 "gtkMiscProps.ml" 283 11607 11652
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkMiscProps.ml" 280 11470 11507 "gtkMiscProps.ml" 283 11607 11653
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkMiscProps.ml" 279 11455 11468 "gtkMiscProps.ml" 283 11607 11654
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkMiscProps.ml" 284 11658 11662 "gtkMiscProps.ml" 284 11658 11666
+type(
+  'g Gobject.param list -> 'h
+)
+ident(
+  int_ref cont "gtkMiscProps.ml" 278 11378 11397 "gtkMiscProps.ml" 278 11378 11401
+)
+"gtkMiscProps.ml" 284 11658 11667 "gtkMiscProps.ml" 284 11658 11669
+type(
+  'g Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 279 11455 11463 "gtkMiscProps.ml" 279 11455 11465
+)
+"gtkMiscProps.ml" 284 11658 11662 "gtkMiscProps.ml" 284 11658 11669
+call(
+  tail
+)
+type(
+  'h
+)
+"gtkMiscProps.ml" 279 11455 11459 "gtkMiscProps.ml" 284 11658 11669
+type(
+  'h
+)
+"gtkMiscProps.ml" 288 11705 11711 "gtkMiscProps.ml" 288 11705 11715
+type(
+  'a Gobject.obj -> Gtk.font_selection Gtk.obj
+)
+ident(
+  def cast "gtkMiscProps.ml" 289 11775 11777 "gtkMiscProps.ml" 301 12237 12240
+)
+"gtkMiscProps.ml" 288 11705 11716 "gtkMiscProps.ml" 288 11705 11717
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMiscProps.ml" 288 11705 11718 "gtkMiscProps.ml" 288 11705 11774
+)
+"gtkMiscProps.ml" 288 11705 11745 "gtkMiscProps.ml" 288 11705 11753
+type(
+  'a Gobject.obj -> string -> Gtk.font_selection Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMiscProps.ml" 288 11705 11754 "gtkMiscProps.ml" 288 11705 11755
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMiscProps.ml" 288 11705 11716 "gtkMiscProps.ml" 288 11705 11717
+)
+"gtkMiscProps.ml" 288 11705 11756 "gtkMiscProps.ml" 288 11705 11774
+type(
+  string
+)
+"gtkMiscProps.ml" 288 11705 11745 "gtkMiscProps.ml" 288 11705 11774
+call(
+  tail
+)
+type(
+  Gtk.font_selection Gtk.obj
+)
+type(
+  Gtk.font_selection Gtk.obj
+)
+"gtkMiscProps.ml" 290 11795 11803 "gtkMiscProps.ml" 290 11795 11812
+type(
+  ([> `fontselection ], string) Gobject.property
+)
+ident(
+  def font_name "gtkMiscProps.ml" 292 11886 11890 "gtkMiscProps.ml" 294 11983 11988
+)
+"gtkMiscProps.ml" 291 11848 11860 "gtkMiscProps.ml" 291 11848 11871
+type(
+  string
+)
+"gtkMiscProps.ml" 291 11848 11878 "gtkMiscProps.ml" 291 11848 11884
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkMiscProps.ml" 291 11848 11854 "gtkMiscProps.ml" 291 11848 11885
+type(
+  ([> `fontselection ] as 'b, string) Gobject.property
+)
+type(
+  ('b, string) Gobject.property
+)
+"gtkMiscProps.ml" 292 11886 11894 "gtkMiscProps.ml" 292 11886 11906
+type(
+  ([> `fontselection ], string) Gobject.property
+)
+ident(
+  def preview_text "gtkMiscProps.ml" 293 11942 11982 "gtkMiscProps.ml" 294 11983 11988
+)
+"gtkMiscProps.ml" 293 11942 11954 "gtkMiscProps.ml" 293 11942 11968
+type(
+  string
+)
+"gtkMiscProps.ml" 293 11942 11975 "gtkMiscProps.ml" 293 11942 11981
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkMiscProps.ml" 293 11942 11948 "gtkMiscProps.ml" 293 11942 11982
+type(
+  ([> `fontselection ] as 'c, string) Gobject.property
+)
+type(
+  ('c, string) Gobject.property
+)
+"gtkMiscProps.ml" 295 11989 11995 "gtkMiscProps.ml" 295 11989 12001
+type(
+  Gtk.font_selection Gobject.param list -> Gtk.font_selection Gtk.obj
+)
+ident(
+  def create "gtkMiscProps.ml" 296 12066 12068 "gtkMiscProps.ml" 301 12237 12240
+)
+"gtkMiscProps.ml" 295 11989 12002 "gtkMiscProps.ml" 295 11989 12004
+type(
+  Gtk.font_selection Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 295 11989 12005 "gtkMiscProps.ml" 295 11989 12065
+)
+"gtkMiscProps.ml" 295 11989 12032 "gtkMiscProps.ml" 295 11989 12043
+type(
+  classe:string ->
+  Gtk.font_selection Gobject.param list -> Gtk.font_selection Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMiscProps.ml" 295 11989 12044 "gtkMiscProps.ml" 295 11989 12062
+type(
+  string
+)
+"gtkMiscProps.ml" 295 11989 12063 "gtkMiscProps.ml" 295 11989 12065
+type(
+  Gtk.font_selection Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 295 11989 12002 "gtkMiscProps.ml" 295 11989 12004
+)
+"gtkMiscProps.ml" 295 11989 12032 "gtkMiscProps.ml" 295 11989 12065
+call(
+  tail
+)
+type(
+  Gtk.font_selection Gtk.obj
+)
+type(
+  Gtk.font_selection Gtk.obj
+)
+"gtkMiscProps.ml" 296 12066 12072 "gtkMiscProps.ml" 296 12066 12083
+type(
+  cont:(([> `fontselection ] as 'd) Gobject.param list -> 'e) ->
+  'd Gobject.param list -> ?font_name:string -> ?preview_text:string -> 'e
+)
+ident(
+  def make_params "gtkMiscProps.ml" 300 12225 12236 "gtkMiscProps.ml" 301 12237 12240
+)
+"gtkMiscProps.ml" 296 12066 12085 "gtkMiscProps.ml" 296 12066 12089
+type(
+  'd Gobject.param list -> 'e
+)
+ident(
+  def cont "gtkMiscProps.ml" 296 12066 12090 "gtkMiscProps.ml" 300 12225 12236
+)
+"gtkMiscProps.ml" 296 12066 12090 "gtkMiscProps.ml" 296 12066 12092
+type(
+  'd Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 296 12066 12093 "gtkMiscProps.ml" 300 12225 12236
+)
+"gtkMiscProps.ml" 296 12066 12094 "gtkMiscProps.ml" 296 12066 12103
+type(
+  string option
+)
+ident(
+  def font_name "gtkMiscProps.ml" 296 12066 12104 "gtkMiscProps.ml" 300 12225 12236
+)
+"gtkMiscProps.ml" 296 12066 12105 "gtkMiscProps.ml" 296 12066 12117
+type(
+  string option
+)
+ident(
+  def preview_text "gtkMiscProps.ml" 297 12120 12124 "gtkMiscProps.ml" 300 12225 12236
+)
+"gtkMiscProps.ml" 297 12120 12128 "gtkMiscProps.ml" 297 12120 12130
+type(
+  'd Gobject.param list
+)
+"gtkMiscProps.ml" 298 12135 12141 "gtkMiscProps.ml" 298 12135 12149
+type(
+  ('d, string) Gobject.property ->
+  string option -> 'd Gobject.param list -> 'd Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 298 12135 12150 "gtkMiscProps.ml" 298 12135 12161
+type(
+  ('d, string) Gobject.property
+)
+ident(
+  ext_ref P.font_name
+)
+"gtkMiscProps.ml" 298 12135 12162 "gtkMiscProps.ml" 298 12135 12171
+type(
+  string option
+)
+ident(
+  int_ref font_name "gtkMiscProps.ml" 296 12066 12094 "gtkMiscProps.ml" 296 12066 12103
+)
+"gtkMiscProps.ml" 299 12174 12180 "gtkMiscProps.ml" 299 12174 12188
+type(
+  ('d, string) Gobject.property ->
+  string option -> 'd Gobject.param list -> 'd Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 299 12174 12189 "gtkMiscProps.ml" 299 12174 12203
+type(
+  ('d, string) Gobject.property
+)
+ident(
+  ext_ref P.preview_text
+)
+"gtkMiscProps.ml" 299 12174 12204 "gtkMiscProps.ml" 299 12174 12216
+type(
+  string option
+)
+ident(
+  int_ref preview_text "gtkMiscProps.ml" 296 12066 12105 "gtkMiscProps.ml" 296 12066 12117
+)
+"gtkMiscProps.ml" 299 12174 12217 "gtkMiscProps.ml" 299 12174 12219
+type(
+  'd Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 296 12066 12090 "gtkMiscProps.ml" 296 12066 12092
+)
+"gtkMiscProps.ml" 298 12135 12172 "gtkMiscProps.ml" 299 12174 12220
+call(
+  stack
+)
+type(
+  'd Gobject.param list
+)
+"gtkMiscProps.ml" 297 12120 12133 "gtkMiscProps.ml" 299 12174 12221
+call(
+  stack
+)
+type(
+  'd Gobject.param list
+)
+"gtkMiscProps.ml" 300 12225 12229 "gtkMiscProps.ml" 300 12225 12233
+type(
+  'd Gobject.param list -> 'e
+)
+ident(
+  int_ref cont "gtkMiscProps.ml" 296 12066 12085 "gtkMiscProps.ml" 296 12066 12089
+)
+"gtkMiscProps.ml" 300 12225 12234 "gtkMiscProps.ml" 300 12225 12236
+type(
+  'd Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 297 12120 12128 "gtkMiscProps.ml" 297 12120 12130
+)
+"gtkMiscProps.ml" 300 12225 12229 "gtkMiscProps.ml" 300 12225 12236
+call(
+  tail
+)
+type(
+  'e
+)
+"gtkMiscProps.ml" 297 12120 12124 "gtkMiscProps.ml" 300 12225 12236
+type(
+  'e
+)
+"gtkMiscProps.ml" 304 12269 12275 "gtkMiscProps.ml" 304 12269 12279
+type(
+  'a Gobject.obj -> Gtk.gamma_curve Gtk.obj
+)
+ident(
+  def cast "gtkMiscProps.ml" 305 12333 12335 "gtkMiscProps.ml" 308 12492 12495
+)
+"gtkMiscProps.ml" 304 12269 12280 "gtkMiscProps.ml" 304 12269 12281
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMiscProps.ml" 304 12269 12282 "gtkMiscProps.ml" 304 12269 12332
+)
+"gtkMiscProps.ml" 304 12269 12306 "gtkMiscProps.ml" 304 12269 12314
+type(
+  'a Gobject.obj -> string -> Gtk.gamma_curve Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMiscProps.ml" 304 12269 12315 "gtkMiscProps.ml" 304 12269 12316
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMiscProps.ml" 304 12269 12280 "gtkMiscProps.ml" 304 12269 12281
+)
+"gtkMiscProps.ml" 304 12269 12317 "gtkMiscProps.ml" 304 12269 12332
+type(
+  string
+)
+"gtkMiscProps.ml" 304 12269 12306 "gtkMiscProps.ml" 304 12269 12332
+call(
+  tail
+)
+type(
+  Gtk.gamma_curve Gtk.obj
+)
+type(
+  Gtk.gamma_curve Gtk.obj
+)
+"gtkMiscProps.ml" 305 12333 12339 "gtkMiscProps.ml" 305 12333 12345
+type(
+  Gtk.gamma_curve Gobject.param list -> Gtk.gamma_curve Gtk.obj
+)
+ident(
+  def create "gtkMiscProps.ml" 306 12404 12406 "gtkMiscProps.ml" 308 12492 12495
+)
+"gtkMiscProps.ml" 305 12333 12346 "gtkMiscProps.ml" 305 12333 12348
+type(
+  Gtk.gamma_curve Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 305 12333 12349 "gtkMiscProps.ml" 305 12333 12403
+)
+"gtkMiscProps.ml" 305 12333 12373 "gtkMiscProps.ml" 305 12333 12384
+type(
+  classe:string ->
+  Gtk.gamma_curve Gobject.param list -> Gtk.gamma_curve Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMiscProps.ml" 305 12333 12385 "gtkMiscProps.ml" 305 12333 12400
+type(
+  string
+)
+"gtkMiscProps.ml" 305 12333 12401 "gtkMiscProps.ml" 305 12333 12403
+type(
+  Gtk.gamma_curve Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 305 12333 12346 "gtkMiscProps.ml" 305 12333 12348
+)
+"gtkMiscProps.ml" 305 12333 12373 "gtkMiscProps.ml" 305 12333 12403
+call(
+  tail
+)
+type(
+  Gtk.gamma_curve Gtk.obj
+)
+type(
+  Gtk.gamma_curve Gtk.obj
+)
+"gtkMiscProps.ml" 311 12523 12529 "gtkMiscProps.ml" 311 12523 12533
+type(
+  'a Gobject.obj -> Gtk.statusbar Gtk.obj
+)
+ident(
+  def cast "gtkMiscProps.ml" 312 12584 12586 "gtkMiscProps.ml" 344 13921 13924
+)
+"gtkMiscProps.ml" 311 12523 12534 "gtkMiscProps.ml" 311 12523 12535
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMiscProps.ml" 311 12523 12536 "gtkMiscProps.ml" 311 12523 12583
+)
+"gtkMiscProps.ml" 311 12523 12558 "gtkMiscProps.ml" 311 12523 12566
+type(
+  'a Gobject.obj -> string -> Gtk.statusbar Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMiscProps.ml" 311 12523 12567 "gtkMiscProps.ml" 311 12523 12568
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMiscProps.ml" 311 12523 12534 "gtkMiscProps.ml" 311 12523 12535
+)
+"gtkMiscProps.ml" 311 12523 12569 "gtkMiscProps.ml" 311 12523 12583
+type(
+  string
+)
+"gtkMiscProps.ml" 311 12523 12558 "gtkMiscProps.ml" 311 12523 12583
+call(
+  tail
+)
+type(
+  Gtk.statusbar Gtk.obj
+)
+type(
+  Gtk.statusbar Gtk.obj
+)
+"gtkMiscProps.ml" 313 12604 12612 "gtkMiscProps.ml" 313 12604 12627
+type(
+  ([> `statusbar ], bool) Gobject.property
+)
+ident(
+  def has_resize_grip "gtkMiscProps.ml" 314 12659 12703 "gtkMiscProps.ml" 315 12704 12709
+)
+"gtkMiscProps.ml" 314 12659 12671 "gtkMiscProps.ml" 314 12659 12688
+type(
+  string
+)
+"gtkMiscProps.ml" 314 12659 12695 "gtkMiscProps.ml" 314 12659 12702
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkMiscProps.ml" 314 12659 12665 "gtkMiscProps.ml" 314 12659 12703
+type(
+  ([> `statusbar ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkMiscProps.ml" 318 12749 12757 "gtkMiscProps.ml" 318 12749 12768
+type(
+  ([> `statusbar ], int -> string -> unit) GtkSignal.t
+)
+ident(
+  def text_popped "gtkMiscProps.ml" 321 12896 12900 "gtkMiscProps.ml" 324 13043 13048
+)
+"gtkMiscProps.ml" 319 12771 12783 "gtkMiscProps.ml" 319 12771 12796
+type(
+  string
+)
+"gtkMiscProps.ml" 319 12771 12805 "gtkMiscProps.ml" 319 12771 12815
+type(
+  [> `statusbar ] as 'c
+)
+"gtkMiscProps.ml" 319 12771 12832 "gtkMiscProps.ml" 319 12771 12833
+type(
+  int -> string -> unit
+)
+ident(
+  def f "gtkMiscProps.ml" 320 12837 12844 "gtkMiscProps.ml" 320 12837 12894
+)
+"gtkMiscProps.ml" 320 12837 12844 "gtkMiscProps.ml" 320 12837 12852
+type(
+  int Gobject.data_conv ->
+  string Gobject.data_conv ->
+  string -> (int -> string -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkMiscProps.ml" 320 12837 12853 "gtkMiscProps.ml" 320 12837 12857
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkMiscProps.ml" 320 12837 12858 "gtkMiscProps.ml" 320 12837 12864
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkMiscProps.ml" 320 12837 12865 "gtkMiscProps.ml" 320 12837 12892
+type(
+  string
+)
+"gtkMiscProps.ml" 320 12837 12893 "gtkMiscProps.ml" 320 12837 12894
+type(
+  int -> string -> unit
+)
+ident(
+  int_ref f "gtkMiscProps.ml" 319 12771 12832 "gtkMiscProps.ml" 319 12771 12833
+)
+"gtkMiscProps.ml" 320 12837 12844 "gtkMiscProps.ml" 320 12837 12894
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkMiscProps.ml" 319 12771 12828 "gtkMiscProps.ml" 320 12837 12894
+type(
+  (int -> string -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkMiscProps.ml" 319 12771 12777 "gtkMiscProps.ml" 320 12837 12895
+type(
+  ('c, int -> string -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 321 12896 12904 "gtkMiscProps.ml" 321 12896 12915
+type(
+  ([> `statusbar ], int -> string -> unit) GtkSignal.t
+)
+ident(
+  def text_pushed "gtkMiscProps.ml" 323 12984 13042 "gtkMiscProps.ml" 324 13043 13048
+)
+"gtkMiscProps.ml" 322 12918 12930 "gtkMiscProps.ml" 322 12918 12943
+type(
+  string
+)
+"gtkMiscProps.ml" 322 12918 12952 "gtkMiscProps.ml" 322 12918 12962
+type(
+  [> `statusbar ] as 'd
+)
+"gtkMiscProps.ml" 322 12918 12979 "gtkMiscProps.ml" 322 12918 12980
+type(
+  int -> string -> unit
+)
+ident(
+  def f "gtkMiscProps.ml" 323 12984 12991 "gtkMiscProps.ml" 323 12984 13041
+)
+"gtkMiscProps.ml" 323 12984 12991 "gtkMiscProps.ml" 323 12984 12999
+type(
+  int Gobject.data_conv ->
+  string Gobject.data_conv ->
+  string -> (int -> string -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkMiscProps.ml" 323 12984 13000 "gtkMiscProps.ml" 323 12984 13004
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkMiscProps.ml" 323 12984 13005 "gtkMiscProps.ml" 323 12984 13011
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkMiscProps.ml" 323 12984 13012 "gtkMiscProps.ml" 323 12984 13039
+type(
+  string
+)
+"gtkMiscProps.ml" 323 12984 13040 "gtkMiscProps.ml" 323 12984 13041
+type(
+  int -> string -> unit
+)
+ident(
+  int_ref f "gtkMiscProps.ml" 322 12918 12979 "gtkMiscProps.ml" 322 12918 12980
+)
+"gtkMiscProps.ml" 323 12984 12991 "gtkMiscProps.ml" 323 12984 13041
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkMiscProps.ml" 322 12918 12975 "gtkMiscProps.ml" 323 12984 13041
+type(
+  (int -> string -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkMiscProps.ml" 322 12918 12924 "gtkMiscProps.ml" 323 12984 13042
+type(
+  ('d, int -> string -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 325 13049 13055 "gtkMiscProps.ml" 325 13049 13061
+type(
+  Gtk.statusbar Gobject.param list -> Gtk.statusbar Gtk.obj
+)
+ident(
+  def create "gtkMiscProps.ml" 326 13117 13119 "gtkMiscProps.ml" 344 13921 13924
+)
+"gtkMiscProps.ml" 325 13049 13062 "gtkMiscProps.ml" 325 13049 13064
+type(
+  Gtk.statusbar Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 325 13049 13065 "gtkMiscProps.ml" 325 13049 13116
+)
+"gtkMiscProps.ml" 325 13049 13087 "gtkMiscProps.ml" 325 13049 13098
+type(
+  classe:string -> Gtk.statusbar Gobject.param list -> Gtk.statusbar Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMiscProps.ml" 325 13049 13099 "gtkMiscProps.ml" 325 13049 13113
+type(
+  string
+)
+"gtkMiscProps.ml" 325 13049 13114 "gtkMiscProps.ml" 325 13049 13116
+type(
+  Gtk.statusbar Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 325 13049 13062 "gtkMiscProps.ml" 325 13049 13064
+)
+"gtkMiscProps.ml" 325 13049 13087 "gtkMiscProps.ml" 325 13049 13116
+call(
+  tail
+)
+type(
+  Gtk.statusbar Gtk.obj
+)
+type(
+  Gtk.statusbar Gtk.obj
+)
+"gtkMiscProps.ml" 341 13799 13805 "gtkMiscProps.ml" 341 13799 13816
+type(
+  cont:(([> `statusbar ] as 'e) Gobject.param list -> 'f) ->
+  'e Gobject.param list -> ?has_resize_grip:bool -> 'f
+)
+ident(
+  def make_params "gtkMiscProps.ml" 343 13909 13920 "gtkMiscProps.ml" 344 13921 13924
+)
+"gtkMiscProps.ml" 341 13799 13818 "gtkMiscProps.ml" 341 13799 13822
+type(
+  'e Gobject.param list -> 'f
+)
+ident(
+  def cont "gtkMiscProps.ml" 341 13799 13823 "gtkMiscProps.ml" 343 13909 13920
+)
+"gtkMiscProps.ml" 341 13799 13823 "gtkMiscProps.ml" 341 13799 13825
+type(
+  'e Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 341 13799 13826 "gtkMiscProps.ml" 343 13909 13920
+)
+"gtkMiscProps.ml" 341 13799 13827 "gtkMiscProps.ml" 341 13799 13842
+type(
+  bool option
+)
+ident(
+  def has_resize_grip "gtkMiscProps.ml" 342 13845 13849 "gtkMiscProps.ml" 343 13909 13920
+)
+"gtkMiscProps.ml" 342 13845 13853 "gtkMiscProps.ml" 342 13845 13855
+type(
+  'e Gobject.param list
+)
+"gtkMiscProps.ml" 342 13845 13859 "gtkMiscProps.ml" 342 13845 13867
+type(
+  ('e, bool) Gobject.property ->
+  bool option -> 'e Gobject.param list -> 'e Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 342 13845 13868 "gtkMiscProps.ml" 342 13845 13885
+type(
+  ('e, bool) Gobject.property
+)
+ident(
+  ext_ref P.has_resize_grip
+)
+"gtkMiscProps.ml" 342 13845 13886 "gtkMiscProps.ml" 342 13845 13901
+type(
+  bool option
+)
+ident(
+  int_ref has_resize_grip "gtkMiscProps.ml" 341 13799 13827 "gtkMiscProps.ml" 341 13799 13842
+)
+"gtkMiscProps.ml" 342 13845 13902 "gtkMiscProps.ml" 342 13845 13904
+type(
+  'e Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 341 13799 13823 "gtkMiscProps.ml" 341 13799 13825
+)
+"gtkMiscProps.ml" 342 13845 13858 "gtkMiscProps.ml" 342 13845 13905
+call(
+  stack
+)
+type(
+  'e Gobject.param list
+)
+"gtkMiscProps.ml" 343 13909 13913 "gtkMiscProps.ml" 343 13909 13917
+type(
+  'e Gobject.param list -> 'f
+)
+ident(
+  int_ref cont "gtkMiscProps.ml" 341 13799 13818 "gtkMiscProps.ml" 341 13799 13822
+)
+"gtkMiscProps.ml" 343 13909 13918 "gtkMiscProps.ml" 343 13909 13920
+type(
+  'e Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 342 13845 13853 "gtkMiscProps.ml" 342 13845 13855
+)
+"gtkMiscProps.ml" 343 13909 13913 "gtkMiscProps.ml" 343 13909 13920
+call(
+  tail
+)
+type(
+  'f
+)
+"gtkMiscProps.ml" 342 13845 13849 "gtkMiscProps.ml" 343 13909 13920
+type(
+  'f
+)
+"gtkMiscProps.ml" 347 13951 13957 "gtkMiscProps.ml" 347 13951 13961
+type(
+  'a Gobject.obj -> Gtk.calendar Gtk.obj
+)
+ident(
+  def cast "gtkMiscProps.ml" 348 14010 14012 "gtkMiscProps.ml" 393 16060 16063
+)
+"gtkMiscProps.ml" 347 13951 13962 "gtkMiscProps.ml" 347 13951 13963
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMiscProps.ml" 347 13951 13964 "gtkMiscProps.ml" 347 13951 14009
+)
+"gtkMiscProps.ml" 347 13951 13985 "gtkMiscProps.ml" 347 13951 13993
+type(
+  'a Gobject.obj -> string -> Gtk.calendar Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMiscProps.ml" 347 13951 13994 "gtkMiscProps.ml" 347 13951 13995
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMiscProps.ml" 347 13951 13962 "gtkMiscProps.ml" 347 13951 13963
+)
+"gtkMiscProps.ml" 347 13951 13996 "gtkMiscProps.ml" 347 13951 14009
+type(
+  string
+)
+"gtkMiscProps.ml" 347 13951 13985 "gtkMiscProps.ml" 347 13951 14009
+call(
+  tail
+)
+type(
+  Gtk.calendar Gtk.obj
+)
+type(
+  Gtk.calendar Gtk.obj
+)
+"gtkMiscProps.ml" 349 14030 14038 "gtkMiscProps.ml" 349 14030 14041
+type(
+  ([> `calendar ], int) Gobject.property
+)
+ident(
+  def day "gtkMiscProps.ml" 350 14095 14099 "gtkMiscProps.ml" 352 14231 14236
+)
+"gtkMiscProps.ml" 349 14030 14078 "gtkMiscProps.ml" 349 14030 14083
+type(
+  string
+)
+"gtkMiscProps.ml" 349 14030 14090 "gtkMiscProps.ml" 349 14030 14093
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkMiscProps.ml" 349 14030 14072 "gtkMiscProps.ml" 349 14030 14094
+type(
+  ([> `calendar ] as 'b, int) Gobject.property
+)
+type(
+  ('b, int) Gobject.property
+)
+"gtkMiscProps.ml" 350 14095 14103 "gtkMiscProps.ml" 350 14095 14108
+type(
+  ([> `calendar ], int) Gobject.property
+)
+ident(
+  def month "gtkMiscProps.ml" 351 14164 14168 "gtkMiscProps.ml" 352 14231 14236
+)
+"gtkMiscProps.ml" 350 14095 14145 "gtkMiscProps.ml" 350 14095 14152
+type(
+  string
+)
+"gtkMiscProps.ml" 350 14095 14159 "gtkMiscProps.ml" 350 14095 14162
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkMiscProps.ml" 350 14095 14139 "gtkMiscProps.ml" 350 14095 14163
+type(
+  ([> `calendar ] as 'c, int) Gobject.property
+)
+type(
+  ('c, int) Gobject.property
+)
+"gtkMiscProps.ml" 351 14164 14172 "gtkMiscProps.ml" 351 14164 14176
+type(
+  ([> `calendar ], int) Gobject.property
+)
+ident(
+  def year "gtkMiscProps.ml" 351 14164 14230 "gtkMiscProps.ml" 352 14231 14236
+)
+"gtkMiscProps.ml" 351 14164 14213 "gtkMiscProps.ml" 351 14164 14219
+type(
+  string
+)
+"gtkMiscProps.ml" 351 14164 14226 "gtkMiscProps.ml" 351 14164 14229
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkMiscProps.ml" 351 14164 14207 "gtkMiscProps.ml" 351 14164 14230
+type(
+  ([> `calendar ] as 'd, int) Gobject.property
+)
+type(
+  ('d, int) Gobject.property
+)
+"gtkMiscProps.ml" 355 14276 14284 "gtkMiscProps.ml" 355 14276 14296
+type(
+  ([> `calendar ], unit -> unit) GtkSignal.t
+)
+ident(
+  def day_selected "gtkMiscProps.ml" 357 14370 14374 "gtkMiscProps.ml" 370 14949 14954
+)
+"gtkMiscProps.ml" 356 14299 14311 "gtkMiscProps.ml" 356 14299 14325
+type(
+  string
+)
+"gtkMiscProps.ml" 356 14299 14334 "gtkMiscProps.ml" 356 14299 14343
+type(
+  [> `calendar ] as 'e
+)
+"gtkMiscProps.ml" 356 14299 14356 "gtkMiscProps.ml" 356 14299 14368
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMiscProps.ml" 356 14299 14305 "gtkMiscProps.ml" 356 14299 14369
+type(
+  ('e, unit -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 357 14370 14378 "gtkMiscProps.ml" 357 14370 14403
+type(
+  ([> `calendar ], unit -> unit) GtkSignal.t
+)
+ident(
+  def day_selected_double_click "gtkMiscProps.ml" 360 14497 14501 "gtkMiscProps.ml" 370 14949 14954
+)
+"gtkMiscProps.ml" 358 14406 14418 "gtkMiscProps.ml" 358 14406 14445
+type(
+  string
+)
+"gtkMiscProps.ml" 358 14406 14454 "gtkMiscProps.ml" 358 14406 14463
+type(
+  [> `calendar ] as 'f
+)
+"gtkMiscProps.ml" 359 14465 14483 "gtkMiscProps.ml" 359 14465 14495
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMiscProps.ml" 358 14406 14412 "gtkMiscProps.ml" 359 14465 14496
+type(
+  ('f, unit -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 360 14497 14505 "gtkMiscProps.ml" 360 14497 14518
+type(
+  ([> `calendar ], unit -> unit) GtkSignal.t
+)
+ident(
+  def month_changed "gtkMiscProps.ml" 362 14593 14597 "gtkMiscProps.ml" 370 14949 14954
+)
+"gtkMiscProps.ml" 361 14521 14533 "gtkMiscProps.ml" 361 14521 14548
+type(
+  string
+)
+"gtkMiscProps.ml" 361 14521 14557 "gtkMiscProps.ml" 361 14521 14566
+type(
+  [> `calendar ] as 'g
+)
+"gtkMiscProps.ml" 361 14521 14579 "gtkMiscProps.ml" 361 14521 14591
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMiscProps.ml" 361 14521 14527 "gtkMiscProps.ml" 361 14521 14592
+type(
+  ('g, unit -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 362 14593 14601 "gtkMiscProps.ml" 362 14593 14611
+type(
+  ([> `calendar ], unit -> unit) GtkSignal.t
+)
+ident(
+  def next_month "gtkMiscProps.ml" 364 14683 14687 "gtkMiscProps.ml" 370 14949 14954
+)
+"gtkMiscProps.ml" 363 14614 14626 "gtkMiscProps.ml" 363 14614 14638
+type(
+  string
+)
+"gtkMiscProps.ml" 363 14614 14647 "gtkMiscProps.ml" 363 14614 14656
+type(
+  [> `calendar ] as 'h
+)
+"gtkMiscProps.ml" 363 14614 14669 "gtkMiscProps.ml" 363 14614 14681
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMiscProps.ml" 363 14614 14620 "gtkMiscProps.ml" 363 14614 14682
+type(
+  ('h, unit -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 364 14683 14691 "gtkMiscProps.ml" 364 14683 14700
+type(
+  ([> `calendar ], unit -> unit) GtkSignal.t
+)
+ident(
+  def next_year "gtkMiscProps.ml" 366 14771 14775 "gtkMiscProps.ml" 370 14949 14954
+)
+"gtkMiscProps.ml" 365 14703 14715 "gtkMiscProps.ml" 365 14703 14726
+type(
+  string
+)
+"gtkMiscProps.ml" 365 14703 14735 "gtkMiscProps.ml" 365 14703 14744
+type(
+  [> `calendar ] as 'i
+)
+"gtkMiscProps.ml" 365 14703 14757 "gtkMiscProps.ml" 365 14703 14769
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMiscProps.ml" 365 14703 14709 "gtkMiscProps.ml" 365 14703 14770
+type(
+  ('i, unit -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 366 14771 14779 "gtkMiscProps.ml" 366 14771 14789
+type(
+  ([> `calendar ], unit -> unit) GtkSignal.t
+)
+ident(
+  def prev_month "gtkMiscProps.ml" 368 14861 14865 "gtkMiscProps.ml" 370 14949 14954
+)
+"gtkMiscProps.ml" 367 14792 14804 "gtkMiscProps.ml" 367 14792 14816
+type(
+  string
+)
+"gtkMiscProps.ml" 367 14792 14825 "gtkMiscProps.ml" 367 14792 14834
+type(
+  [> `calendar ] as 'j
+)
+"gtkMiscProps.ml" 367 14792 14847 "gtkMiscProps.ml" 367 14792 14859
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMiscProps.ml" 367 14792 14798 "gtkMiscProps.ml" 367 14792 14860
+type(
+  ('j, unit -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 368 14861 14869 "gtkMiscProps.ml" 368 14861 14878
+type(
+  ([> `calendar ], unit -> unit) GtkSignal.t
+)
+ident(
+  def prev_year "gtkMiscProps.ml" 369 14881 14948 "gtkMiscProps.ml" 370 14949 14954
+)
+"gtkMiscProps.ml" 369 14881 14893 "gtkMiscProps.ml" 369 14881 14904
+type(
+  string
+)
+"gtkMiscProps.ml" 369 14881 14913 "gtkMiscProps.ml" 369 14881 14922
+type(
+  [> `calendar ] as 'k
+)
+"gtkMiscProps.ml" 369 14881 14935 "gtkMiscProps.ml" 369 14881 14947
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMiscProps.ml" 369 14881 14887 "gtkMiscProps.ml" 369 14881 14948
+type(
+  ('k, unit -> unit) GtkSignal.t
+)
+"gtkMiscProps.ml" 371 14955 14961 "gtkMiscProps.ml" 371 14955 14967
+type(
+  Gtk.calendar Gobject.param list -> Gtk.calendar Gtk.obj
+)
+ident(
+  def create "gtkMiscProps.ml" 372 15021 15023 "gtkMiscProps.ml" 393 16060 16063
+)
+"gtkMiscProps.ml" 371 14955 14968 "gtkMiscProps.ml" 371 14955 14970
+type(
+  Gtk.calendar Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 371 14955 14971 "gtkMiscProps.ml" 371 14955 15020
+)
+"gtkMiscProps.ml" 371 14955 14992 "gtkMiscProps.ml" 371 14955 15003
+type(
+  classe:string -> Gtk.calendar Gobject.param list -> Gtk.calendar Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMiscProps.ml" 371 14955 15004 "gtkMiscProps.ml" 371 14955 15017
+type(
+  string
+)
+"gtkMiscProps.ml" 371 14955 15018 "gtkMiscProps.ml" 371 14955 15020
+type(
+  Gtk.calendar Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 371 14955 14968 "gtkMiscProps.ml" 371 14955 14970
+)
+"gtkMiscProps.ml" 371 14955 14992 "gtkMiscProps.ml" 371 14955 15020
+call(
+  tail
+)
+type(
+  Gtk.calendar Gtk.obj
+)
+type(
+  Gtk.calendar Gtk.obj
+)
+"gtkMiscProps.ml" 396 16093 16099 "gtkMiscProps.ml" 396 16093 16103
+type(
+  'a Gobject.obj -> Gtk.drawing_area Gtk.obj
+)
+ident(
+  def cast "gtkMiscProps.ml" 397 16159 16161 "gtkMiscProps.ml" 400 16338 16341
+)
+"gtkMiscProps.ml" 396 16093 16104 "gtkMiscProps.ml" 396 16093 16105
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMiscProps.ml" 396 16093 16106 "gtkMiscProps.ml" 396 16093 16158
+)
+"gtkMiscProps.ml" 396 16093 16131 "gtkMiscProps.ml" 396 16093 16139
+type(
+  'a Gobject.obj -> string -> Gtk.drawing_area Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMiscProps.ml" 396 16093 16140 "gtkMiscProps.ml" 396 16093 16141
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMiscProps.ml" 396 16093 16104 "gtkMiscProps.ml" 396 16093 16105
+)
+"gtkMiscProps.ml" 396 16093 16142 "gtkMiscProps.ml" 396 16093 16158
+type(
+  string
+)
+"gtkMiscProps.ml" 396 16093 16131 "gtkMiscProps.ml" 396 16093 16158
+call(
+  tail
+)
+type(
+  Gtk.drawing_area Gtk.obj
+)
+type(
+  Gtk.drawing_area Gtk.obj
+)
+"gtkMiscProps.ml" 397 16159 16165 "gtkMiscProps.ml" 397 16159 16171
+type(
+  Gtk.drawing_area Gobject.param list -> Gtk.drawing_area Gtk.obj
+)
+ident(
+  def create "gtkMiscProps.ml" 398 16232 16234 "gtkMiscProps.ml" 400 16338 16341
+)
+"gtkMiscProps.ml" 397 16159 16172 "gtkMiscProps.ml" 397 16159 16174
+type(
+  Gtk.drawing_area Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 397 16159 16175 "gtkMiscProps.ml" 397 16159 16231
+)
+"gtkMiscProps.ml" 397 16159 16200 "gtkMiscProps.ml" 397 16159 16211
+type(
+  classe:string ->
+  Gtk.drawing_area Gobject.param list -> Gtk.drawing_area Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMiscProps.ml" 397 16159 16212 "gtkMiscProps.ml" 397 16159 16228
+type(
+  string
+)
+"gtkMiscProps.ml" 397 16159 16229 "gtkMiscProps.ml" 397 16159 16231
+type(
+  Gtk.drawing_area Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 397 16159 16172 "gtkMiscProps.ml" 397 16159 16174
+)
+"gtkMiscProps.ml" 397 16159 16200 "gtkMiscProps.ml" 397 16159 16231
+call(
+  tail
+)
+type(
+  Gtk.drawing_area Gtk.obj
+)
+type(
+  Gtk.drawing_area Gtk.obj
+)
+"gtkMiscProps.ml" 403 16365 16371 "gtkMiscProps.ml" 403 16365 16375
+type(
+  'a Gobject.obj -> Gtk.curve Gtk.obj
+)
+ident(
+  def cast "gtkMiscProps.ml" 404 16418 16420 "gtkMiscProps.ml" 428 17481 17484
+)
+"gtkMiscProps.ml" 403 16365 16376 "gtkMiscProps.ml" 403 16365 16377
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMiscProps.ml" 403 16365 16378 "gtkMiscProps.ml" 403 16365 16417
+)
+"gtkMiscProps.ml" 403 16365 16396 "gtkMiscProps.ml" 403 16365 16404
+type(
+  'a Gobject.obj -> string -> Gtk.curve Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMiscProps.ml" 403 16365 16405 "gtkMiscProps.ml" 403 16365 16406
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMiscProps.ml" 403 16365 16376 "gtkMiscProps.ml" 403 16365 16377
+)
+"gtkMiscProps.ml" 403 16365 16407 "gtkMiscProps.ml" 403 16365 16417
+type(
+  string
+)
+"gtkMiscProps.ml" 403 16365 16396 "gtkMiscProps.ml" 403 16365 16417
+call(
+  tail
+)
+type(
+  Gtk.curve Gtk.obj
+)
+type(
+  Gtk.curve Gtk.obj
+)
+"gtkMiscProps.ml" 405 16438 16446 "gtkMiscProps.ml" 405 16438 16456
+type(
+  ([> `curve ], GtkEnums.curve_type) Gobject.property
+)
+ident(
+  def curve_type "gtkMiscProps.ml" 407 16541 16545 "gtkMiscProps.ml" 411 16813 16818
+)
+"gtkMiscProps.ml" 406 16484 16496 "gtkMiscProps.ml" 406 16484 16508
+type(
+  string
+)
+"gtkMiscProps.ml" 406 16484 16515 "gtkMiscProps.ml" 406 16484 16539
+type(
+  GtkEnums.curve_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.curve_type_conv
+)
+"gtkMiscProps.ml" 406 16484 16490 "gtkMiscProps.ml" 406 16484 16540
+type(
+  ([> `curve ] as 'b, GtkEnums.curve_type) Gobject.property
+)
+type(
+  ('b, GtkEnums.curve_type) Gobject.property
+)
+"gtkMiscProps.ml" 407 16541 16549 "gtkMiscProps.ml" 407 16541 16554
+type(
+  ([> `curve ], float) Gobject.property
+)
+ident(
+  def max_x "gtkMiscProps.ml" 408 16609 16613 "gtkMiscProps.ml" 411 16813 16818
+)
+"gtkMiscProps.ml" 407 16541 16588 "gtkMiscProps.ml" 407 16541 16595
+type(
+  string
+)
+"gtkMiscProps.ml" 407 16541 16602 "gtkMiscProps.ml" 407 16541 16607
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkMiscProps.ml" 407 16541 16582 "gtkMiscProps.ml" 407 16541 16608
+type(
+  ([> `curve ] as 'c, float) Gobject.property
+)
+type(
+  ('c, float) Gobject.property
+)
+"gtkMiscProps.ml" 408 16609 16617 "gtkMiscProps.ml" 408 16609 16622
+type(
+  ([> `curve ], float) Gobject.property
+)
+ident(
+  def max_y "gtkMiscProps.ml" 409 16677 16681 "gtkMiscProps.ml" 411 16813 16818
+)
+"gtkMiscProps.ml" 408 16609 16656 "gtkMiscProps.ml" 408 16609 16663
+type(
+  string
+)
+"gtkMiscProps.ml" 408 16609 16670 "gtkMiscProps.ml" 408 16609 16675
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkMiscProps.ml" 408 16609 16650 "gtkMiscProps.ml" 408 16609 16676
+type(
+  ([> `curve ] as 'd, float) Gobject.property
+)
+type(
+  ('d, float) Gobject.property
+)
+"gtkMiscProps.ml" 409 16677 16685 "gtkMiscProps.ml" 409 16677 16690
+type(
+  ([> `curve ], float) Gobject.property
+)
+ident(
+  def min_x "gtkMiscProps.ml" 410 16745 16749 "gtkMiscProps.ml" 411 16813 16818
+)
+"gtkMiscProps.ml" 409 16677 16724 "gtkMiscProps.ml" 409 16677 16731
+type(
+  string
+)
+"gtkMiscProps.ml" 409 16677 16738 "gtkMiscProps.ml" 409 16677 16743
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkMiscProps.ml" 409 16677 16718 "gtkMiscProps.ml" 409 16677 16744
+type(
+  ([> `curve ] as 'e, float) Gobject.property
+)
+type(
+  ('e, float) Gobject.property
+)
+"gtkMiscProps.ml" 410 16745 16753 "gtkMiscProps.ml" 410 16745 16758
+type(
+  ([> `curve ], float) Gobject.property
+)
+ident(
+  def min_y "gtkMiscProps.ml" 410 16745 16812 "gtkMiscProps.ml" 411 16813 16818
+)
+"gtkMiscProps.ml" 410 16745 16792 "gtkMiscProps.ml" 410 16745 16799
+type(
+  string
+)
+"gtkMiscProps.ml" 410 16745 16806 "gtkMiscProps.ml" 410 16745 16811
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkMiscProps.ml" 410 16745 16786 "gtkMiscProps.ml" 410 16745 16812
+type(
+  ([> `curve ] as 'f, float) Gobject.property
+)
+type(
+  ('f, float) Gobject.property
+)
+"gtkMiscProps.ml" 412 16819 16825 "gtkMiscProps.ml" 412 16819 16831
+type(
+  Gtk.curve Gobject.param list -> Gtk.curve Gtk.obj
+)
+ident(
+  def create "gtkMiscProps.ml" 413 16879 16881 "gtkMiscProps.ml" 428 17481 17484
+)
+"gtkMiscProps.ml" 412 16819 16832 "gtkMiscProps.ml" 412 16819 16834
+type(
+  Gtk.curve Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 412 16819 16835 "gtkMiscProps.ml" 412 16819 16878
+)
+"gtkMiscProps.ml" 412 16819 16853 "gtkMiscProps.ml" 412 16819 16864
+type(
+  classe:string -> Gtk.curve Gobject.param list -> Gtk.curve Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMiscProps.ml" 412 16819 16865 "gtkMiscProps.ml" 412 16819 16875
+type(
+  string
+)
+"gtkMiscProps.ml" 412 16819 16876 "gtkMiscProps.ml" 412 16819 16878
+type(
+  Gtk.curve Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 412 16819 16832 "gtkMiscProps.ml" 412 16819 16834
+)
+"gtkMiscProps.ml" 412 16819 16853 "gtkMiscProps.ml" 412 16819 16878
+call(
+  tail
+)
+type(
+  Gtk.curve Gtk.obj
+)
+type(
+  Gtk.curve Gtk.obj
+)
+"gtkMiscProps.ml" 420 17211 17217 "gtkMiscProps.ml" 420 17211 17228
+type(
+  cont:(([> `curve ] as 'g) Gobject.param list -> 'h) ->
+  'g Gobject.param list ->
+  ?curve_type:GtkEnums.curve_type ->
+  ?max_x:float -> ?max_y:float -> ?min_x:float -> ?min_y:float -> 'h
+)
+ident(
+  def make_params "gtkMiscProps.ml" 427 17469 17480 "gtkMiscProps.ml" 428 17481 17484
+)
+"gtkMiscProps.ml" 420 17211 17230 "gtkMiscProps.ml" 420 17211 17234
+type(
+  'g Gobject.param list -> 'h
+)
+ident(
+  def cont "gtkMiscProps.ml" 420 17211 17235 "gtkMiscProps.ml" 427 17469 17480
+)
+"gtkMiscProps.ml" 420 17211 17235 "gtkMiscProps.ml" 420 17211 17237
+type(
+  'g Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 420 17211 17238 "gtkMiscProps.ml" 427 17469 17480
+)
+"gtkMiscProps.ml" 420 17211 17239 "gtkMiscProps.ml" 420 17211 17249
+type(
+  GtkEnums.curve_type option
+)
+ident(
+  def curve_type "gtkMiscProps.ml" 420 17211 17250 "gtkMiscProps.ml" 427 17469 17480
+)
+"gtkMiscProps.ml" 420 17211 17251 "gtkMiscProps.ml" 420 17211 17256
+type(
+  float option
+)
+ident(
+  def max_x "gtkMiscProps.ml" 420 17211 17257 "gtkMiscProps.ml" 427 17469 17480
+)
+"gtkMiscProps.ml" 420 17211 17258 "gtkMiscProps.ml" 420 17211 17263
+type(
+  float option
+)
+ident(
+  def max_y "gtkMiscProps.ml" 420 17211 17264 "gtkMiscProps.ml" 427 17469 17480
+)
+"gtkMiscProps.ml" 420 17211 17265 "gtkMiscProps.ml" 420 17211 17270
+type(
+  float option
+)
+ident(
+  def min_x "gtkMiscProps.ml" 420 17211 17271 "gtkMiscProps.ml" 427 17469 17480
+)
+"gtkMiscProps.ml" 420 17211 17272 "gtkMiscProps.ml" 420 17211 17277
+type(
+  float option
+)
+ident(
+  def min_y "gtkMiscProps.ml" 421 17280 17284 "gtkMiscProps.ml" 427 17469 17480
+)
+"gtkMiscProps.ml" 421 17280 17288 "gtkMiscProps.ml" 421 17280 17290
+type(
+  'g Gobject.param list
+)
+"gtkMiscProps.ml" 422 17295 17301 "gtkMiscProps.ml" 422 17295 17309
+type(
+  ('g, GtkEnums.curve_type) Gobject.property ->
+  GtkEnums.curve_type option ->
+  'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 422 17295 17310 "gtkMiscProps.ml" 422 17295 17322
+type(
+  ('g, GtkEnums.curve_type) Gobject.property
+)
+ident(
+  ext_ref P.curve_type
+)
+"gtkMiscProps.ml" 422 17295 17323 "gtkMiscProps.ml" 422 17295 17333
+type(
+  GtkEnums.curve_type option
+)
+ident(
+  int_ref curve_type "gtkMiscProps.ml" 420 17211 17239 "gtkMiscProps.ml" 420 17211 17249
+)
+"gtkMiscProps.ml" 423 17336 17342 "gtkMiscProps.ml" 423 17336 17350
+type(
+  ('g, float) Gobject.property ->
+  float option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 423 17336 17351 "gtkMiscProps.ml" 423 17336 17358
+type(
+  ('g, float) Gobject.property
+)
+ident(
+  ext_ref P.max_x
+)
+"gtkMiscProps.ml" 423 17336 17359 "gtkMiscProps.ml" 423 17336 17364
+type(
+  float option
+)
+ident(
+  int_ref max_x "gtkMiscProps.ml" 420 17211 17251 "gtkMiscProps.ml" 420 17211 17256
+)
+"gtkMiscProps.ml" 424 17367 17373 "gtkMiscProps.ml" 424 17367 17381
+type(
+  ('g, float) Gobject.property ->
+  float option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 424 17367 17382 "gtkMiscProps.ml" 424 17367 17389
+type(
+  ('g, float) Gobject.property
+)
+ident(
+  ext_ref P.max_y
+)
+"gtkMiscProps.ml" 424 17367 17390 "gtkMiscProps.ml" 424 17367 17395
+type(
+  float option
+)
+ident(
+  int_ref max_y "gtkMiscProps.ml" 420 17211 17258 "gtkMiscProps.ml" 420 17211 17263
+)
+"gtkMiscProps.ml" 425 17398 17404 "gtkMiscProps.ml" 425 17398 17412
+type(
+  ('g, float) Gobject.property ->
+  float option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 425 17398 17413 "gtkMiscProps.ml" 425 17398 17420
+type(
+  ('g, float) Gobject.property
+)
+ident(
+  ext_ref P.min_x
+)
+"gtkMiscProps.ml" 425 17398 17421 "gtkMiscProps.ml" 425 17398 17426
+type(
+  float option
+)
+ident(
+  int_ref min_x "gtkMiscProps.ml" 420 17211 17265 "gtkMiscProps.ml" 420 17211 17270
+)
+"gtkMiscProps.ml" 426 17429 17435 "gtkMiscProps.ml" 426 17429 17443
+type(
+  ('g, float) Gobject.property ->
+  float option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkMiscProps.ml" 7 60 64 "gtkMiscProps.ml" 7 60 72
+)
+"gtkMiscProps.ml" 426 17429 17444 "gtkMiscProps.ml" 426 17429 17451
+type(
+  ('g, float) Gobject.property
+)
+ident(
+  ext_ref P.min_y
+)
+"gtkMiscProps.ml" 426 17429 17452 "gtkMiscProps.ml" 426 17429 17457
+type(
+  float option
+)
+ident(
+  int_ref min_y "gtkMiscProps.ml" 420 17211 17272 "gtkMiscProps.ml" 420 17211 17277
+)
+"gtkMiscProps.ml" 426 17429 17458 "gtkMiscProps.ml" 426 17429 17460
+type(
+  'g Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 420 17211 17235 "gtkMiscProps.ml" 420 17211 17237
+)
+"gtkMiscProps.ml" 425 17398 17427 "gtkMiscProps.ml" 426 17429 17461
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkMiscProps.ml" 424 17367 17396 "gtkMiscProps.ml" 426 17429 17462
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkMiscProps.ml" 423 17336 17365 "gtkMiscProps.ml" 426 17429 17463
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkMiscProps.ml" 422 17295 17334 "gtkMiscProps.ml" 426 17429 17464
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkMiscProps.ml" 421 17280 17293 "gtkMiscProps.ml" 426 17429 17465
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkMiscProps.ml" 427 17469 17473 "gtkMiscProps.ml" 427 17469 17477
+type(
+  'g Gobject.param list -> 'h
+)
+ident(
+  int_ref cont "gtkMiscProps.ml" 420 17211 17230 "gtkMiscProps.ml" 420 17211 17234
+)
+"gtkMiscProps.ml" 427 17469 17478 "gtkMiscProps.ml" 427 17469 17480
+type(
+  'g Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 421 17280 17288 "gtkMiscProps.ml" 421 17280 17290
+)
+"gtkMiscProps.ml" 427 17469 17473 "gtkMiscProps.ml" 427 17469 17480
+call(
+  tail
+)
+type(
+  'h
+)
+"gtkMiscProps.ml" 421 17280 17284 "gtkMiscProps.ml" 427 17469 17480
+type(
+  'h
+)
+"gtkMiscProps.ml" 431 17512 17518 "gtkMiscProps.ml" 431 17512 17522
+type(
+  'a Gobject.obj -> Gtk.separator Gtk.obj
+)
+ident(
+  def cast "gtkMiscProps.ml" 432 17573 17575 "gtkMiscProps.ml" 435 17731 17734
+)
+"gtkMiscProps.ml" 431 17512 17523 "gtkMiscProps.ml" 431 17512 17524
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMiscProps.ml" 431 17512 17525 "gtkMiscProps.ml" 431 17512 17572
+)
+"gtkMiscProps.ml" 431 17512 17547 "gtkMiscProps.ml" 431 17512 17555
+type(
+  'a Gobject.obj -> string -> Gtk.separator Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMiscProps.ml" 431 17512 17556 "gtkMiscProps.ml" 431 17512 17557
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMiscProps.ml" 431 17512 17523 "gtkMiscProps.ml" 431 17512 17524
+)
+"gtkMiscProps.ml" 431 17512 17558 "gtkMiscProps.ml" 431 17512 17572
+type(
+  string
+)
+"gtkMiscProps.ml" 431 17512 17547 "gtkMiscProps.ml" 431 17512 17572
+call(
+  tail
+)
+type(
+  Gtk.separator Gtk.obj
+)
+type(
+  Gtk.separator Gtk.obj
+)
+"gtkMiscProps.ml" 432 17573 17579 "gtkMiscProps.ml" 432 17573 17585
+type(
+  Gtk.Tags.orientation ->
+  Gtk.separator Gobject.param list -> Gtk.separator Gtk.obj
+)
+ident(
+  def create "gtkMiscProps.ml" 434 17656 17730 "gtkMiscProps.ml" 435 17731 17734
+)
+"gtkMiscProps.ml" 432 17573 17587 "gtkMiscProps.ml" 432 17573 17590
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  def dir "gtkMiscProps.ml" 432 17573 17615 "gtkMiscProps.ml" 434 17656 17730
+)
+"gtkMiscProps.ml" 432 17573 17615 "gtkMiscProps.ml" 432 17573 17617
+type(
+  Gtk.separator Gobject.param list
+)
+ident(
+  def pl "gtkMiscProps.ml" 432 17573 17618 "gtkMiscProps.ml" 434 17656 17730
+)
+"gtkMiscProps.ml" 433 17640 17644 "gtkMiscProps.ml" 433 17640 17655
+type(
+  classe:string -> Gtk.separator Gobject.param list -> Gtk.separator Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMiscProps.ml" 434 17656 17666 "gtkMiscProps.ml" 434 17656 17669
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  int_ref dir "gtkMiscProps.ml" 432 17573 17587 "gtkMiscProps.ml" 432 17573 17590
+)
+"gtkMiscProps.ml" 434 17656 17670 "gtkMiscProps.ml" 434 17656 17671
+type(
+  Gtk.Tags.orientation -> Gtk.Tags.orientation -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gtkMiscProps.ml" 434 17656 17672 "gtkMiscProps.ml" 434 17656 17683
+type(
+  Gtk.Tags.orientation
+)
+"gtkMiscProps.ml" 434 17656 17666 "gtkMiscProps.ml" 434 17656 17683
+type(
+  bool
+)
+"gtkMiscProps.ml" 434 17656 17689 "gtkMiscProps.ml" 434 17656 17704
+type(
+  string
+)
+"gtkMiscProps.ml" 434 17656 17710 "gtkMiscProps.ml" 434 17656 17725
+type(
+  string
+)
+"gtkMiscProps.ml" 434 17656 17662 "gtkMiscProps.ml" 434 17656 17726
+type(
+  string
+)
+"gtkMiscProps.ml" 434 17656 17728 "gtkMiscProps.ml" 434 17656 17730
+type(
+  Gtk.separator Gobject.param list
+)
+ident(
+  int_ref pl "gtkMiscProps.ml" 432 17573 17615 "gtkMiscProps.ml" 432 17573 17617
+)
+"gtkMiscProps.ml" 433 17640 17644 "gtkMiscProps.ml" 434 17656 17730
+call(
+  tail
+)
+type(
+  Gtk.separator Gtk.obj
+)
+type(
+  Gtk.separator Gtk.obj
+)

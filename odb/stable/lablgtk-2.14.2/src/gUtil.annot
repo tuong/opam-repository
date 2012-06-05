@@ -1,0 +1,1313 @@
+"gUtil.ml" 28 1701 1705 "gUtil.ml" 28 1701 1717
+type(
+  Format.formatter -> #GObj.widget -> unit
+)
+ident(
+  def print_widget "gUtil.ml" 31 1802 1802 --
+)
+"gUtil.ml" 28 1701 1718 "gUtil.ml" 28 1701 1721
+type(
+  Format.formatter
+)
+ident(
+  def ppf "gUtil.ml" 28 1701 1722 "gUtil.ml" 29 1739 1800
+)
+"gUtil.ml" 28 1701 1723 "gUtil.ml" 28 1701 1724
+type(
+  #GObj.widget as 'a
+)
+ident(
+  def o "gUtil.ml" 29 1739 1743 "gUtil.ml" 29 1739 1800
+)
+"gUtil.ml" 29 1739 1743 "gUtil.ml" 29 1739 1757
+type(
+  Format.formatter ->
+  (string -> int -> unit, Format.formatter, unit) format ->
+  string -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"gUtil.ml" 29 1739 1758 "gUtil.ml" 29 1739 1761
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "gUtil.ml" 28 1701 1718 "gUtil.ml" 28 1701 1721
+)
+"gUtil.ml" 29 1739 1762 "gUtil.ml" 29 1739 1774
+type(
+  (string -> int -> unit, Format.formatter, unit) format
+)
+"gUtil.ml" 29 1739 1775 "gUtil.ml" 29 1739 1776
+type(
+  'a
+)
+ident(
+  int_ref o "gUtil.ml" 28 1701 1723 "gUtil.ml" 28 1701 1724
+)
+"gUtil.ml" 29 1739 1775 "gUtil.ml" 29 1739 1781
+call(
+  stack
+)
+type(
+  GObj.misc_ops
+)
+"gUtil.ml" 29 1739 1775 "gUtil.ml" 29 1739 1790
+call(
+  stack
+)
+type(
+  string
+)
+"gUtil.ml" 29 1739 1791 "gUtil.ml" 29 1739 1792
+type(
+  'a
+)
+ident(
+  int_ref o "gUtil.ml" 28 1701 1723 "gUtil.ml" 28 1701 1724
+)
+"gUtil.ml" 29 1739 1791 "gUtil.ml" 29 1739 1800
+call(
+  stack
+)
+type(
+  int
+)
+"gUtil.ml" 29 1739 1743 "gUtil.ml" 29 1739 1800
+call(
+  tail
+)
+type(
+  unit
+)
+"gUtil.ml" 31 1802 1818 "gUtil.ml" 31 1802 1820
+type(
+  unit
+)
+"gUtil.ml" 32 1830 1864 "gUtil.ml" 32 1830 1878
+type(
+  int -> (int, < get_oid : int; .. >) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"gUtil.ml" 32 1830 1879 "gUtil.ml" 32 1830 1880
+type(
+  int
+)
+"gUtil.ml" 32 1830 1864 "gUtil.ml" 32 1830 1880
+call(
+  stack
+)
+type(
+  (int, < get_oid : int; .. > as 'a) Hashtbl.t
+)
+type(
+  (int, 'a) Hashtbl.t
+)
+"gUtil.ml" 33 1881 1895 "gUtil.ml" 33 1881 1898
+type(
+  'a
+)
+ident(
+  def obj "gUtil.ml" 33 1881 1907 "gUtil.ml" 33 1881 1938
+)
+"gUtil.ml" 33 1881 1907 "gUtil.ml" 33 1881 1918
+type(
+  (int, 'a) Hashtbl.t -> int -> 'a -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"gUtil.ml" 33 1881 1919 "gUtil.ml" 33 1881 1922
+type(
+  (int, 'a) Hashtbl.t
+)
+"gUtil.ml" 33 1881 1923 "gUtil.ml" 33 1881 1926
+type(
+  'a
+)
+ident(
+  int_ref obj "gUtil.ml" 33 1881 1895 "gUtil.ml" 33 1881 1898
+)
+"gUtil.ml" 33 1881 1923 "gUtil.ml" 33 1881 1934
+call(
+  stack
+)
+type(
+  int
+)
+"gUtil.ml" 33 1881 1935 "gUtil.ml" 33 1881 1938
+type(
+  'a
+)
+ident(
+  int_ref obj "gUtil.ml" 33 1881 1895 "gUtil.ml" 33 1881 1898
+)
+"gUtil.ml" 33 1881 1907 "gUtil.ml" 33 1881 1938
+call(
+  tail
+)
+type(
+  unit
+)
+"gUtil.ml" 34 1939 1954 "gUtil.ml" 34 1939 1957
+type(
+  GObj.widget
+)
+ident(
+  def obj "gUtil.ml" 34 1939 1970 "gUtil.ml" 34 1939 1998
+)
+"gUtil.ml" 34 1939 1970 "gUtil.ml" 34 1939 1982
+type(
+  (int, 'a) Hashtbl.t -> int -> 'a
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"gUtil.ml" 34 1939 1983 "gUtil.ml" 34 1939 1986
+type(
+  (int, 'a) Hashtbl.t
+)
+"gUtil.ml" 34 1939 1987 "gUtil.ml" 34 1939 1990
+type(
+  GObj.widget
+)
+ident(
+  int_ref obj "gUtil.ml" 34 1939 1954 "gUtil.ml" 34 1939 1957
+)
+"gUtil.ml" 34 1939 1987 "gUtil.ml" 34 1939 1998
+call(
+  stack
+)
+type(
+  int
+)
+"gUtil.ml" 34 1939 1970 "gUtil.ml" 34 1939 1998
+call(
+  tail
+)
+type(
+  'a
+)
+"gUtil.ml" 35 1999 2016 "gUtil.ml" 35 1999 2019
+type(
+  GObj.widget
+)
+ident(
+  def obj "gUtil.ml" 35 1999 2032 "gUtil.ml" 35 1999 2062
+)
+"gUtil.ml" 35 1999 2032 "gUtil.ml" 35 1999 2046
+type(
+  (int, 'a) Hashtbl.t -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"gUtil.ml" 35 1999 2047 "gUtil.ml" 35 1999 2050
+type(
+  (int, 'a) Hashtbl.t
+)
+"gUtil.ml" 35 1999 2051 "gUtil.ml" 35 1999 2054
+type(
+  GObj.widget
+)
+ident(
+  int_ref obj "gUtil.ml" 35 1999 2016 "gUtil.ml" 35 1999 2019
+)
+"gUtil.ml" 35 1999 2051 "gUtil.ml" 35 1999 2062
+call(
+  stack
+)
+type(
+  int
+)
+"gUtil.ml" 35 1999 2032 "gUtil.ml" 35 1999 2062
+call(
+  tail
+)
+type(
+  unit
+)
+"gUtil.ml" 38 2068 2072 "gUtil.ml" 38 2068 2081
+type(
+  int ref
+)
+ident(
+  def signal_id "gUtil.ml" 40 2091 2091 --
+)
+"gUtil.ml" 38 2068 2084 "gUtil.ml" 38 2068 2087
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gUtil.ml" 38 2068 2088 "gUtil.ml" 38 2068 2089
+type(
+  int
+)
+"gUtil.ml" 38 2068 2084 "gUtil.ml" 38 2068 2089
+type(
+  int ref
+)
+"gUtil.ml" 40 2091 2095 "gUtil.ml" 40 2091 2111
+type(
+  unit -> GtkSignal.id
+)
+ident(
+  def next_callback_id "gUtil.ml" 43 2180 2180 --
+)
+"gUtil.ml" 40 2091 2112 "gUtil.ml" 40 2091 2114
+type(
+  unit
+)
+"gUtil.ml" 41 2132 2134 "gUtil.ml" 41 2132 2138
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.decr
+)
+"gUtil.ml" 41 2132 2139 "gUtil.ml" 41 2132 2148
+type(
+  int ref
+)
+ident(
+  int_ref signal_id "gUtil.ml" 38 2068 2072 "gUtil.ml" 38 2068 2081
+)
+"gUtil.ml" 41 2132 2134 "gUtil.ml" 41 2132 2148
+type(
+  unit
+)
+"gUtil.ml" 41 2132 2150 "gUtil.ml" 41 2132 2159
+type(
+  int -> GtkSignal.id
+)
+ident(
+  ext_ref Obj.magic
+)
+"gUtil.ml" 41 2132 2161 "gUtil.ml" 41 2132 2162
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gUtil.ml" 41 2132 2162 "gUtil.ml" 41 2132 2171
+type(
+  int ref
+)
+ident(
+  int_ref signal_id "gUtil.ml" 38 2068 2072 "gUtil.ml" 38 2068 2081
+)
+"gUtil.ml" 41 2132 2161 "gUtil.ml" 41 2132 2171
+type(
+  int
+)
+type(
+  int
+)
+"gUtil.ml" 41 2132 2150 "gUtil.ml" 41 2132 2178
+type(
+  GtkSignal.id
+)
+"gUtil.ml" 41 2132 2134 "gUtil.ml" 41 2132 2178
+type(
+  GtkSignal.id
+)
+type(
+  GtkSignal.id
+)
+"gUtil.ml" 43 2180 2198 "gUtil.ml" 43 2180 2200
+type(
+  unit
+)
+"gUtil.ml" 43 2180 2210 "gUtil.ml" 43 2180 2216
+type(
+  < call : 'a -> unit; callbacks : (GtkSignal.id * ('a -> unit)) list;
+    connect : after:bool -> callback:('a -> unit) -> GtkSignal.id;
+    disconnect : GtkSignal.id -> bool; .. >
+)
+"gUtil.ml" 44 2217 2280 "gUtil.ml" 44 2217 2282
+type(
+  (GtkSignal.id * ('a -> unit)) list
+)
+type(
+  (GtkSignal.id * ('a -> unit)) list
+)
+"gUtil.ml" 45 2283 2304 "gUtil.ml" 45 2283 2313
+type(
+  (GtkSignal.id * ('a -> unit)) list
+)
+type(
+  (GtkSignal.id * ('a -> unit)) list
+)
+"gUtil.ml" 46 2314 2332 "gUtil.ml" 46 2314 2337
+type(
+  bool
+)
+ident(
+  def after "gUtil.ml" 46 2314 2338 "gUtil.ml" 50 2480 2486
+)
+"gUtil.ml" 46 2314 2339 "gUtil.ml" 46 2314 2347
+type(
+  'a -> unit
+)
+ident(
+  def callback "gUtil.ml" 47 2350 2354 "gUtil.ml" 50 2480 2486
+)
+"gUtil.ml" 47 2350 2358 "gUtil.ml" 47 2350 2360
+type(
+  GtkSignal.id
+)
+"gUtil.ml" 47 2350 2363 "gUtil.ml" 47 2350 2379
+type(
+  unit -> GtkSignal.id
+)
+ident(
+  int_ref next_callback_id "gUtil.ml" 40 2091 2095 "gUtil.ml" 40 2091 2111
+)
+"gUtil.ml" 47 2350 2380 "gUtil.ml" 47 2350 2382
+type(
+  unit
+)
+"gUtil.ml" 47 2350 2363 "gUtil.ml" 47 2350 2382
+call(
+  stack
+)
+type(
+  GtkSignal.id
+)
+"gUtil.ml" 49 2403 2412 "gUtil.ml" 49 2403 2417
+type(
+  bool
+)
+ident(
+  int_ref after "gUtil.ml" 46 2314 2332 "gUtil.ml" 46 2314 2337
+)
+"gUtil.ml" 49 2403 2423 "gUtil.ml" 49 2403 2432
+type(
+  (GtkSignal.id * ('a -> unit)) list
+)
+"gUtil.ml" 49 2403 2433 "gUtil.ml" 49 2403 2434
+type(
+  (GtkSignal.id * ('a -> unit)) list ->
+  (GtkSignal.id * ('a -> unit)) list -> (GtkSignal.id * ('a -> unit)) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"gUtil.ml" 49 2403 2436 "gUtil.ml" 49 2403 2438
+type(
+  GtkSignal.id
+)
+ident(
+  int_ref id "gUtil.ml" 47 2350 2358 "gUtil.ml" 47 2350 2360
+)
+"gUtil.ml" 49 2403 2439 "gUtil.ml" 49 2403 2447
+type(
+  'a -> unit
+)
+ident(
+  int_ref callback "gUtil.ml" 46 2314 2339 "gUtil.ml" 46 2314 2347
+)
+"gUtil.ml" 49 2403 2436 "gUtil.ml" 49 2403 2447
+type(
+  GtkSignal.id * ('a -> unit)
+)
+"gUtil.ml" 49 2403 2435 "gUtil.ml" 49 2403 2448
+type(
+  (GtkSignal.id * ('a -> unit)) list
+)
+"gUtil.ml" 49 2403 2423 "gUtil.ml" 49 2403 2448
+call(
+  stack
+)
+type(
+  (GtkSignal.id * ('a -> unit)) list
+)
+"gUtil.ml" 49 2403 2455 "gUtil.ml" 49 2403 2457
+type(
+  GtkSignal.id
+)
+ident(
+  int_ref id "gUtil.ml" 47 2350 2358 "gUtil.ml" 47 2350 2360
+)
+"gUtil.ml" 49 2403 2458 "gUtil.ml" 49 2403 2466
+type(
+  'a -> unit
+)
+ident(
+  int_ref callback "gUtil.ml" 46 2314 2339 "gUtil.ml" 46 2314 2347
+)
+"gUtil.ml" 49 2403 2454 "gUtil.ml" 49 2403 2467
+type(
+  GtkSignal.id * ('a -> unit)
+)
+"gUtil.ml" 49 2403 2469 "gUtil.ml" 49 2403 2478
+type(
+  (GtkSignal.id * ('a -> unit)) list
+)
+"gUtil.ml" 49 2403 2454 "gUtil.ml" 49 2403 2478
+type(
+  (GtkSignal.id * ('a -> unit)) list
+)
+"gUtil.ml" 49 2403 2409 "gUtil.ml" 49 2403 2478
+type(
+  (GtkSignal.id * ('a -> unit)) list
+)
+"gUtil.ml" 48 2386 2390 "gUtil.ml" 49 2403 2478
+type(
+  unit
+)
+"gUtil.ml" 50 2480 2484 "gUtil.ml" 50 2480 2486
+type(
+  GtkSignal.id
+)
+ident(
+  int_ref id "gUtil.ml" 47 2350 2358 "gUtil.ml" 47 2350 2360
+)
+"gUtil.ml" 48 2386 2390 "gUtil.ml" 50 2480 2486
+type(
+  GtkSignal.id
+)
+"gUtil.ml" 47 2350 2354 "gUtil.ml" 50 2480 2486
+type(
+  GtkSignal.id
+)
+"gUtil.ml" 51 2487 2501 "gUtil.ml" 51 2487 2504
+type(
+  'a
+)
+ident(
+  def arg "gUtil.ml" 52 2507 2511 "gUtil.ml" 58 2725 2731
+)
+"gUtil.ml" 52 2507 2511 "gUtil.ml" 52 2507 2522
+type(
+  f:(GtkSignal.id * ('a -> unit) -> bool) ->
+  (GtkSignal.id * ('a -> unit)) list -> bool
+)
+ident(
+  ext_ref StdLabels.List.exists
+)
+"gUtil.ml" 52 2507 2523 "gUtil.ml" 52 2507 2532
+type(
+  (GtkSignal.id * ('a -> unit)) list
+)
+"gUtil.ml" 53 2537 2554 "gUtil.ml" 53 2537 2555
+type(
+  GtkSignal.id
+)
+"gUtil.ml" 53 2537 2556 "gUtil.ml" 53 2537 2557
+type(
+  'a -> unit
+)
+ident(
+  def f "gUtil.ml" 54 2562 2570 "gUtil.ml" 56 2656 2713
+)
+"gUtil.ml" 53 2537 2553 "gUtil.ml" 53 2537 2558
+type(
+  GtkSignal.id * ('a -> unit)
+)
+"gUtil.ml" 54 2562 2574 "gUtil.ml" 54 2562 2577
+type(
+  GtkSignal.saved_state
+)
+"gUtil.ml" 54 2562 2580 "gUtil.ml" 54 2562 2603
+type(
+  unit -> GtkSignal.saved_state
+)
+ident(
+  ext_ref GtkSignal.push_callback
+)
+"gUtil.ml" 54 2562 2604 "gUtil.ml" 54 2562 2606
+type(
+  unit
+)
+"gUtil.ml" 54 2562 2580 "gUtil.ml" 54 2562 2606
+call(
+  stack
+)
+type(
+  GtkSignal.saved_state
+)
+"gUtil.ml" 55 2610 2622 "gUtil.ml" 55 2610 2623
+type(
+  'a -> unit
+)
+ident(
+  int_ref f "gUtil.ml" 53 2537 2556 "gUtil.ml" 53 2537 2557
+)
+"gUtil.ml" 55 2610 2624 "gUtil.ml" 55 2610 2627
+type(
+  'a
+)
+ident(
+  int_ref arg "gUtil.ml" 51 2487 2501 "gUtil.ml" 51 2487 2504
+)
+"gUtil.ml" 55 2610 2622 "gUtil.ml" 55 2610 2627
+call(
+  stack
+)
+type(
+  unit
+)
+"gUtil.ml" 55 2610 2629 "gUtil.ml" 55 2610 2651
+type(
+  GtkSignal.saved_state -> bool
+)
+ident(
+  ext_ref GtkSignal.pop_callback
+)
+"gUtil.ml" 55 2610 2652 "gUtil.ml" 55 2610 2655
+type(
+  GtkSignal.saved_state
+)
+ident(
+  int_ref old "gUtil.ml" 54 2562 2574 "gUtil.ml" 54 2562 2577
+)
+"gUtil.ml" 55 2610 2629 "gUtil.ml" 55 2610 2655
+call(
+  stack
+)
+type(
+  bool
+)
+"gUtil.ml" 55 2610 2622 "gUtil.ml" 55 2610 2655
+type(
+  bool
+)
+"gUtil.ml" 56 2656 2669 "gUtil.ml" 56 2656 2672
+type(
+  exn
+)
+ident(
+  def exn "gUtil.ml" 56 2656 2676 "gUtil.ml" 56 2656 2713
+)
+"gUtil.ml" 56 2656 2676 "gUtil.ml" 56 2656 2698
+type(
+  GtkSignal.saved_state -> bool
+)
+ident(
+  ext_ref GtkSignal.pop_callback
+)
+"gUtil.ml" 56 2656 2699 "gUtil.ml" 56 2656 2702
+type(
+  GtkSignal.saved_state
+)
+ident(
+  int_ref old "gUtil.ml" 54 2562 2574 "gUtil.ml" 54 2562 2577
+)
+"gUtil.ml" 56 2656 2676 "gUtil.ml" 56 2656 2702
+call(
+  stack
+)
+type(
+  bool
+)
+"gUtil.ml" 56 2656 2704 "gUtil.ml" 56 2656 2709
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gUtil.ml" 56 2656 2710 "gUtil.ml" 56 2656 2713
+type(
+  exn
+)
+ident(
+  int_ref exn "gUtil.ml" 56 2656 2669 "gUtil.ml" 56 2656 2672
+)
+"gUtil.ml" 56 2656 2704 "gUtil.ml" 56 2656 2713
+type(
+  bool
+)
+"gUtil.ml" 56 2656 2676 "gUtil.ml" 56 2656 2713
+type(
+  bool
+)
+"gUtil.ml" 55 2610 2618 "gUtil.ml" 56 2656 2713
+type(
+  bool
+)
+"gUtil.ml" 54 2562 2570 "gUtil.ml" 56 2656 2713
+type(
+  bool
+)
+"gUtil.ml" 53 2537 2543 "gUtil.ml" 57 2714 2723
+type(
+  GtkSignal.id * ('a -> unit) -> bool
+)
+"gUtil.ml" 52 2507 2511 "gUtil.ml" 57 2714 2723
+call(
+  stack
+)
+type(
+  bool
+)
+"gUtil.ml" 58 2725 2729 "gUtil.ml" 58 2725 2731
+type(
+  unit
+)
+"gUtil.ml" 52 2507 2511 "gUtil.ml" 58 2725 2731
+type(
+  unit
+)
+"gUtil.ml" 59 2732 2752 "gUtil.ml" 59 2732 2755
+type(
+  GtkSignal.id
+)
+ident(
+  def key "gUtil.ml" 60 2758 2762 "gUtil.ml" 61 2799 2855
+)
+"gUtil.ml" 60 2758 2762 "gUtil.ml" 60 2758 2776
+type(
+  GtkSignal.id -> map:(GtkSignal.id * ('a -> unit)) list -> bool
+)
+ident(
+  ext_ref StdLabels.List.mem_assoc
+)
+"gUtil.ml" 60 2758 2777 "gUtil.ml" 60 2758 2780
+type(
+  GtkSignal.id
+)
+ident(
+  int_ref key "gUtil.ml" 59 2732 2752 "gUtil.ml" 59 2732 2755
+)
+"gUtil.ml" 60 2758 2786 "gUtil.ml" 60 2758 2795
+type(
+  (GtkSignal.id * ('a -> unit)) list
+)
+"gUtil.ml" 60 2758 2762 "gUtil.ml" 60 2758 2795
+call(
+  stack
+)
+type(
+  bool
+)
+"gUtil.ml" 60 2758 2796 "gUtil.ml" 60 2758 2798
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"gUtil.ml" 61 2799 2817 "gUtil.ml" 61 2799 2834
+type(
+  GtkSignal.id ->
+  (GtkSignal.id * ('a -> unit)) list -> (GtkSignal.id * ('a -> unit)) list
+)
+ident(
+  ext_ref StdLabels.List.remove_assoc
+)
+"gUtil.ml" 61 2799 2835 "gUtil.ml" 61 2799 2838
+type(
+  GtkSignal.id
+)
+ident(
+  int_ref key "gUtil.ml" 59 2732 2752 "gUtil.ml" 59 2732 2755
+)
+"gUtil.ml" 61 2799 2839 "gUtil.ml" 61 2799 2848
+type(
+  (GtkSignal.id * ('a -> unit)) list
+)
+"gUtil.ml" 61 2799 2817 "gUtil.ml" 61 2799 2848
+call(
+  stack
+)
+type(
+  (GtkSignal.id * ('a -> unit)) list
+)
+"gUtil.ml" 61 2799 2804 "gUtil.ml" 61 2799 2848
+type(
+  unit
+)
+"gUtil.ml" 61 2799 2850 "gUtil.ml" 61 2799 2854
+type(
+  bool
+)
+"gUtil.ml" 61 2799 2803 "gUtil.ml" 61 2799 2855
+type(
+  bool
+)
+"gUtil.ml" 60 2758 2762 "gUtil.ml" 61 2799 2855
+type(
+  bool
+)
+"gUtil.ml" 64 2861 2886 "gUtil.ml" 64 2861 2899
+type(
+  (GtkSignal.id -> bool) list
+)
+"gUtil.ml" 65 2902 2911 "gUtil.ml" 65 2902 2917
+type(
+  < after : 'a; disconnect : GtkSignal.id -> unit; .. > as 'a
+)
+"gUtil.ml" 66 2918 2934 "gUtil.ml" 66 2918 2939
+type(
+  bool
+)
+"gUtil.ml" 67 2940 2970 "gUtil.ml" 67 2940 2974
+type(
+  bool
+)
+"gUtil.ml" 67 2940 2959 "gUtil.ml" 67 2940 2977
+type(
+  'a
+)
+type(
+  'a
+)
+"gUtil.ml" 68 2978 3040 "gUtil.ml" 68 2978 3053
+type(
+  (GtkSignal.id -> bool) list
+)
+type(
+  (GtkSignal.id -> bool) list
+)
+ident(
+  int_ref disconnectors "gUtil.ml" 64 2861 2886 "gUtil.ml" 64 2861 2899
+)
+"gUtil.ml" 69 3054 3076 "gUtil.ml" 69 3054 3079
+type(
+  GtkSignal.id
+)
+ident(
+  def key "gUtil.ml" 70 3082 3088 "gUtil.ml" 70 3082 3142
+)
+"gUtil.ml" 70 3082 3088 "gUtil.ml" 70 3082 3094
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gUtil.ml" 70 3082 3096 "gUtil.ml" 70 3082 3107
+type(
+  f:((GtkSignal.id -> bool) -> bool) -> (GtkSignal.id -> bool) list -> bool
+)
+ident(
+  ext_ref StdLabels.List.exists
+)
+"gUtil.ml" 70 3082 3108 "gUtil.ml" 70 3082 3121
+type(
+  (GtkSignal.id -> bool) list
+)
+"gUtil.ml" 70 3082 3130 "gUtil.ml" 70 3082 3131
+type(
+  GtkSignal.id -> bool
+)
+ident(
+  def f "gUtil.ml" 70 3082 3135 "gUtil.ml" 70 3082 3140
+)
+"gUtil.ml" 70 3082 3135 "gUtil.ml" 70 3082 3136
+type(
+  GtkSignal.id -> bool
+)
+ident(
+  int_ref f "gUtil.ml" 70 3082 3130 "gUtil.ml" 70 3082 3131
+)
+"gUtil.ml" 70 3082 3137 "gUtil.ml" 70 3082 3140
+type(
+  GtkSignal.id
+)
+ident(
+  int_ref key "gUtil.ml" 69 3054 3076 "gUtil.ml" 69 3054 3079
+)
+"gUtil.ml" 70 3082 3135 "gUtil.ml" 70 3082 3140
+call(
+  tail
+)
+type(
+  bool
+)
+"gUtil.ml" 70 3082 3125 "gUtil.ml" 70 3082 3141
+type(
+  (GtkSignal.id -> bool) -> bool
+)
+"gUtil.ml" 70 3082 3095 "gUtil.ml" 70 3082 3142
+call(
+  stack
+)
+type(
+  bool
+)
+"gUtil.ml" 70 3082 3088 "gUtil.ml" 70 3082 3142
+type(
+  unit
+)
+"gUtil.ml" 73 3150 3179 "gUtil.ml" 73 3150 3182
+type(
+  'a Gobject.obj
+)
+"gUtil.ml" 73 3150 3183 "gUtil.ml" 73 3150 3196
+type(
+  (GtkSignal.id -> bool) list
+)
+"gUtil.ml" 74 3199 3208 "gUtil.ml" 74 3199 3214
+type(
+  < disconnect : GtkSignal.id -> unit; .. >
+)
+"gUtil.ml" 75 3215 3277 "gUtil.ml" 75 3215 3290
+type(
+  (GtkSignal.id -> bool) list
+)
+type(
+  (GtkSignal.id -> bool) list
+)
+ident(
+  int_ref disconnectors "gUtil.ml" 73 3150 3183 "gUtil.ml" 73 3150 3196
+)
+"gUtil.ml" 76 3291 3313 "gUtil.ml" 76 3291 3316
+type(
+  GtkSignal.id
+)
+ident(
+  def key "gUtil.ml" 77 3319 3325 "gUtil.ml" 78 3382 3421
+)
+"gUtil.ml" 77 3319 3328 "gUtil.ml" 77 3319 3339
+type(
+  f:((GtkSignal.id -> bool) -> bool) -> (GtkSignal.id -> bool) list -> bool
+)
+ident(
+  ext_ref StdLabels.List.exists
+)
+"gUtil.ml" 77 3319 3340 "gUtil.ml" 77 3319 3353
+type(
+  (GtkSignal.id -> bool) list
+)
+"gUtil.ml" 77 3319 3362 "gUtil.ml" 77 3319 3363
+type(
+  GtkSignal.id -> bool
+)
+ident(
+  def f "gUtil.ml" 77 3319 3367 "gUtil.ml" 77 3319 3372
+)
+"gUtil.ml" 77 3319 3367 "gUtil.ml" 77 3319 3368
+type(
+  GtkSignal.id -> bool
+)
+ident(
+  int_ref f "gUtil.ml" 77 3319 3362 "gUtil.ml" 77 3319 3363
+)
+"gUtil.ml" 77 3319 3369 "gUtil.ml" 77 3319 3372
+type(
+  GtkSignal.id
+)
+ident(
+  int_ref key "gUtil.ml" 76 3291 3313 "gUtil.ml" 76 3291 3316
+)
+"gUtil.ml" 77 3319 3367 "gUtil.ml" 77 3319 3372
+call(
+  tail
+)
+type(
+  bool
+)
+"gUtil.ml" 77 3319 3357 "gUtil.ml" 77 3319 3373
+type(
+  (GtkSignal.id -> bool) -> bool
+)
+"gUtil.ml" 77 3319 3328 "gUtil.ml" 77 3319 3373
+call(
+  stack
+)
+type(
+  bool
+)
+"gUtil.ml" 77 3319 3379 "gUtil.ml" 77 3319 3381
+type(
+  unit
+)
+"gUtil.ml" 78 3382 3393 "gUtil.ml" 78 3382 3413
+type(
+  'a Gobject.obj -> GtkSignal.id -> unit
+)
+ident(
+  ext_ref GtkSignal.disconnect
+)
+"gUtil.ml" 78 3382 3414 "gUtil.ml" 78 3382 3417
+type(
+  'a Gobject.obj
+)
+"gUtil.ml" 78 3382 3418 "gUtil.ml" 78 3382 3421
+type(
+  GtkSignal.id
+)
+ident(
+  int_ref key "gUtil.ml" 76 3291 3313 "gUtil.ml" 76 3291 3316
+)
+"gUtil.ml" 78 3382 3393 "gUtil.ml" 78 3382 3421
+type(
+  unit
+)
+"gUtil.ml" 77 3319 3325 "gUtil.ml" 78 3382 3421
+type(
+  unit
+)
+"gUtil.ml" 81 3429 3459 "gUtil.ml" 81 3429 3462
+type(
+  'a signal
+)
+"gUtil.ml" 81 3429 3478 "gUtil.ml" 81 3429 3485
+type(
+  'a signal
+)
+"gUtil.ml" 83 3510 3534 "gUtil.ml" 83 3510 3541
+type(
+  'a signal
+)
+ident(
+  int_ref changed "gUtil.ml" 81 3429 3478 "gUtil.ml" 81 3429 3485
+)
+"gUtil.ml" 83 3510 3534 "gUtil.ml" 83 3510 3552
+call(
+  stack
+)
+type(
+  GtkSignal.id -> bool
+)
+"gUtil.ml" 83 3510 3554 "gUtil.ml" 83 3510 3557
+type(
+  'a signal
+)
+ident(
+  int_ref set "gUtil.ml" 81 3429 3459 "gUtil.ml" 81 3429 3462
+)
+"gUtil.ml" 83 3510 3554 "gUtil.ml" 83 3510 3568
+call(
+  stack
+)
+type(
+  GtkSignal.id -> bool
+)
+"gUtil.ml" 83 3510 3533 "gUtil.ml" 83 3510 3569
+type(
+  (GtkSignal.id -> bool) list
+)
+"gUtil.ml" 84 3570 3591 "gUtil.ml" 84 3570 3598
+type(
+  'a signal
+)
+"gUtil.ml" 84 3570 3591 "gUtil.ml" 84 3570 3606
+call(
+  tail
+)
+type(
+  after:bool -> callback:('a -> unit) -> GtkSignal.id
+)
+"gUtil.ml" 84 3570 3608 "gUtil.ml" 84 3570 3613
+type(
+  bool
+)
+"gUtil.ml" 84 3570 3591 "gUtil.ml" 84 3570 3613
+type(
+  callback:('a -> unit) -> GtkSignal.id
+)
+type(
+  callback:('a -> unit) -> GtkSignal.id
+)
+"gUtil.ml" 85 3614 3631 "gUtil.ml" 85 3614 3634
+type(
+  'a signal
+)
+"gUtil.ml" 85 3614 3631 "gUtil.ml" 85 3614 3642
+call(
+  tail
+)
+type(
+  after:bool -> callback:('a -> unit) -> GtkSignal.id
+)
+"gUtil.ml" 85 3614 3644 "gUtil.ml" 85 3614 3649
+type(
+  bool
+)
+"gUtil.ml" 85 3614 3631 "gUtil.ml" 85 3614 3649
+type(
+  callback:('a -> unit) -> GtkSignal.id
+)
+type(
+  callback:('a -> unit) -> GtkSignal.id
+)
+"gUtil.ml" 88 3657 3677 "gUtil.ml" 88 3657 3678
+type(
+  'a
+)
+"gUtil.ml" 89 3681 3690 "gUtil.ml" 89 3681 3696
+type(
+  < connect : 'a variable_signals; get : 'a; set : 'a -> unit; .. >
+)
+"gUtil.ml" 90 3697 3715 "gUtil.ml" 90 3697 3725
+type(
+  unit -> 'a signal
+)
+"gUtil.ml" 90 3697 3726 "gUtil.ml" 90 3697 3728
+type(
+  unit
+)
+"gUtil.ml" 90 3697 3715 "gUtil.ml" 90 3697 3728
+call(
+  stack
+)
+type(
+  'a signal
+)
+"gUtil.ml" 91 3729 3743 "gUtil.ml" 91 3729 3753
+type(
+  unit -> 'a signal
+)
+"gUtil.ml" 91 3729 3754 "gUtil.ml" 91 3729 3756
+type(
+  unit
+)
+"gUtil.ml" 91 3729 3743 "gUtil.ml" 91 3729 3756
+call(
+  stack
+)
+type(
+  'a signal
+)
+"gUtil.ml" 92 3757 3778 "gUtil.ml" 92 3757 3798
+type(
+  set:'a signal -> changed:'a signal -> 'a variable_signals
+)
+"gUtil.ml" 92 3757 3800 "gUtil.ml" 92 3757 3803
+type(
+  'a signal
+)
+"gUtil.ml" 92 3757 3805 "gUtil.ml" 92 3757 3812
+type(
+  'a signal
+)
+"gUtil.ml" 92 3757 3778 "gUtil.ml" 92 3757 3812
+call(
+  tail
+)
+type(
+  'a variable_signals
+)
+type(
+  'a variable_signals
+)
+"gUtil.ml" 93 3813 3838 "gUtil.ml" 93 3813 3839
+type(
+  'a
+)
+type(
+  'a
+)
+ident(
+  int_ref x "gUtil.ml" 88 3657 3677 "gUtil.ml" 88 3657 3678
+)
+"gUtil.ml" 94 3840 3857 "gUtil.ml" 94 3840 3858
+type(
+  'a
+)
+type(
+  'a
+)
+"gUtil.ml" 95 3859 3876 "gUtil.ml" 95 3859 3879
+type(
+  'a signal
+)
+"gUtil.ml" 95 3859 3876 "gUtil.ml" 95 3859 3884
+call(
+  tail
+)
+type(
+  'a -> unit
+)
+type(
+  'a -> unit
+)
+"gUtil.ml" 96 3885 3931 "gUtil.ml" 96 3885 3934
+type(
+  'a -> 'a -> bool
+)
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gUtil.ml" 97 3935 3963 "gUtil.ml" 97 3935 3964
+type(
+  'a
+)
+ident(
+  def y "gUtil.ml" 98 3967 3973 "gUtil.ml" 100 4053 4078
+)
+"gUtil.ml" 98 3967 3977 "gUtil.ml" 98 3967 3979
+type(
+  'a
+)
+"gUtil.ml" 98 3967 3982 "gUtil.ml" 98 3967 3983
+type(
+  'a
+)
+"gUtil.ml" 98 3967 3992 "gUtil.ml" 98 3967 3993
+type(
+  'a
+)
+ident(
+  int_ref y "gUtil.ml" 97 3935 3963 "gUtil.ml" 97 3935 3964
+)
+"gUtil.ml" 98 3967 3987 "gUtil.ml" 98 3967 3993
+type(
+  unit
+)
+"gUtil.ml" 99 3995 4004 "gUtil.ml" 99 3995 4011
+type(
+  'a signal
+)
+"gUtil.ml" 99 3995 4004 "gUtil.ml" 99 3995 4021
+call(
+  stack
+)
+type(
+  (GtkSignal.id * ('a -> unit)) list
+)
+"gUtil.ml" 99 3995 4022 "gUtil.ml" 99 3995 4024
+type(
+  (GtkSignal.id * ('a -> unit)) list ->
+  (GtkSignal.id * ('a -> unit)) list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gUtil.ml" 99 3995 4025 "gUtil.ml" 99 3995 4027
+type(
+  (GtkSignal.id * ('a -> unit)) list
+)
+"gUtil.ml" 99 3995 4004 "gUtil.ml" 99 3995 4027
+type(
+  bool
+)
+"gUtil.ml" 99 3995 4028 "gUtil.ml" 99 3995 4030
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"gUtil.ml" 99 3995 4031 "gUtil.ml" 99 3995 4034
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"gUtil.ml" 99 3995 4036 "gUtil.ml" 99 3995 4040
+type(
+  < connect : 'a variable_signals; get : 'a; set : 'a -> unit; .. > as 'b
+)
+"gUtil.ml" 99 3995 4036 "gUtil.ml" 99 3995 4046
+call(
+  stack
+)
+type(
+  'a -> 'a -> bool
+)
+"gUtil.ml" 99 3995 4047 "gUtil.ml" 99 3995 4048
+type(
+  'a
+)
+"gUtil.ml" 99 3995 4049 "gUtil.ml" 99 3995 4051
+type(
+  'a
+)
+ident(
+  int_ref x0 "gUtil.ml" 98 3967 3977 "gUtil.ml" 98 3967 3979
+)
+"gUtil.ml" 99 3995 4035 "gUtil.ml" 99 3995 4052
+type(
+  bool
+)
+"gUtil.ml" 99 3995 4031 "gUtil.ml" 99 3995 4052
+type(
+  bool
+)
+"gUtil.ml" 99 3995 4004 "gUtil.ml" 99 3995 4052
+type(
+  bool
+)
+"gUtil.ml" 100 4053 4064 "gUtil.ml" 100 4053 4071
+type(
+  'a signal
+)
+"gUtil.ml" 100 4053 4064 "gUtil.ml" 100 4053 4076
+call(
+  tail
+)
+type(
+  'a -> unit
+)
+"gUtil.ml" 100 4053 4077 "gUtil.ml" 100 4053 4078
+type(
+  'a
+)
+ident(
+  int_ref y "gUtil.ml" 97 3935 3963 "gUtil.ml" 97 3935 3964
+)
+"gUtil.ml" 100 4053 4064 "gUtil.ml" 100 4053 4078
+type(
+  unit
+)
+"gUtil.ml" 99 3995 4001 "gUtil.ml" 100 4053 4078
+type(
+  unit
+)
+"gUtil.ml" 98 3967 3987 "gUtil.ml" 100 4053 4078
+type(
+  unit
+)
+"gUtil.ml" 98 3967 3973 "gUtil.ml" 100 4053 4078
+type(
+  unit
+)
+"gUtil.ml" 102 4095 4101 "gUtil.ml" 102 4095 4107
+type(
+  GtkSignal.id -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gUtil.ml" 102 4095 4109 "gUtil.ml" 102 4095 4112
+type(
+  'a signal
+)
+"gUtil.ml" 102 4095 4109 "gUtil.ml" 102 4095 4120
+call(
+  stack
+)
+type(
+  after:bool -> callback:('a -> unit) -> GtkSignal.id
+)
+"gUtil.ml" 102 4095 4128 "gUtil.ml" 102 4095 4133
+type(
+  bool
+)
+"gUtil.ml" 102 4095 4144 "gUtil.ml" 102 4095 4148
+type(
+  'b
+)
+"gUtil.ml" 102 4095 4144 "gUtil.ml" 102 4095 4157
+call(
+  stack
+)
+type(
+  'a -> unit
+)
+"gUtil.ml" 102 4095 4108 "gUtil.ml" 102 4095 4158
+type(
+  GtkSignal.id
+)
+"gUtil.ml" 102 4095 4101 "gUtil.ml" 102 4095 4158
+type(
+  'b -> unit
+)
+type(
+  unit
+)

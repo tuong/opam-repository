@@ -1,0 +1,4 @@
+deps=make
+tarball=calendar-2.03.1~oasis1.tar.gz
+is_library=true
+is_program=false

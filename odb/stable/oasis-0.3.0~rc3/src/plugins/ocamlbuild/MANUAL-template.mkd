@@ -1,0 +1,10 @@
+This plugin uses OCamlbuild to generate a build system. It is the default value
+for `BuildType`.
+
+
+It is also possible to use this plugin for `Document`. In this case, OCamlbuild
+will also be involved in the generation of a particular document.
+
+Document fields:
+
+$ListOCamlbuildDocDocumentFields

@@ -1,0 +1,9 @@
+# OASIS_START
+# DO NOT EDIT (digest: aebc713f74a7668dd75f1c249aecc766)
+version = "1.04+svn~oasis3"
+description = "Easy access to compressed files in ZIP, GZIP, JAR formats."
+archive(byte) = "zip.cma"
+archive(native) = "zip.cmxa"
+exists_if = "zip.cma"
+# OASIS_STOP
+

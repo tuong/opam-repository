@@ -1,0 +1,182 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Fcalendar.html">
+<link rel="next" href="Version.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Utils" rel="Chapter" href="Utils.html">
+<link title="Time_Zone" rel="Chapter" href="Time_Zone.html">
+<link title="Period" rel="Chapter" href="Period.html">
+<link title="Time_sig" rel="Chapter" href="Time_sig.html">
+<link title="Time" rel="Chapter" href="Time.html">
+<link title="Ftime" rel="Chapter" href="Ftime.html">
+<link title="Date_sig" rel="Chapter" href="Date_sig.html">
+<link title="Date" rel="Chapter" href="Date.html">
+<link title="Calendar_sig" rel="Chapter" href="Calendar_sig.html">
+<link title="Calendar_builder" rel="Chapter" href="Calendar_builder.html">
+<link title="Calendar" rel="Chapter" href="Calendar.html">
+<link title="Fcalendar" rel="Chapter" href="Fcalendar.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Version" rel="Chapter" href="Version.html"><link title="Internationalization" rel="Section" href="#2_Internationalization">
+<link title="Printers (including parsers from string)" rel="Section" href="#2_Printersincludingparsersfromstring">
+<title>Printer</title>
+</head>
+<body>
+<div class="navbar"><a href="Fcalendar.html">Previous</a>
+&nbsp;<a href="index.html">Up</a>
+&nbsp;<a href="Version.html">Next</a>
+</div>
+<center><h1>Module <a href="type_Printer.html">Printer</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Printer: <code class="code"><span class="keyword">sig</span></code> <a href="Printer.html">..</a> <code class="code"><span class="keyword">end</span></code></pre>Pretty printing and parsing from string.
+    In the following, an "event" is either a date or a time or a calendar.
+<p>
+
+    This module implements different printers: one for each kind of events.
+    The three printers have the same signature:
+    they mainly implement a <code class="code">fprint : string <span class="keywordsign">-&gt;</span> formatter <span class="keywordsign">-&gt;</span> t <span class="keywordsign">-&gt;</span> unit</code> function
+    and a <code class="code">from_fstring : string <span class="keywordsign">-&gt;</span> string <span class="keywordsign">-&gt;</span> t</code> function.
+    The first one prints an event according to a format string
+    (see below for a description of such a format).
+    The second one converts a string to an event according to a format string.
+<p>
+
+    A format string follows the unix utility 'date' (with few modifications).
+    It is a string which contains two types of objects: plain characters and
+    conversion specifiers. Those specifiers are introduced by
+    a <code class="code">%</code> character and their meanings are:<ul>
+<li><code class="code">%%</code>: a literal <code class="code">%</code></li>
+<li><code class="code">%a</code>: short day name (by using a short version of <code class="code">day_name</code>)</li>
+<li><code class="code">%<span class="constructor">A</span></code>: day name (by using <code class="code">day_name</code>)</li>
+<li><code class="code">%b</code>: short month name (by using a short version of <code class="code">month_name</code>)</li>
+<li><code class="code">%<span class="constructor">B</span></code>: month name (by using <code class="code">month_name</code>)</li>
+<li><code class="code">%c</code>: shortcut for <code class="code">%a %b %d %<span class="constructor">H</span>:%<span class="constructor">M</span>:%<span class="constructor">S</span> %<span class="constructor">Y</span></code></li>
+<li><code class="code">%<span class="constructor">C</span></code>: century: as %Y without the two last digits (since version 2.01)</li>
+<li><code class="code">%d</code>: day of month (01..31)</li>
+<li><code class="code">%<span class="constructor">D</span></code>: shortcut for <code class="code">%m/%d/%y</code></li>
+<li><code class="code">%e</code>: same as <code class="code">%_d</code></li>
+<li><code class="code">%<span class="constructor">F</span></code>: shortcut for <code class="code">%<span class="constructor">Y</span>-%m-%d</code>: ISO-8601 notation (since version 2.01)</li>
+<li><code class="code">%h</code>: same as <code class="code">%b</code></li>
+<li><code class="code">%<span class="constructor">H</span></code>: hour (00..23)</li>
+<li><code class="code">%<span class="constructor">I</span></code>: hour (01..12)</li>
+<li><code class="code">%i</code>: same as <code class="code">%<span class="constructor">F</span></code>; deprecated since 2.01</li>
+<li><code class="code">%j</code>: day of year (001..366)</li>
+<li><code class="code">%k</code>: same as <code class="code">%_H</code></li>
+<li><code class="code">%l</code>: same as <code class="code">%_I</code></li>
+<li><code class="code">%m</code>: month (01..12)</li>
+<li><code class="code">%<span class="constructor">M</span></code>: minute (00..59)</li>
+<li><code class="code">%n</code>: a newline (same as <code class="code">\n</code>)</li>
+<li><code class="code">%p</code>: AM or PM</li>
+<li><code class="code">%<span class="constructor">P</span></code>: am or pm (same as %p in lowercase) (since version 2.01)</li>
+<li><code class="code">%r</code>: shortcut for <code class="code">%<span class="constructor">I</span>:%<span class="constructor">M</span>:%<span class="constructor">S</span> %p</code></li>
+<li><code class="code">%<span class="constructor">R</span></code>: shortcut for <code class="code">%<span class="constructor">H</span>:%<span class="constructor">M</span></code> (since version 2.01)</li>
+<li><code class="code">%s</code>: number of seconds since 1970/1/1 (since version 2.01)</li>
+<li><code class="code">%<span class="constructor">S</span></code>: second (00..60)</li>
+<li><code class="code">%t</code>: a horizontal tab (same as <code class="code">\t</code>)</li>
+<li><code class="code">%<span class="constructor">T</span></code>: shortcut for <code class="code">%<span class="constructor">H</span>:%<span class="constructor">M</span>:%<span class="constructor">S</span></code></li>
+<li><code class="code">%<span class="constructor">V</span></code>: week number of year (01..53)</li>
+<li><code class="code">%w</code>: day of week (1..7)</li>
+<li><code class="code">%<span class="constructor">W</span></code>: same as <code class="code">%<span class="constructor">V</span></code></li>
+<li><code class="code">%y</code>: last two digits of year (00..99)</li>
+<li><code class="code">%<span class="constructor">Y</span></code>: year (four digits)</li>
+<li><code class="code">%z</code>: time zone in the form +hhmm (e.g. -0400) (since version 2.01)</li>
+<li><code class="code">%:z</code>: time zone in the form +hh:mm (e.g. -04:00) (since version 2.01)</li>
+<li><code class="code">%::z</code>: time zone in the form +hh:mm:ss (e.g. -04:00:00)
+    (since version 2.01)</li>
+<li><code class="code">%:::z</code>: time zone in the form +hh (e.g. -04) (since version 2.01)</li>
+</ul>
+
+    By default, date pads numeric fields with zeroes. Two special modifiers
+    between <code class="code"><span class="keywordsign">`</span>%<span class="keywordsign">'</span></code> and a numeric directive are recognized:<ul>
+<li><code class="code"><span class="string">'-'</span> (hyphen)</code>: do not pad the field</li>
+<li><code class="code"><span class="string">'_'</span> (underscore)</code>: pad the field with spaces</li>
+<li><code class="code"><span class="string">'0'</span> (zero)</code>: pad the field with zeroes (default) (since version 2.01)</li>
+<li><code class="code"><span class="string">'^'</span></code>: use uppercase if possible (since version 2.01)
+    Padding is only available for printers, not for parsers.</li>
+</ul>
+<br>
+<b>Since</b> 1.05<br>
+<b>Examples:</b><ul><li>a possible output of <code class="code">%c</code> is <code class="code"><span class="constructor">Thu</span> <span class="constructor">Sep</span> 18 14:10:51 2003</code>.<br>
+</li><li>a possible output of <code class="code">the date is %<span class="constructor">B</span>, the %-dth</code> is
+    <code class="code">the date is <span class="constructor">January</span>, the 6th</code> is matched by ;<br>
+</li><li>a possible output of <code class="code">%<span class="constructor">D</span></code> is <code class="code">01/06/03</code><br>
+</li></ul><hr width="100%">
+<br>
+<span id="2_Internationalization"><h2>Internationalization</h2></span>
+<p>
+
+    You can manage the string representations of days and months.
+    By default, the English names are used but you can change their by
+    setting the references <code class="code">day_name</code> and <code class="code">month_name</code>.<br>
+<pre><span id="VALday_name"><span class="keyword">val</span> day_name</span> : <code class="type">(Date.day -> string) Pervasives.ref</code></pre><div class="info">
+String representation of a day.<br>
+</div>
+<pre><span id="VALname_of_day"><span class="keyword">val</span> name_of_day</span> : <code class="type">Date.day -> string</code></pre><div class="info">
+<code class="code">name_of_day d</code> is equivalent to <code class="code">!day_name d</code>.
+    Used by the specifier <code class="code">%<span class="constructor">A</span></code>.<br>
+</div>
+<pre><span id="VALshort_name_of_day"><span class="keyword">val</span> short_name_of_day</span> : <code class="type">Date.day -> string</code></pre><div class="info">
+<code class="code">short_name_of_day d</code> returns the 3 first characters of <code class="code">name_of_day d</code>.
+    Used by the specifier <code class="code">%a</code>.<br>
+</div>
+<pre><span id="VALmonth_name"><span class="keyword">val</span> month_name</span> : <code class="type">(Date.month -> string) Pervasives.ref</code></pre><div class="info">
+String representation of a month.<br>
+</div>
+<pre><span id="VALname_of_month"><span class="keyword">val</span> name_of_month</span> : <code class="type">Date.month -> string</code></pre><div class="info">
+<code class="code">name_of_month m</code> is equivalent to <code class="code">!day_month m</code>.
+    Used by the specifier <code class="code">%<span class="constructor">B</span></code>.<br>
+</div>
+<pre><span id="VALshort_name_of_month"><span class="keyword">val</span> short_name_of_month</span> : <code class="type">Date.month -> string</code></pre><div class="info">
+<code class="code">short_name_of_month d</code> returns the 3 first characters of
+    <code class="code">name_of_month d</code>.
+    Used by the specifier <code class="code">%b</code>.<br>
+</div>
+<pre><span id="VALset_word_regexp"><span class="keyword">val</span> set_word_regexp</span> : <code class="type">Str.regexp -> unit</code></pre><div class="info">
+Set the regular expression used to recognize words in
+      <code class="code">from_fstring</code>. Default is <code class="code">[a-zA-<span class="constructor">Z</span>]*</code>.<br>
+<b>Since</b> 1.10<br>
+</div>
+<br>
+<span id="2_Printersincludingparsersfromstring"><h2>Printers (including parsers from string)</h2></span>
+<p>
+
+    Printers also contain parsers which allow to build events from strings.<br>
+<pre><span class="keyword">module type</span> <a href="Printer.S.html">S</a> = <code class="code"><span class="keyword">sig</span></code> <a href="Printer.S.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info">
+Generic signature of a printer-parser.
+</div>
+<pre><span class="keyword">module</span> <a href="Printer.Date.html">Date</a>: <code class="type"><a href="Printer.S.html">S</a></code><code class="type">  with type t = Date.t</code></pre><div class="info">
+Date printer.
+</div>
+<pre><span class="keyword">module</span> <a href="Printer.DatePrinter.html">DatePrinter</a>: <code class="type"><a href="Printer.S.html">S</a></code><code class="type">  with type t = Date.t</code></pre><div class="info">
+<font color="#CCCCCC"></font></div>
+<pre><span class="keyword">module</span> <a href="Printer.Time.html">Time</a>: <code class="type"><a href="Printer.S.html">S</a></code><code class="type">  with type t = Time.t</code></pre><div class="info">
+Time printer.
+</div>
+<pre><span class="keyword">module</span> <a href="Printer.TimePrinter.html">TimePrinter</a>: <code class="type"><a href="Printer.S.html">S</a></code><code class="type">  with type t = Time.t</code></pre><div class="info">
+<font color="#CCCCCC"></font></div>
+<pre><span class="keyword">module</span> <a href="Printer.Ftime.html">Ftime</a>: <code class="type"><a href="Printer.S.html">S</a></code><code class="type">  with type t = Ftime.t</code></pre><div class="info">
+Ftime printer.
+</div>
+<pre><span class="keyword">module</span> <a href="Printer.Precise_Calendar.html">Precise_Calendar</a>: <code class="type"><a href="Printer.S.html">S</a></code><code class="type">  with type t = <a href="Calendar.Precise.html">Calendar.Precise</a>.t</code></pre><div class="info">
+Precise Calendar printer.
+</div>
+<pre><span class="keyword">module</span> <a href="Printer.Calendar.html">Calendar</a>: <code class="type"><a href="Printer.S.html">S</a></code><code class="type">  with type t = Calendar.t</code></pre><div class="info">
+Calendar printer.
+</div>
+<pre><span class="keyword">module</span> <a href="Printer.CalendarPrinter.html">CalendarPrinter</a>: <code class="type"><a href="Printer.S.html">S</a></code><code class="type">  with type t = Calendar.t</code></pre><div class="info">
+<font color="#CCCCCC"></font></div>
+<pre><span class="keyword">module</span> <a href="Printer.Precise_Fcalendar.html">Precise_Fcalendar</a>: <code class="type"><a href="Printer.S.html">S</a></code><code class="type">  with type t = <a href="Fcalendar.Precise.html">Fcalendar.Precise</a>.t</code></pre><div class="info">
+Precise Fcalendar printer.
+</div>
+<pre><span class="keyword">module</span> <a href="Printer.Fcalendar.html">Fcalendar</a>: <code class="type"><a href="Printer.S.html">S</a></code><code class="type">  with type t = Fcalendar.t</code></pre><div class="info">
+Fcalendar printer.
+</div>
+</body></html>

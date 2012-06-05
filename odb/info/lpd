@@ -1,0 +1,4 @@
+deps=unix,threads,ocamlbuild
+tarball=lpd-1.1.tar.gz
+is_library=true
+is_program=false

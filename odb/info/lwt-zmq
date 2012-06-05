@@ -1,0 +1,4 @@
+deps=ocamlbuild,lwt,ZMQ
+tarball=lwt-zmq-1.0~beta2.tar.gz
+is_library=true
+is_program=false

@@ -1,0 +1,6 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: c186e0acb1c36983635c8bdb88389e60) *)
+Authors of ANSITerminal
+Christophe Troestler
+Vincent Hugot
+(* OASIS_STOP *)

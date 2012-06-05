@@ -1,0 +1,2714 @@
+"ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  def set "ogtkBaseProps.ml" 5 52 52 --
+)
+"ogtkBaseProps.ml" 4 38 48 "ogtkBaseProps.ml" 4 38 51
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  def get "ogtkBaseProps.ml" 6 66 66 --
+)
+"ogtkBaseProps.ml" 5 52 62 "ogtkBaseProps.ml" 5 52 65
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  ext_ref Gobject.get
+)
+"ogtkBaseProps.ml" 6 66 70 "ogtkBaseProps.ml" 6 66 75
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  def param "ogtkBaseProps.ml" 8 85 85 --
+)
+"ogtkBaseProps.ml" 6 66 78 "ogtkBaseProps.ml" 6 66 83
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"ogtkBaseProps.ml" 14 188 216 "ogtkBaseProps.ml" 14 188 219
+type(
+  ([> `container ] as 'a, int) Gobject.property ->
+  'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 14 188 220 "ogtkBaseProps.ml" 14 188 244
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Container.P.border_width
+)
+"ogtkBaseProps.ml" 14 188 245 "ogtkBaseProps.ml" 14 188 248
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 14 188 216 "ogtkBaseProps.ml" 14 188 248
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkBaseProps.ml" 15 249 276 "ogtkBaseProps.ml" 15 249 279
+type(
+  ('a, GtkEnums.resize_mode) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.resize_mode -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 15 249 280 "ogtkBaseProps.ml" 15 249 303
+type(
+  ('a, GtkEnums.resize_mode) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Container.P.resize_mode
+)
+"ogtkBaseProps.ml" 15 249 304 "ogtkBaseProps.ml" 15 249 307
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 15 249 276 "ogtkBaseProps.ml" 15 249 307
+call(
+  tail
+)
+type(
+  GtkEnums.resize_mode -> unit
+)
+type(
+  GtkEnums.resize_mode -> unit
+)
+"ogtkBaseProps.ml" 16 308 332 "ogtkBaseProps.ml" 16 308 335
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 16 308 336 "ogtkBaseProps.ml" 16 308 360
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Container.P.border_width
+)
+"ogtkBaseProps.ml" 16 308 361 "ogtkBaseProps.ml" 16 308 364
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 16 308 332 "ogtkBaseProps.ml" 16 308 364
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkBaseProps.ml" 17 365 388 "ogtkBaseProps.ml" 17 365 391
+type(
+  ('a, GtkEnums.resize_mode) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.resize_mode
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 17 365 392 "ogtkBaseProps.ml" 17 365 415
+type(
+  ('a, GtkEnums.resize_mode) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Container.P.resize_mode
+)
+"ogtkBaseProps.ml" 17 365 416 "ogtkBaseProps.ml" 17 365 419
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 17 365 388 "ogtkBaseProps.ml" 17 365 419
+call(
+  tail
+)
+type(
+  GtkEnums.resize_mode
+)
+type(
+  GtkEnums.resize_mode
+)
+"ogtkBaseProps.ml" 20 425 463 "ogtkBaseProps.ml" 20 425 469
+type(
+  < add : callback:(GObj.widget -> unit) -> GtkSignal.id;
+    remove : callback:(GObj.widget -> unit) -> GtkSignal.id; .. >
+)
+"ogtkBaseProps.ml" 23 564 579 "ogtkBaseProps.ml" 23 564 583
+type(
+  < add : callback:(GObj.widget -> unit) -> GtkSignal.id;
+    remove : callback:(GObj.widget -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkBaseProps.ml" 23 564 579 "ogtkBaseProps.ml" 23 564 591
+call(
+  tail
+)
+type(
+  ([> `container ], GObj.widget -> unit) GtkSignal.t ->
+  callback:(GObj.widget -> unit) -> GtkSignal.id
+)
+"ogtkBaseProps.ml" 24 592 597 "ogtkBaseProps.ml" 24 592 612
+type(
+  ([> `container ] as 'b, Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBaseProps.Container.S.add
+)
+"ogtkBaseProps.ml" 24 592 635 "ogtkBaseProps.ml" 24 592 636
+type(
+  GObj.widget -> unit
+)
+ident(
+  def f "ogtkBaseProps.ml" 25 640 645 "ogtkBaseProps.ml" 25 640 692
+)
+"ogtkBaseProps.ml" 25 640 645 "ogtkBaseProps.ml" 25 640 653
+type(
+  GObj.widget Gobject.data_conv ->
+  string -> (GObj.widget -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"ogtkBaseProps.ml" 25 640 654 "ogtkBaseProps.ml" 25 640 670
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkBaseProps.ml" 25 640 671 "ogtkBaseProps.ml" 25 640 690
+type(
+  string
+)
+"ogtkBaseProps.ml" 25 640 691 "ogtkBaseProps.ml" 25 640 692
+type(
+  GObj.widget -> unit
+)
+ident(
+  int_ref f "ogtkBaseProps.ml" 24 592 635 "ogtkBaseProps.ml" 24 592 636
+)
+"ogtkBaseProps.ml" 25 640 645 "ogtkBaseProps.ml" 25 640 692
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"ogtkBaseProps.ml" 24 592 631 "ogtkBaseProps.ml" 25 640 692
+type(
+  (GObj.widget -> unit) -> Gobject.Closure.argv -> unit
+)
+"ogtkBaseProps.ml" 24 592 596 "ogtkBaseProps.ml" 25 640 693
+type(
+  ('b, GObj.widget -> unit) GtkSignal.t
+)
+"ogtkBaseProps.ml" 23 564 579 "ogtkBaseProps.ml" 25 640 693
+type(
+  callback:(GObj.widget -> unit) -> GtkSignal.id
+)
+type(
+  callback:(GObj.widget -> unit) -> GtkSignal.id
+)
+"ogtkBaseProps.ml" 26 694 712 "ogtkBaseProps.ml" 26 694 716
+type(
+  'a
+)
+"ogtkBaseProps.ml" 26 694 712 "ogtkBaseProps.ml" 26 694 724
+call(
+  tail
+)
+type(
+  ('b, GObj.widget -> unit) GtkSignal.t ->
+  callback:(GObj.widget -> unit) -> GtkSignal.id
+)
+"ogtkBaseProps.ml" 27 725 730 "ogtkBaseProps.ml" 27 725 748
+type(
+  ('b, Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBaseProps.Container.S.remove
+)
+"ogtkBaseProps.ml" 27 725 771 "ogtkBaseProps.ml" 27 725 772
+type(
+  GObj.widget -> unit
+)
+ident(
+  def f "ogtkBaseProps.ml" 28 776 781 "ogtkBaseProps.ml" 28 776 831
+)
+"ogtkBaseProps.ml" 28 776 781 "ogtkBaseProps.ml" 28 776 789
+type(
+  GObj.widget Gobject.data_conv ->
+  string -> (GObj.widget -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"ogtkBaseProps.ml" 28 776 790 "ogtkBaseProps.ml" 28 776 806
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkBaseProps.ml" 28 776 807 "ogtkBaseProps.ml" 28 776 829
+type(
+  string
+)
+"ogtkBaseProps.ml" 28 776 830 "ogtkBaseProps.ml" 28 776 831
+type(
+  GObj.widget -> unit
+)
+ident(
+  int_ref f "ogtkBaseProps.ml" 27 725 771 "ogtkBaseProps.ml" 27 725 772
+)
+"ogtkBaseProps.ml" 28 776 781 "ogtkBaseProps.ml" 28 776 831
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"ogtkBaseProps.ml" 27 725 767 "ogtkBaseProps.ml" 28 776 831
+type(
+  (GObj.widget -> unit) -> Gobject.Closure.argv -> unit
+)
+"ogtkBaseProps.ml" 27 725 729 "ogtkBaseProps.ml" 28 776 832
+type(
+  ('b, GObj.widget -> unit) GtkSignal.t
+)
+"ogtkBaseProps.ml" 26 694 712 "ogtkBaseProps.ml" 28 776 832
+type(
+  callback:(GObj.widget -> unit) -> GtkSignal.id
+)
+type(
+  callback:(GObj.widget -> unit) -> GtkSignal.id
+)
+"ogtkBaseProps.ml" 31 838 871 "ogtkBaseProps.ml" 31 838 877
+type(
+  < deselect : callback:(unit -> unit) -> GtkSignal.id;
+    select : callback:(unit -> unit) -> GtkSignal.id;
+    toggle : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkBaseProps.ml" 34 972 990 "ogtkBaseProps.ml" 34 972 994
+type(
+  < deselect : callback:(unit -> unit) -> GtkSignal.id;
+    select : callback:(unit -> unit) -> GtkSignal.id;
+    toggle : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkBaseProps.ml" 34 972 990 "ogtkBaseProps.ml" 34 972 1002
+call(
+  tail
+)
+type(
+  ([> `item ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBaseProps.ml" 34 972 1003 "ogtkBaseProps.ml" 34 972 1016
+type(
+  ([> `item ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBaseProps.Item.S.select
+)
+"ogtkBaseProps.ml" 34 972 990 "ogtkBaseProps.ml" 34 972 1016
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBaseProps.ml" 35 1017 1037 "ogtkBaseProps.ml" 35 1017 1041
+type(
+  'a
+)
+"ogtkBaseProps.ml" 35 1017 1037 "ogtkBaseProps.ml" 35 1017 1049
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBaseProps.ml" 35 1017 1050 "ogtkBaseProps.ml" 35 1017 1065
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBaseProps.Item.S.deselect
+)
+"ogtkBaseProps.ml" 35 1017 1037 "ogtkBaseProps.ml" 35 1017 1065
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBaseProps.ml" 36 1066 1084 "ogtkBaseProps.ml" 36 1066 1088
+type(
+  'a
+)
+"ogtkBaseProps.ml" 36 1066 1084 "ogtkBaseProps.ml" 36 1066 1096
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBaseProps.ml" 36 1066 1097 "ogtkBaseProps.ml" 36 1066 1110
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBaseProps.Item.S.toggle
+)
+"ogtkBaseProps.ml" 36 1066 1084 "ogtkBaseProps.ml" 36 1066 1110
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBaseProps.ml" 41 1178 1199 "ogtkBaseProps.ml" 41 1178 1202
+type(
+  ([> `window ] as 'a, string) Gobject.property ->
+  'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 41 1178 1203 "ogtkBaseProps.ml" 41 1178 1217
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.title
+)
+"ogtkBaseProps.ml" 41 1178 1218 "ogtkBaseProps.ml" 41 1178 1221
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 41 1178 1199 "ogtkBaseProps.ml" 41 1178 1221
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkBaseProps.ml" 42 1222 1250 "ogtkBaseProps.ml" 42 1222 1253
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 42 1222 1254 "ogtkBaseProps.ml" 42 1222 1275
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.accept_focus
+)
+"ogtkBaseProps.ml" 42 1222 1276 "ogtkBaseProps.ml" 42 1222 1279
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 42 1222 1250 "ogtkBaseProps.ml" 42 1222 1279
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBaseProps.ml" 43 1280 1306 "ogtkBaseProps.ml" 43 1280 1309
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 43 1280 1310 "ogtkBaseProps.ml" 43 1280 1329
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.allow_grow
+)
+"ogtkBaseProps.ml" 43 1280 1330 "ogtkBaseProps.ml" 43 1280 1333
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 43 1280 1306 "ogtkBaseProps.ml" 43 1280 1333
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBaseProps.ml" 44 1334 1362 "ogtkBaseProps.ml" 44 1334 1365
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 44 1334 1366 "ogtkBaseProps.ml" 44 1334 1387
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.allow_shrink
+)
+"ogtkBaseProps.ml" 44 1334 1388 "ogtkBaseProps.ml" 44 1334 1391
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 44 1334 1362 "ogtkBaseProps.ml" 44 1334 1391
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBaseProps.ml" 45 1392 1417 "ogtkBaseProps.ml" 45 1392 1420
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 45 1392 1421 "ogtkBaseProps.ml" 45 1392 1439
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.decorated
+)
+"ogtkBaseProps.ml" 45 1392 1440 "ogtkBaseProps.ml" 45 1392 1443
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 45 1392 1417 "ogtkBaseProps.ml" 45 1392 1443
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBaseProps.ml" 46 1444 1474 "ogtkBaseProps.ml" 46 1444 1477
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 46 1444 1478 "ogtkBaseProps.ml" 46 1444 1501
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.default_height
+)
+"ogtkBaseProps.ml" 46 1444 1502 "ogtkBaseProps.ml" 46 1444 1505
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 46 1444 1474 "ogtkBaseProps.ml" 46 1444 1505
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkBaseProps.ml" 47 1506 1535 "ogtkBaseProps.ml" 47 1506 1538
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 47 1506 1539 "ogtkBaseProps.ml" 47 1506 1561
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.default_width
+)
+"ogtkBaseProps.ml" 47 1506 1562 "ogtkBaseProps.ml" 47 1506 1565
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 47 1506 1535 "ogtkBaseProps.ml" 47 1506 1565
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkBaseProps.ml" 48 1566 1591 "ogtkBaseProps.ml" 48 1566 1594
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 48 1566 1595 "ogtkBaseProps.ml" 48 1566 1613
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.deletable
+)
+"ogtkBaseProps.ml" 48 1566 1614 "ogtkBaseProps.ml" 48 1566 1617
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 48 1566 1591 "ogtkBaseProps.ml" 48 1566 1617
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBaseProps.ml" 49 1618 1653 "ogtkBaseProps.ml" 49 1618 1656
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 49 1618 1657 "ogtkBaseProps.ml" 49 1618 1685
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.destroy_with_parent
+)
+"ogtkBaseProps.ml" 49 1618 1686 "ogtkBaseProps.ml" 49 1618 1689
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 49 1618 1653 "ogtkBaseProps.ml" 49 1618 1689
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBaseProps.ml" 50 1690 1718 "ogtkBaseProps.ml" 50 1690 1721
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 50 1690 1722 "ogtkBaseProps.ml" 50 1690 1743
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.focus_on_map
+)
+"ogtkBaseProps.ml" 50 1690 1744 "ogtkBaseProps.ml" 50 1690 1747
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 50 1690 1718 "ogtkBaseProps.ml" 50 1690 1747
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBaseProps.ml" 51 1748 1771 "ogtkBaseProps.ml" 51 1748 1774
+type(
+  ('a, GdkEnums.gravity) Gobject.property ->
+  'a Gobject.obj -> GdkEnums.gravity -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 51 1748 1775 "ogtkBaseProps.ml" 51 1748 1791
+type(
+  ('a, GdkEnums.gravity) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.gravity
+)
+"ogtkBaseProps.ml" 51 1748 1792 "ogtkBaseProps.ml" 51 1748 1795
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 51 1748 1771 "ogtkBaseProps.ml" 51 1748 1795
+call(
+  tail
+)
+type(
+  GdkEnums.gravity -> unit
+)
+type(
+  GdkEnums.gravity -> unit
+)
+"ogtkBaseProps.ml" 52 1796 1816 "ogtkBaseProps.ml" 52 1796 1819
+type(
+  ('a, GdkPixbuf.pixbuf option) Gobject.property ->
+  'a Gobject.obj -> GdkPixbuf.pixbuf option -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 52 1796 1820 "ogtkBaseProps.ml" 52 1796 1833
+type(
+  ('a, GdkPixbuf.pixbuf option) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.icon
+)
+"ogtkBaseProps.ml" 52 1796 1834 "ogtkBaseProps.ml" 52 1796 1837
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 52 1796 1816 "ogtkBaseProps.ml" 52 1796 1837
+call(
+  tail
+)
+type(
+  GdkPixbuf.pixbuf option -> unit
+)
+type(
+  GdkPixbuf.pixbuf option -> unit
+)
+"ogtkBaseProps.ml" 53 1838 1863 "ogtkBaseProps.ml" 53 1838 1866
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 53 1838 1867 "ogtkBaseProps.ml" 53 1838 1885
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.icon_name
+)
+"ogtkBaseProps.ml" 53 1838 1886 "ogtkBaseProps.ml" 53 1838 1889
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 53 1838 1863 "ogtkBaseProps.ml" 53 1838 1889
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkBaseProps.ml" 54 1890 1911 "ogtkBaseProps.ml" 54 1890 1914
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 54 1890 1915 "ogtkBaseProps.ml" 54 1890 1929
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.modal
+)
+"ogtkBaseProps.ml" 54 1890 1930 "ogtkBaseProps.ml" 54 1890 1933
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 54 1890 1911 "ogtkBaseProps.ml" 54 1890 1933
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBaseProps.ml" 55 1934 1958 "ogtkBaseProps.ml" 55 1934 1961
+type(
+  ('a, GtkEnums.window_position) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.window_position -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 55 1934 1962 "ogtkBaseProps.ml" 55 1934 1986
+type(
+  ('a, GtkEnums.window_position) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.window_position
+)
+"ogtkBaseProps.ml" 55 1934 1987 "ogtkBaseProps.ml" 55 1934 1990
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 55 1934 1958 "ogtkBaseProps.ml" 55 1934 1990
+call(
+  tail
+)
+type(
+  GtkEnums.window_position -> unit
+)
+type(
+  GtkEnums.window_position -> unit
+)
+"ogtkBaseProps.ml" 56 1991 2014 "ogtkBaseProps.ml" 56 1991 2017
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 56 1991 2018 "ogtkBaseProps.ml" 56 1991 2034
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.opacity
+)
+"ogtkBaseProps.ml" 56 1991 2035 "ogtkBaseProps.ml" 56 1991 2038
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 56 1991 2014 "ogtkBaseProps.ml" 56 1991 2038
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkBaseProps.ml" 57 2039 2064 "ogtkBaseProps.ml" 57 2039 2067
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 57 2039 2068 "ogtkBaseProps.ml" 57 2039 2086
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.resizable
+)
+"ogtkBaseProps.ml" 57 2039 2087 "ogtkBaseProps.ml" 57 2039 2090
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 57 2039 2064 "ogtkBaseProps.ml" 57 2039 2090
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBaseProps.ml" 58 2091 2111 "ogtkBaseProps.ml" 58 2091 2114
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 58 2091 2115 "ogtkBaseProps.ml" 58 2091 2128
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.role
+)
+"ogtkBaseProps.ml" 58 2091 2129 "ogtkBaseProps.ml" 58 2091 2132
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 58 2091 2111 "ogtkBaseProps.ml" 58 2091 2132
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkBaseProps.ml" 59 2133 2155 "ogtkBaseProps.ml" 59 2133 2158
+type(
+  ('a, Gdk.screen) Gobject.property -> 'a Gobject.obj -> Gdk.screen -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 59 2133 2159 "ogtkBaseProps.ml" 59 2133 2174
+type(
+  ('a, Gdk.screen) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.screen
+)
+"ogtkBaseProps.ml" 59 2133 2175 "ogtkBaseProps.ml" 59 2133 2178
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 59 2133 2155 "ogtkBaseProps.ml" 59 2133 2178
+call(
+  tail
+)
+type(
+  Gdk.screen -> unit
+)
+type(
+  Gdk.screen -> unit
+)
+"ogtkBaseProps.ml" 60 2179 2210 "ogtkBaseProps.ml" 60 2179 2213
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 60 2179 2214 "ogtkBaseProps.ml" 60 2179 2238
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.skip_pager_hint
+)
+"ogtkBaseProps.ml" 60 2179 2239 "ogtkBaseProps.ml" 60 2179 2242
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 60 2179 2210 "ogtkBaseProps.ml" 60 2179 2242
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBaseProps.ml" 61 2243 2276 "ogtkBaseProps.ml" 61 2243 2279
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 61 2243 2280 "ogtkBaseProps.ml" 61 2243 2306
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.skip_taskbar_hint
+)
+"ogtkBaseProps.ml" 61 2243 2307 "ogtkBaseProps.ml" 61 2243 2310
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 61 2243 2276 "ogtkBaseProps.ml" 61 2243 2310
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBaseProps.ml" 62 2311 2336 "ogtkBaseProps.ml" 62 2311 2339
+type(
+  ('a, GdkEnums.window_type_hint) Gobject.property ->
+  'a Gobject.obj -> GdkEnums.window_type_hint -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 62 2311 2340 "ogtkBaseProps.ml" 62 2311 2358
+type(
+  ('a, GdkEnums.window_type_hint) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.type_hint
+)
+"ogtkBaseProps.ml" 62 2311 2359 "ogtkBaseProps.ml" 62 2311 2362
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 62 2311 2336 "ogtkBaseProps.ml" 62 2311 2362
+call(
+  tail
+)
+type(
+  GdkEnums.window_type_hint -> unit
+)
+type(
+  GdkEnums.window_type_hint -> unit
+)
+"ogtkBaseProps.ml" 63 2363 2391 "ogtkBaseProps.ml" 63 2363 2394
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 63 2363 2395 "ogtkBaseProps.ml" 63 2363 2416
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.urgency_hint
+)
+"ogtkBaseProps.ml" 63 2363 2417 "ogtkBaseProps.ml" 63 2363 2420
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 63 2363 2391 "ogtkBaseProps.ml" 63 2363 2420
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBaseProps.ml" 64 2421 2438 "ogtkBaseProps.ml" 64 2421 2441
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 64 2421 2442 "ogtkBaseProps.ml" 64 2421 2456
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.title
+)
+"ogtkBaseProps.ml" 64 2421 2457 "ogtkBaseProps.ml" 64 2421 2460
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 64 2421 2438 "ogtkBaseProps.ml" 64 2421 2460
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkBaseProps.ml" 65 2461 2485 "ogtkBaseProps.ml" 65 2461 2488
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 65 2461 2489 "ogtkBaseProps.ml" 65 2461 2510
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.accept_focus
+)
+"ogtkBaseProps.ml" 65 2461 2511 "ogtkBaseProps.ml" 65 2461 2514
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 65 2461 2485 "ogtkBaseProps.ml" 65 2461 2514
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 66 2515 2537 "ogtkBaseProps.ml" 66 2515 2540
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 66 2515 2541 "ogtkBaseProps.ml" 66 2515 2560
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.allow_grow
+)
+"ogtkBaseProps.ml" 66 2515 2561 "ogtkBaseProps.ml" 66 2515 2564
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 66 2515 2537 "ogtkBaseProps.ml" 66 2515 2564
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 67 2565 2589 "ogtkBaseProps.ml" 67 2565 2592
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 67 2565 2593 "ogtkBaseProps.ml" 67 2565 2614
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.allow_shrink
+)
+"ogtkBaseProps.ml" 67 2565 2615 "ogtkBaseProps.ml" 67 2565 2618
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 67 2565 2589 "ogtkBaseProps.ml" 67 2565 2618
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 68 2619 2640 "ogtkBaseProps.ml" 68 2619 2643
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 68 2619 2644 "ogtkBaseProps.ml" 68 2619 2662
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.decorated
+)
+"ogtkBaseProps.ml" 68 2619 2663 "ogtkBaseProps.ml" 68 2619 2666
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 68 2619 2640 "ogtkBaseProps.ml" 68 2619 2666
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 69 2667 2693 "ogtkBaseProps.ml" 69 2667 2696
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 69 2667 2697 "ogtkBaseProps.ml" 69 2667 2720
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.default_height
+)
+"ogtkBaseProps.ml" 69 2667 2721 "ogtkBaseProps.ml" 69 2667 2724
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 69 2667 2693 "ogtkBaseProps.ml" 69 2667 2724
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkBaseProps.ml" 70 2725 2750 "ogtkBaseProps.ml" 70 2725 2753
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 70 2725 2754 "ogtkBaseProps.ml" 70 2725 2776
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.default_width
+)
+"ogtkBaseProps.ml" 70 2725 2777 "ogtkBaseProps.ml" 70 2725 2780
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 70 2725 2750 "ogtkBaseProps.ml" 70 2725 2780
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkBaseProps.ml" 71 2781 2802 "ogtkBaseProps.ml" 71 2781 2805
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 71 2781 2806 "ogtkBaseProps.ml" 71 2781 2824
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.deletable
+)
+"ogtkBaseProps.ml" 71 2781 2825 "ogtkBaseProps.ml" 71 2781 2828
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 71 2781 2802 "ogtkBaseProps.ml" 71 2781 2828
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 72 2829 2860 "ogtkBaseProps.ml" 72 2829 2863
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 72 2829 2864 "ogtkBaseProps.ml" 72 2829 2892
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.destroy_with_parent
+)
+"ogtkBaseProps.ml" 72 2829 2893 "ogtkBaseProps.ml" 72 2829 2896
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 72 2829 2860 "ogtkBaseProps.ml" 72 2829 2896
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 73 2897 2921 "ogtkBaseProps.ml" 73 2897 2924
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 73 2897 2925 "ogtkBaseProps.ml" 73 2897 2946
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.focus_on_map
+)
+"ogtkBaseProps.ml" 73 2897 2947 "ogtkBaseProps.ml" 73 2897 2950
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 73 2897 2921 "ogtkBaseProps.ml" 73 2897 2950
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 74 2951 2970 "ogtkBaseProps.ml" 74 2951 2973
+type(
+  ('a, GdkEnums.gravity) Gobject.property ->
+  'a Gobject.obj -> GdkEnums.gravity
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 74 2951 2974 "ogtkBaseProps.ml" 74 2951 2990
+type(
+  ('a, GdkEnums.gravity) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.gravity
+)
+"ogtkBaseProps.ml" 74 2951 2991 "ogtkBaseProps.ml" 74 2951 2994
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 74 2951 2970 "ogtkBaseProps.ml" 74 2951 2994
+call(
+  tail
+)
+type(
+  GdkEnums.gravity
+)
+type(
+  GdkEnums.gravity
+)
+"ogtkBaseProps.ml" 75 2995 3025 "ogtkBaseProps.ml" 75 2995 3028
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 75 2995 3029 "ogtkBaseProps.ml" 75 2995 3056
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.has_toplevel_focus
+)
+"ogtkBaseProps.ml" 75 2995 3057 "ogtkBaseProps.ml" 75 2995 3060
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 75 2995 3025 "ogtkBaseProps.ml" 75 2995 3060
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 76 3061 3077 "ogtkBaseProps.ml" 76 3061 3080
+type(
+  ('a, GdkPixbuf.pixbuf option) Gobject.property ->
+  'a Gobject.obj -> GdkPixbuf.pixbuf option
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 76 3061 3081 "ogtkBaseProps.ml" 76 3061 3094
+type(
+  ('a, GdkPixbuf.pixbuf option) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.icon
+)
+"ogtkBaseProps.ml" 76 3061 3095 "ogtkBaseProps.ml" 76 3061 3098
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 76 3061 3077 "ogtkBaseProps.ml" 76 3061 3098
+call(
+  tail
+)
+type(
+  GdkPixbuf.pixbuf option
+)
+type(
+  GdkPixbuf.pixbuf option
+)
+"ogtkBaseProps.ml" 77 3099 3120 "ogtkBaseProps.ml" 77 3099 3123
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 77 3099 3124 "ogtkBaseProps.ml" 77 3099 3142
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.icon_name
+)
+"ogtkBaseProps.ml" 77 3099 3143 "ogtkBaseProps.ml" 77 3099 3146
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 77 3099 3120 "ogtkBaseProps.ml" 77 3099 3146
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkBaseProps.ml" 78 3147 3168 "ogtkBaseProps.ml" 78 3147 3171
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 78 3147 3172 "ogtkBaseProps.ml" 78 3147 3190
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.is_active
+)
+"ogtkBaseProps.ml" 78 3147 3191 "ogtkBaseProps.ml" 78 3147 3194
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 78 3147 3168 "ogtkBaseProps.ml" 78 3147 3194
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 79 3195 3212 "ogtkBaseProps.ml" 79 3195 3215
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 79 3195 3216 "ogtkBaseProps.ml" 79 3195 3230
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.modal
+)
+"ogtkBaseProps.ml" 79 3195 3231 "ogtkBaseProps.ml" 79 3195 3234
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 79 3195 3212 "ogtkBaseProps.ml" 79 3195 3234
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 80 3235 3255 "ogtkBaseProps.ml" 80 3235 3258
+type(
+  ('a, GtkEnums.window_position) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.window_position
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 80 3235 3259 "ogtkBaseProps.ml" 80 3235 3283
+type(
+  ('a, GtkEnums.window_position) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.window_position
+)
+"ogtkBaseProps.ml" 80 3235 3284 "ogtkBaseProps.ml" 80 3235 3287
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 80 3235 3255 "ogtkBaseProps.ml" 80 3235 3287
+call(
+  tail
+)
+type(
+  GtkEnums.window_position
+)
+type(
+  GtkEnums.window_position
+)
+"ogtkBaseProps.ml" 81 3288 3307 "ogtkBaseProps.ml" 81 3288 3310
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 81 3288 3311 "ogtkBaseProps.ml" 81 3288 3327
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.opacity
+)
+"ogtkBaseProps.ml" 81 3288 3328 "ogtkBaseProps.ml" 81 3288 3331
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 81 3288 3307 "ogtkBaseProps.ml" 81 3288 3331
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkBaseProps.ml" 82 3332 3353 "ogtkBaseProps.ml" 82 3332 3356
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 82 3332 3357 "ogtkBaseProps.ml" 82 3332 3375
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.resizable
+)
+"ogtkBaseProps.ml" 82 3332 3376 "ogtkBaseProps.ml" 82 3332 3379
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 82 3332 3353 "ogtkBaseProps.ml" 82 3332 3379
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 83 3380 3396 "ogtkBaseProps.ml" 83 3380 3399
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 83 3380 3400 "ogtkBaseProps.ml" 83 3380 3413
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.role
+)
+"ogtkBaseProps.ml" 83 3380 3414 "ogtkBaseProps.ml" 83 3380 3417
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 83 3380 3396 "ogtkBaseProps.ml" 83 3380 3417
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkBaseProps.ml" 84 3418 3436 "ogtkBaseProps.ml" 84 3418 3439
+type(
+  ('a, Gdk.screen) Gobject.property -> 'a Gobject.obj -> Gdk.screen
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 84 3418 3440 "ogtkBaseProps.ml" 84 3418 3455
+type(
+  ('a, Gdk.screen) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.screen
+)
+"ogtkBaseProps.ml" 84 3418 3456 "ogtkBaseProps.ml" 84 3418 3459
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 84 3418 3436 "ogtkBaseProps.ml" 84 3418 3459
+call(
+  tail
+)
+type(
+  Gdk.screen
+)
+type(
+  Gdk.screen
+)
+"ogtkBaseProps.ml" 85 3460 3487 "ogtkBaseProps.ml" 85 3460 3490
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 85 3460 3491 "ogtkBaseProps.ml" 85 3460 3515
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.skip_pager_hint
+)
+"ogtkBaseProps.ml" 85 3460 3516 "ogtkBaseProps.ml" 85 3460 3519
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 85 3460 3487 "ogtkBaseProps.ml" 85 3460 3519
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 86 3520 3549 "ogtkBaseProps.ml" 86 3520 3552
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 86 3520 3553 "ogtkBaseProps.ml" 86 3520 3579
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.skip_taskbar_hint
+)
+"ogtkBaseProps.ml" 86 3520 3580 "ogtkBaseProps.ml" 86 3520 3583
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 86 3520 3549 "ogtkBaseProps.ml" 86 3520 3583
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 87 3584 3600 "ogtkBaseProps.ml" 87 3584 3603
+type(
+  ('a, GtkEnums.window_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.window_type
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 87 3584 3604 "ogtkBaseProps.ml" 87 3584 3617
+type(
+  ('a, GtkEnums.window_type) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.kind
+)
+"ogtkBaseProps.ml" 87 3584 3618 "ogtkBaseProps.ml" 87 3584 3621
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 87 3584 3600 "ogtkBaseProps.ml" 87 3584 3621
+call(
+  tail
+)
+type(
+  GtkEnums.window_type
+)
+type(
+  GtkEnums.window_type
+)
+"ogtkBaseProps.ml" 88 3622 3643 "ogtkBaseProps.ml" 88 3622 3646
+type(
+  ('a, GdkEnums.window_type_hint) Gobject.property ->
+  'a Gobject.obj -> GdkEnums.window_type_hint
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 88 3622 3647 "ogtkBaseProps.ml" 88 3622 3665
+type(
+  ('a, GdkEnums.window_type_hint) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.type_hint
+)
+"ogtkBaseProps.ml" 88 3622 3666 "ogtkBaseProps.ml" 88 3622 3669
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 88 3622 3643 "ogtkBaseProps.ml" 88 3622 3669
+call(
+  tail
+)
+type(
+  GdkEnums.window_type_hint
+)
+type(
+  GdkEnums.window_type_hint
+)
+"ogtkBaseProps.ml" 89 3670 3694 "ogtkBaseProps.ml" 89 3670 3697
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 89 3670 3698 "ogtkBaseProps.ml" 89 3670 3719
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Window.P.urgency_hint
+)
+"ogtkBaseProps.ml" 89 3670 3720 "ogtkBaseProps.ml" 89 3670 3723
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 89 3670 3694 "ogtkBaseProps.ml" 89 3670 3723
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 94 3791 3820 "ogtkBaseProps.ml" 94 3791 3823
+type(
+  ([> `dialog ] as 'a, bool) Gobject.property ->
+  'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 94 3791 3824 "ogtkBaseProps.ml" 94 3791 3846
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Dialog.P.has_separator
+)
+"ogtkBaseProps.ml" 94 3791 3847 "ogtkBaseProps.ml" 94 3791 3850
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 94 3791 3820 "ogtkBaseProps.ml" 94 3791 3850
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBaseProps.ml" 95 3851 3876 "ogtkBaseProps.ml" 95 3851 3879
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 95 3851 3880 "ogtkBaseProps.ml" 95 3851 3902
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.Dialog.P.has_separator
+)
+"ogtkBaseProps.ml" 95 3851 3903 "ogtkBaseProps.ml" 95 3851 3906
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 95 3851 3876 "ogtkBaseProps.ml" 95 3851 3906
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 100 3982 4006 "ogtkBaseProps.ml" 100 3982 4009
+type(
+  ([> `fileselection ] as 'a, string) Gobject.property ->
+  'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 100 3982 4010 "ogtkBaseProps.ml" 100 3982 4034
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.FileSelection.P.filename
+)
+"ogtkBaseProps.ml" 100 3982 4035 "ogtkBaseProps.ml" 100 3982 4038
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 100 3982 4006 "ogtkBaseProps.ml" 100 3982 4038
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkBaseProps.ml" 101 4039 4070 "ogtkBaseProps.ml" 101 4039 4073
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 101 4039 4074 "ogtkBaseProps.ml" 101 4039 4105
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.FileSelection.P.select_multiple
+)
+"ogtkBaseProps.ml" 101 4039 4106 "ogtkBaseProps.ml" 101 4039 4109
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 101 4039 4070 "ogtkBaseProps.ml" 101 4039 4109
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBaseProps.ml" 102 4110 4138 "ogtkBaseProps.ml" 102 4110 4141
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 102 4110 4142 "ogtkBaseProps.ml" 102 4110 4170
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.FileSelection.P.show_fileops
+)
+"ogtkBaseProps.ml" 102 4110 4171 "ogtkBaseProps.ml" 102 4110 4174
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 102 4110 4138 "ogtkBaseProps.ml" 102 4110 4174
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBaseProps.ml" 103 4175 4195 "ogtkBaseProps.ml" 103 4175 4198
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 103 4175 4199 "ogtkBaseProps.ml" 103 4175 4223
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.FileSelection.P.filename
+)
+"ogtkBaseProps.ml" 103 4175 4224 "ogtkBaseProps.ml" 103 4175 4227
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 103 4175 4195 "ogtkBaseProps.ml" 103 4175 4227
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkBaseProps.ml" 104 4228 4255 "ogtkBaseProps.ml" 104 4228 4258
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 104 4228 4259 "ogtkBaseProps.ml" 104 4228 4290
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.FileSelection.P.select_multiple
+)
+"ogtkBaseProps.ml" 104 4228 4291 "ogtkBaseProps.ml" 104 4228 4294
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 104 4228 4255 "ogtkBaseProps.ml" 104 4228 4294
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 105 4295 4319 "ogtkBaseProps.ml" 105 4295 4322
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 105 4295 4323 "ogtkBaseProps.ml" 105 4295 4351
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.FileSelection.P.show_fileops
+)
+"ogtkBaseProps.ml" 105 4295 4352 "ogtkBaseProps.ml" 105 4295 4355
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 105 4295 4319 "ogtkBaseProps.ml" 105 4295 4355
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 110 4431 4459 "ogtkBaseProps.ml" 110 4431 4462
+type(
+  ([> `messagedialog ] as 'a, GtkEnums.message_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.message_type -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 110 4431 4463 "ogtkBaseProps.ml" 110 4431 4491
+type(
+  ('a, GtkEnums.message_type) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.MessageDialog.P.message_type
+)
+"ogtkBaseProps.ml" 110 4431 4492 "ogtkBaseProps.ml" 110 4431 4495
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 110 4431 4459 "ogtkBaseProps.ml" 110 4431 4495
+call(
+  tail
+)
+type(
+  GtkEnums.message_type -> unit
+)
+type(
+  GtkEnums.message_type -> unit
+)
+"ogtkBaseProps.ml" 111 4496 4520 "ogtkBaseProps.ml" 111 4496 4523
+type(
+  ('a, GtkEnums.message_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.message_type
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 111 4496 4524 "ogtkBaseProps.ml" 111 4496 4552
+type(
+  ('a, GtkEnums.message_type) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.MessageDialog.P.message_type
+)
+"ogtkBaseProps.ml" 111 4496 4553 "ogtkBaseProps.ml" 111 4496 4556
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 111 4496 4520 "ogtkBaseProps.ml" 111 4496 4556
+call(
+  tail
+)
+type(
+  GtkEnums.message_type
+)
+type(
+  GtkEnums.message_type
+)
+"ogtkBaseProps.ml" 116 4630 4654 "ogtkBaseProps.ml" 116 4630 4657
+type(
+  ([> `aboutdialog ] as 'a, string) Gobject.property ->
+  'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 116 4630 4658 "ogtkBaseProps.ml" 116 4630 4680
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.comments
+)
+"ogtkBaseProps.ml" 116 4630 4681 "ogtkBaseProps.ml" 116 4630 4684
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 116 4630 4654 "ogtkBaseProps.ml" 116 4630 4684
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkBaseProps.ml" 117 4685 4710 "ogtkBaseProps.ml" 117 4685 4713
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 117 4685 4714 "ogtkBaseProps.ml" 117 4685 4737
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.copyright
+)
+"ogtkBaseProps.ml" 117 4685 4738 "ogtkBaseProps.ml" 117 4685 4741
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 117 4685 4710 "ogtkBaseProps.ml" 117 4685 4741
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkBaseProps.ml" 118 4742 4765 "ogtkBaseProps.ml" 118 4742 4768
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 118 4742 4769 "ogtkBaseProps.ml" 118 4742 4790
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.license
+)
+"ogtkBaseProps.ml" 118 4742 4791 "ogtkBaseProps.ml" 118 4742 4794
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 118 4742 4765 "ogtkBaseProps.ml" 118 4742 4794
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkBaseProps.ml" 119 4795 4815 "ogtkBaseProps.ml" 119 4795 4818
+type(
+  ('a, GdkPixbuf.pixbuf) Gobject.property ->
+  'a Gobject.obj -> GdkPixbuf.pixbuf -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 119 4795 4819 "ogtkBaseProps.ml" 119 4795 4837
+type(
+  ('a, GdkPixbuf.pixbuf) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.logo
+)
+"ogtkBaseProps.ml" 119 4795 4838 "ogtkBaseProps.ml" 119 4795 4841
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 119 4795 4815 "ogtkBaseProps.ml" 119 4795 4841
+call(
+  tail
+)
+type(
+  GdkPixbuf.pixbuf -> unit
+)
+type(
+  GdkPixbuf.pixbuf -> unit
+)
+"ogtkBaseProps.ml" 120 4842 4872 "ogtkBaseProps.ml" 120 4842 4875
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 120 4842 4876 "ogtkBaseProps.ml" 120 4842 4904
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.logo_icon_name
+)
+"ogtkBaseProps.ml" 120 4842 4905 "ogtkBaseProps.ml" 120 4842 4908
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 120 4842 4872 "ogtkBaseProps.ml" 120 4842 4908
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkBaseProps.ml" 121 4909 4943 "ogtkBaseProps.ml" 121 4909 4946
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 121 4909 4947 "ogtkBaseProps.ml" 121 4909 4979
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.translator_credits
+)
+"ogtkBaseProps.ml" 121 4909 4980 "ogtkBaseProps.ml" 121 4909 4983
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 121 4909 4943 "ogtkBaseProps.ml" 121 4909 4983
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkBaseProps.ml" 122 4984 5007 "ogtkBaseProps.ml" 122 4984 5010
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 122 4984 5011 "ogtkBaseProps.ml" 122 4984 5032
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.version
+)
+"ogtkBaseProps.ml" 122 4984 5033 "ogtkBaseProps.ml" 122 4984 5036
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 122 4984 5007 "ogtkBaseProps.ml" 122 4984 5036
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkBaseProps.ml" 123 5037 5060 "ogtkBaseProps.ml" 123 5037 5063
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 123 5037 5064 "ogtkBaseProps.ml" 123 5037 5085
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.website
+)
+"ogtkBaseProps.ml" 123 5037 5086 "ogtkBaseProps.ml" 123 5037 5089
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 123 5037 5060 "ogtkBaseProps.ml" 123 5037 5089
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkBaseProps.ml" 124 5090 5119 "ogtkBaseProps.ml" 124 5090 5122
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 124 5090 5123 "ogtkBaseProps.ml" 124 5090 5150
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.website_label
+)
+"ogtkBaseProps.ml" 124 5090 5151 "ogtkBaseProps.ml" 124 5090 5154
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 124 5090 5119 "ogtkBaseProps.ml" 124 5090 5154
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkBaseProps.ml" 125 5155 5183 "ogtkBaseProps.ml" 125 5155 5186
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkBaseProps.ml" 4 38 42 "ogtkBaseProps.ml" 4 38 45
+)
+"ogtkBaseProps.ml" 125 5155 5187 "ogtkBaseProps.ml" 125 5155 5213
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.wrap_license
+)
+"ogtkBaseProps.ml" 125 5155 5214 "ogtkBaseProps.ml" 125 5155 5217
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 125 5155 5183 "ogtkBaseProps.ml" 125 5155 5217
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkBaseProps.ml" 126 5218 5238 "ogtkBaseProps.ml" 126 5218 5241
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 126 5218 5242 "ogtkBaseProps.ml" 126 5218 5264
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.comments
+)
+"ogtkBaseProps.ml" 126 5218 5265 "ogtkBaseProps.ml" 126 5218 5268
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 126 5218 5238 "ogtkBaseProps.ml" 126 5218 5268
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkBaseProps.ml" 127 5269 5290 "ogtkBaseProps.ml" 127 5269 5293
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 127 5269 5294 "ogtkBaseProps.ml" 127 5269 5317
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.copyright
+)
+"ogtkBaseProps.ml" 127 5269 5318 "ogtkBaseProps.ml" 127 5269 5321
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 127 5269 5290 "ogtkBaseProps.ml" 127 5269 5321
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkBaseProps.ml" 128 5322 5341 "ogtkBaseProps.ml" 128 5322 5344
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 128 5322 5345 "ogtkBaseProps.ml" 128 5322 5366
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.license
+)
+"ogtkBaseProps.ml" 128 5322 5367 "ogtkBaseProps.ml" 128 5322 5370
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 128 5322 5341 "ogtkBaseProps.ml" 128 5322 5370
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkBaseProps.ml" 129 5371 5387 "ogtkBaseProps.ml" 129 5371 5390
+type(
+  ('a, GdkPixbuf.pixbuf) Gobject.property ->
+  'a Gobject.obj -> GdkPixbuf.pixbuf
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 129 5371 5391 "ogtkBaseProps.ml" 129 5371 5409
+type(
+  ('a, GdkPixbuf.pixbuf) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.logo
+)
+"ogtkBaseProps.ml" 129 5371 5410 "ogtkBaseProps.ml" 129 5371 5413
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 129 5371 5387 "ogtkBaseProps.ml" 129 5371 5413
+call(
+  tail
+)
+type(
+  GdkPixbuf.pixbuf
+)
+type(
+  GdkPixbuf.pixbuf
+)
+"ogtkBaseProps.ml" 130 5414 5440 "ogtkBaseProps.ml" 130 5414 5443
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 130 5414 5444 "ogtkBaseProps.ml" 130 5414 5472
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.logo_icon_name
+)
+"ogtkBaseProps.ml" 130 5414 5473 "ogtkBaseProps.ml" 130 5414 5476
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 130 5414 5440 "ogtkBaseProps.ml" 130 5414 5476
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkBaseProps.ml" 131 5477 5507 "ogtkBaseProps.ml" 131 5477 5510
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 131 5477 5511 "ogtkBaseProps.ml" 131 5477 5543
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.translator_credits
+)
+"ogtkBaseProps.ml" 131 5477 5544 "ogtkBaseProps.ml" 131 5477 5547
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 131 5477 5507 "ogtkBaseProps.ml" 131 5477 5547
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkBaseProps.ml" 132 5548 5567 "ogtkBaseProps.ml" 132 5548 5570
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 132 5548 5571 "ogtkBaseProps.ml" 132 5548 5592
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.version
+)
+"ogtkBaseProps.ml" 132 5548 5593 "ogtkBaseProps.ml" 132 5548 5596
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 132 5548 5567 "ogtkBaseProps.ml" 132 5548 5596
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkBaseProps.ml" 133 5597 5616 "ogtkBaseProps.ml" 133 5597 5619
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 133 5597 5620 "ogtkBaseProps.ml" 133 5597 5641
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.website
+)
+"ogtkBaseProps.ml" 133 5597 5642 "ogtkBaseProps.ml" 133 5597 5645
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 133 5597 5616 "ogtkBaseProps.ml" 133 5597 5645
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkBaseProps.ml" 134 5646 5671 "ogtkBaseProps.ml" 134 5646 5674
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 134 5646 5675 "ogtkBaseProps.ml" 134 5646 5702
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.website_label
+)
+"ogtkBaseProps.ml" 134 5646 5703 "ogtkBaseProps.ml" 134 5646 5706
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 134 5646 5671 "ogtkBaseProps.ml" 134 5646 5706
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkBaseProps.ml" 135 5707 5731 "ogtkBaseProps.ml" 135 5707 5734
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkBaseProps.ml" 5 52 56 "ogtkBaseProps.ml" 5 52 59
+)
+"ogtkBaseProps.ml" 135 5707 5735 "ogtkBaseProps.ml" 135 5707 5761
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBaseProps.AboutDialog.P.wrap_license
+)
+"ogtkBaseProps.ml" 135 5707 5762 "ogtkBaseProps.ml" 135 5707 5765
+type(
+  'a Gobject.obj
+)
+"ogtkBaseProps.ml" 135 5707 5731 "ogtkBaseProps.ml" 135 5707 5765
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkBaseProps.ml" 138 5771 5804 "ogtkBaseProps.ml" 138 5771 5810
+type(
+  < embedded : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkBaseProps.ml" 141 5905 5925 "ogtkBaseProps.ml" 141 5905 5929
+type(
+  < embedded : callback:(unit -> unit) -> GtkSignal.id; .. > as 'a
+)
+"ogtkBaseProps.ml" 141 5905 5925 "ogtkBaseProps.ml" 141 5905 5937
+call(
+  tail
+)
+type(
+  ([> `plug ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBaseProps.ml" 141 5905 5938 "ogtkBaseProps.ml" 141 5905 5953
+type(
+  ([> `plug ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBaseProps.Plug.S.embedded
+)
+"ogtkBaseProps.ml" 141 5905 5925 "ogtkBaseProps.ml" 141 5905 5953
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBaseProps.ml" 144 5959 5994 "ogtkBaseProps.ml" 144 5959 6000
+type(
+  < plug_added : callback:(unit -> unit) -> GtkSignal.id;
+    plug_removed : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkBaseProps.ml" 147 6095 6117 "ogtkBaseProps.ml" 147 6095 6121
+type(
+  < plug_added : callback:(unit -> unit) -> GtkSignal.id;
+    plug_removed : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkBaseProps.ml" 147 6095 6117 "ogtkBaseProps.ml" 147 6095 6129
+call(
+  tail
+)
+type(
+  ([> `socket ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBaseProps.ml" 147 6095 6130 "ogtkBaseProps.ml" 147 6095 6149
+type(
+  ([> `socket ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBaseProps.Socket.S.plug_added
+)
+"ogtkBaseProps.ml" 147 6095 6117 "ogtkBaseProps.ml" 147 6095 6149
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBaseProps.ml" 148 6150 6174 "ogtkBaseProps.ml" 148 6150 6178
+type(
+  'a
+)
+"ogtkBaseProps.ml" 148 6150 6174 "ogtkBaseProps.ml" 148 6150 6186
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkBaseProps.ml" 148 6150 6187 "ogtkBaseProps.ml" 148 6150 6208
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBaseProps.Socket.S.plug_removed
+)
+"ogtkBaseProps.ml" 148 6150 6174 "ogtkBaseProps.ml" 148 6150 6208
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)

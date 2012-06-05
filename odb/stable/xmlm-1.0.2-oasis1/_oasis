@@ -1,0 +1,13 @@
+OASISFormat: 0.2
+Name:        xmlm
+Version:     1.0.2-oasis1
+Synopsis:    An OCaml module for streaming XML processing.
+Authors:     Daniel Bünzli
+License:     BSD3
+Plugins:     META (0.2), StdFiles (0.2)
+
+Library xmlm
+  Path:       src
+  BuildTools: ocamlbuild
+  Modules:    Xmlm
+

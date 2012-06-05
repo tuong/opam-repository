@@ -1,0 +1,4 @@
+deps=make
+tarball=json-wheel-1.0.6~oasis3.tar.gz
+is_library=true
+is_program=false

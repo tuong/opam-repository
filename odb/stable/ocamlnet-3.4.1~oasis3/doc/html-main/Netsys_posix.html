@@ -1,0 +1,1660 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Netsys.html">
+<link rel="next" href="Netsys_pollset.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class attributes" rel=Appendix href="index_attributes.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Uq_gtk" rel="Chapter" href="Uq_gtk.html">
+<link title="Uq_ssl" rel="Chapter" href="Uq_ssl.html">
+<link title="Https_client" rel="Chapter" href="Https_client.html">
+<link title="Uq_tcl" rel="Chapter" href="Uq_tcl.html">
+<link title="Equeue" rel="Chapter" href="Equeue.html">
+<link title="Unixqueue" rel="Chapter" href="Unixqueue.html">
+<link title="Unixqueue_pollset" rel="Chapter" href="Unixqueue_pollset.html">
+<link title="Unixqueue_select" rel="Chapter" href="Unixqueue_select.html">
+<link title="Uq_resolver" rel="Chapter" href="Uq_resolver.html">
+<link title="Uq_engines" rel="Chapter" href="Uq_engines.html">
+<link title="Uq_socks5" rel="Chapter" href="Uq_socks5.html">
+<link title="Uq_io" rel="Chapter" href="Uq_io.html">
+<link title="Uq_lwt" rel="Chapter" href="Uq_lwt.html">
+<link title="Uq_libevent" rel="Chapter" href="Uq_libevent.html">
+<link title="Equeue_intro" rel="Chapter" href="Equeue_intro.html">
+<link title="Netcamlbox" rel="Chapter" href="Netcamlbox.html">
+<link title="Netcgi_apache" rel="Chapter" href="Netcgi_apache.html">
+<link title="Netcgi_modtpl" rel="Chapter" href="Netcgi_modtpl.html">
+<link title="Netcgi_plex" rel="Chapter" href="Netcgi_plex.html">
+<link title="Netcgi_common" rel="Chapter" href="Netcgi_common.html">
+<link title="Netcgi" rel="Chapter" href="Netcgi.html">
+<link title="Netcgi_ajp" rel="Chapter" href="Netcgi_ajp.html">
+<link title="Netcgi_scgi" rel="Chapter" href="Netcgi_scgi.html">
+<link title="Netcgi_cgi" rel="Chapter" href="Netcgi_cgi.html">
+<link title="Netcgi_fcgi" rel="Chapter" href="Netcgi_fcgi.html">
+<link title="Netcgi_dbi" rel="Chapter" href="Netcgi_dbi.html">
+<link title="Netcgi1_compat" rel="Chapter" href="Netcgi1_compat.html">
+<link title="Netcgi_test" rel="Chapter" href="Netcgi_test.html">
+<link title="Netcgi_porting" rel="Chapter" href="Netcgi_porting.html">
+<link title="Http_client_conncache" rel="Chapter" href="Http_client_conncache.html">
+<link title="Http_client" rel="Chapter" href="Http_client.html">
+<link title="Telnet_client" rel="Chapter" href="Telnet_client.html">
+<link title="Ftp_data_endpoint" rel="Chapter" href="Ftp_data_endpoint.html">
+<link title="Ftp_client" rel="Chapter" href="Ftp_client.html">
+<link title="Http_fs" rel="Chapter" href="Http_fs.html">
+<link title="Ftp_fs" rel="Chapter" href="Ftp_fs.html">
+<link title="Netclient_tut" rel="Chapter" href="Netclient_tut.html">
+<link title="Netgssapi" rel="Chapter" href="Netgssapi.html">
+<link title="Nethttpd_types" rel="Chapter" href="Nethttpd_types.html">
+<link title="Nethttpd_kernel" rel="Chapter" href="Nethttpd_kernel.html">
+<link title="Nethttpd_reactor" rel="Chapter" href="Nethttpd_reactor.html">
+<link title="Nethttpd_engine" rel="Chapter" href="Nethttpd_engine.html">
+<link title="Nethttpd_services" rel="Chapter" href="Nethttpd_services.html">
+<link title="Nethttpd_plex" rel="Chapter" href="Nethttpd_plex.html">
+<link title="Nethttpd_util" rel="Chapter" href="Nethttpd_util.html">
+<link title="Nethttpd_intro" rel="Chapter" href="Nethttpd_intro.html">
+<link title="Netmech_scram" rel="Chapter" href="Netmech_scram.html">
+<link title="Netmech_scram_gssapi" rel="Chapter" href="Netmech_scram_gssapi.html">
+<link title="Netmcore" rel="Chapter" href="Netmcore.html">
+<link title="Netmcore_camlbox" rel="Chapter" href="Netmcore_camlbox.html">
+<link title="Netmcore_mempool" rel="Chapter" href="Netmcore_mempool.html">
+<link title="Netmcore_heap" rel="Chapter" href="Netmcore_heap.html">
+<link title="Netmcore_ref" rel="Chapter" href="Netmcore_ref.html">
+<link title="Netmcore_array" rel="Chapter" href="Netmcore_array.html">
+<link title="Netmcore_sem" rel="Chapter" href="Netmcore_sem.html">
+<link title="Netmcore_mutex" rel="Chapter" href="Netmcore_mutex.html">
+<link title="Netmcore_condition" rel="Chapter" href="Netmcore_condition.html">
+<link title="Netmcore_queue" rel="Chapter" href="Netmcore_queue.html">
+<link title="Netmcore_buffer" rel="Chapter" href="Netmcore_buffer.html">
+<link title="Netmcore_matrix" rel="Chapter" href="Netmcore_matrix.html">
+<link title="Netmcore_hashtbl" rel="Chapter" href="Netmcore_hashtbl.html">
+<link title="Netmcore_process" rel="Chapter" href="Netmcore_process.html">
+<link title="Netmcore_tut" rel="Chapter" href="Netmcore_tut.html">
+<link title="Netplex_types" rel="Chapter" href="Netplex_types.html">
+<link title="Netplex_mp" rel="Chapter" href="Netplex_mp.html">
+<link title="Netplex_mt" rel="Chapter" href="Netplex_mt.html">
+<link title="Netplex_log" rel="Chapter" href="Netplex_log.html">
+<link title="Netplex_controller" rel="Chapter" href="Netplex_controller.html">
+<link title="Netplex_container" rel="Chapter" href="Netplex_container.html">
+<link title="Netplex_sockserv" rel="Chapter" href="Netplex_sockserv.html">
+<link title="Netplex_workload" rel="Chapter" href="Netplex_workload.html">
+<link title="Netplex_main" rel="Chapter" href="Netplex_main.html">
+<link title="Netplex_config" rel="Chapter" href="Netplex_config.html">
+<link title="Netplex_kit" rel="Chapter" href="Netplex_kit.html">
+<link title="Rpc_netplex" rel="Chapter" href="Rpc_netplex.html">
+<link title="Netplex_cenv" rel="Chapter" href="Netplex_cenv.html">
+<link title="Netplex_semaphore" rel="Chapter" href="Netplex_semaphore.html">
+<link title="Netplex_sharedvar" rel="Chapter" href="Netplex_sharedvar.html">
+<link title="Netplex_mutex" rel="Chapter" href="Netplex_mutex.html">
+<link title="Netplex_encap" rel="Chapter" href="Netplex_encap.html">
+<link title="Netplex_intro" rel="Chapter" href="Netplex_intro.html">
+<link title="Netplex_advanced" rel="Chapter" href="Netplex_advanced.html">
+<link title="Netplex_admin" rel="Chapter" href="Netplex_admin.html">
+<link title="Netshm" rel="Chapter" href="Netshm.html">
+<link title="Netshm_data" rel="Chapter" href="Netshm_data.html">
+<link title="Netshm_hashtbl" rel="Chapter" href="Netshm_hashtbl.html">
+<link title="Netshm_array" rel="Chapter" href="Netshm_array.html">
+<link title="Netshm_intro" rel="Chapter" href="Netshm_intro.html">
+<link title="Netconversion" rel="Chapter" href="Netconversion.html">
+<link title="Netchannels" rel="Chapter" href="Netchannels.html">
+<link title="Netstream" rel="Chapter" href="Netstream.html">
+<link title="Mimestring" rel="Chapter" href="Mimestring.html">
+<link title="Netmime" rel="Chapter" href="Netmime.html">
+<link title="Netsendmail" rel="Chapter" href="Netsendmail.html">
+<link title="Neturl" rel="Chapter" href="Neturl.html">
+<link title="Netaddress" rel="Chapter" href="Netaddress.html">
+<link title="Netbuffer" rel="Chapter" href="Netbuffer.html">
+<link title="Netdate" rel="Chapter" href="Netdate.html">
+<link title="Netencoding" rel="Chapter" href="Netencoding.html">
+<link title="Netulex" rel="Chapter" href="Netulex.html">
+<link title="Netaccel" rel="Chapter" href="Netaccel.html">
+<link title="Netaccel_link" rel="Chapter" href="Netaccel_link.html">
+<link title="Nethtml" rel="Chapter" href="Nethtml.html">
+<link title="Netstring_str" rel="Chapter" href="Netstring_str.html">
+<link title="Netstring_pcre" rel="Chapter" href="Netstring_pcre.html">
+<link title="Netmappings" rel="Chapter" href="Netmappings.html">
+<link title="Netaux" rel="Chapter" href="Netaux.html">
+<link title="Nethttp" rel="Chapter" href="Nethttp.html">
+<link title="Netpagebuffer" rel="Chapter" href="Netpagebuffer.html">
+<link title="Netfs" rel="Chapter" href="Netfs.html">
+<link title="Netglob" rel="Chapter" href="Netglob.html">
+<link title="Netauth" rel="Chapter" href="Netauth.html">
+<link title="Netsockaddr" rel="Chapter" href="Netsockaddr.html">
+<link title="Netnumber" rel="Chapter" href="Netnumber.html">
+<link title="Rtypes" rel="Chapter" href="Rtypes.html">
+<link title="Xdr_mstring" rel="Chapter" href="Xdr_mstring.html">
+<link title="Xdr" rel="Chapter" href="Xdr.html">
+<link title="Netcompression" rel="Chapter" href="Netcompression.html">
+<link title="Netchannels_tut" rel="Chapter" href="Netchannels_tut.html">
+<link title="Netmime_tut" rel="Chapter" href="Netmime_tut.html">
+<link title="Netsendmail_tut" rel="Chapter" href="Netsendmail_tut.html">
+<link title="Netulex_tut" rel="Chapter" href="Netulex_tut.html">
+<link title="Neturl_tut" rel="Chapter" href="Neturl_tut.html">
+<link title="Netsys" rel="Chapter" href="Netsys.html">
+<link title="Netsys_posix" rel="Chapter" href="Netsys_posix.html">
+<link title="Netsys_pollset" rel="Chapter" href="Netsys_pollset.html">
+<link title="Netlog" rel="Chapter" href="Netlog.html">
+<link title="Netexn" rel="Chapter" href="Netexn.html">
+<link title="Netsys_win32" rel="Chapter" href="Netsys_win32.html">
+<link title="Netsys_pollset_posix" rel="Chapter" href="Netsys_pollset_posix.html">
+<link title="Netsys_pollset_win32" rel="Chapter" href="Netsys_pollset_win32.html">
+<link title="Netsys_pollset_generic" rel="Chapter" href="Netsys_pollset_generic.html">
+<link title="Netsys_signal" rel="Chapter" href="Netsys_signal.html">
+<link title="Netsys_oothr" rel="Chapter" href="Netsys_oothr.html">
+<link title="Netsys_xdr" rel="Chapter" href="Netsys_xdr.html">
+<link title="Netsys_rng" rel="Chapter" href="Netsys_rng.html">
+<link title="Netsys_types" rel="Chapter" href="Netsys_types.html">
+<link title="Netsys_mem" rel="Chapter" href="Netsys_mem.html">
+<link title="Netsys_tmp" rel="Chapter" href="Netsys_tmp.html">
+<link title="Netgzip" rel="Chapter" href="Netgzip.html">
+<link title="Netpop" rel="Chapter" href="Netpop.html">
+<link title="Rpc_auth_dh" rel="Chapter" href="Rpc_auth_dh.html">
+<link title="Rpc_key_service" rel="Chapter" href="Rpc_key_service.html">
+<link title="Rpc_time" rel="Chapter" href="Rpc_time.html">
+<link title="Rpc_auth_local" rel="Chapter" href="Rpc_auth_local.html">
+<link title="Rpc_ssl" rel="Chapter" href="Rpc_ssl.html">
+<link title="Rpc_xti_client" rel="Chapter" href="Rpc_xti_client.html">
+<link title="Rpc" rel="Chapter" href="Rpc.html">
+<link title="Rpc_program" rel="Chapter" href="Rpc_program.html">
+<link title="Rpc_util" rel="Chapter" href="Rpc_util.html">
+<link title="Rpc_portmapper_aux" rel="Chapter" href="Rpc_portmapper_aux.html">
+<link title="Rpc_packer" rel="Chapter" href="Rpc_packer.html">
+<link title="Rpc_transport" rel="Chapter" href="Rpc_transport.html">
+<link title="Rpc_client" rel="Chapter" href="Rpc_client.html">
+<link title="Rpc_simple_client" rel="Chapter" href="Rpc_simple_client.html">
+<link title="Rpc_portmapper_clnt" rel="Chapter" href="Rpc_portmapper_clnt.html">
+<link title="Rpc_portmapper" rel="Chapter" href="Rpc_portmapper.html">
+<link title="Rpc_server" rel="Chapter" href="Rpc_server.html">
+<link title="Rpc_auth_sys" rel="Chapter" href="Rpc_auth_sys.html">
+<link title="Rpc_auth_gssapi" rel="Chapter" href="Rpc_auth_gssapi.html">
+<link title="Rpc_proxy" rel="Chapter" href="Rpc_proxy.html">
+<link title="Rpc_intro" rel="Chapter" href="Rpc_intro.html">
+<link title="Rpc_mapping_ref" rel="Chapter" href="Rpc_mapping_ref.html">
+<link title="Rpc_intro_gss" rel="Chapter" href="Rpc_intro_gss.html">
+<link title="Shell_sys" rel="Chapter" href="Shell_sys.html">
+<link title="Shell" rel="Chapter" href="Shell.html">
+<link title="Shell_uq" rel="Chapter" href="Shell_uq.html">
+<link title="Shell_fs" rel="Chapter" href="Shell_fs.html">
+<link title="Shell_intro" rel="Chapter" href="Shell_intro.html">
+<link title="Netsmtp" rel="Chapter" href="Netsmtp.html">
+<link title="Intro" rel="Chapter" href="Intro.html">
+<link title="Platform" rel="Chapter" href="Platform.html">
+<link title="Foreword" rel="Chapter" href="Foreword.html">
+<link title="Ipv6" rel="Chapter" href="Ipv6.html"><link title="File descriptor polling" rel="Section" href="#1_Filedescriptorpolling">
+<link title="Fork helpers" rel="Section" href="#1_Forkhelpers">
+<link title="The "at" variants of system calls" rel="Section" href="#1_Theatvariantsofsystemcalls">
+<link title="Misc" rel="Section" href="#1_Misc">
+<link title="Fork+exec" rel="Section" href="#1_Forkexec">
+<link title="Subprocesses and signals" rel="Section" href="#1_Subprocessesandsignals">
+<link title="Syslog" rel="Section" href="#1_Syslog">
+<link title="Sync" rel="Section" href="#1_Sync">
+<link title="Optional POSIX functions" rel="Section" href="#1_OptionalPOSIXfunctions">
+<link title="POSIX Shared Memory" rel="Section" href="#1_POSIXSharedMemory">
+<link title="POSIX semaphores" rel="Section" href="#1_POSIXsemaphores">
+<link title="Locales" rel="Section" href="#1_Locales">
+<link title="Linux I/O Priorities" rel="Section" href="#1_LinuxIOPriorities">
+<link title="Debugging" rel="Section" href="#1_Debugging">
+<title>Ocamlnet 3 Reference Manual : Netsys_posix</title>
+</head>
+<body>
+<div class="navbar"><a href="Netsys.html">Previous</a>
+&nbsp;<a href="index.html">Up</a>
+&nbsp;<a href="Netsys_pollset.html">Next</a>
+</div>
+<center><h1>Module <a href="type_Netsys_posix.html">Netsys_posix</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Netsys_posix: <code class="code">sig</code> <a href="Netsys_posix.html">..</a> <code class="code">end</code></pre>POSIX-specific system calls missing in the <code class="code">Unix</code> module<br>
+<hr width="100%">
+<br>
+<span id="1_Filedescriptorpolling"><h1>File descriptor polling</h1></span><br>
+<pre><span id="TYPEpoll_array"><span class="keyword">type</span> <code class="type"></code>poll_array</span> </pre>
+<div class="info">
+The array of <code class="code">poll_cell</code> entries<br>
+</div>
+
+<pre><span id="TYPEpoll_req_events"><span class="keyword">type</span> <code class="type"></code>poll_req_events</span> </pre>
+
+<pre><span id="TYPEpoll_act_events"><span class="keyword">type</span> <code class="type"></code>poll_act_events</span> </pre>
+<div class="info">
+Poll events. <code class="code">poll_req_events</code> is used to request that certain
+      event types are observed. <code class="code">poll_act_event</code> shows which 
+      event types are actually possible<br>
+</div>
+
+<br><code><span id="TYPEpoll_cell"><span class="keyword">type</span> <code class="type"></code>poll_cell</span> = {</code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span>poll_fd&nbsp;: <code class="type">Unix.file_descr</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span>poll_req_events&nbsp;: <code class="type"><a href="Netsys_posix.html#TYPEpoll_req_events">poll_req_events</a></code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span class="keyword">mutable&nbsp;</span>poll_act_events&nbsp;: <code class="type"><a href="Netsys_posix.html#TYPEpoll_act_events">poll_act_events</a></code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info">
+The poll cell refers to the descriptor <code class="code">poll_fd</code>. The <code class="code">poll_req_events</code>
+      are the events the descriptor is polled for. The <code class="code">poll_act_events</code>
+      are the actually reported events.<br>
+</div>
+
+<pre><span id="VALhave_poll"><span class="keyword">val</span> have_poll</span> : <code class="type">unit -> bool</code></pre><div class="info">
+Whether there is a native <code class="code">poll</code> implementation on this OS<br>
+</div>
+<pre><span id="VALpoll_req_events"><span class="keyword">val</span> poll_req_events</span> : <code class="type">bool -> bool -> bool -> <a href="Netsys_posix.html#TYPEpoll_req_events">poll_req_events</a></code></pre><div class="info">
+<code class="code">poll_req_events rd wr pri</code>: Create a set of in events consisting
+      of the bits <code class="code">rd</code>, <code class="code">wr</code>, and <code class="code">pri</code>. <code class="code">rd</code> means to poll for 
+      input data, <code class="code">wr</code> to poll for output data, and <code class="code">pri</code> to poll for urgent
+      input data.<br>
+</div>
+<pre><span id="VALpoll_req_triple"><span class="keyword">val</span> poll_req_triple</span> : <code class="type"><a href="Netsys_posix.html#TYPEpoll_req_events">poll_req_events</a> -> bool * bool * bool</code></pre><div class="info">
+Looks into a <code class="code">poll_req_events</code> value, and returns the triple
+      <code class="code">(rd,wr,pri)</code>.<br>
+</div>
+<pre><span id="VALpoll_null_events"><span class="keyword">val</span> poll_null_events</span> : <code class="type">unit -> <a href="Netsys_posix.html#TYPEpoll_act_events">poll_act_events</a></code></pre><div class="info">
+Create an empty set of <code class="code">poll_act_events</code>, for initilization
+      of poll cells.<br>
+</div>
+<pre><span id="VALpoll_result"><span class="keyword">val</span> poll_result</span> : <code class="type"><a href="Netsys_posix.html#TYPEpoll_act_events">poll_act_events</a> -> bool</code></pre><div class="info">
+Look whether there is any event in <code class="code">poll_out_events</code><br>
+</div>
+<pre><span id="VALpoll_rd_result"><span class="keyword">val</span> poll_rd_result</span> : <code class="type"><a href="Netsys_posix.html#TYPEpoll_act_events">poll_act_events</a> -> bool</code></pre><pre><span id="VALpoll_wr_result"><span class="keyword">val</span> poll_wr_result</span> : <code class="type"><a href="Netsys_posix.html#TYPEpoll_act_events">poll_act_events</a> -> bool</code></pre><pre><span id="VALpoll_pri_result"><span class="keyword">val</span> poll_pri_result</span> : <code class="type"><a href="Netsys_posix.html#TYPEpoll_act_events">poll_act_events</a> -> bool</code></pre><pre><span id="VALpoll_err_result"><span class="keyword">val</span> poll_err_result</span> : <code class="type"><a href="Netsys_posix.html#TYPEpoll_act_events">poll_act_events</a> -> bool</code></pre><pre><span id="VALpoll_hup_result"><span class="keyword">val</span> poll_hup_result</span> : <code class="type"><a href="Netsys_posix.html#TYPEpoll_act_events">poll_act_events</a> -> bool</code></pre><pre><span id="VALpoll_nval_result"><span class="keyword">val</span> poll_nval_result</span> : <code class="type"><a href="Netsys_posix.html#TYPEpoll_act_events">poll_act_events</a> -> bool</code></pre><div class="info">
+Look for the bit in <code class="code">poll_act_events</code> and return the status<br>
+</div>
+<pre><span id="VALcreate_poll_array"><span class="keyword">val</span> create_poll_array</span> : <code class="type">int -> <a href="Netsys_posix.html#TYPEpoll_array">poll_array</a></code></pre><div class="info">
+Create a poll array with the given size. The <code class="code">poll_fd</code> member is
+      initialized with <code class="code">Unix.stdin</code>, and the two event members are empty.<br>
+</div>
+<pre><span id="VALset_poll_cell"><span class="keyword">val</span> set_poll_cell</span> : <code class="type"><a href="Netsys_posix.html#TYPEpoll_array">poll_array</a> -> int -> <a href="Netsys_posix.html#TYPEpoll_cell">poll_cell</a> -> unit</code></pre><div class="info">
+<code class="code">set_poll_cell a k c</code>: Sets the poll cell <code class="code">k</code> to <code class="code">c</code>.
+      The index <code class="code">k</code> must be in the range from <code class="code">0</code> to <code class="code">N-1</code> when <code class="code">N</code> is the
+      length of the poll array.<br>
+</div>
+<pre><span id="VALget_poll_cell"><span class="keyword">val</span> get_poll_cell</span> : <code class="type"><a href="Netsys_posix.html#TYPEpoll_array">poll_array</a> -> int -> <a href="Netsys_posix.html#TYPEpoll_cell">poll_cell</a></code></pre><div class="info">
+<code class="code">get_poll_cell a k</code>: Returns the poll cell <code class="code">k</code>.
+      The index <code class="code">k</code> must be in the range from <code class="code">0</code> to <code class="code">N-1</code> when <code class="code">N</code> is the
+      length of the poll array.<br>
+</div>
+<pre><span id="VALblit_poll_array"><span class="keyword">val</span> blit_poll_array</span> : <code class="type"><a href="Netsys_posix.html#TYPEpoll_array">poll_array</a> -><br>       int -> <a href="Netsys_posix.html#TYPEpoll_array">poll_array</a> -> int -> int -> unit</code></pre><div class="info">
+<code class="code">blit_poll_array a1 p1 a2 p2 len</code>: Copies the <code class="code">len</code> cells at index <code class="code">p1</code>
+      from <code class="code">a1</code> to <code class="code">a2</code> at index <code class="code">p2</code>.<br>
+</div>
+<pre><span id="VALpoll_array_length"><span class="keyword">val</span> poll_array_length</span> : <code class="type"><a href="Netsys_posix.html#TYPEpoll_array">poll_array</a> -> int</code></pre><div class="info">
+Return the number of cells in the poll array<br>
+</div>
+<pre><span id="VALpoll"><span class="keyword">val</span> poll</span> : <code class="type"><a href="Netsys_posix.html#TYPEpoll_array">poll_array</a> -> int -> float -> int</code></pre><div class="info">
+<code class="code">poll a n tmo</code>: Poll for the events of the cells 0 to <code class="code">n-1</code> of 
+      poll array <code class="code">a</code>, and set the <code class="code">poll_revents</code> member of all cells.
+      Wait for at most <code class="code">tmo</code> seconds (a negative value means there is
+      no timeout). Returns the number of ready file descriptors.
+<p>
+
+      On platforms without native support for <code class="code">poll</code> the function is
+      emulated using <code class="code">Unix.select</code>. Note, however, that there is a
+      performance penalty for the emulation, and that the output
+      flags <code class="code">poll_error_result</code>, <code class="code">poll_hangup_result</code>, and
+      <code class="code">poll_invalid_result</code> are not emulated.<br>
+</div>
+<pre><span id="VALrestarting_poll"><span class="keyword">val</span> restarting_poll</span> : <code class="type"><a href="Netsys_posix.html#TYPEpoll_array">poll_array</a> -> int -> float -> int</code></pre><div class="info">
+A wrapper around <code class="code">poll</code> that handles the <code class="code">EINTR</code> condition<br>
+</div>
+<pre><span id="VALpoll_single"><span class="keyword">val</span> poll_single</span> : <code class="type">Unix.file_descr -> bool -> bool -> bool -> float -> bool</code></pre><div class="info">
+<code class="code">poll_single fd rd wr pri tmo</code>: Polls a single descriptor for the
+      events given by <code class="code">rd</code>, <code class="code">wr</code>, and <code class="code">pri</code>. In <code class="code">tmo</code> the timeout can be
+      passed. Returns <code class="code">true</code> if one of the requested events is indicated
+      for the descriptor. The <code class="code">EINTR</code> case is not handled.<br>
+</div>
+<br>
+Actually, <code class="code">poll_req_events</code> and <code class="code">poll_act_events</code> are integers that
+    are bitmasks of some constants. The following functions allow access to
+    this detail.<br>
+<pre><span id="VALint_of_req_events"><span class="keyword">val</span> int_of_req_events</span> : <code class="type"><a href="Netsys_posix.html#TYPEpoll_req_events">poll_req_events</a> -> int</code></pre><pre><span id="VALint_of_act_events"><span class="keyword">val</span> int_of_act_events</span> : <code class="type"><a href="Netsys_posix.html#TYPEpoll_act_events">poll_act_events</a> -> int</code></pre><pre><span id="VALreq_events_of_int"><span class="keyword">val</span> req_events_of_int</span> : <code class="type">int -> <a href="Netsys_posix.html#TYPEpoll_req_events">poll_req_events</a></code></pre><pre><span id="VALact_events_of_int"><span class="keyword">val</span> act_events_of_int</span> : <code class="type">int -> <a href="Netsys_posix.html#TYPEpoll_act_events">poll_act_events</a></code></pre><pre><span id="VALconst_rd_event"><span class="keyword">val</span> const_rd_event</span> : <code class="type">int</code></pre><pre><span id="VALconst_wr_event"><span class="keyword">val</span> const_wr_event</span> : <code class="type">int</code></pre><pre><span id="VALconst_pri_event"><span class="keyword">val</span> const_pri_event</span> : <code class="type">int</code></pre><pre><span id="VALconst_err_event"><span class="keyword">val</span> const_err_event</span> : <code class="type">int</code></pre><pre><span id="VALconst_hup_event"><span class="keyword">val</span> const_hup_event</span> : <code class="type">int</code></pre><pre><span id="VALconst_nval_event"><span class="keyword">val</span> const_nval_event</span> : <code class="type">int</code></pre><br>
+<span id="1_Forkhelpers"><h1>Fork helpers</h1></span><br>
+<br>
+Ocamlnet invokes <code class="code">Unix.fork</code> at some places to create child processes
+    for doing real work. The following functions
+    allow it to register a handler that is run in the forked child
+    process. Note that this is done by the O'caml code calling <code class="code">fork</code>,
+    and not via the POSIX <code class="code">atfork()</code> facility.
+<p>
+
+    The handler should release OS resources like file descriptors that
+    are by default shared with the parent process.
+<p>
+
+    The handler are not invoked when the only purpose of the <code class="code">fork</code> is
+    to <code class="code">exec</code> a different process.<br>
+<pre><span id="TYPEpost_fork_handler"><span class="keyword">class type</span> <a href="Netsys_posix.post_fork_handler-c.html">post_fork_handler</a></span> = <code class="code">object</code> <a href="Netsys_posix.post_fork_handler-c.html">..</a> <code class="code">end</code></pre><div class="info">
+A <code class="code">post_fork_handler</code> is a named function <code class="code">unit -&gt; unit</code>
+</div>
+<pre><span id="VALregister_post_fork_handler"><span class="keyword">val</span> register_post_fork_handler</span> : <code class="type"><a href="Netsys_posix.post_fork_handler-c.html">post_fork_handler</a> -> unit</code></pre><div class="info">
+Registers a new post fork handler (MT-Safe)<br>
+</div>
+<pre><span id="VALremove_post_fork_handler"><span class="keyword">val</span> remove_post_fork_handler</span> : <code class="type"><a href="Netsys_posix.post_fork_handler-c.html">post_fork_handler</a> -> unit</code></pre><div class="info">
+Removes a post fork handler from the registry (MT-Safe)<br>
+</div>
+<pre><span id="VALrun_post_fork_handlers"><span class="keyword">val</span> run_post_fork_handlers</span> : <code class="type">unit -> unit</code></pre><div class="info">
+Runs all post fork handlers. Exceptions are caught and printed to
+      stderr.<br>
+</div>
+<br>
+<span id="1_Theatvariantsofsystemcalls"><h1>The "at" variants of system calls</h1></span><br>
+<br>
+Note that a few "at" calls have been omitted because the same
+    functionality can be achieved by first opening the file with
+    <code class="code">openat</code> and then by using a function that references the file
+    by descriptor. An example for this is <code class="code">fstatat</code>: After the
+    <code class="code">openat</code> call one can use <code class="code">fstat</code> to get the stat record of the
+    file.<br>
+<pre><span id="VALhave_at"><span class="keyword">val</span> have_at</span> : <code class="type">unit -> bool</code></pre><div class="info">
+Whether the <code class="code">*at</code> functions are available (they were only recently
+      standardized and cannot be expected on all OS yet)<br>
+</div>
+<pre><span id="VALat_fdcwd"><span class="keyword">val</span> at_fdcwd</span> : <code class="type">Unix.file_descr</code></pre><div class="info">
+Pseudo descriptor value to be used as first argument of <code class="code">*at</code>
+      functions<br>
+</div>
+<br><code><span id="TYPEat_flag"><span class="keyword">type</span> <code class="type"></code>at_flag</span> = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">AT_EACCESS</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">AT_SYMLINK_NOFOLLOW</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">AT_REMOVEDIR</span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >Flags one can pass to "at" functions. Not all functions support
+      all flags</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+
+<pre><span id="VALopenat"><span class="keyword">val</span> openat</span> : <code class="type">Unix.file_descr -><br>       string -> Unix.open_flag list -> Unix.file_perm -> Unix.file_descr</code></pre><div class="info">
+Same as <code class="code">Unix.openfile</code> but open relative to the directory given
+      by first argument<br>
+</div>
+<pre><span id="VALfaccessat"><span class="keyword">val</span> faccessat</span> : <code class="type">Unix.file_descr -><br>       string -> Unix.access_permission list -> <a href="Netsys_posix.html#TYPEat_flag">at_flag</a> list -> unit</code></pre><div class="info">
+Same as <code class="code">Unix.access</code> but the file is taken relative to the directory
+      given by first argument<br>
+</div>
+<pre><span id="VALmkdirat"><span class="keyword">val</span> mkdirat</span> : <code class="type">Unix.file_descr -> string -> int -> unit</code></pre><div class="info">
+Same as <code class="code">Unix.mkdir</code> but the file is taken relative to the directory
+      given by first argument<br>
+</div>
+<pre><span id="VALrenameat"><span class="keyword">val</span> renameat</span> : <code class="type">Unix.file_descr -> string -> Unix.file_descr -> string -> unit</code></pre><div class="info">
+<code class="code">renameat olddirfd oldpath newdirfd newpath</code><br>
+</div>
+<pre><span id="VALlinkat"><span class="keyword">val</span> linkat</span> : <code class="type">Unix.file_descr -><br>       string -> Unix.file_descr -> string -> <a href="Netsys_posix.html#TYPEat_flag">at_flag</a> list -> unit</code></pre><div class="info">
+<code class="code">linkat olddirfd oldpath newdirfd newpath flags</code><br>
+</div>
+<pre><span id="VALunlinkat"><span class="keyword">val</span> unlinkat</span> : <code class="type">Unix.file_descr -> string -> <a href="Netsys_posix.html#TYPEat_flag">at_flag</a> list -> unit</code></pre><div class="info">
+Same as <code class="code">Unix.unlink</code> but unlink the file relative to the directory
+      given by first argument<br>
+</div>
+<pre><span id="VALsymlinkat"><span class="keyword">val</span> symlinkat</span> : <code class="type">string -> Unix.file_descr -> string -> unit</code></pre><div class="info">
+<code class="code">symlinkat oldpath newdirfd newpath flags</code><br>
+</div>
+<pre><span id="VALmkfifoat"><span class="keyword">val</span> mkfifoat</span> : <code class="type">Unix.file_descr -> string -> int -> unit</code></pre><div class="info">
+<code class="code">mkfifoat dirfd path mode</code><br>
+</div>
+<pre><span id="VALreadlinkat"><span class="keyword">val</span> readlinkat</span> : <code class="type">Unix.file_descr -> string -> string</code></pre><div class="info">
+<code class="code">readlinkat dirfd path</code><br>
+</div>
+<br>
+<span id="1_Misc"><h1>Misc</h1></span><br>
+<pre><span id="VALint_of_file_descr"><span class="keyword">val</span> int_of_file_descr</span> : <code class="type">Unix.file_descr -> int</code></pre><div class="info">
+Return the file descriptor as integer. See also
+      <a href="Netsys.html#VALint64_of_file_descr"><code class="code">Netsys.int64_of_file_descr</code></a> which works for all OS.<br>
+</div>
+<pre><span id="VALfile_descr_of_int"><span class="keyword">val</span> file_descr_of_int</span> : <code class="type">int -> Unix.file_descr</code></pre><div class="info">
+Make a file descriptor from an integer<br>
+</div>
+<pre><span id="VALsysconf_open_max"><span class="keyword">val</span> sysconf_open_max</span> : <code class="type">unit -> int</code></pre><div class="info">
+Return the maximum number of open file descriptor per process.
+ It is also ensured that for every file descriptor <code class="code">fd</code>:
+ <code class="code">fd &lt; sysconf_open_max()</code><br>
+</div>
+<pre><span id="VALfchdir"><span class="keyword">val</span> fchdir</span> : <code class="type">Unix.file_descr -> unit</code></pre><div class="info">
+Set the current directory to the directory referenced by the
+      file descriptor<br>
+</div>
+<pre><span id="VALfdopendir"><span class="keyword">val</span> fdopendir</span> : <code class="type">Unix.file_descr -> Unix.dir_handle</code></pre><div class="info">
+Make a directory handle from a file descriptor. The descriptor
+      is then "owned" by the directory handle, and will be closed by
+      <code class="code">Unix.closedir</code>.
+<p>
+
+      This function is useful in conjunction with <a href="Netsys_posix.html#VALopenat"><code class="code">Netsys_posix.openat</code></a>
+      to read directories relative to a parent directory.
+<p>
+
+      This is a recent addition to the POSIX standard; be prepared to
+      get <code class="code">Invalid_argument</code> because it is unavailable.<br>
+</div>
+<pre><span id="VALgetpgid"><span class="keyword">val</span> getpgid</span> : <code class="type">int -> int</code></pre><div class="info">
+Return the process group ID of the process with the passed PID.
+ For the number 0, the process group ID of the current process is
+ returned.<br>
+</div>
+<pre><span id="VALgetpgrp"><span class="keyword">val</span> getpgrp</span> : <code class="type">unit -> int</code></pre><div class="info">
+Same as <code class="code">getpgid 0</code>, i.e. returns the process group ID of the
+ current process.<br>
+</div>
+<pre><span id="VALsetpgid"><span class="keyword">val</span> setpgid</span> : <code class="type">int -> int -> unit</code></pre><div class="info">
+<code class="code">setpgid pid pgid</code>: Set the process group ID of the process <code class="code">pid</code>
+ to <code class="code">pgid</code>. If <code class="code">pid = 0</code>, the process group ID of the current process
+ is changed. If <code class="code">pgid = 0</code>, as process group ID the process ID of the
+ process referenced by <code class="code">pid</code> is used.
+<p>
+
+ It is only possible for a process to join a process group if both
+ belong to the same session.<br>
+</div>
+<pre><span id="VALsetpgrp"><span class="keyword">val</span> setpgrp</span> : <code class="type">unit -> unit</code></pre><div class="info">
+Same as <code class="code">setpgid 0 0</code>: A new process group ID is created, and the
+ current process becomes its sole member.<br>
+</div>
+<pre><span id="VALtcgetpgrp"><span class="keyword">val</span> tcgetpgrp</span> : <code class="type">Unix.file_descr -> int</code></pre><div class="info">
+Return the process group ID of the foreground process group of
+ the session associated with the file descriptor, which must be
+ a tty.<br>
+</div>
+<pre><span id="VALtcsetpgrp"><span class="keyword">val</span> tcsetpgrp</span> : <code class="type">Unix.file_descr -> int -> unit</code></pre><div class="info">
+Sets the foreground process group ID of the session associated
+ with the file descriptor, which must be a tty.<br>
+</div>
+<pre><span id="VALctermid"><span class="keyword">val</span> ctermid</span> : <code class="type">unit -> string</code></pre><div class="info">
+Returns the name of the controlling tty of the current process 
+ as pathname to a device file<br>
+</div>
+<pre><span id="VALttyname"><span class="keyword">val</span> ttyname</span> : <code class="type">Unix.file_descr -> string</code></pre><div class="info">
+Returns the name of the controlling tty referred to by the
+ file descriptor.<br>
+</div>
+<pre><span id="VALgetsid"><span class="keyword">val</span> getsid</span> : <code class="type">int -> int</code></pre><div class="info">
+Returns the session ID of the process with the passed PID.
+ For the PID 0, the session ID of the current process is returned.<br>
+</div>
+<pre><span id="VALwith_tty"><span class="keyword">val</span> with_tty</span> : <code class="type">(Unix.file_descr -> unit) -> unit</code></pre><div class="info">
+<code class="code">with_tty f</code>: Runs <code class="code">f fd</code> where <code class="code">fd</code> is the terminal of the process.
+      If the process does not have a terminal (because it is a daemon) 
+      <code class="code">with_tty</code> will fail.<br>
+</div>
+<pre><span id="VALtty_read_password"><span class="keyword">val</span> tty_read_password</span> : <code class="type">?tty:Unix.file_descr -> string -> string</code></pre><div class="info">
+<code class="code">tty_read_password prompt</code>: If <code class="code">tty</code> is a terminal, the <code class="code">prompt</code>
+      is output, and a password is read from the terminal (echo off).
+      If <code class="code">tty</code> is not a terminal, no <code class="code">prompt</code> is printed, and just a
+      line is read from the <code class="code">tty</code> descriptor (non-interactive case).
+<p>
+
+      <code class="code">tty</code> defaults to <code class="code">Unix.stdin</code>. If this function is used in a
+      program where stdin is not redirected, and the program is started
+      in a terminal, it will read the password with prompt and 
+      echo disabled. If stdin is redirected, it is assumed that the program is
+      used in a script, and the password is piped into it.
+<p>
+
+      Use in conjunction with <code class="code">with_tty</code> to ensure that <code class="code">tty</code> is
+      the terminal even if a redirection is in effect, e.g.
+      <pre><code class="code"> with_tty (fun tty -&gt; tty_read_password ~tty prompt) </code></pre>
+<p>
+
+      Raises <code class="code">Sys.Break</code> if the user triggers SIGINT (i.e. presses
+      CTRL-C) to abort the input of a password.<br>
+</div>
+<pre><span id="VALsetreuid"><span class="keyword">val</span> setreuid</span> : <code class="type">int -> int -> unit</code></pre><div class="info">
+Changes both the real and the effective user ID of the current
+ process.<br>
+</div>
+<pre><span id="VALsetregid"><span class="keyword">val</span> setregid</span> : <code class="type">int -> int -> unit</code></pre><div class="info">
+Changes both the real and the effective group ID of the current
+ process.<br>
+</div>
+<br>
+<span id="1_Forkexec"><h1>Fork+exec</h1></span><br>
+<br>
+The following function has some similarity with posix_spawn, but
+    is changed to our needs, Only special (although frequent) cases
+    can be implemented with posix_spawn.<br>
+<br><code><span id="TYPEwd_spec"><span class="keyword">type</span> <code class="type"></code>wd_spec</span> = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Wd_keep</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Wd_chdir</span> <span class="keyword">of</span> <code class="type">string</code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Wd_fchdir</span> <span class="keyword">of</span> <code class="type">Unix.file_descr</code></code></td>
+
+</tr></table>
+
+
+<br><code><span id="TYPEpg_spec"><span class="keyword">type</span> <code class="type"></code>pg_spec</span> = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Pg_keep</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Pg_new_bg_group</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Pg_new_fg_group</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Pg_join_group</span> <span class="keyword">of</span> <code class="type">int</code></code></td>
+
+</tr></table>
+
+
+<br><code><span id="TYPEfd_action"><span class="keyword">type</span> <code class="type"></code>fd_action</span> = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Fda_close</span> <span class="keyword">of</span> <code class="type">Unix.file_descr</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >Close the descriptor</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Fda_close_ignore</span> <span class="keyword">of</span> <code class="type">Unix.file_descr</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >Close the descriptor but ignore <code class="code">EBADF</code> errors</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Fda_close_except</span> <span class="keyword">of</span> <code class="type">bool array</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >Closes all descriptors except those for which
+          <code class="code">except.(k)</code> is true where <code class="code">k = int_of_file_descr fd</code>.
+          Descriptors outside the array index range are closed.</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Fda_dup2</span> <span class="keyword">of</span> <code class="type">Unix.file_descr * Unix.file_descr</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >Duplicate the first descriptor to the second as <code class="code">dup2</code> does</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+
+<br><code><span id="TYPEsig_action"><span class="keyword">type</span> <code class="type"></code>sig_action</span> = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Sig_default</span> <span class="keyword">of</span> <code class="type">int</code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Sig_ignore</span> <span class="keyword">of</span> <code class="type">int</code></code></td>
+
+</tr></table>
+
+
+<pre><span id="VALspawn"><span class="keyword">val</span> spawn</span> : <code class="type">?chdir:<a href="Netsys_posix.html#TYPEwd_spec">wd_spec</a> -><br>       ?pg:<a href="Netsys_posix.html#TYPEpg_spec">pg_spec</a> -><br>       ?fd_actions:<a href="Netsys_posix.html#TYPEfd_action">fd_action</a> list -><br>       ?sig_actions:<a href="Netsys_posix.html#TYPEsig_action">sig_action</a> list -><br>       ?env:string array -> string -> string array -> int</code></pre><div class="info">
+<code class="code">spawn cmd args</code>: Fork the process and exec <code class="code">cmd</code> which gets the
+      arguments <code class="code">args</code>. On success, the PID of the new process is returned.
+<p>
+<ul>
+<li><code class="code">chdir</code>: If set, the new process starts with this working directory
+        (this is done before anything else)</li>
+<li><code class="code">pg</code>: If set, the new process will be a member of this process group</li>
+<li><code class="code">fd_actions</code>: If set, these descriptor actions are executed 
+        sequentially</li>
+<li><code class="code">sig_actions</code>: If set, these signal actions are executed sequentially</li>
+<li><code class="code">env</code>: If set, the process gets this environment instead of the
+        current one</li>
+</ul>
+
+      Any exceptions in the subprocess are detected, and reported. However,
+      if <code class="code">Fda_close</code> leads to <code class="code">EBADF</code> for a descriptor, this error is
+      ignored.
+<p>
+
+      If <code class="code">pg=Pg_new_fg_group</code>, one should include <code class="code">Sig_ignore Sys.sigttou</code>
+      in <code class="code">sig_actions</code>.<br>
+</div>
+<br>
+<span id="1_Subprocessesandsignals"><h1>Subprocesses and signals</h1></span><br>
+<br>
+Watching subprocesses requires that the right signal handler is
+    installed: <code class="code">install_subprocess_handler</code><br>
+<pre><span id="TYPEwatched_subprocess"><span class="keyword">type</span> <code class="type"></code>watched_subprocess</span> </pre>
+
+<pre><span id="VALwatch_subprocess"><span class="keyword">val</span> watch_subprocess</span> : <code class="type">int -> int -> bool -> Unix.file_descr * <a href="Netsys_posix.html#TYPEwatched_subprocess">watched_subprocess</a></code></pre><div class="info">
+<code class="code">let fd, ws = watch_subprocess pid pgid kill_flag</code>: 
+      Enters the subprocess <code class="code">pid</code>
+      into the watch list. If <code class="code">pgid &gt; 0</code>, the process group ID is
+      <code class="code">pgid</code> (for <code class="code">killpg_subprocess</code> and <code class="code">killpg_all_subprocesses</code>).
+      The <code class="code">kill_flag</code> controls the process selection of
+      <code class="code">kill_all_subprocesses</code> and <code class="code">killpg_all_subprocesses</code>.
+<p>
+
+      The returned descriptor <code class="code">fd</code> is open for reading and
+      will indicate EOF when the subprocess is terminated. Via <code class="code">ws</code>
+      it is possible to query information about the subprocess. The
+      installed signal handler will <code class="code">wait</code> for the subprocess and
+      put the process status into <code class="code">ws</code>.
+<p>
+
+      The caller has to close <code class="code">fd</code> after the termination is signaled.<br>
+</div>
+<pre><span id="VALignore_subprocess"><span class="keyword">val</span> ignore_subprocess</span> : <code class="type"><a href="Netsys_posix.html#TYPEwatched_subprocess">watched_subprocess</a> -> unit</code></pre><div class="info">
+Changes the arrangement so that the termination of the subprocess
+      is no longer reported by the file descriptor. The file descriptor
+      indicates EOF immediately (and can be closed by the caller).
+      Nevertheless, the signal handler still <code class="code">wait</code>s for the subprocess
+      to avoid zombies.
+<p>
+
+      Any further access to <code class="code">ws</code> will fail.<br>
+</div>
+<pre><span id="VALforget_subprocess"><span class="keyword">val</span> forget_subprocess</span> : <code class="type"><a href="Netsys_posix.html#TYPEwatched_subprocess">watched_subprocess</a> -> unit</code></pre><div class="info">
+Frees OS resources. Any further access to the <code class="code">ws</code> will fail.<br>
+</div>
+<pre><span id="VALget_subprocess_status"><span class="keyword">val</span> get_subprocess_status</span> : <code class="type"><a href="Netsys_posix.html#TYPEwatched_subprocess">watched_subprocess</a> -> Unix.process_status option</code></pre><div class="info">
+If the subprocess is terminated, this function returns the status.
+      Otherwise <code class="code">None</code> is returned<br>
+</div>
+<pre><span id="VALkill_subprocess"><span class="keyword">val</span> kill_subprocess</span> : <code class="type">int -> <a href="Netsys_posix.html#TYPEwatched_subprocess">watched_subprocess</a> -> unit</code></pre><div class="info">
+Sends this signal to the subprocess if this process still exists.
+      Never throws an exception.<br>
+</div>
+<pre><span id="VALkillpg_subprocess"><span class="keyword">val</span> killpg_subprocess</span> : <code class="type">int -> <a href="Netsys_posix.html#TYPEwatched_subprocess">watched_subprocess</a> -> unit</code></pre><div class="info">
+Sends this signal to the process group of the subprocess if there
+      is still a watched subprocess belonging to this group.
+      Never throws an exception.<br>
+</div>
+<pre><span id="VALkill_all_subprocesses"><span class="keyword">val</span> kill_all_subprocesses</span> : <code class="type">int -> bool -> bool -> unit</code></pre><div class="info">
+<code class="code">kill_all_subprocess signal override nogroup</code>: 
+      Sends a signal to potentially
+      all subprocesses. The signal is sent to a watched process if the process
+      still exists, and these two conditions hold both:<ul>
+<li><code class="code">not nogroup || pgid = 0</code>: Processes with <code class="code">pgid &gt; 0</code> are excluded
+        if <code class="code">nogroup</code> is set</li>
+<li><code class="code">kill_flag || override</code>: A process needs to have
+        <code class="code">kill_flag</code> set, or <code class="code">override</code> is specified</li>
+</ul>
+
+      Never throws an exception if the signal handler is installed.<br>
+</div>
+<pre><span id="VALkillpg_all_subprocesses"><span class="keyword">val</span> killpg_all_subprocesses</span> : <code class="type">int -> bool -> unit</code></pre><div class="info">
+<code class="code">killpg_all_subprocess signal override</code>: Sends a signal to potentially
+      all subprocesses belonging to a process group (i.e. <code class="code">pgid&gt;0</code>).
+    . The signal is sent to a process group if there are still watched
+      subprocesses
+      belonging to the group, and if either the <code class="code">kill_flag</code> of any of the 
+      subprocesses process was set to <code class="code">true</code>, or <code class="code">override</code> is <code class="code">true</code>.
+<p>
+
+      Never throws an exception if the signal handler is installed.<br>
+</div>
+<pre><span id="VALinstall_subprocess_handler"><span class="keyword">val</span> install_subprocess_handler</span> : <code class="type">unit -> unit</code></pre><div class="info">
+Installs a SIGCHLD handler for watching subprocesses. Note that only
+      processes are <code class="code">wait</code>ed for that are registered with 
+      <code class="code">watch_subprocess</code>.
+<p>
+
+      The handler works both in the single-threaded and the multi-threaded
+      case. <code class="code">install_subprocess_handler</code> can safely called several times.
+      The handler is installed every time the function is called, but the
+      required data structures are only initialized at the first call.<br>
+</div>
+<pre><span id="VALregister_subprocess_handler"><span class="keyword">val</span> register_subprocess_handler</span> : <code class="type">unit -> unit</code></pre><div class="info">
+Uses the <a href="Netsys_signal.html"><code class="code">Netsys_signal</code></a> framework to manage the installation of
+      the SIGCHLD handler.
+<p>
+
+      This is the preferred method of installing the SIGCHLD handler.<br>
+</div>
+<br>
+<b>Further notes.</b><br>
+<br>
+The subprocess handler and <code class="code">fork()</code>: The subprocess handler uses
+      pipes for notification, and because of this it is sensitive to
+      unpredicted duplicates of the pipe descriptors. <code class="code">fork()</code> duplicates
+      these pipe descriptors. If nothing is done about this issue, it
+      can happen that the notification does not work anymore as it relies
+      on detecting closed pipes.
+<p>
+
+      If <code class="code">fork()</code> is immediately followed by <code class="code">exec()</code> (as it is done
+      to run subcommands), the problem does not occur, because the relevant
+      descriptors are closed at <code class="code">exec()</code> time.
+<p>
+
+      If <code class="code">fork()</code> is used to start worker processes, however, we have
+      to be careful. The descriptors need to be closed, so that the
+      parent can continue to monitor subprocesses, and to allow the worker
+      processes to use this mechanism. This module defines post fork
+      handlers (see above), and a handler is automatically added that
+      cleans the descriptors up. All user code has to do is to call
+      <code class="code">run_post_fork_handlers</code> immediately after <code class="code">fork()</code> has spawned
+      the new child, from the new child. This completely resets
+      everything.<br>
+<br>
+The subprocess handler and multi-threading: The handler has been
+      carefully designed, and works even in multi-threaded programs.
+      However, one should know that multi-threading and <code class="code">fork()</code> do not
+      interact well with each other. Again, the problems do not occur
+      if <code class="code">fork()</code> is followed by <code class="code">exec()</code>. There is no solution for the
+      case that worker processes are started with <code class="code">fork()</code>, though.
+      The (very generic) problem is that the state of mutexes and other
+      multi-threading primitives is not well-defined after a <code class="code">fork()</code>.<br>
+<br>
+<span id="1_Syslog"><h1>Syslog</h1></span><br>
+<pre><span id="TYPElevel"><span class="keyword">type</span> <code class="type"></code>level</span> = <code class="type"><a href="Netlog.html#TYPElevel">Netlog.level</a></code> </pre>
+
+<br>
+The log levels<br>
+<pre><span id="TYPEsyslog_facility"><span class="keyword">type</span> <code class="type"></code>syslog_facility</span> = <code class="type">[ `Authpriv<br>       | `Cron<br>       | `Daemon<br>       | `Default<br>       | `Ftp<br>       | `Kern<br>       | `Local0<br>       | `Local1<br>       | `Local2<br>       | `Local3<br>       | `Local4<br>       | `Local5<br>       | `Local6<br>       | `Local7<br>       | `Lpr<br>       | `Mail<br>       | `News<br>       | `Syslog<br>       | `User<br>       | `Uucp ]</code> </pre>
+<div class="info">
+The facilities. Only <code class="code">`User</code> and <code class="code">`Local0</code> to <code class="code">`Local7</code> are
+      standard POSIX. If a facility is unavailable it is silently
+      substituted by <code class="code">`Local0</code>. The value <code class="code">`Default</code> leaves this unspecified.<br>
+</div>
+
+<pre><span id="TYPEsyslog_option"><span class="keyword">type</span> <code class="type"></code>syslog_option</span> = <code class="type">[ `Cons | `Ndelay | `Nowait | `Odelay | `Pid ]</code> </pre>
+<div class="info">
+The syslog options:<ul>
+<li><code class="code">`Cons</code>: Fall back to console logging if syslog is unavailable</li>
+<li><code class="code">`Ndelay</code>: Open the connection immediately</li>
+<li><code class="code">`Odelay</code>: Open the connection at the first call <code class="code">syslog</code> (default)</li>
+<li><code class="code">`Nowait</code>: Do not wait until it is ensured that the message is
+       sent</li>
+<li><code class="code">`Pid</code>: Log the PID with every message</li>
+</ul>
+<br>
+</div>
+
+<pre><span id="VALopenlog"><span class="keyword">val</span> openlog</span> : <code class="type">string option -><br>       <a href="Netsys_posix.html#TYPEsyslog_option">syslog_option</a> list -> <a href="Netsys_posix.html#TYPEsyslog_facility">syslog_facility</a> -> unit</code></pre><div class="info">
+<code class="code">openlog ident options facility</code>: Opens a log stream. <code class="code">ident</code> is
+      prepended to every message if given (usually the program name).
+      The <code class="code">facility</code> is the default facility for <code class="code">syslog</code> calls.<br>
+</div>
+<pre><span id="VALsyslog"><span class="keyword">val</span> syslog</span> : <code class="type"><a href="Netsys_posix.html#TYPEsyslog_facility">syslog_facility</a> -> <a href="Netsys_posix.html#TYPElevel">level</a> -> string -> unit</code></pre><div class="info">
+<code class="code">syslog facility level message</code>: Logs <code class="code">message</code> at <code class="code">level</code> for
+      <code class="code">facility</code><br>
+</div>
+<pre><span id="VALcloselog"><span class="keyword">val</span> closelog</span> : <code class="type">unit -> unit</code></pre><div class="info">
+Closes the log stream<br>
+</div>
+<br>
+Usually, the log stream is redirected to syslog by either:<ul>
+<li>setting <code class="code">Netlog.current_logger</code> to <code class="code">syslog facility</code>, e.g.
+      <pre><code class="code"> Netlog.current_logger := Netsys_posix.syslog `User </code></pre></li>
+<li>using the Netplex class for sending message to syslog (XXX)</li>
+</ul>
+<br>
+<br>
+<span id="1_Sync"><h1>Sync</h1></span><br>
+<pre><span id="VALfsync"><span class="keyword">val</span> fsync</span> : <code class="type">Unix.file_descr -> unit</code></pre><div class="info">
+Sync data and metadata to disk<br>
+</div>
+<pre><span id="VALfdatasync"><span class="keyword">val</span> fdatasync</span> : <code class="type">Unix.file_descr -> unit</code></pre><div class="info">
+Syncs only data to disk. If this is not implemented, same effect
+      as <code class="code">fsync</code><br>
+</div>
+<br>
+<span id="1_OptionalPOSIXfunctions"><h1>Optional POSIX functions</h1></span><br>
+<pre><span id="VALhave_fadvise"><span class="keyword">val</span> have_fadvise</span> : <code class="type">unit -> bool</code></pre><div class="info">
+Returns whether the OS supports the fadvise POSIX option<br>
+</div>
+<br><code><span id="TYPEadvice"><span class="keyword">type</span> <code class="type"></code>advice</span> = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">POSIX_FADV_NORMAL</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">POSIX_FADV_SEQUENTIAL</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">POSIX_FADV_RANDOM</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">POSIX_FADV_NOREUSE</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">POSIX_FADV_WILLNEED</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">POSIX_FADV_DONTNEED</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">FADV_NORMAL</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">FADV_SEQUENTIAL</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">FADV_RANDOM</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">FADV_NOREUSE</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">FADV_WILLNEED</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">FADV_DONTNEED</span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >Possible advices for fadvise. The names starting with "POSIX_" and
+      the ones lacking the prefix have the same meaning. In new code,
+      the names starting with "POSIX_" should be preferred (for better
+      compaibility with other libraries).</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+
+<pre><span id="VALfadvise"><span class="keyword">val</span> fadvise</span> : <code class="type">Unix.file_descr -> int64 -> int64 -> <a href="Netsys_posix.html#TYPEadvice">advice</a> -> unit</code></pre><div class="info">
+Advises to load pages into the page table from the file, or to remove
+      such pages.<br>
+</div>
+<pre><span id="VALhave_fallocate"><span class="keyword">val</span> have_fallocate</span> : <code class="type">unit -> bool</code></pre><div class="info">
+Returns whether the OS supports the fallocate POSIX option<br>
+</div>
+<pre><span id="VALfallocate"><span class="keyword">val</span> fallocate</span> : <code class="type">Unix.file_descr -> int64 -> int64 -> unit</code></pre><div class="info">
+Allocate space for the file and the specified file region<br>
+</div>
+<br>
+<span id="1_POSIXSharedMemory"><h1>POSIX Shared Memory</h1></span><br>
+<pre><span id="VALhave_posix_shm"><span class="keyword">val</span> have_posix_shm</span> : <code class="type">unit -> bool</code></pre><div class="info">
+Returns whether the OS supports POSIX shared memory<br>
+</div>
+<br><code><span id="TYPEshm_open_flag"><span class="keyword">type</span> <code class="type"></code>shm_open_flag</span> = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">SHM_O_RDONLY</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">SHM_O_RDWR</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">SHM_O_CREAT</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">SHM_O_EXCL</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">SHM_O_TRUNC</span></code></td>
+
+</tr></table>
+
+
+<pre><span id="VALshm_open"><span class="keyword">val</span> shm_open</span> : <code class="type">string -> <a href="Netsys_posix.html#TYPEshm_open_flag">shm_open_flag</a> list -> int -> Unix.file_descr</code></pre><div class="info">
+Opens a shared memory object. The first arg is the name of the
+ object. The name must begin with a slash, but there must be no
+ further slash in it (e.g. "/sample"). The second arg are the
+ open flags. The third arg are the permission bits.
+<p>
+
+ The open flags are interpreted as follows:<ul>
+<li><code class="code">SHM_O_RDONLY</code>: Open the object for read access</li>
+<li><code class="code">SHM_O_RDWR</code>: Open the object for read-write access</li>
+<li><code class="code">SHM_O_CREAT</code>: Create the object if it does not exist</li>
+<li><code class="code">SHM_O_EXCL</code>: If <code class="code">SHM_O_CREAT</code> was also specified, and a an object
+   with the given name already exists, return an error
+   (<code class="code">Unix.EEXIST</code>).</li>
+<li><code class="code">SHM_O_TRUNC</code>: If the object already exists, truncate it to 
+   zero bytes</li>
+</ul>
+
+ One of <code class="code">SHM_O_RDONLY</code> or <code class="code">SHM_O_RDWR</code> must be given.
+<p>
+
+ On success, the function returns a file descriptor representing the
+ object. To access the object, one has to memory-map this file
+ use one of the <code class="code">map_file</code> functions in the <code class="code">Bigarray</code>
+ module, or in <a href="Netsys_mem.html"><code class="code">Netsys_mem</code></a>). Use <code class="code">Unix.ftruncate</code> to resize the object.
+<p>
+
+ Note that it is unspecified whether this file pops up somewhere
+ in the file system, and if so, where.
+<p>
+
+ If a system error occurs, the function raises a <code class="code">Unix.Unix_error</code>
+ exception.<br>
+</div>
+<pre><span id="VALshm_unlink"><span class="keyword">val</span> shm_unlink</span> : <code class="type">string -> unit</code></pre><div class="info">
+Unlinks the name for a shared memory object<br>
+</div>
+<pre><span id="VALshm_create"><span class="keyword">val</span> shm_create</span> : <code class="type">string -> int -> Unix.file_descr * string</code></pre><div class="info">
+<code class="code">let (fd,name) = shm_create prefix size</code>: Creates an shm object
+      with a unique name. The name has the passed <code class="code">prefix</code>. The <code class="code">prefix</code>
+      must start with "/" but must not contain any further "/". The object
+      has a length of <code class="code">size</code> bytes. The object has a permissions 0o600
+      (independent of umask).<br>
+</div>
+<br>
+<span id="1_POSIXsemaphores"><h1>POSIX semaphores</h1></span><br>
+<pre><span id="VALhave_posix_semaphores"><span class="keyword">val</span> have_posix_semaphores</span> : <code class="type">unit -> bool</code></pre><div class="info">
+Returns <code class="code">true</code> if POSIX semaphores are supported on this system<br>
+</div>
+<br>
+<b>Constants.</b><br>
+<pre><span id="VALsem_value_max"><span class="keyword">val</span> sem_value_max</span> : <code class="type">int</code></pre><div class="info">
+The maximum value of a semaphore, but at most <code class="code">max_int</code><br>
+</div>
+<pre><span id="VALsem_size"><span class="keyword">val</span> sem_size</span> : <code class="type">int</code></pre><div class="info">
+The size of an anonymous semaphore in bytes (<code class="code">sizeof(sem_t)</code>)<br>
+</div>
+<br>
+<b>Types.</b><br>
+<pre><span id="TYPEsem_kind"><span class="keyword">type</span> <code class="type"></code>sem_kind</span> = <code class="type">[ `Anonymous | `Named ]</code> </pre>
+
+<pre><span id="TYPEsemaphore"><span class="keyword">type</span> <code class="type">'a</code> semaphore</span> </pre>
+
+<pre><span id="TYPEnamed_semaphore"><span class="keyword">type</span> <code class="type"></code>named_semaphore</span> = <code class="type">[ `Named ] <a href="Netsys_posix.html#TYPEsemaphore">semaphore</a></code> </pre>
+
+<pre><span id="TYPEanon_sempahore"><span class="keyword">type</span> <code class="type"></code>anon_sempahore</span> = <code class="type">[ `Anonymous ] <a href="Netsys_posix.html#TYPEsemaphore">semaphore</a></code> </pre>
+
+<br><code><span id="TYPEsem_open_flag"><span class="keyword">type</span> <code class="type"></code>sem_open_flag</span> = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">SEM_O_CREAT</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">SEM_O_EXCL</span></code></td>
+
+</tr></table>
+
+
+<br>
+<b>Named semaphores.</b><br>
+<pre><span id="VALsem_open"><span class="keyword">val</span> sem_open</span> : <code class="type">string -><br>       <a href="Netsys_posix.html#TYPEsem_open_flag">sem_open_flag</a> list -> int -> int -> <a href="Netsys_posix.html#TYPEnamed_semaphore">named_semaphore</a></code></pre><div class="info">
+<code class="code">sem_open name flags mode init_value</code>: Opens a named semaphore
+      which is optionally created. Sempahore names usually begin with
+      a slash followed by a single name component (not containing a
+      further slash).
+<p>
+
+      Interpretation of <code class="code">flags</code>:<ul>
+<li><code class="code">SEM_O_CREAT</code>: The semaphore is created if not yet existing.
+        The <code class="code">mode</code> and <code class="code">init_value</code> are interpreted if the creation
+        actually occurs. <code class="code">mode</code> is the permission of the semaphore.
+        <code class="code">init_value</code> is the (non-negative) initial value, up to
+        <code class="code">sem_value_max</code>.</li>
+<li><code class="code">SEM_O_EXCL</code>: The semaphore is only opened if the semaphore
+        does not exist yet. Othwerwise an <code class="code">EEXIST</code> error is returned</li>
+</ul>
+<br>
+</div>
+<pre><span id="VALsem_close"><span class="keyword">val</span> sem_close</span> : <code class="type"><a href="Netsys_posix.html#TYPEnamed_semaphore">named_semaphore</a> -> unit</code></pre><div class="info">
+Closes a named semaphore. Semaphores are also automatically closed
+      when the GC finds that the semaphore is unreachable.<br>
+</div>
+<pre><span id="VALsem_unlink"><span class="keyword">val</span> sem_unlink</span> : <code class="type">string -> unit</code></pre><div class="info">
+Unlinks the semaphore name<br>
+</div>
+<pre><span id="VALsem_create"><span class="keyword">val</span> sem_create</span> : <code class="type">string -> int -> <a href="Netsys_posix.html#TYPEnamed_semaphore">named_semaphore</a> * string</code></pre><div class="info">
+<code class="code">let (sem,name) = sem_create prefix init_value</code>: Creates
+      a new semaphore with a unique name. The name has the passed <code class="code">prefix</code>. 
+      The <code class="code">prefix</code> must start with "/" but must not contain any further "/".
+      The semaphore is initialized with <code class="code">init_value</code>. The object has
+      permissions 0o600 (modulo umask).<br>
+</div>
+<br>
+<b>Anonymous semaphores.</b><br>
+<pre><span id="VALsem_init"><span class="keyword">val</span> sem_init</span> : <code class="type"><a href="Netsys_types.html#TYPEmemory">Netsys_types.memory</a> -> int -> bool -> int -> <a href="Netsys_posix.html#TYPEanon_sempahore">anon_sempahore</a></code></pre><div class="info">
+<code class="code">sem_init mem pos pshared init_value</code>: Initializes the memory
+      at position <code class="code">pos</code> to <code class="code">pos + sem_size() - 1</code> as anonymous semaphore.
+      If <code class="code">pshared</code> the semaphore is shared between processes. 
+      <code class="code">init_value</code> is the initial non-negative value (max is 
+      <code class="code">sem_value_max</code>.<br>
+</div>
+<pre><span id="VALsem_destroy"><span class="keyword">val</span> sem_destroy</span> : <code class="type"><a href="Netsys_posix.html#TYPEanon_sempahore">anon_sempahore</a> -> unit</code></pre><div class="info">
+Destroys the anonymous semaphore<br>
+</div>
+<pre><span id="VALas_sem"><span class="keyword">val</span> as_sem</span> : <code class="type"><a href="Netsys_types.html#TYPEmemory">Netsys_types.memory</a> -> int -> <a href="Netsys_posix.html#TYPEanon_sempahore">anon_sempahore</a></code></pre><div class="info">
+<code class="code">as_sem mem pos</code>: Interprets the memory at position <code class="code">pos</code>
+      to <code class="code">pos + sem_size() - 1</code> as anonymous semaphore.
+      The memory region must already have been initialized.<br>
+</div>
+<br>
+<b>Operations.</b><br>
+<pre><span id="VALsem_getvalue"><span class="keyword">val</span> sem_getvalue</span> : <code class="type">'a <a href="Netsys_posix.html#TYPEsemaphore">semaphore</a> -> int</code></pre><div class="info">
+Returns the value of the semaphore. If the value is bigger than
+      what can be represented as <code class="code">int</code>, an <code class="code">EINVAL</code> error is returned.
+<p>
+
+      The returned value is non-negative - if the underlying POSIX
+      function reports a negative value zero is returned instead.<br>
+</div>
+<pre><span id="VALsem_post"><span class="keyword">val</span> sem_post</span> : <code class="type">'a <a href="Netsys_posix.html#TYPEsemaphore">semaphore</a> -> unit</code></pre><div class="info">
+Unlocks the semaphore (increases the value by 1)<br>
+</div>
+<br><code><span id="TYPEsem_wait_behavior"><span class="keyword">type</span> <code class="type"></code>sem_wait_behavior</span> = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">SEM_WAIT_BLOCK</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">SEM_WAIT_NONBLOCK</span></code></td>
+
+</tr></table>
+
+
+<pre><span id="VALsem_wait"><span class="keyword">val</span> sem_wait</span> : <code class="type">'a <a href="Netsys_posix.html#TYPEsemaphore">semaphore</a> -> <a href="Netsys_posix.html#TYPEsem_wait_behavior">sem_wait_behavior</a> -> unit</code></pre><div class="info">
+Locks the semaphore (decreases the value by 1). If the semaphore
+      value is already zero, and <code class="code">SEM_WAIT_BLOCK</code> is given, the function
+      waits until another process or thread posts. If <code class="code">SEM_WAIT_NONBLOCK</code>
+      the error <code class="code">EAGAIN</code> is returned.
+<p>
+
+      <code class="code">sem_wait</code> may be interrupted by signals.<br>
+</div>
+<br>
+<span id="1_Locales"><h1>Locales</h1></span><br>
+<br><code><span id="TYPElanginfo"><span class="keyword">type</span> <code class="type"></code>langinfo</span> = {</code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_CODESET&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_CTYPE</code>: codeset name</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_D_T_FMT&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: string for formatting date and time</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_D_FMT&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: date format string</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_T_FMT&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: time format string</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_T_FMT_AMPM&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: a.m. or p.m. time format string</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_AM_STR&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: Ante Meridian affix</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_PM_STR&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: Post Meridian affix</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_DAY_1&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the first day of the week (for example, Sunday)</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_DAY_2&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the second day of the week (for example, Monday)</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_DAY_3&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the third day of the week (for example, Tuesday)</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_DAY_4&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the fourth day of the week (for example, Wednesday)</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_DAY_5&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the fifth day of the week (for example, Thursday)</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_DAY_6&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the sixth day of the week (for example, Friday)</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_DAY_7&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the seventh day of the week (for example, Saturday)</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABDAY_1&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the first day of the week</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABDAY_2&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the second day of the week</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABDAY_3&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the third day of the week</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABDAY_4&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the fourth day of the week</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABDAY_5&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the fifth day of the week</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABDAY_6&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the sixth day of the week</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABDAY_7&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the seventh day of the week</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_MON_1&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the first month of the year</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_MON_2&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the second month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_MON_3&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the third month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_MON_4&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the fourth month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_MON_5&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the fifth month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_MON_6&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the sixth month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_MON_7&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the seventh month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_MON_8&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the eighth month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_MON_9&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the ninth month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_MON_10&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the tenth month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_MON_11&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the eleventh month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_MON_12&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: name of the twelfth month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABMON_1&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the first month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABMON_2&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the second month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABMON_3&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the third month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABMON_4&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the fourth month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABMON_5&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the fifth month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABMON_6&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the sixth month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABMON_7&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the seventh month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABMON_8&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the eighth month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABMON_9&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the ninth month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABMON_10&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the tenth month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABMON_11&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the eleventh month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ABMON_12&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: abbreviated name of the twelfth month</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ERA&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: era description segments</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ERA_D_FMT&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: era date format string</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ERA_D_T_FMT&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: era date and time format string</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ERA_T_FMT&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: era time format string</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_ALT_DIGITS&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_TIME</code>: alternative symbols for digits</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_RADIXCHAR&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_NUMERIC</code>: radix character</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_THOUSEP&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_NUMERIC</code>: separator for thousands</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_YESEXPR&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_MESSAGES</code>: affirmative response expression</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_NOEXPR&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_MESSAGES</code>: negative response expression</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>nl_CRNCYSTR&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >from <code class="code">LC_MONETARY</code>: currency</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+}
+
+
+<pre><span id="VALquery_langinfo"><span class="keyword">val</span> query_langinfo</span> : <code class="type">string -> <a href="Netsys_posix.html#TYPElanginfo">langinfo</a></code></pre><div class="info">
+<code class="code">query_langinfo locale</code>: Temporarily sets the passed <code class="code">locale</code> and
+      determines the language attributes. After that the orignal locale is
+      restored. Pass "" as <code class="code">locale</code> to get the locale requested in the
+      environment.
+<p>
+
+      The value for "" is cached.<br>
+</div>
+<br>
+<span id="1_LinuxIOPriorities"><h1>Linux I/O Priorities</h1></span><br>
+<br>
+These system calls are only available on Linux since kernel 2.6.13,
+    and not even on every architecture. i386, x86_64, ia64, and PPC are
+    known to work. 
+<p>
+
+    Per-process I/O priorities are currently only supported by the
+    CFQ I/O scheduler.<br>
+<pre><span id="VALhave_ioprio"><span class="keyword">val</span> have_ioprio</span> : <code class="type">unit -> bool</code></pre><div class="info">
+Returns <code class="code">true</code> if the system call <code class="code">ioprio_get</code> is supported<br>
+</div>
+<br><code><span id="TYPEioprio_target"><span class="keyword">type</span> <code class="type"></code>ioprio_target</span> = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Ioprio_process</span> <span class="keyword">of</span> <code class="type">int</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >A single process</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Ioprio_pgrp</span> <span class="keyword">of</span> <code class="type">int</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >A process group</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Ioprio_user</span> <span class="keyword">of</span> <code class="type">int</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >All processes owned by this user</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+
+<br><code><span id="TYPEioprio"><span class="keyword">type</span> <code class="type"></code>ioprio</span> = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Noprio</span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >I/O prioritization is unsupported by block layer</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Real_time</span> <span class="keyword">of</span> <code class="type">int</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >0..7 (higest..lowest prio)</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Best_effort</span> <span class="keyword">of</span> <code class="type">int</code></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >0..7 (higest..lowest prio)</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Idle</span></code></td>
+
+</tr></table>
+
+
+<pre><span id="VALioprio_get"><span class="keyword">val</span> ioprio_get</span> : <code class="type"><a href="Netsys_posix.html#TYPEioprio_target">ioprio_target</a> -> <a href="Netsys_posix.html#TYPEioprio">ioprio</a></code></pre><div class="info">
+Retrieve the priority of the target. If several processes match the
+        target, the highest priority is returned. If no process matches,
+        the unix error <code class="code">ESRCH</code> will be raised.<br>
+</div>
+<pre><span id="VALioprio_set"><span class="keyword">val</span> ioprio_set</span> : <code class="type"><a href="Netsys_posix.html#TYPEioprio_target">ioprio_target</a> -> <a href="Netsys_posix.html#TYPEioprio">ioprio</a> -> unit</code></pre><div class="info">
+Sets the priority of the target processes.<br>
+</div>
+<br>
+<span id="1_Debugging"><h1>Debugging</h1></span><br>
+<pre><span class="keyword">module</span> <a href="Netsys_posix.Debug.html">Debug</a>: <code class="code">sig</code> <a href="Netsys_posix.Debug.html">..</a> <code class="code">end</code></pre></body></html>

@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Time_sig.S.Second.html">
+<link rel="Up" href="Time_sig.S.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Utils" rel="Chapter" href="Utils.html">
+<link title="Time_Zone" rel="Chapter" href="Time_Zone.html">
+<link title="Period" rel="Chapter" href="Period.html">
+<link title="Time_sig" rel="Chapter" href="Time_sig.html">
+<link title="Time" rel="Chapter" href="Time.html">
+<link title="Ftime" rel="Chapter" href="Ftime.html">
+<link title="Date_sig" rel="Chapter" href="Date_sig.html">
+<link title="Date" rel="Chapter" href="Date.html">
+<link title="Calendar_sig" rel="Chapter" href="Calendar_sig.html">
+<link title="Calendar_builder" rel="Chapter" href="Calendar_builder.html">
+<link title="Calendar" rel="Chapter" href="Calendar.html">
+<link title="Fcalendar" rel="Chapter" href="Fcalendar.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Version" rel="Chapter" href="Version.html"><link title="Arithmetic operations" rel="Section" href="#3_Arithmeticoperations">
+<link title="Constructors" rel="Section" href="#3_Constructors">
+<link title="Getters" rel="Section" href="#3_Getters">
+<title>Time_sig.S.Period</title>
+</head>
+<body>
+<div class="navbar"><a href="Time_sig.S.Second.html">Previous</a>
+&nbsp;<a href="Time_sig.S.html">Up</a>
+&nbsp;</div>
+<center><h1>Module <a href="type_Time_sig.S.Period.html">Time_sig.S.Period</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Period: <code class="code"><span class="keyword">sig</span></code> <a href="Time_sig.S.Period.html">..</a> <code class="code"><span class="keyword">end</span></code></pre>A period is the number of seconds between two times.<br>
+<hr width="100%">
+<br>
+<span id="3_Arithmeticoperations"><h3>Arithmetic operations</h3></span><br>
+<pre><span class="keyword">include</span> <a href="Period.S.html">Period.S</a></pre>
+<pre><span id="VALlength"><span class="keyword">val</span> length</span> : <code class="type">[< <a href="Period.html#TYPEdate_field">Period.date_field</a> ] period -> <a href="Time_sig.S.html#TYPEsecond">Time_sig.S.second</a></code></pre><div class="info">
+Number of seconds of a period.<br>
+</div>
+<pre><span id="VALmul"><span class="keyword">val</span> mul</span> : <code class="type">([< <a href="Period.html#TYPEdate_field">Period.date_field</a> ] as 'a) period -> 'a period -> 'a period</code></pre><div class="info">
+Multiplication.<br>
+</div>
+<pre><span id="VALdiv"><span class="keyword">val</span> div</span> : <code class="type">([< <a href="Period.html#TYPEdate_field">Period.date_field</a> ] as 'a) period -> 'a period -> 'a period</code></pre><div class="info">
+Division.<br>
+</div>
+<br>
+<span id="3_Constructors"><h3>Constructors</h3></span><br>
+<pre><span id="VALmake"><span class="keyword">val</span> make</span> : <code class="type">int -> int -> <a href="Time_sig.S.html#TYPEsecond">Time_sig.S.second</a> -> [< <a href="Period.html#TYPEdate_field">Period.date_field</a> ] period</code></pre><div class="info">
+<code class="code">make hour minute second</code> makes a period of the specified length.<br>
+</div>
+<pre><span id="VALlmake"><span class="keyword">val</span> lmake</span> : <code class="type">?hour:int -><br>       ?minute:int -><br>       ?second:<a href="Time_sig.S.html#TYPEsecond">Time_sig.S.second</a> -> unit -> [< <a href="Period.html#TYPEdate_field">Period.date_field</a> ] period</code></pre><div class="info">
+Labelled version of <code class="code">make</code>.
+	  The default value is <code class="code">0</code> for each argument.<br>
+</div>
+<pre><span id="VALhour"><span class="keyword">val</span> hour</span> : <code class="type">int -> [< <a href="Period.html#TYPEdate_field">Period.date_field</a> ] period</code></pre><div class="info">
+<code class="code">hour n</code> makes a period of <code class="code">n</code> hours.<br>
+</div>
+<pre><span id="VALminute"><span class="keyword">val</span> minute</span> : <code class="type">int -> [< <a href="Period.html#TYPEdate_field">Period.date_field</a> ] period</code></pre><div class="info">
+<code class="code">minute n</code> makes a period of <code class="code">n</code> minutes.<br>
+</div>
+<pre><span id="VALsecond"><span class="keyword">val</span> second</span> : <code class="type"><a href="Time_sig.S.html#TYPEsecond">Time_sig.S.second</a> -> [< <a href="Period.html#TYPEdate_field">Period.date_field</a> ] period</code></pre><div class="info">
+<code class="code">second n</code> makes a period of <code class="code">n</code> seconds.<br>
+</div>
+<br>
+<span id="3_Getters"><h3>Getters</h3></span><br>
+<pre><span id="VALto_seconds"><span class="keyword">val</span> to_seconds</span> : <code class="type">[< <a href="Period.html#TYPEdate_field">Period.date_field</a> ] period -> <a href="Time_sig.S.html#TYPEsecond">Time_sig.S.second</a></code></pre><div class="info">
+Number of seconds of a period.<br>
+<b>Since</b> 1.04<br>
+<b>Example:</b> <code class="code">to_seconds (make 1 2 3)</code> returns <code class="code">3600 + 120 + 3 = 3723</code>.<br>
+</div>
+<pre><span id="VALto_minutes"><span class="keyword">val</span> to_minutes</span> : <code class="type">[< <a href="Period.html#TYPEdate_field">Period.date_field</a> ] period -> float</code></pre><div class="info">
+Number of minutes of a period. The resulting fractional part
+	  represents seconds.<br>
+<b>Since</b> 1.04<br>
+<b>Example:</b> <code class="code">to_minutes (make 1 2 3)</code> returns <code class="code">60 + 2 + 0.05 = 62.05</code>.<br>
+</div>
+<pre><span id="VALto_hours"><span class="keyword">val</span> to_hours</span> : <code class="type">[< <a href="Period.html#TYPEdate_field">Period.date_field</a> ] period -> float</code></pre><div class="info">
+Number of hours of a period. The resulting fractional part represents
+	  minutes and seconds.<br>
+<b>Since</b> 1.04<br>
+<b>Example:</b> <code class="code">to_hours (make 1 3 0)</code> returns <code class="code">1 + 0.05 = 1.05</code>.<br>
+</div>
+</body></html>

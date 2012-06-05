@@ -1,0 +1,4 @@
+deps=unix,ocamlbuild,oUnit(>=1.0.3),camlp4,bigarray
+tarball=ocaml-extunix-0.0.4.tar.gz
+is_library=true
+is_program=false

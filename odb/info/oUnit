@@ -1,0 +1,4 @@
+deps=unix,ocamlbuild,camlp4
+tarball=ounit-1.1.1.tar.gz
+is_library=true
+is_program=false

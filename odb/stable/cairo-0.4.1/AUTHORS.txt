@@ -1,0 +1,9 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: a7bb0c4aaf0d507c4e98ff0eb83af391) *)
+Authors of cairo
+Christophe Troestler <Christophe.Troestler@umons.ac.be>
+Pierre Hauweele <antegallya@gmail.com>
+
+Current maintainers of cairo
+Christophe Troestler <Christophe.Troestler@umons.ac.be>
+(* OASIS_STOP *)

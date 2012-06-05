@@ -1,0 +1,28 @@
+# How-to-build using OMake
+#
+# yes no | omake --install # to create OMakeroot for the first time
+# omake install
+
+.PHONY: install clean
+
+BYTE_ENABLED= true
+
+OCamlRequirePackages(findlib)
+
+OCAMLFLAGS += -I +camlp4 -pp camlp4orf 
+OCAMLDEPFLAGS += -I +camlp4 -pp camlp4orf 
+
+.DEFAULT: pa_monad.cmo pa_monad.cmi META
+
+META: META.in
+    make META
+
+install: pa_monad.cmo pa_monad.cmi META
+    make findlib-uninstall findlib-install
+
+$(Installed monad-custom): pa_monad.cmo pa_monad.cmi META
+    make findlib-uninstall findlib-install
+    CreateInstalled(monad-custom, pa_monad.cmo pa_monad.cmi META)
+
+clean:
+    rm -f $(filter-proper-targets $(ls R, .))

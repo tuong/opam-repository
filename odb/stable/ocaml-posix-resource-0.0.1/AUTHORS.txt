@@ -1,0 +1,5 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: 241fa40c381db760ffeac224b875f1db) *)
+Authors of ocaml-posix-resource
+Sylvain Le Gall
+(* OASIS_STOP *)

@@ -1,0 +1,4 @@
+deps=
+tarball=ocamlify-0.0.1.tar.gz
+is_library=false
+is_program=true

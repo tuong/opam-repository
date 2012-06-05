@@ -1,0 +1,1883 @@
+"gtkActionProps.ml" 5 78 84 "gtkActionProps.ml" 5 78 88
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  def name "gtkActionProps.ml" 6 118 120 "gtkActionProps.ml" 8 216 219
+)
+"gtkActionProps.ml" 5 78 97 "gtkActionProps.ml" 5 78 103
+type(
+  string
+)
+"gtkActionProps.ml" 5 78 110 "gtkActionProps.ml" 5 78 116
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkActionProps.ml" 5 78 91 "gtkActionProps.ml" 5 78 117
+type(
+  ('a, string) Gobject.property
+)
+"gtkActionProps.ml" 6 118 124 "gtkActionProps.ml" 6 118 133
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  def sensitive "gtkActionProps.ml" 7 169 171 "gtkActionProps.ml" 8 216 219
+)
+"gtkActionProps.ml" 6 118 142 "gtkActionProps.ml" 6 118 153
+type(
+  string
+)
+"gtkActionProps.ml" 6 118 160 "gtkActionProps.ml" 6 118 167
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkActionProps.ml" 6 118 136 "gtkActionProps.ml" 6 118 168
+type(
+  ('b, bool) Gobject.property
+)
+"gtkActionProps.ml" 7 169 175 "gtkActionProps.ml" 7 169 182
+type(
+  ('c, bool) Gobject.property
+)
+ident(
+  def visible "gtkActionProps.ml" 7 169 215 "gtkActionProps.ml" 8 216 219
+)
+"gtkActionProps.ml" 7 169 191 "gtkActionProps.ml" 7 169 200
+type(
+  string
+)
+"gtkActionProps.ml" 7 169 207 "gtkActionProps.ml" 7 169 214
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkActionProps.ml" 7 169 185 "gtkActionProps.ml" 7 169 215
+type(
+  ('c, bool) Gobject.property
+)
+"gtkActionProps.ml" 10 221 225 "gtkActionProps.ml" 10 221 233
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons "gtkActionProps.ml" 11 254 254 --
+)
+"gtkActionProps.ml" 10 221 236 "gtkActionProps.ml" 10 221 253
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gtkActionProps.ml" 11 254 258 "gtkActionProps.ml" 11 254 270
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons_opt "gtkActionProps.ml" 13 296 296 --
+)
+"gtkActionProps.ml" 11 254 273 "gtkActionProps.ml" 11 254 294
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons_opt
+)
+"gtkActionProps.ml" 14 319 325 "gtkActionProps.ml" 14 319 329
+type(
+  'a Gobject.obj -> Gtk.action Gobject.obj
+)
+ident(
+  def cast "gtkActionProps.ml" 15 374 376 "gtkActionProps.ml" 65 2837 2840
+)
+"gtkActionProps.ml" 14 319 330 "gtkActionProps.ml" 14 319 331
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkActionProps.ml" 14 319 332 "gtkActionProps.ml" 14 319 373
+)
+"gtkActionProps.ml" 14 319 351 "gtkActionProps.ml" 14 319 359
+type(
+  'a Gobject.obj -> string -> Gtk.action Gobject.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkActionProps.ml" 14 319 360 "gtkActionProps.ml" 14 319 361
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkActionProps.ml" 14 319 330 "gtkActionProps.ml" 14 319 331
+)
+"gtkActionProps.ml" 14 319 362 "gtkActionProps.ml" 14 319 373
+type(
+  string
+)
+"gtkActionProps.ml" 14 319 351 "gtkActionProps.ml" 14 319 373
+call(
+  tail
+)
+type(
+  Gtk.action Gobject.obj
+)
+type(
+  Gtk.action Gobject.obj
+)
+"gtkActionProps.ml" 16 394 402 "gtkActionProps.ml" 16 394 415
+type(
+  ([> `action ], bool) Gobject.property
+)
+ident(
+  def hide_if_empty "gtkActionProps.ml" 18 487 491 "gtkActionProps.ml" 34 1372 1377
+)
+"gtkActionProps.ml" 17 444 456 "gtkActionProps.ml" 17 444 471
+type(
+  string
+)
+"gtkActionProps.ml" 17 444 478 "gtkActionProps.ml" 17 444 485
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkActionProps.ml" 17 444 450 "gtkActionProps.ml" 17 444 486
+type(
+  ([> `action ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkActionProps.ml" 18 487 495 "gtkActionProps.ml" 18 487 507
+type(
+  ([> `action ], bool) Gobject.property
+)
+ident(
+  def is_important "gtkActionProps.ml" 20 578 582 "gtkActionProps.ml" 34 1372 1377
+)
+"gtkActionProps.ml" 19 536 548 "gtkActionProps.ml" 19 536 562
+type(
+  string
+)
+"gtkActionProps.ml" 19 536 569 "gtkActionProps.ml" 19 536 576
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkActionProps.ml" 19 536 542 "gtkActionProps.ml" 19 536 577
+type(
+  ([> `action ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkActionProps.ml" 20 578 586 "gtkActionProps.ml" 20 578 591
+type(
+  ([> `action ], string) Gobject.property
+)
+ident(
+  def label "gtkActionProps.ml" 21 648 652 "gtkActionProps.ml" 34 1372 1377
+)
+"gtkActionProps.ml" 20 578 626 "gtkActionProps.ml" 20 578 633
+type(
+  string
+)
+"gtkActionProps.ml" 20 578 640 "gtkActionProps.ml" 20 578 646
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkActionProps.ml" 20 578 620 "gtkActionProps.ml" 20 578 647
+type(
+  ([> `action ] as 'd, string) Gobject.property
+)
+type(
+  ('d, string) Gobject.property
+)
+"gtkActionProps.ml" 21 648 656 "gtkActionProps.ml" 21 648 665
+type(
+  ([> `action ], string) Gobject.property
+)
+ident(
+  def icon_name "gtkActionProps.ml" 22 726 730 "gtkActionProps.ml" 34 1372 1377
+)
+"gtkActionProps.ml" 21 648 700 "gtkActionProps.ml" 21 648 711
+type(
+  string
+)
+"gtkActionProps.ml" 21 648 718 "gtkActionProps.ml" 21 648 724
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkActionProps.ml" 21 648 694 "gtkActionProps.ml" 21 648 725
+type(
+  ([> `action ] as 'e, string) Gobject.property
+)
+type(
+  ('e, string) Gobject.property
+)
+"gtkActionProps.ml" 22 726 734 "gtkActionProps.ml" 22 726 738
+type(
+  ([> `action ], string) Gobject.property
+)
+ident(
+  def name "gtkActionProps.ml" 23 785 789 "gtkActionProps.ml" 34 1372 1377
+)
+"gtkActionProps.ml" 22 726 767 "gtkActionProps.ml" 22 726 784
+type(
+  ([> `action ] as 'f, string) Gobject.property
+)
+type(
+  ('f, string) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.name
+)
+"gtkActionProps.ml" 23 785 793 "gtkActionProps.ml" 23 785 802
+type(
+  ([> `action ], bool) Gobject.property
+)
+ident(
+  def sensitive "gtkActionProps.ml" 24 854 858 "gtkActionProps.ml" 34 1372 1377
+)
+"gtkActionProps.ml" 23 785 831 "gtkActionProps.ml" 23 785 853
+type(
+  ([> `action ] as 'g, bool) Gobject.property
+)
+type(
+  ('g, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.sensitive
+)
+"gtkActionProps.ml" 24 854 862 "gtkActionProps.ml" 24 854 873
+type(
+  ([> `action ], string) Gobject.property
+)
+ident(
+  def short_label "gtkActionProps.ml" 26 942 946 "gtkActionProps.ml" 34 1372 1377
+)
+"gtkActionProps.ml" 25 902 914 "gtkActionProps.ml" 25 902 927
+type(
+  string
+)
+"gtkActionProps.ml" 25 902 934 "gtkActionProps.ml" 25 902 940
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkActionProps.ml" 25 902 908 "gtkActionProps.ml" 25 902 941
+type(
+  ([> `action ] as 'h, string) Gobject.property
+)
+type(
+  ('h, string) Gobject.property
+)
+"gtkActionProps.ml" 26 942 950 "gtkActionProps.ml" 26 942 958
+type(
+  ([> `action ], GtkStock.id) Gobject.property
+)
+ident(
+  def stock_id "gtkActionProps.ml" 28 1031 1035 "gtkActionProps.ml" 34 1372 1377
+)
+"gtkActionProps.ml" 27 987 999 "gtkActionProps.ml" 27 987 1009
+type(
+  string
+)
+"gtkActionProps.ml" 27 987 1016 "gtkActionProps.ml" 27 987 1029
+type(
+  GtkStock.id Gobject.data_conv
+)
+ident(
+  ext_ref GtkStock.conv
+)
+"gtkActionProps.ml" 27 987 993 "gtkActionProps.ml" 27 987 1030
+type(
+  ([> `action ] as 'i, GtkStock.id) Gobject.property
+)
+type(
+  ('i, GtkStock.id) Gobject.property
+)
+"gtkActionProps.ml" 28 1031 1039 "gtkActionProps.ml" 28 1031 1046
+type(
+  ([> `action ], string) Gobject.property
+)
+ident(
+  def tooltip "gtkActionProps.ml" 29 1105 1109 "gtkActionProps.ml" 34 1372 1377
+)
+"gtkActionProps.ml" 28 1031 1081 "gtkActionProps.ml" 28 1031 1090
+type(
+  string
+)
+"gtkActionProps.ml" 28 1031 1097 "gtkActionProps.ml" 28 1031 1103
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkActionProps.ml" 28 1031 1075 "gtkActionProps.ml" 28 1031 1104
+type(
+  ([> `action ] as 'j, string) Gobject.property
+)
+type(
+  ('j, string) Gobject.property
+)
+"gtkActionProps.ml" 29 1105 1113 "gtkActionProps.ml" 29 1105 1120
+type(
+  ([> `action ], bool) Gobject.property
+)
+ident(
+  def visible "gtkActionProps.ml" 30 1170 1174 "gtkActionProps.ml" 34 1372 1377
+)
+"gtkActionProps.ml" 29 1105 1149 "gtkActionProps.ml" 29 1105 1169
+type(
+  ([> `action ] as 'k, bool) Gobject.property
+)
+type(
+  ('k, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.visible
+)
+"gtkActionProps.ml" 30 1170 1178 "gtkActionProps.ml" 30 1170 1196
+type(
+  ([> `action ], bool) Gobject.property
+)
+ident(
+  def visible_horizontal "gtkActionProps.ml" 32 1273 1277 "gtkActionProps.ml" 34 1372 1377
+)
+"gtkActionProps.ml" 31 1225 1237 "gtkActionProps.ml" 31 1225 1257
+type(
+  string
+)
+"gtkActionProps.ml" 31 1225 1264 "gtkActionProps.ml" 31 1225 1271
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkActionProps.ml" 31 1225 1231 "gtkActionProps.ml" 31 1225 1272
+type(
+  ([> `action ] as 'l, bool) Gobject.property
+)
+type(
+  ('l, bool) Gobject.property
+)
+"gtkActionProps.ml" 32 1273 1281 "gtkActionProps.ml" 32 1273 1297
+type(
+  ([> `action ], bool) Gobject.property
+)
+ident(
+  def visible_vertical "gtkActionProps.ml" 33 1326 1371 "gtkActionProps.ml" 34 1372 1377
+)
+"gtkActionProps.ml" 33 1326 1338 "gtkActionProps.ml" 33 1326 1356
+type(
+  string
+)
+"gtkActionProps.ml" 33 1326 1363 "gtkActionProps.ml" 33 1326 1370
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkActionProps.ml" 33 1326 1332 "gtkActionProps.ml" 33 1326 1371
+type(
+  ([> `action ] as 'm, bool) Gobject.property
+)
+type(
+  ('m, bool) Gobject.property
+)
+"gtkActionProps.ml" 37 1417 1425 "gtkActionProps.ml" 37 1417 1433
+type(
+  ([> `action ], unit -> unit) GtkSignal.t
+)
+ident(
+  def activate "gtkActionProps.ml" 37 1417 1494 "gtkActionProps.ml" 38 1495 1500
+)
+"gtkActionProps.ml" 37 1417 1442 "gtkActionProps.ml" 37 1417 1452
+type(
+  string
+)
+"gtkActionProps.ml" 37 1417 1461 "gtkActionProps.ml" 37 1417 1468
+type(
+  [> `action ] as 'n
+)
+"gtkActionProps.ml" 37 1417 1481 "gtkActionProps.ml" 37 1417 1493
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkActionProps.ml" 37 1417 1436 "gtkActionProps.ml" 37 1417 1494
+type(
+  ('n, unit -> unit) GtkSignal.t
+)
+"gtkActionProps.ml" 39 1501 1507 "gtkActionProps.ml" 39 1501 1513
+type(
+  ?name:string -> Gtk.action Gobject.param list -> Gtk.action Gobject.obj
+)
+ident(
+  def create "gtkActionProps.ml" 42 1625 1627 "gtkActionProps.ml" 65 2837 2840
+)
+"gtkActionProps.ml" 39 1501 1515 "gtkActionProps.ml" 39 1501 1519
+type(
+  string option
+)
+ident(
+  def name "gtkActionProps.ml" 39 1501 1520 "gtkActionProps.ml" 41 1584 1624
+)
+"gtkActionProps.ml" 39 1501 1520 "gtkActionProps.ml" 39 1501 1522
+type(
+  Gtk.action Gobject.param list
+)
+ident(
+  def pl "gtkActionProps.ml" 39 1501 1523 "gtkActionProps.ml" 41 1584 1624
+)
+"gtkActionProps.ml" 40 1542 1550 "gtkActionProps.ml" 40 1542 1552
+type(
+  Gtk.action Gobject.param list
+)
+"gtkActionProps.ml" 40 1542 1556 "gtkActionProps.ml" 40 1542 1564
+type(
+  (Gtk.action, string) Gobject.property ->
+  string option ->
+  Gtk.action Gobject.param list -> Gtk.action Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkActionProps.ml" 10 221 225 "gtkActionProps.ml" 10 221 233
+)
+"gtkActionProps.ml" 40 1542 1565 "gtkActionProps.ml" 40 1542 1571
+type(
+  (Gtk.action, string) Gobject.property
+)
+ident(
+  ext_ref P.name
+)
+"gtkActionProps.ml" 40 1542 1572 "gtkActionProps.ml" 40 1542 1576
+type(
+  string option
+)
+ident(
+  int_ref name "gtkActionProps.ml" 39 1501 1515 "gtkActionProps.ml" 39 1501 1519
+)
+"gtkActionProps.ml" 40 1542 1577 "gtkActionProps.ml" 40 1542 1579
+type(
+  Gtk.action Gobject.param list
+)
+ident(
+  int_ref pl "gtkActionProps.ml" 39 1501 1520 "gtkActionProps.ml" 39 1501 1522
+)
+"gtkActionProps.ml" 40 1542 1555 "gtkActionProps.ml" 40 1542 1580
+call(
+  stack
+)
+type(
+  Gtk.action Gobject.param list
+)
+"gtkActionProps.ml" 41 1584 1588 "gtkActionProps.ml" 41 1584 1609
+type(
+  classe:string -> Gtk.action Gobject.param list -> Gtk.action Gobject.obj
+)
+ident(
+  ext_ref Gobject.unsafe_create
+)
+"gtkActionProps.ml" 41 1584 1610 "gtkActionProps.ml" 41 1584 1621
+type(
+  string
+)
+"gtkActionProps.ml" 41 1584 1622 "gtkActionProps.ml" 41 1584 1624
+type(
+  Gtk.action Gobject.param list
+)
+ident(
+  int_ref pl "gtkActionProps.ml" 40 1542 1550 "gtkActionProps.ml" 40 1542 1552
+)
+"gtkActionProps.ml" 41 1584 1588 "gtkActionProps.ml" 41 1584 1624
+call(
+  tail
+)
+type(
+  Gtk.action Gobject.obj
+)
+"gtkActionProps.ml" 40 1542 1546 "gtkActionProps.ml" 41 1584 1624
+type(
+  Gtk.action Gobject.obj
+)
+type(
+  Gtk.action Gobject.obj
+)
+"gtkActionProps.ml" 68 2871 2877 "gtkActionProps.ml" 68 2871 2881
+type(
+  'a Gobject.obj -> Gtk.toggle_action Gobject.obj
+)
+ident(
+  def cast "gtkActionProps.ml" 69 2939 2941 "gtkActionProps.ml" 86 3567 3570
+)
+"gtkActionProps.ml" 68 2871 2882 "gtkActionProps.ml" 68 2871 2883
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkActionProps.ml" 68 2871 2884 "gtkActionProps.ml" 68 2871 2938
+)
+"gtkActionProps.ml" 68 2871 2910 "gtkActionProps.ml" 68 2871 2918
+type(
+  'a Gobject.obj -> string -> Gtk.toggle_action Gobject.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkActionProps.ml" 68 2871 2919 "gtkActionProps.ml" 68 2871 2920
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkActionProps.ml" 68 2871 2882 "gtkActionProps.ml" 68 2871 2883
+)
+"gtkActionProps.ml" 68 2871 2921 "gtkActionProps.ml" 68 2871 2938
+type(
+  string
+)
+"gtkActionProps.ml" 68 2871 2910 "gtkActionProps.ml" 68 2871 2938
+call(
+  tail
+)
+type(
+  Gtk.toggle_action Gobject.obj
+)
+type(
+  Gtk.toggle_action Gobject.obj
+)
+"gtkActionProps.ml" 70 2959 2967 "gtkActionProps.ml" 70 2959 2980
+type(
+  ([> `toggleaction ], bool) Gobject.property
+)
+ident(
+  def draw_as_radio "gtkActionProps.ml" 71 3015 3057 "gtkActionProps.ml" 72 3058 3063
+)
+"gtkActionProps.ml" 71 3015 3027 "gtkActionProps.ml" 71 3015 3042
+type(
+  string
+)
+"gtkActionProps.ml" 71 3015 3049 "gtkActionProps.ml" 71 3015 3056
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkActionProps.ml" 71 3015 3021 "gtkActionProps.ml" 71 3015 3057
+type(
+  ([> `toggleaction ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkActionProps.ml" 75 3103 3111 "gtkActionProps.ml" 75 3103 3118
+type(
+  ([> `toggleaction ], unit -> unit) GtkSignal.t
+)
+ident(
+  def toggled "gtkActionProps.ml" 76 3121 3190 "gtkActionProps.ml" 77 3191 3196
+)
+"gtkActionProps.ml" 76 3121 3133 "gtkActionProps.ml" 76 3121 3142
+type(
+  string
+)
+"gtkActionProps.ml" 76 3121 3151 "gtkActionProps.ml" 76 3121 3164
+type(
+  [> `toggleaction ] as 'c
+)
+"gtkActionProps.ml" 76 3121 3177 "gtkActionProps.ml" 76 3121 3189
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkActionProps.ml" 76 3121 3127 "gtkActionProps.ml" 76 3121 3190
+type(
+  ('c, unit -> unit) GtkSignal.t
+)
+"gtkActionProps.ml" 78 3197 3203 "gtkActionProps.ml" 78 3197 3209
+type(
+  Gtk.toggle_action Gobject.param list -> Gtk.toggle_action Gobject.obj
+)
+ident(
+  def create "gtkActionProps.ml" 80 3286 3288 "gtkActionProps.ml" 86 3567 3570
+)
+"gtkActionProps.ml" 78 3197 3210 "gtkActionProps.ml" 78 3197 3212
+type(
+  Gtk.toggle_action Gobject.param list
+)
+ident(
+  def pl "gtkActionProps.ml" 78 3197 3213 "gtkActionProps.ml" 79 3239 3285
+)
+"gtkActionProps.ml" 79 3239 3243 "gtkActionProps.ml" 79 3239 3264
+type(
+  classe:string ->
+  Gtk.toggle_action Gobject.param list -> Gtk.toggle_action Gobject.obj
+)
+ident(
+  ext_ref Gobject.unsafe_create
+)
+"gtkActionProps.ml" 79 3239 3265 "gtkActionProps.ml" 79 3239 3282
+type(
+  string
+)
+"gtkActionProps.ml" 79 3239 3283 "gtkActionProps.ml" 79 3239 3285
+type(
+  Gtk.toggle_action Gobject.param list
+)
+ident(
+  int_ref pl "gtkActionProps.ml" 78 3197 3210 "gtkActionProps.ml" 78 3197 3212
+)
+"gtkActionProps.ml" 79 3239 3243 "gtkActionProps.ml" 79 3239 3285
+call(
+  tail
+)
+type(
+  Gtk.toggle_action Gobject.obj
+)
+type(
+  Gtk.toggle_action Gobject.obj
+)
+"gtkActionProps.ml" 89 3600 3606 "gtkActionProps.ml" 89 3600 3610
+type(
+  'a Gobject.obj -> Gtk.radio_action Gobject.obj
+)
+ident(
+  def cast "gtkActionProps.ml" 90 3666 3668 "gtkActionProps.ml" 110 4440 4443
+)
+"gtkActionProps.ml" 89 3600 3611 "gtkActionProps.ml" 89 3600 3612
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkActionProps.ml" 89 3600 3613 "gtkActionProps.ml" 89 3600 3665
+)
+"gtkActionProps.ml" 89 3600 3638 "gtkActionProps.ml" 89 3600 3646
+type(
+  'a Gobject.obj -> string -> Gtk.radio_action Gobject.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkActionProps.ml" 89 3600 3647 "gtkActionProps.ml" 89 3600 3648
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkActionProps.ml" 89 3600 3611 "gtkActionProps.ml" 89 3600 3612
+)
+"gtkActionProps.ml" 89 3600 3649 "gtkActionProps.ml" 89 3600 3665
+type(
+  string
+)
+"gtkActionProps.ml" 89 3600 3638 "gtkActionProps.ml" 89 3600 3665
+call(
+  tail
+)
+type(
+  Gtk.radio_action Gobject.obj
+)
+type(
+  Gtk.radio_action Gobject.obj
+)
+"gtkActionProps.ml" 91 3686 3694 "gtkActionProps.ml" 91 3686 3699
+type(
+  ([> `radioaction ], Gtk.radio_action Gobject.obj option) Gobject.property
+)
+ident(
+  def group "gtkActionProps.ml" 94 3824 3828 "gtkActionProps.ml" 95 3896 3901
+)
+"gtkActionProps.ml" 92 3733 3745 "gtkActionProps.ml" 92 3733 3752
+type(
+  string
+)
+"gtkActionProps.ml" 93 3754 3767 "gtkActionProps.ml" 93 3754 3781
+type(
+  Gtk.radio_action Gobject.obj option Gobject.data_conv
+)
+type(
+  Gtk.radio_action Gobject.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkActionProps.ml" 92 3733 3739 "gtkActionProps.ml" 93 3754 3823
+type(
+  ([> `radioaction ] as 'b, Gtk.radio_action Gobject.obj option)
+  Gobject.property
+)
+type(
+  ('b, Gtk.radio_action Gobject.obj option) Gobject.property
+)
+"gtkActionProps.ml" 94 3824 3832 "gtkActionProps.ml" 94 3824 3837
+type(
+  ([> `radioaction ], int) Gobject.property
+)
+ident(
+  def value "gtkActionProps.ml" 94 3824 3895 "gtkActionProps.ml" 95 3896 3901
+)
+"gtkActionProps.ml" 94 3824 3877 "gtkActionProps.ml" 94 3824 3884
+type(
+  string
+)
+"gtkActionProps.ml" 94 3824 3891 "gtkActionProps.ml" 94 3824 3894
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkActionProps.ml" 94 3824 3871 "gtkActionProps.ml" 94 3824 3895
+type(
+  ([> `radioaction ] as 'c, int) Gobject.property
+)
+type(
+  ('c, int) Gobject.property
+)
+"gtkActionProps.ml" 98 3941 3949 "gtkActionProps.ml" 98 3941 3956
+type(
+  ([> `radioaction ], Gtk.radio_action Gobject.obj -> unit) GtkSignal.t
+)
+ident(
+  def changed "gtkActionProps.ml" 101 4082 4119 "gtkActionProps.ml" 102 4120 4125
+)
+"gtkActionProps.ml" 99 3959 3971 "gtkActionProps.ml" 99 3959 3980
+type(
+  string
+)
+"gtkActionProps.ml" 99 3959 3989 "gtkActionProps.ml" 99 3959 4001
+type(
+  [> `radioaction ] as 'd
+)
+"gtkActionProps.ml" 99 3959 4018 "gtkActionProps.ml" 99 3959 4019
+type(
+  Gtk.radio_action Gobject.obj -> unit
+)
+ident(
+  def f "gtkActionProps.ml" 100 4023 4030 "gtkActionProps.ml" 101 4082 4118
+)
+"gtkActionProps.ml" 100 4023 4030 "gtkActionProps.ml" 100 4023 4038
+type(
+  Gtk.radio_action Gobject.obj Gobject.data_conv ->
+  string -> (Gtk.radio_action Gobject.obj -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkActionProps.ml" 100 4023 4040 "gtkActionProps.ml" 100 4023 4047
+type(
+  Gtk.radio_action Gobject.obj Gobject.data_conv
+)
+type(
+  Gtk.radio_action Gobject.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkActionProps.ml" 101 4082 4091 "gtkActionProps.ml" 101 4082 4116
+type(
+  string
+)
+"gtkActionProps.ml" 101 4082 4117 "gtkActionProps.ml" 101 4082 4118
+type(
+  Gtk.radio_action Gobject.obj -> unit
+)
+ident(
+  int_ref f "gtkActionProps.ml" 99 3959 4018 "gtkActionProps.ml" 99 3959 4019
+)
+"gtkActionProps.ml" 100 4023 4030 "gtkActionProps.ml" 101 4082 4118
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 99 3959 4014 "gtkActionProps.ml" 101 4082 4118
+type(
+  (Gtk.radio_action Gobject.obj -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 99 3959 3965 "gtkActionProps.ml" 101 4082 4119
+type(
+  ('d, Gtk.radio_action Gobject.obj -> unit) GtkSignal.t
+)
+"gtkActionProps.ml" 103 4126 4132 "gtkActionProps.ml" 103 4126 4138
+type(
+  Gtk.radio_action Gobject.param list -> Gtk.radio_action Gobject.obj
+)
+ident(
+  def create "gtkActionProps.ml" 105 4213 4215 "gtkActionProps.ml" 110 4440 4443
+)
+"gtkActionProps.ml" 103 4126 4139 "gtkActionProps.ml" 103 4126 4141
+type(
+  Gtk.radio_action Gobject.param list
+)
+ident(
+  def pl "gtkActionProps.ml" 103 4126 4142 "gtkActionProps.ml" 104 4167 4212
+)
+"gtkActionProps.ml" 104 4167 4171 "gtkActionProps.ml" 104 4167 4192
+type(
+  classe:string ->
+  Gtk.radio_action Gobject.param list -> Gtk.radio_action Gobject.obj
+)
+ident(
+  ext_ref Gobject.unsafe_create
+)
+"gtkActionProps.ml" 104 4167 4193 "gtkActionProps.ml" 104 4167 4209
+type(
+  string
+)
+"gtkActionProps.ml" 104 4167 4210 "gtkActionProps.ml" 104 4167 4212
+type(
+  Gtk.radio_action Gobject.param list
+)
+ident(
+  int_ref pl "gtkActionProps.ml" 103 4126 4139 "gtkActionProps.ml" 103 4126 4141
+)
+"gtkActionProps.ml" 104 4167 4171 "gtkActionProps.ml" 104 4167 4212
+call(
+  tail
+)
+type(
+  Gtk.radio_action Gobject.obj
+)
+type(
+  Gtk.radio_action Gobject.obj
+)
+"gtkActionProps.ml" 113 4471 4477 "gtkActionProps.ml" 113 4471 4481
+type(
+  'a Gobject.obj -> Gtk.ui_manager Gobject.obj
+)
+ident(
+  def cast "gtkActionProps.ml" 114 4533 4535 "gtkActionProps.ml" 179 7561 7564
+)
+"gtkActionProps.ml" 113 4471 4482 "gtkActionProps.ml" 113 4471 4483
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkActionProps.ml" 113 4471 4484 "gtkActionProps.ml" 113 4471 4532
+)
+"gtkActionProps.ml" 113 4471 4507 "gtkActionProps.ml" 113 4471 4515
+type(
+  'a Gobject.obj -> string -> Gtk.ui_manager Gobject.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkActionProps.ml" 113 4471 4516 "gtkActionProps.ml" 113 4471 4517
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkActionProps.ml" 113 4471 4482 "gtkActionProps.ml" 113 4471 4483
+)
+"gtkActionProps.ml" 113 4471 4518 "gtkActionProps.ml" 113 4471 4532
+type(
+  string
+)
+"gtkActionProps.ml" 113 4471 4507 "gtkActionProps.ml" 113 4471 4532
+call(
+  tail
+)
+type(
+  Gtk.ui_manager Gobject.obj
+)
+type(
+  Gtk.ui_manager Gobject.obj
+)
+"gtkActionProps.ml" 115 4553 4561 "gtkActionProps.ml" 115 4553 4573
+type(
+  ([> `uimanager ], bool) Gobject.property
+)
+ident(
+  def add_tearoffs "gtkActionProps.ml" 117 4647 4651 "gtkActionProps.ml" 118 4714 4719
+)
+"gtkActionProps.ml" 116 4605 4617 "gtkActionProps.ml" 116 4605 4631
+type(
+  string
+)
+"gtkActionProps.ml" 116 4605 4638 "gtkActionProps.ml" 116 4605 4645
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkActionProps.ml" 116 4605 4611 "gtkActionProps.ml" 116 4605 4646
+type(
+  ([> `uimanager ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkActionProps.ml" 117 4647 4655 "gtkActionProps.ml" 117 4647 4657
+type(
+  ([> `uimanager ], string) Gobject.property
+)
+ident(
+  def ui "gtkActionProps.ml" 117 4647 4713 "gtkActionProps.ml" 118 4714 4719
+)
+"gtkActionProps.ml" 117 4647 4695 "gtkActionProps.ml" 117 4647 4699
+type(
+  string
+)
+"gtkActionProps.ml" 117 4647 4706 "gtkActionProps.ml" 117 4647 4712
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkActionProps.ml" 117 4647 4689 "gtkActionProps.ml" 117 4647 4713
+type(
+  ([> `uimanager ] as 'c, string) Gobject.property
+)
+type(
+  ('c, string) Gobject.property
+)
+"gtkActionProps.ml" 121 4759 4767 "gtkActionProps.ml" 121 4759 4782
+type(
+  ([> `uimanager ], unit -> unit) GtkSignal.t
+)
+ident(
+  def actions_changed "gtkActionProps.ml" 123 4860 4864 "gtkActionProps.ml" 144 5875 5880
+)
+"gtkActionProps.ml" 122 4785 4797 "gtkActionProps.ml" 122 4785 4814
+type(
+  string
+)
+"gtkActionProps.ml" 122 4785 4823 "gtkActionProps.ml" 122 4785 4833
+type(
+  [> `uimanager ] as 'd
+)
+"gtkActionProps.ml" 122 4785 4846 "gtkActionProps.ml" 122 4785 4858
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkActionProps.ml" 122 4785 4791 "gtkActionProps.ml" 122 4785 4859
+type(
+  ('d, unit -> unit) GtkSignal.t
+)
+"gtkActionProps.ml" 123 4860 4868 "gtkActionProps.ml" 123 4860 4878
+type(
+  ([> `uimanager ], Gtk.widget Gobject.obj -> unit) GtkSignal.t
+)
+ident(
+  def add_widget "gtkActionProps.ml" 127 5038 5042 "gtkActionProps.ml" 144 5875 5880
+)
+"gtkActionProps.ml" 124 4881 4893 "gtkActionProps.ml" 124 4881 4905
+type(
+  string
+)
+"gtkActionProps.ml" 124 4881 4914 "gtkActionProps.ml" 124 4881 4924
+type(
+  [> `uimanager ] as 'e
+)
+"gtkActionProps.ml" 124 4881 4941 "gtkActionProps.ml" 124 4881 4942
+type(
+  Gtk.widget Gobject.obj -> unit
+)
+ident(
+  def f "gtkActionProps.ml" 125 4946 4953 "gtkActionProps.ml" 126 4999 5036
+)
+"gtkActionProps.ml" 125 4946 4953 "gtkActionProps.ml" 125 4946 4961
+type(
+  Gtk.widget Gobject.obj Gobject.data_conv ->
+  string -> (Gtk.widget Gobject.obj -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkActionProps.ml" 125 4946 4963 "gtkActionProps.ml" 125 4946 4970
+type(
+  Gtk.widget Gobject.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gobject.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkActionProps.ml" 126 4999 5008 "gtkActionProps.ml" 126 4999 5034
+type(
+  string
+)
+"gtkActionProps.ml" 126 4999 5035 "gtkActionProps.ml" 126 4999 5036
+type(
+  Gtk.widget Gobject.obj -> unit
+)
+ident(
+  int_ref f "gtkActionProps.ml" 124 4881 4941 "gtkActionProps.ml" 124 4881 4942
+)
+"gtkActionProps.ml" 125 4946 4953 "gtkActionProps.ml" 126 4999 5036
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 124 4881 4937 "gtkActionProps.ml" 126 4999 5036
+type(
+  (Gtk.widget Gobject.obj -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 124 4881 4887 "gtkActionProps.ml" 126 4999 5037
+type(
+  ('e, Gtk.widget Gobject.obj -> unit) GtkSignal.t
+)
+"gtkActionProps.ml" 127 5038 5046 "gtkActionProps.ml" 127 5038 5059
+type(
+  ([> `uimanager ], Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit)
+  GtkSignal.t
+)
+ident(
+  def connect_proxy "gtkActionProps.ml" 131 5262 5266 "gtkActionProps.ml" 144 5875 5880
+)
+"gtkActionProps.ml" 128 5062 5074 "gtkActionProps.ml" 128 5062 5089
+type(
+  string
+)
+"gtkActionProps.ml" 128 5062 5098 "gtkActionProps.ml" 128 5062 5108
+type(
+  [> `uimanager ] as 'f
+)
+"gtkActionProps.ml" 128 5062 5125 "gtkActionProps.ml" 128 5062 5126
+type(
+  Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit
+)
+ident(
+  def f "gtkActionProps.ml" 129 5130 5137 "gtkActionProps.ml" 130 5183 5260
+)
+"gtkActionProps.ml" 129 5130 5137 "gtkActionProps.ml" 129 5130 5145
+type(
+  Gtk.action Gobject.obj Gobject.data_conv ->
+  Gtk.widget Gobject.obj Gobject.data_conv ->
+  string ->
+  (Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkActionProps.ml" 129 5130 5147 "gtkActionProps.ml" 129 5130 5154
+type(
+  Gtk.action Gobject.obj Gobject.data_conv
+)
+type(
+  Gtk.action Gobject.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkActionProps.ml" 130 5183 5193 "gtkActionProps.ml" 130 5183 5200
+type(
+  Gtk.widget Gobject.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gobject.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkActionProps.ml" 130 5183 5229 "gtkActionProps.ml" 130 5183 5258
+type(
+  string
+)
+"gtkActionProps.ml" 130 5183 5259 "gtkActionProps.ml" 130 5183 5260
+type(
+  Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit
+)
+ident(
+  int_ref f "gtkActionProps.ml" 128 5062 5125 "gtkActionProps.ml" 128 5062 5126
+)
+"gtkActionProps.ml" 129 5130 5137 "gtkActionProps.ml" 130 5183 5260
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 128 5062 5121 "gtkActionProps.ml" 130 5183 5260
+type(
+  (Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 128 5062 5068 "gtkActionProps.ml" 130 5183 5261
+type(
+  ('f, Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit) GtkSignal.t
+)
+"gtkActionProps.ml" 131 5262 5270 "gtkActionProps.ml" 131 5262 5286
+type(
+  ([> `uimanager ], Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit)
+  GtkSignal.t
+)
+ident(
+  def disconnect_proxy "gtkActionProps.ml" 136 5504 5508 "gtkActionProps.ml" 144 5875 5880
+)
+"gtkActionProps.ml" 132 5289 5301 "gtkActionProps.ml" 132 5289 5319
+type(
+  string
+)
+"gtkActionProps.ml" 132 5289 5328 "gtkActionProps.ml" 132 5289 5338
+type(
+  [> `uimanager ] as 'g
+)
+"gtkActionProps.ml" 132 5289 5355 "gtkActionProps.ml" 132 5289 5356
+type(
+  Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit
+)
+ident(
+  def f "gtkActionProps.ml" 133 5360 5367 "gtkActionProps.ml" 135 5459 5502
+)
+"gtkActionProps.ml" 133 5360 5367 "gtkActionProps.ml" 133 5360 5375
+type(
+  Gtk.action Gobject.obj Gobject.data_conv ->
+  Gtk.widget Gobject.obj Gobject.data_conv ->
+  string ->
+  (Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkActionProps.ml" 133 5360 5377 "gtkActionProps.ml" 133 5360 5384
+type(
+  Gtk.action Gobject.obj Gobject.data_conv
+)
+type(
+  Gtk.action Gobject.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkActionProps.ml" 134 5413 5423 "gtkActionProps.ml" 134 5413 5430
+type(
+  Gtk.widget Gobject.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gobject.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkActionProps.ml" 135 5459 5468 "gtkActionProps.ml" 135 5459 5500
+type(
+  string
+)
+"gtkActionProps.ml" 135 5459 5501 "gtkActionProps.ml" 135 5459 5502
+type(
+  Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit
+)
+ident(
+  int_ref f "gtkActionProps.ml" 132 5289 5355 "gtkActionProps.ml" 132 5289 5356
+)
+"gtkActionProps.ml" 133 5360 5367 "gtkActionProps.ml" 135 5459 5502
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 132 5289 5351 "gtkActionProps.ml" 135 5459 5502
+type(
+  (Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 132 5289 5295 "gtkActionProps.ml" 135 5459 5503
+type(
+  ('g, Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit) GtkSignal.t
+)
+"gtkActionProps.ml" 136 5504 5512 "gtkActionProps.ml" 136 5504 5525
+type(
+  ([> `uimanager ], Gtk.action Gobject.obj -> unit) GtkSignal.t
+)
+ident(
+  def post_activate "gtkActionProps.ml" 140 5691 5695 "gtkActionProps.ml" 144 5875 5880
+)
+"gtkActionProps.ml" 137 5528 5540 "gtkActionProps.ml" 137 5528 5555
+type(
+  string
+)
+"gtkActionProps.ml" 137 5528 5564 "gtkActionProps.ml" 137 5528 5574
+type(
+  [> `uimanager ] as 'h
+)
+"gtkActionProps.ml" 137 5528 5591 "gtkActionProps.ml" 137 5528 5592
+type(
+  Gtk.action Gobject.obj -> unit
+)
+ident(
+  def f "gtkActionProps.ml" 138 5596 5603 "gtkActionProps.ml" 139 5649 5689
+)
+"gtkActionProps.ml" 138 5596 5603 "gtkActionProps.ml" 138 5596 5611
+type(
+  Gtk.action Gobject.obj Gobject.data_conv ->
+  string -> (Gtk.action Gobject.obj -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkActionProps.ml" 138 5596 5613 "gtkActionProps.ml" 138 5596 5620
+type(
+  Gtk.action Gobject.obj Gobject.data_conv
+)
+type(
+  Gtk.action Gobject.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkActionProps.ml" 139 5649 5658 "gtkActionProps.ml" 139 5649 5687
+type(
+  string
+)
+"gtkActionProps.ml" 139 5649 5688 "gtkActionProps.ml" 139 5649 5689
+type(
+  Gtk.action Gobject.obj -> unit
+)
+ident(
+  int_ref f "gtkActionProps.ml" 137 5528 5591 "gtkActionProps.ml" 137 5528 5592
+)
+"gtkActionProps.ml" 138 5596 5603 "gtkActionProps.ml" 139 5649 5689
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 137 5528 5587 "gtkActionProps.ml" 139 5649 5689
+type(
+  (Gtk.action Gobject.obj -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 137 5528 5534 "gtkActionProps.ml" 139 5649 5690
+type(
+  ('h, Gtk.action Gobject.obj -> unit) GtkSignal.t
+)
+"gtkActionProps.ml" 140 5691 5699 "gtkActionProps.ml" 140 5691 5711
+type(
+  ([> `uimanager ], Gtk.action Gobject.obj -> unit) GtkSignal.t
+)
+ident(
+  def pre_activate "gtkActionProps.ml" 143 5834 5874 "gtkActionProps.ml" 144 5875 5880
+)
+"gtkActionProps.ml" 141 5714 5726 "gtkActionProps.ml" 141 5714 5740
+type(
+  string
+)
+"gtkActionProps.ml" 141 5714 5749 "gtkActionProps.ml" 141 5714 5759
+type(
+  [> `uimanager ] as 'i
+)
+"gtkActionProps.ml" 141 5714 5776 "gtkActionProps.ml" 141 5714 5777
+type(
+  Gtk.action Gobject.obj -> unit
+)
+ident(
+  def f "gtkActionProps.ml" 142 5781 5788 "gtkActionProps.ml" 143 5834 5873
+)
+"gtkActionProps.ml" 142 5781 5788 "gtkActionProps.ml" 142 5781 5796
+type(
+  Gtk.action Gobject.obj Gobject.data_conv ->
+  string -> (Gtk.action Gobject.obj -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkActionProps.ml" 142 5781 5798 "gtkActionProps.ml" 142 5781 5805
+type(
+  Gtk.action Gobject.obj Gobject.data_conv
+)
+type(
+  Gtk.action Gobject.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkActionProps.ml" 143 5834 5843 "gtkActionProps.ml" 143 5834 5871
+type(
+  string
+)
+"gtkActionProps.ml" 143 5834 5872 "gtkActionProps.ml" 143 5834 5873
+type(
+  Gtk.action Gobject.obj -> unit
+)
+ident(
+  int_ref f "gtkActionProps.ml" 141 5714 5776 "gtkActionProps.ml" 141 5714 5777
+)
+"gtkActionProps.ml" 142 5781 5788 "gtkActionProps.ml" 143 5834 5873
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 141 5714 5772 "gtkActionProps.ml" 143 5834 5873
+type(
+  (Gtk.action Gobject.obj -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 141 5714 5720 "gtkActionProps.ml" 143 5834 5874
+type(
+  ('i, Gtk.action Gobject.obj -> unit) GtkSignal.t
+)
+"gtkActionProps.ml" 145 5881 5887 "gtkActionProps.ml" 145 5881 5893
+type(
+  Gtk.ui_manager Gobject.param list -> Gtk.ui_manager Gobject.obj
+)
+ident(
+  def create "gtkActionProps.ml" 147 5964 5966 "gtkActionProps.ml" 179 7561 7564
+)
+"gtkActionProps.ml" 145 5881 5894 "gtkActionProps.ml" 145 5881 5896
+type(
+  Gtk.ui_manager Gobject.param list
+)
+ident(
+  def pl "gtkActionProps.ml" 145 5881 5897 "gtkActionProps.ml" 146 5920 5963
+)
+"gtkActionProps.ml" 146 5920 5924 "gtkActionProps.ml" 146 5920 5945
+type(
+  classe:string ->
+  Gtk.ui_manager Gobject.param list -> Gtk.ui_manager Gobject.obj
+)
+ident(
+  ext_ref Gobject.unsafe_create
+)
+"gtkActionProps.ml" 146 5920 5946 "gtkActionProps.ml" 146 5920 5960
+type(
+  string
+)
+"gtkActionProps.ml" 146 5920 5961 "gtkActionProps.ml" 146 5920 5963
+type(
+  Gtk.ui_manager Gobject.param list
+)
+ident(
+  int_ref pl "gtkActionProps.ml" 145 5881 5894 "gtkActionProps.ml" 145 5881 5896
+)
+"gtkActionProps.ml" 146 5920 5924 "gtkActionProps.ml" 146 5920 5963
+call(
+  tail
+)
+type(
+  Gtk.ui_manager Gobject.obj
+)
+type(
+  Gtk.ui_manager Gobject.obj
+)
+"gtkActionProps.ml" 182 7594 7600 "gtkActionProps.ml" 182 7594 7604
+type(
+  'a Gobject.obj -> Gtk.action_group Gobject.obj
+)
+ident(
+  def cast "gtkActionProps.ml" 183 7660 7662 "gtkActionProps.ml" 223 9533 9536
+)
+"gtkActionProps.ml" 182 7594 7605 "gtkActionProps.ml" 182 7594 7606
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkActionProps.ml" 182 7594 7607 "gtkActionProps.ml" 182 7594 7659
+)
+"gtkActionProps.ml" 182 7594 7632 "gtkActionProps.ml" 182 7594 7640
+type(
+  'a Gobject.obj -> string -> Gtk.action_group Gobject.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkActionProps.ml" 182 7594 7641 "gtkActionProps.ml" 182 7594 7642
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkActionProps.ml" 182 7594 7605 "gtkActionProps.ml" 182 7594 7606
+)
+"gtkActionProps.ml" 182 7594 7643 "gtkActionProps.ml" 182 7594 7659
+type(
+  string
+)
+"gtkActionProps.ml" 182 7594 7632 "gtkActionProps.ml" 182 7594 7659
+call(
+  tail
+)
+type(
+  Gtk.action_group Gobject.obj
+)
+type(
+  Gtk.action_group Gobject.obj
+)
+"gtkActionProps.ml" 184 7680 7688 "gtkActionProps.ml" 184 7680 7692
+type(
+  ([> `actiongroup ], string) Gobject.property
+)
+ident(
+  def name "gtkActionProps.ml" 185 7744 7748 "gtkActionProps.ml" 187 7888 7893
+)
+"gtkActionProps.ml" 184 7680 7726 "gtkActionProps.ml" 184 7680 7743
+type(
+  ([> `actiongroup ] as 'b, string) Gobject.property
+)
+type(
+  ('b, string) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.name
+)
+"gtkActionProps.ml" 185 7744 7752 "gtkActionProps.ml" 185 7744 7761
+type(
+  ([> `actiongroup ], bool) Gobject.property
+)
+ident(
+  def sensitive "gtkActionProps.ml" 186 7818 7822 "gtkActionProps.ml" 187 7888 7893
+)
+"gtkActionProps.ml" 185 7744 7795 "gtkActionProps.ml" 185 7744 7817
+type(
+  ([> `actiongroup ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.sensitive
+)
+"gtkActionProps.ml" 186 7818 7826 "gtkActionProps.ml" 186 7818 7833
+type(
+  ([> `actiongroup ], bool) Gobject.property
+)
+ident(
+  def visible "gtkActionProps.ml" 186 7818 7887 "gtkActionProps.ml" 187 7888 7893
+)
+"gtkActionProps.ml" 186 7818 7867 "gtkActionProps.ml" 186 7818 7887
+type(
+  ([> `actiongroup ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.visible
+)
+"gtkActionProps.ml" 190 7933 7941 "gtkActionProps.ml" 190 7933 7954
+type(
+  ([> `actiongroup ],
+   Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit)
+  GtkSignal.t
+)
+ident(
+  def connect_proxy "gtkActionProps.ml" 195 8170 8174 "gtkActionProps.ml" 208 8795 8800
+)
+"gtkActionProps.ml" 191 7957 7969 "gtkActionProps.ml" 191 7957 7984
+type(
+  string
+)
+"gtkActionProps.ml" 191 7957 7993 "gtkActionProps.ml" 191 7957 8005
+type(
+  [> `actiongroup ] as 'e
+)
+"gtkActionProps.ml" 191 7957 8022 "gtkActionProps.ml" 191 7957 8023
+type(
+  Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit
+)
+ident(
+  def f "gtkActionProps.ml" 192 8027 8034 "gtkActionProps.ml" 194 8126 8168
+)
+"gtkActionProps.ml" 192 8027 8034 "gtkActionProps.ml" 192 8027 8042
+type(
+  Gtk.action Gobject.obj Gobject.data_conv ->
+  Gtk.widget Gobject.obj Gobject.data_conv ->
+  string ->
+  (Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkActionProps.ml" 192 8027 8044 "gtkActionProps.ml" 192 8027 8051
+type(
+  Gtk.action Gobject.obj Gobject.data_conv
+)
+type(
+  Gtk.action Gobject.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkActionProps.ml" 193 8080 8090 "gtkActionProps.ml" 193 8080 8097
+type(
+  Gtk.widget Gobject.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gobject.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkActionProps.ml" 194 8126 8135 "gtkActionProps.ml" 194 8126 8166
+type(
+  string
+)
+"gtkActionProps.ml" 194 8126 8167 "gtkActionProps.ml" 194 8126 8168
+type(
+  Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit
+)
+ident(
+  int_ref f "gtkActionProps.ml" 191 7957 8022 "gtkActionProps.ml" 191 7957 8023
+)
+"gtkActionProps.ml" 192 8027 8034 "gtkActionProps.ml" 194 8126 8168
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 191 7957 8018 "gtkActionProps.ml" 194 8126 8168
+type(
+  (Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 191 7957 7963 "gtkActionProps.ml" 194 8126 8169
+type(
+  ('e, Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit) GtkSignal.t
+)
+"gtkActionProps.ml" 195 8170 8178 "gtkActionProps.ml" 195 8170 8194
+type(
+  ([> `actiongroup ],
+   Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit)
+  GtkSignal.t
+)
+ident(
+  def disconnect_proxy "gtkActionProps.ml" 200 8416 8420 "gtkActionProps.ml" 208 8795 8800
+)
+"gtkActionProps.ml" 196 8197 8209 "gtkActionProps.ml" 196 8197 8227
+type(
+  string
+)
+"gtkActionProps.ml" 196 8197 8236 "gtkActionProps.ml" 196 8197 8248
+type(
+  [> `actiongroup ] as 'f
+)
+"gtkActionProps.ml" 196 8197 8265 "gtkActionProps.ml" 196 8197 8266
+type(
+  Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit
+)
+ident(
+  def f "gtkActionProps.ml" 197 8270 8277 "gtkActionProps.ml" 199 8369 8414
+)
+"gtkActionProps.ml" 197 8270 8277 "gtkActionProps.ml" 197 8270 8285
+type(
+  Gtk.action Gobject.obj Gobject.data_conv ->
+  Gtk.widget Gobject.obj Gobject.data_conv ->
+  string ->
+  (Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkActionProps.ml" 197 8270 8287 "gtkActionProps.ml" 197 8270 8294
+type(
+  Gtk.action Gobject.obj Gobject.data_conv
+)
+type(
+  Gtk.action Gobject.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkActionProps.ml" 198 8323 8333 "gtkActionProps.ml" 198 8323 8340
+type(
+  Gtk.widget Gobject.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gobject.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkActionProps.ml" 199 8369 8378 "gtkActionProps.ml" 199 8369 8412
+type(
+  string
+)
+"gtkActionProps.ml" 199 8369 8413 "gtkActionProps.ml" 199 8369 8414
+type(
+  Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit
+)
+ident(
+  int_ref f "gtkActionProps.ml" 196 8197 8265 "gtkActionProps.ml" 196 8197 8266
+)
+"gtkActionProps.ml" 197 8270 8277 "gtkActionProps.ml" 199 8369 8414
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 196 8197 8261 "gtkActionProps.ml" 199 8369 8414
+type(
+  (Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 196 8197 8203 "gtkActionProps.ml" 199 8369 8415
+type(
+  ('f, Gtk.action Gobject.obj -> Gtk.widget Gobject.obj -> unit) GtkSignal.t
+)
+"gtkActionProps.ml" 200 8416 8424 "gtkActionProps.ml" 200 8416 8437
+type(
+  ([> `actiongroup ], Gtk.action Gobject.obj -> unit) GtkSignal.t
+)
+ident(
+  def post_activate "gtkActionProps.ml" 204 8607 8611 "gtkActionProps.ml" 208 8795 8800
+)
+"gtkActionProps.ml" 201 8440 8452 "gtkActionProps.ml" 201 8440 8467
+type(
+  string
+)
+"gtkActionProps.ml" 201 8440 8476 "gtkActionProps.ml" 201 8440 8488
+type(
+  [> `actiongroup ] as 'g
+)
+"gtkActionProps.ml" 201 8440 8505 "gtkActionProps.ml" 201 8440 8506
+type(
+  Gtk.action Gobject.obj -> unit
+)
+ident(
+  def f "gtkActionProps.ml" 202 8510 8517 "gtkActionProps.ml" 203 8563 8605
+)
+"gtkActionProps.ml" 202 8510 8517 "gtkActionProps.ml" 202 8510 8525
+type(
+  Gtk.action Gobject.obj Gobject.data_conv ->
+  string -> (Gtk.action Gobject.obj -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkActionProps.ml" 202 8510 8527 "gtkActionProps.ml" 202 8510 8534
+type(
+  Gtk.action Gobject.obj Gobject.data_conv
+)
+type(
+  Gtk.action Gobject.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkActionProps.ml" 203 8563 8572 "gtkActionProps.ml" 203 8563 8603
+type(
+  string
+)
+"gtkActionProps.ml" 203 8563 8604 "gtkActionProps.ml" 203 8563 8605
+type(
+  Gtk.action Gobject.obj -> unit
+)
+ident(
+  int_ref f "gtkActionProps.ml" 201 8440 8505 "gtkActionProps.ml" 201 8440 8506
+)
+"gtkActionProps.ml" 202 8510 8517 "gtkActionProps.ml" 203 8563 8605
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 201 8440 8501 "gtkActionProps.ml" 203 8563 8605
+type(
+  (Gtk.action Gobject.obj -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 201 8440 8446 "gtkActionProps.ml" 203 8563 8606
+type(
+  ('g, Gtk.action Gobject.obj -> unit) GtkSignal.t
+)
+"gtkActionProps.ml" 204 8607 8615 "gtkActionProps.ml" 204 8607 8627
+type(
+  ([> `actiongroup ], Gtk.action Gobject.obj -> unit) GtkSignal.t
+)
+ident(
+  def pre_activate "gtkActionProps.ml" 207 8752 8794 "gtkActionProps.ml" 208 8795 8800
+)
+"gtkActionProps.ml" 205 8630 8642 "gtkActionProps.ml" 205 8630 8656
+type(
+  string
+)
+"gtkActionProps.ml" 205 8630 8665 "gtkActionProps.ml" 205 8630 8677
+type(
+  [> `actiongroup ] as 'h
+)
+"gtkActionProps.ml" 205 8630 8694 "gtkActionProps.ml" 205 8630 8695
+type(
+  Gtk.action Gobject.obj -> unit
+)
+ident(
+  def f "gtkActionProps.ml" 206 8699 8706 "gtkActionProps.ml" 207 8752 8793
+)
+"gtkActionProps.ml" 206 8699 8706 "gtkActionProps.ml" 206 8699 8714
+type(
+  Gtk.action Gobject.obj Gobject.data_conv ->
+  string -> (Gtk.action Gobject.obj -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkActionProps.ml" 206 8699 8716 "gtkActionProps.ml" 206 8699 8723
+type(
+  Gtk.action Gobject.obj Gobject.data_conv
+)
+type(
+  Gtk.action Gobject.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkActionProps.ml" 207 8752 8761 "gtkActionProps.ml" 207 8752 8791
+type(
+  string
+)
+"gtkActionProps.ml" 207 8752 8792 "gtkActionProps.ml" 207 8752 8793
+type(
+  Gtk.action Gobject.obj -> unit
+)
+ident(
+  int_ref f "gtkActionProps.ml" 205 8630 8694 "gtkActionProps.ml" 205 8630 8695
+)
+"gtkActionProps.ml" 206 8699 8706 "gtkActionProps.ml" 207 8752 8793
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 205 8630 8690 "gtkActionProps.ml" 207 8752 8793
+type(
+  (Gtk.action Gobject.obj -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkActionProps.ml" 205 8630 8636 "gtkActionProps.ml" 207 8752 8794
+type(
+  ('h, Gtk.action Gobject.obj -> unit) GtkSignal.t
+)
+"gtkActionProps.ml" 209 8801 8807 "gtkActionProps.ml" 209 8801 8813
+type(
+  ?name:string ->
+  Gtk.action_group Gobject.param list -> Gtk.action_group Gobject.obj
+)
+ident(
+  def create "gtkActionProps.ml" 212 8936 8938 "gtkActionProps.ml" 223 9533 9536
+)
+"gtkActionProps.ml" 209 8801 8815 "gtkActionProps.ml" 209 8801 8819
+type(
+  string option
+)
+ident(
+  def name "gtkActionProps.ml" 209 8801 8820 "gtkActionProps.ml" 211 8890 8935
+)
+"gtkActionProps.ml" 209 8801 8820 "gtkActionProps.ml" 209 8801 8822
+type(
+  Gtk.action_group Gobject.param list
+)
+ident(
+  def pl "gtkActionProps.ml" 209 8801 8823 "gtkActionProps.ml" 211 8890 8935
+)
+"gtkActionProps.ml" 210 8848 8856 "gtkActionProps.ml" 210 8848 8858
+type(
+  Gtk.action_group Gobject.param list
+)
+"gtkActionProps.ml" 210 8848 8862 "gtkActionProps.ml" 210 8848 8870
+type(
+  (Gtk.action_group, string) Gobject.property ->
+  string option ->
+  Gtk.action_group Gobject.param list -> Gtk.action_group Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkActionProps.ml" 10 221 225 "gtkActionProps.ml" 10 221 233
+)
+"gtkActionProps.ml" 210 8848 8871 "gtkActionProps.ml" 210 8848 8877
+type(
+  (Gtk.action_group, string) Gobject.property
+)
+ident(
+  ext_ref P.name
+)
+"gtkActionProps.ml" 210 8848 8878 "gtkActionProps.ml" 210 8848 8882
+type(
+  string option
+)
+ident(
+  int_ref name "gtkActionProps.ml" 209 8801 8815 "gtkActionProps.ml" 209 8801 8819
+)
+"gtkActionProps.ml" 210 8848 8883 "gtkActionProps.ml" 210 8848 8885
+type(
+  Gtk.action_group Gobject.param list
+)
+ident(
+  int_ref pl "gtkActionProps.ml" 209 8801 8820 "gtkActionProps.ml" 209 8801 8822
+)
+"gtkActionProps.ml" 210 8848 8861 "gtkActionProps.ml" 210 8848 8886
+call(
+  stack
+)
+type(
+  Gtk.action_group Gobject.param list
+)
+"gtkActionProps.ml" 211 8890 8894 "gtkActionProps.ml" 211 8890 8915
+type(
+  classe:string ->
+  Gtk.action_group Gobject.param list -> Gtk.action_group Gobject.obj
+)
+ident(
+  ext_ref Gobject.unsafe_create
+)
+"gtkActionProps.ml" 211 8890 8916 "gtkActionProps.ml" 211 8890 8932
+type(
+  string
+)
+"gtkActionProps.ml" 211 8890 8933 "gtkActionProps.ml" 211 8890 8935
+type(
+  Gtk.action_group Gobject.param list
+)
+ident(
+  int_ref pl "gtkActionProps.ml" 210 8848 8856 "gtkActionProps.ml" 210 8848 8858
+)
+"gtkActionProps.ml" 211 8890 8894 "gtkActionProps.ml" 211 8890 8935
+call(
+  tail
+)
+type(
+  Gtk.action_group Gobject.obj
+)
+"gtkActionProps.ml" 210 8848 8852 "gtkActionProps.ml" 211 8890 8935
+type(
+  Gtk.action_group Gobject.obj
+)
+type(
+  Gtk.action_group Gobject.obj
+)

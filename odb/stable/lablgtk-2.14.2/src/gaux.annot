@@ -1,0 +1,303 @@
+"gaux.ml" 27 1697 1701 "gaux.ml" 27 1697 1704
+type(
+  f:('a -> 'b) -> 'a option -> unit
+)
+ident(
+  def may "gaux.ml" 31 1771 1771 --
+)
+"gaux.ml" 27 1697 1706 "gaux.ml" 27 1697 1707
+type(
+  'a -> 'b
+)
+ident(
+  def f "gaux.ml" 27 1697 1708 "gaux.ml" 29 1738 1769
+)
+"gaux.ml" 27 1697 1708 "gaux.ml" 27 1697 1709
+type(
+  'a option
+)
+ident(
+  def x "gaux.ml" 28 1712 1714 "gaux.ml" 29 1738 1769
+)
+"gaux.ml" 28 1712 1720 "gaux.ml" 28 1712 1721
+type(
+  'a option
+)
+ident(
+  int_ref x "gaux.ml" 27 1697 1708 "gaux.ml" 27 1697 1709
+)
+"gaux.ml" 28 1712 1727 "gaux.ml" 28 1712 1731
+type(
+  'a option
+)
+"gaux.ml" 28 1712 1735 "gaux.ml" 28 1712 1737
+type(
+  unit
+)
+"gaux.ml" 29 1738 1747 "gaux.ml" 29 1738 1748
+type(
+  'a
+)
+ident(
+  def x "gaux.ml" 29 1738 1752 "gaux.ml" 29 1738 1769
+)
+"gaux.ml" 29 1738 1742 "gaux.ml" 29 1738 1748
+type(
+  'a option
+)
+"gaux.ml" 29 1738 1756 "gaux.ml" 29 1738 1757
+type(
+  'b
+)
+"gaux.ml" 29 1738 1760 "gaux.ml" 29 1738 1761
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "gaux.ml" 27 1697 1706 "gaux.ml" 27 1697 1707
+)
+"gaux.ml" 29 1738 1762 "gaux.ml" 29 1738 1763
+type(
+  'a
+)
+ident(
+  int_ref x "gaux.ml" 29 1738 1747 "gaux.ml" 29 1738 1748
+)
+"gaux.ml" 29 1738 1760 "gaux.ml" 29 1738 1763
+call(
+  stack
+)
+type(
+  'b
+)
+"gaux.ml" 29 1738 1767 "gaux.ml" 29 1738 1769
+type(
+  unit
+)
+"gaux.ml" 29 1738 1752 "gaux.ml" 29 1738 1769
+type(
+  unit
+)
+"gaux.ml" 28 1712 1714 "gaux.ml" 29 1738 1769
+type(
+  unit
+)
+"gaux.ml" 31 1771 1775 "gaux.ml" 31 1771 1782
+type(
+  f:('a -> 'b) -> 'a option -> 'b option
+)
+ident(
+  def may_map "gaux.ml" 35 1844 1844 --
+)
+"gaux.ml" 31 1771 1784 "gaux.ml" 31 1771 1785
+type(
+  'a -> 'b
+)
+ident(
+  def f "gaux.ml" 31 1771 1786 "gaux.ml" 33 1818 1842
+)
+"gaux.ml" 31 1771 1786 "gaux.ml" 31 1771 1787
+type(
+  'a option
+)
+ident(
+  def x "gaux.ml" 32 1790 1792 "gaux.ml" 33 1818 1842
+)
+"gaux.ml" 32 1790 1798 "gaux.ml" 32 1790 1799
+type(
+  'a option
+)
+ident(
+  int_ref x "gaux.ml" 31 1771 1786 "gaux.ml" 31 1771 1787
+)
+"gaux.ml" 32 1790 1805 "gaux.ml" 32 1790 1809
+type(
+  'a option
+)
+"gaux.ml" 32 1790 1813 "gaux.ml" 32 1790 1817
+type(
+  'b option
+)
+"gaux.ml" 33 1818 1827 "gaux.ml" 33 1818 1828
+type(
+  'a
+)
+ident(
+  def x "gaux.ml" 33 1818 1832 "gaux.ml" 33 1818 1842
+)
+"gaux.ml" 33 1818 1822 "gaux.ml" 33 1818 1828
+type(
+  'a option
+)
+"gaux.ml" 33 1818 1838 "gaux.ml" 33 1818 1839
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "gaux.ml" 31 1771 1784 "gaux.ml" 31 1771 1785
+)
+"gaux.ml" 33 1818 1840 "gaux.ml" 33 1818 1841
+type(
+  'a
+)
+ident(
+  int_ref x "gaux.ml" 33 1818 1827 "gaux.ml" 33 1818 1828
+)
+"gaux.ml" 33 1818 1837 "gaux.ml" 33 1818 1842
+call(
+  stack
+)
+type(
+  'b
+)
+"gaux.ml" 33 1818 1832 "gaux.ml" 33 1818 1842
+type(
+  'b option
+)
+"gaux.ml" 32 1790 1792 "gaux.ml" 33 1818 1842
+type(
+  'b option
+)
+"gaux.ml" 35 1844 1848 "gaux.ml" 35 1844 1855
+type(
+  'a -> opt:'a option -> 'a
+)
+ident(
+  def default "gaux.ml" 38 1907 1907 --
+)
+"gaux.ml" 35 1844 1856 "gaux.ml" 35 1844 1857
+type(
+  'a
+)
+ident(
+  def x "gaux.ml" 35 1844 1858 "gaux.ml" 36 1865 1905
+)
+"gaux.ml" 35 1844 1859 "gaux.ml" 35 1844 1862
+type(
+  'a option
+)
+ident(
+  def opt "gaux.ml" 36 1865 1867 "gaux.ml" 36 1865 1905
+)
+"gaux.ml" 36 1865 1873 "gaux.ml" 36 1865 1876
+type(
+  'a option
+)
+ident(
+  int_ref opt "gaux.ml" 35 1844 1859 "gaux.ml" 35 1844 1862
+)
+"gaux.ml" 36 1865 1882 "gaux.ml" 36 1865 1886
+type(
+  'a option
+)
+"gaux.ml" 36 1865 1890 "gaux.ml" 36 1865 1891
+type(
+  'a
+)
+ident(
+  int_ref x "gaux.ml" 35 1844 1856 "gaux.ml" 35 1844 1857
+)
+"gaux.ml" 36 1865 1899 "gaux.ml" 36 1865 1900
+type(
+  'a
+)
+ident(
+  def y "gaux.ml" 36 1865 1904 "gaux.ml" 36 1865 1905
+)
+"gaux.ml" 36 1865 1894 "gaux.ml" 36 1865 1900
+type(
+  'a option
+)
+"gaux.ml" 36 1865 1904 "gaux.ml" 36 1865 1905
+type(
+  'a
+)
+ident(
+  int_ref y "gaux.ml" 36 1865 1899 "gaux.ml" 36 1865 1900
+)
+"gaux.ml" 36 1865 1867 "gaux.ml" 36 1865 1905
+type(
+  'a
+)
+"gaux.ml" 38 1907 1911 "gaux.ml" 38 1907 1922
+type(
+  ('a -> 'b) -> 'a -> opt:'b option -> 'b
+)
+ident(
+  def may_default "gaux.ml" 39 1934 1976 --
+)
+"gaux.ml" 38 1907 1923 "gaux.ml" 38 1907 1924
+type(
+  'a -> 'b
+)
+ident(
+  def f "gaux.ml" 38 1907 1925 "gaux.ml" 39 1934 1976
+)
+"gaux.ml" 38 1907 1925 "gaux.ml" 38 1907 1926
+type(
+  'a
+)
+ident(
+  def x "gaux.ml" 38 1907 1927 "gaux.ml" 39 1934 1976
+)
+"gaux.ml" 38 1907 1928 "gaux.ml" 38 1907 1931
+type(
+  'b option
+)
+ident(
+  def opt "gaux.ml" 39 1934 1936 "gaux.ml" 39 1934 1976
+)
+"gaux.ml" 39 1934 1942 "gaux.ml" 39 1934 1945
+type(
+  'b option
+)
+ident(
+  int_ref opt "gaux.ml" 38 1907 1928 "gaux.ml" 38 1907 1931
+)
+"gaux.ml" 39 1934 1951 "gaux.ml" 39 1934 1955
+type(
+  'b option
+)
+"gaux.ml" 39 1934 1959 "gaux.ml" 39 1934 1960
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "gaux.ml" 38 1907 1923 "gaux.ml" 38 1907 1924
+)
+"gaux.ml" 39 1934 1961 "gaux.ml" 39 1934 1962
+type(
+  'a
+)
+ident(
+  int_ref x "gaux.ml" 38 1907 1925 "gaux.ml" 38 1907 1926
+)
+"gaux.ml" 39 1934 1959 "gaux.ml" 39 1934 1962
+call(
+  tail
+)
+type(
+  'b
+)
+"gaux.ml" 39 1934 1970 "gaux.ml" 39 1934 1971
+type(
+  'b
+)
+ident(
+  def y "gaux.ml" 39 1934 1975 "gaux.ml" 39 1934 1976
+)
+"gaux.ml" 39 1934 1965 "gaux.ml" 39 1934 1971
+type(
+  'b option
+)
+"gaux.ml" 39 1934 1975 "gaux.ml" 39 1934 1976
+type(
+  'b
+)
+ident(
+  int_ref y "gaux.ml" 39 1934 1970 "gaux.ml" 39 1934 1971
+)
+"gaux.ml" 39 1934 1936 "gaux.ml" 39 1934 1976
+type(
+  'b
+)

@@ -1,0 +1,2 @@
+This subcommand is deprecated. The subcommand Setup now embeds into `setup.ml`
+a checks of `_oasis` for changes. See the subcommand Setup for further details.

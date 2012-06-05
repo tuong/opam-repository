@@ -1,0 +1,4 @@
+deps=ocamllex,ocamlbuild,camlp4o,camlp4
+tarball=xstrp4-2.0alpha5.tar.gz
+is_library=true
+is_program=false

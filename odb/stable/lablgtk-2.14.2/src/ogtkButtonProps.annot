@@ -1,0 +1,1971 @@
+"ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  def set "ogtkButtonProps.ml" 5 52 52 --
+)
+"ogtkButtonProps.ml" 4 38 48 "ogtkButtonProps.ml" 4 38 51
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  def get "ogtkButtonProps.ml" 6 66 66 --
+)
+"ogtkButtonProps.ml" 5 52 62 "ogtkButtonProps.ml" 5 52 65
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  ext_ref Gobject.get
+)
+"ogtkButtonProps.ml" 6 66 70 "ogtkButtonProps.ml" 6 66 75
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  def param "ogtkButtonProps.ml" 8 85 85 --
+)
+"ogtkButtonProps.ml" 6 66 78 "ogtkButtonProps.ml" 6 66 83
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"ogtkButtonProps.ml" 14 189 219 "ogtkButtonProps.ml" 14 189 222
+type(
+  ([> `button ] as 'a, bool) Gobject.property ->
+  'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 14 189 223 "ogtkButtonProps.ml" 14 189 246
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.focus_on_click
+)
+"ogtkButtonProps.ml" 14 189 247 "ogtkButtonProps.ml" 14 189 250
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 14 189 219 "ogtkButtonProps.ml" 14 189 250
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkButtonProps.ml" 15 251 272 "ogtkButtonProps.ml" 15 251 275
+type(
+  ('a, GObj.widget) Gobject.property -> 'a Gobject.obj -> GObj.widget -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 15 251 277 "ogtkButtonProps.ml" 15 251 291
+type(
+  (_[> `button ], Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.image
+)
+"ogtkButtonProps.ml" 15 251 302 "ogtkButtonProps.ml" 15 251 318
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkButtonProps.ml" 15 251 276 "ogtkButtonProps.ml" 15 251 319
+type(
+  ('a, GObj.widget) Gobject.property
+)
+"ogtkButtonProps.ml" 15 251 320 "ogtkButtonProps.ml" 15 251 323
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 15 251 272 "ogtkButtonProps.ml" 15 251 323
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+type(
+  GObj.widget -> unit
+)
+"ogtkButtonProps.ml" 16 324 354 "ogtkButtonProps.ml" 16 324 357
+type(
+  ('a, GtkEnums.position_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.position_type -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 16 324 358 "ogtkButtonProps.ml" 16 324 381
+type(
+  ('a, GtkEnums.position_type) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.image_position
+)
+"ogtkButtonProps.ml" 16 324 382 "ogtkButtonProps.ml" 16 324 385
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 16 324 354 "ogtkButtonProps.ml" 16 324 385
+call(
+  tail
+)
+type(
+  GtkEnums.position_type -> unit
+)
+type(
+  GtkEnums.position_type -> unit
+)
+"ogtkButtonProps.ml" 17 386 407 "ogtkButtonProps.ml" 17 386 410
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 17 386 411 "ogtkButtonProps.ml" 17 386 425
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.label
+)
+"ogtkButtonProps.ml" 17 386 426 "ogtkButtonProps.ml" 17 386 429
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 17 386 407 "ogtkButtonProps.ml" 17 386 429
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkButtonProps.ml" 18 430 455 "ogtkButtonProps.ml" 18 430 458
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 18 430 459 "ogtkButtonProps.ml" 18 430 477
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.use_stock
+)
+"ogtkButtonProps.ml" 18 430 478 "ogtkButtonProps.ml" 18 430 481
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 18 430 455 "ogtkButtonProps.ml" 18 430 481
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkButtonProps.ml" 19 482 511 "ogtkButtonProps.ml" 19 482 514
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 19 482 515 "ogtkButtonProps.ml" 19 482 537
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.use_underline
+)
+"ogtkButtonProps.ml" 19 482 538 "ogtkButtonProps.ml" 19 482 541
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 19 482 511 "ogtkButtonProps.ml" 19 482 541
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkButtonProps.ml" 20 542 564 "ogtkButtonProps.ml" 20 542 567
+type(
+  ('a, GtkEnums.relief_style) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.relief_style -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 20 542 568 "ogtkButtonProps.ml" 20 542 583
+type(
+  ('a, GtkEnums.relief_style) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.relief
+)
+"ogtkButtonProps.ml" 20 542 584 "ogtkButtonProps.ml" 20 542 587
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 20 542 564 "ogtkButtonProps.ml" 20 542 587
+call(
+  tail
+)
+type(
+  GtkEnums.relief_style -> unit
+)
+type(
+  GtkEnums.relief_style -> unit
+)
+"ogtkButtonProps.ml" 21 588 610 "ogtkButtonProps.ml" 21 588 613
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 21 588 614 "ogtkButtonProps.ml" 21 588 629
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.xalign
+)
+"ogtkButtonProps.ml" 21 588 630 "ogtkButtonProps.ml" 21 588 633
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 21 588 610 "ogtkButtonProps.ml" 21 588 633
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkButtonProps.ml" 22 634 656 "ogtkButtonProps.ml" 22 634 659
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 22 634 660 "ogtkButtonProps.ml" 22 634 675
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.yalign
+)
+"ogtkButtonProps.ml" 22 634 676 "ogtkButtonProps.ml" 22 634 679
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 22 634 656 "ogtkButtonProps.ml" 22 634 679
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkButtonProps.ml" 23 680 706 "ogtkButtonProps.ml" 23 680 709
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 23 680 710 "ogtkButtonProps.ml" 23 680 733
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.focus_on_click
+)
+"ogtkButtonProps.ml" 23 680 734 "ogtkButtonProps.ml" 23 680 737
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 23 680 706 "ogtkButtonProps.ml" 23 680 737
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkButtonProps.ml" 24 738 755 "ogtkButtonProps.ml" 24 738 758
+type(
+  ('a, GObj.widget) Gobject.property -> 'a Gobject.obj -> GObj.widget
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 24 738 760 "ogtkButtonProps.ml" 24 738 774
+type(
+  (_[> `button ], Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.image
+)
+"ogtkButtonProps.ml" 24 738 785 "ogtkButtonProps.ml" 24 738 801
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkButtonProps.ml" 24 738 759 "ogtkButtonProps.ml" 24 738 802
+type(
+  ('a, GObj.widget) Gobject.property
+)
+"ogtkButtonProps.ml" 24 738 803 "ogtkButtonProps.ml" 24 738 806
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 24 738 755 "ogtkButtonProps.ml" 24 738 806
+call(
+  tail
+)
+type(
+  GObj.widget
+)
+type(
+  GObj.widget
+)
+"ogtkButtonProps.ml" 25 807 833 "ogtkButtonProps.ml" 25 807 836
+type(
+  ('a, GtkEnums.position_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.position_type
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 25 807 837 "ogtkButtonProps.ml" 25 807 860
+type(
+  ('a, GtkEnums.position_type) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.image_position
+)
+"ogtkButtonProps.ml" 25 807 861 "ogtkButtonProps.ml" 25 807 864
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 25 807 833 "ogtkButtonProps.ml" 25 807 864
+call(
+  tail
+)
+type(
+  GtkEnums.position_type
+)
+type(
+  GtkEnums.position_type
+)
+"ogtkButtonProps.ml" 26 865 882 "ogtkButtonProps.ml" 26 865 885
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 26 865 886 "ogtkButtonProps.ml" 26 865 900
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.label
+)
+"ogtkButtonProps.ml" 26 865 901 "ogtkButtonProps.ml" 26 865 904
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 26 865 882 "ogtkButtonProps.ml" 26 865 904
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkButtonProps.ml" 27 905 926 "ogtkButtonProps.ml" 27 905 929
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 27 905 930 "ogtkButtonProps.ml" 27 905 948
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.use_stock
+)
+"ogtkButtonProps.ml" 27 905 949 "ogtkButtonProps.ml" 27 905 952
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 27 905 926 "ogtkButtonProps.ml" 27 905 952
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkButtonProps.ml" 28 953 978 "ogtkButtonProps.ml" 28 953 981
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 28 953 982 "ogtkButtonProps.ml" 28 953 1004
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.use_underline
+)
+"ogtkButtonProps.ml" 28 953 1005 "ogtkButtonProps.ml" 28 953 1008
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 28 953 978 "ogtkButtonProps.ml" 28 953 1008
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkButtonProps.ml" 29 1009 1027 "ogtkButtonProps.ml" 29 1009 1030
+type(
+  ('a, GtkEnums.relief_style) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.relief_style
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 29 1009 1031 "ogtkButtonProps.ml" 29 1009 1046
+type(
+  ('a, GtkEnums.relief_style) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.relief
+)
+"ogtkButtonProps.ml" 29 1009 1047 "ogtkButtonProps.ml" 29 1009 1050
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 29 1009 1027 "ogtkButtonProps.ml" 29 1009 1050
+call(
+  tail
+)
+type(
+  GtkEnums.relief_style
+)
+type(
+  GtkEnums.relief_style
+)
+"ogtkButtonProps.ml" 30 1051 1069 "ogtkButtonProps.ml" 30 1051 1072
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 30 1051 1073 "ogtkButtonProps.ml" 30 1051 1088
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.xalign
+)
+"ogtkButtonProps.ml" 30 1051 1089 "ogtkButtonProps.ml" 30 1051 1092
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 30 1051 1069 "ogtkButtonProps.ml" 30 1051 1092
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkButtonProps.ml" 31 1093 1111 "ogtkButtonProps.ml" 31 1093 1114
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 31 1093 1115 "ogtkButtonProps.ml" 31 1093 1130
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.yalign
+)
+"ogtkButtonProps.ml" 31 1093 1131 "ogtkButtonProps.ml" 31 1093 1134
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 31 1093 1111 "ogtkButtonProps.ml" 31 1093 1134
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkButtonProps.ml" 34 1140 1175 "ogtkButtonProps.ml" 34 1140 1181
+type(
+  < clicked : callback:(unit -> unit) -> GtkSignal.id;
+    enter : callback:(unit -> unit) -> GtkSignal.id;
+    leave : callback:(unit -> unit) -> GtkSignal.id;
+    pressed : callback:(unit -> unit) -> GtkSignal.id;
+    released : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkButtonProps.ml" 37 1276 1295 "ogtkButtonProps.ml" 37 1276 1299
+type(
+  < clicked : callback:(unit -> unit) -> GtkSignal.id;
+    enter : callback:(unit -> unit) -> GtkSignal.id;
+    leave : callback:(unit -> unit) -> GtkSignal.id;
+    pressed : callback:(unit -> unit) -> GtkSignal.id;
+    released : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkButtonProps.ml" 37 1276 1295 "ogtkButtonProps.ml" 37 1276 1307
+call(
+  tail
+)
+type(
+  ([> `button ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 37 1276 1308 "ogtkButtonProps.ml" 37 1276 1324
+type(
+  ([> `button ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkButtonProps.Button.S.clicked
+)
+"ogtkButtonProps.ml" 37 1276 1295 "ogtkButtonProps.ml" 37 1276 1324
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 38 1325 1342 "ogtkButtonProps.ml" 38 1325 1346
+type(
+  'a
+)
+"ogtkButtonProps.ml" 38 1325 1342 "ogtkButtonProps.ml" 38 1325 1354
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 38 1325 1355 "ogtkButtonProps.ml" 38 1325 1369
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkButtonProps.Button.S.enter
+)
+"ogtkButtonProps.ml" 38 1325 1342 "ogtkButtonProps.ml" 38 1325 1369
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 39 1370 1387 "ogtkButtonProps.ml" 39 1370 1391
+type(
+  'a
+)
+"ogtkButtonProps.ml" 39 1370 1387 "ogtkButtonProps.ml" 39 1370 1399
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 39 1370 1400 "ogtkButtonProps.ml" 39 1370 1414
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkButtonProps.Button.S.leave
+)
+"ogtkButtonProps.ml" 39 1370 1387 "ogtkButtonProps.ml" 39 1370 1414
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 40 1415 1434 "ogtkButtonProps.ml" 40 1415 1438
+type(
+  'a
+)
+"ogtkButtonProps.ml" 40 1415 1434 "ogtkButtonProps.ml" 40 1415 1446
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 40 1415 1447 "ogtkButtonProps.ml" 40 1415 1463
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkButtonProps.Button.S.pressed
+)
+"ogtkButtonProps.ml" 40 1415 1434 "ogtkButtonProps.ml" 40 1415 1463
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 41 1464 1484 "ogtkButtonProps.ml" 41 1464 1488
+type(
+  'a
+)
+"ogtkButtonProps.ml" 41 1464 1484 "ogtkButtonProps.ml" 41 1464 1496
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 41 1464 1497 "ogtkButtonProps.ml" 41 1464 1514
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkButtonProps.Button.S.released
+)
+"ogtkButtonProps.ml" 41 1464 1484 "ogtkButtonProps.ml" 41 1464 1514
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 46 1588 1609 "ogtkButtonProps.ml" 46 1588 1612
+type(
+  ([> `colorbutton ] as 'a, int) Gobject.property ->
+  'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 46 1588 1613 "ogtkButtonProps.ml" 46 1588 1632
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ColorButton.P.alpha
+)
+"ogtkButtonProps.ml" 46 1588 1633 "ogtkButtonProps.ml" 46 1588 1636
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 46 1588 1609 "ogtkButtonProps.ml" 46 1588 1636
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkButtonProps.ml" 47 1637 1658 "ogtkButtonProps.ml" 47 1637 1661
+type(
+  ('a, Gdk.color) Gobject.property -> 'a Gobject.obj -> Gdk.color -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 47 1637 1662 "ogtkButtonProps.ml" 47 1637 1681
+type(
+  ('a, Gdk.color) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ColorButton.P.color
+)
+"ogtkButtonProps.ml" 47 1637 1682 "ogtkButtonProps.ml" 47 1637 1685
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 47 1637 1658 "ogtkButtonProps.ml" 47 1637 1685
+call(
+  tail
+)
+type(
+  Gdk.color -> unit
+)
+type(
+  Gdk.color -> unit
+)
+"ogtkButtonProps.ml" 48 1686 1707 "ogtkButtonProps.ml" 48 1686 1710
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 48 1686 1711 "ogtkButtonProps.ml" 48 1686 1730
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ColorButton.P.title
+)
+"ogtkButtonProps.ml" 48 1686 1731 "ogtkButtonProps.ml" 48 1686 1734
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 48 1686 1707 "ogtkButtonProps.ml" 48 1686 1734
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkButtonProps.ml" 49 1735 1760 "ogtkButtonProps.ml" 49 1735 1763
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 49 1735 1764 "ogtkButtonProps.ml" 49 1735 1787
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ColorButton.P.use_alpha
+)
+"ogtkButtonProps.ml" 49 1735 1788 "ogtkButtonProps.ml" 49 1735 1791
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 49 1735 1760 "ogtkButtonProps.ml" 49 1735 1791
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkButtonProps.ml" 50 1792 1809 "ogtkButtonProps.ml" 50 1792 1812
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 50 1792 1813 "ogtkButtonProps.ml" 50 1792 1832
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ColorButton.P.alpha
+)
+"ogtkButtonProps.ml" 50 1792 1833 "ogtkButtonProps.ml" 50 1792 1836
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 50 1792 1809 "ogtkButtonProps.ml" 50 1792 1836
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkButtonProps.ml" 51 1837 1854 "ogtkButtonProps.ml" 51 1837 1857
+type(
+  ('a, Gdk.color) Gobject.property -> 'a Gobject.obj -> Gdk.color
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 51 1837 1858 "ogtkButtonProps.ml" 51 1837 1877
+type(
+  ('a, Gdk.color) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ColorButton.P.color
+)
+"ogtkButtonProps.ml" 51 1837 1878 "ogtkButtonProps.ml" 51 1837 1881
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 51 1837 1854 "ogtkButtonProps.ml" 51 1837 1881
+call(
+  tail
+)
+type(
+  Gdk.color
+)
+type(
+  Gdk.color
+)
+"ogtkButtonProps.ml" 52 1882 1899 "ogtkButtonProps.ml" 52 1882 1902
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 52 1882 1903 "ogtkButtonProps.ml" 52 1882 1922
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ColorButton.P.title
+)
+"ogtkButtonProps.ml" 52 1882 1923 "ogtkButtonProps.ml" 52 1882 1926
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 52 1882 1899 "ogtkButtonProps.ml" 52 1882 1926
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkButtonProps.ml" 53 1927 1948 "ogtkButtonProps.ml" 53 1927 1951
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 53 1927 1952 "ogtkButtonProps.ml" 53 1927 1975
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ColorButton.P.use_alpha
+)
+"ogtkButtonProps.ml" 53 1927 1976 "ogtkButtonProps.ml" 53 1927 1979
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 53 1927 1948 "ogtkButtonProps.ml" 53 1927 1979
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkButtonProps.ml" 58 2052 2077 "ogtkButtonProps.ml" 58 2052 2080
+type(
+  ([> `fontbutton ] as 'a, string) Gobject.property ->
+  'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 58 2052 2081 "ogtkButtonProps.ml" 58 2052 2103
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.FontButton.P.font_name
+)
+"ogtkButtonProps.ml" 58 2052 2104 "ogtkButtonProps.ml" 58 2052 2107
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 58 2052 2077 "ogtkButtonProps.ml" 58 2052 2107
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkButtonProps.ml" 59 2108 2133 "ogtkButtonProps.ml" 59 2108 2136
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 59 2108 2137 "ogtkButtonProps.ml" 59 2108 2159
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.FontButton.P.show_size
+)
+"ogtkButtonProps.ml" 59 2108 2160 "ogtkButtonProps.ml" 59 2108 2163
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 59 2108 2133 "ogtkButtonProps.ml" 59 2108 2163
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkButtonProps.ml" 60 2164 2190 "ogtkButtonProps.ml" 60 2164 2193
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 60 2164 2194 "ogtkButtonProps.ml" 60 2164 2217
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.FontButton.P.show_style
+)
+"ogtkButtonProps.ml" 60 2164 2218 "ogtkButtonProps.ml" 60 2164 2221
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 60 2164 2190 "ogtkButtonProps.ml" 60 2164 2221
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkButtonProps.ml" 61 2222 2243 "ogtkButtonProps.ml" 61 2222 2246
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 61 2222 2247 "ogtkButtonProps.ml" 61 2222 2265
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.FontButton.P.title
+)
+"ogtkButtonProps.ml" 61 2222 2266 "ogtkButtonProps.ml" 61 2222 2269
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 61 2222 2243 "ogtkButtonProps.ml" 61 2222 2269
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkButtonProps.ml" 62 2270 2294 "ogtkButtonProps.ml" 62 2270 2297
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 62 2270 2298 "ogtkButtonProps.ml" 62 2270 2319
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.FontButton.P.use_font
+)
+"ogtkButtonProps.ml" 62 2270 2320 "ogtkButtonProps.ml" 62 2270 2323
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 62 2270 2294 "ogtkButtonProps.ml" 62 2270 2323
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkButtonProps.ml" 63 2324 2348 "ogtkButtonProps.ml" 63 2324 2351
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 63 2324 2352 "ogtkButtonProps.ml" 63 2324 2373
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.FontButton.P.use_size
+)
+"ogtkButtonProps.ml" 63 2324 2374 "ogtkButtonProps.ml" 63 2324 2377
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 63 2324 2348 "ogtkButtonProps.ml" 63 2324 2377
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkButtonProps.ml" 64 2378 2399 "ogtkButtonProps.ml" 64 2378 2402
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 64 2378 2403 "ogtkButtonProps.ml" 64 2378 2425
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.FontButton.P.font_name
+)
+"ogtkButtonProps.ml" 64 2378 2426 "ogtkButtonProps.ml" 64 2378 2429
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 64 2378 2399 "ogtkButtonProps.ml" 64 2378 2429
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkButtonProps.ml" 65 2430 2451 "ogtkButtonProps.ml" 65 2430 2454
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 65 2430 2455 "ogtkButtonProps.ml" 65 2430 2477
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.FontButton.P.show_size
+)
+"ogtkButtonProps.ml" 65 2430 2478 "ogtkButtonProps.ml" 65 2430 2481
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 65 2430 2451 "ogtkButtonProps.ml" 65 2430 2481
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkButtonProps.ml" 66 2482 2504 "ogtkButtonProps.ml" 66 2482 2507
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 66 2482 2508 "ogtkButtonProps.ml" 66 2482 2531
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.FontButton.P.show_style
+)
+"ogtkButtonProps.ml" 66 2482 2532 "ogtkButtonProps.ml" 66 2482 2535
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 66 2482 2504 "ogtkButtonProps.ml" 66 2482 2535
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkButtonProps.ml" 67 2536 2553 "ogtkButtonProps.ml" 67 2536 2556
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 67 2536 2557 "ogtkButtonProps.ml" 67 2536 2575
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.FontButton.P.title
+)
+"ogtkButtonProps.ml" 67 2536 2576 "ogtkButtonProps.ml" 67 2536 2579
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 67 2536 2553 "ogtkButtonProps.ml" 67 2536 2579
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkButtonProps.ml" 68 2580 2600 "ogtkButtonProps.ml" 68 2580 2603
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 68 2580 2604 "ogtkButtonProps.ml" 68 2580 2625
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.FontButton.P.use_font
+)
+"ogtkButtonProps.ml" 68 2580 2626 "ogtkButtonProps.ml" 68 2580 2629
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 68 2580 2600 "ogtkButtonProps.ml" 68 2580 2629
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkButtonProps.ml" 69 2630 2650 "ogtkButtonProps.ml" 69 2630 2653
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 69 2630 2654 "ogtkButtonProps.ml" 69 2630 2675
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.FontButton.P.use_size
+)
+"ogtkButtonProps.ml" 69 2630 2676 "ogtkButtonProps.ml" 69 2630 2679
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 69 2630 2650 "ogtkButtonProps.ml" 69 2630 2679
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkButtonProps.ml" 74 2750 2778 "ogtkButtonProps.ml" 74 2750 2781
+type(
+  ([> `toolitem ] as 'a, bool) Gobject.property ->
+  'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 74 2750 2782 "ogtkButtonProps.ml" 74 2750 2805
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ToolItem.P.is_important
+)
+"ogtkButtonProps.ml" 74 2750 2806 "ogtkButtonProps.ml" 74 2750 2809
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 74 2750 2778 "ogtkButtonProps.ml" 74 2750 2809
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkButtonProps.ml" 75 2810 2844 "ogtkButtonProps.ml" 75 2810 2847
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 75 2810 2848 "ogtkButtonProps.ml" 75 2810 2877
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ToolItem.P.visible_horizontal
+)
+"ogtkButtonProps.ml" 75 2810 2878 "ogtkButtonProps.ml" 75 2810 2881
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 75 2810 2844 "ogtkButtonProps.ml" 75 2810 2881
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkButtonProps.ml" 76 2882 2914 "ogtkButtonProps.ml" 76 2882 2917
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 76 2882 2918 "ogtkButtonProps.ml" 76 2882 2945
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ToolItem.P.visible_vertical
+)
+"ogtkButtonProps.ml" 76 2882 2946 "ogtkButtonProps.ml" 76 2882 2949
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 76 2882 2914 "ogtkButtonProps.ml" 76 2882 2949
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkButtonProps.ml" 77 2950 2974 "ogtkButtonProps.ml" 77 2950 2977
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 77 2950 2978 "ogtkButtonProps.ml" 77 2950 3001
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ToolItem.P.is_important
+)
+"ogtkButtonProps.ml" 77 2950 3002 "ogtkButtonProps.ml" 77 2950 3005
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 77 2950 2974 "ogtkButtonProps.ml" 77 2950 3005
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkButtonProps.ml" 78 3006 3036 "ogtkButtonProps.ml" 78 3006 3039
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 78 3006 3040 "ogtkButtonProps.ml" 78 3006 3069
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ToolItem.P.visible_horizontal
+)
+"ogtkButtonProps.ml" 78 3006 3070 "ogtkButtonProps.ml" 78 3006 3073
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 78 3006 3036 "ogtkButtonProps.ml" 78 3006 3073
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkButtonProps.ml" 79 3074 3102 "ogtkButtonProps.ml" 79 3074 3105
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 79 3074 3106 "ogtkButtonProps.ml" 79 3074 3133
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ToolItem.P.visible_vertical
+)
+"ogtkButtonProps.ml" 79 3074 3134 "ogtkButtonProps.ml" 79 3074 3137
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 79 3074 3102 "ogtkButtonProps.ml" 79 3074 3137
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkButtonProps.ml" 85 3237 3241 "ogtkButtonProps.ml" 85 3237 3244
+type(
+  ([> `toolbutton ] as 'a, GObj.widget) Gobject.property ->
+  'a Gobject.obj -> GObj.widget -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 85 3237 3246 "ogtkButtonProps.ml" 85 3237 3270
+type(
+  (_[> `toolbutton ], Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ToolButton.P.icon_widget
+)
+"ogtkButtonProps.ml" 85 3237 3281 "ogtkButtonProps.ml" 85 3237 3297
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkButtonProps.ml" 85 3237 3245 "ogtkButtonProps.ml" 85 3237 3298
+type(
+  ('a, GObj.widget) Gobject.property
+)
+"ogtkButtonProps.ml" 85 3237 3299 "ogtkButtonProps.ml" 85 3237 3302
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 85 3237 3241 "ogtkButtonProps.ml" 85 3237 3302
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+type(
+  GObj.widget -> unit
+)
+"ogtkButtonProps.ml" 86 3303 3324 "ogtkButtonProps.ml" 86 3303 3327
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 86 3303 3328 "ogtkButtonProps.ml" 86 3303 3346
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ToolButton.P.label
+)
+"ogtkButtonProps.ml" 86 3303 3347 "ogtkButtonProps.ml" 86 3303 3350
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 86 3303 3324 "ogtkButtonProps.ml" 86 3303 3350
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkButtonProps.ml" 88 3379 3383 "ogtkButtonProps.ml" 88 3379 3386
+type(
+  ('a, GObj.widget) Gobject.property -> 'a Gobject.obj -> GObj.widget -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 88 3379 3388 "ogtkButtonProps.ml" 88 3379 3413
+type(
+  (_[> `toolbutton ], Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ToolButton.P.label_widget
+)
+"ogtkButtonProps.ml" 88 3379 3424 "ogtkButtonProps.ml" 88 3379 3440
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkButtonProps.ml" 88 3379 3387 "ogtkButtonProps.ml" 88 3379 3441
+type(
+  ('a, GObj.widget) Gobject.property
+)
+"ogtkButtonProps.ml" 88 3379 3442 "ogtkButtonProps.ml" 88 3379 3445
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 88 3379 3383 "ogtkButtonProps.ml" 88 3379 3445
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+type(
+  GObj.widget -> unit
+)
+"ogtkButtonProps.ml" 89 3446 3470 "ogtkButtonProps.ml" 89 3446 3473
+type(
+  ('a, GtkStock.id) Gobject.property -> 'a Gobject.obj -> GtkStock.id -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 89 3446 3474 "ogtkButtonProps.ml" 89 3446 3495
+type(
+  ('a, GtkStock.id) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ToolButton.P.stock_id
+)
+"ogtkButtonProps.ml" 89 3446 3496 "ogtkButtonProps.ml" 89 3446 3499
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 89 3446 3470 "ogtkButtonProps.ml" 89 3446 3499
+call(
+  tail
+)
+type(
+  GtkStock.id -> unit
+)
+type(
+  GtkStock.id -> unit
+)
+"ogtkButtonProps.ml" 90 3500 3529 "ogtkButtonProps.ml" 90 3500 3532
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 90 3500 3533 "ogtkButtonProps.ml" 90 3500 3559
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ToolButton.P.use_underline
+)
+"ogtkButtonProps.ml" 90 3500 3560 "ogtkButtonProps.ml" 90 3500 3563
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 90 3500 3529 "ogtkButtonProps.ml" 90 3500 3563
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkButtonProps.ml" 92 3587 3591 "ogtkButtonProps.ml" 92 3587 3594
+type(
+  ('a, GObj.widget) Gobject.property -> 'a Gobject.obj -> GObj.widget
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 92 3587 3596 "ogtkButtonProps.ml" 92 3587 3620
+type(
+  (_[> `toolbutton ], Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ToolButton.P.icon_widget
+)
+"ogtkButtonProps.ml" 92 3587 3631 "ogtkButtonProps.ml" 92 3587 3647
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkButtonProps.ml" 92 3587 3595 "ogtkButtonProps.ml" 92 3587 3648
+type(
+  ('a, GObj.widget) Gobject.property
+)
+"ogtkButtonProps.ml" 92 3587 3649 "ogtkButtonProps.ml" 92 3587 3652
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 92 3587 3591 "ogtkButtonProps.ml" 92 3587 3652
+call(
+  tail
+)
+type(
+  GObj.widget
+)
+type(
+  GObj.widget
+)
+"ogtkButtonProps.ml" 93 3653 3670 "ogtkButtonProps.ml" 93 3653 3673
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 93 3653 3674 "ogtkButtonProps.ml" 93 3653 3692
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ToolButton.P.label
+)
+"ogtkButtonProps.ml" 93 3653 3693 "ogtkButtonProps.ml" 93 3653 3696
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 93 3653 3670 "ogtkButtonProps.ml" 93 3653 3696
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkButtonProps.ml" 95 3721 3725 "ogtkButtonProps.ml" 95 3721 3728
+type(
+  ('a, GObj.widget) Gobject.property -> 'a Gobject.obj -> GObj.widget
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 95 3721 3730 "ogtkButtonProps.ml" 95 3721 3755
+type(
+  (_[> `toolbutton ], Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ToolButton.P.label_widget
+)
+"ogtkButtonProps.ml" 95 3721 3766 "ogtkButtonProps.ml" 95 3721 3782
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkButtonProps.ml" 95 3721 3729 "ogtkButtonProps.ml" 95 3721 3783
+type(
+  ('a, GObj.widget) Gobject.property
+)
+"ogtkButtonProps.ml" 95 3721 3784 "ogtkButtonProps.ml" 95 3721 3787
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 95 3721 3725 "ogtkButtonProps.ml" 95 3721 3787
+call(
+  tail
+)
+type(
+  GObj.widget
+)
+type(
+  GObj.widget
+)
+"ogtkButtonProps.ml" 96 3788 3808 "ogtkButtonProps.ml" 96 3788 3811
+type(
+  ('a, GtkStock.id) Gobject.property -> 'a Gobject.obj -> GtkStock.id
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 96 3788 3812 "ogtkButtonProps.ml" 96 3788 3833
+type(
+  ('a, GtkStock.id) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ToolButton.P.stock_id
+)
+"ogtkButtonProps.ml" 96 3788 3834 "ogtkButtonProps.ml" 96 3788 3837
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 96 3788 3808 "ogtkButtonProps.ml" 96 3788 3837
+call(
+  tail
+)
+type(
+  GtkStock.id
+)
+type(
+  GtkStock.id
+)
+"ogtkButtonProps.ml" 97 3838 3863 "ogtkButtonProps.ml" 97 3838 3866
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 97 3838 3867 "ogtkButtonProps.ml" 97 3838 3893
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.ToolButton.P.use_underline
+)
+"ogtkButtonProps.ml" 97 3838 3894 "ogtkButtonProps.ml" 97 3838 3897
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 97 3838 3863 "ogtkButtonProps.ml" 97 3838 3897
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkButtonProps.ml" 100 3903 3939 "ogtkButtonProps.ml" 100 3903 3945
+type(
+  < focus_home_or_end : callback:(bool -> bool) -> GtkSignal.id;
+    move_focus : callback:(GtkEnums.direction_type -> bool) -> GtkSignal.id;
+    orientation_changed : callback:(GtkEnums.orientation -> unit) ->
+                          GtkSignal.id;
+    popup_context_menu : callback:(int -> int -> int -> bool) -> GtkSignal.id;
+    style_changed : callback:(GtkEnums.toolbar_style -> unit) -> GtkSignal.id;
+    .. >
+)
+"ogtkButtonProps.ml" 103 4040 4071 "ogtkButtonProps.ml" 103 4040 4075
+type(
+  < focus_home_or_end : callback:(bool -> bool) -> GtkSignal.id;
+    move_focus : callback:(GtkEnums.direction_type -> bool) -> GtkSignal.id;
+    orientation_changed : callback:(GtkEnums.orientation -> unit) ->
+                          GtkSignal.id;
+    popup_context_menu : callback:(int -> int -> int -> bool) -> GtkSignal.id;
+    style_changed : callback:(GtkEnums.toolbar_style -> unit) -> GtkSignal.id;
+    .. >
+  as 'a
+)
+"ogtkButtonProps.ml" 103 4040 4071 "ogtkButtonProps.ml" 103 4040 4083
+call(
+  tail
+)
+type(
+  ([> `toolbar ], GtkEnums.orientation -> unit) GtkSignal.t ->
+  callback:(GtkEnums.orientation -> unit) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 103 4040 4084 "ogtkButtonProps.ml" 103 4040 4113
+type(
+  ([> `toolbar ] as 'b, GtkEnums.orientation -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkButtonProps.Toolbar.S.orientation_changed
+)
+"ogtkButtonProps.ml" 103 4040 4071 "ogtkButtonProps.ml" 103 4040 4113
+type(
+  callback:(GtkEnums.orientation -> unit) -> GtkSignal.id
+)
+type(
+  callback:(GtkEnums.orientation -> unit) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 104 4114 4139 "ogtkButtonProps.ml" 104 4114 4143
+type(
+  'a
+)
+"ogtkButtonProps.ml" 104 4114 4139 "ogtkButtonProps.ml" 104 4114 4151
+call(
+  tail
+)
+type(
+  ('b, GtkEnums.toolbar_style -> unit) GtkSignal.t ->
+  callback:(GtkEnums.toolbar_style -> unit) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 104 4114 4152 "ogtkButtonProps.ml" 104 4114 4175
+type(
+  ('b, GtkEnums.toolbar_style -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkButtonProps.Toolbar.S.style_changed
+)
+"ogtkButtonProps.ml" 104 4114 4139 "ogtkButtonProps.ml" 104 4114 4175
+type(
+  callback:(GtkEnums.toolbar_style -> unit) -> GtkSignal.id
+)
+type(
+  callback:(GtkEnums.toolbar_style -> unit) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 105 4176 4205 "ogtkButtonProps.ml" 105 4176 4209
+type(
+  'a
+)
+"ogtkButtonProps.ml" 105 4176 4205 "ogtkButtonProps.ml" 105 4176 4217
+call(
+  tail
+)
+type(
+  ('b, bool -> bool) GtkSignal.t -> callback:(bool -> bool) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 105 4176 4218 "ogtkButtonProps.ml" 105 4176 4245
+type(
+  ('b, bool -> bool) GtkSignal.t
+)
+ident(
+  ext_ref GtkButtonProps.Toolbar.S.focus_home_or_end
+)
+"ogtkButtonProps.ml" 105 4176 4205 "ogtkButtonProps.ml" 105 4176 4245
+type(
+  callback:(bool -> bool) -> GtkSignal.id
+)
+type(
+  callback:(bool -> bool) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 106 4246 4268 "ogtkButtonProps.ml" 106 4246 4272
+type(
+  'a
+)
+"ogtkButtonProps.ml" 106 4246 4268 "ogtkButtonProps.ml" 106 4246 4280
+call(
+  tail
+)
+type(
+  ('b, GtkEnums.direction_type -> bool) GtkSignal.t ->
+  callback:(GtkEnums.direction_type -> bool) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 106 4246 4281 "ogtkButtonProps.ml" 106 4246 4301
+type(
+  ('b, GtkEnums.direction_type -> bool) GtkSignal.t
+)
+ident(
+  ext_ref GtkButtonProps.Toolbar.S.move_focus
+)
+"ogtkButtonProps.ml" 106 4246 4268 "ogtkButtonProps.ml" 106 4246 4301
+type(
+  callback:(GtkEnums.direction_type -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GtkEnums.direction_type -> bool) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 107 4302 4332 "ogtkButtonProps.ml" 107 4302 4336
+type(
+  'a
+)
+"ogtkButtonProps.ml" 107 4302 4332 "ogtkButtonProps.ml" 107 4302 4344
+call(
+  tail
+)
+type(
+  ('b, int -> int -> int -> bool) GtkSignal.t ->
+  callback:(int -> int -> int -> bool) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 107 4302 4345 "ogtkButtonProps.ml" 107 4302 4373
+type(
+  ('b, int -> int -> int -> bool) GtkSignal.t
+)
+ident(
+  ext_ref GtkButtonProps.Toolbar.S.popup_context_menu
+)
+"ogtkButtonProps.ml" 107 4302 4332 "ogtkButtonProps.ml" 107 4302 4373
+type(
+  callback:(int -> int -> int -> bool) -> GtkSignal.id
+)
+type(
+  callback:(int -> int -> int -> bool) -> GtkSignal.id
+)
+"ogtkButtonProps.ml" 112 4446 4465 "ogtkButtonProps.ml" 112 4446 4468
+type(
+  ([> `linkbutton ] as 'a, string) Gobject.property ->
+  'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkButtonProps.ml" 4 38 42 "ogtkButtonProps.ml" 4 38 45
+)
+"ogtkButtonProps.ml" 112 4446 4469 "ogtkButtonProps.ml" 112 4446 4485
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.LinkButton.P.uri
+)
+"ogtkButtonProps.ml" 112 4446 4486 "ogtkButtonProps.ml" 112 4446 4489
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 112 4446 4465 "ogtkButtonProps.ml" 112 4446 4489
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkButtonProps.ml" 113 4490 4505 "ogtkButtonProps.ml" 113 4490 4508
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkButtonProps.ml" 5 52 56 "ogtkButtonProps.ml" 5 52 59
+)
+"ogtkButtonProps.ml" 113 4490 4509 "ogtkButtonProps.ml" 113 4490 4525
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.LinkButton.P.uri
+)
+"ogtkButtonProps.ml" 113 4490 4526 "ogtkButtonProps.ml" 113 4490 4529
+type(
+  'a Gobject.obj
+)
+"ogtkButtonProps.ml" 113 4490 4505 "ogtkButtonProps.ml" 113 4490 4529
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)

@@ -1,0 +1,9 @@
+# OASIS_START
+# DO NOT EDIT (digest: 686ec003114bf654c5372a3d6e9c6103)
+version = "1.0.2-oasis1"
+description = "An OCaml module for streaming XML processing."
+archive(byte) = "xmlm.cma"
+archive(native) = "xmlm.cmxa"
+exists_if = "xmlm.cma"
+# OASIS_STOP
+

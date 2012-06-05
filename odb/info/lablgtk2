@@ -1,0 +1,4 @@
+deps=make
+tarball=lablgtk-2.14.2-oasis8.tar.gz
+is_library=true
+is_program=false

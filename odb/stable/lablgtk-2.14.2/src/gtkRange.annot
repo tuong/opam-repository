@@ -1,0 +1,16 @@
+"gtkRange.ml" 32 1800 1804 "gtkRange.ml" 32 1800 1806
+type(
+  unit
+)
+"gtkRange.ml" 32 1800 1809 "gtkRange.ml" 32 1800 1823
+type(
+  unit -> unit
+)
+"gtkRange.ml" 32 1800 1824 "gtkRange.ml" 32 1800 1826
+type(
+  unit
+)
+"gtkRange.ml" 32 1800 1809 "gtkRange.ml" 32 1800 1826
+type(
+  unit
+)

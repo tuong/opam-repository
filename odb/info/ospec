@@ -1,0 +1,4 @@
+deps=ocamlbuild
+tarball=ospec-0.2.1.tar.gz
+is_library=true
+is_program=true

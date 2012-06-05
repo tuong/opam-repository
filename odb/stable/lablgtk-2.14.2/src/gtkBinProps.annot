@@ -1,0 +1,3591 @@
+"gtkBinProps.ml" 8 89 95 "gtkBinProps.ml" 8 89 106
+type(
+  ('a, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  def hadjustment "gtkBinProps.ml" 10 181 183 "gtkBinProps.ml" 15 432 435
+)
+"gtkBinProps.ml" 9 109 119 "gtkBinProps.ml" 9 109 132
+type(
+  string
+)
+"gtkBinProps.ml" 9 109 140 "gtkBinProps.ml" 9 109 147
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBinProps.ml" 9 109 113 "gtkBinProps.ml" 9 109 180
+type(
+  ('a, Gtk.adjustment Gtk.obj) Gobject.property
+)
+"gtkBinProps.ml" 10 181 187 "gtkBinProps.ml" 10 181 198
+type(
+  ('b, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  def shadow_type "gtkBinProps.ml" 11 254 256 "gtkBinProps.ml" 15 432 435
+)
+"gtkBinProps.ml" 10 181 207 "gtkBinProps.ml" 10 181 220
+type(
+  string
+)
+"gtkBinProps.ml" 10 181 227 "gtkBinProps.ml" 10 181 252
+type(
+  GtkEnums.shadow_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.shadow_type_conv
+)
+"gtkBinProps.ml" 10 181 201 "gtkBinProps.ml" 10 181 253
+type(
+  ('b, GtkEnums.shadow_type) Gobject.property
+)
+"gtkBinProps.ml" 11 254 260 "gtkBinProps.ml" 11 254 271
+type(
+  ('c, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  def vadjustment "gtkBinProps.ml" 13 346 348 "gtkBinProps.ml" 15 432 435
+)
+"gtkBinProps.ml" 12 274 284 "gtkBinProps.ml" 12 274 297
+type(
+  string
+)
+"gtkBinProps.ml" 12 274 305 "gtkBinProps.ml" 12 274 312
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBinProps.ml" 12 274 278 "gtkBinProps.ml" 12 274 345
+type(
+  ('c, Gtk.adjustment Gtk.obj) Gobject.property
+)
+"gtkBinProps.ml" 13 346 352 "gtkBinProps.ml" 13 346 358
+type(
+  ('d, float) Gobject.property
+)
+ident(
+  def xalign "gtkBinProps.ml" 14 389 391 "gtkBinProps.ml" 15 432 435
+)
+"gtkBinProps.ml" 13 346 367 "gtkBinProps.ml" 13 346 375
+type(
+  string
+)
+"gtkBinProps.ml" 13 346 382 "gtkBinProps.ml" 13 346 387
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkBinProps.ml" 13 346 361 "gtkBinProps.ml" 13 346 388
+type(
+  ('d, float) Gobject.property
+)
+"gtkBinProps.ml" 14 389 395 "gtkBinProps.ml" 14 389 401
+type(
+  ('e, float) Gobject.property
+)
+ident(
+  def yalign "gtkBinProps.ml" 14 389 431 "gtkBinProps.ml" 15 432 435
+)
+"gtkBinProps.ml" 14 389 410 "gtkBinProps.ml" 14 389 418
+type(
+  string
+)
+"gtkBinProps.ml" 14 389 425 "gtkBinProps.ml" 14 389 430
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkBinProps.ml" 14 389 404 "gtkBinProps.ml" 14 389 431
+type(
+  ('e, float) Gobject.property
+)
+"gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons "gtkBinProps.ml" 18 470 470 --
+)
+"gtkBinProps.ml" 17 437 452 "gtkBinProps.ml" 17 437 469
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gtkBinProps.ml" 18 470 474 "gtkBinProps.ml" 18 470 486
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons_opt "gtkBinProps.ml" 20 512 512 --
+)
+"gtkBinProps.ml" 18 470 489 "gtkBinProps.ml" 18 470 510
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons_opt
+)
+"gtkBinProps.ml" 20 512 536 "gtkBinProps.ml" 20 512 540
+type(
+  'a Gobject.obj -> Gtk.bin Gtk.obj
+)
+ident(
+  def cast "gtkBinProps.ml" 20 512 578 "gtkBinProps.ml" 21 579 582
+)
+"gtkBinProps.ml" 20 512 541 "gtkBinProps.ml" 20 512 542
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBinProps.ml" 20 512 543 "gtkBinProps.ml" 20 512 578
+)
+"gtkBinProps.ml" 20 512 559 "gtkBinProps.ml" 20 512 567
+type(
+  'a Gobject.obj -> string -> Gtk.bin Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBinProps.ml" 20 512 568 "gtkBinProps.ml" 20 512 569
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBinProps.ml" 20 512 541 "gtkBinProps.ml" 20 512 542
+)
+"gtkBinProps.ml" 20 512 570 "gtkBinProps.ml" 20 512 578
+type(
+  string
+)
+"gtkBinProps.ml" 20 512 559 "gtkBinProps.ml" 20 512 578
+call(
+  tail
+)
+type(
+  Gtk.bin Gtk.obj
+)
+type(
+  Gtk.bin Gtk.obj
+)
+"gtkBinProps.ml" 24 610 616 "gtkBinProps.ml" 24 610 620
+type(
+  'a Gobject.obj -> Gtk.alignment Gtk.obj
+)
+ident(
+  def cast "gtkBinProps.ml" 25 671 673 "gtkBinProps.ml" 47 1641 1644
+)
+"gtkBinProps.ml" 24 610 621 "gtkBinProps.ml" 24 610 622
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBinProps.ml" 24 610 623 "gtkBinProps.ml" 24 610 670
+)
+"gtkBinProps.ml" 24 610 645 "gtkBinProps.ml" 24 610 653
+type(
+  'a Gobject.obj -> string -> Gtk.alignment Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBinProps.ml" 24 610 654 "gtkBinProps.ml" 24 610 655
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBinProps.ml" 24 610 621 "gtkBinProps.ml" 24 610 622
+)
+"gtkBinProps.ml" 24 610 656 "gtkBinProps.ml" 24 610 670
+type(
+  string
+)
+"gtkBinProps.ml" 24 610 645 "gtkBinProps.ml" 24 610 670
+call(
+  tail
+)
+type(
+  Gtk.alignment Gtk.obj
+)
+type(
+  Gtk.alignment Gtk.obj
+)
+"gtkBinProps.ml" 26 691 699 "gtkBinProps.ml" 26 691 705
+type(
+  ([> `alignment ], float) Gobject.property
+)
+ident(
+  def xalign "gtkBinProps.ml" 27 757 761 "gtkBinProps.ml" 38 1339 1344
+)
+"gtkBinProps.ml" 26 691 737 "gtkBinProps.ml" 26 691 756
+type(
+  ([> `alignment ] as 'b, float) Gobject.property
+)
+type(
+  ('b, float) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.xalign
+)
+"gtkBinProps.ml" 27 757 765 "gtkBinProps.ml" 27 757 771
+type(
+  ([> `alignment ], float) Gobject.property
+)
+ident(
+  def yalign "gtkBinProps.ml" 28 823 827 "gtkBinProps.ml" 38 1339 1344
+)
+"gtkBinProps.ml" 27 757 803 "gtkBinProps.ml" 27 757 822
+type(
+  ([> `alignment ] as 'c, float) Gobject.property
+)
+type(
+  ('c, float) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.yalign
+)
+"gtkBinProps.ml" 28 823 831 "gtkBinProps.ml" 28 823 837
+type(
+  ([> `alignment ], float) Gobject.property
+)
+ident(
+  def xscale "gtkBinProps.ml" 29 897 901 "gtkBinProps.ml" 38 1339 1344
+)
+"gtkBinProps.ml" 28 823 875 "gtkBinProps.ml" 28 823 883
+type(
+  string
+)
+"gtkBinProps.ml" 28 823 890 "gtkBinProps.ml" 28 823 895
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkBinProps.ml" 28 823 869 "gtkBinProps.ml" 28 823 896
+type(
+  ([> `alignment ] as 'd, float) Gobject.property
+)
+type(
+  ('d, float) Gobject.property
+)
+"gtkBinProps.ml" 29 897 905 "gtkBinProps.ml" 29 897 911
+type(
+  ([> `alignment ], float) Gobject.property
+)
+ident(
+  def yscale "gtkBinProps.ml" 30 971 975 "gtkBinProps.ml" 38 1339 1344
+)
+"gtkBinProps.ml" 29 897 949 "gtkBinProps.ml" 29 897 957
+type(
+  string
+)
+"gtkBinProps.ml" 29 897 964 "gtkBinProps.ml" 29 897 969
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkBinProps.ml" 29 897 943 "gtkBinProps.ml" 29 897 970
+type(
+  ([> `alignment ] as 'e, float) Gobject.property
+)
+type(
+  ('e, float) Gobject.property
+)
+"gtkBinProps.ml" 30 971 979 "gtkBinProps.ml" 30 971 993
+type(
+  ([> `alignment ], int) Gobject.property
+)
+ident(
+  def bottom_padding "gtkBinProps.ml" 32 1066 1070 "gtkBinProps.ml" 38 1339 1344
+)
+"gtkBinProps.ml" 31 1025 1037 "gtkBinProps.ml" 31 1025 1053
+type(
+  string
+)
+"gtkBinProps.ml" 31 1025 1060 "gtkBinProps.ml" 31 1025 1064
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkBinProps.ml" 31 1025 1031 "gtkBinProps.ml" 31 1025 1065
+type(
+  ([> `alignment ] as 'f, int) Gobject.property
+)
+type(
+  ('f, int) Gobject.property
+)
+"gtkBinProps.ml" 32 1066 1074 "gtkBinProps.ml" 32 1066 1086
+type(
+  ([> `alignment ], int) Gobject.property
+)
+ident(
+  def left_padding "gtkBinProps.ml" 34 1157 1161 "gtkBinProps.ml" 38 1339 1344
+)
+"gtkBinProps.ml" 33 1118 1130 "gtkBinProps.ml" 33 1118 1144
+type(
+  string
+)
+"gtkBinProps.ml" 33 1118 1151 "gtkBinProps.ml" 33 1118 1155
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkBinProps.ml" 33 1118 1124 "gtkBinProps.ml" 33 1118 1156
+type(
+  ([> `alignment ] as 'g, int) Gobject.property
+)
+type(
+  ('g, int) Gobject.property
+)
+"gtkBinProps.ml" 34 1157 1165 "gtkBinProps.ml" 34 1157 1178
+type(
+  ([> `alignment ], int) Gobject.property
+)
+ident(
+  def right_padding "gtkBinProps.ml" 36 1250 1254 "gtkBinProps.ml" 38 1339 1344
+)
+"gtkBinProps.ml" 35 1210 1222 "gtkBinProps.ml" 35 1210 1237
+type(
+  string
+)
+"gtkBinProps.ml" 35 1210 1244 "gtkBinProps.ml" 35 1210 1248
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkBinProps.ml" 35 1210 1216 "gtkBinProps.ml" 35 1210 1249
+type(
+  ([> `alignment ] as 'h, int) Gobject.property
+)
+type(
+  ('h, int) Gobject.property
+)
+"gtkBinProps.ml" 36 1250 1258 "gtkBinProps.ml" 36 1250 1269
+type(
+  ([> `alignment ], int) Gobject.property
+)
+ident(
+  def top_padding "gtkBinProps.ml" 37 1301 1338 "gtkBinProps.ml" 38 1339 1344
+)
+"gtkBinProps.ml" 37 1301 1313 "gtkBinProps.ml" 37 1301 1326
+type(
+  string
+)
+"gtkBinProps.ml" 37 1301 1333 "gtkBinProps.ml" 37 1301 1337
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkBinProps.ml" 37 1301 1307 "gtkBinProps.ml" 37 1301 1338
+type(
+  ([> `alignment ] as 'i, int) Gobject.property
+)
+type(
+  ('i, int) Gobject.property
+)
+"gtkBinProps.ml" 39 1345 1351 "gtkBinProps.ml" 39 1345 1357
+type(
+  Gtk.alignment Gobject.param list -> Gtk.alignment Gtk.obj
+)
+ident(
+  def create "gtkBinProps.ml" 40 1413 1415 "gtkBinProps.ml" 47 1641 1644
+)
+"gtkBinProps.ml" 39 1345 1358 "gtkBinProps.ml" 39 1345 1360
+type(
+  Gtk.alignment Gobject.param list
+)
+ident(
+  def pl "gtkBinProps.ml" 39 1345 1361 "gtkBinProps.ml" 39 1345 1412
+)
+"gtkBinProps.ml" 39 1345 1383 "gtkBinProps.ml" 39 1345 1394
+type(
+  classe:string -> Gtk.alignment Gobject.param list -> Gtk.alignment Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBinProps.ml" 39 1345 1395 "gtkBinProps.ml" 39 1345 1409
+type(
+  string
+)
+"gtkBinProps.ml" 39 1345 1410 "gtkBinProps.ml" 39 1345 1412
+type(
+  Gtk.alignment Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 39 1345 1358 "gtkBinProps.ml" 39 1345 1360
+)
+"gtkBinProps.ml" 39 1345 1383 "gtkBinProps.ml" 39 1345 1412
+call(
+  tail
+)
+type(
+  Gtk.alignment Gtk.obj
+)
+type(
+  Gtk.alignment Gtk.obj
+)
+"gtkBinProps.ml" 40 1413 1419 "gtkBinProps.ml" 40 1413 1430
+type(
+  cont:(([> `alignment ] as 'j) Gobject.param list -> 'k) ->
+  'j Gobject.param list ->
+  ?xalign:float -> ?yalign:float -> ?xscale:float -> ?yscale:float -> 'k
+)
+ident(
+  def make_params "gtkBinProps.ml" 46 1629 1640 "gtkBinProps.ml" 47 1641 1644
+)
+"gtkBinProps.ml" 40 1413 1432 "gtkBinProps.ml" 40 1413 1436
+type(
+  'j Gobject.param list -> 'k
+)
+ident(
+  def cont "gtkBinProps.ml" 40 1413 1437 "gtkBinProps.ml" 46 1629 1640
+)
+"gtkBinProps.ml" 40 1413 1437 "gtkBinProps.ml" 40 1413 1439
+type(
+  'j Gobject.param list
+)
+ident(
+  def pl "gtkBinProps.ml" 40 1413 1440 "gtkBinProps.ml" 46 1629 1640
+)
+"gtkBinProps.ml" 40 1413 1441 "gtkBinProps.ml" 40 1413 1447
+type(
+  float option
+)
+ident(
+  def xalign "gtkBinProps.ml" 40 1413 1448 "gtkBinProps.ml" 46 1629 1640
+)
+"gtkBinProps.ml" 40 1413 1449 "gtkBinProps.ml" 40 1413 1455
+type(
+  float option
+)
+ident(
+  def yalign "gtkBinProps.ml" 40 1413 1456 "gtkBinProps.ml" 46 1629 1640
+)
+"gtkBinProps.ml" 40 1413 1457 "gtkBinProps.ml" 40 1413 1463
+type(
+  float option
+)
+ident(
+  def xscale "gtkBinProps.ml" 40 1413 1464 "gtkBinProps.ml" 46 1629 1640
+)
+"gtkBinProps.ml" 40 1413 1465 "gtkBinProps.ml" 40 1413 1471
+type(
+  float option
+)
+ident(
+  def yscale "gtkBinProps.ml" 41 1474 1478 "gtkBinProps.ml" 46 1629 1640
+)
+"gtkBinProps.ml" 41 1474 1482 "gtkBinProps.ml" 41 1474 1484
+type(
+  'j Gobject.param list
+)
+"gtkBinProps.ml" 42 1489 1495 "gtkBinProps.ml" 42 1489 1503
+type(
+  ('j, float) Gobject.property ->
+  float option -> 'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 42 1489 1504 "gtkBinProps.ml" 42 1489 1512
+type(
+  ('j, float) Gobject.property
+)
+ident(
+  ext_ref P.xalign
+)
+"gtkBinProps.ml" 42 1489 1513 "gtkBinProps.ml" 42 1489 1519
+type(
+  float option
+)
+ident(
+  int_ref xalign "gtkBinProps.ml" 40 1413 1441 "gtkBinProps.ml" 40 1413 1447
+)
+"gtkBinProps.ml" 43 1522 1528 "gtkBinProps.ml" 43 1522 1536
+type(
+  ('j, float) Gobject.property ->
+  float option -> 'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 43 1522 1537 "gtkBinProps.ml" 43 1522 1545
+type(
+  ('j, float) Gobject.property
+)
+ident(
+  ext_ref P.yalign
+)
+"gtkBinProps.ml" 43 1522 1546 "gtkBinProps.ml" 43 1522 1552
+type(
+  float option
+)
+ident(
+  int_ref yalign "gtkBinProps.ml" 40 1413 1449 "gtkBinProps.ml" 40 1413 1455
+)
+"gtkBinProps.ml" 44 1555 1561 "gtkBinProps.ml" 44 1555 1569
+type(
+  ('j, float) Gobject.property ->
+  float option -> 'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 44 1555 1570 "gtkBinProps.ml" 44 1555 1578
+type(
+  ('j, float) Gobject.property
+)
+ident(
+  ext_ref P.xscale
+)
+"gtkBinProps.ml" 44 1555 1579 "gtkBinProps.ml" 44 1555 1585
+type(
+  float option
+)
+ident(
+  int_ref xscale "gtkBinProps.ml" 40 1413 1457 "gtkBinProps.ml" 40 1413 1463
+)
+"gtkBinProps.ml" 45 1588 1594 "gtkBinProps.ml" 45 1588 1602
+type(
+  ('j, float) Gobject.property ->
+  float option -> 'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 45 1588 1603 "gtkBinProps.ml" 45 1588 1611
+type(
+  ('j, float) Gobject.property
+)
+ident(
+  ext_ref P.yscale
+)
+"gtkBinProps.ml" 45 1588 1612 "gtkBinProps.ml" 45 1588 1618
+type(
+  float option
+)
+ident(
+  int_ref yscale "gtkBinProps.ml" 40 1413 1465 "gtkBinProps.ml" 40 1413 1471
+)
+"gtkBinProps.ml" 45 1588 1619 "gtkBinProps.ml" 45 1588 1621
+type(
+  'j Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 40 1413 1437 "gtkBinProps.ml" 40 1413 1439
+)
+"gtkBinProps.ml" 44 1555 1586 "gtkBinProps.ml" 45 1588 1622
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkBinProps.ml" 43 1522 1553 "gtkBinProps.ml" 45 1588 1623
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkBinProps.ml" 42 1489 1520 "gtkBinProps.ml" 45 1588 1624
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkBinProps.ml" 41 1474 1487 "gtkBinProps.ml" 45 1588 1625
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkBinProps.ml" 46 1629 1633 "gtkBinProps.ml" 46 1629 1637
+type(
+  'j Gobject.param list -> 'k
+)
+ident(
+  int_ref cont "gtkBinProps.ml" 40 1413 1432 "gtkBinProps.ml" 40 1413 1436
+)
+"gtkBinProps.ml" 46 1629 1638 "gtkBinProps.ml" 46 1629 1640
+type(
+  'j Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 41 1474 1482 "gtkBinProps.ml" 41 1474 1484
+)
+"gtkBinProps.ml" 46 1629 1633 "gtkBinProps.ml" 46 1629 1640
+call(
+  tail
+)
+type(
+  'k
+)
+"gtkBinProps.ml" 41 1474 1478 "gtkBinProps.ml" 46 1629 1640
+type(
+  'k
+)
+"gtkBinProps.ml" 50 1668 1674 "gtkBinProps.ml" 50 1668 1678
+type(
+  'a Gobject.obj -> Gtk.frame Gtk.obj
+)
+ident(
+  def cast "gtkBinProps.ml" 51 1721 1723 "gtkBinProps.ml" 70 2551 2554
+)
+"gtkBinProps.ml" 50 1668 1679 "gtkBinProps.ml" 50 1668 1680
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBinProps.ml" 50 1668 1681 "gtkBinProps.ml" 50 1668 1720
+)
+"gtkBinProps.ml" 50 1668 1699 "gtkBinProps.ml" 50 1668 1707
+type(
+  'a Gobject.obj -> string -> Gtk.frame Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBinProps.ml" 50 1668 1708 "gtkBinProps.ml" 50 1668 1709
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBinProps.ml" 50 1668 1679 "gtkBinProps.ml" 50 1668 1680
+)
+"gtkBinProps.ml" 50 1668 1710 "gtkBinProps.ml" 50 1668 1720
+type(
+  string
+)
+"gtkBinProps.ml" 50 1668 1699 "gtkBinProps.ml" 50 1668 1720
+call(
+  tail
+)
+type(
+  Gtk.frame Gtk.obj
+)
+type(
+  Gtk.frame Gtk.obj
+)
+"gtkBinProps.ml" 52 1741 1749 "gtkBinProps.ml" 52 1741 1754
+type(
+  ([> `frame ], string option) Gobject.property
+)
+ident(
+  def label "gtkBinProps.ml" 53 1817 1821 "gtkBinProps.ml" 61 2205 2210
+)
+"gtkBinProps.ml" 52 1741 1788 "gtkBinProps.ml" 52 1741 1795
+type(
+  string
+)
+"gtkBinProps.ml" 52 1741 1802 "gtkBinProps.ml" 52 1741 1815
+type(
+  string option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string_option
+)
+"gtkBinProps.ml" 52 1741 1782 "gtkBinProps.ml" 52 1741 1816
+type(
+  ([> `frame ] as 'b, string option) Gobject.property
+)
+type(
+  ('b, string option) Gobject.property
+)
+"gtkBinProps.ml" 53 1817 1825 "gtkBinProps.ml" 53 1817 1837
+type(
+  ([> `frame ], Gtk.widget Gtk.obj option) Gobject.property
+)
+ident(
+  def label_widget "gtkBinProps.ml" 56 1957 1961 "gtkBinProps.ml" 61 2205 2210
+)
+"gtkBinProps.ml" 54 1865 1877 "gtkBinProps.ml" 54 1865 1891
+type(
+  string
+)
+"gtkBinProps.ml" 55 1893 1906 "gtkBinProps.ml" 55 1893 1920
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkBinProps.ml" 54 1865 1871 "gtkBinProps.ml" 55 1893 1956
+type(
+  ([> `frame ] as 'c, Gtk.widget Gtk.obj option) Gobject.property
+)
+type(
+  ('c, Gtk.widget Gtk.obj option) Gobject.property
+)
+"gtkBinProps.ml" 56 1957 1965 "gtkBinProps.ml" 56 1957 1977
+type(
+  ([> `frame ], float) Gobject.property
+)
+ident(
+  def label_xalign "gtkBinProps.ml" 58 2045 2049 "gtkBinProps.ml" 61 2205 2210
+)
+"gtkBinProps.ml" 57 2005 2017 "gtkBinProps.ml" 57 2005 2031
+type(
+  string
+)
+"gtkBinProps.ml" 57 2005 2038 "gtkBinProps.ml" 57 2005 2043
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkBinProps.ml" 57 2005 2011 "gtkBinProps.ml" 57 2005 2044
+type(
+  ([> `frame ] as 'd, float) Gobject.property
+)
+type(
+  ('d, float) Gobject.property
+)
+"gtkBinProps.ml" 58 2045 2053 "gtkBinProps.ml" 58 2045 2065
+type(
+  ([> `frame ], float) Gobject.property
+)
+ident(
+  def label_yalign "gtkBinProps.ml" 60 2133 2137 "gtkBinProps.ml" 61 2205 2210
+)
+"gtkBinProps.ml" 59 2093 2105 "gtkBinProps.ml" 59 2093 2119
+type(
+  string
+)
+"gtkBinProps.ml" 59 2093 2126 "gtkBinProps.ml" 59 2093 2131
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkBinProps.ml" 59 2093 2099 "gtkBinProps.ml" 59 2093 2132
+type(
+  ([> `frame ] as 'e, float) Gobject.property
+)
+type(
+  ('e, float) Gobject.property
+)
+"gtkBinProps.ml" 60 2133 2141 "gtkBinProps.ml" 60 2133 2152
+type(
+  ([> `frame ], GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  def shadow_type "gtkBinProps.ml" 60 2133 2204 "gtkBinProps.ml" 61 2205 2210
+)
+"gtkBinProps.ml" 60 2133 2180 "gtkBinProps.ml" 60 2133 2204
+type(
+  ([> `frame ] as 'f, GtkEnums.shadow_type) Gobject.property
+)
+type(
+  ('f, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.shadow_type
+)
+"gtkBinProps.ml" 62 2211 2217 "gtkBinProps.ml" 62 2211 2223
+type(
+  Gtk.frame Gobject.param list -> Gtk.frame Gtk.obj
+)
+ident(
+  def create "gtkBinProps.ml" 63 2271 2273 "gtkBinProps.ml" 70 2551 2554
+)
+"gtkBinProps.ml" 62 2211 2224 "gtkBinProps.ml" 62 2211 2226
+type(
+  Gtk.frame Gobject.param list
+)
+ident(
+  def pl "gtkBinProps.ml" 62 2211 2227 "gtkBinProps.ml" 62 2211 2270
+)
+"gtkBinProps.ml" 62 2211 2245 "gtkBinProps.ml" 62 2211 2256
+type(
+  classe:string -> Gtk.frame Gobject.param list -> Gtk.frame Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBinProps.ml" 62 2211 2257 "gtkBinProps.ml" 62 2211 2267
+type(
+  string
+)
+"gtkBinProps.ml" 62 2211 2268 "gtkBinProps.ml" 62 2211 2270
+type(
+  Gtk.frame Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 62 2211 2224 "gtkBinProps.ml" 62 2211 2226
+)
+"gtkBinProps.ml" 62 2211 2245 "gtkBinProps.ml" 62 2211 2270
+call(
+  tail
+)
+type(
+  Gtk.frame Gtk.obj
+)
+type(
+  Gtk.frame Gtk.obj
+)
+"gtkBinProps.ml" 63 2271 2277 "gtkBinProps.ml" 63 2271 2288
+type(
+  cont:(([> `frame ] as 'g) Gobject.param list -> 'h) ->
+  'g Gobject.param list ->
+  ?label:string ->
+  ?label_xalign:float ->
+  ?label_yalign:float -> ?shadow_type:GtkEnums.shadow_type -> 'h
+)
+ident(
+  def make_params "gtkBinProps.ml" 69 2539 2550 "gtkBinProps.ml" 70 2551 2554
+)
+"gtkBinProps.ml" 63 2271 2290 "gtkBinProps.ml" 63 2271 2294
+type(
+  'g Gobject.param list -> 'h
+)
+ident(
+  def cont "gtkBinProps.ml" 63 2271 2295 "gtkBinProps.ml" 69 2539 2550
+)
+"gtkBinProps.ml" 63 2271 2295 "gtkBinProps.ml" 63 2271 2297
+type(
+  'g Gobject.param list
+)
+ident(
+  def pl "gtkBinProps.ml" 63 2271 2298 "gtkBinProps.ml" 69 2539 2550
+)
+"gtkBinProps.ml" 63 2271 2299 "gtkBinProps.ml" 63 2271 2304
+type(
+  string option
+)
+ident(
+  def label "gtkBinProps.ml" 63 2271 2305 "gtkBinProps.ml" 69 2539 2550
+)
+"gtkBinProps.ml" 63 2271 2306 "gtkBinProps.ml" 63 2271 2318
+type(
+  float option
+)
+ident(
+  def label_xalign "gtkBinProps.ml" 63 2271 2319 "gtkBinProps.ml" 69 2539 2550
+)
+"gtkBinProps.ml" 63 2271 2320 "gtkBinProps.ml" 63 2271 2332
+type(
+  float option
+)
+ident(
+  def label_yalign "gtkBinProps.ml" 63 2271 2333 "gtkBinProps.ml" 69 2539 2550
+)
+"gtkBinProps.ml" 63 2271 2334 "gtkBinProps.ml" 63 2271 2345
+type(
+  GtkEnums.shadow_type option
+)
+ident(
+  def shadow_type "gtkBinProps.ml" 64 2348 2352 "gtkBinProps.ml" 69 2539 2550
+)
+"gtkBinProps.ml" 64 2348 2356 "gtkBinProps.ml" 64 2348 2358
+type(
+  'g Gobject.param list
+)
+"gtkBinProps.ml" 65 2363 2369 "gtkBinProps.ml" 65 2363 2381
+type(
+  ('g, string option) Gobject.property ->
+  string option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons_opt "gtkBinProps.ml" 18 470 474 "gtkBinProps.ml" 18 470 486
+)
+"gtkBinProps.ml" 65 2363 2382 "gtkBinProps.ml" 65 2363 2389
+type(
+  ('g, string option) Gobject.property
+)
+ident(
+  ext_ref P.label
+)
+"gtkBinProps.ml" 65 2363 2390 "gtkBinProps.ml" 65 2363 2395
+type(
+  string option
+)
+ident(
+  int_ref label "gtkBinProps.ml" 63 2271 2299 "gtkBinProps.ml" 63 2271 2304
+)
+"gtkBinProps.ml" 66 2398 2404 "gtkBinProps.ml" 66 2398 2412
+type(
+  ('g, float) Gobject.property ->
+  float option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 66 2398 2413 "gtkBinProps.ml" 66 2398 2427
+type(
+  ('g, float) Gobject.property
+)
+ident(
+  ext_ref P.label_xalign
+)
+"gtkBinProps.ml" 66 2398 2428 "gtkBinProps.ml" 66 2398 2440
+type(
+  float option
+)
+ident(
+  int_ref label_xalign "gtkBinProps.ml" 63 2271 2306 "gtkBinProps.ml" 63 2271 2318
+)
+"gtkBinProps.ml" 67 2443 2449 "gtkBinProps.ml" 67 2443 2457
+type(
+  ('g, float) Gobject.property ->
+  float option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 67 2443 2458 "gtkBinProps.ml" 67 2443 2472
+type(
+  ('g, float) Gobject.property
+)
+ident(
+  ext_ref P.label_yalign
+)
+"gtkBinProps.ml" 67 2443 2473 "gtkBinProps.ml" 67 2443 2485
+type(
+  float option
+)
+ident(
+  int_ref label_yalign "gtkBinProps.ml" 63 2271 2320 "gtkBinProps.ml" 63 2271 2332
+)
+"gtkBinProps.ml" 68 2488 2494 "gtkBinProps.ml" 68 2488 2502
+type(
+  ('g, GtkEnums.shadow_type) Gobject.property ->
+  GtkEnums.shadow_type option ->
+  'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 68 2488 2503 "gtkBinProps.ml" 68 2488 2516
+type(
+  ('g, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref P.shadow_type
+)
+"gtkBinProps.ml" 68 2488 2517 "gtkBinProps.ml" 68 2488 2528
+type(
+  GtkEnums.shadow_type option
+)
+ident(
+  int_ref shadow_type "gtkBinProps.ml" 63 2271 2334 "gtkBinProps.ml" 63 2271 2345
+)
+"gtkBinProps.ml" 68 2488 2529 "gtkBinProps.ml" 68 2488 2531
+type(
+  'g Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 63 2271 2295 "gtkBinProps.ml" 63 2271 2297
+)
+"gtkBinProps.ml" 67 2443 2486 "gtkBinProps.ml" 68 2488 2532
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkBinProps.ml" 66 2398 2441 "gtkBinProps.ml" 68 2488 2533
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkBinProps.ml" 65 2363 2396 "gtkBinProps.ml" 68 2488 2534
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkBinProps.ml" 64 2348 2361 "gtkBinProps.ml" 68 2488 2535
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkBinProps.ml" 69 2539 2543 "gtkBinProps.ml" 69 2539 2547
+type(
+  'g Gobject.param list -> 'h
+)
+ident(
+  int_ref cont "gtkBinProps.ml" 63 2271 2290 "gtkBinProps.ml" 63 2271 2294
+)
+"gtkBinProps.ml" 69 2539 2548 "gtkBinProps.ml" 69 2539 2550
+type(
+  'g Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 64 2348 2356 "gtkBinProps.ml" 64 2348 2358
+)
+"gtkBinProps.ml" 69 2539 2543 "gtkBinProps.ml" 69 2539 2550
+call(
+  tail
+)
+type(
+  'h
+)
+"gtkBinProps.ml" 64 2348 2352 "gtkBinProps.ml" 69 2539 2550
+type(
+  'h
+)
+"gtkBinProps.ml" 73 2584 2590 "gtkBinProps.ml" 73 2584 2594
+type(
+  'a Gobject.obj -> Gtk.aspect_frame Gtk.obj
+)
+ident(
+  def cast "gtkBinProps.ml" 74 2650 2652 "gtkBinProps.ml" 89 3288 3291
+)
+"gtkBinProps.ml" 73 2584 2595 "gtkBinProps.ml" 73 2584 2596
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBinProps.ml" 73 2584 2597 "gtkBinProps.ml" 73 2584 2649
+)
+"gtkBinProps.ml" 73 2584 2622 "gtkBinProps.ml" 73 2584 2630
+type(
+  'a Gobject.obj -> string -> Gtk.aspect_frame Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBinProps.ml" 73 2584 2631 "gtkBinProps.ml" 73 2584 2632
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBinProps.ml" 73 2584 2595 "gtkBinProps.ml" 73 2584 2596
+)
+"gtkBinProps.ml" 73 2584 2633 "gtkBinProps.ml" 73 2584 2649
+type(
+  string
+)
+"gtkBinProps.ml" 73 2584 2622 "gtkBinProps.ml" 73 2584 2649
+call(
+  tail
+)
+type(
+  Gtk.aspect_frame Gtk.obj
+)
+type(
+  Gtk.aspect_frame Gtk.obj
+)
+"gtkBinProps.ml" 75 2670 2678 "gtkBinProps.ml" 75 2670 2688
+type(
+  ([> `aspectframe ], bool) Gobject.property
+)
+ident(
+  def obey_child "gtkBinProps.ml" 77 2762 2766 "gtkBinProps.ml" 80 2972 2977
+)
+"gtkBinProps.ml" 76 2722 2734 "gtkBinProps.ml" 76 2722 2746
+type(
+  string
+)
+"gtkBinProps.ml" 76 2722 2753 "gtkBinProps.ml" 76 2722 2760
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBinProps.ml" 76 2722 2728 "gtkBinProps.ml" 76 2722 2761
+type(
+  ([> `aspectframe ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkBinProps.ml" 77 2762 2770 "gtkBinProps.ml" 77 2762 2775
+type(
+  ([> `aspectframe ], float) Gobject.property
+)
+ident(
+  def ratio "gtkBinProps.ml" 78 2836 2840 "gtkBinProps.ml" 80 2972 2977
+)
+"gtkBinProps.ml" 77 2762 2815 "gtkBinProps.ml" 77 2762 2822
+type(
+  string
+)
+"gtkBinProps.ml" 77 2762 2829 "gtkBinProps.ml" 77 2762 2834
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkBinProps.ml" 77 2762 2809 "gtkBinProps.ml" 77 2762 2835
+type(
+  ([> `aspectframe ] as 'c, float) Gobject.property
+)
+type(
+  ('c, float) Gobject.property
+)
+"gtkBinProps.ml" 78 2836 2844 "gtkBinProps.ml" 78 2836 2850
+type(
+  ([> `aspectframe ], float) Gobject.property
+)
+ident(
+  def xalign "gtkBinProps.ml" 79 2904 2908 "gtkBinProps.ml" 80 2972 2977
+)
+"gtkBinProps.ml" 78 2836 2884 "gtkBinProps.ml" 78 2836 2903
+type(
+  ([> `aspectframe ] as 'd, float) Gobject.property
+)
+type(
+  ('d, float) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.xalign
+)
+"gtkBinProps.ml" 79 2904 2912 "gtkBinProps.ml" 79 2904 2918
+type(
+  ([> `aspectframe ], float) Gobject.property
+)
+ident(
+  def yalign "gtkBinProps.ml" 79 2904 2971 "gtkBinProps.ml" 80 2972 2977
+)
+"gtkBinProps.ml" 79 2904 2952 "gtkBinProps.ml" 79 2904 2971
+type(
+  ([> `aspectframe ] as 'e, float) Gobject.property
+)
+type(
+  ('e, float) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.yalign
+)
+"gtkBinProps.ml" 81 2978 2984 "gtkBinProps.ml" 81 2978 2990
+type(
+  Gtk.aspect_frame Gobject.param list -> Gtk.aspect_frame Gtk.obj
+)
+ident(
+  def create "gtkBinProps.ml" 82 3051 3053 "gtkBinProps.ml" 89 3288 3291
+)
+"gtkBinProps.ml" 81 2978 2991 "gtkBinProps.ml" 81 2978 2993
+type(
+  Gtk.aspect_frame Gobject.param list
+)
+ident(
+  def pl "gtkBinProps.ml" 81 2978 2994 "gtkBinProps.ml" 81 2978 3050
+)
+"gtkBinProps.ml" 81 2978 3019 "gtkBinProps.ml" 81 2978 3030
+type(
+  classe:string ->
+  Gtk.aspect_frame Gobject.param list -> Gtk.aspect_frame Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBinProps.ml" 81 2978 3031 "gtkBinProps.ml" 81 2978 3047
+type(
+  string
+)
+"gtkBinProps.ml" 81 2978 3048 "gtkBinProps.ml" 81 2978 3050
+type(
+  Gtk.aspect_frame Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 81 2978 2991 "gtkBinProps.ml" 81 2978 2993
+)
+"gtkBinProps.ml" 81 2978 3019 "gtkBinProps.ml" 81 2978 3050
+call(
+  tail
+)
+type(
+  Gtk.aspect_frame Gtk.obj
+)
+type(
+  Gtk.aspect_frame Gtk.obj
+)
+"gtkBinProps.ml" 82 3051 3057 "gtkBinProps.ml" 82 3051 3068
+type(
+  cont:(([> `aspectframe ] as 'f) Gobject.param list -> 'g) ->
+  'f Gobject.param list ->
+  ?obey_child:bool -> ?ratio:float -> ?xalign:float -> ?yalign:float -> 'g
+)
+ident(
+  def make_params "gtkBinProps.ml" 88 3276 3287 "gtkBinProps.ml" 89 3288 3291
+)
+"gtkBinProps.ml" 82 3051 3070 "gtkBinProps.ml" 82 3051 3074
+type(
+  'f Gobject.param list -> 'g
+)
+ident(
+  def cont "gtkBinProps.ml" 82 3051 3075 "gtkBinProps.ml" 88 3276 3287
+)
+"gtkBinProps.ml" 82 3051 3075 "gtkBinProps.ml" 82 3051 3077
+type(
+  'f Gobject.param list
+)
+ident(
+  def pl "gtkBinProps.ml" 82 3051 3078 "gtkBinProps.ml" 88 3276 3287
+)
+"gtkBinProps.ml" 82 3051 3079 "gtkBinProps.ml" 82 3051 3089
+type(
+  bool option
+)
+ident(
+  def obey_child "gtkBinProps.ml" 82 3051 3090 "gtkBinProps.ml" 88 3276 3287
+)
+"gtkBinProps.ml" 82 3051 3091 "gtkBinProps.ml" 82 3051 3096
+type(
+  float option
+)
+ident(
+  def ratio "gtkBinProps.ml" 82 3051 3097 "gtkBinProps.ml" 88 3276 3287
+)
+"gtkBinProps.ml" 82 3051 3098 "gtkBinProps.ml" 82 3051 3104
+type(
+  float option
+)
+ident(
+  def xalign "gtkBinProps.ml" 82 3051 3105 "gtkBinProps.ml" 88 3276 3287
+)
+"gtkBinProps.ml" 82 3051 3106 "gtkBinProps.ml" 82 3051 3112
+type(
+  float option
+)
+ident(
+  def yalign "gtkBinProps.ml" 83 3115 3119 "gtkBinProps.ml" 88 3276 3287
+)
+"gtkBinProps.ml" 83 3115 3123 "gtkBinProps.ml" 83 3115 3125
+type(
+  'f Gobject.param list
+)
+"gtkBinProps.ml" 84 3130 3136 "gtkBinProps.ml" 84 3130 3144
+type(
+  ('f, bool) Gobject.property ->
+  bool option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 84 3130 3145 "gtkBinProps.ml" 84 3130 3157
+type(
+  ('f, bool) Gobject.property
+)
+ident(
+  ext_ref P.obey_child
+)
+"gtkBinProps.ml" 84 3130 3158 "gtkBinProps.ml" 84 3130 3168
+type(
+  bool option
+)
+ident(
+  int_ref obey_child "gtkBinProps.ml" 82 3051 3079 "gtkBinProps.ml" 82 3051 3089
+)
+"gtkBinProps.ml" 85 3171 3177 "gtkBinProps.ml" 85 3171 3185
+type(
+  ('f, float) Gobject.property ->
+  float option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 85 3171 3186 "gtkBinProps.ml" 85 3171 3193
+type(
+  ('f, float) Gobject.property
+)
+ident(
+  ext_ref P.ratio
+)
+"gtkBinProps.ml" 85 3171 3194 "gtkBinProps.ml" 85 3171 3199
+type(
+  float option
+)
+ident(
+  int_ref ratio "gtkBinProps.ml" 82 3051 3091 "gtkBinProps.ml" 82 3051 3096
+)
+"gtkBinProps.ml" 86 3202 3208 "gtkBinProps.ml" 86 3202 3216
+type(
+  ('f, float) Gobject.property ->
+  float option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 86 3202 3217 "gtkBinProps.ml" 86 3202 3225
+type(
+  ('f, float) Gobject.property
+)
+ident(
+  ext_ref P.xalign
+)
+"gtkBinProps.ml" 86 3202 3226 "gtkBinProps.ml" 86 3202 3232
+type(
+  float option
+)
+ident(
+  int_ref xalign "gtkBinProps.ml" 82 3051 3098 "gtkBinProps.ml" 82 3051 3104
+)
+"gtkBinProps.ml" 87 3235 3241 "gtkBinProps.ml" 87 3235 3249
+type(
+  ('f, float) Gobject.property ->
+  float option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 87 3235 3250 "gtkBinProps.ml" 87 3235 3258
+type(
+  ('f, float) Gobject.property
+)
+ident(
+  ext_ref P.yalign
+)
+"gtkBinProps.ml" 87 3235 3259 "gtkBinProps.ml" 87 3235 3265
+type(
+  float option
+)
+ident(
+  int_ref yalign "gtkBinProps.ml" 82 3051 3106 "gtkBinProps.ml" 82 3051 3112
+)
+"gtkBinProps.ml" 87 3235 3266 "gtkBinProps.ml" 87 3235 3268
+type(
+  'f Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 82 3051 3075 "gtkBinProps.ml" 82 3051 3077
+)
+"gtkBinProps.ml" 86 3202 3233 "gtkBinProps.ml" 87 3235 3269
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkBinProps.ml" 85 3171 3200 "gtkBinProps.ml" 87 3235 3270
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkBinProps.ml" 84 3130 3169 "gtkBinProps.ml" 87 3235 3271
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkBinProps.ml" 83 3115 3128 "gtkBinProps.ml" 87 3235 3272
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkBinProps.ml" 88 3276 3280 "gtkBinProps.ml" 88 3276 3284
+type(
+  'f Gobject.param list -> 'g
+)
+ident(
+  int_ref cont "gtkBinProps.ml" 82 3051 3070 "gtkBinProps.ml" 82 3051 3074
+)
+"gtkBinProps.ml" 88 3276 3285 "gtkBinProps.ml" 88 3276 3287
+type(
+  'f Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 83 3115 3123 "gtkBinProps.ml" 83 3115 3125
+)
+"gtkBinProps.ml" 88 3276 3280 "gtkBinProps.ml" 88 3276 3287
+call(
+  tail
+)
+type(
+  'g
+)
+"gtkBinProps.ml" 83 3115 3119 "gtkBinProps.ml" 88 3276 3287
+type(
+  'g
+)
+"gtkBinProps.ml" 92 3318 3324 "gtkBinProps.ml" 92 3318 3328
+type(
+  'a Gobject.obj -> Gtk.event_box Gtk.obj
+)
+ident(
+  def cast "gtkBinProps.ml" 93 3378 3380 "gtkBinProps.ml" 94 3445 3448
+)
+"gtkBinProps.ml" 92 3318 3329 "gtkBinProps.ml" 92 3318 3330
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBinProps.ml" 92 3318 3331 "gtkBinProps.ml" 92 3318 3377
+)
+"gtkBinProps.ml" 92 3318 3353 "gtkBinProps.ml" 92 3318 3361
+type(
+  'a Gobject.obj -> string -> Gtk.event_box Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBinProps.ml" 92 3318 3362 "gtkBinProps.ml" 92 3318 3363
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBinProps.ml" 92 3318 3329 "gtkBinProps.ml" 92 3318 3330
+)
+"gtkBinProps.ml" 92 3318 3364 "gtkBinProps.ml" 92 3318 3377
+type(
+  string
+)
+"gtkBinProps.ml" 92 3318 3353 "gtkBinProps.ml" 92 3318 3377
+call(
+  tail
+)
+type(
+  Gtk.event_box Gtk.obj
+)
+type(
+  Gtk.event_box Gtk.obj
+)
+"gtkBinProps.ml" 93 3378 3384 "gtkBinProps.ml" 93 3378 3390
+type(
+  Gtk.event_box Gobject.param list -> Gtk.event_box Gtk.obj
+)
+ident(
+  def create "gtkBinProps.ml" 93 3378 3444 "gtkBinProps.ml" 94 3445 3448
+)
+"gtkBinProps.ml" 93 3378 3391 "gtkBinProps.ml" 93 3378 3393
+type(
+  Gtk.event_box Gobject.param list
+)
+ident(
+  def pl "gtkBinProps.ml" 93 3378 3394 "gtkBinProps.ml" 93 3378 3444
+)
+"gtkBinProps.ml" 93 3378 3416 "gtkBinProps.ml" 93 3378 3427
+type(
+  classe:string -> Gtk.event_box Gobject.param list -> Gtk.event_box Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBinProps.ml" 93 3378 3428 "gtkBinProps.ml" 93 3378 3441
+type(
+  string
+)
+"gtkBinProps.ml" 93 3378 3442 "gtkBinProps.ml" 93 3378 3444
+type(
+  Gtk.event_box Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 93 3378 3391 "gtkBinProps.ml" 93 3378 3393
+)
+"gtkBinProps.ml" 93 3378 3416 "gtkBinProps.ml" 93 3378 3444
+call(
+  tail
+)
+type(
+  Gtk.event_box Gtk.obj
+)
+type(
+  Gtk.event_box Gtk.obj
+)
+"gtkBinProps.ml" 97 3476 3482 "gtkBinProps.ml" 97 3476 3486
+type(
+  'a Gobject.obj -> Gtk.invisible Gtk.obj
+)
+ident(
+  def cast "gtkBinProps.ml" 98 3537 3539 "gtkBinProps.ml" 103 3738 3741
+)
+"gtkBinProps.ml" 97 3476 3487 "gtkBinProps.ml" 97 3476 3488
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBinProps.ml" 97 3476 3489 "gtkBinProps.ml" 97 3476 3536
+)
+"gtkBinProps.ml" 97 3476 3511 "gtkBinProps.ml" 97 3476 3519
+type(
+  'a Gobject.obj -> string -> Gtk.invisible Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBinProps.ml" 97 3476 3520 "gtkBinProps.ml" 97 3476 3521
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBinProps.ml" 97 3476 3487 "gtkBinProps.ml" 97 3476 3488
+)
+"gtkBinProps.ml" 97 3476 3522 "gtkBinProps.ml" 97 3476 3536
+type(
+  string
+)
+"gtkBinProps.ml" 97 3476 3511 "gtkBinProps.ml" 97 3476 3536
+call(
+  tail
+)
+type(
+  Gtk.invisible Gtk.obj
+)
+type(
+  Gtk.invisible Gtk.obj
+)
+"gtkBinProps.ml" 99 3557 3565 "gtkBinProps.ml" 99 3557 3571
+type(
+  ([> `invisible ], Gdk.screen) Gobject.property
+)
+ident(
+  def screen "gtkBinProps.ml" 100 3603 3663 "gtkBinProps.ml" 101 3664 3669
+)
+"gtkBinProps.ml" 100 3603 3615 "gtkBinProps.ml" 100 3603 3623
+type(
+  string
+)
+"gtkBinProps.ml" 100 3603 3631 "gtkBinProps.ml" 100 3603 3638
+type(
+  Gdk.screen Gobject.data_conv
+)
+type(
+  Gdk.screen Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBinProps.ml" 100 3603 3609 "gtkBinProps.ml" 100 3603 3663
+type(
+  ([> `invisible ] as 'b, Gdk.screen) Gobject.property
+)
+type(
+  ('b, Gdk.screen) Gobject.property
+)
+"gtkBinProps.ml" 102 3670 3676 "gtkBinProps.ml" 102 3670 3682
+type(
+  Gtk.invisible Gobject.param list -> Gtk.invisible Gtk.obj
+)
+ident(
+  def create "gtkBinProps.ml" 102 3670 3737 "gtkBinProps.ml" 103 3738 3741
+)
+"gtkBinProps.ml" 102 3670 3683 "gtkBinProps.ml" 102 3670 3685
+type(
+  Gtk.invisible Gobject.param list
+)
+ident(
+  def pl "gtkBinProps.ml" 102 3670 3686 "gtkBinProps.ml" 102 3670 3737
+)
+"gtkBinProps.ml" 102 3670 3708 "gtkBinProps.ml" 102 3670 3719
+type(
+  classe:string -> Gtk.invisible Gobject.param list -> Gtk.invisible Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBinProps.ml" 102 3670 3720 "gtkBinProps.ml" 102 3670 3734
+type(
+  string
+)
+"gtkBinProps.ml" 102 3670 3735 "gtkBinProps.ml" 102 3670 3737
+type(
+  Gtk.invisible Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 102 3670 3683 "gtkBinProps.ml" 102 3670 3685
+)
+"gtkBinProps.ml" 102 3670 3708 "gtkBinProps.ml" 102 3670 3737
+call(
+  tail
+)
+type(
+  Gtk.invisible Gtk.obj
+)
+type(
+  Gtk.invisible Gtk.obj
+)
+"gtkBinProps.ml" 106 3769 3775 "gtkBinProps.ml" 106 3769 3779
+type(
+  'a Gobject.obj -> Gtk.handle_box Gtk.obj
+)
+ident(
+  def cast "gtkBinProps.ml" 107 3831 3833 "gtkBinProps.ml" 135 5022 5025
+)
+"gtkBinProps.ml" 106 3769 3780 "gtkBinProps.ml" 106 3769 3781
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBinProps.ml" 106 3769 3782 "gtkBinProps.ml" 106 3769 3830
+)
+"gtkBinProps.ml" 106 3769 3805 "gtkBinProps.ml" 106 3769 3813
+type(
+  'a Gobject.obj -> string -> Gtk.handle_box Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBinProps.ml" 106 3769 3814 "gtkBinProps.ml" 106 3769 3815
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBinProps.ml" 106 3769 3780 "gtkBinProps.ml" 106 3769 3781
+)
+"gtkBinProps.ml" 106 3769 3816 "gtkBinProps.ml" 106 3769 3830
+type(
+  string
+)
+"gtkBinProps.ml" 106 3769 3805 "gtkBinProps.ml" 106 3769 3830
+call(
+  tail
+)
+type(
+  Gtk.handle_box Gtk.obj
+)
+type(
+  Gtk.handle_box Gtk.obj
+)
+"gtkBinProps.ml" 108 3851 3859 "gtkBinProps.ml" 108 3851 3874
+type(
+  ([> `handlebox ], GtkEnums.position_type) Gobject.property
+)
+ident(
+  def handle_position "gtkBinProps.ml" 110 3971 3975 "gtkBinProps.ml" 116 4285 4290
+)
+"gtkBinProps.ml" 109 3906 3918 "gtkBinProps.ml" 109 3906 3935
+type(
+  string
+)
+"gtkBinProps.ml" 109 3906 3942 "gtkBinProps.ml" 109 3906 3969
+type(
+  GtkEnums.position_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.position_type_conv
+)
+"gtkBinProps.ml" 109 3906 3912 "gtkBinProps.ml" 109 3906 3970
+type(
+  ([> `handlebox ] as 'b, GtkEnums.position_type) Gobject.property
+)
+type(
+  ('b, GtkEnums.position_type) Gobject.property
+)
+"gtkBinProps.ml" 110 3971 3979 "gtkBinProps.ml" 110 3971 3988
+type(
+  ([> `handlebox ], GtkEnums.position_type) Gobject.property
+)
+ident(
+  def snap_edge "gtkBinProps.ml" 112 4079 4083 "gtkBinProps.ml" 116 4285 4290
+)
+"gtkBinProps.ml" 111 4020 4032 "gtkBinProps.ml" 111 4020 4043
+type(
+  string
+)
+"gtkBinProps.ml" 111 4020 4050 "gtkBinProps.ml" 111 4020 4077
+type(
+  GtkEnums.position_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.position_type_conv
+)
+"gtkBinProps.ml" 111 4020 4026 "gtkBinProps.ml" 111 4020 4078
+type(
+  ([> `handlebox ] as 'c, GtkEnums.position_type) Gobject.property
+)
+type(
+  ('c, GtkEnums.position_type) Gobject.property
+)
+"gtkBinProps.ml" 112 4079 4087 "gtkBinProps.ml" 112 4079 4098
+type(
+  ([> `handlebox ], GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  def shadow_type "gtkBinProps.ml" 114 4189 4193 "gtkBinProps.ml" 116 4285 4290
+)
+"gtkBinProps.ml" 113 4130 4142 "gtkBinProps.ml" 113 4130 4155
+type(
+  string
+)
+"gtkBinProps.ml" 113 4130 4162 "gtkBinProps.ml" 113 4130 4187
+type(
+  GtkEnums.shadow_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.shadow_type_conv
+)
+"gtkBinProps.ml" 113 4130 4136 "gtkBinProps.ml" 113 4130 4188
+type(
+  ([> `handlebox ] as 'd, GtkEnums.shadow_type) Gobject.property
+)
+type(
+  ('d, GtkEnums.shadow_type) Gobject.property
+)
+"gtkBinProps.ml" 114 4189 4197 "gtkBinProps.ml" 114 4189 4210
+type(
+  ([> `handlebox ], bool) Gobject.property
+)
+ident(
+  def snap_edge_set "gtkBinProps.ml" 115 4242 4284 "gtkBinProps.ml" 116 4285 4290
+)
+"gtkBinProps.ml" 115 4242 4254 "gtkBinProps.ml" 115 4242 4269
+type(
+  string
+)
+"gtkBinProps.ml" 115 4242 4276 "gtkBinProps.ml" 115 4242 4283
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBinProps.ml" 115 4242 4248 "gtkBinProps.ml" 115 4242 4284
+type(
+  ([> `handlebox ] as 'e, bool) Gobject.property
+)
+type(
+  ('e, bool) Gobject.property
+)
+"gtkBinProps.ml" 119 4330 4338 "gtkBinProps.ml" 119 4330 4352
+type(
+  ([> `handlebox ], Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  def child_attached "gtkBinProps.ml" 123 4520 4524 "gtkBinProps.ml" 127 4710 4715
+)
+"gtkBinProps.ml" 120 4355 4367 "gtkBinProps.ml" 120 4355 4383
+type(
+  string
+)
+"gtkBinProps.ml" 120 4355 4392 "gtkBinProps.ml" 120 4355 4402
+type(
+  [> `handlebox ] as 'f
+)
+"gtkBinProps.ml" 120 4355 4419 "gtkBinProps.ml" 120 4355 4420
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  def f "gtkBinProps.ml" 121 4424 4431 "gtkBinProps.ml" 122 4477 4518
+)
+"gtkBinProps.ml" 121 4424 4431 "gtkBinProps.ml" 121 4424 4439
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv ->
+  string -> (Gtk.widget Gtk.obj -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBinProps.ml" 121 4424 4441 "gtkBinProps.ml" 121 4424 4448
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBinProps.ml" 122 4477 4486 "gtkBinProps.ml" 122 4477 4516
+type(
+  string
+)
+"gtkBinProps.ml" 122 4477 4517 "gtkBinProps.ml" 122 4477 4518
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  int_ref f "gtkBinProps.ml" 120 4355 4419 "gtkBinProps.ml" 120 4355 4420
+)
+"gtkBinProps.ml" 121 4424 4431 "gtkBinProps.ml" 122 4477 4518
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBinProps.ml" 120 4355 4415 "gtkBinProps.ml" 122 4477 4518
+type(
+  (Gtk.widget Gtk.obj -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBinProps.ml" 120 4355 4361 "gtkBinProps.ml" 122 4477 4519
+type(
+  ('f, Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+"gtkBinProps.ml" 123 4520 4528 "gtkBinProps.ml" 123 4520 4542
+type(
+  ([> `handlebox ], Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  def child_detached "gtkBinProps.ml" 126 4667 4709 "gtkBinProps.ml" 127 4710 4715
+)
+"gtkBinProps.ml" 124 4545 4557 "gtkBinProps.ml" 124 4545 4573
+type(
+  string
+)
+"gtkBinProps.ml" 124 4545 4582 "gtkBinProps.ml" 124 4545 4592
+type(
+  [> `handlebox ] as 'g
+)
+"gtkBinProps.ml" 124 4545 4609 "gtkBinProps.ml" 124 4545 4610
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  def f "gtkBinProps.ml" 125 4614 4621 "gtkBinProps.ml" 126 4667 4708
+)
+"gtkBinProps.ml" 125 4614 4621 "gtkBinProps.ml" 125 4614 4629
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv ->
+  string -> (Gtk.widget Gtk.obj -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBinProps.ml" 125 4614 4631 "gtkBinProps.ml" 125 4614 4638
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBinProps.ml" 126 4667 4676 "gtkBinProps.ml" 126 4667 4706
+type(
+  string
+)
+"gtkBinProps.ml" 126 4667 4707 "gtkBinProps.ml" 126 4667 4708
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  int_ref f "gtkBinProps.ml" 124 4545 4609 "gtkBinProps.ml" 124 4545 4610
+)
+"gtkBinProps.ml" 125 4614 4621 "gtkBinProps.ml" 126 4667 4708
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBinProps.ml" 124 4545 4605 "gtkBinProps.ml" 126 4667 4708
+type(
+  (Gtk.widget Gtk.obj -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBinProps.ml" 124 4545 4551 "gtkBinProps.ml" 126 4667 4709
+type(
+  ('g, Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+"gtkBinProps.ml" 128 4716 4722 "gtkBinProps.ml" 128 4716 4728
+type(
+  Gtk.handle_box Gobject.param list -> Gtk.handle_box Gtk.obj
+)
+ident(
+  def create "gtkBinProps.ml" 129 4785 4787 "gtkBinProps.ml" 135 5022 5025
+)
+"gtkBinProps.ml" 128 4716 4729 "gtkBinProps.ml" 128 4716 4731
+type(
+  Gtk.handle_box Gobject.param list
+)
+ident(
+  def pl "gtkBinProps.ml" 128 4716 4732 "gtkBinProps.ml" 128 4716 4784
+)
+"gtkBinProps.ml" 128 4716 4755 "gtkBinProps.ml" 128 4716 4766
+type(
+  classe:string ->
+  Gtk.handle_box Gobject.param list -> Gtk.handle_box Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBinProps.ml" 128 4716 4767 "gtkBinProps.ml" 128 4716 4781
+type(
+  string
+)
+"gtkBinProps.ml" 128 4716 4782 "gtkBinProps.ml" 128 4716 4784
+type(
+  Gtk.handle_box Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 128 4716 4729 "gtkBinProps.ml" 128 4716 4731
+)
+"gtkBinProps.ml" 128 4716 4755 "gtkBinProps.ml" 128 4716 4784
+call(
+  tail
+)
+type(
+  Gtk.handle_box Gtk.obj
+)
+type(
+  Gtk.handle_box Gtk.obj
+)
+"gtkBinProps.ml" 129 4785 4791 "gtkBinProps.ml" 129 4785 4802
+type(
+  cont:(([> `handlebox ] as 'h) Gobject.param list -> 'i) ->
+  'h Gobject.param list ->
+  ?handle_position:GtkEnums.position_type ->
+  ?snap_edge:GtkEnums.position_type ->
+  ?shadow_type:GtkEnums.shadow_type -> 'i
+)
+ident(
+  def make_params "gtkBinProps.ml" 134 5010 5021 "gtkBinProps.ml" 135 5022 5025
+)
+"gtkBinProps.ml" 129 4785 4804 "gtkBinProps.ml" 129 4785 4808
+type(
+  'h Gobject.param list -> 'i
+)
+ident(
+  def cont "gtkBinProps.ml" 129 4785 4809 "gtkBinProps.ml" 134 5010 5021
+)
+"gtkBinProps.ml" 129 4785 4809 "gtkBinProps.ml" 129 4785 4811
+type(
+  'h Gobject.param list
+)
+ident(
+  def pl "gtkBinProps.ml" 129 4785 4812 "gtkBinProps.ml" 134 5010 5021
+)
+"gtkBinProps.ml" 129 4785 4813 "gtkBinProps.ml" 129 4785 4828
+type(
+  GtkEnums.position_type option
+)
+ident(
+  def handle_position "gtkBinProps.ml" 129 4785 4829 "gtkBinProps.ml" 134 5010 5021
+)
+"gtkBinProps.ml" 129 4785 4830 "gtkBinProps.ml" 129 4785 4839
+type(
+  GtkEnums.position_type option
+)
+ident(
+  def snap_edge "gtkBinProps.ml" 129 4785 4840 "gtkBinProps.ml" 134 5010 5021
+)
+"gtkBinProps.ml" 129 4785 4841 "gtkBinProps.ml" 129 4785 4852
+type(
+  GtkEnums.shadow_type option
+)
+ident(
+  def shadow_type "gtkBinProps.ml" 130 4855 4859 "gtkBinProps.ml" 134 5010 5021
+)
+"gtkBinProps.ml" 130 4855 4863 "gtkBinProps.ml" 130 4855 4865
+type(
+  'h Gobject.param list
+)
+"gtkBinProps.ml" 131 4870 4876 "gtkBinProps.ml" 131 4870 4884
+type(
+  ('h, GtkEnums.position_type) Gobject.property ->
+  GtkEnums.position_type option ->
+  'h Gobject.param list -> 'h Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 131 4870 4885 "gtkBinProps.ml" 131 4870 4902
+type(
+  ('h, GtkEnums.position_type) Gobject.property
+)
+ident(
+  ext_ref P.handle_position
+)
+"gtkBinProps.ml" 131 4870 4903 "gtkBinProps.ml" 131 4870 4918
+type(
+  GtkEnums.position_type option
+)
+ident(
+  int_ref handle_position "gtkBinProps.ml" 129 4785 4813 "gtkBinProps.ml" 129 4785 4828
+)
+"gtkBinProps.ml" 132 4921 4927 "gtkBinProps.ml" 132 4921 4935
+type(
+  ('h, GtkEnums.position_type) Gobject.property ->
+  GtkEnums.position_type option ->
+  'h Gobject.param list -> 'h Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 132 4921 4936 "gtkBinProps.ml" 132 4921 4947
+type(
+  ('h, GtkEnums.position_type) Gobject.property
+)
+ident(
+  ext_ref P.snap_edge
+)
+"gtkBinProps.ml" 132 4921 4948 "gtkBinProps.ml" 132 4921 4957
+type(
+  GtkEnums.position_type option
+)
+ident(
+  int_ref snap_edge "gtkBinProps.ml" 129 4785 4830 "gtkBinProps.ml" 129 4785 4839
+)
+"gtkBinProps.ml" 133 4960 4966 "gtkBinProps.ml" 133 4960 4974
+type(
+  ('h, GtkEnums.shadow_type) Gobject.property ->
+  GtkEnums.shadow_type option ->
+  'h Gobject.param list -> 'h Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 133 4960 4975 "gtkBinProps.ml" 133 4960 4988
+type(
+  ('h, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref P.shadow_type
+)
+"gtkBinProps.ml" 133 4960 4989 "gtkBinProps.ml" 133 4960 5000
+type(
+  GtkEnums.shadow_type option
+)
+ident(
+  int_ref shadow_type "gtkBinProps.ml" 129 4785 4841 "gtkBinProps.ml" 129 4785 4852
+)
+"gtkBinProps.ml" 133 4960 5001 "gtkBinProps.ml" 133 4960 5003
+type(
+  'h Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 129 4785 4809 "gtkBinProps.ml" 129 4785 4811
+)
+"gtkBinProps.ml" 132 4921 4958 "gtkBinProps.ml" 133 4960 5004
+call(
+  stack
+)
+type(
+  'h Gobject.param list
+)
+"gtkBinProps.ml" 131 4870 4919 "gtkBinProps.ml" 133 4960 5005
+call(
+  stack
+)
+type(
+  'h Gobject.param list
+)
+"gtkBinProps.ml" 130 4855 4868 "gtkBinProps.ml" 133 4960 5006
+call(
+  stack
+)
+type(
+  'h Gobject.param list
+)
+"gtkBinProps.ml" 134 5010 5014 "gtkBinProps.ml" 134 5010 5018
+type(
+  'h Gobject.param list -> 'i
+)
+ident(
+  int_ref cont "gtkBinProps.ml" 129 4785 4804 "gtkBinProps.ml" 129 4785 4808
+)
+"gtkBinProps.ml" 134 5010 5019 "gtkBinProps.ml" 134 5010 5021
+type(
+  'h Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 130 4855 4863 "gtkBinProps.ml" 130 4855 4865
+)
+"gtkBinProps.ml" 134 5010 5014 "gtkBinProps.ml" 134 5010 5021
+call(
+  tail
+)
+type(
+  'i
+)
+"gtkBinProps.ml" 130 4855 4859 "gtkBinProps.ml" 134 5010 5021
+type(
+  'i
+)
+"gtkBinProps.ml" 138 5058 5064 "gtkBinProps.ml" 138 5058 5068
+type(
+  'a Gobject.obj -> Gtk.scrolled_window Gtk.obj
+)
+ident(
+  def cast "gtkBinProps.ml" 139 5130 5132 "gtkBinProps.ml" 176 6827 6830
+)
+"gtkBinProps.ml" 138 5058 5069 "gtkBinProps.ml" 138 5058 5070
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBinProps.ml" 138 5058 5071 "gtkBinProps.ml" 138 5058 5129
+)
+"gtkBinProps.ml" 138 5058 5099 "gtkBinProps.ml" 138 5058 5107
+type(
+  'a Gobject.obj -> string -> Gtk.scrolled_window Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBinProps.ml" 138 5058 5108 "gtkBinProps.ml" 138 5058 5109
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBinProps.ml" 138 5058 5069 "gtkBinProps.ml" 138 5058 5070
+)
+"gtkBinProps.ml" 138 5058 5110 "gtkBinProps.ml" 138 5058 5129
+type(
+  string
+)
+"gtkBinProps.ml" 138 5058 5099 "gtkBinProps.ml" 138 5058 5129
+call(
+  tail
+)
+type(
+  Gtk.scrolled_window Gtk.obj
+)
+type(
+  Gtk.scrolled_window Gtk.obj
+)
+"gtkBinProps.ml" 140 5150 5158 "gtkBinProps.ml" 140 5150 5169
+type(
+  ([> `scrolledwindow ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  def hadjustment "gtkBinProps.ml" 141 5231 5235 "gtkBinProps.ml" 149 5772 5777
+)
+"gtkBinProps.ml" 140 5150 5206 "gtkBinProps.ml" 140 5150 5230
+type(
+  ([> `scrolledwindow ] as 'b, Gtk.adjustment Gtk.obj) Gobject.property
+)
+type(
+  ('b, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.hadjustment
+)
+"gtkBinProps.ml" 141 5231 5239 "gtkBinProps.ml" 141 5231 5250
+type(
+  ([> `scrolledwindow ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  def vadjustment "gtkBinProps.ml" 142 5312 5316 "gtkBinProps.ml" 149 5772 5777
+)
+"gtkBinProps.ml" 141 5231 5287 "gtkBinProps.ml" 141 5231 5311
+type(
+  ([> `scrolledwindow ] as 'c, Gtk.adjustment Gtk.obj) Gobject.property
+)
+type(
+  ('c, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.vadjustment
+)
+"gtkBinProps.ml" 142 5312 5320 "gtkBinProps.ml" 142 5312 5337
+type(
+  ([> `scrolledwindow ], GtkEnums.policy_type) Gobject.property
+)
+ident(
+  def hscrollbar_policy "gtkBinProps.ml" 144 5439 5443 "gtkBinProps.ml" 149 5772 5777
+)
+"gtkBinProps.ml" 143 5374 5386 "gtkBinProps.ml" 143 5374 5405
+type(
+  string
+)
+"gtkBinProps.ml" 143 5374 5412 "gtkBinProps.ml" 143 5374 5437
+type(
+  GtkEnums.policy_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.policy_type_conv
+)
+"gtkBinProps.ml" 143 5374 5380 "gtkBinProps.ml" 143 5374 5438
+type(
+  ([> `scrolledwindow ] as 'd, GtkEnums.policy_type) Gobject.property
+)
+type(
+  ('d, GtkEnums.policy_type) Gobject.property
+)
+"gtkBinProps.ml" 144 5439 5447 "gtkBinProps.ml" 144 5439 5464
+type(
+  ([> `scrolledwindow ], GtkEnums.policy_type) Gobject.property
+)
+ident(
+  def vscrollbar_policy "gtkBinProps.ml" 146 5566 5570 "gtkBinProps.ml" 149 5772 5777
+)
+"gtkBinProps.ml" 145 5501 5513 "gtkBinProps.ml" 145 5501 5532
+type(
+  string
+)
+"gtkBinProps.ml" 145 5501 5539 "gtkBinProps.ml" 145 5501 5564
+type(
+  GtkEnums.policy_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.policy_type_conv
+)
+"gtkBinProps.ml" 145 5501 5507 "gtkBinProps.ml" 145 5501 5565
+type(
+  ([> `scrolledwindow ] as 'e, GtkEnums.policy_type) Gobject.property
+)
+type(
+  ('e, GtkEnums.policy_type) Gobject.property
+)
+"gtkBinProps.ml" 146 5566 5574 "gtkBinProps.ml" 146 5566 5590
+type(
+  ([> `scrolledwindow ], GtkEnums.corner_type) Gobject.property
+)
+ident(
+  def window_placement "gtkBinProps.ml" 148 5691 5695 "gtkBinProps.ml" 149 5772 5777
+)
+"gtkBinProps.ml" 147 5627 5639 "gtkBinProps.ml" 147 5627 5657
+type(
+  string
+)
+"gtkBinProps.ml" 147 5627 5664 "gtkBinProps.ml" 147 5627 5689
+type(
+  GtkEnums.corner_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.corner_type_conv
+)
+"gtkBinProps.ml" 147 5627 5633 "gtkBinProps.ml" 147 5627 5690
+type(
+  ([> `scrolledwindow ] as 'f, GtkEnums.corner_type) Gobject.property
+)
+type(
+  ('f, GtkEnums.corner_type) Gobject.property
+)
+"gtkBinProps.ml" 148 5691 5699 "gtkBinProps.ml" 148 5691 5710
+type(
+  ([> `scrolledwindow ], GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  def shadow_type "gtkBinProps.ml" 148 5691 5771 "gtkBinProps.ml" 149 5772 5777
+)
+"gtkBinProps.ml" 148 5691 5747 "gtkBinProps.ml" 148 5691 5771
+type(
+  ([> `scrolledwindow ] as 'g, GtkEnums.shadow_type) Gobject.property
+)
+type(
+  ('g, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.shadow_type
+)
+"gtkBinProps.ml" 152 5817 5825 "gtkBinProps.ml" 152 5817 5839
+type(
+  ([> `scrolledwindow ], GtkEnums.direction_type -> unit) GtkSignal.t
+)
+ident(
+  def move_focus_out "gtkBinProps.ml" 156 6009 6013 "gtkBinProps.ml" 160 6200 6205
+)
+"gtkBinProps.ml" 153 5842 5854 "gtkBinProps.ml" 153 5842 5870
+type(
+  string
+)
+"gtkBinProps.ml" 153 5842 5879 "gtkBinProps.ml" 153 5842 5894
+type(
+  [> `scrolledwindow ] as 'h
+)
+"gtkBinProps.ml" 153 5842 5911 "gtkBinProps.ml" 153 5842 5912
+type(
+  GtkEnums.direction_type -> unit
+)
+ident(
+  def f "gtkBinProps.ml" 154 5916 5923 "gtkBinProps.ml" 155 5961 6007
+)
+"gtkBinProps.ml" 154 5916 5923 "gtkBinProps.ml" 154 5916 5931
+type(
+  GtkEnums.direction_type Gobject.data_conv ->
+  string -> (GtkEnums.direction_type -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBinProps.ml" 154 5916 5932 "gtkBinProps.ml" 154 5916 5960
+type(
+  GtkEnums.direction_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.direction_type_conv
+)
+"gtkBinProps.ml" 155 5961 5970 "gtkBinProps.ml" 155 5961 6005
+type(
+  string
+)
+"gtkBinProps.ml" 155 5961 6006 "gtkBinProps.ml" 155 5961 6007
+type(
+  GtkEnums.direction_type -> unit
+)
+ident(
+  int_ref f "gtkBinProps.ml" 153 5842 5911 "gtkBinProps.ml" 153 5842 5912
+)
+"gtkBinProps.ml" 154 5916 5923 "gtkBinProps.ml" 155 5961 6007
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBinProps.ml" 153 5842 5907 "gtkBinProps.ml" 155 5961 6007
+type(
+  (GtkEnums.direction_type -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBinProps.ml" 153 5842 5848 "gtkBinProps.ml" 155 5961 6008
+type(
+  ('h, GtkEnums.direction_type -> unit) GtkSignal.t
+)
+"gtkBinProps.ml" 156 6009 6017 "gtkBinProps.ml" 156 6009 6029
+type(
+  ([> `scrolledwindow ], GtkEnums.scroll_type -> bool -> unit) GtkSignal.t
+)
+ident(
+  def scroll_child "gtkBinProps.ml" 159 6154 6199 "gtkBinProps.ml" 160 6200 6205
+)
+"gtkBinProps.ml" 157 6032 6044 "gtkBinProps.ml" 157 6032 6058
+type(
+  string
+)
+"gtkBinProps.ml" 157 6032 6067 "gtkBinProps.ml" 157 6032 6082
+type(
+  [> `scrolledwindow ] as 'i
+)
+"gtkBinProps.ml" 157 6032 6099 "gtkBinProps.ml" 157 6032 6100
+type(
+  GtkEnums.scroll_type -> bool -> unit
+)
+ident(
+  def f "gtkBinProps.ml" 158 6104 6111 "gtkBinProps.ml" 159 6154 6198
+)
+"gtkBinProps.ml" 158 6104 6111 "gtkBinProps.ml" 158 6104 6119
+type(
+  GtkEnums.scroll_type Gobject.data_conv ->
+  bool Gobject.data_conv ->
+  string -> (GtkEnums.scroll_type -> bool -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkBinProps.ml" 158 6104 6120 "gtkBinProps.ml" 158 6104 6145
+type(
+  GtkEnums.scroll_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.scroll_type_conv
+)
+"gtkBinProps.ml" 158 6104 6146 "gtkBinProps.ml" 158 6104 6153
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBinProps.ml" 159 6154 6163 "gtkBinProps.ml" 159 6154 6196
+type(
+  string
+)
+"gtkBinProps.ml" 159 6154 6197 "gtkBinProps.ml" 159 6154 6198
+type(
+  GtkEnums.scroll_type -> bool -> unit
+)
+ident(
+  int_ref f "gtkBinProps.ml" 157 6032 6099 "gtkBinProps.ml" 157 6032 6100
+)
+"gtkBinProps.ml" 158 6104 6111 "gtkBinProps.ml" 159 6154 6198
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBinProps.ml" 157 6032 6095 "gtkBinProps.ml" 159 6154 6198
+type(
+  (GtkEnums.scroll_type -> bool -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBinProps.ml" 157 6032 6038 "gtkBinProps.ml" 159 6154 6199
+type(
+  ('i, GtkEnums.scroll_type -> bool -> unit) GtkSignal.t
+)
+"gtkBinProps.ml" 161 6206 6212 "gtkBinProps.ml" 161 6206 6218
+type(
+  Gtk.scrolled_window Gobject.param list -> Gtk.scrolled_window Gtk.obj
+)
+ident(
+  def create "gtkBinProps.ml" 163 6289 6291 "gtkBinProps.ml" 176 6827 6830
+)
+"gtkBinProps.ml" 161 6206 6219 "gtkBinProps.ml" 161 6206 6221
+type(
+  Gtk.scrolled_window Gobject.param list
+)
+ident(
+  def pl "gtkBinProps.ml" 161 6206 6222 "gtkBinProps.ml" 162 6250 6288
+)
+"gtkBinProps.ml" 162 6250 6254 "gtkBinProps.ml" 162 6250 6265
+type(
+  classe:string ->
+  Gtk.scrolled_window Gobject.param list -> Gtk.scrolled_window Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBinProps.ml" 162 6250 6266 "gtkBinProps.ml" 162 6250 6285
+type(
+  string
+)
+"gtkBinProps.ml" 162 6250 6286 "gtkBinProps.ml" 162 6250 6288
+type(
+  Gtk.scrolled_window Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 161 6206 6219 "gtkBinProps.ml" 161 6206 6221
+)
+"gtkBinProps.ml" 162 6250 6254 "gtkBinProps.ml" 162 6250 6288
+call(
+  tail
+)
+type(
+  Gtk.scrolled_window Gtk.obj
+)
+type(
+  Gtk.scrolled_window Gtk.obj
+)
+"gtkBinProps.ml" 166 6422 6428 "gtkBinProps.ml" 166 6422 6439
+type(
+  cont:(([> `scrolledwindow ] as 'j) Gobject.param list -> 'k) ->
+  'j Gobject.param list ->
+  ?hadjustment:Gtk.adjustment Gtk.obj ->
+  ?vadjustment:Gtk.adjustment Gtk.obj ->
+  ?hpolicy:GtkEnums.policy_type ->
+  ?vpolicy:GtkEnums.policy_type ->
+  ?placement:GtkEnums.corner_type -> ?shadow_type:GtkEnums.shadow_type -> 'k
+)
+ident(
+  def make_params "gtkBinProps.ml" 175 6815 6826 "gtkBinProps.ml" 176 6827 6830
+)
+"gtkBinProps.ml" 166 6422 6441 "gtkBinProps.ml" 166 6422 6445
+type(
+  'j Gobject.param list -> 'k
+)
+ident(
+  def cont "gtkBinProps.ml" 166 6422 6446 "gtkBinProps.ml" 175 6815 6826
+)
+"gtkBinProps.ml" 166 6422 6446 "gtkBinProps.ml" 166 6422 6448
+type(
+  'j Gobject.param list
+)
+ident(
+  def pl "gtkBinProps.ml" 166 6422 6449 "gtkBinProps.ml" 175 6815 6826
+)
+"gtkBinProps.ml" 166 6422 6450 "gtkBinProps.ml" 166 6422 6461
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  def hadjustment "gtkBinProps.ml" 166 6422 6462 "gtkBinProps.ml" 175 6815 6826
+)
+"gtkBinProps.ml" 166 6422 6463 "gtkBinProps.ml" 166 6422 6474
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  def vadjustment "gtkBinProps.ml" 166 6422 6475 "gtkBinProps.ml" 175 6815 6826
+)
+"gtkBinProps.ml" 166 6422 6476 "gtkBinProps.ml" 166 6422 6483
+type(
+  GtkEnums.policy_type option
+)
+ident(
+  def hpolicy "gtkBinProps.ml" 166 6422 6484 "gtkBinProps.ml" 175 6815 6826
+)
+"gtkBinProps.ml" 166 6422 6485 "gtkBinProps.ml" 166 6422 6492
+type(
+  GtkEnums.policy_type option
+)
+ident(
+  def vpolicy "gtkBinProps.ml" 167 6493 6499 "gtkBinProps.ml" 175 6815 6826
+)
+"gtkBinProps.ml" 167 6493 6500 "gtkBinProps.ml" 167 6493 6509
+type(
+  GtkEnums.corner_type option
+)
+ident(
+  def placement "gtkBinProps.ml" 167 6493 6510 "gtkBinProps.ml" 175 6815 6826
+)
+"gtkBinProps.ml" 167 6493 6511 "gtkBinProps.ml" 167 6493 6522
+type(
+  GtkEnums.shadow_type option
+)
+ident(
+  def shadow_type "gtkBinProps.ml" 168 6525 6529 "gtkBinProps.ml" 175 6815 6826
+)
+"gtkBinProps.ml" 168 6525 6533 "gtkBinProps.ml" 168 6525 6535
+type(
+  'j Gobject.param list
+)
+"gtkBinProps.ml" 169 6540 6546 "gtkBinProps.ml" 169 6540 6554
+type(
+  ('j, Gtk.adjustment Gtk.obj) Gobject.property ->
+  Gtk.adjustment Gtk.obj option ->
+  'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 169 6540 6555 "gtkBinProps.ml" 169 6540 6568
+type(
+  ('j, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref P.hadjustment
+)
+"gtkBinProps.ml" 169 6540 6569 "gtkBinProps.ml" 169 6540 6580
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  int_ref hadjustment "gtkBinProps.ml" 166 6422 6450 "gtkBinProps.ml" 166 6422 6461
+)
+"gtkBinProps.ml" 170 6583 6589 "gtkBinProps.ml" 170 6583 6597
+type(
+  ('j, Gtk.adjustment Gtk.obj) Gobject.property ->
+  Gtk.adjustment Gtk.obj option ->
+  'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 170 6583 6598 "gtkBinProps.ml" 170 6583 6611
+type(
+  ('j, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref P.vadjustment
+)
+"gtkBinProps.ml" 170 6583 6612 "gtkBinProps.ml" 170 6583 6623
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  int_ref vadjustment "gtkBinProps.ml" 166 6422 6463 "gtkBinProps.ml" 166 6422 6474
+)
+"gtkBinProps.ml" 171 6626 6632 "gtkBinProps.ml" 171 6626 6640
+type(
+  ('j, GtkEnums.policy_type) Gobject.property ->
+  GtkEnums.policy_type option ->
+  'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 171 6626 6641 "gtkBinProps.ml" 171 6626 6660
+type(
+  ('j, GtkEnums.policy_type) Gobject.property
+)
+ident(
+  ext_ref P.hscrollbar_policy
+)
+"gtkBinProps.ml" 171 6626 6661 "gtkBinProps.ml" 171 6626 6668
+type(
+  GtkEnums.policy_type option
+)
+ident(
+  int_ref hpolicy "gtkBinProps.ml" 166 6422 6476 "gtkBinProps.ml" 166 6422 6483
+)
+"gtkBinProps.ml" 172 6671 6677 "gtkBinProps.ml" 172 6671 6685
+type(
+  ('j, GtkEnums.policy_type) Gobject.property ->
+  GtkEnums.policy_type option ->
+  'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 172 6671 6686 "gtkBinProps.ml" 172 6671 6705
+type(
+  ('j, GtkEnums.policy_type) Gobject.property
+)
+ident(
+  ext_ref P.vscrollbar_policy
+)
+"gtkBinProps.ml" 172 6671 6706 "gtkBinProps.ml" 172 6671 6713
+type(
+  GtkEnums.policy_type option
+)
+ident(
+  int_ref vpolicy "gtkBinProps.ml" 166 6422 6485 "gtkBinProps.ml" 166 6422 6492
+)
+"gtkBinProps.ml" 173 6716 6722 "gtkBinProps.ml" 173 6716 6730
+type(
+  ('j, GtkEnums.corner_type) Gobject.property ->
+  GtkEnums.corner_type option ->
+  'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 173 6716 6731 "gtkBinProps.ml" 173 6716 6749
+type(
+  ('j, GtkEnums.corner_type) Gobject.property
+)
+ident(
+  ext_ref P.window_placement
+)
+"gtkBinProps.ml" 173 6716 6750 "gtkBinProps.ml" 173 6716 6759
+type(
+  GtkEnums.corner_type option
+)
+ident(
+  int_ref placement "gtkBinProps.ml" 167 6493 6500 "gtkBinProps.ml" 167 6493 6509
+)
+"gtkBinProps.ml" 174 6762 6768 "gtkBinProps.ml" 174 6762 6776
+type(
+  ('j, GtkEnums.shadow_type) Gobject.property ->
+  GtkEnums.shadow_type option ->
+  'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 174 6762 6777 "gtkBinProps.ml" 174 6762 6790
+type(
+  ('j, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref P.shadow_type
+)
+"gtkBinProps.ml" 174 6762 6791 "gtkBinProps.ml" 174 6762 6802
+type(
+  GtkEnums.shadow_type option
+)
+ident(
+  int_ref shadow_type "gtkBinProps.ml" 167 6493 6511 "gtkBinProps.ml" 167 6493 6522
+)
+"gtkBinProps.ml" 174 6762 6803 "gtkBinProps.ml" 174 6762 6805
+type(
+  'j Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 166 6422 6446 "gtkBinProps.ml" 166 6422 6448
+)
+"gtkBinProps.ml" 173 6716 6760 "gtkBinProps.ml" 174 6762 6806
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkBinProps.ml" 172 6671 6714 "gtkBinProps.ml" 174 6762 6807
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkBinProps.ml" 171 6626 6669 "gtkBinProps.ml" 174 6762 6808
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkBinProps.ml" 170 6583 6624 "gtkBinProps.ml" 174 6762 6809
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkBinProps.ml" 169 6540 6581 "gtkBinProps.ml" 174 6762 6810
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkBinProps.ml" 168 6525 6538 "gtkBinProps.ml" 174 6762 6811
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkBinProps.ml" 175 6815 6819 "gtkBinProps.ml" 175 6815 6823
+type(
+  'j Gobject.param list -> 'k
+)
+ident(
+  int_ref cont "gtkBinProps.ml" 166 6422 6441 "gtkBinProps.ml" 166 6422 6445
+)
+"gtkBinProps.ml" 175 6815 6824 "gtkBinProps.ml" 175 6815 6826
+type(
+  'j Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 168 6525 6533 "gtkBinProps.ml" 168 6525 6535
+)
+"gtkBinProps.ml" 175 6815 6819 "gtkBinProps.ml" 175 6815 6826
+call(
+  tail
+)
+type(
+  'k
+)
+"gtkBinProps.ml" 168 6525 6529 "gtkBinProps.ml" 175 6815 6826
+type(
+  'k
+)
+"gtkBinProps.ml" 179 6857 6863 "gtkBinProps.ml" 179 6857 6867
+type(
+  'a Gobject.obj -> Gtk.viewport Gtk.obj
+)
+ident(
+  def cast "gtkBinProps.ml" 180 6916 6918 "gtkBinProps.ml" 200 7803 7806
+)
+"gtkBinProps.ml" 179 6857 6868 "gtkBinProps.ml" 179 6857 6869
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBinProps.ml" 179 6857 6870 "gtkBinProps.ml" 179 6857 6915
+)
+"gtkBinProps.ml" 179 6857 6891 "gtkBinProps.ml" 179 6857 6899
+type(
+  'a Gobject.obj -> string -> Gtk.viewport Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBinProps.ml" 179 6857 6900 "gtkBinProps.ml" 179 6857 6901
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBinProps.ml" 179 6857 6868 "gtkBinProps.ml" 179 6857 6869
+)
+"gtkBinProps.ml" 179 6857 6902 "gtkBinProps.ml" 179 6857 6915
+type(
+  string
+)
+"gtkBinProps.ml" 179 6857 6891 "gtkBinProps.ml" 179 6857 6915
+call(
+  tail
+)
+type(
+  Gtk.viewport Gtk.obj
+)
+type(
+  Gtk.viewport Gtk.obj
+)
+"gtkBinProps.ml" 181 6936 6944 "gtkBinProps.ml" 181 6936 6955
+type(
+  ([> `viewport ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  def hadjustment "gtkBinProps.ml" 182 7011 7015 "gtkBinProps.ml" 184 7161 7166
+)
+"gtkBinProps.ml" 181 6936 6986 "gtkBinProps.ml" 181 6936 7010
+type(
+  ([> `viewport ] as 'b, Gtk.adjustment Gtk.obj) Gobject.property
+)
+type(
+  ('b, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.hadjustment
+)
+"gtkBinProps.ml" 182 7011 7019 "gtkBinProps.ml" 182 7011 7030
+type(
+  ([> `viewport ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  def vadjustment "gtkBinProps.ml" 183 7086 7090 "gtkBinProps.ml" 184 7161 7166
+)
+"gtkBinProps.ml" 182 7011 7061 "gtkBinProps.ml" 182 7011 7085
+type(
+  ([> `viewport ] as 'c, Gtk.adjustment Gtk.obj) Gobject.property
+)
+type(
+  ('c, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.vadjustment
+)
+"gtkBinProps.ml" 183 7086 7094 "gtkBinProps.ml" 183 7086 7105
+type(
+  ([> `viewport ], GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  def shadow_type "gtkBinProps.ml" 183 7086 7160 "gtkBinProps.ml" 184 7161 7166
+)
+"gtkBinProps.ml" 183 7086 7136 "gtkBinProps.ml" 183 7086 7160
+type(
+  ([> `viewport ] as 'd, GtkEnums.shadow_type) Gobject.property
+)
+type(
+  ('d, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.shadow_type
+)
+"gtkBinProps.ml" 187 7206 7214 "gtkBinProps.ml" 187 7206 7236
+type(
+  ([> `viewport ],
+   Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit)
+  GtkSignal.t
+)
+ident(
+  def set_scroll_adjustments "gtkBinProps.ml" 191 7450 7499 "gtkBinProps.ml" 192 7500 7505
+)
+"gtkBinProps.ml" 188 7239 7251 "gtkBinProps.ml" 188 7239 7275
+type(
+  string
+)
+"gtkBinProps.ml" 188 7239 7284 "gtkBinProps.ml" 188 7239 7293
+type(
+  [> `viewport ] as 'e
+)
+"gtkBinProps.ml" 188 7239 7310 "gtkBinProps.ml" 188 7239 7311
+type(
+  Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit
+)
+ident(
+  def f "gtkBinProps.ml" 189 7315 7322 "gtkBinProps.ml" 191 7450 7498
+)
+"gtkBinProps.ml" 189 7315 7322 "gtkBinProps.ml" 189 7315 7330
+type(
+  Gtk.adjustment Gtk.obj option Gobject.data_conv ->
+  Gtk.adjustment Gtk.obj option Gobject.data_conv ->
+  string ->
+  (Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkBinProps.ml" 189 7315 7332 "gtkBinProps.ml" 189 7315 7346
+type(
+  Gtk.adjustment Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.adjustment Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkBinProps.ml" 190 7386 7396 "gtkBinProps.ml" 190 7386 7410
+type(
+  Gtk.adjustment Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.adjustment Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkBinProps.ml" 191 7450 7459 "gtkBinProps.ml" 191 7450 7496
+type(
+  string
+)
+"gtkBinProps.ml" 191 7450 7497 "gtkBinProps.ml" 191 7450 7498
+type(
+  Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit
+)
+ident(
+  int_ref f "gtkBinProps.ml" 188 7239 7310 "gtkBinProps.ml" 188 7239 7311
+)
+"gtkBinProps.ml" 189 7315 7322 "gtkBinProps.ml" 191 7450 7498
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBinProps.ml" 188 7239 7306 "gtkBinProps.ml" 191 7450 7498
+type(
+  (Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkBinProps.ml" 188 7239 7245 "gtkBinProps.ml" 191 7450 7499
+type(
+  ('e,
+   Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit)
+  GtkSignal.t
+)
+"gtkBinProps.ml" 193 7506 7512 "gtkBinProps.ml" 193 7506 7518
+type(
+  Gtk.viewport Gobject.param list -> Gtk.viewport Gtk.obj
+)
+ident(
+  def create "gtkBinProps.ml" 194 7572 7574 "gtkBinProps.ml" 200 7803 7806
+)
+"gtkBinProps.ml" 193 7506 7519 "gtkBinProps.ml" 193 7506 7521
+type(
+  Gtk.viewport Gobject.param list
+)
+ident(
+  def pl "gtkBinProps.ml" 193 7506 7522 "gtkBinProps.ml" 193 7506 7571
+)
+"gtkBinProps.ml" 193 7506 7543 "gtkBinProps.ml" 193 7506 7554
+type(
+  classe:string -> Gtk.viewport Gobject.param list -> Gtk.viewport Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBinProps.ml" 193 7506 7555 "gtkBinProps.ml" 193 7506 7568
+type(
+  string
+)
+"gtkBinProps.ml" 193 7506 7569 "gtkBinProps.ml" 193 7506 7571
+type(
+  Gtk.viewport Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 193 7506 7519 "gtkBinProps.ml" 193 7506 7521
+)
+"gtkBinProps.ml" 193 7506 7543 "gtkBinProps.ml" 193 7506 7571
+call(
+  tail
+)
+type(
+  Gtk.viewport Gtk.obj
+)
+type(
+  Gtk.viewport Gtk.obj
+)
+"gtkBinProps.ml" 194 7572 7578 "gtkBinProps.ml" 194 7572 7589
+type(
+  cont:(([> `viewport ] as 'f) Gobject.param list -> 'g) ->
+  'f Gobject.param list ->
+  ?hadjustment:Gtk.adjustment Gtk.obj ->
+  ?vadjustment:Gtk.adjustment Gtk.obj ->
+  ?shadow_type:GtkEnums.shadow_type -> 'g
+)
+ident(
+  def make_params "gtkBinProps.ml" 199 7791 7802 "gtkBinProps.ml" 200 7803 7806
+)
+"gtkBinProps.ml" 194 7572 7591 "gtkBinProps.ml" 194 7572 7595
+type(
+  'f Gobject.param list -> 'g
+)
+ident(
+  def cont "gtkBinProps.ml" 194 7572 7596 "gtkBinProps.ml" 199 7791 7802
+)
+"gtkBinProps.ml" 194 7572 7596 "gtkBinProps.ml" 194 7572 7598
+type(
+  'f Gobject.param list
+)
+ident(
+  def pl "gtkBinProps.ml" 194 7572 7599 "gtkBinProps.ml" 199 7791 7802
+)
+"gtkBinProps.ml" 194 7572 7600 "gtkBinProps.ml" 194 7572 7611
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  def hadjustment "gtkBinProps.ml" 194 7572 7612 "gtkBinProps.ml" 199 7791 7802
+)
+"gtkBinProps.ml" 194 7572 7613 "gtkBinProps.ml" 194 7572 7624
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  def vadjustment "gtkBinProps.ml" 194 7572 7625 "gtkBinProps.ml" 199 7791 7802
+)
+"gtkBinProps.ml" 194 7572 7626 "gtkBinProps.ml" 194 7572 7637
+type(
+  GtkEnums.shadow_type option
+)
+ident(
+  def shadow_type "gtkBinProps.ml" 195 7640 7644 "gtkBinProps.ml" 199 7791 7802
+)
+"gtkBinProps.ml" 195 7640 7648 "gtkBinProps.ml" 195 7640 7650
+type(
+  'f Gobject.param list
+)
+"gtkBinProps.ml" 196 7655 7661 "gtkBinProps.ml" 196 7655 7669
+type(
+  ('f, Gtk.adjustment Gtk.obj) Gobject.property ->
+  Gtk.adjustment Gtk.obj option ->
+  'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 196 7655 7670 "gtkBinProps.ml" 196 7655 7683
+type(
+  ('f, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref P.hadjustment
+)
+"gtkBinProps.ml" 196 7655 7684 "gtkBinProps.ml" 196 7655 7695
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  int_ref hadjustment "gtkBinProps.ml" 194 7572 7600 "gtkBinProps.ml" 194 7572 7611
+)
+"gtkBinProps.ml" 197 7698 7704 "gtkBinProps.ml" 197 7698 7712
+type(
+  ('f, Gtk.adjustment Gtk.obj) Gobject.property ->
+  Gtk.adjustment Gtk.obj option ->
+  'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 197 7698 7713 "gtkBinProps.ml" 197 7698 7726
+type(
+  ('f, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref P.vadjustment
+)
+"gtkBinProps.ml" 197 7698 7727 "gtkBinProps.ml" 197 7698 7738
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  int_ref vadjustment "gtkBinProps.ml" 194 7572 7613 "gtkBinProps.ml" 194 7572 7624
+)
+"gtkBinProps.ml" 198 7741 7747 "gtkBinProps.ml" 198 7741 7755
+type(
+  ('f, GtkEnums.shadow_type) Gobject.property ->
+  GtkEnums.shadow_type option ->
+  'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 198 7741 7756 "gtkBinProps.ml" 198 7741 7769
+type(
+  ('f, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref P.shadow_type
+)
+"gtkBinProps.ml" 198 7741 7770 "gtkBinProps.ml" 198 7741 7781
+type(
+  GtkEnums.shadow_type option
+)
+ident(
+  int_ref shadow_type "gtkBinProps.ml" 194 7572 7626 "gtkBinProps.ml" 194 7572 7637
+)
+"gtkBinProps.ml" 198 7741 7782 "gtkBinProps.ml" 198 7741 7784
+type(
+  'f Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 194 7572 7596 "gtkBinProps.ml" 194 7572 7598
+)
+"gtkBinProps.ml" 197 7698 7739 "gtkBinProps.ml" 198 7741 7785
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkBinProps.ml" 196 7655 7696 "gtkBinProps.ml" 198 7741 7786
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkBinProps.ml" 195 7640 7653 "gtkBinProps.ml" 198 7741 7787
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkBinProps.ml" 199 7791 7795 "gtkBinProps.ml" 199 7791 7799
+type(
+  'f Gobject.param list -> 'g
+)
+ident(
+  int_ref cont "gtkBinProps.ml" 194 7572 7591 "gtkBinProps.ml" 194 7572 7595
+)
+"gtkBinProps.ml" 199 7791 7800 "gtkBinProps.ml" 199 7791 7802
+type(
+  'f Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 195 7640 7648 "gtkBinProps.ml" 195 7640 7650
+)
+"gtkBinProps.ml" 199 7791 7795 "gtkBinProps.ml" 199 7791 7802
+call(
+  tail
+)
+type(
+  'g
+)
+"gtkBinProps.ml" 195 7640 7644 "gtkBinProps.ml" 199 7791 7802
+type(
+  'g
+)
+"gtkBinProps.ml" 203 7833 7839 "gtkBinProps.ml" 203 7833 7843
+type(
+  'a Gobject.obj -> Gtk.expander Gtk.obj
+)
+ident(
+  def cast "gtkBinProps.ml" 204 7892 7894 "gtkBinProps.ml" 227 8817 8820
+)
+"gtkBinProps.ml" 203 7833 7844 "gtkBinProps.ml" 203 7833 7845
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBinProps.ml" 203 7833 7846 "gtkBinProps.ml" 203 7833 7891
+)
+"gtkBinProps.ml" 203 7833 7867 "gtkBinProps.ml" 203 7833 7875
+type(
+  'a Gobject.obj -> string -> Gtk.expander Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBinProps.ml" 203 7833 7876 "gtkBinProps.ml" 203 7833 7877
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBinProps.ml" 203 7833 7844 "gtkBinProps.ml" 203 7833 7845
+)
+"gtkBinProps.ml" 203 7833 7878 "gtkBinProps.ml" 203 7833 7891
+type(
+  string
+)
+"gtkBinProps.ml" 203 7833 7867 "gtkBinProps.ml" 203 7833 7891
+call(
+  tail
+)
+type(
+  Gtk.expander Gtk.obj
+)
+type(
+  Gtk.expander Gtk.obj
+)
+"gtkBinProps.ml" 205 7912 7920 "gtkBinProps.ml" 205 7912 7928
+type(
+  ([> `expander ], bool) Gobject.property
+)
+ident(
+  def expanded "gtkBinProps.ml" 207 7997 8001 "gtkBinProps.ml" 213 8359 8364
+)
+"gtkBinProps.ml" 206 7959 7971 "gtkBinProps.ml" 206 7959 7981
+type(
+  string
+)
+"gtkBinProps.ml" 206 7959 7988 "gtkBinProps.ml" 206 7959 7995
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBinProps.ml" 206 7959 7965 "gtkBinProps.ml" 206 7959 7996
+type(
+  ([> `expander ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkBinProps.ml" 207 7997 8005 "gtkBinProps.ml" 207 7997 8010
+type(
+  ([> `expander ], string) Gobject.property
+)
+ident(
+  def label "gtkBinProps.ml" 208 8069 8073 "gtkBinProps.ml" 213 8359 8364
+)
+"gtkBinProps.ml" 207 7997 8047 "gtkBinProps.ml" 207 7997 8054
+type(
+  string
+)
+"gtkBinProps.ml" 207 7997 8061 "gtkBinProps.ml" 207 7997 8067
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBinProps.ml" 207 7997 8041 "gtkBinProps.ml" 207 7997 8068
+type(
+  ([> `expander ] as 'c, string) Gobject.property
+)
+type(
+  ('c, string) Gobject.property
+)
+"gtkBinProps.ml" 208 8069 8077 "gtkBinProps.ml" 208 8069 8089
+type(
+  ([> `expander ], Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  def label_widget "gtkBinProps.ml" 210 8191 8195 "gtkBinProps.ml" 213 8359 8364
+)
+"gtkBinProps.ml" 209 8120 8132 "gtkBinProps.ml" 209 8120 8146
+type(
+  string
+)
+"gtkBinProps.ml" 209 8120 8154 "gtkBinProps.ml" 209 8120 8161
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBinProps.ml" 209 8120 8126 "gtkBinProps.ml" 209 8120 8190
+type(
+  ([> `expander ] as 'd, Gtk.widget Gtk.obj) Gobject.property
+)
+type(
+  ('d, Gtk.widget Gtk.obj) Gobject.property
+)
+"gtkBinProps.ml" 210 8191 8199 "gtkBinProps.ml" 210 8191 8206
+type(
+  ([> `expander ], int) Gobject.property
+)
+ident(
+  def spacing "gtkBinProps.ml" 211 8264 8268 "gtkBinProps.ml" 213 8359 8364
+)
+"gtkBinProps.ml" 210 8191 8243 "gtkBinProps.ml" 210 8191 8252
+type(
+  string
+)
+"gtkBinProps.ml" 210 8191 8259 "gtkBinProps.ml" 210 8191 8262
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBinProps.ml" 210 8191 8237 "gtkBinProps.ml" 210 8191 8263
+type(
+  ([> `expander ] as 'e, int) Gobject.property
+)
+type(
+  ('e, int) Gobject.property
+)
+"gtkBinProps.ml" 211 8264 8272 "gtkBinProps.ml" 211 8264 8285
+type(
+  ([> `expander ], bool) Gobject.property
+)
+ident(
+  def use_underline "gtkBinProps.ml" 212 8316 8358 "gtkBinProps.ml" 213 8359 8364
+)
+"gtkBinProps.ml" 212 8316 8328 "gtkBinProps.ml" 212 8316 8343
+type(
+  string
+)
+"gtkBinProps.ml" 212 8316 8350 "gtkBinProps.ml" 212 8316 8357
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBinProps.ml" 212 8316 8322 "gtkBinProps.ml" 212 8316 8358
+type(
+  ([> `expander ] as 'f, bool) Gobject.property
+)
+type(
+  ('f, bool) Gobject.property
+)
+"gtkBinProps.ml" 216 8404 8412 "gtkBinProps.ml" 216 8404 8420
+type(
+  ([> `expander ], unit -> unit) GtkSignal.t
+)
+ident(
+  def activate "gtkBinProps.ml" 217 8423 8489 "gtkBinProps.ml" 218 8490 8495
+)
+"gtkBinProps.ml" 217 8423 8435 "gtkBinProps.ml" 217 8423 8445
+type(
+  string
+)
+"gtkBinProps.ml" 217 8423 8454 "gtkBinProps.ml" 217 8423 8463
+type(
+  [> `expander ] as 'g
+)
+"gtkBinProps.ml" 217 8423 8476 "gtkBinProps.ml" 217 8423 8488
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBinProps.ml" 217 8423 8429 "gtkBinProps.ml" 217 8423 8489
+type(
+  ('g, unit -> unit) GtkSignal.t
+)
+"gtkBinProps.ml" 219 8496 8502 "gtkBinProps.ml" 219 8496 8508
+type(
+  Gtk.expander Gobject.param list -> Gtk.expander Gtk.obj
+)
+ident(
+  def create "gtkBinProps.ml" 220 8562 8564 "gtkBinProps.ml" 227 8817 8820
+)
+"gtkBinProps.ml" 219 8496 8509 "gtkBinProps.ml" 219 8496 8511
+type(
+  Gtk.expander Gobject.param list
+)
+ident(
+  def pl "gtkBinProps.ml" 219 8496 8512 "gtkBinProps.ml" 219 8496 8561
+)
+"gtkBinProps.ml" 219 8496 8533 "gtkBinProps.ml" 219 8496 8544
+type(
+  classe:string -> Gtk.expander Gobject.param list -> Gtk.expander Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBinProps.ml" 219 8496 8545 "gtkBinProps.ml" 219 8496 8558
+type(
+  string
+)
+"gtkBinProps.ml" 219 8496 8559 "gtkBinProps.ml" 219 8496 8561
+type(
+  Gtk.expander Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 219 8496 8509 "gtkBinProps.ml" 219 8496 8511
+)
+"gtkBinProps.ml" 219 8496 8533 "gtkBinProps.ml" 219 8496 8561
+call(
+  tail
+)
+type(
+  Gtk.expander Gtk.obj
+)
+type(
+  Gtk.expander Gtk.obj
+)
+"gtkBinProps.ml" 220 8562 8568 "gtkBinProps.ml" 220 8562 8579
+type(
+  cont:(([> `expander ] as 'h) Gobject.param list -> 'i) ->
+  'h Gobject.param list ->
+  ?expanded:bool ->
+  ?label:string -> ?spacing:int -> ?use_underline:bool -> 'i
+)
+ident(
+  def make_params "gtkBinProps.ml" 226 8805 8816 "gtkBinProps.ml" 227 8817 8820
+)
+"gtkBinProps.ml" 220 8562 8581 "gtkBinProps.ml" 220 8562 8585
+type(
+  'h Gobject.param list -> 'i
+)
+ident(
+  def cont "gtkBinProps.ml" 220 8562 8586 "gtkBinProps.ml" 226 8805 8816
+)
+"gtkBinProps.ml" 220 8562 8586 "gtkBinProps.ml" 220 8562 8588
+type(
+  'h Gobject.param list
+)
+ident(
+  def pl "gtkBinProps.ml" 220 8562 8589 "gtkBinProps.ml" 226 8805 8816
+)
+"gtkBinProps.ml" 220 8562 8590 "gtkBinProps.ml" 220 8562 8598
+type(
+  bool option
+)
+ident(
+  def expanded "gtkBinProps.ml" 220 8562 8599 "gtkBinProps.ml" 226 8805 8816
+)
+"gtkBinProps.ml" 220 8562 8600 "gtkBinProps.ml" 220 8562 8605
+type(
+  string option
+)
+ident(
+  def label "gtkBinProps.ml" 220 8562 8606 "gtkBinProps.ml" 226 8805 8816
+)
+"gtkBinProps.ml" 220 8562 8607 "gtkBinProps.ml" 220 8562 8614
+type(
+  int option
+)
+ident(
+  def spacing "gtkBinProps.ml" 220 8562 8615 "gtkBinProps.ml" 226 8805 8816
+)
+"gtkBinProps.ml" 220 8562 8616 "gtkBinProps.ml" 220 8562 8629
+type(
+  bool option
+)
+ident(
+  def use_underline "gtkBinProps.ml" 221 8632 8636 "gtkBinProps.ml" 226 8805 8816
+)
+"gtkBinProps.ml" 221 8632 8640 "gtkBinProps.ml" 221 8632 8642
+type(
+  'h Gobject.param list
+)
+"gtkBinProps.ml" 222 8647 8653 "gtkBinProps.ml" 222 8647 8661
+type(
+  ('h, bool) Gobject.property ->
+  bool option -> 'h Gobject.param list -> 'h Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 222 8647 8662 "gtkBinProps.ml" 222 8647 8672
+type(
+  ('h, bool) Gobject.property
+)
+ident(
+  ext_ref P.expanded
+)
+"gtkBinProps.ml" 222 8647 8673 "gtkBinProps.ml" 222 8647 8681
+type(
+  bool option
+)
+ident(
+  int_ref expanded "gtkBinProps.ml" 220 8562 8590 "gtkBinProps.ml" 220 8562 8598
+)
+"gtkBinProps.ml" 223 8684 8690 "gtkBinProps.ml" 223 8684 8698
+type(
+  ('h, string) Gobject.property ->
+  string option -> 'h Gobject.param list -> 'h Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 223 8684 8699 "gtkBinProps.ml" 223 8684 8706
+type(
+  ('h, string) Gobject.property
+)
+ident(
+  ext_ref P.label
+)
+"gtkBinProps.ml" 223 8684 8707 "gtkBinProps.ml" 223 8684 8712
+type(
+  string option
+)
+ident(
+  int_ref label "gtkBinProps.ml" 220 8562 8600 "gtkBinProps.ml" 220 8562 8605
+)
+"gtkBinProps.ml" 224 8715 8721 "gtkBinProps.ml" 224 8715 8729
+type(
+  ('h, int) Gobject.property ->
+  int option -> 'h Gobject.param list -> 'h Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 224 8715 8730 "gtkBinProps.ml" 224 8715 8739
+type(
+  ('h, int) Gobject.property
+)
+ident(
+  ext_ref P.spacing
+)
+"gtkBinProps.ml" 224 8715 8740 "gtkBinProps.ml" 224 8715 8747
+type(
+  int option
+)
+ident(
+  int_ref spacing "gtkBinProps.ml" 220 8562 8607 "gtkBinProps.ml" 220 8562 8614
+)
+"gtkBinProps.ml" 225 8750 8756 "gtkBinProps.ml" 225 8750 8764
+type(
+  ('h, bool) Gobject.property ->
+  bool option -> 'h Gobject.param list -> 'h Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBinProps.ml" 17 437 441 "gtkBinProps.ml" 17 437 449
+)
+"gtkBinProps.ml" 225 8750 8765 "gtkBinProps.ml" 225 8750 8780
+type(
+  ('h, bool) Gobject.property
+)
+ident(
+  ext_ref P.use_underline
+)
+"gtkBinProps.ml" 225 8750 8781 "gtkBinProps.ml" 225 8750 8794
+type(
+  bool option
+)
+ident(
+  int_ref use_underline "gtkBinProps.ml" 220 8562 8616 "gtkBinProps.ml" 220 8562 8629
+)
+"gtkBinProps.ml" 225 8750 8795 "gtkBinProps.ml" 225 8750 8797
+type(
+  'h Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 220 8562 8586 "gtkBinProps.ml" 220 8562 8588
+)
+"gtkBinProps.ml" 224 8715 8748 "gtkBinProps.ml" 225 8750 8798
+call(
+  stack
+)
+type(
+  'h Gobject.param list
+)
+"gtkBinProps.ml" 223 8684 8713 "gtkBinProps.ml" 225 8750 8799
+call(
+  stack
+)
+type(
+  'h Gobject.param list
+)
+"gtkBinProps.ml" 222 8647 8682 "gtkBinProps.ml" 225 8750 8800
+call(
+  stack
+)
+type(
+  'h Gobject.param list
+)
+"gtkBinProps.ml" 221 8632 8645 "gtkBinProps.ml" 225 8750 8801
+call(
+  stack
+)
+type(
+  'h Gobject.param list
+)
+"gtkBinProps.ml" 226 8805 8809 "gtkBinProps.ml" 226 8805 8813
+type(
+  'h Gobject.param list -> 'i
+)
+ident(
+  int_ref cont "gtkBinProps.ml" 220 8562 8581 "gtkBinProps.ml" 220 8562 8585
+)
+"gtkBinProps.ml" 226 8805 8814 "gtkBinProps.ml" 226 8805 8816
+type(
+  'h Gobject.param list
+)
+ident(
+  int_ref pl "gtkBinProps.ml" 221 8632 8640 "gtkBinProps.ml" 221 8632 8642
+)
+"gtkBinProps.ml" 226 8805 8809 "gtkBinProps.ml" 226 8805 8816
+call(
+  tail
+)
+type(
+  'i
+)
+"gtkBinProps.ml" 221 8632 8636 "gtkBinProps.ml" 226 8805 8816
+type(
+  'i
+)

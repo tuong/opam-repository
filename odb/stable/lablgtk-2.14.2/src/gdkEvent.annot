@@ -1,0 +1,1051 @@
+"gdkEvent.ml" 58 2815 2819 "gdkEvent.ml" 58 2815 2823
+type(
+  kind:([< Gdk.Tags.event_type ] as 'a) list -> any -> 'a Gdk.event
+)
+ident(
+  def cast "gdkEvent.ml" 62 2994 2994 --
+)
+"gdkEvent.ml" 58 2815 2826 "gdkEvent.ml" 58 2815 2830
+type(
+  'a list
+)
+ident(
+  def kind "gdkEvent.ml" 58 2815 2862 "gdkEvent.ml" 60 2958 2992
+)
+"gdkEvent.ml" 58 2815 2863 "gdkEvent.ml" 58 2815 2865
+type(
+  any
+)
+ident(
+  def ev "gdkEvent.ml" 58 2815 2873 "gdkEvent.ml" 60 2958 2992
+)
+"gdkEvent.ml" 59 2886 2891 "gdkEvent.ml" 59 2886 2899
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"gdkEvent.ml" 59 2886 2901 "gdkEvent.ml" 59 2886 2910
+type(
+  Gdk.Tags.event_type -> 'a
+)
+ident(
+  ext_ref Obj.magic
+)
+"gdkEvent.ml" 59 2886 2912 "gdkEvent.ml" 59 2886 2920
+type(
+  any -> Gdk.Tags.event_type
+)
+"gdkEvent.ml" 59 2886 2921 "gdkEvent.ml" 59 2886 2923
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 58 2815 2863 "gdkEvent.ml" 58 2815 2865
+)
+"gdkEvent.ml" 59 2886 2911 "gdkEvent.ml" 59 2886 2924
+type(
+  Gdk.Tags.event_type
+)
+"gdkEvent.ml" 59 2886 2901 "gdkEvent.ml" 59 2886 2924
+type(
+  'a
+)
+type(
+  'a
+)
+"gdkEvent.ml" 59 2886 2933 "gdkEvent.ml" 59 2886 2937
+type(
+  'a list
+)
+ident(
+  int_ref kind "gdkEvent.ml" 58 2815 2826 "gdkEvent.ml" 58 2815 2830
+)
+"gdkEvent.ml" 59 2886 2891 "gdkEvent.ml" 59 2886 2937
+call(
+  stack
+)
+type(
+  bool
+)
+"gdkEvent.ml" 59 2886 2943 "gdkEvent.ml" 59 2886 2954
+type(
+  any -> 'a Gdk.event
+)
+"gdkEvent.ml" 59 2886 2955 "gdkEvent.ml" 59 2886 2957
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 58 2815 2863 "gdkEvent.ml" 58 2815 2865
+)
+"gdkEvent.ml" 59 2886 2943 "gdkEvent.ml" 59 2886 2957
+type(
+  'a Gdk.event
+)
+"gdkEvent.ml" 60 2958 2965 "gdkEvent.ml" 60 2958 2976
+type(
+  string -> 'a Gdk.event
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gdkEvent.ml" 60 2958 2977 "gdkEvent.ml" 60 2958 2992
+type(
+  string
+)
+"gdkEvent.ml" 60 2958 2965 "gdkEvent.ml" 60 2958 2992
+call(
+  tail
+)
+type(
+  'a Gdk.event
+)
+"gdkEvent.ml" 59 2886 2888 "gdkEvent.ml" 60 2958 2992
+type(
+  'a Gdk.event
+)
+type(
+  'a Gdk.event
+)
+"gdkEvent.ml" 64 3046 3052 "gdkEvent.ml" 64 3046 3056
+type(
+  any -> t
+)
+ident(
+  def cast "gdkEvent.ml" 65 3090 3092 "gdkEvent.ml" 68 3269 3272
+)
+"gdkEvent.ml" 64 3046 3057 "gdkEvent.ml" 64 3046 3059
+type(
+  any
+)
+ident(
+  def ev "gdkEvent.ml" 64 3046 3060 "gdkEvent.ml" 64 3046 3089
+)
+"gdkEvent.ml" 64 3046 3066 "gdkEvent.ml" 64 3046 3070
+type(
+  kind:[ `EXPOSE ] list -> any -> t
+)
+ident(
+  int_ref cast "gdkEvent.ml" 58 2815 2819 "gdkEvent.ml" 58 2815 2823
+)
+"gdkEvent.ml" 64 3046 3071 "gdkEvent.ml" 64 3046 3073
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 64 3046 3057 "gdkEvent.ml" 64 3046 3059
+)
+"gdkEvent.ml" 64 3046 3081 "gdkEvent.ml" 64 3046 3088
+type(
+  [ `EXPOSE ]
+)
+"gdkEvent.ml" 64 3046 3080 "gdkEvent.ml" 64 3046 3089
+type(
+  [ `EXPOSE ] list
+)
+"gdkEvent.ml" 64 3046 3066 "gdkEvent.ml" 64 3046 3089
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  t
+)
+"gdkEvent.ml" 72 3341 3347 "gdkEvent.ml" 72 3341 3351
+type(
+  any -> t
+)
+ident(
+  def cast "gdkEvent.ml" 73 3396 3398 "gdkEvent.ml" 75 3480 3483
+)
+"gdkEvent.ml" 72 3341 3352 "gdkEvent.ml" 72 3341 3354
+type(
+  any
+)
+ident(
+  def ev "gdkEvent.ml" 72 3341 3355 "gdkEvent.ml" 72 3341 3395
+)
+"gdkEvent.ml" 72 3341 3361 "gdkEvent.ml" 72 3341 3365
+type(
+  kind:[ `VISIBILITY_NOTIFY ] list -> any -> t
+)
+ident(
+  int_ref cast "gdkEvent.ml" 58 2815 2819 "gdkEvent.ml" 58 2815 2823
+)
+"gdkEvent.ml" 72 3341 3366 "gdkEvent.ml" 72 3341 3368
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 72 3341 3352 "gdkEvent.ml" 72 3341 3354
+)
+"gdkEvent.ml" 72 3341 3376 "gdkEvent.ml" 72 3341 3394
+type(
+  [ `VISIBILITY_NOTIFY ]
+)
+"gdkEvent.ml" 72 3341 3375 "gdkEvent.ml" 72 3341 3395
+type(
+  [ `VISIBILITY_NOTIFY ] list
+)
+"gdkEvent.ml" 72 3341 3361 "gdkEvent.ml" 72 3341 3395
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  t
+)
+"gdkEvent.ml" 79 3544 3550 "gdkEvent.ml" 79 3544 3554
+type(
+  any -> t
+)
+ident(
+  def cast "gdkEvent.ml" 80 3595 3597 "gdkEvent.ml" 89 4088 4091
+)
+"gdkEvent.ml" 79 3544 3555 "gdkEvent.ml" 79 3544 3557
+type(
+  any
+)
+ident(
+  def ev "gdkEvent.ml" 79 3544 3558 "gdkEvent.ml" 79 3544 3594
+)
+"gdkEvent.ml" 79 3544 3564 "gdkEvent.ml" 79 3544 3568
+type(
+  kind:[ `MOTION_NOTIFY ] list -> any -> t
+)
+ident(
+  int_ref cast "gdkEvent.ml" 58 2815 2819 "gdkEvent.ml" 58 2815 2823
+)
+"gdkEvent.ml" 79 3544 3569 "gdkEvent.ml" 79 3544 3571
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 79 3544 3555 "gdkEvent.ml" 79 3544 3557
+)
+"gdkEvent.ml" 79 3544 3579 "gdkEvent.ml" 79 3544 3593
+type(
+  [ `MOTION_NOTIFY ]
+)
+"gdkEvent.ml" 79 3544 3578 "gdkEvent.ml" 79 3544 3594
+type(
+  [ `MOTION_NOTIFY ] list
+)
+"gdkEvent.ml" 79 3544 3564 "gdkEvent.ml" 79 3544 3594
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  t
+)
+"gdkEvent.ml" 80 3595 3601 "gdkEvent.ml" 80 3595 3605
+type(
+  [< timed ] Gdk.event -> int32
+)
+ident(
+  def time "gdkEvent.ml" 81 3617 3619 "gdkEvent.ml" 89 4088 4091
+)
+"gdkEvent.ml" 80 3595 3608 "gdkEvent.ml" 80 3595 3616
+type(
+  ([< timed ] as 'a) Gdk.event -> int32
+)
+"gdkEvent.ml" 95 4232 4238 "gdkEvent.ml" 95 4232 4242
+type(
+  any -> t
+)
+ident(
+  def cast "gdkEvent.ml" 98 4356 4358 "gdkEvent.ml" 111 5005 5008
+)
+"gdkEvent.ml" 95 4232 4243 "gdkEvent.ml" 95 4232 4245
+type(
+  any
+)
+ident(
+  def ev "gdkEvent.ml" 95 4232 4246 "gdkEvent.ml" 97 4306 4355
+)
+"gdkEvent.ml" 95 4232 4252 "gdkEvent.ml" 95 4232 4256
+type(
+  kind:types list -> any -> t
+)
+ident(
+  int_ref cast "gdkEvent.ml" 58 2815 2819 "gdkEvent.ml" 58 2815 2823
+)
+"gdkEvent.ml" 95 4232 4257 "gdkEvent.ml" 95 4232 4259
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 95 4232 4243 "gdkEvent.ml" 95 4232 4245
+)
+"gdkEvent.ml" 96 4260 4273 "gdkEvent.ml" 96 4260 4286
+type(
+  types
+)
+"gdkEvent.ml" 96 4260 4287 "gdkEvent.ml" 96 4260 4304
+type(
+  types
+)
+"gdkEvent.ml" 97 4306 4319 "gdkEvent.ml" 97 4306 4338
+type(
+  types
+)
+"gdkEvent.ml" 97 4306 4339 "gdkEvent.ml" 97 4306 4354
+type(
+  types
+)
+"gdkEvent.ml" 96 4260 4272 "gdkEvent.ml" 97 4306 4355
+type(
+  types list
+)
+"gdkEvent.ml" 95 4232 4252 "gdkEvent.ml" 97 4306 4355
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  t
+)
+"gdkEvent.ml" 98 4356 4362 "gdkEvent.ml" 98 4356 4366
+type(
+  [< timed ] Gdk.event -> int32
+)
+ident(
+  def time "gdkEvent.ml" 99 4378 4380 "gdkEvent.ml" 111 5005 5008
+)
+"gdkEvent.ml" 98 4356 4369 "gdkEvent.ml" 98 4356 4377
+type(
+  ([< timed ] as 'a) Gdk.event -> int32
+)
+"gdkEvent.ml" 115 5062 5068 "gdkEvent.ml" 115 5062 5072
+type(
+  any -> t
+)
+ident(
+  def cast "gdkEvent.ml" 116 5106 5108 "gdkEvent.ml" 124 5542 5545
+)
+"gdkEvent.ml" 115 5062 5073 "gdkEvent.ml" 115 5062 5075
+type(
+  any
+)
+ident(
+  def ev "gdkEvent.ml" 115 5062 5076 "gdkEvent.ml" 115 5062 5105
+)
+"gdkEvent.ml" 115 5062 5082 "gdkEvent.ml" 115 5062 5086
+type(
+  kind:[ `SCROLL ] list -> any -> t
+)
+ident(
+  int_ref cast "gdkEvent.ml" 58 2815 2819 "gdkEvent.ml" 58 2815 2823
+)
+"gdkEvent.ml" 115 5062 5087 "gdkEvent.ml" 115 5062 5089
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 115 5062 5073 "gdkEvent.ml" 115 5062 5075
+)
+"gdkEvent.ml" 115 5062 5097 "gdkEvent.ml" 115 5062 5104
+type(
+  [ `SCROLL ]
+)
+"gdkEvent.ml" 115 5062 5096 "gdkEvent.ml" 115 5062 5105
+type(
+  [ `SCROLL ] list
+)
+"gdkEvent.ml" 115 5062 5082 "gdkEvent.ml" 115 5062 5105
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  t
+)
+"gdkEvent.ml" 116 5106 5112 "gdkEvent.ml" 116 5106 5116
+type(
+  [< timed ] Gdk.event -> int32
+)
+ident(
+  def time "gdkEvent.ml" 117 5128 5130 "gdkEvent.ml" 124 5542 5545
+)
+"gdkEvent.ml" 116 5106 5119 "gdkEvent.ml" 116 5106 5127
+type(
+  ([< timed ] as 'a) Gdk.event -> int32
+)
+"gdkEvent.ml" 128 5612 5618 "gdkEvent.ml" 128 5612 5622
+type(
+  any -> t
+)
+ident(
+  def cast "gdkEvent.ml" 129 5672 5674 "gdkEvent.ml" 136 6036 6039
+)
+"gdkEvent.ml" 128 5612 5623 "gdkEvent.ml" 128 5612 5625
+type(
+  any
+)
+ident(
+  def ev "gdkEvent.ml" 128 5612 5626 "gdkEvent.ml" 128 5612 5671
+)
+"gdkEvent.ml" 128 5612 5632 "gdkEvent.ml" 128 5612 5636
+type(
+  kind:[ `KEY_PRESS | `KEY_RELEASE ] list -> any -> t
+)
+ident(
+  int_ref cast "gdkEvent.ml" 58 2815 2819 "gdkEvent.ml" 58 2815 2823
+)
+"gdkEvent.ml" 128 5612 5637 "gdkEvent.ml" 128 5612 5639
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 128 5612 5623 "gdkEvent.ml" 128 5612 5625
+)
+"gdkEvent.ml" 128 5612 5647 "gdkEvent.ml" 128 5612 5657
+type(
+  [ `KEY_PRESS | `KEY_RELEASE ]
+)
+"gdkEvent.ml" 128 5612 5658 "gdkEvent.ml" 128 5612 5670
+type(
+  [ `KEY_PRESS | `KEY_RELEASE ]
+)
+"gdkEvent.ml" 128 5612 5646 "gdkEvent.ml" 128 5612 5671
+type(
+  [ `KEY_PRESS | `KEY_RELEASE ] list
+)
+"gdkEvent.ml" 128 5612 5632 "gdkEvent.ml" 128 5612 5671
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  t
+)
+"gdkEvent.ml" 129 5672 5678 "gdkEvent.ml" 129 5672 5682
+type(
+  [< timed ] Gdk.event -> int32
+)
+ident(
+  def time "gdkEvent.ml" 130 5694 5696 "gdkEvent.ml" 136 6036 6039
+)
+"gdkEvent.ml" 129 5672 5685 "gdkEvent.ml" 129 5672 5693
+type(
+  ([< timed ] as 'a) Gdk.event -> int32
+)
+"gdkEvent.ml" 135 5991 5997 "gdkEvent.ml" 135 5991 6002
+type(
+  t -> Gdk.Tags.modifier list
+)
+ident(
+  def state "gdkEvent.ml" 135 5991 6035 "gdkEvent.ml" 136 6036 6039
+)
+"gdkEvent.ml" 135 5991 6003 "gdkEvent.ml" 135 5991 6005
+type(
+  t
+)
+ident(
+  def ev "gdkEvent.ml" 135 5991 6008 "gdkEvent.ml" 135 5991 6035
+)
+"gdkEvent.ml" 135 5991 6008 "gdkEvent.ml" 135 5991 6024
+type(
+  int -> Gdk.Tags.modifier list
+)
+ident(
+  ext_ref Gdk.Convert.modifier
+)
+"gdkEvent.ml" 135 5991 6026 "gdkEvent.ml" 135 5991 6031
+type(
+  t -> int
+)
+"gdkEvent.ml" 135 5991 6032 "gdkEvent.ml" 135 5991 6034
+type(
+  t
+)
+ident(
+  int_ref ev "gdkEvent.ml" 135 5991 6003 "gdkEvent.ml" 135 5991 6005
+)
+"gdkEvent.ml" 135 5991 6025 "gdkEvent.ml" 135 5991 6035
+type(
+  int
+)
+"gdkEvent.ml" 135 5991 6008 "gdkEvent.ml" 135 5991 6035
+call(
+  tail
+)
+type(
+  Gdk.Tags.modifier list
+)
+"gdkEvent.ml" 140 6115 6121 "gdkEvent.ml" 140 6115 6125
+type(
+  any -> t
+)
+ident(
+  def cast "gdkEvent.ml" 141 6179 6181 "gdkEvent.ml" 151 6749 6752
+)
+"gdkEvent.ml" 140 6115 6126 "gdkEvent.ml" 140 6115 6128
+type(
+  any
+)
+ident(
+  def ev "gdkEvent.ml" 140 6115 6129 "gdkEvent.ml" 140 6115 6178
+)
+"gdkEvent.ml" 140 6115 6135 "gdkEvent.ml" 140 6115 6139
+type(
+  kind:[ `ENTER_NOTIFY | `LEAVE_NOTIFY ] list -> any -> t
+)
+ident(
+  int_ref cast "gdkEvent.ml" 58 2815 2819 "gdkEvent.ml" 58 2815 2823
+)
+"gdkEvent.ml" 140 6115 6140 "gdkEvent.ml" 140 6115 6142
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 140 6115 6126 "gdkEvent.ml" 140 6115 6128
+)
+"gdkEvent.ml" 140 6115 6150 "gdkEvent.ml" 140 6115 6163
+type(
+  [ `ENTER_NOTIFY | `LEAVE_NOTIFY ]
+)
+"gdkEvent.ml" 140 6115 6164 "gdkEvent.ml" 140 6115 6177
+type(
+  [ `ENTER_NOTIFY | `LEAVE_NOTIFY ]
+)
+"gdkEvent.ml" 140 6115 6149 "gdkEvent.ml" 140 6115 6178
+type(
+  [ `ENTER_NOTIFY | `LEAVE_NOTIFY ] list
+)
+"gdkEvent.ml" 140 6115 6135 "gdkEvent.ml" 140 6115 6178
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  t
+)
+"gdkEvent.ml" 142 6248 6254 "gdkEvent.ml" 142 6248 6258
+type(
+  [< timed ] Gdk.event -> int32
+)
+ident(
+  def time "gdkEvent.ml" 143 6270 6272 "gdkEvent.ml" 151 6749 6752
+)
+"gdkEvent.ml" 142 6248 6261 "gdkEvent.ml" 142 6248 6269
+type(
+  ([< timed ] as 'a) Gdk.event -> int32
+)
+"gdkEvent.ml" 155 6811 6817 "gdkEvent.ml" 155 6811 6821
+type(
+  any -> t
+)
+ident(
+  def cast "gdkEvent.ml" 156 6861 6863 "gdkEvent.ml" 157 6917 6920
+)
+"gdkEvent.ml" 155 6811 6822 "gdkEvent.ml" 155 6811 6824
+type(
+  any
+)
+ident(
+  def ev "gdkEvent.ml" 155 6811 6825 "gdkEvent.ml" 155 6811 6860
+)
+"gdkEvent.ml" 155 6811 6831 "gdkEvent.ml" 155 6811 6835
+type(
+  kind:[ `FOCUS_CHANGE ] list -> any -> t
+)
+ident(
+  int_ref cast "gdkEvent.ml" 58 2815 2819 "gdkEvent.ml" 58 2815 2823
+)
+"gdkEvent.ml" 155 6811 6836 "gdkEvent.ml" 155 6811 6838
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 155 6811 6822 "gdkEvent.ml" 155 6811 6824
+)
+"gdkEvent.ml" 155 6811 6846 "gdkEvent.ml" 155 6811 6859
+type(
+  [ `FOCUS_CHANGE ]
+)
+"gdkEvent.ml" 155 6811 6845 "gdkEvent.ml" 155 6811 6860
+type(
+  [ `FOCUS_CHANGE ] list
+)
+"gdkEvent.ml" 155 6811 6831 "gdkEvent.ml" 155 6811 6860
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  t
+)
+"gdkEvent.ml" 161 6980 6986 "gdkEvent.ml" 161 6980 6990
+type(
+  any -> t
+)
+ident(
+  def cast "gdkEvent.ml" 162 7027 7029 "gdkEvent.ml" 166 7249 7252
+)
+"gdkEvent.ml" 161 6980 6991 "gdkEvent.ml" 161 6980 6993
+type(
+  any
+)
+ident(
+  def ev "gdkEvent.ml" 161 6980 6994 "gdkEvent.ml" 161 6980 7026
+)
+"gdkEvent.ml" 161 6980 7000 "gdkEvent.ml" 161 6980 7004
+type(
+  kind:[ `CONFIGURE ] list -> any -> t
+)
+ident(
+  int_ref cast "gdkEvent.ml" 58 2815 2819 "gdkEvent.ml" 58 2815 2823
+)
+"gdkEvent.ml" 161 6980 7005 "gdkEvent.ml" 161 6980 7007
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 161 6980 6991 "gdkEvent.ml" 161 6980 6993
+)
+"gdkEvent.ml" 161 6980 7015 "gdkEvent.ml" 161 6980 7025
+type(
+  [ `CONFIGURE ]
+)
+"gdkEvent.ml" 161 6980 7014 "gdkEvent.ml" 161 6980 7026
+type(
+  [ `CONFIGURE ] list
+)
+"gdkEvent.ml" 161 6980 7000 "gdkEvent.ml" 161 6980 7026
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  t
+)
+"gdkEvent.ml" 170 7317 7323 "gdkEvent.ml" 170 7317 7327
+type(
+  any -> t
+)
+ident(
+  def cast "gdkEvent.ml" 171 7370 7372 "gdkEvent.ml" 174 7507 7510
+)
+"gdkEvent.ml" 170 7317 7328 "gdkEvent.ml" 170 7317 7330
+type(
+  any
+)
+ident(
+  def ev "gdkEvent.ml" 170 7317 7331 "gdkEvent.ml" 170 7317 7369
+)
+"gdkEvent.ml" 170 7317 7337 "gdkEvent.ml" 170 7317 7341
+type(
+  kind:[ `PROPERTY_NOTIFY ] list -> any -> t
+)
+ident(
+  int_ref cast "gdkEvent.ml" 58 2815 2819 "gdkEvent.ml" 58 2815 2823
+)
+"gdkEvent.ml" 170 7317 7342 "gdkEvent.ml" 170 7317 7344
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 170 7317 7328 "gdkEvent.ml" 170 7317 7330
+)
+"gdkEvent.ml" 170 7317 7352 "gdkEvent.ml" 170 7317 7368
+type(
+  [ `PROPERTY_NOTIFY ]
+)
+"gdkEvent.ml" 170 7317 7351 "gdkEvent.ml" 170 7317 7369
+type(
+  [ `PROPERTY_NOTIFY ] list
+)
+"gdkEvent.ml" 170 7317 7337 "gdkEvent.ml" 170 7317 7369
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  t
+)
+"gdkEvent.ml" 172 7427 7433 "gdkEvent.ml" 172 7427 7437
+type(
+  [< timed ] Gdk.event -> int32
+)
+ident(
+  def time "gdkEvent.ml" 173 7449 7451 "gdkEvent.ml" 174 7507 7510
+)
+"gdkEvent.ml" 172 7427 7440 "gdkEvent.ml" 172 7427 7448
+type(
+  ([< timed ] as 'a) Gdk.event -> int32
+)
+"gdkEvent.ml" 178 7613 7619 "gdkEvent.ml" 178 7613 7623
+type(
+  any -> t
+)
+ident(
+  def cast "gdkEvent.ml" 180 7709 7711 "gdkEvent.ml" 185 7994 7997
+)
+"gdkEvent.ml" 178 7613 7624 "gdkEvent.ml" 178 7613 7626
+type(
+  any
+)
+ident(
+  def ev "gdkEvent.ml" 178 7613 7627 "gdkEvent.ml" 179 7641 7708
+)
+"gdkEvent.ml" 178 7613 7633 "gdkEvent.ml" 178 7613 7637
+type(
+  kind:[ `SELECTION_CLEAR | `SELECTION_NOTIFY | `SELECTION_REQUEST ] list ->
+  any -> t
+)
+ident(
+  int_ref cast "gdkEvent.ml" 58 2815 2819 "gdkEvent.ml" 58 2815 2823
+)
+"gdkEvent.ml" 178 7613 7638 "gdkEvent.ml" 178 7613 7640
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 178 7613 7624 "gdkEvent.ml" 178 7613 7626
+)
+"gdkEvent.ml" 179 7641 7654 "gdkEvent.ml" 179 7641 7670
+type(
+  [ `SELECTION_CLEAR | `SELECTION_NOTIFY | `SELECTION_REQUEST ]
+)
+"gdkEvent.ml" 179 7641 7671 "gdkEvent.ml" 179 7641 7689
+type(
+  [ `SELECTION_CLEAR | `SELECTION_NOTIFY | `SELECTION_REQUEST ]
+)
+"gdkEvent.ml" 179 7641 7690 "gdkEvent.ml" 179 7641 7707
+type(
+  [ `SELECTION_CLEAR | `SELECTION_NOTIFY | `SELECTION_REQUEST ]
+)
+"gdkEvent.ml" 179 7641 7653 "gdkEvent.ml" 179 7641 7708
+type(
+  [ `SELECTION_CLEAR | `SELECTION_NOTIFY | `SELECTION_REQUEST ] list
+)
+"gdkEvent.ml" 178 7613 7633 "gdkEvent.ml" 179 7641 7708
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  t
+)
+"gdkEvent.ml" 184 7972 7978 "gdkEvent.ml" 184 7972 7982
+type(
+  [< timed ] Gdk.event -> int32
+)
+ident(
+  def time "gdkEvent.ml" 184 7972 7993 "gdkEvent.ml" 185 7994 7997
+)
+"gdkEvent.ml" 184 7972 7985 "gdkEvent.ml" 184 7972 7993
+type(
+  ([< timed ] as 'a) Gdk.event -> int32
+)
+"gdkEvent.ml" 189 8075 8081 "gdkEvent.ml" 189 8075 8085
+type(
+  any -> t
+)
+ident(
+  def cast "gdkEvent.ml" 190 8140 8142 "gdkEvent.ml" 192 8226 8229
+)
+"gdkEvent.ml" 189 8075 8086 "gdkEvent.ml" 189 8075 8088
+type(
+  any
+)
+ident(
+  def ev "gdkEvent.ml" 189 8075 8089 "gdkEvent.ml" 189 8075 8139
+)
+"gdkEvent.ml" 189 8075 8095 "gdkEvent.ml" 189 8075 8099
+type(
+  kind:[ `PROXIMITY_IN | `PROXIMITY_OUT ] list -> any -> t
+)
+ident(
+  int_ref cast "gdkEvent.ml" 58 2815 2819 "gdkEvent.ml" 58 2815 2823
+)
+"gdkEvent.ml" 189 8075 8100 "gdkEvent.ml" 189 8075 8102
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 189 8075 8086 "gdkEvent.ml" 189 8075 8088
+)
+"gdkEvent.ml" 189 8075 8110 "gdkEvent.ml" 189 8075 8123
+type(
+  [ `PROXIMITY_IN | `PROXIMITY_OUT ]
+)
+"gdkEvent.ml" 189 8075 8124 "gdkEvent.ml" 189 8075 8138
+type(
+  [ `PROXIMITY_IN | `PROXIMITY_OUT ]
+)
+"gdkEvent.ml" 189 8075 8109 "gdkEvent.ml" 189 8075 8139
+type(
+  [ `PROXIMITY_IN | `PROXIMITY_OUT ] list
+)
+"gdkEvent.ml" 189 8075 8095 "gdkEvent.ml" 189 8075 8139
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  t
+)
+"gdkEvent.ml" 190 8140 8146 "gdkEvent.ml" 190 8140 8150
+type(
+  [< timed ] Gdk.event -> int32
+)
+ident(
+  def time "gdkEvent.ml" 191 8162 8164 "gdkEvent.ml" 192 8226 8229
+)
+"gdkEvent.ml" 190 8140 8153 "gdkEvent.ml" 190 8140 8161
+type(
+  ([< timed ] as 'a) Gdk.event -> int32
+)
+"gdkEvent.ml" 196 8289 8295 "gdkEvent.ml" 196 8289 8299
+type(
+  any -> t
+)
+ident(
+  def cast "gdkEvent.ml" 197 8339 8341 "gdkEvent.ml" 200 8531 8534
+)
+"gdkEvent.ml" 196 8289 8300 "gdkEvent.ml" 196 8289 8302
+type(
+  any
+)
+ident(
+  def ev "gdkEvent.ml" 196 8289 8303 "gdkEvent.ml" 196 8289 8338
+)
+"gdkEvent.ml" 196 8289 8309 "gdkEvent.ml" 196 8289 8313
+type(
+  kind:[ `CLIENT_EVENT ] list -> any -> t
+)
+ident(
+  int_ref cast "gdkEvent.ml" 58 2815 2819 "gdkEvent.ml" 58 2815 2823
+)
+"gdkEvent.ml" 196 8289 8314 "gdkEvent.ml" 196 8289 8316
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 196 8289 8300 "gdkEvent.ml" 196 8289 8302
+)
+"gdkEvent.ml" 196 8289 8324 "gdkEvent.ml" 196 8289 8337
+type(
+  [ `CLIENT_EVENT ]
+)
+"gdkEvent.ml" 196 8289 8323 "gdkEvent.ml" 196 8289 8338
+type(
+  [ `CLIENT_EVENT ] list
+)
+"gdkEvent.ml" 196 8289 8309 "gdkEvent.ml" 196 8289 8338
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  t
+)
+"gdkEvent.ml" 204 8590 8596 "gdkEvent.ml" 204 8590 8600
+type(
+  any -> t
+)
+ident(
+  def cast "gdkEvent.ml" 205 8635 8637 "gdkEvent.ml" 207 8763 8766
+)
+"gdkEvent.ml" 204 8590 8601 "gdkEvent.ml" 204 8590 8603
+type(
+  any
+)
+ident(
+  def ev "gdkEvent.ml" 204 8590 8604 "gdkEvent.ml" 204 8590 8634
+)
+"gdkEvent.ml" 204 8590 8610 "gdkEvent.ml" 204 8590 8614
+type(
+  kind:[ `SETTING ] list -> any -> t
+)
+ident(
+  int_ref cast "gdkEvent.ml" 58 2815 2819 "gdkEvent.ml" 58 2815 2823
+)
+"gdkEvent.ml" 204 8590 8615 "gdkEvent.ml" 204 8590 8617
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 204 8590 8601 "gdkEvent.ml" 204 8590 8603
+)
+"gdkEvent.ml" 204 8590 8625 "gdkEvent.ml" 204 8590 8633
+type(
+  [ `SETTING ]
+)
+"gdkEvent.ml" 204 8590 8624 "gdkEvent.ml" 204 8590 8634
+type(
+  [ `SETTING ] list
+)
+"gdkEvent.ml" 204 8590 8610 "gdkEvent.ml" 204 8590 8634
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  t
+)
+"gdkEvent.ml" 210 8830 8836 "gdkEvent.ml" 210 8830 8840
+type(
+  any -> t
+)
+ident(
+  def cast "gdkEvent.ml" 211 8880 8882 "gdkEvent.ml" 216 9178 9181
+)
+"gdkEvent.ml" 210 8830 8841 "gdkEvent.ml" 210 8830 8843
+type(
+  any
+)
+ident(
+  def ev "gdkEvent.ml" 210 8830 8844 "gdkEvent.ml" 210 8830 8879
+)
+"gdkEvent.ml" 210 8830 8850 "gdkEvent.ml" 210 8830 8854
+type(
+  kind:[ `WINDOW_STATE ] list -> any -> t
+)
+ident(
+  int_ref cast "gdkEvent.ml" 58 2815 2819 "gdkEvent.ml" 58 2815 2823
+)
+"gdkEvent.ml" 210 8830 8855 "gdkEvent.ml" 210 8830 8857
+type(
+  any
+)
+ident(
+  int_ref ev "gdkEvent.ml" 210 8830 8841 "gdkEvent.ml" 210 8830 8843
+)
+"gdkEvent.ml" 210 8830 8865 "gdkEvent.ml" 210 8830 8878
+type(
+  [ `WINDOW_STATE ]
+)
+"gdkEvent.ml" 210 8830 8864 "gdkEvent.ml" 210 8830 8879
+type(
+  [ `WINDOW_STATE ] list
+)
+"gdkEvent.ml" 210 8830 8850 "gdkEvent.ml" 210 8830 8879
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  t
+)
+"gdkEvent.ml" 214 9044 9050 "gdkEvent.ml" 214 9044 9062
+type(
+  t -> Gdk.Tags.window_state list
+)
+ident(
+  def changed_mask "gdkEvent.ml" 215 9107 9109 "gdkEvent.ml" 216 9178 9181
+)
+"gdkEvent.ml" 214 9044 9063 "gdkEvent.ml" 214 9044 9065
+type(
+  t
+)
+ident(
+  def ev "gdkEvent.ml" 214 9044 9068 "gdkEvent.ml" 214 9044 9106
+)
+"gdkEvent.ml" 214 9044 9068 "gdkEvent.ml" 214 9044 9088
+type(
+  int -> Gdk.Tags.window_state list
+)
+ident(
+  ext_ref Gdk.Convert.window_state
+)
+"gdkEvent.ml" 214 9044 9090 "gdkEvent.ml" 214 9044 9102
+type(
+  t -> int
+)
+"gdkEvent.ml" 214 9044 9103 "gdkEvent.ml" 214 9044 9105
+type(
+  t
+)
+ident(
+  int_ref ev "gdkEvent.ml" 214 9044 9063 "gdkEvent.ml" 214 9044 9065
+)
+"gdkEvent.ml" 214 9044 9089 "gdkEvent.ml" 214 9044 9106
+type(
+  int
+)
+"gdkEvent.ml" 214 9044 9068 "gdkEvent.ml" 214 9044 9106
+call(
+  tail
+)
+type(
+  Gdk.Tags.window_state list
+)
+"gdkEvent.ml" 215 9107 9113 "gdkEvent.ml" 215 9107 9129
+type(
+  t -> Gdk.Tags.window_state list
+)
+ident(
+  def new_window_state "gdkEvent.ml" 215 9107 9177 "gdkEvent.ml" 216 9178 9181
+)
+"gdkEvent.ml" 215 9107 9130 "gdkEvent.ml" 215 9107 9132
+type(
+  t
+)
+ident(
+  def ev "gdkEvent.ml" 215 9107 9135 "gdkEvent.ml" 215 9107 9177
+)
+"gdkEvent.ml" 215 9107 9135 "gdkEvent.ml" 215 9107 9155
+type(
+  int -> Gdk.Tags.window_state list
+)
+ident(
+  ext_ref Gdk.Convert.window_state
+)
+"gdkEvent.ml" 215 9107 9157 "gdkEvent.ml" 215 9107 9173
+type(
+  t -> int
+)
+"gdkEvent.ml" 215 9107 9174 "gdkEvent.ml" 215 9107 9176
+type(
+  t
+)
+ident(
+  int_ref ev "gdkEvent.ml" 215 9107 9130 "gdkEvent.ml" 215 9107 9132
+)
+"gdkEvent.ml" 215 9107 9156 "gdkEvent.ml" 215 9107 9177
+type(
+  int
+)
+"gdkEvent.ml" 215 9107 9135 "gdkEvent.ml" 215 9107 9177
+call(
+  tail
+)
+type(
+  Gdk.Tags.window_state list
+)

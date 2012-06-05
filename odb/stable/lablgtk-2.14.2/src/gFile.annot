@@ -1,0 +1,1643 @@
+"gFile.ml" 25 1634 1647 "gFile.ml" 25 1634 1650
+type(
+  [> Gtk.file_filter ] Gtk.obj
+)
+"gFile.ml" 26 1660 1683 "gFile.ml" 26 1660 1686
+type(
+  ([> Gtk.file_filter ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gFile.ml" 25 1634 1647 "gFile.ml" 25 1634 1650
+)
+"gFile.ml" 27 1687 1715 "gFile.ml" 27 1687 1718
+type(
+  Gtk.file_filter Gtk.obj
+)
+type(
+  Gtk.file_filter Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 28 1747 1768 "gFile.ml" 28 1747 1787
+type(
+  'a Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkFile.FileFilter.set_name
+)
+"gFile.ml" 28 1747 1788 "gFile.ml" 28 1747 1791
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 28 1747 1768 "gFile.ml" 28 1747 1791
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gFile.ml" 29 1793 1810 "gFile.ml" 29 1793 1829
+type(
+  'a Gtk.obj -> string
+)
+ident(
+  ext_ref GtkFile.FileFilter.get_name
+)
+"gFile.ml" 29 1793 1830 "gFile.ml" 29 1793 1833
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 29 1793 1810 "gFile.ml" 29 1793 1833
+type(
+  string
+)
+type(
+  string
+)
+"gFile.ml" 30 1834 1860 "gFile.ml" 30 1834 1884
+type(
+  'a Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkFile.FileFilter.add_mime_type
+)
+"gFile.ml" 30 1834 1885 "gFile.ml" 30 1834 1888
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 30 1834 1860 "gFile.ml" 30 1834 1888
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gFile.ml" 31 1889 1913 "gFile.ml" 31 1889 1935
+type(
+  'a Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkFile.FileFilter.add_pattern
+)
+"gFile.ml" 31 1889 1936 "gFile.ml" 31 1889 1939
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 31 1889 1913 "gFile.ml" 31 1889 1939
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gFile.ml" 32 1940 1963 "gFile.ml" 32 1940 1984
+type(
+  'a Gtk.obj ->
+  GtkEnums.file_filter_flags list ->
+  callback:((GtkEnums.file_filter_flags * string) list -> bool) -> unit
+)
+ident(
+  ext_ref GtkFile.FileFilter.add_custom
+)
+"gFile.ml" 32 1940 1985 "gFile.ml" 32 1940 1988
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 32 1940 1963 "gFile.ml" 32 1940 1988
+call(
+  tail
+)
+type(
+  GtkEnums.file_filter_flags list ->
+  callback:((GtkEnums.file_filter_flags * string) list -> bool) -> unit
+)
+type(
+  GtkEnums.file_filter_flags list ->
+  callback:((GtkEnums.file_filter_flags * string) list -> bool) -> unit
+)
+"gFile.ml" 35 1994 1998 "gFile.ml" 35 1994 2004
+type(
+  ?name:string ->
+  ?patterns:string list -> ?mime_types:string list -> unit -> filter
+)
+ident(
+  def filter "gFile.ml" 42 2249 2249 --
+)
+"gFile.ml" 35 1994 2006 "gFile.ml" 35 1994 2010
+type(
+  string option
+)
+ident(
+  def name "gFile.ml" 35 1994 2011 "gFile.ml" 40 2232 2247
+)
+"gFile.ml" 35 1994 2013 "gFile.ml" 35 1994 2021
+type(
+  string list
+)
+"gFile.ml" 35 1994 2022 "gFile.ml" 35 1994 2024
+type(
+  string list
+)
+type(
+  string list
+)
+ident(
+  int_ref *sth* "gFile.ml" 35 1994 2022 "gFile.ml" 35 1994 2024
+)
+type(
+  string list option
+)
+type(
+  string list option
+)
+type(
+  string list
+)
+ident(
+  def *sth* "gFile.ml" 35 1994 2022 "gFile.ml" 35 1994 2024
+)
+"gFile.ml" 35 1994 2028 "gFile.ml" 35 1994 2038
+type(
+  string list
+)
+"gFile.ml" 35 1994 2039 "gFile.ml" 35 1994 2041
+type(
+  string list
+)
+type(
+  string list
+)
+ident(
+  int_ref *sth* "gFile.ml" 35 1994 2039 "gFile.ml" 35 1994 2041
+)
+type(
+  string list option
+)
+type(
+  string list option
+)
+type(
+  string list
+)
+ident(
+  def *sth* "gFile.ml" 35 1994 2039 "gFile.ml" 35 1994 2041
+)
+"gFile.ml" 35 1994 2043 "gFile.ml" 35 1994 2045
+type(
+  unit
+)
+"gFile.ml" 36 2048 2055 "gFile.ml" 36 2048 2056
+type(
+  Gtk.file_filter Gtk.obj
+)
+"gFile.ml" 36 2048 2059 "gFile.ml" 36 2048 2076
+type(
+  unit -> Gtk.file_filter Gtk.obj
+)
+ident(
+  ext_ref GtkFile.FileFilter.create
+)
+"gFile.ml" 36 2048 2077 "gFile.ml" 36 2048 2079
+type(
+  unit
+)
+"gFile.ml" 36 2048 2059 "gFile.ml" 36 2048 2079
+type(
+  Gtk.file_filter Gtk.obj
+)
+"gFile.ml" 37 2083 2086 "gFile.ml" 37 2083 2094
+type(
+  f:(string -> unit) -> string option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gFile.ml" 37 2083 2096 "gFile.ml" 37 2083 2115
+type(
+  Gtk.file_filter Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkFile.FileFilter.set_name
+)
+"gFile.ml" 37 2083 2116 "gFile.ml" 37 2083 2117
+type(
+  Gtk.file_filter Gtk.obj
+)
+ident(
+  int_ref w "gFile.ml" 36 2048 2055 "gFile.ml" 36 2048 2056
+)
+"gFile.ml" 37 2083 2095 "gFile.ml" 37 2083 2118
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"gFile.ml" 37 2083 2119 "gFile.ml" 37 2083 2123
+type(
+  string option
+)
+ident(
+  int_ref name "gFile.ml" 35 1994 2006 "gFile.ml" 35 1994 2010
+)
+"gFile.ml" 37 2083 2086 "gFile.ml" 37 2083 2123
+call(
+  stack
+)
+type(
+  unit
+)
+"gFile.ml" 38 2126 2129 "gFile.ml" 38 2126 2138
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"gFile.ml" 38 2126 2140 "gFile.ml" 38 2126 2162
+type(
+  Gtk.file_filter Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkFile.FileFilter.add_pattern
+)
+"gFile.ml" 38 2126 2163 "gFile.ml" 38 2126 2164
+type(
+  Gtk.file_filter Gtk.obj
+)
+ident(
+  int_ref w "gFile.ml" 36 2048 2055 "gFile.ml" 36 2048 2056
+)
+"gFile.ml" 38 2126 2139 "gFile.ml" 38 2126 2165
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"gFile.ml" 38 2126 2166 "gFile.ml" 38 2126 2174
+type(
+  string list
+)
+ident(
+  int_ref patterns "gFile.ml" 35 1994 2013 "gFile.ml" 35 1994 2021
+)
+"gFile.ml" 38 2126 2129 "gFile.ml" 38 2126 2174
+call(
+  stack
+)
+type(
+  unit
+)
+"gFile.ml" 39 2177 2180 "gFile.ml" 39 2177 2189
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"gFile.ml" 39 2177 2191 "gFile.ml" 39 2177 2215
+type(
+  Gtk.file_filter Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkFile.FileFilter.add_mime_type
+)
+"gFile.ml" 39 2177 2216 "gFile.ml" 39 2177 2217
+type(
+  Gtk.file_filter Gtk.obj
+)
+ident(
+  int_ref w "gFile.ml" 36 2048 2055 "gFile.ml" 36 2048 2056
+)
+"gFile.ml" 39 2177 2190 "gFile.ml" 39 2177 2218
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"gFile.ml" 39 2177 2219 "gFile.ml" 39 2177 2229
+type(
+  string list
+)
+ident(
+  int_ref mime_types "gFile.ml" 35 1994 2028 "gFile.ml" 35 1994 2038
+)
+"gFile.ml" 39 2177 2180 "gFile.ml" 39 2177 2229
+call(
+  stack
+)
+type(
+  unit
+)
+"gFile.ml" 40 2232 2235 "gFile.ml" 40 2232 2245
+type(
+  Gtk.file_filter Gtk.obj -> filter
+)
+"gFile.ml" 40 2232 2246 "gFile.ml" 40 2232 2247
+type(
+  Gtk.file_filter Gtk.obj
+)
+ident(
+  int_ref w "gFile.ml" 36 2048 2055 "gFile.ml" 36 2048 2056
+)
+"gFile.ml" 40 2232 2235 "gFile.ml" 40 2232 2247
+call(
+  tail
+)
+type(
+  filter
+)
+"gFile.ml" 39 2177 2180 "gFile.ml" 40 2232 2247
+type(
+  filter
+)
+"gFile.ml" 38 2126 2129 "gFile.ml" 40 2232 2247
+type(
+  filter
+)
+"gFile.ml" 37 2083 2086 "gFile.ml" 40 2232 2247
+type(
+  filter
+)
+"gFile.ml" 36 2048 2051 "gFile.ml" 40 2232 2247
+type(
+  filter
+)
+"gFile.ml" 112 4752 4788 "gFile.ml" 112 4752 4794
+type(
+  < action : GtkEnums.file_chooser_action; add_filter : filter -> unit;
+    add_shortcut_folder : string -> unit;
+    add_shortcut_folder_uri : string -> unit; current_folder : string option;
+    current_folder_uri : string; do_overwrite_confirmation : bool;
+    extra_widget : GObj.widget; filename : string option; filter : filter;
+    get_filenames : string list; get_uris : string list;
+    list_filters : filter list; list_shortcut_folder_uris : string list;
+    list_shortcut_folders : string list; local_only : bool;
+    preview_filename : string option; preview_uri : string option;
+    preview_widget : GObj.widget; preview_widget_active : bool;
+    remove_filter : filter -> unit; remove_shortcut_folder : string -> unit;
+    remove_shortcut_folder_uri : string -> unit; select_all : unit;
+    select_filename : string -> bool; select_multiple : bool;
+    select_uri : string -> bool;
+    set_action : GtkEnums.file_chooser_action -> unit;
+    set_current_folder : string -> bool;
+    set_current_folder_uri : string -> bool;
+    set_current_name : string -> unit;
+    set_do_overwrite_confirmation : bool -> unit;
+    set_extra_widget : GObj.widget -> unit; set_filename : string -> bool;
+    set_filter : filter -> unit; set_local_only : bool -> unit;
+    set_preview_widget : GObj.widget -> unit;
+    set_preview_widget_active : bool -> unit;
+    set_select_multiple : bool -> unit; set_show_hidden : bool -> unit;
+    set_uri : string -> bool; set_use_preview_label : bool -> unit;
+    show_hidden : bool; unselect_all : unit;
+    unselect_filename : string -> unit; unselect_uri : string -> unit;
+    uri : string option; use_preview_label : bool; .. >
+)
+"gFile.ml" 116 4870 4898 "gFile.ml" 116 4870 4926
+type(
+  [> Gtk.file_chooser ] Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkFile.FileChooser.set_current_name
+)
+"gFile.ml" 116 4870 4927 "gFile.ml" 116 4870 4930
+type(
+  ([> Gtk.file_chooser ] as 'a) Gtk.obj
+)
+"gFile.ml" 116 4870 4898 "gFile.ml" 116 4870 4930
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gFile.ml" 118 4932 4956 "gFile.ml" 118 4932 4980
+type(
+  'a Gtk.obj -> string -> bool
+)
+ident(
+  ext_ref GtkFile.FileChooser.set_filename
+)
+"gFile.ml" 118 4932 4981 "gFile.ml" 118 4932 4984
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 118 4932 4956 "gFile.ml" 118 4932 4984
+call(
+  tail
+)
+type(
+  string -> bool
+)
+type(
+  string -> bool
+)
+"gFile.ml" 119 4985 5005 "gFile.ml" 119 4985 5029
+type(
+  'a Gtk.obj -> string option
+)
+ident(
+  ext_ref GtkFile.FileChooser.get_filename
+)
+"gFile.ml" 119 4985 5030 "gFile.ml" 119 4985 5033
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 119 4985 5005 "gFile.ml" 119 4985 5033
+type(
+  string option
+)
+type(
+  string option
+)
+"gFile.ml" 120 5034 5061 "gFile.ml" 120 5034 5088
+type(
+  'a Gtk.obj -> string -> bool
+)
+ident(
+  ext_ref GtkFile.FileChooser.select_filename
+)
+"gFile.ml" 120 5034 5089 "gFile.ml" 120 5034 5092
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 120 5034 5061 "gFile.ml" 120 5034 5092
+call(
+  tail
+)
+type(
+  string -> bool
+)
+type(
+  string -> bool
+)
+"gFile.ml" 121 5093 5122 "gFile.ml" 121 5093 5151
+type(
+  'a Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkFile.FileChooser.unselect_filename
+)
+"gFile.ml" 121 5093 5152 "gFile.ml" 121 5093 5155
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 121 5093 5122 "gFile.ml" 121 5093 5155
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gFile.ml" 122 5156 5178 "gFile.ml" 122 5156 5200
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkFile.FileChooser.select_all
+)
+"gFile.ml" 122 5156 5201 "gFile.ml" 122 5156 5204
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 122 5156 5178 "gFile.ml" 122 5156 5204
+type(
+  unit
+)
+type(
+  unit
+)
+"gFile.ml" 123 5205 5229 "gFile.ml" 123 5205 5253
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkFile.FileChooser.unselect_all
+)
+"gFile.ml" 123 5205 5254 "gFile.ml" 123 5205 5257
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 123 5205 5229 "gFile.ml" 123 5205 5257
+type(
+  unit
+)
+type(
+  unit
+)
+"gFile.ml" 124 5258 5283 "gFile.ml" 124 5258 5308
+type(
+  'a Gtk.obj -> string list
+)
+ident(
+  ext_ref GtkFile.FileChooser.get_filenames
+)
+"gFile.ml" 124 5258 5309 "gFile.ml" 124 5258 5312
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 124 5258 5283 "gFile.ml" 124 5258 5312
+type(
+  string list
+)
+type(
+  string list
+)
+"gFile.ml" 125 5313 5343 "gFile.ml" 125 5313 5373
+type(
+  'a Gtk.obj -> string -> bool
+)
+ident(
+  ext_ref GtkFile.FileChooser.set_current_folder
+)
+"gFile.ml" 125 5313 5374 "gFile.ml" 125 5313 5377
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 125 5313 5343 "gFile.ml" 125 5313 5377
+call(
+  tail
+)
+type(
+  string -> bool
+)
+type(
+  string -> bool
+)
+"gFile.ml" 126 5378 5404 "gFile.ml" 126 5378 5434
+type(
+  'a Gtk.obj -> string option
+)
+ident(
+  ext_ref GtkFile.FileChooser.get_current_folder
+)
+"gFile.ml" 126 5378 5435 "gFile.ml" 126 5378 5438
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 126 5378 5404 "gFile.ml" 126 5378 5438
+type(
+  string option
+)
+type(
+  string option
+)
+"gFile.ml" 128 5440 5459 "gFile.ml" 128 5440 5478
+type(
+  'a Gtk.obj -> string -> bool
+)
+ident(
+  ext_ref GtkFile.FileChooser.set_uri
+)
+"gFile.ml" 128 5440 5479 "gFile.ml" 128 5440 5482
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 128 5440 5459 "gFile.ml" 128 5440 5482
+call(
+  tail
+)
+type(
+  string -> bool
+)
+type(
+  string -> bool
+)
+"gFile.ml" 129 5483 5498 "gFile.ml" 129 5483 5517
+type(
+  'a Gtk.obj -> string option
+)
+ident(
+  ext_ref GtkFile.FileChooser.get_uri
+)
+"gFile.ml" 129 5483 5518 "gFile.ml" 129 5483 5521
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 129 5483 5498 "gFile.ml" 129 5483 5521
+type(
+  string option
+)
+type(
+  string option
+)
+"gFile.ml" 130 5522 5544 "gFile.ml" 130 5522 5566
+type(
+  'a Gtk.obj -> string -> bool
+)
+ident(
+  ext_ref GtkFile.FileChooser.select_uri
+)
+"gFile.ml" 130 5522 5567 "gFile.ml" 130 5522 5570
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 130 5522 5544 "gFile.ml" 130 5522 5570
+call(
+  tail
+)
+type(
+  string -> bool
+)
+type(
+  string -> bool
+)
+"gFile.ml" 131 5571 5595 "gFile.ml" 131 5571 5619
+type(
+  'a Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkFile.FileChooser.unselect_uri
+)
+"gFile.ml" 131 5571 5620 "gFile.ml" 131 5571 5623
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 131 5571 5595 "gFile.ml" 131 5571 5623
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gFile.ml" 132 5624 5644 "gFile.ml" 132 5624 5664
+type(
+  'a Gtk.obj -> string list
+)
+ident(
+  ext_ref GtkFile.FileChooser.get_uris
+)
+"gFile.ml" 132 5624 5665 "gFile.ml" 132 5624 5668
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 132 5624 5644 "gFile.ml" 132 5624 5668
+type(
+  string list
+)
+type(
+  string list
+)
+"gFile.ml" 133 5669 5703 "gFile.ml" 133 5669 5737
+type(
+  'a Gtk.obj -> string -> bool
+)
+ident(
+  ext_ref GtkFile.FileChooser.set_current_folder_uri
+)
+"gFile.ml" 133 5669 5738 "gFile.ml" 133 5669 5741
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 133 5669 5703 "gFile.ml" 133 5669 5741
+call(
+  tail
+)
+type(
+  string -> bool
+)
+type(
+  string -> bool
+)
+"gFile.ml" 134 5742 5772 "gFile.ml" 134 5742 5806
+type(
+  'a Gtk.obj -> string
+)
+ident(
+  ext_ref GtkFile.FileChooser.get_current_folder_uri
+)
+"gFile.ml" 134 5742 5807 "gFile.ml" 134 5742 5810
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 134 5742 5772 "gFile.ml" 134 5742 5810
+type(
+  string
+)
+type(
+  string
+)
+"gFile.ml" 136 5812 5840 "gFile.ml" 136 5812 5872
+type(
+  'a Gtk.obj -> string option
+)
+ident(
+  ext_ref GtkFile.FileChooser.get_preview_filename
+)
+"gFile.ml" 136 5812 5873 "gFile.ml" 136 5812 5876
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 136 5812 5840 "gFile.ml" 136 5812 5876
+type(
+  string option
+)
+type(
+  string option
+)
+"gFile.ml" 137 5877 5900 "gFile.ml" 137 5877 5927
+type(
+  'a Gtk.obj -> string option
+)
+ident(
+  ext_ref GtkFile.FileChooser.get_preview_uri
+)
+"gFile.ml" 137 5877 5928 "gFile.ml" 137 5877 5931
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 137 5877 5900 "gFile.ml" 137 5877 5931
+type(
+  string option
+)
+type(
+  string option
+)
+"gFile.ml" 139 5933 5954 "gFile.ml" 139 5933 5955
+type(
+  filter
+)
+ident(
+  def f "gFile.ml" 139 5933 5968 "gFile.ml" 139 5933 6011
+)
+"gFile.ml" 139 5933 5968 "gFile.ml" 139 5933 5990
+type(
+  'a Gtk.obj -> Gtk.file_filter Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkFile.FileChooser.add_filter
+)
+"gFile.ml" 139 5933 5991 "gFile.ml" 139 5933 5994
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 139 5933 5995 "gFile.ml" 139 5933 5996
+type(
+  filter
+)
+ident(
+  int_ref f "gFile.ml" 139 5933 5954 "gFile.ml" 139 5933 5955
+)
+"gFile.ml" 139 5933 5995 "gFile.ml" 139 5933 6011
+call(
+  stack
+)
+type(
+  Gtk.file_filter Gtk.obj
+)
+"gFile.ml" 139 5933 5968 "gFile.ml" 139 5933 6011
+type(
+  unit
+)
+"gFile.ml" 140 6012 6036 "gFile.ml" 140 6012 6037
+type(
+  filter
+)
+ident(
+  def f "gFile.ml" 140 6012 6050 "gFile.ml" 140 6012 6096
+)
+"gFile.ml" 140 6012 6050 "gFile.ml" 140 6012 6075
+type(
+  'a Gtk.obj -> Gtk.file_filter Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkFile.FileChooser.remove_filter
+)
+"gFile.ml" 140 6012 6076 "gFile.ml" 140 6012 6079
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 140 6012 6080 "gFile.ml" 140 6012 6081
+type(
+  filter
+)
+ident(
+  int_ref f "gFile.ml" 140 6012 6036 "gFile.ml" 140 6012 6037
+)
+"gFile.ml" 140 6012 6080 "gFile.ml" 140 6012 6096
+call(
+  stack
+)
+type(
+  Gtk.file_filter Gtk.obj
+)
+"gFile.ml" 140 6012 6050 "gFile.ml" 140 6012 6096
+type(
+  unit
+)
+"gFile.ml" 141 6097 6121 "gFile.ml" 141 6097 6129
+type(
+  (Gtk.file_filter Gtk.obj -> filter) ->
+  Gtk.file_filter Gtk.obj list -> filter list
+)
+ident(
+  ext_ref List.map
+)
+"gFile.ml" 141 6097 6130 "gFile.ml" 141 6097 6142
+type(
+  Gtk.file_filter Gtk.obj -> filter
+)
+"gFile.ml" 141 6097 6144 "gFile.ml" 141 6097 6168
+type(
+  'a Gtk.obj -> Gtk.file_filter Gtk.obj list
+)
+ident(
+  ext_ref GtkFile.FileChooser.list_filters
+)
+"gFile.ml" 141 6097 6169 "gFile.ml" 141 6097 6172
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 141 6097 6143 "gFile.ml" 141 6097 6174
+type(
+  Gtk.file_filter Gtk.obj list
+)
+"gFile.ml" 141 6097 6121 "gFile.ml" 141 6097 6174
+call(
+  tail
+)
+type(
+  filter list
+)
+type(
+  filter list
+)
+"gFile.ml" 142 6175 6196 "gFile.ml" 142 6175 6197
+type(
+  filter
+)
+ident(
+  def f "gFile.ml" 142 6175 6210 "gFile.ml" 142 6175 6263
+)
+"gFile.ml" 142 6175 6210 "gFile.ml" 142 6175 6221
+type(
+  ('a, Gtk.file_filter Gtk.obj) Gobject.property ->
+  'a Gtk.obj -> Gtk.file_filter Gtk.obj -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gFile.ml" 142 6175 6222 "gFile.ml" 142 6175 6242
+type(
+  ('a, Gtk.file_filter Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkFile.FileChooser.P.filter
+)
+"gFile.ml" 142 6175 6243 "gFile.ml" 142 6175 6246
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 142 6175 6247 "gFile.ml" 142 6175 6248
+type(
+  filter
+)
+ident(
+  int_ref f "gFile.ml" 142 6175 6196 "gFile.ml" 142 6175 6197
+)
+"gFile.ml" 142 6175 6247 "gFile.ml" 142 6175 6263
+call(
+  stack
+)
+type(
+  Gtk.file_filter Gtk.obj
+)
+"gFile.ml" 142 6175 6210 "gFile.ml" 142 6175 6263
+call(
+  tail
+)
+type(
+  unit
+)
+"gFile.ml" 143 6264 6282 "gFile.ml" 143 6264 6292
+type(
+  Gtk.file_filter Gtk.obj -> filter
+)
+"gFile.ml" 143 6264 6294 "gFile.ml" 143 6264 6305
+type(
+  ('a, Gtk.file_filter Gtk.obj) Gobject.property ->
+  'a Gtk.obj -> Gtk.file_filter Gtk.obj
+)
+ident(
+  ext_ref Gobject.get
+)
+"gFile.ml" 143 6264 6306 "gFile.ml" 143 6264 6326
+type(
+  ('a, Gtk.file_filter Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkFile.FileChooser.P.filter
+)
+"gFile.ml" 143 6264 6327 "gFile.ml" 143 6264 6330
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 143 6264 6293 "gFile.ml" 143 6264 6331
+call(
+  stack
+)
+type(
+  Gtk.file_filter Gtk.obj
+)
+"gFile.ml" 143 6264 6282 "gFile.ml" 143 6264 6331
+call(
+  tail
+)
+type(
+  filter
+)
+type(
+  filter
+)
+"gFile.ml" 145 6339 6370 "gFile.ml" 145 6339 6401
+type(
+  'a Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkFile.FileChooser.add_shortcut_folder
+)
+"gFile.ml" 145 6339 6402 "gFile.ml" 145 6339 6405
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 145 6339 6370 "gFile.ml" 145 6339 6405
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gFile.ml" 146 6406 6440 "gFile.ml" 146 6406 6474
+type(
+  'a Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkFile.FileChooser.remove_shortcut_folder
+)
+"gFile.ml" 146 6406 6475 "gFile.ml" 146 6406 6478
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 146 6406 6440 "gFile.ml" 146 6406 6478
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gFile.ml" 147 6479 6512 "gFile.ml" 147 6479 6545
+type(
+  'a Gtk.obj -> string list
+)
+ident(
+  ext_ref GtkFile.FileChooser.list_shortcut_folders
+)
+"gFile.ml" 147 6479 6546 "gFile.ml" 147 6479 6549
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 147 6479 6512 "gFile.ml" 147 6479 6549
+type(
+  string list
+)
+type(
+  string list
+)
+"gFile.ml" 148 6550 6585 "gFile.ml" 148 6550 6620
+type(
+  'a Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkFile.FileChooser.add_shortcut_folder_uri
+)
+"gFile.ml" 148 6550 6621 "gFile.ml" 148 6550 6624
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 148 6550 6585 "gFile.ml" 148 6550 6624
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gFile.ml" 149 6625 6663 "gFile.ml" 149 6625 6701
+type(
+  'a Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkFile.FileChooser.remove_shortcut_folder_uri
+)
+"gFile.ml" 149 6625 6702 "gFile.ml" 149 6625 6705
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 149 6625 6663 "gFile.ml" 149 6625 6705
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gFile.ml" 150 6706 6743 "gFile.ml" 150 6706 6780
+type(
+  'a Gtk.obj -> string list
+)
+ident(
+  ext_ref GtkFile.FileChooser.list_shortcut_folder_uris
+)
+"gFile.ml" 150 6706 6781 "gFile.ml" 150 6706 6784
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 150 6706 6743 "gFile.ml" 150 6706 6784
+type(
+  string list
+)
+type(
+  string list
+)
+"gFile.ml" 153 6790 6819 "gFile.ml" 153 6790 6822
+type(
+  [> `filechooser | `gtk | `widget ] Gtk.obj
+)
+"gFile.ml" 154 6832 6867 "gFile.ml" 154 6832 6870
+type(
+  ([> `filechooser | `gtk | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gFile.ml" 153 6790 6819 "gFile.ml" 153 6790 6822
+)
+"gFile.ml" 158 6918 6939 "gFile.ml" 158 6918 6942
+type(
+  [> Gtk.file_chooser ] Gtk.obj
+)
+"gFile.ml" 159 6952 6983 "gFile.ml" 159 6952 6986
+type(
+  ([> Gtk.file_chooser ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gFile.ml" 158 6918 6939 "gFile.ml" 158 6918 6942
+)
+"gFile.ml" 161 7010 7027 "gFile.ml" 161 7010 7045
+type(
+  'a Gtk.obj -> GObj.event_ops
+)
+"gFile.ml" 161 7010 7046 "gFile.ml" 161 7010 7049
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 161 7010 7027 "gFile.ml" 161 7010 7049
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gFile.ml" 162 7050 7069 "gFile.ml" 162 7050 7095
+type(
+  'a Gtk.obj -> chooser_widget_signals
+)
+"gFile.ml" 162 7050 7096 "gFile.ml" 162 7050 7099
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 162 7050 7069 "gFile.ml" 162 7050 7099
+call(
+  tail
+)
+type(
+  chooser_widget_signals
+)
+type(
+  chooser_widget_signals
+)
+"gFile.ml" 165 7105 7109 "gFile.ml" 165 7105 7117
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons "gFile.ml" 167 7148 7148 --
+)
+"gFile.ml" 165 7105 7120 "gFile.ml" 165 7105 7145
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gFile.ml" 167 7148 7152 "gFile.ml" 167 7148 7166
+type(
+  action:GtkEnums.file_chooser_action ->
+  ?backend:string ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> chooser_widget
+)
+ident(
+  def chooser_widget "gFile.ml" 175 7425 7425 --
+)
+"gFile.ml" 167 7148 7168 "gFile.ml" 167 7148 7174
+type(
+  GtkEnums.file_chooser_action
+)
+ident(
+  def action "gFile.ml" 167 7148 7175 "gFile.ml" 173 7388 7423
+)
+"gFile.ml" 167 7148 7176 "gFile.ml" 167 7148 7183
+type(
+  string option
+)
+ident(
+  def backend "gFile.ml" 167 7148 7184 "gFile.ml" 173 7388 7423
+)
+"gFile.ml" 167 7148 7185 "gFile.ml" 167 7148 7192
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gFile.ml" 167 7148 7193 "gFile.ml" 173 7388 7423
+)
+"gFile.ml" 167 7148 7194 "gFile.ml" 167 7148 7198
+type(
+  bool option
+)
+ident(
+  def show "gFile.ml" 167 7148 7199 "gFile.ml" 173 7388 7423
+)
+"gFile.ml" 167 7148 7199 "gFile.ml" 167 7148 7201
+type(
+  unit
+)
+"gFile.ml" 168 7204 7210 "gFile.ml" 168 7204 7211
+type(
+  Gtk.file_chooser Gtk.obj
+)
+"gFile.ml" 168 7204 7214 "gFile.ml" 168 7204 7239
+type(
+  Gtk.file_chooser Gobject.param list -> Gtk.file_chooser Gtk.obj
+)
+ident(
+  ext_ref GtkFile.FileChooser.widget_create
+)
+"gFile.ml" 169 7241 7248 "gFile.ml" 169 7241 7256
+type(
+  (Gtk.file_chooser, string) Gobject.property ->
+  string option ->
+  Gtk.file_chooser Gobject.param list -> Gtk.file_chooser Gobject.param list
+)
+ident(
+  int_ref may_cons "gFile.ml" 165 7105 7109 "gFile.ml" 165 7105 7117
+)
+"gFile.ml" 170 7258 7260 "gFile.ml" 170 7258 7293
+type(
+  (Gtk.file_chooser, string) Gobject.property
+)
+ident(
+  ext_ref GtkFile.FileChooser.P.file_system_backend
+)
+"gFile.ml" 170 7258 7294 "gFile.ml" 170 7258 7301
+type(
+  string option
+)
+ident(
+  int_ref backend "gFile.ml" 167 7148 7176 "gFile.ml" 167 7148 7183
+)
+"gFile.ml" 171 7302 7306 "gFile.ml" 171 7302 7319
+type(
+  (Gtk.file_chooser, GtkEnums.file_chooser_action) Gobject.property ->
+  GtkEnums.file_chooser_action -> Gtk.file_chooser Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"gFile.ml" 171 7302 7320 "gFile.ml" 171 7302 7340
+type(
+  (Gtk.file_chooser, GtkEnums.file_chooser_action) Gobject.property
+)
+ident(
+  ext_ref GtkFile.FileChooser.P.action
+)
+"gFile.ml" 171 7302 7341 "gFile.ml" 171 7302 7347
+type(
+  GtkEnums.file_chooser_action
+)
+ident(
+  int_ref action "gFile.ml" 167 7148 7168 "gFile.ml" 167 7148 7174
+)
+"gFile.ml" 171 7302 7306 "gFile.ml" 171 7302 7347
+call(
+  stack
+)
+type(
+  Gtk.file_chooser Gobject.param
+)
+"gFile.ml" 171 7302 7304 "gFile.ml" 171 7302 7349
+type(
+  Gtk.file_chooser Gobject.param list
+)
+"gFile.ml" 169 7241 7247 "gFile.ml" 171 7302 7350
+call(
+  stack
+)
+type(
+  Gtk.file_chooser Gobject.param list
+)
+"gFile.ml" 168 7204 7214 "gFile.ml" 171 7302 7350
+call(
+  stack
+)
+type(
+  Gtk.file_chooser Gtk.obj
+)
+"gFile.ml" 172 7354 7360 "gFile.ml" 172 7354 7361
+type(
+  chooser_widget
+)
+"gFile.ml" 172 7354 7364 "gFile.ml" 172 7354 7382
+type(
+  Gtk.file_chooser Gtk.obj -> chooser_widget
+)
+"gFile.ml" 172 7354 7383 "gFile.ml" 172 7354 7384
+type(
+  Gtk.file_chooser Gtk.obj
+)
+ident(
+  int_ref w "gFile.ml" 168 7204 7210 "gFile.ml" 168 7204 7211
+)
+"gFile.ml" 172 7354 7364 "gFile.ml" 172 7354 7384
+call(
+  stack
+)
+type(
+  chooser_widget
+)
+"gFile.ml" 173 7388 7390 "gFile.ml" 173 7388 7406
+type(
+  chooser_widget ->
+  packing:(GObj.widget -> unit) option -> show:bool option -> chooser_widget
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gFile.ml" 173 7388 7407 "gFile.ml" 173 7388 7408
+type(
+  chooser_widget
+)
+ident(
+  int_ref o "gFile.ml" 172 7354 7360 "gFile.ml" 172 7354 7361
+)
+"gFile.ml" 173 7388 7410 "gFile.ml" 173 7388 7417
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gFile.ml" 167 7148 7185 "gFile.ml" 167 7148 7192
+)
+"gFile.ml" 173 7388 7419 "gFile.ml" 173 7388 7423
+type(
+  bool option
+)
+ident(
+  int_ref show "gFile.ml" 167 7148 7194 "gFile.ml" 167 7148 7198
+)
+"gFile.ml" 173 7388 7390 "gFile.ml" 173 7388 7423
+call(
+  tail
+)
+type(
+  chooser_widget
+)
+"gFile.ml" 172 7354 7356 "gFile.ml" 173 7388 7423
+type(
+  chooser_widget
+)
+"gFile.ml" 168 7204 7206 "gFile.ml" 173 7388 7423
+type(
+  chooser_widget
+)
+"gFile.ml" 175 7425 7454 "gFile.ml" 175 7425 7457
+type(
+  [> `container | `filechooser | `gtk | `widget ] Gtk.obj
+)
+"gFile.ml" 176 7467 7511 "gFile.ml" 176 7467 7514
+type(
+  ([> `container | `filechooser | `gtk | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gFile.ml" 175 7425 7454 "gFile.ml" 175 7425 7457
+)
+"gFile.ml" 180 7562 7583 "gFile.ml" 180 7562 7586
+type(
+  [> `box | `container | `filechooser | `filechooserbutton | `gtk | `widget ]
+  Gtk.obj
+)
+"gFile.ml" 181 7596 7619 "gFile.ml" 181 7596 7622
+type(
+  ([> `box | `container | `filechooser | `filechooserbutton | `gtk | `widget ]
+   as 'a)
+  Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 182 7623 7648 "gFile.ml" 182 7623 7651
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref obj "gFile.ml" 180 7562 7583 "gFile.ml" 180 7562 7586
+)
+"gFile.ml" 185 7725 7744 "gFile.ml" 185 7725 7770
+type(
+  'a Gtk.obj -> chooser_button_signals
+)
+"gFile.ml" 185 7725 7771 "gFile.ml" 185 7725 7774
+type(
+  'a Gtk.obj
+)
+"gFile.ml" 185 7725 7744 "gFile.ml" 185 7725 7774
+call(
+  tail
+)
+type(
+  chooser_button_signals
+)
+type(
+  chooser_button_signals
+)
+"gFile.ml" 188 7780 7784 "gFile.ml" 188 7780 7798
+type(
+  action:GtkEnums.file_chooser_action ->
+  ?title:string ->
+  ?width_chars:int ->
+  ?backend:string ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> chooser_button
+)
+ident(
+  def chooser_button "gFile.ml" 194 8090 8162 --
+)
+"gFile.ml" 188 7780 7800 "gFile.ml" 188 7780 7806
+type(
+  GtkEnums.file_chooser_action
+)
+ident(
+  def action "gFile.ml" 188 7780 7807 "gFile.ml" 194 8090 8162
+)
+"gFile.ml" 188 7780 7808 "gFile.ml" 188 7780 7813
+type(
+  string option
+)
+ident(
+  def title "gFile.ml" 188 7780 7814 "gFile.ml" 194 8090 8162
+)
+"gFile.ml" 188 7780 7815 "gFile.ml" 188 7780 7826
+type(
+  int option
+)
+ident(
+  def width_chars "gFile.ml" 188 7780 7827 "gFile.ml" 194 8090 8162
+)
+"gFile.ml" 188 7780 7828 "gFile.ml" 188 7780 7835
+type(
+  string option
+)
+ident(
+  def backend "gFile.ml" 189 7838 7840 "gFile.ml" 194 8090 8162
+)
+"gFile.ml" 189 7838 7840 "gFile.ml" 189 7838 7865
+type(
+  create:(Gtk.file_chooser_button Gobject.param list -> chooser_button) ->
+  Gtk.file_chooser_button Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> chooser_button
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gFile.ml" 190 7866 7871 "gFile.ml" 190 7866 7884
+type(
+  (Gtk.file_chooser_button, GtkEnums.file_chooser_action) Gobject.property ->
+  GtkEnums.file_chooser_action -> Gtk.file_chooser_button Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"gFile.ml" 190 7866 7885 "gFile.ml" 190 7866 7905
+type(
+  (Gtk.file_chooser_button, GtkEnums.file_chooser_action) Gobject.property
+)
+ident(
+  ext_ref GtkFile.FileChooser.P.action
+)
+"gFile.ml" 190 7866 7906 "gFile.ml" 190 7866 7912
+type(
+  GtkEnums.file_chooser_action
+)
+ident(
+  int_ref action "gFile.ml" 188 7780 7800 "gFile.ml" 188 7780 7806
+)
+"gFile.ml" 190 7866 7871 "gFile.ml" 190 7866 7912
+call(
+  stack
+)
+type(
+  Gtk.file_chooser_button Gobject.param
+)
+"gFile.ml" 191 7916 7922 "gFile.ml" 191 7916 7930
+type(
+  (Gtk.file_chooser_button, string) Gobject.property ->
+  string option ->
+  Gtk.file_chooser_button Gobject.param list ->
+  Gtk.file_chooser_button Gobject.param list
+)
+ident(
+  int_ref may_cons "gFile.ml" 165 7105 7109 "gFile.ml" 165 7105 7117
+)
+"gFile.ml" 191 7916 7931 "gFile.ml" 191 7916 7964
+type(
+  (Gtk.file_chooser_button, string) Gobject.property
+)
+ident(
+  ext_ref GtkFile.FileChooser.P.file_system_backend
+)
+"gFile.ml" 191 7916 7965 "gFile.ml" 191 7916 7972
+type(
+  string option
+)
+ident(
+  int_ref backend "gFile.ml" 188 7780 7828 "gFile.ml" 188 7780 7835
+)
+"gFile.ml" 192 7975 7981 "gFile.ml" 192 7975 7989
+type(
+  (Gtk.file_chooser_button, string) Gobject.property ->
+  string option ->
+  Gtk.file_chooser_button Gobject.param list ->
+  Gtk.file_chooser_button Gobject.param list
+)
+ident(
+  int_ref may_cons "gFile.ml" 165 7105 7109 "gFile.ml" 165 7105 7117
+)
+"gFile.ml" 192 7975 7990 "gFile.ml" 192 7975 8015
+type(
+  (Gtk.file_chooser_button, string) Gobject.property
+)
+ident(
+  ext_ref GtkFile.FileChooserButton.P.title
+)
+"gFile.ml" 192 7975 8016 "gFile.ml" 192 7975 8021
+type(
+  string option
+)
+ident(
+  int_ref title "gFile.ml" 188 7780 7808 "gFile.ml" 188 7780 7813
+)
+"gFile.ml" 193 8024 8030 "gFile.ml" 193 8024 8038
+type(
+  (Gtk.file_chooser_button, int) Gobject.property ->
+  int option ->
+  Gtk.file_chooser_button Gobject.param list ->
+  Gtk.file_chooser_button Gobject.param list
+)
+ident(
+  int_ref may_cons "gFile.ml" 165 7105 7109 "gFile.ml" 165 7105 7117
+)
+"gFile.ml" 193 8024 8039 "gFile.ml" 193 8024 8070
+type(
+  (Gtk.file_chooser_button, int) Gobject.property
+)
+ident(
+  ext_ref GtkFile.FileChooserButton.P.width_chars
+)
+"gFile.ml" 193 8024 8071 "gFile.ml" 193 8024 8082
+type(
+  int option
+)
+ident(
+  int_ref width_chars "gFile.ml" 188 7780 7815 "gFile.ml" 188 7780 7826
+)
+"gFile.ml" 193 8024 8083 "gFile.ml" 193 8024 8085
+type(
+  Gtk.file_chooser_button Gobject.param list
+)
+"gFile.ml" 192 7975 8022 "gFile.ml" 193 8024 8086
+call(
+  stack
+)
+type(
+  Gtk.file_chooser_button Gobject.param list
+)
+"gFile.ml" 191 7916 7973 "gFile.ml" 193 8024 8087
+call(
+  stack
+)
+type(
+  Gtk.file_chooser_button Gobject.param list
+)
+"gFile.ml" 191 7916 7921 "gFile.ml" 193 8024 8088
+call(
+  stack
+)
+type(
+  Gtk.file_chooser_button Gobject.param list
+)
+"gFile.ml" 190 7866 7870 "gFile.ml" 193 8024 8089
+type(
+  Gtk.file_chooser_button Gobject.param list
+)
+"gFile.ml" 194 8090 8107 "gFile.ml" 194 8090 8109
+type(
+  Gtk.file_chooser_button Gobject.param list
+)
+ident(
+  def pl "gFile.ml" 194 8090 8113 "gFile.ml" 194 8090 8161
+)
+"gFile.ml" 194 8090 8113 "gFile.ml" 194 8090 8131
+type(
+  Gtk.file_chooser_button Gtk.obj -> chooser_button
+)
+"gFile.ml" 194 8090 8133 "gFile.ml" 194 8090 8157
+type(
+  Gtk.file_chooser_button Gobject.param list ->
+  Gtk.file_chooser_button Gtk.obj
+)
+ident(
+  ext_ref GtkFile.FileChooserButton.create
+)
+"gFile.ml" 194 8090 8158 "gFile.ml" 194 8090 8160
+type(
+  Gtk.file_chooser_button Gobject.param list
+)
+ident(
+  int_ref pl "gFile.ml" 194 8090 8107 "gFile.ml" 194 8090 8109
+)
+"gFile.ml" 194 8090 8132 "gFile.ml" 194 8090 8161
+call(
+  stack
+)
+type(
+  Gtk.file_chooser_button Gtk.obj
+)
+"gFile.ml" 194 8090 8113 "gFile.ml" 194 8090 8161
+call(
+  tail
+)
+type(
+  chooser_button
+)
+"gFile.ml" 194 8090 8102 "gFile.ml" 194 8090 8162
+type(
+  Gtk.file_chooser_button Gobject.param list -> chooser_button
+)
+"gFile.ml" 189 7838 7840 "gFile.ml" 194 8090 8162
+call(
+  tail
+)
+type(
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> chooser_button
+)

@@ -1,0 +1,361 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Glpk" rel="Chapter" href="Glpk.html"><link title="Types" rel="Section" href="#1_Types">
+<link title="Exceptions" rel="Section" href="#1_Exceptions">
+<link title="Functions" rel="Section" href="#1_Functions">
+<link title="Creating, reading and saving problems" rel="Subsection" href="#2_Creatingreadingandsavingproblems">
+<link title="Setting and retreiving paramters of a problem" rel="Subsection" href="#2_Settingandretreivingparamtersofaproblem">
+<link title="Solving problems and retreiving solutions" rel="Subsection" href="#2_Solvingproblemsandretreivingsolutions">
+<link title="Setting parameters of the solver" rel="Subsection" href="#2_Settingparametersofthesolver">
+<title>Glpk</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a href="index.html">Up</a>
+&nbsp;</div>
+<center><h1>Module <a href="type_Glpk.html">Glpk</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Glpk: <code class="code">sig</code> <a href="Glpk.html">..</a> <code class="code">end</code></pre> OCaml bindings to glpk. Please see the glpk manual for further explanations 
+ on the semantics of functions.
+<p>
+
+ Warning: contrarily to the C version of glpk, all indexes are 0-based.
+<p>
+
+<br>
+<b>Author(s):</b> Samuel Mimram<br>
+<hr width="100%">
+<br>
+<a name="1_Types"></a>
+<h1>Types</h1><br>
+<pre><span class="keyword">type</span> <a name="TYPElp"></a><code class="type"></code>lp </pre>
+<div class="info">
+A linear programmation problem.<br>
+</div>
+
+<br><code><span class="keyword">type</span> <a name="TYPEdirection"></a><code class="type"></code>direction = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Minimize</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Maximize</span></code></td>
+
+</tr></table>
+
+<div class="info">
+Direction of the optimization.<br>
+</div>
+
+<br><code><span class="keyword">type</span> <a name="TYPEaux_var_type"></a><code class="type"></code>aux_var_type = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Free_var</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Lower_bounded_var</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Upper_bounded_var</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Double_bounded_var</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Fixed_var</span></code></td>
+
+</tr></table>
+
+<div class="info">
+Type of bounds of an auxiliary variable.<br>
+</div>
+
+<br><code><span class="keyword">type</span> <a name="TYPEprob_class"></a><code class="type"></code>prob_class = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Linear_prog</span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >linear programming</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Mixed_integer_prog</span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >mixed integer programming</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+<div class="info">
+Class of a problem.<br>
+</div>
+
+<br><code><span class="keyword">type</span> <a name="TYPEvar_kind"></a><code class="type"></code>var_kind = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Continuous_var</span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >continuous variable</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Integer_var</span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >integer variable</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+<div class="info">
+Kind of a variable.<br>
+</div>
+
+<br>
+<a name="1_Exceptions"></a>
+<h1>Exceptions</h1><br>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONFault"></a>Fault</pre>
+<div class="info">
+The problem has no rows/columns, or the initial basis is invalid, or the initial basis matrix is singular or ill-conditionned.<br>
+</div>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONEmpty"></a>Empty</pre>
+<div class="info">
+The problem has no rows and/or column.<br>
+</div>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONBad_basis"></a>Bad_basis</pre>
+<div class="info">
+The LP basis is invalid beacause the number of basic variables is not the same as the number of rows.<br>
+</div>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONLower_limit"></a>Lower_limit</pre>
+<div class="info">
+The objective function being minimized has reached its lower limit and continues decreasing.<br>
+</div>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONUpper_limit"></a>Upper_limit</pre>
+<div class="info">
+The objective function being maximized has reached its upper limit and continues increasing.<br>
+</div>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONNo_primal_feasible_solution"></a>No_primal_feasible_solution</pre>
+<div class="info">
+The problem has no primal feasible solution.<br>
+</div>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONNo_dual_feasible_solution"></a>No_dual_feasible_solution</pre>
+<div class="info">
+The problem has no dual feasible solution.<br>
+</div>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONIteration_limit"></a>Iteration_limit</pre>
+<div class="info">
+Iterations limit exceeded.<br>
+</div>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONTime_limit"></a>Time_limit</pre>
+<div class="info">
+Time limit exceeded.<br>
+</div>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONNo_convergence"></a>No_convergence</pre>
+<div class="info">
+Very slow convergence or divergence.<br>
+</div>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONSolver_failure"></a>Solver_failure</pre>
+<div class="info">
+Failure of the solver (the current basis matrix got singular or ill-conditionned).<br>
+</div>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONUnknown_error"></a>Unknown_error</pre>
+<div class="info">
+Unknown error (this exception should disappear in future versions).<br>
+</div>
+<br>
+<a name="1_Functions"></a>
+<h1>Functions</h1><br>
+<br>
+<a name="2_Creatingreadingandsavingproblems"></a>
+<h2>Creating, reading and saving problems</h2><br>
+<pre><span class="keyword">val</span> <a name="VALnew_problem"></a>new_problem : <code class="type">unit -> <a href="Glpk.html#TYPElp">lp</a></code></pre><div class="info">
+Create a new linear programmation problem.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALmake_problem"></a>make_problem : <code class="type"><a href="Glpk.html#TYPEdirection">direction</a> -><br>       float array -><br>       float array array -><br>       (float * float) array -> (float * float) array -> <a href="Glpk.html#TYPElp">lp</a></code></pre><div class="info">
+<code class="code">make_problem dir zcoefs constrs pbounds xbounds</code> creates the new linear programmation problem where Z = Sum_i <code class="code">zcoefs.(i)</code> * x_ i should be optimized in the direction <code class="code">dir</code> under the constraints <code class="code">fst pbounds.(i)</code> &lt;= p_i &lt;= <code class="code">snd pbounds.(i)</code> and <code class="code">fst xbounds.(i)</code> &lt;= x_i &lt;= <code class="code">snd xbounds.(i)</code> where p_i = Sum_j <code class="code">constrs.(i).(j)</code> * x_j. The bounds may be <code class="code">+</code> / <code class="code">- infinity</code>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALread_cplex"></a>read_cplex : <code class="type">string -> <a href="Glpk.html#TYPElp">lp</a></code></pre><div class="info">
+Read problem data in CPLEX LP format from a file.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALwrite_cplex"></a>write_cplex : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> string -> unit</code></pre><div class="info">
+Write prblem data in CPLEX LP format into a file.<br>
+</div>
+<br>
+<a name="2_Settingandretreivingparamtersofaproblem"></a>
+<h2>Setting and retreiving paramters of a problem</h2><br>
+<pre><span class="keyword">val</span> <a name="VALset_prob_name"></a>set_prob_name : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> string -> unit</code></pre><div class="info">
+Set the problem name.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALget_prob_name"></a>get_prob_name : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> string</code></pre><div class="info">
+Retrieve the problem name.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALset_class"></a>set_class : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> <a href="Glpk.html#TYPEprob_class">prob_class</a> -> unit</code></pre><div class="info">
+Set the problem class.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALget_class"></a>get_class : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> <a href="Glpk.html#TYPEprob_class">prob_class</a></code></pre><div class="info">
+Retrieve the problem class.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALset_direction"></a>set_direction : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> <a href="Glpk.html#TYPEdirection">direction</a> -> unit</code></pre><div class="info">
+Set the direction of the optimization.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALget_direction"></a>get_direction : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> <a href="Glpk.html#TYPEdirection">direction</a></code></pre><div class="info">
+Retrieve the direction of the optimization.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALset_obj_name"></a>set_obj_name : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> string -> unit</code></pre><div class="info">
+Set the objective name.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALget_obj_name"></a>get_obj_name : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> string</code></pre><div class="info">
+Retrieve the objective name.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALadd_rows"></a>add_rows : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int -> unit</code></pre><div class="info">
+Add rows.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALget_num_rows"></a>get_num_rows : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int</code></pre><div class="info">
+Retreive the number of rows.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALset_row_name"></a>set_row_name : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int -> string -> unit</code></pre><div class="info">
+Set the name of a row.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALget_row_name"></a>get_row_name : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int -> string</code></pre><div class="info">
+Retrieve the name of a row.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALset_row_bounds"></a>set_row_bounds : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int -> <a href="Glpk.html#TYPEaux_var_type">aux_var_type</a> -> float -> float -> unit</code></pre><div class="info">
+Set a row bound.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALadd_columns"></a>add_columns : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int -> unit</code></pre><div class="info">
+Add columns.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALget_num_cols"></a>get_num_cols : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int</code></pre><div class="info">
+Retreive the number of columns.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALset_col_name"></a>set_col_name : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int -> string -> unit</code></pre><div class="info">
+Set the name of a column.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALget_col_name"></a>get_col_name : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int -> string</code></pre><div class="info">
+Retrieve the name of a column.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALset_col_kind"></a>set_col_kind : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int -> <a href="Glpk.html#TYPEvar_kind">var_kind</a> -> unit</code></pre><div class="info">
+Set column kind.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALset_col_bounds"></a>set_col_bounds : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int -> <a href="Glpk.html#TYPEaux_var_type">aux_var_type</a> -> float -> float -> unit</code></pre><div class="info">
+Set a column boudaries.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALset_obj_coef"></a>set_obj_coef : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int -> float -> unit</code></pre><div class="info">
+Set an objective coefficient.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALload_matrix"></a>load_matrix : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> float array array -> unit</code></pre><div class="info">
+Load a constraint matrix.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALload_sparse_matrix"></a>load_sparse_matrix : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> ((int * int) * float) array -> unit</code></pre><div class="info">
+Load a sparse constraint matrix stored as an array whose elements are of the
+ form ((row, column), value) indicating non-null elements of the matrix.<br>
+</div>
+<br>
+<a name="2_Solvingproblemsandretreivingsolutions"></a>
+<h2>Solving problems and retreiving solutions</h2><br>
+<pre><span class="keyword">val</span> <a name="VALscale_problem"></a>scale_problem : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> unit</code></pre><div class="info">
+Scale problem data.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALunscale_problem"></a>unscale_problem : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> unit</code></pre><div class="info">
+Unscale problem data.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALwarm_up"></a>warm_up : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> unit</code></pre><div class="info">
+Warm up the LP basis for the specified problem object using current statuses assigned to rows and columns.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALsimplex"></a>simplex : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> unit</code></pre><div class="info">
+Solve an LP problem using the simplex method. You must use builtin presolver
+ (see <code class="code">use_presolver</code>) to get an exception if the problem has no feasible
+ solution.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALinterior"></a>interior : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> unit</code></pre><div class="info">
+Solve an LP problem using the primal-dual interior point method.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALbranch_and_bound"></a>branch_and_bound : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> unit</code></pre><div class="info">
+Solve a MIP proble using the branch-and-bound method.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALbranch_and_bound_opt"></a>branch_and_bound_opt : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> unit</code></pre><div class="info">
+Solve a MIP proble using and optimized version of the branch-and-bound method.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALget_obj_val"></a>get_obj_val : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> float</code></pre><div class="info">
+Retrieve objective value.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALget_col_primal"></a>get_col_primal : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int -> float</code></pre><div class="info">
+Get the primal value of the structural variable associated with a column.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALget_col_primals"></a>get_col_primals : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> float array</code></pre><div class="info">
+Get the primal values of the structural variables associated with each column.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALget_row_primal"></a>get_row_primal : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int -> float</code></pre><div class="info">
+Get the primal value of the structural variable associated with a row.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALget_row_dual"></a>get_row_dual : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int -> float</code></pre><div class="info">
+Get the dual value of the structural variable associated with a row.<br>
+</div>
+<br>
+<a name="2_Settingparametersofthesolver"></a>
+<h2>Setting parameters of the solver</h2><br>
+<pre><span class="keyword">val</span> <a name="VALset_message_level"></a>set_message_level : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int -> unit</code></pre><div class="info">
+Set the level of messages output by sover routines. The second argument might be:<ul>
+<li>0: no output</li>
+<li>1: error message only</li>
+<li>2: normal output</li>
+<li>3: full output (includes informational messages)</li>
+</ul>
+<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALuse_presolver"></a>use_presolver : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> bool -> unit</code></pre><div class="info">
+Use the builtin LP-presolver in <code class="code">simplex</code>?<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALset_simplex_iteration_count"></a>set_simplex_iteration_count : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int -> unit</code></pre><div class="info">
+Initialize the simplex iteration counter.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALreset_simplex_iteration_count"></a>reset_simplex_iteration_count : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> unit</code></pre><div class="info">
+Reset the simplex iteration counter.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALget_simplex_iteration_count"></a>get_simplex_iteration_count : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int</code></pre><div class="info">
+This number is incremented after each simplex iteration.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALset_simplex_iteration_limit"></a>set_simplex_iteration_limit : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int -> unit</code></pre><div class="info">
+Set the maximum number of iterations that <code class="code">simplex</code> should do.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALget_simplex_iteration_limit"></a>get_simplex_iteration_limit : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> int</code></pre><div class="info">
+Retrieve the maximum number of iterations that <code class="code">simplex</code> should do.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALset_simplex_time_limit"></a>set_simplex_time_limit : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> float -> unit</code></pre><div class="info">
+Set the maximum amount of time that <code class="code">simplex</code> should take.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALget_simplex_time_limit"></a>get_simplex_time_limit : <code class="type"><a href="Glpk.html#TYPElp">lp</a> -> float</code></pre><div class="info">
+Retrieve the maximum amount of time that <code class="code">simplex</code> should take.<br>
+</div>
+</body></html>

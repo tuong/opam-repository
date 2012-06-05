@@ -1,0 +1,48 @@
+OCAMLINCLUDES +=
+
+OCAMLFLAGS    += -annot -w Ae
+OCAMLCFLAGS   +=
+OCAMLOPTFLAGS +=
+OCAML_LINK_FLAGS +=
+OCAML_BYTE_LINK_FLAGS +=
+OCAML_NATIVE_LINK_FLAGS +=
+
+OCAMLPACKS[]= unix
+
+# OCAMLDEPFLAGS= -syntax camlp4o -package sexplib.syntax
+# OCAMLPPFLAGS= -syntax camlp4o -package sexplib.syntax
+
+# OCamlGeneratedFiles(parser.ml lexer.ml)
+OCamlGeneratedFiles(phantomy.ml phantomy.mli)
+
+LIBFILES[] =
+   base
+   monad_intf
+   monad
+   option
+   xlist
+   hashSet
+   xformat
+   xhashtbl
+   xstring
+   phantom
+   weaktbl
+   spot
+
+LIB = spotlib
+
+MyOCamlPackage($(LIB), $(LIBFILES), $(EMPTY), $(EMPTY))
+
+PHANTOM_GEN[] =
+   xlist
+   xformat
+   gen_phantom
+
+MyOCamlProgram(gen_phantom, $(PHANTOM_GEN))
+
+phantom.ml: phantom_head.ml gen_phantom.run
+	./gen_phantom.run ml > $@
+
+phantom.mli: phantom_head.mli gen_phantom.run
+	./gen_phantom.run mli > $@
+

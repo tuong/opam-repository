@@ -1,0 +1,4 @@
+deps=unix,threads,sqlite3,ocamlbuild,lwt(>=2.2.0),estring,csv,camlp4,batteries
+tarball=mfp-ocaml-sqlexpr-0.4.1-0-gdff5913.tar.gz
+is_library=true
+is_program=false

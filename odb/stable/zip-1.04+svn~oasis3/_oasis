@@ -1,0 +1,17 @@
+OASISFormat:  0.2
+Name:         zip
+Version:      1.04+svn~oasis3
+Authors:      Xavier Leroy
+Homepage:     http://calendar.forge.ocamlcore.org/
+License:      LGPL-2.1 with OCaml linking exception
+LicenseFile:  LICENSE
+Synopsis:     Easy access to compressed files in ZIP, GZIP, JAR formats.
+Plugins:      META (0.2)
+
+Library zip
+  Path:        .
+  BuildTools:  ocamlbuild
+  Modules:     Zip,Gzip,Zlib
+  CSources:    zlibstubs.c
+  CCLib:       -lz
+  XMETAEnable: true

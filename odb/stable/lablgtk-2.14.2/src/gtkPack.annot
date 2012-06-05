@@ -1,0 +1,1495 @@
+"gtkPack.ml" 33 1809 1813 "gtkPack.ml" 33 1809 1815
+type(
+  unit
+)
+"gtkPack.ml" 33 1809 1818 "gtkPack.ml" 33 1809 1831
+type(
+  unit -> unit
+)
+"gtkPack.ml" 33 1809 1832 "gtkPack.ml" 33 1809 1834
+type(
+  unit
+)
+"gtkPack.ml" 33 1809 1818 "gtkPack.ml" 33 1809 1834
+type(
+  unit
+)
+"gtkPack.ml" 37 1870 1876 "gtkPack.ml" 37 1870 1880
+type(
+  [> `box ] Gtk.obj ->
+  ?from:Gtk.Tags.pack_type ->
+  ?expand:bool -> ?fill:bool -> ?padding:int -> [> `widget ] Gtk.obj -> unit
+)
+ident(
+  def pack "gtkPack.ml" 40 2038 2076 "gtkPack.ml" 41 2077 2080
+)
+"gtkPack.ml" 37 1870 1881 "gtkPack.ml" 37 1870 1884
+type(
+  ([> `box ] as 'a) Gtk.obj
+)
+ident(
+  def box "gtkPack.ml" 37 1870 1885 "gtkPack.ml" 40 2038 2076
+)
+"gtkPack.ml" 37 1870 1893 "gtkPack.ml" 37 1870 1896
+type(
+  Gtk.Tags.pack_type
+)
+"gtkPack.ml" 37 1870 1900 "gtkPack.ml" 37 1870 1906
+type(
+  Gtk.Tags.pack_type
+)
+type(
+  Gtk.Tags.pack_type
+)
+"gtkPack.ml" 37 1870 1899 "gtkPack.ml" 37 1870 1919
+type(
+  Gtk.Tags.pack_type
+)
+ident(
+  int_ref *sth* "gtkPack.ml" 37 1870 1899 "gtkPack.ml" 37 1870 1919
+)
+type(
+  Gtk.Tags.pack_type option
+)
+type(
+  Gtk.Tags.pack_type option
+)
+type(
+  Gtk.Tags.pack_type
+)
+ident(
+  def *sth* "gtkPack.ml" 37 1870 1899 "gtkPack.ml" 37 1870 1919
+)
+"gtkPack.ml" 38 1921 1929 "gtkPack.ml" 38 1921 1935
+type(
+  bool
+)
+"gtkPack.ml" 38 1921 1936 "gtkPack.ml" 38 1921 1941
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gtkPack.ml" 38 1921 1936 "gtkPack.ml" 38 1921 1941
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gtkPack.ml" 38 1921 1936 "gtkPack.ml" 38 1921 1941
+)
+"gtkPack.ml" 38 1921 1945 "gtkPack.ml" 38 1921 1949
+type(
+  bool
+)
+"gtkPack.ml" 38 1921 1950 "gtkPack.ml" 38 1921 1954
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gtkPack.ml" 38 1921 1950 "gtkPack.ml" 38 1921 1954
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gtkPack.ml" 38 1921 1950 "gtkPack.ml" 38 1921 1954
+)
+"gtkPack.ml" 38 1921 1958 "gtkPack.ml" 38 1921 1965
+type(
+  int
+)
+"gtkPack.ml" 38 1921 1966 "gtkPack.ml" 38 1921 1967
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gtkPack.ml" 38 1921 1966 "gtkPack.ml" 38 1921 1967
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gtkPack.ml" 38 1921 1966 "gtkPack.ml" 38 1921 1967
+)
+"gtkPack.ml" 38 1921 1969 "gtkPack.ml" 38 1921 1974
+type(
+  ([> `widget ] as 'b) Gtk.obj
+)
+ident(
+  def child "gtkPack.ml" 39 1977 1981 "gtkPack.ml" 40 2038 2076
+)
+"gtkPack.ml" 39 1977 1988 "gtkPack.ml" 39 1977 1991
+type(
+  Gtk.Tags.pack_type
+)
+ident(
+  int_ref dir "gtkPack.ml" 37 1870 1893 "gtkPack.ml" 37 1870 1896
+)
+"gtkPack.ml" 39 1977 1997 "gtkPack.ml" 39 1977 2003
+type(
+  Gtk.Tags.pack_type
+)
+"gtkPack.ml" 39 1977 2007 "gtkPack.ml" 39 1977 2017
+type(
+  'a Gtk.obj -> 'b Gtk.obj -> expand:bool -> fill:bool -> padding:int -> unit
+)
+"gtkPack.ml" 39 1977 2020 "gtkPack.ml" 39 1977 2024
+type(
+  Gtk.Tags.pack_type
+)
+"gtkPack.ml" 39 1977 2028 "gtkPack.ml" 39 1977 2036
+type(
+  'a Gtk.obj -> 'b Gtk.obj -> expand:bool -> fill:bool -> padding:int -> unit
+)
+"gtkPack.ml" 39 1977 1981 "gtkPack.ml" 39 1977 2037
+type(
+  'a Gtk.obj -> 'b Gtk.obj -> expand:bool -> fill:bool -> padding:int -> unit
+)
+"gtkPack.ml" 40 2038 2044 "gtkPack.ml" 40 2038 2047
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref box "gtkPack.ml" 37 1870 1881 "gtkPack.ml" 37 1870 1884
+)
+"gtkPack.ml" 40 2038 2048 "gtkPack.ml" 40 2038 2053
+type(
+  'b Gtk.obj
+)
+ident(
+  int_ref child "gtkPack.ml" 38 1921 1969 "gtkPack.ml" 38 1921 1974
+)
+"gtkPack.ml" 40 2038 2055 "gtkPack.ml" 40 2038 2061
+type(
+  bool
+)
+ident(
+  int_ref expand "gtkPack.ml" 38 1921 1929 "gtkPack.ml" 38 1921 1935
+)
+"gtkPack.ml" 40 2038 2063 "gtkPack.ml" 40 2038 2067
+type(
+  bool
+)
+ident(
+  int_ref fill "gtkPack.ml" 38 1921 1945 "gtkPack.ml" 38 1921 1949
+)
+"gtkPack.ml" 40 2038 2069 "gtkPack.ml" 40 2038 2076
+type(
+  int
+)
+ident(
+  int_ref padding "gtkPack.ml" 38 1921 1958 "gtkPack.ml" 38 1921 1965
+)
+"gtkPack.ml" 39 1977 1981 "gtkPack.ml" 40 2038 2076
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkPack.ml" 60 2878 2884 "gtkPack.ml" 60 2878 2898
+type(
+  [> `buttonbox ] Gtk.obj -> ?width:int -> ?height:int -> unit -> unit
+)
+ident(
+  def set_child_size "gtkPack.ml" 63 3051 3053 "gtkPack.ml" 74 3571 3574
+)
+"gtkPack.ml" 60 2878 2899 "gtkPack.ml" 60 2878 2900
+type(
+  ([> `buttonbox ] as 'a) Gtk.obj
+)
+ident(
+  def w "gtkPack.ml" 60 2878 2901 "gtkPack.ml" 62 2992 3050
+)
+"gtkPack.ml" 60 2878 2902 "gtkPack.ml" 60 2878 2907
+type(
+  int option
+)
+ident(
+  def width "gtkPack.ml" 60 2878 2908 "gtkPack.ml" 62 2992 3050
+)
+"gtkPack.ml" 60 2878 2909 "gtkPack.ml" 60 2878 2915
+type(
+  int option
+)
+ident(
+  def height "gtkPack.ml" 60 2878 2916 "gtkPack.ml" 62 2992 3050
+)
+"gtkPack.ml" 60 2878 2916 "gtkPack.ml" 60 2878 2918
+type(
+  unit
+)
+"gtkPack.ml" 61 2921 2925 "gtkPack.ml" 61 2921 2939
+type(
+  'a Gtk.obj -> width:int -> height:int -> unit
+)
+"gtkPack.ml" 61 2921 2940 "gtkPack.ml" 61 2921 2941
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref w "gtkPack.ml" 60 2878 2899 "gtkPack.ml" 60 2878 2900
+)
+"gtkPack.ml" 61 2921 2950 "gtkPack.ml" 61 2921 2961
+type(
+  ('a Gtk.obj -> int) -> 'a Gtk.obj -> opt:int option -> int
+)
+ident(
+  ext_ref Gaux.may_default
+)
+"gtkPack.ml" 61 2921 2962 "gtkPack.ml" 61 2921 2977
+type(
+  'a Gtk.obj -> int
+)
+"gtkPack.ml" 61 2921 2978 "gtkPack.ml" 61 2921 2979
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref w "gtkPack.ml" 60 2878 2899 "gtkPack.ml" 60 2878 2900
+)
+"gtkPack.ml" 61 2921 2985 "gtkPack.ml" 61 2921 2990
+type(
+  int option
+)
+ident(
+  int_ref width "gtkPack.ml" 60 2878 2902 "gtkPack.ml" 60 2878 2907
+)
+"gtkPack.ml" 61 2921 2949 "gtkPack.ml" 61 2921 2991
+call(
+  stack
+)
+type(
+  int
+)
+"gtkPack.ml" 62 2992 3007 "gtkPack.ml" 62 2992 3018
+type(
+  ('a Gtk.obj -> int) -> 'a Gtk.obj -> opt:int option -> int
+)
+ident(
+  ext_ref Gaux.may_default
+)
+"gtkPack.ml" 62 2992 3019 "gtkPack.ml" 62 2992 3035
+type(
+  'a Gtk.obj -> int
+)
+"gtkPack.ml" 62 2992 3036 "gtkPack.ml" 62 2992 3037
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref w "gtkPack.ml" 60 2878 2899 "gtkPack.ml" 60 2878 2900
+)
+"gtkPack.ml" 62 2992 3043 "gtkPack.ml" 62 2992 3049
+type(
+  int option
+)
+ident(
+  int_ref height "gtkPack.ml" 60 2878 2909 "gtkPack.ml" 60 2878 2915
+)
+"gtkPack.ml" 62 2992 3006 "gtkPack.ml" 62 2992 3050
+call(
+  stack
+)
+type(
+  int
+)
+"gtkPack.ml" 61 2921 2925 "gtkPack.ml" 62 2992 3050
+type(
+  unit
+)
+"gtkPack.ml" 63 3051 3057 "gtkPack.ml" 63 3051 3075
+type(
+  [> `buttonbox ] Gtk.obj -> ?x:int -> ?y:int -> unit -> unit
+)
+ident(
+  def set_child_ipadding "gtkPack.ml" 67 3210 3212 "gtkPack.ml" 74 3571 3574
+)
+"gtkPack.ml" 63 3051 3076 "gtkPack.ml" 63 3051 3077
+type(
+  ([> `buttonbox ] as 'b) Gtk.obj
+)
+ident(
+  def w "gtkPack.ml" 63 3051 3078 "gtkPack.ml" 66 3162 3209
+)
+"gtkPack.ml" 63 3051 3079 "gtkPack.ml" 63 3051 3080
+type(
+  int option
+)
+ident(
+  def x "gtkPack.ml" 63 3051 3081 "gtkPack.ml" 66 3162 3209
+)
+"gtkPack.ml" 63 3051 3082 "gtkPack.ml" 63 3051 3083
+type(
+  int option
+)
+ident(
+  def y "gtkPack.ml" 63 3051 3084 "gtkPack.ml" 66 3162 3209
+)
+"gtkPack.ml" 63 3051 3084 "gtkPack.ml" 63 3051 3086
+type(
+  unit
+)
+"gtkPack.ml" 64 3089 3093 "gtkPack.ml" 64 3089 3111
+type(
+  'b Gtk.obj -> x:int -> y:int -> unit
+)
+"gtkPack.ml" 64 3089 3112 "gtkPack.ml" 64 3089 3113
+type(
+  'b Gtk.obj
+)
+ident(
+  int_ref w "gtkPack.ml" 63 3051 3076 "gtkPack.ml" 63 3051 3077
+)
+"gtkPack.ml" 65 3114 3124 "gtkPack.ml" 65 3114 3135
+type(
+  ('b Gtk.obj -> int) -> 'b Gtk.obj -> opt:int option -> int
+)
+ident(
+  ext_ref Gaux.may_default
+)
+"gtkPack.ml" 65 3114 3136 "gtkPack.ml" 65 3114 3151
+type(
+  'b Gtk.obj -> int
+)
+"gtkPack.ml" 65 3114 3152 "gtkPack.ml" 65 3114 3153
+type(
+  'b Gtk.obj
+)
+ident(
+  int_ref w "gtkPack.ml" 63 3051 3076 "gtkPack.ml" 63 3051 3077
+)
+"gtkPack.ml" 65 3114 3159 "gtkPack.ml" 65 3114 3160
+type(
+  int option
+)
+ident(
+  int_ref x "gtkPack.ml" 63 3051 3079 "gtkPack.ml" 63 3051 3080
+)
+"gtkPack.ml" 65 3114 3123 "gtkPack.ml" 65 3114 3161
+call(
+  stack
+)
+type(
+  int
+)
+"gtkPack.ml" 66 3162 3172 "gtkPack.ml" 66 3162 3183
+type(
+  ('b Gtk.obj -> int) -> 'b Gtk.obj -> opt:int option -> int
+)
+ident(
+  ext_ref Gaux.may_default
+)
+"gtkPack.ml" 66 3162 3184 "gtkPack.ml" 66 3162 3199
+type(
+  'b Gtk.obj -> int
+)
+"gtkPack.ml" 66 3162 3200 "gtkPack.ml" 66 3162 3201
+type(
+  'b Gtk.obj
+)
+ident(
+  int_ref w "gtkPack.ml" 63 3051 3076 "gtkPack.ml" 63 3051 3077
+)
+"gtkPack.ml" 66 3162 3207 "gtkPack.ml" 66 3162 3208
+type(
+  int option
+)
+ident(
+  int_ref y "gtkPack.ml" 63 3051 3082 "gtkPack.ml" 63 3051 3083
+)
+"gtkPack.ml" 66 3162 3171 "gtkPack.ml" 66 3162 3209
+call(
+  stack
+)
+type(
+  int
+)
+"gtkPack.ml" 64 3089 3093 "gtkPack.ml" 66 3162 3209
+type(
+  unit
+)
+"gtkPack.ml" 67 3210 3216 "gtkPack.ml" 67 3210 3219
+type(
+  ?child_width:int ->
+  ?child_height:int ->
+  ?child_ipadx:int ->
+  ?child_ipady:int ->
+  ?layout:GtkEnums.button_box_style -> [> `buttonbox ] Gtk.obj -> unit
+)
+ident(
+  def set "gtkPack.ml" 73 3530 3570 "gtkPack.ml" 74 3571 3574
+)
+"gtkPack.ml" 67 3210 3221 "gtkPack.ml" 67 3210 3232
+type(
+  int option
+)
+ident(
+  def child_width "gtkPack.ml" 67 3210 3233 "gtkPack.ml" 73 3530 3570
+)
+"gtkPack.ml" 67 3210 3234 "gtkPack.ml" 67 3210 3246
+type(
+  int option
+)
+ident(
+  def child_height "gtkPack.ml" 67 3210 3247 "gtkPack.ml" 73 3530 3570
+)
+"gtkPack.ml" 67 3210 3248 "gtkPack.ml" 67 3210 3259
+type(
+  int option
+)
+ident(
+  def child_ipadx "gtkPack.ml" 68 3260 3266 "gtkPack.ml" 73 3530 3570
+)
+"gtkPack.ml" 68 3260 3267 "gtkPack.ml" 68 3260 3278
+type(
+  int option
+)
+ident(
+  def child_ipady "gtkPack.ml" 68 3260 3279 "gtkPack.ml" 73 3530 3570
+)
+"gtkPack.ml" 68 3260 3280 "gtkPack.ml" 68 3260 3286
+type(
+  GtkEnums.button_box_style option
+)
+ident(
+  def layout "gtkPack.ml" 68 3260 3287 "gtkPack.ml" 73 3530 3570
+)
+"gtkPack.ml" 68 3260 3287 "gtkPack.ml" 68 3260 3288
+type(
+  ([> `buttonbox ] as 'c) Gtk.obj
+)
+ident(
+  def w "gtkPack.ml" 69 3291 3295 "gtkPack.ml" 73 3530 3570
+)
+"gtkPack.ml" 69 3291 3298 "gtkPack.ml" 69 3291 3309
+type(
+  int option
+)
+ident(
+  int_ref child_width "gtkPack.ml" 67 3210 3221 "gtkPack.ml" 67 3210 3232
+)
+"gtkPack.ml" 69 3291 3310 "gtkPack.ml" 69 3291 3312
+type(
+  int option -> int option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gtkPack.ml" 69 3291 3313 "gtkPack.ml" 69 3291 3317
+type(
+  int option
+)
+"gtkPack.ml" 69 3291 3298 "gtkPack.ml" 69 3291 3317
+type(
+  bool
+)
+"gtkPack.ml" 69 3291 3318 "gtkPack.ml" 69 3291 3320
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gtkPack.ml" 69 3291 3321 "gtkPack.ml" 69 3291 3333
+type(
+  int option
+)
+ident(
+  int_ref child_height "gtkPack.ml" 67 3210 3234 "gtkPack.ml" 67 3210 3246
+)
+"gtkPack.ml" 69 3291 3334 "gtkPack.ml" 69 3291 3336
+type(
+  int option -> int option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gtkPack.ml" 69 3291 3337 "gtkPack.ml" 69 3291 3341
+type(
+  int option
+)
+"gtkPack.ml" 69 3291 3321 "gtkPack.ml" 69 3291 3341
+type(
+  bool
+)
+"gtkPack.ml" 69 3291 3298 "gtkPack.ml" 69 3291 3341
+type(
+  bool
+)
+"gtkPack.ml" 70 3347 3353 "gtkPack.ml" 70 3347 3367
+type(
+  'c Gtk.obj -> ?width:int -> ?height:int -> unit -> unit
+)
+ident(
+  int_ref set_child_size "gtkPack.ml" 60 2878 2884 "gtkPack.ml" 60 2878 2898
+)
+"gtkPack.ml" 70 3347 3368 "gtkPack.ml" 70 3347 3369
+type(
+  'c Gtk.obj
+)
+ident(
+  int_ref w "gtkPack.ml" 68 3260 3287 "gtkPack.ml" 68 3260 3288
+)
+"gtkPack.ml" 70 3347 3377 "gtkPack.ml" 70 3347 3388
+type(
+  int option
+)
+ident(
+  int_ref child_width "gtkPack.ml" 67 3210 3221 "gtkPack.ml" 67 3210 3232
+)
+"gtkPack.ml" 70 3347 3397 "gtkPack.ml" 70 3347 3409
+type(
+  int option
+)
+ident(
+  int_ref child_height "gtkPack.ml" 67 3210 3234 "gtkPack.ml" 67 3210 3246
+)
+"gtkPack.ml" 70 3347 3410 "gtkPack.ml" 70 3347 3412
+type(
+  unit
+)
+"gtkPack.ml" 70 3347 3353 "gtkPack.ml" 70 3347 3412
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkPack.ml" 69 3291 3295 "gtkPack.ml" 70 3347 3412
+type(
+  unit
+)
+"gtkPack.ml" 71 3414 3421 "gtkPack.ml" 71 3414 3432
+type(
+  int option
+)
+ident(
+  int_ref child_ipadx "gtkPack.ml" 67 3210 3248 "gtkPack.ml" 67 3210 3259
+)
+"gtkPack.ml" 71 3414 3433 "gtkPack.ml" 71 3414 3435
+type(
+  int option -> int option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gtkPack.ml" 71 3414 3436 "gtkPack.ml" 71 3414 3440
+type(
+  int option
+)
+"gtkPack.ml" 71 3414 3421 "gtkPack.ml" 71 3414 3440
+type(
+  bool
+)
+"gtkPack.ml" 71 3414 3441 "gtkPack.ml" 71 3414 3443
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gtkPack.ml" 71 3414 3444 "gtkPack.ml" 71 3414 3455
+type(
+  int option
+)
+ident(
+  int_ref child_ipady "gtkPack.ml" 68 3260 3267 "gtkPack.ml" 68 3260 3278
+)
+"gtkPack.ml" 71 3414 3456 "gtkPack.ml" 71 3414 3458
+type(
+  int option -> int option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gtkPack.ml" 71 3414 3459 "gtkPack.ml" 71 3414 3463
+type(
+  int option
+)
+"gtkPack.ml" 71 3414 3444 "gtkPack.ml" 71 3414 3463
+type(
+  bool
+)
+"gtkPack.ml" 71 3414 3421 "gtkPack.ml" 71 3414 3463
+type(
+  bool
+)
+"gtkPack.ml" 72 3469 3475 "gtkPack.ml" 72 3469 3493
+type(
+  'c Gtk.obj -> ?x:int -> ?y:int -> unit -> unit
+)
+ident(
+  int_ref set_child_ipadding "gtkPack.ml" 63 3051 3057 "gtkPack.ml" 63 3051 3075
+)
+"gtkPack.ml" 72 3469 3494 "gtkPack.ml" 72 3469 3495
+type(
+  'c Gtk.obj
+)
+ident(
+  int_ref w "gtkPack.ml" 68 3260 3287 "gtkPack.ml" 68 3260 3288
+)
+"gtkPack.ml" 72 3469 3499 "gtkPack.ml" 72 3469 3510
+type(
+  int option
+)
+ident(
+  int_ref child_ipadx "gtkPack.ml" 67 3210 3248 "gtkPack.ml" 67 3210 3259
+)
+"gtkPack.ml" 72 3469 3514 "gtkPack.ml" 72 3469 3525
+type(
+  int option
+)
+ident(
+  int_ref child_ipady "gtkPack.ml" 68 3260 3267 "gtkPack.ml" 68 3260 3278
+)
+"gtkPack.ml" 72 3469 3526 "gtkPack.ml" 72 3469 3528
+type(
+  unit
+)
+"gtkPack.ml" 72 3469 3475 "gtkPack.ml" 72 3469 3528
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkPack.ml" 71 3414 3418 "gtkPack.ml" 72 3469 3528
+type(
+  unit
+)
+"gtkPack.ml" 73 3530 3534 "gtkPack.ml" 73 3530 3537
+type(
+  f:(GtkEnums.button_box_style -> unit) ->
+  GtkEnums.button_box_style option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gtkPack.ml" 73 3530 3538 "gtkPack.ml" 73 3530 3544
+type(
+  GtkEnums.button_box_style option
+)
+ident(
+  int_ref layout "gtkPack.ml" 68 3260 3280 "gtkPack.ml" 68 3260 3286
+)
+"gtkPack.ml" 73 3530 3549 "gtkPack.ml" 73 3530 3552
+type(
+  ('c, GtkEnums.button_box_style) Gobject.property ->
+  'c Gtk.obj -> GtkEnums.button_box_style -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gtkPack.ml" 73 3530 3553 "gtkPack.ml" 73 3530 3567
+type(
+  ('c, GtkEnums.button_box_style) Gobject.property
+)
+ident(
+  ext_ref P.layout_style
+)
+"gtkPack.ml" 73 3530 3568 "gtkPack.ml" 73 3530 3569
+type(
+  'c Gtk.obj
+)
+ident(
+  int_ref w "gtkPack.ml" 68 3260 3287 "gtkPack.ml" 68 3260 3288
+)
+"gtkPack.ml" 73 3530 3548 "gtkPack.ml" 73 3530 3570
+call(
+  stack
+)
+type(
+  GtkEnums.button_box_style -> unit
+)
+"gtkPack.ml" 73 3530 3534 "gtkPack.ml" 73 3530 3570
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkPack.ml" 71 3414 3418 "gtkPack.ml" 73 3530 3570
+type(
+  unit
+)
+"gtkPack.ml" 69 3291 3295 "gtkPack.ml" 73 3530 3570
+type(
+  unit
+)
+"gtkPack.ml" 84 3682 3688 "gtkPack.ml" 84 3682 3693
+type(
+  Gtk.Tags.expand_type -> bool
+)
+ident(
+  def has_x "gtkPack.ml" 86 3768 3770 "gtkPack.ml" 99 4503 4506
+)
+"gtkPack.ml" 85 3718 3731 "gtkPack.ml" 85 3718 3733
+type(
+  Gtk.Tags.expand_type
+)
+"gtkPack.ml" 85 3718 3734 "gtkPack.ml" 85 3718 3739
+type(
+  Gtk.Tags.expand_type
+)
+"gtkPack.ml" 85 3718 3731 "gtkPack.ml" 85 3718 3739
+type(
+  Gtk.Tags.expand_type
+)
+"gtkPack.ml" 85 3718 3743 "gtkPack.ml" 85 3718 3747
+type(
+  bool
+)
+"gtkPack.ml" 85 3718 3750 "gtkPack.ml" 85 3718 3752
+type(
+  Gtk.Tags.expand_type
+)
+"gtkPack.ml" 85 3718 3753 "gtkPack.ml" 85 3718 3758
+type(
+  Gtk.Tags.expand_type
+)
+"gtkPack.ml" 85 3718 3750 "gtkPack.ml" 85 3718 3758
+type(
+  Gtk.Tags.expand_type
+)
+"gtkPack.ml" 85 3718 3762 "gtkPack.ml" 85 3718 3767
+type(
+  bool
+)
+"gtkPack.ml" 85 3718 3722 "gtkPack.ml" 85 3718 3767
+type(
+  Gtk.Tags.expand_type -> bool
+)
+type(
+  Gtk.Tags.expand_type -> bool
+)
+"gtkPack.ml" 86 3768 3774 "gtkPack.ml" 86 3768 3779
+type(
+  Gtk.Tags.expand_type -> bool
+)
+ident(
+  def has_y "gtkPack.ml" 88 3854 3856 "gtkPack.ml" 99 4503 4506
+)
+"gtkPack.ml" 87 3804 3817 "gtkPack.ml" 87 3804 3819
+type(
+  Gtk.Tags.expand_type
+)
+"gtkPack.ml" 87 3804 3820 "gtkPack.ml" 87 3804 3825
+type(
+  Gtk.Tags.expand_type
+)
+"gtkPack.ml" 87 3804 3817 "gtkPack.ml" 87 3804 3825
+type(
+  Gtk.Tags.expand_type
+)
+"gtkPack.ml" 87 3804 3829 "gtkPack.ml" 87 3804 3833
+type(
+  bool
+)
+"gtkPack.ml" 87 3804 3836 "gtkPack.ml" 87 3804 3838
+type(
+  Gtk.Tags.expand_type
+)
+"gtkPack.ml" 87 3804 3839 "gtkPack.ml" 87 3804 3844
+type(
+  Gtk.Tags.expand_type
+)
+"gtkPack.ml" 87 3804 3836 "gtkPack.ml" 87 3804 3844
+type(
+  Gtk.Tags.expand_type
+)
+"gtkPack.ml" 87 3804 3848 "gtkPack.ml" 87 3804 3853
+type(
+  bool
+)
+"gtkPack.ml" 87 3804 3808 "gtkPack.ml" 87 3804 3853
+type(
+  Gtk.Tags.expand_type -> bool
+)
+type(
+  Gtk.Tags.expand_type -> bool
+)
+"gtkPack.ml" 88 3854 3860 "gtkPack.ml" 88 3854 3866
+type(
+  [> `table ] Gtk.obj ->
+  left:int ->
+  top:int ->
+  ?right:int ->
+  ?bottom:int ->
+  ?expand:Gtk.Tags.expand_type ->
+  ?fill:Gtk.Tags.expand_type ->
+  ?shrink:Gtk.Tags.expand_type ->
+  ?xpadding:int -> ?ypadding:int -> [> `widget ] Gtk.obj -> unit
+)
+ident(
+  def attach "gtkPack.ml" 98 4477 4502 "gtkPack.ml" 99 4503 4506
+)
+"gtkPack.ml" 88 3854 3867 "gtkPack.ml" 88 3854 3868
+type(
+  ([> `table ] as 'a) Gtk.obj
+)
+ident(
+  def t "gtkPack.ml" 88 3854 3869 "gtkPack.ml" 98 4477 4502
+)
+"gtkPack.ml" 88 3854 3870 "gtkPack.ml" 88 3854 3874
+type(
+  int
+)
+ident(
+  def left "gtkPack.ml" 88 3854 3875 "gtkPack.ml" 98 4477 4502
+)
+"gtkPack.ml" 88 3854 3876 "gtkPack.ml" 88 3854 3879
+type(
+  int
+)
+ident(
+  def top "gtkPack.ml" 88 3854 3880 "gtkPack.ml" 98 4477 4502
+)
+"gtkPack.ml" 88 3854 3882 "gtkPack.ml" 88 3854 3887
+type(
+  int
+)
+"gtkPack.ml" 88 3854 3888 "gtkPack.ml" 88 3854 3892
+type(
+  int
+)
+ident(
+  int_ref left "gtkPack.ml" 88 3854 3870 "gtkPack.ml" 88 3854 3874
+)
+"gtkPack.ml" 88 3854 3892 "gtkPack.ml" 88 3854 3893
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"gtkPack.ml" 88 3854 3893 "gtkPack.ml" 88 3854 3894
+type(
+  int
+)
+"gtkPack.ml" 88 3854 3888 "gtkPack.ml" 88 3854 3894
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gtkPack.ml" 88 3854 3888 "gtkPack.ml" 88 3854 3894
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gtkPack.ml" 88 3854 3888 "gtkPack.ml" 88 3854 3894
+)
+"gtkPack.ml" 88 3854 3898 "gtkPack.ml" 88 3854 3904
+type(
+  int
+)
+"gtkPack.ml" 88 3854 3905 "gtkPack.ml" 88 3854 3908
+type(
+  int
+)
+ident(
+  int_ref top "gtkPack.ml" 88 3854 3876 "gtkPack.ml" 88 3854 3879
+)
+"gtkPack.ml" 88 3854 3908 "gtkPack.ml" 88 3854 3909
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"gtkPack.ml" 88 3854 3909 "gtkPack.ml" 88 3854 3910
+type(
+  int
+)
+"gtkPack.ml" 88 3854 3905 "gtkPack.ml" 88 3854 3910
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gtkPack.ml" 88 3854 3905 "gtkPack.ml" 88 3854 3910
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gtkPack.ml" 88 3854 3905 "gtkPack.ml" 88 3854 3910
+)
+"gtkPack.ml" 89 3912 3920 "gtkPack.ml" 89 3912 3926
+type(
+  Gtk.Tags.expand_type
+)
+"gtkPack.ml" 89 3912 3927 "gtkPack.ml" 89 3912 3932
+type(
+  Gtk.Tags.expand_type
+)
+type(
+  Gtk.Tags.expand_type
+)
+ident(
+  int_ref *sth* "gtkPack.ml" 89 3912 3927 "gtkPack.ml" 89 3912 3932
+)
+type(
+  Gtk.Tags.expand_type option
+)
+type(
+  Gtk.Tags.expand_type option
+)
+type(
+  Gtk.Tags.expand_type
+)
+ident(
+  def *sth* "gtkPack.ml" 89 3912 3927 "gtkPack.ml" 89 3912 3932
+)
+"gtkPack.ml" 89 3912 3936 "gtkPack.ml" 89 3912 3940
+type(
+  Gtk.Tags.expand_type
+)
+"gtkPack.ml" 89 3912 3941 "gtkPack.ml" 89 3912 3946
+type(
+  Gtk.Tags.expand_type
+)
+type(
+  Gtk.Tags.expand_type
+)
+ident(
+  int_ref *sth* "gtkPack.ml" 89 3912 3941 "gtkPack.ml" 89 3912 3946
+)
+type(
+  Gtk.Tags.expand_type option
+)
+type(
+  Gtk.Tags.expand_type option
+)
+type(
+  Gtk.Tags.expand_type
+)
+ident(
+  def *sth* "gtkPack.ml" 89 3912 3941 "gtkPack.ml" 89 3912 3946
+)
+"gtkPack.ml" 89 3912 3950 "gtkPack.ml" 89 3912 3956
+type(
+  Gtk.Tags.expand_type
+)
+"gtkPack.ml" 89 3912 3957 "gtkPack.ml" 89 3912 3962
+type(
+  Gtk.Tags.expand_type
+)
+type(
+  Gtk.Tags.expand_type
+)
+ident(
+  int_ref *sth* "gtkPack.ml" 89 3912 3957 "gtkPack.ml" 89 3912 3962
+)
+type(
+  Gtk.Tags.expand_type option
+)
+type(
+  Gtk.Tags.expand_type option
+)
+type(
+  Gtk.Tags.expand_type
+)
+ident(
+  def *sth* "gtkPack.ml" 89 3912 3957 "gtkPack.ml" 89 3912 3962
+)
+"gtkPack.ml" 90 3964 3972 "gtkPack.ml" 90 3964 3980
+type(
+  int
+)
+"gtkPack.ml" 90 3964 3981 "gtkPack.ml" 90 3964 3982
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gtkPack.ml" 90 3964 3981 "gtkPack.ml" 90 3964 3982
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gtkPack.ml" 90 3964 3981 "gtkPack.ml" 90 3964 3982
+)
+"gtkPack.ml" 90 3964 3986 "gtkPack.ml" 90 3964 3994
+type(
+  int
+)
+"gtkPack.ml" 90 3964 3995 "gtkPack.ml" 90 3964 3996
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gtkPack.ml" 90 3964 3995 "gtkPack.ml" 90 3964 3996
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gtkPack.ml" 90 3964 3995 "gtkPack.ml" 90 3964 3996
+)
+"gtkPack.ml" 90 3964 3998 "gtkPack.ml" 90 3964 3999
+type(
+  ([> `widget ] as 'b) Gtk.obj
+)
+ident(
+  def w "gtkPack.ml" 91 4002 4006 "gtkPack.ml" 98 4477 4502
+)
+"gtkPack.ml" 91 4002 4010 "gtkPack.ml" 91 4002 4018
+type(
+  [> `SHRINK ] list
+)
+"gtkPack.ml" 91 4002 4024 "gtkPack.ml" 91 4002 4029
+type(
+  Gtk.Tags.expand_type -> bool
+)
+ident(
+  int_ref has_x "gtkPack.ml" 84 3682 3688 "gtkPack.ml" 84 3682 3693
+)
+"gtkPack.ml" 91 4002 4030 "gtkPack.ml" 91 4002 4036
+type(
+  Gtk.Tags.expand_type
+)
+ident(
+  int_ref shrink "gtkPack.ml" 89 3912 3950 "gtkPack.ml" 89 3912 3956
+)
+"gtkPack.ml" 91 4002 4024 "gtkPack.ml" 91 4002 4036
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkPack.ml" 91 4002 4043 "gtkPack.ml" 91 4002 4050
+type(
+  [> `SHRINK ] as 'c
+)
+"gtkPack.ml" 91 4002 4042 "gtkPack.ml" 91 4002 4051
+type(
+  'c list
+)
+"gtkPack.ml" 91 4002 4057 "gtkPack.ml" 91 4002 4059
+type(
+  'c list
+)
+"gtkPack.ml" 91 4002 4021 "gtkPack.ml" 91 4002 4059
+type(
+  'c list
+)
+"gtkPack.ml" 92 4063 4071 "gtkPack.ml" 92 4063 4079
+type(
+  [> `FILL | `SHRINK ] list
+)
+"gtkPack.ml" 92 4063 4085 "gtkPack.ml" 92 4063 4090
+type(
+  Gtk.Tags.expand_type -> bool
+)
+ident(
+  int_ref has_x "gtkPack.ml" 84 3682 3688 "gtkPack.ml" 84 3682 3693
+)
+"gtkPack.ml" 92 4063 4091 "gtkPack.ml" 92 4063 4095
+type(
+  Gtk.Tags.expand_type
+)
+ident(
+  int_ref fill "gtkPack.ml" 89 3912 3936 "gtkPack.ml" 89 3912 3940
+)
+"gtkPack.ml" 92 4063 4085 "gtkPack.ml" 92 4063 4095
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkPack.ml" 92 4063 4101 "gtkPack.ml" 92 4063 4106
+type(
+  [> `FILL | `SHRINK ] as 'd
+)
+"gtkPack.ml" 92 4063 4108 "gtkPack.ml" 92 4063 4116
+type(
+  'd list
+)
+ident(
+  int_ref xoptions "gtkPack.ml" 91 4002 4010 "gtkPack.ml" 91 4002 4018
+)
+"gtkPack.ml" 92 4063 4101 "gtkPack.ml" 92 4063 4116
+type(
+  'd list
+)
+"gtkPack.ml" 92 4063 4122 "gtkPack.ml" 92 4063 4130
+type(
+  'd list
+)
+ident(
+  int_ref xoptions "gtkPack.ml" 91 4002 4010 "gtkPack.ml" 91 4002 4018
+)
+"gtkPack.ml" 92 4063 4082 "gtkPack.ml" 92 4063 4130
+type(
+  'd list
+)
+"gtkPack.ml" 93 4134 4142 "gtkPack.ml" 93 4134 4150
+type(
+  [> `EXPAND | `FILL | `SHRINK ] list
+)
+"gtkPack.ml" 93 4134 4156 "gtkPack.ml" 93 4134 4161
+type(
+  Gtk.Tags.expand_type -> bool
+)
+ident(
+  int_ref has_x "gtkPack.ml" 84 3682 3688 "gtkPack.ml" 84 3682 3693
+)
+"gtkPack.ml" 93 4134 4162 "gtkPack.ml" 93 4134 4168
+type(
+  Gtk.Tags.expand_type
+)
+ident(
+  int_ref expand "gtkPack.ml" 89 3912 3920 "gtkPack.ml" 89 3912 3926
+)
+"gtkPack.ml" 93 4134 4156 "gtkPack.ml" 93 4134 4168
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkPack.ml" 93 4134 4174 "gtkPack.ml" 93 4134 4181
+type(
+  [> `EXPAND | `FILL | `SHRINK ] as 'e
+)
+"gtkPack.ml" 93 4134 4183 "gtkPack.ml" 93 4134 4191
+type(
+  'e list
+)
+ident(
+  int_ref xoptions "gtkPack.ml" 92 4063 4071 "gtkPack.ml" 92 4063 4079
+)
+"gtkPack.ml" 93 4134 4174 "gtkPack.ml" 93 4134 4191
+type(
+  'e list
+)
+"gtkPack.ml" 93 4134 4197 "gtkPack.ml" 93 4134 4205
+type(
+  'e list
+)
+ident(
+  int_ref xoptions "gtkPack.ml" 92 4063 4071 "gtkPack.ml" 92 4063 4079
+)
+"gtkPack.ml" 93 4134 4153 "gtkPack.ml" 93 4134 4205
+type(
+  'e list
+)
+"gtkPack.ml" 94 4209 4217 "gtkPack.ml" 94 4209 4225
+type(
+  [> `SHRINK ] list
+)
+"gtkPack.ml" 94 4209 4231 "gtkPack.ml" 94 4209 4236
+type(
+  Gtk.Tags.expand_type -> bool
+)
+ident(
+  int_ref has_y "gtkPack.ml" 86 3768 3774 "gtkPack.ml" 86 3768 3779
+)
+"gtkPack.ml" 94 4209 4237 "gtkPack.ml" 94 4209 4243
+type(
+  Gtk.Tags.expand_type
+)
+ident(
+  int_ref shrink "gtkPack.ml" 89 3912 3950 "gtkPack.ml" 89 3912 3956
+)
+"gtkPack.ml" 94 4209 4231 "gtkPack.ml" 94 4209 4243
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkPack.ml" 94 4209 4250 "gtkPack.ml" 94 4209 4257
+type(
+  [> `SHRINK ] as 'f
+)
+"gtkPack.ml" 94 4209 4249 "gtkPack.ml" 94 4209 4258
+type(
+  'f list
+)
+"gtkPack.ml" 94 4209 4264 "gtkPack.ml" 94 4209 4266
+type(
+  'f list
+)
+"gtkPack.ml" 94 4209 4228 "gtkPack.ml" 94 4209 4266
+type(
+  'f list
+)
+"gtkPack.ml" 95 4270 4278 "gtkPack.ml" 95 4270 4286
+type(
+  [> `FILL | `SHRINK ] list
+)
+"gtkPack.ml" 95 4270 4292 "gtkPack.ml" 95 4270 4297
+type(
+  Gtk.Tags.expand_type -> bool
+)
+ident(
+  int_ref has_y "gtkPack.ml" 86 3768 3774 "gtkPack.ml" 86 3768 3779
+)
+"gtkPack.ml" 95 4270 4298 "gtkPack.ml" 95 4270 4302
+type(
+  Gtk.Tags.expand_type
+)
+ident(
+  int_ref fill "gtkPack.ml" 89 3912 3936 "gtkPack.ml" 89 3912 3940
+)
+"gtkPack.ml" 95 4270 4292 "gtkPack.ml" 95 4270 4302
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkPack.ml" 95 4270 4308 "gtkPack.ml" 95 4270 4313
+type(
+  [> `FILL | `SHRINK ] as 'g
+)
+"gtkPack.ml" 95 4270 4315 "gtkPack.ml" 95 4270 4323
+type(
+  'g list
+)
+ident(
+  int_ref yoptions "gtkPack.ml" 94 4209 4217 "gtkPack.ml" 94 4209 4225
+)
+"gtkPack.ml" 95 4270 4308 "gtkPack.ml" 95 4270 4323
+type(
+  'g list
+)
+"gtkPack.ml" 95 4270 4329 "gtkPack.ml" 95 4270 4337
+type(
+  'g list
+)
+ident(
+  int_ref yoptions "gtkPack.ml" 94 4209 4217 "gtkPack.ml" 94 4209 4225
+)
+"gtkPack.ml" 95 4270 4289 "gtkPack.ml" 95 4270 4337
+type(
+  'g list
+)
+"gtkPack.ml" 96 4341 4349 "gtkPack.ml" 96 4341 4357
+type(
+  [> `EXPAND | `FILL | `SHRINK ] list
+)
+"gtkPack.ml" 96 4341 4363 "gtkPack.ml" 96 4341 4368
+type(
+  Gtk.Tags.expand_type -> bool
+)
+ident(
+  int_ref has_y "gtkPack.ml" 86 3768 3774 "gtkPack.ml" 86 3768 3779
+)
+"gtkPack.ml" 96 4341 4369 "gtkPack.ml" 96 4341 4375
+type(
+  Gtk.Tags.expand_type
+)
+ident(
+  int_ref expand "gtkPack.ml" 89 3912 3920 "gtkPack.ml" 89 3912 3926
+)
+"gtkPack.ml" 96 4341 4363 "gtkPack.ml" 96 4341 4375
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkPack.ml" 96 4341 4381 "gtkPack.ml" 96 4341 4388
+type(
+  [> `EXPAND | `FILL | `SHRINK ] as 'h
+)
+"gtkPack.ml" 96 4341 4390 "gtkPack.ml" 96 4341 4398
+type(
+  'h list
+)
+ident(
+  int_ref yoptions "gtkPack.ml" 95 4270 4278 "gtkPack.ml" 95 4270 4286
+)
+"gtkPack.ml" 96 4341 4381 "gtkPack.ml" 96 4341 4398
+type(
+  'h list
+)
+"gtkPack.ml" 96 4341 4404 "gtkPack.ml" 96 4341 4412
+type(
+  'h list
+)
+ident(
+  int_ref yoptions "gtkPack.ml" 95 4270 4278 "gtkPack.ml" 95 4270 4286
+)
+"gtkPack.ml" 96 4341 4360 "gtkPack.ml" 96 4341 4412
+type(
+  'h list
+)
+"gtkPack.ml" 97 4416 4420 "gtkPack.ml" 97 4416 4426
+type(
+  'a Gtk.obj ->
+  'b Gtk.obj ->
+  left:int ->
+  right:int ->
+  top:int ->
+  bottom:int ->
+  xoptions:Gtk.Tags.attach_options list ->
+  yoptions:Gtk.Tags.attach_options list ->
+  xpadding:int -> ypadding:int -> unit
+)
+"gtkPack.ml" 97 4416 4427 "gtkPack.ml" 97 4416 4428
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref t "gtkPack.ml" 88 3854 3867 "gtkPack.ml" 88 3854 3868
+)
+"gtkPack.ml" 97 4416 4429 "gtkPack.ml" 97 4416 4430
+type(
+  'b Gtk.obj
+)
+ident(
+  int_ref w "gtkPack.ml" 90 3964 3998 "gtkPack.ml" 90 3964 3999
+)
+"gtkPack.ml" 97 4416 4432 "gtkPack.ml" 97 4416 4436
+type(
+  int
+)
+ident(
+  int_ref left "gtkPack.ml" 88 3854 3870 "gtkPack.ml" 88 3854 3874
+)
+"gtkPack.ml" 97 4416 4438 "gtkPack.ml" 97 4416 4441
+type(
+  int
+)
+ident(
+  int_ref top "gtkPack.ml" 88 3854 3876 "gtkPack.ml" 88 3854 3879
+)
+"gtkPack.ml" 97 4416 4443 "gtkPack.ml" 97 4416 4448
+type(
+  int
+)
+ident(
+  int_ref right "gtkPack.ml" 88 3854 3882 "gtkPack.ml" 88 3854 3887
+)
+"gtkPack.ml" 97 4416 4450 "gtkPack.ml" 97 4416 4456
+type(
+  int
+)
+ident(
+  int_ref bottom "gtkPack.ml" 88 3854 3898 "gtkPack.ml" 88 3854 3904
+)
+"gtkPack.ml" 97 4416 4458 "gtkPack.ml" 97 4416 4466
+type(
+  Gtk.Tags.attach_options list
+)
+ident(
+  int_ref xoptions "gtkPack.ml" 93 4134 4142 "gtkPack.ml" 93 4134 4150
+)
+"gtkPack.ml" 97 4416 4468 "gtkPack.ml" 97 4416 4476
+type(
+  Gtk.Tags.attach_options list
+)
+ident(
+  int_ref yoptions "gtkPack.ml" 96 4341 4349 "gtkPack.ml" 96 4341 4357
+)
+"gtkPack.ml" 98 4477 4484 "gtkPack.ml" 98 4477 4492
+type(
+  int
+)
+ident(
+  int_ref xpadding "gtkPack.ml" 90 3964 3972 "gtkPack.ml" 90 3964 3980
+)
+"gtkPack.ml" 98 4477 4494 "gtkPack.ml" 98 4477 4502
+type(
+  int
+)
+ident(
+  int_ref ypadding "gtkPack.ml" 90 3964 3986 "gtkPack.ml" 90 3964 3994
+)
+"gtkPack.ml" 97 4416 4420 "gtkPack.ml" 98 4477 4502
+type(
+  unit
+)
+"gtkPack.ml" 96 4341 4345 "gtkPack.ml" 98 4477 4502
+type(
+  unit
+)
+"gtkPack.ml" 95 4270 4274 "gtkPack.ml" 98 4477 4502
+type(
+  unit
+)
+"gtkPack.ml" 94 4209 4213 "gtkPack.ml" 98 4477 4502
+type(
+  unit
+)
+"gtkPack.ml" 93 4134 4138 "gtkPack.ml" 98 4477 4502
+type(
+  unit
+)
+"gtkPack.ml" 92 4063 4067 "gtkPack.ml" 98 4477 4502
+type(
+  unit
+)
+"gtkPack.ml" 91 4002 4006 "gtkPack.ml" 98 4477 4502
+type(
+  unit
+)

@@ -1,0 +1,9 @@
+# OASIS_START
+# DO NOT EDIT (digest: 11a89e2e679c6553f34b8ff2358687cb)
+version = "0.2"
+description = "Find roots of 1D functions."
+archive(byte) = "root1d.cma"
+archive(native) = "root1d.cmxa"
+exists_if = "root1d.cma"
+# OASIS_STOP
+

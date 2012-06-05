@@ -1,0 +1,53 @@
+# OASIS_START
+# DO NOT EDIT (digest: fa5677a37ebf14124088a9bb4ef8639a)
+# Library benchmark
+<*.ml{,i}>: pkg_unix
+# Executable long_run
+<tests/long_run.{native,byte}>: use_benchmark
+<tests/long_run.{native,byte}>: pkg_unix
+<tests/*.ml{,i}>: use_benchmark
+<tests/*.ml{,i}>: pkg_unix
+# Executable try_if
+<examples/try_if.{native,byte}>: use_benchmark
+<examples/try_if.{native,byte}>: pkg_unix
+<examples/try_if.{native,byte}>: pkg_bigarray
+# Executable match_array
+<examples/match_array.{native,byte}>: use_benchmark
+<examples/match_array.{native,byte}>: pkg_unix
+# Executable numbers
+<examples/numbers.{native,byte}>: use_benchmark
+<examples/numbers.{native,byte}>: pkg_unix
+# Executable composition
+<examples/composition.{native,byte}>: use_benchmark
+<examples/composition.{native,byte}>: pkg_unix
+# Executable let_try
+<examples/let_try.{native,byte}>: use_benchmark
+<examples/let_try.{native,byte}>: pkg_unix
+<examples/let_try.{native,byte}>: pkg_bigarray
+# Executable loops
+<examples/loops.{native,byte}>: use_benchmark
+<examples/loops.{native,byte}>: pkg_unix
+# Executable ar_ba
+<examples/ar_ba.{native,byte}>: use_benchmark
+<examples/ar_ba.{native,byte}>: pkg_unix
+<examples/ar_ba.{native,byte}>: pkg_bigarray
+# Executable regexps
+<examples/regexps.{native,byte}>: use_benchmark
+<examples/regexps.{native,byte}>: pkg_unix
+<examples/regexps.{native,byte}>: pkg_str
+<examples/regexps.{native,byte}>: pkg_pcre
+<examples/*.ml{,i}>: pkg_str
+<examples/*.ml{,i}>: pkg_pcre
+# Executable func_record
+<examples/func_record.{native,byte}>: use_benchmark
+<examples/func_record.{native,byte}>: pkg_unix
+# Executable iter
+<examples/iter.{native,byte}>: use_benchmark
+<examples/iter.{native,byte}>: pkg_unix
+<examples/iter.{native,byte}>: pkg_bigarray
+<examples/*.ml{,i}>: use_benchmark
+<examples/*.ml{,i}>: pkg_unix
+<examples/*.ml{,i}>: pkg_bigarray
+# OASIS_STOP
+
+<**/*.ml>: annot

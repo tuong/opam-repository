@@ -1,0 +1,4 @@
+deps=ocamlbuild
+tarball=zip-1.04+svn~oasis3.tar.gz
+is_library=true
+is_program=false

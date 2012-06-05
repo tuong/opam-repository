@@ -1,0 +1,2530 @@
+"rsvg.ml" 27 1715 1719 "rsvg.ml" 27 1715 1724
+type(
+  float -> int
+)
+ident(
+  def round "rsvg.ml" 30 1785 1785 --
+)
+"rsvg.ml" 27 1715 1725 "rsvg.ml" 27 1715 1726
+type(
+  float
+)
+ident(
+  def f "rsvg.ml" 28 1729 1731 "rsvg.ml" 28 1729 1783
+)
+"rsvg.ml" 28 1729 1731 "rsvg.ml" 28 1729 1743
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"rsvg.ml" 28 1729 1748 "rsvg.ml" 28 1729 1749
+type(
+  float
+)
+ident(
+  int_ref f "rsvg.ml" 27 1715 1725 "rsvg.ml" 27 1715 1726
+)
+"rsvg.ml" 28 1729 1750 "rsvg.ml" 28 1729 1751
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"rsvg.ml" 28 1729 1752 "rsvg.ml" 28 1729 1754
+type(
+  float
+)
+"rsvg.ml" 28 1729 1748 "rsvg.ml" 28 1729 1754
+type(
+  bool
+)
+"rsvg.ml" 28 1729 1760 "rsvg.ml" 28 1729 1761
+type(
+  float
+)
+ident(
+  int_ref f "rsvg.ml" 27 1715 1725 "rsvg.ml" 27 1715 1726
+)
+"rsvg.ml" 28 1729 1762 "rsvg.ml" 28 1729 1764
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"rsvg.ml" 28 1729 1765 "rsvg.ml" 28 1729 1768
+type(
+  float
+)
+"rsvg.ml" 28 1729 1760 "rsvg.ml" 28 1729 1768
+type(
+  float
+)
+"rsvg.ml" 28 1729 1774 "rsvg.ml" 28 1729 1775
+type(
+  float
+)
+ident(
+  int_ref f "rsvg.ml" 27 1715 1725 "rsvg.ml" 27 1715 1726
+)
+"rsvg.ml" 28 1729 1776 "rsvg.ml" 28 1729 1778
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"rsvg.ml" 28 1729 1779 "rsvg.ml" 28 1729 1782
+type(
+  float
+)
+"rsvg.ml" 28 1729 1774 "rsvg.ml" 28 1729 1782
+type(
+  float
+)
+"rsvg.ml" 28 1729 1744 "rsvg.ml" 28 1729 1783
+type(
+  float
+)
+"rsvg.ml" 28 1729 1731 "rsvg.ml" 28 1729 1783
+type(
+  int
+)
+"rsvg.ml" 30 1785 1789 "rsvg.ml" 30 1785 1796
+type(
+  int -> int -> int -> int -> int * int
+)
+ident(
+  def at_size "rsvg.ml" 32 1867 1867 --
+)
+"rsvg.ml" 30 1785 1797 "rsvg.ml" 30 1785 1799
+type(
+  int
+)
+ident(
+  def rw "rsvg.ml" 30 1785 1800 "rsvg.ml" 31 1810 1866
+)
+"rsvg.ml" 30 1785 1800 "rsvg.ml" 30 1785 1802
+type(
+  int
+)
+ident(
+  def rh "rsvg.ml" 30 1785 1803 "rsvg.ml" 31 1810 1866
+)
+"rsvg.ml" 30 1785 1803 "rsvg.ml" 30 1785 1804
+type(
+  int
+)
+ident(
+  def w "rsvg.ml" 30 1785 1805 "rsvg.ml" 31 1810 1866
+)
+"rsvg.ml" 30 1785 1805 "rsvg.ml" 30 1785 1806
+type(
+  int
+)
+ident(
+  def h "rsvg.ml" 31 1810 1812 "rsvg.ml" 31 1810 1866
+)
+"rsvg.ml" 31 1810 1816 "rsvg.ml" 31 1810 1818
+type(
+  int
+)
+ident(
+  int_ref rw "rsvg.ml" 30 1785 1797 "rsvg.ml" 30 1785 1799
+)
+"rsvg.ml" 31 1810 1819 "rsvg.ml" 31 1810 1820
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"rsvg.ml" 31 1810 1821 "rsvg.ml" 31 1810 1822
+type(
+  int
+)
+"rsvg.ml" 31 1810 1816 "rsvg.ml" 31 1810 1822
+type(
+  bool
+)
+"rsvg.ml" 31 1810 1828 "rsvg.ml" 31 1810 1829
+type(
+  int
+)
+ident(
+  int_ref w "rsvg.ml" 30 1785 1803 "rsvg.ml" 30 1785 1804
+)
+"rsvg.ml" 31 1810 1835 "rsvg.ml" 31 1810 1837
+type(
+  int
+)
+ident(
+  int_ref rw "rsvg.ml" 30 1785 1797 "rsvg.ml" 30 1785 1799
+)
+"rsvg.ml" 31 1810 1812 "rsvg.ml" 31 1810 1838
+type(
+  int
+)
+"rsvg.ml" 31 1810 1844 "rsvg.ml" 31 1810 1846
+type(
+  int
+)
+ident(
+  int_ref rh "rsvg.ml" 30 1785 1800 "rsvg.ml" 30 1785 1802
+)
+"rsvg.ml" 31 1810 1847 "rsvg.ml" 31 1810 1848
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"rsvg.ml" 31 1810 1849 "rsvg.ml" 31 1810 1850
+type(
+  int
+)
+"rsvg.ml" 31 1810 1844 "rsvg.ml" 31 1810 1850
+type(
+  bool
+)
+"rsvg.ml" 31 1810 1856 "rsvg.ml" 31 1810 1857
+type(
+  int
+)
+ident(
+  int_ref h "rsvg.ml" 30 1785 1805 "rsvg.ml" 30 1785 1806
+)
+"rsvg.ml" 31 1810 1863 "rsvg.ml" 31 1810 1865
+type(
+  int
+)
+ident(
+  int_ref rh "rsvg.ml" 30 1785 1800 "rsvg.ml" 30 1785 1802
+)
+"rsvg.ml" 31 1810 1840 "rsvg.ml" 31 1810 1866
+type(
+  int
+)
+"rsvg.ml" 31 1810 1812 "rsvg.ml" 31 1810 1866
+type(
+  int * int
+)
+"rsvg.ml" 32 1867 1871 "rsvg.ml" 32 1867 1878
+type(
+  float -> float -> int -> int -> int * int
+)
+ident(
+  def at_zoom "rsvg.ml" 37 1985 1985 --
+)
+"rsvg.ml" 32 1867 1879 "rsvg.ml" 32 1867 1881
+type(
+  float
+)
+ident(
+  def zx "rsvg.ml" 32 1867 1882 "rsvg.ml" 36 1932 1984
+)
+"rsvg.ml" 32 1867 1882 "rsvg.ml" 32 1867 1884
+type(
+  float
+)
+ident(
+  def zy "rsvg.ml" 32 1867 1885 "rsvg.ml" 36 1932 1984
+)
+"rsvg.ml" 32 1867 1885 "rsvg.ml" 32 1867 1886
+type(
+  int
+)
+ident(
+  def w "rsvg.ml" 32 1867 1887 "rsvg.ml" 36 1932 1984
+)
+"rsvg.ml" 32 1867 1887 "rsvg.ml" 32 1867 1888
+type(
+  int
+)
+ident(
+  def h "rsvg.ml" 33 1891 1893 "rsvg.ml" 36 1932 1984
+)
+"rsvg.ml" 33 1891 1896 "rsvg.ml" 33 1891 1897
+type(
+  int
+)
+ident(
+  int_ref w "rsvg.ml" 32 1867 1885 "rsvg.ml" 32 1867 1886
+)
+"rsvg.ml" 33 1891 1898 "rsvg.ml" 33 1891 1899
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"rsvg.ml" 33 1891 1900 "rsvg.ml" 33 1891 1901
+type(
+  int
+)
+"rsvg.ml" 33 1891 1896 "rsvg.ml" 33 1891 1901
+type(
+  bool
+)
+"rsvg.ml" 33 1891 1902 "rsvg.ml" 33 1891 1904
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"rsvg.ml" 33 1891 1905 "rsvg.ml" 33 1891 1906
+type(
+  int
+)
+ident(
+  int_ref h "rsvg.ml" 32 1867 1887 "rsvg.ml" 32 1867 1888
+)
+"rsvg.ml" 33 1891 1907 "rsvg.ml" 33 1891 1908
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"rsvg.ml" 33 1891 1909 "rsvg.ml" 33 1891 1910
+type(
+  int
+)
+"rsvg.ml" 33 1891 1905 "rsvg.ml" 33 1891 1910
+type(
+  bool
+)
+"rsvg.ml" 33 1891 1896 "rsvg.ml" 33 1891 1910
+type(
+  bool
+)
+"rsvg.ml" 34 1911 1919 "rsvg.ml" 34 1911 1920
+type(
+  int
+)
+ident(
+  int_ref w "rsvg.ml" 32 1867 1885 "rsvg.ml" 32 1867 1886
+)
+"rsvg.ml" 34 1911 1922 "rsvg.ml" 34 1911 1923
+type(
+  int
+)
+ident(
+  int_ref h "rsvg.ml" 32 1867 1887 "rsvg.ml" 32 1867 1888
+)
+"rsvg.ml" 34 1911 1918 "rsvg.ml" 34 1911 1924
+type(
+  int * int
+)
+"rsvg.ml" 36 1932 1937 "rsvg.ml" 36 1932 1942
+type(
+  float -> int
+)
+ident(
+  int_ref round "rsvg.ml" 27 1715 1719 "rsvg.ml" 27 1715 1724
+)
+"rsvg.ml" 36 1932 1944 "rsvg.ml" 36 1932 1949
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"rsvg.ml" 36 1932 1950 "rsvg.ml" 36 1932 1951
+type(
+  int
+)
+ident(
+  int_ref w "rsvg.ml" 32 1867 1885 "rsvg.ml" 32 1867 1886
+)
+"rsvg.ml" 36 1932 1944 "rsvg.ml" 36 1932 1951
+type(
+  float
+)
+"rsvg.ml" 36 1932 1952 "rsvg.ml" 36 1932 1954
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"rsvg.ml" 36 1932 1955 "rsvg.ml" 36 1932 1957
+type(
+  float
+)
+ident(
+  int_ref zx "rsvg.ml" 32 1867 1879 "rsvg.ml" 32 1867 1881
+)
+"rsvg.ml" 36 1932 1943 "rsvg.ml" 36 1932 1958
+type(
+  float
+)
+"rsvg.ml" 36 1932 1936 "rsvg.ml" 36 1932 1959
+call(
+  stack
+)
+type(
+  int
+)
+"rsvg.ml" 36 1932 1962 "rsvg.ml" 36 1932 1967
+type(
+  float -> int
+)
+ident(
+  int_ref round "rsvg.ml" 27 1715 1719 "rsvg.ml" 27 1715 1724
+)
+"rsvg.ml" 36 1932 1969 "rsvg.ml" 36 1932 1974
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"rsvg.ml" 36 1932 1975 "rsvg.ml" 36 1932 1976
+type(
+  int
+)
+ident(
+  int_ref h "rsvg.ml" 32 1867 1887 "rsvg.ml" 32 1867 1888
+)
+"rsvg.ml" 36 1932 1969 "rsvg.ml" 36 1932 1976
+type(
+  float
+)
+"rsvg.ml" 36 1932 1977 "rsvg.ml" 36 1932 1979
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"rsvg.ml" 36 1932 1980 "rsvg.ml" 36 1932 1982
+type(
+  float
+)
+ident(
+  int_ref zy "rsvg.ml" 32 1867 1882 "rsvg.ml" 32 1867 1884
+)
+"rsvg.ml" 36 1932 1968 "rsvg.ml" 36 1932 1983
+type(
+  float
+)
+"rsvg.ml" 36 1932 1961 "rsvg.ml" 36 1932 1984
+call(
+  stack
+)
+type(
+  int
+)
+"rsvg.ml" 36 1932 1936 "rsvg.ml" 36 1932 1984
+type(
+  int * int
+)
+"rsvg.ml" 33 1891 1893 "rsvg.ml" 36 1932 1984
+type(
+  int * int
+)
+"rsvg.ml" 37 1985 1989 "rsvg.ml" 37 1985 2000
+type(
+  int -> int -> int -> int -> int * int
+)
+ident(
+  def at_max_size "rsvg.ml" 46 2203 2203 --
+)
+"rsvg.ml" 37 1985 2001 "rsvg.ml" 37 1985 2003
+type(
+  int
+)
+ident(
+  def mw "rsvg.ml" 37 1985 2004 "rsvg.ml" 44 2151 2201
+)
+"rsvg.ml" 37 1985 2004 "rsvg.ml" 37 1985 2006
+type(
+  int
+)
+ident(
+  def mh "rsvg.ml" 37 1985 2007 "rsvg.ml" 44 2151 2201
+)
+"rsvg.ml" 37 1985 2007 "rsvg.ml" 37 1985 2008
+type(
+  int
+)
+ident(
+  def w "rsvg.ml" 37 1985 2009 "rsvg.ml" 44 2151 2201
+)
+"rsvg.ml" 37 1985 2009 "rsvg.ml" 37 1985 2010
+type(
+  int
+)
+ident(
+  def h "rsvg.ml" 38 2013 2015 "rsvg.ml" 44 2151 2201
+)
+"rsvg.ml" 38 2013 2018 "rsvg.ml" 38 2013 2019
+type(
+  int
+)
+ident(
+  int_ref w "rsvg.ml" 37 1985 2007 "rsvg.ml" 37 1985 2008
+)
+"rsvg.ml" 38 2013 2020 "rsvg.ml" 38 2013 2021
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"rsvg.ml" 38 2013 2022 "rsvg.ml" 38 2013 2023
+type(
+  int
+)
+"rsvg.ml" 38 2013 2018 "rsvg.ml" 38 2013 2023
+type(
+  bool
+)
+"rsvg.ml" 38 2013 2024 "rsvg.ml" 38 2013 2026
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"rsvg.ml" 38 2013 2027 "rsvg.ml" 38 2013 2028
+type(
+  int
+)
+ident(
+  int_ref h "rsvg.ml" 37 1985 2009 "rsvg.ml" 37 1985 2010
+)
+"rsvg.ml" 38 2013 2029 "rsvg.ml" 38 2013 2030
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"rsvg.ml" 38 2013 2031 "rsvg.ml" 38 2013 2032
+type(
+  int
+)
+"rsvg.ml" 38 2013 2027 "rsvg.ml" 38 2013 2032
+type(
+  bool
+)
+"rsvg.ml" 38 2013 2018 "rsvg.ml" 38 2013 2032
+type(
+  bool
+)
+"rsvg.ml" 39 2033 2041 "rsvg.ml" 39 2033 2042
+type(
+  int
+)
+ident(
+  int_ref w "rsvg.ml" 37 1985 2007 "rsvg.ml" 37 1985 2008
+)
+"rsvg.ml" 39 2033 2044 "rsvg.ml" 39 2033 2045
+type(
+  int
+)
+ident(
+  int_ref h "rsvg.ml" 37 1985 2009 "rsvg.ml" 37 1985 2010
+)
+"rsvg.ml" 39 2033 2040 "rsvg.ml" 39 2033 2046
+type(
+  int * int
+)
+"rsvg.ml" 41 2054 2062 "rsvg.ml" 41 2054 2064
+type(
+  float
+)
+"rsvg.ml" 41 2054 2067 "rsvg.ml" 41 2054 2072
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"rsvg.ml" 41 2054 2073 "rsvg.ml" 41 2054 2075
+type(
+  int
+)
+ident(
+  int_ref mw "rsvg.ml" 37 1985 2001 "rsvg.ml" 37 1985 2003
+)
+"rsvg.ml" 41 2054 2067 "rsvg.ml" 41 2054 2075
+type(
+  float
+)
+"rsvg.ml" 41 2054 2076 "rsvg.ml" 41 2054 2078
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"rsvg.ml" 41 2054 2079 "rsvg.ml" 41 2054 2084
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"rsvg.ml" 41 2054 2085 "rsvg.ml" 41 2054 2086
+type(
+  int
+)
+ident(
+  int_ref w "rsvg.ml" 37 1985 2007 "rsvg.ml" 37 1985 2008
+)
+"rsvg.ml" 41 2054 2079 "rsvg.ml" 41 2054 2086
+type(
+  float
+)
+"rsvg.ml" 41 2054 2067 "rsvg.ml" 41 2054 2086
+type(
+  float
+)
+"rsvg.ml" 42 2090 2098 "rsvg.ml" 42 2090 2100
+type(
+  float
+)
+"rsvg.ml" 42 2090 2103 "rsvg.ml" 42 2090 2108
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"rsvg.ml" 42 2090 2109 "rsvg.ml" 42 2090 2111
+type(
+  int
+)
+ident(
+  int_ref mh "rsvg.ml" 37 1985 2004 "rsvg.ml" 37 1985 2006
+)
+"rsvg.ml" 42 2090 2103 "rsvg.ml" 42 2090 2111
+type(
+  float
+)
+"rsvg.ml" 42 2090 2112 "rsvg.ml" 42 2090 2114
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"rsvg.ml" 42 2090 2115 "rsvg.ml" 42 2090 2120
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"rsvg.ml" 42 2090 2121 "rsvg.ml" 42 2090 2122
+type(
+  int
+)
+ident(
+  int_ref h "rsvg.ml" 37 1985 2009 "rsvg.ml" 37 1985 2010
+)
+"rsvg.ml" 42 2090 2115 "rsvg.ml" 42 2090 2122
+type(
+  float
+)
+"rsvg.ml" 42 2090 2103 "rsvg.ml" 42 2090 2122
+type(
+  float
+)
+"rsvg.ml" 43 2126 2134 "rsvg.ml" 43 2126 2135
+type(
+  float
+)
+"rsvg.ml" 43 2126 2138 "rsvg.ml" 43 2126 2141
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.min
+)
+"rsvg.ml" 43 2126 2142 "rsvg.ml" 43 2126 2144
+type(
+  float
+)
+ident(
+  int_ref zx "rsvg.ml" 41 2054 2062 "rsvg.ml" 41 2054 2064
+)
+"rsvg.ml" 43 2126 2145 "rsvg.ml" 43 2126 2147
+type(
+  float
+)
+ident(
+  int_ref zy "rsvg.ml" 42 2090 2098 "rsvg.ml" 42 2090 2100
+)
+"rsvg.ml" 43 2126 2138 "rsvg.ml" 43 2126 2147
+call(
+  stack
+)
+type(
+  float
+)
+"rsvg.ml" 44 2151 2156 "rsvg.ml" 44 2151 2161
+type(
+  float -> int
+)
+ident(
+  int_ref round "rsvg.ml" 27 1715 1719 "rsvg.ml" 27 1715 1724
+)
+"rsvg.ml" 44 2151 2163 "rsvg.ml" 44 2151 2168
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"rsvg.ml" 44 2151 2169 "rsvg.ml" 44 2151 2170
+type(
+  int
+)
+ident(
+  int_ref w "rsvg.ml" 37 1985 2007 "rsvg.ml" 37 1985 2008
+)
+"rsvg.ml" 44 2151 2163 "rsvg.ml" 44 2151 2170
+type(
+  float
+)
+"rsvg.ml" 44 2151 2171 "rsvg.ml" 44 2151 2173
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"rsvg.ml" 44 2151 2174 "rsvg.ml" 44 2151 2175
+type(
+  float
+)
+ident(
+  int_ref z "rsvg.ml" 43 2126 2134 "rsvg.ml" 43 2126 2135
+)
+"rsvg.ml" 44 2151 2162 "rsvg.ml" 44 2151 2176
+type(
+  float
+)
+"rsvg.ml" 44 2151 2155 "rsvg.ml" 44 2151 2177
+call(
+  stack
+)
+type(
+  int
+)
+"rsvg.ml" 44 2151 2180 "rsvg.ml" 44 2151 2185
+type(
+  float -> int
+)
+ident(
+  int_ref round "rsvg.ml" 27 1715 1719 "rsvg.ml" 27 1715 1724
+)
+"rsvg.ml" 44 2151 2187 "rsvg.ml" 44 2151 2192
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"rsvg.ml" 44 2151 2193 "rsvg.ml" 44 2151 2194
+type(
+  int
+)
+ident(
+  int_ref h "rsvg.ml" 37 1985 2009 "rsvg.ml" 37 1985 2010
+)
+"rsvg.ml" 44 2151 2187 "rsvg.ml" 44 2151 2194
+type(
+  float
+)
+"rsvg.ml" 44 2151 2195 "rsvg.ml" 44 2151 2197
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"rsvg.ml" 44 2151 2198 "rsvg.ml" 44 2151 2199
+type(
+  float
+)
+ident(
+  int_ref z "rsvg.ml" 43 2126 2134 "rsvg.ml" 43 2126 2135
+)
+"rsvg.ml" 44 2151 2186 "rsvg.ml" 44 2151 2200
+type(
+  float
+)
+"rsvg.ml" 44 2151 2179 "rsvg.ml" 44 2151 2201
+call(
+  stack
+)
+type(
+  int
+)
+"rsvg.ml" 44 2151 2155 "rsvg.ml" 44 2151 2201
+type(
+  int * int
+)
+"rsvg.ml" 43 2126 2130 "rsvg.ml" 44 2151 2201
+type(
+  int * int
+)
+"rsvg.ml" 42 2090 2094 "rsvg.ml" 44 2151 2201
+type(
+  int * int
+)
+"rsvg.ml" 41 2054 2058 "rsvg.ml" 44 2151 2201
+type(
+  int * int
+)
+"rsvg.ml" 38 2013 2015 "rsvg.ml" 44 2151 2201
+type(
+  int * int
+)
+"rsvg.ml" 46 2203 2207 "rsvg.ml" 46 2203 2223
+type(
+  float -> float -> int -> int -> int -> int -> int * int
+)
+ident(
+  def at_zoom_with_max "rsvg.ml" 61 2577 2577 --
+)
+"rsvg.ml" 46 2203 2224 "rsvg.ml" 46 2203 2226
+type(
+  float
+)
+ident(
+  def zx "rsvg.ml" 46 2203 2227 "rsvg.ml" 59 2561 2575
+)
+"rsvg.ml" 46 2203 2227 "rsvg.ml" 46 2203 2229
+type(
+  float
+)
+ident(
+  def zy "rsvg.ml" 46 2203 2230 "rsvg.ml" 59 2561 2575
+)
+"rsvg.ml" 46 2203 2230 "rsvg.ml" 46 2203 2232
+type(
+  int
+)
+ident(
+  def mw "rsvg.ml" 46 2203 2233 "rsvg.ml" 59 2561 2575
+)
+"rsvg.ml" 46 2203 2233 "rsvg.ml" 46 2203 2235
+type(
+  int
+)
+ident(
+  def mh "rsvg.ml" 46 2203 2236 "rsvg.ml" 59 2561 2575
+)
+"rsvg.ml" 46 2203 2236 "rsvg.ml" 46 2203 2237
+type(
+  int
+)
+ident(
+  def w "rsvg.ml" 46 2203 2238 "rsvg.ml" 59 2561 2575
+)
+"rsvg.ml" 46 2203 2238 "rsvg.ml" 46 2203 2239
+type(
+  int
+)
+ident(
+  def h "rsvg.ml" 47 2242 2244 "rsvg.ml" 59 2561 2575
+)
+"rsvg.ml" 47 2242 2247 "rsvg.ml" 47 2242 2248
+type(
+  int
+)
+ident(
+  int_ref w "rsvg.ml" 46 2203 2236 "rsvg.ml" 46 2203 2237
+)
+"rsvg.ml" 47 2242 2249 "rsvg.ml" 47 2242 2250
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"rsvg.ml" 47 2242 2251 "rsvg.ml" 47 2242 2252
+type(
+  int
+)
+"rsvg.ml" 47 2242 2247 "rsvg.ml" 47 2242 2252
+type(
+  bool
+)
+"rsvg.ml" 47 2242 2253 "rsvg.ml" 47 2242 2255
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"rsvg.ml" 47 2242 2256 "rsvg.ml" 47 2242 2257
+type(
+  int
+)
+ident(
+  int_ref h "rsvg.ml" 46 2203 2238 "rsvg.ml" 46 2203 2239
+)
+"rsvg.ml" 47 2242 2258 "rsvg.ml" 47 2242 2259
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"rsvg.ml" 47 2242 2260 "rsvg.ml" 47 2242 2261
+type(
+  int
+)
+"rsvg.ml" 47 2242 2256 "rsvg.ml" 47 2242 2261
+type(
+  bool
+)
+"rsvg.ml" 47 2242 2247 "rsvg.ml" 47 2242 2261
+type(
+  bool
+)
+"rsvg.ml" 48 2262 2270 "rsvg.ml" 48 2262 2271
+type(
+  int
+)
+ident(
+  int_ref w "rsvg.ml" 46 2203 2236 "rsvg.ml" 46 2203 2237
+)
+"rsvg.ml" 48 2262 2273 "rsvg.ml" 48 2262 2274
+type(
+  int
+)
+ident(
+  int_ref h "rsvg.ml" 46 2203 2238 "rsvg.ml" 46 2203 2239
+)
+"rsvg.ml" 48 2262 2269 "rsvg.ml" 48 2262 2275
+type(
+  int * int
+)
+"rsvg.ml" 50 2284 2292 "rsvg.ml" 50 2284 2294
+type(
+  int
+)
+"rsvg.ml" 50 2284 2297 "rsvg.ml" 50 2284 2302
+type(
+  float -> int
+)
+ident(
+  int_ref round "rsvg.ml" 27 1715 1719 "rsvg.ml" 27 1715 1724
+)
+"rsvg.ml" 50 2284 2304 "rsvg.ml" 50 2284 2309
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"rsvg.ml" 50 2284 2310 "rsvg.ml" 50 2284 2311
+type(
+  int
+)
+ident(
+  int_ref w "rsvg.ml" 46 2203 2236 "rsvg.ml" 46 2203 2237
+)
+"rsvg.ml" 50 2284 2304 "rsvg.ml" 50 2284 2311
+type(
+  float
+)
+"rsvg.ml" 50 2284 2312 "rsvg.ml" 50 2284 2314
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"rsvg.ml" 50 2284 2315 "rsvg.ml" 50 2284 2317
+type(
+  float
+)
+ident(
+  int_ref zx "rsvg.ml" 46 2203 2224 "rsvg.ml" 46 2203 2226
+)
+"rsvg.ml" 50 2284 2303 "rsvg.ml" 50 2284 2318
+type(
+  float
+)
+"rsvg.ml" 50 2284 2297 "rsvg.ml" 50 2284 2318
+call(
+  stack
+)
+type(
+  int
+)
+"rsvg.ml" 51 2322 2330 "rsvg.ml" 51 2322 2332
+type(
+  int
+)
+"rsvg.ml" 51 2322 2335 "rsvg.ml" 51 2322 2340
+type(
+  float -> int
+)
+ident(
+  int_ref round "rsvg.ml" 27 1715 1719 "rsvg.ml" 27 1715 1724
+)
+"rsvg.ml" 51 2322 2342 "rsvg.ml" 51 2322 2347
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"rsvg.ml" 51 2322 2348 "rsvg.ml" 51 2322 2349
+type(
+  int
+)
+ident(
+  int_ref h "rsvg.ml" 46 2203 2238 "rsvg.ml" 46 2203 2239
+)
+"rsvg.ml" 51 2322 2342 "rsvg.ml" 51 2322 2349
+type(
+  float
+)
+"rsvg.ml" 51 2322 2350 "rsvg.ml" 51 2322 2352
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"rsvg.ml" 51 2322 2353 "rsvg.ml" 51 2322 2355
+type(
+  float
+)
+ident(
+  int_ref zy "rsvg.ml" 46 2203 2227 "rsvg.ml" 46 2203 2229
+)
+"rsvg.ml" 51 2322 2341 "rsvg.ml" 51 2322 2356
+type(
+  float
+)
+"rsvg.ml" 51 2322 2335 "rsvg.ml" 51 2322 2356
+call(
+  stack
+)
+type(
+  int
+)
+"rsvg.ml" 52 2360 2367 "rsvg.ml" 52 2360 2369
+type(
+  int
+)
+ident(
+  int_ref rw "rsvg.ml" 50 2284 2292 "rsvg.ml" 50 2284 2294
+)
+"rsvg.ml" 52 2360 2370 "rsvg.ml" 52 2360 2371
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"rsvg.ml" 52 2360 2372 "rsvg.ml" 52 2360 2374
+type(
+  int
+)
+ident(
+  int_ref mw "rsvg.ml" 46 2203 2230 "rsvg.ml" 46 2203 2232
+)
+"rsvg.ml" 52 2360 2367 "rsvg.ml" 52 2360 2374
+type(
+  bool
+)
+"rsvg.ml" 52 2360 2375 "rsvg.ml" 52 2360 2377
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"rsvg.ml" 52 2360 2378 "rsvg.ml" 52 2360 2380
+type(
+  int
+)
+ident(
+  int_ref rh "rsvg.ml" 51 2322 2330 "rsvg.ml" 51 2322 2332
+)
+"rsvg.ml" 52 2360 2381 "rsvg.ml" 52 2360 2382
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"rsvg.ml" 52 2360 2383 "rsvg.ml" 52 2360 2385
+type(
+  int
+)
+ident(
+  int_ref mh "rsvg.ml" 46 2203 2233 "rsvg.ml" 46 2203 2235
+)
+"rsvg.ml" 52 2360 2378 "rsvg.ml" 52 2360 2385
+type(
+  bool
+)
+"rsvg.ml" 52 2360 2367 "rsvg.ml" 52 2360 2385
+type(
+  bool
+)
+"rsvg.ml" 54 2396 2406 "rsvg.ml" 54 2396 2408
+type(
+  float
+)
+ident(
+  def zx "rsvg.ml" 55 2434 2440 "rsvg.ml" 57 2499 2551
+)
+"rsvg.ml" 54 2396 2411 "rsvg.ml" 54 2396 2416
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"rsvg.ml" 54 2396 2417 "rsvg.ml" 54 2396 2419
+type(
+  int
+)
+ident(
+  int_ref mw "rsvg.ml" 46 2203 2230 "rsvg.ml" 46 2203 2232
+)
+"rsvg.ml" 54 2396 2411 "rsvg.ml" 54 2396 2419
+type(
+  float
+)
+"rsvg.ml" 54 2396 2420 "rsvg.ml" 54 2396 2422
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"rsvg.ml" 54 2396 2423 "rsvg.ml" 54 2396 2428
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"rsvg.ml" 54 2396 2429 "rsvg.ml" 54 2396 2430
+type(
+  int
+)
+ident(
+  int_ref w "rsvg.ml" 46 2203 2236 "rsvg.ml" 46 2203 2237
+)
+"rsvg.ml" 54 2396 2423 "rsvg.ml" 54 2396 2430
+type(
+  float
+)
+"rsvg.ml" 54 2396 2411 "rsvg.ml" 54 2396 2430
+type(
+  float
+)
+"rsvg.ml" 55 2434 2444 "rsvg.ml" 55 2434 2446
+type(
+  float
+)
+ident(
+  def zy "rsvg.ml" 56 2472 2478 "rsvg.ml" 57 2499 2551
+)
+"rsvg.ml" 55 2434 2449 "rsvg.ml" 55 2434 2454
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"rsvg.ml" 55 2434 2455 "rsvg.ml" 55 2434 2457
+type(
+  int
+)
+ident(
+  int_ref mh "rsvg.ml" 46 2203 2233 "rsvg.ml" 46 2203 2235
+)
+"rsvg.ml" 55 2434 2449 "rsvg.ml" 55 2434 2457
+type(
+  float
+)
+"rsvg.ml" 55 2434 2458 "rsvg.ml" 55 2434 2460
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"rsvg.ml" 55 2434 2461 "rsvg.ml" 55 2434 2466
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"rsvg.ml" 55 2434 2467 "rsvg.ml" 55 2434 2468
+type(
+  int
+)
+ident(
+  int_ref h "rsvg.ml" 46 2203 2238 "rsvg.ml" 46 2203 2239
+)
+"rsvg.ml" 55 2434 2461 "rsvg.ml" 55 2434 2468
+type(
+  float
+)
+"rsvg.ml" 55 2434 2449 "rsvg.ml" 55 2434 2468
+type(
+  float
+)
+"rsvg.ml" 56 2472 2482 "rsvg.ml" 56 2472 2483
+type(
+  float
+)
+ident(
+  def z "rsvg.ml" 57 2499 2505 "rsvg.ml" 57 2499 2551
+)
+"rsvg.ml" 56 2472 2486 "rsvg.ml" 56 2472 2489
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.min
+)
+"rsvg.ml" 56 2472 2490 "rsvg.ml" 56 2472 2492
+type(
+  float
+)
+ident(
+  int_ref zx "rsvg.ml" 54 2396 2406 "rsvg.ml" 54 2396 2408
+)
+"rsvg.ml" 56 2472 2493 "rsvg.ml" 56 2472 2495
+type(
+  float
+)
+ident(
+  int_ref zy "rsvg.ml" 55 2434 2444 "rsvg.ml" 55 2434 2446
+)
+"rsvg.ml" 56 2472 2486 "rsvg.ml" 56 2472 2495
+call(
+  stack
+)
+type(
+  float
+)
+"rsvg.ml" 57 2499 2506 "rsvg.ml" 57 2499 2511
+type(
+  float -> int
+)
+ident(
+  int_ref round "rsvg.ml" 27 1715 1719 "rsvg.ml" 27 1715 1724
+)
+"rsvg.ml" 57 2499 2513 "rsvg.ml" 57 2499 2518
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"rsvg.ml" 57 2499 2519 "rsvg.ml" 57 2499 2520
+type(
+  int
+)
+ident(
+  int_ref w "rsvg.ml" 46 2203 2236 "rsvg.ml" 46 2203 2237
+)
+"rsvg.ml" 57 2499 2513 "rsvg.ml" 57 2499 2520
+type(
+  float
+)
+"rsvg.ml" 57 2499 2521 "rsvg.ml" 57 2499 2523
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"rsvg.ml" 57 2499 2524 "rsvg.ml" 57 2499 2525
+type(
+  float
+)
+ident(
+  int_ref z "rsvg.ml" 56 2472 2482 "rsvg.ml" 56 2472 2483
+)
+"rsvg.ml" 57 2499 2512 "rsvg.ml" 57 2499 2526
+type(
+  float
+)
+"rsvg.ml" 57 2499 2505 "rsvg.ml" 57 2499 2527
+call(
+  stack
+)
+type(
+  int
+)
+"rsvg.ml" 57 2499 2530 "rsvg.ml" 57 2499 2535
+type(
+  float -> int
+)
+ident(
+  int_ref round "rsvg.ml" 27 1715 1719 "rsvg.ml" 27 1715 1724
+)
+"rsvg.ml" 57 2499 2537 "rsvg.ml" 57 2499 2542
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"rsvg.ml" 57 2499 2543 "rsvg.ml" 57 2499 2544
+type(
+  int
+)
+ident(
+  int_ref h "rsvg.ml" 46 2203 2238 "rsvg.ml" 46 2203 2239
+)
+"rsvg.ml" 57 2499 2537 "rsvg.ml" 57 2499 2544
+type(
+  float
+)
+"rsvg.ml" 57 2499 2545 "rsvg.ml" 57 2499 2547
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"rsvg.ml" 57 2499 2548 "rsvg.ml" 57 2499 2549
+type(
+  float
+)
+ident(
+  int_ref z "rsvg.ml" 56 2472 2482 "rsvg.ml" 56 2472 2483
+)
+"rsvg.ml" 57 2499 2536 "rsvg.ml" 57 2499 2550
+type(
+  float
+)
+"rsvg.ml" 57 2499 2529 "rsvg.ml" 57 2499 2551
+call(
+  stack
+)
+type(
+  int
+)
+"rsvg.ml" 57 2499 2505 "rsvg.ml" 57 2499 2551
+type(
+  int * int
+)
+"rsvg.ml" 56 2472 2478 "rsvg.ml" 57 2499 2551
+type(
+  int * int
+)
+"rsvg.ml" 55 2434 2440 "rsvg.ml" 57 2499 2551
+type(
+  int * int
+)
+"rsvg.ml" 54 2396 2402 "rsvg.ml" 57 2499 2551
+type(
+  int * int
+)
+"rsvg.ml" 59 2561 2568 "rsvg.ml" 59 2561 2570
+type(
+  int
+)
+ident(
+  int_ref rw "rsvg.ml" 50 2284 2292 "rsvg.ml" 50 2284 2294
+)
+"rsvg.ml" 59 2561 2572 "rsvg.ml" 59 2561 2574
+type(
+  int
+)
+ident(
+  int_ref rh "rsvg.ml" 51 2322 2330 "rsvg.ml" 51 2322 2332
+)
+"rsvg.ml" 59 2561 2567 "rsvg.ml" 59 2561 2575
+type(
+  int * int
+)
+"rsvg.ml" 52 2360 2364 "rsvg.ml" 59 2561 2575
+type(
+  int * int
+)
+"rsvg.ml" 51 2322 2326 "rsvg.ml" 59 2561 2575
+type(
+  int * int
+)
+"rsvg.ml" 50 2284 2288 "rsvg.ml" 59 2561 2575
+type(
+  int * int
+)
+"rsvg.ml" 47 2242 2244 "rsvg.ml" 59 2561 2575
+type(
+  int * int
+)
+"rsvg.ml" 65 2687 2689 "rsvg.ml" 65 2687 2716
+type(
+  string -> exn -> unit
+)
+ident(
+  ext_ref Callback.register_exception
+)
+"rsvg.ml" 65 2687 2717 "rsvg.ml" 65 2687 2730
+type(
+  string
+)
+"rsvg.ml" 65 2687 2739 "rsvg.ml" 65 2687 2745
+type(
+  error
+)
+"rsvg.ml" 65 2687 2747 "rsvg.ml" 65 2687 2749
+type(
+  string
+)
+"rsvg.ml" 65 2687 2731 "rsvg.ml" 65 2687 2751
+type(
+  exn
+)
+"rsvg.ml" 65 2687 2689 "rsvg.ml" 65 2687 2751
+call(
+  stack
+)
+type(
+  unit
+)
+"rsvg.ml" 66 2754 2756 "rsvg.ml" 66 2754 2761
+type(
+  unit -> unit
+)
+"rsvg.ml" 66 2754 2762 "rsvg.ml" 66 2754 2764
+type(
+  unit
+)
+"rsvg.ml" 66 2754 2756 "rsvg.ml" 66 2754 2764
+type(
+  unit
+)
+"rsvg.ml" 65 2687 2689 "rsvg.ml" 66 2754 2764
+type(
+  unit
+)
+"rsvg.ml" 87 3492 3496 "rsvg.ml" 87 3492 3502
+type(
+  ?gz:bool -> ?dpi:float -> ?size_cb:size_fun -> input -> GdkPixbuf.pixbuf
+)
+ident(
+  def render "rsvg.ml" 110 4045 4045 --
+)
+"rsvg.ml" 87 3492 3505 "rsvg.ml" 87 3492 3507
+type(
+  bool
+)
+"rsvg.ml" 87 3492 3508 "rsvg.ml" 87 3492 3513
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "rsvg.ml" 87 3492 3508 "rsvg.ml" 87 3492 3513
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "rsvg.ml" 87 3492 3508 "rsvg.ml" 87 3492 3513
+)
+"rsvg.ml" 87 3492 3516 "rsvg.ml" 87 3492 3519
+type(
+  float option
+)
+ident(
+  def dpi "rsvg.ml" 87 3492 3520 "rsvg.ml" 108 4014 4043
+)
+"rsvg.ml" 87 3492 3521 "rsvg.ml" 87 3492 3528
+type(
+  size_fun option
+)
+ident(
+  def size_cb "rsvg.ml" 87 3492 3529 "rsvg.ml" 108 4014 4043
+)
+"rsvg.ml" 87 3492 3529 "rsvg.ml" 87 3492 3534
+type(
+  input
+)
+ident(
+  def input "rsvg.ml" 88 3537 3539 "rsvg.ml" 108 4014 4043
+)
+"rsvg.ml" 88 3537 3543 "rsvg.ml" 88 3537 3544
+type(
+  t
+)
+"rsvg.ml" 88 3537 3550 "rsvg.ml" 88 3537 3552
+type(
+  bool
+)
+ident(
+  int_ref gz "rsvg.ml" 87 3492 3505 "rsvg.ml" 87 3492 3507
+)
+"rsvg.ml" 88 3537 3558 "rsvg.ml" 88 3537 3571
+type(
+  unit -> t
+)
+"rsvg.ml" 88 3537 3572 "rsvg.ml" 88 3537 3574
+type(
+  unit
+)
+"rsvg.ml" 88 3537 3558 "rsvg.ml" 88 3537 3574
+type(
+  t
+)
+"rsvg.ml" 88 3537 3580 "rsvg.ml" 88 3537 3590
+type(
+  unit -> t
+)
+"rsvg.ml" 88 3537 3591 "rsvg.ml" 88 3537 3593
+type(
+  unit
+)
+"rsvg.ml" 88 3537 3580 "rsvg.ml" 88 3537 3593
+type(
+  t
+)
+"rsvg.ml" 88 3537 3547 "rsvg.ml" 88 3537 3593
+type(
+  t
+)
+"rsvg.ml" 89 3597 3599 "rsvg.ml" 89 3597 3607
+type(
+  f:(size_fun -> unit) -> size_fun option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"rsvg.ml" 89 3597 3609 "rsvg.ml" 89 3597 3626
+type(
+  t -> size_fun -> unit
+)
+"rsvg.ml" 89 3597 3627 "rsvg.ml" 89 3597 3628
+type(
+  t
+)
+ident(
+  int_ref h "rsvg.ml" 88 3537 3543 "rsvg.ml" 88 3537 3544
+)
+"rsvg.ml" 89 3597 3608 "rsvg.ml" 89 3597 3629
+call(
+  stack
+)
+type(
+  size_fun -> unit
+)
+"rsvg.ml" 89 3597 3630 "rsvg.ml" 89 3597 3637
+type(
+  size_fun option
+)
+ident(
+  int_ref size_cb "rsvg.ml" 87 3492 3521 "rsvg.ml" 87 3492 3528
+)
+"rsvg.ml" 89 3597 3599 "rsvg.ml" 89 3597 3637
+call(
+  stack
+)
+type(
+  unit
+)
+"rsvg.ml" 90 3640 3642 "rsvg.ml" 90 3640 3650
+type(
+  f:(float -> unit) -> float option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"rsvg.ml" 90 3640 3652 "rsvg.ml" 90 3640 3659
+type(
+  t -> float -> unit
+)
+"rsvg.ml" 90 3640 3660 "rsvg.ml" 90 3640 3661
+type(
+  t
+)
+ident(
+  int_ref h "rsvg.ml" 88 3537 3543 "rsvg.ml" 88 3537 3544
+)
+"rsvg.ml" 90 3640 3651 "rsvg.ml" 90 3640 3662
+call(
+  stack
+)
+type(
+  float -> unit
+)
+"rsvg.ml" 90 3640 3663 "rsvg.ml" 90 3640 3666
+type(
+  float option
+)
+ident(
+  int_ref dpi "rsvg.ml" 87 3492 3516 "rsvg.ml" 87 3492 3519
+)
+"rsvg.ml" 90 3640 3642 "rsvg.ml" 90 3640 3666
+call(
+  stack
+)
+type(
+  unit
+)
+"rsvg.ml" 92 3675 3691 "rsvg.ml" 92 3675 3696
+type(
+  input
+)
+ident(
+  int_ref input "rsvg.ml" 87 3492 3529 "rsvg.ml" 87 3492 3534
+)
+"rsvg.ml" 93 3702 3724 "rsvg.ml" 93 3702 3725
+type(
+  string
+)
+ident(
+  def s "rsvg.ml" 94 3740 3741 "rsvg.ml" 94 3740 3760
+)
+"rsvg.ml" 93 3702 3727 "rsvg.ml" 93 3702 3730
+type(
+  int
+)
+ident(
+  def off "rsvg.ml" 94 3740 3741 "rsvg.ml" 94 3740 3760
+)
+"rsvg.ml" 93 3702 3732 "rsvg.ml" 93 3702 3735
+type(
+  int
+)
+ident(
+  def len "rsvg.ml" 94 3740 3741 "rsvg.ml" 94 3740 3760
+)
+"rsvg.ml" 93 3702 3708 "rsvg.ml" 93 3702 3736
+type(
+  input
+)
+"rsvg.ml" 94 3740 3741 "rsvg.ml" 94 3740 3746
+type(
+  t -> string -> off:int -> len:int -> unit
+)
+"rsvg.ml" 94 3740 3747 "rsvg.ml" 94 3740 3748
+type(
+  t
+)
+ident(
+  int_ref h "rsvg.ml" 88 3537 3543 "rsvg.ml" 88 3537 3544
+)
+"rsvg.ml" 94 3740 3749 "rsvg.ml" 94 3740 3750
+type(
+  string
+)
+ident(
+  int_ref s "rsvg.ml" 93 3702 3724 "rsvg.ml" 93 3702 3725
+)
+"rsvg.ml" 94 3740 3752 "rsvg.ml" 94 3740 3755
+type(
+  int
+)
+ident(
+  int_ref off "rsvg.ml" 93 3702 3727 "rsvg.ml" 93 3702 3730
+)
+"rsvg.ml" 94 3740 3757 "rsvg.ml" 94 3740 3760
+type(
+  int
+)
+ident(
+  int_ref len "rsvg.ml" 93 3702 3732 "rsvg.ml" 93 3702 3735
+)
+"rsvg.ml" 94 3740 3741 "rsvg.ml" 94 3740 3760
+type(
+  unit
+)
+"rsvg.ml" 95 3761 3780 "rsvg.ml" 95 3761 3783
+type(
+  int
+)
+ident(
+  def len "rsvg.ml" 96 3794 3795 "rsvg.ml" 101 3913 3918
+)
+"rsvg.ml" 95 3761 3785 "rsvg.ml" 95 3761 3789
+type(
+  string -> int
+)
+ident(
+  def fill "rsvg.ml" 96 3794 3795 "rsvg.ml" 101 3913 3918
+)
+"rsvg.ml" 95 3761 3767 "rsvg.ml" 95 3761 3790
+type(
+  input
+)
+"rsvg.ml" 96 3794 3799 "rsvg.ml" 96 3794 3803
+type(
+  string
+)
+"rsvg.ml" 96 3794 3806 "rsvg.ml" 96 3794 3819
+type(
+  int -> string
+)
+ident(
+  ext_ref String.create
+)
+"rsvg.ml" 96 3794 3820 "rsvg.ml" 96 3794 3823
+type(
+  int
+)
+ident(
+  int_ref len "rsvg.ml" 95 3761 3780 "rsvg.ml" 95 3761 3783
+)
+"rsvg.ml" 96 3794 3806 "rsvg.ml" 96 3794 3823
+type(
+  string
+)
+"rsvg.ml" 97 3827 3832 "rsvg.ml" 97 3827 3833
+type(
+  int ref
+)
+"rsvg.ml" 97 3827 3836 "rsvg.ml" 97 3827 3839
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"rsvg.ml" 97 3827 3841 "rsvg.ml" 97 3827 3845
+type(
+  string -> int
+)
+ident(
+  int_ref fill "rsvg.ml" 95 3761 3785 "rsvg.ml" 95 3761 3789
+)
+"rsvg.ml" 97 3827 3846 "rsvg.ml" 97 3827 3850
+type(
+  string
+)
+ident(
+  int_ref buff "rsvg.ml" 96 3794 3799 "rsvg.ml" 96 3794 3803
+)
+"rsvg.ml" 97 3827 3840 "rsvg.ml" 97 3827 3851
+call(
+  stack
+)
+type(
+  int
+)
+"rsvg.ml" 97 3827 3836 "rsvg.ml" 97 3827 3851
+type(
+  int ref
+)
+"rsvg.ml" 98 3855 3862 "rsvg.ml" 98 3855 3863
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"rsvg.ml" 98 3855 3863 "rsvg.ml" 98 3855 3864
+type(
+  int ref
+)
+ident(
+  int_ref c "rsvg.ml" 97 3827 3832 "rsvg.ml" 97 3827 3833
+)
+"rsvg.ml" 98 3855 3862 "rsvg.ml" 98 3855 3864
+type(
+  int
+)
+"rsvg.ml" 98 3855 3865 "rsvg.ml" 98 3855 3866
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"rsvg.ml" 98 3855 3867 "rsvg.ml" 98 3855 3868
+type(
+  int
+)
+"rsvg.ml" 98 3855 3862 "rsvg.ml" 98 3855 3868
+type(
+  bool
+)
+"rsvg.ml" 99 3872 3875 "rsvg.ml" 99 3872 3880
+type(
+  t -> string -> off:int -> len:int -> unit
+)
+"rsvg.ml" 99 3872 3881 "rsvg.ml" 99 3872 3882
+type(
+  t
+)
+ident(
+  int_ref h "rsvg.ml" 88 3537 3543 "rsvg.ml" 88 3537 3544
+)
+"rsvg.ml" 99 3872 3883 "rsvg.ml" 99 3872 3887
+type(
+  string
+)
+ident(
+  int_ref buff "rsvg.ml" 96 3794 3799 "rsvg.ml" 96 3794 3803
+)
+"rsvg.ml" 99 3872 3888 "rsvg.ml" 99 3872 3889
+type(
+  int
+)
+"rsvg.ml" 99 3872 3890 "rsvg.ml" 99 3872 3891
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"rsvg.ml" 99 3872 3891 "rsvg.ml" 99 3872 3892
+type(
+  int ref
+)
+ident(
+  int_ref c "rsvg.ml" 97 3827 3832 "rsvg.ml" 97 3827 3833
+)
+"rsvg.ml" 99 3872 3890 "rsvg.ml" 99 3872 3892
+type(
+  int
+)
+"rsvg.ml" 99 3872 3875 "rsvg.ml" 99 3872 3892
+type(
+  unit
+)
+"rsvg.ml" 100 3895 3898 "rsvg.ml" 100 3895 3899
+type(
+  int ref
+)
+ident(
+  int_ref c "rsvg.ml" 97 3827 3832 "rsvg.ml" 97 3827 3833
+)
+"rsvg.ml" 100 3895 3900 "rsvg.ml" 100 3895 3902
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"rsvg.ml" 100 3895 3903 "rsvg.ml" 100 3895 3907
+type(
+  string -> int
+)
+ident(
+  int_ref fill "rsvg.ml" 95 3761 3785 "rsvg.ml" 95 3761 3789
+)
+"rsvg.ml" 100 3895 3908 "rsvg.ml" 100 3895 3912
+type(
+  string
+)
+ident(
+  int_ref buff "rsvg.ml" 96 3794 3799 "rsvg.ml" 96 3794 3803
+)
+"rsvg.ml" 100 3895 3903 "rsvg.ml" 100 3895 3912
+call(
+  stack
+)
+type(
+  int
+)
+"rsvg.ml" 100 3895 3898 "rsvg.ml" 100 3895 3912
+type(
+  unit
+)
+"rsvg.ml" 99 3872 3875 "rsvg.ml" 100 3895 3912
+type(
+  unit
+)
+"rsvg.ml" 98 3855 3856 "rsvg.ml" 101 3913 3918
+type(
+  unit
+)
+"rsvg.ml" 97 3827 3828 "rsvg.ml" 101 3913 3918
+type(
+  unit
+)
+"rsvg.ml" 96 3794 3795 "rsvg.ml" 101 3913 3918
+type(
+  unit
+)
+"rsvg.ml" 92 3675 3679 "rsvg.ml" 102 3919 3926
+type(
+  unit
+)
+"rsvg.ml" 103 3929 3933 "rsvg.ml" 103 3929 3938
+type(
+  t -> unit
+)
+"rsvg.ml" 103 3929 3939 "rsvg.ml" 103 3929 3940
+type(
+  t
+)
+ident(
+  int_ref h "rsvg.ml" 88 3537 3543 "rsvg.ml" 88 3537 3544
+)
+"rsvg.ml" 103 3929 3933 "rsvg.ml" 103 3929 3940
+type(
+  unit
+)
+"rsvg.ml" 104 3943 3951 "rsvg.ml" 104 3943 3953
+type(
+  GdkPixbuf.pixbuf
+)
+ident(
+  def pb "rsvg.ml" 105 3972 3976 "rsvg.ml" 106 3993 3999
+)
+"rsvg.ml" 104 3943 3956 "rsvg.ml" 104 3943 3966
+type(
+  t -> GdkPixbuf.pixbuf
+)
+"rsvg.ml" 104 3943 3967 "rsvg.ml" 104 3943 3968
+type(
+  t
+)
+ident(
+  int_ref h "rsvg.ml" 88 3537 3543 "rsvg.ml" 88 3537 3544
+)
+"rsvg.ml" 104 3943 3956 "rsvg.ml" 104 3943 3968
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 105 3972 3976 "rsvg.ml" 105 3972 3987
+type(
+  t -> unit
+)
+"rsvg.ml" 105 3972 3988 "rsvg.ml" 105 3972 3989
+type(
+  t
+)
+ident(
+  int_ref h "rsvg.ml" 88 3537 3543 "rsvg.ml" 88 3537 3544
+)
+"rsvg.ml" 105 3972 3976 "rsvg.ml" 105 3972 3989
+type(
+  unit
+)
+"rsvg.ml" 106 3993 3997 "rsvg.ml" 106 3993 3999
+type(
+  GdkPixbuf.pixbuf
+)
+ident(
+  int_ref pb "rsvg.ml" 104 3943 3951 "rsvg.ml" 104 3943 3953
+)
+"rsvg.ml" 105 3972 3976 "rsvg.ml" 106 3993 3999
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 104 3943 3947 "rsvg.ml" 106 3993 3999
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 103 3929 3933 "rsvg.ml" 106 3993 3999
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 92 3675 3679 "rsvg.ml" 106 3993 3999
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 107 4000 4007 "rsvg.ml" 107 4000 4010
+type(
+  exn
+)
+ident(
+  def exn "rsvg.ml" 108 4014 4018 "rsvg.ml" 108 4014 4043
+)
+"rsvg.ml" 108 4014 4018 "rsvg.ml" 108 4014 4029
+type(
+  t -> unit
+)
+"rsvg.ml" 108 4014 4030 "rsvg.ml" 108 4014 4031
+type(
+  t
+)
+ident(
+  int_ref h "rsvg.ml" 88 3537 3543 "rsvg.ml" 88 3537 3544
+)
+"rsvg.ml" 108 4014 4018 "rsvg.ml" 108 4014 4031
+type(
+  unit
+)
+"rsvg.ml" 108 4014 4034 "rsvg.ml" 108 4014 4039
+type(
+  exn -> GdkPixbuf.pixbuf
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"rsvg.ml" 108 4014 4040 "rsvg.ml" 108 4014 4043
+type(
+  exn
+)
+ident(
+  int_ref exn "rsvg.ml" 107 4000 4007 "rsvg.ml" 107 4000 4010
+)
+"rsvg.ml" 108 4014 4034 "rsvg.ml" 108 4014 4043
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 108 4014 4018 "rsvg.ml" 108 4014 4043
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 91 3669 3671 "rsvg.ml" 108 4014 4043
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 90 3640 3642 "rsvg.ml" 108 4014 4043
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 89 3597 3599 "rsvg.ml" 108 4014 4043
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 88 3537 3539 "rsvg.ml" 108 4014 4043
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 110 4045 4049 "rsvg.ml" 110 4045 4067
+type(
+  ?gz:bool ->
+  ?dpi:float ->
+  ?size_cb:size_fun -> ?pos:int -> ?len:int -> string -> GdkPixbuf.pixbuf
+)
+ident(
+  def render_from_string "rsvg.ml" 116 4264 4264 --
+)
+"rsvg.ml" 110 4045 4069 "rsvg.ml" 110 4045 4071
+type(
+  bool option
+)
+ident(
+  def gz "rsvg.ml" 110 4045 4072 "rsvg.ml" 114 4228 4262
+)
+"rsvg.ml" 110 4045 4073 "rsvg.ml" 110 4045 4076
+type(
+  float option
+)
+ident(
+  def dpi "rsvg.ml" 110 4045 4077 "rsvg.ml" 114 4228 4262
+)
+"rsvg.ml" 110 4045 4078 "rsvg.ml" 110 4045 4085
+type(
+  size_fun option
+)
+ident(
+  def size_cb "rsvg.ml" 110 4045 4086 "rsvg.ml" 114 4228 4262
+)
+"rsvg.ml" 110 4045 4087 "rsvg.ml" 110 4045 4090
+type(
+  int option
+)
+ident(
+  def pos "rsvg.ml" 110 4045 4091 "rsvg.ml" 114 4228 4262
+)
+"rsvg.ml" 110 4045 4092 "rsvg.ml" 110 4045 4095
+type(
+  int option
+)
+ident(
+  def len "rsvg.ml" 110 4045 4096 "rsvg.ml" 114 4228 4262
+)
+"rsvg.ml" 110 4045 4096 "rsvg.ml" 110 4045 4097
+type(
+  string
+)
+ident(
+  def s "rsvg.ml" 111 4100 4102 "rsvg.ml" 114 4228 4262
+)
+"rsvg.ml" 111 4100 4106 "rsvg.ml" 111 4100 4109
+type(
+  int
+)
+"rsvg.ml" 111 4100 4112 "rsvg.ml" 111 4100 4124
+type(
+  int -> opt:int option -> int
+)
+ident(
+  ext_ref Gaux.default
+)
+"rsvg.ml" 111 4100 4125 "rsvg.ml" 111 4100 4126
+type(
+  int
+)
+"rsvg.ml" 111 4100 4132 "rsvg.ml" 111 4100 4135
+type(
+  int option
+)
+ident(
+  int_ref pos "rsvg.ml" 110 4045 4087 "rsvg.ml" 110 4045 4090
+)
+"rsvg.ml" 111 4100 4112 "rsvg.ml" 111 4100 4135
+call(
+  stack
+)
+type(
+  int
+)
+"rsvg.ml" 112 4139 4145 "rsvg.ml" 112 4139 4148
+type(
+  int
+)
+"rsvg.ml" 112 4139 4151 "rsvg.ml" 112 4139 4163
+type(
+  int -> opt:int option -> int
+)
+ident(
+  ext_ref Gaux.default
+)
+"rsvg.ml" 112 4139 4165 "rsvg.ml" 112 4139 4178
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"rsvg.ml" 112 4139 4179 "rsvg.ml" 112 4139 4180
+type(
+  string
+)
+ident(
+  int_ref s "rsvg.ml" 110 4045 4096 "rsvg.ml" 110 4045 4097
+)
+"rsvg.ml" 112 4139 4165 "rsvg.ml" 112 4139 4180
+type(
+  int
+)
+"rsvg.ml" 112 4139 4181 "rsvg.ml" 112 4139 4182
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"rsvg.ml" 112 4139 4183 "rsvg.ml" 112 4139 4186
+type(
+  int
+)
+ident(
+  int_ref off "rsvg.ml" 111 4100 4106 "rsvg.ml" 111 4100 4109
+)
+"rsvg.ml" 112 4139 4164 "rsvg.ml" 112 4139 4187
+type(
+  int
+)
+"rsvg.ml" 112 4139 4193 "rsvg.ml" 112 4139 4196
+type(
+  int option
+)
+ident(
+  int_ref len "rsvg.ml" 110 4045 4092 "rsvg.ml" 110 4045 4095
+)
+"rsvg.ml" 112 4139 4151 "rsvg.ml" 112 4139 4196
+call(
+  stack
+)
+type(
+  int
+)
+"rsvg.ml" 113 4200 4202 "rsvg.ml" 113 4200 4208
+type(
+  ?gz:bool -> ?dpi:float -> ?size_cb:size_fun -> input -> GdkPixbuf.pixbuf
+)
+ident(
+  int_ref render "rsvg.ml" 87 3492 3496 "rsvg.ml" 87 3492 3502
+)
+"rsvg.ml" 113 4200 4210 "rsvg.ml" 113 4200 4212
+type(
+  bool option
+)
+ident(
+  int_ref gz "rsvg.ml" 110 4045 4069 "rsvg.ml" 110 4045 4071
+)
+"rsvg.ml" 113 4200 4214 "rsvg.ml" 113 4200 4217
+type(
+  float option
+)
+ident(
+  int_ref dpi "rsvg.ml" 110 4045 4073 "rsvg.ml" 110 4045 4076
+)
+"rsvg.ml" 113 4200 4219 "rsvg.ml" 113 4200 4226
+type(
+  size_fun option
+)
+ident(
+  int_ref size_cb "rsvg.ml" 110 4045 4078 "rsvg.ml" 110 4045 4085
+)
+"rsvg.ml" 114 4228 4249 "rsvg.ml" 114 4228 4250
+type(
+  string
+)
+ident(
+  int_ref s "rsvg.ml" 110 4045 4096 "rsvg.ml" 110 4045 4097
+)
+"rsvg.ml" 114 4228 4252 "rsvg.ml" 114 4228 4255
+type(
+  int
+)
+ident(
+  int_ref off "rsvg.ml" 111 4100 4106 "rsvg.ml" 111 4100 4109
+)
+"rsvg.ml" 114 4228 4257 "rsvg.ml" 114 4228 4260
+type(
+  int
+)
+ident(
+  int_ref len "rsvg.ml" 112 4139 4145 "rsvg.ml" 112 4139 4148
+)
+"rsvg.ml" 114 4228 4232 "rsvg.ml" 114 4228 4262
+type(
+  input
+)
+"rsvg.ml" 113 4200 4202 "rsvg.ml" 114 4228 4262
+call(
+  tail
+)
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 112 4139 4141 "rsvg.ml" 114 4228 4262
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 111 4100 4102 "rsvg.ml" 114 4228 4262
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 116 4264 4268 "rsvg.ml" 116 4264 4284
+type(
+  ?gz:bool -> ?dpi:float -> ?size_cb:size_fun -> string -> GdkPixbuf.pixbuf
+)
+ident(
+  def render_from_file "rsvg.ml" 125 4563 4567 --
+)
+"rsvg.ml" 116 4264 4287 "rsvg.ml" 116 4264 4289
+type(
+  bool
+)
+"rsvg.ml" 116 4264 4290 "rsvg.ml" 116 4264 4295
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "rsvg.ml" 116 4264 4290 "rsvg.ml" 116 4264 4295
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "rsvg.ml" 116 4264 4290 "rsvg.ml" 116 4264 4295
+)
+"rsvg.ml" 116 4264 4298 "rsvg.ml" 116 4264 4301
+type(
+  float option
+)
+ident(
+  def dpi "rsvg.ml" 116 4264 4302 "rsvg.ml" 125 4563 4567
+)
+"rsvg.ml" 116 4264 4303 "rsvg.ml" 116 4264 4310
+type(
+  size_fun option
+)
+ident(
+  def size_cb "rsvg.ml" 116 4264 4311 "rsvg.ml" 125 4563 4567
+)
+"rsvg.ml" 116 4264 4311 "rsvg.ml" 116 4264 4316
+type(
+  string
+)
+ident(
+  def fname "rsvg.ml" 117 4319 4321 "rsvg.ml" 125 4563 4567
+)
+"rsvg.ml" 117 4319 4325 "rsvg.ml" 117 4319 4327
+type(
+  in_channel
+)
+"rsvg.ml" 117 4319 4333 "rsvg.ml" 117 4319 4335
+type(
+  bool
+)
+ident(
+  int_ref gz "rsvg.ml" 116 4264 4287 "rsvg.ml" 116 4264 4289
+)
+"rsvg.ml" 117 4319 4341 "rsvg.ml" 117 4319 4352
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in_bin
+)
+"rsvg.ml" 117 4319 4353 "rsvg.ml" 117 4319 4358
+type(
+  string
+)
+ident(
+  int_ref fname "rsvg.ml" 116 4264 4311 "rsvg.ml" 116 4264 4316
+)
+"rsvg.ml" 117 4319 4341 "rsvg.ml" 117 4319 4358
+call(
+  stack
+)
+type(
+  in_channel
+)
+"rsvg.ml" 117 4319 4364 "rsvg.ml" 117 4319 4371
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"rsvg.ml" 117 4319 4372 "rsvg.ml" 117 4319 4377
+type(
+  string
+)
+ident(
+  int_ref fname "rsvg.ml" 116 4264 4311 "rsvg.ml" 116 4264 4316
+)
+"rsvg.ml" 117 4319 4364 "rsvg.ml" 117 4319 4377
+call(
+  stack
+)
+type(
+  in_channel
+)
+"rsvg.ml" 117 4319 4330 "rsvg.ml" 117 4319 4377
+type(
+  in_channel
+)
+"rsvg.ml" 118 4381 4387 "rsvg.ml" 118 4381 4389
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 120 4402 4408 "rsvg.ml" 120 4402 4414
+type(
+  ?gz:bool -> ?dpi:float -> ?size_cb:size_fun -> input -> GdkPixbuf.pixbuf
+)
+ident(
+  int_ref render "rsvg.ml" 87 3492 3496 "rsvg.ml" 87 3492 3502
+)
+"rsvg.ml" 120 4402 4416 "rsvg.ml" 120 4402 4418
+type(
+  bool
+)
+ident(
+  int_ref gz "rsvg.ml" 116 4264 4287 "rsvg.ml" 116 4264 4289
+)
+"rsvg.ml" 120 4402 4420 "rsvg.ml" 120 4402 4423
+type(
+  float option
+)
+ident(
+  int_ref dpi "rsvg.ml" 116 4264 4298 "rsvg.ml" 116 4264 4301
+)
+"rsvg.ml" 120 4402 4425 "rsvg.ml" 120 4402 4432
+type(
+  size_fun option
+)
+ident(
+  int_ref size_cb "rsvg.ml" 116 4264 4303 "rsvg.ml" 116 4264 4310
+)
+"rsvg.ml" 121 4433 4448 "rsvg.ml" 121 4433 4452
+type(
+  int
+)
+"rsvg.ml" 121 4433 4459 "rsvg.ml" 121 4433 4460
+type(
+  string
+)
+ident(
+  def b "rsvg.ml" 121 4433 4464 "rsvg.ml" 121 4433 4494
+)
+"rsvg.ml" 121 4433 4464 "rsvg.ml" 121 4433 4469
+type(
+  in_channel -> string -> int -> int -> int
+)
+ident(
+  ext_ref Pervasives.input
+)
+"rsvg.ml" 121 4433 4470 "rsvg.ml" 121 4433 4472
+type(
+  in_channel
+)
+ident(
+  int_ref ic "rsvg.ml" 117 4319 4325 "rsvg.ml" 117 4319 4327
+)
+"rsvg.ml" 121 4433 4473 "rsvg.ml" 121 4433 4474
+type(
+  string
+)
+ident(
+  int_ref b "rsvg.ml" 121 4433 4459 "rsvg.ml" 121 4433 4460
+)
+"rsvg.ml" 121 4433 4475 "rsvg.ml" 121 4433 4476
+type(
+  int
+)
+"rsvg.ml" 121 4433 4478 "rsvg.ml" 121 4433 4491
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"rsvg.ml" 121 4433 4492 "rsvg.ml" 121 4433 4493
+type(
+  string
+)
+ident(
+  int_ref b "rsvg.ml" 121 4433 4459 "rsvg.ml" 121 4433 4460
+)
+"rsvg.ml" 121 4433 4477 "rsvg.ml" 121 4433 4494
+type(
+  int
+)
+"rsvg.ml" 121 4433 4464 "rsvg.ml" 121 4433 4494
+call(
+  tail
+)
+type(
+  int
+)
+"rsvg.ml" 121 4433 4454 "rsvg.ml" 121 4433 4495
+type(
+  string -> int
+)
+"rsvg.ml" 121 4433 4434 "rsvg.ml" 121 4433 4497
+type(
+  input
+)
+"rsvg.ml" 120 4402 4408 "rsvg.ml" 121 4433 4497
+call(
+  stack
+)
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 122 4498 4507 "rsvg.ml" 122 4498 4510
+type(
+  exn
+)
+ident(
+  def exn "rsvg.ml" 123 4514 4520 "rsvg.ml" 123 4514 4543
+)
+"rsvg.ml" 123 4514 4520 "rsvg.ml" 123 4514 4528
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"rsvg.ml" 123 4514 4529 "rsvg.ml" 123 4514 4531
+type(
+  in_channel
+)
+ident(
+  int_ref ic "rsvg.ml" 117 4319 4325 "rsvg.ml" 117 4319 4327
+)
+"rsvg.ml" 123 4514 4520 "rsvg.ml" 123 4514 4531
+call(
+  stack
+)
+type(
+  unit
+)
+"rsvg.ml" 123 4514 4534 "rsvg.ml" 123 4514 4539
+type(
+  exn -> GdkPixbuf.pixbuf
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"rsvg.ml" 123 4514 4540 "rsvg.ml" 123 4514 4543
+type(
+  exn
+)
+ident(
+  int_ref exn "rsvg.ml" 122 4498 4507 "rsvg.ml" 122 4498 4510
+)
+"rsvg.ml" 123 4514 4534 "rsvg.ml" 123 4514 4543
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 123 4514 4520 "rsvg.ml" 123 4514 4543
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 119 4393 4397 "rsvg.ml" 123 4514 4543
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 124 4547 4549 "rsvg.ml" 124 4547 4557
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"rsvg.ml" 124 4547 4558 "rsvg.ml" 124 4547 4560
+type(
+  in_channel
+)
+ident(
+  int_ref ic "rsvg.ml" 117 4319 4325 "rsvg.ml" 117 4319 4327
+)
+"rsvg.ml" 124 4547 4549 "rsvg.ml" 124 4547 4560
+call(
+  stack
+)
+type(
+  unit
+)
+"rsvg.ml" 125 4563 4565 "rsvg.ml" 125 4563 4567
+type(
+  GdkPixbuf.pixbuf
+)
+ident(
+  int_ref pb "rsvg.ml" 118 4381 4387 "rsvg.ml" 118 4381 4389
+)
+"rsvg.ml" 124 4547 4549 "rsvg.ml" 125 4563 4567
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 118 4381 4383 "rsvg.ml" 125 4563 4567
+type(
+  GdkPixbuf.pixbuf
+)
+"rsvg.ml" 117 4319 4321 "rsvg.ml" 125 4563 4567
+type(
+  GdkPixbuf.pixbuf
+)

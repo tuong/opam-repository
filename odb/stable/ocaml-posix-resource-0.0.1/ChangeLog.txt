@@ -1,0 +1,4 @@
+2009-06-30 Sylvain Le Gall <sylvain@le-gall.net>
+
+ * Initial version 0.1.0
+

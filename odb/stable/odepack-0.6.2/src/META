@@ -1,0 +1,10 @@
+# OASIS_START
+# DO NOT EDIT (digest: 62c1318d69a116ba0dae89f786a7bd8d)
+version = "0.6.2"
+description = "Binding to ODEPACK."
+requires = "bigarray"
+archive(byte) = "odepack.cma"
+archive(native) = "odepack.cmxa"
+exists_if = "odepack.cma"
+# OASIS_STOP
+

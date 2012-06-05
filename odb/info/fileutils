@@ -1,0 +1,4 @@
+deps=unix,str,ocamlbuild,oUnit
+tarball=ocaml-fileutils-0.4.3.tar.gz
+is_library=true
+is_program=false

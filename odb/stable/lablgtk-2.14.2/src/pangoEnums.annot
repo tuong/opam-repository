@@ -1,0 +1,271 @@
+"pangoEnums.ml" 30 789 793 "pangoEnums.ml" 30 789 798
+type(
+  style Gpointer.variant_table
+)
+ident(
+  def style "pangoEnums.ml" 33 885 885 --
+)
+"pangoEnums.ml" 30 789 800 "pangoEnums.ml" 30 789 806
+type(
+  weight Gpointer.variant_table
+)
+ident(
+  def weight "pangoEnums.ml" 33 885 885 --
+)
+"pangoEnums.ml" 30 789 808 "pangoEnums.ml" 30 789 815
+type(
+  variant Gpointer.variant_table
+)
+ident(
+  def variant "pangoEnums.ml" 33 885 885 --
+)
+"pangoEnums.ml" 30 789 817 "pangoEnums.ml" 30 789 824
+type(
+  stretch Gpointer.variant_table
+)
+ident(
+  def stretch "pangoEnums.ml" 33 885 885 --
+)
+"pangoEnums.ml" 30 789 826 "pangoEnums.ml" 30 789 835
+type(
+  underline Gpointer.variant_table
+)
+ident(
+  def underline "pangoEnums.ml" 33 885 885 --
+)
+"pangoEnums.ml" 30 789 837 "pangoEnums.ml" 30 789 846
+type(
+  wrap_mode Gpointer.variant_table
+)
+ident(
+  def wrap_mode "pangoEnums.ml" 33 885 885 --
+)
+"pangoEnums.ml" 31 848 852 "pangoEnums.ml" 31 848 866
+type(
+  ellipsize_mode Gpointer.variant_table
+)
+ident(
+  def ellipsize_mode "pangoEnums.ml" 33 885 885 --
+)
+"pangoEnums.ml" 30 789 793 "pangoEnums.ml" 31 848 866
+type(
+  style Gpointer.variant_table * weight Gpointer.variant_table *
+  variant Gpointer.variant_table * stretch Gpointer.variant_table *
+  underline Gpointer.variant_table * wrap_mode Gpointer.variant_table *
+  ellipsize_mode Gpointer.variant_table
+)
+"pangoEnums.ml" 31 848 869 "pangoEnums.ml" 31 848 880
+type(
+  unit ->
+  style Gpointer.variant_table * weight Gpointer.variant_table *
+  variant Gpointer.variant_table * stretch Gpointer.variant_table *
+  underline Gpointer.variant_table * wrap_mode Gpointer.variant_table *
+  ellipsize_mode Gpointer.variant_table
+)
+"pangoEnums.ml" 31 848 881 "pangoEnums.ml" 31 848 883
+type(
+  unit
+)
+"pangoEnums.ml" 31 848 869 "pangoEnums.ml" 31 848 883
+type(
+  style Gpointer.variant_table * weight Gpointer.variant_table *
+  variant Gpointer.variant_table * stretch Gpointer.variant_table *
+  underline Gpointer.variant_table * wrap_mode Gpointer.variant_table *
+  ellipsize_mode Gpointer.variant_table
+)
+"pangoEnums.ml" 33 885 889 "pangoEnums.ml" 33 885 899
+type(
+  style Gobject.data_conv
+)
+ident(
+  def style_conv "pangoEnums.ml" 34 926 926 --
+)
+"pangoEnums.ml" 33 885 902 "pangoEnums.ml" 33 885 919
+type(
+  style Gpointer.variant_table -> style Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.enum
+)
+"pangoEnums.ml" 33 885 920 "pangoEnums.ml" 33 885 925
+type(
+  style Gpointer.variant_table
+)
+ident(
+  int_ref style "pangoEnums.ml" 30 789 793 "pangoEnums.ml" 30 789 798
+)
+"pangoEnums.ml" 33 885 902 "pangoEnums.ml" 33 885 925
+call(
+  stack
+)
+type(
+  style Gobject.data_conv
+)
+"pangoEnums.ml" 34 926 930 "pangoEnums.ml" 34 926 941
+type(
+  weight Gobject.data_conv
+)
+ident(
+  def weight_conv "pangoEnums.ml" 35 969 969 --
+)
+"pangoEnums.ml" 34 926 944 "pangoEnums.ml" 34 926 961
+type(
+  weight Gpointer.variant_table -> weight Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.enum
+)
+"pangoEnums.ml" 34 926 962 "pangoEnums.ml" 34 926 968
+type(
+  weight Gpointer.variant_table
+)
+ident(
+  int_ref weight "pangoEnums.ml" 30 789 800 "pangoEnums.ml" 30 789 806
+)
+"pangoEnums.ml" 34 926 944 "pangoEnums.ml" 34 926 968
+call(
+  stack
+)
+type(
+  weight Gobject.data_conv
+)
+"pangoEnums.ml" 35 969 973 "pangoEnums.ml" 35 969 985
+type(
+  variant Gobject.data_conv
+)
+ident(
+  def variant_conv "pangoEnums.ml" 36 1014 1014 --
+)
+"pangoEnums.ml" 35 969 988 "pangoEnums.ml" 35 969 1005
+type(
+  variant Gpointer.variant_table -> variant Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.enum
+)
+"pangoEnums.ml" 35 969 1006 "pangoEnums.ml" 35 969 1013
+type(
+  variant Gpointer.variant_table
+)
+ident(
+  int_ref variant "pangoEnums.ml" 30 789 808 "pangoEnums.ml" 30 789 815
+)
+"pangoEnums.ml" 35 969 988 "pangoEnums.ml" 35 969 1013
+call(
+  stack
+)
+type(
+  variant Gobject.data_conv
+)
+"pangoEnums.ml" 36 1014 1018 "pangoEnums.ml" 36 1014 1030
+type(
+  stretch Gobject.data_conv
+)
+ident(
+  def stretch_conv "pangoEnums.ml" 37 1059 1059 --
+)
+"pangoEnums.ml" 36 1014 1033 "pangoEnums.ml" 36 1014 1050
+type(
+  stretch Gpointer.variant_table -> stretch Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.enum
+)
+"pangoEnums.ml" 36 1014 1051 "pangoEnums.ml" 36 1014 1058
+type(
+  stretch Gpointer.variant_table
+)
+ident(
+  int_ref stretch "pangoEnums.ml" 30 789 817 "pangoEnums.ml" 30 789 824
+)
+"pangoEnums.ml" 36 1014 1033 "pangoEnums.ml" 36 1014 1058
+call(
+  stack
+)
+type(
+  stretch Gobject.data_conv
+)
+"pangoEnums.ml" 37 1059 1063 "pangoEnums.ml" 37 1059 1077
+type(
+  underline Gobject.data_conv
+)
+ident(
+  def underline_conv "pangoEnums.ml" 38 1108 1108 --
+)
+"pangoEnums.ml" 37 1059 1080 "pangoEnums.ml" 37 1059 1097
+type(
+  underline Gpointer.variant_table -> underline Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.enum
+)
+"pangoEnums.ml" 37 1059 1098 "pangoEnums.ml" 37 1059 1107
+type(
+  underline Gpointer.variant_table
+)
+ident(
+  int_ref underline "pangoEnums.ml" 30 789 826 "pangoEnums.ml" 30 789 835
+)
+"pangoEnums.ml" 37 1059 1080 "pangoEnums.ml" 37 1059 1107
+call(
+  stack
+)
+type(
+  underline Gobject.data_conv
+)
+"pangoEnums.ml" 38 1108 1112 "pangoEnums.ml" 38 1108 1126
+type(
+  wrap_mode Gobject.data_conv
+)
+ident(
+  def wrap_mode_conv "pangoEnums.ml" 39 1157 1157 --
+)
+"pangoEnums.ml" 38 1108 1129 "pangoEnums.ml" 38 1108 1146
+type(
+  wrap_mode Gpointer.variant_table -> wrap_mode Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.enum
+)
+"pangoEnums.ml" 38 1108 1147 "pangoEnums.ml" 38 1108 1156
+type(
+  wrap_mode Gpointer.variant_table
+)
+ident(
+  int_ref wrap_mode "pangoEnums.ml" 30 789 837 "pangoEnums.ml" 30 789 846
+)
+"pangoEnums.ml" 38 1108 1129 "pangoEnums.ml" 38 1108 1156
+call(
+  stack
+)
+type(
+  wrap_mode Gobject.data_conv
+)
+"pangoEnums.ml" 39 1157 1161 "pangoEnums.ml" 39 1157 1180
+type(
+  ellipsize_mode Gobject.data_conv
+)
+ident(
+  def ellipsize_mode_conv "pangoEnums.ml" 39 1157 1215 --
+)
+"pangoEnums.ml" 39 1157 1183 "pangoEnums.ml" 39 1157 1200
+type(
+  ellipsize_mode Gpointer.variant_table -> ellipsize_mode Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.enum
+)
+"pangoEnums.ml" 39 1157 1201 "pangoEnums.ml" 39 1157 1215
+type(
+  ellipsize_mode Gpointer.variant_table
+)
+ident(
+  int_ref ellipsize_mode "pangoEnums.ml" 31 848 852 "pangoEnums.ml" 31 848 866
+)
+"pangoEnums.ml" 39 1157 1183 "pangoEnums.ml" 39 1157 1215
+call(
+  stack
+)
+type(
+  ellipsize_mode Gobject.data_conv
+)

@@ -1,0 +1,1864 @@
+"gBin.ml" 34 1780 1784 "gBin.ml" 34 1780 1789
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  def param "gBin.ml" 36 1807 1807 --
+)
+"gBin.ml" 34 1780 1792 "gBin.ml" 34 1780 1805
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"gBin.ml" 36 1807 1829 "gBin.ml" 36 1807 1832
+type(
+  Gtk.scrolled_window Gtk.obj
+)
+"gBin.ml" 37 1842 1883 "gBin.ml" 37 1842 1886
+type(
+  Gtk.scrolled_window Gtk.obj
+)
+ident(
+  int_ref obj "gBin.ml" 36 1807 1829 "gBin.ml" 36 1807 1832
+)
+"gBin.ml" 39 1919 1938 "gBin.ml" 39 1919 1964
+type(
+  Gtk.scrolled_window Gtk.obj -> GContainer.container_signals_impl
+)
+"gBin.ml" 39 1919 1965 "gBin.ml" 39 1919 1968
+type(
+  Gtk.scrolled_window Gtk.obj
+)
+"gBin.ml" 39 1919 1938 "gBin.ml" 39 1919 1968
+call(
+  tail
+)
+type(
+  GContainer.container_signals_impl
+)
+type(
+  GContainer.container_signals_impl
+)
+"gBin.ml" 40 1969 1996 "gBin.ml" 40 1969 1997
+type(
+  GObj.widget
+)
+ident(
+  def w "gBin.ml" 41 2000 2004 "gBin.ml" 41 2000 2054
+)
+"gBin.ml" 41 2000 2004 "gBin.ml" 41 2000 2036
+type(
+  Gtk.scrolled_window Gtk.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBin.ScrolledWindow.add_with_viewport
+)
+"gBin.ml" 41 2000 2037 "gBin.ml" 41 2000 2040
+type(
+  Gtk.scrolled_window Gtk.obj
+)
+"gBin.ml" 41 2000 2042 "gBin.ml" 41 2000 2051
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gBin.ml" 41 2000 2052 "gBin.ml" 41 2000 2053
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gBin.ml" 40 1969 1996 "gBin.ml" 40 1969 1997
+)
+"gBin.ml" 41 2000 2041 "gBin.ml" 41 2000 2054
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gBin.ml" 41 2000 2004 "gBin.ml" 41 2000 2054
+type(
+  unit
+)
+"gBin.ml" 44 2060 2064 "gBin.ml" 44 2060 2079
+type(
+  ?hadjustment:GData.adjustment ->
+  ?vadjustment:GData.adjustment ->
+  ?hpolicy:GtkEnums.policy_type ->
+  ?vpolicy:GtkEnums.policy_type ->
+  ?placement:GtkEnums.corner_type ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> scrolled_window
+)
+ident(
+  def scrolled_window "gBin.ml" 52 2366 2366 --
+)
+"gBin.ml" 44 2060 2081 "gBin.ml" 44 2060 2092
+type(
+  GData.adjustment option
+)
+ident(
+  def hadjustment "gBin.ml" 44 2060 2093 "gBin.ml" 50 2312 2364
+)
+"gBin.ml" 44 2060 2094 "gBin.ml" 44 2060 2105
+type(
+  GData.adjustment option
+)
+ident(
+  def vadjustment "gBin.ml" 45 2108 2110 "gBin.ml" 50 2312 2364
+)
+"gBin.ml" 45 2108 2110 "gBin.ml" 45 2108 2136
+type(
+  cont:(Gtk.scrolled_window Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) ->
+        ?show:bool -> unit -> scrolled_window) ->
+  Gtk.scrolled_window Gobject.param list ->
+  ?hadjustment:Gtk.adjustment Gtk.obj ->
+  ?vadjustment:Gtk.adjustment Gtk.obj ->
+  ?hpolicy:GtkEnums.policy_type ->
+  ?vpolicy:GtkEnums.policy_type ->
+  ?placement:GtkEnums.corner_type ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> scrolled_window
+)
+ident(
+  ext_ref GtkBin.ScrolledWindow.make_params
+)
+"gBin.ml" 45 2108 2137 "gBin.ml" 45 2108 2139
+type(
+  Gtk.scrolled_window Gobject.param list
+)
+"gBin.ml" 46 2140 2158 "gBin.ml" 46 2140 2165
+type(
+  f:(GData.adjustment -> Gtk.adjustment Gtk.obj) ->
+  GData.adjustment option -> Gtk.adjustment Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gBin.ml" 46 2140 2169 "gBin.ml" 46 2140 2188
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gBin.ml" 46 2140 2189 "gBin.ml" 46 2140 2200
+type(
+  GData.adjustment option
+)
+ident(
+  int_ref hadjustment "gBin.ml" 44 2060 2081 "gBin.ml" 44 2060 2092
+)
+"gBin.ml" 46 2140 2157 "gBin.ml" 46 2140 2201
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gBin.ml" 47 2202 2220 "gBin.ml" 47 2202 2227
+type(
+  f:(GData.adjustment -> Gtk.adjustment Gtk.obj) ->
+  GData.adjustment option -> Gtk.adjustment Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gBin.ml" 47 2202 2231 "gBin.ml" 47 2202 2250
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gBin.ml" 47 2202 2251 "gBin.ml" 47 2202 2262
+type(
+  GData.adjustment option
+)
+ident(
+  int_ref vadjustment "gBin.ml" 44 2060 2094 "gBin.ml" 44 2060 2105
+)
+"gBin.ml" 47 2202 2219 "gBin.ml" 47 2202 2263
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gBin.ml" 49 2276 2278 "gBin.ml" 49 2276 2292
+type(
+  create:(Gtk.scrolled_window Gobject.param list -> scrolled_window) ->
+  Gtk.scrolled_window Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> scrolled_window
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gBin.ml" 49 2276 2306 "gBin.ml" 49 2276 2308
+type(
+  Gtk.scrolled_window Gobject.param list
+)
+ident(
+  def pl "gBin.ml" 50 2312 2316 "gBin.ml" 50 2312 2362
+)
+"gBin.ml" 50 2312 2316 "gBin.ml" 50 2312 2335
+type(
+  Gtk.scrolled_window Gtk.obj -> scrolled_window
+)
+"gBin.ml" 50 2312 2337 "gBin.ml" 50 2312 2358
+type(
+  Gtk.scrolled_window Gobject.param list -> Gtk.scrolled_window Gtk.obj
+)
+ident(
+  ext_ref GtkBin.ScrolledWindow.create
+)
+"gBin.ml" 50 2312 2359 "gBin.ml" 50 2312 2361
+type(
+  Gtk.scrolled_window Gobject.param list
+)
+ident(
+  int_ref pl "gBin.ml" 49 2276 2306 "gBin.ml" 49 2276 2308
+)
+"gBin.ml" 50 2312 2336 "gBin.ml" 50 2312 2362
+call(
+  stack
+)
+type(
+  Gtk.scrolled_window Gtk.obj
+)
+"gBin.ml" 50 2312 2316 "gBin.ml" 50 2312 2362
+call(
+  tail
+)
+type(
+  scrolled_window
+)
+"gBin.ml" 49 2276 2301 "gBin.ml" 50 2312 2363
+type(
+  Gtk.scrolled_window Gobject.param list -> scrolled_window
+)
+"gBin.ml" 48 2264 2274 "gBin.ml" 50 2312 2364
+call(
+  stack
+)
+type(
+  Gtk.scrolled_window Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> scrolled_window
+)
+"gBin.ml" 45 2108 2110 "gBin.ml" 50 2312 2364
+call(
+  tail
+)
+type(
+  ?hpolicy:GtkEnums.policy_type ->
+  ?vpolicy:GtkEnums.policy_type ->
+  ?placement:GtkEnums.corner_type ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> scrolled_window
+)
+"gBin.ml" 52 2366 2382 "gBin.ml" 52 2366 2385
+type(
+  [> Gtk.event_box ] Gtk.obj
+)
+"gBin.ml" 53 2395 2409 "gBin.ml" 53 2395 2412
+type(
+  ([> Gtk.event_box ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gBin.ml" 52 2366 2382 "gBin.ml" 52 2366 2385
+)
+"gBin.ml" 54 2413 2432 "gBin.ml" 54 2413 2458
+type(
+  'a Gtk.obj -> GContainer.container_signals_impl
+)
+"gBin.ml" 54 2413 2459 "gBin.ml" 54 2413 2462
+type(
+  'a Gtk.obj
+)
+"gBin.ml" 54 2413 2432 "gBin.ml" 54 2413 2462
+call(
+  tail
+)
+type(
+  GContainer.container_signals_impl
+)
+type(
+  GContainer.container_signals_impl
+)
+"gBin.ml" 55 2463 2480 "gBin.ml" 55 2463 2498
+type(
+  Gtk.event_box Gtk.obj -> GObj.event_ops
+)
+"gBin.ml" 55 2463 2500 "gBin.ml" 55 2463 2503
+type(
+  Gtk.event_box Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+"gBin.ml" 55 2463 2480 "gBin.ml" 55 2463 2525
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gBin.ml" 58 2531 2535 "gBin.ml" 58 2531 2544
+type(
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> event_box
+)
+ident(
+  def event_box "gBin.ml" 61 2623 2623 --
+)
+"gBin.ml" 59 2547 2549 "gBin.ml" 59 2547 2563
+type(
+  create:(Gtk.event_box Gobject.param list -> event_box) ->
+  Gtk.event_box Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> event_box
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gBin.ml" 59 2547 2564 "gBin.ml" 59 2547 2566
+type(
+  Gtk.event_box Gobject.param list
+)
+"gBin.ml" 59 2547 2580 "gBin.ml" 59 2547 2582
+type(
+  Gtk.event_box Gobject.param list
+)
+ident(
+  def pl "gBin.ml" 59 2547 2586 "gBin.ml" 59 2547 2620
+)
+"gBin.ml" 59 2547 2586 "gBin.ml" 59 2547 2599
+type(
+  Gtk.event_box Gtk.obj -> event_box
+)
+"gBin.ml" 59 2547 2601 "gBin.ml" 59 2547 2616
+type(
+  Gtk.event_box Gobject.param list -> Gtk.event_box Gtk.obj
+)
+ident(
+  ext_ref GtkBin.EventBox.create
+)
+"gBin.ml" 59 2547 2617 "gBin.ml" 59 2547 2619
+type(
+  Gtk.event_box Gobject.param list
+)
+ident(
+  int_ref pl "gBin.ml" 59 2547 2580 "gBin.ml" 59 2547 2582
+)
+"gBin.ml" 59 2547 2600 "gBin.ml" 59 2547 2620
+call(
+  stack
+)
+type(
+  Gtk.event_box Gtk.obj
+)
+"gBin.ml" 59 2547 2586 "gBin.ml" 59 2547 2620
+call(
+  tail
+)
+type(
+  event_box
+)
+"gBin.ml" 59 2547 2575 "gBin.ml" 59 2547 2621
+type(
+  Gtk.event_box Gobject.param list -> event_box
+)
+"gBin.ml" 59 2547 2549 "gBin.ml" 59 2547 2621
+call(
+  stack
+)
+type(
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> event_box
+)
+"gBin.ml" 61 2623 2639 "gBin.ml" 61 2623 2642
+type(
+  [> Gtk.invisible ] Gtk.obj
+)
+"gBin.ml" 62 2652 2666 "gBin.ml" 62 2652 2669
+type(
+  ([> Gtk.invisible ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gBin.ml" 61 2623 2639 "gBin.ml" 61 2623 2642
+)
+"gBin.ml" 63 2670 2689 "gBin.ml" 63 2670 2715
+type(
+  'a Gtk.obj -> GContainer.container_signals_impl
+)
+"gBin.ml" 63 2670 2716 "gBin.ml" 63 2670 2719
+type(
+  'a Gtk.obj
+)
+"gBin.ml" 63 2670 2689 "gBin.ml" 63 2670 2719
+call(
+  tail
+)
+type(
+  GContainer.container_signals_impl
+)
+type(
+  GContainer.container_signals_impl
+)
+"gBin.ml" 64 2720 2737 "gBin.ml" 64 2720 2755
+type(
+  Gtk.invisible Gtk.obj -> GObj.event_ops
+)
+"gBin.ml" 64 2720 2757 "gBin.ml" 64 2720 2760
+type(
+  Gtk.invisible Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+"gBin.ml" 64 2720 2737 "gBin.ml" 64 2720 2782
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gBin.ml" 67 2788 2792 "gBin.ml" 67 2788 2801
+type(
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> invisible
+)
+ident(
+  def invisible "gBin.ml" 70 2881 2881 --
+)
+"gBin.ml" 68 2804 2806 "gBin.ml" 68 2804 2820
+type(
+  create:(Gtk.invisible Gobject.param list -> invisible) ->
+  Gtk.invisible Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> invisible
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gBin.ml" 68 2804 2821 "gBin.ml" 68 2804 2823
+type(
+  Gtk.invisible Gobject.param list
+)
+"gBin.ml" 68 2804 2837 "gBin.ml" 68 2804 2839
+type(
+  Gtk.invisible Gobject.param list
+)
+ident(
+  def pl "gBin.ml" 68 2804 2843 "gBin.ml" 68 2804 2878
+)
+"gBin.ml" 68 2804 2843 "gBin.ml" 68 2804 2856
+type(
+  Gtk.invisible Gtk.obj -> invisible
+)
+"gBin.ml" 68 2804 2858 "gBin.ml" 68 2804 2874
+type(
+  Gtk.invisible Gobject.param list -> Gtk.invisible Gtk.obj
+)
+ident(
+  ext_ref GtkBin.Invisible.create
+)
+"gBin.ml" 68 2804 2875 "gBin.ml" 68 2804 2877
+type(
+  Gtk.invisible Gobject.param list
+)
+ident(
+  int_ref pl "gBin.ml" 68 2804 2837 "gBin.ml" 68 2804 2839
+)
+"gBin.ml" 68 2804 2857 "gBin.ml" 68 2804 2878
+call(
+  stack
+)
+type(
+  Gtk.invisible Gtk.obj
+)
+"gBin.ml" 68 2804 2843 "gBin.ml" 68 2804 2878
+call(
+  tail
+)
+type(
+  invisible
+)
+"gBin.ml" 68 2804 2832 "gBin.ml" 68 2804 2879
+type(
+  Gtk.invisible Gobject.param list -> invisible
+)
+"gBin.ml" 68 2804 2806 "gBin.ml" 68 2804 2879
+call(
+  stack
+)
+type(
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> invisible
+)
+"gBin.ml" 70 2881 2907 "gBin.ml" 70 2881 2910
+type(
+  [> Gtk.handle_box ] Gtk.obj
+)
+"gBin.ml" 71 2942 2975 "gBin.ml" 71 2942 2978
+type(
+  ([> Gtk.handle_box ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gBin.ml" 70 2881 2907 "gBin.ml" 70 2881 2910
+)
+"gBin.ml" 75 3010 3027 "gBin.ml" 75 3010 3030
+type(
+  Gtk.handle_box Gtk.obj
+)
+"gBin.ml" 76 3040 3076 "gBin.ml" 76 3040 3079
+type(
+  Gtk.handle_box Gtk.obj
+)
+ident(
+  int_ref obj "gBin.ml" 75 3010 3027 "gBin.ml" 75 3010 3030
+)
+"gBin.ml" 77 3080 3099 "gBin.ml" 77 3080 3121
+type(
+  Gtk.handle_box Gtk.obj -> handle_box_signals
+)
+"gBin.ml" 77 3080 3122 "gBin.ml" 77 3080 3125
+type(
+  Gtk.handle_box Gtk.obj
+)
+"gBin.ml" 77 3080 3099 "gBin.ml" 77 3080 3125
+call(
+  tail
+)
+type(
+  handle_box_signals
+)
+type(
+  handle_box_signals
+)
+"gBin.ml" 78 3126 3143 "gBin.ml" 78 3126 3161
+type(
+  Gtk.handle_box Gtk.obj -> GObj.event_ops
+)
+"gBin.ml" 78 3126 3162 "gBin.ml" 78 3126 3165
+type(
+  Gtk.handle_box Gtk.obj
+)
+"gBin.ml" 78 3126 3143 "gBin.ml" 78 3126 3165
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gBin.ml" 82 3198 3202 "gBin.ml" 82 3198 3212
+type(
+  ?handle_position:GtkEnums.position_type ->
+  ?snap_edge:GtkEnums.position_type ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> handle_box
+)
+ident(
+  def handle_box "gBin.ml" 86 3326 3326 --
+)
+"gBin.ml" 83 3215 3217 "gBin.ml" 83 3215 3238
+type(
+  cont:(Gtk.handle_box Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> handle_box) ->
+  Gtk.handle_box Gobject.param list ->
+  ?handle_position:GtkEnums.position_type ->
+  ?snap_edge:GtkEnums.position_type ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> handle_box
+)
+ident(
+  ext_ref GtkBin.HandleBox.make_params
+)
+"gBin.ml" 83 3215 3239 "gBin.ml" 83 3215 3241
+type(
+  Gtk.handle_box Gobject.param list
+)
+"gBin.ml" 84 3250 3252 "gBin.ml" 84 3250 3266
+type(
+  create:(Gtk.handle_box Gobject.param list -> handle_box) ->
+  Gtk.handle_box Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> handle_box
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gBin.ml" 84 3250 3280 "gBin.ml" 84 3250 3282
+type(
+  Gtk.handle_box Gobject.param list
+)
+ident(
+  def pl "gBin.ml" 84 3250 3286 "gBin.ml" 84 3250 3322
+)
+"gBin.ml" 84 3250 3286 "gBin.ml" 84 3250 3300
+type(
+  Gtk.handle_box Gtk.obj -> handle_box
+)
+"gBin.ml" 84 3250 3302 "gBin.ml" 84 3250 3318
+type(
+  Gtk.handle_box Gobject.param list -> Gtk.handle_box Gtk.obj
+)
+ident(
+  ext_ref GtkBin.HandleBox.create
+)
+"gBin.ml" 84 3250 3319 "gBin.ml" 84 3250 3321
+type(
+  Gtk.handle_box Gobject.param list
+)
+ident(
+  int_ref pl "gBin.ml" 84 3250 3280 "gBin.ml" 84 3250 3282
+)
+"gBin.ml" 84 3250 3301 "gBin.ml" 84 3250 3322
+call(
+  stack
+)
+type(
+  Gtk.handle_box Gtk.obj
+)
+"gBin.ml" 84 3250 3286 "gBin.ml" 84 3250 3322
+call(
+  tail
+)
+type(
+  handle_box
+)
+"gBin.ml" 84 3250 3275 "gBin.ml" 84 3250 3323
+type(
+  Gtk.handle_box Gobject.param list -> handle_box
+)
+"gBin.ml" 83 3215 3248 "gBin.ml" 84 3250 3324
+call(
+  stack
+)
+type(
+  Gtk.handle_box Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> handle_box
+)
+"gBin.ml" 83 3215 3217 "gBin.ml" 84 3250 3324
+call(
+  stack
+)
+type(
+  ?handle_position:GtkEnums.position_type ->
+  ?snap_edge:GtkEnums.position_type ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> handle_box
+)
+"gBin.ml" 86 3326 3343 "gBin.ml" 86 3326 3346
+type(
+  [> Gtk.frame ] Gtk.obj
+)
+"gBin.ml" 87 3356 3387 "gBin.ml" 87 3356 3390
+type(
+  ([> Gtk.frame ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gBin.ml" 86 3326 3343 "gBin.ml" 86 3326 3346
+)
+"gBin.ml" 91 3418 3430 "gBin.ml" 91 3418 3433
+type(
+  Gtk.frame Gtk.obj
+)
+"gBin.ml" 92 3443 3465 "gBin.ml" 92 3443 3468
+type(
+  Gtk.frame Gtk.obj
+)
+type(
+  Gtk.frame Gtk.obj
+)
+ident(
+  int_ref obj "gBin.ml" 91 3418 3430 "gBin.ml" 91 3418 3433
+)
+"gBin.ml" 93 3486 3505 "gBin.ml" 93 3486 3531
+type(
+  Gtk.frame Gtk.obj -> GContainer.container_signals_impl
+)
+"gBin.ml" 93 3486 3532 "gBin.ml" 93 3486 3535
+type(
+  Gtk.frame Gtk.obj
+)
+"gBin.ml" 93 3486 3505 "gBin.ml" 93 3486 3535
+call(
+  tail
+)
+type(
+  GContainer.container_signals_impl
+)
+type(
+  GContainer.container_signals_impl
+)
+"gBin.ml" 96 3541 3545 "gBin.ml" 96 3541 3550
+type(
+  ?label:string ->
+  ?label_xalign:float ->
+  ?label_yalign:float ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> frame
+)
+ident(
+  def frame "gBin.ml" 100 3651 3651 --
+)
+"gBin.ml" 97 3553 3555 "gBin.ml" 97 3553 3572
+type(
+  cont:(Gtk.frame Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> frame) ->
+  Gtk.frame Gobject.param list ->
+  ?label:string ->
+  ?label_xalign:float ->
+  ?label_yalign:float ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> frame
+)
+ident(
+  ext_ref GtkBin.Frame.make_params
+)
+"gBin.ml" 97 3553 3573 "gBin.ml" 97 3553 3575
+type(
+  Gtk.frame Gobject.param list
+)
+"gBin.ml" 98 3584 3586 "gBin.ml" 98 3584 3600
+type(
+  create:(Gtk.frame Gobject.param list -> frame) ->
+  Gtk.frame Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> frame
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gBin.ml" 98 3584 3614 "gBin.ml" 98 3584 3616
+type(
+  Gtk.frame Gobject.param list
+)
+ident(
+  def pl "gBin.ml" 98 3584 3620 "gBin.ml" 98 3584 3647
+)
+"gBin.ml" 98 3584 3620 "gBin.ml" 98 3584 3629
+type(
+  Gtk.frame Gtk.obj -> frame
+)
+"gBin.ml" 98 3584 3631 "gBin.ml" 98 3584 3643
+type(
+  Gtk.frame Gobject.param list -> Gtk.frame Gtk.obj
+)
+ident(
+  ext_ref GtkBin.Frame.create
+)
+"gBin.ml" 98 3584 3644 "gBin.ml" 98 3584 3646
+type(
+  Gtk.frame Gobject.param list
+)
+ident(
+  int_ref pl "gBin.ml" 98 3584 3614 "gBin.ml" 98 3584 3616
+)
+"gBin.ml" 98 3584 3630 "gBin.ml" 98 3584 3647
+call(
+  stack
+)
+type(
+  Gtk.frame Gtk.obj
+)
+"gBin.ml" 98 3584 3620 "gBin.ml" 98 3584 3647
+call(
+  tail
+)
+type(
+  frame
+)
+"gBin.ml" 98 3584 3609 "gBin.ml" 98 3584 3648
+type(
+  Gtk.frame Gobject.param list -> frame
+)
+"gBin.ml" 97 3553 3582 "gBin.ml" 98 3584 3649
+call(
+  stack
+)
+type(
+  Gtk.frame Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> frame
+)
+"gBin.ml" 97 3553 3555 "gBin.ml" 98 3584 3649
+call(
+  stack
+)
+type(
+  ?label:string ->
+  ?label_xalign:float ->
+  ?label_yalign:float ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> frame
+)
+"gBin.ml" 100 3651 3670 "gBin.ml" 100 3651 3673
+type(
+  Gtk.aspect_frame Gtk.obj
+)
+"gBin.ml" 101 3683 3705 "gBin.ml" 101 3683 3708
+type(
+  Gtk.aspect_frame Gtk.obj
+)
+type(
+  Gtk.aspect_frame Gtk.obj
+)
+ident(
+  int_ref obj "gBin.ml" 100 3651 3670 "gBin.ml" 100 3651 3673
+)
+"gBin.ml" 102 3733 3752 "gBin.ml" 102 3733 3778
+type(
+  Gtk.aspect_frame Gtk.obj -> GContainer.container_signals_impl
+)
+"gBin.ml" 102 3733 3779 "gBin.ml" 102 3733 3782
+type(
+  Gtk.aspect_frame Gtk.obj
+)
+"gBin.ml" 102 3733 3752 "gBin.ml" 102 3733 3782
+call(
+  tail
+)
+type(
+  GContainer.container_signals_impl
+)
+type(
+  GContainer.container_signals_impl
+)
+"gBin.ml" 106 3817 3821 "gBin.ml" 106 3817 3833
+type(
+  ?obey_child:bool ->
+  ?ratio:float ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?label:string ->
+  ?label_xalign:float ->
+  ?label_yalign:float ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> aspect_frame
+)
+ident(
+  def aspect_frame "gBin.ml" 111 3982 3982 --
+)
+"gBin.ml" 107 3836 3838 "gBin.ml" 107 3836 3861
+type(
+  cont:(Gtk.aspect_frame Gobject.param list ->
+        ?label:string ->
+        ?label_xalign:float ->
+        ?label_yalign:float ->
+        ?shadow_type:GtkEnums.shadow_type ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> aspect_frame) ->
+  Gtk.aspect_frame Gobject.param list ->
+  ?obey_child:bool ->
+  ?ratio:float ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?label:string ->
+  ?label_xalign:float ->
+  ?label_yalign:float ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> aspect_frame
+)
+ident(
+  ext_ref GtkBin.AspectFrame.make_params
+)
+"gBin.ml" 107 3836 3862 "gBin.ml" 107 3836 3864
+type(
+  Gtk.aspect_frame Gobject.param list
+)
+"gBin.ml" 108 3873 3875 "gBin.ml" 108 3873 3892
+type(
+  cont:(Gtk.aspect_frame Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> aspect_frame) ->
+  Gtk.aspect_frame Gobject.param list ->
+  ?label:string ->
+  ?label_xalign:float ->
+  ?label_yalign:float ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> aspect_frame
+)
+ident(
+  ext_ref GtkBin.Frame.make_params
+)
+"gBin.ml" 109 3901 3903 "gBin.ml" 109 3901 3917
+type(
+  create:(Gtk.aspect_frame Gobject.param list -> aspect_frame) ->
+  Gtk.aspect_frame Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> aspect_frame
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gBin.ml" 109 3901 3931 "gBin.ml" 109 3901 3933
+type(
+  Gtk.aspect_frame Gobject.param list
+)
+ident(
+  def pl "gBin.ml" 109 3901 3937 "gBin.ml" 109 3901 3977
+)
+"gBin.ml" 109 3901 3937 "gBin.ml" 109 3901 3953
+type(
+  Gtk.aspect_frame Gtk.obj -> aspect_frame
+)
+"gBin.ml" 109 3901 3955 "gBin.ml" 109 3901 3973
+type(
+  Gtk.aspect_frame Gobject.param list -> Gtk.aspect_frame Gtk.obj
+)
+ident(
+  ext_ref GtkBin.AspectFrame.create
+)
+"gBin.ml" 109 3901 3974 "gBin.ml" 109 3901 3976
+type(
+  Gtk.aspect_frame Gobject.param list
+)
+ident(
+  int_ref pl "gBin.ml" 109 3901 3931 "gBin.ml" 109 3901 3933
+)
+"gBin.ml" 109 3901 3954 "gBin.ml" 109 3901 3977
+call(
+  stack
+)
+type(
+  Gtk.aspect_frame Gtk.obj
+)
+"gBin.ml" 109 3901 3937 "gBin.ml" 109 3901 3977
+call(
+  tail
+)
+type(
+  aspect_frame
+)
+"gBin.ml" 109 3901 3926 "gBin.ml" 109 3901 3978
+type(
+  Gtk.aspect_frame Gobject.param list -> aspect_frame
+)
+"gBin.ml" 108 3873 3899 "gBin.ml" 109 3901 3979
+call(
+  stack
+)
+type(
+  Gtk.aspect_frame Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> aspect_frame
+)
+"gBin.ml" 107 3836 3871 "gBin.ml" 109 3901 3980
+call(
+  stack
+)
+type(
+  Gtk.aspect_frame Gobject.param list ->
+  ?label:string ->
+  ?label_xalign:float ->
+  ?label_yalign:float ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> aspect_frame
+)
+"gBin.ml" 107 3836 3838 "gBin.ml" 109 3901 3980
+call(
+  stack
+)
+type(
+  ?obey_child:bool ->
+  ?ratio:float ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?label:string ->
+  ?label_xalign:float ->
+  ?label_yalign:float ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> aspect_frame
+)
+"gBin.ml" 111 3982 3997 "gBin.ml" 111 3982 4000
+type(
+  Gtk.viewport Gtk.obj
+)
+"gBin.ml" 112 4010 4044 "gBin.ml" 112 4010 4047
+type(
+  Gtk.viewport Gtk.obj
+)
+ident(
+  int_ref obj "gBin.ml" 111 3982 3997 "gBin.ml" 111 3982 4000
+)
+"gBin.ml" 113 4048 4067 "gBin.ml" 113 4048 4093
+type(
+  Gtk.viewport Gtk.obj -> GContainer.container_signals_impl
+)
+"gBin.ml" 113 4048 4094 "gBin.ml" 113 4048 4097
+type(
+  Gtk.viewport Gtk.obj
+)
+"gBin.ml" 113 4048 4067 "gBin.ml" 113 4048 4097
+call(
+  tail
+)
+type(
+  GContainer.container_signals_impl
+)
+type(
+  GContainer.container_signals_impl
+)
+"gBin.ml" 114 4098 4115 "gBin.ml" 114 4098 4128
+type(
+  Gtk.viewport Gtk.obj -> GObj.event_ops
+)
+"gBin.ml" 114 4098 4129 "gBin.ml" 114 4098 4132
+type(
+  Gtk.viewport Gtk.obj
+)
+"gBin.ml" 114 4098 4115 "gBin.ml" 114 4098 4132
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gBin.ml" 118 4163 4167 "gBin.ml" 118 4163 4175
+type(
+  ?hadjustment:GData.adjustment ->
+  ?vadjustment:GData.adjustment ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> viewport
+)
+ident(
+  def viewport "gBin.ml" 124 4435 4435 --
+)
+"gBin.ml" 118 4163 4177 "gBin.ml" 118 4163 4188
+type(
+  GData.adjustment option
+)
+ident(
+  def hadjustment "gBin.ml" 118 4163 4189 "gBin.ml" 122 4362 4433
+)
+"gBin.ml" 118 4163 4190 "gBin.ml" 118 4163 4201
+type(
+  GData.adjustment option
+)
+ident(
+  def vadjustment "gBin.ml" 119 4204 4206 "gBin.ml" 122 4362 4433
+)
+"gBin.ml" 119 4204 4206 "gBin.ml" 119 4204 4226
+type(
+  cont:(Gtk.viewport Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> viewport) ->
+  Gtk.viewport Gobject.param list ->
+  ?hadjustment:Gtk.adjustment Gtk.obj ->
+  ?vadjustment:Gtk.adjustment Gtk.obj ->
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> viewport
+)
+ident(
+  ext_ref GtkBin.Viewport.make_params
+)
+"gBin.ml" 119 4204 4227 "gBin.ml" 119 4204 4229
+type(
+  Gtk.viewport Gobject.param list
+)
+"gBin.ml" 120 4230 4248 "gBin.ml" 120 4230 4255
+type(
+  f:(GData.adjustment -> Gtk.adjustment Gtk.obj) ->
+  GData.adjustment option -> Gtk.adjustment Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gBin.ml" 120 4230 4259 "gBin.ml" 120 4230 4278
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gBin.ml" 120 4230 4279 "gBin.ml" 120 4230 4290
+type(
+  GData.adjustment option
+)
+ident(
+  int_ref hadjustment "gBin.ml" 118 4163 4177 "gBin.ml" 118 4163 4188
+)
+"gBin.ml" 120 4230 4247 "gBin.ml" 120 4230 4291
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gBin.ml" 121 4292 4310 "gBin.ml" 121 4292 4317
+type(
+  f:(GData.adjustment -> Gtk.adjustment Gtk.obj) ->
+  GData.adjustment option -> Gtk.adjustment Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gBin.ml" 121 4292 4321 "gBin.ml" 121 4292 4340
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gBin.ml" 121 4292 4341 "gBin.ml" 121 4292 4352
+type(
+  GData.adjustment option
+)
+ident(
+  int_ref vadjustment "gBin.ml" 118 4163 4190 "gBin.ml" 118 4163 4201
+)
+"gBin.ml" 121 4292 4309 "gBin.ml" 121 4292 4353
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gBin.ml" 122 4362 4364 "gBin.ml" 122 4362 4378
+type(
+  create:(Gtk.viewport Gobject.param list -> viewport) ->
+  Gtk.viewport Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> viewport
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gBin.ml" 122 4362 4392 "gBin.ml" 122 4362 4394
+type(
+  Gtk.viewport Gobject.param list
+)
+ident(
+  def pl "gBin.ml" 122 4362 4398 "gBin.ml" 122 4362 4431
+)
+"gBin.ml" 122 4362 4398 "gBin.ml" 122 4362 4410
+type(
+  Gtk.viewport Gtk.obj -> viewport
+)
+"gBin.ml" 122 4362 4412 "gBin.ml" 122 4362 4427
+type(
+  Gtk.viewport Gobject.param list -> Gtk.viewport Gtk.obj
+)
+ident(
+  ext_ref GtkBin.Viewport.create
+)
+"gBin.ml" 122 4362 4428 "gBin.ml" 122 4362 4430
+type(
+  Gtk.viewport Gobject.param list
+)
+ident(
+  int_ref pl "gBin.ml" 122 4362 4392 "gBin.ml" 122 4362 4394
+)
+"gBin.ml" 122 4362 4411 "gBin.ml" 122 4362 4431
+call(
+  stack
+)
+type(
+  Gtk.viewport Gtk.obj
+)
+"gBin.ml" 122 4362 4398 "gBin.ml" 122 4362 4431
+call(
+  tail
+)
+type(
+  viewport
+)
+"gBin.ml" 122 4362 4387 "gBin.ml" 122 4362 4432
+type(
+  Gtk.viewport Gobject.param list -> viewport
+)
+"gBin.ml" 121 4292 4360 "gBin.ml" 122 4362 4433
+call(
+  stack
+)
+type(
+  Gtk.viewport Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> viewport
+)
+"gBin.ml" 119 4204 4206 "gBin.ml" 122 4362 4433
+call(
+  tail
+)
+type(
+  ?shadow_type:GtkEnums.shadow_type ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> viewport
+)
+"gBin.ml" 124 4435 4451 "gBin.ml" 124 4435 4454
+type(
+  Gtk.alignment Gtk.obj
+)
+"gBin.ml" 125 4464 4499 "gBin.ml" 125 4464 4502
+type(
+  Gtk.alignment Gtk.obj
+)
+ident(
+  int_ref obj "gBin.ml" 124 4435 4451 "gBin.ml" 124 4435 4454
+)
+"gBin.ml" 126 4503 4522 "gBin.ml" 126 4503 4548
+type(
+  Gtk.alignment Gtk.obj -> GContainer.container_signals_impl
+)
+"gBin.ml" 126 4503 4549 "gBin.ml" 126 4503 4552
+type(
+  Gtk.alignment Gtk.obj
+)
+"gBin.ml" 126 4503 4522 "gBin.ml" 126 4503 4552
+call(
+  tail
+)
+type(
+  GContainer.container_signals_impl
+)
+type(
+  GContainer.container_signals_impl
+)
+"gBin.ml" 130 4584 4588 "gBin.ml" 130 4584 4597
+type(
+  ?padding:int * int * int * int ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xscale:float ->
+  ?yscale:float ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> alignment
+)
+ident(
+  def alignment "gBin.ml" 140 4958 4958 --
+)
+"gBin.ml" 130 4584 4599 "gBin.ml" 130 4584 4606
+type(
+  (int * int * int * int) option
+)
+ident(
+  def padding "gBin.ml" 131 4609 4611 "gBin.ml" 138 4881 4954
+)
+"gBin.ml" 131 4609 4615 "gBin.ml" 131 4609 4617
+type(
+  [> `alignment ] Gobject.param list
+)
+"gBin.ml" 131 4609 4626 "gBin.ml" 131 4609 4633
+type(
+  (int * int * int * int) option
+)
+ident(
+  int_ref padding "gBin.ml" 130 4584 4599 "gBin.ml" 130 4584 4606
+)
+"gBin.ml" 132 4640 4644 "gBin.ml" 132 4640 4648
+type(
+  (int * int * int * int) option
+)
+"gBin.ml" 132 4640 4652 "gBin.ml" 132 4640 4654
+type(
+  ([> `alignment ] as 'a) Gobject.param list
+)
+"gBin.ml" 133 4656 4666 "gBin.ml" 133 4656 4667
+type(
+  int
+)
+ident(
+  def t "gBin.ml" 133 4656 4681 "gBin.ml" 136 4801 4842
+)
+"gBin.ml" 133 4656 4669 "gBin.ml" 133 4656 4670
+type(
+  int
+)
+ident(
+  def b "gBin.ml" 133 4656 4681 "gBin.ml" 136 4801 4842
+)
+"gBin.ml" 133 4656 4672 "gBin.ml" 133 4656 4673
+type(
+  int
+)
+ident(
+  def l "gBin.ml" 133 4656 4681 "gBin.ml" 136 4801 4842
+)
+"gBin.ml" 133 4656 4675 "gBin.ml" 133 4656 4676
+type(
+  int
+)
+ident(
+  def r "gBin.ml" 133 4656 4681 "gBin.ml" 136 4801 4842
+)
+"gBin.ml" 133 4656 4665 "gBin.ml" 133 4656 4677
+type(
+  int * int * int * int
+)
+"gBin.ml" 133 4656 4660 "gBin.ml" 133 4656 4677
+type(
+  (int * int * int * int) option
+)
+"gBin.ml" 133 4656 4683 "gBin.ml" 133 4656 4688
+type(
+  ('a, int) Gobject.property -> int -> 'a Gobject.param
+)
+ident(
+  int_ref param "gBin.ml" 34 1780 1784 "gBin.ml" 34 1780 1789
+)
+"gBin.ml" 133 4656 4689 "gBin.ml" 133 4656 4712
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBin.Alignment.P.top_padding
+)
+"gBin.ml" 133 4656 4713 "gBin.ml" 133 4656 4714
+type(
+  int
+)
+ident(
+  int_ref t "gBin.ml" 133 4656 4666 "gBin.ml" 133 4656 4667
+)
+"gBin.ml" 133 4656 4683 "gBin.ml" 133 4656 4714
+call(
+  stack
+)
+type(
+  'a Gobject.param
+)
+"gBin.ml" 134 4717 4723 "gBin.ml" 134 4717 4728
+type(
+  ('a, int) Gobject.property -> int -> 'a Gobject.param
+)
+ident(
+  int_ref param "gBin.ml" 34 1780 1784 "gBin.ml" 34 1780 1789
+)
+"gBin.ml" 134 4717 4729 "gBin.ml" 134 4717 4755
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBin.Alignment.P.bottom_padding
+)
+"gBin.ml" 134 4717 4756 "gBin.ml" 134 4717 4757
+type(
+  int
+)
+ident(
+  int_ref b "gBin.ml" 133 4656 4669 "gBin.ml" 133 4656 4670
+)
+"gBin.ml" 134 4717 4723 "gBin.ml" 134 4717 4757
+call(
+  stack
+)
+type(
+  'a Gobject.param
+)
+"gBin.ml" 135 4760 4766 "gBin.ml" 135 4760 4771
+type(
+  ('a, int) Gobject.property -> int -> 'a Gobject.param
+)
+ident(
+  int_ref param "gBin.ml" 34 1780 1784 "gBin.ml" 34 1780 1789
+)
+"gBin.ml" 135 4760 4772 "gBin.ml" 135 4760 4796
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBin.Alignment.P.left_padding
+)
+"gBin.ml" 135 4760 4797 "gBin.ml" 135 4760 4798
+type(
+  int
+)
+ident(
+  int_ref l "gBin.ml" 133 4656 4672 "gBin.ml" 133 4656 4673
+)
+"gBin.ml" 135 4760 4766 "gBin.ml" 135 4760 4798
+call(
+  stack
+)
+type(
+  'a Gobject.param
+)
+"gBin.ml" 136 4801 4807 "gBin.ml" 136 4801 4812
+type(
+  ('a, int) Gobject.property -> int -> 'a Gobject.param
+)
+ident(
+  int_ref param "gBin.ml" 34 1780 1784 "gBin.ml" 34 1780 1789
+)
+"gBin.ml" 136 4801 4813 "gBin.ml" 136 4801 4838
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkBin.Alignment.P.right_padding
+)
+"gBin.ml" 136 4801 4839 "gBin.ml" 136 4801 4840
+type(
+  int
+)
+ident(
+  int_ref r "gBin.ml" 133 4656 4675 "gBin.ml" 133 4656 4676
+)
+"gBin.ml" 136 4801 4807 "gBin.ml" 136 4801 4840
+call(
+  stack
+)
+type(
+  'a Gobject.param
+)
+"gBin.ml" 133 4656 4681 "gBin.ml" 136 4801 4842
+type(
+  'a Gobject.param list
+)
+"gBin.ml" 131 4609 4620 "gBin.ml" 136 4801 4842
+type(
+  'a Gobject.param list
+)
+"gBin.ml" 137 4846 4848 "gBin.ml" 137 4846 4869
+type(
+  cont:(Gtk.alignment Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> alignment) ->
+  Gtk.alignment Gobject.param list ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xscale:float ->
+  ?yscale:float ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> alignment
+)
+ident(
+  ext_ref GtkBin.Alignment.make_params
+)
+"gBin.ml" 137 4846 4870 "gBin.ml" 137 4846 4872
+type(
+  Gtk.alignment Gobject.param list
+)
+ident(
+  int_ref pl "gBin.ml" 131 4609 4615 "gBin.ml" 131 4609 4617
+)
+"gBin.ml" 138 4881 4883 "gBin.ml" 138 4881 4897
+type(
+  create:(Gtk.alignment Gobject.param list -> alignment) ->
+  Gtk.alignment Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> alignment
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gBin.ml" 138 4881 4911 "gBin.ml" 138 4881 4913
+type(
+  Gtk.alignment Gobject.param list
+)
+ident(
+  def pl "gBin.ml" 138 4881 4917 "gBin.ml" 138 4881 4952
+)
+"gBin.ml" 138 4881 4917 "gBin.ml" 138 4881 4930
+type(
+  Gtk.alignment Gtk.obj -> alignment
+)
+"gBin.ml" 138 4881 4932 "gBin.ml" 138 4881 4948
+type(
+  Gtk.alignment Gobject.param list -> Gtk.alignment Gtk.obj
+)
+ident(
+  ext_ref GtkBin.Alignment.create
+)
+"gBin.ml" 138 4881 4949 "gBin.ml" 138 4881 4951
+type(
+  Gtk.alignment Gobject.param list
+)
+ident(
+  int_ref pl "gBin.ml" 138 4881 4911 "gBin.ml" 138 4881 4913
+)
+"gBin.ml" 138 4881 4931 "gBin.ml" 138 4881 4952
+call(
+  stack
+)
+type(
+  Gtk.alignment Gtk.obj
+)
+"gBin.ml" 138 4881 4917 "gBin.ml" 138 4881 4952
+call(
+  tail
+)
+type(
+  alignment
+)
+"gBin.ml" 138 4881 4906 "gBin.ml" 138 4881 4953
+type(
+  Gtk.alignment Gobject.param list -> alignment
+)
+"gBin.ml" 137 4846 4879 "gBin.ml" 138 4881 4954
+call(
+  stack
+)
+type(
+  Gtk.alignment Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> alignment
+)
+"gBin.ml" 137 4846 4848 "gBin.ml" 138 4881 4954
+call(
+  tail
+)
+type(
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xscale:float ->
+  ?yscale:float ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> alignment
+)
+"gBin.ml" 131 4609 4611 "gBin.ml" 138 4881 4954
+type(
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xscale:float ->
+  ?yscale:float ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> alignment
+)
+"gBin.ml" 140 4958 4962 "gBin.ml" 140 4958 4976
+type(
+  < as_widget : 'a Gobject.obj; .. > -> alignment
+)
+ident(
+  def alignment_cast "gBin.ml" 142 5025 5025 --
+)
+"gBin.ml" 140 4958 4977 "gBin.ml" 140 4958 4978
+type(
+  < as_widget : 'a Gobject.obj; .. > as 'b
+)
+ident(
+  def w "gBin.ml" 140 4958 4981 "gBin.ml" 140 4958 5023
+)
+"gBin.ml" 140 4958 4981 "gBin.ml" 140 4958 4994
+type(
+  Gtk.alignment Gtk.obj -> alignment
+)
+"gBin.ml" 140 4958 4996 "gBin.ml" 140 4958 5010
+type(
+  'a Gobject.obj -> Gtk.alignment Gtk.obj
+)
+ident(
+  ext_ref GtkBin.Alignment.cast
+)
+"gBin.ml" 140 4958 5011 "gBin.ml" 140 4958 5012
+type(
+  'b
+)
+ident(
+  int_ref w "gBin.ml" 140 4958 4977 "gBin.ml" 140 4958 4978
+)
+"gBin.ml" 140 4958 5011 "gBin.ml" 140 4958 5022
+call(
+  stack
+)
+type(
+  'a Gobject.obj
+)
+"gBin.ml" 140 4958 4995 "gBin.ml" 140 4958 5023
+call(
+  stack
+)
+type(
+  Gtk.alignment Gtk.obj
+)
+"gBin.ml" 140 4958 4981 "gBin.ml" 140 4958 5023
+call(
+  tail
+)
+type(
+  alignment
+)
+"gBin.ml" 142 5025 5048 "gBin.ml" 142 5025 5051
+type(
+  [> Gtk.expander ] Gtk.obj
+)
+"gBin.ml" 143 5061 5106 "gBin.ml" 143 5061 5109
+type(
+  ([> Gtk.expander ] as 'a) Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref obj "gBin.ml" 142 5025 5048 "gBin.ml" 142 5025 5051
+)
+"gBin.ml" 147 5180 5195 "gBin.ml" 147 5180 5198
+type(
+  [> Gtk.expander ] Gtk.obj
+)
+"gBin.ml" 148 5208 5257 "gBin.ml" 148 5208 5260
+type(
+  ([> Gtk.expander ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gBin.ml" 147 5180 5195 "gBin.ml" 147 5180 5198
+)
+"gBin.ml" 150 5299 5318 "gBin.ml" 150 5299 5338
+type(
+  'a Gtk.obj -> expander_signals
+)
+"gBin.ml" 150 5299 5339 "gBin.ml" 150 5299 5342
+type(
+  'a Gtk.obj
+)
+"gBin.ml" 150 5299 5318 "gBin.ml" 150 5299 5342
+call(
+  tail
+)
+type(
+  expander_signals
+)
+type(
+  expander_signals
+)
+"gBin.ml" 153 5348 5352 "gBin.ml" 153 5348 5360
+type(
+  ?expanded:bool ->
+  ?label:string ->
+  ?spacing:int ->
+  ?use_underline:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> expander
+)
+ident(
+  def expander "gBin.ml" 156 5451 5497 --
+)
+"gBin.ml" 154 5363 5365 "gBin.ml" 154 5363 5392
+type(
+  cont:(Gtk.expander Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> expander) ->
+  Gtk.expander Gobject.param list ->
+  ?expanded:bool ->
+  ?label:string ->
+  ?spacing:int ->
+  ?use_underline:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> expander
+)
+ident(
+  ext_ref GtkBin.Expander.make_params
+)
+"gBin.ml" 154 5363 5393 "gBin.ml" 154 5363 5395
+type(
+  Gtk.expander Gobject.param list
+)
+"gBin.ml" 155 5404 5406 "gBin.ml" 155 5404 5431
+type(
+  create:(Gtk.expander Gobject.param list -> expander) ->
+  Gtk.expander Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> expander
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gBin.ml" 155 5404 5445 "gBin.ml" 155 5404 5447
+type(
+  Gtk.expander Gobject.param list
+)
+ident(
+  def pl "gBin.ml" 156 5451 5455 "gBin.ml" 156 5451 5495
+)
+"gBin.ml" 156 5451 5455 "gBin.ml" 156 5451 5467
+type(
+  Gtk.expander Gtk.obj -> expander
+)
+"gBin.ml" 156 5451 5469 "gBin.ml" 156 5451 5491
+type(
+  Gtk.expander Gobject.param list -> Gtk.expander Gtk.obj
+)
+ident(
+  ext_ref GtkBin.Expander.create
+)
+"gBin.ml" 156 5451 5492 "gBin.ml" 156 5451 5494
+type(
+  Gtk.expander Gobject.param list
+)
+ident(
+  int_ref pl "gBin.ml" 155 5404 5445 "gBin.ml" 155 5404 5447
+)
+"gBin.ml" 156 5451 5468 "gBin.ml" 156 5451 5495
+call(
+  stack
+)
+type(
+  Gtk.expander Gtk.obj
+)
+"gBin.ml" 156 5451 5455 "gBin.ml" 156 5451 5495
+call(
+  tail
+)
+type(
+  expander
+)
+"gBin.ml" 155 5404 5440 "gBin.ml" 156 5451 5496
+type(
+  Gtk.expander Gobject.param list -> expander
+)
+"gBin.ml" 154 5363 5402 "gBin.ml" 156 5451 5497
+call(
+  stack
+)
+type(
+  Gtk.expander Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> expander
+)
+"gBin.ml" 154 5363 5365 "gBin.ml" 156 5451 5497
+call(
+  stack
+)
+type(
+  ?expanded:bool ->
+  ?label:string ->
+  ?spacing:int ->
+  ?use_underline:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> expander
+)

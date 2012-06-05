@@ -1,0 +1,4 @@
+deps=ocamlbuild
+tarball=root1d-0.2.tar.gz
+is_library=true
+is_program=false

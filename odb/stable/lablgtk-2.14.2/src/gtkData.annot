@@ -1,0 +1,378 @@
+"gtkData.ml" 41 2171 2177 "gtkData.ml" 41 2171 2184
+type(
+  key:Gdk.keysym ->
+  ?modi:Gdk.Tags.modifier list ->
+  ?flags:Gtk.Tags.accel_flag list ->
+  callback:(unit -> unit) -> Gtk.accel_group -> unit
+)
+ident(
+  def connect "gtkData.ml" 44 2306 2308 "gtkData.ml" 56 2920 2923
+)
+"gtkData.ml" 41 2171 2186 "gtkData.ml" 41 2171 2189
+type(
+  Gdk.keysym
+)
+ident(
+  def key "gtkData.ml" 41 2171 2190 "gtkData.ml" 43 2250 2305
+)
+"gtkData.ml" 41 2171 2191 "gtkData.ml" 41 2171 2195
+type(
+  Gdk.Tags.modifier list option
+)
+ident(
+  def modi "gtkData.ml" 41 2171 2196 "gtkData.ml" 43 2250 2305
+)
+"gtkData.ml" 41 2171 2197 "gtkData.ml" 41 2171 2202
+type(
+  Gtk.Tags.accel_flag list option
+)
+ident(
+  def flags "gtkData.ml" 41 2171 2203 "gtkData.ml" 43 2250 2305
+)
+"gtkData.ml" 41 2171 2204 "gtkData.ml" 41 2171 2212
+type(
+  unit -> unit
+)
+ident(
+  def callback "gtkData.ml" 41 2171 2213 "gtkData.ml" 43 2250 2305
+)
+"gtkData.ml" 41 2171 2213 "gtkData.ml" 41 2171 2214
+type(
+  Gtk.accel_group
+)
+ident(
+  def g "gtkData.ml" 42 2217 2221 "gtkData.ml" 43 2250 2305
+)
+"gtkData.ml" 42 2217 2221 "gtkData.ml" 42 2217 2229
+type(
+  Gtk.accel_group ->
+  key:Gdk.keysym ->
+  ?modi:Gdk.Tags.modifier list ->
+  ?flags:Gtk.Tags.accel_flag list -> callback:Gobject.g_closure -> unit
+)
+"gtkData.ml" 42 2217 2230 "gtkData.ml" 42 2217 2231
+type(
+  Gtk.accel_group
+)
+ident(
+  int_ref g "gtkData.ml" 41 2171 2213 "gtkData.ml" 41 2171 2214
+)
+"gtkData.ml" 42 2217 2233 "gtkData.ml" 42 2217 2236
+type(
+  Gdk.keysym
+)
+ident(
+  int_ref key "gtkData.ml" 41 2171 2186 "gtkData.ml" 41 2171 2189
+)
+"gtkData.ml" 42 2217 2238 "gtkData.ml" 42 2217 2242
+type(
+  Gdk.Tags.modifier list option
+)
+ident(
+  int_ref modi "gtkData.ml" 41 2171 2191 "gtkData.ml" 41 2171 2195
+)
+"gtkData.ml" 42 2217 2244 "gtkData.ml" 42 2217 2249
+type(
+  Gtk.Tags.accel_flag list option
+)
+ident(
+  int_ref flags "gtkData.ml" 41 2171 2197 "gtkData.ml" 41 2171 2202
+)
+"gtkData.ml" 43 2250 2267 "gtkData.ml" 43 2250 2281
+type(
+  (Gobject.Closure.argv -> unit) -> Gobject.g_closure
+)
+ident(
+  ext_ref Gobject.Closure.create
+)
+"gtkData.ml" 43 2250 2287 "gtkData.ml" 43 2250 2288
+type(
+  Gobject.Closure.argv
+)
+"gtkData.ml" 43 2250 2292 "gtkData.ml" 43 2250 2300
+type(
+  unit -> unit
+)
+ident(
+  int_ref callback "gtkData.ml" 41 2171 2204 "gtkData.ml" 41 2171 2212
+)
+"gtkData.ml" 43 2250 2301 "gtkData.ml" 43 2250 2303
+type(
+  unit
+)
+"gtkData.ml" 43 2250 2292 "gtkData.ml" 43 2250 2303
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkData.ml" 43 2250 2282 "gtkData.ml" 43 2250 2304
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkData.ml" 43 2250 2266 "gtkData.ml" 43 2250 2305
+call(
+  stack
+)
+type(
+  Gobject.g_closure
+)
+"gtkData.ml" 42 2217 2221 "gtkData.ml" 43 2250 2305
+type(
+  unit
+)
+"gtkData.ml" 66 3206 3212 "gtkData.ml" 66 3206 3221
+type(
+  ?key:Gdk.keysym -> ?modi:Gdk.Tags.modifier list -> string -> unit
+)
+ident(
+  def add_entry "gtkData.ml" 66 3206 3264 "gtkData.ml" 67 3271 3274
+)
+"gtkData.ml" 66 3206 3225 "gtkData.ml" 66 3206 3228
+type(
+  Gdk.keysym
+)
+"gtkData.ml" 66 3206 3229 "gtkData.ml" 66 3206 3230
+type(
+  Gdk.keysym
+)
+type(
+  Gdk.keysym
+)
+ident(
+  int_ref *sth* "gtkData.ml" 66 3206 3229 "gtkData.ml" 66 3206 3230
+)
+type(
+  Gdk.keysym option
+)
+type(
+  Gdk.keysym option
+)
+type(
+  Gdk.keysym
+)
+ident(
+  def *sth* "gtkData.ml" 66 3206 3229 "gtkData.ml" 66 3206 3230
+)
+"gtkData.ml" 66 3206 3233 "gtkData.ml" 66 3206 3237
+type(
+  Gdk.Tags.modifier list option
+)
+ident(
+  def modi "gtkData.ml" 66 3206 3238 "gtkData.ml" 66 3206 3264
+)
+"gtkData.ml" 66 3206 3238 "gtkData.ml" 66 3206 3239
+type(
+  string
+)
+ident(
+  def s "gtkData.ml" 66 3206 3242 "gtkData.ml" 66 3206 3264
+)
+"gtkData.ml" 66 3206 3242 "gtkData.ml" 66 3206 3251
+type(
+  string -> key:Gdk.keysym -> ?modi:Gdk.Tags.modifier list -> unit
+)
+"gtkData.ml" 66 3206 3252 "gtkData.ml" 66 3206 3253
+type(
+  string
+)
+ident(
+  int_ref s "gtkData.ml" 66 3206 3238 "gtkData.ml" 66 3206 3239
+)
+"gtkData.ml" 66 3206 3255 "gtkData.ml" 66 3206 3258
+type(
+  Gdk.keysym
+)
+ident(
+  int_ref key "gtkData.ml" 66 3206 3225 "gtkData.ml" 66 3206 3228
+)
+"gtkData.ml" 66 3206 3260 "gtkData.ml" 66 3206 3264
+type(
+  Gdk.Tags.modifier list option
+)
+ident(
+  int_ref modi "gtkData.ml" 66 3206 3233 "gtkData.ml" 66 3206 3237
+)
+"gtkData.ml" 66 3206 3242 "gtkData.ml" 66 3206 3264
+type(
+  unit
+)
+"gtkData.ml" 149 7032 7038 "gtkData.ml" 149 7032 7048
+type(
+  [> `adjustment ] Gtk.obj ->
+  ?lower:float ->
+  ?upper:float ->
+  ?step_incr:float -> ?page_incr:float -> ?page_size:float -> unit -> unit
+)
+ident(
+  def set_bounds "gtkData.ml" 152 7209 7242 "gtkData.ml" 153 7243 7246
+)
+"gtkData.ml" 149 7032 7049 "gtkData.ml" 149 7032 7052
+type(
+  ([> `adjustment ] as 'a) Gtk.obj
+)
+ident(
+  def adj "gtkData.ml" 149 7032 7053 "gtkData.ml" 152 7209 7242
+)
+"gtkData.ml" 149 7032 7054 "gtkData.ml" 149 7032 7059
+type(
+  float option
+)
+ident(
+  def lower "gtkData.ml" 149 7032 7060 "gtkData.ml" 152 7209 7242
+)
+"gtkData.ml" 149 7032 7061 "gtkData.ml" 149 7032 7066
+type(
+  float option
+)
+ident(
+  def upper "gtkData.ml" 149 7032 7067 "gtkData.ml" 152 7209 7242
+)
+"gtkData.ml" 149 7032 7068 "gtkData.ml" 149 7032 7077
+type(
+  float option
+)
+ident(
+  def step_incr "gtkData.ml" 149 7032 7078 "gtkData.ml" 152 7209 7242
+)
+"gtkData.ml" 149 7032 7079 "gtkData.ml" 149 7032 7088
+type(
+  float option
+)
+ident(
+  def page_incr "gtkData.ml" 149 7032 7089 "gtkData.ml" 152 7209 7242
+)
+"gtkData.ml" 149 7032 7090 "gtkData.ml" 149 7032 7099
+type(
+  float option
+)
+ident(
+  def page_size "gtkData.ml" 149 7032 7100 "gtkData.ml" 152 7209 7242
+)
+"gtkData.ml" 149 7032 7100 "gtkData.ml" 149 7032 7102
+type(
+  unit
+)
+"gtkData.ml" 150 7105 7109 "gtkData.ml" 150 7105 7112
+type(
+  ?lower:float ->
+  ?upper:float ->
+  ?step_incr:float ->
+  ?page_incr:float -> ?page_size:float -> 'a Gtk.obj -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gtkData.ml" 150 7105 7113 "gtkData.ml" 150 7105 7116
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref adj "gtkData.ml" 149 7032 7049 "gtkData.ml" 149 7032 7052
+)
+"gtkData.ml" 150 7105 7118 "gtkData.ml" 150 7105 7123
+type(
+  float option
+)
+ident(
+  int_ref lower "gtkData.ml" 149 7032 7054 "gtkData.ml" 149 7032 7059
+)
+"gtkData.ml" 150 7105 7125 "gtkData.ml" 150 7105 7130
+type(
+  float option
+)
+ident(
+  int_ref upper "gtkData.ml" 149 7032 7061 "gtkData.ml" 149 7032 7066
+)
+"gtkData.ml" 150 7105 7132 "gtkData.ml" 150 7105 7141
+type(
+  float option
+)
+ident(
+  int_ref step_incr "gtkData.ml" 149 7032 7068 "gtkData.ml" 149 7032 7077
+)
+"gtkData.ml" 150 7105 7143 "gtkData.ml" 150 7105 7152
+type(
+  float option
+)
+ident(
+  int_ref page_incr "gtkData.ml" 149 7032 7079 "gtkData.ml" 149 7032 7088
+)
+"gtkData.ml" 150 7105 7154 "gtkData.ml" 150 7105 7163
+type(
+  float option
+)
+ident(
+  int_ref page_size "gtkData.ml" 149 7032 7090 "gtkData.ml" 149 7032 7099
+)
+"gtkData.ml" 150 7105 7109 "gtkData.ml" 150 7105 7163
+type(
+  unit
+)
+"gtkData.ml" 151 7165 7169 "gtkData.ml" 151 7165 7188
+type(
+  'a Gtk.obj -> sgn:('a, unit -> unit) GtkSignal.t -> unit
+)
+ident(
+  ext_ref GtkSignal.emit_unit
+)
+"gtkData.ml" 151 7165 7189 "gtkData.ml" 151 7165 7192
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref adj "gtkData.ml" 149 7032 7049 "gtkData.ml" 149 7032 7052
+)
+"gtkData.ml" 151 7165 7198 "gtkData.ml" 151 7165 7207
+type(
+  ('a, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref S.changed
+)
+"gtkData.ml" 151 7165 7169 "gtkData.ml" 151 7165 7207
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkData.ml" 152 7209 7213 "gtkData.ml" 152 7209 7222
+type(
+  'a Gtk.obj -> float -> unit
+)
+"gtkData.ml" 152 7209 7223 "gtkData.ml" 152 7209 7226
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref adj "gtkData.ml" 149 7032 7049 "gtkData.ml" 149 7032 7052
+)
+"gtkData.ml" 152 7209 7228 "gtkData.ml" 152 7209 7237
+type(
+  'a Gtk.obj -> float
+)
+"gtkData.ml" 152 7209 7238 "gtkData.ml" 152 7209 7241
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref adj "gtkData.ml" 149 7032 7049 "gtkData.ml" 149 7032 7052
+)
+"gtkData.ml" 152 7209 7227 "gtkData.ml" 152 7209 7242
+type(
+  float
+)
+"gtkData.ml" 152 7209 7213 "gtkData.ml" 152 7209 7242
+type(
+  unit
+)
+"gtkData.ml" 151 7165 7169 "gtkData.ml" 152 7209 7242
+type(
+  unit
+)
+"gtkData.ml" 150 7105 7109 "gtkData.ml" 152 7209 7242
+type(
+  unit
+)

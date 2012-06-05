@@ -1,0 +1,5 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: 454c23a7189e4721bad701bd69ab1330) *)
+Authors of odepack
+Christophe Troestler <Christophe.Troestler@umons.ac.be>
+(* OASIS_STOP *)

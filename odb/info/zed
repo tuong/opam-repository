@@ -1,0 +1,4 @@
+deps=react,ocamlbuild,camomile(>=0.8)
+tarball=zed-1.1.tar.gz
+is_library=true
+is_program=false

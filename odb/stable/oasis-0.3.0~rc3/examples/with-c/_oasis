@@ -1,0 +1,47 @@
+OASISFormat: 0.1
+Name:        with-c
+Version:     0.0.1
+Authors:     Sylvain Le Gall
+LicenseFile: LICENSE
+License:     LGPL with OCaml linking exception
+Synopsis:    Minimal project with C file.
+Plugins:     META (0.0.1)
+BuildTools:  ocamlbuild
+
+Library "with-c"
+  Path: src
+  Modules: A
+  CSources: A_stub.c, A_header.h
+  CCOpt: -D OPTION_PASSED
+
+Document "with-c"
+  Title:                API reference for with-c
+  Type:                 ocamlbuild (0.1.0)
+  InstallDir:           $htmldir/with-c
+  BuildTools+:          ocamldoc
+  XOCamlbuildPath:      src
+  XOCamlbuildLibraries: with-c
+
+Executable "test-with-c"
+  Path: src
+  MainIs: main.ml
+  CompiledObject: byte
+  BuildDepends: with-c 
+  CSources: main_stub.c
+  CCOpt: -D OPTION_PASSED
+
+Executable "test-with-c-custom"
+  Path: src
+  MainIs: main_custom.ml
+  CompiledObject: byte
+  Custom: true
+  BuildDepends: with-c 
+  CSources: main_custom_stub.c
+
+Executable "test-with-c-native"
+  Build$: flag(is_native)
+  Path: src
+  MainIs: main_native.ml
+  CompiledObject: native
+  BuildDepends: with-c 
+  CSources: main_native_stub.c

@@ -1,0 +1,244 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Json_type" rel="Chapter" href="Json_type.html">
+<link title="Json_io" rel="Chapter" href="Json_io.html">
+<link title="Json_compat" rel="Chapter" href="Json_compat.html"><title>Index of values</title>
+</head>
+<body>
+<center><h1>Index of values</h1></center>
+<table>
+<tr><td align="left"><br>A</td></tr>
+<tr><td><a href="Json_type.Build.html#VALarray">array</a> [<a href="Json_type.Build.html">Json_type.Build</a>]</td>
+<td><div class="info">
+builds a JSON <code class="code">Array</code>.
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALarray">array</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+reads a JSON element as a JSON <code class="code">Array</code> and returns an OCaml list,
+  or raises a <code class="code">Json_error</code> exception.
+</div>
+</td></tr>
+<tr><td align="left"><br>B</td></tr>
+<tr><td><a href="Json_type.Build.html#VALbool">bool</a> [<a href="Json_type.Build.html">Json_type.Build</a>]</td>
+<td><div class="info">
+builds a JSON <code class="code">Bool</code>
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALbool">bool</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+reads a JSON element as a bool or raises a <code class="code">Json_error</code> exception.
+</div>
+</td></tr>
+<tr><td align="left"><br>D</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALdescribe">describe</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+<code class="code">describe x</code> returns a short description of the given JSON data.
+</div>
+</td></tr>
+<tr><td><a href="Json_compat.html#VALdeserialize">deserialize</a> [<a href="Json_compat.html">Json_compat</a>]</td>
+<td><div class="info">
+<font color="#CCCCCC"></font></div>
+</td></tr>
+<tr><td align="left"><br>F</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALfield">field</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+<code class="code">field tbl key</code> looks for a unique field <code class="code">key</code> in hash table <code class="code">tbl</code>.
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALfieldx">fieldx</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+<code class="code">fieldx tbl key</code> works like <code class="code">field tbl key</code>, but returns <code class="code">Null</code> if
+  <code class="code">key</code> is not found in the table.
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Build.html#VALfloat">float</a> [<a href="Json_type.Build.html">Json_type.Build</a>]</td>
+<td><div class="info">
+builds a JSON <code class="code">Float</code>
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALfloat">float</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+reads a JSON element as a float or raises a <code class="code">Json_error</code> exception.
+</div>
+</td></tr>
+<tr><td align="left"><br>I</td></tr>
+<tr><td><a href="Json_type.Build.html#VALint">int</a> [<a href="Json_type.Build.html">Json_type.Build</a>]</td>
+<td><div class="info">
+builds a JSON <code class="code">Int</code>
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALint">int</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+reads a JSON element as an int or raises a <code class="code">Json_error</code> exception.
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALis_defined">is_defined</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+tells whether the given JSON element is not null
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALis_null">is_null</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+tells whether the given JSON element is null
+</div>
+</td></tr>
+<tr><td align="left"><br>J</td></tr>
+<tr><td><a href="Json_io.html#VALjson_of_string">json_of_string</a> [<a href="Json_io.html">Json_io</a>]</td>
+<td><div class="info">
+<code class="code">json_of_string s</code> reads the given JSON string.
+</div>
+</td></tr>
+<tr><td align="left"><br>L</td></tr>
+<tr><td><a href="Json_type.Build.html#VALlist">list</a> [<a href="Json_type.Build.html">Json_type.Build</a>]</td>
+<td><div class="info">
+<code class="code">list f l</code> maps OCaml list <code class="code">l</code> to a JSON list using 
+	function <code class="code">f</code> to convert the elements into JSON values.
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALlist">list</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+<code class="code">list f x</code> maps a JSON <code class="code">Array x</code> to an OCaml list, 
+  converting each element
+  of list <code class="code">x</code> using <code class="code">f</code>.
+</div>
+</td></tr>
+<tr><td><a href="Json_io.html#VALload_json">load_json</a> [<a href="Json_io.html">Json_io</a>]</td>
+<td><div class="info">
+Same as <code class="code">Json_io.json_of_string</code> but the argument is a file
+  to read from.
+</div>
+</td></tr>
+<tr><td align="left"><br>M</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALmake_table">make_table</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+<code class="code">make_table</code> creates a hash table from the contents of a JSON <code class="code">Object</code>.
+</div>
+</td></tr>
+<tr><td align="left"><br>N</td></tr>
+<tr><td><a href="Json_type.Build.html#VALnull">null</a> [<a href="Json_type.Build.html">Json_type.Build</a>]</td>
+<td><div class="info">
+The <code class="code">Null</code> value
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALnull">null</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+raises a <code class="code">Json_error</code> exception if the given JSON value is not <code class="code">Null</code>.
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALnumber">number</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+reads a JSON element as an int or a float and returns a float 
+  or raises a <code class="code">Json_error</code> exception.
+</div>
+</td></tr>
+<tr><td align="left"><br>O</td></tr>
+<tr><td><a href="Json_type.Build.html#VALobjekt">objekt</a> [<a href="Json_type.Build.html">Json_type.Build</a>]</td>
+<td><div class="info">
+builds a JSON <code class="code">Object</code>.
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALobjekt">objekt</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+reads a JSON element as a JSON <code class="code">Object</code> and returns an OCaml list,
+  or raises a <code class="code">Json_error</code> exception.
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALoptfield">optfield</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+<code class="code">optfield tbl key</code> queries hash table <code class="code">tbl</code> for zero or one field <code class="code">key</code>.
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALoptfieldx">optfieldx</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+<code class="code">optfieldx</code> is the same as <code class="code">optfield</code> except that it
+  will never return <code class="code">Some Null</code>
+  but <code class="code">None</code> instead.
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Build.html#VALoption">option</a> [<a href="Json_type.Build.html">Json_type.Build</a>]</td>
+<td><div class="info">
+<code class="code">option x</code> returns <code class="code">Null</code> is <code class="code">x</code> is <code class="code">None</code>, or <code class="code">y</code> if 
+	<code class="code">x</code> is <code class="code">Some y</code>.
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALoption">option</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+<code class="code">option x</code> returns <code class="code">None</code> is <code class="code">x</code> is <code class="code">Null</code> and <code class="code">Some x</code> otherwise.
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Build.html#VALoptional">optional</a> [<a href="Json_type.Build.html">Json_type.Build</a>]</td>
+<td><div class="info">
+<code class="code">optional f x</code> returns <code class="code">Null</code> if <code class="code">x</code> is <code class="code">None</code>, or <code class="code">f x</code>
+	otherwise.
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALoptional">optional</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+<code class="code">optional f x</code> maps x using the given function <code class="code">f</code> and returns 
+  <code class="code">Some result</code>, unless <code class="code">x</code> is <code class="code">Null</code> in which case it returns <code class="code">None</code>.
+</div>
+</td></tr>
+<tr><td align="left"><br>P</td></tr>
+<tr><td><a href="Json_io.Pretty.html#VALprint">print</a> [<a href="Json_io.Pretty.html">Json_io.Pretty</a>]</td>
+<td><div class="info">
+Generic pretty-printing function.
+</div>
+</td></tr>
+<tr><td><a href="Json_io.Fast.html#VALprint">print</a> [<a href="Json_io.Fast.html">Json_io.Fast</a>]</td>
+<td><div class="info">
+This function is faster than the one provided by the
+    <a href="Json_io.Compact.html"><code class="code">Json_io.Compact</code></a> submodule but it is less generic and is subject to
+    the 16MB size limit of strings on 32-bit architectures.
+</div>
+</td></tr>
+<tr><td><a href="Json_io.Compact.html#VALprint">print</a> [<a href="Json_io.Compact.html">Json_io.Compact</a>]</td>
+<td><div class="info">
+Generic printing function without superfluous space.
+</div>
+</td></tr>
+<tr><td align="left"><br>S</td></tr>
+<tr><td><a href="Json_io.html#VALsave_json">save_json</a> [<a href="Json_io.html">Json_io</a>]</td>
+<td><div class="info">
+<code class="code">save_json</code> works like <a href="Json_io.html#VALstring_of_json"><code class="code">Json_io.string_of_json</code></a> but 
+  saves the results directly into the file specified by the
+  argument of type string.
+</div>
+</td></tr>
+<tr><td><a href="Json_compat.html#VALserialize">serialize</a> [<a href="Json_compat.html">Json_compat</a>]</td>
+<td><div class="info">
+<font color="#CCCCCC"></font></div>
+</td></tr>
+<tr><td><a href="Json_type.Build.html#VALstring">string</a> [<a href="Json_type.Build.html">Json_type.Build</a>]</td>
+<td><div class="info">
+builds a JSON <code class="code">String</code>
+</div>
+</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALstring">string</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+reads a JSON element as a string or raises a <code class="code">Json_error</code> exception.
+</div>
+</td></tr>
+<tr><td><a href="Json_io.html#VALstring_of_json">string_of_json</a> [<a href="Json_io.html">Json_io</a>]</td>
+<td><div class="info">
+<code class="code">string_of_json</code> converts JSON data to a string.
+</div>
+</td></tr>
+<tr><td align="left"><br>T</td></tr>
+<tr><td><a href="Json_type.Browse.html#VALtype_mismatch">type_mismatch</a> [<a href="Json_type.Browse.html">Json_type.Browse</a>]</td>
+<td><div class="info">
+<code class="code">type_mismatch expected x</code> raises the <code class="code">Json_error msg</code> exception,
+  where <code class="code">msg</code> is a message that describes the error as a type mismatch
+  between the element <code class="code">x</code> and what is <code class="code">expected</code>.
+</div>
+</td></tr>
+</table><br>
+</body>
+</html>

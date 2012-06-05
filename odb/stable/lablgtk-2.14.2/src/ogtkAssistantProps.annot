@@ -1,0 +1,181 @@
+"ogtkAssistantProps.ml" 4 38 42 "ogtkAssistantProps.ml" 4 38 45
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  def set "ogtkAssistantProps.ml" 5 52 52 --
+)
+"ogtkAssistantProps.ml" 4 38 48 "ogtkAssistantProps.ml" 4 38 51
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"ogtkAssistantProps.ml" 5 52 56 "ogtkAssistantProps.ml" 5 52 59
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  def get "ogtkAssistantProps.ml" 6 66 66 --
+)
+"ogtkAssistantProps.ml" 5 52 62 "ogtkAssistantProps.ml" 5 52 65
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  ext_ref Gobject.get
+)
+"ogtkAssistantProps.ml" 6 66 70 "ogtkAssistantProps.ml" 6 66 75
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  def param "ogtkAssistantProps.ml" 7 84 84 --
+)
+"ogtkAssistantProps.ml" 6 66 78 "ogtkAssistantProps.ml" 6 66 83
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"ogtkAssistantProps.ml" 9 108 146 "ogtkAssistantProps.ml" 9 108 152
+type(
+  < apply : callback:(unit -> unit) -> GtkSignal.id;
+    cancel : callback:(unit -> unit) -> GtkSignal.id;
+    close : callback:(unit -> unit) -> GtkSignal.id;
+    leave : callback:(unit -> unit) -> GtkSignal.id;
+    prepare : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkAssistantProps.ml" 12 247 264 "ogtkAssistantProps.ml" 12 247 268
+type(
+  < apply : callback:(unit -> unit) -> GtkSignal.id;
+    cancel : callback:(unit -> unit) -> GtkSignal.id;
+    close : callback:(unit -> unit) -> GtkSignal.id;
+    leave : callback:(unit -> unit) -> GtkSignal.id;
+    prepare : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkAssistantProps.ml" 12 247 264 "ogtkAssistantProps.ml" 12 247 276
+call(
+  tail
+)
+type(
+  ([> `assistant ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkAssistantProps.ml" 12 247 277 "ogtkAssistantProps.ml" 12 247 294
+type(
+  ([> `assistant ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkAssistantProps.Assistant.S.apply
+)
+"ogtkAssistantProps.ml" 12 247 264 "ogtkAssistantProps.ml" 12 247 294
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkAssistantProps.ml" 13 295 313 "ogtkAssistantProps.ml" 13 295 317
+type(
+  'a
+)
+"ogtkAssistantProps.ml" 13 295 313 "ogtkAssistantProps.ml" 13 295 325
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkAssistantProps.ml" 13 295 326 "ogtkAssistantProps.ml" 13 295 344
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkAssistantProps.Assistant.S.cancel
+)
+"ogtkAssistantProps.ml" 13 295 313 "ogtkAssistantProps.ml" 13 295 344
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkAssistantProps.ml" 14 345 362 "ogtkAssistantProps.ml" 14 345 366
+type(
+  'a
+)
+"ogtkAssistantProps.ml" 14 345 362 "ogtkAssistantProps.ml" 14 345 374
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkAssistantProps.ml" 14 345 375 "ogtkAssistantProps.ml" 14 345 392
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkAssistantProps.Assistant.S.close
+)
+"ogtkAssistantProps.ml" 14 345 362 "ogtkAssistantProps.ml" 14 345 392
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkAssistantProps.ml" 15 393 410 "ogtkAssistantProps.ml" 15 393 414
+type(
+  'a
+)
+"ogtkAssistantProps.ml" 15 393 410 "ogtkAssistantProps.ml" 15 393 422
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkAssistantProps.ml" 15 393 423 "ogtkAssistantProps.ml" 15 393 440
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkAssistantProps.Assistant.S.leave
+)
+"ogtkAssistantProps.ml" 15 393 410 "ogtkAssistantProps.ml" 15 393 440
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkAssistantProps.ml" 16 441 460 "ogtkAssistantProps.ml" 16 441 464
+type(
+  'a
+)
+"ogtkAssistantProps.ml" 16 441 460 "ogtkAssistantProps.ml" 16 441 472
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkAssistantProps.ml" 16 441 473 "ogtkAssistantProps.ml" 16 441 492
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkAssistantProps.Assistant.S.prepare
+)
+"ogtkAssistantProps.ml" 16 441 460 "ogtkAssistantProps.ml" 16 441 492
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)

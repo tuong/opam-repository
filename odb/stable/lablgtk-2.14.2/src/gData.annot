@@ -1,0 +1,2218 @@
+"gData.ml" 32 1744 1769 "gData.ml" 32 1744 1772
+type(
+  [> `adjustment | `gtk ] Gtk.obj
+)
+"gData.ml" 32 1744 1782 "gData.ml" 32 1744 1788
+type(
+  < after : 'a; changed : callback:(unit -> unit) -> GtkSignal.id;
+    destroy : callback:(unit -> unit) -> GtkSignal.id;
+    value_changed : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"gData.ml" 33 1789 1819 "gData.ml" 33 1789 1822
+type(
+  ([> `adjustment | `gtk ] as 'b) Gtk.obj
+)
+ident(
+  int_ref obj "gData.ml" 32 1744 1769 "gData.ml" 32 1744 1772
+)
+"gData.ml" 34 1823 1842 "gData.ml" 34 1823 1846
+type(
+  'a
+)
+"gData.ml" 34 1823 1842 "gData.ml" 34 1823 1854
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"gData.ml" 34 1823 1855 "gData.ml" 34 1823 1875
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkData.Adjustment.S.changed
+)
+"gData.ml" 34 1823 1842 "gData.ml" 34 1823 1875
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gData.ml" 35 1876 1901 "gData.ml" 35 1876 1905
+type(
+  'a
+)
+"gData.ml" 35 1876 1901 "gData.ml" 35 1876 1913
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"gData.ml" 35 1876 1914 "gData.ml" 35 1876 1940
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkData.Adjustment.S.value_changed
+)
+"gData.ml" 35 1876 1901 "gData.ml" 35 1876 1940
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gData.ml" 38 1946 1963 "gData.ml" 38 1946 1966
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gData.ml" 39 1976 1993 "gData.ml" 39 1976 1996
+type(
+  Gtk.adjustment Gtk.obj
+)
+ident(
+  int_ref obj "gData.ml" 38 1946 1963 "gData.ml" 38 1946 1966
+)
+"gData.ml" 40 1997 2043 "gData.ml" 40 1997 2046
+type(
+  Gtk.adjustment Gtk.obj
+)
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gData.ml" 41 2047 2066 "gData.ml" 41 2047 2088
+type(
+  Gtk.adjustment Gtk.obj -> adjustment_signals
+)
+"gData.ml" 41 2047 2089 "gData.ml" 41 2047 2092
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gData.ml" 41 2047 2066 "gData.ml" 41 2047 2092
+call(
+  tail
+)
+type(
+  adjustment_signals
+)
+type(
+  adjustment_signals
+)
+"gData.ml" 42 2093 2114 "gData.ml" 42 2093 2134
+type(
+  Gtk.adjustment Gtk.obj -> float -> unit
+)
+ident(
+  ext_ref GtkData.Adjustment.set_value
+)
+"gData.ml" 42 2093 2135 "gData.ml" 42 2093 2138
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gData.ml" 42 2093 2114 "gData.ml" 42 2093 2138
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"gData.ml" 43 2139 2161 "gData.ml" 43 2139 2182
+type(
+  Gtk.adjustment Gtk.obj -> lower:float -> upper:float -> unit
+)
+ident(
+  ext_ref GtkData.Adjustment.clamp_page
+)
+"gData.ml" 43 2139 2183 "gData.ml" 43 2139 2186
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gData.ml" 43 2139 2161 "gData.ml" 43 2139 2186
+call(
+  tail
+)
+type(
+  lower:float -> upper:float -> unit
+)
+type(
+  lower:float -> upper:float -> unit
+)
+"gData.ml" 44 2187 2204 "gData.ml" 44 2187 2224
+type(
+  Gtk.adjustment Gtk.obj -> float
+)
+ident(
+  ext_ref GtkData.Adjustment.get_lower
+)
+"gData.ml" 44 2187 2225 "gData.ml" 44 2187 2228
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gData.ml" 44 2187 2204 "gData.ml" 44 2187 2228
+type(
+  float
+)
+type(
+  float
+)
+"gData.ml" 45 2229 2246 "gData.ml" 45 2229 2266
+type(
+  Gtk.adjustment Gtk.obj -> float
+)
+ident(
+  ext_ref GtkData.Adjustment.get_upper
+)
+"gData.ml" 45 2229 2267 "gData.ml" 45 2229 2270
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gData.ml" 45 2229 2246 "gData.ml" 45 2229 2270
+type(
+  float
+)
+type(
+  float
+)
+"gData.ml" 46 2271 2288 "gData.ml" 46 2271 2308
+type(
+  Gtk.adjustment Gtk.obj -> float
+)
+ident(
+  ext_ref GtkData.Adjustment.get_value
+)
+"gData.ml" 46 2271 2309 "gData.ml" 46 2271 2312
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gData.ml" 46 2271 2288 "gData.ml" 46 2271 2312
+type(
+  float
+)
+type(
+  float
+)
+"gData.ml" 47 2313 2339 "gData.ml" 47 2313 2368
+type(
+  Gtk.adjustment Gtk.obj -> float
+)
+ident(
+  ext_ref GtkData.Adjustment.get_step_increment
+)
+"gData.ml" 47 2313 2369 "gData.ml" 47 2313 2372
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gData.ml" 47 2313 2339 "gData.ml" 47 2313 2372
+type(
+  float
+)
+type(
+  float
+)
+"gData.ml" 48 2373 2399 "gData.ml" 48 2373 2428
+type(
+  Gtk.adjustment Gtk.obj -> float
+)
+ident(
+  ext_ref GtkData.Adjustment.get_page_increment
+)
+"gData.ml" 48 2373 2429 "gData.ml" 48 2373 2432
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gData.ml" 48 2373 2399 "gData.ml" 48 2373 2432
+type(
+  float
+)
+type(
+  float
+)
+"gData.ml" 49 2433 2454 "gData.ml" 49 2433 2478
+type(
+  Gtk.adjustment Gtk.obj -> float
+)
+ident(
+  ext_ref GtkData.Adjustment.get_page_size
+)
+"gData.ml" 49 2433 2479 "gData.ml" 49 2433 2482
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gData.ml" 49 2433 2454 "gData.ml" 49 2433 2482
+type(
+  float
+)
+type(
+  float
+)
+"gData.ml" 50 2483 2505 "gData.ml" 50 2483 2526
+type(
+  Gtk.adjustment Gtk.obj ->
+  ?lower:float ->
+  ?upper:float ->
+  ?step_incr:float -> ?page_incr:float -> ?page_size:float -> unit -> unit
+)
+ident(
+  ext_ref GtkData.Adjustment.set_bounds
+)
+"gData.ml" 50 2483 2527 "gData.ml" 50 2483 2530
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gData.ml" 50 2483 2505 "gData.ml" 50 2483 2530
+call(
+  tail
+)
+type(
+  ?lower:float ->
+  ?upper:float ->
+  ?step_incr:float -> ?page_incr:float -> ?page_size:float -> unit -> unit
+)
+type(
+  ?lower:float ->
+  ?upper:float ->
+  ?step_incr:float -> ?page_incr:float -> ?page_size:float -> unit -> unit
+)
+"gData.ml" 53 2536 2540 "gData.ml" 53 2536 2550
+type(
+  ?value:float ->
+  ?lower:float ->
+  ?upper:float ->
+  ?step_incr:float ->
+  ?page_incr:float -> ?page_size:float -> unit -> adjustment
+)
+ident(
+  def adjustment "gData.ml" 59 2757 2757 --
+)
+"gData.ml" 53 2536 2553 "gData.ml" 53 2536 2558
+type(
+  float
+)
+"gData.ml" 53 2536 2559 "gData.ml" 53 2536 2561
+type(
+  float
+)
+type(
+  float
+)
+ident(
+  int_ref *sth* "gData.ml" 53 2536 2559 "gData.ml" 53 2536 2561
+)
+type(
+  float option
+)
+type(
+  float option
+)
+type(
+  float
+)
+ident(
+  def *sth* "gData.ml" 53 2536 2559 "gData.ml" 53 2536 2561
+)
+"gData.ml" 53 2536 2565 "gData.ml" 53 2536 2570
+type(
+  float
+)
+"gData.ml" 53 2536 2571 "gData.ml" 53 2536 2573
+type(
+  float
+)
+type(
+  float
+)
+ident(
+  int_ref *sth* "gData.ml" 53 2536 2571 "gData.ml" 53 2536 2573
+)
+type(
+  float option
+)
+type(
+  float option
+)
+type(
+  float
+)
+ident(
+  def *sth* "gData.ml" 53 2536 2571 "gData.ml" 53 2536 2573
+)
+"gData.ml" 53 2536 2577 "gData.ml" 53 2536 2582
+type(
+  float
+)
+"gData.ml" 53 2536 2583 "gData.ml" 53 2536 2587
+type(
+  float
+)
+type(
+  float
+)
+ident(
+  int_ref *sth* "gData.ml" 53 2536 2583 "gData.ml" 53 2536 2587
+)
+type(
+  float option
+)
+type(
+  float option
+)
+type(
+  float
+)
+ident(
+  def *sth* "gData.ml" 53 2536 2583 "gData.ml" 53 2536 2587
+)
+"gData.ml" 54 2589 2595 "gData.ml" 54 2589 2604
+type(
+  float
+)
+"gData.ml" 54 2589 2605 "gData.ml" 54 2589 2607
+type(
+  float
+)
+type(
+  float
+)
+ident(
+  int_ref *sth* "gData.ml" 54 2589 2605 "gData.ml" 54 2589 2607
+)
+type(
+  float option
+)
+type(
+  float option
+)
+type(
+  float
+)
+ident(
+  def *sth* "gData.ml" 54 2589 2605 "gData.ml" 54 2589 2607
+)
+"gData.ml" 54 2589 2611 "gData.ml" 54 2589 2620
+type(
+  float
+)
+"gData.ml" 54 2589 2621 "gData.ml" 54 2589 2624
+type(
+  float
+)
+type(
+  float
+)
+ident(
+  int_ref *sth* "gData.ml" 54 2589 2621 "gData.ml" 54 2589 2624
+)
+type(
+  float option
+)
+type(
+  float option
+)
+type(
+  float
+)
+ident(
+  def *sth* "gData.ml" 54 2589 2621 "gData.ml" 54 2589 2624
+)
+"gData.ml" 54 2589 2628 "gData.ml" 54 2589 2637
+type(
+  float
+)
+"gData.ml" 54 2589 2638 "gData.ml" 54 2589 2641
+type(
+  float
+)
+type(
+  float
+)
+ident(
+  int_ref *sth* "gData.ml" 54 2589 2638 "gData.ml" 54 2589 2641
+)
+type(
+  float option
+)
+type(
+  float option
+)
+type(
+  float
+)
+ident(
+  def *sth* "gData.ml" 54 2589 2638 "gData.ml" 54 2589 2641
+)
+"gData.ml" 54 2589 2643 "gData.ml" 54 2589 2645
+type(
+  unit
+)
+"gData.ml" 55 2648 2654 "gData.ml" 55 2648 2655
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gData.ml" 56 2658 2662 "gData.ml" 56 2658 2679
+type(
+  value:float ->
+  lower:float ->
+  upper:float ->
+  step_incr:float ->
+  page_incr:float -> page_size:float -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GtkData.Adjustment.create
+)
+"gData.ml" 56 2658 2681 "gData.ml" 56 2658 2686
+type(
+  float
+)
+ident(
+  int_ref value "gData.ml" 53 2536 2553 "gData.ml" 53 2536 2558
+)
+"gData.ml" 56 2658 2688 "gData.ml" 56 2658 2693
+type(
+  float
+)
+ident(
+  int_ref lower "gData.ml" 53 2536 2565 "gData.ml" 53 2536 2570
+)
+"gData.ml" 56 2658 2695 "gData.ml" 56 2658 2700
+type(
+  float
+)
+ident(
+  int_ref upper "gData.ml" 53 2536 2577 "gData.ml" 53 2536 2582
+)
+"gData.ml" 56 2658 2702 "gData.ml" 56 2658 2711
+type(
+  float
+)
+ident(
+  int_ref step_incr "gData.ml" 54 2589 2595 "gData.ml" 54 2589 2604
+)
+"gData.ml" 56 2658 2713 "gData.ml" 56 2658 2722
+type(
+  float
+)
+ident(
+  int_ref page_incr "gData.ml" 54 2589 2611 "gData.ml" 54 2589 2620
+)
+"gData.ml" 56 2658 2724 "gData.ml" 56 2658 2733
+type(
+  float
+)
+ident(
+  int_ref page_size "gData.ml" 54 2589 2628 "gData.ml" 54 2589 2637
+)
+"gData.ml" 56 2658 2662 "gData.ml" 56 2658 2733
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gData.ml" 57 2737 2739 "gData.ml" 57 2737 2753
+type(
+  Gtk.adjustment Gtk.obj -> adjustment
+)
+"gData.ml" 57 2737 2754 "gData.ml" 57 2737 2755
+type(
+  Gtk.adjustment Gtk.obj
+)
+ident(
+  int_ref w "gData.ml" 55 2648 2654 "gData.ml" 55 2648 2655
+)
+"gData.ml" 57 2737 2739 "gData.ml" 57 2737 2755
+call(
+  tail
+)
+type(
+  adjustment
+)
+"gData.ml" 55 2648 2650 "gData.ml" 57 2737 2755
+type(
+  adjustment
+)
+"gData.ml" 59 2757 2761 "gData.ml" 59 2757 2774
+type(
+  adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  def as_adjustment "gData.ml" 61 2815 2815 --
+)
+"gData.ml" 59 2757 2776 "gData.ml" 59 2757 2779
+type(
+  adjustment
+)
+ident(
+  def adj "gData.ml" 59 2757 2796 "gData.ml" 59 2757 2813
+)
+"gData.ml" 59 2757 2796 "gData.ml" 59 2757 2799
+type(
+  adjustment
+)
+ident(
+  int_ref adj "gData.ml" 59 2757 2776 "gData.ml" 59 2757 2779
+)
+"gData.ml" 59 2757 2796 "gData.ml" 59 2757 2813
+call(
+  tail
+)
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gData.ml" 61 2815 2819 "gData.ml" 61 2815 2834
+type(
+  'a Gobject.obj -> adjustment
+)
+ident(
+  def wrap_adjustment "gData.ml" 62 2870 2870 --
+)
+"gData.ml" 61 2815 2835 "gData.ml" 61 2815 2836
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gData.ml" 61 2815 2839 "gData.ml" 61 2815 2869
+)
+"gData.ml" 61 2815 2839 "gData.ml" 61 2815 2853
+type(
+  Gtk.adjustment Gtk.obj -> adjustment
+)
+"gData.ml" 61 2815 2855 "gData.ml" 61 2815 2866
+type(
+  'a Gobject.obj -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref Gobject.unsafe_cast
+)
+"gData.ml" 61 2815 2867 "gData.ml" 61 2815 2868
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gData.ml" 61 2815 2835 "gData.ml" 61 2815 2836
+)
+"gData.ml" 61 2815 2854 "gData.ml" 61 2815 2869
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gData.ml" 61 2815 2839 "gData.ml" 61 2815 2869
+call(
+  tail
+)
+type(
+  adjustment
+)
+"gData.ml" 62 2870 2874 "gData.ml" 62 2870 2891
+type(
+  < as_adjustment : 'a Gobject.obj; .. > -> 'b Gobject.obj
+)
+ident(
+  def unwrap_adjustment "gData.ml" 63 2924 2924 --
+)
+"gData.ml" 62 2870 2892 "gData.ml" 62 2870 2893
+type(
+  < as_adjustment : 'a Gobject.obj; .. > as 'c
+)
+ident(
+  def w "gData.ml" 62 2870 2896 "gData.ml" 62 2870 2923
+)
+"gData.ml" 62 2870 2896 "gData.ml" 62 2870 2907
+type(
+  'a Gobject.obj -> 'b Gobject.obj
+)
+ident(
+  ext_ref Gobject.unsafe_cast
+)
+"gData.ml" 62 2870 2908 "gData.ml" 62 2870 2909
+type(
+  'c
+)
+ident(
+  int_ref w "gData.ml" 62 2870 2892 "gData.ml" 62 2870 2893
+)
+"gData.ml" 62 2870 2908 "gData.ml" 62 2870 2923
+call(
+  tail
+)
+type(
+  'a Gobject.obj
+)
+"gData.ml" 62 2870 2896 "gData.ml" 62 2870 2923
+type(
+  'b Gobject.obj
+)
+"gData.ml" 63 2924 2928 "gData.ml" 63 2924 2950
+type(
+  adjustment option Gobject.data_conv
+)
+ident(
+  def conv_adjustment_option "gData.ml" 68 3147 3147 --
+)
+"gData.ml" 64 2953 2964 "gData.ml" 64 2953 2971
+type(
+  Gobject.data_kind
+)
+"gData.ml" 65 2973 3002 "gData.ml" 65 2973 3003
+type(
+  unit Gobject.obj option
+)
+ident(
+  def c "gData.ml" 65 2973 3007 "gData.ml" 65 2973 3035
+)
+"gData.ml" 65 2973 2994 "gData.ml" 65 2973 3003
+type(
+  Gobject.data_conv_get
+)
+"gData.ml" 65 2973 3007 "gData.ml" 65 2973 3014
+type(
+  f:(unit Gobject.obj -> adjustment) ->
+  unit Gobject.obj option -> adjustment option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gData.ml" 65 2973 3018 "gData.ml" 65 2973 3033
+type(
+  unit Gobject.obj -> adjustment
+)
+ident(
+  int_ref wrap_adjustment "gData.ml" 61 2815 2819 "gData.ml" 61 2815 2834
+)
+"gData.ml" 65 2973 3034 "gData.ml" 65 2973 3035
+type(
+  unit Gobject.obj option
+)
+ident(
+  int_ref c "gData.ml" 65 2973 3002 "gData.ml" 65 2973 3003
+)
+"gData.ml" 65 2973 3007 "gData.ml" 65 2973 3035
+call(
+  tail
+)
+type(
+  adjustment option
+)
+"gData.ml" 66 3036 3049 "gData.ml" 66 3036 3050
+type(
+  Gobject.data_conv_get
+)
+"gData.ml" 66 3036 3054 "gData.ml" 66 3036 3062
+type(
+  string -> adjustment option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gData.ml" 66 3036 3063 "gData.ml" 66 3036 3080
+type(
+  string
+)
+"gData.ml" 66 3036 3054 "gData.ml" 66 3036 3080
+call(
+  tail
+)
+type(
+  adjustment option
+)
+"gData.ml" 65 2973 2984 "gData.ml" 66 3036 3081
+type(
+  Gobject.data_conv_get -> adjustment option
+)
+"gData.ml" 67 3083 3098 "gData.ml" 67 3083 3099
+type(
+  adjustment option
+)
+ident(
+  def c "gData.ml" 67 3083 3103 "gData.ml" 67 3083 3143
+)
+"gData.ml" 67 3083 3112 "gData.ml" 67 3083 3119
+type(
+  f:(adjustment -> unit Gobject.obj) ->
+  adjustment option -> unit Gobject.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gData.ml" 67 3083 3123 "gData.ml" 67 3083 3140
+type(
+  adjustment -> unit Gobject.obj
+)
+ident(
+  int_ref unwrap_adjustment "gData.ml" 62 2870 2874 "gData.ml" 62 2870 2891
+)
+"gData.ml" 67 3083 3141 "gData.ml" 67 3083 3142
+type(
+  adjustment option
+)
+ident(
+  int_ref c "gData.ml" 67 3083 3098 "gData.ml" 67 3083 3099
+)
+"gData.ml" 67 3083 3111 "gData.ml" 67 3083 3143
+call(
+  stack
+)
+type(
+  unit Gobject.obj option
+)
+"gData.ml" 67 3083 3103 "gData.ml" 67 3083 3143
+type(
+  unit Gobject.data_set
+)
+"gData.ml" 67 3083 3093 "gData.ml" 67 3083 3144
+type(
+  adjustment option -> unit Gobject.data_set
+)
+"gData.ml" 64 2953 2955 "gData.ml" 67 3083 3146
+type(
+  adjustment option Gobject.data_conv
+)
+"gData.ml" 68 3147 3151 "gData.ml" 68 3147 3166
+type(
+  adjustment Gobject.data_conv
+)
+ident(
+  def conv_adjustment "gData.ml" 75 3405 3405 --
+)
+"gData.ml" 69 3169 3180 "gData.ml" 69 3169 3187
+type(
+  Gobject.data_kind
+)
+"gData.ml" 70 3189 3224 "gData.ml" 70 3189 3225
+type(
+  unit Gobject.obj
+)
+ident(
+  def c "gData.ml" 70 3189 3230 "gData.ml" 70 3189 3247
+)
+"gData.ml" 70 3189 3218 "gData.ml" 70 3189 3226
+type(
+  unit Gobject.obj option
+)
+"gData.ml" 70 3189 3210 "gData.ml" 70 3189 3226
+type(
+  Gobject.data_conv_get
+)
+"gData.ml" 70 3189 3230 "gData.ml" 70 3189 3245
+type(
+  unit Gobject.obj -> adjustment
+)
+ident(
+  int_ref wrap_adjustment "gData.ml" 61 2815 2819 "gData.ml" 61 2815 2834
+)
+"gData.ml" 70 3189 3246 "gData.ml" 70 3189 3247
+type(
+  unit Gobject.obj
+)
+ident(
+  int_ref c "gData.ml" 70 3189 3224 "gData.ml" 70 3189 3225
+)
+"gData.ml" 70 3189 3230 "gData.ml" 70 3189 3247
+call(
+  tail
+)
+type(
+  adjustment
+)
+"gData.ml" 71 3248 3269 "gData.ml" 71 3248 3273
+type(
+  unit Gobject.obj option
+)
+"gData.ml" 71 3248 3261 "gData.ml" 71 3248 3273
+type(
+  Gobject.data_conv_get
+)
+"gData.ml" 71 3248 3277 "gData.ml" 71 3248 3282
+type(
+  exn -> adjustment
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gData.ml" 71 3248 3283 "gData.ml" 71 3248 3296
+type(
+  exn
+)
+"gData.ml" 71 3248 3277 "gData.ml" 71 3248 3296
+type(
+  adjustment
+)
+"gData.ml" 72 3297 3310 "gData.ml" 72 3297 3311
+type(
+  Gobject.data_conv_get
+)
+"gData.ml" 72 3297 3315 "gData.ml" 72 3297 3323
+type(
+  string -> adjustment
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gData.ml" 72 3297 3324 "gData.ml" 72 3297 3341
+type(
+  string
+)
+"gData.ml" 72 3297 3315 "gData.ml" 72 3297 3341
+call(
+  tail
+)
+type(
+  adjustment
+)
+"gData.ml" 70 3189 3200 "gData.ml" 72 3297 3342
+type(
+  Gobject.data_conv_get -> adjustment
+)
+"gData.ml" 73 3344 3359 "gData.ml" 73 3344 3360
+type(
+  adjustment
+)
+ident(
+  def c "gData.ml" 73 3344 3364 "gData.ml" 73 3344 3400
+)
+"gData.ml" 73 3344 3379 "gData.ml" 73 3344 3396
+type(
+  adjustment -> unit Gobject.obj
+)
+ident(
+  int_ref unwrap_adjustment "gData.ml" 62 2870 2874 "gData.ml" 62 2870 2891
+)
+"gData.ml" 73 3344 3397 "gData.ml" 73 3344 3398
+type(
+  adjustment
+)
+ident(
+  int_ref c "gData.ml" 73 3344 3359 "gData.ml" 73 3344 3360
+)
+"gData.ml" 73 3344 3378 "gData.ml" 73 3344 3399
+call(
+  stack
+)
+type(
+  unit Gobject.obj
+)
+"gData.ml" 73 3344 3372 "gData.ml" 73 3344 3400
+type(
+  unit Gobject.obj option
+)
+"gData.ml" 73 3344 3364 "gData.ml" 73 3344 3400
+type(
+  unit Gobject.data_set
+)
+"gData.ml" 73 3344 3354 "gData.ml" 73 3344 3401
+type(
+  adjustment -> unit Gobject.data_set
+)
+"gData.ml" 69 3169 3171 "gData.ml" 73 3344 3403
+type(
+  adjustment Gobject.data_conv
+)
+"gData.ml" 75 3405 3420 "gData.ml" 75 3405 3423
+type(
+  Gtk.tooltips Gtk.obj
+)
+"gData.ml" 76 3433 3451 "gData.ml" 76 3433 3454
+type(
+  Gtk.tooltips Gtk.obj
+)
+type(
+  Gtk.tooltips Gtk.obj
+)
+ident(
+  int_ref obj "gData.ml" 75 3405 3420 "gData.ml" 75 3405 3423
+)
+"gData.ml" 77 3475 3498 "gData.ml" 77 3475 3501
+type(
+  Gtk.tooltips Gtk.obj
+)
+type(
+  Gtk.tooltips Gtk.obj
+)
+"gData.ml" 78 3502 3521 "gData.ml" 78 3502 3544
+type(
+  Gtk.tooltips Gtk.obj -> GObj.gtkobj_signals_impl
+)
+"gData.ml" 78 3502 3545 "gData.ml" 78 3502 3548
+type(
+  Gtk.tooltips Gtk.obj
+)
+"gData.ml" 78 3502 3521 "gData.ml" 78 3502 3548
+call(
+  tail
+)
+type(
+  GObj.gtkobj_signals_impl
+)
+type(
+  GObj.gtkobj_signals_impl
+)
+"gData.ml" 79 3549 3565 "gData.ml" 79 3549 3567
+type(
+  unit
+)
+"gData.ml" 79 3549 3570 "gData.ml" 79 3549 3585
+type(
+  Gtk.tooltips Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkData.Tooltips.enable
+)
+"gData.ml" 79 3549 3586 "gData.ml" 79 3549 3589
+type(
+  Gtk.tooltips Gtk.obj
+)
+"gData.ml" 79 3549 3570 "gData.ml" 79 3549 3589
+type(
+  unit
+)
+"gData.ml" 80 3590 3607 "gData.ml" 80 3590 3609
+type(
+  unit
+)
+"gData.ml" 80 3590 3612 "gData.ml" 80 3590 3628
+type(
+  Gtk.tooltips Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkData.Tooltips.disable
+)
+"gData.ml" 80 3590 3629 "gData.ml" 80 3590 3632
+type(
+  Gtk.tooltips Gtk.obj
+)
+"gData.ml" 80 3590 3612 "gData.ml" 80 3590 3632
+type(
+  unit
+)
+"gData.ml" 81 3633 3651 "gData.ml" 81 3633 3655
+type(
+  string option
+)
+ident(
+  def text "gData.ml" 81 3633 3656 "gData.ml" 82 3668 3720
+)
+"gData.ml" 81 3633 3657 "gData.ml" 81 3633 3663
+type(
+  string option
+)
+ident(
+  def privat "gData.ml" 81 3633 3664 "gData.ml" 82 3668 3720
+)
+"gData.ml" 81 3633 3664 "gData.ml" 81 3633 3665
+type(
+  GObj.widget
+)
+ident(
+  def w "gData.ml" 82 3668 3672 "gData.ml" 82 3668 3720
+)
+"gData.ml" 82 3668 3672 "gData.ml" 82 3668 3688
+type(
+  Gtk.tooltips Gtk.obj ->
+  Gtk.widget Gtk.obj -> ?text:string -> ?privat:string -> unit
+)
+ident(
+  ext_ref GtkData.Tooltips.set_tip
+)
+"gData.ml" 82 3668 3689 "gData.ml" 82 3668 3692
+type(
+  Gtk.tooltips Gtk.obj
+)
+"gData.ml" 82 3668 3694 "gData.ml" 82 3668 3703
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gData.ml" 82 3668 3704 "gData.ml" 82 3668 3705
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gData.ml" 81 3633 3664 "gData.ml" 81 3633 3665
+)
+"gData.ml" 82 3668 3693 "gData.ml" 82 3668 3706
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gData.ml" 82 3668 3708 "gData.ml" 82 3668 3712
+type(
+  string option
+)
+ident(
+  int_ref text "gData.ml" 81 3633 3651 "gData.ml" 81 3633 3655
+)
+"gData.ml" 82 3668 3714 "gData.ml" 82 3668 3720
+type(
+  string option
+)
+ident(
+  int_ref privat "gData.ml" 81 3633 3657 "gData.ml" 81 3633 3663
+)
+"gData.ml" 82 3668 3672 "gData.ml" 82 3668 3720
+type(
+  unit
+)
+"gData.ml" 83 3721 3742 "gData.ml" 83 3721 3760
+type(
+  Gtk.tooltips Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkData.Tooltips.set_delay
+)
+"gData.ml" 83 3721 3761 "gData.ml" 83 3721 3764
+type(
+  Gtk.tooltips Gtk.obj
+)
+"gData.ml" 83 3721 3742 "gData.ml" 83 3721 3764
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gData.ml" 86 3770 3774 "gData.ml" 86 3770 3782
+type(
+  ?delay:int -> unit -> tooltips
+)
+ident(
+  def tooltips "gData.ml" 91 3887 3887 --
+)
+"gData.ml" 86 3770 3784 "gData.ml" 86 3770 3789
+type(
+  int option
+)
+ident(
+  def delay "gData.ml" 86 3770 3790 "gData.ml" 89 3868 3885
+)
+"gData.ml" 86 3770 3790 "gData.ml" 86 3770 3792
+type(
+  unit
+)
+"gData.ml" 87 3795 3801 "gData.ml" 87 3795 3803
+type(
+  Gtk.tooltips Gtk.obj
+)
+"gData.ml" 87 3795 3806 "gData.ml" 87 3795 3821
+type(
+  unit -> Gtk.tooltips Gtk.obj
+)
+ident(
+  ext_ref GtkData.Tooltips.create
+)
+"gData.ml" 87 3795 3822 "gData.ml" 87 3795 3824
+type(
+  unit
+)
+"gData.ml" 87 3795 3806 "gData.ml" 87 3795 3824
+type(
+  Gtk.tooltips Gtk.obj
+)
+"gData.ml" 88 3828 3830 "gData.ml" 88 3828 3833
+type(
+  f:(int -> unit) -> int option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gData.ml" 88 3828 3834 "gData.ml" 88 3828 3839
+type(
+  int option
+)
+ident(
+  int_ref delay "gData.ml" 86 3770 3784 "gData.ml" 86 3770 3789
+)
+"gData.ml" 88 3828 3844 "gData.ml" 88 3828 3862
+type(
+  Gtk.tooltips Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkData.Tooltips.set_delay
+)
+"gData.ml" 88 3828 3863 "gData.ml" 88 3828 3865
+type(
+  Gtk.tooltips Gtk.obj
+)
+ident(
+  int_ref tt "gData.ml" 87 3795 3801 "gData.ml" 87 3795 3803
+)
+"gData.ml" 88 3828 3843 "gData.ml" 88 3828 3866
+call(
+  stack
+)
+type(
+  int -> unit
+)
+"gData.ml" 88 3828 3830 "gData.ml" 88 3828 3866
+call(
+  stack
+)
+type(
+  unit
+)
+"gData.ml" 89 3868 3870 "gData.ml" 89 3868 3882
+type(
+  Gtk.tooltips Gtk.obj -> tooltips
+)
+"gData.ml" 89 3868 3883 "gData.ml" 89 3868 3885
+type(
+  Gtk.tooltips Gtk.obj
+)
+ident(
+  int_ref tt "gData.ml" 87 3795 3801 "gData.ml" 87 3795 3803
+)
+"gData.ml" 89 3868 3870 "gData.ml" 89 3868 3885
+call(
+  tail
+)
+type(
+  tooltips
+)
+"gData.ml" 88 3828 3830 "gData.ml" 89 3868 3885
+type(
+  tooltips
+)
+"gData.ml" 87 3795 3797 "gData.ml" 89 3868 3885
+type(
+  tooltips
+)
+"gData.ml" 91 3887 3908 "gData.ml" 91 3887 3912
+type(
+  Gtk.clipboard Lazy.t
+)
+"gData.ml" 91 3887 3922 "gData.ml" 91 3887 3928
+type(
+  < as_clipboard : Gtk.clipboard; clear : unit -> unit;
+    get_contents : target:Gdk.atom -> GObj.selection_data;
+    image : GdkPixbuf.pixbuf option; set_image : GdkPixbuf.pixbuf -> unit;
+    set_text : string -> unit; targets : Gdk.atom list; text : string option;
+    .. >
+)
+"gData.ml" 92 3929 3953 "gData.ml" 92 3929 3963
+type(
+  Gtk.clipboard Lazy.t -> Gtk.clipboard
+)
+ident(
+  ext_ref Lazy.force
+)
+"gData.ml" 92 3929 3964 "gData.ml" 92 3929 3968
+type(
+  Gtk.clipboard Lazy.t
+)
+"gData.ml" 92 3929 3953 "gData.ml" 92 3929 3968
+call(
+  tail
+)
+type(
+  Gtk.clipboard
+)
+type(
+  Gtk.clipboard
+)
+"gData.ml" 93 3969 3984 "gData.ml" 93 3969 3986
+type(
+  unit
+)
+"gData.ml" 93 3969 3989 "gData.ml" 93 3969 3993
+type(
+  < as_clipboard : Gtk.clipboard; clear : unit -> unit;
+    get_contents : target:Gdk.atom -> GObj.selection_data;
+    image : GdkPixbuf.pixbuf option; set_image : GdkPixbuf.pixbuf -> unit;
+    set_text : string -> unit; targets : Gdk.atom list; text : string option;
+    .. >
+  as 'a
+)
+"gData.ml" 93 3969 3989 "gData.ml" 93 3969 4004
+call(
+  stack
+)
+type(
+  unit
+)
+"gData.ml" 93 3969 4006 "gData.ml" 93 3969 4021
+type(
+  Gtk.clipboard -> unit
+)
+ident(
+  ext_ref GtkBase.Clipboard.clear
+)
+"gData.ml" 93 3969 4022 "gData.ml" 93 3969 4026
+type(
+  'a
+)
+"gData.ml" 93 3969 4022 "gData.ml" 93 3969 4039
+call(
+  stack
+)
+type(
+  Gtk.clipboard
+)
+"gData.ml" 93 3969 4006 "gData.ml" 93 3969 4039
+type(
+  unit
+)
+"gData.ml" 93 3969 3989 "gData.ml" 93 3969 4039
+type(
+  unit
+)
+"gData.ml" 94 4040 4060 "gData.ml" 94 4040 4064
+type(
+  'a
+)
+"gData.ml" 94 4040 4060 "gData.ml" 94 4040 4075
+call(
+  stack
+)
+type(
+  unit
+)
+"gData.ml" 94 4040 4077 "gData.ml" 94 4040 4095
+type(
+  Gtk.clipboard -> string -> unit
+)
+ident(
+  ext_ref GtkBase.Clipboard.set_text
+)
+"gData.ml" 94 4040 4096 "gData.ml" 94 4040 4100
+type(
+  'a
+)
+"gData.ml" 94 4040 4096 "gData.ml" 94 4040 4113
+call(
+  stack
+)
+type(
+  Gtk.clipboard
+)
+"gData.ml" 94 4040 4077 "gData.ml" 94 4040 4113
+call(
+  tail
+)
+type(
+  string -> unit
+)
+"gData.ml" 94 4040 4060 "gData.ml" 94 4040 4113
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gData.ml" 95 4114 4130 "gData.ml" 95 4114 4153
+type(
+  Gtk.clipboard -> string option
+)
+ident(
+  ext_ref GtkBase.Clipboard.wait_for_text
+)
+"gData.ml" 95 4114 4154 "gData.ml" 95 4114 4158
+type(
+  'a
+)
+"gData.ml" 95 4114 4154 "gData.ml" 95 4114 4171
+call(
+  stack
+)
+type(
+  Gtk.clipboard
+)
+"gData.ml" 95 4114 4130 "gData.ml" 95 4114 4171
+type(
+  string option
+)
+type(
+  string option
+)
+"gData.ml" 96 4172 4193 "gData.ml" 96 4172 4197
+type(
+  'a
+)
+"gData.ml" 96 4172 4193 "gData.ml" 96 4172 4208
+call(
+  stack
+)
+type(
+  unit
+)
+"gData.ml" 96 4172 4210 "gData.ml" 96 4172 4229
+type(
+  Gtk.clipboard -> GdkPixbuf.pixbuf -> unit
+)
+ident(
+  ext_ref GtkBase.Clipboard.set_image
+)
+"gData.ml" 96 4172 4230 "gData.ml" 96 4172 4234
+type(
+  'a
+)
+"gData.ml" 96 4172 4230 "gData.ml" 96 4172 4247
+call(
+  stack
+)
+type(
+  Gtk.clipboard
+)
+"gData.ml" 96 4172 4210 "gData.ml" 96 4172 4247
+call(
+  tail
+)
+type(
+  GdkPixbuf.pixbuf -> unit
+)
+"gData.ml" 96 4172 4193 "gData.ml" 96 4172 4247
+type(
+  GdkPixbuf.pixbuf -> unit
+)
+type(
+  GdkPixbuf.pixbuf -> unit
+)
+"gData.ml" 97 4248 4265 "gData.ml" 97 4248 4289
+type(
+  Gtk.clipboard -> GdkPixbuf.pixbuf option
+)
+ident(
+  ext_ref GtkBase.Clipboard.wait_for_image
+)
+"gData.ml" 97 4248 4290 "gData.ml" 97 4248 4294
+type(
+  'a
+)
+"gData.ml" 97 4248 4290 "gData.ml" 97 4248 4307
+call(
+  stack
+)
+type(
+  Gtk.clipboard
+)
+"gData.ml" 97 4248 4265 "gData.ml" 97 4248 4307
+type(
+  GdkPixbuf.pixbuf option
+)
+type(
+  GdkPixbuf.pixbuf option
+)
+"gData.ml" 98 4308 4327 "gData.ml" 98 4308 4353
+type(
+  Gtk.clipboard -> Gdk.atom list
+)
+ident(
+  ext_ref GtkBase.Clipboard.wait_for_targets
+)
+"gData.ml" 98 4308 4354 "gData.ml" 98 4308 4358
+type(
+  'a
+)
+"gData.ml" 98 4308 4354 "gData.ml" 98 4308 4371
+call(
+  stack
+)
+type(
+  Gtk.clipboard
+)
+"gData.ml" 98 4308 4327 "gData.ml" 98 4308 4371
+type(
+  Gdk.atom list
+)
+type(
+  Gdk.atom list
+)
+"gData.ml" 99 4372 4395 "gData.ml" 99 4372 4401
+type(
+  Gdk.atom
+)
+ident(
+  def target "gData.ml" 100 4404 4408 "gData.ml" 101 4432 4493
+)
+"gData.ml" 100 4404 4408 "gData.ml" 100 4404 4431
+type(
+  Gtk.selection_data -> GObj.selection_data
+)
+"gData.ml" 101 4432 4439 "gData.ml" 101 4432 4466
+type(
+  Gtk.clipboard -> target:Gdk.atom -> Gtk.selection_data
+)
+ident(
+  ext_ref GtkBase.Clipboard.wait_for_contents
+)
+"gData.ml" 101 4432 4467 "gData.ml" 101 4432 4471
+type(
+  'a
+)
+"gData.ml" 101 4432 4467 "gData.ml" 101 4432 4484
+call(
+  stack
+)
+type(
+  Gtk.clipboard
+)
+"gData.ml" 101 4432 4486 "gData.ml" 101 4432 4492
+type(
+  Gdk.atom
+)
+ident(
+  int_ref target "gData.ml" 99 4372 4395 "gData.ml" 99 4372 4401
+)
+"gData.ml" 101 4432 4438 "gData.ml" 101 4432 4493
+type(
+  Gtk.selection_data
+)
+"gData.ml" 100 4404 4408 "gData.ml" 101 4432 4493
+call(
+  tail
+)
+type(
+  GObj.selection_data
+)
+"gData.ml" 102 4494 4524 "gData.ml" 102 4494 4526
+type(
+  unit
+)
+type(
+  unit
+)
+"gData.ml" 107 4565 4569 "gData.ml" 107 4565 4583
+type(
+  'a -> info:'b -> time:'c -> unit
+)
+ident(
+  def default_get_cb "gData.ml" 109 4611 4611 --
+)
+"gData.ml" 107 4565 4584 "gData.ml" 107 4565 4591
+type(
+  'a
+)
+ident(
+  def context "gData.ml" 107 4565 4592 "gData.ml" 107 4565 4609
+)
+"gData.ml" 107 4565 4593 "gData.ml" 107 4565 4597
+type(
+  'b
+)
+ident(
+  def info "gData.ml" 107 4565 4598 "gData.ml" 107 4565 4609
+)
+"gData.ml" 107 4565 4599 "gData.ml" 107 4565 4603
+type(
+  'c
+)
+ident(
+  def time "gData.ml" 107 4565 4607 "gData.ml" 107 4565 4609
+)
+"gData.ml" 107 4565 4607 "gData.ml" 107 4565 4609
+type(
+  unit
+)
+"gData.ml" 109 4611 4628 "gData.ml" 109 4611 4637
+type(
+  Gdk.atom
+)
+"gData.ml" 109 4611 4647 "gData.ml" 109 4611 4653
+type(
+  < as_clipboard : Gtk.clipboard; clear : unit -> unit;
+    get_contents : target:Gdk.atom -> GObj.selection_data;
+    image : GdkPixbuf.pixbuf option;
+    set_contents : targets:string list ->
+                   get:(GObj.selection_context ->
+                        info:int -> time:int32 -> unit) ->
+                   clear:(unit -> unit) -> unit;
+    set_image : GdkPixbuf.pixbuf -> unit; set_text : string -> unit;
+    targets : Gdk.atom list; text : string option; .. >
+)
+"gData.ml" 110 4654 4686 "gData.ml" 110 4654 4707
+type(
+  Gdk.atom -> Gtk.clipboard
+)
+ident(
+  ext_ref GtkBase.Clipboard.get
+)
+"gData.ml" 110 4654 4708 "gData.ml" 110 4654 4717
+type(
+  Gdk.atom
+)
+ident(
+  int_ref selection "gData.ml" 109 4611 4628 "gData.ml" 109 4611 4637
+)
+"gData.ml" 110 4654 4685 "gData.ml" 110 4654 4718
+type(
+  Gtk.clipboard
+)
+"gData.ml" 110 4654 4679 "gData.ml" 110 4654 4719
+type(
+  Gtk.clipboard Lazy.t
+)
+"gData.ml" 111 4720 4743 "gData.ml" 111 4720 4747
+type(
+  GObj.widget option
+)
+"gData.ml" 112 4748 4771 "gData.ml" 112 4748 4785
+type(
+  GObj.selection_context -> info:int -> time:int32 -> unit
+)
+ident(
+  int_ref default_get_cb "gData.ml" 107 4565 4569 "gData.ml" 107 4565 4583
+)
+"gData.ml" 113 4786 4811 "gData.ml" 113 4786 4815
+type(
+  (unit -> unit) option
+)
+"gData.ml" 115 4817 4843 "gData.ml" 115 4817 4850
+type(
+  GObj.selection_context
+)
+ident(
+  def context "gData.ml" 115 4817 4851 "gData.ml" 116 4865 4895
+)
+"gData.ml" 115 4817 4852 "gData.ml" 115 4817 4856
+type(
+  int
+)
+ident(
+  def info "gData.ml" 115 4817 4857 "gData.ml" 116 4865 4895
+)
+"gData.ml" 115 4817 4858 "gData.ml" 115 4817 4862
+type(
+  int32
+)
+ident(
+  def time "gData.ml" 116 4865 4869 "gData.ml" 116 4865 4895
+)
+"gData.ml" 116 4865 4869 "gData.ml" 116 4865 4875
+type(
+  GObj.selection_context -> info:int -> time:int32 -> unit
+)
+"gData.ml" 116 4865 4876 "gData.ml" 116 4865 4883
+type(
+  GObj.selection_context
+)
+ident(
+  int_ref context "gData.ml" 115 4817 4843 "gData.ml" 115 4817 4850
+)
+"gData.ml" 116 4865 4885 "gData.ml" 116 4865 4889
+type(
+  int
+)
+ident(
+  int_ref info "gData.ml" 115 4817 4852 "gData.ml" 115 4817 4856
+)
+"gData.ml" 116 4865 4891 "gData.ml" 116 4865 4895
+type(
+  int32
+)
+ident(
+  int_ref time "gData.ml" 115 4817 4858 "gData.ml" 115 4817 4862
+)
+"gData.ml" 116 4865 4869 "gData.ml" 116 4865 4895
+call(
+  tail
+)
+type(
+  unit
+)
+"gData.ml" 118 4926 4936 "gData.ml" 118 4926 4944
+type(
+  (unit -> unit) option
+)
+"gData.ml" 119 4950 4956 "gData.ml" 119 4950 4960
+type(
+  (unit -> unit) option
+)
+"gData.ml" 119 4950 4964 "gData.ml" 119 4950 4966
+type(
+  unit
+)
+"gData.ml" 120 4967 4978 "gData.ml" 120 4967 4980
+type(
+  unit -> unit
+)
+ident(
+  def cb "gData.ml" 121 4984 4992 "gData.ml" 121 4984 5041
+)
+"gData.ml" 120 4967 4973 "gData.ml" 120 4967 4980
+type(
+  (unit -> unit) option
+)
+"gData.ml" 121 4984 5002 "gData.ml" 121 4984 5016
+type(
+  GObj.selection_context -> info:int -> time:int32 -> unit
+)
+ident(
+  int_ref default_get_cb "gData.ml" 107 4565 4569 "gData.ml" 107 4565 4583
+)
+"gData.ml" 121 4984 4992 "gData.ml" 121 4984 5016
+type(
+  unit
+)
+"gData.ml" 121 4984 5030 "gData.ml" 121 4984 5034
+type(
+  (unit -> unit) option
+)
+"gData.ml" 121 4984 5018 "gData.ml" 121 4984 5034
+type(
+  unit
+)
+"gData.ml" 121 4984 5036 "gData.ml" 121 4984 5038
+type(
+  unit -> unit
+)
+ident(
+  int_ref cb "gData.ml" 120 4967 4978 "gData.ml" 120 4967 4980
+)
+"gData.ml" 121 4984 5039 "gData.ml" 121 4984 5041
+type(
+  unit
+)
+"gData.ml" 121 4984 5036 "gData.ml" 121 4984 5041
+call(
+  tail
+)
+type(
+  unit
+)
+"gData.ml" 121 4984 5018 "gData.ml" 121 4984 5041
+type(
+  unit
+)
+"gData.ml" 121 4984 4992 "gData.ml" 121 4984 5041
+type(
+  unit
+)
+"gData.ml" 118 4926 4930 "gData.ml" 121 4984 5041
+type(
+  unit
+)
+type(
+  unit
+)
+"gData.ml" 124 5074 5084 "gData.ml" 124 5074 5090
+type(
+  GObj.widget option
+)
+"gData.ml" 124 5074 5101 "gData.ml" 124 5074 5102
+type(
+  GObj.widget
+)
+ident(
+  def w "gData.ml" 124 5074 5106 "gData.ml" 124 5074 5107
+)
+"gData.ml" 124 5074 5096 "gData.ml" 124 5074 5102
+type(
+  GObj.widget option
+)
+"gData.ml" 124 5074 5106 "gData.ml" 124 5074 5107
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gData.ml" 124 5074 5101 "gData.ml" 124 5074 5102
+)
+"gData.ml" 125 5108 5114 "gData.ml" 125 5108 5118
+type(
+  GObj.widget option
+)
+"gData.ml" 126 5122 5134 "gData.ml" 126 5122 5135
+type(
+  GObj.widget
+)
+"gData.ml" 126 5122 5138 "gData.ml" 126 5122 5153
+type(
+  Gtk.invisible Gtk.obj -> GObj.widget
+)
+"gData.ml" 126 5122 5155 "gData.ml" 126 5122 5178
+type(
+  Gtk.invisible Gobject.param list -> Gtk.invisible Gtk.obj
+)
+ident(
+  ext_ref GtkBin.Invisible.create
+)
+"gData.ml" 126 5122 5179 "gData.ml" 126 5122 5181
+type(
+  Gtk.invisible Gobject.param list
+)
+"gData.ml" 126 5122 5154 "gData.ml" 126 5122 5182
+call(
+  stack
+)
+type(
+  Gtk.invisible Gtk.obj
+)
+"gData.ml" 126 5122 5138 "gData.ml" 126 5122 5182
+call(
+  stack
+)
+type(
+  GObj.widget
+)
+"gData.ml" 127 5186 5209 "gData.ml" 127 5186 5210
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gData.ml" 126 5122 5134 "gData.ml" 126 5122 5135
+)
+"gData.ml" 127 5186 5204 "gData.ml" 127 5186 5210
+type(
+  GObj.widget option
+)
+"gData.ml" 127 5186 5194 "gData.ml" 127 5186 5210
+type(
+  unit
+)
+"gData.ml" 128 5212 5220 "gData.ml" 128 5212 5226
+type(
+  GtkSignal.id -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gData.ml" 128 5212 5228 "gData.ml" 128 5212 5229
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gData.ml" 126 5122 5134 "gData.ml" 126 5122 5135
+)
+"gData.ml" 128 5212 5228 "gData.ml" 128 5212 5234
+call(
+  stack
+)
+type(
+  GObj.misc_ops
+)
+"gData.ml" 128 5212 5228 "gData.ml" 128 5212 5242
+call(
+  stack
+)
+type(
+  GObj.misc_signals
+)
+"gData.ml" 128 5212 5228 "gData.ml" 128 5212 5256
+call(
+  stack
+)
+type(
+  callback:(GObj.selection_context -> info:int -> time:int32 -> unit) ->
+  GtkSignal.id
+)
+"gData.ml" 128 5212 5267 "gData.ml" 128 5212 5271
+type(
+  < as_clipboard : Gtk.clipboard; clear : unit -> unit;
+    get_contents : target:Gdk.atom -> GObj.selection_data;
+    image : GdkPixbuf.pixbuf option;
+    set_contents : targets:string list ->
+                   get:(GObj.selection_context ->
+                        info:int -> time:int32 -> unit) ->
+                   clear:(unit -> unit) -> unit;
+    set_image : GdkPixbuf.pixbuf -> unit; set_text : string -> unit;
+    targets : Gdk.atom list; text : string option; .. >
+  as 'a
+)
+"gData.ml" 128 5212 5267 "gData.ml" 128 5212 5280
+call(
+  stack
+)
+type(
+  GObj.selection_context -> info:int -> time:int32 -> unit
+)
+"gData.ml" 128 5212 5227 "gData.ml" 128 5212 5281
+type(
+  GtkSignal.id
+)
+"gData.ml" 128 5212 5220 "gData.ml" 128 5212 5281
+type(
+  unit
+)
+"gData.ml" 129 5283 5291 "gData.ml" 129 5283 5297
+type(
+  GtkSignal.id -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gData.ml" 129 5283 5300 "gData.ml" 129 5283 5322
+type(
+  Gtk.widget Gtk.obj -> GObj.event_signals
+)
+"gData.ml" 129 5283 5323 "gData.ml" 129 5283 5324
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gData.ml" 126 5122 5134 "gData.ml" 126 5122 5135
+)
+"gData.ml" 129 5283 5323 "gData.ml" 129 5283 5334
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gData.ml" 129 5283 5299 "gData.ml" 129 5283 5335
+call(
+  stack
+)
+type(
+  GObj.event_signals
+)
+"gData.ml" 129 5283 5299 "gData.ml" 129 5283 5351
+call(
+  stack
+)
+type(
+  callback:(GdkEvent.Selection.t -> bool) -> GtkSignal.id
+)
+"gData.ml" 130 5352 5385 "gData.ml" 130 5352 5386
+type(
+  GdkEvent.Selection.t
+)
+"gData.ml" 130 5352 5390 "gData.ml" 130 5352 5394
+type(
+  'a
+)
+"gData.ml" 130 5352 5390 "gData.ml" 130 5352 5405
+call(
+  stack
+)
+type(
+  unit
+)
+"gData.ml" 130 5352 5407 "gData.ml" 130 5352 5411
+type(
+  bool
+)
+"gData.ml" 130 5352 5390 "gData.ml" 130 5352 5411
+type(
+  bool
+)
+"gData.ml" 130 5352 5380 "gData.ml" 130 5352 5412
+type(
+  GdkEvent.Selection.t -> bool
+)
+"gData.ml" 129 5283 5298 "gData.ml" 130 5352 5413
+type(
+  GtkSignal.id
+)
+"gData.ml" 129 5283 5291 "gData.ml" 130 5352 5413
+type(
+  unit
+)
+"gData.ml" 131 5415 5423 "gData.ml" 131 5415 5424
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gData.ml" 126 5122 5134 "gData.ml" 126 5122 5135
+)
+"gData.ml" 129 5283 5291 "gData.ml" 131 5415 5424
+type(
+  GObj.widget
+)
+"gData.ml" 128 5212 5220 "gData.ml" 131 5415 5424
+type(
+  GObj.widget
+)
+"gData.ml" 127 5186 5194 "gData.ml" 131 5415 5424
+type(
+  GObj.widget
+)
+"gData.ml" 126 5122 5130 "gData.ml" 131 5415 5424
+type(
+  GObj.widget
+)
+"gData.ml" 124 5074 5078 "gData.ml" 131 5415 5424
+type(
+  GObj.widget
+)
+type(
+  GObj.widget
+)
+"gData.ml" 133 5426 5449 "gData.ml" 133 5426 5456
+type(
+  string list
+)
+ident(
+  def targets "gData.ml" 133 5426 5457 "gData.ml" 142 5786 5799
+)
+"gData.ml" 133 5426 5462 "gData.ml" 133 5426 5470
+type(
+  GObj.selection_context -> info:int -> time:int32 -> unit
+)
+ident(
+  def get_func "gData.ml" 133 5426 5471 "gData.ml" 142 5786 5799
+)
+"gData.ml" 133 5426 5478 "gData.ml" 133 5426 5488
+type(
+  unit -> unit
+)
+ident(
+  def clear_func "gData.ml" 134 5491 5495 "gData.ml" 142 5786 5799
+)
+"gData.ml" 134 5491 5499 "gData.ml" 134 5491 5505
+type(
+  GObj.widget
+)
+"gData.ml" 134 5491 5508 "gData.ml" 134 5491 5512
+type(
+  'a
+)
+"gData.ml" 134 5491 5508 "gData.ml" 134 5491 5524
+call(
+  stack
+)
+type(
+  GObj.widget
+)
+"gData.ml" 135 5528 5532 "gData.ml" 135 5528 5536
+type(
+  'a
+)
+"gData.ml" 135 5528 5532 "gData.ml" 135 5528 5547
+call(
+  stack
+)
+type(
+  unit
+)
+"gData.ml" 136 5549 5563 "gData.ml" 136 5549 5571
+type(
+  GObj.selection_context -> info:int -> time:int32 -> unit
+)
+ident(
+  int_ref get_func "gData.ml" 133 5426 5462 "gData.ml" 133 5426 5470
+)
+"gData.ml" 136 5549 5553 "gData.ml" 136 5549 5571
+type(
+  unit
+)
+"gData.ml" 137 5573 5594 "gData.ml" 137 5573 5604
+type(
+  unit -> unit
+)
+ident(
+  int_ref clear_func "gData.ml" 133 5426 5478 "gData.ml" 133 5426 5488
+)
+"gData.ml" 137 5573 5589 "gData.ml" 137 5573 5604
+type(
+  (unit -> unit) option
+)
+"gData.ml" 137 5573 5577 "gData.ml" 137 5573 5604
+type(
+  unit
+)
+"gData.ml" 138 5606 5610 "gData.ml" 138 5606 5616
+type(
+  GObj.widget
+)
+ident(
+  int_ref widget "gData.ml" 134 5491 5499 "gData.ml" 134 5491 5505
+)
+"gData.ml" 138 5606 5610 "gData.ml" 138 5606 5621
+call(
+  stack
+)
+type(
+  GObj.misc_ops
+)
+"gData.ml" 138 5606 5610 "gData.ml" 138 5606 5636
+call(
+  stack
+)
+type(
+  ?time:int32 -> Gdk.atom -> bool
+)
+"gData.ml" 138 5606 5637 "gData.ml" 138 5606 5646
+type(
+  Gdk.atom
+)
+"gData.ml" 138 5606 5610 "gData.ml" 138 5606 5646
+type(
+  bool
+)
+"gData.ml" 139 5648 5652 "gData.ml" 139 5648 5658
+type(
+  GObj.widget
+)
+ident(
+  int_ref widget "gData.ml" 134 5491 5499 "gData.ml" 134 5491 5505
+)
+"gData.ml" 139 5648 5652 "gData.ml" 139 5648 5663
+call(
+  stack
+)
+type(
+  GObj.misc_ops
+)
+"gData.ml" 139 5648 5652 "gData.ml" 139 5648 5687
+call(
+  stack
+)
+type(
+  Gdk.atom -> unit
+)
+"gData.ml" 139 5648 5688 "gData.ml" 139 5648 5697
+type(
+  Gdk.atom
+)
+"gData.ml" 139 5648 5652 "gData.ml" 139 5648 5697
+type(
+  unit
+)
+"gData.ml" 140 5699 5703 "gData.ml" 140 5699 5712
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"gData.ml" 141 5713 5724 "gData.ml" 141 5713 5730
+type(
+  string
+)
+ident(
+  def target "gData.ml" 141 5713 5734 "gData.ml" 141 5713 5784
+)
+"gData.ml" 141 5713 5734 "gData.ml" 141 5713 5740
+type(
+  GObj.widget
+)
+ident(
+  int_ref widget "gData.ml" 134 5491 5499 "gData.ml" 134 5491 5505
+)
+"gData.ml" 141 5713 5734 "gData.ml" 141 5713 5745
+call(
+  stack
+)
+type(
+  GObj.misc_ops
+)
+"gData.ml" 141 5713 5734 "gData.ml" 141 5713 5766
+call(
+  tail
+)
+type(
+  target:string -> ?info:int -> Gdk.atom -> unit
+)
+"gData.ml" 141 5713 5768 "gData.ml" 141 5713 5774
+type(
+  string
+)
+ident(
+  int_ref target "gData.ml" 141 5713 5724 "gData.ml" 141 5713 5730
+)
+"gData.ml" 141 5713 5775 "gData.ml" 141 5713 5784
+type(
+  Gdk.atom
+)
+"gData.ml" 141 5713 5734 "gData.ml" 141 5713 5784
+type(
+  unit
+)
+"gData.ml" 141 5713 5719 "gData.ml" 141 5713 5785
+type(
+  string -> unit
+)
+"gData.ml" 142 5786 5792 "gData.ml" 142 5786 5799
+type(
+  string list
+)
+ident(
+  int_ref targets "gData.ml" 133 5426 5449 "gData.ml" 133 5426 5456
+)
+"gData.ml" 140 5699 5703 "gData.ml" 142 5786 5799
+call(
+  tail
+)
+type(
+  unit
+)
+"gData.ml" 139 5648 5652 "gData.ml" 142 5786 5799
+type(
+  unit
+)
+"gData.ml" 138 5606 5610 "gData.ml" 142 5786 5799
+type(
+  unit
+)
+"gData.ml" 137 5573 5577 "gData.ml" 142 5786 5799
+type(
+  unit
+)
+"gData.ml" 136 5549 5553 "gData.ml" 142 5786 5799
+type(
+  unit
+)
+"gData.ml" 135 5528 5532 "gData.ml" 142 5786 5799
+type(
+  unit
+)
+"gData.ml" 134 5491 5495 "gData.ml" 142 5786 5799
+type(
+  unit
+)
+"gData.ml" 145 5805 5809 "gData.ml" 145 5805 5818
+type(
+  Gdk.atom -> clipboard
+)
+ident(
+  def clipboard "gData.ml" 147 5857 5857 --
+)
+"gData.ml" 145 5805 5819 "gData.ml" 145 5805 5828
+type(
+  Gdk.atom
+)
+ident(
+  def selection "gData.ml" 145 5805 5831 "gData.ml" 145 5805 5855
+)
+"gData.ml" 145 5805 5831 "gData.ml" 145 5805 5844
+type(
+  selection:Gdk.atom -> clipboard
+)
+"gData.ml" 145 5805 5846 "gData.ml" 145 5805 5855
+type(
+  Gdk.atom
+)
+ident(
+  int_ref selection "gData.ml" 145 5805 5819 "gData.ml" 145 5805 5828
+)
+"gData.ml" 145 5805 5831 "gData.ml" 145 5805 5855
+call(
+  tail
+)
+type(
+  clipboard
+)
+"gData.ml" 147 5857 5861 "gData.ml" 147 5857 5873
+type(
+  < as_clipboard : 'a; .. > -> 'a
+)
+ident(
+  def as_clipboard "gData.ml" 147 5857 5898 --
+)
+"gData.ml" 147 5857 5874 "gData.ml" 147 5857 5878
+type(
+  < as_clipboard : 'a; .. > as 'b
+)
+ident(
+  def clip "gData.ml" 147 5857 5881 "gData.ml" 147 5857 5898
+)
+"gData.ml" 147 5857 5881 "gData.ml" 147 5857 5885
+type(
+  'b
+)
+ident(
+  int_ref clip "gData.ml" 147 5857 5874 "gData.ml" 147 5857 5878
+)
+"gData.ml" 147 5857 5881 "gData.ml" 147 5857 5898
+call(
+  tail
+)
+type(
+  'a
+)

@@ -1,0 +1,27 @@
+# OASIS_START
+# DO NOT EDIT (digest: cb381689fa126041353204f1d8e8a84d)
+# Ignore VCS directories, you can use the same kind of rule outside 
+# OASIS_START/STOP if you want to exclude directories that contains 
+# useless stuff for the build process
+<**/.svn>: -traverse
+<**/.svn>: not_hygienic
+".bzr": -traverse
+".bzr": not_hygienic
+".hg": -traverse
+".hg": not_hygienic
+".git": -traverse
+".git": not_hygienic
+"_darcs": -traverse
+"_darcs": not_hygienic
+# Library radixtree
+"src": include
+# Executable test
+"test/test.byte": use_radixtree
+"test/test.byte": pkg_oUnit
+<test/*.ml{,i}>: pkg_oUnit
+# Executable bench
+<test/bench.{native,byte}>: use_radixtree
+<test/bench.{native,byte}>: pkg_benchmark
+<test/*.ml{,i}>: use_radixtree
+<test/*.ml{,i}>: pkg_benchmark
+# OASIS_STOP

@@ -1,0 +1,593 @@
+"gtkEdit.ml" 34 1824 1828 "gtkEdit.ml" 34 1824 1830
+type(
+  unit
+)
+"gtkEdit.ml" 34 1824 1833 "gtkEdit.ml" 34 1824 1846
+type(
+  unit -> unit
+)
+"gtkEdit.ml" 34 1824 1847 "gtkEdit.ml" 34 1824 1849
+type(
+  unit
+)
+"gtkEdit.ml" 34 1824 1833 "gtkEdit.ml" 34 1824 1849
+type(
+  unit
+)
+"gtkEdit.ml" 38 1895 1901 "gtkEdit.ml" 38 1895 1915
+type(
+  (string -> pos:int ref -> unit) -> Gobject.Closure.argv -> unit
+)
+ident(
+  def marshal_insert "gtkEdit.ml" 46 2326 2328 "gtkEdit.ml" 47 2379 2382
+)
+"gtkEdit.ml" 38 1895 1916 "gtkEdit.ml" 38 1895 1917
+type(
+  string -> pos:int ref -> unit
+)
+ident(
+  def f "gtkEdit.ml" 38 1895 1918 "gtkEdit.ml" 45 2269 2325
+)
+"gtkEdit.ml" 38 1895 1918 "gtkEdit.ml" 38 1895 1922
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkEdit.ml" 39 1925 1929 "gtkEdit.ml" 45 2269 2325
+)
+"gtkEdit.ml" 39 1925 1935 "gtkEdit.ml" 39 1925 1942
+type(
+  Gobject.data_get list -> Gobject.data_get list
+)
+ident(
+  ext_ref StdLabels.List.tl
+)
+"gtkEdit.ml" 39 1925 1944 "gtkEdit.ml" 39 1925 1960
+type(
+  Gobject.Closure.argv -> Gobject.data_get list
+)
+ident(
+  ext_ref Gobject.Closure.get_args
+)
+"gtkEdit.ml" 39 1925 1961 "gtkEdit.ml" 39 1925 1965
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkEdit.ml" 38 1895 1918 "gtkEdit.ml" 38 1895 1922
+)
+"gtkEdit.ml" 39 1925 1943 "gtkEdit.ml" 39 1925 1966
+call(
+  stack
+)
+type(
+  Gobject.data_get list
+)
+"gtkEdit.ml" 39 1925 1935 "gtkEdit.ml" 39 1925 1966
+call(
+  stack
+)
+type(
+  Gobject.data_get list
+)
+"gtkEdit.ml" 40 1972 1986 "gtkEdit.ml" 40 1972 1987
+type(
+  string option
+)
+"gtkEdit.ml" 40 1972 1978 "gtkEdit.ml" 40 1972 1987
+type(
+  Gobject.data_get
+)
+"gtkEdit.ml" 40 1972 1996 "gtkEdit.ml" 40 1972 1999
+type(
+  int
+)
+ident(
+  def len "gtkEdit.ml" 42 2094 2102 "gtkEdit.ml" 44 2217 2268
+)
+"gtkEdit.ml" 40 1972 1991 "gtkEdit.ml" 40 1972 1999
+type(
+  Gobject.data_get
+)
+"gtkEdit.ml" 40 1972 2017 "gtkEdit.ml" 40 1972 2018
+type(
+  Gpointer.boxed
+)
+ident(
+  def p "gtkEdit.ml" 42 2094 2102 "gtkEdit.ml" 44 2217 2268
+)
+"gtkEdit.ml" 40 1972 2011 "gtkEdit.ml" 40 1972 2019
+type(
+  Gpointer.boxed option
+)
+"gtkEdit.ml" 40 1972 2003 "gtkEdit.ml" 40 1972 2019
+type(
+  Gobject.data_get
+)
+"gtkEdit.ml" 40 1972 2023 "gtkEdit.ml" 40 1972 2024
+type(
+  Gobject.data_get list
+)
+"gtkEdit.ml" 40 1972 2003 "gtkEdit.ml" 40 1972 2024
+type(
+  Gobject.data_get list
+)
+"gtkEdit.ml" 40 1972 1991 "gtkEdit.ml" 40 1972 2024
+type(
+  Gobject.data_get list
+)
+"gtkEdit.ml" 40 1972 1978 "gtkEdit.ml" 40 1972 2024
+type(
+  Gobject.data_get list
+)
+"gtkEdit.ml" 42 2094 2106 "gtkEdit.ml" 42 2094 2107
+type(
+  string
+)
+"gtkEdit.ml" 42 2094 2110 "gtkEdit.ml" 42 2094 2130
+type(
+  ?pos:int -> ?len:int -> Gpointer.boxed -> string
+)
+ident(
+  ext_ref Gpointer.peek_string
+)
+"gtkEdit.ml" 42 2094 2132 "gtkEdit.ml" 42 2094 2151
+type(
+  Gobject.Closure.argv -> pos:int -> Gpointer.boxed
+)
+ident(
+  ext_ref Gobject.Closure.get_pointer
+)
+"gtkEdit.ml" 42 2094 2152 "gtkEdit.ml" 42 2094 2156
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkEdit.ml" 38 1895 1918 "gtkEdit.ml" 38 1895 1922
+)
+"gtkEdit.ml" 42 2094 2162 "gtkEdit.ml" 42 2094 2163
+type(
+  int
+)
+"gtkEdit.ml" 42 2094 2131 "gtkEdit.ml" 42 2094 2164
+call(
+  stack
+)
+type(
+  Gpointer.boxed
+)
+"gtkEdit.ml" 42 2094 2166 "gtkEdit.ml" 42 2094 2169
+type(
+  int
+)
+ident(
+  int_ref len "gtkEdit.ml" 40 1972 1996 "gtkEdit.ml" 40 1972 1999
+)
+"gtkEdit.ml" 42 2094 2110 "gtkEdit.ml" 42 2094 2169
+call(
+  stack
+)
+type(
+  string
+)
+"gtkEdit.ml" 43 2170 2182 "gtkEdit.ml" 43 2170 2185
+type(
+  int ref
+)
+"gtkEdit.ml" 43 2170 2188 "gtkEdit.ml" 43 2170 2191
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gtkEdit.ml" 43 2170 2193 "gtkEdit.ml" 43 2170 2210
+type(
+  Gpointer.boxed -> int
+)
+ident(
+  ext_ref Gpointer.peek_int
+)
+"gtkEdit.ml" 43 2170 2211 "gtkEdit.ml" 43 2170 2212
+type(
+  Gpointer.boxed
+)
+ident(
+  int_ref p "gtkEdit.ml" 40 1972 2017 "gtkEdit.ml" 40 1972 2018
+)
+"gtkEdit.ml" 43 2170 2192 "gtkEdit.ml" 43 2170 2213
+call(
+  stack
+)
+type(
+  int
+)
+"gtkEdit.ml" 43 2170 2188 "gtkEdit.ml" 43 2170 2213
+type(
+  int ref
+)
+"gtkEdit.ml" 44 2217 2226 "gtkEdit.ml" 44 2217 2227
+type(
+  string -> pos:int ref -> unit
+)
+ident(
+  int_ref f "gtkEdit.ml" 38 1895 1916 "gtkEdit.ml" 38 1895 1917
+)
+"gtkEdit.ml" 44 2217 2228 "gtkEdit.ml" 44 2217 2229
+type(
+  string
+)
+ident(
+  int_ref s "gtkEdit.ml" 42 2094 2106 "gtkEdit.ml" 42 2094 2107
+)
+"gtkEdit.ml" 44 2217 2231 "gtkEdit.ml" 44 2217 2234
+type(
+  int ref
+)
+ident(
+  int_ref pos "gtkEdit.ml" 43 2170 2182 "gtkEdit.ml" 43 2170 2185
+)
+"gtkEdit.ml" 44 2217 2226 "gtkEdit.ml" 44 2217 2234
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"gtkEdit.ml" 44 2217 2244 "gtkEdit.ml" 44 2217 2261
+type(
+  Gpointer.boxed -> int -> unit
+)
+ident(
+  ext_ref Gpointer.poke_int
+)
+"gtkEdit.ml" 44 2217 2262 "gtkEdit.ml" 44 2217 2263
+type(
+  Gpointer.boxed
+)
+ident(
+  int_ref p "gtkEdit.ml" 40 1972 2017 "gtkEdit.ml" 40 1972 2018
+)
+"gtkEdit.ml" 44 2217 2264 "gtkEdit.ml" 44 2217 2265
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkEdit.ml" 44 2217 2265 "gtkEdit.ml" 44 2217 2268
+type(
+  int ref
+)
+ident(
+  int_ref pos "gtkEdit.ml" 43 2170 2182 "gtkEdit.ml" 43 2170 2185
+)
+"gtkEdit.ml" 44 2217 2264 "gtkEdit.ml" 44 2217 2268
+type(
+  int
+)
+"gtkEdit.ml" 44 2217 2244 "gtkEdit.ml" 44 2217 2268
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkEdit.ml" 44 2217 2225 "gtkEdit.ml" 44 2217 2268
+type(
+  unit
+)
+"gtkEdit.ml" 42 2094 2102 "gtkEdit.ml" 44 2217 2268
+type(
+  unit
+)
+"gtkEdit.ml" 45 2269 2275 "gtkEdit.ml" 45 2269 2276
+type(
+  Gobject.data_get list
+)
+"gtkEdit.ml" 45 2269 2280 "gtkEdit.ml" 45 2269 2291
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gtkEdit.ml" 45 2269 2292 "gtkEdit.ml" 45 2269 2325
+type(
+  string
+)
+"gtkEdit.ml" 45 2269 2280 "gtkEdit.ml" 45 2269 2325
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkEdit.ml" 39 1925 1929 "gtkEdit.ml" 45 2269 2325
+type(
+  unit
+)
+"gtkEdit.ml" 46 2326 2332 "gtkEdit.ml" 46 2326 2334
+type(
+  unit
+)
+"gtkEdit.ml" 46 2326 2337 "gtkEdit.ml" 46 2326 2360
+type(
+  ((string -> pos:int ref -> unit) -> Gobject.Closure.argv -> unit) ref
+)
+ident(
+  ext_ref GtkEditProps.Internal.marshal_insert
+)
+"gtkEdit.ml" 46 2326 2361 "gtkEdit.ml" 46 2326 2363
+type(
+  ((string -> pos:int ref -> unit) -> Gobject.Closure.argv -> unit) ref ->
+  ((string -> pos:int ref -> unit) -> Gobject.Closure.argv -> unit) -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gtkEdit.ml" 46 2326 2364 "gtkEdit.ml" 46 2326 2378
+type(
+  (string -> pos:int ref -> unit) -> Gobject.Closure.argv -> unit
+)
+ident(
+  int_ref marshal_insert "gtkEdit.ml" 38 1895 1901 "gtkEdit.ml" 38 1895 1915
+)
+"gtkEdit.ml" 46 2326 2337 "gtkEdit.ml" 46 2326 2378
+type(
+  unit
+)
+"gtkEdit.ml" 53 2454 2460 "gtkEdit.ml" 53 2454 2476
+type(
+  [> `spinbutton ] Gobject.obj -> int
+)
+ident(
+  def get_value_as_int "gtkEdit.ml" 53 2454 2520 "gtkEdit.ml" 54 2521 2524
+)
+"gtkEdit.ml" 53 2454 2477 "gtkEdit.ml" 53 2454 2478
+type(
+  ([> `spinbutton ] as 'a) Gobject.obj
+)
+ident(
+  def w "gtkEdit.ml" 53 2454 2481 "gtkEdit.ml" 53 2454 2520
+)
+"gtkEdit.ml" 53 2454 2481 "gtkEdit.ml" 53 2454 2489
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.truncate
+)
+"gtkEdit.ml" 53 2454 2491 "gtkEdit.ml" 53 2454 2496
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.floor
+)
+"gtkEdit.ml" 53 2454 2498 "gtkEdit.ml" 53 2454 2501
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  ext_ref Gobject.get
+)
+"gtkEdit.ml" 53 2454 2502 "gtkEdit.ml" 53 2454 2509
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref P.value
+)
+"gtkEdit.ml" 53 2454 2510 "gtkEdit.ml" 53 2454 2511
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkEdit.ml" 53 2454 2477 "gtkEdit.ml" 53 2454 2478
+)
+"gtkEdit.ml" 53 2454 2498 "gtkEdit.ml" 53 2454 2511
+call(
+  stack
+)
+type(
+  float
+)
+"gtkEdit.ml" 53 2454 2512 "gtkEdit.ml" 53 2454 2514
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"gtkEdit.ml" 53 2454 2515 "gtkEdit.ml" 53 2454 2518
+type(
+  float
+)
+"gtkEdit.ml" 53 2454 2497 "gtkEdit.ml" 53 2454 2519
+type(
+  float
+)
+"gtkEdit.ml" 53 2454 2490 "gtkEdit.ml" 53 2454 2520
+type(
+  float
+)
+"gtkEdit.ml" 53 2454 2481 "gtkEdit.ml" 53 2454 2520
+type(
+  int
+)
+"gtkEdit.ml" 96 4280 4286 "gtkEdit.ml" 96 4280 4305
+type(
+  [> `combo ] Gtk.obj -> string list -> unit
+)
+ident(
+  def set_popdown_strings "gtkEdit.ml" 104 4541 4543 "gtkEdit.ml" 108 4749 4752
+)
+"gtkEdit.ml" 96 4280 4306 "gtkEdit.ml" 96 4280 4311
+type(
+  ([> `combo ] as 'a) Gtk.obj
+)
+ident(
+  def combo "gtkEdit.ml" 96 4280 4312 "gtkEdit.ml" 103 4531 4540
+)
+"gtkEdit.ml" 96 4280 4312 "gtkEdit.ml" 96 4280 4319
+type(
+  string list
+)
+ident(
+  def strings "gtkEdit.ml" 97 4322 4326 "gtkEdit.ml" 103 4531 4540
+)
+"gtkEdit.ml" 97 4322 4326 "gtkEdit.ml" 97 4322 4351
+type(
+  Gtk.liste Gtk.obj -> start:int -> stop:int -> unit
+)
+ident(
+  ext_ref GtkList.Liste.clear_items
+)
+"gtkEdit.ml" 97 4322 4353 "gtkEdit.ml" 97 4322 4357
+type(
+  'a Gtk.obj -> Gtk.liste Gtk.obj
+)
+"gtkEdit.ml" 97 4322 4358 "gtkEdit.ml" 97 4322 4363
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref combo "gtkEdit.ml" 96 4280 4306 "gtkEdit.ml" 96 4280 4311
+)
+"gtkEdit.ml" 97 4322 4352 "gtkEdit.ml" 97 4322 4364
+type(
+  Gtk.liste Gtk.obj
+)
+"gtkEdit.ml" 97 4322 4372 "gtkEdit.ml" 97 4322 4373
+type(
+  int
+)
+"gtkEdit.ml" 97 4322 4380 "gtkEdit.ml" 97 4322 4384
+type(
+  int
+)
+"gtkEdit.ml" 97 4322 4326 "gtkEdit.ml" 97 4322 4384
+type(
+  unit
+)
+"gtkEdit.ml" 98 4386 4390 "gtkEdit.ml" 98 4386 4399
+type(
+  f:(string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref StdLabels.List.iter
+)
+"gtkEdit.ml" 98 4386 4400 "gtkEdit.ml" 98 4386 4407
+type(
+  string list
+)
+ident(
+  int_ref strings "gtkEdit.ml" 96 4280 4312 "gtkEdit.ml" 96 4280 4319
+)
+"gtkEdit.ml" 99 4412 4428 "gtkEdit.ml" 99 4412 4429
+type(
+  string
+)
+ident(
+  def s "gtkEdit.ml" 100 4433 4434 "gtkEdit.ml" 102 4500 4530
+)
+"gtkEdit.ml" 100 4433 4438 "gtkEdit.ml" 100 4433 4440
+type(
+  Gtk.list_item Gtk.obj
+)
+"gtkEdit.ml" 100 4433 4443 "gtkEdit.ml" 100 4433 4477
+type(
+  string -> Gtk.list_item Gtk.obj
+)
+ident(
+  ext_ref GtkList.ListItem.create_with_label
+)
+"gtkEdit.ml" 100 4433 4478 "gtkEdit.ml" 100 4433 4479
+type(
+  string
+)
+ident(
+  int_ref s "gtkEdit.ml" 99 4412 4428 "gtkEdit.ml" 99 4412 4429
+)
+"gtkEdit.ml" 100 4433 4443 "gtkEdit.ml" 100 4433 4479
+type(
+  Gtk.list_item Gtk.obj
+)
+"gtkEdit.ml" 101 4483 4484 "gtkEdit.ml" 101 4483 4495
+type(
+  Gtk.list_item Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBase.Widget.show
+)
+"gtkEdit.ml" 101 4483 4496 "gtkEdit.ml" 101 4483 4498
+type(
+  Gtk.list_item Gtk.obj
+)
+ident(
+  int_ref li "gtkEdit.ml" 100 4433 4438 "gtkEdit.ml" 100 4433 4440
+)
+"gtkEdit.ml" 101 4483 4484 "gtkEdit.ml" 101 4483 4498
+type(
+  unit
+)
+"gtkEdit.ml" 102 4500 4501 "gtkEdit.ml" 102 4500 4514
+type(
+  Gtk.liste Gtk.obj -> Gtk.list_item Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBase.Container.add
+)
+"gtkEdit.ml" 102 4500 4516 "gtkEdit.ml" 102 4500 4520
+type(
+  'a Gtk.obj -> Gtk.liste Gtk.obj
+)
+"gtkEdit.ml" 102 4500 4521 "gtkEdit.ml" 102 4500 4526
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref combo "gtkEdit.ml" 96 4280 4306 "gtkEdit.ml" 96 4280 4311
+)
+"gtkEdit.ml" 102 4500 4515 "gtkEdit.ml" 102 4500 4527
+type(
+  Gtk.liste Gtk.obj
+)
+"gtkEdit.ml" 102 4500 4528 "gtkEdit.ml" 102 4500 4530
+type(
+  Gtk.list_item Gtk.obj
+)
+ident(
+  int_ref li "gtkEdit.ml" 100 4433 4438 "gtkEdit.ml" 100 4433 4440
+)
+"gtkEdit.ml" 102 4500 4501 "gtkEdit.ml" 102 4500 4530
+type(
+  unit
+)
+"gtkEdit.ml" 101 4483 4484 "gtkEdit.ml" 102 4500 4530
+type(
+  unit
+)
+"gtkEdit.ml" 100 4433 4434 "gtkEdit.ml" 102 4500 4530
+type(
+  unit
+)
+"gtkEdit.ml" 99 4412 4418 "gtkEdit.ml" 103 4531 4540
+type(
+  string -> unit
+)
+"gtkEdit.ml" 98 4386 4390 "gtkEdit.ml" 103 4531 4540
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkEdit.ml" 97 4322 4326 "gtkEdit.ml" 103 4531 4540
+type(
+  unit
+)

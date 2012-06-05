@@ -1,0 +1,7137 @@
+"gObj.ml" 34 1764 1791 "gObj.ml" 34 1764 1794
+type(
+  'a Gtk.obj
+)
+"gObj.ml" 35 1804 1825 "gObj.ml" 35 1804 1828
+type(
+  'a Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref obj "gObj.ml" 34 1764 1791 "gObj.ml" 34 1764 1794
+)
+"gObj.ml" 36 1829 1843 "gObj.ml" 36 1829 1848
+type(
+  bool
+)
+"gObj.ml" 37 1849 1877 "gObj.ml" 37 1849 1881
+type(
+  bool
+)
+"gObj.ml" 37 1849 1866 "gObj.ml" 37 1849 1884
+type(
+  < after : 'b; .. > as 'b
+)
+type(
+  'b
+)
+"gObj.ml" 39 1958 1966 "gObj.ml" 39 1958 1969
+type(
+  ('a, 'c) GtkSignal.t
+)
+ident(
+  def sgn "gObj.ml" 39 1958 1970 "gObj.ml" 39 1958 2026
+)
+"gObj.ml" 39 1958 1971 "gObj.ml" 39 1958 1979
+type(
+  'c
+)
+ident(
+  def callback "gObj.ml" 39 1958 1983 "gObj.ml" 39 1958 2026
+)
+"gObj.ml" 39 1958 1983 "gObj.ml" 39 1958 2000
+type(
+  sgn:('a, 'c) GtkSignal.t ->
+  callback:'c -> ?after:bool -> 'a Gtk.obj -> GtkSignal.id
+)
+ident(
+  ext_ref GtkSignal.connect
+)
+"gObj.ml" 39 1958 2001 "gObj.ml" 39 1958 2004
+type(
+  'a Gtk.obj
+)
+"gObj.ml" 39 1958 2006 "gObj.ml" 39 1958 2009
+type(
+  ('a, 'c) GtkSignal.t
+)
+ident(
+  int_ref sgn "gObj.ml" 39 1958 1966 "gObj.ml" 39 1958 1969
+)
+"gObj.ml" 39 1958 2011 "gObj.ml" 39 1958 2016
+type(
+  bool
+)
+"gObj.ml" 39 1958 2018 "gObj.ml" 39 1958 2026
+type(
+  'c
+)
+ident(
+  int_ref callback "gObj.ml" 39 1958 1971 "gObj.ml" 39 1958 1979
+)
+"gObj.ml" 39 1958 1983 "gObj.ml" 39 1958 2026
+call(
+  tail
+)
+type(
+  GtkSignal.id
+)
+"gObj.ml" 39 1958 1962 "gObj.ml" 39 1958 2026
+type(
+  'd. ('a, 'd) GtkSignal.t -> callback:'d -> GtkSignal.id
+)
+type(
+  ('a, 'c) GtkSignal.t -> callback:'c -> GtkSignal.id
+)
+"gObj.ml" 42 2032 2050 "gObj.ml" 42 2032 2053
+type(
+  'a Gobject.obj
+)
+"gObj.ml" 43 2063 2075 "gObj.ml" 43 2063 2078
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref obj "gObj.ml" 42 2032 2050 "gObj.ml" 42 2032 2053
+)
+"gObj.ml" 44 2079 2098 "gObj.ml" 44 2079 2105
+type(
+  'a Gobject.obj -> int
+)
+ident(
+  ext_ref Gobject.get_oid
+)
+"gObj.ml" 44 2079 2106 "gObj.ml" 44 2079 2109
+type(
+  'a Gobject.obj
+)
+"gObj.ml" 44 2079 2098 "gObj.ml" 44 2079 2109
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"gObj.ml" 45 2110 2130 "gObj.ml" 45 2110 2139
+type(
+  Gobject.g_type -> string
+)
+ident(
+  ext_ref Gobject.Type.name
+)
+"gObj.ml" 45 2110 2141 "gObj.ml" 45 2110 2149
+type(
+  'a Gobject.obj -> Gobject.g_type
+)
+ident(
+  ext_ref Gobject.get_type
+)
+"gObj.ml" 45 2110 2150 "gObj.ml" 45 2110 2153
+type(
+  'a Gobject.obj
+)
+"gObj.ml" 45 2110 2140 "gObj.ml" 45 2110 2154
+call(
+  stack
+)
+type(
+  Gobject.g_type
+)
+"gObj.ml" 45 2110 2130 "gObj.ml" 45 2110 2154
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"gObj.ml" 46 2155 2177 "gObj.ml" 46 2155 2197
+type(
+  'a Gobject.obj -> GtkSignal.id -> unit
+)
+ident(
+  ext_ref GtkSignal.disconnect
+)
+"gObj.ml" 46 2155 2198 "gObj.ml" 46 2155 2201
+type(
+  'a Gobject.obj
+)
+"gObj.ml" 46 2155 2177 "gObj.ml" 46 2155 2201
+call(
+  tail
+)
+type(
+  GtkSignal.id -> unit
+)
+type(
+  GtkSignal.id -> unit
+)
+"gObj.ml" 47 2202 2227 "gObj.ml" 47 2202 2250
+type(
+  'a Gobject.obj -> GtkSignal.id -> unit
+)
+ident(
+  ext_ref GtkSignal.handler_block
+)
+"gObj.ml" 47 2202 2251 "gObj.ml" 47 2202 2254
+type(
+  'a Gobject.obj
+)
+"gObj.ml" 47 2202 2227 "gObj.ml" 47 2202 2254
+call(
+  tail
+)
+type(
+  GtkSignal.id -> unit
+)
+type(
+  GtkSignal.id -> unit
+)
+"gObj.ml" 48 2255 2282 "gObj.ml" 48 2255 2307
+type(
+  'a Gobject.obj -> GtkSignal.id -> unit
+)
+ident(
+  ext_ref GtkSignal.handler_unblock
+)
+"gObj.ml" 48 2255 2308 "gObj.ml" 48 2255 2311
+type(
+  'a Gobject.obj
+)
+"gObj.ml" 48 2255 2282 "gObj.ml" 48 2255 2311
+call(
+  tail
+)
+type(
+  GtkSignal.id -> unit
+)
+type(
+  GtkSignal.id -> unit
+)
+"gObj.ml" 50 2372 2376 "gObj.ml" 50 2372 2392
+type(
+  'a Gobject.obj -> string -> 'b Gobject.data_set -> unit
+)
+ident(
+  ext_ref Gobject.Property.set_dyn
+)
+"gObj.ml" 50 2372 2393 "gObj.ml" 50 2372 2396
+type(
+  'a Gobject.obj
+)
+"gObj.ml" 50 2372 2376 "gObj.ml" 50 2372 2396
+call(
+  tail
+)
+type(
+  'c. string -> 'c Gobject.data_set -> unit
+)
+type(
+  string -> 'b Gobject.data_set -> unit
+)
+"gObj.ml" 51 2397 2421 "gObj.ml" 51 2397 2437
+type(
+  'a Gobject.obj -> string -> Gobject.data_get
+)
+ident(
+  ext_ref Gobject.Property.get_dyn
+)
+"gObj.ml" 51 2397 2438 "gObj.ml" 51 2397 2441
+type(
+  'a Gobject.obj
+)
+"gObj.ml" 51 2397 2421 "gObj.ml" 51 2397 2441
+call(
+  tail
+)
+type(
+  string -> Gobject.data_get
+)
+type(
+  string -> Gobject.data_get
+)
+"gObj.ml" 52 2442 2465 "gObj.ml" 52 2442 2467
+type(
+  unit
+)
+"gObj.ml" 52 2442 2470 "gObj.ml" 52 2442 2492
+type(
+  'a Gobject.obj -> unit
+)
+ident(
+  ext_ref Gobject.Property.freeze_notify
+)
+"gObj.ml" 52 2442 2493 "gObj.ml" 52 2442 2496
+type(
+  'a Gobject.obj
+)
+"gObj.ml" 52 2442 2470 "gObj.ml" 52 2442 2496
+call(
+  tail
+)
+type(
+  unit
+)
+"gObj.ml" 53 2497 2518 "gObj.ml" 53 2497 2520
+type(
+  unit
+)
+"gObj.ml" 53 2497 2523 "gObj.ml" 53 2497 2543
+type(
+  'a Gobject.obj -> unit
+)
+ident(
+  ext_ref Gobject.Property.thaw_notify
+)
+"gObj.ml" 53 2497 2544 "gObj.ml" 53 2497 2547
+type(
+  'a Gobject.obj
+)
+"gObj.ml" 53 2497 2523 "gObj.ml" 53 2497 2547
+call(
+  tail
+)
+type(
+  unit
+)
+"gObj.ml" 62 2626 2639 "gObj.ml" 62 2626 2642
+type(
+  [> `gtk ] Gtk.obj
+)
+"gObj.ml" 63 2652 2664 "gObj.ml" 63 2652 2667
+type(
+  ([> `gtk ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gObj.ml" 62 2626 2639 "gObj.ml" 62 2626 2642
+)
+"gObj.ml" 64 2668 2685 "gObj.ml" 64 2668 2687
+type(
+  unit
+)
+"gObj.ml" 64 2668 2690 "gObj.ml" 64 2668 2704
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBase.Object.destroy
+)
+"gObj.ml" 64 2668 2705 "gObj.ml" 64 2668 2708
+type(
+  'a Gtk.obj
+)
+"gObj.ml" 64 2668 2690 "gObj.ml" 64 2668 2708
+type(
+  unit
+)
+"gObj.ml" 65 2709 2728 "gObj.ml" 65 2709 2735
+type(
+  'a Gtk.obj -> int
+)
+ident(
+  ext_ref Gobject.get_oid
+)
+"gObj.ml" 65 2709 2736 "gObj.ml" 65 2709 2739
+type(
+  'a Gtk.obj
+)
+"gObj.ml" 65 2709 2728 "gObj.ml" 65 2709 2739
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"gObj.ml" 68 2745 2771 "gObj.ml" 68 2745 2774
+type(
+  [> `gtk ] Gtk.obj
+)
+"gObj.ml" 68 2745 2784 "gObj.ml" 68 2745 2790
+type(
+  < after : 'a; destroy : callback:(unit -> unit) -> GtkSignal.id; .. > as 'a
+)
+"gObj.ml" 69 2791 2822 "gObj.ml" 69 2791 2825
+type(
+  ([> `gtk ] as 'b) Gtk.obj
+)
+ident(
+  int_ref obj "gObj.ml" 68 2745 2771 "gObj.ml" 68 2745 2774
+)
+"gObj.ml" 70 2826 2845 "gObj.ml" 70 2826 2849
+type(
+  'a
+)
+"gObj.ml" 70 2826 2845 "gObj.ml" 70 2826 2857
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"gObj.ml" 70 2826 2858 "gObj.ml" 70 2826 2874
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkBase.Object.S.destroy
+)
+"gObj.ml" 70 2826 2845 "gObj.ml" 70 2826 2874
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gObj.ml" 86 3140 3160 "gObj.ml" 86 3140 3163
+type(
+  [> Gtk.widget ] Gobject.obj
+)
+"gObj.ml" 86 3140 3173 "gObj.ml" 86 3140 3179
+type(
+  < after : 'a; after_any : callback:(GdkEvent.any -> unit) -> GtkSignal.id;
+    any : callback:(Gdk.Tags.event_type Gdk.event -> bool) -> GtkSignal.id;
+    button_press : callback:(GdkEvent.Button.t -> bool) -> GtkSignal.id;
+    button_release : callback:(GdkEvent.Button.t -> bool) -> GtkSignal.id;
+    client : callback:(GdkEvent.Client.t -> bool) -> GtkSignal.id;
+    configure : callback:(GdkEvent.Configure.t -> bool) -> GtkSignal.id;
+    delete : callback:([ `DELETE ] Gdk.event -> bool) -> GtkSignal.id;
+    destroy : callback:([ `DESTROY ] Gdk.event -> bool) -> GtkSignal.id;
+    enter_notify : callback:(GdkEvent.Crossing.t -> bool) -> GtkSignal.id;
+    expose : callback:(GdkEvent.Expose.t -> bool) -> GtkSignal.id;
+    focus_in : callback:(GdkEvent.Focus.t -> bool) -> GtkSignal.id;
+    focus_out : callback:(GdkEvent.Focus.t -> bool) -> GtkSignal.id;
+    key_press : callback:(GdkEvent.Key.t -> bool) -> GtkSignal.id;
+    key_release : callback:(GdkEvent.Key.t -> bool) -> GtkSignal.id;
+    leave_notify : callback:(GdkEvent.Crossing.t -> bool) -> GtkSignal.id;
+    map : callback:([ `MAP ] Gdk.event -> bool) -> GtkSignal.id;
+    motion_notify : callback:(GdkEvent.Motion.t -> bool) -> GtkSignal.id;
+    property_notify : callback:(GdkEvent.Property.t -> bool) -> GtkSignal.id;
+    proximity_in : callback:(GdkEvent.Proximity.t -> bool) -> GtkSignal.id;
+    proximity_out : callback:(GdkEvent.Proximity.t -> bool) -> GtkSignal.id;
+    scroll : callback:(GdkEvent.Scroll.t -> bool) -> GtkSignal.id;
+    selection_clear : callback:(GdkEvent.Selection.t -> bool) -> GtkSignal.id;
+    selection_notify : callback:(GdkEvent.Selection.t -> bool) ->
+                       GtkSignal.id;
+    selection_request : callback:(GdkEvent.Selection.t -> bool) ->
+                        GtkSignal.id;
+    unmap : callback:([ `UNMAP ] Gdk.event -> bool) -> GtkSignal.id;
+    visibility_notify : callback:(GdkEvent.Visibility.t -> bool) ->
+                        GtkSignal.id;
+    window_state : callback:(GdkEvent.WindowState.t -> bool) -> GtkSignal.id;
+    .. >
+  as 'a
+)
+"gObj.ml" 87 3180 3212 "gObj.ml" 87 3180 3215
+type(
+  Gtk.widget Gtk.obj
+)
+type(
+  ([> Gtk.widget ] as 'b) Gobject.obj
+)
+ident(
+  int_ref obj "gObj.ml" 86 3140 3160 "gObj.ml" 86 3140 3163
+)
+"gObj.ml" 88 3235 3250 "gObj.ml" 88 3235 3254
+type(
+  'a
+)
+"gObj.ml" 88 3235 3250 "gObj.ml" 88 3235 3262
+call(
+  tail
+)
+type(
+  (Gtk.widget, Gdk.Tags.event_type Gdk.event -> bool) GtkSignal.t ->
+  callback:(Gdk.Tags.event_type Gdk.event -> bool) -> GtkSignal.id
+)
+"gObj.ml" 88 3235 3263 "gObj.ml" 88 3235 3272
+type(
+  (Gtk.widget, Gdk.Tags.event_type Gdk.event -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.any
+)
+"gObj.ml" 88 3235 3250 "gObj.ml" 88 3235 3272
+type(
+  callback:(Gdk.Tags.event_type Gdk.event -> bool) -> GtkSignal.id
+)
+type(
+  callback:(Gdk.Tags.event_type Gdk.event -> bool) -> GtkSignal.id
+)
+"gObj.ml" 89 3273 3294 "gObj.ml" 89 3273 3298
+type(
+  'a
+)
+"gObj.ml" 89 3273 3294 "gObj.ml" 89 3273 3306
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.any -> unit) GtkSignal.t ->
+  callback:(GdkEvent.any -> unit) -> GtkSignal.id
+)
+"gObj.ml" 89 3273 3307 "gObj.ml" 89 3273 3326
+type(
+  (Gtk.widget, GdkEvent.any -> unit) GtkSignal.t
+)
+ident(
+  ext_ref Signals.event_after
+)
+"gObj.ml" 89 3273 3294 "gObj.ml" 89 3273 3326
+type(
+  callback:(GdkEvent.any -> unit) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.any -> unit) -> GtkSignal.id
+)
+"gObj.ml" 90 3327 3351 "gObj.ml" 90 3327 3355
+type(
+  'a
+)
+"gObj.ml" 90 3327 3351 "gObj.ml" 90 3327 3363
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Button.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Button.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 90 3327 3364 "gObj.ml" 90 3327 3382
+type(
+  (Gtk.widget, GdkEvent.Button.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.button_press
+)
+"gObj.ml" 90 3327 3351 "gObj.ml" 90 3327 3382
+type(
+  callback:(GdkEvent.Button.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Button.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 91 3383 3409 "gObj.ml" 91 3383 3413
+type(
+  'a
+)
+"gObj.ml" 91 3383 3409 "gObj.ml" 91 3383 3421
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Button.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Button.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 91 3383 3422 "gObj.ml" 91 3383 3442
+type(
+  (Gtk.widget, GdkEvent.Button.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.button_release
+)
+"gObj.ml" 91 3383 3409 "gObj.ml" 91 3383 3442
+type(
+  callback:(GdkEvent.Button.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Button.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 92 3443 3461 "gObj.ml" 92 3443 3465
+type(
+  'a
+)
+"gObj.ml" 92 3443 3461 "gObj.ml" 92 3443 3473
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Client.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Client.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 92 3443 3474 "gObj.ml" 92 3443 3486
+type(
+  (Gtk.widget, GdkEvent.Client.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.client
+)
+"gObj.ml" 92 3443 3461 "gObj.ml" 92 3443 3486
+type(
+  callback:(GdkEvent.Client.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Client.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 93 3487 3508 "gObj.ml" 93 3487 3512
+type(
+  'a
+)
+"gObj.ml" 93 3487 3508 "gObj.ml" 93 3487 3520
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Configure.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Configure.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 93 3487 3521 "gObj.ml" 93 3487 3536
+type(
+  (Gtk.widget, GdkEvent.Configure.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.configure
+)
+"gObj.ml" 93 3487 3508 "gObj.ml" 93 3487 3536
+type(
+  callback:(GdkEvent.Configure.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Configure.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 94 3537 3555 "gObj.ml" 94 3537 3559
+type(
+  'a
+)
+"gObj.ml" 94 3537 3555 "gObj.ml" 94 3537 3567
+call(
+  tail
+)
+type(
+  (Gtk.widget, [ `DELETE ] Gdk.event -> bool) GtkSignal.t ->
+  callback:([ `DELETE ] Gdk.event -> bool) -> GtkSignal.id
+)
+"gObj.ml" 94 3537 3568 "gObj.ml" 94 3537 3580
+type(
+  (Gtk.widget, [ `DELETE ] Gdk.event -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.delete
+)
+"gObj.ml" 94 3537 3555 "gObj.ml" 94 3537 3580
+type(
+  callback:([ `DELETE ] Gdk.event -> bool) -> GtkSignal.id
+)
+type(
+  callback:([ `DELETE ] Gdk.event -> bool) -> GtkSignal.id
+)
+"gObj.ml" 95 3581 3600 "gObj.ml" 95 3581 3604
+type(
+  'a
+)
+"gObj.ml" 95 3581 3600 "gObj.ml" 95 3581 3612
+call(
+  tail
+)
+type(
+  (Gtk.widget, [ `DESTROY ] Gdk.event -> bool) GtkSignal.t ->
+  callback:([ `DESTROY ] Gdk.event -> bool) -> GtkSignal.id
+)
+"gObj.ml" 95 3581 3613 "gObj.ml" 95 3581 3626
+type(
+  (Gtk.widget, [ `DESTROY ] Gdk.event -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.destroy
+)
+"gObj.ml" 95 3581 3600 "gObj.ml" 95 3581 3626
+type(
+  callback:([ `DESTROY ] Gdk.event -> bool) -> GtkSignal.id
+)
+type(
+  callback:([ `DESTROY ] Gdk.event -> bool) -> GtkSignal.id
+)
+"gObj.ml" 96 3627 3651 "gObj.ml" 96 3627 3655
+type(
+  'a
+)
+"gObj.ml" 96 3627 3651 "gObj.ml" 96 3627 3663
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Crossing.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Crossing.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 96 3627 3664 "gObj.ml" 96 3627 3682
+type(
+  (Gtk.widget, GdkEvent.Crossing.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.enter_notify
+)
+"gObj.ml" 96 3627 3651 "gObj.ml" 96 3627 3682
+type(
+  callback:(GdkEvent.Crossing.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Crossing.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 97 3683 3701 "gObj.ml" 97 3683 3705
+type(
+  'a
+)
+"gObj.ml" 97 3683 3701 "gObj.ml" 97 3683 3713
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Expose.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Expose.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 97 3683 3714 "gObj.ml" 97 3683 3726
+type(
+  (Gtk.widget, GdkEvent.Expose.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.expose
+)
+"gObj.ml" 97 3683 3701 "gObj.ml" 97 3683 3726
+type(
+  callback:(GdkEvent.Expose.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Expose.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 98 3727 3747 "gObj.ml" 98 3727 3751
+type(
+  'a
+)
+"gObj.ml" 98 3727 3747 "gObj.ml" 98 3727 3759
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Focus.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Focus.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 98 3727 3760 "gObj.ml" 98 3727 3774
+type(
+  (Gtk.widget, GdkEvent.Focus.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.focus_in
+)
+"gObj.ml" 98 3727 3747 "gObj.ml" 98 3727 3774
+type(
+  callback:(GdkEvent.Focus.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Focus.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 99 3775 3796 "gObj.ml" 99 3775 3800
+type(
+  'a
+)
+"gObj.ml" 99 3775 3796 "gObj.ml" 99 3775 3808
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Focus.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Focus.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 99 3775 3809 "gObj.ml" 99 3775 3824
+type(
+  (Gtk.widget, GdkEvent.Focus.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.focus_out
+)
+"gObj.ml" 99 3775 3796 "gObj.ml" 99 3775 3824
+type(
+  callback:(GdkEvent.Focus.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Focus.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 100 3825 3846 "gObj.ml" 100 3825 3850
+type(
+  'a
+)
+"gObj.ml" 100 3825 3846 "gObj.ml" 100 3825 3858
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Key.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Key.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 100 3825 3859 "gObj.ml" 100 3825 3874
+type(
+  (Gtk.widget, GdkEvent.Key.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.key_press
+)
+"gObj.ml" 100 3825 3846 "gObj.ml" 100 3825 3874
+type(
+  callback:(GdkEvent.Key.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Key.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 101 3875 3898 "gObj.ml" 101 3875 3902
+type(
+  'a
+)
+"gObj.ml" 101 3875 3898 "gObj.ml" 101 3875 3910
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Key.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Key.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 101 3875 3911 "gObj.ml" 101 3875 3928
+type(
+  (Gtk.widget, GdkEvent.Key.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.key_release
+)
+"gObj.ml" 101 3875 3898 "gObj.ml" 101 3875 3928
+type(
+  callback:(GdkEvent.Key.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Key.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 102 3929 3953 "gObj.ml" 102 3929 3957
+type(
+  'a
+)
+"gObj.ml" 102 3929 3953 "gObj.ml" 102 3929 3965
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Crossing.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Crossing.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 102 3929 3966 "gObj.ml" 102 3929 3984
+type(
+  (Gtk.widget, GdkEvent.Crossing.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.leave_notify
+)
+"gObj.ml" 102 3929 3953 "gObj.ml" 102 3929 3984
+type(
+  callback:(GdkEvent.Crossing.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Crossing.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 103 3985 4000 "gObj.ml" 103 3985 4004
+type(
+  'a
+)
+"gObj.ml" 103 3985 4000 "gObj.ml" 103 3985 4012
+call(
+  tail
+)
+type(
+  (Gtk.widget, [ `MAP ] Gdk.event -> bool) GtkSignal.t ->
+  callback:([ `MAP ] Gdk.event -> bool) -> GtkSignal.id
+)
+"gObj.ml" 103 3985 4013 "gObj.ml" 103 3985 4022
+type(
+  (Gtk.widget, [ `MAP ] Gdk.event -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.map
+)
+"gObj.ml" 103 3985 4000 "gObj.ml" 103 3985 4022
+type(
+  callback:([ `MAP ] Gdk.event -> bool) -> GtkSignal.id
+)
+type(
+  callback:([ `MAP ] Gdk.event -> bool) -> GtkSignal.id
+)
+"gObj.ml" 104 4023 4048 "gObj.ml" 104 4023 4052
+type(
+  'a
+)
+"gObj.ml" 104 4023 4048 "gObj.ml" 104 4023 4060
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Motion.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Motion.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 104 4023 4061 "gObj.ml" 104 4023 4080
+type(
+  (Gtk.widget, GdkEvent.Motion.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.motion_notify
+)
+"gObj.ml" 104 4023 4048 "gObj.ml" 104 4023 4080
+type(
+  callback:(GdkEvent.Motion.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Motion.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 105 4081 4108 "gObj.ml" 105 4081 4112
+type(
+  'a
+)
+"gObj.ml" 105 4081 4108 "gObj.ml" 105 4081 4120
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Property.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Property.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 105 4081 4121 "gObj.ml" 105 4081 4142
+type(
+  (Gtk.widget, GdkEvent.Property.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.property_notify
+)
+"gObj.ml" 105 4081 4108 "gObj.ml" 105 4081 4142
+type(
+  callback:(GdkEvent.Property.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Property.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 106 4143 4167 "gObj.ml" 106 4143 4171
+type(
+  'a
+)
+"gObj.ml" 106 4143 4167 "gObj.ml" 106 4143 4179
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Proximity.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Proximity.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 106 4143 4180 "gObj.ml" 106 4143 4198
+type(
+  (Gtk.widget, GdkEvent.Proximity.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.proximity_in
+)
+"gObj.ml" 106 4143 4167 "gObj.ml" 106 4143 4198
+type(
+  callback:(GdkEvent.Proximity.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Proximity.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 107 4199 4224 "gObj.ml" 107 4199 4228
+type(
+  'a
+)
+"gObj.ml" 107 4199 4224 "gObj.ml" 107 4199 4236
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Proximity.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Proximity.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 107 4199 4237 "gObj.ml" 107 4199 4256
+type(
+  (Gtk.widget, GdkEvent.Proximity.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.proximity_out
+)
+"gObj.ml" 107 4199 4224 "gObj.ml" 107 4199 4256
+type(
+  callback:(GdkEvent.Proximity.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Proximity.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 108 4257 4275 "gObj.ml" 108 4257 4279
+type(
+  'a
+)
+"gObj.ml" 108 4257 4275 "gObj.ml" 108 4257 4287
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Scroll.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Scroll.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 108 4257 4288 "gObj.ml" 108 4257 4300
+type(
+  (Gtk.widget, GdkEvent.Scroll.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.scroll
+)
+"gObj.ml" 108 4257 4275 "gObj.ml" 108 4257 4300
+type(
+  callback:(GdkEvent.Scroll.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Scroll.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 109 4301 4328 "gObj.ml" 109 4301 4332
+type(
+  'a
+)
+"gObj.ml" 109 4301 4328 "gObj.ml" 109 4301 4340
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Selection.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Selection.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 109 4301 4341 "gObj.ml" 109 4301 4362
+type(
+  (Gtk.widget, GdkEvent.Selection.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.selection_clear
+)
+"gObj.ml" 109 4301 4328 "gObj.ml" 109 4301 4362
+type(
+  callback:(GdkEvent.Selection.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Selection.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 110 4363 4391 "gObj.ml" 110 4363 4395
+type(
+  'a
+)
+"gObj.ml" 110 4363 4391 "gObj.ml" 110 4363 4403
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Selection.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Selection.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 110 4363 4404 "gObj.ml" 110 4363 4426
+type(
+  (Gtk.widget, GdkEvent.Selection.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.selection_notify
+)
+"gObj.ml" 110 4363 4391 "gObj.ml" 110 4363 4426
+type(
+  callback:(GdkEvent.Selection.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Selection.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 111 4427 4456 "gObj.ml" 111 4427 4460
+type(
+  'a
+)
+"gObj.ml" 111 4427 4456 "gObj.ml" 111 4427 4468
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Selection.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Selection.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 111 4427 4469 "gObj.ml" 111 4427 4492
+type(
+  (Gtk.widget, GdkEvent.Selection.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.selection_request
+)
+"gObj.ml" 111 4427 4456 "gObj.ml" 111 4427 4492
+type(
+  callback:(GdkEvent.Selection.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Selection.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 112 4493 4510 "gObj.ml" 112 4493 4514
+type(
+  'a
+)
+"gObj.ml" 112 4493 4510 "gObj.ml" 112 4493 4522
+call(
+  tail
+)
+type(
+  (Gtk.widget, [ `UNMAP ] Gdk.event -> bool) GtkSignal.t ->
+  callback:([ `UNMAP ] Gdk.event -> bool) -> GtkSignal.id
+)
+"gObj.ml" 112 4493 4523 "gObj.ml" 112 4493 4534
+type(
+  (Gtk.widget, [ `UNMAP ] Gdk.event -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.unmap
+)
+"gObj.ml" 112 4493 4510 "gObj.ml" 112 4493 4534
+type(
+  callback:([ `UNMAP ] Gdk.event -> bool) -> GtkSignal.id
+)
+type(
+  callback:([ `UNMAP ] Gdk.event -> bool) -> GtkSignal.id
+)
+"gObj.ml" 113 4535 4564 "gObj.ml" 113 4535 4568
+type(
+  'a
+)
+"gObj.ml" 113 4535 4564 "gObj.ml" 113 4535 4576
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.Visibility.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.Visibility.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 113 4535 4577 "gObj.ml" 113 4535 4600
+type(
+  (Gtk.widget, GdkEvent.Visibility.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.visibility_notify
+)
+"gObj.ml" 113 4535 4564 "gObj.ml" 113 4535 4600
+type(
+  callback:(GdkEvent.Visibility.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.Visibility.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 114 4601 4625 "gObj.ml" 114 4601 4629
+type(
+  'a
+)
+"gObj.ml" 114 4601 4625 "gObj.ml" 114 4601 4637
+call(
+  tail
+)
+type(
+  (Gtk.widget, GdkEvent.WindowState.t -> bool) GtkSignal.t ->
+  callback:(GdkEvent.WindowState.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 114 4601 4638 "gObj.ml" 114 4601 4656
+type(
+  (Gtk.widget, GdkEvent.WindowState.t -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Event.window_state
+)
+"gObj.ml" 114 4601 4625 "gObj.ml" 114 4601 4656
+type(
+  callback:(GdkEvent.WindowState.t -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GdkEvent.WindowState.t -> bool) -> GtkSignal.id
+)
+"gObj.ml" 117 4662 4678 "gObj.ml" 117 4662 4681
+type(
+  [> Gtk.widget ] Gobject.obj
+)
+"gObj.ml" 118 4691 4704 "gObj.ml" 118 4691 4707
+type(
+  Gtk.widget Gtk.obj
+)
+type(
+  ([> Gtk.widget ] as 'a) Gobject.obj
+)
+ident(
+  int_ref obj "gObj.ml" 117 4662 4678 "gObj.ml" 117 4662 4681
+)
+"gObj.ml" 119 4727 4742 "gObj.ml" 119 4727 4759
+type(
+  Gtk.widget Gtk.obj -> Gdk.Tags.event_mask list -> unit
+)
+ident(
+  ext_ref Widget.add_events
+)
+"gObj.ml" 119 4727 4760 "gObj.ml" 119 4727 4763
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 119 4727 4742 "gObj.ml" 119 4727 4763
+call(
+  tail
+)
+type(
+  Gdk.Tags.event_mask list -> unit
+)
+type(
+  Gdk.Tags.event_mask list -> unit
+)
+"gObj.ml" 120 4764 4783 "gObj.ml" 120 4764 4800
+type(
+  Gtk.widget Gtk.obj -> event_signals
+)
+"gObj.ml" 120 4764 4801 "gObj.ml" 120 4764 4804
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 120 4764 4783 "gObj.ml" 120 4764 4804
+call(
+  tail
+)
+type(
+  event_signals
+)
+type(
+  event_signals
+)
+"gObj.ml" 121 4805 4861 "gObj.ml" 121 4805 4873
+type(
+  Gtk.widget Gtk.obj -> Gdk.Tags.event_type Gdk.event -> bool
+)
+ident(
+  ext_ref Widget.event
+)
+"gObj.ml" 121 4805 4874 "gObj.ml" 121 4805 4877
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 121 4805 4861 "gObj.ml" 121 4805 4877
+call(
+  tail
+)
+type(
+  Gdk.Tags.event_type Gdk.event -> bool
+)
+type(
+  Gdk.Tags.event_type Gdk.event -> bool
+)
+"gObj.ml" 122 4878 4904 "gObj.ml" 122 4878 4907
+type(
+  (Gtk.widget, GdkEnums.extension_mode) Gobject.property ->
+  Gtk.widget Gtk.obj -> GdkEnums.extension_mode -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gObj.ml" 122 4878 4908 "gObj.ml" 122 4878 4933
+type(
+  (Gtk.widget, GdkEnums.extension_mode) Gobject.property
+)
+ident(
+  ext_ref Widget.P.extension_events
+)
+"gObj.ml" 122 4878 4934 "gObj.ml" 122 4878 4937
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 122 4878 4904 "gObj.ml" 122 4878 4937
+call(
+  tail
+)
+type(
+  GdkEnums.extension_mode -> unit
+)
+type(
+  GdkEnums.extension_mode -> unit
+)
+"gObj.ml" 125 4943 4947 "gObj.ml" 125 4943 4958
+type(
+  ('a -> 'b -> Gdk.color -> unit) -> 'a -> ('b * GDraw.color) list -> unit
+)
+ident(
+  def iter_setcol "gObj.ml" 128 5047 5047 --
+)
+"gObj.ml" 125 4943 4959 "gObj.ml" 125 4943 4962
+type(
+  'a -> 'b -> Gdk.color -> unit
+)
+ident(
+  def set "gObj.ml" 125 4943 4963 "gObj.ml" 126 4971 5045
+)
+"gObj.ml" 125 4943 4963 "gObj.ml" 125 4943 4968
+type(
+  'a
+)
+ident(
+  def style "gObj.ml" 126 4971 4973 "gObj.ml" 126 4971 5045
+)
+"gObj.ml" 126 4971 4973 "gObj.ml" 126 4971 4982
+type(
+  f:('b * GDraw.color -> unit) -> ('b * GDraw.color) list -> unit
+)
+ident(
+  ext_ref StdLabels.List.iter
+)
+"gObj.ml" 126 4971 4992 "gObj.ml" 126 4971 4997
+type(
+  'b
+)
+ident(
+  def state "gObj.ml" 126 4971 5009 "gObj.ml" 126 4971 5044
+)
+"gObj.ml" 126 4971 4999 "gObj.ml" 126 4971 5004
+type(
+  GDraw.color
+)
+ident(
+  def color "gObj.ml" 126 4971 5009 "gObj.ml" 126 4971 5044
+)
+"gObj.ml" 126 4971 4991 "gObj.ml" 126 4971 5005
+type(
+  'b * GDraw.color
+)
+"gObj.ml" 126 4971 5009 "gObj.ml" 126 4971 5012
+type(
+  'a -> 'b -> Gdk.color -> unit
+)
+ident(
+  int_ref set "gObj.ml" 125 4943 4959 "gObj.ml" 125 4943 4962
+)
+"gObj.ml" 126 4971 5013 "gObj.ml" 126 4971 5018
+type(
+  'a
+)
+ident(
+  int_ref style "gObj.ml" 125 4943 4963 "gObj.ml" 125 4943 4968
+)
+"gObj.ml" 126 4971 5019 "gObj.ml" 126 4971 5024
+type(
+  'b
+)
+ident(
+  int_ref state "gObj.ml" 126 4971 4992 "gObj.ml" 126 4971 4997
+)
+"gObj.ml" 126 4971 5026 "gObj.ml" 126 4971 5037
+type(
+  ?colormap:Gdk.colormap -> GDraw.color -> Gdk.color
+)
+ident(
+  ext_ref GDraw.color
+)
+"gObj.ml" 126 4971 5038 "gObj.ml" 126 4971 5043
+type(
+  GDraw.color
+)
+ident(
+  int_ref color "gObj.ml" 126 4971 4999 "gObj.ml" 126 4971 5004
+)
+"gObj.ml" 126 4971 5025 "gObj.ml" 126 4971 5044
+call(
+  stack
+)
+type(
+  Gdk.color
+)
+"gObj.ml" 126 4971 5009 "gObj.ml" 126 4971 5044
+call(
+  tail
+)
+type(
+  unit
+)
+"gObj.ml" 126 4971 4986 "gObj.ml" 126 4971 5045
+type(
+  'b * GDraw.color -> unit
+)
+"gObj.ml" 126 4971 4973 "gObj.ml" 126 4971 5045
+call(
+  tail
+)
+type(
+  ('b * GDraw.color) list -> unit
+)
+"gObj.ml" 128 5047 5059 "gObj.ml" 128 5047 5061
+type(
+  Gtk.style
+)
+"gObj.ml" 129 5071 5085 "gObj.ml" 129 5071 5087
+type(
+  Gtk.style
+)
+ident(
+  int_ref st "gObj.ml" 128 5047 5059 "gObj.ml" 128 5047 5061
+)
+"gObj.ml" 130 5088 5108 "gObj.ml" 130 5088 5113
+type(
+  Gtk.style
+)
+type(
+  Gtk.style
+)
+"gObj.ml" 131 5114 5141 "gObj.ml" 131 5114 5151
+type(
+  Gtk.style -> Gtk.style
+)
+ident(
+  ext_ref GtkData.Style.copy
+)
+"gObj.ml" 131 5114 5152 "gObj.ml" 131 5114 5157
+type(
+  Gtk.style
+)
+"gObj.ml" 131 5114 5141 "gObj.ml" 131 5114 5157
+type(
+  Gtk.style
+)
+"gObj.ml" 131 5114 5130 "gObj.ml" 131 5114 5160
+type(
+  < as_style : Gtk.style; base : Gtk.Tags.state_type -> Gdk.color;
+    bg : Gtk.Tags.state_type -> Gdk.color; colormap : Gdk.colormap;
+    copy : 'a; dark : Gtk.Tags.state_type -> Gdk.color;
+    fg : Gtk.Tags.state_type -> Gdk.color; font : Gdk.font;
+    light : Gtk.Tags.state_type -> Gdk.color;
+    mid : Gtk.Tags.state_type -> Gdk.color;
+    set_base : (Gtk.Tags.state_type * GDraw.color) list -> unit;
+    set_bg : (Gtk.Tags.state_type * GDraw.color) list -> unit;
+    set_dark : (Gtk.Tags.state_type * GDraw.color) list -> unit;
+    set_fg : (Gtk.Tags.state_type * GDraw.color) list -> unit;
+    set_font : Gdk.font -> unit;
+    set_light : (Gtk.Tags.state_type * GDraw.color) list -> unit;
+    set_mid : (Gtk.Tags.state_type * GDraw.color) list -> unit;
+    set_text : (Gtk.Tags.state_type * GDraw.color) list -> unit;
+    text : Gtk.Tags.state_type -> Gdk.color; .. >
+  as 'a
+)
+type(
+  'a
+)
+"gObj.ml" 132 5161 5181 "gObj.ml" 132 5161 5199
+type(
+  Gtk.style -> Gdk.colormap
+)
+ident(
+  ext_ref GtkData.Style.get_colormap
+)
+"gObj.ml" 132 5161 5200 "gObj.ml" 132 5161 5205
+type(
+  Gtk.style
+)
+"gObj.ml" 132 5161 5181 "gObj.ml" 132 5161 5205
+type(
+  Gdk.colormap
+)
+type(
+  Gdk.colormap
+)
+"gObj.ml" 133 5206 5222 "gObj.ml" 133 5206 5236
+type(
+  Gtk.style -> Gdk.font
+)
+ident(
+  ext_ref GtkData.Style.get_font
+)
+"gObj.ml" 133 5206 5237 "gObj.ml" 133 5206 5242
+type(
+  Gtk.style
+)
+"gObj.ml" 133 5206 5222 "gObj.ml" 133 5206 5242
+type(
+  Gdk.font
+)
+type(
+  Gdk.font
+)
+"gObj.ml" 134 5243 5257 "gObj.ml" 134 5243 5269
+type(
+  Gtk.style -> Gtk.Tags.state_type -> Gdk.color
+)
+ident(
+  ext_ref GtkData.Style.get_bg
+)
+"gObj.ml" 134 5243 5270 "gObj.ml" 134 5243 5275
+type(
+  Gtk.style
+)
+"gObj.ml" 134 5243 5257 "gObj.ml" 134 5243 5275
+call(
+  tail
+)
+type(
+  Gtk.Tags.state_type -> Gdk.color
+)
+type(
+  Gtk.Tags.state_type -> Gdk.color
+)
+"gObj.ml" 135 5276 5294 "gObj.ml" 135 5276 5305
+type(
+  (Gtk.style -> Gtk.Tags.state_type -> Gdk.color -> unit) ->
+  Gtk.style -> (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+ident(
+  int_ref iter_setcol "gObj.ml" 125 4943 4947 "gObj.ml" 125 4943 4958
+)
+"gObj.ml" 135 5276 5306 "gObj.ml" 135 5276 5318
+type(
+  Gtk.style -> Gtk.Tags.state_type -> Gdk.color -> unit
+)
+ident(
+  ext_ref GtkData.Style.set_bg
+)
+"gObj.ml" 135 5276 5319 "gObj.ml" 135 5276 5324
+type(
+  Gtk.style
+)
+"gObj.ml" 135 5276 5294 "gObj.ml" 135 5276 5324
+call(
+  tail
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+"gObj.ml" 136 5325 5339 "gObj.ml" 136 5325 5351
+type(
+  Gtk.style -> Gtk.Tags.state_type -> Gdk.color
+)
+ident(
+  ext_ref GtkData.Style.get_fg
+)
+"gObj.ml" 136 5325 5352 "gObj.ml" 136 5325 5357
+type(
+  Gtk.style
+)
+"gObj.ml" 136 5325 5339 "gObj.ml" 136 5325 5357
+call(
+  tail
+)
+type(
+  Gtk.Tags.state_type -> Gdk.color
+)
+type(
+  Gtk.Tags.state_type -> Gdk.color
+)
+"gObj.ml" 137 5358 5376 "gObj.ml" 137 5358 5387
+type(
+  (Gtk.style -> Gtk.Tags.state_type -> Gdk.color -> unit) ->
+  Gtk.style -> (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+ident(
+  int_ref iter_setcol "gObj.ml" 125 4943 4947 "gObj.ml" 125 4943 4958
+)
+"gObj.ml" 137 5358 5388 "gObj.ml" 137 5358 5400
+type(
+  Gtk.style -> Gtk.Tags.state_type -> Gdk.color -> unit
+)
+ident(
+  ext_ref GtkData.Style.set_fg
+)
+"gObj.ml" 137 5358 5401 "gObj.ml" 137 5358 5406
+type(
+  Gtk.style
+)
+"gObj.ml" 137 5358 5376 "gObj.ml" 137 5358 5406
+call(
+  tail
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+"gObj.ml" 138 5407 5424 "gObj.ml" 138 5407 5439
+type(
+  Gtk.style -> Gtk.Tags.state_type -> Gdk.color
+)
+ident(
+  ext_ref GtkData.Style.get_light
+)
+"gObj.ml" 138 5407 5440 "gObj.ml" 138 5407 5445
+type(
+  Gtk.style
+)
+"gObj.ml" 138 5407 5424 "gObj.ml" 138 5407 5445
+call(
+  tail
+)
+type(
+  Gtk.Tags.state_type -> Gdk.color
+)
+type(
+  Gtk.Tags.state_type -> Gdk.color
+)
+"gObj.ml" 139 5446 5467 "gObj.ml" 139 5446 5478
+type(
+  (Gtk.style -> Gtk.Tags.state_type -> Gdk.color -> unit) ->
+  Gtk.style -> (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+ident(
+  int_ref iter_setcol "gObj.ml" 125 4943 4947 "gObj.ml" 125 4943 4958
+)
+"gObj.ml" 139 5446 5479 "gObj.ml" 139 5446 5494
+type(
+  Gtk.style -> Gtk.Tags.state_type -> Gdk.color -> unit
+)
+ident(
+  ext_ref GtkData.Style.set_light
+)
+"gObj.ml" 139 5446 5495 "gObj.ml" 139 5446 5500
+type(
+  Gtk.style
+)
+"gObj.ml" 139 5446 5467 "gObj.ml" 139 5446 5500
+call(
+  tail
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+"gObj.ml" 140 5501 5517 "gObj.ml" 140 5501 5531
+type(
+  Gtk.style -> Gtk.Tags.state_type -> Gdk.color
+)
+ident(
+  ext_ref GtkData.Style.get_dark
+)
+"gObj.ml" 140 5501 5532 "gObj.ml" 140 5501 5537
+type(
+  Gtk.style
+)
+"gObj.ml" 140 5501 5517 "gObj.ml" 140 5501 5537
+call(
+  tail
+)
+type(
+  Gtk.Tags.state_type -> Gdk.color
+)
+type(
+  Gtk.Tags.state_type -> Gdk.color
+)
+"gObj.ml" 141 5538 5558 "gObj.ml" 141 5538 5569
+type(
+  (Gtk.style -> Gtk.Tags.state_type -> Gdk.color -> unit) ->
+  Gtk.style -> (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+ident(
+  int_ref iter_setcol "gObj.ml" 125 4943 4947 "gObj.ml" 125 4943 4958
+)
+"gObj.ml" 141 5538 5570 "gObj.ml" 141 5538 5584
+type(
+  Gtk.style -> Gtk.Tags.state_type -> Gdk.color -> unit
+)
+ident(
+  ext_ref GtkData.Style.set_dark
+)
+"gObj.ml" 141 5538 5585 "gObj.ml" 141 5538 5590
+type(
+  Gtk.style
+)
+"gObj.ml" 141 5538 5558 "gObj.ml" 141 5538 5590
+call(
+  tail
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+"gObj.ml" 142 5591 5606 "gObj.ml" 142 5591 5619
+type(
+  Gtk.style -> Gtk.Tags.state_type -> Gdk.color
+)
+ident(
+  ext_ref GtkData.Style.get_mid
+)
+"gObj.ml" 142 5591 5620 "gObj.ml" 142 5591 5625
+type(
+  Gtk.style
+)
+"gObj.ml" 142 5591 5606 "gObj.ml" 142 5591 5625
+call(
+  tail
+)
+type(
+  Gtk.Tags.state_type -> Gdk.color
+)
+type(
+  Gtk.Tags.state_type -> Gdk.color
+)
+"gObj.ml" 143 5626 5645 "gObj.ml" 143 5626 5656
+type(
+  (Gtk.style -> Gtk.Tags.state_type -> Gdk.color -> unit) ->
+  Gtk.style -> (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+ident(
+  int_ref iter_setcol "gObj.ml" 125 4943 4947 "gObj.ml" 125 4943 4958
+)
+"gObj.ml" 143 5626 5657 "gObj.ml" 143 5626 5670
+type(
+  Gtk.style -> Gtk.Tags.state_type -> Gdk.color -> unit
+)
+ident(
+  ext_ref GtkData.Style.set_mid
+)
+"gObj.ml" 143 5626 5671 "gObj.ml" 143 5626 5676
+type(
+  Gtk.style
+)
+"gObj.ml" 143 5626 5645 "gObj.ml" 143 5626 5676
+call(
+  tail
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+"gObj.ml" 144 5677 5693 "gObj.ml" 144 5677 5707
+type(
+  Gtk.style -> Gtk.Tags.state_type -> Gdk.color
+)
+ident(
+  ext_ref GtkData.Style.get_base
+)
+"gObj.ml" 144 5677 5708 "gObj.ml" 144 5677 5713
+type(
+  Gtk.style
+)
+"gObj.ml" 144 5677 5693 "gObj.ml" 144 5677 5713
+call(
+  tail
+)
+type(
+  Gtk.Tags.state_type -> Gdk.color
+)
+type(
+  Gtk.Tags.state_type -> Gdk.color
+)
+"gObj.ml" 145 5714 5734 "gObj.ml" 145 5714 5745
+type(
+  (Gtk.style -> Gtk.Tags.state_type -> Gdk.color -> unit) ->
+  Gtk.style -> (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+ident(
+  int_ref iter_setcol "gObj.ml" 125 4943 4947 "gObj.ml" 125 4943 4958
+)
+"gObj.ml" 145 5714 5746 "gObj.ml" 145 5714 5760
+type(
+  Gtk.style -> Gtk.Tags.state_type -> Gdk.color -> unit
+)
+ident(
+  ext_ref GtkData.Style.set_base
+)
+"gObj.ml" 145 5714 5761 "gObj.ml" 145 5714 5766
+type(
+  Gtk.style
+)
+"gObj.ml" 145 5714 5734 "gObj.ml" 145 5714 5766
+call(
+  tail
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+"gObj.ml" 146 5767 5783 "gObj.ml" 146 5767 5797
+type(
+  Gtk.style -> Gtk.Tags.state_type -> Gdk.color
+)
+ident(
+  ext_ref GtkData.Style.get_text
+)
+"gObj.ml" 146 5767 5798 "gObj.ml" 146 5767 5803
+type(
+  Gtk.style
+)
+"gObj.ml" 146 5767 5783 "gObj.ml" 146 5767 5803
+call(
+  tail
+)
+type(
+  Gtk.Tags.state_type -> Gdk.color
+)
+type(
+  Gtk.Tags.state_type -> Gdk.color
+)
+"gObj.ml" 147 5804 5824 "gObj.ml" 147 5804 5835
+type(
+  (Gtk.style -> Gtk.Tags.state_type -> Gdk.color -> unit) ->
+  Gtk.style -> (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+ident(
+  int_ref iter_setcol "gObj.ml" 125 4943 4947 "gObj.ml" 125 4943 4958
+)
+"gObj.ml" 147 5804 5836 "gObj.ml" 147 5804 5850
+type(
+  Gtk.style -> Gtk.Tags.state_type -> Gdk.color -> unit
+)
+ident(
+  ext_ref GtkData.Style.set_text
+)
+"gObj.ml" 147 5804 5851 "gObj.ml" 147 5804 5856
+type(
+  Gtk.style
+)
+"gObj.ml" 147 5804 5824 "gObj.ml" 147 5804 5856
+call(
+  tail
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+"gObj.ml" 148 5857 5877 "gObj.ml" 148 5857 5891
+type(
+  Gtk.style -> Gdk.font -> unit
+)
+ident(
+  ext_ref GtkData.Style.set_font
+)
+"gObj.ml" 148 5857 5892 "gObj.ml" 148 5857 5897
+type(
+  Gtk.style
+)
+"gObj.ml" 148 5857 5877 "gObj.ml" 148 5857 5897
+call(
+  tail
+)
+type(
+  Gdk.font -> unit
+)
+type(
+  Gdk.font -> unit
+)
+"gObj.ml" 151 5903 5926 "gObj.ml" 151 5903 5929
+type(
+  Gtk.selection_data
+)
+"gObj.ml" 152 5961 5973 "gObj.ml" 152 5961 5976
+type(
+  Gtk.selection_data
+)
+ident(
+  int_ref sel "gObj.ml" 151 5903 5926 "gObj.ml" 151 5903 5929
+)
+"gObj.ml" 153 5977 5998 "gObj.ml" 153 5977 6017
+type(
+  Gtk.selection_data -> Gdk.atom
+)
+ident(
+  ext_ref GtkBase.Selection.selection
+)
+"gObj.ml" 153 5977 6018 "gObj.ml" 153 5977 6021
+type(
+  Gtk.selection_data
+)
+"gObj.ml" 153 5977 5998 "gObj.ml" 153 5977 6021
+type(
+  Gdk.atom
+)
+type(
+  Gdk.atom
+)
+"gObj.ml" 154 6022 6040 "gObj.ml" 154 6022 6053
+type(
+  Gdk.atom -> string
+)
+ident(
+  ext_ref Gdk.Atom.name
+)
+"gObj.ml" 154 6022 6055 "gObj.ml" 154 6022 6071
+type(
+  Gtk.selection_data -> Gdk.atom
+)
+ident(
+  ext_ref GtkBase.Selection.target
+)
+"gObj.ml" 154 6022 6072 "gObj.ml" 154 6022 6075
+type(
+  Gtk.selection_data
+)
+"gObj.ml" 154 6022 6054 "gObj.ml" 154 6022 6076
+type(
+  Gdk.atom
+)
+"gObj.ml" 154 6022 6040 "gObj.ml" 154 6022 6076
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"gObj.ml" 157 6082 6103 "gObj.ml" 157 6082 6106
+type(
+  Gtk.selection_data
+)
+"gObj.ml" 158 6116 6142 "gObj.ml" 158 6116 6145
+type(
+  Gtk.selection_data
+)
+ident(
+  int_ref sel "gObj.ml" 157 6082 6103 "gObj.ml" 157 6082 6106
+)
+"gObj.ml" 159 6146 6161 "gObj.ml" 159 6146 6174
+type(
+  Gdk.atom -> string
+)
+ident(
+  ext_ref Gdk.Atom.name
+)
+"gObj.ml" 159 6146 6176 "gObj.ml" 159 6146 6193
+type(
+  Gtk.selection_data -> Gdk.atom
+)
+ident(
+  ext_ref GtkBase.Selection.seltype
+)
+"gObj.ml" 159 6146 6194 "gObj.ml" 159 6146 6197
+type(
+  Gtk.selection_data
+)
+"gObj.ml" 159 6146 6175 "gObj.ml" 159 6146 6198
+type(
+  Gdk.atom
+)
+"gObj.ml" 159 6146 6161 "gObj.ml" 159 6146 6198
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"gObj.ml" 160 6199 6215 "gObj.ml" 160 6199 6233
+type(
+  Gtk.selection_data -> string
+)
+ident(
+  ext_ref GtkBase.Selection.get_data
+)
+"gObj.ml" 160 6199 6234 "gObj.ml" 160 6199 6237
+type(
+  Gtk.selection_data
+)
+"gObj.ml" 160 6199 6215 "gObj.ml" 160 6199 6237
+type(
+  string
+)
+type(
+  string
+)
+"gObj.ml" 161 6238 6256 "gObj.ml" 161 6238 6272
+type(
+  Gtk.selection_data -> int
+)
+ident(
+  ext_ref GtkBase.Selection.format
+)
+"gObj.ml" 161 6238 6273 "gObj.ml" 161 6238 6276
+type(
+  Gtk.selection_data
+)
+"gObj.ml" 161 6238 6256 "gObj.ml" 161 6238 6276
+type(
+  int
+)
+type(
+  int
+)
+"gObj.ml" 164 6282 6306 "gObj.ml" 164 6282 6309
+type(
+  Gtk.selection_data
+)
+"gObj.ml" 165 6319 6345 "gObj.ml" 165 6319 6348
+type(
+  Gtk.selection_data
+)
+ident(
+  int_ref sel "gObj.ml" 164 6282 6306 "gObj.ml" 164 6282 6309
+)
+"gObj.ml" 166 6349 6366 "gObj.ml" 166 6349 6369
+type(
+  string option
+)
+ident(
+  def typ "gObj.ml" 166 6349 6370 "gObj.ml" 169 6483 6535
+)
+"gObj.ml" 166 6349 6372 "gObj.ml" 166 6349 6378
+type(
+  int
+)
+"gObj.ml" 166 6349 6379 "gObj.ml" 166 6349 6380
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gObj.ml" 166 6349 6379 "gObj.ml" 166 6349 6380
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gObj.ml" 166 6349 6379 "gObj.ml" 166 6349 6380
+)
+"gObj.ml" 166 6349 6382 "gObj.ml" 166 6349 6386
+type(
+  string
+)
+ident(
+  def data "gObj.ml" 167 6389 6393 "gObj.ml" 169 6483 6535
+)
+"gObj.ml" 167 6389 6397 "gObj.ml" 167 6389 6400
+type(
+  Gdk.atom
+)
+"gObj.ml" 168 6403 6415 "gObj.ml" 168 6403 6418
+type(
+  string option
+)
+ident(
+  int_ref typ "gObj.ml" 166 6349 6366 "gObj.ml" 166 6349 6369
+)
+"gObj.ml" 168 6403 6429 "gObj.ml" 168 6403 6430
+type(
+  string
+)
+ident(
+  def t "gObj.ml" 168 6403 6434 "gObj.ml" 168 6403 6451
+)
+"gObj.ml" 168 6403 6424 "gObj.ml" 168 6403 6430
+type(
+  string option
+)
+"gObj.ml" 168 6403 6434 "gObj.ml" 168 6403 6449
+type(
+  ?dont_create:bool -> string -> Gdk.atom
+)
+ident(
+  ext_ref Gdk.Atom.intern
+)
+"gObj.ml" 168 6403 6450 "gObj.ml" 168 6403 6451
+type(
+  string
+)
+ident(
+  int_ref t "gObj.ml" 168 6403 6429 "gObj.ml" 168 6403 6430
+)
+"gObj.ml" 168 6403 6434 "gObj.ml" 168 6403 6451
+call(
+  stack
+)
+type(
+  Gdk.atom
+)
+"gObj.ml" 168 6403 6454 "gObj.ml" 168 6403 6455
+type(
+  string option
+)
+"gObj.ml" 168 6403 6459 "gObj.ml" 168 6403 6475
+type(
+  Gtk.selection_data -> Gdk.atom
+)
+ident(
+  ext_ref GtkBase.Selection.target
+)
+"gObj.ml" 168 6403 6476 "gObj.ml" 168 6403 6479
+type(
+  Gtk.selection_data
+)
+"gObj.ml" 168 6403 6459 "gObj.ml" 168 6403 6479
+type(
+  Gdk.atom
+)
+"gObj.ml" 168 6403 6409 "gObj.ml" 168 6403 6479
+type(
+  Gdk.atom
+)
+"gObj.ml" 169 6483 6487 "gObj.ml" 169 6483 6500
+type(
+  Gtk.selection_data ->
+  typ:Gdk.atom -> format:int -> data:string option -> unit
+)
+ident(
+  ext_ref GtkBase.Selection.set
+)
+"gObj.ml" 169 6483 6501 "gObj.ml" 169 6483 6504
+type(
+  Gtk.selection_data
+)
+"gObj.ml" 169 6483 6506 "gObj.ml" 169 6483 6509
+type(
+  Gdk.atom
+)
+ident(
+  int_ref typ "gObj.ml" 167 6389 6397 "gObj.ml" 167 6389 6400
+)
+"gObj.ml" 169 6483 6511 "gObj.ml" 169 6483 6517
+type(
+  int
+)
+ident(
+  int_ref format "gObj.ml" 166 6349 6372 "gObj.ml" 166 6349 6378
+)
+"gObj.ml" 169 6483 6530 "gObj.ml" 169 6483 6534
+type(
+  string
+)
+ident(
+  int_ref data "gObj.ml" 166 6349 6382 "gObj.ml" 166 6349 6386
+)
+"gObj.ml" 169 6483 6524 "gObj.ml" 169 6483 6535
+type(
+  string option
+)
+"gObj.ml" 169 6483 6487 "gObj.ml" 169 6483 6535
+type(
+  unit
+)
+"gObj.ml" 167 6389 6393 "gObj.ml" 169 6483 6535
+type(
+  unit
+)
+"gObj.ml" 172 6541 6560 "gObj.ml" 172 6541 6563
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 172 6541 6573 "gObj.ml" 172 6541 6579
+type(
+  < after : 'a; beginning : callback:(drag_context -> unit) -> GtkSignal.id;
+    data_delete : callback:(drag_context -> unit) -> GtkSignal.id;
+    data_get : callback:(drag_context ->
+                         selection_context -> info:int -> time:int32 -> unit) ->
+               GtkSignal.id;
+    data_received : callback:(drag_context ->
+                              x:int ->
+                              y:int ->
+                              selection_data ->
+                              info:int -> time:int32 -> unit) ->
+                    GtkSignal.id;
+    drop : callback:(drag_context -> x:int -> y:int -> time:int32 -> bool) ->
+           GtkSignal.id;
+    ending : callback:(drag_context -> unit) -> GtkSignal.id;
+    leave : callback:(drag_context -> time:int32 -> unit) -> GtkSignal.id;
+    motion : callback:(drag_context -> x:int -> y:int -> time:int32 -> bool) ->
+             GtkSignal.id;
+    .. >
+  as 'a
+)
+"gObj.ml" 173 6580 6611 "gObj.ml" 173 6580 6614
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref obj "gObj.ml" 172 6541 6560 "gObj.ml" 172 6541 6563
+)
+"gObj.ml" 176 6736 6746 "gObj.ml" 176 6736 6749
+type(
+  (Gtk.widget, Gdk.drag_context -> 'b) GtkSignal.t
+)
+ident(
+  def sgn "gObj.ml" 176 6736 6750 "gObj.ml" 177 6763 6840
+)
+"gObj.ml" 176 6736 6751 "gObj.ml" 176 6736 6759
+type(
+  drag_context -> 'b
+)
+ident(
+  def callback "gObj.ml" 177 6763 6771 "gObj.ml" 177 6763 6840
+)
+"gObj.ml" 177 6763 6771 "gObj.ml" 177 6763 6775
+type(
+  'a
+)
+"gObj.ml" 177 6763 6771 "gObj.ml" 177 6763 6783
+call(
+  tail
+)
+type(
+  (Gtk.widget, Gdk.drag_context -> 'b) GtkSignal.t ->
+  callback:(Gdk.drag_context -> 'b) -> GtkSignal.id
+)
+"gObj.ml" 177 6763 6784 "gObj.ml" 177 6763 6787
+type(
+  (Gtk.widget, Gdk.drag_context -> 'b) GtkSignal.t
+)
+ident(
+  int_ref sgn "gObj.ml" 176 6736 6746 "gObj.ml" 176 6736 6749
+)
+"gObj.ml" 177 6763 6793 "gObj.ml" 177 6763 6800
+type(
+  Gdk.drag_context
+)
+ident(
+  def context "gObj.ml" 177 6763 6804 "gObj.ml" 177 6763 6839
+)
+"gObj.ml" 177 6763 6804 "gObj.ml" 177 6763 6812
+type(
+  drag_context -> 'b
+)
+ident(
+  int_ref callback "gObj.ml" 176 6736 6751 "gObj.ml" 176 6736 6759
+)
+"gObj.ml" 177 6763 6814 "gObj.ml" 177 6763 6830
+type(
+  Gdk.drag_context -> drag_context
+)
+"gObj.ml" 177 6763 6831 "gObj.ml" 177 6763 6838
+type(
+  Gdk.drag_context
+)
+ident(
+  int_ref context "gObj.ml" 177 6763 6793 "gObj.ml" 177 6763 6800
+)
+"gObj.ml" 177 6763 6813 "gObj.ml" 177 6763 6839
+call(
+  stack
+)
+type(
+  drag_context
+)
+"gObj.ml" 177 6763 6804 "gObj.ml" 177 6763 6839
+call(
+  tail
+)
+type(
+  'b
+)
+"gObj.ml" 177 6763 6788 "gObj.ml" 177 6763 6840
+type(
+  Gdk.drag_context -> 'b
+)
+"gObj.ml" 177 6763 6771 "gObj.ml" 177 6763 6840
+type(
+  GtkSignal.id
+)
+"gObj.ml" 176 6736 6742 "gObj.ml" 177 6763 6840
+type(
+  'c.
+    (Gtk.widget, Gdk.drag_context -> 'c) GtkSignal.t ->
+    callback:(drag_context -> 'c) -> GtkSignal.id
+)
+type(
+  (Gtk.widget, Gdk.drag_context -> 'b) GtkSignal.t ->
+  callback:(drag_context -> 'b) -> GtkSignal.id
+)
+"gObj.ml" 178 6841 6862 "gObj.ml" 178 6841 6866
+type(
+  'a
+)
+"gObj.ml" 178 6841 6862 "gObj.ml" 178 6841 6879
+call(
+  tail
+)
+type(
+  (Gtk.widget, Gdk.drag_context -> unit) GtkSignal.t ->
+  callback:(drag_context -> unit) -> GtkSignal.id
+)
+"gObj.ml" 178 6841 6880 "gObj.ml" 178 6841 6898
+type(
+  (Gtk.widget, Gdk.drag_context -> unit) GtkSignal.t
+)
+ident(
+  ext_ref Signals.drag_begin
+)
+"gObj.ml" 178 6841 6862 "gObj.ml" 178 6841 6898
+type(
+  callback:(drag_context -> unit) -> GtkSignal.id
+)
+type(
+  callback:(drag_context -> unit) -> GtkSignal.id
+)
+"gObj.ml" 179 6899 6917 "gObj.ml" 179 6899 6921
+type(
+  'a
+)
+"gObj.ml" 179 6899 6917 "gObj.ml" 179 6899 6934
+call(
+  tail
+)
+type(
+  (Gtk.widget, Gdk.drag_context -> unit) GtkSignal.t ->
+  callback:(drag_context -> unit) -> GtkSignal.id
+)
+"gObj.ml" 179 6899 6935 "gObj.ml" 179 6899 6951
+type(
+  (Gtk.widget, Gdk.drag_context -> unit) GtkSignal.t
+)
+ident(
+  ext_ref Signals.drag_end
+)
+"gObj.ml" 179 6899 6917 "gObj.ml" 179 6899 6951
+type(
+  callback:(drag_context -> unit) -> GtkSignal.id
+)
+type(
+  callback:(drag_context -> unit) -> GtkSignal.id
+)
+"gObj.ml" 180 6952 6975 "gObj.ml" 180 6952 6979
+type(
+  'a
+)
+"gObj.ml" 180 6952 6975 "gObj.ml" 180 6952 6992
+call(
+  tail
+)
+type(
+  (Gtk.widget, Gdk.drag_context -> unit) GtkSignal.t ->
+  callback:(drag_context -> unit) -> GtkSignal.id
+)
+"gObj.ml" 180 6952 6993 "gObj.ml" 180 6952 7017
+type(
+  (Gtk.widget, Gdk.drag_context -> unit) GtkSignal.t
+)
+ident(
+  ext_ref Signals.drag_data_delete
+)
+"gObj.ml" 180 6952 6975 "gObj.ml" 180 6952 7017
+type(
+  callback:(drag_context -> unit) -> GtkSignal.id
+)
+type(
+  callback:(drag_context -> unit) -> GtkSignal.id
+)
+"gObj.ml" 181 7018 7035 "gObj.ml" 181 7018 7039
+type(
+  'a
+)
+"gObj.ml" 181 7018 7035 "gObj.ml" 181 7018 7052
+call(
+  tail
+)
+type(
+  (Gtk.widget, Gdk.drag_context -> time:int32 -> unit) GtkSignal.t ->
+  callback:(drag_context -> time:int32 -> unit) -> GtkSignal.id
+)
+"gObj.ml" 181 7018 7053 "gObj.ml" 181 7018 7071
+type(
+  (Gtk.widget, Gdk.drag_context -> time:int32 -> unit) GtkSignal.t
+)
+ident(
+  ext_ref Signals.drag_leave
+)
+"gObj.ml" 181 7018 7035 "gObj.ml" 181 7018 7071
+type(
+  callback:(drag_context -> time:int32 -> unit) -> GtkSignal.id
+)
+type(
+  callback:(drag_context -> time:int32 -> unit) -> GtkSignal.id
+)
+"gObj.ml" 182 7072 7090 "gObj.ml" 182 7072 7094
+type(
+  'a
+)
+"gObj.ml" 182 7072 7090 "gObj.ml" 182 7072 7107
+call(
+  tail
+)
+type(
+  (Gtk.widget, Gdk.drag_context -> x:int -> y:int -> time:int32 -> bool)
+  GtkSignal.t ->
+  callback:(drag_context -> x:int -> y:int -> time:int32 -> bool) ->
+  GtkSignal.id
+)
+"gObj.ml" 182 7072 7108 "gObj.ml" 182 7072 7127
+type(
+  (Gtk.widget, Gdk.drag_context -> x:int -> y:int -> time:int32 -> bool)
+  GtkSignal.t
+)
+ident(
+  ext_ref Signals.drag_motion
+)
+"gObj.ml" 182 7072 7090 "gObj.ml" 182 7072 7127
+type(
+  callback:(drag_context -> x:int -> y:int -> time:int32 -> bool) ->
+  GtkSignal.id
+)
+type(
+  callback:(drag_context -> x:int -> y:int -> time:int32 -> bool) ->
+  GtkSignal.id
+)
+"gObj.ml" 183 7128 7144 "gObj.ml" 183 7128 7148
+type(
+  'a
+)
+"gObj.ml" 183 7128 7144 "gObj.ml" 183 7128 7161
+call(
+  tail
+)
+type(
+  (Gtk.widget, Gdk.drag_context -> x:int -> y:int -> time:int32 -> bool)
+  GtkSignal.t ->
+  callback:(drag_context -> x:int -> y:int -> time:int32 -> bool) ->
+  GtkSignal.id
+)
+"gObj.ml" 183 7128 7162 "gObj.ml" 183 7128 7179
+type(
+  (Gtk.widget, Gdk.drag_context -> x:int -> y:int -> time:int32 -> bool)
+  GtkSignal.t
+)
+ident(
+  ext_ref Signals.drag_drop
+)
+"gObj.ml" 183 7128 7144 "gObj.ml" 183 7128 7179
+type(
+  callback:(drag_context -> x:int -> y:int -> time:int32 -> bool) ->
+  GtkSignal.id
+)
+type(
+  callback:(drag_context -> x:int -> y:int -> time:int32 -> bool) ->
+  GtkSignal.id
+)
+"gObj.ml" 184 7180 7199 "gObj.ml" 184 7180 7207
+type(
+  drag_context -> selection_context -> info:int -> time:int32 -> unit
+)
+ident(
+  def callback "gObj.ml" 185 7210 7214 "gObj.ml" 189 7405 7414
+)
+"gObj.ml" 185 7210 7214 "gObj.ml" 185 7210 7218
+type(
+  'a
+)
+"gObj.ml" 185 7210 7214 "gObj.ml" 185 7210 7226
+call(
+  tail
+)
+type(
+  (Gtk.widget,
+   Gdk.drag_context -> Gtk.selection_data -> info:int -> time:int32 -> unit)
+  GtkSignal.t ->
+  callback:(Gdk.drag_context ->
+            Gtk.selection_data -> info:int -> time:int32 -> unit) ->
+  GtkSignal.id
+)
+"gObj.ml" 185 7210 7227 "gObj.ml" 185 7210 7248
+type(
+  (Gtk.widget,
+   Gdk.drag_context -> Gtk.selection_data -> info:int -> time:int32 -> unit)
+  GtkSignal.t
+)
+ident(
+  ext_ref Signals.drag_data_get
+)
+"gObj.ml" 186 7260 7276 "gObj.ml" 186 7260 7283
+type(
+  Gdk.drag_context
+)
+ident(
+  def context "gObj.ml" 186 7260 7284 "gObj.ml" 188 7383 7404
+)
+"gObj.ml" 186 7260 7284 "gObj.ml" 186 7260 7291
+type(
+  Gtk.selection_data
+)
+ident(
+  def seldata "gObj.ml" 186 7260 7292 "gObj.ml" 188 7383 7404
+)
+"gObj.ml" 186 7260 7293 "gObj.ml" 186 7260 7297
+type(
+  int
+)
+ident(
+  def info "gObj.ml" 186 7260 7298 "gObj.ml" 188 7383 7404
+)
+"gObj.ml" 186 7260 7299 "gObj.ml" 186 7260 7303
+type(
+  int32
+)
+ident(
+  def time "gObj.ml" 187 7307 7315 "gObj.ml" 188 7383 7404
+)
+"gObj.ml" 187 7307 7315 "gObj.ml" 187 7307 7323
+type(
+  drag_context -> selection_context -> info:int -> time:int32 -> unit
+)
+ident(
+  int_ref callback "gObj.ml" 184 7180 7199 "gObj.ml" 184 7180 7207
+)
+"gObj.ml" 187 7307 7325 "gObj.ml" 187 7307 7341
+type(
+  Gdk.drag_context -> drag_context
+)
+"gObj.ml" 187 7307 7342 "gObj.ml" 187 7307 7349
+type(
+  Gdk.drag_context
+)
+ident(
+  int_ref context "gObj.ml" 186 7260 7276 "gObj.ml" 186 7260 7283
+)
+"gObj.ml" 187 7307 7324 "gObj.ml" 187 7307 7350
+call(
+  stack
+)
+type(
+  drag_context
+)
+"gObj.ml" 187 7307 7352 "gObj.ml" 187 7307 7373
+type(
+  Gtk.selection_data -> selection_context
+)
+"gObj.ml" 187 7307 7374 "gObj.ml" 187 7307 7381
+type(
+  Gtk.selection_data
+)
+ident(
+  int_ref seldata "gObj.ml" 186 7260 7284 "gObj.ml" 186 7260 7291
+)
+"gObj.ml" 187 7307 7351 "gObj.ml" 187 7307 7382
+call(
+  stack
+)
+type(
+  selection_context
+)
+"gObj.ml" 188 7383 7394 "gObj.ml" 188 7383 7398
+type(
+  int
+)
+ident(
+  int_ref info "gObj.ml" 186 7260 7293 "gObj.ml" 186 7260 7297
+)
+"gObj.ml" 188 7383 7400 "gObj.ml" 188 7383 7404
+type(
+  int32
+)
+ident(
+  int_ref time "gObj.ml" 186 7260 7299 "gObj.ml" 186 7260 7303
+)
+"gObj.ml" 187 7307 7315 "gObj.ml" 188 7383 7404
+call(
+  tail
+)
+type(
+  unit
+)
+"gObj.ml" 186 7260 7266 "gObj.ml" 189 7405 7414
+type(
+  Gdk.drag_context -> Gtk.selection_data -> info:int -> time:int32 -> unit
+)
+"gObj.ml" 185 7210 7214 "gObj.ml" 189 7405 7414
+type(
+  GtkSignal.id
+)
+"gObj.ml" 190 7415 7439 "gObj.ml" 190 7415 7447
+type(
+  drag_context ->
+  x:int -> y:int -> selection_data -> info:int -> time:int32 -> unit
+)
+ident(
+  def callback "gObj.ml" 191 7450 7454 "gObj.ml" 193 7573 7613
+)
+"gObj.ml" 191 7450 7454 "gObj.ml" 191 7450 7458
+type(
+  'a
+)
+"gObj.ml" 191 7450 7454 "gObj.ml" 191 7450 7466
+call(
+  tail
+)
+type(
+  (Gtk.widget,
+   Gdk.drag_context ->
+   x:int -> y:int -> Gtk.selection_data -> info:int -> time:int32 -> unit)
+  GtkSignal.t ->
+  callback:(Gdk.drag_context ->
+            x:int ->
+            y:int -> Gtk.selection_data -> info:int -> time:int32 -> unit) ->
+  GtkSignal.id
+)
+"gObj.ml" 191 7450 7467 "gObj.ml" 191 7450 7493
+type(
+  (Gtk.widget,
+   Gdk.drag_context ->
+   x:int -> y:int -> Gtk.selection_data -> info:int -> time:int32 -> unit)
+  GtkSignal.t
+)
+ident(
+  ext_ref Signals.drag_data_received
+)
+"gObj.ml" 192 7494 7515 "gObj.ml" 192 7494 7522
+type(
+  Gdk.drag_context
+)
+ident(
+  def context "gObj.ml" 192 7494 7523 "gObj.ml" 193 7573 7612
+)
+"gObj.ml" 192 7494 7524 "gObj.ml" 192 7494 7525
+type(
+  int
+)
+ident(
+  def x "gObj.ml" 192 7494 7526 "gObj.ml" 193 7573 7612
+)
+"gObj.ml" 192 7494 7527 "gObj.ml" 192 7494 7528
+type(
+  int
+)
+ident(
+  def y "gObj.ml" 192 7494 7529 "gObj.ml" 193 7573 7612
+)
+"gObj.ml" 192 7494 7529 "gObj.ml" 192 7494 7533
+type(
+  Gtk.selection_data
+)
+ident(
+  def data "gObj.ml" 192 7494 7537 "gObj.ml" 193 7573 7612
+)
+"gObj.ml" 192 7494 7537 "gObj.ml" 192 7494 7545
+type(
+  drag_context ->
+  x:int -> y:int -> selection_data -> info:int -> time:int32 -> unit
+)
+ident(
+  int_ref callback "gObj.ml" 190 7415 7439 "gObj.ml" 190 7415 7447
+)
+"gObj.ml" 192 7494 7547 "gObj.ml" 192 7494 7563
+type(
+  Gdk.drag_context -> drag_context
+)
+"gObj.ml" 192 7494 7564 "gObj.ml" 192 7494 7571
+type(
+  Gdk.drag_context
+)
+ident(
+  int_ref context "gObj.ml" 192 7494 7515 "gObj.ml" 192 7494 7522
+)
+"gObj.ml" 192 7494 7546 "gObj.ml" 192 7494 7572
+call(
+  stack
+)
+type(
+  drag_context
+)
+"gObj.ml" 193 7573 7582 "gObj.ml" 193 7573 7583
+type(
+  int
+)
+ident(
+  int_ref x "gObj.ml" 192 7494 7524 "gObj.ml" 192 7494 7525
+)
+"gObj.ml" 193 7573 7585 "gObj.ml" 193 7573 7586
+type(
+  int
+)
+ident(
+  int_ref y "gObj.ml" 192 7494 7527 "gObj.ml" 192 7494 7528
+)
+"gObj.ml" 193 7573 7588 "gObj.ml" 193 7573 7606
+type(
+  Gtk.selection_data -> selection_data
+)
+"gObj.ml" 193 7573 7607 "gObj.ml" 193 7573 7611
+type(
+  Gtk.selection_data
+)
+ident(
+  int_ref data "gObj.ml" 192 7494 7529 "gObj.ml" 192 7494 7533
+)
+"gObj.ml" 193 7573 7587 "gObj.ml" 193 7573 7612
+call(
+  stack
+)
+type(
+  selection_data
+)
+"gObj.ml" 192 7494 7537 "gObj.ml" 193 7573 7612
+call(
+  tail
+)
+type(
+  info:int -> time:int32 -> unit
+)
+"gObj.ml" 192 7494 7510 "gObj.ml" 193 7573 7613
+type(
+  Gdk.drag_context ->
+  x:int -> y:int -> Gtk.selection_data -> info:int -> time:int32 -> unit
+)
+"gObj.ml" 191 7450 7454 "gObj.ml" 193 7573 7613
+type(
+  GtkSignal.id
+)
+"gObj.ml" 197 7620 7633 "gObj.ml" 197 7620 7636
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 198 7646 7658 "gObj.ml" 198 7646 7661
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref obj "gObj.ml" 197 7620 7633 "gObj.ml" 197 7620 7636
+)
+"gObj.ml" 199 7662 7681 "gObj.ml" 199 7662 7697
+type(
+  Gtk.widget Gtk.obj -> drag_signals
+)
+"gObj.ml" 199 7662 7698 "gObj.ml" 199 7662 7701
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 199 7662 7681 "gObj.ml" 199 7662 7701
+call(
+  tail
+)
+type(
+  drag_signals
+)
+type(
+  drag_signals
+)
+"gObj.ml" 200 7702 7722 "gObj.ml" 200 7702 7727
+type(
+  Gtk.Tags.dest_defaults list
+)
+"gObj.ml" 200 7702 7729 "gObj.ml" 200 7702 7733
+type(
+  Gtk.Tags.dest_defaults
+)
+"gObj.ml" 200 7702 7728 "gObj.ml" 200 7702 7734
+type(
+  Gtk.Tags.dest_defaults list
+)
+type(
+  Gtk.Tags.dest_defaults list
+)
+ident(
+  int_ref *sth* "gObj.ml" 200 7702 7728 "gObj.ml" 200 7702 7734
+)
+type(
+  Gtk.Tags.dest_defaults list option
+)
+type(
+  Gtk.Tags.dest_defaults list option
+)
+type(
+  Gtk.Tags.dest_defaults list
+)
+ident(
+  def *sth* "gObj.ml" 200 7702 7728 "gObj.ml" 200 7702 7734
+)
+"gObj.ml" 200 7702 7738 "gObj.ml" 200 7702 7745
+type(
+  Gdk.Tags.drag_action list
+)
+"gObj.ml" 200 7702 7746 "gObj.ml" 200 7702 7748
+type(
+  Gdk.Tags.drag_action list
+)
+type(
+  Gdk.Tags.drag_action list
+)
+ident(
+  int_ref *sth* "gObj.ml" 200 7702 7746 "gObj.ml" 200 7702 7748
+)
+type(
+  Gdk.Tags.drag_action list option
+)
+type(
+  Gdk.Tags.drag_action list option
+)
+type(
+  Gdk.Tags.drag_action list
+)
+ident(
+  def *sth* "gObj.ml" 200 7702 7746 "gObj.ml" 200 7702 7748
+)
+"gObj.ml" 200 7702 7750 "gObj.ml" 200 7702 7757
+type(
+  Gtk.target_entry list
+)
+ident(
+  def targets "gObj.ml" 201 7760 7764 "gObj.ml" 201 7760 7829
+)
+"gObj.ml" 201 7760 7764 "gObj.ml" 201 7760 7776
+type(
+  Gtk.widget Gtk.obj ->
+  flags:Gtk.Tags.dest_defaults list ->
+  targets:Gtk.target_entry array -> actions:Gdk.Tags.drag_action list -> unit
+)
+ident(
+  ext_ref GtkBase.DnD.dest_set
+)
+"gObj.ml" 201 7760 7777 "gObj.ml" 201 7760 7780
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 201 7760 7782 "gObj.ml" 201 7760 7787
+type(
+  Gtk.Tags.dest_defaults list
+)
+ident(
+  int_ref flags "gObj.ml" 200 7702 7722 "gObj.ml" 200 7702 7727
+)
+"gObj.ml" 201 7760 7789 "gObj.ml" 201 7760 7796
+type(
+  Gdk.Tags.drag_action list
+)
+ident(
+  int_ref actions "gObj.ml" 200 7702 7738 "gObj.ml" 200 7702 7745
+)
+"gObj.ml" 201 7760 7807 "gObj.ml" 201 7760 7820
+type(
+  Gtk.target_entry list -> Gtk.target_entry array
+)
+ident(
+  ext_ref StdLabels.Array.of_list
+)
+"gObj.ml" 201 7760 7821 "gObj.ml" 201 7760 7828
+type(
+  Gtk.target_entry list
+)
+ident(
+  int_ref targets "gObj.ml" 200 7702 7750 "gObj.ml" 200 7702 7757
+)
+"gObj.ml" 201 7760 7806 "gObj.ml" 201 7760 7829
+call(
+  stack
+)
+type(
+  Gtk.target_entry array
+)
+"gObj.ml" 201 7760 7764 "gObj.ml" 201 7760 7829
+type(
+  unit
+)
+"gObj.ml" 202 7830 7850 "gObj.ml" 202 7830 7852
+type(
+  unit
+)
+"gObj.ml" 202 7830 7855 "gObj.ml" 202 7830 7869
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBase.DnD.dest_unset
+)
+"gObj.ml" 202 7830 7870 "gObj.ml" 202 7830 7873
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 202 7830 7855 "gObj.ml" 202 7830 7873
+type(
+  unit
+)
+"gObj.ml" 203 7874 7893 "gObj.ml" 203 7874 7899
+type(
+  string
+)
+ident(
+  def target "gObj.ml" 203 7874 7900 "gObj.ml" 204 7946 8021
+)
+"gObj.ml" 203 7874 7902 "gObj.ml" 203 7874 7906
+type(
+  int32
+)
+"gObj.ml" 203 7874 7907 "gObj.ml" 203 7874 7917
+type(
+  int32
+)
+ident(
+  ext_ref Int32.zero
+)
+type(
+  int32
+)
+ident(
+  int_ref *sth* "gObj.ml" 203 7874 7907 "gObj.ml" 203 7874 7917
+)
+type(
+  int32 option
+)
+type(
+  int32 option
+)
+type(
+  int32
+)
+ident(
+  def *sth* "gObj.ml" 203 7874 7907 "gObj.ml" 203 7874 7917
+)
+"gObj.ml" 203 7874 7920 "gObj.ml" 203 7874 7927
+type(
+  drag_context
+)
+ident(
+  def context "gObj.ml" 204 7946 7950 "gObj.ml" 204 7946 8021
+)
+"gObj.ml" 204 7946 7950 "gObj.ml" 204 7946 7962
+type(
+  Gtk.widget Gtk.obj ->
+  Gdk.drag_context -> target:Gdk.atom -> time:int32 -> unit
+)
+ident(
+  ext_ref GtkBase.DnD.get_data
+)
+"gObj.ml" 204 7946 7963 "gObj.ml" 204 7946 7966
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 204 7946 7967 "gObj.ml" 204 7946 7974
+type(
+  drag_context
+)
+ident(
+  int_ref context "gObj.ml" 203 7874 7920 "gObj.ml" 203 7874 7927
+)
+"gObj.ml" 204 7946 7967 "gObj.ml" 204 7946 7982
+call(
+  stack
+)
+type(
+  Gdk.drag_context
+)
+"gObj.ml" 204 7946 7992 "gObj.ml" 204 7946 8007
+type(
+  ?dont_create:bool -> string -> Gdk.atom
+)
+ident(
+  ext_ref Gdk.Atom.intern
+)
+"gObj.ml" 204 7946 8008 "gObj.ml" 204 7946 8014
+type(
+  string
+)
+ident(
+  int_ref target "gObj.ml" 203 7874 7893 "gObj.ml" 203 7874 7899
+)
+"gObj.ml" 204 7946 7991 "gObj.ml" 204 7946 8015
+call(
+  stack
+)
+type(
+  Gdk.atom
+)
+"gObj.ml" 204 7946 8017 "gObj.ml" 204 7946 8021
+type(
+  int32
+)
+ident(
+  int_ref time "gObj.ml" 203 7874 7902 "gObj.ml" 203 7874 7906
+)
+"gObj.ml" 204 7946 7950 "gObj.ml" 204 7946 8021
+type(
+  unit
+)
+"gObj.ml" 205 8022 8041 "gObj.ml" 205 8022 8043
+type(
+  unit
+)
+"gObj.ml" 205 8022 8046 "gObj.ml" 205 8022 8059
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBase.DnD.highlight
+)
+"gObj.ml" 205 8022 8060 "gObj.ml" 205 8022 8063
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 205 8022 8046 "gObj.ml" 205 8022 8063
+type(
+  unit
+)
+"gObj.ml" 206 8064 8085 "gObj.ml" 206 8064 8087
+type(
+  unit
+)
+"gObj.ml" 206 8064 8090 "gObj.ml" 206 8064 8105
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBase.DnD.unhighlight
+)
+"gObj.ml" 206 8064 8106 "gObj.ml" 206 8064 8109
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 206 8064 8090 "gObj.ml" 206 8064 8109
+type(
+  unit
+)
+"gObj.ml" 207 8110 8136 "gObj.ml" 207 8110 8137
+type(
+  Gdk.Tags.modifier list option
+)
+ident(
+  def m "gObj.ml" 207 8110 8138 "gObj.ml" 208 8162 8234
+)
+"gObj.ml" 207 8110 8140 "gObj.ml" 207 8110 8147
+type(
+  Gdk.Tags.drag_action list
+)
+"gObj.ml" 207 8110 8148 "gObj.ml" 207 8110 8150
+type(
+  Gdk.Tags.drag_action list
+)
+type(
+  Gdk.Tags.drag_action list
+)
+ident(
+  int_ref *sth* "gObj.ml" 207 8110 8148 "gObj.ml" 207 8110 8150
+)
+type(
+  Gdk.Tags.drag_action list option
+)
+type(
+  Gdk.Tags.drag_action list option
+)
+type(
+  Gdk.Tags.drag_action list
+)
+ident(
+  def *sth* "gObj.ml" 207 8110 8148 "gObj.ml" 207 8110 8150
+)
+"gObj.ml" 207 8110 8152 "gObj.ml" 207 8110 8159
+type(
+  Gtk.target_entry list
+)
+ident(
+  def targets "gObj.ml" 208 8162 8166 "gObj.ml" 208 8162 8234
+)
+"gObj.ml" 208 8162 8166 "gObj.ml" 208 8162 8180
+type(
+  Gtk.widget Gtk.obj ->
+  ?modi:Gdk.Tags.modifier list ->
+  targets:Gtk.target_entry array -> actions:Gdk.Tags.drag_action list -> unit
+)
+ident(
+  ext_ref GtkBase.DnD.source_set
+)
+"gObj.ml" 208 8162 8181 "gObj.ml" 208 8162 8184
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 208 8162 8191 "gObj.ml" 208 8162 8192
+type(
+  Gdk.Tags.modifier list option
+)
+ident(
+  int_ref m "gObj.ml" 207 8110 8136 "gObj.ml" 207 8110 8137
+)
+"gObj.ml" 208 8162 8194 "gObj.ml" 208 8162 8201
+type(
+  Gdk.Tags.drag_action list
+)
+ident(
+  int_ref actions "gObj.ml" 207 8110 8140 "gObj.ml" 207 8110 8147
+)
+"gObj.ml" 208 8162 8212 "gObj.ml" 208 8162 8225
+type(
+  Gtk.target_entry list -> Gtk.target_entry array
+)
+ident(
+  ext_ref StdLabels.Array.of_list
+)
+"gObj.ml" 208 8162 8226 "gObj.ml" 208 8162 8233
+type(
+  Gtk.target_entry list
+)
+ident(
+  int_ref targets "gObj.ml" 207 8110 8152 "gObj.ml" 207 8110 8159
+)
+"gObj.ml" 208 8162 8211 "gObj.ml" 208 8162 8234
+call(
+  stack
+)
+type(
+  Gtk.target_entry array
+)
+"gObj.ml" 208 8162 8166 "gObj.ml" 208 8162 8234
+type(
+  unit
+)
+"gObj.ml" 209 8235 8262 "gObj.ml" 209 8235 8270
+type(
+  Gdk.colormap
+)
+"gObj.ml" 209 8235 8273 "gObj.ml" 209 8235 8302
+type(
+  unit -> Gdk.colormap
+)
+ident(
+  ext_ref Gdk.Color.get_system_colormap
+)
+"gObj.ml" 209 8235 8303 "gObj.ml" 209 8235 8305
+type(
+  unit
+)
+"gObj.ml" 209 8235 8273 "gObj.ml" 209 8235 8305
+call(
+  stack
+)
+type(
+  Gdk.colormap
+)
+type(
+  Gdk.colormap
+)
+ident(
+  int_ref *sth* "gObj.ml" 209 8235 8273 "gObj.ml" 209 8235 8305
+)
+type(
+  Gdk.colormap option
+)
+type(
+  Gdk.colormap option
+)
+type(
+  Gdk.colormap
+)
+ident(
+  def *sth* "gObj.ml" 209 8235 8273 "gObj.ml" 209 8235 8305
+)
+"gObj.ml" 210 8307 8314 "gObj.ml" 210 8307 8317
+type(
+  GDraw.pixmap
+)
+ident(
+  def pix "gObj.ml" 211 8336 8340 "gObj.ml" 211 8336 8399
+)
+"gObj.ml" 211 8336 8340 "gObj.ml" 211 8336 8359
+type(
+  Gtk.widget Gtk.obj ->
+  colormap:Gdk.colormap -> Gdk.pixmap -> ?mask:Gdk.bitmap -> unit
+)
+ident(
+  ext_ref GtkBase.DnD.source_set_icon
+)
+"gObj.ml" 211 8336 8360 "gObj.ml" 211 8336 8363
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 211 8336 8365 "gObj.ml" 211 8336 8373
+type(
+  Gdk.colormap
+)
+ident(
+  int_ref colormap "gObj.ml" 209 8235 8262 "gObj.ml" 209 8235 8270
+)
+"gObj.ml" 211 8336 8374 "gObj.ml" 211 8336 8377
+type(
+  GDraw.pixmap
+)
+ident(
+  int_ref pix "gObj.ml" 210 8307 8314 "gObj.ml" 210 8307 8317
+)
+"gObj.ml" 211 8336 8374 "gObj.ml" 211 8336 8384
+call(
+  stack
+)
+type(
+  Gdk.pixmap
+)
+"gObj.ml" 211 8336 8391 "gObj.ml" 211 8336 8394
+type(
+  GDraw.pixmap
+)
+ident(
+  int_ref pix "gObj.ml" 210 8307 8314 "gObj.ml" 210 8307 8317
+)
+"gObj.ml" 211 8336 8391 "gObj.ml" 211 8336 8399
+call(
+  stack
+)
+type(
+  Gdk.bitmap option
+)
+"gObj.ml" 211 8336 8340 "gObj.ml" 211 8336 8399
+type(
+  unit
+)
+"gObj.ml" 212 8400 8422 "gObj.ml" 212 8400 8424
+type(
+  unit
+)
+"gObj.ml" 212 8400 8427 "gObj.ml" 212 8400 8443
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkBase.DnD.source_unset
+)
+"gObj.ml" 212 8400 8444 "gObj.ml" 212 8400 8447
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 212 8400 8427 "gObj.ml" 212 8400 8447
+type(
+  unit
+)
+"gObj.ml" 215 8453 8470 "gObj.ml" 215 8453 8477
+type(
+  Gdk.drag_context
+)
+"gObj.ml" 216 8487 8516 "gObj.ml" 216 8487 8523
+type(
+  Gdk.drag_context
+)
+ident(
+  int_ref context "gObj.ml" 215 8453 8470 "gObj.ml" 215 8453 8477
+)
+"gObj.ml" 217 8524 8543 "gObj.ml" 217 8524 8550
+type(
+  Gdk.drag_context
+)
+type(
+  Gdk.drag_context
+)
+"gObj.ml" 218 8551 8569 "gObj.ml" 218 8551 8579
+type(
+  Gdk.drag_context -> success:bool -> del:bool -> time:int32 -> unit
+)
+ident(
+  ext_ref GtkBase.DnD.finish
+)
+"gObj.ml" 218 8551 8580 "gObj.ml" 218 8551 8587
+type(
+  Gdk.drag_context
+)
+"gObj.ml" 218 8551 8569 "gObj.ml" 218 8551 8587
+call(
+  tail
+)
+type(
+  success:bool -> del:bool -> time:int32 -> unit
+)
+type(
+  success:bool -> del:bool -> time:int32 -> unit
+)
+"gObj.ml" 220 8613 8617 "gObj.ml" 220 8613 8627
+type(
+  [> Gtk.widget ] Gtk.obj -> widget
+)
+"gObj.ml" 220 8613 8629 "gObj.ml" 220 8613 8640
+type(
+  Gtk.widget Gtk.obj -> ([> Gtk.widget ] as 'd) Gtk.obj
+)
+ident(
+  ext_ref Gobject.unsafe_cast
+)
+"gObj.ml" 220 8613 8642 "gObj.ml" 220 8613 8663
+type(
+  Gdk.drag_context -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GtkBase.DnD.get_source_widget
+)
+"gObj.ml" 220 8613 8664 "gObj.ml" 220 8613 8671
+type(
+  Gdk.drag_context
+)
+"gObj.ml" 220 8613 8641 "gObj.ml" 220 8613 8672
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 220 8613 8628 "gObj.ml" 220 8613 8673
+type(
+  'd Gtk.obj
+)
+"gObj.ml" 220 8613 8617 "gObj.ml" 220 8613 8673
+call(
+  tail
+)
+type(
+  widget
+)
+type(
+  widget
+)
+"gObj.ml" 221 8674 8700 "gObj.ml" 221 8674 8701
+type(
+  widget
+)
+ident(
+  def w "gObj.ml" 222 8714 8718 "gObj.ml" 222 8714 8759
+)
+"gObj.ml" 222 8714 8718 "gObj.ml" 222 8714 8737
+type(
+  Gdk.drag_context -> Gtk.widget Gtk.obj -> hot_x:int -> hot_y:int -> unit
+)
+ident(
+  ext_ref GtkBase.DnD.set_icon_widget
+)
+"gObj.ml" 222 8714 8738 "gObj.ml" 222 8714 8745
+type(
+  Gdk.drag_context
+)
+"gObj.ml" 222 8714 8747 "gObj.ml" 222 8714 8748
+type(
+  widget
+)
+ident(
+  int_ref w "gObj.ml" 221 8674 8700 "gObj.ml" 221 8674 8701
+)
+"gObj.ml" 222 8714 8746 "gObj.ml" 222 8714 8759
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 222 8714 8718 "gObj.ml" 222 8714 8759
+call(
+  tail
+)
+type(
+  hot_x:int -> hot_y:int -> unit
+)
+"gObj.ml" 223 8760 8787 "gObj.ml" 223 8760 8795
+type(
+  Gdk.colormap
+)
+"gObj.ml" 223 8760 8798 "gObj.ml" 223 8760 8827
+type(
+  unit -> Gdk.colormap
+)
+ident(
+  ext_ref Gdk.Color.get_system_colormap
+)
+"gObj.ml" 223 8760 8828 "gObj.ml" 223 8760 8830
+type(
+  unit
+)
+"gObj.ml" 223 8760 8798 "gObj.ml" 223 8760 8830
+call(
+  stack
+)
+type(
+  Gdk.colormap
+)
+type(
+  Gdk.colormap
+)
+ident(
+  int_ref *sth* "gObj.ml" 223 8760 8798 "gObj.ml" 223 8760 8830
+)
+type(
+  Gdk.colormap option
+)
+type(
+  Gdk.colormap option
+)
+type(
+  Gdk.colormap
+)
+ident(
+  def *sth* "gObj.ml" 223 8760 8798 "gObj.ml" 223 8760 8830
+)
+"gObj.ml" 224 8832 8839 "gObj.ml" 224 8832 8842
+type(
+  GDraw.pixmap
+)
+ident(
+  def pix "gObj.ml" 225 8861 8865 "gObj.ml" 225 8861 8928
+)
+"gObj.ml" 225 8861 8865 "gObj.ml" 225 8861 8884
+type(
+  Gdk.drag_context ->
+  colormap:Gdk.colormap ->
+  Gdk.pixmap -> ?mask:Gdk.bitmap -> hot_x:int -> hot_y:int -> unit
+)
+ident(
+  ext_ref GtkBase.DnD.set_icon_pixmap
+)
+"gObj.ml" 225 8861 8885 "gObj.ml" 225 8861 8892
+type(
+  Gdk.drag_context
+)
+"gObj.ml" 225 8861 8894 "gObj.ml" 225 8861 8902
+type(
+  Gdk.colormap
+)
+ident(
+  int_ref colormap "gObj.ml" 223 8760 8787 "gObj.ml" 223 8760 8795
+)
+"gObj.ml" 225 8861 8903 "gObj.ml" 225 8861 8906
+type(
+  GDraw.pixmap
+)
+ident(
+  int_ref pix "gObj.ml" 224 8832 8839 "gObj.ml" 224 8832 8842
+)
+"gObj.ml" 225 8861 8903 "gObj.ml" 225 8861 8913
+call(
+  stack
+)
+type(
+  Gdk.pixmap
+)
+"gObj.ml" 225 8861 8920 "gObj.ml" 225 8861 8923
+type(
+  GDraw.pixmap
+)
+ident(
+  int_ref pix "gObj.ml" 224 8832 8839 "gObj.ml" 224 8832 8842
+)
+"gObj.ml" 225 8861 8920 "gObj.ml" 225 8861 8928
+call(
+  stack
+)
+type(
+  Gdk.bitmap option
+)
+"gObj.ml" 225 8861 8865 "gObj.ml" 225 8861 8928
+call(
+  tail
+)
+type(
+  hot_x:int -> hot_y:int -> unit
+)
+"gObj.ml" 228 8934 8951 "gObj.ml" 228 8934 8954
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 228 8934 8964 "gObj.ml" 228 8934 8970
+type(
+  < after : 'e; destroy : callback:(unit -> unit) -> GtkSignal.id;
+    hide : callback:(unit -> unit) -> GtkSignal.id;
+    map : callback:(unit -> unit) -> GtkSignal.id;
+    parent_set : callback:(widget option -> unit) -> GtkSignal.id;
+    query_tooltip : callback:(x:int ->
+                              y:int -> kbd:bool -> Gtk.tooltip -> bool) ->
+                    GtkSignal.id;
+    realize : callback:(unit -> unit) -> GtkSignal.id;
+    selection_get : callback:(selection_context ->
+                              info:int -> time:int32 -> unit) ->
+                    GtkSignal.id;
+    selection_received : callback:(selection_data -> time:int32 -> unit) ->
+                         GtkSignal.id;
+    show : callback:(unit -> unit) -> GtkSignal.id;
+    size_allocate : callback:(Gtk.rectangle -> unit) -> GtkSignal.id;
+    state_changed : callback:(GtkEnums.state_type -> unit) -> GtkSignal.id;
+    style_set : callback:(unit -> unit) -> GtkSignal.id;
+    unmap : callback:(unit -> unit) -> GtkSignal.id;
+    unrealize : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'e
+)
+"gObj.ml" 229 8971 9001 "gObj.ml" 229 8971 9004
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref obj "gObj.ml" 228 8934 8951 "gObj.ml" 228 8934 8954
+)
+"gObj.ml" 230 9005 9021 "gObj.ml" 230 9005 9025
+type(
+  'e
+)
+"gObj.ml" 230 9005 9021 "gObj.ml" 230 9005 9033
+call(
+  tail
+)
+type(
+  (Gtk.widget, unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gObj.ml" 230 9005 9034 "gObj.ml" 230 9005 9046
+type(
+  (Gtk.widget, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref Signals.show
+)
+"gObj.ml" 230 9005 9021 "gObj.ml" 230 9005 9046
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gObj.ml" 231 9047 9063 "gObj.ml" 231 9047 9067
+type(
+  'e
+)
+"gObj.ml" 231 9047 9063 "gObj.ml" 231 9047 9075
+call(
+  tail
+)
+type(
+  (Gtk.widget, unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gObj.ml" 231 9047 9076 "gObj.ml" 231 9047 9088
+type(
+  (Gtk.widget, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref Signals.hide
+)
+"gObj.ml" 231 9047 9063 "gObj.ml" 231 9047 9088
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gObj.ml" 232 9089 9104 "gObj.ml" 232 9089 9108
+type(
+  'e
+)
+"gObj.ml" 232 9089 9104 "gObj.ml" 232 9089 9116
+call(
+  tail
+)
+type(
+  (Gtk.widget, unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gObj.ml" 232 9089 9117 "gObj.ml" 232 9089 9128
+type(
+  (Gtk.widget, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref Signals.map
+)
+"gObj.ml" 232 9089 9104 "gObj.ml" 232 9089 9128
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gObj.ml" 233 9129 9146 "gObj.ml" 233 9129 9150
+type(
+  'e
+)
+"gObj.ml" 233 9129 9146 "gObj.ml" 233 9129 9158
+call(
+  tail
+)
+type(
+  (Gtk.widget, unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gObj.ml" 233 9129 9159 "gObj.ml" 233 9129 9172
+type(
+  (Gtk.widget, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref Signals.unmap
+)
+"gObj.ml" 233 9129 9146 "gObj.ml" 233 9129 9172
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gObj.ml" 234 9173 9198 "gObj.ml" 234 9173 9202
+type(
+  'e
+)
+"gObj.ml" 234 9173 9198 "gObj.ml" 234 9173 9210
+call(
+  tail
+)
+type(
+  (Gtk.widget, x:int -> y:int -> kbd:bool -> Gtk.tooltip -> bool) GtkSignal.t ->
+  callback:(x:int -> y:int -> kbd:bool -> Gtk.tooltip -> bool) ->
+  GtkSignal.id
+)
+"gObj.ml" 234 9173 9211 "gObj.ml" 234 9173 9232
+type(
+  (Gtk.widget, x:int -> y:int -> kbd:bool -> Gtk.tooltip -> bool) GtkSignal.t
+)
+ident(
+  ext_ref Signals.query_tooltip
+)
+"gObj.ml" 234 9173 9198 "gObj.ml" 234 9173 9232
+type(
+  callback:(x:int -> y:int -> kbd:bool -> Gtk.tooltip -> bool) ->
+  GtkSignal.id
+)
+type(
+  callback:(x:int -> y:int -> kbd:bool -> Gtk.tooltip -> bool) ->
+  GtkSignal.id
+)
+"gObj.ml" 235 9233 9252 "gObj.ml" 235 9233 9256
+type(
+  'e
+)
+"gObj.ml" 235 9233 9252 "gObj.ml" 235 9233 9264
+call(
+  tail
+)
+type(
+  (Gtk.widget, unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gObj.ml" 235 9233 9265 "gObj.ml" 235 9233 9280
+type(
+  (Gtk.widget, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref Signals.realize
+)
+"gObj.ml" 235 9233 9252 "gObj.ml" 235 9233 9280
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gObj.ml" 236 9281 9302 "gObj.ml" 236 9281 9306
+type(
+  'e
+)
+"gObj.ml" 236 9281 9302 "gObj.ml" 236 9281 9314
+call(
+  tail
+)
+type(
+  (Gtk.widget, unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gObj.ml" 236 9281 9315 "gObj.ml" 236 9281 9332
+type(
+  (Gtk.widget, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref Signals.unrealize
+)
+"gObj.ml" 236 9281 9302 "gObj.ml" 236 9281 9332
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gObj.ml" 237 9333 9358 "gObj.ml" 237 9333 9362
+type(
+  'e
+)
+"gObj.ml" 237 9333 9358 "gObj.ml" 237 9333 9370
+call(
+  tail
+)
+type(
+  (Gtk.widget, GtkEnums.state_type -> unit) GtkSignal.t ->
+  callback:(GtkEnums.state_type -> unit) -> GtkSignal.id
+)
+"gObj.ml" 237 9333 9371 "gObj.ml" 237 9333 9392
+type(
+  (Gtk.widget, GtkEnums.state_type -> unit) GtkSignal.t
+)
+ident(
+  ext_ref Signals.state_changed
+)
+"gObj.ml" 237 9333 9358 "gObj.ml" 237 9333 9392
+type(
+  callback:(GtkEnums.state_type -> unit) -> GtkSignal.id
+)
+type(
+  callback:(GtkEnums.state_type -> unit) -> GtkSignal.id
+)
+"gObj.ml" 238 9393 9418 "gObj.ml" 238 9393 9422
+type(
+  'e
+)
+"gObj.ml" 238 9393 9418 "gObj.ml" 238 9393 9430
+call(
+  tail
+)
+type(
+  (Gtk.widget, Gtk.rectangle -> unit) GtkSignal.t ->
+  callback:(Gtk.rectangle -> unit) -> GtkSignal.id
+)
+"gObj.ml" 238 9393 9431 "gObj.ml" 238 9393 9452
+type(
+  (Gtk.widget, Gtk.rectangle -> unit) GtkSignal.t
+)
+ident(
+  ext_ref Signals.size_allocate
+)
+"gObj.ml" 238 9393 9418 "gObj.ml" 238 9393 9452
+type(
+  callback:(Gtk.rectangle -> unit) -> GtkSignal.id
+)
+type(
+  callback:(Gtk.rectangle -> unit) -> GtkSignal.id
+)
+"gObj.ml" 239 9453 9474 "gObj.ml" 239 9453 9482
+type(
+  widget option -> unit
+)
+ident(
+  def callback "gObj.ml" 240 9485 9489 "gObj.ml" 244 9638 9647
+)
+"gObj.ml" 240 9485 9489 "gObj.ml" 240 9485 9493
+type(
+  'e
+)
+"gObj.ml" 240 9485 9489 "gObj.ml" 240 9485 9501
+call(
+  tail
+)
+type(
+  (Gtk.widget, Gtk.widget Gtk.obj option -> unit) GtkSignal.t ->
+  callback:(Gtk.widget Gtk.obj option -> unit) -> GtkSignal.id
+)
+"gObj.ml" 240 9485 9502 "gObj.ml" 240 9485 9520
+type(
+  (Gtk.widget, Gtk.widget Gtk.obj option -> unit) GtkSignal.t
+)
+ident(
+  ext_ref Signals.parent_set
+)
+"gObj.ml" 242 9553 9556 "gObj.ml" 242 9553 9560
+type(
+  Gtk.widget Gtk.obj option
+)
+"gObj.ml" 242 9553 9566 "gObj.ml" 242 9553 9574
+type(
+  widget option -> unit
+)
+ident(
+  int_ref callback "gObj.ml" 239 9453 9474 "gObj.ml" 239 9453 9482
+)
+"gObj.ml" 242 9553 9575 "gObj.ml" 242 9553 9579
+type(
+  widget option
+)
+"gObj.ml" 242 9553 9566 "gObj.ml" 242 9553 9579
+call(
+  tail
+)
+type(
+  unit
+)
+"gObj.ml" 243 9580 9588 "gObj.ml" 243 9580 9589
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  def w "gObj.ml" 243 9580 9593 "gObj.ml" 243 9580 9637
+)
+"gObj.ml" 243 9580 9583 "gObj.ml" 243 9580 9589
+type(
+  Gtk.widget Gtk.obj option
+)
+"gObj.ml" 243 9580 9593 "gObj.ml" 243 9580 9601
+type(
+  widget option -> unit
+)
+ident(
+  int_ref callback "gObj.ml" 239 9453 9474 "gObj.ml" 239 9453 9482
+)
+"gObj.ml" 243 9580 9609 "gObj.ml" 243 9580 9619
+type(
+  'd Gtk.obj -> widget
+)
+"gObj.ml" 243 9580 9621 "gObj.ml" 243 9580 9632
+type(
+  Gtk.widget Gtk.obj -> 'd Gtk.obj
+)
+ident(
+  ext_ref Gobject.unsafe_cast
+)
+"gObj.ml" 243 9580 9633 "gObj.ml" 243 9580 9634
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gObj.ml" 243 9580 9588 "gObj.ml" 243 9580 9589
+)
+"gObj.ml" 243 9580 9620 "gObj.ml" 243 9580 9635
+type(
+  'd Gtk.obj
+)
+"gObj.ml" 243 9580 9608 "gObj.ml" 243 9580 9636
+call(
+  stack
+)
+type(
+  widget
+)
+"gObj.ml" 243 9580 9602 "gObj.ml" 243 9580 9637
+type(
+  widget option
+)
+"gObj.ml" 243 9580 9593 "gObj.ml" 243 9580 9637
+call(
+  tail
+)
+type(
+  unit
+)
+"gObj.ml" 241 9532 9538 "gObj.ml" 244 9638 9647
+type(
+  Gtk.widget Gtk.obj option -> unit
+)
+"gObj.ml" 240 9485 9489 "gObj.ml" 244 9638 9647
+type(
+  GtkSignal.id
+)
+"gObj.ml" 245 9648 9668 "gObj.ml" 245 9648 9676
+type(
+  unit -> unit
+)
+ident(
+  def callback "gObj.ml" 246 9679 9683 "gObj.ml" 247 9725 9777
+)
+"gObj.ml" 246 9679 9683 "gObj.ml" 246 9679 9687
+type(
+  'e
+)
+"gObj.ml" 246 9679 9683 "gObj.ml" 246 9679 9695
+call(
+  tail
+)
+type(
+  (Gtk.widget, Gtk.style option -> unit) GtkSignal.t ->
+  callback:(Gtk.style option -> unit) -> GtkSignal.id
+)
+"gObj.ml" 246 9679 9696 "gObj.ml" 246 9679 9713
+type(
+  (Gtk.widget, Gtk.style option -> unit) GtkSignal.t
+)
+ident(
+  ext_ref Signals.style_set
+)
+"gObj.ml" 247 9725 9736 "gObj.ml" 247 9725 9739
+type(
+  Gtk.style option
+)
+ident(
+  def opt "gObj.ml" 247 9725 9743 "gObj.ml" 247 9725 9776
+)
+"gObj.ml" 247 9725 9743 "gObj.ml" 247 9725 9751
+type(
+  unit -> unit
+)
+ident(
+  int_ref callback "gObj.ml" 245 9648 9668 "gObj.ml" 245 9648 9676
+)
+"gObj.ml" 247 9725 9753 "gObj.ml" 247 9725 9756
+type(
+  f:(Gtk.style -> style) -> Gtk.style option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gObj.ml" 247 9725 9757 "gObj.ml" 247 9725 9760
+type(
+  Gtk.style option
+)
+ident(
+  int_ref opt "gObj.ml" 247 9725 9736 "gObj.ml" 247 9725 9739
+)
+"gObj.ml" 247 9725 9764 "gObj.ml" 247 9725 9775
+type(
+  Gtk.style -> style
+)
+"gObj.ml" 247 9725 9752 "gObj.ml" 247 9725 9776
+call(
+  stack
+)
+type(
+  unit
+)
+"gObj.ml" 247 9725 9743 "gObj.ml" 247 9725 9776
+call(
+  tail
+)
+type(
+  unit
+)
+"gObj.ml" 247 9725 9731 "gObj.ml" 247 9725 9777
+type(
+  Gtk.style option -> unit
+)
+"gObj.ml" 246 9679 9683 "gObj.ml" 247 9725 9777
+type(
+  GtkSignal.id
+)
+"gObj.ml" 248 9778 9802 "gObj.ml" 248 9778 9810
+type(
+  selection_context -> info:int -> time:int32 -> unit
+)
+ident(
+  def callback "gObj.ml" 249 9813 9817 "gObj.ml" 252 9963 9972
+)
+"gObj.ml" 249 9813 9817 "gObj.ml" 249 9813 9821
+type(
+  'e
+)
+"gObj.ml" 249 9813 9817 "gObj.ml" 249 9813 9829
+call(
+  tail
+)
+type(
+  (Gtk.widget, Gtk.selection_data -> info:int -> time:int32 -> unit)
+  GtkSignal.t ->
+  callback:(Gtk.selection_data -> info:int -> time:int32 -> unit) ->
+  GtkSignal.id
+)
+"gObj.ml" 249 9813 9830 "gObj.ml" 249 9813 9851
+type(
+  (Gtk.widget, Gtk.selection_data -> info:int -> time:int32 -> unit)
+  GtkSignal.t
+)
+ident(
+  ext_ref Signals.selection_get
+)
+"gObj.ml" 250 9863 9879 "gObj.ml" 250 9863 9886
+type(
+  Gtk.selection_data
+)
+ident(
+  def seldata "gObj.ml" 250 9863 9887 "gObj.ml" 251 9902 9962
+)
+"gObj.ml" 250 9863 9888 "gObj.ml" 250 9863 9892
+type(
+  int
+)
+ident(
+  def info "gObj.ml" 250 9863 9893 "gObj.ml" 251 9902 9962
+)
+"gObj.ml" 250 9863 9894 "gObj.ml" 250 9863 9898
+type(
+  int32
+)
+ident(
+  def time "gObj.ml" 251 9902 9910 "gObj.ml" 251 9902 9962
+)
+"gObj.ml" 251 9902 9910 "gObj.ml" 251 9902 9918
+type(
+  selection_context -> info:int -> time:int32 -> unit
+)
+ident(
+  int_ref callback "gObj.ml" 248 9778 9802 "gObj.ml" 248 9778 9810
+)
+"gObj.ml" 251 9902 9920 "gObj.ml" 251 9902 9941
+type(
+  Gtk.selection_data -> selection_context
+)
+"gObj.ml" 251 9902 9942 "gObj.ml" 251 9902 9949
+type(
+  Gtk.selection_data
+)
+ident(
+  int_ref seldata "gObj.ml" 250 9863 9879 "gObj.ml" 250 9863 9886
+)
+"gObj.ml" 251 9902 9919 "gObj.ml" 251 9902 9950
+call(
+  stack
+)
+type(
+  selection_context
+)
+"gObj.ml" 251 9902 9952 "gObj.ml" 251 9902 9956
+type(
+  int
+)
+ident(
+  int_ref info "gObj.ml" 250 9863 9888 "gObj.ml" 250 9863 9892
+)
+"gObj.ml" 251 9902 9958 "gObj.ml" 251 9902 9962
+type(
+  int32
+)
+ident(
+  int_ref time "gObj.ml" 250 9863 9894 "gObj.ml" 250 9863 9898
+)
+"gObj.ml" 251 9902 9910 "gObj.ml" 251 9902 9962
+call(
+  tail
+)
+type(
+  unit
+)
+"gObj.ml" 250 9863 9869 "gObj.ml" 252 9963 9972
+type(
+  Gtk.selection_data -> info:int -> time:int32 -> unit
+)
+"gObj.ml" 249 9813 9817 "gObj.ml" 252 9963 9972
+type(
+  GtkSignal.id
+)
+"gObj.ml" 253 9973 10002 "gObj.ml" 253 9973 10010
+type(
+  selection_data -> time:int32 -> unit
+)
+ident(
+  def callback "gObj.ml" 254 10013 10017 "gObj.ml" 255 10057 10121
+)
+"gObj.ml" 254 10013 10017 "gObj.ml" 254 10013 10021
+type(
+  'e
+)
+"gObj.ml" 254 10013 10017 "gObj.ml" 254 10013 10029
+call(
+  tail
+)
+type(
+  (Gtk.widget, Gtk.selection_data -> time:int32 -> unit) GtkSignal.t ->
+  callback:(Gtk.selection_data -> time:int32 -> unit) -> GtkSignal.id
+)
+"gObj.ml" 254 10013 10030 "gObj.ml" 254 10013 10056
+type(
+  (Gtk.widget, Gtk.selection_data -> time:int32 -> unit) GtkSignal.t
+)
+ident(
+  ext_ref Signals.selection_received
+)
+"gObj.ml" 255 10057 10078 "gObj.ml" 255 10057 10082
+type(
+  Gtk.selection_data
+)
+ident(
+  def data "gObj.ml" 255 10057 10086 "gObj.ml" 255 10057 10120
+)
+"gObj.ml" 255 10057 10086 "gObj.ml" 255 10057 10094
+type(
+  selection_data -> time:int32 -> unit
+)
+ident(
+  int_ref callback "gObj.ml" 253 9973 10002 "gObj.ml" 253 9973 10010
+)
+"gObj.ml" 255 10057 10096 "gObj.ml" 255 10057 10114
+type(
+  Gtk.selection_data -> selection_data
+)
+"gObj.ml" 255 10057 10115 "gObj.ml" 255 10057 10119
+type(
+  Gtk.selection_data
+)
+ident(
+  int_ref data "gObj.ml" 255 10057 10078 "gObj.ml" 255 10057 10082
+)
+"gObj.ml" 255 10057 10095 "gObj.ml" 255 10057 10120
+call(
+  stack
+)
+type(
+  selection_data
+)
+"gObj.ml" 255 10057 10086 "gObj.ml" 255 10057 10120
+call(
+  tail
+)
+type(
+  time:int32 -> unit
+)
+"gObj.ml" 255 10057 10073 "gObj.ml" 255 10057 10121
+type(
+  Gtk.selection_data -> time:int32 -> unit
+)
+"gObj.ml" 254 10013 10017 "gObj.ml" 255 10057 10121
+type(
+  GtkSignal.id
+)
+"gObj.ml" 258 10128 10141 "gObj.ml" 258 10128 10144
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 258 10128 10154 "gObj.ml" 258 10128 10160
+type(
+  < activate : unit -> bool;
+    add_accelerator : sgn:(Gtk.widget, unit -> unit) GtkSignal.t ->
+                      group:Gtk.accel_group ->
+                      ?modi:Gdk.Tags.modifier list ->
+                      ?flags:Gtk.Tags.accel_flag list -> Gdk.keysym -> unit;
+    add_selection_target : target:string -> ?info:int -> Gdk.atom -> unit;
+    allocation : Gtk.rectangle; clear_selection_targets : Gdk.atom -> unit;
+    colormap : Gdk.colormap; connect : misc_signals;
+    convert_selection : target:string -> ?time:int32 -> Gdk.atom -> bool;
+    create_pango_context : GPango.context_rw;
+    disconnect : GtkSignal.id -> unit; draw : Gdk.Rectangle.t option -> unit;
+    freeze_notify : unit -> unit; get_flag : GtkEnums.widget_flags -> bool;
+    get_oid : int; get_property : string -> Gobject.data_get;
+    get_type : string; grab_default : unit -> unit;
+    grab_focus : unit -> unit;
+    grab_selection : ?time:int32 -> Gdk.atom -> bool;
+    handler_block : GtkSignal.id -> unit;
+    handler_unblock : GtkSignal.id -> unit; has_tooltip : bool;
+    hide : unit -> unit; hide_all : unit -> unit;
+    intersect : Gdk.Rectangle.t -> Gdk.Rectangle.t option;
+    is_ancestor : widget -> bool; map : unit -> unit;
+    modify_base : (Gtk.Tags.state_type * GDraw.color) list -> unit;
+    modify_bg : (Gtk.Tags.state_type * GDraw.color) list -> unit;
+    modify_fg : (Gtk.Tags.state_type * GDraw.color) list -> unit;
+    modify_font : Pango.font_description -> unit;
+    modify_font_by_name : string -> unit;
+    modify_text : (Gtk.Tags.state_type * GDraw.color) list -> unit;
+    name : string; pango_context : GPango.context; parent : widget option;
+    pointer : int * int; realize : unit -> unit;
+    remove_accelerator : group:Gtk.accel_group ->
+                         ?modi:Gdk.Tags.modifier list -> Gdk.keysym -> unit;
+    render_icon : ?detail:string ->
+                  size:Gtk.Tags.icon_size -> GtkStock.id -> GdkPixbuf.pixbuf;
+    reparent : widget -> unit; set_app_paintable : bool -> unit;
+    set_can_default : bool -> unit; set_can_focus : bool -> unit;
+    set_double_buffered : bool -> unit; set_has_tooltip : bool -> unit;
+    set_name : string -> unit;
+    set_property : 'f. string -> 'f Gobject.data_set -> unit;
+    set_sensitive : bool -> unit;
+    set_size_chars : ?desc:Pango.font_description ->
+                     ?lang:string ->
+                     ?width:int -> ?height:int -> unit -> unit;
+    set_size_request : ?width:int -> ?height:int -> unit -> unit;
+    set_state : Gtk.Tags.state_type -> unit; set_style : style -> unit;
+    set_tooltip_markup : string -> unit; set_tooltip_text : string -> unit;
+    show : unit -> unit; show_all : unit -> unit; style : style;
+    thaw_notify : unit -> unit; tooltip_markup : string;
+    tooltip_text : string; toplevel : widget; unmap : unit -> unit;
+    unparent : unit -> unit; unrealize : unit -> unit; visible : bool;
+    visual : Gdk.visual; visual_depth : int; window : Gdk.window; .. >
+)
+"gObj.ml" 259 10161 10183 "gObj.ml" 259 10161 10186
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref obj "gObj.ml" 258 10128 10141 "gObj.ml" 258 10128 10144
+)
+"gObj.ml" 260 10187 10207 "gObj.ml" 260 10187 10222
+type(
+  Gtk.widget Gtk.obj -> GtkEnums.widget_flags -> bool
+)
+ident(
+  ext_ref GtkBase.Object.get_flag
+)
+"gObj.ml" 260 10187 10223 "gObj.ml" 260 10187 10226
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 260 10187 10207 "gObj.ml" 260 10187 10226
+call(
+  tail
+)
+type(
+  GtkEnums.widget_flags -> bool
+)
+type(
+  GtkEnums.widget_flags -> bool
+)
+"gObj.ml" 261 10227 10246 "gObj.ml" 261 10227 10262
+type(
+  Gtk.widget Gtk.obj -> misc_signals
+)
+"gObj.ml" 261 10227 10263 "gObj.ml" 261 10227 10266
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 261 10227 10246 "gObj.ml" 261 10227 10266
+call(
+  tail
+)
+type(
+  misc_signals
+)
+type(
+  misc_signals
+)
+"gObj.ml" 262 10267 10281 "gObj.ml" 262 10267 10283
+type(
+  unit
+)
+"gObj.ml" 262 10267 10286 "gObj.ml" 262 10267 10297
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref Widget.show
+)
+"gObj.ml" 262 10267 10298 "gObj.ml" 262 10267 10301
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 262 10267 10286 "gObj.ml" 262 10267 10301
+type(
+  unit
+)
+"gObj.ml" 263 10302 10320 "gObj.ml" 263 10302 10322
+type(
+  unit
+)
+"gObj.ml" 263 10302 10325 "gObj.ml" 263 10302 10340
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref Widget.unparent
+)
+"gObj.ml" 263 10302 10341 "gObj.ml" 263 10302 10344
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 263 10302 10325 "gObj.ml" 263 10302 10344
+type(
+  unit
+)
+"gObj.ml" 264 10345 10363 "gObj.ml" 264 10345 10365
+type(
+  unit
+)
+"gObj.ml" 264 10345 10368 "gObj.ml" 264 10345 10383
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref Widget.show_all
+)
+"gObj.ml" 264 10345 10384 "gObj.ml" 264 10345 10387
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 264 10345 10368 "gObj.ml" 264 10345 10387
+type(
+  unit
+)
+"gObj.ml" 265 10388 10402 "gObj.ml" 265 10388 10404
+type(
+  unit
+)
+"gObj.ml" 265 10388 10407 "gObj.ml" 265 10388 10418
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref Widget.hide
+)
+"gObj.ml" 265 10388 10419 "gObj.ml" 265 10388 10422
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 265 10388 10407 "gObj.ml" 265 10388 10422
+type(
+  unit
+)
+"gObj.ml" 266 10423 10441 "gObj.ml" 266 10423 10443
+type(
+  unit
+)
+"gObj.ml" 266 10423 10446 "gObj.ml" 266 10423 10461
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref Widget.hide_all
+)
+"gObj.ml" 266 10423 10462 "gObj.ml" 266 10423 10465
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 266 10423 10446 "gObj.ml" 266 10423 10465
+type(
+  unit
+)
+"gObj.ml" 267 10466 10479 "gObj.ml" 267 10466 10481
+type(
+  unit
+)
+"gObj.ml" 267 10466 10484 "gObj.ml" 267 10466 10494
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref Widget.map
+)
+"gObj.ml" 267 10466 10495 "gObj.ml" 267 10466 10498
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 267 10466 10484 "gObj.ml" 267 10466 10498
+type(
+  unit
+)
+"gObj.ml" 268 10499 10514 "gObj.ml" 268 10499 10516
+type(
+  unit
+)
+"gObj.ml" 268 10499 10519 "gObj.ml" 268 10499 10531
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref Widget.unmap
+)
+"gObj.ml" 268 10499 10532 "gObj.ml" 268 10499 10535
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 268 10499 10519 "gObj.ml" 268 10499 10535
+type(
+  unit
+)
+"gObj.ml" 269 10536 10553 "gObj.ml" 269 10536 10555
+type(
+  unit
+)
+"gObj.ml" 269 10536 10558 "gObj.ml" 269 10536 10572
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref Widget.realize
+)
+"gObj.ml" 269 10536 10573 "gObj.ml" 269 10536 10576
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 269 10536 10558 "gObj.ml" 269 10536 10576
+type(
+  unit
+)
+"gObj.ml" 270 10577 10596 "gObj.ml" 270 10577 10598
+type(
+  unit
+)
+"gObj.ml" 270 10577 10601 "gObj.ml" 270 10577 10617
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref Widget.unrealize
+)
+"gObj.ml" 270 10577 10618 "gObj.ml" 270 10577 10621
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 270 10577 10601 "gObj.ml" 270 10577 10621
+type(
+  unit
+)
+"gObj.ml" 271 10622 10638 "gObj.ml" 271 10622 10649
+type(
+  Gtk.widget Gtk.obj -> Gdk.Rectangle.t option -> unit
+)
+ident(
+  ext_ref Widget.draw
+)
+"gObj.ml" 271 10622 10650 "gObj.ml" 271 10622 10653
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 271 10622 10638 "gObj.ml" 271 10622 10653
+call(
+  tail
+)
+type(
+  Gdk.Rectangle.t option -> unit
+)
+type(
+  Gdk.Rectangle.t option -> unit
+)
+"gObj.ml" 272 10654 10672 "gObj.ml" 272 10654 10674
+type(
+  unit
+)
+"gObj.ml" 272 10654 10677 "gObj.ml" 272 10654 10692
+type(
+  Gtk.widget Gtk.obj -> bool
+)
+ident(
+  ext_ref Widget.activate
+)
+"gObj.ml" 272 10654 10693 "gObj.ml" 272 10654 10696
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 272 10654 10677 "gObj.ml" 272 10654 10696
+type(
+  bool
+)
+"gObj.ml" 273 10697 10716 "gObj.ml" 273 10697 10717
+type(
+  widget
+)
+ident(
+  def w "gObj.ml" 273 10697 10731 "gObj.ml" 273 10697 10762
+)
+"gObj.ml" 273 10697 10731 "gObj.ml" 273 10697 10746
+type(
+  Gtk.widget Gtk.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref Widget.reparent
+)
+"gObj.ml" 273 10697 10747 "gObj.ml" 273 10697 10750
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 273 10697 10751 "gObj.ml" 273 10697 10752
+type(
+  widget
+)
+ident(
+  int_ref w "gObj.ml" 273 10697 10716 "gObj.ml" 273 10697 10717
+)
+"gObj.ml" 273 10697 10751 "gObj.ml" 273 10697 10762
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 273 10697 10731 "gObj.ml" 273 10697 10762
+type(
+  unit
+)
+"gObj.ml" 275 10796 10817 "gObj.ml" 275 10796 10833
+type(
+  Gtk.widget Gtk.obj -> Gdk.Rectangle.t -> Gdk.Rectangle.t option
+)
+ident(
+  ext_ref Widget.intersect
+)
+"gObj.ml" 275 10796 10834 "gObj.ml" 275 10796 10837
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 275 10796 10817 "gObj.ml" 275 10796 10837
+call(
+  tail
+)
+type(
+  Gdk.Rectangle.t -> Gdk.Rectangle.t option
+)
+type(
+  Gdk.Rectangle.t -> Gdk.Rectangle.t option
+)
+"gObj.ml" 276 10838 10858 "gObj.ml" 276 10838 10860
+type(
+  unit
+)
+"gObj.ml" 276 10838 10863 "gObj.ml" 276 10838 10866
+type(
+  (Gtk.widget, bool) Gobject.property -> Gtk.widget Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gObj.ml" 276 10838 10867 "gObj.ml" 276 10838 10878
+type(
+  (Gtk.widget, bool) Gobject.property
+)
+ident(
+  ext_ref P.has_focus
+)
+"gObj.ml" 276 10838 10879 "gObj.ml" 276 10838 10882
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 276 10838 10883 "gObj.ml" 276 10838 10887
+type(
+  bool
+)
+"gObj.ml" 276 10838 10863 "gObj.ml" 276 10838 10887
+call(
+  tail
+)
+type(
+  unit
+)
+"gObj.ml" 277 10888 10910 "gObj.ml" 277 10888 10912
+type(
+  unit
+)
+"gObj.ml" 277 10888 10915 "gObj.ml" 277 10888 10918
+type(
+  (Gtk.widget, bool) Gobject.property -> Gtk.widget Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gObj.ml" 277 10888 10919 "gObj.ml" 277 10888 10932
+type(
+  (Gtk.widget, bool) Gobject.property
+)
+ident(
+  ext_ref P.has_default
+)
+"gObj.ml" 277 10888 10933 "gObj.ml" 277 10888 10936
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 277 10888 10937 "gObj.ml" 277 10888 10941
+type(
+  bool
+)
+"gObj.ml" 277 10888 10915 "gObj.ml" 277 10888 10941
+call(
+  tail
+)
+type(
+  unit
+)
+"gObj.ml" 278 10942 10964 "gObj.ml" 278 10942 10965
+type(
+  widget
+)
+ident(
+  def w "gObj.ml" 278 10942 10978 "gObj.ml" 278 10942 11012
+)
+"gObj.ml" 278 10942 10978 "gObj.ml" 278 10942 10996
+type(
+  Gtk.widget Gtk.obj -> Gtk.widget Gtk.obj -> bool
+)
+ident(
+  ext_ref Widget.is_ancestor
+)
+"gObj.ml" 278 10942 10997 "gObj.ml" 278 10942 11000
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 278 10942 11001 "gObj.ml" 278 10942 11002
+type(
+  widget
+)
+ident(
+  int_ref w "gObj.ml" 278 10942 10964 "gObj.ml" 278 10942 10965
+)
+"gObj.ml" 278 10942 11001 "gObj.ml" 278 10942 11012
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 278 10942 10978 "gObj.ml" 278 10942 11012
+type(
+  bool
+)
+"gObj.ml" 279 11013 11043 "gObj.ml" 279 11013 11045
+type(
+  (Gtk.widget, unit -> unit) GtkSignal.t
+)
+ident(
+  def sg "gObj.ml" 279 11013 11046 "gObj.ml" 280 11072 11134
+)
+"gObj.ml" 279 11013 11047 "gObj.ml" 279 11013 11052
+type(
+  Gtk.accel_group
+)
+ident(
+  def group "gObj.ml" 279 11013 11053 "gObj.ml" 280 11072 11134
+)
+"gObj.ml" 279 11013 11054 "gObj.ml" 279 11013 11058
+type(
+  Gdk.Tags.modifier list option
+)
+ident(
+  def modi "gObj.ml" 279 11013 11059 "gObj.ml" 280 11072 11134
+)
+"gObj.ml" 279 11013 11060 "gObj.ml" 279 11013 11065
+type(
+  Gtk.Tags.accel_flag list option
+)
+ident(
+  def flags "gObj.ml" 279 11013 11066 "gObj.ml" 280 11072 11134
+)
+"gObj.ml" 279 11013 11066 "gObj.ml" 279 11013 11069
+type(
+  Gdk.keysym
+)
+ident(
+  def key "gObj.ml" 280 11072 11076 "gObj.ml" 280 11072 11134
+)
+"gObj.ml" 280 11072 11076 "gObj.ml" 280 11072 11098
+type(
+  Gtk.widget Gtk.obj ->
+  sgn:(Gtk.widget, unit -> unit) GtkSignal.t ->
+  Gtk.accel_group ->
+  key:Gdk.keysym ->
+  ?modi:Gdk.Tags.modifier list -> ?flags:Gtk.Tags.accel_flag list -> unit
+)
+ident(
+  ext_ref Widget.add_accelerator
+)
+"gObj.ml" 280 11072 11099 "gObj.ml" 280 11072 11102
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 280 11072 11108 "gObj.ml" 280 11072 11110
+type(
+  (Gtk.widget, unit -> unit) GtkSignal.t
+)
+ident(
+  int_ref sg "gObj.ml" 279 11013 11043 "gObj.ml" 279 11013 11045
+)
+"gObj.ml" 280 11072 11111 "gObj.ml" 280 11072 11116
+type(
+  Gtk.accel_group
+)
+ident(
+  int_ref group "gObj.ml" 279 11013 11047 "gObj.ml" 279 11013 11052
+)
+"gObj.ml" 280 11072 11118 "gObj.ml" 280 11072 11121
+type(
+  Gdk.keysym
+)
+ident(
+  int_ref key "gObj.ml" 279 11013 11066 "gObj.ml" 279 11013 11069
+)
+"gObj.ml" 280 11072 11123 "gObj.ml" 280 11072 11127
+type(
+  Gdk.Tags.modifier list option
+)
+ident(
+  int_ref modi "gObj.ml" 279 11013 11054 "gObj.ml" 279 11013 11058
+)
+"gObj.ml" 280 11072 11129 "gObj.ml" 280 11072 11134
+type(
+  Gtk.Tags.accel_flag list option
+)
+ident(
+  int_ref flags "gObj.ml" 279 11013 11060 "gObj.ml" 279 11013 11065
+)
+"gObj.ml" 280 11072 11076 "gObj.ml" 280 11072 11134
+type(
+  unit
+)
+"gObj.ml" 281 11135 11164 "gObj.ml" 281 11135 11169
+type(
+  Gtk.accel_group
+)
+ident(
+  def group "gObj.ml" 281 11135 11170 "gObj.ml" 282 11182 11232
+)
+"gObj.ml" 281 11135 11171 "gObj.ml" 281 11135 11175
+type(
+  Gdk.Tags.modifier list option
+)
+ident(
+  def modi "gObj.ml" 281 11135 11176 "gObj.ml" 282 11182 11232
+)
+"gObj.ml" 281 11135 11176 "gObj.ml" 281 11135 11179
+type(
+  Gdk.keysym
+)
+ident(
+  def key "gObj.ml" 282 11182 11186 "gObj.ml" 282 11182 11232
+)
+"gObj.ml" 282 11182 11186 "gObj.ml" 282 11182 11211
+type(
+  Gtk.widget Gtk.obj ->
+  Gtk.accel_group -> key:Gdk.keysym -> ?modi:Gdk.Tags.modifier list -> unit
+)
+ident(
+  ext_ref Widget.remove_accelerator
+)
+"gObj.ml" 282 11182 11212 "gObj.ml" 282 11182 11215
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 282 11182 11216 "gObj.ml" 282 11182 11221
+type(
+  Gtk.accel_group
+)
+ident(
+  int_ref group "gObj.ml" 281 11135 11164 "gObj.ml" 281 11135 11169
+)
+"gObj.ml" 282 11182 11223 "gObj.ml" 282 11182 11226
+type(
+  Gdk.keysym
+)
+ident(
+  int_ref key "gObj.ml" 281 11135 11176 "gObj.ml" 281 11135 11179
+)
+"gObj.ml" 282 11182 11228 "gObj.ml" 282 11182 11232
+type(
+  Gdk.Tags.modifier list option
+)
+ident(
+  int_ref modi "gObj.ml" 281 11135 11171 "gObj.ml" 281 11135 11175
+)
+"gObj.ml" 282 11182 11186 "gObj.ml" 282 11182 11232
+type(
+  unit
+)
+"gObj.ml" 284 11293 11313 "gObj.ml" 284 11293 11316
+type(
+  (Gtk.widget, string) Gobject.property ->
+  Gtk.widget Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gObj.ml" 284 11293 11317 "gObj.ml" 284 11293 11323
+type(
+  (Gtk.widget, string) Gobject.property
+)
+ident(
+  ext_ref P.name
+)
+"gObj.ml" 284 11293 11324 "gObj.ml" 284 11293 11327
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 284 11293 11313 "gObj.ml" 284 11293 11327
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gObj.ml" 285 11328 11349 "gObj.ml" 285 11328 11365
+type(
+  Gtk.widget Gtk.obj -> Gtk.Tags.state_type -> unit
+)
+ident(
+  ext_ref Widget.set_state
+)
+"gObj.ml" 285 11328 11366 "gObj.ml" 285 11328 11369
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 285 11328 11349 "gObj.ml" 285 11328 11369
+call(
+  tail
+)
+type(
+  Gtk.Tags.state_type -> unit
+)
+type(
+  Gtk.Tags.state_type -> unit
+)
+"gObj.ml" 286 11370 11395 "gObj.ml" 286 11370 11398
+type(
+  (Gtk.widget, bool) Gobject.property -> Gtk.widget Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gObj.ml" 286 11370 11399 "gObj.ml" 286 11370 11410
+type(
+  (Gtk.widget, bool) Gobject.property
+)
+ident(
+  ext_ref P.sensitive
+)
+"gObj.ml" 286 11370 11411 "gObj.ml" 286 11370 11414
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 286 11370 11395 "gObj.ml" 286 11370 11414
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gObj.ml" 287 11415 11442 "gObj.ml" 287 11415 11445
+type(
+  (Gtk.widget, bool) Gobject.property -> Gtk.widget Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gObj.ml" 287 11415 11446 "gObj.ml" 287 11415 11459
+type(
+  (Gtk.widget, bool) Gobject.property
+)
+ident(
+  ext_ref P.can_default
+)
+"gObj.ml" 287 11415 11460 "gObj.ml" 287 11415 11463
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 287 11415 11442 "gObj.ml" 287 11415 11463
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gObj.ml" 288 11464 11489 "gObj.ml" 288 11464 11492
+type(
+  (Gtk.widget, bool) Gobject.property -> Gtk.widget Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gObj.ml" 288 11464 11493 "gObj.ml" 288 11464 11504
+type(
+  (Gtk.widget, bool) Gobject.property
+)
+ident(
+  ext_ref P.can_focus
+)
+"gObj.ml" 288 11464 11505 "gObj.ml" 288 11464 11508
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 288 11464 11489 "gObj.ml" 288 11464 11508
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gObj.ml" 289 11509 11538 "gObj.ml" 289 11509 11541
+type(
+  (Gtk.widget, bool) Gobject.property -> Gtk.widget Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gObj.ml" 289 11509 11542 "gObj.ml" 289 11509 11557
+type(
+  (Gtk.widget, bool) Gobject.property
+)
+ident(
+  ext_ref P.app_paintable
+)
+"gObj.ml" 289 11509 11558 "gObj.ml" 289 11509 11561
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 289 11509 11538 "gObj.ml" 289 11509 11561
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gObj.ml" 290 11562 11593 "gObj.ml" 290 11562 11619
+type(
+  Gtk.widget Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref Widget.set_double_buffered
+)
+"gObj.ml" 290 11562 11620 "gObj.ml" 290 11562 11623
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 290 11562 11593 "gObj.ml" 290 11562 11623
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gObj.ml" 292 11652 11656 "gObj.ml" 292 11652 11674
+type(
+  cont:(Gtk.widget Gobject.param list -> unit -> unit) ->
+  Gtk.widget Gobject.param list -> ?width:int -> ?height:int -> unit -> unit
+)
+ident(
+  ext_ref Widget.size_params
+)
+"gObj.ml" 292 11652 11675 "gObj.ml" 292 11652 11677
+type(
+  Gtk.widget Gobject.param list
+)
+"gObj.ml" 292 11652 11689 "gObj.ml" 292 11652 11690
+type(
+  Gtk.widget Gobject.param list
+)
+ident(
+  def p "gObj.ml" 292 11652 11691 "gObj.ml" 292 11652 11713
+)
+"gObj.ml" 292 11652 11691 "gObj.ml" 292 11652 11693
+type(
+  unit
+)
+"gObj.ml" 292 11652 11697 "gObj.ml" 292 11652 11707
+type(
+  Gtk.widget Gtk.obj -> Gtk.widget Gobject.param list -> unit
+)
+ident(
+  ext_ref Gobject.set_params
+)
+"gObj.ml" 292 11652 11708 "gObj.ml" 292 11652 11711
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 292 11652 11712 "gObj.ml" 292 11652 11713
+type(
+  Gtk.widget Gobject.param list
+)
+ident(
+  int_ref p "gObj.ml" 292 11652 11689 "gObj.ml" 292 11652 11690
+)
+"gObj.ml" 292 11652 11697 "gObj.ml" 292 11652 11713
+call(
+  tail
+)
+type(
+  unit
+)
+"gObj.ml" 292 11652 11684 "gObj.ml" 292 11652 11714
+type(
+  Gtk.widget Gobject.param list -> unit -> unit
+)
+"gObj.ml" 292 11652 11656 "gObj.ml" 292 11652 11714
+call(
+  tail
+)
+type(
+  ?width:int -> ?height:int -> unit -> unit
+)
+type(
+  ?width:int -> ?height:int -> unit -> unit
+)
+"gObj.ml" 293 11715 11740 "gObj.ml" 293 11715 11744
+type(
+  Pango.font_description option
+)
+ident(
+  def desc "gObj.ml" 293 11715 11745 "gObj.ml" 300 12077 12120
+)
+"gObj.ml" 293 11715 11746 "gObj.ml" 293 11715 11750
+type(
+  string option
+)
+ident(
+  def lang "gObj.ml" 293 11715 11751 "gObj.ml" 300 12077 12120
+)
+"gObj.ml" 293 11715 11752 "gObj.ml" 293 11715 11757
+type(
+  int option
+)
+ident(
+  def width "gObj.ml" 293 11715 11758 "gObj.ml" 300 12077 12120
+)
+"gObj.ml" 293 11715 11759 "gObj.ml" 293 11715 11765
+type(
+  int option
+)
+ident(
+  def height "gObj.ml" 293 11715 11766 "gObj.ml" 300 12077 12120
+)
+"gObj.ml" 293 11715 11766 "gObj.ml" 293 11715 11768
+type(
+  unit
+)
+"gObj.ml" 294 11771 11779 "gObj.ml" 294 11771 11786
+type(
+  GPango.metrics
+)
+"gObj.ml" 295 11790 11797 "gObj.ml" 295 11790 11801
+type(
+  < activate : unit -> bool;
+    add_accelerator : sgn:(Gtk.widget, unit -> unit) GtkSignal.t ->
+                      group:Gtk.accel_group ->
+                      ?modi:Gdk.Tags.modifier list ->
+                      ?flags:Gtk.Tags.accel_flag list -> Gdk.keysym -> unit;
+    add_selection_target : target:string -> ?info:int -> Gdk.atom -> unit;
+    allocation : Gtk.rectangle; clear_selection_targets : Gdk.atom -> unit;
+    colormap : Gdk.colormap; connect : misc_signals;
+    convert_selection : target:string -> ?time:int32 -> Gdk.atom -> bool;
+    create_pango_context : GPango.context_rw;
+    disconnect : GtkSignal.id -> unit; draw : Gdk.Rectangle.t option -> unit;
+    freeze_notify : unit -> unit; get_flag : GtkEnums.widget_flags -> bool;
+    get_oid : int; get_property : string -> Gobject.data_get;
+    get_type : string; grab_default : unit -> unit;
+    grab_focus : unit -> unit;
+    grab_selection : ?time:int32 -> Gdk.atom -> bool;
+    handler_block : GtkSignal.id -> unit;
+    handler_unblock : GtkSignal.id -> unit; has_tooltip : bool;
+    hide : unit -> unit; hide_all : unit -> unit;
+    intersect : Gdk.Rectangle.t -> Gdk.Rectangle.t option;
+    is_ancestor : widget -> bool; map : unit -> unit;
+    modify_base : (Gtk.Tags.state_type * GDraw.color) list -> unit;
+    modify_bg : (Gtk.Tags.state_type * GDraw.color) list -> unit;
+    modify_fg : (Gtk.Tags.state_type * GDraw.color) list -> unit;
+    modify_font : Pango.font_description -> unit;
+    modify_font_by_name : string -> unit;
+    modify_text : (Gtk.Tags.state_type * GDraw.color) list -> unit;
+    name : string; pango_context : GPango.context; parent : widget option;
+    pointer : int * int; realize : unit -> unit;
+    remove_accelerator : group:Gtk.accel_group ->
+                         ?modi:Gdk.Tags.modifier list -> Gdk.keysym -> unit;
+    render_icon : ?detail:string ->
+                  size:Gtk.Tags.icon_size -> GtkStock.id -> GdkPixbuf.pixbuf;
+    reparent : widget -> unit; set_app_paintable : bool -> unit;
+    set_can_default : bool -> unit; set_can_focus : bool -> unit;
+    set_double_buffered : bool -> unit; set_has_tooltip : bool -> unit;
+    set_name : string -> unit;
+    set_property : 'f. string -> 'f Gobject.data_set -> unit;
+    set_sensitive : bool -> unit;
+    set_size_chars : ?desc:Pango.font_description ->
+                     ?lang:string ->
+                     ?width:int -> ?height:int -> unit -> unit;
+    set_size_request : ?width:int -> ?height:int -> unit -> unit;
+    set_state : Gtk.Tags.state_type -> unit; set_style : style -> unit;
+    set_tooltip_markup : string -> unit; set_tooltip_text : string -> unit;
+    show : unit -> unit; show_all : unit -> unit; style : style;
+    thaw_notify : unit -> unit; tooltip_markup : string;
+    tooltip_text : string; toplevel : widget; unmap : unit -> unit;
+    unparent : unit -> unit; unrealize : unit -> unit; visible : bool;
+    visual : Gdk.visual; visual_depth : int; window : Gdk.window; .. >
+  as 'g
+)
+"gObj.ml" 295 11790 11797 "gObj.ml" 295 11790 11815
+call(
+  stack
+)
+type(
+  GPango.context
+)
+type(
+  GPango.context
+)
+"gObj.ml" 295 11790 11796 "gObj.ml" 295 11790 11845
+call(
+  stack
+)
+type(
+  ?desc:Pango.font_description -> ?lang:string -> unit -> GPango.metrics
+)
+"gObj.ml" 295 11790 11847 "gObj.ml" 295 11790 11851
+type(
+  Pango.font_description option
+)
+ident(
+  int_ref desc "gObj.ml" 293 11715 11740 "gObj.ml" 293 11715 11744
+)
+"gObj.ml" 295 11790 11853 "gObj.ml" 295 11790 11857
+type(
+  string option
+)
+ident(
+  int_ref lang "gObj.ml" 293 11715 11746 "gObj.ml" 293 11715 11750
+)
+"gObj.ml" 295 11790 11858 "gObj.ml" 295 11790 11860
+type(
+  unit
+)
+"gObj.ml" 295 11790 11796 "gObj.ml" 295 11790 11860
+type(
+  GPango.metrics
+)
+"gObj.ml" 296 11864 11872 "gObj.ml" 296 11864 11877
+type(
+  int option
+)
+"gObj.ml" 296 11864 11880 "gObj.ml" 296 11864 11887
+type(
+  f:(int -> int) -> int option -> int option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gObj.ml" 296 11864 11888 "gObj.ml" 296 11864 11893
+type(
+  int option
+)
+ident(
+  int_ref width "gObj.ml" 293 11715 11752 "gObj.ml" 293 11715 11757
+)
+"gObj.ml" 297 11898 11911 "gObj.ml" 297 11898 11912
+type(
+  int
+)
+ident(
+  def w "gObj.ml" 297 11898 11916 "gObj.ml" 297 11898 11963
+)
+"gObj.ml" 297 11898 11916 "gObj.ml" 297 11898 11917
+type(
+  int
+)
+ident(
+  int_ref w "gObj.ml" 297 11898 11911 "gObj.ml" 297 11898 11912
+)
+"gObj.ml" 297 11898 11918 "gObj.ml" 297 11898 11919
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"gObj.ml" 297 11898 11920 "gObj.ml" 297 11898 11936
+type(
+  Pango.units -> int
+)
+ident(
+  ext_ref GPango.to_pixels
+)
+"gObj.ml" 297 11898 11937 "gObj.ml" 297 11898 11944
+type(
+  GPango.metrics
+)
+ident(
+  int_ref metrics "gObj.ml" 294 11771 11779 "gObj.ml" 294 11771 11786
+)
+"gObj.ml" 297 11898 11937 "gObj.ml" 297 11898 11963
+call(
+  stack
+)
+type(
+  Pango.units
+)
+"gObj.ml" 297 11898 11920 "gObj.ml" 297 11898 11963
+call(
+  stack
+)
+type(
+  int
+)
+"gObj.ml" 297 11898 11916 "gObj.ml" 297 11898 11963
+type(
+  int
+)
+"gObj.ml" 297 11898 11906 "gObj.ml" 297 11898 11964
+type(
+  int -> int
+)
+"gObj.ml" 296 11864 11880 "gObj.ml" 297 11898 11964
+call(
+  stack
+)
+type(
+  int option
+)
+"gObj.ml" 298 11965 11973 "gObj.ml" 298 11965 11979
+type(
+  int option
+)
+"gObj.ml" 298 11965 11982 "gObj.ml" 298 11965 11989
+type(
+  f:(int -> int) -> int option -> int option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gObj.ml" 298 11965 11990 "gObj.ml" 298 11965 11996
+type(
+  int option
+)
+ident(
+  int_ref height "gObj.ml" 293 11715 11759 "gObj.ml" 293 11715 11765
+)
+"gObj.ml" 299 12001 12014 "gObj.ml" 299 12001 12015
+type(
+  int
+)
+ident(
+  def h "gObj.ml" 299 12001 12019 "gObj.ml" 299 12001 12072
+)
+"gObj.ml" 299 12001 12019 "gObj.ml" 299 12001 12020
+type(
+  int
+)
+ident(
+  int_ref h "gObj.ml" 299 12001 12014 "gObj.ml" 299 12001 12015
+)
+"gObj.ml" 299 12001 12021 "gObj.ml" 299 12001 12022
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"gObj.ml" 299 12001 12023 "gObj.ml" 299 12001 12039
+type(
+  Pango.units -> int
+)
+ident(
+  ext_ref GPango.to_pixels
+)
+"gObj.ml" 299 12001 12041 "gObj.ml" 299 12001 12048
+type(
+  GPango.metrics
+)
+ident(
+  int_ref metrics "gObj.ml" 294 11771 11779 "gObj.ml" 294 11771 11786
+)
+"gObj.ml" 299 12001 12041 "gObj.ml" 299 12001 12055
+call(
+  stack
+)
+type(
+  Pango.units
+)
+"gObj.ml" 299 12001 12055 "gObj.ml" 299 12001 12056
+type(
+  Pango.units -> Pango.units -> Pango.units
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"gObj.ml" 299 12001 12056 "gObj.ml" 299 12001 12063
+type(
+  GPango.metrics
+)
+ident(
+  int_ref metrics "gObj.ml" 294 11771 11779 "gObj.ml" 294 11771 11786
+)
+"gObj.ml" 299 12001 12056 "gObj.ml" 299 12001 12071
+call(
+  stack
+)
+type(
+  Pango.units
+)
+"gObj.ml" 299 12001 12040 "gObj.ml" 299 12001 12072
+type(
+  Pango.units
+)
+"gObj.ml" 299 12001 12023 "gObj.ml" 299 12001 12072
+call(
+  stack
+)
+type(
+  int
+)
+"gObj.ml" 299 12001 12019 "gObj.ml" 299 12001 12072
+type(
+  int
+)
+"gObj.ml" 299 12001 12009 "gObj.ml" 299 12001 12073
+type(
+  int -> int
+)
+"gObj.ml" 298 11965 11982 "gObj.ml" 299 12001 12073
+call(
+  stack
+)
+type(
+  int option
+)
+"gObj.ml" 300 12077 12081 "gObj.ml" 300 12077 12085
+type(
+  'g
+)
+"gObj.ml" 300 12077 12081 "gObj.ml" 300 12077 12102
+call(
+  tail
+)
+type(
+  ?width:int -> ?height:int -> unit -> unit
+)
+"gObj.ml" 300 12077 12104 "gObj.ml" 300 12077 12109
+type(
+  int option
+)
+ident(
+  int_ref width "gObj.ml" 296 11864 11872 "gObj.ml" 296 11864 11877
+)
+"gObj.ml" 300 12077 12111 "gObj.ml" 300 12077 12117
+type(
+  int option
+)
+ident(
+  int_ref height "gObj.ml" 298 11965 11973 "gObj.ml" 298 11965 11979
+)
+"gObj.ml" 300 12077 12118 "gObj.ml" 300 12077 12120
+type(
+  unit
+)
+"gObj.ml" 300 12077 12081 "gObj.ml" 300 12077 12120
+type(
+  unit
+)
+"gObj.ml" 296 11864 11868 "gObj.ml" 300 12077 12120
+type(
+  unit
+)
+"gObj.ml" 294 11771 11775 "gObj.ml" 300 12077 12120
+type(
+  unit
+)
+"gObj.ml" 301 12121 12141 "gObj.ml" 301 12121 12146
+type(
+  style
+)
+ident(
+  def style "gObj.ml" 301 12121 12158 "gObj.ml" 301 12121 12188
+)
+"gObj.ml" 301 12121 12158 "gObj.ml" 301 12121 12161
+type(
+  (Gtk.widget, Gtk.style) Gobject.property ->
+  Gtk.widget Gtk.obj -> Gtk.style -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gObj.ml" 301 12121 12162 "gObj.ml" 301 12121 12169
+type(
+  (Gtk.widget, Gtk.style) Gobject.property
+)
+ident(
+  ext_ref P.style
+)
+"gObj.ml" 301 12121 12170 "gObj.ml" 301 12121 12173
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 301 12121 12174 "gObj.ml" 301 12121 12179
+type(
+  style
+)
+ident(
+  int_ref style "gObj.ml" 301 12121 12141 "gObj.ml" 301 12121 12146
+)
+"gObj.ml" 301 12121 12174 "gObj.ml" 301 12121 12188
+call(
+  stack
+)
+type(
+  Gtk.style
+)
+"gObj.ml" 301 12121 12158 "gObj.ml" 301 12121 12188
+call(
+  tail
+)
+type(
+  unit
+)
+"gObj.ml" 302 12189 12210 "gObj.ml" 302 12189 12221
+type(
+  (Gtk.widget Gtk.obj -> Gtk.Tags.state_type -> Gdk.color -> unit) ->
+  Gtk.widget Gtk.obj -> (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+ident(
+  int_ref iter_setcol "gObj.ml" 125 4943 4947 "gObj.ml" 125 4943 4958
+)
+"gObj.ml" 302 12189 12222 "gObj.ml" 302 12189 12238
+type(
+  Gtk.widget Gtk.obj -> Gtk.Tags.state_type -> Gdk.color -> unit
+)
+ident(
+  ext_ref Widget.modify_fg
+)
+"gObj.ml" 302 12189 12239 "gObj.ml" 302 12189 12242
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 302 12189 12210 "gObj.ml" 302 12189 12242
+call(
+  tail
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+"gObj.ml" 303 12243 12264 "gObj.ml" 303 12243 12275
+type(
+  (Gtk.widget Gtk.obj -> Gtk.Tags.state_type -> Gdk.color -> unit) ->
+  Gtk.widget Gtk.obj -> (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+ident(
+  int_ref iter_setcol "gObj.ml" 125 4943 4947 "gObj.ml" 125 4943 4958
+)
+"gObj.ml" 303 12243 12276 "gObj.ml" 303 12243 12292
+type(
+  Gtk.widget Gtk.obj -> Gtk.Tags.state_type -> Gdk.color -> unit
+)
+ident(
+  ext_ref Widget.modify_bg
+)
+"gObj.ml" 303 12243 12293 "gObj.ml" 303 12243 12296
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 303 12243 12264 "gObj.ml" 303 12243 12296
+call(
+  tail
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+"gObj.ml" 304 12297 12320 "gObj.ml" 304 12297 12331
+type(
+  (Gtk.widget Gtk.obj -> Gtk.Tags.state_type -> Gdk.color -> unit) ->
+  Gtk.widget Gtk.obj -> (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+ident(
+  int_ref iter_setcol "gObj.ml" 125 4943 4947 "gObj.ml" 125 4943 4958
+)
+"gObj.ml" 304 12297 12332 "gObj.ml" 304 12297 12350
+type(
+  Gtk.widget Gtk.obj -> Gtk.Tags.state_type -> Gdk.color -> unit
+)
+ident(
+  ext_ref Widget.modify_text
+)
+"gObj.ml" 304 12297 12351 "gObj.ml" 304 12297 12354
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 304 12297 12320 "gObj.ml" 304 12297 12354
+call(
+  tail
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+"gObj.ml" 305 12355 12378 "gObj.ml" 305 12355 12389
+type(
+  (Gtk.widget Gtk.obj -> Gtk.Tags.state_type -> Gdk.color -> unit) ->
+  Gtk.widget Gtk.obj -> (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+ident(
+  int_ref iter_setcol "gObj.ml" 125 4943 4947 "gObj.ml" 125 4943 4958
+)
+"gObj.ml" 305 12355 12390 "gObj.ml" 305 12355 12408
+type(
+  Gtk.widget Gtk.obj -> Gtk.Tags.state_type -> Gdk.color -> unit
+)
+ident(
+  ext_ref Widget.modify_base
+)
+"gObj.ml" 305 12355 12409 "gObj.ml" 305 12355 12412
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 305 12355 12378 "gObj.ml" 305 12355 12412
+call(
+  tail
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+type(
+  (Gtk.Tags.state_type * GDraw.color) list -> unit
+)
+"gObj.ml" 306 12413 12436 "gObj.ml" 306 12413 12454
+type(
+  Gtk.widget Gtk.obj -> Pango.font_description -> unit
+)
+ident(
+  ext_ref Widget.modify_font
+)
+"gObj.ml" 306 12413 12455 "gObj.ml" 306 12413 12458
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 306 12413 12436 "gObj.ml" 306 12413 12458
+call(
+  tail
+)
+type(
+  Pango.font_description -> unit
+)
+type(
+  Pango.font_description -> unit
+)
+"gObj.ml" 307 12459 12488 "gObj.ml" 307 12459 12489
+type(
+  string
+)
+ident(
+  def s "gObj.ml" 308 12492 12496 "gObj.ml" 308 12492 12545
+)
+"gObj.ml" 308 12492 12496 "gObj.ml" 308 12492 12514
+type(
+  Gtk.widget Gtk.obj -> Pango.font_description -> unit
+)
+ident(
+  ext_ref Widget.modify_font
+)
+"gObj.ml" 308 12492 12515 "gObj.ml" 308 12492 12518
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 308 12492 12520 "gObj.ml" 308 12492 12542
+type(
+  string -> Pango.font_description
+)
+ident(
+  ext_ref Pango.Font.from_string
+)
+"gObj.ml" 308 12492 12543 "gObj.ml" 308 12492 12544
+type(
+  string
+)
+ident(
+  int_ref s "gObj.ml" 307 12459 12488 "gObj.ml" 307 12459 12489
+)
+"gObj.ml" 308 12492 12519 "gObj.ml" 308 12492 12545
+type(
+  Pango.font_description
+)
+"gObj.ml" 308 12492 12496 "gObj.ml" 308 12492 12545
+type(
+  unit
+)
+"gObj.ml" 310 12578 12582 "gObj.ml" 310 12578 12603
+type(
+  Pango.context -> GPango.context_rw
+)
+"gObj.ml" 310 12578 12605 "gObj.ml" 310 12578 12632
+type(
+  Gtk.widget Gtk.obj -> Pango.context
+)
+ident(
+  ext_ref Widget.create_pango_context
+)
+"gObj.ml" 310 12578 12633 "gObj.ml" 310 12578 12636
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 310 12578 12604 "gObj.ml" 310 12578 12637
+type(
+  Pango.context
+)
+"gObj.ml" 310 12578 12582 "gObj.ml" 310 12578 12637
+call(
+  tail
+)
+type(
+  GPango.context_rw
+)
+type(
+  GPango.context_rw
+)
+"gObj.ml" 312 12660 12676 "gObj.ml" 312 12660 12679
+type(
+  (Gtk.widget, string) Gobject.property -> Gtk.widget Gtk.obj -> string
+)
+ident(
+  ext_ref Gobject.get
+)
+"gObj.ml" 312 12660 12680 "gObj.ml" 312 12660 12686
+type(
+  (Gtk.widget, string) Gobject.property
+)
+ident(
+  ext_ref P.name
+)
+"gObj.ml" 312 12660 12687 "gObj.ml" 312 12660 12690
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 312 12660 12676 "gObj.ml" 312 12660 12690
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"gObj.ml" 314 12711 12719 "gObj.ml" 314 12711 12729
+type(
+  'd Gtk.obj -> widget
+)
+"gObj.ml" 314 12711 12731 "gObj.ml" 314 12711 12742
+type(
+  Gtk.widget Gtk.obj -> 'd Gtk.obj
+)
+ident(
+  ext_ref Gobject.unsafe_cast
+)
+"gObj.ml" 314 12711 12744 "gObj.ml" 314 12711 12763
+type(
+  Gtk.widget Gtk.obj -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref Widget.get_toplevel
+)
+"gObj.ml" 314 12711 12764 "gObj.ml" 314 12711 12767
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 314 12711 12743 "gObj.ml" 314 12711 12768
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 314 12711 12730 "gObj.ml" 314 12711 12769
+type(
+  'd Gtk.obj
+)
+"gObj.ml" 314 12711 12719 "gObj.ml" 314 12711 12769
+call(
+  stack
+)
+type(
+  widget
+)
+"gObj.ml" 315 12770 12779 "gObj.ml" 315 12770 12792
+type(
+  exn
+)
+"gObj.ml" 315 12770 12796 "gObj.ml" 315 12770 12804
+type(
+  string -> widget
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gObj.ml" 315 12770 12805 "gObj.ml" 315 12770 12829
+type(
+  string
+)
+"gObj.ml" 315 12770 12796 "gObj.ml" 315 12770 12829
+call(
+  tail
+)
+type(
+  widget
+)
+"gObj.ml" 314 12711 12715 "gObj.ml" 315 12770 12829
+type(
+  widget
+)
+type(
+  widget
+)
+"gObj.ml" 316 12830 12848 "gObj.ml" 316 12830 12861
+type(
+  Gtk.widget Gtk.obj -> Gdk.window
+)
+ident(
+  ext_ref Widget.window
+)
+"gObj.ml" 316 12830 12862 "gObj.ml" 316 12830 12865
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 316 12830 12848 "gObj.ml" 316 12830 12865
+type(
+  Gdk.window
+)
+type(
+  Gdk.window
+)
+"gObj.ml" 317 12866 12886 "gObj.ml" 317 12866 12905
+type(
+  Gtk.widget Gtk.obj -> Gdk.colormap
+)
+ident(
+  ext_ref Widget.get_colormap
+)
+"gObj.ml" 317 12866 12906 "gObj.ml" 317 12866 12909
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 317 12866 12886 "gObj.ml" 317 12866 12909
+type(
+  Gdk.colormap
+)
+type(
+  Gdk.colormap
+)
+"gObj.ml" 318 12910 12928 "gObj.ml" 318 12910 12945
+type(
+  Gtk.widget Gtk.obj -> Gdk.visual
+)
+ident(
+  ext_ref Widget.get_visual
+)
+"gObj.ml" 318 12910 12946 "gObj.ml" 318 12910 12949
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 318 12910 12928 "gObj.ml" 318 12910 12949
+type(
+  Gdk.visual
+)
+type(
+  Gdk.visual
+)
+"gObj.ml" 319 12950 12974 "gObj.ml" 319 12950 12990
+type(
+  Gdk.visual -> int
+)
+ident(
+  ext_ref Gdk.Visual.depth
+)
+"gObj.ml" 319 12950 12992 "gObj.ml" 319 12950 13009
+type(
+  Gtk.widget Gtk.obj -> Gdk.visual
+)
+ident(
+  ext_ref Widget.get_visual
+)
+"gObj.ml" 319 12950 13010 "gObj.ml" 319 12950 13013
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 319 12950 12991 "gObj.ml" 319 12950 13014
+type(
+  Gdk.visual
+)
+"gObj.ml" 319 12950 12974 "gObj.ml" 319 12950 13014
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"gObj.ml" 320 13015 13034 "gObj.ml" 320 13015 13052
+type(
+  Gtk.widget Gtk.obj -> int * int
+)
+ident(
+  ext_ref Widget.get_pointer
+)
+"gObj.ml" 320 13015 13053 "gObj.ml" 320 13015 13056
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 320 13015 13034 "gObj.ml" 320 13015 13056
+type(
+  int * int
+)
+type(
+  int * int
+)
+"gObj.ml" 321 13057 13074 "gObj.ml" 321 13057 13083
+type(
+  Gtk.style -> style
+)
+"gObj.ml" 321 13057 13085 "gObj.ml" 321 13057 13088
+type(
+  (Gtk.widget, Gtk.style) Gobject.property -> Gtk.widget Gtk.obj -> Gtk.style
+)
+ident(
+  ext_ref Gobject.get
+)
+"gObj.ml" 321 13057 13089 "gObj.ml" 321 13057 13096
+type(
+  (Gtk.widget, Gtk.style) Gobject.property
+)
+ident(
+  ext_ref P.style
+)
+"gObj.ml" 321 13057 13097 "gObj.ml" 321 13057 13100
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 321 13057 13084 "gObj.ml" 321 13057 13101
+call(
+  stack
+)
+type(
+  Gtk.style
+)
+"gObj.ml" 321 13057 13074 "gObj.ml" 321 13057 13101
+call(
+  tail
+)
+type(
+  style
+)
+type(
+  style
+)
+"gObj.ml" 322 13102 13121 "gObj.ml" 322 13102 13125
+type(
+  'g
+)
+"gObj.ml" 322 13102 13121 "gObj.ml" 322 13102 13134
+call(
+  tail
+)
+type(
+  GtkEnums.widget_flags -> bool
+)
+"gObj.ml" 322 13102 13135 "gObj.ml" 322 13102 13143
+type(
+  GtkEnums.widget_flags
+)
+"gObj.ml" 322 13102 13121 "gObj.ml" 322 13102 13143
+type(
+  bool
+)
+type(
+  bool
+)
+"gObj.ml" 324 13162 13166 "gObj.ml" 324 13162 13173
+type(
+  f:(Gtk.container Gtk.obj -> widget) ->
+  Gtk.container Gtk.obj option -> widget option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gObj.ml" 324 13162 13179 "gObj.ml" 324 13162 13180
+type(
+  Gtk.container Gtk.obj
+)
+ident(
+  def w "gObj.ml" 324 13162 13184 "gObj.ml" 324 13162 13210
+)
+"gObj.ml" 324 13162 13184 "gObj.ml" 324 13162 13194
+type(
+  'd Gtk.obj -> widget
+)
+"gObj.ml" 324 13162 13196 "gObj.ml" 324 13162 13207
+type(
+  Gtk.container Gtk.obj -> 'd Gtk.obj
+)
+ident(
+  ext_ref Gobject.unsafe_cast
+)
+"gObj.ml" 324 13162 13208 "gObj.ml" 324 13162 13209
+type(
+  Gtk.container Gtk.obj
+)
+ident(
+  int_ref w "gObj.ml" 324 13162 13179 "gObj.ml" 324 13162 13180
+)
+"gObj.ml" 324 13162 13195 "gObj.ml" 324 13162 13210
+type(
+  'd Gtk.obj
+)
+"gObj.ml" 324 13162 13184 "gObj.ml" 324 13162 13210
+call(
+  tail
+)
+type(
+  widget
+)
+"gObj.ml" 324 13162 13174 "gObj.ml" 324 13162 13211
+type(
+  Gtk.container Gtk.obj -> widget
+)
+"gObj.ml" 324 13162 13213 "gObj.ml" 324 13162 13216
+type(
+  (Gtk.widget, Gtk.container Gtk.obj option) Gobject.property ->
+  Gtk.widget Gtk.obj -> Gtk.container Gtk.obj option
+)
+ident(
+  ext_ref Gobject.get
+)
+"gObj.ml" 324 13162 13217 "gObj.ml" 324 13162 13225
+type(
+  (Gtk.widget, Gtk.container Gtk.obj option) Gobject.property
+)
+ident(
+  ext_ref P.parent
+)
+"gObj.ml" 324 13162 13226 "gObj.ml" 324 13162 13229
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 324 13162 13212 "gObj.ml" 324 13162 13230
+call(
+  stack
+)
+type(
+  Gtk.container Gtk.obj option
+)
+"gObj.ml" 324 13162 13166 "gObj.ml" 324 13162 13230
+call(
+  tail
+)
+type(
+  widget option
+)
+type(
+  widget option
+)
+"gObj.ml" 325 13231 13253 "gObj.ml" 325 13231 13270
+type(
+  Gtk.widget Gtk.obj -> Gtk.rectangle
+)
+ident(
+  ext_ref Widget.allocation
+)
+"gObj.ml" 325 13231 13271 "gObj.ml" 325 13231 13274
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 325 13231 13253 "gObj.ml" 325 13231 13274
+type(
+  Gtk.rectangle
+)
+type(
+  Gtk.rectangle
+)
+"gObj.ml" 326 13275 13300 "gObj.ml" 326 13275 13318
+type(
+  Pango.context -> GPango.context
+)
+"gObj.ml" 326 13275 13320 "gObj.ml" 326 13275 13344
+type(
+  Gtk.widget Gtk.obj -> Pango.context
+)
+ident(
+  ext_ref Widget.get_pango_context
+)
+"gObj.ml" 326 13275 13345 "gObj.ml" 326 13275 13348
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 326 13275 13319 "gObj.ml" 326 13275 13349
+type(
+  Pango.context
+)
+"gObj.ml" 326 13275 13300 "gObj.ml" 326 13275 13349
+call(
+  tail
+)
+type(
+  GPango.context
+)
+type(
+  GPango.context
+)
+"gObj.ml" 328 13363 13385 "gObj.ml" 328 13363 13391
+type(
+  string option
+)
+ident(
+  def detail "gObj.ml" 328 13363 13392 "gObj.ml" 329 13403 13466
+)
+"gObj.ml" 328 13363 13393 "gObj.ml" 328 13363 13397
+type(
+  Gtk.Tags.icon_size
+)
+ident(
+  def size "gObj.ml" 328 13363 13398 "gObj.ml" 329 13403 13466
+)
+"gObj.ml" 328 13363 13398 "gObj.ml" 328 13363 13400
+type(
+  GtkStock.id
+)
+ident(
+  def id "gObj.ml" 329 13403 13407 "gObj.ml" 329 13403 13466
+)
+"gObj.ml" 329 13403 13407 "gObj.ml" 329 13403 13425
+type(
+  Gtk.widget Gtk.obj ->
+  string -> Gtk.Tags.icon_size -> string option -> GdkPixbuf.pixbuf
+)
+ident(
+  ext_ref Widget.render_icon
+)
+"gObj.ml" 329 13403 13426 "gObj.ml" 329 13403 13429
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 329 13403 13431 "gObj.ml" 329 13403 13450
+type(
+  GtkStock.id -> string
+)
+ident(
+  ext_ref GtkStock.convert_id
+)
+"gObj.ml" 329 13403 13451 "gObj.ml" 329 13403 13453
+type(
+  GtkStock.id
+)
+ident(
+  int_ref id "gObj.ml" 328 13363 13398 "gObj.ml" 328 13363 13400
+)
+"gObj.ml" 329 13403 13430 "gObj.ml" 329 13403 13454
+call(
+  stack
+)
+type(
+  string
+)
+"gObj.ml" 329 13403 13455 "gObj.ml" 329 13403 13459
+type(
+  Gtk.Tags.icon_size
+)
+ident(
+  int_ref size "gObj.ml" 328 13363 13393 "gObj.ml" 328 13363 13397
+)
+"gObj.ml" 329 13403 13460 "gObj.ml" 329 13403 13466
+type(
+  string option
+)
+ident(
+  int_ref detail "gObj.ml" 328 13363 13385 "gObj.ml" 328 13363 13391
+)
+"gObj.ml" 329 13403 13407 "gObj.ml" 329 13403 13466
+type(
+  GdkPixbuf.pixbuf
+)
+"gObj.ml" 331 13485 13513 "gObj.ml" 331 13485 13519
+type(
+  string
+)
+ident(
+  def target "gObj.ml" 331 13485 13520 "gObj.ml" 332 13545 13614
+)
+"gObj.ml" 331 13485 13522 "gObj.ml" 331 13485 13526
+type(
+  int32
+)
+"gObj.ml" 331 13485 13527 "gObj.ml" 331 13485 13537
+type(
+  int32
+)
+ident(
+  ext_ref Int32.zero
+)
+type(
+  int32
+)
+ident(
+  int_ref *sth* "gObj.ml" 331 13485 13527 "gObj.ml" 331 13485 13537
+)
+type(
+  int32 option
+)
+type(
+  int32 option
+)
+type(
+  int32
+)
+ident(
+  def *sth* "gObj.ml" 331 13485 13527 "gObj.ml" 331 13485 13537
+)
+"gObj.ml" 331 13485 13539 "gObj.ml" 331 13485 13542
+type(
+  Gdk.atom
+)
+ident(
+  def sel "gObj.ml" 332 13545 13549 "gObj.ml" 332 13545 13614
+)
+"gObj.ml" 332 13545 13549 "gObj.ml" 332 13545 13566
+type(
+  Gtk.widget Gtk.obj -> sel:Gdk.atom -> target:Gdk.atom -> time:int32 -> bool
+)
+ident(
+  ext_ref GtkBase.Selection.convert
+)
+"gObj.ml" 332 13545 13567 "gObj.ml" 332 13545 13570
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 332 13545 13572 "gObj.ml" 332 13545 13575
+type(
+  Gdk.atom
+)
+ident(
+  int_ref sel "gObj.ml" 331 13485 13539 "gObj.ml" 331 13485 13542
+)
+"gObj.ml" 332 13545 13585 "gObj.ml" 332 13545 13600
+type(
+  ?dont_create:bool -> string -> Gdk.atom
+)
+ident(
+  ext_ref Gdk.Atom.intern
+)
+"gObj.ml" 332 13545 13601 "gObj.ml" 332 13545 13607
+type(
+  string
+)
+ident(
+  int_ref target "gObj.ml" 331 13485 13513 "gObj.ml" 331 13485 13519
+)
+"gObj.ml" 332 13545 13584 "gObj.ml" 332 13545 13608
+call(
+  stack
+)
+type(
+  Gdk.atom
+)
+"gObj.ml" 332 13545 13610 "gObj.ml" 332 13545 13614
+type(
+  int32
+)
+ident(
+  int_ref time "gObj.ml" 331 13485 13522 "gObj.ml" 331 13485 13526
+)
+"gObj.ml" 332 13545 13549 "gObj.ml" 332 13545 13614
+type(
+  bool
+)
+"gObj.ml" 333 13615 13641 "gObj.ml" 333 13615 13645
+type(
+  int32
+)
+"gObj.ml" 333 13615 13646 "gObj.ml" 333 13615 13656
+type(
+  int32
+)
+ident(
+  ext_ref Int32.zero
+)
+type(
+  int32
+)
+ident(
+  int_ref *sth* "gObj.ml" 333 13615 13646 "gObj.ml" 333 13615 13656
+)
+type(
+  int32 option
+)
+type(
+  int32 option
+)
+type(
+  int32
+)
+ident(
+  def *sth* "gObj.ml" 333 13615 13646 "gObj.ml" 333 13615 13656
+)
+"gObj.ml" 333 13615 13658 "gObj.ml" 333 13615 13661
+type(
+  Gdk.atom
+)
+ident(
+  def sel "gObj.ml" 334 13664 13668 "gObj.ml" 334 13664 13702
+)
+"gObj.ml" 334 13664 13668 "gObj.ml" 334 13664 13687
+type(
+  Gtk.widget Gtk.obj -> sel:Gdk.atom -> time:int32 -> bool
+)
+ident(
+  ext_ref GtkBase.Selection.owner_set
+)
+"gObj.ml" 334 13664 13688 "gObj.ml" 334 13664 13691
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 334 13664 13693 "gObj.ml" 334 13664 13696
+type(
+  Gdk.atom
+)
+ident(
+  int_ref sel "gObj.ml" 333 13615 13658 "gObj.ml" 333 13615 13661
+)
+"gObj.ml" 334 13664 13698 "gObj.ml" 334 13664 13702
+type(
+  int32
+)
+ident(
+  int_ref time "gObj.ml" 333 13615 13641 "gObj.ml" 333 13615 13645
+)
+"gObj.ml" 334 13664 13668 "gObj.ml" 334 13664 13702
+type(
+  bool
+)
+"gObj.ml" 335 13703 13734 "gObj.ml" 335 13703 13740
+type(
+  string
+)
+ident(
+  def target "gObj.ml" 335 13703 13741 "gObj.ml" 336 13757 13829
+)
+"gObj.ml" 335 13703 13743 "gObj.ml" 335 13703 13747
+type(
+  int
+)
+"gObj.ml" 335 13703 13748 "gObj.ml" 335 13703 13749
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gObj.ml" 335 13703 13748 "gObj.ml" 335 13703 13749
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gObj.ml" 335 13703 13748 "gObj.ml" 335 13703 13749
+)
+"gObj.ml" 335 13703 13751 "gObj.ml" 335 13703 13754
+type(
+  Gdk.atom
+)
+ident(
+  def sel "gObj.ml" 336 13757 13761 "gObj.ml" 336 13757 13829
+)
+"gObj.ml" 336 13757 13761 "gObj.ml" 336 13757 13781
+type(
+  Gtk.widget Gtk.obj -> sel:Gdk.atom -> target:Gdk.atom -> info:int -> unit
+)
+ident(
+  ext_ref GtkBase.Selection.add_target
+)
+"gObj.ml" 336 13757 13782 "gObj.ml" 336 13757 13785
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 336 13757 13787 "gObj.ml" 336 13757 13790
+type(
+  Gdk.atom
+)
+ident(
+  int_ref sel "gObj.ml" 335 13703 13751 "gObj.ml" 335 13703 13754
+)
+"gObj.ml" 336 13757 13800 "gObj.ml" 336 13757 13815
+type(
+  ?dont_create:bool -> string -> Gdk.atom
+)
+ident(
+  ext_ref Gdk.Atom.intern
+)
+"gObj.ml" 336 13757 13816 "gObj.ml" 336 13757 13822
+type(
+  string
+)
+ident(
+  int_ref target "gObj.ml" 335 13703 13734 "gObj.ml" 335 13703 13740
+)
+"gObj.ml" 336 13757 13799 "gObj.ml" 336 13757 13823
+call(
+  stack
+)
+type(
+  Gdk.atom
+)
+"gObj.ml" 336 13757 13825 "gObj.ml" 336 13757 13829
+type(
+  int
+)
+ident(
+  int_ref info "gObj.ml" 335 13703 13743 "gObj.ml" 335 13703 13747
+)
+"gObj.ml" 336 13757 13761 "gObj.ml" 336 13757 13829
+type(
+  unit
+)
+"gObj.ml" 337 13830 13863 "gObj.ml" 337 13830 13866
+type(
+  Gdk.atom
+)
+ident(
+  def sel "gObj.ml" 337 13830 13869 "gObj.ml" 337 13830 13901
+)
+"gObj.ml" 337 13830 13869 "gObj.ml" 337 13830 13892
+type(
+  Gtk.widget Gtk.obj -> sel:Gdk.atom -> unit
+)
+ident(
+  ext_ref GtkBase.Selection.clear_targets
+)
+"gObj.ml" 337 13830 13893 "gObj.ml" 337 13830 13896
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 337 13830 13898 "gObj.ml" 337 13830 13901
+type(
+  Gdk.atom
+)
+ident(
+  int_ref sel "gObj.ml" 337 13830 13863 "gObj.ml" 337 13830 13866
+)
+"gObj.ml" 337 13830 13869 "gObj.ml" 337 13830 13901
+type(
+  unit
+)
+"gObj.ml" 339 13918 13941 "gObj.ml" 339 13918 13944
+type(
+  (Gtk.widget, bool) Gobject.property -> Gtk.widget Gtk.obj -> bool
+)
+ident(
+  ext_ref Gobject.get
+)
+"gObj.ml" 339 13918 13945 "gObj.ml" 339 13918 13958
+type(
+  (Gtk.widget, bool) Gobject.property
+)
+ident(
+  ext_ref P.has_tooltip
+)
+"gObj.ml" 339 13918 13959 "gObj.ml" 339 13918 13962
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 339 13918 13941 "gObj.ml" 339 13918 13962
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"gObj.ml" 340 13963 13989 "gObj.ml" 340 13963 13992
+type(
+  (Gtk.widget, string) Gobject.property -> Gtk.widget Gtk.obj -> string
+)
+ident(
+  ext_ref Gobject.get
+)
+"gObj.ml" 340 13963 13993 "gObj.ml" 340 13963 14009
+type(
+  (Gtk.widget, string) Gobject.property
+)
+ident(
+  ext_ref P.tooltip_markup
+)
+"gObj.ml" 340 13963 14010 "gObj.ml" 340 13963 14013
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 340 13963 13989 "gObj.ml" 340 13963 14013
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"gObj.ml" 341 14014 14038 "gObj.ml" 341 14014 14041
+type(
+  (Gtk.widget, string) Gobject.property -> Gtk.widget Gtk.obj -> string
+)
+ident(
+  ext_ref Gobject.get
+)
+"gObj.ml" 341 14014 14042 "gObj.ml" 341 14014 14056
+type(
+  (Gtk.widget, string) Gobject.property
+)
+ident(
+  ext_ref P.tooltip_text
+)
+"gObj.ml" 341 14014 14057 "gObj.ml" 341 14014 14060
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 341 14014 14038 "gObj.ml" 341 14014 14060
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"gObj.ml" 342 14061 14088 "gObj.ml" 342 14061 14091
+type(
+  (Gtk.widget, bool) Gobject.property -> Gtk.widget Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gObj.ml" 342 14061 14092 "gObj.ml" 342 14061 14105
+type(
+  (Gtk.widget, bool) Gobject.property
+)
+ident(
+  ext_ref P.has_tooltip
+)
+"gObj.ml" 342 14061 14106 "gObj.ml" 342 14061 14109
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 342 14061 14088 "gObj.ml" 342 14061 14109
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gObj.ml" 343 14110 14140 "gObj.ml" 343 14110 14143
+type(
+  (Gtk.widget, string) Gobject.property ->
+  Gtk.widget Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gObj.ml" 343 14110 14144 "gObj.ml" 343 14110 14160
+type(
+  (Gtk.widget, string) Gobject.property
+)
+ident(
+  ext_ref P.tooltip_markup
+)
+"gObj.ml" 343 14110 14161 "gObj.ml" 343 14110 14164
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 343 14110 14140 "gObj.ml" 343 14110 14164
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gObj.ml" 344 14165 14193 "gObj.ml" 344 14165 14196
+type(
+  (Gtk.widget, string) Gobject.property ->
+  Gtk.widget Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gObj.ml" 344 14165 14197 "gObj.ml" 344 14165 14211
+type(
+  (Gtk.widget, string) Gobject.property
+)
+ident(
+  ext_ref P.tooltip_text
+)
+"gObj.ml" 344 14165 14212 "gObj.ml" 344 14165 14215
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 344 14165 14193 "gObj.ml" 344 14165 14215
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gObj.ml" 347 14221 14232 "gObj.ml" 347 14221 14235
+type(
+  'd Gtk.obj
+)
+"gObj.ml" 347 14221 14245 "gObj.ml" 347 14221 14251
+type(
+  < as_widget : Gtk.widget Gtk.obj; coerce : widget; destroy : unit -> unit;
+    drag : drag_ops; get_oid : int; misc : misc_ops; .. >
+)
+"gObj.ml" 348 14252 14269 "gObj.ml" 348 14252 14272
+type(
+  'd Gtk.obj
+)
+ident(
+  int_ref obj "gObj.ml" 347 14221 14232 "gObj.ml" 347 14221 14235
+)
+"gObj.ml" 349 14273 14295 "gObj.ml" 349 14273 14298
+type(
+  Gtk.widget Gtk.obj
+)
+type(
+  Gtk.widget Gtk.obj
+)
+type(
+  'd Gtk.obj
+)
+"gObj.ml" 350 14318 14334 "gObj.ml" 350 14318 14346
+type(
+  Gtk.widget Gtk.obj -> misc_ops
+)
+"gObj.ml" 350 14318 14348 "gObj.ml" 350 14318 14351
+type(
+  Gtk.widget Gtk.obj
+)
+type(
+  'd Gtk.obj
+)
+"gObj.ml" 350 14318 14334 "gObj.ml" 350 14318 14370
+call(
+  tail
+)
+type(
+  misc_ops
+)
+type(
+  misc_ops
+)
+"gObj.ml" 351 14371 14387 "gObj.ml" 351 14371 14399
+type(
+  Gtk.widget Gtk.obj -> drag_ops
+)
+"gObj.ml" 351 14371 14401 "gObj.ml" 351 14371 14412
+type(
+  'd Gtk.obj -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref Gobject.unsafe_cast
+)
+"gObj.ml" 351 14371 14413 "gObj.ml" 351 14371 14416
+type(
+  'd Gtk.obj
+)
+"gObj.ml" 351 14371 14401 "gObj.ml" 351 14371 14416
+type(
+  Gtk.widget Gtk.obj
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 351 14371 14387 "gObj.ml" 351 14371 14434
+call(
+  tail
+)
+type(
+  drag_ops
+)
+type(
+  drag_ops
+)
+"gObj.ml" 352 14435 14454 "gObj.ml" 352 14435 14458
+type(
+  widget
+)
+type(
+  widget
+)
+type(
+  < as_widget : Gtk.widget Gtk.obj; coerce : widget; destroy : unit -> unit;
+    drag : drag_ops; get_oid : int; misc : misc_ops; .. >
+  as 'h
+)
+"gObj.ml" 356 14543 14556 "gObj.ml" 356 14543 14557
+type(
+  misc_ops
+)
+ident(
+  def x "gObj.ml" 356 14543 14580 "gObj.ml" 356 14543 14594
+)
+"gObj.ml" 356 14543 14581 "gObj.ml" 356 14543 14582
+type(
+  misc_ops
+)
+type(
+  misc_ops
+)
+ident(
+  int_ref x "gObj.ml" 356 14543 14556 "gObj.ml" 356 14543 14557
+)
+"gObj.ml" 356 14543 14551 "gObj.ml" 356 14543 14594
+type(
+  misc_ops -> misc_ops
+)
+"gObj.ml" 358 14596 14623 "gObj.ml" 358 14596 14626
+type(
+  [> Gtk.widget ] Gtk.obj
+)
+"gObj.ml" 358 14596 14670 "gObj.ml" 358 14596 14673
+type(
+  ([> Gtk.widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gObj.ml" 358 14596 14623 "gObj.ml" 358 14596 14626
+)
+"gObj.ml" 362 14719 14743 "gObj.ml" 362 14719 14746
+type(
+  [> Gtk.widget ] Gtk.obj
+)
+"gObj.ml" 362 14719 14766 "gObj.ml" 362 14719 14769
+type(
+  ([> Gtk.widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gObj.ml" 362 14719 14743 "gObj.ml" 362 14719 14746
+)
+"gObj.ml" 364 14771 14789 "gObj.ml" 364 14771 14792
+type(
+  [> Gtk.widget ] Gtk.obj
+)
+"gObj.ml" 365 14802 14819 "gObj.ml" 365 14802 14822
+type(
+  ([> Gtk.widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gObj.ml" 364 14771 14789 "gObj.ml" 364 14771 14792
+)
+"gObj.ml" 366 14823 14842 "gObj.ml" 366 14823 14865
+type(
+  'a Gtk.obj -> widget_signals_impl
+)
+"gObj.ml" 366 14823 14866 "gObj.ml" 366 14823 14869
+type(
+  'a Gtk.obj
+)
+"gObj.ml" 366 14823 14842 "gObj.ml" 366 14823 14869
+call(
+  tail
+)
+type(
+  widget_signals_impl
+)
+type(
+  widget_signals_impl
+)
+"gObj.ml" 369 14875 14879 "gObj.ml" 369 14875 14888
+type(
+  widget -> Gtk.widget Gtk.obj
+)
+ident(
+  def as_widget "gObj.ml" 371 14917 14917 --
+)
+"gObj.ml" 369 14875 14890 "gObj.ml" 369 14875 14891
+type(
+  widget
+)
+ident(
+  def w "gObj.ml" 369 14875 14904 "gObj.ml" 369 14875 14915
+)
+"gObj.ml" 369 14875 14904 "gObj.ml" 369 14875 14905
+type(
+  widget
+)
+ident(
+  int_ref w "gObj.ml" 369 14875 14890 "gObj.ml" 369 14875 14891
+)
+"gObj.ml" 369 14875 14904 "gObj.ml" 369 14875 14915
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gObj.ml" 371 14917 14921 "gObj.ml" 371 14917 14932
+type(
+  'a Gobject.obj -> widget
+)
+ident(
+  def wrap_widget "gObj.ml" 372 14964 14964 --
+)
+"gObj.ml" 371 14917 14933 "gObj.ml" 371 14917 14934
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gObj.ml" 371 14917 14937 "gObj.ml" 371 14917 14963
+)
+"gObj.ml" 371 14917 14937 "gObj.ml" 371 14917 14947
+type(
+  _[> Gtk.widget ] Gtk.obj -> widget
+)
+"gObj.ml" 371 14917 14949 "gObj.ml" 371 14917 14960
+type(
+  'a Gobject.obj -> (_[> Gtk.widget ] as 'b) Gtk.obj
+)
+ident(
+  ext_ref Gobject.unsafe_cast
+)
+"gObj.ml" 371 14917 14961 "gObj.ml" 371 14917 14962
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gObj.ml" 371 14917 14933 "gObj.ml" 371 14917 14934
+)
+"gObj.ml" 371 14917 14948 "gObj.ml" 371 14917 14963
+type(
+  'b Gtk.obj
+)
+"gObj.ml" 371 14917 14937 "gObj.ml" 371 14917 14963
+call(
+  tail
+)
+type(
+  widget
+)
+"gObj.ml" 372 14964 14968 "gObj.ml" 372 14964 14981
+type(
+  < as_widget : 'a Gobject.obj; .. > -> 'b Gobject.obj
+)
+ident(
+  def unwrap_widget "gObj.ml" 373 15010 15010 --
+)
+"gObj.ml" 372 14964 14982 "gObj.ml" 372 14964 14983
+type(
+  < as_widget : 'a Gobject.obj; .. > as 'c
+)
+ident(
+  def w "gObj.ml" 372 14964 14986 "gObj.ml" 372 14964 15009
+)
+"gObj.ml" 372 14964 14986 "gObj.ml" 372 14964 14997
+type(
+  'a Gobject.obj -> 'b Gobject.obj
+)
+ident(
+  ext_ref Gobject.unsafe_cast
+)
+"gObj.ml" 372 14964 14998 "gObj.ml" 372 14964 14999
+type(
+  'c
+)
+ident(
+  int_ref w "gObj.ml" 372 14964 14982 "gObj.ml" 372 14964 14983
+)
+"gObj.ml" 372 14964 14998 "gObj.ml" 372 14964 15009
+call(
+  tail
+)
+type(
+  'a Gobject.obj
+)
+"gObj.ml" 372 14964 14986 "gObj.ml" 372 14964 15009
+type(
+  'b Gobject.obj
+)
+"gObj.ml" 373 15010 15014 "gObj.ml" 373 15010 15032
+type(
+  widget option Gobject.data_conv
+)
+ident(
+  def conv_widget_option "gObj.ml" 378 15221 15221 --
+)
+"gObj.ml" 374 15035 15046 "gObj.ml" 374 15035 15053
+type(
+  Gobject.data_kind
+)
+"gObj.ml" 375 15055 15084 "gObj.ml" 375 15055 15085
+type(
+  unit Gobject.obj option
+)
+ident(
+  def c "gObj.ml" 375 15055 15089 "gObj.ml" 375 15055 15113
+)
+"gObj.ml" 375 15055 15076 "gObj.ml" 375 15055 15085
+type(
+  Gobject.data_conv_get
+)
+"gObj.ml" 375 15055 15089 "gObj.ml" 375 15055 15096
+type(
+  f:(unit Gobject.obj -> widget) -> unit Gobject.obj option -> widget option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gObj.ml" 375 15055 15100 "gObj.ml" 375 15055 15111
+type(
+  unit Gobject.obj -> widget
+)
+ident(
+  int_ref wrap_widget "gObj.ml" 371 14917 14921 "gObj.ml" 371 14917 14932
+)
+"gObj.ml" 375 15055 15112 "gObj.ml" 375 15055 15113
+type(
+  unit Gobject.obj option
+)
+ident(
+  int_ref c "gObj.ml" 375 15055 15084 "gObj.ml" 375 15055 15085
+)
+"gObj.ml" 375 15055 15089 "gObj.ml" 375 15055 15113
+call(
+  tail
+)
+type(
+  widget option
+)
+"gObj.ml" 376 15114 15127 "gObj.ml" 376 15114 15128
+type(
+  Gobject.data_conv_get
+)
+"gObj.ml" 376 15114 15132 "gObj.ml" 376 15114 15140
+type(
+  string -> widget option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gObj.ml" 376 15114 15141 "gObj.ml" 376 15114 15158
+type(
+  string
+)
+"gObj.ml" 376 15114 15132 "gObj.ml" 376 15114 15158
+call(
+  tail
+)
+type(
+  widget option
+)
+"gObj.ml" 375 15055 15066 "gObj.ml" 376 15114 15159
+type(
+  Gobject.data_conv_get -> widget option
+)
+"gObj.ml" 377 15161 15176 "gObj.ml" 377 15161 15177
+type(
+  widget option
+)
+ident(
+  def c "gObj.ml" 377 15161 15181 "gObj.ml" 377 15161 15217
+)
+"gObj.ml" 377 15161 15190 "gObj.ml" 377 15161 15197
+type(
+  f:(widget -> unit Gobject.obj) -> widget option -> unit Gobject.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gObj.ml" 377 15161 15201 "gObj.ml" 377 15161 15214
+type(
+  widget -> unit Gobject.obj
+)
+ident(
+  int_ref unwrap_widget "gObj.ml" 372 14964 14968 "gObj.ml" 372 14964 14981
+)
+"gObj.ml" 377 15161 15215 "gObj.ml" 377 15161 15216
+type(
+  widget option
+)
+ident(
+  int_ref c "gObj.ml" 377 15161 15176 "gObj.ml" 377 15161 15177
+)
+"gObj.ml" 377 15161 15189 "gObj.ml" 377 15161 15217
+call(
+  stack
+)
+type(
+  unit Gobject.obj option
+)
+"gObj.ml" 377 15161 15181 "gObj.ml" 377 15161 15217
+type(
+  unit Gobject.data_set
+)
+"gObj.ml" 377 15161 15171 "gObj.ml" 377 15161 15218
+type(
+  widget option -> unit Gobject.data_set
+)
+"gObj.ml" 374 15035 15037 "gObj.ml" 377 15161 15220
+type(
+  widget option Gobject.data_conv
+)
+"gObj.ml" 378 15221 15225 "gObj.ml" 378 15221 15236
+type(
+  widget Gobject.data_conv
+)
+ident(
+  def conv_widget "gObj.ml" 386 15468 15468 --
+)
+"gObj.ml" 379 15239 15250 "gObj.ml" 379 15239 15257
+type(
+  Gobject.data_kind
+)
+"gObj.ml" 380 15259 15294 "gObj.ml" 380 15259 15295
+type(
+  unit Gobject.obj
+)
+ident(
+  def c "gObj.ml" 380 15259 15300 "gObj.ml" 380 15259 15313
+)
+"gObj.ml" 380 15259 15288 "gObj.ml" 380 15259 15296
+type(
+  unit Gobject.obj option
+)
+"gObj.ml" 380 15259 15280 "gObj.ml" 380 15259 15296
+type(
+  Gobject.data_conv_get
+)
+"gObj.ml" 380 15259 15300 "gObj.ml" 380 15259 15311
+type(
+  unit Gobject.obj -> widget
+)
+ident(
+  int_ref wrap_widget "gObj.ml" 371 14917 14921 "gObj.ml" 371 14917 14932
+)
+"gObj.ml" 380 15259 15312 "gObj.ml" 380 15259 15313
+type(
+  unit Gobject.obj
+)
+ident(
+  int_ref c "gObj.ml" 380 15259 15294 "gObj.ml" 380 15259 15295
+)
+"gObj.ml" 380 15259 15300 "gObj.ml" 380 15259 15313
+call(
+  tail
+)
+type(
+  widget
+)
+"gObj.ml" 381 15314 15335 "gObj.ml" 381 15314 15339
+type(
+  unit Gobject.obj option
+)
+"gObj.ml" 381 15314 15327 "gObj.ml" 381 15314 15339
+type(
+  Gobject.data_conv_get
+)
+"gObj.ml" 381 15314 15343 "gObj.ml" 381 15314 15348
+type(
+  exn -> widget
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gObj.ml" 381 15314 15349 "gObj.ml" 381 15314 15362
+type(
+  exn
+)
+"gObj.ml" 381 15314 15343 "gObj.ml" 381 15314 15362
+type(
+  widget
+)
+"gObj.ml" 382 15363 15376 "gObj.ml" 382 15363 15377
+type(
+  Gobject.data_conv_get
+)
+"gObj.ml" 382 15363 15381 "gObj.ml" 382 15363 15389
+type(
+  string -> widget
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gObj.ml" 382 15363 15390 "gObj.ml" 382 15363 15407
+type(
+  string
+)
+"gObj.ml" 382 15363 15381 "gObj.ml" 382 15363 15407
+call(
+  tail
+)
+type(
+  widget
+)
+"gObj.ml" 380 15259 15270 "gObj.ml" 382 15363 15408
+type(
+  Gobject.data_conv_get -> widget
+)
+"gObj.ml" 383 15410 15425 "gObj.ml" 383 15410 15426
+type(
+  widget
+)
+ident(
+  def c "gObj.ml" 383 15410 15430 "gObj.ml" 383 15410 15462
+)
+"gObj.ml" 383 15410 15445 "gObj.ml" 383 15410 15458
+type(
+  widget -> unit Gobject.obj
+)
+ident(
+  int_ref unwrap_widget "gObj.ml" 372 14964 14968 "gObj.ml" 372 14964 14981
+)
+"gObj.ml" 383 15410 15459 "gObj.ml" 383 15410 15460
+type(
+  widget
+)
+ident(
+  int_ref c "gObj.ml" 383 15410 15425 "gObj.ml" 383 15410 15426
+)
+"gObj.ml" 383 15410 15444 "gObj.ml" 383 15410 15461
+call(
+  stack
+)
+type(
+  unit Gobject.obj
+)
+"gObj.ml" 383 15410 15438 "gObj.ml" 383 15410 15462
+type(
+  unit Gobject.obj option
+)
+"gObj.ml" 383 15410 15430 "gObj.ml" 383 15410 15462
+type(
+  unit Gobject.data_set
+)
+"gObj.ml" 383 15410 15420 "gObj.ml" 383 15410 15463
+type(
+  widget -> unit Gobject.data_set
+)
+"gObj.ml" 379 15239 15241 "gObj.ml" 383 15410 15465
+type(
+  widget Gobject.data_conv
+)
+"gObj.ml" 386 15468 15472 "gObj.ml" 386 15468 15483
+type(
+  (< as_widget : [> Gtk.widget ] Gobject.obj; coerce : #widget;
+     destroy : unit -> unit; drag : #drag_ops; get_oid : int;
+     misc : #misc_ops; .. >
+   as 'a) ->
+  packing:(widget -> unit) option -> show:bool option -> 'a
+)
+ident(
+  def pack_return "gObj.ml" 389 15611 15617 --
+)
+"gObj.ml" 386 15468 15484 "gObj.ml" 386 15468 15488
+type(
+  'a
+)
+ident(
+  def self "gObj.ml" 386 15468 15489 "gObj.ml" 389 15611 15617
+)
+"gObj.ml" 386 15468 15490 "gObj.ml" 386 15468 15497
+type(
+  (widget -> unit) option
+)
+ident(
+  def packing "gObj.ml" 386 15468 15498 "gObj.ml" 389 15611 15617
+)
+"gObj.ml" 386 15468 15499 "gObj.ml" 386 15468 15503
+type(
+  bool option
+)
+ident(
+  def show "gObj.ml" 387 15506 15508 "gObj.ml" 389 15611 15617
+)
+"gObj.ml" 387 15506 15508 "gObj.ml" 387 15506 15511
+type(
+  f:((widget -> unit) -> unit) -> (widget -> unit) option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gObj.ml" 387 15506 15512 "gObj.ml" 387 15506 15519
+type(
+  (widget -> unit) option
+)
+ident(
+  int_ref packing "gObj.ml" 386 15468 15490 "gObj.ml" 386 15468 15497
+)
+"gObj.ml" 387 15506 15528 "gObj.ml" 387 15506 15529
+type(
+  widget -> unit
+)
+ident(
+  def f "gObj.ml" 387 15506 15533 "gObj.ml" 387 15506 15560
+)
+"gObj.ml" 387 15506 15534 "gObj.ml" 387 15506 15535
+type(
+  widget -> unit
+)
+ident(
+  int_ref f "gObj.ml" 387 15506 15528 "gObj.ml" 387 15506 15529
+)
+"gObj.ml" 387 15506 15537 "gObj.ml" 387 15506 15541
+type(
+  widget
+)
+type(
+  'a
+)
+ident(
+  int_ref self "gObj.ml" 386 15468 15484 "gObj.ml" 386 15468 15488
+)
+"gObj.ml" 387 15506 15534 "gObj.ml" 387 15506 15552
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"gObj.ml" 387 15506 15523 "gObj.ml" 387 15506 15561
+type(
+  (widget -> unit) -> unit
+)
+"gObj.ml" 387 15506 15508 "gObj.ml" 387 15506 15561
+call(
+  stack
+)
+type(
+  unit
+)
+"gObj.ml" 388 15563 15568 "gObj.ml" 388 15563 15572
+type(
+  bool option
+)
+ident(
+  int_ref show "gObj.ml" 386 15468 15499 "gObj.ml" 386 15468 15503
+)
+"gObj.ml" 388 15563 15573 "gObj.ml" 388 15563 15575
+type(
+  bool option -> bool option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gObj.ml" 388 15563 15581 "gObj.ml" 388 15563 15586
+type(
+  bool
+)
+"gObj.ml" 388 15563 15576 "gObj.ml" 388 15563 15586
+type(
+  bool option
+)
+"gObj.ml" 388 15563 15568 "gObj.ml" 388 15563 15586
+type(
+  bool
+)
+"gObj.ml" 388 15563 15592 "gObj.ml" 388 15563 15596
+type(
+  'a
+)
+ident(
+  int_ref self "gObj.ml" 386 15468 15484 "gObj.ml" 386 15468 15488
+)
+"gObj.ml" 388 15563 15592 "gObj.ml" 388 15563 15601
+call(
+  stack
+)
+type(
+  #misc_ops as 'b
+)
+"gObj.ml" 388 15563 15592 "gObj.ml" 388 15563 15606
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gObj.ml" 388 15563 15607 "gObj.ml" 388 15563 15609
+type(
+  unit
+)
+"gObj.ml" 388 15563 15592 "gObj.ml" 388 15563 15609
+type(
+  unit
+)
+"gObj.ml" 388 15563 15565 "gObj.ml" 388 15563 15609
+type(
+  unit
+)
+"gObj.ml" 389 15611 15613 "gObj.ml" 389 15611 15617
+type(
+  'a
+)
+ident(
+  int_ref self "gObj.ml" 386 15468 15484 "gObj.ml" 386 15468 15488
+)
+"gObj.ml" 388 15563 15565 "gObj.ml" 389 15611 15617
+type(
+  'a
+)
+"gObj.ml" 387 15506 15508 "gObj.ml" 389 15611 15617
+type(
+  'a
+)

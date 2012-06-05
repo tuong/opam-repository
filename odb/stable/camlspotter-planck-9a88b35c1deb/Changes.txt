@@ -1,0 +1,6 @@
+v1.0.1
+	- The initial OASIS support
+	- ocaml/ example is not compiled if there is no ocaml/ocaml/VERSION exists
+
+v1.0.0
+	- initial release

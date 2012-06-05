@@ -1,0 +1,52 @@
+OASISFormat: 0.2
+Name:        ocamlnet
+Version:     3.4.1-oasis3
+Synopsis:    Internet protocols and helper data structures
+Authors:     Gerd Stolpmann et al.
+License:     LGPL-2.1 with OCaml linking exception
+LicenseFile: LGPL
+ConfType:    custom (0.2)
+BuildType:   custom (0.2)
+InstallType: custom (0.2)
+BuildTools:  make
+
+XCustomConf: touch setup.data && ./configure
+XCustomBuild: make all opt
+XCustomInstall: make install
+XCustomUninstall: make uninstall
+
+Library "netcamlbox"
+  Path: src/
+
+Library "netcgi2"
+  Path: src/
+
+Library "netcgi2-plex"
+  Path: src/
+
+Library "netclient"
+  Path: src/
+
+Library "netmulticore"
+  Path: src/
+
+Library "netplex"
+  Path: src/
+
+Library "netshm"
+  Path: src/
+
+Library "netstring"
+  Path: src/
+
+Library "netsys"
+  Path: src/
+
+Library "pop"
+  Path: src/
+
+Library "shell"
+  Path: src/
+
+Library "smtp"
+  Path: src/

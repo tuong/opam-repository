@@ -1,0 +1,35 @@
+# OASIS_START
+# DO NOT EDIT (digest: 00b3b2608c583b40462e9eec19afe221)
+# Ignore VCS directories, you can use the same kind of rule outside 
+# OASIS_START/STOP if you want to exclude directories that contains 
+# useless stuff for the build process
+<**/.svn>: -traverse
+<**/.svn>: not_hygienic
+".bzr": -traverse
+".bzr": not_hygienic
+".hg": -traverse
+".hg": not_hygienic
+".git": -traverse
+".git": not_hygienic
+"_darcs": -traverse
+"_darcs": not_hygienic
+# Library odepack
+"src": include
+<src/odepack.{cma,cmxa}>: use_libodepack
+<src/*.ml{,i}>: pkg_bigarray
+"src/odepack_stubs.c": pkg_bigarray
+# Executable lsoda
+<tests/lsoda.{native,byte}>: use_odepack
+<tests/lsoda.{native,byte}>: pkg_bigarray
+# Executable closure
+<tests/closure.{native,byte}>: use_odepack
+<tests/closure.{native,byte}>: pkg_bigarray
+# Executable minimal
+<tests/minimal.{native,byte}>: use_odepack
+<tests/minimal.{native,byte}>: pkg_bigarray
+# Executable pendulum
+<tests/pendulum.{native,byte}>: use_odepack
+<tests/pendulum.{native,byte}>: pkg_bigarray
+<tests/*.ml{,i}>: use_odepack
+<tests/*.ml{,i}>: pkg_bigarray
+# OASIS_STOP

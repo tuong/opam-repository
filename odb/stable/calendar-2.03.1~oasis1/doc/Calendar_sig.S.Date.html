@@ -1,0 +1,599 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="next" href="Calendar_sig.S.Time.html">
+<link rel="Up" href="Calendar_sig.S.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Utils" rel="Chapter" href="Utils.html">
+<link title="Time_Zone" rel="Chapter" href="Time_Zone.html">
+<link title="Period" rel="Chapter" href="Period.html">
+<link title="Time_sig" rel="Chapter" href="Time_sig.html">
+<link title="Time" rel="Chapter" href="Time.html">
+<link title="Ftime" rel="Chapter" href="Ftime.html">
+<link title="Date_sig" rel="Chapter" href="Date_sig.html">
+<link title="Date" rel="Chapter" href="Date.html">
+<link title="Calendar_sig" rel="Chapter" href="Calendar_sig.html">
+<link title="Calendar_builder" rel="Chapter" href="Calendar_builder.html">
+<link title="Calendar" rel="Chapter" href="Calendar.html">
+<link title="Fcalendar" rel="Chapter" href="Fcalendar.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Version" rel="Chapter" href="Version.html"><link title="Datatypes" rel="Section" href="#2_Datatypes">
+<link title="Exceptions" rel="Section" href="#2_Exceptions">
+<link title="Constructors" rel="Section" href="#2_Constructors">
+<link title="Getters" rel="Section" href="#2_Getters">
+<link title="Dates are comparable" rel="Section" href="#2_Datesarecomparable">
+<link title="Boolean operations on dates" rel="Section" href="#2_Booleanoperationsondates">
+<link title="Coercions" rel="Section" href="#2_Coercions">
+<link title="Period" rel="Section" href="#2_Period">
+<link title="Arithmetic operations on dates and periods" rel="Section" href="#2_Arithmeticoperationsondatesandperiods">
+<link title="Operations on years" rel="Section" href="#2_Operationsonyears">
+<title>Calendar_sig.S.Date</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a href="Calendar_sig.S.html">Up</a>
+&nbsp;<a href="Calendar_sig.S.Time.html">Next</a>
+</div>
+<center><h1>Module <a href="type_Calendar_sig.S.Date.html">Calendar_sig.S.Date</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Date: <code class="type"><a href="Date_sig.S.html">Date_sig.S</a></code><code class="type"> </code></pre>Date implementation used by this calendar.<br>
+<b>Since</b> 2.0<br>
+<hr width="100%">
+<br>
+<span id="2_Datatypes"><h2>Datatypes</h2></span><br>
+<pre><span id="TYPEfield"><span class="keyword">type</span> <code class="type"></code>field</span> = <code class="type"><a href="Period.html#TYPEdate_field">Period.date_field</a></code> </pre>
+<div class="info">
+The different fields of a date.<br>
+<b>Since</b> 2.02<br>
+</div>
+
+<pre><span id="TYPEdate"><span class="keyword">type</span> <code class="type">-[< <a href="Date_sig.S.html#TYPEfield">field</a> ]</code> date</span> </pre>
+<div class="info">
+Type of a date, without specifying any precision level.<br>
+<b>Since</b> 2.02<br>
+</div>
+
+<pre><span id="TYPEt"><span class="keyword">type</span> <code class="type"></code>t</span> = <code class="type"><a href="Date_sig.S.html#TYPEfield">field</a> <a href="Date_sig.S.html#TYPEdate">date</a></code> </pre>
+<div class="info">
+Type of a date.<br>
+</div>
+
+<br><code><span id="TYPEday"><span class="keyword">type</span> <code class="type"></code>day</span> = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Sun</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Mon</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Tue</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Wed</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Thu</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Fri</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Sat</span></code></td>
+
+</tr></table>
+
+<div class="info">
+Days of the week.<br>
+</div>
+
+<br><code><span id="TYPEmonth"><span class="keyword">type</span> <code class="type"></code>month</span> = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Jan</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Feb</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Mar</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Apr</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">May</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Jun</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Jul</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Aug</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Sep</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Oct</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Nov</span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Dec</span></code></td>
+
+</tr></table>
+
+<div class="info">
+Months of the year.<br>
+</div>
+
+<pre><span id="TYPEyear"><span class="keyword">type</span> <code class="type"></code>year</span> = <code class="type">int</code> </pre>
+<div class="info">
+Year as an <code class="code">int</code>.<br>
+</div>
+
+<br>
+<span id="2_Exceptions"><h2>Exceptions</h2></span><br>
+<pre><span id="EXCEPTIONOut_of_bounds"><span class="keyword">exception</span> Out_of_bounds</span></pre>
+<div class="info">
+Raised when a date is outside the Julian period.<br>
+</div>
+<pre><span id="EXCEPTIONUndefined"><span class="keyword">exception</span> Undefined</span></pre>
+<div class="info">
+Raised when a date belongs to
+	<code class="code">[<span class="constructor">October</span> 5th, 1582; <span class="constructor">October</span> 14th, 1582]</code>.<br>
+</div>
+<br>
+<span id="2_Constructors"><h2>Constructors</h2></span><br>
+<pre><span id="VALmake"><span class="keyword">val</span> make</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> int -> int -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+<code class="code">make year month day</code> makes the date year-month-day. A BC year <code class="code">y</code>
+	corresponds to the year <code class="code">-(y+1)</code>.<br>
+<b>Raises</b><ul><li><code>Out_of_bounds</code> when a date is outside the Julian period.</li>
+<li><code>Undefined</code> when a date belongs to <code class="code">[<span class="constructor">October</span> 5th, 1582; <span class="constructor">October</span>
+	14th, 1582]</code>.</li>
+</ul>
+<b>Example:</b> years (5 BC) and (1 BC) respectively correspond to years
+	(-4) and 0.<br>
+</div>
+<pre><span id="VALlmake"><span class="keyword">val</span> lmake</span> : <code class="type">year:<a href="Date_sig.S.html#TYPEyear">year</a> -> ?month:int -> ?day:int -> unit -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Labelled version of <code class="code">make</code>.
+	The default value of <code class="code">month</code> and <code class="code">day</code> is <code class="code">1</code>.<br>
+<b>Since</b> 1.05<br>
+<b>Raises</b><ul><li><code>Out_of_bounds</code> when a date is outside the Julian period.</li>
+<li><code>Undefined</code> when a date belongs to <code class="code">[<span class="constructor">October</span> 5th, 1582; <span class="constructor">October</span>
+	14th, 1582]</code>.</li>
+</ul>
+</div>
+<pre><span id="VALmake_year"><span class="keyword">val</span> make_year</span> : <code class="type">int -> [< `Year ] <a href="Date_sig.S.html#TYPEdate">date</a></code></pre><div class="info">
+<code class="code">make_year y</code> makes a date only represented by its year <code class="code">y</code>. The month
+	and the day of such a date are not relevant.<br>
+<b>Since</b> 2.02<br>
+</div>
+<pre><span id="VALmake_year_month"><span class="keyword">val</span> make_year_month</span> : <code class="type">int -> int -> [< `Month | `Year ] <a href="Date_sig.S.html#TYPEdate">date</a></code></pre><div class="info">
+<code class="code">make_year_month y m</code> makes a date only represented by its year <code class="code">y</code> and
+	its month <code class="code">m</code>. The day of such a date is not relevant.<br>
+<b>Since</b> 2.02<br>
+</div>
+<pre><span id="VALtoday"><span class="keyword">val</span> today</span> : <code class="type">unit -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Date of the current day (based on <code class="code"><span class="constructor">Time_Zone</span>.current ()</code>).<br>
+</div>
+<pre><span id="VALfrom_jd"><span class="keyword">val</span> from_jd</span> : <code class="type">int -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Make a date from its Julian day.<br>
+<b>Example:</b> <code class="code">from_jd 0</code> returns the date 4713 BC-1-1.<br>
+</div>
+<pre><span id="VALfrom_mjd"><span class="keyword">val</span> from_mjd</span> : <code class="type">int -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Make a date from its modified Julian day (i.e. Julian day - 2 400 001).
+	The Modified Julian day is more manageable than the Julian day.<br>
+<b>Example:</b> <code class="code">from_mjd 0</code> returns the date 1858-11-17.<br>
+</div>
+<pre><span id="VALfrom_day_of_year"><span class="keyword">val</span> from_day_of_year</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> int -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Make a date from a year and its day of the year.<br>
+<b>Since</b> 2.0<br>
+<b>Example:</b> <code class="code">from_day_of_year 2008 39</code> returns the date 2008-2-8.<br>
+</div>
+<br>
+<span id="2_Getters"><h2>Getters</h2></span><br>
+<pre><span id="VALdays_in_month"><span class="keyword">val</span> days_in_month</span> : <code class="type">[< <a href="Date_sig.S.html#TYPEfield">field</a> > `Month `Year ] <a href="Date_sig.S.html#TYPEdate">date</a> -> int</code></pre><div class="info">
+Number of days in the month of a date.<br>
+<b>Example:</b> <code class="code">days_in_month (make 2003 6 26)</code> returns <code class="code">30</code>.<br>
+</div>
+<pre><span id="VALday_of_week"><span class="keyword">val</span> day_of_week</span> : <code class="type"><a href="Date_sig.S.html#TYPEt">t</a> -> <a href="Date_sig.S.html#TYPEday">day</a></code></pre><div class="info">
+Day of the week.<br>
+<b>Example:</b> <code class="code">day_of_week (make 2003 6 26)</code> returns <code class="code"><span class="constructor">Thu</span></code>.<br>
+</div>
+<pre><span id="VALday_of_month"><span class="keyword">val</span> day_of_month</span> : <code class="type"><a href="Date_sig.S.html#TYPEt">t</a> -> int</code></pre><div class="info">
+Day of the month.<br>
+<b>Example:</b> <code class="code">day_of_month (make 2003 6 26)</code> returns <code class="code">26</code>.<br>
+</div>
+<pre><span id="VALday_of_year"><span class="keyword">val</span> day_of_year</span> : <code class="type"><a href="Date_sig.S.html#TYPEt">t</a> -> int</code></pre><div class="info">
+Day of the year.<br>
+<b>Examples:</b><ul><li><code class="code">day_of_year (make 2003 12 28)</code> returns <code class="code">362</code>.<br>
+</li><li><code class="code">day_of_year (make 2003 1 5)</code> returns <code class="code">5</code><br>
+</li></ul></div>
+<pre><span id="VALweek"><span class="keyword">val</span> week</span> : <code class="type"><a href="Date_sig.S.html#TYPEt">t</a> -> int</code></pre><div class="info">
+Week.<br>
+<b>Examples:</b><ul><li><code class="code">week (make 2003 12 29)</code> returns <code class="code">1</code>.<br>
+</li><li><code class="code">week (make 2003 12 28)</code> returns <code class="code">52</code>.<br>
+</li><li><code class="code">week (make 2000 1 2)</code> returns <code class="code">52</code>.<br>
+</li><li><code class="code">week (make 2000 1 3)</code> returns <code class="code">1</code>.<br>
+</li></ul></div>
+<pre><span id="VALmonth"><span class="keyword">val</span> month</span> : <code class="type">[< <a href="Date_sig.S.html#TYPEfield">field</a> > `Month ] <a href="Date_sig.S.html#TYPEdate">date</a> -> <a href="Date_sig.S.html#TYPEmonth">month</a></code></pre><div class="info">
+Month.<br>
+<b>Example:</b> <code class="code">month (make 2003 6 26)</code> returns <code class="code"><span class="constructor">Jun</span></code>.<br>
+</div>
+<pre><span id="VALyear"><span class="keyword">val</span> year</span> : <code class="type">[< <a href="Date_sig.S.html#TYPEfield">field</a> > `Year ] <a href="Date_sig.S.html#TYPEdate">date</a> -> <a href="Date_sig.S.html#TYPEyear">year</a></code></pre><div class="info">
+Year.<br>
+<b>Example:</b> <code class="code">year (make 2003 6 26)</code> returns <code class="code">2003</code>.<br>
+</div>
+<pre><span id="VALto_jd"><span class="keyword">val</span> to_jd</span> : <code class="type"><a href="Date_sig.S.html#TYPEt">t</a> -> int</code></pre><div class="info">
+Julian day.<br>
+<b>Example:</b> <code class="code">to_jd (make (-4712) 1 1)</code> returns 0.<br>
+</div>
+<pre><span id="VALto_mjd"><span class="keyword">val</span> to_mjd</span> : <code class="type"><a href="Date_sig.S.html#TYPEt">t</a> -> int</code></pre><div class="info">
+Modified Julian day (i.e. Julian day - 2 400 001).
+	The Modified Julian day is more manageable than the Julian day.<br>
+<b>Example:</b> <code class="code">to_mjd (make 1858 11 17)</code> returns 0.<br>
+</div>
+<br>
+<span id="2_Datesarecomparable"><h2>Dates are comparable</h2></span><br>
+<pre><span id="VALequal"><span class="keyword">val</span> equal</span> : <code class="type">[< <a href="Date_sig.S.html#TYPEfield">field</a> ] <a href="Date_sig.S.html#TYPEdate">date</a> -><br>       [< <a href="Date_sig.S.html#TYPEfield">field</a> ] <a href="Date_sig.S.html#TYPEdate">date</a> -> bool</code></pre><div class="info">
+Equality function between two dates.<br>
+<b>Since</b> 1.09.0<br>
+<b>See also</b> <a href="Utils.Comparable.html#VALequal">Utils.Comparable.equal</a><br>
+</div>
+<pre><span id="VALcompare"><span class="keyword">val</span> compare</span> : <code class="type">[< <a href="Date_sig.S.html#TYPEfield">field</a> ] <a href="Date_sig.S.html#TYPEdate">date</a> -><br>       [< <a href="Date_sig.S.html#TYPEfield">field</a> ] <a href="Date_sig.S.html#TYPEdate">date</a> -> int</code></pre><div class="info">
+Comparison function between two dates.<br>
+<b>See also</b> <a href="Utils.Comparable.html#VALcompare">Utils.Comparable.compare</a><br>
+</div>
+<pre><span id="VALhash"><span class="keyword">val</span> hash</span> : <code class="type">[< <a href="Date_sig.S.html#TYPEfield">field</a> ] <a href="Date_sig.S.html#TYPEdate">date</a> -> int</code></pre><div class="info">
+Hash function for dates.<br>
+<b>Since</b> 2.0<br>
+<b>See also</b> <a href="Utils.Comparable.html#VALhash">Utils.Comparable.hash</a><br>
+</div>
+<br>
+<span id="2_Booleanoperationsondates"><h2>Boolean operations on dates</h2></span><br>
+<pre><span id="VALis_valid_date"><span class="keyword">val</span> is_valid_date</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> int -> int -> bool</code></pre><div class="info">
+Check if a date is valid, that is the date has not been coerced to look
+	like a real date.<br>
+<b>Since</b> 2.0<br>
+<b>Examples:</b><ul><li><code class="code">is_valid_date 2008 2 30</code> returns <code class="code"><span class="keyword">false</span></code><br>
+</li><li><code class="code">is_valid_date 2008 2 8</code> returns <code class="code"><span class="keyword">true</span></code><br>
+</li></ul></div>
+<pre><span id="VALis_leap_day"><span class="keyword">val</span> is_leap_day</span> : <code class="type"><a href="Date_sig.S.html#TYPEt">t</a> -> bool</code></pre><div class="info">
+Return <code class="code"><span class="keyword">true</span></code> if a date is a leap day
+	(i.e. February, 24th of a leap year); <code class="code"><span class="keyword">false</span></code> otherwise.<br>
+</div>
+<pre><span id="VALis_gregorian"><span class="keyword">val</span> is_gregorian</span> : <code class="type"><a href="Date_sig.S.html#TYPEt">t</a> -> bool</code></pre><div class="info">
+Return <code class="code"><span class="keyword">true</span></code> if a date belongs to the Gregorian calendar;
+	<code class="code"><span class="keyword">false</span></code> otherwise.<br>
+</div>
+<pre><span id="VALis_julian"><span class="keyword">val</span> is_julian</span> : <code class="type"><a href="Date_sig.S.html#TYPEt">t</a> -> bool</code></pre><div class="info">
+Return <code class="code"><span class="keyword">true</span></code> iff a date belongs to the Julian calendar;
+	<code class="code"><span class="keyword">false</span></code> otherwise.<br>
+</div>
+<br>
+<span id="2_Coercions"><h2>Coercions</h2></span><br>
+<pre><span id="VALto_unixtm"><span class="keyword">val</span> to_unixtm</span> : <code class="type"><a href="Date_sig.S.html#TYPEt">t</a> -> Unix.tm</code></pre><div class="info">
+Convert a date into the <code class="code"><span class="constructor">Unix</span>.tm</code> type.
+	The field <code class="code">is_isdst</code> is always <code class="code"><span class="keyword">false</span></code>. The fields <code class="code"><span class="constructor">Unix</span>.tm_sec</code>,
+	<code class="code"><span class="constructor">Unix</span>.tm_min</code> and <code class="code"><span class="constructor">Unix</span>.tm_hour</code> are irrelevant.<br>
+<b>Since</b> 1.01<br>
+</div>
+<pre><span id="VALfrom_unixtm"><span class="keyword">val</span> from_unixtm</span> : <code class="type">Unix.tm -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Inverse of <code class="code">to_unixtm</code>. Assume the current time zone.<br>
+<b>Since</b> 1.01<br>
+</div>
+<pre><span id="VALto_unixfloat"><span class="keyword">val</span> to_unixfloat</span> : <code class="type"><a href="Date_sig.S.html#TYPEt">t</a> -> float</code></pre><div class="info">
+Convert a date to a float such than <code class="code">to_unixfloat (make 1970 1 1)</code>
+	returns <code class="code">0.0</code>. So such a float is convertible with those of the <code class="code"><span class="constructor">Unix</span></code>
+	module. The fractional part of the result is always <code class="code">0</code>.<br>
+<b>Since</b> 1.01<br>
+</div>
+<pre><span id="VALfrom_unixfloat"><span class="keyword">val</span> from_unixfloat</span> : <code class="type">float -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Inverse of <code class="code">to_unixfloat</code>. Ignore the fractional part of the argument.
+	Assume the current time zone.<br>
+<b>Since</b> 1.01<br>
+</div>
+<pre><span id="VALto_business"><span class="keyword">val</span> to_business</span> : <code class="type"><a href="Date_sig.S.html#TYPEt">t</a> -> <a href="Date_sig.S.html#TYPEyear">year</a> * int * <a href="Date_sig.S.html#TYPEday">day</a></code></pre><div class="info">
+Return the "business week" and the day in this week respecting ISO 8601.
+	Notice that business weeks at the beginning and end of the year can
+	sometimes have year numbers which don't match the real year.<br>
+<b>Since</b> 1.09.0<br>
+<b>Examples:</b><ul><li><code class="code">to_business (make 2003 12 29)</code> returns <code class="code">2004, 1, <span class="constructor">Mon</span></code>.<br>
+</li><li><code class="code">to_business (make 2003 12 28)</code> returns <code class="code">2003, 52, <span class="constructor">Sun</span></code><br>
+</li><li><code class="code">to_business (make 2000 1 2)</code> returns <code class="code">1999, 52, <span class="constructor">Sun</span></code><br>
+</li><li><code class="code">to_business (make 2000 1 3)</code> returns <code class="code">2000, 1, <span class="constructor">Mon</span></code><br>
+</li></ul></div>
+<pre><span id="VALfrom_business"><span class="keyword">val</span> from_business</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> int -> <a href="Date_sig.S.html#TYPEday">day</a> -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Inverse of <code class="code">to_business</code> respecting ISO-8601.
+	Notice that business weeks at the beginning and end of the year
+	can sometimes have year numbers which don't match the real year.<br>
+<b>Since</b> 1.09.0<br>
+<b>Raises</b> <code>Invalid_argument</code> if the date is bad.<br>
+</div>
+<pre><span id="VALint_of_day"><span class="keyword">val</span> int_of_day</span> : <code class="type"><a href="Date_sig.S.html#TYPEday">day</a> -> int</code></pre><div class="info">
+Convert a day to an integer respecting ISO-8601.
+	So, Monday is 1, Tuesday is 2, ..., and sunday is 7.<br>
+</div>
+<pre><span id="VALday_of_int"><span class="keyword">val</span> day_of_int</span> : <code class="type">int -> <a href="Date_sig.S.html#TYPEday">day</a></code></pre><div class="info">
+Inverse of <code class="code">int_of_day</code>.<br>
+<b>Raises</b> <code>Invalid_argument</code> if the argument does not belong to <code class="code">1; 7</code>.<br>
+</div>
+<pre><span id="VALint_of_month"><span class="keyword">val</span> int_of_month</span> : <code class="type"><a href="Date_sig.S.html#TYPEmonth">month</a> -> int</code></pre><div class="info">
+Convert a month to an integer respecting ISO-8601.
+	So, January is 1, February is 2 and so on.<br>
+</div>
+<pre><span id="VALmonth_of_int"><span class="keyword">val</span> month_of_int</span> : <code class="type">int -> <a href="Date_sig.S.html#TYPEmonth">month</a></code></pre><div class="info">
+Inverse of <code class="code">int_of_month</code>.<br>
+<b>Raises</b> <code>Invalid_argument</code> if the argument does not belong to <code class="code">1; 12</code>.<br>
+</div>
+<br>
+<span id="2_Period"><h2>Period</h2></span><br>
+<pre><span class="keyword">module</span> <a href="Date_sig.S.Period.html">Period</a>: <code class="code"><span class="keyword">sig</span></code> <a href="Date_sig.S.Period.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info">
+A period is the number of days between two dates.
+</div>
+<br>
+<span id="2_Arithmeticoperationsondatesandperiods"><h2>Arithmetic operations on dates and periods</h2></span><br>
+<pre><span id="VALadd"><span class="keyword">val</span> add</span> : <code class="type">([< <a href="Date_sig.S.html#TYPEfield">field</a> ] as 'a) <a href="Date_sig.S.html#TYPEdate">date</a> -><br>       'a Period.period -> 'a <a href="Date_sig.S.html#TYPEdate">date</a></code></pre><div class="info">
+<code class="code">add d p</code> returns <code class="code">d + p</code>.<br>
+<b>Raises</b><ul><li><code>Out_of_bounds</code> when the resulting date is outside the Julian
+	period.</li>
+<li><code>Undefined</code> when the resulting date belongs to <code class="code">[<span class="constructor">October</span> 5th,
+	1582; <span class="constructor">October</span> 14th, 1582]</code>.</li>
+</ul>
+<b>Examples:</b><ul><li><code class="code">add (make 2003 12 31) (<span class="constructor">Period</span>.month 2)</code> returns the date
+	2004-3-2 (following the coercion rule describes in the introduction).<br>
+</li><li><code class="code">add (make 2003 12 31) (<span class="constructor">Period</span>.month 1)</code> returns the date
+	2004-1-31<br>
+</li></ul></div>
+<pre><span id="VALsub"><span class="keyword">val</span> sub</span> : <code class="type">([< <a href="Date_sig.S.html#TYPEfield">field</a> ] as 'a) <a href="Date_sig.S.html#TYPEdate">date</a> -><br>       'a <a href="Date_sig.S.html#TYPEdate">date</a> -><br>       [< <a href="Date_sig.S.html#TYPEfield">field</a> > `Day `Week ] Period.period</code></pre><div class="info">
+<code class="code">sub d1 d2</code> returns the period between <code class="code">d1</code> and <code class="code">d2</code>.<br>
+</div>
+<pre><span id="VALprecise_sub"><span class="keyword">val</span> precise_sub</span> : <code class="type">([< <a href="Date_sig.S.html#TYPEfield">field</a> ] as 'a) <a href="Date_sig.S.html#TYPEdate">date</a> -><br>       'a <a href="Date_sig.S.html#TYPEdate">date</a> -> Period.t</code></pre><div class="info">
+<code class="code">precise_sub d1 d2</code> returns the period between <code class="code">d1</code> and <code class="code">d2</code>.
+	It is equivalent to <code class="code">sub</code>, but:<ul>
+<li>the period is expressed with a number of years, months and days, not
+	only with a number of days;</li>
+<li>it is less efficient.</li>
+</ul>
+<br>
+<b>Since</b> 2.03<br>
+</div>
+<pre><span id="VALrem"><span class="keyword">val</span> rem</span> : <code class="type">([< <a href="Date_sig.S.html#TYPEfield">field</a> ] as 'a) <a href="Date_sig.S.html#TYPEdate">date</a> -><br>       'a Period.period -> 'a <a href="Date_sig.S.html#TYPEdate">date</a></code></pre><div class="info">
+<code class="code">rem d p</code> is equivalent to <code class="code">add d (<span class="constructor">Period</span>.opp p)</code>.<br>
+<b>Raises</b><ul><li><code>Out_of_bounds</code> when the resulting date is outside the Julian
+	period.</li>
+<li><code>Undefined</code> when the resulting date belongs to <code class="code">[<span class="constructor">October</span> 5th,
+	1582; <span class="constructor">October</span> 14th, 1582]</code>.</li>
+</ul>
+</div>
+<pre><span id="VALnext"><span class="keyword">val</span> next</span> : <code class="type">([< <a href="Date_sig.S.html#TYPEfield">field</a> ] as 'a) <a href="Date_sig.S.html#TYPEdate">date</a> -> 'a -> 'a <a href="Date_sig.S.html#TYPEdate">date</a></code></pre><div class="info">
+<code class="code">next d f</code> returns the date corresponding to the next specified field.<br>
+<b>Raises</b><ul><li><code>Out_of_bounds</code> when the resulting date is outside the Julian
+	period.</li>
+<li><code>Undefined</code> when the resulting date belongs to <code class="code">[<span class="constructor">October</span> 5th,
+	1582; <span class="constructor">October</span> 14th, 1582]</code>.</li>
+</ul>
+<b>Example:</b> <code class="code">next (make 2003 12 31) <span class="keywordsign">`</span><span class="constructor">Month</span></code> returns the date 2004-1-31
+	(i.e. one month later).<br>
+</div>
+<pre><span id="VALprev"><span class="keyword">val</span> prev</span> : <code class="type">([< <a href="Date_sig.S.html#TYPEfield">field</a> ] as 'a) <a href="Date_sig.S.html#TYPEdate">date</a> -> 'a -> 'a <a href="Date_sig.S.html#TYPEdate">date</a></code></pre><div class="info">
+<code class="code">prev d f</code> returns the date corresponding to the previous specified
+	field.<br>
+<b>Raises</b><ul><li><code>Out_of_bounds</code> when the resulting date is outside the Julian
+	period.</li>
+<li><code>Undefined</code> when the resulting date belongs to <code class="code">[<span class="constructor">October</span> 5th,
+	1582; <span class="constructor">October</span> 14th, 1582]</code>.</li>
+</ul>
+<b>Example:</b> <code class="code">prev (make 2003 12 31) <span class="keywordsign">`</span><span class="constructor">Year</span></code> returns the date 2002-12-31
+	(i.e. one year ago).<br>
+</div>
+<br>
+<span id="2_Operationsonyears"><h2>Operations on years</h2></span><br>
+<pre><span id="VALis_leap_year"><span class="keyword">val</span> is_leap_year</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> bool</code></pre><div class="info">
+Return <code class="code"><span class="keyword">true</span></code> if a year is a leap year; <code class="code"><span class="keyword">false</span></code> otherwise.<br>
+</div>
+<pre><span id="VALsame_calendar"><span class="keyword">val</span> same_calendar</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> <a href="Date_sig.S.html#TYPEyear">year</a> -> bool</code></pre><div class="info">
+Return <code class="code"><span class="keyword">true</span></code> if two years have the same calendar; <code class="code"><span class="keyword">false</span></code>
+	otherwise.<br>
+</div>
+<pre><span id="VALdays_in_year"><span class="keyword">val</span> days_in_year</span> : <code class="type">?month:<a href="Date_sig.S.html#TYPEmonth">month</a> -> <a href="Date_sig.S.html#TYPEyear">year</a> -> int</code></pre><div class="info">
+Number of days in a year.
+<p>
+
+	<code class="code">days_in_year ~month y</code> returns the number of days in the year <code class="code">y</code> up
+	to the end of the given month. Thus <code class="code">days_in_year ~month:<span class="constructor">Dec</span> y</code> is the
+	same as <code class="code">days_in_year y</code>.<br>
+</div>
+<pre><span id="VALweeks_in_year"><span class="keyword">val</span> weeks_in_year</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> int</code></pre><div class="info">
+Number of weeks in a year.<br>
+</div>
+<pre><span id="VALweek_first_last"><span class="keyword">val</span> week_first_last</span> : <code class="type">int -> <a href="Date_sig.S.html#TYPEyear">year</a> -> <a href="Date_sig.S.html#TYPEt">t</a> * <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Return the first and last days of a week in a year.<br>
+<b>Since</b> 1.08<br>
+</div>
+<pre><span id="VALnth_weekday_of_month"><span class="keyword">val</span> nth_weekday_of_month</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> <a href="Date_sig.S.html#TYPEmonth">month</a> -> <a href="Date_sig.S.html#TYPEday">day</a> -> int -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+<code class="code">nth_weekday_of_month y m d n</code> returns the <code class="code">n</code>-th day <code class="code">d</code> in the month
+	<code class="code">m</code> of the year <code class="code">y</code> (for instance the 3rd Thursday of the month).<br>
+<b>Since</b> 1.09.0<br>
+</div>
+<pre><span id="VALcentury"><span class="keyword">val</span> century</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> int</code></pre><div class="info">
+Century of a year.<br>
+<b>Examples:</b><ul><li><code class="code">century 2001</code> returns 21.<br>
+</li><li><code class="code">century 2000</code> returns 20<br>
+</li></ul></div>
+<pre><span id="VALmillenium"><span class="keyword">val</span> millenium</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> int</code></pre><div class="info">
+Millenium of a year.<br>
+<b>Examples:</b><ul><li><code class="code">millenium 2001</code> returns 3.<br>
+</li><li><code class="code">millenium 2000</code> returns 2<br>
+</li></ul></div>
+<pre><span id="VALsolar_number"><span class="keyword">val</span> solar_number</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> int</code></pre><div class="info">
+Solar number.
+<p>
+
+	In the Julian calendar there is a one-to-one relationship between the
+	Solar number and the day on which a particular date falls.<br>
+</div>
+<pre><span id="VALindiction"><span class="keyword">val</span> indiction</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> int</code></pre><div class="info">
+Indiction.
+<p>
+
+	The Indiction was used in the middle ages to specify the position of a
+	year in a 15 year taxation cycle. It was introduced by emperor
+	Constantine  the Great on 1 September 312 and ceased to be used in
+	1806.
+<p>
+
+	The Indiction has no astronomical significance.<br>
+</div>
+<pre><span id="VALgolden_number"><span class="keyword">val</span> golden_number</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> int</code></pre><div class="info">
+Golden number.
+<p>
+
+	Considering that the relationship between the moon's phases and the
+	days  of the year repeats itself every 19 years, it is natural to
+	associate a  number between 1 and 19 with each year.
+	This number is the so-called Golden number.<br>
+</div>
+<pre><span id="VALepact"><span class="keyword">val</span> epact</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> int</code></pre><div class="info">
+Epact.
+<p>
+
+	The Epact is a measure of the age of the moon (i.e. the number of days
+	that have passed since an "official" new moon) on a particular date.<br>
+</div>
+<pre><span id="VALeaster"><span class="keyword">val</span> easter</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Easter Sunday.
+<p>
+
+	In the Christian world, Easter (and the days immediately preceding it)
+	is  the celebration of the death and resurrection of Jesus in
+	(approximately) AD 30.<br>
+</div>
+<pre><span id="VALcarnaval"><span class="keyword">val</span> carnaval</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Carnaval Monday. <code class="code">carnaval y</code> is <code class="code">easter y - 48</code>.<br>
+<b>Since</b> 1.09.0<br>
+</div>
+<pre><span id="VALmardi_gras"><span class="keyword">val</span> mardi_gras</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Mardi Gras. <code class="code">mardi_gras y</code> is <code class="code">easter y - 47</code>.<br>
+<b>Since</b> 1.09.0<br>
+</div>
+<pre><span id="VALash"><span class="keyword">val</span> ash</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Ash Wednesday. <code class="code">ash y</code> is <code class="code">easter y - 46</code>.<br>
+<b>Since</b> 1.09.0<br>
+</div>
+<pre><span id="VALpalm"><span class="keyword">val</span> palm</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Palm Sunday. <code class="code">palm y</code> is <code class="code">easter y - 7</code>.<br>
+<b>Since</b> 1.09.0<br>
+</div>
+<pre><span id="VALeaster_friday"><span class="keyword">val</span> easter_friday</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Easter Friday. <code class="code">easter_friday y</code> is <code class="code">easter y - 2</code>.<br>
+<b>Since</b> 1.09.0<br>
+</div>
+<pre><span id="VALeaster_saturday"><span class="keyword">val</span> easter_saturday</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Easter Saturday. <code class="code">easter_saturday y</code> is <code class="code">easter y - 1</code>.<br>
+<b>Since</b> 1.09.0<br>
+</div>
+<pre><span id="VALeaster_monday"><span class="keyword">val</span> easter_monday</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Easter Monday. <code class="code">easter_monday y</code> is <code class="code">easter y + 1</code>.<br>
+<b>Since</b> 1.09.0<br>
+</div>
+<pre><span id="VALascension"><span class="keyword">val</span> ascension</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Ascension. <code class="code">ascension y</code> is <code class="code">easter y + 39</code>.<br>
+<b>Since</b> 1.09.0<br>
+</div>
+<pre><span id="VALwithsunday"><span class="keyword">val</span> withsunday</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Withsunday. <code class="code">withsunday y</code> is <code class="code">easter y + 49</code>.<br>
+<b>Since</b> 1.09.0<br>
+</div>
+<pre><span id="VALwithmonday"><span class="keyword">val</span> withmonday</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Withmonday. <code class="code">withmonday y</code> is <code class="code">easter y + 50</code>.<br>
+<b>Since</b> 1.09.0<br>
+</div>
+<pre><span id="VALcorpus_christi"><span class="keyword">val</span> corpus_christi</span> : <code class="type"><a href="Date_sig.S.html#TYPEyear">year</a> -> <a href="Date_sig.S.html#TYPEt">t</a></code></pre><div class="info">
+Feast of Corpus Christi. <code class="code">corpus_christi y</code> is <code class="code">easter + 60</code>.<br>
+<b>Since</b> 1.09.0<br>
+</div>
+</body></html>

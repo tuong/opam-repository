@@ -1,0 +1,179 @@
+"gtkWindow.ml" 33 1816 1820 "gtkWindow.ml" 33 1816 1822
+type(
+  unit
+)
+"gtkWindow.ml" 33 1816 1825 "gtkWindow.ml" 33 1816 1840
+type(
+  unit -> unit
+)
+"gtkWindow.ml" 33 1816 1841 "gtkWindow.ml" 33 1816 1843
+type(
+  unit
+)
+"gtkWindow.ml" 33 1816 1825 "gtkWindow.ml" 33 1816 1843
+type(
+  unit
+)
+"gtkWindow.ml" 79 3881 3887 "gtkWindow.ml" 79 3881 3898
+type(
+  ?name:string -> ?clas:string -> [> `window ] Gtk.obj -> unit
+)
+ident(
+  def set_wmclass "gtkWindow.ml" 81 3991 4050 "gtkWindow.ml" 82 4051 4054
+)
+"gtkWindow.ml" 79 3881 3900 "gtkWindow.ml" 79 3881 3904
+type(
+  string option
+)
+ident(
+  def name "gtkWindow.ml" 79 3881 3905 "gtkWindow.ml" 81 3991 4050
+)
+"gtkWindow.ml" 79 3881 3911 "gtkWindow.ml" 79 3881 3919
+type(
+  string option
+)
+ident(
+  def wm_class "gtkWindow.ml" 79 3881 3920 "gtkWindow.ml" 81 3991 4050
+)
+"gtkWindow.ml" 79 3881 3920 "gtkWindow.ml" 79 3881 3921
+type(
+  ([> `window ] as 'a) Gtk.obj
+)
+ident(
+  def w "gtkWindow.ml" 80 3924 3928 "gtkWindow.ml" 81 3991 4050
+)
+"gtkWindow.ml" 80 3924 3928 "gtkWindow.ml" 80 3924 3939
+type(
+  'a Gtk.obj -> name:string -> clas:string -> unit
+)
+"gtkWindow.ml" 80 3924 3940 "gtkWindow.ml" 80 3924 3941
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref w "gtkWindow.ml" 79 3881 3920 "gtkWindow.ml" 79 3881 3921
+)
+"gtkWindow.ml" 80 3924 3949 "gtkWindow.ml" 80 3924 3960
+type(
+  ('a Gtk.obj -> string) -> 'a Gtk.obj -> opt:string option -> string
+)
+ident(
+  ext_ref Gaux.may_default
+)
+"gtkWindow.ml" 80 3924 3961 "gtkWindow.ml" 80 3924 3977
+type(
+  'a Gtk.obj -> string
+)
+"gtkWindow.ml" 80 3924 3978 "gtkWindow.ml" 80 3924 3979
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref w "gtkWindow.ml" 79 3881 3920 "gtkWindow.ml" 79 3881 3921
+)
+"gtkWindow.ml" 80 3924 3985 "gtkWindow.ml" 80 3924 3989
+type(
+  string option
+)
+ident(
+  int_ref name "gtkWindow.ml" 79 3881 3900 "gtkWindow.ml" 79 3881 3904
+)
+"gtkWindow.ml" 80 3924 3948 "gtkWindow.ml" 80 3924 3990
+call(
+  stack
+)
+type(
+  string
+)
+"gtkWindow.ml" 81 3991 4004 "gtkWindow.ml" 81 3991 4015
+type(
+  ('a Gtk.obj -> string) -> 'a Gtk.obj -> opt:string option -> string
+)
+ident(
+  ext_ref Gaux.may_default
+)
+"gtkWindow.ml" 81 3991 4016 "gtkWindow.ml" 81 3991 4033
+type(
+  'a Gtk.obj -> string
+)
+"gtkWindow.ml" 81 3991 4034 "gtkWindow.ml" 81 3991 4035
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref w "gtkWindow.ml" 79 3881 3920 "gtkWindow.ml" 79 3881 3921
+)
+"gtkWindow.ml" 81 3991 4041 "gtkWindow.ml" 81 3991 4049
+type(
+  string option
+)
+ident(
+  int_ref wm_class "gtkWindow.ml" 79 3881 3911 "gtkWindow.ml" 79 3881 3919
+)
+"gtkWindow.ml" 81 3991 4003 "gtkWindow.ml" 81 3991 4050
+call(
+  stack
+)
+type(
+  string
+)
+"gtkWindow.ml" 80 3924 3928 "gtkWindow.ml" 81 3991 4050
+type(
+  unit
+)
+"gtkWindow.ml" 100 4743 4749 "gtkWindow.ml" 100 4743 4761
+type(
+  GtkEnums.response -> int
+)
+ident(
+  def std_response "gtkWindow.ml" 101 4806 4808 "gtkWindow.ml" 102 4872 4875
+)
+"gtkWindow.ml" 100 4743 4764 "gtkWindow.ml" 100 4743 4787
+type(
+  GtkEnums.response Gpointer.variant_table -> GtkEnums.response -> int
+)
+ident(
+  ext_ref Gpointer.encode_variant
+)
+"gtkWindow.ml" 100 4743 4788 "gtkWindow.ml" 100 4743 4805
+type(
+  GtkEnums.response Gpointer.variant_table
+)
+ident(
+  ext_ref GtkEnums.response
+)
+"gtkWindow.ml" 100 4743 4764 "gtkWindow.ml" 100 4743 4805
+call(
+  stack
+)
+type(
+  GtkEnums.response -> int
+)
+"gtkWindow.ml" 101 4806 4812 "gtkWindow.ml" 101 4806 4827
+type(
+  int -> GtkEnums.response
+)
+ident(
+  def decode_response "gtkWindow.ml" 101 4806 4871 "gtkWindow.ml" 102 4872 4875
+)
+"gtkWindow.ml" 101 4806 4830 "gtkWindow.ml" 101 4806 4853
+type(
+  GtkEnums.response Gpointer.variant_table -> int -> GtkEnums.response
+)
+ident(
+  ext_ref Gpointer.decode_variant
+)
+"gtkWindow.ml" 101 4806 4854 "gtkWindow.ml" 101 4806 4871
+type(
+  GtkEnums.response Gpointer.variant_table
+)
+ident(
+  ext_ref GtkEnums.response
+)
+"gtkWindow.ml" 101 4806 4830 "gtkWindow.ml" 101 4806 4871
+call(
+  stack
+)
+type(
+  int -> GtkEnums.response
+)

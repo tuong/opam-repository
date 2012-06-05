@@ -1,0 +1,8 @@
+# OASIS_START
+# DO NOT EDIT (digest: bf0e513ef9720dc3e317af27da7e3bc9)
+extended_sys_stubs.o
+extended_unix_stubs.o
+fork_exec.o
+low_level_debug_stubs.o
+syslog_stubs.o
+# OASIS_STOP

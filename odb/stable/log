@@ -1,0 +1,2966 @@
+---------------------------------- ANSITerminal-0.6.1/_oasis
+OASISFormat: 0.2
+Name:        ANSITerminal
+Version:     0.6.1
+Synopsis:    Basic control of ANSI compliant terminals and the windows shell.
+Description: ANSITerminal is a module allowing to use the colors and cursor movements on ANSI terminals. It also works on the windows shell (but this part is currently work in progress).
+Authors:     Christophe Troestler, Vincent Hugot
+License:     LGPL-3.0 with OCaml linking exception
+Plugins:     META (0.2), StdFiles (0.2)
+PostConfCommand: ocaml choose_implementation.ml
+Homepage:    https://forge.ocamlcore.org/projects/ansiterminal/    
+
+Library "ANSITerminal"
+___Path:         .
+___BuildTools:   ocamlbuild
+___Modules:      ANSITerminal
+___InternalModules: ANSITerminal_common
+___CSources:     ANSITerminal_stubs.c
+___BuildDepends: unix
+___
+Document API
+___Title:           API reference for ANSITerminal
+___Type:            OCamlbuild (0.2)
+___InstallDir:      $docdir/api
+___BuildTools:      ocamldoc, ocamlbuild
+___XOCamlbuildPath: .
+___XOCamlbuildLibraries: ANSITerminal
+
+Executable showcolors
+___Path:           .
+___MainIs:         showcolors.ml
+___BuildDepends:   ANSITerminal
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable test
+___Path:           .
+___MainIs:         test.ml
+___BuildDepends:   ANSITerminal
+___BuildTools:     ocamlbuild
+___Install:        false
+
+SourceRepository trunk
+___Type:       svn
+___Location:   svn://scm.ocamlcore.org/svn/ansiterminal/trunk
+___Browser:    https://forge.ocamlcore.org/scm/browser.php?group_id=187
+---------------------------------- archimedes-0.4.12/_oasis
+OASISFormat: 0.2
+Name:        archimedes
+Version:     0.4.12
+Synopsis:    Extensible 2D plotting library.
+Description: Archimedes is a high quality, platform-independent,
+___extensible 2D plotting library.  It provides dynamically loaded
+___backends such as Graphics and Cairo.
+Authors:     Christophe Troestler <Christophe.Troestler@umons.ac.be>,
+___Pierre Hauweele <pierre@hauweele.net>,
+___Fabian Pijcke <fabian.pijcke@gmail.com>,
+___Noémie Meunier <noemie_6462@hotmail.com>,
+___Bertrand Desmons <bibi-6@hotmail.fr>,
+___Xavier Deschuyteneer <xavier.deschuyteneer@gmail.com>
+License:     LGPL-3.0 with OCaml linking exception
+Homepage:    http://forge.ocamlcore.org/projects/archimedes/
+Plugins:     META (0.2), StdFiles (0.2)
+FilesAB:     src/conf.ml.ab,
+___src/archimedes_cairo.dep.ab,
+___src/archimedes_graphics.dep.ab,
+___src/archimedes_header.mli.ab,
+___tests/tests.ml.ab
+PreBuildCommand: ocaml src/public_interface.ml > src/archimedes.mli
+
+Flag graphics
+___Description:  Use the graphics plugin?
+___Default:      true
+
+Flag cairo
+___Description:  Use the cairo (PNG, PS, PDF) plugin?
+___Default:      true
+
+Flag tikz
+___Description:  Use the tikz (TeX) plugin?
+___Default:      false
+
+Library "archimedes"
+___Path:         src
+___BuildTools:   ocamlbuild
+___Modules:      Archimedes
+___InternalModules: Archimedes_internals
+___BuildDepends: dynlink, bigarray
+
+Library "archimedes_graphics"
+___Build$:       flag(graphics)
+___Path:         src
+___BuildTools:   ocamlbuild
+___Modules:      Archimedes_graphics
+___BuildDepends: graphics, archimedes
+___DataFiles:    archimedes_graphics.dep
+___FindlibParent: archimedes
+___FindlibName:   graphics
+
+Library "archimedes_cairo"
+___Build$:       flag(cairo)
+___Path:         src
+___BuildTools:   ocamlbuild
+___Modules:      Archimedes_cairo
+___BuildDepends: cairo2, archimedes
+___DataFiles:    archimedes_cairo.dep
+___FindlibParent: archimedes
+___FindlibName:   cairo
+
+Library "archimedes_tikz"
+___Build$:       flag(tikz)
+___Path:         src
+___BuildTools:   ocamlbuild
+___Modules:      Archimedes_tikz
+___BuildDepends: archimedes
+___FindlibParent: archimedes
+___FindlibName:   tikz
+
+Library "archimedes_toploop"
+___Path:         src
+___BuildTools:   ocamlbuild
+___Modules:      Archimedes_toploop
+___BuildDepends: archimedes
+___FindlibParent: archimedes
+___FindlibName:   top
+
+Document API
+___Title:           API reference for Archimedes
+___Type:            OCamlbuild (0.2)
+___InstallDir:      $docdir/api
+___BuildTools:      ocamldoc, ocamlbuild
+___XOCamlbuildPath: src
+___XOCamlbuildLibraries: archimedes
+
+___
+Executable "Tests"
+___Path:         tests
+___BuildTools:   ocamlbuild
+___MainIs:       tests.ml
+___BuildDepends: archimedes
+___Install:      false
+
+
+Executable "pythagoras_tree"
+___Path:	        examples/
+___BuildTools:   ocamlbuild
+___MainIs:       pythagoras_tree.ml
+___BuildDepends: archimedes
+___Install:      false
+
+Executable "coordinate_pairs"
+___Path:	        examples/
+___BuildTools:   ocamlbuild
+___MainIs:       coordinate_pairs.ml
+___BuildDepends: archimedes
+___Install:      false
+
+Executable "pkg_chart"
+___Path:	        examples/
+___BuildTools:   ocamlbuild
+___MainIs:       pkg_chart.ml
+___BuildDepends: archimedes
+___Install:      false
+
+Executable "anscombe"
+___Path:	        examples/
+___BuildTools:   ocamlbuild
+___MainIs:       anscombe.ml
+___BuildDepends: archimedes
+___Install:      false
+
+Executable "scatter_hist"
+___Path:	        examples/
+___BuildTools:   ocamlbuild
+___MainIs:       scatter_hist.ml
+___BuildDepends: archimedes
+___Install:      false
+
+Executable "coords_report.ml"
+___Path:	        examples/
+___BuildTools:   ocamlbuild
+___MainIs:       coords_report.ml
+___BuildDepends: archimedes
+___Install:      false
+
+Executable "taylor.ml"
+___Path:	        examples/
+___BuildTools:   ocamlbuild
+___MainIs:       taylor.ml
+___BuildDepends: archimedes
+___Install:      false
+
+Executable "spiral.ml"
+___Path:	        examples/
+___BuildTools:   ocamlbuild
+___MainIs:       spiral.ml
+___BuildDepends: archimedes
+___Install:      false
+
+Executable "multi_hue.ml"
+___Path:	        examples/
+___BuildTools:   ocamlbuild
+___MainIs:       multi_hue.ml
+___BuildDepends: archimedes
+___Install:      false
+
+SourceRepository trunk
+___Type:       bzr
+___Location:   https://forge.ocamlcore.org/anonscm/bzr/archimedes/archimedes/trunk/
+___Browser:    http://forge.ocamlcore.org/scm/browser.php?group_id=105
+---------------------------------- bench-1.3/_oasis
+OASISFormat: 0.2
+Name:        bench
+Version:     1.3
+Synopsis:    A benchmarking tool for statistically valid benchmarks
+Authors:     Edgar Friendly
+License:     LGPL-2.1 with OCaml linking exception
+Plugins:     META (0.2), StdFiles (0.2)
+BuildTools:  ocamlbuild
+
+Library bench
+___Path:       src/
+___Modules:    Bench
+
+Document API
+___Title:           API reference for Bench
+___Type:            OCamlbuild (0.2)
+___InstallDir:      $docdir/api
+___BuildTools:      ocamldoc, ocamlbuild
+___XOCamlbuildPath: src
+___XOCamlbuildLibraries: bench
+
+---------------------------------- benchmark-1.1/_oasis
+OASISFormat: 0.2
+Name:        benchmark
+Version:     1.1
+Synopsis:    Benchmark running times of code.
+Authors:     Christophe Troestler <Christophe.Troestler@umons.ac.be>
+License:     LGPL-3.0 with OCaml linking exception
+Description: This module provides a set of tools to measure the running times
+___of your functions and to easily compare the results.  A statistical
+___test is used to determine whether the results truly differ.
+Plugins:     META (0.2)
+Homepage:    http://ocaml-benchmark.forge.ocamlcore.org/
+
+Library benchmark
+___Path:         .
+___BuildTools:   ocamlbuild
+___Modules:      Benchmark
+___BuildDepends: unix
+
+Document API
+___Title:           API reference for Benchmark
+___Type:            OCamlbuild (0.2)
+___InstallDir:      $docdir/api
+___BuildTools:      ocamldoc, ocamlbuild
+___XOCamlbuildPath: .
+___XOCamlbuildLibraries: benchmark
+
+Executable ar_ba
+___Path:         examples/
+___MainIs:       ar_ba.ml
+___BuildTools:   ocamlbuild
+___BuildDepends: benchmark, bigarray
+___CompiledObject: best
+___Install:      false
+
+Executable composition
+___Path:         examples/
+___MainIs:	composition.ml
+___BuildTools:   ocamlbuild
+___BuildDepends: benchmark
+___CompiledObject: best
+___Install:      false
+
+Executable iter
+___Path:         examples/
+___MainIs:	iter.ml
+___BuildTools:   ocamlbuild
+___BuildDepends: benchmark, bigarray
+___CompiledObject: best
+___Install:      false
+
+Executable let_try
+___Path:         examples/
+___MainIs:	let_try.ml
+___BuildTools:   ocamlbuild
+___BuildDepends: benchmark, bigarray
+___CompiledObject: best
+___Install:      false
+
+Executable loops
+___Path:         examples/
+___MainIs:	loops.ml
+___BuildTools:   ocamlbuild
+___BuildDepends: benchmark
+___CompiledObject: best
+___Install:      false
+
+Executable match_array
+___Path:         examples/
+___MainIs:	match_array.ml
+___BuildTools:   ocamlbuild
+___BuildDepends: benchmark
+___CompiledObject: best
+___Install:      false
+
+Executable numbers
+___Path:         examples/
+___MainIs:	numbers.ml
+___BuildTools:   ocamlbuild
+___BuildDepends: benchmark
+___CompiledObject: best
+___Install:      false
+
+Executable regexps
+___Path:         examples/
+___MainIs:	regexps.ml
+___BuildTools:   ocamlbuild
+___BuildDepends: benchmark, str, pcre
+___CompiledObject: best
+___Install:      false
+
+Executable try_if
+___Path:         examples/
+___MainIs:	try_if.ml
+___BuildTools:   ocamlbuild
+___BuildDepends: benchmark, bigarray
+___CompiledObject: best
+___Install:      false
+
+Executable func_record
+___Path:         examples/
+___MainIs:	func_record.ml
+___BuildTools:   ocamlbuild
+___BuildDepends: benchmark
+___CompiledObject: best
+___Install:      false
+
+Executable long_run
+___Path:           tests
+___MainIs:	  long_run.ml
+___BuildTools:     ocamlbuild
+___BuildDepends:   benchmark, unix
+___CompiledObject: best
+___Install:        false
+
+SourceRepository trunk
+___Type:       svn
+___Location:   svn://scm.ocamlcore.org/svn/ocaml-benchmark/trunk
+___Browser:    https://forge.ocamlcore.org/scm/browser.php?group_id=197
+---------------------------------- bin_prot-1.3.1/_oasis
+OASISFormat:  0.2
+OCamlVersion: >= 3.12
+Name:         bin_prot
+Version:      1.3.1
+Synopsis:     binary protocol generator
+Authors:      Markus Mottl,
+___Jane street capital
+Copyrights:   (C) 2008-2011 Jane Street Capital LLC
+License:      LGPL-2.1 with OCaml linking exception
+LicenseFile:  LICENSE
+Plugins:      StdFiles (0.2),
+___DevFiles (0.2),
+___META (0.2)
+BuildTools:   ocamlbuild
+Description:  binary protocol generator
+XStdFilesAUTHORS: false
+XStdFilesINSTALLFilename: INSTALL
+XStdFilesREADME: false
+
+
+Library bin_prot
+___Path:               lib
+___Pack:               true
+___Modules:            Binable,
+______Nat0,
+______Common,
+______Unsafe_common,
+______Unsafe_write_c,
+______Unsafe_read_c,
+______Size,
+______Write_ml,
+______Read_ml,
+______Write_c,
+______Read_c,
+______Std,
+______Type_class,
+______Map_to_safe,
+______Utils
+___CSources:           common_stubs.c,
+______common_stubs.h,
+______int64_native.h,
+______write_stubs.c,
+______read_stubs.c
+___BuildDepends:       unix,bigarray
+
+
+Library pa_bin_prot
+___Path:               syntax
+___FindlibName:        syntax
+___FindlibParent:      bin_prot
+___modules:            Pa_bin_prot
+___BuildDepends:       camlp4.lib,camlp4.quotations,type-conv (>= 2.3.0)
+___XMETAType:          syntax
+___XMETARequires:      type-conv
+___XMETADescription:   Syntax extension for binary protocol generator
+
+Flag tests
+___Description:        Build and run tests
+___Default:            true
+
+Executable test_runner
+___Path:               lib_test
+___MainIs:             test_runner.ml
+___Build$:             flag(tests)
+___Install:            false
+___CompiledObject:     best
+___Custom:             true
+___BuildDepends:       bin_prot,bin_prot.syntax,oUnit (>= 1.0.2)
+
+Test test_runner
+___Run$:               flag(tests)
+___Command:            $test_runner
+___WorkingDirectory:   lib_test
+
+Executable mac_test
+___Path:               lib_test
+___MainIs:             mac_test.ml
+___Build$:             flag(tests)
+___Install:            false
+___Custom:             true
+___CompiledObject:     best
+___BuildDepends:       bin_prot,bin_prot.syntax
+
+Test mac_test
+___Run$:               flag(tests)
+___Command:            $mac_test
+___WorkingDirectory:   lib_test
+
+Executable example
+___Path:               lib_test
+___MainIs:             example.ml
+___Build$:             flag(tests)
+___Install:            false
+___BuildDepends:       bin_prot,bin_prot.syntax
+---------------------------------- cairo-0.4.1/_oasis
+OASISFormat: 0.2
+Name:        cairo
+Version:     0.4.1
+Synopsis:    Binding to Cairo, a Vector Graphics Library.
+Description: This is a binding to Cairo, a 2D graphics library with
+___support for multiple output devices.  Currently supported output targets
+___include the X Window System, Quartz, Win32, image buffers, PostScript,
+___PDF, and SVG file output. 
+Authors:     Christophe Troestler <Christophe.Troestler@umons.ac.be>,
+___Pierre Hauweele <antegallya@gmail.com>
+License:     LGPL-3.0 with OCaml linking exception
+Maintainers: Christophe Troestler <Christophe.Troestler@umons.ac.be>
+Homepage:    http://forge.ocamlcore.org/projects/cairo/
+Plugins:     META (0.2), StdFiles (0.2)
+
+Flag lablgtk2
+___Description: Whether to connect Cairo and lablgtk2.
+___Default: true
+
+Library cairo2
+___Path:         src
+___BuildTools:   ocamlbuild
+___Modules:      Cairo
+___CSources:     cairo_stubs.c
+___BuildDepends: bigarray
+
+Library cairo_gtk
+___Build: false
+___if flag(lablgtk2)
+______Build: true
+___Path:         src/
+___BuildTools:   ocamlbuild
+___Modules:	Cairo_gtk
+___CSources:	cairo_gtk_stubs.c
+___BuildDepends: lablgtk2, cairo2
+___FindlibParent: cairo2
+___FindlibName:   lablgtk2
+___XMETADescription: Rendering Cairo on Gtk canvas.
+
+
+
+Document API
+___Title:           API reference for Cairo
+___Type:            OCamlbuild (0.2)
+___InstallDir:      $docdir/api
+___BuildTools:      ocamldoc, ocamlbuild
+___XOCamlbuildPath: src/
+___XOCamlbuildLibraries: cairo2, cairo2.lablgtk2
+
+
+Executable image_create
+___Path:           tests/
+___MainIs:         image_create.ml
+___BuildDepends:   cairo2
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable matrix_set
+___Path:           tests/
+___MainIs:         matrix_set.ml
+___BuildDepends:   cairo2
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable surface_gc
+___Path:           tests/
+___MainIs:         surface_gc.ml
+___BuildDepends:   cairo2
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable arcs
+___Path:           examples/
+___MainIs:         arcs.ml
+___BuildDepends:   cairo2
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable clip
+___Path:           examples/
+___MainIs:         clip.ml
+___BuildDepends:   cairo2
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable curve_to
+___Path:           examples/
+___MainIs:         curve_to.ml
+___BuildDepends:   cairo2
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable dash
+___Path:           examples/
+___MainIs:         dash.ml
+___BuildDepends:   cairo2
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable fill_stroke
+___Path:           examples/
+___MainIs:         fill_stroke.ml
+___BuildDepends:   cairo2
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable fill_style
+___Path:           examples/
+___MainIs:         fill_style.ml
+___BuildDepends:   cairo2
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable gradient
+___Path:           examples/
+___MainIs:         gradient.ml
+___BuildDepends:   cairo2
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable set_line_cap
+___Path:           examples/
+___MainIs:         set_line_cap.ml
+___BuildDepends:   cairo2
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable set_line_join
+___Path:           examples/
+___MainIs:         set_line_join.ml
+___BuildDepends:   cairo2
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable text
+___Path:           examples/
+___MainIs:         text.ml
+___BuildDepends:   cairo2
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable text_align_center
+___Path:           examples/
+___MainIs:         text_align_center.ml
+___BuildDepends:   cairo2
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable text_extents
+___Path:           examples/
+___MainIs:         text_extents.ml
+___BuildDepends:   cairo2
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable text_rotate
+___Path:           examples/
+___MainIs:         text_rotate.ml
+___BuildDepends:   cairo2
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable gtk_demo
+___Build: false
+___if flag(lablgtk2)
+______Build: true
+___Path:           examples/
+___MainIs:         gtk_demo.ml
+___BuildDepends:   cairo2, cairo2.lablgtk2, lablgtk2
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable cloud
+___Path:           examples/word_cloud/
+___MainIs:         run.ml
+___BuildDepends:   cairo2
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable recording
+___Path:           examples
+___MainIs:         recording.ml
+___BuildDepends:   cairo2
+___CompiledObject: best
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable stroke
+___Path:           examples/
+___MainIs:         stroke.ml
+___BuildDepends:   cairo2
+___CompiledObject: byte
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable fill
+___Path:           examples/
+___MainIs:         fill.ml
+___BuildDepends:   cairo2
+___CompiledObject: byte
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable showtext
+___Path:           examples/
+___MainIs:         showtext.ml
+___BuildDepends:   cairo2
+___CompiledObject: byte
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable paint
+___Path:           examples/
+___MainIs:         paint.ml
+___BuildDepends:   cairo2
+___CompiledObject: byte
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable mask
+___Path:           examples/
+___MainIs:         mask.ml
+___BuildDepends:   cairo2
+___CompiledObject: byte
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable setsourcergba
+___Path:           examples/
+___MainIs:         setsourcergba.ml
+___BuildDepends:   cairo2
+___CompiledObject: byte
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable setsourcegradient
+___Path:           examples/
+___MainIs:         setsourcegradient.ml
+___BuildDepends:   cairo2
+___CompiledObject: byte
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable path_close
+___Path:           examples/
+___MainIs:         path_close.ml
+___BuildDepends:   cairo2
+___CompiledObject: byte
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable textextents
+___Path:           examples/
+___MainIs:         textextents.ml
+___BuildDepends:   cairo2
+___CompiledObject: byte
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable diagram
+___Path:           examples/
+___MainIs:         diagram.ml
+___BuildDepends:   cairo2
+___CompiledObject: byte
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable draw
+___Path:           examples/
+___MainIs:         draw.ml
+___BuildDepends:   cairo2
+___CompiledObject: byte
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable tips_ellipse
+___Path:           examples/
+___MainIs:         tips_ellipse.ml
+___BuildDepends:   cairo2
+___CompiledObject: byte
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable tips_letter
+___Path:           examples/
+___MainIs:         tips_letter.ml
+___BuildDepends:   cairo2
+___CompiledObject: byte
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable tips_font
+___Path:           examples/
+___MainIs:         tips_font.ml
+___BuildDepends:   cairo2
+___CompiledObject: byte
+___BuildTools:     ocamlbuild
+___Install:        false
+---------------------------------- calendar-2.03.1~oasis1/_oasis
+OASISFormat:  0.2
+Name:         calendar
+Version:      2.03.1~oasis1
+Authors:      Julien Signoles
+Homepage:     http://calendar.forge.ocamlcore.org/
+License:      LGPL-2.1 with OCaml linking exception
+LicenseFile:  LICENSE
+ConfType:   custom (0.2)
+BuildType:    custom (0.2)
+InstallType:  custom (0.2)
+BuildTools:   make
+Synopsis:     Objective Caml library for handling dates and times.
+
+XCustomConf: ./configure
+XCustomBuild: make
+XCustomInstall: make install
+XCustomUninstall: make uninstall
+
+Library calendar
+___Path: .
+---------------------------------- camlspotter-camlgi-oasis-d3b729494e8c/_oasis
+OASISFormat: 0.2
+Name:        CamlGI
+Version:     0.6-oasis1
+Synopsis:    CamlGI - FastCGI and CGI library
+Authors:     Christophe Troestler
+License:     LGPL-2.1 with OCaml linking exception
+BuildType:   Custom (0.2)
+InstallType:    Custom (0.2)
+XCustomBuild: make
+XCustomInstall: OCAMLFIND_DESTDIR=$libdir make install
+XCustomUninstall: OCAMLFIND_DESTDIR=$libdir ocamlfind remove CamlGI
+BuildTools: make
+
+Library camlGI
+___Path:          .
+___FindlibName:   CamlGI
+___BuildDepends:  threads, unix, str
+___Modules:       CamlGI
+---------------------------------- camlspotter-pa_monad_custom-4c555d5133ce/_oasis
+OASISFormat:  0.2
+Name:         pa_monad_custom
+Version:      6.0.0
+Synopsis:     Syntactic Sugar for Monads with small extesions
+Authors:      Jacques Carette, <carette AT mcmaster DOT ca>,
+___Lydia E. van Dijk, <lvandijk AT freenet DOT de>,
+___Oleg Kiselyov, <oleg AT pobox DOT com>,
+___Jun FURUSE
+License:      MIT
+LicenseFile:  MIT
+Plugins:      StdFiles (0.2)
+XStdFilesAUTHORS: false
+XStdFilesINSTALLFilename: INSTALL
+XStdFilesREADME: false
+BuildType:    Custom (0.2)
+InstallType:    Custom (0.2)
+XCustomBuild: make all META
+XCustomInstall: make findlib-install
+XCustomUninstall: make findlib-uninstall
+BuildTools: make
+
+Library pa_monad_custom
+___Path:               .
+___Modules:            Pa_monad
+___FindlibName:        monad-custom
+___BuildDepends:       camlp4.lib,
+______camlp4.quotations
+___CompiledObject:     byte
+---------------------------------- camlspotter-planck-9a88b35c1deb/_oasis
+OASISFormat: 0.2
+Name:        planck
+Version:     1.0.1
+Synopsis:    Planck(Parser LANguage Combinator Kit): a small parser combinator library
+Authors:     Jun FURUSE
+License:     LGPL-2.0 with OCaml linking exception
+Plugins:      StdFiles (0.2)
+BuildType:    Custom (0.2)
+InstallType:    Custom (0.2)
+XCustomBuild: yes no | omake --install; omake
+XCustomInstall: omake install
+XCustomUninstall: omake uninstall
+BuildTools: omake
+
+Library planck
+___Path:          lib
+___FindlibName:   planck
+___BuildDepends:  sexplib (>= 5.2.1), spotlib (>= 1.0.0)
+___Modules:       Position,
+______Result,
+______Lazylist,
+______Stream_intf,
+______Stream,
+______Sstring,
+______Smemo,
+______Sbuffer,
+______Planck_intf,
+______Pbase,
+______Pbaseexn,
+______Pbaseref,
+______Pchar,
+______Pbuffer,
+______Pmemo,
+______Op_prec
+---------------------------------- core-0.7.0/_oasis
+
+OASISFormat:  0.2
+OCamlVersion: >= 3.12
+Name:         core
+Version:      0.7.0
+Synopsis:     Jane Street Capital's standard library overlay
+Authors:      Jane street capital
+Copyrights:   (C) 2008-2010 Jane Street Capital LLC
+License:      LGPL-2.1 with OCaml linking exception
+LicenseFile:  LICENSE
+Plugins:      StdFiles (0.2),
+___DevFiles (0.2),
+___META (0.2)
+BuildTools:   ocamlbuild
+Description:  Jane Street Capital's standard library overlay
+XStdFilesAUTHORS: false
+XStdFilesINSTALLFilename: INSTALL
+XStdFilesREADME: false
+
+Flag linux
+___Description: Enable linux specific extensions
+___Default$:    system(linux)
+
+Library core
+___Path:               lib
+___FindlibName:        core
+___Pack:               true
+___Modules:Agnostic_mutex,Array_permute,Avltree,Bag,Bigbuffer,Bigstring,Bigsubstring,Binable,Binary_packing,Blang,Bool,Bucket,Byte_units,Caml,Common,Comparable,Constrained_float,Container,Core_arg,Core_array,Core_char,Core_condition,Core_field,Core_filename,Core_gc,Core_hashtbl,Core_hashtbl_intf,Core_int,Core_int32,Core_int63,Core_int64,Core_list,Core_map,Core_map_intf,Core_mutex,Core_nativeint,Core_printexc,Core_printf,Core_queue,Core_set,Core_set_intf,Core_sexp,Core_stack,Core_string,Core_sys,Core_thread,Core_unix,Crc,Daemon,Date,Dequeue,Doubly_linked,Error_check,Exn,Float,Floatable,Float_intf,Float_robust_compare,Fn,Force_once,Fqueue,Hashable,Hash_heap,Hash_queue,Hash_set,Hash_set_intf,Heap,Identifiable,In_channel,Intable,Int_conversions,Interfaces,Interval,Interval_intf,Int_intf,Int_set,Linebuf,Local_utest,Lock_file,Make_substring,Memo,Monad,Month,Mutex0,Ofday,Option,Ordered_collection_common,Out_channel,Piecewise_linear,Pretty_printer,Quickcheck,Ref,Result,Robustly_comparable,Set_once,Sexpable,Signal,Space_safe_tuple,Span,Squeue,Std,Std_internal,Stringable,String_id,Substring,Substring_intf,Terminal_io_intf,Thread_safe_queue,Time,Time_internal,Timer,Tuple,TZ,Unique_id,Unique_id_intf,Unit,Utest,Weekday,With_return,Word_size
+___CCOpt:              -D_LARGEFILE64_SOURCE
+___CSources:           bigstring_marshal_stubs.c,bigstring_stubs.c,includes.h,jane_common.h,linebuf_stubs.c,misc.c,ocaml_utils.h,ocaml_utils_stubs.c,open_stubs.c,signal_stubs.c,socketaddr.h,unix_stubs.c,unix_utils.h
+___if flag(linux)
+______CCLib:            -lrt
+___BuildDepends:       sexplib.syntax,
+______sexplib (>= 5.1.2),
+______fieldslib.syntax,
+______fieldslib (>= 0.1.2),
+______bin_prot (>= 1.3.1),
+______bin_prot.syntax,
+______bigarray,
+______res,
+______unix,
+______threads
+
+Flag tests
+___Description:        Build and run tests
+___Default:            true
+
+Executable test_runner
+___Path:               lib_test
+___MainIs:             test_runner.ml
+___Build$:             flag(tests)
+___Custom:             true
+___Install:            false
+___BuildDepends:       core,oUnit (>= 1.0.2)
+
+Test test_runner
+___Run$:               flag(tests)
+___Command:            $test_runner
+___WorkingDirectory:   lib_test
+
+---------------------------------- core_extended-0.7.0/_oasis
+
+OASISFormat:  0.2
+OCamlVersion: >= 3.12
+Name:         core_extended
+Version:      0.7.0
+Synopsis:     Jane Street Capital's standard library overlay
+Authors:      Jane street capital
+Copyrights:   (C) 2008-2011 Jane Street Capital LLC
+License:      LGPL-2.1 with OCaml linking exception
+LicenseFile:  LICENSE
+Plugins:      StdFiles (0.2),
+___DevFiles (0.2),
+___META (0.2)
+BuildTools:   ocamlbuild
+Description:  Jane Street Capital's standard library overlay
+XStdFilesAUTHORS: false
+XStdFilesINSTALLFilename: INSTALL
+XStdFilesREADME: false
+Library core_extended
+___Path:               lib
+___FindlibName:        core_extended
+___Pack:               true
+___Modules:Atomic_edit,Bin_io_utils,Bitarray,Cache,Cbuffer,Command,Console,Csv_writer,Documented_match_statement,English,Exception_check,Extended_array,Extended_common,Extended_container,Extended_exn,Extended_filename,Extended_float,Extended_fn,Extended_gc,Extended_int,Extended_int32,Extended_int63,Extended_int64,Extended_list,Extended_list__LCS,Extended_list__multimerge,Extended_memo,Extended_monad,Extended_nativeint,Extended_result,Extended_sexp,Extended_string,Extended_sys,Extended_thread,Extended_time,Extended_unix,Extra_fields,Fd_leak_check,Find,Fold_map,Iter,Lazy_list,Lazy_m,Logger,Loggers,Low_level_debug,Multi_map,Net_utils,Number,Patience_diff,Pp,Printc,Process,Procfs,Readline,Readline__input_char,Readline__input_loop,Readline__list_zipper,Readline__string_zipper,Runtime_blockout_detector,Rw_mutex,Search_foo,Semaphore,Sendmail,Shell,Shell__core,Std,Syslog,Sys_utils,Timed_function,Union_find,Unix_utils,Update_queue
+___CCopt:              -Ilib
+___CSources:           jane.h,jane_common.h,ocaml_utils.h,unix_utils.h,extended_sys_stubs.c,extended_unix_stubs.c,fork_exec.c,low_level_debug_stubs.c,syslog_stubs.c
+
+___BuildDepends:       sexplib.syntax,
+______sexplib,
+______fieldslib.syntax,
+______fieldslib,
+______bin_prot,
+______bin_prot.syntax,
+______core (= 0.7.0),
+______bigarray,
+______res,
+______unix,
+______threads
+
+Flag tests
+___Description:        Build and run tests
+___Default:            true
+
+Executable core_extended_hello
+___Path:               lib_test
+___MainIs:             core_extended_hello.ml
+___Build$:             flag(tests)
+___Custom:             true
+___CompiledObject:     best
+___Install:            false
+___BuildDepends:       core_extended
+
+Executable core_hello
+___Path:               lib_test
+___MainIs:             core_hello.ml
+___Build$:             flag(tests)
+___Custom:             true
+___CompiledObject:     best
+___Install:            false
+___BuildDepends:       core,threads
+
+Executable test_runner
+___Path:               lib_test
+___MainIs:             test_runner.ml
+___Build$:             flag(tests)
+___Custom:             true
+___CompiledObject:     best
+___Install:            false
+___BuildDepends:       core_extended,oUnit (>= 1.1.0),threads
+
+Test test_runner
+___Run$:              flag(tests)
+___Command:            $test_runner --core-hello $core_hello --core-extended-hello $core_extended_hello
+___WorkingDirectory:   lib_test
+___TestTools:          core_hello,core_extended_hello
+
+
+---------------------------------- fieldslib-0.1.2/_oasis
+OASISFormat:  0.2
+OCamlVersion: >= 3.12
+Name:         fieldslib
+Version:      0.1.2
+Synopsis:     OCaml record fields as first class values.
+Authors:      Jane street capital
+Copyrights:   (C) 2009-2011 Jane Street Capital LLC
+License:      LGPL-2.1 with OCaml linking exception
+LicenseFile:  LICENSE
+Plugins:      StdFiles (0.2),
+___DevFiles (0.2),
+___META (0.2)
+XStdFilesREADME: false
+XStdFilesAUTHORS: false
+XStdFilesINSTALLFilename: INSTALL
+BuildTools:   ocamlbuild
+
+Library fieldslib
+___Path:               lib
+___FindlibName:        fieldslib
+___Pack:               true
+___Modules:            Field
+___XMETAType:          library
+
+Library pa_fields_conv
+___Path:               syntax
+___Modules:            Pa_fields_conv
+___FindlibParent:      fieldslib
+___FindlibName:        syntax
+___BuildDepends:       camlp4.lib,
+______camlp4.quotations,
+______type-conv (>= 2.3.0)
+___CompiledObject:     byte
+___XMETAType:          syntax
+___XMETARequires:      camlp4,type-conv,fieldslib
+___XMETADescription:   Syntax extension for Fieldslib
+---------------------------------- json-wheel-1.0.6~oasis3/_oasis
+OASISFormat:  0.2
+Name:         json-wheel
+Version:      1.0.6~oasis3
+Authors:      Mika Illouz, Martin Jambon
+License:      BSD3
+LicenseFile:  LICENSE
+ConfType:   custom (0.2)
+BuildType:    custom (0.2)
+InstallType:  custom (0.2)
+BuildTools:   make
+Synopsis:     JSON library for OCaml.
+
+XCustomConf: touch setup.data && echo
+XCustomBuild: make bcl ncl
+XCustomInstall: make install
+XCustomUninstall: ocamlfind remove json-wheel
+
+Library jsonwheel
+___Path: .
+___FindlibName: json-wheel
+---------------------------------- lablgtk-2.14.2/_oasis
+OASISFormat: 0.2
+Name:        lablgtk2
+Version:     2.14.2-oasis8
+Synopsis:    Bindings for gtk2
+Authors:     Jacques Garrigue et al.
+License:     LGPL-2.1 with OCaml linking exception
+LicenseFile: LGPL
+ConfType:    custom (0.2)
+BuildType:   custom (0.2)
+InstallType: custom (0.2)
+BuildTools:  make
+
+XCustomConf: touch setup.data && ./configure
+XCustomBuild: make all opt
+XCustomInstall: ocamlfind install lablgtk2 META src/*.*
+XCustomUninstall: ocamlfind remove lablgtk2
+
+Library "lablgtk2"
+___Path: src/
+---------------------------------- lacaml-6.0.4/_oasis
+OASISFormat:     0.2
+OCamlVersion:    >= 3.12
+Name:            lacaml
+Version:         6.0.4
+Synopsis:        Binding to BLAS and LAPACK.
+Description:     This library interfaces the BLAS-library (Basic Linear Algebra Subroutines) and LAPACK-library (Linear Algebra routines), which are written in FORTRAN.
+Authors:
+___Egbert Ammicht <eammicht@lucent.com>,
+___Patrick Cousot <Patrick.Cousot@ens.fr>,
+___Sam Ehrlichman <sehrlichman@janestreet.com>,
+___Markus Mottl <markus.mottl@gmail.com>,
+___Liam Stewart <liam@cs.toronto.edu>,
+___Christophe Troestler <Christophe.Troestler@umons.ac.be>,
+___Oleg Trott <ot14@columbia.edu>,
+___Martin Willensdorfer <ma.wi@gmx.at>
+License:         LGPL-2.1 with OCaml linking exception
+Plugins:         META (0.2), StdFiles (0.2)
+BuildTools:      ocamlbuild
+Homepage:        http://forge.ocamlcore.org/projects/lacaml
+PostConfCommand: ocaml make_prec_dep.ml
+
+Library lacaml
+___Path:	      lib
+___Modules:    Lacaml
+___CSources:   impl_c.c, utils_c.c,
+______vec2_S_c.c, vec2_D_c.c,
+______vec2_C_c.c, vec2_Z_c.c,
+______mat4_S_c.c, mat4_D_c.c,
+______mat4_C_c.c, mat4_Z_c.c,
+______impl4_S_c.c, impl4_D_c.c,
+______impl4_C_c.c, impl4_Z_c.c,
+______impl2_S_c.c, impl2_D_c.c,
+______impl2_C_c.c, impl2_Z_c.c,
+______exp10.c,
+______f2c.h, lacaml_macros.h, utils_c.h
+___BuildDepends: bigarray
+___CCOpt: -O2 -DPIC
+___CCLib: -lblas -llapack
+___if system(macosx)
+______CCOpt: -O2 -DPIC -DEXTERNAL_EXP10 -framework vecLib
+______CCLib: -framework vecLib
+___if system(mingw)
+______CCOpt: -O2 -DPIC -DEXTERNAL_EXP10
+
+Library lacaml_top
+___Path:             lib
+___FindlibName:      top
+___FindlibParent:    lacaml
+___Modules:          Install_printers
+___XMETARequires:    lacaml
+___XMETADescription: Toplevel module for Lacaml.
+
+Executable blas
+___Path:           examples/blas
+___MainIs:         blas.ml
+___BuildDepends:   lacaml
+___Install:        false
+___CompiledObject: best
+___DllPath:        ../../lib
+
+Executable eig
+___Path:           examples/eig
+___MainIs:         eig.ml
+___BuildDepends:   lacaml
+___Install:        false
+___CompiledObject: best
+___DllPath:        ../../lib
+
+Executable sbev
+___Path:           examples/eig
+___MainIs:         sbev.ml
+___BuildDepends:   lacaml
+___Install:        false
+___CompiledObject: best
+___DllPath:        ../../lib
+
+Executable sbgv
+___Path:           examples/eig
+___MainIs:         sbgv.ml
+___BuildDepends:   lacaml
+___Install:        false
+___CompiledObject: best
+___DllPath:        ../../lib
+
+Executable lin_eq
+___Path:           examples/lin_eq
+___MainIs:         lin_eq.ml
+___BuildDepends:   lacaml
+___Install:        false
+___CompiledObject: best
+___DllPath:        ../../lib
+
+Executable gbsv
+___Path:           examples/lin_eq
+___MainIs:         gbsv.ml
+___BuildDepends:   lacaml
+___Install:        false
+___CompiledObject: best
+___DllPath:        ../../lib
+
+Executable lin_eq_comp
+___Path:           examples/lin_eq_comp
+___MainIs:         lin_eq_comp.ml
+___BuildDepends:   lacaml
+___Install:        false
+___CompiledObject: best
+___DllPath:        ../../lib
+
+Executable lin_reg
+___Path:           examples/lin_reg
+___MainIs:         lin_reg.ml
+___BuildDepends:   lacaml
+___Install:        false
+___CompiledObject: best
+___DllPath:        ../../lib
+
+Executable qr
+___Path:           examples/qr
+___MainIs:         qr.ml
+___BuildDepends:   lacaml
+___Install:        false
+___CompiledObject: best
+___DllPath:        ../../lib
+
+Executable svd
+___Path:           examples/svd
+___MainIs:         svd.ml
+___BuildDepends:   lacaml
+___Install:        false
+___CompiledObject: best
+___DllPath:        ../../lib
+
+Document API
+___Title:           API reference for Lacaml
+___Type:            OCamlbuild (0.2)
+___InstallDir:      $docdir/api
+___BuildTools:      ocamldoc, ocamlbuild
+___XOCamlbuildPath: .
+___XOCamlbuildLibraries: lacaml
+
+SourceRepository trunk
+___Type:       hg
+___Location:   ssh://forge.ocamlcore.org//hg/lacaml
+---------------------------------- lbfgs-0.8.3/_oasis
+OASISFormat: 0.2
+Name:        lbfgs
+Version:     0.8.3
+Synopsis:    Minimization of multidimensional functions on bounded or unbounded domains.
+Description: This is a binding to L-BFGS-B, a library for Large-scale
+___Bound-constrained Optimization.
+Authors:     Christophe Troestler <Christophe.Troestler@umons.ac.be>
+License:     LGPL-3.0 with OCaml linking exception
+Plugins:     META (0.2), StdFiles (0.2)
+FilesAB:     src/lbfgs.ml.ab
+Homepage:    https://forge.ocamlcore.org/projects/lbfgs/
+PostConfCommand: ocaml rename_c_prims.ml
+
+Flag has_lacaml
+___Description: Whether the lacaml findlib package is installed.
+___Default:     false
+
+Library lbfgs
+___Path:	      src
+___BuildTools: ocamlbuild
+___Modules:    Lbfgs
+___CSources:   lbfgs_stubs.c
+___BuildDepends: bigarray
+
+Document API
+___Title:           API reference for Lbfgs
+___Type:            OCamlbuild (0.2)
+___InstallDir:      $docdir/api
+___BuildTools:      ocamldoc, ocamlbuild
+___XOCamlbuildPath: .
+___XOCamlbuildLibraries: lbfgs
+
+
+Executable simple
+___Path:           examples/
+___MainIs:         simple.ml
+___BuildDepends:   lbfgs
+___BuildTools:     ocamlbuild
+___Install:        false
+
+Executable Rosenbrock
+___Path:           examples/
+___MainIs:         Rosenbrock.ml
+___BuildDepends:   lbfgs
+___BuildTools:     ocamlbuild
+___Install:        false
+___CompiledObject: best
+
+Executable error
+___Path:           examples/
+___MainIs:         error.ml
+___BuildDepends:   lbfgs
+___BuildTools:     ocamlbuild
+___Install:        false
+___CompiledObject: best
+
+Executable unconstrained
+___Build$:         flag(has_lacaml)
+___Path:           examples/
+___MainIs:         unconstrained.ml
+___BuildDepends:   lbfgs, lacaml
+___BuildTools:     ocamlbuild
+___Install:        false
+___DllPath:        ../src
+
+
+SourceRepository trunk
+___Type:       bzr
+___Location:   https://forge.ocamlcore.org/anonscm/bzr/lbfgs/trunk
+---------------------------------- lwt-2.3.2/_oasis
+
+OASISFormat: 0.1
+OCamlVersion: >= 3.12
+Name: lwt
+Version: 2.3.2
+LicenseFile: COPYING
+License: LGPL-2.1 with OCaml linking exception
+Authors:
+___Jérôme Vouillon,
+___Vincent Balat,
+___Nataliya Guts,
+___Pierre Clairambault,
+___Stéphane Glondu,
+___Jérémie Dimino,
+___Warren Harris,
+___Pierre Chambart,
+___Mauricio Fernandez
+Homepage: http://ocsigen.org/lwt/
+BuildTools: ocamlbuild
+Plugins: DevFiles (0.2), META (0.2)
+PostConfCommand: ocaml discover.ml -ocamlc $ocamlc -ext-obj $ext_obj -exec-name $default_executable_name -use-libev $libev -os-type $os_type
+PostDistCleanCommand: $rm src/unix/lwt_config.h src/unix/lwt_config.ml
+
+Synopsis: Lightweight thread library for Objective Caml
+Description:
+___Lwt is a library of cooperative threads implemented in monadic
+___style. With respect to preemptive threads, cooperative threads are
+___not using a scheduler to distribute processor time between
+___threads. Instead of this, each thread must tell the others that he
+___wants to let them work.
+
+
+Flag all
+___Description: build and install everything
+___Default: false
+
+Flag unix
+___Description: Unix support
+___Default: true
+
+Flag react
+___Description: React helpers
+___Default: false
+
+Flag glib
+___Description: Glib integration
+___Default: false
+
+Flag ssl
+___Description: SSL support
+___Default: false
+
+Flag text
+___Description: Text mode utilities
+___Default: false
+
+Flag preemptive
+___Description: Preemptive threads support
+___Default: true
+
+Flag extra
+___Description: Asynchronous unix functions
+___Default: true
+
+Flag toplevel
+___Description: Enhanced toplevel
+___Default: false
+
+Flag libev
+___Description: Compile with libev support
+___Default$: !os_type(Win32)
+
+
+Library "optcomp"
+___Install: false
+___Path: syntax
+___Modules: Pa_optcomp
+___BuildDepends: camlp4.lib, camlp4.quotations.o
+
+Library "lwt"
+___Path: src/core
+___Modules:
+______Lwt_condition,
+______Lwt_list,
+______Lwt,
+______Lwt_mutex,
+______Lwt_mvar,
+______Lwt_pool,
+______Lwt_sequence,
+______Lwt_stream,
+______Lwt_switch,
+______Lwt_util,
+______Lwt_pqueue
+___XMETADescription: Lightweight thread library for OCaml (core library)
+
+Library "lwt-unix"
+___Build$: flag(unix) || flag(all)
+___Install$: flag(unix) || flag(all)
+___FindlibName: unix
+___FindlibParent: lwt
+___Path: src/unix
+___Modules:
+______Lwt_chan,
+______Lwt_daemon,
+______Lwt_gc,
+______Lwt_io,
+______Lwt_log,
+______Lwt_main,
+______Lwt_process,
+______Lwt_throttle,
+______Lwt_timeout,
+______Lwt_unix,
+______Lwt_sys,
+______Lwt_engine,
+______Lwt_bytes
+___InternalModules:
+______Lwt_log_rules
+___BuildDepends: lwt, unix, bigarray
+___XMETADescription: Unix support for lwt
+___CSources:
+______lwt_config.h,
+______lwt_unix.h,
+______lwt_unix_stubs.c,
+______lwt_libev_stubs.c
+___if os_type(Win32)
+______CCLib+: ws2_32.lib
+___else
+______CCLib+: -lpthread
+___if flag(libev)
+______CCLib+: -lev
+
+Library "lwt-simple-top"
+___Build$: flag(unix) || flag(all)
+___Install$: flag(unix) || flag(all)
+___FindlibName: simple-top
+___FindlibParent: lwt
+___Path: src/simple_top
+___InternalModules: Lwt_simple_top
+___BuildDepends: lwt, lwt.unix
+___XMETADescription: Unix support for lwt
+
+Library "lwt-react"
+___Build$: flag(react) || flag(all)
+___Install$: flag(react) || flag(all)
+___FindlibName: react
+___FindlibParent: lwt
+___Path: src/react
+___Modules: Lwt_event, Lwt_signal, Lwt_react
+___BuildDepends: lwt, react
+___XMETADescription: Reactive programming helpers
+
+Library "lwt-preemptive"
+___Build$: flag(preemptive) || flag(all)
+___Install$: flag(preemptive) || flag(all)
+___FindlibName: preemptive
+___FindlibParent: lwt
+___Path: src/preemptive
+___Modules: Lwt_preemptive
+___BuildDepends: lwt, lwt.unix, threads
+___XMETADescription: Preemptive threads support for Lwt
+
+Library "lwt-extra"
+___Build$: flag(extra) || flag(all)
+___Install$: flag(extra) || flag(all)
+___FindlibName: extra
+___FindlibParent: lwt
+___Path: src/extra
+___Modules: Lwt_lib
+___BuildDepends: lwt, lwt.preemptive
+___XMETADescription: Unix functions for Lwt using Lwt_preemptive
+
+Library "lwt-glib"
+___Build$: flag(glib) || flag(all)
+___Install$: flag(glib) || flag(all)
+___FindlibName: glib
+___FindlibParent: lwt
+___Path: src/glib
+___Modules: Lwt_glib
+___CSources: lwt_glib_stubs.c
+___BuildDepends: lwt, lwt.unix
+___XMETADescription: Glib integration
+
+Library "lwt-ssl"
+___Build$: flag(ssl) || flag(all)
+___Install$: flag(ssl) || flag(all)
+___FindlibName: ssl
+___FindlibParent: lwt
+___Path: src/ssl
+___Modules: Lwt_ssl
+___BuildDepends: ssl, lwt.unix
+___XMETADescription: SSL support for Lwt
+
+Library "lwt-text"
+___Build$: flag(text) || flag(all)
+___Install$: flag(text) || flag(all)
+___FindlibName: text
+___FindlibParent: lwt
+___Path: src/text
+___Modules: Lwt_text, Lwt_term, Lwt_read_line
+___BuildDepends: lwt, lwt.unix, lwt.react, text, text.bigarray
+___XMETADescription: Text mode utilities
+___CSources: lwt_text_stubs.c
+
+Library "lwt-top"
+___Build$: flag(text) || flag(all)
+___Install$: flag(text) || flag(all)
+___FindlibName: top
+___FindlibParent: lwt
+___Path: src/top
+___Modules: Lwt_top
+___InternalModules: Lwt_ocaml_completion
+___BuildDepends: lwt, lwt.text, findlib
+___XMETADescription: Line-editing in the toplevel
+
+Library "lwt-syntax"
+___FindlibName: syntax
+___FindlibParent: lwt
+___Path: syntax
+___Modules: Pa_lwt
+___BuildDepends: camlp4.lib, camlp4.quotations.o, camlp4.extend
+___XMETAType: syntax
+___XMETADescription: Syntactic sugars for Lwt
+___XMETARequires: camlp4, lwt.syntax.options
+
+Library "lwt-syntax-options"
+___FindlibName: options
+___FindlibParent: lwt-syntax
+___Path: syntax
+___InternalModules: Pa_lwt_options
+___BuildDepends: camlp4.lib
+___XMETAType: syntax
+___XMETADescription: Options for syntax extensions
+___XMETARequires: camlp4
+
+Library "lwt-syntax-log"
+___FindlibName: log
+___FindlibParent: lwt-syntax
+___Path: syntax
+___Modules: Pa_lwt_log
+___BuildDepends: camlp4.lib, camlp4.quotations.o
+___XMETAType: syntax
+___XMETADescription: Syntactic sugars for logging
+___XMETARequires: camlp4, lwt.syntax.options
+
+
+Executable "lwt-toplevel"
+___Build$: flag(toplevel) || flag(all)
+___Install$: flag(toplevel) || flag(all)
+___Path: src/top
+___CompiledObject: byte
+___MainIs: lwt_toplevel.ml
+___BuildDepends: lwt, lwt.top, lwt.text, lwt.react, text, findlib, unix
+
+
+Document "lwt-manual"
+___Title: Lwt user manual
+___Type: custom (0.2)
+___Install: true
+___XCustom: make -C manual manual.pdf
+___DataFiles: manual/manual.pdf
+___InstallDir: $pdfdir
+
+Document "lwt-api"
+___Title: API reference for Lwt
+___Type: ocamlbuild (0.2)
+___Install: true
+___InstallDir: $htmldir/api
+___DataFiles: utils/style.css
+___BuildTools: ocamldoc
+___XOCamlbuildPath: ./
+___XOCamlbuildLibraries:
+______lwt,
+______lwt.extra,
+______lwt.glib,
+______lwt.preemptive,
+______lwt.react,
+______lwt.ssl,
+______lwt.text,
+______lwt.top,
+______lwt.unix,
+______lwt.syntax,
+______lwt.syntax.log
+
+
+Executable logging
+___Path: examples/unix
+___Build$: flag(unix)
+___Install: false
+___MainIs: logging.ml
+___BuildDepends: lwt.unix, lwt.syntax
+___CompiledObject: best
+
+Executable relay
+___Path: examples/unix
+___Build$: flag(unix)
+___Install: false
+___MainIs: relay.ml
+___BuildDepends: lwt.unix, lwt.syntax
+___CompiledObject: best
+
+Executable parallelize
+___Path: examples/unix
+___Build$: flag(unix)
+___Install: false
+___MainIs: parallelize.ml
+___BuildDepends: lwt.unix, lwt.syntax
+___CompiledObject: best
+
+
+Library test
+___Path: tests
+___Modules: Test
+___Install: false
+___Build$: flag(unix) || flag(all)
+
+Executable test_core
+___Path: tests/core
+___Build$: flag(unix) || flag(all)
+___Install: false
+___CompiledObject: best
+___MainIs: main.ml
+___BuildDepends: test, lwt, unix, lwt.unix
+
+Executable test_unix
+___Path: tests/unix
+___Build$: flag(unix) || flag(all)
+___Install: false
+___CompiledObject: best
+___MainIs: main.ml
+___BuildDepends: test, lwt, unix, lwt.unix
+
+Executable test_react
+___Path: tests/react
+___Build$: (flag(unix) && flag(react)) || flag(all)
+___Install: false
+___CompiledObject: best
+___MainIs: main.ml
+___BuildDepends: test, lwt, unix, lwt.unix, react, lwt.react
+
+Test core
+___Command: $test_core
+___TestTools: test_core
+___Run$: flag(unix) || flag(all)
+
+Test unix
+___Command: $test_unix
+___TestTools: test_unix
+___Run$: flag(unix) || flag(all)
+
+Test react
+___Command: $test_react
+___TestTools: test_react
+___Run$: (flag(unix) && flag(react)) || flag(all)
+
+
+SourceRepository head
+___Type: darcs
+___Location: http://ocsigen.org/darcs/lwt
+___Browser: http://ocsigen.org/darcsweb/?r=lwt;a=summary
+---------------------------------- lwt-zmq-1.0~beta2/_oasis
+OASISFormat: 0.2
+Name:        lwt-zmq
+Version:     1.0~beta2
+Synopsis:    Lwt-friendly interface to ZeroMQ
+Authors:     Hezekiah M. Carty
+License:     MIT
+Plugins:     DevFiles (0.2), META (0.2), StdFiles (0.2)
+BuildTools: ocamlbuild
+
+Library "lwt-zmq"
+___Path:       src
+___FindlibName: lwt-zmq
+___Modules:    Lwt_zmq
+___BuildDepends: ZMQ, lwt.unix, lwt.syntax
+___CompiledObject: best
+___
+Executable req
+___Path: test
+___MainIs: req.ml
+___Install: false
+___BuildDepends: lwt-zmq, lwt.syntax
+
+Executable rep
+___Path: test
+___MainIs: rep.ml
+___Install: false
+___BuildDepends: lwt-zmq, lwt.syntax
+
+---------------------------------- mfp-ocaml-sqlexpr-dff5913/_oasis
+OASISFormat: 0.2
+Name:        ocaml-sqlexpr
+Version:     0.4.1
+Synopsis:    Type-safe, convenient SQLite database access.
+Authors:     Mauricio Fernandez <mfp@acm.org>
+License:     LGPL-2.1 with OCaml linking exception
+Plugins:     DevFiles (0.2), META (0.2)
+BuildTools:  ocamlbuild
+Homepage:    http://github.com/mfp/ocaml-sqlexpr
+Description:
+___Minimalistic library and syntax extension for type-safe, convenient execution
+___of SQL statements. Currently compatible with Sqlite3.
+___.
+___Sqlexpr features:
+___.
+___* automated prepared statement caching, param binding, data extraction, error
+______checking (including automatic stmt reset to avoid BUSY/LOCKED errors in
+______subsequent queries), stmt finalization on db close, etc.
+___.
+___* HOFs like iter, fold, transaction
+___.
+___* support for different concurrency models: everything is functorized over a
+______THREAD monad, so you can for instance do concurrent folds/iters with Lwt
+___.
+___* support for SQL stmt syntax checks and some extra semantic checking (column
+______names, etc)
+
+SourceRepository github
+___Type:     git
+___Location: git://github.com/mfp/ocaml-sqlexpr.git
+___
+Library sqlexpr
+___Path:             .
+___BuildTools:       ocamlbuild
+___Modules:          Sqlexpr_concurrency,
+______Sqlexpr_sqlite,
+______Sqlexpr_sqlite_lwt
+___BuildDepends:     csv, batteries, sqlite3, estring, lwt (>= 2.2.0), lwt.syntax, lwt.unix,
+______unix, threads
+___XMETADescription: SQLite database access.
+
+Library "sqlexpr_syntax"
+___Path:             .
+___FindlibName:      syntax
+___FindlibParent:    sqlexpr
+___Modules:          Pa_sql
+___BuildDepends:     camlp4.lib, camlp4.quotations.r, estring
+___XMETADescription: Syntax extension for SQL statements/expressions
+___XMETAType:        syntax
+___XMETARequires:    camlp4, estring
+___
+Document sqlexpr
+___Title:                API reference for Sqlexpr
+___Type:                 ocamlbuild (0.2)
+___InstallDir:           $htmldir/sqlexpr
+___BuildTools+:          ocamldoc
+___XOCamlbuildPath:      .
+___XOCamlbuildLibraries: sqlexpr
+---------------------------------- oasis-0.3.0~rc3/_oasis
+OASISFormat:  0.1
+OCamlVersion: >= 3.11.0
+Name:         oasis
+Version:      0.3.0~rc3
+LicenseFile:  COPYING.txt
+License:      LGPL-2.1 with OCaml linking exception
+BuildType:    ocamlbuild (0.3)
+Authors:      Sylvain Le Gall
+Copyrights:   (C) 2008-2010 OCamlCore SARL
+Homepage:     http://oasis.forge.ocamlcore.org/
+Plugins:      DevFiles (0.3), StdFiles (0.3), META (0.3)
+FilesAB:      src/oasis/OASISConf.ml.ab
+BuildTools:   ocamlbuild, make
+
+Synopsis: Architecture for building OCaml libraries and applications
+Description:
+___OASIS generates a full configure, build and install system for your
+___application. It starts with a simple `_oasis` file at the toplevel of your
+___project and creates everything required.
+___.
+___It uses external tools like OCamlbuild and it can be considered as the glue
+___between various subsystems that do the job. It should support the following
+___tools:
+___.
+___- OCamlbuild
+___- OMake (todo)
+___- OCamlMakefile (todo),
+___- ocaml-autoconf (todo)
+___.
+___It also features a do-it-yourself command line invocation and an internal
+___configure/install scheme. Libraries are managed through findlib. It has been
+___tested on GNU Linux and Windows.
+___.
+___It also allows to have standard entry points and description. It helps to
+___integrates your libraries and software with third parties tools like GODI.
+
+Flag libraries
+___Description: Install oasis and base libraries, for plugins development
+
+Flag gettext
+___Description: Use ocaml-gettext for i18n
+___Default: false
+
+if flag(gettext)
+___PostBuildCommand: $make -C po all
+___PostCleanCommand: $make -C po clean
+___PostInstallCommand:   $make -C po install PODIR=$prefix/share/locale
+___PostUninstallCommand: $make -C po install PODIR=$prefix/share/locale
+
+Library oasis
+___Path: src/oasis
+___Modules: FormatExt,
+______FormatMarkdown,
+______ODNFunc,
+______PropList,
+______OASISUtils,
+______OASISUnixPath,
+______OASISContext,
+______OASISGettext,
+______OASISMessage,
+______OASISTypes,
+______OASISParse,
+______OASISValues,
+______OASISExpr,
+______OASISVersion,
+______OASISLicense,
+______OASISFileTemplate,
+______OASISBuildSection,
+______OASISDocument,
+______OASISExecutable,
+______OASISFlag,
+______OASISLibrary,
+______OASISPackage,
+______OASISSourceRepository,
+______OASISTest,
+______OASISPlugin,
+______OASISSchema,
+______OASISSection,
+______OASISData
+___InternalModules: OASISVersion_types,
+______OASISVersion_lexer,
+______OASISVersion_parser,
+______OASISSchema,
+______OASISConf,
+______OASISAst,
+______OASISCheck,
+______OASISRecDescParser,
+______OASISCustom,
+______OASISQuickstart,
+______OASISHelp,
+______OASISFormat,
+______OASISSection_intern,
+______OASISBuildSection_intern,
+______OASISDocument_intern,
+______OASISExecutable_intern,
+______OASISFlag_intern,
+______OASISLibrary_intern,
+______OASISPackage_intern,
+______OASISSourceRepository_intern,
+______OASISTest_intern,
+______OASISSchema_intern
+___CompiledObject: Best
+___BuildDepends: fileutils (>= 0.4.2), unix, pcre, batteries,
+______odn (>= 0.0.3), ocamlgraph
+___BuildTools+: ocamlmod, ocamlyacc, ocamllex, ocamlify
+___XMETADescription: _oasis file functions
+___Install$: flag(libraries)
+
+Library base
+___Path: src/base
+___Modules: BaseArgExt,
+______BaseBuilt,
+______BaseCheck,
+______BaseCustom,
+______BaseData,
+______BaseDoc,
+______BaseEnvLight,
+______BaseEnv,
+______BaseExec,
+______BaseFileAB,
+______BaseFilePath,
+______BaseFileUtil,
+______BaseGenerate,
+______BaseLog,
+______BaseOCamlcConfig,
+______BaseSetup,
+______BaseStandardVar,
+______BaseTest,
+______BaseDynVar,
+______BaseMessage,
+______BaseContext
+___CompiledObject: Best
+___BuildDepends: oasis
+___BuildTools+: ocamlmod, ocamlify
+___FindlibParent: oasis
+___XMETADescription: 'setup.ml' modules for OASIS
+___Install$: flag(libraries)
+
+Library "builtin-plugins"
+___Path: src
+___Modules: OASISBuiltinPlugins
+___InternalModules: plugins/none/NonePlugin,
+______plugins/none/NoneData,
+______plugins/internal/InternalConfigurePlugin,
+______plugins/internal/InternalInstallPlugin,
+______plugins/internal/InternalData,
+______plugins/internal/InternalId,
+______plugins/ocamlbuild/OCamlbuildPlugin,
+______plugins/ocamlbuild/OCamlbuildDocPlugin,
+______plugins/ocamlbuild/OCamlbuildData,
+______plugins/ocamlbuild/OCamlbuildCommon,
+______plugins/ocamlbuild/OCamlbuildId,
+______plugins/ocamlbuild/MyOCamlbuildBase,
+______plugins/ocamlbuild/MyOCamlbuildFindlib,
+______plugins/custom/CustomPlugin,
+______plugins/custom/CustomData,
+______plugins/extra/META/METAPlugin,
+______plugins/extra/META/METAData,
+______plugins/extra/devfiles/DevFilesPlugin,
+______plugins/extra/devfiles/DevFilesData,
+______plugins/extra/stdfiles/StdFilesPlugin,
+______plugins/extra/stdfiles/StdFilesData
+___CompiledObject: Best
+___BuildDepends: oasis, oasis.base
+___FindlibParent: oasis
+
+Library cli
+___Path:             src/cli
+___Modules:          SubCommand,
+______ArgExt,
+______Pager
+___InternalModules:  CLIData
+___CompiledObject:   byte
+___BuildDepends:     oasis, oasis.base
+___FindlibParent:    oasis
+___XMETADescription: 'setup.ml' modules for OASIS
+___Install$:         flag(libraries)
+
+Executable oasis
+___Path:   src/cli
+___MainIs: Main.ml
+___BuildDepends: oasis, oasis.base, oasis.cli, oasis.builtin-plugins
+
+Executable test
+___Path: test
+___MainIs: test.ml
+___Install: false
+___CompiledObject: byte
+___Build$: flag(tests)
+___BuildDepends: oUnit (>= 1.1.0), findlib, oasis, oasis.base, oasis.builtin-plugins, expect.pcre (>= 0.0.2)
+
+Test main
+___Type: custom (0.3)
+___Command: $test -oasis-exec $oasis -has-ocamlopt $is_native
+___WorkingDirectory: test
+___TestTools: oasis, test
+
+Document manual
+___Type: custom (0.3)
+___Title: OASIS User Manual
+___if flag(gettext)
+______XCustom: env LANG=C $oasis manual > doc/MANUAL.mkd
+___else
+______XCustom: $oasis manual -o doc/MANUAL.mkd
+___XCustomClean: $rm doc/MANUAL.mkd
+___DataFiles: doc/MANUAL.mkd
+
+Document "api-oasis"
+___Title:                API reference for OASIS
+___Type:                 ocamlbuild (0.3)
+___InstallDir:           $htmldir/oasis
+___BuildTools+:          ocamldoc
+___XOCamlbuildPath:      src/
+___XOCamlbuildLibraries: oasis, oasis.base, oasis.cli
+
+SourceRepository head
+___Type: darcs
+___Location: http://darcs.ocamlcore.org/repos/oasis
+___Browser: http://darcs.ocamlcore.org/cgi-bin/darcsweb.cgi?r=oasis;a=summary
+---------------------------------- ocaml-data-notation-0.0.8/_oasis
+OASISFormat:  0.2
+OCamlVersion: >= 3.10.2
+Name:         ocaml-data-notation
+Version:      0.0.8
+Synopsis:     Store data using OCaml notation
+Copyrights:   (C) 2009-2010 OCamlCore SARL
+Authors:      Sylvain Le Gall
+License:      LGPL-2.1 with OCaml linking exception
+LicenseFile:  COPYING.txt
+Plugins:      StdFiles (0.2), DevFiles (0.2), META (0.2)
+FilesAB:      tests/TestConf.ml.ab
+BuildTools:   ocamlbuild
+Homepage:     http://forge.ocamlcore.org/projects/odn
+
+Description:
+___This library uses `type-conv` to dump OCaml data structures using OCaml data
+___notation. 
+___. 
+___This kind of data dumping helps to write OCaml code generator, like OASIS.
+
+Library odn
+___Path:    src
+___Modules: ODN
+___
+Library pa_odn
+___Path:               src
+___Modules:            Pa_odn
+___FindlibParent:      odn
+___FindlibContainers:  with
+___FindlibName:        syntax
+___BuildDepends:       type-conv (>= 3.0.4), camlp4.lib, camlp4.quotations.o 
+___CompiledObject:     byte
+___XMETAType:          syntax
+___XMETARequires:      type-conv, camlp4, odn
+___XMETADescription:   Syntax extension for odn
+
+Library pa_noodn
+___Path:               src
+___Modules:            Pa_noodn
+___FindlibParent:      odn
+___FindlibContainers:  without
+___FindlibName:        syntax
+___BuildDepends:       type-conv, camlp4.lib, camlp4.quotations.o 
+___CompiledObject:     byte
+___XMETAType:          syntax
+___XMETARequires:      type-conv, camlp4
+___XMETADescription:   Syntax extension that removes 'with odn'
+
+Executable test
+___Path:         tests
+___MainIs:       test.ml
+___Install:      false
+___Build$:       flag(tests)
+___BuildDepends: oUnit (>= 1.1.0), fileutils (>= 0.4.0), odn, str
+___
+Test main
+___Run$:    flag(tests)
+___Command: $test
+
+SourceRepository head
+___Type: darcs
+___Location: http://darcs.ocamlcore.org/repos/ocaml-data-notation
+___Browser: http://darcs.ocamlcore.org/cgi-bin/darcsweb.cgi?r=ocaml-data-notation;a=summary
+---------------------------------- ocaml-extunix-0.0.4/_oasis
+OASISFormat:  0.1
+Name:         extunix
+Version:      0.0.4
+License:      LGPL-2.1 with OCaml linking exception
+Authors:      ygrek, Sylvain Le Gall, Stéphane Glondu, Kaustuv Chaudhuri, Joshua Smith, Niki Yoshiuchi, Gerd Stolpmann, Goswin von Brederlow, Andre Nathan
+Copyrights:
+___(C) 2010 ygrek,
+___(C) 2009 Sylvain Le Gall,
+___(C) 2008-2009 Talend Inc.,
+___(C) 2010 Stéphane Glondu,
+___(C) 2005 Joshua Smith,
+___(C) 2010 Niki Yoshiuchi,
+___(C) 2001 Gerd Stolpmann,
+___(C) 2012 Goswin von Brederlow,
+___(C) 2012 Andre Nathan
+Homepage:     http://extunix.forge.ocamlcore.org/
+BuildTools:   ocamlbuild, camlp4
+Plugins:      DevFiles (0.2), META (0.2)
+
+Synopsis: Extended functions for OCaml Unix module 
+Description:
+___Thin bindings to various low-level system APIs (often non-portable)
+___which are not covered by Unix module.
+___.
+___Some of the implemented functions : uname, statvfs, fsync, fadvise,
+______fallocate, openat, dirfd, eventfd, signalfd, setrlimit, mlockall, etc
+
+PostConfCommand: ocaml src/discover.ml -ocamlc $ocamlc -ext_obj $ext_obj
+PreDistCleanCommand: $rm $(utoh "src/config.h")
+PostDistCleanCommand: $rm $(utoh "src/config.ml") # [FORGE#742]
+
+Flag strict
+___Description: Strict compile-time checks
+___Default: true
+
+Library extunix
+___Path: src/
+___Modules: ExtUnix
+___InternalModules: ExtUnixAll, ExtUnixSpecific
+___if flag(strict) && ccomp_type(cc)
+______CCOpt: -std=c89 -pedantic -Wno-long-long -Wextra
+___CSources: config.h,
+______eventfd.c, dirfd.c, fsync.c, statvfs.c, atfile.c,
+______ioctl_siocgifconf.c, uname.c, fadvise.c, fallocate.c,
+______tty_ioctl.c, unistd.c, stdlib.c, signalfd.c, ptrace.c,
+______resource.c, mman.c, time.c, pts.c, execinfo.c, malloc.c,
+______endian.c, read_cred.c, fexecve.c, sendmsg.c,
+______memalign.c, endianba.c, pread_pwrite_ba.c, bigarray.c
+___BuildDepends: unix, bigarray
+
+Executable test
+___Path: test/
+___Install: false
+___Custom: true
+___CompiledObject: best
+___MainIs: test.ml
+___BuildDepends: extunix, oUnit (>= 1.0.3)
+
+Executable testba
+___Path: test/
+___Install: false
+___Custom: true
+___CompiledObject: best
+___MainIs: testba.ml
+___BuildDepends: extunix, oUnit (>= 1.0.3)
+
+Test main
+___Command: $test && $testba
+___TestTools: test, testba
+
+Document api
+___Title: API reference for extunix
+___Type: ocamlbuild (0.2)
+___Authors: ygrek, Sylvain Le Gall, Stéphane Glondu, Kaustuv Chaudhuri, Joshua Smith, Niki Yoshiuchi, Gerd Stolpmann, Goswin von Brederlow, Andre Nathan
+___BuildTools: ocamldoc
+___Format: HTML
+___Index: index.html
+___XOCamlbuildPath:      src/
+___XOCamlbuildLibraries: extunix
+___XOCamlbuildModules: ExtUnixAll, ExtUnixSpecific
+
+
+---------------------------------- ocaml-fileutils-0.4.2/_oasis
+OASISFormat:  0.2
+Name:         fileutils
+Version:      0.4.2-oasis1
+Authors:      Sylvain Le Gall
+License:      LGPL-2.1 with OCaml linking exception
+LicenseFile:  LICENSE
+BuildType:    custom (0.2)
+InstallType:  custom (0.2)
+BuildTools:   make
+Synopsis:     Library to provide pure OCaml functions to manipulate real file (POSIX like) and filename.
+
+XCustomConf: configure
+XCustomBuild: $make all
+XCustomInstall: $make install
+XCustomUninstall: $make uninstall
+---------------------------------- ocaml-getopt/_oasis
+OASISFormat: 0.2
+Name:        getopt
+Version:     20120118
+Synopsis:    Parsing of command line arguments (similar to GNU GetOpt) for OCaml
+Description:
+___General command line syntax of GNU getopt and getopt_long, but is close 
+___to the spirit of the Arg module. 
+
+Authors:     Alain Frish
+License:     MIT
+Plugins:     DevFiles (0.2), META (0.2)
+BuildTools:  ocamlbuild
+
+Library getopt
+___Path: .
+___FindlibName: getopt
+___Install: true
+___Modules: Getopt
+
+Executable sample
+___Path: .
+___MainIs: sample.ml
+___BuildDepends: unix, getopt
+
+Document doc
+___Title: API reference for Getopt
+___Type:                 ocamlbuild (0.2)
+___Install:              false
+___BuildTools+:          ocamldoc
+___XOCamlbuildPath:      .
+___XOCamlbuildLibraries: getopt
+---------------------------------- ocaml-glpk-0.1.6-oasis2/_oasis
+OASISFormat: 0.2
+Name:        ocaml-glpk
+Version:     0.1.6-oasis2
+Synopsis:    OCaml bindings for GLPK
+Authors:     Samuel Mimram
+License:     GPL-2.0
+LicenseFile: COPYING
+Plugins:     META (0.2)
+
+Library glpk
+___Path:        src
+___BuildTools:  ocamlbuild
+___Modules:     Glpk
+___CSources:    glpk_stubs.c
+___CCLib:       -lglpk
+___XMETAEnable: true
+---------------------------------- ocamlgraph-1.7/_oasis
+OASISFormat:  0.2
+Name:         ocamlgraph
+Version:      1.7-oasis2
+Authors:      Sylvain Conchon, Jean-Cristophe Filliâtre, Julien Signoles
+License:      LGPL-2.1 with OCaml linking exception
+LicenseFile:  LICENSE
+ConfType:   custom (0.2)
+BuildType:    custom (0.2)
+InstallType:  custom (0.2)
+BuildTools:   make
+Synopsis:     Library to provide pure OCaml functions to manipulate real file (POSIX like) and filename.
+
+XCustomConf: touch setup.data; ./configure
+XCustomBuild: make
+XCustomInstall: make install-findlib
+XCustomUninstall: ocamlfind remove ocamlgraph
+
+Library "ocamlgraph"
+___Path: src/
+---------------------------------- ocamlgsl/_oasis
+OASISFormat:  0.2
+Name:         ocamlgsl
+Version:      0.6.2-oasis1
+Authors:      Olivier Anderiu, Markus Mottl
+License:      GPL-2
+LicenseFile:  COPYING
+ConfType:   custom (0.2)
+BuildType:    custom (0.2)
+InstallType:  custom (0.2)
+BuildTools:   make
+Synopsis:     This is an interface to GSL (GNU scientific library), for the Objective Caml langage.
+
+XCustomConf: touch setup.data
+XCustomBuild: make
+XCustomInstall: make install
+XCustomUninstall: ocamlfind remove gsl
+
+Library "gsl"
+___Path: .
+---------------------------------- ocamlify-0.0.1/_oasis
+OASISFormat: 0.1
+Name:        ocamlify
+Version:     0.0.1
+Synopsis:    include files in OCaml code
+Authors:     Sylvain Le Gall
+LicenseFile: COPYING.txt 
+License:     LGPL-2.1 with OCaml linking exception
+FilesAB:     src/OCamlifyConfig.ml.ab
+Plugins:     StdFiles (0.1.0), DevFiles (0.1.0)
+
+Executable ocamlify
+___Path:           src
+___CompiledObject: byte
+___MainIs:         ocamlify.ml
+---------------------------------- ocamlmod-0.0.2/_oasis
+OASISFormat: 0.2
+Name:        ocamlmod
+Version:     0.0.2
+Synopsis:    Generate OCaml modules from source files
+Authors:     Sylvain Le Gall
+License:     LGPL-2.1 with OCaml linking exception
+Plugins:     DevFiles (0.2), META (0.2), StdFiles (0.2)
+
+Executable ocamlmod
+___Path:         src
+___BuildTools:   ocamlbuild
+___MainIs:       ocamlmod.ml
+___BuildDepends: fileutils, pcre
+___
+---------------------------------- ocamlnet-3.4.1~oasis3/_oasis
+OASISFormat: 0.2
+Name:        ocamlnet
+Version:     3.4.1-oasis3
+Synopsis:    Internet protocols and helper data structures
+Authors:     Gerd Stolpmann et al.
+License:     LGPL-2.1 with OCaml linking exception
+LicenseFile: LGPL
+ConfType:    custom (0.2)
+BuildType:   custom (0.2)
+InstallType: custom (0.2)
+BuildTools:  make
+
+XCustomConf: touch setup.data && ./configure
+XCustomBuild: make all opt
+XCustomInstall: make install
+XCustomUninstall: make uninstall
+
+Library "netcamlbox"
+___Path: src/
+
+Library "netcgi2"
+___Path: src/
+
+Library "netcgi2-plex"
+___Path: src/
+
+Library "netclient"
+___Path: src/
+
+Library "netmulticore"
+___Path: src/
+
+Library "netplex"
+___Path: src/
+
+Library "netshm"
+___Path: src/
+
+Library "netstring"
+___Path: src/
+
+Library "netsys"
+___Path: src/
+
+Library "pop"
+___Path: src/
+
+Library "shell"
+___Path: src/
+
+Library "smtp"
+___Path: src/
+---------------------------------- ocaml-posix-resource-0.0.1/_oasis
+OASISFormat:  0.1
+Name:         ocaml-posix-resource
+Version:      0.0.1
+LicenseFile:  COPYING.txt
+License:      LGPL-2.1 with OCaml linking exception
+Authors:      Sylvain Le Gall
+Copyrights:   (C) 2009 Sylvain Le Gall
+Homepage:     http://ocaml-posix-resource.forge.ocamlcore.org/
+FilesAB:      src/POSIXResourceConfig.ml.ab
+BuildTools:   ocamlbuild
+Plugins:      DevFiles (0.1.0), StdFiles (0.1.0), META (0.1.0)
+
+Synopsis:     POSIX resource operations bindings
+Description:
+___This library defines bindings to <sys/resource.h> functions:
+___* getrlimit, setrlimit: control maximum resource consumption
+___* getrusage: get information about resource utilisation
+___* getpriority, setpriority: get or set the nice value 
+___.
+___All this are usually controled through shell command like \"nice\" and \"ulimit\".
+
+Library posix_resource
+___Path: src/
+___Modules: POSIXResource
+___InternalModules: POSIXResourceConfig
+___CSources: POSIXResource_stub.c
+___BuildDepends: unix
+
+Executable test
+___Path: test/
+___Install: false
+___CompiledObject: native
+___MainIs: test.ml
+___BuildDepends: posix_resource, oUnit (>= 1.0.3)
+
+Test main
+___Command: $test 
+___TestTools: test
+
+---------------------------------- ocaml-radixtree-0.0.1/_oasis
+OASISFormat: 0.2
+Name:        ocaml-radixtree
+Version:     0.0.1
+Synopsis:    Radix tree for string
+Authors:     Sylvain Le Gall
+License:     LGPL-2.1 with OCaml linking exception
+Plugins:     DevFiles (0.2), META (0.2), StdFiles (0.2)
+
+Library radixtree
+___Path:       src
+___BuildTools: ocamlbuild
+___Modules:    RadixTree
+___
+Executable test
+___Path:       test
+___BuildTools: ocamlbuild
+___MainIs:     test.ml
+___BuildDepends: oUnit (>= 1.1.0), radixtree
+___Install:      false
+___
+Executable bench
+___Path:       test
+___BuildTools: ocamlbuild
+___MainIs:     bench.ml
+___BuildDepends: benchmark, radixtree
+___Install:      false
+___CompiledObject: Best
+___
+Document "api-radixtree"
+___Title:      API reference for RadixTree
+___InstallDir: $docdir
+___Type:       ocamlbuild (0.2)
+___InstallDir: $htmldir/radixtree
+___XOCamlbuildPath: src/
+___XOCamlbuildLibraries: radixtree
+___BuildTools: ocamlbuild, ocamldoc
+___
+Test main
+___Command: $test
+___TestTools: test
+___
+Test bench
+___Command: $bench
+___TestTools: bench
+___
+---------------------------------- ocamlscript-2.0.2~oasis4/_oasis
+OASISFormat:  0.2
+Name:         ocamlscript
+Version:      2.0.2~oasis4
+Authors:      David Mentré, Martin Jambon
+Homepage:     http://martin.jambon.free.fr/ocamlscript.html
+License:      Boost
+LicenseFile:  LICENSE
+ConfType:   custom (0.2)
+BuildType:    custom (0.2)
+InstallType:  custom (0.2)
+BuildTools:   make
+Synopsis:     Natively compiled OCaml scripts.
+
+XCustomConf: touch setup.data
+XCustomBuild: make
+XCustomInstall: make install
+XCustomUninstall: make uninstall
+
+Library ocamlscript
+___Path: .
+
+Executable ocamlscript
+___Path: .
+___MainIs: main.ml
+---------------------------------- ocaml-sqlite3-release-1.6.1/_oasis
+OASISFormat:  0.2
+Name:         ocaml-sqlite3
+Version:      1.6.1-oasis1
+Authors:      Christian Szegedy, Enrico Tassi, Markus Mottl
+License:      MIT
+LicenseFile:  COPYING
+ConfType:     custom (0.2)
+BuildType:    custom (0.2)
+InstallType:  custom (0.2)
+BuildTools:   make
+Synopsis:     SQLite 3 database library wrapper for OCaml
+
+XCustomConf: touch setup.data && ./configure
+XCustomBuild: make all
+XCustomInstall: make install
+XCustomUninstall: make uninstall
+
+Library "sqlite3"
+___Path: src/
+---------------------------------- ocaml-zmq-0.0.3/_oasis
+OASISFormat:  0.2
+Name:         ZMQ
+Version:      0.0.3
+Synopsis:     Bindings for the ZMQ library
+Authors:      Pedro Borges
+License:      MIT
+Plugins:      DevFiles (0.2), META (0.2)
+BuildTools:   ocamlbuild
+
+Library ZMQB
+___Path:           src
+___FindlibName:    ZMQ
+___Modules:        ZMQ
+___CSources:       caml_zmq_stubs.c,
+______socket.h,
+______socket.c,
+______context.h,
+______context.c,
+______fail.h,
+______fail.c,
+______poll.h,
+______poll.c,
+______uint64.h,
+______uint64.c
+___BuildDepends:   uint.uint64
+___CCLib:          -lzmq
+___CCOpt:          -Wall -W -Wextra -O2
+___CompiledObject: best
+
+Flag tests
+___Description: Build and run tests
+___
+Executable test
+___Path:             test
+___MainIs:           test.ml
+___Install:          false
+___Build$:           flag(tests)
+___BuildDepends:     oUnit (>= 1.1.0), ZMQ
+___CompiledObject:   best
+___
+Test main
+___Run$:    flag(tests)
+___Command: $test
+___
+---------------------------------- ocurl-0.5.3~oasis4/_oasis
+OASISFormat:  0.2
+Name:         ocurl
+Version:      0.5.3~oasis4
+Authors:      Lars Nilsson
+License:      MIT
+LicenseFile:  COPYING
+ConfType:   custom (0.2)
+BuildType:    custom (0.2)
+InstallType:  custom (0.2)
+BuildTools:   make
+Synopsis:     OCaml bindings to libcurl.
+
+XCustomConf: touch setup.data && ./configure --with-findlib
+XCustomBuild: make
+XCustomInstall: make install
+XCustomUninstall: ocamlfind remove curl
+
+Library curl
+___Path: .
+---------------------------------- odepack-0.6.2/_oasis
+OASISFormat: 0.2
+Name:        odepack
+Version:     0.6.2
+Synopsis:    Binding to ODEPACK.
+Description: This is a collection of solvers for the initial value problem for ordinary differential equation systems.
+Authors:     Christophe Troestler <Christophe.Troestler@umons.ac.be>
+License:     LGPL-3.0 with OCaml linking exception
+Plugins:     META (0.2), StdFiles (0.2)
+Homepage:    http://forge.ocamlcore.org/projects/odepack/
+PostConfCommand: ocaml rename_c_prims.ml
+
+Library "odepack"
+___Path:	      src
+___BuildTools: ocamlbuild
+___Modules:    Odepack
+___CSources:   odepack_stubs.c
+___BuildDepends: bigarray
+
+Document API
+___Title:           API reference for Odepack
+___Type:            OCamlbuild (0.2)
+___InstallDir:      $docdir/api
+___BuildTools:      ocamldoc, ocamlbuild
+___XOCamlbuildPath: .
+___XOCamlbuildLibraries: odepack
+
+
+Executable lsoda
+___Path:           tests/
+___MainIs:         lsoda.ml
+___BuildDepends:   odepack
+___BuildTools:     ocamlbuild
+___Install:        false
+___CompiledObject: best
+
+Executable minimal
+___Path:           tests/
+___MainIs:         minimal.ml
+___BuildDepends:   odepack
+___BuildTools:     ocamlbuild
+___Install:        false
+___CompiledObject: best
+
+Executable pendulum
+___Path:           tests/
+___MainIs:         pendulum.ml
+___BuildDepends:   odepack
+___BuildTools:     ocamlbuild
+___Install:        false
+___CompiledObject: best
+
+Executable closure
+___Path:           tests/
+___MainIs:         closure.ml
+___BuildDepends:   odepack
+___BuildTools:     ocamlbuild
+___Install:        false
+___CompiledObject: best
+
+
+SourceRepository trunk
+___Type:       svn
+___Location:   svn://scm.ocamlcore.org/svn/odepack/trunk
+___Browser:    https://forge.ocamlcore.org/scm/browser.php?group_id=191
+---------------------------------- optimization1d-0.5/_oasis
+OASISFormat: 0.2
+Name:        optimization1d
+Version:     0.5
+Synopsis:    Find extrema of 1D functions.
+Description: Collection of functions to seek the minimum and maximum
+___of functions float -> float.
+Authors:     Christophe Troestler <Christophe.Troestler@umons.ac.be>
+License:     LGPL-3.0 with OCaml linking exception
+Homepage:    http://forge.ocamlcore.org/projects/optimization1d/
+Plugins:     META (0.2), StdFiles (0.2)
+
+Library "optimization1d"
+___Path: src
+___BuildTools:   ocamlbuild
+___Modules:      Min1D, Max1D
+
+
+Executable "max1D_test"
+___Path:         tests
+___BuildTools:   ocamlbuild
+___MainIs:       max1D_test.ml
+___BuildDepends: optimization1d
+___Install:      false
+
+Executable "min1D_test"
+___Path:         tests
+___BuildTools:   ocamlbuild
+___MainIs:       min1D_test.ml
+___BuildDepends: optimization1d
+___Install:      false
+
+
+Document API
+___Title:           API reference for Optimization1d
+___Type:            OCamlbuild (0.2)
+___InstallDir:      $docdir/api
+___BuildTools:      ocamldoc, ocamlbuild
+___XOCamlbuildPath: src
+___XOCamlbuildLibraries: optimization1d
+
+SourceRepository trunk
+___Type:       svn
+___Location:   https://forge.ocamlcore.org/anonscm/bzr/optimization1d/
+___Browser:    http://forge.ocamlcore.org/scm/browser.php?group_id=280
+---------------------------------- react-0.9.2~oasis1/_oasis
+OASISFormat: 0.2
+Name:        React
+Version:     0.9.2~oasis1
+Synopsis:    Applicative events and signals for OCaml
+Authors:     Daniel Buenzli
+License:     BSD3
+Plugins:     DevFiles (0.2), META (0.2)
+
+Library react
+___Path:             src
+___BuildTools:       ocamlbuild
+___Modules:          React
+___XMETAType:        library
+___XMETADescription: Applicative events and signals for OCaml
+___FindlibName:      react
+
+---------------------------------- root1d-0.2/_oasis
+OASISFormat: 0.2
+Name:        root1d
+Version:     0.2
+Synopsis:    Find roots of 1D functions.
+Description: Collection of functions to seek roots of functions float -> float.
+Authors:     Christophe Troestler <Christophe.Troestler@umons.ac.be>,
+___Edgar Friendly <thelema314@gmail.com>
+License:     LGPL-3.0 with OCaml linking exception
+Homepage:    http://forge.ocamlcore.org/projects/root1d/
+Plugins:     META (0.2), StdFiles (0.2)
+
+Flag has_benchmark
+___Description: Whether the Benchmark findlib package is installed.
+___Default:     false
+
+Library "root1d"
+___Path: src
+___BuildTools:   ocamlbuild
+___Modules:      Root1D
+
+
+Executable "simple"
+___Path:         tests
+___BuildTools:   ocamlbuild
+___MainIs:       simple.ml
+___BuildDepends: root1d
+___Install:      false
+___CompiledObject: best
+
+Executable "difficult"
+___Path:         tests
+___BuildTools:   ocamlbuild
+___MainIs:       difficult.ml
+___BuildDepends: root1d
+___Install:      false
+___CompiledObject: best
+
+Executable "speed"
+___Build$:       flag(has_benchmark)
+___Path:         tests
+___BuildTools:   ocamlbuild
+___MainIs:       speed.ml
+___BuildDepends: root1d, benchmark
+___Install:      false
+___CompiledObject: best
+
+Document API
+___Title:           API reference for Root1d
+___Type:            OCamlbuild (0.2)
+___InstallDir:      $docdir/api
+___BuildTools:      ocamldoc, ocamlbuild
+___XOCamlbuildPath: src
+___XOCamlbuildLibraries: root1d
+
+SourceRepository trunk
+___Type:       svn
+___Location:   svn://scm.ocamlcore.org/svn/root1d/trunk
+___Browser:    http://forge.ocamlcore.org/scm/browser.php?group_id=281
+---------------------------------- sexplib-5.2.1/_oasis
+OASISFormat:  0.2
+OCamlVersion: >= 3.12
+Name:         sexplib
+Version:      5.2.1
+Synopsis:     automated S-expression conversion
+Authors:      Markus Mottl,
+___Martin Sandin
+Copyrights:   (C) 2005-2011 Jane Street Capital LLC
+License:      LGPL-2.1 with OCaml linking exception
+LicenseFile:  LICENSE
+Plugins:      StdFiles (0.2),
+___DevFiles (0.2),
+___META (0.2)
+BuildTools:   ocamlbuild
+XStdFilesAUTHORS: false
+XStdFilesINSTALLFilename: INSTALL
+XStdFilesREADME: false
+
+Library sexplib
+___Path:               lib
+___FindlibName:        sexplib
+___Pack:               true
+___Modules:            Type,
+______Parser,
+______Lexer,
+______Pre_sexp,
+______Sexp_intf,
+______Sexp,
+______Path,
+______Conv,
+______Conv_error,
+______Exn_magic,
+______Wrapper
+___BuildDepends:       unix,bigarray,num
+___XMETAType:          library
+___XMETARequires:      unix,bigarray,num
+
+Library pa_sexp_conv
+___Path:               syntax
+___Modules:            Pa_sexp_conv
+___FindlibParent:      sexplib
+___FindlibName:        syntax
+___BuildDepends:       camlp4.lib,
+______camlp4.quotations,
+______type-conv (>= 2.3.0)
+___CompiledObject:     byte
+___XMETAType:          syntax
+___XMETARequires:      camlp4,type-conv,sexplib
+___XMETADescription:   Syntax extension for Sexplib
+
+
+Flag tests
+___Description:        Build and run tests
+___Default:            true
+
+Executable sexp_test
+___Path:               lib_test
+___MainIs:             sexp_test.ml
+___Build$:             flag(tests)
+___Install:            false
+___BuildDepends:       sexplib
+
+Executable conv_test
+___Path:               lib_test
+___MainIs:             conv_test.ml
+___Build$:             flag(tests)
+___Install:            false
+___BuildDepends:       sexplib, sexplib.syntax
+
+Test sexp
+___Run$:               flag(tests)
+___Command:            $sexp_test < test.sexp
+___WorkingDirectory:   lib_test
+
+Test conv
+___Run$:               flag(tests)
+___Command:            $conv_test
+___WorkingDirectory:   lib_test
+---------------------------------- spotlib-1.0.0/_oasis
+OASISFormat: 0.2
+Name:        spotlib
+Version:     1.0.0
+Synopsis:    Camlspotter's personal library
+Authors:     Jun FURUSE
+License:     LGPL-2.0 with OCaml linking exception
+Plugins:      StdFiles (0.2)
+BuildType:    Custom (0.2)
+InstallType:    Custom (0.2)
+XCustomBuild: yes no | omake --install; omake
+XCustomInstall: omake install
+XCustomUninstall: omake uninstall
+BuildTools: omake
+
+Library spotlib
+___Path:          lib
+___FindlibName:   spotlib
+___BuildDepends:  unix
+___Modules:       Base,
+______Monad_intf,
+______Monad,
+______Option,
+______Xlist,
+______HashSet,
+______Xformat,
+______Xhashtbl,
+______Xstring,
+______Phantom,
+______Weaktbl,
+______Spot
+---------------------------------- ulib-1.0~oasis1/_oasis
+OASISFormat: 0.2
+Name:        Ulib
+Version:     1.0~oasis1
+Synopsis:    Standard library extensions from the OCaml CVS tree
+Authors:     Francois Clement, Pierre Weis, et al.
+License:     BSD3
+LicenseFile: LICENSE.in
+BuildType:   custom (0.2)
+InstallType: custom (0.2)
+BuildTools:  make
+
+XCustomBuild: make all
+XCustomInstall: make install
+XCustomUninstall: make uninstall
+
+Library "ulib"
+___Path: .
+
+---------------------------------- wyrd-1.4.5-oasis2/_oasis
+OASISFormat: 0.2
+Name:                      wyrd
+Version:                   1.4.5-oasis2
+Synopsis:                  curses front-end for 'remind' calendar application
+Homepage:                  http://pessimization.com/software/wyrd
+Authors:                   Paul Pelzl <pelzlpj@gmail.com>
+License:                   GPL-2.0
+LicenseFile:               COPYING
+PostConfCommand:           touch setup.data
+ConfType:                  custom (0.2)
+BuildType:                 custom (0.2)
+InstallType:               custom (0.2)
+
+XCustomConf:               ./configure
+XCustomBuild:              make
+XCustomBuildClean:         make clean
+XCustomBuildDistclean:     make distclean
+XCustomInstall:            make install
+XCustomUninstall:          make uninstall
+
+Executable wyrd
+___Path:        .
+___MainIs:      main.ml
+---------------------------------- xmlm-1.0.2-oasis1/_oasis
+OASISFormat: 0.2
+Name:        xmlm
+Version:     1.0.2-oasis1
+Synopsis:    An OCaml module for streaming XML processing.
+Authors:     Daniel Bünzli
+License:     BSD3
+Plugins:     META (0.2), StdFiles (0.2)
+
+Library xmlm
+___Path:       src
+___BuildTools: ocamlbuild
+___Modules:    Xmlm
+
+---------------------------------- xstrp4-2.0alpha5/_oasis
+OASISFormat: 0.2
+Name:        xstrp4
+Version:     2.0alpha5
+Synopsis:    Camlp4 extension for interpolating values in strings
+Authors:     Gerd Stolpmann,
+___Hezekiah M. Carty
+License:     MIT
+LicenseFile: LICENSE
+Plugins:     DevFiles (0.2),
+___META (0.2),
+___StdFiles (0.2)
+BuildTools:  ocamlbuild,
+___ocamllex,
+___camlp4o
+BuildDepends: camlp4.lib,
+___camlp4.extend,
+___camlp4.quotations
+
+Library xstrp4
+___Path:       src
+___Modules: Xstrp4
+___InternalModules: Xstrp4_types,
+______Xstrp4_lexer
+___CompiledObject: byte
+___XMETAType: library
+___XMETARequires: camlp4
+___XMETADescription: Base for further xstrp4 customization/development
+___FindlibName: xstrp4
+
+Library xstrp4_strings
+___Path:       src
+___BuildDepends: xstrp4
+___Modules: Xstrp4_strings
+___CompiledObject: byte
+___XMETAType: syntax
+___XMETARequires: camlp4,
+______xstrp4
+___XMETADescription: Interpolation of OCaml values in strings
+___FindlibParent: xstrp4
+___FindlibContainers: syntax
+___FindlibName: strings
+
+Library xstrp4_here
+___Path:       src
+___BuildDepends: xstrp4
+___Modules: Xstrp4_here
+___CompiledObject: byte
+___XMETAType: syntax
+___XMETARequires: camlp4,
+______xstrp4
+___XMETADescription: Interpolation of OCaml values in quotations
+___FindlibParent: xstrp4
+___FindlibContainers: syntax
+___FindlibName: here
+
+Library xstrp4_here_quote
+___Path:       src
+___BuildDepends: xstrp4
+___Modules: Xstrp4_here_quote
+___CompiledObject: byte
+___XMETAType: syntax
+___XMETARequires: camlp4,
+______xstrp4
+___XMETADescription: Interpolation of OCaml values in quotations
+___FindlibParent: xstrp4
+___FindlibContainers: syntax
+___FindlibName: here_quote
+
+Library xstrp4_batteries_quote
+___Path:       src
+___BuildDepends: xstrp4
+___Modules: Xstrp4_batteries_quote
+___InternalModules: Xstrp4_batteries
+___CompiledObject: byte
+___XMETAType: syntax
+___XMETARequires: camlp4,
+______xstrp4,
+______batteries
+___XMETADescription: Example of a Batteries-focused xstrp4 extension
+___FindlibParent: xstrp4
+___FindlibContainers: syntax
+___FindlibName: batteries_quote
+
+Library xstrp4_batteries_strings
+___Path:       src
+___BuildDepends: xstrp4
+___Modules: Xstrp4_batteries_strings
+___InternalModules: Xstrp4_batteries
+___CompiledObject: byte
+___XMETAType: syntax
+___XMETARequires: camlp4,
+______xstrp4,
+______batteries
+___XMETADescription: Example of a Batteries-focused xstrp4 extension
+___FindlibParent: xstrp4
+___FindlibContainers: syntax
+___FindlibName: batteries_strings
+
+
+
+---------------------------------- zip-1.04+svn~oasis3/_oasis
+OASISFormat:  0.2
+Name:         zip
+Version:      1.04+svn~oasis3
+Authors:      Xavier Leroy
+Homepage:     http://calendar.forge.ocamlcore.org/
+License:      LGPL-2.1 with OCaml linking exception
+LicenseFile:  LICENSE
+Synopsis:     Easy access to compressed files in ZIP, GZIP, JAR formats.
+Plugins:      META (0.2)
+
+Library zip
+___Path:        .
+___BuildTools:  ocamlbuild
+___Modules:     Zip,Gzip,Zlib
+___CSources:    zlibstubs.c
+___CCLib:       -lz
+___XMETAEnable: true

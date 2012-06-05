@@ -1,0 +1,19 @@
+OASISFormat:  0.2
+Name:         ocaml-sqlite3
+Version:      1.6.1-oasis1
+Authors:      Christian Szegedy, Enrico Tassi, Markus Mottl
+License:      MIT
+LicenseFile:  COPYING
+ConfType:     custom (0.2)
+BuildType:    custom (0.2)
+InstallType:  custom (0.2)
+BuildTools:   make
+Synopsis:     SQLite 3 database library wrapper for OCaml
+
+XCustomConf: touch setup.data && ./configure
+XCustomBuild: make all
+XCustomInstall: make install
+XCustomUninstall: make uninstall
+
+Library "sqlite3"
+    Path: src/

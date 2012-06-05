@@ -1,0 +1,1081 @@
+"ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  def set "ogtkRangeProps.ml" 5 52 52 --
+)
+"ogtkRangeProps.ml" 4 38 48 "ogtkRangeProps.ml" 4 38 51
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  def get "ogtkRangeProps.ml" 6 66 66 --
+)
+"ogtkRangeProps.ml" 5 52 62 "ogtkRangeProps.ml" 5 52 65
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  ext_ref Gobject.get
+)
+"ogtkRangeProps.ml" 6 66 70 "ogtkRangeProps.ml" 6 66 75
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  def param "ogtkRangeProps.ml" 7 84 84 --
+)
+"ogtkRangeProps.ml" 6 66 78 "ogtkRangeProps.ml" 6 66 83
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"ogtkRangeProps.ml" 11 165 186 "ogtkRangeProps.ml" 11 165 189
+type(
+  ([> `ruler ] as 'a, float) Gobject.property ->
+  'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+)
+"ogtkRangeProps.ml" 11 165 190 "ogtkRangeProps.ml" 11 165 203
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Ruler.P.lower
+)
+"ogtkRangeProps.ml" 11 165 204 "ogtkRangeProps.ml" 11 165 207
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 11 165 186 "ogtkRangeProps.ml" 11 165 207
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkRangeProps.ml" 12 208 229 "ogtkRangeProps.ml" 12 208 232
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+)
+"ogtkRangeProps.ml" 12 208 233 "ogtkRangeProps.ml" 12 208 246
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Ruler.P.upper
+)
+"ogtkRangeProps.ml" 12 208 247 "ogtkRangeProps.ml" 12 208 250
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 12 208 229 "ogtkRangeProps.ml" 12 208 250
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkRangeProps.ml" 13 251 275 "ogtkRangeProps.ml" 13 251 278
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+)
+"ogtkRangeProps.ml" 13 251 279 "ogtkRangeProps.ml" 13 251 295
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Ruler.P.max_size
+)
+"ogtkRangeProps.ml" 13 251 296 "ogtkRangeProps.ml" 13 251 299
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 13 251 275 "ogtkRangeProps.ml" 13 251 299
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkRangeProps.ml" 14 300 324 "ogtkRangeProps.ml" 14 300 327
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+)
+"ogtkRangeProps.ml" 14 300 328 "ogtkRangeProps.ml" 14 300 344
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Ruler.P.position
+)
+"ogtkRangeProps.ml" 14 300 345 "ogtkRangeProps.ml" 14 300 348
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 14 300 324 "ogtkRangeProps.ml" 14 300 348
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkRangeProps.ml" 15 349 366 "ogtkRangeProps.ml" 15 349 369
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+)
+"ogtkRangeProps.ml" 15 349 370 "ogtkRangeProps.ml" 15 349 383
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Ruler.P.lower
+)
+"ogtkRangeProps.ml" 15 349 384 "ogtkRangeProps.ml" 15 349 387
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 15 349 366 "ogtkRangeProps.ml" 15 349 387
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkRangeProps.ml" 16 388 405 "ogtkRangeProps.ml" 16 388 408
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+)
+"ogtkRangeProps.ml" 16 388 409 "ogtkRangeProps.ml" 16 388 422
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Ruler.P.upper
+)
+"ogtkRangeProps.ml" 16 388 423 "ogtkRangeProps.ml" 16 388 426
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 16 388 405 "ogtkRangeProps.ml" 16 388 426
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkRangeProps.ml" 17 427 447 "ogtkRangeProps.ml" 17 427 450
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+)
+"ogtkRangeProps.ml" 17 427 451 "ogtkRangeProps.ml" 17 427 467
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Ruler.P.max_size
+)
+"ogtkRangeProps.ml" 17 427 468 "ogtkRangeProps.ml" 17 427 471
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 17 427 447 "ogtkRangeProps.ml" 17 427 471
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkRangeProps.ml" 18 472 492 "ogtkRangeProps.ml" 18 472 495
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+)
+"ogtkRangeProps.ml" 18 472 496 "ogtkRangeProps.ml" 18 472 512
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Ruler.P.position
+)
+"ogtkRangeProps.ml" 18 472 513 "ogtkRangeProps.ml" 18 472 516
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 18 472 492 "ogtkRangeProps.ml" 18 472 516
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkRangeProps.ml" 24 609 613 "ogtkRangeProps.ml" 24 609 616
+type(
+  ([> `range ] as 'a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment -> unit
+)
+ident(
+  int_ref set "ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+)
+"ogtkRangeProps.ml" 24 609 618 "ogtkRangeProps.ml" 24 609 636
+type(
+  (_[> `range ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Range.P.adjustment
+)
+"ogtkRangeProps.ml" 24 609 647 "ogtkRangeProps.ml" 24 609 668
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkRangeProps.ml" 24 609 617 "ogtkRangeProps.ml" 24 609 669
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkRangeProps.ml" 24 609 670 "ogtkRangeProps.ml" 24 609 673
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 24 609 613 "ogtkRangeProps.ml" 24 609 673
+call(
+  tail
+)
+type(
+  GData.adjustment -> unit
+)
+type(
+  GData.adjustment -> unit
+)
+"ogtkRangeProps.ml" 25 674 698 "ogtkRangeProps.ml" 25 674 701
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+)
+"ogtkRangeProps.ml" 25 674 702 "ogtkRangeProps.ml" 25 674 718
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Range.P.inverted
+)
+"ogtkRangeProps.ml" 25 674 719 "ogtkRangeProps.ml" 25 674 722
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 25 674 698 "ogtkRangeProps.ml" 25 674 722
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkRangeProps.ml" 26 723 752 "ogtkRangeProps.ml" 26 723 755
+type(
+  ('a, GtkEnums.update_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.update_type -> unit
+)
+ident(
+  int_ref set "ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+)
+"ogtkRangeProps.ml" 26 723 756 "ogtkRangeProps.ml" 26 723 777
+type(
+  ('a, GtkEnums.update_type) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Range.P.update_policy
+)
+"ogtkRangeProps.ml" 26 723 778 "ogtkRangeProps.ml" 26 723 781
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 26 723 752 "ogtkRangeProps.ml" 26 723 781
+call(
+  tail
+)
+type(
+  GtkEnums.update_type -> unit
+)
+type(
+  GtkEnums.update_type -> unit
+)
+"ogtkRangeProps.ml" 28 804 808 "ogtkRangeProps.ml" 28 804 811
+type(
+  ('a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment
+)
+ident(
+  int_ref get "ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+)
+"ogtkRangeProps.ml" 28 804 813 "ogtkRangeProps.ml" 28 804 831
+type(
+  (_[> `range ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Range.P.adjustment
+)
+"ogtkRangeProps.ml" 28 804 842 "ogtkRangeProps.ml" 28 804 863
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkRangeProps.ml" 28 804 812 "ogtkRangeProps.ml" 28 804 864
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkRangeProps.ml" 28 804 865 "ogtkRangeProps.ml" 28 804 868
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 28 804 808 "ogtkRangeProps.ml" 28 804 868
+call(
+  tail
+)
+type(
+  GData.adjustment
+)
+type(
+  GData.adjustment
+)
+"ogtkRangeProps.ml" 29 869 889 "ogtkRangeProps.ml" 29 869 892
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+)
+"ogtkRangeProps.ml" 29 869 893 "ogtkRangeProps.ml" 29 869 909
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Range.P.inverted
+)
+"ogtkRangeProps.ml" 29 869 910 "ogtkRangeProps.ml" 29 869 913
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 29 869 889 "ogtkRangeProps.ml" 29 869 913
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkRangeProps.ml" 30 914 939 "ogtkRangeProps.ml" 30 914 942
+type(
+  ('a, GtkEnums.update_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.update_type
+)
+ident(
+  int_ref get "ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+)
+"ogtkRangeProps.ml" 30 914 943 "ogtkRangeProps.ml" 30 914 964
+type(
+  ('a, GtkEnums.update_type) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Range.P.update_policy
+)
+"ogtkRangeProps.ml" 30 914 965 "ogtkRangeProps.ml" 30 914 968
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 30 914 939 "ogtkRangeProps.ml" 30 914 968
+call(
+  tail
+)
+type(
+  GtkEnums.update_type
+)
+type(
+  GtkEnums.update_type
+)
+"ogtkRangeProps.ml" 33 974 1008 "ogtkRangeProps.ml" 33 974 1014
+type(
+  < adjust_bounds : callback:(float -> unit) -> GtkSignal.id;
+    move_slider : callback:(GtkEnums.scroll_type -> unit) -> GtkSignal.id;
+    value_changed : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkRangeProps.ml" 36 1109 1134 "ogtkRangeProps.ml" 36 1109 1138
+type(
+  < adjust_bounds : callback:(float -> unit) -> GtkSignal.id;
+    move_slider : callback:(GtkEnums.scroll_type -> unit) -> GtkSignal.id;
+    value_changed : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkRangeProps.ml" 36 1109 1134 "ogtkRangeProps.ml" 36 1109 1146
+call(
+  tail
+)
+type(
+  ([> `range ], float -> unit) GtkSignal.t ->
+  callback:(float -> unit) -> GtkSignal.id
+)
+"ogtkRangeProps.ml" 36 1109 1147 "ogtkRangeProps.ml" 36 1109 1168
+type(
+  ([> `range ] as 'b, float -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkRangeProps.Range.S.adjust_bounds
+)
+"ogtkRangeProps.ml" 36 1109 1134 "ogtkRangeProps.ml" 36 1109 1168
+type(
+  callback:(float -> unit) -> GtkSignal.id
+)
+type(
+  callback:(float -> unit) -> GtkSignal.id
+)
+"ogtkRangeProps.ml" 37 1169 1192 "ogtkRangeProps.ml" 37 1169 1196
+type(
+  'a
+)
+"ogtkRangeProps.ml" 37 1169 1192 "ogtkRangeProps.ml" 37 1169 1204
+call(
+  tail
+)
+type(
+  ('b, GtkEnums.scroll_type -> unit) GtkSignal.t ->
+  callback:(GtkEnums.scroll_type -> unit) -> GtkSignal.id
+)
+"ogtkRangeProps.ml" 37 1169 1205 "ogtkRangeProps.ml" 37 1169 1224
+type(
+  ('b, GtkEnums.scroll_type -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkRangeProps.Range.S.move_slider
+)
+"ogtkRangeProps.ml" 37 1169 1192 "ogtkRangeProps.ml" 37 1169 1224
+type(
+  callback:(GtkEnums.scroll_type -> unit) -> GtkSignal.id
+)
+type(
+  callback:(GtkEnums.scroll_type -> unit) -> GtkSignal.id
+)
+"ogtkRangeProps.ml" 38 1225 1250 "ogtkRangeProps.ml" 38 1225 1254
+type(
+  'a
+)
+"ogtkRangeProps.ml" 38 1225 1250 "ogtkRangeProps.ml" 38 1225 1262
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkRangeProps.ml" 38 1225 1263 "ogtkRangeProps.ml" 38 1225 1284
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkRangeProps.Range.S.value_changed
+)
+"ogtkRangeProps.ml" 38 1225 1250 "ogtkRangeProps.ml" 38 1225 1284
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkRangeProps.ml" 43 1351 1373 "ogtkRangeProps.ml" 43 1351 1376
+type(
+  ([> `scale ] as 'a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+)
+"ogtkRangeProps.ml" 43 1351 1377 "ogtkRangeProps.ml" 43 1351 1391
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Scale.P.digits
+)
+"ogtkRangeProps.ml" 43 1351 1392 "ogtkRangeProps.ml" 43 1351 1395
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 43 1351 1373 "ogtkRangeProps.ml" 43 1351 1395
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkRangeProps.ml" 44 1396 1422 "ogtkRangeProps.ml" 44 1396 1425
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+)
+"ogtkRangeProps.ml" 44 1396 1426 "ogtkRangeProps.ml" 44 1396 1444
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Scale.P.draw_value
+)
+"ogtkRangeProps.ml" 44 1396 1445 "ogtkRangeProps.ml" 44 1396 1448
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 44 1396 1422 "ogtkRangeProps.ml" 44 1396 1448
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkRangeProps.ml" 45 1449 1474 "ogtkRangeProps.ml" 45 1449 1477
+type(
+  ('a, GtkEnums.position_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.position_type -> unit
+)
+ident(
+  int_ref set "ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+)
+"ogtkRangeProps.ml" 45 1449 1478 "ogtkRangeProps.ml" 45 1449 1495
+type(
+  ('a, GtkEnums.position_type) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Scale.P.value_pos
+)
+"ogtkRangeProps.ml" 45 1449 1496 "ogtkRangeProps.ml" 45 1449 1499
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 45 1449 1474 "ogtkRangeProps.ml" 45 1449 1499
+call(
+  tail
+)
+type(
+  GtkEnums.position_type -> unit
+)
+type(
+  GtkEnums.position_type -> unit
+)
+"ogtkRangeProps.ml" 46 1500 1518 "ogtkRangeProps.ml" 46 1500 1521
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+)
+"ogtkRangeProps.ml" 46 1500 1522 "ogtkRangeProps.ml" 46 1500 1536
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Scale.P.digits
+)
+"ogtkRangeProps.ml" 46 1500 1537 "ogtkRangeProps.ml" 46 1500 1540
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 46 1500 1518 "ogtkRangeProps.ml" 46 1500 1540
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkRangeProps.ml" 47 1541 1563 "ogtkRangeProps.ml" 47 1541 1566
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+)
+"ogtkRangeProps.ml" 47 1541 1567 "ogtkRangeProps.ml" 47 1541 1585
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Scale.P.draw_value
+)
+"ogtkRangeProps.ml" 47 1541 1586 "ogtkRangeProps.ml" 47 1541 1589
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 47 1541 1563 "ogtkRangeProps.ml" 47 1541 1589
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkRangeProps.ml" 48 1590 1611 "ogtkRangeProps.ml" 48 1590 1614
+type(
+  ('a, GtkEnums.position_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.position_type
+)
+ident(
+  int_ref get "ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+)
+"ogtkRangeProps.ml" 48 1590 1615 "ogtkRangeProps.ml" 48 1590 1632
+type(
+  ('a, GtkEnums.position_type) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.Scale.P.value_pos
+)
+"ogtkRangeProps.ml" 48 1590 1633 "ogtkRangeProps.ml" 48 1590 1636
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 48 1590 1611 "ogtkRangeProps.ml" 48 1590 1636
+call(
+  tail
+)
+type(
+  GtkEnums.position_type
+)
+type(
+  GtkEnums.position_type
+)
+"ogtkRangeProps.ml" 54 1736 1740 "ogtkRangeProps.ml" 54 1736 1743
+type(
+  ([> `progressbar ] as 'a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment -> unit
+)
+ident(
+  int_ref set "ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+)
+"ogtkRangeProps.ml" 54 1736 1745 "ogtkRangeProps.ml" 54 1736 1769
+type(
+  (_[> `progressbar ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.ProgressBar.P.adjustment
+)
+"ogtkRangeProps.ml" 54 1736 1780 "ogtkRangeProps.ml" 54 1736 1801
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkRangeProps.ml" 54 1736 1744 "ogtkRangeProps.ml" 54 1736 1802
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkRangeProps.ml" 54 1736 1803 "ogtkRangeProps.ml" 54 1736 1806
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 54 1736 1740 "ogtkRangeProps.ml" 54 1736 1806
+call(
+  tail
+)
+type(
+  GData.adjustment -> unit
+)
+type(
+  GData.adjustment -> unit
+)
+"ogtkRangeProps.ml" 55 1807 1834 "ogtkRangeProps.ml" 55 1807 1837
+type(
+  ('a, GtkEnums.progress_bar_orientation) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.progress_bar_orientation -> unit
+)
+ident(
+  int_ref set "ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+)
+"ogtkRangeProps.ml" 55 1807 1838 "ogtkRangeProps.ml" 55 1807 1863
+type(
+  ('a, GtkEnums.progress_bar_orientation) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.ProgressBar.P.orientation
+)
+"ogtkRangeProps.ml" 55 1807 1864 "ogtkRangeProps.ml" 55 1807 1867
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 55 1807 1834 "ogtkRangeProps.ml" 55 1807 1867
+call(
+  tail
+)
+type(
+  GtkEnums.progress_bar_orientation -> unit
+)
+type(
+  GtkEnums.progress_bar_orientation -> unit
+)
+"ogtkRangeProps.ml" 56 1868 1892 "ogtkRangeProps.ml" 56 1868 1895
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+)
+"ogtkRangeProps.ml" 56 1868 1896 "ogtkRangeProps.ml" 56 1868 1918
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.ProgressBar.P.fraction
+)
+"ogtkRangeProps.ml" 56 1868 1919 "ogtkRangeProps.ml" 56 1868 1922
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 56 1868 1892 "ogtkRangeProps.ml" 56 1868 1922
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkRangeProps.ml" 57 1923 1949 "ogtkRangeProps.ml" 57 1923 1952
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+)
+"ogtkRangeProps.ml" 57 1923 1953 "ogtkRangeProps.ml" 57 1923 1977
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.ProgressBar.P.pulse_step
+)
+"ogtkRangeProps.ml" 57 1923 1978 "ogtkRangeProps.ml" 57 1923 1981
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 57 1923 1949 "ogtkRangeProps.ml" 57 1923 1981
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkRangeProps.ml" 58 1982 2002 "ogtkRangeProps.ml" 58 1982 2005
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+)
+"ogtkRangeProps.ml" 58 1982 2006 "ogtkRangeProps.ml" 58 1982 2024
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.ProgressBar.P.text
+)
+"ogtkRangeProps.ml" 58 1982 2025 "ogtkRangeProps.ml" 58 1982 2028
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 58 1982 2002 "ogtkRangeProps.ml" 58 1982 2028
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkRangeProps.ml" 59 2029 2054 "ogtkRangeProps.ml" 59 2029 2057
+type(
+  ('a, PangoEnums.ellipsize_mode) Gobject.property ->
+  'a Gobject.obj -> PangoEnums.ellipsize_mode -> unit
+)
+ident(
+  int_ref set "ogtkRangeProps.ml" 4 38 42 "ogtkRangeProps.ml" 4 38 45
+)
+"ogtkRangeProps.ml" 59 2029 2058 "ogtkRangeProps.ml" 59 2029 2081
+type(
+  ('a, PangoEnums.ellipsize_mode) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.ProgressBar.P.ellipsize
+)
+"ogtkRangeProps.ml" 59 2029 2082 "ogtkRangeProps.ml" 59 2029 2085
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 59 2029 2054 "ogtkRangeProps.ml" 59 2029 2085
+call(
+  tail
+)
+type(
+  PangoEnums.ellipsize_mode -> unit
+)
+type(
+  PangoEnums.ellipsize_mode -> unit
+)
+"ogtkRangeProps.ml" 61 2108 2112 "ogtkRangeProps.ml" 61 2108 2115
+type(
+  ('a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment
+)
+ident(
+  int_ref get "ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+)
+"ogtkRangeProps.ml" 61 2108 2117 "ogtkRangeProps.ml" 61 2108 2141
+type(
+  (_[> `progressbar ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.ProgressBar.P.adjustment
+)
+"ogtkRangeProps.ml" 61 2108 2152 "ogtkRangeProps.ml" 61 2108 2173
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkRangeProps.ml" 61 2108 2116 "ogtkRangeProps.ml" 61 2108 2174
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkRangeProps.ml" 61 2108 2175 "ogtkRangeProps.ml" 61 2108 2178
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 61 2108 2112 "ogtkRangeProps.ml" 61 2108 2178
+call(
+  tail
+)
+type(
+  GData.adjustment
+)
+type(
+  GData.adjustment
+)
+"ogtkRangeProps.ml" 62 2179 2202 "ogtkRangeProps.ml" 62 2179 2205
+type(
+  ('a, GtkEnums.progress_bar_orientation) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.progress_bar_orientation
+)
+ident(
+  int_ref get "ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+)
+"ogtkRangeProps.ml" 62 2179 2206 "ogtkRangeProps.ml" 62 2179 2231
+type(
+  ('a, GtkEnums.progress_bar_orientation) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.ProgressBar.P.orientation
+)
+"ogtkRangeProps.ml" 62 2179 2232 "ogtkRangeProps.ml" 62 2179 2235
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 62 2179 2202 "ogtkRangeProps.ml" 62 2179 2235
+call(
+  tail
+)
+type(
+  GtkEnums.progress_bar_orientation
+)
+type(
+  GtkEnums.progress_bar_orientation
+)
+"ogtkRangeProps.ml" 63 2236 2256 "ogtkRangeProps.ml" 63 2236 2259
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+)
+"ogtkRangeProps.ml" 63 2236 2260 "ogtkRangeProps.ml" 63 2236 2282
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.ProgressBar.P.fraction
+)
+"ogtkRangeProps.ml" 63 2236 2283 "ogtkRangeProps.ml" 63 2236 2286
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 63 2236 2256 "ogtkRangeProps.ml" 63 2236 2286
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkRangeProps.ml" 64 2287 2309 "ogtkRangeProps.ml" 64 2287 2312
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+)
+"ogtkRangeProps.ml" 64 2287 2313 "ogtkRangeProps.ml" 64 2287 2337
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.ProgressBar.P.pulse_step
+)
+"ogtkRangeProps.ml" 64 2287 2338 "ogtkRangeProps.ml" 64 2287 2341
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 64 2287 2309 "ogtkRangeProps.ml" 64 2287 2341
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkRangeProps.ml" 65 2342 2358 "ogtkRangeProps.ml" 65 2342 2361
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+)
+"ogtkRangeProps.ml" 65 2342 2362 "ogtkRangeProps.ml" 65 2342 2380
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.ProgressBar.P.text
+)
+"ogtkRangeProps.ml" 65 2342 2381 "ogtkRangeProps.ml" 65 2342 2384
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 65 2342 2358 "ogtkRangeProps.ml" 65 2342 2384
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkRangeProps.ml" 66 2385 2406 "ogtkRangeProps.ml" 66 2385 2409
+type(
+  ('a, PangoEnums.ellipsize_mode) Gobject.property ->
+  'a Gobject.obj -> PangoEnums.ellipsize_mode
+)
+ident(
+  int_ref get "ogtkRangeProps.ml" 5 52 56 "ogtkRangeProps.ml" 5 52 59
+)
+"ogtkRangeProps.ml" 66 2385 2410 "ogtkRangeProps.ml" 66 2385 2433
+type(
+  ('a, PangoEnums.ellipsize_mode) Gobject.property
+)
+ident(
+  ext_ref GtkRangeProps.ProgressBar.P.ellipsize
+)
+"ogtkRangeProps.ml" 66 2385 2434 "ogtkRangeProps.ml" 66 2385 2437
+type(
+  'a Gobject.obj
+)
+"ogtkRangeProps.ml" 66 2385 2406 "ogtkRangeProps.ml" 66 2385 2437
+call(
+  tail
+)
+type(
+  PangoEnums.ellipsize_mode
+)
+type(
+  PangoEnums.ellipsize_mode
+)

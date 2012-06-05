@@ -1,0 +1,5 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: 5723abaa61a086a1dc19f74a54e2ae9a) *)
+Authors of planck
+Jun FURUSE
+(* OASIS_STOP *)

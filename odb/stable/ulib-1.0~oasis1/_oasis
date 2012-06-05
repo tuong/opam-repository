@@ -1,0 +1,18 @@
+OASISFormat: 0.2
+Name:        Ulib
+Version:     1.0~oasis1
+Synopsis:    Standard library extensions from the OCaml CVS tree
+Authors:     Francois Clement, Pierre Weis, et al.
+License:     BSD3
+LicenseFile: LICENSE.in
+BuildType:   custom (0.2)
+InstallType: custom (0.2)
+BuildTools:  make
+
+XCustomBuild: make all
+XCustomInstall: make install
+XCustomUninstall: make uninstall
+
+Library "ulib"
+  Path: .
+

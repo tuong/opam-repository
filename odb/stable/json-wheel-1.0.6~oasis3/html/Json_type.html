@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="next" href="Json_io.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Json_type" rel="Chapter" href="Json_type.html">
+<link title="Json_io" rel="Chapter" href="Json_io.html">
+<link title="Json_compat" rel="Chapter" href="Json_compat.html"><title>Json_type</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a href="index.html">Up</a>
+&nbsp;<a href="Json_io.html">Next</a>
+</div>
+<center><h1>Module <a href="type_Json_type.html">Json_type</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Json_type: <code class="code">sig</code> <a href="Json_type.html">..</a> <code class="code">end</code></pre>OCaml representation of JSON data<br>
+<hr width="100%">
+<br><code><span class="keyword">type</span> <a name="TYPEjson_type"></a><code class="type"></code>json_type = </code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Object</span> <span class="keyword">of</span> <code class="type">(string * <a href="Json_type.html#TYPEjson_type">json_type</a>) list</code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Array</span> <span class="keyword">of</span> <code class="type"><a href="Json_type.html#TYPEjson_type">json_type</a> list</code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">String</span> <span class="keyword">of</span> <code class="type">string</code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Int</span> <span class="keyword">of</span> <code class="type">int</code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Float</span> <span class="keyword">of</span> <code class="type">float</code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Bool</span> <span class="keyword">of</span> <code class="type">bool</code></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span class="constructor">Null</span></code></td>
+
+</tr></table>
+
+<div class="info">
+A <code class="code">json_type</code> is a boolean, integer, real, string, null.  It can 
+  also be lists <code class="code">Array</code> or string-keyed maps <code class="code">Object</code> of 
+  <code class="code">json_type</code>'s.  The JSON payload can only be an <code class="code">Object</code> or <code class="code">Array</code>.
+<p>
+
+  This type is used by the parsing and printing functions from the
+  <a href="Json_io.html"><code class="code">Json_io</code></a> module. Typically, a program would convert such data into
+  a specialized type that uses records, etc. For the purpose of converting
+  from and to other types, two submodules are provided: <a href="Json_type.Browse.html"><code class="code">Json_type.Browse</code></a> 
+  and  <a href="Json_type.Build.html"><code class="code">Json_type.Build</code></a>. 
+  They are meant to be opened using either <code class="code">open Json_type.Browse</code> 
+  or <code class="code">open Json_type.Build</code>. They provided simple functions for converting
+  JSON data.<br>
+</div>
+
+<pre><span class="keyword">type</span> <a name="TYPEt"></a><code class="type"></code>t = <code class="type"><a href="Json_type.html#TYPEjson_type">json_type</a></code> </pre>
+<div class="info">
+<code class="code">t</code> is an alias for <code class="code">json_type</code>.<br>
+</div>
+
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONJson_error"></a>Json_error <span class="keyword">of</span> <code class="type">string</code></pre>
+<div class="info">
+Errors that are produced by the json-wheel library are represented
+  using the <code class="code">Json_error</code> exception.
+<p>
+
+  Other exceptions may be raised when calling functions from the library. 
+  Either they come from
+  the failure of external functions or like <code class="code">Not_found</code> they
+  are not errors per se, and are specifically documented.<br>
+</div>
+<pre><span class="keyword">module</span> <a href="Json_type.Browse.html">Browse</a>: <code class="code">sig</code> <a href="Json_type.Browse.html">..</a> <code class="code">end</code></pre><div class="info">
+This submodule provides some simple functions for checking
+  and reading the structure of JSON data.
+</div>
+<pre><span class="keyword">module</span> <a href="Json_type.Build.html">Build</a>: <code class="code">sig</code> <a href="Json_type.Build.html">..</a> <code class="code">end</code></pre><div class="info">
+This submodule provides some simple functions for building
+  JSON data from other OCaml types.
+</div>
+</body></html>

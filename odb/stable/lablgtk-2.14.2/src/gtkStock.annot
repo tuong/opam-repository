@@ -1,0 +1,2304 @@
+"gtkStock.ml" 31 1842 1846 "gtkStock.ml" 31 1842 1848
+type(
+  unit
+)
+"gtkStock.ml" 31 1842 1851 "gtkStock.ml" 31 1842 1865
+type(
+  unit -> unit
+)
+"gtkStock.ml" 31 1842 1866 "gtkStock.ml" 31 1842 1868
+type(
+  unit
+)
+"gtkStock.ml" 31 1842 1851 "gtkStock.ml" 31 1842 1868
+type(
+  unit
+)
+"gtkStock.ml" 136 4190 4194 "gtkStock.ml" 136 4190 4202
+type(
+  (id, string) Hashtbl.t
+)
+ident(
+  def id_table "gtkStock.ml" 137 4223 4223 --
+)
+"gtkStock.ml" 136 4190 4205 "gtkStock.ml" 136 4190 4219
+type(
+  int -> (id, string) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"gtkStock.ml" 136 4190 4220 "gtkStock.ml" 136 4190 4222
+type(
+  int
+)
+"gtkStock.ml" 136 4190 4205 "gtkStock.ml" 136 4190 4222
+call(
+  stack
+)
+type(
+  (id, string) Hashtbl.t
+)
+"gtkStock.ml" 137 4223 4227 "gtkStock.ml" 137 4223 4237
+type(
+  id -> string
+)
+ident(
+  def convert_id "gtkStock.ml" 141 4318 4318 --
+)
+"gtkStock.ml" 138 4264 4275 "gtkStock.ml" 138 4264 4276
+type(
+  string
+)
+ident(
+  def s "gtkStock.ml" 138 4264 4280 "gtkStock.ml" 138 4264 4281
+)
+"gtkStock.ml" 138 4264 4268 "gtkStock.ml" 138 4264 4276
+type(
+  id
+)
+"gtkStock.ml" 138 4264 4280 "gtkStock.ml" 138 4264 4281
+type(
+  string
+)
+ident(
+  int_ref s "gtkStock.ml" 138 4264 4275 "gtkStock.ml" 138 4264 4276
+)
+"gtkStock.ml" 139 4282 4286 "gtkStock.ml" 139 4282 4288
+type(
+  id
+)
+ident(
+  def id "gtkStock.ml" 139 4282 4292 "gtkStock.ml" 139 4282 4316
+)
+"gtkStock.ml" 139 4282 4292 "gtkStock.ml" 139 4282 4304
+type(
+  (id, string) Hashtbl.t -> id -> string
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"gtkStock.ml" 139 4282 4305 "gtkStock.ml" 139 4282 4313
+type(
+  (id, string) Hashtbl.t
+)
+ident(
+  int_ref id_table "gtkStock.ml" 136 4190 4194 "gtkStock.ml" 136 4190 4202
+)
+"gtkStock.ml" 139 4282 4314 "gtkStock.ml" 139 4282 4316
+type(
+  id
+)
+ident(
+  int_ref id "gtkStock.ml" 139 4282 4286 "gtkStock.ml" 139 4282 4288
+)
+"gtkStock.ml" 139 4282 4292 "gtkStock.ml" 139 4282 4316
+call(
+  tail
+)
+type(
+  string
+)
+"gtkStock.ml" 137 4223 4255 "gtkStock.ml" 139 4282 4316
+type(
+  id -> string
+)
+type(
+  id -> string
+)
+"gtkStock.ml" 141 4318 4322 "gtkStock.ml" 141 4318 4326
+type(
+  id Gobject.data_conv
+)
+ident(
+  def conv "gtkStock.ml" 150 4647 4647 --
+)
+"gtkStock.ml" 142 4329 4340 "gtkStock.ml" 142 4329 4347
+type(
+  Gobject.data_kind
+)
+"gtkStock.ml" 143 4349 4384 "gtkStock.ml" 143 4349 4385
+type(
+  string
+)
+ident(
+  def s "gtkStock.ml" 143 4349 4390 "gtkStock.ml" 143 4349 4398
+)
+"gtkStock.ml" 143 4349 4378 "gtkStock.ml" 143 4349 4386
+type(
+  string option
+)
+"gtkStock.ml" 143 4349 4370 "gtkStock.ml" 143 4349 4386
+type(
+  Gobject.data_conv_get
+)
+"gtkStock.ml" 143 4349 4397 "gtkStock.ml" 143 4349 4398
+type(
+  string
+)
+ident(
+  int_ref s "gtkStock.ml" 143 4349 4384 "gtkStock.ml" 143 4349 4385
+)
+"gtkStock.ml" 143 4349 4390 "gtkStock.ml" 143 4349 4398
+type(
+  id
+)
+"gtkStock.ml" 144 4399 4412 "gtkStock.ml" 144 4399 4413
+type(
+  Gobject.data_conv_get
+)
+"gtkStock.ml" 144 4399 4417 "gtkStock.ml" 144 4399 4425
+type(
+  string -> id
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gtkStock.ml" 144 4399 4426 "gtkStock.ml" 144 4399 4443
+type(
+  string
+)
+"gtkStock.ml" 144 4399 4417 "gtkStock.ml" 144 4399 4443
+call(
+  tail
+)
+type(
+  id
+)
+"gtkStock.ml" 143 4349 4360 "gtkStock.ml" 144 4399 4444
+type(
+  Gobject.data_conv_get -> id
+)
+"gtkStock.ml" 145 4446 4461 "gtkStock.ml" 145 4446 4463
+type(
+  id
+)
+ident(
+  def id "gtkStock.ml" 145 4446 4467 "gtkStock.ml" 145 4446 4497
+)
+"gtkStock.ml" 145 4446 4482 "gtkStock.ml" 145 4446 4492
+type(
+  id -> string
+)
+ident(
+  int_ref convert_id "gtkStock.ml" 137 4223 4227 "gtkStock.ml" 137 4223 4237
+)
+"gtkStock.ml" 145 4446 4493 "gtkStock.ml" 145 4446 4495
+type(
+  id
+)
+ident(
+  int_ref id "gtkStock.ml" 145 4446 4461 "gtkStock.ml" 145 4446 4463
+)
+"gtkStock.ml" 145 4446 4481 "gtkStock.ml" 145 4446 4496
+call(
+  stack
+)
+type(
+  string
+)
+"gtkStock.ml" 145 4446 4475 "gtkStock.ml" 145 4446 4497
+type(
+  string option
+)
+"gtkStock.ml" 145 4446 4467 "gtkStock.ml" 145 4446 4497
+type(
+  unit Gobject.data_set
+)
+"gtkStock.ml" 145 4446 4456 "gtkStock.ml" 145 4446 4498
+type(
+  id -> unit Gobject.data_set
+)
+"gtkStock.ml" 142 4329 4331 "gtkStock.ml" 145 4446 4500
+type(
+  id Gobject.data_conv
+)
+"gtkStock.ml" 150 4647 4651 "gtkStock.ml" 150 4647 4653
+type(
+  unit
+)
+"gtkStock.ml" 151 4656 4658 "gtkStock.ml" 151 4656 4667
+type(
+  (id * string -> unit) -> (id * string) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"gtkStock.ml" 151 4656 4674 "gtkStock.ml" 151 4656 4675
+type(
+  id
+)
+ident(
+  def k "gtkStock.ml" 151 4656 4682 "gtkStock.ml" 151 4656 4706
+)
+"gtkStock.ml" 151 4656 4676 "gtkStock.ml" 151 4656 4677
+type(
+  string
+)
+ident(
+  def d "gtkStock.ml" 151 4656 4682 "gtkStock.ml" 151 4656 4706
+)
+"gtkStock.ml" 151 4656 4673 "gtkStock.ml" 151 4656 4678
+type(
+  id * string
+)
+"gtkStock.ml" 151 4656 4682 "gtkStock.ml" 151 4656 4693
+type(
+  (id, string) Hashtbl.t -> id -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"gtkStock.ml" 151 4656 4694 "gtkStock.ml" 151 4656 4702
+type(
+  (id, string) Hashtbl.t
+)
+ident(
+  int_ref id_table "gtkStock.ml" 136 4190 4194 "gtkStock.ml" 136 4190 4202
+)
+"gtkStock.ml" 151 4656 4703 "gtkStock.ml" 151 4656 4704
+type(
+  id
+)
+ident(
+  int_ref k "gtkStock.ml" 151 4656 4674 "gtkStock.ml" 151 4656 4675
+)
+"gtkStock.ml" 151 4656 4705 "gtkStock.ml" 151 4656 4706
+type(
+  string
+)
+ident(
+  int_ref d "gtkStock.ml" 151 4656 4676 "gtkStock.ml" 151 4656 4677
+)
+"gtkStock.ml" 151 4656 4682 "gtkStock.ml" 151 4656 4706
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkStock.ml" 151 4656 4668 "gtkStock.ml" 151 4656 4707
+type(
+  id * string -> unit
+)
+"gtkStock.ml" 153 4715 4721 "gtkStock.ml" 153 4715 4743
+type(
+  id
+)
+"gtkStock.ml" 153 4715 4745 "gtkStock.ml" 153 4715 4772
+type(
+  string
+)
+"gtkStock.ml" 153 4715 4721 "gtkStock.ml" 153 4715 4772
+type(
+  id * string
+)
+"gtkStock.ml" 154 4774 4780 "gtkStock.ml" 154 4774 4792
+type(
+  id
+)
+"gtkStock.ml" 154 4774 4794 "gtkStock.ml" 154 4774 4811
+type(
+  string
+)
+"gtkStock.ml" 154 4774 4780 "gtkStock.ml" 154 4774 4811
+type(
+  id * string
+)
+"gtkStock.ml" 155 4813 4819 "gtkStock.ml" 155 4813 4834
+type(
+  id
+)
+"gtkStock.ml" 155 4813 4836 "gtkStock.ml" 155 4813 4856
+type(
+  string
+)
+"gtkStock.ml" 155 4813 4819 "gtkStock.ml" 155 4813 4856
+type(
+  id * string
+)
+"gtkStock.ml" 156 4858 4864 "gtkStock.ml" 156 4858 4877
+type(
+  id
+)
+"gtkStock.ml" 156 4858 4879 "gtkStock.ml" 156 4858 4897
+type(
+  string
+)
+"gtkStock.ml" 156 4858 4864 "gtkStock.ml" 156 4858 4897
+type(
+  id * string
+)
+"gtkStock.ml" 157 4899 4905 "gtkStock.ml" 157 4899 4921
+type(
+  id
+)
+"gtkStock.ml" 157 4899 4923 "gtkStock.ml" 157 4899 4944
+type(
+  string
+)
+"gtkStock.ml" 157 4899 4905 "gtkStock.ml" 157 4899 4944
+type(
+  id * string
+)
+"gtkStock.ml" 158 4946 4952 "gtkStock.ml" 158 4946 4956
+type(
+  id
+)
+"gtkStock.ml" 158 4946 4958 "gtkStock.ml" 158 4946 4967
+type(
+  string
+)
+"gtkStock.ml" 158 4946 4952 "gtkStock.ml" 158 4946 4967
+type(
+  id * string
+)
+"gtkStock.ml" 159 4969 4975 "gtkStock.ml" 159 4969 4988
+type(
+  id
+)
+"gtkStock.ml" 159 4969 4990 "gtkStock.ml" 159 4969 5008
+type(
+  string
+)
+"gtkStock.ml" 159 4969 4975 "gtkStock.ml" 159 4969 5008
+type(
+  id * string
+)
+"gtkStock.ml" 160 5010 5016 "gtkStock.ml" 160 5010 5022
+type(
+  id
+)
+"gtkStock.ml" 160 5010 5024 "gtkStock.ml" 160 5010 5035
+type(
+  string
+)
+"gtkStock.ml" 160 5010 5016 "gtkStock.ml" 160 5010 5035
+type(
+  id * string
+)
+"gtkStock.ml" 161 5037 5043 "gtkStock.ml" 161 5037 5047
+type(
+  id
+)
+"gtkStock.ml" 161 5037 5049 "gtkStock.ml" 161 5037 5058
+type(
+  string
+)
+"gtkStock.ml" 161 5037 5043 "gtkStock.ml" 161 5037 5058
+type(
+  id * string
+)
+"gtkStock.ml" 162 5060 5066 "gtkStock.ml" 162 5060 5072
+type(
+  id
+)
+"gtkStock.ml" 162 5060 5074 "gtkStock.ml" 162 5060 5085
+type(
+  string
+)
+"gtkStock.ml" 162 5060 5066 "gtkStock.ml" 162 5060 5085
+type(
+  id * string
+)
+"gtkStock.ml" 163 5087 5093 "gtkStock.ml" 163 5087 5098
+type(
+  id
+)
+"gtkStock.ml" 163 5087 5100 "gtkStock.ml" 163 5087 5110
+type(
+  string
+)
+"gtkStock.ml" 163 5087 5093 "gtkStock.ml" 163 5087 5110
+type(
+  id * string
+)
+"gtkStock.ml" 164 5112 5118 "gtkStock.ml" 164 5112 5125
+type(
+  id
+)
+"gtkStock.ml" 164 5112 5127 "gtkStock.ml" 164 5112 5139
+type(
+  string
+)
+"gtkStock.ml" 164 5112 5118 "gtkStock.ml" 164 5112 5139
+type(
+  id * string
+)
+"gtkStock.ml" 165 5141 5147 "gtkStock.ml" 165 5141 5153
+type(
+  id
+)
+"gtkStock.ml" 165 5141 5155 "gtkStock.ml" 165 5141 5166
+type(
+  string
+)
+"gtkStock.ml" 165 5141 5147 "gtkStock.ml" 165 5141 5166
+type(
+  id * string
+)
+"gtkStock.ml" 166 5168 5174 "gtkStock.ml" 166 5168 5180
+type(
+  id
+)
+"gtkStock.ml" 166 5168 5182 "gtkStock.ml" 166 5168 5193
+type(
+  string
+)
+"gtkStock.ml" 166 5168 5174 "gtkStock.ml" 166 5168 5193
+type(
+  id * string
+)
+"gtkStock.ml" 167 5195 5201 "gtkStock.ml" 167 5195 5207
+type(
+  id
+)
+"gtkStock.ml" 167 5195 5209 "gtkStock.ml" 167 5195 5220
+type(
+  string
+)
+"gtkStock.ml" 167 5195 5201 "gtkStock.ml" 167 5195 5220
+type(
+  id * string
+)
+"gtkStock.ml" 168 5222 5228 "gtkStock.ml" 168 5222 5241
+type(
+  id
+)
+"gtkStock.ml" 168 5222 5243 "gtkStock.ml" 168 5222 5261
+type(
+  string
+)
+"gtkStock.ml" 168 5222 5228 "gtkStock.ml" 168 5222 5261
+type(
+  id * string
+)
+"gtkStock.ml" 169 5263 5269 "gtkStock.ml" 169 5263 5277
+type(
+  id
+)
+"gtkStock.ml" 169 5263 5279 "gtkStock.ml" 169 5263 5292
+type(
+  string
+)
+"gtkStock.ml" 169 5263 5269 "gtkStock.ml" 169 5263 5292
+type(
+  id * string
+)
+"gtkStock.ml" 170 5294 5300 "gtkStock.ml" 170 5294 5308
+type(
+  id
+)
+"gtkStock.ml" 170 5294 5310 "gtkStock.ml" 170 5294 5323
+type(
+  string
+)
+"gtkStock.ml" 170 5294 5300 "gtkStock.ml" 170 5294 5323
+type(
+  id * string
+)
+"gtkStock.ml" 171 5325 5331 "gtkStock.ml" 171 5325 5336
+type(
+  id
+)
+"gtkStock.ml" 171 5325 5338 "gtkStock.ml" 171 5325 5348
+type(
+  string
+)
+"gtkStock.ml" 171 5325 5331 "gtkStock.ml" 171 5325 5348
+type(
+  id * string
+)
+"gtkStock.ml" 172 5350 5356 "gtkStock.ml" 172 5350 5360
+type(
+  id
+)
+"gtkStock.ml" 172 5350 5362 "gtkStock.ml" 172 5350 5371
+type(
+  string
+)
+"gtkStock.ml" 172 5350 5356 "gtkStock.ml" 172 5350 5371
+type(
+  id * string
+)
+"gtkStock.ml" 173 5373 5379 "gtkStock.ml" 173 5373 5386
+type(
+  id
+)
+"gtkStock.ml" 173 5373 5388 "gtkStock.ml" 173 5373 5400
+type(
+  string
+)
+"gtkStock.ml" 173 5373 5379 "gtkStock.ml" 173 5373 5400
+type(
+  id * string
+)
+"gtkStock.ml" 174 5402 5408 "gtkStock.ml" 174 5402 5418
+type(
+  id
+)
+"gtkStock.ml" 174 5402 5420 "gtkStock.ml" 174 5402 5435
+type(
+  string
+)
+"gtkStock.ml" 174 5402 5408 "gtkStock.ml" 174 5402 5435
+type(
+  id * string
+)
+"gtkStock.ml" 175 5437 5443 "gtkStock.ml" 175 5437 5454
+type(
+  id
+)
+"gtkStock.ml" 175 5437 5456 "gtkStock.ml" 175 5437 5472
+type(
+  string
+)
+"gtkStock.ml" 175 5437 5443 "gtkStock.ml" 175 5437 5472
+type(
+  id * string
+)
+"gtkStock.ml" 176 5474 5480 "gtkStock.ml" 176 5474 5485
+type(
+  id
+)
+"gtkStock.ml" 176 5474 5487 "gtkStock.ml" 176 5474 5497
+type(
+  string
+)
+"gtkStock.ml" 176 5474 5480 "gtkStock.ml" 176 5474 5497
+type(
+  id * string
+)
+"gtkStock.ml" 177 5499 5505 "gtkStock.ml" 177 5499 5513
+type(
+  id
+)
+"gtkStock.ml" 177 5499 5515 "gtkStock.ml" 177 5499 5528
+type(
+  string
+)
+"gtkStock.ml" 177 5499 5505 "gtkStock.ml" 177 5499 5528
+type(
+  id * string
+)
+"gtkStock.ml" 178 5530 5536 "gtkStock.ml" 178 5530 5541
+type(
+  id
+)
+"gtkStock.ml" 178 5530 5543 "gtkStock.ml" 178 5530 5553
+type(
+  string
+)
+"gtkStock.ml" 178 5530 5536 "gtkStock.ml" 178 5530 5553
+type(
+  id * string
+)
+"gtkStock.ml" 179 5555 5561 "gtkStock.ml" 179 5555 5566
+type(
+  id
+)
+"gtkStock.ml" 179 5555 5568 "gtkStock.ml" 179 5555 5578
+type(
+  string
+)
+"gtkStock.ml" 179 5555 5561 "gtkStock.ml" 179 5555 5578
+type(
+  id * string
+)
+"gtkStock.ml" 180 5580 5586 "gtkStock.ml" 180 5580 5603
+type(
+  id
+)
+"gtkStock.ml" 180 5580 5605 "gtkStock.ml" 180 5580 5627
+type(
+  string
+)
+"gtkStock.ml" 180 5580 5586 "gtkStock.ml" 180 5580 5627
+type(
+  id * string
+)
+"gtkStock.ml" 181 5629 5635 "gtkStock.ml" 181 5629 5642
+type(
+  id
+)
+"gtkStock.ml" 181 5629 5644 "gtkStock.ml" 181 5629 5656
+type(
+  string
+)
+"gtkStock.ml" 181 5629 5635 "gtkStock.ml" 181 5629 5656
+type(
+  id * string
+)
+"gtkStock.ml" 182 5658 5664 "gtkStock.ml" 182 5658 5675
+type(
+  id
+)
+"gtkStock.ml" 182 5658 5677 "gtkStock.ml" 182 5658 5693
+type(
+  string
+)
+"gtkStock.ml" 182 5658 5664 "gtkStock.ml" 182 5658 5693
+type(
+  id * string
+)
+"gtkStock.ml" 183 5696 5702 "gtkStock.ml" 183 5696 5714
+type(
+  id
+)
+"gtkStock.ml" 183 5696 5716 "gtkStock.ml" 183 5696 5733
+type(
+  string
+)
+"gtkStock.ml" 183 5696 5702 "gtkStock.ml" 183 5696 5733
+type(
+  id * string
+)
+"gtkStock.ml" 184 5735 5741 "gtkStock.ml" 184 5735 5752
+type(
+  id
+)
+"gtkStock.ml" 184 5735 5754 "gtkStock.ml" 184 5735 5770
+type(
+  string
+)
+"gtkStock.ml" 184 5735 5741 "gtkStock.ml" 184 5735 5770
+type(
+  id * string
+)
+"gtkStock.ml" 185 5772 5778 "gtkStock.ml" 185 5772 5788
+type(
+  id
+)
+"gtkStock.ml" 185 5772 5790 "gtkStock.ml" 185 5772 5805
+type(
+  string
+)
+"gtkStock.ml" 185 5772 5778 "gtkStock.ml" 185 5772 5805
+type(
+  id * string
+)
+"gtkStock.ml" 186 5807 5813 "gtkStock.ml" 186 5807 5822
+type(
+  id
+)
+"gtkStock.ml" 186 5807 5824 "gtkStock.ml" 186 5807 5838
+type(
+  string
+)
+"gtkStock.ml" 186 5807 5813 "gtkStock.ml" 186 5807 5838
+type(
+  id * string
+)
+"gtkStock.ml" 187 5840 5846 "gtkStock.ml" 187 5840 5854
+type(
+  id
+)
+"gtkStock.ml" 187 5840 5856 "gtkStock.ml" 187 5840 5869
+type(
+  string
+)
+"gtkStock.ml" 187 5840 5846 "gtkStock.ml" 187 5840 5869
+type(
+  id * string
+)
+"gtkStock.ml" 188 5871 5877 "gtkStock.ml" 188 5871 5885
+type(
+  id
+)
+"gtkStock.ml" 188 5871 5887 "gtkStock.ml" 188 5871 5900
+type(
+  string
+)
+"gtkStock.ml" 188 5871 5877 "gtkStock.ml" 188 5871 5900
+type(
+  id * string
+)
+"gtkStock.ml" 189 5902 5908 "gtkStock.ml" 189 5902 5919
+type(
+  id
+)
+"gtkStock.ml" 189 5902 5921 "gtkStock.ml" 189 5902 5937
+type(
+  string
+)
+"gtkStock.ml" 189 5902 5908 "gtkStock.ml" 189 5902 5937
+type(
+  id * string
+)
+"gtkStock.ml" 190 5939 5945 "gtkStock.ml" 190 5939 5951
+type(
+  id
+)
+"gtkStock.ml" 190 5939 5953 "gtkStock.ml" 190 5939 5964
+type(
+  string
+)
+"gtkStock.ml" 190 5939 5945 "gtkStock.ml" 190 5939 5964
+type(
+  id * string
+)
+"gtkStock.ml" 191 5966 5972 "gtkStock.ml" 191 5966 5981
+type(
+  id
+)
+"gtkStock.ml" 191 5966 5983 "gtkStock.ml" 191 5966 5997
+type(
+  string
+)
+"gtkStock.ml" 191 5966 5972 "gtkStock.ml" 191 5966 5997
+type(
+  id * string
+)
+"gtkStock.ml" 192 5999 6005 "gtkStock.ml" 192 5999 6010
+type(
+  id
+)
+"gtkStock.ml" 192 5999 6012 "gtkStock.ml" 192 5999 6022
+type(
+  string
+)
+"gtkStock.ml" 192 5999 6005 "gtkStock.ml" 192 5999 6022
+type(
+  id * string
+)
+"gtkStock.ml" 193 6024 6030 "gtkStock.ml" 193 6024 6035
+type(
+  id
+)
+"gtkStock.ml" 193 6024 6037 "gtkStock.ml" 193 6024 6047
+type(
+  string
+)
+"gtkStock.ml" 193 6024 6030 "gtkStock.ml" 193 6024 6047
+type(
+  id * string
+)
+"gtkStock.ml" 194 6049 6055 "gtkStock.ml" 194 6049 6061
+type(
+  id
+)
+"gtkStock.ml" 194 6049 6063 "gtkStock.ml" 194 6049 6074
+type(
+  string
+)
+"gtkStock.ml" 194 6049 6055 "gtkStock.ml" 194 6049 6074
+type(
+  id * string
+)
+"gtkStock.ml" 195 6076 6082 "gtkStock.ml" 195 6076 6089
+type(
+  id
+)
+"gtkStock.ml" 195 6076 6091 "gtkStock.ml" 195 6076 6103
+type(
+  string
+)
+"gtkStock.ml" 195 6076 6082 "gtkStock.ml" 195 6076 6103
+type(
+  id * string
+)
+"gtkStock.ml" 196 6105 6111 "gtkStock.ml" 196 6105 6116
+type(
+  id
+)
+"gtkStock.ml" 196 6105 6118 "gtkStock.ml" 196 6105 6128
+type(
+  string
+)
+"gtkStock.ml" 196 6105 6111 "gtkStock.ml" 196 6105 6128
+type(
+  id * string
+)
+"gtkStock.ml" 197 6130 6136 "gtkStock.ml" 197 6130 6145
+type(
+  id
+)
+"gtkStock.ml" 197 6130 6147 "gtkStock.ml" 197 6130 6161
+type(
+  string
+)
+"gtkStock.ml" 197 6130 6136 "gtkStock.ml" 197 6130 6161
+type(
+  id * string
+)
+"gtkStock.ml" 198 6163 6169 "gtkStock.ml" 198 6163 6176
+type(
+  id
+)
+"gtkStock.ml" 198 6163 6178 "gtkStock.ml" 198 6163 6190
+type(
+  string
+)
+"gtkStock.ml" 198 6163 6169 "gtkStock.ml" 198 6163 6190
+type(
+  id * string
+)
+"gtkStock.ml" 199 6192 6198 "gtkStock.ml" 199 6192 6206
+type(
+  id
+)
+"gtkStock.ml" 199 6192 6208 "gtkStock.ml" 199 6192 6221
+type(
+  string
+)
+"gtkStock.ml" 199 6192 6198 "gtkStock.ml" 199 6192 6221
+type(
+  id * string
+)
+"gtkStock.ml" 200 6223 6229 "gtkStock.ml" 200 6223 6244
+type(
+  id
+)
+"gtkStock.ml" 200 6223 6246 "gtkStock.ml" 200 6223 6266
+type(
+  string
+)
+"gtkStock.ml" 200 6223 6229 "gtkStock.ml" 200 6223 6266
+type(
+  id * string
+)
+"gtkStock.ml" 201 6268 6274 "gtkStock.ml" 201 6268 6287
+type(
+  id
+)
+"gtkStock.ml" 201 6268 6289 "gtkStock.ml" 201 6268 6307
+type(
+  string
+)
+"gtkStock.ml" 201 6268 6274 "gtkStock.ml" 201 6268 6307
+type(
+  id * string
+)
+"gtkStock.ml" 202 6309 6315 "gtkStock.ml" 202 6309 6328
+type(
+  id
+)
+"gtkStock.ml" 202 6309 6330 "gtkStock.ml" 202 6309 6348
+type(
+  string
+)
+"gtkStock.ml" 202 6309 6315 "gtkStock.ml" 202 6309 6348
+type(
+  id * string
+)
+"gtkStock.ml" 203 6350 6356 "gtkStock.ml" 203 6350 6370
+type(
+  id
+)
+"gtkStock.ml" 203 6350 6372 "gtkStock.ml" 203 6350 6391
+type(
+  string
+)
+"gtkStock.ml" 203 6350 6356 "gtkStock.ml" 203 6350 6391
+type(
+  id * string
+)
+"gtkStock.ml" 204 6393 6399 "gtkStock.ml" 204 6393 6416
+type(
+  id
+)
+"gtkStock.ml" 204 6393 6418 "gtkStock.ml" 204 6393 6440
+type(
+  string
+)
+"gtkStock.ml" 204 6393 6399 "gtkStock.ml" 204 6393 6440
+type(
+  id * string
+)
+"gtkStock.ml" 205 6449 6455 "gtkStock.ml" 205 6449 6469
+type(
+  id
+)
+"gtkStock.ml" 205 6449 6471 "gtkStock.ml" 205 6449 6490
+type(
+  string
+)
+"gtkStock.ml" 205 6449 6455 "gtkStock.ml" 205 6449 6490
+type(
+  id * string
+)
+"gtkStock.ml" 206 6492 6498 "gtkStock.ml" 206 6492 6512
+type(
+  id
+)
+"gtkStock.ml" 206 6492 6514 "gtkStock.ml" 206 6492 6533
+type(
+  string
+)
+"gtkStock.ml" 206 6492 6498 "gtkStock.ml" 206 6492 6533
+type(
+  id * string
+)
+"gtkStock.ml" 207 6535 6541 "gtkStock.ml" 207 6535 6552
+type(
+  id
+)
+"gtkStock.ml" 207 6535 6554 "gtkStock.ml" 207 6535 6570
+type(
+  string
+)
+"gtkStock.ml" 207 6535 6541 "gtkStock.ml" 207 6535 6570
+type(
+  id * string
+)
+"gtkStock.ml" 208 6572 6578 "gtkStock.ml" 208 6572 6590
+type(
+  id
+)
+"gtkStock.ml" 208 6572 6592 "gtkStock.ml" 208 6572 6609
+type(
+  string
+)
+"gtkStock.ml" 208 6572 6578 "gtkStock.ml" 208 6572 6609
+type(
+  id * string
+)
+"gtkStock.ml" 209 6611 6617 "gtkStock.ml" 209 6611 6628
+type(
+  id
+)
+"gtkStock.ml" 209 6611 6630 "gtkStock.ml" 209 6611 6646
+type(
+  string
+)
+"gtkStock.ml" 209 6611 6617 "gtkStock.ml" 209 6611 6646
+type(
+  id * string
+)
+"gtkStock.ml" 210 6648 6654 "gtkStock.ml" 210 6648 6669
+type(
+  id
+)
+"gtkStock.ml" 210 6648 6671 "gtkStock.ml" 210 6648 6691
+type(
+  string
+)
+"gtkStock.ml" 210 6648 6654 "gtkStock.ml" 210 6648 6691
+type(
+  id * string
+)
+"gtkStock.ml" 211 6693 6699 "gtkStock.ml" 211 6693 6712
+type(
+  id
+)
+"gtkStock.ml" 211 6693 6714 "gtkStock.ml" 211 6693 6732
+type(
+  string
+)
+"gtkStock.ml" 211 6693 6699 "gtkStock.ml" 211 6693 6732
+type(
+  id * string
+)
+"gtkStock.ml" 212 6734 6740 "gtkStock.ml" 212 6734 6753
+type(
+  id
+)
+"gtkStock.ml" 212 6734 6755 "gtkStock.ml" 212 6734 6773
+type(
+  string
+)
+"gtkStock.ml" 212 6734 6740 "gtkStock.ml" 212 6734 6773
+type(
+  id * string
+)
+"gtkStock.ml" 213 6775 6781 "gtkStock.ml" 213 6775 6792
+type(
+  id
+)
+"gtkStock.ml" 213 6775 6794 "gtkStock.ml" 213 6775 6810
+type(
+  string
+)
+"gtkStock.ml" 213 6775 6781 "gtkStock.ml" 213 6775 6810
+type(
+  id * string
+)
+"gtkStock.ml" 214 6812 6818 "gtkStock.ml" 214 6812 6826
+type(
+  id
+)
+"gtkStock.ml" 214 6812 6828 "gtkStock.ml" 214 6812 6841
+type(
+  string
+)
+"gtkStock.ml" 214 6812 6818 "gtkStock.ml" 214 6812 6841
+type(
+  id * string
+)
+"gtkStock.ml" 215 6843 6849 "gtkStock.ml" 215 6843 6853
+type(
+  id
+)
+"gtkStock.ml" 215 6843 6855 "gtkStock.ml" 215 6843 6864
+type(
+  string
+)
+"gtkStock.ml" 215 6843 6849 "gtkStock.ml" 215 6843 6864
+type(
+  id * string
+)
+"gtkStock.ml" 216 6866 6872 "gtkStock.ml" 216 6866 6875
+type(
+  id
+)
+"gtkStock.ml" 216 6866 6877 "gtkStock.ml" 216 6866 6885
+type(
+  string
+)
+"gtkStock.ml" 216 6866 6872 "gtkStock.ml" 216 6866 6885
+type(
+  id * string
+)
+"gtkStock.ml" 217 6887 6893 "gtkStock.ml" 217 6887 6896
+type(
+  id
+)
+"gtkStock.ml" 217 6887 6898 "gtkStock.ml" 217 6887 6906
+type(
+  string
+)
+"gtkStock.ml" 217 6887 6893 "gtkStock.ml" 217 6887 6906
+type(
+  id * string
+)
+"gtkStock.ml" 218 6908 6914 "gtkStock.ml" 218 6908 6919
+type(
+  id
+)
+"gtkStock.ml" 218 6908 6921 "gtkStock.ml" 218 6908 6931
+type(
+  string
+)
+"gtkStock.ml" 218 6908 6914 "gtkStock.ml" 218 6908 6931
+type(
+  id * string
+)
+"gtkStock.ml" 219 6933 6939 "gtkStock.ml" 219 6933 6960
+type(
+  id
+)
+"gtkStock.ml" 219 6933 6962 "gtkStock.ml" 219 6933 6988
+type(
+  string
+)
+"gtkStock.ml" 219 6933 6939 "gtkStock.ml" 219 6933 6988
+type(
+  id * string
+)
+"gtkStock.ml" 220 6990 6996 "gtkStock.ml" 220 6990 7018
+type(
+  id
+)
+"gtkStock.ml" 220 6990 7020 "gtkStock.ml" 220 6990 7047
+type(
+  string
+)
+"gtkStock.ml" 220 6990 6996 "gtkStock.ml" 220 6990 7047
+type(
+  id * string
+)
+"gtkStock.ml" 221 7049 7055 "gtkStock.ml" 221 7049 7085
+type(
+  id
+)
+"gtkStock.ml" 221 7049 7087 "gtkStock.ml" 221 7049 7122
+type(
+  string
+)
+"gtkStock.ml" 221 7049 7055 "gtkStock.ml" 221 7049 7122
+type(
+  id * string
+)
+"gtkStock.ml" 222 7124 7130 "gtkStock.ml" 222 7124 7159
+type(
+  id
+)
+"gtkStock.ml" 222 7124 7161 "gtkStock.ml" 222 7124 7195
+type(
+  string
+)
+"gtkStock.ml" 222 7124 7130 "gtkStock.ml" 222 7124 7195
+type(
+  id * string
+)
+"gtkStock.ml" 223 7197 7203 "gtkStock.ml" 223 7197 7209
+type(
+  id
+)
+"gtkStock.ml" 223 7197 7211 "gtkStock.ml" 223 7197 7222
+type(
+  string
+)
+"gtkStock.ml" 223 7197 7203 "gtkStock.ml" 223 7197 7222
+type(
+  id * string
+)
+"gtkStock.ml" 224 7224 7230 "gtkStock.ml" 224 7224 7242
+type(
+  id
+)
+"gtkStock.ml" 224 7224 7244 "gtkStock.ml" 224 7224 7261
+type(
+  string
+)
+"gtkStock.ml" 224 7224 7230 "gtkStock.ml" 224 7224 7261
+type(
+  id * string
+)
+"gtkStock.ml" 225 7263 7269 "gtkStock.ml" 225 7263 7275
+type(
+  id
+)
+"gtkStock.ml" 225 7263 7277 "gtkStock.ml" 225 7263 7288
+type(
+  string
+)
+"gtkStock.ml" 225 7263 7269 "gtkStock.ml" 225 7263 7288
+type(
+  id * string
+)
+"gtkStock.ml" 226 7290 7296 "gtkStock.ml" 226 7290 7310
+type(
+  id
+)
+"gtkStock.ml" 226 7290 7312 "gtkStock.ml" 226 7290 7331
+type(
+  string
+)
+"gtkStock.ml" 226 7290 7296 "gtkStock.ml" 226 7290 7331
+type(
+  id * string
+)
+"gtkStock.ml" 227 7333 7339 "gtkStock.ml" 227 7333 7350
+type(
+  id
+)
+"gtkStock.ml" 227 7333 7352 "gtkStock.ml" 227 7333 7368
+type(
+  string
+)
+"gtkStock.ml" 227 7333 7339 "gtkStock.ml" 227 7333 7368
+type(
+  id * string
+)
+"gtkStock.ml" 228 7370 7376 "gtkStock.ml" 228 7370 7381
+type(
+  id
+)
+"gtkStock.ml" 228 7370 7383 "gtkStock.ml" 228 7370 7393
+type(
+  string
+)
+"gtkStock.ml" 228 7370 7376 "gtkStock.ml" 228 7370 7393
+type(
+  id * string
+)
+"gtkStock.ml" 229 7395 7401 "gtkStock.ml" 229 7395 7406
+type(
+  id
+)
+"gtkStock.ml" 229 7395 7408 "gtkStock.ml" 229 7395 7418
+type(
+  string
+)
+"gtkStock.ml" 229 7395 7401 "gtkStock.ml" 229 7395 7418
+type(
+  id * string
+)
+"gtkStock.ml" 230 7420 7426 "gtkStock.ml" 230 7420 7434
+type(
+  id
+)
+"gtkStock.ml" 230 7420 7436 "gtkStock.ml" 230 7420 7449
+type(
+  string
+)
+"gtkStock.ml" 230 7420 7426 "gtkStock.ml" 230 7420 7449
+type(
+  id * string
+)
+"gtkStock.ml" 231 7451 7457 "gtkStock.ml" 231 7451 7464
+type(
+  id
+)
+"gtkStock.ml" 231 7451 7466 "gtkStock.ml" 231 7451 7478
+type(
+  string
+)
+"gtkStock.ml" 231 7451 7457 "gtkStock.ml" 231 7451 7478
+type(
+  id * string
+)
+"gtkStock.ml" 232 7480 7486 "gtkStock.ml" 232 7480 7502
+type(
+  id
+)
+"gtkStock.ml" 232 7480 7504 "gtkStock.ml" 232 7480 7525
+type(
+  string
+)
+"gtkStock.ml" 232 7480 7486 "gtkStock.ml" 232 7480 7525
+type(
+  id * string
+)
+"gtkStock.ml" 233 7527 7533 "gtkStock.ml" 233 7527 7538
+type(
+  id
+)
+"gtkStock.ml" 233 7527 7540 "gtkStock.ml" 233 7527 7550
+type(
+  string
+)
+"gtkStock.ml" 233 7527 7533 "gtkStock.ml" 233 7527 7550
+type(
+  id * string
+)
+"gtkStock.ml" 234 7552 7558 "gtkStock.ml" 234 7552 7566
+type(
+  id
+)
+"gtkStock.ml" 234 7552 7568 "gtkStock.ml" 234 7552 7581
+type(
+  string
+)
+"gtkStock.ml" 234 7552 7558 "gtkStock.ml" 234 7552 7581
+type(
+  id * string
+)
+"gtkStock.ml" 235 7583 7589 "gtkStock.ml" 235 7583 7600
+type(
+  id
+)
+"gtkStock.ml" 235 7583 7602 "gtkStock.ml" 235 7583 7618
+type(
+  string
+)
+"gtkStock.ml" 235 7583 7589 "gtkStock.ml" 235 7583 7618
+type(
+  id * string
+)
+"gtkStock.ml" 236 7628 7634 "gtkStock.ml" 236 7628 7647
+type(
+  id
+)
+"gtkStock.ml" 236 7628 7649 "gtkStock.ml" 236 7628 7667
+type(
+  string
+)
+"gtkStock.ml" 236 7628 7634 "gtkStock.ml" 236 7628 7667
+type(
+  id * string
+)
+"gtkStock.ml" 237 7669 7675 "gtkStock.ml" 237 7669 7687
+type(
+  id
+)
+"gtkStock.ml" 237 7669 7689 "gtkStock.ml" 237 7669 7706
+type(
+  string
+)
+"gtkStock.ml" 237 7669 7675 "gtkStock.ml" 237 7669 7706
+type(
+  id * string
+)
+"gtkStock.ml" 238 7708 7714 "gtkStock.ml" 238 7708 7729
+type(
+  id
+)
+"gtkStock.ml" 238 7708 7731 "gtkStock.ml" 238 7708 7751
+type(
+  string
+)
+"gtkStock.ml" 238 7708 7714 "gtkStock.ml" 238 7708 7751
+type(
+  id * string
+)
+"gtkStock.ml" 239 7753 7759 "gtkStock.ml" 239 7753 7775
+type(
+  id
+)
+"gtkStock.ml" 239 7753 7777 "gtkStock.ml" 239 7753 7798
+type(
+  string
+)
+"gtkStock.ml" 239 7753 7759 "gtkStock.ml" 239 7753 7798
+type(
+  id * string
+)
+"gtkStock.ml" 240 7800 7806 "gtkStock.ml" 240 7800 7818
+type(
+  id
+)
+"gtkStock.ml" 240 7800 7820 "gtkStock.ml" 240 7800 7837
+type(
+  string
+)
+"gtkStock.ml" 240 7800 7806 "gtkStock.ml" 240 7800 7837
+type(
+  id * string
+)
+"gtkStock.ml" 241 7839 7845 "gtkStock.ml" 241 7839 7850
+type(
+  id
+)
+"gtkStock.ml" 241 7839 7852 "gtkStock.ml" 241 7839 7862
+type(
+  string
+)
+"gtkStock.ml" 241 7839 7845 "gtkStock.ml" 241 7839 7862
+type(
+  id * string
+)
+"gtkStock.ml" 242 7864 7870 "gtkStock.ml" 242 7864 7884
+type(
+  id
+)
+"gtkStock.ml" 242 7864 7886 "gtkStock.ml" 242 7864 7905
+type(
+  string
+)
+"gtkStock.ml" 242 7864 7870 "gtkStock.ml" 242 7864 7905
+type(
+  id * string
+)
+"gtkStock.ml" 243 7907 7913 "gtkStock.ml" 243 7907 7922
+type(
+  id
+)
+"gtkStock.ml" 243 7907 7924 "gtkStock.ml" 243 7907 7938
+type(
+  string
+)
+"gtkStock.ml" 243 7907 7913 "gtkStock.ml" 243 7907 7938
+type(
+  id * string
+)
+"gtkStock.ml" 244 7940 7946 "gtkStock.ml" 244 7940 7956
+type(
+  id
+)
+"gtkStock.ml" 244 7940 7958 "gtkStock.ml" 244 7940 7973
+type(
+  string
+)
+"gtkStock.ml" 244 7940 7946 "gtkStock.ml" 244 7940 7973
+type(
+  id * string
+)
+"gtkStock.ml" 245 7975 7981 "gtkStock.ml" 245 7975 7986
+type(
+  id
+)
+"gtkStock.ml" 245 7975 7988 "gtkStock.ml" 245 7975 7998
+type(
+  string
+)
+"gtkStock.ml" 245 7975 7981 "gtkStock.ml" 245 7975 7998
+type(
+  id * string
+)
+"gtkStock.ml" 246 8000 8006 "gtkStock.ml" 246 8000 8010
+type(
+  id
+)
+"gtkStock.ml" 246 8000 8012 "gtkStock.ml" 246 8000 8021
+type(
+  string
+)
+"gtkStock.ml" 246 8000 8006 "gtkStock.ml" 246 8000 8021
+type(
+  id * string
+)
+"gtkStock.ml" 247 8023 8029 "gtkStock.ml" 247 8023 8038
+type(
+  id
+)
+"gtkStock.ml" 247 8023 8040 "gtkStock.ml" 247 8023 8054
+type(
+  string
+)
+"gtkStock.ml" 247 8023 8029 "gtkStock.ml" 247 8023 8054
+type(
+  id * string
+)
+"gtkStock.ml" 248 8056 8062 "gtkStock.ml" 248 8056 8071
+type(
+  id
+)
+"gtkStock.ml" 248 8056 8073 "gtkStock.ml" 248 8056 8087
+type(
+  string
+)
+"gtkStock.ml" 248 8056 8062 "gtkStock.ml" 248 8056 8087
+type(
+  id * string
+)
+"gtkStock.ml" 249 8089 8095 "gtkStock.ml" 249 8089 8103
+type(
+  id
+)
+"gtkStock.ml" 249 8089 8105 "gtkStock.ml" 249 8089 8118
+type(
+  string
+)
+"gtkStock.ml" 249 8089 8095 "gtkStock.ml" 249 8089 8118
+type(
+  id * string
+)
+"gtkStock.ml" 250 8120 8126 "gtkStock.ml" 250 8120 8135
+type(
+  id
+)
+"gtkStock.ml" 250 8120 8137 "gtkStock.ml" 250 8120 8151
+type(
+  string
+)
+"gtkStock.ml" 250 8120 8126 "gtkStock.ml" 250 8120 8151
+type(
+  id * string
+)
+"gtkStock.ml" 152 4708 4712 "gtkStock.ml" 251 8153 8158
+type(
+  (id * string) list
+)
+"gtkStock.ml" 151 4656 4658 "gtkStock.ml" 251 8153 8158
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkStock.ml" 281 9956 9960 "gtkStock.ml" 281 9956 9976
+type(
+  ?filename:string ->
+  ?pixbuf:GdkPixbuf.pixbuf ->
+  ?direction:Gtk.Tags.text_direction ->
+  ?state:Gtk.Tags.state_type ->
+  ?size:Gtk.Tags.icon_size -> unit -> Gtk.icon_source
+)
+ident(
+  def make_icon_source "gtkStock.ml" 293 10492 10492 --
+)
+"gtkStock.ml" 281 9956 9978 "gtkStock.ml" 281 9956 9986
+type(
+  string option
+)
+ident(
+  def filename "gtkStock.ml" 281 9956 9987 "gtkStock.ml" 291 10487 10490
+)
+"gtkStock.ml" 281 9956 9988 "gtkStock.ml" 281 9956 9994
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  def pixbuf "gtkStock.ml" 281 9956 9995 "gtkStock.ml" 291 10487 10490
+)
+"gtkStock.ml" 281 9956 9996 "gtkStock.ml" 281 9956 10005
+type(
+  Gtk.Tags.text_direction option
+)
+ident(
+  def direction "gtkStock.ml" 281 9956 10006 "gtkStock.ml" 291 10487 10490
+)
+"gtkStock.ml" 281 9956 10007 "gtkStock.ml" 281 9956 10012
+type(
+  Gtk.Tags.state_type option
+)
+ident(
+  def state "gtkStock.ml" 281 9956 10013 "gtkStock.ml" 291 10487 10490
+)
+"gtkStock.ml" 281 9956 10014 "gtkStock.ml" 281 9956 10018
+type(
+  Gtk.Tags.icon_size option
+)
+ident(
+  def size "gtkStock.ml" 281 9956 10019 "gtkStock.ml" 291 10487 10490
+)
+"gtkStock.ml" 281 9956 10019 "gtkStock.ml" 281 9956 10021
+type(
+  unit
+)
+"gtkStock.ml" 282 10024 10030 "gtkStock.ml" 282 10024 10031
+type(
+  Gtk.icon_source
+)
+"gtkStock.ml" 282 10024 10034 "gtkStock.ml" 282 10024 10061
+type(
+  unit -> Gtk.icon_source
+)
+ident(
+  ext_ref Icon_source.new_icon_source
+)
+"gtkStock.ml" 282 10024 10062 "gtkStock.ml" 282 10024 10064
+type(
+  unit
+)
+"gtkStock.ml" 282 10024 10034 "gtkStock.ml" 282 10024 10064
+type(
+  Gtk.icon_source
+)
+"gtkStock.ml" 283 10068 10070 "gtkStock.ml" 283 10068 10078
+type(
+  f:(string -> unit) -> string option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gtkStock.ml" 283 10068 10080 "gtkStock.ml" 283 10068 10104
+type(
+  Gtk.icon_source -> string -> unit
+)
+ident(
+  ext_ref Icon_source.set_filename
+)
+"gtkStock.ml" 283 10068 10105 "gtkStock.ml" 283 10068 10106
+type(
+  Gtk.icon_source
+)
+ident(
+  int_ref s "gtkStock.ml" 282 10024 10030 "gtkStock.ml" 282 10024 10031
+)
+"gtkStock.ml" 283 10068 10079 "gtkStock.ml" 283 10068 10107
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"gtkStock.ml" 283 10068 10108 "gtkStock.ml" 283 10068 10116
+type(
+  string option
+)
+ident(
+  int_ref filename "gtkStock.ml" 281 9956 9978 "gtkStock.ml" 281 9956 9986
+)
+"gtkStock.ml" 283 10068 10070 "gtkStock.ml" 283 10068 10116
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkStock.ml" 284 10119 10121 "gtkStock.ml" 284 10119 10129
+type(
+  f:(GdkPixbuf.pixbuf -> unit) -> GdkPixbuf.pixbuf option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gtkStock.ml" 284 10119 10131 "gtkStock.ml" 284 10119 10153
+type(
+  Gtk.icon_source -> GdkPixbuf.pixbuf -> unit
+)
+ident(
+  ext_ref Icon_source.set_pixbuf
+)
+"gtkStock.ml" 284 10119 10154 "gtkStock.ml" 284 10119 10155
+type(
+  Gtk.icon_source
+)
+ident(
+  int_ref s "gtkStock.ml" 282 10024 10030 "gtkStock.ml" 282 10024 10031
+)
+"gtkStock.ml" 284 10119 10130 "gtkStock.ml" 284 10119 10156
+call(
+  stack
+)
+type(
+  GdkPixbuf.pixbuf -> unit
+)
+"gtkStock.ml" 284 10119 10157 "gtkStock.ml" 284 10119 10163
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  int_ref pixbuf "gtkStock.ml" 281 9956 9988 "gtkStock.ml" 281 9956 9994
+)
+"gtkStock.ml" 284 10119 10121 "gtkStock.ml" 284 10119 10163
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkStock.ml" 285 10166 10168 "gtkStock.ml" 285 10166 10176
+type(
+  f:(Gtk.Tags.text_direction -> unit) ->
+  Gtk.Tags.text_direction option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gtkStock.ml" 285 10166 10182 "gtkStock.ml" 285 10166 10183
+type(
+  Gtk.Tags.text_direction
+)
+ident(
+  def p "gtkStock.ml" 285 10166 10187 "gtkStock.ml" 286 10235 10268
+)
+"gtkStock.ml" 285 10166 10187 "gtkStock.ml" 285 10166 10223
+type(
+  Gtk.icon_source -> bool -> unit
+)
+ident(
+  ext_ref Icon_source.set_direction_wildcarded
+)
+"gtkStock.ml" 285 10166 10224 "gtkStock.ml" 285 10166 10225
+type(
+  Gtk.icon_source
+)
+ident(
+  int_ref s "gtkStock.ml" 282 10024 10030 "gtkStock.ml" 282 10024 10031
+)
+"gtkStock.ml" 285 10166 10226 "gtkStock.ml" 285 10166 10231
+type(
+  bool
+)
+"gtkStock.ml" 285 10166 10187 "gtkStock.ml" 285 10166 10231
+type(
+  unit
+)
+"gtkStock.ml" 286 10235 10239 "gtkStock.ml" 286 10235 10264
+type(
+  Gtk.icon_source -> Gtk.Tags.text_direction -> unit
+)
+ident(
+  ext_ref Icon_source.set_direction
+)
+"gtkStock.ml" 286 10235 10265 "gtkStock.ml" 286 10235 10266
+type(
+  Gtk.icon_source
+)
+ident(
+  int_ref s "gtkStock.ml" 282 10024 10030 "gtkStock.ml" 282 10024 10031
+)
+"gtkStock.ml" 286 10235 10267 "gtkStock.ml" 286 10235 10268
+type(
+  Gtk.Tags.text_direction
+)
+ident(
+  int_ref p "gtkStock.ml" 285 10166 10182 "gtkStock.ml" 285 10166 10183
+)
+"gtkStock.ml" 286 10235 10239 "gtkStock.ml" 286 10235 10268
+type(
+  unit
+)
+"gtkStock.ml" 285 10166 10187 "gtkStock.ml" 286 10235 10268
+type(
+  unit
+)
+"gtkStock.ml" 285 10166 10177 "gtkStock.ml" 286 10235 10269
+type(
+  Gtk.Tags.text_direction -> unit
+)
+"gtkStock.ml" 286 10235 10270 "gtkStock.ml" 286 10235 10279
+type(
+  Gtk.Tags.text_direction option
+)
+ident(
+  int_ref direction "gtkStock.ml" 281 9956 9996 "gtkStock.ml" 281 9956 10005
+)
+"gtkStock.ml" 285 10166 10168 "gtkStock.ml" 286 10235 10279
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkStock.ml" 287 10282 10284 "gtkStock.ml" 287 10282 10292
+type(
+  f:(Gtk.Tags.state_type -> unit) -> Gtk.Tags.state_type option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gtkStock.ml" 287 10282 10298 "gtkStock.ml" 287 10282 10299
+type(
+  Gtk.Tags.state_type
+)
+ident(
+  def p "gtkStock.ml" 287 10282 10303 "gtkStock.ml" 288 10347 10376
+)
+"gtkStock.ml" 287 10282 10303 "gtkStock.ml" 287 10282 10335
+type(
+  Gtk.icon_source -> bool -> unit
+)
+ident(
+  ext_ref Icon_source.set_state_wildcarded
+)
+"gtkStock.ml" 287 10282 10336 "gtkStock.ml" 287 10282 10337
+type(
+  Gtk.icon_source
+)
+ident(
+  int_ref s "gtkStock.ml" 282 10024 10030 "gtkStock.ml" 282 10024 10031
+)
+"gtkStock.ml" 287 10282 10338 "gtkStock.ml" 287 10282 10343
+type(
+  bool
+)
+"gtkStock.ml" 287 10282 10303 "gtkStock.ml" 287 10282 10343
+type(
+  unit
+)
+"gtkStock.ml" 288 10347 10351 "gtkStock.ml" 288 10347 10372
+type(
+  Gtk.icon_source -> Gtk.Tags.state_type -> unit
+)
+ident(
+  ext_ref Icon_source.set_state
+)
+"gtkStock.ml" 288 10347 10373 "gtkStock.ml" 288 10347 10374
+type(
+  Gtk.icon_source
+)
+ident(
+  int_ref s "gtkStock.ml" 282 10024 10030 "gtkStock.ml" 282 10024 10031
+)
+"gtkStock.ml" 288 10347 10375 "gtkStock.ml" 288 10347 10376
+type(
+  Gtk.Tags.state_type
+)
+ident(
+  int_ref p "gtkStock.ml" 287 10282 10298 "gtkStock.ml" 287 10282 10299
+)
+"gtkStock.ml" 288 10347 10351 "gtkStock.ml" 288 10347 10376
+type(
+  unit
+)
+"gtkStock.ml" 287 10282 10303 "gtkStock.ml" 288 10347 10376
+type(
+  unit
+)
+"gtkStock.ml" 287 10282 10293 "gtkStock.ml" 288 10347 10377
+type(
+  Gtk.Tags.state_type -> unit
+)
+"gtkStock.ml" 288 10347 10378 "gtkStock.ml" 288 10347 10383
+type(
+  Gtk.Tags.state_type option
+)
+ident(
+  int_ref state "gtkStock.ml" 281 9956 10007 "gtkStock.ml" 281 9956 10012
+)
+"gtkStock.ml" 287 10282 10284 "gtkStock.ml" 288 10347 10383
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkStock.ml" 289 10386 10388 "gtkStock.ml" 289 10386 10396
+type(
+  f:(Gtk.Tags.icon_size -> unit) -> Gtk.Tags.icon_size option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gtkStock.ml" 289 10386 10402 "gtkStock.ml" 289 10386 10403
+type(
+  Gtk.Tags.icon_size
+)
+ident(
+  def p "gtkStock.ml" 289 10386 10407 "gtkStock.ml" 290 10450 10478
+)
+"gtkStock.ml" 289 10386 10407 "gtkStock.ml" 289 10386 10438
+type(
+  Gtk.icon_source -> bool -> unit
+)
+ident(
+  ext_ref Icon_source.set_size_wildcarded
+)
+"gtkStock.ml" 289 10386 10439 "gtkStock.ml" 289 10386 10440
+type(
+  Gtk.icon_source
+)
+ident(
+  int_ref s "gtkStock.ml" 282 10024 10030 "gtkStock.ml" 282 10024 10031
+)
+"gtkStock.ml" 289 10386 10441 "gtkStock.ml" 289 10386 10446
+type(
+  bool
+)
+"gtkStock.ml" 289 10386 10407 "gtkStock.ml" 289 10386 10446
+type(
+  unit
+)
+"gtkStock.ml" 290 10450 10454 "gtkStock.ml" 290 10450 10474
+type(
+  Gtk.icon_source -> Gtk.Tags.icon_size -> unit
+)
+ident(
+  ext_ref Icon_source.set_size
+)
+"gtkStock.ml" 290 10450 10475 "gtkStock.ml" 290 10450 10476
+type(
+  Gtk.icon_source
+)
+ident(
+  int_ref s "gtkStock.ml" 282 10024 10030 "gtkStock.ml" 282 10024 10031
+)
+"gtkStock.ml" 290 10450 10477 "gtkStock.ml" 290 10450 10478
+type(
+  Gtk.Tags.icon_size
+)
+ident(
+  int_ref p "gtkStock.ml" 289 10386 10402 "gtkStock.ml" 289 10386 10403
+)
+"gtkStock.ml" 290 10450 10454 "gtkStock.ml" 290 10450 10478
+type(
+  unit
+)
+"gtkStock.ml" 289 10386 10407 "gtkStock.ml" 290 10450 10478
+type(
+  unit
+)
+"gtkStock.ml" 289 10386 10397 "gtkStock.ml" 290 10450 10479
+type(
+  Gtk.Tags.icon_size -> unit
+)
+"gtkStock.ml" 290 10450 10480 "gtkStock.ml" 290 10450 10484
+type(
+  Gtk.Tags.icon_size option
+)
+ident(
+  int_ref size "gtkStock.ml" 281 9956 10014 "gtkStock.ml" 281 9956 10018
+)
+"gtkStock.ml" 289 10386 10388 "gtkStock.ml" 290 10450 10484
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkStock.ml" 291 10487 10489 "gtkStock.ml" 291 10487 10490
+type(
+  Gtk.icon_source
+)
+ident(
+  int_ref s "gtkStock.ml" 282 10024 10030 "gtkStock.ml" 282 10024 10031
+)
+"gtkStock.ml" 289 10386 10388 "gtkStock.ml" 291 10487 10490
+type(
+  Gtk.icon_source
+)
+"gtkStock.ml" 287 10282 10284 "gtkStock.ml" 291 10487 10490
+type(
+  Gtk.icon_source
+)
+"gtkStock.ml" 285 10166 10168 "gtkStock.ml" 291 10487 10490
+type(
+  Gtk.icon_source
+)
+"gtkStock.ml" 284 10119 10121 "gtkStock.ml" 291 10487 10490
+type(
+  Gtk.icon_source
+)
+"gtkStock.ml" 283 10068 10070 "gtkStock.ml" 291 10487 10490
+type(
+  Gtk.icon_source
+)
+"gtkStock.ml" 282 10024 10026 "gtkStock.ml" 291 10487 10490
+type(
+  Gtk.icon_source
+)
+"gtkStock.ml" 293 10492 10496 "gtkStock.ml" 293 10492 10509
+type(
+  ?pixbuf:GdkPixbuf.pixbuf -> Gtk.icon_source list -> Gtk.icon_set
+)
+ident(
+  def make_icon_set "gtkStock.ml" 300 10691 10691 --
+)
+"gtkStock.ml" 293 10492 10511 "gtkStock.ml" 293 10492 10517
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  def pixbuf "gtkStock.ml" 293 10492 10518 "gtkStock.ml" 298 10686 10689
+)
+"gtkStock.ml" 293 10492 10518 "gtkStock.ml" 293 10492 10525
+type(
+  Gtk.icon_source list
+)
+ident(
+  def sources "gtkStock.ml" 294 10528 10530 "gtkStock.ml" 298 10686 10689
+)
+"gtkStock.ml" 294 10528 10534 "gtkStock.ml" 294 10528 10535
+type(
+  Gtk.icon_set
+)
+"gtkStock.ml" 294 10528 10544 "gtkStock.ml" 294 10528 10550
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  int_ref pixbuf "gtkStock.ml" 293 10492 10511 "gtkStock.ml" 293 10492 10517
+)
+"gtkStock.ml" 295 10556 10560 "gtkStock.ml" 295 10556 10564
+type(
+  GdkPixbuf.pixbuf option
+)
+"gtkStock.ml" 295 10556 10568 "gtkStock.ml" 295 10556 10589
+type(
+  unit -> Gtk.icon_set
+)
+ident(
+  ext_ref Icon_set.new_icon_set
+)
+"gtkStock.ml" 295 10556 10590 "gtkStock.ml" 295 10556 10592
+type(
+  unit
+)
+"gtkStock.ml" 295 10556 10568 "gtkStock.ml" 295 10556 10592
+type(
+  Gtk.icon_set
+)
+"gtkStock.ml" 296 10594 10603 "gtkStock.ml" 296 10594 10605
+type(
+  GdkPixbuf.pixbuf
+)
+ident(
+  def pb "gtkStock.ml" 296 10594 10609 "gtkStock.ml" 296 10594 10636
+)
+"gtkStock.ml" 296 10594 10598 "gtkStock.ml" 296 10594 10605
+type(
+  GdkPixbuf.pixbuf option
+)
+"gtkStock.ml" 296 10594 10609 "gtkStock.ml" 296 10594 10633
+type(
+  GdkPixbuf.pixbuf -> Gtk.icon_set
+)
+ident(
+  ext_ref Icon_set.new_from_pixbuf
+)
+"gtkStock.ml" 296 10594 10634 "gtkStock.ml" 296 10594 10636
+type(
+  GdkPixbuf.pixbuf
+)
+ident(
+  int_ref pb "gtkStock.ml" 296 10594 10603 "gtkStock.ml" 296 10594 10605
+)
+"gtkStock.ml" 296 10594 10609 "gtkStock.ml" 296 10594 10636
+type(
+  Gtk.icon_set
+)
+"gtkStock.ml" 294 10528 10538 "gtkStock.ml" 296 10594 10636
+type(
+  Gtk.icon_set
+)
+"gtkStock.ml" 297 10640 10642 "gtkStock.ml" 297 10640 10651
+type(
+  (Gtk.icon_source -> unit) -> Gtk.icon_source list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"gtkStock.ml" 297 10640 10653 "gtkStock.ml" 297 10640 10672
+type(
+  Gtk.icon_set -> Gtk.icon_source -> unit
+)
+ident(
+  ext_ref Icon_set.add_source
+)
+"gtkStock.ml" 297 10640 10673 "gtkStock.ml" 297 10640 10674
+type(
+  Gtk.icon_set
+)
+ident(
+  int_ref s "gtkStock.ml" 294 10528 10534 "gtkStock.ml" 294 10528 10535
+)
+"gtkStock.ml" 297 10640 10652 "gtkStock.ml" 297 10640 10675
+call(
+  stack
+)
+type(
+  Gtk.icon_source -> unit
+)
+"gtkStock.ml" 297 10640 10676 "gtkStock.ml" 297 10640 10683
+type(
+  Gtk.icon_source list
+)
+ident(
+  int_ref sources "gtkStock.ml" 293 10492 10518 "gtkStock.ml" 293 10492 10525
+)
+"gtkStock.ml" 297 10640 10642 "gtkStock.ml" 297 10640 10683
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkStock.ml" 298 10686 10688 "gtkStock.ml" 298 10686 10689
+type(
+  Gtk.icon_set
+)
+ident(
+  int_ref s "gtkStock.ml" 294 10528 10534 "gtkStock.ml" 294 10528 10535
+)
+"gtkStock.ml" 297 10640 10642 "gtkStock.ml" 298 10686 10689
+type(
+  Gtk.icon_set
+)
+"gtkStock.ml" 294 10528 10530 "gtkStock.ml" 298 10686 10689
+type(
+  Gtk.icon_set
+)
+"gtkStock.ml" 300 10691 10695 "gtkStock.ml" 300 10691 10712
+type(
+  ?default:bool ->
+  ?icons:(id * Gtk.icon_set) list -> unit -> Gtk.icon_factory
+)
+ident(
+  def make_icon_factory "gtkStock.ml" 307 10927 10927 --
+)
+"gtkStock.ml" 300 10691 10715 "gtkStock.ml" 300 10691 10722
+type(
+  bool
+)
+"gtkStock.ml" 300 10691 10725 "gtkStock.ml" 300 10691 10729
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gtkStock.ml" 300 10691 10725 "gtkStock.ml" 300 10691 10729
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gtkStock.ml" 300 10691 10725 "gtkStock.ml" 300 10691 10729
+)
+"gtkStock.ml" 300 10691 10732 "gtkStock.ml" 300 10691 10737
+type(
+  (id * Gtk.icon_set) list option
+)
+ident(
+  def icons "gtkStock.ml" 300 10691 10738 "gtkStock.ml" 305 10922 10925
+)
+"gtkStock.ml" 300 10691 10738 "gtkStock.ml" 300 10691 10740
+type(
+  unit
+)
+"gtkStock.ml" 301 10743 10749 "gtkStock.ml" 301 10743 10750
+type(
+  Gtk.icon_factory
+)
+"gtkStock.ml" 301 10743 10753 "gtkStock.ml" 301 10743 10777
+type(
+  unit -> Gtk.icon_factory
+)
+ident(
+  ext_ref Icon_factory.new_factory
+)
+"gtkStock.ml" 301 10743 10778 "gtkStock.ml" 301 10743 10780
+type(
+  unit
+)
+"gtkStock.ml" 301 10743 10753 "gtkStock.ml" 301 10743 10780
+type(
+  Gtk.icon_factory
+)
+"gtkStock.ml" 302 10784 10786 "gtkStock.ml" 302 10784 10794
+type(
+  f:((id * Gtk.icon_set) list -> unit) ->
+  (id * Gtk.icon_set) list option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gtkStock.ml" 302 10784 10795 "gtkStock.ml" 302 10784 10800
+type(
+  (id * Gtk.icon_set) list option
+)
+ident(
+  int_ref icons "gtkStock.ml" 300 10691 10732 "gtkStock.ml" 300 10691 10737
+)
+"gtkStock.ml" 303 10802 10810 "gtkStock.ml" 303 10802 10819
+type(
+  (id * Gtk.icon_set -> unit) -> (id * Gtk.icon_set) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"gtkStock.ml" 303 10802 10826 "gtkStock.ml" 303 10802 10827
+type(
+  id
+)
+ident(
+  def n "gtkStock.ml" 303 10802 10835 "gtkStock.ml" 303 10802 10870
+)
+"gtkStock.ml" 303 10802 10829 "gtkStock.ml" 303 10802 10830
+type(
+  Gtk.icon_set
+)
+ident(
+  def i "gtkStock.ml" 303 10802 10835 "gtkStock.ml" 303 10802 10870
+)
+"gtkStock.ml" 303 10802 10825 "gtkStock.ml" 303 10802 10831
+type(
+  id * Gtk.icon_set
+)
+"gtkStock.ml" 303 10802 10835 "gtkStock.ml" 303 10802 10851
+type(
+  Gtk.icon_factory -> string -> Gtk.icon_set -> unit
+)
+ident(
+  ext_ref Icon_factory.add
+)
+"gtkStock.ml" 303 10802 10852 "gtkStock.ml" 303 10802 10853
+type(
+  Gtk.icon_factory
+)
+ident(
+  int_ref f "gtkStock.ml" 301 10743 10749 "gtkStock.ml" 301 10743 10750
+)
+"gtkStock.ml" 303 10802 10855 "gtkStock.ml" 303 10802 10865
+type(
+  id -> string
+)
+ident(
+  int_ref convert_id "gtkStock.ml" 137 4223 4227 "gtkStock.ml" 137 4223 4237
+)
+"gtkStock.ml" 303 10802 10866 "gtkStock.ml" 303 10802 10867
+type(
+  id
+)
+ident(
+  int_ref n "gtkStock.ml" 303 10802 10826 "gtkStock.ml" 303 10802 10827
+)
+"gtkStock.ml" 303 10802 10854 "gtkStock.ml" 303 10802 10868
+call(
+  stack
+)
+type(
+  string
+)
+"gtkStock.ml" 303 10802 10869 "gtkStock.ml" 303 10802 10870
+type(
+  Gtk.icon_set
+)
+ident(
+  int_ref i "gtkStock.ml" 303 10802 10829 "gtkStock.ml" 303 10802 10830
+)
+"gtkStock.ml" 303 10802 10835 "gtkStock.ml" 303 10802 10870
+type(
+  unit
+)
+"gtkStock.ml" 303 10802 10820 "gtkStock.ml" 303 10802 10871
+type(
+  id * Gtk.icon_set -> unit
+)
+"gtkStock.ml" 303 10802 10809 "gtkStock.ml" 303 10802 10872
+call(
+  stack
+)
+type(
+  (id * Gtk.icon_set) list -> unit
+)
+"gtkStock.ml" 302 10784 10786 "gtkStock.ml" 303 10802 10872
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkStock.ml" 304 10875 10880 "gtkStock.ml" 304 10875 10887
+type(
+  bool
+)
+ident(
+  int_ref default "gtkStock.ml" 300 10691 10715 "gtkStock.ml" 300 10691 10722
+)
+"gtkStock.ml" 304 10875 10893 "gtkStock.ml" 304 10875 10917
+type(
+  Gtk.icon_factory -> unit
+)
+ident(
+  ext_ref Icon_factory.add_default
+)
+"gtkStock.ml" 304 10875 10918 "gtkStock.ml" 304 10875 10919
+type(
+  Gtk.icon_factory
+)
+ident(
+  int_ref f "gtkStock.ml" 301 10743 10749 "gtkStock.ml" 301 10743 10750
+)
+"gtkStock.ml" 304 10875 10893 "gtkStock.ml" 304 10875 10919
+type(
+  unit
+)
+"gtkStock.ml" 304 10875 10877 "gtkStock.ml" 304 10875 10919
+type(
+  unit
+)
+"gtkStock.ml" 305 10922 10924 "gtkStock.ml" 305 10922 10925
+type(
+  Gtk.icon_factory
+)
+ident(
+  int_ref f "gtkStock.ml" 301 10743 10749 "gtkStock.ml" 301 10743 10750
+)
+"gtkStock.ml" 304 10875 10877 "gtkStock.ml" 305 10922 10925
+type(
+  Gtk.icon_factory
+)
+"gtkStock.ml" 302 10784 10786 "gtkStock.ml" 305 10922 10925
+type(
+  Gtk.icon_factory
+)
+"gtkStock.ml" 301 10743 10745 "gtkStock.ml" 305 10922 10925
+type(
+  Gtk.icon_factory
+)
+"gtkStock.ml" 317 11254 11258 "gtkStock.ml" 317 11254 11264
+type(
+  id -> item
+)
+ident(
+  def lookup "gtkStock.ml" 317 11254 11292 "gtkStock.ml" 318 11293 11296
+)
+"gtkStock.ml" 317 11254 11265 "gtkStock.ml" 317 11254 11267
+type(
+  id
+)
+ident(
+  def id "gtkStock.ml" 317 11254 11270 "gtkStock.ml" 317 11254 11292
+)
+"gtkStock.ml" 317 11254 11270 "gtkStock.ml" 317 11254 11276
+type(
+  string -> item
+)
+"gtkStock.ml" 317 11254 11278 "gtkStock.ml" 317 11254 11288
+type(
+  id -> string
+)
+ident(
+  int_ref convert_id "gtkStock.ml" 137 4223 4227 "gtkStock.ml" 137 4223 4237
+)
+"gtkStock.ml" 317 11254 11289 "gtkStock.ml" 317 11254 11291
+type(
+  id
+)
+ident(
+  int_ref id "gtkStock.ml" 317 11254 11265 "gtkStock.ml" 317 11254 11267
+)
+"gtkStock.ml" 317 11254 11277 "gtkStock.ml" 317 11254 11292
+call(
+  stack
+)
+type(
+  string
+)
+"gtkStock.ml" 317 11254 11270 "gtkStock.ml" 317 11254 11292
+type(
+  item
+)

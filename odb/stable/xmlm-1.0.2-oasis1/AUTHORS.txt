@@ -1,0 +1,5 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: 5f0543b2187b3ee3a6ff499287ab3471) *)
+Authors of xmlm
+Daniel Bünzli
+(* OASIS_STOP *)

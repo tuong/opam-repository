@@ -1,0 +1,20 @@
+OASISFormat:  0.2
+Name:         calendar
+Version:      2.03.1~oasis1
+Authors:      Julien Signoles
+Homepage:     http://calendar.forge.ocamlcore.org/
+License:      LGPL-2.1 with OCaml linking exception
+LicenseFile:  LICENSE
+ConfType:   custom (0.2)
+BuildType:    custom (0.2)
+InstallType:  custom (0.2)
+BuildTools:   make
+Synopsis:     Objective Caml library for handling dates and times.
+
+XCustomConf: ./configure
+XCustomBuild: make
+XCustomInstall: make install
+XCustomUninstall: make uninstall
+
+Library calendar
+    Path: .

@@ -1,0 +1,19 @@
+OASISFormat: 0.2
+Name:        CamlGI
+Version:     0.6-oasis1
+Synopsis:    CamlGI - FastCGI and CGI library
+Authors:     Christophe Troestler
+License:     LGPL-2.1 with OCaml linking exception
+# Plugins:      StdFiles (0.2)
+BuildType:   Custom (0.2)
+InstallType:    Custom (0.2)
+XCustomBuild: make
+XCustomInstall: OCAMLFIND_DESTDIR=$libdir make install
+XCustomUninstall: OCAMLFIND_DESTDIR=$libdir ocamlfind remove CamlGI
+BuildTools: make
+
+Library camlGI
+  Path:          .
+  FindlibName:   CamlGI
+  BuildDepends:  threads, unix, str
+  Modules:       CamlGI

@@ -1,0 +1,53 @@
+#	$Id: README,v 1.4 2005/01/25 19:35:42 chris_77 Exp $
+
+  CamlGI - FastCGI and CGI library
+
+
+  Copyright 2004, Christophe Troestler
+
+  This library is free software; you can redistribute it and/or modify
+  it under the terms of the GNU Lesser General Public License version
+  2.1 as published by the Free Software Foundation, with the special
+  exception on linking described in file LICENSE.
+
+  This library is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the file
+  LICENSE for more details.
+----------------------------------------------------------------------
+
+INSTALL : See the file of the same name!
+
+
+LIMITATIONS
+
+Beware that FCGI does not support the non-parsed header feature of
+CGI, so do not use it if you want your scripts to be portable accross
+the two systems.
+
+
+APACHE MODULE
+
+There is an module to enable fastcgi for Apache at http://fastcgi.com/
+An alternative is http://fastcgi.coremail.cn/
+
+
+RELATED PROJECTS
+
+- mod_caml (https://savannah.nongnu.org/projects/modcaml/)
+
+- OCamlnet (http://ocamlnet.sourceforge.net/)
+
+- fcgi-ocaml (http://sourceforge.net/projects/tcl-fastcgi/)
+
+- cgi (http://www.lri.fr/~filliatr/ftp/ocaml/cgi/)
+
+
+BASIC SECURITY MEASURES
+
+- http://www.w3.org/Security/Faq/www-security-faq.html
+
+- http://www.advosys.ca/papers/web-security.html
+
+- http://www.dwheeler.com/secure-programs/
+

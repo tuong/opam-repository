@@ -1,0 +1,14 @@
+# OASIS_START
+# DO NOT EDIT (digest: a39b2af2d0edcf1a258b373feef3ea09)
+# Library ANSITerminal
+<ANSITerminal.{cma,cmxa}>: use_libANSITerminal
+"ANSITerminal_stubs.c": pkg_unix
+# Executable test
+"test.byte": use_ANSITerminal
+"test.byte": pkg_unix
+# Executable showcolors
+<showcolors.{native,byte}>: use_ANSITerminal
+<showcolors.{native,byte}>: pkg_unix
+<*.ml{,i}>: use_ANSITerminal
+<*.ml{,i}>: pkg_unix
+# OASIS_STOP

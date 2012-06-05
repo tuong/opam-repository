@@ -1,0 +1,4639 @@
+"gtkTextProps.ml" 8 89 95 "gtkTextProps.ml" 8 89 103
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  def editable "gtkTextProps.ml" 9 138 140 "gtkTextProps.ml" 18 628 631
+)
+"gtkTextProps.ml" 8 89 112 "gtkTextProps.ml" 8 89 122
+type(
+  string
+)
+"gtkTextProps.ml" 8 89 129 "gtkTextProps.ml" 8 89 136
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 8 89 106 "gtkTextProps.ml" 8 89 137
+type(
+  ('a, bool) Gobject.property
+)
+"gtkTextProps.ml" 9 138 144 "gtkTextProps.ml" 9 138 150
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  def indent "gtkTextProps.ml" 10 179 181 "gtkTextProps.ml" 18 628 631
+)
+"gtkTextProps.ml" 9 138 159 "gtkTextProps.ml" 9 138 167
+type(
+  string
+)
+"gtkTextProps.ml" 9 138 174 "gtkTextProps.ml" 9 138 177
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTextProps.ml" 9 138 153 "gtkTextProps.ml" 9 138 178
+type(
+  ('b, int) Gobject.property
+)
+"gtkTextProps.ml" 10 179 185 "gtkTextProps.ml" 10 179 198
+type(
+  ('c, GtkEnums.justification) Gobject.property
+)
+ident(
+  def justification "gtkTextProps.ml" 12 262 264 "gtkTextProps.ml" 18 628 631
+)
+"gtkTextProps.ml" 11 201 211 "gtkTextProps.ml" 11 201 226
+type(
+  string
+)
+"gtkTextProps.ml" 11 201 233 "gtkTextProps.ml" 11 201 260
+type(
+  GtkEnums.justification Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.justification_conv
+)
+"gtkTextProps.ml" 11 201 205 "gtkTextProps.ml" 11 201 261
+type(
+  ('c, GtkEnums.justification) Gobject.property
+)
+"gtkTextProps.ml" 12 262 268 "gtkTextProps.ml" 12 262 279
+type(
+  ('d, int) Gobject.property
+)
+ident(
+  def left_margin "gtkTextProps.ml" 13 313 315 "gtkTextProps.ml" 18 628 631
+)
+"gtkTextProps.ml" 12 262 288 "gtkTextProps.ml" 12 262 301
+type(
+  string
+)
+"gtkTextProps.ml" 12 262 308 "gtkTextProps.ml" 12 262 311
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTextProps.ml" 12 262 282 "gtkTextProps.ml" 12 262 312
+type(
+  ('d, int) Gobject.property
+)
+"gtkTextProps.ml" 13 313 319 "gtkTextProps.ml" 13 313 337
+type(
+  ('e, int) Gobject.property
+)
+ident(
+  def pixels_above_lines "gtkTextProps.ml" 14 378 380 "gtkTextProps.ml" 18 628 631
+)
+"gtkTextProps.ml" 13 313 346 "gtkTextProps.ml" 13 313 366
+type(
+  string
+)
+"gtkTextProps.ml" 13 313 373 "gtkTextProps.ml" 13 313 376
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTextProps.ml" 13 313 340 "gtkTextProps.ml" 13 313 377
+type(
+  ('e, int) Gobject.property
+)
+"gtkTextProps.ml" 14 378 384 "gtkTextProps.ml" 14 378 402
+type(
+  ('f, int) Gobject.property
+)
+ident(
+  def pixels_below_lines "gtkTextProps.ml" 15 443 445 "gtkTextProps.ml" 18 628 631
+)
+"gtkTextProps.ml" 14 378 411 "gtkTextProps.ml" 14 378 431
+type(
+  string
+)
+"gtkTextProps.ml" 14 378 438 "gtkTextProps.ml" 14 378 441
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTextProps.ml" 14 378 405 "gtkTextProps.ml" 14 378 442
+type(
+  ('f, int) Gobject.property
+)
+"gtkTextProps.ml" 15 443 449 "gtkTextProps.ml" 15 443 467
+type(
+  ('g, int) Gobject.property
+)
+ident(
+  def pixels_inside_wrap "gtkTextProps.ml" 16 508 510 "gtkTextProps.ml" 18 628 631
+)
+"gtkTextProps.ml" 15 443 476 "gtkTextProps.ml" 15 443 496
+type(
+  string
+)
+"gtkTextProps.ml" 15 443 503 "gtkTextProps.ml" 15 443 506
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTextProps.ml" 15 443 470 "gtkTextProps.ml" 15 443 507
+type(
+  ('g, int) Gobject.property
+)
+"gtkTextProps.ml" 16 508 514 "gtkTextProps.ml" 16 508 526
+type(
+  ('h, int) Gobject.property
+)
+ident(
+  def right_margin "gtkTextProps.ml" 17 561 563 "gtkTextProps.ml" 18 628 631
+)
+"gtkTextProps.ml" 16 508 535 "gtkTextProps.ml" 16 508 549
+type(
+  string
+)
+"gtkTextProps.ml" 16 508 556 "gtkTextProps.ml" 16 508 559
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTextProps.ml" 16 508 529 "gtkTextProps.ml" 16 508 560
+type(
+  ('h, int) Gobject.property
+)
+"gtkTextProps.ml" 17 561 567 "gtkTextProps.ml" 17 561 576
+type(
+  ('i, GtkEnums.wrap_mode) Gobject.property
+)
+ident(
+  def wrap_mode "gtkTextProps.ml" 17 561 627 "gtkTextProps.ml" 18 628 631
+)
+"gtkTextProps.ml" 17 561 585 "gtkTextProps.ml" 17 561 596
+type(
+  string
+)
+"gtkTextProps.ml" 17 561 603 "gtkTextProps.ml" 17 561 626
+type(
+  GtkEnums.wrap_mode Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.wrap_mode_conv
+)
+"gtkTextProps.ml" 17 561 579 "gtkTextProps.ml" 17 561 627
+type(
+  ('i, GtkEnums.wrap_mode) Gobject.property
+)
+"gtkTextProps.ml" 20 633 637 "gtkTextProps.ml" 20 633 645
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons "gtkTextProps.ml" 21 666 666 --
+)
+"gtkTextProps.ml" 20 633 648 "gtkTextProps.ml" 20 633 665
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gtkTextProps.ml" 21 666 670 "gtkTextProps.ml" 21 666 682
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons_opt "gtkTextProps.ml" 23 708 708 --
+)
+"gtkTextProps.ml" 21 666 685 "gtkTextProps.ml" 21 666 706
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons_opt
+)
+"gtkTextProps.ml" 24 733 739 "gtkTextProps.ml" 24 733 743
+type(
+  'a Gobject.obj -> Gtk.text_view Gtk.obj
+)
+ident(
+  def cast "gtkTextProps.ml" 25 793 795 "gtkTextProps.ml" 90 4064 4067
+)
+"gtkTextProps.ml" 24 733 744 "gtkTextProps.ml" 24 733 745
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTextProps.ml" 24 733 746 "gtkTextProps.ml" 24 733 792
+)
+"gtkTextProps.ml" 24 733 768 "gtkTextProps.ml" 24 733 776
+type(
+  'a Gobject.obj -> string -> Gtk.text_view Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTextProps.ml" 24 733 777 "gtkTextProps.ml" 24 733 778
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTextProps.ml" 24 733 744 "gtkTextProps.ml" 24 733 745
+)
+"gtkTextProps.ml" 24 733 779 "gtkTextProps.ml" 24 733 792
+type(
+  string
+)
+"gtkTextProps.ml" 24 733 768 "gtkTextProps.ml" 24 733 792
+call(
+  tail
+)
+type(
+  Gtk.text_view Gtk.obj
+)
+type(
+  Gtk.text_view Gtk.obj
+)
+"gtkTextProps.ml" 26 813 821 "gtkTextProps.ml" 26 813 829
+type(
+  ([> `textview ], bool) Gobject.property
+)
+ident(
+  def editable "gtkTextProps.ml" 27 882 886 "gtkTextProps.ml" 39 1704 1709
+)
+"gtkTextProps.ml" 26 813 860 "gtkTextProps.ml" 26 813 881
+type(
+  ([> `textview ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.editable
+)
+"gtkTextProps.ml" 27 882 890 "gtkTextProps.ml" 27 882 904
+type(
+  ([> `textview ], bool) Gobject.property
+)
+ident(
+  def cursor_visible "gtkTextProps.ml" 29 979 983 "gtkTextProps.ml" 39 1704 1709
+)
+"gtkTextProps.ml" 28 935 947 "gtkTextProps.ml" 28 935 963
+type(
+  string
+)
+"gtkTextProps.ml" 28 935 970 "gtkTextProps.ml" 28 935 977
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 28 935 941 "gtkTextProps.ml" 28 935 978
+type(
+  ([> `textview ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkTextProps.ml" 29 979 987 "gtkTextProps.ml" 29 979 993
+type(
+  ([> `textview ], int) Gobject.property
+)
+ident(
+  def indent "gtkTextProps.ml" 30 1044 1048 "gtkTextProps.ml" 39 1704 1709
+)
+"gtkTextProps.ml" 29 979 1024 "gtkTextProps.ml" 29 979 1043
+type(
+  ([> `textview ] as 'd, int) Gobject.property
+)
+type(
+  ('d, int) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.indent
+)
+"gtkTextProps.ml" 30 1044 1052 "gtkTextProps.ml" 30 1044 1065
+type(
+  ([> `textview ], GtkEnums.justification) Gobject.property
+)
+ident(
+  def justification "gtkTextProps.ml" 31 1123 1127 "gtkTextProps.ml" 39 1704 1709
+)
+"gtkTextProps.ml" 30 1044 1096 "gtkTextProps.ml" 30 1044 1122
+type(
+  ([> `textview ] as 'e, GtkEnums.justification) Gobject.property
+)
+type(
+  ('e, GtkEnums.justification) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.justification
+)
+"gtkTextProps.ml" 31 1123 1131 "gtkTextProps.ml" 31 1123 1142
+type(
+  ([> `textview ], int) Gobject.property
+)
+ident(
+  def left_margin "gtkTextProps.ml" 32 1198 1202 "gtkTextProps.ml" 39 1704 1709
+)
+"gtkTextProps.ml" 31 1123 1173 "gtkTextProps.ml" 31 1123 1197
+type(
+  ([> `textview ] as 'f, int) Gobject.property
+)
+type(
+  ('f, int) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.left_margin
+)
+"gtkTextProps.ml" 32 1198 1206 "gtkTextProps.ml" 32 1198 1224
+type(
+  ([> `textview ], int) Gobject.property
+)
+ident(
+  def pixels_above_lines "gtkTextProps.ml" 33 1287 1291 "gtkTextProps.ml" 39 1704 1709
+)
+"gtkTextProps.ml" 32 1198 1255 "gtkTextProps.ml" 32 1198 1286
+type(
+  ([> `textview ] as 'g, int) Gobject.property
+)
+type(
+  ('g, int) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.pixels_above_lines
+)
+"gtkTextProps.ml" 33 1287 1295 "gtkTextProps.ml" 33 1287 1313
+type(
+  ([> `textview ], int) Gobject.property
+)
+ident(
+  def pixels_below_lines "gtkTextProps.ml" 34 1376 1380 "gtkTextProps.ml" 39 1704 1709
+)
+"gtkTextProps.ml" 33 1287 1344 "gtkTextProps.ml" 33 1287 1375
+type(
+  ([> `textview ] as 'h, int) Gobject.property
+)
+type(
+  ('h, int) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.pixels_below_lines
+)
+"gtkTextProps.ml" 34 1376 1384 "gtkTextProps.ml" 34 1376 1402
+type(
+  ([> `textview ], int) Gobject.property
+)
+ident(
+  def pixels_inside_wrap "gtkTextProps.ml" 35 1465 1469 "gtkTextProps.ml" 39 1704 1709
+)
+"gtkTextProps.ml" 34 1376 1433 "gtkTextProps.ml" 34 1376 1464
+type(
+  ([> `textview ] as 'i, int) Gobject.property
+)
+type(
+  ('i, int) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.pixels_inside_wrap
+)
+"gtkTextProps.ml" 35 1465 1473 "gtkTextProps.ml" 35 1465 1485
+type(
+  ([> `textview ], int) Gobject.property
+)
+ident(
+  def right_margin "gtkTextProps.ml" 36 1542 1546 "gtkTextProps.ml" 39 1704 1709
+)
+"gtkTextProps.ml" 35 1465 1516 "gtkTextProps.ml" 35 1465 1541
+type(
+  ([> `textview ] as 'j, int) Gobject.property
+)
+type(
+  ('j, int) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.right_margin
+)
+"gtkTextProps.ml" 36 1542 1550 "gtkTextProps.ml" 36 1542 1559
+type(
+  ([> `textview ], GtkEnums.wrap_mode) Gobject.property
+)
+ident(
+  def wrap_mode "gtkTextProps.ml" 37 1613 1617 "gtkTextProps.ml" 39 1704 1709
+)
+"gtkTextProps.ml" 36 1542 1590 "gtkTextProps.ml" 36 1542 1612
+type(
+  ([> `textview ] as 'k, GtkEnums.wrap_mode) Gobject.property
+)
+type(
+  ('k, GtkEnums.wrap_mode) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.wrap_mode
+)
+"gtkTextProps.ml" 37 1613 1621 "gtkTextProps.ml" 37 1613 1632
+type(
+  ([> `textview ], bool) Gobject.property
+)
+ident(
+  def accepts_tab "gtkTextProps.ml" 38 1663 1703 "gtkTextProps.ml" 39 1704 1709
+)
+"gtkTextProps.ml" 38 1663 1675 "gtkTextProps.ml" 38 1663 1688
+type(
+  string
+)
+"gtkTextProps.ml" 38 1663 1695 "gtkTextProps.ml" 38 1663 1702
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 38 1663 1669 "gtkTextProps.ml" 38 1663 1703
+type(
+  ([> `textview ] as 'l, bool) Gobject.property
+)
+type(
+  ('l, bool) Gobject.property
+)
+"gtkTextProps.ml" 42 1749 1757 "gtkTextProps.ml" 42 1749 1771
+type(
+  ([> `textview ], unit -> unit) GtkSignal.t
+)
+ident(
+  def copy_clipboard "gtkTextProps.ml" 44 1847 1851 "gtkTextProps.ml" 79 3640 3645
+)
+"gtkTextProps.ml" 43 1774 1786 "gtkTextProps.ml" 43 1774 1802
+type(
+  string
+)
+"gtkTextProps.ml" 43 1774 1811 "gtkTextProps.ml" 43 1774 1820
+type(
+  [> `textview ] as 'm
+)
+"gtkTextProps.ml" 43 1774 1833 "gtkTextProps.ml" 43 1774 1845
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkTextProps.ml" 43 1774 1780 "gtkTextProps.ml" 43 1774 1846
+type(
+  ('m, unit -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 44 1847 1855 "gtkTextProps.ml" 44 1847 1868
+type(
+  ([> `textview ], unit -> unit) GtkSignal.t
+)
+ident(
+  def cut_clipboard "gtkTextProps.ml" 46 1943 1947 "gtkTextProps.ml" 79 3640 3645
+)
+"gtkTextProps.ml" 45 1871 1883 "gtkTextProps.ml" 45 1871 1898
+type(
+  string
+)
+"gtkTextProps.ml" 45 1871 1907 "gtkTextProps.ml" 45 1871 1916
+type(
+  [> `textview ] as 'n
+)
+"gtkTextProps.ml" 45 1871 1929 "gtkTextProps.ml" 45 1871 1941
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkTextProps.ml" 45 1871 1877 "gtkTextProps.ml" 45 1871 1942
+type(
+  ('n, unit -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 46 1943 1951 "gtkTextProps.ml" 46 1943 1969
+type(
+  ([> `textview ], GtkEnums.delete_type -> int -> unit) GtkSignal.t
+)
+ident(
+  def delete_from_cursor "gtkTextProps.ml" 50 2136 2140 "gtkTextProps.ml" 79 3640 3645
+)
+"gtkTextProps.ml" 47 1972 1984 "gtkTextProps.ml" 47 1972 2004
+type(
+  string
+)
+"gtkTextProps.ml" 47 1972 2013 "gtkTextProps.ml" 47 1972 2022
+type(
+  [> `textview ] as 'o
+)
+"gtkTextProps.ml" 47 1972 2039 "gtkTextProps.ml" 47 1972 2040
+type(
+  GtkEnums.delete_type -> int -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 48 2044 2051 "gtkTextProps.ml" 49 2090 2134
+)
+"gtkTextProps.ml" 48 2044 2051 "gtkTextProps.ml" 48 2044 2059
+type(
+  GtkEnums.delete_type Gobject.data_conv ->
+  int Gobject.data_conv ->
+  string -> (GtkEnums.delete_type -> int -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTextProps.ml" 48 2044 2060 "gtkTextProps.ml" 48 2044 2085
+type(
+  GtkEnums.delete_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.delete_type_conv
+)
+"gtkTextProps.ml" 48 2044 2086 "gtkTextProps.ml" 48 2044 2089
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTextProps.ml" 49 2090 2099 "gtkTextProps.ml" 49 2090 2132
+type(
+  string
+)
+"gtkTextProps.ml" 49 2090 2133 "gtkTextProps.ml" 49 2090 2134
+type(
+  GtkEnums.delete_type -> int -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 47 1972 2039 "gtkTextProps.ml" 47 1972 2040
+)
+"gtkTextProps.ml" 48 2044 2051 "gtkTextProps.ml" 49 2090 2134
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 47 1972 2035 "gtkTextProps.ml" 49 2090 2134
+type(
+  (GtkEnums.delete_type -> int -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 47 1972 1978 "gtkTextProps.ml" 49 2090 2135
+type(
+  ('o, GtkEnums.delete_type -> int -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 50 2136 2144 "gtkTextProps.ml" 50 2136 2160
+type(
+  ([> `textview ], string -> unit) GtkSignal.t
+)
+ident(
+  def insert_at_cursor "gtkTextProps.ml" 53 2291 2295 "gtkTextProps.ml" 79 3640 3645
+)
+"gtkTextProps.ml" 51 2163 2175 "gtkTextProps.ml" 51 2163 2193
+type(
+  string
+)
+"gtkTextProps.ml" 51 2163 2202 "gtkTextProps.ml" 51 2163 2211
+type(
+  [> `textview ] as 'p
+)
+"gtkTextProps.ml" 51 2163 2228 "gtkTextProps.ml" 51 2163 2229
+type(
+  string -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 52 2233 2240 "gtkTextProps.ml" 52 2233 2289
+)
+"gtkTextProps.ml" 52 2233 2240 "gtkTextProps.ml" 52 2233 2248
+type(
+  string Gobject.data_conv -> string -> (string -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkTextProps.ml" 52 2233 2249 "gtkTextProps.ml" 52 2233 2255
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTextProps.ml" 52 2233 2256 "gtkTextProps.ml" 52 2233 2287
+type(
+  string
+)
+"gtkTextProps.ml" 52 2233 2288 "gtkTextProps.ml" 52 2233 2289
+type(
+  string -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 51 2163 2228 "gtkTextProps.ml" 51 2163 2229
+)
+"gtkTextProps.ml" 52 2233 2240 "gtkTextProps.ml" 52 2233 2289
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 51 2163 2224 "gtkTextProps.ml" 52 2233 2289
+type(
+  (string -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 51 2163 2169 "gtkTextProps.ml" 52 2233 2290
+type(
+  ('p, string -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 53 2291 2299 "gtkTextProps.ml" 53 2291 2310
+type(
+  ([> `textview ], GtkEnums.movement_step -> int -> extend:bool -> unit)
+  GtkSignal.t
+)
+ident(
+  def move_cursor "gtkTextProps.ml" 57 2508 2512 "gtkTextProps.ml" 79 3640 3645
+)
+"gtkTextProps.ml" 54 2313 2325 "gtkTextProps.ml" 54 2313 2338
+type(
+  string
+)
+"gtkTextProps.ml" 54 2313 2347 "gtkTextProps.ml" 54 2313 2356
+type(
+  [> `textview ] as 'q
+)
+"gtkTextProps.ml" 54 2313 2373 "gtkTextProps.ml" 54 2313 2374
+type(
+  GtkEnums.movement_step -> int -> extend:bool -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 55 2378 2385 "gtkTextProps.ml" 56 2434 2506
+)
+"gtkTextProps.ml" 55 2378 2385 "gtkTextProps.ml" 55 2378 2393
+type(
+  GtkEnums.movement_step Gobject.data_conv ->
+  int Gobject.data_conv ->
+  bool Gobject.data_conv ->
+  string ->
+  (GtkEnums.movement_step -> int -> bool -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal3
+)
+"gtkTextProps.ml" 55 2378 2394 "gtkTextProps.ml" 55 2378 2421
+type(
+  GtkEnums.movement_step Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.movement_step_conv
+)
+"gtkTextProps.ml" 55 2378 2422 "gtkTextProps.ml" 55 2378 2425
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTextProps.ml" 55 2378 2426 "gtkTextProps.ml" 55 2378 2433
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 56 2434 2443 "gtkTextProps.ml" 56 2434 2469
+type(
+  string
+)
+"gtkTextProps.ml" 56 2434 2475 "gtkTextProps.ml" 56 2434 2477
+type(
+  GtkEnums.movement_step
+)
+ident(
+  def x1 "gtkTextProps.ml" 56 2434 2478 "gtkTextProps.ml" 56 2434 2505
+)
+"gtkTextProps.ml" 56 2434 2478 "gtkTextProps.ml" 56 2434 2480
+type(
+  int
+)
+ident(
+  def x2 "gtkTextProps.ml" 56 2434 2481 "gtkTextProps.ml" 56 2434 2505
+)
+"gtkTextProps.ml" 56 2434 2481 "gtkTextProps.ml" 56 2434 2483
+type(
+  bool
+)
+ident(
+  def x3 "gtkTextProps.ml" 56 2434 2487 "gtkTextProps.ml" 56 2434 2505
+)
+"gtkTextProps.ml" 56 2434 2487 "gtkTextProps.ml" 56 2434 2488
+type(
+  GtkEnums.movement_step -> int -> extend:bool -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 54 2313 2373 "gtkTextProps.ml" 54 2313 2374
+)
+"gtkTextProps.ml" 56 2434 2489 "gtkTextProps.ml" 56 2434 2491
+type(
+  GtkEnums.movement_step
+)
+ident(
+  int_ref x1 "gtkTextProps.ml" 56 2434 2475 "gtkTextProps.ml" 56 2434 2477
+)
+"gtkTextProps.ml" 56 2434 2492 "gtkTextProps.ml" 56 2434 2494
+type(
+  int
+)
+ident(
+  int_ref x2 "gtkTextProps.ml" 56 2434 2478 "gtkTextProps.ml" 56 2434 2480
+)
+"gtkTextProps.ml" 56 2434 2503 "gtkTextProps.ml" 56 2434 2505
+type(
+  bool
+)
+ident(
+  int_ref x3 "gtkTextProps.ml" 56 2434 2481 "gtkTextProps.ml" 56 2434 2483
+)
+"gtkTextProps.ml" 56 2434 2487 "gtkTextProps.ml" 56 2434 2505
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkTextProps.ml" 56 2434 2470 "gtkTextProps.ml" 56 2434 2506
+type(
+  GtkEnums.movement_step -> int -> bool -> unit
+)
+"gtkTextProps.ml" 55 2378 2385 "gtkTextProps.ml" 56 2434 2506
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 54 2313 2369 "gtkTextProps.ml" 56 2434 2506
+type(
+  (GtkEnums.movement_step -> int -> extend:bool -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 54 2313 2319 "gtkTextProps.ml" 56 2434 2507
+type(
+  ('q, GtkEnums.movement_step -> int -> extend:bool -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 57 2508 2516 "gtkTextProps.ml" 57 2508 2526
+type(
+  ([> `textview ], GtkEnums.direction_type -> unit) GtkSignal.t
+)
+ident(
+  def move_focus "gtkTextProps.ml" 60 2667 2671 "gtkTextProps.ml" 79 3640 3645
+)
+"gtkTextProps.ml" 58 2529 2541 "gtkTextProps.ml" 58 2529 2553
+type(
+  string
+)
+"gtkTextProps.ml" 58 2529 2562 "gtkTextProps.ml" 58 2529 2571
+type(
+  [> `textview ] as 'r
+)
+"gtkTextProps.ml" 58 2529 2588 "gtkTextProps.ml" 58 2529 2589
+type(
+  GtkEnums.direction_type -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 59 2593 2600 "gtkTextProps.ml" 59 2593 2665
+)
+"gtkTextProps.ml" 59 2593 2600 "gtkTextProps.ml" 59 2593 2608
+type(
+  GtkEnums.direction_type Gobject.data_conv ->
+  string -> (GtkEnums.direction_type -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkTextProps.ml" 59 2593 2609 "gtkTextProps.ml" 59 2593 2637
+type(
+  GtkEnums.direction_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.direction_type_conv
+)
+"gtkTextProps.ml" 59 2593 2638 "gtkTextProps.ml" 59 2593 2663
+type(
+  string
+)
+"gtkTextProps.ml" 59 2593 2664 "gtkTextProps.ml" 59 2593 2665
+type(
+  GtkEnums.direction_type -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 58 2529 2588 "gtkTextProps.ml" 58 2529 2589
+)
+"gtkTextProps.ml" 59 2593 2600 "gtkTextProps.ml" 59 2593 2665
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 58 2529 2584 "gtkTextProps.ml" 59 2593 2665
+type(
+  (GtkEnums.direction_type -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 58 2529 2535 "gtkTextProps.ml" 59 2593 2666
+type(
+  ('r, GtkEnums.direction_type -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 60 2667 2675 "gtkTextProps.ml" 60 2667 2692
+type(
+  ([> `textview ], int -> extend:bool -> unit) GtkSignal.t
+)
+ident(
+  def page_horizontally "gtkTextProps.ml" 64 2868 2872 "gtkTextProps.ml" 79 3640 3645
+)
+"gtkTextProps.ml" 61 2695 2707 "gtkTextProps.ml" 61 2695 2726
+type(
+  string
+)
+"gtkTextProps.ml" 61 2695 2735 "gtkTextProps.ml" 61 2695 2744
+type(
+  [> `textview ] as 's
+)
+"gtkTextProps.ml" 61 2695 2761 "gtkTextProps.ml" 61 2695 2762
+type(
+  int -> extend:bool -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 62 2766 2773 "gtkTextProps.ml" 63 2827 2866
+)
+"gtkTextProps.ml" 62 2766 2773 "gtkTextProps.ml" 62 2766 2781
+type(
+  int Gobject.data_conv ->
+  bool Gobject.data_conv ->
+  string -> (int -> bool -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTextProps.ml" 62 2766 2782 "gtkTextProps.ml" 62 2766 2785
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTextProps.ml" 62 2766 2786 "gtkTextProps.ml" 62 2766 2793
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 62 2766 2794 "gtkTextProps.ml" 62 2766 2826
+type(
+  string
+)
+"gtkTextProps.ml" 63 2827 2841 "gtkTextProps.ml" 63 2827 2843
+type(
+  int
+)
+ident(
+  def x1 "gtkTextProps.ml" 63 2827 2844 "gtkTextProps.ml" 63 2827 2865
+)
+"gtkTextProps.ml" 63 2827 2844 "gtkTextProps.ml" 63 2827 2846
+type(
+  bool
+)
+ident(
+  def x2 "gtkTextProps.ml" 63 2827 2850 "gtkTextProps.ml" 63 2827 2865
+)
+"gtkTextProps.ml" 63 2827 2850 "gtkTextProps.ml" 63 2827 2851
+type(
+  int -> extend:bool -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 61 2695 2761 "gtkTextProps.ml" 61 2695 2762
+)
+"gtkTextProps.ml" 63 2827 2852 "gtkTextProps.ml" 63 2827 2854
+type(
+  int
+)
+ident(
+  int_ref x1 "gtkTextProps.ml" 63 2827 2841 "gtkTextProps.ml" 63 2827 2843
+)
+"gtkTextProps.ml" 63 2827 2863 "gtkTextProps.ml" 63 2827 2865
+type(
+  bool
+)
+ident(
+  int_ref x2 "gtkTextProps.ml" 63 2827 2844 "gtkTextProps.ml" 63 2827 2846
+)
+"gtkTextProps.ml" 63 2827 2850 "gtkTextProps.ml" 63 2827 2865
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkTextProps.ml" 63 2827 2836 "gtkTextProps.ml" 63 2827 2866
+type(
+  int -> bool -> unit
+)
+"gtkTextProps.ml" 62 2766 2773 "gtkTextProps.ml" 63 2827 2866
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 61 2695 2757 "gtkTextProps.ml" 63 2827 2866
+type(
+  (int -> extend:bool -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 61 2695 2701 "gtkTextProps.ml" 63 2827 2867
+type(
+  ('s, int -> extend:bool -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 64 2868 2876 "gtkTextProps.ml" 64 2868 2891
+type(
+  ([> `textview ], unit -> unit) GtkSignal.t
+)
+ident(
+  def paste_clipboard "gtkTextProps.ml" 66 2968 2972 "gtkTextProps.ml" 79 3640 3645
+)
+"gtkTextProps.ml" 65 2894 2906 "gtkTextProps.ml" 65 2894 2923
+type(
+  string
+)
+"gtkTextProps.ml" 65 2894 2932 "gtkTextProps.ml" 65 2894 2941
+type(
+  [> `textview ] as 't
+)
+"gtkTextProps.ml" 65 2894 2954 "gtkTextProps.ml" 65 2894 2966
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkTextProps.ml" 65 2894 2900 "gtkTextProps.ml" 65 2894 2967
+type(
+  ('t, unit -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 66 2968 2976 "gtkTextProps.ml" 66 2968 2990
+type(
+  ([> `textview ], Gtk.menu Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  def populate_popup "gtkTextProps.ml" 70 3154 3158 "gtkTextProps.ml" 79 3640 3645
+)
+"gtkTextProps.ml" 67 2993 3005 "gtkTextProps.ml" 67 2993 3021
+type(
+  string
+)
+"gtkTextProps.ml" 67 2993 3030 "gtkTextProps.ml" 67 2993 3039
+type(
+  [> `textview ] as 'u
+)
+"gtkTextProps.ml" 67 2993 3056 "gtkTextProps.ml" 67 2993 3057
+type(
+  Gtk.menu Gtk.obj -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 68 3061 3068 "gtkTextProps.ml" 69 3112 3152
+)
+"gtkTextProps.ml" 68 3061 3068 "gtkTextProps.ml" 68 3061 3076
+type(
+  Gtk.menu Gtk.obj Gobject.data_conv ->
+  string -> (Gtk.menu Gtk.obj -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkTextProps.ml" 68 3061 3078 "gtkTextProps.ml" 68 3061 3085
+type(
+  Gtk.menu Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.menu Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTextProps.ml" 69 3112 3121 "gtkTextProps.ml" 69 3112 3150
+type(
+  string
+)
+"gtkTextProps.ml" 69 3112 3151 "gtkTextProps.ml" 69 3112 3152
+type(
+  Gtk.menu Gtk.obj -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 67 2993 3056 "gtkTextProps.ml" 67 2993 3057
+)
+"gtkTextProps.ml" 68 3061 3068 "gtkTextProps.ml" 69 3112 3152
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 67 2993 3052 "gtkTextProps.ml" 69 3112 3152
+type(
+  (Gtk.menu Gtk.obj -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 67 2993 2999 "gtkTextProps.ml" 69 3112 3153
+type(
+  ('u, Gtk.menu Gtk.obj -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 70 3154 3162 "gtkTextProps.ml" 70 3154 3172
+type(
+  ([> `textview ], unit -> unit) GtkSignal.t
+)
+ident(
+  def set_anchor "gtkTextProps.ml" 72 3244 3248 "gtkTextProps.ml" 79 3640 3645
+)
+"gtkTextProps.ml" 71 3175 3187 "gtkTextProps.ml" 71 3175 3199
+type(
+  string
+)
+"gtkTextProps.ml" 71 3175 3208 "gtkTextProps.ml" 71 3175 3217
+type(
+  [> `textview ] as 'v
+)
+"gtkTextProps.ml" 71 3175 3230 "gtkTextProps.ml" 71 3175 3242
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkTextProps.ml" 71 3175 3181 "gtkTextProps.ml" 71 3175 3243
+type(
+  ('v, unit -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 72 3244 3252 "gtkTextProps.ml" 72 3244 3274
+type(
+  ([> `textview ],
+   Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit)
+  GtkSignal.t
+)
+ident(
+  def set_scroll_adjustments "gtkTextProps.ml" 77 3538 3542 "gtkTextProps.ml" 79 3640 3645
+)
+"gtkTextProps.ml" 73 3277 3289 "gtkTextProps.ml" 73 3277 3313
+type(
+  string
+)
+"gtkTextProps.ml" 73 3277 3322 "gtkTextProps.ml" 73 3277 3331
+type(
+  [> `textview ] as 'w
+)
+"gtkTextProps.ml" 73 3277 3348 "gtkTextProps.ml" 73 3277 3349
+type(
+  Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 74 3353 3360 "gtkTextProps.ml" 76 3488 3536
+)
+"gtkTextProps.ml" 74 3353 3360 "gtkTextProps.ml" 74 3353 3368
+type(
+  Gtk.adjustment Gtk.obj option Gobject.data_conv ->
+  Gtk.adjustment Gtk.obj option Gobject.data_conv ->
+  string ->
+  (Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTextProps.ml" 74 3353 3370 "gtkTextProps.ml" 74 3353 3384
+type(
+  Gtk.adjustment Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.adjustment Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkTextProps.ml" 75 3424 3434 "gtkTextProps.ml" 75 3424 3448
+type(
+  Gtk.adjustment Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.adjustment Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkTextProps.ml" 76 3488 3497 "gtkTextProps.ml" 76 3488 3534
+type(
+  string
+)
+"gtkTextProps.ml" 76 3488 3535 "gtkTextProps.ml" 76 3488 3536
+type(
+  Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 73 3277 3348 "gtkTextProps.ml" 73 3277 3349
+)
+"gtkTextProps.ml" 74 3353 3360 "gtkTextProps.ml" 76 3488 3536
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 73 3277 3344 "gtkTextProps.ml" 76 3488 3536
+type(
+  (Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 73 3277 3283 "gtkTextProps.ml" 76 3488 3537
+type(
+  ('w,
+   Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit)
+  GtkSignal.t
+)
+"gtkTextProps.ml" 77 3538 3546 "gtkTextProps.ml" 77 3538 3562
+type(
+  ([> `textview ], unit -> unit) GtkSignal.t
+)
+ident(
+  def toggle_overwrite "gtkTextProps.ml" 78 3565 3639 "gtkTextProps.ml" 79 3640 3645
+)
+"gtkTextProps.ml" 78 3565 3577 "gtkTextProps.ml" 78 3565 3595
+type(
+  string
+)
+"gtkTextProps.ml" 78 3565 3604 "gtkTextProps.ml" 78 3565 3613
+type(
+  [> `textview ] as 'x
+)
+"gtkTextProps.ml" 78 3565 3626 "gtkTextProps.ml" 78 3565 3638
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkTextProps.ml" 78 3565 3571 "gtkTextProps.ml" 78 3565 3639
+type(
+  ('x, unit -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 80 3646 3652 "gtkTextProps.ml" 80 3646 3658
+type(
+  Gtk.text_view Gobject.param list -> Gtk.text_view Gtk.obj
+)
+ident(
+  def create "gtkTextProps.ml" 81 3713 3715 "gtkTextProps.ml" 90 4064 4067
+)
+"gtkTextProps.ml" 80 3646 3659 "gtkTextProps.ml" 80 3646 3661
+type(
+  Gtk.text_view Gobject.param list
+)
+ident(
+  def pl "gtkTextProps.ml" 80 3646 3662 "gtkTextProps.ml" 80 3646 3712
+)
+"gtkTextProps.ml" 80 3646 3684 "gtkTextProps.ml" 80 3646 3695
+type(
+  classe:string -> Gtk.text_view Gobject.param list -> Gtk.text_view Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkTextProps.ml" 80 3646 3696 "gtkTextProps.ml" 80 3646 3709
+type(
+  string
+)
+"gtkTextProps.ml" 80 3646 3710 "gtkTextProps.ml" 80 3646 3712
+type(
+  Gtk.text_view Gobject.param list
+)
+ident(
+  int_ref pl "gtkTextProps.ml" 80 3646 3659 "gtkTextProps.ml" 80 3646 3661
+)
+"gtkTextProps.ml" 80 3646 3684 "gtkTextProps.ml" 80 3646 3712
+call(
+  tail
+)
+type(
+  Gtk.text_view Gtk.obj
+)
+type(
+  Gtk.text_view Gtk.obj
+)
+"gtkTextProps.ml" 81 3713 3719 "gtkTextProps.ml" 81 3713 3730
+type(
+  cont:(([> `textview ] as 'y) Gobject.param list -> 'z) ->
+  'y Gobject.param list ->
+  ?editable:bool ->
+  ?cursor_visible:bool ->
+  ?justification:GtkEnums.justification ->
+  ?wrap_mode:GtkEnums.wrap_mode -> ?accepts_tab:bool -> 'z
+)
+ident(
+  def make_params "gtkTextProps.ml" 89 4052 4063 "gtkTextProps.ml" 90 4064 4067
+)
+"gtkTextProps.ml" 81 3713 3732 "gtkTextProps.ml" 81 3713 3736
+type(
+  'y Gobject.param list -> 'z
+)
+ident(
+  def cont "gtkTextProps.ml" 81 3713 3737 "gtkTextProps.ml" 89 4052 4063
+)
+"gtkTextProps.ml" 81 3713 3737 "gtkTextProps.ml" 81 3713 3739
+type(
+  'y Gobject.param list
+)
+ident(
+  def pl "gtkTextProps.ml" 81 3713 3740 "gtkTextProps.ml" 89 4052 4063
+)
+"gtkTextProps.ml" 81 3713 3741 "gtkTextProps.ml" 81 3713 3749
+type(
+  bool option
+)
+ident(
+  def editable "gtkTextProps.ml" 81 3713 3750 "gtkTextProps.ml" 89 4052 4063
+)
+"gtkTextProps.ml" 81 3713 3751 "gtkTextProps.ml" 81 3713 3765
+type(
+  bool option
+)
+ident(
+  def cursor_visible "gtkTextProps.ml" 81 3713 3766 "gtkTextProps.ml" 89 4052 4063
+)
+"gtkTextProps.ml" 81 3713 3767 "gtkTextProps.ml" 81 3713 3780
+type(
+  GtkEnums.justification option
+)
+ident(
+  def justification "gtkTextProps.ml" 82 3781 3787 "gtkTextProps.ml" 89 4052 4063
+)
+"gtkTextProps.ml" 82 3781 3788 "gtkTextProps.ml" 82 3781 3797
+type(
+  GtkEnums.wrap_mode option
+)
+ident(
+  def wrap_mode "gtkTextProps.ml" 82 3781 3798 "gtkTextProps.ml" 89 4052 4063
+)
+"gtkTextProps.ml" 82 3781 3799 "gtkTextProps.ml" 82 3781 3810
+type(
+  bool option
+)
+ident(
+  def accepts_tab "gtkTextProps.ml" 83 3813 3817 "gtkTextProps.ml" 89 4052 4063
+)
+"gtkTextProps.ml" 83 3813 3821 "gtkTextProps.ml" 83 3813 3823
+type(
+  'y Gobject.param list
+)
+"gtkTextProps.ml" 84 3828 3834 "gtkTextProps.ml" 84 3828 3842
+type(
+  ('y, bool) Gobject.property ->
+  bool option -> 'y Gobject.param list -> 'y Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTextProps.ml" 20 633 637 "gtkTextProps.ml" 20 633 645
+)
+"gtkTextProps.ml" 84 3828 3843 "gtkTextProps.ml" 84 3828 3853
+type(
+  ('y, bool) Gobject.property
+)
+ident(
+  ext_ref P.editable
+)
+"gtkTextProps.ml" 84 3828 3854 "gtkTextProps.ml" 84 3828 3862
+type(
+  bool option
+)
+ident(
+  int_ref editable "gtkTextProps.ml" 81 3713 3741 "gtkTextProps.ml" 81 3713 3749
+)
+"gtkTextProps.ml" 85 3865 3871 "gtkTextProps.ml" 85 3865 3879
+type(
+  ('y, bool) Gobject.property ->
+  bool option -> 'y Gobject.param list -> 'y Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTextProps.ml" 20 633 637 "gtkTextProps.ml" 20 633 645
+)
+"gtkTextProps.ml" 85 3865 3880 "gtkTextProps.ml" 85 3865 3896
+type(
+  ('y, bool) Gobject.property
+)
+ident(
+  ext_ref P.cursor_visible
+)
+"gtkTextProps.ml" 85 3865 3897 "gtkTextProps.ml" 85 3865 3911
+type(
+  bool option
+)
+ident(
+  int_ref cursor_visible "gtkTextProps.ml" 81 3713 3751 "gtkTextProps.ml" 81 3713 3765
+)
+"gtkTextProps.ml" 86 3914 3920 "gtkTextProps.ml" 86 3914 3928
+type(
+  ('y, GtkEnums.justification) Gobject.property ->
+  GtkEnums.justification option ->
+  'y Gobject.param list -> 'y Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTextProps.ml" 20 633 637 "gtkTextProps.ml" 20 633 645
+)
+"gtkTextProps.ml" 86 3914 3929 "gtkTextProps.ml" 86 3914 3944
+type(
+  ('y, GtkEnums.justification) Gobject.property
+)
+ident(
+  ext_ref P.justification
+)
+"gtkTextProps.ml" 86 3914 3945 "gtkTextProps.ml" 86 3914 3958
+type(
+  GtkEnums.justification option
+)
+ident(
+  int_ref justification "gtkTextProps.ml" 81 3713 3767 "gtkTextProps.ml" 81 3713 3780
+)
+"gtkTextProps.ml" 87 3961 3967 "gtkTextProps.ml" 87 3961 3975
+type(
+  ('y, GtkEnums.wrap_mode) Gobject.property ->
+  GtkEnums.wrap_mode option -> 'y Gobject.param list -> 'y Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTextProps.ml" 20 633 637 "gtkTextProps.ml" 20 633 645
+)
+"gtkTextProps.ml" 87 3961 3976 "gtkTextProps.ml" 87 3961 3987
+type(
+  ('y, GtkEnums.wrap_mode) Gobject.property
+)
+ident(
+  ext_ref P.wrap_mode
+)
+"gtkTextProps.ml" 87 3961 3988 "gtkTextProps.ml" 87 3961 3997
+type(
+  GtkEnums.wrap_mode option
+)
+ident(
+  int_ref wrap_mode "gtkTextProps.ml" 82 3781 3788 "gtkTextProps.ml" 82 3781 3797
+)
+"gtkTextProps.ml" 88 4000 4006 "gtkTextProps.ml" 88 4000 4014
+type(
+  ('y, bool) Gobject.property ->
+  bool option -> 'y Gobject.param list -> 'y Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTextProps.ml" 20 633 637 "gtkTextProps.ml" 20 633 645
+)
+"gtkTextProps.ml" 88 4000 4015 "gtkTextProps.ml" 88 4000 4028
+type(
+  ('y, bool) Gobject.property
+)
+ident(
+  ext_ref P.accepts_tab
+)
+"gtkTextProps.ml" 88 4000 4029 "gtkTextProps.ml" 88 4000 4040
+type(
+  bool option
+)
+ident(
+  int_ref accepts_tab "gtkTextProps.ml" 82 3781 3799 "gtkTextProps.ml" 82 3781 3810
+)
+"gtkTextProps.ml" 88 4000 4041 "gtkTextProps.ml" 88 4000 4043
+type(
+  'y Gobject.param list
+)
+ident(
+  int_ref pl "gtkTextProps.ml" 81 3713 3737 "gtkTextProps.ml" 81 3713 3739
+)
+"gtkTextProps.ml" 87 3961 3998 "gtkTextProps.ml" 88 4000 4044
+call(
+  stack
+)
+type(
+  'y Gobject.param list
+)
+"gtkTextProps.ml" 86 3914 3959 "gtkTextProps.ml" 88 4000 4045
+call(
+  stack
+)
+type(
+  'y Gobject.param list
+)
+"gtkTextProps.ml" 85 3865 3912 "gtkTextProps.ml" 88 4000 4046
+call(
+  stack
+)
+type(
+  'y Gobject.param list
+)
+"gtkTextProps.ml" 84 3828 3863 "gtkTextProps.ml" 88 4000 4047
+call(
+  stack
+)
+type(
+  'y Gobject.param list
+)
+"gtkTextProps.ml" 83 3813 3826 "gtkTextProps.ml" 88 4000 4048
+call(
+  stack
+)
+type(
+  'y Gobject.param list
+)
+"gtkTextProps.ml" 89 4052 4056 "gtkTextProps.ml" 89 4052 4060
+type(
+  'y Gobject.param list -> 'z
+)
+ident(
+  int_ref cont "gtkTextProps.ml" 81 3713 3732 "gtkTextProps.ml" 81 3713 3736
+)
+"gtkTextProps.ml" 89 4052 4061 "gtkTextProps.ml" 89 4052 4063
+type(
+  'y Gobject.param list
+)
+ident(
+  int_ref pl "gtkTextProps.ml" 83 3813 3821 "gtkTextProps.ml" 83 3813 3823
+)
+"gtkTextProps.ml" 89 4052 4056 "gtkTextProps.ml" 89 4052 4063
+call(
+  tail
+)
+type(
+  'z
+)
+"gtkTextProps.ml" 83 3813 3817 "gtkTextProps.ml" 89 4052 4063
+type(
+  'z
+)
+"gtkTextProps.ml" 93 4096 4102 "gtkTextProps.ml" 93 4096 4106
+type(
+  'a Gobject.obj -> Gtk.text_buffer
+)
+ident(
+  def cast "gtkTextProps.ml" 94 4152 4154 "gtkTextProps.ml" 155 6964 6967
+)
+"gtkTextProps.ml" 93 4096 4107 "gtkTextProps.ml" 93 4096 4108
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTextProps.ml" 93 4096 4109 "gtkTextProps.ml" 93 4096 4151
+)
+"gtkTextProps.ml" 93 4096 4125 "gtkTextProps.ml" 93 4096 4133
+type(
+  'a Gobject.obj -> string -> Gtk.text_buffer
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTextProps.ml" 93 4096 4134 "gtkTextProps.ml" 93 4096 4135
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTextProps.ml" 93 4096 4107 "gtkTextProps.ml" 93 4096 4108
+)
+"gtkTextProps.ml" 93 4096 4136 "gtkTextProps.ml" 93 4096 4151
+type(
+  string
+)
+"gtkTextProps.ml" 93 4096 4125 "gtkTextProps.ml" 93 4096 4151
+call(
+  tail
+)
+type(
+  Gtk.text_buffer
+)
+type(
+  Gtk.text_buffer
+)
+"gtkTextProps.ml" 95 4172 4180 "gtkTextProps.ml" 95 4172 4189
+type(
+  ([> `textbuffer ], Gtk.text_tag_table) Gobject.property
+)
+ident(
+  def tag_table "gtkTextProps.ml" 97 4290 4294 "gtkTextProps.ml" 101 4484 4489
+)
+"gtkTextProps.ml" 96 4222 4234 "gtkTextProps.ml" 96 4222 4245
+type(
+  string
+)
+"gtkTextProps.ml" 96 4222 4253 "gtkTextProps.ml" 96 4222 4260
+type(
+  Gtk.text_tag_table Gobject.data_conv
+)
+type(
+  Gtk.text_tag_table Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTextProps.ml" 96 4222 4228 "gtkTextProps.ml" 96 4222 4289
+type(
+  ([> `textbuffer ] as 'b, Gtk.text_tag_table) Gobject.property
+)
+type(
+  ('b, Gtk.text_tag_table) Gobject.property
+)
+"gtkTextProps.ml" 97 4290 4298 "gtkTextProps.ml" 97 4290 4313
+type(
+  ([> `textbuffer ], int) Gobject.property
+)
+ident(
+  def cursor_position "gtkTextProps.ml" 99 4387 4391 "gtkTextProps.ml" 101 4484 4489
+)
+"gtkTextProps.ml" 98 4346 4358 "gtkTextProps.ml" 98 4346 4375
+type(
+  string
+)
+"gtkTextProps.ml" 98 4346 4382 "gtkTextProps.ml" 98 4346 4385
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTextProps.ml" 98 4346 4352 "gtkTextProps.ml" 98 4346 4386
+type(
+  ([> `textbuffer ] as 'c, int) Gobject.property
+)
+type(
+  ('c, int) Gobject.property
+)
+"gtkTextProps.ml" 99 4387 4395 "gtkTextProps.ml" 99 4387 4408
+type(
+  ([> `textbuffer ], bool) Gobject.property
+)
+ident(
+  def has_selection "gtkTextProps.ml" 100 4441 4483 "gtkTextProps.ml" 101 4484 4489
+)
+"gtkTextProps.ml" 100 4441 4453 "gtkTextProps.ml" 100 4441 4468
+type(
+  string
+)
+"gtkTextProps.ml" 100 4441 4475 "gtkTextProps.ml" 100 4441 4482
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 100 4441 4447 "gtkTextProps.ml" 100 4441 4483
+type(
+  ([> `textbuffer ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkTextProps.ml" 104 4529 4537 "gtkTextProps.ml" 104 4529 4546
+type(
+  ([> `textbuffer ], Gtk.text_tag -> Gtk.text_iter -> Gtk.text_iter -> unit)
+  GtkSignal.t
+)
+ident(
+  def apply_tag "gtkTextProps.ml" 110 4804 4808 "gtkTextProps.ml" 151 6818 6823
+)
+"gtkTextProps.ml" 105 4549 4561 "gtkTextProps.ml" 105 4549 4572
+type(
+  string
+)
+"gtkTextProps.ml" 105 4549 4581 "gtkTextProps.ml" 105 4549 4592
+type(
+  [> `textbuffer ] as 'e
+)
+"gtkTextProps.ml" 105 4549 4609 "gtkTextProps.ml" 105 4549 4610
+type(
+  Gtk.text_tag -> Gtk.text_iter -> Gtk.text_iter -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 106 4614 4621 "gtkTextProps.ml" 109 4765 4802
+)
+"gtkTextProps.ml" 106 4614 4621 "gtkTextProps.ml" 106 4614 4629
+type(
+  Gtk.text_tag Gobject.data_conv ->
+  Gtk.text_iter Gobject.data_conv ->
+  Gtk.text_iter Gobject.data_conv ->
+  string ->
+  (Gtk.text_tag -> Gtk.text_iter -> Gtk.text_iter -> unit)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal3
+)
+"gtkTextProps.ml" 106 4614 4631 "gtkTextProps.ml" 106 4614 4638
+type(
+  Gtk.text_tag Gobject.data_conv
+)
+type(
+  Gtk.text_tag Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTextProps.ml" 107 4661 4671 "gtkTextProps.ml" 107 4661 4685
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTextProps.ml" 108 4713 4723 "gtkTextProps.ml" 108 4713 4737
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTextProps.ml" 109 4765 4774 "gtkTextProps.ml" 109 4765 4800
+type(
+  string
+)
+"gtkTextProps.ml" 109 4765 4801 "gtkTextProps.ml" 109 4765 4802
+type(
+  Gtk.text_tag -> Gtk.text_iter -> Gtk.text_iter -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 105 4549 4609 "gtkTextProps.ml" 105 4549 4610
+)
+"gtkTextProps.ml" 106 4614 4621 "gtkTextProps.ml" 109 4765 4802
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 105 4549 4605 "gtkTextProps.ml" 109 4765 4802
+type(
+  (Gtk.text_tag -> Gtk.text_iter -> Gtk.text_iter -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 105 4549 4555 "gtkTextProps.ml" 109 4765 4803
+type(
+  ('e, Gtk.text_tag -> Gtk.text_iter -> Gtk.text_iter -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 110 4804 4812 "gtkTextProps.ml" 110 4804 4829
+type(
+  ([> `textbuffer ], unit -> unit) GtkSignal.t
+)
+ident(
+  def begin_user_action "gtkTextProps.ml" 112 4910 4914 "gtkTextProps.ml" 151 6818 6823
+)
+"gtkTextProps.ml" 111 4832 4844 "gtkTextProps.ml" 111 4832 4863
+type(
+  string
+)
+"gtkTextProps.ml" 111 4832 4872 "gtkTextProps.ml" 111 4832 4883
+type(
+  [> `textbuffer ] as 'f
+)
+"gtkTextProps.ml" 111 4832 4896 "gtkTextProps.ml" 111 4832 4908
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkTextProps.ml" 111 4832 4838 "gtkTextProps.ml" 111 4832 4909
+type(
+  ('f, unit -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 112 4910 4918 "gtkTextProps.ml" 112 4910 4925
+type(
+  ([> `textbuffer ], unit -> unit) GtkSignal.t
+)
+ident(
+  def changed "gtkTextProps.ml" 114 4996 5000 "gtkTextProps.ml" 151 6818 6823
+)
+"gtkTextProps.ml" 113 4928 4940 "gtkTextProps.ml" 113 4928 4949
+type(
+  string
+)
+"gtkTextProps.ml" 113 4928 4958 "gtkTextProps.ml" 113 4928 4969
+type(
+  [> `textbuffer ] as 'g
+)
+"gtkTextProps.ml" 113 4928 4982 "gtkTextProps.ml" 113 4928 4994
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkTextProps.ml" 113 4928 4934 "gtkTextProps.ml" 113 4928 4995
+type(
+  ('g, unit -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 114 4996 5004 "gtkTextProps.ml" 114 4996 5016
+type(
+  ([> `textbuffer ], Gtk.text_iter -> Gtk.text_iter -> unit) GtkSignal.t
+)
+ident(
+  def delete_range "gtkTextProps.ml" 119 5240 5244 "gtkTextProps.ml" 151 6818 6823
+)
+"gtkTextProps.ml" 115 5019 5031 "gtkTextProps.ml" 115 5019 5045
+type(
+  string
+)
+"gtkTextProps.ml" 115 5019 5054 "gtkTextProps.ml" 115 5019 5065
+type(
+  [> `textbuffer ] as 'h
+)
+"gtkTextProps.ml" 115 5019 5082 "gtkTextProps.ml" 115 5019 5083
+type(
+  Gtk.text_iter -> Gtk.text_iter -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 116 5087 5094 "gtkTextProps.ml" 118 5198 5238
+)
+"gtkTextProps.ml" 116 5087 5094 "gtkTextProps.ml" 116 5087 5102
+type(
+  Gtk.text_iter Gobject.data_conv ->
+  Gtk.text_iter Gobject.data_conv ->
+  string -> (Gtk.text_iter -> Gtk.text_iter -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTextProps.ml" 116 5087 5104 "gtkTextProps.ml" 116 5087 5118
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTextProps.ml" 117 5146 5156 "gtkTextProps.ml" 117 5146 5170
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTextProps.ml" 118 5198 5207 "gtkTextProps.ml" 118 5198 5236
+type(
+  string
+)
+"gtkTextProps.ml" 118 5198 5237 "gtkTextProps.ml" 118 5198 5238
+type(
+  Gtk.text_iter -> Gtk.text_iter -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 115 5019 5082 "gtkTextProps.ml" 115 5019 5083
+)
+"gtkTextProps.ml" 116 5087 5094 "gtkTextProps.ml" 118 5198 5238
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 115 5019 5078 "gtkTextProps.ml" 118 5198 5238
+type(
+  (Gtk.text_iter -> Gtk.text_iter -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 115 5019 5025 "gtkTextProps.ml" 118 5198 5239
+type(
+  ('h, Gtk.text_iter -> Gtk.text_iter -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 119 5240 5248 "gtkTextProps.ml" 119 5240 5263
+type(
+  ([> `textbuffer ], unit -> unit) GtkSignal.t
+)
+ident(
+  def end_user_action "gtkTextProps.ml" 121 5342 5346 "gtkTextProps.ml" 151 6818 6823
+)
+"gtkTextProps.ml" 120 5266 5278 "gtkTextProps.ml" 120 5266 5295
+type(
+  string
+)
+"gtkTextProps.ml" 120 5266 5304 "gtkTextProps.ml" 120 5266 5315
+type(
+  [> `textbuffer ] as 'i
+)
+"gtkTextProps.ml" 120 5266 5328 "gtkTextProps.ml" 120 5266 5340
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkTextProps.ml" 120 5266 5272 "gtkTextProps.ml" 120 5266 5341
+type(
+  ('i, unit -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 121 5342 5350 "gtkTextProps.ml" 121 5342 5369
+type(
+  ([> `textbuffer ], Gtk.text_iter -> Gtk.text_child_anchor -> unit)
+  GtkSignal.t
+)
+ident(
+  def insert_child_anchor "gtkTextProps.ml" 126 5604 5608 "gtkTextProps.ml" 151 6818 6823
+)
+"gtkTextProps.ml" 122 5372 5384 "gtkTextProps.ml" 122 5372 5405
+type(
+  string
+)
+"gtkTextProps.ml" 122 5372 5414 "gtkTextProps.ml" 122 5372 5425
+type(
+  [> `textbuffer ] as 'j
+)
+"gtkTextProps.ml" 122 5372 5442 "gtkTextProps.ml" 122 5372 5443
+type(
+  Gtk.text_iter -> Gtk.text_child_anchor -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 123 5447 5454 "gtkTextProps.ml" 125 5555 5602
+)
+"gtkTextProps.ml" 123 5447 5454 "gtkTextProps.ml" 123 5447 5462
+type(
+  Gtk.text_iter Gobject.data_conv ->
+  Gtk.text_child_anchor Gobject.data_conv ->
+  string ->
+  (Gtk.text_iter -> Gtk.text_child_anchor -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTextProps.ml" 123 5447 5464 "gtkTextProps.ml" 123 5447 5478
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTextProps.ml" 124 5506 5516 "gtkTextProps.ml" 124 5506 5523
+type(
+  Gtk.text_child_anchor Gobject.data_conv
+)
+type(
+  Gtk.text_child_anchor Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTextProps.ml" 125 5555 5564 "gtkTextProps.ml" 125 5555 5600
+type(
+  string
+)
+"gtkTextProps.ml" 125 5555 5601 "gtkTextProps.ml" 125 5555 5602
+type(
+  Gtk.text_iter -> Gtk.text_child_anchor -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 122 5372 5442 "gtkTextProps.ml" 122 5372 5443
+)
+"gtkTextProps.ml" 123 5447 5454 "gtkTextProps.ml" 125 5555 5602
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 122 5372 5438 "gtkTextProps.ml" 125 5555 5602
+type(
+  (Gtk.text_iter -> Gtk.text_child_anchor -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 122 5372 5378 "gtkTextProps.ml" 125 5555 5603
+type(
+  ('j, Gtk.text_iter -> Gtk.text_child_anchor -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 126 5604 5612 "gtkTextProps.ml" 126 5604 5625
+type(
+  ([> `textbuffer ], Gtk.text_iter -> GdkPixbuf.pixbuf -> unit) GtkSignal.t
+)
+ident(
+  def insert_pixbuf "gtkTextProps.ml" 131 5847 5851 "gtkTextProps.ml" 151 6818 6823
+)
+"gtkTextProps.ml" 127 5628 5640 "gtkTextProps.ml" 127 5628 5655
+type(
+  string
+)
+"gtkTextProps.ml" 127 5628 5664 "gtkTextProps.ml" 127 5628 5675
+type(
+  [> `textbuffer ] as 'k
+)
+"gtkTextProps.ml" 127 5628 5692 "gtkTextProps.ml" 127 5628 5693
+type(
+  Gtk.text_iter -> GdkPixbuf.pixbuf -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 128 5697 5704 "gtkTextProps.ml" 130 5804 5845
+)
+"gtkTextProps.ml" 128 5697 5704 "gtkTextProps.ml" 128 5697 5712
+type(
+  Gtk.text_iter Gobject.data_conv ->
+  GdkPixbuf.pixbuf Gobject.data_conv ->
+  string -> (Gtk.text_iter -> GdkPixbuf.pixbuf -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTextProps.ml" 128 5697 5714 "gtkTextProps.ml" 128 5697 5728
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTextProps.ml" 129 5756 5766 "gtkTextProps.ml" 129 5756 5773
+type(
+  GdkPixbuf.pixbuf Gobject.data_conv
+)
+type(
+  GdkPixbuf.pixbuf Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTextProps.ml" 130 5804 5813 "gtkTextProps.ml" 130 5804 5843
+type(
+  string
+)
+"gtkTextProps.ml" 130 5804 5844 "gtkTextProps.ml" 130 5804 5845
+type(
+  Gtk.text_iter -> GdkPixbuf.pixbuf -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 127 5628 5692 "gtkTextProps.ml" 127 5628 5693
+)
+"gtkTextProps.ml" 128 5697 5704 "gtkTextProps.ml" 130 5804 5845
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 127 5628 5688 "gtkTextProps.ml" 130 5804 5845
+type(
+  (Gtk.text_iter -> GdkPixbuf.pixbuf -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 127 5628 5634 "gtkTextProps.ml" 130 5804 5846
+type(
+  ('k, Gtk.text_iter -> GdkPixbuf.pixbuf -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 131 5847 5855 "gtkTextProps.ml" 131 5847 5866
+type(
+  ([> `textbuffer ], Gtk.text_iter -> string -> unit) GtkSignal.t
+)
+ident(
+  def insert_text "gtkTextProps.ml" 135 6043 6047 "gtkTextProps.ml" 151 6818 6823
+)
+"gtkTextProps.ml" 132 5869 5881 "gtkTextProps.ml" 132 5869 5894
+type(
+  string
+)
+"gtkTextProps.ml" 132 5869 5903 "gtkTextProps.ml" 132 5869 5914
+type(
+  [> `textbuffer ] as 'l
+)
+"gtkTextProps.ml" 132 5869 5931 "gtkTextProps.ml" 132 5869 5932
+type(
+  Gtk.text_iter -> string -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 133 5936 5943 "gtkTextProps.ml" 134 6002 6041
+)
+"gtkTextProps.ml" 133 5936 5943 "gtkTextProps.ml" 133 5936 5951
+type(
+  Gtk.text_iter Gobject.data_conv ->
+  string Gobject.data_conv ->
+  string -> (Gtk.text_iter -> string -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTextProps.ml" 133 5936 5953 "gtkTextProps.ml" 133 5936 5967
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTextProps.ml" 133 5936 5995 "gtkTextProps.ml" 133 5936 6001
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTextProps.ml" 134 6002 6011 "gtkTextProps.ml" 134 6002 6039
+type(
+  string
+)
+"gtkTextProps.ml" 134 6002 6040 "gtkTextProps.ml" 134 6002 6041
+type(
+  Gtk.text_iter -> string -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 132 5869 5931 "gtkTextProps.ml" 132 5869 5932
+)
+"gtkTextProps.ml" 133 5936 5943 "gtkTextProps.ml" 134 6002 6041
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 132 5869 5927 "gtkTextProps.ml" 134 6002 6041
+type(
+  (Gtk.text_iter -> string -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 132 5869 5875 "gtkTextProps.ml" 134 6002 6042
+type(
+  ('l, Gtk.text_iter -> string -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 135 6043 6051 "gtkTextProps.ml" 135 6043 6063
+type(
+  ([> `textbuffer ], Gtk.text_mark -> unit) GtkSignal.t
+)
+ident(
+  def mark_deleted "gtkTextProps.ml" 139 6224 6228 "gtkTextProps.ml" 151 6818 6823
+)
+"gtkTextProps.ml" 136 6066 6078 "gtkTextProps.ml" 136 6066 6092
+type(
+  string
+)
+"gtkTextProps.ml" 136 6066 6101 "gtkTextProps.ml" 136 6066 6112
+type(
+  [> `textbuffer ] as 'm
+)
+"gtkTextProps.ml" 136 6066 6129 "gtkTextProps.ml" 136 6066 6130
+type(
+  Gtk.text_mark -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 137 6134 6141 "gtkTextProps.ml" 138 6182 6222
+)
+"gtkTextProps.ml" 137 6134 6141 "gtkTextProps.ml" 137 6134 6149
+type(
+  Gtk.text_mark Gobject.data_conv ->
+  string -> (Gtk.text_mark -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkTextProps.ml" 137 6134 6151 "gtkTextProps.ml" 137 6134 6158
+type(
+  Gtk.text_mark Gobject.data_conv
+)
+type(
+  Gtk.text_mark Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTextProps.ml" 138 6182 6191 "gtkTextProps.ml" 138 6182 6220
+type(
+  string
+)
+"gtkTextProps.ml" 138 6182 6221 "gtkTextProps.ml" 138 6182 6222
+type(
+  Gtk.text_mark -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 136 6066 6129 "gtkTextProps.ml" 136 6066 6130
+)
+"gtkTextProps.ml" 137 6134 6141 "gtkTextProps.ml" 138 6182 6222
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 136 6066 6125 "gtkTextProps.ml" 138 6182 6222
+type(
+  (Gtk.text_mark -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 136 6066 6072 "gtkTextProps.ml" 138 6182 6223
+type(
+  ('m, Gtk.text_mark -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 139 6224 6232 "gtkTextProps.ml" 139 6224 6240
+type(
+  ([> `textbuffer ], Gtk.text_iter -> Gtk.text_mark -> unit) GtkSignal.t
+)
+ident(
+  def mark_set "gtkTextProps.ml" 143 6436 6440 "gtkTextProps.ml" 151 6818 6823
+)
+"gtkTextProps.ml" 140 6243 6255 "gtkTextProps.ml" 140 6243 6265
+type(
+  string
+)
+"gtkTextProps.ml" 140 6243 6274 "gtkTextProps.ml" 140 6243 6285
+type(
+  [> `textbuffer ] as 'n
+)
+"gtkTextProps.ml" 140 6243 6302 "gtkTextProps.ml" 140 6243 6303
+type(
+  Gtk.text_iter -> Gtk.text_mark -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 141 6307 6314 "gtkTextProps.ml" 142 6366 6434
+)
+"gtkTextProps.ml" 141 6307 6314 "gtkTextProps.ml" 141 6307 6322
+type(
+  Gtk.text_iter Gobject.data_conv ->
+  Gtk.text_mark Gobject.data_conv ->
+  string -> (Gtk.text_iter -> Gtk.text_mark -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTextProps.ml" 141 6307 6324 "gtkTextProps.ml" 141 6307 6338
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTextProps.ml" 142 6366 6376 "gtkTextProps.ml" 142 6366 6383
+type(
+  Gtk.text_mark Gobject.data_conv
+)
+type(
+  Gtk.text_mark Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTextProps.ml" 142 6366 6407 "gtkTextProps.ml" 142 6366 6432
+type(
+  string
+)
+"gtkTextProps.ml" 142 6366 6433 "gtkTextProps.ml" 142 6366 6434
+type(
+  Gtk.text_iter -> Gtk.text_mark -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 140 6243 6302 "gtkTextProps.ml" 140 6243 6303
+)
+"gtkTextProps.ml" 141 6307 6314 "gtkTextProps.ml" 142 6366 6434
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 140 6243 6298 "gtkTextProps.ml" 142 6366 6434
+type(
+  (Gtk.text_iter -> Gtk.text_mark -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 140 6243 6249 "gtkTextProps.ml" 142 6366 6435
+type(
+  ('n, Gtk.text_iter -> Gtk.text_mark -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 143 6436 6444 "gtkTextProps.ml" 143 6436 6460
+type(
+  ([> `textbuffer ], unit -> unit) GtkSignal.t
+)
+ident(
+  def modified_changed "gtkTextProps.ml" 145 6540 6544 "gtkTextProps.ml" 151 6818 6823
+)
+"gtkTextProps.ml" 144 6463 6475 "gtkTextProps.ml" 144 6463 6493
+type(
+  string
+)
+"gtkTextProps.ml" 144 6463 6502 "gtkTextProps.ml" 144 6463 6513
+type(
+  [> `textbuffer ] as 'o
+)
+"gtkTextProps.ml" 144 6463 6526 "gtkTextProps.ml" 144 6463 6538
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkTextProps.ml" 144 6463 6469 "gtkTextProps.ml" 144 6463 6539
+type(
+  ('o, unit -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 145 6540 6548 "gtkTextProps.ml" 145 6540 6558
+type(
+  ([> `textbuffer ], Gtk.text_tag -> Gtk.text_iter -> Gtk.text_iter -> unit)
+  GtkSignal.t
+)
+ident(
+  def remove_tag "gtkTextProps.ml" 150 6778 6817 "gtkTextProps.ml" 151 6818 6823
+)
+"gtkTextProps.ml" 146 6561 6573 "gtkTextProps.ml" 146 6561 6585
+type(
+  string
+)
+"gtkTextProps.ml" 146 6561 6594 "gtkTextProps.ml" 146 6561 6605
+type(
+  [> `textbuffer ] as 'p
+)
+"gtkTextProps.ml" 146 6561 6622 "gtkTextProps.ml" 146 6561 6623
+type(
+  Gtk.text_tag -> Gtk.text_iter -> Gtk.text_iter -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 147 6627 6634 "gtkTextProps.ml" 150 6778 6816
+)
+"gtkTextProps.ml" 147 6627 6634 "gtkTextProps.ml" 147 6627 6642
+type(
+  Gtk.text_tag Gobject.data_conv ->
+  Gtk.text_iter Gobject.data_conv ->
+  Gtk.text_iter Gobject.data_conv ->
+  string ->
+  (Gtk.text_tag -> Gtk.text_iter -> Gtk.text_iter -> unit)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal3
+)
+"gtkTextProps.ml" 147 6627 6644 "gtkTextProps.ml" 147 6627 6651
+type(
+  Gtk.text_tag Gobject.data_conv
+)
+type(
+  Gtk.text_tag Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTextProps.ml" 148 6674 6684 "gtkTextProps.ml" 148 6674 6698
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTextProps.ml" 149 6726 6736 "gtkTextProps.ml" 149 6726 6750
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTextProps.ml" 150 6778 6787 "gtkTextProps.ml" 150 6778 6814
+type(
+  string
+)
+"gtkTextProps.ml" 150 6778 6815 "gtkTextProps.ml" 150 6778 6816
+type(
+  Gtk.text_tag -> Gtk.text_iter -> Gtk.text_iter -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 146 6561 6622 "gtkTextProps.ml" 146 6561 6623
+)
+"gtkTextProps.ml" 147 6627 6634 "gtkTextProps.ml" 150 6778 6816
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 146 6561 6618 "gtkTextProps.ml" 150 6778 6816
+type(
+  (Gtk.text_tag -> Gtk.text_iter -> Gtk.text_iter -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 146 6561 6567 "gtkTextProps.ml" 150 6778 6817
+type(
+  ('p, Gtk.text_tag -> Gtk.text_iter -> Gtk.text_iter -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 152 6824 6830 "gtkTextProps.ml" 152 6824 6836
+type(
+  ?tag_table:Gtk.text_tag_table ->
+  [ `textbuffer ] Gobject.param list -> Gtk.text_buffer
+)
+ident(
+  def create "gtkTextProps.ml" 154 6919 6963 "gtkTextProps.ml" 155 6964 6967
+)
+"gtkTextProps.ml" 152 6824 6838 "gtkTextProps.ml" 152 6824 6847
+type(
+  Gtk.text_tag_table option
+)
+ident(
+  def tag_table "gtkTextProps.ml" 152 6824 6848 "gtkTextProps.ml" 154 6919 6963
+)
+"gtkTextProps.ml" 152 6824 6848 "gtkTextProps.ml" 152 6824 6850
+type(
+  [ `textbuffer ] Gobject.param list
+)
+ident(
+  def pl "gtkTextProps.ml" 152 6824 6851 "gtkTextProps.ml" 154 6919 6963
+)
+"gtkTextProps.ml" 153 6867 6875 "gtkTextProps.ml" 153 6867 6877
+type(
+  [ `textbuffer ] Gobject.param list
+)
+"gtkTextProps.ml" 153 6867 6881 "gtkTextProps.ml" 153 6867 6889
+type(
+  ([ `textbuffer ], Gtk.text_tag_table) Gobject.property ->
+  Gtk.text_tag_table option ->
+  [ `textbuffer ] Gobject.param list -> [ `textbuffer ] Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTextProps.ml" 20 633 637 "gtkTextProps.ml" 20 633 645
+)
+"gtkTextProps.ml" 153 6867 6890 "gtkTextProps.ml" 153 6867 6901
+type(
+  ([ `textbuffer ], Gtk.text_tag_table) Gobject.property
+)
+ident(
+  ext_ref P.tag_table
+)
+"gtkTextProps.ml" 153 6867 6902 "gtkTextProps.ml" 153 6867 6911
+type(
+  Gtk.text_tag_table option
+)
+ident(
+  int_ref tag_table "gtkTextProps.ml" 152 6824 6838 "gtkTextProps.ml" 152 6824 6847
+)
+"gtkTextProps.ml" 153 6867 6912 "gtkTextProps.ml" 153 6867 6914
+type(
+  [ `textbuffer ] Gobject.param list
+)
+ident(
+  int_ref pl "gtkTextProps.ml" 152 6824 6848 "gtkTextProps.ml" 152 6824 6850
+)
+"gtkTextProps.ml" 153 6867 6880 "gtkTextProps.ml" 153 6867 6915
+call(
+  stack
+)
+type(
+  [ `textbuffer ] Gobject.param list
+)
+"gtkTextProps.ml" 154 6919 6923 "gtkTextProps.ml" 154 6919 6944
+type(
+  classe:string -> [ `textbuffer ] Gobject.param list -> Gtk.text_buffer
+)
+ident(
+  ext_ref Gobject.unsafe_create
+)
+"gtkTextProps.ml" 154 6919 6945 "gtkTextProps.ml" 154 6919 6960
+type(
+  string
+)
+"gtkTextProps.ml" 154 6919 6961 "gtkTextProps.ml" 154 6919 6963
+type(
+  [ `textbuffer ] Gobject.param list
+)
+ident(
+  int_ref pl "gtkTextProps.ml" 153 6867 6875 "gtkTextProps.ml" 153 6867 6877
+)
+"gtkTextProps.ml" 154 6919 6923 "gtkTextProps.ml" 154 6919 6963
+call(
+  tail
+)
+type(
+  Gtk.text_buffer
+)
+"gtkTextProps.ml" 153 6867 6871 "gtkTextProps.ml" 154 6919 6963
+type(
+  Gtk.text_buffer
+)
+type(
+  Gtk.text_buffer
+)
+"gtkTextProps.ml" 158 7001 7007 "gtkTextProps.ml" 158 7001 7011
+type(
+  'a Gobject.obj -> Gtk.text_child_anchor
+)
+ident(
+  def cast "gtkTextProps.ml" 159 7068 7070 "gtkTextProps.ml" 165 7371 7374
+)
+"gtkTextProps.ml" 158 7001 7012 "gtkTextProps.ml" 158 7001 7013
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTextProps.ml" 158 7001 7014 "gtkTextProps.ml" 158 7001 7067
+)
+"gtkTextProps.ml" 158 7001 7036 "gtkTextProps.ml" 158 7001 7044
+type(
+  'a Gobject.obj -> string -> Gtk.text_child_anchor
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTextProps.ml" 158 7001 7045 "gtkTextProps.ml" 158 7001 7046
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTextProps.ml" 158 7001 7012 "gtkTextProps.ml" 158 7001 7013
+)
+"gtkTextProps.ml" 158 7001 7047 "gtkTextProps.ml" 158 7001 7067
+type(
+  string
+)
+"gtkTextProps.ml" 158 7001 7036 "gtkTextProps.ml" 158 7001 7067
+call(
+  tail
+)
+type(
+  Gtk.text_child_anchor
+)
+type(
+  Gtk.text_child_anchor
+)
+"gtkTextProps.ml" 159 7068 7074 "gtkTextProps.ml" 159 7068 7080
+type(
+  [ `textchildanchor ] Gobject.param list -> Gtk.text_child_anchor
+)
+ident(
+  def create "gtkTextProps.ml" 161 7156 7158 "gtkTextProps.ml" 165 7371 7374
+)
+"gtkTextProps.ml" 159 7068 7081 "gtkTextProps.ml" 159 7068 7083
+type(
+  [ `textchildanchor ] Gobject.param list
+)
+ident(
+  def pl "gtkTextProps.ml" 159 7068 7084 "gtkTextProps.ml" 160 7106 7155
+)
+"gtkTextProps.ml" 160 7106 7110 "gtkTextProps.ml" 160 7106 7131
+type(
+  classe:string ->
+  [ `textchildanchor ] Gobject.param list -> Gtk.text_child_anchor
+)
+ident(
+  ext_ref Gobject.unsafe_create
+)
+"gtkTextProps.ml" 160 7106 7132 "gtkTextProps.ml" 160 7106 7152
+type(
+  string
+)
+"gtkTextProps.ml" 160 7106 7153 "gtkTextProps.ml" 160 7106 7155
+type(
+  [ `textchildanchor ] Gobject.param list
+)
+ident(
+  int_ref pl "gtkTextProps.ml" 159 7068 7081 "gtkTextProps.ml" 159 7068 7083
+)
+"gtkTextProps.ml" 160 7106 7110 "gtkTextProps.ml" 160 7106 7155
+call(
+  tail
+)
+type(
+  Gtk.text_child_anchor
+)
+type(
+  Gtk.text_child_anchor
+)
+"gtkTextProps.ml" 168 7401 7407 "gtkTextProps.ml" 168 7401 7411
+type(
+  'a Gobject.obj -> Gtk.text_mark
+)
+ident(
+  def cast "gtkTextProps.ml" 169 7453 7455 "gtkTextProps.ml" 182 8077 8080
+)
+"gtkTextProps.ml" 168 7401 7412 "gtkTextProps.ml" 168 7401 7413
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTextProps.ml" 168 7401 7414 "gtkTextProps.ml" 168 7401 7452
+)
+"gtkTextProps.ml" 168 7401 7428 "gtkTextProps.ml" 168 7401 7436
+type(
+  'a Gobject.obj -> string -> Gtk.text_mark
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTextProps.ml" 168 7401 7437 "gtkTextProps.ml" 168 7401 7438
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTextProps.ml" 168 7401 7412 "gtkTextProps.ml" 168 7401 7413
+)
+"gtkTextProps.ml" 168 7401 7439 "gtkTextProps.ml" 168 7401 7452
+type(
+  string
+)
+"gtkTextProps.ml" 168 7401 7428 "gtkTextProps.ml" 168 7401 7452
+call(
+  tail
+)
+type(
+  Gtk.text_mark
+)
+type(
+  Gtk.text_mark
+)
+"gtkTextProps.ml" 169 7453 7459 "gtkTextProps.ml" 169 7453 7465
+type(
+  [ `textmark ] Gobject.param list -> Gtk.text_mark
+)
+ident(
+  def create "gtkTextProps.ml" 170 7522 7524 "gtkTextProps.ml" 182 8077 8080
+)
+"gtkTextProps.ml" 169 7453 7466 "gtkTextProps.ml" 169 7453 7468
+type(
+  [ `textmark ] Gobject.param list
+)
+ident(
+  def pl "gtkTextProps.ml" 169 7453 7469 "gtkTextProps.ml" 169 7453 7521
+)
+"gtkTextProps.ml" 169 7453 7483 "gtkTextProps.ml" 169 7453 7504
+type(
+  classe:string -> [ `textmark ] Gobject.param list -> Gtk.text_mark
+)
+ident(
+  ext_ref Gobject.unsafe_create
+)
+"gtkTextProps.ml" 169 7453 7505 "gtkTextProps.ml" 169 7453 7518
+type(
+  string
+)
+"gtkTextProps.ml" 169 7453 7519 "gtkTextProps.ml" 169 7453 7521
+type(
+  [ `textmark ] Gobject.param list
+)
+ident(
+  int_ref pl "gtkTextProps.ml" 169 7453 7466 "gtkTextProps.ml" 169 7453 7468
+)
+"gtkTextProps.ml" 169 7453 7483 "gtkTextProps.ml" 169 7453 7521
+call(
+  tail
+)
+type(
+  Gtk.text_mark
+)
+type(
+  Gtk.text_mark
+)
+"gtkTextProps.ml" 185 8106 8112 "gtkTextProps.ml" 185 8106 8116
+type(
+  'a Gobject.obj -> Gtk.text_tag
+)
+ident(
+  def cast "gtkTextProps.ml" 186 8156 8158 "gtkTextProps.ml" 308 14487 14490
+)
+"gtkTextProps.ml" 185 8106 8117 "gtkTextProps.ml" 185 8106 8118
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTextProps.ml" 185 8106 8119 "gtkTextProps.ml" 185 8106 8155
+)
+"gtkTextProps.ml" 185 8106 8132 "gtkTextProps.ml" 185 8106 8140
+type(
+  'a Gobject.obj -> string -> Gtk.text_tag
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTextProps.ml" 185 8106 8141 "gtkTextProps.ml" 185 8106 8142
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTextProps.ml" 185 8106 8117 "gtkTextProps.ml" 185 8106 8118
+)
+"gtkTextProps.ml" 185 8106 8143 "gtkTextProps.ml" 185 8106 8155
+type(
+  string
+)
+"gtkTextProps.ml" 185 8106 8132 "gtkTextProps.ml" 185 8106 8155
+call(
+  tail
+)
+type(
+  Gtk.text_tag
+)
+type(
+  Gtk.text_tag
+)
+"gtkTextProps.ml" 187 8176 8184 "gtkTextProps.ml" 187 8176 8194
+type(
+  ([> `texttag ], string) Gobject.property
+)
+ident(
+  def background "gtkTextProps.ml" 189 8263 8267 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 188 8224 8236 "gtkTextProps.ml" 188 8224 8248
+type(
+  string
+)
+"gtkTextProps.ml" 188 8224 8255 "gtkTextProps.ml" 188 8224 8261
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTextProps.ml" 188 8224 8230 "gtkTextProps.ml" 188 8224 8262
+type(
+  ([> `texttag ] as 'b, string) Gobject.property
+)
+type(
+  ('b, string) Gobject.property
+)
+"gtkTextProps.ml" 189 8263 8271 "gtkTextProps.ml" 189 8263 8293
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def background_full_height "gtkTextProps.ml" 191 8375 8379 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 190 8323 8335 "gtkTextProps.ml" 190 8323 8359
+type(
+  string
+)
+"gtkTextProps.ml" 190 8323 8366 "gtkTextProps.ml" 190 8323 8373
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 190 8323 8329 "gtkTextProps.ml" 190 8323 8374
+type(
+  ([> `texttag ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkTextProps.ml" 191 8375 8383 "gtkTextProps.ml" 191 8375 8409
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def background_full_height_set "gtkTextProps.ml" 193 8495 8499 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 192 8439 8451 "gtkTextProps.ml" 192 8439 8479
+type(
+  string
+)
+"gtkTextProps.ml" 192 8439 8486 "gtkTextProps.ml" 192 8439 8493
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 192 8439 8445 "gtkTextProps.ml" 192 8439 8494
+type(
+  ([> `texttag ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkTextProps.ml" 193 8495 8503 "gtkTextProps.ml" 193 8495 8517
+type(
+  ([> `texttag ], Gdk.color) Gobject.property
+)
+ident(
+  def background_gdk "gtkTextProps.ml" 195 8622 8626 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 194 8547 8559 "gtkTextProps.ml" 194 8547 8575
+type(
+  string
+)
+"gtkTextProps.ml" 194 8547 8583 "gtkTextProps.ml" 194 8547 8597
+type(
+  Gdk.color Gobject.data_conv
+)
+type(
+  Gdk.color Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTextProps.ml" 194 8547 8553 "gtkTextProps.ml" 194 8547 8621
+type(
+  ([> `texttag ] as 'e, Gdk.color) Gobject.property
+)
+type(
+  ('e, Gdk.color) Gobject.property
+)
+"gtkTextProps.ml" 195 8622 8630 "gtkTextProps.ml" 195 8622 8644
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def background_set "gtkTextProps.ml" 197 8718 8722 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 196 8674 8686 "gtkTextProps.ml" 196 8674 8702
+type(
+  string
+)
+"gtkTextProps.ml" 196 8674 8709 "gtkTextProps.ml" 196 8674 8716
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 196 8674 8680 "gtkTextProps.ml" 196 8674 8717
+type(
+  ([> `texttag ] as 'f, bool) Gobject.property
+)
+type(
+  ('f, bool) Gobject.property
+)
+"gtkTextProps.ml" 197 8718 8726 "gtkTextProps.ml" 197 8718 8744
+type(
+  ([> `texttag ], Gdk.bitmap) Gobject.property
+)
+ident(
+  def background_stipple "gtkTextProps.ml" 199 8847 8851 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 198 8774 8786 "gtkTextProps.ml" 198 8774 8806
+type(
+  string
+)
+"gtkTextProps.ml" 198 8774 8814 "gtkTextProps.ml" 198 8774 8821
+type(
+  Gdk.bitmap Gobject.data_conv
+)
+type(
+  Gdk.bitmap Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTextProps.ml" 198 8774 8780 "gtkTextProps.ml" 198 8774 8846
+type(
+  ([> `texttag ] as 'g, Gdk.bitmap) Gobject.property
+)
+type(
+  ('g, Gdk.bitmap) Gobject.property
+)
+"gtkTextProps.ml" 199 8847 8855 "gtkTextProps.ml" 199 8847 8877
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def background_stipple_set "gtkTextProps.ml" 201 8959 8963 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 200 8907 8919 "gtkTextProps.ml" 200 8907 8943
+type(
+  string
+)
+"gtkTextProps.ml" 200 8907 8950 "gtkTextProps.ml" 200 8907 8957
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 200 8907 8913 "gtkTextProps.ml" 200 8907 8958
+type(
+  ([> `texttag ] as 'h, bool) Gobject.property
+)
+type(
+  ('h, bool) Gobject.property
+)
+"gtkTextProps.ml" 201 8959 8967 "gtkTextProps.ml" 201 8959 8976
+type(
+  ([> `texttag ], GtkEnums.text_direction) Gobject.property
+)
+ident(
+  def direction "gtkTextProps.ml" 203 9066 9070 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 202 9006 9018 "gtkTextProps.ml" 202 9006 9029
+type(
+  string
+)
+"gtkTextProps.ml" 202 9006 9036 "gtkTextProps.ml" 202 9006 9064
+type(
+  GtkEnums.text_direction Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.text_direction_conv
+)
+"gtkTextProps.ml" 202 9006 9012 "gtkTextProps.ml" 202 9006 9065
+type(
+  ([> `texttag ] as 'i, GtkEnums.text_direction) Gobject.property
+)
+type(
+  ('i, GtkEnums.text_direction) Gobject.property
+)
+"gtkTextProps.ml" 203 9066 9074 "gtkTextProps.ml" 203 9066 9082
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def editable "gtkTextProps.ml" 204 9134 9138 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 203 9066 9112 "gtkTextProps.ml" 203 9066 9133
+type(
+  ([> `texttag ] as 'j, bool) Gobject.property
+)
+type(
+  ('j, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.editable
+)
+"gtkTextProps.ml" 204 9134 9142 "gtkTextProps.ml" 204 9134 9154
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def editable_set "gtkTextProps.ml" 206 9226 9230 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 205 9184 9196 "gtkTextProps.ml" 205 9184 9210
+type(
+  string
+)
+"gtkTextProps.ml" 205 9184 9217 "gtkTextProps.ml" 205 9184 9224
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 205 9184 9190 "gtkTextProps.ml" 205 9184 9225
+type(
+  ([> `texttag ] as 'k, bool) Gobject.property
+)
+type(
+  ('k, bool) Gobject.property
+)
+"gtkTextProps.ml" 206 9226 9234 "gtkTextProps.ml" 206 9226 9240
+type(
+  ([> `texttag ], string) Gobject.property
+)
+ident(
+  def family "gtkTextProps.ml" 207 9299 9303 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 206 9226 9276 "gtkTextProps.ml" 206 9226 9284
+type(
+  string
+)
+"gtkTextProps.ml" 206 9226 9291 "gtkTextProps.ml" 206 9226 9297
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTextProps.ml" 206 9226 9270 "gtkTextProps.ml" 206 9226 9298
+type(
+  ([> `texttag ] as 'l, string) Gobject.property
+)
+type(
+  ('l, string) Gobject.property
+)
+"gtkTextProps.ml" 207 9299 9307 "gtkTextProps.ml" 207 9299 9317
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def family_set "gtkTextProps.ml" 209 9387 9391 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 208 9347 9359 "gtkTextProps.ml" 208 9347 9371
+type(
+  string
+)
+"gtkTextProps.ml" 208 9347 9378 "gtkTextProps.ml" 208 9347 9385
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 208 9347 9353 "gtkTextProps.ml" 208 9347 9386
+type(
+  ([> `texttag ] as 'm, bool) Gobject.property
+)
+type(
+  ('m, bool) Gobject.property
+)
+"gtkTextProps.ml" 209 9387 9395 "gtkTextProps.ml" 209 9387 9399
+type(
+  ([> `texttag ], string) Gobject.property
+)
+ident(
+  def font "gtkTextProps.ml" 210 9456 9460 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 209 9387 9435 "gtkTextProps.ml" 209 9387 9441
+type(
+  string
+)
+"gtkTextProps.ml" 209 9387 9448 "gtkTextProps.ml" 209 9387 9454
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTextProps.ml" 209 9387 9429 "gtkTextProps.ml" 209 9387 9455
+type(
+  ([> `texttag ] as 'n, string) Gobject.property
+)
+type(
+  ('n, string) Gobject.property
+)
+"gtkTextProps.ml" 210 9456 9464 "gtkTextProps.ml" 210 9456 9473
+type(
+  ([> `texttag ], Pango.font_description) Gobject.property
+)
+ident(
+  def font_desc "gtkTextProps.ml" 213 9593 9597 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 211 9503 9515 "gtkTextProps.ml" 211 9503 9526
+type(
+  string
+)
+"gtkTextProps.ml" 212 9528 9541 "gtkTextProps.ml" 212 9528 9555
+type(
+  Pango.font_description Gobject.data_conv
+)
+type(
+  Pango.font_description Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTextProps.ml" 211 9503 9509 "gtkTextProps.ml" 212 9528 9592
+type(
+  ([> `texttag ] as 'o, Pango.font_description) Gobject.property
+)
+type(
+  ('o, Pango.font_description) Gobject.property
+)
+"gtkTextProps.ml" 213 9593 9601 "gtkTextProps.ml" 213 9593 9611
+type(
+  ([> `texttag ], string) Gobject.property
+)
+ident(
+  def foreground "gtkTextProps.ml" 215 9680 9684 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 214 9641 9653 "gtkTextProps.ml" 214 9641 9665
+type(
+  string
+)
+"gtkTextProps.ml" 214 9641 9672 "gtkTextProps.ml" 214 9641 9678
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTextProps.ml" 214 9641 9647 "gtkTextProps.ml" 214 9641 9679
+type(
+  ([> `texttag ] as 'p, string) Gobject.property
+)
+type(
+  ('p, string) Gobject.property
+)
+"gtkTextProps.ml" 215 9680 9688 "gtkTextProps.ml" 215 9680 9702
+type(
+  ([> `texttag ], Gdk.color) Gobject.property
+)
+ident(
+  def foreground_gdk "gtkTextProps.ml" 217 9807 9811 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 216 9732 9744 "gtkTextProps.ml" 216 9732 9760
+type(
+  string
+)
+"gtkTextProps.ml" 216 9732 9768 "gtkTextProps.ml" 216 9732 9782
+type(
+  Gdk.color Gobject.data_conv
+)
+type(
+  Gdk.color Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTextProps.ml" 216 9732 9738 "gtkTextProps.ml" 216 9732 9806
+type(
+  ([> `texttag ] as 'q, Gdk.color) Gobject.property
+)
+type(
+  ('q, Gdk.color) Gobject.property
+)
+"gtkTextProps.ml" 217 9807 9815 "gtkTextProps.ml" 217 9807 9829
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def foreground_set "gtkTextProps.ml" 219 9903 9907 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 218 9859 9871 "gtkTextProps.ml" 218 9859 9887
+type(
+  string
+)
+"gtkTextProps.ml" 218 9859 9894 "gtkTextProps.ml" 218 9859 9901
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 218 9859 9865 "gtkTextProps.ml" 218 9859 9902
+type(
+  ([> `texttag ] as 'r, bool) Gobject.property
+)
+type(
+  ('r, bool) Gobject.property
+)
+"gtkTextProps.ml" 219 9903 9911 "gtkTextProps.ml" 219 9903 9929
+type(
+  ([> `texttag ], Gdk.bitmap) Gobject.property
+)
+ident(
+  def foreground_stipple "gtkTextProps.ml" 221 10032 10036 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 220 9959 9971 "gtkTextProps.ml" 220 9959 9991
+type(
+  string
+)
+"gtkTextProps.ml" 220 9959 9999 "gtkTextProps.ml" 220 9959 10006
+type(
+  Gdk.bitmap Gobject.data_conv
+)
+type(
+  Gdk.bitmap Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTextProps.ml" 220 9959 9965 "gtkTextProps.ml" 220 9959 10031
+type(
+  ([> `texttag ] as 's, Gdk.bitmap) Gobject.property
+)
+type(
+  ('s, Gdk.bitmap) Gobject.property
+)
+"gtkTextProps.ml" 221 10032 10040 "gtkTextProps.ml" 221 10032 10062
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def foreground_stipple_set "gtkTextProps.ml" 223 10144 10148 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 222 10092 10104 "gtkTextProps.ml" 222 10092 10128
+type(
+  string
+)
+"gtkTextProps.ml" 222 10092 10135 "gtkTextProps.ml" 222 10092 10142
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 222 10092 10098 "gtkTextProps.ml" 222 10092 10143
+type(
+  ([> `texttag ] as 't, bool) Gobject.property
+)
+type(
+  ('t, bool) Gobject.property
+)
+"gtkTextProps.ml" 223 10144 10152 "gtkTextProps.ml" 223 10144 10158
+type(
+  ([> `texttag ], int) Gobject.property
+)
+ident(
+  def indent "gtkTextProps.ml" 224 10208 10212 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 223 10144 10188 "gtkTextProps.ml" 223 10144 10207
+type(
+  ([> `texttag ] as 'u, int) Gobject.property
+)
+type(
+  ('u, int) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.indent
+)
+"gtkTextProps.ml" 224 10208 10216 "gtkTextProps.ml" 224 10208 10226
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def indent_set "gtkTextProps.ml" 226 10296 10300 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 225 10256 10268 "gtkTextProps.ml" 225 10256 10280
+type(
+  string
+)
+"gtkTextProps.ml" 225 10256 10287 "gtkTextProps.ml" 225 10256 10294
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 225 10256 10262 "gtkTextProps.ml" 225 10256 10295
+type(
+  ([> `texttag ] as 'v, bool) Gobject.property
+)
+type(
+  ('v, bool) Gobject.property
+)
+"gtkTextProps.ml" 226 10296 10304 "gtkTextProps.ml" 226 10296 10313
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def invisible "gtkTextProps.ml" 228 10382 10386 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 227 10343 10355 "gtkTextProps.ml" 227 10343 10366
+type(
+  string
+)
+"gtkTextProps.ml" 227 10343 10373 "gtkTextProps.ml" 227 10343 10380
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 227 10343 10349 "gtkTextProps.ml" 227 10343 10381
+type(
+  ([> `texttag ] as 'w, bool) Gobject.property
+)
+type(
+  ('w, bool) Gobject.property
+)
+"gtkTextProps.ml" 228 10382 10390 "gtkTextProps.ml" 228 10382 10403
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def invisible_set "gtkTextProps.ml" 230 10476 10480 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 229 10433 10445 "gtkTextProps.ml" 229 10433 10460
+type(
+  string
+)
+"gtkTextProps.ml" 229 10433 10467 "gtkTextProps.ml" 229 10433 10474
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 229 10433 10439 "gtkTextProps.ml" 229 10433 10475
+type(
+  ([> `texttag ] as 'x, bool) Gobject.property
+)
+type(
+  ('x, bool) Gobject.property
+)
+"gtkTextProps.ml" 230 10476 10484 "gtkTextProps.ml" 230 10476 10497
+type(
+  ([> `texttag ], GtkEnums.justification) Gobject.property
+)
+ident(
+  def justification "gtkTextProps.ml" 231 10554 10558 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 230 10476 10527 "gtkTextProps.ml" 230 10476 10553
+type(
+  ([> `texttag ] as 'y, GtkEnums.justification) Gobject.property
+)
+type(
+  ('y, GtkEnums.justification) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.justification
+)
+"gtkTextProps.ml" 231 10554 10562 "gtkTextProps.ml" 231 10554 10579
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def justification_set "gtkTextProps.ml" 233 10656 10660 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 232 10609 10621 "gtkTextProps.ml" 232 10609 10640
+type(
+  string
+)
+"gtkTextProps.ml" 232 10609 10647 "gtkTextProps.ml" 232 10609 10654
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 232 10609 10615 "gtkTextProps.ml" 232 10609 10655
+type(
+  ([> `texttag ] as 'z, bool) Gobject.property
+)
+type(
+  ('z, bool) Gobject.property
+)
+"gtkTextProps.ml" 233 10656 10664 "gtkTextProps.ml" 233 10656 10672
+type(
+  ([> `texttag ], string) Gobject.property
+)
+ident(
+  def language "gtkTextProps.ml" 234 10733 10737 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 233 10656 10708 "gtkTextProps.ml" 233 10656 10718
+type(
+  string
+)
+"gtkTextProps.ml" 233 10656 10725 "gtkTextProps.ml" 233 10656 10731
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTextProps.ml" 233 10656 10702 "gtkTextProps.ml" 233 10656 10732
+type(
+  ([> `texttag ] as 'a1, string) Gobject.property
+)
+type(
+  ('a1, string) Gobject.property
+)
+"gtkTextProps.ml" 234 10733 10741 "gtkTextProps.ml" 234 10733 10753
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def language_set "gtkTextProps.ml" 236 10825 10829 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 235 10783 10795 "gtkTextProps.ml" 235 10783 10809
+type(
+  string
+)
+"gtkTextProps.ml" 235 10783 10816 "gtkTextProps.ml" 235 10783 10823
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 235 10783 10789 "gtkTextProps.ml" 235 10783 10824
+type(
+  ([> `texttag ] as 'b1, bool) Gobject.property
+)
+type(
+  ('b1, bool) Gobject.property
+)
+"gtkTextProps.ml" 236 10825 10833 "gtkTextProps.ml" 236 10825 10844
+type(
+  ([> `texttag ], int) Gobject.property
+)
+ident(
+  def left_margin "gtkTextProps.ml" 237 10899 10903 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 236 10825 10874 "gtkTextProps.ml" 236 10825 10898
+type(
+  ([> `texttag ] as 'c1, int) Gobject.property
+)
+type(
+  ('c1, int) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.left_margin
+)
+"gtkTextProps.ml" 237 10899 10907 "gtkTextProps.ml" 237 10899 10922
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def left_margin_set "gtkTextProps.ml" 239 10997 11001 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 238 10952 10964 "gtkTextProps.ml" 238 10952 10981
+type(
+  string
+)
+"gtkTextProps.ml" 238 10952 10988 "gtkTextProps.ml" 238 10952 10995
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 238 10952 10958 "gtkTextProps.ml" 238 10952 10996
+type(
+  ([> `texttag ] as 'd1, bool) Gobject.property
+)
+type(
+  ('d1, bool) Gobject.property
+)
+"gtkTextProps.ml" 239 10997 11005 "gtkTextProps.ml" 239 10997 11009
+type(
+  ([> `texttag ], string) Gobject.property
+)
+ident(
+  def name "gtkTextProps.ml" 240 11066 11070 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 239 10997 11045 "gtkTextProps.ml" 239 10997 11051
+type(
+  string
+)
+"gtkTextProps.ml" 239 10997 11058 "gtkTextProps.ml" 239 10997 11064
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkTextProps.ml" 239 10997 11039 "gtkTextProps.ml" 239 10997 11065
+type(
+  ([> `texttag ] as 'e1, string) Gobject.property
+)
+type(
+  ('e1, string) Gobject.property
+)
+"gtkTextProps.ml" 240 11066 11074 "gtkTextProps.ml" 240 11066 11092
+type(
+  ([> `texttag ], int) Gobject.property
+)
+ident(
+  def pixels_above_lines "gtkTextProps.ml" 241 11154 11158 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 240 11066 11122 "gtkTextProps.ml" 240 11066 11153
+type(
+  ([> `texttag ] as 'f1, int) Gobject.property
+)
+type(
+  ('f1, int) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.pixels_above_lines
+)
+"gtkTextProps.ml" 241 11154 11162 "gtkTextProps.ml" 241 11154 11184
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def pixels_above_lines_set "gtkTextProps.ml" 243 11266 11270 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 242 11214 11226 "gtkTextProps.ml" 242 11214 11250
+type(
+  string
+)
+"gtkTextProps.ml" 242 11214 11257 "gtkTextProps.ml" 242 11214 11264
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 242 11214 11220 "gtkTextProps.ml" 242 11214 11265
+type(
+  ([> `texttag ] as 'g1, bool) Gobject.property
+)
+type(
+  ('g1, bool) Gobject.property
+)
+"gtkTextProps.ml" 243 11266 11274 "gtkTextProps.ml" 243 11266 11292
+type(
+  ([> `texttag ], int) Gobject.property
+)
+ident(
+  def pixels_below_lines "gtkTextProps.ml" 244 11354 11358 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 243 11266 11322 "gtkTextProps.ml" 243 11266 11353
+type(
+  ([> `texttag ] as 'h1, int) Gobject.property
+)
+type(
+  ('h1, int) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.pixels_below_lines
+)
+"gtkTextProps.ml" 244 11354 11362 "gtkTextProps.ml" 244 11354 11384
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def pixels_below_lines_set "gtkTextProps.ml" 246 11466 11470 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 245 11414 11426 "gtkTextProps.ml" 245 11414 11450
+type(
+  string
+)
+"gtkTextProps.ml" 245 11414 11457 "gtkTextProps.ml" 245 11414 11464
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 245 11414 11420 "gtkTextProps.ml" 245 11414 11465
+type(
+  ([> `texttag ] as 'i1, bool) Gobject.property
+)
+type(
+  ('i1, bool) Gobject.property
+)
+"gtkTextProps.ml" 246 11466 11474 "gtkTextProps.ml" 246 11466 11492
+type(
+  ([> `texttag ], int) Gobject.property
+)
+ident(
+  def pixels_inside_wrap "gtkTextProps.ml" 247 11554 11558 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 246 11466 11522 "gtkTextProps.ml" 246 11466 11553
+type(
+  ([> `texttag ] as 'j1, int) Gobject.property
+)
+type(
+  ('j1, int) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.pixels_inside_wrap
+)
+"gtkTextProps.ml" 247 11554 11562 "gtkTextProps.ml" 247 11554 11584
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def pixels_inside_wrap_set "gtkTextProps.ml" 249 11666 11670 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 248 11614 11626 "gtkTextProps.ml" 248 11614 11650
+type(
+  string
+)
+"gtkTextProps.ml" 248 11614 11657 "gtkTextProps.ml" 248 11614 11664
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 248 11614 11620 "gtkTextProps.ml" 248 11614 11665
+type(
+  ([> `texttag ] as 'k1, bool) Gobject.property
+)
+type(
+  ('k1, bool) Gobject.property
+)
+"gtkTextProps.ml" 249 11666 11674 "gtkTextProps.ml" 249 11666 11686
+type(
+  ([> `texttag ], int) Gobject.property
+)
+ident(
+  def right_margin "gtkTextProps.ml" 250 11742 11746 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 249 11666 11716 "gtkTextProps.ml" 249 11666 11741
+type(
+  ([> `texttag ] as 'l1, int) Gobject.property
+)
+type(
+  ('l1, int) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.right_margin
+)
+"gtkTextProps.ml" 250 11742 11750 "gtkTextProps.ml" 250 11742 11766
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def right_margin_set "gtkTextProps.ml" 252 11842 11846 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 251 11796 11808 "gtkTextProps.ml" 251 11796 11826
+type(
+  string
+)
+"gtkTextProps.ml" 251 11796 11833 "gtkTextProps.ml" 251 11796 11840
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 251 11796 11802 "gtkTextProps.ml" 251 11796 11841
+type(
+  ([> `texttag ] as 'm1, bool) Gobject.property
+)
+type(
+  ('m1, bool) Gobject.property
+)
+"gtkTextProps.ml" 252 11842 11850 "gtkTextProps.ml" 252 11842 11854
+type(
+  ([> `texttag ], int) Gobject.property
+)
+ident(
+  def rise "gtkTextProps.ml" 253 11908 11912 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 252 11842 11890 "gtkTextProps.ml" 252 11842 11896
+type(
+  string
+)
+"gtkTextProps.ml" 252 11842 11903 "gtkTextProps.ml" 252 11842 11906
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTextProps.ml" 252 11842 11884 "gtkTextProps.ml" 252 11842 11907
+type(
+  ([> `texttag ] as 'n1, int) Gobject.property
+)
+type(
+  ('n1, int) Gobject.property
+)
+"gtkTextProps.ml" 253 11908 11916 "gtkTextProps.ml" 253 11908 11924
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def rise_set "gtkTextProps.ml" 254 11986 11990 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 253 11908 11960 "gtkTextProps.ml" 253 11908 11970
+type(
+  string
+)
+"gtkTextProps.ml" 253 11908 11977 "gtkTextProps.ml" 253 11908 11984
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 253 11908 11954 "gtkTextProps.ml" 253 11908 11985
+type(
+  ([> `texttag ] as 'o1, bool) Gobject.property
+)
+type(
+  ('o1, bool) Gobject.property
+)
+"gtkTextProps.ml" 254 11986 11994 "gtkTextProps.ml" 254 11986 11999
+type(
+  ([> `texttag ], float) Gobject.property
+)
+ident(
+  def scale "gtkTextProps.ml" 255 12057 12061 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 254 11986 12035 "gtkTextProps.ml" 254 11986 12042
+type(
+  string
+)
+"gtkTextProps.ml" 254 11986 12049 "gtkTextProps.ml" 254 11986 12055
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gtkTextProps.ml" 254 11986 12029 "gtkTextProps.ml" 254 11986 12056
+type(
+  ([> `texttag ] as 'p1, float) Gobject.property
+)
+type(
+  ('p1, float) Gobject.property
+)
+"gtkTextProps.ml" 255 12057 12065 "gtkTextProps.ml" 255 12057 12074
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def scale_set "gtkTextProps.ml" 257 12143 12147 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 256 12104 12116 "gtkTextProps.ml" 256 12104 12127
+type(
+  string
+)
+"gtkTextProps.ml" 256 12104 12134 "gtkTextProps.ml" 256 12104 12141
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 256 12104 12110 "gtkTextProps.ml" 256 12104 12142
+type(
+  ([> `texttag ] as 'q1, bool) Gobject.property
+)
+type(
+  ('q1, bool) Gobject.property
+)
+"gtkTextProps.ml" 257 12143 12151 "gtkTextProps.ml" 257 12143 12155
+type(
+  ([> `texttag ], int) Gobject.property
+)
+ident(
+  def size "gtkTextProps.ml" 258 12209 12213 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 257 12143 12191 "gtkTextProps.ml" 257 12143 12197
+type(
+  string
+)
+"gtkTextProps.ml" 257 12143 12204 "gtkTextProps.ml" 257 12143 12207
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTextProps.ml" 257 12143 12185 "gtkTextProps.ml" 257 12143 12208
+type(
+  ([> `texttag ] as 'r1, int) Gobject.property
+)
+type(
+  ('r1, int) Gobject.property
+)
+"gtkTextProps.ml" 258 12209 12217 "gtkTextProps.ml" 258 12209 12228
+type(
+  ([> `texttag ], float) Gobject.property
+)
+ident(
+  def size_points "gtkTextProps.ml" 260 12298 12302 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 259 12258 12270 "gtkTextProps.ml" 259 12258 12283
+type(
+  string
+)
+"gtkTextProps.ml" 259 12258 12290 "gtkTextProps.ml" 259 12258 12296
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gtkTextProps.ml" 259 12258 12264 "gtkTextProps.ml" 259 12258 12297
+type(
+  ([> `texttag ] as 's1, float) Gobject.property
+)
+type(
+  ('s1, float) Gobject.property
+)
+"gtkTextProps.ml" 260 12298 12306 "gtkTextProps.ml" 260 12298 12314
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def size_set "gtkTextProps.ml" 261 12376 12380 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 260 12298 12350 "gtkTextProps.ml" 260 12298 12360
+type(
+  string
+)
+"gtkTextProps.ml" 260 12298 12367 "gtkTextProps.ml" 260 12298 12374
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 260 12298 12344 "gtkTextProps.ml" 260 12298 12375
+type(
+  ([> `texttag ] as 't1, bool) Gobject.property
+)
+type(
+  ('t1, bool) Gobject.property
+)
+"gtkTextProps.ml" 261 12376 12384 "gtkTextProps.ml" 261 12376 12391
+type(
+  ([> `texttag ], PangoEnums.stretch) Gobject.property
+)
+ident(
+  def stretch "gtkTextProps.ml" 263 12474 12478 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 262 12421 12433 "gtkTextProps.ml" 262 12421 12442
+type(
+  string
+)
+"gtkTextProps.ml" 262 12421 12449 "gtkTextProps.ml" 262 12421 12472
+type(
+  PangoEnums.stretch Gobject.data_conv
+)
+ident(
+  ext_ref PangoEnums.stretch_conv
+)
+"gtkTextProps.ml" 262 12421 12427 "gtkTextProps.ml" 262 12421 12473
+type(
+  ([> `texttag ] as 'u1, PangoEnums.stretch) Gobject.property
+)
+type(
+  ('u1, PangoEnums.stretch) Gobject.property
+)
+"gtkTextProps.ml" 263 12474 12482 "gtkTextProps.ml" 263 12474 12493
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def stretch_set "gtkTextProps.ml" 265 12564 12568 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 264 12523 12535 "gtkTextProps.ml" 264 12523 12548
+type(
+  string
+)
+"gtkTextProps.ml" 264 12523 12555 "gtkTextProps.ml" 264 12523 12562
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 264 12523 12529 "gtkTextProps.ml" 264 12523 12563
+type(
+  ([> `texttag ] as 'v1, bool) Gobject.property
+)
+type(
+  ('v1, bool) Gobject.property
+)
+"gtkTextProps.ml" 265 12564 12572 "gtkTextProps.ml" 265 12564 12585
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def strikethrough "gtkTextProps.ml" 267 12658 12662 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 266 12615 12627 "gtkTextProps.ml" 266 12615 12642
+type(
+  string
+)
+"gtkTextProps.ml" 266 12615 12649 "gtkTextProps.ml" 266 12615 12656
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 266 12615 12621 "gtkTextProps.ml" 266 12615 12657
+type(
+  ([> `texttag ] as 'w1, bool) Gobject.property
+)
+type(
+  ('w1, bool) Gobject.property
+)
+"gtkTextProps.ml" 267 12658 12666 "gtkTextProps.ml" 267 12658 12683
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def strikethrough_set "gtkTextProps.ml" 269 12760 12764 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 268 12713 12725 "gtkTextProps.ml" 268 12713 12744
+type(
+  string
+)
+"gtkTextProps.ml" 268 12713 12751 "gtkTextProps.ml" 268 12713 12758
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 268 12713 12719 "gtkTextProps.ml" 268 12713 12759
+type(
+  ([> `texttag ] as 'x1, bool) Gobject.property
+)
+type(
+  ('x1, bool) Gobject.property
+)
+"gtkTextProps.ml" 269 12760 12768 "gtkTextProps.ml" 269 12760 12773
+type(
+  ([> `texttag ], PangoEnums.style) Gobject.property
+)
+ident(
+  def style "gtkTextProps.ml" 271 12852 12856 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 270 12803 12815 "gtkTextProps.ml" 270 12803 12822
+type(
+  string
+)
+"gtkTextProps.ml" 270 12803 12829 "gtkTextProps.ml" 270 12803 12850
+type(
+  PangoEnums.style Gobject.data_conv
+)
+ident(
+  ext_ref PangoEnums.style_conv
+)
+"gtkTextProps.ml" 270 12803 12809 "gtkTextProps.ml" 270 12803 12851
+type(
+  ([> `texttag ] as 'y1, PangoEnums.style) Gobject.property
+)
+type(
+  ('y1, PangoEnums.style) Gobject.property
+)
+"gtkTextProps.ml" 271 12852 12860 "gtkTextProps.ml" 271 12852 12869
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def style_set "gtkTextProps.ml" 273 12938 12942 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 272 12899 12911 "gtkTextProps.ml" 272 12899 12922
+type(
+  string
+)
+"gtkTextProps.ml" 272 12899 12929 "gtkTextProps.ml" 272 12899 12936
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 272 12899 12905 "gtkTextProps.ml" 272 12899 12937
+type(
+  ([> `texttag ] as 'z1, bool) Gobject.property
+)
+type(
+  ('z1, bool) Gobject.property
+)
+"gtkTextProps.ml" 273 12938 12946 "gtkTextProps.ml" 273 12938 12954
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def tabs_set "gtkTextProps.ml" 274 13016 13020 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 273 12938 12990 "gtkTextProps.ml" 273 12938 13000
+type(
+  string
+)
+"gtkTextProps.ml" 273 12938 13007 "gtkTextProps.ml" 273 12938 13014
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 273 12938 12984 "gtkTextProps.ml" 273 12938 13015
+type(
+  ([> `texttag ] as 'a2, bool) Gobject.property
+)
+type(
+  ('a2, bool) Gobject.property
+)
+"gtkTextProps.ml" 274 13016 13024 "gtkTextProps.ml" 274 13016 13033
+type(
+  ([> `texttag ], PangoEnums.underline) Gobject.property
+)
+ident(
+  def underline "gtkTextProps.ml" 276 13120 13124 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 275 13063 13075 "gtkTextProps.ml" 275 13063 13086
+type(
+  string
+)
+"gtkTextProps.ml" 275 13063 13093 "gtkTextProps.ml" 275 13063 13118
+type(
+  PangoEnums.underline Gobject.data_conv
+)
+ident(
+  ext_ref PangoEnums.underline_conv
+)
+"gtkTextProps.ml" 275 13063 13069 "gtkTextProps.ml" 275 13063 13119
+type(
+  ([> `texttag ] as 'b2, PangoEnums.underline) Gobject.property
+)
+type(
+  ('b2, PangoEnums.underline) Gobject.property
+)
+"gtkTextProps.ml" 276 13120 13128 "gtkTextProps.ml" 276 13120 13141
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def underline_set "gtkTextProps.ml" 278 13214 13218 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 277 13171 13183 "gtkTextProps.ml" 277 13171 13198
+type(
+  string
+)
+"gtkTextProps.ml" 277 13171 13205 "gtkTextProps.ml" 277 13171 13212
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 277 13171 13177 "gtkTextProps.ml" 277 13171 13213
+type(
+  ([> `texttag ] as 'c2, bool) Gobject.property
+)
+type(
+  ('c2, bool) Gobject.property
+)
+"gtkTextProps.ml" 278 13214 13222 "gtkTextProps.ml" 278 13214 13229
+type(
+  ([> `texttag ], PangoEnums.variant) Gobject.property
+)
+ident(
+  def variant "gtkTextProps.ml" 280 13312 13316 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 279 13259 13271 "gtkTextProps.ml" 279 13259 13280
+type(
+  string
+)
+"gtkTextProps.ml" 279 13259 13287 "gtkTextProps.ml" 279 13259 13310
+type(
+  PangoEnums.variant Gobject.data_conv
+)
+ident(
+  ext_ref PangoEnums.variant_conv
+)
+"gtkTextProps.ml" 279 13259 13265 "gtkTextProps.ml" 279 13259 13311
+type(
+  ([> `texttag ] as 'd2, PangoEnums.variant) Gobject.property
+)
+type(
+  ('d2, PangoEnums.variant) Gobject.property
+)
+"gtkTextProps.ml" 280 13312 13320 "gtkTextProps.ml" 280 13312 13331
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def variant_set "gtkTextProps.ml" 282 13402 13406 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 281 13361 13373 "gtkTextProps.ml" 281 13361 13386
+type(
+  string
+)
+"gtkTextProps.ml" 281 13361 13393 "gtkTextProps.ml" 281 13361 13400
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 281 13361 13367 "gtkTextProps.ml" 281 13361 13401
+type(
+  ([> `texttag ] as 'e2, bool) Gobject.property
+)
+type(
+  ('e2, bool) Gobject.property
+)
+"gtkTextProps.ml" 282 13402 13410 "gtkTextProps.ml" 282 13402 13416
+type(
+  ([> `texttag ], int) Gobject.property
+)
+ident(
+  def weight "gtkTextProps.ml" 283 13472 13476 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 282 13402 13452 "gtkTextProps.ml" 282 13402 13460
+type(
+  string
+)
+"gtkTextProps.ml" 282 13402 13467 "gtkTextProps.ml" 282 13402 13470
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkTextProps.ml" 282 13402 13446 "gtkTextProps.ml" 282 13402 13471
+type(
+  ([> `texttag ] as 'f2, int) Gobject.property
+)
+type(
+  ('f2, int) Gobject.property
+)
+"gtkTextProps.ml" 283 13472 13480 "gtkTextProps.ml" 283 13472 13490
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def weight_set "gtkTextProps.ml" 285 13560 13564 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 284 13520 13532 "gtkTextProps.ml" 284 13520 13544
+type(
+  string
+)
+"gtkTextProps.ml" 284 13520 13551 "gtkTextProps.ml" 284 13520 13558
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 284 13520 13526 "gtkTextProps.ml" 284 13520 13559
+type(
+  ([> `texttag ] as 'g2, bool) Gobject.property
+)
+type(
+  ('g2, bool) Gobject.property
+)
+"gtkTextProps.ml" 285 13560 13568 "gtkTextProps.ml" 285 13560 13577
+type(
+  ([> `texttag ], GtkEnums.wrap_mode) Gobject.property
+)
+ident(
+  def wrap_mode "gtkTextProps.ml" 286 13630 13634 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 285 13560 13607 "gtkTextProps.ml" 285 13560 13629
+type(
+  ([> `texttag ] as 'h2, GtkEnums.wrap_mode) Gobject.property
+)
+type(
+  ('h2, GtkEnums.wrap_mode) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.wrap_mode
+)
+"gtkTextProps.ml" 286 13630 13638 "gtkTextProps.ml" 286 13630 13651
+type(
+  ([> `texttag ], bool) Gobject.property
+)
+ident(
+  def wrap_mode_set "gtkTextProps.ml" 287 13681 13723 "gtkTextProps.ml" 288 13724 13729
+)
+"gtkTextProps.ml" 287 13681 13693 "gtkTextProps.ml" 287 13681 13708
+type(
+  string
+)
+"gtkTextProps.ml" 287 13681 13715 "gtkTextProps.ml" 287 13681 13722
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 287 13681 13687 "gtkTextProps.ml" 287 13681 13723
+type(
+  ([> `texttag ] as 'i2, bool) Gobject.property
+)
+type(
+  ('i2, bool) Gobject.property
+)
+"gtkTextProps.ml" 291 13769 13777 "gtkTextProps.ml" 291 13769 13782
+type(
+  ([> `texttag ],
+   origin:unit Gtk.obj -> GdkEvent.any -> Gtk.text_iter -> bool)
+  GtkSignal.t
+)
+ident(
+  def event "gtkTextProps.ml" 296 14030 14064 "gtkTextProps.ml" 297 14065 14070
+)
+"gtkTextProps.ml" 292 13785 13797 "gtkTextProps.ml" 292 13785 13804
+type(
+  string
+)
+"gtkTextProps.ml" 292 13785 13813 "gtkTextProps.ml" 292 13785 13821
+type(
+  [> `texttag ] as 'j2
+)
+"gtkTextProps.ml" 292 13785 13838 "gtkTextProps.ml" 292 13785 13839
+type(
+  origin:unit Gtk.obj -> GdkEvent.any -> Gtk.text_iter -> bool
+)
+ident(
+  def f "gtkTextProps.ml" 293 13843 13850 "gtkTextProps.ml" 296 14030 14063
+)
+"gtkTextProps.ml" 293 13843 13850 "gtkTextProps.ml" 293 13843 13862
+type(
+  ret:bool Gobject.data_conv ->
+  unit Gtk.obj Gobject.data_conv ->
+  GdkEvent.any Gobject.data_conv ->
+  Gtk.text_iter Gobject.data_conv ->
+  string ->
+  (unit Gtk.obj -> GdkEvent.any -> Gtk.text_iter -> bool)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal3_ret
+)
+"gtkTextProps.ml" 293 13843 13868 "gtkTextProps.ml" 293 13843 13875
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 293 13843 13877 "gtkTextProps.ml" 293 13843 13884
+type(
+  unit Gtk.obj Gobject.data_conv
+)
+type(
+  unit Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTextProps.ml" 294 13907 13917 "gtkTextProps.ml" 294 13907 13931
+type(
+  GdkEvent.any Gobject.data_conv
+)
+type(
+  GdkEvent.any Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTextProps.ml" 295 13958 13968 "gtkTextProps.ml" 295 13958 13982
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+type(
+  Gtk.text_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkTextProps.ml" 295 13958 14010 "gtkTextProps.ml" 295 13958 14029
+type(
+  string
+)
+"gtkTextProps.ml" 296 14030 14044 "gtkTextProps.ml" 296 14030 14046
+type(
+  unit Gtk.obj
+)
+ident(
+  def x1 "gtkTextProps.ml" 296 14030 14050 "gtkTextProps.ml" 296 14030 14062
+)
+"gtkTextProps.ml" 296 14030 14050 "gtkTextProps.ml" 296 14030 14051
+type(
+  origin:unit Gtk.obj -> GdkEvent.any -> Gtk.text_iter -> bool
+)
+ident(
+  int_ref f "gtkTextProps.ml" 292 13785 13838 "gtkTextProps.ml" 292 13785 13839
+)
+"gtkTextProps.ml" 296 14030 14060 "gtkTextProps.ml" 296 14030 14062
+type(
+  unit Gtk.obj
+)
+ident(
+  int_ref x1 "gtkTextProps.ml" 296 14030 14044 "gtkTextProps.ml" 296 14030 14046
+)
+"gtkTextProps.ml" 296 14030 14050 "gtkTextProps.ml" 296 14030 14062
+call(
+  tail
+)
+type(
+  GdkEvent.any -> Gtk.text_iter -> bool
+)
+"gtkTextProps.ml" 296 14030 14039 "gtkTextProps.ml" 296 14030 14063
+type(
+  unit Gtk.obj -> GdkEvent.any -> Gtk.text_iter -> bool
+)
+"gtkTextProps.ml" 293 13843 13850 "gtkTextProps.ml" 296 14030 14063
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 292 13785 13834 "gtkTextProps.ml" 296 14030 14063
+type(
+  (origin:unit Gtk.obj -> GdkEvent.any -> Gtk.text_iter -> bool) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 292 13785 13791 "gtkTextProps.ml" 296 14030 14064
+type(
+  ('j2, origin:unit Gtk.obj -> GdkEvent.any -> Gtk.text_iter -> bool)
+  GtkSignal.t
+)
+"gtkTextProps.ml" 298 14071 14077 "gtkTextProps.ml" 298 14071 14083
+type(
+  ?name:string -> [ `texttag ] Gobject.param list -> Gtk.text_tag
+)
+ident(
+  def create "gtkTextProps.ml" 301 14190 14192 "gtkTextProps.ml" 308 14487 14490
+)
+"gtkTextProps.ml" 298 14071 14085 "gtkTextProps.ml" 298 14071 14089
+type(
+  string option
+)
+ident(
+  def name "gtkTextProps.ml" 298 14071 14090 "gtkTextProps.ml" 300 14148 14189
+)
+"gtkTextProps.ml" 298 14071 14090 "gtkTextProps.ml" 298 14071 14092
+type(
+  [ `texttag ] Gobject.param list
+)
+ident(
+  def pl "gtkTextProps.ml" 298 14071 14093 "gtkTextProps.ml" 300 14148 14189
+)
+"gtkTextProps.ml" 299 14106 14114 "gtkTextProps.ml" 299 14106 14116
+type(
+  [ `texttag ] Gobject.param list
+)
+"gtkTextProps.ml" 299 14106 14120 "gtkTextProps.ml" 299 14106 14128
+type(
+  ([ `texttag ], string) Gobject.property ->
+  string option ->
+  [ `texttag ] Gobject.param list -> [ `texttag ] Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkTextProps.ml" 20 633 637 "gtkTextProps.ml" 20 633 645
+)
+"gtkTextProps.ml" 299 14106 14129 "gtkTextProps.ml" 299 14106 14135
+type(
+  ([ `texttag ], string) Gobject.property
+)
+ident(
+  ext_ref P.name
+)
+"gtkTextProps.ml" 299 14106 14136 "gtkTextProps.ml" 299 14106 14140
+type(
+  string option
+)
+ident(
+  int_ref name "gtkTextProps.ml" 298 14071 14085 "gtkTextProps.ml" 298 14071 14089
+)
+"gtkTextProps.ml" 299 14106 14141 "gtkTextProps.ml" 299 14106 14143
+type(
+  [ `texttag ] Gobject.param list
+)
+ident(
+  int_ref pl "gtkTextProps.ml" 298 14071 14090 "gtkTextProps.ml" 298 14071 14092
+)
+"gtkTextProps.ml" 299 14106 14119 "gtkTextProps.ml" 299 14106 14144
+call(
+  stack
+)
+type(
+  [ `texttag ] Gobject.param list
+)
+"gtkTextProps.ml" 300 14148 14152 "gtkTextProps.ml" 300 14148 14173
+type(
+  classe:string -> [ `texttag ] Gobject.param list -> Gtk.text_tag
+)
+ident(
+  ext_ref Gobject.unsafe_create
+)
+"gtkTextProps.ml" 300 14148 14174 "gtkTextProps.ml" 300 14148 14186
+type(
+  string
+)
+"gtkTextProps.ml" 300 14148 14187 "gtkTextProps.ml" 300 14148 14189
+type(
+  [ `texttag ] Gobject.param list
+)
+ident(
+  int_ref pl "gtkTextProps.ml" 299 14106 14114 "gtkTextProps.ml" 299 14106 14116
+)
+"gtkTextProps.ml" 300 14148 14152 "gtkTextProps.ml" 300 14148 14189
+call(
+  tail
+)
+type(
+  Gtk.text_tag
+)
+"gtkTextProps.ml" 299 14106 14110 "gtkTextProps.ml" 300 14148 14189
+type(
+  Gtk.text_tag
+)
+type(
+  Gtk.text_tag
+)
+"gtkTextProps.ml" 311 14521 14527 "gtkTextProps.ml" 311 14521 14531
+type(
+  'a Gobject.obj -> Gtk.text_tag_table
+)
+ident(
+  def cast "gtkTextProps.ml" 312 14582 14584 "gtkTextProps.ml" 335 15654 15657
+)
+"gtkTextProps.ml" 311 14521 14532 "gtkTextProps.ml" 311 14521 14533
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkTextProps.ml" 311 14521 14534 "gtkTextProps.ml" 311 14521 14581
+)
+"gtkTextProps.ml" 311 14521 14553 "gtkTextProps.ml" 311 14521 14561
+type(
+  'a Gobject.obj -> string -> Gtk.text_tag_table
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkTextProps.ml" 311 14521 14562 "gtkTextProps.ml" 311 14521 14563
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkTextProps.ml" 311 14521 14532 "gtkTextProps.ml" 311 14521 14533
+)
+"gtkTextProps.ml" 311 14521 14564 "gtkTextProps.ml" 311 14521 14581
+type(
+  string
+)
+"gtkTextProps.ml" 311 14521 14553 "gtkTextProps.ml" 311 14521 14581
+call(
+  tail
+)
+type(
+  Gtk.text_tag_table
+)
+type(
+  Gtk.text_tag_table
+)
+"gtkTextProps.ml" 314 14621 14629 "gtkTextProps.ml" 314 14621 14638
+type(
+  ([> `texttagtable ], Gtk.text_tag -> unit) GtkSignal.t
+)
+ident(
+  def tag_added "gtkTextProps.ml" 317 14787 14791 "gtkTextProps.ml" 325 15184 15189
+)
+"gtkTextProps.ml" 315 14641 14653 "gtkTextProps.ml" 315 14641 14664
+type(
+  string
+)
+"gtkTextProps.ml" 315 14641 14673 "gtkTextProps.ml" 315 14641 14686
+type(
+  [> `texttagtable ] as 'b
+)
+"gtkTextProps.ml" 315 14641 14703 "gtkTextProps.ml" 315 14641 14704
+type(
+  Gtk.text_tag -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 316 14708 14715 "gtkTextProps.ml" 316 14708 14785
+)
+"gtkTextProps.ml" 316 14708 14715 "gtkTextProps.ml" 316 14708 14723
+type(
+  Gtk.text_tag Gobject.data_conv ->
+  string -> (Gtk.text_tag -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkTextProps.ml" 316 14708 14725 "gtkTextProps.ml" 316 14708 14732
+type(
+  Gtk.text_tag Gobject.data_conv
+)
+type(
+  Gtk.text_tag Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTextProps.ml" 316 14708 14755 "gtkTextProps.ml" 316 14708 14783
+type(
+  string
+)
+"gtkTextProps.ml" 316 14708 14784 "gtkTextProps.ml" 316 14708 14785
+type(
+  Gtk.text_tag -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 315 14641 14703 "gtkTextProps.ml" 315 14641 14704
+)
+"gtkTextProps.ml" 316 14708 14715 "gtkTextProps.ml" 316 14708 14785
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 315 14641 14699 "gtkTextProps.ml" 316 14708 14785
+type(
+  (Gtk.text_tag -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 315 14641 14647 "gtkTextProps.ml" 316 14708 14786
+type(
+  ('b, Gtk.text_tag -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 317 14787 14795 "gtkTextProps.ml" 317 14787 14806
+type(
+  ([> `texttagtable ], Gtk.text_tag -> size:bool -> unit) GtkSignal.t
+)
+ident(
+  def tag_changed "gtkTextProps.ml" 321 15003 15007 "gtkTextProps.ml" 325 15184 15189
+)
+"gtkTextProps.ml" 318 14809 14821 "gtkTextProps.ml" 318 14809 14834
+type(
+  string
+)
+"gtkTextProps.ml" 318 14809 14843 "gtkTextProps.ml" 318 14809 14856
+type(
+  [> `texttagtable ] as 'c
+)
+"gtkTextProps.ml" 318 14809 14873 "gtkTextProps.ml" 318 14809 14874
+type(
+  Gtk.text_tag -> size:bool -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 319 14878 14885 "gtkTextProps.ml" 320 14933 15001
+)
+"gtkTextProps.ml" 319 14878 14885 "gtkTextProps.ml" 319 14878 14893
+type(
+  Gtk.text_tag Gobject.data_conv ->
+  bool Gobject.data_conv ->
+  string -> (Gtk.text_tag -> bool -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkTextProps.ml" 319 14878 14895 "gtkTextProps.ml" 319 14878 14902
+type(
+  Gtk.text_tag Gobject.data_conv
+)
+type(
+  Gtk.text_tag Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTextProps.ml" 319 14878 14925 "gtkTextProps.ml" 319 14878 14932
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkTextProps.ml" 320 14933 14942 "gtkTextProps.ml" 320 14933 14972
+type(
+  string
+)
+"gtkTextProps.ml" 320 14933 14978 "gtkTextProps.ml" 320 14933 14980
+type(
+  Gtk.text_tag
+)
+ident(
+  def x1 "gtkTextProps.ml" 320 14933 14981 "gtkTextProps.ml" 320 14933 15000
+)
+"gtkTextProps.ml" 320 14933 14981 "gtkTextProps.ml" 320 14933 14983
+type(
+  bool
+)
+ident(
+  def x2 "gtkTextProps.ml" 320 14933 14987 "gtkTextProps.ml" 320 14933 15000
+)
+"gtkTextProps.ml" 320 14933 14987 "gtkTextProps.ml" 320 14933 14988
+type(
+  Gtk.text_tag -> size:bool -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 318 14809 14873 "gtkTextProps.ml" 318 14809 14874
+)
+"gtkTextProps.ml" 320 14933 14989 "gtkTextProps.ml" 320 14933 14991
+type(
+  Gtk.text_tag
+)
+ident(
+  int_ref x1 "gtkTextProps.ml" 320 14933 14978 "gtkTextProps.ml" 320 14933 14980
+)
+"gtkTextProps.ml" 320 14933 14998 "gtkTextProps.ml" 320 14933 15000
+type(
+  bool
+)
+ident(
+  int_ref x2 "gtkTextProps.ml" 320 14933 14981 "gtkTextProps.ml" 320 14933 14983
+)
+"gtkTextProps.ml" 320 14933 14987 "gtkTextProps.ml" 320 14933 15000
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkTextProps.ml" 320 14933 14973 "gtkTextProps.ml" 320 14933 15001
+type(
+  Gtk.text_tag -> bool -> unit
+)
+"gtkTextProps.ml" 319 14878 14885 "gtkTextProps.ml" 320 14933 15001
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 318 14809 14869 "gtkTextProps.ml" 320 14933 15001
+type(
+  (Gtk.text_tag -> size:bool -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 318 14809 14815 "gtkTextProps.ml" 320 14933 15002
+type(
+  ('c, Gtk.text_tag -> size:bool -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 321 15003 15011 "gtkTextProps.ml" 321 15003 15022
+type(
+  ([> `texttagtable ], Gtk.text_tag -> unit) GtkSignal.t
+)
+ident(
+  def tag_removed "gtkTextProps.ml" 324 15141 15183 "gtkTextProps.ml" 325 15184 15189
+)
+"gtkTextProps.ml" 322 15025 15037 "gtkTextProps.ml" 322 15025 15050
+type(
+  string
+)
+"gtkTextProps.ml" 322 15025 15059 "gtkTextProps.ml" 322 15025 15072
+type(
+  [> `texttagtable ] as 'd
+)
+"gtkTextProps.ml" 322 15025 15089 "gtkTextProps.ml" 322 15025 15090
+type(
+  Gtk.text_tag -> unit
+)
+ident(
+  def f "gtkTextProps.ml" 323 15094 15101 "gtkTextProps.ml" 324 15141 15182
+)
+"gtkTextProps.ml" 323 15094 15101 "gtkTextProps.ml" 323 15094 15109
+type(
+  Gtk.text_tag Gobject.data_conv ->
+  string -> (Gtk.text_tag -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkTextProps.ml" 323 15094 15111 "gtkTextProps.ml" 323 15094 15118
+type(
+  Gtk.text_tag Gobject.data_conv
+)
+type(
+  Gtk.text_tag Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkTextProps.ml" 324 15141 15150 "gtkTextProps.ml" 324 15141 15180
+type(
+  string
+)
+"gtkTextProps.ml" 324 15141 15181 "gtkTextProps.ml" 324 15141 15182
+type(
+  Gtk.text_tag -> unit
+)
+ident(
+  int_ref f "gtkTextProps.ml" 322 15025 15089 "gtkTextProps.ml" 322 15025 15090
+)
+"gtkTextProps.ml" 323 15094 15101 "gtkTextProps.ml" 324 15141 15182
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 322 15025 15085 "gtkTextProps.ml" 324 15141 15182
+type(
+  (Gtk.text_tag -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkTextProps.ml" 322 15025 15031 "gtkTextProps.ml" 324 15141 15183
+type(
+  ('d, Gtk.text_tag -> unit) GtkSignal.t
+)
+"gtkTextProps.ml" 326 15190 15196 "gtkTextProps.ml" 326 15190 15202
+type(
+  [ `texttagtable ] Gobject.param list -> Gtk.text_tag_table
+)
+ident(
+  def create "gtkTextProps.ml" 327 15268 15270 "gtkTextProps.ml" 335 15654 15657
+)
+"gtkTextProps.ml" 326 15190 15203 "gtkTextProps.ml" 326 15190 15205
+type(
+  [ `texttagtable ] Gobject.param list
+)
+ident(
+  def pl "gtkTextProps.ml" 326 15190 15206 "gtkTextProps.ml" 326 15190 15267
+)
+"gtkTextProps.ml" 326 15190 15225 "gtkTextProps.ml" 326 15190 15246
+type(
+  classe:string -> [ `texttagtable ] Gobject.param list -> Gtk.text_tag_table
+)
+ident(
+  ext_ref Gobject.unsafe_create
+)
+"gtkTextProps.ml" 326 15190 15247 "gtkTextProps.ml" 326 15190 15264
+type(
+  string
+)
+"gtkTextProps.ml" 326 15190 15265 "gtkTextProps.ml" 326 15190 15267
+type(
+  [ `texttagtable ] Gobject.param list
+)
+ident(
+  int_ref pl "gtkTextProps.ml" 326 15190 15203 "gtkTextProps.ml" 326 15190 15205
+)
+"gtkTextProps.ml" 326 15190 15225 "gtkTextProps.ml" 326 15190 15267
+call(
+  tail
+)
+type(
+  Gtk.text_tag_table
+)
+type(
+  Gtk.text_tag_table
+)

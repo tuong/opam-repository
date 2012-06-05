@@ -1,0 +1,1551 @@
+"gAssistant.ml" 35 1810 1834 "gAssistant.ml" 35 1810 1837
+type(
+  [> Gtk.assistant ] Gtk.obj
+)
+"gAssistant.ml" 36 1847 1881 "gAssistant.ml" 36 1847 1884
+type(
+  ([> Gtk.assistant ] as 'a) Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref obj "gAssistant.ml" 35 1810 1834 "gAssistant.ml" 35 1810 1837
+)
+"gAssistant.ml" 40 1936 1952 "gAssistant.ml" 40 1936 1955
+type(
+  [> Gtk.assistant ] Gtk.obj
+)
+"gAssistant.ml" 40 1936 1965 "gAssistant.ml" 40 1936 1971
+type(
+  < accept_focus : bool; activate_default : unit -> bool;
+    activate_focus : unit -> bool; add : GObj.widget -> unit;
+    add_accel_group : Gtk.accel_group -> unit;
+    add_action_widget : Gtk.widget Gtk.obj -> unit;
+    all_children : GObj.widget list; allow_grow : bool; allow_shrink : 
+    bool;
+    append_page : ?page_type:GtkEnums.assistant_page_type ->
+                  ?title:string ->
+                  ?header_image:GdkPixbuf.pixbuf ->
+                  ?side_image:GdkPixbuf.pixbuf ->
+                  ?complete:bool -> Gtk.widget Gtk.obj -> int;
+    as_widget : Gtk.widget Gtk.obj; as_window : Gtk.window Gtk.obj;
+    border_width : int; child : GObj.widget; children : GObj.widget list;
+    coerce : GObj.widget; connect : assistant_signals; current_page : 
+    int; decorated : bool; default_height : int; default_width : int;
+    deiconify : unit -> unit; deletable : bool; destroy : unit -> unit;
+    destroy_with_parent : bool; drag : GObj.drag_ops; event : GObj.event_ops;
+    focus : GContainer.focus; focus_on_map : bool; get_oid : int;
+    gravity : GdkEnums.gravity; has_toplevel_focus : bool;
+    icon : GdkPixbuf.pixbuf option; icon_name : string;
+    iconify : unit -> unit;
+    insert_page : ?page_type:GtkEnums.assistant_page_type ->
+                  ?title:string ->
+                  ?header_image:GdkPixbuf.pixbuf ->
+                  ?side_image:GdkPixbuf.pixbuf ->
+                  ?complete:bool -> position:int -> Gtk.widget Gtk.obj -> int;
+    is_active : bool; kind : Gtk.Tags.window_type; misc : GObj.misc_ops;
+    modal : bool; move : x:int -> y:int -> unit; n_pages : int;
+    nth_page : int -> Gtk.widget Gtk.obj; opacity : float;
+    page_complete : Gtk.widget Gtk.obj -> bool;
+    page_header_image : Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf;
+    page_side_image : Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf;
+    page_title : Gtk.widget Gtk.obj -> string;
+    page_type : Gtk.widget Gtk.obj -> GtkEnums.assistant_page_type;
+    parse_geometry : string -> bool; position : Gtk.Tags.window_position;
+    prepend_page : ?page_type:GtkEnums.assistant_page_type ->
+                   ?title:string ->
+                   ?header_image:GdkPixbuf.pixbuf ->
+                   ?side_image:GdkPixbuf.pixbuf ->
+                   ?complete:bool -> Gtk.widget Gtk.obj -> int;
+    present : unit -> unit; remove : GObj.widget -> unit;
+    remove_action_widget : Gtk.widget Gtk.obj -> unit; resizable : bool;
+    resize : width:int -> height:int -> unit;
+    resize_mode : Gtk.Tags.resize_mode; role : string; screen : Gdk.screen;
+    set_accept_focus : bool -> unit; set_allow_grow : bool -> unit;
+    set_allow_shrink : bool -> unit; set_border_width : int -> unit;
+    set_current_page : int -> unit; set_decorated : bool -> unit;
+    set_default_height : int -> unit;
+    set_default_size : width:int -> height:int -> unit;
+    set_default_width : int -> unit; set_deletable : bool -> unit;
+    set_destroy_with_parent : bool -> unit; set_focus_on_map : bool -> unit;
+    set_geometry_hints : ?min_size:int * int ->
+                         ?max_size:int * int ->
+                         ?base_size:int * int ->
+                         ?aspect:float * float ->
+                         ?resize_inc:int * int ->
+                         ?win_gravity:Gdk.Tags.gravity ->
+                         ?pos:bool ->
+                         ?user_pos:bool ->
+                         ?user_size:bool -> GObj.widget -> unit;
+    set_gravity : Gdk.Tags.gravity -> unit;
+    set_icon : GdkPixbuf.pixbuf option -> unit;
+    set_icon_name : string -> unit; set_modal : bool -> unit;
+    set_opacity : float -> unit;
+    set_page_complete : Gtk.widget Gtk.obj -> bool -> unit;
+    set_page_header_image : Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf -> unit;
+    set_page_side_image : Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf -> unit;
+    set_page_title : Gtk.widget Gtk.obj -> string -> unit;
+    set_page_type : Gtk.widget Gtk.obj ->
+                    GtkEnums.assistant_page_type -> unit;
+    set_position : Gtk.Tags.window_position -> unit;
+    set_resizable : bool -> unit;
+    set_resize_mode : Gtk.Tags.resize_mode -> unit;
+    set_role : string -> unit; set_screen : Gdk.screen -> unit;
+    set_skip_pager_hint : bool -> unit; set_skip_taskbar_hint : bool -> unit;
+    set_title : string -> unit;
+    set_transient_for : Gtk.window Gtk.obj -> unit;
+    set_type_hint : Gdk.Tags.window_type_hint -> unit;
+    set_urgency_hint : bool -> unit; set_wm_class : string -> unit;
+    set_wm_name : string -> unit; show : unit -> unit;
+    skip_pager_hint : bool; skip_taskbar_hint : bool; title : string;
+    type_hint : Gdk.Tags.window_type_hint; update_buttons_state : unit;
+    urgency_hint : bool; .. >
+)
+"gAssistant.ml" 41 1972 2002 "gAssistant.ml" 41 1972 2005
+type(
+  ([> Gtk.assistant ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gAssistant.ml" 40 1936 1952 "gAssistant.ml" 40 1936 1955
+)
+"gAssistant.ml" 42 2006 2025 "gAssistant.ml" 42 2006 2046
+type(
+  'a Gtk.obj -> assistant_signals
+)
+"gAssistant.ml" 42 2006 2047 "gAssistant.ml" 42 2006 2050
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 42 2006 2025 "gAssistant.ml" 42 2006 2050
+call(
+  tail
+)
+type(
+  assistant_signals
+)
+type(
+  assistant_signals
+)
+"gAssistant.ml" 43 2051 2075 "gAssistant.ml" 43 2051 2101
+type(
+  'a Gtk.obj -> int
+)
+ident(
+  ext_ref GtkAssistant.Assistant.get_current_page
+)
+"gAssistant.ml" 43 2051 2102 "gAssistant.ml" 43 2051 2105
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 43 2051 2075 "gAssistant.ml" 43 2051 2105
+type(
+  int
+)
+type(
+  int
+)
+"gAssistant.ml" 44 2107 2135 "gAssistant.ml" 44 2107 2161
+type(
+  'a Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkAssistant.Assistant.set_current_page
+)
+"gAssistant.ml" 44 2107 2162 "gAssistant.ml" 44 2107 2165
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 44 2107 2135 "gAssistant.ml" 44 2107 2165
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gAssistant.ml" 45 2167 2186 "gAssistant.ml" 45 2167 2207
+type(
+  'a Gtk.obj -> int
+)
+ident(
+  ext_ref GtkAssistant.Assistant.get_n_pages
+)
+"gAssistant.ml" 45 2167 2208 "gAssistant.ml" 45 2167 2211
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 45 2167 2186 "gAssistant.ml" 45 2167 2211
+type(
+  int
+)
+type(
+  int
+)
+"gAssistant.ml" 46 2212 2232 "gAssistant.ml" 46 2212 2254
+type(
+  'a Gtk.obj -> int -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GtkAssistant.Assistant.get_nth_page
+)
+"gAssistant.ml" 46 2212 2255 "gAssistant.ml" 46 2212 2258
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 46 2212 2232 "gAssistant.ml" 46 2212 2258
+call(
+  tail
+)
+type(
+  int -> Gtk.widget Gtk.obj
+)
+type(
+  int -> Gtk.widget Gtk.obj
+)
+"gAssistant.ml" 47 2260 2282 "gAssistant.ml" 47 2260 2291
+type(
+  GtkEnums.assistant_page_type option
+)
+ident(
+  def page_type "gAssistant.ml" 47 2260 2292 "gAssistant.ml" 56 2639 2644
+)
+"gAssistant.ml" 47 2260 2293 "gAssistant.ml" 47 2260 2298
+type(
+  string option
+)
+ident(
+  def title "gAssistant.ml" 47 2260 2299 "gAssistant.ml" 56 2639 2644
+)
+"gAssistant.ml" 47 2260 2300 "gAssistant.ml" 47 2260 2312
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  def header_image "gAssistant.ml" 47 2260 2313 "gAssistant.ml" 56 2639 2644
+)
+"gAssistant.ml" 47 2260 2314 "gAssistant.ml" 47 2260 2324
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  def side_image "gAssistant.ml" 47 2260 2325 "gAssistant.ml" 56 2639 2644
+)
+"gAssistant.ml" 47 2260 2326 "gAssistant.ml" 47 2260 2334
+type(
+  bool option
+)
+ident(
+  def complete "gAssistant.ml" 48 2336 2340 "gAssistant.ml" 56 2639 2644
+)
+"gAssistant.ml" 48 2336 2341 "gAssistant.ml" 48 2336 2349
+type(
+  int
+)
+ident(
+  def position "gAssistant.ml" 48 2336 2350 "gAssistant.ml" 56 2639 2644
+)
+"gAssistant.ml" 48 2336 2350 "gAssistant.ml" 48 2336 2351
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  def w "gAssistant.ml" 50 2359 2363 "gAssistant.ml" 56 2639 2644
+)
+"gAssistant.ml" 50 2359 2367 "gAssistant.ml" 50 2359 2368
+type(
+  int
+)
+"gAssistant.ml" 50 2359 2371 "gAssistant.ml" 50 2359 2392
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> int -> int
+)
+ident(
+  ext_ref GtkAssistant.Assistant.insert_page
+)
+"gAssistant.ml" 50 2359 2393 "gAssistant.ml" 50 2359 2396
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 50 2359 2397 "gAssistant.ml" 50 2359 2398
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gAssistant.ml" 48 2336 2350 "gAssistant.ml" 48 2336 2351
+)
+"gAssistant.ml" 50 2359 2399 "gAssistant.ml" 50 2359 2407
+type(
+  int
+)
+ident(
+  int_ref position "gAssistant.ml" 48 2336 2341 "gAssistant.ml" 48 2336 2349
+)
+"gAssistant.ml" 50 2359 2371 "gAssistant.ml" 50 2359 2407
+type(
+  int
+)
+"gAssistant.ml" 51 2411 2415 "gAssistant.ml" 51 2411 2418
+type(
+  f:(GtkEnums.assistant_page_type -> unit) ->
+  GtkEnums.assistant_page_type option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gAssistant.ml" 51 2411 2420 "gAssistant.ml" 51 2411 2424
+type(
+  < accept_focus : bool; activate_default : unit -> bool;
+    activate_focus : unit -> bool; add : GObj.widget -> unit;
+    add_accel_group : Gtk.accel_group -> unit;
+    add_action_widget : Gtk.widget Gtk.obj -> unit;
+    all_children : GObj.widget list; allow_grow : bool; allow_shrink : 
+    bool;
+    append_page : ?page_type:GtkEnums.assistant_page_type ->
+                  ?title:string ->
+                  ?header_image:GdkPixbuf.pixbuf ->
+                  ?side_image:GdkPixbuf.pixbuf ->
+                  ?complete:bool -> Gtk.widget Gtk.obj -> int;
+    as_widget : Gtk.widget Gtk.obj; as_window : Gtk.window Gtk.obj;
+    border_width : int; child : GObj.widget; children : GObj.widget list;
+    coerce : GObj.widget; connect : assistant_signals; current_page : 
+    int; decorated : bool; default_height : int; default_width : int;
+    deiconify : unit -> unit; deletable : bool; destroy : unit -> unit;
+    destroy_with_parent : bool; drag : GObj.drag_ops; event : GObj.event_ops;
+    focus : GContainer.focus; focus_on_map : bool; get_oid : int;
+    gravity : GdkEnums.gravity; has_toplevel_focus : bool;
+    icon : GdkPixbuf.pixbuf option; icon_name : string;
+    iconify : unit -> unit;
+    insert_page : ?page_type:GtkEnums.assistant_page_type ->
+                  ?title:string ->
+                  ?header_image:GdkPixbuf.pixbuf ->
+                  ?side_image:GdkPixbuf.pixbuf ->
+                  ?complete:bool -> position:int -> Gtk.widget Gtk.obj -> int;
+    is_active : bool; kind : Gtk.Tags.window_type; misc : GObj.misc_ops;
+    modal : bool; move : x:int -> y:int -> unit; n_pages : int;
+    nth_page : int -> Gtk.widget Gtk.obj; opacity : float;
+    page_complete : Gtk.widget Gtk.obj -> bool;
+    page_header_image : Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf;
+    page_side_image : Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf;
+    page_title : Gtk.widget Gtk.obj -> string;
+    page_type : Gtk.widget Gtk.obj -> GtkEnums.assistant_page_type;
+    parse_geometry : string -> bool; position : Gtk.Tags.window_position;
+    prepend_page : ?page_type:GtkEnums.assistant_page_type ->
+                   ?title:string ->
+                   ?header_image:GdkPixbuf.pixbuf ->
+                   ?side_image:GdkPixbuf.pixbuf ->
+                   ?complete:bool -> Gtk.widget Gtk.obj -> int;
+    present : unit -> unit; remove : GObj.widget -> unit;
+    remove_action_widget : Gtk.widget Gtk.obj -> unit; resizable : bool;
+    resize : width:int -> height:int -> unit;
+    resize_mode : Gtk.Tags.resize_mode; role : string; screen : Gdk.screen;
+    set_accept_focus : bool -> unit; set_allow_grow : bool -> unit;
+    set_allow_shrink : bool -> unit; set_border_width : int -> unit;
+    set_current_page : int -> unit; set_decorated : bool -> unit;
+    set_default_height : int -> unit;
+    set_default_size : width:int -> height:int -> unit;
+    set_default_width : int -> unit; set_deletable : bool -> unit;
+    set_destroy_with_parent : bool -> unit; set_focus_on_map : bool -> unit;
+    set_geometry_hints : ?min_size:int * int ->
+                         ?max_size:int * int ->
+                         ?base_size:int * int ->
+                         ?aspect:float * float ->
+                         ?resize_inc:int * int ->
+                         ?win_gravity:Gdk.Tags.gravity ->
+                         ?pos:bool ->
+                         ?user_pos:bool ->
+                         ?user_size:bool -> GObj.widget -> unit;
+    set_gravity : Gdk.Tags.gravity -> unit;
+    set_icon : GdkPixbuf.pixbuf option -> unit;
+    set_icon_name : string -> unit; set_modal : bool -> unit;
+    set_opacity : float -> unit;
+    set_page_complete : Gtk.widget Gtk.obj -> bool -> unit;
+    set_page_header_image : Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf -> unit;
+    set_page_side_image : Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf -> unit;
+    set_page_title : Gtk.widget Gtk.obj -> string -> unit;
+    set_page_type : Gtk.widget Gtk.obj ->
+                    GtkEnums.assistant_page_type -> unit;
+    set_position : Gtk.Tags.window_position -> unit;
+    set_resizable : bool -> unit;
+    set_resize_mode : Gtk.Tags.resize_mode -> unit;
+    set_role : string -> unit; set_screen : Gdk.screen -> unit;
+    set_skip_pager_hint : bool -> unit; set_skip_taskbar_hint : bool -> unit;
+    set_title : string -> unit;
+    set_transient_for : Gtk.window Gtk.obj -> unit;
+    set_type_hint : Gdk.Tags.window_type_hint -> unit;
+    set_urgency_hint : bool -> unit; set_wm_class : string -> unit;
+    set_wm_name : string -> unit; show : unit -> unit;
+    skip_pager_hint : bool; skip_taskbar_hint : bool; title : string;
+    type_hint : Gdk.Tags.window_type_hint; update_buttons_state : unit;
+    urgency_hint : bool; .. >
+  as 'b
+)
+"gAssistant.ml" 51 2411 2420 "gAssistant.ml" 51 2411 2438
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj -> GtkEnums.assistant_page_type -> unit
+)
+"gAssistant.ml" 51 2411 2439 "gAssistant.ml" 51 2411 2440
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gAssistant.ml" 48 2336 2350 "gAssistant.ml" 48 2336 2351
+)
+"gAssistant.ml" 51 2411 2419 "gAssistant.ml" 51 2411 2441
+type(
+  GtkEnums.assistant_page_type -> unit
+)
+"gAssistant.ml" 51 2411 2442 "gAssistant.ml" 51 2411 2451
+type(
+  GtkEnums.assistant_page_type option
+)
+ident(
+  int_ref page_type "gAssistant.ml" 47 2260 2282 "gAssistant.ml" 47 2260 2291
+)
+"gAssistant.ml" 51 2411 2415 "gAssistant.ml" 51 2411 2451
+call(
+  stack
+)
+type(
+  unit
+)
+"gAssistant.ml" 52 2453 2457 "gAssistant.ml" 52 2453 2460
+type(
+  f:(string -> unit) -> string option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gAssistant.ml" 52 2453 2462 "gAssistant.ml" 52 2453 2466
+type(
+  'b
+)
+"gAssistant.ml" 52 2453 2462 "gAssistant.ml" 52 2453 2481
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj -> string -> unit
+)
+"gAssistant.ml" 52 2453 2482 "gAssistant.ml" 52 2453 2483
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gAssistant.ml" 48 2336 2350 "gAssistant.ml" 48 2336 2351
+)
+"gAssistant.ml" 52 2453 2461 "gAssistant.ml" 52 2453 2484
+type(
+  string -> unit
+)
+"gAssistant.ml" 52 2453 2485 "gAssistant.ml" 52 2453 2490
+type(
+  string option
+)
+ident(
+  int_ref title "gAssistant.ml" 47 2260 2293 "gAssistant.ml" 47 2260 2298
+)
+"gAssistant.ml" 52 2453 2457 "gAssistant.ml" 52 2453 2490
+call(
+  stack
+)
+type(
+  unit
+)
+"gAssistant.ml" 53 2492 2496 "gAssistant.ml" 53 2492 2499
+type(
+  f:(GdkPixbuf.pixbuf -> unit) -> GdkPixbuf.pixbuf option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gAssistant.ml" 53 2492 2501 "gAssistant.ml" 53 2492 2505
+type(
+  'b
+)
+"gAssistant.ml" 53 2492 2501 "gAssistant.ml" 53 2492 2527
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf -> unit
+)
+"gAssistant.ml" 53 2492 2528 "gAssistant.ml" 53 2492 2529
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gAssistant.ml" 48 2336 2350 "gAssistant.ml" 48 2336 2351
+)
+"gAssistant.ml" 53 2492 2500 "gAssistant.ml" 53 2492 2530
+type(
+  GdkPixbuf.pixbuf -> unit
+)
+"gAssistant.ml" 53 2492 2531 "gAssistant.ml" 53 2492 2543
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  int_ref header_image "gAssistant.ml" 47 2260 2300 "gAssistant.ml" 47 2260 2312
+)
+"gAssistant.ml" 53 2492 2496 "gAssistant.ml" 53 2492 2543
+call(
+  stack
+)
+type(
+  unit
+)
+"gAssistant.ml" 54 2545 2549 "gAssistant.ml" 54 2545 2552
+type(
+  f:(GdkPixbuf.pixbuf -> unit) -> GdkPixbuf.pixbuf option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gAssistant.ml" 54 2545 2554 "gAssistant.ml" 54 2545 2558
+type(
+  'b
+)
+"gAssistant.ml" 54 2545 2554 "gAssistant.ml" 54 2545 2578
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf -> unit
+)
+"gAssistant.ml" 54 2545 2579 "gAssistant.ml" 54 2545 2580
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gAssistant.ml" 48 2336 2350 "gAssistant.ml" 48 2336 2351
+)
+"gAssistant.ml" 54 2545 2553 "gAssistant.ml" 54 2545 2581
+type(
+  GdkPixbuf.pixbuf -> unit
+)
+"gAssistant.ml" 54 2545 2582 "gAssistant.ml" 54 2545 2592
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  int_ref side_image "gAssistant.ml" 47 2260 2314 "gAssistant.ml" 47 2260 2324
+)
+"gAssistant.ml" 54 2545 2549 "gAssistant.ml" 54 2545 2592
+call(
+  stack
+)
+type(
+  unit
+)
+"gAssistant.ml" 55 2594 2598 "gAssistant.ml" 55 2594 2601
+type(
+  f:(bool -> unit) -> bool option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gAssistant.ml" 55 2594 2603 "gAssistant.ml" 55 2594 2607
+type(
+  'b
+)
+"gAssistant.ml" 55 2594 2603 "gAssistant.ml" 55 2594 2625
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj -> bool -> unit
+)
+"gAssistant.ml" 55 2594 2626 "gAssistant.ml" 55 2594 2627
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gAssistant.ml" 48 2336 2350 "gAssistant.ml" 48 2336 2351
+)
+"gAssistant.ml" 55 2594 2602 "gAssistant.ml" 55 2594 2628
+type(
+  bool -> unit
+)
+"gAssistant.ml" 55 2594 2629 "gAssistant.ml" 55 2594 2637
+type(
+  bool option
+)
+ident(
+  int_ref complete "gAssistant.ml" 47 2260 2326 "gAssistant.ml" 47 2260 2334
+)
+"gAssistant.ml" 55 2594 2598 "gAssistant.ml" 55 2594 2637
+call(
+  stack
+)
+type(
+  unit
+)
+"gAssistant.ml" 56 2639 2643 "gAssistant.ml" 56 2639 2644
+type(
+  int
+)
+ident(
+  int_ref n "gAssistant.ml" 50 2359 2367 "gAssistant.ml" 50 2359 2368
+)
+"gAssistant.ml" 55 2594 2598 "gAssistant.ml" 56 2639 2644
+type(
+  int
+)
+"gAssistant.ml" 54 2545 2549 "gAssistant.ml" 56 2639 2644
+type(
+  int
+)
+"gAssistant.ml" 53 2492 2496 "gAssistant.ml" 56 2639 2644
+type(
+  int
+)
+"gAssistant.ml" 52 2453 2457 "gAssistant.ml" 56 2639 2644
+type(
+  int
+)
+"gAssistant.ml" 51 2411 2415 "gAssistant.ml" 56 2639 2644
+type(
+  int
+)
+"gAssistant.ml" 50 2359 2363 "gAssistant.ml" 56 2639 2644
+type(
+  int
+)
+"gAssistant.ml" 57 2645 2667 "gAssistant.ml" 57 2645 2676
+type(
+  GtkEnums.assistant_page_type option
+)
+ident(
+  def page_type "gAssistant.ml" 57 2645 2677 "gAssistant.ml" 58 2725 2816
+)
+"gAssistant.ml" 57 2645 2678 "gAssistant.ml" 57 2645 2683
+type(
+  string option
+)
+ident(
+  def title "gAssistant.ml" 57 2645 2684 "gAssistant.ml" 58 2725 2816
+)
+"gAssistant.ml" 57 2645 2685 "gAssistant.ml" 57 2645 2697
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  def header_image "gAssistant.ml" 57 2645 2698 "gAssistant.ml" 58 2725 2816
+)
+"gAssistant.ml" 57 2645 2699 "gAssistant.ml" 57 2645 2709
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  def side_image "gAssistant.ml" 57 2645 2710 "gAssistant.ml" 58 2725 2816
+)
+"gAssistant.ml" 57 2645 2711 "gAssistant.ml" 57 2645 2719
+type(
+  bool option
+)
+ident(
+  def complete "gAssistant.ml" 57 2645 2720 "gAssistant.ml" 58 2725 2816
+)
+"gAssistant.ml" 57 2645 2720 "gAssistant.ml" 57 2645 2721
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  def w "gAssistant.ml" 58 2725 2729 "gAssistant.ml" 58 2725 2816
+)
+"gAssistant.ml" 58 2725 2729 "gAssistant.ml" 58 2725 2733
+type(
+  'b
+)
+"gAssistant.ml" 58 2725 2729 "gAssistant.ml" 58 2725 2745
+call(
+  tail
+)
+type(
+  ?page_type:GtkEnums.assistant_page_type ->
+  ?title:string ->
+  ?header_image:GdkPixbuf.pixbuf ->
+  ?side_image:GdkPixbuf.pixbuf ->
+  ?complete:bool -> position:int -> Gtk.widget Gtk.obj -> int
+)
+"gAssistant.ml" 58 2725 2747 "gAssistant.ml" 58 2725 2756
+type(
+  GtkEnums.assistant_page_type option
+)
+ident(
+  int_ref page_type "gAssistant.ml" 57 2645 2667 "gAssistant.ml" 57 2645 2676
+)
+"gAssistant.ml" 58 2725 2758 "gAssistant.ml" 58 2725 2763
+type(
+  string option
+)
+ident(
+  int_ref title "gAssistant.ml" 57 2645 2678 "gAssistant.ml" 57 2645 2683
+)
+"gAssistant.ml" 58 2725 2765 "gAssistant.ml" 58 2725 2777
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  int_ref header_image "gAssistant.ml" 57 2645 2685 "gAssistant.ml" 57 2645 2697
+)
+"gAssistant.ml" 58 2725 2779 "gAssistant.ml" 58 2725 2789
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  int_ref side_image "gAssistant.ml" 57 2645 2699 "gAssistant.ml" 57 2645 2709
+)
+"gAssistant.ml" 58 2725 2791 "gAssistant.ml" 58 2725 2799
+type(
+  bool option
+)
+ident(
+  int_ref complete "gAssistant.ml" 57 2645 2711 "gAssistant.ml" 57 2645 2719
+)
+"gAssistant.ml" 58 2725 2810 "gAssistant.ml" 58 2725 2814
+type(
+  int
+)
+"gAssistant.ml" 58 2725 2815 "gAssistant.ml" 58 2725 2816
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gAssistant.ml" 57 2645 2720 "gAssistant.ml" 57 2645 2721
+)
+"gAssistant.ml" 58 2725 2729 "gAssistant.ml" 58 2725 2816
+type(
+  int
+)
+"gAssistant.ml" 59 2817 2840 "gAssistant.ml" 59 2817 2849
+type(
+  GtkEnums.assistant_page_type option
+)
+ident(
+  def page_type "gAssistant.ml" 59 2817 2850 "gAssistant.ml" 60 2898 2986
+)
+"gAssistant.ml" 59 2817 2851 "gAssistant.ml" 59 2817 2856
+type(
+  string option
+)
+ident(
+  def title "gAssistant.ml" 59 2817 2857 "gAssistant.ml" 60 2898 2986
+)
+"gAssistant.ml" 59 2817 2858 "gAssistant.ml" 59 2817 2870
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  def header_image "gAssistant.ml" 59 2817 2871 "gAssistant.ml" 60 2898 2986
+)
+"gAssistant.ml" 59 2817 2872 "gAssistant.ml" 59 2817 2882
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  def side_image "gAssistant.ml" 59 2817 2883 "gAssistant.ml" 60 2898 2986
+)
+"gAssistant.ml" 59 2817 2884 "gAssistant.ml" 59 2817 2892
+type(
+  bool option
+)
+ident(
+  def complete "gAssistant.ml" 59 2817 2893 "gAssistant.ml" 60 2898 2986
+)
+"gAssistant.ml" 59 2817 2893 "gAssistant.ml" 59 2817 2894
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  def w "gAssistant.ml" 60 2898 2902 "gAssistant.ml" 60 2898 2986
+)
+"gAssistant.ml" 60 2898 2902 "gAssistant.ml" 60 2898 2906
+type(
+  'b
+)
+"gAssistant.ml" 60 2898 2902 "gAssistant.ml" 60 2898 2918
+call(
+  tail
+)
+type(
+  ?page_type:GtkEnums.assistant_page_type ->
+  ?title:string ->
+  ?header_image:GdkPixbuf.pixbuf ->
+  ?side_image:GdkPixbuf.pixbuf ->
+  ?complete:bool -> position:int -> Gtk.widget Gtk.obj -> int
+)
+"gAssistant.ml" 60 2898 2920 "gAssistant.ml" 60 2898 2929
+type(
+  GtkEnums.assistant_page_type option
+)
+ident(
+  int_ref page_type "gAssistant.ml" 59 2817 2840 "gAssistant.ml" 59 2817 2849
+)
+"gAssistant.ml" 60 2898 2931 "gAssistant.ml" 60 2898 2936
+type(
+  string option
+)
+ident(
+  int_ref title "gAssistant.ml" 59 2817 2851 "gAssistant.ml" 59 2817 2856
+)
+"gAssistant.ml" 60 2898 2938 "gAssistant.ml" 60 2898 2950
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  int_ref header_image "gAssistant.ml" 59 2817 2858 "gAssistant.ml" 59 2817 2870
+)
+"gAssistant.ml" 60 2898 2952 "gAssistant.ml" 60 2898 2962
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  int_ref side_image "gAssistant.ml" 59 2817 2872 "gAssistant.ml" 59 2817 2882
+)
+"gAssistant.ml" 60 2898 2964 "gAssistant.ml" 60 2898 2972
+type(
+  bool option
+)
+ident(
+  int_ref complete "gAssistant.ml" 59 2817 2884 "gAssistant.ml" 59 2817 2892
+)
+"gAssistant.ml" 60 2898 2983 "gAssistant.ml" 60 2898 2984
+type(
+  int
+)
+"gAssistant.ml" 60 2898 2985 "gAssistant.ml" 60 2898 2986
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref w "gAssistant.ml" 59 2817 2893 "gAssistant.ml" 59 2817 2894
+)
+"gAssistant.ml" 60 2898 2902 "gAssistant.ml" 60 2898 2986
+type(
+  int
+)
+"gAssistant.ml" 61 2987 3012 "gAssistant.ml" 61 2987 3035
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> GtkEnums.assistant_page_type -> unit
+)
+ident(
+  ext_ref GtkAssistant.Assistant.set_page_type
+)
+"gAssistant.ml" 61 2987 3036 "gAssistant.ml" 61 2987 3039
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 61 2987 3012 "gAssistant.ml" 61 2987 3039
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj -> GtkEnums.assistant_page_type -> unit
+)
+type(
+  Gtk.widget Gtk.obj -> GtkEnums.assistant_page_type -> unit
+)
+"gAssistant.ml" 62 3040 3061 "gAssistant.ml" 62 3040 3084
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> GtkEnums.assistant_page_type
+)
+ident(
+  ext_ref GtkAssistant.Assistant.get_page_type
+)
+"gAssistant.ml" 62 3040 3085 "gAssistant.ml" 62 3040 3088
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 62 3040 3061 "gAssistant.ml" 62 3040 3088
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj -> GtkEnums.assistant_page_type
+)
+type(
+  Gtk.widget Gtk.obj -> GtkEnums.assistant_page_type
+)
+"gAssistant.ml" 63 3089 3115 "gAssistant.ml" 63 3089 3139
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkAssistant.Assistant.set_page_title
+)
+"gAssistant.ml" 63 3089 3140 "gAssistant.ml" 63 3089 3143
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 63 3089 3115 "gAssistant.ml" 63 3089 3143
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj -> string -> unit
+)
+type(
+  Gtk.widget Gtk.obj -> string -> unit
+)
+"gAssistant.ml" 64 3144 3166 "gAssistant.ml" 64 3144 3190
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> string
+)
+ident(
+  ext_ref GtkAssistant.Assistant.get_page_title
+)
+"gAssistant.ml" 64 3144 3191 "gAssistant.ml" 64 3144 3194
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 64 3144 3166 "gAssistant.ml" 64 3144 3194
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj -> string
+)
+type(
+  Gtk.widget Gtk.obj -> string
+)
+"gAssistant.ml" 65 3195 3228 "gAssistant.ml" 65 3195 3259
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf -> unit
+)
+ident(
+  ext_ref GtkAssistant.Assistant.set_page_header_image
+)
+"gAssistant.ml" 65 3195 3260 "gAssistant.ml" 65 3195 3263
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 65 3195 3228 "gAssistant.ml" 65 3195 3263
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf -> unit
+)
+type(
+  Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf -> unit
+)
+"gAssistant.ml" 66 3264 3293 "gAssistant.ml" 66 3264 3324
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf
+)
+ident(
+  ext_ref GtkAssistant.Assistant.get_page_header_image
+)
+"gAssistant.ml" 66 3264 3325 "gAssistant.ml" 66 3264 3328
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 66 3264 3293 "gAssistant.ml" 66 3264 3328
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf
+)
+type(
+  Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf
+)
+"gAssistant.ml" 67 3329 3360 "gAssistant.ml" 67 3329 3389
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf -> unit
+)
+ident(
+  ext_ref GtkAssistant.Assistant.set_page_side_image
+)
+"gAssistant.ml" 67 3329 3390 "gAssistant.ml" 67 3329 3393
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 67 3329 3360 "gAssistant.ml" 67 3329 3393
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf -> unit
+)
+type(
+  Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf -> unit
+)
+"gAssistant.ml" 68 3394 3421 "gAssistant.ml" 68 3394 3450
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf
+)
+ident(
+  ext_ref GtkAssistant.Assistant.get_page_side_image
+)
+"gAssistant.ml" 68 3394 3451 "gAssistant.ml" 68 3394 3454
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 68 3394 3421 "gAssistant.ml" 68 3394 3454
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf
+)
+type(
+  Gtk.widget Gtk.obj -> GdkPixbuf.pixbuf
+)
+"gAssistant.ml" 69 3455 3484 "gAssistant.ml" 69 3455 3511
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkAssistant.Assistant.set_page_complete
+)
+"gAssistant.ml" 69 3455 3512 "gAssistant.ml" 69 3455 3515
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 69 3455 3484 "gAssistant.ml" 69 3455 3515
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj -> bool -> unit
+)
+type(
+  Gtk.widget Gtk.obj -> bool -> unit
+)
+"gAssistant.ml" 70 3516 3541 "gAssistant.ml" 70 3516 3568
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> bool
+)
+ident(
+  ext_ref GtkAssistant.Assistant.get_page_complete
+)
+"gAssistant.ml" 70 3516 3569 "gAssistant.ml" 70 3516 3572
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 70 3516 3541 "gAssistant.ml" 70 3516 3572
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj -> bool
+)
+type(
+  Gtk.widget Gtk.obj -> bool
+)
+"gAssistant.ml" 71 3573 3602 "gAssistant.ml" 71 3573 3629
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkAssistant.Assistant.add_action_widget
+)
+"gAssistant.ml" 71 3573 3630 "gAssistant.ml" 71 3573 3633
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 71 3573 3602 "gAssistant.ml" 71 3573 3633
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+"gAssistant.ml" 72 3634 3666 "gAssistant.ml" 72 3634 3696
+type(
+  'a Gtk.obj -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkAssistant.Assistant.remove_action_widget
+)
+"gAssistant.ml" 72 3634 3697 "gAssistant.ml" 72 3634 3700
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 72 3634 3666 "gAssistant.ml" 72 3634 3700
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+"gAssistant.ml" 73 3701 3733 "gAssistant.ml" 73 3701 3763
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkAssistant.Assistant.update_buttons_state
+)
+"gAssistant.ml" 73 3701 3764 "gAssistant.ml" 73 3701 3767
+type(
+  'a Gtk.obj
+)
+"gAssistant.ml" 73 3701 3733 "gAssistant.ml" 73 3701 3767
+type(
+  unit
+)
+type(
+  unit
+)
+"gAssistant.ml" 80 3836 3840 "gAssistant.ml" 80 3836 3854
+type(
+  create:(([> `container | `widget | `window ] as 'a) Gobject.param list ->
+          (#GWindow.window_skel as 'b)) ->
+  'a Gobject.param list ->
+  ?title:string ->
+  ?allow_grow:bool ->
+  ?allow_shrink:bool ->
+  ?decorated:bool ->
+  ?deletable:bool ->
+  ?focus_on_map:bool ->
+  ?icon:GdkPixbuf.pixbuf ->
+  ?icon_name:string ->
+  ?modal:bool ->
+  ?position:GtkEnums.window_position ->
+  ?resizable:bool ->
+  ?screen:Gdk.screen ->
+  ?type_hint:GdkEnums.window_type_hint ->
+  ?urgency_hint:bool ->
+  ?wm_name:string ->
+  ?wm_class:string ->
+  ?border_width:int -> ?width:int -> ?height:int -> ?show:bool -> unit -> 'b
+)
+ident(
+  def make_assistant "gAssistant.ml" 89 4156 4156 --
+)
+"gAssistant.ml" 80 3836 3856 "gAssistant.ml" 80 3836 3862
+type(
+  'a Gobject.param list -> 'b
+)
+ident(
+  def create "gAssistant.ml" 81 3865 3867 "gAssistant.ml" 87 4145 4154
+)
+"gAssistant.ml" 81 3865 3867 "gAssistant.ml" 81 3865 3895
+type(
+  cont:('a Gobject.param list ->
+        ?wm_name:string ->
+        ?wm_class:string ->
+        ?border_width:int ->
+        ?width:int -> ?height:int -> ?show:bool -> unit -> 'b) ->
+  'a Gobject.param list ->
+  ?title:string ->
+  ?allow_grow:bool ->
+  ?allow_shrink:bool ->
+  ?decorated:bool ->
+  ?deletable:bool ->
+  ?focus_on_map:bool ->
+  ?icon:GdkPixbuf.pixbuf ->
+  ?icon_name:string ->
+  ?modal:bool ->
+  ?position:GtkEnums.window_position ->
+  ?resizable:bool ->
+  ?screen:Gdk.screen ->
+  ?type_hint:GdkEnums.window_type_hint ->
+  ?urgency_hint:bool ->
+  ?wm_name:string ->
+  ?wm_class:string ->
+  ?border_width:int -> ?width:int -> ?height:int -> ?show:bool -> unit -> 'b
+)
+ident(
+  ext_ref GtkWindow.Window.make_params
+)
+"gAssistant.ml" 81 3865 3907 "gAssistant.ml" 81 3865 3909
+type(
+  'a Gobject.param list
+)
+ident(
+  def pl "gAssistant.ml" 81 3865 3910 "gAssistant.ml" 87 4145 4153
+)
+"gAssistant.ml" 81 3865 3911 "gAssistant.ml" 81 3865 3918
+type(
+  string option
+)
+ident(
+  def wm_name "gAssistant.ml" 81 3865 3919 "gAssistant.ml" 87 4145 4153
+)
+"gAssistant.ml" 81 3865 3920 "gAssistant.ml" 81 3865 3928
+type(
+  string option
+)
+ident(
+  def wm_class "gAssistant.ml" 82 3932 3936 "gAssistant.ml" 87 4145 4153
+)
+"gAssistant.ml" 82 3932 3936 "gAssistant.ml" 82 3932 3957
+type(
+  cont:('a Gobject.param list -> ?show:bool -> unit -> 'b) ->
+  'a Gobject.param list ->
+  ?border_width:int -> ?width:int -> ?height:int -> ?show:bool -> unit -> 'b
+)
+ident(
+  ext_ref GtkBase.Container.make_params
+)
+"gAssistant.ml" 82 3932 3958 "gAssistant.ml" 82 3932 3960
+type(
+  'a Gobject.param list
+)
+ident(
+  int_ref pl "gAssistant.ml" 81 3865 3907 "gAssistant.ml" 81 3865 3909
+)
+"gAssistant.ml" 82 3932 3972 "gAssistant.ml" 82 3932 3974
+type(
+  'a Gobject.param list
+)
+ident(
+  def pl "gAssistant.ml" 82 3932 3975 "gAssistant.ml" 87 4145 4152
+)
+"gAssistant.ml" 82 3932 3977 "gAssistant.ml" 82 3932 3981
+type(
+  bool
+)
+"gAssistant.ml" 82 3932 3982 "gAssistant.ml" 82 3932 3987
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gAssistant.ml" 82 3932 3982 "gAssistant.ml" 82 3932 3987
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gAssistant.ml" 82 3932 3982 "gAssistant.ml" 82 3932 3987
+)
+"gAssistant.ml" 82 3932 3989 "gAssistant.ml" 82 3932 3991
+type(
+  unit
+)
+"gAssistant.ml" 83 3995 4006 "gAssistant.ml" 83 3995 4007
+type(
+  'b
+)
+"gAssistant.ml" 83 3995 4034 "gAssistant.ml" 83 3995 4040
+type(
+  'a Gobject.param list -> 'b
+)
+ident(
+  int_ref create "gAssistant.ml" 80 3836 3856 "gAssistant.ml" 80 3836 3862
+)
+"gAssistant.ml" 83 3995 4041 "gAssistant.ml" 83 3995 4043
+type(
+  'a Gobject.param list
+)
+ident(
+  int_ref pl "gAssistant.ml" 82 3932 3972 "gAssistant.ml" 82 3932 3974
+)
+"gAssistant.ml" 83 3995 4034 "gAssistant.ml" 83 3995 4043
+call(
+  stack
+)
+type(
+  'b
+)
+"gAssistant.ml" 84 4047 4053 "gAssistant.ml" 84 4047 4056
+type(
+  f:(string -> unit) -> string option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gAssistant.ml" 84 4047 4057 "gAssistant.ml" 84 4047 4058
+type(
+  'b
+)
+ident(
+  int_ref w "gAssistant.ml" 83 3995 4006 "gAssistant.ml" 83 3995 4007
+)
+"gAssistant.ml" 84 4047 4057 "gAssistant.ml" 84 4047 4070
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"gAssistant.ml" 84 4047 4071 "gAssistant.ml" 84 4047 4078
+type(
+  string option
+)
+ident(
+  int_ref wm_name "gAssistant.ml" 81 3865 3911 "gAssistant.ml" 81 3865 3918
+)
+"gAssistant.ml" 84 4047 4053 "gAssistant.ml" 84 4047 4078
+call(
+  stack
+)
+type(
+  unit
+)
+"gAssistant.ml" 85 4080 4086 "gAssistant.ml" 85 4080 4089
+type(
+  f:(string -> unit) -> string option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gAssistant.ml" 85 4080 4090 "gAssistant.ml" 85 4080 4091
+type(
+  'b
+)
+ident(
+  int_ref w "gAssistant.ml" 83 3995 4006 "gAssistant.ml" 83 3995 4007
+)
+"gAssistant.ml" 85 4080 4090 "gAssistant.ml" 85 4080 4104
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"gAssistant.ml" 85 4080 4105 "gAssistant.ml" 85 4080 4113
+type(
+  string option
+)
+ident(
+  int_ref wm_class "gAssistant.ml" 81 3865 3920 "gAssistant.ml" 81 3865 3928
+)
+"gAssistant.ml" 85 4080 4086 "gAssistant.ml" 85 4080 4113
+call(
+  stack
+)
+type(
+  unit
+)
+"gAssistant.ml" 86 4115 4124 "gAssistant.ml" 86 4115 4128
+type(
+  bool
+)
+ident(
+  int_ref show "gAssistant.ml" 82 3932 3977 "gAssistant.ml" 82 3932 3981
+)
+"gAssistant.ml" 86 4115 4134 "gAssistant.ml" 86 4115 4135
+type(
+  'b
+)
+ident(
+  int_ref w "gAssistant.ml" 83 3995 4006 "gAssistant.ml" 83 3995 4007
+)
+"gAssistant.ml" 86 4115 4134 "gAssistant.ml" 86 4115 4140
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gAssistant.ml" 86 4115 4141 "gAssistant.ml" 86 4115 4143
+type(
+  unit
+)
+"gAssistant.ml" 86 4115 4134 "gAssistant.ml" 86 4115 4143
+type(
+  unit
+)
+"gAssistant.ml" 86 4115 4121 "gAssistant.ml" 86 4115 4143
+type(
+  unit
+)
+"gAssistant.ml" 87 4145 4151 "gAssistant.ml" 87 4145 4152
+type(
+  'b
+)
+ident(
+  int_ref w "gAssistant.ml" 83 3995 4006 "gAssistant.ml" 83 3995 4007
+)
+"gAssistant.ml" 86 4115 4121 "gAssistant.ml" 87 4145 4152
+type(
+  'b
+)
+"gAssistant.ml" 85 4080 4086 "gAssistant.ml" 87 4145 4152
+type(
+  'b
+)
+"gAssistant.ml" 84 4047 4053 "gAssistant.ml" 87 4145 4152
+type(
+  'b
+)
+"gAssistant.ml" 83 3995 4001 "gAssistant.ml" 87 4145 4152
+type(
+  'b
+)
+"gAssistant.ml" 82 3932 3967 "gAssistant.ml" 87 4145 4153
+type(
+  'a Gobject.param list -> ?show:bool -> unit -> 'b
+)
+"gAssistant.ml" 82 3932 3936 "gAssistant.ml" 87 4145 4153
+call(
+  tail
+)
+type(
+  ?border_width:int -> ?width:int -> ?height:int -> ?show:bool -> unit -> 'b
+)
+"gAssistant.ml" 81 3865 3902 "gAssistant.ml" 87 4145 4154
+type(
+  'a Gobject.param list ->
+  ?wm_name:string ->
+  ?wm_class:string ->
+  ?border_width:int -> ?width:int -> ?height:int -> ?show:bool -> unit -> 'b
+)
+"gAssistant.ml" 81 3865 3867 "gAssistant.ml" 87 4145 4154
+call(
+  tail
+)
+type(
+  'a Gobject.param list ->
+  ?title:string ->
+  ?allow_grow:bool ->
+  ?allow_shrink:bool ->
+  ?decorated:bool ->
+  ?deletable:bool ->
+  ?focus_on_map:bool ->
+  ?icon:GdkPixbuf.pixbuf ->
+  ?icon_name:string ->
+  ?modal:bool ->
+  ?position:GtkEnums.window_position ->
+  ?resizable:bool ->
+  ?screen:Gdk.screen ->
+  ?type_hint:GdkEnums.window_type_hint ->
+  ?urgency_hint:bool ->
+  ?wm_name:string ->
+  ?wm_class:string ->
+  ?border_width:int -> ?width:int -> ?height:int -> ?show:bool -> unit -> 'b
+)
+"gAssistant.ml" 89 4156 4160 "gAssistant.ml" 89 4156 4169
+type(
+  ?title:string ->
+  ?allow_grow:bool ->
+  ?allow_shrink:bool ->
+  ?decorated:bool ->
+  ?deletable:bool ->
+  ?focus_on_map:bool ->
+  ?icon:GdkPixbuf.pixbuf ->
+  ?icon_name:string ->
+  ?modal:bool ->
+  ?position:GtkEnums.window_position ->
+  ?resizable:bool ->
+  ?screen:Gdk.screen ->
+  ?type_hint:GdkEnums.window_type_hint ->
+  ?urgency_hint:bool ->
+  ?wm_name:string ->
+  ?wm_class:string ->
+  ?border_width:int ->
+  ?width:int -> ?height:int -> ?show:bool -> unit -> assistant
+)
+ident(
+  def assistant "gAssistant.ml" 90 4172 4247 --
+)
+"gAssistant.ml" 90 4172 4174 "gAssistant.ml" 90 4172 4188
+type(
+  create:((_[> `container | `widget | `window ] as 'a) Gobject.param list ->
+          assistant) ->
+  'a Gobject.param list ->
+  ?title:string ->
+  ?allow_grow:bool ->
+  ?allow_shrink:bool ->
+  ?decorated:bool ->
+  ?deletable:bool ->
+  ?focus_on_map:bool ->
+  ?icon:GdkPixbuf.pixbuf ->
+  ?icon_name:string ->
+  ?modal:bool ->
+  ?position:GtkEnums.window_position ->
+  ?resizable:bool ->
+  ?screen:Gdk.screen ->
+  ?type_hint:GdkEnums.window_type_hint ->
+  ?urgency_hint:bool ->
+  ?wm_name:string ->
+  ?wm_class:string ->
+  ?border_width:int ->
+  ?width:int -> ?height:int -> ?show:bool -> unit -> assistant
+)
+ident(
+  int_ref make_assistant "gAssistant.ml" 80 3836 3840 "gAssistant.ml" 80 3836 3854
+)
+"gAssistant.ml" 90 4172 4189 "gAssistant.ml" 90 4172 4191
+type(
+  'a Gobject.param list
+)
+"gAssistant.ml" 90 4172 4205 "gAssistant.ml" 90 4172 4207
+type(
+  'a Gobject.param list
+)
+ident(
+  def pl "gAssistant.ml" 90 4172 4211 "gAssistant.ml" 90 4172 4246
+)
+"gAssistant.ml" 90 4172 4211 "gAssistant.ml" 90 4172 4224
+type(
+  Gtk.assistant Gtk.obj -> assistant
+)
+"gAssistant.ml" 90 4172 4226 "gAssistant.ml" 90 4172 4242
+type(
+  Gtk.assistant Gobject.param list -> Gtk.assistant Gtk.obj
+)
+ident(
+  ext_ref GtkAssistant.Assistant.create
+)
+"gAssistant.ml" 90 4172 4243 "gAssistant.ml" 90 4172 4245
+type(
+  Gtk.assistant Gobject.param list
+)
+"gAssistant.ml" 90 4172 4225 "gAssistant.ml" 90 4172 4246
+call(
+  stack
+)
+type(
+  Gtk.assistant Gtk.obj
+)
+"gAssistant.ml" 90 4172 4211 "gAssistant.ml" 90 4172 4246
+call(
+  tail
+)
+type(
+  assistant
+)
+"gAssistant.ml" 90 4172 4200 "gAssistant.ml" 90 4172 4247
+type(
+  'a Gobject.param list -> assistant
+)
+"gAssistant.ml" 90 4172 4174 "gAssistant.ml" 90 4172 4247
+call(
+  stack
+)
+type(
+  ?title:string ->
+  ?allow_grow:bool ->
+  ?allow_shrink:bool ->
+  ?decorated:bool ->
+  ?deletable:bool ->
+  ?focus_on_map:bool ->
+  ?icon:GdkPixbuf.pixbuf ->
+  ?icon_name:string ->
+  ?modal:bool ->
+  ?position:GtkEnums.window_position ->
+  ?resizable:bool ->
+  ?screen:Gdk.screen ->
+  ?type_hint:GdkEnums.window_type_hint ->
+  ?urgency_hint:bool ->
+  ?wm_name:string ->
+  ?wm_class:string ->
+  ?border_width:int ->
+  ?width:int -> ?height:int -> ?show:bool -> unit -> assistant
+)

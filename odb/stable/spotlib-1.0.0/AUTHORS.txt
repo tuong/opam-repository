@@ -1,0 +1,5 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: 63582a408b9848b727b92904ac3074af) *)
+Authors of spotlib
+Jun FURUSE
+(* OASIS_STOP *)

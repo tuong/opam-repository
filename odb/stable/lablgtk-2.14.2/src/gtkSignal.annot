@@ -1,0 +1,4174 @@
+"gtkSignal.ml" 33 1848 1852 "gtkSignal.ml" 33 1848 1866
+type(
+  (unit -> unit) ref
+)
+ident(
+  def enter_callback "gtkSignal.ml" 36 1930 1930 --
+)
+"gtkSignal.ml" 33 1848 1869 "gtkSignal.ml" 33 1848 1872
+type(
+  (unit -> unit) -> (unit -> unit) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gtkSignal.ml" 33 1848 1878 "gtkSignal.ml" 33 1848 1880
+type(
+  unit
+)
+"gtkSignal.ml" 33 1848 1884 "gtkSignal.ml" 33 1848 1886
+type(
+  unit
+)
+"gtkSignal.ml" 33 1848 1873 "gtkSignal.ml" 33 1848 1887
+type(
+  unit -> unit
+)
+"gtkSignal.ml" 33 1848 1869 "gtkSignal.ml" 33 1848 1887
+type(
+  (unit -> unit) ref
+)
+"gtkSignal.ml" 34 1888 1892 "gtkSignal.ml" 34 1888 1905
+type(
+  (unit -> unit) ref
+)
+ident(
+  def exit_callback "gtkSignal.ml" 36 1930 1930 --
+)
+"gtkSignal.ml" 34 1888 1908 "gtkSignal.ml" 34 1888 1911
+type(
+  (unit -> unit) -> (unit -> unit) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gtkSignal.ml" 34 1888 1917 "gtkSignal.ml" 34 1888 1919
+type(
+  unit
+)
+"gtkSignal.ml" 34 1888 1923 "gtkSignal.ml" 34 1888 1925
+type(
+  unit
+)
+"gtkSignal.ml" 34 1888 1912 "gtkSignal.ml" 34 1888 1926
+type(
+  unit -> unit
+)
+"gtkSignal.ml" 34 1888 1908 "gtkSignal.ml" 34 1888 1926
+type(
+  (unit -> unit) ref
+)
+"gtkSignal.ml" 36 1930 1934 "gtkSignal.ml" 36 1930 1947
+type(
+  bool ref
+)
+ident(
+  def stop_emit_ref "gtkSignal.ml" 38 1963 1963 --
+)
+"gtkSignal.ml" 36 1930 1950 "gtkSignal.ml" 36 1930 1953
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gtkSignal.ml" 36 1930 1954 "gtkSignal.ml" 36 1930 1959
+type(
+  bool
+)
+"gtkSignal.ml" 36 1930 1950 "gtkSignal.ml" 36 1930 1959
+type(
+  bool ref
+)
+"gtkSignal.ml" 38 1963 1967 "gtkSignal.ml" 38 1963 1976
+type(
+  unit -> unit
+)
+ident(
+  def stop_emit "gtkSignal.ml" 40 2007 2007 --
+)
+"gtkSignal.ml" 38 1963 1977 "gtkSignal.ml" 38 1963 1979
+type(
+  unit
+)
+"gtkSignal.ml" 38 1963 1982 "gtkSignal.ml" 38 1963 1995
+type(
+  bool ref
+)
+ident(
+  int_ref stop_emit_ref "gtkSignal.ml" 36 1930 1934 "gtkSignal.ml" 36 1930 1947
+)
+"gtkSignal.ml" 38 1963 1996 "gtkSignal.ml" 38 1963 1998
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gtkSignal.ml" 38 1963 1999 "gtkSignal.ml" 38 1963 2003
+type(
+  bool
+)
+"gtkSignal.ml" 38 1963 1982 "gtkSignal.ml" 38 1963 2003
+type(
+  unit
+)
+"gtkSignal.ml" 42 2043 2047 "gtkSignal.ml" 42 2043 2060
+type(
+  unit -> saved_state
+)
+ident(
+  def push_callback "gtkSignal.ml" 46 2160 2160 --
+)
+"gtkSignal.ml" 42 2043 2061 "gtkSignal.ml" 42 2043 2063
+type(
+  unit
+)
+"gtkSignal.ml" 43 2066 2069 "gtkSignal.ml" 43 2066 2070
+type(
+  (unit -> unit) ref -> unit -> unit
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkSignal.ml" 43 2066 2070 "gtkSignal.ml" 43 2066 2084
+type(
+  (unit -> unit) ref
+)
+ident(
+  int_ref enter_callback "gtkSignal.ml" 33 1848 1852 "gtkSignal.ml" 33 1848 1866
+)
+"gtkSignal.ml" 43 2066 2069 "gtkSignal.ml" 43 2066 2084
+type(
+  unit -> unit
+)
+"gtkSignal.ml" 43 2066 2085 "gtkSignal.ml" 43 2066 2087
+type(
+  unit
+)
+"gtkSignal.ml" 43 2066 2069 "gtkSignal.ml" 43 2066 2087
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkSignal.ml" 44 2089 2096 "gtkSignal.ml" 44 2089 2099
+type(
+  bool
+)
+"gtkSignal.ml" 44 2089 2102 "gtkSignal.ml" 44 2089 2103
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkSignal.ml" 44 2089 2103 "gtkSignal.ml" 44 2089 2116
+type(
+  bool ref
+)
+ident(
+  int_ref stop_emit_ref "gtkSignal.ml" 36 1930 1934 "gtkSignal.ml" 36 1930 1947
+)
+"gtkSignal.ml" 44 2089 2102 "gtkSignal.ml" 44 2089 2116
+type(
+  bool
+)
+"gtkSignal.ml" 44 2089 2121 "gtkSignal.ml" 44 2089 2134
+type(
+  bool ref
+)
+ident(
+  int_ref stop_emit_ref "gtkSignal.ml" 36 1930 1934 "gtkSignal.ml" 36 1930 1947
+)
+"gtkSignal.ml" 44 2089 2135 "gtkSignal.ml" 44 2089 2137
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gtkSignal.ml" 44 2089 2138 "gtkSignal.ml" 44 2089 2143
+type(
+  bool
+)
+"gtkSignal.ml" 44 2089 2121 "gtkSignal.ml" 44 2089 2143
+type(
+  unit
+)
+"gtkSignal.ml" 44 2089 2151 "gtkSignal.ml" 44 2089 2154
+type(
+  bool
+)
+ident(
+  int_ref old "gtkSignal.ml" 44 2089 2096 "gtkSignal.ml" 44 2089 2099
+)
+"gtkSignal.ml" 44 2089 2145 "gtkSignal.ml" 44 2089 2154
+type(
+  saved_state
+)
+"gtkSignal.ml" 44 2089 2120 "gtkSignal.ml" 44 2089 2155
+type(
+  saved_state
+)
+"gtkSignal.ml" 44 2089 2092 "gtkSignal.ml" 44 2089 2155
+type(
+  saved_state
+)
+"gtkSignal.ml" 43 2066 2068 "gtkSignal.ml" 44 2089 2156
+type(
+  saved_state
+)
+"gtkSignal.ml" 46 2160 2164 "gtkSignal.ml" 46 2160 2176
+type(
+  saved_state -> bool
+)
+ident(
+  def pop_callback "gtkSignal.ml" 52 2297 2297 --
+)
+"gtkSignal.ml" 48 2190 2200 "gtkSignal.ml" 48 2190 2203
+type(
+  bool
+)
+ident(
+  def old "gtkSignal.ml" 49 2207 2213 "gtkSignal.ml" 50 2238 2293
+)
+"gtkSignal.ml" 48 2190 2194 "gtkSignal.ml" 48 2190 2203
+type(
+  saved_state
+)
+"gtkSignal.ml" 49 2207 2217 "gtkSignal.ml" 49 2207 2220
+type(
+  bool
+)
+"gtkSignal.ml" 49 2207 2223 "gtkSignal.ml" 49 2207 2224
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkSignal.ml" 49 2207 2224 "gtkSignal.ml" 49 2207 2237
+type(
+  bool ref
+)
+ident(
+  int_ref stop_emit_ref "gtkSignal.ml" 36 1930 1934 "gtkSignal.ml" 36 1930 1947
+)
+"gtkSignal.ml" 49 2207 2223 "gtkSignal.ml" 49 2207 2237
+type(
+  bool
+)
+"gtkSignal.ml" 50 2238 2248 "gtkSignal.ml" 50 2238 2261
+type(
+  bool ref
+)
+ident(
+  int_ref stop_emit_ref "gtkSignal.ml" 36 1930 1934 "gtkSignal.ml" 36 1930 1947
+)
+"gtkSignal.ml" 50 2238 2262 "gtkSignal.ml" 50 2238 2264
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gtkSignal.ml" 50 2238 2265 "gtkSignal.ml" 50 2238 2268
+type(
+  bool
+)
+ident(
+  int_ref old "gtkSignal.ml" 48 2190 2200 "gtkSignal.ml" 48 2190 2203
+)
+"gtkSignal.ml" 50 2238 2248 "gtkSignal.ml" 50 2238 2268
+type(
+  unit
+)
+"gtkSignal.ml" 50 2238 2270 "gtkSignal.ml" 50 2238 2271
+type(
+  (unit -> unit) ref -> unit -> unit
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkSignal.ml" 50 2238 2271 "gtkSignal.ml" 50 2238 2284
+type(
+  (unit -> unit) ref
+)
+ident(
+  int_ref exit_callback "gtkSignal.ml" 34 1888 1892 "gtkSignal.ml" 34 1888 1905
+)
+"gtkSignal.ml" 50 2238 2270 "gtkSignal.ml" 50 2238 2284
+type(
+  unit -> unit
+)
+"gtkSignal.ml" 50 2238 2285 "gtkSignal.ml" 50 2238 2287
+type(
+  unit
+)
+"gtkSignal.ml" 50 2238 2270 "gtkSignal.ml" 50 2238 2287
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkSignal.ml" 50 2238 2289 "gtkSignal.ml" 50 2238 2292
+type(
+  bool
+)
+ident(
+  int_ref res "gtkSignal.ml" 49 2207 2217 "gtkSignal.ml" 49 2207 2220
+)
+"gtkSignal.ml" 50 2238 2270 "gtkSignal.ml" 50 2238 2292
+type(
+  bool
+)
+"gtkSignal.ml" 50 2238 2247 "gtkSignal.ml" 50 2238 2293
+type(
+  bool
+)
+"gtkSignal.ml" 49 2207 2213 "gtkSignal.ml" 50 2238 2293
+type(
+  bool
+)
+"gtkSignal.ml" 47 2179 2181 "gtkSignal.ml" 50 2238 2293
+type(
+  saved_state -> bool
+)
+"gtkSignal.ml" 52 2297 2301 "gtkSignal.ml" 52 2297 2313
+type(
+  (exn -> unit) ref
+)
+ident(
+  def user_handler "gtkSignal.ml" 54 2329 2329 --
+)
+"gtkSignal.ml" 52 2297 2316 "gtkSignal.ml" 52 2297 2319
+type(
+  (exn -> unit) -> (exn -> unit) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gtkSignal.ml" 52 2297 2320 "gtkSignal.ml" 52 2297 2325
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gtkSignal.ml" 52 2297 2316 "gtkSignal.ml" 52 2297 2325
+type(
+  (exn -> unit) ref
+)
+"gtkSignal.ml" 54 2329 2333 "gtkSignal.ml" 54 2329 2342
+type(
+  ?where:string -> ('a -> unit) -> 'a -> unit
+)
+ident(
+  def safe_call "gtkSignal.ml" 68 2712 2712 --
+)
+"gtkSignal.ml" 54 2329 2345 "gtkSignal.ml" 54 2329 2350
+type(
+  string
+)
+"gtkSignal.ml" 54 2329 2353 "gtkSignal.ml" 54 2329 2368
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "gtkSignal.ml" 54 2329 2353 "gtkSignal.ml" 54 2329 2368
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "gtkSignal.ml" 54 2329 2353 "gtkSignal.ml" 54 2329 2368
+)
+"gtkSignal.ml" 54 2329 2370 "gtkSignal.ml" 54 2329 2371
+type(
+  'a -> unit
+)
+ident(
+  def f "gtkSignal.ml" 54 2329 2372 "gtkSignal.ml" 66 2682 2708
+)
+"gtkSignal.ml" 54 2329 2372 "gtkSignal.ml" 54 2329 2373
+type(
+  'a
+)
+ident(
+  def x "gtkSignal.ml" 55 2376 2378 "gtkSignal.ml" 66 2682 2708
+)
+"gtkSignal.ml" 55 2376 2382 "gtkSignal.ml" 55 2376 2383
+type(
+  'a -> unit
+)
+ident(
+  int_ref f "gtkSignal.ml" 54 2329 2370 "gtkSignal.ml" 54 2329 2371
+)
+"gtkSignal.ml" 55 2376 2384 "gtkSignal.ml" 55 2376 2385
+type(
+  'a
+)
+ident(
+  int_ref x "gtkSignal.ml" 54 2329 2372 "gtkSignal.ml" 54 2329 2373
+)
+"gtkSignal.ml" 55 2376 2382 "gtkSignal.ml" 55 2376 2385
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkSignal.ml" 57 2393 2397 "gtkSignal.ml" 57 2393 2400
+type(
+  exn
+)
+ident(
+  def exn "gtkSignal.ml" 58 2404 2410 "gtkSignal.ml" 66 2682 2708
+)
+"gtkSignal.ml" 58 2404 2415 "gtkSignal.ml" 58 2404 2416
+type(
+  (exn -> unit) ref -> exn -> unit
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkSignal.ml" 58 2404 2416 "gtkSignal.ml" 58 2404 2428
+type(
+  (exn -> unit) ref
+)
+ident(
+  int_ref user_handler "gtkSignal.ml" 52 2297 2301 "gtkSignal.ml" 52 2297 2313
+)
+"gtkSignal.ml" 58 2404 2415 "gtkSignal.ml" 58 2404 2428
+type(
+  exn -> unit
+)
+"gtkSignal.ml" 58 2404 2429 "gtkSignal.ml" 58 2404 2432
+type(
+  exn
+)
+ident(
+  int_ref exn "gtkSignal.ml" 57 2393 2397 "gtkSignal.ml" 57 2393 2400
+)
+"gtkSignal.ml" 58 2404 2415 "gtkSignal.ml" 58 2404 2432
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkSignal.ml" 60 2445 2454 "gtkSignal.ml" 60 2445 2457
+type(
+  exn
+)
+ident(
+  def exn "gtkSignal.ml" 61 2461 2472 "gtkSignal.ml" 66 2682 2707
+)
+"gtkSignal.ml" 61 2461 2473 "gtkSignal.ml" 61 2461 2487
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"gtkSignal.ml" 61 2461 2488 "gtkSignal.ml" 61 2461 2521
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"gtkSignal.ml" 61 2461 2522 "gtkSignal.ml" 61 2461 2527
+type(
+  string
+)
+ident(
+  int_ref where "gtkSignal.ml" 54 2329 2345 "gtkSignal.ml" 54 2329 2350
+)
+"gtkSignal.ml" 62 2528 2543 "gtkSignal.ml" 62 2528 2561
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"gtkSignal.ml" 62 2528 2562 "gtkSignal.ml" 62 2528 2565
+type(
+  exn
+)
+ident(
+  int_ref exn "gtkSignal.ml" 60 2445 2454 "gtkSignal.ml" 60 2445 2457
+)
+"gtkSignal.ml" 62 2528 2542 "gtkSignal.ml" 62 2528 2566
+call(
+  stack
+)
+type(
+  string
+)
+"gtkSignal.ml" 61 2461 2473 "gtkSignal.ml" 62 2528 2566
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkSignal.ml" 63 2568 2583 "gtkSignal.ml" 63 2568 2608
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Printexc.backtrace_status
+)
+"gtkSignal.ml" 63 2568 2609 "gtkSignal.ml" 63 2568 2611
+type(
+  unit
+)
+"gtkSignal.ml" 63 2568 2583 "gtkSignal.ml" 63 2568 2611
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkSignal.ml" 64 2612 2629 "gtkSignal.ml" 64 2612 2653
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Printexc.print_backtrace
+)
+"gtkSignal.ml" 64 2612 2654 "gtkSignal.ml" 64 2612 2660
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"gtkSignal.ml" 64 2612 2629 "gtkSignal.ml" 64 2612 2660
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkSignal.ml" 65 2661 2678 "gtkSignal.ml" 65 2661 2680
+type(
+  unit
+)
+"gtkSignal.ml" 63 2568 2580 "gtkSignal.ml" 65 2661 2680
+type(
+  unit
+)
+"gtkSignal.ml" 66 2682 2694 "gtkSignal.ml" 66 2682 2699
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"gtkSignal.ml" 66 2682 2700 "gtkSignal.ml" 66 2682 2706
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"gtkSignal.ml" 66 2682 2694 "gtkSignal.ml" 66 2682 2706
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkSignal.ml" 63 2568 2580 "gtkSignal.ml" 66 2682 2706
+type(
+  unit
+)
+"gtkSignal.ml" 61 2461 2472 "gtkSignal.ml" 66 2682 2707
+type(
+  unit
+)
+"gtkSignal.ml" 58 2404 2410 "gtkSignal.ml" 66 2682 2708
+type(
+  unit
+)
+"gtkSignal.ml" 55 2376 2378 "gtkSignal.ml" 66 2682 2708
+type(
+  unit
+)
+"gtkSignal.ml" 75 2948 2952 "gtkSignal.ml" 75 2948 2959
+type(
+  sgn:('a, 'b) t -> callback:'b -> ?after:bool -> 'a Gobject.obj -> id
+)
+ident(
+  def connect "gtkSignal.ml" 87 3381 3381 --
+)
+"gtkSignal.ml" 75 2948 2968 "gtkSignal.ml" 75 2948 2971
+type(
+  ('a, 'b) t
+)
+ident(
+  def sgn "gtkSignal.ml" 75 2948 2986 "gtkSignal.ml" 85 3365 3377
+)
+"gtkSignal.ml" 75 2948 2987 "gtkSignal.ml" 75 2948 2995
+type(
+  'b
+)
+ident(
+  def callback "gtkSignal.ml" 75 2948 2996 "gtkSignal.ml" 85 3365 3377
+)
+"gtkSignal.ml" 75 2948 2998 "gtkSignal.ml" 75 2948 3003
+type(
+  bool
+)
+"gtkSignal.ml" 75 2948 3006 "gtkSignal.ml" 75 2948 3011
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gtkSignal.ml" 75 2948 3006 "gtkSignal.ml" 75 2948 3011
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gtkSignal.ml" 75 2948 3006 "gtkSignal.ml" 75 2948 3011
+)
+"gtkSignal.ml" 76 3013 3026 "gtkSignal.ml" 76 3013 3029
+type(
+  'a Gobject.obj
+)
+ident(
+  def obj "gtkSignal.ml" 77 3042 3044 "gtkSignal.ml" 85 3365 3377
+)
+"gtkSignal.ml" 77 3042 3048 "gtkSignal.ml" 77 3042 3056
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkSignal.ml" 77 3042 3057 "gtkSignal.ml" 77 3042 3061
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkSignal.ml" 78 3064 3068 "gtkSignal.ml" 82 3204 3282
+)
+"gtkSignal.ml" 78 3064 3072 "gtkSignal.ml" 78 3064 3075
+type(
+  saved_state
+)
+"gtkSignal.ml" 78 3064 3078 "gtkSignal.ml" 78 3064 3091
+type(
+  unit -> saved_state
+)
+ident(
+  int_ref push_callback "gtkSignal.ml" 42 2043 2047 "gtkSignal.ml" 42 2043 2060
+)
+"gtkSignal.ml" 78 3064 3092 "gtkSignal.ml" 78 3064 3094
+type(
+  unit
+)
+"gtkSignal.ml" 78 3064 3078 "gtkSignal.ml" 78 3064 3094
+call(
+  stack
+)
+type(
+  saved_state
+)
+"gtkSignal.ml" 80 3102 3109 "gtkSignal.ml" 80 3102 3118
+type(
+  ?where:string ->
+  (Gobject.Closure.argv -> unit) -> Gobject.Closure.argv -> unit
+)
+ident(
+  int_ref safe_call "gtkSignal.ml" 54 2329 2333 "gtkSignal.ml" 54 2329 2342
+)
+"gtkSignal.ml" 80 3102 3120 "gtkSignal.ml" 80 3102 3123
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref sgn "gtkSignal.ml" 75 2948 2968 "gtkSignal.ml" 75 2948 2971
+)
+"gtkSignal.ml" 80 3102 3120 "gtkSignal.ml" 80 3102 3134
+type(
+  'b marshaller
+)
+"gtkSignal.ml" 80 3102 3135 "gtkSignal.ml" 80 3102 3143
+type(
+  'b
+)
+ident(
+  int_ref callback "gtkSignal.ml" 75 2948 2987 "gtkSignal.ml" 75 2948 2995
+)
+"gtkSignal.ml" 80 3102 3119 "gtkSignal.ml" 80 3102 3144
+call(
+  stack
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkSignal.ml" 80 3102 3145 "gtkSignal.ml" 80 3102 3149
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 77 3042 3057 "gtkSignal.ml" 77 3042 3061
+)
+"gtkSignal.ml" 81 3150 3168 "gtkSignal.ml" 81 3150 3190
+type(
+  string
+)
+"gtkSignal.ml" 81 3150 3191 "gtkSignal.ml" 81 3150 3192
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gtkSignal.ml" 81 3150 3193 "gtkSignal.ml" 81 3150 3196
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref sgn "gtkSignal.ml" 75 2948 2968 "gtkSignal.ml" 75 2948 2971
+)
+"gtkSignal.ml" 81 3150 3193 "gtkSignal.ml" 81 3150 3201
+type(
+  string
+)
+"gtkSignal.ml" 81 3150 3167 "gtkSignal.ml" 81 3150 3202
+call(
+  stack
+)
+type(
+  string
+)
+"gtkSignal.ml" 80 3102 3109 "gtkSignal.ml" 81 3150 3202
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkSignal.ml" 82 3204 3214 "gtkSignal.ml" 82 3204 3226
+type(
+  saved_state -> bool
+)
+ident(
+  int_ref pop_callback "gtkSignal.ml" 46 2160 2164 "gtkSignal.ml" 46 2160 2176
+)
+"gtkSignal.ml" 82 3204 3227 "gtkSignal.ml" 82 3204 3230
+type(
+  saved_state
+)
+ident(
+  int_ref old "gtkSignal.ml" 78 3064 3072 "gtkSignal.ml" 78 3064 3075
+)
+"gtkSignal.ml" 82 3204 3214 "gtkSignal.ml" 82 3204 3230
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkSignal.ml" 82 3204 3236 "gtkSignal.ml" 82 3204 3253
+type(
+  'a Gobject.obj -> name:string -> unit
+)
+"gtkSignal.ml" 82 3204 3254 "gtkSignal.ml" 82 3204 3257
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref obj "gtkSignal.ml" 76 3013 3026 "gtkSignal.ml" 76 3013 3029
+)
+"gtkSignal.ml" 82 3204 3265 "gtkSignal.ml" 82 3204 3268
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref sgn "gtkSignal.ml" 75 2948 2968 "gtkSignal.ml" 75 2948 2971
+)
+"gtkSignal.ml" 82 3204 3265 "gtkSignal.ml" 82 3204 3273
+type(
+  string
+)
+"gtkSignal.ml" 82 3204 3236 "gtkSignal.ml" 82 3204 3273
+type(
+  unit
+)
+"gtkSignal.ml" 82 3204 3279 "gtkSignal.ml" 82 3204 3281
+type(
+  unit
+)
+"gtkSignal.ml" 82 3204 3211 "gtkSignal.ml" 82 3204 3281
+type(
+  unit
+)
+"gtkSignal.ml" 80 3102 3108 "gtkSignal.ml" 82 3204 3282
+type(
+  unit
+)
+"gtkSignal.ml" 78 3064 3068 "gtkSignal.ml" 82 3204 3282
+type(
+  unit
+)
+"gtkSignal.ml" 84 3288 3292 "gtkSignal.ml" 84 3288 3307
+type(
+  'a Gobject.obj ->
+  name:string -> callback:Gobject.g_closure -> after:bool -> id
+)
+"gtkSignal.ml" 84 3288 3308 "gtkSignal.ml" 84 3288 3311
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref obj "gtkSignal.ml" 76 3013 3026 "gtkSignal.ml" 76 3013 3029
+)
+"gtkSignal.ml" 84 3288 3319 "gtkSignal.ml" 84 3288 3322
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref sgn "gtkSignal.ml" 75 2948 2968 "gtkSignal.ml" 75 2948 2971
+)
+"gtkSignal.ml" 84 3288 3319 "gtkSignal.ml" 84 3288 3327
+type(
+  string
+)
+"gtkSignal.ml" 84 3288 3340 "gtkSignal.ml" 84 3288 3354
+type(
+  (Gobject.Closure.argv -> unit) -> Gobject.g_closure
+)
+ident(
+  ext_ref Gobject.Closure.create
+)
+"gtkSignal.ml" 84 3288 3355 "gtkSignal.ml" 84 3288 3363
+type(
+  Gobject.Closure.argv -> unit
+)
+ident(
+  int_ref callback "gtkSignal.ml" 77 3042 3048 "gtkSignal.ml" 77 3042 3056
+)
+"gtkSignal.ml" 84 3288 3339 "gtkSignal.ml" 84 3288 3364
+call(
+  stack
+)
+type(
+  Gobject.g_closure
+)
+"gtkSignal.ml" 85 3365 3372 "gtkSignal.ml" 85 3365 3377
+type(
+  bool
+)
+ident(
+  int_ref after "gtkSignal.ml" 75 2948 2998 "gtkSignal.ml" 75 2948 3003
+)
+"gtkSignal.ml" 84 3288 3292 "gtkSignal.ml" 85 3365 3377
+type(
+  id
+)
+"gtkSignal.ml" 77 3042 3044 "gtkSignal.ml" 85 3365 3377
+type(
+  id
+)
+"gtkSignal.ml" 97 3713 3717 "gtkSignal.ml" 97 3713 3729
+type(
+  (unit -> 'a) -> 'b -> 'a
+)
+ident(
+  def marshal_unit "gtkSignal.ml" 99 3744 3744 --
+)
+"gtkSignal.ml" 97 3713 3730 "gtkSignal.ml" 97 3713 3731
+type(
+  unit -> 'a
+)
+ident(
+  def f "gtkSignal.ml" 97 3713 3732 "gtkSignal.ml" 97 3713 3740
+)
+"gtkSignal.ml" 97 3713 3732 "gtkSignal.ml" 97 3713 3733
+type(
+  'b
+)
+"gtkSignal.ml" 97 3713 3736 "gtkSignal.ml" 97 3713 3737
+type(
+  unit -> 'a
+)
+ident(
+  int_ref f "gtkSignal.ml" 97 3713 3730 "gtkSignal.ml" 97 3713 3731
+)
+"gtkSignal.ml" 97 3713 3738 "gtkSignal.ml" 97 3713 3740
+type(
+  unit
+)
+"gtkSignal.ml" 97 3713 3736 "gtkSignal.ml" 97 3713 3740
+call(
+  tail
+)
+type(
+  'a
+)
+"gtkSignal.ml" 99 3744 3748 "gtkSignal.ml" 99 3744 3759
+type(
+  (int -> 'a) -> Gobject.Closure.argv -> 'a
+)
+ident(
+  def marshal_int "gtkSignal.ml" 104 3880 3880 --
+)
+"gtkSignal.ml" 99 3744 3760 "gtkSignal.ml" 99 3744 3761
+type(
+  int -> 'a
+)
+ident(
+  def f "gtkSignal.ml" 99 3744 3762 "gtkSignal.ml" 102 3832 3876
+)
+"gtkSignal.ml" 99 3744 3762 "gtkSignal.ml" 99 3744 3766
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkSignal.ml" 100 3769 3771 "gtkSignal.ml" 102 3832 3876
+)
+"gtkSignal.ml" 100 3769 3777 "gtkSignal.ml" 100 3769 3793
+type(
+  Gobject.Closure.argv -> Gobject.data_get list
+)
+ident(
+  ext_ref Gobject.Closure.get_args
+)
+"gtkSignal.ml" 100 3769 3794 "gtkSignal.ml" 100 3769 3798
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 99 3744 3762 "gtkSignal.ml" 99 3744 3766
+)
+"gtkSignal.ml" 100 3769 3777 "gtkSignal.ml" 100 3769 3798
+call(
+  stack
+)
+type(
+  Gobject.data_get list
+)
+"gtkSignal.ml" 101 3804 3808 "gtkSignal.ml" 101 3804 3809
+type(
+  Gobject.data_get
+)
+"gtkSignal.ml" 101 3804 3818 "gtkSignal.ml" 101 3804 3819
+type(
+  int
+)
+ident(
+  def n "gtkSignal.ml" 101 3804 3828 "gtkSignal.ml" 101 3804 3831
+)
+"gtkSignal.ml" 101 3804 3813 "gtkSignal.ml" 101 3804 3819
+type(
+  Gobject.data_get
+)
+"gtkSignal.ml" 101 3804 3823 "gtkSignal.ml" 101 3804 3824
+type(
+  Gobject.data_get list
+)
+"gtkSignal.ml" 101 3804 3813 "gtkSignal.ml" 101 3804 3824
+type(
+  Gobject.data_get list
+)
+"gtkSignal.ml" 101 3804 3808 "gtkSignal.ml" 101 3804 3824
+type(
+  Gobject.data_get list
+)
+"gtkSignal.ml" 101 3804 3828 "gtkSignal.ml" 101 3804 3829
+type(
+  int -> 'a
+)
+ident(
+  int_ref f "gtkSignal.ml" 99 3744 3760 "gtkSignal.ml" 99 3744 3761
+)
+"gtkSignal.ml" 101 3804 3830 "gtkSignal.ml" 101 3804 3831
+type(
+  int
+)
+ident(
+  int_ref n "gtkSignal.ml" 101 3804 3818 "gtkSignal.ml" 101 3804 3819
+)
+"gtkSignal.ml" 101 3804 3828 "gtkSignal.ml" 101 3804 3831
+call(
+  tail
+)
+type(
+  'a
+)
+"gtkSignal.ml" 102 3832 3836 "gtkSignal.ml" 102 3832 3837
+type(
+  Gobject.data_get list
+)
+"gtkSignal.ml" 102 3832 3841 "gtkSignal.ml" 102 3832 3852
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gtkSignal.ml" 102 3832 3853 "gtkSignal.ml" 102 3832 3876
+type(
+  string
+)
+"gtkSignal.ml" 102 3832 3841 "gtkSignal.ml" 102 3832 3876
+call(
+  tail
+)
+type(
+  'a
+)
+"gtkSignal.ml" 100 3769 3771 "gtkSignal.ml" 102 3832 3876
+type(
+  'a
+)
+"gtkSignal.ml" 104 3880 3884 "gtkSignal.ml" 104 3880 3898
+type(
+  (string -> 'a) -> Gobject.Closure.argv -> 'a
+)
+ident(
+  def marshal_string "gtkSignal.ml" 109 4032 4032 --
+)
+"gtkSignal.ml" 104 3880 3899 "gtkSignal.ml" 104 3880 3900
+type(
+  string -> 'a
+)
+ident(
+  def f "gtkSignal.ml" 104 3880 3901 "gtkSignal.ml" 107 3981 4028
+)
+"gtkSignal.ml" 104 3880 3901 "gtkSignal.ml" 104 3880 3905
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkSignal.ml" 105 3908 3910 "gtkSignal.ml" 107 3981 4028
+)
+"gtkSignal.ml" 105 3908 3916 "gtkSignal.ml" 105 3908 3932
+type(
+  Gobject.Closure.argv -> Gobject.data_get list
+)
+ident(
+  ext_ref Gobject.Closure.get_args
+)
+"gtkSignal.ml" 105 3908 3933 "gtkSignal.ml" 105 3908 3937
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 104 3880 3901 "gtkSignal.ml" 104 3880 3905
+)
+"gtkSignal.ml" 105 3908 3916 "gtkSignal.ml" 105 3908 3937
+call(
+  stack
+)
+type(
+  Gobject.data_get list
+)
+"gtkSignal.ml" 106 3943 3947 "gtkSignal.ml" 106 3943 3948
+type(
+  Gobject.data_get
+)
+"gtkSignal.ml" 106 3943 3966 "gtkSignal.ml" 106 3943 3967
+type(
+  string
+)
+ident(
+  def s "gtkSignal.ml" 106 3943 3977 "gtkSignal.ml" 106 3943 3980
+)
+"gtkSignal.ml" 106 3943 3960 "gtkSignal.ml" 106 3943 3968
+type(
+  string option
+)
+"gtkSignal.ml" 106 3943 3952 "gtkSignal.ml" 106 3943 3968
+type(
+  Gobject.data_get
+)
+"gtkSignal.ml" 106 3943 3972 "gtkSignal.ml" 106 3943 3973
+type(
+  Gobject.data_get list
+)
+"gtkSignal.ml" 106 3943 3952 "gtkSignal.ml" 106 3943 3973
+type(
+  Gobject.data_get list
+)
+"gtkSignal.ml" 106 3943 3947 "gtkSignal.ml" 106 3943 3973
+type(
+  Gobject.data_get list
+)
+"gtkSignal.ml" 106 3943 3977 "gtkSignal.ml" 106 3943 3978
+type(
+  string -> 'a
+)
+ident(
+  int_ref f "gtkSignal.ml" 104 3880 3899 "gtkSignal.ml" 104 3880 3900
+)
+"gtkSignal.ml" 106 3943 3979 "gtkSignal.ml" 106 3943 3980
+type(
+  string
+)
+ident(
+  int_ref s "gtkSignal.ml" 106 3943 3966 "gtkSignal.ml" 106 3943 3967
+)
+"gtkSignal.ml" 106 3943 3977 "gtkSignal.ml" 106 3943 3980
+call(
+  tail
+)
+type(
+  'a
+)
+"gtkSignal.ml" 107 3981 3985 "gtkSignal.ml" 107 3981 3986
+type(
+  Gobject.data_get list
+)
+"gtkSignal.ml" 107 3981 3990 "gtkSignal.ml" 107 3981 4001
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gtkSignal.ml" 107 3981 4002 "gtkSignal.ml" 107 3981 4028
+type(
+  string
+)
+"gtkSignal.ml" 107 3981 3990 "gtkSignal.ml" 107 3981 4028
+call(
+  tail
+)
+type(
+  'a
+)
+"gtkSignal.ml" 105 3908 3910 "gtkSignal.ml" 107 3981 4028
+type(
+  'a
+)
+"gtkSignal.ml" 109 4032 4036 "gtkSignal.ml" 109 4032 4044
+type(
+  'a Gobject.data_conv -> string -> ('a -> 'b) -> Gobject.Closure.argv -> 'b
+)
+ident(
+  def marshal1 "gtkSignal.ml" 115 4200 4200 --
+)
+"gtkSignal.ml" 109 4032 4045 "gtkSignal.ml" 109 4032 4050
+type(
+  'a Gobject.data_conv
+)
+ident(
+  def conv1 "gtkSignal.ml" 109 4032 4051 "gtkSignal.ml" 113 4185 4196
+)
+"gtkSignal.ml" 109 4032 4051 "gtkSignal.ml" 109 4032 4055
+type(
+  string
+)
+ident(
+  def name "gtkSignal.ml" 109 4032 4056 "gtkSignal.ml" 113 4185 4196
+)
+"gtkSignal.ml" 109 4032 4056 "gtkSignal.ml" 109 4032 4057
+type(
+  'a -> 'b
+)
+ident(
+  def f "gtkSignal.ml" 109 4032 4058 "gtkSignal.ml" 113 4185 4196
+)
+"gtkSignal.ml" 109 4032 4058 "gtkSignal.ml" 109 4032 4062
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkSignal.ml" 110 4065 4067 "gtkSignal.ml" 113 4185 4196
+)
+"gtkSignal.ml" 110 4065 4071 "gtkSignal.ml" 110 4065 4075
+type(
+  'a
+)
+"gtkSignal.ml" 111 4078 4086 "gtkSignal.ml" 111 4078 4099
+type(
+  'a Gobject.data_conv -> Gobject.g_value -> 'a
+)
+ident(
+  ext_ref Gobject.Data.of_value
+)
+"gtkSignal.ml" 111 4078 4100 "gtkSignal.ml" 111 4078 4105
+type(
+  'a Gobject.data_conv
+)
+ident(
+  int_ref conv1 "gtkSignal.ml" 109 4032 4045 "gtkSignal.ml" 109 4032 4050
+)
+"gtkSignal.ml" 111 4078 4107 "gtkSignal.ml" 111 4078 4118
+type(
+  Gobject.Closure.argv -> pos:int -> Gobject.g_value
+)
+ident(
+  ext_ref Gobject.Closure.nth
+)
+"gtkSignal.ml" 111 4078 4119 "gtkSignal.ml" 111 4078 4123
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 109 4032 4058 "gtkSignal.ml" 109 4032 4062
+)
+"gtkSignal.ml" 111 4078 4124 "gtkSignal.ml" 111 4078 4125
+type(
+  int
+)
+"gtkSignal.ml" 111 4078 4106 "gtkSignal.ml" 111 4078 4126
+call(
+  stack
+)
+type(
+  Gobject.g_value
+)
+"gtkSignal.ml" 111 4078 4086 "gtkSignal.ml" 111 4078 4126
+call(
+  stack
+)
+type(
+  'a
+)
+"gtkSignal.ml" 112 4127 4138 "gtkSignal.ml" 112 4127 4139
+type(
+  exn
+)
+"gtkSignal.ml" 112 4127 4143 "gtkSignal.ml" 112 4127 4151
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gtkSignal.ml" 112 4127 4153 "gtkSignal.ml" 112 4127 4176
+type(
+  string
+)
+"gtkSignal.ml" 112 4127 4177 "gtkSignal.ml" 112 4127 4178
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gtkSignal.ml" 112 4127 4179 "gtkSignal.ml" 112 4127 4183
+type(
+  string
+)
+ident(
+  int_ref name "gtkSignal.ml" 109 4032 4051 "gtkSignal.ml" 109 4032 4055
+)
+"gtkSignal.ml" 112 4127 4152 "gtkSignal.ml" 112 4127 4184
+call(
+  stack
+)
+type(
+  string
+)
+"gtkSignal.ml" 112 4127 4143 "gtkSignal.ml" 112 4127 4184
+call(
+  stack
+)
+type(
+  'a
+)
+"gtkSignal.ml" 111 4078 4082 "gtkSignal.ml" 112 4127 4184
+type(
+  'a
+)
+"gtkSignal.ml" 113 4185 4190 "gtkSignal.ml" 113 4185 4191
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "gtkSignal.ml" 109 4032 4056 "gtkSignal.ml" 109 4032 4057
+)
+"gtkSignal.ml" 113 4185 4192 "gtkSignal.ml" 113 4185 4196
+type(
+  'a
+)
+ident(
+  int_ref arg1 "gtkSignal.ml" 110 4065 4071 "gtkSignal.ml" 110 4065 4075
+)
+"gtkSignal.ml" 113 4185 4190 "gtkSignal.ml" 113 4185 4196
+call(
+  tail
+)
+type(
+  'b
+)
+"gtkSignal.ml" 110 4065 4067 "gtkSignal.ml" 113 4185 4196
+type(
+  'b
+)
+"gtkSignal.ml" 115 4200 4204 "gtkSignal.ml" 115 4200 4212
+type(
+  'a Gobject.data_conv ->
+  'b Gobject.data_conv ->
+  string -> ('a -> 'b -> 'c) -> Gobject.Closure.argv -> 'c
+)
+ident(
+  def marshal2 "gtkSignal.ml" 122 4444 4444 --
+)
+"gtkSignal.ml" 115 4200 4213 "gtkSignal.ml" 115 4200 4218
+type(
+  'a Gobject.data_conv
+)
+ident(
+  def conv1 "gtkSignal.ml" 115 4200 4219 "gtkSignal.ml" 120 4424 4440
+)
+"gtkSignal.ml" 115 4200 4219 "gtkSignal.ml" 115 4200 4224
+type(
+  'b Gobject.data_conv
+)
+ident(
+  def conv2 "gtkSignal.ml" 115 4200 4225 "gtkSignal.ml" 120 4424 4440
+)
+"gtkSignal.ml" 115 4200 4225 "gtkSignal.ml" 115 4200 4229
+type(
+  string
+)
+ident(
+  def name "gtkSignal.ml" 115 4200 4230 "gtkSignal.ml" 120 4424 4440
+)
+"gtkSignal.ml" 115 4200 4230 "gtkSignal.ml" 115 4200 4231
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def f "gtkSignal.ml" 115 4200 4232 "gtkSignal.ml" 120 4424 4440
+)
+"gtkSignal.ml" 115 4200 4232 "gtkSignal.ml" 115 4200 4236
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkSignal.ml" 116 4239 4241 "gtkSignal.ml" 120 4424 4440
+)
+"gtkSignal.ml" 116 4239 4245 "gtkSignal.ml" 116 4239 4248
+type(
+  'd Gobject.data_conv -> int -> 'd
+)
+"gtkSignal.ml" 116 4239 4249 "gtkSignal.ml" 116 4239 4253
+type(
+  'd Gobject.data_conv
+)
+ident(
+  def conv "gtkSignal.ml" 116 4239 4254 "gtkSignal.ml" 116 4239 4302
+)
+"gtkSignal.ml" 116 4239 4254 "gtkSignal.ml" 116 4239 4257
+type(
+  int
+)
+ident(
+  def pos "gtkSignal.ml" 116 4239 4260 "gtkSignal.ml" 116 4239 4302
+)
+"gtkSignal.ml" 116 4239 4260 "gtkSignal.ml" 116 4239 4273
+type(
+  'd Gobject.data_conv -> Gobject.g_value -> 'd
+)
+ident(
+  ext_ref Gobject.Data.of_value
+)
+"gtkSignal.ml" 116 4239 4274 "gtkSignal.ml" 116 4239 4278
+type(
+  'd Gobject.data_conv
+)
+ident(
+  int_ref conv "gtkSignal.ml" 116 4239 4249 "gtkSignal.ml" 116 4239 4253
+)
+"gtkSignal.ml" 116 4239 4280 "gtkSignal.ml" 116 4239 4291
+type(
+  Gobject.Closure.argv -> pos:int -> Gobject.g_value
+)
+ident(
+  ext_ref Gobject.Closure.nth
+)
+"gtkSignal.ml" 116 4239 4292 "gtkSignal.ml" 116 4239 4296
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 115 4200 4232 "gtkSignal.ml" 115 4200 4236
+)
+"gtkSignal.ml" 116 4239 4298 "gtkSignal.ml" 116 4239 4301
+type(
+  int
+)
+ident(
+  int_ref pos "gtkSignal.ml" 116 4239 4254 "gtkSignal.ml" 116 4239 4257
+)
+"gtkSignal.ml" 116 4239 4279 "gtkSignal.ml" 116 4239 4302
+call(
+  stack
+)
+type(
+  Gobject.g_value
+)
+"gtkSignal.ml" 116 4239 4260 "gtkSignal.ml" 116 4239 4302
+call(
+  tail
+)
+type(
+  'd
+)
+"gtkSignal.ml" 117 4306 4313 "gtkSignal.ml" 117 4306 4317
+type(
+  'a
+)
+"gtkSignal.ml" 117 4306 4319 "gtkSignal.ml" 117 4306 4323
+type(
+  'b
+)
+"gtkSignal.ml" 117 4306 4312 "gtkSignal.ml" 117 4306 4324
+type(
+  'a * 'b
+)
+"gtkSignal.ml" 118 4327 4337 "gtkSignal.ml" 118 4327 4340
+type(
+  'a Gobject.data_conv -> int -> 'a
+)
+ident(
+  int_ref get "gtkSignal.ml" 116 4239 4245 "gtkSignal.ml" 116 4239 4248
+)
+"gtkSignal.ml" 118 4327 4341 "gtkSignal.ml" 118 4327 4346
+type(
+  'a Gobject.data_conv
+)
+ident(
+  int_ref conv1 "gtkSignal.ml" 115 4200 4213 "gtkSignal.ml" 115 4200 4218
+)
+"gtkSignal.ml" 118 4327 4347 "gtkSignal.ml" 118 4327 4348
+type(
+  int
+)
+"gtkSignal.ml" 118 4327 4336 "gtkSignal.ml" 118 4327 4349
+call(
+  stack
+)
+type(
+  'a
+)
+"gtkSignal.ml" 118 4327 4352 "gtkSignal.ml" 118 4327 4355
+type(
+  'b Gobject.data_conv -> int -> 'b
+)
+ident(
+  int_ref get "gtkSignal.ml" 116 4239 4245 "gtkSignal.ml" 116 4239 4248
+)
+"gtkSignal.ml" 118 4327 4356 "gtkSignal.ml" 118 4327 4361
+type(
+  'b Gobject.data_conv
+)
+ident(
+  int_ref conv2 "gtkSignal.ml" 115 4200 4219 "gtkSignal.ml" 115 4200 4224
+)
+"gtkSignal.ml" 118 4327 4362 "gtkSignal.ml" 118 4327 4363
+type(
+  int
+)
+"gtkSignal.ml" 118 4327 4351 "gtkSignal.ml" 118 4327 4364
+call(
+  stack
+)
+type(
+  'b
+)
+"gtkSignal.ml" 118 4327 4335 "gtkSignal.ml" 118 4327 4365
+type(
+  'a * 'b
+)
+"gtkSignal.ml" 119 4366 4377 "gtkSignal.ml" 119 4366 4378
+type(
+  exn
+)
+"gtkSignal.ml" 119 4366 4382 "gtkSignal.ml" 119 4366 4390
+type(
+  string -> 'a * 'b
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gtkSignal.ml" 119 4366 4392 "gtkSignal.ml" 119 4366 4415
+type(
+  string
+)
+"gtkSignal.ml" 119 4366 4416 "gtkSignal.ml" 119 4366 4417
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gtkSignal.ml" 119 4366 4418 "gtkSignal.ml" 119 4366 4422
+type(
+  string
+)
+ident(
+  int_ref name "gtkSignal.ml" 115 4200 4225 "gtkSignal.ml" 115 4200 4229
+)
+"gtkSignal.ml" 119 4366 4391 "gtkSignal.ml" 119 4366 4423
+call(
+  stack
+)
+type(
+  string
+)
+"gtkSignal.ml" 119 4366 4382 "gtkSignal.ml" 119 4366 4423
+call(
+  stack
+)
+type(
+  'a * 'b
+)
+"gtkSignal.ml" 118 4327 4331 "gtkSignal.ml" 119 4366 4423
+type(
+  'a * 'b
+)
+"gtkSignal.ml" 120 4424 4429 "gtkSignal.ml" 120 4424 4430
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  int_ref f "gtkSignal.ml" 115 4200 4230 "gtkSignal.ml" 115 4200 4231
+)
+"gtkSignal.ml" 120 4424 4431 "gtkSignal.ml" 120 4424 4435
+type(
+  'a
+)
+ident(
+  int_ref arg1 "gtkSignal.ml" 117 4306 4313 "gtkSignal.ml" 117 4306 4317
+)
+"gtkSignal.ml" 120 4424 4436 "gtkSignal.ml" 120 4424 4440
+type(
+  'b
+)
+ident(
+  int_ref arg2 "gtkSignal.ml" 117 4306 4319 "gtkSignal.ml" 117 4306 4323
+)
+"gtkSignal.ml" 120 4424 4429 "gtkSignal.ml" 120 4424 4440
+call(
+  tail
+)
+type(
+  'c
+)
+"gtkSignal.ml" 117 4306 4308 "gtkSignal.ml" 120 4424 4440
+type(
+  'c
+)
+"gtkSignal.ml" 116 4239 4241 "gtkSignal.ml" 120 4424 4440
+type(
+  'c
+)
+"gtkSignal.ml" 122 4444 4448 "gtkSignal.ml" 122 4444 4456
+type(
+  'a Gobject.data_conv ->
+  'b Gobject.data_conv ->
+  'c Gobject.data_conv ->
+  string -> ('a -> 'b -> 'c -> 'd) -> Gobject.Closure.argv -> 'd
+)
+ident(
+  def marshal3 "gtkSignal.ml" 129 4720 4720 --
+)
+"gtkSignal.ml" 122 4444 4457 "gtkSignal.ml" 122 4444 4462
+type(
+  'a Gobject.data_conv
+)
+ident(
+  def conv1 "gtkSignal.ml" 122 4444 4463 "gtkSignal.ml" 127 4695 4716
+)
+"gtkSignal.ml" 122 4444 4463 "gtkSignal.ml" 122 4444 4468
+type(
+  'b Gobject.data_conv
+)
+ident(
+  def conv2 "gtkSignal.ml" 122 4444 4469 "gtkSignal.ml" 127 4695 4716
+)
+"gtkSignal.ml" 122 4444 4469 "gtkSignal.ml" 122 4444 4474
+type(
+  'c Gobject.data_conv
+)
+ident(
+  def conv3 "gtkSignal.ml" 122 4444 4475 "gtkSignal.ml" 127 4695 4716
+)
+"gtkSignal.ml" 122 4444 4475 "gtkSignal.ml" 122 4444 4479
+type(
+  string
+)
+ident(
+  def name "gtkSignal.ml" 122 4444 4480 "gtkSignal.ml" 127 4695 4716
+)
+"gtkSignal.ml" 122 4444 4480 "gtkSignal.ml" 122 4444 4481
+type(
+  'a -> 'b -> 'c -> 'd
+)
+ident(
+  def f "gtkSignal.ml" 122 4444 4482 "gtkSignal.ml" 127 4695 4716
+)
+"gtkSignal.ml" 122 4444 4482 "gtkSignal.ml" 122 4444 4486
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkSignal.ml" 123 4489 4491 "gtkSignal.ml" 127 4695 4716
+)
+"gtkSignal.ml" 123 4489 4495 "gtkSignal.ml" 123 4489 4498
+type(
+  'e Gobject.data_conv -> int -> 'e
+)
+"gtkSignal.ml" 123 4489 4499 "gtkSignal.ml" 123 4489 4503
+type(
+  'e Gobject.data_conv
+)
+ident(
+  def conv "gtkSignal.ml" 123 4489 4504 "gtkSignal.ml" 123 4489 4552
+)
+"gtkSignal.ml" 123 4489 4504 "gtkSignal.ml" 123 4489 4507
+type(
+  int
+)
+ident(
+  def pos "gtkSignal.ml" 123 4489 4510 "gtkSignal.ml" 123 4489 4552
+)
+"gtkSignal.ml" 123 4489 4510 "gtkSignal.ml" 123 4489 4523
+type(
+  'e Gobject.data_conv -> Gobject.g_value -> 'e
+)
+ident(
+  ext_ref Gobject.Data.of_value
+)
+"gtkSignal.ml" 123 4489 4524 "gtkSignal.ml" 123 4489 4528
+type(
+  'e Gobject.data_conv
+)
+ident(
+  int_ref conv "gtkSignal.ml" 123 4489 4499 "gtkSignal.ml" 123 4489 4503
+)
+"gtkSignal.ml" 123 4489 4530 "gtkSignal.ml" 123 4489 4541
+type(
+  Gobject.Closure.argv -> pos:int -> Gobject.g_value
+)
+ident(
+  ext_ref Gobject.Closure.nth
+)
+"gtkSignal.ml" 123 4489 4542 "gtkSignal.ml" 123 4489 4546
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 122 4444 4482 "gtkSignal.ml" 122 4444 4486
+)
+"gtkSignal.ml" 123 4489 4548 "gtkSignal.ml" 123 4489 4551
+type(
+  int
+)
+ident(
+  int_ref pos "gtkSignal.ml" 123 4489 4504 "gtkSignal.ml" 123 4489 4507
+)
+"gtkSignal.ml" 123 4489 4529 "gtkSignal.ml" 123 4489 4552
+call(
+  stack
+)
+type(
+  Gobject.g_value
+)
+"gtkSignal.ml" 123 4489 4510 "gtkSignal.ml" 123 4489 4552
+call(
+  tail
+)
+type(
+  'e
+)
+"gtkSignal.ml" 124 4556 4563 "gtkSignal.ml" 124 4556 4567
+type(
+  'a
+)
+"gtkSignal.ml" 124 4556 4569 "gtkSignal.ml" 124 4556 4573
+type(
+  'b
+)
+"gtkSignal.ml" 124 4556 4575 "gtkSignal.ml" 124 4556 4579
+type(
+  'c
+)
+"gtkSignal.ml" 124 4556 4562 "gtkSignal.ml" 124 4556 4580
+type(
+  'a * 'b * 'c
+)
+"gtkSignal.ml" 125 4583 4593 "gtkSignal.ml" 125 4583 4596
+type(
+  'a Gobject.data_conv -> int -> 'a
+)
+ident(
+  int_ref get "gtkSignal.ml" 123 4489 4495 "gtkSignal.ml" 123 4489 4498
+)
+"gtkSignal.ml" 125 4583 4597 "gtkSignal.ml" 125 4583 4602
+type(
+  'a Gobject.data_conv
+)
+ident(
+  int_ref conv1 "gtkSignal.ml" 122 4444 4457 "gtkSignal.ml" 122 4444 4462
+)
+"gtkSignal.ml" 125 4583 4603 "gtkSignal.ml" 125 4583 4604
+type(
+  int
+)
+"gtkSignal.ml" 125 4583 4592 "gtkSignal.ml" 125 4583 4605
+call(
+  stack
+)
+type(
+  'a
+)
+"gtkSignal.ml" 125 4583 4608 "gtkSignal.ml" 125 4583 4611
+type(
+  'b Gobject.data_conv -> int -> 'b
+)
+ident(
+  int_ref get "gtkSignal.ml" 123 4489 4495 "gtkSignal.ml" 123 4489 4498
+)
+"gtkSignal.ml" 125 4583 4612 "gtkSignal.ml" 125 4583 4617
+type(
+  'b Gobject.data_conv
+)
+ident(
+  int_ref conv2 "gtkSignal.ml" 122 4444 4463 "gtkSignal.ml" 122 4444 4468
+)
+"gtkSignal.ml" 125 4583 4618 "gtkSignal.ml" 125 4583 4619
+type(
+  int
+)
+"gtkSignal.ml" 125 4583 4607 "gtkSignal.ml" 125 4583 4620
+call(
+  stack
+)
+type(
+  'b
+)
+"gtkSignal.ml" 125 4583 4623 "gtkSignal.ml" 125 4583 4626
+type(
+  'c Gobject.data_conv -> int -> 'c
+)
+ident(
+  int_ref get "gtkSignal.ml" 123 4489 4495 "gtkSignal.ml" 123 4489 4498
+)
+"gtkSignal.ml" 125 4583 4627 "gtkSignal.ml" 125 4583 4632
+type(
+  'c Gobject.data_conv
+)
+ident(
+  int_ref conv3 "gtkSignal.ml" 122 4444 4469 "gtkSignal.ml" 122 4444 4474
+)
+"gtkSignal.ml" 125 4583 4633 "gtkSignal.ml" 125 4583 4634
+type(
+  int
+)
+"gtkSignal.ml" 125 4583 4622 "gtkSignal.ml" 125 4583 4635
+call(
+  stack
+)
+type(
+  'c
+)
+"gtkSignal.ml" 125 4583 4591 "gtkSignal.ml" 125 4583 4636
+type(
+  'a * 'b * 'c
+)
+"gtkSignal.ml" 126 4637 4648 "gtkSignal.ml" 126 4637 4649
+type(
+  exn
+)
+"gtkSignal.ml" 126 4637 4653 "gtkSignal.ml" 126 4637 4661
+type(
+  string -> 'a * 'b * 'c
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gtkSignal.ml" 126 4637 4663 "gtkSignal.ml" 126 4637 4686
+type(
+  string
+)
+"gtkSignal.ml" 126 4637 4687 "gtkSignal.ml" 126 4637 4688
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gtkSignal.ml" 126 4637 4689 "gtkSignal.ml" 126 4637 4693
+type(
+  string
+)
+ident(
+  int_ref name "gtkSignal.ml" 122 4444 4475 "gtkSignal.ml" 122 4444 4479
+)
+"gtkSignal.ml" 126 4637 4662 "gtkSignal.ml" 126 4637 4694
+call(
+  stack
+)
+type(
+  string
+)
+"gtkSignal.ml" 126 4637 4653 "gtkSignal.ml" 126 4637 4694
+call(
+  stack
+)
+type(
+  'a * 'b * 'c
+)
+"gtkSignal.ml" 125 4583 4587 "gtkSignal.ml" 126 4637 4694
+type(
+  'a * 'b * 'c
+)
+"gtkSignal.ml" 127 4695 4700 "gtkSignal.ml" 127 4695 4701
+type(
+  'a -> 'b -> 'c -> 'd
+)
+ident(
+  int_ref f "gtkSignal.ml" 122 4444 4480 "gtkSignal.ml" 122 4444 4481
+)
+"gtkSignal.ml" 127 4695 4702 "gtkSignal.ml" 127 4695 4706
+type(
+  'a
+)
+ident(
+  int_ref arg1 "gtkSignal.ml" 124 4556 4563 "gtkSignal.ml" 124 4556 4567
+)
+"gtkSignal.ml" 127 4695 4707 "gtkSignal.ml" 127 4695 4711
+type(
+  'b
+)
+ident(
+  int_ref arg2 "gtkSignal.ml" 124 4556 4569 "gtkSignal.ml" 124 4556 4573
+)
+"gtkSignal.ml" 127 4695 4712 "gtkSignal.ml" 127 4695 4716
+type(
+  'c
+)
+ident(
+  int_ref arg3 "gtkSignal.ml" 124 4556 4575 "gtkSignal.ml" 124 4556 4579
+)
+"gtkSignal.ml" 127 4695 4700 "gtkSignal.ml" 127 4695 4716
+call(
+  tail
+)
+type(
+  'd
+)
+"gtkSignal.ml" 124 4556 4558 "gtkSignal.ml" 127 4695 4716
+type(
+  'd
+)
+"gtkSignal.ml" 123 4489 4491 "gtkSignal.ml" 127 4695 4716
+type(
+  'd
+)
+"gtkSignal.ml" 129 4720 4724 "gtkSignal.ml" 129 4720 4732
+type(
+  'a Gobject.data_conv ->
+  'b Gobject.data_conv ->
+  'c Gobject.data_conv ->
+  'd Gobject.data_conv ->
+  string -> ('a -> 'b -> 'c -> 'd -> 'e) -> Gobject.Closure.argv -> 'e
+)
+ident(
+  def marshal4 "gtkSignal.ml" 136 5028 5028 --
+)
+"gtkSignal.ml" 129 4720 4733 "gtkSignal.ml" 129 4720 4738
+type(
+  'a Gobject.data_conv
+)
+ident(
+  def conv1 "gtkSignal.ml" 129 4720 4739 "gtkSignal.ml" 134 4998 5024
+)
+"gtkSignal.ml" 129 4720 4739 "gtkSignal.ml" 129 4720 4744
+type(
+  'b Gobject.data_conv
+)
+ident(
+  def conv2 "gtkSignal.ml" 129 4720 4745 "gtkSignal.ml" 134 4998 5024
+)
+"gtkSignal.ml" 129 4720 4745 "gtkSignal.ml" 129 4720 4750
+type(
+  'c Gobject.data_conv
+)
+ident(
+  def conv3 "gtkSignal.ml" 129 4720 4751 "gtkSignal.ml" 134 4998 5024
+)
+"gtkSignal.ml" 129 4720 4751 "gtkSignal.ml" 129 4720 4756
+type(
+  'd Gobject.data_conv
+)
+ident(
+  def conv4 "gtkSignal.ml" 129 4720 4757 "gtkSignal.ml" 134 4998 5024
+)
+"gtkSignal.ml" 129 4720 4757 "gtkSignal.ml" 129 4720 4761
+type(
+  string
+)
+ident(
+  def name "gtkSignal.ml" 129 4720 4762 "gtkSignal.ml" 134 4998 5024
+)
+"gtkSignal.ml" 129 4720 4762 "gtkSignal.ml" 129 4720 4763
+type(
+  'a -> 'b -> 'c -> 'd -> 'e
+)
+ident(
+  def f "gtkSignal.ml" 129 4720 4764 "gtkSignal.ml" 134 4998 5024
+)
+"gtkSignal.ml" 129 4720 4764 "gtkSignal.ml" 129 4720 4768
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkSignal.ml" 130 4771 4773 "gtkSignal.ml" 134 4998 5024
+)
+"gtkSignal.ml" 130 4771 4777 "gtkSignal.ml" 130 4771 4780
+type(
+  'f Gobject.data_conv -> int -> 'f
+)
+"gtkSignal.ml" 130 4771 4781 "gtkSignal.ml" 130 4771 4785
+type(
+  'f Gobject.data_conv
+)
+ident(
+  def conv "gtkSignal.ml" 130 4771 4786 "gtkSignal.ml" 130 4771 4834
+)
+"gtkSignal.ml" 130 4771 4786 "gtkSignal.ml" 130 4771 4789
+type(
+  int
+)
+ident(
+  def pos "gtkSignal.ml" 130 4771 4792 "gtkSignal.ml" 130 4771 4834
+)
+"gtkSignal.ml" 130 4771 4792 "gtkSignal.ml" 130 4771 4805
+type(
+  'f Gobject.data_conv -> Gobject.g_value -> 'f
+)
+ident(
+  ext_ref Gobject.Data.of_value
+)
+"gtkSignal.ml" 130 4771 4806 "gtkSignal.ml" 130 4771 4810
+type(
+  'f Gobject.data_conv
+)
+ident(
+  int_ref conv "gtkSignal.ml" 130 4771 4781 "gtkSignal.ml" 130 4771 4785
+)
+"gtkSignal.ml" 130 4771 4812 "gtkSignal.ml" 130 4771 4823
+type(
+  Gobject.Closure.argv -> pos:int -> Gobject.g_value
+)
+ident(
+  ext_ref Gobject.Closure.nth
+)
+"gtkSignal.ml" 130 4771 4824 "gtkSignal.ml" 130 4771 4828
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 129 4720 4764 "gtkSignal.ml" 129 4720 4768
+)
+"gtkSignal.ml" 130 4771 4830 "gtkSignal.ml" 130 4771 4833
+type(
+  int
+)
+ident(
+  int_ref pos "gtkSignal.ml" 130 4771 4786 "gtkSignal.ml" 130 4771 4789
+)
+"gtkSignal.ml" 130 4771 4811 "gtkSignal.ml" 130 4771 4834
+call(
+  stack
+)
+type(
+  Gobject.g_value
+)
+"gtkSignal.ml" 130 4771 4792 "gtkSignal.ml" 130 4771 4834
+call(
+  tail
+)
+type(
+  'f
+)
+"gtkSignal.ml" 131 4838 4845 "gtkSignal.ml" 131 4838 4849
+type(
+  'a
+)
+"gtkSignal.ml" 131 4838 4851 "gtkSignal.ml" 131 4838 4855
+type(
+  'b
+)
+"gtkSignal.ml" 131 4838 4857 "gtkSignal.ml" 131 4838 4861
+type(
+  'c
+)
+"gtkSignal.ml" 131 4838 4863 "gtkSignal.ml" 131 4838 4867
+type(
+  'd
+)
+"gtkSignal.ml" 131 4838 4844 "gtkSignal.ml" 131 4838 4868
+type(
+  'a * 'b * 'c * 'd
+)
+"gtkSignal.ml" 132 4871 4881 "gtkSignal.ml" 132 4871 4884
+type(
+  'a Gobject.data_conv -> int -> 'a
+)
+ident(
+  int_ref get "gtkSignal.ml" 130 4771 4777 "gtkSignal.ml" 130 4771 4780
+)
+"gtkSignal.ml" 132 4871 4885 "gtkSignal.ml" 132 4871 4890
+type(
+  'a Gobject.data_conv
+)
+ident(
+  int_ref conv1 "gtkSignal.ml" 129 4720 4733 "gtkSignal.ml" 129 4720 4738
+)
+"gtkSignal.ml" 132 4871 4891 "gtkSignal.ml" 132 4871 4892
+type(
+  int
+)
+"gtkSignal.ml" 132 4871 4880 "gtkSignal.ml" 132 4871 4893
+call(
+  stack
+)
+type(
+  'a
+)
+"gtkSignal.ml" 132 4871 4896 "gtkSignal.ml" 132 4871 4899
+type(
+  'b Gobject.data_conv -> int -> 'b
+)
+ident(
+  int_ref get "gtkSignal.ml" 130 4771 4777 "gtkSignal.ml" 130 4771 4780
+)
+"gtkSignal.ml" 132 4871 4900 "gtkSignal.ml" 132 4871 4905
+type(
+  'b Gobject.data_conv
+)
+ident(
+  int_ref conv2 "gtkSignal.ml" 129 4720 4739 "gtkSignal.ml" 129 4720 4744
+)
+"gtkSignal.ml" 132 4871 4906 "gtkSignal.ml" 132 4871 4907
+type(
+  int
+)
+"gtkSignal.ml" 132 4871 4895 "gtkSignal.ml" 132 4871 4908
+call(
+  stack
+)
+type(
+  'b
+)
+"gtkSignal.ml" 132 4871 4911 "gtkSignal.ml" 132 4871 4914
+type(
+  'c Gobject.data_conv -> int -> 'c
+)
+ident(
+  int_ref get "gtkSignal.ml" 130 4771 4777 "gtkSignal.ml" 130 4771 4780
+)
+"gtkSignal.ml" 132 4871 4915 "gtkSignal.ml" 132 4871 4920
+type(
+  'c Gobject.data_conv
+)
+ident(
+  int_ref conv3 "gtkSignal.ml" 129 4720 4745 "gtkSignal.ml" 129 4720 4750
+)
+"gtkSignal.ml" 132 4871 4921 "gtkSignal.ml" 132 4871 4922
+type(
+  int
+)
+"gtkSignal.ml" 132 4871 4910 "gtkSignal.ml" 132 4871 4923
+call(
+  stack
+)
+type(
+  'c
+)
+"gtkSignal.ml" 132 4871 4926 "gtkSignal.ml" 132 4871 4929
+type(
+  'd Gobject.data_conv -> int -> 'd
+)
+ident(
+  int_ref get "gtkSignal.ml" 130 4771 4777 "gtkSignal.ml" 130 4771 4780
+)
+"gtkSignal.ml" 132 4871 4930 "gtkSignal.ml" 132 4871 4935
+type(
+  'd Gobject.data_conv
+)
+ident(
+  int_ref conv4 "gtkSignal.ml" 129 4720 4751 "gtkSignal.ml" 129 4720 4756
+)
+"gtkSignal.ml" 132 4871 4936 "gtkSignal.ml" 132 4871 4937
+type(
+  int
+)
+"gtkSignal.ml" 132 4871 4925 "gtkSignal.ml" 132 4871 4938
+call(
+  stack
+)
+type(
+  'd
+)
+"gtkSignal.ml" 132 4871 4879 "gtkSignal.ml" 132 4871 4939
+type(
+  'a * 'b * 'c * 'd
+)
+"gtkSignal.ml" 133 4940 4951 "gtkSignal.ml" 133 4940 4952
+type(
+  exn
+)
+"gtkSignal.ml" 133 4940 4956 "gtkSignal.ml" 133 4940 4964
+type(
+  string -> 'a * 'b * 'c * 'd
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gtkSignal.ml" 133 4940 4966 "gtkSignal.ml" 133 4940 4989
+type(
+  string
+)
+"gtkSignal.ml" 133 4940 4990 "gtkSignal.ml" 133 4940 4991
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gtkSignal.ml" 133 4940 4992 "gtkSignal.ml" 133 4940 4996
+type(
+  string
+)
+ident(
+  int_ref name "gtkSignal.ml" 129 4720 4757 "gtkSignal.ml" 129 4720 4761
+)
+"gtkSignal.ml" 133 4940 4965 "gtkSignal.ml" 133 4940 4997
+call(
+  stack
+)
+type(
+  string
+)
+"gtkSignal.ml" 133 4940 4956 "gtkSignal.ml" 133 4940 4997
+call(
+  stack
+)
+type(
+  'a * 'b * 'c * 'd
+)
+"gtkSignal.ml" 132 4871 4875 "gtkSignal.ml" 133 4940 4997
+type(
+  'a * 'b * 'c * 'd
+)
+"gtkSignal.ml" 134 4998 5003 "gtkSignal.ml" 134 4998 5004
+type(
+  'a -> 'b -> 'c -> 'd -> 'e
+)
+ident(
+  int_ref f "gtkSignal.ml" 129 4720 4762 "gtkSignal.ml" 129 4720 4763
+)
+"gtkSignal.ml" 134 4998 5005 "gtkSignal.ml" 134 4998 5009
+type(
+  'a
+)
+ident(
+  int_ref arg1 "gtkSignal.ml" 131 4838 4845 "gtkSignal.ml" 131 4838 4849
+)
+"gtkSignal.ml" 134 4998 5010 "gtkSignal.ml" 134 4998 5014
+type(
+  'b
+)
+ident(
+  int_ref arg2 "gtkSignal.ml" 131 4838 4851 "gtkSignal.ml" 131 4838 4855
+)
+"gtkSignal.ml" 134 4998 5015 "gtkSignal.ml" 134 4998 5019
+type(
+  'c
+)
+ident(
+  int_ref arg3 "gtkSignal.ml" 131 4838 4857 "gtkSignal.ml" 131 4838 4861
+)
+"gtkSignal.ml" 134 4998 5020 "gtkSignal.ml" 134 4998 5024
+type(
+  'd
+)
+ident(
+  int_ref arg4 "gtkSignal.ml" 131 4838 4863 "gtkSignal.ml" 131 4838 4867
+)
+"gtkSignal.ml" 134 4998 5003 "gtkSignal.ml" 134 4998 5024
+call(
+  tail
+)
+type(
+  'e
+)
+"gtkSignal.ml" 131 4838 4840 "gtkSignal.ml" 134 4998 5024
+type(
+  'e
+)
+"gtkSignal.ml" 130 4771 4773 "gtkSignal.ml" 134 4998 5024
+type(
+  'e
+)
+"gtkSignal.ml" 136 5028 5032 "gtkSignal.ml" 136 5028 5040
+type(
+  'a Gobject.data_conv ->
+  'b Gobject.data_conv ->
+  'c Gobject.data_conv ->
+  'd Gobject.data_conv ->
+  'e Gobject.data_conv ->
+  string -> ('a -> 'b -> 'c -> 'd -> 'e -> 'f) -> Gobject.Closure.argv -> 'f
+)
+ident(
+  def marshal5 "gtkSignal.ml" 145 5381 5381 --
+)
+"gtkSignal.ml" 136 5028 5041 "gtkSignal.ml" 136 5028 5046
+type(
+  'a Gobject.data_conv
+)
+ident(
+  def conv1 "gtkSignal.ml" 136 5028 5047 "gtkSignal.ml" 143 5346 5377
+)
+"gtkSignal.ml" 136 5028 5047 "gtkSignal.ml" 136 5028 5052
+type(
+  'b Gobject.data_conv
+)
+ident(
+  def conv2 "gtkSignal.ml" 136 5028 5053 "gtkSignal.ml" 143 5346 5377
+)
+"gtkSignal.ml" 136 5028 5053 "gtkSignal.ml" 136 5028 5058
+type(
+  'c Gobject.data_conv
+)
+ident(
+  def conv3 "gtkSignal.ml" 136 5028 5059 "gtkSignal.ml" 143 5346 5377
+)
+"gtkSignal.ml" 136 5028 5059 "gtkSignal.ml" 136 5028 5064
+type(
+  'd Gobject.data_conv
+)
+ident(
+  def conv4 "gtkSignal.ml" 136 5028 5065 "gtkSignal.ml" 143 5346 5377
+)
+"gtkSignal.ml" 136 5028 5065 "gtkSignal.ml" 136 5028 5070
+type(
+  'e Gobject.data_conv
+)
+ident(
+  def conv5 "gtkSignal.ml" 136 5028 5071 "gtkSignal.ml" 143 5346 5377
+)
+"gtkSignal.ml" 136 5028 5071 "gtkSignal.ml" 136 5028 5075
+type(
+  string
+)
+ident(
+  def name "gtkSignal.ml" 136 5028 5076 "gtkSignal.ml" 143 5346 5377
+)
+"gtkSignal.ml" 136 5028 5076 "gtkSignal.ml" 136 5028 5077
+type(
+  'a -> 'b -> 'c -> 'd -> 'e -> 'f
+)
+ident(
+  def f "gtkSignal.ml" 136 5028 5078 "gtkSignal.ml" 143 5346 5377
+)
+"gtkSignal.ml" 136 5028 5078 "gtkSignal.ml" 136 5028 5082
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkSignal.ml" 137 5085 5087 "gtkSignal.ml" 143 5346 5377
+)
+"gtkSignal.ml" 137 5085 5091 "gtkSignal.ml" 137 5085 5094
+type(
+  'g Gobject.data_conv -> int -> 'g
+)
+"gtkSignal.ml" 137 5085 5095 "gtkSignal.ml" 137 5085 5099
+type(
+  'g Gobject.data_conv
+)
+ident(
+  def conv "gtkSignal.ml" 137 5085 5100 "gtkSignal.ml" 137 5085 5148
+)
+"gtkSignal.ml" 137 5085 5100 "gtkSignal.ml" 137 5085 5103
+type(
+  int
+)
+ident(
+  def pos "gtkSignal.ml" 137 5085 5106 "gtkSignal.ml" 137 5085 5148
+)
+"gtkSignal.ml" 137 5085 5106 "gtkSignal.ml" 137 5085 5119
+type(
+  'g Gobject.data_conv -> Gobject.g_value -> 'g
+)
+ident(
+  ext_ref Gobject.Data.of_value
+)
+"gtkSignal.ml" 137 5085 5120 "gtkSignal.ml" 137 5085 5124
+type(
+  'g Gobject.data_conv
+)
+ident(
+  int_ref conv "gtkSignal.ml" 137 5085 5095 "gtkSignal.ml" 137 5085 5099
+)
+"gtkSignal.ml" 137 5085 5126 "gtkSignal.ml" 137 5085 5137
+type(
+  Gobject.Closure.argv -> pos:int -> Gobject.g_value
+)
+ident(
+  ext_ref Gobject.Closure.nth
+)
+"gtkSignal.ml" 137 5085 5138 "gtkSignal.ml" 137 5085 5142
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 136 5028 5078 "gtkSignal.ml" 136 5028 5082
+)
+"gtkSignal.ml" 137 5085 5144 "gtkSignal.ml" 137 5085 5147
+type(
+  int
+)
+ident(
+  int_ref pos "gtkSignal.ml" 137 5085 5100 "gtkSignal.ml" 137 5085 5103
+)
+"gtkSignal.ml" 137 5085 5125 "gtkSignal.ml" 137 5085 5148
+call(
+  stack
+)
+type(
+  Gobject.g_value
+)
+"gtkSignal.ml" 137 5085 5106 "gtkSignal.ml" 137 5085 5148
+call(
+  tail
+)
+type(
+  'g
+)
+"gtkSignal.ml" 138 5152 5159 "gtkSignal.ml" 138 5152 5163
+type(
+  'a
+)
+"gtkSignal.ml" 138 5152 5165 "gtkSignal.ml" 138 5152 5169
+type(
+  'b
+)
+"gtkSignal.ml" 138 5152 5171 "gtkSignal.ml" 138 5152 5175
+type(
+  'c
+)
+"gtkSignal.ml" 138 5152 5177 "gtkSignal.ml" 138 5152 5181
+type(
+  'd
+)
+"gtkSignal.ml" 138 5152 5183 "gtkSignal.ml" 138 5152 5187
+type(
+  'e
+)
+"gtkSignal.ml" 138 5152 5158 "gtkSignal.ml" 138 5152 5188
+type(
+  'a * 'b * 'c * 'd * 'e
+)
+"gtkSignal.ml" 140 5199 5207 "gtkSignal.ml" 140 5199 5210
+type(
+  'a Gobject.data_conv -> int -> 'a
+)
+ident(
+  int_ref get "gtkSignal.ml" 137 5085 5091 "gtkSignal.ml" 137 5085 5094
+)
+"gtkSignal.ml" 140 5199 5211 "gtkSignal.ml" 140 5199 5216
+type(
+  'a Gobject.data_conv
+)
+ident(
+  int_ref conv1 "gtkSignal.ml" 136 5028 5041 "gtkSignal.ml" 136 5028 5046
+)
+"gtkSignal.ml" 140 5199 5217 "gtkSignal.ml" 140 5199 5218
+type(
+  int
+)
+"gtkSignal.ml" 140 5199 5206 "gtkSignal.ml" 140 5199 5219
+call(
+  stack
+)
+type(
+  'a
+)
+"gtkSignal.ml" 140 5199 5222 "gtkSignal.ml" 140 5199 5225
+type(
+  'b Gobject.data_conv -> int -> 'b
+)
+ident(
+  int_ref get "gtkSignal.ml" 137 5085 5091 "gtkSignal.ml" 137 5085 5094
+)
+"gtkSignal.ml" 140 5199 5226 "gtkSignal.ml" 140 5199 5231
+type(
+  'b Gobject.data_conv
+)
+ident(
+  int_ref conv2 "gtkSignal.ml" 136 5028 5047 "gtkSignal.ml" 136 5028 5052
+)
+"gtkSignal.ml" 140 5199 5232 "gtkSignal.ml" 140 5199 5233
+type(
+  int
+)
+"gtkSignal.ml" 140 5199 5221 "gtkSignal.ml" 140 5199 5234
+call(
+  stack
+)
+type(
+  'b
+)
+"gtkSignal.ml" 140 5199 5237 "gtkSignal.ml" 140 5199 5240
+type(
+  'c Gobject.data_conv -> int -> 'c
+)
+ident(
+  int_ref get "gtkSignal.ml" 137 5085 5091 "gtkSignal.ml" 137 5085 5094
+)
+"gtkSignal.ml" 140 5199 5241 "gtkSignal.ml" 140 5199 5246
+type(
+  'c Gobject.data_conv
+)
+ident(
+  int_ref conv3 "gtkSignal.ml" 136 5028 5053 "gtkSignal.ml" 136 5028 5058
+)
+"gtkSignal.ml" 140 5199 5247 "gtkSignal.ml" 140 5199 5248
+type(
+  int
+)
+"gtkSignal.ml" 140 5199 5236 "gtkSignal.ml" 140 5199 5249
+call(
+  stack
+)
+type(
+  'c
+)
+"gtkSignal.ml" 140 5199 5252 "gtkSignal.ml" 140 5199 5255
+type(
+  'd Gobject.data_conv -> int -> 'd
+)
+ident(
+  int_ref get "gtkSignal.ml" 137 5085 5091 "gtkSignal.ml" 137 5085 5094
+)
+"gtkSignal.ml" 140 5199 5256 "gtkSignal.ml" 140 5199 5261
+type(
+  'd Gobject.data_conv
+)
+ident(
+  int_ref conv4 "gtkSignal.ml" 136 5028 5059 "gtkSignal.ml" 136 5028 5064
+)
+"gtkSignal.ml" 140 5199 5262 "gtkSignal.ml" 140 5199 5263
+type(
+  int
+)
+"gtkSignal.ml" 140 5199 5251 "gtkSignal.ml" 140 5199 5264
+call(
+  stack
+)
+type(
+  'd
+)
+"gtkSignal.ml" 141 5266 5274 "gtkSignal.ml" 141 5266 5277
+type(
+  'e Gobject.data_conv -> int -> 'e
+)
+ident(
+  int_ref get "gtkSignal.ml" 137 5085 5091 "gtkSignal.ml" 137 5085 5094
+)
+"gtkSignal.ml" 141 5266 5278 "gtkSignal.ml" 141 5266 5283
+type(
+  'e Gobject.data_conv
+)
+ident(
+  int_ref conv5 "gtkSignal.ml" 136 5028 5065 "gtkSignal.ml" 136 5028 5070
+)
+"gtkSignal.ml" 141 5266 5284 "gtkSignal.ml" 141 5266 5285
+type(
+  int
+)
+"gtkSignal.ml" 141 5266 5273 "gtkSignal.ml" 141 5266 5286
+call(
+  stack
+)
+type(
+  'e
+)
+"gtkSignal.ml" 140 5199 5205 "gtkSignal.ml" 141 5266 5287
+type(
+  'a * 'b * 'c * 'd * 'e
+)
+"gtkSignal.ml" 142 5288 5299 "gtkSignal.ml" 142 5288 5300
+type(
+  exn
+)
+"gtkSignal.ml" 142 5288 5304 "gtkSignal.ml" 142 5288 5312
+type(
+  string -> 'a * 'b * 'c * 'd * 'e
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gtkSignal.ml" 142 5288 5314 "gtkSignal.ml" 142 5288 5337
+type(
+  string
+)
+"gtkSignal.ml" 142 5288 5338 "gtkSignal.ml" 142 5288 5339
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gtkSignal.ml" 142 5288 5340 "gtkSignal.ml" 142 5288 5344
+type(
+  string
+)
+ident(
+  int_ref name "gtkSignal.ml" 136 5028 5071 "gtkSignal.ml" 136 5028 5075
+)
+"gtkSignal.ml" 142 5288 5313 "gtkSignal.ml" 142 5288 5345
+call(
+  stack
+)
+type(
+  string
+)
+"gtkSignal.ml" 142 5288 5304 "gtkSignal.ml" 142 5288 5345
+call(
+  stack
+)
+type(
+  'a * 'b * 'c * 'd * 'e
+)
+"gtkSignal.ml" 139 5191 5195 "gtkSignal.ml" 142 5288 5345
+type(
+  'a * 'b * 'c * 'd * 'e
+)
+"gtkSignal.ml" 143 5346 5351 "gtkSignal.ml" 143 5346 5352
+type(
+  'a -> 'b -> 'c -> 'd -> 'e -> 'f
+)
+ident(
+  int_ref f "gtkSignal.ml" 136 5028 5076 "gtkSignal.ml" 136 5028 5077
+)
+"gtkSignal.ml" 143 5346 5353 "gtkSignal.ml" 143 5346 5357
+type(
+  'a
+)
+ident(
+  int_ref arg1 "gtkSignal.ml" 138 5152 5159 "gtkSignal.ml" 138 5152 5163
+)
+"gtkSignal.ml" 143 5346 5358 "gtkSignal.ml" 143 5346 5362
+type(
+  'b
+)
+ident(
+  int_ref arg2 "gtkSignal.ml" 138 5152 5165 "gtkSignal.ml" 138 5152 5169
+)
+"gtkSignal.ml" 143 5346 5363 "gtkSignal.ml" 143 5346 5367
+type(
+  'c
+)
+ident(
+  int_ref arg3 "gtkSignal.ml" 138 5152 5171 "gtkSignal.ml" 138 5152 5175
+)
+"gtkSignal.ml" 143 5346 5368 "gtkSignal.ml" 143 5346 5372
+type(
+  'd
+)
+ident(
+  int_ref arg4 "gtkSignal.ml" 138 5152 5177 "gtkSignal.ml" 138 5152 5181
+)
+"gtkSignal.ml" 143 5346 5373 "gtkSignal.ml" 143 5346 5377
+type(
+  'e
+)
+ident(
+  int_ref arg5 "gtkSignal.ml" 138 5152 5183 "gtkSignal.ml" 138 5152 5187
+)
+"gtkSignal.ml" 143 5346 5351 "gtkSignal.ml" 143 5346 5377
+call(
+  tail
+)
+type(
+  'f
+)
+"gtkSignal.ml" 138 5152 5154 "gtkSignal.ml" 143 5346 5377
+type(
+  'f
+)
+"gtkSignal.ml" 137 5085 5087 "gtkSignal.ml" 143 5346 5377
+type(
+  'f
+)
+"gtkSignal.ml" 145 5381 5385 "gtkSignal.ml" 145 5381 5393
+type(
+  'a Gobject.data_conv ->
+  'b Gobject.data_conv ->
+  'c Gobject.data_conv ->
+  'd Gobject.data_conv ->
+  'e Gobject.data_conv ->
+  'f Gobject.data_conv ->
+  string ->
+  ('a -> 'b -> 'c -> 'd -> 'e -> 'f -> 'g) -> Gobject.Closure.argv -> 'g
+)
+ident(
+  def marshal6 "gtkSignal.ml" 154 5766 5766 --
+)
+"gtkSignal.ml" 145 5381 5394 "gtkSignal.ml" 145 5381 5399
+type(
+  'a Gobject.data_conv
+)
+ident(
+  def conv1 "gtkSignal.ml" 145 5381 5400 "gtkSignal.ml" 152 5726 5762
+)
+"gtkSignal.ml" 145 5381 5400 "gtkSignal.ml" 145 5381 5405
+type(
+  'b Gobject.data_conv
+)
+ident(
+  def conv2 "gtkSignal.ml" 145 5381 5406 "gtkSignal.ml" 152 5726 5762
+)
+"gtkSignal.ml" 145 5381 5406 "gtkSignal.ml" 145 5381 5411
+type(
+  'c Gobject.data_conv
+)
+ident(
+  def conv3 "gtkSignal.ml" 145 5381 5412 "gtkSignal.ml" 152 5726 5762
+)
+"gtkSignal.ml" 145 5381 5412 "gtkSignal.ml" 145 5381 5417
+type(
+  'd Gobject.data_conv
+)
+ident(
+  def conv4 "gtkSignal.ml" 145 5381 5418 "gtkSignal.ml" 152 5726 5762
+)
+"gtkSignal.ml" 145 5381 5418 "gtkSignal.ml" 145 5381 5423
+type(
+  'e Gobject.data_conv
+)
+ident(
+  def conv5 "gtkSignal.ml" 145 5381 5424 "gtkSignal.ml" 152 5726 5762
+)
+"gtkSignal.ml" 145 5381 5424 "gtkSignal.ml" 145 5381 5429
+type(
+  'f Gobject.data_conv
+)
+ident(
+  def conv6 "gtkSignal.ml" 145 5381 5430 "gtkSignal.ml" 152 5726 5762
+)
+"gtkSignal.ml" 145 5381 5430 "gtkSignal.ml" 145 5381 5434
+type(
+  string
+)
+ident(
+  def name "gtkSignal.ml" 145 5381 5435 "gtkSignal.ml" 152 5726 5762
+)
+"gtkSignal.ml" 145 5381 5435 "gtkSignal.ml" 145 5381 5436
+type(
+  'a -> 'b -> 'c -> 'd -> 'e -> 'f -> 'g
+)
+ident(
+  def f "gtkSignal.ml" 145 5381 5437 "gtkSignal.ml" 152 5726 5762
+)
+"gtkSignal.ml" 145 5381 5437 "gtkSignal.ml" 145 5381 5441
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkSignal.ml" 146 5444 5446 "gtkSignal.ml" 152 5726 5762
+)
+"gtkSignal.ml" 146 5444 5450 "gtkSignal.ml" 146 5444 5453
+type(
+  'h Gobject.data_conv -> int -> 'h
+)
+"gtkSignal.ml" 146 5444 5454 "gtkSignal.ml" 146 5444 5458
+type(
+  'h Gobject.data_conv
+)
+ident(
+  def conv "gtkSignal.ml" 146 5444 5459 "gtkSignal.ml" 146 5444 5507
+)
+"gtkSignal.ml" 146 5444 5459 "gtkSignal.ml" 146 5444 5462
+type(
+  int
+)
+ident(
+  def pos "gtkSignal.ml" 146 5444 5465 "gtkSignal.ml" 146 5444 5507
+)
+"gtkSignal.ml" 146 5444 5465 "gtkSignal.ml" 146 5444 5478
+type(
+  'h Gobject.data_conv -> Gobject.g_value -> 'h
+)
+ident(
+  ext_ref Gobject.Data.of_value
+)
+"gtkSignal.ml" 146 5444 5479 "gtkSignal.ml" 146 5444 5483
+type(
+  'h Gobject.data_conv
+)
+ident(
+  int_ref conv "gtkSignal.ml" 146 5444 5454 "gtkSignal.ml" 146 5444 5458
+)
+"gtkSignal.ml" 146 5444 5485 "gtkSignal.ml" 146 5444 5496
+type(
+  Gobject.Closure.argv -> pos:int -> Gobject.g_value
+)
+ident(
+  ext_ref Gobject.Closure.nth
+)
+"gtkSignal.ml" 146 5444 5497 "gtkSignal.ml" 146 5444 5501
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 145 5381 5437 "gtkSignal.ml" 145 5381 5441
+)
+"gtkSignal.ml" 146 5444 5503 "gtkSignal.ml" 146 5444 5506
+type(
+  int
+)
+ident(
+  int_ref pos "gtkSignal.ml" 146 5444 5459 "gtkSignal.ml" 146 5444 5462
+)
+"gtkSignal.ml" 146 5444 5484 "gtkSignal.ml" 146 5444 5507
+call(
+  stack
+)
+type(
+  Gobject.g_value
+)
+"gtkSignal.ml" 146 5444 5465 "gtkSignal.ml" 146 5444 5507
+call(
+  tail
+)
+type(
+  'h
+)
+"gtkSignal.ml" 147 5511 5518 "gtkSignal.ml" 147 5511 5522
+type(
+  'a
+)
+"gtkSignal.ml" 147 5511 5524 "gtkSignal.ml" 147 5511 5528
+type(
+  'b
+)
+"gtkSignal.ml" 147 5511 5530 "gtkSignal.ml" 147 5511 5534
+type(
+  'c
+)
+"gtkSignal.ml" 147 5511 5536 "gtkSignal.ml" 147 5511 5540
+type(
+  'd
+)
+"gtkSignal.ml" 147 5511 5542 "gtkSignal.ml" 147 5511 5546
+type(
+  'e
+)
+"gtkSignal.ml" 147 5511 5548 "gtkSignal.ml" 147 5511 5552
+type(
+  'f
+)
+"gtkSignal.ml" 147 5511 5517 "gtkSignal.ml" 147 5511 5553
+type(
+  'a * 'b * 'c * 'd * 'e * 'f
+)
+"gtkSignal.ml" 149 5564 5572 "gtkSignal.ml" 149 5564 5575
+type(
+  'a Gobject.data_conv -> int -> 'a
+)
+ident(
+  int_ref get "gtkSignal.ml" 146 5444 5450 "gtkSignal.ml" 146 5444 5453
+)
+"gtkSignal.ml" 149 5564 5576 "gtkSignal.ml" 149 5564 5581
+type(
+  'a Gobject.data_conv
+)
+ident(
+  int_ref conv1 "gtkSignal.ml" 145 5381 5394 "gtkSignal.ml" 145 5381 5399
+)
+"gtkSignal.ml" 149 5564 5582 "gtkSignal.ml" 149 5564 5583
+type(
+  int
+)
+"gtkSignal.ml" 149 5564 5571 "gtkSignal.ml" 149 5564 5584
+call(
+  stack
+)
+type(
+  'a
+)
+"gtkSignal.ml" 149 5564 5587 "gtkSignal.ml" 149 5564 5590
+type(
+  'b Gobject.data_conv -> int -> 'b
+)
+ident(
+  int_ref get "gtkSignal.ml" 146 5444 5450 "gtkSignal.ml" 146 5444 5453
+)
+"gtkSignal.ml" 149 5564 5591 "gtkSignal.ml" 149 5564 5596
+type(
+  'b Gobject.data_conv
+)
+ident(
+  int_ref conv2 "gtkSignal.ml" 145 5381 5400 "gtkSignal.ml" 145 5381 5405
+)
+"gtkSignal.ml" 149 5564 5597 "gtkSignal.ml" 149 5564 5598
+type(
+  int
+)
+"gtkSignal.ml" 149 5564 5586 "gtkSignal.ml" 149 5564 5599
+call(
+  stack
+)
+type(
+  'b
+)
+"gtkSignal.ml" 149 5564 5602 "gtkSignal.ml" 149 5564 5605
+type(
+  'c Gobject.data_conv -> int -> 'c
+)
+ident(
+  int_ref get "gtkSignal.ml" 146 5444 5450 "gtkSignal.ml" 146 5444 5453
+)
+"gtkSignal.ml" 149 5564 5606 "gtkSignal.ml" 149 5564 5611
+type(
+  'c Gobject.data_conv
+)
+ident(
+  int_ref conv3 "gtkSignal.ml" 145 5381 5406 "gtkSignal.ml" 145 5381 5411
+)
+"gtkSignal.ml" 149 5564 5612 "gtkSignal.ml" 149 5564 5613
+type(
+  int
+)
+"gtkSignal.ml" 149 5564 5601 "gtkSignal.ml" 149 5564 5614
+call(
+  stack
+)
+type(
+  'c
+)
+"gtkSignal.ml" 149 5564 5617 "gtkSignal.ml" 149 5564 5620
+type(
+  'd Gobject.data_conv -> int -> 'd
+)
+ident(
+  int_ref get "gtkSignal.ml" 146 5444 5450 "gtkSignal.ml" 146 5444 5453
+)
+"gtkSignal.ml" 149 5564 5621 "gtkSignal.ml" 149 5564 5626
+type(
+  'd Gobject.data_conv
+)
+ident(
+  int_ref conv4 "gtkSignal.ml" 145 5381 5412 "gtkSignal.ml" 145 5381 5417
+)
+"gtkSignal.ml" 149 5564 5627 "gtkSignal.ml" 149 5564 5628
+type(
+  int
+)
+"gtkSignal.ml" 149 5564 5616 "gtkSignal.ml" 149 5564 5629
+call(
+  stack
+)
+type(
+  'd
+)
+"gtkSignal.ml" 150 5631 5639 "gtkSignal.ml" 150 5631 5642
+type(
+  'e Gobject.data_conv -> int -> 'e
+)
+ident(
+  int_ref get "gtkSignal.ml" 146 5444 5450 "gtkSignal.ml" 146 5444 5453
+)
+"gtkSignal.ml" 150 5631 5643 "gtkSignal.ml" 150 5631 5648
+type(
+  'e Gobject.data_conv
+)
+ident(
+  int_ref conv5 "gtkSignal.ml" 145 5381 5418 "gtkSignal.ml" 145 5381 5423
+)
+"gtkSignal.ml" 150 5631 5649 "gtkSignal.ml" 150 5631 5650
+type(
+  int
+)
+"gtkSignal.ml" 150 5631 5638 "gtkSignal.ml" 150 5631 5651
+call(
+  stack
+)
+type(
+  'e
+)
+"gtkSignal.ml" 150 5631 5654 "gtkSignal.ml" 150 5631 5657
+type(
+  'f Gobject.data_conv -> int -> 'f
+)
+ident(
+  int_ref get "gtkSignal.ml" 146 5444 5450 "gtkSignal.ml" 146 5444 5453
+)
+"gtkSignal.ml" 150 5631 5658 "gtkSignal.ml" 150 5631 5663
+type(
+  'f Gobject.data_conv
+)
+ident(
+  int_ref conv6 "gtkSignal.ml" 145 5381 5424 "gtkSignal.ml" 145 5381 5429
+)
+"gtkSignal.ml" 150 5631 5664 "gtkSignal.ml" 150 5631 5665
+type(
+  int
+)
+"gtkSignal.ml" 150 5631 5653 "gtkSignal.ml" 150 5631 5666
+call(
+  stack
+)
+type(
+  'f
+)
+"gtkSignal.ml" 149 5564 5570 "gtkSignal.ml" 150 5631 5667
+type(
+  'a * 'b * 'c * 'd * 'e * 'f
+)
+"gtkSignal.ml" 151 5668 5679 "gtkSignal.ml" 151 5668 5680
+type(
+  exn
+)
+"gtkSignal.ml" 151 5668 5684 "gtkSignal.ml" 151 5668 5692
+type(
+  string -> 'a * 'b * 'c * 'd * 'e * 'f
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gtkSignal.ml" 151 5668 5694 "gtkSignal.ml" 151 5668 5717
+type(
+  string
+)
+"gtkSignal.ml" 151 5668 5718 "gtkSignal.ml" 151 5668 5719
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gtkSignal.ml" 151 5668 5720 "gtkSignal.ml" 151 5668 5724
+type(
+  string
+)
+ident(
+  int_ref name "gtkSignal.ml" 145 5381 5430 "gtkSignal.ml" 145 5381 5434
+)
+"gtkSignal.ml" 151 5668 5693 "gtkSignal.ml" 151 5668 5725
+call(
+  stack
+)
+type(
+  string
+)
+"gtkSignal.ml" 151 5668 5684 "gtkSignal.ml" 151 5668 5725
+call(
+  stack
+)
+type(
+  'a * 'b * 'c * 'd * 'e * 'f
+)
+"gtkSignal.ml" 148 5556 5560 "gtkSignal.ml" 151 5668 5725
+type(
+  'a * 'b * 'c * 'd * 'e * 'f
+)
+"gtkSignal.ml" 152 5726 5731 "gtkSignal.ml" 152 5726 5732
+type(
+  'a -> 'b -> 'c -> 'd -> 'e -> 'f -> 'g
+)
+ident(
+  int_ref f "gtkSignal.ml" 145 5381 5435 "gtkSignal.ml" 145 5381 5436
+)
+"gtkSignal.ml" 152 5726 5733 "gtkSignal.ml" 152 5726 5737
+type(
+  'a
+)
+ident(
+  int_ref arg1 "gtkSignal.ml" 147 5511 5518 "gtkSignal.ml" 147 5511 5522
+)
+"gtkSignal.ml" 152 5726 5738 "gtkSignal.ml" 152 5726 5742
+type(
+  'b
+)
+ident(
+  int_ref arg2 "gtkSignal.ml" 147 5511 5524 "gtkSignal.ml" 147 5511 5528
+)
+"gtkSignal.ml" 152 5726 5743 "gtkSignal.ml" 152 5726 5747
+type(
+  'c
+)
+ident(
+  int_ref arg3 "gtkSignal.ml" 147 5511 5530 "gtkSignal.ml" 147 5511 5534
+)
+"gtkSignal.ml" 152 5726 5748 "gtkSignal.ml" 152 5726 5752
+type(
+  'd
+)
+ident(
+  int_ref arg4 "gtkSignal.ml" 147 5511 5536 "gtkSignal.ml" 147 5511 5540
+)
+"gtkSignal.ml" 152 5726 5753 "gtkSignal.ml" 152 5726 5757
+type(
+  'e
+)
+ident(
+  int_ref arg5 "gtkSignal.ml" 147 5511 5542 "gtkSignal.ml" 147 5511 5546
+)
+"gtkSignal.ml" 152 5726 5758 "gtkSignal.ml" 152 5726 5762
+type(
+  'f
+)
+ident(
+  int_ref arg6 "gtkSignal.ml" 147 5511 5548 "gtkSignal.ml" 147 5511 5552
+)
+"gtkSignal.ml" 152 5726 5731 "gtkSignal.ml" 152 5726 5762
+call(
+  tail
+)
+type(
+  'g
+)
+"gtkSignal.ml" 147 5511 5513 "gtkSignal.ml" 152 5726 5762
+type(
+  'g
+)
+"gtkSignal.ml" 146 5444 5446 "gtkSignal.ml" 152 5726 5762
+type(
+  'g
+)
+"gtkSignal.ml" 154 5766 5770 "gtkSignal.ml" 154 5766 5780
+type(
+  'a Gobject.data_conv -> Gobject.Closure.argv -> 'a -> unit
+)
+ident(
+  def set_result "gtkSignal.ml" 156 5839 5839 --
+)
+"gtkSignal.ml" 154 5766 5781 "gtkSignal.ml" 154 5766 5785
+type(
+  'a Gobject.data_conv
+)
+ident(
+  def conv "gtkSignal.ml" 154 5766 5786 "gtkSignal.ml" 154 5766 5835
+)
+"gtkSignal.ml" 154 5766 5786 "gtkSignal.ml" 154 5766 5790
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkSignal.ml" 154 5766 5791 "gtkSignal.ml" 154 5766 5835
+)
+"gtkSignal.ml" 154 5766 5791 "gtkSignal.ml" 154 5766 5794
+type(
+  'a
+)
+ident(
+  def res "gtkSignal.ml" 154 5766 5797 "gtkSignal.ml" 154 5766 5835
+)
+"gtkSignal.ml" 154 5766 5797 "gtkSignal.ml" 154 5766 5815
+type(
+  Gobject.Closure.argv -> unit Gobject.data_set -> unit
+)
+ident(
+  ext_ref Gobject.Closure.set_result
+)
+"gtkSignal.ml" 154 5766 5816 "gtkSignal.ml" 154 5766 5820
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 154 5766 5786 "gtkSignal.ml" 154 5766 5790
+)
+"gtkSignal.ml" 154 5766 5822 "gtkSignal.ml" 154 5766 5826
+type(
+  'a Gobject.data_conv
+)
+ident(
+  int_ref conv "gtkSignal.ml" 154 5766 5781 "gtkSignal.ml" 154 5766 5785
+)
+"gtkSignal.ml" 154 5766 5822 "gtkSignal.ml" 154 5766 5830
+type(
+  'a -> unit Gobject.data_set
+)
+"gtkSignal.ml" 154 5766 5831 "gtkSignal.ml" 154 5766 5834
+type(
+  'a
+)
+ident(
+  int_ref res "gtkSignal.ml" 154 5766 5791 "gtkSignal.ml" 154 5766 5794
+)
+"gtkSignal.ml" 154 5766 5821 "gtkSignal.ml" 154 5766 5835
+call(
+  stack
+)
+type(
+  unit Gobject.data_set
+)
+"gtkSignal.ml" 154 5766 5797 "gtkSignal.ml" 154 5766 5835
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkSignal.ml" 156 5839 5843 "gtkSignal.ml" 156 5839 5855
+type(
+  ret:'a Gobject.data_conv -> (unit -> 'a) -> Gobject.Closure.argv -> unit
+)
+ident(
+  def marshal0_ret "gtkSignal.ml" 158 5900 5900 --
+)
+"gtkSignal.ml" 156 5839 5857 "gtkSignal.ml" 156 5839 5860
+type(
+  'a Gobject.data_conv
+)
+ident(
+  def ret "gtkSignal.ml" 156 5839 5861 "gtkSignal.ml" 156 5839 5896
+)
+"gtkSignal.ml" 156 5839 5861 "gtkSignal.ml" 156 5839 5862
+type(
+  unit -> 'a
+)
+ident(
+  def f "gtkSignal.ml" 156 5839 5863 "gtkSignal.ml" 156 5839 5896
+)
+"gtkSignal.ml" 156 5839 5863 "gtkSignal.ml" 156 5839 5867
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkSignal.ml" 156 5839 5870 "gtkSignal.ml" 156 5839 5896
+)
+"gtkSignal.ml" 156 5839 5870 "gtkSignal.ml" 156 5839 5880
+type(
+  'a Gobject.data_conv -> Gobject.Closure.argv -> 'a -> unit
+)
+ident(
+  int_ref set_result "gtkSignal.ml" 154 5766 5770 "gtkSignal.ml" 154 5766 5780
+)
+"gtkSignal.ml" 156 5839 5881 "gtkSignal.ml" 156 5839 5884
+type(
+  'a Gobject.data_conv
+)
+ident(
+  int_ref ret "gtkSignal.ml" 156 5839 5857 "gtkSignal.ml" 156 5839 5860
+)
+"gtkSignal.ml" 156 5839 5885 "gtkSignal.ml" 156 5839 5889
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 156 5839 5863 "gtkSignal.ml" 156 5839 5867
+)
+"gtkSignal.ml" 156 5839 5891 "gtkSignal.ml" 156 5839 5892
+type(
+  unit -> 'a
+)
+ident(
+  int_ref f "gtkSignal.ml" 156 5839 5861 "gtkSignal.ml" 156 5839 5862
+)
+"gtkSignal.ml" 156 5839 5893 "gtkSignal.ml" 156 5839 5895
+type(
+  unit
+)
+"gtkSignal.ml" 156 5839 5890 "gtkSignal.ml" 156 5839 5896
+call(
+  stack
+)
+type(
+  'a
+)
+"gtkSignal.ml" 156 5839 5870 "gtkSignal.ml" 156 5839 5896
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkSignal.ml" 158 5900 5904 "gtkSignal.ml" 158 5900 5916
+type(
+  ret:'a Gobject.data_conv ->
+  'b Gobject.data_conv ->
+  string -> ('b -> 'a) -> Gobject.Closure.argv -> unit
+)
+ident(
+  def marshal1_ret "gtkSignal.ml" 161 5996 5996 --
+)
+"gtkSignal.ml" 158 5900 5918 "gtkSignal.ml" 158 5900 5921
+type(
+  'a Gobject.data_conv
+)
+ident(
+  def ret "gtkSignal.ml" 158 5900 5922 "gtkSignal.ml" 159 5942 5992
+)
+"gtkSignal.ml" 158 5900 5922 "gtkSignal.ml" 158 5900 5927
+type(
+  'b Gobject.data_conv
+)
+ident(
+  def conv1 "gtkSignal.ml" 158 5900 5928 "gtkSignal.ml" 159 5942 5992
+)
+"gtkSignal.ml" 158 5900 5928 "gtkSignal.ml" 158 5900 5932
+type(
+  string
+)
+ident(
+  def name "gtkSignal.ml" 158 5900 5933 "gtkSignal.ml" 159 5942 5992
+)
+"gtkSignal.ml" 158 5900 5933 "gtkSignal.ml" 158 5900 5934
+type(
+  'b -> 'a
+)
+ident(
+  def f "gtkSignal.ml" 158 5900 5935 "gtkSignal.ml" 159 5942 5992
+)
+"gtkSignal.ml" 158 5900 5935 "gtkSignal.ml" 158 5900 5939
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkSignal.ml" 159 5942 5944 "gtkSignal.ml" 159 5942 5992
+)
+"gtkSignal.ml" 159 5942 5944 "gtkSignal.ml" 159 5942 5954
+type(
+  'a Gobject.data_conv -> Gobject.Closure.argv -> 'a -> unit
+)
+ident(
+  int_ref set_result "gtkSignal.ml" 154 5766 5770 "gtkSignal.ml" 154 5766 5780
+)
+"gtkSignal.ml" 159 5942 5955 "gtkSignal.ml" 159 5942 5958
+type(
+  'a Gobject.data_conv
+)
+ident(
+  int_ref ret "gtkSignal.ml" 158 5900 5918 "gtkSignal.ml" 158 5900 5921
+)
+"gtkSignal.ml" 159 5942 5959 "gtkSignal.ml" 159 5942 5963
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 158 5900 5935 "gtkSignal.ml" 158 5900 5939
+)
+"gtkSignal.ml" 159 5942 5965 "gtkSignal.ml" 159 5942 5973
+type(
+  'b Gobject.data_conv -> string -> ('b -> 'a) -> Gobject.Closure.argv -> 'a
+)
+ident(
+  int_ref marshal1 "gtkSignal.ml" 109 4032 4036 "gtkSignal.ml" 109 4032 4044
+)
+"gtkSignal.ml" 159 5942 5974 "gtkSignal.ml" 159 5942 5979
+type(
+  'b Gobject.data_conv
+)
+ident(
+  int_ref conv1 "gtkSignal.ml" 158 5900 5922 "gtkSignal.ml" 158 5900 5927
+)
+"gtkSignal.ml" 159 5942 5980 "gtkSignal.ml" 159 5942 5984
+type(
+  string
+)
+ident(
+  int_ref name "gtkSignal.ml" 158 5900 5928 "gtkSignal.ml" 158 5900 5932
+)
+"gtkSignal.ml" 159 5942 5985 "gtkSignal.ml" 159 5942 5986
+type(
+  'b -> 'a
+)
+ident(
+  int_ref f "gtkSignal.ml" 158 5900 5933 "gtkSignal.ml" 158 5900 5934
+)
+"gtkSignal.ml" 159 5942 5987 "gtkSignal.ml" 159 5942 5991
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 158 5900 5935 "gtkSignal.ml" 158 5900 5939
+)
+"gtkSignal.ml" 159 5942 5964 "gtkSignal.ml" 159 5942 5992
+call(
+  stack
+)
+type(
+  'a
+)
+"gtkSignal.ml" 159 5942 5944 "gtkSignal.ml" 159 5942 5992
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkSignal.ml" 161 5996 6000 "gtkSignal.ml" 161 5996 6012
+type(
+  ret:'a Gobject.data_conv ->
+  'b Gobject.data_conv ->
+  'c Gobject.data_conv ->
+  string -> ('b -> 'c -> 'a) -> Gobject.Closure.argv -> unit
+)
+ident(
+  def marshal2_ret "gtkSignal.ml" 164 6104 6104 --
+)
+"gtkSignal.ml" 161 5996 6014 "gtkSignal.ml" 161 5996 6017
+type(
+  'a Gobject.data_conv
+)
+ident(
+  def ret "gtkSignal.ml" 161 5996 6018 "gtkSignal.ml" 162 6044 6100
+)
+"gtkSignal.ml" 161 5996 6018 "gtkSignal.ml" 161 5996 6023
+type(
+  'b Gobject.data_conv
+)
+ident(
+  def conv1 "gtkSignal.ml" 161 5996 6024 "gtkSignal.ml" 162 6044 6100
+)
+"gtkSignal.ml" 161 5996 6024 "gtkSignal.ml" 161 5996 6029
+type(
+  'c Gobject.data_conv
+)
+ident(
+  def conv2 "gtkSignal.ml" 161 5996 6030 "gtkSignal.ml" 162 6044 6100
+)
+"gtkSignal.ml" 161 5996 6030 "gtkSignal.ml" 161 5996 6034
+type(
+  string
+)
+ident(
+  def name "gtkSignal.ml" 161 5996 6035 "gtkSignal.ml" 162 6044 6100
+)
+"gtkSignal.ml" 161 5996 6035 "gtkSignal.ml" 161 5996 6036
+type(
+  'b -> 'c -> 'a
+)
+ident(
+  def f "gtkSignal.ml" 161 5996 6037 "gtkSignal.ml" 162 6044 6100
+)
+"gtkSignal.ml" 161 5996 6037 "gtkSignal.ml" 161 5996 6041
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkSignal.ml" 162 6044 6046 "gtkSignal.ml" 162 6044 6100
+)
+"gtkSignal.ml" 162 6044 6046 "gtkSignal.ml" 162 6044 6056
+type(
+  'a Gobject.data_conv -> Gobject.Closure.argv -> 'a -> unit
+)
+ident(
+  int_ref set_result "gtkSignal.ml" 154 5766 5770 "gtkSignal.ml" 154 5766 5780
+)
+"gtkSignal.ml" 162 6044 6057 "gtkSignal.ml" 162 6044 6060
+type(
+  'a Gobject.data_conv
+)
+ident(
+  int_ref ret "gtkSignal.ml" 161 5996 6014 "gtkSignal.ml" 161 5996 6017
+)
+"gtkSignal.ml" 162 6044 6061 "gtkSignal.ml" 162 6044 6065
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 161 5996 6037 "gtkSignal.ml" 161 5996 6041
+)
+"gtkSignal.ml" 162 6044 6067 "gtkSignal.ml" 162 6044 6075
+type(
+  'b Gobject.data_conv ->
+  'c Gobject.data_conv ->
+  string -> ('b -> 'c -> 'a) -> Gobject.Closure.argv -> 'a
+)
+ident(
+  int_ref marshal2 "gtkSignal.ml" 115 4200 4204 "gtkSignal.ml" 115 4200 4212
+)
+"gtkSignal.ml" 162 6044 6076 "gtkSignal.ml" 162 6044 6081
+type(
+  'b Gobject.data_conv
+)
+ident(
+  int_ref conv1 "gtkSignal.ml" 161 5996 6018 "gtkSignal.ml" 161 5996 6023
+)
+"gtkSignal.ml" 162 6044 6082 "gtkSignal.ml" 162 6044 6087
+type(
+  'c Gobject.data_conv
+)
+ident(
+  int_ref conv2 "gtkSignal.ml" 161 5996 6024 "gtkSignal.ml" 161 5996 6029
+)
+"gtkSignal.ml" 162 6044 6088 "gtkSignal.ml" 162 6044 6092
+type(
+  string
+)
+ident(
+  int_ref name "gtkSignal.ml" 161 5996 6030 "gtkSignal.ml" 161 5996 6034
+)
+"gtkSignal.ml" 162 6044 6093 "gtkSignal.ml" 162 6044 6094
+type(
+  'b -> 'c -> 'a
+)
+ident(
+  int_ref f "gtkSignal.ml" 161 5996 6035 "gtkSignal.ml" 161 5996 6036
+)
+"gtkSignal.ml" 162 6044 6095 "gtkSignal.ml" 162 6044 6099
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 161 5996 6037 "gtkSignal.ml" 161 5996 6041
+)
+"gtkSignal.ml" 162 6044 6066 "gtkSignal.ml" 162 6044 6100
+call(
+  stack
+)
+type(
+  'a
+)
+"gtkSignal.ml" 162 6044 6046 "gtkSignal.ml" 162 6044 6100
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkSignal.ml" 164 6104 6108 "gtkSignal.ml" 164 6104 6120
+type(
+  ret:'a Gobject.data_conv ->
+  'b Gobject.data_conv ->
+  'c Gobject.data_conv ->
+  'd Gobject.data_conv ->
+  string -> ('b -> 'c -> 'd -> 'a) -> Gobject.Closure.argv -> unit
+)
+ident(
+  def marshal3_ret "gtkSignal.ml" 167 6224 6224 --
+)
+"gtkSignal.ml" 164 6104 6122 "gtkSignal.ml" 164 6104 6125
+type(
+  'a Gobject.data_conv
+)
+ident(
+  def ret "gtkSignal.ml" 164 6104 6126 "gtkSignal.ml" 165 6158 6220
+)
+"gtkSignal.ml" 164 6104 6126 "gtkSignal.ml" 164 6104 6131
+type(
+  'b Gobject.data_conv
+)
+ident(
+  def conv1 "gtkSignal.ml" 164 6104 6132 "gtkSignal.ml" 165 6158 6220
+)
+"gtkSignal.ml" 164 6104 6132 "gtkSignal.ml" 164 6104 6137
+type(
+  'c Gobject.data_conv
+)
+ident(
+  def conv2 "gtkSignal.ml" 164 6104 6138 "gtkSignal.ml" 165 6158 6220
+)
+"gtkSignal.ml" 164 6104 6138 "gtkSignal.ml" 164 6104 6143
+type(
+  'd Gobject.data_conv
+)
+ident(
+  def conv3 "gtkSignal.ml" 164 6104 6144 "gtkSignal.ml" 165 6158 6220
+)
+"gtkSignal.ml" 164 6104 6144 "gtkSignal.ml" 164 6104 6148
+type(
+  string
+)
+ident(
+  def name "gtkSignal.ml" 164 6104 6149 "gtkSignal.ml" 165 6158 6220
+)
+"gtkSignal.ml" 164 6104 6149 "gtkSignal.ml" 164 6104 6150
+type(
+  'b -> 'c -> 'd -> 'a
+)
+ident(
+  def f "gtkSignal.ml" 164 6104 6151 "gtkSignal.ml" 165 6158 6220
+)
+"gtkSignal.ml" 164 6104 6151 "gtkSignal.ml" 164 6104 6155
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkSignal.ml" 165 6158 6160 "gtkSignal.ml" 165 6158 6220
+)
+"gtkSignal.ml" 165 6158 6160 "gtkSignal.ml" 165 6158 6170
+type(
+  'a Gobject.data_conv -> Gobject.Closure.argv -> 'a -> unit
+)
+ident(
+  int_ref set_result "gtkSignal.ml" 154 5766 5770 "gtkSignal.ml" 154 5766 5780
+)
+"gtkSignal.ml" 165 6158 6171 "gtkSignal.ml" 165 6158 6174
+type(
+  'a Gobject.data_conv
+)
+ident(
+  int_ref ret "gtkSignal.ml" 164 6104 6122 "gtkSignal.ml" 164 6104 6125
+)
+"gtkSignal.ml" 165 6158 6175 "gtkSignal.ml" 165 6158 6179
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 164 6104 6151 "gtkSignal.ml" 164 6104 6155
+)
+"gtkSignal.ml" 165 6158 6181 "gtkSignal.ml" 165 6158 6189
+type(
+  'b Gobject.data_conv ->
+  'c Gobject.data_conv ->
+  'd Gobject.data_conv ->
+  string -> ('b -> 'c -> 'd -> 'a) -> Gobject.Closure.argv -> 'a
+)
+ident(
+  int_ref marshal3 "gtkSignal.ml" 122 4444 4448 "gtkSignal.ml" 122 4444 4456
+)
+"gtkSignal.ml" 165 6158 6190 "gtkSignal.ml" 165 6158 6195
+type(
+  'b Gobject.data_conv
+)
+ident(
+  int_ref conv1 "gtkSignal.ml" 164 6104 6126 "gtkSignal.ml" 164 6104 6131
+)
+"gtkSignal.ml" 165 6158 6196 "gtkSignal.ml" 165 6158 6201
+type(
+  'c Gobject.data_conv
+)
+ident(
+  int_ref conv2 "gtkSignal.ml" 164 6104 6132 "gtkSignal.ml" 164 6104 6137
+)
+"gtkSignal.ml" 165 6158 6202 "gtkSignal.ml" 165 6158 6207
+type(
+  'd Gobject.data_conv
+)
+ident(
+  int_ref conv3 "gtkSignal.ml" 164 6104 6138 "gtkSignal.ml" 164 6104 6143
+)
+"gtkSignal.ml" 165 6158 6208 "gtkSignal.ml" 165 6158 6212
+type(
+  string
+)
+ident(
+  int_ref name "gtkSignal.ml" 164 6104 6144 "gtkSignal.ml" 164 6104 6148
+)
+"gtkSignal.ml" 165 6158 6213 "gtkSignal.ml" 165 6158 6214
+type(
+  'b -> 'c -> 'd -> 'a
+)
+ident(
+  int_ref f "gtkSignal.ml" 164 6104 6149 "gtkSignal.ml" 164 6104 6150
+)
+"gtkSignal.ml" 165 6158 6215 "gtkSignal.ml" 165 6158 6219
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 164 6104 6151 "gtkSignal.ml" 164 6104 6155
+)
+"gtkSignal.ml" 165 6158 6180 "gtkSignal.ml" 165 6158 6220
+call(
+  stack
+)
+type(
+  'a
+)
+"gtkSignal.ml" 165 6158 6160 "gtkSignal.ml" 165 6158 6220
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkSignal.ml" 167 6224 6228 "gtkSignal.ml" 167 6224 6240
+type(
+  ret:'a Gobject.data_conv ->
+  'b Gobject.data_conv ->
+  'c Gobject.data_conv ->
+  'd Gobject.data_conv ->
+  'e Gobject.data_conv ->
+  string -> ('b -> 'c -> 'd -> 'e -> 'a) -> Gobject.Closure.argv -> unit
+)
+ident(
+  def marshal4_ret "gtkSignal.ml" 170 6356 6356 --
+)
+"gtkSignal.ml" 167 6224 6242 "gtkSignal.ml" 167 6224 6245
+type(
+  'a Gobject.data_conv
+)
+ident(
+  def ret "gtkSignal.ml" 167 6224 6246 "gtkSignal.ml" 168 6284 6352
+)
+"gtkSignal.ml" 167 6224 6246 "gtkSignal.ml" 167 6224 6251
+type(
+  'b Gobject.data_conv
+)
+ident(
+  def conv1 "gtkSignal.ml" 167 6224 6252 "gtkSignal.ml" 168 6284 6352
+)
+"gtkSignal.ml" 167 6224 6252 "gtkSignal.ml" 167 6224 6257
+type(
+  'c Gobject.data_conv
+)
+ident(
+  def conv2 "gtkSignal.ml" 167 6224 6258 "gtkSignal.ml" 168 6284 6352
+)
+"gtkSignal.ml" 167 6224 6258 "gtkSignal.ml" 167 6224 6263
+type(
+  'd Gobject.data_conv
+)
+ident(
+  def conv3 "gtkSignal.ml" 167 6224 6264 "gtkSignal.ml" 168 6284 6352
+)
+"gtkSignal.ml" 167 6224 6264 "gtkSignal.ml" 167 6224 6269
+type(
+  'e Gobject.data_conv
+)
+ident(
+  def conv4 "gtkSignal.ml" 167 6224 6270 "gtkSignal.ml" 168 6284 6352
+)
+"gtkSignal.ml" 167 6224 6270 "gtkSignal.ml" 167 6224 6274
+type(
+  string
+)
+ident(
+  def name "gtkSignal.ml" 167 6224 6275 "gtkSignal.ml" 168 6284 6352
+)
+"gtkSignal.ml" 167 6224 6275 "gtkSignal.ml" 167 6224 6276
+type(
+  'b -> 'c -> 'd -> 'e -> 'a
+)
+ident(
+  def f "gtkSignal.ml" 167 6224 6277 "gtkSignal.ml" 168 6284 6352
+)
+"gtkSignal.ml" 167 6224 6277 "gtkSignal.ml" 167 6224 6281
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkSignal.ml" 168 6284 6286 "gtkSignal.ml" 168 6284 6352
+)
+"gtkSignal.ml" 168 6284 6286 "gtkSignal.ml" 168 6284 6296
+type(
+  'a Gobject.data_conv -> Gobject.Closure.argv -> 'a -> unit
+)
+ident(
+  int_ref set_result "gtkSignal.ml" 154 5766 5770 "gtkSignal.ml" 154 5766 5780
+)
+"gtkSignal.ml" 168 6284 6297 "gtkSignal.ml" 168 6284 6300
+type(
+  'a Gobject.data_conv
+)
+ident(
+  int_ref ret "gtkSignal.ml" 167 6224 6242 "gtkSignal.ml" 167 6224 6245
+)
+"gtkSignal.ml" 168 6284 6301 "gtkSignal.ml" 168 6284 6305
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 167 6224 6277 "gtkSignal.ml" 167 6224 6281
+)
+"gtkSignal.ml" 168 6284 6307 "gtkSignal.ml" 168 6284 6315
+type(
+  'b Gobject.data_conv ->
+  'c Gobject.data_conv ->
+  'd Gobject.data_conv ->
+  'e Gobject.data_conv ->
+  string -> ('b -> 'c -> 'd -> 'e -> 'a) -> Gobject.Closure.argv -> 'a
+)
+ident(
+  int_ref marshal4 "gtkSignal.ml" 129 4720 4724 "gtkSignal.ml" 129 4720 4732
+)
+"gtkSignal.ml" 168 6284 6316 "gtkSignal.ml" 168 6284 6321
+type(
+  'b Gobject.data_conv
+)
+ident(
+  int_ref conv1 "gtkSignal.ml" 167 6224 6246 "gtkSignal.ml" 167 6224 6251
+)
+"gtkSignal.ml" 168 6284 6322 "gtkSignal.ml" 168 6284 6327
+type(
+  'c Gobject.data_conv
+)
+ident(
+  int_ref conv2 "gtkSignal.ml" 167 6224 6252 "gtkSignal.ml" 167 6224 6257
+)
+"gtkSignal.ml" 168 6284 6328 "gtkSignal.ml" 168 6284 6333
+type(
+  'd Gobject.data_conv
+)
+ident(
+  int_ref conv3 "gtkSignal.ml" 167 6224 6258 "gtkSignal.ml" 167 6224 6263
+)
+"gtkSignal.ml" 168 6284 6334 "gtkSignal.ml" 168 6284 6339
+type(
+  'e Gobject.data_conv
+)
+ident(
+  int_ref conv4 "gtkSignal.ml" 167 6224 6264 "gtkSignal.ml" 167 6224 6269
+)
+"gtkSignal.ml" 168 6284 6340 "gtkSignal.ml" 168 6284 6344
+type(
+  string
+)
+ident(
+  int_ref name "gtkSignal.ml" 167 6224 6270 "gtkSignal.ml" 167 6224 6274
+)
+"gtkSignal.ml" 168 6284 6345 "gtkSignal.ml" 168 6284 6346
+type(
+  'b -> 'c -> 'd -> 'e -> 'a
+)
+ident(
+  int_ref f "gtkSignal.ml" 167 6224 6275 "gtkSignal.ml" 167 6224 6276
+)
+"gtkSignal.ml" 168 6284 6347 "gtkSignal.ml" 168 6284 6351
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkSignal.ml" 167 6224 6277 "gtkSignal.ml" 167 6224 6281
+)
+"gtkSignal.ml" 168 6284 6306 "gtkSignal.ml" 168 6284 6352
+call(
+  stack
+)
+type(
+  'a
+)
+"gtkSignal.ml" 168 6284 6286 "gtkSignal.ml" 168 6284 6352
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkSignal.ml" 174 6483 6487 "gtkSignal.ml" 174 6483 6504
+type(
+  'a Gobject.obj -> name:string -> params:'b Gobject.data_set array -> unit
+)
+ident(
+  def emit_by_name_unit "gtkSignal.ml" 177 6570 6570 --
+)
+"gtkSignal.ml" 174 6483 6505 "gtkSignal.ml" 174 6483 6508
+type(
+  'a Gobject.obj
+)
+ident(
+  def obj "gtkSignal.ml" 174 6483 6509 "gtkSignal.ml" 175 6525 6566
+)
+"gtkSignal.ml" 174 6483 6510 "gtkSignal.ml" 174 6483 6514
+type(
+  string
+)
+ident(
+  def name "gtkSignal.ml" 174 6483 6515 "gtkSignal.ml" 175 6525 6566
+)
+"gtkSignal.ml" 174 6483 6516 "gtkSignal.ml" 174 6483 6522
+type(
+  'b Gobject.data_set array
+)
+ident(
+  def params "gtkSignal.ml" 175 6525 6527 "gtkSignal.ml" 175 6525 6566
+)
+"gtkSignal.ml" 175 6525 6527 "gtkSignal.ml" 175 6525 6533
+type(
+  Gobject.g_value -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gtkSignal.ml" 175 6525 6535 "gtkSignal.ml" 175 6525 6547
+type(
+  'a Gobject.obj ->
+  name:string -> params:'b Gobject.data_set array -> Gobject.g_value
+)
+"gtkSignal.ml" 175 6525 6548 "gtkSignal.ml" 175 6525 6551
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref obj "gtkSignal.ml" 174 6483 6505 "gtkSignal.ml" 174 6483 6508
+)
+"gtkSignal.ml" 175 6525 6553 "gtkSignal.ml" 175 6525 6557
+type(
+  string
+)
+ident(
+  int_ref name "gtkSignal.ml" 174 6483 6510 "gtkSignal.ml" 174 6483 6514
+)
+"gtkSignal.ml" 175 6525 6559 "gtkSignal.ml" 175 6525 6565
+type(
+  'b Gobject.data_set array
+)
+ident(
+  int_ref params "gtkSignal.ml" 174 6483 6516 "gtkSignal.ml" 174 6483 6522
+)
+"gtkSignal.ml" 175 6525 6534 "gtkSignal.ml" 175 6525 6566
+type(
+  Gobject.g_value
+)
+"gtkSignal.ml" 175 6525 6527 "gtkSignal.ml" 175 6525 6566
+type(
+  unit
+)
+"gtkSignal.ml" 177 6570 6574 "gtkSignal.ml" 177 6570 6578
+type(
+  'a Gobject.obj ->
+  sgn:('a, 'b) t ->
+  emitter:(cont:('c Gobject.data_set array -> 'd) -> 'b) ->
+  conv:(Gobject.g_value -> 'd) -> 'b
+)
+ident(
+  def emit "gtkSignal.ml" 183 6824 6824 --
+)
+"gtkSignal.ml" 177 6570 6580 "gtkSignal.ml" 177 6570 6583
+type(
+  'a Gobject.obj
+)
+ident(
+  def obj "gtkSignal.ml" 177 6570 6594 "gtkSignal.ml" 181 6746 6820
+)
+"gtkSignal.ml" 177 6570 6602 "gtkSignal.ml" 177 6570 6605
+type(
+  ('a, 'b) t
+)
+ident(
+  def sgn "gtkSignal.ml" 178 6621 6630 "gtkSignal.ml" 181 6746 6820
+)
+"gtkSignal.ml" 178 6621 6642 "gtkSignal.ml" 178 6621 6649
+type(
+  cont:('c Gobject.data_set array -> 'd) -> 'b
+)
+ident(
+  def emitter "gtkSignal.ml" 179 6693 6702 "gtkSignal.ml" 181 6746 6820
+)
+"gtkSignal.ml" 179 6693 6711 "gtkSignal.ml" 179 6693 6715
+type(
+  Gobject.g_value -> 'd
+)
+ident(
+  def conv "gtkSignal.ml" 180 6736 6738 "gtkSignal.ml" 181 6746 6820
+)
+"gtkSignal.ml" 180 6736 6738 "gtkSignal.ml" 180 6736 6745
+type(
+  cont:('c Gobject.data_set array -> 'd) -> 'b
+)
+ident(
+  int_ref emitter "gtkSignal.ml" 178 6621 6642 "gtkSignal.ml" 178 6621 6649
+)
+"gtkSignal.ml" 181 6746 6762 "gtkSignal.ml" 181 6746 6768
+type(
+  'c Gobject.data_set array
+)
+ident(
+  def params "gtkSignal.ml" 181 6746 6772 "gtkSignal.ml" 181 6746 6819
+)
+"gtkSignal.ml" 181 6746 6772 "gtkSignal.ml" 181 6746 6776
+type(
+  Gobject.g_value -> 'd
+)
+ident(
+  int_ref conv "gtkSignal.ml" 179 6693 6711 "gtkSignal.ml" 179 6693 6715
+)
+"gtkSignal.ml" 181 6746 6778 "gtkSignal.ml" 181 6746 6790
+type(
+  'a Gobject.obj ->
+  name:string -> params:'c Gobject.data_set array -> Gobject.g_value
+)
+"gtkSignal.ml" 181 6746 6791 "gtkSignal.ml" 181 6746 6794
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref obj "gtkSignal.ml" 177 6570 6580 "gtkSignal.ml" 177 6570 6583
+)
+"gtkSignal.ml" 181 6746 6802 "gtkSignal.ml" 181 6746 6805
+type(
+  ('a, 'b) t
+)
+ident(
+  int_ref sgn "gtkSignal.ml" 177 6570 6602 "gtkSignal.ml" 177 6570 6605
+)
+"gtkSignal.ml" 181 6746 6802 "gtkSignal.ml" 181 6746 6810
+type(
+  string
+)
+"gtkSignal.ml" 181 6746 6812 "gtkSignal.ml" 181 6746 6818
+type(
+  'c Gobject.data_set array
+)
+ident(
+  int_ref params "gtkSignal.ml" 181 6746 6762 "gtkSignal.ml" 181 6746 6768
+)
+"gtkSignal.ml" 181 6746 6777 "gtkSignal.ml" 181 6746 6819
+type(
+  Gobject.g_value
+)
+"gtkSignal.ml" 181 6746 6772 "gtkSignal.ml" 181 6746 6819
+call(
+  tail
+)
+type(
+  'd
+)
+"gtkSignal.ml" 181 6746 6757 "gtkSignal.ml" 181 6746 6820
+type(
+  'c Gobject.data_set array -> 'd
+)
+"gtkSignal.ml" 180 6736 6738 "gtkSignal.ml" 181 6746 6820
+call(
+  tail
+)
+type(
+  'b
+)
+"gtkSignal.ml" 183 6824 6828 "gtkSignal.ml" 183 6824 6837
+type(
+  'a Gobject.obj -> sgn:('a, unit -> unit) t -> unit
+)
+ident(
+  def emit_unit "gtkSignal.ml" 186 6915 6915 --
+)
+"gtkSignal.ml" 183 6824 6838 "gtkSignal.ml" 183 6824 6841
+type(
+  'a Gobject.obj
+)
+ident(
+  def obj "gtkSignal.ml" 184 6844 6846 "gtkSignal.ml" 184 6844 6911
+)
+"gtkSignal.ml" 184 6844 6846 "gtkSignal.ml" 184 6844 6850
+type(
+  'a Gobject.obj ->
+  sgn:('a, unit -> unit) t ->
+  emitter:(cont:('_b Gobject.data_set array -> unit) -> unit -> unit) ->
+  conv:(Gobject.g_value -> unit) -> unit -> unit
+)
+ident(
+  int_ref emit "gtkSignal.ml" 177 6570 6574 "gtkSignal.ml" 177 6570 6578
+)
+"gtkSignal.ml" 184 6844 6851 "gtkSignal.ml" 184 6844 6854
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref obj "gtkSignal.ml" 183 6824 6838 "gtkSignal.ml" 183 6824 6841
+)
+"gtkSignal.ml" 184 6844 6871 "gtkSignal.ml" 184 6844 6875
+type(
+  '_b Gobject.data_set array -> unit
+)
+ident(
+  def cont "gtkSignal.ml" 184 6844 6876 "gtkSignal.ml" 184 6844 6893
+)
+"gtkSignal.ml" 184 6844 6876 "gtkSignal.ml" 184 6844 6878
+type(
+  unit
+)
+"gtkSignal.ml" 184 6844 6882 "gtkSignal.ml" 184 6844 6886
+type(
+  '_b Gobject.data_set array -> unit
+)
+ident(
+  int_ref cont "gtkSignal.ml" 184 6844 6871 "gtkSignal.ml" 184 6844 6875
+)
+"gtkSignal.ml" 184 6844 6887 "gtkSignal.ml" 184 6844 6893
+type(
+  '_b Gobject.data_set array
+)
+"gtkSignal.ml" 184 6844 6882 "gtkSignal.ml" 184 6844 6893
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkSignal.ml" 184 6844 6865 "gtkSignal.ml" 184 6844 6894
+type(
+  cont:('_b Gobject.data_set array -> unit) -> unit -> unit
+)
+"gtkSignal.ml" 184 6844 6902 "gtkSignal.ml" 184 6844 6908
+type(
+  Gobject.g_value -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gtkSignal.ml" 184 6844 6909 "gtkSignal.ml" 184 6844 6911
+type(
+  unit
+)
+"gtkSignal.ml" 184 6844 6846 "gtkSignal.ml" 184 6844 6911
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  sgn:('a, unit -> unit) t -> unit
+)
+"gtkSignal.ml" 186 6915 6919 "gtkSignal.ml" 186 6915 6927
+type(
+  'a Gobject.obj -> sgn:('a, int -> unit) t -> int -> unit
+)
+ident(
+  def emit_int "gtkSignal.ml" 189 6999 6999 --
+)
+"gtkSignal.ml" 187 6930 6932 "gtkSignal.ml" 187 6930 6936
+type(
+  'a Gobject.obj ->
+  sgn:('a, int -> unit) t ->
+  emitter:(cont:('_b Gobject.data_set array -> unit) -> int -> unit) ->
+  conv:(Gobject.g_value -> unit) -> int -> unit
+)
+ident(
+  int_ref emit "gtkSignal.ml" 177 6570 6574 "gtkSignal.ml" 177 6570 6578
+)
+"gtkSignal.ml" 187 6930 6953 "gtkSignal.ml" 187 6930 6957
+type(
+  '_b Gobject.data_set array -> unit
+)
+ident(
+  def cont "gtkSignal.ml" 187 6930 6958 "gtkSignal.ml" 187 6930 6980
+)
+"gtkSignal.ml" 187 6930 6958 "gtkSignal.ml" 187 6930 6959
+type(
+  int
+)
+ident(
+  def n "gtkSignal.ml" 187 6930 6963 "gtkSignal.ml" 187 6930 6980
+)
+"gtkSignal.ml" 187 6930 6963 "gtkSignal.ml" 187 6930 6967
+type(
+  '_b Gobject.data_set array -> unit
+)
+ident(
+  int_ref cont "gtkSignal.ml" 187 6930 6953 "gtkSignal.ml" 187 6930 6957
+)
+"gtkSignal.ml" 187 6930 6976 "gtkSignal.ml" 187 6930 6977
+type(
+  int
+)
+ident(
+  int_ref n "gtkSignal.ml" 187 6930 6958 "gtkSignal.ml" 187 6930 6959
+)
+"gtkSignal.ml" 187 6930 6971 "gtkSignal.ml" 187 6930 6977
+type(
+  '_b Gobject.data_set
+)
+"gtkSignal.ml" 187 6930 6968 "gtkSignal.ml" 187 6930 6980
+type(
+  '_b Gobject.data_set array
+)
+"gtkSignal.ml" 187 6930 6963 "gtkSignal.ml" 187 6930 6980
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkSignal.ml" 187 6930 6947 "gtkSignal.ml" 187 6930 6981
+type(
+  cont:('_b Gobject.data_set array -> unit) -> int -> unit
+)
+"gtkSignal.ml" 187 6930 6989 "gtkSignal.ml" 187 6930 6995
+type(
+  Gobject.g_value -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gtkSignal.ml" 187 6930 6932 "gtkSignal.ml" 187 6930 6995
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  'a Gobject.obj -> sgn:('a, int -> unit) t -> int -> unit
+)
+"gtkSignal.ml" 192 7116 7120 "gtkSignal.ml" 192 7116 7142
+type(
+  ('a, 'b) t -> Gobject.g_type -> Gobject.g_closure -> unit
+)
+ident(
+  def override_class_closure "gtkSignal.ml" 195 7203 7203 --
+)
+"gtkSignal.ml" 192 7116 7152 "gtkSignal.ml" 192 7116 7156
+type(
+  string
+)
+ident(
+  def name "gtkSignal.ml" 192 7116 7159 "gtkSignal.ml" 193 7165 7199
+)
+"gtkSignal.ml" 192 7116 7143 "gtkSignal.ml" 192 7116 7158
+type(
+  ('a, 'b) t
+)
+"gtkSignal.ml" 192 7116 7159 "gtkSignal.ml" 192 7116 7160
+type(
+  Gobject.g_type
+)
+ident(
+  def t "gtkSignal.ml" 192 7116 7161 "gtkSignal.ml" 193 7165 7199
+)
+"gtkSignal.ml" 192 7116 7161 "gtkSignal.ml" 192 7116 7162
+type(
+  Gobject.g_closure
+)
+ident(
+  def c "gtkSignal.ml" 193 7165 7167 "gtkSignal.ml" 193 7165 7199
+)
+"gtkSignal.ml" 193 7165 7167 "gtkSignal.ml" 193 7165 7190
+type(
+  string -> Gobject.g_type -> Gobject.g_closure -> unit
+)
+"gtkSignal.ml" 193 7165 7191 "gtkSignal.ml" 193 7165 7195
+type(
+  string
+)
+ident(
+  int_ref name "gtkSignal.ml" 192 7116 7152 "gtkSignal.ml" 192 7116 7156
+)
+"gtkSignal.ml" 193 7165 7196 "gtkSignal.ml" 193 7165 7197
+type(
+  Gobject.g_type
+)
+ident(
+  int_ref t "gtkSignal.ml" 192 7116 7159 "gtkSignal.ml" 192 7116 7160
+)
+"gtkSignal.ml" 193 7165 7198 "gtkSignal.ml" 193 7165 7199
+type(
+  Gobject.g_closure
+)
+ident(
+  int_ref c "gtkSignal.ml" 192 7116 7161 "gtkSignal.ml" 192 7116 7162
+)
+"gtkSignal.ml" 193 7165 7167 "gtkSignal.ml" 193 7165 7199
+type(
+  unit
+)

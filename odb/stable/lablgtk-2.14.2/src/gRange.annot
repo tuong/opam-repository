@@ -1,0 +1,938 @@
+"gRange.ml" 32 1753 1772 "gRange.ml" 32 1753 1775
+type(
+  Gtk.progress_bar Gtk.obj
+)
+"gRange.ml" 33 1785 1826 "gRange.ml" 33 1785 1829
+type(
+  Gtk.progress_bar Gtk.obj
+)
+ident(
+  int_ref obj "gRange.ml" 32 1753 1772 "gRange.ml" 32 1753 1775
+)
+"gRange.ml" 34 1830 1849 "gRange.ml" 34 1830 1872
+type(
+  Gtk.progress_bar Gtk.obj -> GObj.widget_signals_impl
+)
+"gRange.ml" 34 1830 1873 "gRange.ml" 34 1830 1876
+type(
+  Gtk.progress_bar Gtk.obj
+)
+"gRange.ml" 34 1830 1849 "gRange.ml" 34 1830 1876
+call(
+  tail
+)
+type(
+  GObj.widget_signals_impl
+)
+type(
+  GObj.widget_signals_impl
+)
+"gRange.ml" 35 1877 1894 "gRange.ml" 35 1877 1912
+type(
+  Gtk.progress_bar Gtk.obj -> GObj.event_ops
+)
+"gRange.ml" 35 1877 1913 "gRange.ml" 35 1877 1916
+type(
+  Gtk.progress_bar Gtk.obj
+)
+"gRange.ml" 35 1877 1894 "gRange.ml" 35 1877 1916
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gRange.ml" 37 1946 1961 "gRange.ml" 37 1946 1963
+type(
+  unit
+)
+"gRange.ml" 37 1946 1966 "gRange.ml" 37 1946 1983
+type(
+  Gtk.progress_bar Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkRange.ProgressBar.pulse
+)
+"gRange.ml" 37 1946 1984 "gRange.ml" 37 1946 1987
+type(
+  Gtk.progress_bar Gtk.obj
+)
+"gRange.ml" 37 1946 1966 "gRange.ml" 37 1946 1987
+type(
+  unit
+)
+"gRange.ml" 40 1993 1997 "gRange.ml" 40 1993 2009
+type(
+  ?orientation:GtkEnums.progress_bar_orientation ->
+  ?pulse_step:float ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> progress_bar
+)
+ident(
+  def progress_bar "gRange.ml" 44 2152 2152 --
+)
+"gRange.ml" 41 2012 2014 "gRange.ml" 41 2012 2037
+type(
+  cont:(Gtk.progress_bar Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> progress_bar) ->
+  Gtk.progress_bar Gobject.param list ->
+  ?orientation:GtkEnums.progress_bar_orientation ->
+  ?pulse_step:float ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> progress_bar
+)
+ident(
+  ext_ref GtkRange.ProgressBar.make_params
+)
+"gRange.ml" 41 2012 2038 "gRange.ml" 41 2012 2040
+type(
+  Gtk.progress_bar Gobject.param list
+)
+"gRange.ml" 41 2012 2052 "gRange.ml" 41 2012 2054
+type(
+  Gtk.progress_bar Gobject.param list
+)
+ident(
+  def pl "gRange.ml" 41 2012 2055 "gRange.ml" 42 2076 2149
+)
+"gRange.ml" 41 2012 2056 "gRange.ml" 41 2012 2063
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gRange.ml" 41 2012 2064 "gRange.ml" 42 2076 2149
+)
+"gRange.ml" 41 2012 2065 "gRange.ml" 41 2012 2069
+type(
+  bool option
+)
+ident(
+  def show "gRange.ml" 41 2012 2070 "gRange.ml" 42 2076 2149
+)
+"gRange.ml" 41 2012 2070 "gRange.ml" 41 2012 2072
+type(
+  unit
+)
+"gRange.ml" 42 2076 2080 "gRange.ml" 42 2076 2091
+type(
+  progress_bar ->
+  packing:(GObj.widget -> unit) option -> show:bool option -> progress_bar
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gRange.ml" 42 2076 2093 "gRange.ml" 42 2076 2109
+type(
+  Gtk.progress_bar Gtk.obj -> progress_bar
+)
+"gRange.ml" 42 2076 2111 "gRange.ml" 42 2076 2129
+type(
+  Gtk.progress_bar Gobject.param list -> Gtk.progress_bar Gtk.obj
+)
+ident(
+  ext_ref GtkRange.ProgressBar.create
+)
+"gRange.ml" 42 2076 2130 "gRange.ml" 42 2076 2132
+type(
+  Gtk.progress_bar Gobject.param list
+)
+ident(
+  int_ref pl "gRange.ml" 41 2012 2052 "gRange.ml" 41 2012 2054
+)
+"gRange.ml" 42 2076 2110 "gRange.ml" 42 2076 2133
+call(
+  stack
+)
+type(
+  Gtk.progress_bar Gtk.obj
+)
+"gRange.ml" 42 2076 2092 "gRange.ml" 42 2076 2134
+call(
+  stack
+)
+type(
+  progress_bar
+)
+"gRange.ml" 42 2076 2136 "gRange.ml" 42 2076 2143
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gRange.ml" 41 2012 2056 "gRange.ml" 41 2012 2063
+)
+"gRange.ml" 42 2076 2145 "gRange.ml" 42 2076 2149
+type(
+  bool option
+)
+ident(
+  int_ref show "gRange.ml" 41 2012 2065 "gRange.ml" 41 2012 2069
+)
+"gRange.ml" 42 2076 2080 "gRange.ml" 42 2076 2149
+call(
+  tail
+)
+type(
+  progress_bar
+)
+"gRange.ml" 41 2012 2047 "gRange.ml" 42 2076 2150
+type(
+  Gtk.progress_bar Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> progress_bar
+)
+"gRange.ml" 41 2012 2014 "gRange.ml" 42 2076 2150
+call(
+  stack
+)
+type(
+  ?orientation:GtkEnums.progress_bar_orientation ->
+  ?pulse_step:float ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> progress_bar
+)
+"gRange.ml" 44 2152 2172 "gRange.ml" 44 2152 2175
+type(
+  [> `gtk | `range | `widget ] Gtk.obj
+)
+"gRange.ml" 45 2185 2215 "gRange.ml" 45 2185 2218
+type(
+  ([> `gtk | `range | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gRange.ml" 44 2152 2172 "gRange.ml" 44 2152 2175
+)
+"gRange.ml" 49 2245 2257 "gRange.ml" 49 2245 2260
+type(
+  [> `gtk | `range | `widget ] Gtk.obj
+)
+"gRange.ml" 50 2270 2297 "gRange.ml" 50 2270 2300
+type(
+  ([> `gtk | `range | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gRange.ml" 49 2245 2257 "gRange.ml" 49 2245 2260
+)
+"gRange.ml" 51 2301 2320 "gRange.ml" 51 2301 2337
+type(
+  'a Gtk.obj -> range_signals
+)
+"gRange.ml" 51 2301 2338 "gRange.ml" 51 2301 2341
+type(
+  'a Gtk.obj
+)
+"gRange.ml" 51 2301 2320 "gRange.ml" 51 2301 2341
+call(
+  tail
+)
+type(
+  range_signals
+)
+type(
+  range_signals
+)
+"gRange.ml" 52 2342 2359 "gRange.ml" 52 2342 2377
+type(
+  'a Gtk.obj -> GObj.event_ops
+)
+"gRange.ml" 52 2342 2378 "gRange.ml" 52 2342 2381
+type(
+  'a Gtk.obj
+)
+"gRange.ml" 52 2342 2359 "gRange.ml" 52 2342 2381
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gRange.ml" 56 2409 2421 "gRange.ml" 56 2409 2424
+type(
+  Gtk.scale Gtk.obj
+)
+"gRange.ml" 57 2434 2451 "gRange.ml" 57 2434 2454
+type(
+  Gtk.scale Gtk.obj
+)
+type(
+  Gtk.scale Gtk.obj
+)
+ident(
+  int_ref obj "gRange.ml" 56 2409 2421 "gRange.ml" 56 2409 2424
+)
+"gRange.ml" 61 2499 2503 "gRange.ml" 61 2499 2508
+type(
+  Gtk.Tags.orientation ->
+  ?adjustment:GData.adjustment ->
+  ?digits:int ->
+  ?draw_value:bool ->
+  ?value_pos:GtkEnums.position_type ->
+  ?inverted:bool ->
+  ?update_policy:GtkEnums.update_type ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> scale
+)
+ident(
+  def scale "gRange.ml" 67 2744 2744 --
+)
+"gRange.ml" 61 2499 2509 "gRange.ml" 61 2499 2512
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  def dir "gRange.ml" 61 2499 2513 "gRange.ml" 65 2674 2742
+)
+"gRange.ml" 61 2499 2514 "gRange.ml" 61 2499 2524
+type(
+  GData.adjustment option
+)
+ident(
+  def adjustment "gRange.ml" 62 2527 2529 "gRange.ml" 65 2674 2742
+)
+"gRange.ml" 62 2527 2529 "gRange.ml" 62 2527 2546
+type(
+  cont:(Gtk.scale Gobject.param list ->
+        ?inverted:bool ->
+        ?update_policy:GtkEnums.update_type ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> scale) ->
+  Gtk.scale Gobject.param list ->
+  ?digits:int ->
+  ?draw_value:bool ->
+  ?value_pos:GtkEnums.position_type ->
+  ?inverted:bool ->
+  ?update_policy:GtkEnums.update_type ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> scale
+)
+ident(
+  ext_ref GtkRange.Scale.make_params
+)
+"gRange.ml" 62 2527 2547 "gRange.ml" 62 2527 2549
+type(
+  Gtk.scale Gobject.param list
+)
+"gRange.ml" 63 2558 2560 "gRange.ml" 63 2558 2577
+type(
+  cont:(Gtk.scale Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> scale) ->
+  Gtk.scale Gobject.param list ->
+  ?adjustment:Gtk.adjustment Gtk.obj ->
+  ?inverted:bool ->
+  ?update_policy:GtkEnums.update_type ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> scale
+)
+ident(
+  ext_ref GtkRange.Range.make_params
+)
+"gRange.ml" 63 2558 2591 "gRange.ml" 63 2558 2598
+type(
+  f:(GData.adjustment -> Gtk.adjustment Gtk.obj) ->
+  GData.adjustment option -> Gtk.adjustment Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gRange.ml" 63 2558 2599 "gRange.ml" 63 2558 2618
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gRange.ml" 63 2558 2619 "gRange.ml" 63 2558 2629
+type(
+  GData.adjustment option
+)
+ident(
+  int_ref adjustment "gRange.ml" 61 2499 2514 "gRange.ml" 61 2499 2524
+)
+"gRange.ml" 63 2558 2590 "gRange.ml" 63 2558 2630
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gRange.ml" 64 2631 2646 "gRange.ml" 64 2631 2648
+type(
+  Gtk.scale Gobject.param list
+)
+ident(
+  def pl "gRange.ml" 64 2631 2649 "gRange.ml" 65 2674 2740
+)
+"gRange.ml" 64 2631 2650 "gRange.ml" 64 2631 2657
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gRange.ml" 64 2631 2658 "gRange.ml" 65 2674 2740
+)
+"gRange.ml" 64 2631 2659 "gRange.ml" 64 2631 2663
+type(
+  bool option
+)
+ident(
+  def show "gRange.ml" 64 2631 2664 "gRange.ml" 65 2674 2740
+)
+"gRange.ml" 64 2631 2664 "gRange.ml" 64 2631 2670
+type(
+  'a
+)
+ident(
+  def params "gRange.ml" 65 2674 2680 "gRange.ml" 65 2674 2740
+)
+"gRange.ml" 65 2674 2680 "gRange.ml" 65 2674 2691
+type(
+  scale -> packing:(GObj.widget -> unit) option -> show:bool option -> scale
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gRange.ml" 65 2674 2693 "gRange.ml" 65 2674 2702
+type(
+  Gtk.scale Gtk.obj -> scale
+)
+"gRange.ml" 65 2674 2704 "gRange.ml" 65 2674 2716
+type(
+  Gtk.Tags.orientation -> Gtk.scale Gobject.param list -> Gtk.scale Gtk.obj
+)
+ident(
+  ext_ref GtkRange.Scale.create
+)
+"gRange.ml" 65 2674 2717 "gRange.ml" 65 2674 2720
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  int_ref dir "gRange.ml" 61 2499 2509 "gRange.ml" 61 2499 2512
+)
+"gRange.ml" 65 2674 2721 "gRange.ml" 65 2674 2723
+type(
+  Gtk.scale Gobject.param list
+)
+ident(
+  int_ref pl "gRange.ml" 64 2631 2646 "gRange.ml" 64 2631 2648
+)
+"gRange.ml" 65 2674 2703 "gRange.ml" 65 2674 2724
+call(
+  stack
+)
+type(
+  Gtk.scale Gtk.obj
+)
+"gRange.ml" 65 2674 2692 "gRange.ml" 65 2674 2725
+call(
+  stack
+)
+type(
+  scale
+)
+"gRange.ml" 65 2674 2727 "gRange.ml" 65 2674 2734
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gRange.ml" 64 2631 2650 "gRange.ml" 64 2631 2657
+)
+"gRange.ml" 65 2674 2736 "gRange.ml" 65 2674 2740
+type(
+  bool option
+)
+ident(
+  int_ref show "gRange.ml" 64 2631 2659 "gRange.ml" 64 2631 2663
+)
+"gRange.ml" 65 2674 2680 "gRange.ml" 65 2674 2740
+call(
+  tail
+)
+type(
+  scale
+)
+"gRange.ml" 64 2631 2641 "gRange.ml" 65 2674 2741
+type(
+  Gtk.scale Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> scale
+)
+"gRange.ml" 62 2527 2556 "gRange.ml" 65 2674 2742
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  Gtk.scale Gobject.param list ->
+  ?inverted:bool ->
+  ?update_policy:GtkEnums.update_type ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> scale
+)
+"gRange.ml" 62 2527 2529 "gRange.ml" 65 2674 2742
+call(
+  tail
+)
+type(
+  ?digits:int ->
+  ?draw_value:bool ->
+  ?value_pos:GtkEnums.position_type ->
+  ?inverted:bool ->
+  ?update_policy:GtkEnums.update_type ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> scale
+)
+"gRange.ml" 67 2744 2748 "gRange.ml" 67 2744 2757
+type(
+  Gtk.Tags.orientation ->
+  ?adjustment:GData.adjustment ->
+  ?inverted:bool ->
+  ?update_policy:GtkEnums.update_type ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> range
+)
+ident(
+  def scrollbar "gRange.ml" 72 2968 2968 --
+)
+"gRange.ml" 67 2744 2758 "gRange.ml" 67 2744 2761
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  def dir "gRange.ml" 67 2744 2762 "gRange.ml" 70 2895 2966
+)
+"gRange.ml" 67 2744 2763 "gRange.ml" 67 2744 2773
+type(
+  GData.adjustment option
+)
+ident(
+  def adjustment "gRange.ml" 68 2776 2778 "gRange.ml" 70 2895 2966
+)
+"gRange.ml" 68 2776 2778 "gRange.ml" 68 2776 2795
+type(
+  cont:(Gtk.scrollbar Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> range) ->
+  Gtk.scrollbar Gobject.param list ->
+  ?adjustment:Gtk.adjustment Gtk.obj ->
+  ?inverted:bool ->
+  ?update_policy:GtkEnums.update_type ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> range
+)
+ident(
+  ext_ref GtkRange.Range.make_params
+)
+"gRange.ml" 68 2776 2796 "gRange.ml" 68 2776 2798
+type(
+  Gtk.scrollbar Gobject.param list
+)
+"gRange.ml" 68 2776 2812 "gRange.ml" 68 2776 2819
+type(
+  f:(GData.adjustment -> Gtk.adjustment Gtk.obj) ->
+  GData.adjustment option -> Gtk.adjustment Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gRange.ml" 68 2776 2820 "gRange.ml" 68 2776 2839
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gRange.ml" 68 2776 2840 "gRange.ml" 68 2776 2850
+type(
+  GData.adjustment option
+)
+ident(
+  int_ref adjustment "gRange.ml" 67 2744 2763 "gRange.ml" 67 2744 2773
+)
+"gRange.ml" 68 2776 2811 "gRange.ml" 68 2776 2851
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gRange.ml" 69 2852 2867 "gRange.ml" 69 2852 2869
+type(
+  Gtk.scrollbar Gobject.param list
+)
+ident(
+  def pl "gRange.ml" 69 2852 2870 "gRange.ml" 70 2895 2965
+)
+"gRange.ml" 69 2852 2871 "gRange.ml" 69 2852 2878
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gRange.ml" 69 2852 2879 "gRange.ml" 70 2895 2965
+)
+"gRange.ml" 69 2852 2880 "gRange.ml" 69 2852 2884
+type(
+  bool option
+)
+ident(
+  def show "gRange.ml" 69 2852 2885 "gRange.ml" 70 2895 2965
+)
+"gRange.ml" 69 2852 2885 "gRange.ml" 69 2852 2891
+type(
+  'a
+)
+ident(
+  def params "gRange.ml" 70 2895 2901 "gRange.ml" 70 2895 2965
+)
+"gRange.ml" 70 2895 2901 "gRange.ml" 70 2895 2912
+type(
+  range -> packing:(GObj.widget -> unit) option -> show:bool option -> range
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gRange.ml" 70 2895 2914 "gRange.ml" 70 2895 2923
+type(
+  Gtk.scrollbar Gtk.obj -> range
+)
+"gRange.ml" 70 2895 2925 "gRange.ml" 70 2895 2941
+type(
+  Gtk.Tags.orientation ->
+  Gtk.scrollbar Gobject.param list -> Gtk.scrollbar Gtk.obj
+)
+ident(
+  ext_ref GtkRange.Scrollbar.create
+)
+"gRange.ml" 70 2895 2942 "gRange.ml" 70 2895 2945
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  int_ref dir "gRange.ml" 67 2744 2758 "gRange.ml" 67 2744 2761
+)
+"gRange.ml" 70 2895 2946 "gRange.ml" 70 2895 2948
+type(
+  Gtk.scrollbar Gobject.param list
+)
+ident(
+  int_ref pl "gRange.ml" 69 2852 2867 "gRange.ml" 69 2852 2869
+)
+"gRange.ml" 70 2895 2924 "gRange.ml" 70 2895 2949
+call(
+  stack
+)
+type(
+  Gtk.scrollbar Gtk.obj
+)
+"gRange.ml" 70 2895 2913 "gRange.ml" 70 2895 2950
+call(
+  stack
+)
+type(
+  range
+)
+"gRange.ml" 70 2895 2952 "gRange.ml" 70 2895 2959
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gRange.ml" 69 2852 2871 "gRange.ml" 69 2852 2878
+)
+"gRange.ml" 70 2895 2961 "gRange.ml" 70 2895 2965
+type(
+  bool option
+)
+ident(
+  int_ref show "gRange.ml" 69 2852 2880 "gRange.ml" 69 2852 2884
+)
+"gRange.ml" 70 2895 2901 "gRange.ml" 70 2895 2965
+call(
+  tail
+)
+type(
+  range
+)
+"gRange.ml" 69 2852 2862 "gRange.ml" 70 2895 2966
+type(
+  Gtk.scrollbar Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> range
+)
+"gRange.ml" 68 2776 2778 "gRange.ml" 70 2895 2966
+call(
+  tail
+)
+type(
+  ?inverted:bool ->
+  ?update_policy:GtkEnums.update_type ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> range
+)
+"gRange.ml" 72 2968 2980 "gRange.ml" 72 2968 2983
+type(
+  [> `gtk | `ruler | `widget ] Gtk.obj
+)
+"gRange.ml" 73 2993 3020 "gRange.ml" 73 2993 3023
+type(
+  ([> `gtk | `ruler | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gRange.ml" 72 2968 2980 "gRange.ml" 72 2968 2983
+)
+"gRange.ml" 74 3024 3043 "gRange.ml" 74 3024 3066
+type(
+  'a Gtk.obj -> GObj.widget_signals_impl
+)
+"gRange.ml" 74 3024 3067 "gRange.ml" 74 3024 3070
+type(
+  'a Gtk.obj
+)
+"gRange.ml" 74 3024 3043 "gRange.ml" 74 3024 3070
+call(
+  tail
+)
+type(
+  GObj.widget_signals_impl
+)
+type(
+  GObj.widget_signals_impl
+)
+"gRange.ml" 75 3071 3088 "gRange.ml" 75 3071 3106
+type(
+  'a Gtk.obj -> GObj.event_ops
+)
+"gRange.ml" 75 3071 3107 "gRange.ml" 75 3071 3110
+type(
+  'a Gtk.obj
+)
+"gRange.ml" 75 3071 3088 "gRange.ml" 75 3071 3110
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gRange.ml" 77 3133 3155 "gRange.ml" 77 3133 3171
+type(
+  'a Gtk.obj -> Gtk.Tags.metric_type -> unit
+)
+ident(
+  ext_ref GtkRange.Ruler.set_metric
+)
+"gRange.ml" 77 3133 3172 "gRange.ml" 77 3133 3175
+type(
+  'a Gtk.obj
+)
+"gRange.ml" 77 3133 3155 "gRange.ml" 77 3133 3175
+call(
+  tail
+)
+type(
+  Gtk.Tags.metric_type -> unit
+)
+type(
+  Gtk.Tags.metric_type -> unit
+)
+"gRange.ml" 80 3181 3185 "gRange.ml" 80 3181 3190
+type(
+  Gtk.Tags.orientation ->
+  ?metric:Gtk.Tags.metric_type ->
+  ?lower:float ->
+  ?upper:float ->
+  ?max_size:float ->
+  ?position:float ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> ruler
+)
+ident(
+  def ruler "gRange.ml" 84 3343 3376 --
+)
+"gRange.ml" 80 3181 3191 "gRange.ml" 80 3181 3194
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  def dir "gRange.ml" 80 3181 3195 "gRange.ml" 84 3343 3376
+)
+"gRange.ml" 80 3181 3196 "gRange.ml" 80 3181 3202
+type(
+  Gtk.Tags.metric_type option
+)
+ident(
+  def metric "gRange.ml" 81 3205 3207 "gRange.ml" 84 3343 3376
+)
+"gRange.ml" 81 3205 3207 "gRange.ml" 81 3205 3224
+type(
+  cont:(Gtk.ruler Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> ruler) ->
+  Gtk.ruler Gobject.param list ->
+  ?lower:float ->
+  ?upper:float ->
+  ?max_size:float ->
+  ?position:float ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> ruler
+)
+ident(
+  ext_ref GtkRange.Ruler.make_params
+)
+"gRange.ml" 81 3205 3225 "gRange.ml" 81 3205 3227
+type(
+  Gtk.ruler Gobject.param list
+)
+"gRange.ml" 81 3205 3239 "gRange.ml" 81 3205 3241
+type(
+  Gtk.ruler Gobject.param list
+)
+ident(
+  def pl "gRange.ml" 81 3205 3242 "gRange.ml" 84 3343 3375
+)
+"gRange.ml" 81 3205 3243 "gRange.ml" 81 3205 3250
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gRange.ml" 81 3205 3251 "gRange.ml" 84 3343 3375
+)
+"gRange.ml" 81 3205 3252 "gRange.ml" 81 3205 3256
+type(
+  bool option
+)
+ident(
+  def show "gRange.ml" 81 3205 3257 "gRange.ml" 84 3343 3375
+)
+"gRange.ml" 81 3205 3257 "gRange.ml" 81 3205 3263
+type(
+  'a
+)
+ident(
+  def params "gRange.ml" 82 3267 3271 "gRange.ml" 84 3343 3375
+)
+"gRange.ml" 82 3267 3275 "gRange.ml" 82 3267 3276
+type(
+  ruler
+)
+"gRange.ml" 82 3267 3279 "gRange.ml" 82 3267 3288
+type(
+  Gtk.ruler Gtk.obj -> ruler
+)
+"gRange.ml" 82 3267 3290 "gRange.ml" 82 3267 3302
+type(
+  Gtk.Tags.orientation -> Gtk.ruler Gobject.param list -> Gtk.ruler Gtk.obj
+)
+ident(
+  ext_ref GtkRange.Ruler.create
+)
+"gRange.ml" 82 3267 3303 "gRange.ml" 82 3267 3306
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  int_ref dir "gRange.ml" 80 3181 3191 "gRange.ml" 80 3181 3194
+)
+"gRange.ml" 82 3267 3307 "gRange.ml" 82 3267 3309
+type(
+  Gtk.ruler Gobject.param list
+)
+ident(
+  int_ref pl "gRange.ml" 81 3205 3239 "gRange.ml" 81 3205 3241
+)
+"gRange.ml" 82 3267 3289 "gRange.ml" 82 3267 3310
+call(
+  stack
+)
+type(
+  Gtk.ruler Gtk.obj
+)
+"gRange.ml" 82 3267 3279 "gRange.ml" 82 3267 3310
+call(
+  stack
+)
+type(
+  ruler
+)
+"gRange.ml" 83 3314 3318 "gRange.ml" 83 3314 3321
+type(
+  f:(Gtk.Tags.metric_type -> unit) -> Gtk.Tags.metric_type option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gRange.ml" 83 3314 3322 "gRange.ml" 83 3314 3323
+type(
+  ruler
+)
+ident(
+  int_ref w "gRange.ml" 82 3267 3275 "gRange.ml" 82 3267 3276
+)
+"gRange.ml" 83 3314 3322 "gRange.ml" 83 3314 3334
+call(
+  stack
+)
+type(
+  Gtk.Tags.metric_type -> unit
+)
+"gRange.ml" 83 3314 3335 "gRange.ml" 83 3314 3341
+type(
+  Gtk.Tags.metric_type option
+)
+ident(
+  int_ref metric "gRange.ml" 80 3181 3196 "gRange.ml" 80 3181 3202
+)
+"gRange.ml" 83 3314 3318 "gRange.ml" 83 3314 3341
+call(
+  stack
+)
+type(
+  unit
+)
+"gRange.ml" 84 3343 3347 "gRange.ml" 84 3343 3358
+type(
+  ruler -> packing:(GObj.widget -> unit) option -> show:bool option -> ruler
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gRange.ml" 84 3343 3359 "gRange.ml" 84 3343 3360
+type(
+  ruler
+)
+ident(
+  int_ref w "gRange.ml" 82 3267 3275 "gRange.ml" 82 3267 3276
+)
+"gRange.ml" 84 3343 3362 "gRange.ml" 84 3343 3369
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gRange.ml" 81 3205 3243 "gRange.ml" 81 3205 3250
+)
+"gRange.ml" 84 3343 3371 "gRange.ml" 84 3343 3375
+type(
+  bool option
+)
+ident(
+  int_ref show "gRange.ml" 81 3205 3252 "gRange.ml" 81 3205 3256
+)
+"gRange.ml" 84 3343 3347 "gRange.ml" 84 3343 3375
+call(
+  tail
+)
+type(
+  ruler
+)
+"gRange.ml" 83 3314 3318 "gRange.ml" 84 3343 3375
+type(
+  ruler
+)
+"gRange.ml" 82 3267 3271 "gRange.ml" 84 3343 3375
+type(
+  ruler
+)
+"gRange.ml" 81 3205 3234 "gRange.ml" 84 3343 3376
+type(
+  Gtk.ruler Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> ruler
+)
+"gRange.ml" 81 3205 3207 "gRange.ml" 84 3343 3376
+call(
+  tail
+)
+type(
+  ?lower:float ->
+  ?upper:float ->
+  ?max_size:float ->
+  ?position:float ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> 'a -> ruler
+)

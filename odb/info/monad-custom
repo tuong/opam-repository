@@ -1,0 +1,4 @@
+deps=make,camlp4
+tarball=v6.0.0.tar.gz
+is_library=true
+is_program=false

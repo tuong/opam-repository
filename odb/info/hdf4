@@ -1,0 +1,4 @@
+deps=pcre,ocamlbuild,h4cc,batteries
+tarball=ocaml-hdf-4.2r1beta3.tar.gz
+is_library=true
+is_program=false

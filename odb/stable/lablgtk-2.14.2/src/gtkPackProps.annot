@@ -1,0 +1,2460 @@
+"gtkPackProps.ml" 8 89 95 "gtkPackProps.ml" 8 89 106
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  def homogeneous "gtkPackProps.ml" 8 89 143 "gtkPackProps.ml" 9 144 147
+)
+"gtkPackProps.ml" 8 89 115 "gtkPackProps.ml" 8 89 128
+type(
+  string
+)
+"gtkPackProps.ml" 8 89 135 "gtkPackProps.ml" 8 89 142
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkPackProps.ml" 8 89 109 "gtkPackProps.ml" 8 89 143
+type(
+  ('a, bool) Gobject.property
+)
+"gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons "gtkPackProps.ml" 12 182 182 --
+)
+"gtkPackProps.ml" 11 149 164 "gtkPackProps.ml" 11 149 181
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gtkPackProps.ml" 12 182 186 "gtkPackProps.ml" 12 182 198
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons_opt "gtkPackProps.ml" 14 224 224 --
+)
+"gtkPackProps.ml" 12 182 201 "gtkPackProps.ml" 12 182 222
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons_opt
+)
+"gtkPackProps.ml" 15 244 250 "gtkPackProps.ml" 15 244 254
+type(
+  'a Gobject.obj -> Gtk.box Gtk.obj
+)
+ident(
+  def cast "gtkPackProps.ml" 16 293 295 "gtkPackProps.ml" 44 1486 1489
+)
+"gtkPackProps.ml" 15 244 255 "gtkPackProps.ml" 15 244 256
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkPackProps.ml" 15 244 257 "gtkPackProps.ml" 15 244 292
+)
+"gtkPackProps.ml" 15 244 273 "gtkPackProps.ml" 15 244 281
+type(
+  'a Gobject.obj -> string -> Gtk.box Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkPackProps.ml" 15 244 282 "gtkPackProps.ml" 15 244 283
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkPackProps.ml" 15 244 255 "gtkPackProps.ml" 15 244 256
+)
+"gtkPackProps.ml" 15 244 284 "gtkPackProps.ml" 15 244 292
+type(
+  string
+)
+"gtkPackProps.ml" 15 244 273 "gtkPackProps.ml" 15 244 292
+call(
+  tail
+)
+type(
+  Gtk.box Gtk.obj
+)
+type(
+  Gtk.box Gtk.obj
+)
+"gtkPackProps.ml" 17 313 321 "gtkPackProps.ml" 17 313 332
+type(
+  ([> `box ], bool) Gobject.property
+)
+ident(
+  def homogeneous "gtkPackProps.ml" 18 383 387 "gtkPackProps.ml" 19 451 456
+)
+"gtkPackProps.ml" 17 313 358 "gtkPackProps.ml" 17 313 382
+type(
+  ([> `box ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.homogeneous
+)
+"gtkPackProps.ml" 18 383 391 "gtkPackProps.ml" 18 383 398
+type(
+  ([> `box ], int) Gobject.property
+)
+ident(
+  def spacing "gtkPackProps.ml" 18 383 450 "gtkPackProps.ml" 19 451 456
+)
+"gtkPackProps.ml" 18 383 430 "gtkPackProps.ml" 18 383 439
+type(
+  string
+)
+"gtkPackProps.ml" 18 383 446 "gtkPackProps.ml" 18 383 449
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkPackProps.ml" 18 383 424 "gtkPackProps.ml" 18 383 450
+type(
+  ([> `box ] as 'c, int) Gobject.property
+)
+type(
+  ('c, int) Gobject.property
+)
+"gtkPackProps.ml" 20 457 463 "gtkPackProps.ml" 20 457 469
+type(
+  Gtk.Tags.orientation -> Gtk.box Gobject.param list -> Gtk.box Gtk.obj
+)
+ident(
+  def create "gtkPackProps.ml" 22 591 593 "gtkPackProps.ml" 44 1486 1489
+)
+"gtkPackProps.ml" 20 457 471 "gtkPackProps.ml" 20 457 474
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  def dir "gtkPackProps.ml" 20 457 499 "gtkPackProps.ml" 21 518 590
+)
+"gtkPackProps.ml" 20 457 499 "gtkPackProps.ml" 20 457 501
+type(
+  Gtk.box Gobject.param list
+)
+ident(
+  def pl "gtkPackProps.ml" 20 457 502 "gtkPackProps.ml" 21 518 590
+)
+"gtkPackProps.ml" 21 518 522 "gtkPackProps.ml" 21 518 533
+type(
+  classe:string -> Gtk.box Gobject.param list -> Gtk.box Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkPackProps.ml" 21 518 538 "gtkPackProps.ml" 21 518 541
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  int_ref dir "gtkPackProps.ml" 20 457 471 "gtkPackProps.ml" 20 457 474
+)
+"gtkPackProps.ml" 21 518 542 "gtkPackProps.ml" 21 518 543
+type(
+  Gtk.Tags.orientation -> Gtk.Tags.orientation -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gtkPackProps.ml" 21 518 544 "gtkPackProps.ml" 21 518 555
+type(
+  Gtk.Tags.orientation
+)
+"gtkPackProps.ml" 21 518 538 "gtkPackProps.ml" 21 518 555
+type(
+  bool
+)
+"gtkPackProps.ml" 21 518 561 "gtkPackProps.ml" 21 518 570
+type(
+  string
+)
+"gtkPackProps.ml" 21 518 576 "gtkPackProps.ml" 21 518 585
+type(
+  string
+)
+"gtkPackProps.ml" 21 518 534 "gtkPackProps.ml" 21 518 586
+type(
+  string
+)
+"gtkPackProps.ml" 21 518 588 "gtkPackProps.ml" 21 518 590
+type(
+  Gtk.box Gobject.param list
+)
+ident(
+  int_ref pl "gtkPackProps.ml" 20 457 499 "gtkPackProps.ml" 20 457 501
+)
+"gtkPackProps.ml" 21 518 522 "gtkPackProps.ml" 21 518 590
+call(
+  tail
+)
+type(
+  Gtk.box Gtk.obj
+)
+type(
+  Gtk.box Gtk.obj
+)
+"gtkPackProps.ml" 39 1324 1330 "gtkPackProps.ml" 39 1324 1341
+type(
+  cont:(([> `box ] as 'd) Gobject.param list -> 'e) ->
+  'd Gobject.param list -> ?homogeneous:bool -> ?spacing:int -> 'e
+)
+ident(
+  def make_params "gtkPackProps.ml" 43 1474 1485 "gtkPackProps.ml" 44 1486 1489
+)
+"gtkPackProps.ml" 39 1324 1343 "gtkPackProps.ml" 39 1324 1347
+type(
+  'd Gobject.param list -> 'e
+)
+ident(
+  def cont "gtkPackProps.ml" 39 1324 1348 "gtkPackProps.ml" 43 1474 1485
+)
+"gtkPackProps.ml" 39 1324 1348 "gtkPackProps.ml" 39 1324 1350
+type(
+  'd Gobject.param list
+)
+ident(
+  def pl "gtkPackProps.ml" 39 1324 1351 "gtkPackProps.ml" 43 1474 1485
+)
+"gtkPackProps.ml" 39 1324 1352 "gtkPackProps.ml" 39 1324 1363
+type(
+  bool option
+)
+ident(
+  def homogeneous "gtkPackProps.ml" 39 1324 1364 "gtkPackProps.ml" 43 1474 1485
+)
+"gtkPackProps.ml" 39 1324 1365 "gtkPackProps.ml" 39 1324 1372
+type(
+  int option
+)
+ident(
+  def spacing "gtkPackProps.ml" 40 1375 1379 "gtkPackProps.ml" 43 1474 1485
+)
+"gtkPackProps.ml" 40 1375 1383 "gtkPackProps.ml" 40 1375 1385
+type(
+  'd Gobject.param list
+)
+"gtkPackProps.ml" 41 1390 1396 "gtkPackProps.ml" 41 1390 1404
+type(
+  ('d, bool) Gobject.property ->
+  bool option -> 'd Gobject.param list -> 'd Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 41 1390 1405 "gtkPackProps.ml" 41 1390 1418
+type(
+  ('d, bool) Gobject.property
+)
+ident(
+  ext_ref P.homogeneous
+)
+"gtkPackProps.ml" 41 1390 1419 "gtkPackProps.ml" 41 1390 1430
+type(
+  bool option
+)
+ident(
+  int_ref homogeneous "gtkPackProps.ml" 39 1324 1352 "gtkPackProps.ml" 39 1324 1363
+)
+"gtkPackProps.ml" 42 1433 1439 "gtkPackProps.ml" 42 1433 1447
+type(
+  ('d, int) Gobject.property ->
+  int option -> 'd Gobject.param list -> 'd Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 42 1433 1448 "gtkPackProps.ml" 42 1433 1457
+type(
+  ('d, int) Gobject.property
+)
+ident(
+  ext_ref P.spacing
+)
+"gtkPackProps.ml" 42 1433 1458 "gtkPackProps.ml" 42 1433 1465
+type(
+  int option
+)
+ident(
+  int_ref spacing "gtkPackProps.ml" 39 1324 1365 "gtkPackProps.ml" 39 1324 1372
+)
+"gtkPackProps.ml" 42 1433 1466 "gtkPackProps.ml" 42 1433 1468
+type(
+  'd Gobject.param list
+)
+ident(
+  int_ref pl "gtkPackProps.ml" 39 1324 1348 "gtkPackProps.ml" 39 1324 1350
+)
+"gtkPackProps.ml" 41 1390 1431 "gtkPackProps.ml" 42 1433 1469
+call(
+  stack
+)
+type(
+  'd Gobject.param list
+)
+"gtkPackProps.ml" 40 1375 1388 "gtkPackProps.ml" 42 1433 1470
+call(
+  stack
+)
+type(
+  'd Gobject.param list
+)
+"gtkPackProps.ml" 43 1474 1478 "gtkPackProps.ml" 43 1474 1482
+type(
+  'd Gobject.param list -> 'e
+)
+ident(
+  int_ref cont "gtkPackProps.ml" 39 1324 1343 "gtkPackProps.ml" 39 1324 1347
+)
+"gtkPackProps.ml" 43 1474 1483 "gtkPackProps.ml" 43 1474 1485
+type(
+  'd Gobject.param list
+)
+ident(
+  int_ref pl "gtkPackProps.ml" 40 1375 1383 "gtkPackProps.ml" 40 1375 1385
+)
+"gtkPackProps.ml" 43 1474 1478 "gtkPackProps.ml" 43 1474 1485
+call(
+  tail
+)
+type(
+  'e
+)
+"gtkPackProps.ml" 40 1375 1379 "gtkPackProps.ml" 43 1474 1485
+type(
+  'e
+)
+"gtkPackProps.ml" 47 1517 1523 "gtkPackProps.ml" 47 1517 1527
+type(
+  'a Gobject.obj -> Gtk.button_box Gtk.obj
+)
+ident(
+  def cast "gtkPackProps.ml" 48 1579 1581 "gtkPackProps.ml" 60 2139 2142
+)
+"gtkPackProps.ml" 47 1517 1528 "gtkPackProps.ml" 47 1517 1529
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkPackProps.ml" 47 1517 1530 "gtkPackProps.ml" 47 1517 1578
+)
+"gtkPackProps.ml" 47 1517 1553 "gtkPackProps.ml" 47 1517 1561
+type(
+  'a Gobject.obj -> string -> Gtk.button_box Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkPackProps.ml" 47 1517 1562 "gtkPackProps.ml" 47 1517 1563
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkPackProps.ml" 47 1517 1528 "gtkPackProps.ml" 47 1517 1529
+)
+"gtkPackProps.ml" 47 1517 1564 "gtkPackProps.ml" 47 1517 1578
+type(
+  string
+)
+"gtkPackProps.ml" 47 1517 1553 "gtkPackProps.ml" 47 1517 1578
+call(
+  tail
+)
+type(
+  Gtk.button_box Gtk.obj
+)
+type(
+  Gtk.button_box Gtk.obj
+)
+"gtkPackProps.ml" 49 1599 1607 "gtkPackProps.ml" 49 1599 1619
+type(
+  ([> `buttonbox ], GtkEnums.button_box_style) Gobject.property
+)
+ident(
+  def layout_style "gtkPackProps.ml" 50 1651 1715 "gtkPackProps.ml" 51 1716 1721
+)
+"gtkPackProps.ml" 50 1651 1663 "gtkPackProps.ml" 50 1651 1677
+type(
+  string
+)
+"gtkPackProps.ml" 50 1651 1684 "gtkPackProps.ml" 50 1651 1714
+type(
+  GtkEnums.button_box_style Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.button_box_style_conv
+)
+"gtkPackProps.ml" 50 1651 1657 "gtkPackProps.ml" 50 1651 1715
+type(
+  ([> `buttonbox ] as 'b, GtkEnums.button_box_style) Gobject.property
+)
+type(
+  ('b, GtkEnums.button_box_style) Gobject.property
+)
+"gtkPackProps.ml" 52 1722 1728 "gtkPackProps.ml" 52 1722 1734
+type(
+  Gtk.Tags.orientation ->
+  Gtk.button_box Gobject.param list -> Gtk.button_box Gtk.obj
+)
+ident(
+  def create "gtkPackProps.ml" 55 1881 1883 "gtkPackProps.ml" 60 2139 2142
+)
+"gtkPackProps.ml" 52 1722 1736 "gtkPackProps.ml" 52 1722 1739
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  def dir "gtkPackProps.ml" 52 1722 1764 "gtkPackProps.ml" 54 1806 1880
+)
+"gtkPackProps.ml" 52 1722 1764 "gtkPackProps.ml" 52 1722 1766
+type(
+  Gtk.button_box Gobject.param list
+)
+ident(
+  def pl "gtkPackProps.ml" 52 1722 1767 "gtkPackProps.ml" 54 1806 1880
+)
+"gtkPackProps.ml" 53 1790 1794 "gtkPackProps.ml" 53 1790 1805
+type(
+  classe:string ->
+  Gtk.button_box Gobject.param list -> Gtk.button_box Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkPackProps.ml" 54 1806 1816 "gtkPackProps.ml" 54 1806 1819
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  int_ref dir "gtkPackProps.ml" 52 1722 1736 "gtkPackProps.ml" 52 1722 1739
+)
+"gtkPackProps.ml" 54 1806 1820 "gtkPackProps.ml" 54 1806 1821
+type(
+  Gtk.Tags.orientation -> Gtk.Tags.orientation -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gtkPackProps.ml" 54 1806 1822 "gtkPackProps.ml" 54 1806 1833
+type(
+  Gtk.Tags.orientation
+)
+"gtkPackProps.ml" 54 1806 1816 "gtkPackProps.ml" 54 1806 1833
+type(
+  bool
+)
+"gtkPackProps.ml" 54 1806 1839 "gtkPackProps.ml" 54 1806 1854
+type(
+  string
+)
+"gtkPackProps.ml" 54 1806 1860 "gtkPackProps.ml" 54 1806 1875
+type(
+  string
+)
+"gtkPackProps.ml" 54 1806 1812 "gtkPackProps.ml" 54 1806 1876
+type(
+  string
+)
+"gtkPackProps.ml" 54 1806 1878 "gtkPackProps.ml" 54 1806 1880
+type(
+  Gtk.button_box Gobject.param list
+)
+ident(
+  int_ref pl "gtkPackProps.ml" 52 1722 1764 "gtkPackProps.ml" 52 1722 1766
+)
+"gtkPackProps.ml" 53 1790 1794 "gtkPackProps.ml" 54 1806 1880
+call(
+  tail
+)
+type(
+  Gtk.button_box Gtk.obj
+)
+type(
+  Gtk.button_box Gtk.obj
+)
+"gtkPackProps.ml" 63 2166 2172 "gtkPackProps.ml" 63 2166 2176
+type(
+  'a Gobject.obj -> Gtk.fixed Gtk.obj
+)
+ident(
+  def cast "gtkPackProps.ml" 64 2219 2221 "gtkPackProps.ml" 73 2661 2664
+)
+"gtkPackProps.ml" 63 2166 2177 "gtkPackProps.ml" 63 2166 2178
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkPackProps.ml" 63 2166 2179 "gtkPackProps.ml" 63 2166 2218
+)
+"gtkPackProps.ml" 63 2166 2197 "gtkPackProps.ml" 63 2166 2205
+type(
+  'a Gobject.obj -> string -> Gtk.fixed Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkPackProps.ml" 63 2166 2206 "gtkPackProps.ml" 63 2166 2207
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkPackProps.ml" 63 2166 2177 "gtkPackProps.ml" 63 2166 2178
+)
+"gtkPackProps.ml" 63 2166 2208 "gtkPackProps.ml" 63 2166 2218
+type(
+  string
+)
+"gtkPackProps.ml" 63 2166 2197 "gtkPackProps.ml" 63 2166 2218
+call(
+  tail
+)
+type(
+  Gtk.fixed Gtk.obj
+)
+type(
+  Gtk.fixed Gtk.obj
+)
+"gtkPackProps.ml" 64 2219 2225 "gtkPackProps.ml" 64 2219 2231
+type(
+  Gtk.fixed Gobject.param list -> Gtk.fixed Gtk.obj
+)
+ident(
+  def create "gtkPackProps.ml" 65 2279 2281 "gtkPackProps.ml" 73 2661 2664
+)
+"gtkPackProps.ml" 64 2219 2232 "gtkPackProps.ml" 64 2219 2234
+type(
+  Gtk.fixed Gobject.param list
+)
+ident(
+  def pl "gtkPackProps.ml" 64 2219 2235 "gtkPackProps.ml" 64 2219 2278
+)
+"gtkPackProps.ml" 64 2219 2253 "gtkPackProps.ml" 64 2219 2264
+type(
+  classe:string -> Gtk.fixed Gobject.param list -> Gtk.fixed Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkPackProps.ml" 64 2219 2265 "gtkPackProps.ml" 64 2219 2275
+type(
+  string
+)
+"gtkPackProps.ml" 64 2219 2276 "gtkPackProps.ml" 64 2219 2278
+type(
+  Gtk.fixed Gobject.param list
+)
+ident(
+  int_ref pl "gtkPackProps.ml" 64 2219 2232 "gtkPackProps.ml" 64 2219 2234
+)
+"gtkPackProps.ml" 64 2219 2253 "gtkPackProps.ml" 64 2219 2278
+call(
+  tail
+)
+type(
+  Gtk.fixed Gtk.obj
+)
+type(
+  Gtk.fixed Gtk.obj
+)
+"gtkPackProps.ml" 76 2688 2694 "gtkPackProps.ml" 76 2688 2698
+type(
+  'a Gobject.obj -> Gtk.paned Gtk.obj
+)
+ident(
+  def cast "gtkPackProps.ml" 77 2741 2743 "gtkPackProps.ml" 100 3793 3796
+)
+"gtkPackProps.ml" 76 2688 2699 "gtkPackProps.ml" 76 2688 2700
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkPackProps.ml" 76 2688 2701 "gtkPackProps.ml" 76 2688 2740
+)
+"gtkPackProps.ml" 76 2688 2719 "gtkPackProps.ml" 76 2688 2727
+type(
+  'a Gobject.obj -> string -> Gtk.paned Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkPackProps.ml" 76 2688 2728 "gtkPackProps.ml" 76 2688 2729
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkPackProps.ml" 76 2688 2699 "gtkPackProps.ml" 76 2688 2700
+)
+"gtkPackProps.ml" 76 2688 2730 "gtkPackProps.ml" 76 2688 2740
+type(
+  string
+)
+"gtkPackProps.ml" 76 2688 2719 "gtkPackProps.ml" 76 2688 2740
+call(
+  tail
+)
+type(
+  Gtk.paned Gtk.obj
+)
+type(
+  Gtk.paned Gtk.obj
+)
+"gtkPackProps.ml" 78 2761 2769 "gtkPackProps.ml" 78 2761 2777
+type(
+  ([> `paned ], int) Gobject.property
+)
+ident(
+  def position "gtkPackProps.ml" 79 2833 2837 "gtkPackProps.ml" 85 3095 3100
+)
+"gtkPackProps.ml" 78 2761 2811 "gtkPackProps.ml" 78 2761 2821
+type(
+  string
+)
+"gtkPackProps.ml" 78 2761 2828 "gtkPackProps.ml" 78 2761 2831
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkPackProps.ml" 78 2761 2805 "gtkPackProps.ml" 78 2761 2832
+type(
+  ([> `paned ] as 'b, int) Gobject.property
+)
+type(
+  ('b, int) Gobject.property
+)
+"gtkPackProps.ml" 79 2833 2841 "gtkPackProps.ml" 79 2833 2853
+type(
+  ([> `paned ], bool) Gobject.property
+)
+ident(
+  def position_set "gtkPackProps.ml" 81 2923 2927 "gtkPackProps.ml" 85 3095 3100
+)
+"gtkPackProps.ml" 80 2881 2893 "gtkPackProps.ml" 80 2881 2907
+type(
+  string
+)
+"gtkPackProps.ml" 80 2881 2914 "gtkPackProps.ml" 80 2881 2921
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkPackProps.ml" 80 2881 2887 "gtkPackProps.ml" 80 2881 2922
+type(
+  ([> `paned ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkPackProps.ml" 81 2923 2931 "gtkPackProps.ml" 81 2923 2943
+type(
+  ([> `paned ], int) Gobject.property
+)
+ident(
+  def max_position "gtkPackProps.ml" 83 3009 3013 "gtkPackProps.ml" 85 3095 3100
+)
+"gtkPackProps.ml" 82 2971 2983 "gtkPackProps.ml" 82 2971 2997
+type(
+  string
+)
+"gtkPackProps.ml" 82 2971 3004 "gtkPackProps.ml" 82 2971 3007
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkPackProps.ml" 82 2971 2977 "gtkPackProps.ml" 82 2971 3008
+type(
+  ([> `paned ] as 'd, int) Gobject.property
+)
+type(
+  ('d, int) Gobject.property
+)
+"gtkPackProps.ml" 83 3009 3017 "gtkPackProps.ml" 83 3009 3029
+type(
+  ([> `paned ], int) Gobject.property
+)
+ident(
+  def min_position "gtkPackProps.ml" 84 3057 3094 "gtkPackProps.ml" 85 3095 3100
+)
+"gtkPackProps.ml" 84 3057 3069 "gtkPackProps.ml" 84 3057 3083
+type(
+  string
+)
+"gtkPackProps.ml" 84 3057 3090 "gtkPackProps.ml" 84 3057 3093
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkPackProps.ml" 84 3057 3063 "gtkPackProps.ml" 84 3057 3094
+type(
+  ([> `paned ] as 'e, int) Gobject.property
+)
+type(
+  ('e, int) Gobject.property
+)
+"gtkPackProps.ml" 86 3101 3107 "gtkPackProps.ml" 86 3101 3113
+type(
+  Gtk.Tags.orientation -> Gtk.paned Gobject.param list -> Gtk.paned Gtk.obj
+)
+ident(
+  def create "gtkPackProps.ml" 88 3241 3243 "gtkPackProps.ml" 100 3793 3796
+)
+"gtkPackProps.ml" 86 3101 3115 "gtkPackProps.ml" 86 3101 3118
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  def dir "gtkPackProps.ml" 86 3101 3143 "gtkPackProps.ml" 87 3164 3240
+)
+"gtkPackProps.ml" 86 3101 3143 "gtkPackProps.ml" 86 3101 3145
+type(
+  Gtk.paned Gobject.param list
+)
+ident(
+  def pl "gtkPackProps.ml" 86 3101 3146 "gtkPackProps.ml" 87 3164 3240
+)
+"gtkPackProps.ml" 87 3164 3168 "gtkPackProps.ml" 87 3164 3179
+type(
+  classe:string -> Gtk.paned Gobject.param list -> Gtk.paned Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkPackProps.ml" 87 3164 3184 "gtkPackProps.ml" 87 3164 3187
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  int_ref dir "gtkPackProps.ml" 86 3101 3115 "gtkPackProps.ml" 86 3101 3118
+)
+"gtkPackProps.ml" 87 3164 3188 "gtkPackProps.ml" 87 3164 3189
+type(
+  Gtk.Tags.orientation -> Gtk.Tags.orientation -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gtkPackProps.ml" 87 3164 3190 "gtkPackProps.ml" 87 3164 3201
+type(
+  Gtk.Tags.orientation
+)
+"gtkPackProps.ml" 87 3164 3184 "gtkPackProps.ml" 87 3164 3201
+type(
+  bool
+)
+"gtkPackProps.ml" 87 3164 3207 "gtkPackProps.ml" 87 3164 3218
+type(
+  string
+)
+"gtkPackProps.ml" 87 3164 3224 "gtkPackProps.ml" 87 3164 3235
+type(
+  string
+)
+"gtkPackProps.ml" 87 3164 3180 "gtkPackProps.ml" 87 3164 3236
+type(
+  string
+)
+"gtkPackProps.ml" 87 3164 3238 "gtkPackProps.ml" 87 3164 3240
+type(
+  Gtk.paned Gobject.param list
+)
+ident(
+  int_ref pl "gtkPackProps.ml" 86 3101 3143 "gtkPackProps.ml" 86 3101 3145
+)
+"gtkPackProps.ml" 87 3164 3168 "gtkPackProps.ml" 87 3164 3240
+call(
+  tail
+)
+type(
+  Gtk.paned Gtk.obj
+)
+type(
+  Gtk.paned Gtk.obj
+)
+"gtkPackProps.ml" 103 3821 3827 "gtkPackProps.ml" 103 3821 3831
+type(
+  'a Gobject.obj -> Gtk.layout Gtk.obj
+)
+ident(
+  def cast "gtkPackProps.ml" 104 3876 3878 "gtkPackProps.ml" 128 5025 5028
+)
+"gtkPackProps.ml" 103 3821 3832 "gtkPackProps.ml" 103 3821 3833
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkPackProps.ml" 103 3821 3834 "gtkPackProps.ml" 103 3821 3875
+)
+"gtkPackProps.ml" 103 3821 3853 "gtkPackProps.ml" 103 3821 3861
+type(
+  'a Gobject.obj -> string -> Gtk.layout Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkPackProps.ml" 103 3821 3862 "gtkPackProps.ml" 103 3821 3863
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkPackProps.ml" 103 3821 3832 "gtkPackProps.ml" 103 3821 3833
+)
+"gtkPackProps.ml" 103 3821 3864 "gtkPackProps.ml" 103 3821 3875
+type(
+  string
+)
+"gtkPackProps.ml" 103 3821 3853 "gtkPackProps.ml" 103 3821 3875
+call(
+  tail
+)
+type(
+  Gtk.layout Gtk.obj
+)
+type(
+  Gtk.layout Gtk.obj
+)
+"gtkPackProps.ml" 105 3896 3904 "gtkPackProps.ml" 105 3896 3915
+type(
+  ([> `layout ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  def hadjustment "gtkPackProps.ml" 107 4018 4022 "gtkPackProps.ml" 111 4278 4283
+)
+"gtkPackProps.ml" 106 3944 3956 "gtkPackProps.ml" 106 3944 3969
+type(
+  string
+)
+"gtkPackProps.ml" 106 3944 3977 "gtkPackProps.ml" 106 3944 3984
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkPackProps.ml" 106 3944 3950 "gtkPackProps.ml" 106 3944 4017
+type(
+  ([> `layout ] as 'b, Gtk.adjustment Gtk.obj) Gobject.property
+)
+type(
+  ('b, Gtk.adjustment Gtk.obj) Gobject.property
+)
+"gtkPackProps.ml" 107 4018 4026 "gtkPackProps.ml" 107 4018 4032
+type(
+  ([> `layout ], int) Gobject.property
+)
+ident(
+  def height "gtkPackProps.ml" 108 4088 4092 "gtkPackProps.ml" 111 4278 4283
+)
+"gtkPackProps.ml" 107 4018 4067 "gtkPackProps.ml" 107 4018 4075
+type(
+  string
+)
+"gtkPackProps.ml" 107 4018 4082 "gtkPackProps.ml" 107 4018 4086
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkPackProps.ml" 107 4018 4061 "gtkPackProps.ml" 107 4018 4087
+type(
+  ([> `layout ] as 'c, int) Gobject.property
+)
+type(
+  ('c, int) Gobject.property
+)
+"gtkPackProps.ml" 108 4088 4096 "gtkPackProps.ml" 108 4088 4107
+type(
+  ([> `layout ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  def vadjustment "gtkPackProps.ml" 110 4210 4214 "gtkPackProps.ml" 111 4278 4283
+)
+"gtkPackProps.ml" 109 4136 4148 "gtkPackProps.ml" 109 4136 4161
+type(
+  string
+)
+"gtkPackProps.ml" 109 4136 4169 "gtkPackProps.ml" 109 4136 4176
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkPackProps.ml" 109 4136 4142 "gtkPackProps.ml" 109 4136 4209
+type(
+  ([> `layout ] as 'd, Gtk.adjustment Gtk.obj) Gobject.property
+)
+type(
+  ('d, Gtk.adjustment Gtk.obj) Gobject.property
+)
+"gtkPackProps.ml" 110 4210 4218 "gtkPackProps.ml" 110 4210 4223
+type(
+  ([> `layout ], int) Gobject.property
+)
+ident(
+  def width "gtkPackProps.ml" 110 4210 4277 "gtkPackProps.ml" 111 4278 4283
+)
+"gtkPackProps.ml" 110 4210 4258 "gtkPackProps.ml" 110 4210 4265
+type(
+  string
+)
+"gtkPackProps.ml" 110 4210 4272 "gtkPackProps.ml" 110 4210 4276
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkPackProps.ml" 110 4210 4252 "gtkPackProps.ml" 110 4210 4277
+type(
+  ([> `layout ] as 'e, int) Gobject.property
+)
+type(
+  ('e, int) Gobject.property
+)
+"gtkPackProps.ml" 112 4284 4290 "gtkPackProps.ml" 112 4284 4296
+type(
+  Gtk.layout Gobject.param list -> Gtk.layout Gtk.obj
+)
+ident(
+  def create "gtkPackProps.ml" 113 4346 4348 "gtkPackProps.ml" 128 5025 5028
+)
+"gtkPackProps.ml" 112 4284 4297 "gtkPackProps.ml" 112 4284 4299
+type(
+  Gtk.layout Gobject.param list
+)
+ident(
+  def pl "gtkPackProps.ml" 112 4284 4300 "gtkPackProps.ml" 112 4284 4345
+)
+"gtkPackProps.ml" 112 4284 4319 "gtkPackProps.ml" 112 4284 4330
+type(
+  classe:string -> Gtk.layout Gobject.param list -> Gtk.layout Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkPackProps.ml" 112 4284 4331 "gtkPackProps.ml" 112 4284 4342
+type(
+  string
+)
+"gtkPackProps.ml" 112 4284 4343 "gtkPackProps.ml" 112 4284 4345
+type(
+  Gtk.layout Gobject.param list
+)
+ident(
+  int_ref pl "gtkPackProps.ml" 112 4284 4297 "gtkPackProps.ml" 112 4284 4299
+)
+"gtkPackProps.ml" 112 4284 4319 "gtkPackProps.ml" 112 4284 4345
+call(
+  tail
+)
+type(
+  Gtk.layout Gtk.obj
+)
+type(
+  Gtk.layout Gtk.obj
+)
+"gtkPackProps.ml" 121 4770 4776 "gtkPackProps.ml" 121 4770 4787
+type(
+  cont:(([> `layout ] as 'f) Gobject.param list -> 'g) ->
+  'f Gobject.param list ->
+  ?hadjustment:Gtk.adjustment Gtk.obj ->
+  ?height:int -> ?vadjustment:Gtk.adjustment Gtk.obj -> ?width:int -> 'g
+)
+ident(
+  def make_params "gtkPackProps.ml" 127 5013 5024 "gtkPackProps.ml" 128 5025 5028
+)
+"gtkPackProps.ml" 121 4770 4789 "gtkPackProps.ml" 121 4770 4793
+type(
+  'f Gobject.param list -> 'g
+)
+ident(
+  def cont "gtkPackProps.ml" 121 4770 4794 "gtkPackProps.ml" 127 5013 5024
+)
+"gtkPackProps.ml" 121 4770 4794 "gtkPackProps.ml" 121 4770 4796
+type(
+  'f Gobject.param list
+)
+ident(
+  def pl "gtkPackProps.ml" 121 4770 4797 "gtkPackProps.ml" 127 5013 5024
+)
+"gtkPackProps.ml" 121 4770 4798 "gtkPackProps.ml" 121 4770 4809
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  def hadjustment "gtkPackProps.ml" 121 4770 4810 "gtkPackProps.ml" 127 5013 5024
+)
+"gtkPackProps.ml" 121 4770 4811 "gtkPackProps.ml" 121 4770 4817
+type(
+  int option
+)
+ident(
+  def height "gtkPackProps.ml" 121 4770 4818 "gtkPackProps.ml" 127 5013 5024
+)
+"gtkPackProps.ml" 121 4770 4819 "gtkPackProps.ml" 121 4770 4830
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  def vadjustment "gtkPackProps.ml" 121 4770 4831 "gtkPackProps.ml" 127 5013 5024
+)
+"gtkPackProps.ml" 121 4770 4832 "gtkPackProps.ml" 121 4770 4837
+type(
+  int option
+)
+ident(
+  def width "gtkPackProps.ml" 122 4840 4844 "gtkPackProps.ml" 127 5013 5024
+)
+"gtkPackProps.ml" 122 4840 4848 "gtkPackProps.ml" 122 4840 4850
+type(
+  'f Gobject.param list
+)
+"gtkPackProps.ml" 123 4855 4861 "gtkPackProps.ml" 123 4855 4869
+type(
+  ('f, Gtk.adjustment Gtk.obj) Gobject.property ->
+  Gtk.adjustment Gtk.obj option ->
+  'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 123 4855 4870 "gtkPackProps.ml" 123 4855 4883
+type(
+  ('f, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref P.hadjustment
+)
+"gtkPackProps.ml" 123 4855 4884 "gtkPackProps.ml" 123 4855 4895
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  int_ref hadjustment "gtkPackProps.ml" 121 4770 4798 "gtkPackProps.ml" 121 4770 4809
+)
+"gtkPackProps.ml" 124 4898 4904 "gtkPackProps.ml" 124 4898 4912
+type(
+  ('f, int) Gobject.property ->
+  int option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 124 4898 4913 "gtkPackProps.ml" 124 4898 4921
+type(
+  ('f, int) Gobject.property
+)
+ident(
+  ext_ref P.height
+)
+"gtkPackProps.ml" 124 4898 4922 "gtkPackProps.ml" 124 4898 4928
+type(
+  int option
+)
+ident(
+  int_ref height "gtkPackProps.ml" 121 4770 4811 "gtkPackProps.ml" 121 4770 4817
+)
+"gtkPackProps.ml" 125 4931 4937 "gtkPackProps.ml" 125 4931 4945
+type(
+  ('f, Gtk.adjustment Gtk.obj) Gobject.property ->
+  Gtk.adjustment Gtk.obj option ->
+  'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 125 4931 4946 "gtkPackProps.ml" 125 4931 4959
+type(
+  ('f, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref P.vadjustment
+)
+"gtkPackProps.ml" 125 4931 4960 "gtkPackProps.ml" 125 4931 4971
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  int_ref vadjustment "gtkPackProps.ml" 121 4770 4819 "gtkPackProps.ml" 121 4770 4830
+)
+"gtkPackProps.ml" 126 4974 4980 "gtkPackProps.ml" 126 4974 4988
+type(
+  ('f, int) Gobject.property ->
+  int option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 126 4974 4989 "gtkPackProps.ml" 126 4974 4996
+type(
+  ('f, int) Gobject.property
+)
+ident(
+  ext_ref P.width
+)
+"gtkPackProps.ml" 126 4974 4997 "gtkPackProps.ml" 126 4974 5002
+type(
+  int option
+)
+ident(
+  int_ref width "gtkPackProps.ml" 121 4770 4832 "gtkPackProps.ml" 121 4770 4837
+)
+"gtkPackProps.ml" 126 4974 5003 "gtkPackProps.ml" 126 4974 5005
+type(
+  'f Gobject.param list
+)
+ident(
+  int_ref pl "gtkPackProps.ml" 121 4770 4794 "gtkPackProps.ml" 121 4770 4796
+)
+"gtkPackProps.ml" 125 4931 4972 "gtkPackProps.ml" 126 4974 5006
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkPackProps.ml" 124 4898 4929 "gtkPackProps.ml" 126 4974 5007
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkPackProps.ml" 123 4855 4896 "gtkPackProps.ml" 126 4974 5008
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkPackProps.ml" 122 4840 4853 "gtkPackProps.ml" 126 4974 5009
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkPackProps.ml" 127 5013 5017 "gtkPackProps.ml" 127 5013 5021
+type(
+  'f Gobject.param list -> 'g
+)
+ident(
+  int_ref cont "gtkPackProps.ml" 121 4770 4789 "gtkPackProps.ml" 121 4770 4793
+)
+"gtkPackProps.ml" 127 5013 5022 "gtkPackProps.ml" 127 5013 5024
+type(
+  'f Gobject.param list
+)
+ident(
+  int_ref pl "gtkPackProps.ml" 122 4840 4848 "gtkPackProps.ml" 122 4840 4850
+)
+"gtkPackProps.ml" 127 5013 5017 "gtkPackProps.ml" 127 5013 5024
+call(
+  tail
+)
+type(
+  'g
+)
+"gtkPackProps.ml" 122 4840 4844 "gtkPackProps.ml" 127 5013 5024
+type(
+  'g
+)
+"gtkPackProps.ml" 131 5055 5061 "gtkPackProps.ml" 131 5055 5065
+type(
+  'a Gobject.obj -> Gtk.notebook Gtk.obj
+)
+ident(
+  def cast "gtkPackProps.ml" 132 5114 5116 "gtkPackProps.ml" 197 8068 8071
+)
+"gtkPackProps.ml" 131 5055 5066 "gtkPackProps.ml" 131 5055 5067
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkPackProps.ml" 131 5055 5068 "gtkPackProps.ml" 131 5055 5113
+)
+"gtkPackProps.ml" 131 5055 5089 "gtkPackProps.ml" 131 5055 5097
+type(
+  'a Gobject.obj -> string -> Gtk.notebook Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkPackProps.ml" 131 5055 5098 "gtkPackProps.ml" 131 5055 5099
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkPackProps.ml" 131 5055 5066 "gtkPackProps.ml" 131 5055 5067
+)
+"gtkPackProps.ml" 131 5055 5100 "gtkPackProps.ml" 131 5055 5113
+type(
+  string
+)
+"gtkPackProps.ml" 131 5055 5089 "gtkPackProps.ml" 131 5055 5113
+call(
+  tail
+)
+type(
+  Gtk.notebook Gtk.obj
+)
+type(
+  Gtk.notebook Gtk.obj
+)
+"gtkPackProps.ml" 133 5134 5142 "gtkPackProps.ml" 133 5134 5154
+type(
+  ([> `notebook ], bool) Gobject.property
+)
+ident(
+  def enable_popup "gtkPackProps.ml" 135 5227 5231 "gtkPackProps.ml" 151 6001 6006
+)
+"gtkPackProps.ml" 134 5185 5197 "gtkPackProps.ml" 134 5185 5211
+type(
+  string
+)
+"gtkPackProps.ml" 134 5185 5218 "gtkPackProps.ml" 134 5185 5225
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkPackProps.ml" 134 5185 5191 "gtkPackProps.ml" 134 5185 5226
+type(
+  ([> `notebook ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkPackProps.ml" 135 5227 5235 "gtkPackProps.ml" 135 5227 5246
+type(
+  ([> `notebook ], bool) Gobject.property
+)
+ident(
+  def homogeneous "gtkPackProps.ml" 136 5302 5306 "gtkPackProps.ml" 151 6001 6006
+)
+"gtkPackProps.ml" 135 5227 5277 "gtkPackProps.ml" 135 5227 5301
+type(
+  ([> `notebook ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.homogeneous
+)
+"gtkPackProps.ml" 136 5302 5310 "gtkPackProps.ml" 136 5302 5314
+type(
+  ([> `notebook ], int) Gobject.property
+)
+ident(
+  def page "gtkPackProps.ml" 137 5369 5373 "gtkPackProps.ml" 151 6001 6006
+)
+"gtkPackProps.ml" 136 5302 5351 "gtkPackProps.ml" 136 5302 5357
+type(
+  string
+)
+"gtkPackProps.ml" 136 5302 5364 "gtkPackProps.ml" 136 5302 5367
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkPackProps.ml" 136 5302 5345 "gtkPackProps.ml" 136 5302 5368
+type(
+  ([> `notebook ] as 'd, int) Gobject.property
+)
+type(
+  ('d, int) Gobject.property
+)
+"gtkPackProps.ml" 137 5369 5377 "gtkPackProps.ml" 137 5369 5387
+type(
+  ([> `notebook ], bool) Gobject.property
+)
+ident(
+  def scrollable "gtkPackProps.ml" 139 5458 5462 "gtkPackProps.ml" 151 6001 6006
+)
+"gtkPackProps.ml" 138 5418 5430 "gtkPackProps.ml" 138 5418 5442
+type(
+  string
+)
+"gtkPackProps.ml" 138 5418 5449 "gtkPackProps.ml" 138 5418 5456
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkPackProps.ml" 138 5418 5424 "gtkPackProps.ml" 138 5418 5457
+type(
+  ([> `notebook ] as 'e, bool) Gobject.property
+)
+type(
+  ('e, bool) Gobject.property
+)
+"gtkPackProps.ml" 139 5458 5466 "gtkPackProps.ml" 139 5458 5477
+type(
+  ([> `notebook ], bool) Gobject.property
+)
+ident(
+  def show_border "gtkPackProps.ml" 141 5549 5553 "gtkPackProps.ml" 151 6001 6006
+)
+"gtkPackProps.ml" 140 5508 5520 "gtkPackProps.ml" 140 5508 5533
+type(
+  string
+)
+"gtkPackProps.ml" 140 5508 5540 "gtkPackProps.ml" 140 5508 5547
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkPackProps.ml" 140 5508 5514 "gtkPackProps.ml" 140 5508 5548
+type(
+  ([> `notebook ] as 'f, bool) Gobject.property
+)
+type(
+  ('f, bool) Gobject.property
+)
+"gtkPackProps.ml" 141 5549 5557 "gtkPackProps.ml" 141 5549 5566
+type(
+  ([> `notebook ], bool) Gobject.property
+)
+ident(
+  def show_tabs "gtkPackProps.ml" 143 5636 5640 "gtkPackProps.ml" 151 6001 6006
+)
+"gtkPackProps.ml" 142 5597 5609 "gtkPackProps.ml" 142 5597 5620
+type(
+  string
+)
+"gtkPackProps.ml" 142 5597 5627 "gtkPackProps.ml" 142 5597 5634
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkPackProps.ml" 142 5597 5603 "gtkPackProps.ml" 142 5597 5635
+type(
+  ([> `notebook ] as 'g, bool) Gobject.property
+)
+type(
+  ('g, bool) Gobject.property
+)
+"gtkPackProps.ml" 143 5636 5644 "gtkPackProps.ml" 143 5636 5654
+type(
+  ([> `notebook ], int) Gobject.property
+)
+ident(
+  def tab_border "gtkPackProps.ml" 145 5722 5726 "gtkPackProps.ml" 151 6001 6006
+)
+"gtkPackProps.ml" 144 5685 5697 "gtkPackProps.ml" 144 5685 5709
+type(
+  string
+)
+"gtkPackProps.ml" 144 5685 5716 "gtkPackProps.ml" 144 5685 5720
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkPackProps.ml" 144 5685 5691 "gtkPackProps.ml" 144 5685 5721
+type(
+  ([> `notebook ] as 'h, int) Gobject.property
+)
+type(
+  ('h, int) Gobject.property
+)
+"gtkPackProps.ml" 145 5722 5730 "gtkPackProps.ml" 145 5722 5741
+type(
+  ([> `notebook ], int) Gobject.property
+)
+ident(
+  def tab_hborder "gtkPackProps.ml" 147 5810 5814 "gtkPackProps.ml" 151 6001 6006
+)
+"gtkPackProps.ml" 146 5772 5784 "gtkPackProps.ml" 146 5772 5797
+type(
+  string
+)
+"gtkPackProps.ml" 146 5772 5804 "gtkPackProps.ml" 146 5772 5808
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkPackProps.ml" 146 5772 5778 "gtkPackProps.ml" 146 5772 5809
+type(
+  ([> `notebook ] as 'i, int) Gobject.property
+)
+type(
+  ('i, int) Gobject.property
+)
+"gtkPackProps.ml" 147 5810 5818 "gtkPackProps.ml" 147 5810 5825
+type(
+  ([> `notebook ], GtkEnums.position_type) Gobject.property
+)
+ident(
+  def tab_pos "gtkPackProps.ml" 149 5913 5917 "gtkPackProps.ml" 151 6001 6006
+)
+"gtkPackProps.ml" 148 5856 5868 "gtkPackProps.ml" 148 5856 5877
+type(
+  string
+)
+"gtkPackProps.ml" 148 5856 5884 "gtkPackProps.ml" 148 5856 5911
+type(
+  GtkEnums.position_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.position_type_conv
+)
+"gtkPackProps.ml" 148 5856 5862 "gtkPackProps.ml" 148 5856 5912
+type(
+  ([> `notebook ] as 'j, GtkEnums.position_type) Gobject.property
+)
+type(
+  ('j, GtkEnums.position_type) Gobject.property
+)
+"gtkPackProps.ml" 149 5913 5921 "gtkPackProps.ml" 149 5913 5932
+type(
+  ([> `notebook ], int) Gobject.property
+)
+ident(
+  def tab_vborder "gtkPackProps.ml" 150 5963 6000 "gtkPackProps.ml" 151 6001 6006
+)
+"gtkPackProps.ml" 150 5963 5975 "gtkPackProps.ml" 150 5963 5988
+type(
+  string
+)
+"gtkPackProps.ml" 150 5963 5995 "gtkPackProps.ml" 150 5963 5999
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkPackProps.ml" 150 5963 5969 "gtkPackProps.ml" 150 5963 6000
+type(
+  ([> `notebook ] as 'k, int) Gobject.property
+)
+type(
+  ('k, int) Gobject.property
+)
+"gtkPackProps.ml" 154 6046 6054 "gtkPackProps.ml" 154 6046 6065
+type(
+  ([> `notebook ], Gpointer.boxed option -> int -> unit) GtkSignal.t
+)
+ident(
+  def switch_page "gtkPackProps.ml" 156 6133 6190 "gtkPackProps.ml" 157 6191 6196
+)
+"gtkPackProps.ml" 155 6068 6080 "gtkPackProps.ml" 155 6068 6093
+type(
+  string
+)
+"gtkPackProps.ml" 155 6068 6102 "gtkPackProps.ml" 155 6068 6111
+type(
+  [> `notebook ] as 'l
+)
+"gtkPackProps.ml" 155 6068 6128 "gtkPackProps.ml" 155 6068 6129
+type(
+  Gpointer.boxed option -> int -> unit
+)
+ident(
+  def f "gtkPackProps.ml" 156 6133 6140 "gtkPackProps.ml" 156 6133 6189
+)
+"gtkPackProps.ml" 156 6133 6140 "gtkPackProps.ml" 156 6133 6148
+type(
+  Gpointer.boxed option Gobject.data_conv ->
+  int Gobject.data_conv ->
+  string -> (Gpointer.boxed option -> int -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkPackProps.ml" 156 6133 6149 "gtkPackProps.ml" 156 6133 6156
+type(
+  Gpointer.boxed option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.pointer
+)
+"gtkPackProps.ml" 156 6133 6157 "gtkPackProps.ml" 156 6133 6160
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkPackProps.ml" 156 6133 6161 "gtkPackProps.ml" 156 6133 6187
+type(
+  string
+)
+"gtkPackProps.ml" 156 6133 6188 "gtkPackProps.ml" 156 6133 6189
+type(
+  Gpointer.boxed option -> int -> unit
+)
+ident(
+  int_ref f "gtkPackProps.ml" 155 6068 6128 "gtkPackProps.ml" 155 6068 6129
+)
+"gtkPackProps.ml" 156 6133 6140 "gtkPackProps.ml" 156 6133 6189
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkPackProps.ml" 155 6068 6124 "gtkPackProps.ml" 156 6133 6189
+type(
+  (Gpointer.boxed option -> int -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkPackProps.ml" 155 6068 6074 "gtkPackProps.ml" 156 6133 6190
+type(
+  ('l, Gpointer.boxed option -> int -> unit) GtkSignal.t
+)
+"gtkPackProps.ml" 158 6197 6203 "gtkPackProps.ml" 158 6197 6209
+type(
+  Gtk.notebook Gobject.param list -> Gtk.notebook Gtk.obj
+)
+ident(
+  def create "gtkPackProps.ml" 159 6263 6265 "gtkPackProps.ml" 197 8068 8071
+)
+"gtkPackProps.ml" 158 6197 6210 "gtkPackProps.ml" 158 6197 6212
+type(
+  Gtk.notebook Gobject.param list
+)
+ident(
+  def pl "gtkPackProps.ml" 158 6197 6213 "gtkPackProps.ml" 158 6197 6262
+)
+"gtkPackProps.ml" 158 6197 6234 "gtkPackProps.ml" 158 6197 6245
+type(
+  classe:string -> Gtk.notebook Gobject.param list -> Gtk.notebook Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkPackProps.ml" 158 6197 6246 "gtkPackProps.ml" 158 6197 6259
+type(
+  string
+)
+"gtkPackProps.ml" 158 6197 6260 "gtkPackProps.ml" 158 6197 6262
+type(
+  Gtk.notebook Gobject.param list
+)
+ident(
+  int_ref pl "gtkPackProps.ml" 158 6197 6210 "gtkPackProps.ml" 158 6197 6212
+)
+"gtkPackProps.ml" 158 6197 6234 "gtkPackProps.ml" 158 6197 6262
+call(
+  tail
+)
+type(
+  Gtk.notebook Gtk.obj
+)
+type(
+  Gtk.notebook Gtk.obj
+)
+"gtkPackProps.ml" 186 7614 7620 "gtkPackProps.ml" 186 7614 7631
+type(
+  cont:(([> `notebook ] as 'm) Gobject.param list -> 'n) ->
+  'm Gobject.param list ->
+  ?enable_popup:bool ->
+  ?homogeneous_tabs:bool ->
+  ?scrollable:bool ->
+  ?show_border:bool ->
+  ?show_tabs:bool -> ?tab_border:int -> ?tab_pos:GtkEnums.position_type -> 'n
+)
+ident(
+  def make_params "gtkPackProps.ml" 196 8056 8067 "gtkPackProps.ml" 197 8068 8071
+)
+"gtkPackProps.ml" 186 7614 7633 "gtkPackProps.ml" 186 7614 7637
+type(
+  'm Gobject.param list -> 'n
+)
+ident(
+  def cont "gtkPackProps.ml" 186 7614 7638 "gtkPackProps.ml" 196 8056 8067
+)
+"gtkPackProps.ml" 186 7614 7638 "gtkPackProps.ml" 186 7614 7640
+type(
+  'm Gobject.param list
+)
+ident(
+  def pl "gtkPackProps.ml" 186 7614 7641 "gtkPackProps.ml" 196 8056 8067
+)
+"gtkPackProps.ml" 186 7614 7642 "gtkPackProps.ml" 186 7614 7654
+type(
+  bool option
+)
+ident(
+  def enable_popup "gtkPackProps.ml" 186 7614 7655 "gtkPackProps.ml" 196 8056 8067
+)
+"gtkPackProps.ml" 186 7614 7656 "gtkPackProps.ml" 186 7614 7672
+type(
+  bool option
+)
+ident(
+  def homogeneous_tabs "gtkPackProps.ml" 186 7614 7673 "gtkPackProps.ml" 196 8056 8067
+)
+"gtkPackProps.ml" 186 7614 7674 "gtkPackProps.ml" 186 7614 7684
+type(
+  bool option
+)
+ident(
+  def scrollable "gtkPackProps.ml" 187 7685 7691 "gtkPackProps.ml" 196 8056 8067
+)
+"gtkPackProps.ml" 187 7685 7692 "gtkPackProps.ml" 187 7685 7703
+type(
+  bool option
+)
+ident(
+  def show_border "gtkPackProps.ml" 187 7685 7704 "gtkPackProps.ml" 196 8056 8067
+)
+"gtkPackProps.ml" 187 7685 7705 "gtkPackProps.ml" 187 7685 7714
+type(
+  bool option
+)
+ident(
+  def show_tabs "gtkPackProps.ml" 187 7685 7715 "gtkPackProps.ml" 196 8056 8067
+)
+"gtkPackProps.ml" 187 7685 7716 "gtkPackProps.ml" 187 7685 7726
+type(
+  int option
+)
+ident(
+  def tab_border "gtkPackProps.ml" 187 7685 7727 "gtkPackProps.ml" 196 8056 8067
+)
+"gtkPackProps.ml" 187 7685 7728 "gtkPackProps.ml" 187 7685 7735
+type(
+  GtkEnums.position_type option
+)
+ident(
+  def tab_pos "gtkPackProps.ml" 188 7738 7742 "gtkPackProps.ml" 196 8056 8067
+)
+"gtkPackProps.ml" 188 7738 7746 "gtkPackProps.ml" 188 7738 7748
+type(
+  'm Gobject.param list
+)
+"gtkPackProps.ml" 189 7753 7759 "gtkPackProps.ml" 189 7753 7767
+type(
+  ('m, bool) Gobject.property ->
+  bool option -> 'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 189 7753 7768 "gtkPackProps.ml" 189 7753 7782
+type(
+  ('m, bool) Gobject.property
+)
+ident(
+  ext_ref P.enable_popup
+)
+"gtkPackProps.ml" 189 7753 7783 "gtkPackProps.ml" 189 7753 7795
+type(
+  bool option
+)
+ident(
+  int_ref enable_popup "gtkPackProps.ml" 186 7614 7642 "gtkPackProps.ml" 186 7614 7654
+)
+"gtkPackProps.ml" 190 7798 7804 "gtkPackProps.ml" 190 7798 7812
+type(
+  ('m, bool) Gobject.property ->
+  bool option -> 'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 190 7798 7813 "gtkPackProps.ml" 190 7798 7826
+type(
+  ('m, bool) Gobject.property
+)
+ident(
+  ext_ref P.homogeneous
+)
+"gtkPackProps.ml" 190 7798 7827 "gtkPackProps.ml" 190 7798 7843
+type(
+  bool option
+)
+ident(
+  int_ref homogeneous_tabs "gtkPackProps.ml" 186 7614 7656 "gtkPackProps.ml" 186 7614 7672
+)
+"gtkPackProps.ml" 191 7846 7852 "gtkPackProps.ml" 191 7846 7860
+type(
+  ('m, bool) Gobject.property ->
+  bool option -> 'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 191 7846 7861 "gtkPackProps.ml" 191 7846 7873
+type(
+  ('m, bool) Gobject.property
+)
+ident(
+  ext_ref P.scrollable
+)
+"gtkPackProps.ml" 191 7846 7874 "gtkPackProps.ml" 191 7846 7884
+type(
+  bool option
+)
+ident(
+  int_ref scrollable "gtkPackProps.ml" 186 7614 7674 "gtkPackProps.ml" 186 7614 7684
+)
+"gtkPackProps.ml" 192 7887 7893 "gtkPackProps.ml" 192 7887 7901
+type(
+  ('m, bool) Gobject.property ->
+  bool option -> 'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 192 7887 7902 "gtkPackProps.ml" 192 7887 7915
+type(
+  ('m, bool) Gobject.property
+)
+ident(
+  ext_ref P.show_border
+)
+"gtkPackProps.ml" 192 7887 7916 "gtkPackProps.ml" 192 7887 7927
+type(
+  bool option
+)
+ident(
+  int_ref show_border "gtkPackProps.ml" 187 7685 7692 "gtkPackProps.ml" 187 7685 7703
+)
+"gtkPackProps.ml" 193 7930 7936 "gtkPackProps.ml" 193 7930 7944
+type(
+  ('m, bool) Gobject.property ->
+  bool option -> 'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 193 7930 7945 "gtkPackProps.ml" 193 7930 7956
+type(
+  ('m, bool) Gobject.property
+)
+ident(
+  ext_ref P.show_tabs
+)
+"gtkPackProps.ml" 193 7930 7957 "gtkPackProps.ml" 193 7930 7966
+type(
+  bool option
+)
+ident(
+  int_ref show_tabs "gtkPackProps.ml" 187 7685 7705 "gtkPackProps.ml" 187 7685 7714
+)
+"gtkPackProps.ml" 194 7969 7975 "gtkPackProps.ml" 194 7969 7983
+type(
+  ('m, int) Gobject.property ->
+  int option -> 'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 194 7969 7984 "gtkPackProps.ml" 194 7969 7996
+type(
+  ('m, int) Gobject.property
+)
+ident(
+  ext_ref P.tab_border
+)
+"gtkPackProps.ml" 194 7969 7997 "gtkPackProps.ml" 194 7969 8007
+type(
+  int option
+)
+ident(
+  int_ref tab_border "gtkPackProps.ml" 187 7685 7716 "gtkPackProps.ml" 187 7685 7726
+)
+"gtkPackProps.ml" 195 8010 8016 "gtkPackProps.ml" 195 8010 8024
+type(
+  ('m, GtkEnums.position_type) Gobject.property ->
+  GtkEnums.position_type option ->
+  'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 195 8010 8025 "gtkPackProps.ml" 195 8010 8034
+type(
+  ('m, GtkEnums.position_type) Gobject.property
+)
+ident(
+  ext_ref P.tab_pos
+)
+"gtkPackProps.ml" 195 8010 8035 "gtkPackProps.ml" 195 8010 8042
+type(
+  GtkEnums.position_type option
+)
+ident(
+  int_ref tab_pos "gtkPackProps.ml" 187 7685 7728 "gtkPackProps.ml" 187 7685 7735
+)
+"gtkPackProps.ml" 195 8010 8043 "gtkPackProps.ml" 195 8010 8045
+type(
+  'm Gobject.param list
+)
+ident(
+  int_ref pl "gtkPackProps.ml" 186 7614 7638 "gtkPackProps.ml" 186 7614 7640
+)
+"gtkPackProps.ml" 194 7969 8008 "gtkPackProps.ml" 195 8010 8046
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkPackProps.ml" 193 7930 7967 "gtkPackProps.ml" 195 8010 8047
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkPackProps.ml" 192 7887 7928 "gtkPackProps.ml" 195 8010 8048
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkPackProps.ml" 191 7846 7885 "gtkPackProps.ml" 195 8010 8049
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkPackProps.ml" 190 7798 7844 "gtkPackProps.ml" 195 8010 8050
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkPackProps.ml" 189 7753 7796 "gtkPackProps.ml" 195 8010 8051
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkPackProps.ml" 188 7738 7751 "gtkPackProps.ml" 195 8010 8052
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkPackProps.ml" 196 8056 8060 "gtkPackProps.ml" 196 8056 8064
+type(
+  'm Gobject.param list -> 'n
+)
+ident(
+  int_ref cont "gtkPackProps.ml" 186 7614 7633 "gtkPackProps.ml" 186 7614 7637
+)
+"gtkPackProps.ml" 196 8056 8065 "gtkPackProps.ml" 196 8056 8067
+type(
+  'm Gobject.param list
+)
+ident(
+  int_ref pl "gtkPackProps.ml" 188 7738 7746 "gtkPackProps.ml" 188 7738 7748
+)
+"gtkPackProps.ml" 196 8056 8060 "gtkPackProps.ml" 196 8056 8067
+call(
+  tail
+)
+type(
+  'n
+)
+"gtkPackProps.ml" 188 7738 7742 "gtkPackProps.ml" 196 8056 8067
+type(
+  'n
+)
+"gtkPackProps.ml" 200 8095 8101 "gtkPackProps.ml" 200 8095 8105
+type(
+  'a Gobject.obj -> Gtk.table Gtk.obj
+)
+ident(
+  def cast "gtkPackProps.ml" 201 8148 8150 "gtkPackProps.ml" 230 9446 9449
+)
+"gtkPackProps.ml" 200 8095 8106 "gtkPackProps.ml" 200 8095 8107
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkPackProps.ml" 200 8095 8108 "gtkPackProps.ml" 200 8095 8147
+)
+"gtkPackProps.ml" 200 8095 8126 "gtkPackProps.ml" 200 8095 8134
+type(
+  'a Gobject.obj -> string -> Gtk.table Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkPackProps.ml" 200 8095 8135 "gtkPackProps.ml" 200 8095 8136
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkPackProps.ml" 200 8095 8106 "gtkPackProps.ml" 200 8095 8107
+)
+"gtkPackProps.ml" 200 8095 8137 "gtkPackProps.ml" 200 8095 8147
+type(
+  string
+)
+"gtkPackProps.ml" 200 8095 8126 "gtkPackProps.ml" 200 8095 8147
+call(
+  tail
+)
+type(
+  Gtk.table Gtk.obj
+)
+type(
+  Gtk.table Gtk.obj
+)
+"gtkPackProps.ml" 202 8168 8176 "gtkPackProps.ml" 202 8168 8185
+type(
+  ([> `table ], int) Gobject.property
+)
+ident(
+  def n_columns "gtkPackProps.ml" 203 8243 8247 "gtkPackProps.ml" 209 8560 8565
+)
+"gtkPackProps.ml" 202 8168 8219 "gtkPackProps.ml" 202 8168 8230
+type(
+  string
+)
+"gtkPackProps.ml" 202 8168 8237 "gtkPackProps.ml" 202 8168 8241
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkPackProps.ml" 202 8168 8213 "gtkPackProps.ml" 202 8168 8242
+type(
+  ([> `table ] as 'b, int) Gobject.property
+)
+type(
+  ('b, int) Gobject.property
+)
+"gtkPackProps.ml" 203 8243 8251 "gtkPackProps.ml" 203 8243 8257
+type(
+  ([> `table ], int) Gobject.property
+)
+ident(
+  def n_rows "gtkPackProps.ml" 204 8312 8316 "gtkPackProps.ml" 209 8560 8565
+)
+"gtkPackProps.ml" 203 8243 8291 "gtkPackProps.ml" 203 8243 8299
+type(
+  string
+)
+"gtkPackProps.ml" 203 8243 8306 "gtkPackProps.ml" 203 8243 8310
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkPackProps.ml" 203 8243 8285 "gtkPackProps.ml" 203 8243 8311
+type(
+  ([> `table ] as 'c, int) Gobject.property
+)
+type(
+  ('c, int) Gobject.property
+)
+"gtkPackProps.ml" 204 8312 8320 "gtkPackProps.ml" 204 8312 8331
+type(
+  ([> `table ], bool) Gobject.property
+)
+ident(
+  def homogeneous "gtkPackProps.ml" 205 8384 8388 "gtkPackProps.ml" 209 8560 8565
+)
+"gtkPackProps.ml" 204 8312 8359 "gtkPackProps.ml" 204 8312 8383
+type(
+  ([> `table ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.homogeneous
+)
+"gtkPackProps.ml" 205 8384 8392 "gtkPackProps.ml" 205 8384 8403
+type(
+  ([> `table ], int) Gobject.property
+)
+ident(
+  def row_spacing "gtkPackProps.ml" 207 8469 8473 "gtkPackProps.ml" 209 8560 8565
+)
+"gtkPackProps.ml" 206 8431 8443 "gtkPackProps.ml" 206 8431 8456
+type(
+  string
+)
+"gtkPackProps.ml" 206 8431 8463 "gtkPackProps.ml" 206 8431 8467
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkPackProps.ml" 206 8431 8437 "gtkPackProps.ml" 206 8431 8468
+type(
+  ([> `table ] as 'e, int) Gobject.property
+)
+type(
+  ('e, int) Gobject.property
+)
+"gtkPackProps.ml" 207 8469 8477 "gtkPackProps.ml" 207 8469 8491
+type(
+  ([> `table ], int) Gobject.property
+)
+ident(
+  def column_spacing "gtkPackProps.ml" 208 8519 8559 "gtkPackProps.ml" 209 8560 8565
+)
+"gtkPackProps.ml" 208 8519 8531 "gtkPackProps.ml" 208 8519 8547
+type(
+  string
+)
+"gtkPackProps.ml" 208 8519 8554 "gtkPackProps.ml" 208 8519 8558
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkPackProps.ml" 208 8519 8525 "gtkPackProps.ml" 208 8519 8559
+type(
+  ([> `table ] as 'f, int) Gobject.property
+)
+type(
+  ('f, int) Gobject.property
+)
+"gtkPackProps.ml" 210 8566 8572 "gtkPackProps.ml" 210 8566 8578
+type(
+  Gtk.table Gobject.param list -> Gtk.table Gtk.obj
+)
+ident(
+  def create "gtkPackProps.ml" 211 8626 8628 "gtkPackProps.ml" 230 9446 9449
+)
+"gtkPackProps.ml" 210 8566 8579 "gtkPackProps.ml" 210 8566 8581
+type(
+  Gtk.table Gobject.param list
+)
+ident(
+  def pl "gtkPackProps.ml" 210 8566 8582 "gtkPackProps.ml" 210 8566 8625
+)
+"gtkPackProps.ml" 210 8566 8600 "gtkPackProps.ml" 210 8566 8611
+type(
+  classe:string -> Gtk.table Gobject.param list -> Gtk.table Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkPackProps.ml" 210 8566 8612 "gtkPackProps.ml" 210 8566 8622
+type(
+  string
+)
+"gtkPackProps.ml" 210 8566 8623 "gtkPackProps.ml" 210 8566 8625
+type(
+  Gtk.table Gobject.param list
+)
+ident(
+  int_ref pl "gtkPackProps.ml" 210 8566 8579 "gtkPackProps.ml" 210 8566 8581
+)
+"gtkPackProps.ml" 210 8566 8600 "gtkPackProps.ml" 210 8566 8625
+call(
+  tail
+)
+type(
+  Gtk.table Gtk.obj
+)
+type(
+  Gtk.table Gtk.obj
+)
+"gtkPackProps.ml" 221 9117 9123 "gtkPackProps.ml" 221 9117 9134
+type(
+  cont:(([> `table ] as 'g) Gobject.param list -> 'h) ->
+  'g Gobject.param list ->
+  ?columns:int ->
+  ?rows:int ->
+  ?homogeneous:bool -> ?row_spacings:int -> ?col_spacings:int -> 'h
+)
+ident(
+  def make_params "gtkPackProps.ml" 229 9434 9445 "gtkPackProps.ml" 230 9446 9449
+)
+"gtkPackProps.ml" 221 9117 9136 "gtkPackProps.ml" 221 9117 9140
+type(
+  'g Gobject.param list -> 'h
+)
+ident(
+  def cont "gtkPackProps.ml" 221 9117 9141 "gtkPackProps.ml" 229 9434 9445
+)
+"gtkPackProps.ml" 221 9117 9141 "gtkPackProps.ml" 221 9117 9143
+type(
+  'g Gobject.param list
+)
+ident(
+  def pl "gtkPackProps.ml" 221 9117 9144 "gtkPackProps.ml" 229 9434 9445
+)
+"gtkPackProps.ml" 221 9117 9145 "gtkPackProps.ml" 221 9117 9152
+type(
+  int option
+)
+ident(
+  def columns "gtkPackProps.ml" 221 9117 9153 "gtkPackProps.ml" 229 9434 9445
+)
+"gtkPackProps.ml" 221 9117 9154 "gtkPackProps.ml" 221 9117 9158
+type(
+  int option
+)
+ident(
+  def rows "gtkPackProps.ml" 221 9117 9159 "gtkPackProps.ml" 229 9434 9445
+)
+"gtkPackProps.ml" 221 9117 9160 "gtkPackProps.ml" 221 9117 9171
+type(
+  bool option
+)
+ident(
+  def homogeneous "gtkPackProps.ml" 221 9117 9172 "gtkPackProps.ml" 229 9434 9445
+)
+"gtkPackProps.ml" 221 9117 9173 "gtkPackProps.ml" 221 9117 9185
+type(
+  int option
+)
+ident(
+  def row_spacings "gtkPackProps.ml" 222 9186 9192 "gtkPackProps.ml" 229 9434 9445
+)
+"gtkPackProps.ml" 222 9186 9193 "gtkPackProps.ml" 222 9186 9205
+type(
+  int option
+)
+ident(
+  def col_spacings "gtkPackProps.ml" 223 9208 9212 "gtkPackProps.ml" 229 9434 9445
+)
+"gtkPackProps.ml" 223 9208 9216 "gtkPackProps.ml" 223 9208 9218
+type(
+  'g Gobject.param list
+)
+"gtkPackProps.ml" 224 9223 9229 "gtkPackProps.ml" 224 9223 9237
+type(
+  ('g, int) Gobject.property ->
+  int option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 224 9223 9238 "gtkPackProps.ml" 224 9223 9249
+type(
+  ('g, int) Gobject.property
+)
+ident(
+  ext_ref P.n_columns
+)
+"gtkPackProps.ml" 224 9223 9250 "gtkPackProps.ml" 224 9223 9257
+type(
+  int option
+)
+ident(
+  int_ref columns "gtkPackProps.ml" 221 9117 9145 "gtkPackProps.ml" 221 9117 9152
+)
+"gtkPackProps.ml" 225 9260 9266 "gtkPackProps.ml" 225 9260 9274
+type(
+  ('g, int) Gobject.property ->
+  int option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 225 9260 9275 "gtkPackProps.ml" 225 9260 9283
+type(
+  ('g, int) Gobject.property
+)
+ident(
+  ext_ref P.n_rows
+)
+"gtkPackProps.ml" 225 9260 9284 "gtkPackProps.ml" 225 9260 9288
+type(
+  int option
+)
+ident(
+  int_ref rows "gtkPackProps.ml" 221 9117 9154 "gtkPackProps.ml" 221 9117 9158
+)
+"gtkPackProps.ml" 226 9291 9297 "gtkPackProps.ml" 226 9291 9305
+type(
+  ('g, bool) Gobject.property ->
+  bool option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 226 9291 9306 "gtkPackProps.ml" 226 9291 9319
+type(
+  ('g, bool) Gobject.property
+)
+ident(
+  ext_ref P.homogeneous
+)
+"gtkPackProps.ml" 226 9291 9320 "gtkPackProps.ml" 226 9291 9331
+type(
+  bool option
+)
+ident(
+  int_ref homogeneous "gtkPackProps.ml" 221 9117 9160 "gtkPackProps.ml" 221 9117 9171
+)
+"gtkPackProps.ml" 227 9334 9340 "gtkPackProps.ml" 227 9334 9348
+type(
+  ('g, int) Gobject.property ->
+  int option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 227 9334 9349 "gtkPackProps.ml" 227 9334 9362
+type(
+  ('g, int) Gobject.property
+)
+ident(
+  ext_ref P.row_spacing
+)
+"gtkPackProps.ml" 227 9334 9363 "gtkPackProps.ml" 227 9334 9375
+type(
+  int option
+)
+ident(
+  int_ref row_spacings "gtkPackProps.ml" 221 9117 9173 "gtkPackProps.ml" 221 9117 9185
+)
+"gtkPackProps.ml" 228 9378 9384 "gtkPackProps.ml" 228 9378 9392
+type(
+  ('g, int) Gobject.property ->
+  int option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkPackProps.ml" 11 149 153 "gtkPackProps.ml" 11 149 161
+)
+"gtkPackProps.ml" 228 9378 9393 "gtkPackProps.ml" 228 9378 9409
+type(
+  ('g, int) Gobject.property
+)
+ident(
+  ext_ref P.column_spacing
+)
+"gtkPackProps.ml" 228 9378 9410 "gtkPackProps.ml" 228 9378 9422
+type(
+  int option
+)
+ident(
+  int_ref col_spacings "gtkPackProps.ml" 222 9186 9193 "gtkPackProps.ml" 222 9186 9205
+)
+"gtkPackProps.ml" 228 9378 9423 "gtkPackProps.ml" 228 9378 9425
+type(
+  'g Gobject.param list
+)
+ident(
+  int_ref pl "gtkPackProps.ml" 221 9117 9141 "gtkPackProps.ml" 221 9117 9143
+)
+"gtkPackProps.ml" 227 9334 9376 "gtkPackProps.ml" 228 9378 9426
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkPackProps.ml" 226 9291 9332 "gtkPackProps.ml" 228 9378 9427
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkPackProps.ml" 225 9260 9289 "gtkPackProps.ml" 228 9378 9428
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkPackProps.ml" 224 9223 9258 "gtkPackProps.ml" 228 9378 9429
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkPackProps.ml" 223 9208 9221 "gtkPackProps.ml" 228 9378 9430
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkPackProps.ml" 229 9434 9438 "gtkPackProps.ml" 229 9434 9442
+type(
+  'g Gobject.param list -> 'h
+)
+ident(
+  int_ref cont "gtkPackProps.ml" 221 9117 9136 "gtkPackProps.ml" 221 9117 9140
+)
+"gtkPackProps.ml" 229 9434 9443 "gtkPackProps.ml" 229 9434 9445
+type(
+  'g Gobject.param list
+)
+ident(
+  int_ref pl "gtkPackProps.ml" 223 9208 9216 "gtkPackProps.ml" 223 9208 9218
+)
+"gtkPackProps.ml" 229 9434 9438 "gtkPackProps.ml" 229 9434 9445
+call(
+  tail
+)
+type(
+  'h
+)
+"gtkPackProps.ml" 223 9208 9212 "gtkPackProps.ml" 229 9434 9445
+type(
+  'h
+)
+"gtkPackProps.ml" 233 9477 9483 "gtkPackProps.ml" 233 9477 9487
+type(
+  'a Gobject.obj -> Gtk.size_group
+)
+ident(
+  def cast "gtkPackProps.ml" 234 9531 9533 "gtkPackProps.ml" 243 9944 9947
+)
+"gtkPackProps.ml" 233 9477 9488 "gtkPackProps.ml" 233 9477 9489
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkPackProps.ml" 233 9477 9490 "gtkPackProps.ml" 233 9477 9530
+)
+"gtkPackProps.ml" 233 9477 9505 "gtkPackProps.ml" 233 9477 9513
+type(
+  'a Gobject.obj -> string -> Gtk.size_group
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkPackProps.ml" 233 9477 9514 "gtkPackProps.ml" 233 9477 9515
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkPackProps.ml" 233 9477 9488 "gtkPackProps.ml" 233 9477 9489
+)
+"gtkPackProps.ml" 233 9477 9516 "gtkPackProps.ml" 233 9477 9530
+type(
+  string
+)
+"gtkPackProps.ml" 233 9477 9505 "gtkPackProps.ml" 233 9477 9530
+call(
+  tail
+)
+type(
+  Gtk.size_group
+)
+type(
+  Gtk.size_group
+)
+"gtkPackProps.ml" 235 9551 9559 "gtkPackProps.ml" 235 9551 9563
+type(
+  ([> `sizegroup ], GtkEnums.size_group_mode) Gobject.property
+)
+ident(
+  def mode "gtkPackProps.ml" 236 9595 9650 "gtkPackProps.ml" 237 9651 9656
+)
+"gtkPackProps.ml" 236 9595 9607 "gtkPackProps.ml" 236 9595 9613
+type(
+  string
+)
+"gtkPackProps.ml" 236 9595 9620 "gtkPackProps.ml" 236 9595 9649
+type(
+  GtkEnums.size_group_mode Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.size_group_mode_conv
+)
+"gtkPackProps.ml" 236 9595 9601 "gtkPackProps.ml" 236 9595 9650
+type(
+  ([> `sizegroup ] as 'b, GtkEnums.size_group_mode) Gobject.property
+)
+type(
+  ('b, GtkEnums.size_group_mode) Gobject.property
+)
+"gtkPackProps.ml" 238 9657 9663 "gtkPackProps.ml" 238 9657 9669
+type(
+  [ `sizegroup ] Gobject.param list -> Gtk.size_group
+)
+ident(
+  def create "gtkPackProps.ml" 239 9728 9730 "gtkPackProps.ml" 243 9944 9947
+)
+"gtkPackProps.ml" 238 9657 9670 "gtkPackProps.ml" 238 9657 9672
+type(
+  [ `sizegroup ] Gobject.param list
+)
+ident(
+  def pl "gtkPackProps.ml" 238 9657 9673 "gtkPackProps.ml" 238 9657 9727
+)
+"gtkPackProps.ml" 238 9657 9688 "gtkPackProps.ml" 238 9657 9709
+type(
+  classe:string -> [ `sizegroup ] Gobject.param list -> Gtk.size_group
+)
+ident(
+  ext_ref Gobject.unsafe_create
+)
+"gtkPackProps.ml" 238 9657 9710 "gtkPackProps.ml" 238 9657 9724
+type(
+  string
+)
+"gtkPackProps.ml" 238 9657 9725 "gtkPackProps.ml" 238 9657 9727
+type(
+  [ `sizegroup ] Gobject.param list
+)
+ident(
+  int_ref pl "gtkPackProps.ml" 238 9657 9670 "gtkPackProps.ml" 238 9657 9672
+)
+"gtkPackProps.ml" 238 9657 9688 "gtkPackProps.ml" 238 9657 9727
+call(
+  tail
+)
+type(
+  Gtk.size_group
+)
+type(
+  Gtk.size_group
+)

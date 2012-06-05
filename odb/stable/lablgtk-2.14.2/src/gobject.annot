@@ -1,0 +1,6056 @@
+"gobject.ml" 80 2735 2739 "gobject.ml" 80 2735 2750
+type(
+  Gc.alarm
+)
+ident(
+  def unref_alarm "gobject.ml" 82 2779 2779 --
+)
+"gobject.ml" 80 2735 2753 "gobject.ml" 80 2735 2768
+type(
+  (unit -> unit) -> Gc.alarm
+)
+ident(
+  ext_ref Gc.create_alarm
+)
+"gobject.ml" 80 2735 2769 "gobject.ml" 80 2735 2777
+type(
+  unit -> unit
+)
+"gobject.ml" 80 2735 2753 "gobject.ml" 80 2735 2777
+call(
+  stack
+)
+type(
+  Gc.alarm
+)
+"gobject.ml" 84 2850 2856 "gobject.ml" 84 2850 2858
+type(
+  unit
+)
+"gobject.ml" 84 2850 2861 "gobject.ml" 84 2850 2865
+type(
+  unit -> unit
+)
+"gobject.ml" 84 2850 2866 "gobject.ml" 84 2850 2868
+type(
+  unit
+)
+"gobject.ml" 84 2850 2861 "gobject.ml" 84 2850 2868
+type(
+  unit
+)
+"gobject.ml" 98 3563 3569 "gobject.ml" 98 3563 3576
+type(
+  g_type
+)
+ident(
+  def invalid "gobject.ml" 99 3604 3606 "gobject.ml" 106 3830 3833
+)
+"gobject.ml" 98 3563 3580 "gobject.ml" 98 3563 3594
+type(
+  fundamental_type -> g_type
+)
+"gobject.ml" 98 3563 3595 "gobject.ml" 98 3563 3603
+type(
+  fundamental_type
+)
+"gobject.ml" 98 3563 3580 "gobject.ml" 98 3563 3603
+type(
+  g_type
+)
+"gobject.ml" 99 3604 3610 "gobject.ml" 99 3604 3619
+type(
+  string -> g_type
+)
+ident(
+  def from_name "gobject.ml" 104 3731 3733 "gobject.ml" 106 3830 3833
+)
+"gobject.ml" 99 3604 3620 "gobject.ml" 99 3604 3621
+type(
+  string
+)
+ident(
+  def s "gobject.ml" 100 3624 3628 "gobject.ml" 103 3725 3730
+)
+"gobject.ml" 100 3624 3632 "gobject.ml" 100 3624 3633
+type(
+  g_type
+)
+"gobject.ml" 100 3624 3636 "gobject.ml" 100 3624 3646
+type(
+  string -> g_type
+)
+"gobject.ml" 100 3624 3647 "gobject.ml" 100 3624 3648
+type(
+  string
+)
+ident(
+  int_ref s "gobject.ml" 99 3604 3620 "gobject.ml" 99 3604 3621
+)
+"gobject.ml" 100 3624 3636 "gobject.ml" 100 3624 3648
+type(
+  g_type
+)
+"gobject.ml" 101 3652 3659 "gobject.ml" 101 3652 3660
+type(
+  g_type
+)
+ident(
+  int_ref t "gobject.ml" 100 3624 3632 "gobject.ml" 100 3624 3633
+)
+"gobject.ml" 101 3652 3661 "gobject.ml" 101 3652 3662
+type(
+  g_type -> g_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gobject.ml" 101 3652 3663 "gobject.ml" 101 3652 3670
+type(
+  g_type
+)
+ident(
+  int_ref invalid "gobject.ml" 98 3563 3569 "gobject.ml" 98 3563 3576
+)
+"gobject.ml" 101 3652 3659 "gobject.ml" 101 3652 3670
+type(
+  bool
+)
+"gobject.ml" 102 3676 3682 "gobject.ml" 102 3676 3690
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 102 3676 3692 "gobject.ml" 102 3676 3718
+type(
+  string
+)
+"gobject.ml" 102 3676 3719 "gobject.ml" 102 3676 3720
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 102 3676 3721 "gobject.ml" 102 3676 3722
+type(
+  string
+)
+ident(
+  int_ref s "gobject.ml" 99 3604 3620 "gobject.ml" 99 3604 3621
+)
+"gobject.ml" 102 3676 3691 "gobject.ml" 102 3676 3723
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 102 3676 3682 "gobject.ml" 102 3676 3723
+call(
+  stack
+)
+type(
+  unit
+)
+"gobject.ml" 101 3652 3656 "gobject.ml" 102 3676 3723
+type(
+  unit
+)
+"gobject.ml" 103 3725 3729 "gobject.ml" 103 3725 3730
+type(
+  g_type
+)
+ident(
+  int_ref t "gobject.ml" 100 3624 3632 "gobject.ml" 100 3624 3633
+)
+"gobject.ml" 101 3652 3656 "gobject.ml" 103 3725 3730
+type(
+  g_type
+)
+"gobject.ml" 100 3624 3628 "gobject.ml" 103 3725 3730
+type(
+  g_type
+)
+"gobject.ml" 105 3798 3804 "gobject.ml" 105 3798 3808
+type(
+  g_type
+)
+ident(
+  def caml "gobject.ml" 105 3798 3829 "gobject.ml" 106 3830 3833
+)
+"gobject.ml" 105 3798 3811 "gobject.ml" 105 3798 3826
+type(
+  unit -> g_type
+)
+"gobject.ml" 105 3798 3827 "gobject.ml" 105 3798 3829
+type(
+  unit
+)
+"gobject.ml" 105 3798 3811 "gobject.ml" 105 3798 3829
+type(
+  g_type
+)
+"gobject.ml" 112 4023 4029 "gobject.ml" 112 4023 4035
+type(
+  g_type -> g_value
+)
+ident(
+  def create "gobject.ml" 114 4125 4127 "gobject.ml" 138 5424 5427
+)
+"gobject.ml" 112 4023 4036 "gobject.ml" 112 4023 4038
+type(
+  g_type
+)
+ident(
+  def ty "gobject.ml" 112 4023 4041 "gobject.ml" 112 4023 4080
+)
+"gobject.ml" 112 4023 4045 "gobject.ml" 112 4023 4046
+type(
+  g_value
+)
+"gobject.ml" 112 4023 4049 "gobject.ml" 112 4023 4061
+type(
+  unit -> g_value
+)
+"gobject.ml" 112 4023 4062 "gobject.ml" 112 4023 4064
+type(
+  unit
+)
+"gobject.ml" 112 4023 4049 "gobject.ml" 112 4023 4064
+type(
+  g_value
+)
+"gobject.ml" 112 4023 4068 "gobject.ml" 112 4023 4072
+type(
+  g_value -> g_type -> unit
+)
+"gobject.ml" 112 4023 4073 "gobject.ml" 112 4023 4074
+type(
+  g_value
+)
+ident(
+  int_ref v "gobject.ml" 112 4023 4045 "gobject.ml" 112 4023 4046
+)
+"gobject.ml" 112 4023 4075 "gobject.ml" 112 4023 4077
+type(
+  g_type
+)
+ident(
+  int_ref ty "gobject.ml" 112 4023 4036 "gobject.ml" 112 4023 4038
+)
+"gobject.ml" 112 4023 4068 "gobject.ml" 112 4023 4077
+type(
+  unit
+)
+"gobject.ml" 112 4023 4079 "gobject.ml" 112 4023 4080
+type(
+  g_value
+)
+ident(
+  int_ref v "gobject.ml" 112 4023 4045 "gobject.ml" 112 4023 4046
+)
+"gobject.ml" 112 4023 4068 "gobject.ml" 112 4023 4080
+type(
+  g_value
+)
+"gobject.ml" 112 4023 4041 "gobject.ml" 112 4023 4080
+type(
+  g_value
+)
+"gobject.ml" 129 5046 5052 "gobject.ml" 129 5046 5060
+type(
+  [> `INT32 | `POINTER | `UINT32 ] -> g_value -> data_conv_get
+)
+ident(
+  def get_conv "gobject.ml" 137 5354 5423 "gobject.ml" 138 5424 5427
+)
+"gobject.ml" 129 5046 5061 "gobject.ml" 129 5046 5065
+type(
+  [> `INT32 | `POINTER | `UINT32 ] as 'a
+)
+ident(
+  def kind "gobject.ml" 129 5046 5066 "gobject.ml" 137 5354 5423
+)
+"gobject.ml" 129 5046 5066 "gobject.ml" 129 5046 5067
+type(
+  g_value
+)
+ident(
+  def v "gobject.ml" 130 5070 5074 "gobject.ml" 137 5354 5423
+)
+"gobject.ml" 130 5070 5084 "gobject.ml" 130 5070 5088
+type(
+  'a
+)
+ident(
+  int_ref kind "gobject.ml" 129 5046 5061 "gobject.ml" 129 5046 5065
+)
+"gobject.ml" 132 5136 5142 "gobject.ml" 132 5136 5148
+type(
+  'a
+)
+"gobject.ml" 132 5136 5151 "gobject.ml" 132 5136 5158
+type(
+  'a
+)
+"gobject.ml" 132 5136 5142 "gobject.ml" 132 5136 5158
+type(
+  'a
+)
+"gobject.ml" 132 5136 5170 "gobject.ml" 132 5136 5179
+type(
+  g_value -> int32
+)
+"gobject.ml" 132 5136 5180 "gobject.ml" 132 5136 5181
+type(
+  g_value
+)
+ident(
+  int_ref v "gobject.ml" 129 5046 5066 "gobject.ml" 129 5046 5067
+)
+"gobject.ml" 132 5136 5169 "gobject.ml" 132 5136 5182
+type(
+  int32
+)
+"gobject.ml" 132 5136 5162 "gobject.ml" 132 5136 5182
+type(
+  data_conv_get
+)
+"gobject.ml" 134 5229 5235 "gobject.ml" 134 5229 5243
+type(
+  'a
+)
+"gobject.ml" 135 5247 5275 "gobject.ml" 135 5247 5286
+type(
+  g_value -> Gpointer.boxed
+)
+"gobject.ml" 135 5247 5287 "gobject.ml" 135 5247 5288
+type(
+  g_value
+)
+ident(
+  int_ref v "gobject.ml" 129 5046 5066 "gobject.ml" 129 5046 5067
+)
+"gobject.ml" 135 5247 5274 "gobject.ml" 135 5247 5289
+type(
+  Gpointer.boxed
+)
+"gobject.ml" 135 5247 5269 "gobject.ml" 135 5247 5289
+type(
+  Gpointer.boxed option
+)
+"gobject.ml" 135 5247 5295 "gobject.ml" 135 5247 5308
+type(
+  exn
+)
+"gobject.ml" 135 5247 5312 "gobject.ml" 135 5247 5316
+type(
+  Gpointer.boxed option
+)
+"gobject.ml" 135 5247 5264 "gobject.ml" 135 5247 5317
+type(
+  Gpointer.boxed option
+)
+"gobject.ml" 135 5247 5255 "gobject.ml" 135 5247 5317
+type(
+  data_conv_get
+)
+"gobject.ml" 136 5318 5324 "gobject.ml" 136 5318 5325
+type(
+  'a
+)
+"gobject.ml" 136 5318 5330 "gobject.ml" 136 5318 5333
+type(
+  g_value -> data_get
+)
+"gobject.ml" 136 5318 5334 "gobject.ml" 136 5318 5335
+type(
+  g_value
+)
+ident(
+  int_ref v "gobject.ml" 129 5046 5066 "gobject.ml" 129 5046 5067
+)
+"gobject.ml" 136 5318 5330 "gobject.ml" 136 5318 5335
+type(
+  data_conv_get
+)
+type(
+  data_get
+)
+"gobject.ml" 130 5070 5078 "gobject.ml" 136 5318 5353
+type(
+  data_conv_get
+)
+"gobject.ml" 137 5354 5372 "gobject.ml" 137 5354 5391
+type(
+  string
+)
+"gobject.ml" 137 5354 5392 "gobject.ml" 137 5354 5413
+type(
+  string
+)
+"gobject.ml" 137 5354 5371 "gobject.ml" 137 5354 5414
+type(
+  string
+)
+"gobject.ml" 137 5354 5363 "gobject.ml" 137 5354 5414
+type(
+  exn
+)
+"gobject.ml" 137 5354 5418 "gobject.ml" 137 5354 5423
+type(
+  data_conv_get
+)
+"gobject.ml" 130 5070 5074 "gobject.ml" 137 5354 5423
+type(
+  data_conv_get
+)
+"gobject.ml" 147 5660 5666 "gobject.ml" 147 5660 5669
+type(
+  argv -> pos:int -> g_value
+)
+ident(
+  def nth "gobject.ml" 150 5779 5781 "gobject.ml" 164 6367 6370
+)
+"gobject.ml" 147 5660 5670 "gobject.ml" 147 5660 5673
+type(
+  argv
+)
+ident(
+  def arg "gobject.ml" 147 5660 5674 "gobject.ml" 149 5756 5778
+)
+"gobject.ml" 147 5660 5675 "gobject.ml" 147 5660 5678
+type(
+  int
+)
+ident(
+  def pos "gobject.ml" 148 5681 5685 "gobject.ml" 149 5756 5778
+)
+"gobject.ml" 148 5681 5688 "gobject.ml" 148 5681 5691
+type(
+  int
+)
+ident(
+  int_ref pos "gobject.ml" 147 5660 5675 "gobject.ml" 147 5660 5678
+)
+"gobject.ml" 148 5681 5692 "gobject.ml" 148 5681 5693
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gobject.ml" 148 5681 5694 "gobject.ml" 148 5681 5695
+type(
+  int
+)
+"gobject.ml" 148 5681 5688 "gobject.ml" 148 5681 5695
+type(
+  bool
+)
+"gobject.ml" 148 5681 5696 "gobject.ml" 148 5681 5698
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gobject.ml" 148 5681 5699 "gobject.ml" 148 5681 5702
+type(
+  int
+)
+ident(
+  int_ref pos "gobject.ml" 147 5660 5675 "gobject.ml" 147 5660 5678
+)
+"gobject.ml" 148 5681 5703 "gobject.ml" 148 5681 5705
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"gobject.ml" 148 5681 5706 "gobject.ml" 148 5681 5709
+type(
+  argv
+)
+ident(
+  int_ref arg "gobject.ml" 147 5660 5670 "gobject.ml" 147 5660 5673
+)
+"gobject.ml" 148 5681 5706 "gobject.ml" 148 5681 5715
+type(
+  int
+)
+"gobject.ml" 148 5681 5699 "gobject.ml" 148 5681 5715
+type(
+  bool
+)
+"gobject.ml" 148 5681 5688 "gobject.ml" 148 5681 5715
+type(
+  bool
+)
+"gobject.ml" 148 5681 5721 "gobject.ml" 148 5681 5732
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gobject.ml" 148 5681 5733 "gobject.ml" 148 5681 5754
+type(
+  string
+)
+"gobject.ml" 148 5681 5721 "gobject.ml" 148 5681 5754
+call(
+  stack
+)
+type(
+  unit
+)
+"gobject.ml" 148 5681 5685 "gobject.ml" 148 5681 5754
+type(
+  unit
+)
+"gobject.ml" 149 5756 5760 "gobject.ml" 149 5756 5764
+type(
+  args -> pos:int -> g_value
+)
+"gobject.ml" 149 5756 5765 "gobject.ml" 149 5756 5768
+type(
+  argv
+)
+ident(
+  int_ref arg "gobject.ml" 147 5660 5670 "gobject.ml" 147 5660 5673
+)
+"gobject.ml" 149 5756 5765 "gobject.ml" 149 5756 5773
+type(
+  args
+)
+"gobject.ml" 149 5756 5775 "gobject.ml" 149 5756 5778
+type(
+  int
+)
+ident(
+  int_ref pos "gobject.ml" 147 5660 5675 "gobject.ml" 147 5660 5678
+)
+"gobject.ml" 149 5756 5760 "gobject.ml" 149 5756 5778
+type(
+  g_value
+)
+"gobject.ml" 148 5681 5685 "gobject.ml" 149 5756 5778
+type(
+  g_value
+)
+"gobject.ml" 150 5779 5785 "gobject.ml" 150 5779 5791
+type(
+  argv -> g_value
+)
+ident(
+  def result "gobject.ml" 151 5811 5813 "gobject.ml" 164 6367 6370
+)
+"gobject.ml" 150 5779 5792 "gobject.ml" 150 5779 5796
+type(
+  argv
+)
+ident(
+  def argv "gobject.ml" 150 5779 5799 "gobject.ml" 150 5779 5810
+)
+"gobject.ml" 150 5779 5799 "gobject.ml" 150 5779 5803
+type(
+  argv
+)
+ident(
+  int_ref argv "gobject.ml" 150 5779 5792 "gobject.ml" 150 5779 5796
+)
+"gobject.ml" 150 5779 5799 "gobject.ml" 150 5779 5810
+type(
+  g_value
+)
+"gobject.ml" 151 5811 5817 "gobject.ml" 151 5811 5832
+type(
+  argv -> g_type
+)
+ident(
+  def get_result_type "gobject.ml" 152 5867 5869 "gobject.ml" 164 6367 6370
+)
+"gobject.ml" 151 5811 5833 "gobject.ml" 151 5811 5836
+type(
+  argv
+)
+ident(
+  def arg "gobject.ml" 151 5811 5839 "gobject.ml" 151 5811 5866
+)
+"gobject.ml" 151 5811 5839 "gobject.ml" 151 5811 5853
+type(
+  g_value -> g_type
+)
+ident(
+  ext_ref Value.get_type
+)
+"gobject.ml" 151 5811 5855 "gobject.ml" 151 5811 5861
+type(
+  argv -> g_value
+)
+ident(
+  int_ref result "gobject.ml" 150 5779 5785 "gobject.ml" 150 5779 5791
+)
+"gobject.ml" 151 5811 5862 "gobject.ml" 151 5811 5865
+type(
+  argv
+)
+ident(
+  int_ref arg "gobject.ml" 151 5811 5833 "gobject.ml" 151 5811 5836
+)
+"gobject.ml" 151 5811 5854 "gobject.ml" 151 5811 5866
+call(
+  stack
+)
+type(
+  g_value
+)
+"gobject.ml" 151 5811 5839 "gobject.ml" 151 5811 5866
+type(
+  g_type
+)
+"gobject.ml" 152 5867 5873 "gobject.ml" 152 5867 5881
+type(
+  argv -> pos:int -> g_type
+)
+ident(
+  def get_type "gobject.ml" 153 5923 5925 "gobject.ml" 164 6367 6370
+)
+"gobject.ml" 152 5867 5882 "gobject.ml" 152 5867 5885
+type(
+  argv
+)
+ident(
+  def arg "gobject.ml" 152 5867 5886 "gobject.ml" 152 5867 5922
+)
+"gobject.ml" 152 5867 5887 "gobject.ml" 152 5867 5890
+type(
+  int
+)
+ident(
+  def pos "gobject.ml" 152 5867 5893 "gobject.ml" 152 5867 5922
+)
+"gobject.ml" 152 5867 5893 "gobject.ml" 152 5867 5907
+type(
+  g_value -> g_type
+)
+ident(
+  ext_ref Value.get_type
+)
+"gobject.ml" 152 5867 5909 "gobject.ml" 152 5867 5912
+type(
+  argv -> pos:int -> g_value
+)
+ident(
+  int_ref nth "gobject.ml" 147 5660 5666 "gobject.ml" 147 5660 5669
+)
+"gobject.ml" 152 5867 5913 "gobject.ml" 152 5867 5916
+type(
+  argv
+)
+ident(
+  int_ref arg "gobject.ml" 152 5867 5882 "gobject.ml" 152 5867 5885
+)
+"gobject.ml" 152 5867 5918 "gobject.ml" 152 5867 5921
+type(
+  int
+)
+ident(
+  int_ref pos "gobject.ml" 152 5867 5887 "gobject.ml" 152 5867 5890
+)
+"gobject.ml" 152 5867 5908 "gobject.ml" 152 5867 5922
+call(
+  stack
+)
+type(
+  g_value
+)
+"gobject.ml" 152 5867 5893 "gobject.ml" 152 5867 5922
+type(
+  g_type
+)
+"gobject.ml" 153 5923 5929 "gobject.ml" 153 5923 5932
+type(
+  argv -> pos:int -> data_get
+)
+ident(
+  def get "gobject.ml" 154 5969 5971 "gobject.ml" 164 6367 6370
+)
+"gobject.ml" 153 5923 5933 "gobject.ml" 153 5923 5936
+type(
+  argv
+)
+ident(
+  def arg "gobject.ml" 153 5923 5937 "gobject.ml" 153 5923 5968
+)
+"gobject.ml" 153 5923 5938 "gobject.ml" 153 5923 5941
+type(
+  int
+)
+ident(
+  def pos "gobject.ml" 153 5923 5944 "gobject.ml" 153 5923 5968
+)
+"gobject.ml" 153 5923 5944 "gobject.ml" 153 5923 5953
+type(
+  g_value -> data_get
+)
+ident(
+  ext_ref Value.get
+)
+"gobject.ml" 153 5923 5955 "gobject.ml" 153 5923 5958
+type(
+  argv -> pos:int -> g_value
+)
+ident(
+  int_ref nth "gobject.ml" 147 5660 5666 "gobject.ml" 147 5660 5669
+)
+"gobject.ml" 153 5923 5959 "gobject.ml" 153 5923 5962
+type(
+  argv
+)
+ident(
+  int_ref arg "gobject.ml" 153 5923 5933 "gobject.ml" 153 5923 5936
+)
+"gobject.ml" 153 5923 5964 "gobject.ml" 153 5923 5967
+type(
+  int
+)
+ident(
+  int_ref pos "gobject.ml" 153 5923 5938 "gobject.ml" 153 5923 5941
+)
+"gobject.ml" 153 5923 5954 "gobject.ml" 153 5923 5968
+call(
+  stack
+)
+type(
+  g_value
+)
+"gobject.ml" 153 5923 5944 "gobject.ml" 153 5923 5968
+type(
+  data_get
+)
+"gobject.ml" 154 5969 5975 "gobject.ml" 154 5969 5985
+type(
+  argv -> 'a data_set -> unit
+)
+ident(
+  def set_result "gobject.ml" 155 6015 6017 "gobject.ml" 164 6367 6370
+)
+"gobject.ml" 154 5969 5986 "gobject.ml" 154 5969 5989
+type(
+  argv
+)
+ident(
+  def arg "gobject.ml" 154 5969 5992 "gobject.ml" 154 5969 6014
+)
+"gobject.ml" 154 5969 5992 "gobject.ml" 154 5969 6001
+type(
+  g_value -> 'a data_set -> unit
+)
+ident(
+  ext_ref Value.set
+)
+"gobject.ml" 154 5969 6003 "gobject.ml" 154 5969 6009
+type(
+  argv -> g_value
+)
+ident(
+  int_ref result "gobject.ml" 150 5779 5785 "gobject.ml" 150 5779 5791
+)
+"gobject.ml" 154 5969 6010 "gobject.ml" 154 5969 6013
+type(
+  argv
+)
+ident(
+  int_ref arg "gobject.ml" 154 5969 5986 "gobject.ml" 154 5969 5989
+)
+"gobject.ml" 154 5969 6002 "gobject.ml" 154 5969 6014
+call(
+  stack
+)
+type(
+  g_value
+)
+"gobject.ml" 154 5969 5992 "gobject.ml" 154 5969 6014
+call(
+  tail
+)
+type(
+  'a data_set -> unit
+)
+"gobject.ml" 155 6015 6021 "gobject.ml" 155 6015 6029
+type(
+  argv -> data_get list
+)
+ident(
+  def get_args "gobject.ml" 161 6181 6183 "gobject.ml" 164 6367 6370
+)
+"gobject.ml" 155 6015 6030 "gobject.ml" 155 6015 6033
+type(
+  argv
+)
+ident(
+  def arg "gobject.ml" 156 6036 6040 "gobject.ml" 159 6144 6179
+)
+"gobject.ml" 156 6036 6048 "gobject.ml" 156 6036 6052
+type(
+  data_get list -> pos:int -> data_get list
+)
+"gobject.ml" 156 6036 6053 "gobject.ml" 156 6036 6057
+type(
+  data_get list
+)
+ident(
+  def args "gobject.ml" 156 6036 6058 "gobject.ml" 158 6092 6143
+)
+"gobject.ml" 156 6036 6059 "gobject.ml" 156 6036 6062
+type(
+  int
+)
+ident(
+  def pos "gobject.ml" 157 6065 6071 "gobject.ml" 158 6092 6143
+)
+"gobject.ml" 157 6065 6074 "gobject.ml" 157 6065 6077
+type(
+  int
+)
+ident(
+  int_ref pos "gobject.ml" 156 6036 6059 "gobject.ml" 156 6036 6062
+)
+"gobject.ml" 157 6065 6078 "gobject.ml" 157 6065 6079
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"gobject.ml" 157 6065 6080 "gobject.ml" 157 6065 6081
+type(
+  int
+)
+"gobject.ml" 157 6065 6074 "gobject.ml" 157 6065 6081
+type(
+  bool
+)
+"gobject.ml" 157 6065 6087 "gobject.ml" 157 6065 6091
+type(
+  data_get list
+)
+ident(
+  int_ref args "gobject.ml" 156 6036 6053 "gobject.ml" 156 6036 6057
+)
+"gobject.ml" 158 6092 6103 "gobject.ml" 158 6092 6107
+type(
+  data_get list -> pos:int -> data_get list
+)
+ident(
+  int_ref loop "gobject.ml" 156 6036 6048 "gobject.ml" 156 6036 6052
+)
+"gobject.ml" 158 6092 6109 "gobject.ml" 158 6092 6112
+type(
+  argv -> pos:int -> data_get
+)
+ident(
+  int_ref get "gobject.ml" 153 5923 5929 "gobject.ml" 153 5923 5932
+)
+"gobject.ml" 158 6092 6113 "gobject.ml" 158 6092 6116
+type(
+  argv
+)
+ident(
+  int_ref arg "gobject.ml" 155 6015 6030 "gobject.ml" 155 6015 6033
+)
+"gobject.ml" 158 6092 6118 "gobject.ml" 158 6092 6121
+type(
+  int
+)
+ident(
+  int_ref pos "gobject.ml" 156 6036 6059 "gobject.ml" 156 6036 6062
+)
+"gobject.ml" 158 6092 6109 "gobject.ml" 158 6092 6121
+call(
+  stack
+)
+type(
+  data_get
+)
+"gobject.ml" 158 6092 6125 "gobject.ml" 158 6092 6129
+type(
+  data_get list
+)
+ident(
+  int_ref args "gobject.ml" 156 6036 6053 "gobject.ml" 156 6036 6057
+)
+"gobject.ml" 158 6092 6108 "gobject.ml" 158 6092 6130
+type(
+  data_get list
+)
+"gobject.ml" 158 6092 6137 "gobject.ml" 158 6092 6140
+type(
+  int
+)
+ident(
+  int_ref pos "gobject.ml" 156 6036 6059 "gobject.ml" 156 6036 6062
+)
+"gobject.ml" 158 6092 6140 "gobject.ml" 158 6092 6141
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gobject.ml" 158 6092 6141 "gobject.ml" 158 6092 6142
+type(
+  int
+)
+"gobject.ml" 158 6092 6136 "gobject.ml" 158 6092 6143
+type(
+  int
+)
+"gobject.ml" 158 6092 6103 "gobject.ml" 158 6092 6143
+call(
+  tail
+)
+type(
+  data_get list
+)
+"gobject.ml" 157 6065 6071 "gobject.ml" 158 6092 6143
+type(
+  data_get list
+)
+"gobject.ml" 159 6144 6151 "gobject.ml" 159 6144 6155
+type(
+  data_get list -> pos:int -> data_get list
+)
+ident(
+  int_ref loop "gobject.ml" 156 6036 6048 "gobject.ml" 156 6036 6052
+)
+"gobject.ml" 159 6144 6156 "gobject.ml" 159 6144 6158
+type(
+  data_get list
+)
+"gobject.ml" 159 6144 6165 "gobject.ml" 159 6144 6168
+type(
+  argv
+)
+ident(
+  int_ref arg "gobject.ml" 155 6015 6030 "gobject.ml" 155 6015 6033
+)
+"gobject.ml" 159 6144 6165 "gobject.ml" 159 6144 6174
+type(
+  int
+)
+"gobject.ml" 159 6144 6175 "gobject.ml" 159 6144 6176
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"gobject.ml" 159 6144 6177 "gobject.ml" 159 6144 6178
+type(
+  int
+)
+"gobject.ml" 159 6144 6164 "gobject.ml" 159 6144 6179
+type(
+  int
+)
+"gobject.ml" 159 6144 6151 "gobject.ml" 159 6144 6179
+call(
+  tail
+)
+type(
+  data_get list
+)
+"gobject.ml" 156 6036 6040 "gobject.ml" 159 6144 6179
+type(
+  data_get list
+)
+"gobject.ml" 161 6181 6187 "gobject.ml" 161 6181 6198
+type(
+  argv -> pos:int -> Gpointer.boxed
+)
+ident(
+  def get_pointer "gobject.ml" 162 6243 6245 "gobject.ml" 164 6367 6370
+)
+"gobject.ml" 161 6181 6199 "gobject.ml" 161 6181 6202
+type(
+  argv
+)
+ident(
+  def arg "gobject.ml" 161 6181 6203 "gobject.ml" 161 6181 6242
+)
+"gobject.ml" 161 6181 6204 "gobject.ml" 161 6181 6207
+type(
+  int
+)
+ident(
+  def pos "gobject.ml" 161 6181 6210 "gobject.ml" 161 6181 6242
+)
+"gobject.ml" 161 6181 6210 "gobject.ml" 161 6181 6227
+type(
+  g_value -> Gpointer.boxed
+)
+ident(
+  ext_ref Value.get_pointer
+)
+"gobject.ml" 161 6181 6229 "gobject.ml" 161 6181 6232
+type(
+  argv -> pos:int -> g_value
+)
+ident(
+  int_ref nth "gobject.ml" 147 5660 5666 "gobject.ml" 147 5660 5669
+)
+"gobject.ml" 161 6181 6233 "gobject.ml" 161 6181 6236
+type(
+  argv
+)
+ident(
+  int_ref arg "gobject.ml" 161 6181 6199 "gobject.ml" 161 6181 6202
+)
+"gobject.ml" 161 6181 6238 "gobject.ml" 161 6181 6241
+type(
+  int
+)
+ident(
+  int_ref pos "gobject.ml" 161 6181 6204 "gobject.ml" 161 6181 6207
+)
+"gobject.ml" 161 6181 6228 "gobject.ml" 161 6181 6242
+call(
+  stack
+)
+type(
+  g_value
+)
+"gobject.ml" 161 6181 6210 "gobject.ml" 161 6181 6242
+type(
+  Gpointer.boxed
+)
+"gobject.ml" 162 6243 6249 "gobject.ml" 162 6243 6262
+type(
+  argv -> pos:int -> nativeint
+)
+ident(
+  def get_nativeint "gobject.ml" 163 6309 6311 "gobject.ml" 164 6367 6370
+)
+"gobject.ml" 162 6243 6263 "gobject.ml" 162 6243 6266
+type(
+  argv
+)
+ident(
+  def arg "gobject.ml" 162 6243 6267 "gobject.ml" 162 6243 6308
+)
+"gobject.ml" 162 6243 6268 "gobject.ml" 162 6243 6271
+type(
+  int
+)
+ident(
+  def pos "gobject.ml" 162 6243 6274 "gobject.ml" 162 6243 6308
+)
+"gobject.ml" 162 6243 6274 "gobject.ml" 162 6243 6293
+type(
+  g_value -> nativeint
+)
+ident(
+  ext_ref Value.get_nativeint
+)
+"gobject.ml" 162 6243 6295 "gobject.ml" 162 6243 6298
+type(
+  argv -> pos:int -> g_value
+)
+ident(
+  int_ref nth "gobject.ml" 147 5660 5666 "gobject.ml" 147 5660 5669
+)
+"gobject.ml" 162 6243 6299 "gobject.ml" 162 6243 6302
+type(
+  argv
+)
+ident(
+  int_ref arg "gobject.ml" 162 6243 6263 "gobject.ml" 162 6243 6266
+)
+"gobject.ml" 162 6243 6304 "gobject.ml" 162 6243 6307
+type(
+  int
+)
+ident(
+  int_ref pos "gobject.ml" 162 6243 6268 "gobject.ml" 162 6243 6271
+)
+"gobject.ml" 162 6243 6294 "gobject.ml" 162 6243 6308
+call(
+  stack
+)
+type(
+  g_value
+)
+"gobject.ml" 162 6243 6274 "gobject.ml" 162 6243 6308
+type(
+  nativeint
+)
+"gobject.ml" 163 6309 6315 "gobject.ml" 163 6309 6324
+type(
+  argv -> pos:int -> int32
+)
+ident(
+  def get_int32 "gobject.ml" 163 6309 6366 "gobject.ml" 164 6367 6370
+)
+"gobject.ml" 163 6309 6325 "gobject.ml" 163 6309 6328
+type(
+  argv
+)
+ident(
+  def arg "gobject.ml" 163 6309 6329 "gobject.ml" 163 6309 6366
+)
+"gobject.ml" 163 6309 6330 "gobject.ml" 163 6309 6333
+type(
+  int
+)
+ident(
+  def pos "gobject.ml" 163 6309 6336 "gobject.ml" 163 6309 6366
+)
+"gobject.ml" 163 6309 6336 "gobject.ml" 163 6309 6351
+type(
+  g_value -> int32
+)
+ident(
+  ext_ref Value.get_int32
+)
+"gobject.ml" 163 6309 6353 "gobject.ml" 163 6309 6356
+type(
+  argv -> pos:int -> g_value
+)
+ident(
+  int_ref nth "gobject.ml" 147 5660 5666 "gobject.ml" 147 5660 5669
+)
+"gobject.ml" 163 6309 6357 "gobject.ml" 163 6309 6360
+type(
+  argv
+)
+ident(
+  int_ref arg "gobject.ml" 163 6309 6325 "gobject.ml" 163 6309 6328
+)
+"gobject.ml" 163 6309 6362 "gobject.ml" 163 6309 6365
+type(
+  int
+)
+ident(
+  int_ref pos "gobject.ml" 163 6309 6330 "gobject.ml" 163 6309 6333
+)
+"gobject.ml" 163 6309 6352 "gobject.ml" 163 6309 6366
+call(
+  stack
+)
+type(
+  g_value
+)
+"gobject.ml" 163 6309 6336 "gobject.ml" 163 6309 6366
+type(
+  int32
+)
+"gobject.ml" 166 6372 6376 "gobject.ml" 166 6372 6393
+type(
+  caller:string -> string -> g_type
+)
+ident(
+  def objtype_from_name "gobject.ml" 175 6658 6658 --
+)
+"gobject.ml" 166 6372 6395 "gobject.ml" 166 6372 6401
+type(
+  string
+)
+ident(
+  def caller "gobject.ml" 166 6372 6402 "gobject.ml" 173 6653 6656
+)
+"gobject.ml" 166 6372 6402 "gobject.ml" 166 6372 6406
+type(
+  string
+)
+ident(
+  def name "gobject.ml" 167 6409 6411 "gobject.ml" 173 6653 6656
+)
+"gobject.ml" 167 6409 6415 "gobject.ml" 167 6409 6416
+type(
+  g_type
+)
+"gobject.ml" 167 6409 6419 "gobject.ml" 167 6409 6434
+type(
+  string -> g_type
+)
+ident(
+  ext_ref Type._from_name
+)
+"gobject.ml" 167 6409 6435 "gobject.ml" 167 6409 6439
+type(
+  string
+)
+ident(
+  int_ref name "gobject.ml" 166 6372 6402 "gobject.ml" 166 6372 6406
+)
+"gobject.ml" 167 6409 6419 "gobject.ml" 167 6409 6439
+type(
+  g_type
+)
+"gobject.ml" 168 6443 6449 "gobject.ml" 168 6443 6450
+type(
+  fundamental_type
+)
+"gobject.ml" 168 6443 6453 "gobject.ml" 168 6443 6469
+type(
+  g_type -> fundamental_type
+)
+ident(
+  ext_ref Type.fundamental
+)
+"gobject.ml" 168 6443 6470 "gobject.ml" 168 6443 6471
+type(
+  g_type
+)
+ident(
+  int_ref t "gobject.ml" 167 6409 6415 "gobject.ml" 167 6409 6416
+)
+"gobject.ml" 168 6443 6453 "gobject.ml" 168 6443 6471
+type(
+  fundamental_type
+)
+"gobject.ml" 169 6475 6480 "gobject.ml" 169 6475 6481
+type(
+  fundamental_type
+)
+ident(
+  int_ref f "gobject.ml" 168 6443 6449 "gobject.ml" 168 6443 6450
+)
+"gobject.ml" 169 6475 6482 "gobject.ml" 169 6475 6483
+type(
+  fundamental_type -> fundamental_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gobject.ml" 169 6475 6484 "gobject.ml" 169 6475 6492
+type(
+  fundamental_type
+)
+"gobject.ml" 169 6475 6480 "gobject.ml" 169 6475 6492
+type(
+  bool
+)
+"gobject.ml" 170 6498 6502 "gobject.ml" 170 6498 6510
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 170 6498 6512 "gobject.ml" 170 6498 6518
+type(
+  string
+)
+ident(
+  int_ref caller "gobject.ml" 166 6372 6395 "gobject.ml" 166 6372 6401
+)
+"gobject.ml" 170 6498 6519 "gobject.ml" 170 6498 6520
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 170 6498 6521 "gobject.ml" 170 6498 6531
+type(
+  string
+)
+"gobject.ml" 170 6498 6532 "gobject.ml" 170 6498 6533
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 170 6498 6534 "gobject.ml" 170 6498 6538
+type(
+  string
+)
+ident(
+  int_ref name "gobject.ml" 166 6372 6402 "gobject.ml" 166 6372 6406
+)
+"gobject.ml" 170 6498 6539 "gobject.ml" 170 6498 6540
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 170 6498 6541 "gobject.ml" 170 6498 6562
+type(
+  string
+)
+"gobject.ml" 170 6498 6534 "gobject.ml" 170 6498 6562
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 170 6498 6521 "gobject.ml" 170 6498 6562
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 170 6498 6511 "gobject.ml" 170 6498 6563
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 170 6498 6502 "gobject.ml" 170 6498 6563
+call(
+  stack
+)
+type(
+  unit
+)
+"gobject.ml" 169 6475 6477 "gobject.ml" 170 6498 6563
+type(
+  unit
+)
+"gobject.ml" 171 6565 6570 "gobject.ml" 171 6565 6571
+type(
+  fundamental_type
+)
+ident(
+  int_ref f "gobject.ml" 168 6443 6449 "gobject.ml" 168 6443 6450
+)
+"gobject.ml" 171 6565 6572 "gobject.ml" 171 6565 6574
+type(
+  fundamental_type -> fundamental_type -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gobject.ml" 171 6565 6575 "gobject.ml" 171 6565 6582
+type(
+  fundamental_type
+)
+"gobject.ml" 171 6565 6570 "gobject.ml" 171 6565 6582
+type(
+  bool
+)
+"gobject.ml" 172 6588 6592 "gobject.ml" 172 6588 6600
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 172 6588 6602 "gobject.ml" 172 6588 6608
+type(
+  string
+)
+ident(
+  int_ref caller "gobject.ml" 166 6372 6395 "gobject.ml" 166 6372 6401
+)
+"gobject.ml" 172 6588 6609 "gobject.ml" 172 6588 6610
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 172 6588 6611 "gobject.ml" 172 6588 6616
+type(
+  string
+)
+"gobject.ml" 172 6588 6617 "gobject.ml" 172 6588 6618
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 172 6588 6619 "gobject.ml" 172 6588 6623
+type(
+  string
+)
+ident(
+  int_ref name "gobject.ml" 166 6372 6402 "gobject.ml" 166 6372 6406
+)
+"gobject.ml" 172 6588 6624 "gobject.ml" 172 6588 6625
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 172 6588 6626 "gobject.ml" 172 6588 6650
+type(
+  string
+)
+"gobject.ml" 172 6588 6619 "gobject.ml" 172 6588 6650
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 172 6588 6611 "gobject.ml" 172 6588 6650
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 172 6588 6601 "gobject.ml" 172 6588 6651
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 172 6588 6592 "gobject.ml" 172 6588 6651
+call(
+  stack
+)
+type(
+  unit
+)
+"gobject.ml" 171 6565 6567 "gobject.ml" 172 6588 6651
+type(
+  unit
+)
+"gobject.ml" 173 6653 6655 "gobject.ml" 173 6653 6656
+type(
+  g_type
+)
+ident(
+  int_ref t "gobject.ml" 167 6409 6415 "gobject.ml" 167 6409 6416
+)
+"gobject.ml" 171 6565 6567 "gobject.ml" 173 6653 6656
+type(
+  g_type
+)
+"gobject.ml" 169 6475 6477 "gobject.ml" 173 6653 6656
+type(
+  g_type
+)
+"gobject.ml" 168 6443 6445 "gobject.ml" 173 6653 6656
+type(
+  g_type
+)
+"gobject.ml" 167 6409 6411 "gobject.ml" 173 6653 6656
+type(
+  g_type
+)
+"gobject.ml" 177 6795 6799 "gobject.ml" 177 6795 6803
+type(
+  'a obj -> string -> bool
+)
+ident(
+  def is_a "gobject.ml" 180 6891 6891 --
+)
+"gobject.ml" 177 6795 6804 "gobject.ml" 177 6795 6807
+type(
+  'a obj
+)
+ident(
+  def obj "gobject.ml" 177 6795 6808 "gobject.ml" 178 6815 6889
+)
+"gobject.ml" 177 6795 6808 "gobject.ml" 177 6795 6812
+type(
+  string
+)
+ident(
+  def name "gobject.ml" 178 6815 6817 "gobject.ml" 178 6815 6889
+)
+"gobject.ml" 178 6815 6817 "gobject.ml" 178 6815 6826
+type(
+  g_type -> g_type -> bool
+)
+ident(
+  ext_ref Type.is_a
+)
+"gobject.ml" 178 6815 6828 "gobject.ml" 178 6815 6836
+type(
+  'a obj -> g_type
+)
+"gobject.ml" 178 6815 6837 "gobject.ml" 178 6815 6840
+type(
+  'a obj
+)
+ident(
+  int_ref obj "gobject.ml" 177 6795 6804 "gobject.ml" 177 6795 6807
+)
+"gobject.ml" 178 6815 6827 "gobject.ml" 178 6815 6841
+type(
+  g_type
+)
+"gobject.ml" 178 6815 6843 "gobject.ml" 178 6815 6860
+type(
+  caller:string -> string -> g_type
+)
+ident(
+  int_ref objtype_from_name "gobject.ml" 166 6372 6376 "gobject.ml" 166 6372 6393
+)
+"gobject.ml" 178 6815 6869 "gobject.ml" 178 6815 6883
+type(
+  string
+)
+"gobject.ml" 178 6815 6884 "gobject.ml" 178 6815 6888
+type(
+  string
+)
+ident(
+  int_ref name "gobject.ml" 177 6795 6808 "gobject.ml" 177 6795 6812
+)
+"gobject.ml" 178 6815 6842 "gobject.ml" 178 6815 6889
+call(
+  stack
+)
+type(
+  g_type
+)
+"gobject.ml" 178 6815 6817 "gobject.ml" 178 6815 6889
+type(
+  bool
+)
+"gobject.ml" 182 6986 6990 "gobject.ml" 182 6986 6998
+type(
+  'a obj -> string -> 'b obj
+)
+ident(
+  def try_cast "gobject.ml" 186 7101 7101 --
+)
+"gobject.ml" 182 6986 6999 "gobject.ml" 182 6986 7000
+type(
+  'a obj
+)
+ident(
+  def w "gobject.ml" 182 6986 7001 "gobject.ml" 184 7044 7099
+)
+"gobject.ml" 182 6986 7001 "gobject.ml" 182 6986 7005
+type(
+  string
+)
+ident(
+  def name "gobject.ml" 183 7008 7010 "gobject.ml" 184 7044 7099
+)
+"gobject.ml" 183 7008 7013 "gobject.ml" 183 7008 7017
+type(
+  'a obj -> string -> bool
+)
+ident(
+  int_ref is_a "gobject.ml" 177 6795 6799 "gobject.ml" 177 6795 6803
+)
+"gobject.ml" 183 7008 7018 "gobject.ml" 183 7008 7019
+type(
+  'a obj
+)
+ident(
+  int_ref w "gobject.ml" 182 6986 6999 "gobject.ml" 182 6986 7000
+)
+"gobject.ml" 183 7008 7020 "gobject.ml" 183 7008 7024
+type(
+  string
+)
+ident(
+  int_ref name "gobject.ml" 182 6986 7001 "gobject.ml" 182 6986 7005
+)
+"gobject.ml" 183 7008 7013 "gobject.ml" 183 7008 7024
+call(
+  stack
+)
+type(
+  bool
+)
+"gobject.ml" 183 7008 7030 "gobject.ml" 183 7008 7041
+type(
+  'a obj -> 'b obj
+)
+"gobject.ml" 183 7008 7042 "gobject.ml" 183 7008 7043
+type(
+  'a obj
+)
+ident(
+  int_ref w "gobject.ml" 182 6986 6999 "gobject.ml" 182 6986 7000
+)
+"gobject.ml" 183 7008 7030 "gobject.ml" 183 7008 7043
+type(
+  'b obj
+)
+"gobject.ml" 184 7044 7051 "gobject.ml" 184 7044 7056
+type(
+  exn -> 'b obj
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gobject.ml" 184 7044 7070 "gobject.ml" 184 7044 7079
+type(
+  g_type -> string
+)
+ident(
+  ext_ref Type.name
+)
+"gobject.ml" 184 7044 7080 "gobject.ml" 184 7044 7088
+type(
+  'a obj -> g_type
+)
+"gobject.ml" 184 7044 7089 "gobject.ml" 184 7044 7090
+type(
+  'a obj
+)
+ident(
+  int_ref w "gobject.ml" 182 6986 6999 "gobject.ml" 182 6986 7000
+)
+"gobject.ml" 184 7044 7079 "gobject.ml" 184 7044 7091
+type(
+  g_type
+)
+"gobject.ml" 184 7044 7070 "gobject.ml" 184 7044 7091
+type(
+  string
+)
+"gobject.ml" 184 7044 7093 "gobject.ml" 184 7044 7097
+type(
+  string
+)
+ident(
+  int_ref name "gobject.ml" 182 6986 7001 "gobject.ml" 182 6986 7005
+)
+"gobject.ml" 184 7044 7057 "gobject.ml" 184 7044 7099
+type(
+  exn
+)
+"gobject.ml" 184 7044 7051 "gobject.ml" 184 7044 7099
+type(
+  'b obj
+)
+"gobject.ml" 183 7008 7010 "gobject.ml" 184 7044 7099
+type(
+  'b obj
+)
+"gobject.ml" 199 7602 7606 "gobject.ml" 199 7602 7615
+type(
+  'a -> 'b data_set -> 'a * unit data_set
+)
+ident(
+  def dyn_param "gobject.ml" 201 7681 7681 --
+)
+"gobject.ml" 199 7602 7616 "gobject.ml" 199 7602 7620
+type(
+  'a
+)
+ident(
+  def prop "gobject.ml" 199 7602 7621 "gobject.ml" 200 7625 7680
+)
+"gobject.ml" 199 7602 7621 "gobject.ml" 199 7602 7622
+type(
+  'b data_set
+)
+ident(
+  def v "gobject.ml" 200 7625 7627 "gobject.ml" 200 7625 7680
+)
+"gobject.ml" 200 7625 7628 "gobject.ml" 200 7625 7632
+type(
+  'a
+)
+ident(
+  int_ref prop "gobject.ml" 199 7602 7616 "gobject.ml" 199 7602 7620
+)
+"gobject.ml" 200 7625 7635 "gobject.ml" 200 7625 7644
+type(
+  'b data_set -> unit data_set
+)
+ident(
+  ext_ref Obj.magic
+)
+"gobject.ml" 200 7625 7646 "gobject.ml" 200 7625 7647
+type(
+  'b data_set
+)
+type(
+  'b data_set
+)
+ident(
+  int_ref v "gobject.ml" 199 7602 7621 "gobject.ml" 199 7602 7622
+)
+"gobject.ml" 200 7625 7635 "gobject.ml" 200 7625 7662
+type(
+  unit data_set
+)
+type(
+  unit data_set
+)
+"gobject.ml" 200 7625 7627 "gobject.ml" 200 7625 7680
+type(
+  'a * unit data_set
+)
+"gobject.ml" 201 7681 7685 "gobject.ml" 201 7681 7690
+type(
+  ('a, 'b) property -> 'b -> 'a param
+)
+ident(
+  def param "gobject.ml" 204 7773 7773 --
+)
+"gobject.ml" 201 7681 7692 "gobject.ml" 201 7681 7696
+type(
+  ('a, 'b) property
+)
+ident(
+  def prop "gobject.ml" 201 7681 7717 "gobject.ml" 202 7732 7771
+)
+"gobject.ml" 201 7681 7717 "gobject.ml" 201 7681 7718
+type(
+  'b
+)
+ident(
+  def d "gobject.ml" 201 7681 7719 "gobject.ml" 202 7732 7771
+)
+"gobject.ml" 202 7732 7734 "gobject.ml" 202 7732 7743
+type(
+  string -> unit data_set -> 'a param
+)
+ident(
+  int_ref dyn_param "gobject.ml" 199 7602 7606 "gobject.ml" 199 7602 7615
+)
+"gobject.ml" 202 7732 7744 "gobject.ml" 202 7732 7748
+type(
+  ('a, 'b) property
+)
+ident(
+  int_ref prop "gobject.ml" 201 7681 7692 "gobject.ml" 201 7681 7696
+)
+"gobject.ml" 202 7732 7744 "gobject.ml" 202 7732 7753
+type(
+  string
+)
+"gobject.ml" 202 7732 7755 "gobject.ml" 202 7732 7759
+type(
+  ('a, 'b) property
+)
+ident(
+  int_ref prop "gobject.ml" 201 7681 7692 "gobject.ml" 201 7681 7696
+)
+"gobject.ml" 202 7732 7755 "gobject.ml" 202 7732 7764
+type(
+  'b data_conv
+)
+"gobject.ml" 202 7732 7755 "gobject.ml" 202 7732 7768
+type(
+  'b -> unit data_set
+)
+"gobject.ml" 202 7732 7769 "gobject.ml" 202 7732 7770
+type(
+  'b
+)
+ident(
+  int_ref d "gobject.ml" 201 7681 7717 "gobject.ml" 201 7681 7718
+)
+"gobject.ml" 202 7732 7754 "gobject.ml" 202 7732 7771
+call(
+  stack
+)
+type(
+  unit data_set
+)
+"gobject.ml" 202 7732 7734 "gobject.ml" 202 7732 7771
+call(
+  tail
+)
+type(
+  'a param
+)
+type(
+  'a param
+)
+"gobject.ml" 204 7773 7777 "gobject.ml" 204 7773 7790
+type(
+  classe:string -> (string * 'a data_set) list -> 'b obj
+)
+ident(
+  def unsafe_create "gobject.ml" 207 7881 7881 --
+)
+"gobject.ml" 204 7773 7792 "gobject.ml" 204 7773 7798
+type(
+  string
+)
+ident(
+  def classe "gobject.ml" 204 7773 7799 "gobject.ml" 205 7803 7879
+)
+"gobject.ml" 204 7773 7799 "gobject.ml" 204 7773 7800
+type(
+  (string * 'a data_set) list
+)
+ident(
+  def l "gobject.ml" 205 7803 7805 "gobject.ml" 205 7803 7879
+)
+"gobject.ml" 205 7803 7805 "gobject.ml" 205 7803 7818
+type(
+  g_type -> (string * 'a data_set) list -> 'b obj
+)
+"gobject.ml" 205 7803 7820 "gobject.ml" 205 7803 7837
+type(
+  caller:string -> string -> g_type
+)
+ident(
+  int_ref objtype_from_name "gobject.ml" 166 6372 6376 "gobject.ml" 166 6372 6393
+)
+"gobject.ml" 205 7803 7846 "gobject.ml" 205 7803 7869
+type(
+  string
+)
+"gobject.ml" 205 7803 7870 "gobject.ml" 205 7803 7876
+type(
+  string
+)
+ident(
+  int_ref classe "gobject.ml" 204 7773 7792 "gobject.ml" 204 7773 7798
+)
+"gobject.ml" 205 7803 7819 "gobject.ml" 205 7803 7877
+call(
+  stack
+)
+type(
+  g_type
+)
+"gobject.ml" 205 7803 7878 "gobject.ml" 205 7803 7879
+type(
+  (string * 'a data_set) list
+)
+ident(
+  int_ref l "gobject.ml" 204 7773 7799 "gobject.ml" 204 7773 7800
+)
+"gobject.ml" 205 7803 7805 "gobject.ml" 205 7803 7879
+type(
+  'b obj
+)
+"gobject.ml" 207 7881 7885 "gobject.ml" 207 7881 7892
+type(
+  'a obj -> int
+)
+ident(
+  def get_oid "gobject.ml" 209 7945 7945 --
+)
+"gobject.ml" 207 7881 7894 "gobject.ml" 207 7881 7897
+type(
+  'a obj
+)
+ident(
+  def obj "gobject.ml" 207 7881 7908 "gobject.ml" 207 7881 7943
+)
+"gobject.ml" 207 7881 7917 "gobject.ml" 207 7881 7920
+type(
+  '_b * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"gobject.ml" 207 7881 7922 "gobject.ml" 207 7881 7931
+type(
+  'a obj -> '_b * int
+)
+ident(
+  ext_ref Obj.magic
+)
+"gobject.ml" 207 7881 7932 "gobject.ml" 207 7881 7935
+type(
+  'a obj
+)
+ident(
+  int_ref obj "gobject.ml" 207 7881 7894 "gobject.ml" 207 7881 7897
+)
+"gobject.ml" 207 7881 7921 "gobject.ml" 207 7881 7936
+type(
+  '_b * int
+)
+"gobject.ml" 207 7881 7917 "gobject.ml" 207 7881 7936
+type(
+  int
+)
+"gobject.ml" 207 7881 7937 "gobject.ml" 207 7881 7940
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lor )
+)
+"gobject.ml" 207 7881 7941 "gobject.ml" 207 7881 7942
+type(
+  int
+)
+"gobject.ml" 207 7881 7916 "gobject.ml" 207 7881 7943
+type(
+  int
+)
+type(
+  int
+)
+"gobject.ml" 210 7966 7972 "gobject.ml" 210 7966 7979
+type(
+  bool data_conv
+)
+ident(
+  def boolean "gobject.ml" 214 8111 8113 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 211 7982 7995 "gobject.ml" 211 7982 8003
+type(
+  data_kind
+)
+"gobject.ml" 212 8005 8034 "gobject.ml" 212 8005 8035
+type(
+  bool
+)
+ident(
+  def b "gobject.ml" 212 8005 8039 "gobject.ml" 212 8005 8040
+)
+"gobject.ml" 212 8005 8028 "gobject.ml" 212 8005 8035
+type(
+  data_conv_get
+)
+"gobject.ml" 212 8005 8039 "gobject.ml" 212 8005 8040
+type(
+  bool
+)
+ident(
+  int_ref b "gobject.ml" 212 8005 8034 "gobject.ml" 212 8005 8035
+)
+"gobject.ml" 212 8005 8043 "gobject.ml" 212 8005 8044
+type(
+  data_conv_get
+)
+"gobject.ml" 212 8005 8048 "gobject.ml" 212 8005 8056
+type(
+  string -> bool
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 212 8005 8057 "gobject.ml" 212 8005 8075
+type(
+  string
+)
+"gobject.ml" 212 8005 8048 "gobject.ml" 212 8005 8075
+call(
+  tail
+)
+type(
+  bool
+)
+"gobject.ml" 212 8005 8018 "gobject.ml" 212 8005 8076
+type(
+  data_conv_get -> bool
+)
+"gobject.ml" 213 8078 8095 "gobject.ml" 213 8078 8096
+type(
+  bool
+)
+ident(
+  def b "gobject.ml" 213 8078 8100 "gobject.ml" 213 8078 8107
+)
+"gobject.ml" 213 8078 8106 "gobject.ml" 213 8078 8107
+type(
+  bool
+)
+ident(
+  int_ref b "gobject.ml" 213 8078 8095 "gobject.ml" 213 8078 8096
+)
+"gobject.ml" 213 8078 8100 "gobject.ml" 213 8078 8107
+type(
+  unit data_set
+)
+"gobject.ml" 213 8078 8090 "gobject.ml" 213 8078 8108
+type(
+  bool -> unit data_set
+)
+"gobject.ml" 211 7982 7986 "gobject.ml" 213 8078 8110
+type(
+  bool data_conv
+)
+"gobject.ml" 214 8111 8117 "gobject.ml" 214 8111 8121
+type(
+  char data_conv
+)
+ident(
+  def char "gobject.ml" 218 8250 8252 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 215 8124 8137 "gobject.ml" 215 8124 8142
+type(
+  data_kind
+)
+"gobject.ml" 216 8144 8173 "gobject.ml" 216 8144 8174
+type(
+  char
+)
+ident(
+  def c "gobject.ml" 216 8144 8178 "gobject.ml" 216 8144 8179
+)
+"gobject.ml" 216 8144 8167 "gobject.ml" 216 8144 8174
+type(
+  data_conv_get
+)
+"gobject.ml" 216 8144 8178 "gobject.ml" 216 8144 8179
+type(
+  char
+)
+ident(
+  int_ref c "gobject.ml" 216 8144 8173 "gobject.ml" 216 8144 8174
+)
+"gobject.ml" 216 8144 8182 "gobject.ml" 216 8144 8183
+type(
+  data_conv_get
+)
+"gobject.ml" 216 8144 8187 "gobject.ml" 216 8144 8195
+type(
+  string -> char
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 216 8144 8196 "gobject.ml" 216 8144 8214
+type(
+  string
+)
+"gobject.ml" 216 8144 8187 "gobject.ml" 216 8144 8214
+call(
+  tail
+)
+type(
+  char
+)
+"gobject.ml" 216 8144 8157 "gobject.ml" 216 8144 8215
+type(
+  data_conv_get -> char
+)
+"gobject.ml" 217 8217 8234 "gobject.ml" 217 8217 8235
+type(
+  char
+)
+ident(
+  def c "gobject.ml" 217 8217 8239 "gobject.ml" 217 8217 8246
+)
+"gobject.ml" 217 8217 8245 "gobject.ml" 217 8217 8246
+type(
+  char
+)
+ident(
+  int_ref c "gobject.ml" 217 8217 8234 "gobject.ml" 217 8217 8235
+)
+"gobject.ml" 217 8217 8239 "gobject.ml" 217 8217 8246
+type(
+  unit data_set
+)
+"gobject.ml" 217 8217 8229 "gobject.ml" 217 8217 8247
+type(
+  char -> unit data_set
+)
+"gobject.ml" 215 8124 8128 "gobject.ml" 217 8217 8249
+type(
+  char data_conv
+)
+"gobject.ml" 218 8250 8256 "gobject.ml" 218 8250 8261
+type(
+  char data_conv
+)
+ident(
+  def uchar "gobject.ml" 219 8290 8292 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 218 8250 8265 "gobject.ml" 218 8250 8269
+type(
+  char data_conv
+)
+ident(
+  int_ref char "gobject.ml" 214 8111 8117 "gobject.ml" 214 8111 8121
+)
+"gobject.ml" 218 8250 8282 "gobject.ml" 218 8250 8288
+type(
+  data_kind
+)
+"gobject.ml" 218 8250 8264 "gobject.ml" 218 8250 8289
+type(
+  char data_conv
+)
+"gobject.ml" 219 8290 8296 "gobject.ml" 219 8290 8299
+type(
+  int data_conv
+)
+ident(
+  def int "gobject.ml" 223 8424 8426 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 220 8302 8315 "gobject.ml" 220 8302 8319
+type(
+  data_kind
+)
+"gobject.ml" 221 8321 8349 "gobject.ml" 221 8321 8350
+type(
+  int
+)
+ident(
+  def c "gobject.ml" 221 8321 8354 "gobject.ml" 221 8321 8355
+)
+"gobject.ml" 221 8321 8344 "gobject.ml" 221 8321 8350
+type(
+  data_conv_get
+)
+"gobject.ml" 221 8321 8354 "gobject.ml" 221 8321 8355
+type(
+  int
+)
+ident(
+  int_ref c "gobject.ml" 221 8321 8349 "gobject.ml" 221 8321 8350
+)
+"gobject.ml" 221 8321 8358 "gobject.ml" 221 8321 8359
+type(
+  data_conv_get
+)
+"gobject.ml" 221 8321 8363 "gobject.ml" 221 8321 8371
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 221 8321 8372 "gobject.ml" 221 8321 8389
+type(
+  string
+)
+"gobject.ml" 221 8321 8363 "gobject.ml" 221 8321 8389
+call(
+  tail
+)
+type(
+  int
+)
+"gobject.ml" 221 8321 8334 "gobject.ml" 221 8321 8390
+type(
+  data_conv_get -> int
+)
+"gobject.ml" 222 8392 8409 "gobject.ml" 222 8392 8410
+type(
+  int
+)
+ident(
+  def c "gobject.ml" 222 8392 8414 "gobject.ml" 222 8392 8420
+)
+"gobject.ml" 222 8392 8419 "gobject.ml" 222 8392 8420
+type(
+  int
+)
+ident(
+  int_ref c "gobject.ml" 222 8392 8409 "gobject.ml" 222 8392 8410
+)
+"gobject.ml" 222 8392 8414 "gobject.ml" 222 8392 8420
+type(
+  unit data_set
+)
+"gobject.ml" 222 8392 8404 "gobject.ml" 222 8392 8421
+type(
+  int -> unit data_set
+)
+"gobject.ml" 220 8302 8306 "gobject.ml" 222 8392 8423
+type(
+  int data_conv
+)
+"gobject.ml" 223 8424 8430 "gobject.ml" 223 8424 8434
+type(
+  int data_conv
+)
+ident(
+  def uint "gobject.ml" 224 8461 8463 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 223 8424 8438 "gobject.ml" 223 8424 8441
+type(
+  int data_conv
+)
+ident(
+  int_ref int "gobject.ml" 219 8290 8296 "gobject.ml" 219 8290 8299
+)
+"gobject.ml" 223 8424 8454 "gobject.ml" 223 8424 8459
+type(
+  data_kind
+)
+"gobject.ml" 223 8424 8437 "gobject.ml" 223 8424 8460
+type(
+  int data_conv
+)
+"gobject.ml" 224 8461 8467 "gobject.ml" 224 8461 8471
+type(
+  int data_conv
+)
+ident(
+  def long "gobject.ml" 225 8498 8500 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 224 8461 8475 "gobject.ml" 224 8461 8478
+type(
+  int data_conv
+)
+ident(
+  int_ref int "gobject.ml" 219 8290 8296 "gobject.ml" 219 8290 8299
+)
+"gobject.ml" 224 8461 8491 "gobject.ml" 224 8461 8496
+type(
+  data_kind
+)
+"gobject.ml" 224 8461 8474 "gobject.ml" 224 8461 8497
+type(
+  int data_conv
+)
+"gobject.ml" 225 8498 8504 "gobject.ml" 225 8498 8509
+type(
+  int data_conv
+)
+ident(
+  def ulong "gobject.ml" 226 8537 8539 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 225 8498 8513 "gobject.ml" 225 8498 8516
+type(
+  int data_conv
+)
+ident(
+  int_ref int "gobject.ml" 219 8290 8296 "gobject.ml" 219 8290 8299
+)
+"gobject.ml" 225 8498 8529 "gobject.ml" 225 8498 8535
+type(
+  data_kind
+)
+"gobject.ml" 225 8498 8512 "gobject.ml" 225 8498 8536
+type(
+  int data_conv
+)
+"gobject.ml" 226 8537 8543 "gobject.ml" 226 8537 8548
+type(
+  int32 data_conv
+)
+ident(
+  def int32 "gobject.ml" 230 8681 8683 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 227 8551 8564 "gobject.ml" 227 8551 8570
+type(
+  data_kind
+)
+"gobject.ml" 228 8572 8602 "gobject.ml" 228 8572 8603
+type(
+  int32
+)
+ident(
+  def c "gobject.ml" 228 8572 8607 "gobject.ml" 228 8572 8608
+)
+"gobject.ml" 228 8572 8595 "gobject.ml" 228 8572 8603
+type(
+  data_conv_get
+)
+"gobject.ml" 228 8572 8607 "gobject.ml" 228 8572 8608
+type(
+  int32
+)
+ident(
+  int_ref c "gobject.ml" 228 8572 8602 "gobject.ml" 228 8572 8603
+)
+"gobject.ml" 228 8572 8611 "gobject.ml" 228 8572 8612
+type(
+  data_conv_get
+)
+"gobject.ml" 228 8572 8616 "gobject.ml" 228 8572 8624
+type(
+  string -> int32
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 228 8572 8625 "gobject.ml" 228 8572 8644
+type(
+  string
+)
+"gobject.ml" 228 8572 8616 "gobject.ml" 228 8572 8644
+call(
+  tail
+)
+type(
+  int32
+)
+"gobject.ml" 228 8572 8585 "gobject.ml" 228 8572 8645
+type(
+  data_conv_get -> int32
+)
+"gobject.ml" 229 8647 8664 "gobject.ml" 229 8647 8665
+type(
+  int32
+)
+ident(
+  def c "gobject.ml" 229 8647 8669 "gobject.ml" 229 8647 8677
+)
+"gobject.ml" 229 8647 8676 "gobject.ml" 229 8647 8677
+type(
+  int32
+)
+ident(
+  int_ref c "gobject.ml" 229 8647 8664 "gobject.ml" 229 8647 8665
+)
+"gobject.ml" 229 8647 8669 "gobject.ml" 229 8647 8677
+type(
+  unit data_set
+)
+"gobject.ml" 229 8647 8659 "gobject.ml" 229 8647 8678
+type(
+  int32 -> unit data_set
+)
+"gobject.ml" 227 8551 8555 "gobject.ml" 229 8647 8680
+type(
+  int32 data_conv
+)
+"gobject.ml" 230 8681 8687 "gobject.ml" 230 8681 8693
+type(
+  int32 data_conv
+)
+ident(
+  def uint32 "gobject.ml" 231 8724 8726 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 230 8681 8697 "gobject.ml" 230 8681 8702
+type(
+  int32 data_conv
+)
+ident(
+  int_ref int32 "gobject.ml" 226 8537 8543 "gobject.ml" 226 8537 8548
+)
+"gobject.ml" 230 8681 8715 "gobject.ml" 230 8681 8722
+type(
+  data_kind
+)
+"gobject.ml" 230 8681 8696 "gobject.ml" 230 8681 8723
+type(
+  int32 data_conv
+)
+"gobject.ml" 231 8724 8730 "gobject.ml" 231 8724 8735
+type(
+  ([>  ] as 'a) Gpointer.variant_table -> 'a list data_conv
+)
+ident(
+  def flags "gobject.ml" 236 8935 8937 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 231 8724 8736 "gobject.ml" 231 8724 8739
+type(
+  'a Gpointer.variant_table
+)
+ident(
+  def tbl "gobject.ml" 232 8742 8746 "gobject.ml" 235 8875 8934
+)
+"gobject.ml" 232 8742 8755 "gobject.ml" 232 8742 8761
+type(
+  data_kind
+)
+"gobject.ml" 233 8763 8791 "gobject.ml" 233 8763 8792
+type(
+  int
+)
+ident(
+  def c "gobject.ml" 233 8763 8796 "gobject.ml" 233 8763 8823
+)
+"gobject.ml" 233 8763 8786 "gobject.ml" 233 8763 8792
+type(
+  data_conv_get
+)
+"gobject.ml" 233 8763 8796 "gobject.ml" 233 8763 8817
+type(
+  'a Gpointer.variant_table -> int -> 'a list
+)
+ident(
+  ext_ref Gpointer.decode_flags
+)
+"gobject.ml" 233 8763 8818 "gobject.ml" 233 8763 8821
+type(
+  'a Gpointer.variant_table
+)
+ident(
+  int_ref tbl "gobject.ml" 231 8724 8736 "gobject.ml" 231 8724 8739
+)
+"gobject.ml" 233 8763 8822 "gobject.ml" 233 8763 8823
+type(
+  int
+)
+ident(
+  int_ref c "gobject.ml" 233 8763 8791 "gobject.ml" 233 8763 8792
+)
+"gobject.ml" 233 8763 8796 "gobject.ml" 233 8763 8823
+call(
+  tail
+)
+type(
+  'a list
+)
+"gobject.ml" 234 8824 8839 "gobject.ml" 234 8824 8840
+type(
+  data_conv_get
+)
+"gobject.ml" 234 8824 8844 "gobject.ml" 234 8824 8852
+type(
+  string -> 'a list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 234 8824 8853 "gobject.ml" 234 8824 8872
+type(
+  string
+)
+"gobject.ml" 234 8824 8844 "gobject.ml" 234 8824 8872
+call(
+  tail
+)
+type(
+  'a list
+)
+"gobject.ml" 233 8763 8776 "gobject.ml" 234 8824 8873
+type(
+  data_conv_get -> 'a list
+)
+"gobject.ml" 235 8875 8892 "gobject.ml" 235 8875 8893
+type(
+  'a list
+)
+ident(
+  def c "gobject.ml" 235 8875 8897 "gobject.ml" 235 8875 8931
+)
+"gobject.ml" 235 8875 8903 "gobject.ml" 235 8875 8924
+type(
+  'a Gpointer.variant_table -> 'a list -> int
+)
+ident(
+  ext_ref Gpointer.encode_flags
+)
+"gobject.ml" 235 8875 8925 "gobject.ml" 235 8875 8928
+type(
+  'a Gpointer.variant_table
+)
+ident(
+  int_ref tbl "gobject.ml" 231 8724 8736 "gobject.ml" 231 8724 8739
+)
+"gobject.ml" 235 8875 8929 "gobject.ml" 235 8875 8930
+type(
+  'a list
+)
+ident(
+  int_ref c "gobject.ml" 235 8875 8892 "gobject.ml" 235 8875 8893
+)
+"gobject.ml" 235 8875 8902 "gobject.ml" 235 8875 8931
+call(
+  stack
+)
+type(
+  int
+)
+"gobject.ml" 235 8875 8897 "gobject.ml" 235 8875 8931
+type(
+  unit data_set
+)
+"gobject.ml" 235 8875 8887 "gobject.ml" 235 8875 8932
+type(
+  'a list -> unit data_set
+)
+"gobject.ml" 232 8742 8746 "gobject.ml" 235 8875 8934
+type(
+  'a list data_conv
+)
+"gobject.ml" 236 8935 8941 "gobject.ml" 236 8935 8945
+type(
+  ([>  ] as 'b) Gpointer.variant_table -> 'b data_conv
+)
+ident(
+  def enum "gobject.ml" 241 9147 9149 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 236 8935 8946 "gobject.ml" 236 8935 8949
+type(
+  'b Gpointer.variant_table
+)
+ident(
+  def tbl "gobject.ml" 237 8952 8956 "gobject.ml" 240 9085 9146
+)
+"gobject.ml" 237 8952 8965 "gobject.ml" 237 8952 8970
+type(
+  data_kind
+)
+"gobject.ml" 238 8972 9000 "gobject.ml" 238 8972 9001
+type(
+  int
+)
+ident(
+  def c "gobject.ml" 238 8972 9005 "gobject.ml" 238 8972 9034
+)
+"gobject.ml" 238 8972 8995 "gobject.ml" 238 8972 9001
+type(
+  data_conv_get
+)
+"gobject.ml" 238 8972 9005 "gobject.ml" 238 8972 9028
+type(
+  'b Gpointer.variant_table -> int -> 'b
+)
+ident(
+  ext_ref Gpointer.decode_variant
+)
+"gobject.ml" 238 8972 9029 "gobject.ml" 238 8972 9032
+type(
+  'b Gpointer.variant_table
+)
+ident(
+  int_ref tbl "gobject.ml" 236 8935 8946 "gobject.ml" 236 8935 8949
+)
+"gobject.ml" 238 8972 9033 "gobject.ml" 238 8972 9034
+type(
+  int
+)
+ident(
+  int_ref c "gobject.ml" 238 8972 9000 "gobject.ml" 238 8972 9001
+)
+"gobject.ml" 238 8972 9005 "gobject.ml" 238 8972 9034
+call(
+  tail
+)
+type(
+  'b
+)
+"gobject.ml" 239 9035 9050 "gobject.ml" 239 9035 9051
+type(
+  data_conv_get
+)
+"gobject.ml" 239 9035 9055 "gobject.ml" 239 9035 9063
+type(
+  string -> 'b
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 239 9035 9064 "gobject.ml" 239 9035 9082
+type(
+  string
+)
+"gobject.ml" 239 9035 9055 "gobject.ml" 239 9035 9082
+call(
+  tail
+)
+type(
+  'b
+)
+"gobject.ml" 238 8972 8985 "gobject.ml" 239 9035 9083
+type(
+  data_conv_get -> 'b
+)
+"gobject.ml" 240 9085 9102 "gobject.ml" 240 9085 9103
+type(
+  'b
+)
+ident(
+  def c "gobject.ml" 240 9085 9107 "gobject.ml" 240 9085 9143
+)
+"gobject.ml" 240 9085 9113 "gobject.ml" 240 9085 9136
+type(
+  'b Gpointer.variant_table -> 'b -> int
+)
+ident(
+  ext_ref Gpointer.encode_variant
+)
+"gobject.ml" 240 9085 9137 "gobject.ml" 240 9085 9140
+type(
+  'b Gpointer.variant_table
+)
+ident(
+  int_ref tbl "gobject.ml" 236 8935 8946 "gobject.ml" 236 8935 8949
+)
+"gobject.ml" 240 9085 9141 "gobject.ml" 240 9085 9142
+type(
+  'b
+)
+ident(
+  int_ref c "gobject.ml" 240 9085 9102 "gobject.ml" 240 9085 9103
+)
+"gobject.ml" 240 9085 9112 "gobject.ml" 240 9085 9143
+call(
+  stack
+)
+type(
+  int
+)
+"gobject.ml" 240 9085 9107 "gobject.ml" 240 9085 9143
+type(
+  unit data_set
+)
+"gobject.ml" 240 9085 9097 "gobject.ml" 240 9085 9144
+type(
+  'b -> unit data_set
+)
+"gobject.ml" 237 8952 8956 "gobject.ml" 240 9085 9146
+type(
+  'b data_conv
+)
+"gobject.ml" 241 9147 9153 "gobject.ml" 241 9147 9158
+type(
+  int64 data_conv
+)
+ident(
+  def int64 "gobject.ml" 245 9291 9293 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 242 9161 9174 "gobject.ml" 242 9161 9180
+type(
+  data_kind
+)
+"gobject.ml" 243 9182 9212 "gobject.ml" 243 9182 9213
+type(
+  int64
+)
+ident(
+  def c "gobject.ml" 243 9182 9217 "gobject.ml" 243 9182 9218
+)
+"gobject.ml" 243 9182 9205 "gobject.ml" 243 9182 9213
+type(
+  data_conv_get
+)
+"gobject.ml" 243 9182 9217 "gobject.ml" 243 9182 9218
+type(
+  int64
+)
+ident(
+  int_ref c "gobject.ml" 243 9182 9212 "gobject.ml" 243 9182 9213
+)
+"gobject.ml" 243 9182 9221 "gobject.ml" 243 9182 9222
+type(
+  data_conv_get
+)
+"gobject.ml" 243 9182 9226 "gobject.ml" 243 9182 9234
+type(
+  string -> int64
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 243 9182 9235 "gobject.ml" 243 9182 9254
+type(
+  string
+)
+"gobject.ml" 243 9182 9226 "gobject.ml" 243 9182 9254
+call(
+  tail
+)
+type(
+  int64
+)
+"gobject.ml" 243 9182 9195 "gobject.ml" 243 9182 9255
+type(
+  data_conv_get -> int64
+)
+"gobject.ml" 244 9257 9274 "gobject.ml" 244 9257 9275
+type(
+  int64
+)
+ident(
+  def c "gobject.ml" 244 9257 9279 "gobject.ml" 244 9257 9287
+)
+"gobject.ml" 244 9257 9286 "gobject.ml" 244 9257 9287
+type(
+  int64
+)
+ident(
+  int_ref c "gobject.ml" 244 9257 9274 "gobject.ml" 244 9257 9275
+)
+"gobject.ml" 244 9257 9279 "gobject.ml" 244 9257 9287
+type(
+  unit data_set
+)
+"gobject.ml" 244 9257 9269 "gobject.ml" 244 9257 9288
+type(
+  int64 -> unit data_set
+)
+"gobject.ml" 242 9161 9165 "gobject.ml" 244 9257 9290
+type(
+  int64 data_conv
+)
+"gobject.ml" 245 9291 9297 "gobject.ml" 245 9291 9303
+type(
+  int64 data_conv
+)
+ident(
+  def uint64 "gobject.ml" 246 9334 9336 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 245 9291 9307 "gobject.ml" 245 9291 9312
+type(
+  int64 data_conv
+)
+ident(
+  int_ref int64 "gobject.ml" 241 9147 9153 "gobject.ml" 241 9147 9158
+)
+"gobject.ml" 245 9291 9325 "gobject.ml" 245 9291 9332
+type(
+  data_kind
+)
+"gobject.ml" 245 9291 9306 "gobject.ml" 245 9291 9333
+type(
+  int64 data_conv
+)
+"gobject.ml" 246 9334 9340 "gobject.ml" 246 9334 9345
+type(
+  float data_conv
+)
+ident(
+  def float "gobject.ml" 250 9478 9480 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 247 9348 9361 "gobject.ml" 247 9348 9367
+type(
+  data_kind
+)
+"gobject.ml" 248 9369 9399 "gobject.ml" 248 9369 9400
+type(
+  float
+)
+ident(
+  def c "gobject.ml" 248 9369 9404 "gobject.ml" 248 9369 9405
+)
+"gobject.ml" 248 9369 9392 "gobject.ml" 248 9369 9400
+type(
+  data_conv_get
+)
+"gobject.ml" 248 9369 9404 "gobject.ml" 248 9369 9405
+type(
+  float
+)
+ident(
+  int_ref c "gobject.ml" 248 9369 9399 "gobject.ml" 248 9369 9400
+)
+"gobject.ml" 248 9369 9408 "gobject.ml" 248 9369 9409
+type(
+  data_conv_get
+)
+"gobject.ml" 248 9369 9413 "gobject.ml" 248 9369 9421
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 248 9369 9422 "gobject.ml" 248 9369 9441
+type(
+  string
+)
+"gobject.ml" 248 9369 9413 "gobject.ml" 248 9369 9441
+call(
+  tail
+)
+type(
+  float
+)
+"gobject.ml" 248 9369 9382 "gobject.ml" 248 9369 9442
+type(
+  data_conv_get -> float
+)
+"gobject.ml" 249 9444 9461 "gobject.ml" 249 9444 9462
+type(
+  float
+)
+ident(
+  def c "gobject.ml" 249 9444 9466 "gobject.ml" 249 9444 9474
+)
+"gobject.ml" 249 9444 9473 "gobject.ml" 249 9444 9474
+type(
+  float
+)
+ident(
+  int_ref c "gobject.ml" 249 9444 9461 "gobject.ml" 249 9444 9462
+)
+"gobject.ml" 249 9444 9466 "gobject.ml" 249 9444 9474
+type(
+  unit data_set
+)
+"gobject.ml" 249 9444 9456 "gobject.ml" 249 9444 9475
+type(
+  float -> unit data_set
+)
+"gobject.ml" 247 9348 9352 "gobject.ml" 249 9444 9477
+type(
+  float data_conv
+)
+"gobject.ml" 250 9478 9484 "gobject.ml" 250 9478 9490
+type(
+  float data_conv
+)
+ident(
+  def double "gobject.ml" 251 9521 9523 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 250 9478 9494 "gobject.ml" 250 9478 9499
+type(
+  float data_conv
+)
+ident(
+  int_ref float "gobject.ml" 246 9334 9340 "gobject.ml" 246 9334 9345
+)
+"gobject.ml" 250 9478 9512 "gobject.ml" 250 9478 9519
+type(
+  data_kind
+)
+"gobject.ml" 250 9478 9493 "gobject.ml" 250 9478 9520
+type(
+  float data_conv
+)
+"gobject.ml" 251 9521 9527 "gobject.ml" 251 9521 9533
+type(
+  string data_conv
+)
+ident(
+  def string "gobject.ml" 256 9718 9720 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 252 9536 9549 "gobject.ml" 252 9536 9556
+type(
+  data_kind
+)
+"gobject.ml" 253 9558 9595 "gobject.ml" 253 9558 9596
+type(
+  string
+)
+ident(
+  def s "gobject.ml" 253 9558 9601 "gobject.ml" 253 9558 9602
+)
+"gobject.ml" 253 9558 9589 "gobject.ml" 253 9558 9597
+type(
+  string option
+)
+"gobject.ml" 253 9558 9581 "gobject.ml" 253 9558 9597
+type(
+  data_conv_get
+)
+"gobject.ml" 253 9558 9601 "gobject.ml" 253 9558 9602
+type(
+  string
+)
+ident(
+  int_ref s "gobject.ml" 253 9558 9595 "gobject.ml" 253 9558 9596
+)
+"gobject.ml" 253 9558 9613 "gobject.ml" 253 9558 9617
+type(
+  string option
+)
+"gobject.ml" 253 9558 9605 "gobject.ml" 253 9558 9617
+type(
+  data_conv_get
+)
+"gobject.ml" 253 9558 9621 "gobject.ml" 253 9558 9623
+type(
+  string
+)
+"gobject.ml" 254 9624 9639 "gobject.ml" 254 9624 9640
+type(
+  data_conv_get
+)
+"gobject.ml" 254 9624 9644 "gobject.ml" 254 9624 9652
+type(
+  string -> string
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 254 9624 9653 "gobject.ml" 254 9624 9673
+type(
+  string
+)
+"gobject.ml" 254 9624 9644 "gobject.ml" 254 9624 9673
+call(
+  tail
+)
+type(
+  string
+)
+"gobject.ml" 253 9558 9571 "gobject.ml" 254 9624 9674
+type(
+  data_conv_get -> string
+)
+"gobject.ml" 255 9676 9693 "gobject.ml" 255 9676 9694
+type(
+  string
+)
+ident(
+  def s "gobject.ml" 255 9676 9698 "gobject.ml" 255 9676 9714
+)
+"gobject.ml" 255 9676 9712 "gobject.ml" 255 9676 9713
+type(
+  string
+)
+ident(
+  int_ref s "gobject.ml" 255 9676 9693 "gobject.ml" 255 9676 9694
+)
+"gobject.ml" 255 9676 9706 "gobject.ml" 255 9676 9714
+type(
+  string option
+)
+"gobject.ml" 255 9676 9698 "gobject.ml" 255 9676 9714
+type(
+  unit data_set
+)
+"gobject.ml" 255 9676 9688 "gobject.ml" 255 9676 9715
+type(
+  string -> unit data_set
+)
+"gobject.ml" 252 9536 9540 "gobject.ml" 255 9676 9717
+type(
+  string data_conv
+)
+"gobject.ml" 256 9718 9724 "gobject.ml" 256 9718 9737
+type(
+  string option data_conv
+)
+ident(
+  def string_option "gobject.ml" 261 9894 9896 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 257 9740 9753 "gobject.ml" 257 9740 9760
+type(
+  data_kind
+)
+"gobject.ml" 258 9762 9793 "gobject.ml" 258 9762 9794
+type(
+  string option
+)
+ident(
+  def s "gobject.ml" 258 9762 9798 "gobject.ml" 258 9762 9799
+)
+"gobject.ml" 258 9762 9785 "gobject.ml" 258 9762 9794
+type(
+  data_conv_get
+)
+"gobject.ml" 258 9762 9798 "gobject.ml" 258 9762 9799
+type(
+  string option
+)
+ident(
+  int_ref s "gobject.ml" 258 9762 9793 "gobject.ml" 258 9762 9794
+)
+"gobject.ml" 259 9800 9815 "gobject.ml" 259 9800 9816
+type(
+  data_conv_get
+)
+"gobject.ml" 259 9800 9820 "gobject.ml" 259 9800 9828
+type(
+  string -> string option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 259 9800 9829 "gobject.ml" 259 9800 9856
+type(
+  string
+)
+"gobject.ml" 259 9800 9820 "gobject.ml" 259 9800 9856
+call(
+  tail
+)
+type(
+  string option
+)
+"gobject.ml" 258 9762 9775 "gobject.ml" 259 9800 9857
+type(
+  data_conv_get -> string option
+)
+"gobject.ml" 260 9859 9876 "gobject.ml" 260 9859 9877
+type(
+  string option
+)
+ident(
+  def s "gobject.ml" 260 9859 9881 "gobject.ml" 260 9859 9890
+)
+"gobject.ml" 260 9859 9889 "gobject.ml" 260 9859 9890
+type(
+  string option
+)
+ident(
+  int_ref s "gobject.ml" 260 9859 9876 "gobject.ml" 260 9859 9877
+)
+"gobject.ml" 260 9859 9881 "gobject.ml" 260 9859 9890
+type(
+  unit data_set
+)
+"gobject.ml" 260 9859 9871 "gobject.ml" 260 9859 9891
+type(
+  string option -> unit data_set
+)
+"gobject.ml" 257 9740 9744 "gobject.ml" 260 9859 9893
+type(
+  string option data_conv
+)
+"gobject.ml" 261 9894 9900 "gobject.ml" 261 9894 9907
+type(
+  Gpointer.boxed option data_conv
+)
+ident(
+  def pointer "gobject.ml" 265 10048 10050 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 262 9910 9923 "gobject.ml" 262 9910 9931
+type(
+  data_kind
+)
+"gobject.ml" 263 9933 9965 "gobject.ml" 263 9933 9966
+type(
+  Gpointer.boxed option
+)
+ident(
+  def c "gobject.ml" 263 9933 9970 "gobject.ml" 263 9933 9971
+)
+"gobject.ml" 263 9933 9956 "gobject.ml" 263 9933 9966
+type(
+  data_conv_get
+)
+"gobject.ml" 263 9933 9970 "gobject.ml" 263 9933 9971
+type(
+  Gpointer.boxed option
+)
+ident(
+  int_ref c "gobject.ml" 263 9933 9965 "gobject.ml" 263 9933 9966
+)
+"gobject.ml" 263 9933 9974 "gobject.ml" 263 9933 9975
+type(
+  data_conv_get
+)
+"gobject.ml" 263 9933 9979 "gobject.ml" 263 9933 9987
+type(
+  string -> Gpointer.boxed option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 263 9933 9988 "gobject.ml" 263 9933 10009
+type(
+  string
+)
+"gobject.ml" 263 9933 9979 "gobject.ml" 263 9933 10009
+call(
+  tail
+)
+type(
+  Gpointer.boxed option
+)
+"gobject.ml" 263 9933 9946 "gobject.ml" 263 9933 10010
+type(
+  data_conv_get -> Gpointer.boxed option
+)
+"gobject.ml" 264 10012 10029 "gobject.ml" 264 10012 10030
+type(
+  Gpointer.boxed option
+)
+ident(
+  def c "gobject.ml" 264 10012 10034 "gobject.ml" 264 10012 10044
+)
+"gobject.ml" 264 10012 10043 "gobject.ml" 264 10012 10044
+type(
+  Gpointer.boxed option
+)
+ident(
+  int_ref c "gobject.ml" 264 10012 10029 "gobject.ml" 264 10012 10030
+)
+"gobject.ml" 264 10012 10034 "gobject.ml" 264 10012 10044
+type(
+  unit data_set
+)
+"gobject.ml" 264 10012 10024 "gobject.ml" 264 10012 10045
+type(
+  Gpointer.boxed option -> unit data_set
+)
+"gobject.ml" 262 9910 9914 "gobject.ml" 264 10012 10047
+type(
+  Gpointer.boxed option data_conv
+)
+"gobject.ml" 265 10048 10054 "gobject.ml" 265 10048 10068
+type(
+  'c data_conv
+)
+ident(
+  def unsafe_pointer "gobject.ml" 270 10258 10260 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 266 10071 10084 "gobject.ml" 266 10071 10092
+type(
+  data_kind
+)
+"gobject.ml" 267 10094 10132 "gobject.ml" 267 10094 10133
+type(
+  Gpointer.boxed
+)
+ident(
+  def c "gobject.ml" 267 10094 10138 "gobject.ml" 267 10094 10149
+)
+"gobject.ml" 267 10094 10126 "gobject.ml" 267 10094 10134
+type(
+  Gpointer.boxed option
+)
+"gobject.ml" 267 10094 10117 "gobject.ml" 267 10094 10134
+type(
+  data_conv_get
+)
+"gobject.ml" 267 10094 10138 "gobject.ml" 267 10094 10147
+type(
+  Gpointer.boxed -> 'c
+)
+ident(
+  ext_ref Obj.magic
+)
+"gobject.ml" 267 10094 10148 "gobject.ml" 267 10094 10149
+type(
+  Gpointer.boxed
+)
+ident(
+  int_ref c "gobject.ml" 267 10094 10132 "gobject.ml" 267 10094 10133
+)
+"gobject.ml" 267 10094 10138 "gobject.ml" 267 10094 10149
+type(
+  'c
+)
+"gobject.ml" 268 10150 10165 "gobject.ml" 268 10150 10166
+type(
+  data_conv_get
+)
+"gobject.ml" 268 10150 10170 "gobject.ml" 268 10150 10178
+type(
+  string -> 'c
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 268 10150 10179 "gobject.ml" 268 10150 10200
+type(
+  string
+)
+"gobject.ml" 268 10150 10170 "gobject.ml" 268 10150 10200
+call(
+  tail
+)
+type(
+  'c
+)
+"gobject.ml" 267 10094 10107 "gobject.ml" 268 10150 10201
+type(
+  data_conv_get -> 'c
+)
+"gobject.ml" 269 10203 10220 "gobject.ml" 269 10203 10221
+type(
+  'c
+)
+ident(
+  def c "gobject.ml" 269 10203 10225 "gobject.ml" 269 10203 10254
+)
+"gobject.ml" 269 10203 10241 "gobject.ml" 269 10203 10250
+type(
+  'c -> Gpointer.boxed
+)
+ident(
+  ext_ref Obj.magic
+)
+"gobject.ml" 269 10203 10251 "gobject.ml" 269 10203 10252
+type(
+  'c
+)
+ident(
+  int_ref c "gobject.ml" 269 10203 10220 "gobject.ml" 269 10203 10221
+)
+"gobject.ml" 269 10203 10240 "gobject.ml" 269 10203 10253
+type(
+  Gpointer.boxed
+)
+"gobject.ml" 269 10203 10234 "gobject.ml" 269 10203 10254
+type(
+  Gpointer.boxed option
+)
+"gobject.ml" 269 10203 10225 "gobject.ml" 269 10203 10254
+type(
+  unit data_set
+)
+"gobject.ml" 269 10203 10215 "gobject.ml" 269 10203 10255
+type(
+  'c -> unit data_set
+)
+"gobject.ml" 266 10071 10075 "gobject.ml" 269 10203 10257
+type(
+  'c data_conv
+)
+"gobject.ml" 270 10258 10264 "gobject.ml" 270 10258 10269
+type(
+  'd option -> 'e option
+)
+ident(
+  def magic "gobject.ml" 271 10307 10309 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 270 10258 10297 "gobject.ml" 270 10258 10306
+type(
+  'd option -> 'e option
+)
+type(
+  'd option -> 'e option
+)
+ident(
+  ext_ref Obj.magic
+)
+"gobject.ml" 271 10307 10313 "gobject.ml" 271 10307 10334
+type(
+  'f option data_conv
+)
+ident(
+  def unsafe_pointer_option "gobject.ml" 276 10502 10504 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 272 10337 10350 "gobject.ml" 272 10337 10358
+type(
+  data_kind
+)
+"gobject.ml" 273 10360 10392 "gobject.ml" 273 10360 10393
+type(
+  Gpointer.boxed option
+)
+ident(
+  def c "gobject.ml" 273 10360 10397 "gobject.ml" 273 10360 10404
+)
+"gobject.ml" 273 10360 10383 "gobject.ml" 273 10360 10393
+type(
+  data_conv_get
+)
+"gobject.ml" 273 10360 10397 "gobject.ml" 273 10360 10402
+type(
+  Gpointer.boxed option -> 'f option
+)
+ident(
+  int_ref magic "gobject.ml" 270 10258 10264 "gobject.ml" 270 10258 10269
+)
+"gobject.ml" 273 10360 10403 "gobject.ml" 273 10360 10404
+type(
+  Gpointer.boxed option
+)
+ident(
+  int_ref c "gobject.ml" 273 10360 10392 "gobject.ml" 273 10360 10393
+)
+"gobject.ml" 273 10360 10397 "gobject.ml" 273 10360 10404
+call(
+  tail
+)
+type(
+  'f option
+)
+"gobject.ml" 274 10405 10420 "gobject.ml" 274 10405 10421
+type(
+  data_conv_get
+)
+"gobject.ml" 274 10405 10425 "gobject.ml" 274 10405 10433
+type(
+  string -> 'f option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 274 10405 10434 "gobject.ml" 274 10405 10455
+type(
+  string
+)
+"gobject.ml" 274 10405 10425 "gobject.ml" 274 10405 10455
+call(
+  tail
+)
+type(
+  'f option
+)
+"gobject.ml" 273 10360 10373 "gobject.ml" 274 10405 10456
+type(
+  data_conv_get -> 'f option
+)
+"gobject.ml" 275 10458 10475 "gobject.ml" 275 10458 10476
+type(
+  'f option
+)
+ident(
+  def c "gobject.ml" 275 10458 10480 "gobject.ml" 275 10458 10498
+)
+"gobject.ml" 275 10458 10490 "gobject.ml" 275 10458 10495
+type(
+  'f option -> Gpointer.boxed option
+)
+ident(
+  int_ref magic "gobject.ml" 270 10258 10264 "gobject.ml" 270 10258 10269
+)
+"gobject.ml" 275 10458 10496 "gobject.ml" 275 10458 10497
+type(
+  'f option
+)
+ident(
+  int_ref c "gobject.ml" 275 10458 10475 "gobject.ml" 275 10458 10476
+)
+"gobject.ml" 275 10458 10489 "gobject.ml" 275 10458 10498
+call(
+  stack
+)
+type(
+  Gpointer.boxed option
+)
+"gobject.ml" 275 10458 10480 "gobject.ml" 275 10458 10498
+type(
+  unit data_set
+)
+"gobject.ml" 275 10458 10470 "gobject.ml" 275 10458 10499
+type(
+  'f option -> unit data_set
+)
+"gobject.ml" 272 10337 10341 "gobject.ml" 275 10458 10501
+type(
+  'f option data_conv
+)
+"gobject.ml" 276 10502 10508 "gobject.ml" 276 10502 10518
+type(
+  g_type -> [> `OTHER of g_type ]
+)
+ident(
+  def boxed_type "gobject.ml" 279 10613 10615 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 276 10502 10519 "gobject.ml" 276 10502 10520
+type(
+  g_type
+)
+ident(
+  def t "gobject.ml" 277 10523 10527 "gobject.ml" 278 10600 10612
+)
+"gobject.ml" 277 10523 10530 "gobject.ml" 277 10523 10546
+type(
+  g_type -> fundamental_type
+)
+ident(
+  ext_ref Type.fundamental
+)
+"gobject.ml" 277 10523 10547 "gobject.ml" 277 10523 10548
+type(
+  g_type
+)
+ident(
+  int_ref t "gobject.ml" 276 10502 10519 "gobject.ml" 276 10502 10520
+)
+"gobject.ml" 277 10523 10530 "gobject.ml" 277 10523 10548
+type(
+  fundamental_type
+)
+"gobject.ml" 277 10523 10549 "gobject.ml" 277 10523 10551
+type(
+  fundamental_type -> fundamental_type -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gobject.ml" 277 10523 10552 "gobject.ml" 277 10523 10558
+type(
+  fundamental_type
+)
+"gobject.ml" 277 10523 10530 "gobject.ml" 277 10523 10558
+type(
+  bool
+)
+"gobject.ml" 277 10523 10564 "gobject.ml" 277 10523 10572
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 277 10523 10573 "gobject.ml" 277 10523 10598
+type(
+  string
+)
+"gobject.ml" 277 10523 10564 "gobject.ml" 277 10523 10598
+call(
+  stack
+)
+type(
+  unit
+)
+"gobject.ml" 277 10523 10527 "gobject.ml" 277 10523 10598
+type(
+  unit
+)
+"gobject.ml" 278 10600 10611 "gobject.ml" 278 10600 10612
+type(
+  g_type
+)
+ident(
+  int_ref t "gobject.ml" 276 10502 10519 "gobject.ml" 276 10502 10520
+)
+"gobject.ml" 278 10600 10604 "gobject.ml" 278 10600 10612
+type(
+  [> `OTHER of g_type ] as 'g
+)
+"gobject.ml" 277 10523 10527 "gobject.ml" 278 10600 10612
+type(
+  'g
+)
+"gobject.ml" 279 10613 10619 "gobject.ml" 279 10613 10624
+type(
+  g_type -> Gpointer.boxed option data_conv
+)
+ident(
+  def boxed "gobject.ml" 280 10664 10666 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 279 10613 10625 "gobject.ml" 279 10613 10626
+type(
+  g_type
+)
+ident(
+  def t "gobject.ml" 279 10613 10629 "gobject.ml" 279 10613 10663
+)
+"gobject.ml" 279 10613 10630 "gobject.ml" 279 10613 10637
+type(
+  Gpointer.boxed option data_conv
+)
+ident(
+  int_ref pointer "gobject.ml" 261 9894 9900 "gobject.ml" 261 9894 9907
+)
+"gobject.ml" 279 10613 10650 "gobject.ml" 279 10613 10660
+type(
+  g_type -> data_kind
+)
+ident(
+  int_ref boxed_type "gobject.ml" 276 10502 10508 "gobject.ml" 276 10502 10518
+)
+"gobject.ml" 279 10613 10661 "gobject.ml" 279 10613 10662
+type(
+  g_type
+)
+ident(
+  int_ref t "gobject.ml" 279 10613 10625 "gobject.ml" 279 10613 10626
+)
+"gobject.ml" 279 10613 10650 "gobject.ml" 279 10613 10662
+call(
+  stack
+)
+type(
+  data_kind
+)
+"gobject.ml" 279 10613 10629 "gobject.ml" 279 10613 10663
+type(
+  Gpointer.boxed option data_conv
+)
+"gobject.ml" 280 10664 10670 "gobject.ml" 280 10664 10682
+type(
+  g_type -> 'h data_conv
+)
+ident(
+  def unsafe_boxed "gobject.ml" 281 10729 10731 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 280 10664 10683 "gobject.ml" 280 10664 10684
+type(
+  g_type
+)
+ident(
+  def t "gobject.ml" 280 10664 10687 "gobject.ml" 280 10664 10728
+)
+"gobject.ml" 280 10664 10688 "gobject.ml" 280 10664 10702
+type(
+  'h data_conv
+)
+ident(
+  int_ref unsafe_pointer "gobject.ml" 265 10048 10054 "gobject.ml" 265 10048 10068
+)
+"gobject.ml" 280 10664 10715 "gobject.ml" 280 10664 10725
+type(
+  g_type -> data_kind
+)
+ident(
+  int_ref boxed_type "gobject.ml" 276 10502 10508 "gobject.ml" 276 10502 10518
+)
+"gobject.ml" 280 10664 10726 "gobject.ml" 280 10664 10727
+type(
+  g_type
+)
+ident(
+  int_ref t "gobject.ml" 280 10664 10683 "gobject.ml" 280 10664 10684
+)
+"gobject.ml" 280 10664 10715 "gobject.ml" 280 10664 10727
+call(
+  stack
+)
+type(
+  data_kind
+)
+"gobject.ml" 280 10664 10687 "gobject.ml" 280 10664 10728
+type(
+  'h data_conv
+)
+"gobject.ml" 281 10729 10735 "gobject.ml" 281 10729 10754
+type(
+  g_type -> 'i option data_conv
+)
+ident(
+  def unsafe_boxed_option "gobject.ml" 282 10808 10810 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 281 10729 10755 "gobject.ml" 281 10729 10756
+type(
+  g_type
+)
+ident(
+  def t "gobject.ml" 281 10729 10759 "gobject.ml" 281 10729 10807
+)
+"gobject.ml" 281 10729 10760 "gobject.ml" 281 10729 10781
+type(
+  'i option data_conv
+)
+ident(
+  int_ref unsafe_pointer_option "gobject.ml" 271 10307 10313 "gobject.ml" 271 10307 10334
+)
+"gobject.ml" 281 10729 10794 "gobject.ml" 281 10729 10804
+type(
+  g_type -> data_kind
+)
+ident(
+  int_ref boxed_type "gobject.ml" 276 10502 10508 "gobject.ml" 276 10502 10518
+)
+"gobject.ml" 281 10729 10805 "gobject.ml" 281 10729 10806
+type(
+  g_type
+)
+ident(
+  int_ref t "gobject.ml" 281 10729 10755 "gobject.ml" 281 10729 10756
+)
+"gobject.ml" 281 10729 10794 "gobject.ml" 281 10729 10806
+call(
+  stack
+)
+type(
+  data_kind
+)
+"gobject.ml" 281 10729 10759 "gobject.ml" 281 10729 10807
+type(
+  'i option data_conv
+)
+"gobject.ml" 282 10808 10814 "gobject.ml" 282 10808 10828
+type(
+  'j obj option data_conv
+)
+ident(
+  def gobject_option "gobject.ml" 287 11026 11028 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 283 10831 10844 "gobject.ml" 283 10831 10851
+type(
+  data_kind
+)
+"gobject.ml" 284 10853 10884 "gobject.ml" 284 10853 10885
+type(
+  unit obj option
+)
+ident(
+  def c "gobject.ml" 284 10853 10889 "gobject.ml" 284 10853 10913
+)
+"gobject.ml" 284 10853 10876 "gobject.ml" 284 10853 10885
+type(
+  data_conv_get
+)
+"gobject.ml" 284 10853 10889 "gobject.ml" 284 10853 10896
+type(
+  f:(unit obj -> 'j obj) -> unit obj option -> 'j obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gobject.ml" 284 10853 10900 "gobject.ml" 284 10853 10911
+type(
+  unit obj -> 'j obj
+)
+"gobject.ml" 284 10853 10912 "gobject.ml" 284 10853 10913
+type(
+  unit obj option
+)
+ident(
+  int_ref c "gobject.ml" 284 10853 10884 "gobject.ml" 284 10853 10885
+)
+"gobject.ml" 284 10853 10889 "gobject.ml" 284 10853 10913
+call(
+  tail
+)
+type(
+  'j obj option
+)
+"gobject.ml" 285 10914 10929 "gobject.ml" 285 10914 10930
+type(
+  data_conv_get
+)
+"gobject.ml" 285 10914 10934 "gobject.ml" 285 10914 10942
+type(
+  string -> 'j obj option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 285 10914 10943 "gobject.ml" 285 10914 10963
+type(
+  string
+)
+"gobject.ml" 285 10914 10934 "gobject.ml" 285 10914 10963
+call(
+  tail
+)
+type(
+  'j obj option
+)
+"gobject.ml" 284 10853 10866 "gobject.ml" 285 10914 10964
+type(
+  data_conv_get -> 'j obj option
+)
+"gobject.ml" 286 10966 10983 "gobject.ml" 286 10966 10984
+type(
+  'j obj option
+)
+ident(
+  def c "gobject.ml" 286 10966 10988 "gobject.ml" 286 10966 11022
+)
+"gobject.ml" 286 10966 10997 "gobject.ml" 286 10966 11004
+type(
+  f:('j obj -> unit obj) -> 'j obj option -> unit obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gobject.ml" 286 10966 11008 "gobject.ml" 286 10966 11019
+type(
+  'j obj -> unit obj
+)
+"gobject.ml" 286 10966 11020 "gobject.ml" 286 10966 11021
+type(
+  'j obj option
+)
+ident(
+  int_ref c "gobject.ml" 286 10966 10983 "gobject.ml" 286 10966 10984
+)
+"gobject.ml" 286 10966 10996 "gobject.ml" 286 10966 11022
+call(
+  stack
+)
+type(
+  unit obj option
+)
+"gobject.ml" 286 10966 10988 "gobject.ml" 286 10966 11022
+type(
+  unit data_set
+)
+"gobject.ml" 286 10966 10978 "gobject.ml" 286 10966 11023
+type(
+  'j obj option -> unit data_set
+)
+"gobject.ml" 283 10831 10835 "gobject.ml" 286 10966 11025
+type(
+  'j obj option data_conv
+)
+"gobject.ml" 287 11026 11032 "gobject.ml" 287 11026 11039
+type(
+  'k obj data_conv
+)
+ident(
+  def gobject "gobject.ml" 293 11280 11282 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 288 11042 11055 "gobject.ml" 288 11042 11062
+type(
+  data_kind
+)
+"gobject.ml" 289 11064 11101 "gobject.ml" 289 11064 11102
+type(
+  unit obj
+)
+ident(
+  def c "gobject.ml" 289 11064 11107 "gobject.ml" 289 11064 11120
+)
+"gobject.ml" 289 11064 11095 "gobject.ml" 289 11064 11103
+type(
+  unit obj option
+)
+"gobject.ml" 289 11064 11087 "gobject.ml" 289 11064 11103
+type(
+  data_conv_get
+)
+"gobject.ml" 289 11064 11107 "gobject.ml" 289 11064 11118
+type(
+  unit obj -> 'k obj
+)
+"gobject.ml" 289 11064 11119 "gobject.ml" 289 11064 11120
+type(
+  unit obj
+)
+ident(
+  int_ref c "gobject.ml" 289 11064 11101 "gobject.ml" 289 11064 11102
+)
+"gobject.ml" 289 11064 11107 "gobject.ml" 289 11064 11120
+type(
+  'k obj
+)
+"gobject.ml" 290 11121 11144 "gobject.ml" 290 11121 11148
+type(
+  unit obj option
+)
+"gobject.ml" 290 11121 11136 "gobject.ml" 290 11121 11148
+type(
+  data_conv_get
+)
+"gobject.ml" 290 11121 11152 "gobject.ml" 290 11121 11157
+type(
+  exn -> 'k obj
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gobject.ml" 290 11121 11158 "gobject.ml" 290 11121 11171
+type(
+  exn
+)
+"gobject.ml" 290 11121 11152 "gobject.ml" 290 11121 11171
+type(
+  'k obj
+)
+"gobject.ml" 291 11172 11187 "gobject.ml" 291 11172 11188
+type(
+  data_conv_get
+)
+"gobject.ml" 291 11172 11192 "gobject.ml" 291 11172 11200
+type(
+  string -> 'k obj
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 291 11172 11201 "gobject.ml" 291 11172 11221
+type(
+  string
+)
+"gobject.ml" 291 11172 11192 "gobject.ml" 291 11172 11221
+call(
+  tail
+)
+type(
+  'k obj
+)
+"gobject.ml" 289 11064 11077 "gobject.ml" 291 11172 11222
+type(
+  data_conv_get -> 'k obj
+)
+"gobject.ml" 292 11224 11241 "gobject.ml" 292 11224 11242
+type(
+  'k obj
+)
+ident(
+  def c "gobject.ml" 292 11224 11246 "gobject.ml" 292 11224 11276
+)
+"gobject.ml" 292 11224 11261 "gobject.ml" 292 11224 11272
+type(
+  'k obj -> unit obj
+)
+"gobject.ml" 292 11224 11273 "gobject.ml" 292 11224 11274
+type(
+  'k obj
+)
+ident(
+  int_ref c "gobject.ml" 292 11224 11241 "gobject.ml" 292 11224 11242
+)
+"gobject.ml" 292 11224 11260 "gobject.ml" 292 11224 11275
+type(
+  unit obj
+)
+"gobject.ml" 292 11224 11254 "gobject.ml" 292 11224 11276
+type(
+  unit obj option
+)
+"gobject.ml" 292 11224 11246 "gobject.ml" 292 11224 11276
+type(
+  unit data_set
+)
+"gobject.ml" 292 11224 11236 "gobject.ml" 292 11224 11277
+type(
+  'k obj -> unit data_set
+)
+"gobject.ml" 288 11042 11046 "gobject.ml" 292 11224 11279
+type(
+  'k obj data_conv
+)
+"gobject.ml" 293 11280 11286 "gobject.ml" 293 11280 11301
+type(
+  string -> 'l obj data_conv
+)
+ident(
+  def gobject_by_name "gobject.ml" 295 11366 11368 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 293 11280 11302 "gobject.ml" 293 11280 11306
+type(
+  string
+)
+ident(
+  def name "gobject.ml" 294 11309 11313 "gobject.ml" 294 11309 11365
+)
+"gobject.ml" 294 11309 11315 "gobject.ml" 294 11309 11322
+type(
+  'l obj data_conv
+)
+ident(
+  int_ref gobject "gobject.ml" 287 11026 11032 "gobject.ml" 287 11026 11039
+)
+"gobject.ml" 294 11309 11343 "gobject.ml" 294 11309 11357
+type(
+  string -> g_type
+)
+ident(
+  ext_ref Type.from_name
+)
+"gobject.ml" 294 11309 11358 "gobject.ml" 294 11309 11362
+type(
+  string
+)
+ident(
+  int_ref name "gobject.ml" 293 11280 11302 "gobject.ml" 293 11280 11306
+)
+"gobject.ml" 294 11309 11342 "gobject.ml" 294 11309 11363
+call(
+  stack
+)
+type(
+  g_type
+)
+"gobject.ml" 294 11309 11335 "gobject.ml" 294 11309 11363
+type(
+  data_kind
+)
+"gobject.ml" 294 11309 11313 "gobject.ml" 294 11309 11365
+type(
+  'l obj data_conv
+)
+"gobject.ml" 295 11366 11372 "gobject.ml" 295 11366 11376
+type(
+  'm data_conv
+)
+ident(
+  def caml "gobject.ml" 300 11549 11551 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 296 11379 11399 "gobject.ml" 296 11379 11408
+type(
+  g_type
+)
+ident(
+  ext_ref Type.caml
+)
+"gobject.ml" 296 11379 11392 "gobject.ml" 296 11379 11408
+type(
+  data_kind
+)
+"gobject.ml" 297 11410 11439 "gobject.ml" 297 11410 11440
+type(
+  Obj.t
+)
+ident(
+  def v "gobject.ml" 297 11410 11444 "gobject.ml" 297 11410 11453
+)
+"gobject.ml" 297 11410 11433 "gobject.ml" 297 11410 11440
+type(
+  data_conv_get
+)
+"gobject.ml" 297 11410 11444 "gobject.ml" 297 11410 11451
+type(
+  Obj.t -> 'm
+)
+ident(
+  ext_ref Obj.obj
+)
+"gobject.ml" 297 11410 11452 "gobject.ml" 297 11410 11453
+type(
+  Obj.t
+)
+ident(
+  int_ref v "gobject.ml" 297 11410 11439 "gobject.ml" 297 11410 11440
+)
+"gobject.ml" 297 11410 11444 "gobject.ml" 297 11410 11453
+type(
+  'm
+)
+"gobject.ml" 298 11454 11469 "gobject.ml" 298 11454 11470
+type(
+  data_conv_get
+)
+"gobject.ml" 298 11454 11474 "gobject.ml" 298 11454 11482
+type(
+  string -> 'm
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 298 11454 11483 "gobject.ml" 298 11454 11501
+type(
+  string
+)
+"gobject.ml" 298 11454 11474 "gobject.ml" 298 11454 11501
+call(
+  tail
+)
+type(
+  'm
+)
+"gobject.ml" 297 11410 11423 "gobject.ml" 298 11454 11502
+type(
+  data_conv_get -> 'm
+)
+"gobject.ml" 299 11505 11522 "gobject.ml" 299 11505 11523
+type(
+  'm
+)
+ident(
+  def v "gobject.ml" 299 11505 11527 "gobject.ml" 299 11505 11545
+)
+"gobject.ml" 299 11505 11534 "gobject.ml" 299 11505 11542
+type(
+  'm -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"gobject.ml" 299 11505 11543 "gobject.ml" 299 11505 11544
+type(
+  'm
+)
+ident(
+  int_ref v "gobject.ml" 299 11505 11522 "gobject.ml" 299 11505 11523
+)
+"gobject.ml" 299 11505 11533 "gobject.ml" 299 11505 11545
+type(
+  Obj.t
+)
+"gobject.ml" 299 11505 11527 "gobject.ml" 299 11505 11545
+type(
+  unit data_set
+)
+"gobject.ml" 299 11505 11517 "gobject.ml" 299 11505 11546
+type(
+  'm -> unit data_set
+)
+"gobject.ml" 296 11379 11383 "gobject.ml" 299 11505 11548
+type(
+  'm data_conv
+)
+"gobject.ml" 300 11549 11555 "gobject.ml" 300 11549 11566
+type(
+  'n option data_conv
+)
+ident(
+  def caml_option "gobject.ml" 306 11802 11804 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 301 11569 11589 "gobject.ml" 301 11569 11598
+type(
+  g_type
+)
+ident(
+  ext_ref Type.caml
+)
+"gobject.ml" 301 11569 11582 "gobject.ml" 301 11569 11598
+type(
+  data_kind
+)
+"gobject.ml" 302 11600 11629 "gobject.ml" 302 11600 11630
+type(
+  Obj.t
+)
+ident(
+  def v "gobject.ml" 302 11600 11634 "gobject.ml" 302 11600 11650
+)
+"gobject.ml" 302 11600 11623 "gobject.ml" 302 11600 11630
+type(
+  data_conv_get
+)
+"gobject.ml" 302 11600 11640 "gobject.ml" 302 11600 11647
+type(
+  Obj.t -> 'n
+)
+ident(
+  ext_ref Obj.obj
+)
+"gobject.ml" 302 11600 11648 "gobject.ml" 302 11600 11649
+type(
+  Obj.t
+)
+ident(
+  int_ref v "gobject.ml" 302 11600 11629 "gobject.ml" 302 11600 11630
+)
+"gobject.ml" 302 11600 11639 "gobject.ml" 302 11600 11650
+type(
+  'n
+)
+"gobject.ml" 302 11600 11634 "gobject.ml" 302 11600 11650
+type(
+  'n option
+)
+"gobject.ml" 303 11651 11659 "gobject.ml" 303 11651 11664
+type(
+  data_conv_get
+)
+"gobject.ml" 303 11651 11668 "gobject.ml" 303 11651 11672
+type(
+  'n option
+)
+"gobject.ml" 304 11673 11688 "gobject.ml" 304 11673 11689
+type(
+  data_conv_get
+)
+"gobject.ml" 304 11673 11693 "gobject.ml" 304 11673 11701
+type(
+  string -> 'n option
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 304 11673 11702 "gobject.ml" 304 11673 11720
+type(
+  string
+)
+"gobject.ml" 304 11673 11693 "gobject.ml" 304 11673 11720
+call(
+  tail
+)
+type(
+  'n option
+)
+"gobject.ml" 302 11600 11613 "gobject.ml" 304 11673 11721
+type(
+  data_conv_get -> 'n option
+)
+"gobject.ml" 305 11724 11746 "gobject.ml" 305 11724 11750
+type(
+  'n option
+)
+"gobject.ml" 305 11724 11763 "gobject.ml" 305 11724 11767
+type(
+  Gpointer.boxed option
+)
+"gobject.ml" 305 11724 11754 "gobject.ml" 305 11724 11767
+type(
+  unit data_set
+)
+"gobject.ml" 305 11724 11775 "gobject.ml" 305 11724 11776
+type(
+  'n
+)
+ident(
+  def v "gobject.ml" 305 11724 11780 "gobject.ml" 305 11724 11798
+)
+"gobject.ml" 305 11724 11770 "gobject.ml" 305 11724 11776
+type(
+  'n option
+)
+"gobject.ml" 305 11724 11787 "gobject.ml" 305 11724 11795
+type(
+  'n -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"gobject.ml" 305 11724 11796 "gobject.ml" 305 11724 11797
+type(
+  'n
+)
+ident(
+  int_ref v "gobject.ml" 305 11724 11775 "gobject.ml" 305 11724 11776
+)
+"gobject.ml" 305 11724 11786 "gobject.ml" 305 11724 11798
+type(
+  Obj.t
+)
+"gobject.ml" 305 11724 11780 "gobject.ml" 305 11724 11798
+type(
+  unit data_set
+)
+"gobject.ml" 305 11724 11736 "gobject.ml" 305 11724 11799
+type(
+  'n option -> unit data_set
+)
+"gobject.ml" 301 11569 11573 "gobject.ml" 305 11724 11801
+type(
+  'n option data_conv
+)
+"gobject.ml" 306 11802 11808 "gobject.ml" 306 11802 11812
+type(
+  inj:('o -> 'p) -> proj:('p -> 'o) -> 'p data_conv -> 'o data_conv
+)
+ident(
+  def wrap "gobject.ml" 311 11942 11944 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 306 11802 11814 "gobject.ml" 306 11802 11817
+type(
+  'o -> 'p
+)
+ident(
+  def inj "gobject.ml" 306 11802 11818 "gobject.ml" 309 11899 11940
+)
+"gobject.ml" 306 11802 11819 "gobject.ml" 306 11802 11823
+type(
+  'p -> 'o
+)
+ident(
+  def proj "gobject.ml" 306 11802 11824 "gobject.ml" 309 11899 11940
+)
+"gobject.ml" 306 11802 11824 "gobject.ml" 306 11802 11828
+type(
+  'p data_conv
+)
+ident(
+  def conv "gobject.ml" 307 11831 11835 "gobject.ml" 309 11899 11940
+)
+"gobject.ml" 307 11831 11844 "gobject.ml" 307 11831 11848
+type(
+  'p data_conv
+)
+ident(
+  int_ref conv "gobject.ml" 306 11802 11824 "gobject.ml" 306 11802 11828
+)
+"gobject.ml" 307 11831 11844 "gobject.ml" 307 11831 11853
+type(
+  data_kind
+)
+"gobject.ml" 308 11855 11873 "gobject.ml" 308 11855 11874
+type(
+  data_conv_get
+)
+ident(
+  def x "gobject.ml" 308 11855 11878 "gobject.ml" 308 11855 11896
+)
+"gobject.ml" 308 11855 11878 "gobject.ml" 308 11855 11882
+type(
+  'p -> 'o
+)
+ident(
+  int_ref proj "gobject.ml" 306 11802 11819 "gobject.ml" 306 11802 11823
+)
+"gobject.ml" 308 11855 11884 "gobject.ml" 308 11855 11888
+type(
+  'p data_conv
+)
+ident(
+  int_ref conv "gobject.ml" 306 11802 11824 "gobject.ml" 306 11802 11828
+)
+"gobject.ml" 308 11855 11884 "gobject.ml" 308 11855 11893
+type(
+  data_conv_get -> 'p
+)
+"gobject.ml" 308 11855 11894 "gobject.ml" 308 11855 11895
+type(
+  data_conv_get
+)
+ident(
+  int_ref x "gobject.ml" 308 11855 11873 "gobject.ml" 308 11855 11874
+)
+"gobject.ml" 308 11855 11883 "gobject.ml" 308 11855 11896
+call(
+  stack
+)
+type(
+  'p
+)
+"gobject.ml" 308 11855 11878 "gobject.ml" 308 11855 11896
+call(
+  tail
+)
+type(
+  'o
+)
+"gobject.ml" 308 11855 11868 "gobject.ml" 308 11855 11897
+type(
+  data_conv_get -> 'o
+)
+"gobject.ml" 309 11899 11916 "gobject.ml" 309 11899 11917
+type(
+  'o
+)
+ident(
+  def x "gobject.ml" 309 11899 11921 "gobject.ml" 309 11899 11937
+)
+"gobject.ml" 309 11899 11921 "gobject.ml" 309 11899 11925
+type(
+  'p data_conv
+)
+ident(
+  int_ref conv "gobject.ml" 306 11802 11824 "gobject.ml" 306 11802 11828
+)
+"gobject.ml" 309 11899 11921 "gobject.ml" 309 11899 11929
+type(
+  'p -> unit data_set
+)
+"gobject.ml" 309 11899 11931 "gobject.ml" 309 11899 11934
+type(
+  'o -> 'p
+)
+ident(
+  int_ref inj "gobject.ml" 306 11802 11814 "gobject.ml" 306 11802 11817
+)
+"gobject.ml" 309 11899 11935 "gobject.ml" 309 11899 11936
+type(
+  'o
+)
+ident(
+  int_ref x "gobject.ml" 309 11899 11916 "gobject.ml" 309 11899 11917
+)
+"gobject.ml" 309 11899 11930 "gobject.ml" 309 11899 11937
+call(
+  stack
+)
+type(
+  'p
+)
+"gobject.ml" 309 11899 11921 "gobject.ml" 309 11899 11937
+call(
+  tail
+)
+type(
+  unit data_set
+)
+"gobject.ml" 309 11899 11911 "gobject.ml" 309 11899 11938
+type(
+  'o -> unit data_set
+)
+"gobject.ml" 307 11831 11835 "gobject.ml" 309 11899 11940
+type(
+  'o data_conv
+)
+"gobject.ml" 311 11942 11948 "gobject.ml" 311 11942 11956
+type(
+  'q data_conv -> g_value -> 'q
+)
+ident(
+  def of_value "gobject.ml" 313 12009 12011 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 311 11942 11957 "gobject.ml" 311 11942 11961
+type(
+  'q data_conv
+)
+ident(
+  def conv "gobject.ml" 311 11942 11962 "gobject.ml" 312 11966 12008
+)
+"gobject.ml" 311 11942 11962 "gobject.ml" 311 11942 11963
+type(
+  g_value
+)
+ident(
+  def v "gobject.ml" 312 11966 11970 "gobject.ml" 312 11966 12008
+)
+"gobject.ml" 312 11966 11970 "gobject.ml" 312 11966 11974
+type(
+  'q data_conv
+)
+ident(
+  int_ref conv "gobject.ml" 311 11942 11957 "gobject.ml" 311 11942 11961
+)
+"gobject.ml" 312 11966 11970 "gobject.ml" 312 11966 11979
+type(
+  data_conv_get -> 'q
+)
+"gobject.ml" 312 11966 11981 "gobject.ml" 312 11966 11995
+type(
+  data_kind -> g_value -> data_conv_get
+)
+ident(
+  ext_ref Value.get_conv
+)
+"gobject.ml" 312 11966 11996 "gobject.ml" 312 11966 12000
+type(
+  'q data_conv
+)
+ident(
+  int_ref conv "gobject.ml" 311 11942 11957 "gobject.ml" 311 11942 11961
+)
+"gobject.ml" 312 11966 11996 "gobject.ml" 312 11966 12005
+type(
+  data_kind
+)
+"gobject.ml" 312 11966 12006 "gobject.ml" 312 11966 12007
+type(
+  g_value
+)
+ident(
+  int_ref v "gobject.ml" 311 11942 11962 "gobject.ml" 311 11942 11963
+)
+"gobject.ml" 312 11966 11980 "gobject.ml" 312 11966 12008
+call(
+  stack
+)
+type(
+  data_conv_get
+)
+"gobject.ml" 312 11966 11970 "gobject.ml" 312 11966 12008
+call(
+  tail
+)
+type(
+  'q
+)
+"gobject.ml" 313 12009 12015 "gobject.ml" 313 12009 12027
+type(
+  [< `BOOLEAN
+   | `BOXED
+   | `CHAR
+   | `DOUBLE
+   | `ENUM
+   | `FLAGS
+   | `FLOAT
+   | `INT
+   | `INT32
+   | `INT64
+   | `LONG
+   | `OBJECT
+   | `OTHER of g_type
+   | `POINTER
+   | `STRING
+   | `UCHAR
+   | `UINT
+   | `UINT32
+   | `UINT64
+   | `ULONG ] ->
+  g_type
+)
+ident(
+  def type_of_kind "gobject.ml" 318 12190 12192 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 314 12039 12045 "gobject.ml" 314 12039 12051
+type(
+  [< `BOOLEAN
+   | `BOXED
+   | `CHAR
+   | `DOUBLE
+   | `ENUM
+   | `FLAGS
+   | `FLOAT
+   | `INT
+   | `INT32
+   | `INT64
+   | `LONG
+   | `OBJECT
+   | `OTHER of g_type
+   | `POINTER
+   | `STRING
+   | `UCHAR
+   | `UINT
+   | `UINT32
+   | `UINT64
+   | `ULONG ]
+  as 'r
+)
+"gobject.ml" 314 12039 12055 "gobject.ml" 314 12039 12074
+type(
+  fundamental_type -> g_type
+)
+ident(
+  ext_ref Type.of_fundamental
+)
+"gobject.ml" 314 12039 12075 "gobject.ml" 314 12039 12079
+type(
+  fundamental_type
+)
+"gobject.ml" 314 12039 12055 "gobject.ml" 314 12039 12079
+type(
+  g_type
+)
+"gobject.ml" 315 12080 12086 "gobject.ml" 315 12080 12093
+type(
+  'r
+)
+"gobject.ml" 315 12080 12097 "gobject.ml" 315 12080 12116
+type(
+  fundamental_type -> g_type
+)
+ident(
+  ext_ref Type.of_fundamental
+)
+"gobject.ml" 315 12080 12117 "gobject.ml" 315 12080 12122
+type(
+  fundamental_type
+)
+"gobject.ml" 315 12080 12097 "gobject.ml" 315 12080 12122
+type(
+  g_type
+)
+"gobject.ml" 316 12123 12136 "gobject.ml" 316 12123 12137
+type(
+  g_type
+)
+ident(
+  def t "gobject.ml" 316 12123 12141 "gobject.ml" 316 12123 12142
+)
+"gobject.ml" 316 12123 12129 "gobject.ml" 316 12123 12137
+type(
+  'r
+)
+"gobject.ml" 316 12123 12141 "gobject.ml" 316 12123 12142
+type(
+  g_type
+)
+ident(
+  int_ref t "gobject.ml" 316 12123 12136 "gobject.ml" 316 12123 12137
+)
+"gobject.ml" 317 12143 12149 "gobject.ml" 317 12143 12159
+type(
+  'r
+)
+"gobject.ml" 317 12143 12149 "gobject.ml" 317 12143 12164
+type(
+  'r
+)
+ident(
+  def x "gobject.ml" 317 12143 12168 "gobject.ml" 317 12143 12189
+)
+"gobject.ml" 317 12143 12168 "gobject.ml" 317 12143 12187
+type(
+  fundamental_type -> g_type
+)
+ident(
+  ext_ref Type.of_fundamental
+)
+"gobject.ml" 317 12143 12188 "gobject.ml" 317 12143 12189
+type(
+  fundamental_type
+)
+ident(
+  int_ref x "gobject.ml" 317 12143 12149 "gobject.ml" 317 12143 12164
+)
+"gobject.ml" 317 12143 12168 "gobject.ml" 317 12143 12189
+type(
+  g_type
+)
+"gobject.ml" 313 12009 12030 "gobject.ml" 317 12143 12189
+type(
+  'r -> g_type
+)
+"gobject.ml" 318 12190 12196 "gobject.ml" 318 12190 12204
+type(
+  's data_conv -> g_type
+)
+ident(
+  def get_type "gobject.ml" 319 12235 12237 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 318 12190 12205 "gobject.ml" 318 12190 12209
+type(
+  's data_conv
+)
+ident(
+  def conv "gobject.ml" 318 12190 12212 "gobject.ml" 318 12190 12234
+)
+"gobject.ml" 318 12190 12212 "gobject.ml" 318 12190 12224
+type(
+  data_kind -> g_type
+)
+ident(
+  int_ref type_of_kind "gobject.ml" 313 12009 12015 "gobject.ml" 313 12009 12027
+)
+"gobject.ml" 318 12190 12225 "gobject.ml" 318 12190 12229
+type(
+  's data_conv
+)
+ident(
+  int_ref conv "gobject.ml" 318 12190 12205 "gobject.ml" 318 12190 12209
+)
+"gobject.ml" 318 12190 12225 "gobject.ml" 318 12190 12234
+type(
+  data_kind
+)
+"gobject.ml" 318 12190 12212 "gobject.ml" 318 12190 12234
+call(
+  tail
+)
+type(
+  g_type
+)
+"gobject.ml" 319 12235 12241 "gobject.ml" 319 12235 12249
+type(
+  't data_conv -> 't -> g_value
+)
+ident(
+  def to_value "gobject.ml" 322 12333 12338 "gobject.ml" 323 12339 12342
+)
+"gobject.ml" 319 12235 12250 "gobject.ml" 319 12235 12254
+type(
+  't data_conv
+)
+ident(
+  def conv "gobject.ml" 319 12235 12255 "gobject.ml" 322 12333 12338
+)
+"gobject.ml" 319 12235 12255 "gobject.ml" 319 12235 12256
+type(
+  't
+)
+ident(
+  def x "gobject.ml" 320 12259 12263 "gobject.ml" 322 12333 12338
+)
+"gobject.ml" 320 12259 12267 "gobject.ml" 320 12259 12268
+type(
+  g_value
+)
+"gobject.ml" 320 12259 12271 "gobject.ml" 320 12259 12283
+type(
+  g_type -> g_value
+)
+ident(
+  ext_ref Value.create
+)
+"gobject.ml" 320 12259 12285 "gobject.ml" 320 12259 12293
+type(
+  't data_conv -> g_type
+)
+ident(
+  int_ref get_type "gobject.ml" 318 12190 12196 "gobject.ml" 318 12190 12204
+)
+"gobject.ml" 320 12259 12294 "gobject.ml" 320 12259 12298
+type(
+  't data_conv
+)
+ident(
+  int_ref conv "gobject.ml" 319 12235 12250 "gobject.ml" 319 12235 12254
+)
+"gobject.ml" 320 12259 12284 "gobject.ml" 320 12259 12299
+call(
+  stack
+)
+type(
+  g_type
+)
+"gobject.ml" 320 12259 12271 "gobject.ml" 320 12259 12299
+call(
+  stack
+)
+type(
+  g_value
+)
+"gobject.ml" 321 12303 12307 "gobject.ml" 321 12303 12316
+type(
+  g_value -> unit data_set -> unit
+)
+ident(
+  ext_ref Value.set
+)
+"gobject.ml" 321 12303 12317 "gobject.ml" 321 12303 12318
+type(
+  g_value
+)
+ident(
+  int_ref v "gobject.ml" 320 12259 12267 "gobject.ml" 320 12259 12268
+)
+"gobject.ml" 321 12303 12320 "gobject.ml" 321 12303 12324
+type(
+  't data_conv
+)
+ident(
+  int_ref conv "gobject.ml" 319 12235 12250 "gobject.ml" 319 12235 12254
+)
+"gobject.ml" 321 12303 12320 "gobject.ml" 321 12303 12328
+type(
+  't -> unit data_set
+)
+"gobject.ml" 321 12303 12329 "gobject.ml" 321 12303 12330
+type(
+  't
+)
+ident(
+  int_ref x "gobject.ml" 319 12235 12255 "gobject.ml" 319 12235 12256
+)
+"gobject.ml" 321 12303 12319 "gobject.ml" 321 12303 12331
+call(
+  stack
+)
+type(
+  unit data_set
+)
+"gobject.ml" 321 12303 12307 "gobject.ml" 321 12303 12331
+type(
+  unit
+)
+"gobject.ml" 322 12333 12337 "gobject.ml" 322 12333 12338
+type(
+  g_value
+)
+ident(
+  int_ref v "gobject.ml" 320 12259 12267 "gobject.ml" 320 12259 12268
+)
+"gobject.ml" 321 12303 12307 "gobject.ml" 322 12333 12338
+type(
+  g_value
+)
+"gobject.ml" 320 12259 12263 "gobject.ml" 322 12333 12338
+type(
+  g_value
+)
+"gobject.ml" 352 13439 13445 "gobject.ml" 352 13439 13448
+type(
+  'a obj -> ('a, 'b) property -> 'b -> unit
+)
+ident(
+  def set "gobject.ml" 354 13537 13539 "gobject.ml" 394 14874 14877
+)
+"gobject.ml" 352 13439 13450 "gobject.ml" 352 13439 13453
+type(
+  'a obj
+)
+ident(
+  def obj "gobject.ml" 352 13439 13464 "gobject.ml" 353 13493 13536
+)
+"gobject.ml" 352 13439 13465 "gobject.ml" 352 13439 13469
+type(
+  ('a, 'b) property
+)
+ident(
+  def prop "gobject.ml" 352 13439 13489 "gobject.ml" 353 13493 13536
+)
+"gobject.ml" 352 13439 13489 "gobject.ml" 352 13439 13490
+type(
+  'b
+)
+ident(
+  def x "gobject.ml" 353 13493 13497 "gobject.ml" 353 13493 13536
+)
+"gobject.ml" 353 13493 13497 "gobject.ml" 353 13493 13504
+type(
+  'a obj -> string -> unit data_set -> unit
+)
+"gobject.ml" 353 13493 13505 "gobject.ml" 353 13493 13508
+type(
+  'a obj
+)
+ident(
+  int_ref obj "gobject.ml" 352 13439 13450 "gobject.ml" 352 13439 13453
+)
+"gobject.ml" 353 13493 13509 "gobject.ml" 353 13493 13513
+type(
+  ('a, 'b) property
+)
+ident(
+  int_ref prop "gobject.ml" 352 13439 13465 "gobject.ml" 352 13439 13469
+)
+"gobject.ml" 353 13493 13509 "gobject.ml" 353 13493 13518
+type(
+  string
+)
+"gobject.ml" 353 13493 13520 "gobject.ml" 353 13493 13524
+type(
+  ('a, 'b) property
+)
+ident(
+  int_ref prop "gobject.ml" 352 13439 13465 "gobject.ml" 352 13439 13469
+)
+"gobject.ml" 353 13493 13520 "gobject.ml" 353 13493 13529
+type(
+  'b data_conv
+)
+"gobject.ml" 353 13493 13520 "gobject.ml" 353 13493 13533
+type(
+  'b -> unit data_set
+)
+"gobject.ml" 353 13493 13534 "gobject.ml" 353 13493 13535
+type(
+  'b
+)
+ident(
+  int_ref x "gobject.ml" 352 13439 13489 "gobject.ml" 352 13439 13490
+)
+"gobject.ml" 353 13493 13519 "gobject.ml" 353 13493 13536
+call(
+  stack
+)
+type(
+  unit data_set
+)
+"gobject.ml" 353 13493 13497 "gobject.ml" 353 13493 13536
+type(
+  unit
+)
+"gobject.ml" 354 13537 13543 "gobject.ml" 354 13537 13546
+type(
+  'c obj -> ('c, 'd) property -> 'd
+)
+ident(
+  def get "gobject.ml" 368 13976 13978 "gobject.ml" 394 14874 14877
+)
+"gobject.ml" 354 13537 13548 "gobject.ml" 354 13537 13551
+type(
+  'c obj
+)
+ident(
+  def obj "gobject.ml" 354 13537 13562 "gobject.ml" 366 13954 13974
+)
+"gobject.ml" 354 13537 13563 "gobject.ml" 354 13537 13567
+type(
+  ('c, 'd) property
+)
+ident(
+  def prop "gobject.ml" 355 13589 13593 "gobject.ml" 366 13954 13974
+)
+"gobject.ml" 355 13589 13597 "gobject.ml" 355 13589 13598
+type(
+  data_conv_get
+)
+"gobject.ml" 356 13601 13613 "gobject.ml" 356 13601 13617
+type(
+  ('c, 'd) property
+)
+ident(
+  int_ref prop "gobject.ml" 354 13537 13563 "gobject.ml" 354 13537 13567
+)
+"gobject.ml" 356 13601 13613 "gobject.ml" 356 13601 13622
+type(
+  'd data_conv
+)
+"gobject.ml" 356 13601 13613 "gobject.ml" 356 13601 13627
+type(
+  data_kind
+)
+"gobject.ml" 358 13693 13701 "gobject.ml" 358 13693 13707
+type(
+  data_kind
+)
+"gobject.ml" 358 13693 13710 "gobject.ml" 358 13693 13717
+type(
+  data_kind
+)
+"gobject.ml" 358 13693 13701 "gobject.ml" 358 13693 13717
+type(
+  data_kind
+)
+"gobject.ml" 358 13693 13720 "gobject.ml" 358 13693 13728
+type(
+  data_kind
+)
+"gobject.ml" 358 13693 13701 "gobject.ml" 358 13693 13728
+type(
+  data_kind
+)
+"gobject.ml" 358 13693 13701 "gobject.ml" 358 13693 13733
+type(
+  data_kind
+)
+ident(
+  def k "gobject.ml" 359 13737 13747 "gobject.ml" 362 13854 13882
+)
+"gobject.ml" 359 13737 13751 "gobject.ml" 359 13737 13752
+type(
+  g_type
+)
+"gobject.ml" 359 13737 13755 "gobject.ml" 359 13737 13763
+type(
+  'c obj -> string -> g_type
+)
+"gobject.ml" 359 13737 13764 "gobject.ml" 359 13737 13767
+type(
+  'c obj
+)
+ident(
+  int_ref obj "gobject.ml" 354 13537 13548 "gobject.ml" 354 13537 13551
+)
+"gobject.ml" 359 13737 13768 "gobject.ml" 359 13737 13772
+type(
+  ('c, 'd) property
+)
+ident(
+  int_ref prop "gobject.ml" 354 13537 13563 "gobject.ml" 354 13537 13567
+)
+"gobject.ml" 359 13737 13768 "gobject.ml" 359 13737 13777
+type(
+  string
+)
+"gobject.ml" 359 13737 13755 "gobject.ml" 359 13737 13777
+type(
+  g_type
+)
+"gobject.ml" 360 13781 13795 "gobject.ml" 360 13781 13796
+type(
+  g_value
+)
+"gobject.ml" 360 13781 13799 "gobject.ml" 360 13781 13811
+type(
+  g_type -> g_value
+)
+ident(
+  ext_ref Value.create
+)
+"gobject.ml" 360 13781 13812 "gobject.ml" 360 13781 13813
+type(
+  g_type
+)
+ident(
+  int_ref t "gobject.ml" 359 13737 13751 "gobject.ml" 359 13737 13752
+)
+"gobject.ml" 360 13781 13799 "gobject.ml" 360 13781 13813
+call(
+  stack
+)
+type(
+  g_value
+)
+"gobject.ml" 361 13817 13827 "gobject.ml" 361 13817 13836
+type(
+  'c obj -> string -> g_value -> unit
+)
+"gobject.ml" 361 13817 13837 "gobject.ml" 361 13817 13840
+type(
+  'c obj
+)
+ident(
+  int_ref obj "gobject.ml" 354 13537 13548 "gobject.ml" 354 13537 13551
+)
+"gobject.ml" 361 13817 13841 "gobject.ml" 361 13817 13845
+type(
+  ('c, 'd) property
+)
+ident(
+  int_ref prop "gobject.ml" 354 13537 13563 "gobject.ml" 354 13537 13567
+)
+"gobject.ml" 361 13817 13841 "gobject.ml" 361 13817 13850
+type(
+  string
+)
+"gobject.ml" 361 13817 13851 "gobject.ml" 361 13817 13852
+type(
+  g_value
+)
+ident(
+  int_ref v "gobject.ml" 360 13781 13795 "gobject.ml" 360 13781 13796
+)
+"gobject.ml" 361 13817 13827 "gobject.ml" 361 13817 13852
+type(
+  unit
+)
+"gobject.ml" 362 13854 13864 "gobject.ml" 362 13854 13878
+type(
+  _[> `INT32 | `POINTER | `UINT32 ] -> g_value -> data_conv_get
+)
+ident(
+  ext_ref Value.get_conv
+)
+"gobject.ml" 362 13854 13879 "gobject.ml" 362 13854 13880
+type(
+  _[> `INT32 | `POINTER | `UINT32 ] as 'e
+)
+ident(
+  int_ref k "gobject.ml" 358 13693 13701 "gobject.ml" 358 13693 13733
+)
+"gobject.ml" 362 13854 13881 "gobject.ml" 362 13854 13882
+type(
+  g_value
+)
+ident(
+  int_ref v "gobject.ml" 360 13781 13795 "gobject.ml" 360 13781 13796
+)
+"gobject.ml" 362 13854 13864 "gobject.ml" 362 13854 13882
+call(
+  stack
+)
+type(
+  data_conv_get
+)
+"gobject.ml" 361 13817 13827 "gobject.ml" 362 13854 13882
+type(
+  data_conv_get
+)
+"gobject.ml" 360 13781 13791 "gobject.ml" 362 13854 13882
+type(
+  data_conv_get
+)
+"gobject.ml" 359 13737 13747 "gobject.ml" 362 13854 13882
+type(
+  data_conv_get
+)
+"gobject.ml" 363 13883 13891 "gobject.ml" 363 13883 13892
+type(
+  data_kind
+)
+"gobject.ml" 364 13896 13907 "gobject.ml" 364 13896 13914
+type(
+  'c obj -> string -> data_get
+)
+"gobject.ml" 364 13896 13915 "gobject.ml" 364 13896 13918
+type(
+  'c obj
+)
+ident(
+  int_ref obj "gobject.ml" 354 13537 13548 "gobject.ml" 354 13537 13551
+)
+"gobject.ml" 364 13896 13919 "gobject.ml" 364 13896 13923
+type(
+  ('c, 'd) property
+)
+ident(
+  int_ref prop "gobject.ml" 354 13537 13563 "gobject.ml" 354 13537 13567
+)
+"gobject.ml" 364 13896 13919 "gobject.ml" 364 13896 13928
+type(
+  string
+)
+"gobject.ml" 364 13896 13907 "gobject.ml" 364 13896 13928
+type(
+  data_conv_get
+)
+type(
+  data_get
+)
+"gobject.ml" 356 13601 13607 "gobject.ml" 364 13896 13946
+type(
+  data_conv_get
+)
+"gobject.ml" 366 13954 13958 "gobject.ml" 366 13954 13962
+type(
+  ('c, 'd) property
+)
+ident(
+  int_ref prop "gobject.ml" 354 13537 13563 "gobject.ml" 354 13537 13567
+)
+"gobject.ml" 366 13954 13958 "gobject.ml" 366 13954 13967
+type(
+  'd data_conv
+)
+"gobject.ml" 366 13954 13958 "gobject.ml" 366 13954 13972
+type(
+  data_conv_get -> 'd
+)
+"gobject.ml" 366 13954 13973 "gobject.ml" 366 13954 13974
+type(
+  data_conv_get
+)
+ident(
+  int_ref v "gobject.ml" 355 13589 13597 "gobject.ml" 355 13589 13598
+)
+"gobject.ml" 366 13954 13958 "gobject.ml" 366 13954 13974
+call(
+  tail
+)
+type(
+  'd
+)
+"gobject.ml" 355 13589 13593 "gobject.ml" 366 13954 13974
+type(
+  'd
+)
+"gobject.ml" 368 13976 13982 "gobject.ml" 368 13976 13990
+type(
+  'f obj -> ('f, 'g option) property -> 'g
+)
+ident(
+  def get_some "gobject.ml" 372 14110 14112 "gobject.ml" 394 14874 14877
+)
+"gobject.ml" 368 13976 13991 "gobject.ml" 368 13976 13994
+type(
+  'f obj
+)
+ident(
+  def obj "gobject.ml" 368 13976 13995 "gobject.ml" 370 14042 14108
+)
+"gobject.ml" 368 13976 13995 "gobject.ml" 368 13976 13999
+type(
+  ('f, 'g option) property
+)
+ident(
+  def prop "gobject.ml" 369 14002 14006 "gobject.ml" 370 14042 14108
+)
+"gobject.ml" 369 14002 14012 "gobject.ml" 369 14002 14015
+type(
+  'f obj -> ('f, 'g option) property -> 'g option
+)
+ident(
+  int_ref get "gobject.ml" 354 13537 13543 "gobject.ml" 354 13537 13546
+)
+"gobject.ml" 369 14002 14016 "gobject.ml" 369 14002 14019
+type(
+  'f obj
+)
+ident(
+  int_ref obj "gobject.ml" 368 13976 13991 "gobject.ml" 368 13976 13994
+)
+"gobject.ml" 369 14002 14020 "gobject.ml" 369 14002 14024
+type(
+  ('f, 'g option) property
+)
+ident(
+  int_ref prop "gobject.ml" 368 13976 13995 "gobject.ml" 368 13976 13999
+)
+"gobject.ml" 369 14002 14012 "gobject.ml" 369 14002 14024
+call(
+  stack
+)
+type(
+  'g option
+)
+"gobject.ml" 369 14002 14035 "gobject.ml" 369 14002 14036
+type(
+  'g
+)
+ident(
+  def x "gobject.ml" 369 14002 14040 "gobject.ml" 369 14002 14041
+)
+"gobject.ml" 369 14002 14030 "gobject.ml" 369 14002 14036
+type(
+  'g option
+)
+"gobject.ml" 369 14002 14040 "gobject.ml" 369 14002 14041
+type(
+  'g
+)
+ident(
+  int_ref x "gobject.ml" 369 14002 14035 "gobject.ml" 369 14002 14036
+)
+"gobject.ml" 370 14042 14048 "gobject.ml" 370 14042 14052
+type(
+  'g option
+)
+"gobject.ml" 370 14042 14056 "gobject.ml" 370 14042 14064
+type(
+  string -> 'g
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 370 14042 14066 "gobject.ml" 370 14042 14095
+type(
+  string
+)
+"gobject.ml" 370 14042 14096 "gobject.ml" 370 14042 14097
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 370 14042 14098 "gobject.ml" 370 14042 14102
+type(
+  ('f, 'g option) property
+)
+ident(
+  int_ref prop "gobject.ml" 368 13976 13995 "gobject.ml" 368 13976 13999
+)
+"gobject.ml" 370 14042 14098 "gobject.ml" 370 14042 14107
+type(
+  string
+)
+"gobject.ml" 370 14042 14065 "gobject.ml" 370 14042 14108
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 370 14042 14056 "gobject.ml" 370 14042 14108
+call(
+  tail
+)
+type(
+  'g
+)
+"gobject.ml" 369 14002 14006 "gobject.ml" 370 14042 14108
+type(
+  'g
+)
+"gobject.ml" 372 14110 14116 "gobject.ml" 372 14110 14121
+type(
+  'h obj -> ('h, 'i) property -> unit
+)
+ident(
+  def check "gobject.ml" 390 14704 14706 "gobject.ml" 394 14874 14877
+)
+"gobject.ml" 372 14110 14122 "gobject.ml" 372 14110 14125
+type(
+  'h obj
+)
+ident(
+  def obj "gobject.ml" 372 14110 14126 "gobject.ml" 388 14648 14702
+)
+"gobject.ml" 372 14110 14126 "gobject.ml" 372 14110 14130
+type(
+  ('h, 'i) property
+)
+ident(
+  def prop "gobject.ml" 373 14133 14137 "gobject.ml" 388 14648 14702
+)
+"gobject.ml" 373 14133 14141 "gobject.ml" 373 14133 14143
+type(
+  'j obj -> string
+)
+"gobject.ml" 373 14133 14144 "gobject.ml" 373 14133 14147
+type(
+  'j obj
+)
+ident(
+  def obj "gobject.ml" 373 14133 14150 "gobject.ml" 373 14133 14181
+)
+"gobject.ml" 373 14133 14150 "gobject.ml" 373 14133 14159
+type(
+  g_type -> string
+)
+ident(
+  ext_ref Type.name
+)
+"gobject.ml" 373 14133 14161 "gobject.ml" 373 14133 14176
+type(
+  'j obj -> g_type
+)
+"gobject.ml" 373 14133 14177 "gobject.ml" 373 14133 14180
+type(
+  'j obj
+)
+ident(
+  int_ref obj "gobject.ml" 373 14133 14144 "gobject.ml" 373 14133 14147
+)
+"gobject.ml" 373 14133 14160 "gobject.ml" 373 14133 14181
+type(
+  g_type
+)
+"gobject.ml" 373 14133 14150 "gobject.ml" 373 14133 14181
+type(
+  string
+)
+"gobject.ml" 374 14185 14193 "gobject.ml" 374 14185 14198
+type(
+  data_get
+)
+"gobject.ml" 375 14201 14211 "gobject.ml" 375 14201 14218
+type(
+  'h obj -> string -> data_get
+)
+"gobject.ml" 375 14201 14219 "gobject.ml" 375 14201 14222
+type(
+  'h obj
+)
+ident(
+  int_ref obj "gobject.ml" 372 14110 14122 "gobject.ml" 372 14110 14125
+)
+"gobject.ml" 375 14201 14223 "gobject.ml" 375 14201 14227
+type(
+  ('h, 'i) property
+)
+ident(
+  int_ref prop "gobject.ml" 372 14110 14126 "gobject.ml" 372 14110 14130
+)
+"gobject.ml" 375 14201 14223 "gobject.ml" 375 14201 14232
+type(
+  string
+)
+"gobject.ml" 375 14201 14211 "gobject.ml" 375 14201 14232
+type(
+  data_get
+)
+"gobject.ml" 377 14244 14269 "gobject.ml" 377 14244 14270
+type(
+  string
+)
+"gobject.ml" 377 14244 14252 "gobject.ml" 377 14244 14270
+type(
+  exn
+)
+"gobject.ml" 377 14244 14274 "gobject.ml" 377 14244 14282
+type(
+  string -> data_get
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 377 14244 14284 "gobject.ml" 377 14244 14286
+type(
+  'h obj -> string
+)
+ident(
+  int_ref tp "gobject.ml" 373 14133 14141 "gobject.ml" 373 14133 14143
+)
+"gobject.ml" 377 14244 14287 "gobject.ml" 377 14244 14290
+type(
+  'h obj
+)
+ident(
+  int_ref obj "gobject.ml" 372 14110 14122 "gobject.ml" 372 14110 14125
+)
+"gobject.ml" 377 14244 14284 "gobject.ml" 377 14244 14290
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 377 14244 14291 "gobject.ml" 377 14244 14292
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 377 14244 14293 "gobject.ml" 377 14244 14312
+type(
+  string
+)
+"gobject.ml" 377 14244 14313 "gobject.ml" 377 14244 14314
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 377 14244 14315 "gobject.ml" 377 14244 14319
+type(
+  ('h, 'i) property
+)
+ident(
+  int_ref prop "gobject.ml" 372 14110 14126 "gobject.ml" 372 14110 14130
+)
+"gobject.ml" 377 14244 14315 "gobject.ml" 377 14244 14324
+type(
+  string
+)
+"gobject.ml" 377 14244 14293 "gobject.ml" 377 14244 14324
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 377 14244 14283 "gobject.ml" 377 14244 14325
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 377 14244 14274 "gobject.ml" 377 14244 14325
+call(
+  stack
+)
+type(
+  data_get
+)
+"gobject.ml" 378 14326 14334 "gobject.ml" 378 14326 14337
+type(
+  exn
+)
+ident(
+  def exn "gobject.ml" 379 14341 14351 "gobject.ml" 381 14439 14458
+)
+"gobject.ml" 379 14341 14351 "gobject.ml" 379 14341 14364
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"gobject.ml" 380 14365 14378 "gobject.ml" 380 14365 14408
+type(
+  string
+)
+"gobject.ml" 380 14365 14409 "gobject.ml" 380 14365 14410
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 380 14365 14411 "gobject.ml" 380 14365 14413
+type(
+  'h obj -> string
+)
+ident(
+  int_ref tp "gobject.ml" 373 14133 14141 "gobject.ml" 373 14133 14143
+)
+"gobject.ml" 380 14365 14414 "gobject.ml" 380 14365 14417
+type(
+  'h obj
+)
+ident(
+  int_ref obj "gobject.ml" 372 14110 14122 "gobject.ml" 372 14110 14125
+)
+"gobject.ml" 380 14365 14411 "gobject.ml" 380 14365 14417
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 380 14365 14418 "gobject.ml" 380 14365 14419
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 380 14365 14420 "gobject.ml" 380 14365 14424
+type(
+  string
+)
+"gobject.ml" 380 14365 14425 "gobject.ml" 380 14365 14426
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 380 14365 14427 "gobject.ml" 380 14365 14431
+type(
+  ('h, 'i) property
+)
+ident(
+  int_ref prop "gobject.ml" 372 14110 14126 "gobject.ml" 372 14110 14130
+)
+"gobject.ml" 380 14365 14427 "gobject.ml" 380 14365 14436
+type(
+  string
+)
+"gobject.ml" 380 14365 14420 "gobject.ml" 380 14365 14436
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 380 14365 14411 "gobject.ml" 380 14365 14436
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 380 14365 14377 "gobject.ml" 380 14365 14437
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 379 14341 14351 "gobject.ml" 380 14365 14437
+call(
+  stack
+)
+type(
+  unit
+)
+"gobject.ml" 381 14439 14449 "gobject.ml" 381 14439 14454
+type(
+  exn -> data_get
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"gobject.ml" 381 14439 14455 "gobject.ml" 381 14439 14458
+type(
+  exn
+)
+ident(
+  int_ref exn "gobject.ml" 378 14326 14334 "gobject.ml" 378 14326 14337
+)
+"gobject.ml" 381 14439 14449 "gobject.ml" 381 14439 14458
+type(
+  data_get
+)
+"gobject.ml" 379 14341 14351 "gobject.ml" 381 14439 14458
+type(
+  data_get
+)
+"gobject.ml" 375 14201 14207 "gobject.ml" 381 14439 14458
+type(
+  data_get
+)
+"gobject.ml" 383 14466 14474 "gobject.ml" 383 14466 14480
+type(
+  'i -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"gobject.ml" 383 14466 14482 "gobject.ml" 383 14466 14485
+type(
+  'h obj -> ('h, 'i) property -> 'i
+)
+ident(
+  int_ref get "gobject.ml" 354 13537 13543 "gobject.ml" 354 13537 13546
+)
+"gobject.ml" 383 14466 14486 "gobject.ml" 383 14466 14489
+type(
+  'h obj
+)
+ident(
+  int_ref obj "gobject.ml" 372 14110 14122 "gobject.ml" 372 14110 14125
+)
+"gobject.ml" 383 14466 14490 "gobject.ml" 383 14466 14494
+type(
+  ('h, 'i) property
+)
+ident(
+  int_ref prop "gobject.ml" 372 14110 14126 "gobject.ml" 372 14110 14130
+)
+"gobject.ml" 383 14466 14481 "gobject.ml" 383 14466 14495
+call(
+  stack
+)
+type(
+  'i
+)
+"gobject.ml" 383 14466 14474 "gobject.ml" 383 14466 14495
+type(
+  unit
+)
+"gobject.ml" 384 14501 14515 "gobject.ml" 384 14501 14516
+type(
+  string
+)
+ident(
+  def s "gobject.ml" 385 14520 14528 "gobject.ml" 385 14520 14588
+)
+"gobject.ml" 384 14501 14507 "gobject.ml" 384 14501 14516
+type(
+  exn
+)
+"gobject.ml" 385 14520 14528 "gobject.ml" 385 14520 14536
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 385 14520 14538 "gobject.ml" 385 14520 14539
+type(
+  string
+)
+ident(
+  int_ref s "gobject.ml" 384 14501 14515 "gobject.ml" 384 14501 14516
+)
+"gobject.ml" 385 14520 14540 "gobject.ml" 385 14520 14541
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 385 14520 14542 "gobject.ml" 385 14520 14559
+type(
+  string
+)
+"gobject.ml" 385 14520 14560 "gobject.ml" 385 14520 14561
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 385 14520 14562 "gobject.ml" 385 14520 14564
+type(
+  'h obj -> string
+)
+ident(
+  int_ref tp "gobject.ml" 373 14133 14141 "gobject.ml" 373 14133 14143
+)
+"gobject.ml" 385 14520 14565 "gobject.ml" 385 14520 14568
+type(
+  'h obj
+)
+ident(
+  int_ref obj "gobject.ml" 372 14110 14122 "gobject.ml" 372 14110 14125
+)
+"gobject.ml" 385 14520 14562 "gobject.ml" 385 14520 14568
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 385 14520 14569 "gobject.ml" 385 14520 14570
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 385 14520 14571 "gobject.ml" 385 14520 14575
+type(
+  string
+)
+"gobject.ml" 385 14520 14576 "gobject.ml" 385 14520 14577
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 385 14520 14578 "gobject.ml" 385 14520 14582
+type(
+  ('h, 'i) property
+)
+ident(
+  int_ref prop "gobject.ml" 372 14110 14126 "gobject.ml" 372 14110 14130
+)
+"gobject.ml" 385 14520 14578 "gobject.ml" 385 14520 14587
+type(
+  string
+)
+"gobject.ml" 385 14520 14571 "gobject.ml" 385 14520 14587
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 385 14520 14562 "gobject.ml" 385 14520 14587
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 385 14520 14542 "gobject.ml" 385 14520 14587
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 385 14520 14537 "gobject.ml" 385 14520 14588
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 385 14520 14528 "gobject.ml" 385 14520 14588
+call(
+  tail
+)
+type(
+  unit
+)
+"gobject.ml" 386 14589 14595 "gobject.ml" 386 14589 14598
+type(
+  exn
+)
+ident(
+  def exn "gobject.ml" 387 14602 14610 "gobject.ml" 388 14648 14702
+)
+"gobject.ml" 387 14602 14610 "gobject.ml" 387 14602 14618
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gobject.ml" 387 14602 14620 "gobject.ml" 387 14602 14622
+type(
+  'h obj -> string
+)
+ident(
+  int_ref tp "gobject.ml" 373 14133 14141 "gobject.ml" 373 14133 14143
+)
+"gobject.ml" 387 14602 14623 "gobject.ml" 387 14602 14626
+type(
+  'h obj
+)
+ident(
+  int_ref obj "gobject.ml" 372 14110 14122 "gobject.ml" 372 14110 14125
+)
+"gobject.ml" 387 14602 14620 "gobject.ml" 387 14602 14626
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 387 14602 14627 "gobject.ml" 387 14602 14628
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 387 14602 14629 "gobject.ml" 387 14602 14633
+type(
+  string
+)
+"gobject.ml" 387 14602 14634 "gobject.ml" 387 14602 14635
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 387 14602 14636 "gobject.ml" 387 14602 14640
+type(
+  ('h, 'i) property
+)
+ident(
+  int_ref prop "gobject.ml" 372 14110 14126 "gobject.ml" 372 14110 14130
+)
+"gobject.ml" 387 14602 14636 "gobject.ml" 387 14602 14645
+type(
+  string
+)
+"gobject.ml" 387 14602 14646 "gobject.ml" 387 14602 14647
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 388 14648 14666 "gobject.ml" 388 14648 14676
+type(
+  string
+)
+"gobject.ml" 388 14648 14677 "gobject.ml" 388 14648 14678
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gobject.ml" 388 14648 14679 "gobject.ml" 388 14648 14697
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"gobject.ml" 388 14648 14698 "gobject.ml" 388 14648 14701
+type(
+  exn
+)
+ident(
+  int_ref exn "gobject.ml" 386 14589 14595 "gobject.ml" 386 14589 14598
+)
+"gobject.ml" 388 14648 14679 "gobject.ml" 388 14648 14701
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 388 14648 14666 "gobject.ml" 388 14648 14701
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 387 14602 14636 "gobject.ml" 388 14648 14701
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 387 14602 14629 "gobject.ml" 388 14648 14701
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 387 14602 14619 "gobject.ml" 388 14648 14702
+call(
+  stack
+)
+type(
+  string
+)
+"gobject.ml" 387 14602 14610 "gobject.ml" 388 14648 14702
+call(
+  tail
+)
+type(
+  unit
+)
+"gobject.ml" 383 14466 14470 "gobject.ml" 388 14648 14702
+type(
+  unit
+)
+"gobject.ml" 374 14185 14189 "gobject.ml" 388 14648 14702
+type(
+  unit
+)
+"gobject.ml" 373 14133 14137 "gobject.ml" 388 14648 14702
+type(
+  unit
+)
+"gobject.ml" 390 14704 14710 "gobject.ml" 390 14704 14718
+type(
+  ('k, 'l) property -> 'l option -> 'k param list -> 'k param list
+)
+ident(
+  def may_cons "gobject.ml" 392 14787 14789 "gobject.ml" 394 14874 14877
+)
+"gobject.ml" 390 14704 14719 "gobject.ml" 390 14704 14723
+type(
+  ('k, 'l) property
+)
+ident(
+  def prop "gobject.ml" 390 14704 14724 "gobject.ml" 391 14730 14786
+)
+"gobject.ml" 390 14704 14724 "gobject.ml" 390 14704 14725
+type(
+  'l option
+)
+ident(
+  def x "gobject.ml" 390 14704 14726 "gobject.ml" 391 14730 14786
+)
+"gobject.ml" 390 14704 14726 "gobject.ml" 390 14704 14727
+type(
+  'k param list
+)
+ident(
+  def l "gobject.ml" 391 14730 14734 "gobject.ml" 391 14730 14786
+)
+"gobject.ml" 391 14730 14740 "gobject.ml" 391 14730 14741
+type(
+  'l option
+)
+ident(
+  int_ref x "gobject.ml" 390 14704 14724 "gobject.ml" 390 14704 14725
+)
+"gobject.ml" 391 14730 14752 "gobject.ml" 391 14730 14753
+type(
+  'l
+)
+ident(
+  def x "gobject.ml" 391 14730 14757 "gobject.ml" 391 14730 14774
+)
+"gobject.ml" 391 14730 14747 "gobject.ml" 391 14730 14753
+type(
+  'l option
+)
+"gobject.ml" 391 14730 14757 "gobject.ml" 391 14730 14762
+type(
+  ('k, 'l) property -> 'l -> 'k param
+)
+ident(
+  int_ref param "gobject.ml" 201 7681 7685 "gobject.ml" 201 7681 7690
+)
+"gobject.ml" 391 14730 14763 "gobject.ml" 391 14730 14767
+type(
+  ('k, 'l) property
+)
+ident(
+  int_ref prop "gobject.ml" 390 14704 14719 "gobject.ml" 390 14704 14723
+)
+"gobject.ml" 391 14730 14768 "gobject.ml" 391 14730 14769
+type(
+  'l
+)
+ident(
+  int_ref x "gobject.ml" 391 14730 14752 "gobject.ml" 391 14730 14753
+)
+"gobject.ml" 391 14730 14757 "gobject.ml" 391 14730 14769
+call(
+  stack
+)
+type(
+  'k param
+)
+"gobject.ml" 391 14730 14773 "gobject.ml" 391 14730 14774
+type(
+  'k param list
+)
+ident(
+  int_ref l "gobject.ml" 390 14704 14726 "gobject.ml" 390 14704 14727
+)
+"gobject.ml" 391 14730 14757 "gobject.ml" 391 14730 14774
+type(
+  'k param list
+)
+"gobject.ml" 391 14730 14777 "gobject.ml" 391 14730 14781
+type(
+  'l option
+)
+"gobject.ml" 391 14730 14785 "gobject.ml" 391 14730 14786
+type(
+  'k param list
+)
+ident(
+  int_ref l "gobject.ml" 390 14704 14726 "gobject.ml" 390 14704 14727
+)
+"gobject.ml" 391 14730 14734 "gobject.ml" 391 14730 14786
+type(
+  'k param list
+)
+"gobject.ml" 392 14787 14793 "gobject.ml" 392 14787 14805
+type(
+  ('m, 'n option) property -> 'n option -> 'm param list -> 'm param list
+)
+ident(
+  def may_cons_opt "gobject.ml" 393 14817 14873 "gobject.ml" 394 14874 14877
+)
+"gobject.ml" 392 14787 14806 "gobject.ml" 392 14787 14810
+type(
+  ('m, 'n option) property
+)
+ident(
+  def prop "gobject.ml" 392 14787 14811 "gobject.ml" 393 14817 14873
+)
+"gobject.ml" 392 14787 14811 "gobject.ml" 392 14787 14812
+type(
+  'n option
+)
+ident(
+  def x "gobject.ml" 392 14787 14813 "gobject.ml" 393 14817 14873
+)
+"gobject.ml" 392 14787 14813 "gobject.ml" 392 14787 14814
+type(
+  'm param list
+)
+ident(
+  def l "gobject.ml" 393 14817 14821 "gobject.ml" 393 14817 14873
+)
+"gobject.ml" 393 14817 14827 "gobject.ml" 393 14817 14828
+type(
+  'n option
+)
+ident(
+  int_ref x "gobject.ml" 392 14787 14811 "gobject.ml" 392 14787 14812
+)
+"gobject.ml" 393 14817 14839 "gobject.ml" 393 14817 14840
+type(
+  'n
+)
+"gobject.ml" 393 14817 14834 "gobject.ml" 393 14817 14840
+type(
+  'n option
+)
+"gobject.ml" 393 14817 14844 "gobject.ml" 393 14817 14849
+type(
+  ('m, 'n option) property -> 'n option -> 'm param
+)
+ident(
+  int_ref param "gobject.ml" 201 7681 7685 "gobject.ml" 201 7681 7690
+)
+"gobject.ml" 393 14817 14850 "gobject.ml" 393 14817 14854
+type(
+  ('m, 'n option) property
+)
+ident(
+  int_ref prop "gobject.ml" 392 14787 14806 "gobject.ml" 392 14787 14810
+)
+"gobject.ml" 393 14817 14855 "gobject.ml" 393 14817 14856
+type(
+  'n option
+)
+ident(
+  int_ref x "gobject.ml" 392 14787 14811 "gobject.ml" 392 14787 14812
+)
+"gobject.ml" 393 14817 14844 "gobject.ml" 393 14817 14856
+call(
+  stack
+)
+type(
+  'm param
+)
+"gobject.ml" 393 14817 14860 "gobject.ml" 393 14817 14861
+type(
+  'm param list
+)
+ident(
+  int_ref l "gobject.ml" 392 14787 14813 "gobject.ml" 392 14787 14814
+)
+"gobject.ml" 393 14817 14844 "gobject.ml" 393 14817 14861
+type(
+  'm param list
+)
+"gobject.ml" 393 14817 14864 "gobject.ml" 393 14817 14868
+type(
+  'n option
+)
+"gobject.ml" 393 14817 14872 "gobject.ml" 393 14817 14873
+type(
+  'm param list
+)
+ident(
+  int_ref l "gobject.ml" 392 14787 14813 "gobject.ml" 392 14787 14814
+)
+"gobject.ml" 393 14817 14821 "gobject.ml" 393 14817 14873
+type(
+  'm param list
+)
+"gobject.ml" 396 14879 14883 "gobject.ml" 396 14879 14886
+type(
+  ('a, 'b) property -> 'a obj -> 'b -> unit
+)
+ident(
+  def set "gobject.ml" 397 14914 14914 --
+)
+"gobject.ml" 396 14879 14887 "gobject.ml" 396 14879 14888
+type(
+  ('a, 'b) property
+)
+ident(
+  def o "gobject.ml" 396 14879 14889 "gobject.ml" 396 14879 14913
+)
+"gobject.ml" 396 14879 14889 "gobject.ml" 396 14879 14890
+type(
+  'a obj
+)
+ident(
+  def p "gobject.ml" 396 14879 14891 "gobject.ml" 396 14879 14913
+)
+"gobject.ml" 396 14879 14891 "gobject.ml" 396 14879 14892
+type(
+  'b
+)
+ident(
+  def x "gobject.ml" 396 14879 14895 "gobject.ml" 396 14879 14913
+)
+"gobject.ml" 396 14879 14895 "gobject.ml" 396 14879 14907
+type(
+  'a obj -> ('a, 'b) property -> 'b -> unit
+)
+ident(
+  ext_ref Property.set
+)
+"gobject.ml" 396 14879 14908 "gobject.ml" 396 14879 14909
+type(
+  'a obj
+)
+ident(
+  int_ref p "gobject.ml" 396 14879 14889 "gobject.ml" 396 14879 14890
+)
+"gobject.ml" 396 14879 14910 "gobject.ml" 396 14879 14911
+type(
+  ('a, 'b) property
+)
+ident(
+  int_ref o "gobject.ml" 396 14879 14887 "gobject.ml" 396 14879 14888
+)
+"gobject.ml" 396 14879 14912 "gobject.ml" 396 14879 14913
+type(
+  'b
+)
+ident(
+  int_ref x "gobject.ml" 396 14879 14891 "gobject.ml" 396 14879 14892
+)
+"gobject.ml" 396 14879 14895 "gobject.ml" 396 14879 14913
+call(
+  tail
+)
+type(
+  unit
+)
+"gobject.ml" 397 14914 14918 "gobject.ml" 397 14914 14921
+type(
+  ('a, 'b) property -> 'a obj -> 'b
+)
+ident(
+  def get "gobject.ml" 398 14945 14945 --
+)
+"gobject.ml" 397 14914 14922 "gobject.ml" 397 14914 14923
+type(
+  ('a, 'b) property
+)
+ident(
+  def o "gobject.ml" 397 14914 14924 "gobject.ml" 397 14914 14944
+)
+"gobject.ml" 397 14914 14924 "gobject.ml" 397 14914 14925
+type(
+  'a obj
+)
+ident(
+  def p "gobject.ml" 397 14914 14928 "gobject.ml" 397 14914 14944
+)
+"gobject.ml" 397 14914 14928 "gobject.ml" 397 14914 14940
+type(
+  'a obj -> ('a, 'b) property -> 'b
+)
+ident(
+  ext_ref Property.get
+)
+"gobject.ml" 397 14914 14941 "gobject.ml" 397 14914 14942
+type(
+  'a obj
+)
+ident(
+  int_ref p "gobject.ml" 397 14914 14924 "gobject.ml" 397 14914 14925
+)
+"gobject.ml" 397 14914 14943 "gobject.ml" 397 14914 14944
+type(
+  ('a, 'b) property
+)
+ident(
+  int_ref o "gobject.ml" 397 14914 14922 "gobject.ml" 397 14914 14923
+)
+"gobject.ml" 397 14914 14928 "gobject.ml" 397 14914 14944
+call(
+  tail
+)
+type(
+  'b
+)
+"gobject.ml" 398 14945 14949 "gobject.ml" 398 14945 14959
+type(
+  'a obj -> (string * 'b data_set) list -> unit
+)
+ident(
+  def set_params "gobject.ml" 399 14973 15044 --
+)
+"gobject.ml" 398 14945 14960 "gobject.ml" 398 14945 14963
+type(
+  'a obj
+)
+ident(
+  def obj "gobject.ml" 398 14945 14964 "gobject.ml" 399 14973 15044
+)
+"gobject.ml" 398 14945 14964 "gobject.ml" 398 14945 14970
+type(
+  (string * 'b data_set) list
+)
+ident(
+  def params "gobject.ml" 399 14973 14975 "gobject.ml" 399 14973 15044
+)
+"gobject.ml" 399 14973 14975 "gobject.ml" 399 14973 14984
+type(
+  f:(string * 'b data_set -> unit) -> (string * 'b data_set) list -> unit
+)
+ident(
+  ext_ref StdLabels.List.iter
+)
+"gobject.ml" 399 14973 14985 "gobject.ml" 399 14973 14991
+type(
+  (string * 'b data_set) list
+)
+ident(
+  int_ref params "gobject.ml" 398 14945 14964 "gobject.ml" 398 14945 14970
+)
+"gobject.ml" 399 14973 15001 "gobject.ml" 399 14973 15005
+type(
+  string
+)
+ident(
+  def prop "gobject.ml" 399 14973 15014 "gobject.ml" 399 14973 15043
+)
+"gobject.ml" 399 14973 15006 "gobject.ml" 399 14973 15009
+type(
+  'b data_set
+)
+ident(
+  def arg "gobject.ml" 399 14973 15014 "gobject.ml" 399 14973 15043
+)
+"gobject.ml" 399 14973 15000 "gobject.ml" 399 14973 15010
+type(
+  string * 'b data_set
+)
+"gobject.ml" 399 14973 15014 "gobject.ml" 399 14973 15030
+type(
+  'a obj -> string -> 'b data_set -> unit
+)
+ident(
+  ext_ref Property.set_dyn
+)
+"gobject.ml" 399 14973 15031 "gobject.ml" 399 14973 15034
+type(
+  'a obj
+)
+ident(
+  int_ref obj "gobject.ml" 398 14945 14960 "gobject.ml" 398 14945 14963
+)
+"gobject.ml" 399 14973 15035 "gobject.ml" 399 14973 15039
+type(
+  string
+)
+ident(
+  int_ref prop "gobject.ml" 399 14973 15001 "gobject.ml" 399 14973 15005
+)
+"gobject.ml" 399 14973 15040 "gobject.ml" 399 14973 15043
+type(
+  'b data_set
+)
+ident(
+  int_ref arg "gobject.ml" 399 14973 15006 "gobject.ml" 399 14973 15009
+)
+"gobject.ml" 399 14973 15014 "gobject.ml" 399 14973 15043
+type(
+  unit
+)
+"gobject.ml" 399 14973 14995 "gobject.ml" 399 14973 15044
+type(
+  string * 'b data_set -> unit
+)
+"gobject.ml" 399 14973 14975 "gobject.ml" 399 14973 15044
+call(
+  tail
+)
+type(
+  unit
+)

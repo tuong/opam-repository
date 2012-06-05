@@ -1,0 +1,4 @@
+deps=ocamlbuild,oUnit(>=1.1.0),benchmark
+tarball=ocaml-radixtree-0.0.1.tar.gz
+is_library=true
+is_program=false

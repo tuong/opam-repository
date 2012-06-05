@@ -1,0 +1,213 @@
+"gMain.ml" 33 1762 1768 "gMain.ml" 33 1762 1771
+type(
+  #GObj.widget -> unit
+)
+ident(
+  def add "gMain.ml" 34 1804 1806 "gMain.ml" 36 1903 1906
+)
+"gMain.ml" 33 1762 1773 "gMain.ml" 33 1762 1774
+type(
+  #GObj.widget as 'a
+)
+ident(
+  def w "gMain.ml" 33 1762 1788 "gMain.ml" 33 1762 1803
+)
+"gMain.ml" 33 1762 1788 "gMain.ml" 33 1762 1791
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMain.Grab.add
+)
+"gMain.ml" 33 1762 1792 "gMain.ml" 33 1762 1793
+type(
+  'a
+)
+ident(
+  int_ref w "gMain.ml" 33 1762 1773 "gMain.ml" 33 1762 1774
+)
+"gMain.ml" 33 1762 1792 "gMain.ml" 33 1762 1803
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gMain.ml" 33 1762 1788 "gMain.ml" 33 1762 1803
+type(
+  unit
+)
+"gMain.ml" 34 1804 1810 "gMain.ml" 34 1804 1816
+type(
+  #GObj.widget -> unit
+)
+ident(
+  def remove "gMain.ml" 35 1852 1854 "gMain.ml" 36 1903 1906
+)
+"gMain.ml" 34 1804 1818 "gMain.ml" 34 1804 1819
+type(
+  #GObj.widget as 'b
+)
+ident(
+  def w "gMain.ml" 34 1804 1833 "gMain.ml" 34 1804 1851
+)
+"gMain.ml" 34 1804 1833 "gMain.ml" 34 1804 1839
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMain.Grab.remove
+)
+"gMain.ml" 34 1804 1840 "gMain.ml" 34 1804 1841
+type(
+  'b
+)
+ident(
+  int_ref w "gMain.ml" 34 1804 1818 "gMain.ml" 34 1804 1819
+)
+"gMain.ml" 34 1804 1840 "gMain.ml" 34 1804 1851
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gMain.ml" 34 1804 1833 "gMain.ml" 34 1804 1851
+type(
+  unit
+)
+"gMain.ml" 35 1852 1858 "gMain.ml" 35 1852 1869
+type(
+  unit -> GObj.widget
+)
+ident(
+  def get_current "gMain.ml" 35 1852 1902 "gMain.ml" 36 1903 1906
+)
+"gMain.ml" 35 1852 1870 "gMain.ml" 35 1852 1872
+type(
+  unit
+)
+"gMain.ml" 35 1852 1875 "gMain.ml" 35 1852 1885
+type(
+  Gtk.widget Gtk.obj -> GObj.widget
+)
+"gMain.ml" 35 1852 1887 "gMain.ml" 35 1852 1898
+type(
+  unit -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GtkMain.Grab.get_current
+)
+"gMain.ml" 35 1852 1899 "gMain.ml" 35 1852 1901
+type(
+  unit
+)
+"gMain.ml" 35 1852 1886 "gMain.ml" 35 1852 1902
+type(
+  Gtk.widget Gtk.obj
+)
+"gMain.ml" 35 1852 1875 "gMain.ml" 35 1852 1902
+call(
+  tail
+)
+type(
+  GObj.widget
+)
+"gMain.ml" 49 2033 2037 "gMain.ml" 49 2033 2041
+type(
+  unit -> unit
+)
+ident(
+  def main "gMain.ml" 50 2049 2049 --
+)
+"gMain.ml" 49 2033 2044 "gMain.ml" 49 2033 2048
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Main.main
+)
+"gMain.ml" 50 2049 2053 "gMain.ml" 50 2049 2057
+type(
+  unit -> unit
+)
+ident(
+  def quit "gMain.ml" 51 2065 2065 --
+)
+"gMain.ml" 50 2049 2060 "gMain.ml" 50 2049 2064
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Main.quit
+)
+"gMain.ml" 51 2065 2069 "gMain.ml" 51 2065 2073
+type(
+  ?setlocale:bool -> unit -> string
+)
+ident(
+  def init "gMain.ml" 53 2082 2082 --
+)
+"gMain.ml" 51 2065 2076 "gMain.ml" 51 2065 2080
+type(
+  ?setlocale:bool -> unit -> string
+)
+ident(
+  ext_ref Main.init
+)
+"gMain.ml" 53 2082 2086 "gMain.ml" 53 2082 2095
+type(
+  GData.clipboard
+)
+ident(
+  def selection "gMain.ml" 54 2131 2131 --
+)
+"gMain.ml" 53 2082 2098 "gMain.ml" 53 2082 2113
+type(
+  Gdk.atom -> GData.clipboard
+)
+ident(
+  ext_ref GData.clipboard
+)
+"gMain.ml" 53 2082 2114 "gMain.ml" 53 2082 2130
+type(
+  Gdk.atom
+)
+ident(
+  ext_ref Gdk.Atom.primary
+)
+"gMain.ml" 53 2082 2098 "gMain.ml" 53 2082 2130
+call(
+  stack
+)
+type(
+  GData.clipboard
+)
+"gMain.ml" 54 2131 2135 "gMain.ml" 54 2131 2144
+type(
+  GData.clipboard
+)
+ident(
+  def clipboard "gMain.ml" 54 2131 2181 --
+)
+"gMain.ml" 54 2131 2147 "gMain.ml" 54 2131 2162
+type(
+  Gdk.atom -> GData.clipboard
+)
+ident(
+  ext_ref GData.clipboard
+)
+"gMain.ml" 54 2131 2163 "gMain.ml" 54 2131 2181
+type(
+  Gdk.atom
+)
+ident(
+  ext_ref Gdk.Atom.clipboard
+)
+"gMain.ml" 54 2131 2147 "gMain.ml" 54 2131 2181
+call(
+  stack
+)
+type(
+  GData.clipboard
+)

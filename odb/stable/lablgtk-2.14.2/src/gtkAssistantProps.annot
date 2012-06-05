@@ -1,0 +1,246 @@
+"gtkAssistantProps.ml" 7 60 64 "gtkAssistantProps.ml" 7 60 72
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons "gtkAssistantProps.ml" 8 93 93 --
+)
+"gtkAssistantProps.ml" 7 60 75 "gtkAssistantProps.ml" 7 60 92
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gtkAssistantProps.ml" 8 93 97 "gtkAssistantProps.ml" 8 93 109
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons_opt "gtkAssistantProps.ml" 10 135 135 --
+)
+"gtkAssistantProps.ml" 8 93 112 "gtkAssistantProps.ml" 8 93 133
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons_opt
+)
+"gtkAssistantProps.ml" 11 161 167 "gtkAssistantProps.ml" 11 161 171
+type(
+  'a Gobject.obj -> Gtk.assistant Gtk.obj
+)
+ident(
+  def cast "gtkAssistantProps.ml" 12 222 224 "gtkAssistantProps.ml" 65 2864 2867
+)
+"gtkAssistantProps.ml" 11 161 172 "gtkAssistantProps.ml" 11 161 173
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkAssistantProps.ml" 11 161 174 "gtkAssistantProps.ml" 11 161 221
+)
+"gtkAssistantProps.ml" 11 161 196 "gtkAssistantProps.ml" 11 161 204
+type(
+  'a Gobject.obj -> string -> Gtk.assistant Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkAssistantProps.ml" 11 161 205 "gtkAssistantProps.ml" 11 161 206
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkAssistantProps.ml" 11 161 172 "gtkAssistantProps.ml" 11 161 173
+)
+"gtkAssistantProps.ml" 11 161 207 "gtkAssistantProps.ml" 11 161 221
+type(
+  string
+)
+"gtkAssistantProps.ml" 11 161 196 "gtkAssistantProps.ml" 11 161 221
+call(
+  tail
+)
+type(
+  Gtk.assistant Gtk.obj
+)
+type(
+  Gtk.assistant Gtk.obj
+)
+"gtkAssistantProps.ml" 14 261 269 "gtkAssistantProps.ml" 14 261 274
+type(
+  ([> `assistant ], unit -> unit) GtkSignal.t
+)
+ident(
+  def apply "gtkAssistantProps.ml" 15 336 340 "gtkAssistantProps.ml" 20 648 653
+)
+"gtkAssistantProps.ml" 14 261 283 "gtkAssistantProps.ml" 14 261 290
+type(
+  string
+)
+"gtkAssistantProps.ml" 14 261 299 "gtkAssistantProps.ml" 14 261 309
+type(
+  [> `assistant ] as 'b
+)
+"gtkAssistantProps.ml" 14 261 322 "gtkAssistantProps.ml" 14 261 334
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkAssistantProps.ml" 14 261 277 "gtkAssistantProps.ml" 14 261 335
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+"gtkAssistantProps.ml" 15 336 344 "gtkAssistantProps.ml" 15 336 350
+type(
+  ([> `assistant ], unit -> unit) GtkSignal.t
+)
+ident(
+  def cancel "gtkAssistantProps.ml" 16 413 417 "gtkAssistantProps.ml" 20 648 653
+)
+"gtkAssistantProps.ml" 15 336 359 "gtkAssistantProps.ml" 15 336 367
+type(
+  string
+)
+"gtkAssistantProps.ml" 15 336 376 "gtkAssistantProps.ml" 15 336 386
+type(
+  [> `assistant ] as 'c
+)
+"gtkAssistantProps.ml" 15 336 399 "gtkAssistantProps.ml" 15 336 411
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkAssistantProps.ml" 15 336 353 "gtkAssistantProps.ml" 15 336 412
+type(
+  ('c, unit -> unit) GtkSignal.t
+)
+"gtkAssistantProps.ml" 16 413 421 "gtkAssistantProps.ml" 16 413 426
+type(
+  ([> `assistant ], unit -> unit) GtkSignal.t
+)
+ident(
+  def close "gtkAssistantProps.ml" 17 488 492 "gtkAssistantProps.ml" 20 648 653
+)
+"gtkAssistantProps.ml" 16 413 435 "gtkAssistantProps.ml" 16 413 442
+type(
+  string
+)
+"gtkAssistantProps.ml" 16 413 451 "gtkAssistantProps.ml" 16 413 461
+type(
+  [> `assistant ] as 'd
+)
+"gtkAssistantProps.ml" 16 413 474 "gtkAssistantProps.ml" 16 413 486
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkAssistantProps.ml" 16 413 429 "gtkAssistantProps.ml" 16 413 487
+type(
+  ('d, unit -> unit) GtkSignal.t
+)
+"gtkAssistantProps.ml" 17 488 496 "gtkAssistantProps.ml" 17 488 501
+type(
+  ([> `assistant ], unit -> unit) GtkSignal.t
+)
+ident(
+  def leave "gtkAssistantProps.ml" 18 563 567 "gtkAssistantProps.ml" 20 648 653
+)
+"gtkAssistantProps.ml" 17 488 510 "gtkAssistantProps.ml" 17 488 517
+type(
+  string
+)
+"gtkAssistantProps.ml" 17 488 526 "gtkAssistantProps.ml" 17 488 536
+type(
+  [> `assistant ] as 'e
+)
+"gtkAssistantProps.ml" 17 488 549 "gtkAssistantProps.ml" 17 488 561
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkAssistantProps.ml" 17 488 504 "gtkAssistantProps.ml" 17 488 562
+type(
+  ('e, unit -> unit) GtkSignal.t
+)
+"gtkAssistantProps.ml" 18 563 571 "gtkAssistantProps.ml" 18 563 578
+type(
+  ([> `assistant ], unit -> unit) GtkSignal.t
+)
+ident(
+  def prepare "gtkAssistantProps.ml" 19 581 647 "gtkAssistantProps.ml" 20 648 653
+)
+"gtkAssistantProps.ml" 19 581 593 "gtkAssistantProps.ml" 19 581 602
+type(
+  string
+)
+"gtkAssistantProps.ml" 19 581 611 "gtkAssistantProps.ml" 19 581 621
+type(
+  [> `assistant ] as 'f
+)
+"gtkAssistantProps.ml" 19 581 634 "gtkAssistantProps.ml" 19 581 646
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkAssistantProps.ml" 19 581 587 "gtkAssistantProps.ml" 19 581 647
+type(
+  ('f, unit -> unit) GtkSignal.t
+)
+"gtkAssistantProps.ml" 21 654 660 "gtkAssistantProps.ml" 21 654 666
+type(
+  Gtk.assistant Gobject.param list -> Gtk.assistant Gtk.obj
+)
+ident(
+  def create "gtkAssistantProps.ml" 22 722 724 "gtkAssistantProps.ml" 65 2864 2867
+)
+"gtkAssistantProps.ml" 21 654 667 "gtkAssistantProps.ml" 21 654 669
+type(
+  Gtk.assistant Gobject.param list
+)
+ident(
+  def pl "gtkAssistantProps.ml" 21 654 670 "gtkAssistantProps.ml" 21 654 721
+)
+"gtkAssistantProps.ml" 21 654 692 "gtkAssistantProps.ml" 21 654 703
+type(
+  classe:string -> Gtk.assistant Gobject.param list -> Gtk.assistant Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkAssistantProps.ml" 21 654 704 "gtkAssistantProps.ml" 21 654 718
+type(
+  string
+)
+"gtkAssistantProps.ml" 21 654 719 "gtkAssistantProps.ml" 21 654 721
+type(
+  Gtk.assistant Gobject.param list
+)
+ident(
+  int_ref pl "gtkAssistantProps.ml" 21 654 667 "gtkAssistantProps.ml" 21 654 669
+)
+"gtkAssistantProps.ml" 21 654 692 "gtkAssistantProps.ml" 21 654 721
+call(
+  tail
+)
+type(
+  Gtk.assistant Gtk.obj
+)
+type(
+  Gtk.assistant Gtk.obj
+)

@@ -1,0 +1,19 @@
+# How-to-build using OMake
+#
+# yes no | omake --install # to create OMakeroot for the first time
+
+# If OMakeroot is here, include OMyMakefile
+if $(file-exists OMakeroot)
+   include OMyMakefile
+   export
+
+OCAMLINCLUDES +=
+
+OCAMLFLAGS    += -annot -w Ae
+OCAMLCFLAGS   +=
+OCAMLOPTFLAGS +=
+OCAML_LINK_FLAGS +=
+OCAML_BYTE_LINK_FLAGS +=
+OCAML_NATIVE_LINK_FLAGS +=
+
+Subdirs()

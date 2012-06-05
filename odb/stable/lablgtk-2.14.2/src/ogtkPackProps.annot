@@ -1,0 +1,913 @@
+"ogtkPackProps.ml" 4 38 42 "ogtkPackProps.ml" 4 38 45
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  def set "ogtkPackProps.ml" 5 52 52 --
+)
+"ogtkPackProps.ml" 4 38 48 "ogtkPackProps.ml" 4 38 51
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  def get "ogtkPackProps.ml" 6 66 66 --
+)
+"ogtkPackProps.ml" 5 52 62 "ogtkPackProps.ml" 5 52 65
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  ext_ref Gobject.get
+)
+"ogtkPackProps.ml" 6 66 70 "ogtkPackProps.ml" 6 66 75
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  def param "ogtkPackProps.ml" 8 85 85 --
+)
+"ogtkPackProps.ml" 6 66 78 "ogtkPackProps.ml" 6 66 83
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"ogtkPackProps.ml" 14 184 208 "ogtkPackProps.ml" 14 184 211
+type(
+  ([> `paned ] as 'a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkPackProps.ml" 4 38 42 "ogtkPackProps.ml" 4 38 45
+)
+"ogtkPackProps.ml" 14 184 212 "ogtkPackProps.ml" 14 184 228
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Paned.P.position
+)
+"ogtkPackProps.ml" 14 184 229 "ogtkPackProps.ml" 14 184 232
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 14 184 208 "ogtkPackProps.ml" 14 184 232
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkPackProps.ml" 15 233 253 "ogtkPackProps.ml" 15 233 256
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+)
+"ogtkPackProps.ml" 15 233 257 "ogtkPackProps.ml" 15 233 273
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Paned.P.position
+)
+"ogtkPackProps.ml" 15 233 274 "ogtkPackProps.ml" 15 233 277
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 15 233 253 "ogtkPackProps.ml" 15 233 277
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkPackProps.ml" 16 278 302 "ogtkPackProps.ml" 16 278 305
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+)
+"ogtkPackProps.ml" 16 278 306 "ogtkPackProps.ml" 16 278 326
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Paned.P.max_position
+)
+"ogtkPackProps.ml" 16 278 327 "ogtkPackProps.ml" 16 278 330
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 16 278 302 "ogtkPackProps.ml" 16 278 330
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkPackProps.ml" 17 331 355 "ogtkPackProps.ml" 17 331 358
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+)
+"ogtkPackProps.ml" 17 331 359 "ogtkPackProps.ml" 17 331 379
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Paned.P.min_position
+)
+"ogtkPackProps.ml" 17 331 380 "ogtkPackProps.ml" 17 331 383
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 17 331 355 "ogtkPackProps.ml" 17 331 383
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkPackProps.ml" 22 453 481 "ogtkPackProps.ml" 22 453 484
+type(
+  ([> `notebook ] as 'a, bool) Gobject.property ->
+  'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkPackProps.ml" 4 38 42 "ogtkPackProps.ml" 4 38 45
+)
+"ogtkPackProps.ml" 22 453 485 "ogtkPackProps.ml" 22 453 508
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.enable_popup
+)
+"ogtkPackProps.ml" 22 453 509 "ogtkPackProps.ml" 22 453 512
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 22 453 481 "ogtkPackProps.ml" 22 453 512
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkPackProps.ml" 23 513 545 "ogtkPackProps.ml" 23 513 548
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkPackProps.ml" 4 38 42 "ogtkPackProps.ml" 4 38 45
+)
+"ogtkPackProps.ml" 23 513 549 "ogtkPackProps.ml" 23 513 571
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.homogeneous
+)
+"ogtkPackProps.ml" 23 513 572 "ogtkPackProps.ml" 23 513 575
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 23 513 545 "ogtkPackProps.ml" 23 513 575
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkPackProps.ml" 24 576 602 "ogtkPackProps.ml" 24 576 605
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkPackProps.ml" 4 38 42 "ogtkPackProps.ml" 4 38 45
+)
+"ogtkPackProps.ml" 24 576 606 "ogtkPackProps.ml" 24 576 627
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.scrollable
+)
+"ogtkPackProps.ml" 24 576 628 "ogtkPackProps.ml" 24 576 631
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 24 576 602 "ogtkPackProps.ml" 24 576 631
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkPackProps.ml" 25 632 659 "ogtkPackProps.ml" 25 632 662
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkPackProps.ml" 4 38 42 "ogtkPackProps.ml" 4 38 45
+)
+"ogtkPackProps.ml" 25 632 663 "ogtkPackProps.ml" 25 632 685
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.show_border
+)
+"ogtkPackProps.ml" 25 632 686 "ogtkPackProps.ml" 25 632 689
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 25 632 659 "ogtkPackProps.ml" 25 632 689
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkPackProps.ml" 26 690 715 "ogtkPackProps.ml" 26 690 718
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkPackProps.ml" 4 38 42 "ogtkPackProps.ml" 4 38 45
+)
+"ogtkPackProps.ml" 26 690 719 "ogtkPackProps.ml" 26 690 739
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.show_tabs
+)
+"ogtkPackProps.ml" 26 690 740 "ogtkPackProps.ml" 26 690 743
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 26 690 715 "ogtkPackProps.ml" 26 690 743
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkPackProps.ml" 27 744 770 "ogtkPackProps.ml" 27 744 773
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkPackProps.ml" 4 38 42 "ogtkPackProps.ml" 4 38 45
+)
+"ogtkPackProps.ml" 27 744 774 "ogtkPackProps.ml" 27 744 795
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.tab_border
+)
+"ogtkPackProps.ml" 27 744 796 "ogtkPackProps.ml" 27 744 799
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 27 744 770 "ogtkPackProps.ml" 27 744 799
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkPackProps.ml" 28 800 827 "ogtkPackProps.ml" 28 800 830
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkPackProps.ml" 4 38 42 "ogtkPackProps.ml" 4 38 45
+)
+"ogtkPackProps.ml" 28 800 831 "ogtkPackProps.ml" 28 800 853
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.tab_hborder
+)
+"ogtkPackProps.ml" 28 800 854 "ogtkPackProps.ml" 28 800 857
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 28 800 827 "ogtkPackProps.ml" 28 800 857
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkPackProps.ml" 29 858 881 "ogtkPackProps.ml" 29 858 884
+type(
+  ('a, GtkEnums.position_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.position_type -> unit
+)
+ident(
+  int_ref set "ogtkPackProps.ml" 4 38 42 "ogtkPackProps.ml" 4 38 45
+)
+"ogtkPackProps.ml" 29 858 885 "ogtkPackProps.ml" 29 858 903
+type(
+  ('a, GtkEnums.position_type) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.tab_pos
+)
+"ogtkPackProps.ml" 29 858 904 "ogtkPackProps.ml" 29 858 907
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 29 858 881 "ogtkPackProps.ml" 29 858 907
+call(
+  tail
+)
+type(
+  GtkEnums.position_type -> unit
+)
+type(
+  GtkEnums.position_type -> unit
+)
+"ogtkPackProps.ml" 30 908 935 "ogtkPackProps.ml" 30 908 938
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkPackProps.ml" 4 38 42 "ogtkPackProps.ml" 4 38 45
+)
+"ogtkPackProps.ml" 30 908 939 "ogtkPackProps.ml" 30 908 961
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.tab_vborder
+)
+"ogtkPackProps.ml" 30 908 962 "ogtkPackProps.ml" 30 908 965
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 30 908 935 "ogtkPackProps.ml" 30 908 965
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkPackProps.ml" 31 966 990 "ogtkPackProps.ml" 31 966 993
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+)
+"ogtkPackProps.ml" 31 966 994 "ogtkPackProps.ml" 31 966 1017
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.enable_popup
+)
+"ogtkPackProps.ml" 31 966 1018 "ogtkPackProps.ml" 31 966 1021
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 31 966 990 "ogtkPackProps.ml" 31 966 1021
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkPackProps.ml" 32 1022 1050 "ogtkPackProps.ml" 32 1022 1053
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+)
+"ogtkPackProps.ml" 32 1022 1054 "ogtkPackProps.ml" 32 1022 1076
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.homogeneous
+)
+"ogtkPackProps.ml" 32 1022 1077 "ogtkPackProps.ml" 32 1022 1080
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 32 1022 1050 "ogtkPackProps.ml" 32 1022 1080
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkPackProps.ml" 33 1081 1103 "ogtkPackProps.ml" 33 1081 1106
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+)
+"ogtkPackProps.ml" 33 1081 1107 "ogtkPackProps.ml" 33 1081 1128
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.scrollable
+)
+"ogtkPackProps.ml" 33 1081 1129 "ogtkPackProps.ml" 33 1081 1132
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 33 1081 1103 "ogtkPackProps.ml" 33 1081 1132
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkPackProps.ml" 34 1133 1156 "ogtkPackProps.ml" 34 1133 1159
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+)
+"ogtkPackProps.ml" 34 1133 1160 "ogtkPackProps.ml" 34 1133 1182
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.show_border
+)
+"ogtkPackProps.ml" 34 1133 1183 "ogtkPackProps.ml" 34 1133 1186
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 34 1133 1156 "ogtkPackProps.ml" 34 1133 1186
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkPackProps.ml" 35 1187 1208 "ogtkPackProps.ml" 35 1187 1211
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+)
+"ogtkPackProps.ml" 35 1187 1212 "ogtkPackProps.ml" 35 1187 1232
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.show_tabs
+)
+"ogtkPackProps.ml" 35 1187 1233 "ogtkPackProps.ml" 35 1187 1236
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 35 1187 1208 "ogtkPackProps.ml" 35 1187 1236
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkPackProps.ml" 36 1237 1260 "ogtkPackProps.ml" 36 1237 1263
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+)
+"ogtkPackProps.ml" 36 1237 1264 "ogtkPackProps.ml" 36 1237 1286
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.tab_hborder
+)
+"ogtkPackProps.ml" 36 1237 1287 "ogtkPackProps.ml" 36 1237 1290
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 36 1237 1260 "ogtkPackProps.ml" 36 1237 1290
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkPackProps.ml" 37 1291 1310 "ogtkPackProps.ml" 37 1291 1313
+type(
+  ('a, GtkEnums.position_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.position_type
+)
+ident(
+  int_ref get "ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+)
+"ogtkPackProps.ml" 37 1291 1314 "ogtkPackProps.ml" 37 1291 1332
+type(
+  ('a, GtkEnums.position_type) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.tab_pos
+)
+"ogtkPackProps.ml" 37 1291 1333 "ogtkPackProps.ml" 37 1291 1336
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 37 1291 1310 "ogtkPackProps.ml" 37 1291 1336
+call(
+  tail
+)
+type(
+  GtkEnums.position_type
+)
+type(
+  GtkEnums.position_type
+)
+"ogtkPackProps.ml" 38 1337 1360 "ogtkPackProps.ml" 38 1337 1363
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+)
+"ogtkPackProps.ml" 38 1337 1364 "ogtkPackProps.ml" 38 1337 1386
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Notebook.P.tab_vborder
+)
+"ogtkPackProps.ml" 38 1337 1387 "ogtkPackProps.ml" 38 1337 1390
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 38 1337 1360 "ogtkPackProps.ml" 38 1337 1390
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkPackProps.ml" 43 1457 1480 "ogtkPackProps.ml" 43 1457 1483
+type(
+  ([> `table ] as 'a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkPackProps.ml" 4 38 42 "ogtkPackProps.ml" 4 38 45
+)
+"ogtkPackProps.ml" 43 1457 1484 "ogtkPackProps.ml" 43 1457 1501
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Table.P.n_columns
+)
+"ogtkPackProps.ml" 43 1457 1502 "ogtkPackProps.ml" 43 1457 1505
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 43 1457 1480 "ogtkPackProps.ml" 43 1457 1505
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkPackProps.ml" 44 1506 1526 "ogtkPackProps.ml" 44 1506 1529
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkPackProps.ml" 4 38 42 "ogtkPackProps.ml" 4 38 45
+)
+"ogtkPackProps.ml" 44 1506 1530 "ogtkPackProps.ml" 44 1506 1544
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Table.P.n_rows
+)
+"ogtkPackProps.ml" 44 1506 1545 "ogtkPackProps.ml" 44 1506 1548
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 44 1506 1526 "ogtkPackProps.ml" 44 1506 1548
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkPackProps.ml" 45 1549 1576 "ogtkPackProps.ml" 45 1549 1579
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkPackProps.ml" 4 38 42 "ogtkPackProps.ml" 4 38 45
+)
+"ogtkPackProps.ml" 45 1549 1580 "ogtkPackProps.ml" 45 1549 1599
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Table.P.homogeneous
+)
+"ogtkPackProps.ml" 45 1549 1600 "ogtkPackProps.ml" 45 1549 1603
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 45 1549 1576 "ogtkPackProps.ml" 45 1549 1603
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkPackProps.ml" 46 1604 1632 "ogtkPackProps.ml" 46 1604 1635
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkPackProps.ml" 4 38 42 "ogtkPackProps.ml" 4 38 45
+)
+"ogtkPackProps.ml" 46 1604 1636 "ogtkPackProps.ml" 46 1604 1655
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Table.P.row_spacing
+)
+"ogtkPackProps.ml" 46 1604 1656 "ogtkPackProps.ml" 46 1604 1659
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 46 1604 1632 "ogtkPackProps.ml" 46 1604 1659
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkPackProps.ml" 47 1660 1688 "ogtkPackProps.ml" 47 1660 1691
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkPackProps.ml" 4 38 42 "ogtkPackProps.ml" 4 38 45
+)
+"ogtkPackProps.ml" 47 1660 1692 "ogtkPackProps.ml" 47 1660 1714
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Table.P.column_spacing
+)
+"ogtkPackProps.ml" 47 1660 1715 "ogtkPackProps.ml" 47 1660 1718
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 47 1660 1688 "ogtkPackProps.ml" 47 1660 1718
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkPackProps.ml" 48 1719 1738 "ogtkPackProps.ml" 48 1719 1741
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+)
+"ogtkPackProps.ml" 48 1719 1742 "ogtkPackProps.ml" 48 1719 1759
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Table.P.n_columns
+)
+"ogtkPackProps.ml" 48 1719 1760 "ogtkPackProps.ml" 48 1719 1763
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 48 1719 1738 "ogtkPackProps.ml" 48 1719 1763
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkPackProps.ml" 49 1764 1780 "ogtkPackProps.ml" 49 1764 1783
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+)
+"ogtkPackProps.ml" 49 1764 1784 "ogtkPackProps.ml" 49 1764 1798
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Table.P.n_rows
+)
+"ogtkPackProps.ml" 49 1764 1799 "ogtkPackProps.ml" 49 1764 1802
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 49 1764 1780 "ogtkPackProps.ml" 49 1764 1802
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkPackProps.ml" 50 1803 1826 "ogtkPackProps.ml" 50 1803 1829
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+)
+"ogtkPackProps.ml" 50 1803 1830 "ogtkPackProps.ml" 50 1803 1849
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Table.P.homogeneous
+)
+"ogtkPackProps.ml" 50 1803 1850 "ogtkPackProps.ml" 50 1803 1853
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 50 1803 1826 "ogtkPackProps.ml" 50 1803 1853
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkPackProps.ml" 51 1854 1878 "ogtkPackProps.ml" 51 1854 1881
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+)
+"ogtkPackProps.ml" 51 1854 1882 "ogtkPackProps.ml" 51 1854 1901
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Table.P.row_spacing
+)
+"ogtkPackProps.ml" 51 1854 1902 "ogtkPackProps.ml" 51 1854 1905
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 51 1854 1878 "ogtkPackProps.ml" 51 1854 1905
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkPackProps.ml" 52 1906 1930 "ogtkPackProps.ml" 52 1906 1933
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkPackProps.ml" 5 52 56 "ogtkPackProps.ml" 5 52 59
+)
+"ogtkPackProps.ml" 52 1906 1934 "ogtkPackProps.ml" 52 1906 1956
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkPackProps.Table.P.column_spacing
+)
+"ogtkPackProps.ml" 52 1906 1957 "ogtkPackProps.ml" 52 1906 1960
+type(
+  'a Gobject.obj
+)
+"ogtkPackProps.ml" 52 1906 1930 "ogtkPackProps.ml" 52 1906 1960
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)

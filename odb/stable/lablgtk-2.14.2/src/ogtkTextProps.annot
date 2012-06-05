@@ -1,0 +1,3830 @@
+"ogtkTextProps.ml" 4 38 42 "ogtkTextProps.ml" 4 38 45
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  def set "ogtkTextProps.ml" 5 52 52 --
+)
+"ogtkTextProps.ml" 4 38 48 "ogtkTextProps.ml" 4 38 51
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"ogtkTextProps.ml" 5 52 56 "ogtkTextProps.ml" 5 52 59
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  def get "ogtkTextProps.ml" 6 66 66 --
+)
+"ogtkTextProps.ml" 5 52 62 "ogtkTextProps.ml" 5 52 65
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  ext_ref Gobject.get
+)
+"ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  def param "ogtkTextProps.ml" 7 84 84 --
+)
+"ogtkTextProps.ml" 6 66 78 "ogtkTextProps.ml" 6 66 83
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"ogtkTextProps.ml" 11 168 192 "ogtkTextProps.ml" 11 168 195
+type(
+  ([> `textview ] as 'a, bool) Gobject.property ->
+  'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkTextProps.ml" 4 38 42 "ogtkTextProps.ml" 4 38 45
+)
+"ogtkTextProps.ml" 11 168 196 "ogtkTextProps.ml" 11 168 215
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.editable
+)
+"ogtkTextProps.ml" 11 168 216 "ogtkTextProps.ml" 11 168 219
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 11 168 192 "ogtkTextProps.ml" 11 168 219
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkTextProps.ml" 12 220 250 "ogtkTextProps.ml" 12 220 253
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkTextProps.ml" 4 38 42 "ogtkTextProps.ml" 4 38 45
+)
+"ogtkTextProps.ml" 12 220 254 "ogtkTextProps.ml" 12 220 279
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.cursor_visible
+)
+"ogtkTextProps.ml" 12 220 280 "ogtkTextProps.ml" 12 220 283
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 12 220 250 "ogtkTextProps.ml" 12 220 283
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkTextProps.ml" 13 284 306 "ogtkTextProps.ml" 13 284 309
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTextProps.ml" 4 38 42 "ogtkTextProps.ml" 4 38 45
+)
+"ogtkTextProps.ml" 13 284 310 "ogtkTextProps.ml" 13 284 327
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.indent
+)
+"ogtkTextProps.ml" 13 284 328 "ogtkTextProps.ml" 13 284 331
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 13 284 306 "ogtkTextProps.ml" 13 284 331
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTextProps.ml" 14 332 361 "ogtkTextProps.ml" 14 332 364
+type(
+  ('a, GtkEnums.justification) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.justification -> unit
+)
+ident(
+  int_ref set "ogtkTextProps.ml" 4 38 42 "ogtkTextProps.ml" 4 38 45
+)
+"ogtkTextProps.ml" 14 332 365 "ogtkTextProps.ml" 14 332 389
+type(
+  ('a, GtkEnums.justification) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.justification
+)
+"ogtkTextProps.ml" 14 332 390 "ogtkTextProps.ml" 14 332 393
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 14 332 361 "ogtkTextProps.ml" 14 332 393
+call(
+  tail
+)
+type(
+  GtkEnums.justification -> unit
+)
+type(
+  GtkEnums.justification -> unit
+)
+"ogtkTextProps.ml" 15 394 421 "ogtkTextProps.ml" 15 394 424
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTextProps.ml" 4 38 42 "ogtkTextProps.ml" 4 38 45
+)
+"ogtkTextProps.ml" 15 394 425 "ogtkTextProps.ml" 15 394 447
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.left_margin
+)
+"ogtkTextProps.ml" 15 394 448 "ogtkTextProps.ml" 15 394 451
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 15 394 421 "ogtkTextProps.ml" 15 394 451
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTextProps.ml" 16 452 486 "ogtkTextProps.ml" 16 452 489
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTextProps.ml" 4 38 42 "ogtkTextProps.ml" 4 38 45
+)
+"ogtkTextProps.ml" 16 452 490 "ogtkTextProps.ml" 16 452 519
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.pixels_above_lines
+)
+"ogtkTextProps.ml" 16 452 520 "ogtkTextProps.ml" 16 452 523
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 16 452 486 "ogtkTextProps.ml" 16 452 523
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTextProps.ml" 17 524 558 "ogtkTextProps.ml" 17 524 561
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTextProps.ml" 4 38 42 "ogtkTextProps.ml" 4 38 45
+)
+"ogtkTextProps.ml" 17 524 562 "ogtkTextProps.ml" 17 524 591
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.pixels_below_lines
+)
+"ogtkTextProps.ml" 17 524 592 "ogtkTextProps.ml" 17 524 595
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 17 524 558 "ogtkTextProps.ml" 17 524 595
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTextProps.ml" 18 596 630 "ogtkTextProps.ml" 18 596 633
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTextProps.ml" 4 38 42 "ogtkTextProps.ml" 4 38 45
+)
+"ogtkTextProps.ml" 18 596 634 "ogtkTextProps.ml" 18 596 663
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.pixels_inside_wrap
+)
+"ogtkTextProps.ml" 18 596 664 "ogtkTextProps.ml" 18 596 667
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 18 596 630 "ogtkTextProps.ml" 18 596 667
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTextProps.ml" 19 668 696 "ogtkTextProps.ml" 19 668 699
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTextProps.ml" 4 38 42 "ogtkTextProps.ml" 4 38 45
+)
+"ogtkTextProps.ml" 19 668 700 "ogtkTextProps.ml" 19 668 723
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.right_margin
+)
+"ogtkTextProps.ml" 19 668 724 "ogtkTextProps.ml" 19 668 727
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 19 668 696 "ogtkTextProps.ml" 19 668 727
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTextProps.ml" 20 728 753 "ogtkTextProps.ml" 20 728 756
+type(
+  ('a, GtkEnums.wrap_mode) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.wrap_mode -> unit
+)
+ident(
+  int_ref set "ogtkTextProps.ml" 4 38 42 "ogtkTextProps.ml" 4 38 45
+)
+"ogtkTextProps.ml" 20 728 757 "ogtkTextProps.ml" 20 728 777
+type(
+  ('a, GtkEnums.wrap_mode) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.wrap_mode
+)
+"ogtkTextProps.ml" 20 728 778 "ogtkTextProps.ml" 20 728 781
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 20 728 753 "ogtkTextProps.ml" 20 728 781
+call(
+  tail
+)
+type(
+  GtkEnums.wrap_mode -> unit
+)
+type(
+  GtkEnums.wrap_mode -> unit
+)
+"ogtkTextProps.ml" 21 782 809 "ogtkTextProps.ml" 21 782 812
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkTextProps.ml" 4 38 42 "ogtkTextProps.ml" 4 38 45
+)
+"ogtkTextProps.ml" 21 782 813 "ogtkTextProps.ml" 21 782 835
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.accepts_tab
+)
+"ogtkTextProps.ml" 21 782 836 "ogtkTextProps.ml" 21 782 839
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 21 782 809 "ogtkTextProps.ml" 21 782 839
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkTextProps.ml" 22 840 860 "ogtkTextProps.ml" 22 840 863
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkTextProps.ml" 5 52 56 "ogtkTextProps.ml" 5 52 59
+)
+"ogtkTextProps.ml" 22 840 864 "ogtkTextProps.ml" 22 840 883
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.editable
+)
+"ogtkTextProps.ml" 22 840 884 "ogtkTextProps.ml" 22 840 887
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 22 840 860 "ogtkTextProps.ml" 22 840 887
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkTextProps.ml" 23 888 914 "ogtkTextProps.ml" 23 888 917
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkTextProps.ml" 5 52 56 "ogtkTextProps.ml" 5 52 59
+)
+"ogtkTextProps.ml" 23 888 918 "ogtkTextProps.ml" 23 888 943
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.cursor_visible
+)
+"ogtkTextProps.ml" 23 888 944 "ogtkTextProps.ml" 23 888 947
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 23 888 914 "ogtkTextProps.ml" 23 888 947
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkTextProps.ml" 24 948 966 "ogtkTextProps.ml" 24 948 969
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTextProps.ml" 5 52 56 "ogtkTextProps.ml" 5 52 59
+)
+"ogtkTextProps.ml" 24 948 970 "ogtkTextProps.ml" 24 948 987
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.indent
+)
+"ogtkTextProps.ml" 24 948 988 "ogtkTextProps.ml" 24 948 991
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 24 948 966 "ogtkTextProps.ml" 24 948 991
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTextProps.ml" 25 992 1017 "ogtkTextProps.ml" 25 992 1020
+type(
+  ('a, GtkEnums.justification) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.justification
+)
+ident(
+  int_ref get "ogtkTextProps.ml" 5 52 56 "ogtkTextProps.ml" 5 52 59
+)
+"ogtkTextProps.ml" 25 992 1021 "ogtkTextProps.ml" 25 992 1045
+type(
+  ('a, GtkEnums.justification) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.justification
+)
+"ogtkTextProps.ml" 25 992 1046 "ogtkTextProps.ml" 25 992 1049
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 25 992 1017 "ogtkTextProps.ml" 25 992 1049
+call(
+  tail
+)
+type(
+  GtkEnums.justification
+)
+type(
+  GtkEnums.justification
+)
+"ogtkTextProps.ml" 26 1050 1073 "ogtkTextProps.ml" 26 1050 1076
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTextProps.ml" 5 52 56 "ogtkTextProps.ml" 5 52 59
+)
+"ogtkTextProps.ml" 26 1050 1077 "ogtkTextProps.ml" 26 1050 1099
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.left_margin
+)
+"ogtkTextProps.ml" 26 1050 1100 "ogtkTextProps.ml" 26 1050 1103
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 26 1050 1073 "ogtkTextProps.ml" 26 1050 1103
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTextProps.ml" 27 1104 1134 "ogtkTextProps.ml" 27 1104 1137
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTextProps.ml" 5 52 56 "ogtkTextProps.ml" 5 52 59
+)
+"ogtkTextProps.ml" 27 1104 1138 "ogtkTextProps.ml" 27 1104 1167
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.pixels_above_lines
+)
+"ogtkTextProps.ml" 27 1104 1168 "ogtkTextProps.ml" 27 1104 1171
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 27 1104 1134 "ogtkTextProps.ml" 27 1104 1171
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTextProps.ml" 28 1172 1202 "ogtkTextProps.ml" 28 1172 1205
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTextProps.ml" 5 52 56 "ogtkTextProps.ml" 5 52 59
+)
+"ogtkTextProps.ml" 28 1172 1206 "ogtkTextProps.ml" 28 1172 1235
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.pixels_below_lines
+)
+"ogtkTextProps.ml" 28 1172 1236 "ogtkTextProps.ml" 28 1172 1239
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 28 1172 1202 "ogtkTextProps.ml" 28 1172 1239
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTextProps.ml" 29 1240 1270 "ogtkTextProps.ml" 29 1240 1273
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTextProps.ml" 5 52 56 "ogtkTextProps.ml" 5 52 59
+)
+"ogtkTextProps.ml" 29 1240 1274 "ogtkTextProps.ml" 29 1240 1303
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.pixels_inside_wrap
+)
+"ogtkTextProps.ml" 29 1240 1304 "ogtkTextProps.ml" 29 1240 1307
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 29 1240 1270 "ogtkTextProps.ml" 29 1240 1307
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTextProps.ml" 30 1308 1332 "ogtkTextProps.ml" 30 1308 1335
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTextProps.ml" 5 52 56 "ogtkTextProps.ml" 5 52 59
+)
+"ogtkTextProps.ml" 30 1308 1336 "ogtkTextProps.ml" 30 1308 1359
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.right_margin
+)
+"ogtkTextProps.ml" 30 1308 1360 "ogtkTextProps.ml" 30 1308 1363
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 30 1308 1332 "ogtkTextProps.ml" 30 1308 1363
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTextProps.ml" 31 1364 1385 "ogtkTextProps.ml" 31 1364 1388
+type(
+  ('a, GtkEnums.wrap_mode) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.wrap_mode
+)
+ident(
+  int_ref get "ogtkTextProps.ml" 5 52 56 "ogtkTextProps.ml" 5 52 59
+)
+"ogtkTextProps.ml" 31 1364 1389 "ogtkTextProps.ml" 31 1364 1409
+type(
+  ('a, GtkEnums.wrap_mode) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.wrap_mode
+)
+"ogtkTextProps.ml" 31 1364 1410 "ogtkTextProps.ml" 31 1364 1413
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 31 1364 1385 "ogtkTextProps.ml" 31 1364 1413
+call(
+  tail
+)
+type(
+  GtkEnums.wrap_mode
+)
+type(
+  GtkEnums.wrap_mode
+)
+"ogtkTextProps.ml" 32 1414 1437 "ogtkTextProps.ml" 32 1414 1440
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkTextProps.ml" 5 52 56 "ogtkTextProps.ml" 5 52 59
+)
+"ogtkTextProps.ml" 32 1414 1441 "ogtkTextProps.ml" 32 1414 1463
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextView.P.accepts_tab
+)
+"ogtkTextProps.ml" 32 1414 1464 "ogtkTextProps.ml" 32 1414 1467
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 32 1414 1437 "ogtkTextProps.ml" 32 1414 1467
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkTextProps.ml" 35 1473 1511 "ogtkTextProps.ml" 35 1473 1517
+type(
+  < copy_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    cut_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    delete_from_cursor : callback:(GtkEnums.delete_type -> int -> unit) ->
+                         GtkSignal.id;
+    insert_at_cursor : callback:(string -> unit) -> GtkSignal.id;
+    move_cursor : callback:(GtkEnums.movement_step ->
+                            int -> extend:bool -> unit) ->
+                  GtkSignal.id;
+    move_focus : callback:(GtkEnums.direction_type -> unit) -> GtkSignal.id;
+    page_horizontally : callback:(int -> extend:bool -> unit) -> GtkSignal.id;
+    paste_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    populate_popup : callback:(Gtk.menu Gtk.obj -> unit) -> GtkSignal.id;
+    set_anchor : callback:(unit -> unit) -> GtkSignal.id;
+    set_scroll_adjustments : callback:(GData.adjustment option ->
+                                       GData.adjustment option -> unit) ->
+                             GtkSignal.id;
+    toggle_overwrite : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkTextProps.ml" 38 1612 1638 "ogtkTextProps.ml" 38 1612 1642
+type(
+  < copy_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    cut_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    delete_from_cursor : callback:(GtkEnums.delete_type -> int -> unit) ->
+                         GtkSignal.id;
+    insert_at_cursor : callback:(string -> unit) -> GtkSignal.id;
+    move_cursor : callback:(GtkEnums.movement_step ->
+                            int -> extend:bool -> unit) ->
+                  GtkSignal.id;
+    move_focus : callback:(GtkEnums.direction_type -> unit) -> GtkSignal.id;
+    page_horizontally : callback:(int -> extend:bool -> unit) -> GtkSignal.id;
+    paste_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    populate_popup : callback:(Gtk.menu Gtk.obj -> unit) -> GtkSignal.id;
+    set_anchor : callback:(unit -> unit) -> GtkSignal.id;
+    set_scroll_adjustments : callback:(GData.adjustment option ->
+                                       GData.adjustment option -> unit) ->
+                             GtkSignal.id;
+    toggle_overwrite : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkTextProps.ml" 38 1612 1638 "ogtkTextProps.ml" 38 1612 1650
+call(
+  tail
+)
+type(
+  ([> `textview ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 38 1612 1651 "ogtkTextProps.ml" 38 1612 1676
+type(
+  ([> `textview ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextView.S.copy_clipboard
+)
+"ogtkTextProps.ml" 38 1612 1638 "ogtkTextProps.ml" 38 1612 1676
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 39 1677 1702 "ogtkTextProps.ml" 39 1677 1706
+type(
+  'a
+)
+"ogtkTextProps.ml" 39 1677 1702 "ogtkTextProps.ml" 39 1677 1714
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 39 1677 1715 "ogtkTextProps.ml" 39 1677 1739
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextView.S.cut_clipboard
+)
+"ogtkTextProps.ml" 39 1677 1702 "ogtkTextProps.ml" 39 1677 1739
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 40 1740 1770 "ogtkTextProps.ml" 40 1740 1774
+type(
+  'a
+)
+"ogtkTextProps.ml" 40 1740 1770 "ogtkTextProps.ml" 40 1740 1782
+call(
+  tail
+)
+type(
+  ('b, GtkEnums.delete_type -> int -> unit) GtkSignal.t ->
+  callback:(GtkEnums.delete_type -> int -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 40 1740 1783 "ogtkTextProps.ml" 40 1740 1812
+type(
+  ('b, GtkEnums.delete_type -> int -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextView.S.delete_from_cursor
+)
+"ogtkTextProps.ml" 40 1740 1770 "ogtkTextProps.ml" 40 1740 1812
+type(
+  callback:(GtkEnums.delete_type -> int -> unit) -> GtkSignal.id
+)
+type(
+  callback:(GtkEnums.delete_type -> int -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 41 1813 1841 "ogtkTextProps.ml" 41 1813 1845
+type(
+  'a
+)
+"ogtkTextProps.ml" 41 1813 1841 "ogtkTextProps.ml" 41 1813 1853
+call(
+  tail
+)
+type(
+  ('b, string -> unit) GtkSignal.t ->
+  callback:(string -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 41 1813 1854 "ogtkTextProps.ml" 41 1813 1881
+type(
+  ('b, string -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextView.S.insert_at_cursor
+)
+"ogtkTextProps.ml" 41 1813 1841 "ogtkTextProps.ml" 41 1813 1881
+type(
+  callback:(string -> unit) -> GtkSignal.id
+)
+type(
+  callback:(string -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 42 1882 1905 "ogtkTextProps.ml" 42 1882 1909
+type(
+  'a
+)
+"ogtkTextProps.ml" 42 1882 1905 "ogtkTextProps.ml" 42 1882 1917
+call(
+  tail
+)
+type(
+  ('b, GtkEnums.movement_step -> int -> extend:bool -> unit) GtkSignal.t ->
+  callback:(GtkEnums.movement_step -> int -> extend:bool -> unit) ->
+  GtkSignal.id
+)
+"ogtkTextProps.ml" 42 1882 1918 "ogtkTextProps.ml" 42 1882 1940
+type(
+  ('b, GtkEnums.movement_step -> int -> extend:bool -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextView.S.move_cursor
+)
+"ogtkTextProps.ml" 42 1882 1905 "ogtkTextProps.ml" 42 1882 1940
+type(
+  callback:(GtkEnums.movement_step -> int -> extend:bool -> unit) ->
+  GtkSignal.id
+)
+type(
+  callback:(GtkEnums.movement_step -> int -> extend:bool -> unit) ->
+  GtkSignal.id
+)
+"ogtkTextProps.ml" 43 1941 1963 "ogtkTextProps.ml" 43 1941 1967
+type(
+  'a
+)
+"ogtkTextProps.ml" 43 1941 1963 "ogtkTextProps.ml" 43 1941 1975
+call(
+  tail
+)
+type(
+  ('b, GtkEnums.direction_type -> unit) GtkSignal.t ->
+  callback:(GtkEnums.direction_type -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 43 1941 1976 "ogtkTextProps.ml" 43 1941 1997
+type(
+  ('b, GtkEnums.direction_type -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextView.S.move_focus
+)
+"ogtkTextProps.ml" 43 1941 1963 "ogtkTextProps.ml" 43 1941 1997
+type(
+  callback:(GtkEnums.direction_type -> unit) -> GtkSignal.id
+)
+type(
+  callback:(GtkEnums.direction_type -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 44 1998 2027 "ogtkTextProps.ml" 44 1998 2031
+type(
+  'a
+)
+"ogtkTextProps.ml" 44 1998 2027 "ogtkTextProps.ml" 44 1998 2039
+call(
+  tail
+)
+type(
+  ('b, int -> extend:bool -> unit) GtkSignal.t ->
+  callback:(int -> extend:bool -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 44 1998 2040 "ogtkTextProps.ml" 44 1998 2068
+type(
+  ('b, int -> extend:bool -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextView.S.page_horizontally
+)
+"ogtkTextProps.ml" 44 1998 2027 "ogtkTextProps.ml" 44 1998 2068
+type(
+  callback:(int -> extend:bool -> unit) -> GtkSignal.id
+)
+type(
+  callback:(int -> extend:bool -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 45 2069 2096 "ogtkTextProps.ml" 45 2069 2100
+type(
+  'a
+)
+"ogtkTextProps.ml" 45 2069 2096 "ogtkTextProps.ml" 45 2069 2108
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 45 2069 2109 "ogtkTextProps.ml" 45 2069 2135
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextView.S.paste_clipboard
+)
+"ogtkTextProps.ml" 45 2069 2096 "ogtkTextProps.ml" 45 2069 2135
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 46 2136 2162 "ogtkTextProps.ml" 46 2136 2166
+type(
+  'a
+)
+"ogtkTextProps.ml" 46 2136 2162 "ogtkTextProps.ml" 46 2136 2174
+call(
+  tail
+)
+type(
+  ('b, Gtk.menu Gtk.obj -> unit) GtkSignal.t ->
+  callback:(Gtk.menu Gtk.obj -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 46 2136 2175 "ogtkTextProps.ml" 46 2136 2200
+type(
+  ('b, Gtk.menu Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextView.S.populate_popup
+)
+"ogtkTextProps.ml" 46 2136 2162 "ogtkTextProps.ml" 46 2136 2200
+type(
+  callback:(Gtk.menu Gtk.obj -> unit) -> GtkSignal.id
+)
+type(
+  callback:(Gtk.menu Gtk.obj -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 47 2201 2223 "ogtkTextProps.ml" 47 2201 2227
+type(
+  'a
+)
+"ogtkTextProps.ml" 47 2201 2223 "ogtkTextProps.ml" 47 2201 2235
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 47 2201 2236 "ogtkTextProps.ml" 47 2201 2257
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextView.S.set_anchor
+)
+"ogtkTextProps.ml" 47 2201 2223 "ogtkTextProps.ml" 47 2201 2257
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 48 2258 2292 "ogtkTextProps.ml" 48 2258 2296
+type(
+  'a
+)
+"ogtkTextProps.ml" 48 2258 2292 "ogtkTextProps.ml" 48 2258 2304
+call(
+  tail
+)
+type(
+  ('b, GData.adjustment option -> GData.adjustment option -> unit)
+  GtkSignal.t ->
+  callback:(GData.adjustment option -> GData.adjustment option -> unit) ->
+  GtkSignal.id
+)
+"ogtkTextProps.ml" 49 2305 2310 "ogtkTextProps.ml" 49 2305 2343
+type(
+  ('b,
+   Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit)
+  GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextView.S.set_scroll_adjustments
+)
+"ogtkTextProps.ml" 49 2305 2366 "ogtkTextProps.ml" 49 2305 2367
+type(
+  GData.adjustment option -> GData.adjustment option -> unit
+)
+ident(
+  def f "ogtkTextProps.ml" 50 2371 2376 "ogtkTextProps.ml" 51 2443 2489
+)
+"ogtkTextProps.ml" 50 2371 2376 "ogtkTextProps.ml" 50 2371 2384
+type(
+  GData.adjustment option Gobject.data_conv ->
+  GData.adjustment option Gobject.data_conv ->
+  string ->
+  (GData.adjustment option -> GData.adjustment option -> unit)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"ogtkTextProps.ml" 50 2371 2385 "ogtkTextProps.ml" 50 2371 2413
+type(
+  GData.adjustment option Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment_option
+)
+"ogtkTextProps.ml" 50 2371 2414 "ogtkTextProps.ml" 50 2371 2442
+type(
+  GData.adjustment option Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment_option
+)
+"ogtkTextProps.ml" 51 2443 2450 "ogtkTextProps.ml" 51 2443 2487
+type(
+  string
+)
+"ogtkTextProps.ml" 51 2443 2488 "ogtkTextProps.ml" 51 2443 2489
+type(
+  GData.adjustment option -> GData.adjustment option -> unit
+)
+ident(
+  int_ref f "ogtkTextProps.ml" 49 2305 2366 "ogtkTextProps.ml" 49 2305 2367
+)
+"ogtkTextProps.ml" 50 2371 2376 "ogtkTextProps.ml" 51 2443 2489
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"ogtkTextProps.ml" 49 2305 2362 "ogtkTextProps.ml" 51 2443 2489
+type(
+  (GData.adjustment option -> GData.adjustment option -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"ogtkTextProps.ml" 49 2305 2309 "ogtkTextProps.ml" 51 2443 2490
+type(
+  ('b, GData.adjustment option -> GData.adjustment option -> unit)
+  GtkSignal.t
+)
+"ogtkTextProps.ml" 48 2258 2292 "ogtkTextProps.ml" 51 2443 2490
+type(
+  callback:(GData.adjustment option -> GData.adjustment option -> unit) ->
+  GtkSignal.id
+)
+type(
+  callback:(GData.adjustment option -> GData.adjustment option -> unit) ->
+  GtkSignal.id
+)
+"ogtkTextProps.ml" 52 2491 2519 "ogtkTextProps.ml" 52 2491 2523
+type(
+  'a
+)
+"ogtkTextProps.ml" 52 2491 2519 "ogtkTextProps.ml" 52 2491 2531
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 52 2491 2532 "ogtkTextProps.ml" 52 2491 2559
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextView.S.toggle_overwrite
+)
+"ogtkTextProps.ml" 52 2491 2519 "ogtkTextProps.ml" 52 2491 2559
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 57 2632 2653 "ogtkTextProps.ml" 57 2632 2656
+type(
+  ([> `textbuffer ] as 'a, Gtk.text_tag_table) Gobject.property ->
+  'a Gobject.obj -> Gtk.text_tag_table
+)
+ident(
+  int_ref get "ogtkTextProps.ml" 5 52 56 "ogtkTextProps.ml" 5 52 59
+)
+"ogtkTextProps.ml" 57 2632 2657 "ogtkTextProps.ml" 57 2632 2679
+type(
+  ('a, Gtk.text_tag_table) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextBuffer.P.tag_table
+)
+"ogtkTextProps.ml" 57 2632 2680 "ogtkTextProps.ml" 57 2632 2683
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 57 2632 2653 "ogtkTextProps.ml" 57 2632 2683
+call(
+  tail
+)
+type(
+  Gtk.text_tag_table
+)
+type(
+  Gtk.text_tag_table
+)
+"ogtkTextProps.ml" 58 2684 2711 "ogtkTextProps.ml" 58 2684 2714
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTextProps.ml" 5 52 56 "ogtkTextProps.ml" 5 52 59
+)
+"ogtkTextProps.ml" 58 2684 2715 "ogtkTextProps.ml" 58 2684 2743
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextBuffer.P.cursor_position
+)
+"ogtkTextProps.ml" 58 2684 2744 "ogtkTextProps.ml" 58 2684 2747
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 58 2684 2711 "ogtkTextProps.ml" 58 2684 2747
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTextProps.ml" 59 2748 2773 "ogtkTextProps.ml" 59 2748 2776
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkTextProps.ml" 5 52 56 "ogtkTextProps.ml" 5 52 59
+)
+"ogtkTextProps.ml" 59 2748 2777 "ogtkTextProps.ml" 59 2748 2803
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextBuffer.P.has_selection
+)
+"ogtkTextProps.ml" 59 2748 2804 "ogtkTextProps.ml" 59 2748 2807
+type(
+  'a Gobject.obj
+)
+"ogtkTextProps.ml" 59 2748 2773 "ogtkTextProps.ml" 59 2748 2807
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkTextProps.ml" 62 2813 2853 "ogtkTextProps.ml" 62 2813 2859
+type(
+  < begin_user_action : callback:(unit -> unit) -> GtkSignal.id;
+    changed : callback:(unit -> unit) -> GtkSignal.id;
+    end_user_action : callback:(unit -> unit) -> GtkSignal.id;
+    mark_deleted : callback:(Gtk.text_mark -> unit) -> GtkSignal.id;
+    modified_changed : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkTextProps.ml" 65 2954 2983 "ogtkTextProps.ml" 65 2954 2987
+type(
+  < begin_user_action : callback:(unit -> unit) -> GtkSignal.id;
+    changed : callback:(unit -> unit) -> GtkSignal.id;
+    end_user_action : callback:(unit -> unit) -> GtkSignal.id;
+    mark_deleted : callback:(Gtk.text_mark -> unit) -> GtkSignal.id;
+    modified_changed : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkTextProps.ml" 65 2954 2983 "ogtkTextProps.ml" 65 2954 2995
+call(
+  tail
+)
+type(
+  ([> `textbuffer ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 65 2954 2996 "ogtkTextProps.ml" 65 2954 3026
+type(
+  ([> `textbuffer ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextBuffer.S.begin_user_action
+)
+"ogtkTextProps.ml" 65 2954 2983 "ogtkTextProps.ml" 65 2954 3026
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 66 3027 3046 "ogtkTextProps.ml" 66 3027 3050
+type(
+  'a
+)
+"ogtkTextProps.ml" 66 3027 3046 "ogtkTextProps.ml" 66 3027 3058
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 66 3027 3059 "ogtkTextProps.ml" 66 3027 3079
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextBuffer.S.changed
+)
+"ogtkTextProps.ml" 66 3027 3046 "ogtkTextProps.ml" 66 3027 3079
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 67 3080 3107 "ogtkTextProps.ml" 67 3080 3111
+type(
+  'a
+)
+"ogtkTextProps.ml" 67 3080 3107 "ogtkTextProps.ml" 67 3080 3119
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 67 3080 3120 "ogtkTextProps.ml" 67 3080 3148
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextBuffer.S.end_user_action
+)
+"ogtkTextProps.ml" 67 3080 3107 "ogtkTextProps.ml" 67 3080 3148
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 68 3149 3173 "ogtkTextProps.ml" 68 3149 3177
+type(
+  'a
+)
+"ogtkTextProps.ml" 68 3149 3173 "ogtkTextProps.ml" 68 3149 3185
+call(
+  tail
+)
+type(
+  ('b, Gtk.text_mark -> unit) GtkSignal.t ->
+  callback:(Gtk.text_mark -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 68 3149 3186 "ogtkTextProps.ml" 68 3149 3211
+type(
+  ('b, Gtk.text_mark -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextBuffer.S.mark_deleted
+)
+"ogtkTextProps.ml" 68 3149 3173 "ogtkTextProps.ml" 68 3149 3211
+type(
+  callback:(Gtk.text_mark -> unit) -> GtkSignal.id
+)
+type(
+  callback:(Gtk.text_mark -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 69 3212 3240 "ogtkTextProps.ml" 69 3212 3244
+type(
+  'a
+)
+"ogtkTextProps.ml" 69 3212 3240 "ogtkTextProps.ml" 69 3212 3252
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 69 3212 3253 "ogtkTextProps.ml" 69 3212 3282
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextBuffer.S.modified_changed
+)
+"ogtkTextProps.ml" 69 3212 3240 "ogtkTextProps.ml" 69 3212 3282
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 72 3288 3292 "ogtkTextProps.ml" 72 3288 3306
+type(
+  [< `BACKGROUND of string
+   | `BACKGROUND_FULL_HEIGHT of bool
+   | `BACKGROUND_FULL_HEIGHT_SET of bool
+   | `BACKGROUND_GDK of Gdk.color
+   | `BACKGROUND_SET of bool
+   | `BACKGROUND_STIPPLE of Gdk.bitmap
+   | `BACKGROUND_STIPPLE_SET of bool
+   | `DIRECTION of GtkEnums.text_direction
+   | `EDITABLE of bool
+   | `EDITABLE_SET of bool
+   | `FAMILY of string
+   | `FAMILY_SET of bool
+   | `FONT of string
+   | `FONT_DESC of Pango.font_description
+   | `FOREGROUND of string
+   | `FOREGROUND_GDK of Gdk.color
+   | `FOREGROUND_SET of bool
+   | `FOREGROUND_STIPPLE of Gdk.bitmap
+   | `FOREGROUND_STIPPLE_SET of bool
+   | `INDENT of int
+   | `INDENT_SET of bool
+   | `INVISIBLE of bool
+   | `INVISIBLE_SET of bool
+   | `JUSTIFICATION of GtkEnums.justification
+   | `JUSTIFICATION_SET of bool
+   | `LANGUAGE of string
+   | `LANGUAGE_SET of bool
+   | `LEFT_MARGIN of int
+   | `LEFT_MARGIN_SET of bool
+   | `PIXELS_ABOVE_LINES of int
+   | `PIXELS_ABOVE_LINES_SET of bool
+   | `PIXELS_BELOW_LINES of int
+   | `PIXELS_BELOW_LINES_SET of bool
+   | `PIXELS_INSIDE_WRAP of int
+   | `PIXELS_INSIDE_WRAP_SET of bool
+   | `RIGHT_MARGIN of int
+   | `RIGHT_MARGIN_SET of bool
+   | `RISE of int
+   | `RISE_SET of bool
+   | `SCALE of float
+   | `SCALE_SET of bool
+   | `SIZE of int
+   | `SIZE_POINTS of float
+   | `SIZE_SET of bool
+   | `STRETCH of PangoEnums.stretch
+   | `STRETCH_SET of bool
+   | `STRIKETHROUGH of bool
+   | `STRIKETHROUGH_SET of bool
+   | `STYLE of PangoEnums.style
+   | `STYLE_SET of bool
+   | `TABS_SET of bool
+   | `UNDERLINE of PangoEnums.underline
+   | `UNDERLINE_SET of bool
+   | `VARIANT of PangoEnums.variant
+   | `VARIANT_SET of bool
+   | `WEIGHT of int
+   | `WEIGHT_SET of bool
+   | `WRAP_MODE of GtkEnums.wrap_mode
+   | `WRAP_MODE_SET of bool ] ->
+  [> `texttag ] Gobject.param
+)
+ident(
+  def text_tag_param "ogtkTextProps.ml" 134 6537 6537 --
+)
+"ogtkTextProps.ml" 73 3318 3334 "ogtkTextProps.ml" 73 3318 3335
+type(
+  string
+)
+ident(
+  def p "ogtkTextProps.ml" 73 3318 3339 "ogtkTextProps.ml" 73 3318 3367
+)
+"ogtkTextProps.ml" 73 3318 3322 "ogtkTextProps.ml" 73 3318 3335
+type(
+  [< `BACKGROUND of string
+   | `BACKGROUND_FULL_HEIGHT of bool
+   | `BACKGROUND_FULL_HEIGHT_SET of bool
+   | `BACKGROUND_GDK of Gdk.color
+   | `BACKGROUND_SET of bool
+   | `BACKGROUND_STIPPLE of Gdk.bitmap
+   | `BACKGROUND_STIPPLE_SET of bool
+   | `DIRECTION of GtkEnums.text_direction
+   | `EDITABLE of bool
+   | `EDITABLE_SET of bool
+   | `FAMILY of string
+   | `FAMILY_SET of bool
+   | `FONT of string
+   | `FONT_DESC of Pango.font_description
+   | `FOREGROUND of string
+   | `FOREGROUND_GDK of Gdk.color
+   | `FOREGROUND_SET of bool
+   | `FOREGROUND_STIPPLE of Gdk.bitmap
+   | `FOREGROUND_STIPPLE_SET of bool
+   | `INDENT of int
+   | `INDENT_SET of bool
+   | `INVISIBLE of bool
+   | `INVISIBLE_SET of bool
+   | `JUSTIFICATION of GtkEnums.justification
+   | `JUSTIFICATION_SET of bool
+   | `LANGUAGE of string
+   | `LANGUAGE_SET of bool
+   | `LEFT_MARGIN of int
+   | `LEFT_MARGIN_SET of bool
+   | `PIXELS_ABOVE_LINES of int
+   | `PIXELS_ABOVE_LINES_SET of bool
+   | `PIXELS_BELOW_LINES of int
+   | `PIXELS_BELOW_LINES_SET of bool
+   | `PIXELS_INSIDE_WRAP of int
+   | `PIXELS_INSIDE_WRAP_SET of bool
+   | `RIGHT_MARGIN of int
+   | `RIGHT_MARGIN_SET of bool
+   | `RISE of int
+   | `RISE_SET of bool
+   | `SCALE of float
+   | `SCALE_SET of bool
+   | `SIZE of int
+   | `SIZE_POINTS of float
+   | `SIZE_SET of bool
+   | `STRETCH of PangoEnums.stretch
+   | `STRETCH_SET of bool
+   | `STRIKETHROUGH of bool
+   | `STRIKETHROUGH_SET of bool
+   | `STYLE of PangoEnums.style
+   | `STYLE_SET of bool
+   | `TABS_SET of bool
+   | `UNDERLINE of PangoEnums.underline
+   | `UNDERLINE_SET of bool
+   | `VARIANT of PangoEnums.variant
+   | `VARIANT_SET of bool
+   | `WEIGHT of int
+   | `WEIGHT_SET of bool
+   | `WRAP_MODE of GtkEnums.wrap_mode
+   | `WRAP_MODE_SET of bool ]
+  as 'a
+)
+"ogtkTextProps.ml" 73 3318 3339 "ogtkTextProps.ml" 73 3318 3344
+type(
+  ([> `texttag ] as 'b, string) Gobject.property ->
+  string -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 73 3318 3345 "ogtkTextProps.ml" 73 3318 3365
+type(
+  ('b, string) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.background
+)
+"ogtkTextProps.ml" 73 3318 3366 "ogtkTextProps.ml" 73 3318 3367
+type(
+  string
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 73 3318 3334 "ogtkTextProps.ml" 73 3318 3335
+)
+"ogtkTextProps.ml" 73 3318 3339 "ogtkTextProps.ml" 73 3318 3367
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 74 3368 3396 "ogtkTextProps.ml" 74 3368 3397
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 74 3368 3401 "ogtkTextProps.ml" 74 3368 3441
+)
+"ogtkTextProps.ml" 74 3368 3372 "ogtkTextProps.ml" 74 3368 3397
+type(
+  'a
+)
+"ogtkTextProps.ml" 74 3368 3401 "ogtkTextProps.ml" 74 3368 3406
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 74 3368 3407 "ogtkTextProps.ml" 74 3368 3439
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.background_full_height
+)
+"ogtkTextProps.ml" 74 3368 3440 "ogtkTextProps.ml" 74 3368 3441
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 74 3368 3396 "ogtkTextProps.ml" 74 3368 3397
+)
+"ogtkTextProps.ml" 74 3368 3401 "ogtkTextProps.ml" 74 3368 3441
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 75 3442 3474 "ogtkTextProps.ml" 75 3442 3475
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 76 3479 3485 "ogtkTextProps.ml" 76 3479 3529
+)
+"ogtkTextProps.ml" 75 3442 3446 "ogtkTextProps.ml" 75 3442 3475
+type(
+  'a
+)
+"ogtkTextProps.ml" 76 3479 3485 "ogtkTextProps.ml" 76 3479 3490
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 76 3479 3491 "ogtkTextProps.ml" 76 3479 3527
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.background_full_height_set
+)
+"ogtkTextProps.ml" 76 3479 3528 "ogtkTextProps.ml" 76 3479 3529
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 75 3442 3474 "ogtkTextProps.ml" 75 3442 3475
+)
+"ogtkTextProps.ml" 76 3479 3485 "ogtkTextProps.ml" 76 3479 3529
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 77 3530 3550 "ogtkTextProps.ml" 77 3530 3551
+type(
+  Gdk.color
+)
+ident(
+  def p "ogtkTextProps.ml" 77 3530 3555 "ogtkTextProps.ml" 77 3530 3587
+)
+"ogtkTextProps.ml" 77 3530 3534 "ogtkTextProps.ml" 77 3530 3551
+type(
+  'a
+)
+"ogtkTextProps.ml" 77 3530 3555 "ogtkTextProps.ml" 77 3530 3560
+type(
+  ('b, Gdk.color) Gobject.property -> Gdk.color -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 77 3530 3561 "ogtkTextProps.ml" 77 3530 3585
+type(
+  ('b, Gdk.color) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.background_gdk
+)
+"ogtkTextProps.ml" 77 3530 3586 "ogtkTextProps.ml" 77 3530 3587
+type(
+  Gdk.color
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 77 3530 3550 "ogtkTextProps.ml" 77 3530 3551
+)
+"ogtkTextProps.ml" 77 3530 3555 "ogtkTextProps.ml" 77 3530 3587
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 78 3588 3608 "ogtkTextProps.ml" 78 3588 3609
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 78 3588 3613 "ogtkTextProps.ml" 78 3588 3645
+)
+"ogtkTextProps.ml" 78 3588 3592 "ogtkTextProps.ml" 78 3588 3609
+type(
+  'a
+)
+"ogtkTextProps.ml" 78 3588 3613 "ogtkTextProps.ml" 78 3588 3618
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 78 3588 3619 "ogtkTextProps.ml" 78 3588 3643
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.background_set
+)
+"ogtkTextProps.ml" 78 3588 3644 "ogtkTextProps.ml" 78 3588 3645
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 78 3588 3608 "ogtkTextProps.ml" 78 3588 3609
+)
+"ogtkTextProps.ml" 78 3588 3613 "ogtkTextProps.ml" 78 3588 3645
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 79 3646 3670 "ogtkTextProps.ml" 79 3646 3671
+type(
+  Gdk.bitmap
+)
+ident(
+  def p "ogtkTextProps.ml" 79 3646 3675 "ogtkTextProps.ml" 79 3646 3711
+)
+"ogtkTextProps.ml" 79 3646 3650 "ogtkTextProps.ml" 79 3646 3671
+type(
+  'a
+)
+"ogtkTextProps.ml" 79 3646 3675 "ogtkTextProps.ml" 79 3646 3680
+type(
+  ('b, Gdk.bitmap) Gobject.property -> Gdk.bitmap -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 79 3646 3681 "ogtkTextProps.ml" 79 3646 3709
+type(
+  ('b, Gdk.bitmap) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.background_stipple
+)
+"ogtkTextProps.ml" 79 3646 3710 "ogtkTextProps.ml" 79 3646 3711
+type(
+  Gdk.bitmap
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 79 3646 3670 "ogtkTextProps.ml" 79 3646 3671
+)
+"ogtkTextProps.ml" 79 3646 3675 "ogtkTextProps.ml" 79 3646 3711
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 80 3712 3740 "ogtkTextProps.ml" 80 3712 3741
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 80 3712 3745 "ogtkTextProps.ml" 80 3712 3785
+)
+"ogtkTextProps.ml" 80 3712 3716 "ogtkTextProps.ml" 80 3712 3741
+type(
+  'a
+)
+"ogtkTextProps.ml" 80 3712 3745 "ogtkTextProps.ml" 80 3712 3750
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 80 3712 3751 "ogtkTextProps.ml" 80 3712 3783
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.background_stipple_set
+)
+"ogtkTextProps.ml" 80 3712 3784 "ogtkTextProps.ml" 80 3712 3785
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 80 3712 3740 "ogtkTextProps.ml" 80 3712 3741
+)
+"ogtkTextProps.ml" 80 3712 3745 "ogtkTextProps.ml" 80 3712 3785
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 81 3786 3801 "ogtkTextProps.ml" 81 3786 3802
+type(
+  GtkEnums.text_direction
+)
+ident(
+  def p "ogtkTextProps.ml" 81 3786 3806 "ogtkTextProps.ml" 81 3786 3833
+)
+"ogtkTextProps.ml" 81 3786 3790 "ogtkTextProps.ml" 81 3786 3802
+type(
+  'a
+)
+"ogtkTextProps.ml" 81 3786 3806 "ogtkTextProps.ml" 81 3786 3811
+type(
+  ('b, GtkEnums.text_direction) Gobject.property ->
+  GtkEnums.text_direction -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 81 3786 3812 "ogtkTextProps.ml" 81 3786 3831
+type(
+  ('b, GtkEnums.text_direction) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.direction
+)
+"ogtkTextProps.ml" 81 3786 3832 "ogtkTextProps.ml" 81 3786 3833
+type(
+  GtkEnums.text_direction
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 81 3786 3801 "ogtkTextProps.ml" 81 3786 3802
+)
+"ogtkTextProps.ml" 81 3786 3806 "ogtkTextProps.ml" 81 3786 3833
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 82 3834 3848 "ogtkTextProps.ml" 82 3834 3849
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 82 3834 3853 "ogtkTextProps.ml" 82 3834 3879
+)
+"ogtkTextProps.ml" 82 3834 3838 "ogtkTextProps.ml" 82 3834 3849
+type(
+  'a
+)
+"ogtkTextProps.ml" 82 3834 3853 "ogtkTextProps.ml" 82 3834 3858
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 82 3834 3859 "ogtkTextProps.ml" 82 3834 3877
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.editable
+)
+"ogtkTextProps.ml" 82 3834 3878 "ogtkTextProps.ml" 82 3834 3879
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 82 3834 3848 "ogtkTextProps.ml" 82 3834 3849
+)
+"ogtkTextProps.ml" 82 3834 3853 "ogtkTextProps.ml" 82 3834 3879
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 83 3880 3898 "ogtkTextProps.ml" 83 3880 3899
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 83 3880 3903 "ogtkTextProps.ml" 83 3880 3933
+)
+"ogtkTextProps.ml" 83 3880 3884 "ogtkTextProps.ml" 83 3880 3899
+type(
+  'a
+)
+"ogtkTextProps.ml" 83 3880 3903 "ogtkTextProps.ml" 83 3880 3908
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 83 3880 3909 "ogtkTextProps.ml" 83 3880 3931
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.editable_set
+)
+"ogtkTextProps.ml" 83 3880 3932 "ogtkTextProps.ml" 83 3880 3933
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 83 3880 3898 "ogtkTextProps.ml" 83 3880 3899
+)
+"ogtkTextProps.ml" 83 3880 3903 "ogtkTextProps.ml" 83 3880 3933
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 84 3934 3946 "ogtkTextProps.ml" 84 3934 3947
+type(
+  string
+)
+ident(
+  def p "ogtkTextProps.ml" 84 3934 3951 "ogtkTextProps.ml" 84 3934 3975
+)
+"ogtkTextProps.ml" 84 3934 3938 "ogtkTextProps.ml" 84 3934 3947
+type(
+  'a
+)
+"ogtkTextProps.ml" 84 3934 3951 "ogtkTextProps.ml" 84 3934 3956
+type(
+  ('b, string) Gobject.property -> string -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 84 3934 3957 "ogtkTextProps.ml" 84 3934 3973
+type(
+  ('b, string) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.family
+)
+"ogtkTextProps.ml" 84 3934 3974 "ogtkTextProps.ml" 84 3934 3975
+type(
+  string
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 84 3934 3946 "ogtkTextProps.ml" 84 3934 3947
+)
+"ogtkTextProps.ml" 84 3934 3951 "ogtkTextProps.ml" 84 3934 3975
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 85 3976 3992 "ogtkTextProps.ml" 85 3976 3993
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 85 3976 3997 "ogtkTextProps.ml" 85 3976 4025
+)
+"ogtkTextProps.ml" 85 3976 3980 "ogtkTextProps.ml" 85 3976 3993
+type(
+  'a
+)
+"ogtkTextProps.ml" 85 3976 3997 "ogtkTextProps.ml" 85 3976 4002
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 85 3976 4003 "ogtkTextProps.ml" 85 3976 4023
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.family_set
+)
+"ogtkTextProps.ml" 85 3976 4024 "ogtkTextProps.ml" 85 3976 4025
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 85 3976 3992 "ogtkTextProps.ml" 85 3976 3993
+)
+"ogtkTextProps.ml" 85 3976 3997 "ogtkTextProps.ml" 85 3976 4025
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 86 4026 4036 "ogtkTextProps.ml" 86 4026 4037
+type(
+  string
+)
+ident(
+  def p "ogtkTextProps.ml" 86 4026 4041 "ogtkTextProps.ml" 86 4026 4063
+)
+"ogtkTextProps.ml" 86 4026 4030 "ogtkTextProps.ml" 86 4026 4037
+type(
+  'a
+)
+"ogtkTextProps.ml" 86 4026 4041 "ogtkTextProps.ml" 86 4026 4046
+type(
+  ('b, string) Gobject.property -> string -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 86 4026 4047 "ogtkTextProps.ml" 86 4026 4061
+type(
+  ('b, string) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.font
+)
+"ogtkTextProps.ml" 86 4026 4062 "ogtkTextProps.ml" 86 4026 4063
+type(
+  string
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 86 4026 4036 "ogtkTextProps.ml" 86 4026 4037
+)
+"ogtkTextProps.ml" 86 4026 4041 "ogtkTextProps.ml" 86 4026 4063
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 87 4064 4079 "ogtkTextProps.ml" 87 4064 4080
+type(
+  Pango.font_description
+)
+ident(
+  def p "ogtkTextProps.ml" 87 4064 4084 "ogtkTextProps.ml" 87 4064 4111
+)
+"ogtkTextProps.ml" 87 4064 4068 "ogtkTextProps.ml" 87 4064 4080
+type(
+  'a
+)
+"ogtkTextProps.ml" 87 4064 4084 "ogtkTextProps.ml" 87 4064 4089
+type(
+  ('b, Pango.font_description) Gobject.property ->
+  Pango.font_description -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 87 4064 4090 "ogtkTextProps.ml" 87 4064 4109
+type(
+  ('b, Pango.font_description) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.font_desc
+)
+"ogtkTextProps.ml" 87 4064 4110 "ogtkTextProps.ml" 87 4064 4111
+type(
+  Pango.font_description
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 87 4064 4079 "ogtkTextProps.ml" 87 4064 4080
+)
+"ogtkTextProps.ml" 87 4064 4084 "ogtkTextProps.ml" 87 4064 4111
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 88 4112 4128 "ogtkTextProps.ml" 88 4112 4129
+type(
+  string
+)
+ident(
+  def p "ogtkTextProps.ml" 88 4112 4133 "ogtkTextProps.ml" 88 4112 4161
+)
+"ogtkTextProps.ml" 88 4112 4116 "ogtkTextProps.ml" 88 4112 4129
+type(
+  'a
+)
+"ogtkTextProps.ml" 88 4112 4133 "ogtkTextProps.ml" 88 4112 4138
+type(
+  ('b, string) Gobject.property -> string -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 88 4112 4139 "ogtkTextProps.ml" 88 4112 4159
+type(
+  ('b, string) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.foreground
+)
+"ogtkTextProps.ml" 88 4112 4160 "ogtkTextProps.ml" 88 4112 4161
+type(
+  string
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 88 4112 4128 "ogtkTextProps.ml" 88 4112 4129
+)
+"ogtkTextProps.ml" 88 4112 4133 "ogtkTextProps.ml" 88 4112 4161
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 89 4162 4182 "ogtkTextProps.ml" 89 4162 4183
+type(
+  Gdk.color
+)
+ident(
+  def p "ogtkTextProps.ml" 89 4162 4187 "ogtkTextProps.ml" 89 4162 4219
+)
+"ogtkTextProps.ml" 89 4162 4166 "ogtkTextProps.ml" 89 4162 4183
+type(
+  'a
+)
+"ogtkTextProps.ml" 89 4162 4187 "ogtkTextProps.ml" 89 4162 4192
+type(
+  ('b, Gdk.color) Gobject.property -> Gdk.color -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 89 4162 4193 "ogtkTextProps.ml" 89 4162 4217
+type(
+  ('b, Gdk.color) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.foreground_gdk
+)
+"ogtkTextProps.ml" 89 4162 4218 "ogtkTextProps.ml" 89 4162 4219
+type(
+  Gdk.color
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 89 4162 4182 "ogtkTextProps.ml" 89 4162 4183
+)
+"ogtkTextProps.ml" 89 4162 4187 "ogtkTextProps.ml" 89 4162 4219
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 90 4220 4240 "ogtkTextProps.ml" 90 4220 4241
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 90 4220 4245 "ogtkTextProps.ml" 90 4220 4277
+)
+"ogtkTextProps.ml" 90 4220 4224 "ogtkTextProps.ml" 90 4220 4241
+type(
+  'a
+)
+"ogtkTextProps.ml" 90 4220 4245 "ogtkTextProps.ml" 90 4220 4250
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 90 4220 4251 "ogtkTextProps.ml" 90 4220 4275
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.foreground_set
+)
+"ogtkTextProps.ml" 90 4220 4276 "ogtkTextProps.ml" 90 4220 4277
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 90 4220 4240 "ogtkTextProps.ml" 90 4220 4241
+)
+"ogtkTextProps.ml" 90 4220 4245 "ogtkTextProps.ml" 90 4220 4277
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 91 4278 4302 "ogtkTextProps.ml" 91 4278 4303
+type(
+  Gdk.bitmap
+)
+ident(
+  def p "ogtkTextProps.ml" 91 4278 4307 "ogtkTextProps.ml" 91 4278 4343
+)
+"ogtkTextProps.ml" 91 4278 4282 "ogtkTextProps.ml" 91 4278 4303
+type(
+  'a
+)
+"ogtkTextProps.ml" 91 4278 4307 "ogtkTextProps.ml" 91 4278 4312
+type(
+  ('b, Gdk.bitmap) Gobject.property -> Gdk.bitmap -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 91 4278 4313 "ogtkTextProps.ml" 91 4278 4341
+type(
+  ('b, Gdk.bitmap) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.foreground_stipple
+)
+"ogtkTextProps.ml" 91 4278 4342 "ogtkTextProps.ml" 91 4278 4343
+type(
+  Gdk.bitmap
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 91 4278 4302 "ogtkTextProps.ml" 91 4278 4303
+)
+"ogtkTextProps.ml" 91 4278 4307 "ogtkTextProps.ml" 91 4278 4343
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 92 4344 4372 "ogtkTextProps.ml" 92 4344 4373
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 92 4344 4377 "ogtkTextProps.ml" 92 4344 4417
+)
+"ogtkTextProps.ml" 92 4344 4348 "ogtkTextProps.ml" 92 4344 4373
+type(
+  'a
+)
+"ogtkTextProps.ml" 92 4344 4377 "ogtkTextProps.ml" 92 4344 4382
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 92 4344 4383 "ogtkTextProps.ml" 92 4344 4415
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.foreground_stipple_set
+)
+"ogtkTextProps.ml" 92 4344 4416 "ogtkTextProps.ml" 92 4344 4417
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 92 4344 4372 "ogtkTextProps.ml" 92 4344 4373
+)
+"ogtkTextProps.ml" 92 4344 4377 "ogtkTextProps.ml" 92 4344 4417
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 93 4418 4430 "ogtkTextProps.ml" 93 4418 4431
+type(
+  int
+)
+ident(
+  def p "ogtkTextProps.ml" 93 4418 4435 "ogtkTextProps.ml" 93 4418 4459
+)
+"ogtkTextProps.ml" 93 4418 4422 "ogtkTextProps.ml" 93 4418 4431
+type(
+  'a
+)
+"ogtkTextProps.ml" 93 4418 4435 "ogtkTextProps.ml" 93 4418 4440
+type(
+  ('b, int) Gobject.property -> int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 93 4418 4441 "ogtkTextProps.ml" 93 4418 4457
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.indent
+)
+"ogtkTextProps.ml" 93 4418 4458 "ogtkTextProps.ml" 93 4418 4459
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 93 4418 4430 "ogtkTextProps.ml" 93 4418 4431
+)
+"ogtkTextProps.ml" 93 4418 4435 "ogtkTextProps.ml" 93 4418 4459
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 94 4460 4476 "ogtkTextProps.ml" 94 4460 4477
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 94 4460 4481 "ogtkTextProps.ml" 94 4460 4509
+)
+"ogtkTextProps.ml" 94 4460 4464 "ogtkTextProps.ml" 94 4460 4477
+type(
+  'a
+)
+"ogtkTextProps.ml" 94 4460 4481 "ogtkTextProps.ml" 94 4460 4486
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 94 4460 4487 "ogtkTextProps.ml" 94 4460 4507
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.indent_set
+)
+"ogtkTextProps.ml" 94 4460 4508 "ogtkTextProps.ml" 94 4460 4509
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 94 4460 4476 "ogtkTextProps.ml" 94 4460 4477
+)
+"ogtkTextProps.ml" 94 4460 4481 "ogtkTextProps.ml" 94 4460 4509
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 95 4510 4525 "ogtkTextProps.ml" 95 4510 4526
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 95 4510 4530 "ogtkTextProps.ml" 95 4510 4557
+)
+"ogtkTextProps.ml" 95 4510 4514 "ogtkTextProps.ml" 95 4510 4526
+type(
+  'a
+)
+"ogtkTextProps.ml" 95 4510 4530 "ogtkTextProps.ml" 95 4510 4535
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 95 4510 4536 "ogtkTextProps.ml" 95 4510 4555
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.invisible
+)
+"ogtkTextProps.ml" 95 4510 4556 "ogtkTextProps.ml" 95 4510 4557
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 95 4510 4525 "ogtkTextProps.ml" 95 4510 4526
+)
+"ogtkTextProps.ml" 95 4510 4530 "ogtkTextProps.ml" 95 4510 4557
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 96 4558 4577 "ogtkTextProps.ml" 96 4558 4578
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 96 4558 4582 "ogtkTextProps.ml" 96 4558 4613
+)
+"ogtkTextProps.ml" 96 4558 4562 "ogtkTextProps.ml" 96 4558 4578
+type(
+  'a
+)
+"ogtkTextProps.ml" 96 4558 4582 "ogtkTextProps.ml" 96 4558 4587
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 96 4558 4588 "ogtkTextProps.ml" 96 4558 4611
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.invisible_set
+)
+"ogtkTextProps.ml" 96 4558 4612 "ogtkTextProps.ml" 96 4558 4613
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 96 4558 4577 "ogtkTextProps.ml" 96 4558 4578
+)
+"ogtkTextProps.ml" 96 4558 4582 "ogtkTextProps.ml" 96 4558 4613
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 97 4614 4633 "ogtkTextProps.ml" 97 4614 4634
+type(
+  GtkEnums.justification
+)
+ident(
+  def p "ogtkTextProps.ml" 97 4614 4638 "ogtkTextProps.ml" 97 4614 4669
+)
+"ogtkTextProps.ml" 97 4614 4618 "ogtkTextProps.ml" 97 4614 4634
+type(
+  'a
+)
+"ogtkTextProps.ml" 97 4614 4638 "ogtkTextProps.ml" 97 4614 4643
+type(
+  ('b, GtkEnums.justification) Gobject.property ->
+  GtkEnums.justification -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 97 4614 4644 "ogtkTextProps.ml" 97 4614 4667
+type(
+  ('b, GtkEnums.justification) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.justification
+)
+"ogtkTextProps.ml" 97 4614 4668 "ogtkTextProps.ml" 97 4614 4669
+type(
+  GtkEnums.justification
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 97 4614 4633 "ogtkTextProps.ml" 97 4614 4634
+)
+"ogtkTextProps.ml" 97 4614 4638 "ogtkTextProps.ml" 97 4614 4669
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 98 4670 4693 "ogtkTextProps.ml" 98 4670 4694
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 98 4670 4698 "ogtkTextProps.ml" 98 4670 4733
+)
+"ogtkTextProps.ml" 98 4670 4674 "ogtkTextProps.ml" 98 4670 4694
+type(
+  'a
+)
+"ogtkTextProps.ml" 98 4670 4698 "ogtkTextProps.ml" 98 4670 4703
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 98 4670 4704 "ogtkTextProps.ml" 98 4670 4731
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.justification_set
+)
+"ogtkTextProps.ml" 98 4670 4732 "ogtkTextProps.ml" 98 4670 4733
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 98 4670 4693 "ogtkTextProps.ml" 98 4670 4694
+)
+"ogtkTextProps.ml" 98 4670 4698 "ogtkTextProps.ml" 98 4670 4733
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 99 4734 4748 "ogtkTextProps.ml" 99 4734 4749
+type(
+  string
+)
+ident(
+  def p "ogtkTextProps.ml" 99 4734 4753 "ogtkTextProps.ml" 99 4734 4779
+)
+"ogtkTextProps.ml" 99 4734 4738 "ogtkTextProps.ml" 99 4734 4749
+type(
+  'a
+)
+"ogtkTextProps.ml" 99 4734 4753 "ogtkTextProps.ml" 99 4734 4758
+type(
+  ('b, string) Gobject.property -> string -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 99 4734 4759 "ogtkTextProps.ml" 99 4734 4777
+type(
+  ('b, string) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.language
+)
+"ogtkTextProps.ml" 99 4734 4778 "ogtkTextProps.ml" 99 4734 4779
+type(
+  string
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 99 4734 4748 "ogtkTextProps.ml" 99 4734 4749
+)
+"ogtkTextProps.ml" 99 4734 4753 "ogtkTextProps.ml" 99 4734 4779
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 100 4780 4798 "ogtkTextProps.ml" 100 4780 4799
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 100 4780 4803 "ogtkTextProps.ml" 100 4780 4833
+)
+"ogtkTextProps.ml" 100 4780 4784 "ogtkTextProps.ml" 100 4780 4799
+type(
+  'a
+)
+"ogtkTextProps.ml" 100 4780 4803 "ogtkTextProps.ml" 100 4780 4808
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 100 4780 4809 "ogtkTextProps.ml" 100 4780 4831
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.language_set
+)
+"ogtkTextProps.ml" 100 4780 4832 "ogtkTextProps.ml" 100 4780 4833
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 100 4780 4798 "ogtkTextProps.ml" 100 4780 4799
+)
+"ogtkTextProps.ml" 100 4780 4803 "ogtkTextProps.ml" 100 4780 4833
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 101 4834 4851 "ogtkTextProps.ml" 101 4834 4852
+type(
+  int
+)
+ident(
+  def p "ogtkTextProps.ml" 101 4834 4856 "ogtkTextProps.ml" 101 4834 4885
+)
+"ogtkTextProps.ml" 101 4834 4838 "ogtkTextProps.ml" 101 4834 4852
+type(
+  'a
+)
+"ogtkTextProps.ml" 101 4834 4856 "ogtkTextProps.ml" 101 4834 4861
+type(
+  ('b, int) Gobject.property -> int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 101 4834 4862 "ogtkTextProps.ml" 101 4834 4883
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.left_margin
+)
+"ogtkTextProps.ml" 101 4834 4884 "ogtkTextProps.ml" 101 4834 4885
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 101 4834 4851 "ogtkTextProps.ml" 101 4834 4852
+)
+"ogtkTextProps.ml" 101 4834 4856 "ogtkTextProps.ml" 101 4834 4885
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 102 4886 4907 "ogtkTextProps.ml" 102 4886 4908
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 102 4886 4912 "ogtkTextProps.ml" 102 4886 4945
+)
+"ogtkTextProps.ml" 102 4886 4890 "ogtkTextProps.ml" 102 4886 4908
+type(
+  'a
+)
+"ogtkTextProps.ml" 102 4886 4912 "ogtkTextProps.ml" 102 4886 4917
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 102 4886 4918 "ogtkTextProps.ml" 102 4886 4943
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.left_margin_set
+)
+"ogtkTextProps.ml" 102 4886 4944 "ogtkTextProps.ml" 102 4886 4945
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 102 4886 4907 "ogtkTextProps.ml" 102 4886 4908
+)
+"ogtkTextProps.ml" 102 4886 4912 "ogtkTextProps.ml" 102 4886 4945
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 103 4946 4970 "ogtkTextProps.ml" 103 4946 4971
+type(
+  int
+)
+ident(
+  def p "ogtkTextProps.ml" 103 4946 4975 "ogtkTextProps.ml" 103 4946 5011
+)
+"ogtkTextProps.ml" 103 4946 4950 "ogtkTextProps.ml" 103 4946 4971
+type(
+  'a
+)
+"ogtkTextProps.ml" 103 4946 4975 "ogtkTextProps.ml" 103 4946 4980
+type(
+  ('b, int) Gobject.property -> int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 103 4946 4981 "ogtkTextProps.ml" 103 4946 5009
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.pixels_above_lines
+)
+"ogtkTextProps.ml" 103 4946 5010 "ogtkTextProps.ml" 103 4946 5011
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 103 4946 4970 "ogtkTextProps.ml" 103 4946 4971
+)
+"ogtkTextProps.ml" 103 4946 4975 "ogtkTextProps.ml" 103 4946 5011
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 104 5012 5040 "ogtkTextProps.ml" 104 5012 5041
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 104 5012 5045 "ogtkTextProps.ml" 104 5012 5085
+)
+"ogtkTextProps.ml" 104 5012 5016 "ogtkTextProps.ml" 104 5012 5041
+type(
+  'a
+)
+"ogtkTextProps.ml" 104 5012 5045 "ogtkTextProps.ml" 104 5012 5050
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 104 5012 5051 "ogtkTextProps.ml" 104 5012 5083
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.pixels_above_lines_set
+)
+"ogtkTextProps.ml" 104 5012 5084 "ogtkTextProps.ml" 104 5012 5085
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 104 5012 5040 "ogtkTextProps.ml" 104 5012 5041
+)
+"ogtkTextProps.ml" 104 5012 5045 "ogtkTextProps.ml" 104 5012 5085
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 105 5086 5110 "ogtkTextProps.ml" 105 5086 5111
+type(
+  int
+)
+ident(
+  def p "ogtkTextProps.ml" 105 5086 5115 "ogtkTextProps.ml" 105 5086 5151
+)
+"ogtkTextProps.ml" 105 5086 5090 "ogtkTextProps.ml" 105 5086 5111
+type(
+  'a
+)
+"ogtkTextProps.ml" 105 5086 5115 "ogtkTextProps.ml" 105 5086 5120
+type(
+  ('b, int) Gobject.property -> int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 105 5086 5121 "ogtkTextProps.ml" 105 5086 5149
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.pixels_below_lines
+)
+"ogtkTextProps.ml" 105 5086 5150 "ogtkTextProps.ml" 105 5086 5151
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 105 5086 5110 "ogtkTextProps.ml" 105 5086 5111
+)
+"ogtkTextProps.ml" 105 5086 5115 "ogtkTextProps.ml" 105 5086 5151
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 106 5152 5180 "ogtkTextProps.ml" 106 5152 5181
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 106 5152 5185 "ogtkTextProps.ml" 106 5152 5225
+)
+"ogtkTextProps.ml" 106 5152 5156 "ogtkTextProps.ml" 106 5152 5181
+type(
+  'a
+)
+"ogtkTextProps.ml" 106 5152 5185 "ogtkTextProps.ml" 106 5152 5190
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 106 5152 5191 "ogtkTextProps.ml" 106 5152 5223
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.pixels_below_lines_set
+)
+"ogtkTextProps.ml" 106 5152 5224 "ogtkTextProps.ml" 106 5152 5225
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 106 5152 5180 "ogtkTextProps.ml" 106 5152 5181
+)
+"ogtkTextProps.ml" 106 5152 5185 "ogtkTextProps.ml" 106 5152 5225
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 107 5226 5250 "ogtkTextProps.ml" 107 5226 5251
+type(
+  int
+)
+ident(
+  def p "ogtkTextProps.ml" 107 5226 5255 "ogtkTextProps.ml" 107 5226 5291
+)
+"ogtkTextProps.ml" 107 5226 5230 "ogtkTextProps.ml" 107 5226 5251
+type(
+  'a
+)
+"ogtkTextProps.ml" 107 5226 5255 "ogtkTextProps.ml" 107 5226 5260
+type(
+  ('b, int) Gobject.property -> int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 107 5226 5261 "ogtkTextProps.ml" 107 5226 5289
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.pixels_inside_wrap
+)
+"ogtkTextProps.ml" 107 5226 5290 "ogtkTextProps.ml" 107 5226 5291
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 107 5226 5250 "ogtkTextProps.ml" 107 5226 5251
+)
+"ogtkTextProps.ml" 107 5226 5255 "ogtkTextProps.ml" 107 5226 5291
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 108 5292 5320 "ogtkTextProps.ml" 108 5292 5321
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 108 5292 5325 "ogtkTextProps.ml" 108 5292 5365
+)
+"ogtkTextProps.ml" 108 5292 5296 "ogtkTextProps.ml" 108 5292 5321
+type(
+  'a
+)
+"ogtkTextProps.ml" 108 5292 5325 "ogtkTextProps.ml" 108 5292 5330
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 108 5292 5331 "ogtkTextProps.ml" 108 5292 5363
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.pixels_inside_wrap_set
+)
+"ogtkTextProps.ml" 108 5292 5364 "ogtkTextProps.ml" 108 5292 5365
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 108 5292 5320 "ogtkTextProps.ml" 108 5292 5321
+)
+"ogtkTextProps.ml" 108 5292 5325 "ogtkTextProps.ml" 108 5292 5365
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 109 5366 5384 "ogtkTextProps.ml" 109 5366 5385
+type(
+  int
+)
+ident(
+  def p "ogtkTextProps.ml" 109 5366 5389 "ogtkTextProps.ml" 109 5366 5419
+)
+"ogtkTextProps.ml" 109 5366 5370 "ogtkTextProps.ml" 109 5366 5385
+type(
+  'a
+)
+"ogtkTextProps.ml" 109 5366 5389 "ogtkTextProps.ml" 109 5366 5394
+type(
+  ('b, int) Gobject.property -> int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 109 5366 5395 "ogtkTextProps.ml" 109 5366 5417
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.right_margin
+)
+"ogtkTextProps.ml" 109 5366 5418 "ogtkTextProps.ml" 109 5366 5419
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 109 5366 5384 "ogtkTextProps.ml" 109 5366 5385
+)
+"ogtkTextProps.ml" 109 5366 5389 "ogtkTextProps.ml" 109 5366 5419
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 110 5420 5442 "ogtkTextProps.ml" 110 5420 5443
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 110 5420 5447 "ogtkTextProps.ml" 110 5420 5481
+)
+"ogtkTextProps.ml" 110 5420 5424 "ogtkTextProps.ml" 110 5420 5443
+type(
+  'a
+)
+"ogtkTextProps.ml" 110 5420 5447 "ogtkTextProps.ml" 110 5420 5452
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 110 5420 5453 "ogtkTextProps.ml" 110 5420 5479
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.right_margin_set
+)
+"ogtkTextProps.ml" 110 5420 5480 "ogtkTextProps.ml" 110 5420 5481
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 110 5420 5442 "ogtkTextProps.ml" 110 5420 5443
+)
+"ogtkTextProps.ml" 110 5420 5447 "ogtkTextProps.ml" 110 5420 5481
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 111 5482 5492 "ogtkTextProps.ml" 111 5482 5493
+type(
+  int
+)
+ident(
+  def p "ogtkTextProps.ml" 111 5482 5497 "ogtkTextProps.ml" 111 5482 5519
+)
+"ogtkTextProps.ml" 111 5482 5486 "ogtkTextProps.ml" 111 5482 5493
+type(
+  'a
+)
+"ogtkTextProps.ml" 111 5482 5497 "ogtkTextProps.ml" 111 5482 5502
+type(
+  ('b, int) Gobject.property -> int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 111 5482 5503 "ogtkTextProps.ml" 111 5482 5517
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.rise
+)
+"ogtkTextProps.ml" 111 5482 5518 "ogtkTextProps.ml" 111 5482 5519
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 111 5482 5492 "ogtkTextProps.ml" 111 5482 5493
+)
+"ogtkTextProps.ml" 111 5482 5497 "ogtkTextProps.ml" 111 5482 5519
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 112 5520 5534 "ogtkTextProps.ml" 112 5520 5535
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 112 5520 5539 "ogtkTextProps.ml" 112 5520 5565
+)
+"ogtkTextProps.ml" 112 5520 5524 "ogtkTextProps.ml" 112 5520 5535
+type(
+  'a
+)
+"ogtkTextProps.ml" 112 5520 5539 "ogtkTextProps.ml" 112 5520 5544
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 112 5520 5545 "ogtkTextProps.ml" 112 5520 5563
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.rise_set
+)
+"ogtkTextProps.ml" 112 5520 5564 "ogtkTextProps.ml" 112 5520 5565
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 112 5520 5534 "ogtkTextProps.ml" 112 5520 5535
+)
+"ogtkTextProps.ml" 112 5520 5539 "ogtkTextProps.ml" 112 5520 5565
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 113 5566 5577 "ogtkTextProps.ml" 113 5566 5578
+type(
+  float
+)
+ident(
+  def p "ogtkTextProps.ml" 113 5566 5582 "ogtkTextProps.ml" 113 5566 5605
+)
+"ogtkTextProps.ml" 113 5566 5570 "ogtkTextProps.ml" 113 5566 5578
+type(
+  'a
+)
+"ogtkTextProps.ml" 113 5566 5582 "ogtkTextProps.ml" 113 5566 5587
+type(
+  ('b, float) Gobject.property -> float -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 113 5566 5588 "ogtkTextProps.ml" 113 5566 5603
+type(
+  ('b, float) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.scale
+)
+"ogtkTextProps.ml" 113 5566 5604 "ogtkTextProps.ml" 113 5566 5605
+type(
+  float
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 113 5566 5577 "ogtkTextProps.ml" 113 5566 5578
+)
+"ogtkTextProps.ml" 113 5566 5582 "ogtkTextProps.ml" 113 5566 5605
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 114 5606 5621 "ogtkTextProps.ml" 114 5606 5622
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 114 5606 5626 "ogtkTextProps.ml" 114 5606 5653
+)
+"ogtkTextProps.ml" 114 5606 5610 "ogtkTextProps.ml" 114 5606 5622
+type(
+  'a
+)
+"ogtkTextProps.ml" 114 5606 5626 "ogtkTextProps.ml" 114 5606 5631
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 114 5606 5632 "ogtkTextProps.ml" 114 5606 5651
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.scale_set
+)
+"ogtkTextProps.ml" 114 5606 5652 "ogtkTextProps.ml" 114 5606 5653
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 114 5606 5621 "ogtkTextProps.ml" 114 5606 5622
+)
+"ogtkTextProps.ml" 114 5606 5626 "ogtkTextProps.ml" 114 5606 5653
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 115 5654 5664 "ogtkTextProps.ml" 115 5654 5665
+type(
+  int
+)
+ident(
+  def p "ogtkTextProps.ml" 115 5654 5669 "ogtkTextProps.ml" 115 5654 5691
+)
+"ogtkTextProps.ml" 115 5654 5658 "ogtkTextProps.ml" 115 5654 5665
+type(
+  'a
+)
+"ogtkTextProps.ml" 115 5654 5669 "ogtkTextProps.ml" 115 5654 5674
+type(
+  ('b, int) Gobject.property -> int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 115 5654 5675 "ogtkTextProps.ml" 115 5654 5689
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.size
+)
+"ogtkTextProps.ml" 115 5654 5690 "ogtkTextProps.ml" 115 5654 5691
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 115 5654 5664 "ogtkTextProps.ml" 115 5654 5665
+)
+"ogtkTextProps.ml" 115 5654 5669 "ogtkTextProps.ml" 115 5654 5691
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 116 5692 5709 "ogtkTextProps.ml" 116 5692 5710
+type(
+  float
+)
+ident(
+  def p "ogtkTextProps.ml" 116 5692 5714 "ogtkTextProps.ml" 116 5692 5743
+)
+"ogtkTextProps.ml" 116 5692 5696 "ogtkTextProps.ml" 116 5692 5710
+type(
+  'a
+)
+"ogtkTextProps.ml" 116 5692 5714 "ogtkTextProps.ml" 116 5692 5719
+type(
+  ('b, float) Gobject.property -> float -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 116 5692 5720 "ogtkTextProps.ml" 116 5692 5741
+type(
+  ('b, float) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.size_points
+)
+"ogtkTextProps.ml" 116 5692 5742 "ogtkTextProps.ml" 116 5692 5743
+type(
+  float
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 116 5692 5709 "ogtkTextProps.ml" 116 5692 5710
+)
+"ogtkTextProps.ml" 116 5692 5714 "ogtkTextProps.ml" 116 5692 5743
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 117 5744 5758 "ogtkTextProps.ml" 117 5744 5759
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 117 5744 5763 "ogtkTextProps.ml" 117 5744 5789
+)
+"ogtkTextProps.ml" 117 5744 5748 "ogtkTextProps.ml" 117 5744 5759
+type(
+  'a
+)
+"ogtkTextProps.ml" 117 5744 5763 "ogtkTextProps.ml" 117 5744 5768
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 117 5744 5769 "ogtkTextProps.ml" 117 5744 5787
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.size_set
+)
+"ogtkTextProps.ml" 117 5744 5788 "ogtkTextProps.ml" 117 5744 5789
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 117 5744 5758 "ogtkTextProps.ml" 117 5744 5759
+)
+"ogtkTextProps.ml" 117 5744 5763 "ogtkTextProps.ml" 117 5744 5789
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 118 5790 5803 "ogtkTextProps.ml" 118 5790 5804
+type(
+  PangoEnums.stretch
+)
+ident(
+  def p "ogtkTextProps.ml" 118 5790 5808 "ogtkTextProps.ml" 118 5790 5833
+)
+"ogtkTextProps.ml" 118 5790 5794 "ogtkTextProps.ml" 118 5790 5804
+type(
+  'a
+)
+"ogtkTextProps.ml" 118 5790 5808 "ogtkTextProps.ml" 118 5790 5813
+type(
+  ('b, PangoEnums.stretch) Gobject.property ->
+  PangoEnums.stretch -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 118 5790 5814 "ogtkTextProps.ml" 118 5790 5831
+type(
+  ('b, PangoEnums.stretch) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.stretch
+)
+"ogtkTextProps.ml" 118 5790 5832 "ogtkTextProps.ml" 118 5790 5833
+type(
+  PangoEnums.stretch
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 118 5790 5803 "ogtkTextProps.ml" 118 5790 5804
+)
+"ogtkTextProps.ml" 118 5790 5808 "ogtkTextProps.ml" 118 5790 5833
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 119 5834 5851 "ogtkTextProps.ml" 119 5834 5852
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 119 5834 5856 "ogtkTextProps.ml" 119 5834 5885
+)
+"ogtkTextProps.ml" 119 5834 5838 "ogtkTextProps.ml" 119 5834 5852
+type(
+  'a
+)
+"ogtkTextProps.ml" 119 5834 5856 "ogtkTextProps.ml" 119 5834 5861
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 119 5834 5862 "ogtkTextProps.ml" 119 5834 5883
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.stretch_set
+)
+"ogtkTextProps.ml" 119 5834 5884 "ogtkTextProps.ml" 119 5834 5885
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 119 5834 5851 "ogtkTextProps.ml" 119 5834 5852
+)
+"ogtkTextProps.ml" 119 5834 5856 "ogtkTextProps.ml" 119 5834 5885
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 120 5886 5905 "ogtkTextProps.ml" 120 5886 5906
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 120 5886 5910 "ogtkTextProps.ml" 120 5886 5941
+)
+"ogtkTextProps.ml" 120 5886 5890 "ogtkTextProps.ml" 120 5886 5906
+type(
+  'a
+)
+"ogtkTextProps.ml" 120 5886 5910 "ogtkTextProps.ml" 120 5886 5915
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 120 5886 5916 "ogtkTextProps.ml" 120 5886 5939
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.strikethrough
+)
+"ogtkTextProps.ml" 120 5886 5940 "ogtkTextProps.ml" 120 5886 5941
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 120 5886 5905 "ogtkTextProps.ml" 120 5886 5906
+)
+"ogtkTextProps.ml" 120 5886 5910 "ogtkTextProps.ml" 120 5886 5941
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 121 5942 5965 "ogtkTextProps.ml" 121 5942 5966
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 121 5942 5970 "ogtkTextProps.ml" 121 5942 6005
+)
+"ogtkTextProps.ml" 121 5942 5946 "ogtkTextProps.ml" 121 5942 5966
+type(
+  'a
+)
+"ogtkTextProps.ml" 121 5942 5970 "ogtkTextProps.ml" 121 5942 5975
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 121 5942 5976 "ogtkTextProps.ml" 121 5942 6003
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.strikethrough_set
+)
+"ogtkTextProps.ml" 121 5942 6004 "ogtkTextProps.ml" 121 5942 6005
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 121 5942 5965 "ogtkTextProps.ml" 121 5942 5966
+)
+"ogtkTextProps.ml" 121 5942 5970 "ogtkTextProps.ml" 121 5942 6005
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 122 6006 6017 "ogtkTextProps.ml" 122 6006 6018
+type(
+  PangoEnums.style
+)
+ident(
+  def p "ogtkTextProps.ml" 122 6006 6022 "ogtkTextProps.ml" 122 6006 6045
+)
+"ogtkTextProps.ml" 122 6006 6010 "ogtkTextProps.ml" 122 6006 6018
+type(
+  'a
+)
+"ogtkTextProps.ml" 122 6006 6022 "ogtkTextProps.ml" 122 6006 6027
+type(
+  ('b, PangoEnums.style) Gobject.property ->
+  PangoEnums.style -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 122 6006 6028 "ogtkTextProps.ml" 122 6006 6043
+type(
+  ('b, PangoEnums.style) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.style
+)
+"ogtkTextProps.ml" 122 6006 6044 "ogtkTextProps.ml" 122 6006 6045
+type(
+  PangoEnums.style
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 122 6006 6017 "ogtkTextProps.ml" 122 6006 6018
+)
+"ogtkTextProps.ml" 122 6006 6022 "ogtkTextProps.ml" 122 6006 6045
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 123 6046 6061 "ogtkTextProps.ml" 123 6046 6062
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 123 6046 6066 "ogtkTextProps.ml" 123 6046 6093
+)
+"ogtkTextProps.ml" 123 6046 6050 "ogtkTextProps.ml" 123 6046 6062
+type(
+  'a
+)
+"ogtkTextProps.ml" 123 6046 6066 "ogtkTextProps.ml" 123 6046 6071
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 123 6046 6072 "ogtkTextProps.ml" 123 6046 6091
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.style_set
+)
+"ogtkTextProps.ml" 123 6046 6092 "ogtkTextProps.ml" 123 6046 6093
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 123 6046 6061 "ogtkTextProps.ml" 123 6046 6062
+)
+"ogtkTextProps.ml" 123 6046 6066 "ogtkTextProps.ml" 123 6046 6093
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 124 6094 6108 "ogtkTextProps.ml" 124 6094 6109
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 124 6094 6113 "ogtkTextProps.ml" 124 6094 6139
+)
+"ogtkTextProps.ml" 124 6094 6098 "ogtkTextProps.ml" 124 6094 6109
+type(
+  'a
+)
+"ogtkTextProps.ml" 124 6094 6113 "ogtkTextProps.ml" 124 6094 6118
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 124 6094 6119 "ogtkTextProps.ml" 124 6094 6137
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.tabs_set
+)
+"ogtkTextProps.ml" 124 6094 6138 "ogtkTextProps.ml" 124 6094 6139
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 124 6094 6108 "ogtkTextProps.ml" 124 6094 6109
+)
+"ogtkTextProps.ml" 124 6094 6113 "ogtkTextProps.ml" 124 6094 6139
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 125 6140 6155 "ogtkTextProps.ml" 125 6140 6156
+type(
+  PangoEnums.underline
+)
+ident(
+  def p "ogtkTextProps.ml" 125 6140 6160 "ogtkTextProps.ml" 125 6140 6187
+)
+"ogtkTextProps.ml" 125 6140 6144 "ogtkTextProps.ml" 125 6140 6156
+type(
+  'a
+)
+"ogtkTextProps.ml" 125 6140 6160 "ogtkTextProps.ml" 125 6140 6165
+type(
+  ('b, PangoEnums.underline) Gobject.property ->
+  PangoEnums.underline -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 125 6140 6166 "ogtkTextProps.ml" 125 6140 6185
+type(
+  ('b, PangoEnums.underline) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.underline
+)
+"ogtkTextProps.ml" 125 6140 6186 "ogtkTextProps.ml" 125 6140 6187
+type(
+  PangoEnums.underline
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 125 6140 6155 "ogtkTextProps.ml" 125 6140 6156
+)
+"ogtkTextProps.ml" 125 6140 6160 "ogtkTextProps.ml" 125 6140 6187
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 126 6188 6207 "ogtkTextProps.ml" 126 6188 6208
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 126 6188 6212 "ogtkTextProps.ml" 126 6188 6243
+)
+"ogtkTextProps.ml" 126 6188 6192 "ogtkTextProps.ml" 126 6188 6208
+type(
+  'a
+)
+"ogtkTextProps.ml" 126 6188 6212 "ogtkTextProps.ml" 126 6188 6217
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 126 6188 6218 "ogtkTextProps.ml" 126 6188 6241
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.underline_set
+)
+"ogtkTextProps.ml" 126 6188 6242 "ogtkTextProps.ml" 126 6188 6243
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 126 6188 6207 "ogtkTextProps.ml" 126 6188 6208
+)
+"ogtkTextProps.ml" 126 6188 6212 "ogtkTextProps.ml" 126 6188 6243
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 127 6244 6257 "ogtkTextProps.ml" 127 6244 6258
+type(
+  PangoEnums.variant
+)
+ident(
+  def p "ogtkTextProps.ml" 127 6244 6262 "ogtkTextProps.ml" 127 6244 6287
+)
+"ogtkTextProps.ml" 127 6244 6248 "ogtkTextProps.ml" 127 6244 6258
+type(
+  'a
+)
+"ogtkTextProps.ml" 127 6244 6262 "ogtkTextProps.ml" 127 6244 6267
+type(
+  ('b, PangoEnums.variant) Gobject.property ->
+  PangoEnums.variant -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 127 6244 6268 "ogtkTextProps.ml" 127 6244 6285
+type(
+  ('b, PangoEnums.variant) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.variant
+)
+"ogtkTextProps.ml" 127 6244 6286 "ogtkTextProps.ml" 127 6244 6287
+type(
+  PangoEnums.variant
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 127 6244 6257 "ogtkTextProps.ml" 127 6244 6258
+)
+"ogtkTextProps.ml" 127 6244 6262 "ogtkTextProps.ml" 127 6244 6287
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 128 6288 6305 "ogtkTextProps.ml" 128 6288 6306
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 128 6288 6310 "ogtkTextProps.ml" 128 6288 6339
+)
+"ogtkTextProps.ml" 128 6288 6292 "ogtkTextProps.ml" 128 6288 6306
+type(
+  'a
+)
+"ogtkTextProps.ml" 128 6288 6310 "ogtkTextProps.ml" 128 6288 6315
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 128 6288 6316 "ogtkTextProps.ml" 128 6288 6337
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.variant_set
+)
+"ogtkTextProps.ml" 128 6288 6338 "ogtkTextProps.ml" 128 6288 6339
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 128 6288 6305 "ogtkTextProps.ml" 128 6288 6306
+)
+"ogtkTextProps.ml" 128 6288 6310 "ogtkTextProps.ml" 128 6288 6339
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 129 6340 6352 "ogtkTextProps.ml" 129 6340 6353
+type(
+  int
+)
+ident(
+  def p "ogtkTextProps.ml" 129 6340 6357 "ogtkTextProps.ml" 129 6340 6381
+)
+"ogtkTextProps.ml" 129 6340 6344 "ogtkTextProps.ml" 129 6340 6353
+type(
+  'a
+)
+"ogtkTextProps.ml" 129 6340 6357 "ogtkTextProps.ml" 129 6340 6362
+type(
+  ('b, int) Gobject.property -> int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 129 6340 6363 "ogtkTextProps.ml" 129 6340 6379
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.weight
+)
+"ogtkTextProps.ml" 129 6340 6380 "ogtkTextProps.ml" 129 6340 6381
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 129 6340 6352 "ogtkTextProps.ml" 129 6340 6353
+)
+"ogtkTextProps.ml" 129 6340 6357 "ogtkTextProps.ml" 129 6340 6381
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 130 6382 6398 "ogtkTextProps.ml" 130 6382 6399
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 130 6382 6403 "ogtkTextProps.ml" 130 6382 6431
+)
+"ogtkTextProps.ml" 130 6382 6386 "ogtkTextProps.ml" 130 6382 6399
+type(
+  'a
+)
+"ogtkTextProps.ml" 130 6382 6403 "ogtkTextProps.ml" 130 6382 6408
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 130 6382 6409 "ogtkTextProps.ml" 130 6382 6429
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.weight_set
+)
+"ogtkTextProps.ml" 130 6382 6430 "ogtkTextProps.ml" 130 6382 6431
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 130 6382 6398 "ogtkTextProps.ml" 130 6382 6399
+)
+"ogtkTextProps.ml" 130 6382 6403 "ogtkTextProps.ml" 130 6382 6431
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 131 6432 6447 "ogtkTextProps.ml" 131 6432 6448
+type(
+  GtkEnums.wrap_mode
+)
+ident(
+  def p "ogtkTextProps.ml" 131 6432 6452 "ogtkTextProps.ml" 131 6432 6479
+)
+"ogtkTextProps.ml" 131 6432 6436 "ogtkTextProps.ml" 131 6432 6448
+type(
+  'a
+)
+"ogtkTextProps.ml" 131 6432 6452 "ogtkTextProps.ml" 131 6432 6457
+type(
+  ('b, GtkEnums.wrap_mode) Gobject.property ->
+  GtkEnums.wrap_mode -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 131 6432 6458 "ogtkTextProps.ml" 131 6432 6477
+type(
+  ('b, GtkEnums.wrap_mode) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.wrap_mode
+)
+"ogtkTextProps.ml" 131 6432 6478 "ogtkTextProps.ml" 131 6432 6479
+type(
+  GtkEnums.wrap_mode
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 131 6432 6447 "ogtkTextProps.ml" 131 6432 6448
+)
+"ogtkTextProps.ml" 131 6432 6452 "ogtkTextProps.ml" 131 6432 6479
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 132 6480 6499 "ogtkTextProps.ml" 132 6480 6500
+type(
+  bool
+)
+ident(
+  def p "ogtkTextProps.ml" 132 6480 6504 "ogtkTextProps.ml" 132 6480 6535
+)
+"ogtkTextProps.ml" 132 6480 6484 "ogtkTextProps.ml" 132 6480 6500
+type(
+  'a
+)
+"ogtkTextProps.ml" 132 6480 6504 "ogtkTextProps.ml" 132 6480 6509
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTextProps.ml" 6 66 70 "ogtkTextProps.ml" 6 66 75
+)
+"ogtkTextProps.ml" 132 6480 6510 "ogtkTextProps.ml" 132 6480 6533
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTextProps.TextTag.P.wrap_mode_set
+)
+"ogtkTextProps.ml" 132 6480 6534 "ogtkTextProps.ml" 132 6480 6535
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTextProps.ml" 132 6480 6499 "ogtkTextProps.ml" 132 6480 6500
+)
+"ogtkTextProps.ml" 132 6480 6504 "ogtkTextProps.ml" 132 6480 6535
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTextProps.ml" 72 3288 3309 "ogtkTextProps.ml" 132 6480 6535
+type(
+  'a -> 'b Gobject.param
+)
+"ogtkTextProps.ml" 134 6537 6580 "ogtkTextProps.ml" 134 6537 6586
+type(
+  < tag_added : callback:(Gtk.text_tag -> unit) -> GtkSignal.id;
+    tag_changed : callback:(Gtk.text_tag -> size:bool -> unit) ->
+                  GtkSignal.id;
+    tag_removed : callback:(Gtk.text_tag -> unit) -> GtkSignal.id; .. >
+)
+"ogtkTextProps.ml" 137 6681 6702 "ogtkTextProps.ml" 137 6681 6706
+type(
+  < tag_added : callback:(Gtk.text_tag -> unit) -> GtkSignal.id;
+    tag_changed : callback:(Gtk.text_tag -> size:bool -> unit) ->
+                  GtkSignal.id;
+    tag_removed : callback:(Gtk.text_tag -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkTextProps.ml" 137 6681 6702 "ogtkTextProps.ml" 137 6681 6714
+call(
+  tail
+)
+type(
+  ([> `texttagtable ], Gtk.text_tag -> unit) GtkSignal.t ->
+  callback:(Gtk.text_tag -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 137 6681 6715 "ogtkTextProps.ml" 137 6681 6739
+type(
+  ([> `texttagtable ] as 'b, Gtk.text_tag -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextTagTable.S.tag_added
+)
+"ogtkTextProps.ml" 137 6681 6702 "ogtkTextProps.ml" 137 6681 6739
+type(
+  callback:(Gtk.text_tag -> unit) -> GtkSignal.id
+)
+type(
+  callback:(Gtk.text_tag -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 138 6740 6763 "ogtkTextProps.ml" 138 6740 6767
+type(
+  'a
+)
+"ogtkTextProps.ml" 138 6740 6763 "ogtkTextProps.ml" 138 6740 6775
+call(
+  tail
+)
+type(
+  ('b, Gtk.text_tag -> size:bool -> unit) GtkSignal.t ->
+  callback:(Gtk.text_tag -> size:bool -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 138 6740 6776 "ogtkTextProps.ml" 138 6740 6802
+type(
+  ('b, Gtk.text_tag -> size:bool -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextTagTable.S.tag_changed
+)
+"ogtkTextProps.ml" 138 6740 6763 "ogtkTextProps.ml" 138 6740 6802
+type(
+  callback:(Gtk.text_tag -> size:bool -> unit) -> GtkSignal.id
+)
+type(
+  callback:(Gtk.text_tag -> size:bool -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 139 6803 6826 "ogtkTextProps.ml" 139 6803 6830
+type(
+  'a
+)
+"ogtkTextProps.ml" 139 6803 6826 "ogtkTextProps.ml" 139 6803 6838
+call(
+  tail
+)
+type(
+  ('b, Gtk.text_tag -> unit) GtkSignal.t ->
+  callback:(Gtk.text_tag -> unit) -> GtkSignal.id
+)
+"ogtkTextProps.ml" 139 6803 6839 "ogtkTextProps.ml" 139 6803 6865
+type(
+  ('b, Gtk.text_tag -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTextProps.TextTagTable.S.tag_removed
+)
+"ogtkTextProps.ml" 139 6803 6826 "ogtkTextProps.ml" 139 6803 6865
+type(
+  callback:(Gtk.text_tag -> unit) -> GtkSignal.id
+)
+type(
+  callback:(Gtk.text_tag -> unit) -> GtkSignal.id
+)

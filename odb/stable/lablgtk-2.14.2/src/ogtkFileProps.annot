@@ -1,0 +1,847 @@
+"ogtkFileProps.ml" 4 38 42 "ogtkFileProps.ml" 4 38 45
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  def set "ogtkFileProps.ml" 5 52 52 --
+)
+"ogtkFileProps.ml" 4 38 48 "ogtkFileProps.ml" 4 38 51
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"ogtkFileProps.ml" 5 52 56 "ogtkFileProps.ml" 5 52 59
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  def get "ogtkFileProps.ml" 6 66 66 --
+)
+"ogtkFileProps.ml" 5 52 62 "ogtkFileProps.ml" 5 52 65
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  ext_ref Gobject.get
+)
+"ogtkFileProps.ml" 6 66 70 "ogtkFileProps.ml" 6 66 75
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  def param "ogtkFileProps.ml" 7 84 84 --
+)
+"ogtkFileProps.ml" 6 66 78 "ogtkFileProps.ml" 6 66 83
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"ogtkFileProps.ml" 11 171 193 "ogtkFileProps.ml" 11 171 196
+type(
+  ([> `filechooser ] as 'a, GtkEnums.file_chooser_action) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.file_chooser_action -> unit
+)
+ident(
+  int_ref set "ogtkFileProps.ml" 4 38 42 "ogtkFileProps.ml" 4 38 45
+)
+"ogtkFileProps.ml" 11 171 197 "ogtkFileProps.ml" 11 171 217
+type(
+  ('a, GtkEnums.file_chooser_action) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.action
+)
+"ogtkFileProps.ml" 11 171 218 "ogtkFileProps.ml" 11 171 221
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 11 171 193 "ogtkFileProps.ml" 11 171 221
+call(
+  tail
+)
+type(
+  GtkEnums.file_chooser_action -> unit
+)
+type(
+  GtkEnums.file_chooser_action -> unit
+)
+"ogtkFileProps.ml" 13 250 254 "ogtkFileProps.ml" 13 250 257
+type(
+  ('a, GObj.widget) Gobject.property -> 'a Gobject.obj -> GObj.widget -> unit
+)
+ident(
+  int_ref set "ogtkFileProps.ml" 4 38 42 "ogtkFileProps.ml" 4 38 45
+)
+"ogtkFileProps.ml" 13 250 259 "ogtkFileProps.ml" 13 250 285
+type(
+  (_[> `filechooser ], Gtk.widget Gobject.obj) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.extra_widget
+)
+"ogtkFileProps.ml" 13 250 296 "ogtkFileProps.ml" 13 250 312
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkFileProps.ml" 13 250 258 "ogtkFileProps.ml" 13 250 313
+type(
+  ('a, GObj.widget) Gobject.property
+)
+"ogtkFileProps.ml" 13 250 314 "ogtkFileProps.ml" 13 250 317
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 13 250 254 "ogtkFileProps.ml" 13 250 317
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+type(
+  GObj.widget -> unit
+)
+"ogtkFileProps.ml" 14 318 344 "ogtkFileProps.ml" 14 318 347
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkFileProps.ml" 4 38 42 "ogtkFileProps.ml" 4 38 45
+)
+"ogtkFileProps.ml" 14 318 348 "ogtkFileProps.ml" 14 318 372
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.local_only
+)
+"ogtkFileProps.ml" 14 318 373 "ogtkFileProps.ml" 14 318 376
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 14 318 344 "ogtkFileProps.ml" 14 318 376
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkFileProps.ml" 16 407 411 "ogtkFileProps.ml" 16 407 414
+type(
+  ('a, GObj.widget) Gobject.property -> 'a Gobject.obj -> GObj.widget -> unit
+)
+ident(
+  int_ref set "ogtkFileProps.ml" 4 38 42 "ogtkFileProps.ml" 4 38 45
+)
+"ogtkFileProps.ml" 16 407 416 "ogtkFileProps.ml" 16 407 444
+type(
+  (_[> `filechooser ], Gtk.widget Gobject.obj) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.preview_widget
+)
+"ogtkFileProps.ml" 16 407 455 "ogtkFileProps.ml" 16 407 471
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkFileProps.ml" 16 407 415 "ogtkFileProps.ml" 16 407 472
+type(
+  ('a, GObj.widget) Gobject.property
+)
+"ogtkFileProps.ml" 16 407 473 "ogtkFileProps.ml" 16 407 476
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 16 407 411 "ogtkFileProps.ml" 16 407 476
+call(
+  tail
+)
+type(
+  GObj.widget -> unit
+)
+type(
+  GObj.widget -> unit
+)
+"ogtkFileProps.ml" 18 514 518 "ogtkFileProps.ml" 18 514 521
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkFileProps.ml" 4 38 42 "ogtkFileProps.ml" 4 38 45
+)
+"ogtkFileProps.ml" 18 514 522 "ogtkFileProps.ml" 18 514 557
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.preview_widget_active
+)
+"ogtkFileProps.ml" 18 514 558 "ogtkFileProps.ml" 18 514 561
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 18 514 518 "ogtkFileProps.ml" 18 514 561
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkFileProps.ml" 19 562 593 "ogtkFileProps.ml" 19 562 596
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkFileProps.ml" 4 38 42 "ogtkFileProps.ml" 4 38 45
+)
+"ogtkFileProps.ml" 19 562 597 "ogtkFileProps.ml" 19 562 626
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.select_multiple
+)
+"ogtkFileProps.ml" 19 562 627 "ogtkFileProps.ml" 19 562 630
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 19 562 593 "ogtkFileProps.ml" 19 562 630
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkFileProps.ml" 20 631 658 "ogtkFileProps.ml" 20 631 661
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkFileProps.ml" 4 38 42 "ogtkFileProps.ml" 4 38 45
+)
+"ogtkFileProps.ml" 20 631 662 "ogtkFileProps.ml" 20 631 687
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.show_hidden
+)
+"ogtkFileProps.ml" 20 631 688 "ogtkFileProps.ml" 20 631 691
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 20 631 658 "ogtkFileProps.ml" 20 631 691
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkFileProps.ml" 21 692 725 "ogtkFileProps.ml" 21 692 728
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkFileProps.ml" 4 38 42 "ogtkFileProps.ml" 4 38 45
+)
+"ogtkFileProps.ml" 21 692 729 "ogtkFileProps.ml" 21 692 760
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.use_preview_label
+)
+"ogtkFileProps.ml" 21 692 761 "ogtkFileProps.ml" 21 692 764
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 21 692 725 "ogtkFileProps.ml" 21 692 764
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkFileProps.ml" 23 806 810 "ogtkFileProps.ml" 23 806 813
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkFileProps.ml" 4 38 42 "ogtkFileProps.ml" 4 38 45
+)
+"ogtkFileProps.ml" 23 806 814 "ogtkFileProps.ml" 23 806 853
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.do_overwrite_confirmation
+)
+"ogtkFileProps.ml" 23 806 854 "ogtkFileProps.ml" 23 806 857
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 23 806 810 "ogtkFileProps.ml" 23 806 857
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkFileProps.ml" 24 858 876 "ogtkFileProps.ml" 24 858 879
+type(
+  ('a, GtkEnums.file_chooser_action) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.file_chooser_action
+)
+ident(
+  int_ref get "ogtkFileProps.ml" 5 52 56 "ogtkFileProps.ml" 5 52 59
+)
+"ogtkFileProps.ml" 24 858 880 "ogtkFileProps.ml" 24 858 900
+type(
+  ('a, GtkEnums.file_chooser_action) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.action
+)
+"ogtkFileProps.ml" 24 858 901 "ogtkFileProps.ml" 24 858 904
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 24 858 876 "ogtkFileProps.ml" 24 858 904
+call(
+  tail
+)
+type(
+  GtkEnums.file_chooser_action
+)
+type(
+  GtkEnums.file_chooser_action
+)
+"ogtkFileProps.ml" 26 929 933 "ogtkFileProps.ml" 26 929 936
+type(
+  ('a, GObj.widget) Gobject.property -> 'a Gobject.obj -> GObj.widget
+)
+ident(
+  int_ref get "ogtkFileProps.ml" 5 52 56 "ogtkFileProps.ml" 5 52 59
+)
+"ogtkFileProps.ml" 26 929 938 "ogtkFileProps.ml" 26 929 964
+type(
+  (_[> `filechooser ], Gtk.widget Gobject.obj) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.extra_widget
+)
+"ogtkFileProps.ml" 26 929 975 "ogtkFileProps.ml" 26 929 991
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkFileProps.ml" 26 929 937 "ogtkFileProps.ml" 26 929 992
+type(
+  ('a, GObj.widget) Gobject.property
+)
+"ogtkFileProps.ml" 26 929 993 "ogtkFileProps.ml" 26 929 996
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 26 929 933 "ogtkFileProps.ml" 26 929 996
+call(
+  tail
+)
+type(
+  GObj.widget
+)
+type(
+  GObj.widget
+)
+"ogtkFileProps.ml" 27 997 1019 "ogtkFileProps.ml" 27 997 1022
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkFileProps.ml" 5 52 56 "ogtkFileProps.ml" 5 52 59
+)
+"ogtkFileProps.ml" 27 997 1023 "ogtkFileProps.ml" 27 997 1047
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.local_only
+)
+"ogtkFileProps.ml" 27 997 1048 "ogtkFileProps.ml" 27 997 1051
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 27 997 1019 "ogtkFileProps.ml" 27 997 1051
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkFileProps.ml" 29 1078 1082 "ogtkFileProps.ml" 29 1078 1085
+type(
+  ('a, GObj.widget) Gobject.property -> 'a Gobject.obj -> GObj.widget
+)
+ident(
+  int_ref get "ogtkFileProps.ml" 5 52 56 "ogtkFileProps.ml" 5 52 59
+)
+"ogtkFileProps.ml" 29 1078 1087 "ogtkFileProps.ml" 29 1078 1115
+type(
+  (_[> `filechooser ], Gtk.widget Gobject.obj) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.preview_widget
+)
+"ogtkFileProps.ml" 29 1078 1126 "ogtkFileProps.ml" 29 1078 1142
+type(
+  GObj.widget Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget
+)
+"ogtkFileProps.ml" 29 1078 1086 "ogtkFileProps.ml" 29 1078 1143
+type(
+  ('a, GObj.widget) Gobject.property
+)
+"ogtkFileProps.ml" 29 1078 1144 "ogtkFileProps.ml" 29 1078 1147
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 29 1078 1082 "ogtkFileProps.ml" 29 1078 1147
+call(
+  tail
+)
+type(
+  GObj.widget
+)
+type(
+  GObj.widget
+)
+"ogtkFileProps.ml" 30 1148 1181 "ogtkFileProps.ml" 30 1148 1184
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkFileProps.ml" 5 52 56 "ogtkFileProps.ml" 5 52 59
+)
+"ogtkFileProps.ml" 30 1148 1185 "ogtkFileProps.ml" 30 1148 1220
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.preview_widget_active
+)
+"ogtkFileProps.ml" 30 1148 1221 "ogtkFileProps.ml" 30 1148 1224
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 30 1148 1181 "ogtkFileProps.ml" 30 1148 1224
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkFileProps.ml" 31 1225 1252 "ogtkFileProps.ml" 31 1225 1255
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkFileProps.ml" 5 52 56 "ogtkFileProps.ml" 5 52 59
+)
+"ogtkFileProps.ml" 31 1225 1256 "ogtkFileProps.ml" 31 1225 1285
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.select_multiple
+)
+"ogtkFileProps.ml" 31 1225 1286 "ogtkFileProps.ml" 31 1225 1289
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 31 1225 1252 "ogtkFileProps.ml" 31 1225 1289
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkFileProps.ml" 32 1290 1313 "ogtkFileProps.ml" 32 1290 1316
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkFileProps.ml" 5 52 56 "ogtkFileProps.ml" 5 52 59
+)
+"ogtkFileProps.ml" 32 1290 1317 "ogtkFileProps.ml" 32 1290 1342
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.show_hidden
+)
+"ogtkFileProps.ml" 32 1290 1343 "ogtkFileProps.ml" 32 1290 1346
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 32 1290 1313 "ogtkFileProps.ml" 32 1290 1346
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkFileProps.ml" 33 1347 1376 "ogtkFileProps.ml" 33 1347 1379
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkFileProps.ml" 5 52 56 "ogtkFileProps.ml" 5 52 59
+)
+"ogtkFileProps.ml" 33 1347 1380 "ogtkFileProps.ml" 33 1347 1411
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.use_preview_label
+)
+"ogtkFileProps.ml" 33 1347 1412 "ogtkFileProps.ml" 33 1347 1415
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 33 1347 1376 "ogtkFileProps.ml" 33 1347 1415
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkFileProps.ml" 35 1453 1457 "ogtkFileProps.ml" 35 1453 1460
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkFileProps.ml" 5 52 56 "ogtkFileProps.ml" 5 52 59
+)
+"ogtkFileProps.ml" 35 1453 1461 "ogtkFileProps.ml" 35 1453 1500
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.P.do_overwrite_confirmation
+)
+"ogtkFileProps.ml" 35 1453 1501 "ogtkFileProps.ml" 35 1453 1504
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 35 1453 1457 "ogtkFileProps.ml" 35 1453 1504
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkFileProps.ml" 38 1510 1551 "ogtkFileProps.ml" 38 1510 1557
+type(
+  < confirm_overwrite : callback:(unit -> GtkEnums.file_chooser_confirmation) ->
+                        GtkSignal.id;
+    current_folder_changed : callback:(unit -> unit) -> GtkSignal.id;
+    file_activated : callback:(unit -> unit) -> GtkSignal.id;
+    selection_changed : callback:(unit -> unit) -> GtkSignal.id;
+    update_preview : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkFileProps.ml" 42 1686 1690 "ogtkFileProps.ml" 42 1686 1694
+type(
+  < confirm_overwrite : callback:(unit -> GtkEnums.file_chooser_confirmation) ->
+                        GtkSignal.id;
+    current_folder_changed : callback:(unit -> unit) -> GtkSignal.id;
+    file_activated : callback:(unit -> unit) -> GtkSignal.id;
+    selection_changed : callback:(unit -> unit) -> GtkSignal.id;
+    update_preview : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkFileProps.ml" 42 1686 1690 "ogtkFileProps.ml" 42 1686 1702
+call(
+  tail
+)
+type(
+  ([> `filechooser ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkFileProps.ml" 42 1686 1703 "ogtkFileProps.ml" 42 1686 1739
+type(
+  ([> `filechooser ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.S.current_folder_changed
+)
+"ogtkFileProps.ml" 42 1686 1690 "ogtkFileProps.ml" 42 1686 1739
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkFileProps.ml" 43 1740 1766 "ogtkFileProps.ml" 43 1740 1770
+type(
+  'a
+)
+"ogtkFileProps.ml" 43 1740 1766 "ogtkFileProps.ml" 43 1740 1778
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkFileProps.ml" 43 1740 1779 "ogtkFileProps.ml" 43 1740 1807
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.S.file_activated
+)
+"ogtkFileProps.ml" 43 1740 1766 "ogtkFileProps.ml" 43 1740 1807
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkFileProps.ml" 44 1808 1837 "ogtkFileProps.ml" 44 1808 1841
+type(
+  'a
+)
+"ogtkFileProps.ml" 44 1808 1837 "ogtkFileProps.ml" 44 1808 1849
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkFileProps.ml" 44 1808 1850 "ogtkFileProps.ml" 44 1808 1881
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.S.selection_changed
+)
+"ogtkFileProps.ml" 44 1808 1837 "ogtkFileProps.ml" 44 1808 1881
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkFileProps.ml" 45 1882 1908 "ogtkFileProps.ml" 45 1882 1912
+type(
+  'a
+)
+"ogtkFileProps.ml" 45 1882 1908 "ogtkFileProps.ml" 45 1882 1920
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkFileProps.ml" 45 1882 1921 "ogtkFileProps.ml" 45 1882 1949
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.S.update_preview
+)
+"ogtkFileProps.ml" 45 1882 1908 "ogtkFileProps.ml" 45 1882 1949
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkFileProps.ml" 46 1950 1979 "ogtkFileProps.ml" 46 1950 1983
+type(
+  'a
+)
+"ogtkFileProps.ml" 46 1950 1979 "ogtkFileProps.ml" 46 1950 1991
+call(
+  tail
+)
+type(
+  ('b, unit -> GtkEnums.file_chooser_confirmation) GtkSignal.t ->
+  callback:(unit -> GtkEnums.file_chooser_confirmation) -> GtkSignal.id
+)
+"ogtkFileProps.ml" 46 1950 1992 "ogtkFileProps.ml" 46 1950 2023
+type(
+  ('b, unit -> GtkEnums.file_chooser_confirmation) GtkSignal.t
+)
+ident(
+  ext_ref GtkFileProps.FileChooser.S.confirm_overwrite
+)
+"ogtkFileProps.ml" 46 1950 1979 "ogtkFileProps.ml" 46 1950 2023
+type(
+  callback:(unit -> GtkEnums.file_chooser_confirmation) -> GtkSignal.id
+)
+type(
+  callback:(unit -> GtkEnums.file_chooser_confirmation) -> GtkSignal.id
+)
+"ogtkFileProps.ml" 51 2104 2125 "ogtkFileProps.ml" 51 2104 2128
+type(
+  ([> `filechooserbutton ] as 'a, string) Gobject.property ->
+  'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkFileProps.ml" 4 38 42 "ogtkFileProps.ml" 4 38 45
+)
+"ogtkFileProps.ml" 51 2104 2129 "ogtkFileProps.ml" 51 2104 2154
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooserButton.P.title
+)
+"ogtkFileProps.ml" 51 2104 2155 "ogtkFileProps.ml" 51 2104 2158
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 51 2104 2125 "ogtkFileProps.ml" 51 2104 2158
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkFileProps.ml" 52 2159 2186 "ogtkFileProps.ml" 52 2159 2189
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkFileProps.ml" 4 38 42 "ogtkFileProps.ml" 4 38 45
+)
+"ogtkFileProps.ml" 52 2159 2190 "ogtkFileProps.ml" 52 2159 2221
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooserButton.P.width_chars
+)
+"ogtkFileProps.ml" 52 2159 2222 "ogtkFileProps.ml" 52 2159 2225
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 52 2159 2186 "ogtkFileProps.ml" 52 2159 2225
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkFileProps.ml" 53 2226 2243 "ogtkFileProps.ml" 53 2226 2246
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkFileProps.ml" 5 52 56 "ogtkFileProps.ml" 5 52 59
+)
+"ogtkFileProps.ml" 53 2226 2247 "ogtkFileProps.ml" 53 2226 2272
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooserButton.P.title
+)
+"ogtkFileProps.ml" 53 2226 2273 "ogtkFileProps.ml" 53 2226 2276
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 53 2226 2243 "ogtkFileProps.ml" 53 2226 2276
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkFileProps.ml" 54 2277 2300 "ogtkFileProps.ml" 54 2277 2303
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkFileProps.ml" 5 52 56 "ogtkFileProps.ml" 5 52 59
+)
+"ogtkFileProps.ml" 54 2277 2304 "ogtkFileProps.ml" 54 2277 2335
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkFileProps.FileChooserButton.P.width_chars
+)
+"ogtkFileProps.ml" 54 2277 2336 "ogtkFileProps.ml" 54 2277 2339
+type(
+  'a Gobject.obj
+)
+"ogtkFileProps.ml" 54 2277 2300 "ogtkFileProps.ml" 54 2277 2339
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)

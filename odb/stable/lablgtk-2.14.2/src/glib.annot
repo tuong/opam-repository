@@ -1,0 +1,1017 @@
+"glib.ml" 30 1800 1804 "glib.ml" 30 1800 1806
+type(
+  unit
+)
+"glib.ml" 30 1800 1810 "glib.ml" 30 1800 1815
+type(
+  unit -> unit
+)
+"glib.ml" 30 1800 1816 "glib.ml" 30 1800 1818
+type(
+  unit
+)
+"glib.ml" 30 1800 1810 "glib.ml" 30 1800 1818
+type(
+  unit
+)
+"glib.ml" 30 1800 1821 "glib.ml" 30 1800 1848
+type(
+  string -> exn -> unit
+)
+ident(
+  ext_ref Callback.register_exception
+)
+"glib.ml" 30 1800 1849 "glib.ml" 30 1800 1857
+type(
+  string
+)
+"glib.ml" 30 1800 1866 "glib.ml" 30 1800 1868
+type(
+  string
+)
+"glib.ml" 30 1800 1858 "glib.ml" 30 1800 1869
+type(
+  exn
+)
+"glib.ml" 30 1800 1821 "glib.ml" 30 1800 1869
+call(
+  stack
+)
+type(
+  unit
+)
+"glib.ml" 30 1800 1810 "glib.ml" 30 1800 1869
+type(
+  unit
+)
+"glib.ml" 46 2418 2422 "glib.ml" 46 2418 2437
+type(
+  [< `DEFAULT | `DEFAULT_IDLE | `HIGH | `HIGH_IDLE | `LOW ] -> int
+)
+ident(
+  def int_of_priority "glib.ml" 53 2549 2549 --
+)
+"glib.ml" 47 2449 2453 "glib.ml" 47 2449 2458
+type(
+  [< `DEFAULT | `DEFAULT_IDLE | `HIGH | `HIGH_IDLE | `LOW ] as 'a
+)
+"glib.ml" 47 2449 2462 "glib.ml" 47 2449 2466
+type(
+  int
+)
+"glib.ml" 48 2467 2471 "glib.ml" 48 2467 2479
+type(
+  'a
+)
+"glib.ml" 48 2467 2483 "glib.ml" 48 2467 2484
+type(
+  int
+)
+"glib.ml" 49 2485 2489 "glib.ml" 49 2485 2499
+type(
+  'a
+)
+"glib.ml" 49 2485 2503 "glib.ml" 49 2485 2506
+type(
+  int
+)
+"glib.ml" 50 2507 2511 "glib.ml" 50 2507 2524
+type(
+  'a
+)
+"glib.ml" 50 2507 2528 "glib.ml" 50 2507 2531
+type(
+  int
+)
+"glib.ml" 51 2532 2536 "glib.ml" 51 2532 2540
+type(
+  'a
+)
+"glib.ml" 51 2532 2544 "glib.ml" 51 2532 2547
+type(
+  int
+)
+"glib.ml" 46 2418 2440 "glib.ml" 51 2532 2547
+type(
+  'a -> int
+)
+"glib.ml" 57 2678 2684 "glib.ml" 57 2678 2687
+type(
+  ms:int -> callback:(unit -> bool) -> id
+)
+ident(
+  def add "glib.ml" 58 2705 2707 "glib.ml" 59 2759 2762
+)
+"glib.ml" 57 2678 2690 "glib.ml" 57 2678 2693
+type(
+  ?prio:int -> ms:int -> callback:(unit -> bool) -> id
+)
+"glib.ml" 57 2678 2700 "glib.ml" 57 2678 2704
+type(
+  int option
+)
+"glib.ml" 57 2678 2690 "glib.ml" 57 2678 2704
+call(
+  stack
+)
+type(
+  ms:int -> callback:(unit -> bool) -> id
+)
+"glib.ml" 89 3738 3744 "glib.ml" 89 3738 3753
+type(
+  [< `CRITICAL
+   | `CUSTOM of int
+   | `DEBUG
+   | `ERROR
+   | `FLAG_FATAL
+   | `FLAG_RECURSION
+   | `INFO
+   | `MESSAGE
+   | `WARNING ] ->
+  int
+)
+ident(
+  def log_level "glib.ml" 93 3839 3841 "glib.ml" 117 4804 4807
+)
+"glib.ml" 90 3765 3779 "glib.ml" 90 3765 3780
+type(
+  int
+)
+ident(
+  def i "glib.ml" 90 3765 3784 "glib.ml" 90 3765 3791
+)
+"glib.ml" 90 3765 3771 "glib.ml" 90 3765 3780
+type(
+  [< `CRITICAL
+   | `CUSTOM of int
+   | `DEBUG
+   | `ERROR
+   | `FLAG_FATAL
+   | `FLAG_RECURSION
+   | `INFO
+   | `MESSAGE
+   | `WARNING ]
+  as 'a
+)
+"glib.ml" 90 3765 3784 "glib.ml" 90 3765 3785
+type(
+  int
+)
+ident(
+  int_ref i "glib.ml" 90 3765 3779 "glib.ml" 90 3765 3780
+)
+"glib.ml" 90 3765 3786 "glib.ml" 90 3765 3789
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"glib.ml" 90 3765 3790 "glib.ml" 90 3765 3791
+type(
+  int
+)
+"glib.ml" 90 3765 3784 "glib.ml" 90 3765 3791
+type(
+  int
+)
+"glib.ml" 91 3792 3798 "glib.ml" 91 3792 3808
+type(
+  'a
+)
+"glib.ml" 91 3792 3798 "glib.ml" 91 3792 3817
+type(
+  'a
+)
+ident(
+  def level "glib.ml" 91 3792 3821 "glib.ml" 91 3792 3837
+)
+"glib.ml" 91 3792 3821 "glib.ml" 91 3792 3831
+type(
+  log_level -> int
+)
+"glib.ml" 91 3792 3832 "glib.ml" 91 3792 3837
+type(
+  log_level
+)
+ident(
+  int_ref level "glib.ml" 91 3792 3798 "glib.ml" 91 3792 3817
+)
+"glib.ml" 91 3792 3821 "glib.ml" 91 3792 3837
+type(
+  int
+)
+"glib.ml" 89 3738 3756 "glib.ml" 91 3792 3837
+type(
+  'a -> int
+)
+"glib.ml" 93 3839 3845 "glib.ml" 93 3839 3862
+type(
+  [< `CRITICAL
+   | `CUSTOM of int
+   | `DEBUG
+   | `ERROR
+   | `FLAG_FATAL
+   | `FLAG_RECURSION
+   | `INFO
+   | `MESSAGE
+   | `WARNING ]
+  list -> int
+)
+ident(
+  def int_of_log_levels "glib.ml" 96 3942 3944 "glib.ml" 117 4804 4807
+)
+"glib.ml" 93 3839 3863 "glib.ml" 93 3839 3869
+type(
+  ([< `CRITICAL
+    | `CUSTOM of int
+    | `DEBUG
+    | `ERROR
+    | `FLAG_FATAL
+    | `FLAG_RECURSION
+    | `INFO
+    | `MESSAGE
+    | `WARNING ]
+   as 'b)
+  list
+)
+ident(
+  def levels "glib.ml" 94 3872 3876 "glib.ml" 94 3872 3940
+)
+"glib.ml" 94 3872 3876 "glib.ml" 94 3872 3890
+type(
+  (int -> 'b -> int) -> int -> 'b list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"glib.ml" 94 3872 3896 "glib.ml" 94 3872 3899
+type(
+  int
+)
+ident(
+  def acc "glib.ml" 94 3872 3900 "glib.ml" 94 3872 3930
+)
+"glib.ml" 94 3872 3900 "glib.ml" 94 3872 3903
+type(
+  'b
+)
+ident(
+  def lev "glib.ml" 94 3872 3907 "glib.ml" 94 3872 3930
+)
+"glib.ml" 94 3872 3907 "glib.ml" 94 3872 3910
+type(
+  int
+)
+ident(
+  int_ref acc "glib.ml" 94 3872 3896 "glib.ml" 94 3872 3899
+)
+"glib.ml" 94 3872 3911 "glib.ml" 94 3872 3914
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lor )
+)
+"glib.ml" 94 3872 3916 "glib.ml" 94 3872 3925
+type(
+  'b -> int
+)
+ident(
+  int_ref log_level "glib.ml" 89 3738 3744 "glib.ml" 89 3738 3753
+)
+"glib.ml" 94 3872 3926 "glib.ml" 94 3872 3929
+type(
+  'b
+)
+ident(
+  int_ref lev "glib.ml" 94 3872 3900 "glib.ml" 94 3872 3903
+)
+"glib.ml" 94 3872 3915 "glib.ml" 94 3872 3930
+call(
+  stack
+)
+type(
+  int
+)
+"glib.ml" 94 3872 3907 "glib.ml" 94 3872 3930
+type(
+  int
+)
+"glib.ml" 94 3872 3891 "glib.ml" 94 3872 3931
+type(
+  int -> 'b -> int
+)
+"glib.ml" 94 3872 3932 "glib.ml" 94 3872 3933
+type(
+  int
+)
+"glib.ml" 94 3872 3934 "glib.ml" 94 3872 3940
+type(
+  'b list
+)
+ident(
+  int_ref levels "glib.ml" 93 3839 3863 "glib.ml" 93 3839 3869
+)
+"glib.ml" 94 3872 3876 "glib.ml" 94 3872 3940
+call(
+  tail
+)
+type(
+  int
+)
+"glib.ml" 100 4101 4107 "glib.ml" 100 4101 4122
+type(
+  ?domain:string ->
+  levels:[< `CRITICAL
+          | `CUSTOM of int
+          | `DEBUG
+          | `ERROR
+          | `FLAG_FATAL
+          | `FLAG_RECURSION
+          | `INFO
+          | `MESSAGE
+          | `WARNING ]
+         list ->
+  (level:int -> string -> unit) -> log_handler
+)
+ident(
+  def set_log_handler "glib.ml" 103 4210 4212 "glib.ml" 117 4804 4807
+)
+"glib.ml" 100 4101 4124 "glib.ml" 100 4101 4130
+type(
+  string option
+)
+ident(
+  def domain "glib.ml" 100 4101 4131 "glib.ml" 101 4143 4208
+)
+"glib.ml" 100 4101 4132 "glib.ml" 100 4101 4138
+type(
+  ([< `CRITICAL
+    | `CUSTOM of int
+    | `DEBUG
+    | `ERROR
+    | `FLAG_FATAL
+    | `FLAG_RECURSION
+    | `INFO
+    | `MESSAGE
+    | `WARNING ]
+   as 'c)
+  list
+)
+ident(
+  def levels "glib.ml" 100 4101 4139 "glib.ml" 101 4143 4208
+)
+"glib.ml" 100 4101 4139 "glib.ml" 100 4101 4140
+type(
+  level:int -> string -> unit
+)
+ident(
+  def f "glib.ml" 101 4143 4147 "glib.ml" 101 4143 4208
+)
+"glib.ml" 101 4143 4147 "glib.ml" 101 4143 4163
+type(
+  ?domain:string ->
+  levels:int -> (level:int -> string -> unit) -> log_handler
+)
+"glib.ml" 101 4143 4165 "glib.ml" 101 4143 4171
+type(
+  string option
+)
+ident(
+  int_ref domain "glib.ml" 100 4101 4124 "glib.ml" 100 4101 4130
+)
+"glib.ml" 101 4143 4181 "glib.ml" 101 4143 4198
+type(
+  'c list -> int
+)
+ident(
+  int_ref int_of_log_levels "glib.ml" 93 3839 3845 "glib.ml" 93 3839 3862
+)
+"glib.ml" 101 4143 4199 "glib.ml" 101 4143 4205
+type(
+  'c list
+)
+ident(
+  int_ref levels "glib.ml" 100 4101 4132 "glib.ml" 100 4101 4138
+)
+"glib.ml" 101 4143 4180 "glib.ml" 101 4143 4206
+call(
+  stack
+)
+type(
+  int
+)
+"glib.ml" 101 4143 4207 "glib.ml" 101 4143 4208
+type(
+  level:int -> string -> unit
+)
+ident(
+  int_ref f "glib.ml" 100 4101 4139 "glib.ml" 100 4101 4140
+)
+"glib.ml" 101 4143 4147 "glib.ml" 101 4143 4208
+type(
+  log_handler
+)
+"glib.ml" 107 4368 4374 "glib.ml" 107 4368 4390
+type(
+  log_level list -> unit
+)
+ident(
+  def set_always_fatal "glib.ml" 110 4470 4472 "glib.ml" 117 4804 4807
+)
+"glib.ml" 107 4368 4392 "glib.ml" 107 4368 4398
+type(
+  log_level list
+)
+ident(
+  def levels "glib.ml" 108 4420 4424 "glib.ml" 108 4420 4468
+)
+"glib.ml" 108 4420 4424 "glib.ml" 108 4420 4441
+type(
+  int -> unit
+)
+"glib.ml" 108 4420 4443 "glib.ml" 108 4420 4460
+type(
+  log_level list -> int
+)
+ident(
+  int_ref int_of_log_levels "glib.ml" 93 3839 3845 "glib.ml" 93 3839 3862
+)
+"glib.ml" 108 4420 4461 "glib.ml" 108 4420 4467
+type(
+  log_level list
+)
+ident(
+  int_ref levels "glib.ml" 107 4368 4392 "glib.ml" 107 4368 4398
+)
+"glib.ml" 108 4420 4442 "glib.ml" 108 4420 4468
+call(
+  stack
+)
+type(
+  int
+)
+"glib.ml" 108 4420 4424 "glib.ml" 108 4420 4468
+type(
+  unit
+)
+"glib.ml" 111 4557 4563 "glib.ml" 111 4557 4577
+type(
+  ?domain:string ->
+  [< `CRITICAL
+   | `CUSTOM of int
+   | `DEBUG
+   | `ERROR
+   | `FLAG_FATAL
+   | `FLAG_RECURSION
+   | `INFO
+   | `MESSAGE
+   | `WARNING ]
+  list -> unit
+)
+ident(
+  def set_fatal_mask "glib.ml" 114 4651 4653 "glib.ml" 117 4804 4807
+)
+"glib.ml" 111 4557 4579 "glib.ml" 111 4557 4585
+type(
+  string option
+)
+ident(
+  def domain "glib.ml" 111 4557 4586 "glib.ml" 112 4595 4649
+)
+"glib.ml" 111 4557 4586 "glib.ml" 111 4557 4592
+type(
+  ([< `CRITICAL
+    | `CUSTOM of int
+    | `DEBUG
+    | `ERROR
+    | `FLAG_FATAL
+    | `FLAG_RECURSION
+    | `INFO
+    | `MESSAGE
+    | `WARNING ]
+   as 'd)
+  list
+)
+ident(
+  def levels "glib.ml" 112 4595 4599 "glib.ml" 112 4595 4649
+)
+"glib.ml" 112 4595 4599 "glib.ml" 112 4595 4614
+type(
+  ?domain:string -> int -> unit
+)
+"glib.ml" 112 4595 4616 "glib.ml" 112 4595 4622
+type(
+  string option
+)
+ident(
+  int_ref domain "glib.ml" 111 4557 4579 "glib.ml" 111 4557 4585
+)
+"glib.ml" 112 4595 4624 "glib.ml" 112 4595 4641
+type(
+  'd list -> int
+)
+ident(
+  int_ref int_of_log_levels "glib.ml" 93 3839 3845 "glib.ml" 93 3839 3862
+)
+"glib.ml" 112 4595 4642 "glib.ml" 112 4595 4648
+type(
+  'd list
+)
+ident(
+  int_ref levels "glib.ml" 111 4557 4586 "glib.ml" 111 4557 4592
+)
+"glib.ml" 112 4595 4623 "glib.ml" 112 4595 4649
+call(
+  stack
+)
+type(
+  int
+)
+"glib.ml" 112 4595 4599 "glib.ml" 112 4595 4649
+type(
+  unit
+)
+"glib.ml" 115 4714 4720 "glib.ml" 115 4714 4723
+type(
+  ?domain:string ->
+  [< `CRITICAL
+   | `CUSTOM of int
+   | `DEBUG
+   | `ERROR
+   | `FLAG_FATAL
+   | `FLAG_RECURSION
+   | `INFO
+   | `MESSAGE
+   | `WARNING ] ->
+  ('e, unit, string, unit) format4 -> 'e
+)
+ident(
+  def log "glib.ml" 116 4749 4803 "glib.ml" 117 4804 4807
+)
+"glib.ml" 115 4714 4726 "glib.ml" 115 4714 4732
+type(
+  string
+)
+"glib.ml" 115 4714 4733 "glib.ml" 115 4714 4735
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "glib.ml" 115 4714 4733 "glib.ml" 115 4714 4735
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "glib.ml" 115 4714 4733 "glib.ml" 115 4714 4735
+)
+"glib.ml" 115 4714 4737 "glib.ml" 115 4714 4742
+type(
+  [< `CRITICAL
+   | `CUSTOM of int
+   | `DEBUG
+   | `ERROR
+   | `FLAG_FATAL
+   | `FLAG_RECURSION
+   | `INFO
+   | `MESSAGE
+   | `WARNING ]
+  as 'f
+)
+ident(
+  def level "glib.ml" 115 4714 4743 "glib.ml" 116 4749 4803
+)
+"glib.ml" 115 4714 4743 "glib.ml" 115 4714 4746
+type(
+  ('e, unit, string, unit) format4
+)
+ident(
+  def fmt "glib.ml" 116 4749 4753 "glib.ml" 116 4749 4803
+)
+"glib.ml" 116 4749 4753 "glib.ml" 116 4749 4767
+type(
+  (string -> unit) -> ('e, unit, string, unit) format4 -> 'e
+)
+ident(
+  ext_ref Printf.kprintf
+)
+"glib.ml" 116 4749 4769 "glib.ml" 116 4749 4773
+type(
+  string -> int -> string -> unit
+)
+"glib.ml" 116 4749 4774 "glib.ml" 116 4749 4780
+type(
+  string
+)
+ident(
+  int_ref domain "glib.ml" 115 4714 4726 "glib.ml" 115 4714 4732
+)
+"glib.ml" 116 4749 4782 "glib.ml" 116 4749 4791
+type(
+  'f -> int
+)
+ident(
+  int_ref log_level "glib.ml" 89 3738 3744 "glib.ml" 89 3738 3753
+)
+"glib.ml" 116 4749 4792 "glib.ml" 116 4749 4797
+type(
+  'f
+)
+ident(
+  int_ref level "glib.ml" 115 4714 4737 "glib.ml" 115 4714 4742
+)
+"glib.ml" 116 4749 4781 "glib.ml" 116 4749 4798
+call(
+  stack
+)
+type(
+  int
+)
+"glib.ml" 116 4749 4768 "glib.ml" 116 4749 4799
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"glib.ml" 116 4749 4800 "glib.ml" 116 4749 4803
+type(
+  ('e, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "glib.ml" 115 4714 4743 "glib.ml" 115 4714 4746
+)
+"glib.ml" 116 4749 4753 "glib.ml" 116 4749 4803
+call(
+  tail
+)
+type(
+  'e
+)
+"glib.ml" 137 5231 5237 "glib.ml" 137 5231 5239
+type(
+  unit
+)
+"glib.ml" 137 5231 5242 "glib.ml" 137 5231 5269
+type(
+  string -> exn -> unit
+)
+ident(
+  ext_ref Callback.register_exception
+)
+"glib.ml" 137 5231 5270 "glib.ml" 137 5231 5287
+type(
+  string
+)
+"glib.ml" 137 5231 5296 "glib.ml" 137 5231 5309
+type(
+  error
+)
+"glib.ml" 137 5231 5311 "glib.ml" 137 5231 5313
+type(
+  string
+)
+"glib.ml" 137 5231 5288 "glib.ml" 137 5231 5315
+type(
+  exn
+)
+"glib.ml" 137 5231 5242 "glib.ml" 137 5231 5315
+call(
+  stack
+)
+type(
+  unit
+)
+"glib.ml" 151 5850 5856 "glib.ml" 151 5850 5870
+type(
+  unit -> 'a
+)
+ident(
+  def raise_bad_utf8 "glib.ml" 154 5957 5959 "glib.ml" 181 6721 6724
+)
+"glib.ml" 151 5850 5871 "glib.ml" 151 5850 5873
+type(
+  unit
+)
+"glib.ml" 152 5877 5881 "glib.ml" 152 5877 5886
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"glib.ml" 152 5877 5895 "glib.ml" 152 5877 5911
+type(
+  error
+)
+"glib.ml" 152 5877 5913 "glib.ml" 152 5877 5953
+type(
+  string
+)
+"glib.ml" 152 5877 5887 "glib.ml" 152 5877 5955
+type(
+  exn
+)
+"glib.ml" 152 5877 5881 "glib.ml" 152 5877 5955
+type(
+  'a
+)
+"glib.ml" 154 5957 5963 "glib.ml" 154 5957 5979
+type(
+  string -> string
+)
+ident(
+  def locale_from_utf8 "glib.ml" 163 6163 6165 "glib.ml" 181 6721 6724
+)
+"glib.ml" 154 5957 5980 "glib.ml" 154 5957 5981
+type(
+  string
+)
+ident(
+  def s "glib.ml" 155 5984 5988 "glib.ml" 161 6117 6161
+)
+"glib.ml" 155 5984 5994 "glib.ml" 155 5984 6005
+type(
+  unit -> bool * string
+)
+"glib.ml" 155 5984 6006 "glib.ml" 155 5984 6008
+type(
+  unit
+)
+"glib.ml" 155 5984 5994 "glib.ml" 155 5984 6008
+type(
+  bool * string
+)
+"glib.ml" 156 6014 6021 "glib.ml" 156 6014 6025
+type(
+  bool
+)
+"glib.ml" 156 6014 6027 "glib.ml" 156 6014 6028
+type(
+  string
+)
+"glib.ml" 156 6014 6020 "glib.ml" 156 6014 6029
+type(
+  bool * string
+)
+"glib.ml" 157 6034 6038 "glib.ml" 157 6034 6051
+type(
+  string -> bool
+)
+"glib.ml" 157 6034 6052 "glib.ml" 157 6034 6053
+type(
+  string
+)
+ident(
+  int_ref s "glib.ml" 154 5957 5980 "glib.ml" 154 5957 5981
+)
+"glib.ml" 157 6034 6038 "glib.ml" 157 6034 6053
+type(
+  bool
+)
+"glib.ml" 158 6055 6061 "glib.ml" 158 6055 6062
+type(
+  string
+)
+ident(
+  int_ref s "glib.ml" 154 5957 5980 "glib.ml" 154 5957 5981
+)
+"glib.ml" 159 6064 6070 "glib.ml" 159 6064 6084
+type(
+  unit -> string
+)
+ident(
+  int_ref raise_bad_utf8 "glib.ml" 151 5850 5856 "glib.ml" 151 5850 5870
+)
+"glib.ml" 159 6064 6085 "glib.ml" 159 6064 6087
+type(
+  unit
+)
+"glib.ml" 159 6064 6070 "glib.ml" 159 6064 6087
+call(
+  tail
+)
+type(
+  string
+)
+"glib.ml" 157 6034 6035 "glib.ml" 159 6064 6087
+type(
+  string
+)
+"glib.ml" 160 6088 6095 "glib.ml" 160 6088 6100
+type(
+  bool
+)
+"glib.ml" 160 6088 6102 "glib.ml" 160 6088 6112
+type(
+  string
+)
+ident(
+  def to_codeset "glib.ml" 161 6117 6118 "glib.ml" 161 6117 6161
+)
+"glib.ml" 160 6088 6094 "glib.ml" 160 6088 6113
+type(
+  bool * string
+)
+"glib.ml" 161 6117 6118 "glib.ml" 161 6117 6125
+type(
+  string -> to_codeset:string -> from_codeset:string -> string
+)
+"glib.ml" 161 6117 6126 "glib.ml" 161 6117 6127
+type(
+  string
+)
+ident(
+  int_ref s "glib.ml" 154 5957 5980 "glib.ml" 154 5957 5981
+)
+"glib.ml" 161 6117 6129 "glib.ml" 161 6117 6139
+type(
+  string
+)
+ident(
+  int_ref to_codeset "glib.ml" 160 6088 6102 "glib.ml" 160 6088 6112
+)
+"glib.ml" 161 6117 6154 "glib.ml" 161 6117 6161
+type(
+  string
+)
+"glib.ml" 161 6117 6118 "glib.ml" 161 6117 6161
+type(
+  string
+)
+"glib.ml" 155 5984 5988 "glib.ml" 161 6117 6161
+type(
+  string
+)
+"glib.ml" 163 6163 6169 "glib.ml" 163 6163 6183
+type(
+  string -> string
+)
+ident(
+  def locale_to_utf8 "glib.ml" 172 6369 6371 "glib.ml" 181 6721 6724
+)
+"glib.ml" 163 6163 6184 "glib.ml" 163 6163 6185
+type(
+  string
+)
+ident(
+  def s "glib.ml" 164 6188 6192 "glib.ml" 170 6323 6367
+)
+"glib.ml" 164 6188 6198 "glib.ml" 164 6188 6209
+type(
+  unit -> bool * string
+)
+"glib.ml" 164 6188 6210 "glib.ml" 164 6188 6212
+type(
+  unit
+)
+"glib.ml" 164 6188 6198 "glib.ml" 164 6188 6212
+type(
+  bool * string
+)
+"glib.ml" 165 6218 6225 "glib.ml" 165 6218 6229
+type(
+  bool
+)
+"glib.ml" 165 6218 6231 "glib.ml" 165 6218 6232
+type(
+  string
+)
+"glib.ml" 165 6218 6224 "glib.ml" 165 6218 6233
+type(
+  bool * string
+)
+"glib.ml" 166 6238 6242 "glib.ml" 166 6238 6255
+type(
+  string -> bool
+)
+"glib.ml" 166 6238 6256 "glib.ml" 166 6238 6257
+type(
+  string
+)
+ident(
+  int_ref s "glib.ml" 163 6163 6184 "glib.ml" 163 6163 6185
+)
+"glib.ml" 166 6238 6242 "glib.ml" 166 6238 6257
+type(
+  bool
+)
+"glib.ml" 167 6259 6265 "glib.ml" 167 6259 6266
+type(
+  string
+)
+ident(
+  int_ref s "glib.ml" 163 6163 6184 "glib.ml" 163 6163 6185
+)
+"glib.ml" 168 6268 6274 "glib.ml" 168 6268 6288
+type(
+  unit -> string
+)
+ident(
+  int_ref raise_bad_utf8 "glib.ml" 151 5850 5856 "glib.ml" 151 5850 5870
+)
+"glib.ml" 168 6268 6289 "glib.ml" 168 6268 6291
+type(
+  unit
+)
+"glib.ml" 168 6268 6274 "glib.ml" 168 6268 6291
+call(
+  tail
+)
+type(
+  string
+)
+"glib.ml" 166 6238 6239 "glib.ml" 168 6268 6291
+type(
+  string
+)
+"glib.ml" 169 6292 6299 "glib.ml" 169 6292 6304
+type(
+  bool
+)
+"glib.ml" 169 6292 6306 "glib.ml" 169 6292 6318
+type(
+  string
+)
+ident(
+  def from_codeset "glib.ml" 170 6323 6324 "glib.ml" 170 6323 6367
+)
+"glib.ml" 169 6292 6298 "glib.ml" 169 6292 6319
+type(
+  bool * string
+)
+"glib.ml" 170 6323 6324 "glib.ml" 170 6323 6331
+type(
+  string -> to_codeset:string -> from_codeset:string -> string
+)
+"glib.ml" 170 6323 6332 "glib.ml" 170 6323 6333
+type(
+  string
+)
+ident(
+  int_ref s "glib.ml" 163 6163 6184 "glib.ml" 163 6163 6185
+)
+"glib.ml" 170 6323 6346 "glib.ml" 170 6323 6353
+type(
+  string
+)
+"glib.ml" 170 6323 6355 "glib.ml" 170 6323 6367
+type(
+  string
+)
+ident(
+  int_ref from_codeset "glib.ml" 169 6292 6306 "glib.ml" 169 6292 6318
+)
+"glib.ml" 170 6323 6324 "glib.ml" 170 6323 6367
+type(
+  string
+)
+"glib.ml" 164 6188 6192 "glib.ml" 170 6323 6367
+type(
+  string
+)
+"glib.ml" 238 8980 8986 "glib.ml" 238 8980 8988
+type(
+  unit
+)
+"glib.ml" 238 8980 8991 "glib.ml" 238 8980 9018
+type(
+  string -> exn -> unit
+)
+ident(
+  ext_ref Callback.register_exception
+)
+"glib.ml" 238 8980 9019 "glib.ml" 238 8980 9035
+type(
+  string
+)
+"glib.ml" 238 8980 9044 "glib.ml" 238 8980 9052
+type(
+  error
+)
+"glib.ml" 238 8980 9054 "glib.ml" 238 8980 9056
+type(
+  string
+)
+"glib.ml" 238 8980 9036 "glib.ml" 238 8980 9058
+type(
+  exn
+)
+"glib.ml" 238 8980 8991 "glib.ml" 238 8980 9058
+call(
+  stack
+)
+type(
+  unit
+)

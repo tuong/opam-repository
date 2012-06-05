@@ -1,0 +1,4 @@
+deps=unix,threads,str,make
+tarball=camlgi-0.6-oasis1.tar.gz
+is_library=true
+is_program=false

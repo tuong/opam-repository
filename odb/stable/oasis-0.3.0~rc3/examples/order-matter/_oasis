@@ -1,0 +1,33 @@
+OASISFormat: 0.1
+Name:        order-matter
+Version:     0.1
+Synopsis:    Reorder _oasis section for building
+Authors:     Sylvain Le Gall
+License:     LGPL with OCaml linking exception
+BuildTools:  ocamlbuild
+
+Library foo
+  Path:    src/foo
+  Modules: Foo
+  Install: false
+  BuildDepends: baz
+  
+Library bar
+  Path:    src/bar
+  Install: false
+  Modules: Bar
+  
+Library baz
+  Path:    src/baz
+  Modules: Baz
+  Install: false
+  BuildDepends: bar
+  
+Document "order-matter"
+  Title:                API reference for order-matter
+  Type:                 ocamlbuild (0.1.0)
+  InstallDir:           $htmldir/order-matter
+  Install:              false
+  BuildTools+:          ocamldoc
+  XOCamlbuildPath:      src
+  XOCamlbuildLibraries: foo, bar, baz

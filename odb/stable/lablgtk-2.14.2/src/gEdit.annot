@@ -1,0 +1,4575 @@
+"gEdit.ml" 32 1751 1774 "gEdit.ml" 32 1751 1777
+type(
+  [> Gtk.editable ] Gtk.obj
+)
+"gEdit.ml" 33 1787 1818 "gEdit.ml" 33 1787 1821
+type(
+  ([> Gtk.editable ] as 'a) Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref obj "gEdit.ml" 32 1751 1774 "gEdit.ml" 32 1751 1777
+)
+"gEdit.ml" 37 1870 1885 "gEdit.ml" 37 1870 1888
+type(
+  [> `editable | `gtk | `widget ] Gtk.obj
+)
+"gEdit.ml" 38 1898 1925 "gEdit.ml" 38 1898 1928
+type(
+  ([> `editable | `gtk | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gEdit.ml" 37 1870 1885 "gEdit.ml" 37 1870 1888
+)
+"gEdit.ml" 39 1929 1954 "gEdit.ml" 39 1929 1976
+type(
+  'a Gtk.obj -> start:int -> stop:int -> unit
+)
+ident(
+  ext_ref GtkEdit.Editable.select_region
+)
+"gEdit.ml" 39 1929 1977 "gEdit.ml" 39 1929 1980
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 39 1929 1954 "gEdit.ml" 39 1929 1980
+call(
+  tail
+)
+type(
+  start:int -> stop:int -> unit
+)
+type(
+  start:int -> stop:int -> unit
+)
+"gEdit.ml" 40 1981 2004 "gEdit.ml" 40 1981 2024
+type(
+  'a Gtk.obj -> string -> pos:int -> int
+)
+ident(
+  ext_ref GtkEdit.Editable.insert_text
+)
+"gEdit.ml" 40 1981 2025 "gEdit.ml" 40 1981 2028
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 40 1981 2004 "gEdit.ml" 40 1981 2028
+call(
+  tail
+)
+type(
+  string -> pos:int -> int
+)
+type(
+  string -> pos:int -> int
+)
+"gEdit.ml" 41 2029 2052 "gEdit.ml" 41 2029 2072
+type(
+  'a Gtk.obj -> start:int -> stop:int -> unit
+)
+ident(
+  ext_ref GtkEdit.Editable.delete_text
+)
+"gEdit.ml" 41 2029 2073 "gEdit.ml" 41 2029 2076
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 41 2029 2052 "gEdit.ml" 41 2029 2076
+call(
+  tail
+)
+type(
+  start:int -> stop:int -> unit
+)
+type(
+  start:int -> stop:int -> unit
+)
+"gEdit.ml" 42 2077 2098 "gEdit.ml" 42 2077 2116
+type(
+  'a Gtk.obj -> start:int -> stop:int -> string
+)
+ident(
+  ext_ref GtkEdit.Editable.get_chars
+)
+"gEdit.ml" 42 2077 2117 "gEdit.ml" 42 2077 2120
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 42 2077 2098 "gEdit.ml" 42 2077 2120
+call(
+  tail
+)
+type(
+  start:int -> stop:int -> string
+)
+type(
+  start:int -> stop:int -> string
+)
+"gEdit.ml" 43 2121 2144 "gEdit.ml" 43 2121 2146
+type(
+  unit
+)
+"gEdit.ml" 43 2121 2149 "gEdit.ml" 43 2121 2171
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkEdit.Editable.cut_clipboard
+)
+"gEdit.ml" 43 2121 2172 "gEdit.ml" 43 2121 2175
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 43 2121 2149 "gEdit.ml" 43 2121 2175
+type(
+  unit
+)
+"gEdit.ml" 44 2176 2200 "gEdit.ml" 44 2176 2202
+type(
+  unit
+)
+"gEdit.ml" 44 2176 2205 "gEdit.ml" 44 2176 2228
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkEdit.Editable.copy_clipboard
+)
+"gEdit.ml" 44 2176 2229 "gEdit.ml" 44 2176 2232
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 44 2176 2205 "gEdit.ml" 44 2176 2232
+type(
+  unit
+)
+"gEdit.ml" 45 2233 2258 "gEdit.ml" 45 2233 2260
+type(
+  unit
+)
+"gEdit.ml" 45 2233 2263 "gEdit.ml" 45 2233 2287
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkEdit.Editable.paste_clipboard
+)
+"gEdit.ml" 45 2233 2288 "gEdit.ml" 45 2233 2291
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 45 2233 2263 "gEdit.ml" 45 2233 2291
+type(
+  unit
+)
+"gEdit.ml" 46 2292 2318 "gEdit.ml" 46 2292 2320
+type(
+  unit
+)
+"gEdit.ml" 46 2292 2323 "gEdit.ml" 46 2292 2348
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkEdit.Editable.delete_selection
+)
+"gEdit.ml" 46 2292 2349 "gEdit.ml" 46 2292 2352
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 46 2292 2323 "gEdit.ml" 46 2292 2352
+type(
+  unit
+)
+"gEdit.ml" 47 2353 2377 "gEdit.ml" 47 2353 2398
+type(
+  'a Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkEdit.Editable.set_position
+)
+"gEdit.ml" 47 2353 2399 "gEdit.ml" 47 2353 2402
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 47 2353 2377 "gEdit.ml" 47 2353 2402
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gEdit.ml" 48 2403 2423 "gEdit.ml" 48 2403 2444
+type(
+  'a Gtk.obj -> int
+)
+ident(
+  ext_ref GtkEdit.Editable.get_position
+)
+"gEdit.ml" 48 2403 2445 "gEdit.ml" 48 2403 2448
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 48 2403 2423 "gEdit.ml" 48 2403 2448
+type(
+  int
+)
+type(
+  int
+)
+"gEdit.ml" 49 2449 2473 "gEdit.ml" 49 2449 2494
+type(
+  'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkEdit.Editable.set_editable
+)
+"gEdit.ml" 49 2449 2495 "gEdit.ml" 49 2449 2498
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 49 2449 2473 "gEdit.ml" 49 2449 2498
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gEdit.ml" 50 2499 2519 "gEdit.ml" 50 2499 2540
+type(
+  'a Gtk.obj -> bool
+)
+ident(
+  ext_ref GtkEdit.Editable.get_editable
+)
+"gEdit.ml" 50 2499 2541 "gEdit.ml" 50 2499 2544
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 50 2499 2519 "gEdit.ml" 50 2499 2544
+type(
+  bool
+)
+type(
+  bool
+)
+"gEdit.ml" 51 2545 2566 "gEdit.ml" 51 2545 2595
+type(
+  'a Gtk.obj -> (int * int) option
+)
+ident(
+  ext_ref GtkEdit.Editable.get_selection_bounds
+)
+"gEdit.ml" 51 2545 2596 "gEdit.ml" 51 2545 2599
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 51 2545 2566 "gEdit.ml" 51 2545 2599
+type(
+  (int * int) option
+)
+type(
+  (int * int) option
+)
+"gEdit.ml" 54 2605 2636 "gEdit.ml" 54 2605 2639
+type(
+  [> `entrycompletion ] Gtk.obj
+)
+"gEdit.ml" 54 2605 2649 "gEdit.ml" 54 2605 2655
+type(
+  < action_activated : callback:(int -> unit) -> GtkSignal.id; after : 'a;
+    match_selected : callback:(GTree.model_filter -> Gtk.tree_iter -> bool) ->
+                     GtkSignal.id;
+    .. >
+  as 'a
+)
+"gEdit.ml" 55 2656 2710 "gEdit.ml" 55 2656 2713
+type(
+  ([> `entrycompletion ] as 'b) Gtk.obj
+)
+ident(
+  int_ref obj "gEdit.ml" 54 2605 2636 "gEdit.ml" 54 2605 2639
+)
+"gEdit.ml" 56 2714 2742 "gEdit.ml" 56 2714 2746
+type(
+  'a
+)
+"gEdit.ml" 56 2714 2742 "gEdit.ml" 56 2714 2754
+call(
+  tail
+)
+type(
+  ('b, int -> unit) GtkSignal.t -> callback:(int -> unit) -> GtkSignal.id
+)
+"gEdit.ml" 56 2714 2755 "gEdit.ml" 56 2714 2789
+type(
+  ('b, int -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEdit.EntryCompletion.S.action_activated
+)
+"gEdit.ml" 56 2714 2742 "gEdit.ml" 56 2714 2789
+type(
+  callback:(int -> unit) -> GtkSignal.id
+)
+type(
+  callback:(int -> unit) -> GtkSignal.id
+)
+"gEdit.ml" 57 2790 2815 "gEdit.ml" 57 2790 2823
+type(
+  GTree.model_filter -> Gtk.tree_iter -> bool
+)
+ident(
+  def callback "gEdit.ml" 58 2827 2831 "gEdit.ml" 59 2877 2957
+)
+"gEdit.ml" 58 2827 2831 "gEdit.ml" 58 2827 2835
+type(
+  'a
+)
+"gEdit.ml" 58 2827 2831 "gEdit.ml" 58 2827 2843
+call(
+  tail
+)
+type(
+  ('b, Gtk.tree_model_filter -> Gtk.tree_iter -> bool) GtkSignal.t ->
+  callback:(Gtk.tree_model_filter -> Gtk.tree_iter -> bool) -> GtkSignal.id
+)
+"gEdit.ml" 58 2827 2844 "gEdit.ml" 58 2827 2876
+type(
+  ('b, Gtk.tree_model_filter -> Gtk.tree_iter -> bool) GtkSignal.t
+)
+ident(
+  ext_ref GtkEdit.EntryCompletion.S.match_selected
+)
+"gEdit.ml" 59 2877 2898 "gEdit.ml" 59 2877 2903
+type(
+  Gtk.tree_model_filter
+)
+ident(
+  def model "gEdit.ml" 59 2877 2904 "gEdit.ml" 59 2877 2956
+)
+"gEdit.ml" 59 2877 2904 "gEdit.ml" 59 2877 2908
+type(
+  Gtk.tree_iter
+)
+ident(
+  def iter "gEdit.ml" 59 2877 2912 "gEdit.ml" 59 2877 2956
+)
+"gEdit.ml" 59 2877 2912 "gEdit.ml" 59 2877 2920
+type(
+  GTree.model_filter -> Gtk.tree_iter -> bool
+)
+ident(
+  int_ref callback "gEdit.ml" 57 2790 2815 "gEdit.ml" 57 2790 2823
+)
+"gEdit.ml" 59 2877 2922 "gEdit.ml" 59 2877 2944
+type(
+  Gtk.tree_model_filter -> GTree.model_filter
+)
+"gEdit.ml" 59 2877 2945 "gEdit.ml" 59 2877 2950
+type(
+  Gtk.tree_model_filter
+)
+ident(
+  int_ref model "gEdit.ml" 59 2877 2898 "gEdit.ml" 59 2877 2903
+)
+"gEdit.ml" 59 2877 2921 "gEdit.ml" 59 2877 2951
+call(
+  stack
+)
+type(
+  GTree.model_filter
+)
+"gEdit.ml" 59 2877 2952 "gEdit.ml" 59 2877 2956
+type(
+  Gtk.tree_iter
+)
+ident(
+  int_ref iter "gEdit.ml" 59 2877 2904 "gEdit.ml" 59 2877 2908
+)
+"gEdit.ml" 59 2877 2912 "gEdit.ml" 59 2877 2956
+call(
+  tail
+)
+type(
+  bool
+)
+"gEdit.ml" 59 2877 2893 "gEdit.ml" 59 2877 2957
+type(
+  Gtk.tree_model_filter -> Gtk.tree_iter -> bool
+)
+"gEdit.ml" 58 2827 2831 "gEdit.ml" 59 2877 2957
+type(
+  GtkSignal.id
+)
+"gEdit.ml" 62 2963 2986 "gEdit.ml" 62 2963 2989
+type(
+  [> `celllayout | `entrycompletion ] Gtk.obj
+)
+"gEdit.ml" 63 2999 3031 "gEdit.ml" 63 2999 3034
+type(
+  Gtk.entry_completion
+)
+type(
+  Gtk.entry_completion
+)
+type(
+  ([> `celllayout | `entrycompletion ] as 'a) Gtk.obj
+)
+"gEdit.ml" 66 3095 3099 "gEdit.ml" 66 3095 3110
+type(
+  ('a, int) Gobject.property -> 'a Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gEdit.ml" 66 3095 3111 "gEdit.ml" 66 3095 3147
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEdit.EntryCompletion.P.minimum_key_length
+)
+"gEdit.ml" 66 3095 3148 "gEdit.ml" 66 3095 3151
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 66 3095 3099 "gEdit.ml" 66 3095 3151
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gEdit.ml" 68 3182 3186 "gEdit.ml" 68 3182 3197
+type(
+  ('a, int) Gobject.property -> 'a Gtk.obj -> int
+)
+ident(
+  ext_ref Gobject.get
+)
+"gEdit.ml" 68 3182 3198 "gEdit.ml" 68 3182 3234
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEdit.EntryCompletion.P.minimum_key_length
+)
+"gEdit.ml" 68 3182 3235 "gEdit.ml" 68 3182 3238
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 68 3182 3186 "gEdit.ml" 68 3182 3238
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"gEdit.ml" 69 3239 3259 "gEdit.ml" 69 3239 3260
+type(
+  GTree.model
+)
+ident(
+  def m "gEdit.ml" 69 3239 3278 "gEdit.ml" 69 3239 3328
+)
+"gEdit.ml" 69 3239 3278 "gEdit.ml" 69 3239 3289
+type(
+  ('a, Gtk.tree_model) Gobject.property ->
+  'a Gtk.obj -> Gtk.tree_model -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gEdit.ml" 69 3239 3290 "gEdit.ml" 69 3239 3313
+type(
+  ('a, Gtk.tree_model) Gobject.property
+)
+ident(
+  ext_ref GtkEdit.EntryCompletion.P.model
+)
+"gEdit.ml" 69 3239 3314 "gEdit.ml" 69 3239 3317
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 69 3239 3318 "gEdit.ml" 69 3239 3319
+type(
+  GTree.model
+)
+ident(
+  int_ref m "gEdit.ml" 69 3239 3259 "gEdit.ml" 69 3239 3260
+)
+"gEdit.ml" 69 3239 3318 "gEdit.ml" 69 3239 3328
+call(
+  stack
+)
+type(
+  Gtk.tree_model
+)
+"gEdit.ml" 69 3239 3278 "gEdit.ml" 69 3239 3328
+call(
+  tail
+)
+type(
+  unit
+)
+"gEdit.ml" 78 3585 3589 "gEdit.ml" 78 3585 3604
+type(
+  [ `treemodel ] Gtk.obj -> GTree.model
+)
+"gEdit.ml" 79 3605 3608 "gEdit.ml" 79 3605 3619
+type(
+  ('a, Gtk.tree_model) Gobject.property -> 'a Gtk.obj -> Gtk.tree_model
+)
+ident(
+  ext_ref Gobject.get
+)
+"gEdit.ml" 79 3605 3620 "gEdit.ml" 79 3605 3643
+type(
+  ('a, Gtk.tree_model) Gobject.property
+)
+ident(
+  ext_ref GtkEdit.EntryCompletion.P.model
+)
+"gEdit.ml" 79 3605 3644 "gEdit.ml" 79 3605 3647
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 79 3605 3607 "gEdit.ml" 79 3605 3648
+call(
+  stack
+)
+type(
+  Gtk.tree_model
+)
+"gEdit.ml" 78 3585 3589 "gEdit.ml" 79 3605 3648
+call(
+  tail
+)
+type(
+  GTree.model
+)
+type(
+  GTree.model
+)
+"gEdit.ml" 81 3650 3666 "gEdit.ml" 81 3650 3686
+type(
+  'a Gtk.obj -> GObj.gobject_ops
+)
+"gEdit.ml" 81 3650 3687 "gEdit.ml" 81 3650 3690
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 81 3650 3666 "gEdit.ml" 81 3650 3690
+call(
+  tail
+)
+type(
+  GObj.gobject_ops
+)
+type(
+  GObj.gobject_ops
+)
+"gEdit.ml" 82 3691 3710 "gEdit.ml" 82 3691 3738
+type(
+  'a Gtk.obj -> entry_completion_signals
+)
+"gEdit.ml" 82 3691 3739 "gEdit.ml" 82 3691 3742
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 82 3691 3710 "gEdit.ml" 82 3691 3742
+call(
+  tail
+)
+type(
+  entry_completion_signals
+)
+type(
+  entry_completion_signals
+)
+"gEdit.ml" 84 3744 3765 "gEdit.ml" 84 3744 3772
+type(
+  f:(Gtk.entry Gtk.obj -> GObj.widget) ->
+  Gtk.entry Gtk.obj option -> GObj.widget option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gEdit.ml" 84 3744 3773 "gEdit.ml" 84 3744 3790
+type(
+  Gtk.entry Gtk.obj -> GObj.widget
+)
+"gEdit.ml" 84 3744 3792 "gEdit.ml" 84 3744 3817
+type(
+  'a Gtk.obj -> Gtk.entry Gtk.obj option
+)
+ident(
+  ext_ref GtkEdit.EntryCompletion.get_entry
+)
+"gEdit.ml" 84 3744 3818 "gEdit.ml" 84 3744 3821
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 84 3744 3791 "gEdit.ml" 84 3744 3822
+type(
+  Gtk.entry Gtk.obj option
+)
+"gEdit.ml" 84 3744 3765 "gEdit.ml" 84 3744 3822
+call(
+  tail
+)
+type(
+  GObj.widget option
+)
+type(
+  GObj.widget option
+)
+"gEdit.ml" 85 3823 3841 "gEdit.ml" 85 3823 3843
+type(
+  unit
+)
+"gEdit.ml" 85 3823 3846 "gEdit.ml" 85 3823 3870
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkEdit.EntryCompletion.complete
+)
+"gEdit.ml" 85 3823 3871 "gEdit.ml" 85 3823 3874
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 85 3823 3846 "gEdit.ml" 85 3823 3874
+type(
+  unit
+)
+"gEdit.ml" 86 3875 3905 "gEdit.ml" 86 3875 3939
+type(
+  'a Gtk.obj -> int -> string -> unit
+)
+ident(
+  ext_ref GtkEdit.EntryCompletion.insert_action_text
+)
+"gEdit.ml" 86 3875 3940 "gEdit.ml" 86 3875 3943
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 86 3875 3905 "gEdit.ml" 86 3875 3943
+call(
+  tail
+)
+type(
+  int -> string -> unit
+)
+type(
+  int -> string -> unit
+)
+"gEdit.ml" 87 3944 3976 "gEdit.ml" 87 3944 4012
+type(
+  'a Gtk.obj -> int -> string -> unit
+)
+ident(
+  ext_ref GtkEdit.EntryCompletion.insert_action_markup
+)
+"gEdit.ml" 87 3944 4013 "gEdit.ml" 87 3944 4016
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 87 3944 3976 "gEdit.ml" 87 3944 4016
+call(
+  tail
+)
+type(
+  int -> string -> unit
+)
+type(
+  int -> string -> unit
+)
+"gEdit.ml" 88 4017 4042 "gEdit.ml" 88 4017 4071
+type(
+  'a Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkEdit.EntryCompletion.delete_action
+)
+"gEdit.ml" 88 4017 4072 "gEdit.ml" 88 4017 4075
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 88 4017 4042 "gEdit.ml" 88 4017 4075
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gEdit.ml" 89 4076 4101 "gEdit.ml" 89 4076 4102
+type(
+  string GTree.column
+)
+ident(
+  def c "gEdit.ml" 90 4106 4110 "gEdit.ml" 90 4106 4183
+)
+"gEdit.ml" 90 4106 4110 "gEdit.ml" 90 4106 4141
+type(
+  'a Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkEdit.EntryCompletion.set_text_column
+)
+"gEdit.ml" 90 4106 4142 "gEdit.ml" 90 4106 4145
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 90 4106 4147 "gEdit.ml" 90 4106 4148
+type(
+  string GTree.column
+)
+type(
+  string GTree.column
+)
+ident(
+  int_ref c "gEdit.ml" 89 4076 4101 "gEdit.ml" 89 4076 4102
+)
+"gEdit.ml" 90 4106 4146 "gEdit.ml" 90 4106 4183
+type(
+  int
+)
+"gEdit.ml" 90 4106 4110 "gEdit.ml" 90 4106 4183
+type(
+  unit
+)
+"gEdit.ml" 92 4210 4214 "gEdit.ml" 92 4210 4244
+type(
+  'a Gtk.obj -> (string -> Gtk.tree_iter -> bool) -> unit
+)
+ident(
+  ext_ref GtkEdit.EntryCompletion.set_match_func
+)
+"gEdit.ml" 92 4210 4245 "gEdit.ml" 92 4210 4248
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 92 4210 4214 "gEdit.ml" 92 4210 4248
+call(
+  tail
+)
+type(
+  (string -> Gtk.tree_iter -> bool) -> unit
+)
+type(
+  (string -> Gtk.tree_iter -> bool) -> unit
+)
+"gEdit.ml" 94 4250 4278 "gEdit.ml" 94 4250 4281
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref obj "gEdit.ml" 62 2963 2986 "gEdit.ml" 62 2963 2989
+)
+"gEdit.ml" 95 4282 4294 "gEdit.ml" 95 4282 4297
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref obj "gEdit.ml" 62 2963 2986 "gEdit.ml" 62 2963 2989
+)
+"gEdit.ml" 98 4303 4323 "gEdit.ml" 98 4303 4326
+type(
+  [> `editable | `entry | `gtk | `widget ] Gtk.obj
+)
+"gEdit.ml" 98 4303 4336 "gEdit.ml" 98 4303 4342
+type(
+  < activate : callback:(unit -> unit) -> GtkSignal.id; after : 'a;
+    changed : callback:(unit -> unit) -> GtkSignal.id;
+    copy_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    cut_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    delete_from_cursor : callback:(GtkEnums.delete_type -> int -> unit) ->
+                         GtkSignal.id;
+    delete_text : callback:(start:int -> stop:int -> unit) -> GtkSignal.id;
+    destroy : callback:(unit -> unit) -> GtkSignal.id;
+    insert_at_cursor : callback:(string -> unit) -> GtkSignal.id;
+    insert_text : callback:(string -> pos:int ref -> unit) -> GtkSignal.id;
+    move_cursor : callback:(GtkEnums.movement_step ->
+                            int -> extend:bool -> unit) ->
+                  GtkSignal.id;
+    paste_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    populate_popup : callback:(GMenu.menu -> unit) -> GtkSignal.id;
+    toggle_overwrite : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"gEdit.ml" 99 4343 4370 "gEdit.ml" 99 4343 4373
+type(
+  ([> `editable | `entry | `gtk | `widget ] as 'b) Gtk.obj
+)
+ident(
+  int_ref obj "gEdit.ml" 98 4303 4323 "gEdit.ml" 98 4303 4326
+)
+"gEdit.ml" 101 4395 4420 "gEdit.ml" 101 4395 4428
+type(
+  GMenu.menu -> unit
+)
+ident(
+  def callback "gEdit.ml" 102 4431 4435 "gEdit.ml" 103 4482 4526
+)
+"gEdit.ml" 102 4431 4435 "gEdit.ml" 102 4431 4439
+type(
+  'a
+)
+"gEdit.ml" 102 4431 4435 "gEdit.ml" 102 4431 4447
+call(
+  tail
+)
+type(
+  ('b, Gtk.menu Gtk.obj -> unit) GtkSignal.t ->
+  callback:(Gtk.menu Gtk.obj -> unit) -> GtkSignal.id
+)
+"gEdit.ml" 102 4431 4448 "gEdit.ml" 102 4431 4470
+type(
+  ('b, Gtk.menu Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEdit.Entry.S.populate_popup
+)
+"gEdit.ml" 103 4482 4493 "gEdit.ml" 103 4482 4494
+type(
+  Gtk.menu Gtk.obj
+)
+ident(
+  def m "gEdit.ml" 103 4482 4498 "gEdit.ml" 103 4482 4525
+)
+"gEdit.ml" 103 4482 4498 "gEdit.ml" 103 4482 4506
+type(
+  GMenu.menu -> unit
+)
+ident(
+  int_ref callback "gEdit.ml" 101 4395 4420 "gEdit.ml" 101 4395 4428
+)
+"gEdit.ml" 103 4482 4508 "gEdit.ml" 103 4482 4522
+type(
+  Gtk.menu Gtk.obj -> GMenu.menu
+)
+"gEdit.ml" 103 4482 4523 "gEdit.ml" 103 4482 4524
+type(
+  Gtk.menu Gtk.obj
+)
+ident(
+  int_ref m "gEdit.ml" 103 4482 4493 "gEdit.ml" 103 4482 4494
+)
+"gEdit.ml" 103 4482 4507 "gEdit.ml" 103 4482 4525
+call(
+  stack
+)
+type(
+  GMenu.menu
+)
+"gEdit.ml" 103 4482 4498 "gEdit.ml" 103 4482 4525
+call(
+  tail
+)
+type(
+  unit
+)
+"gEdit.ml" 103 4482 4488 "gEdit.ml" 103 4482 4526
+type(
+  Gtk.menu Gtk.obj -> unit
+)
+"gEdit.ml" 102 4431 4435 "gEdit.ml" 103 4482 4526
+type(
+  GtkSignal.id
+)
+"gEdit.ml" 106 4532 4544 "gEdit.ml" 106 4532 4547
+type(
+  [> `editable | `entry | `gtk | `widget ] Gtk.obj
+)
+"gEdit.ml" 107 4557 4576 "gEdit.ml" 107 4557 4579
+type(
+  ([> `editable | `entry | `gtk | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gEdit.ml" 106 4532 4544 "gEdit.ml" 106 4532 4547
+)
+"gEdit.ml" 108 4580 4599 "gEdit.ml" 108 4580 4616
+type(
+  'a Gtk.obj -> entry_signals
+)
+"gEdit.ml" 108 4580 4617 "gEdit.ml" 108 4580 4620
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 108 4580 4599 "gEdit.ml" 108 4580 4620
+call(
+  tail
+)
+type(
+  entry_signals
+)
+type(
+  entry_signals
+)
+"gEdit.ml" 110 4643 4660 "gEdit.ml" 110 4643 4678
+type(
+  'a Gtk.obj -> GObj.event_ops
+)
+"gEdit.ml" 110 4643 4679 "gEdit.ml" 110 4643 4682
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 110 4643 4660 "gEdit.ml" 110 4643 4682
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gEdit.ml" 111 4683 4706 "gEdit.ml" 111 4683 4723
+type(
+  'a Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkEdit.Entry.append_text
+)
+"gEdit.ml" 111 4683 4724 "gEdit.ml" 111 4683 4727
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 111 4683 4706 "gEdit.ml" 111 4683 4727
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gEdit.ml" 112 4728 4752 "gEdit.ml" 112 4728 4770
+type(
+  'a Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkEdit.Entry.prepend_text
+)
+"gEdit.ml" 112 4728 4771 "gEdit.ml" 112 4728 4774
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 112 4728 4752 "gEdit.ml" 112 4728 4774
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gEdit.ml" 113 4775 4798 "gEdit.ml" 113 4775 4815
+type(
+  'a Gtk.obj -> int
+)
+ident(
+  ext_ref GtkEdit.Entry.text_length
+)
+"gEdit.ml" 113 4775 4816 "gEdit.ml" 113 4775 4819
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 113 4775 4798 "gEdit.ml" 113 4775 4819
+type(
+  int
+)
+type(
+  int
+)
+"gEdit.ml" 114 4820 4846 "gEdit.ml" 114 4820 4853
+type(
+  f:([ `celllayout | `entrycompletion ] Gtk.obj -> entry_completion) ->
+  [ `celllayout | `entrycompletion ] Gtk.obj option ->
+  entry_completion option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gEdit.ml" 114 4820 4854 "gEdit.ml" 114 4820 4876
+type(
+  [ `celllayout | `entrycompletion ] Gtk.obj -> entry_completion
+)
+"gEdit.ml" 114 4820 4878 "gEdit.ml" 114 4820 4898
+type(
+  'a Gtk.obj -> [ `celllayout | `entrycompletion ] Gtk.obj option
+)
+ident(
+  ext_ref GtkEdit.Entry.get_completion
+)
+"gEdit.ml" 114 4820 4899 "gEdit.ml" 114 4820 4902
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 114 4820 4877 "gEdit.ml" 114 4820 4903
+type(
+  [ `celllayout | `entrycompletion ] Gtk.obj option
+)
+"gEdit.ml" 114 4820 4846 "gEdit.ml" 114 4820 4903
+call(
+  tail
+)
+type(
+  entry_completion option
+)
+type(
+  entry_completion option
+)
+"gEdit.ml" 115 4904 4929 "gEdit.ml" 115 4904 4930
+type(
+  entry_completion
+)
+ident(
+  def c "gEdit.ml" 116 4954 4958 "gEdit.ml" 116 4954 5004
+)
+"gEdit.ml" 116 4954 4958 "gEdit.ml" 116 4954 4978
+type(
+  'a Gtk.obj -> Gtk.entry_completion -> unit
+)
+ident(
+  ext_ref GtkEdit.Entry.set_completion
+)
+"gEdit.ml" 116 4954 4979 "gEdit.ml" 116 4954 4982
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 116 4954 4983 "gEdit.ml" 116 4954 4984
+type(
+  entry_completion
+)
+ident(
+  int_ref c "gEdit.ml" 115 4904 4929 "gEdit.ml" 115 4904 4930
+)
+"gEdit.ml" 116 4954 4983 "gEdit.ml" 116 4954 5004
+call(
+  stack
+)
+type(
+  Gtk.entry_completion
+)
+"gEdit.ml" 116 4954 4958 "gEdit.ml" 116 4954 5004
+type(
+  unit
+)
+"gEdit.ml" 119 5010 5014 "gEdit.ml" 119 5010 5024
+type(
+  create:(([> `widget ] as 'a) Gobject.param list -> (#GObj.widget as 'b)) ->
+  'a Gobject.param list ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'b
+)
+ident(
+  def pack_sized "gEdit.ml" 123 5143 5143 --
+)
+"gEdit.ml" 119 5010 5026 "gEdit.ml" 119 5010 5032
+type(
+  'a Gobject.param list -> 'b
+)
+ident(
+  def create "gEdit.ml" 119 5010 5033 "gEdit.ml" 121 5069 5141
+)
+"gEdit.ml" 119 5010 5033 "gEdit.ml" 119 5010 5035
+type(
+  'a Gobject.param list
+)
+ident(
+  def pl "gEdit.ml" 120 5038 5040 "gEdit.ml" 121 5069 5141
+)
+"gEdit.ml" 120 5038 5040 "gEdit.ml" 120 5038 5058
+type(
+  cont:('a Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'b) ->
+  'a Gobject.param list ->
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'b
+)
+ident(
+  ext_ref GtkBase.Widget.size_params
+)
+"gEdit.ml" 120 5038 5059 "gEdit.ml" 120 5038 5061
+type(
+  'a Gobject.param list
+)
+ident(
+  int_ref pl "gEdit.ml" 119 5010 5033 "gEdit.ml" 119 5010 5035
+)
+"gEdit.ml" 121 5069 5078 "gEdit.ml" 121 5069 5080
+type(
+  'a Gobject.param list
+)
+ident(
+  def pl "gEdit.ml" 121 5069 5081 "gEdit.ml" 121 5069 5140
+)
+"gEdit.ml" 121 5069 5082 "gEdit.ml" 121 5069 5089
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gEdit.ml" 121 5069 5090 "gEdit.ml" 121 5069 5140
+)
+"gEdit.ml" 121 5069 5091 "gEdit.ml" 121 5069 5095
+type(
+  bool option
+)
+ident(
+  def show "gEdit.ml" 121 5069 5096 "gEdit.ml" 121 5069 5140
+)
+"gEdit.ml" 121 5069 5096 "gEdit.ml" 121 5069 5098
+type(
+  unit
+)
+"gEdit.ml" 121 5069 5102 "gEdit.ml" 121 5069 5113
+type(
+  'b -> packing:(GObj.widget -> unit) option -> show:bool option -> 'b
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gEdit.ml" 121 5069 5115 "gEdit.ml" 121 5069 5121
+type(
+  'a Gobject.param list -> 'b
+)
+ident(
+  int_ref create "gEdit.ml" 119 5010 5026 "gEdit.ml" 119 5010 5032
+)
+"gEdit.ml" 121 5069 5122 "gEdit.ml" 121 5069 5124
+type(
+  'a Gobject.param list
+)
+ident(
+  int_ref pl "gEdit.ml" 121 5069 5078 "gEdit.ml" 121 5069 5080
+)
+"gEdit.ml" 121 5069 5114 "gEdit.ml" 121 5069 5125
+call(
+  stack
+)
+type(
+  'b
+)
+"gEdit.ml" 121 5069 5127 "gEdit.ml" 121 5069 5134
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gEdit.ml" 121 5069 5082 "gEdit.ml" 121 5069 5089
+)
+"gEdit.ml" 121 5069 5136 "gEdit.ml" 121 5069 5140
+type(
+  bool option
+)
+ident(
+  int_ref show "gEdit.ml" 121 5069 5091 "gEdit.ml" 121 5069 5095
+)
+"gEdit.ml" 121 5069 5102 "gEdit.ml" 121 5069 5140
+call(
+  tail
+)
+type(
+  'b
+)
+"gEdit.ml" 121 5069 5073 "gEdit.ml" 121 5069 5141
+type(
+  'a Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'b
+)
+"gEdit.ml" 120 5038 5040 "gEdit.ml" 121 5069 5141
+call(
+  tail
+)
+type(
+  ?width:int ->
+  ?height:int -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'b
+)
+"gEdit.ml" 123 5143 5147 "gEdit.ml" 123 5143 5152
+type(
+  ?text:string ->
+  ?visibility:bool ->
+  ?max_length:int ->
+  ?activates_default:bool ->
+  ?editable:bool ->
+  ?has_frame:bool ->
+  ?width_chars:int ->
+  ?xalign:float ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> entry
+)
+ident(
+  def entry "gEdit.ml" 127 5249 5249 --
+)
+"gEdit.ml" 124 5155 5157 "gEdit.ml" 124 5155 5174
+type(
+  cont:(Gtk.entry Gobject.param list ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> entry) ->
+  Gtk.entry Gobject.param list ->
+  ?text:string ->
+  ?visibility:bool ->
+  ?max_length:int ->
+  ?activates_default:bool ->
+  ?editable:bool ->
+  ?has_frame:bool ->
+  ?width_chars:int ->
+  ?xalign:float ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> entry
+)
+ident(
+  ext_ref GtkEdit.Entry.make_params
+)
+"gEdit.ml" 124 5155 5175 "gEdit.ml" 124 5155 5177
+type(
+  Gtk.entry Gobject.param list
+)
+"gEdit.ml" 125 5186 5188 "gEdit.ml" 125 5186 5198
+type(
+  create:(Gtk.entry Gobject.param list -> entry) ->
+  Gtk.entry Gobject.param list ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> entry
+)
+ident(
+  int_ref pack_sized "gEdit.ml" 119 5010 5014 "gEdit.ml" 119 5010 5024
+)
+"gEdit.ml" 125 5186 5212 "gEdit.ml" 125 5186 5214
+type(
+  Gtk.entry Gobject.param list
+)
+ident(
+  def pl "gEdit.ml" 125 5186 5218 "gEdit.ml" 125 5186 5245
+)
+"gEdit.ml" 125 5186 5218 "gEdit.ml" 125 5186 5227
+type(
+  Gtk.entry Gtk.obj -> entry
+)
+"gEdit.ml" 125 5186 5229 "gEdit.ml" 125 5186 5241
+type(
+  Gtk.entry Gobject.param list -> Gtk.entry Gtk.obj
+)
+ident(
+  ext_ref GtkEdit.Entry.create
+)
+"gEdit.ml" 125 5186 5242 "gEdit.ml" 125 5186 5244
+type(
+  Gtk.entry Gobject.param list
+)
+ident(
+  int_ref pl "gEdit.ml" 125 5186 5212 "gEdit.ml" 125 5186 5214
+)
+"gEdit.ml" 125 5186 5228 "gEdit.ml" 125 5186 5245
+call(
+  stack
+)
+type(
+  Gtk.entry Gtk.obj
+)
+"gEdit.ml" 125 5186 5218 "gEdit.ml" 125 5186 5245
+call(
+  tail
+)
+type(
+  entry
+)
+"gEdit.ml" 125 5186 5207 "gEdit.ml" 125 5186 5246
+type(
+  Gtk.entry Gobject.param list -> entry
+)
+"gEdit.ml" 124 5155 5184 "gEdit.ml" 125 5186 5247
+call(
+  stack
+)
+type(
+  Gtk.entry Gobject.param list ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> entry
+)
+"gEdit.ml" 124 5155 5157 "gEdit.ml" 125 5186 5247
+call(
+  stack
+)
+type(
+  ?text:string ->
+  ?visibility:bool ->
+  ?max_length:int ->
+  ?activates_default:bool ->
+  ?editable:bool ->
+  ?has_frame:bool ->
+  ?width_chars:int ->
+  ?xalign:float ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> entry
+)
+"gEdit.ml" 127 5249 5253 "gEdit.ml" 127 5249 5269
+type(
+  ?model:< as_model : Gtk.tree_model; .. > ->
+  ?minimum_key_length:int ->
+  ?entry:< set_completion : entry_completion -> 'a; .. > ->
+  unit -> entry_completion
+)
+ident(
+  def entry_completion "gEdit.ml" 135 5517 5517 --
+)
+"gEdit.ml" 127 5249 5271 "gEdit.ml" 127 5249 5276
+type(
+  (< as_model : Gtk.tree_model; .. > as 'b) option
+)
+ident(
+  def model "gEdit.ml" 128 5279 5281 "gEdit.ml" 133 5507 5515
+)
+"gEdit.ml" 128 5279 5281 "gEdit.ml" 128 5279 5308
+type(
+  cont:([ `celllayout | `entrycompletion ] Gobject.param list ->
+        ?entry:(< set_completion : entry_completion -> 'a; .. > as 'c) ->
+        unit -> entry_completion) ->
+  [ `celllayout | `entrycompletion ] Gobject.param list ->
+  ?minimum_key_length:int ->
+  ?model:Gtk.tree_model -> ?entry:'c -> unit -> entry_completion
+)
+ident(
+  ext_ref GtkEdit.EntryCompletion.make_params
+)
+"gEdit.ml" 128 5279 5309 "gEdit.ml" 128 5279 5311
+type(
+  [ `celllayout | `entrycompletion ] Gobject.param list
+)
+"gEdit.ml" 129 5312 5324 "gEdit.ml" 129 5312 5331
+type(
+  f:('b -> Gtk.tree_model) -> 'b option -> Gtk.tree_model option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gEdit.ml" 129 5312 5337 "gEdit.ml" 129 5312 5338
+type(
+  'b
+)
+ident(
+  def m "gEdit.ml" 129 5312 5342 "gEdit.ml" 129 5312 5352
+)
+"gEdit.ml" 129 5312 5342 "gEdit.ml" 129 5312 5343
+type(
+  'b
+)
+ident(
+  int_ref m "gEdit.ml" 129 5312 5337 "gEdit.ml" 129 5312 5338
+)
+"gEdit.ml" 129 5312 5342 "gEdit.ml" 129 5312 5352
+call(
+  tail
+)
+type(
+  Gtk.tree_model
+)
+"gEdit.ml" 129 5312 5332 "gEdit.ml" 129 5312 5353
+type(
+  'b -> Gtk.tree_model
+)
+"gEdit.ml" 129 5312 5354 "gEdit.ml" 129 5312 5359
+type(
+  'b option
+)
+ident(
+  int_ref model "gEdit.ml" 127 5249 5271 "gEdit.ml" 127 5249 5276
+)
+"gEdit.ml" 129 5312 5323 "gEdit.ml" 129 5312 5360
+call(
+  stack
+)
+type(
+  Gtk.tree_model option
+)
+"gEdit.ml" 130 5361 5376 "gEdit.ml" 130 5361 5378
+type(
+  [ `celllayout | `entrycompletion ] Gobject.param list
+)
+ident(
+  def pl "gEdit.ml" 130 5361 5379 "gEdit.ml" 133 5507 5514
+)
+"gEdit.ml" 130 5361 5380 "gEdit.ml" 130 5361 5385
+type(
+  'c option
+)
+ident(
+  def entry "gEdit.ml" 130 5361 5386 "gEdit.ml" 133 5507 5514
+)
+"gEdit.ml" 130 5361 5386 "gEdit.ml" 130 5361 5388
+type(
+  unit
+)
+"gEdit.ml" 131 5393 5403 "gEdit.ml" 131 5393 5404
+type(
+  entry_completion
+)
+"gEdit.ml" 131 5393 5407 "gEdit.ml" 131 5393 5427
+type(
+  [ `celllayout | `entrycompletion ] Gtk.obj -> entry_completion
+)
+"gEdit.ml" 131 5393 5429 "gEdit.ml" 131 5393 5451
+type(
+  [ `celllayout | `entrycompletion ] Gobject.param list ->
+  Gtk.entry_completion
+)
+ident(
+  ext_ref GtkEdit.EntryCompletion.create
+)
+"gEdit.ml" 131 5393 5452 "gEdit.ml" 131 5393 5454
+type(
+  [ `celllayout | `entrycompletion ] Gobject.param list
+)
+ident(
+  int_ref pl "gEdit.ml" 130 5361 5376 "gEdit.ml" 130 5361 5378
+)
+"gEdit.ml" 131 5393 5428 "gEdit.ml" 131 5393 5455
+call(
+  stack
+)
+type(
+  Gtk.entry_completion
+)
+"gEdit.ml" 131 5393 5407 "gEdit.ml" 131 5393 5455
+call(
+  stack
+)
+type(
+  entry_completion
+)
+"gEdit.ml" 132 5459 5465 "gEdit.ml" 132 5459 5468
+type(
+  f:('c -> 'a) -> 'c option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gEdit.ml" 132 5459 5474 "gEdit.ml" 132 5459 5475
+type(
+  'c
+)
+ident(
+  def e "gEdit.ml" 132 5459 5479 "gEdit.ml" 132 5459 5497
+)
+"gEdit.ml" 132 5459 5479 "gEdit.ml" 132 5459 5480
+type(
+  'c
+)
+ident(
+  int_ref e "gEdit.ml" 132 5459 5474 "gEdit.ml" 132 5459 5475
+)
+"gEdit.ml" 132 5459 5479 "gEdit.ml" 132 5459 5495
+call(
+  tail
+)
+type(
+  entry_completion -> 'a
+)
+"gEdit.ml" 132 5459 5496 "gEdit.ml" 132 5459 5497
+type(
+  entry_completion
+)
+ident(
+  int_ref c "gEdit.ml" 131 5393 5403 "gEdit.ml" 131 5393 5404
+)
+"gEdit.ml" 132 5459 5479 "gEdit.ml" 132 5459 5497
+type(
+  'a
+)
+"gEdit.ml" 132 5459 5469 "gEdit.ml" 132 5459 5498
+type(
+  'c -> 'a
+)
+"gEdit.ml" 132 5459 5499 "gEdit.ml" 132 5459 5504
+type(
+  'c option
+)
+ident(
+  int_ref entry "gEdit.ml" 130 5361 5380 "gEdit.ml" 130 5361 5385
+)
+"gEdit.ml" 132 5459 5465 "gEdit.ml" 132 5459 5504
+call(
+  stack
+)
+type(
+  unit
+)
+"gEdit.ml" 133 5507 5513 "gEdit.ml" 133 5507 5514
+type(
+  entry_completion
+)
+ident(
+  int_ref c "gEdit.ml" 131 5393 5403 "gEdit.ml" 131 5393 5404
+)
+"gEdit.ml" 132 5459 5465 "gEdit.ml" 133 5507 5514
+type(
+  entry_completion
+)
+"gEdit.ml" 131 5393 5399 "gEdit.ml" 133 5507 5514
+type(
+  entry_completion
+)
+"gEdit.ml" 130 5361 5371 "gEdit.ml" 133 5507 5515
+type(
+  [ `celllayout | `entrycompletion ] Gobject.param list ->
+  ?entry:'c -> unit -> entry_completion
+)
+"gEdit.ml" 128 5279 5281 "gEdit.ml" 133 5507 5515
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  ?minimum_key_length:int -> ?entry:'c -> unit -> entry_completion
+)
+"gEdit.ml" 135 5517 5543 "gEdit.ml" 135 5517 5546
+type(
+  [> `editable | `entry | `gtk | `spinbutton | `widget ] Gtk.obj
+)
+"gEdit.ml" 136 5556 5580 "gEdit.ml" 136 5556 5583
+type(
+  ([> `editable | `entry | `gtk | `spinbutton | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gEdit.ml" 135 5517 5543 "gEdit.ml" 135 5517 5546
+)
+"gEdit.ml" 140 5616 5634 "gEdit.ml" 140 5616 5637
+type(
+  Gtk.spin_button Gtk.obj
+)
+"gEdit.ml" 141 5647 5687 "gEdit.ml" 141 5647 5690
+type(
+  Gtk.spin_button Gtk.obj
+)
+ident(
+  int_ref obj "gEdit.ml" 140 5616 5634 "gEdit.ml" 140 5616 5637
+)
+"gEdit.ml" 142 5691 5710 "gEdit.ml" 142 5691 5733
+type(
+  Gtk.spin_button Gtk.obj -> spin_button_signals
+)
+"gEdit.ml" 142 5691 5734 "gEdit.ml" 142 5691 5737
+type(
+  Gtk.spin_button Gtk.obj
+)
+"gEdit.ml" 142 5691 5710 "gEdit.ml" 142 5691 5737
+call(
+  tail
+)
+type(
+  spin_button_signals
+)
+type(
+  spin_button_signals
+)
+"gEdit.ml" 143 5738 5755 "gEdit.ml" 143 5738 5768
+type(
+  Gtk.spin_button Gtk.obj -> GObj.event_ops
+)
+"gEdit.ml" 143 5738 5769 "gEdit.ml" 143 5738 5772
+type(
+  Gtk.spin_button Gtk.obj
+)
+"gEdit.ml" 143 5738 5755 "gEdit.ml" 143 5738 5772
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gEdit.ml" 145 5801 5825 "gEdit.ml" 145 5801 5852
+type(
+  Gtk.spin_button Gtk.obj -> int
+)
+ident(
+  ext_ref GtkEdit.SpinButton.get_value_as_int
+)
+"gEdit.ml" 145 5801 5853 "gEdit.ml" 145 5801 5856
+type(
+  Gtk.spin_button Gtk.obj
+)
+"gEdit.ml" 145 5801 5825 "gEdit.ml" 145 5801 5856
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"gEdit.ml" 146 5857 5873 "gEdit.ml" 146 5857 5888
+type(
+  Gtk.spin_button Gtk.obj -> Gtk.Tags.spin_type -> unit
+)
+ident(
+  ext_ref GtkEdit.SpinButton.spin
+)
+"gEdit.ml" 146 5857 5889 "gEdit.ml" 146 5857 5892
+type(
+  Gtk.spin_button Gtk.obj
+)
+"gEdit.ml" 146 5857 5873 "gEdit.ml" 146 5857 5892
+call(
+  tail
+)
+type(
+  Gtk.Tags.spin_type -> unit
+)
+type(
+  Gtk.Tags.spin_type -> unit
+)
+"gEdit.ml" 147 5893 5911 "gEdit.ml" 147 5893 5928
+type(
+  Gtk.spin_button Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkEdit.SpinButton.update
+)
+"gEdit.ml" 147 5893 5929 "gEdit.ml" 147 5893 5932
+type(
+  Gtk.spin_button Gtk.obj
+)
+"gEdit.ml" 147 5893 5911 "gEdit.ml" 147 5893 5932
+type(
+  unit
+)
+type(
+  unit
+)
+"gEdit.ml" 150 5938 5942 "gEdit.ml" 150 5938 5953
+type(
+  ?adjustment:GData.adjustment ->
+  ?rate:float ->
+  ?digits:int ->
+  ?numeric:bool ->
+  ?snap_to_ticks:bool ->
+  ?update_policy:GtkEnums.spin_button_update_policy ->
+  ?value:float ->
+  ?wrap:bool ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> spin_button
+)
+ident(
+  def spin_button "gEdit.ml" 155 6138 6138 --
+)
+"gEdit.ml" 150 5938 5955 "gEdit.ml" 150 5938 5965
+type(
+  GData.adjustment option
+)
+ident(
+  def adjustment "gEdit.ml" 151 5968 5970 "gEdit.ml" 153 6064 6136
+)
+"gEdit.ml" 151 5968 5970 "gEdit.ml" 151 5968 5992
+type(
+  cont:(Gtk.spin_button Gobject.param list ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> spin_button) ->
+  Gtk.spin_button Gobject.param list ->
+  ?adjustment:Gtk.adjustment Gtk.obj ->
+  ?rate:float ->
+  ?digits:int ->
+  ?numeric:bool ->
+  ?snap_to_ticks:bool ->
+  ?update_policy:GtkEnums.spin_button_update_policy ->
+  ?value:float ->
+  ?wrap:bool ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> spin_button
+)
+ident(
+  ext_ref GtkEdit.SpinButton.make_params
+)
+"gEdit.ml" 151 5968 5993 "gEdit.ml" 151 5968 5995
+type(
+  Gtk.spin_button Gobject.param list
+)
+"gEdit.ml" 152 5996 6013 "gEdit.ml" 152 5996 6020
+type(
+  f:(GData.adjustment -> Gtk.adjustment Gtk.obj) ->
+  GData.adjustment option -> Gtk.adjustment Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gEdit.ml" 152 5996 6024 "gEdit.ml" 152 5996 6043
+type(
+  GData.adjustment -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref GData.as_adjustment
+)
+"gEdit.ml" 152 5996 6044 "gEdit.ml" 152 5996 6054
+type(
+  GData.adjustment option
+)
+ident(
+  int_ref adjustment "gEdit.ml" 150 5938 5955 "gEdit.ml" 150 5938 5965
+)
+"gEdit.ml" 152 5996 6012 "gEdit.ml" 152 5996 6055
+call(
+  stack
+)
+type(
+  Gtk.adjustment Gtk.obj option
+)
+"gEdit.ml" 153 6064 6066 "gEdit.ml" 153 6064 6076
+type(
+  create:(Gtk.spin_button Gobject.param list -> spin_button) ->
+  Gtk.spin_button Gobject.param list ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> spin_button
+)
+ident(
+  int_ref pack_sized "gEdit.ml" 119 5010 5014 "gEdit.ml" 119 5010 5024
+)
+"gEdit.ml" 153 6064 6090 "gEdit.ml" 153 6064 6092
+type(
+  Gtk.spin_button Gobject.param list
+)
+ident(
+  def pl "gEdit.ml" 153 6064 6096 "gEdit.ml" 153 6064 6134
+)
+"gEdit.ml" 153 6064 6096 "gEdit.ml" 153 6064 6111
+type(
+  Gtk.spin_button Gtk.obj -> spin_button
+)
+"gEdit.ml" 153 6064 6113 "gEdit.ml" 153 6064 6130
+type(
+  Gtk.spin_button Gobject.param list -> Gtk.spin_button Gtk.obj
+)
+ident(
+  ext_ref GtkEdit.SpinButton.create
+)
+"gEdit.ml" 153 6064 6131 "gEdit.ml" 153 6064 6133
+type(
+  Gtk.spin_button Gobject.param list
+)
+ident(
+  int_ref pl "gEdit.ml" 153 6064 6090 "gEdit.ml" 153 6064 6092
+)
+"gEdit.ml" 153 6064 6112 "gEdit.ml" 153 6064 6134
+call(
+  stack
+)
+type(
+  Gtk.spin_button Gtk.obj
+)
+"gEdit.ml" 153 6064 6096 "gEdit.ml" 153 6064 6134
+call(
+  tail
+)
+type(
+  spin_button
+)
+"gEdit.ml" 153 6064 6085 "gEdit.ml" 153 6064 6135
+type(
+  Gtk.spin_button Gobject.param list -> spin_button
+)
+"gEdit.ml" 152 5996 6062 "gEdit.ml" 153 6064 6136
+call(
+  stack
+)
+type(
+  Gtk.spin_button Gobject.param list ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> spin_button
+)
+"gEdit.ml" 151 5968 5970 "gEdit.ml" 153 6064 6136
+call(
+  tail
+)
+type(
+  ?rate:float ->
+  ?digits:int ->
+  ?numeric:bool ->
+  ?snap_to_ticks:bool ->
+  ?update_policy:GtkEnums.spin_button_update_policy ->
+  ?value:float ->
+  ?wrap:bool ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> spin_button
+)
+"gEdit.ml" 155 6138 6150 "gEdit.ml" 155 6138 6153
+type(
+  Gtk.combo Gtk.obj
+)
+"gEdit.ml" 156 6163 6197 "gEdit.ml" 156 6163 6200
+type(
+  Gtk.combo Gtk.obj
+)
+ident(
+  int_ref obj "gEdit.ml" 155 6138 6150 "gEdit.ml" 155 6138 6153
+)
+"gEdit.ml" 158 6223 6240 "gEdit.ml" 158 6223 6249
+type(
+  Gtk.entry Gtk.obj -> entry
+)
+"gEdit.ml" 158 6223 6251 "gEdit.ml" 158 6223 6262
+type(
+  Gtk.combo Gtk.obj -> Gtk.entry Gtk.obj
+)
+ident(
+  ext_ref GtkEdit.Combo.entry
+)
+"gEdit.ml" 158 6223 6263 "gEdit.ml" 158 6223 6266
+type(
+  Gtk.combo Gtk.obj
+)
+"gEdit.ml" 158 6223 6250 "gEdit.ml" 158 6223 6267
+type(
+  Gtk.entry Gtk.obj
+)
+"gEdit.ml" 158 6223 6240 "gEdit.ml" 158 6223 6267
+call(
+  tail
+)
+type(
+  entry
+)
+type(
+  entry
+)
+"gEdit.ml" 159 6268 6284 "gEdit.ml" 159 6268 6299
+type(
+  Gtk.liste Gtk.obj -> GList.liste
+)
+"gEdit.ml" 159 6268 6301 "gEdit.ml" 159 6268 6311
+type(
+  Gtk.combo Gtk.obj -> Gtk.liste Gtk.obj
+)
+ident(
+  ext_ref GtkEdit.Combo.list
+)
+"gEdit.ml" 159 6268 6312 "gEdit.ml" 159 6268 6315
+type(
+  Gtk.combo Gtk.obj
+)
+"gEdit.ml" 159 6268 6300 "gEdit.ml" 159 6268 6316
+type(
+  Gtk.liste Gtk.obj
+)
+"gEdit.ml" 159 6268 6284 "gEdit.ml" 159 6268 6316
+call(
+  tail
+)
+type(
+  GList.liste
+)
+type(
+  GList.liste
+)
+"gEdit.ml" 160 6317 6348 "gEdit.ml" 160 6317 6373
+type(
+  Gtk.combo Gtk.obj -> string list -> unit
+)
+ident(
+  ext_ref GtkEdit.Combo.set_popdown_strings
+)
+"gEdit.ml" 160 6317 6374 "gEdit.ml" 160 6317 6377
+type(
+  Gtk.combo Gtk.obj
+)
+"gEdit.ml" 160 6317 6348 "gEdit.ml" 160 6317 6377
+call(
+  tail
+)
+type(
+  string list -> unit
+)
+type(
+  string list -> unit
+)
+"gEdit.ml" 161 6378 6404 "gEdit.ml" 161 6378 6406
+type(
+  unit
+)
+"gEdit.ml" 161 6378 6409 "gEdit.ml" 161 6378 6431
+type(
+  Gtk.combo Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkEdit.Combo.disable_activate
+)
+"gEdit.ml" 161 6378 6432 "gEdit.ml" 161 6378 6435
+type(
+  Gtk.combo Gtk.obj
+)
+"gEdit.ml" 161 6378 6409 "gEdit.ml" 161 6378 6435
+type(
+  unit
+)
+"gEdit.ml" 162 6436 6462 "gEdit.ml" 162 6436 6466
+type(
+  GList.list_item
+)
+ident(
+  def item "gEdit.ml" 163 6488 6492 "gEdit.ml" 163 6488 6530
+)
+"gEdit.ml" 163 6488 6492 "gEdit.ml" 163 6488 6513
+type(
+  Gtk.combo Gtk.obj -> Gtk.list_item Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkEdit.Combo.set_item_string
+)
+"gEdit.ml" 163 6488 6514 "gEdit.ml" 163 6488 6517
+type(
+  Gtk.combo Gtk.obj
+)
+"gEdit.ml" 163 6488 6518 "gEdit.ml" 163 6488 6522
+type(
+  GList.list_item
+)
+ident(
+  int_ref item "gEdit.ml" 162 6436 6462 "gEdit.ml" 162 6436 6466
+)
+"gEdit.ml" 163 6488 6518 "gEdit.ml" 163 6488 6530
+call(
+  stack
+)
+type(
+  Gtk.list_item Gtk.obj
+)
+"gEdit.ml" 163 6488 6492 "gEdit.ml" 163 6488 6530
+call(
+  tail
+)
+type(
+  string -> unit
+)
+"gEdit.ml" 166 6536 6540 "gEdit.ml" 166 6536 6545
+type(
+  ?popdown_strings:string list ->
+  ?allow_empty:bool ->
+  ?case_sensitive:bool ->
+  ?enable_arrow_keys:bool ->
+  ?value_in_list:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo
+)
+ident(
+  def combo "gEdit.ml" 173 6748 6748 --
+)
+"gEdit.ml" 166 6536 6547 "gEdit.ml" 166 6536 6562
+type(
+  string list option
+)
+ident(
+  def popdown_strings "gEdit.ml" 167 6565 6567 "gEdit.ml" 171 6729 6746
+)
+"gEdit.ml" 167 6565 6567 "gEdit.ml" 167 6565 6584
+type(
+  cont:(Gtk.combo Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo) ->
+  Gtk.combo Gobject.param list ->
+  ?allow_empty:bool ->
+  ?case_sensitive:bool ->
+  ?enable_arrow_keys:bool ->
+  ?value_in_list:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo
+)
+ident(
+  ext_ref GtkEdit.Combo.make_params
+)
+"gEdit.ml" 167 6565 6585 "gEdit.ml" 167 6565 6587
+type(
+  Gtk.combo Gobject.param list
+)
+"gEdit.ml" 168 6596 6598 "gEdit.ml" 168 6596 6623
+type(
+  create:(Gtk.combo Gobject.param list -> combo) ->
+  Gtk.combo Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gEdit.ml" 168 6596 6637 "gEdit.ml" 168 6596 6639
+type(
+  Gtk.combo Gobject.param list
+)
+ident(
+  def pl "gEdit.ml" 169 6643 6647 "gEdit.ml" 171 6729 6744
+)
+"gEdit.ml" 169 6643 6651 "gEdit.ml" 169 6643 6652
+type(
+  Gtk.combo Gtk.obj
+)
+"gEdit.ml" 169 6643 6655 "gEdit.ml" 169 6643 6667
+type(
+  Gtk.combo Gobject.param list -> Gtk.combo Gtk.obj
+)
+ident(
+  ext_ref GtkEdit.Combo.create
+)
+"gEdit.ml" 169 6643 6668 "gEdit.ml" 169 6643 6670
+type(
+  Gtk.combo Gobject.param list
+)
+ident(
+  int_ref pl "gEdit.ml" 168 6596 6637 "gEdit.ml" 168 6596 6639
+)
+"gEdit.ml" 169 6643 6655 "gEdit.ml" 169 6643 6670
+call(
+  stack
+)
+type(
+  Gtk.combo Gtk.obj
+)
+"gEdit.ml" 170 6674 6678 "gEdit.ml" 170 6674 6681
+type(
+  f:(string list -> unit) -> string list option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gEdit.ml" 170 6674 6683 "gEdit.ml" 170 6674 6708
+type(
+  Gtk.combo Gtk.obj -> string list -> unit
+)
+ident(
+  ext_ref GtkEdit.Combo.set_popdown_strings
+)
+"gEdit.ml" 170 6674 6709 "gEdit.ml" 170 6674 6710
+type(
+  Gtk.combo Gtk.obj
+)
+ident(
+  int_ref w "gEdit.ml" 169 6643 6651 "gEdit.ml" 169 6643 6652
+)
+"gEdit.ml" 170 6674 6682 "gEdit.ml" 170 6674 6711
+call(
+  stack
+)
+type(
+  string list -> unit
+)
+"gEdit.ml" 170 6674 6712 "gEdit.ml" 170 6674 6727
+type(
+  string list option
+)
+ident(
+  int_ref popdown_strings "gEdit.ml" 166 6536 6547 "gEdit.ml" 166 6536 6562
+)
+"gEdit.ml" 170 6674 6678 "gEdit.ml" 170 6674 6727
+call(
+  stack
+)
+type(
+  unit
+)
+"gEdit.ml" 171 6729 6733 "gEdit.ml" 171 6729 6742
+type(
+  Gtk.combo Gtk.obj -> combo
+)
+"gEdit.ml" 171 6729 6743 "gEdit.ml" 171 6729 6744
+type(
+  Gtk.combo Gtk.obj
+)
+ident(
+  int_ref w "gEdit.ml" 169 6643 6651 "gEdit.ml" 169 6643 6652
+)
+"gEdit.ml" 171 6729 6733 "gEdit.ml" 171 6729 6744
+call(
+  tail
+)
+type(
+  combo
+)
+"gEdit.ml" 170 6674 6678 "gEdit.ml" 171 6729 6744
+type(
+  combo
+)
+"gEdit.ml" 169 6643 6647 "gEdit.ml" 171 6729 6744
+type(
+  combo
+)
+"gEdit.ml" 168 6596 6632 "gEdit.ml" 171 6729 6745
+type(
+  Gtk.combo Gobject.param list -> combo
+)
+"gEdit.ml" 167 6565 6594 "gEdit.ml" 171 6729 6746
+call(
+  stack
+)
+type(
+  Gtk.combo Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo
+)
+"gEdit.ml" 167 6565 6567 "gEdit.ml" 171 6729 6746
+call(
+  tail
+)
+type(
+  ?allow_empty:bool ->
+  ?case_sensitive:bool ->
+  ?enable_arrow_keys:bool ->
+  ?value_in_list:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo
+)
+"gEdit.ml" 173 6748 6772 "gEdit.ml" 173 6748 6775
+type(
+  [> Gtk.combo_box ] Gobject.obj
+)
+"gEdit.ml" 174 6785 6830 "gEdit.ml" 174 6785 6833
+type(
+  Gtk.combo_box Gtk.obj
+)
+type(
+  ([> Gtk.combo_box ] as 'a) Gobject.obj
+)
+ident(
+  int_ref obj "gEdit.ml" 173 6748 6772 "gEdit.ml" 173 6748 6775
+)
+"gEdit.ml" 178 6904 6920 "gEdit.ml" 178 6904 6924
+type(
+  [> Gtk.combo_box ] Gtk.obj
+)
+"gEdit.ml" 179 6934 6984 "gEdit.ml" 179 6934 6988
+type(
+  ([> Gtk.combo_box ] as 'a) Gtk.obj
+)
+ident(
+  int_ref _obj "gEdit.ml" 178 6904 6920 "gEdit.ml" 178 6904 6924
+)
+"gEdit.ml" 181 7029 7057 "gEdit.ml" 181 7029 7061
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref _obj "gEdit.ml" 178 6904 6920 "gEdit.ml" 178 6904 6924
+)
+"gEdit.ml" 182 7062 7079 "gEdit.ml" 182 7062 7097
+type(
+  'a Gtk.obj -> GObj.event_ops
+)
+"gEdit.ml" 182 7062 7098 "gEdit.ml" 182 7062 7101
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 182 7062 7079 "gEdit.ml" 182 7062 7101
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gEdit.ml" 183 7102 7121 "gEdit.ml" 183 7102 7142
+type(
+  'a Gtk.obj -> combo_box_signals
+)
+"gEdit.ml" 183 7102 7143 "gEdit.ml" 183 7102 7146
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 183 7102 7121 "gEdit.ml" 183 7102 7146
+call(
+  tail
+)
+type(
+  combo_box_signals
+)
+type(
+  combo_box_signals
+)
+"gEdit.ml" 185 7164 7168 "gEdit.ml" 185 7164 7183
+type(
+  [ `treemodel ] Gtk.obj -> GTree.model
+)
+"gEdit.ml" 185 7164 7185 "gEdit.ml" 185 7164 7196
+type(
+  ('a, Gtk.tree_model) Gobject.property -> 'a Gtk.obj -> Gtk.tree_model
+)
+ident(
+  ext_ref Gobject.get
+)
+"gEdit.ml" 185 7164 7197 "gEdit.ml" 185 7164 7221
+type(
+  ('a, Gtk.tree_model) Gobject.property
+)
+ident(
+  ext_ref GtkEdit.ComboBox.P.model
+)
+"gEdit.ml" 185 7164 7222 "gEdit.ml" 185 7164 7225
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 185 7164 7184 "gEdit.ml" 185 7164 7226
+call(
+  stack
+)
+type(
+  Gtk.tree_model
+)
+"gEdit.ml" 185 7164 7168 "gEdit.ml" 185 7164 7226
+call(
+  tail
+)
+type(
+  GTree.model
+)
+type(
+  GTree.model
+)
+"gEdit.ml" 186 7227 7247 "gEdit.ml" 186 7227 7248
+type(
+  GTree.model
+)
+ident(
+  def m "gEdit.ml" 187 7266 7270 "gEdit.ml" 187 7266 7321
+)
+"gEdit.ml" 187 7266 7270 "gEdit.ml" 187 7266 7281
+type(
+  ('a, Gtk.tree_model) Gobject.property ->
+  'a Gtk.obj -> Gtk.tree_model -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gEdit.ml" 187 7266 7282 "gEdit.ml" 187 7266 7306
+type(
+  ('a, Gtk.tree_model) Gobject.property
+)
+ident(
+  ext_ref GtkEdit.ComboBox.P.model
+)
+"gEdit.ml" 187 7266 7307 "gEdit.ml" 187 7266 7310
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 187 7266 7311 "gEdit.ml" 187 7266 7312
+type(
+  GTree.model
+)
+ident(
+  int_ref m "gEdit.ml" 186 7227 7247 "gEdit.ml" 186 7227 7248
+)
+"gEdit.ml" 187 7266 7311 "gEdit.ml" 187 7266 7321
+call(
+  stack
+)
+type(
+  Gtk.tree_model
+)
+"gEdit.ml" 187 7266 7270 "gEdit.ml" 187 7266 7321
+call(
+  tail
+)
+type(
+  unit
+)
+"gEdit.ml" 188 7322 7352 "gEdit.ml" 188 7322 7355
+type(
+  int GTree.column
+)
+ident(
+  def col "gEdit.ml" 189 7378 7382 "gEdit.ml" 189 7378 7448
+)
+"gEdit.ml" 189 7378 7382 "gEdit.ml" 189 7378 7393
+type(
+  ('a, int) Gobject.property -> 'a Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gEdit.ml" 189 7378 7394 "gEdit.ml" 189 7378 7428
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEdit.ComboBox.P.row_span_column
+)
+"gEdit.ml" 189 7378 7429 "gEdit.ml" 189 7378 7432
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 189 7378 7433 "gEdit.ml" 189 7378 7436
+type(
+  int GTree.column
+)
+ident(
+  int_ref col "gEdit.ml" 188 7322 7352 "gEdit.ml" 188 7322 7355
+)
+"gEdit.ml" 189 7378 7433 "gEdit.ml" 189 7378 7448
+type(
+  int
+)
+"gEdit.ml" 189 7378 7382 "gEdit.ml" 189 7378 7448
+call(
+  tail
+)
+type(
+  unit
+)
+"gEdit.ml" 190 7449 7482 "gEdit.ml" 190 7449 7485
+type(
+  int GTree.column
+)
+ident(
+  def col "gEdit.ml" 191 7508 7512 "gEdit.ml" 191 7508 7581
+)
+"gEdit.ml" 191 7508 7512 "gEdit.ml" 191 7508 7523
+type(
+  ('a, int) Gobject.property -> 'a Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gEdit.ml" 191 7508 7524 "gEdit.ml" 191 7508 7561
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEdit.ComboBox.P.column_span_column
+)
+"gEdit.ml" 191 7508 7562 "gEdit.ml" 191 7508 7565
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 191 7508 7566 "gEdit.ml" 191 7508 7569
+type(
+  int GTree.column
+)
+ident(
+  int_ref col "gEdit.ml" 190 7449 7482 "gEdit.ml" 190 7449 7485
+)
+"gEdit.ml" 191 7508 7566 "gEdit.ml" 191 7508 7581
+type(
+  int
+)
+"gEdit.ml" 191 7508 7512 "gEdit.ml" 191 7508 7581
+call(
+  tail
+)
+type(
+  unit
+)
+"gEdit.ml" 193 7605 7609 "gEdit.ml" 193 7605 7641
+type(
+  'a Gtk.obj -> Gtk.tree_iter option
+)
+ident(
+  ext_ref GtkEdit.ComboBox.get_active_iter
+)
+"gEdit.ml" 193 7605 7642 "gEdit.ml" 193 7605 7645
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 193 7605 7609 "gEdit.ml" 193 7605 7645
+type(
+  Gtk.tree_iter option
+)
+type(
+  Gtk.tree_iter option
+)
+"gEdit.ml" 195 7673 7677 "gEdit.ml" 195 7673 7709
+type(
+  'a Gtk.obj -> Gtk.tree_iter option -> unit
+)
+ident(
+  ext_ref GtkEdit.ComboBox.set_active_iter
+)
+"gEdit.ml" 195 7673 7710 "gEdit.ml" 195 7673 7713
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 195 7673 7677 "gEdit.ml" 195 7673 7713
+call(
+  tail
+)
+type(
+  Gtk.tree_iter option -> unit
+)
+type(
+  Gtk.tree_iter option -> unit
+)
+"gEdit.ml" 196 7714 7746 "gEdit.ml" 196 7714 7748
+type(
+  (GTree.model -> Gtk.tree_iter -> bool) option
+)
+ident(
+  def fo "gEdit.ml" 197 7751 7755 "gEdit.ml" 198 7800 7858
+)
+"gEdit.ml" 197 7751 7755 "gEdit.ml" 197 7751 7794
+type(
+  'a Gtk.obj -> (Gtk.tree_model -> Gtk.tree_iter -> bool) option -> unit
+)
+ident(
+  ext_ref GtkEdit.ComboBox.set_row_separator_func
+)
+"gEdit.ml" 197 7751 7795 "gEdit.ml" 197 7751 7798
+type(
+  'a Gtk.obj
+)
+"gEdit.ml" 198 7800 7807 "gEdit.ml" 198 7800 7819
+type(
+  f:((GTree.model -> Gtk.tree_iter -> bool) ->
+     Gtk.tree_model -> Gtk.tree_iter -> bool) ->
+  (GTree.model -> Gtk.tree_iter -> bool) option ->
+  (Gtk.tree_model -> Gtk.tree_iter -> bool) option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gEdit.ml" 198 7800 7825 "gEdit.ml" 198 7800 7826
+type(
+  GTree.model -> Gtk.tree_iter -> bool
+)
+ident(
+  def f "gEdit.ml" 198 7800 7827 "gEdit.ml" 198 7800 7853
+)
+"gEdit.ml" 198 7800 7827 "gEdit.ml" 198 7800 7828
+type(
+  [ `treemodel ] Gtk.obj
+)
+ident(
+  def m "gEdit.ml" 198 7800 7832 "gEdit.ml" 198 7800 7853
+)
+"gEdit.ml" 198 7800 7832 "gEdit.ml" 198 7800 7833
+type(
+  GTree.model -> Gtk.tree_iter -> bool
+)
+ident(
+  int_ref f "gEdit.ml" 198 7800 7825 "gEdit.ml" 198 7800 7826
+)
+"gEdit.ml" 198 7800 7835 "gEdit.ml" 198 7800 7850
+type(
+  [ `treemodel ] Gtk.obj -> GTree.model
+)
+"gEdit.ml" 198 7800 7851 "gEdit.ml" 198 7800 7852
+type(
+  [ `treemodel ] Gtk.obj
+)
+ident(
+  int_ref m "gEdit.ml" 198 7800 7827 "gEdit.ml" 198 7800 7828
+)
+"gEdit.ml" 198 7800 7834 "gEdit.ml" 198 7800 7853
+call(
+  stack
+)
+type(
+  GTree.model
+)
+"gEdit.ml" 198 7800 7832 "gEdit.ml" 198 7800 7853
+call(
+  tail
+)
+type(
+  Gtk.tree_iter -> bool
+)
+"gEdit.ml" 198 7800 7820 "gEdit.ml" 198 7800 7854
+type(
+  (GTree.model -> Gtk.tree_iter -> bool) ->
+  Gtk.tree_model -> Gtk.tree_iter -> bool
+)
+"gEdit.ml" 198 7800 7855 "gEdit.ml" 198 7800 7857
+type(
+  (GTree.model -> Gtk.tree_iter -> bool) option
+)
+ident(
+  int_ref fo "gEdit.ml" 196 7714 7746 "gEdit.ml" 196 7714 7748
+)
+"gEdit.ml" 198 7800 7806 "gEdit.ml" 198 7800 7858
+call(
+  stack
+)
+type(
+  (Gtk.tree_model -> Gtk.tree_iter -> bool) option
+)
+"gEdit.ml" 197 7751 7755 "gEdit.ml" 198 7800 7858
+type(
+  unit
+)
+"gEdit.ml" 201 7864 7868 "gEdit.ml" 201 7864 7877
+type(
+  ?model:< as_model : Gtk.tree_model; .. > ->
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool ->
+  ?has_frame:bool ->
+  ?wrap_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo_box
+)
+ident(
+  def combo_box "gEdit.ml" 208 8157 8157 --
+)
+"gEdit.ml" 201 7864 7879 "gEdit.ml" 201 7864 7884
+type(
+  (< as_model : Gtk.tree_model; .. > as 'a) option
+)
+ident(
+  def model "gEdit.ml" 202 7887 7889 "gEdit.ml" 206 8116 8155
+)
+"gEdit.ml" 202 7887 7893 "gEdit.ml" 202 7887 7898
+type(
+  Gtk.tree_model option
+)
+"gEdit.ml" 202 7887 7901 "gEdit.ml" 202 7887 7913
+type(
+  f:('a -> Gtk.tree_model) -> 'a option -> Gtk.tree_model option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gEdit.ml" 202 7887 7919 "gEdit.ml" 202 7887 7920
+type(
+  'a
+)
+ident(
+  def m "gEdit.ml" 202 7887 7924 "gEdit.ml" 202 7887 7934
+)
+"gEdit.ml" 202 7887 7924 "gEdit.ml" 202 7887 7925
+type(
+  'a
+)
+ident(
+  int_ref m "gEdit.ml" 202 7887 7919 "gEdit.ml" 202 7887 7920
+)
+"gEdit.ml" 202 7887 7924 "gEdit.ml" 202 7887 7934
+call(
+  tail
+)
+type(
+  Gtk.tree_model
+)
+"gEdit.ml" 202 7887 7914 "gEdit.ml" 202 7887 7935
+type(
+  'a -> Gtk.tree_model
+)
+"gEdit.ml" 202 7887 7936 "gEdit.ml" 202 7887 7941
+type(
+  'a option
+)
+ident(
+  int_ref model "gEdit.ml" 201 7864 7879 "gEdit.ml" 201 7864 7884
+)
+"gEdit.ml" 202 7887 7901 "gEdit.ml" 202 7887 7941
+call(
+  stack
+)
+type(
+  Gtk.tree_model option
+)
+"gEdit.ml" 203 7945 7947 "gEdit.ml" 203 7945 7975
+type(
+  cont:(Gtk.combo_box Gobject.param list ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo_box) ->
+  Gtk.combo_box Gobject.param list ->
+  ?model:Gtk.tree_model ->
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool ->
+  ?has_frame:bool ->
+  ?wrap_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo_box
+)
+ident(
+  ext_ref GtkEdit.ComboBox.make_params
+)
+"gEdit.ml" 203 7945 7977 "gEdit.ml" 203 7945 7982
+type(
+  Gtk.tree_model option
+)
+ident(
+  int_ref model "gEdit.ml" 202 7887 7893 "gEdit.ml" 202 7887 7898
+)
+"gEdit.ml" 203 7945 7983 "gEdit.ml" 203 7945 7985
+type(
+  Gtk.combo_box Gobject.param list
+)
+"gEdit.ml" 204 7994 7996 "gEdit.ml" 204 7994 8022
+type(
+  cont:(Gtk.combo_box Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo_box) ->
+  Gtk.combo_box Gobject.param list ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo_box
+)
+ident(
+  ext_ref GtkBase.Widget.size_params
+)
+"gEdit.ml" 204 7994 8034 "gEdit.ml" 204 7994 8036
+type(
+  Gtk.combo_box Gobject.param list
+)
+ident(
+  def pl "gEdit.ml" 204 7994 8037 "gEdit.ml" 206 8116 8153
+)
+"gEdit.ml" 204 7994 8038 "gEdit.ml" 204 7994 8045
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gEdit.ml" 204 7994 8046 "gEdit.ml" 206 8116 8153
+)
+"gEdit.ml" 204 7994 8047 "gEdit.ml" 204 7994 8051
+type(
+  bool option
+)
+ident(
+  def show "gEdit.ml" 204 7994 8052 "gEdit.ml" 206 8116 8153
+)
+"gEdit.ml" 204 7994 8052 "gEdit.ml" 204 7994 8054
+type(
+  unit
+)
+"gEdit.ml" 205 8058 8066 "gEdit.ml" 205 8058 8067
+type(
+  combo_box
+)
+"gEdit.ml" 205 8058 8070 "gEdit.ml" 205 8058 8083
+type(
+  Gtk.combo_box Gtk.obj -> combo_box
+)
+"gEdit.ml" 205 8058 8085 "gEdit.ml" 205 8058 8108
+type(
+  Gtk.combo_box Gobject.param list -> Gtk.combo_box Gtk.obj
+)
+ident(
+  ext_ref GtkEdit.ComboBox.create
+)
+"gEdit.ml" 205 8058 8109 "gEdit.ml" 205 8058 8111
+type(
+  Gtk.combo_box Gobject.param list
+)
+ident(
+  int_ref pl "gEdit.ml" 204 7994 8034 "gEdit.ml" 204 7994 8036
+)
+"gEdit.ml" 205 8058 8084 "gEdit.ml" 205 8058 8112
+call(
+  stack
+)
+type(
+  Gtk.combo_box Gtk.obj
+)
+"gEdit.ml" 205 8058 8070 "gEdit.ml" 205 8058 8112
+call(
+  stack
+)
+type(
+  combo_box
+)
+"gEdit.ml" 206 8116 8120 "gEdit.ml" 206 8116 8136
+type(
+  combo_box ->
+  packing:(GObj.widget -> unit) option -> show:bool option -> combo_box
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gEdit.ml" 206 8116 8137 "gEdit.ml" 206 8116 8138
+type(
+  combo_box
+)
+ident(
+  int_ref c "gEdit.ml" 205 8058 8066 "gEdit.ml" 205 8058 8067
+)
+"gEdit.ml" 206 8116 8140 "gEdit.ml" 206 8116 8147
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gEdit.ml" 204 7994 8038 "gEdit.ml" 204 7994 8045
+)
+"gEdit.ml" 206 8116 8149 "gEdit.ml" 206 8116 8153
+type(
+  bool option
+)
+ident(
+  int_ref show "gEdit.ml" 204 7994 8047 "gEdit.ml" 204 7994 8051
+)
+"gEdit.ml" 206 8116 8120 "gEdit.ml" 206 8116 8153
+call(
+  tail
+)
+type(
+  combo_box
+)
+"gEdit.ml" 205 8058 8062 "gEdit.ml" 206 8116 8153
+type(
+  combo_box
+)
+"gEdit.ml" 204 7994 8029 "gEdit.ml" 206 8116 8154
+type(
+  Gtk.combo_box Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo_box
+)
+"gEdit.ml" 203 7945 7992 "gEdit.ml" 206 8116 8155
+call(
+  stack
+)
+type(
+  Gtk.combo_box Gobject.param list ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo_box
+)
+"gEdit.ml" 203 7945 7947 "gEdit.ml" 206 8116 8155
+call(
+  tail
+)
+type(
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool ->
+  ?has_frame:bool ->
+  ?wrap_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo_box
+)
+"gEdit.ml" 202 7887 7889 "gEdit.ml" 206 8116 8155
+type(
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool ->
+  ?has_frame:bool ->
+  ?wrap_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo_box
+)
+"gEdit.ml" 208 8157 8179 "gEdit.ml" 208 8157 8183
+type(
+  [> `bin
+   | `celllayout
+   | `combobox
+   | `comboboxentry
+   | `container
+   | `gtk
+   | `widget ]
+  Gtk.obj
+)
+"gEdit.ml" 208 8157 8193 "gEdit.ml" 208 8157 8199
+type(
+  < active : int; active_iter : Gtk.tree_iter option;
+    add : GObj.widget -> unit;
+    add_attribute : 'a 'b.
+                      (#GTree.cell_renderer as 'a) ->
+                      string -> 'b GTree.column -> unit;
+    add_tearoffs : bool; all_children : GObj.widget list;
+    as_widget : Gtk.widget Gtk.obj; border_width : int; child : GObj.widget;
+    children : GObj.widget list; clear : unit -> unit;
+    clear_attributes : 'c. (#GTree.cell_renderer as 'c) -> unit;
+    coerce : GObj.widget; connect : combo_box_signals;
+    destroy : unit -> unit; drag : GObj.drag_ops; entry : entry;
+    event : GObj.event_ops; focus : GContainer.focus; focus_on_click : 
+    bool; get_oid : int; has_frame : bool; misc : GObj.misc_ops;
+    model : GTree.model;
+    pack : 'd.
+             ?expand:bool ->
+             ?from:Gtk.Tags.pack_type -> (#GTree.cell_renderer as 'd) -> unit;
+    remove : GObj.widget -> unit;
+    reorder : 'e. (#GTree.cell_renderer as 'e) -> int -> unit;
+    resize_mode : Gtk.Tags.resize_mode; set_active : int -> unit;
+    set_active_iter : Gtk.tree_iter option -> unit;
+    set_add_tearoffs : bool -> unit; set_border_width : int -> unit;
+    set_cell_data_func : 'f.
+                           (#GTree.cell_renderer as 'f) ->
+                           (GTree.model -> Gtk.tree_iter -> unit) -> unit;
+    set_column_span_column : int GTree.column -> unit;
+    set_focus_on_click : bool -> unit; set_has_frame : bool -> unit;
+    set_model : GTree.model -> unit;
+    set_resize_mode : Gtk.Tags.resize_mode -> unit;
+    set_row_separator_func : (GTree.model -> Gtk.tree_iter -> bool) option ->
+                             unit;
+    set_row_span_column : int GTree.column -> unit;
+    set_text_column : string GTree.column -> unit;
+    set_wrap_width : int -> unit; text_column : string GTree.column;
+    unset_cell_data_func : 'g. (#GTree.cell_renderer as 'g) -> unit;
+    wrap_width : int; .. >
+)
+"gEdit.ml" 209 8200 8220 "gEdit.ml" 209 8200 8224
+type(
+  ([> `bin
+    | `celllayout
+    | `combobox
+    | `comboboxentry
+    | `container
+    | `gtk
+    | `widget ]
+   as 'h)
+  Gtk.obj
+)
+ident(
+  int_ref _obj "gEdit.ml" 208 8157 8179 "gEdit.ml" 208 8157 8183
+)
+"gEdit.ml" 211 8249 8257 "gEdit.ml" 211 8249 8265
+type(
+  int
+)
+"gEdit.ml" 212 8269 8275 "gEdit.ml" 212 8269 8290
+type(
+  Gtk.tree_model -> int
+)
+ident(
+  ext_ref Gobject.get_oid
+)
+"gEdit.ml" 212 8269 8292 "gEdit.ml" 212 8269 8303
+type(
+  ('h, Gtk.tree_model) Gobject.property -> 'h Gtk.obj -> Gtk.tree_model
+)
+ident(
+  ext_ref Gobject.get
+)
+"gEdit.ml" 212 8269 8304 "gEdit.ml" 212 8269 8328
+type(
+  ('h, Gtk.tree_model) Gobject.property
+)
+ident(
+  ext_ref GtkEdit.ComboBox.P.model
+)
+"gEdit.ml" 212 8269 8329 "gEdit.ml" 212 8269 8333
+type(
+  'h Gtk.obj
+)
+"gEdit.ml" 212 8269 8291 "gEdit.ml" 212 8269 8334
+call(
+  stack
+)
+type(
+  Gtk.tree_model
+)
+"gEdit.ml" 212 8269 8275 "gEdit.ml" 212 8269 8334
+call(
+  stack
+)
+type(
+  int
+)
+"gEdit.ml" 213 8338 8346 "gEdit.ml" 213 8338 8357
+type(
+  int
+)
+"gEdit.ml" 213 8338 8364 "gEdit.ml" 213 8338 8376
+type(
+  (int, int) Hashtbl.t -> int -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"gEdit.ml" 213 8338 8377 "gEdit.ml" 213 8338 8392
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  ext_ref GTree.model_ids
+)
+"gEdit.ml" 213 8338 8393 "gEdit.ml" 213 8338 8401
+type(
+  int
+)
+ident(
+  int_ref model_id "gEdit.ml" 211 8249 8257 "gEdit.ml" 211 8249 8265
+)
+"gEdit.ml" 213 8338 8364 "gEdit.ml" 213 8338 8401
+call(
+  stack
+)
+type(
+  int
+)
+"gEdit.ml" 214 8403 8430 "gEdit.ml" 214 8403 8439
+type(
+  exn
+)
+"gEdit.ml" 214 8403 8443 "gEdit.ml" 214 8403 8444
+type(
+  int
+)
+"gEdit.ml" 213 8338 8360 "gEdit.ml" 214 8403 8444
+type(
+  int
+)
+"gEdit.ml" 215 8448 8468 "gEdit.ml" 215 8448 8479
+type(
+  ('h, int) Gobject.property -> 'h Gtk.obj -> int
+)
+ident(
+  ext_ref Gobject.get
+)
+"gEdit.ml" 215 8448 8480 "gEdit.ml" 215 8448 8515
+type(
+  ('h, int) Gobject.property
+)
+ident(
+  ext_ref GtkEdit.ComboBoxEntry.P.text_column
+)
+"gEdit.ml" 215 8448 8516 "gEdit.ml" 215 8448 8520
+type(
+  'h Gtk.obj
+)
+"gEdit.ml" 215 8448 8468 "gEdit.ml" 215 8448 8520
+call(
+  stack
+)
+type(
+  int
+)
+"gEdit.ml" 216 8523 8543 "gEdit.ml" 216 8523 8562
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gEdit.ml" 217 8566 8588 "gEdit.ml" 217 8566 8599
+type(
+  int
+)
+ident(
+  int_ref col_list_id "gEdit.ml" 213 8338 8346 "gEdit.ml" 213 8338 8357
+)
+"gEdit.ml" 215 8448 8452 "gEdit.ml" 217 8566 8601
+type(
+  string GTree.column
+)
+"gEdit.ml" 213 8338 8342 "gEdit.ml" 217 8566 8601
+type(
+  string GTree.column
+)
+"gEdit.ml" 211 8249 8253 "gEdit.ml" 217 8566 8601
+type(
+  string GTree.column
+)
+type(
+  string GTree.column
+)
+"gEdit.ml" 218 8602 8628 "gEdit.ml" 218 8602 8631
+type(
+  string GTree.column
+)
+ident(
+  def col "gEdit.ml" 219 8657 8661 "gEdit.ml" 226 8934 9005
+)
+"gEdit.ml" 219 8657 8665 "gEdit.ml" 219 8657 8673
+type(
+  int
+)
+"gEdit.ml" 220 8677 8683 "gEdit.ml" 220 8677 8698
+type(
+  Gtk.tree_model -> int
+)
+ident(
+  ext_ref Gobject.get_oid
+)
+"gEdit.ml" 220 8677 8700 "gEdit.ml" 220 8677 8711
+type(
+  ('h, Gtk.tree_model) Gobject.property -> 'h Gtk.obj -> Gtk.tree_model
+)
+ident(
+  ext_ref Gobject.get
+)
+"gEdit.ml" 220 8677 8712 "gEdit.ml" 220 8677 8736
+type(
+  ('h, Gtk.tree_model) Gobject.property
+)
+ident(
+  ext_ref GtkEdit.ComboBox.P.model
+)
+"gEdit.ml" 220 8677 8737 "gEdit.ml" 220 8677 8741
+type(
+  'h Gtk.obj
+)
+"gEdit.ml" 220 8677 8699 "gEdit.ml" 220 8677 8742
+call(
+  stack
+)
+type(
+  Gtk.tree_model
+)
+"gEdit.ml" 220 8677 8683 "gEdit.ml" 220 8677 8742
+call(
+  stack
+)
+type(
+  int
+)
+"gEdit.ml" 222 8760 8769 "gEdit.ml" 222 8760 8781
+type(
+  (int, int) Hashtbl.t -> int -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"gEdit.ml" 222 8760 8782 "gEdit.ml" 222 8760 8797
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  ext_ref GTree.model_ids
+)
+"gEdit.ml" 222 8760 8798 "gEdit.ml" 222 8760 8806
+type(
+  int
+)
+ident(
+  int_ref model_id "gEdit.ml" 219 8657 8665 "gEdit.ml" 219 8657 8673
+)
+"gEdit.ml" 222 8760 8769 "gEdit.ml" 222 8760 8806
+call(
+  stack
+)
+type(
+  int
+)
+"gEdit.ml" 222 8760 8807 "gEdit.ml" 222 8760 8809
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gEdit.ml" 222 8760 8810 "gEdit.ml" 222 8760 8813
+type(
+  string GTree.column
+)
+ident(
+  int_ref col "gEdit.ml" 218 8602 8628 "gEdit.ml" 218 8602 8631
+)
+"gEdit.ml" 222 8760 8810 "gEdit.ml" 222 8760 8827
+type(
+  int
+)
+"gEdit.ml" 222 8760 8769 "gEdit.ml" 222 8760 8827
+type(
+  bool
+)
+"gEdit.ml" 223 8829 8840 "gEdit.ml" 223 8829 8851
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gEdit.ml" 223 8829 8852 "gEdit.ml" 223 8829 8897
+type(
+  string
+)
+"gEdit.ml" 223 8829 8840 "gEdit.ml" 223 8829 8897
+call(
+  stack
+)
+type(
+  unit
+)
+"gEdit.ml" 222 8760 8766 "gEdit.ml" 223 8829 8897
+type(
+  unit
+)
+"gEdit.ml" 224 8898 8907 "gEdit.ml" 224 8898 8916
+type(
+  exn
+)
+"gEdit.ml" 224 8898 8920 "gEdit.ml" 224 8898 8922
+type(
+  unit
+)
+"gEdit.ml" 221 8746 8750 "gEdit.ml" 225 8924 8931
+type(
+  unit
+)
+"gEdit.ml" 226 8934 8938 "gEdit.ml" 226 8934 8949
+type(
+  ('h, int) Gobject.property -> 'h Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"gEdit.ml" 226 8934 8950 "gEdit.ml" 226 8934 8985
+type(
+  ('h, int) Gobject.property
+)
+ident(
+  ext_ref GtkEdit.ComboBoxEntry.P.text_column
+)
+"gEdit.ml" 226 8934 8986 "gEdit.ml" 226 8934 8989
+type(
+  'h Gtk.obj
+)
+"gEdit.ml" 226 8934 8990 "gEdit.ml" 226 8934 8993
+type(
+  string GTree.column
+)
+ident(
+  int_ref col "gEdit.ml" 218 8602 8628 "gEdit.ml" 218 8602 8631
+)
+"gEdit.ml" 226 8934 8990 "gEdit.ml" 226 8934 9005
+type(
+  int
+)
+"gEdit.ml" 226 8934 8938 "gEdit.ml" 226 8934 9005
+call(
+  tail
+)
+type(
+  unit
+)
+"gEdit.ml" 221 8746 8750 "gEdit.ml" 226 8934 9005
+type(
+  unit
+)
+"gEdit.ml" 219 8657 8661 "gEdit.ml" 226 8934 9005
+type(
+  unit
+)
+"gEdit.ml" 227 9006 9023 "gEdit.ml" 227 9006 9032
+type(
+  Gtk.entry Gtk.obj -> entry
+)
+"gEdit.ml" 227 9006 9034 "gEdit.ml" 227 9006 9052
+type(
+  Gtk.widget Gtk.obj -> Gtk.entry Gtk.obj
+)
+ident(
+  ext_ref GtkEdit.Entry.cast
+)
+"gEdit.ml" 227 9006 9053 "gEdit.ml" 227 9006 9057
+type(
+  < active : int; active_iter : Gtk.tree_iter option;
+    add : GObj.widget -> unit;
+    add_attribute : 'a 'b.
+                      (#GTree.cell_renderer as 'a) ->
+                      string -> 'b GTree.column -> unit;
+    add_tearoffs : bool; all_children : GObj.widget list;
+    as_widget : Gtk.widget Gtk.obj; border_width : int; child : GObj.widget;
+    children : GObj.widget list; clear : unit -> unit;
+    clear_attributes : 'c. (#GTree.cell_renderer as 'c) -> unit;
+    coerce : GObj.widget; connect : combo_box_signals;
+    destroy : unit -> unit; drag : GObj.drag_ops; entry : entry;
+    event : GObj.event_ops; focus : GContainer.focus; focus_on_click : 
+    bool; get_oid : int; has_frame : bool; misc : GObj.misc_ops;
+    model : GTree.model;
+    pack : 'd.
+             ?expand:bool ->
+             ?from:Gtk.Tags.pack_type -> (#GTree.cell_renderer as 'd) -> unit;
+    remove : GObj.widget -> unit;
+    reorder : 'e. (#GTree.cell_renderer as 'e) -> int -> unit;
+    resize_mode : Gtk.Tags.resize_mode; set_active : int -> unit;
+    set_active_iter : Gtk.tree_iter option -> unit;
+    set_add_tearoffs : bool -> unit; set_border_width : int -> unit;
+    set_cell_data_func : 'f.
+                           (#GTree.cell_renderer as 'f) ->
+                           (GTree.model -> Gtk.tree_iter -> unit) -> unit;
+    set_column_span_column : int GTree.column -> unit;
+    set_focus_on_click : bool -> unit; set_has_frame : bool -> unit;
+    set_model : GTree.model -> unit;
+    set_resize_mode : Gtk.Tags.resize_mode -> unit;
+    set_row_separator_func : (GTree.model -> Gtk.tree_iter -> bool) option ->
+                             unit;
+    set_row_span_column : int GTree.column -> unit;
+    set_text_column : string GTree.column -> unit;
+    set_wrap_width : int -> unit; text_column : string GTree.column;
+    unset_cell_data_func : 'g. (#GTree.cell_renderer as 'g) -> unit;
+    wrap_width : int; .. >
+  as 'i
+)
+"gEdit.ml" 227 9006 9053 "gEdit.ml" 227 9006 9063
+call(
+  stack
+)
+type(
+  GObj.widget
+)
+"gEdit.ml" 227 9006 9053 "gEdit.ml" 227 9006 9073
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gEdit.ml" 227 9006 9033 "gEdit.ml" 227 9006 9074
+call(
+  stack
+)
+type(
+  Gtk.entry Gtk.obj
+)
+"gEdit.ml" 227 9006 9023 "gEdit.ml" 227 9006 9074
+call(
+  tail
+)
+type(
+  entry
+)
+type(
+  entry
+)
+"gEdit.ml" 230 9080 9084 "gEdit.ml" 230 9080 9099
+type(
+  ?model:< as_model : Gtk.tree_model; .. > ->
+  ?text_column:'a GTree.column ->
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool ->
+  ?has_frame:bool ->
+  ?wrap_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo_box_entry
+)
+ident(
+  def combo_box_entry "gEdit.ml" 240 9528 9528 --
+)
+"gEdit.ml" 230 9080 9101 "gEdit.ml" 230 9080 9106
+type(
+  (< as_model : Gtk.tree_model; .. > as 'b) option
+)
+ident(
+  def model "gEdit.ml" 230 9080 9107 "gEdit.ml" 238 9503 9526
+)
+"gEdit.ml" 230 9080 9108 "gEdit.ml" 230 9080 9119
+type(
+  'a GTree.column option
+)
+ident(
+  def text_column "gEdit.ml" 231 9122 9124 "gEdit.ml" 238 9503 9526
+)
+"gEdit.ml" 231 9122 9128 "gEdit.ml" 231 9122 9133
+type(
+  Gtk.tree_model option
+)
+"gEdit.ml" 231 9122 9136 "gEdit.ml" 231 9122 9148
+type(
+  f:('b -> Gtk.tree_model) -> 'b option -> Gtk.tree_model option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gEdit.ml" 231 9122 9154 "gEdit.ml" 231 9122 9155
+type(
+  'b
+)
+ident(
+  def m "gEdit.ml" 231 9122 9159 "gEdit.ml" 231 9122 9169
+)
+"gEdit.ml" 231 9122 9159 "gEdit.ml" 231 9122 9160
+type(
+  'b
+)
+ident(
+  int_ref m "gEdit.ml" 231 9122 9154 "gEdit.ml" 231 9122 9155
+)
+"gEdit.ml" 231 9122 9159 "gEdit.ml" 231 9122 9169
+call(
+  tail
+)
+type(
+  Gtk.tree_model
+)
+"gEdit.ml" 231 9122 9149 "gEdit.ml" 231 9122 9170
+type(
+  'b -> Gtk.tree_model
+)
+"gEdit.ml" 231 9122 9171 "gEdit.ml" 231 9122 9176
+type(
+  'b option
+)
+ident(
+  int_ref model "gEdit.ml" 230 9080 9101 "gEdit.ml" 230 9080 9106
+)
+"gEdit.ml" 231 9122 9136 "gEdit.ml" 231 9122 9176
+call(
+  stack
+)
+type(
+  Gtk.tree_model option
+)
+"gEdit.ml" 232 9180 9182 "gEdit.ml" 232 9180 9210
+type(
+  cont:(Gtk.combo_box_entry Gobject.param list ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) ->
+        ?show:bool -> unit -> combo_box_entry) ->
+  Gtk.combo_box_entry Gobject.param list ->
+  ?model:Gtk.tree_model ->
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool ->
+  ?has_frame:bool ->
+  ?wrap_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo_box_entry
+)
+ident(
+  ext_ref GtkEdit.ComboBox.make_params
+)
+"gEdit.ml" 232 9180 9212 "gEdit.ml" 232 9180 9217
+type(
+  Gtk.tree_model option
+)
+ident(
+  int_ref model "gEdit.ml" 231 9122 9128 "gEdit.ml" 231 9122 9133
+)
+"gEdit.ml" 233 9218 9223 "gEdit.ml" 233 9218 9248
+type(
+  (Gtk.combo_box_entry, int) Gobject.property ->
+  int option ->
+  Gtk.combo_box_entry Gobject.param list ->
+  Gtk.combo_box_entry Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gEdit.ml" 233 9218 9249 "gEdit.ml" 233 9218 9284
+type(
+  (Gtk.combo_box_entry, int) Gobject.property
+)
+ident(
+  ext_ref GtkEdit.ComboBoxEntry.P.text_column
+)
+"gEdit.ml" 234 9285 9293 "gEdit.ml" 234 9285 9305
+type(
+  f:('a GTree.column -> int) -> 'a GTree.column option -> int option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gEdit.ml" 234 9285 9311 "gEdit.ml" 234 9285 9312
+type(
+  'a GTree.column
+)
+ident(
+  def c "gEdit.ml" 234 9285 9316 "gEdit.ml" 234 9285 9329
+)
+"gEdit.ml" 234 9285 9316 "gEdit.ml" 234 9285 9317
+type(
+  'a GTree.column
+)
+ident(
+  int_ref c "gEdit.ml" 234 9285 9311 "gEdit.ml" 234 9285 9312
+)
+"gEdit.ml" 234 9285 9316 "gEdit.ml" 234 9285 9329
+type(
+  int
+)
+"gEdit.ml" 234 9285 9306 "gEdit.ml" 234 9285 9330
+type(
+  'a GTree.column -> int
+)
+"gEdit.ml" 234 9285 9331 "gEdit.ml" 234 9285 9342
+type(
+  'a GTree.column option
+)
+ident(
+  int_ref text_column "gEdit.ml" 230 9080 9108 "gEdit.ml" 230 9080 9119
+)
+"gEdit.ml" 234 9285 9292 "gEdit.ml" 234 9285 9343
+call(
+  stack
+)
+type(
+  int option
+)
+"gEdit.ml" 234 9285 9344 "gEdit.ml" 234 9285 9346
+type(
+  Gtk.combo_box_entry Gobject.param list
+)
+"gEdit.ml" 233 9218 9222 "gEdit.ml" 234 9285 9347
+call(
+  stack
+)
+type(
+  Gtk.combo_box_entry Gobject.param list
+)
+"gEdit.ml" 235 9356 9358 "gEdit.ml" 235 9356 9384
+type(
+  cont:(Gtk.combo_box_entry Gobject.param list ->
+        ?packing:(GObj.widget -> unit) ->
+        ?show:bool -> unit -> combo_box_entry) ->
+  Gtk.combo_box_entry Gobject.param list ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo_box_entry
+)
+ident(
+  ext_ref GtkBase.Widget.size_params
+)
+"gEdit.ml" 235 9356 9396 "gEdit.ml" 235 9356 9398
+type(
+  Gtk.combo_box_entry Gobject.param list
+)
+ident(
+  def pl "gEdit.ml" 235 9356 9399 "gEdit.ml" 238 9503 9523
+)
+"gEdit.ml" 235 9356 9400 "gEdit.ml" 235 9356 9407
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gEdit.ml" 235 9356 9408 "gEdit.ml" 238 9503 9523
+)
+"gEdit.ml" 235 9356 9409 "gEdit.ml" 235 9356 9413
+type(
+  bool option
+)
+ident(
+  def show "gEdit.ml" 235 9356 9414 "gEdit.ml" 238 9503 9523
+)
+"gEdit.ml" 235 9356 9414 "gEdit.ml" 235 9356 9416
+type(
+  unit
+)
+"gEdit.ml" 236 9420 9424 "gEdit.ml" 236 9420 9440
+type(
+  combo_box_entry ->
+  packing:(GObj.widget -> unit) option -> show:bool option -> combo_box_entry
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gEdit.ml" 237 9441 9448 "gEdit.ml" 237 9441 9467
+type(
+  Gtk.combo_box_entry Gtk.obj -> combo_box_entry
+)
+"gEdit.ml" 237 9441 9469 "gEdit.ml" 237 9441 9497
+type(
+  Gtk.combo_box_entry Gobject.param list -> Gtk.combo_box_entry Gtk.obj
+)
+ident(
+  ext_ref GtkEdit.ComboBoxEntry.create
+)
+"gEdit.ml" 237 9441 9498 "gEdit.ml" 237 9441 9500
+type(
+  Gtk.combo_box_entry Gobject.param list
+)
+ident(
+  int_ref pl "gEdit.ml" 235 9356 9396 "gEdit.ml" 235 9356 9398
+)
+"gEdit.ml" 237 9441 9468 "gEdit.ml" 237 9441 9501
+call(
+  stack
+)
+type(
+  Gtk.combo_box_entry Gtk.obj
+)
+"gEdit.ml" 237 9441 9447 "gEdit.ml" 237 9441 9502
+call(
+  stack
+)
+type(
+  combo_box_entry
+)
+"gEdit.ml" 238 9503 9510 "gEdit.ml" 238 9503 9517
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gEdit.ml" 235 9356 9400 "gEdit.ml" 235 9356 9407
+)
+"gEdit.ml" 238 9503 9519 "gEdit.ml" 238 9503 9523
+type(
+  bool option
+)
+ident(
+  int_ref show "gEdit.ml" 235 9356 9409 "gEdit.ml" 235 9356 9413
+)
+"gEdit.ml" 236 9420 9424 "gEdit.ml" 238 9503 9523
+call(
+  tail
+)
+type(
+  combo_box_entry
+)
+"gEdit.ml" 235 9356 9391 "gEdit.ml" 238 9503 9525
+type(
+  Gtk.combo_box_entry Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo_box_entry
+)
+"gEdit.ml" 234 9285 9354 "gEdit.ml" 238 9503 9526
+call(
+  stack
+)
+type(
+  Gtk.combo_box_entry Gobject.param list ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo_box_entry
+)
+"gEdit.ml" 232 9180 9182 "gEdit.ml" 238 9503 9526
+call(
+  tail
+)
+type(
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool ->
+  ?has_frame:bool ->
+  ?wrap_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo_box_entry
+)
+"gEdit.ml" 231 9122 9124 "gEdit.ml" 238 9503 9526
+type(
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool ->
+  ?has_frame:bool ->
+  ?wrap_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> combo_box_entry
+)
+"gEdit.ml" 243 9626 9630 "gEdit.ml" 243 9626 9644
+type(
+  #combo_box text_combo -> string -> unit
+)
+ident(
+  def text_combo_add "gEdit.ml" 247 9754 9754 --
+)
+"gEdit.ml" 243 9626 9647 "gEdit.ml" 243 9626 9648
+type(
+  #combo_box as 'a
+)
+"gEdit.ml" 243 9626 9651 "gEdit.ml" 243 9626 9657
+type(
+  GTree.list_store
+)
+ident(
+  def lstore "gEdit.ml" 243 9626 9685 "gEdit.ml" 245 9723 9752
+)
+"gEdit.ml" 243 9626 9659 "gEdit.ml" 243 9626 9665
+type(
+  string GTree.column
+)
+ident(
+  def column "gEdit.ml" 243 9626 9685 "gEdit.ml" 245 9723 9752
+)
+"gEdit.ml" 243 9626 9650 "gEdit.ml" 243 9626 9666
+type(
+  GTree.list_store * string GTree.column
+)
+"gEdit.ml" 243 9626 9646 "gEdit.ml" 243 9626 9667
+type(
+  'a text_combo
+)
+"gEdit.ml" 243 9626 9685 "gEdit.ml" 243 9626 9688
+type(
+  string
+)
+ident(
+  def str "gEdit.ml" 244 9691 9693 "gEdit.ml" 245 9723 9752
+)
+"gEdit.ml" 244 9691 9697 "gEdit.ml" 244 9691 9700
+type(
+  Gtk.tree_iter
+)
+"gEdit.ml" 244 9691 9703 "gEdit.ml" 244 9691 9709
+type(
+  GTree.list_store
+)
+ident(
+  int_ref lstore "gEdit.ml" 243 9626 9651 "gEdit.ml" 243 9626 9657
+)
+"gEdit.ml" 244 9691 9703 "gEdit.ml" 244 9691 9716
+call(
+  stack
+)
+type(
+  unit -> Gtk.tree_iter
+)
+"gEdit.ml" 244 9691 9717 "gEdit.ml" 244 9691 9719
+type(
+  unit
+)
+"gEdit.ml" 244 9691 9703 "gEdit.ml" 244 9691 9719
+type(
+  Gtk.tree_iter
+)
+"gEdit.ml" 245 9723 9725 "gEdit.ml" 245 9723 9731
+type(
+  GTree.list_store
+)
+ident(
+  int_ref lstore "gEdit.ml" 243 9626 9651 "gEdit.ml" 243 9626 9657
+)
+"gEdit.ml" 245 9723 9725 "gEdit.ml" 245 9723 9735
+call(
+  tail
+)
+type(
+  row:Gtk.tree_iter -> column:string GTree.column -> string -> unit
+)
+"gEdit.ml" 245 9723 9737 "gEdit.ml" 245 9723 9740
+type(
+  Gtk.tree_iter
+)
+ident(
+  int_ref row "gEdit.ml" 244 9691 9697 "gEdit.ml" 244 9691 9700
+)
+"gEdit.ml" 245 9723 9742 "gEdit.ml" 245 9723 9748
+type(
+  string GTree.column
+)
+ident(
+  int_ref column "gEdit.ml" 243 9626 9659 "gEdit.ml" 243 9626 9665
+)
+"gEdit.ml" 245 9723 9749 "gEdit.ml" 245 9723 9752
+type(
+  string
+)
+ident(
+  int_ref str "gEdit.ml" 243 9626 9685 "gEdit.ml" 243 9626 9688
+)
+"gEdit.ml" 245 9723 9725 "gEdit.ml" 245 9723 9752
+type(
+  unit
+)
+"gEdit.ml" 244 9691 9693 "gEdit.ml" 245 9723 9752
+type(
+  unit
+)
+"gEdit.ml" 247 9754 9758 "gEdit.ml" 247 9754 9779
+type(
+  #combo_box text_combo -> string option
+)
+ident(
+  def text_combo_get_active "gEdit.ml" 252 9922 9922 --
+)
+"gEdit.ml" 247 9754 9782 "gEdit.ml" 247 9754 9787
+type(
+  #combo_box as 'a
+)
+ident(
+  def combo "gEdit.ml" 248 9826 9828 "gEdit.ml" 250 9874 9920
+)
+"gEdit.ml" 247 9754 9790 "gEdit.ml" 247 9754 9796
+type(
+  GTree.list_store
+)
+ident(
+  def lstore "gEdit.ml" 248 9826 9828 "gEdit.ml" 250 9874 9920
+)
+"gEdit.ml" 247 9754 9798 "gEdit.ml" 247 9754 9804
+type(
+  string GTree.column
+)
+ident(
+  def column "gEdit.ml" 248 9826 9828 "gEdit.ml" 250 9874 9920
+)
+"gEdit.ml" 247 9754 9789 "gEdit.ml" 247 9754 9805
+type(
+  GTree.list_store * string GTree.column
+)
+"gEdit.ml" 247 9754 9781 "gEdit.ml" 247 9754 9806
+type(
+  'a text_combo
+)
+"gEdit.ml" 248 9826 9834 "gEdit.ml" 248 9826 9839
+type(
+  'a
+)
+ident(
+  int_ref combo "gEdit.ml" 247 9754 9782 "gEdit.ml" 247 9754 9787
+)
+"gEdit.ml" 248 9826 9834 "gEdit.ml" 248 9826 9851
+call(
+  stack
+)
+type(
+  Gtk.tree_iter option
+)
+"gEdit.ml" 249 9857 9861 "gEdit.ml" 249 9857 9865
+type(
+  Gtk.tree_iter option
+)
+"gEdit.ml" 249 9857 9869 "gEdit.ml" 249 9857 9873
+type(
+  string option
+)
+"gEdit.ml" 250 9874 9883 "gEdit.ml" 250 9874 9886
+type(
+  Gtk.tree_iter
+)
+ident(
+  def row "gEdit.ml" 250 9874 9890 "gEdit.ml" 250 9874 9920
+)
+"gEdit.ml" 250 9874 9878 "gEdit.ml" 250 9874 9886
+type(
+  Gtk.tree_iter option
+)
+"gEdit.ml" 250 9874 9896 "gEdit.ml" 250 9874 9902
+type(
+  GTree.list_store
+)
+ident(
+  int_ref lstore "gEdit.ml" 247 9754 9790 "gEdit.ml" 247 9754 9796
+)
+"gEdit.ml" 250 9874 9896 "gEdit.ml" 250 9874 9906
+call(
+  stack
+)
+type(
+  row:Gtk.tree_iter -> column:string GTree.column -> string
+)
+"gEdit.ml" 250 9874 9908 "gEdit.ml" 250 9874 9911
+type(
+  Gtk.tree_iter
+)
+ident(
+  int_ref row "gEdit.ml" 250 9874 9883 "gEdit.ml" 250 9874 9886
+)
+"gEdit.ml" 250 9874 9913 "gEdit.ml" 250 9874 9919
+type(
+  string GTree.column
+)
+ident(
+  int_ref column "gEdit.ml" 247 9754 9798 "gEdit.ml" 247 9754 9804
+)
+"gEdit.ml" 250 9874 9895 "gEdit.ml" 250 9874 9920
+type(
+  string
+)
+"gEdit.ml" 250 9874 9890 "gEdit.ml" 250 9874 9920
+type(
+  string option
+)
+"gEdit.ml" 248 9826 9828 "gEdit.ml" 250 9874 9920
+type(
+  string option
+)
+"gEdit.ml" 252 9922 9926 "gEdit.ml" 252 9922 9940
+type(
+  ?strings:string list ->
+  ?use_markup:bool ->
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool ->
+  ?has_frame:bool ->
+  ?wrap_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) ->
+  ?show:bool -> unit -> combo_box * (GTree.list_store * string GTree.column)
+)
+ident(
+  def combo_box_text "gEdit.ml" 263 10447 10447 --
+)
+"gEdit.ml" 252 9922 9943 "gEdit.ml" 252 9922 9950
+type(
+  string list
+)
+"gEdit.ml" 252 9922 9951 "gEdit.ml" 252 9922 9953
+type(
+  string list
+)
+type(
+  string list
+)
+ident(
+  int_ref *sth* "gEdit.ml" 252 9922 9951 "gEdit.ml" 252 9922 9953
+)
+type(
+  string list option
+)
+type(
+  string list option
+)
+type(
+  string list
+)
+ident(
+  def *sth* "gEdit.ml" 252 9922 9951 "gEdit.ml" 252 9922 9953
+)
+"gEdit.ml" 252 9922 9957 "gEdit.ml" 252 9922 9967
+type(
+  bool
+)
+"gEdit.ml" 252 9922 9968 "gEdit.ml" 252 9922 9973
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "gEdit.ml" 252 9922 9968 "gEdit.ml" 252 9922 9973
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "gEdit.ml" 252 9922 9968 "gEdit.ml" 252 9922 9973
+)
+"gEdit.ml" 253 9977 9984 "gEdit.ml" 253 9977 9989
+type(
+  GTree.list_store
+)
+"gEdit.ml" 253 9977 9991 "gEdit.ml" 253 9977 9997
+type(
+  string GTree.column
+)
+"gEdit.ml" 253 9977 9983 "gEdit.ml" 253 9977 9998
+type(
+  GTree.list_store * string GTree.column
+)
+"gEdit.ml" 253 9977 9983 "gEdit.ml" 253 9977 10007
+type(
+  GTree.list_store * string GTree.column
+)
+"gEdit.ml" 254 10010 10014 "gEdit.ml" 254 10010 10033
+type(
+  string Gobject.data_conv ->
+  string list -> GTree.list_store * string GTree.column
+)
+ident(
+  ext_ref GTree.store_of_list
+)
+"gEdit.ml" 254 10010 10034 "gEdit.ml" 254 10010 10053
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gEdit.ml" 254 10010 10054 "gEdit.ml" 254 10010 10061
+type(
+  string list
+)
+ident(
+  int_ref strings "gEdit.ml" 252 9922 9943 "gEdit.ml" 252 9922 9950
+)
+"gEdit.ml" 254 10010 10014 "gEdit.ml" 254 10010 10061
+call(
+  stack
+)
+type(
+  GTree.list_store * string GTree.column
+)
+"gEdit.ml" 255 10065 10067 "gEdit.ml" 255 10065 10095
+type(
+  cont:(Gtk.combo_box Gobject.param list ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) ->
+        ?show:bool ->
+        unit -> combo_box * (GTree.list_store * string GTree.column)) ->
+  Gtk.combo_box Gobject.param list ->
+  ?model:Gtk.tree_model ->
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool ->
+  ?has_frame:bool ->
+  ?wrap_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) ->
+  ?show:bool -> unit -> combo_box * (GTree.list_store * string GTree.column)
+)
+ident(
+  ext_ref GtkEdit.ComboBox.make_params
+)
+"gEdit.ml" 255 10065 10103 "gEdit.ml" 255 10065 10108
+type(
+  GTree.list_store
+)
+ident(
+  int_ref store "gEdit.ml" 253 9977 9984 "gEdit.ml" 253 9977 9989
+)
+"gEdit.ml" 255 10065 10103 "gEdit.ml" 255 10065 10117
+call(
+  stack
+)
+type(
+  Gtk.tree_model
+)
+"gEdit.ml" 255 10065 10118 "gEdit.ml" 255 10065 10120
+type(
+  Gtk.combo_box Gobject.param list
+)
+"gEdit.ml" 256 10129 10131 "gEdit.ml" 256 10129 10157
+type(
+  cont:(Gtk.combo_box Gobject.param list ->
+        ?packing:(GObj.widget -> unit) ->
+        ?show:bool ->
+        unit -> combo_box * (GTree.list_store * string GTree.column)) ->
+  Gtk.combo_box Gobject.param list ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) ->
+  ?show:bool -> unit -> combo_box * (GTree.list_store * string GTree.column)
+)
+ident(
+  ext_ref GtkBase.Widget.size_params
+)
+"gEdit.ml" 256 10129 10169 "gEdit.ml" 256 10129 10171
+type(
+  Gtk.combo_box Gobject.param list
+)
+ident(
+  def pl "gEdit.ml" 256 10129 10172 "gEdit.ml" 261 10395 10443
+)
+"gEdit.ml" 256 10129 10173 "gEdit.ml" 256 10129 10180
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gEdit.ml" 256 10129 10181 "gEdit.ml" 261 10395 10443
+)
+"gEdit.ml" 256 10129 10182 "gEdit.ml" 256 10129 10186
+type(
+  bool option
+)
+ident(
+  def show "gEdit.ml" 256 10129 10187 "gEdit.ml" 261 10395 10443
+)
+"gEdit.ml" 256 10129 10187 "gEdit.ml" 256 10129 10189
+type(
+  unit
+)
+"gEdit.ml" 257 10193 10201 "gEdit.ml" 257 10193 10206
+type(
+  combo_box
+)
+"gEdit.ml" 257 10193 10209 "gEdit.ml" 257 10193 10222
+type(
+  Gtk.combo_box Gtk.obj -> combo_box
+)
+"gEdit.ml" 257 10193 10224 "gEdit.ml" 257 10193 10247
+type(
+  Gtk.combo_box Gobject.param list -> Gtk.combo_box Gtk.obj
+)
+ident(
+  ext_ref GtkEdit.ComboBox.create
+)
+"gEdit.ml" 257 10193 10248 "gEdit.ml" 257 10193 10250
+type(
+  Gtk.combo_box Gobject.param list
+)
+ident(
+  int_ref pl "gEdit.ml" 256 10129 10169 "gEdit.ml" 256 10129 10171
+)
+"gEdit.ml" 257 10193 10223 "gEdit.ml" 257 10193 10251
+call(
+  stack
+)
+type(
+  Gtk.combo_box Gtk.obj
+)
+"gEdit.ml" 257 10193 10209 "gEdit.ml" 257 10193 10251
+call(
+  stack
+)
+type(
+  combo_box
+)
+"gEdit.ml" 258 10255 10263 "gEdit.ml" 258 10255 10264
+type(
+  GTree.cell_renderer_text
+)
+"gEdit.ml" 258 10255 10267 "gEdit.ml" 258 10255 10291
+type(
+  GTree.cell_properties_text list -> GTree.cell_renderer_text
+)
+ident(
+  ext_ref GTree.cell_renderer_text
+)
+"gEdit.ml" 258 10255 10292 "gEdit.ml" 258 10255 10294
+type(
+  GTree.cell_properties_text list
+)
+"gEdit.ml" 258 10255 10267 "gEdit.ml" 258 10255 10294
+call(
+  stack
+)
+type(
+  GTree.cell_renderer_text
+)
+"gEdit.ml" 259 10298 10302 "gEdit.ml" 259 10298 10307
+type(
+  combo_box
+)
+ident(
+  int_ref combo "gEdit.ml" 257 10193 10201 "gEdit.ml" 257 10193 10206
+)
+"gEdit.ml" 259 10298 10302 "gEdit.ml" 259 10298 10312
+call(
+  stack
+)
+type(
+  ?expand:bool ->
+  ?from:Gtk.Tags.pack_type -> GTree.cell_renderer_text -> unit
+)
+"gEdit.ml" 259 10298 10313 "gEdit.ml" 259 10298 10314
+type(
+  GTree.cell_renderer_text
+)
+ident(
+  int_ref r "gEdit.ml" 258 10255 10263 "gEdit.ml" 258 10255 10264
+)
+"gEdit.ml" 259 10298 10302 "gEdit.ml" 259 10298 10314
+type(
+  unit
+)
+"gEdit.ml" 260 10318 10322 "gEdit.ml" 260 10318 10327
+type(
+  combo_box
+)
+ident(
+  int_ref combo "gEdit.ml" 257 10193 10201 "gEdit.ml" 257 10193 10206
+)
+"gEdit.ml" 260 10318 10322 "gEdit.ml" 260 10318 10341
+call(
+  stack
+)
+type(
+  GTree.cell_renderer_text -> string -> string GTree.column -> unit
+)
+"gEdit.ml" 260 10318 10342 "gEdit.ml" 260 10318 10343
+type(
+  GTree.cell_renderer_text
+)
+ident(
+  int_ref r "gEdit.ml" 258 10255 10263 "gEdit.ml" 258 10255 10264
+)
+"gEdit.ml" 260 10318 10348 "gEdit.ml" 260 10318 10358
+type(
+  bool
+)
+ident(
+  int_ref use_markup "gEdit.ml" 252 9922 9957 "gEdit.ml" 252 9922 9967
+)
+"gEdit.ml" 260 10318 10364 "gEdit.ml" 260 10318 10372
+type(
+  string
+)
+"gEdit.ml" 260 10318 10378 "gEdit.ml" 260 10318 10384
+type(
+  string
+)
+"gEdit.ml" 260 10318 10344 "gEdit.ml" 260 10318 10385
+type(
+  string
+)
+"gEdit.ml" 260 10318 10386 "gEdit.ml" 260 10318 10392
+type(
+  string GTree.column
+)
+ident(
+  int_ref column "gEdit.ml" 253 9977 9991 "gEdit.ml" 253 9977 9997
+)
+"gEdit.ml" 260 10318 10322 "gEdit.ml" 260 10318 10392
+type(
+  unit
+)
+"gEdit.ml" 261 10395 10399 "gEdit.ml" 261 10395 10415
+type(
+  combo_box ->
+  packing:(GObj.widget -> unit) option -> show:bool option -> combo_box
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gEdit.ml" 261 10395 10416 "gEdit.ml" 261 10395 10421
+type(
+  combo_box
+)
+ident(
+  int_ref combo "gEdit.ml" 257 10193 10201 "gEdit.ml" 257 10193 10206
+)
+"gEdit.ml" 261 10395 10423 "gEdit.ml" 261 10395 10430
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gEdit.ml" 256 10129 10173 "gEdit.ml" 256 10129 10180
+)
+"gEdit.ml" 261 10395 10432 "gEdit.ml" 261 10395 10436
+type(
+  bool option
+)
+ident(
+  int_ref show "gEdit.ml" 256 10129 10182 "gEdit.ml" 256 10129 10186
+)
+"gEdit.ml" 261 10395 10399 "gEdit.ml" 261 10395 10436
+call(
+  stack
+)
+type(
+  combo_box
+)
+"gEdit.ml" 261 10395 10438 "gEdit.ml" 261 10395 10443
+type(
+  GTree.list_store * string GTree.column
+)
+ident(
+  int_ref model "gEdit.ml" 253 9977 9983 "gEdit.ml" 253 9977 10007
+)
+"gEdit.ml" 261 10395 10399 "gEdit.ml" 261 10395 10443
+type(
+  combo_box * (GTree.list_store * string GTree.column)
+)
+"gEdit.ml" 260 10318 10322 "gEdit.ml" 261 10395 10443
+type(
+  combo_box * (GTree.list_store * string GTree.column)
+)
+"gEdit.ml" 259 10298 10302 "gEdit.ml" 261 10395 10443
+type(
+  combo_box * (GTree.list_store * string GTree.column)
+)
+"gEdit.ml" 258 10255 10259 "gEdit.ml" 261 10395 10443
+type(
+  combo_box * (GTree.list_store * string GTree.column)
+)
+"gEdit.ml" 257 10193 10197 "gEdit.ml" 261 10395 10443
+type(
+  combo_box * (GTree.list_store * string GTree.column)
+)
+"gEdit.ml" 256 10129 10164 "gEdit.ml" 261 10395 10444
+type(
+  Gtk.combo_box Gobject.param list ->
+  ?packing:(GObj.widget -> unit) ->
+  ?show:bool -> unit -> combo_box * (GTree.list_store * string GTree.column)
+)
+"gEdit.ml" 255 10065 10127 "gEdit.ml" 261 10395 10445
+call(
+  stack
+)
+type(
+  Gtk.combo_box Gobject.param list ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) ->
+  ?show:bool -> unit -> combo_box * (GTree.list_store * string GTree.column)
+)
+"gEdit.ml" 255 10065 10067 "gEdit.ml" 261 10395 10445
+call(
+  tail
+)
+type(
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool ->
+  ?has_frame:bool ->
+  ?wrap_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) ->
+  ?show:bool -> unit -> combo_box * (GTree.list_store * string GTree.column)
+)
+"gEdit.ml" 253 9977 9979 "gEdit.ml" 261 10395 10445
+type(
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool ->
+  ?has_frame:bool ->
+  ?wrap_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) ->
+  ?show:bool -> unit -> combo_box * (GTree.list_store * string GTree.column)
+)
+"gEdit.ml" 263 10447 10451 "gEdit.ml" 263 10447 10471
+type(
+  ?strings:string list ->
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool ->
+  ?has_frame:bool ->
+  ?wrap_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) ->
+  ?show:bool ->
+  unit -> combo_box_entry * (GTree.list_store * string GTree.column)
+)
+ident(
+  def combo_box_entry_text "gEdit.ml" 270 10853 10903 --
+)
+"gEdit.ml" 263 10447 10474 "gEdit.ml" 263 10447 10481
+type(
+  string list
+)
+"gEdit.ml" 263 10447 10482 "gEdit.ml" 263 10447 10484
+type(
+  string list
+)
+type(
+  string list
+)
+ident(
+  int_ref *sth* "gEdit.ml" 263 10447 10482 "gEdit.ml" 263 10447 10484
+)
+type(
+  string list option
+)
+type(
+  string list option
+)
+type(
+  string list
+)
+ident(
+  def *sth* "gEdit.ml" 263 10447 10482 "gEdit.ml" 263 10447 10484
+)
+"gEdit.ml" 264 10488 10495 "gEdit.ml" 264 10488 10500
+type(
+  GTree.list_store
+)
+"gEdit.ml" 264 10488 10502 "gEdit.ml" 264 10488 10508
+type(
+  string GTree.column
+)
+"gEdit.ml" 264 10488 10494 "gEdit.ml" 264 10488 10509
+type(
+  GTree.list_store * string GTree.column
+)
+"gEdit.ml" 264 10488 10494 "gEdit.ml" 264 10488 10518
+type(
+  GTree.list_store * string GTree.column
+)
+"gEdit.ml" 264 10488 10521 "gEdit.ml" 264 10488 10540
+type(
+  string Gobject.data_conv ->
+  string list -> GTree.list_store * string GTree.column
+)
+ident(
+  ext_ref GTree.store_of_list
+)
+"gEdit.ml" 264 10488 10541 "gEdit.ml" 264 10488 10560
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gEdit.ml" 264 10488 10561 "gEdit.ml" 264 10488 10568
+type(
+  string list
+)
+ident(
+  int_ref strings "gEdit.ml" 263 10447 10474 "gEdit.ml" 263 10447 10481
+)
+"gEdit.ml" 264 10488 10521 "gEdit.ml" 264 10488 10568
+call(
+  stack
+)
+type(
+  GTree.list_store * string GTree.column
+)
+"gEdit.ml" 265 10572 10574 "gEdit.ml" 265 10572 10602
+type(
+  cont:(Gtk.combo_box_entry Gobject.param list ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) ->
+        ?show:bool ->
+        unit -> combo_box_entry * (GTree.list_store * string GTree.column)) ->
+  Gtk.combo_box_entry Gobject.param list ->
+  ?model:Gtk.tree_model ->
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool ->
+  ?has_frame:bool ->
+  ?wrap_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) ->
+  ?show:bool ->
+  unit -> combo_box_entry * (GTree.list_store * string GTree.column)
+)
+ident(
+  ext_ref GtkEdit.ComboBox.make_params
+)
+"gEdit.ml" 265 10572 10610 "gEdit.ml" 265 10572 10615
+type(
+  GTree.list_store
+)
+ident(
+  int_ref store "gEdit.ml" 264 10488 10495 "gEdit.ml" 264 10488 10500
+)
+"gEdit.ml" 265 10572 10610 "gEdit.ml" 265 10572 10624
+call(
+  stack
+)
+type(
+  Gtk.tree_model
+)
+"gEdit.ml" 266 10626 10632 "gEdit.ml" 266 10626 10645
+type(
+  (Gtk.combo_box_entry, int) Gobject.property ->
+  int -> Gtk.combo_box_entry Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"gEdit.ml" 266 10626 10646 "gEdit.ml" 266 10626 10681
+type(
+  (Gtk.combo_box_entry, int) Gobject.property
+)
+ident(
+  ext_ref GtkEdit.ComboBoxEntry.P.text_column
+)
+"gEdit.ml" 266 10626 10682 "gEdit.ml" 266 10626 10688
+type(
+  string GTree.column
+)
+ident(
+  int_ref column "gEdit.ml" 264 10488 10502 "gEdit.ml" 264 10488 10508
+)
+"gEdit.ml" 266 10626 10682 "gEdit.ml" 266 10626 10700
+type(
+  int
+)
+"gEdit.ml" 266 10626 10632 "gEdit.ml" 266 10626 10700
+call(
+  stack
+)
+type(
+  Gtk.combo_box_entry Gobject.param
+)
+"gEdit.ml" 266 10626 10630 "gEdit.ml" 266 10626 10702
+type(
+  Gtk.combo_box_entry Gobject.param list
+)
+"gEdit.ml" 268 10716 10718 "gEdit.ml" 268 10716 10744
+type(
+  cont:(Gtk.combo_box_entry Gobject.param list ->
+        ?packing:(GObj.widget -> unit) ->
+        ?show:bool ->
+        unit -> combo_box_entry * (GTree.list_store * string GTree.column)) ->
+  Gtk.combo_box_entry Gobject.param list ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) ->
+  ?show:bool ->
+  unit -> combo_box_entry * (GTree.list_store * string GTree.column)
+)
+ident(
+  ext_ref GtkBase.Widget.size_params
+)
+"gEdit.ml" 268 10716 10756 "gEdit.ml" 268 10716 10758
+type(
+  Gtk.combo_box_entry Gobject.param list
+)
+ident(
+  def pl "gEdit.ml" 268 10716 10759 "gEdit.ml" 270 10853 10901
+)
+"gEdit.ml" 268 10716 10760 "gEdit.ml" 268 10716 10767
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gEdit.ml" 268 10716 10768 "gEdit.ml" 270 10853 10901
+)
+"gEdit.ml" 268 10716 10769 "gEdit.ml" 268 10716 10773
+type(
+  bool option
+)
+ident(
+  def show "gEdit.ml" 268 10716 10774 "gEdit.ml" 270 10853 10901
+)
+"gEdit.ml" 268 10716 10774 "gEdit.ml" 268 10716 10776
+type(
+  unit
+)
+"gEdit.ml" 269 10780 10788 "gEdit.ml" 269 10780 10793
+type(
+  combo_box_entry
+)
+"gEdit.ml" 269 10780 10796 "gEdit.ml" 269 10780 10815
+type(
+  Gtk.combo_box_entry Gtk.obj -> combo_box_entry
+)
+"gEdit.ml" 269 10780 10817 "gEdit.ml" 269 10780 10845
+type(
+  Gtk.combo_box_entry Gobject.param list -> Gtk.combo_box_entry Gtk.obj
+)
+ident(
+  ext_ref GtkEdit.ComboBoxEntry.create
+)
+"gEdit.ml" 269 10780 10846 "gEdit.ml" 269 10780 10848
+type(
+  Gtk.combo_box_entry Gobject.param list
+)
+ident(
+  int_ref pl "gEdit.ml" 268 10716 10756 "gEdit.ml" 268 10716 10758
+)
+"gEdit.ml" 269 10780 10816 "gEdit.ml" 269 10780 10849
+call(
+  stack
+)
+type(
+  Gtk.combo_box_entry Gtk.obj
+)
+"gEdit.ml" 269 10780 10796 "gEdit.ml" 269 10780 10849
+call(
+  stack
+)
+type(
+  combo_box_entry
+)
+"gEdit.ml" 270 10853 10857 "gEdit.ml" 270 10853 10873
+type(
+  combo_box_entry ->
+  packing:(GObj.widget -> unit) option -> show:bool option -> combo_box_entry
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gEdit.ml" 270 10853 10874 "gEdit.ml" 270 10853 10879
+type(
+  combo_box_entry
+)
+ident(
+  int_ref combo "gEdit.ml" 269 10780 10788 "gEdit.ml" 269 10780 10793
+)
+"gEdit.ml" 270 10853 10881 "gEdit.ml" 270 10853 10888
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gEdit.ml" 268 10716 10760 "gEdit.ml" 268 10716 10767
+)
+"gEdit.ml" 270 10853 10890 "gEdit.ml" 270 10853 10894
+type(
+  bool option
+)
+ident(
+  int_ref show "gEdit.ml" 268 10716 10769 "gEdit.ml" 268 10716 10773
+)
+"gEdit.ml" 270 10853 10857 "gEdit.ml" 270 10853 10894
+call(
+  stack
+)
+type(
+  combo_box_entry
+)
+"gEdit.ml" 270 10853 10896 "gEdit.ml" 270 10853 10901
+type(
+  GTree.list_store * string GTree.column
+)
+ident(
+  int_ref model "gEdit.ml" 264 10488 10494 "gEdit.ml" 264 10488 10518
+)
+"gEdit.ml" 270 10853 10857 "gEdit.ml" 270 10853 10901
+type(
+  combo_box_entry * (GTree.list_store * string GTree.column)
+)
+"gEdit.ml" 269 10780 10784 "gEdit.ml" 270 10853 10901
+type(
+  combo_box_entry * (GTree.list_store * string GTree.column)
+)
+"gEdit.ml" 268 10716 10751 "gEdit.ml" 270 10853 10902
+type(
+  Gtk.combo_box_entry Gobject.param list ->
+  ?packing:(GObj.widget -> unit) ->
+  ?show:bool ->
+  unit -> combo_box_entry * (GTree.list_store * string GTree.column)
+)
+"gEdit.ml" 267 10704 10714 "gEdit.ml" 270 10853 10903
+call(
+  stack
+)
+type(
+  Gtk.combo_box_entry Gobject.param list ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) ->
+  ?show:bool ->
+  unit -> combo_box_entry * (GTree.list_store * string GTree.column)
+)
+"gEdit.ml" 265 10572 10574 "gEdit.ml" 270 10853 10903
+call(
+  tail
+)
+type(
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool ->
+  ?has_frame:bool ->
+  ?wrap_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) ->
+  ?show:bool ->
+  unit -> combo_box_entry * (GTree.list_store * string GTree.column)
+)
+"gEdit.ml" 264 10488 10490 "gEdit.ml" 270 10853 10903
+type(
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool ->
+  ?has_frame:bool ->
+  ?wrap_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) ->
+  ?show:bool ->
+  unit -> combo_box_entry * (GTree.list_store * string GTree.column)
+)

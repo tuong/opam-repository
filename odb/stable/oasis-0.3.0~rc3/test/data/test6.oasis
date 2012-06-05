@@ -1,0 +1,9 @@
+Name:         oasis
+Version:      0.0.1
+OASISFormat: 0.1
+Synopsis:     Just a test
+License:      GPL
+LicenseFile:  LICENSE
+Authors:      Sylvain Le Gall
+Homepage:     http://toto-acme.org
+

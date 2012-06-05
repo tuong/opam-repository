@@ -1,0 +1,3546 @@
+"ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  def set "ogtkMiscProps.ml" 5 52 52 --
+)
+"ogtkMiscProps.ml" 4 38 48 "ogtkMiscProps.ml" 4 38 51
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  def get "ogtkMiscProps.ml" 6 66 66 --
+)
+"ogtkMiscProps.ml" 5 52 62 "ogtkMiscProps.ml" 5 52 65
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  ext_ref Gobject.get
+)
+"ogtkMiscProps.ml" 6 66 70 "ogtkMiscProps.ml" 6 66 75
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  def param "ogtkMiscProps.ml" 7 84 84 --
+)
+"ogtkMiscProps.ml" 6 66 78 "ogtkMiscProps.ml" 6 66 83
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"ogtkMiscProps.ml" 11 174 196 "ogtkMiscProps.ml" 11 174 199
+type(
+  ([> `gtkstatusicon ] as 'a, Gdk.screen) Gobject.property ->
+  'a Gobject.obj -> Gdk.screen -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 11 174 200 "ogtkMiscProps.ml" 11 174 222
+type(
+  ('a, Gdk.screen) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.GtkStatusIcon.P.screen
+)
+"ogtkMiscProps.ml" 11 174 223 "ogtkMiscProps.ml" 11 174 226
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 11 174 196 "ogtkMiscProps.ml" 11 174 226
+call(
+  tail
+)
+type(
+  Gdk.screen -> unit
+)
+type(
+  Gdk.screen -> unit
+)
+"ogtkMiscProps.ml" 12 227 250 "ogtkMiscProps.ml" 12 227 253
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 12 227 254 "ogtkMiscProps.ml" 12 227 277
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.GtkStatusIcon.P.visible
+)
+"ogtkMiscProps.ml" 12 227 278 "ogtkMiscProps.ml" 12 227 281
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 12 227 250 "ogtkMiscProps.ml" 12 227 281
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkMiscProps.ml" 13 282 306 "ogtkMiscProps.ml" 13 282 309
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 13 282 310 "ogtkMiscProps.ml" 13 282 334
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.GtkStatusIcon.P.blinking
+)
+"ogtkMiscProps.ml" 13 282 335 "ogtkMiscProps.ml" 13 282 338
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 13 282 306 "ogtkMiscProps.ml" 13 282 338
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkMiscProps.ml" 14 339 357 "ogtkMiscProps.ml" 14 339 360
+type(
+  ('a, Gdk.screen) Gobject.property -> 'a Gobject.obj -> Gdk.screen
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 14 339 361 "ogtkMiscProps.ml" 14 339 383
+type(
+  ('a, Gdk.screen) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.GtkStatusIcon.P.screen
+)
+"ogtkMiscProps.ml" 14 339 384 "ogtkMiscProps.ml" 14 339 387
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 14 339 357 "ogtkMiscProps.ml" 14 339 387
+call(
+  tail
+)
+type(
+  Gdk.screen
+)
+type(
+  Gdk.screen
+)
+"ogtkMiscProps.ml" 15 388 407 "ogtkMiscProps.ml" 15 388 410
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 15 388 411 "ogtkMiscProps.ml" 15 388 434
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.GtkStatusIcon.P.visible
+)
+"ogtkMiscProps.ml" 15 388 435 "ogtkMiscProps.ml" 15 388 438
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 15 388 407 "ogtkMiscProps.ml" 15 388 438
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkMiscProps.ml" 16 439 459 "ogtkMiscProps.ml" 16 439 462
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 16 439 463 "ogtkMiscProps.ml" 16 439 487
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.GtkStatusIcon.P.blinking
+)
+"ogtkMiscProps.ml" 16 439 488 "ogtkMiscProps.ml" 16 439 491
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 16 439 459 "ogtkMiscProps.ml" 16 439 491
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkMiscProps.ml" 19 497 541 "ogtkMiscProps.ml" 19 497 547
+type(
+  < activate : callback:(unit -> unit) -> GtkSignal.id;
+    popup_menu : callback:(int -> int -> unit) -> GtkSignal.id;
+    size_changed : callback:(int -> unit) -> GtkSignal.id; .. >
+)
+"ogtkMiscProps.ml" 22 642 662 "ogtkMiscProps.ml" 22 642 666
+type(
+  < activate : callback:(unit -> unit) -> GtkSignal.id;
+    popup_menu : callback:(int -> int -> unit) -> GtkSignal.id;
+    size_changed : callback:(int -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkMiscProps.ml" 22 642 662 "ogtkMiscProps.ml" 22 642 674
+call(
+  tail
+)
+type(
+  ([> `gtkstatusicon ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 22 642 675 "ogtkMiscProps.ml" 22 642 699
+type(
+  ([> `gtkstatusicon ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkMiscProps.GtkStatusIcon.S.activate
+)
+"ogtkMiscProps.ml" 22 642 662 "ogtkMiscProps.ml" 22 642 699
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 23 700 722 "ogtkMiscProps.ml" 23 700 726
+type(
+  'a
+)
+"ogtkMiscProps.ml" 23 700 722 "ogtkMiscProps.ml" 23 700 734
+call(
+  tail
+)
+type(
+  ('b, int -> int -> unit) GtkSignal.t ->
+  callback:(int -> int -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 23 700 735 "ogtkMiscProps.ml" 23 700 761
+type(
+  ('b, int -> int -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkMiscProps.GtkStatusIcon.S.popup_menu
+)
+"ogtkMiscProps.ml" 23 700 722 "ogtkMiscProps.ml" 23 700 761
+type(
+  callback:(int -> int -> unit) -> GtkSignal.id
+)
+type(
+  callback:(int -> int -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 24 762 786 "ogtkMiscProps.ml" 24 762 790
+type(
+  'a
+)
+"ogtkMiscProps.ml" 24 762 786 "ogtkMiscProps.ml" 24 762 798
+call(
+  tail
+)
+type(
+  ('b, int -> unit) GtkSignal.t -> callback:(int -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 24 762 799 "ogtkMiscProps.ml" 24 762 827
+type(
+  ('b, int -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkMiscProps.GtkStatusIcon.S.size_changed
+)
+"ogtkMiscProps.ml" 24 762 786 "ogtkMiscProps.ml" 24 762 827
+type(
+  callback:(int -> unit) -> GtkSignal.id
+)
+type(
+  callback:(int -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 29 893 915 "ogtkMiscProps.ml" 29 893 918
+type(
+  ([> `misc ] as 'a, float) Gobject.property ->
+  'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 29 893 919 "ogtkMiscProps.ml" 29 893 932
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Misc.P.xalign
+)
+"ogtkMiscProps.ml" 29 893 933 "ogtkMiscProps.ml" 29 893 936
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 29 893 915 "ogtkMiscProps.ml" 29 893 936
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkMiscProps.ml" 30 937 959 "ogtkMiscProps.ml" 30 937 962
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 30 937 963 "ogtkMiscProps.ml" 30 937 976
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Misc.P.yalign
+)
+"ogtkMiscProps.ml" 30 937 977 "ogtkMiscProps.ml" 30 937 980
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 30 937 959 "ogtkMiscProps.ml" 30 937 980
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkMiscProps.ml" 31 981 1001 "ogtkMiscProps.ml" 31 981 1004
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 31 981 1005 "ogtkMiscProps.ml" 31 981 1016
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Misc.P.xpad
+)
+"ogtkMiscProps.ml" 31 981 1017 "ogtkMiscProps.ml" 31 981 1020
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 31 981 1001 "ogtkMiscProps.ml" 31 981 1020
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkMiscProps.ml" 32 1021 1041 "ogtkMiscProps.ml" 32 1021 1044
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 32 1021 1045 "ogtkMiscProps.ml" 32 1021 1056
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Misc.P.ypad
+)
+"ogtkMiscProps.ml" 32 1021 1057 "ogtkMiscProps.ml" 32 1021 1060
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 32 1021 1041 "ogtkMiscProps.ml" 32 1021 1060
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkMiscProps.ml" 33 1061 1079 "ogtkMiscProps.ml" 33 1061 1082
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 33 1061 1083 "ogtkMiscProps.ml" 33 1061 1096
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Misc.P.xalign
+)
+"ogtkMiscProps.ml" 33 1061 1097 "ogtkMiscProps.ml" 33 1061 1100
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 33 1061 1079 "ogtkMiscProps.ml" 33 1061 1100
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkMiscProps.ml" 34 1101 1119 "ogtkMiscProps.ml" 34 1101 1122
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 34 1101 1123 "ogtkMiscProps.ml" 34 1101 1136
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Misc.P.yalign
+)
+"ogtkMiscProps.ml" 34 1101 1137 "ogtkMiscProps.ml" 34 1101 1140
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 34 1101 1119 "ogtkMiscProps.ml" 34 1101 1140
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkMiscProps.ml" 35 1141 1157 "ogtkMiscProps.ml" 35 1141 1160
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 35 1141 1161 "ogtkMiscProps.ml" 35 1141 1172
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Misc.P.xpad
+)
+"ogtkMiscProps.ml" 35 1141 1173 "ogtkMiscProps.ml" 35 1141 1176
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 35 1141 1157 "ogtkMiscProps.ml" 35 1141 1176
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkMiscProps.ml" 36 1177 1193 "ogtkMiscProps.ml" 36 1177 1196
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 36 1177 1197 "ogtkMiscProps.ml" 36 1177 1208
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Misc.P.ypad
+)
+"ogtkMiscProps.ml" 36 1177 1209 "ogtkMiscProps.ml" 36 1177 1212
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 36 1177 1193 "ogtkMiscProps.ml" 36 1177 1212
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkMiscProps.ml" 41 1279 1300 "ogtkMiscProps.ml" 41 1279 1303
+type(
+  ([> `label ] as 'a, string) Gobject.property ->
+  'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 41 1279 1304 "ogtkMiscProps.ml" 41 1279 1317
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.label
+)
+"ogtkMiscProps.ml" 41 1279 1318 "ogtkMiscProps.ml" 41 1279 1321
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 41 1279 1300 "ogtkMiscProps.ml" 41 1279 1321
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkMiscProps.ml" 42 1322 1348 "ogtkMiscProps.ml" 42 1322 1351
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 42 1322 1352 "ogtkMiscProps.ml" 42 1322 1370
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.use_markup
+)
+"ogtkMiscProps.ml" 42 1322 1371 "ogtkMiscProps.ml" 42 1322 1374
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 42 1322 1348 "ogtkMiscProps.ml" 42 1322 1374
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkMiscProps.ml" 43 1375 1404 "ogtkMiscProps.ml" 43 1375 1407
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 43 1375 1408 "ogtkMiscProps.ml" 43 1375 1429
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.use_underline
+)
+"ogtkMiscProps.ml" 43 1375 1430 "ogtkMiscProps.ml" 43 1375 1433
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 43 1375 1404 "ogtkMiscProps.ml" 43 1375 1433
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkMiscProps.ml" 45 1465 1469 "ogtkMiscProps.ml" 45 1465 1472
+type(
+  ('a, GObj.widget option) Gobject.property ->
+  'a Gobject.obj -> GObj.widget option -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 45 1465 1474 "ogtkMiscProps.ml" 45 1465 1497
+type(
+  (_[> `label ], Gtk.widget Gtk.obj option) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.mnemonic_widget
+)
+"ogtkMiscProps.ml" 45 1465 1508 "ogtkMiscProps.ml" 45 1465 1531
+type(
+  GObj.widget option Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget_option
+)
+"ogtkMiscProps.ml" 45 1465 1473 "ogtkMiscProps.ml" 45 1465 1532
+type(
+  ('a, GObj.widget option) Gobject.property
+)
+"ogtkMiscProps.ml" 45 1465 1533 "ogtkMiscProps.ml" 45 1465 1536
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 45 1465 1469 "ogtkMiscProps.ml" 45 1465 1536
+call(
+  tail
+)
+type(
+  GObj.widget option -> unit
+)
+type(
+  GObj.widget option -> unit
+)
+"ogtkMiscProps.ml" 46 1537 1560 "ogtkMiscProps.ml" 46 1537 1563
+type(
+  ('a, GtkEnums.justification) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.justification -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 46 1537 1564 "ogtkMiscProps.ml" 46 1537 1579
+type(
+  ('a, GtkEnums.justification) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.justify
+)
+"ogtkMiscProps.ml" 46 1537 1580 "ogtkMiscProps.ml" 46 1537 1583
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 46 1537 1560 "ogtkMiscProps.ml" 46 1537 1583
+call(
+  tail
+)
+type(
+  GtkEnums.justification -> unit
+)
+type(
+  GtkEnums.justification -> unit
+)
+"ogtkMiscProps.ml" 47 1584 1609 "ogtkMiscProps.ml" 47 1584 1612
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 47 1584 1613 "ogtkMiscProps.ml" 47 1584 1625
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.wrap
+)
+"ogtkMiscProps.ml" 47 1584 1626 "ogtkMiscProps.ml" 47 1584 1629
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 47 1584 1609 "ogtkMiscProps.ml" 47 1584 1629
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkMiscProps.ml" 48 1630 1653 "ogtkMiscProps.ml" 48 1630 1656
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 48 1630 1657 "ogtkMiscProps.ml" 48 1630 1672
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.pattern
+)
+"ogtkMiscProps.ml" 48 1630 1673 "ogtkMiscProps.ml" 48 1630 1676
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 48 1630 1653 "ogtkMiscProps.ml" 48 1630 1676
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkMiscProps.ml" 49 1677 1703 "ogtkMiscProps.ml" 49 1677 1706
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 49 1677 1707 "ogtkMiscProps.ml" 49 1677 1725
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.selectable
+)
+"ogtkMiscProps.ml" 49 1677 1726 "ogtkMiscProps.ml" 49 1677 1729
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 49 1677 1703 "ogtkMiscProps.ml" 49 1677 1729
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkMiscProps.ml" 50 1730 1751 "ogtkMiscProps.ml" 50 1730 1754
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 50 1730 1755 "ogtkMiscProps.ml" 50 1730 1768
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.angle
+)
+"ogtkMiscProps.ml" 50 1730 1769 "ogtkMiscProps.ml" 50 1730 1772
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 50 1730 1751 "ogtkMiscProps.ml" 50 1730 1772
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkMiscProps.ml" 51 1773 1798 "ogtkMiscProps.ml" 51 1773 1801
+type(
+  ('a, PangoEnums.ellipsize_mode) Gobject.property ->
+  'a Gobject.obj -> PangoEnums.ellipsize_mode -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 51 1773 1802 "ogtkMiscProps.ml" 51 1773 1819
+type(
+  ('a, PangoEnums.ellipsize_mode) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.ellipsize
+)
+"ogtkMiscProps.ml" 51 1773 1820 "ogtkMiscProps.ml" 51 1773 1823
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 51 1773 1798 "ogtkMiscProps.ml" 51 1773 1823
+call(
+  tail
+)
+type(
+  PangoEnums.ellipsize_mode -> unit
+)
+type(
+  PangoEnums.ellipsize_mode -> unit
+)
+"ogtkMiscProps.ml" 52 1824 1855 "ogtkMiscProps.ml" 52 1824 1858
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 52 1824 1859 "ogtkMiscProps.ml" 52 1824 1882
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.max_width_chars
+)
+"ogtkMiscProps.ml" 52 1824 1883 "ogtkMiscProps.ml" 52 1824 1886
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 52 1824 1855 "ogtkMiscProps.ml" 52 1824 1886
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkMiscProps.ml" 53 1887 1919 "ogtkMiscProps.ml" 53 1887 1922
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 53 1887 1923 "ogtkMiscProps.ml" 53 1887 1947
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.single_line_mode
+)
+"ogtkMiscProps.ml" 53 1887 1948 "ogtkMiscProps.ml" 53 1887 1951
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 53 1887 1919 "ogtkMiscProps.ml" 53 1887 1951
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkMiscProps.ml" 54 1952 1979 "ogtkMiscProps.ml" 54 1952 1982
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 54 1952 1983 "ogtkMiscProps.ml" 54 1952 2002
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.width_chars
+)
+"ogtkMiscProps.ml" 54 1952 2003 "ogtkMiscProps.ml" 54 1952 2006
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 54 1952 1979 "ogtkMiscProps.ml" 54 1952 2006
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkMiscProps.ml" 55 2007 2024 "ogtkMiscProps.ml" 55 2007 2027
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 55 2007 2028 "ogtkMiscProps.ml" 55 2007 2041
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.label
+)
+"ogtkMiscProps.ml" 55 2007 2042 "ogtkMiscProps.ml" 55 2007 2045
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 55 2007 2024 "ogtkMiscProps.ml" 55 2007 2045
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkMiscProps.ml" 56 2046 2068 "ogtkMiscProps.ml" 56 2046 2071
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 56 2046 2072 "ogtkMiscProps.ml" 56 2046 2090
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.use_markup
+)
+"ogtkMiscProps.ml" 56 2046 2091 "ogtkMiscProps.ml" 56 2046 2094
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 56 2046 2068 "ogtkMiscProps.ml" 56 2046 2094
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkMiscProps.ml" 57 2095 2120 "ogtkMiscProps.ml" 57 2095 2123
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 57 2095 2124 "ogtkMiscProps.ml" 57 2095 2145
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.use_underline
+)
+"ogtkMiscProps.ml" 57 2095 2146 "ogtkMiscProps.ml" 57 2095 2149
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 57 2095 2120 "ogtkMiscProps.ml" 57 2095 2149
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkMiscProps.ml" 58 2150 2177 "ogtkMiscProps.ml" 58 2150 2180
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 58 2150 2181 "ogtkMiscProps.ml" 58 2150 2204
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.mnemonic_keyval
+)
+"ogtkMiscProps.ml" 58 2150 2205 "ogtkMiscProps.ml" 58 2150 2208
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 58 2150 2177 "ogtkMiscProps.ml" 58 2150 2208
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkMiscProps.ml" 60 2236 2240 "ogtkMiscProps.ml" 60 2236 2243
+type(
+  ('a, GObj.widget option) Gobject.property ->
+  'a Gobject.obj -> GObj.widget option
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 60 2236 2245 "ogtkMiscProps.ml" 60 2236 2268
+type(
+  (_[> `label ], Gtk.widget Gtk.obj option) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.mnemonic_widget
+)
+"ogtkMiscProps.ml" 60 2236 2279 "ogtkMiscProps.ml" 60 2236 2302
+type(
+  GObj.widget option Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget_option
+)
+"ogtkMiscProps.ml" 60 2236 2244 "ogtkMiscProps.ml" 60 2236 2303
+type(
+  ('a, GObj.widget option) Gobject.property
+)
+"ogtkMiscProps.ml" 60 2236 2304 "ogtkMiscProps.ml" 60 2236 2307
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 60 2236 2240 "ogtkMiscProps.ml" 60 2236 2307
+call(
+  tail
+)
+type(
+  GObj.widget option
+)
+type(
+  GObj.widget option
+)
+"ogtkMiscProps.ml" 61 2308 2327 "ogtkMiscProps.ml" 61 2308 2330
+type(
+  ('a, GtkEnums.justification) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.justification
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 61 2308 2331 "ogtkMiscProps.ml" 61 2308 2346
+type(
+  ('a, GtkEnums.justification) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.justify
+)
+"ogtkMiscProps.ml" 61 2308 2347 "ogtkMiscProps.ml" 61 2308 2350
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 61 2308 2327 "ogtkMiscProps.ml" 61 2308 2350
+call(
+  tail
+)
+type(
+  GtkEnums.justification
+)
+type(
+  GtkEnums.justification
+)
+"ogtkMiscProps.ml" 62 2351 2372 "ogtkMiscProps.ml" 62 2351 2375
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 62 2351 2376 "ogtkMiscProps.ml" 62 2351 2388
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.wrap
+)
+"ogtkMiscProps.ml" 62 2351 2389 "ogtkMiscProps.ml" 62 2351 2392
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 62 2351 2372 "ogtkMiscProps.ml" 62 2351 2392
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkMiscProps.ml" 63 2393 2415 "ogtkMiscProps.ml" 63 2393 2418
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 63 2393 2419 "ogtkMiscProps.ml" 63 2393 2437
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.selectable
+)
+"ogtkMiscProps.ml" 63 2393 2438 "ogtkMiscProps.ml" 63 2393 2441
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 63 2393 2415 "ogtkMiscProps.ml" 63 2393 2441
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkMiscProps.ml" 64 2442 2469 "ogtkMiscProps.ml" 64 2442 2472
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 64 2442 2473 "ogtkMiscProps.ml" 64 2442 2496
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.cursor_position
+)
+"ogtkMiscProps.ml" 64 2442 2497 "ogtkMiscProps.ml" 64 2442 2500
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 64 2442 2469 "ogtkMiscProps.ml" 64 2442 2500
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkMiscProps.ml" 65 2501 2528 "ogtkMiscProps.ml" 65 2501 2531
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 65 2501 2532 "ogtkMiscProps.ml" 65 2501 2555
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.selection_bound
+)
+"ogtkMiscProps.ml" 65 2501 2556 "ogtkMiscProps.ml" 65 2501 2559
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 65 2501 2528 "ogtkMiscProps.ml" 65 2501 2559
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkMiscProps.ml" 66 2560 2577 "ogtkMiscProps.ml" 66 2560 2580
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 66 2560 2581 "ogtkMiscProps.ml" 66 2560 2594
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.angle
+)
+"ogtkMiscProps.ml" 66 2560 2595 "ogtkMiscProps.ml" 66 2560 2598
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 66 2560 2577 "ogtkMiscProps.ml" 66 2560 2598
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkMiscProps.ml" 67 2599 2620 "ogtkMiscProps.ml" 67 2599 2623
+type(
+  ('a, PangoEnums.ellipsize_mode) Gobject.property ->
+  'a Gobject.obj -> PangoEnums.ellipsize_mode
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 67 2599 2624 "ogtkMiscProps.ml" 67 2599 2641
+type(
+  ('a, PangoEnums.ellipsize_mode) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.ellipsize
+)
+"ogtkMiscProps.ml" 67 2599 2642 "ogtkMiscProps.ml" 67 2599 2645
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 67 2599 2620 "ogtkMiscProps.ml" 67 2599 2645
+call(
+  tail
+)
+type(
+  PangoEnums.ellipsize_mode
+)
+type(
+  PangoEnums.ellipsize_mode
+)
+"ogtkMiscProps.ml" 68 2646 2673 "ogtkMiscProps.ml" 68 2646 2676
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 68 2646 2677 "ogtkMiscProps.ml" 68 2646 2700
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.max_width_chars
+)
+"ogtkMiscProps.ml" 68 2646 2701 "ogtkMiscProps.ml" 68 2646 2704
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 68 2646 2673 "ogtkMiscProps.ml" 68 2646 2704
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkMiscProps.ml" 69 2705 2733 "ogtkMiscProps.ml" 69 2705 2736
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 69 2705 2737 "ogtkMiscProps.ml" 69 2705 2761
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.single_line_mode
+)
+"ogtkMiscProps.ml" 69 2705 2762 "ogtkMiscProps.ml" 69 2705 2765
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 69 2705 2733 "ogtkMiscProps.ml" 69 2705 2765
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkMiscProps.ml" 70 2766 2789 "ogtkMiscProps.ml" 70 2766 2792
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 70 2766 2793 "ogtkMiscProps.ml" 70 2766 2812
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Label.P.width_chars
+)
+"ogtkMiscProps.ml" 70 2766 2813 "ogtkMiscProps.ml" 70 2766 2816
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 70 2766 2789 "ogtkMiscProps.ml" 70 2766 2816
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkMiscProps.ml" 76 2910 2914 "ogtkMiscProps.ml" 76 2910 2917
+type(
+  ([> `tipsquery ] as 'a, GObj.widget option) Gobject.property ->
+  'a Gobject.obj -> GObj.widget option -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 76 2910 2919 "ogtkMiscProps.ml" 76 2910 2937
+type(
+  (_[> `tipsquery ], Gtk.widget Gtk.obj option) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.TipsQuery.P.caller
+)
+"ogtkMiscProps.ml" 76 2910 2948 "ogtkMiscProps.ml" 76 2910 2971
+type(
+  GObj.widget option Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget_option
+)
+"ogtkMiscProps.ml" 76 2910 2918 "ogtkMiscProps.ml" 76 2910 2972
+type(
+  ('a, GObj.widget option) Gobject.property
+)
+"ogtkMiscProps.ml" 76 2910 2973 "ogtkMiscProps.ml" 76 2910 2976
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 76 2910 2914 "ogtkMiscProps.ml" 76 2910 2976
+call(
+  tail
+)
+type(
+  GObj.widget option -> unit
+)
+type(
+  GObj.widget option -> unit
+)
+"ogtkMiscProps.ml" 77 2977 3004 "ogtkMiscProps.ml" 77 2977 3007
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 77 2977 3008 "ogtkMiscProps.ml" 77 2977 3031
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.TipsQuery.P.emit_always
+)
+"ogtkMiscProps.ml" 77 2977 3032 "ogtkMiscProps.ml" 77 2977 3035
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 77 2977 3004 "ogtkMiscProps.ml" 77 2977 3035
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkMiscProps.ml" 78 3036 3066 "ogtkMiscProps.ml" 78 3036 3069
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 78 3036 3070 "ogtkMiscProps.ml" 78 3036 3096
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.TipsQuery.P.label_inactive
+)
+"ogtkMiscProps.ml" 78 3036 3097 "ogtkMiscProps.ml" 78 3036 3100
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 78 3036 3066 "ogtkMiscProps.ml" 78 3036 3100
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkMiscProps.ml" 79 3101 3129 "ogtkMiscProps.ml" 79 3101 3132
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 79 3101 3133 "ogtkMiscProps.ml" 79 3101 3157
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.TipsQuery.P.label_no_tip
+)
+"ogtkMiscProps.ml" 79 3101 3158 "ogtkMiscProps.ml" 79 3101 3161
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 79 3101 3129 "ogtkMiscProps.ml" 79 3101 3161
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkMiscProps.ml" 81 3180 3184 "ogtkMiscProps.ml" 81 3180 3187
+type(
+  ('a, GObj.widget option) Gobject.property ->
+  'a Gobject.obj -> GObj.widget option
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 81 3180 3189 "ogtkMiscProps.ml" 81 3180 3207
+type(
+  (_[> `tipsquery ], Gtk.widget Gtk.obj option) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.TipsQuery.P.caller
+)
+"ogtkMiscProps.ml" 81 3180 3218 "ogtkMiscProps.ml" 81 3180 3241
+type(
+  GObj.widget option Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget_option
+)
+"ogtkMiscProps.ml" 81 3180 3188 "ogtkMiscProps.ml" 81 3180 3242
+type(
+  ('a, GObj.widget option) Gobject.property
+)
+"ogtkMiscProps.ml" 81 3180 3243 "ogtkMiscProps.ml" 81 3180 3246
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 81 3180 3184 "ogtkMiscProps.ml" 81 3180 3246
+call(
+  tail
+)
+type(
+  GObj.widget option
+)
+type(
+  GObj.widget option
+)
+"ogtkMiscProps.ml" 82 3247 3270 "ogtkMiscProps.ml" 82 3247 3273
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 82 3247 3274 "ogtkMiscProps.ml" 82 3247 3297
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.TipsQuery.P.emit_always
+)
+"ogtkMiscProps.ml" 82 3247 3298 "ogtkMiscProps.ml" 82 3247 3301
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 82 3247 3270 "ogtkMiscProps.ml" 82 3247 3301
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkMiscProps.ml" 83 3302 3328 "ogtkMiscProps.ml" 83 3302 3331
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 83 3302 3332 "ogtkMiscProps.ml" 83 3302 3358
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.TipsQuery.P.label_inactive
+)
+"ogtkMiscProps.ml" 83 3302 3359 "ogtkMiscProps.ml" 83 3302 3362
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 83 3302 3328 "ogtkMiscProps.ml" 83 3302 3362
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkMiscProps.ml" 84 3363 3387 "ogtkMiscProps.ml" 84 3363 3390
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 84 3363 3391 "ogtkMiscProps.ml" 84 3363 3415
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.TipsQuery.P.label_no_tip
+)
+"ogtkMiscProps.ml" 84 3363 3416 "ogtkMiscProps.ml" 84 3363 3419
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 84 3363 3387 "ogtkMiscProps.ml" 84 3363 3419
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkMiscProps.ml" 87 3425 3464 "ogtkMiscProps.ml" 87 3425 3470
+type(
+  < start_query : callback:(unit -> unit) -> GtkSignal.id;
+    stop_query : callback:(unit -> unit) -> GtkSignal.id;
+    widget_entered : callback:(GObj.widget option ->
+                               text:string -> privat:string -> unit) ->
+                     GtkSignal.id;
+    widget_selected : callback:(GObj.widget option ->
+                                text:string ->
+                                privat:string -> GdkEvent.Button.t -> bool) ->
+                      GtkSignal.id;
+    .. >
+)
+"ogtkMiscProps.ml" 90 3565 3588 "ogtkMiscProps.ml" 90 3565 3592
+type(
+  < start_query : callback:(unit -> unit) -> GtkSignal.id;
+    stop_query : callback:(unit -> unit) -> GtkSignal.id;
+    widget_entered : callback:(GObj.widget option ->
+                               text:string -> privat:string -> unit) ->
+                     GtkSignal.id;
+    widget_selected : callback:(GObj.widget option ->
+                                text:string ->
+                                privat:string -> GdkEvent.Button.t -> bool) ->
+                      GtkSignal.id;
+    .. >
+  as 'a
+)
+"ogtkMiscProps.ml" 90 3565 3588 "ogtkMiscProps.ml" 90 3565 3600
+call(
+  tail
+)
+type(
+  ([> `tipsquery ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 90 3565 3601 "ogtkMiscProps.ml" 90 3565 3624
+type(
+  ([> `tipsquery ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkMiscProps.TipsQuery.S.start_query
+)
+"ogtkMiscProps.ml" 90 3565 3588 "ogtkMiscProps.ml" 90 3565 3624
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 91 3625 3647 "ogtkMiscProps.ml" 91 3625 3651
+type(
+  'a
+)
+"ogtkMiscProps.ml" 91 3625 3647 "ogtkMiscProps.ml" 91 3625 3659
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 91 3625 3660 "ogtkMiscProps.ml" 91 3625 3682
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkMiscProps.TipsQuery.S.stop_query
+)
+"ogtkMiscProps.ml" 91 3625 3647 "ogtkMiscProps.ml" 91 3625 3682
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 92 3683 3709 "ogtkMiscProps.ml" 92 3683 3713
+type(
+  'a
+)
+"ogtkMiscProps.ml" 92 3683 3709 "ogtkMiscProps.ml" 92 3683 3721
+call(
+  tail
+)
+type(
+  ('b, GObj.widget option -> text:string -> privat:string -> unit)
+  GtkSignal.t ->
+  callback:(GObj.widget option -> text:string -> privat:string -> unit) ->
+  GtkSignal.id
+)
+"ogtkMiscProps.ml" 93 3722 3727 "ogtkMiscProps.ml" 93 3722 3753
+type(
+  ('b, Gtk.widget Gtk.obj option -> text:string -> privat:string -> unit)
+  GtkSignal.t
+)
+ident(
+  ext_ref GtkMiscProps.TipsQuery.S.widget_entered
+)
+"ogtkMiscProps.ml" 93 3722 3776 "ogtkMiscProps.ml" 93 3722 3777
+type(
+  GObj.widget option -> text:string -> privat:string -> unit
+)
+ident(
+  def f "ogtkMiscProps.ml" 94 3781 3786 "ogtkMiscProps.ml" 96 3871 3920
+)
+"ogtkMiscProps.ml" 94 3781 3786 "ogtkMiscProps.ml" 94 3781 3794
+type(
+  GObj.widget option Gobject.data_conv ->
+  string Gobject.data_conv ->
+  string Gobject.data_conv ->
+  string ->
+  (GObj.widget option -> string -> string -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal3
+)
+"ogtkMiscProps.ml" 94 3781 3795 "ogtkMiscProps.ml" 94 3781 3818
+type(
+  GObj.widget option Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget_option
+)
+"ogtkMiscProps.ml" 94 3781 3819 "ogtkMiscProps.ml" 94 3781 3825
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"ogtkMiscProps.ml" 94 3781 3826 "ogtkMiscProps.ml" 94 3781 3832
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"ogtkMiscProps.ml" 95 3833 3840 "ogtkMiscProps.ml" 95 3833 3870
+type(
+  string
+)
+"ogtkMiscProps.ml" 96 3871 3883 "ogtkMiscProps.ml" 96 3871 3885
+type(
+  GObj.widget option
+)
+ident(
+  def x1 "ogtkMiscProps.ml" 96 3871 3886 "ogtkMiscProps.ml" 96 3871 3919
+)
+"ogtkMiscProps.ml" 96 3871 3886 "ogtkMiscProps.ml" 96 3871 3888
+type(
+  string
+)
+ident(
+  def x2 "ogtkMiscProps.ml" 96 3871 3889 "ogtkMiscProps.ml" 96 3871 3919
+)
+"ogtkMiscProps.ml" 96 3871 3889 "ogtkMiscProps.ml" 96 3871 3891
+type(
+  string
+)
+ident(
+  def x3 "ogtkMiscProps.ml" 96 3871 3895 "ogtkMiscProps.ml" 96 3871 3919
+)
+"ogtkMiscProps.ml" 96 3871 3895 "ogtkMiscProps.ml" 96 3871 3896
+type(
+  GObj.widget option -> text:string -> privat:string -> unit
+)
+ident(
+  int_ref f "ogtkMiscProps.ml" 93 3722 3776 "ogtkMiscProps.ml" 93 3722 3777
+)
+"ogtkMiscProps.ml" 96 3871 3897 "ogtkMiscProps.ml" 96 3871 3899
+type(
+  GObj.widget option
+)
+ident(
+  int_ref x1 "ogtkMiscProps.ml" 96 3871 3883 "ogtkMiscProps.ml" 96 3871 3885
+)
+"ogtkMiscProps.ml" 96 3871 3906 "ogtkMiscProps.ml" 96 3871 3908
+type(
+  string
+)
+ident(
+  int_ref x2 "ogtkMiscProps.ml" 96 3871 3886 "ogtkMiscProps.ml" 96 3871 3888
+)
+"ogtkMiscProps.ml" 96 3871 3917 "ogtkMiscProps.ml" 96 3871 3919
+type(
+  string
+)
+ident(
+  int_ref x3 "ogtkMiscProps.ml" 96 3871 3889 "ogtkMiscProps.ml" 96 3871 3891
+)
+"ogtkMiscProps.ml" 96 3871 3895 "ogtkMiscProps.ml" 96 3871 3919
+call(
+  tail
+)
+type(
+  unit
+)
+"ogtkMiscProps.ml" 96 3871 3878 "ogtkMiscProps.ml" 96 3871 3920
+type(
+  GObj.widget option -> string -> string -> unit
+)
+"ogtkMiscProps.ml" 94 3781 3786 "ogtkMiscProps.ml" 96 3871 3920
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"ogtkMiscProps.ml" 93 3722 3772 "ogtkMiscProps.ml" 96 3871 3920
+type(
+  (GObj.widget option -> text:string -> privat:string -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"ogtkMiscProps.ml" 93 3722 3726 "ogtkMiscProps.ml" 96 3871 3921
+type(
+  ('b, GObj.widget option -> text:string -> privat:string -> unit)
+  GtkSignal.t
+)
+"ogtkMiscProps.ml" 92 3683 3709 "ogtkMiscProps.ml" 96 3871 3921
+type(
+  callback:(GObj.widget option -> text:string -> privat:string -> unit) ->
+  GtkSignal.id
+)
+type(
+  callback:(GObj.widget option -> text:string -> privat:string -> unit) ->
+  GtkSignal.id
+)
+"ogtkMiscProps.ml" 97 3922 3949 "ogtkMiscProps.ml" 97 3922 3953
+type(
+  'a
+)
+"ogtkMiscProps.ml" 97 3922 3949 "ogtkMiscProps.ml" 97 3922 3961
+call(
+  tail
+)
+type(
+  ('b,
+   GObj.widget option ->
+   text:string -> privat:string -> GdkEvent.Button.t -> bool)
+  GtkSignal.t ->
+  callback:(GObj.widget option ->
+            text:string -> privat:string -> GdkEvent.Button.t -> bool) ->
+  GtkSignal.id
+)
+"ogtkMiscProps.ml" 98 3962 3967 "ogtkMiscProps.ml" 98 3962 3994
+type(
+  ('b,
+   Gtk.widget Gtk.obj option ->
+   text:string -> privat:string -> GdkEvent.Button.t -> bool)
+  GtkSignal.t
+)
+ident(
+  ext_ref GtkMiscProps.TipsQuery.S.widget_selected
+)
+"ogtkMiscProps.ml" 98 3962 4017 "ogtkMiscProps.ml" 98 3962 4018
+type(
+  GObj.widget option ->
+  text:string -> privat:string -> GdkEvent.Button.t -> bool
+)
+ident(
+  def f "ogtkMiscProps.ml" 99 4022 4027 "ogtkMiscProps.ml" 102 4184 4233
+)
+"ogtkMiscProps.ml" 99 4022 4027 "ogtkMiscProps.ml" 99 4022 4039
+type(
+  ret:bool Gobject.data_conv ->
+  GObj.widget option Gobject.data_conv ->
+  string Gobject.data_conv ->
+  string Gobject.data_conv ->
+  GdkEvent.Button.t Gobject.data_conv ->
+  string ->
+  (GObj.widget option -> string -> string -> GdkEvent.Button.t -> bool)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal4_ret
+)
+"ogtkMiscProps.ml" 99 4022 4045 "ogtkMiscProps.ml" 99 4022 4052
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"ogtkMiscProps.ml" 99 4022 4053 "ogtkMiscProps.ml" 99 4022 4076
+type(
+  GObj.widget option Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget_option
+)
+"ogtkMiscProps.ml" 99 4022 4077 "ogtkMiscProps.ml" 99 4022 4083
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"ogtkMiscProps.ml" 99 4022 4084 "ogtkMiscProps.ml" 99 4022 4090
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"ogtkMiscProps.ml" 100 4091 4099 "ogtkMiscProps.ml" 100 4091 4113
+type(
+  GdkEvent.Button.t Gobject.data_conv
+)
+type(
+  GdkEvent.Button.t Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"ogtkMiscProps.ml" 101 4145 4152 "ogtkMiscProps.ml" 101 4145 4183
+type(
+  string
+)
+"ogtkMiscProps.ml" 102 4184 4196 "ogtkMiscProps.ml" 102 4184 4198
+type(
+  GObj.widget option
+)
+ident(
+  def x1 "ogtkMiscProps.ml" 102 4184 4199 "ogtkMiscProps.ml" 102 4184 4232
+)
+"ogtkMiscProps.ml" 102 4184 4199 "ogtkMiscProps.ml" 102 4184 4201
+type(
+  string
+)
+ident(
+  def x2 "ogtkMiscProps.ml" 102 4184 4202 "ogtkMiscProps.ml" 102 4184 4232
+)
+"ogtkMiscProps.ml" 102 4184 4202 "ogtkMiscProps.ml" 102 4184 4204
+type(
+  string
+)
+ident(
+  def x3 "ogtkMiscProps.ml" 102 4184 4208 "ogtkMiscProps.ml" 102 4184 4232
+)
+"ogtkMiscProps.ml" 102 4184 4208 "ogtkMiscProps.ml" 102 4184 4209
+type(
+  GObj.widget option ->
+  text:string -> privat:string -> GdkEvent.Button.t -> bool
+)
+ident(
+  int_ref f "ogtkMiscProps.ml" 98 3962 4017 "ogtkMiscProps.ml" 98 3962 4018
+)
+"ogtkMiscProps.ml" 102 4184 4210 "ogtkMiscProps.ml" 102 4184 4212
+type(
+  GObj.widget option
+)
+ident(
+  int_ref x1 "ogtkMiscProps.ml" 102 4184 4196 "ogtkMiscProps.ml" 102 4184 4198
+)
+"ogtkMiscProps.ml" 102 4184 4219 "ogtkMiscProps.ml" 102 4184 4221
+type(
+  string
+)
+ident(
+  int_ref x2 "ogtkMiscProps.ml" 102 4184 4199 "ogtkMiscProps.ml" 102 4184 4201
+)
+"ogtkMiscProps.ml" 102 4184 4230 "ogtkMiscProps.ml" 102 4184 4232
+type(
+  string
+)
+ident(
+  int_ref x3 "ogtkMiscProps.ml" 102 4184 4202 "ogtkMiscProps.ml" 102 4184 4204
+)
+"ogtkMiscProps.ml" 102 4184 4208 "ogtkMiscProps.ml" 102 4184 4232
+call(
+  tail
+)
+type(
+  GdkEvent.Button.t -> bool
+)
+"ogtkMiscProps.ml" 102 4184 4191 "ogtkMiscProps.ml" 102 4184 4233
+type(
+  GObj.widget option -> string -> string -> GdkEvent.Button.t -> bool
+)
+"ogtkMiscProps.ml" 99 4022 4027 "ogtkMiscProps.ml" 102 4184 4233
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"ogtkMiscProps.ml" 98 3962 4013 "ogtkMiscProps.ml" 102 4184 4233
+type(
+  (GObj.widget option ->
+   text:string -> privat:string -> GdkEvent.Button.t -> bool) ->
+  Gobject.Closure.argv -> unit
+)
+"ogtkMiscProps.ml" 98 3962 3966 "ogtkMiscProps.ml" 102 4184 4234
+type(
+  ('b,
+   GObj.widget option ->
+   text:string -> privat:string -> GdkEvent.Button.t -> bool)
+  GtkSignal.t
+)
+"ogtkMiscProps.ml" 97 3922 3949 "ogtkMiscProps.ml" 102 4184 4234
+type(
+  callback:(GObj.widget option ->
+            text:string -> privat:string -> GdkEvent.Button.t -> bool) ->
+  GtkSignal.id
+)
+type(
+  callback:(GObj.widget option ->
+            text:string -> privat:string -> GdkEvent.Button.t -> bool) ->
+  GtkSignal.id
+)
+"ogtkMiscProps.ml" 107 4301 4321 "ogtkMiscProps.ml" 107 4301 4324
+type(
+  ([> `arrow ] as 'a, GtkEnums.arrow_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.arrow_type -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 107 4301 4325 "ogtkMiscProps.ml" 107 4301 4343
+type(
+  ('a, GtkEnums.arrow_type) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Arrow.P.arrow_type
+)
+"ogtkMiscProps.ml" 107 4301 4344 "ogtkMiscProps.ml" 107 4301 4347
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 107 4301 4321 "ogtkMiscProps.ml" 107 4301 4347
+call(
+  tail
+)
+type(
+  GtkEnums.arrow_type -> unit
+)
+type(
+  GtkEnums.arrow_type -> unit
+)
+"ogtkMiscProps.ml" 108 4348 4370 "ogtkMiscProps.ml" 108 4348 4373
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.shadow_type -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 108 4348 4374 "ogtkMiscProps.ml" 108 4348 4393
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Arrow.P.shadow_type
+)
+"ogtkMiscProps.ml" 108 4348 4394 "ogtkMiscProps.ml" 108 4348 4397
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 108 4348 4370 "ogtkMiscProps.ml" 108 4348 4397
+call(
+  tail
+)
+type(
+  GtkEnums.shadow_type -> unit
+)
+type(
+  GtkEnums.shadow_type -> unit
+)
+"ogtkMiscProps.ml" 109 4398 4414 "ogtkMiscProps.ml" 109 4398 4417
+type(
+  ('a, GtkEnums.arrow_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.arrow_type
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 109 4398 4418 "ogtkMiscProps.ml" 109 4398 4436
+type(
+  ('a, GtkEnums.arrow_type) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Arrow.P.arrow_type
+)
+"ogtkMiscProps.ml" 109 4398 4437 "ogtkMiscProps.ml" 109 4398 4440
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 109 4398 4414 "ogtkMiscProps.ml" 109 4398 4440
+call(
+  tail
+)
+type(
+  GtkEnums.arrow_type
+)
+type(
+  GtkEnums.arrow_type
+)
+"ogtkMiscProps.ml" 110 4441 4459 "ogtkMiscProps.ml" 110 4441 4462
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.shadow_type
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 110 4441 4463 "ogtkMiscProps.ml" 110 4441 4482
+type(
+  ('a, GtkEnums.shadow_type) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Arrow.P.shadow_type
+)
+"ogtkMiscProps.ml" 110 4441 4483 "ogtkMiscProps.ml" 110 4441 4486
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 110 4441 4459 "ogtkMiscProps.ml" 110 4441 4486
+call(
+  tail
+)
+type(
+  GtkEnums.shadow_type
+)
+type(
+  GtkEnums.shadow_type
+)
+"ogtkMiscProps.ml" 115 4553 4573 "ogtkMiscProps.ml" 115 4553 4576
+type(
+  ([> `image ] as 'a, string) Gobject.property ->
+  'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 115 4553 4577 "ogtkMiscProps.ml" 115 4553 4589
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Image.P.file
+)
+"ogtkMiscProps.ml" 115 4553 4590 "ogtkMiscProps.ml" 115 4553 4593
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 115 4553 4573 "ogtkMiscProps.ml" 115 4553 4593
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkMiscProps.ml" 116 4594 4615 "ogtkMiscProps.ml" 116 4594 4618
+type(
+  ('a, Gdk.image) Gobject.property -> 'a Gobject.obj -> Gdk.image -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 116 4594 4619 "ogtkMiscProps.ml" 116 4594 4632
+type(
+  ('a, Gdk.image) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Image.P.image
+)
+"ogtkMiscProps.ml" 116 4594 4633 "ogtkMiscProps.ml" 116 4594 4636
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 116 4594 4615 "ogtkMiscProps.ml" 116 4594 4636
+call(
+  tail
+)
+type(
+  Gdk.image -> unit
+)
+type(
+  Gdk.image -> unit
+)
+"ogtkMiscProps.ml" 117 4637 4659 "ogtkMiscProps.ml" 117 4637 4662
+type(
+  ('a, GdkPixbuf.pixbuf) Gobject.property ->
+  'a Gobject.obj -> GdkPixbuf.pixbuf -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 117 4637 4663 "ogtkMiscProps.ml" 117 4637 4677
+type(
+  ('a, GdkPixbuf.pixbuf) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Image.P.pixbuf
+)
+"ogtkMiscProps.ml" 117 4637 4678 "ogtkMiscProps.ml" 117 4637 4681
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 117 4637 4659 "ogtkMiscProps.ml" 117 4637 4681
+call(
+  tail
+)
+type(
+  GdkPixbuf.pixbuf -> unit
+)
+type(
+  GdkPixbuf.pixbuf -> unit
+)
+"ogtkMiscProps.ml" 118 4682 4708 "ogtkMiscProps.ml" 118 4682 4711
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 118 4682 4712 "ogtkMiscProps.ml" 118 4682 4730
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Image.P.pixel_size
+)
+"ogtkMiscProps.ml" 118 4682 4731 "ogtkMiscProps.ml" 118 4682 4734
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 118 4682 4708 "ogtkMiscProps.ml" 118 4682 4734
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkMiscProps.ml" 119 4735 4755 "ogtkMiscProps.ml" 119 4735 4758
+type(
+  ('a, Gdk.bitmap option) Gobject.property ->
+  'a Gobject.obj -> Gdk.bitmap option -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 119 4735 4759 "ogtkMiscProps.ml" 119 4735 4771
+type(
+  ('a, Gdk.bitmap option) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Image.P.mask
+)
+"ogtkMiscProps.ml" 119 4735 4772 "ogtkMiscProps.ml" 119 4735 4775
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 119 4735 4755 "ogtkMiscProps.ml" 119 4735 4775
+call(
+  tail
+)
+type(
+  Gdk.bitmap option -> unit
+)
+type(
+  Gdk.bitmap option -> unit
+)
+"ogtkMiscProps.ml" 120 4776 4797 "ogtkMiscProps.ml" 120 4776 4800
+type(
+  ('a, GtkStock.id) Gobject.property -> 'a Gobject.obj -> GtkStock.id -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 120 4776 4801 "ogtkMiscProps.ml" 120 4776 4814
+type(
+  ('a, GtkStock.id) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Image.P.stock
+)
+"ogtkMiscProps.ml" 120 4776 4815 "ogtkMiscProps.ml" 120 4776 4818
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 120 4776 4797 "ogtkMiscProps.ml" 120 4776 4818
+call(
+  tail
+)
+type(
+  GtkStock.id -> unit
+)
+type(
+  GtkStock.id -> unit
+)
+"ogtkMiscProps.ml" 121 4819 4843 "ogtkMiscProps.ml" 121 4819 4846
+type(
+  ('a, Gtk.icon_set) Gobject.property ->
+  'a Gobject.obj -> Gtk.icon_set -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 121 4819 4847 "ogtkMiscProps.ml" 121 4819 4863
+type(
+  ('a, Gtk.icon_set) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Image.P.icon_set
+)
+"ogtkMiscProps.ml" 121 4819 4864 "ogtkMiscProps.ml" 121 4819 4867
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 121 4819 4843 "ogtkMiscProps.ml" 121 4819 4867
+call(
+  tail
+)
+type(
+  Gtk.icon_set -> unit
+)
+type(
+  Gtk.icon_set -> unit
+)
+"ogtkMiscProps.ml" 122 4868 4893 "ogtkMiscProps.ml" 122 4868 4896
+type(
+  ('a, GtkEnums.icon_size) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.icon_size -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 122 4868 4897 "ogtkMiscProps.ml" 122 4868 4914
+type(
+  ('a, GtkEnums.icon_size) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Image.P.icon_size
+)
+"ogtkMiscProps.ml" 122 4868 4915 "ogtkMiscProps.ml" 122 4868 4918
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 122 4868 4893 "ogtkMiscProps.ml" 122 4868 4918
+call(
+  tail
+)
+type(
+  GtkEnums.icon_size -> unit
+)
+type(
+  GtkEnums.icon_size -> unit
+)
+"ogtkMiscProps.ml" 123 4919 4936 "ogtkMiscProps.ml" 123 4919 4939
+type(
+  ('a, Gdk.image) Gobject.property -> 'a Gobject.obj -> Gdk.image
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 123 4919 4940 "ogtkMiscProps.ml" 123 4919 4953
+type(
+  ('a, Gdk.image) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Image.P.image
+)
+"ogtkMiscProps.ml" 123 4919 4954 "ogtkMiscProps.ml" 123 4919 4957
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 123 4919 4936 "ogtkMiscProps.ml" 123 4919 4957
+call(
+  tail
+)
+type(
+  Gdk.image
+)
+type(
+  Gdk.image
+)
+"ogtkMiscProps.ml" 124 4958 4976 "ogtkMiscProps.ml" 124 4958 4979
+type(
+  ('a, GdkPixbuf.pixbuf) Gobject.property ->
+  'a Gobject.obj -> GdkPixbuf.pixbuf
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 124 4958 4980 "ogtkMiscProps.ml" 124 4958 4994
+type(
+  ('a, GdkPixbuf.pixbuf) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Image.P.pixbuf
+)
+"ogtkMiscProps.ml" 124 4958 4995 "ogtkMiscProps.ml" 124 4958 4998
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 124 4958 4976 "ogtkMiscProps.ml" 124 4958 4998
+call(
+  tail
+)
+type(
+  GdkPixbuf.pixbuf
+)
+type(
+  GdkPixbuf.pixbuf
+)
+"ogtkMiscProps.ml" 125 4999 5021 "ogtkMiscProps.ml" 125 4999 5024
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 125 4999 5025 "ogtkMiscProps.ml" 125 4999 5043
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Image.P.pixel_size
+)
+"ogtkMiscProps.ml" 125 4999 5044 "ogtkMiscProps.ml" 125 4999 5047
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 125 4999 5021 "ogtkMiscProps.ml" 125 4999 5047
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkMiscProps.ml" 126 5048 5064 "ogtkMiscProps.ml" 126 5048 5067
+type(
+  ('a, Gdk.bitmap option) Gobject.property ->
+  'a Gobject.obj -> Gdk.bitmap option
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 126 5048 5068 "ogtkMiscProps.ml" 126 5048 5080
+type(
+  ('a, Gdk.bitmap option) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Image.P.mask
+)
+"ogtkMiscProps.ml" 126 5048 5081 "ogtkMiscProps.ml" 126 5048 5084
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 126 5048 5064 "ogtkMiscProps.ml" 126 5048 5084
+call(
+  tail
+)
+type(
+  Gdk.bitmap option
+)
+type(
+  Gdk.bitmap option
+)
+"ogtkMiscProps.ml" 127 5085 5102 "ogtkMiscProps.ml" 127 5085 5105
+type(
+  ('a, GtkStock.id) Gobject.property -> 'a Gobject.obj -> GtkStock.id
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 127 5085 5106 "ogtkMiscProps.ml" 127 5085 5119
+type(
+  ('a, GtkStock.id) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Image.P.stock
+)
+"ogtkMiscProps.ml" 127 5085 5120 "ogtkMiscProps.ml" 127 5085 5123
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 127 5085 5102 "ogtkMiscProps.ml" 127 5085 5123
+call(
+  tail
+)
+type(
+  GtkStock.id
+)
+type(
+  GtkStock.id
+)
+"ogtkMiscProps.ml" 128 5124 5144 "ogtkMiscProps.ml" 128 5124 5147
+type(
+  ('a, Gtk.icon_set) Gobject.property -> 'a Gobject.obj -> Gtk.icon_set
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 128 5124 5148 "ogtkMiscProps.ml" 128 5124 5164
+type(
+  ('a, Gtk.icon_set) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Image.P.icon_set
+)
+"ogtkMiscProps.ml" 128 5124 5165 "ogtkMiscProps.ml" 128 5124 5168
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 128 5124 5144 "ogtkMiscProps.ml" 128 5124 5168
+call(
+  tail
+)
+type(
+  Gtk.icon_set
+)
+type(
+  Gtk.icon_set
+)
+"ogtkMiscProps.ml" 129 5169 5190 "ogtkMiscProps.ml" 129 5169 5193
+type(
+  ('a, GtkEnums.icon_size) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.icon_size
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 129 5169 5194 "ogtkMiscProps.ml" 129 5169 5211
+type(
+  ('a, GtkEnums.icon_size) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Image.P.icon_size
+)
+"ogtkMiscProps.ml" 129 5169 5212 "ogtkMiscProps.ml" 129 5169 5215
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 129 5169 5190 "ogtkMiscProps.ml" 129 5169 5215
+call(
+  tail
+)
+type(
+  GtkEnums.icon_size
+)
+type(
+  GtkEnums.icon_size
+)
+"ogtkMiscProps.ml" 130 5216 5240 "ogtkMiscProps.ml" 130 5216 5243
+type(
+  ('a, GtkEnums.image_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.image_type
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 130 5216 5244 "ogtkMiscProps.ml" 130 5216 5264
+type(
+  ('a, GtkEnums.image_type) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Image.P.storage_type
+)
+"ogtkMiscProps.ml" 130 5216 5265 "ogtkMiscProps.ml" 130 5216 5268
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 130 5216 5240 "ogtkMiscProps.ml" 130 5216 5268
+call(
+  tail
+)
+type(
+  GtkEnums.image_type
+)
+type(
+  GtkEnums.image_type
+)
+"ogtkMiscProps.ml" 135 5345 5366 "ogtkMiscProps.ml" 135 5345 5369
+type(
+  ([> `colorselection ] as 'a, int) Gobject.property ->
+  'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 135 5345 5370 "ogtkMiscProps.ml" 135 5345 5400
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.ColorSelection.P.current_alpha
+)
+"ogtkMiscProps.ml" 135 5345 5401 "ogtkMiscProps.ml" 135 5345 5404
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 135 5345 5366 "ogtkMiscProps.ml" 135 5345 5404
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkMiscProps.ml" 136 5405 5426 "ogtkMiscProps.ml" 136 5405 5429
+type(
+  ('a, Gdk.color) Gobject.property -> 'a Gobject.obj -> Gdk.color -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 136 5405 5430 "ogtkMiscProps.ml" 136 5405 5460
+type(
+  ('a, Gdk.color) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.ColorSelection.P.current_color
+)
+"ogtkMiscProps.ml" 136 5405 5461 "ogtkMiscProps.ml" 136 5405 5464
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 136 5405 5426 "ogtkMiscProps.ml" 136 5405 5464
+call(
+  tail
+)
+type(
+  Gdk.color -> unit
+)
+type(
+  Gdk.color -> unit
+)
+"ogtkMiscProps.ml" 138 5500 5504 "ogtkMiscProps.ml" 138 5500 5507
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 138 5500 5508 "ogtkMiscProps.ml" 138 5500 5544
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.ColorSelection.P.has_opacity_control
+)
+"ogtkMiscProps.ml" 138 5500 5545 "ogtkMiscProps.ml" 138 5500 5548
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 138 5500 5504 "ogtkMiscProps.ml" 138 5500 5548
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkMiscProps.ml" 139 5549 5576 "ogtkMiscProps.ml" 139 5549 5579
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 139 5549 5580 "ogtkMiscProps.ml" 139 5549 5608
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.ColorSelection.P.has_palette
+)
+"ogtkMiscProps.ml" 139 5549 5609 "ogtkMiscProps.ml" 139 5549 5612
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 139 5549 5576 "ogtkMiscProps.ml" 139 5549 5612
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkMiscProps.ml" 140 5613 5630 "ogtkMiscProps.ml" 140 5613 5633
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 140 5613 5634 "ogtkMiscProps.ml" 140 5613 5664
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.ColorSelection.P.current_alpha
+)
+"ogtkMiscProps.ml" 140 5613 5665 "ogtkMiscProps.ml" 140 5613 5668
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 140 5613 5630 "ogtkMiscProps.ml" 140 5613 5668
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkMiscProps.ml" 141 5669 5686 "ogtkMiscProps.ml" 141 5669 5689
+type(
+  ('a, Gdk.color) Gobject.property -> 'a Gobject.obj -> Gdk.color
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 141 5669 5690 "ogtkMiscProps.ml" 141 5669 5720
+type(
+  ('a, Gdk.color) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.ColorSelection.P.current_color
+)
+"ogtkMiscProps.ml" 141 5669 5721 "ogtkMiscProps.ml" 141 5669 5724
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 141 5669 5686 "ogtkMiscProps.ml" 141 5669 5724
+call(
+  tail
+)
+type(
+  Gdk.color
+)
+type(
+  Gdk.color
+)
+"ogtkMiscProps.ml" 142 5725 5756 "ogtkMiscProps.ml" 142 5725 5759
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 142 5725 5760 "ogtkMiscProps.ml" 142 5725 5796
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.ColorSelection.P.has_opacity_control
+)
+"ogtkMiscProps.ml" 142 5725 5797 "ogtkMiscProps.ml" 142 5725 5800
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 142 5725 5756 "ogtkMiscProps.ml" 142 5725 5800
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkMiscProps.ml" 143 5801 5824 "ogtkMiscProps.ml" 143 5801 5827
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 143 5801 5828 "ogtkMiscProps.ml" 143 5801 5856
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.ColorSelection.P.has_palette
+)
+"ogtkMiscProps.ml" 143 5801 5857 "ogtkMiscProps.ml" 143 5801 5860
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 143 5801 5824 "ogtkMiscProps.ml" 143 5801 5860
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkMiscProps.ml" 148 5936 5961 "ogtkMiscProps.ml" 148 5936 5964
+type(
+  ([> `fontselection ] as 'a, string) Gobject.property ->
+  'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 148 5936 5965 "ogtkMiscProps.ml" 148 5936 5990
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.FontSelection.P.font_name
+)
+"ogtkMiscProps.ml" 148 5936 5991 "ogtkMiscProps.ml" 148 5936 5994
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 148 5936 5961 "ogtkMiscProps.ml" 148 5936 5994
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkMiscProps.ml" 149 5995 6023 "ogtkMiscProps.ml" 149 5995 6026
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 149 5995 6027 "ogtkMiscProps.ml" 149 5995 6055
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.FontSelection.P.preview_text
+)
+"ogtkMiscProps.ml" 149 5995 6056 "ogtkMiscProps.ml" 149 5995 6059
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 149 5995 6023 "ogtkMiscProps.ml" 149 5995 6059
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkMiscProps.ml" 150 6060 6081 "ogtkMiscProps.ml" 150 6060 6084
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 150 6060 6085 "ogtkMiscProps.ml" 150 6060 6110
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.FontSelection.P.font_name
+)
+"ogtkMiscProps.ml" 150 6060 6111 "ogtkMiscProps.ml" 150 6060 6114
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 150 6060 6081 "ogtkMiscProps.ml" 150 6060 6114
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkMiscProps.ml" 151 6115 6139 "ogtkMiscProps.ml" 151 6115 6142
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 151 6115 6143 "ogtkMiscProps.ml" 151 6115 6171
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.FontSelection.P.preview_text
+)
+"ogtkMiscProps.ml" 151 6115 6172 "ogtkMiscProps.ml" 151 6115 6175
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 151 6115 6139 "ogtkMiscProps.ml" 151 6115 6175
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkMiscProps.ml" 156 6245 6264 "ogtkMiscProps.ml" 156 6245 6267
+type(
+  ([> `calendar ] as 'a, int) Gobject.property ->
+  'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 156 6245 6268 "ogtkMiscProps.ml" 156 6245 6282
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Calendar.P.day
+)
+"ogtkMiscProps.ml" 156 6245 6283 "ogtkMiscProps.ml" 156 6245 6286
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 156 6245 6264 "ogtkMiscProps.ml" 156 6245 6286
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkMiscProps.ml" 157 6287 6308 "ogtkMiscProps.ml" 157 6287 6311
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 157 6287 6312 "ogtkMiscProps.ml" 157 6287 6328
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Calendar.P.month
+)
+"ogtkMiscProps.ml" 157 6287 6329 "ogtkMiscProps.ml" 157 6287 6332
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 157 6287 6308 "ogtkMiscProps.ml" 157 6287 6332
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkMiscProps.ml" 158 6333 6353 "ogtkMiscProps.ml" 158 6333 6356
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 158 6333 6357 "ogtkMiscProps.ml" 158 6333 6372
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Calendar.P.year
+)
+"ogtkMiscProps.ml" 158 6333 6373 "ogtkMiscProps.ml" 158 6333 6376
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 158 6333 6353 "ogtkMiscProps.ml" 158 6333 6376
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkMiscProps.ml" 159 6377 6392 "ogtkMiscProps.ml" 159 6377 6395
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 159 6377 6396 "ogtkMiscProps.ml" 159 6377 6410
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Calendar.P.day
+)
+"ogtkMiscProps.ml" 159 6377 6411 "ogtkMiscProps.ml" 159 6377 6414
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 159 6377 6392 "ogtkMiscProps.ml" 159 6377 6414
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkMiscProps.ml" 160 6415 6432 "ogtkMiscProps.ml" 160 6415 6435
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 160 6415 6436 "ogtkMiscProps.ml" 160 6415 6452
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Calendar.P.month
+)
+"ogtkMiscProps.ml" 160 6415 6453 "ogtkMiscProps.ml" 160 6415 6456
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 160 6415 6432 "ogtkMiscProps.ml" 160 6415 6456
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkMiscProps.ml" 161 6457 6473 "ogtkMiscProps.ml" 161 6457 6476
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 161 6457 6477 "ogtkMiscProps.ml" 161 6457 6492
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Calendar.P.year
+)
+"ogtkMiscProps.ml" 161 6457 6493 "ogtkMiscProps.ml" 161 6457 6496
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 161 6457 6473 "ogtkMiscProps.ml" 161 6457 6496
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkMiscProps.ml" 164 6502 6539 "ogtkMiscProps.ml" 164 6502 6545
+type(
+  < day_selected : callback:(unit -> unit) -> GtkSignal.id;
+    day_selected_double_click : callback:(unit -> unit) -> GtkSignal.id;
+    month_changed : callback:(unit -> unit) -> GtkSignal.id;
+    next_month : callback:(unit -> unit) -> GtkSignal.id;
+    next_year : callback:(unit -> unit) -> GtkSignal.id;
+    prev_month : callback:(unit -> unit) -> GtkSignal.id;
+    prev_year : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkMiscProps.ml" 167 6640 6664 "ogtkMiscProps.ml" 167 6640 6668
+type(
+  < day_selected : callback:(unit -> unit) -> GtkSignal.id;
+    day_selected_double_click : callback:(unit -> unit) -> GtkSignal.id;
+    month_changed : callback:(unit -> unit) -> GtkSignal.id;
+    next_month : callback:(unit -> unit) -> GtkSignal.id;
+    next_year : callback:(unit -> unit) -> GtkSignal.id;
+    prev_month : callback:(unit -> unit) -> GtkSignal.id;
+    prev_year : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkMiscProps.ml" 167 6640 6664 "ogtkMiscProps.ml" 167 6640 6676
+call(
+  tail
+)
+type(
+  ([> `calendar ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 167 6640 6677 "ogtkMiscProps.ml" 167 6640 6700
+type(
+  ([> `calendar ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkMiscProps.Calendar.S.day_selected
+)
+"ogtkMiscProps.ml" 167 6640 6664 "ogtkMiscProps.ml" 167 6640 6700
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 169 6738 6742 "ogtkMiscProps.ml" 169 6738 6746
+type(
+  'a
+)
+"ogtkMiscProps.ml" 169 6738 6742 "ogtkMiscProps.ml" 169 6738 6754
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 169 6738 6755 "ogtkMiscProps.ml" 169 6738 6791
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkMiscProps.Calendar.S.day_selected_double_click
+)
+"ogtkMiscProps.ml" 169 6738 6742 "ogtkMiscProps.ml" 169 6738 6791
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 170 6792 6817 "ogtkMiscProps.ml" 170 6792 6821
+type(
+  'a
+)
+"ogtkMiscProps.ml" 170 6792 6817 "ogtkMiscProps.ml" 170 6792 6829
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 170 6792 6830 "ogtkMiscProps.ml" 170 6792 6854
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkMiscProps.Calendar.S.month_changed
+)
+"ogtkMiscProps.ml" 170 6792 6817 "ogtkMiscProps.ml" 170 6792 6854
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 171 6855 6877 "ogtkMiscProps.ml" 171 6855 6881
+type(
+  'a
+)
+"ogtkMiscProps.ml" 171 6855 6877 "ogtkMiscProps.ml" 171 6855 6889
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 171 6855 6890 "ogtkMiscProps.ml" 171 6855 6911
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkMiscProps.Calendar.S.next_month
+)
+"ogtkMiscProps.ml" 171 6855 6877 "ogtkMiscProps.ml" 171 6855 6911
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 172 6912 6933 "ogtkMiscProps.ml" 172 6912 6937
+type(
+  'a
+)
+"ogtkMiscProps.ml" 172 6912 6933 "ogtkMiscProps.ml" 172 6912 6945
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 172 6912 6946 "ogtkMiscProps.ml" 172 6912 6966
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkMiscProps.Calendar.S.next_year
+)
+"ogtkMiscProps.ml" 172 6912 6933 "ogtkMiscProps.ml" 172 6912 6966
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 173 6967 6989 "ogtkMiscProps.ml" 173 6967 6993
+type(
+  'a
+)
+"ogtkMiscProps.ml" 173 6967 6989 "ogtkMiscProps.ml" 173 6967 7001
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 173 6967 7002 "ogtkMiscProps.ml" 173 6967 7023
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkMiscProps.Calendar.S.prev_month
+)
+"ogtkMiscProps.ml" 173 6967 6989 "ogtkMiscProps.ml" 173 6967 7023
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 174 7024 7045 "ogtkMiscProps.ml" 174 7024 7049
+type(
+  'a
+)
+"ogtkMiscProps.ml" 174 7024 7045 "ogtkMiscProps.ml" 174 7024 7057
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 174 7024 7058 "ogtkMiscProps.ml" 174 7024 7078
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkMiscProps.Calendar.S.prev_year
+)
+"ogtkMiscProps.ml" 174 7024 7045 "ogtkMiscProps.ml" 174 7024 7078
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkMiscProps.ml" 179 7145 7171 "ogtkMiscProps.ml" 179 7145 7174
+type(
+  ([> `curve ] as 'a, GtkEnums.curve_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.curve_type -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 179 7145 7175 "ogtkMiscProps.ml" 179 7145 7193
+type(
+  ('a, GtkEnums.curve_type) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Curve.P.curve_type
+)
+"ogtkMiscProps.ml" 179 7145 7194 "ogtkMiscProps.ml" 179 7145 7197
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 179 7145 7171 "ogtkMiscProps.ml" 179 7145 7197
+call(
+  tail
+)
+type(
+  GtkEnums.curve_type -> unit
+)
+type(
+  GtkEnums.curve_type -> unit
+)
+"ogtkMiscProps.ml" 180 7198 7219 "ogtkMiscProps.ml" 180 7198 7222
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 180 7198 7223 "ogtkMiscProps.ml" 180 7198 7236
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Curve.P.max_x
+)
+"ogtkMiscProps.ml" 180 7198 7237 "ogtkMiscProps.ml" 180 7198 7240
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 180 7198 7219 "ogtkMiscProps.ml" 180 7198 7240
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkMiscProps.ml" 181 7241 7262 "ogtkMiscProps.ml" 181 7241 7265
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 181 7241 7266 "ogtkMiscProps.ml" 181 7241 7279
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Curve.P.max_y
+)
+"ogtkMiscProps.ml" 181 7241 7280 "ogtkMiscProps.ml" 181 7241 7283
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 181 7241 7262 "ogtkMiscProps.ml" 181 7241 7283
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkMiscProps.ml" 182 7284 7305 "ogtkMiscProps.ml" 182 7284 7308
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 182 7284 7309 "ogtkMiscProps.ml" 182 7284 7322
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Curve.P.min_x
+)
+"ogtkMiscProps.ml" 182 7284 7323 "ogtkMiscProps.ml" 182 7284 7326
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 182 7284 7305 "ogtkMiscProps.ml" 182 7284 7326
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkMiscProps.ml" 183 7327 7348 "ogtkMiscProps.ml" 183 7327 7351
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkMiscProps.ml" 4 38 42 "ogtkMiscProps.ml" 4 38 45
+)
+"ogtkMiscProps.ml" 183 7327 7352 "ogtkMiscProps.ml" 183 7327 7365
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Curve.P.min_y
+)
+"ogtkMiscProps.ml" 183 7327 7366 "ogtkMiscProps.ml" 183 7327 7369
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 183 7327 7348 "ogtkMiscProps.ml" 183 7327 7369
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkMiscProps.ml" 184 7370 7392 "ogtkMiscProps.ml" 184 7370 7395
+type(
+  ('a, GtkEnums.curve_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.curve_type
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 184 7370 7396 "ogtkMiscProps.ml" 184 7370 7414
+type(
+  ('a, GtkEnums.curve_type) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Curve.P.curve_type
+)
+"ogtkMiscProps.ml" 184 7370 7415 "ogtkMiscProps.ml" 184 7370 7418
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 184 7370 7392 "ogtkMiscProps.ml" 184 7370 7418
+call(
+  tail
+)
+type(
+  GtkEnums.curve_type
+)
+type(
+  GtkEnums.curve_type
+)
+"ogtkMiscProps.ml" 185 7419 7436 "ogtkMiscProps.ml" 185 7419 7439
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 185 7419 7440 "ogtkMiscProps.ml" 185 7419 7453
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Curve.P.max_x
+)
+"ogtkMiscProps.ml" 185 7419 7454 "ogtkMiscProps.ml" 185 7419 7457
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 185 7419 7436 "ogtkMiscProps.ml" 185 7419 7457
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkMiscProps.ml" 186 7458 7475 "ogtkMiscProps.ml" 186 7458 7478
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 186 7458 7479 "ogtkMiscProps.ml" 186 7458 7492
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Curve.P.max_y
+)
+"ogtkMiscProps.ml" 186 7458 7493 "ogtkMiscProps.ml" 186 7458 7496
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 186 7458 7475 "ogtkMiscProps.ml" 186 7458 7496
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkMiscProps.ml" 187 7497 7514 "ogtkMiscProps.ml" 187 7497 7517
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 187 7497 7518 "ogtkMiscProps.ml" 187 7497 7531
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Curve.P.min_x
+)
+"ogtkMiscProps.ml" 187 7497 7532 "ogtkMiscProps.ml" 187 7497 7535
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 187 7497 7514 "ogtkMiscProps.ml" 187 7497 7535
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkMiscProps.ml" 188 7536 7553 "ogtkMiscProps.ml" 188 7536 7556
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkMiscProps.ml" 5 52 56 "ogtkMiscProps.ml" 5 52 59
+)
+"ogtkMiscProps.ml" 188 7536 7557 "ogtkMiscProps.ml" 188 7536 7570
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkMiscProps.Curve.P.min_y
+)
+"ogtkMiscProps.ml" 188 7536 7571 "ogtkMiscProps.ml" 188 7536 7574
+type(
+  'a Gobject.obj
+)
+"ogtkMiscProps.ml" 188 7536 7553 "ogtkMiscProps.ml" 188 7536 7574
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)

@@ -1,0 +1,3 @@
+OCAML_LIBRARIES = res
+
+Subdirs()

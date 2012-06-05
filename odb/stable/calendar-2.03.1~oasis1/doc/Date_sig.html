@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Ftime.html">
+<link rel="next" href="Date.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Utils" rel="Chapter" href="Utils.html">
+<link title="Time_Zone" rel="Chapter" href="Time_Zone.html">
+<link title="Period" rel="Chapter" href="Period.html">
+<link title="Time_sig" rel="Chapter" href="Time_sig.html">
+<link title="Time" rel="Chapter" href="Time.html">
+<link title="Ftime" rel="Chapter" href="Ftime.html">
+<link title="Date_sig" rel="Chapter" href="Date_sig.html">
+<link title="Date" rel="Chapter" href="Date.html">
+<link title="Calendar_sig" rel="Chapter" href="Calendar_sig.html">
+<link title="Calendar_builder" rel="Chapter" href="Calendar_builder.html">
+<link title="Calendar" rel="Chapter" href="Calendar.html">
+<link title="Fcalendar" rel="Chapter" href="Fcalendar.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Version" rel="Chapter" href="Version.html"><title>Date_sig</title>
+</head>
+<body>
+<div class="navbar"><a href="Ftime.html">Previous</a>
+&nbsp;<a href="index.html">Up</a>
+&nbsp;<a href="Date.html">Next</a>
+</div>
+<center><h1>Module <a href="type_Date_sig.html">Date_sig</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Date_sig: <code class="code"><span class="keyword">sig</span></code> <a href="Date_sig.html">..</a> <code class="code"><span class="keyword">end</span></code></pre>Date interface. A date may be seen as a triple (year, month, day).
+<p>
+
+  All the dates should belong to
+  <code class="code">[<span class="constructor">January</span>, 1st 4713 <span class="constructor">BC</span>; <span class="constructor">January</span> 22th, 3268 <span class="constructor">AC</span>]</code> (called the Julian period).
+  An <code class="code"><span class="constructor">Out_of_bounds</span></code> exception is raised if you attempt to create a date
+  outside the Julian period.
+<p>
+
+  If a date <code class="code">d</code> does not exists and if <code class="code">d_bef</code> (resp. <code class="code">d_aft</code>) is
+  the last (resp. first) existing date before (resp. after) <code class="code">d</code>,
+  <code class="code">d</code> is automatically coerced to <code class="code">d_aft + d - d_bef - 1</code>.
+  For example, both dates "February 29th, 2003" and
+  "February 30th, 2003" do not exist and they are coerced respectively to the
+  date "Mars 1st, 2003" and "Mars 2nd, 2003".
+  This rule is called the coercion rule.
+  As an exception to the coercion rule, the date belonging to
+  <code class="code">[<span class="constructor">October</span> 5th, 1582; <span class="constructor">October</span> 14th, 1582]</code> do not exist and an <code class="code"><span class="constructor">Undefined</span></code>
+  exception is raised if you attempt to create such a date.
+  Those dropped days correspond to the change from the Julian to the Gregorian
+  calendar.<br>
+<hr width="100%">
+<pre><span class="keyword">module type</span> <a href="Date_sig.S.html">S</a> = <code class="code"><span class="keyword">sig</span></code> <a href="Date_sig.S.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info">
+Common operations for all date representations.
+</div>
+</body></html>

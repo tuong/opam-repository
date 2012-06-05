@@ -1,0 +1,3938 @@
+"gtkEditProps.ml" 7 84 90 "gtkEditProps.ml" 7 84 104
+type(
+  ((string -> pos:int ref -> unit) -> Gobject.Closure.argv -> unit) ref
+)
+ident(
+  def marshal_insert "gtkEditProps.ml" 9 159 218 "gtkEditProps.ml" 10 219 222
+)
+"gtkEditProps.ml" 8 107 111 "gtkEditProps.ml" 8 107 114
+type(
+  ((string -> pos:int ref -> unit) -> Gobject.Closure.argv -> unit) ->
+  ((string -> pos:int ref -> unit) -> Gobject.Closure.argv -> unit) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gtkEditProps.ml" 8 107 121 "gtkEditProps.ml" 8 107 122
+type(
+  string -> pos:int ref -> unit
+)
+"gtkEditProps.ml" 9 159 170 "gtkEditProps.ml" 9 159 178
+type(
+  string -> Gobject.Closure.argv -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gtkEditProps.ml" 9 159 179 "gtkEditProps.ml" 9 159 217
+type(
+  string
+)
+"gtkEditProps.ml" 9 159 170 "gtkEditProps.ml" 9 159 217
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 8 107 115 "gtkEditProps.ml" 9 159 218
+type(
+  (string -> pos:int ref -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 8 107 111 "gtkEditProps.ml" 9 159 218
+type(
+  ((string -> pos:int ref -> unit) -> Gobject.Closure.argv -> unit) ref
+)
+"gtkEditProps.ml" 13 253 259 "gtkEditProps.ml" 13 253 268
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  def has_frame "gtkEditProps.ml" 14 304 306 "gtkEditProps.ml" 15 376 379
+)
+"gtkEditProps.ml" 13 253 277 "gtkEditProps.ml" 13 253 288
+type(
+  string
+)
+"gtkEditProps.ml" 13 253 295 "gtkEditProps.ml" 13 253 302
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 13 253 271 "gtkEditProps.ml" 13 253 303
+type(
+  ('a, bool) Gobject.property
+)
+"gtkEditProps.ml" 14 304 310 "gtkEditProps.ml" 14 304 315
+type(
+  ('b, Gtk.tree_model) Gobject.property
+)
+ident(
+  def model "gtkEditProps.ml" 14 304 375 "gtkEditProps.ml" 15 376 379
+)
+"gtkEditProps.ml" 14 304 324 "gtkEditProps.ml" 14 304 331
+type(
+  string
+)
+"gtkEditProps.ml" 14 304 339 "gtkEditProps.ml" 14 304 346
+type(
+  Gtk.tree_model Gobject.data_conv
+)
+type(
+  Gtk.tree_model Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkEditProps.ml" 14 304 318 "gtkEditProps.ml" 14 304 375
+type(
+  ('b, Gtk.tree_model) Gobject.property
+)
+"gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons "gtkEditProps.ml" 18 414 414 --
+)
+"gtkEditProps.ml" 17 381 396 "gtkEditProps.ml" 17 381 413
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gtkEditProps.ml" 18 414 418 "gtkEditProps.ml" 18 414 430
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons_opt "gtkEditProps.ml" 20 456 456 --
+)
+"gtkEditProps.ml" 18 414 433 "gtkEditProps.ml" 18 414 454
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons_opt
+)
+"gtkEditProps.ml" 21 481 487 "gtkEditProps.ml" 21 481 491
+type(
+  'a Gobject.obj -> Gtk.editable Gtk.obj
+)
+ident(
+  def cast "gtkEditProps.ml" 22 540 542 "gtkEditProps.ml" 59 2268 2271
+)
+"gtkEditProps.ml" 21 481 492 "gtkEditProps.ml" 21 481 493
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkEditProps.ml" 21 481 494 "gtkEditProps.ml" 21 481 539
+)
+"gtkEditProps.ml" 21 481 515 "gtkEditProps.ml" 21 481 523
+type(
+  'a Gobject.obj -> string -> Gtk.editable Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkEditProps.ml" 21 481 524 "gtkEditProps.ml" 21 481 525
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkEditProps.ml" 21 481 492 "gtkEditProps.ml" 21 481 493
+)
+"gtkEditProps.ml" 21 481 526 "gtkEditProps.ml" 21 481 539
+type(
+  string
+)
+"gtkEditProps.ml" 21 481 515 "gtkEditProps.ml" 21 481 539
+call(
+  tail
+)
+type(
+  Gtk.editable Gtk.obj
+)
+type(
+  Gtk.editable Gtk.obj
+)
+"gtkEditProps.ml" 24 579 587 "gtkEditProps.ml" 24 579 594
+type(
+  ([> `editable ], unit -> unit) GtkSignal.t
+)
+ident(
+  def changed "gtkEditProps.ml" 25 657 661 "gtkEditProps.ml" 32 965 970
+)
+"gtkEditProps.ml" 24 579 603 "gtkEditProps.ml" 24 579 612
+type(
+  string
+)
+"gtkEditProps.ml" 24 579 621 "gtkEditProps.ml" 24 579 630
+type(
+  [> `editable ] as 'b
+)
+"gtkEditProps.ml" 24 579 643 "gtkEditProps.ml" 24 579 655
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkEditProps.ml" 24 579 597 "gtkEditProps.ml" 24 579 656
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 25 657 665 "gtkEditProps.ml" 25 657 676
+type(
+  ([> `editable ], start:int -> stop:int -> unit) GtkSignal.t
+)
+ident(
+  def delete_text "gtkEditProps.ml" 29 841 845 "gtkEditProps.ml" 32 965 970
+)
+"gtkEditProps.ml" 26 679 691 "gtkEditProps.ml" 26 679 704
+type(
+  string
+)
+"gtkEditProps.ml" 26 679 713 "gtkEditProps.ml" 26 679 722
+type(
+  [> `editable ] as 'c
+)
+"gtkEditProps.ml" 26 679 739 "gtkEditProps.ml" 26 679 740
+type(
+  start:int -> stop:int -> unit
+)
+ident(
+  def f "gtkEditProps.ml" 27 744 751 "gtkEditProps.ml" 28 795 839
+)
+"gtkEditProps.ml" 27 744 751 "gtkEditProps.ml" 27 744 759
+type(
+  int Gobject.data_conv ->
+  int Gobject.data_conv ->
+  string -> (int -> int -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkEditProps.ml" 27 744 760 "gtkEditProps.ml" 27 744 763
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 27 744 764 "gtkEditProps.ml" 27 744 767
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 27 744 768 "gtkEditProps.ml" 27 744 794
+type(
+  string
+)
+"gtkEditProps.ml" 28 795 809 "gtkEditProps.ml" 28 795 811
+type(
+  int
+)
+ident(
+  def x1 "gtkEditProps.ml" 28 795 812 "gtkEditProps.ml" 28 795 838
+)
+"gtkEditProps.ml" 28 795 812 "gtkEditProps.ml" 28 795 814
+type(
+  int
+)
+ident(
+  def x2 "gtkEditProps.ml" 28 795 818 "gtkEditProps.ml" 28 795 838
+)
+"gtkEditProps.ml" 28 795 818 "gtkEditProps.ml" 28 795 819
+type(
+  start:int -> stop:int -> unit
+)
+ident(
+  int_ref f "gtkEditProps.ml" 26 679 739 "gtkEditProps.ml" 26 679 740
+)
+"gtkEditProps.ml" 28 795 827 "gtkEditProps.ml" 28 795 829
+type(
+  int
+)
+ident(
+  int_ref x1 "gtkEditProps.ml" 28 795 809 "gtkEditProps.ml" 28 795 811
+)
+"gtkEditProps.ml" 28 795 836 "gtkEditProps.ml" 28 795 838
+type(
+  int
+)
+ident(
+  int_ref x2 "gtkEditProps.ml" 28 795 812 "gtkEditProps.ml" 28 795 814
+)
+"gtkEditProps.ml" 28 795 818 "gtkEditProps.ml" 28 795 838
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkEditProps.ml" 28 795 804 "gtkEditProps.ml" 28 795 839
+type(
+  int -> int -> unit
+)
+"gtkEditProps.ml" 27 744 751 "gtkEditProps.ml" 28 795 839
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 26 679 735 "gtkEditProps.ml" 28 795 839
+type(
+  (start:int -> stop:int -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 26 679 685 "gtkEditProps.ml" 28 795 840
+type(
+  ('c, start:int -> stop:int -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 29 841 849 "gtkEditProps.ml" 29 841 860
+type(
+  ([> `editable ], string -> pos:int ref -> unit) GtkSignal.t
+)
+ident(
+  def insert_text "gtkEditProps.ml" 31 908 964 "gtkEditProps.ml" 32 965 970
+)
+"gtkEditProps.ml" 30 863 875 "gtkEditProps.ml" 30 863 888
+type(
+  string
+)
+"gtkEditProps.ml" 30 863 897 "gtkEditProps.ml" 30 863 906
+type(
+  [> `editable ] as 'd
+)
+"gtkEditProps.ml" 31 908 931 "gtkEditProps.ml" 31 908 932
+type(
+  string -> pos:int ref -> unit
+)
+ident(
+  def f "gtkEditProps.ml" 31 908 936 "gtkEditProps.ml" 31 908 962
+)
+"gtkEditProps.ml" 31 908 936 "gtkEditProps.ml" 31 908 937
+type(
+  ((string -> pos:int ref -> unit) -> Gobject.Closure.argv -> unit) ref ->
+  (string -> pos:int ref -> unit) -> Gobject.Closure.argv -> unit
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkEditProps.ml" 31 908 937 "gtkEditProps.ml" 31 908 960
+type(
+  ((string -> pos:int ref -> unit) -> Gobject.Closure.argv -> unit) ref
+)
+ident(
+  ext_ref Internal.marshal_insert
+)
+"gtkEditProps.ml" 31 908 936 "gtkEditProps.ml" 31 908 960
+type(
+  (string -> pos:int ref -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 31 908 961 "gtkEditProps.ml" 31 908 962
+type(
+  string -> pos:int ref -> unit
+)
+ident(
+  int_ref f "gtkEditProps.ml" 31 908 931 "gtkEditProps.ml" 31 908 932
+)
+"gtkEditProps.ml" 31 908 936 "gtkEditProps.ml" 31 908 962
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 31 908 926 "gtkEditProps.ml" 31 908 963
+type(
+  (string -> pos:int ref -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 30 863 869 "gtkEditProps.ml" 31 908 964
+type(
+  ('d, string -> pos:int ref -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 62 2295 2301 "gtkEditProps.ml" 62 2295 2305
+type(
+  'a Gobject.obj -> Gtk.entry Gtk.obj
+)
+ident(
+  def cast "gtkEditProps.ml" 63 2348 2350 "gtkEditProps.ml" 132 5610 5613
+)
+"gtkEditProps.ml" 62 2295 2306 "gtkEditProps.ml" 62 2295 2307
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkEditProps.ml" 62 2295 2308 "gtkEditProps.ml" 62 2295 2347
+)
+"gtkEditProps.ml" 62 2295 2326 "gtkEditProps.ml" 62 2295 2334
+type(
+  'a Gobject.obj -> string -> Gtk.entry Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkEditProps.ml" 62 2295 2335 "gtkEditProps.ml" 62 2295 2336
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkEditProps.ml" 62 2295 2306 "gtkEditProps.ml" 62 2295 2307
+)
+"gtkEditProps.ml" 62 2295 2337 "gtkEditProps.ml" 62 2295 2347
+type(
+  string
+)
+"gtkEditProps.ml" 62 2295 2326 "gtkEditProps.ml" 62 2295 2347
+call(
+  tail
+)
+type(
+  Gtk.entry Gtk.obj
+)
+type(
+  Gtk.entry Gtk.obj
+)
+"gtkEditProps.ml" 64 2368 2376 "gtkEditProps.ml" 64 2368 2380
+type(
+  ([> `entry ], string) Gobject.property
+)
+ident(
+  def text "gtkEditProps.ml" 65 2435 2439 "gtkEditProps.ml" 82 3352 3357
+)
+"gtkEditProps.ml" 64 2368 2414 "gtkEditProps.ml" 64 2368 2420
+type(
+  string
+)
+"gtkEditProps.ml" 64 2368 2427 "gtkEditProps.ml" 64 2368 2433
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkEditProps.ml" 64 2368 2408 "gtkEditProps.ml" 64 2368 2434
+type(
+  ([> `entry ] as 'b, string) Gobject.property
+)
+type(
+  ('b, string) Gobject.property
+)
+"gtkEditProps.ml" 65 2435 2443 "gtkEditProps.ml" 65 2435 2453
+type(
+  ([> `entry ], bool) Gobject.property
+)
+ident(
+  def visibility "gtkEditProps.ml" 67 2521 2525 "gtkEditProps.ml" 82 3352 3357
+)
+"gtkEditProps.ml" 66 2481 2493 "gtkEditProps.ml" 66 2481 2505
+type(
+  string
+)
+"gtkEditProps.ml" 66 2481 2512 "gtkEditProps.ml" 66 2481 2519
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 66 2481 2487 "gtkEditProps.ml" 66 2481 2520
+type(
+  ([> `entry ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkEditProps.ml" 67 2521 2529 "gtkEditProps.ml" 67 2521 2539
+type(
+  ([> `entry ], int) Gobject.property
+)
+ident(
+  def max_length "gtkEditProps.ml" 68 2597 2601 "gtkEditProps.ml" 82 3352 3357
+)
+"gtkEditProps.ml" 67 2521 2573 "gtkEditProps.ml" 67 2521 2585
+type(
+  string
+)
+"gtkEditProps.ml" 67 2521 2592 "gtkEditProps.ml" 67 2521 2595
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 67 2521 2567 "gtkEditProps.ml" 67 2521 2596
+type(
+  ([> `entry ] as 'd, int) Gobject.property
+)
+type(
+  ('d, int) Gobject.property
+)
+"gtkEditProps.ml" 68 2597 2605 "gtkEditProps.ml" 68 2597 2622
+type(
+  ([> `entry ], bool) Gobject.property
+)
+ident(
+  def activates_default "gtkEditProps.ml" 70 2697 2701 "gtkEditProps.ml" 82 3352 3357
+)
+"gtkEditProps.ml" 69 2650 2662 "gtkEditProps.ml" 69 2650 2681
+type(
+  string
+)
+"gtkEditProps.ml" 69 2650 2688 "gtkEditProps.ml" 69 2650 2695
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 69 2650 2656 "gtkEditProps.ml" 69 2650 2696
+type(
+  ([> `entry ] as 'e, bool) Gobject.property
+)
+type(
+  ('e, bool) Gobject.property
+)
+"gtkEditProps.ml" 70 2697 2705 "gtkEditProps.ml" 70 2697 2720
+type(
+  ([> `entry ], int) Gobject.property
+)
+ident(
+  def cursor_position "gtkEditProps.ml" 72 2789 2793 "gtkEditProps.ml" 82 3352 3357
+)
+"gtkEditProps.ml" 71 2748 2760 "gtkEditProps.ml" 71 2748 2777
+type(
+  string
+)
+"gtkEditProps.ml" 71 2748 2784 "gtkEditProps.ml" 71 2748 2787
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 71 2748 2754 "gtkEditProps.ml" 71 2748 2788
+type(
+  ([> `entry ] as 'f, int) Gobject.property
+)
+type(
+  ('f, int) Gobject.property
+)
+"gtkEditProps.ml" 72 2789 2797 "gtkEditProps.ml" 72 2789 2805
+type(
+  ([> `entry ], bool) Gobject.property
+)
+ident(
+  def editable "gtkEditProps.ml" 73 2865 2869 "gtkEditProps.ml" 82 3352 3357
+)
+"gtkEditProps.ml" 72 2789 2839 "gtkEditProps.ml" 72 2789 2849
+type(
+  string
+)
+"gtkEditProps.ml" 72 2789 2856 "gtkEditProps.ml" 72 2789 2863
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 72 2789 2833 "gtkEditProps.ml" 72 2789 2864
+type(
+  ([> `entry ] as 'g, bool) Gobject.property
+)
+type(
+  ('g, bool) Gobject.property
+)
+"gtkEditProps.ml" 73 2865 2873 "gtkEditProps.ml" 73 2865 2882
+type(
+  ([> `entry ], bool) Gobject.property
+)
+ident(
+  def has_frame "gtkEditProps.ml" 74 2933 2937 "gtkEditProps.ml" 82 3352 3357
+)
+"gtkEditProps.ml" 73 2865 2910 "gtkEditProps.ml" 73 2865 2932
+type(
+  ([> `entry ] as 'h, bool) Gobject.property
+)
+type(
+  ('h, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.has_frame
+)
+"gtkEditProps.ml" 74 2933 2941 "gtkEditProps.ml" 74 2933 2955
+type(
+  ([> `entry ], int) Gobject.property
+)
+ident(
+  def invisible_char "gtkEditProps.ml" 76 3024 3028 "gtkEditProps.ml" 82 3352 3357
+)
+"gtkEditProps.ml" 75 2983 2995 "gtkEditProps.ml" 75 2983 3011
+type(
+  string
+)
+"gtkEditProps.ml" 75 2983 3018 "gtkEditProps.ml" 75 2983 3022
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkEditProps.ml" 75 2983 2989 "gtkEditProps.ml" 75 2983 3023
+type(
+  ([> `entry ] as 'i, int) Gobject.property
+)
+type(
+  ('i, int) Gobject.property
+)
+"gtkEditProps.ml" 76 3024 3032 "gtkEditProps.ml" 76 3024 3045
+type(
+  ([> `entry ], int) Gobject.property
+)
+ident(
+  def scroll_offset "gtkEditProps.ml" 78 3112 3116 "gtkEditProps.ml" 82 3352 3357
+)
+"gtkEditProps.ml" 77 3073 3085 "gtkEditProps.ml" 77 3073 3100
+type(
+  string
+)
+"gtkEditProps.ml" 77 3073 3107 "gtkEditProps.ml" 77 3073 3110
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 77 3073 3079 "gtkEditProps.ml" 77 3073 3111
+type(
+  ([> `entry ] as 'j, int) Gobject.property
+)
+type(
+  ('j, int) Gobject.property
+)
+"gtkEditProps.ml" 78 3112 3120 "gtkEditProps.ml" 78 3112 3135
+type(
+  ([> `entry ], int) Gobject.property
+)
+ident(
+  def selection_bound "gtkEditProps.ml" 80 3204 3208 "gtkEditProps.ml" 82 3352 3357
+)
+"gtkEditProps.ml" 79 3163 3175 "gtkEditProps.ml" 79 3163 3192
+type(
+  string
+)
+"gtkEditProps.ml" 79 3163 3199 "gtkEditProps.ml" 79 3163 3202
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 79 3163 3169 "gtkEditProps.ml" 79 3163 3203
+type(
+  ([> `entry ] as 'k, int) Gobject.property
+)
+type(
+  ('k, int) Gobject.property
+)
+"gtkEditProps.ml" 80 3204 3212 "gtkEditProps.ml" 80 3204 3223
+type(
+  ([> `entry ], int) Gobject.property
+)
+ident(
+  def width_chars "gtkEditProps.ml" 81 3282 3286 "gtkEditProps.ml" 82 3352 3357
+)
+"gtkEditProps.ml" 80 3204 3257 "gtkEditProps.ml" 80 3204 3270
+type(
+  string
+)
+"gtkEditProps.ml" 80 3204 3277 "gtkEditProps.ml" 80 3204 3280
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 80 3204 3251 "gtkEditProps.ml" 80 3204 3281
+type(
+  ([> `entry ] as 'l, int) Gobject.property
+)
+type(
+  ('l, int) Gobject.property
+)
+"gtkEditProps.ml" 81 3282 3290 "gtkEditProps.ml" 81 3282 3296
+type(
+  ([> `entry ], float) Gobject.property
+)
+ident(
+  def xalign "gtkEditProps.ml" 81 3282 3351 "gtkEditProps.ml" 82 3352 3357
+)
+"gtkEditProps.ml" 81 3282 3330 "gtkEditProps.ml" 81 3282 3338
+type(
+  string
+)
+"gtkEditProps.ml" 81 3282 3345 "gtkEditProps.ml" 81 3282 3350
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkEditProps.ml" 81 3282 3324 "gtkEditProps.ml" 81 3282 3351
+type(
+  ([> `entry ] as 'm, float) Gobject.property
+)
+type(
+  ('m, float) Gobject.property
+)
+"gtkEditProps.ml" 85 3397 3405 "gtkEditProps.ml" 85 3397 3413
+type(
+  ([> `entry ], unit -> unit) GtkSignal.t
+)
+ident(
+  def activate "gtkEditProps.ml" 86 3474 3478 "gtkEditProps.ml" 109 4585 4590
+)
+"gtkEditProps.ml" 85 3397 3422 "gtkEditProps.ml" 85 3397 3432
+type(
+  string
+)
+"gtkEditProps.ml" 85 3397 3441 "gtkEditProps.ml" 85 3397 3447
+type(
+  [> `entry ] as 'n
+)
+"gtkEditProps.ml" 85 3397 3460 "gtkEditProps.ml" 85 3397 3472
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkEditProps.ml" 85 3397 3416 "gtkEditProps.ml" 85 3397 3473
+type(
+  ('n, unit -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 86 3474 3482 "gtkEditProps.ml" 86 3474 3496
+type(
+  ([> `entry ], unit -> unit) GtkSignal.t
+)
+ident(
+  def copy_clipboard "gtkEditProps.ml" 88 3569 3573 "gtkEditProps.ml" 109 4585 4590
+)
+"gtkEditProps.ml" 87 3499 3511 "gtkEditProps.ml" 87 3499 3527
+type(
+  string
+)
+"gtkEditProps.ml" 87 3499 3536 "gtkEditProps.ml" 87 3499 3542
+type(
+  [> `entry ] as 'o
+)
+"gtkEditProps.ml" 87 3499 3555 "gtkEditProps.ml" 87 3499 3567
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkEditProps.ml" 87 3499 3505 "gtkEditProps.ml" 87 3499 3568
+type(
+  ('o, unit -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 88 3569 3577 "gtkEditProps.ml" 88 3569 3590
+type(
+  ([> `entry ], unit -> unit) GtkSignal.t
+)
+ident(
+  def cut_clipboard "gtkEditProps.ml" 90 3662 3666 "gtkEditProps.ml" 109 4585 4590
+)
+"gtkEditProps.ml" 89 3593 3605 "gtkEditProps.ml" 89 3593 3620
+type(
+  string
+)
+"gtkEditProps.ml" 89 3593 3629 "gtkEditProps.ml" 89 3593 3635
+type(
+  [> `entry ] as 'p
+)
+"gtkEditProps.ml" 89 3593 3648 "gtkEditProps.ml" 89 3593 3660
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkEditProps.ml" 89 3593 3599 "gtkEditProps.ml" 89 3593 3661
+type(
+  ('p, unit -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 90 3662 3670 "gtkEditProps.ml" 90 3662 3688
+type(
+  ([> `entry ], GtkEnums.delete_type -> int -> unit) GtkSignal.t
+)
+ident(
+  def delete_from_cursor "gtkEditProps.ml" 94 3849 3853 "gtkEditProps.ml" 109 4585 4590
+)
+"gtkEditProps.ml" 91 3691 3703 "gtkEditProps.ml" 91 3691 3723
+type(
+  string
+)
+"gtkEditProps.ml" 91 3691 3732 "gtkEditProps.ml" 91 3691 3738
+type(
+  [> `entry ] as 'q
+)
+"gtkEditProps.ml" 91 3691 3755 "gtkEditProps.ml" 91 3691 3756
+type(
+  GtkEnums.delete_type -> int -> unit
+)
+ident(
+  def f "gtkEditProps.ml" 92 3760 3767 "gtkEditProps.ml" 93 3806 3847
+)
+"gtkEditProps.ml" 92 3760 3767 "gtkEditProps.ml" 92 3760 3775
+type(
+  GtkEnums.delete_type Gobject.data_conv ->
+  int Gobject.data_conv ->
+  string -> (GtkEnums.delete_type -> int -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkEditProps.ml" 92 3760 3776 "gtkEditProps.ml" 92 3760 3801
+type(
+  GtkEnums.delete_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.delete_type_conv
+)
+"gtkEditProps.ml" 92 3760 3802 "gtkEditProps.ml" 92 3760 3805
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 93 3806 3815 "gtkEditProps.ml" 93 3806 3845
+type(
+  string
+)
+"gtkEditProps.ml" 93 3806 3846 "gtkEditProps.ml" 93 3806 3847
+type(
+  GtkEnums.delete_type -> int -> unit
+)
+ident(
+  int_ref f "gtkEditProps.ml" 91 3691 3755 "gtkEditProps.ml" 91 3691 3756
+)
+"gtkEditProps.ml" 92 3760 3767 "gtkEditProps.ml" 93 3806 3847
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 91 3691 3751 "gtkEditProps.ml" 93 3806 3847
+type(
+  (GtkEnums.delete_type -> int -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 91 3691 3697 "gtkEditProps.ml" 93 3806 3848
+type(
+  ('q, GtkEnums.delete_type -> int -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 94 3849 3857 "gtkEditProps.ml" 94 3849 3873
+type(
+  ([> `entry ], string -> unit) GtkSignal.t
+)
+ident(
+  def insert_at_cursor "gtkEditProps.ml" 97 3998 4002 "gtkEditProps.ml" 109 4585 4590
+)
+"gtkEditProps.ml" 95 3876 3888 "gtkEditProps.ml" 95 3876 3906
+type(
+  string
+)
+"gtkEditProps.ml" 95 3876 3915 "gtkEditProps.ml" 95 3876 3921
+type(
+  [> `entry ] as 'r
+)
+"gtkEditProps.ml" 95 3876 3938 "gtkEditProps.ml" 95 3876 3939
+type(
+  string -> unit
+)
+ident(
+  def f "gtkEditProps.ml" 96 3943 3950 "gtkEditProps.ml" 96 3943 3996
+)
+"gtkEditProps.ml" 96 3943 3950 "gtkEditProps.ml" 96 3943 3958
+type(
+  string Gobject.data_conv -> string -> (string -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkEditProps.ml" 96 3943 3959 "gtkEditProps.ml" 96 3943 3965
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkEditProps.ml" 96 3943 3966 "gtkEditProps.ml" 96 3943 3994
+type(
+  string
+)
+"gtkEditProps.ml" 96 3943 3995 "gtkEditProps.ml" 96 3943 3996
+type(
+  string -> unit
+)
+ident(
+  int_ref f "gtkEditProps.ml" 95 3876 3938 "gtkEditProps.ml" 95 3876 3939
+)
+"gtkEditProps.ml" 96 3943 3950 "gtkEditProps.ml" 96 3943 3996
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 95 3876 3934 "gtkEditProps.ml" 96 3943 3996
+type(
+  (string -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 95 3876 3882 "gtkEditProps.ml" 96 3943 3997
+type(
+  ('r, string -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 97 3998 4006 "gtkEditProps.ml" 97 3998 4017
+type(
+  ([> `entry ], GtkEnums.movement_step -> int -> extend:bool -> unit)
+  GtkSignal.t
+)
+ident(
+  def move_cursor "gtkEditProps.ml" 101 4209 4213 "gtkEditProps.ml" 109 4585 4590
+)
+"gtkEditProps.ml" 98 4020 4032 "gtkEditProps.ml" 98 4020 4045
+type(
+  string
+)
+"gtkEditProps.ml" 98 4020 4054 "gtkEditProps.ml" 98 4020 4060
+type(
+  [> `entry ] as 's
+)
+"gtkEditProps.ml" 98 4020 4077 "gtkEditProps.ml" 98 4020 4078
+type(
+  GtkEnums.movement_step -> int -> extend:bool -> unit
+)
+ident(
+  def f "gtkEditProps.ml" 99 4082 4089 "gtkEditProps.ml" 100 4138 4207
+)
+"gtkEditProps.ml" 99 4082 4089 "gtkEditProps.ml" 99 4082 4097
+type(
+  GtkEnums.movement_step Gobject.data_conv ->
+  int Gobject.data_conv ->
+  bool Gobject.data_conv ->
+  string ->
+  (GtkEnums.movement_step -> int -> bool -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal3
+)
+"gtkEditProps.ml" 99 4082 4098 "gtkEditProps.ml" 99 4082 4125
+type(
+  GtkEnums.movement_step Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.movement_step_conv
+)
+"gtkEditProps.ml" 99 4082 4126 "gtkEditProps.ml" 99 4082 4129
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 99 4082 4130 "gtkEditProps.ml" 99 4082 4137
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 100 4138 4147 "gtkEditProps.ml" 100 4138 4170
+type(
+  string
+)
+"gtkEditProps.ml" 100 4138 4176 "gtkEditProps.ml" 100 4138 4178
+type(
+  GtkEnums.movement_step
+)
+ident(
+  def x1 "gtkEditProps.ml" 100 4138 4179 "gtkEditProps.ml" 100 4138 4206
+)
+"gtkEditProps.ml" 100 4138 4179 "gtkEditProps.ml" 100 4138 4181
+type(
+  int
+)
+ident(
+  def x2 "gtkEditProps.ml" 100 4138 4182 "gtkEditProps.ml" 100 4138 4206
+)
+"gtkEditProps.ml" 100 4138 4182 "gtkEditProps.ml" 100 4138 4184
+type(
+  bool
+)
+ident(
+  def x3 "gtkEditProps.ml" 100 4138 4188 "gtkEditProps.ml" 100 4138 4206
+)
+"gtkEditProps.ml" 100 4138 4188 "gtkEditProps.ml" 100 4138 4189
+type(
+  GtkEnums.movement_step -> int -> extend:bool -> unit
+)
+ident(
+  int_ref f "gtkEditProps.ml" 98 4020 4077 "gtkEditProps.ml" 98 4020 4078
+)
+"gtkEditProps.ml" 100 4138 4190 "gtkEditProps.ml" 100 4138 4192
+type(
+  GtkEnums.movement_step
+)
+ident(
+  int_ref x1 "gtkEditProps.ml" 100 4138 4176 "gtkEditProps.ml" 100 4138 4178
+)
+"gtkEditProps.ml" 100 4138 4193 "gtkEditProps.ml" 100 4138 4195
+type(
+  int
+)
+ident(
+  int_ref x2 "gtkEditProps.ml" 100 4138 4179 "gtkEditProps.ml" 100 4138 4181
+)
+"gtkEditProps.ml" 100 4138 4204 "gtkEditProps.ml" 100 4138 4206
+type(
+  bool
+)
+ident(
+  int_ref x3 "gtkEditProps.ml" 100 4138 4182 "gtkEditProps.ml" 100 4138 4184
+)
+"gtkEditProps.ml" 100 4138 4188 "gtkEditProps.ml" 100 4138 4206
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkEditProps.ml" 100 4138 4171 "gtkEditProps.ml" 100 4138 4207
+type(
+  GtkEnums.movement_step -> int -> bool -> unit
+)
+"gtkEditProps.ml" 99 4082 4089 "gtkEditProps.ml" 100 4138 4207
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 98 4020 4073 "gtkEditProps.ml" 100 4138 4207
+type(
+  (GtkEnums.movement_step -> int -> extend:bool -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 98 4020 4026 "gtkEditProps.ml" 100 4138 4208
+type(
+  ('s, GtkEnums.movement_step -> int -> extend:bool -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 101 4209 4217 "gtkEditProps.ml" 101 4209 4232
+type(
+  ([> `entry ], unit -> unit) GtkSignal.t
+)
+ident(
+  def paste_clipboard "gtkEditProps.ml" 103 4306 4310 "gtkEditProps.ml" 109 4585 4590
+)
+"gtkEditProps.ml" 102 4235 4247 "gtkEditProps.ml" 102 4235 4264
+type(
+  string
+)
+"gtkEditProps.ml" 102 4235 4273 "gtkEditProps.ml" 102 4235 4279
+type(
+  [> `entry ] as 't
+)
+"gtkEditProps.ml" 102 4235 4292 "gtkEditProps.ml" 102 4235 4304
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkEditProps.ml" 102 4235 4241 "gtkEditProps.ml" 102 4235 4305
+type(
+  ('t, unit -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 103 4306 4314 "gtkEditProps.ml" 103 4306 4328
+type(
+  ([> `entry ], Gtk.menu Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  def populate_popup "gtkEditProps.ml" 107 4486 4490 "gtkEditProps.ml" 109 4585 4590
+)
+"gtkEditProps.ml" 104 4331 4343 "gtkEditProps.ml" 104 4331 4359
+type(
+  string
+)
+"gtkEditProps.ml" 104 4331 4368 "gtkEditProps.ml" 104 4331 4374
+type(
+  [> `entry ] as 'u
+)
+"gtkEditProps.ml" 104 4331 4391 "gtkEditProps.ml" 104 4331 4392
+type(
+  Gtk.menu Gtk.obj -> unit
+)
+ident(
+  def f "gtkEditProps.ml" 105 4396 4403 "gtkEditProps.ml" 106 4447 4484
+)
+"gtkEditProps.ml" 105 4396 4403 "gtkEditProps.ml" 105 4396 4411
+type(
+  Gtk.menu Gtk.obj Gobject.data_conv ->
+  string -> (Gtk.menu Gtk.obj -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkEditProps.ml" 105 4396 4413 "gtkEditProps.ml" 105 4396 4420
+type(
+  Gtk.menu Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.menu Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkEditProps.ml" 106 4447 4456 "gtkEditProps.ml" 106 4447 4482
+type(
+  string
+)
+"gtkEditProps.ml" 106 4447 4483 "gtkEditProps.ml" 106 4447 4484
+type(
+  Gtk.menu Gtk.obj -> unit
+)
+ident(
+  int_ref f "gtkEditProps.ml" 104 4331 4391 "gtkEditProps.ml" 104 4331 4392
+)
+"gtkEditProps.ml" 105 4396 4403 "gtkEditProps.ml" 106 4447 4484
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 104 4331 4387 "gtkEditProps.ml" 106 4447 4484
+type(
+  (Gtk.menu Gtk.obj -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 104 4331 4337 "gtkEditProps.ml" 106 4447 4485
+type(
+  ('u, Gtk.menu Gtk.obj -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 107 4486 4494 "gtkEditProps.ml" 107 4486 4510
+type(
+  ([> `entry ], unit -> unit) GtkSignal.t
+)
+ident(
+  def toggle_overwrite "gtkEditProps.ml" 108 4513 4584 "gtkEditProps.ml" 109 4585 4590
+)
+"gtkEditProps.ml" 108 4513 4525 "gtkEditProps.ml" 108 4513 4543
+type(
+  string
+)
+"gtkEditProps.ml" 108 4513 4552 "gtkEditProps.ml" 108 4513 4558
+type(
+  [> `entry ] as 'v
+)
+"gtkEditProps.ml" 108 4513 4571 "gtkEditProps.ml" 108 4513 4583
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkEditProps.ml" 108 4513 4519 "gtkEditProps.ml" 108 4513 4584
+type(
+  ('v, unit -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 110 4591 4597 "gtkEditProps.ml" 110 4591 4603
+type(
+  Gtk.entry Gobject.param list -> Gtk.entry Gtk.obj
+)
+ident(
+  def create "gtkEditProps.ml" 111 4651 4653 "gtkEditProps.ml" 132 5610 5613
+)
+"gtkEditProps.ml" 110 4591 4604 "gtkEditProps.ml" 110 4591 4606
+type(
+  Gtk.entry Gobject.param list
+)
+ident(
+  def pl "gtkEditProps.ml" 110 4591 4607 "gtkEditProps.ml" 110 4591 4650
+)
+"gtkEditProps.ml" 110 4591 4625 "gtkEditProps.ml" 110 4591 4636
+type(
+  classe:string -> Gtk.entry Gobject.param list -> Gtk.entry Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkEditProps.ml" 110 4591 4637 "gtkEditProps.ml" 110 4591 4647
+type(
+  string
+)
+"gtkEditProps.ml" 110 4591 4648 "gtkEditProps.ml" 110 4591 4650
+type(
+  Gtk.entry Gobject.param list
+)
+ident(
+  int_ref pl "gtkEditProps.ml" 110 4591 4604 "gtkEditProps.ml" 110 4591 4606
+)
+"gtkEditProps.ml" 110 4591 4625 "gtkEditProps.ml" 110 4591 4650
+call(
+  tail
+)
+type(
+  Gtk.entry Gtk.obj
+)
+type(
+  Gtk.entry Gtk.obj
+)
+"gtkEditProps.ml" 120 5127 5133 "gtkEditProps.ml" 120 5127 5144
+type(
+  cont:(([> `entry ] as 'w) Gobject.param list -> 'x) ->
+  'w Gobject.param list ->
+  ?text:string ->
+  ?visibility:bool ->
+  ?max_length:int ->
+  ?activates_default:bool ->
+  ?editable:bool ->
+  ?has_frame:bool -> ?width_chars:int -> ?xalign:float -> 'x
+)
+ident(
+  def make_params "gtkEditProps.ml" 131 5598 5609 "gtkEditProps.ml" 132 5610 5613
+)
+"gtkEditProps.ml" 120 5127 5146 "gtkEditProps.ml" 120 5127 5150
+type(
+  'w Gobject.param list -> 'x
+)
+ident(
+  def cont "gtkEditProps.ml" 120 5127 5151 "gtkEditProps.ml" 131 5598 5609
+)
+"gtkEditProps.ml" 120 5127 5151 "gtkEditProps.ml" 120 5127 5153
+type(
+  'w Gobject.param list
+)
+ident(
+  def pl "gtkEditProps.ml" 120 5127 5154 "gtkEditProps.ml" 131 5598 5609
+)
+"gtkEditProps.ml" 120 5127 5155 "gtkEditProps.ml" 120 5127 5159
+type(
+  string option
+)
+ident(
+  def text "gtkEditProps.ml" 120 5127 5160 "gtkEditProps.ml" 131 5598 5609
+)
+"gtkEditProps.ml" 120 5127 5161 "gtkEditProps.ml" 120 5127 5171
+type(
+  bool option
+)
+ident(
+  def visibility "gtkEditProps.ml" 120 5127 5172 "gtkEditProps.ml" 131 5598 5609
+)
+"gtkEditProps.ml" 120 5127 5173 "gtkEditProps.ml" 120 5127 5183
+type(
+  int option
+)
+ident(
+  def max_length "gtkEditProps.ml" 120 5127 5184 "gtkEditProps.ml" 131 5598 5609
+)
+"gtkEditProps.ml" 120 5127 5185 "gtkEditProps.ml" 120 5127 5202
+type(
+  bool option
+)
+ident(
+  def activates_default "gtkEditProps.ml" 121 5203 5209 "gtkEditProps.ml" 131 5598 5609
+)
+"gtkEditProps.ml" 121 5203 5210 "gtkEditProps.ml" 121 5203 5218
+type(
+  bool option
+)
+ident(
+  def editable "gtkEditProps.ml" 121 5203 5219 "gtkEditProps.ml" 131 5598 5609
+)
+"gtkEditProps.ml" 121 5203 5220 "gtkEditProps.ml" 121 5203 5229
+type(
+  bool option
+)
+ident(
+  def has_frame "gtkEditProps.ml" 121 5203 5230 "gtkEditProps.ml" 131 5598 5609
+)
+"gtkEditProps.ml" 121 5203 5231 "gtkEditProps.ml" 121 5203 5242
+type(
+  int option
+)
+ident(
+  def width_chars "gtkEditProps.ml" 121 5203 5243 "gtkEditProps.ml" 131 5598 5609
+)
+"gtkEditProps.ml" 121 5203 5244 "gtkEditProps.ml" 121 5203 5250
+type(
+  float option
+)
+ident(
+  def xalign "gtkEditProps.ml" 122 5253 5257 "gtkEditProps.ml" 131 5598 5609
+)
+"gtkEditProps.ml" 122 5253 5261 "gtkEditProps.ml" 122 5253 5263
+type(
+  'w Gobject.param list
+)
+"gtkEditProps.ml" 123 5268 5274 "gtkEditProps.ml" 123 5268 5282
+type(
+  ('w, string) Gobject.property ->
+  string option -> 'w Gobject.param list -> 'w Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 123 5268 5283 "gtkEditProps.ml" 123 5268 5289
+type(
+  ('w, string) Gobject.property
+)
+ident(
+  ext_ref P.text
+)
+"gtkEditProps.ml" 123 5268 5290 "gtkEditProps.ml" 123 5268 5294
+type(
+  string option
+)
+ident(
+  int_ref text "gtkEditProps.ml" 120 5127 5155 "gtkEditProps.ml" 120 5127 5159
+)
+"gtkEditProps.ml" 124 5297 5303 "gtkEditProps.ml" 124 5297 5311
+type(
+  ('w, bool) Gobject.property ->
+  bool option -> 'w Gobject.param list -> 'w Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 124 5297 5312 "gtkEditProps.ml" 124 5297 5324
+type(
+  ('w, bool) Gobject.property
+)
+ident(
+  ext_ref P.visibility
+)
+"gtkEditProps.ml" 124 5297 5325 "gtkEditProps.ml" 124 5297 5335
+type(
+  bool option
+)
+ident(
+  int_ref visibility "gtkEditProps.ml" 120 5127 5161 "gtkEditProps.ml" 120 5127 5171
+)
+"gtkEditProps.ml" 125 5338 5344 "gtkEditProps.ml" 125 5338 5352
+type(
+  ('w, int) Gobject.property ->
+  int option -> 'w Gobject.param list -> 'w Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 125 5338 5353 "gtkEditProps.ml" 125 5338 5365
+type(
+  ('w, int) Gobject.property
+)
+ident(
+  ext_ref P.max_length
+)
+"gtkEditProps.ml" 125 5338 5366 "gtkEditProps.ml" 125 5338 5376
+type(
+  int option
+)
+ident(
+  int_ref max_length "gtkEditProps.ml" 120 5127 5173 "gtkEditProps.ml" 120 5127 5183
+)
+"gtkEditProps.ml" 126 5379 5385 "gtkEditProps.ml" 126 5379 5393
+type(
+  ('w, bool) Gobject.property ->
+  bool option -> 'w Gobject.param list -> 'w Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 126 5379 5394 "gtkEditProps.ml" 126 5379 5413
+type(
+  ('w, bool) Gobject.property
+)
+ident(
+  ext_ref P.activates_default
+)
+"gtkEditProps.ml" 126 5379 5414 "gtkEditProps.ml" 126 5379 5431
+type(
+  bool option
+)
+ident(
+  int_ref activates_default "gtkEditProps.ml" 120 5127 5185 "gtkEditProps.ml" 120 5127 5202
+)
+"gtkEditProps.ml" 127 5434 5440 "gtkEditProps.ml" 127 5434 5448
+type(
+  ('w, bool) Gobject.property ->
+  bool option -> 'w Gobject.param list -> 'w Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 127 5434 5449 "gtkEditProps.ml" 127 5434 5459
+type(
+  ('w, bool) Gobject.property
+)
+ident(
+  ext_ref P.editable
+)
+"gtkEditProps.ml" 127 5434 5460 "gtkEditProps.ml" 127 5434 5468
+type(
+  bool option
+)
+ident(
+  int_ref editable "gtkEditProps.ml" 121 5203 5210 "gtkEditProps.ml" 121 5203 5218
+)
+"gtkEditProps.ml" 128 5471 5477 "gtkEditProps.ml" 128 5471 5485
+type(
+  ('w, bool) Gobject.property ->
+  bool option -> 'w Gobject.param list -> 'w Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 128 5471 5486 "gtkEditProps.ml" 128 5471 5497
+type(
+  ('w, bool) Gobject.property
+)
+ident(
+  ext_ref P.has_frame
+)
+"gtkEditProps.ml" 128 5471 5498 "gtkEditProps.ml" 128 5471 5507
+type(
+  bool option
+)
+ident(
+  int_ref has_frame "gtkEditProps.ml" 121 5203 5220 "gtkEditProps.ml" 121 5203 5229
+)
+"gtkEditProps.ml" 129 5510 5516 "gtkEditProps.ml" 129 5510 5524
+type(
+  ('w, int) Gobject.property ->
+  int option -> 'w Gobject.param list -> 'w Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 129 5510 5525 "gtkEditProps.ml" 129 5510 5538
+type(
+  ('w, int) Gobject.property
+)
+ident(
+  ext_ref P.width_chars
+)
+"gtkEditProps.ml" 129 5510 5539 "gtkEditProps.ml" 129 5510 5550
+type(
+  int option
+)
+ident(
+  int_ref width_chars "gtkEditProps.ml" 121 5203 5231 "gtkEditProps.ml" 121 5203 5242
+)
+"gtkEditProps.ml" 130 5553 5559 "gtkEditProps.ml" 130 5553 5567
+type(
+  ('w, float) Gobject.property ->
+  float option -> 'w Gobject.param list -> 'w Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 130 5553 5568 "gtkEditProps.ml" 130 5553 5576
+type(
+  ('w, float) Gobject.property
+)
+ident(
+  ext_ref P.xalign
+)
+"gtkEditProps.ml" 130 5553 5577 "gtkEditProps.ml" 130 5553 5583
+type(
+  float option
+)
+ident(
+  int_ref xalign "gtkEditProps.ml" 121 5203 5244 "gtkEditProps.ml" 121 5203 5250
+)
+"gtkEditProps.ml" 130 5553 5584 "gtkEditProps.ml" 130 5553 5586
+type(
+  'w Gobject.param list
+)
+ident(
+  int_ref pl "gtkEditProps.ml" 120 5127 5151 "gtkEditProps.ml" 120 5127 5153
+)
+"gtkEditProps.ml" 129 5510 5551 "gtkEditProps.ml" 130 5553 5587
+call(
+  stack
+)
+type(
+  'w Gobject.param list
+)
+"gtkEditProps.ml" 128 5471 5508 "gtkEditProps.ml" 130 5553 5588
+call(
+  stack
+)
+type(
+  'w Gobject.param list
+)
+"gtkEditProps.ml" 127 5434 5469 "gtkEditProps.ml" 130 5553 5589
+call(
+  stack
+)
+type(
+  'w Gobject.param list
+)
+"gtkEditProps.ml" 126 5379 5432 "gtkEditProps.ml" 130 5553 5590
+call(
+  stack
+)
+type(
+  'w Gobject.param list
+)
+"gtkEditProps.ml" 125 5338 5377 "gtkEditProps.ml" 130 5553 5591
+call(
+  stack
+)
+type(
+  'w Gobject.param list
+)
+"gtkEditProps.ml" 124 5297 5336 "gtkEditProps.ml" 130 5553 5592
+call(
+  stack
+)
+type(
+  'w Gobject.param list
+)
+"gtkEditProps.ml" 123 5268 5295 "gtkEditProps.ml" 130 5553 5593
+call(
+  stack
+)
+type(
+  'w Gobject.param list
+)
+"gtkEditProps.ml" 122 5253 5266 "gtkEditProps.ml" 130 5553 5594
+call(
+  stack
+)
+type(
+  'w Gobject.param list
+)
+"gtkEditProps.ml" 131 5598 5602 "gtkEditProps.ml" 131 5598 5606
+type(
+  'w Gobject.param list -> 'x
+)
+ident(
+  int_ref cont "gtkEditProps.ml" 120 5127 5146 "gtkEditProps.ml" 120 5127 5150
+)
+"gtkEditProps.ml" 131 5598 5607 "gtkEditProps.ml" 131 5598 5609
+type(
+  'w Gobject.param list
+)
+ident(
+  int_ref pl "gtkEditProps.ml" 122 5253 5261 "gtkEditProps.ml" 122 5253 5263
+)
+"gtkEditProps.ml" 131 5598 5602 "gtkEditProps.ml" 131 5598 5609
+call(
+  tail
+)
+type(
+  'x
+)
+"gtkEditProps.ml" 122 5253 5257 "gtkEditProps.ml" 131 5598 5609
+type(
+  'x
+)
+"gtkEditProps.ml" 135 5642 5648 "gtkEditProps.ml" 135 5642 5652
+type(
+  'a Gobject.obj -> Gtk.spin_button Gtk.obj
+)
+ident(
+  def cast "gtkEditProps.ml" 136 5706 5708 "gtkEditProps.ml" 183 7790 7793
+)
+"gtkEditProps.ml" 135 5642 5653 "gtkEditProps.ml" 135 5642 5654
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkEditProps.ml" 135 5642 5655 "gtkEditProps.ml" 135 5642 5705
+)
+"gtkEditProps.ml" 135 5642 5679 "gtkEditProps.ml" 135 5642 5687
+type(
+  'a Gobject.obj -> string -> Gtk.spin_button Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkEditProps.ml" 135 5642 5688 "gtkEditProps.ml" 135 5642 5689
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkEditProps.ml" 135 5642 5653 "gtkEditProps.ml" 135 5642 5654
+)
+"gtkEditProps.ml" 135 5642 5690 "gtkEditProps.ml" 135 5642 5705
+type(
+  string
+)
+"gtkEditProps.ml" 135 5642 5679 "gtkEditProps.ml" 135 5642 5705
+call(
+  tail
+)
+type(
+  Gtk.spin_button Gtk.obj
+)
+type(
+  Gtk.spin_button Gtk.obj
+)
+"gtkEditProps.ml" 137 5726 5734 "gtkEditProps.ml" 137 5726 5744
+type(
+  ([> `spinbutton ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  def adjustment "gtkEditProps.ml" 139 5850 5854 "gtkEditProps.ml" 150 6472 6477
+)
+"gtkEditProps.ml" 138 5777 5789 "gtkEditProps.ml" 138 5777 5801
+type(
+  string
+)
+"gtkEditProps.ml" 138 5777 5809 "gtkEditProps.ml" 138 5777 5816
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.adjustment Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkEditProps.ml" 138 5777 5783 "gtkEditProps.ml" 138 5777 5849
+type(
+  ([> `spinbutton ] as 'b, Gtk.adjustment Gtk.obj) Gobject.property
+)
+type(
+  ('b, Gtk.adjustment Gtk.obj) Gobject.property
+)
+"gtkEditProps.ml" 139 5850 5858 "gtkEditProps.ml" 139 5850 5868
+type(
+  ([> `spinbutton ], float) Gobject.property
+)
+ident(
+  def climb_rate "gtkEditProps.ml" 141 5940 5944 "gtkEditProps.ml" 150 6472 6477
+)
+"gtkEditProps.ml" 140 5901 5913 "gtkEditProps.ml" 140 5901 5925
+type(
+  string
+)
+"gtkEditProps.ml" 140 5901 5932 "gtkEditProps.ml" 140 5901 5938
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gtkEditProps.ml" 140 5901 5907 "gtkEditProps.ml" 140 5901 5939
+type(
+  ([> `spinbutton ] as 'c, float) Gobject.property
+)
+type(
+  ('c, float) Gobject.property
+)
+"gtkEditProps.ml" 141 5940 5948 "gtkEditProps.ml" 141 5940 5954
+type(
+  ([> `spinbutton ], int) Gobject.property
+)
+ident(
+  def digits "gtkEditProps.ml" 142 6014 6018 "gtkEditProps.ml" 150 6472 6477
+)
+"gtkEditProps.ml" 141 5940 5993 "gtkEditProps.ml" 141 5940 6001
+type(
+  string
+)
+"gtkEditProps.ml" 141 5940 6008 "gtkEditProps.ml" 141 5940 6012
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkEditProps.ml" 141 5940 5987 "gtkEditProps.ml" 141 5940 6013
+type(
+  ([> `spinbutton ] as 'd, int) Gobject.property
+)
+type(
+  ('d, int) Gobject.property
+)
+"gtkEditProps.ml" 142 6014 6022 "gtkEditProps.ml" 142 6014 6029
+type(
+  ([> `spinbutton ], bool) Gobject.property
+)
+ident(
+  def numeric "gtkEditProps.ml" 144 6099 6103 "gtkEditProps.ml" 150 6472 6477
+)
+"gtkEditProps.ml" 143 6062 6074 "gtkEditProps.ml" 143 6062 6083
+type(
+  string
+)
+"gtkEditProps.ml" 143 6062 6090 "gtkEditProps.ml" 143 6062 6097
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 143 6062 6068 "gtkEditProps.ml" 143 6062 6098
+type(
+  ([> `spinbutton ] as 'e, bool) Gobject.property
+)
+type(
+  ('e, bool) Gobject.property
+)
+"gtkEditProps.ml" 144 6099 6107 "gtkEditProps.ml" 144 6099 6120
+type(
+  ([> `spinbutton ], bool) Gobject.property
+)
+ident(
+  def snap_to_ticks "gtkEditProps.ml" 146 6196 6200 "gtkEditProps.ml" 150 6472 6477
+)
+"gtkEditProps.ml" 145 6153 6165 "gtkEditProps.ml" 145 6153 6180
+type(
+  string
+)
+"gtkEditProps.ml" 145 6153 6187 "gtkEditProps.ml" 145 6153 6194
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 145 6153 6159 "gtkEditProps.ml" 145 6153 6195
+type(
+  ([> `spinbutton ] as 'f, bool) Gobject.property
+)
+type(
+  ('f, bool) Gobject.property
+)
+"gtkEditProps.ml" 146 6196 6204 "gtkEditProps.ml" 146 6196 6217
+type(
+  ([> `spinbutton ], GtkEnums.spin_button_update_policy) Gobject.property
+)
+ident(
+  def update_policy "gtkEditProps.ml" 148 6325 6329 "gtkEditProps.ml" 150 6472 6477
+)
+"gtkEditProps.ml" 147 6250 6262 "gtkEditProps.ml" 147 6250 6277
+type(
+  string
+)
+"gtkEditProps.ml" 147 6250 6284 "gtkEditProps.ml" 147 6250 6323
+type(
+  GtkEnums.spin_button_update_policy Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.spin_button_update_policy_conv
+)
+"gtkEditProps.ml" 147 6250 6256 "gtkEditProps.ml" 147 6250 6324
+type(
+  ([> `spinbutton ] as 'g, GtkEnums.spin_button_update_policy)
+  Gobject.property
+)
+type(
+  ('g, GtkEnums.spin_button_update_policy) Gobject.property
+)
+"gtkEditProps.ml" 148 6325 6333 "gtkEditProps.ml" 148 6325 6338
+type(
+  ([> `spinbutton ], float) Gobject.property
+)
+ident(
+  def value "gtkEditProps.ml" 149 6399 6403 "gtkEditProps.ml" 150 6472 6477
+)
+"gtkEditProps.ml" 148 6325 6377 "gtkEditProps.ml" 148 6325 6384
+type(
+  string
+)
+"gtkEditProps.ml" 148 6325 6391 "gtkEditProps.ml" 148 6325 6397
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gtkEditProps.ml" 148 6325 6371 "gtkEditProps.ml" 148 6325 6398
+type(
+  ([> `spinbutton ] as 'h, float) Gobject.property
+)
+type(
+  ('h, float) Gobject.property
+)
+"gtkEditProps.ml" 149 6399 6407 "gtkEditProps.ml" 149 6399 6411
+type(
+  ([> `spinbutton ], bool) Gobject.property
+)
+ident(
+  def wrap "gtkEditProps.ml" 149 6399 6471 "gtkEditProps.ml" 150 6472 6477
+)
+"gtkEditProps.ml" 149 6399 6450 "gtkEditProps.ml" 149 6399 6456
+type(
+  string
+)
+"gtkEditProps.ml" 149 6399 6463 "gtkEditProps.ml" 149 6399 6470
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 149 6399 6444 "gtkEditProps.ml" 149 6399 6471
+type(
+  ([> `spinbutton ] as 'i, bool) Gobject.property
+)
+type(
+  ('i, bool) Gobject.property
+)
+"gtkEditProps.ml" 153 6517 6525 "gtkEditProps.ml" 153 6517 6537
+type(
+  ([> `spinbutton ], GtkEnums.scroll_type -> unit) GtkSignal.t
+)
+ident(
+  def change_value "gtkEditProps.ml" 156 6683 6687 "gtkEditProps.ml" 166 7091 7096
+)
+"gtkEditProps.ml" 154 6540 6552 "gtkEditProps.ml" 154 6540 6566
+type(
+  string
+)
+"gtkEditProps.ml" 154 6540 6575 "gtkEditProps.ml" 154 6540 6586
+type(
+  [> `spinbutton ] as 'j
+)
+"gtkEditProps.ml" 154 6540 6603 "gtkEditProps.ml" 154 6540 6604
+type(
+  GtkEnums.scroll_type -> unit
+)
+ident(
+  def f "gtkEditProps.ml" 155 6608 6615 "gtkEditProps.ml" 155 6608 6681
+)
+"gtkEditProps.ml" 155 6608 6615 "gtkEditProps.ml" 155 6608 6623
+type(
+  GtkEnums.scroll_type Gobject.data_conv ->
+  string -> (GtkEnums.scroll_type -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkEditProps.ml" 155 6608 6624 "gtkEditProps.ml" 155 6608 6649
+type(
+  GtkEnums.scroll_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.scroll_type_conv
+)
+"gtkEditProps.ml" 155 6608 6650 "gtkEditProps.ml" 155 6608 6679
+type(
+  string
+)
+"gtkEditProps.ml" 155 6608 6680 "gtkEditProps.ml" 155 6608 6681
+type(
+  GtkEnums.scroll_type -> unit
+)
+ident(
+  int_ref f "gtkEditProps.ml" 154 6540 6603 "gtkEditProps.ml" 154 6540 6604
+)
+"gtkEditProps.ml" 155 6608 6615 "gtkEditProps.ml" 155 6608 6681
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 154 6540 6599 "gtkEditProps.ml" 155 6608 6681
+type(
+  (GtkEnums.scroll_type -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 154 6540 6546 "gtkEditProps.ml" 155 6608 6682
+type(
+  ('j, GtkEnums.scroll_type -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 156 6683 6691 "gtkEditProps.ml" 156 6683 6696
+type(
+  ([> `spinbutton ], unit -> int) GtkSignal.t
+)
+ident(
+  def input "gtkEditProps.ml" 159 6792 6796 "gtkEditProps.ml" 166 7091 7096
+)
+"gtkEditProps.ml" 157 6699 6711 "gtkEditProps.ml" 157 6699 6718
+type(
+  string
+)
+"gtkEditProps.ml" 157 6699 6727 "gtkEditProps.ml" 157 6699 6738
+type(
+  [> `spinbutton ] as 'k
+)
+"gtkEditProps.ml" 158 6740 6762 "gtkEditProps.ml" 158 6740 6763
+type(
+  unit -> int
+)
+ident(
+  def f "gtkEditProps.ml" 158 6740 6767 "gtkEditProps.ml" 158 6740 6790
+)
+"gtkEditProps.ml" 158 6740 6767 "gtkEditProps.ml" 158 6740 6779
+type(
+  ret:int Gobject.data_conv -> (unit -> int) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal0_ret
+)
+"gtkEditProps.ml" 158 6740 6785 "gtkEditProps.ml" 158 6740 6788
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 158 6740 6789 "gtkEditProps.ml" 158 6740 6790
+type(
+  unit -> int
+)
+ident(
+  int_ref f "gtkEditProps.ml" 158 6740 6762 "gtkEditProps.ml" 158 6740 6763
+)
+"gtkEditProps.ml" 158 6740 6767 "gtkEditProps.ml" 158 6740 6790
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 158 6740 6758 "gtkEditProps.ml" 158 6740 6790
+type(
+  (unit -> int) -> Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 157 6699 6705 "gtkEditProps.ml" 158 6740 6791
+type(
+  ('k, unit -> int) GtkSignal.t
+)
+"gtkEditProps.ml" 159 6792 6800 "gtkEditProps.ml" 159 6792 6806
+type(
+  ([> `spinbutton ], unit -> bool) GtkSignal.t
+)
+ident(
+  def output "gtkEditProps.ml" 162 6907 6911 "gtkEditProps.ml" 166 7091 7096
+)
+"gtkEditProps.ml" 160 6809 6821 "gtkEditProps.ml" 160 6809 6829
+type(
+  string
+)
+"gtkEditProps.ml" 160 6809 6838 "gtkEditProps.ml" 160 6809 6849
+type(
+  [> `spinbutton ] as 'l
+)
+"gtkEditProps.ml" 161 6851 6873 "gtkEditProps.ml" 161 6851 6874
+type(
+  unit -> bool
+)
+ident(
+  def f "gtkEditProps.ml" 161 6851 6878 "gtkEditProps.ml" 161 6851 6905
+)
+"gtkEditProps.ml" 161 6851 6878 "gtkEditProps.ml" 161 6851 6890
+type(
+  ret:bool Gobject.data_conv -> (unit -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal0_ret
+)
+"gtkEditProps.ml" 161 6851 6896 "gtkEditProps.ml" 161 6851 6903
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 161 6851 6904 "gtkEditProps.ml" 161 6851 6905
+type(
+  unit -> bool
+)
+ident(
+  int_ref f "gtkEditProps.ml" 161 6851 6873 "gtkEditProps.ml" 161 6851 6874
+)
+"gtkEditProps.ml" 161 6851 6878 "gtkEditProps.ml" 161 6851 6905
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 161 6851 6869 "gtkEditProps.ml" 161 6851 6905
+type(
+  (unit -> bool) -> Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 160 6809 6815 "gtkEditProps.ml" 161 6851 6906
+type(
+  ('l, unit -> bool) GtkSignal.t
+)
+"gtkEditProps.ml" 162 6907 6915 "gtkEditProps.ml" 162 6907 6928
+type(
+  ([> `spinbutton ], unit -> unit) GtkSignal.t
+)
+ident(
+  def value_changed "gtkEditProps.ml" 164 7005 7009 "gtkEditProps.ml" 166 7091 7096
+)
+"gtkEditProps.ml" 163 6931 6943 "gtkEditProps.ml" 163 6931 6958
+type(
+  string
+)
+"gtkEditProps.ml" 163 6931 6967 "gtkEditProps.ml" 163 6931 6978
+type(
+  [> `spinbutton ] as 'm
+)
+"gtkEditProps.ml" 163 6931 6991 "gtkEditProps.ml" 163 6931 7003
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkEditProps.ml" 163 6931 6937 "gtkEditProps.ml" 163 6931 7004
+type(
+  ('m, unit -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 164 7005 7013 "gtkEditProps.ml" 164 7005 7020
+type(
+  ([> `spinbutton ], unit -> unit) GtkSignal.t
+)
+ident(
+  def wrapped "gtkEditProps.ml" 165 7023 7090 "gtkEditProps.ml" 166 7091 7096
+)
+"gtkEditProps.ml" 165 7023 7035 "gtkEditProps.ml" 165 7023 7044
+type(
+  string
+)
+"gtkEditProps.ml" 165 7023 7053 "gtkEditProps.ml" 165 7023 7064
+type(
+  [> `spinbutton ] as 'n
+)
+"gtkEditProps.ml" 165 7023 7077 "gtkEditProps.ml" 165 7023 7089
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkEditProps.ml" 165 7023 7029 "gtkEditProps.ml" 165 7023 7090
+type(
+  ('n, unit -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 167 7097 7103 "gtkEditProps.ml" 167 7097 7109
+type(
+  Gtk.spin_button Gobject.param list -> Gtk.spin_button Gtk.obj
+)
+ident(
+  def create "gtkEditProps.ml" 168 7168 7170 "gtkEditProps.ml" 183 7790 7793
+)
+"gtkEditProps.ml" 167 7097 7110 "gtkEditProps.ml" 167 7097 7112
+type(
+  Gtk.spin_button Gobject.param list
+)
+ident(
+  def pl "gtkEditProps.ml" 167 7097 7113 "gtkEditProps.ml" 167 7097 7167
+)
+"gtkEditProps.ml" 167 7097 7137 "gtkEditProps.ml" 167 7097 7148
+type(
+  classe:string ->
+  Gtk.spin_button Gobject.param list -> Gtk.spin_button Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkEditProps.ml" 167 7097 7149 "gtkEditProps.ml" 167 7097 7164
+type(
+  string
+)
+"gtkEditProps.ml" 167 7097 7165 "gtkEditProps.ml" 167 7097 7167
+type(
+  Gtk.spin_button Gobject.param list
+)
+ident(
+  int_ref pl "gtkEditProps.ml" 167 7097 7110 "gtkEditProps.ml" 167 7097 7112
+)
+"gtkEditProps.ml" 167 7097 7137 "gtkEditProps.ml" 167 7097 7167
+call(
+  tail
+)
+type(
+  Gtk.spin_button Gtk.obj
+)
+type(
+  Gtk.spin_button Gtk.obj
+)
+"gtkEditProps.ml" 171 7340 7346 "gtkEditProps.ml" 171 7340 7357
+type(
+  cont:(([> `spinbutton ] as 'o) Gobject.param list -> 'p) ->
+  'o Gobject.param list ->
+  ?adjustment:Gtk.adjustment Gtk.obj ->
+  ?rate:float ->
+  ?digits:int ->
+  ?numeric:bool ->
+  ?snap_to_ticks:bool ->
+  ?update_policy:GtkEnums.spin_button_update_policy ->
+  ?value:float -> ?wrap:bool -> 'p
+)
+ident(
+  def make_params "gtkEditProps.ml" 182 7778 7789 "gtkEditProps.ml" 183 7790 7793
+)
+"gtkEditProps.ml" 171 7340 7359 "gtkEditProps.ml" 171 7340 7363
+type(
+  'o Gobject.param list -> 'p
+)
+ident(
+  def cont "gtkEditProps.ml" 171 7340 7364 "gtkEditProps.ml" 182 7778 7789
+)
+"gtkEditProps.ml" 171 7340 7364 "gtkEditProps.ml" 171 7340 7366
+type(
+  'o Gobject.param list
+)
+ident(
+  def pl "gtkEditProps.ml" 171 7340 7367 "gtkEditProps.ml" 182 7778 7789
+)
+"gtkEditProps.ml" 171 7340 7368 "gtkEditProps.ml" 171 7340 7378
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  def adjustment "gtkEditProps.ml" 171 7340 7379 "gtkEditProps.ml" 182 7778 7789
+)
+"gtkEditProps.ml" 171 7340 7380 "gtkEditProps.ml" 171 7340 7384
+type(
+  float option
+)
+ident(
+  def rate "gtkEditProps.ml" 171 7340 7385 "gtkEditProps.ml" 182 7778 7789
+)
+"gtkEditProps.ml" 171 7340 7386 "gtkEditProps.ml" 171 7340 7392
+type(
+  int option
+)
+ident(
+  def digits "gtkEditProps.ml" 171 7340 7393 "gtkEditProps.ml" 182 7778 7789
+)
+"gtkEditProps.ml" 171 7340 7394 "gtkEditProps.ml" 171 7340 7401
+type(
+  bool option
+)
+ident(
+  def numeric "gtkEditProps.ml" 171 7340 7402 "gtkEditProps.ml" 182 7778 7789
+)
+"gtkEditProps.ml" 171 7340 7403 "gtkEditProps.ml" 171 7340 7416
+type(
+  bool option
+)
+ident(
+  def snap_to_ticks "gtkEditProps.ml" 172 7417 7423 "gtkEditProps.ml" 182 7778 7789
+)
+"gtkEditProps.ml" 172 7417 7424 "gtkEditProps.ml" 172 7417 7437
+type(
+  GtkEnums.spin_button_update_policy option
+)
+ident(
+  def update_policy "gtkEditProps.ml" 172 7417 7438 "gtkEditProps.ml" 182 7778 7789
+)
+"gtkEditProps.ml" 172 7417 7439 "gtkEditProps.ml" 172 7417 7444
+type(
+  float option
+)
+ident(
+  def value "gtkEditProps.ml" 172 7417 7445 "gtkEditProps.ml" 182 7778 7789
+)
+"gtkEditProps.ml" 172 7417 7446 "gtkEditProps.ml" 172 7417 7450
+type(
+  bool option
+)
+ident(
+  def wrap "gtkEditProps.ml" 173 7453 7457 "gtkEditProps.ml" 182 7778 7789
+)
+"gtkEditProps.ml" 173 7453 7461 "gtkEditProps.ml" 173 7453 7463
+type(
+  'o Gobject.param list
+)
+"gtkEditProps.ml" 174 7468 7474 "gtkEditProps.ml" 174 7468 7482
+type(
+  ('o, Gtk.adjustment Gtk.obj) Gobject.property ->
+  Gtk.adjustment Gtk.obj option ->
+  'o Gobject.param list -> 'o Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 174 7468 7483 "gtkEditProps.ml" 174 7468 7495
+type(
+  ('o, Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref P.adjustment
+)
+"gtkEditProps.ml" 174 7468 7496 "gtkEditProps.ml" 174 7468 7506
+type(
+  Gtk.adjustment Gtk.obj option
+)
+ident(
+  int_ref adjustment "gtkEditProps.ml" 171 7340 7368 "gtkEditProps.ml" 171 7340 7378
+)
+"gtkEditProps.ml" 175 7509 7515 "gtkEditProps.ml" 175 7509 7523
+type(
+  ('o, float) Gobject.property ->
+  float option -> 'o Gobject.param list -> 'o Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 175 7509 7524 "gtkEditProps.ml" 175 7509 7536
+type(
+  ('o, float) Gobject.property
+)
+ident(
+  ext_ref P.climb_rate
+)
+"gtkEditProps.ml" 175 7509 7537 "gtkEditProps.ml" 175 7509 7541
+type(
+  float option
+)
+ident(
+  int_ref rate "gtkEditProps.ml" 171 7340 7380 "gtkEditProps.ml" 171 7340 7384
+)
+"gtkEditProps.ml" 176 7544 7550 "gtkEditProps.ml" 176 7544 7558
+type(
+  ('o, int) Gobject.property ->
+  int option -> 'o Gobject.param list -> 'o Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 176 7544 7559 "gtkEditProps.ml" 176 7544 7567
+type(
+  ('o, int) Gobject.property
+)
+ident(
+  ext_ref P.digits
+)
+"gtkEditProps.ml" 176 7544 7568 "gtkEditProps.ml" 176 7544 7574
+type(
+  int option
+)
+ident(
+  int_ref digits "gtkEditProps.ml" 171 7340 7386 "gtkEditProps.ml" 171 7340 7392
+)
+"gtkEditProps.ml" 177 7577 7583 "gtkEditProps.ml" 177 7577 7591
+type(
+  ('o, bool) Gobject.property ->
+  bool option -> 'o Gobject.param list -> 'o Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 177 7577 7592 "gtkEditProps.ml" 177 7577 7601
+type(
+  ('o, bool) Gobject.property
+)
+ident(
+  ext_ref P.numeric
+)
+"gtkEditProps.ml" 177 7577 7602 "gtkEditProps.ml" 177 7577 7609
+type(
+  bool option
+)
+ident(
+  int_ref numeric "gtkEditProps.ml" 171 7340 7394 "gtkEditProps.ml" 171 7340 7401
+)
+"gtkEditProps.ml" 178 7612 7618 "gtkEditProps.ml" 178 7612 7626
+type(
+  ('o, bool) Gobject.property ->
+  bool option -> 'o Gobject.param list -> 'o Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 178 7612 7627 "gtkEditProps.ml" 178 7612 7642
+type(
+  ('o, bool) Gobject.property
+)
+ident(
+  ext_ref P.snap_to_ticks
+)
+"gtkEditProps.ml" 178 7612 7643 "gtkEditProps.ml" 178 7612 7656
+type(
+  bool option
+)
+ident(
+  int_ref snap_to_ticks "gtkEditProps.ml" 171 7340 7403 "gtkEditProps.ml" 171 7340 7416
+)
+"gtkEditProps.ml" 179 7659 7665 "gtkEditProps.ml" 179 7659 7673
+type(
+  ('o, GtkEnums.spin_button_update_policy) Gobject.property ->
+  GtkEnums.spin_button_update_policy option ->
+  'o Gobject.param list -> 'o Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 179 7659 7674 "gtkEditProps.ml" 179 7659 7689
+type(
+  ('o, GtkEnums.spin_button_update_policy) Gobject.property
+)
+ident(
+  ext_ref P.update_policy
+)
+"gtkEditProps.ml" 179 7659 7690 "gtkEditProps.ml" 179 7659 7703
+type(
+  GtkEnums.spin_button_update_policy option
+)
+ident(
+  int_ref update_policy "gtkEditProps.ml" 172 7417 7424 "gtkEditProps.ml" 172 7417 7437
+)
+"gtkEditProps.ml" 180 7706 7712 "gtkEditProps.ml" 180 7706 7720
+type(
+  ('o, float) Gobject.property ->
+  float option -> 'o Gobject.param list -> 'o Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 180 7706 7721 "gtkEditProps.ml" 180 7706 7728
+type(
+  ('o, float) Gobject.property
+)
+ident(
+  ext_ref P.value
+)
+"gtkEditProps.ml" 180 7706 7729 "gtkEditProps.ml" 180 7706 7734
+type(
+  float option
+)
+ident(
+  int_ref value "gtkEditProps.ml" 172 7417 7439 "gtkEditProps.ml" 172 7417 7444
+)
+"gtkEditProps.ml" 181 7737 7743 "gtkEditProps.ml" 181 7737 7751
+type(
+  ('o, bool) Gobject.property ->
+  bool option -> 'o Gobject.param list -> 'o Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 181 7737 7752 "gtkEditProps.ml" 181 7737 7758
+type(
+  ('o, bool) Gobject.property
+)
+ident(
+  ext_ref P.wrap
+)
+"gtkEditProps.ml" 181 7737 7759 "gtkEditProps.ml" 181 7737 7763
+type(
+  bool option
+)
+ident(
+  int_ref wrap "gtkEditProps.ml" 172 7417 7446 "gtkEditProps.ml" 172 7417 7450
+)
+"gtkEditProps.ml" 181 7737 7764 "gtkEditProps.ml" 181 7737 7766
+type(
+  'o Gobject.param list
+)
+ident(
+  int_ref pl "gtkEditProps.ml" 171 7340 7364 "gtkEditProps.ml" 171 7340 7366
+)
+"gtkEditProps.ml" 180 7706 7735 "gtkEditProps.ml" 181 7737 7767
+call(
+  stack
+)
+type(
+  'o Gobject.param list
+)
+"gtkEditProps.ml" 179 7659 7704 "gtkEditProps.ml" 181 7737 7768
+call(
+  stack
+)
+type(
+  'o Gobject.param list
+)
+"gtkEditProps.ml" 178 7612 7657 "gtkEditProps.ml" 181 7737 7769
+call(
+  stack
+)
+type(
+  'o Gobject.param list
+)
+"gtkEditProps.ml" 177 7577 7610 "gtkEditProps.ml" 181 7737 7770
+call(
+  stack
+)
+type(
+  'o Gobject.param list
+)
+"gtkEditProps.ml" 176 7544 7575 "gtkEditProps.ml" 181 7737 7771
+call(
+  stack
+)
+type(
+  'o Gobject.param list
+)
+"gtkEditProps.ml" 175 7509 7542 "gtkEditProps.ml" 181 7737 7772
+call(
+  stack
+)
+type(
+  'o Gobject.param list
+)
+"gtkEditProps.ml" 174 7468 7507 "gtkEditProps.ml" 181 7737 7773
+call(
+  stack
+)
+type(
+  'o Gobject.param list
+)
+"gtkEditProps.ml" 173 7453 7466 "gtkEditProps.ml" 181 7737 7774
+call(
+  stack
+)
+type(
+  'o Gobject.param list
+)
+"gtkEditProps.ml" 182 7778 7782 "gtkEditProps.ml" 182 7778 7786
+type(
+  'o Gobject.param list -> 'p
+)
+ident(
+  int_ref cont "gtkEditProps.ml" 171 7340 7359 "gtkEditProps.ml" 171 7340 7363
+)
+"gtkEditProps.ml" 182 7778 7787 "gtkEditProps.ml" 182 7778 7789
+type(
+  'o Gobject.param list
+)
+ident(
+  int_ref pl "gtkEditProps.ml" 173 7453 7461 "gtkEditProps.ml" 173 7453 7463
+)
+"gtkEditProps.ml" 182 7778 7782 "gtkEditProps.ml" 182 7778 7789
+call(
+  tail
+)
+type(
+  'p
+)
+"gtkEditProps.ml" 173 7453 7457 "gtkEditProps.ml" 182 7778 7789
+type(
+  'p
+)
+"gtkEditProps.ml" 186 7817 7823 "gtkEditProps.ml" 186 7817 7827
+type(
+  'a Gobject.obj -> Gtk.combo Gtk.obj
+)
+ident(
+  def cast "gtkEditProps.ml" 187 7870 7872 "gtkEditProps.ml" 208 8763 8766
+)
+"gtkEditProps.ml" 186 7817 7828 "gtkEditProps.ml" 186 7817 7829
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkEditProps.ml" 186 7817 7830 "gtkEditProps.ml" 186 7817 7869
+)
+"gtkEditProps.ml" 186 7817 7848 "gtkEditProps.ml" 186 7817 7856
+type(
+  'a Gobject.obj -> string -> Gtk.combo Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkEditProps.ml" 186 7817 7857 "gtkEditProps.ml" 186 7817 7858
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkEditProps.ml" 186 7817 7828 "gtkEditProps.ml" 186 7817 7829
+)
+"gtkEditProps.ml" 186 7817 7859 "gtkEditProps.ml" 186 7817 7869
+type(
+  string
+)
+"gtkEditProps.ml" 186 7817 7848 "gtkEditProps.ml" 186 7817 7869
+call(
+  tail
+)
+type(
+  Gtk.combo Gtk.obj
+)
+type(
+  Gtk.combo Gtk.obj
+)
+"gtkEditProps.ml" 188 7890 7898 "gtkEditProps.ml" 188 7890 7909
+type(
+  ([> `combo ], bool) Gobject.property
+)
+ident(
+  def allow_empty "gtkEditProps.ml" 190 7978 7982 "gtkEditProps.ml" 198 8370 8375
+)
+"gtkEditProps.ml" 189 7937 7949 "gtkEditProps.ml" 189 7937 7962
+type(
+  string
+)
+"gtkEditProps.ml" 189 7937 7969 "gtkEditProps.ml" 189 7937 7976
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 189 7937 7943 "gtkEditProps.ml" 189 7937 7977
+type(
+  ([> `combo ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkEditProps.ml" 190 7978 7986 "gtkEditProps.ml" 190 7978 8000
+type(
+  ([> `combo ], bool) Gobject.property
+)
+ident(
+  def case_sensitive "gtkEditProps.ml" 192 8072 8076 "gtkEditProps.ml" 198 8370 8375
+)
+"gtkEditProps.ml" 191 8028 8040 "gtkEditProps.ml" 191 8028 8056
+type(
+  string
+)
+"gtkEditProps.ml" 191 8028 8063 "gtkEditProps.ml" 191 8028 8070
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 191 8028 8034 "gtkEditProps.ml" 191 8028 8071
+type(
+  ([> `combo ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkEditProps.ml" 192 8072 8080 "gtkEditProps.ml" 192 8072 8097
+type(
+  ([> `combo ], bool) Gobject.property
+)
+ident(
+  def enable_arrow_keys "gtkEditProps.ml" 194 8172 8176 "gtkEditProps.ml" 198 8370 8375
+)
+"gtkEditProps.ml" 193 8125 8137 "gtkEditProps.ml" 193 8125 8156
+type(
+  string
+)
+"gtkEditProps.ml" 193 8125 8163 "gtkEditProps.ml" 193 8125 8170
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 193 8125 8131 "gtkEditProps.ml" 193 8125 8171
+type(
+  ([> `combo ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkEditProps.ml" 194 8172 8180 "gtkEditProps.ml" 194 8172 8200
+type(
+  ([> `combo ], bool) Gobject.property
+)
+ident(
+  def enable_arrows_always "gtkEditProps.ml" 196 8278 8282 "gtkEditProps.ml" 198 8370 8375
+)
+"gtkEditProps.ml" 195 8228 8240 "gtkEditProps.ml" 195 8228 8262
+type(
+  string
+)
+"gtkEditProps.ml" 195 8228 8269 "gtkEditProps.ml" 195 8228 8276
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 195 8228 8234 "gtkEditProps.ml" 195 8228 8277
+type(
+  ([> `combo ] as 'e, bool) Gobject.property
+)
+type(
+  ('e, bool) Gobject.property
+)
+"gtkEditProps.ml" 196 8278 8286 "gtkEditProps.ml" 196 8278 8299
+type(
+  ([> `combo ], bool) Gobject.property
+)
+ident(
+  def value_in_list "gtkEditProps.ml" 197 8327 8369 "gtkEditProps.ml" 198 8370 8375
+)
+"gtkEditProps.ml" 197 8327 8339 "gtkEditProps.ml" 197 8327 8354
+type(
+  string
+)
+"gtkEditProps.ml" 197 8327 8361 "gtkEditProps.ml" 197 8327 8368
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 197 8327 8333 "gtkEditProps.ml" 197 8327 8369
+type(
+  ([> `combo ] as 'f, bool) Gobject.property
+)
+type(
+  ('f, bool) Gobject.property
+)
+"gtkEditProps.ml" 199 8376 8382 "gtkEditProps.ml" 199 8376 8388
+type(
+  Gtk.combo Gobject.param list -> Gtk.combo Gtk.obj
+)
+ident(
+  def create "gtkEditProps.ml" 200 8436 8438 "gtkEditProps.ml" 208 8763 8766
+)
+"gtkEditProps.ml" 199 8376 8389 "gtkEditProps.ml" 199 8376 8391
+type(
+  Gtk.combo Gobject.param list
+)
+ident(
+  def pl "gtkEditProps.ml" 199 8376 8392 "gtkEditProps.ml" 199 8376 8435
+)
+"gtkEditProps.ml" 199 8376 8410 "gtkEditProps.ml" 199 8376 8421
+type(
+  classe:string -> Gtk.combo Gobject.param list -> Gtk.combo Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkEditProps.ml" 199 8376 8422 "gtkEditProps.ml" 199 8376 8432
+type(
+  string
+)
+"gtkEditProps.ml" 199 8376 8433 "gtkEditProps.ml" 199 8376 8435
+type(
+  Gtk.combo Gobject.param list
+)
+ident(
+  int_ref pl "gtkEditProps.ml" 199 8376 8389 "gtkEditProps.ml" 199 8376 8391
+)
+"gtkEditProps.ml" 199 8376 8410 "gtkEditProps.ml" 199 8376 8435
+call(
+  tail
+)
+type(
+  Gtk.combo Gtk.obj
+)
+type(
+  Gtk.combo Gtk.obj
+)
+"gtkEditProps.ml" 200 8436 8442 "gtkEditProps.ml" 200 8436 8453
+type(
+  cont:(([> `combo ] as 'g) Gobject.param list -> 'h) ->
+  'g Gobject.param list ->
+  ?allow_empty:bool ->
+  ?case_sensitive:bool ->
+  ?enable_arrow_keys:bool -> ?value_in_list:bool -> 'h
+)
+ident(
+  def make_params "gtkEditProps.ml" 207 8751 8762 "gtkEditProps.ml" 208 8763 8766
+)
+"gtkEditProps.ml" 200 8436 8455 "gtkEditProps.ml" 200 8436 8459
+type(
+  'g Gobject.param list -> 'h
+)
+ident(
+  def cont "gtkEditProps.ml" 200 8436 8460 "gtkEditProps.ml" 207 8751 8762
+)
+"gtkEditProps.ml" 200 8436 8460 "gtkEditProps.ml" 200 8436 8462
+type(
+  'g Gobject.param list
+)
+ident(
+  def pl "gtkEditProps.ml" 200 8436 8463 "gtkEditProps.ml" 207 8751 8762
+)
+"gtkEditProps.ml" 200 8436 8464 "gtkEditProps.ml" 200 8436 8475
+type(
+  bool option
+)
+ident(
+  def allow_empty "gtkEditProps.ml" 200 8436 8476 "gtkEditProps.ml" 207 8751 8762
+)
+"gtkEditProps.ml" 200 8436 8477 "gtkEditProps.ml" 200 8436 8491
+type(
+  bool option
+)
+ident(
+  def case_sensitive "gtkEditProps.ml" 200 8436 8492 "gtkEditProps.ml" 207 8751 8762
+)
+"gtkEditProps.ml" 200 8436 8493 "gtkEditProps.ml" 200 8436 8510
+type(
+  bool option
+)
+ident(
+  def enable_arrow_keys "gtkEditProps.ml" 201 8511 8517 "gtkEditProps.ml" 207 8751 8762
+)
+"gtkEditProps.ml" 201 8511 8518 "gtkEditProps.ml" 201 8511 8531
+type(
+  bool option
+)
+ident(
+  def value_in_list "gtkEditProps.ml" 202 8534 8538 "gtkEditProps.ml" 207 8751 8762
+)
+"gtkEditProps.ml" 202 8534 8542 "gtkEditProps.ml" 202 8534 8544
+type(
+  'g Gobject.param list
+)
+"gtkEditProps.ml" 203 8549 8555 "gtkEditProps.ml" 203 8549 8563
+type(
+  ('g, bool) Gobject.property ->
+  bool option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 203 8549 8564 "gtkEditProps.ml" 203 8549 8577
+type(
+  ('g, bool) Gobject.property
+)
+ident(
+  ext_ref P.allow_empty
+)
+"gtkEditProps.ml" 203 8549 8578 "gtkEditProps.ml" 203 8549 8589
+type(
+  bool option
+)
+ident(
+  int_ref allow_empty "gtkEditProps.ml" 200 8436 8464 "gtkEditProps.ml" 200 8436 8475
+)
+"gtkEditProps.ml" 204 8592 8598 "gtkEditProps.ml" 204 8592 8606
+type(
+  ('g, bool) Gobject.property ->
+  bool option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 204 8592 8607 "gtkEditProps.ml" 204 8592 8623
+type(
+  ('g, bool) Gobject.property
+)
+ident(
+  ext_ref P.case_sensitive
+)
+"gtkEditProps.ml" 204 8592 8624 "gtkEditProps.ml" 204 8592 8638
+type(
+  bool option
+)
+ident(
+  int_ref case_sensitive "gtkEditProps.ml" 200 8436 8477 "gtkEditProps.ml" 200 8436 8491
+)
+"gtkEditProps.ml" 205 8641 8647 "gtkEditProps.ml" 205 8641 8655
+type(
+  ('g, bool) Gobject.property ->
+  bool option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 205 8641 8656 "gtkEditProps.ml" 205 8641 8675
+type(
+  ('g, bool) Gobject.property
+)
+ident(
+  ext_ref P.enable_arrow_keys
+)
+"gtkEditProps.ml" 205 8641 8676 "gtkEditProps.ml" 205 8641 8693
+type(
+  bool option
+)
+ident(
+  int_ref enable_arrow_keys "gtkEditProps.ml" 200 8436 8493 "gtkEditProps.ml" 200 8436 8510
+)
+"gtkEditProps.ml" 206 8696 8702 "gtkEditProps.ml" 206 8696 8710
+type(
+  ('g, bool) Gobject.property ->
+  bool option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 206 8696 8711 "gtkEditProps.ml" 206 8696 8726
+type(
+  ('g, bool) Gobject.property
+)
+ident(
+  ext_ref P.value_in_list
+)
+"gtkEditProps.ml" 206 8696 8727 "gtkEditProps.ml" 206 8696 8740
+type(
+  bool option
+)
+ident(
+  int_ref value_in_list "gtkEditProps.ml" 201 8511 8518 "gtkEditProps.ml" 201 8511 8531
+)
+"gtkEditProps.ml" 206 8696 8741 "gtkEditProps.ml" 206 8696 8743
+type(
+  'g Gobject.param list
+)
+ident(
+  int_ref pl "gtkEditProps.ml" 200 8436 8460 "gtkEditProps.ml" 200 8436 8462
+)
+"gtkEditProps.ml" 205 8641 8694 "gtkEditProps.ml" 206 8696 8744
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkEditProps.ml" 204 8592 8639 "gtkEditProps.ml" 206 8696 8745
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkEditProps.ml" 203 8549 8590 "gtkEditProps.ml" 206 8696 8746
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkEditProps.ml" 202 8534 8547 "gtkEditProps.ml" 206 8696 8747
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkEditProps.ml" 207 8751 8755 "gtkEditProps.ml" 207 8751 8759
+type(
+  'g Gobject.param list -> 'h
+)
+ident(
+  int_ref cont "gtkEditProps.ml" 200 8436 8455 "gtkEditProps.ml" 200 8436 8459
+)
+"gtkEditProps.ml" 207 8751 8760 "gtkEditProps.ml" 207 8751 8762
+type(
+  'g Gobject.param list
+)
+ident(
+  int_ref pl "gtkEditProps.ml" 202 8534 8542 "gtkEditProps.ml" 202 8534 8544
+)
+"gtkEditProps.ml" 207 8751 8755 "gtkEditProps.ml" 207 8751 8762
+call(
+  tail
+)
+type(
+  'h
+)
+"gtkEditProps.ml" 202 8534 8538 "gtkEditProps.ml" 207 8751 8762
+type(
+  'h
+)
+"gtkEditProps.ml" 211 8793 8799 "gtkEditProps.ml" 211 8793 8803
+type(
+  'a Gobject.obj -> Gtk.combo_box Gtk.obj
+)
+ident(
+  def cast "gtkEditProps.ml" 212 8853 8855 "gtkEditProps.ml" 250 10522 10525
+)
+"gtkEditProps.ml" 211 8793 8804 "gtkEditProps.ml" 211 8793 8805
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkEditProps.ml" 211 8793 8806 "gtkEditProps.ml" 211 8793 8852
+)
+"gtkEditProps.ml" 211 8793 8828 "gtkEditProps.ml" 211 8793 8836
+type(
+  'a Gobject.obj -> string -> Gtk.combo_box Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkEditProps.ml" 211 8793 8837 "gtkEditProps.ml" 211 8793 8838
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkEditProps.ml" 211 8793 8804 "gtkEditProps.ml" 211 8793 8805
+)
+"gtkEditProps.ml" 211 8793 8839 "gtkEditProps.ml" 211 8793 8852
+type(
+  string
+)
+"gtkEditProps.ml" 211 8793 8828 "gtkEditProps.ml" 211 8793 8852
+call(
+  tail
+)
+type(
+  Gtk.combo_box Gtk.obj
+)
+type(
+  Gtk.combo_box Gtk.obj
+)
+"gtkEditProps.ml" 213 8873 8881 "gtkEditProps.ml" 213 8873 8886
+type(
+  ([> `combobox ], Gtk.tree_model) Gobject.property
+)
+ident(
+  def model "gtkEditProps.ml" 214 8936 8940 "gtkEditProps.ml" 226 9549 9554
+)
+"gtkEditProps.ml" 213 8873 8917 "gtkEditProps.ml" 213 8873 8935
+type(
+  ([> `combobox ] as 'b, Gtk.tree_model) Gobject.property
+)
+type(
+  ('b, Gtk.tree_model) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.model
+)
+"gtkEditProps.ml" 214 8936 8944 "gtkEditProps.ml" 214 8936 8950
+type(
+  ([> `combobox ], int) Gobject.property
+)
+ident(
+  def active "gtkEditProps.ml" 215 9007 9011 "gtkEditProps.ml" 226 9549 9554
+)
+"gtkEditProps.ml" 214 8936 8987 "gtkEditProps.ml" 214 8936 8995
+type(
+  string
+)
+"gtkEditProps.ml" 214 8936 9002 "gtkEditProps.ml" 214 8936 9005
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 214 8936 8981 "gtkEditProps.ml" 214 8936 9006
+type(
+  ([> `combobox ] as 'c, int) Gobject.property
+)
+type(
+  ('c, int) Gobject.property
+)
+"gtkEditProps.ml" 215 9007 9015 "gtkEditProps.ml" 215 9007 9027
+type(
+  ([> `combobox ], bool) Gobject.property
+)
+ident(
+  def add_tearoffs "gtkEditProps.ml" 217 9100 9104 "gtkEditProps.ml" 226 9549 9554
+)
+"gtkEditProps.ml" 216 9058 9070 "gtkEditProps.ml" 216 9058 9084
+type(
+  string
+)
+"gtkEditProps.ml" 216 9058 9091 "gtkEditProps.ml" 216 9058 9098
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 216 9058 9064 "gtkEditProps.ml" 216 9058 9099
+type(
+  ([> `combobox ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkEditProps.ml" 217 9100 9108 "gtkEditProps.ml" 217 9100 9126
+type(
+  ([> `combobox ], int) Gobject.property
+)
+ident(
+  def column_span_column "gtkEditProps.ml" 219 9201 9205 "gtkEditProps.ml" 226 9549 9554
+)
+"gtkEditProps.ml" 218 9157 9169 "gtkEditProps.ml" 218 9157 9189
+type(
+  string
+)
+"gtkEditProps.ml" 218 9157 9196 "gtkEditProps.ml" 218 9157 9199
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 218 9157 9163 "gtkEditProps.ml" 218 9157 9200
+type(
+  ([> `combobox ] as 'e, int) Gobject.property
+)
+type(
+  ('e, int) Gobject.property
+)
+"gtkEditProps.ml" 219 9201 9209 "gtkEditProps.ml" 219 9201 9223
+type(
+  ([> `combobox ], bool) Gobject.property
+)
+ident(
+  def focus_on_click "gtkEditProps.ml" 221 9298 9302 "gtkEditProps.ml" 226 9549 9554
+)
+"gtkEditProps.ml" 220 9254 9266 "gtkEditProps.ml" 220 9254 9282
+type(
+  string
+)
+"gtkEditProps.ml" 220 9254 9289 "gtkEditProps.ml" 220 9254 9296
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 220 9254 9260 "gtkEditProps.ml" 220 9254 9297
+type(
+  ([> `combobox ] as 'f, bool) Gobject.property
+)
+type(
+  ('f, bool) Gobject.property
+)
+"gtkEditProps.ml" 221 9298 9306 "gtkEditProps.ml" 221 9298 9315
+type(
+  ([> `combobox ], bool) Gobject.property
+)
+ident(
+  def has_frame "gtkEditProps.ml" 222 9369 9373 "gtkEditProps.ml" 226 9549 9554
+)
+"gtkEditProps.ml" 221 9298 9346 "gtkEditProps.ml" 221 9298 9368
+type(
+  ([> `combobox ] as 'g, bool) Gobject.property
+)
+type(
+  ('g, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.has_frame
+)
+"gtkEditProps.ml" 222 9369 9377 "gtkEditProps.ml" 222 9369 9392
+type(
+  ([> `combobox ], int) Gobject.property
+)
+ident(
+  def row_span_column "gtkEditProps.ml" 224 9464 9468 "gtkEditProps.ml" 226 9549 9554
+)
+"gtkEditProps.ml" 223 9423 9435 "gtkEditProps.ml" 223 9423 9452
+type(
+  string
+)
+"gtkEditProps.ml" 223 9423 9459 "gtkEditProps.ml" 223 9423 9462
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 223 9423 9429 "gtkEditProps.ml" 223 9423 9463
+type(
+  ([> `combobox ] as 'h, int) Gobject.property
+)
+type(
+  ('h, int) Gobject.property
+)
+"gtkEditProps.ml" 224 9464 9472 "gtkEditProps.ml" 224 9464 9482
+type(
+  ([> `combobox ], int) Gobject.property
+)
+ident(
+  def wrap_width "gtkEditProps.ml" 225 9513 9548 "gtkEditProps.ml" 226 9549 9554
+)
+"gtkEditProps.ml" 225 9513 9525 "gtkEditProps.ml" 225 9513 9537
+type(
+  string
+)
+"gtkEditProps.ml" 225 9513 9544 "gtkEditProps.ml" 225 9513 9547
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 225 9513 9519 "gtkEditProps.ml" 225 9513 9548
+type(
+  ([> `combobox ] as 'i, int) Gobject.property
+)
+type(
+  ('i, int) Gobject.property
+)
+"gtkEditProps.ml" 229 9594 9602 "gtkEditProps.ml" 229 9594 9609
+type(
+  ([> `combobox ], unit -> unit) GtkSignal.t
+)
+ident(
+  def changed "gtkEditProps.ml" 229 9594 9671 "gtkEditProps.ml" 230 9672 9677
+)
+"gtkEditProps.ml" 229 9594 9618 "gtkEditProps.ml" 229 9594 9627
+type(
+  string
+)
+"gtkEditProps.ml" 229 9594 9636 "gtkEditProps.ml" 229 9594 9645
+type(
+  [> `combobox ] as 'j
+)
+"gtkEditProps.ml" 229 9594 9658 "gtkEditProps.ml" 229 9594 9670
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkEditProps.ml" 229 9594 9612 "gtkEditProps.ml" 229 9594 9671
+type(
+  ('j, unit -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 231 9678 9684 "gtkEditProps.ml" 231 9678 9690
+type(
+  Gtk.combo_box Gobject.param list -> Gtk.combo_box Gtk.obj
+)
+ident(
+  def create "gtkEditProps.ml" 232 9745 9747 "gtkEditProps.ml" 250 10522 10525
+)
+"gtkEditProps.ml" 231 9678 9691 "gtkEditProps.ml" 231 9678 9693
+type(
+  Gtk.combo_box Gobject.param list
+)
+ident(
+  def pl "gtkEditProps.ml" 231 9678 9694 "gtkEditProps.ml" 231 9678 9744
+)
+"gtkEditProps.ml" 231 9678 9716 "gtkEditProps.ml" 231 9678 9727
+type(
+  classe:string -> Gtk.combo_box Gobject.param list -> Gtk.combo_box Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkEditProps.ml" 231 9678 9728 "gtkEditProps.ml" 231 9678 9741
+type(
+  string
+)
+"gtkEditProps.ml" 231 9678 9742 "gtkEditProps.ml" 231 9678 9744
+type(
+  Gtk.combo_box Gobject.param list
+)
+ident(
+  int_ref pl "gtkEditProps.ml" 231 9678 9691 "gtkEditProps.ml" 231 9678 9693
+)
+"gtkEditProps.ml" 231 9678 9716 "gtkEditProps.ml" 231 9678 9744
+call(
+  tail
+)
+type(
+  Gtk.combo_box Gtk.obj
+)
+type(
+  Gtk.combo_box Gtk.obj
+)
+"gtkEditProps.ml" 240 10144 10150 "gtkEditProps.ml" 240 10144 10161
+type(
+  cont:(([> `combobox ] as 'k) Gobject.param list -> 'l) ->
+  'k Gobject.param list ->
+  ?model:Gtk.tree_model ->
+  ?active:int ->
+  ?add_tearoffs:bool ->
+  ?focus_on_click:bool -> ?has_frame:bool -> ?wrap_width:int -> 'l
+)
+ident(
+  def make_params "gtkEditProps.ml" 249 10510 10521 "gtkEditProps.ml" 250 10522 10525
+)
+"gtkEditProps.ml" 240 10144 10163 "gtkEditProps.ml" 240 10144 10167
+type(
+  'k Gobject.param list -> 'l
+)
+ident(
+  def cont "gtkEditProps.ml" 240 10144 10168 "gtkEditProps.ml" 249 10510 10521
+)
+"gtkEditProps.ml" 240 10144 10168 "gtkEditProps.ml" 240 10144 10170
+type(
+  'k Gobject.param list
+)
+ident(
+  def pl "gtkEditProps.ml" 240 10144 10171 "gtkEditProps.ml" 249 10510 10521
+)
+"gtkEditProps.ml" 240 10144 10172 "gtkEditProps.ml" 240 10144 10177
+type(
+  Gtk.tree_model option
+)
+ident(
+  def model "gtkEditProps.ml" 240 10144 10178 "gtkEditProps.ml" 249 10510 10521
+)
+"gtkEditProps.ml" 240 10144 10179 "gtkEditProps.ml" 240 10144 10185
+type(
+  int option
+)
+ident(
+  def active "gtkEditProps.ml" 240 10144 10186 "gtkEditProps.ml" 249 10510 10521
+)
+"gtkEditProps.ml" 240 10144 10187 "gtkEditProps.ml" 240 10144 10199
+type(
+  bool option
+)
+ident(
+  def add_tearoffs "gtkEditProps.ml" 240 10144 10200 "gtkEditProps.ml" 249 10510 10521
+)
+"gtkEditProps.ml" 240 10144 10201 "gtkEditProps.ml" 240 10144 10215
+type(
+  bool option
+)
+ident(
+  def focus_on_click "gtkEditProps.ml" 241 10216 10222 "gtkEditProps.ml" 249 10510 10521
+)
+"gtkEditProps.ml" 241 10216 10223 "gtkEditProps.ml" 241 10216 10232
+type(
+  bool option
+)
+ident(
+  def has_frame "gtkEditProps.ml" 241 10216 10233 "gtkEditProps.ml" 249 10510 10521
+)
+"gtkEditProps.ml" 241 10216 10234 "gtkEditProps.ml" 241 10216 10244
+type(
+  int option
+)
+ident(
+  def wrap_width "gtkEditProps.ml" 242 10247 10251 "gtkEditProps.ml" 249 10510 10521
+)
+"gtkEditProps.ml" 242 10247 10255 "gtkEditProps.ml" 242 10247 10257
+type(
+  'k Gobject.param list
+)
+"gtkEditProps.ml" 243 10262 10268 "gtkEditProps.ml" 243 10262 10276
+type(
+  ('k, Gtk.tree_model) Gobject.property ->
+  Gtk.tree_model option -> 'k Gobject.param list -> 'k Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 243 10262 10277 "gtkEditProps.ml" 243 10262 10284
+type(
+  ('k, Gtk.tree_model) Gobject.property
+)
+ident(
+  ext_ref P.model
+)
+"gtkEditProps.ml" 243 10262 10285 "gtkEditProps.ml" 243 10262 10290
+type(
+  Gtk.tree_model option
+)
+ident(
+  int_ref model "gtkEditProps.ml" 240 10144 10172 "gtkEditProps.ml" 240 10144 10177
+)
+"gtkEditProps.ml" 244 10293 10299 "gtkEditProps.ml" 244 10293 10307
+type(
+  ('k, int) Gobject.property ->
+  int option -> 'k Gobject.param list -> 'k Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 244 10293 10308 "gtkEditProps.ml" 244 10293 10316
+type(
+  ('k, int) Gobject.property
+)
+ident(
+  ext_ref P.active
+)
+"gtkEditProps.ml" 244 10293 10317 "gtkEditProps.ml" 244 10293 10323
+type(
+  int option
+)
+ident(
+  int_ref active "gtkEditProps.ml" 240 10144 10179 "gtkEditProps.ml" 240 10144 10185
+)
+"gtkEditProps.ml" 245 10326 10332 "gtkEditProps.ml" 245 10326 10340
+type(
+  ('k, bool) Gobject.property ->
+  bool option -> 'k Gobject.param list -> 'k Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 245 10326 10341 "gtkEditProps.ml" 245 10326 10355
+type(
+  ('k, bool) Gobject.property
+)
+ident(
+  ext_ref P.add_tearoffs
+)
+"gtkEditProps.ml" 245 10326 10356 "gtkEditProps.ml" 245 10326 10368
+type(
+  bool option
+)
+ident(
+  int_ref add_tearoffs "gtkEditProps.ml" 240 10144 10187 "gtkEditProps.ml" 240 10144 10199
+)
+"gtkEditProps.ml" 246 10371 10377 "gtkEditProps.ml" 246 10371 10385
+type(
+  ('k, bool) Gobject.property ->
+  bool option -> 'k Gobject.param list -> 'k Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 246 10371 10386 "gtkEditProps.ml" 246 10371 10402
+type(
+  ('k, bool) Gobject.property
+)
+ident(
+  ext_ref P.focus_on_click
+)
+"gtkEditProps.ml" 246 10371 10403 "gtkEditProps.ml" 246 10371 10417
+type(
+  bool option
+)
+ident(
+  int_ref focus_on_click "gtkEditProps.ml" 240 10144 10201 "gtkEditProps.ml" 240 10144 10215
+)
+"gtkEditProps.ml" 247 10420 10426 "gtkEditProps.ml" 247 10420 10434
+type(
+  ('k, bool) Gobject.property ->
+  bool option -> 'k Gobject.param list -> 'k Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 247 10420 10435 "gtkEditProps.ml" 247 10420 10446
+type(
+  ('k, bool) Gobject.property
+)
+ident(
+  ext_ref P.has_frame
+)
+"gtkEditProps.ml" 247 10420 10447 "gtkEditProps.ml" 247 10420 10456
+type(
+  bool option
+)
+ident(
+  int_ref has_frame "gtkEditProps.ml" 241 10216 10223 "gtkEditProps.ml" 241 10216 10232
+)
+"gtkEditProps.ml" 248 10459 10465 "gtkEditProps.ml" 248 10459 10473
+type(
+  ('k, int) Gobject.property ->
+  int option -> 'k Gobject.param list -> 'k Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 248 10459 10474 "gtkEditProps.ml" 248 10459 10486
+type(
+  ('k, int) Gobject.property
+)
+ident(
+  ext_ref P.wrap_width
+)
+"gtkEditProps.ml" 248 10459 10487 "gtkEditProps.ml" 248 10459 10497
+type(
+  int option
+)
+ident(
+  int_ref wrap_width "gtkEditProps.ml" 241 10216 10234 "gtkEditProps.ml" 241 10216 10244
+)
+"gtkEditProps.ml" 248 10459 10498 "gtkEditProps.ml" 248 10459 10500
+type(
+  'k Gobject.param list
+)
+ident(
+  int_ref pl "gtkEditProps.ml" 240 10144 10168 "gtkEditProps.ml" 240 10144 10170
+)
+"gtkEditProps.ml" 247 10420 10457 "gtkEditProps.ml" 248 10459 10501
+call(
+  stack
+)
+type(
+  'k Gobject.param list
+)
+"gtkEditProps.ml" 246 10371 10418 "gtkEditProps.ml" 248 10459 10502
+call(
+  stack
+)
+type(
+  'k Gobject.param list
+)
+"gtkEditProps.ml" 245 10326 10369 "gtkEditProps.ml" 248 10459 10503
+call(
+  stack
+)
+type(
+  'k Gobject.param list
+)
+"gtkEditProps.ml" 244 10293 10324 "gtkEditProps.ml" 248 10459 10504
+call(
+  stack
+)
+type(
+  'k Gobject.param list
+)
+"gtkEditProps.ml" 243 10262 10291 "gtkEditProps.ml" 248 10459 10505
+call(
+  stack
+)
+type(
+  'k Gobject.param list
+)
+"gtkEditProps.ml" 242 10247 10260 "gtkEditProps.ml" 248 10459 10506
+call(
+  stack
+)
+type(
+  'k Gobject.param list
+)
+"gtkEditProps.ml" 249 10510 10514 "gtkEditProps.ml" 249 10510 10518
+type(
+  'k Gobject.param list -> 'l
+)
+ident(
+  int_ref cont "gtkEditProps.ml" 240 10144 10163 "gtkEditProps.ml" 240 10144 10167
+)
+"gtkEditProps.ml" 249 10510 10519 "gtkEditProps.ml" 249 10510 10521
+type(
+  'k Gobject.param list
+)
+ident(
+  int_ref pl "gtkEditProps.ml" 242 10247 10255 "gtkEditProps.ml" 242 10247 10257
+)
+"gtkEditProps.ml" 249 10510 10514 "gtkEditProps.ml" 249 10510 10521
+call(
+  tail
+)
+type(
+  'l
+)
+"gtkEditProps.ml" 242 10247 10251 "gtkEditProps.ml" 249 10510 10521
+type(
+  'l
+)
+"gtkEditProps.ml" 253 10557 10563 "gtkEditProps.ml" 253 10557 10567
+type(
+  'a Gobject.obj -> Gtk.combo_box_entry Gtk.obj
+)
+ident(
+  def cast "gtkEditProps.ml" 254 10628 10630 "gtkEditProps.ml" 259 10824 10827
+)
+"gtkEditProps.ml" 253 10557 10568 "gtkEditProps.ml" 253 10557 10569
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkEditProps.ml" 253 10557 10570 "gtkEditProps.ml" 253 10557 10627
+)
+"gtkEditProps.ml" 253 10557 10598 "gtkEditProps.ml" 253 10557 10606
+type(
+  'a Gobject.obj -> string -> Gtk.combo_box_entry Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkEditProps.ml" 253 10557 10607 "gtkEditProps.ml" 253 10557 10608
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkEditProps.ml" 253 10557 10568 "gtkEditProps.ml" 253 10557 10569
+)
+"gtkEditProps.ml" 253 10557 10609 "gtkEditProps.ml" 253 10557 10627
+type(
+  string
+)
+"gtkEditProps.ml" 253 10557 10598 "gtkEditProps.ml" 253 10557 10627
+call(
+  tail
+)
+type(
+  Gtk.combo_box_entry Gtk.obj
+)
+type(
+  Gtk.combo_box_entry Gtk.obj
+)
+"gtkEditProps.ml" 255 10648 10656 "gtkEditProps.ml" 255 10648 10667
+type(
+  ([> `comboboxentry ], int) Gobject.property
+)
+ident(
+  def text_column "gtkEditProps.ml" 256 10703 10739 "gtkEditProps.ml" 257 10740 10745
+)
+"gtkEditProps.ml" 256 10703 10715 "gtkEditProps.ml" 256 10703 10728
+type(
+  string
+)
+"gtkEditProps.ml" 256 10703 10735 "gtkEditProps.ml" 256 10703 10738
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 256 10703 10709 "gtkEditProps.ml" 256 10703 10739
+type(
+  ([> `comboboxentry ] as 'b, int) Gobject.property
+)
+type(
+  ('b, int) Gobject.property
+)
+"gtkEditProps.ml" 258 10746 10752 "gtkEditProps.ml" 258 10746 10758
+type(
+  Gtk.combo_box_entry Gobject.param list -> Gtk.combo_box_entry Gtk.obj
+)
+ident(
+  def create "gtkEditProps.ml" 258 10746 10823 "gtkEditProps.ml" 259 10824 10827
+)
+"gtkEditProps.ml" 258 10746 10759 "gtkEditProps.ml" 258 10746 10761
+type(
+  Gtk.combo_box_entry Gobject.param list
+)
+ident(
+  def pl "gtkEditProps.ml" 258 10746 10762 "gtkEditProps.ml" 258 10746 10823
+)
+"gtkEditProps.ml" 258 10746 10790 "gtkEditProps.ml" 258 10746 10801
+type(
+  classe:string ->
+  Gtk.combo_box_entry Gobject.param list -> Gtk.combo_box_entry Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkEditProps.ml" 258 10746 10802 "gtkEditProps.ml" 258 10746 10820
+type(
+  string
+)
+"gtkEditProps.ml" 258 10746 10821 "gtkEditProps.ml" 258 10746 10823
+type(
+  Gtk.combo_box_entry Gobject.param list
+)
+ident(
+  int_ref pl "gtkEditProps.ml" 258 10746 10759 "gtkEditProps.ml" 258 10746 10761
+)
+"gtkEditProps.ml" 258 10746 10790 "gtkEditProps.ml" 258 10746 10823
+call(
+  tail
+)
+type(
+  Gtk.combo_box_entry Gtk.obj
+)
+type(
+  Gtk.combo_box_entry Gtk.obj
+)
+"gtkEditProps.ml" 262 10861 10867 "gtkEditProps.ml" 262 10861 10871
+type(
+  'a Gobject.obj -> Gtk.entry_completion
+)
+ident(
+  def cast "gtkEditProps.ml" 263 10927 10929 "gtkEditProps.ml" 303 12744 12747
+)
+"gtkEditProps.ml" 262 10861 10872 "gtkEditProps.ml" 262 10861 10873
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkEditProps.ml" 262 10861 10874 "gtkEditProps.ml" 262 10861 10926
+)
+"gtkEditProps.ml" 262 10861 10895 "gtkEditProps.ml" 262 10861 10903
+type(
+  'a Gobject.obj -> string -> Gtk.entry_completion
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkEditProps.ml" 262 10861 10904 "gtkEditProps.ml" 262 10861 10905
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkEditProps.ml" 262 10861 10872 "gtkEditProps.ml" 262 10861 10873
+)
+"gtkEditProps.ml" 262 10861 10906 "gtkEditProps.ml" 262 10861 10926
+type(
+  string
+)
+"gtkEditProps.ml" 262 10861 10895 "gtkEditProps.ml" 262 10861 10926
+call(
+  tail
+)
+type(
+  Gtk.entry_completion
+)
+type(
+  Gtk.entry_completion
+)
+"gtkEditProps.ml" 264 10947 10955 "gtkEditProps.ml" 264 10947 10973
+type(
+  ([> `entrycompletion ], int) Gobject.property
+)
+ident(
+  def minimum_key_length "gtkEditProps.ml" 266 11055 11059 "gtkEditProps.ml" 267 11125 11130
+)
+"gtkEditProps.ml" 265 11011 11023 "gtkEditProps.ml" 265 11011 11043
+type(
+  string
+)
+"gtkEditProps.ml" 265 11011 11050 "gtkEditProps.ml" 265 11011 11053
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 265 11011 11017 "gtkEditProps.ml" 265 11011 11054
+type(
+  ([> `entrycompletion ] as 'b, int) Gobject.property
+)
+type(
+  ('b, int) Gobject.property
+)
+"gtkEditProps.ml" 266 11055 11063 "gtkEditProps.ml" 266 11055 11068
+type(
+  ([> `entrycompletion ], Gtk.tree_model) Gobject.property
+)
+ident(
+  def model "gtkEditProps.ml" 266 11055 11124 "gtkEditProps.ml" 267 11125 11130
+)
+"gtkEditProps.ml" 266 11055 11106 "gtkEditProps.ml" 266 11055 11124
+type(
+  ([> `entrycompletion ] as 'c, Gtk.tree_model) Gobject.property
+)
+type(
+  ('c, Gtk.tree_model) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.model
+)
+"gtkEditProps.ml" 270 11170 11178 "gtkEditProps.ml" 270 11170 11194
+type(
+  ([> `entrycompletion ], int -> unit) GtkSignal.t
+)
+ident(
+  def action_activated "gtkEditProps.ml" 273 11336 11340 "gtkEditProps.ml" 278 11614 11619
+)
+"gtkEditProps.ml" 271 11197 11209 "gtkEditProps.ml" 271 11197 11227
+type(
+  string
+)
+"gtkEditProps.ml" 271 11197 11236 "gtkEditProps.ml" 271 11197 11252
+type(
+  [> `entrycompletion ] as 'd
+)
+"gtkEditProps.ml" 271 11197 11269 "gtkEditProps.ml" 271 11197 11270
+type(
+  int -> unit
+)
+ident(
+  def f "gtkEditProps.ml" 272 11274 11281 "gtkEditProps.ml" 272 11274 11334
+)
+"gtkEditProps.ml" 272 11274 11281 "gtkEditProps.ml" 272 11274 11289
+type(
+  int Gobject.data_conv -> string -> (int -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkEditProps.ml" 272 11274 11290 "gtkEditProps.ml" 272 11274 11293
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkEditProps.ml" 272 11274 11294 "gtkEditProps.ml" 272 11274 11332
+type(
+  string
+)
+"gtkEditProps.ml" 272 11274 11333 "gtkEditProps.ml" 272 11274 11334
+type(
+  int -> unit
+)
+ident(
+  int_ref f "gtkEditProps.ml" 271 11197 11269 "gtkEditProps.ml" 271 11197 11270
+)
+"gtkEditProps.ml" 272 11274 11281 "gtkEditProps.ml" 272 11274 11334
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 271 11197 11265 "gtkEditProps.ml" 272 11274 11334
+type(
+  (int -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 271 11197 11203 "gtkEditProps.ml" 272 11274 11335
+type(
+  ('d, int -> unit) GtkSignal.t
+)
+"gtkEditProps.ml" 273 11336 11344 "gtkEditProps.ml" 273 11336 11358
+type(
+  ([> `entrycompletion ], Gtk.tree_model_filter -> Gtk.tree_iter -> bool)
+  GtkSignal.t
+)
+ident(
+  def match_selected "gtkEditProps.ml" 277 11565 11613 "gtkEditProps.ml" 278 11614 11619
+)
+"gtkEditProps.ml" 274 11361 11373 "gtkEditProps.ml" 274 11361 11389
+type(
+  string
+)
+"gtkEditProps.ml" 274 11361 11398 "gtkEditProps.ml" 274 11361 11414
+type(
+  [> `entrycompletion ] as 'e
+)
+"gtkEditProps.ml" 274 11361 11431 "gtkEditProps.ml" 274 11361 11432
+type(
+  Gtk.tree_model_filter -> Gtk.tree_iter -> bool
+)
+ident(
+  def f "gtkEditProps.ml" 275 11436 11443 "gtkEditProps.ml" 277 11565 11612
+)
+"gtkEditProps.ml" 275 11436 11443 "gtkEditProps.ml" 275 11436 11455
+type(
+  ret:bool Gobject.data_conv ->
+  Gtk.tree_model_filter Gobject.data_conv ->
+  Gtk.tree_iter Gobject.data_conv ->
+  string ->
+  (Gtk.tree_model_filter -> Gtk.tree_iter -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2_ret
+)
+"gtkEditProps.ml" 275 11436 11461 "gtkEditProps.ml" 275 11436 11468
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkEditProps.ml" 275 11436 11470 "gtkEditProps.ml" 275 11436 11477
+type(
+  Gtk.tree_model_filter Gobject.data_conv
+)
+type(
+  Gtk.tree_model_filter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkEditProps.ml" 276 11513 11523 "gtkEditProps.ml" 276 11513 11537
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+type(
+  Gtk.tree_iter Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkEditProps.ml" 277 11565 11574 "gtkEditProps.ml" 277 11565 11610
+type(
+  string
+)
+"gtkEditProps.ml" 277 11565 11611 "gtkEditProps.ml" 277 11565 11612
+type(
+  Gtk.tree_model_filter -> Gtk.tree_iter -> bool
+)
+ident(
+  int_ref f "gtkEditProps.ml" 274 11361 11431 "gtkEditProps.ml" 274 11361 11432
+)
+"gtkEditProps.ml" 275 11436 11443 "gtkEditProps.ml" 277 11565 11612
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 274 11361 11427 "gtkEditProps.ml" 277 11565 11612
+type(
+  (Gtk.tree_model_filter -> Gtk.tree_iter -> bool) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkEditProps.ml" 274 11361 11367 "gtkEditProps.ml" 277 11565 11613
+type(
+  ('e, Gtk.tree_model_filter -> Gtk.tree_iter -> bool) GtkSignal.t
+)
+"gtkEditProps.ml" 279 11620 11626 "gtkEditProps.ml" 279 11620 11632
+type(
+  [ `celllayout | `entrycompletion ] Gobject.param list ->
+  Gtk.entry_completion
+)
+ident(
+  def create "gtkEditProps.ml" 281 11707 11709 "gtkEditProps.ml" 303 12744 12747
+)
+"gtkEditProps.ml" 279 11620 11633 "gtkEditProps.ml" 279 11620 11635
+type(
+  [ `celllayout | `entrycompletion ] Gobject.param list
+)
+ident(
+  def pl "gtkEditProps.ml" 279 11620 11636 "gtkEditProps.ml" 280 11657 11706
+)
+"gtkEditProps.ml" 280 11657 11661 "gtkEditProps.ml" 280 11657 11682
+type(
+  classe:string ->
+  [ `celllayout | `entrycompletion ] Gobject.param list ->
+  Gtk.entry_completion
+)
+ident(
+  ext_ref Gobject.unsafe_create
+)
+"gtkEditProps.ml" 280 11657 11683 "gtkEditProps.ml" 280 11657 11703
+type(
+  string
+)
+"gtkEditProps.ml" 280 11657 11704 "gtkEditProps.ml" 280 11657 11706
+type(
+  [ `celllayout | `entrycompletion ] Gobject.param list
+)
+ident(
+  int_ref pl "gtkEditProps.ml" 279 11620 11633 "gtkEditProps.ml" 279 11620 11635
+)
+"gtkEditProps.ml" 280 11657 11661 "gtkEditProps.ml" 280 11657 11706
+call(
+  tail
+)
+type(
+  Gtk.entry_completion
+)
+type(
+  Gtk.entry_completion
+)
+"gtkEditProps.ml" 298 12567 12573 "gtkEditProps.ml" 298 12567 12584
+type(
+  cont:(([> `entrycompletion ] as 'f) Gobject.param list -> 'g) ->
+  'f Gobject.param list ->
+  ?minimum_key_length:int -> ?model:Gtk.tree_model -> 'g
+)
+ident(
+  def make_params "gtkEditProps.ml" 302 12732 12743 "gtkEditProps.ml" 303 12744 12747
+)
+"gtkEditProps.ml" 298 12567 12586 "gtkEditProps.ml" 298 12567 12590
+type(
+  'f Gobject.param list -> 'g
+)
+ident(
+  def cont "gtkEditProps.ml" 298 12567 12591 "gtkEditProps.ml" 302 12732 12743
+)
+"gtkEditProps.ml" 298 12567 12591 "gtkEditProps.ml" 298 12567 12593
+type(
+  'f Gobject.param list
+)
+ident(
+  def pl "gtkEditProps.ml" 298 12567 12594 "gtkEditProps.ml" 302 12732 12743
+)
+"gtkEditProps.ml" 298 12567 12595 "gtkEditProps.ml" 298 12567 12613
+type(
+  int option
+)
+ident(
+  def minimum_key_length "gtkEditProps.ml" 298 12567 12614 "gtkEditProps.ml" 302 12732 12743
+)
+"gtkEditProps.ml" 298 12567 12615 "gtkEditProps.ml" 298 12567 12620
+type(
+  Gtk.tree_model option
+)
+ident(
+  def model "gtkEditProps.ml" 299 12623 12627 "gtkEditProps.ml" 302 12732 12743
+)
+"gtkEditProps.ml" 299 12623 12631 "gtkEditProps.ml" 299 12623 12633
+type(
+  'f Gobject.param list
+)
+"gtkEditProps.ml" 300 12638 12644 "gtkEditProps.ml" 300 12638 12652
+type(
+  ('f, int) Gobject.property ->
+  int option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 300 12638 12653 "gtkEditProps.ml" 300 12638 12673
+type(
+  ('f, int) Gobject.property
+)
+ident(
+  ext_ref P.minimum_key_length
+)
+"gtkEditProps.ml" 300 12638 12674 "gtkEditProps.ml" 300 12638 12692
+type(
+  int option
+)
+ident(
+  int_ref minimum_key_length "gtkEditProps.ml" 298 12567 12595 "gtkEditProps.ml" 298 12567 12613
+)
+"gtkEditProps.ml" 301 12695 12701 "gtkEditProps.ml" 301 12695 12709
+type(
+  ('f, Gtk.tree_model) Gobject.property ->
+  Gtk.tree_model option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkEditProps.ml" 17 381 385 "gtkEditProps.ml" 17 381 393
+)
+"gtkEditProps.ml" 301 12695 12710 "gtkEditProps.ml" 301 12695 12717
+type(
+  ('f, Gtk.tree_model) Gobject.property
+)
+ident(
+  ext_ref P.model
+)
+"gtkEditProps.ml" 301 12695 12718 "gtkEditProps.ml" 301 12695 12723
+type(
+  Gtk.tree_model option
+)
+ident(
+  int_ref model "gtkEditProps.ml" 298 12567 12615 "gtkEditProps.ml" 298 12567 12620
+)
+"gtkEditProps.ml" 301 12695 12724 "gtkEditProps.ml" 301 12695 12726
+type(
+  'f Gobject.param list
+)
+ident(
+  int_ref pl "gtkEditProps.ml" 298 12567 12591 "gtkEditProps.ml" 298 12567 12593
+)
+"gtkEditProps.ml" 300 12638 12693 "gtkEditProps.ml" 301 12695 12727
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkEditProps.ml" 299 12623 12636 "gtkEditProps.ml" 301 12695 12728
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkEditProps.ml" 302 12732 12736 "gtkEditProps.ml" 302 12732 12740
+type(
+  'f Gobject.param list -> 'g
+)
+ident(
+  int_ref cont "gtkEditProps.ml" 298 12567 12586 "gtkEditProps.ml" 298 12567 12590
+)
+"gtkEditProps.ml" 302 12732 12741 "gtkEditProps.ml" 302 12732 12743
+type(
+  'f Gobject.param list
+)
+ident(
+  int_ref pl "gtkEditProps.ml" 299 12623 12631 "gtkEditProps.ml" 299 12623 12633
+)
+"gtkEditProps.ml" 302 12732 12736 "gtkEditProps.ml" 302 12732 12743
+call(
+  tail
+)
+type(
+  'g
+)
+"gtkEditProps.ml" 299 12623 12627 "gtkEditProps.ml" 302 12732 12743
+type(
+  'g
+)

@@ -1,0 +1,12 @@
+.DS_Store
+_build
+*.swp
+setup.data
+setup.log
+*.o
+*.cmx
+*.swo
+*.cmi
+*.swn
+*.byte
+*.native

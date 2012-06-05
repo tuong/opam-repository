@@ -1,0 +1,15 @@
+# OASIS_START
+# DO NOT EDIT (digest: 28cec0b55035d073468bbd2bfa227ae1)
+# Library posix_resource
+"src": include
+<src/posix_resource.{cma,cmxa}>: use_libposix_resource
+<src/*.ml{,i}>: pkg_unix
+"src/POSIXResource_stub.c": pkg_unix
+# Executable test
+"test/test.native": use_posix_resource
+"test/test.native": pkg_unix
+"test/test.native": pkg_oUnit
+<test/*.ml{,i}>: use_posix_resource
+<test/*.ml{,i}>: pkg_unix
+<test/*.ml{,i}>: pkg_oUnit
+# OASIS_STOP

@@ -1,0 +1,217 @@
+===============================================================================
+Preliminary notes:
+------------------
+Mark "o": new feature
+Mark "*": bug fixed.
+Mark "!": change that can break compatibility with older version of the library
+===============================================================================
+
+version 2.03.1, 2011-03-24:
+===========================
+* [Calendar] Fixed bug in Calendar.prev and Fcalendar.prev: mostly raised
+  exception Date.Out_of_bounds before.
+* [Printer] `Thurday' was printed instead of `Thursday'
+
+version 2.03, 2010-07-05:
+=========================
+o [Date] new function Date.precise_sub
+o [Calendar] new function Calendar.precise_sub
+  (from Dario Teixeira's suggestion)
+* [Compilation] detect whether native dynlink works
+  (prevents compilation bug on Mac OS X)
+
+version 2.02, 2009-12-11:
+=========================
+o [License] add the usual Ocaml linking exception in the license
+o [Calendar] Calendar_sig.Period.to_time is deprecated.
+  Replaced by a new function Calendar_sig.Period.safe_to_time
+o [Date] Date.Period.nb_days is deprecated.
+  Replaced by a new function Date.Period.safe_nb_days
+o [Compilation] calendarLib.cmxs provided if ocaml >= 3.11 is installed
+  (patch of Mehdi Dogguy)
+o [Date] new functions Date.make_year and Date.make_year_month
+o [Date] improve memory representation of Date.Period.t
+* [Compilation] remove installation of packed *.cmi
+* [Compilation] bug fixed under Cygwin
+* [Compilation] META files was incorrect, so "ocamlfind ocamlopt" did not work
+* [Compilation] file date_sig.mli, time_sig.mli and calendar_sig.mli was not
+  properly linked
+
+version 2.01.1, 2009-02-23:
+===========================
+o [Date] add a missing coercion rule for months
+  (e.g. "Date.make 2008 18 1" is now equal to "Date.make 2009 6 1")
+* [Date] bug fixed in date arithmetic operations due to the missing above
+  feature
+
+version 2.01, 2009-01-26:
+=========================
+o [Printer] new formats available for printers and parsers
+    - %C  century: as %Y without the two last digits
+    - %F  replace %i which is now deprecated
+    - %P  am or pm
+    - %R  shortcut for %H:%M
+    - %s  number of seconds since 1970/1/1
+    - %z  time zone in the form +hhmm (from Warren Harris' suggestion)
+    - %:z  time zone in the form +hh:mm (from Warren Harris' suggestion)
+    - %::z  time zone in the form +hh:mm:ss (from Warren Harris' suggestion)
+    - %:::z  time zone in the form +hh (from Warren Harris' suggestion)
+o [Printer] new paddings available for printers
+    - 0 (zero): pad fields with zeroes like by default
+    - ^: use uppercase if possible
+o [Compilation] calendarLib.cma and calendarLib.cmxa are now installed
+  (Janne Hellsten and Guillaume Yziquel's suggestion)
+* [Tests] test suite now uses Utils.Float.equal if required
+  (patch of Richard Jones)
+* [Compilation] small bug fixed in make install
+* [Compilation] support of win64 (patch of David Allsopp)
+
+version 2.0.4, 2008-07-07:
+==========================
+o [Printer] support of "%w" and "%V" in parsers of date from string
+* [Printer] bug fixed with "%j"
+
+version 2.0.3, 2008-05-22:
+==========================
+* [Compilation] module Period was not properly linked
+
+version 2.0.2, 2008-03-17:
+==========================
+* [Compilation] Windows build problems fixed (patch of David Allsopp)
+
+version 2.0.1, 2008-02-22:
+==========================
+* [Printer] bug fixed in printers which displayed "Mars" (instead of "March")
+* [Printer] bug fixed in printers when %p cannot be parsed
+  (error message was bad) (patch of Yaron Minski)
+* [Compilation] bug fixed in "make install" (patch of Sean Seefried)
+
+version 2.0, 2008-02-08:
+========================
+o! [License] license changes from LGPLv2 to LGPLv2.1
+   (from a suggestion of Hezekiah M. Carty)
+o! [Compilation] use -pack: all modules of the library are packed inside a
+  single module CalendarLib (calendar now requires ocaml >= 3.09.1)
+o new modules Time_sig, Date_sig and Calendar_sig
+o new module Ftime (time implementation in which seconds are floats)
+  (Hezekiah M. Carty's suggestion)
+o new module Calendar_builder (generic calendar implementation)
+o new module Fcalendar (calendar implementation using Ftime)
+o new module Calendar.Precise (calendar with a best precision)
+o hash functions are provided
+o [Printer] new modules Printer.Ftime and Printer.Fcalendar
+o [Printer] modules Printer.Date, Printer.Time and Printer.Calendar
+  respectively replace Printer.DatePrinter, Printer.TimePrinter and
+  Printer.CalendarPrinter. These last modules still exist but are deprecated.
+o [Time_Zone] new function Time_Zone.on
+o [Date] new function Date.from_day_of_year (Hezekiah M. Carty's suggestion)
+o [Date] new function Date.is_valid_date (Richard Jones' suggestion)
+o new module Utils
+o new module Version (information about version of calendar)
+o [Documentation] add tags @example, @raise and @see in the API documentation
+
+version 1.10, 2007-05-14:
+=========================
+o [Printer] "from_fstring" in printers recognizes more formats.
+  (Sean Seefried's suggestion)
+o [Printer] add Printer.set_word_regexp
+
+version 1.09.6, 2006-07-07:
+===========================
+* [Date] bug fixed in Date.to_business
+  (on some dates in the last days of january)
+
+version 1.09.5, 2006-05-26:
+===========================
+* [Date] bug fixed in Date.nth_weekday_of_month
+
+version 1.09.4, 2006-02-13:
+===========================
+o [Time_Zone] add Time_Zone.is_dst and Time_Zone.hour_of_dst
+  (Daniel Peng's suggestion)
+* [Printer] bug fixed in printers with %I, %l, %p and %r
+  (patch of Jerry Charumilind)
+* [Time_Zone] bug fixed when checking bounds in Time_Zone (patch of Daniel Peng)
+
+version 1.09.3, 2005-01-17:
+===========================
+* [Date] bug fixed in Date.to_business
+
+version 1.09.2, 2004-12-15:
+===========================
+* [Date] bug fixed in Date.from_unixfloat and Date.from_unixtm with
+  time zones <> UTC
+
+version 1.09.1, 2004-11-17:
+===========================
+o [Documentation] add tag @since in the API documentation
+* [Calendar] bug fixed in Calendar.to/from_unixfloat with time zones <> UTC
+* [Compilation] META file is now writable
+
+version 1.09.0, 2004-11-13:
+===========================
+o [Date] add Date.to_business and Date.from_business (Richard Jone's suggestion)
+o [Date] add the optional parameter ?month to Date.days_in_year
+  (Richard Jones' suggestion)
+o [Date] add Date.nth_weekday_of_month (Richard Jones' suggestion)
+o [Date] Date: add some Christian dates (Richard Jones' suggestion)
+o [Date] add Date.Period.ymd and Calendar.Period.ymds
+o [Printer] add the format string %i corresponding to the ISO-8601 notation
+o add "equal" in all the modules
+*! [Printer] ISO-8601 notation is now the default format
+* [Calendar.Period] bug fixed with negative period
+* [Calendar] bug fixed in Calendar.to/from_unixfloat and Date.to/from_unixfloat
+* [Date] bug fixed in Date.weeks_in_year
+
+version 1.08, 2004-05-18:
+=========================
+o [Date] add "week_first_last" computing the first and last days of a week in a
+  year
+
+version 1.07, 2004-03-22:
+=========================
+o [Documentation] documentation of the API with ocamldoc
+* [Compilation] compile even if no ocaml native compiler is available
+  (from a patch of Stefano Zacchiroli)
+
+version 1.06, 2003-12-05:
+=========================
+o [Compilation] improved "make install"
+* [Compilation] compile with an optimized compiler (ocamlopt.opt or ocamlc.opt)
+  if possible
+
+version 1.05, 2003-09-18:
+=========================
+o add module Printer (from a suggestion of Stefano Zacchiroli)
+o! remove to_string and from_string from Date, Time and Calendar
+  (replaced by functions of Printer)
+o Str library is no longer necessary
+o add labelled version of make in Date, Time and Calendar
+
+version 1.04, 2003-08-31:
+=========================
+o [Period] add getters in Time.Period, Date.Period and Calendar.Period
+  (from a suggestion of Christoph Bauer)
+
+version 1.03, 2003-08-25:
+=========================
+o [Calendar] add "to_time" in Calendar (Julien Forest's suggestion)
+
+version 1.02, 2003-08-18:
+=========================
+* [Compilation] bug fixed in configure.in (calendar now works with
+  caml version > 3.06)
+
+version 1.01, 2003-07-16:
+=========================
+o add to_unixtm, from_unixtm, to_unixfloat and from_unixfloat in
+  Date and Calendar
+*! change "minut" by "minute"
+*! change "egal" by "equal"
+*! change "GMT" by "UTC"
+
+(Thank's to Eric C. Cooper for those suggestions)
+
+version 1.0, 2003-07-11:
+========================
+o first release

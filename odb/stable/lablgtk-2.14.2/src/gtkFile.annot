@@ -1,0 +1,148 @@
+"gtkFile.ml" 26 1735 1739 "gtkFile.ml" 26 1735 1741
+type(
+  unit
+)
+"gtkFile.ml" 26 1735 1744 "gtkFile.ml" 26 1735 1757
+type(
+  unit -> unit
+)
+"gtkFile.ml" 26 1735 1758 "gtkFile.ml" 26 1735 1760
+type(
+  unit
+)
+"gtkFile.ml" 26 1735 1744 "gtkFile.ml" 26 1735 1760
+type(
+  unit
+)
+"gtkFile.ml" 52 2684 2690 "gtkFile.ml" 52 2684 2692
+type(
+  unit
+)
+"gtkFile.ml" 52 2684 2695 "gtkFile.ml" 52 2684 2722
+type(
+  string -> exn -> unit
+)
+ident(
+  ext_ref Callback.register_exception
+)
+"gtkFile.ml" 53 2724 2730 "gtkFile.ml" 53 2724 2754
+type(
+  string
+)
+"gtkFile.ml" 53 2724 2763 "gtkFile.ml" 53 2724 2780
+type(
+  error
+)
+"gtkFile.ml" 53 2724 2782 "gtkFile.ml" 53 2724 2784
+type(
+  string
+)
+"gtkFile.ml" 53 2724 2755 "gtkFile.ml" 53 2724 2786
+type(
+  exn
+)
+"gtkFile.ml" 52 2684 2695 "gtkFile.ml" 53 2724 2786
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkFile.ml" 117 6247 6253 "gtkFile.ml" 117 6247 6266
+type(
+  [ `bin | `container | `dialog | `filechooser | `gtk | `widget | `window ]
+  Gobject.param list ->
+  [ `bin | `container | `dialog | `filechooser | `gtk | `widget | `window ]
+  Gtk.obj
+)
+ident(
+  def dialog_create "gtkFile.ml" 118 6353 6355 "gtkFile.ml" 119 6459 6462
+)
+"gtkFile.ml" 117 6247 6267 "gtkFile.ml" 117 6247 6269
+type(
+  [ `bin | `container | `dialog | `filechooser | `gtk | `widget | `window ]
+  Gobject.param list
+)
+ident(
+  def pl "gtkFile.ml" 117 6247 6270 "gtkFile.ml" 117 6247 6352
+)
+"gtkFile.ml" 117 6247 6312 "gtkFile.ml" 117 6247 6326
+type(
+  classe:string ->
+  [ `bin | `container | `dialog | `filechooser | `gtk | `widget | `window ]
+  Gobject.param list ->
+  [ `bin | `container | `dialog | `filechooser | `gtk | `widget | `window ]
+  Gtk.obj
+)
+ident(
+  ext_ref GtkObject.make
+)
+"gtkFile.ml" 117 6247 6327 "gtkFile.ml" 117 6247 6349
+type(
+  string
+)
+"gtkFile.ml" 117 6247 6350 "gtkFile.ml" 117 6247 6352
+type(
+  [ `bin | `container | `dialog | `filechooser | `gtk | `widget | `window ]
+  Gobject.param list
+)
+ident(
+  int_ref pl "gtkFile.ml" 117 6247 6267 "gtkFile.ml" 117 6247 6269
+)
+"gtkFile.ml" 117 6247 6312 "gtkFile.ml" 117 6247 6352
+call(
+  tail
+)
+type(
+  [ `bin | `container | `dialog | `filechooser | `gtk | `widget | `window ]
+  Gtk.obj
+)
+type(
+  [ `bin | `container | `dialog | `filechooser | `gtk | `widget | `window ]
+  Gtk.obj
+)
+"gtkFile.ml" 118 6353 6359 "gtkFile.ml" 118 6353 6372
+type(
+  [ `filechooser | `gtk | `widget ] Gobject.param list ->
+  [ `filechooser | `gtk | `widget ] Gtk.obj
+)
+ident(
+  def widget_create "gtkFile.ml" 118 6353 6458 "gtkFile.ml" 119 6459 6462
+)
+"gtkFile.ml" 118 6353 6373 "gtkFile.ml" 118 6353 6375
+type(
+  [ `filechooser | `gtk | `widget ] Gobject.param list
+)
+ident(
+  def pl "gtkFile.ml" 118 6353 6376 "gtkFile.ml" 118 6353 6458
+)
+"gtkFile.ml" 118 6353 6418 "gtkFile.ml" 118 6353 6432
+type(
+  classe:string ->
+  [ `filechooser | `gtk | `widget ] Gobject.param list ->
+  [ `filechooser | `gtk | `widget ] Gtk.obj
+)
+ident(
+  ext_ref GtkObject.make
+)
+"gtkFile.ml" 118 6353 6433 "gtkFile.ml" 118 6353 6455
+type(
+  string
+)
+"gtkFile.ml" 118 6353 6456 "gtkFile.ml" 118 6353 6458
+type(
+  [ `filechooser | `gtk | `widget ] Gobject.param list
+)
+ident(
+  int_ref pl "gtkFile.ml" 118 6353 6373 "gtkFile.ml" 118 6353 6375
+)
+"gtkFile.ml" 118 6353 6418 "gtkFile.ml" 118 6353 6458
+call(
+  tail
+)
+type(
+  [ `filechooser | `gtk | `widget ] Gtk.obj
+)
+type(
+  [ `filechooser | `gtk | `widget ] Gtk.obj
+)

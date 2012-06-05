@@ -1,0 +1,16 @@
+OASISFormat: 0.2
+Name:        ocaml-glpk
+Version:     0.1.6-oasis2
+Synopsis:    OCaml bindings for GLPK
+Authors:     Samuel Mimram
+License:     GPL-2.0
+LicenseFile: COPYING
+Plugins:     META (0.2)
+
+Library glpk
+  Path:        src
+  BuildTools:  ocamlbuild
+  Modules:     Glpk
+  CSources:    glpk_stubs.c
+  CCLib:       -lglpk
+  XMETAEnable: true

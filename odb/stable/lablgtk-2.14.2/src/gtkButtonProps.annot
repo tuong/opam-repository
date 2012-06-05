@@ -1,0 +1,3533 @@
+"gtkButtonProps.ml" 8 89 95 "gtkButtonProps.ml" 8 89 100
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  def label "gtkButtonProps.ml" 9 131 133 "gtkButtonProps.ml" 11 232 235
+)
+"gtkButtonProps.ml" 8 89 109 "gtkButtonProps.ml" 8 89 116
+type(
+  string
+)
+"gtkButtonProps.ml" 8 89 123 "gtkButtonProps.ml" 8 89 129
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkButtonProps.ml" 8 89 103 "gtkButtonProps.ml" 8 89 130
+type(
+  ('a, string) Gobject.property
+)
+"gtkButtonProps.ml" 9 131 137 "gtkButtonProps.ml" 9 131 142
+type(
+  ('b, string) Gobject.property
+)
+ident(
+  def title "gtkButtonProps.ml" 10 173 175 "gtkButtonProps.ml" 11 232 235
+)
+"gtkButtonProps.ml" 9 131 151 "gtkButtonProps.ml" 9 131 158
+type(
+  string
+)
+"gtkButtonProps.ml" 9 131 165 "gtkButtonProps.ml" 9 131 171
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkButtonProps.ml" 9 131 145 "gtkButtonProps.ml" 9 131 172
+type(
+  ('b, string) Gobject.property
+)
+"gtkButtonProps.ml" 10 173 179 "gtkButtonProps.ml" 10 173 192
+type(
+  ('c, bool) Gobject.property
+)
+ident(
+  def use_underline "gtkButtonProps.ml" 10 173 231 "gtkButtonProps.ml" 11 232 235
+)
+"gtkButtonProps.ml" 10 173 201 "gtkButtonProps.ml" 10 173 216
+type(
+  string
+)
+"gtkButtonProps.ml" 10 173 223 "gtkButtonProps.ml" 10 173 230
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 10 173 195 "gtkButtonProps.ml" 10 173 231
+type(
+  ('c, bool) Gobject.property
+)
+"gtkButtonProps.ml" 13 237 241 "gtkButtonProps.ml" 13 237 249
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons "gtkButtonProps.ml" 14 270 270 --
+)
+"gtkButtonProps.ml" 13 237 252 "gtkButtonProps.ml" 13 237 269
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gtkButtonProps.ml" 14 270 274 "gtkButtonProps.ml" 14 270 286
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons_opt "gtkButtonProps.ml" 16 312 312 --
+)
+"gtkButtonProps.ml" 14 270 289 "gtkButtonProps.ml" 14 270 310
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons_opt
+)
+"gtkButtonProps.ml" 17 335 341 "gtkButtonProps.ml" 17 335 345
+type(
+  'a Gobject.obj -> Gtk.button Gtk.obj
+)
+ident(
+  def cast "gtkButtonProps.ml" 18 390 392 "gtkButtonProps.ml" 51 2009 2012
+)
+"gtkButtonProps.ml" 17 335 346 "gtkButtonProps.ml" 17 335 347
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkButtonProps.ml" 17 335 348 "gtkButtonProps.ml" 17 335 389
+)
+"gtkButtonProps.ml" 17 335 367 "gtkButtonProps.ml" 17 335 375
+type(
+  'a Gobject.obj -> string -> Gtk.button Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkButtonProps.ml" 17 335 376 "gtkButtonProps.ml" 17 335 377
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkButtonProps.ml" 17 335 346 "gtkButtonProps.ml" 17 335 347
+)
+"gtkButtonProps.ml" 17 335 378 "gtkButtonProps.ml" 17 335 389
+type(
+  string
+)
+"gtkButtonProps.ml" 17 335 367 "gtkButtonProps.ml" 17 335 389
+call(
+  tail
+)
+type(
+  Gtk.button Gtk.obj
+)
+type(
+  Gtk.button Gtk.obj
+)
+"gtkButtonProps.ml" 19 410 418 "gtkButtonProps.ml" 19 410 432
+type(
+  ([> `button ], bool) Gobject.property
+)
+ident(
+  def focus_on_click "gtkButtonProps.ml" 21 505 509 "gtkButtonProps.ml" 33 1189 1194
+)
+"gtkButtonProps.ml" 20 461 473 "gtkButtonProps.ml" 20 461 489
+type(
+  string
+)
+"gtkButtonProps.ml" 20 461 496 "gtkButtonProps.ml" 20 461 503
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 20 461 467 "gtkButtonProps.ml" 20 461 504
+type(
+  ([> `button ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkButtonProps.ml" 21 505 513 "gtkButtonProps.ml" 21 505 518
+type(
+  ([> `button ], Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  def image "gtkButtonProps.ml" 23 611 615 "gtkButtonProps.ml" 33 1189 1194
+)
+"gtkButtonProps.ml" 22 547 559 "gtkButtonProps.ml" 22 547 566
+type(
+  string
+)
+"gtkButtonProps.ml" 22 547 574 "gtkButtonProps.ml" 22 547 581
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkButtonProps.ml" 22 547 553 "gtkButtonProps.ml" 22 547 610
+type(
+  ([> `button ] as 'c, Gtk.widget Gtk.obj) Gobject.property
+)
+type(
+  ('c, Gtk.widget Gtk.obj) Gobject.property
+)
+"gtkButtonProps.ml" 23 611 619 "gtkButtonProps.ml" 23 611 633
+type(
+  ([> `button ], GtkEnums.position_type) Gobject.property
+)
+ident(
+  def image_position "gtkButtonProps.ml" 25 726 730 "gtkButtonProps.ml" 33 1189 1194
+)
+"gtkButtonProps.ml" 24 662 674 "gtkButtonProps.ml" 24 662 690
+type(
+  string
+)
+"gtkButtonProps.ml" 24 662 697 "gtkButtonProps.ml" 24 662 724
+type(
+  GtkEnums.position_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.position_type_conv
+)
+"gtkButtonProps.ml" 24 662 668 "gtkButtonProps.ml" 24 662 725
+type(
+  ([> `button ] as 'd, GtkEnums.position_type) Gobject.property
+)
+type(
+  ('d, GtkEnums.position_type) Gobject.property
+)
+"gtkButtonProps.ml" 25 726 734 "gtkButtonProps.ml" 25 726 739
+type(
+  ([> `button ], string) Gobject.property
+)
+ident(
+  def label "gtkButtonProps.ml" 26 787 791 "gtkButtonProps.ml" 33 1189 1194
+)
+"gtkButtonProps.ml" 25 726 768 "gtkButtonProps.ml" 25 726 786
+type(
+  ([> `button ] as 'e, string) Gobject.property
+)
+type(
+  ('e, string) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.label
+)
+"gtkButtonProps.ml" 26 787 795 "gtkButtonProps.ml" 26 787 804
+type(
+  ([> `button ], bool) Gobject.property
+)
+ident(
+  def use_stock "gtkButtonProps.ml" 28 872 876 "gtkButtonProps.ml" 33 1189 1194
+)
+"gtkButtonProps.ml" 27 833 845 "gtkButtonProps.ml" 27 833 856
+type(
+  string
+)
+"gtkButtonProps.ml" 27 833 863 "gtkButtonProps.ml" 27 833 870
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 27 833 839 "gtkButtonProps.ml" 27 833 871
+type(
+  ([> `button ] as 'f, bool) Gobject.property
+)
+type(
+  ('f, bool) Gobject.property
+)
+"gtkButtonProps.ml" 28 872 880 "gtkButtonProps.ml" 28 872 893
+type(
+  ([> `button ], bool) Gobject.property
+)
+ident(
+  def use_underline "gtkButtonProps.ml" 29 949 953 "gtkButtonProps.ml" 33 1189 1194
+)
+"gtkButtonProps.ml" 28 872 922 "gtkButtonProps.ml" 28 872 948
+type(
+  ([> `button ] as 'g, bool) Gobject.property
+)
+type(
+  ('g, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.use_underline
+)
+"gtkButtonProps.ml" 29 949 957 "gtkButtonProps.ml" 29 949 963
+type(
+  ([> `button ], GtkEnums.relief_style) Gobject.property
+)
+ident(
+  def relief "gtkButtonProps.ml" 31 1047 1051 "gtkButtonProps.ml" 33 1189 1194
+)
+"gtkButtonProps.ml" 30 992 1004 "gtkButtonProps.ml" 30 992 1012
+type(
+  string
+)
+"gtkButtonProps.ml" 30 992 1019 "gtkButtonProps.ml" 30 992 1045
+type(
+  GtkEnums.relief_style Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.relief_style_conv
+)
+"gtkButtonProps.ml" 30 992 998 "gtkButtonProps.ml" 30 992 1046
+type(
+  ([> `button ] as 'h, GtkEnums.relief_style) Gobject.property
+)
+type(
+  ('h, GtkEnums.relief_style) Gobject.property
+)
+"gtkButtonProps.ml" 31 1047 1055 "gtkButtonProps.ml" 31 1047 1061
+type(
+  ([> `button ], float) Gobject.property
+)
+ident(
+  def xalign "gtkButtonProps.ml" 32 1118 1122 "gtkButtonProps.ml" 33 1189 1194
+)
+"gtkButtonProps.ml" 31 1047 1096 "gtkButtonProps.ml" 31 1047 1104
+type(
+  string
+)
+"gtkButtonProps.ml" 31 1047 1111 "gtkButtonProps.ml" 31 1047 1116
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkButtonProps.ml" 31 1047 1090 "gtkButtonProps.ml" 31 1047 1117
+type(
+  ([> `button ] as 'i, float) Gobject.property
+)
+type(
+  ('i, float) Gobject.property
+)
+"gtkButtonProps.ml" 32 1118 1126 "gtkButtonProps.ml" 32 1118 1132
+type(
+  ([> `button ], float) Gobject.property
+)
+ident(
+  def yalign "gtkButtonProps.ml" 32 1118 1188 "gtkButtonProps.ml" 33 1189 1194
+)
+"gtkButtonProps.ml" 32 1118 1167 "gtkButtonProps.ml" 32 1118 1175
+type(
+  string
+)
+"gtkButtonProps.ml" 32 1118 1182 "gtkButtonProps.ml" 32 1118 1187
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.float
+)
+"gtkButtonProps.ml" 32 1118 1161 "gtkButtonProps.ml" 32 1118 1188
+type(
+  ([> `button ] as 'j, float) Gobject.property
+)
+type(
+  ('j, float) Gobject.property
+)
+"gtkButtonProps.ml" 36 1234 1242 "gtkButtonProps.ml" 36 1234 1250
+type(
+  ([> `button ], unit -> unit) GtkSignal.t
+)
+ident(
+  def activate "gtkButtonProps.ml" 37 1312 1316 "gtkButtonProps.ml" 42 1686 1691
+)
+"gtkButtonProps.ml" 36 1234 1259 "gtkButtonProps.ml" 36 1234 1269
+type(
+  string
+)
+"gtkButtonProps.ml" 36 1234 1278 "gtkButtonProps.ml" 36 1234 1285
+type(
+  [> `button ] as 'k
+)
+"gtkButtonProps.ml" 36 1234 1298 "gtkButtonProps.ml" 36 1234 1310
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkButtonProps.ml" 36 1234 1253 "gtkButtonProps.ml" 36 1234 1311
+type(
+  ('k, unit -> unit) GtkSignal.t
+)
+"gtkButtonProps.ml" 37 1312 1320 "gtkButtonProps.ml" 37 1312 1327
+type(
+  ([> `button ], unit -> unit) GtkSignal.t
+)
+ident(
+  def clicked "gtkButtonProps.ml" 38 1388 1392 "gtkButtonProps.ml" 42 1686 1691
+)
+"gtkButtonProps.ml" 37 1312 1336 "gtkButtonProps.ml" 37 1312 1345
+type(
+  string
+)
+"gtkButtonProps.ml" 37 1312 1354 "gtkButtonProps.ml" 37 1312 1361
+type(
+  [> `button ] as 'l
+)
+"gtkButtonProps.ml" 37 1312 1374 "gtkButtonProps.ml" 37 1312 1386
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkButtonProps.ml" 37 1312 1330 "gtkButtonProps.ml" 37 1312 1387
+type(
+  ('l, unit -> unit) GtkSignal.t
+)
+"gtkButtonProps.ml" 38 1388 1396 "gtkButtonProps.ml" 38 1388 1401
+type(
+  ([> `button ], unit -> unit) GtkSignal.t
+)
+ident(
+  def enter "gtkButtonProps.ml" 39 1460 1464 "gtkButtonProps.ml" 42 1686 1691
+)
+"gtkButtonProps.ml" 38 1388 1410 "gtkButtonProps.ml" 38 1388 1417
+type(
+  string
+)
+"gtkButtonProps.ml" 38 1388 1426 "gtkButtonProps.ml" 38 1388 1433
+type(
+  [> `button ] as 'm
+)
+"gtkButtonProps.ml" 38 1388 1446 "gtkButtonProps.ml" 38 1388 1458
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkButtonProps.ml" 38 1388 1404 "gtkButtonProps.ml" 38 1388 1459
+type(
+  ('m, unit -> unit) GtkSignal.t
+)
+"gtkButtonProps.ml" 39 1460 1468 "gtkButtonProps.ml" 39 1460 1473
+type(
+  ([> `button ], unit -> unit) GtkSignal.t
+)
+ident(
+  def leave "gtkButtonProps.ml" 40 1532 1536 "gtkButtonProps.ml" 42 1686 1691
+)
+"gtkButtonProps.ml" 39 1460 1482 "gtkButtonProps.ml" 39 1460 1489
+type(
+  string
+)
+"gtkButtonProps.ml" 39 1460 1498 "gtkButtonProps.ml" 39 1460 1505
+type(
+  [> `button ] as 'n
+)
+"gtkButtonProps.ml" 39 1460 1518 "gtkButtonProps.ml" 39 1460 1530
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkButtonProps.ml" 39 1460 1476 "gtkButtonProps.ml" 39 1460 1531
+type(
+  ('n, unit -> unit) GtkSignal.t
+)
+"gtkButtonProps.ml" 40 1532 1540 "gtkButtonProps.ml" 40 1532 1547
+type(
+  ([> `button ], unit -> unit) GtkSignal.t
+)
+ident(
+  def pressed "gtkButtonProps.ml" 41 1608 1612 "gtkButtonProps.ml" 42 1686 1691
+)
+"gtkButtonProps.ml" 40 1532 1556 "gtkButtonProps.ml" 40 1532 1565
+type(
+  string
+)
+"gtkButtonProps.ml" 40 1532 1574 "gtkButtonProps.ml" 40 1532 1581
+type(
+  [> `button ] as 'o
+)
+"gtkButtonProps.ml" 40 1532 1594 "gtkButtonProps.ml" 40 1532 1606
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkButtonProps.ml" 40 1532 1550 "gtkButtonProps.ml" 40 1532 1607
+type(
+  ('o, unit -> unit) GtkSignal.t
+)
+"gtkButtonProps.ml" 41 1608 1616 "gtkButtonProps.ml" 41 1608 1624
+type(
+  ([> `button ], unit -> unit) GtkSignal.t
+)
+ident(
+  def released "gtkButtonProps.ml" 41 1608 1685 "gtkButtonProps.ml" 42 1686 1691
+)
+"gtkButtonProps.ml" 41 1608 1633 "gtkButtonProps.ml" 41 1608 1643
+type(
+  string
+)
+"gtkButtonProps.ml" 41 1608 1652 "gtkButtonProps.ml" 41 1608 1659
+type(
+  [> `button ] as 'p
+)
+"gtkButtonProps.ml" 41 1608 1672 "gtkButtonProps.ml" 41 1608 1684
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkButtonProps.ml" 41 1608 1627 "gtkButtonProps.ml" 41 1608 1685
+type(
+  ('p, unit -> unit) GtkSignal.t
+)
+"gtkButtonProps.ml" 43 1692 1698 "gtkButtonProps.ml" 43 1692 1704
+type(
+  Gtk.button Gobject.param list -> Gtk.button Gtk.obj
+)
+ident(
+  def create "gtkButtonProps.ml" 44 1754 1756 "gtkButtonProps.ml" 51 2009 2012
+)
+"gtkButtonProps.ml" 43 1692 1705 "gtkButtonProps.ml" 43 1692 1707
+type(
+  Gtk.button Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 43 1692 1708 "gtkButtonProps.ml" 43 1692 1753
+)
+"gtkButtonProps.ml" 43 1692 1727 "gtkButtonProps.ml" 43 1692 1738
+type(
+  classe:string -> Gtk.button Gobject.param list -> Gtk.button Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkButtonProps.ml" 43 1692 1739 "gtkButtonProps.ml" 43 1692 1750
+type(
+  string
+)
+"gtkButtonProps.ml" 43 1692 1751 "gtkButtonProps.ml" 43 1692 1753
+type(
+  Gtk.button Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 43 1692 1705 "gtkButtonProps.ml" 43 1692 1707
+)
+"gtkButtonProps.ml" 43 1692 1727 "gtkButtonProps.ml" 43 1692 1753
+call(
+  tail
+)
+type(
+  Gtk.button Gtk.obj
+)
+type(
+  Gtk.button Gtk.obj
+)
+"gtkButtonProps.ml" 44 1754 1760 "gtkButtonProps.ml" 44 1754 1771
+type(
+  cont:(([> `button ] as 'q) Gobject.param list -> 'r) ->
+  'q Gobject.param list ->
+  ?label:string ->
+  ?use_stock:bool ->
+  ?use_underline:bool -> ?relief:GtkEnums.relief_style -> 'r
+)
+ident(
+  def make_params "gtkButtonProps.ml" 50 1997 2008 "gtkButtonProps.ml" 51 2009 2012
+)
+"gtkButtonProps.ml" 44 1754 1773 "gtkButtonProps.ml" 44 1754 1777
+type(
+  'q Gobject.param list -> 'r
+)
+ident(
+  def cont "gtkButtonProps.ml" 44 1754 1778 "gtkButtonProps.ml" 50 1997 2008
+)
+"gtkButtonProps.ml" 44 1754 1778 "gtkButtonProps.ml" 44 1754 1780
+type(
+  'q Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 44 1754 1781 "gtkButtonProps.ml" 50 1997 2008
+)
+"gtkButtonProps.ml" 44 1754 1782 "gtkButtonProps.ml" 44 1754 1787
+type(
+  string option
+)
+ident(
+  def label "gtkButtonProps.ml" 44 1754 1788 "gtkButtonProps.ml" 50 1997 2008
+)
+"gtkButtonProps.ml" 44 1754 1789 "gtkButtonProps.ml" 44 1754 1798
+type(
+  bool option
+)
+ident(
+  def use_stock "gtkButtonProps.ml" 44 1754 1799 "gtkButtonProps.ml" 50 1997 2008
+)
+"gtkButtonProps.ml" 44 1754 1800 "gtkButtonProps.ml" 44 1754 1813
+type(
+  bool option
+)
+ident(
+  def use_underline "gtkButtonProps.ml" 44 1754 1814 "gtkButtonProps.ml" 50 1997 2008
+)
+"gtkButtonProps.ml" 44 1754 1815 "gtkButtonProps.ml" 44 1754 1821
+type(
+  GtkEnums.relief_style option
+)
+ident(
+  def relief "gtkButtonProps.ml" 45 1824 1828 "gtkButtonProps.ml" 50 1997 2008
+)
+"gtkButtonProps.ml" 45 1824 1832 "gtkButtonProps.ml" 45 1824 1834
+type(
+  'q Gobject.param list
+)
+"gtkButtonProps.ml" 46 1839 1845 "gtkButtonProps.ml" 46 1839 1853
+type(
+  ('q, string) Gobject.property ->
+  string option -> 'q Gobject.param list -> 'q Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkButtonProps.ml" 13 237 241 "gtkButtonProps.ml" 13 237 249
+)
+"gtkButtonProps.ml" 46 1839 1854 "gtkButtonProps.ml" 46 1839 1861
+type(
+  ('q, string) Gobject.property
+)
+ident(
+  ext_ref P.label
+)
+"gtkButtonProps.ml" 46 1839 1862 "gtkButtonProps.ml" 46 1839 1867
+type(
+  string option
+)
+ident(
+  int_ref label "gtkButtonProps.ml" 44 1754 1782 "gtkButtonProps.ml" 44 1754 1787
+)
+"gtkButtonProps.ml" 47 1870 1876 "gtkButtonProps.ml" 47 1870 1884
+type(
+  ('q, bool) Gobject.property ->
+  bool option -> 'q Gobject.param list -> 'q Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkButtonProps.ml" 13 237 241 "gtkButtonProps.ml" 13 237 249
+)
+"gtkButtonProps.ml" 47 1870 1885 "gtkButtonProps.ml" 47 1870 1896
+type(
+  ('q, bool) Gobject.property
+)
+ident(
+  ext_ref P.use_stock
+)
+"gtkButtonProps.ml" 47 1870 1897 "gtkButtonProps.ml" 47 1870 1906
+type(
+  bool option
+)
+ident(
+  int_ref use_stock "gtkButtonProps.ml" 44 1754 1789 "gtkButtonProps.ml" 44 1754 1798
+)
+"gtkButtonProps.ml" 48 1909 1915 "gtkButtonProps.ml" 48 1909 1923
+type(
+  ('q, bool) Gobject.property ->
+  bool option -> 'q Gobject.param list -> 'q Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkButtonProps.ml" 13 237 241 "gtkButtonProps.ml" 13 237 249
+)
+"gtkButtonProps.ml" 48 1909 1924 "gtkButtonProps.ml" 48 1909 1939
+type(
+  ('q, bool) Gobject.property
+)
+ident(
+  ext_ref P.use_underline
+)
+"gtkButtonProps.ml" 48 1909 1940 "gtkButtonProps.ml" 48 1909 1953
+type(
+  bool option
+)
+ident(
+  int_ref use_underline "gtkButtonProps.ml" 44 1754 1800 "gtkButtonProps.ml" 44 1754 1813
+)
+"gtkButtonProps.ml" 49 1956 1962 "gtkButtonProps.ml" 49 1956 1970
+type(
+  ('q, GtkEnums.relief_style) Gobject.property ->
+  GtkEnums.relief_style option ->
+  'q Gobject.param list -> 'q Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkButtonProps.ml" 13 237 241 "gtkButtonProps.ml" 13 237 249
+)
+"gtkButtonProps.ml" 49 1956 1971 "gtkButtonProps.ml" 49 1956 1979
+type(
+  ('q, GtkEnums.relief_style) Gobject.property
+)
+ident(
+  ext_ref P.relief
+)
+"gtkButtonProps.ml" 49 1956 1980 "gtkButtonProps.ml" 49 1956 1986
+type(
+  GtkEnums.relief_style option
+)
+ident(
+  int_ref relief "gtkButtonProps.ml" 44 1754 1815 "gtkButtonProps.ml" 44 1754 1821
+)
+"gtkButtonProps.ml" 49 1956 1987 "gtkButtonProps.ml" 49 1956 1989
+type(
+  'q Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 44 1754 1778 "gtkButtonProps.ml" 44 1754 1780
+)
+"gtkButtonProps.ml" 48 1909 1954 "gtkButtonProps.ml" 49 1956 1990
+call(
+  stack
+)
+type(
+  'q Gobject.param list
+)
+"gtkButtonProps.ml" 47 1870 1907 "gtkButtonProps.ml" 49 1956 1991
+call(
+  stack
+)
+type(
+  'q Gobject.param list
+)
+"gtkButtonProps.ml" 46 1839 1868 "gtkButtonProps.ml" 49 1956 1992
+call(
+  stack
+)
+type(
+  'q Gobject.param list
+)
+"gtkButtonProps.ml" 45 1824 1837 "gtkButtonProps.ml" 49 1956 1993
+call(
+  stack
+)
+type(
+  'q Gobject.param list
+)
+"gtkButtonProps.ml" 50 1997 2001 "gtkButtonProps.ml" 50 1997 2005
+type(
+  'q Gobject.param list -> 'r
+)
+ident(
+  int_ref cont "gtkButtonProps.ml" 44 1754 1773 "gtkButtonProps.ml" 44 1754 1777
+)
+"gtkButtonProps.ml" 50 1997 2006 "gtkButtonProps.ml" 50 1997 2008
+type(
+  'q Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 45 1824 1832 "gtkButtonProps.ml" 45 1824 1834
+)
+"gtkButtonProps.ml" 50 1997 2001 "gtkButtonProps.ml" 50 1997 2008
+call(
+  tail
+)
+type(
+  'r
+)
+"gtkButtonProps.ml" 45 1824 1828 "gtkButtonProps.ml" 50 1997 2008
+type(
+  'r
+)
+"gtkButtonProps.ml" 54 2043 2049 "gtkButtonProps.ml" 54 2043 2053
+type(
+  'a Gobject.obj -> Gtk.toggle_button Gtk.obj
+)
+ident(
+  def cast "gtkButtonProps.ml" 55 2111 2113 "gtkButtonProps.ml" 74 2796 2799
+)
+"gtkButtonProps.ml" 54 2043 2054 "gtkButtonProps.ml" 54 2043 2055
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkButtonProps.ml" 54 2043 2056 "gtkButtonProps.ml" 54 2043 2110
+)
+"gtkButtonProps.ml" 54 2043 2082 "gtkButtonProps.ml" 54 2043 2090
+type(
+  'a Gobject.obj -> string -> Gtk.toggle_button Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkButtonProps.ml" 54 2043 2091 "gtkButtonProps.ml" 54 2043 2092
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkButtonProps.ml" 54 2043 2054 "gtkButtonProps.ml" 54 2043 2055
+)
+"gtkButtonProps.ml" 54 2043 2093 "gtkButtonProps.ml" 54 2043 2110
+type(
+  string
+)
+"gtkButtonProps.ml" 54 2043 2082 "gtkButtonProps.ml" 54 2043 2110
+call(
+  tail
+)
+type(
+  Gtk.toggle_button Gtk.obj
+)
+type(
+  Gtk.toggle_button Gtk.obj
+)
+"gtkButtonProps.ml" 56 2131 2139 "gtkButtonProps.ml" 56 2131 2145
+type(
+  ([> `togglebutton ], bool) Gobject.property
+)
+ident(
+  def active "gtkButtonProps.ml" 58 2216 2220 "gtkButtonProps.ml" 62 2414 2419
+)
+"gtkButtonProps.ml" 57 2180 2192 "gtkButtonProps.ml" 57 2180 2200
+type(
+  string
+)
+"gtkButtonProps.ml" 57 2180 2207 "gtkButtonProps.ml" 57 2180 2214
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 57 2180 2186 "gtkButtonProps.ml" 57 2180 2215
+type(
+  ([> `togglebutton ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkButtonProps.ml" 58 2216 2224 "gtkButtonProps.ml" 58 2216 2238
+type(
+  ([> `togglebutton ], bool) Gobject.property
+)
+ident(
+  def draw_indicator "gtkButtonProps.ml" 60 2317 2321 "gtkButtonProps.ml" 62 2414 2419
+)
+"gtkButtonProps.ml" 59 2273 2285 "gtkButtonProps.ml" 59 2273 2301
+type(
+  string
+)
+"gtkButtonProps.ml" 59 2273 2308 "gtkButtonProps.ml" 59 2273 2315
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 59 2273 2279 "gtkButtonProps.ml" 59 2273 2316
+type(
+  ([> `togglebutton ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkButtonProps.ml" 60 2317 2325 "gtkButtonProps.ml" 60 2317 2337
+type(
+  ([> `togglebutton ], bool) Gobject.property
+)
+ident(
+  def inconsistent "gtkButtonProps.ml" 61 2372 2413 "gtkButtonProps.ml" 62 2414 2419
+)
+"gtkButtonProps.ml" 61 2372 2384 "gtkButtonProps.ml" 61 2372 2398
+type(
+  string
+)
+"gtkButtonProps.ml" 61 2372 2405 "gtkButtonProps.ml" 61 2372 2412
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 61 2372 2378 "gtkButtonProps.ml" 61 2372 2413
+type(
+  ([> `togglebutton ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkButtonProps.ml" 65 2459 2467 "gtkButtonProps.ml" 65 2459 2474
+type(
+  ([> `togglebutton ], unit -> unit) GtkSignal.t
+)
+ident(
+  def toggled "gtkButtonProps.ml" 66 2477 2546 "gtkButtonProps.ml" 67 2547 2552
+)
+"gtkButtonProps.ml" 66 2477 2489 "gtkButtonProps.ml" 66 2477 2498
+type(
+  string
+)
+"gtkButtonProps.ml" 66 2477 2507 "gtkButtonProps.ml" 66 2477 2520
+type(
+  [> `togglebutton ] as 'e
+)
+"gtkButtonProps.ml" 66 2477 2533 "gtkButtonProps.ml" 66 2477 2545
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkButtonProps.ml" 66 2477 2483 "gtkButtonProps.ml" 66 2477 2546
+type(
+  ('e, unit -> unit) GtkSignal.t
+)
+"gtkButtonProps.ml" 68 2553 2559 "gtkButtonProps.ml" 68 2553 2565
+type(
+  Gtk.toggle_button Gobject.param list -> Gtk.toggle_button Gtk.obj
+)
+ident(
+  def create "gtkButtonProps.ml" 69 2628 2630 "gtkButtonProps.ml" 74 2796 2799
+)
+"gtkButtonProps.ml" 68 2553 2566 "gtkButtonProps.ml" 68 2553 2568
+type(
+  Gtk.toggle_button Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 68 2553 2569 "gtkButtonProps.ml" 68 2553 2627
+)
+"gtkButtonProps.ml" 68 2553 2595 "gtkButtonProps.ml" 68 2553 2606
+type(
+  classe:string ->
+  Gtk.toggle_button Gobject.param list -> Gtk.toggle_button Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkButtonProps.ml" 68 2553 2607 "gtkButtonProps.ml" 68 2553 2624
+type(
+  string
+)
+"gtkButtonProps.ml" 68 2553 2625 "gtkButtonProps.ml" 68 2553 2627
+type(
+  Gtk.toggle_button Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 68 2553 2566 "gtkButtonProps.ml" 68 2553 2568
+)
+"gtkButtonProps.ml" 68 2553 2595 "gtkButtonProps.ml" 68 2553 2627
+call(
+  tail
+)
+type(
+  Gtk.toggle_button Gtk.obj
+)
+type(
+  Gtk.toggle_button Gtk.obj
+)
+"gtkButtonProps.ml" 69 2628 2634 "gtkButtonProps.ml" 69 2628 2645
+type(
+  cont:(([> `togglebutton ] as 'f) Gobject.param list -> 'g) ->
+  'f Gobject.param list -> ?active:bool -> ?draw_indicator:bool -> 'g
+)
+ident(
+  def make_params "gtkButtonProps.ml" 73 2784 2795 "gtkButtonProps.ml" 74 2796 2799
+)
+"gtkButtonProps.ml" 69 2628 2647 "gtkButtonProps.ml" 69 2628 2651
+type(
+  'f Gobject.param list -> 'g
+)
+ident(
+  def cont "gtkButtonProps.ml" 69 2628 2652 "gtkButtonProps.ml" 73 2784 2795
+)
+"gtkButtonProps.ml" 69 2628 2652 "gtkButtonProps.ml" 69 2628 2654
+type(
+  'f Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 69 2628 2655 "gtkButtonProps.ml" 73 2784 2795
+)
+"gtkButtonProps.ml" 69 2628 2656 "gtkButtonProps.ml" 69 2628 2662
+type(
+  bool option
+)
+ident(
+  def active "gtkButtonProps.ml" 69 2628 2663 "gtkButtonProps.ml" 73 2784 2795
+)
+"gtkButtonProps.ml" 69 2628 2664 "gtkButtonProps.ml" 69 2628 2678
+type(
+  bool option
+)
+ident(
+  def draw_indicator "gtkButtonProps.ml" 70 2681 2685 "gtkButtonProps.ml" 73 2784 2795
+)
+"gtkButtonProps.ml" 70 2681 2689 "gtkButtonProps.ml" 70 2681 2691
+type(
+  'f Gobject.param list
+)
+"gtkButtonProps.ml" 71 2696 2702 "gtkButtonProps.ml" 71 2696 2710
+type(
+  ('f, bool) Gobject.property ->
+  bool option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkButtonProps.ml" 13 237 241 "gtkButtonProps.ml" 13 237 249
+)
+"gtkButtonProps.ml" 71 2696 2711 "gtkButtonProps.ml" 71 2696 2719
+type(
+  ('f, bool) Gobject.property
+)
+ident(
+  ext_ref P.active
+)
+"gtkButtonProps.ml" 71 2696 2720 "gtkButtonProps.ml" 71 2696 2726
+type(
+  bool option
+)
+ident(
+  int_ref active "gtkButtonProps.ml" 69 2628 2656 "gtkButtonProps.ml" 69 2628 2662
+)
+"gtkButtonProps.ml" 72 2729 2735 "gtkButtonProps.ml" 72 2729 2743
+type(
+  ('f, bool) Gobject.property ->
+  bool option -> 'f Gobject.param list -> 'f Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkButtonProps.ml" 13 237 241 "gtkButtonProps.ml" 13 237 249
+)
+"gtkButtonProps.ml" 72 2729 2744 "gtkButtonProps.ml" 72 2729 2760
+type(
+  ('f, bool) Gobject.property
+)
+ident(
+  ext_ref P.draw_indicator
+)
+"gtkButtonProps.ml" 72 2729 2761 "gtkButtonProps.ml" 72 2729 2775
+type(
+  bool option
+)
+ident(
+  int_ref draw_indicator "gtkButtonProps.ml" 69 2628 2664 "gtkButtonProps.ml" 69 2628 2678
+)
+"gtkButtonProps.ml" 72 2729 2776 "gtkButtonProps.ml" 72 2729 2778
+type(
+  'f Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 69 2628 2652 "gtkButtonProps.ml" 69 2628 2654
+)
+"gtkButtonProps.ml" 71 2696 2727 "gtkButtonProps.ml" 72 2729 2779
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkButtonProps.ml" 70 2681 2694 "gtkButtonProps.ml" 72 2729 2780
+call(
+  stack
+)
+type(
+  'f Gobject.param list
+)
+"gtkButtonProps.ml" 73 2784 2788 "gtkButtonProps.ml" 73 2784 2792
+type(
+  'f Gobject.param list -> 'g
+)
+ident(
+  int_ref cont "gtkButtonProps.ml" 69 2628 2647 "gtkButtonProps.ml" 69 2628 2651
+)
+"gtkButtonProps.ml" 73 2784 2793 "gtkButtonProps.ml" 73 2784 2795
+type(
+  'f Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 70 2681 2689 "gtkButtonProps.ml" 70 2681 2691
+)
+"gtkButtonProps.ml" 73 2784 2788 "gtkButtonProps.ml" 73 2784 2795
+call(
+  tail
+)
+type(
+  'g
+)
+"gtkButtonProps.ml" 70 2681 2685 "gtkButtonProps.ml" 73 2784 2795
+type(
+  'g
+)
+"gtkButtonProps.ml" 77 2829 2835 "gtkButtonProps.ml" 77 2829 2839
+type(
+  'a Gobject.obj -> Gtk.radio_button Gtk.obj
+)
+ident(
+  def cast "gtkButtonProps.ml" 78 2895 2897 "gtkButtonProps.ml" 84 3132 3135
+)
+"gtkButtonProps.ml" 77 2829 2840 "gtkButtonProps.ml" 77 2829 2841
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkButtonProps.ml" 77 2829 2842 "gtkButtonProps.ml" 77 2829 2894
+)
+"gtkButtonProps.ml" 77 2829 2867 "gtkButtonProps.ml" 77 2829 2875
+type(
+  'a Gobject.obj -> string -> Gtk.radio_button Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkButtonProps.ml" 77 2829 2876 "gtkButtonProps.ml" 77 2829 2877
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkButtonProps.ml" 77 2829 2840 "gtkButtonProps.ml" 77 2829 2841
+)
+"gtkButtonProps.ml" 77 2829 2878 "gtkButtonProps.ml" 77 2829 2894
+type(
+  string
+)
+"gtkButtonProps.ml" 77 2829 2867 "gtkButtonProps.ml" 77 2829 2894
+call(
+  tail
+)
+type(
+  Gtk.radio_button Gtk.obj
+)
+type(
+  Gtk.radio_button Gtk.obj
+)
+"gtkButtonProps.ml" 79 2915 2923 "gtkButtonProps.ml" 79 2915 2928
+type(
+  ([> `radiobutton ], Gtk.radio_button Gtk.obj option) Gobject.property
+)
+ident(
+  def group "gtkButtonProps.ml" 81 2983 3052 "gtkButtonProps.ml" 82 3053 3058
+)
+"gtkButtonProps.ml" 80 2962 2974 "gtkButtonProps.ml" 80 2962 2981
+type(
+  string
+)
+"gtkButtonProps.ml" 81 2983 2996 "gtkButtonProps.ml" 81 2983 3010
+type(
+  Gtk.radio_button Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.radio_button Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkButtonProps.ml" 80 2962 2968 "gtkButtonProps.ml" 81 2983 3052
+type(
+  ([> `radiobutton ] as 'b, Gtk.radio_button Gtk.obj option) Gobject.property
+)
+type(
+  ('b, Gtk.radio_button Gtk.obj option) Gobject.property
+)
+"gtkButtonProps.ml" 83 3059 3065 "gtkButtonProps.ml" 83 3059 3071
+type(
+  Gtk.radio_button Gobject.param list -> Gtk.radio_button Gtk.obj
+)
+ident(
+  def create "gtkButtonProps.ml" 83 3059 3131 "gtkButtonProps.ml" 84 3132 3135
+)
+"gtkButtonProps.ml" 83 3059 3072 "gtkButtonProps.ml" 83 3059 3074
+type(
+  Gtk.radio_button Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 83 3059 3075 "gtkButtonProps.ml" 83 3059 3131
+)
+"gtkButtonProps.ml" 83 3059 3100 "gtkButtonProps.ml" 83 3059 3111
+type(
+  classe:string ->
+  Gtk.radio_button Gobject.param list -> Gtk.radio_button Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkButtonProps.ml" 83 3059 3112 "gtkButtonProps.ml" 83 3059 3128
+type(
+  string
+)
+"gtkButtonProps.ml" 83 3059 3129 "gtkButtonProps.ml" 83 3059 3131
+type(
+  Gtk.radio_button Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 83 3059 3072 "gtkButtonProps.ml" 83 3059 3074
+)
+"gtkButtonProps.ml" 83 3059 3100 "gtkButtonProps.ml" 83 3059 3131
+call(
+  tail
+)
+type(
+  Gtk.radio_button Gtk.obj
+)
+type(
+  Gtk.radio_button Gtk.obj
+)
+"gtkButtonProps.ml" 87 3165 3171 "gtkButtonProps.ml" 87 3165 3175
+type(
+  'a Gobject.obj -> Gtk.color_button Gtk.obj
+)
+ident(
+  def cast "gtkButtonProps.ml" 88 3231 3233 "gtkButtonProps.ml" 105 3932 3935
+)
+"gtkButtonProps.ml" 87 3165 3176 "gtkButtonProps.ml" 87 3165 3177
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkButtonProps.ml" 87 3165 3178 "gtkButtonProps.ml" 87 3165 3230
+)
+"gtkButtonProps.ml" 87 3165 3203 "gtkButtonProps.ml" 87 3165 3211
+type(
+  'a Gobject.obj -> string -> Gtk.color_button Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkButtonProps.ml" 87 3165 3212 "gtkButtonProps.ml" 87 3165 3213
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkButtonProps.ml" 87 3165 3176 "gtkButtonProps.ml" 87 3165 3177
+)
+"gtkButtonProps.ml" 87 3165 3214 "gtkButtonProps.ml" 87 3165 3230
+type(
+  string
+)
+"gtkButtonProps.ml" 87 3165 3203 "gtkButtonProps.ml" 87 3165 3230
+call(
+  tail
+)
+type(
+  Gtk.color_button Gtk.obj
+)
+type(
+  Gtk.color_button Gtk.obj
+)
+"gtkButtonProps.ml" 89 3251 3259 "gtkButtonProps.ml" 89 3251 3264
+type(
+  ([> `colorbutton ], int) Gobject.property
+)
+ident(
+  def alpha "gtkButtonProps.ml" 90 3324 3328 "gtkButtonProps.ml" 95 3593 3598
+)
+"gtkButtonProps.ml" 89 3251 3304 "gtkButtonProps.ml" 89 3251 3311
+type(
+  string
+)
+"gtkButtonProps.ml" 89 3251 3318 "gtkButtonProps.ml" 89 3251 3322
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkButtonProps.ml" 89 3251 3298 "gtkButtonProps.ml" 89 3251 3323
+type(
+  ([> `colorbutton ] as 'b, int) Gobject.property
+)
+type(
+  ('b, int) Gobject.property
+)
+"gtkButtonProps.ml" 90 3324 3332 "gtkButtonProps.ml" 90 3324 3337
+type(
+  ([> `colorbutton ], Gdk.color) Gobject.property
+)
+ident(
+  def color "gtkButtonProps.ml" 92 3437 3441 "gtkButtonProps.ml" 95 3593 3598
+)
+"gtkButtonProps.ml" 91 3371 3383 "gtkButtonProps.ml" 91 3371 3390
+type(
+  string
+)
+"gtkButtonProps.ml" 91 3371 3398 "gtkButtonProps.ml" 91 3371 3412
+type(
+  Gdk.color Gobject.data_conv
+)
+type(
+  Gdk.color Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkButtonProps.ml" 91 3371 3377 "gtkButtonProps.ml" 91 3371 3436
+type(
+  ([> `colorbutton ] as 'c, Gdk.color) Gobject.property
+)
+type(
+  ('c, Gdk.color) Gobject.property
+)
+"gtkButtonProps.ml" 92 3437 3445 "gtkButtonProps.ml" 92 3437 3450
+type(
+  ([> `colorbutton ], string) Gobject.property
+)
+ident(
+  def title "gtkButtonProps.ml" 93 3503 3507 "gtkButtonProps.ml" 95 3593 3598
+)
+"gtkButtonProps.ml" 92 3437 3484 "gtkButtonProps.ml" 92 3437 3502
+type(
+  ([> `colorbutton ] as 'd, string) Gobject.property
+)
+type(
+  ('d, string) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.title
+)
+"gtkButtonProps.ml" 93 3503 3511 "gtkButtonProps.ml" 93 3503 3520
+type(
+  ([> `colorbutton ], bool) Gobject.property
+)
+ident(
+  def use_alpha "gtkButtonProps.ml" 94 3554 3592 "gtkButtonProps.ml" 95 3593 3598
+)
+"gtkButtonProps.ml" 94 3554 3566 "gtkButtonProps.ml" 94 3554 3577
+type(
+  string
+)
+"gtkButtonProps.ml" 94 3554 3584 "gtkButtonProps.ml" 94 3554 3591
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 94 3554 3560 "gtkButtonProps.ml" 94 3554 3592
+type(
+  ([> `colorbutton ] as 'e, bool) Gobject.property
+)
+type(
+  ('e, bool) Gobject.property
+)
+"gtkButtonProps.ml" 98 3638 3646 "gtkButtonProps.ml" 98 3638 3655
+type(
+  ([> `colorbutton ], unit -> unit) GtkSignal.t
+)
+ident(
+  def color_set "gtkButtonProps.ml" 99 3658 3728 "gtkButtonProps.ml" 100 3729 3734
+)
+"gtkButtonProps.ml" 99 3658 3670 "gtkButtonProps.ml" 99 3658 3681
+type(
+  string
+)
+"gtkButtonProps.ml" 99 3658 3690 "gtkButtonProps.ml" 99 3658 3702
+type(
+  [> `colorbutton ] as 'f
+)
+"gtkButtonProps.ml" 99 3658 3715 "gtkButtonProps.ml" 99 3658 3727
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkButtonProps.ml" 99 3658 3664 "gtkButtonProps.ml" 99 3658 3728
+type(
+  ('f, unit -> unit) GtkSignal.t
+)
+"gtkButtonProps.ml" 101 3735 3741 "gtkButtonProps.ml" 101 3735 3747
+type(
+  Gtk.color_button Gobject.param list -> Gtk.color_button Gtk.obj
+)
+ident(
+  def create "gtkButtonProps.ml" 102 3808 3810 "gtkButtonProps.ml" 105 3932 3935
+)
+"gtkButtonProps.ml" 101 3735 3748 "gtkButtonProps.ml" 101 3735 3750
+type(
+  Gtk.color_button Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 101 3735 3751 "gtkButtonProps.ml" 101 3735 3807
+)
+"gtkButtonProps.ml" 101 3735 3776 "gtkButtonProps.ml" 101 3735 3787
+type(
+  classe:string ->
+  Gtk.color_button Gobject.param list -> Gtk.color_button Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkButtonProps.ml" 101 3735 3788 "gtkButtonProps.ml" 101 3735 3804
+type(
+  string
+)
+"gtkButtonProps.ml" 101 3735 3805 "gtkButtonProps.ml" 101 3735 3807
+type(
+  Gtk.color_button Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 101 3735 3748 "gtkButtonProps.ml" 101 3735 3750
+)
+"gtkButtonProps.ml" 101 3735 3776 "gtkButtonProps.ml" 101 3735 3807
+call(
+  tail
+)
+type(
+  Gtk.color_button Gtk.obj
+)
+type(
+  Gtk.color_button Gtk.obj
+)
+"gtkButtonProps.ml" 102 3808 3814 "gtkButtonProps.ml" 102 3808 3825
+type(
+  cont:(([> `colorbutton ] as 'g) Gobject.param list -> 'h) ->
+  'g Gobject.param list -> ?color:Gdk.color -> ?title:string -> 'h
+)
+ident(
+  def make_params "gtkButtonProps.ml" 104 3920 3931 "gtkButtonProps.ml" 105 3932 3935
+)
+"gtkButtonProps.ml" 102 3808 3827 "gtkButtonProps.ml" 102 3808 3831
+type(
+  'g Gobject.param list -> 'h
+)
+ident(
+  def cont "gtkButtonProps.ml" 102 3808 3832 "gtkButtonProps.ml" 104 3920 3931
+)
+"gtkButtonProps.ml" 102 3808 3832 "gtkButtonProps.ml" 102 3808 3834
+type(
+  'g Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 102 3808 3835 "gtkButtonProps.ml" 104 3920 3931
+)
+"gtkButtonProps.ml" 102 3808 3836 "gtkButtonProps.ml" 102 3808 3841
+type(
+  Gdk.color option
+)
+ident(
+  def color "gtkButtonProps.ml" 102 3808 3842 "gtkButtonProps.ml" 104 3920 3931
+)
+"gtkButtonProps.ml" 102 3808 3843 "gtkButtonProps.ml" 102 3808 3848
+type(
+  string option
+)
+ident(
+  def title "gtkButtonProps.ml" 103 3851 3855 "gtkButtonProps.ml" 104 3920 3931
+)
+"gtkButtonProps.ml" 103 3851 3859 "gtkButtonProps.ml" 103 3851 3861
+type(
+  'g Gobject.param list
+)
+"gtkButtonProps.ml" 103 3851 3865 "gtkButtonProps.ml" 103 3851 3873
+type(
+  ('g, Gdk.color) Gobject.property ->
+  Gdk.color option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkButtonProps.ml" 13 237 241 "gtkButtonProps.ml" 13 237 249
+)
+"gtkButtonProps.ml" 103 3851 3874 "gtkButtonProps.ml" 103 3851 3881
+type(
+  ('g, Gdk.color) Gobject.property
+)
+ident(
+  ext_ref P.color
+)
+"gtkButtonProps.ml" 103 3851 3882 "gtkButtonProps.ml" 103 3851 3887
+type(
+  Gdk.color option
+)
+ident(
+  int_ref color "gtkButtonProps.ml" 102 3808 3836 "gtkButtonProps.ml" 102 3808 3841
+)
+"gtkButtonProps.ml" 103 3851 3889 "gtkButtonProps.ml" 103 3851 3897
+type(
+  ('g, string) Gobject.property ->
+  string option -> 'g Gobject.param list -> 'g Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkButtonProps.ml" 13 237 241 "gtkButtonProps.ml" 13 237 249
+)
+"gtkButtonProps.ml" 103 3851 3898 "gtkButtonProps.ml" 103 3851 3905
+type(
+  ('g, string) Gobject.property
+)
+ident(
+  ext_ref P.title
+)
+"gtkButtonProps.ml" 103 3851 3906 "gtkButtonProps.ml" 103 3851 3911
+type(
+  string option
+)
+ident(
+  int_ref title "gtkButtonProps.ml" 102 3808 3843 "gtkButtonProps.ml" 102 3808 3848
+)
+"gtkButtonProps.ml" 103 3851 3912 "gtkButtonProps.ml" 103 3851 3914
+type(
+  'g Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 102 3808 3832 "gtkButtonProps.ml" 102 3808 3834
+)
+"gtkButtonProps.ml" 103 3851 3888 "gtkButtonProps.ml" 103 3851 3915
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkButtonProps.ml" 103 3851 3864 "gtkButtonProps.ml" 103 3851 3916
+call(
+  stack
+)
+type(
+  'g Gobject.param list
+)
+"gtkButtonProps.ml" 104 3920 3924 "gtkButtonProps.ml" 104 3920 3928
+type(
+  'g Gobject.param list -> 'h
+)
+ident(
+  int_ref cont "gtkButtonProps.ml" 102 3808 3827 "gtkButtonProps.ml" 102 3808 3831
+)
+"gtkButtonProps.ml" 104 3920 3929 "gtkButtonProps.ml" 104 3920 3931
+type(
+  'g Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 103 3851 3859 "gtkButtonProps.ml" 103 3851 3861
+)
+"gtkButtonProps.ml" 104 3920 3924 "gtkButtonProps.ml" 104 3920 3931
+call(
+  tail
+)
+type(
+  'h
+)
+"gtkButtonProps.ml" 103 3851 3855 "gtkButtonProps.ml" 104 3920 3931
+type(
+  'h
+)
+"gtkButtonProps.ml" 108 3964 3970 "gtkButtonProps.ml" 108 3964 3974
+type(
+  'a Gobject.obj -> Gtk.font_button Gtk.obj
+)
+ident(
+  def cast "gtkButtonProps.ml" 109 4028 4030 "gtkButtonProps.ml" 131 4901 4904
+)
+"gtkButtonProps.ml" 108 3964 3975 "gtkButtonProps.ml" 108 3964 3976
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkButtonProps.ml" 108 3964 3977 "gtkButtonProps.ml" 108 3964 4027
+)
+"gtkButtonProps.ml" 108 3964 4001 "gtkButtonProps.ml" 108 3964 4009
+type(
+  'a Gobject.obj -> string -> Gtk.font_button Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkButtonProps.ml" 108 3964 4010 "gtkButtonProps.ml" 108 3964 4011
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkButtonProps.ml" 108 3964 3975 "gtkButtonProps.ml" 108 3964 3976
+)
+"gtkButtonProps.ml" 108 3964 4012 "gtkButtonProps.ml" 108 3964 4027
+type(
+  string
+)
+"gtkButtonProps.ml" 108 3964 4001 "gtkButtonProps.ml" 108 3964 4027
+call(
+  tail
+)
+type(
+  Gtk.font_button Gtk.obj
+)
+type(
+  Gtk.font_button Gtk.obj
+)
+"gtkButtonProps.ml" 110 4048 4056 "gtkButtonProps.ml" 110 4048 4065
+type(
+  ([> `fontbutton ], string) Gobject.property
+)
+ident(
+  def font_name "gtkButtonProps.ml" 112 4136 4140 "gtkButtonProps.ml" 121 4555 4560
+)
+"gtkButtonProps.ml" 111 4098 4110 "gtkButtonProps.ml" 111 4098 4121
+type(
+  string
+)
+"gtkButtonProps.ml" 111 4098 4128 "gtkButtonProps.ml" 111 4098 4134
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkButtonProps.ml" 111 4098 4104 "gtkButtonProps.ml" 111 4098 4135
+type(
+  ([> `fontbutton ] as 'b, string) Gobject.property
+)
+type(
+  ('b, string) Gobject.property
+)
+"gtkButtonProps.ml" 112 4136 4144 "gtkButtonProps.ml" 112 4136 4153
+type(
+  ([> `fontbutton ], bool) Gobject.property
+)
+ident(
+  def show_size "gtkButtonProps.ml" 114 4225 4229 "gtkButtonProps.ml" 121 4555 4560
+)
+"gtkButtonProps.ml" 113 4186 4198 "gtkButtonProps.ml" 113 4186 4209
+type(
+  string
+)
+"gtkButtonProps.ml" 113 4186 4216 "gtkButtonProps.ml" 113 4186 4223
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 113 4186 4192 "gtkButtonProps.ml" 113 4186 4224
+type(
+  ([> `fontbutton ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkButtonProps.ml" 114 4225 4233 "gtkButtonProps.ml" 114 4225 4243
+type(
+  ([> `fontbutton ], bool) Gobject.property
+)
+ident(
+  def show_style "gtkButtonProps.ml" 116 4316 4320 "gtkButtonProps.ml" 121 4555 4560
+)
+"gtkButtonProps.ml" 115 4276 4288 "gtkButtonProps.ml" 115 4276 4300
+type(
+  string
+)
+"gtkButtonProps.ml" 115 4276 4307 "gtkButtonProps.ml" 115 4276 4314
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 115 4276 4282 "gtkButtonProps.ml" 115 4276 4315
+type(
+  ([> `fontbutton ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkButtonProps.ml" 116 4316 4324 "gtkButtonProps.ml" 116 4316 4329
+type(
+  ([> `fontbutton ], string) Gobject.property
+)
+ident(
+  def title "gtkButtonProps.ml" 117 4381 4385 "gtkButtonProps.ml" 121 4555 4560
+)
+"gtkButtonProps.ml" 116 4316 4362 "gtkButtonProps.ml" 116 4316 4380
+type(
+  ([> `fontbutton ] as 'e, string) Gobject.property
+)
+type(
+  ('e, string) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.title
+)
+"gtkButtonProps.ml" 117 4381 4389 "gtkButtonProps.ml" 117 4381 4397
+type(
+  ([> `fontbutton ], bool) Gobject.property
+)
+ident(
+  def use_font "gtkButtonProps.ml" 119 4468 4472 "gtkButtonProps.ml" 121 4555 4560
+)
+"gtkButtonProps.ml" 118 4430 4442 "gtkButtonProps.ml" 118 4430 4452
+type(
+  string
+)
+"gtkButtonProps.ml" 118 4430 4459 "gtkButtonProps.ml" 118 4430 4466
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 118 4430 4436 "gtkButtonProps.ml" 118 4430 4467
+type(
+  ([> `fontbutton ] as 'f, bool) Gobject.property
+)
+type(
+  ('f, bool) Gobject.property
+)
+"gtkButtonProps.ml" 119 4468 4476 "gtkButtonProps.ml" 119 4468 4484
+type(
+  ([> `fontbutton ], bool) Gobject.property
+)
+ident(
+  def use_size "gtkButtonProps.ml" 120 4517 4554 "gtkButtonProps.ml" 121 4555 4560
+)
+"gtkButtonProps.ml" 120 4517 4529 "gtkButtonProps.ml" 120 4517 4539
+type(
+  string
+)
+"gtkButtonProps.ml" 120 4517 4546 "gtkButtonProps.ml" 120 4517 4553
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 120 4517 4523 "gtkButtonProps.ml" 120 4517 4554
+type(
+  ([> `fontbutton ] as 'g, bool) Gobject.property
+)
+type(
+  ('g, bool) Gobject.property
+)
+"gtkButtonProps.ml" 124 4600 4608 "gtkButtonProps.ml" 124 4600 4616
+type(
+  ([> `fontbutton ], unit -> unit) GtkSignal.t
+)
+ident(
+  def font_set "gtkButtonProps.ml" 125 4619 4687 "gtkButtonProps.ml" 126 4688 4693
+)
+"gtkButtonProps.ml" 125 4619 4631 "gtkButtonProps.ml" 125 4619 4641
+type(
+  string
+)
+"gtkButtonProps.ml" 125 4619 4650 "gtkButtonProps.ml" 125 4619 4661
+type(
+  [> `fontbutton ] as 'h
+)
+"gtkButtonProps.ml" 125 4619 4674 "gtkButtonProps.ml" 125 4619 4686
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkButtonProps.ml" 125 4619 4625 "gtkButtonProps.ml" 125 4619 4687
+type(
+  ('h, unit -> unit) GtkSignal.t
+)
+"gtkButtonProps.ml" 127 4694 4700 "gtkButtonProps.ml" 127 4694 4706
+type(
+  Gtk.font_button Gobject.param list -> Gtk.font_button Gtk.obj
+)
+ident(
+  def create "gtkButtonProps.ml" 128 4765 4767 "gtkButtonProps.ml" 131 4901 4904
+)
+"gtkButtonProps.ml" 127 4694 4707 "gtkButtonProps.ml" 127 4694 4709
+type(
+  Gtk.font_button Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 127 4694 4710 "gtkButtonProps.ml" 127 4694 4764
+)
+"gtkButtonProps.ml" 127 4694 4734 "gtkButtonProps.ml" 127 4694 4745
+type(
+  classe:string ->
+  Gtk.font_button Gobject.param list -> Gtk.font_button Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkButtonProps.ml" 127 4694 4746 "gtkButtonProps.ml" 127 4694 4761
+type(
+  string
+)
+"gtkButtonProps.ml" 127 4694 4762 "gtkButtonProps.ml" 127 4694 4764
+type(
+  Gtk.font_button Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 127 4694 4707 "gtkButtonProps.ml" 127 4694 4709
+)
+"gtkButtonProps.ml" 127 4694 4734 "gtkButtonProps.ml" 127 4694 4764
+call(
+  tail
+)
+type(
+  Gtk.font_button Gtk.obj
+)
+type(
+  Gtk.font_button Gtk.obj
+)
+"gtkButtonProps.ml" 128 4765 4771 "gtkButtonProps.ml" 128 4765 4782
+type(
+  cont:(([> `fontbutton ] as 'i) Gobject.param list -> 'j) ->
+  'i Gobject.param list -> ?font_name:string -> ?title:string -> 'j
+)
+ident(
+  def make_params "gtkButtonProps.ml" 130 4889 4900 "gtkButtonProps.ml" 131 4901 4904
+)
+"gtkButtonProps.ml" 128 4765 4784 "gtkButtonProps.ml" 128 4765 4788
+type(
+  'i Gobject.param list -> 'j
+)
+ident(
+  def cont "gtkButtonProps.ml" 128 4765 4789 "gtkButtonProps.ml" 130 4889 4900
+)
+"gtkButtonProps.ml" 128 4765 4789 "gtkButtonProps.ml" 128 4765 4791
+type(
+  'i Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 128 4765 4792 "gtkButtonProps.ml" 130 4889 4900
+)
+"gtkButtonProps.ml" 128 4765 4793 "gtkButtonProps.ml" 128 4765 4802
+type(
+  string option
+)
+ident(
+  def font_name "gtkButtonProps.ml" 128 4765 4803 "gtkButtonProps.ml" 130 4889 4900
+)
+"gtkButtonProps.ml" 128 4765 4804 "gtkButtonProps.ml" 128 4765 4809
+type(
+  string option
+)
+ident(
+  def title "gtkButtonProps.ml" 129 4812 4816 "gtkButtonProps.ml" 130 4889 4900
+)
+"gtkButtonProps.ml" 129 4812 4820 "gtkButtonProps.ml" 129 4812 4822
+type(
+  'i Gobject.param list
+)
+"gtkButtonProps.ml" 129 4812 4826 "gtkButtonProps.ml" 129 4812 4834
+type(
+  ('i, string) Gobject.property ->
+  string option -> 'i Gobject.param list -> 'i Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkButtonProps.ml" 13 237 241 "gtkButtonProps.ml" 13 237 249
+)
+"gtkButtonProps.ml" 129 4812 4835 "gtkButtonProps.ml" 129 4812 4846
+type(
+  ('i, string) Gobject.property
+)
+ident(
+  ext_ref P.font_name
+)
+"gtkButtonProps.ml" 129 4812 4847 "gtkButtonProps.ml" 129 4812 4856
+type(
+  string option
+)
+ident(
+  int_ref font_name "gtkButtonProps.ml" 128 4765 4793 "gtkButtonProps.ml" 128 4765 4802
+)
+"gtkButtonProps.ml" 129 4812 4858 "gtkButtonProps.ml" 129 4812 4866
+type(
+  ('i, string) Gobject.property ->
+  string option -> 'i Gobject.param list -> 'i Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkButtonProps.ml" 13 237 241 "gtkButtonProps.ml" 13 237 249
+)
+"gtkButtonProps.ml" 129 4812 4867 "gtkButtonProps.ml" 129 4812 4874
+type(
+  ('i, string) Gobject.property
+)
+ident(
+  ext_ref P.title
+)
+"gtkButtonProps.ml" 129 4812 4875 "gtkButtonProps.ml" 129 4812 4880
+type(
+  string option
+)
+ident(
+  int_ref title "gtkButtonProps.ml" 128 4765 4804 "gtkButtonProps.ml" 128 4765 4809
+)
+"gtkButtonProps.ml" 129 4812 4881 "gtkButtonProps.ml" 129 4812 4883
+type(
+  'i Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 128 4765 4789 "gtkButtonProps.ml" 128 4765 4791
+)
+"gtkButtonProps.ml" 129 4812 4857 "gtkButtonProps.ml" 129 4812 4884
+call(
+  stack
+)
+type(
+  'i Gobject.param list
+)
+"gtkButtonProps.ml" 129 4812 4825 "gtkButtonProps.ml" 129 4812 4885
+call(
+  stack
+)
+type(
+  'i Gobject.param list
+)
+"gtkButtonProps.ml" 130 4889 4893 "gtkButtonProps.ml" 130 4889 4897
+type(
+  'i Gobject.param list -> 'j
+)
+ident(
+  int_ref cont "gtkButtonProps.ml" 128 4765 4784 "gtkButtonProps.ml" 128 4765 4788
+)
+"gtkButtonProps.ml" 130 4889 4898 "gtkButtonProps.ml" 130 4889 4900
+type(
+  'i Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 129 4812 4820 "gtkButtonProps.ml" 129 4812 4822
+)
+"gtkButtonProps.ml" 130 4889 4893 "gtkButtonProps.ml" 130 4889 4900
+call(
+  tail
+)
+type(
+  'j
+)
+"gtkButtonProps.ml" 129 4812 4816 "gtkButtonProps.ml" 130 4889 4900
+type(
+  'j
+)
+"gtkButtonProps.ml" 134 4931 4937 "gtkButtonProps.ml" 134 4931 4941
+type(
+  'a Gobject.obj -> Gtk.tool_item Gtk.obj
+)
+ident(
+  def cast "gtkButtonProps.ml" 135 4991 4993 "gtkButtonProps.ml" 159 6104 6107
+)
+"gtkButtonProps.ml" 134 4931 4942 "gtkButtonProps.ml" 134 4931 4943
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkButtonProps.ml" 134 4931 4944 "gtkButtonProps.ml" 134 4931 4990
+)
+"gtkButtonProps.ml" 134 4931 4966 "gtkButtonProps.ml" 134 4931 4974
+type(
+  'a Gobject.obj -> string -> Gtk.tool_item Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkButtonProps.ml" 134 4931 4975 "gtkButtonProps.ml" 134 4931 4976
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkButtonProps.ml" 134 4931 4942 "gtkButtonProps.ml" 134 4931 4943
+)
+"gtkButtonProps.ml" 134 4931 4977 "gtkButtonProps.ml" 134 4931 4990
+type(
+  string
+)
+"gtkButtonProps.ml" 134 4931 4966 "gtkButtonProps.ml" 134 4931 4990
+call(
+  tail
+)
+type(
+  Gtk.tool_item Gtk.obj
+)
+type(
+  Gtk.tool_item Gtk.obj
+)
+"gtkButtonProps.ml" 136 5011 5019 "gtkButtonProps.ml" 136 5011 5031
+type(
+  ([> `toolitem ], bool) Gobject.property
+)
+ident(
+  def is_important "gtkButtonProps.ml" 138 5104 5108 "gtkButtonProps.ml" 142 5310 5315
+)
+"gtkButtonProps.ml" 137 5062 5074 "gtkButtonProps.ml" 137 5062 5088
+type(
+  string
+)
+"gtkButtonProps.ml" 137 5062 5095 "gtkButtonProps.ml" 137 5062 5102
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 137 5062 5068 "gtkButtonProps.ml" 137 5062 5103
+type(
+  ([> `toolitem ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkButtonProps.ml" 138 5104 5112 "gtkButtonProps.ml" 138 5104 5130
+type(
+  ([> `toolitem ], bool) Gobject.property
+)
+ident(
+  def visible_horizontal "gtkButtonProps.ml" 140 5209 5213 "gtkButtonProps.ml" 142 5310 5315
+)
+"gtkButtonProps.ml" 139 5161 5173 "gtkButtonProps.ml" 139 5161 5193
+type(
+  string
+)
+"gtkButtonProps.ml" 139 5161 5200 "gtkButtonProps.ml" 139 5161 5207
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 139 5161 5167 "gtkButtonProps.ml" 139 5161 5208
+type(
+  ([> `toolitem ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkButtonProps.ml" 140 5209 5217 "gtkButtonProps.ml" 140 5209 5233
+type(
+  ([> `toolitem ], bool) Gobject.property
+)
+ident(
+  def visible_vertical "gtkButtonProps.ml" 141 5264 5309 "gtkButtonProps.ml" 142 5310 5315
+)
+"gtkButtonProps.ml" 141 5264 5276 "gtkButtonProps.ml" 141 5264 5294
+type(
+  string
+)
+"gtkButtonProps.ml" 141 5264 5301 "gtkButtonProps.ml" 141 5264 5308
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 141 5264 5270 "gtkButtonProps.ml" 141 5264 5309
+type(
+  ([> `toolitem ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkButtonProps.ml" 143 5316 5322 "gtkButtonProps.ml" 143 5316 5328
+type(
+  Gtk.tool_item Gobject.param list -> Gtk.tool_item Gtk.obj
+)
+ident(
+  def create "gtkButtonProps.ml" 144 5383 5385 "gtkButtonProps.ml" 159 6104 6107
+)
+"gtkButtonProps.ml" 143 5316 5329 "gtkButtonProps.ml" 143 5316 5331
+type(
+  Gtk.tool_item Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 143 5316 5332 "gtkButtonProps.ml" 143 5316 5382
+)
+"gtkButtonProps.ml" 143 5316 5354 "gtkButtonProps.ml" 143 5316 5365
+type(
+  classe:string -> Gtk.tool_item Gobject.param list -> Gtk.tool_item Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkButtonProps.ml" 143 5316 5366 "gtkButtonProps.ml" 143 5316 5379
+type(
+  string
+)
+"gtkButtonProps.ml" 143 5316 5380 "gtkButtonProps.ml" 143 5316 5382
+type(
+  Gtk.tool_item Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 143 5316 5329 "gtkButtonProps.ml" 143 5316 5331
+)
+"gtkButtonProps.ml" 143 5316 5354 "gtkButtonProps.ml" 143 5316 5382
+call(
+  tail
+)
+type(
+  Gtk.tool_item Gtk.obj
+)
+type(
+  Gtk.tool_item Gtk.obj
+)
+"gtkButtonProps.ml" 162 6143 6149 "gtkButtonProps.ml" 162 6143 6153
+type(
+  'a Gobject.obj -> Gtk.separator_tool_item Gtk.obj
+)
+ident(
+  def cast "gtkButtonProps.ml" 164 6226 6228 "gtkButtonProps.ml" 170 6428 6431
+)
+"gtkButtonProps.ml" 162 6143 6154 "gtkButtonProps.ml" 162 6143 6155
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkButtonProps.ml" 162 6143 6156 "gtkButtonProps.ml" 163 6188 6225
+)
+"gtkButtonProps.ml" 163 6188 6192 "gtkButtonProps.ml" 163 6188 6200
+type(
+  'a Gobject.obj -> string -> Gtk.separator_tool_item Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkButtonProps.ml" 163 6188 6201 "gtkButtonProps.ml" 163 6188 6202
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkButtonProps.ml" 162 6143 6154 "gtkButtonProps.ml" 162 6143 6155
+)
+"gtkButtonProps.ml" 163 6188 6203 "gtkButtonProps.ml" 163 6188 6225
+type(
+  string
+)
+"gtkButtonProps.ml" 163 6188 6192 "gtkButtonProps.ml" 163 6188 6225
+call(
+  tail
+)
+type(
+  Gtk.separator_tool_item Gtk.obj
+)
+type(
+  Gtk.separator_tool_item Gtk.obj
+)
+"gtkButtonProps.ml" 165 6246 6254 "gtkButtonProps.ml" 165 6246 6258
+type(
+  ([> `separatortoolitem ], bool) Gobject.property
+)
+ident(
+  def draw "gtkButtonProps.ml" 166 6298 6331 "gtkButtonProps.ml" 167 6332 6337
+)
+"gtkButtonProps.ml" 166 6298 6310 "gtkButtonProps.ml" 166 6298 6316
+type(
+  string
+)
+"gtkButtonProps.ml" 166 6298 6323 "gtkButtonProps.ml" 166 6298 6330
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 166 6298 6304 "gtkButtonProps.ml" 166 6298 6331
+type(
+  ([> `separatortoolitem ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkButtonProps.ml" 168 6338 6344 "gtkButtonProps.ml" 168 6338 6350
+type(
+  Gtk.separator_tool_item Gobject.param list ->
+  Gtk.separator_tool_item Gtk.obj
+)
+ident(
+  def create "gtkButtonProps.ml" 169 6386 6427 "gtkButtonProps.ml" 170 6428 6431
+)
+"gtkButtonProps.ml" 168 6338 6351 "gtkButtonProps.ml" 168 6338 6353
+type(
+  Gtk.separator_tool_item Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 168 6338 6354 "gtkButtonProps.ml" 169 6386 6427
+)
+"gtkButtonProps.ml" 169 6386 6390 "gtkButtonProps.ml" 169 6386 6401
+type(
+  classe:string ->
+  Gtk.separator_tool_item Gobject.param list ->
+  Gtk.separator_tool_item Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkButtonProps.ml" 169 6386 6402 "gtkButtonProps.ml" 169 6386 6424
+type(
+  string
+)
+"gtkButtonProps.ml" 169 6386 6425 "gtkButtonProps.ml" 169 6386 6427
+type(
+  Gtk.separator_tool_item Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 168 6338 6351 "gtkButtonProps.ml" 168 6338 6353
+)
+"gtkButtonProps.ml" 169 6386 6390 "gtkButtonProps.ml" 169 6386 6427
+call(
+  tail
+)
+type(
+  Gtk.separator_tool_item Gtk.obj
+)
+type(
+  Gtk.separator_tool_item Gtk.obj
+)
+"gtkButtonProps.ml" 173 6460 6466 "gtkButtonProps.ml" 173 6460 6470
+type(
+  'a Gobject.obj -> Gtk.tool_button Gtk.obj
+)
+ident(
+  def cast "gtkButtonProps.ml" 174 6524 6526 "gtkButtonProps.ml" 190 7237 7240
+)
+"gtkButtonProps.ml" 173 6460 6471 "gtkButtonProps.ml" 173 6460 6472
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkButtonProps.ml" 173 6460 6473 "gtkButtonProps.ml" 173 6460 6523
+)
+"gtkButtonProps.ml" 173 6460 6497 "gtkButtonProps.ml" 173 6460 6505
+type(
+  'a Gobject.obj -> string -> Gtk.tool_button Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkButtonProps.ml" 173 6460 6506 "gtkButtonProps.ml" 173 6460 6507
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkButtonProps.ml" 173 6460 6471 "gtkButtonProps.ml" 173 6460 6472
+)
+"gtkButtonProps.ml" 173 6460 6508 "gtkButtonProps.ml" 173 6460 6523
+type(
+  string
+)
+"gtkButtonProps.ml" 173 6460 6497 "gtkButtonProps.ml" 173 6460 6523
+call(
+  tail
+)
+type(
+  Gtk.tool_button Gtk.obj
+)
+type(
+  Gtk.tool_button Gtk.obj
+)
+"gtkButtonProps.ml" 175 6544 6552 "gtkButtonProps.ml" 175 6544 6563
+type(
+  ([> `toolbutton ], Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  def icon_widget "gtkButtonProps.ml" 177 6666 6670 "gtkButtonProps.ml" 183 7029 7034
+)
+"gtkButtonProps.ml" 176 6596 6608 "gtkButtonProps.ml" 176 6596 6621
+type(
+  string
+)
+"gtkButtonProps.ml" 176 6596 6629 "gtkButtonProps.ml" 176 6596 6636
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkButtonProps.ml" 176 6596 6602 "gtkButtonProps.ml" 176 6596 6665
+type(
+  ([> `toolbutton ] as 'b, Gtk.widget Gtk.obj) Gobject.property
+)
+type(
+  ('b, Gtk.widget Gtk.obj) Gobject.property
+)
+"gtkButtonProps.ml" 177 6666 6674 "gtkButtonProps.ml" 177 6666 6679
+type(
+  ([> `toolbutton ], string) Gobject.property
+)
+ident(
+  def label "gtkButtonProps.ml" 178 6731 6735 "gtkButtonProps.ml" 183 7029 7034
+)
+"gtkButtonProps.ml" 177 6666 6712 "gtkButtonProps.ml" 177 6666 6730
+type(
+  ([> `toolbutton ] as 'c, string) Gobject.property
+)
+type(
+  ('c, string) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.label
+)
+"gtkButtonProps.ml" 178 6731 6739 "gtkButtonProps.ml" 178 6731 6751
+type(
+  ([> `toolbutton ], Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  def label_widget "gtkButtonProps.ml" 180 6855 6859 "gtkButtonProps.ml" 183 7029 7034
+)
+"gtkButtonProps.ml" 179 6784 6796 "gtkButtonProps.ml" 179 6784 6810
+type(
+  string
+)
+"gtkButtonProps.ml" 179 6784 6818 "gtkButtonProps.ml" 179 6784 6825
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkButtonProps.ml" 179 6784 6790 "gtkButtonProps.ml" 179 6784 6854
+type(
+  ([> `toolbutton ] as 'd, Gtk.widget Gtk.obj) Gobject.property
+)
+type(
+  ('d, Gtk.widget Gtk.obj) Gobject.property
+)
+"gtkButtonProps.ml" 180 6855 6863 "gtkButtonProps.ml" 180 6855 6871
+type(
+  ([> `toolbutton ], GtkStock.id) Gobject.property
+)
+ident(
+  def stock_id "gtkButtonProps.ml" 182 6948 6952 "gtkButtonProps.ml" 183 7029 7034
+)
+"gtkButtonProps.ml" 181 6904 6916 "gtkButtonProps.ml" 181 6904 6926
+type(
+  string
+)
+"gtkButtonProps.ml" 181 6904 6933 "gtkButtonProps.ml" 181 6904 6946
+type(
+  GtkStock.id Gobject.data_conv
+)
+ident(
+  ext_ref GtkStock.conv
+)
+"gtkButtonProps.ml" 181 6904 6910 "gtkButtonProps.ml" 181 6904 6947
+type(
+  ([> `toolbutton ] as 'e, GtkStock.id) Gobject.property
+)
+type(
+  ('e, GtkStock.id) Gobject.property
+)
+"gtkButtonProps.ml" 182 6948 6956 "gtkButtonProps.ml" 182 6948 6969
+type(
+  ([> `toolbutton ], bool) Gobject.property
+)
+ident(
+  def use_underline "gtkButtonProps.ml" 182 6948 7028 "gtkButtonProps.ml" 183 7029 7034
+)
+"gtkButtonProps.ml" 182 6948 7002 "gtkButtonProps.ml" 182 6948 7028
+type(
+  ([> `toolbutton ] as 'f, bool) Gobject.property
+)
+type(
+  ('f, bool) Gobject.property
+)
+ident(
+  ext_ref PrivateProps.use_underline
+)
+"gtkButtonProps.ml" 186 7074 7082 "gtkButtonProps.ml" 186 7074 7089
+type(
+  ([> `toolbutton ], unit -> unit) GtkSignal.t
+)
+ident(
+  def clicked "gtkButtonProps.ml" 187 7092 7159 "gtkButtonProps.ml" 188 7160 7165
+)
+"gtkButtonProps.ml" 187 7092 7104 "gtkButtonProps.ml" 187 7092 7113
+type(
+  string
+)
+"gtkButtonProps.ml" 187 7092 7122 "gtkButtonProps.ml" 187 7092 7133
+type(
+  [> `toolbutton ] as 'g
+)
+"gtkButtonProps.ml" 187 7092 7146 "gtkButtonProps.ml" 187 7092 7158
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkButtonProps.ml" 187 7092 7098 "gtkButtonProps.ml" 187 7092 7159
+type(
+  ('g, unit -> unit) GtkSignal.t
+)
+"gtkButtonProps.ml" 189 7166 7172 "gtkButtonProps.ml" 189 7166 7178
+type(
+  Gtk.tool_button Gobject.param list -> Gtk.tool_button Gtk.obj
+)
+ident(
+  def create "gtkButtonProps.ml" 189 7166 7236 "gtkButtonProps.ml" 190 7237 7240
+)
+"gtkButtonProps.ml" 189 7166 7179 "gtkButtonProps.ml" 189 7166 7181
+type(
+  Gtk.tool_button Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 189 7166 7182 "gtkButtonProps.ml" 189 7166 7236
+)
+"gtkButtonProps.ml" 189 7166 7206 "gtkButtonProps.ml" 189 7166 7217
+type(
+  classe:string ->
+  Gtk.tool_button Gobject.param list -> Gtk.tool_button Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkButtonProps.ml" 189 7166 7218 "gtkButtonProps.ml" 189 7166 7233
+type(
+  string
+)
+"gtkButtonProps.ml" 189 7166 7234 "gtkButtonProps.ml" 189 7166 7236
+type(
+  Gtk.tool_button Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 189 7166 7179 "gtkButtonProps.ml" 189 7166 7181
+)
+"gtkButtonProps.ml" 189 7166 7206 "gtkButtonProps.ml" 189 7166 7236
+call(
+  tail
+)
+type(
+  Gtk.tool_button Gtk.obj
+)
+type(
+  Gtk.tool_button Gtk.obj
+)
+"gtkButtonProps.ml" 193 7275 7281 "gtkButtonProps.ml" 193 7275 7285
+type(
+  'a Gobject.obj -> Gtk.toggle_tool_button Gtk.obj
+)
+ident(
+  def cast "gtkButtonProps.ml" 194 7352 7354 "gtkButtonProps.ml" 205 7789 7792
+)
+"gtkButtonProps.ml" 193 7275 7286 "gtkButtonProps.ml" 193 7275 7287
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkButtonProps.ml" 193 7275 7288 "gtkButtonProps.ml" 193 7275 7351
+)
+"gtkButtonProps.ml" 193 7275 7319 "gtkButtonProps.ml" 193 7275 7327
+type(
+  'a Gobject.obj -> string -> Gtk.toggle_tool_button Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkButtonProps.ml" 193 7275 7328 "gtkButtonProps.ml" 193 7275 7329
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkButtonProps.ml" 193 7275 7286 "gtkButtonProps.ml" 193 7275 7287
+)
+"gtkButtonProps.ml" 193 7275 7330 "gtkButtonProps.ml" 193 7275 7351
+type(
+  string
+)
+"gtkButtonProps.ml" 193 7275 7319 "gtkButtonProps.ml" 193 7275 7351
+call(
+  tail
+)
+type(
+  Gtk.toggle_tool_button Gtk.obj
+)
+type(
+  Gtk.toggle_tool_button Gtk.obj
+)
+"gtkButtonProps.ml" 196 7391 7399 "gtkButtonProps.ml" 196 7391 7406
+type(
+  ([> `toggletoolbutton ], unit -> unit) GtkSignal.t
+)
+ident(
+  def toggled "gtkButtonProps.ml" 197 7409 7482 "gtkButtonProps.ml" 198 7483 7488
+)
+"gtkButtonProps.ml" 197 7409 7421 "gtkButtonProps.ml" 197 7409 7430
+type(
+  string
+)
+"gtkButtonProps.ml" 197 7409 7439 "gtkButtonProps.ml" 197 7409 7456
+type(
+  [> `toggletoolbutton ] as 'b
+)
+"gtkButtonProps.ml" 197 7409 7469 "gtkButtonProps.ml" 197 7409 7481
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkButtonProps.ml" 197 7409 7415 "gtkButtonProps.ml" 197 7409 7482
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+"gtkButtonProps.ml" 199 7489 7495 "gtkButtonProps.ml" 199 7489 7501
+type(
+  Gtk.toggle_tool_button Gobject.param list -> Gtk.toggle_tool_button Gtk.obj
+)
+ident(
+  def create "gtkButtonProps.ml" 201 7577 7579 "gtkButtonProps.ml" 205 7789 7792
+)
+"gtkButtonProps.ml" 199 7489 7502 "gtkButtonProps.ml" 199 7489 7504
+type(
+  Gtk.toggle_tool_button Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 199 7489 7505 "gtkButtonProps.ml" 200 7536 7576
+)
+"gtkButtonProps.ml" 200 7536 7540 "gtkButtonProps.ml" 200 7536 7551
+type(
+  classe:string ->
+  Gtk.toggle_tool_button Gobject.param list -> Gtk.toggle_tool_button Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkButtonProps.ml" 200 7536 7552 "gtkButtonProps.ml" 200 7536 7573
+type(
+  string
+)
+"gtkButtonProps.ml" 200 7536 7574 "gtkButtonProps.ml" 200 7536 7576
+type(
+  Gtk.toggle_tool_button Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 199 7489 7502 "gtkButtonProps.ml" 199 7489 7504
+)
+"gtkButtonProps.ml" 200 7536 7540 "gtkButtonProps.ml" 200 7536 7576
+call(
+  tail
+)
+type(
+  Gtk.toggle_tool_button Gtk.obj
+)
+type(
+  Gtk.toggle_tool_button Gtk.obj
+)
+"gtkButtonProps.ml" 208 7826 7832 "gtkButtonProps.ml" 208 7826 7836
+type(
+  'a Gobject.obj -> Gtk.radio_tool_button Gtk.obj
+)
+ident(
+  def cast "gtkButtonProps.ml" 209 7901 7903 "gtkButtonProps.ml" 216 8160 8163
+)
+"gtkButtonProps.ml" 208 7826 7837 "gtkButtonProps.ml" 208 7826 7838
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkButtonProps.ml" 208 7826 7839 "gtkButtonProps.ml" 208 7826 7900
+)
+"gtkButtonProps.ml" 208 7826 7869 "gtkButtonProps.ml" 208 7826 7877
+type(
+  'a Gobject.obj -> string -> Gtk.radio_tool_button Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkButtonProps.ml" 208 7826 7878 "gtkButtonProps.ml" 208 7826 7879
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkButtonProps.ml" 208 7826 7837 "gtkButtonProps.ml" 208 7826 7838
+)
+"gtkButtonProps.ml" 208 7826 7880 "gtkButtonProps.ml" 208 7826 7900
+type(
+  string
+)
+"gtkButtonProps.ml" 208 7826 7869 "gtkButtonProps.ml" 208 7826 7900
+call(
+  tail
+)
+type(
+  Gtk.radio_tool_button Gtk.obj
+)
+type(
+  Gtk.radio_tool_button Gtk.obj
+)
+"gtkButtonProps.ml" 210 7921 7929 "gtkButtonProps.ml" 210 7921 7934
+type(
+  ([> `radiotoolbutton ], Gtk.radio_tool_button Gtk.obj option)
+  Gobject.property
+)
+ident(
+  def group "gtkButtonProps.ml" 212 7993 8067 "gtkButtonProps.ml" 213 8068 8073
+)
+"gtkButtonProps.ml" 211 7972 7984 "gtkButtonProps.ml" 211 7972 7991
+type(
+  string
+)
+"gtkButtonProps.ml" 212 7993 8006 "gtkButtonProps.ml" 212 7993 8020
+type(
+  Gtk.radio_tool_button Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.radio_tool_button Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkButtonProps.ml" 211 7972 7978 "gtkButtonProps.ml" 212 7993 8067
+type(
+  ([> `radiotoolbutton ] as 'b, Gtk.radio_tool_button Gtk.obj option)
+  Gobject.property
+)
+type(
+  ('b, Gtk.radio_tool_button Gtk.obj option) Gobject.property
+)
+"gtkButtonProps.ml" 214 8074 8080 "gtkButtonProps.ml" 214 8074 8086
+type(
+  Gtk.radio_tool_button Gobject.param list -> Gtk.radio_tool_button Gtk.obj
+)
+ident(
+  def create "gtkButtonProps.ml" 215 8120 8159 "gtkButtonProps.ml" 216 8160 8163
+)
+"gtkButtonProps.ml" 214 8074 8087 "gtkButtonProps.ml" 214 8074 8089
+type(
+  Gtk.radio_tool_button Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 214 8074 8090 "gtkButtonProps.ml" 215 8120 8159
+)
+"gtkButtonProps.ml" 215 8120 8124 "gtkButtonProps.ml" 215 8120 8135
+type(
+  classe:string ->
+  Gtk.radio_tool_button Gobject.param list -> Gtk.radio_tool_button Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkButtonProps.ml" 215 8120 8136 "gtkButtonProps.ml" 215 8120 8156
+type(
+  string
+)
+"gtkButtonProps.ml" 215 8120 8157 "gtkButtonProps.ml" 215 8120 8159
+type(
+  Gtk.radio_tool_button Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 214 8074 8087 "gtkButtonProps.ml" 214 8074 8089
+)
+"gtkButtonProps.ml" 215 8120 8124 "gtkButtonProps.ml" 215 8120 8159
+call(
+  tail
+)
+type(
+  Gtk.radio_tool_button Gtk.obj
+)
+type(
+  Gtk.radio_tool_button Gtk.obj
+)
+"gtkButtonProps.ml" 219 8196 8202 "gtkButtonProps.ml" 219 8196 8206
+type(
+  'a Gobject.obj -> Gtk.menu_tool_button Gtk.obj
+)
+ident(
+  def cast "gtkButtonProps.ml" 220 8269 8271 "gtkButtonProps.ml" 229 8641 8644
+)
+"gtkButtonProps.ml" 219 8196 8207 "gtkButtonProps.ml" 219 8196 8208
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkButtonProps.ml" 219 8196 8209 "gtkButtonProps.ml" 219 8196 8268
+)
+"gtkButtonProps.ml" 219 8196 8238 "gtkButtonProps.ml" 219 8196 8246
+type(
+  'a Gobject.obj -> string -> Gtk.menu_tool_button Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkButtonProps.ml" 219 8196 8247 "gtkButtonProps.ml" 219 8196 8248
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkButtonProps.ml" 219 8196 8207 "gtkButtonProps.ml" 219 8196 8208
+)
+"gtkButtonProps.ml" 219 8196 8249 "gtkButtonProps.ml" 219 8196 8268
+type(
+  string
+)
+"gtkButtonProps.ml" 219 8196 8238 "gtkButtonProps.ml" 219 8196 8268
+call(
+  tail
+)
+type(
+  Gtk.menu_tool_button Gtk.obj
+)
+type(
+  Gtk.menu_tool_button Gtk.obj
+)
+"gtkButtonProps.ml" 221 8289 8297 "gtkButtonProps.ml" 221 8289 8301
+type(
+  ([> `menutoolbutton ], Gtk.menu Gtk.obj) Gobject.property
+)
+ident(
+  def menu "gtkButtonProps.ml" 222 8338 8394 "gtkButtonProps.ml" 223 8395 8400
+)
+"gtkButtonProps.ml" 222 8338 8350 "gtkButtonProps.ml" 222 8338 8356
+type(
+  string
+)
+"gtkButtonProps.ml" 222 8338 8364 "gtkButtonProps.ml" 222 8338 8371
+type(
+  Gtk.menu Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.menu Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkButtonProps.ml" 222 8338 8344 "gtkButtonProps.ml" 222 8338 8394
+type(
+  ([> `menutoolbutton ] as 'b, Gtk.menu Gtk.obj) Gobject.property
+)
+type(
+  ('b, Gtk.menu Gtk.obj) Gobject.property
+)
+"gtkButtonProps.ml" 224 8401 8407 "gtkButtonProps.ml" 224 8401 8413
+type(
+  Gtk.menu_tool_button Gobject.param list -> Gtk.menu_tool_button Gtk.obj
+)
+ident(
+  def create "gtkButtonProps.ml" 226 8485 8487 "gtkButtonProps.ml" 229 8641 8644
+)
+"gtkButtonProps.ml" 224 8401 8414 "gtkButtonProps.ml" 224 8401 8416
+type(
+  Gtk.menu_tool_button Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 224 8401 8417 "gtkButtonProps.ml" 225 8446 8484
+)
+"gtkButtonProps.ml" 225 8446 8450 "gtkButtonProps.ml" 225 8446 8461
+type(
+  classe:string ->
+  Gtk.menu_tool_button Gobject.param list -> Gtk.menu_tool_button Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkButtonProps.ml" 225 8446 8462 "gtkButtonProps.ml" 225 8446 8481
+type(
+  string
+)
+"gtkButtonProps.ml" 225 8446 8482 "gtkButtonProps.ml" 225 8446 8484
+type(
+  Gtk.menu_tool_button Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 224 8401 8414 "gtkButtonProps.ml" 224 8401 8416
+)
+"gtkButtonProps.ml" 225 8446 8450 "gtkButtonProps.ml" 225 8446 8484
+call(
+  tail
+)
+type(
+  Gtk.menu_tool_button Gtk.obj
+)
+type(
+  Gtk.menu_tool_button Gtk.obj
+)
+"gtkButtonProps.ml" 232 8670 8676 "gtkButtonProps.ml" 232 8670 8680
+type(
+  'a Gobject.obj -> Gtk.toolbar Gtk.obj
+)
+ident(
+  def cast "gtkButtonProps.ml" 233 8727 8729 "gtkButtonProps.ml" 268 10299 10302
+)
+"gtkButtonProps.ml" 232 8670 8681 "gtkButtonProps.ml" 232 8670 8682
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkButtonProps.ml" 232 8670 8683 "gtkButtonProps.ml" 232 8670 8726
+)
+"gtkButtonProps.ml" 232 8670 8703 "gtkButtonProps.ml" 232 8670 8711
+type(
+  'a Gobject.obj -> string -> Gtk.toolbar Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkButtonProps.ml" 232 8670 8712 "gtkButtonProps.ml" 232 8670 8713
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkButtonProps.ml" 232 8670 8681 "gtkButtonProps.ml" 232 8670 8682
+)
+"gtkButtonProps.ml" 232 8670 8714 "gtkButtonProps.ml" 232 8670 8726
+type(
+  string
+)
+"gtkButtonProps.ml" 232 8670 8703 "gtkButtonProps.ml" 232 8670 8726
+call(
+  tail
+)
+type(
+  Gtk.toolbar Gtk.obj
+)
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gtkButtonProps.ml" 234 8747 8755 "gtkButtonProps.ml" 234 8747 8766
+type(
+  ([> `toolbar ], GtkEnums.orientation) Gobject.property
+)
+ident(
+  def orientation "gtkButtonProps.ml" 236 8855 8859 "gtkButtonProps.ml" 240 9057 9062
+)
+"gtkButtonProps.ml" 235 8796 8808 "gtkButtonProps.ml" 235 8796 8821
+type(
+  string
+)
+"gtkButtonProps.ml" 235 8796 8828 "gtkButtonProps.ml" 235 8796 8853
+type(
+  GtkEnums.orientation Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.orientation_conv
+)
+"gtkButtonProps.ml" 235 8796 8802 "gtkButtonProps.ml" 235 8796 8854
+type(
+  ([> `toolbar ] as 'b, GtkEnums.orientation) Gobject.property
+)
+type(
+  ('b, GtkEnums.orientation) Gobject.property
+)
+"gtkButtonProps.ml" 236 8855 8863 "gtkButtonProps.ml" 236 8855 8876
+type(
+  ([> `toolbar ], GtkEnums.toolbar_style) Gobject.property
+)
+ident(
+  def toolbar_style "gtkButtonProps.ml" 238 8969 8973 "gtkButtonProps.ml" 240 9057 9062
+)
+"gtkButtonProps.ml" 237 8906 8918 "gtkButtonProps.ml" 237 8906 8933
+type(
+  string
+)
+"gtkButtonProps.ml" 237 8906 8940 "gtkButtonProps.ml" 237 8906 8967
+type(
+  GtkEnums.toolbar_style Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.toolbar_style_conv
+)
+"gtkButtonProps.ml" 237 8906 8912 "gtkButtonProps.ml" 237 8906 8968
+type(
+  ([> `toolbar ] as 'c, GtkEnums.toolbar_style) Gobject.property
+)
+type(
+  ('c, GtkEnums.toolbar_style) Gobject.property
+)
+"gtkButtonProps.ml" 238 8969 8977 "gtkButtonProps.ml" 238 8969 8987
+type(
+  ([> `toolbar ], bool) Gobject.property
+)
+ident(
+  def show_arrow "gtkButtonProps.ml" 239 9017 9056 "gtkButtonProps.ml" 240 9057 9062
+)
+"gtkButtonProps.ml" 239 9017 9029 "gtkButtonProps.ml" 239 9017 9041
+type(
+  string
+)
+"gtkButtonProps.ml" 239 9017 9048 "gtkButtonProps.ml" 239 9017 9055
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 239 9017 9023 "gtkButtonProps.ml" 239 9017 9056
+type(
+  ([> `toolbar ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkButtonProps.ml" 243 9102 9110 "gtkButtonProps.ml" 243 9102 9129
+type(
+  ([> `toolbar ], GtkEnums.orientation -> unit) GtkSignal.t
+)
+ident(
+  def orientation_changed "gtkButtonProps.ml" 246 9283 9287 "gtkButtonProps.ml" 260 9995 10000
+)
+"gtkButtonProps.ml" 244 9132 9144 "gtkButtonProps.ml" 244 9132 9165
+type(
+  string
+)
+"gtkButtonProps.ml" 244 9132 9174 "gtkButtonProps.ml" 244 9132 9182
+type(
+  [> `toolbar ] as 'e
+)
+"gtkButtonProps.ml" 244 9132 9199 "gtkButtonProps.ml" 244 9132 9200
+type(
+  GtkEnums.orientation -> unit
+)
+ident(
+  def f "gtkButtonProps.ml" 245 9204 9211 "gtkButtonProps.ml" 245 9204 9281
+)
+"gtkButtonProps.ml" 245 9204 9211 "gtkButtonProps.ml" 245 9204 9219
+type(
+  GtkEnums.orientation Gobject.data_conv ->
+  string -> (GtkEnums.orientation -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkButtonProps.ml" 245 9204 9220 "gtkButtonProps.ml" 245 9204 9245
+type(
+  GtkEnums.orientation Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.orientation_conv
+)
+"gtkButtonProps.ml" 245 9204 9246 "gtkButtonProps.ml" 245 9204 9279
+type(
+  string
+)
+"gtkButtonProps.ml" 245 9204 9280 "gtkButtonProps.ml" 245 9204 9281
+type(
+  GtkEnums.orientation -> unit
+)
+ident(
+  int_ref f "gtkButtonProps.ml" 244 9132 9199 "gtkButtonProps.ml" 244 9132 9200
+)
+"gtkButtonProps.ml" 245 9204 9211 "gtkButtonProps.ml" 245 9204 9281
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkButtonProps.ml" 244 9132 9195 "gtkButtonProps.ml" 245 9204 9281
+type(
+  (GtkEnums.orientation -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkButtonProps.ml" 244 9132 9138 "gtkButtonProps.ml" 245 9204 9282
+type(
+  ('e, GtkEnums.orientation -> unit) GtkSignal.t
+)
+"gtkButtonProps.ml" 246 9283 9291 "gtkButtonProps.ml" 246 9283 9304
+type(
+  ([> `toolbar ], GtkEnums.toolbar_style -> unit) GtkSignal.t
+)
+ident(
+  def style_changed "gtkButtonProps.ml" 249 9448 9452 "gtkButtonProps.ml" 260 9995 10000
+)
+"gtkButtonProps.ml" 247 9307 9319 "gtkButtonProps.ml" 247 9307 9334
+type(
+  string
+)
+"gtkButtonProps.ml" 247 9307 9343 "gtkButtonProps.ml" 247 9307 9351
+type(
+  [> `toolbar ] as 'f
+)
+"gtkButtonProps.ml" 247 9307 9368 "gtkButtonProps.ml" 247 9307 9369
+type(
+  GtkEnums.toolbar_style -> unit
+)
+ident(
+  def f "gtkButtonProps.ml" 248 9373 9380 "gtkButtonProps.ml" 248 9373 9446
+)
+"gtkButtonProps.ml" 248 9373 9380 "gtkButtonProps.ml" 248 9373 9388
+type(
+  GtkEnums.toolbar_style Gobject.data_conv ->
+  string -> (GtkEnums.toolbar_style -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkButtonProps.ml" 248 9373 9389 "gtkButtonProps.ml" 248 9373 9416
+type(
+  GtkEnums.toolbar_style Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.toolbar_style_conv
+)
+"gtkButtonProps.ml" 248 9373 9417 "gtkButtonProps.ml" 248 9373 9444
+type(
+  string
+)
+"gtkButtonProps.ml" 248 9373 9445 "gtkButtonProps.ml" 248 9373 9446
+type(
+  GtkEnums.toolbar_style -> unit
+)
+ident(
+  int_ref f "gtkButtonProps.ml" 247 9307 9368 "gtkButtonProps.ml" 247 9307 9369
+)
+"gtkButtonProps.ml" 248 9373 9380 "gtkButtonProps.ml" 248 9373 9446
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkButtonProps.ml" 247 9307 9364 "gtkButtonProps.ml" 248 9373 9446
+type(
+  (GtkEnums.toolbar_style -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkButtonProps.ml" 247 9307 9313 "gtkButtonProps.ml" 248 9373 9447
+type(
+  ('f, GtkEnums.toolbar_style -> unit) GtkSignal.t
+)
+"gtkButtonProps.ml" 249 9448 9456 "gtkButtonProps.ml" 249 9448 9473
+type(
+  ([> `toolbar ], bool -> bool) GtkSignal.t
+)
+ident(
+  def focus_home_or_end "gtkButtonProps.ml" 252 9622 9626 "gtkButtonProps.ml" 260 9995 10000
+)
+"gtkButtonProps.ml" 250 9476 9488 "gtkButtonProps.ml" 250 9476 9507
+type(
+  string
+)
+"gtkButtonProps.ml" 250 9476 9516 "gtkButtonProps.ml" 250 9476 9524
+type(
+  [> `toolbar ] as 'g
+)
+"gtkButtonProps.ml" 250 9476 9541 "gtkButtonProps.ml" 250 9476 9542
+type(
+  bool -> bool
+)
+ident(
+  def f "gtkButtonProps.ml" 251 9546 9553 "gtkButtonProps.ml" 251 9546 9620
+)
+"gtkButtonProps.ml" 251 9546 9553 "gtkButtonProps.ml" 251 9546 9565
+type(
+  ret:bool Gobject.data_conv ->
+  bool Gobject.data_conv -> string -> (bool -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1_ret
+)
+"gtkButtonProps.ml" 251 9546 9571 "gtkButtonProps.ml" 251 9546 9578
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 251 9546 9579 "gtkButtonProps.ml" 251 9546 9586
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 251 9546 9587 "gtkButtonProps.ml" 251 9546 9618
+type(
+  string
+)
+"gtkButtonProps.ml" 251 9546 9619 "gtkButtonProps.ml" 251 9546 9620
+type(
+  bool -> bool
+)
+ident(
+  int_ref f "gtkButtonProps.ml" 250 9476 9541 "gtkButtonProps.ml" 250 9476 9542
+)
+"gtkButtonProps.ml" 251 9546 9553 "gtkButtonProps.ml" 251 9546 9620
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkButtonProps.ml" 250 9476 9537 "gtkButtonProps.ml" 251 9546 9620
+type(
+  (bool -> bool) -> Gobject.Closure.argv -> unit
+)
+"gtkButtonProps.ml" 250 9476 9482 "gtkButtonProps.ml" 251 9546 9621
+type(
+  ('g, bool -> bool) GtkSignal.t
+)
+"gtkButtonProps.ml" 252 9622 9630 "gtkButtonProps.ml" 252 9622 9640
+type(
+  ([> `toolbar ], GtkEnums.direction_type -> bool) GtkSignal.t
+)
+ident(
+  def move_focus "gtkButtonProps.ml" 256 9805 9809 "gtkButtonProps.ml" 260 9995 10000
+)
+"gtkButtonProps.ml" 253 9643 9655 "gtkButtonProps.ml" 253 9643 9667
+type(
+  string
+)
+"gtkButtonProps.ml" 253 9643 9676 "gtkButtonProps.ml" 253 9643 9684
+type(
+  [> `toolbar ] as 'h
+)
+"gtkButtonProps.ml" 253 9643 9701 "gtkButtonProps.ml" 253 9643 9702
+type(
+  GtkEnums.direction_type -> bool
+)
+ident(
+  def f "gtkButtonProps.ml" 254 9706 9713 "gtkButtonProps.ml" 255 9768 9803
+)
+"gtkButtonProps.ml" 254 9706 9713 "gtkButtonProps.ml" 254 9706 9725
+type(
+  ret:bool Gobject.data_conv ->
+  GtkEnums.direction_type Gobject.data_conv ->
+  string -> (GtkEnums.direction_type -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1_ret
+)
+"gtkButtonProps.ml" 254 9706 9731 "gtkButtonProps.ml" 254 9706 9738
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 254 9706 9739 "gtkButtonProps.ml" 254 9706 9767
+type(
+  GtkEnums.direction_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.direction_type_conv
+)
+"gtkButtonProps.ml" 255 9768 9777 "gtkButtonProps.ml" 255 9768 9801
+type(
+  string
+)
+"gtkButtonProps.ml" 255 9768 9802 "gtkButtonProps.ml" 255 9768 9803
+type(
+  GtkEnums.direction_type -> bool
+)
+ident(
+  int_ref f "gtkButtonProps.ml" 253 9643 9701 "gtkButtonProps.ml" 253 9643 9702
+)
+"gtkButtonProps.ml" 254 9706 9713 "gtkButtonProps.ml" 255 9768 9803
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkButtonProps.ml" 253 9643 9697 "gtkButtonProps.ml" 255 9768 9803
+type(
+  (GtkEnums.direction_type -> bool) -> Gobject.Closure.argv -> unit
+)
+"gtkButtonProps.ml" 253 9643 9649 "gtkButtonProps.ml" 255 9768 9804
+type(
+  ('h, GtkEnums.direction_type -> bool) GtkSignal.t
+)
+"gtkButtonProps.ml" 256 9805 9813 "gtkButtonProps.ml" 256 9805 9831
+type(
+  ([> `toolbar ], int -> int -> int -> bool) GtkSignal.t
+)
+ident(
+  def popup_context_menu "gtkButtonProps.ml" 259 9950 9994 "gtkButtonProps.ml" 260 9995 10000
+)
+"gtkButtonProps.ml" 257 9834 9846 "gtkButtonProps.ml" 257 9834 9866
+type(
+  string
+)
+"gtkButtonProps.ml" 257 9834 9875 "gtkButtonProps.ml" 257 9834 9883
+type(
+  [> `toolbar ] as 'i
+)
+"gtkButtonProps.ml" 257 9834 9900 "gtkButtonProps.ml" 257 9834 9901
+type(
+  int -> int -> int -> bool
+)
+ident(
+  def f "gtkButtonProps.ml" 258 9905 9912 "gtkButtonProps.ml" 259 9950 9993
+)
+"gtkButtonProps.ml" 258 9905 9912 "gtkButtonProps.ml" 258 9905 9924
+type(
+  ret:bool Gobject.data_conv ->
+  int Gobject.data_conv ->
+  int Gobject.data_conv ->
+  int Gobject.data_conv ->
+  string -> (int -> int -> int -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal3_ret
+)
+"gtkButtonProps.ml" 258 9905 9930 "gtkButtonProps.ml" 258 9905 9937
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkButtonProps.ml" 258 9905 9938 "gtkButtonProps.ml" 258 9905 9941
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkButtonProps.ml" 258 9905 9942 "gtkButtonProps.ml" 258 9905 9945
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkButtonProps.ml" 258 9905 9946 "gtkButtonProps.ml" 258 9905 9949
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkButtonProps.ml" 259 9950 9959 "gtkButtonProps.ml" 259 9950 9991
+type(
+  string
+)
+"gtkButtonProps.ml" 259 9950 9992 "gtkButtonProps.ml" 259 9950 9993
+type(
+  int -> int -> int -> bool
+)
+ident(
+  int_ref f "gtkButtonProps.ml" 257 9834 9900 "gtkButtonProps.ml" 257 9834 9901
+)
+"gtkButtonProps.ml" 258 9905 9912 "gtkButtonProps.ml" 259 9950 9993
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkButtonProps.ml" 257 9834 9896 "gtkButtonProps.ml" 259 9950 9993
+type(
+  (int -> int -> int -> bool) -> Gobject.Closure.argv -> unit
+)
+"gtkButtonProps.ml" 257 9834 9840 "gtkButtonProps.ml" 259 9950 9994
+type(
+  ('i, int -> int -> int -> bool) GtkSignal.t
+)
+"gtkButtonProps.ml" 261 10001 10007 "gtkButtonProps.ml" 261 10001 10013
+type(
+  Gtk.toolbar Gobject.param list -> Gtk.toolbar Gtk.obj
+)
+ident(
+  def create "gtkButtonProps.ml" 262 10065 10067 "gtkButtonProps.ml" 268 10299 10302
+)
+"gtkButtonProps.ml" 261 10001 10014 "gtkButtonProps.ml" 261 10001 10016
+type(
+  Gtk.toolbar Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 261 10001 10017 "gtkButtonProps.ml" 261 10001 10064
+)
+"gtkButtonProps.ml" 261 10001 10037 "gtkButtonProps.ml" 261 10001 10048
+type(
+  classe:string -> Gtk.toolbar Gobject.param list -> Gtk.toolbar Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkButtonProps.ml" 261 10001 10049 "gtkButtonProps.ml" 261 10001 10061
+type(
+  string
+)
+"gtkButtonProps.ml" 261 10001 10062 "gtkButtonProps.ml" 261 10001 10064
+type(
+  Gtk.toolbar Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 261 10001 10014 "gtkButtonProps.ml" 261 10001 10016
+)
+"gtkButtonProps.ml" 261 10001 10037 "gtkButtonProps.ml" 261 10001 10064
+call(
+  tail
+)
+type(
+  Gtk.toolbar Gtk.obj
+)
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gtkButtonProps.ml" 262 10065 10071 "gtkButtonProps.ml" 262 10065 10082
+type(
+  cont:(([> `toolbar ] as 'j) Gobject.param list -> 'k) ->
+  'j Gobject.param list ->
+  ?orientation:GtkEnums.orientation ->
+  ?toolbar_style:GtkEnums.toolbar_style -> ?show_arrow:bool -> 'k
+)
+ident(
+  def make_params "gtkButtonProps.ml" 267 10287 10298 "gtkButtonProps.ml" 268 10299 10302
+)
+"gtkButtonProps.ml" 262 10065 10084 "gtkButtonProps.ml" 262 10065 10088
+type(
+  'j Gobject.param list -> 'k
+)
+ident(
+  def cont "gtkButtonProps.ml" 262 10065 10089 "gtkButtonProps.ml" 267 10287 10298
+)
+"gtkButtonProps.ml" 262 10065 10089 "gtkButtonProps.ml" 262 10065 10091
+type(
+  'j Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 262 10065 10092 "gtkButtonProps.ml" 267 10287 10298
+)
+"gtkButtonProps.ml" 262 10065 10093 "gtkButtonProps.ml" 262 10065 10104
+type(
+  GtkEnums.orientation option
+)
+ident(
+  def orientation "gtkButtonProps.ml" 262 10065 10105 "gtkButtonProps.ml" 267 10287 10298
+)
+"gtkButtonProps.ml" 262 10065 10106 "gtkButtonProps.ml" 262 10065 10119
+type(
+  GtkEnums.toolbar_style option
+)
+ident(
+  def toolbar_style "gtkButtonProps.ml" 262 10065 10120 "gtkButtonProps.ml" 267 10287 10298
+)
+"gtkButtonProps.ml" 262 10065 10121 "gtkButtonProps.ml" 262 10065 10131
+type(
+  bool option
+)
+ident(
+  def show_arrow "gtkButtonProps.ml" 263 10134 10138 "gtkButtonProps.ml" 267 10287 10298
+)
+"gtkButtonProps.ml" 263 10134 10142 "gtkButtonProps.ml" 263 10134 10144
+type(
+  'j Gobject.param list
+)
+"gtkButtonProps.ml" 264 10149 10155 "gtkButtonProps.ml" 264 10149 10163
+type(
+  ('j, GtkEnums.orientation) Gobject.property ->
+  GtkEnums.orientation option ->
+  'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkButtonProps.ml" 13 237 241 "gtkButtonProps.ml" 13 237 249
+)
+"gtkButtonProps.ml" 264 10149 10164 "gtkButtonProps.ml" 264 10149 10177
+type(
+  ('j, GtkEnums.orientation) Gobject.property
+)
+ident(
+  ext_ref P.orientation
+)
+"gtkButtonProps.ml" 264 10149 10178 "gtkButtonProps.ml" 264 10149 10189
+type(
+  GtkEnums.orientation option
+)
+ident(
+  int_ref orientation "gtkButtonProps.ml" 262 10065 10093 "gtkButtonProps.ml" 262 10065 10104
+)
+"gtkButtonProps.ml" 265 10192 10198 "gtkButtonProps.ml" 265 10192 10206
+type(
+  ('j, GtkEnums.toolbar_style) Gobject.property ->
+  GtkEnums.toolbar_style option ->
+  'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkButtonProps.ml" 13 237 241 "gtkButtonProps.ml" 13 237 249
+)
+"gtkButtonProps.ml" 265 10192 10207 "gtkButtonProps.ml" 265 10192 10222
+type(
+  ('j, GtkEnums.toolbar_style) Gobject.property
+)
+ident(
+  ext_ref P.toolbar_style
+)
+"gtkButtonProps.ml" 265 10192 10223 "gtkButtonProps.ml" 265 10192 10236
+type(
+  GtkEnums.toolbar_style option
+)
+ident(
+  int_ref toolbar_style "gtkButtonProps.ml" 262 10065 10106 "gtkButtonProps.ml" 262 10065 10119
+)
+"gtkButtonProps.ml" 266 10239 10245 "gtkButtonProps.ml" 266 10239 10253
+type(
+  ('j, bool) Gobject.property ->
+  bool option -> 'j Gobject.param list -> 'j Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkButtonProps.ml" 13 237 241 "gtkButtonProps.ml" 13 237 249
+)
+"gtkButtonProps.ml" 266 10239 10254 "gtkButtonProps.ml" 266 10239 10266
+type(
+  ('j, bool) Gobject.property
+)
+ident(
+  ext_ref P.show_arrow
+)
+"gtkButtonProps.ml" 266 10239 10267 "gtkButtonProps.ml" 266 10239 10277
+type(
+  bool option
+)
+ident(
+  int_ref show_arrow "gtkButtonProps.ml" 262 10065 10121 "gtkButtonProps.ml" 262 10065 10131
+)
+"gtkButtonProps.ml" 266 10239 10278 "gtkButtonProps.ml" 266 10239 10280
+type(
+  'j Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 262 10065 10089 "gtkButtonProps.ml" 262 10065 10091
+)
+"gtkButtonProps.ml" 265 10192 10237 "gtkButtonProps.ml" 266 10239 10281
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkButtonProps.ml" 264 10149 10190 "gtkButtonProps.ml" 266 10239 10282
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkButtonProps.ml" 263 10134 10147 "gtkButtonProps.ml" 266 10239 10283
+call(
+  stack
+)
+type(
+  'j Gobject.param list
+)
+"gtkButtonProps.ml" 267 10287 10291 "gtkButtonProps.ml" 267 10287 10295
+type(
+  'j Gobject.param list -> 'k
+)
+ident(
+  int_ref cont "gtkButtonProps.ml" 262 10065 10084 "gtkButtonProps.ml" 262 10065 10088
+)
+"gtkButtonProps.ml" 267 10287 10296 "gtkButtonProps.ml" 267 10287 10298
+type(
+  'j Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 263 10134 10142 "gtkButtonProps.ml" 263 10134 10144
+)
+"gtkButtonProps.ml" 267 10287 10291 "gtkButtonProps.ml" 267 10287 10298
+call(
+  tail
+)
+type(
+  'k
+)
+"gtkButtonProps.ml" 263 10134 10138 "gtkButtonProps.ml" 267 10287 10298
+type(
+  'k
+)
+"gtkButtonProps.ml" 271 10331 10337 "gtkButtonProps.ml" 271 10331 10341
+type(
+  'a Gobject.obj -> Gtk.link_button Gtk.obj
+)
+ident(
+  def cast "gtkButtonProps.ml" 272 10395 10397 "gtkButtonProps.ml" 276 10562 10565
+)
+"gtkButtonProps.ml" 271 10331 10342 "gtkButtonProps.ml" 271 10331 10343
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkButtonProps.ml" 271 10331 10344 "gtkButtonProps.ml" 271 10331 10394
+)
+"gtkButtonProps.ml" 271 10331 10368 "gtkButtonProps.ml" 271 10331 10376
+type(
+  'a Gobject.obj -> string -> Gtk.link_button Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkButtonProps.ml" 271 10331 10377 "gtkButtonProps.ml" 271 10331 10378
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkButtonProps.ml" 271 10331 10342 "gtkButtonProps.ml" 271 10331 10343
+)
+"gtkButtonProps.ml" 271 10331 10379 "gtkButtonProps.ml" 271 10331 10394
+type(
+  string
+)
+"gtkButtonProps.ml" 271 10331 10368 "gtkButtonProps.ml" 271 10331 10394
+call(
+  tail
+)
+type(
+  Gtk.link_button Gtk.obj
+)
+type(
+  Gtk.link_button Gtk.obj
+)
+"gtkButtonProps.ml" 273 10415 10423 "gtkButtonProps.ml" 273 10415 10426
+type(
+  ([> `linkbutton ], string) Gobject.property
+)
+ident(
+  def uri "gtkButtonProps.ml" 273 10415 10484 "gtkButtonProps.ml" 274 10485 10490
+)
+"gtkButtonProps.ml" 273 10415 10465 "gtkButtonProps.ml" 273 10415 10470
+type(
+  string
+)
+"gtkButtonProps.ml" 273 10415 10477 "gtkButtonProps.ml" 273 10415 10483
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkButtonProps.ml" 273 10415 10459 "gtkButtonProps.ml" 273 10415 10484
+type(
+  ([> `linkbutton ] as 'b, string) Gobject.property
+)
+type(
+  ('b, string) Gobject.property
+)
+"gtkButtonProps.ml" 275 10491 10497 "gtkButtonProps.ml" 275 10491 10503
+type(
+  Gtk.link_button Gobject.param list -> Gtk.link_button Gtk.obj
+)
+ident(
+  def create "gtkButtonProps.ml" 275 10491 10561 "gtkButtonProps.ml" 276 10562 10565
+)
+"gtkButtonProps.ml" 275 10491 10504 "gtkButtonProps.ml" 275 10491 10506
+type(
+  Gtk.link_button Gobject.param list
+)
+ident(
+  def pl "gtkButtonProps.ml" 275 10491 10507 "gtkButtonProps.ml" 275 10491 10561
+)
+"gtkButtonProps.ml" 275 10491 10531 "gtkButtonProps.ml" 275 10491 10542
+type(
+  classe:string ->
+  Gtk.link_button Gobject.param list -> Gtk.link_button Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkButtonProps.ml" 275 10491 10543 "gtkButtonProps.ml" 275 10491 10558
+type(
+  string
+)
+"gtkButtonProps.ml" 275 10491 10559 "gtkButtonProps.ml" 275 10491 10561
+type(
+  Gtk.link_button Gobject.param list
+)
+ident(
+  int_ref pl "gtkButtonProps.ml" 275 10491 10504 "gtkButtonProps.ml" 275 10491 10506
+)
+"gtkButtonProps.ml" 275 10491 10531 "gtkButtonProps.ml" 275 10491 10561
+call(
+  tail
+)
+type(
+  Gtk.link_button Gtk.obj
+)
+type(
+  Gtk.link_button Gtk.obj
+)

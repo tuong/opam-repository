@@ -1,0 +1,4 @@
+deps=unix,ocamlbuild
+tarball=ocaml-getopt.tar.gz
+is_library=true
+is_program=false

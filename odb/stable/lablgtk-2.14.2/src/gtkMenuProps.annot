@@ -1,0 +1,1187 @@
+"gtkMenuProps.ml" 7 60 64 "gtkMenuProps.ml" 7 60 72
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons "gtkMenuProps.ml" 8 93 93 --
+)
+"gtkMenuProps.ml" 7 60 75 "gtkMenuProps.ml" 7 60 92
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gtkMenuProps.ml" 8 93 97 "gtkMenuProps.ml" 8 93 109
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons_opt "gtkMenuProps.ml" 10 135 135 --
+)
+"gtkMenuProps.ml" 8 93 112 "gtkMenuProps.ml" 8 93 133
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons_opt
+)
+"gtkMenuProps.ml" 11 162 168 "gtkMenuProps.ml" 11 162 172
+type(
+  'a Gobject.obj -> Gtk.option_menu Gtk.obj
+)
+ident(
+  def cast "gtkMenuProps.ml" 12 226 228 "gtkMenuProps.ml" 26 749 752
+)
+"gtkMenuProps.ml" 11 162 173 "gtkMenuProps.ml" 11 162 174
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMenuProps.ml" 11 162 175 "gtkMenuProps.ml" 11 162 225
+)
+"gtkMenuProps.ml" 11 162 199 "gtkMenuProps.ml" 11 162 207
+type(
+  'a Gobject.obj -> string -> Gtk.option_menu Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMenuProps.ml" 11 162 208 "gtkMenuProps.ml" 11 162 209
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMenuProps.ml" 11 162 173 "gtkMenuProps.ml" 11 162 174
+)
+"gtkMenuProps.ml" 11 162 210 "gtkMenuProps.ml" 11 162 225
+type(
+  string
+)
+"gtkMenuProps.ml" 11 162 199 "gtkMenuProps.ml" 11 162 225
+call(
+  tail
+)
+type(
+  Gtk.option_menu Gtk.obj
+)
+type(
+  Gtk.option_menu Gtk.obj
+)
+"gtkMenuProps.ml" 13 246 254 "gtkMenuProps.ml" 13 246 258
+type(
+  ([> `optionmenu ], Gtk.menu Gtk.obj) Gobject.property
+)
+ident(
+  def menu "gtkMenuProps.ml" 14 291 351 "gtkMenuProps.ml" 15 352 357
+)
+"gtkMenuProps.ml" 14 291 303 "gtkMenuProps.ml" 14 291 309
+type(
+  string
+)
+"gtkMenuProps.ml" 14 291 317 "gtkMenuProps.ml" 14 291 324
+type(
+  Gtk.menu Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.menu Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkMenuProps.ml" 14 291 297 "gtkMenuProps.ml" 14 291 351
+type(
+  ([> `optionmenu ] as 'b, Gtk.menu Gtk.obj) Gobject.property
+)
+type(
+  ('b, Gtk.menu Gtk.obj) Gobject.property
+)
+"gtkMenuProps.ml" 18 397 405 "gtkMenuProps.ml" 18 397 412
+type(
+  ([> `optionmenu ], unit -> unit) GtkSignal.t
+)
+ident(
+  def changed "gtkMenuProps.ml" 19 415 482 "gtkMenuProps.ml" 20 483 488
+)
+"gtkMenuProps.ml" 19 415 427 "gtkMenuProps.ml" 19 415 436
+type(
+  string
+)
+"gtkMenuProps.ml" 19 415 445 "gtkMenuProps.ml" 19 415 456
+type(
+  [> `optionmenu ] as 'c
+)
+"gtkMenuProps.ml" 19 415 469 "gtkMenuProps.ml" 19 415 481
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMenuProps.ml" 19 415 421 "gtkMenuProps.ml" 19 415 482
+type(
+  ('c, unit -> unit) GtkSignal.t
+)
+"gtkMenuProps.ml" 21 489 495 "gtkMenuProps.ml" 21 489 501
+type(
+  Gtk.option_menu Gobject.param list -> Gtk.option_menu Gtk.obj
+)
+ident(
+  def create "gtkMenuProps.ml" 22 560 562 "gtkMenuProps.ml" 26 749 752
+)
+"gtkMenuProps.ml" 21 489 502 "gtkMenuProps.ml" 21 489 504
+type(
+  Gtk.option_menu Gobject.param list
+)
+ident(
+  def pl "gtkMenuProps.ml" 21 489 505 "gtkMenuProps.ml" 21 489 559
+)
+"gtkMenuProps.ml" 21 489 529 "gtkMenuProps.ml" 21 489 540
+type(
+  classe:string ->
+  Gtk.option_menu Gobject.param list -> Gtk.option_menu Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMenuProps.ml" 21 489 541 "gtkMenuProps.ml" 21 489 556
+type(
+  string
+)
+"gtkMenuProps.ml" 21 489 557 "gtkMenuProps.ml" 21 489 559
+type(
+  Gtk.option_menu Gobject.param list
+)
+ident(
+  int_ref pl "gtkMenuProps.ml" 21 489 502 "gtkMenuProps.ml" 21 489 504
+)
+"gtkMenuProps.ml" 21 489 529 "gtkMenuProps.ml" 21 489 559
+call(
+  tail
+)
+type(
+  Gtk.option_menu Gtk.obj
+)
+type(
+  Gtk.option_menu Gtk.obj
+)
+"gtkMenuProps.ml" 29 779 785 "gtkMenuProps.ml" 29 779 789
+type(
+  'a Gobject.obj -> Gtk.menu_item Gtk.obj
+)
+ident(
+  def cast "gtkMenuProps.ml" 30 839 841 "gtkMenuProps.ml" 57 2195 2198
+)
+"gtkMenuProps.ml" 29 779 790 "gtkMenuProps.ml" 29 779 791
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMenuProps.ml" 29 779 792 "gtkMenuProps.ml" 29 779 838
+)
+"gtkMenuProps.ml" 29 779 814 "gtkMenuProps.ml" 29 779 822
+type(
+  'a Gobject.obj -> string -> Gtk.menu_item Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMenuProps.ml" 29 779 823 "gtkMenuProps.ml" 29 779 824
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMenuProps.ml" 29 779 790 "gtkMenuProps.ml" 29 779 791
+)
+"gtkMenuProps.ml" 29 779 825 "gtkMenuProps.ml" 29 779 838
+type(
+  string
+)
+"gtkMenuProps.ml" 29 779 814 "gtkMenuProps.ml" 29 779 838
+call(
+  tail
+)
+type(
+  Gtk.menu_item Gtk.obj
+)
+type(
+  Gtk.menu_item Gtk.obj
+)
+"gtkMenuProps.ml" 32 878 886 "gtkMenuProps.ml" 32 878 894
+type(
+  ([> `menuitem ], unit -> unit) GtkSignal.t
+)
+ident(
+  def activate "gtkMenuProps.ml" 34 964 968 "gtkMenuProps.ml" 36 1060 1065
+)
+"gtkMenuProps.ml" 33 897 909 "gtkMenuProps.ml" 33 897 919
+type(
+  string
+)
+"gtkMenuProps.ml" 33 897 928 "gtkMenuProps.ml" 33 897 937
+type(
+  [> `menuitem ] as 'b
+)
+"gtkMenuProps.ml" 33 897 950 "gtkMenuProps.ml" 33 897 962
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMenuProps.ml" 33 897 903 "gtkMenuProps.ml" 33 897 963
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+"gtkMenuProps.ml" 34 964 972 "gtkMenuProps.ml" 34 964 985
+type(
+  ([> `menuitem ], unit -> unit) GtkSignal.t
+)
+ident(
+  def activate_item "gtkMenuProps.ml" 35 988 1059 "gtkMenuProps.ml" 36 1060 1065
+)
+"gtkMenuProps.ml" 35 988 1000 "gtkMenuProps.ml" 35 988 1015
+type(
+  string
+)
+"gtkMenuProps.ml" 35 988 1024 "gtkMenuProps.ml" 35 988 1033
+type(
+  [> `menuitem ] as 'c
+)
+"gtkMenuProps.ml" 35 988 1046 "gtkMenuProps.ml" 35 988 1058
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMenuProps.ml" 35 988 994 "gtkMenuProps.ml" 35 988 1059
+type(
+  ('c, unit -> unit) GtkSignal.t
+)
+"gtkMenuProps.ml" 37 1066 1072 "gtkMenuProps.ml" 37 1066 1078
+type(
+  Gtk.menu_item Gobject.param list -> Gtk.menu_item Gtk.obj
+)
+ident(
+  def create "gtkMenuProps.ml" 38 1133 1135 "gtkMenuProps.ml" 57 2195 2198
+)
+"gtkMenuProps.ml" 37 1066 1079 "gtkMenuProps.ml" 37 1066 1081
+type(
+  Gtk.menu_item Gobject.param list
+)
+ident(
+  def pl "gtkMenuProps.ml" 37 1066 1082 "gtkMenuProps.ml" 37 1066 1132
+)
+"gtkMenuProps.ml" 37 1066 1104 "gtkMenuProps.ml" 37 1066 1115
+type(
+  classe:string -> Gtk.menu_item Gobject.param list -> Gtk.menu_item Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMenuProps.ml" 37 1066 1116 "gtkMenuProps.ml" 37 1066 1129
+type(
+  string
+)
+"gtkMenuProps.ml" 37 1066 1130 "gtkMenuProps.ml" 37 1066 1132
+type(
+  Gtk.menu_item Gobject.param list
+)
+ident(
+  int_ref pl "gtkMenuProps.ml" 37 1066 1079 "gtkMenuProps.ml" 37 1066 1081
+)
+"gtkMenuProps.ml" 37 1066 1104 "gtkMenuProps.ml" 37 1066 1132
+call(
+  tail
+)
+type(
+  Gtk.menu_item Gtk.obj
+)
+type(
+  Gtk.menu_item Gtk.obj
+)
+"gtkMenuProps.ml" 60 2230 2236 "gtkMenuProps.ml" 60 2230 2240
+type(
+  'a Gobject.obj -> Gtk.check_menu_item Gtk.obj
+)
+ident(
+  def cast "gtkMenuProps.ml" 61 2301 2303 "gtkMenuProps.ml" 77 2927 2930
+)
+"gtkMenuProps.ml" 60 2230 2241 "gtkMenuProps.ml" 60 2230 2242
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMenuProps.ml" 60 2230 2243 "gtkMenuProps.ml" 60 2230 2300
+)
+"gtkMenuProps.ml" 60 2230 2271 "gtkMenuProps.ml" 60 2230 2279
+type(
+  'a Gobject.obj -> string -> Gtk.check_menu_item Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMenuProps.ml" 60 2230 2280 "gtkMenuProps.ml" 60 2230 2281
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMenuProps.ml" 60 2230 2241 "gtkMenuProps.ml" 60 2230 2242
+)
+"gtkMenuProps.ml" 60 2230 2282 "gtkMenuProps.ml" 60 2230 2300
+type(
+  string
+)
+"gtkMenuProps.ml" 60 2230 2271 "gtkMenuProps.ml" 60 2230 2300
+call(
+  tail
+)
+type(
+  Gtk.check_menu_item Gtk.obj
+)
+type(
+  Gtk.check_menu_item Gtk.obj
+)
+"gtkMenuProps.ml" 62 2321 2329 "gtkMenuProps.ml" 62 2321 2335
+type(
+  ([> `checkmenuitem ], bool) Gobject.property
+)
+ident(
+  def active "gtkMenuProps.ml" 64 2407 2411 "gtkMenuProps.ml" 66 2505 2510
+)
+"gtkMenuProps.ml" 63 2371 2383 "gtkMenuProps.ml" 63 2371 2391
+type(
+  string
+)
+"gtkMenuProps.ml" 63 2371 2398 "gtkMenuProps.ml" 63 2371 2405
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkMenuProps.ml" 63 2371 2377 "gtkMenuProps.ml" 63 2371 2406
+type(
+  ([> `checkmenuitem ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkMenuProps.ml" 64 2407 2415 "gtkMenuProps.ml" 64 2407 2427
+type(
+  ([> `checkmenuitem ], bool) Gobject.property
+)
+ident(
+  def inconsistent "gtkMenuProps.ml" 65 2463 2504 "gtkMenuProps.ml" 66 2505 2510
+)
+"gtkMenuProps.ml" 65 2463 2475 "gtkMenuProps.ml" 65 2463 2489
+type(
+  string
+)
+"gtkMenuProps.ml" 65 2463 2496 "gtkMenuProps.ml" 65 2463 2503
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkMenuProps.ml" 65 2463 2469 "gtkMenuProps.ml" 65 2463 2504
+type(
+  ([> `checkmenuitem ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkMenuProps.ml" 69 2550 2558 "gtkMenuProps.ml" 69 2550 2565
+type(
+  ([> `checkmenuitem ], unit -> unit) GtkSignal.t
+)
+ident(
+  def toggled "gtkMenuProps.ml" 70 2568 2638 "gtkMenuProps.ml" 71 2639 2644
+)
+"gtkMenuProps.ml" 70 2568 2580 "gtkMenuProps.ml" 70 2568 2589
+type(
+  string
+)
+"gtkMenuProps.ml" 70 2568 2598 "gtkMenuProps.ml" 70 2568 2612
+type(
+  [> `checkmenuitem ] as 'd
+)
+"gtkMenuProps.ml" 70 2568 2625 "gtkMenuProps.ml" 70 2568 2637
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMenuProps.ml" 70 2568 2574 "gtkMenuProps.ml" 70 2568 2638
+type(
+  ('d, unit -> unit) GtkSignal.t
+)
+"gtkMenuProps.ml" 72 2645 2651 "gtkMenuProps.ml" 72 2645 2657
+type(
+  Gtk.check_menu_item Gobject.param list -> Gtk.check_menu_item Gtk.obj
+)
+ident(
+  def create "gtkMenuProps.ml" 73 2723 2725 "gtkMenuProps.ml" 77 2927 2930
+)
+"gtkMenuProps.ml" 72 2645 2658 "gtkMenuProps.ml" 72 2645 2660
+type(
+  Gtk.check_menu_item Gobject.param list
+)
+ident(
+  def pl "gtkMenuProps.ml" 72 2645 2661 "gtkMenuProps.ml" 72 2645 2722
+)
+"gtkMenuProps.ml" 72 2645 2689 "gtkMenuProps.ml" 72 2645 2700
+type(
+  classe:string ->
+  Gtk.check_menu_item Gobject.param list -> Gtk.check_menu_item Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMenuProps.ml" 72 2645 2701 "gtkMenuProps.ml" 72 2645 2719
+type(
+  string
+)
+"gtkMenuProps.ml" 72 2645 2720 "gtkMenuProps.ml" 72 2645 2722
+type(
+  Gtk.check_menu_item Gobject.param list
+)
+ident(
+  int_ref pl "gtkMenuProps.ml" 72 2645 2658 "gtkMenuProps.ml" 72 2645 2660
+)
+"gtkMenuProps.ml" 72 2645 2689 "gtkMenuProps.ml" 72 2645 2722
+call(
+  tail
+)
+type(
+  Gtk.check_menu_item Gtk.obj
+)
+type(
+  Gtk.check_menu_item Gtk.obj
+)
+"gtkMenuProps.ml" 80 2962 2968 "gtkMenuProps.ml" 80 2962 2972
+type(
+  'a Gobject.obj -> Gtk.radio_menu_item Gtk.obj
+)
+ident(
+  def cast "gtkMenuProps.ml" 81 3033 3035 "gtkMenuProps.ml" 83 3152 3155
+)
+"gtkMenuProps.ml" 80 2962 2973 "gtkMenuProps.ml" 80 2962 2974
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMenuProps.ml" 80 2962 2975 "gtkMenuProps.ml" 80 2962 3032
+)
+"gtkMenuProps.ml" 80 2962 3003 "gtkMenuProps.ml" 80 2962 3011
+type(
+  'a Gobject.obj -> string -> Gtk.radio_menu_item Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMenuProps.ml" 80 2962 3012 "gtkMenuProps.ml" 80 2962 3013
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMenuProps.ml" 80 2962 2973 "gtkMenuProps.ml" 80 2962 2974
+)
+"gtkMenuProps.ml" 80 2962 3014 "gtkMenuProps.ml" 80 2962 3032
+type(
+  string
+)
+"gtkMenuProps.ml" 80 2962 3003 "gtkMenuProps.ml" 80 2962 3032
+call(
+  tail
+)
+type(
+  Gtk.radio_menu_item Gtk.obj
+)
+type(
+  Gtk.radio_menu_item Gtk.obj
+)
+"gtkMenuProps.ml" 86 3187 3193 "gtkMenuProps.ml" 86 3187 3197
+type(
+  'a Gobject.obj -> Gtk.image_menu_item Gtk.obj
+)
+ident(
+  def cast "gtkMenuProps.ml" 87 3258 3260 "gtkMenuProps.ml" 92 3475 3478
+)
+"gtkMenuProps.ml" 86 3187 3198 "gtkMenuProps.ml" 86 3187 3199
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMenuProps.ml" 86 3187 3200 "gtkMenuProps.ml" 86 3187 3257
+)
+"gtkMenuProps.ml" 86 3187 3228 "gtkMenuProps.ml" 86 3187 3236
+type(
+  'a Gobject.obj -> string -> Gtk.image_menu_item Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMenuProps.ml" 86 3187 3237 "gtkMenuProps.ml" 86 3187 3238
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMenuProps.ml" 86 3187 3198 "gtkMenuProps.ml" 86 3187 3199
+)
+"gtkMenuProps.ml" 86 3187 3239 "gtkMenuProps.ml" 86 3187 3257
+type(
+  string
+)
+"gtkMenuProps.ml" 86 3187 3228 "gtkMenuProps.ml" 86 3187 3257
+call(
+  tail
+)
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gtkMenuProps.ml" 88 3278 3286 "gtkMenuProps.ml" 88 3278 3291
+type(
+  ([> `imagemenuitem ], Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  def image "gtkMenuProps.ml" 89 3327 3390 "gtkMenuProps.ml" 90 3391 3396
+)
+"gtkMenuProps.ml" 89 3327 3339 "gtkMenuProps.ml" 89 3327 3346
+type(
+  string
+)
+"gtkMenuProps.ml" 89 3327 3354 "gtkMenuProps.ml" 89 3327 3361
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkMenuProps.ml" 89 3327 3333 "gtkMenuProps.ml" 89 3327 3390
+type(
+  ([> `imagemenuitem ] as 'b, Gtk.widget Gtk.obj) Gobject.property
+)
+type(
+  ('b, Gtk.widget Gtk.obj) Gobject.property
+)
+"gtkMenuProps.ml" 91 3397 3403 "gtkMenuProps.ml" 91 3397 3409
+type(
+  Gtk.image_menu_item Gobject.param list -> Gtk.image_menu_item Gtk.obj
+)
+ident(
+  def create "gtkMenuProps.ml" 91 3397 3474 "gtkMenuProps.ml" 92 3475 3478
+)
+"gtkMenuProps.ml" 91 3397 3410 "gtkMenuProps.ml" 91 3397 3412
+type(
+  Gtk.image_menu_item Gobject.param list
+)
+ident(
+  def pl "gtkMenuProps.ml" 91 3397 3413 "gtkMenuProps.ml" 91 3397 3474
+)
+"gtkMenuProps.ml" 91 3397 3441 "gtkMenuProps.ml" 91 3397 3452
+type(
+  classe:string ->
+  Gtk.image_menu_item Gobject.param list -> Gtk.image_menu_item Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMenuProps.ml" 91 3397 3453 "gtkMenuProps.ml" 91 3397 3471
+type(
+  string
+)
+"gtkMenuProps.ml" 91 3397 3472 "gtkMenuProps.ml" 91 3397 3474
+type(
+  Gtk.image_menu_item Gobject.param list
+)
+ident(
+  int_ref pl "gtkMenuProps.ml" 91 3397 3410 "gtkMenuProps.ml" 91 3397 3412
+)
+"gtkMenuProps.ml" 91 3397 3441 "gtkMenuProps.ml" 91 3397 3474
+call(
+  tail
+)
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+type(
+  Gtk.image_menu_item Gtk.obj
+)
+"gtkMenuProps.ml" 95 3506 3512 "gtkMenuProps.ml" 95 3506 3516
+type(
+  'a Gobject.obj -> Gtk.menu_shell Gtk.obj
+)
+ident(
+  def cast "gtkMenuProps.ml" 96 3568 3570 "gtkMenuProps.ml" 122 4774 4777
+)
+"gtkMenuProps.ml" 95 3506 3517 "gtkMenuProps.ml" 95 3506 3518
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMenuProps.ml" 95 3506 3519 "gtkMenuProps.ml" 95 3506 3567
+)
+"gtkMenuProps.ml" 95 3506 3542 "gtkMenuProps.ml" 95 3506 3550
+type(
+  'a Gobject.obj -> string -> Gtk.menu_shell Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMenuProps.ml" 95 3506 3551 "gtkMenuProps.ml" 95 3506 3552
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMenuProps.ml" 95 3506 3517 "gtkMenuProps.ml" 95 3506 3518
+)
+"gtkMenuProps.ml" 95 3506 3553 "gtkMenuProps.ml" 95 3506 3567
+type(
+  string
+)
+"gtkMenuProps.ml" 95 3506 3542 "gtkMenuProps.ml" 95 3506 3567
+call(
+  tail
+)
+type(
+  Gtk.menu_shell Gtk.obj
+)
+type(
+  Gtk.menu_shell Gtk.obj
+)
+"gtkMenuProps.ml" 98 3607 3615 "gtkMenuProps.ml" 98 3607 3631
+type(
+  ([> `menushell ], bool -> unit) GtkSignal.t
+)
+ident(
+  def activate_current "gtkMenuProps.ml" 101 3765 3769 "gtkMenuProps.ml" 113 4377 4382
+)
+"gtkMenuProps.ml" 99 3634 3646 "gtkMenuProps.ml" 99 3634 3664
+type(
+  string
+)
+"gtkMenuProps.ml" 99 3634 3673 "gtkMenuProps.ml" 99 3634 3683
+type(
+  [> `menushell ] as 'b
+)
+"gtkMenuProps.ml" 99 3634 3700 "gtkMenuProps.ml" 99 3634 3701
+type(
+  bool -> unit
+)
+ident(
+  def f "gtkMenuProps.ml" 100 3705 3712 "gtkMenuProps.ml" 100 3705 3763
+)
+"gtkMenuProps.ml" 100 3705 3712 "gtkMenuProps.ml" 100 3705 3720
+type(
+  bool Gobject.data_conv -> string -> (bool -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkMenuProps.ml" 100 3705 3721 "gtkMenuProps.ml" 100 3705 3728
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkMenuProps.ml" 100 3705 3729 "gtkMenuProps.ml" 100 3705 3761
+type(
+  string
+)
+"gtkMenuProps.ml" 100 3705 3762 "gtkMenuProps.ml" 100 3705 3763
+type(
+  bool -> unit
+)
+ident(
+  int_ref f "gtkMenuProps.ml" 99 3634 3700 "gtkMenuProps.ml" 99 3634 3701
+)
+"gtkMenuProps.ml" 100 3705 3712 "gtkMenuProps.ml" 100 3705 3763
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkMenuProps.ml" 99 3634 3696 "gtkMenuProps.ml" 100 3705 3763
+type(
+  (bool -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkMenuProps.ml" 99 3634 3640 "gtkMenuProps.ml" 100 3705 3764
+type(
+  ('b, bool -> unit) GtkSignal.t
+)
+"gtkMenuProps.ml" 101 3765 3773 "gtkMenuProps.ml" 101 3765 3779
+type(
+  ([> `menushell ], unit -> unit) GtkSignal.t
+)
+ident(
+  def cancel "gtkMenuProps.ml" 102 3842 3846 "gtkMenuProps.ml" 113 4377 4382
+)
+"gtkMenuProps.ml" 101 3765 3788 "gtkMenuProps.ml" 101 3765 3796
+type(
+  string
+)
+"gtkMenuProps.ml" 101 3765 3805 "gtkMenuProps.ml" 101 3765 3815
+type(
+  [> `menushell ] as 'c
+)
+"gtkMenuProps.ml" 101 3765 3828 "gtkMenuProps.ml" 101 3765 3840
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMenuProps.ml" 101 3765 3782 "gtkMenuProps.ml" 101 3765 3841
+type(
+  ('c, unit -> unit) GtkSignal.t
+)
+"gtkMenuProps.ml" 102 3842 3850 "gtkMenuProps.ml" 102 3842 3861
+type(
+  ([> `menushell ], GtkEnums.direction_type -> unit) GtkSignal.t
+)
+ident(
+  def cycle_focus "gtkMenuProps.ml" 105 4006 4010 "gtkMenuProps.ml" 113 4377 4382
+)
+"gtkMenuProps.ml" 103 3864 3876 "gtkMenuProps.ml" 103 3864 3889
+type(
+  string
+)
+"gtkMenuProps.ml" 103 3864 3898 "gtkMenuProps.ml" 103 3864 3908
+type(
+  [> `menushell ] as 'd
+)
+"gtkMenuProps.ml" 103 3864 3925 "gtkMenuProps.ml" 103 3864 3926
+type(
+  GtkEnums.direction_type -> unit
+)
+ident(
+  def f "gtkMenuProps.ml" 104 3930 3937 "gtkMenuProps.ml" 104 3930 4004
+)
+"gtkMenuProps.ml" 104 3930 3937 "gtkMenuProps.ml" 104 3930 3945
+type(
+  GtkEnums.direction_type Gobject.data_conv ->
+  string -> (GtkEnums.direction_type -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkMenuProps.ml" 104 3930 3946 "gtkMenuProps.ml" 104 3930 3974
+type(
+  GtkEnums.direction_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.direction_type_conv
+)
+"gtkMenuProps.ml" 104 3930 3975 "gtkMenuProps.ml" 104 3930 4002
+type(
+  string
+)
+"gtkMenuProps.ml" 104 3930 4003 "gtkMenuProps.ml" 104 3930 4004
+type(
+  GtkEnums.direction_type -> unit
+)
+ident(
+  int_ref f "gtkMenuProps.ml" 103 3864 3925 "gtkMenuProps.ml" 103 3864 3926
+)
+"gtkMenuProps.ml" 104 3930 3937 "gtkMenuProps.ml" 104 3930 4004
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkMenuProps.ml" 103 3864 3921 "gtkMenuProps.ml" 104 3930 4004
+type(
+  (GtkEnums.direction_type -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkMenuProps.ml" 103 3864 3870 "gtkMenuProps.ml" 104 3930 4005
+type(
+  ('d, GtkEnums.direction_type -> unit) GtkSignal.t
+)
+"gtkMenuProps.ml" 105 4006 4014 "gtkMenuProps.ml" 105 4006 4024
+type(
+  ([> `menushell ], unit -> unit) GtkSignal.t
+)
+ident(
+  def deactivate "gtkMenuProps.ml" 107 4097 4101 "gtkMenuProps.ml" 113 4377 4382
+)
+"gtkMenuProps.ml" 106 4027 4039 "gtkMenuProps.ml" 106 4027 4051
+type(
+  string
+)
+"gtkMenuProps.ml" 106 4027 4060 "gtkMenuProps.ml" 106 4027 4070
+type(
+  [> `menushell ] as 'e
+)
+"gtkMenuProps.ml" 106 4027 4083 "gtkMenuProps.ml" 106 4027 4095
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMenuProps.ml" 106 4027 4033 "gtkMenuProps.ml" 106 4027 4096
+type(
+  ('e, unit -> unit) GtkSignal.t
+)
+"gtkMenuProps.ml" 107 4097 4105 "gtkMenuProps.ml" 107 4097 4117
+type(
+  ([> `menushell ], GtkEnums.menu_direction_type -> unit) GtkSignal.t
+)
+ident(
+  def move_current "gtkMenuProps.ml" 111 4278 4282 "gtkMenuProps.ml" 113 4377 4382
+)
+"gtkMenuProps.ml" 108 4120 4132 "gtkMenuProps.ml" 108 4120 4146
+type(
+  string
+)
+"gtkMenuProps.ml" 108 4120 4155 "gtkMenuProps.ml" 108 4120 4165
+type(
+  [> `menushell ] as 'f
+)
+"gtkMenuProps.ml" 108 4120 4182 "gtkMenuProps.ml" 108 4120 4183
+type(
+  GtkEnums.menu_direction_type -> unit
+)
+ident(
+  def f "gtkMenuProps.ml" 109 4187 4194 "gtkMenuProps.ml" 110 4237 4276
+)
+"gtkMenuProps.ml" 109 4187 4194 "gtkMenuProps.ml" 109 4187 4202
+type(
+  GtkEnums.menu_direction_type Gobject.data_conv ->
+  string -> (GtkEnums.menu_direction_type -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkMenuProps.ml" 109 4187 4203 "gtkMenuProps.ml" 109 4187 4236
+type(
+  GtkEnums.menu_direction_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.menu_direction_type_conv
+)
+"gtkMenuProps.ml" 110 4237 4246 "gtkMenuProps.ml" 110 4237 4274
+type(
+  string
+)
+"gtkMenuProps.ml" 110 4237 4275 "gtkMenuProps.ml" 110 4237 4276
+type(
+  GtkEnums.menu_direction_type -> unit
+)
+ident(
+  int_ref f "gtkMenuProps.ml" 108 4120 4182 "gtkMenuProps.ml" 108 4120 4183
+)
+"gtkMenuProps.ml" 109 4187 4194 "gtkMenuProps.ml" 110 4237 4276
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkMenuProps.ml" 108 4120 4178 "gtkMenuProps.ml" 110 4237 4276
+type(
+  (GtkEnums.menu_direction_type -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkMenuProps.ml" 108 4120 4126 "gtkMenuProps.ml" 110 4237 4277
+type(
+  ('f, GtkEnums.menu_direction_type -> unit) GtkSignal.t
+)
+"gtkMenuProps.ml" 111 4278 4286 "gtkMenuProps.ml" 111 4278 4300
+type(
+  ([> `menushell ], unit -> unit) GtkSignal.t
+)
+ident(
+  def selection_done "gtkMenuProps.ml" 112 4303 4376 "gtkMenuProps.ml" 113 4377 4382
+)
+"gtkMenuProps.ml" 112 4303 4315 "gtkMenuProps.ml" 112 4303 4331
+type(
+  string
+)
+"gtkMenuProps.ml" 112 4303 4340 "gtkMenuProps.ml" 112 4303 4350
+type(
+  [> `menushell ] as 'g
+)
+"gtkMenuProps.ml" 112 4303 4363 "gtkMenuProps.ml" 112 4303 4375
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkMenuProps.ml" 112 4303 4309 "gtkMenuProps.ml" 112 4303 4376
+type(
+  ('g, unit -> unit) GtkSignal.t
+)
+"gtkMenuProps.ml" 125 4803 4809 "gtkMenuProps.ml" 125 4803 4813
+type(
+  'a Gobject.obj -> Gtk.menu_bar Gtk.obj
+)
+ident(
+  def cast "gtkMenuProps.ml" 126 4861 4863 "gtkMenuProps.ml" 127 4926 4929
+)
+"gtkMenuProps.ml" 125 4803 4814 "gtkMenuProps.ml" 125 4803 4815
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMenuProps.ml" 125 4803 4816 "gtkMenuProps.ml" 125 4803 4860
+)
+"gtkMenuProps.ml" 125 4803 4837 "gtkMenuProps.ml" 125 4803 4845
+type(
+  'a Gobject.obj -> string -> Gtk.menu_bar Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMenuProps.ml" 125 4803 4846 "gtkMenuProps.ml" 125 4803 4847
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMenuProps.ml" 125 4803 4814 "gtkMenuProps.ml" 125 4803 4815
+)
+"gtkMenuProps.ml" 125 4803 4848 "gtkMenuProps.ml" 125 4803 4860
+type(
+  string
+)
+"gtkMenuProps.ml" 125 4803 4837 "gtkMenuProps.ml" 125 4803 4860
+call(
+  tail
+)
+type(
+  Gtk.menu_bar Gtk.obj
+)
+type(
+  Gtk.menu_bar Gtk.obj
+)
+"gtkMenuProps.ml" 126 4861 4867 "gtkMenuProps.ml" 126 4861 4873
+type(
+  Gtk.menu_bar Gobject.param list -> Gtk.menu_bar Gtk.obj
+)
+ident(
+  def create "gtkMenuProps.ml" 126 4861 4925 "gtkMenuProps.ml" 127 4926 4929
+)
+"gtkMenuProps.ml" 126 4861 4874 "gtkMenuProps.ml" 126 4861 4876
+type(
+  Gtk.menu_bar Gobject.param list
+)
+ident(
+  def pl "gtkMenuProps.ml" 126 4861 4877 "gtkMenuProps.ml" 126 4861 4925
+)
+"gtkMenuProps.ml" 126 4861 4898 "gtkMenuProps.ml" 126 4861 4909
+type(
+  classe:string -> Gtk.menu_bar Gobject.param list -> Gtk.menu_bar Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMenuProps.ml" 126 4861 4910 "gtkMenuProps.ml" 126 4861 4922
+type(
+  string
+)
+"gtkMenuProps.ml" 126 4861 4923 "gtkMenuProps.ml" 126 4861 4925
+type(
+  Gtk.menu_bar Gobject.param list
+)
+ident(
+  int_ref pl "gtkMenuProps.ml" 126 4861 4874 "gtkMenuProps.ml" 126 4861 4876
+)
+"gtkMenuProps.ml" 126 4861 4898 "gtkMenuProps.ml" 126 4861 4925
+call(
+  tail
+)
+type(
+  Gtk.menu_bar Gtk.obj
+)
+type(
+  Gtk.menu_bar Gtk.obj
+)
+"gtkMenuProps.ml" 130 4952 4958 "gtkMenuProps.ml" 130 4952 4962
+type(
+  'a Gobject.obj -> Gtk.menu Gtk.obj
+)
+ident(
+  def cast "gtkMenuProps.ml" 131 5003 5005 "gtkMenuProps.ml" 167 6485 6488
+)
+"gtkMenuProps.ml" 130 4952 4963 "gtkMenuProps.ml" 130 4952 4964
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkMenuProps.ml" 130 4952 4965 "gtkMenuProps.ml" 130 4952 5002
+)
+"gtkMenuProps.ml" 130 4952 4982 "gtkMenuProps.ml" 130 4952 4990
+type(
+  'a Gobject.obj -> string -> Gtk.menu Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkMenuProps.ml" 130 4952 4991 "gtkMenuProps.ml" 130 4952 4992
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkMenuProps.ml" 130 4952 4963 "gtkMenuProps.ml" 130 4952 4964
+)
+"gtkMenuProps.ml" 130 4952 4993 "gtkMenuProps.ml" 130 4952 5002
+type(
+  string
+)
+"gtkMenuProps.ml" 130 4952 4982 "gtkMenuProps.ml" 130 4952 5002
+call(
+  tail
+)
+type(
+  Gtk.menu Gtk.obj
+)
+type(
+  Gtk.menu Gtk.obj
+)
+"gtkMenuProps.ml" 132 5023 5031 "gtkMenuProps.ml" 132 5023 5044
+type(
+  ([> `menu ], string) Gobject.property
+)
+ident(
+  def tearoff_title "gtkMenuProps.ml" 133 5071 5112 "gtkMenuProps.ml" 134 5113 5118
+)
+"gtkMenuProps.ml" 133 5071 5083 "gtkMenuProps.ml" 133 5071 5098
+type(
+  string
+)
+"gtkMenuProps.ml" 133 5071 5105 "gtkMenuProps.ml" 133 5071 5111
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkMenuProps.ml" 133 5071 5077 "gtkMenuProps.ml" 133 5071 5112
+type(
+  ([> `menu ] as 'b, string) Gobject.property
+)
+type(
+  ('b, string) Gobject.property
+)
+"gtkMenuProps.ml" 137 5158 5166 "gtkMenuProps.ml" 137 5158 5177
+type(
+  ([> `menu ], GtkEnums.scroll_type -> unit) GtkSignal.t
+)
+ident(
+  def move_scroll "gtkMenuProps.ml" 139 5241 5308 "gtkMenuProps.ml" 140 5309 5314
+)
+"gtkMenuProps.ml" 138 5180 5192 "gtkMenuProps.ml" 138 5180 5205
+type(
+  string
+)
+"gtkMenuProps.ml" 138 5180 5214 "gtkMenuProps.ml" 138 5180 5219
+type(
+  [> `menu ] as 'c
+)
+"gtkMenuProps.ml" 138 5180 5236 "gtkMenuProps.ml" 138 5180 5237
+type(
+  GtkEnums.scroll_type -> unit
+)
+ident(
+  def f "gtkMenuProps.ml" 139 5241 5248 "gtkMenuProps.ml" 139 5241 5307
+)
+"gtkMenuProps.ml" 139 5241 5248 "gtkMenuProps.ml" 139 5241 5256
+type(
+  GtkEnums.scroll_type Gobject.data_conv ->
+  string -> (GtkEnums.scroll_type -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkMenuProps.ml" 139 5241 5257 "gtkMenuProps.ml" 139 5241 5282
+type(
+  GtkEnums.scroll_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.scroll_type_conv
+)
+"gtkMenuProps.ml" 139 5241 5283 "gtkMenuProps.ml" 139 5241 5305
+type(
+  string
+)
+"gtkMenuProps.ml" 139 5241 5306 "gtkMenuProps.ml" 139 5241 5307
+type(
+  GtkEnums.scroll_type -> unit
+)
+ident(
+  int_ref f "gtkMenuProps.ml" 138 5180 5236 "gtkMenuProps.ml" 138 5180 5237
+)
+"gtkMenuProps.ml" 139 5241 5248 "gtkMenuProps.ml" 139 5241 5307
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkMenuProps.ml" 138 5180 5232 "gtkMenuProps.ml" 139 5241 5307
+type(
+  (GtkEnums.scroll_type -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkMenuProps.ml" 138 5180 5186 "gtkMenuProps.ml" 139 5241 5308
+type(
+  ('c, GtkEnums.scroll_type -> unit) GtkSignal.t
+)
+"gtkMenuProps.ml" 141 5315 5321 "gtkMenuProps.ml" 141 5315 5327
+type(
+  Gtk.menu Gobject.param list -> Gtk.menu Gtk.obj
+)
+ident(
+  def create "gtkMenuProps.ml" 142 5373 5375 "gtkMenuProps.ml" 167 6485 6488
+)
+"gtkMenuProps.ml" 141 5315 5328 "gtkMenuProps.ml" 141 5315 5330
+type(
+  Gtk.menu Gobject.param list
+)
+ident(
+  def pl "gtkMenuProps.ml" 141 5315 5331 "gtkMenuProps.ml" 141 5315 5372
+)
+"gtkMenuProps.ml" 141 5315 5348 "gtkMenuProps.ml" 141 5315 5359
+type(
+  classe:string -> Gtk.menu Gobject.param list -> Gtk.menu Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkMenuProps.ml" 141 5315 5360 "gtkMenuProps.ml" 141 5315 5369
+type(
+  string
+)
+"gtkMenuProps.ml" 141 5315 5370 "gtkMenuProps.ml" 141 5315 5372
+type(
+  Gtk.menu Gobject.param list
+)
+ident(
+  int_ref pl "gtkMenuProps.ml" 141 5315 5328 "gtkMenuProps.ml" 141 5315 5330
+)
+"gtkMenuProps.ml" 141 5315 5348 "gtkMenuProps.ml" 141 5315 5372
+call(
+  tail
+)
+type(
+  Gtk.menu Gtk.obj
+)
+type(
+  Gtk.menu Gtk.obj
+)

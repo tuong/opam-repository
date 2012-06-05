@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: 8e57f046ce034f177cd68b56a3bde28f)
+version = "1.0.0"
+description
+ =
+ "Planck(Parser LANguage Combinator Kit): a small parser combinator library"
+requires = "sexplib"
+archive(byte) = "planck.cma"
+archive(native) = "planck.cmxa"
+exists_if = "planck.cma"
+# OASIS_STOP
+

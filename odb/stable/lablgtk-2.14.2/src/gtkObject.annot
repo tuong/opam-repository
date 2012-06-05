@@ -1,0 +1,125 @@
+"gtkObject.ml" 26 1641 1645 "gtkObject.ml" 26 1641 1649
+type(
+  'a Gobject.obj -> [ `gtk ] Gobject.obj
+)
+ident(
+  def cast "gtkObject.ml" 27 1690 1690 --
+)
+"gtkObject.ml" 26 1641 1650 "gtkObject.ml" 26 1641 1651
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkObject.ml" 26 1641 1652 "gtkObject.ml" 26 1641 1689
+)
+"gtkObject.ml" 26 1641 1667 "gtkObject.ml" 26 1641 1675
+type(
+  'a Gobject.obj -> string -> [ `gtk ] Gobject.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkObject.ml" 26 1641 1676 "gtkObject.ml" 26 1641 1677
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkObject.ml" 26 1641 1650 "gtkObject.ml" 26 1641 1651
+)
+"gtkObject.ml" 26 1641 1678 "gtkObject.ml" 26 1641 1689
+type(
+  string
+)
+"gtkObject.ml" 26 1641 1667 "gtkObject.ml" 26 1641 1689
+call(
+  tail
+)
+type(
+  [ `gtk ] Gobject.obj
+)
+type(
+  [ `gtk ] Gobject.obj
+)
+"gtkObject.ml" 29 1770 1774 "gtkObject.ml" 29 1770 1778
+type(
+  classe:string -> ([> `gtk ] as 'a) Gobject.param list -> 'a Gobject.obj
+)
+ident(
+  def make "gtkObject.ml" 31 1859 1864 --
+)
+"gtkObject.ml" 29 1770 1780 "gtkObject.ml" 29 1770 1786
+type(
+  string
+)
+ident(
+  def classe "gtkObject.ml" 29 1770 1787 "gtkObject.ml" 31 1859 1864
+)
+"gtkObject.ml" 29 1770 1787 "gtkObject.ml" 29 1770 1793
+type(
+  'a Gobject.param list
+)
+ident(
+  def params "gtkObject.ml" 30 1796 1798 "gtkObject.ml" 31 1859 1864
+)
+"gtkObject.ml" 30 1796 1802 "gtkObject.ml" 30 1796 1805
+type(
+  'a Gobject.obj
+)
+"gtkObject.ml" 30 1796 1808 "gtkObject.ml" 30 1796 1821
+type(
+  classe:string -> 'a Gobject.param list -> 'a Gobject.obj
+)
+ident(
+  ext_ref Gobject.unsafe_create
+)
+"gtkObject.ml" 30 1796 1823 "gtkObject.ml" 30 1796 1829
+type(
+  string
+)
+ident(
+  int_ref classe "gtkObject.ml" 29 1770 1780 "gtkObject.ml" 29 1770 1786
+)
+"gtkObject.ml" 30 1796 1830 "gtkObject.ml" 30 1796 1836
+type(
+  'a Gobject.param list
+)
+ident(
+  int_ref params "gtkObject.ml" 29 1770 1787 "gtkObject.ml" 29 1770 1793
+)
+"gtkObject.ml" 30 1796 1808 "gtkObject.ml" 30 1796 1836
+call(
+  stack
+)
+type(
+  'a Gobject.obj
+)
+"gtkObject.ml" 30 1796 1840 "gtkObject.ml" 30 1796 1853
+type(
+  'a Gobject.obj -> unit
+)
+"gtkObject.ml" 30 1796 1854 "gtkObject.ml" 30 1796 1857
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref obj "gtkObject.ml" 30 1796 1802 "gtkObject.ml" 30 1796 1805
+)
+"gtkObject.ml" 30 1796 1840 "gtkObject.ml" 30 1796 1857
+type(
+  unit
+)
+"gtkObject.ml" 31 1859 1861 "gtkObject.ml" 31 1859 1864
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref obj "gtkObject.ml" 30 1796 1802 "gtkObject.ml" 30 1796 1805
+)
+"gtkObject.ml" 30 1796 1840 "gtkObject.ml" 31 1859 1864
+type(
+  'a Gobject.obj
+)
+"gtkObject.ml" 30 1796 1798 "gtkObject.ml" 31 1859 1864
+type(
+  'a Gobject.obj
+)

@@ -1,0 +1,5 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: 44cb5fc6b8af26c2528ec55a1574789c) *)
+Authors of optimization1d
+Christophe Troestler <Christophe.Troestler@umons.ac.be>
+(* OASIS_STOP *)

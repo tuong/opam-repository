@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Utils.Int.html">
+<link rel="Up" href="Utils.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Utils" rel="Chapter" href="Utils.html">
+<link title="Time_Zone" rel="Chapter" href="Time_Zone.html">
+<link title="Period" rel="Chapter" href="Period.html">
+<link title="Time_sig" rel="Chapter" href="Time_sig.html">
+<link title="Time" rel="Chapter" href="Time.html">
+<link title="Ftime" rel="Chapter" href="Ftime.html">
+<link title="Date_sig" rel="Chapter" href="Date_sig.html">
+<link title="Date" rel="Chapter" href="Date.html">
+<link title="Calendar_sig" rel="Chapter" href="Calendar_sig.html">
+<link title="Calendar_builder" rel="Chapter" href="Calendar_builder.html">
+<link title="Calendar" rel="Chapter" href="Calendar.html">
+<link title="Fcalendar" rel="Chapter" href="Fcalendar.html">
+<link title="Printer" rel="Chapter" href="Printer.html">
+<link title="Version" rel="Chapter" href="Version.html"><title>Utils.Float</title>
+</head>
+<body>
+<div class="navbar"><a href="Utils.Int.html">Previous</a>
+&nbsp;<a href="Utils.html">Up</a>
+&nbsp;</div>
+<center><h1>Module <a href="type_Utils.Float.html">Utils.Float</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Float: <code class="code"><span class="keyword">sig</span></code> <a href="Utils.Float.html">..</a> <code class="code"><span class="keyword">end</span></code></pre>Float implementation.<br>
+<b>Since</b> 2.0<br>
+<hr width="100%">
+<pre><span class="keyword">include</span> <a href="Utils.Comparable.html">Utils.Comparable</a></pre>
+<pre><span id="VALset_precision"><span class="keyword">val</span> set_precision</span> : <code class="type">float -> unit</code></pre><div class="info">
+Set the precision of <code class="code">equal</code> and <code class="code">compare</code> for float.
+	If the precision is <code class="code">p</code>, then the floats <code class="code">x</code> and <code class="code">y</code> are equal iff
+	<code class="code">abs(x-y) &lt; p</code>.  By default, the precision is <code class="code">1e-3</code> (that is one
+	millisecond if floats represents seconds).<br>
+</div>
+<pre><span id="VALround"><span class="keyword">val</span> round</span> : <code class="type">t -> int</code></pre><div class="info">
+Round a float to the nearest integer.<br>
+</div>
+</body></html>

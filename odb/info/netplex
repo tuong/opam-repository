@@ -1,0 +1,4 @@
+deps=make
+tarball=ocamlnet-3.4.1~oasis3.tar.gz
+is_library=true
+is_program=false

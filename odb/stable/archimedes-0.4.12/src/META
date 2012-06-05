@@ -1,0 +1,46 @@
+# OASIS_START
+# DO NOT EDIT (digest: 10da29ed3da33ea7849e106bd28f8d2d)
+version = "0.4.12"
+description = "Extensible 2D plotting library."
+requires = "dynlink bigarray"
+archive(byte) = "archimedes.cma"
+archive(native) = "archimedes.cmxa"
+exists_if = "archimedes.cma"
+package "graphics" (
+ version = "0.4.12"
+ description = "Extensible 2D plotting library."
+ requires = "graphics archimedes"
+ archive(byte) = "archimedes_graphics.cma"
+ archive(native) = "archimedes_graphics.cmxa"
+ exists_if = "archimedes_graphics.cma"
+)
+
+package "top" (
+ version = "0.4.12"
+ description = "Extensible 2D plotting library."
+ requires = "archimedes"
+ archive(byte) = "archimedes_toploop.cma"
+ archive(native) = "archimedes_toploop.cmxa"
+ exists_if = "archimedes_toploop.cma"
+)
+
+package "tikz" (
+ version = "0.4.12"
+ description = "Extensible 2D plotting library."
+ requires = "archimedes"
+ archive(byte) = "archimedes_tikz.cma"
+ archive(native) = "archimedes_tikz.cmxa"
+ exists_if = "archimedes_tikz.cma"
+)
+
+package "cairo" (
+ version = "0.4.12"
+ description = "Extensible 2D plotting library."
+ requires = "cairo2 archimedes"
+ archive(byte) = "archimedes_cairo.cma"
+ archive(native) = "archimedes_cairo.cmxa"
+ exists_if = "archimedes_cairo.cma"
+)
+# OASIS_STOP
+
+archive(byte,toploop) = "archimedes_toploop.cma"

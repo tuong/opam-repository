@@ -1,0 +1,4 @@
+deps=ocamlbuild,lablgtk2,bigarray
+tarball=cairo-0.4.1.tar.gz
+is_library=true
+is_program=false

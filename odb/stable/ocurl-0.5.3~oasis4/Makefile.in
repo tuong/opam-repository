@@ -1,0 +1,24 @@
+# Taken from GODI
+SOURCES   = curl-helper.c curl.mli curl.ml
+CLIBFLAGS = $(shell curl-config --libs)
+CFLAGS    = -O2 -fPIC -DPIC  $(shell curl-config --cflags) -DHAVE_CONFIG_H
+RESULT    = curl
+CLIBS     = curl
+CC        = gcc
+LIBINSTALL_FILES = \
+  curl.cmi \
+  curl.mli \
+  curl.cma libcurl_stubs.a \
+  $(wildcard dllcurl_stubs.so) \
+  $(wildcard curl.cmxa) $(wildcard curl.a)
+
+export CLIBFLAGS
+# Shouln't CLIBFLAGS be exported in OCamlMakefile ?
+
+all: bcl ncl
+
+install: libinstall
+
+uninstall: libuninstall
+
+-include OCamlMakefile

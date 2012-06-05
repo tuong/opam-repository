@@ -1,0 +1,111 @@
+OASISFormat: 0.2
+Name:        xstrp4
+Version:     2.0alpha5
+Synopsis:    Camlp4 extension for interpolating values in strings
+Authors:     Gerd Stolpmann,
+             Hezekiah M. Carty
+License:     MIT
+LicenseFile: LICENSE
+Plugins:     DevFiles (0.2),
+             META (0.2),
+             StdFiles (0.2)
+BuildTools:  ocamlbuild,
+             ocamllex,
+             camlp4o
+BuildDepends: camlp4.lib,
+              camlp4.extend,
+              camlp4.quotations
+
+Library xstrp4
+  Path:       src
+  Modules: Xstrp4
+  InternalModules: Xstrp4_types,
+                   Xstrp4_lexer
+  CompiledObject: byte
+  XMETAType: library
+  XMETARequires: camlp4
+  XMETADescription: Base for further xstrp4 customization/development
+  FindlibName: xstrp4
+
+Library xstrp4_strings
+  Path:       src
+  BuildDepends: xstrp4
+  Modules: Xstrp4_strings
+  CompiledObject: byte
+  XMETAType: syntax
+  XMETARequires: camlp4,
+                 xstrp4
+  XMETADescription: Interpolation of OCaml values in strings
+  FindlibParent: xstrp4
+  FindlibContainers: syntax
+  FindlibName: strings
+
+Library xstrp4_here
+  Path:       src
+  BuildDepends: xstrp4
+  Modules: Xstrp4_here
+  CompiledObject: byte
+  XMETAType: syntax
+  XMETARequires: camlp4,
+                 xstrp4
+  XMETADescription: Interpolation of OCaml values in quotations
+  FindlibParent: xstrp4
+  FindlibContainers: syntax
+  FindlibName: here
+
+Library xstrp4_here_quote
+  Path:       src
+  BuildDepends: xstrp4
+  Modules: Xstrp4_here_quote
+  CompiledObject: byte
+  XMETAType: syntax
+  XMETARequires: camlp4,
+                 xstrp4
+  XMETADescription: Interpolation of OCaml values in quotations
+  FindlibParent: xstrp4
+  FindlibContainers: syntax
+  FindlibName: here_quote
+
+Library xstrp4_batteries_quote
+  Path:       src
+  BuildDepends: xstrp4
+  Modules: Xstrp4_batteries_quote
+  InternalModules: Xstrp4_batteries
+  CompiledObject: byte
+  XMETAType: syntax
+  XMETARequires: camlp4,
+                 xstrp4,
+                 batteries
+  XMETADescription: Example of a Batteries-focused xstrp4 extension
+  FindlibParent: xstrp4
+  FindlibContainers: syntax
+  FindlibName: batteries_quote
+
+Library xstrp4_batteries_strings
+  Path:       src
+  BuildDepends: xstrp4
+  Modules: Xstrp4_batteries_strings
+  InternalModules: Xstrp4_batteries
+  CompiledObject: byte
+  XMETAType: syntax
+  XMETARequires: camlp4,
+                 xstrp4,
+                 batteries
+  XMETADescription: Example of a Batteries-focused xstrp4 extension
+  FindlibParent: xstrp4
+  FindlibContainers: syntax
+  FindlibName: batteries_strings
+
+#Flag tests
+#  Description: Build and run tests
+#  Default: false
+
+#Executable here
+#  Path: test
+#  MainIs: here.ml
+#  Install: false
+#  Build$: flag(tests)
+#  BuildDepends: oUnit (>= 1.1.0),
+#                xstrp4.syntax.here,
+#                xstrp4.syntax.here_quote
+

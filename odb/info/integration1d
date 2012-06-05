@@ -1,0 +1,4 @@
+deps=ocamlbuild,camlp4
+tarball=integration1d-0.3.tar.gz
+is_library=true
+is_program=false

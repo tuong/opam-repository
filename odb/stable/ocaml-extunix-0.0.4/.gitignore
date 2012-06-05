@@ -1,0 +1,9 @@
+_build
+*.native
+*.byte
+*.docdir
+setup.data
+setup.log
+src/config.*
+web/index.html
+*~

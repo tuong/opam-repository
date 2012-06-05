@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Json_io.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Json_type" rel="Chapter" href="Json_type.html">
+<link title="Json_io" rel="Chapter" href="Json_io.html">
+<link title="Json_compat" rel="Chapter" href="Json_compat.html"><title>Json_compat</title>
+</head>
+<body>
+<div class="navbar"><a href="Json_io.html">Previous</a>
+&nbsp;<a href="index.html">Up</a>
+&nbsp;</div>
+<center><h1>Module <a href="type_Json_compat.html">Json_compat</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Json_compat: <code class="code">sig</code> <a href="Json_compat.html">..</a> <code class="code">end</code></pre>Pseudo-compatibility with other JSON implementation.
+  Do not use this module in new programs.<br>
+<hr width="100%">
+<pre><span class="keyword">type</span> <a name="TYPEjsontype"></a><code class="type"></code>jsontype = <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a></code> </pre>
+
+<pre><span class="keyword">val</span> <a name="VALserialize"></a><a href="code_VALJson_compat.serialize.html">serialize</a> : <code class="type"><a href="Json_type.html#TYPEt">Json_type.t</a> -> string</code></pre><div class="info">
+<span class="warning">Deprecated.</span>Use <a href="Json_io.html#VALstring_of_json"><code class="code">Json_io.string_of_json</code></a> instead.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALdeserialize"></a><a href="code_VALJson_compat.deserialize.html">deserialize</a> : <code class="type">string -> <a href="Json_type.html#TYPEt">Json_type.t</a></code></pre><div class="info">
+<span class="warning">Deprecated.</span>Use <a href="Json_io.html#VALjson_of_string"><code class="code">Json_io.json_of_string</code></a> instead.<br>
+</div>
+</body></html>

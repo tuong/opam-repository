@@ -1,0 +1,4669 @@
+"gMisc.ml" 33 1764 1768 "gMisc.ml" 33 1764 1777
+type(
+  Gtk.Tags.orientation ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> GObj.widget_full
+)
+ident(
+  def separator "gMisc.ml" 37 1889 1889 --
+)
+"gMisc.ml" 33 1764 1778 "gMisc.ml" 33 1764 1781
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  def dir "gMisc.ml" 33 1764 1782 "gMisc.ml" 35 1839 1887
+)
+"gMisc.ml" 33 1764 1783 "gMisc.ml" 33 1764 1790
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gMisc.ml" 33 1764 1791 "gMisc.ml" 35 1839 1887
+)
+"gMisc.ml" 33 1764 1792 "gMisc.ml" 33 1764 1796
+type(
+  bool option
+)
+ident(
+  def show "gMisc.ml" 33 1764 1797 "gMisc.ml" 35 1839 1887
+)
+"gMisc.ml" 33 1764 1797 "gMisc.ml" 33 1764 1799
+type(
+  unit
+)
+"gMisc.ml" 34 1802 1808 "gMisc.ml" 34 1802 1809
+type(
+  Gtk.separator Gtk.obj
+)
+"gMisc.ml" 34 1802 1812 "gMisc.ml" 34 1802 1828
+type(
+  Gtk.Tags.orientation ->
+  Gtk.separator Gobject.param list -> Gtk.separator Gtk.obj
+)
+ident(
+  ext_ref GtkMisc.Separator.create
+)
+"gMisc.ml" 34 1802 1829 "gMisc.ml" 34 1802 1832
+type(
+  Gtk.Tags.orientation
+)
+ident(
+  int_ref dir "gMisc.ml" 33 1764 1778 "gMisc.ml" 33 1764 1781
+)
+"gMisc.ml" 34 1802 1833 "gMisc.ml" 34 1802 1835
+type(
+  Gtk.separator Gobject.param list
+)
+"gMisc.ml" 34 1802 1812 "gMisc.ml" 34 1802 1835
+call(
+  stack
+)
+type(
+  Gtk.separator Gtk.obj
+)
+"gMisc.ml" 35 1839 1841 "gMisc.ml" 35 1839 1852
+type(
+  GObj.widget_full ->
+  packing:(GObj.widget -> unit) option ->
+  show:bool option -> GObj.widget_full
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gMisc.ml" 35 1839 1854 "gMisc.ml" 35 1839 1869
+type(
+  Gtk.separator Gtk.obj -> GObj.widget_full
+)
+"gMisc.ml" 35 1839 1870 "gMisc.ml" 35 1839 1871
+type(
+  Gtk.separator Gtk.obj
+)
+ident(
+  int_ref w "gMisc.ml" 34 1802 1808 "gMisc.ml" 34 1802 1809
+)
+"gMisc.ml" 35 1839 1853 "gMisc.ml" 35 1839 1872
+call(
+  stack
+)
+type(
+  GObj.widget_full
+)
+"gMisc.ml" 35 1839 1874 "gMisc.ml" 35 1839 1881
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gMisc.ml" 33 1764 1783 "gMisc.ml" 33 1764 1790
+)
+"gMisc.ml" 35 1839 1883 "gMisc.ml" 35 1839 1887
+type(
+  bool option
+)
+ident(
+  int_ref show "gMisc.ml" 33 1764 1792 "gMisc.ml" 33 1764 1796
+)
+"gMisc.ml" 35 1839 1841 "gMisc.ml" 35 1839 1887
+call(
+  tail
+)
+type(
+  GObj.widget_full
+)
+"gMisc.ml" 34 1802 1804 "gMisc.ml" 35 1839 1887
+type(
+  GObj.widget_full
+)
+"gMisc.ml" 37 1889 1913 "gMisc.ml" 37 1889 1916
+type(
+  Gtk.statusbar Gtk.obj
+)
+"gMisc.ml" 37 1889 1917 "gMisc.ml" 37 1889 1920
+type(
+  Gtk.statusbar_context
+)
+"gMisc.ml" 37 1889 1930 "gMisc.ml" 37 1889 1936
+type(
+  < context : Gtk.statusbar_context; flash : ?delay:int -> string -> unit;
+    pop : unit -> unit; push : string -> Gtk.statusbar_message;
+    remove : Gtk.statusbar_message -> unit; .. >
+)
+"gMisc.ml" 38 1937 1965 "gMisc.ml" 38 1937 1968
+type(
+  Gtk.statusbar Gtk.obj
+)
+type(
+  Gtk.statusbar Gtk.obj
+)
+ident(
+  int_ref obj "gMisc.ml" 37 1889 1913 "gMisc.ml" 37 1889 1916
+)
+"gMisc.ml" 39 1969 2009 "gMisc.ml" 39 1969 2012
+type(
+  Gtk.statusbar_context
+)
+type(
+  Gtk.statusbar_context
+)
+ident(
+  int_ref ctx "gMisc.ml" 37 1889 1917 "gMisc.ml" 37 1889 1920
+)
+"gMisc.ml" 40 2013 2032 "gMisc.ml" 40 2013 2039
+type(
+  Gtk.statusbar_context
+)
+type(
+  Gtk.statusbar_context
+)
+"gMisc.ml" 41 2040 2054 "gMisc.ml" 41 2040 2058
+type(
+  string
+)
+ident(
+  def text "gMisc.ml" 41 2040 2061 "gMisc.ml" 41 2040 2093
+)
+"gMisc.ml" 41 2040 2061 "gMisc.ml" 41 2040 2075
+type(
+  Gtk.statusbar Gtk.obj ->
+  Gtk.statusbar_context -> text:string -> Gtk.statusbar_message
+)
+ident(
+  ext_ref GtkMisc.Statusbar.push
+)
+"gMisc.ml" 41 2040 2076 "gMisc.ml" 41 2040 2079
+type(
+  Gtk.statusbar Gtk.obj
+)
+"gMisc.ml" 41 2040 2080 "gMisc.ml" 41 2040 2087
+type(
+  Gtk.statusbar_context
+)
+"gMisc.ml" 41 2040 2089 "gMisc.ml" 41 2040 2093
+type(
+  string
+)
+ident(
+  int_ref text "gMisc.ml" 41 2040 2054 "gMisc.ml" 41 2040 2058
+)
+"gMisc.ml" 41 2040 2061 "gMisc.ml" 41 2040 2093
+type(
+  Gtk.statusbar_message
+)
+"gMisc.ml" 42 2094 2107 "gMisc.ml" 42 2094 2109
+type(
+  unit
+)
+"gMisc.ml" 42 2094 2112 "gMisc.ml" 42 2094 2125
+type(
+  Gtk.statusbar Gtk.obj -> Gtk.statusbar_context -> unit
+)
+ident(
+  ext_ref GtkMisc.Statusbar.pop
+)
+"gMisc.ml" 42 2094 2126 "gMisc.ml" 42 2094 2129
+type(
+  Gtk.statusbar Gtk.obj
+)
+"gMisc.ml" 42 2094 2130 "gMisc.ml" 42 2094 2137
+type(
+  Gtk.statusbar_context
+)
+"gMisc.ml" 42 2094 2112 "gMisc.ml" 42 2094 2137
+type(
+  unit
+)
+"gMisc.ml" 43 2138 2156 "gMisc.ml" 43 2138 2172
+type(
+  Gtk.statusbar Gtk.obj ->
+  Gtk.statusbar_context -> Gtk.statusbar_message -> unit
+)
+ident(
+  ext_ref GtkMisc.Statusbar.remove
+)
+"gMisc.ml" 43 2138 2173 "gMisc.ml" 43 2138 2176
+type(
+  Gtk.statusbar Gtk.obj
+)
+"gMisc.ml" 43 2138 2177 "gMisc.ml" 43 2138 2184
+type(
+  Gtk.statusbar_context
+)
+"gMisc.ml" 43 2138 2156 "gMisc.ml" 43 2138 2184
+call(
+  tail
+)
+type(
+  Gtk.statusbar_message -> unit
+)
+type(
+  Gtk.statusbar_message -> unit
+)
+"gMisc.ml" 44 2185 2202 "gMisc.ml" 44 2185 2207
+type(
+  int
+)
+"gMisc.ml" 44 2185 2208 "gMisc.ml" 44 2185 2212
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gMisc.ml" 44 2185 2208 "gMisc.ml" 44 2185 2212
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gMisc.ml" 44 2185 2208 "gMisc.ml" 44 2185 2212
+)
+"gMisc.ml" 44 2185 2214 "gMisc.ml" 44 2185 2218
+type(
+  string
+)
+ident(
+  def text "gMisc.ml" 45 2221 2225 "gMisc.ml" 47 2316 2322
+)
+"gMisc.ml" 45 2221 2229 "gMisc.ml" 45 2221 2232
+type(
+  Gtk.statusbar_message
+)
+"gMisc.ml" 45 2221 2235 "gMisc.ml" 45 2221 2239
+type(
+  < context : Gtk.statusbar_context; flash : ?delay:int -> string -> unit;
+    pop : unit -> unit; push : string -> Gtk.statusbar_message;
+    remove : Gtk.statusbar_message -> unit; .. >
+  as 'a
+)
+"gMisc.ml" 45 2221 2235 "gMisc.ml" 45 2221 2244
+call(
+  stack
+)
+type(
+  string -> Gtk.statusbar_message
+)
+"gMisc.ml" 45 2221 2245 "gMisc.ml" 45 2221 2249
+type(
+  string
+)
+ident(
+  int_ref text "gMisc.ml" 44 2185 2214 "gMisc.ml" 44 2185 2218
+)
+"gMisc.ml" 45 2221 2235 "gMisc.ml" 45 2221 2249
+type(
+  Gtk.statusbar_message
+)
+"gMisc.ml" 46 2253 2257 "gMisc.ml" 46 2253 2273
+type(
+  ms:int -> callback:(unit -> bool) -> Glib.Timeout.id
+)
+ident(
+  ext_ref Glib.Timeout.add
+)
+"gMisc.ml" 46 2253 2274 "gMisc.ml" 46 2253 2279
+type(
+  int
+)
+ident(
+  int_ref delay "gMisc.ml" 44 2185 2202 "gMisc.ml" 44 2185 2207
+)
+"gMisc.ml" 46 2253 2285 "gMisc.ml" 46 2253 2287
+type(
+  unit
+)
+"gMisc.ml" 46 2253 2291 "gMisc.ml" 46 2253 2295
+type(
+  'a
+)
+"gMisc.ml" 46 2253 2291 "gMisc.ml" 46 2253 2302
+call(
+  stack
+)
+type(
+  Gtk.statusbar_message -> unit
+)
+"gMisc.ml" 46 2253 2303 "gMisc.ml" 46 2253 2306
+type(
+  Gtk.statusbar_message
+)
+ident(
+  int_ref msg "gMisc.ml" 45 2221 2229 "gMisc.ml" 45 2221 2232
+)
+"gMisc.ml" 46 2253 2291 "gMisc.ml" 46 2253 2306
+type(
+  unit
+)
+"gMisc.ml" 46 2253 2308 "gMisc.ml" 46 2253 2313
+type(
+  bool
+)
+"gMisc.ml" 46 2253 2291 "gMisc.ml" 46 2253 2313
+type(
+  bool
+)
+"gMisc.ml" 46 2253 2280 "gMisc.ml" 46 2253 2314
+type(
+  unit -> bool
+)
+"gMisc.ml" 46 2253 2257 "gMisc.ml" 46 2253 2314
+call(
+  stack
+)
+type(
+  Glib.Timeout.id
+)
+"gMisc.ml" 47 2316 2320 "gMisc.ml" 47 2316 2322
+type(
+  unit
+)
+"gMisc.ml" 46 2253 2257 "gMisc.ml" 47 2316 2322
+type(
+  unit
+)
+"gMisc.ml" 45 2221 2225 "gMisc.ml" 47 2316 2322
+type(
+  unit
+)
+"gMisc.ml" 50 2328 2344 "gMisc.ml" 50 2328 2347
+type(
+  Gtk.statusbar Gtk.obj
+)
+"gMisc.ml" 51 2357 2378 "gMisc.ml" 51 2357 2381
+type(
+  Gtk.statusbar Gtk.obj
+)
+type(
+  Gtk.statusbar Gtk.obj
+)
+ident(
+  int_ref obj "gMisc.ml" 50 2328 2344 "gMisc.ml" 50 2328 2347
+)
+"gMisc.ml" 52 2403 2430 "gMisc.ml" 52 2403 2459
+type(
+  Gtk.statusbar Gtk.obj -> bool
+)
+ident(
+  ext_ref GtkMisc.Statusbar.get_has_resize_grip
+)
+"gMisc.ml" 52 2403 2460 "gMisc.ml" 52 2403 2463
+type(
+  Gtk.statusbar Gtk.obj
+)
+"gMisc.ml" 52 2403 2430 "gMisc.ml" 52 2403 2463
+type(
+  bool
+)
+type(
+  bool
+)
+"gMisc.ml" 53 2464 2493 "gMisc.ml" 53 2464 2494
+type(
+  bool
+)
+ident(
+  def v "gMisc.ml" 53 2464 2497 "gMisc.ml" 53 2464 2532
+)
+"gMisc.ml" 53 2464 2497 "gMisc.ml" 53 2464 2526
+type(
+  Gtk.statusbar Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkMisc.Statusbar.set_has_resize_grip
+)
+"gMisc.ml" 53 2464 2527 "gMisc.ml" 53 2464 2530
+type(
+  Gtk.statusbar Gtk.obj
+)
+"gMisc.ml" 53 2464 2531 "gMisc.ml" 53 2464 2532
+type(
+  bool
+)
+ident(
+  int_ref v "gMisc.ml" 53 2464 2493 "gMisc.ml" 53 2464 2494
+)
+"gMisc.ml" 53 2464 2497 "gMisc.ml" 53 2464 2532
+type(
+  unit
+)
+"gMisc.ml" 54 2533 2555 "gMisc.ml" 54 2533 2559
+type(
+  string
+)
+ident(
+  def name "gMisc.ml" 55 2562 2566 "gMisc.ml" 55 2562 2627
+)
+"gMisc.ml" 55 2562 2566 "gMisc.ml" 55 2562 2587
+type(
+  Gtk.statusbar Gtk.obj -> Gtk.statusbar_context -> statusbar_context
+)
+"gMisc.ml" 55 2562 2588 "gMisc.ml" 55 2562 2591
+type(
+  Gtk.statusbar Gtk.obj
+)
+"gMisc.ml" 55 2562 2593 "gMisc.ml" 55 2562 2617
+type(
+  Gtk.statusbar Gtk.obj -> string -> Gtk.statusbar_context
+)
+ident(
+  ext_ref GtkMisc.Statusbar.get_context_id
+)
+"gMisc.ml" 55 2562 2618 "gMisc.ml" 55 2562 2621
+type(
+  Gtk.statusbar Gtk.obj
+)
+"gMisc.ml" 55 2562 2622 "gMisc.ml" 55 2562 2626
+type(
+  string
+)
+ident(
+  int_ref name "gMisc.ml" 54 2533 2555 "gMisc.ml" 54 2533 2559
+)
+"gMisc.ml" 55 2562 2592 "gMisc.ml" 55 2562 2627
+type(
+  Gtk.statusbar_context
+)
+"gMisc.ml" 55 2562 2566 "gMisc.ml" 55 2562 2627
+call(
+  tail
+)
+type(
+  statusbar_context
+)
+"gMisc.ml" 58 2633 2637 "gMisc.ml" 58 2633 2646
+type(
+  ?has_resize_grip:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> statusbar
+)
+ident(
+  def statusbar "gMisc.ml" 63 2778 2778 --
+)
+"gMisc.ml" 59 2649 2651 "gMisc.ml" 59 2649 2672
+type(
+  cont:(Gtk.statusbar Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> statusbar) ->
+  Gtk.statusbar Gobject.param list ->
+  ?has_resize_grip:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> statusbar
+)
+ident(
+  ext_ref GtkMisc.Statusbar.make_params
+)
+"gMisc.ml" 59 2649 2673 "gMisc.ml" 59 2649 2675
+type(
+  Gtk.statusbar Gobject.param list
+)
+"gMisc.ml" 60 2683 2688 "gMisc.ml" 60 2683 2713
+type(
+  create:(Gtk.statusbar Gobject.param list -> statusbar) ->
+  Gtk.statusbar Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> statusbar
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gMisc.ml" 61 2723 2735 "gMisc.ml" 61 2723 2736
+type(
+  Gtk.statusbar Gobject.param list
+)
+ident(
+  def p "gMisc.ml" 61 2723 2740 "gMisc.ml" 61 2723 2774
+)
+"gMisc.ml" 61 2723 2740 "gMisc.ml" 61 2723 2753
+type(
+  Gtk.statusbar Gtk.obj -> statusbar
+)
+"gMisc.ml" 61 2723 2755 "gMisc.ml" 61 2723 2771
+type(
+  Gtk.statusbar Gobject.param list -> Gtk.statusbar Gtk.obj
+)
+ident(
+  ext_ref GtkMisc.Statusbar.create
+)
+"gMisc.ml" 61 2723 2772 "gMisc.ml" 61 2723 2773
+type(
+  Gtk.statusbar Gobject.param list
+)
+ident(
+  int_ref p "gMisc.ml" 61 2723 2735 "gMisc.ml" 61 2723 2736
+)
+"gMisc.ml" 61 2723 2754 "gMisc.ml" 61 2723 2774
+call(
+  stack
+)
+type(
+  Gtk.statusbar Gtk.obj
+)
+"gMisc.ml" 61 2723 2740 "gMisc.ml" 61 2723 2774
+call(
+  tail
+)
+type(
+  statusbar
+)
+"gMisc.ml" 61 2723 2730 "gMisc.ml" 61 2723 2775
+type(
+  Gtk.statusbar Gobject.param list -> statusbar
+)
+"gMisc.ml" 60 2683 2687 "gMisc.ml" 61 2723 2776
+call(
+  stack
+)
+type(
+  Gtk.statusbar Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> statusbar
+)
+"gMisc.ml" 59 2649 2651 "gMisc.ml" 61 2723 2776
+call(
+  stack
+)
+type(
+  ?has_resize_grip:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> statusbar
+)
+"gMisc.ml" 63 2778 2805 "gMisc.ml" 63 2778 2808
+type(
+  Gtk.status_icon Gobject.obj
+)
+"gMisc.ml" 66 2936 2963 "gMisc.ml" 66 2936 2966
+type(
+  (Gtk.status_icon, 'a) GtkSignal.t
+)
+ident(
+  def sgn "gMisc.ml" 66 2936 2967 "gMisc.ml" 67 2979 3034
+)
+"gMisc.ml" 66 2936 2968 "gMisc.ml" 66 2936 2976
+type(
+  'a
+)
+ident(
+  def callback "gMisc.ml" 67 2979 2985 "gMisc.ml" 67 2979 3034
+)
+"gMisc.ml" 67 2979 2985 "gMisc.ml" 67 2979 3002
+type(
+  sgn:(Gtk.status_icon, 'a) GtkSignal.t ->
+  callback:'a -> ?after:bool -> Gtk.status_icon Gobject.obj -> GtkSignal.id
+)
+ident(
+  ext_ref GtkSignal.connect
+)
+"gMisc.ml" 67 2979 3004 "gMisc.ml" 67 2979 3007
+type(
+  (Gtk.status_icon, 'a) GtkSignal.t
+)
+ident(
+  int_ref sgn "gMisc.ml" 66 2936 2963 "gMisc.ml" 66 2936 2966
+)
+"gMisc.ml" 67 2979 3009 "gMisc.ml" 67 2979 3017
+type(
+  'a
+)
+ident(
+  int_ref callback "gMisc.ml" 66 2936 2968 "gMisc.ml" 66 2936 2976
+)
+"gMisc.ml" 67 2979 3026 "gMisc.ml" 67 2979 3030
+type(
+  bool
+)
+"gMisc.ml" 67 2979 3031 "gMisc.ml" 67 2979 3034
+type(
+  Gtk.status_icon Gobject.obj
+)
+"gMisc.ml" 67 2979 2985 "gMisc.ml" 67 2979 3034
+call(
+  tail
+)
+type(
+  GtkSignal.id
+)
+"gMisc.ml" 70 3040 3058 "gMisc.ml" 70 3040 3061
+type(
+  Gtk.status_icon Gtk.obj
+)
+"gMisc.ml" 71 3071 3113 "gMisc.ml" 71 3071 3116
+type(
+  Gtk.status_icon Gtk.obj
+)
+type(
+  Gtk.status_icon Gtk.obj
+)
+ident(
+  int_ref obj "gMisc.ml" 70 3040 3058 "gMisc.ml" 70 3040 3061
+)
+"gMisc.ml" 73 3149 3168 "gMisc.ml" 73 3149 3191
+type(
+  Gtk.status_icon Gtk.obj -> status_icon_signals
+)
+"gMisc.ml" 73 3149 3192 "gMisc.ml" 73 3149 3195
+type(
+  Gtk.status_icon Gtk.obj
+)
+"gMisc.ml" 73 3149 3168 "gMisc.ml" 73 3149 3195
+call(
+  tail
+)
+type(
+  status_icon_signals
+)
+type(
+  status_icon_signals
+)
+"gMisc.ml" 74 3196 3223 "gMisc.ml" 74 3196 3249
+type(
+  Gtk.status_icon Gtk.obj -> GdkPixbuf.pixbuf -> unit
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.set_from_pixbuf
+)
+"gMisc.ml" 74 3196 3250 "gMisc.ml" 74 3196 3253
+type(
+  Gtk.status_icon Gtk.obj
+)
+"gMisc.ml" 74 3196 3223 "gMisc.ml" 74 3196 3253
+call(
+  tail
+)
+type(
+  GdkPixbuf.pixbuf -> unit
+)
+type(
+  GdkPixbuf.pixbuf -> unit
+)
+"gMisc.ml" 75 3254 3279 "gMisc.ml" 75 3254 3303
+type(
+  Gtk.status_icon Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.set_from_file
+)
+"gMisc.ml" 75 3254 3304 "gMisc.ml" 75 3254 3307
+type(
+  Gtk.status_icon Gtk.obj
+)
+"gMisc.ml" 75 3254 3279 "gMisc.ml" 75 3254 3307
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gMisc.ml" 76 3308 3334 "gMisc.ml" 76 3308 3359
+type(
+  Gtk.status_icon Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.set_from_stock
+)
+"gMisc.ml" 76 3308 3360 "gMisc.ml" 76 3308 3363
+type(
+  Gtk.status_icon Gtk.obj
+)
+"gMisc.ml" 76 3308 3334 "gMisc.ml" 76 3308 3363
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gMisc.ml" 77 3364 3394 "gMisc.ml" 77 3364 3423
+type(
+  Gtk.status_icon Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.set_from_icon_name
+)
+"gMisc.ml" 77 3364 3424 "gMisc.ml" 77 3364 3427
+type(
+  Gtk.status_icon Gtk.obj
+)
+"gMisc.ml" 77 3364 3394 "gMisc.ml" 77 3364 3427
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gMisc.ml" 78 3428 3450 "gMisc.ml" 78 3428 3471
+type(
+  Gtk.status_icon Gtk.obj -> GdkPixbuf.pixbuf
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.get_pixbuf
+)
+"gMisc.ml" 78 3428 3472 "gMisc.ml" 78 3428 3475
+type(
+  Gtk.status_icon Gtk.obj
+)
+"gMisc.ml" 78 3428 3450 "gMisc.ml" 78 3428 3475
+type(
+  GdkPixbuf.pixbuf
+)
+type(
+  GdkPixbuf.pixbuf
+)
+"gMisc.ml" 79 3476 3497 "gMisc.ml" 79 3476 3517
+type(
+  Gtk.status_icon Gtk.obj -> string
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.get_stock
+)
+"gMisc.ml" 79 3476 3518 "gMisc.ml" 79 3476 3521
+type(
+  Gtk.status_icon Gtk.obj
+)
+"gMisc.ml" 79 3476 3497 "gMisc.ml" 79 3476 3521
+type(
+  string
+)
+type(
+  string
+)
+"gMisc.ml" 80 3522 3547 "gMisc.ml" 80 3522 3571
+type(
+  Gtk.status_icon Gtk.obj -> string
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.get_icon_name
+)
+"gMisc.ml" 80 3522 3572 "gMisc.ml" 80 3522 3575
+type(
+  Gtk.status_icon Gtk.obj
+)
+"gMisc.ml" 80 3522 3547 "gMisc.ml" 80 3522 3575
+type(
+  string
+)
+type(
+  string
+)
+"gMisc.ml" 81 3576 3596 "gMisc.ml" 81 3576 3615
+type(
+  Gtk.status_icon Gtk.obj -> int
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.get_size
+)
+"gMisc.ml" 81 3576 3616 "gMisc.ml" 81 3576 3619
+type(
+  Gtk.status_icon Gtk.obj
+)
+"gMisc.ml" 81 3576 3596 "gMisc.ml" 81 3576 3619
+type(
+  int
+)
+type(
+  int
+)
+"gMisc.ml" 82 3620 3643 "gMisc.ml" 82 3620 3665
+type(
+  Gtk.status_icon Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.set_tooltip
+)
+"gMisc.ml" 82 3620 3666 "gMisc.ml" 82 3620 3669
+type(
+  Gtk.status_icon Gtk.obj
+)
+"gMisc.ml" 82 3620 3643 "gMisc.ml" 82 3620 3669
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gMisc.ml" 83 3670 3692 "gMisc.ml" 83 3670 3714
+type(
+  Gtk.status_icon Gtk.obj -> bool
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.is_embedded
+)
+"gMisc.ml" 83 3670 3715 "gMisc.ml" 83 3670 3718
+type(
+  Gtk.status_icon Gtk.obj
+)
+"gMisc.ml" 83 3670 3692 "gMisc.ml" 83 3670 3718
+type(
+  bool
+)
+type(
+  bool
+)
+"gMisc.ml" 86 3724 3728 "gMisc.ml" 86 3724 3739
+type(
+  ?screen:Gdk.screen ->
+  ?visible:bool -> ?blinking:bool -> unit -> status_icon
+)
+ident(
+  def status_icon "gMisc.ml" 90 3834 3834 --
+)
+"gMisc.ml" 87 3742 3744 "gMisc.ml" 87 3742 3766
+type(
+  cont:(Gtk.status_icon Gobject.param list -> unit -> status_icon) ->
+  Gtk.status_icon Gobject.param list ->
+  ?screen:Gdk.screen ->
+  ?visible:bool -> ?blinking:bool -> unit -> status_icon
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.make_params
+)
+"gMisc.ml" 87 3742 3767 "gMisc.ml" 87 3742 3769
+type(
+  Gtk.status_icon Gobject.param list
+)
+"gMisc.ml" 88 3777 3786 "gMisc.ml" 88 3777 3787
+type(
+  Gtk.status_icon Gobject.param list
+)
+ident(
+  def p "gMisc.ml" 88 3777 3788 "gMisc.ml" 88 3777 3831
+)
+"gMisc.ml" 88 3777 3788 "gMisc.ml" 88 3777 3790
+type(
+  unit
+)
+"gMisc.ml" 88 3777 3794 "gMisc.ml" 88 3777 3809
+type(
+  Gtk.status_icon Gtk.obj -> status_icon
+)
+"gMisc.ml" 88 3777 3811 "gMisc.ml" 88 3777 3828
+type(
+  Gtk.status_icon Gobject.param list -> Gtk.gtk_status_icon
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.create
+)
+"gMisc.ml" 88 3777 3829 "gMisc.ml" 88 3777 3830
+type(
+  Gtk.status_icon Gobject.param list
+)
+ident(
+  int_ref p "gMisc.ml" 88 3777 3786 "gMisc.ml" 88 3777 3787
+)
+"gMisc.ml" 88 3777 3810 "gMisc.ml" 88 3777 3831
+call(
+  stack
+)
+type(
+  Gtk.gtk_status_icon
+)
+"gMisc.ml" 88 3777 3794 "gMisc.ml" 88 3777 3831
+call(
+  tail
+)
+type(
+  status_icon
+)
+"gMisc.ml" 88 3777 3781 "gMisc.ml" 88 3777 3832
+type(
+  Gtk.status_icon Gobject.param list -> unit -> status_icon
+)
+"gMisc.ml" 87 3742 3744 "gMisc.ml" 88 3777 3832
+call(
+  stack
+)
+type(
+  ?screen:Gdk.screen ->
+  ?visible:bool -> ?blinking:bool -> unit -> status_icon
+)
+"gMisc.ml" 90 3834 3838 "gMisc.ml" 90 3834 3861
+type(
+  ?screen:Gdk.screen ->
+  ?visible:bool -> ?blinking:bool -> GdkPixbuf.pixbuf -> status_icon
+)
+ident(
+  def status_icon_from_pixbuf "gMisc.ml" 97 4016 4016 --
+)
+"gMisc.ml" 91 3864 3866 "gMisc.ml" 91 3864 3888
+type(
+  cont:(Gtk.status_icon Gobject.param list -> GdkPixbuf.pixbuf -> status_icon) ->
+  Gtk.status_icon Gobject.param list ->
+  ?screen:Gdk.screen ->
+  ?visible:bool -> ?blinking:bool -> GdkPixbuf.pixbuf -> status_icon
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.make_params
+)
+"gMisc.ml" 91 3864 3889 "gMisc.ml" 91 3864 3891
+type(
+  Gtk.status_icon Gobject.param list
+)
+"gMisc.ml" 92 3899 3908 "gMisc.ml" 92 3899 3909
+type(
+  Gtk.status_icon Gobject.param list
+)
+ident(
+  def p "gMisc.ml" 92 3899 3910 "gMisc.ml" 95 4001 4009
+)
+"gMisc.ml" 92 3899 3910 "gMisc.ml" 92 3899 3912
+type(
+  GdkPixbuf.pixbuf
+)
+ident(
+  def pb "gMisc.ml" 93 3916 3923 "gMisc.ml" 95 4001 4009
+)
+"gMisc.ml" 93 3916 3927 "gMisc.ml" 93 3916 3928
+type(
+  status_icon
+)
+"gMisc.ml" 93 3916 3931 "gMisc.ml" 93 3916 3946
+type(
+  Gtk.status_icon Gtk.obj -> status_icon
+)
+"gMisc.ml" 93 3916 3948 "gMisc.ml" 93 3916 3965
+type(
+  Gtk.status_icon Gobject.param list -> Gtk.gtk_status_icon
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.create
+)
+"gMisc.ml" 93 3916 3966 "gMisc.ml" 93 3916 3967
+type(
+  Gtk.status_icon Gobject.param list
+)
+ident(
+  int_ref p "gMisc.ml" 92 3899 3908 "gMisc.ml" 92 3899 3909
+)
+"gMisc.ml" 93 3916 3947 "gMisc.ml" 93 3916 3968
+call(
+  stack
+)
+type(
+  Gtk.gtk_status_icon
+)
+"gMisc.ml" 93 3916 3931 "gMisc.ml" 93 3916 3968
+call(
+  stack
+)
+type(
+  status_icon
+)
+"gMisc.ml" 94 3972 3979 "gMisc.ml" 94 3972 3980
+type(
+  status_icon
+)
+ident(
+  int_ref o "gMisc.ml" 93 3916 3927 "gMisc.ml" 93 3916 3928
+)
+"gMisc.ml" 94 3972 3979 "gMisc.ml" 94 3972 3996
+call(
+  stack
+)
+type(
+  GdkPixbuf.pixbuf -> unit
+)
+"gMisc.ml" 94 3972 3997 "gMisc.ml" 94 3972 3999
+type(
+  GdkPixbuf.pixbuf
+)
+ident(
+  int_ref pb "gMisc.ml" 92 3899 3910 "gMisc.ml" 92 3899 3912
+)
+"gMisc.ml" 94 3972 3979 "gMisc.ml" 94 3972 3999
+type(
+  unit
+)
+"gMisc.ml" 95 4001 4008 "gMisc.ml" 95 4001 4009
+type(
+  status_icon
+)
+ident(
+  int_ref o "gMisc.ml" 93 3916 3927 "gMisc.ml" 93 3916 3928
+)
+"gMisc.ml" 94 3972 3979 "gMisc.ml" 95 4001 4009
+type(
+  status_icon
+)
+"gMisc.ml" 93 3916 3923 "gMisc.ml" 95 4001 4009
+type(
+  status_icon
+)
+"gMisc.ml" 92 3899 3903 "gMisc.ml" 96 4010 4015
+type(
+  Gtk.status_icon Gobject.param list -> GdkPixbuf.pixbuf -> status_icon
+)
+"gMisc.ml" 91 3864 3866 "gMisc.ml" 96 4010 4015
+call(
+  stack
+)
+type(
+  ?screen:Gdk.screen ->
+  ?visible:bool -> ?blinking:bool -> GdkPixbuf.pixbuf -> status_icon
+)
+"gMisc.ml" 97 4016 4020 "gMisc.ml" 97 4016 4041
+type(
+  ?screen:Gdk.screen ->
+  ?visible:bool -> ?blinking:bool -> string -> status_icon
+)
+ident(
+  def status_icon_from_file "gMisc.ml" 104 4198 4198 --
+)
+"gMisc.ml" 98 4044 4046 "gMisc.ml" 98 4044 4068
+type(
+  cont:(Gtk.status_icon Gobject.param list -> string -> status_icon) ->
+  Gtk.status_icon Gobject.param list ->
+  ?screen:Gdk.screen ->
+  ?visible:bool -> ?blinking:bool -> string -> status_icon
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.make_params
+)
+"gMisc.ml" 98 4044 4069 "gMisc.ml" 98 4044 4071
+type(
+  Gtk.status_icon Gobject.param list
+)
+"gMisc.ml" 99 4079 4088 "gMisc.ml" 99 4079 4089
+type(
+  Gtk.status_icon Gobject.param list
+)
+ident(
+  def p "gMisc.ml" 99 4079 4090 "gMisc.ml" 102 4183 4191
+)
+"gMisc.ml" 99 4079 4090 "gMisc.ml" 99 4079 4094
+type(
+  string
+)
+ident(
+  def file "gMisc.ml" 100 4098 4105 "gMisc.ml" 102 4183 4191
+)
+"gMisc.ml" 100 4098 4109 "gMisc.ml" 100 4098 4110
+type(
+  status_icon
+)
+"gMisc.ml" 100 4098 4113 "gMisc.ml" 100 4098 4128
+type(
+  Gtk.status_icon Gtk.obj -> status_icon
+)
+"gMisc.ml" 100 4098 4130 "gMisc.ml" 100 4098 4147
+type(
+  Gtk.status_icon Gobject.param list -> Gtk.gtk_status_icon
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.create
+)
+"gMisc.ml" 100 4098 4148 "gMisc.ml" 100 4098 4149
+type(
+  Gtk.status_icon Gobject.param list
+)
+ident(
+  int_ref p "gMisc.ml" 99 4079 4088 "gMisc.ml" 99 4079 4089
+)
+"gMisc.ml" 100 4098 4129 "gMisc.ml" 100 4098 4150
+call(
+  stack
+)
+type(
+  Gtk.gtk_status_icon
+)
+"gMisc.ml" 100 4098 4113 "gMisc.ml" 100 4098 4150
+call(
+  stack
+)
+type(
+  status_icon
+)
+"gMisc.ml" 101 4154 4161 "gMisc.ml" 101 4154 4162
+type(
+  status_icon
+)
+ident(
+  int_ref o "gMisc.ml" 100 4098 4109 "gMisc.ml" 100 4098 4110
+)
+"gMisc.ml" 101 4154 4161 "gMisc.ml" 101 4154 4176
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"gMisc.ml" 101 4154 4177 "gMisc.ml" 101 4154 4181
+type(
+  string
+)
+ident(
+  int_ref file "gMisc.ml" 99 4079 4090 "gMisc.ml" 99 4079 4094
+)
+"gMisc.ml" 101 4154 4161 "gMisc.ml" 101 4154 4181
+type(
+  unit
+)
+"gMisc.ml" 102 4183 4190 "gMisc.ml" 102 4183 4191
+type(
+  status_icon
+)
+ident(
+  int_ref o "gMisc.ml" 100 4098 4109 "gMisc.ml" 100 4098 4110
+)
+"gMisc.ml" 101 4154 4161 "gMisc.ml" 102 4183 4191
+type(
+  status_icon
+)
+"gMisc.ml" 100 4098 4105 "gMisc.ml" 102 4183 4191
+type(
+  status_icon
+)
+"gMisc.ml" 99 4079 4083 "gMisc.ml" 103 4192 4197
+type(
+  Gtk.status_icon Gobject.param list -> string -> status_icon
+)
+"gMisc.ml" 98 4044 4046 "gMisc.ml" 103 4192 4197
+call(
+  stack
+)
+type(
+  ?screen:Gdk.screen ->
+  ?visible:bool -> ?blinking:bool -> string -> status_icon
+)
+"gMisc.ml" 104 4198 4202 "gMisc.ml" 104 4198 4224
+type(
+  ?screen:Gdk.screen ->
+  ?visible:bool -> ?blinking:bool -> string -> status_icon
+)
+ident(
+  def status_icon_from_stock "gMisc.ml" 111 4376 4376 --
+)
+"gMisc.ml" 105 4227 4229 "gMisc.ml" 105 4227 4251
+type(
+  cont:(Gtk.status_icon Gobject.param list -> string -> status_icon) ->
+  Gtk.status_icon Gobject.param list ->
+  ?screen:Gdk.screen ->
+  ?visible:bool -> ?blinking:bool -> string -> status_icon
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.make_params
+)
+"gMisc.ml" 105 4227 4252 "gMisc.ml" 105 4227 4254
+type(
+  Gtk.status_icon Gobject.param list
+)
+"gMisc.ml" 106 4262 4271 "gMisc.ml" 106 4262 4272
+type(
+  Gtk.status_icon Gobject.param list
+)
+ident(
+  def p "gMisc.ml" 106 4262 4273 "gMisc.ml" 109 4361 4369
+)
+"gMisc.ml" 106 4262 4273 "gMisc.ml" 106 4262 4274
+type(
+  string
+)
+ident(
+  def s "gMisc.ml" 107 4278 4285 "gMisc.ml" 109 4361 4369
+)
+"gMisc.ml" 107 4278 4289 "gMisc.ml" 107 4278 4290
+type(
+  status_icon
+)
+"gMisc.ml" 107 4278 4293 "gMisc.ml" 107 4278 4308
+type(
+  Gtk.status_icon Gtk.obj -> status_icon
+)
+"gMisc.ml" 107 4278 4310 "gMisc.ml" 107 4278 4327
+type(
+  Gtk.status_icon Gobject.param list -> Gtk.gtk_status_icon
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.create
+)
+"gMisc.ml" 107 4278 4328 "gMisc.ml" 107 4278 4329
+type(
+  Gtk.status_icon Gobject.param list
+)
+ident(
+  int_ref p "gMisc.ml" 106 4262 4271 "gMisc.ml" 106 4262 4272
+)
+"gMisc.ml" 107 4278 4309 "gMisc.ml" 107 4278 4330
+call(
+  stack
+)
+type(
+  Gtk.gtk_status_icon
+)
+"gMisc.ml" 107 4278 4293 "gMisc.ml" 107 4278 4330
+call(
+  stack
+)
+type(
+  status_icon
+)
+"gMisc.ml" 108 4334 4341 "gMisc.ml" 108 4334 4342
+type(
+  status_icon
+)
+ident(
+  int_ref o "gMisc.ml" 107 4278 4289 "gMisc.ml" 107 4278 4290
+)
+"gMisc.ml" 108 4334 4341 "gMisc.ml" 108 4334 4357
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"gMisc.ml" 108 4334 4358 "gMisc.ml" 108 4334 4359
+type(
+  string
+)
+ident(
+  int_ref s "gMisc.ml" 106 4262 4273 "gMisc.ml" 106 4262 4274
+)
+"gMisc.ml" 108 4334 4341 "gMisc.ml" 108 4334 4359
+type(
+  unit
+)
+"gMisc.ml" 109 4361 4368 "gMisc.ml" 109 4361 4369
+type(
+  status_icon
+)
+ident(
+  int_ref o "gMisc.ml" 107 4278 4289 "gMisc.ml" 107 4278 4290
+)
+"gMisc.ml" 108 4334 4341 "gMisc.ml" 109 4361 4369
+type(
+  status_icon
+)
+"gMisc.ml" 107 4278 4285 "gMisc.ml" 109 4361 4369
+type(
+  status_icon
+)
+"gMisc.ml" 106 4262 4266 "gMisc.ml" 110 4370 4375
+type(
+  Gtk.status_icon Gobject.param list -> string -> status_icon
+)
+"gMisc.ml" 105 4227 4229 "gMisc.ml" 110 4370 4375
+call(
+  stack
+)
+type(
+  ?screen:Gdk.screen ->
+  ?visible:bool -> ?blinking:bool -> string -> status_icon
+)
+"gMisc.ml" 111 4376 4380 "gMisc.ml" 111 4376 4406
+type(
+  ?screen:Gdk.screen ->
+  ?visible:bool -> ?blinking:bool -> string -> status_icon
+)
+ident(
+  def status_icon_from_icon_name "gMisc.ml" 120 4564 4564 --
+)
+"gMisc.ml" 112 4409 4411 "gMisc.ml" 112 4409 4433
+type(
+  cont:(Gtk.status_icon Gobject.param list -> string -> status_icon) ->
+  Gtk.status_icon Gobject.param list ->
+  ?screen:Gdk.screen ->
+  ?visible:bool -> ?blinking:bool -> string -> status_icon
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.make_params
+)
+"gMisc.ml" 112 4409 4434 "gMisc.ml" 112 4409 4436
+type(
+  Gtk.status_icon Gobject.param list
+)
+"gMisc.ml" 113 4444 4453 "gMisc.ml" 113 4444 4454
+type(
+  Gtk.status_icon Gobject.param list
+)
+ident(
+  def p "gMisc.ml" 113 4444 4455 "gMisc.ml" 116 4547 4555
+)
+"gMisc.ml" 113 4444 4455 "gMisc.ml" 113 4444 4456
+type(
+  string
+)
+ident(
+  def s "gMisc.ml" 114 4460 4467 "gMisc.ml" 116 4547 4555
+)
+"gMisc.ml" 114 4460 4471 "gMisc.ml" 114 4460 4472
+type(
+  status_icon
+)
+"gMisc.ml" 114 4460 4475 "gMisc.ml" 114 4460 4490
+type(
+  Gtk.status_icon Gtk.obj -> status_icon
+)
+"gMisc.ml" 114 4460 4492 "gMisc.ml" 114 4460 4509
+type(
+  Gtk.status_icon Gobject.param list -> Gtk.gtk_status_icon
+)
+ident(
+  ext_ref GtkMisc.StatusIcon.create
+)
+"gMisc.ml" 114 4460 4510 "gMisc.ml" 114 4460 4511
+type(
+  Gtk.status_icon Gobject.param list
+)
+ident(
+  int_ref p "gMisc.ml" 113 4444 4453 "gMisc.ml" 113 4444 4454
+)
+"gMisc.ml" 114 4460 4491 "gMisc.ml" 114 4460 4512
+call(
+  stack
+)
+type(
+  Gtk.gtk_status_icon
+)
+"gMisc.ml" 114 4460 4475 "gMisc.ml" 114 4460 4512
+call(
+  stack
+)
+type(
+  status_icon
+)
+"gMisc.ml" 115 4516 4523 "gMisc.ml" 115 4516 4524
+type(
+  status_icon
+)
+ident(
+  int_ref o "gMisc.ml" 114 4460 4471 "gMisc.ml" 114 4460 4472
+)
+"gMisc.ml" 115 4516 4523 "gMisc.ml" 115 4516 4543
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"gMisc.ml" 115 4516 4544 "gMisc.ml" 115 4516 4545
+type(
+  string
+)
+ident(
+  int_ref s "gMisc.ml" 113 4444 4455 "gMisc.ml" 113 4444 4456
+)
+"gMisc.ml" 115 4516 4523 "gMisc.ml" 115 4516 4545
+type(
+  unit
+)
+"gMisc.ml" 116 4547 4554 "gMisc.ml" 116 4547 4555
+type(
+  status_icon
+)
+ident(
+  int_ref o "gMisc.ml" 114 4460 4471 "gMisc.ml" 114 4460 4472
+)
+"gMisc.ml" 115 4516 4523 "gMisc.ml" 116 4547 4555
+type(
+  status_icon
+)
+"gMisc.ml" 114 4460 4467 "gMisc.ml" 116 4547 4555
+type(
+  status_icon
+)
+"gMisc.ml" 113 4444 4448 "gMisc.ml" 117 4556 4561
+type(
+  Gtk.status_icon Gobject.param list -> string -> status_icon
+)
+"gMisc.ml" 112 4409 4411 "gMisc.ml" 117 4556 4561
+call(
+  stack
+)
+type(
+  ?screen:Gdk.screen ->
+  ?visible:bool -> ?blinking:bool -> string -> status_icon
+)
+"gMisc.ml" 120 4564 4587 "gMisc.ml" 120 4564 4590
+type(
+  [> `calendar | `gtk | `widget ] Gtk.obj
+)
+"gMisc.ml" 121 4600 4630 "gMisc.ml" 121 4600 4633
+type(
+  ([> `calendar | `gtk | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gMisc.ml" 120 4564 4587 "gMisc.ml" 120 4564 4590
+)
+"gMisc.ml" 125 4663 4678 "gMisc.ml" 125 4663 4681
+type(
+  Gtk.calendar Gtk.obj
+)
+"gMisc.ml" 126 4691 4719 "gMisc.ml" 126 4691 4722
+type(
+  Gtk.calendar Gtk.obj
+)
+type(
+  Gtk.calendar Gtk.obj
+)
+ident(
+  int_ref obj "gMisc.ml" 125 4663 4678 "gMisc.ml" 125 4663 4681
+)
+"gMisc.ml" 128 4768 4785 "gMisc.ml" 128 4768 4803
+type(
+  Gtk.calendar Gtk.obj -> GObj.event_ops
+)
+"gMisc.ml" 128 4768 4804 "gMisc.ml" 128 4768 4807
+type(
+  Gtk.calendar Gtk.obj
+)
+"gMisc.ml" 128 4768 4785 "gMisc.ml" 128 4768 4807
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gMisc.ml" 129 4808 4827 "gMisc.ml" 129 4808 4847
+type(
+  Gtk.calendar Gtk.obj -> calendar_signals
+)
+"gMisc.ml" 129 4808 4848 "gMisc.ml" 129 4808 4851
+type(
+  Gtk.calendar Gtk.obj
+)
+"gMisc.ml" 129 4808 4827 "gMisc.ml" 129 4808 4851
+call(
+  tail
+)
+type(
+  calendar_signals
+)
+type(
+  calendar_signals
+)
+"gMisc.ml" 130 4852 4876 "gMisc.ml" 130 4852 4897
+type(
+  Gtk.calendar Gtk.obj -> month:int -> year:int -> unit
+)
+ident(
+  ext_ref GtkMisc.Calendar.select_month
+)
+"gMisc.ml" 130 4852 4898 "gMisc.ml" 130 4852 4901
+type(
+  Gtk.calendar Gtk.obj
+)
+"gMisc.ml" 130 4852 4876 "gMisc.ml" 130 4852 4901
+call(
+  tail
+)
+type(
+  month:int -> year:int -> unit
+)
+type(
+  month:int -> year:int -> unit
+)
+"gMisc.ml" 131 4902 4924 "gMisc.ml" 131 4902 4943
+type(
+  Gtk.calendar Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkMisc.Calendar.select_day
+)
+"gMisc.ml" 131 4902 4944 "gMisc.ml" 131 4902 4947
+type(
+  Gtk.calendar Gtk.obj
+)
+"gMisc.ml" 131 4902 4924 "gMisc.ml" 131 4902 4947
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gMisc.ml" 132 4948 4968 "gMisc.ml" 132 4948 4985
+type(
+  Gtk.calendar Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkMisc.Calendar.mark_day
+)
+"gMisc.ml" 132 4948 4986 "gMisc.ml" 132 4948 4989
+type(
+  Gtk.calendar Gtk.obj
+)
+"gMisc.ml" 132 4948 4968 "gMisc.ml" 132 4948 4989
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gMisc.ml" 133 4990 5012 "gMisc.ml" 133 4990 5031
+type(
+  Gtk.calendar Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkMisc.Calendar.unmark_day
+)
+"gMisc.ml" 133 4990 5032 "gMisc.ml" 133 4990 5035
+type(
+  Gtk.calendar Gtk.obj
+)
+"gMisc.ml" 133 4990 5012 "gMisc.ml" 133 4990 5035
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gMisc.ml" 134 5036 5059 "gMisc.ml" 134 5036 5079
+type(
+  Gtk.calendar Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMisc.Calendar.clear_marks
+)
+"gMisc.ml" 134 5036 5080 "gMisc.ml" 134 5036 5083
+type(
+  Gtk.calendar Gtk.obj
+)
+"gMisc.ml" 134 5036 5059 "gMisc.ml" 134 5036 5083
+type(
+  unit
+)
+type(
+  unit
+)
+"gMisc.ml" 135 5084 5111 "gMisc.ml" 135 5084 5135
+type(
+  Gtk.calendar Gtk.obj -> Gtk.Tags.calendar_display_options list -> unit
+)
+ident(
+  ext_ref GtkMisc.Calendar.display_options
+)
+"gMisc.ml" 135 5084 5136 "gMisc.ml" 135 5084 5139
+type(
+  Gtk.calendar Gtk.obj
+)
+"gMisc.ml" 135 5084 5111 "gMisc.ml" 135 5084 5139
+call(
+  tail
+)
+type(
+  Gtk.Tags.calendar_display_options list -> unit
+)
+type(
+  Gtk.Tags.calendar_display_options list -> unit
+)
+"gMisc.ml" 136 5140 5156 "gMisc.ml" 136 5140 5173
+type(
+  Gtk.calendar Gtk.obj -> int * int * int
+)
+ident(
+  ext_ref GtkMisc.Calendar.get_date
+)
+"gMisc.ml" 136 5140 5174 "gMisc.ml" 136 5140 5177
+type(
+  Gtk.calendar Gtk.obj
+)
+"gMisc.ml" 136 5140 5156 "gMisc.ml" 136 5140 5177
+type(
+  int * int * int
+)
+type(
+  int * int * int
+)
+"gMisc.ml" 137 5178 5194 "gMisc.ml" 137 5178 5196
+type(
+  unit
+)
+"gMisc.ml" 137 5178 5199 "gMisc.ml" 137 5178 5214
+type(
+  Gtk.calendar Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMisc.Calendar.freeze
+)
+"gMisc.ml" 137 5178 5215 "gMisc.ml" 137 5178 5218
+type(
+  Gtk.calendar Gtk.obj
+)
+"gMisc.ml" 137 5178 5199 "gMisc.ml" 137 5178 5218
+type(
+  unit
+)
+"gMisc.ml" 138 5219 5233 "gMisc.ml" 138 5219 5235
+type(
+  unit
+)
+"gMisc.ml" 138 5219 5238 "gMisc.ml" 138 5219 5251
+type(
+  Gtk.calendar Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMisc.Calendar.thaw
+)
+"gMisc.ml" 138 5219 5252 "gMisc.ml" 138 5219 5255
+type(
+  Gtk.calendar Gtk.obj
+)
+"gMisc.ml" 138 5219 5238 "gMisc.ml" 138 5219 5255
+type(
+  unit
+)
+"gMisc.ml" 139 5256 5284 "gMisc.ml" 139 5256 5313
+type(
+  Gtk.calendar Gtk.obj -> int
+)
+ident(
+  ext_ref GtkMisc.Calendar.get_num_marked_dates
+)
+"gMisc.ml" 139 5256 5314 "gMisc.ml" 139 5256 5317
+type(
+  Gtk.calendar Gtk.obj
+)
+"gMisc.ml" 139 5256 5284 "gMisc.ml" 139 5256 5317
+type(
+  int
+)
+type(
+  int
+)
+"gMisc.ml" 140 5318 5343 "gMisc.ml" 140 5318 5365
+type(
+  Gtk.calendar Gtk.obj -> int -> bool
+)
+ident(
+  ext_ref GtkMisc.Calendar.is_day_marked
+)
+"gMisc.ml" 140 5318 5366 "gMisc.ml" 140 5318 5369
+type(
+  Gtk.calendar Gtk.obj
+)
+"gMisc.ml" 140 5318 5343 "gMisc.ml" 140 5318 5369
+call(
+  tail
+)
+type(
+  int -> bool
+)
+type(
+  int -> bool
+)
+"gMisc.ml" 143 5375 5379 "gMisc.ml" 143 5375 5387
+type(
+  ?options:Gtk.Tags.calendar_display_options list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> calendar
+)
+ident(
+  def calendar "gMisc.ml" 148 5543 5543 --
+)
+"gMisc.ml" 143 5375 5389 "gMisc.ml" 143 5375 5396
+type(
+  Gtk.Tags.calendar_display_options list option
+)
+ident(
+  def options "gMisc.ml" 143 5375 5397 "gMisc.ml" 146 5496 5541
+)
+"gMisc.ml" 143 5375 5398 "gMisc.ml" 143 5375 5405
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gMisc.ml" 143 5375 5406 "gMisc.ml" 146 5496 5541
+)
+"gMisc.ml" 143 5375 5407 "gMisc.ml" 143 5375 5411
+type(
+  bool option
+)
+ident(
+  def show "gMisc.ml" 143 5375 5412 "gMisc.ml" 146 5496 5541
+)
+"gMisc.ml" 143 5375 5412 "gMisc.ml" 143 5375 5414
+type(
+  unit
+)
+"gMisc.ml" 144 5417 5423 "gMisc.ml" 144 5417 5424
+type(
+  Gtk.calendar Gtk.obj
+)
+"gMisc.ml" 144 5417 5427 "gMisc.ml" 144 5417 5442
+type(
+  Gtk.calendar Gobject.param list -> Gtk.calendar Gtk.obj
+)
+ident(
+  ext_ref GtkMisc.Calendar.create
+)
+"gMisc.ml" 144 5417 5443 "gMisc.ml" 144 5417 5445
+type(
+  Gtk.calendar Gobject.param list
+)
+"gMisc.ml" 144 5417 5427 "gMisc.ml" 144 5417 5445
+call(
+  stack
+)
+type(
+  Gtk.calendar Gtk.obj
+)
+"gMisc.ml" 145 5449 5451 "gMisc.ml" 145 5449 5454
+type(
+  f:(Gtk.Tags.calendar_display_options list -> unit) ->
+  Gtk.Tags.calendar_display_options list option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gMisc.ml" 145 5449 5455 "gMisc.ml" 145 5449 5462
+type(
+  Gtk.Tags.calendar_display_options list option
+)
+ident(
+  int_ref options "gMisc.ml" 143 5375 5389 "gMisc.ml" 143 5375 5396
+)
+"gMisc.ml" 145 5449 5467 "gMisc.ml" 145 5449 5491
+type(
+  Gtk.calendar Gtk.obj -> Gtk.Tags.calendar_display_options list -> unit
+)
+ident(
+  ext_ref GtkMisc.Calendar.display_options
+)
+"gMisc.ml" 145 5449 5492 "gMisc.ml" 145 5449 5493
+type(
+  Gtk.calendar Gtk.obj
+)
+ident(
+  int_ref w "gMisc.ml" 144 5417 5423 "gMisc.ml" 144 5417 5424
+)
+"gMisc.ml" 145 5449 5466 "gMisc.ml" 145 5449 5494
+call(
+  stack
+)
+type(
+  Gtk.Tags.calendar_display_options list -> unit
+)
+"gMisc.ml" 145 5449 5451 "gMisc.ml" 145 5449 5494
+call(
+  stack
+)
+type(
+  unit
+)
+"gMisc.ml" 146 5496 5498 "gMisc.ml" 146 5496 5509
+type(
+  calendar ->
+  packing:(GObj.widget -> unit) option -> show:bool option -> calendar
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gMisc.ml" 146 5496 5511 "gMisc.ml" 146 5496 5523
+type(
+  Gtk.calendar Gtk.obj -> calendar
+)
+"gMisc.ml" 146 5496 5524 "gMisc.ml" 146 5496 5525
+type(
+  Gtk.calendar Gtk.obj
+)
+ident(
+  int_ref w "gMisc.ml" 144 5417 5423 "gMisc.ml" 144 5417 5424
+)
+"gMisc.ml" 146 5496 5510 "gMisc.ml" 146 5496 5526
+call(
+  stack
+)
+type(
+  calendar
+)
+"gMisc.ml" 146 5496 5528 "gMisc.ml" 146 5496 5535
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gMisc.ml" 143 5375 5398 "gMisc.ml" 143 5375 5405
+)
+"gMisc.ml" 146 5496 5537 "gMisc.ml" 146 5496 5541
+type(
+  bool option
+)
+ident(
+  int_ref show "gMisc.ml" 143 5375 5407 "gMisc.ml" 143 5375 5411
+)
+"gMisc.ml" 146 5496 5498 "gMisc.ml" 146 5496 5541
+call(
+  tail
+)
+type(
+  calendar
+)
+"gMisc.ml" 145 5449 5451 "gMisc.ml" 146 5496 5541
+type(
+  calendar
+)
+"gMisc.ml" 144 5417 5419 "gMisc.ml" 146 5496 5541
+type(
+  calendar
+)
+"gMisc.ml" 148 5543 5562 "gMisc.ml" 148 5543 5565
+type(
+  [> Gtk.drawing_area ] Gtk.obj
+)
+"gMisc.ml" 149 5575 5598 "gMisc.ml" 149 5575 5601
+type(
+  ([> Gtk.drawing_area ] as 'a) Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref obj "gMisc.ml" 148 5543 5562 "gMisc.ml" 148 5543 5565
+)
+"gMisc.ml" 150 5630 5647 "gMisc.ml" 150 5630 5665
+type(
+  'a Gtk.obj -> GObj.event_ops
+)
+"gMisc.ml" 150 5630 5666 "gMisc.ml" 150 5630 5669
+type(
+  'a Gtk.obj
+)
+"gMisc.ml" 150 5630 5647 "gMisc.ml" 150 5630 5669
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gMisc.ml" 151 5670 5690 "gMisc.ml" 151 5670 5706
+type(
+  'a Gtk.obj -> width:int -> height:int -> unit
+)
+ident(
+  ext_ref GtkMisc.DrawingArea.size
+)
+"gMisc.ml" 151 5670 5707 "gMisc.ml" 151 5670 5710
+type(
+  'a Gtk.obj
+)
+"gMisc.ml" 151 5670 5690 "gMisc.ml" 151 5670 5710
+call(
+  tail
+)
+type(
+  width:int -> height:int -> unit
+)
+type(
+  width:int -> height:int -> unit
+)
+"gMisc.ml" 154 5716 5720 "gMisc.ml" 154 5716 5732
+type(
+  ?width:int -> ?height:int -> [> `drawingarea ] Gtk.obj -> unit
+)
+ident(
+  def may_set_size "gMisc.ml" 157 5831 5831 --
+)
+"gMisc.ml" 154 5716 5735 "gMisc.ml" 154 5716 5740
+type(
+  int
+)
+"gMisc.ml" 154 5716 5741 "gMisc.ml" 154 5716 5742
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gMisc.ml" 154 5716 5741 "gMisc.ml" 154 5716 5742
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gMisc.ml" 154 5716 5741 "gMisc.ml" 154 5716 5742
+)
+"gMisc.ml" 154 5716 5746 "gMisc.ml" 154 5716 5752
+type(
+  int
+)
+"gMisc.ml" 154 5716 5753 "gMisc.ml" 154 5716 5754
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gMisc.ml" 154 5716 5753 "gMisc.ml" 154 5716 5754
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gMisc.ml" 154 5716 5753 "gMisc.ml" 154 5716 5754
+)
+"gMisc.ml" 154 5716 5756 "gMisc.ml" 154 5716 5757
+type(
+  ([> `drawingarea ] as 'a) Gtk.obj
+)
+ident(
+  def w "gMisc.ml" 155 5760 5762 "gMisc.ml" 155 5760 5829
+)
+"gMisc.ml" 155 5760 5765 "gMisc.ml" 155 5760 5770
+type(
+  int
+)
+ident(
+  int_ref width "gMisc.ml" 154 5716 5735 "gMisc.ml" 154 5716 5740
+)
+"gMisc.ml" 155 5760 5771 "gMisc.ml" 155 5760 5773
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gMisc.ml" 155 5760 5774 "gMisc.ml" 155 5760 5775
+type(
+  int
+)
+"gMisc.ml" 155 5760 5765 "gMisc.ml" 155 5760 5775
+type(
+  bool
+)
+"gMisc.ml" 155 5760 5776 "gMisc.ml" 155 5760 5778
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"gMisc.ml" 155 5760 5779 "gMisc.ml" 155 5760 5785
+type(
+  int
+)
+ident(
+  int_ref height "gMisc.ml" 154 5716 5746 "gMisc.ml" 154 5716 5752
+)
+"gMisc.ml" 155 5760 5786 "gMisc.ml" 155 5760 5788
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gMisc.ml" 155 5760 5789 "gMisc.ml" 155 5760 5790
+type(
+  int
+)
+"gMisc.ml" 155 5760 5779 "gMisc.ml" 155 5760 5790
+type(
+  bool
+)
+"gMisc.ml" 155 5760 5765 "gMisc.ml" 155 5760 5790
+type(
+  bool
+)
+"gMisc.ml" 155 5760 5796 "gMisc.ml" 155 5760 5812
+type(
+  'a Gtk.obj -> width:int -> height:int -> unit
+)
+ident(
+  ext_ref GtkMisc.DrawingArea.size
+)
+"gMisc.ml" 155 5760 5813 "gMisc.ml" 155 5760 5814
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref w "gMisc.ml" 154 5716 5756 "gMisc.ml" 154 5716 5757
+)
+"gMisc.ml" 155 5760 5816 "gMisc.ml" 155 5760 5821
+type(
+  int
+)
+ident(
+  int_ref width "gMisc.ml" 154 5716 5735 "gMisc.ml" 154 5716 5740
+)
+"gMisc.ml" 155 5760 5823 "gMisc.ml" 155 5760 5829
+type(
+  int
+)
+ident(
+  int_ref height "gMisc.ml" 154 5716 5746 "gMisc.ml" 154 5716 5752
+)
+"gMisc.ml" 155 5760 5796 "gMisc.ml" 155 5760 5829
+type(
+  unit
+)
+"gMisc.ml" 155 5760 5762 "gMisc.ml" 155 5760 5829
+type(
+  unit
+)
+"gMisc.ml" 157 5831 5835 "gMisc.ml" 157 5831 5847
+type(
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> drawing_area
+)
+ident(
+  def drawing_area "gMisc.ml" 162 6002 6002 --
+)
+"gMisc.ml" 157 5831 5849 "gMisc.ml" 157 5831 5854
+type(
+  int option
+)
+ident(
+  def width "gMisc.ml" 157 5831 5855 "gMisc.ml" 160 5951 6000
+)
+"gMisc.ml" 157 5831 5856 "gMisc.ml" 157 5831 5862
+type(
+  int option
+)
+ident(
+  def height "gMisc.ml" 157 5831 5863 "gMisc.ml" 160 5951 6000
+)
+"gMisc.ml" 157 5831 5864 "gMisc.ml" 157 5831 5871
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gMisc.ml" 157 5831 5872 "gMisc.ml" 160 5951 6000
+)
+"gMisc.ml" 157 5831 5873 "gMisc.ml" 157 5831 5877
+type(
+  bool option
+)
+ident(
+  def show "gMisc.ml" 157 5831 5878 "gMisc.ml" 160 5951 6000
+)
+"gMisc.ml" 157 5831 5878 "gMisc.ml" 157 5831 5880
+type(
+  unit
+)
+"gMisc.ml" 158 5883 5889 "gMisc.ml" 158 5883 5890
+type(
+  Gtk.drawing_area Gtk.obj
+)
+"gMisc.ml" 158 5883 5893 "gMisc.ml" 158 5883 5911
+type(
+  Gtk.drawing_area Gobject.param list -> Gtk.drawing_area Gtk.obj
+)
+ident(
+  ext_ref GtkMisc.DrawingArea.create
+)
+"gMisc.ml" 158 5883 5912 "gMisc.ml" 158 5883 5914
+type(
+  Gtk.drawing_area Gobject.param list
+)
+"gMisc.ml" 158 5883 5893 "gMisc.ml" 158 5883 5914
+call(
+  stack
+)
+type(
+  Gtk.drawing_area Gtk.obj
+)
+"gMisc.ml" 159 5918 5920 "gMisc.ml" 159 5918 5932
+type(
+  ?width:int -> ?height:int -> Gtk.drawing_area Gtk.obj -> unit
+)
+ident(
+  int_ref may_set_size "gMisc.ml" 154 5716 5720 "gMisc.ml" 154 5716 5732
+)
+"gMisc.ml" 159 5918 5933 "gMisc.ml" 159 5918 5934
+type(
+  Gtk.drawing_area Gtk.obj
+)
+ident(
+  int_ref w "gMisc.ml" 158 5883 5889 "gMisc.ml" 158 5883 5890
+)
+"gMisc.ml" 159 5918 5936 "gMisc.ml" 159 5918 5941
+type(
+  int option
+)
+ident(
+  int_ref width "gMisc.ml" 157 5831 5849 "gMisc.ml" 157 5831 5854
+)
+"gMisc.ml" 159 5918 5943 "gMisc.ml" 159 5918 5949
+type(
+  int option
+)
+ident(
+  int_ref height "gMisc.ml" 157 5831 5856 "gMisc.ml" 157 5831 5862
+)
+"gMisc.ml" 159 5918 5920 "gMisc.ml" 159 5918 5949
+call(
+  stack
+)
+type(
+  unit
+)
+"gMisc.ml" 160 5951 5953 "gMisc.ml" 160 5951 5964
+type(
+  drawing_area ->
+  packing:(GObj.widget -> unit) option -> show:bool option -> drawing_area
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gMisc.ml" 160 5951 5966 "gMisc.ml" 160 5951 5982
+type(
+  Gtk.drawing_area Gtk.obj -> drawing_area
+)
+"gMisc.ml" 160 5951 5983 "gMisc.ml" 160 5951 5984
+type(
+  Gtk.drawing_area Gtk.obj
+)
+ident(
+  int_ref w "gMisc.ml" 158 5883 5889 "gMisc.ml" 158 5883 5890
+)
+"gMisc.ml" 160 5951 5965 "gMisc.ml" 160 5951 5985
+call(
+  stack
+)
+type(
+  drawing_area
+)
+"gMisc.ml" 160 5951 5987 "gMisc.ml" 160 5951 5994
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gMisc.ml" 157 5831 5864 "gMisc.ml" 157 5831 5871
+)
+"gMisc.ml" 160 5951 5996 "gMisc.ml" 160 5951 6000
+type(
+  bool option
+)
+ident(
+  int_ref show "gMisc.ml" 157 5831 5873 "gMisc.ml" 157 5831 5877
+)
+"gMisc.ml" 160 5951 5953 "gMisc.ml" 160 5951 6000
+call(
+  tail
+)
+type(
+  drawing_area
+)
+"gMisc.ml" 159 5918 5920 "gMisc.ml" 160 5951 6000
+type(
+  drawing_area
+)
+"gMisc.ml" 158 5883 5885 "gMisc.ml" 160 5951 6000
+type(
+  drawing_area
+)
+"gMisc.ml" 162 6002 6014 "gMisc.ml" 162 6002 6017
+type(
+  Gtk.curve Gtk.obj
+)
+"gMisc.ml" 163 6027 6051 "gMisc.ml" 163 6027 6054
+type(
+  Gtk.curve Gtk.obj
+)
+type(
+  Gtk.curve Gtk.obj
+)
+ident(
+  int_ref obj "gMisc.ml" 162 6002 6014 "gMisc.ml" 162 6002 6017
+)
+"gMisc.ml" 165 6094 6109 "gMisc.ml" 165 6094 6111
+type(
+  unit
+)
+"gMisc.ml" 165 6094 6114 "gMisc.ml" 165 6094 6125
+type(
+  Gtk.curve Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMisc.Curve.reset
+)
+"gMisc.ml" 165 6094 6126 "gMisc.ml" 165 6094 6129
+type(
+  Gtk.curve Gtk.obj
+)
+"gMisc.ml" 165 6094 6114 "gMisc.ml" 165 6094 6129
+type(
+  unit
+)
+"gMisc.ml" 166 6130 6151 "gMisc.ml" 166 6130 6166
+type(
+  Gtk.curve Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref GtkMisc.Curve.set_gamma
+)
+"gMisc.ml" 166 6130 6167 "gMisc.ml" 166 6130 6170
+type(
+  Gtk.curve Gtk.obj
+)
+"gMisc.ml" 166 6130 6151 "gMisc.ml" 166 6130 6170
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gMisc.ml" 167 6171 6193 "gMisc.ml" 167 6171 6209
+type(
+  Gtk.curve Gtk.obj -> float array -> unit
+)
+ident(
+  ext_ref GtkMisc.Curve.set_vector
+)
+"gMisc.ml" 167 6171 6210 "gMisc.ml" 167 6171 6213
+type(
+  Gtk.curve Gtk.obj
+)
+"gMisc.ml" 167 6171 6193 "gMisc.ml" 167 6171 6213
+call(
+  tail
+)
+type(
+  float array -> unit
+)
+type(
+  float array -> unit
+)
+"gMisc.ml" 168 6214 6236 "gMisc.ml" 168 6214 6252
+type(
+  Gtk.curve Gtk.obj -> int -> float array
+)
+ident(
+  ext_ref GtkMisc.Curve.get_vector
+)
+"gMisc.ml" 168 6214 6253 "gMisc.ml" 168 6214 6256
+type(
+  Gtk.curve Gtk.obj
+)
+"gMisc.ml" 168 6214 6236 "gMisc.ml" 168 6214 6256
+call(
+  tail
+)
+type(
+  int -> float array
+)
+type(
+  int -> float array
+)
+"gMisc.ml" 171 6262 6266 "gMisc.ml" 171 6262 6271
+type(
+  ?width:int ->
+  ?height:int ->
+  ?curve_type:GtkEnums.curve_type ->
+  ?max_x:float ->
+  ?max_y:float ->
+  ?min_x:float ->
+  ?min_y:float ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> curve
+)
+ident(
+  def curve "gMisc.ml" 177 6460 6460 --
+)
+"gMisc.ml" 171 6262 6273 "gMisc.ml" 171 6262 6278
+type(
+  int option
+)
+ident(
+  def width "gMisc.ml" 171 6262 6279 "gMisc.ml" 175 6413 6458
+)
+"gMisc.ml" 171 6262 6280 "gMisc.ml" 171 6262 6286
+type(
+  int option
+)
+ident(
+  def height "gMisc.ml" 172 6289 6291 "gMisc.ml" 175 6413 6458
+)
+"gMisc.ml" 172 6289 6291 "gMisc.ml" 172 6289 6308
+type(
+  cont:(Gtk.curve Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> curve) ->
+  Gtk.curve Gobject.param list ->
+  ?curve_type:GtkEnums.curve_type ->
+  ?max_x:float ->
+  ?max_y:float ->
+  ?min_x:float ->
+  ?min_y:float ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> curve
+)
+ident(
+  ext_ref GtkMisc.Curve.make_params
+)
+"gMisc.ml" 172 6289 6309 "gMisc.ml" 172 6289 6311
+type(
+  Gtk.curve Gobject.param list
+)
+"gMisc.ml" 172 6289 6323 "gMisc.ml" 172 6289 6325
+type(
+  Gtk.curve Gobject.param list
+)
+ident(
+  def pl "gMisc.ml" 172 6289 6326 "gMisc.ml" 175 6413 6457
+)
+"gMisc.ml" 172 6289 6327 "gMisc.ml" 172 6289 6334
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gMisc.ml" 172 6289 6335 "gMisc.ml" 175 6413 6457
+)
+"gMisc.ml" 172 6289 6336 "gMisc.ml" 172 6289 6340
+type(
+  bool option
+)
+ident(
+  def show "gMisc.ml" 172 6289 6341 "gMisc.ml" 175 6413 6457
+)
+"gMisc.ml" 172 6289 6341 "gMisc.ml" 172 6289 6343
+type(
+  unit
+)
+"gMisc.ml" 173 6347 6355 "gMisc.ml" 173 6347 6356
+type(
+  Gtk.curve Gtk.obj
+)
+"gMisc.ml" 173 6347 6359 "gMisc.ml" 173 6347 6371
+type(
+  Gtk.curve Gobject.param list -> Gtk.curve Gtk.obj
+)
+ident(
+  ext_ref GtkMisc.Curve.create
+)
+"gMisc.ml" 173 6347 6372 "gMisc.ml" 173 6347 6374
+type(
+  Gtk.curve Gobject.param list
+)
+ident(
+  int_ref pl "gMisc.ml" 172 6289 6323 "gMisc.ml" 172 6289 6325
+)
+"gMisc.ml" 173 6347 6359 "gMisc.ml" 173 6347 6374
+call(
+  stack
+)
+type(
+  Gtk.curve Gtk.obj
+)
+"gMisc.ml" 174 6378 6382 "gMisc.ml" 174 6378 6394
+type(
+  ?width:int -> ?height:int -> Gtk.curve Gtk.obj -> unit
+)
+ident(
+  int_ref may_set_size "gMisc.ml" 154 5716 5720 "gMisc.ml" 154 5716 5732
+)
+"gMisc.ml" 174 6378 6395 "gMisc.ml" 174 6378 6396
+type(
+  Gtk.curve Gtk.obj
+)
+ident(
+  int_ref w "gMisc.ml" 173 6347 6355 "gMisc.ml" 173 6347 6356
+)
+"gMisc.ml" 174 6378 6398 "gMisc.ml" 174 6378 6403
+type(
+  int option
+)
+ident(
+  int_ref width "gMisc.ml" 171 6262 6273 "gMisc.ml" 171 6262 6278
+)
+"gMisc.ml" 174 6378 6405 "gMisc.ml" 174 6378 6411
+type(
+  int option
+)
+ident(
+  int_ref height "gMisc.ml" 171 6262 6280 "gMisc.ml" 171 6262 6286
+)
+"gMisc.ml" 174 6378 6382 "gMisc.ml" 174 6378 6411
+call(
+  stack
+)
+type(
+  unit
+)
+"gMisc.ml" 175 6413 6417 "gMisc.ml" 175 6413 6428
+type(
+  curve -> packing:(GObj.widget -> unit) option -> show:bool option -> curve
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gMisc.ml" 175 6413 6430 "gMisc.ml" 175 6413 6439
+type(
+  Gtk.curve Gtk.obj -> curve
+)
+"gMisc.ml" 175 6413 6440 "gMisc.ml" 175 6413 6441
+type(
+  Gtk.curve Gtk.obj
+)
+ident(
+  int_ref w "gMisc.ml" 173 6347 6355 "gMisc.ml" 173 6347 6356
+)
+"gMisc.ml" 175 6413 6429 "gMisc.ml" 175 6413 6442
+call(
+  stack
+)
+type(
+  curve
+)
+"gMisc.ml" 175 6413 6444 "gMisc.ml" 175 6413 6451
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gMisc.ml" 172 6289 6327 "gMisc.ml" 172 6289 6334
+)
+"gMisc.ml" 175 6413 6453 "gMisc.ml" 175 6413 6457
+type(
+  bool option
+)
+ident(
+  int_ref show "gMisc.ml" 172 6289 6336 "gMisc.ml" 172 6289 6340
+)
+"gMisc.ml" 175 6413 6417 "gMisc.ml" 175 6413 6457
+call(
+  tail
+)
+type(
+  curve
+)
+"gMisc.ml" 174 6378 6382 "gMisc.ml" 175 6413 6457
+type(
+  curve
+)
+"gMisc.ml" 173 6347 6351 "gMisc.ml" 175 6413 6457
+type(
+  curve
+)
+"gMisc.ml" 172 6289 6318 "gMisc.ml" 175 6413 6458
+type(
+  Gtk.curve Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> curve
+)
+"gMisc.ml" 172 6289 6291 "gMisc.ml" 175 6413 6458
+call(
+  tail
+)
+type(
+  ?curve_type:GtkEnums.curve_type ->
+  ?max_x:float ->
+  ?max_y:float ->
+  ?min_x:float ->
+  ?min_y:float ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> curve
+)
+"gMisc.ml" 177 6460 6471 "gMisc.ml" 177 6460 6474
+type(
+  [> `gtk | `misc | `widget ] Gtk.obj
+)
+"gMisc.ml" 178 6484 6511 "gMisc.ml" 178 6484 6514
+type(
+  ([> `gtk | `misc | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gMisc.ml" 177 6460 6471 "gMisc.ml" 177 6460 6474
+)
+"gMisc.ml" 182 6541 6553 "gMisc.ml" 182 6541 6556
+type(
+  [> `arrow | `gtk | `misc | `widget ] Gtk.obj
+)
+"gMisc.ml" 183 6566 6581 "gMisc.ml" 183 6566 6584
+type(
+  ([> `arrow | `gtk | `misc | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gMisc.ml" 182 6541 6553 "gMisc.ml" 182 6541 6556
+)
+"gMisc.ml" 187 6612 6616 "gMisc.ml" 187 6612 6621
+type(
+  ?kind:GtkEnums.arrow_type ->
+  ?shadow:GtkEnums.shadow_type ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> arrow
+)
+ident(
+  def arrow "gMisc.ml" 192 6770 6770 --
+)
+"gMisc.ml" 188 6624 6626 "gMisc.ml" 188 6624 6643
+type(
+  cont:(Gtk.arrow Gobject.param list ->
+        ?xalign:float ->
+        ?yalign:float ->
+        ?xpad:int ->
+        ?ypad:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> arrow) ->
+  Gtk.arrow Gobject.param list ->
+  ?kind:GtkEnums.arrow_type ->
+  ?shadow:GtkEnums.shadow_type ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> arrow
+)
+ident(
+  ext_ref GtkMisc.Arrow.make_params
+)
+"gMisc.ml" 188 6624 6644 "gMisc.ml" 188 6624 6646
+type(
+  Gtk.arrow Gobject.param list
+)
+"gMisc.ml" 189 6655 6657 "gMisc.ml" 189 6655 6672
+type(
+  cont:(Gtk.arrow Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> arrow) ->
+  Gtk.arrow Gobject.param list ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> arrow
+)
+ident(
+  ext_ref GtkMisc.Misc.all_params
+)
+"gMisc.ml" 189 6655 6684 "gMisc.ml" 189 6655 6685
+type(
+  Gtk.arrow Gobject.param list
+)
+ident(
+  def p "gMisc.ml" 189 6655 6686 "gMisc.ml" 190 6707 6766
+)
+"gMisc.ml" 189 6655 6687 "gMisc.ml" 189 6655 6694
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gMisc.ml" 189 6655 6695 "gMisc.ml" 190 6707 6766
+)
+"gMisc.ml" 189 6655 6696 "gMisc.ml" 189 6655 6700
+type(
+  bool option
+)
+ident(
+  def show "gMisc.ml" 189 6655 6701 "gMisc.ml" 190 6707 6766
+)
+"gMisc.ml" 189 6655 6701 "gMisc.ml" 189 6655 6703
+type(
+  unit
+)
+"gMisc.ml" 190 6707 6711 "gMisc.ml" 190 6707 6722
+type(
+  arrow -> packing:(GObj.widget -> unit) option -> show:bool option -> arrow
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gMisc.ml" 190 6707 6724 "gMisc.ml" 190 6707 6733
+type(
+  Gtk.arrow Gtk.obj -> arrow
+)
+"gMisc.ml" 190 6707 6735 "gMisc.ml" 190 6707 6747
+type(
+  Gtk.arrow Gobject.param list -> Gtk.arrow Gtk.obj
+)
+ident(
+  ext_ref GtkMisc.Arrow.create
+)
+"gMisc.ml" 190 6707 6748 "gMisc.ml" 190 6707 6749
+type(
+  Gtk.arrow Gobject.param list
+)
+ident(
+  int_ref p "gMisc.ml" 189 6655 6684 "gMisc.ml" 189 6655 6685
+)
+"gMisc.ml" 190 6707 6734 "gMisc.ml" 190 6707 6750
+call(
+  stack
+)
+type(
+  Gtk.arrow Gtk.obj
+)
+"gMisc.ml" 190 6707 6723 "gMisc.ml" 190 6707 6751
+call(
+  stack
+)
+type(
+  arrow
+)
+"gMisc.ml" 190 6707 6753 "gMisc.ml" 190 6707 6760
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gMisc.ml" 189 6655 6687 "gMisc.ml" 189 6655 6694
+)
+"gMisc.ml" 190 6707 6762 "gMisc.ml" 190 6707 6766
+type(
+  bool option
+)
+ident(
+  int_ref show "gMisc.ml" 189 6655 6696 "gMisc.ml" 189 6655 6700
+)
+"gMisc.ml" 190 6707 6711 "gMisc.ml" 190 6707 6766
+call(
+  tail
+)
+type(
+  arrow
+)
+"gMisc.ml" 189 6655 6679 "gMisc.ml" 190 6707 6767
+type(
+  Gtk.arrow Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> arrow
+)
+"gMisc.ml" 188 6624 6653 "gMisc.ml" 190 6707 6768
+call(
+  stack
+)
+type(
+  Gtk.arrow Gobject.param list ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> arrow
+)
+"gMisc.ml" 188 6624 6626 "gMisc.ml" 190 6707 6768
+call(
+  stack
+)
+type(
+  ?kind:GtkEnums.arrow_type ->
+  ?shadow:GtkEnums.shadow_type ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> arrow
+)
+"gMisc.ml" 192 6770 6782 "gMisc.ml" 192 6770 6785
+type(
+  [> `gtk | `image | `misc | `widget ] Gtk.obj
+)
+"gMisc.ml" 192 6770 6795 "gMisc.ml" 192 6770 6801
+type(
+  < as_widget : Gtk.widget Gtk.obj; clear : unit -> unit;
+    coerce : GObj.widget; destroy : unit -> unit; drag : GObj.drag_ops;
+    get_oid : int; icon_set : Gtk.icon_set; icon_size : GtkEnums.icon_size;
+    image : Gdk.image; mask : Gdk.bitmap option; misc : GObj.misc_ops;
+    pixbuf : GdkPixbuf.pixbuf; pixel_size : int; pixmap : GDraw.pixmap;
+    set_file : string -> unit; set_icon_set : Gtk.icon_set -> unit;
+    set_icon_size : GtkEnums.icon_size -> unit;
+    set_image : Gdk.image -> unit; set_mask : Gdk.bitmap option -> unit;
+    set_pixbuf : GdkPixbuf.pixbuf -> unit; set_pixel_size : int -> unit;
+    set_pixmap : GDraw.pixmap -> unit; set_stock : GtkStock.id -> unit;
+    set_xalign : float -> unit; set_xpad : int -> unit;
+    set_yalign : float -> unit; set_ypad : int -> unit; stock : GtkStock.id;
+    storage_type : GtkEnums.image_type; xalign : float; xpad : int;
+    yalign : float; ypad : int; .. >
+)
+"gMisc.ml" 193 6802 6817 "gMisc.ml" 193 6802 6820
+type(
+  ([> `gtk | `image | `misc | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gMisc.ml" 192 6770 6782 "gMisc.ml" 192 6770 6785
+)
+"gMisc.ml" 195 6843 6861 "gMisc.ml" 195 6843 6877
+type(
+  ?colormap:Gdk.colormap -> ?mask:Gdk.bitmap -> Gdk.pixmap -> GDraw.pixmap
+)
+"gMisc.ml" 195 6843 6879 "gMisc.ml" 195 6843 6882
+type(
+  ('a, Gdk.pixmap) Gobject.property -> 'a Gtk.obj -> Gdk.pixmap
+)
+ident(
+  ext_ref OgtkMiscProps.get
+)
+"gMisc.ml" 195 6843 6883 "gMisc.ml" 195 6843 6897
+type(
+  ('a, Gdk.pixmap) Gobject.property
+)
+ident(
+  ext_ref GtkMisc.Image.P.pixmap
+)
+"gMisc.ml" 195 6843 6898 "gMisc.ml" 195 6843 6901
+type(
+  'a Gtk.obj
+)
+"gMisc.ml" 195 6843 6878 "gMisc.ml" 195 6843 6902
+call(
+  stack
+)
+type(
+  Gdk.pixmap
+)
+"gMisc.ml" 195 6843 6909 "gMisc.ml" 195 6843 6913
+type(
+  < as_widget : Gtk.widget Gtk.obj; clear : unit -> unit;
+    coerce : GObj.widget; destroy : unit -> unit; drag : GObj.drag_ops;
+    get_oid : int; icon_set : Gtk.icon_set; icon_size : GtkEnums.icon_size;
+    image : Gdk.image; mask : Gdk.bitmap option; misc : GObj.misc_ops;
+    pixbuf : GdkPixbuf.pixbuf; pixel_size : int; pixmap : GDraw.pixmap;
+    set_file : string -> unit; set_icon_set : Gtk.icon_set -> unit;
+    set_icon_size : GtkEnums.icon_size -> unit;
+    set_image : Gdk.image -> unit; set_mask : Gdk.bitmap option -> unit;
+    set_pixbuf : GdkPixbuf.pixbuf -> unit; set_pixel_size : int -> unit;
+    set_pixmap : GDraw.pixmap -> unit; set_stock : GtkStock.id -> unit;
+    set_xalign : float -> unit; set_xpad : int -> unit;
+    set_yalign : float -> unit; set_ypad : int -> unit; stock : GtkStock.id;
+    storage_type : GtkEnums.image_type; xalign : float; xpad : int;
+    yalign : float; ypad : int; .. >
+  as 'b
+)
+"gMisc.ml" 195 6843 6909 "gMisc.ml" 195 6843 6918
+call(
+  stack
+)
+type(
+  Gdk.bitmap option
+)
+"gMisc.ml" 195 6843 6861 "gMisc.ml" 195 6843 6918
+call(
+  tail
+)
+type(
+  GDraw.pixmap
+)
+type(
+  GDraw.pixmap
+)
+"gMisc.ml" 196 6919 6940 "gMisc.ml" 196 6919 6941
+type(
+  GDraw.pixmap
+)
+ident(
+  def p "gMisc.ml" 197 6960 6964 "gMisc.ml" 198 6997 7021
+)
+"gMisc.ml" 197 6960 6964 "gMisc.ml" 197 6960 6967
+type(
+  ('a, Gdk.pixmap) Gobject.property -> 'a Gtk.obj -> Gdk.pixmap -> unit
+)
+ident(
+  ext_ref OgtkMiscProps.set
+)
+"gMisc.ml" 197 6960 6968 "gMisc.ml" 197 6960 6982
+type(
+  ('a, Gdk.pixmap) Gobject.property
+)
+ident(
+  ext_ref GtkMisc.Image.P.pixmap
+)
+"gMisc.ml" 197 6960 6983 "gMisc.ml" 197 6960 6986
+type(
+  'a Gtk.obj
+)
+"gMisc.ml" 197 6960 6987 "gMisc.ml" 197 6960 6988
+type(
+  GDraw.pixmap
+)
+ident(
+  int_ref p "gMisc.ml" 196 6919 6940 "gMisc.ml" 196 6919 6941
+)
+"gMisc.ml" 197 6960 6987 "gMisc.ml" 197 6960 6995
+call(
+  stack
+)
+type(
+  Gdk.pixmap
+)
+"gMisc.ml" 197 6960 6964 "gMisc.ml" 197 6960 6995
+call(
+  stack
+)
+type(
+  unit
+)
+"gMisc.ml" 198 6997 7001 "gMisc.ml" 198 6997 7005
+type(
+  'b
+)
+"gMisc.ml" 198 6997 7001 "gMisc.ml" 198 6997 7014
+call(
+  tail
+)
+type(
+  Gdk.bitmap option -> unit
+)
+"gMisc.ml" 198 6997 7015 "gMisc.ml" 198 6997 7016
+type(
+  GDraw.pixmap
+)
+ident(
+  int_ref p "gMisc.ml" 196 6919 6940 "gMisc.ml" 196 6919 6941
+)
+"gMisc.ml" 198 6997 7015 "gMisc.ml" 198 6997 7021
+call(
+  stack
+)
+type(
+  Gdk.bitmap option
+)
+"gMisc.ml" 198 6997 7001 "gMisc.ml" 198 6997 7021
+type(
+  unit
+)
+"gMisc.ml" 197 6960 6964 "gMisc.ml" 198 6997 7021
+type(
+  unit
+)
+"gMisc.ml" 199 7022 7037 "gMisc.ml" 199 7022 7039
+type(
+  unit
+)
+"gMisc.ml" 199 7022 7042 "gMisc.ml" 199 7022 7053
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMisc.Image.clear
+)
+"gMisc.ml" 199 7022 7054 "gMisc.ml" 199 7022 7057
+type(
+  'a Gtk.obj
+)
+"gMisc.ml" 199 7022 7042 "gMisc.ml" 199 7022 7057
+type(
+  unit
+)
+"gMisc.ml" 205 7158 7162 "gMisc.ml" 205 7158 7167
+type(
+  ?file:string ->
+  ?image:Gdk.image ->
+  ?pixbuf:GdkPixbuf.pixbuf ->
+  ?pixel_size:int ->
+  ?pixmap:Gdk.pixmap ->
+  ?mask:Gdk.bitmap ->
+  ?stock:GtkStock.id ->
+  ?icon_set:Gtk.icon_set ->
+  ?icon_size:GtkEnums.icon_size ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> image
+)
+ident(
+  def image "gMisc.ml" 210 7316 7316 --
+)
+"gMisc.ml" 206 7170 7172 "gMisc.ml" 206 7170 7189
+type(
+  cont:(Gtk.image Gobject.param list ->
+        ?xalign:float ->
+        ?yalign:float ->
+        ?xpad:int ->
+        ?ypad:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> image) ->
+  Gtk.image Gobject.param list ->
+  ?file:string ->
+  ?image:Gdk.image ->
+  ?pixbuf:GdkPixbuf.pixbuf ->
+  ?pixel_size:int ->
+  ?pixmap:Gdk.pixmap ->
+  ?mask:Gdk.bitmap ->
+  ?stock:GtkStock.id ->
+  ?icon_set:Gtk.icon_set ->
+  ?icon_size:GtkEnums.icon_size ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> image
+)
+ident(
+  ext_ref GtkMisc.Image.make_params
+)
+"gMisc.ml" 206 7170 7190 "gMisc.ml" 206 7170 7192
+type(
+  Gtk.image Gobject.param list
+)
+"gMisc.ml" 207 7201 7203 "gMisc.ml" 207 7201 7218
+type(
+  cont:(Gtk.image Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> image) ->
+  Gtk.image Gobject.param list ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> image
+)
+ident(
+  ext_ref GtkMisc.Misc.all_params
+)
+"gMisc.ml" 207 7201 7230 "gMisc.ml" 207 7201 7231
+type(
+  Gtk.image Gobject.param list
+)
+ident(
+  def p "gMisc.ml" 207 7201 7232 "gMisc.ml" 208 7253 7312
+)
+"gMisc.ml" 207 7201 7233 "gMisc.ml" 207 7201 7240
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gMisc.ml" 207 7201 7241 "gMisc.ml" 208 7253 7312
+)
+"gMisc.ml" 207 7201 7242 "gMisc.ml" 207 7201 7246
+type(
+  bool option
+)
+ident(
+  def show "gMisc.ml" 207 7201 7247 "gMisc.ml" 208 7253 7312
+)
+"gMisc.ml" 207 7201 7247 "gMisc.ml" 207 7201 7249
+type(
+  unit
+)
+"gMisc.ml" 208 7253 7257 "gMisc.ml" 208 7253 7268
+type(
+  image -> packing:(GObj.widget -> unit) option -> show:bool option -> image
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gMisc.ml" 208 7253 7270 "gMisc.ml" 208 7253 7279
+type(
+  Gtk.image Gtk.obj -> image
+)
+"gMisc.ml" 208 7253 7281 "gMisc.ml" 208 7253 7293
+type(
+  Gtk.image Gobject.param list -> Gtk.image Gtk.obj
+)
+ident(
+  ext_ref GtkMisc.Image.create
+)
+"gMisc.ml" 208 7253 7294 "gMisc.ml" 208 7253 7295
+type(
+  Gtk.image Gobject.param list
+)
+ident(
+  int_ref p "gMisc.ml" 207 7201 7230 "gMisc.ml" 207 7201 7231
+)
+"gMisc.ml" 208 7253 7280 "gMisc.ml" 208 7253 7296
+call(
+  stack
+)
+type(
+  Gtk.image Gtk.obj
+)
+"gMisc.ml" 208 7253 7269 "gMisc.ml" 208 7253 7297
+call(
+  stack
+)
+type(
+  image
+)
+"gMisc.ml" 208 7253 7299 "gMisc.ml" 208 7253 7306
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gMisc.ml" 207 7201 7233 "gMisc.ml" 207 7201 7240
+)
+"gMisc.ml" 208 7253 7308 "gMisc.ml" 208 7253 7312
+type(
+  bool option
+)
+ident(
+  int_ref show "gMisc.ml" 207 7201 7242 "gMisc.ml" 207 7201 7246
+)
+"gMisc.ml" 208 7253 7257 "gMisc.ml" 208 7253 7312
+call(
+  tail
+)
+type(
+  image
+)
+"gMisc.ml" 207 7201 7225 "gMisc.ml" 208 7253 7313
+type(
+  Gtk.image Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> image
+)
+"gMisc.ml" 206 7170 7199 "gMisc.ml" 208 7253 7314
+call(
+  stack
+)
+type(
+  Gtk.image Gobject.param list ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> image
+)
+"gMisc.ml" 206 7170 7172 "gMisc.ml" 208 7253 7314
+call(
+  stack
+)
+type(
+  ?file:string ->
+  ?image:Gdk.image ->
+  ?pixbuf:GdkPixbuf.pixbuf ->
+  ?pixel_size:int ->
+  ?pixmap:Gdk.pixmap ->
+  ?mask:Gdk.bitmap ->
+  ?stock:GtkStock.id ->
+  ?icon_set:Gtk.icon_set ->
+  ?icon_size:GtkEnums.icon_size ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> image
+)
+"gMisc.ml" 210 7316 7320 "gMisc.ml" 210 7316 7326
+type(
+  < mask : Gdk.bitmap option; pixmap : Gdk.pixmap; .. > ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> image
+)
+ident(
+  def pixmap "gMisc.ml" 215 7526 7526 --
+)
+"gMisc.ml" 210 7316 7327 "gMisc.ml" 210 7316 7329
+type(
+  < mask : Gdk.bitmap option; pixmap : Gdk.pixmap; .. > as 'a
+)
+ident(
+  def pm "gMisc.ml" 211 7332 7334 "gMisc.ml" 213 7463 7524
+)
+"gMisc.ml" 211 7332 7338 "gMisc.ml" 211 7332 7340
+type(
+  [> `image ] Gobject.param list
+)
+"gMisc.ml" 211 7332 7344 "gMisc.ml" 211 7332 7349
+type(
+  ([> `image ] as 'b, Gdk.pixmap) Gobject.property ->
+  Gdk.pixmap -> 'b Gobject.param
+)
+ident(
+  ext_ref OgtkMiscProps.param
+)
+"gMisc.ml" 211 7332 7350 "gMisc.ml" 211 7332 7364
+type(
+  ('b, Gdk.pixmap) Gobject.property
+)
+ident(
+  ext_ref GtkMisc.Image.P.pixmap
+)
+"gMisc.ml" 211 7332 7365 "gMisc.ml" 211 7332 7367
+type(
+  'a
+)
+ident(
+  int_ref pm "gMisc.ml" 210 7316 7327 "gMisc.ml" 210 7316 7329
+)
+"gMisc.ml" 211 7332 7365 "gMisc.ml" 211 7332 7374
+call(
+  stack
+)
+type(
+  Gdk.pixmap
+)
+"gMisc.ml" 211 7332 7344 "gMisc.ml" 211 7332 7374
+call(
+  stack
+)
+type(
+  'b Gobject.param
+)
+"gMisc.ml" 211 7332 7376 "gMisc.ml" 211 7332 7381
+type(
+  ('b, Gdk.bitmap option) Gobject.property ->
+  Gdk.bitmap option -> 'b Gobject.param
+)
+ident(
+  ext_ref OgtkMiscProps.param
+)
+"gMisc.ml" 211 7332 7382 "gMisc.ml" 211 7332 7394
+type(
+  ('b, Gdk.bitmap option) Gobject.property
+)
+ident(
+  ext_ref GtkMisc.Image.P.mask
+)
+"gMisc.ml" 211 7332 7395 "gMisc.ml" 211 7332 7397
+type(
+  'a
+)
+ident(
+  int_ref pm "gMisc.ml" 210 7316 7327 "gMisc.ml" 210 7316 7329
+)
+"gMisc.ml" 211 7332 7395 "gMisc.ml" 211 7332 7402
+call(
+  stack
+)
+type(
+  Gdk.bitmap option
+)
+"gMisc.ml" 211 7332 7376 "gMisc.ml" 211 7332 7402
+call(
+  stack
+)
+type(
+  'b Gobject.param
+)
+"gMisc.ml" 211 7332 7343 "gMisc.ml" 211 7332 7403
+type(
+  'b Gobject.param list
+)
+"gMisc.ml" 212 7407 7409 "gMisc.ml" 212 7407 7424
+type(
+  cont:(Gtk.image Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> image) ->
+  Gtk.image Gobject.param list ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> image
+)
+ident(
+  ext_ref GtkMisc.Misc.all_params
+)
+"gMisc.ml" 212 7407 7425 "gMisc.ml" 212 7407 7427
+type(
+  Gtk.image Gobject.param list
+)
+ident(
+  int_ref pl "gMisc.ml" 211 7332 7338 "gMisc.ml" 211 7332 7340
+)
+"gMisc.ml" 212 7407 7439 "gMisc.ml" 212 7407 7441
+type(
+  Gtk.image Gobject.param list
+)
+ident(
+  def pl "gMisc.ml" 212 7407 7442 "gMisc.ml" 213 7463 7523
+)
+"gMisc.ml" 212 7407 7443 "gMisc.ml" 212 7407 7450
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gMisc.ml" 212 7407 7451 "gMisc.ml" 213 7463 7523
+)
+"gMisc.ml" 212 7407 7452 "gMisc.ml" 212 7407 7456
+type(
+  bool option
+)
+ident(
+  def show "gMisc.ml" 212 7407 7457 "gMisc.ml" 213 7463 7523
+)
+"gMisc.ml" 212 7407 7457 "gMisc.ml" 212 7407 7459
+type(
+  unit
+)
+"gMisc.ml" 213 7463 7467 "gMisc.ml" 213 7463 7478
+type(
+  image -> packing:(GObj.widget -> unit) option -> show:bool option -> image
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gMisc.ml" 213 7463 7480 "gMisc.ml" 213 7463 7489
+type(
+  Gtk.image Gtk.obj -> image
+)
+"gMisc.ml" 213 7463 7491 "gMisc.ml" 213 7463 7503
+type(
+  Gtk.image Gobject.param list -> Gtk.image Gtk.obj
+)
+ident(
+  ext_ref GtkMisc.Image.create
+)
+"gMisc.ml" 213 7463 7504 "gMisc.ml" 213 7463 7506
+type(
+  Gtk.image Gobject.param list
+)
+ident(
+  int_ref pl "gMisc.ml" 212 7407 7439 "gMisc.ml" 212 7407 7441
+)
+"gMisc.ml" 213 7463 7490 "gMisc.ml" 213 7463 7507
+call(
+  stack
+)
+type(
+  Gtk.image Gtk.obj
+)
+"gMisc.ml" 213 7463 7479 "gMisc.ml" 213 7463 7508
+call(
+  stack
+)
+type(
+  image
+)
+"gMisc.ml" 213 7463 7510 "gMisc.ml" 213 7463 7517
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gMisc.ml" 212 7407 7443 "gMisc.ml" 212 7407 7450
+)
+"gMisc.ml" 213 7463 7519 "gMisc.ml" 213 7463 7523
+type(
+  bool option
+)
+ident(
+  int_ref show "gMisc.ml" 212 7407 7452 "gMisc.ml" 212 7407 7456
+)
+"gMisc.ml" 213 7463 7467 "gMisc.ml" 213 7463 7523
+call(
+  tail
+)
+type(
+  image
+)
+"gMisc.ml" 212 7407 7434 "gMisc.ml" 213 7463 7524
+type(
+  Gtk.image Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> image
+)
+"gMisc.ml" 212 7407 7409 "gMisc.ml" 213 7463 7524
+call(
+  tail
+)
+type(
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> image
+)
+"gMisc.ml" 211 7332 7334 "gMisc.ml" 213 7463 7524
+type(
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> image
+)
+"gMisc.ml" 215 7526 7543 "gMisc.ml" 215 7526 7546
+type(
+  [> `gtk | `label | `misc | `widget ] Gtk.obj
+)
+"gMisc.ml" 215 7526 7555 "gMisc.ml" 215 7526 7561
+type(
+  < angle : float; as_widget : Gtk.widget Gtk.obj; coerce : GObj.widget;
+    cursor_position : int; destroy : unit -> unit; drag : GObj.drag_ops;
+    ellipsize : PangoEnums.ellipsize_mode; get_oid : int;
+    justify : GtkEnums.justification; label : string; line_wrap : bool;
+    max_width_chars : int; misc : GObj.misc_ops; mnemonic_keyval : int;
+    mnemonic_widget : GObj.widget option; select_region : int -> int -> unit;
+    selectable : bool; selection_bound : int;
+    selection_bounds : (int * int) option; set_angle : float -> unit;
+    set_ellipsize : PangoEnums.ellipsize_mode -> unit;
+    set_justify : GtkEnums.justification -> unit; set_label : string -> unit;
+    set_line_wrap : bool -> unit; set_max_width_chars : int -> unit;
+    set_mnemonic_widget : GObj.widget option -> unit;
+    set_pattern : string -> unit; set_selectable : bool -> unit;
+    set_single_line_mode : bool -> unit; set_text : string -> unit;
+    set_use_markup : bool -> unit; set_use_underline : bool -> unit;
+    set_width_chars : int -> unit; set_xalign : float -> unit;
+    set_xpad : int -> unit; set_yalign : float -> unit;
+    set_ypad : int -> unit; single_line_mode : bool; text : string;
+    use_markup : bool; use_underline : bool; width_chars : int;
+    xalign : float; xpad : int; yalign : float; ypad : int; .. >
+)
+"gMisc.ml" 216 7562 7577 "gMisc.ml" 216 7562 7580
+type(
+  ([> `gtk | `label | `misc | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gMisc.ml" 215 7526 7543 "gMisc.ml" 215 7526 7546
+)
+"gMisc.ml" 218 7603 7619 "gMisc.ml" 218 7603 7646
+type(
+  'a Gtk.obj -> string
+)
+ident(
+  ext_ref GtkMiscProps.Label.get_text
+)
+"gMisc.ml" 218 7603 7647 "gMisc.ml" 218 7603 7650
+type(
+  'a Gtk.obj
+)
+"gMisc.ml" 218 7603 7619 "gMisc.ml" 218 7603 7650
+type(
+  string
+)
+type(
+  string
+)
+"gMisc.ml" 219 7651 7671 "gMisc.ml" 219 7651 7698
+type(
+  'a Gtk.obj -> string -> unit
+)
+ident(
+  ext_ref GtkMiscProps.Label.set_text
+)
+"gMisc.ml" 219 7651 7699 "gMisc.ml" 219 7651 7702
+type(
+  'a Gtk.obj
+)
+"gMisc.ml" 219 7651 7671 "gMisc.ml" 219 7651 7702
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"gMisc.ml" 220 7703 7731 "gMisc.ml" 220 7703 7770
+type(
+  'a Gtk.obj -> (int * int) option
+)
+ident(
+  ext_ref GtkMiscProps.Label.get_selection_bounds
+)
+"gMisc.ml" 220 7703 7771 "gMisc.ml" 220 7703 7774
+type(
+  'a Gtk.obj
+)
+"gMisc.ml" 220 7703 7731 "gMisc.ml" 220 7703 7774
+type(
+  (int * int) option
+)
+type(
+  (int * int) option
+)
+"gMisc.ml" 221 7775 7800 "gMisc.ml" 221 7775 7832
+type(
+  'a Gtk.obj -> int -> int -> unit
+)
+ident(
+  ext_ref GtkMiscProps.Label.select_region
+)
+"gMisc.ml" 221 7775 7833 "gMisc.ml" 221 7775 7836
+type(
+  'a Gtk.obj
+)
+"gMisc.ml" 221 7775 7800 "gMisc.ml" 221 7775 7836
+call(
+  tail
+)
+type(
+  int -> int -> unit
+)
+type(
+  int -> int -> unit
+)
+"gMisc.ml" 224 7842 7854 "gMisc.ml" 224 7842 7857
+type(
+  Gtk.label Gtk.obj
+)
+"gMisc.ml" 225 7867 7889 "gMisc.ml" 225 7867 7892
+type(
+  Gtk.label Gtk.obj
+)
+type(
+  Gtk.label Gtk.obj
+)
+ident(
+  int_ref obj "gMisc.ml" 224 7842 7854 "gMisc.ml" 224 7842 7857
+)
+"gMisc.ml" 226 7910 7929 "gMisc.ml" 226 7910 7952
+type(
+  Gtk.label Gtk.obj -> GObj.widget_signals_impl
+)
+"gMisc.ml" 226 7910 7953 "gMisc.ml" 226 7910 7956
+type(
+  Gtk.label Gtk.obj
+)
+"gMisc.ml" 226 7910 7929 "gMisc.ml" 226 7910 7956
+call(
+  tail
+)
+type(
+  GObj.widget_signals_impl
+)
+type(
+  GObj.widget_signals_impl
+)
+"gMisc.ml" 229 7962 7966 "gMisc.ml" 229 7962 7971
+type(
+  ?text:string ->
+  ?markup:string ->
+  ?use_underline:bool ->
+  ?mnemonic_widget:< as_widget : Gtk.widget Gtk.obj; .. > ->
+  ?justify:GtkEnums.justification ->
+  ?line_wrap:bool ->
+  ?pattern:string ->
+  ?selectable:bool ->
+  ?ellipsize:PangoEnums.ellipsize_mode ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> label
+)
+ident(
+  def label "gMisc.ml" 238 8384 8384 --
+)
+"gMisc.ml" 229 7962 7973 "gMisc.ml" 229 7962 7977
+type(
+  string option
+)
+ident(
+  def text "gMisc.ml" 229 7962 7978 "gMisc.ml" 236 8321 8382
+)
+"gMisc.ml" 229 7962 7979 "gMisc.ml" 229 7962 7985
+type(
+  string option
+)
+ident(
+  def markup "gMisc.ml" 229 7962 7986 "gMisc.ml" 236 8321 8382
+)
+"gMisc.ml" 229 7962 7987 "gMisc.ml" 229 7962 8000
+type(
+  bool option
+)
+ident(
+  def use_underline "gMisc.ml" 229 7962 8001 "gMisc.ml" 236 8321 8382
+)
+"gMisc.ml" 229 7962 8002 "gMisc.ml" 229 7962 8017
+type(
+  (< as_widget : Gtk.widget Gtk.obj; .. > as 'a) option
+)
+ident(
+  def mnemonic_widget "gMisc.ml" 230 8020 8022 "gMisc.ml" 236 8321 8382
+)
+"gMisc.ml" 230 8020 8026 "gMisc.ml" 230 8020 8031
+type(
+  string option
+)
+"gMisc.ml" 230 8020 8033 "gMisc.ml" 230 8020 8043
+type(
+  bool option
+)
+"gMisc.ml" 230 8020 8026 "gMisc.ml" 230 8020 8043
+type(
+  string option * bool option
+)
+"gMisc.ml" 231 8046 8053 "gMisc.ml" 231 8046 8059
+type(
+  string option
+)
+ident(
+  int_ref markup "gMisc.ml" 229 7962 7979 "gMisc.ml" 229 7962 7985
+)
+"gMisc.ml" 231 8046 8060 "gMisc.ml" 231 8046 8061
+type(
+  string option -> string option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gMisc.ml" 231 8046 8062 "gMisc.ml" 231 8046 8066
+type(
+  string option
+)
+"gMisc.ml" 231 8046 8053 "gMisc.ml" 231 8046 8066
+type(
+  bool
+)
+"gMisc.ml" 231 8046 8072 "gMisc.ml" 231 8046 8076
+type(
+  string option
+)
+ident(
+  int_ref text "gMisc.ml" 229 7962 7973 "gMisc.ml" 229 7962 7977
+)
+"gMisc.ml" 231 8046 8078 "gMisc.ml" 231 8046 8082
+type(
+  bool option
+)
+"gMisc.ml" 231 8046 8072 "gMisc.ml" 231 8046 8082
+type(
+  string option * bool option
+)
+"gMisc.ml" 231 8046 8088 "gMisc.ml" 231 8046 8094
+type(
+  string option
+)
+ident(
+  int_ref markup "gMisc.ml" 229 7962 7979 "gMisc.ml" 229 7962 7985
+)
+"gMisc.ml" 231 8046 8101 "gMisc.ml" 231 8046 8105
+type(
+  bool
+)
+"gMisc.ml" 231 8046 8096 "gMisc.ml" 231 8046 8105
+type(
+  bool option
+)
+"gMisc.ml" 231 8046 8088 "gMisc.ml" 231 8046 8105
+type(
+  string option * bool option
+)
+"gMisc.ml" 231 8046 8050 "gMisc.ml" 231 8046 8105
+type(
+  string option * bool option
+)
+"gMisc.ml" 232 8109 8115 "gMisc.ml" 232 8109 8130
+type(
+  Gtk.widget Gtk.obj option
+)
+"gMisc.ml" 232 8109 8133 "gMisc.ml" 232 8109 8140
+type(
+  f:('a -> Gtk.widget Gtk.obj) -> 'a option -> Gtk.widget Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gMisc.ml" 232 8109 8146 "gMisc.ml" 232 8109 8147
+type(
+  'a
+)
+ident(
+  def w "gMisc.ml" 232 8109 8151 "gMisc.ml" 232 8109 8162
+)
+"gMisc.ml" 232 8109 8151 "gMisc.ml" 232 8109 8152
+type(
+  'a
+)
+ident(
+  int_ref w "gMisc.ml" 232 8109 8146 "gMisc.ml" 232 8109 8147
+)
+"gMisc.ml" 232 8109 8151 "gMisc.ml" 232 8109 8162
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gMisc.ml" 232 8109 8141 "gMisc.ml" 232 8109 8163
+type(
+  'a -> Gtk.widget Gtk.obj
+)
+"gMisc.ml" 232 8109 8164 "gMisc.ml" 232 8109 8179
+type(
+  'a option
+)
+ident(
+  int_ref mnemonic_widget "gMisc.ml" 229 7962 8002 "gMisc.ml" 229 7962 8017
+)
+"gMisc.ml" 232 8109 8133 "gMisc.ml" 232 8109 8179
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj option
+)
+"gMisc.ml" 233 8183 8185 "gMisc.ml" 233 8183 8202
+type(
+  cont:(Gtk.label Gobject.param list ->
+        ?xalign:float ->
+        ?yalign:float ->
+        ?xpad:int ->
+        ?ypad:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> label) ->
+  Gtk.label Gobject.param list ->
+  ?label:string ->
+  ?use_markup:bool ->
+  ?use_underline:bool ->
+  ?mnemonic_widget:Gtk.widget Gtk.obj ->
+  ?justify:GtkEnums.justification ->
+  ?line_wrap:bool ->
+  ?pattern:string ->
+  ?selectable:bool ->
+  ?ellipsize:PangoEnums.ellipsize_mode ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> label
+)
+ident(
+  ext_ref GtkMisc.Label.make_params
+)
+"gMisc.ml" 233 8183 8203 "gMisc.ml" 233 8183 8205
+type(
+  Gtk.label Gobject.param list
+)
+"gMisc.ml" 233 8183 8207 "gMisc.ml" 233 8183 8212
+type(
+  string option
+)
+ident(
+  int_ref label "gMisc.ml" 230 8020 8026 "gMisc.ml" 230 8020 8031
+)
+"gMisc.ml" 233 8183 8214 "gMisc.ml" 233 8183 8224
+type(
+  bool option
+)
+ident(
+  int_ref use_markup "gMisc.ml" 230 8020 8033 "gMisc.ml" 230 8020 8043
+)
+"gMisc.ml" 233 8183 8226 "gMisc.ml" 233 8183 8239
+type(
+  bool option
+)
+ident(
+  int_ref use_underline "gMisc.ml" 229 7962 7987 "gMisc.ml" 229 7962 8000
+)
+"gMisc.ml" 233 8183 8241 "gMisc.ml" 233 8183 8256
+type(
+  Gtk.widget Gtk.obj option
+)
+ident(
+  int_ref mnemonic_widget "gMisc.ml" 232 8109 8115 "gMisc.ml" 232 8109 8130
+)
+"gMisc.ml" 235 8269 8271 "gMisc.ml" 235 8269 8286
+type(
+  cont:(Gtk.label Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> label) ->
+  Gtk.label Gobject.param list ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> label
+)
+ident(
+  ext_ref GtkMisc.Misc.all_params
+)
+"gMisc.ml" 235 8269 8298 "gMisc.ml" 235 8269 8299
+type(
+  Gtk.label Gobject.param list
+)
+ident(
+  def p "gMisc.ml" 235 8269 8300 "gMisc.ml" 236 8321 8380
+)
+"gMisc.ml" 235 8269 8301 "gMisc.ml" 235 8269 8308
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gMisc.ml" 235 8269 8309 "gMisc.ml" 236 8321 8380
+)
+"gMisc.ml" 235 8269 8310 "gMisc.ml" 235 8269 8314
+type(
+  bool option
+)
+ident(
+  def show "gMisc.ml" 235 8269 8315 "gMisc.ml" 236 8321 8380
+)
+"gMisc.ml" 235 8269 8315 "gMisc.ml" 235 8269 8317
+type(
+  unit
+)
+"gMisc.ml" 236 8321 8325 "gMisc.ml" 236 8321 8336
+type(
+  label -> packing:(GObj.widget -> unit) option -> show:bool option -> label
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gMisc.ml" 236 8321 8338 "gMisc.ml" 236 8321 8347
+type(
+  Gtk.label Gtk.obj -> label
+)
+"gMisc.ml" 236 8321 8349 "gMisc.ml" 236 8321 8361
+type(
+  Gtk.label Gobject.param list -> Gtk.label Gtk.obj
+)
+ident(
+  ext_ref GtkMisc.Label.create
+)
+"gMisc.ml" 236 8321 8362 "gMisc.ml" 236 8321 8363
+type(
+  Gtk.label Gobject.param list
+)
+ident(
+  int_ref p "gMisc.ml" 235 8269 8298 "gMisc.ml" 235 8269 8299
+)
+"gMisc.ml" 236 8321 8348 "gMisc.ml" 236 8321 8364
+call(
+  stack
+)
+type(
+  Gtk.label Gtk.obj
+)
+"gMisc.ml" 236 8321 8337 "gMisc.ml" 236 8321 8365
+call(
+  stack
+)
+type(
+  label
+)
+"gMisc.ml" 236 8321 8367 "gMisc.ml" 236 8321 8374
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gMisc.ml" 235 8269 8301 "gMisc.ml" 235 8269 8308
+)
+"gMisc.ml" 236 8321 8376 "gMisc.ml" 236 8321 8380
+type(
+  bool option
+)
+ident(
+  int_ref show "gMisc.ml" 235 8269 8310 "gMisc.ml" 235 8269 8314
+)
+"gMisc.ml" 236 8321 8325 "gMisc.ml" 236 8321 8380
+call(
+  tail
+)
+type(
+  label
+)
+"gMisc.ml" 235 8269 8293 "gMisc.ml" 236 8321 8381
+type(
+  Gtk.label Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> label
+)
+"gMisc.ml" 234 8257 8267 "gMisc.ml" 236 8321 8382
+call(
+  stack
+)
+type(
+  Gtk.label Gobject.param list ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> label
+)
+"gMisc.ml" 233 8183 8185 "gMisc.ml" 236 8321 8382
+call(
+  tail
+)
+type(
+  ?justify:GtkEnums.justification ->
+  ?line_wrap:bool ->
+  ?pattern:string ->
+  ?selectable:bool ->
+  ?ellipsize:PangoEnums.ellipsize_mode ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> label
+)
+"gMisc.ml" 232 8109 8111 "gMisc.ml" 236 8321 8382
+type(
+  ?justify:GtkEnums.justification ->
+  ?line_wrap:bool ->
+  ?pattern:string ->
+  ?selectable:bool ->
+  ?ellipsize:PangoEnums.ellipsize_mode ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> label
+)
+"gMisc.ml" 230 8020 8022 "gMisc.ml" 236 8321 8382
+type(
+  ?justify:GtkEnums.justification ->
+  ?line_wrap:bool ->
+  ?pattern:string ->
+  ?selectable:bool ->
+  ?ellipsize:PangoEnums.ellipsize_mode ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> label
+)
+"gMisc.ml" 238 8384 8388 "gMisc.ml" 238 8384 8398
+type(
+  < as_widget : 'a Gobject.obj; .. > -> label
+)
+ident(
+  def label_cast "gMisc.ml" 240 8439 8439 --
+)
+"gMisc.ml" 238 8384 8399 "gMisc.ml" 238 8384 8400
+type(
+  < as_widget : 'a Gobject.obj; .. > as 'b
+)
+ident(
+  def w "gMisc.ml" 238 8384 8403 "gMisc.ml" 238 8384 8437
+)
+"gMisc.ml" 238 8384 8403 "gMisc.ml" 238 8384 8412
+type(
+  Gtk.label Gtk.obj -> label
+)
+"gMisc.ml" 238 8384 8414 "gMisc.ml" 238 8384 8424
+type(
+  'a Gobject.obj -> Gtk.label Gtk.obj
+)
+ident(
+  ext_ref GtkMisc.Label.cast
+)
+"gMisc.ml" 238 8384 8425 "gMisc.ml" 238 8384 8426
+type(
+  'b
+)
+ident(
+  int_ref w "gMisc.ml" 238 8384 8399 "gMisc.ml" 238 8384 8400
+)
+"gMisc.ml" 238 8384 8425 "gMisc.ml" 238 8384 8436
+call(
+  stack
+)
+type(
+  'a Gobject.obj
+)
+"gMisc.ml" 238 8384 8413 "gMisc.ml" 238 8384 8437
+call(
+  stack
+)
+type(
+  Gtk.label Gtk.obj
+)
+"gMisc.ml" 238 8384 8403 "gMisc.ml" 238 8384 8437
+call(
+  tail
+)
+type(
+  label
+)
+"gMisc.ml" 240 8439 8464 "gMisc.ml" 240 8439 8467
+type(
+  Gtk.tips_query Gtk.obj
+)
+"gMisc.ml" 241 8477 8508 "gMisc.ml" 241 8477 8511
+type(
+  Gtk.tips_query Gtk.obj
+)
+type(
+  Gtk.tips_query Gtk.obj
+)
+ident(
+  int_ref obj "gMisc.ml" 240 8439 8464 "gMisc.ml" 240 8439 8467
+)
+"gMisc.ml" 245 8565 8582 "gMisc.ml" 245 8565 8585
+type(
+  Gtk.tips_query Gtk.obj
+)
+"gMisc.ml" 246 8595 8616 "gMisc.ml" 246 8595 8619
+type(
+  Gtk.tips_query Gtk.obj
+)
+ident(
+  int_ref obj "gMisc.ml" 245 8565 8582 "gMisc.ml" 245 8565 8585
+)
+"gMisc.ml" 247 8620 8635 "gMisc.ml" 247 8620 8637
+type(
+  unit
+)
+"gMisc.ml" 247 8620 8640 "gMisc.ml" 247 8620 8661
+type(
+  Gtk.tips_query Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMisc.TipsQuery.start_query
+)
+"gMisc.ml" 247 8620 8662 "gMisc.ml" 247 8620 8665
+type(
+  Gtk.tips_query Gtk.obj
+)
+"gMisc.ml" 247 8620 8640 "gMisc.ml" 247 8620 8665
+type(
+  unit
+)
+"gMisc.ml" 248 8666 8680 "gMisc.ml" 248 8666 8682
+type(
+  unit
+)
+"gMisc.ml" 248 8666 8685 "gMisc.ml" 248 8666 8705
+type(
+  Gtk.tips_query Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkMisc.TipsQuery.stop_query
+)
+"gMisc.ml" 248 8666 8706 "gMisc.ml" 248 8666 8709
+type(
+  Gtk.tips_query Gtk.obj
+)
+"gMisc.ml" 248 8666 8685 "gMisc.ml" 248 8666 8709
+type(
+  unit
+)
+"gMisc.ml" 250 8737 8756 "gMisc.ml" 250 8737 8778
+type(
+  Gtk.tips_query Gtk.obj -> tips_query_signals
+)
+"gMisc.ml" 250 8737 8779 "gMisc.ml" 250 8737 8782
+type(
+  Gtk.tips_query Gtk.obj
+)
+"gMisc.ml" 250 8737 8756 "gMisc.ml" 250 8737 8782
+call(
+  tail
+)
+type(
+  tips_query_signals
+)
+type(
+  tips_query_signals
+)
+"gMisc.ml" 253 8788 8792 "gMisc.ml" 253 8788 8802
+type(
+  ?caller:< as_widget : Gtk.widget Gtk.obj; .. > ->
+  ?emit_always:bool ->
+  ?label_inactive:string ->
+  ?label_no_tip:string ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> tips_query
+)
+ident(
+  def tips_query "gMisc.ml" 259 9036 9036 --
+)
+"gMisc.ml" 253 8788 8804 "gMisc.ml" 253 8788 8810
+type(
+  (< as_widget : Gtk.widget Gtk.obj; .. > as 'a) option
+)
+ident(
+  def caller "gMisc.ml" 254 8813 8815 "gMisc.ml" 257 8964 9034
+)
+"gMisc.ml" 254 8813 8819 "gMisc.ml" 254 8813 8825
+type(
+  Gtk.widget Gtk.obj option
+)
+"gMisc.ml" 254 8813 8828 "gMisc.ml" 254 8813 8835
+type(
+  f:('a -> Gtk.widget Gtk.obj) -> 'a option -> Gtk.widget Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gMisc.ml" 254 8813 8841 "gMisc.ml" 254 8813 8842
+type(
+  'a
+)
+ident(
+  def w "gMisc.ml" 254 8813 8846 "gMisc.ml" 254 8813 8857
+)
+"gMisc.ml" 254 8813 8846 "gMisc.ml" 254 8813 8847
+type(
+  'a
+)
+ident(
+  int_ref w "gMisc.ml" 254 8813 8841 "gMisc.ml" 254 8813 8842
+)
+"gMisc.ml" 254 8813 8846 "gMisc.ml" 254 8813 8857
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gMisc.ml" 254 8813 8836 "gMisc.ml" 254 8813 8858
+type(
+  'a -> Gtk.widget Gtk.obj
+)
+"gMisc.ml" 254 8813 8859 "gMisc.ml" 254 8813 8865
+type(
+  'a option
+)
+ident(
+  int_ref caller "gMisc.ml" 253 8788 8804 "gMisc.ml" 253 8788 8810
+)
+"gMisc.ml" 254 8813 8828 "gMisc.ml" 254 8813 8865
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj option
+)
+"gMisc.ml" 255 8869 8871 "gMisc.ml" 255 8869 8892
+type(
+  cont:(Gtk.tips_query Gobject.param list ->
+        ?xalign:float ->
+        ?yalign:float ->
+        ?xpad:int ->
+        ?ypad:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> tips_query) ->
+  Gtk.tips_query Gobject.param list ->
+  ?caller:Gtk.widget Gtk.obj ->
+  ?emit_always:bool ->
+  ?label_inactive:string ->
+  ?label_no_tip:string ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> tips_query
+)
+ident(
+  ext_ref GtkMisc.TipsQuery.make_params
+)
+"gMisc.ml" 255 8869 8893 "gMisc.ml" 255 8869 8895
+type(
+  Gtk.tips_query Gobject.param list
+)
+"gMisc.ml" 255 8869 8897 "gMisc.ml" 255 8869 8903
+type(
+  Gtk.widget Gtk.obj option
+)
+ident(
+  int_ref caller "gMisc.ml" 254 8813 8819 "gMisc.ml" 254 8813 8825
+)
+"gMisc.ml" 256 8912 8914 "gMisc.ml" 256 8912 8929
+type(
+  cont:(Gtk.tips_query Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> tips_query) ->
+  Gtk.tips_query Gobject.param list ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> tips_query
+)
+ident(
+  ext_ref GtkMisc.Misc.all_params
+)
+"gMisc.ml" 256 8912 8941 "gMisc.ml" 256 8912 8942
+type(
+  Gtk.tips_query Gobject.param list
+)
+ident(
+  def p "gMisc.ml" 256 8912 8943 "gMisc.ml" 257 8964 9032
+)
+"gMisc.ml" 256 8912 8944 "gMisc.ml" 256 8912 8951
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gMisc.ml" 256 8912 8952 "gMisc.ml" 257 8964 9032
+)
+"gMisc.ml" 256 8912 8953 "gMisc.ml" 256 8912 8957
+type(
+  bool option
+)
+ident(
+  def show "gMisc.ml" 256 8912 8958 "gMisc.ml" 257 8964 9032
+)
+"gMisc.ml" 256 8912 8958 "gMisc.ml" 256 8912 8960
+type(
+  unit
+)
+"gMisc.ml" 257 8964 8968 "gMisc.ml" 257 8964 8979
+type(
+  tips_query ->
+  packing:(GObj.widget -> unit) option -> show:bool option -> tips_query
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gMisc.ml" 257 8964 8981 "gMisc.ml" 257 8964 8995
+type(
+  Gtk.tips_query Gtk.obj -> tips_query
+)
+"gMisc.ml" 257 8964 8997 "gMisc.ml" 257 8964 9013
+type(
+  Gtk.tips_query Gobject.param list -> Gtk.tips_query Gtk.obj
+)
+ident(
+  ext_ref GtkMisc.TipsQuery.create
+)
+"gMisc.ml" 257 8964 9014 "gMisc.ml" 257 8964 9015
+type(
+  Gtk.tips_query Gobject.param list
+)
+ident(
+  int_ref p "gMisc.ml" 256 8912 8941 "gMisc.ml" 256 8912 8942
+)
+"gMisc.ml" 257 8964 8996 "gMisc.ml" 257 8964 9016
+call(
+  stack
+)
+type(
+  Gtk.tips_query Gtk.obj
+)
+"gMisc.ml" 257 8964 8980 "gMisc.ml" 257 8964 9017
+call(
+  stack
+)
+type(
+  tips_query
+)
+"gMisc.ml" 257 8964 9019 "gMisc.ml" 257 8964 9026
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gMisc.ml" 256 8912 8944 "gMisc.ml" 256 8912 8951
+)
+"gMisc.ml" 257 8964 9028 "gMisc.ml" 257 8964 9032
+type(
+  bool option
+)
+ident(
+  int_ref show "gMisc.ml" 256 8912 8953 "gMisc.ml" 256 8912 8957
+)
+"gMisc.ml" 257 8964 8968 "gMisc.ml" 257 8964 9032
+call(
+  tail
+)
+type(
+  tips_query
+)
+"gMisc.ml" 256 8912 8936 "gMisc.ml" 257 8964 9033
+type(
+  Gtk.tips_query Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> tips_query
+)
+"gMisc.ml" 255 8869 8910 "gMisc.ml" 257 8964 9034
+call(
+  stack
+)
+type(
+  Gtk.tips_query Gobject.param list ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> tips_query
+)
+"gMisc.ml" 255 8869 8871 "gMisc.ml" 257 8964 9034
+call(
+  tail
+)
+type(
+  ?emit_always:bool ->
+  ?label_inactive:string ->
+  ?label_no_tip:string ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> tips_query
+)
+"gMisc.ml" 254 8813 8815 "gMisc.ml" 257 8964 9034
+type(
+  ?emit_always:bool ->
+  ?label_inactive:string ->
+  ?label_no_tip:string ->
+  ?xalign:float ->
+  ?yalign:float ->
+  ?xpad:int ->
+  ?ypad:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> tips_query
+)
+"gMisc.ml" 259 9036 9058 "gMisc.ml" 259 9036 9061
+type(
+  Gtk.color_selection Gtk.obj
+)
+"gMisc.ml" 260 9071 9120 "gMisc.ml" 260 9071 9123
+type(
+  Gtk.color_selection Gtk.obj
+)
+ident(
+  int_ref obj "gMisc.ml" 259 9036 9058 "gMisc.ml" 259 9036 9061
+)
+"gMisc.ml" 261 9124 9143 "gMisc.ml" 261 9124 9171
+type(
+  Gtk.color_selection Gtk.obj -> GObj.widget_signals_impl
+)
+"gMisc.ml" 261 9124 9172 "gMisc.ml" 261 9124 9175
+type(
+  Gtk.color_selection Gtk.obj
+)
+"gMisc.ml" 261 9124 9143 "gMisc.ml" 261 9124 9175
+call(
+  tail
+)
+type(
+  GObj.widget_signals_impl
+)
+type(
+  GObj.widget_signals_impl
+)
+"gMisc.ml" 262 9176 9204 "gMisc.ml" 262 9176 9207
+type(
+  (Gtk.color_selection, int) Gobject.property ->
+  Gtk.color_selection Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref OgtkMiscProps.set
+)
+"gMisc.ml" 262 9176 9208 "gMisc.ml" 262 9176 9232
+type(
+  (Gtk.color_selection, int) Gobject.property
+)
+ident(
+  ext_ref GtkBase.Container.P.border_width
+)
+"gMisc.ml" 262 9176 9233 "gMisc.ml" 262 9176 9236
+type(
+  Gtk.color_selection Gtk.obj
+)
+"gMisc.ml" 262 9176 9204 "gMisc.ml" 262 9176 9236
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gMisc.ml" 266 9274 9278 "gMisc.ml" 266 9274 9293
+type(
+  ?alpha:int ->
+  ?color:Gdk.color ->
+  ?has_opacity_control:bool ->
+  ?has_palette:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> color_selection
+)
+ident(
+  def color_selection "gMisc.ml" 271 9436 9436 --
+)
+"gMisc.ml" 267 9296 9298 "gMisc.ml" 267 9296 9324
+type(
+  cont:(Gtk.color_selection Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) ->
+        ?show:bool -> unit -> color_selection) ->
+  Gtk.color_selection Gobject.param list ->
+  ?alpha:int ->
+  ?color:Gdk.color ->
+  ?has_opacity_control:bool ->
+  ?has_palette:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> color_selection
+)
+ident(
+  ext_ref GtkMisc.ColorSelection.make_params
+)
+"gMisc.ml" 267 9296 9325 "gMisc.ml" 267 9296 9327
+type(
+  Gtk.color_selection Gobject.param list
+)
+"gMisc.ml" 268 9336 9338 "gMisc.ml" 268 9336 9363
+type(
+  create:(Gtk.color_selection Gobject.param list -> color_selection) ->
+  Gtk.color_selection Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> color_selection
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gMisc.ml" 269 9373 9382 "gMisc.ml" 269 9373 9383
+type(
+  Gtk.color_selection Gobject.param list
+)
+ident(
+  def p "gMisc.ml" 269 9373 9387 "gMisc.ml" 269 9373 9432
+)
+"gMisc.ml" 269 9373 9387 "gMisc.ml" 269 9373 9406
+type(
+  Gtk.color_selection Gtk.obj -> color_selection
+)
+"gMisc.ml" 269 9373 9408 "gMisc.ml" 269 9373 9429
+type(
+  Gtk.color_selection Gobject.param list -> Gtk.color_selection Gtk.obj
+)
+ident(
+  ext_ref GtkMisc.ColorSelection.create
+)
+"gMisc.ml" 269 9373 9430 "gMisc.ml" 269 9373 9431
+type(
+  Gtk.color_selection Gobject.param list
+)
+ident(
+  int_ref p "gMisc.ml" 269 9373 9382 "gMisc.ml" 269 9373 9383
+)
+"gMisc.ml" 269 9373 9407 "gMisc.ml" 269 9373 9432
+call(
+  stack
+)
+type(
+  Gtk.color_selection Gtk.obj
+)
+"gMisc.ml" 269 9373 9387 "gMisc.ml" 269 9373 9432
+call(
+  tail
+)
+type(
+  color_selection
+)
+"gMisc.ml" 269 9373 9377 "gMisc.ml" 269 9373 9433
+type(
+  Gtk.color_selection Gobject.param list -> color_selection
+)
+"gMisc.ml" 267 9296 9334 "gMisc.ml" 269 9373 9434
+call(
+  stack
+)
+type(
+  Gtk.color_selection Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> color_selection
+)
+"gMisc.ml" 267 9296 9298 "gMisc.ml" 269 9373 9434
+call(
+  stack
+)
+type(
+  ?alpha:int ->
+  ?color:Gdk.color ->
+  ?has_opacity_control:bool ->
+  ?has_palette:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> color_selection
+)
+"gMisc.ml" 271 9436 9457 "gMisc.ml" 271 9436 9460
+type(
+  Gtk.font_selection Gtk.obj
+)
+"gMisc.ml" 272 9470 9513 "gMisc.ml" 272 9470 9516
+type(
+  Gtk.font_selection Gtk.obj
+)
+ident(
+  int_ref obj "gMisc.ml" 271 9436 9457 "gMisc.ml" 271 9436 9460
+)
+"gMisc.ml" 274 9548 9565 "gMisc.ml" 274 9548 9578
+type(
+  Gtk.font_selection Gtk.obj -> GObj.event_ops
+)
+"gMisc.ml" 274 9548 9579 "gMisc.ml" 274 9548 9582
+type(
+  Gtk.font_selection Gtk.obj
+)
+"gMisc.ml" 274 9548 9565 "gMisc.ml" 274 9548 9582
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gMisc.ml" 275 9583 9602 "gMisc.ml" 275 9583 9630
+type(
+  Gtk.font_selection Gtk.obj -> GObj.widget_signals_impl
+)
+"gMisc.ml" 275 9583 9631 "gMisc.ml" 275 9583 9634
+type(
+  Gtk.font_selection Gtk.obj
+)
+"gMisc.ml" 275 9583 9602 "gMisc.ml" 275 9583 9634
+call(
+  tail
+)
+type(
+  GObj.widget_signals_impl
+)
+type(
+  GObj.widget_signals_impl
+)
+"gMisc.ml" 276 9635 9663 "gMisc.ml" 276 9635 9666
+type(
+  (Gtk.font_selection, int) Gobject.property ->
+  Gtk.font_selection Gtk.obj -> int -> unit
+)
+ident(
+  ext_ref OgtkMiscProps.set
+)
+"gMisc.ml" 276 9635 9667 "gMisc.ml" 276 9635 9691
+type(
+  (Gtk.font_selection, int) Gobject.property
+)
+ident(
+  ext_ref GtkBase.Container.P.border_width
+)
+"gMisc.ml" 276 9635 9692 "gMisc.ml" 276 9635 9695
+type(
+  Gtk.font_selection Gtk.obj
+)
+"gMisc.ml" 276 9635 9663 "gMisc.ml" 276 9635 9695
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"gMisc.ml" 279 9701 9705 "gMisc.ml" 279 9701 9719
+type(
+  ?font_name:string ->
+  ?preview_text:string ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> font_selection
+)
+ident(
+  def font_selection "gMisc.ml" 282 9798 9857 --
+)
+"gMisc.ml" 280 9722 9724 "gMisc.ml" 280 9722 9749
+type(
+  cont:(Gtk.font_selection Gobject.param list ->
+        ?border_width:int ->
+        ?width:int ->
+        ?height:int ->
+        ?packing:(GObj.widget -> unit) ->
+        ?show:bool -> unit -> font_selection) ->
+  Gtk.font_selection Gobject.param list ->
+  ?font_name:string ->
+  ?preview_text:string ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> font_selection
+)
+ident(
+  ext_ref GtkMisc.FontSelection.make_params
+)
+"gMisc.ml" 280 9722 9750 "gMisc.ml" 280 9722 9752
+type(
+  Gtk.font_selection Gobject.param list
+)
+"gMisc.ml" 281 9761 9763 "gMisc.ml" 281 9761 9788
+type(
+  create:(Gtk.font_selection Gobject.param list -> font_selection) ->
+  Gtk.font_selection Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> font_selection
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gMisc.ml" 282 9798 9807 "gMisc.ml" 282 9798 9808
+type(
+  Gtk.font_selection Gobject.param list
+)
+ident(
+  def p "gMisc.ml" 282 9798 9812 "gMisc.ml" 282 9798 9855
+)
+"gMisc.ml" 282 9798 9812 "gMisc.ml" 282 9798 9830
+type(
+  Gtk.font_selection Gtk.obj -> font_selection
+)
+"gMisc.ml" 282 9798 9832 "gMisc.ml" 282 9798 9852
+type(
+  Gtk.font_selection Gobject.param list -> Gtk.font_selection Gtk.obj
+)
+ident(
+  ext_ref GtkMisc.FontSelection.create
+)
+"gMisc.ml" 282 9798 9853 "gMisc.ml" 282 9798 9854
+type(
+  Gtk.font_selection Gobject.param list
+)
+ident(
+  int_ref p "gMisc.ml" 282 9798 9807 "gMisc.ml" 282 9798 9808
+)
+"gMisc.ml" 282 9798 9831 "gMisc.ml" 282 9798 9855
+call(
+  stack
+)
+type(
+  Gtk.font_selection Gtk.obj
+)
+"gMisc.ml" 282 9798 9812 "gMisc.ml" 282 9798 9855
+call(
+  tail
+)
+type(
+  font_selection
+)
+"gMisc.ml" 282 9798 9802 "gMisc.ml" 282 9798 9856
+type(
+  Gtk.font_selection Gobject.param list -> font_selection
+)
+"gMisc.ml" 280 9722 9759 "gMisc.ml" 282 9798 9857
+call(
+  stack
+)
+type(
+  Gtk.font_selection Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> font_selection
+)
+"gMisc.ml" 280 9722 9724 "gMisc.ml" 282 9798 9857
+call(
+  stack
+)
+type(
+  ?font_name:string ->
+  ?preview_text:string ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> font_selection
+)

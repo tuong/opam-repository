@@ -1,0 +1,24 @@
+OASISFormat:  0.2
+Name:         ocamlscript
+Version:      2.0.2~oasis4
+Authors:      David Mentré, Martin Jambon
+Homepage:     http://martin.jambon.free.fr/ocamlscript.html
+License:      Boost
+LicenseFile:  LICENSE
+ConfType:   custom (0.2)
+BuildType:    custom (0.2)
+InstallType:  custom (0.2)
+BuildTools:   make
+Synopsis:     Natively compiled OCaml scripts.
+
+XCustomConf: touch setup.data
+XCustomBuild: make
+XCustomInstall: make install
+XCustomUninstall: make uninstall
+
+Library ocamlscript
+    Path: .
+
+Executable ocamlscript
+    Path: .
+    MainIs: main.ml

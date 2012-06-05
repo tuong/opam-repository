@@ -1,0 +1,6702 @@
+"gtkBaseProps.ml" 9 176 182 "gtkBaseProps.ml" 9 176 192
+type(
+  Gtk.rectangle Gobject.data_conv
+)
+ident(
+  def allocation "gtkBaseProps.ml" 12 334 392 "gtkBaseProps.ml" 13 393 396
+)
+"gtkBaseProps.ml" 10 195 205 "gtkBaseProps.ml" 10 195 213
+type(
+  Gobject.data_kind
+)
+"gtkBaseProps.ml" 10 195 223 "gtkBaseProps.ml" 10 195 224
+type(
+  Gtk.rectangle
+)
+"gtkBaseProps.ml" 10 195 228 "gtkBaseProps.ml" 10 195 236
+type(
+  string -> unit Gobject.data_set
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gtkBaseProps.ml" 10 195 237 "gtkBaseProps.ml" 10 195 267
+type(
+  string
+)
+"gtkBaseProps.ml" 10 195 228 "gtkBaseProps.ml" 10 195 267
+call(
+  tail
+)
+type(
+  unit Gobject.data_set
+)
+"gtkBaseProps.ml" 10 195 218 "gtkBaseProps.ml" 10 195 268
+type(
+  Gtk.rectangle -> unit Gobject.data_set
+)
+"gtkBaseProps.ml" 11 270 304 "gtkBaseProps.ml" 11 270 305
+type(
+  Gpointer.boxed
+)
+ident(
+  def p "gtkBaseProps.ml" 11 270 310 "gtkBaseProps.ml" 11 270 333
+)
+"gtkBaseProps.ml" 11 270 298 "gtkBaseProps.ml" 11 270 306
+type(
+  Gpointer.boxed option
+)
+"gtkBaseProps.ml" 11 270 290 "gtkBaseProps.ml" 11 270 306
+type(
+  Gobject.data_conv_get
+)
+"gtkBaseProps.ml" 11 270 310 "gtkBaseProps.ml" 11 270 331
+type(
+  Gpointer.boxed -> Gtk.rectangle
+)
+"gtkBaseProps.ml" 11 270 332 "gtkBaseProps.ml" 11 270 333
+type(
+  Gpointer.boxed
+)
+ident(
+  int_ref p "gtkBaseProps.ml" 11 270 304 "gtkBaseProps.ml" 11 270 305
+)
+"gtkBaseProps.ml" 11 270 310 "gtkBaseProps.ml" 11 270 333
+type(
+  Gtk.rectangle
+)
+"gtkBaseProps.ml" 12 334 346 "gtkBaseProps.ml" 12 334 347
+type(
+  Gobject.data_conv_get
+)
+"gtkBaseProps.ml" 12 334 351 "gtkBaseProps.ml" 12 334 359
+type(
+  string -> Gtk.rectangle
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gtkBaseProps.ml" 12 334 360 "gtkBaseProps.ml" 12 334 390
+type(
+  string
+)
+"gtkBaseProps.ml" 12 334 351 "gtkBaseProps.ml" 12 334 390
+call(
+  tail
+)
+type(
+  Gtk.rectangle
+)
+"gtkBaseProps.ml" 11 270 280 "gtkBaseProps.ml" 12 334 391
+type(
+  Gobject.data_conv_get -> Gtk.rectangle
+)
+"gtkBaseProps.ml" 10 195 199 "gtkBaseProps.ml" 12 334 392
+type(
+  Gtk.rectangle Gobject.data_conv
+)
+"gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons "gtkBaseProps.ml" 16 431 431 --
+)
+"gtkBaseProps.ml" 15 398 413 "gtkBaseProps.ml" 15 398 430
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gtkBaseProps.ml" 16 431 435 "gtkBaseProps.ml" 16 431 447
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons_opt "gtkBaseProps.ml" 18 473 473 --
+)
+"gtkBaseProps.ml" 16 431 450 "gtkBaseProps.ml" 16 431 471
+type(
+  ('a, 'b option) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons_opt
+)
+"gtkBaseProps.ml" 19 496 502 "gtkBaseProps.ml" 19 496 506
+type(
+  'a Gobject.obj -> Gtk.widget Gtk.obj
+)
+ident(
+  def cast "gtkBaseProps.ml" 20 551 553 "gtkBaseProps.ml" 147 6808 6811
+)
+"gtkBaseProps.ml" 19 496 507 "gtkBaseProps.ml" 19 496 508
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBaseProps.ml" 19 496 509 "gtkBaseProps.ml" 19 496 550
+)
+"gtkBaseProps.ml" 19 496 528 "gtkBaseProps.ml" 19 496 536
+type(
+  'a Gobject.obj -> string -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBaseProps.ml" 19 496 537 "gtkBaseProps.ml" 19 496 538
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBaseProps.ml" 19 496 507 "gtkBaseProps.ml" 19 496 508
+)
+"gtkBaseProps.ml" 19 496 539 "gtkBaseProps.ml" 19 496 550
+type(
+  string
+)
+"gtkBaseProps.ml" 19 496 528 "gtkBaseProps.ml" 19 496 550
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gtkBaseProps.ml" 21 571 579 "gtkBaseProps.ml" 21 571 592
+type(
+  ([> `widget ], bool) Gobject.property
+)
+ident(
+  def app_paintable "gtkBaseProps.ml" 23 664 668 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 22 621 633 "gtkBaseProps.ml" 22 621 648
+type(
+  string
+)
+"gtkBaseProps.ml" 22 621 655 "gtkBaseProps.ml" 22 621 662
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 22 621 627 "gtkBaseProps.ml" 22 621 663
+type(
+  ([> `widget ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkBaseProps.ml" 23 664 672 "gtkBaseProps.ml" 23 664 683
+type(
+  ([> `widget ], bool) Gobject.property
+)
+ident(
+  def can_default "gtkBaseProps.ml" 25 753 757 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 24 712 724 "gtkBaseProps.ml" 24 712 737
+type(
+  string
+)
+"gtkBaseProps.ml" 24 712 744 "gtkBaseProps.ml" 24 712 751
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 24 712 718 "gtkBaseProps.ml" 24 712 752
+type(
+  ([> `widget ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkBaseProps.ml" 25 753 761 "gtkBaseProps.ml" 25 753 770
+type(
+  ([> `widget ], bool) Gobject.property
+)
+ident(
+  def can_focus "gtkBaseProps.ml" 27 838 842 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 26 799 811 "gtkBaseProps.ml" 26 799 822
+type(
+  string
+)
+"gtkBaseProps.ml" 26 799 829 "gtkBaseProps.ml" 26 799 836
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 26 799 805 "gtkBaseProps.ml" 26 799 837
+type(
+  ([> `widget ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkBaseProps.ml" 27 838 846 "gtkBaseProps.ml" 27 838 861
+type(
+  ([> `widget ], bool) Gobject.property
+)
+ident(
+  def composite_child "gtkBaseProps.ml" 29 935 939 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 28 890 902 "gtkBaseProps.ml" 28 890 919
+type(
+  string
+)
+"gtkBaseProps.ml" 28 890 926 "gtkBaseProps.ml" 28 890 933
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 28 890 896 "gtkBaseProps.ml" 28 890 934
+type(
+  ([> `widget ] as 'e, bool) Gobject.property
+)
+type(
+  ('e, bool) Gobject.property
+)
+"gtkBaseProps.ml" 29 935 943 "gtkBaseProps.ml" 29 935 949
+type(
+  ([> `widget ], GdkEnums.event_mask list) Gobject.property
+)
+ident(
+  def events "gtkBaseProps.ml" 31 1031 1035 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 30 978 990 "gtkBaseProps.ml" 30 978 998
+type(
+  string
+)
+"gtkBaseProps.ml" 30 978 1005 "gtkBaseProps.ml" 30 978 1029
+type(
+  GdkEnums.event_mask list Gobject.data_conv
+)
+ident(
+  ext_ref GdkEnums.event_mask_conv
+)
+"gtkBaseProps.ml" 30 978 984 "gtkBaseProps.ml" 30 978 1030
+type(
+  ([> `widget ] as 'f, GdkEnums.event_mask list) Gobject.property
+)
+type(
+  ('f, GdkEnums.event_mask list) Gobject.property
+)
+"gtkBaseProps.ml" 31 1031 1039 "gtkBaseProps.ml" 31 1031 1055
+type(
+  ([> `widget ], GdkEnums.extension_mode) Gobject.property
+)
+ident(
+  def extension_events "gtkBaseProps.ml" 33 1151 1155 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 32 1084 1096 "gtkBaseProps.ml" 32 1084 1114
+type(
+  string
+)
+"gtkBaseProps.ml" 32 1084 1121 "gtkBaseProps.ml" 32 1084 1149
+type(
+  GdkEnums.extension_mode Gobject.data_conv
+)
+ident(
+  ext_ref GdkEnums.extension_mode_conv
+)
+"gtkBaseProps.ml" 32 1084 1090 "gtkBaseProps.ml" 32 1084 1150
+type(
+  ([> `widget ] as 'g, GdkEnums.extension_mode) Gobject.property
+)
+type(
+  ('g, GdkEnums.extension_mode) Gobject.property
+)
+"gtkBaseProps.ml" 33 1151 1159 "gtkBaseProps.ml" 33 1151 1170
+type(
+  ([> `widget ], bool) Gobject.property
+)
+ident(
+  def has_default "gtkBaseProps.ml" 35 1240 1244 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 34 1199 1211 "gtkBaseProps.ml" 34 1199 1224
+type(
+  string
+)
+"gtkBaseProps.ml" 34 1199 1231 "gtkBaseProps.ml" 34 1199 1238
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 34 1199 1205 "gtkBaseProps.ml" 34 1199 1239
+type(
+  ([> `widget ] as 'h, bool) Gobject.property
+)
+type(
+  ('h, bool) Gobject.property
+)
+"gtkBaseProps.ml" 35 1240 1248 "gtkBaseProps.ml" 35 1240 1257
+type(
+  ([> `widget ], bool) Gobject.property
+)
+ident(
+  def has_focus "gtkBaseProps.ml" 37 1325 1329 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 36 1286 1298 "gtkBaseProps.ml" 36 1286 1309
+type(
+  string
+)
+"gtkBaseProps.ml" 36 1286 1316 "gtkBaseProps.ml" 36 1286 1323
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 36 1286 1292 "gtkBaseProps.ml" 36 1286 1324
+type(
+  ([> `widget ] as 'i, bool) Gobject.property
+)
+type(
+  ('i, bool) Gobject.property
+)
+"gtkBaseProps.ml" 37 1325 1333 "gtkBaseProps.ml" 37 1325 1344
+type(
+  ([> `widget ], bool) Gobject.property
+)
+ident(
+  def has_tooltip "gtkBaseProps.ml" 39 1414 1418 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 38 1373 1385 "gtkBaseProps.ml" 38 1373 1398
+type(
+  string
+)
+"gtkBaseProps.ml" 38 1373 1405 "gtkBaseProps.ml" 38 1373 1412
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 38 1373 1379 "gtkBaseProps.ml" 38 1373 1413
+type(
+  ([> `widget ] as 'j, bool) Gobject.property
+)
+type(
+  ('j, bool) Gobject.property
+)
+"gtkBaseProps.ml" 39 1414 1422 "gtkBaseProps.ml" 39 1414 1436
+type(
+  ([> `widget ], int) Gobject.property
+)
+ident(
+  def height_request "gtkBaseProps.ml" 41 1505 1509 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 40 1465 1477 "gtkBaseProps.ml" 40 1465 1493
+type(
+  string
+)
+"gtkBaseProps.ml" 40 1465 1500 "gtkBaseProps.ml" 40 1465 1503
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBaseProps.ml" 40 1465 1471 "gtkBaseProps.ml" 40 1465 1504
+type(
+  ([> `widget ] as 'k, int) Gobject.property
+)
+type(
+  ('k, int) Gobject.property
+)
+"gtkBaseProps.ml" 41 1505 1513 "gtkBaseProps.ml" 41 1505 1521
+type(
+  ([> `widget ], bool) Gobject.property
+)
+ident(
+  def is_focus "gtkBaseProps.ml" 42 1582 1586 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 41 1505 1556 "gtkBaseProps.ml" 41 1505 1566
+type(
+  string
+)
+"gtkBaseProps.ml" 41 1505 1573 "gtkBaseProps.ml" 41 1505 1580
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 41 1505 1550 "gtkBaseProps.ml" 41 1505 1581
+type(
+  ([> `widget ] as 'l, bool) Gobject.property
+)
+type(
+  ('l, bool) Gobject.property
+)
+"gtkBaseProps.ml" 42 1582 1590 "gtkBaseProps.ml" 42 1582 1594
+type(
+  ([> `widget ], string) Gobject.property
+)
+ident(
+  def name "gtkBaseProps.ml" 43 1650 1654 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 42 1582 1629 "gtkBaseProps.ml" 42 1582 1635
+type(
+  string
+)
+"gtkBaseProps.ml" 42 1582 1642 "gtkBaseProps.ml" 42 1582 1648
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 42 1582 1623 "gtkBaseProps.ml" 42 1582 1649
+type(
+  ([> `widget ] as 'm, string) Gobject.property
+)
+type(
+  ('m, string) Gobject.property
+)
+"gtkBaseProps.ml" 43 1650 1658 "gtkBaseProps.ml" 43 1650 1664
+type(
+  ([> `widget ], Gtk.container Gtk.obj option) Gobject.property
+)
+ident(
+  def parent "gtkBaseProps.ml" 46 1782 1786 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 44 1693 1705 "gtkBaseProps.ml" 44 1693 1713
+type(
+  string
+)
+"gtkBaseProps.ml" 45 1715 1728 "gtkBaseProps.ml" 45 1715 1742
+type(
+  Gtk.container Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.container Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkBaseProps.ml" 44 1693 1699 "gtkBaseProps.ml" 45 1715 1781
+type(
+  ([> `widget ] as 'n, Gtk.container Gtk.obj option) Gobject.property
+)
+type(
+  ('n, Gtk.container Gtk.obj option) Gobject.property
+)
+"gtkBaseProps.ml" 46 1782 1790 "gtkBaseProps.ml" 46 1782 1806
+type(
+  ([> `widget ], bool) Gobject.property
+)
+ident(
+  def receives_default "gtkBaseProps.ml" 48 1881 1885 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 47 1835 1847 "gtkBaseProps.ml" 47 1835 1865
+type(
+  string
+)
+"gtkBaseProps.ml" 47 1835 1872 "gtkBaseProps.ml" 47 1835 1879
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 47 1835 1841 "gtkBaseProps.ml" 47 1835 1880
+type(
+  ([> `widget ] as 'o, bool) Gobject.property
+)
+type(
+  ('o, bool) Gobject.property
+)
+"gtkBaseProps.ml" 48 1881 1889 "gtkBaseProps.ml" 48 1881 1898
+type(
+  ([> `widget ], bool) Gobject.property
+)
+ident(
+  def sensitive "gtkBaseProps.ml" 50 1966 1970 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 49 1927 1939 "gtkBaseProps.ml" 49 1927 1950
+type(
+  string
+)
+"gtkBaseProps.ml" 49 1927 1957 "gtkBaseProps.ml" 49 1927 1964
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 49 1927 1933 "gtkBaseProps.ml" 49 1927 1965
+type(
+  ([> `widget ] as 'p, bool) Gobject.property
+)
+type(
+  ('p, bool) Gobject.property
+)
+"gtkBaseProps.ml" 50 1966 1974 "gtkBaseProps.ml" 50 1966 1979
+type(
+  ([> `widget ], Gtk.style) Gobject.property
+)
+ident(
+  def style "gtkBaseProps.ml" 52 2067 2071 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 51 2008 2020 "gtkBaseProps.ml" 51 2008 2027
+type(
+  string
+)
+"gtkBaseProps.ml" 51 2008 2035 "gtkBaseProps.ml" 51 2008 2042
+type(
+  Gtk.style Gobject.data_conv
+)
+type(
+  Gtk.style Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBaseProps.ml" 51 2008 2014 "gtkBaseProps.ml" 51 2008 2066
+type(
+  ([> `widget ] as 'q, Gtk.style) Gobject.property
+)
+type(
+  ('q, Gtk.style) Gobject.property
+)
+"gtkBaseProps.ml" 52 2067 2075 "gtkBaseProps.ml" 52 2067 2089
+type(
+  ([> `widget ], string) Gobject.property
+)
+ident(
+  def tooltip_markup "gtkBaseProps.ml" 54 2161 2165 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 53 2118 2130 "gtkBaseProps.ml" 53 2118 2146
+type(
+  string
+)
+"gtkBaseProps.ml" 53 2118 2153 "gtkBaseProps.ml" 53 2118 2159
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 53 2118 2124 "gtkBaseProps.ml" 53 2118 2160
+type(
+  ([> `widget ] as 'r, string) Gobject.property
+)
+type(
+  ('r, string) Gobject.property
+)
+"gtkBaseProps.ml" 54 2161 2169 "gtkBaseProps.ml" 54 2161 2181
+type(
+  ([> `widget ], string) Gobject.property
+)
+ident(
+  def tooltip_text "gtkBaseProps.ml" 56 2251 2255 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 55 2210 2222 "gtkBaseProps.ml" 55 2210 2236
+type(
+  string
+)
+"gtkBaseProps.ml" 55 2210 2243 "gtkBaseProps.ml" 55 2210 2249
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 55 2210 2216 "gtkBaseProps.ml" 55 2210 2250
+type(
+  ([> `widget ] as 's, string) Gobject.property
+)
+type(
+  ('s, string) Gobject.property
+)
+"gtkBaseProps.ml" 56 2251 2259 "gtkBaseProps.ml" 56 2251 2266
+type(
+  ([> `widget ], bool) Gobject.property
+)
+ident(
+  def visible "gtkBaseProps.ml" 57 2326 2330 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 56 2251 2301 "gtkBaseProps.ml" 56 2251 2310
+type(
+  string
+)
+"gtkBaseProps.ml" 56 2251 2317 "gtkBaseProps.ml" 56 2251 2324
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 56 2251 2295 "gtkBaseProps.ml" 56 2251 2325
+type(
+  ([> `widget ] as 't, bool) Gobject.property
+)
+type(
+  ('t, bool) Gobject.property
+)
+"gtkBaseProps.ml" 57 2326 2334 "gtkBaseProps.ml" 57 2326 2347
+type(
+  ([> `widget ], int) Gobject.property
+)
+ident(
+  def width_request "gtkBaseProps.ml" 58 2376 2414 "gtkBaseProps.ml" 59 2415 2420
+)
+"gtkBaseProps.ml" 58 2376 2388 "gtkBaseProps.ml" 58 2376 2403
+type(
+  string
+)
+"gtkBaseProps.ml" 58 2376 2410 "gtkBaseProps.ml" 58 2376 2413
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBaseProps.ml" 58 2376 2382 "gtkBaseProps.ml" 58 2376 2414
+type(
+  ([> `widget ] as 'u, int) Gobject.property
+)
+type(
+  ('u, int) Gobject.property
+)
+"gtkBaseProps.ml" 62 2460 2468 "gtkBaseProps.ml" 62 2460 2472
+type(
+  ([> `widget ], unit -> unit) GtkSignal.t
+)
+ident(
+  def show "gtkBaseProps.ml" 63 2530 2534 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 62 2460 2481 "gtkBaseProps.ml" 62 2460 2487
+type(
+  string
+)
+"gtkBaseProps.ml" 62 2460 2496 "gtkBaseProps.ml" 62 2460 2503
+type(
+  [> `widget ] as 'v
+)
+"gtkBaseProps.ml" 62 2460 2516 "gtkBaseProps.ml" 62 2460 2528
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 62 2460 2475 "gtkBaseProps.ml" 62 2460 2529
+type(
+  ('v, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 63 2530 2538 "gtkBaseProps.ml" 63 2530 2542
+type(
+  ([> `widget ], unit -> unit) GtkSignal.t
+)
+ident(
+  def hide "gtkBaseProps.ml" 64 2600 2604 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 63 2530 2551 "gtkBaseProps.ml" 63 2530 2557
+type(
+  string
+)
+"gtkBaseProps.ml" 63 2530 2566 "gtkBaseProps.ml" 63 2530 2573
+type(
+  [> `widget ] as 'w
+)
+"gtkBaseProps.ml" 63 2530 2586 "gtkBaseProps.ml" 63 2530 2598
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 63 2530 2545 "gtkBaseProps.ml" 63 2530 2599
+type(
+  ('w, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 64 2600 2608 "gtkBaseProps.ml" 64 2600 2611
+type(
+  ([> `widget ], unit -> unit) GtkSignal.t
+)
+ident(
+  def map "gtkBaseProps.ml" 65 2668 2672 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 64 2600 2620 "gtkBaseProps.ml" 64 2600 2625
+type(
+  string
+)
+"gtkBaseProps.ml" 64 2600 2634 "gtkBaseProps.ml" 64 2600 2641
+type(
+  [> `widget ] as 'x
+)
+"gtkBaseProps.ml" 64 2600 2654 "gtkBaseProps.ml" 64 2600 2666
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 64 2600 2614 "gtkBaseProps.ml" 64 2600 2667
+type(
+  ('x, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 65 2668 2676 "gtkBaseProps.ml" 65 2668 2681
+type(
+  ([> `widget ], unit -> unit) GtkSignal.t
+)
+ident(
+  def unmap "gtkBaseProps.ml" 66 2740 2744 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 65 2668 2690 "gtkBaseProps.ml" 65 2668 2697
+type(
+  string
+)
+"gtkBaseProps.ml" 65 2668 2706 "gtkBaseProps.ml" 65 2668 2713
+type(
+  [> `widget ] as 'y
+)
+"gtkBaseProps.ml" 65 2668 2726 "gtkBaseProps.ml" 65 2668 2738
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 65 2668 2684 "gtkBaseProps.ml" 65 2668 2739
+type(
+  ('y, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 66 2740 2748 "gtkBaseProps.ml" 66 2740 2761
+type(
+  ([> `widget ], x:int -> y:int -> kbd:bool -> Gtk.tooltip -> bool)
+  GtkSignal.t
+)
+ident(
+  def query_tooltip "gtkBaseProps.ml" 71 2998 3002 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 67 2764 2776 "gtkBaseProps.ml" 67 2764 2791
+type(
+  string
+)
+"gtkBaseProps.ml" 67 2764 2800 "gtkBaseProps.ml" 67 2764 2807
+type(
+  [> `widget ] as 'z
+)
+"gtkBaseProps.ml" 67 2764 2824 "gtkBaseProps.ml" 67 2764 2825
+type(
+  x:int -> y:int -> kbd:bool -> Gtk.tooltip -> bool
+)
+ident(
+  def f "gtkBaseProps.ml" 68 2829 2836 "gtkBaseProps.ml" 70 2948 2996
+)
+"gtkBaseProps.ml" 68 2829 2836 "gtkBaseProps.ml" 68 2829 2848
+type(
+  ret:bool Gobject.data_conv ->
+  int Gobject.data_conv ->
+  int Gobject.data_conv ->
+  bool Gobject.data_conv ->
+  Gtk.tooltip Gobject.data_conv ->
+  string -> (int -> int -> bool -> Gtk.tooltip -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal4_ret
+)
+"gtkBaseProps.ml" 68 2829 2854 "gtkBaseProps.ml" 68 2829 2861
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 68 2829 2862 "gtkBaseProps.ml" 68 2829 2865
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBaseProps.ml" 68 2829 2866 "gtkBaseProps.ml" 68 2829 2869
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBaseProps.ml" 68 2829 2870 "gtkBaseProps.ml" 68 2829 2877
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 69 2878 2888 "gtkBaseProps.ml" 69 2878 2895
+type(
+  Gtk.tooltip Gobject.data_conv
+)
+type(
+  Gtk.tooltip Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBaseProps.ml" 69 2878 2921 "gtkBaseProps.ml" 69 2878 2947
+type(
+  string
+)
+"gtkBaseProps.ml" 70 2948 2962 "gtkBaseProps.ml" 70 2948 2964
+type(
+  int
+)
+ident(
+  def x1 "gtkBaseProps.ml" 70 2948 2965 "gtkBaseProps.ml" 70 2948 2995
+)
+"gtkBaseProps.ml" 70 2948 2965 "gtkBaseProps.ml" 70 2948 2967
+type(
+  int
+)
+ident(
+  def x2 "gtkBaseProps.ml" 70 2948 2968 "gtkBaseProps.ml" 70 2948 2995
+)
+"gtkBaseProps.ml" 70 2948 2968 "gtkBaseProps.ml" 70 2948 2970
+type(
+  bool
+)
+ident(
+  def x3 "gtkBaseProps.ml" 70 2948 2974 "gtkBaseProps.ml" 70 2948 2995
+)
+"gtkBaseProps.ml" 70 2948 2974 "gtkBaseProps.ml" 70 2948 2975
+type(
+  x:int -> y:int -> kbd:bool -> Gtk.tooltip -> bool
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 67 2764 2824 "gtkBaseProps.ml" 67 2764 2825
+)
+"gtkBaseProps.ml" 70 2948 2979 "gtkBaseProps.ml" 70 2948 2981
+type(
+  int
+)
+ident(
+  int_ref x1 "gtkBaseProps.ml" 70 2948 2962 "gtkBaseProps.ml" 70 2948 2964
+)
+"gtkBaseProps.ml" 70 2948 2985 "gtkBaseProps.ml" 70 2948 2987
+type(
+  int
+)
+ident(
+  int_ref x2 "gtkBaseProps.ml" 70 2948 2965 "gtkBaseProps.ml" 70 2948 2967
+)
+"gtkBaseProps.ml" 70 2948 2993 "gtkBaseProps.ml" 70 2948 2995
+type(
+  bool
+)
+ident(
+  int_ref x3 "gtkBaseProps.ml" 70 2948 2968 "gtkBaseProps.ml" 70 2948 2970
+)
+"gtkBaseProps.ml" 70 2948 2974 "gtkBaseProps.ml" 70 2948 2995
+call(
+  tail
+)
+type(
+  Gtk.tooltip -> bool
+)
+"gtkBaseProps.ml" 70 2948 2957 "gtkBaseProps.ml" 70 2948 2996
+type(
+  int -> int -> bool -> Gtk.tooltip -> bool
+)
+"gtkBaseProps.ml" 68 2829 2836 "gtkBaseProps.ml" 70 2948 2996
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 67 2764 2820 "gtkBaseProps.ml" 70 2948 2996
+type(
+  (x:int -> y:int -> kbd:bool -> Gtk.tooltip -> bool) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 67 2764 2770 "gtkBaseProps.ml" 70 2948 2997
+type(
+  ('z, x:int -> y:int -> kbd:bool -> Gtk.tooltip -> bool) GtkSignal.t
+)
+"gtkBaseProps.ml" 71 2998 3006 "gtkBaseProps.ml" 71 2998 3013
+type(
+  ([> `widget ], unit -> unit) GtkSignal.t
+)
+ident(
+  def realize "gtkBaseProps.ml" 72 3074 3078 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 71 2998 3022 "gtkBaseProps.ml" 71 2998 3031
+type(
+  string
+)
+"gtkBaseProps.ml" 71 2998 3040 "gtkBaseProps.ml" 71 2998 3047
+type(
+  [> `widget ] as 'a1
+)
+"gtkBaseProps.ml" 71 2998 3060 "gtkBaseProps.ml" 71 2998 3072
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 71 2998 3016 "gtkBaseProps.ml" 71 2998 3073
+type(
+  ('a1, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 72 3074 3082 "gtkBaseProps.ml" 72 3074 3091
+type(
+  ([> `widget ], unit -> unit) GtkSignal.t
+)
+ident(
+  def unrealize "gtkBaseProps.ml" 74 3160 3164 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 73 3094 3106 "gtkBaseProps.ml" 73 3094 3117
+type(
+  string
+)
+"gtkBaseProps.ml" 73 3094 3126 "gtkBaseProps.ml" 73 3094 3133
+type(
+  [> `widget ] as 'b1
+)
+"gtkBaseProps.ml" 73 3094 3146 "gtkBaseProps.ml" 73 3094 3158
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 73 3094 3100 "gtkBaseProps.ml" 73 3094 3159
+type(
+  ('b1, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 74 3160 3168 "gtkBaseProps.ml" 74 3160 3181
+type(
+  ([> `widget ], GtkEnums.state_type -> unit) GtkSignal.t
+)
+ident(
+  def state_changed "gtkBaseProps.ml" 77 3320 3324 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 75 3184 3196 "gtkBaseProps.ml" 75 3184 3211
+type(
+  string
+)
+"gtkBaseProps.ml" 75 3184 3220 "gtkBaseProps.ml" 75 3184 3227
+type(
+  [> `widget ] as 'c1
+)
+"gtkBaseProps.ml" 75 3184 3244 "gtkBaseProps.ml" 75 3184 3245
+type(
+  GtkEnums.state_type -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 76 3249 3256 "gtkBaseProps.ml" 76 3249 3318
+)
+"gtkBaseProps.ml" 76 3249 3256 "gtkBaseProps.ml" 76 3249 3264
+type(
+  GtkEnums.state_type Gobject.data_conv ->
+  string -> (GtkEnums.state_type -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBaseProps.ml" 76 3249 3265 "gtkBaseProps.ml" 76 3249 3289
+type(
+  GtkEnums.state_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.state_type_conv
+)
+"gtkBaseProps.ml" 76 3249 3290 "gtkBaseProps.ml" 76 3249 3316
+type(
+  string
+)
+"gtkBaseProps.ml" 76 3249 3317 "gtkBaseProps.ml" 76 3249 3318
+type(
+  GtkEnums.state_type -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 75 3184 3244 "gtkBaseProps.ml" 75 3184 3245
+)
+"gtkBaseProps.ml" 76 3249 3256 "gtkBaseProps.ml" 76 3249 3318
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 75 3184 3240 "gtkBaseProps.ml" 76 3249 3318
+type(
+  (GtkEnums.state_type -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 75 3184 3190 "gtkBaseProps.ml" 76 3249 3319
+type(
+  ('c1, GtkEnums.state_type -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 77 3320 3328 "gtkBaseProps.ml" 77 3320 3338
+type(
+  ([> `widget ], Gtk.widget Gtk.obj option -> unit) GtkSignal.t
+)
+ident(
+  def parent_set "gtkBaseProps.ml" 81 3506 3510 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 78 3341 3353 "gtkBaseProps.ml" 78 3341 3365
+type(
+  string
+)
+"gtkBaseProps.ml" 78 3341 3374 "gtkBaseProps.ml" 78 3341 3381
+type(
+  [> `widget ] as 'd1
+)
+"gtkBaseProps.ml" 78 3341 3398 "gtkBaseProps.ml" 78 3341 3399
+type(
+  Gtk.widget Gtk.obj option -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 79 3403 3410 "gtkBaseProps.ml" 80 3470 3504
+)
+"gtkBaseProps.ml" 79 3403 3410 "gtkBaseProps.ml" 79 3403 3418
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv ->
+  string -> (Gtk.widget Gtk.obj option -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBaseProps.ml" 79 3403 3420 "gtkBaseProps.ml" 79 3403 3434
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkBaseProps.ml" 80 3470 3479 "gtkBaseProps.ml" 80 3470 3502
+type(
+  string
+)
+"gtkBaseProps.ml" 80 3470 3503 "gtkBaseProps.ml" 80 3470 3504
+type(
+  Gtk.widget Gtk.obj option -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 78 3341 3398 "gtkBaseProps.ml" 78 3341 3399
+)
+"gtkBaseProps.ml" 79 3403 3410 "gtkBaseProps.ml" 80 3470 3504
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 78 3341 3394 "gtkBaseProps.ml" 80 3470 3504
+type(
+  (Gtk.widget Gtk.obj option -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 78 3341 3347 "gtkBaseProps.ml" 80 3470 3505
+type(
+  ('d1, Gtk.widget Gtk.obj option -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 81 3506 3514 "gtkBaseProps.ml" 81 3506 3527
+type(
+  ([> `widget ], Gtk.rectangle -> unit) GtkSignal.t
+)
+ident(
+  def size_allocate "gtkBaseProps.ml" 84 3661 3665 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 82 3530 3542 "gtkBaseProps.ml" 82 3530 3557
+type(
+  string
+)
+"gtkBaseProps.ml" 82 3530 3566 "gtkBaseProps.ml" 82 3530 3573
+type(
+  [> `widget ] as 'e1
+)
+"gtkBaseProps.ml" 82 3530 3590 "gtkBaseProps.ml" 82 3530 3591
+type(
+  Gtk.rectangle -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 83 3595 3602 "gtkBaseProps.ml" 83 3595 3659
+)
+"gtkBaseProps.ml" 83 3595 3602 "gtkBaseProps.ml" 83 3595 3610
+type(
+  Gtk.rectangle Gobject.data_conv ->
+  string -> (Gtk.rectangle -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBaseProps.ml" 83 3595 3611 "gtkBaseProps.ml" 83 3595 3630
+type(
+  Gtk.rectangle Gobject.data_conv
+)
+ident(
+  ext_ref Internal.allocation
+)
+"gtkBaseProps.ml" 83 3595 3631 "gtkBaseProps.ml" 83 3595 3657
+type(
+  string
+)
+"gtkBaseProps.ml" 83 3595 3658 "gtkBaseProps.ml" 83 3595 3659
+type(
+  Gtk.rectangle -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 82 3530 3590 "gtkBaseProps.ml" 82 3530 3591
+)
+"gtkBaseProps.ml" 83 3595 3602 "gtkBaseProps.ml" 83 3595 3659
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 82 3530 3586 "gtkBaseProps.ml" 83 3595 3659
+type(
+  (Gtk.rectangle -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 82 3530 3536 "gtkBaseProps.ml" 83 3595 3660
+type(
+  ('e1, Gtk.rectangle -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 84 3661 3669 "gtkBaseProps.ml" 84 3661 3678
+type(
+  ([> `widget ], Gtk.style option -> unit) GtkSignal.t
+)
+ident(
+  def style_set "gtkBaseProps.ml" 88 3839 3843 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 85 3681 3693 "gtkBaseProps.ml" 85 3681 3704
+type(
+  string
+)
+"gtkBaseProps.ml" 85 3681 3713 "gtkBaseProps.ml" 85 3681 3720
+type(
+  [> `widget ] as 'f1
+)
+"gtkBaseProps.ml" 85 3681 3737 "gtkBaseProps.ml" 85 3681 3738
+type(
+  Gtk.style option -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 86 3742 3749 "gtkBaseProps.ml" 87 3804 3837
+)
+"gtkBaseProps.ml" 86 3742 3749 "gtkBaseProps.ml" 86 3742 3757
+type(
+  Gtk.style option Gobject.data_conv ->
+  string -> (Gtk.style option -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBaseProps.ml" 86 3742 3759 "gtkBaseProps.ml" 86 3742 3773
+type(
+  Gtk.style option Gobject.data_conv
+)
+type(
+  Gtk.style option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkBaseProps.ml" 87 3804 3813 "gtkBaseProps.ml" 87 3804 3835
+type(
+  string
+)
+"gtkBaseProps.ml" 87 3804 3836 "gtkBaseProps.ml" 87 3804 3837
+type(
+  Gtk.style option -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 85 3681 3737 "gtkBaseProps.ml" 85 3681 3738
+)
+"gtkBaseProps.ml" 86 3742 3749 "gtkBaseProps.ml" 87 3804 3837
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 85 3681 3733 "gtkBaseProps.ml" 87 3804 3837
+type(
+  (Gtk.style option -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 85 3681 3687 "gtkBaseProps.ml" 87 3804 3838
+type(
+  ('f1, Gtk.style option -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 88 3839 3847 "gtkBaseProps.ml" 88 3839 3860
+type(
+  ([> `widget ], Gtk.selection_data -> info:int -> time:int32 -> unit)
+  GtkSignal.t
+)
+ident(
+  def selection_get "gtkBaseProps.ml" 92 4080 4084 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 89 3863 3875 "gtkBaseProps.ml" 89 3863 3890
+type(
+  string
+)
+"gtkBaseProps.ml" 89 3863 3899 "gtkBaseProps.ml" 89 3863 3906
+type(
+  [> `widget ] as 'g1
+)
+"gtkBaseProps.ml" 89 3863 3923 "gtkBaseProps.ml" 89 3863 3924
+type(
+  Gtk.selection_data -> info:int -> time:int32 -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 90 3928 3935 "gtkBaseProps.ml" 91 4002 4078
+)
+"gtkBaseProps.ml" 90 3928 3935 "gtkBaseProps.ml" 90 3928 3943
+type(
+  Gtk.selection_data Gobject.data_conv ->
+  int Gobject.data_conv ->
+  int32 Gobject.data_conv ->
+  string -> (Gtk.selection_data -> int -> int32 -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal3
+)
+"gtkBaseProps.ml" 90 3928 3945 "gtkBaseProps.ml" 90 3928 3959
+type(
+  Gtk.selection_data Gobject.data_conv
+)
+type(
+  Gtk.selection_data Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkBaseProps.ml" 90 3928 3992 "gtkBaseProps.ml" 90 3928 3995
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBaseProps.ml" 90 3928 3996 "gtkBaseProps.ml" 90 3928 4001
+type(
+  int32 Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int32
+)
+"gtkBaseProps.ml" 91 4002 4011 "gtkBaseProps.ml" 91 4002 4037
+type(
+  string
+)
+"gtkBaseProps.ml" 91 4002 4043 "gtkBaseProps.ml" 91 4002 4045
+type(
+  Gtk.selection_data
+)
+ident(
+  def x1 "gtkBaseProps.ml" 91 4002 4046 "gtkBaseProps.ml" 91 4002 4077
+)
+"gtkBaseProps.ml" 91 4002 4046 "gtkBaseProps.ml" 91 4002 4048
+type(
+  int
+)
+ident(
+  def x2 "gtkBaseProps.ml" 91 4002 4049 "gtkBaseProps.ml" 91 4002 4077
+)
+"gtkBaseProps.ml" 91 4002 4049 "gtkBaseProps.ml" 91 4002 4051
+type(
+  int32
+)
+ident(
+  def x3 "gtkBaseProps.ml" 91 4002 4055 "gtkBaseProps.ml" 91 4002 4077
+)
+"gtkBaseProps.ml" 91 4002 4055 "gtkBaseProps.ml" 91 4002 4056
+type(
+  Gtk.selection_data -> info:int -> time:int32 -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 89 3863 3923 "gtkBaseProps.ml" 89 3863 3924
+)
+"gtkBaseProps.ml" 91 4002 4057 "gtkBaseProps.ml" 91 4002 4059
+type(
+  Gtk.selection_data
+)
+ident(
+  int_ref x1 "gtkBaseProps.ml" 91 4002 4043 "gtkBaseProps.ml" 91 4002 4045
+)
+"gtkBaseProps.ml" 91 4002 4066 "gtkBaseProps.ml" 91 4002 4068
+type(
+  int
+)
+ident(
+  int_ref x2 "gtkBaseProps.ml" 91 4002 4046 "gtkBaseProps.ml" 91 4002 4048
+)
+"gtkBaseProps.ml" 91 4002 4075 "gtkBaseProps.ml" 91 4002 4077
+type(
+  int32
+)
+ident(
+  int_ref x3 "gtkBaseProps.ml" 91 4002 4049 "gtkBaseProps.ml" 91 4002 4051
+)
+"gtkBaseProps.ml" 91 4002 4055 "gtkBaseProps.ml" 91 4002 4077
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkBaseProps.ml" 91 4002 4038 "gtkBaseProps.ml" 91 4002 4078
+type(
+  Gtk.selection_data -> int -> int32 -> unit
+)
+"gtkBaseProps.ml" 90 3928 3935 "gtkBaseProps.ml" 91 4002 4078
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 89 3863 3919 "gtkBaseProps.ml" 91 4002 4078
+type(
+  (Gtk.selection_data -> info:int -> time:int32 -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 89 3863 3869 "gtkBaseProps.ml" 91 4002 4079
+type(
+  ('g1, Gtk.selection_data -> info:int -> time:int32 -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 92 4080 4088 "gtkBaseProps.ml" 92 4080 4106
+type(
+  ([> `widget ], Gtk.selection_data -> time:int32 -> unit) GtkSignal.t
+)
+ident(
+  def selection_received "gtkBaseProps.ml" 96 4320 4324 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 93 4109 4121 "gtkBaseProps.ml" 93 4109 4141
+type(
+  string
+)
+"gtkBaseProps.ml" 93 4109 4150 "gtkBaseProps.ml" 93 4109 4157
+type(
+  [> `widget ] as 'h1
+)
+"gtkBaseProps.ml" 93 4109 4174 "gtkBaseProps.ml" 93 4109 4175
+type(
+  Gtk.selection_data -> time:int32 -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 94 4179 4186 "gtkBaseProps.ml" 95 4249 4318
+)
+"gtkBaseProps.ml" 94 4179 4186 "gtkBaseProps.ml" 94 4179 4194
+type(
+  Gtk.selection_data Gobject.data_conv ->
+  int32 Gobject.data_conv ->
+  string -> (Gtk.selection_data -> int32 -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkBaseProps.ml" 94 4179 4196 "gtkBaseProps.ml" 94 4179 4210
+type(
+  Gtk.selection_data Gobject.data_conv
+)
+type(
+  Gtk.selection_data Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkBaseProps.ml" 94 4179 4243 "gtkBaseProps.ml" 94 4179 4248
+type(
+  int32 Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int32
+)
+"gtkBaseProps.ml" 95 4249 4258 "gtkBaseProps.ml" 95 4249 4289
+type(
+  string
+)
+"gtkBaseProps.ml" 95 4249 4295 "gtkBaseProps.ml" 95 4249 4297
+type(
+  Gtk.selection_data
+)
+ident(
+  def x1 "gtkBaseProps.ml" 95 4249 4298 "gtkBaseProps.ml" 95 4249 4317
+)
+"gtkBaseProps.ml" 95 4249 4298 "gtkBaseProps.ml" 95 4249 4300
+type(
+  int32
+)
+ident(
+  def x2 "gtkBaseProps.ml" 95 4249 4304 "gtkBaseProps.ml" 95 4249 4317
+)
+"gtkBaseProps.ml" 95 4249 4304 "gtkBaseProps.ml" 95 4249 4305
+type(
+  Gtk.selection_data -> time:int32 -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 93 4109 4174 "gtkBaseProps.ml" 93 4109 4175
+)
+"gtkBaseProps.ml" 95 4249 4306 "gtkBaseProps.ml" 95 4249 4308
+type(
+  Gtk.selection_data
+)
+ident(
+  int_ref x1 "gtkBaseProps.ml" 95 4249 4295 "gtkBaseProps.ml" 95 4249 4297
+)
+"gtkBaseProps.ml" 95 4249 4315 "gtkBaseProps.ml" 95 4249 4317
+type(
+  int32
+)
+ident(
+  int_ref x2 "gtkBaseProps.ml" 95 4249 4298 "gtkBaseProps.ml" 95 4249 4300
+)
+"gtkBaseProps.ml" 95 4249 4304 "gtkBaseProps.ml" 95 4249 4317
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkBaseProps.ml" 95 4249 4290 "gtkBaseProps.ml" 95 4249 4318
+type(
+  Gtk.selection_data -> int32 -> unit
+)
+"gtkBaseProps.ml" 94 4179 4186 "gtkBaseProps.ml" 95 4249 4318
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 93 4109 4170 "gtkBaseProps.ml" 95 4249 4318
+type(
+  (Gtk.selection_data -> time:int32 -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 93 4109 4115 "gtkBaseProps.ml" 95 4249 4319
+type(
+  ('h1, Gtk.selection_data -> time:int32 -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 96 4320 4328 "gtkBaseProps.ml" 96 4320 4338
+type(
+  ([> `widget ], Gdk.drag_context -> unit) GtkSignal.t
+)
+ident(
+  def drag_begin "gtkBaseProps.ml" 100 4494 4498 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 97 4341 4353 "gtkBaseProps.ml" 97 4341 4365
+type(
+  string
+)
+"gtkBaseProps.ml" 97 4341 4374 "gtkBaseProps.ml" 97 4341 4381
+type(
+  [> `widget ] as 'i1
+)
+"gtkBaseProps.ml" 97 4341 4398 "gtkBaseProps.ml" 97 4341 4399
+type(
+  Gdk.drag_context -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 98 4403 4410 "gtkBaseProps.ml" 99 4458 4492
+)
+"gtkBaseProps.ml" 98 4403 4410 "gtkBaseProps.ml" 98 4403 4418
+type(
+  Gdk.drag_context Gobject.data_conv ->
+  string -> (Gdk.drag_context -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBaseProps.ml" 98 4403 4420 "gtkBaseProps.ml" 98 4403 4427
+type(
+  Gdk.drag_context Gobject.data_conv
+)
+type(
+  Gdk.drag_context Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBaseProps.ml" 99 4458 4467 "gtkBaseProps.ml" 99 4458 4490
+type(
+  string
+)
+"gtkBaseProps.ml" 99 4458 4491 "gtkBaseProps.ml" 99 4458 4492
+type(
+  Gdk.drag_context -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 97 4341 4398 "gtkBaseProps.ml" 97 4341 4399
+)
+"gtkBaseProps.ml" 98 4403 4410 "gtkBaseProps.ml" 99 4458 4492
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 97 4341 4394 "gtkBaseProps.ml" 99 4458 4492
+type(
+  (Gdk.drag_context -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 97 4341 4347 "gtkBaseProps.ml" 99 4458 4493
+type(
+  ('i1, Gdk.drag_context -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 100 4494 4502 "gtkBaseProps.ml" 100 4494 4518
+type(
+  ([> `widget ], Gdk.drag_context -> unit) GtkSignal.t
+)
+ident(
+  def drag_data_delete "gtkBaseProps.ml" 104 4686 4690 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 101 4521 4533 "gtkBaseProps.ml" 101 4521 4551
+type(
+  string
+)
+"gtkBaseProps.ml" 101 4521 4560 "gtkBaseProps.ml" 101 4521 4567
+type(
+  [> `widget ] as 'j1
+)
+"gtkBaseProps.ml" 101 4521 4584 "gtkBaseProps.ml" 101 4521 4585
+type(
+  Gdk.drag_context -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 102 4589 4596 "gtkBaseProps.ml" 103 4644 4684
+)
+"gtkBaseProps.ml" 102 4589 4596 "gtkBaseProps.ml" 102 4589 4604
+type(
+  Gdk.drag_context Gobject.data_conv ->
+  string -> (Gdk.drag_context -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBaseProps.ml" 102 4589 4606 "gtkBaseProps.ml" 102 4589 4613
+type(
+  Gdk.drag_context Gobject.data_conv
+)
+type(
+  Gdk.drag_context Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBaseProps.ml" 103 4644 4653 "gtkBaseProps.ml" 103 4644 4682
+type(
+  string
+)
+"gtkBaseProps.ml" 103 4644 4683 "gtkBaseProps.ml" 103 4644 4684
+type(
+  Gdk.drag_context -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 101 4521 4584 "gtkBaseProps.ml" 101 4521 4585
+)
+"gtkBaseProps.ml" 102 4589 4596 "gtkBaseProps.ml" 103 4644 4684
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 101 4521 4580 "gtkBaseProps.ml" 103 4644 4684
+type(
+  (Gdk.drag_context -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 101 4521 4527 "gtkBaseProps.ml" 103 4644 4685
+type(
+  ('j1, Gdk.drag_context -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 104 4686 4694 "gtkBaseProps.ml" 104 4686 4707
+type(
+  ([> `widget ],
+   Gdk.drag_context -> Gtk.selection_data -> info:int -> time:int32 -> unit)
+  GtkSignal.t
+)
+ident(
+  def drag_data_get "gtkBaseProps.ml" 110 4990 4994 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 105 4710 4722 "gtkBaseProps.ml" 105 4710 4737
+type(
+  string
+)
+"gtkBaseProps.ml" 105 4710 4746 "gtkBaseProps.ml" 105 4710 4753
+type(
+  [> `widget ] as 'k1
+)
+"gtkBaseProps.ml" 105 4710 4770 "gtkBaseProps.ml" 105 4710 4771
+type(
+  Gdk.drag_context -> Gtk.selection_data -> info:int -> time:int32 -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 106 4775 4782 "gtkBaseProps.ml" 109 4933 4988
+)
+"gtkBaseProps.ml" 106 4775 4782 "gtkBaseProps.ml" 106 4775 4790
+type(
+  Gdk.drag_context Gobject.data_conv ->
+  Gtk.selection_data Gobject.data_conv ->
+  int Gobject.data_conv ->
+  int32 Gobject.data_conv ->
+  string ->
+  (Gdk.drag_context -> Gtk.selection_data -> int -> int32 -> unit)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal4
+)
+"gtkBaseProps.ml" 106 4775 4792 "gtkBaseProps.ml" 106 4775 4799
+type(
+  Gdk.drag_context Gobject.data_conv
+)
+type(
+  Gdk.drag_context Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBaseProps.ml" 107 4830 4840 "gtkBaseProps.ml" 107 4830 4854
+type(
+  Gtk.selection_data Gobject.data_conv
+)
+type(
+  Gtk.selection_data Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkBaseProps.ml" 107 4830 4887 "gtkBaseProps.ml" 107 4830 4890
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBaseProps.ml" 107 4830 4891 "gtkBaseProps.ml" 107 4830 4896
+type(
+  int32 Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int32
+)
+"gtkBaseProps.ml" 108 4897 4906 "gtkBaseProps.ml" 108 4897 4932
+type(
+  string
+)
+"gtkBaseProps.ml" 109 4933 4947 "gtkBaseProps.ml" 109 4933 4949
+type(
+  Gdk.drag_context
+)
+ident(
+  def x1 "gtkBaseProps.ml" 109 4933 4950 "gtkBaseProps.ml" 109 4933 4987
+)
+"gtkBaseProps.ml" 109 4933 4950 "gtkBaseProps.ml" 109 4933 4952
+type(
+  Gtk.selection_data
+)
+ident(
+  def x2 "gtkBaseProps.ml" 109 4933 4953 "gtkBaseProps.ml" 109 4933 4987
+)
+"gtkBaseProps.ml" 109 4933 4953 "gtkBaseProps.ml" 109 4933 4955
+type(
+  int
+)
+ident(
+  def x3 "gtkBaseProps.ml" 109 4933 4956 "gtkBaseProps.ml" 109 4933 4987
+)
+"gtkBaseProps.ml" 109 4933 4956 "gtkBaseProps.ml" 109 4933 4958
+type(
+  int32
+)
+ident(
+  def x4 "gtkBaseProps.ml" 109 4933 4962 "gtkBaseProps.ml" 109 4933 4987
+)
+"gtkBaseProps.ml" 109 4933 4962 "gtkBaseProps.ml" 109 4933 4963
+type(
+  Gdk.drag_context -> Gtk.selection_data -> info:int -> time:int32 -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 105 4710 4770 "gtkBaseProps.ml" 105 4710 4771
+)
+"gtkBaseProps.ml" 109 4933 4964 "gtkBaseProps.ml" 109 4933 4966
+type(
+  Gdk.drag_context
+)
+ident(
+  int_ref x1 "gtkBaseProps.ml" 109 4933 4947 "gtkBaseProps.ml" 109 4933 4949
+)
+"gtkBaseProps.ml" 109 4933 4967 "gtkBaseProps.ml" 109 4933 4969
+type(
+  Gtk.selection_data
+)
+ident(
+  int_ref x2 "gtkBaseProps.ml" 109 4933 4950 "gtkBaseProps.ml" 109 4933 4952
+)
+"gtkBaseProps.ml" 109 4933 4976 "gtkBaseProps.ml" 109 4933 4978
+type(
+  int
+)
+ident(
+  int_ref x3 "gtkBaseProps.ml" 109 4933 4953 "gtkBaseProps.ml" 109 4933 4955
+)
+"gtkBaseProps.ml" 109 4933 4985 "gtkBaseProps.ml" 109 4933 4987
+type(
+  int32
+)
+ident(
+  int_ref x4 "gtkBaseProps.ml" 109 4933 4956 "gtkBaseProps.ml" 109 4933 4958
+)
+"gtkBaseProps.ml" 109 4933 4962 "gtkBaseProps.ml" 109 4933 4987
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkBaseProps.ml" 109 4933 4942 "gtkBaseProps.ml" 109 4933 4988
+type(
+  Gdk.drag_context -> Gtk.selection_data -> int -> int32 -> unit
+)
+"gtkBaseProps.ml" 106 4775 4782 "gtkBaseProps.ml" 109 4933 4988
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 105 4710 4766 "gtkBaseProps.ml" 109 4933 4988
+type(
+  (Gdk.drag_context -> Gtk.selection_data -> info:int -> time:int32 -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 105 4710 4716 "gtkBaseProps.ml" 109 4933 4989
+type(
+  ('k1,
+   Gdk.drag_context -> Gtk.selection_data -> info:int -> time:int32 -> unit)
+  GtkSignal.t
+)
+"gtkBaseProps.ml" 110 4990 4998 "gtkBaseProps.ml" 110 4990 5016
+type(
+  ([> `widget ],
+   Gdk.drag_context ->
+   x:int -> y:int -> Gtk.selection_data -> info:int -> time:int32 -> unit)
+  GtkSignal.t
+)
+ident(
+  def drag_data_received "gtkBaseProps.ml" 116 5335 5339 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 111 5019 5031 "gtkBaseProps.ml" 111 5019 5051
+type(
+  string
+)
+"gtkBaseProps.ml" 111 5019 5060 "gtkBaseProps.ml" 111 5019 5067
+type(
+  [> `widget ] as 'l1
+)
+"gtkBaseProps.ml" 111 5019 5084 "gtkBaseProps.ml" 111 5019 5085
+type(
+  Gdk.drag_context ->
+  x:int -> y:int -> Gtk.selection_data -> info:int -> time:int32 -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 112 5089 5096 "gtkBaseProps.ml" 115 5260 5333
+)
+"gtkBaseProps.ml" 112 5089 5096 "gtkBaseProps.ml" 112 5089 5104
+type(
+  Gdk.drag_context Gobject.data_conv ->
+  int Gobject.data_conv ->
+  int Gobject.data_conv ->
+  Gtk.selection_data Gobject.data_conv ->
+  int Gobject.data_conv ->
+  int32 Gobject.data_conv ->
+  string ->
+  (Gdk.drag_context ->
+   int -> int -> Gtk.selection_data -> int -> int32 -> unit)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal6
+)
+"gtkBaseProps.ml" 112 5089 5106 "gtkBaseProps.ml" 112 5089 5113
+type(
+  Gdk.drag_context Gobject.data_conv
+)
+type(
+  Gdk.drag_context Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBaseProps.ml" 112 5089 5144 "gtkBaseProps.ml" 112 5089 5147
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBaseProps.ml" 112 5089 5148 "gtkBaseProps.ml" 112 5089 5151
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBaseProps.ml" 113 5152 5162 "gtkBaseProps.ml" 113 5152 5176
+type(
+  Gtk.selection_data Gobject.data_conv
+)
+type(
+  Gtk.selection_data Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkBaseProps.ml" 113 5152 5209 "gtkBaseProps.ml" 113 5152 5212
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBaseProps.ml" 113 5152 5213 "gtkBaseProps.ml" 113 5152 5218
+type(
+  int32 Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int32
+)
+"gtkBaseProps.ml" 114 5219 5228 "gtkBaseProps.ml" 114 5219 5259
+type(
+  string
+)
+"gtkBaseProps.ml" 115 5260 5274 "gtkBaseProps.ml" 115 5260 5276
+type(
+  Gdk.drag_context
+)
+ident(
+  def x1 "gtkBaseProps.ml" 115 5260 5277 "gtkBaseProps.ml" 115 5260 5332
+)
+"gtkBaseProps.ml" 115 5260 5277 "gtkBaseProps.ml" 115 5260 5279
+type(
+  int
+)
+ident(
+  def x2 "gtkBaseProps.ml" 115 5260 5280 "gtkBaseProps.ml" 115 5260 5332
+)
+"gtkBaseProps.ml" 115 5260 5280 "gtkBaseProps.ml" 115 5260 5282
+type(
+  int
+)
+ident(
+  def x3 "gtkBaseProps.ml" 115 5260 5283 "gtkBaseProps.ml" 115 5260 5332
+)
+"gtkBaseProps.ml" 115 5260 5283 "gtkBaseProps.ml" 115 5260 5285
+type(
+  Gtk.selection_data
+)
+ident(
+  def x4 "gtkBaseProps.ml" 115 5260 5286 "gtkBaseProps.ml" 115 5260 5332
+)
+"gtkBaseProps.ml" 115 5260 5286 "gtkBaseProps.ml" 115 5260 5288
+type(
+  int
+)
+ident(
+  def x5 "gtkBaseProps.ml" 115 5260 5289 "gtkBaseProps.ml" 115 5260 5332
+)
+"gtkBaseProps.ml" 115 5260 5289 "gtkBaseProps.ml" 115 5260 5291
+type(
+  int32
+)
+ident(
+  def x6 "gtkBaseProps.ml" 115 5260 5295 "gtkBaseProps.ml" 115 5260 5332
+)
+"gtkBaseProps.ml" 115 5260 5295 "gtkBaseProps.ml" 115 5260 5296
+type(
+  Gdk.drag_context ->
+  x:int -> y:int -> Gtk.selection_data -> info:int -> time:int32 -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 111 5019 5084 "gtkBaseProps.ml" 111 5019 5085
+)
+"gtkBaseProps.ml" 115 5260 5297 "gtkBaseProps.ml" 115 5260 5299
+type(
+  Gdk.drag_context
+)
+ident(
+  int_ref x1 "gtkBaseProps.ml" 115 5260 5274 "gtkBaseProps.ml" 115 5260 5276
+)
+"gtkBaseProps.ml" 115 5260 5303 "gtkBaseProps.ml" 115 5260 5305
+type(
+  int
+)
+ident(
+  int_ref x2 "gtkBaseProps.ml" 115 5260 5277 "gtkBaseProps.ml" 115 5260 5279
+)
+"gtkBaseProps.ml" 115 5260 5309 "gtkBaseProps.ml" 115 5260 5311
+type(
+  int
+)
+ident(
+  int_ref x3 "gtkBaseProps.ml" 115 5260 5280 "gtkBaseProps.ml" 115 5260 5282
+)
+"gtkBaseProps.ml" 115 5260 5312 "gtkBaseProps.ml" 115 5260 5314
+type(
+  Gtk.selection_data
+)
+ident(
+  int_ref x4 "gtkBaseProps.ml" 115 5260 5283 "gtkBaseProps.ml" 115 5260 5285
+)
+"gtkBaseProps.ml" 115 5260 5321 "gtkBaseProps.ml" 115 5260 5323
+type(
+  int
+)
+ident(
+  int_ref x5 "gtkBaseProps.ml" 115 5260 5286 "gtkBaseProps.ml" 115 5260 5288
+)
+"gtkBaseProps.ml" 115 5260 5330 "gtkBaseProps.ml" 115 5260 5332
+type(
+  int32
+)
+ident(
+  int_ref x6 "gtkBaseProps.ml" 115 5260 5289 "gtkBaseProps.ml" 115 5260 5291
+)
+"gtkBaseProps.ml" 115 5260 5295 "gtkBaseProps.ml" 115 5260 5332
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkBaseProps.ml" 115 5260 5269 "gtkBaseProps.ml" 115 5260 5333
+type(
+  Gdk.drag_context ->
+  int -> int -> Gtk.selection_data -> int -> int32 -> unit
+)
+"gtkBaseProps.ml" 112 5089 5096 "gtkBaseProps.ml" 115 5260 5333
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 111 5019 5080 "gtkBaseProps.ml" 115 5260 5333
+type(
+  (Gdk.drag_context ->
+   x:int -> y:int -> Gtk.selection_data -> info:int -> time:int32 -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 111 5019 5025 "gtkBaseProps.ml" 115 5260 5334
+type(
+  ('l1,
+   Gdk.drag_context ->
+   x:int -> y:int -> Gtk.selection_data -> info:int -> time:int32 -> unit)
+  GtkSignal.t
+)
+"gtkBaseProps.ml" 116 5335 5343 "gtkBaseProps.ml" 116 5335 5352
+type(
+  ([> `widget ], Gdk.drag_context -> x:int -> y:int -> time:int32 -> bool)
+  GtkSignal.t
+)
+ident(
+  def drag_drop "gtkBaseProps.ml" 121 5591 5595 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 117 5355 5367 "gtkBaseProps.ml" 117 5355 5378
+type(
+  string
+)
+"gtkBaseProps.ml" 117 5355 5387 "gtkBaseProps.ml" 117 5355 5394
+type(
+  [> `widget ] as 'm1
+)
+"gtkBaseProps.ml" 117 5355 5411 "gtkBaseProps.ml" 117 5355 5412
+type(
+  Gdk.drag_context -> x:int -> y:int -> time:int32 -> bool
+)
+ident(
+  def f "gtkBaseProps.ml" 118 5416 5423 "gtkBaseProps.ml" 120 5534 5589
+)
+"gtkBaseProps.ml" 118 5416 5423 "gtkBaseProps.ml" 118 5416 5435
+type(
+  ret:bool Gobject.data_conv ->
+  Gdk.drag_context Gobject.data_conv ->
+  int Gobject.data_conv ->
+  int Gobject.data_conv ->
+  int32 Gobject.data_conv ->
+  string ->
+  (Gdk.drag_context -> int -> int -> int32 -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal4_ret
+)
+"gtkBaseProps.ml" 118 5416 5441 "gtkBaseProps.ml" 118 5416 5448
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 118 5416 5450 "gtkBaseProps.ml" 118 5416 5457
+type(
+  Gdk.drag_context Gobject.data_conv
+)
+type(
+  Gdk.drag_context Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBaseProps.ml" 118 5416 5488 "gtkBaseProps.ml" 118 5416 5491
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBaseProps.ml" 119 5492 5501 "gtkBaseProps.ml" 119 5492 5504
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBaseProps.ml" 119 5492 5505 "gtkBaseProps.ml" 119 5492 5510
+type(
+  int32 Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int32
+)
+"gtkBaseProps.ml" 119 5492 5511 "gtkBaseProps.ml" 119 5492 5533
+type(
+  string
+)
+"gtkBaseProps.ml" 120 5534 5548 "gtkBaseProps.ml" 120 5534 5550
+type(
+  Gdk.drag_context
+)
+ident(
+  def x1 "gtkBaseProps.ml" 120 5534 5551 "gtkBaseProps.ml" 120 5534 5588
+)
+"gtkBaseProps.ml" 120 5534 5551 "gtkBaseProps.ml" 120 5534 5553
+type(
+  int
+)
+ident(
+  def x2 "gtkBaseProps.ml" 120 5534 5554 "gtkBaseProps.ml" 120 5534 5588
+)
+"gtkBaseProps.ml" 120 5534 5554 "gtkBaseProps.ml" 120 5534 5556
+type(
+  int
+)
+ident(
+  def x3 "gtkBaseProps.ml" 120 5534 5557 "gtkBaseProps.ml" 120 5534 5588
+)
+"gtkBaseProps.ml" 120 5534 5557 "gtkBaseProps.ml" 120 5534 5559
+type(
+  int32
+)
+ident(
+  def x4 "gtkBaseProps.ml" 120 5534 5563 "gtkBaseProps.ml" 120 5534 5588
+)
+"gtkBaseProps.ml" 120 5534 5563 "gtkBaseProps.ml" 120 5534 5564
+type(
+  Gdk.drag_context -> x:int -> y:int -> time:int32 -> bool
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 117 5355 5411 "gtkBaseProps.ml" 117 5355 5412
+)
+"gtkBaseProps.ml" 120 5534 5565 "gtkBaseProps.ml" 120 5534 5567
+type(
+  Gdk.drag_context
+)
+ident(
+  int_ref x1 "gtkBaseProps.ml" 120 5534 5548 "gtkBaseProps.ml" 120 5534 5550
+)
+"gtkBaseProps.ml" 120 5534 5571 "gtkBaseProps.ml" 120 5534 5573
+type(
+  int
+)
+ident(
+  int_ref x2 "gtkBaseProps.ml" 120 5534 5551 "gtkBaseProps.ml" 120 5534 5553
+)
+"gtkBaseProps.ml" 120 5534 5577 "gtkBaseProps.ml" 120 5534 5579
+type(
+  int
+)
+ident(
+  int_ref x3 "gtkBaseProps.ml" 120 5534 5554 "gtkBaseProps.ml" 120 5534 5556
+)
+"gtkBaseProps.ml" 120 5534 5586 "gtkBaseProps.ml" 120 5534 5588
+type(
+  int32
+)
+ident(
+  int_ref x4 "gtkBaseProps.ml" 120 5534 5557 "gtkBaseProps.ml" 120 5534 5559
+)
+"gtkBaseProps.ml" 120 5534 5563 "gtkBaseProps.ml" 120 5534 5588
+call(
+  tail
+)
+type(
+  bool
+)
+"gtkBaseProps.ml" 120 5534 5543 "gtkBaseProps.ml" 120 5534 5589
+type(
+  Gdk.drag_context -> int -> int -> int32 -> bool
+)
+"gtkBaseProps.ml" 118 5416 5423 "gtkBaseProps.ml" 120 5534 5589
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 117 5355 5407 "gtkBaseProps.ml" 120 5534 5589
+type(
+  (Gdk.drag_context -> x:int -> y:int -> time:int32 -> bool) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 117 5355 5361 "gtkBaseProps.ml" 120 5534 5590
+type(
+  ('m1, Gdk.drag_context -> x:int -> y:int -> time:int32 -> bool) GtkSignal.t
+)
+"gtkBaseProps.ml" 121 5591 5599 "gtkBaseProps.ml" 121 5591 5607
+type(
+  ([> `widget ], Gdk.drag_context -> unit) GtkSignal.t
+)
+ident(
+  def drag_end "gtkBaseProps.ml" 125 5759 5763 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 122 5610 5622 "gtkBaseProps.ml" 122 5610 5632
+type(
+  string
+)
+"gtkBaseProps.ml" 122 5610 5641 "gtkBaseProps.ml" 122 5610 5648
+type(
+  [> `widget ] as 'n1
+)
+"gtkBaseProps.ml" 122 5610 5665 "gtkBaseProps.ml" 122 5610 5666
+type(
+  Gdk.drag_context -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 123 5670 5677 "gtkBaseProps.ml" 124 5725 5757
+)
+"gtkBaseProps.ml" 123 5670 5677 "gtkBaseProps.ml" 123 5670 5685
+type(
+  Gdk.drag_context Gobject.data_conv ->
+  string -> (Gdk.drag_context -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBaseProps.ml" 123 5670 5687 "gtkBaseProps.ml" 123 5670 5694
+type(
+  Gdk.drag_context Gobject.data_conv
+)
+type(
+  Gdk.drag_context Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBaseProps.ml" 124 5725 5734 "gtkBaseProps.ml" 124 5725 5755
+type(
+  string
+)
+"gtkBaseProps.ml" 124 5725 5756 "gtkBaseProps.ml" 124 5725 5757
+type(
+  Gdk.drag_context -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 122 5610 5665 "gtkBaseProps.ml" 122 5610 5666
+)
+"gtkBaseProps.ml" 123 5670 5677 "gtkBaseProps.ml" 124 5725 5757
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 122 5610 5661 "gtkBaseProps.ml" 124 5725 5757
+type(
+  (Gdk.drag_context -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 122 5610 5616 "gtkBaseProps.ml" 124 5725 5758
+type(
+  ('n1, Gdk.drag_context -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 125 5759 5767 "gtkBaseProps.ml" 125 5759 5777
+type(
+  ([> `widget ], Gdk.drag_context -> time:int32 -> unit) GtkSignal.t
+)
+ident(
+  def drag_leave "gtkBaseProps.ml" 129 5966 5970 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 126 5780 5792 "gtkBaseProps.ml" 126 5780 5804
+type(
+  string
+)
+"gtkBaseProps.ml" 126 5780 5813 "gtkBaseProps.ml" 126 5780 5820
+type(
+  [> `widget ] as 'o1
+)
+"gtkBaseProps.ml" 126 5780 5837 "gtkBaseProps.ml" 126 5780 5838
+type(
+  Gdk.drag_context -> time:int32 -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 127 5842 5849 "gtkBaseProps.ml" 128 5903 5964
+)
+"gtkBaseProps.ml" 127 5842 5849 "gtkBaseProps.ml" 127 5842 5857
+type(
+  Gdk.drag_context Gobject.data_conv ->
+  int32 Gobject.data_conv ->
+  string -> (Gdk.drag_context -> int32 -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"gtkBaseProps.ml" 127 5842 5859 "gtkBaseProps.ml" 127 5842 5866
+type(
+  Gdk.drag_context Gobject.data_conv
+)
+type(
+  Gdk.drag_context Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBaseProps.ml" 127 5842 5897 "gtkBaseProps.ml" 127 5842 5902
+type(
+  int32 Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int32
+)
+"gtkBaseProps.ml" 128 5903 5912 "gtkBaseProps.ml" 128 5903 5935
+type(
+  string
+)
+"gtkBaseProps.ml" 128 5903 5941 "gtkBaseProps.ml" 128 5903 5943
+type(
+  Gdk.drag_context
+)
+ident(
+  def x1 "gtkBaseProps.ml" 128 5903 5944 "gtkBaseProps.ml" 128 5903 5963
+)
+"gtkBaseProps.ml" 128 5903 5944 "gtkBaseProps.ml" 128 5903 5946
+type(
+  int32
+)
+ident(
+  def x2 "gtkBaseProps.ml" 128 5903 5950 "gtkBaseProps.ml" 128 5903 5963
+)
+"gtkBaseProps.ml" 128 5903 5950 "gtkBaseProps.ml" 128 5903 5951
+type(
+  Gdk.drag_context -> time:int32 -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 126 5780 5837 "gtkBaseProps.ml" 126 5780 5838
+)
+"gtkBaseProps.ml" 128 5903 5952 "gtkBaseProps.ml" 128 5903 5954
+type(
+  Gdk.drag_context
+)
+ident(
+  int_ref x1 "gtkBaseProps.ml" 128 5903 5941 "gtkBaseProps.ml" 128 5903 5943
+)
+"gtkBaseProps.ml" 128 5903 5961 "gtkBaseProps.ml" 128 5903 5963
+type(
+  int32
+)
+ident(
+  int_ref x2 "gtkBaseProps.ml" 128 5903 5944 "gtkBaseProps.ml" 128 5903 5946
+)
+"gtkBaseProps.ml" 128 5903 5950 "gtkBaseProps.ml" 128 5903 5963
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkBaseProps.ml" 128 5903 5936 "gtkBaseProps.ml" 128 5903 5964
+type(
+  Gdk.drag_context -> int32 -> unit
+)
+"gtkBaseProps.ml" 127 5842 5849 "gtkBaseProps.ml" 128 5903 5964
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 126 5780 5833 "gtkBaseProps.ml" 128 5903 5964
+type(
+  (Gdk.drag_context -> time:int32 -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 126 5780 5786 "gtkBaseProps.ml" 128 5903 5965
+type(
+  ('o1, Gdk.drag_context -> time:int32 -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 129 5966 5974 "gtkBaseProps.ml" 129 5966 5985
+type(
+  ([> `widget ], Gdk.drag_context -> x:int -> y:int -> time:int32 -> bool)
+  GtkSignal.t
+)
+ident(
+  def drag_motion "gtkBaseProps.ml" 134 6228 6232 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 130 5988 6000 "gtkBaseProps.ml" 130 5988 6013
+type(
+  string
+)
+"gtkBaseProps.ml" 130 5988 6022 "gtkBaseProps.ml" 130 5988 6029
+type(
+  [> `widget ] as 'p1
+)
+"gtkBaseProps.ml" 130 5988 6046 "gtkBaseProps.ml" 130 5988 6047
+type(
+  Gdk.drag_context -> x:int -> y:int -> time:int32 -> bool
+)
+ident(
+  def f "gtkBaseProps.ml" 131 6051 6058 "gtkBaseProps.ml" 133 6171 6226
+)
+"gtkBaseProps.ml" 131 6051 6058 "gtkBaseProps.ml" 131 6051 6070
+type(
+  ret:bool Gobject.data_conv ->
+  Gdk.drag_context Gobject.data_conv ->
+  int Gobject.data_conv ->
+  int Gobject.data_conv ->
+  int32 Gobject.data_conv ->
+  string ->
+  (Gdk.drag_context -> int -> int -> int32 -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal4_ret
+)
+"gtkBaseProps.ml" 131 6051 6076 "gtkBaseProps.ml" 131 6051 6083
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 131 6051 6085 "gtkBaseProps.ml" 131 6051 6092
+type(
+  Gdk.drag_context Gobject.data_conv
+)
+type(
+  Gdk.drag_context Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBaseProps.ml" 131 6051 6123 "gtkBaseProps.ml" 131 6051 6126
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBaseProps.ml" 132 6127 6136 "gtkBaseProps.ml" 132 6127 6139
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBaseProps.ml" 132 6127 6140 "gtkBaseProps.ml" 132 6127 6145
+type(
+  int32 Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int32
+)
+"gtkBaseProps.ml" 132 6127 6146 "gtkBaseProps.ml" 132 6127 6170
+type(
+  string
+)
+"gtkBaseProps.ml" 133 6171 6185 "gtkBaseProps.ml" 133 6171 6187
+type(
+  Gdk.drag_context
+)
+ident(
+  def x1 "gtkBaseProps.ml" 133 6171 6188 "gtkBaseProps.ml" 133 6171 6225
+)
+"gtkBaseProps.ml" 133 6171 6188 "gtkBaseProps.ml" 133 6171 6190
+type(
+  int
+)
+ident(
+  def x2 "gtkBaseProps.ml" 133 6171 6191 "gtkBaseProps.ml" 133 6171 6225
+)
+"gtkBaseProps.ml" 133 6171 6191 "gtkBaseProps.ml" 133 6171 6193
+type(
+  int
+)
+ident(
+  def x3 "gtkBaseProps.ml" 133 6171 6194 "gtkBaseProps.ml" 133 6171 6225
+)
+"gtkBaseProps.ml" 133 6171 6194 "gtkBaseProps.ml" 133 6171 6196
+type(
+  int32
+)
+ident(
+  def x4 "gtkBaseProps.ml" 133 6171 6200 "gtkBaseProps.ml" 133 6171 6225
+)
+"gtkBaseProps.ml" 133 6171 6200 "gtkBaseProps.ml" 133 6171 6201
+type(
+  Gdk.drag_context -> x:int -> y:int -> time:int32 -> bool
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 130 5988 6046 "gtkBaseProps.ml" 130 5988 6047
+)
+"gtkBaseProps.ml" 133 6171 6202 "gtkBaseProps.ml" 133 6171 6204
+type(
+  Gdk.drag_context
+)
+ident(
+  int_ref x1 "gtkBaseProps.ml" 133 6171 6185 "gtkBaseProps.ml" 133 6171 6187
+)
+"gtkBaseProps.ml" 133 6171 6208 "gtkBaseProps.ml" 133 6171 6210
+type(
+  int
+)
+ident(
+  int_ref x2 "gtkBaseProps.ml" 133 6171 6188 "gtkBaseProps.ml" 133 6171 6190
+)
+"gtkBaseProps.ml" 133 6171 6214 "gtkBaseProps.ml" 133 6171 6216
+type(
+  int
+)
+ident(
+  int_ref x3 "gtkBaseProps.ml" 133 6171 6191 "gtkBaseProps.ml" 133 6171 6193
+)
+"gtkBaseProps.ml" 133 6171 6223 "gtkBaseProps.ml" 133 6171 6225
+type(
+  int32
+)
+ident(
+  int_ref x4 "gtkBaseProps.ml" 133 6171 6194 "gtkBaseProps.ml" 133 6171 6196
+)
+"gtkBaseProps.ml" 133 6171 6200 "gtkBaseProps.ml" 133 6171 6225
+call(
+  tail
+)
+type(
+  bool
+)
+"gtkBaseProps.ml" 133 6171 6180 "gtkBaseProps.ml" 133 6171 6226
+type(
+  Gdk.drag_context -> int -> int -> int32 -> bool
+)
+"gtkBaseProps.ml" 131 6051 6058 "gtkBaseProps.ml" 133 6171 6226
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 130 5988 6042 "gtkBaseProps.ml" 133 6171 6226
+type(
+  (Gdk.drag_context -> x:int -> y:int -> time:int32 -> bool) ->
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 130 5988 5994 "gtkBaseProps.ml" 133 6171 6227
+type(
+  ('p1, Gdk.drag_context -> x:int -> y:int -> time:int32 -> bool) GtkSignal.t
+)
+"gtkBaseProps.ml" 134 6228 6236 "gtkBaseProps.ml" 134 6228 6241
+type(
+  ([> `widget ], GdkEvent.any -> bool) GtkSignal.t
+)
+ident(
+  def event "gtkBaseProps.ml" 138 6407 6411 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 135 6244 6256 "gtkBaseProps.ml" 135 6244 6263
+type(
+  string
+)
+"gtkBaseProps.ml" 135 6244 6272 "gtkBaseProps.ml" 135 6244 6279
+type(
+  [> `widget ] as 'q1
+)
+"gtkBaseProps.ml" 135 6244 6296 "gtkBaseProps.ml" 135 6244 6297
+type(
+  GdkEvent.any -> bool
+)
+ident(
+  def f "gtkBaseProps.ml" 136 6301 6308 "gtkBaseProps.ml" 137 6376 6405
+)
+"gtkBaseProps.ml" 136 6301 6308 "gtkBaseProps.ml" 136 6301 6320
+type(
+  ret:bool Gobject.data_conv ->
+  GdkEvent.any Gobject.data_conv ->
+  string -> (GdkEvent.any -> bool) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1_ret
+)
+"gtkBaseProps.ml" 136 6301 6326 "gtkBaseProps.ml" 136 6301 6333
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 136 6301 6335 "gtkBaseProps.ml" 136 6301 6349
+type(
+  GdkEvent.any Gobject.data_conv
+)
+type(
+  GdkEvent.any Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkBaseProps.ml" 137 6376 6385 "gtkBaseProps.ml" 137 6376 6403
+type(
+  string
+)
+"gtkBaseProps.ml" 137 6376 6404 "gtkBaseProps.ml" 137 6376 6405
+type(
+  GdkEvent.any -> bool
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 135 6244 6296 "gtkBaseProps.ml" 135 6244 6297
+)
+"gtkBaseProps.ml" 136 6301 6308 "gtkBaseProps.ml" 137 6376 6405
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 135 6244 6292 "gtkBaseProps.ml" 137 6376 6405
+type(
+  (GdkEvent.any -> bool) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 135 6244 6250 "gtkBaseProps.ml" 137 6376 6406
+type(
+  ('q1, GdkEvent.any -> bool) GtkSignal.t
+)
+"gtkBaseProps.ml" 138 6407 6415 "gtkBaseProps.ml" 138 6407 6426
+type(
+  ([> `widget ], GdkEvent.any -> unit) GtkSignal.t
+)
+ident(
+  def event_after "gtkBaseProps.ml" 141 6550 6586 "gtkBaseProps.ml" 142 6587 6592
+)
+"gtkBaseProps.ml" 139 6429 6441 "gtkBaseProps.ml" 139 6429 6454
+type(
+  string
+)
+"gtkBaseProps.ml" 139 6429 6463 "gtkBaseProps.ml" 139 6429 6470
+type(
+  [> `widget ] as 'r1
+)
+"gtkBaseProps.ml" 139 6429 6487 "gtkBaseProps.ml" 139 6429 6488
+type(
+  GdkEvent.any -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 140 6492 6499 "gtkBaseProps.ml" 141 6550 6585
+)
+"gtkBaseProps.ml" 140 6492 6499 "gtkBaseProps.ml" 140 6492 6507
+type(
+  GdkEvent.any Gobject.data_conv ->
+  string -> (GdkEvent.any -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBaseProps.ml" 140 6492 6509 "gtkBaseProps.ml" 140 6492 6523
+type(
+  GdkEvent.any Gobject.data_conv
+)
+type(
+  GdkEvent.any Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkBaseProps.ml" 141 6550 6559 "gtkBaseProps.ml" 141 6550 6583
+type(
+  string
+)
+"gtkBaseProps.ml" 141 6550 6584 "gtkBaseProps.ml" 141 6550 6585
+type(
+  GdkEvent.any -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 139 6429 6487 "gtkBaseProps.ml" 139 6429 6488
+)
+"gtkBaseProps.ml" 140 6492 6499 "gtkBaseProps.ml" 141 6550 6585
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 139 6429 6483 "gtkBaseProps.ml" 141 6550 6585
+type(
+  (GdkEvent.any -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 139 6429 6435 "gtkBaseProps.ml" 141 6550 6586
+type(
+  ('r1, GdkEvent.any -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 150 6839 6845 "gtkBaseProps.ml" 150 6839 6849
+type(
+  'a Gobject.obj -> Gtk.container Gtk.obj
+)
+ident(
+  def cast "gtkBaseProps.ml" 151 6900 6902 "gtkBaseProps.ml" 192 8747 8750
+)
+"gtkBaseProps.ml" 150 6839 6850 "gtkBaseProps.ml" 150 6839 6851
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBaseProps.ml" 150 6839 6852 "gtkBaseProps.ml" 150 6839 6899
+)
+"gtkBaseProps.ml" 150 6839 6874 "gtkBaseProps.ml" 150 6839 6882
+type(
+  'a Gobject.obj -> string -> Gtk.container Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBaseProps.ml" 150 6839 6883 "gtkBaseProps.ml" 150 6839 6884
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBaseProps.ml" 150 6839 6850 "gtkBaseProps.ml" 150 6839 6851
+)
+"gtkBaseProps.ml" 150 6839 6885 "gtkBaseProps.ml" 150 6839 6899
+type(
+  string
+)
+"gtkBaseProps.ml" 150 6839 6874 "gtkBaseProps.ml" 150 6839 6899
+call(
+  tail
+)
+type(
+  Gtk.container Gtk.obj
+)
+type(
+  Gtk.container Gtk.obj
+)
+"gtkBaseProps.ml" 152 6920 6928 "gtkBaseProps.ml" 152 6920 6940
+type(
+  ([> `container ], int) Gobject.property
+)
+ident(
+  def border_width "gtkBaseProps.ml" 154 7011 7015 "gtkBaseProps.ml" 158 7230 7235
+)
+"gtkBaseProps.ml" 153 6972 6984 "gtkBaseProps.ml" 153 6972 6998
+type(
+  string
+)
+"gtkBaseProps.ml" 153 6972 7005 "gtkBaseProps.ml" 153 6972 7009
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.uint
+)
+"gtkBaseProps.ml" 153 6972 6978 "gtkBaseProps.ml" 153 6972 7010
+type(
+  ([> `container ] as 'b, int) Gobject.property
+)
+type(
+  ('b, int) Gobject.property
+)
+"gtkBaseProps.ml" 154 7011 7019 "gtkBaseProps.ml" 154 7011 7024
+type(
+  ([> `container ], Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  def child "gtkBaseProps.ml" 156 7120 7124 "gtkBaseProps.ml" 158 7230 7235
+)
+"gtkBaseProps.ml" 155 7056 7068 "gtkBaseProps.ml" 155 7056 7075
+type(
+  string
+)
+"gtkBaseProps.ml" 155 7056 7083 "gtkBaseProps.ml" 155 7056 7090
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBaseProps.ml" 155 7056 7062 "gtkBaseProps.ml" 155 7056 7119
+type(
+  ([> `container ] as 'c, Gtk.widget Gtk.obj) Gobject.property
+)
+type(
+  ('c, Gtk.widget Gtk.obj) Gobject.property
+)
+"gtkBaseProps.ml" 156 7120 7128 "gtkBaseProps.ml" 156 7120 7139
+type(
+  ([> `container ], GtkEnums.resize_mode) Gobject.property
+)
+ident(
+  def resize_mode "gtkBaseProps.ml" 157 7171 7229 "gtkBaseProps.ml" 158 7230 7235
+)
+"gtkBaseProps.ml" 157 7171 7183 "gtkBaseProps.ml" 157 7171 7196
+type(
+  string
+)
+"gtkBaseProps.ml" 157 7171 7203 "gtkBaseProps.ml" 157 7171 7228
+type(
+  GtkEnums.resize_mode Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.resize_mode_conv
+)
+"gtkBaseProps.ml" 157 7171 7177 "gtkBaseProps.ml" 157 7171 7229
+type(
+  ([> `container ] as 'd, GtkEnums.resize_mode) Gobject.property
+)
+type(
+  ('d, GtkEnums.resize_mode) Gobject.property
+)
+"gtkBaseProps.ml" 161 7275 7283 "gtkBaseProps.ml" 161 7275 7286
+type(
+  ([> `container ], Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  def add "gtkBaseProps.ml" 164 7423 7427 "gtkBaseProps.ml" 173 7864 7869
+)
+"gtkBaseProps.ml" 162 7289 7301 "gtkBaseProps.ml" 162 7289 7306
+type(
+  string
+)
+"gtkBaseProps.ml" 162 7289 7315 "gtkBaseProps.ml" 162 7289 7325
+type(
+  [> `container ] as 'e
+)
+"gtkBaseProps.ml" 162 7289 7342 "gtkBaseProps.ml" 162 7289 7343
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 163 7347 7354 "gtkBaseProps.ml" 163 7347 7421
+)
+"gtkBaseProps.ml" 163 7347 7354 "gtkBaseProps.ml" 163 7347 7362
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv ->
+  string -> (Gtk.widget Gtk.obj -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBaseProps.ml" 163 7347 7364 "gtkBaseProps.ml" 163 7347 7371
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBaseProps.ml" 163 7347 7400 "gtkBaseProps.ml" 163 7347 7419
+type(
+  string
+)
+"gtkBaseProps.ml" 163 7347 7420 "gtkBaseProps.ml" 163 7347 7421
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 162 7289 7342 "gtkBaseProps.ml" 162 7289 7343
+)
+"gtkBaseProps.ml" 163 7347 7354 "gtkBaseProps.ml" 163 7347 7421
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 162 7289 7338 "gtkBaseProps.ml" 163 7347 7421
+type(
+  (Gtk.widget Gtk.obj -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 162 7289 7295 "gtkBaseProps.ml" 163 7347 7422
+type(
+  ('e, Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 164 7423 7431 "gtkBaseProps.ml" 164 7423 7437
+type(
+  ([> `container ], Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+ident(
+  def remove "gtkBaseProps.ml" 167 7580 7584 "gtkBaseProps.ml" 173 7864 7869
+)
+"gtkBaseProps.ml" 165 7440 7452 "gtkBaseProps.ml" 165 7440 7460
+type(
+  string
+)
+"gtkBaseProps.ml" 165 7440 7469 "gtkBaseProps.ml" 165 7440 7479
+type(
+  [> `container ] as 'f
+)
+"gtkBaseProps.ml" 165 7440 7496 "gtkBaseProps.ml" 165 7440 7497
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 166 7501 7508 "gtkBaseProps.ml" 166 7501 7578
+)
+"gtkBaseProps.ml" 166 7501 7508 "gtkBaseProps.ml" 166 7501 7516
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv ->
+  string -> (Gtk.widget Gtk.obj -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBaseProps.ml" 166 7501 7518 "gtkBaseProps.ml" 166 7501 7525
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBaseProps.ml" 166 7501 7554 "gtkBaseProps.ml" 166 7501 7576
+type(
+  string
+)
+"gtkBaseProps.ml" 166 7501 7577 "gtkBaseProps.ml" 166 7501 7578
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 165 7440 7496 "gtkBaseProps.ml" 165 7440 7497
+)
+"gtkBaseProps.ml" 166 7501 7508 "gtkBaseProps.ml" 166 7501 7578
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 165 7440 7492 "gtkBaseProps.ml" 166 7501 7578
+type(
+  (Gtk.widget Gtk.obj -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 165 7440 7446 "gtkBaseProps.ml" 166 7501 7579
+type(
+  ('f, Gtk.widget Gtk.obj -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 167 7580 7588 "gtkBaseProps.ml" 167 7580 7600
+type(
+  ([> `container ], unit -> unit) GtkSignal.t
+)
+ident(
+  def check_resize "gtkBaseProps.ml" 169 7675 7679 "gtkBaseProps.ml" 173 7864 7869
+)
+"gtkBaseProps.ml" 168 7603 7615 "gtkBaseProps.ml" 168 7603 7629
+type(
+  string
+)
+"gtkBaseProps.ml" 168 7603 7638 "gtkBaseProps.ml" 168 7603 7648
+type(
+  [> `container ] as 'g
+)
+"gtkBaseProps.ml" 168 7603 7661 "gtkBaseProps.ml" 168 7603 7673
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 168 7603 7609 "gtkBaseProps.ml" 168 7603 7674
+type(
+  ('g, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 169 7675 7683 "gtkBaseProps.ml" 169 7675 7692
+type(
+  ([> `container ], Gtk.widget Gtk.obj option -> unit) GtkSignal.t
+)
+ident(
+  def set_focus "gtkBaseProps.ml" 172 7826 7863 "gtkBaseProps.ml" 173 7864 7869
+)
+"gtkBaseProps.ml" 170 7695 7707 "gtkBaseProps.ml" 170 7695 7718
+type(
+  string
+)
+"gtkBaseProps.ml" 170 7695 7727 "gtkBaseProps.ml" 170 7695 7737
+type(
+  [> `container ] as 'h
+)
+"gtkBaseProps.ml" 170 7695 7754 "gtkBaseProps.ml" 170 7695 7755
+type(
+  Gtk.widget Gtk.obj option -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 171 7759 7766 "gtkBaseProps.ml" 172 7826 7862
+)
+"gtkBaseProps.ml" 171 7759 7766 "gtkBaseProps.ml" 171 7759 7774
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv ->
+  string -> (Gtk.widget Gtk.obj option -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBaseProps.ml" 171 7759 7776 "gtkBaseProps.ml" 171 7759 7790
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkBaseProps.ml" 172 7826 7835 "gtkBaseProps.ml" 172 7826 7860
+type(
+  string
+)
+"gtkBaseProps.ml" 172 7826 7861 "gtkBaseProps.ml" 172 7826 7862
+type(
+  Gtk.widget Gtk.obj option -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 170 7695 7754 "gtkBaseProps.ml" 170 7695 7755
+)
+"gtkBaseProps.ml" 171 7759 7766 "gtkBaseProps.ml" 172 7826 7862
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 170 7695 7750 "gtkBaseProps.ml" 172 7826 7862
+type(
+  (Gtk.widget Gtk.obj option -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 170 7695 7701 "gtkBaseProps.ml" 172 7826 7863
+type(
+  ('h, Gtk.widget Gtk.obj option -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 195 8772 8778 "gtkBaseProps.ml" 195 8772 8782
+type(
+  'a Gobject.obj -> Gtk.bin Gtk.obj
+)
+ident(
+  def cast "gtkBaseProps.ml" 196 8821 8823 "gtkBaseProps.ml" 197 8895 8898
+)
+"gtkBaseProps.ml" 195 8772 8783 "gtkBaseProps.ml" 195 8772 8784
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBaseProps.ml" 195 8772 8785 "gtkBaseProps.ml" 195 8772 8820
+)
+"gtkBaseProps.ml" 195 8772 8801 "gtkBaseProps.ml" 195 8772 8809
+type(
+  'a Gobject.obj -> string -> Gtk.bin Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBaseProps.ml" 195 8772 8810 "gtkBaseProps.ml" 195 8772 8811
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBaseProps.ml" 195 8772 8783 "gtkBaseProps.ml" 195 8772 8784
+)
+"gtkBaseProps.ml" 195 8772 8812 "gtkBaseProps.ml" 195 8772 8820
+type(
+  string
+)
+"gtkBaseProps.ml" 195 8772 8801 "gtkBaseProps.ml" 195 8772 8820
+call(
+  tail
+)
+type(
+  Gtk.bin Gtk.obj
+)
+type(
+  Gtk.bin Gtk.obj
+)
+"gtkBaseProps.ml" 200 8921 8927 "gtkBaseProps.ml" 200 8921 8931
+type(
+  'a Gobject.obj -> Gtk.item Gtk.obj
+)
+ident(
+  def cast "gtkBaseProps.ml" 201 8972 8974 "gtkBaseProps.ml" 210 9433 9436
+)
+"gtkBaseProps.ml" 200 8921 8932 "gtkBaseProps.ml" 200 8921 8933
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBaseProps.ml" 200 8921 8934 "gtkBaseProps.ml" 200 8921 8971
+)
+"gtkBaseProps.ml" 200 8921 8951 "gtkBaseProps.ml" 200 8921 8959
+type(
+  'a Gobject.obj -> string -> Gtk.item Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBaseProps.ml" 200 8921 8960 "gtkBaseProps.ml" 200 8921 8961
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBaseProps.ml" 200 8921 8932 "gtkBaseProps.ml" 200 8921 8933
+)
+"gtkBaseProps.ml" 200 8921 8962 "gtkBaseProps.ml" 200 8921 8971
+type(
+  string
+)
+"gtkBaseProps.ml" 200 8921 8951 "gtkBaseProps.ml" 200 8921 8971
+call(
+  tail
+)
+type(
+  Gtk.item Gtk.obj
+)
+type(
+  Gtk.item Gtk.obj
+)
+"gtkBaseProps.ml" 203 9011 9019 "gtkBaseProps.ml" 203 9011 9025
+type(
+  ([> `item ], unit -> unit) GtkSignal.t
+)
+ident(
+  def select "gtkBaseProps.ml" 204 9083 9087 "gtkBaseProps.ml" 206 9231 9236
+)
+"gtkBaseProps.ml" 203 9011 9034 "gtkBaseProps.ml" 203 9011 9042
+type(
+  string
+)
+"gtkBaseProps.ml" 203 9011 9051 "gtkBaseProps.ml" 203 9011 9056
+type(
+  [> `item ] as 'b
+)
+"gtkBaseProps.ml" 203 9011 9069 "gtkBaseProps.ml" 203 9011 9081
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 203 9011 9028 "gtkBaseProps.ml" 203 9011 9082
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 204 9083 9091 "gtkBaseProps.ml" 204 9083 9099
+type(
+  ([> `item ], unit -> unit) GtkSignal.t
+)
+ident(
+  def deselect "gtkBaseProps.ml" 205 9159 9163 "gtkBaseProps.ml" 206 9231 9236
+)
+"gtkBaseProps.ml" 204 9083 9108 "gtkBaseProps.ml" 204 9083 9118
+type(
+  string
+)
+"gtkBaseProps.ml" 204 9083 9127 "gtkBaseProps.ml" 204 9083 9132
+type(
+  [> `item ] as 'c
+)
+"gtkBaseProps.ml" 204 9083 9145 "gtkBaseProps.ml" 204 9083 9157
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 204 9083 9102 "gtkBaseProps.ml" 204 9083 9158
+type(
+  ('c, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 205 9159 9167 "gtkBaseProps.ml" 205 9159 9173
+type(
+  ([> `item ], unit -> unit) GtkSignal.t
+)
+ident(
+  def toggle "gtkBaseProps.ml" 205 9159 9230 "gtkBaseProps.ml" 206 9231 9236
+)
+"gtkBaseProps.ml" 205 9159 9182 "gtkBaseProps.ml" 205 9159 9190
+type(
+  string
+)
+"gtkBaseProps.ml" 205 9159 9199 "gtkBaseProps.ml" 205 9159 9204
+type(
+  [> `item ] as 'd
+)
+"gtkBaseProps.ml" 205 9159 9217 "gtkBaseProps.ml" 205 9159 9229
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 205 9159 9176 "gtkBaseProps.ml" 205 9159 9230
+type(
+  ('d, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 213 9465 9471 "gtkBaseProps.ml" 213 9465 9475
+type(
+  'a Gobject.obj -> Gtk.adjustment Gtk.obj
+)
+ident(
+  def cast "gtkBaseProps.ml" 214 9528 9530 "gtkBaseProps.ml" 222 9827 9830
+)
+"gtkBaseProps.ml" 213 9465 9476 "gtkBaseProps.ml" 213 9465 9477
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBaseProps.ml" 213 9465 9478 "gtkBaseProps.ml" 213 9465 9527
+)
+"gtkBaseProps.ml" 213 9465 9501 "gtkBaseProps.ml" 213 9465 9509
+type(
+  'a Gobject.obj -> string -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBaseProps.ml" 213 9465 9510 "gtkBaseProps.ml" 213 9465 9511
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBaseProps.ml" 213 9465 9476 "gtkBaseProps.ml" 213 9465 9477
+)
+"gtkBaseProps.ml" 213 9465 9512 "gtkBaseProps.ml" 213 9465 9527
+type(
+  string
+)
+"gtkBaseProps.ml" 213 9465 9501 "gtkBaseProps.ml" 213 9465 9527
+call(
+  tail
+)
+type(
+  Gtk.adjustment Gtk.obj
+)
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gtkBaseProps.ml" 216 9567 9575 "gtkBaseProps.ml" 216 9567 9582
+type(
+  ([> `adjustment ], unit -> unit) GtkSignal.t
+)
+ident(
+  def changed "gtkBaseProps.ml" 218 9653 9657 "gtkBaseProps.ml" 220 9751 9756
+)
+"gtkBaseProps.ml" 217 9585 9597 "gtkBaseProps.ml" 217 9585 9606
+type(
+  string
+)
+"gtkBaseProps.ml" 217 9585 9615 "gtkBaseProps.ml" 217 9585 9626
+type(
+  [> `adjustment ] as 'b
+)
+"gtkBaseProps.ml" 217 9585 9639 "gtkBaseProps.ml" 217 9585 9651
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 217 9585 9591 "gtkBaseProps.ml" 217 9585 9652
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 218 9653 9661 "gtkBaseProps.ml" 218 9653 9674
+type(
+  ([> `adjustment ], unit -> unit) GtkSignal.t
+)
+ident(
+  def value_changed "gtkBaseProps.ml" 219 9677 9750 "gtkBaseProps.ml" 220 9751 9756
+)
+"gtkBaseProps.ml" 219 9677 9689 "gtkBaseProps.ml" 219 9677 9704
+type(
+  string
+)
+"gtkBaseProps.ml" 219 9677 9713 "gtkBaseProps.ml" 219 9677 9724
+type(
+  [> `adjustment ] as 'c
+)
+"gtkBaseProps.ml" 219 9677 9737 "gtkBaseProps.ml" 219 9677 9749
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 219 9677 9683 "gtkBaseProps.ml" 219 9677 9750
+type(
+  ('c, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 221 9757 9763 "gtkBaseProps.ml" 221 9757 9769
+type(
+  Gtk.adjustment Gobject.param list -> Gtk.adjustment Gtk.obj
+)
+ident(
+  def create "gtkBaseProps.ml" 221 9757 9826 "gtkBaseProps.ml" 222 9827 9830
+)
+"gtkBaseProps.ml" 221 9757 9770 "gtkBaseProps.ml" 221 9757 9772
+type(
+  Gtk.adjustment Gobject.param list
+)
+ident(
+  def pl "gtkBaseProps.ml" 221 9757 9773 "gtkBaseProps.ml" 221 9757 9826
+)
+"gtkBaseProps.ml" 221 9757 9796 "gtkBaseProps.ml" 221 9757 9807
+type(
+  classe:string ->
+  Gtk.adjustment Gobject.param list -> Gtk.adjustment Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBaseProps.ml" 221 9757 9808 "gtkBaseProps.ml" 221 9757 9823
+type(
+  string
+)
+"gtkBaseProps.ml" 221 9757 9824 "gtkBaseProps.ml" 221 9757 9826
+type(
+  Gtk.adjustment Gobject.param list
+)
+ident(
+  int_ref pl "gtkBaseProps.ml" 221 9757 9770 "gtkBaseProps.ml" 221 9757 9772
+)
+"gtkBaseProps.ml" 221 9757 9796 "gtkBaseProps.ml" 221 9757 9826
+call(
+  tail
+)
+type(
+  Gtk.adjustment Gtk.obj
+)
+type(
+  Gtk.adjustment Gtk.obj
+)
+"gtkBaseProps.ml" 225 9855 9861 "gtkBaseProps.ml" 225 9855 9865
+type(
+  'a Gobject.obj -> Gtk.window Gtk.obj
+)
+ident(
+  def cast "gtkBaseProps.ml" 226 9910 9912 "gtkBaseProps.ml" 349 15725 15728
+)
+"gtkBaseProps.ml" 225 9855 9866 "gtkBaseProps.ml" 225 9855 9867
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBaseProps.ml" 225 9855 9868 "gtkBaseProps.ml" 225 9855 9909
+)
+"gtkBaseProps.ml" 225 9855 9887 "gtkBaseProps.ml" 225 9855 9895
+type(
+  'a Gobject.obj -> string -> Gtk.window Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBaseProps.ml" 225 9855 9896 "gtkBaseProps.ml" 225 9855 9897
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBaseProps.ml" 225 9855 9866 "gtkBaseProps.ml" 225 9855 9867
+)
+"gtkBaseProps.ml" 225 9855 9898 "gtkBaseProps.ml" 225 9855 9909
+type(
+  string
+)
+"gtkBaseProps.ml" 225 9855 9887 "gtkBaseProps.ml" 225 9855 9909
+call(
+  tail
+)
+type(
+  Gtk.window Gtk.obj
+)
+type(
+  Gtk.window Gtk.obj
+)
+"gtkBaseProps.ml" 227 9930 9938 "gtkBaseProps.ml" 227 9930 9943
+type(
+  ([> `window ], string) Gobject.property
+)
+ident(
+  def title "gtkBaseProps.ml" 228 10000 10004 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 227 9930 9978 "gtkBaseProps.ml" 227 9930 9985
+type(
+  string
+)
+"gtkBaseProps.ml" 227 9930 9992 "gtkBaseProps.ml" 227 9930 9998
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 227 9930 9972 "gtkBaseProps.ml" 227 9930 9999
+type(
+  ([> `window ] as 'b, string) Gobject.property
+)
+type(
+  ('b, string) Gobject.property
+)
+"gtkBaseProps.ml" 228 10000 10008 "gtkBaseProps.ml" 228 10000 10020
+type(
+  ([> `window ], bool) Gobject.property
+)
+ident(
+  def accept_focus "gtkBaseProps.ml" 230 10091 10095 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 229 10049 10061 "gtkBaseProps.ml" 229 10049 10075
+type(
+  string
+)
+"gtkBaseProps.ml" 229 10049 10082 "gtkBaseProps.ml" 229 10049 10089
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 229 10049 10055 "gtkBaseProps.ml" 229 10049 10090
+type(
+  ([> `window ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkBaseProps.ml" 230 10091 10099 "gtkBaseProps.ml" 230 10091 10109
+type(
+  ([> `window ], bool) Gobject.property
+)
+ident(
+  def allow_grow "gtkBaseProps.ml" 232 10178 10182 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 231 10138 10150 "gtkBaseProps.ml" 231 10138 10162
+type(
+  string
+)
+"gtkBaseProps.ml" 231 10138 10169 "gtkBaseProps.ml" 231 10138 10176
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 231 10138 10144 "gtkBaseProps.ml" 231 10138 10177
+type(
+  ([> `window ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkBaseProps.ml" 232 10178 10186 "gtkBaseProps.ml" 232 10178 10198
+type(
+  ([> `window ], bool) Gobject.property
+)
+ident(
+  def allow_shrink "gtkBaseProps.ml" 234 10269 10273 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 233 10227 10239 "gtkBaseProps.ml" 233 10227 10253
+type(
+  string
+)
+"gtkBaseProps.ml" 233 10227 10260 "gtkBaseProps.ml" 233 10227 10267
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 233 10227 10233 "gtkBaseProps.ml" 233 10227 10268
+type(
+  ([> `window ] as 'e, bool) Gobject.property
+)
+type(
+  ('e, bool) Gobject.property
+)
+"gtkBaseProps.ml" 234 10269 10277 "gtkBaseProps.ml" 234 10269 10286
+type(
+  ([> `window ], bool) Gobject.property
+)
+ident(
+  def decorated "gtkBaseProps.ml" 236 10354 10358 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 235 10315 10327 "gtkBaseProps.ml" 235 10315 10338
+type(
+  string
+)
+"gtkBaseProps.ml" 235 10315 10345 "gtkBaseProps.ml" 235 10315 10352
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 235 10315 10321 "gtkBaseProps.ml" 235 10315 10353
+type(
+  ([> `window ] as 'f, bool) Gobject.property
+)
+type(
+  ('f, bool) Gobject.property
+)
+"gtkBaseProps.ml" 236 10354 10362 "gtkBaseProps.ml" 236 10354 10376
+type(
+  ([> `window ], int) Gobject.property
+)
+ident(
+  def default_height "gtkBaseProps.ml" 238 10445 10449 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 237 10405 10417 "gtkBaseProps.ml" 237 10405 10433
+type(
+  string
+)
+"gtkBaseProps.ml" 237 10405 10440 "gtkBaseProps.ml" 237 10405 10443
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBaseProps.ml" 237 10405 10411 "gtkBaseProps.ml" 237 10405 10444
+type(
+  ([> `window ] as 'g, int) Gobject.property
+)
+type(
+  ('g, int) Gobject.property
+)
+"gtkBaseProps.ml" 238 10445 10453 "gtkBaseProps.ml" 238 10445 10466
+type(
+  ([> `window ], int) Gobject.property
+)
+ident(
+  def default_width "gtkBaseProps.ml" 240 10534 10538 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 239 10495 10507 "gtkBaseProps.ml" 239 10495 10522
+type(
+  string
+)
+"gtkBaseProps.ml" 239 10495 10529 "gtkBaseProps.ml" 239 10495 10532
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBaseProps.ml" 239 10495 10501 "gtkBaseProps.ml" 239 10495 10533
+type(
+  ([> `window ] as 'h, int) Gobject.property
+)
+type(
+  ('h, int) Gobject.property
+)
+"gtkBaseProps.ml" 240 10534 10542 "gtkBaseProps.ml" 240 10534 10551
+type(
+  ([> `window ], bool) Gobject.property
+)
+ident(
+  def deletable "gtkBaseProps.ml" 242 10619 10623 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 241 10580 10592 "gtkBaseProps.ml" 241 10580 10603
+type(
+  string
+)
+"gtkBaseProps.ml" 241 10580 10610 "gtkBaseProps.ml" 241 10580 10617
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 241 10580 10586 "gtkBaseProps.ml" 241 10580 10618
+type(
+  ([> `window ] as 'i, bool) Gobject.property
+)
+type(
+  ('i, bool) Gobject.property
+)
+"gtkBaseProps.ml" 242 10619 10627 "gtkBaseProps.ml" 242 10619 10646
+type(
+  ([> `window ], bool) Gobject.property
+)
+ident(
+  def destroy_with_parent "gtkBaseProps.ml" 244 10724 10728 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 243 10675 10687 "gtkBaseProps.ml" 243 10675 10708
+type(
+  string
+)
+"gtkBaseProps.ml" 243 10675 10715 "gtkBaseProps.ml" 243 10675 10722
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 243 10675 10681 "gtkBaseProps.ml" 243 10675 10723
+type(
+  ([> `window ] as 'j, bool) Gobject.property
+)
+type(
+  ('j, bool) Gobject.property
+)
+"gtkBaseProps.ml" 244 10724 10732 "gtkBaseProps.ml" 244 10724 10744
+type(
+  ([> `window ], bool) Gobject.property
+)
+ident(
+  def focus_on_map "gtkBaseProps.ml" 246 10815 10819 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 245 10773 10785 "gtkBaseProps.ml" 245 10773 10799
+type(
+  string
+)
+"gtkBaseProps.ml" 245 10773 10806 "gtkBaseProps.ml" 245 10773 10813
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 245 10773 10779 "gtkBaseProps.ml" 245 10773 10814
+type(
+  ([> `window ] as 'k, bool) Gobject.property
+)
+type(
+  ('k, bool) Gobject.property
+)
+"gtkBaseProps.ml" 246 10815 10823 "gtkBaseProps.ml" 246 10815 10830
+type(
+  ([> `window ], GdkEnums.gravity) Gobject.property
+)
+ident(
+  def gravity "gtkBaseProps.ml" 248 10910 10914 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 247 10859 10871 "gtkBaseProps.ml" 247 10859 10880
+type(
+  string
+)
+"gtkBaseProps.ml" 247 10859 10887 "gtkBaseProps.ml" 247 10859 10908
+type(
+  GdkEnums.gravity Gobject.data_conv
+)
+ident(
+  ext_ref GdkEnums.gravity_conv
+)
+"gtkBaseProps.ml" 247 10859 10865 "gtkBaseProps.ml" 247 10859 10909
+type(
+  ([> `window ] as 'l, GdkEnums.gravity) Gobject.property
+)
+type(
+  ('l, GdkEnums.gravity) Gobject.property
+)
+"gtkBaseProps.ml" 248 10910 10918 "gtkBaseProps.ml" 248 10910 10936
+type(
+  ([> `window ], bool) Gobject.property
+)
+ident(
+  def has_toplevel_focus "gtkBaseProps.ml" 250 11013 11017 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 249 10965 10977 "gtkBaseProps.ml" 249 10965 10997
+type(
+  string
+)
+"gtkBaseProps.ml" 249 10965 11004 "gtkBaseProps.ml" 249 10965 11011
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 249 10965 10971 "gtkBaseProps.ml" 249 10965 11012
+type(
+  ([> `window ] as 'm, bool) Gobject.property
+)
+type(
+  ('m, bool) Gobject.property
+)
+"gtkBaseProps.ml" 250 11013 11021 "gtkBaseProps.ml" 250 11013 11025
+type(
+  ([> `window ], GdkPixbuf.pixbuf option) Gobject.property
+)
+ident(
+  def icon "gtkBaseProps.ml" 253 11140 11144 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 251 11054 11066 "gtkBaseProps.ml" 251 11054 11072
+type(
+  string
+)
+"gtkBaseProps.ml" 252 11074 11087 "gtkBaseProps.ml" 252 11074 11101
+type(
+  GdkPixbuf.pixbuf option Gobject.data_conv
+)
+type(
+  GdkPixbuf.pixbuf option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkBaseProps.ml" 251 11054 11060 "gtkBaseProps.ml" 252 11074 11139
+type(
+  ([> `window ] as 'n, GdkPixbuf.pixbuf option) Gobject.property
+)
+type(
+  ('n, GdkPixbuf.pixbuf option) Gobject.property
+)
+"gtkBaseProps.ml" 253 11140 11148 "gtkBaseProps.ml" 253 11140 11157
+type(
+  ([> `window ], string) Gobject.property
+)
+ident(
+  def icon_name "gtkBaseProps.ml" 254 11218 11222 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 253 11140 11192 "gtkBaseProps.ml" 253 11140 11203
+type(
+  string
+)
+"gtkBaseProps.ml" 253 11140 11210 "gtkBaseProps.ml" 253 11140 11216
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 253 11140 11186 "gtkBaseProps.ml" 253 11140 11217
+type(
+  ([> `window ] as 'o, string) Gobject.property
+)
+type(
+  ('o, string) Gobject.property
+)
+"gtkBaseProps.ml" 254 11218 11226 "gtkBaseProps.ml" 254 11218 11235
+type(
+  ([> `window ], bool) Gobject.property
+)
+ident(
+  def is_active "gtkBaseProps.ml" 256 11303 11307 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 255 11264 11276 "gtkBaseProps.ml" 255 11264 11287
+type(
+  string
+)
+"gtkBaseProps.ml" 255 11264 11294 "gtkBaseProps.ml" 255 11264 11301
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 255 11264 11270 "gtkBaseProps.ml" 255 11264 11302
+type(
+  ([> `window ] as 'p, bool) Gobject.property
+)
+type(
+  ('p, bool) Gobject.property
+)
+"gtkBaseProps.ml" 256 11303 11311 "gtkBaseProps.ml" 256 11303 11316
+type(
+  ([> `window ], bool) Gobject.property
+)
+ident(
+  def modal "gtkBaseProps.ml" 257 11374 11378 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 256 11303 11351 "gtkBaseProps.ml" 256 11303 11358
+type(
+  string
+)
+"gtkBaseProps.ml" 256 11303 11365 "gtkBaseProps.ml" 256 11303 11372
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 256 11303 11345 "gtkBaseProps.ml" 256 11303 11373
+type(
+  ([> `window ] as 'q, bool) Gobject.property
+)
+type(
+  ('q, bool) Gobject.property
+)
+"gtkBaseProps.ml" 257 11374 11382 "gtkBaseProps.ml" 257 11374 11397
+type(
+  ([> `window ], GtkEnums.window_position) Gobject.property
+)
+ident(
+  def window_position "gtkBaseProps.ml" 259 11493 11497 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 258 11426 11438 "gtkBaseProps.ml" 258 11426 11455
+type(
+  string
+)
+"gtkBaseProps.ml" 258 11426 11462 "gtkBaseProps.ml" 258 11426 11491
+type(
+  GtkEnums.window_position Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.window_position_conv
+)
+"gtkBaseProps.ml" 258 11426 11432 "gtkBaseProps.ml" 258 11426 11492
+type(
+  ([> `window ] as 'r, GtkEnums.window_position) Gobject.property
+)
+type(
+  ('r, GtkEnums.window_position) Gobject.property
+)
+"gtkBaseProps.ml" 259 11493 11501 "gtkBaseProps.ml" 259 11493 11508
+type(
+  ([> `window ], float) Gobject.property
+)
+ident(
+  def opacity "gtkBaseProps.ml" 260 11567 11571 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 259 11493 11543 "gtkBaseProps.ml" 259 11493 11552
+type(
+  string
+)
+"gtkBaseProps.ml" 259 11493 11559 "gtkBaseProps.ml" 259 11493 11565
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gtkBaseProps.ml" 259 11493 11537 "gtkBaseProps.ml" 259 11493 11566
+type(
+  ([> `window ] as 's, float) Gobject.property
+)
+type(
+  ('s, float) Gobject.property
+)
+"gtkBaseProps.ml" 260 11567 11575 "gtkBaseProps.ml" 260 11567 11584
+type(
+  ([> `window ], bool) Gobject.property
+)
+ident(
+  def resizable "gtkBaseProps.ml" 262 11652 11656 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 261 11613 11625 "gtkBaseProps.ml" 261 11613 11636
+type(
+  string
+)
+"gtkBaseProps.ml" 261 11613 11643 "gtkBaseProps.ml" 261 11613 11650
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 261 11613 11619 "gtkBaseProps.ml" 261 11613 11651
+type(
+  ([> `window ] as 't, bool) Gobject.property
+)
+type(
+  ('t, bool) Gobject.property
+)
+"gtkBaseProps.ml" 262 11652 11660 "gtkBaseProps.ml" 262 11652 11664
+type(
+  ([> `window ], string) Gobject.property
+)
+ident(
+  def role "gtkBaseProps.ml" 263 11720 11724 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 262 11652 11699 "gtkBaseProps.ml" 262 11652 11705
+type(
+  string
+)
+"gtkBaseProps.ml" 262 11652 11712 "gtkBaseProps.ml" 262 11652 11718
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 262 11652 11693 "gtkBaseProps.ml" 262 11652 11719
+type(
+  ([> `window ] as 'u, string) Gobject.property
+)
+type(
+  ('u, string) Gobject.property
+)
+"gtkBaseProps.ml" 263 11720 11728 "gtkBaseProps.ml" 263 11720 11734
+type(
+  ([> `window ], Gdk.screen) Gobject.property
+)
+ident(
+  def screen "gtkBaseProps.ml" 265 11824 11828 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 264 11763 11775 "gtkBaseProps.ml" 264 11763 11783
+type(
+  string
+)
+"gtkBaseProps.ml" 264 11763 11791 "gtkBaseProps.ml" 264 11763 11798
+type(
+  Gdk.screen Gobject.data_conv
+)
+type(
+  Gdk.screen Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBaseProps.ml" 264 11763 11769 "gtkBaseProps.ml" 264 11763 11823
+type(
+  ([> `window ] as 'v, Gdk.screen) Gobject.property
+)
+type(
+  ('v, Gdk.screen) Gobject.property
+)
+"gtkBaseProps.ml" 265 11824 11832 "gtkBaseProps.ml" 265 11824 11847
+type(
+  ([> `window ], bool) Gobject.property
+)
+ident(
+  def skip_pager_hint "gtkBaseProps.ml" 267 11921 11925 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 266 11876 11888 "gtkBaseProps.ml" 266 11876 11905
+type(
+  string
+)
+"gtkBaseProps.ml" 266 11876 11912 "gtkBaseProps.ml" 266 11876 11919
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 266 11876 11882 "gtkBaseProps.ml" 266 11876 11920
+type(
+  ([> `window ] as 'w, bool) Gobject.property
+)
+type(
+  ('w, bool) Gobject.property
+)
+"gtkBaseProps.ml" 267 11921 11929 "gtkBaseProps.ml" 267 11921 11946
+type(
+  ([> `window ], bool) Gobject.property
+)
+ident(
+  def skip_taskbar_hint "gtkBaseProps.ml" 269 12022 12026 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 268 11975 11987 "gtkBaseProps.ml" 268 11975 12006
+type(
+  string
+)
+"gtkBaseProps.ml" 268 11975 12013 "gtkBaseProps.ml" 268 11975 12020
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 268 11975 11981 "gtkBaseProps.ml" 268 11975 12021
+type(
+  ([> `window ] as 'x, bool) Gobject.property
+)
+type(
+  ('x, bool) Gobject.property
+)
+"gtkBaseProps.ml" 269 12022 12030 "gtkBaseProps.ml" 269 12022 12040
+type(
+  ([> `window ], string) Gobject.property
+)
+ident(
+  def startup_id "gtkBaseProps.ml" 271 12108 12112 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 270 12069 12081 "gtkBaseProps.ml" 270 12069 12093
+type(
+  string
+)
+"gtkBaseProps.ml" 270 12069 12100 "gtkBaseProps.ml" 270 12069 12106
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 270 12069 12075 "gtkBaseProps.ml" 270 12069 12107
+type(
+  ([> `window ] as 'y, string) Gobject.property
+)
+type(
+  ('y, string) Gobject.property
+)
+"gtkBaseProps.ml" 271 12108 12116 "gtkBaseProps.ml" 271 12108 12129
+type(
+  ([> `window ], Gtk.window Gtk.obj option) Gobject.property
+)
+ident(
+  def transient_for "gtkBaseProps.ml" 274 12251 12255 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 272 12158 12170 "gtkBaseProps.ml" 272 12158 12185
+type(
+  string
+)
+"gtkBaseProps.ml" 273 12187 12200 "gtkBaseProps.ml" 273 12187 12214
+type(
+  Gtk.window Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.window Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkBaseProps.ml" 272 12158 12164 "gtkBaseProps.ml" 273 12187 12250
+type(
+  ([> `window ] as 'z, Gtk.window Gtk.obj option) Gobject.property
+)
+type(
+  ('z, Gtk.window Gtk.obj option) Gobject.property
+)
+"gtkBaseProps.ml" 274 12251 12259 "gtkBaseProps.ml" 274 12251 12263
+type(
+  ([> `window ], GtkEnums.window_type) Gobject.property
+)
+ident(
+  def kind "gtkBaseProps.ml" 276 12344 12348 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 275 12292 12304 "gtkBaseProps.ml" 275 12292 12310
+type(
+  string
+)
+"gtkBaseProps.ml" 275 12292 12317 "gtkBaseProps.ml" 275 12292 12342
+type(
+  GtkEnums.window_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.window_type_conv
+)
+"gtkBaseProps.ml" 275 12292 12298 "gtkBaseProps.ml" 275 12292 12343
+type(
+  ([> `window ] as 'a1, GtkEnums.window_type) Gobject.property
+)
+type(
+  ('a1, GtkEnums.window_type) Gobject.property
+)
+"gtkBaseProps.ml" 276 12344 12352 "gtkBaseProps.ml" 276 12344 12361
+type(
+  ([> `window ], GdkEnums.window_type_hint) Gobject.property
+)
+ident(
+  def type_hint "gtkBaseProps.ml" 278 12452 12456 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 277 12390 12402 "gtkBaseProps.ml" 277 12390 12413
+type(
+  string
+)
+"gtkBaseProps.ml" 277 12390 12420 "gtkBaseProps.ml" 277 12390 12450
+type(
+  GdkEnums.window_type_hint Gobject.data_conv
+)
+ident(
+  ext_ref GdkEnums.window_type_hint_conv
+)
+"gtkBaseProps.ml" 277 12390 12396 "gtkBaseProps.ml" 277 12390 12451
+type(
+  ([> `window ] as 'b1, GdkEnums.window_type_hint) Gobject.property
+)
+type(
+  ('b1, GdkEnums.window_type_hint) Gobject.property
+)
+"gtkBaseProps.ml" 278 12452 12460 "gtkBaseProps.ml" 278 12452 12472
+type(
+  ([> `window ], bool) Gobject.property
+)
+ident(
+  def urgency_hint "gtkBaseProps.ml" 279 12501 12542 "gtkBaseProps.ml" 280 12543 12548
+)
+"gtkBaseProps.ml" 279 12501 12513 "gtkBaseProps.ml" 279 12501 12527
+type(
+  string
+)
+"gtkBaseProps.ml" 279 12501 12534 "gtkBaseProps.ml" 279 12501 12541
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 279 12501 12507 "gtkBaseProps.ml" 279 12501 12542
+type(
+  ([> `window ] as 'c1, bool) Gobject.property
+)
+type(
+  ('c1, bool) Gobject.property
+)
+"gtkBaseProps.ml" 283 12588 12596 "gtkBaseProps.ml" 283 12588 12612
+type(
+  ([> `window ], unit -> unit) GtkSignal.t
+)
+ident(
+  def activate_default "gtkBaseProps.ml" 285 12688 12692 "gtkBaseProps.ml" 300 13394 13399
+)
+"gtkBaseProps.ml" 284 12615 12627 "gtkBaseProps.ml" 284 12615 12645
+type(
+  string
+)
+"gtkBaseProps.ml" 284 12615 12654 "gtkBaseProps.ml" 284 12615 12661
+type(
+  [> `window ] as 'd1
+)
+"gtkBaseProps.ml" 284 12615 12674 "gtkBaseProps.ml" 284 12615 12686
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 284 12615 12621 "gtkBaseProps.ml" 284 12615 12687
+type(
+  ('d1, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 285 12688 12696 "gtkBaseProps.ml" 285 12688 12710
+type(
+  ([> `window ], unit -> unit) GtkSignal.t
+)
+ident(
+  def activate_focus "gtkBaseProps.ml" 287 12784 12788 "gtkBaseProps.ml" 300 13394 13399
+)
+"gtkBaseProps.ml" 286 12713 12725 "gtkBaseProps.ml" 286 12713 12741
+type(
+  string
+)
+"gtkBaseProps.ml" 286 12713 12750 "gtkBaseProps.ml" 286 12713 12757
+type(
+  [> `window ] as 'e1
+)
+"gtkBaseProps.ml" 286 12713 12770 "gtkBaseProps.ml" 286 12713 12782
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 286 12713 12719 "gtkBaseProps.ml" 286 12713 12783
+type(
+  ('e1, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 287 12784 12792 "gtkBaseProps.ml" 287 12784 12803
+type(
+  ([> `window ], GdkEvent.any -> unit) GtkSignal.t
+)
+ident(
+  def frame_event "gtkBaseProps.ml" 291 12964 12968 "gtkBaseProps.ml" 300 13394 13399
+)
+"gtkBaseProps.ml" 288 12806 12818 "gtkBaseProps.ml" 288 12806 12831
+type(
+  string
+)
+"gtkBaseProps.ml" 288 12806 12840 "gtkBaseProps.ml" 288 12806 12847
+type(
+  [> `window ] as 'f1
+)
+"gtkBaseProps.ml" 288 12806 12864 "gtkBaseProps.ml" 288 12806 12865
+type(
+  GdkEvent.any -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 289 12869 12876 "gtkBaseProps.ml" 290 12927 12962
+)
+"gtkBaseProps.ml" 289 12869 12876 "gtkBaseProps.ml" 289 12869 12884
+type(
+  GdkEvent.any Gobject.data_conv ->
+  string -> (GdkEvent.any -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBaseProps.ml" 289 12869 12886 "gtkBaseProps.ml" 289 12869 12900
+type(
+  GdkEvent.any Gobject.data_conv
+)
+type(
+  GdkEvent.any Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer
+)
+"gtkBaseProps.ml" 290 12927 12936 "gtkBaseProps.ml" 290 12927 12960
+type(
+  string
+)
+"gtkBaseProps.ml" 290 12927 12961 "gtkBaseProps.ml" 290 12927 12962
+type(
+  GdkEvent.any -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 288 12806 12864 "gtkBaseProps.ml" 288 12806 12865
+)
+"gtkBaseProps.ml" 289 12869 12876 "gtkBaseProps.ml" 290 12927 12962
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 288 12806 12860 "gtkBaseProps.ml" 290 12927 12962
+type(
+  (GdkEvent.any -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 288 12806 12812 "gtkBaseProps.ml" 290 12927 12963
+type(
+  ('f1, GdkEvent.any -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 291 12964 12972 "gtkBaseProps.ml" 291 12964 12984
+type(
+  ([> `window ], unit -> unit) GtkSignal.t
+)
+ident(
+  def keys_changed "gtkBaseProps.ml" 293 13056 13060 "gtkBaseProps.ml" 300 13394 13399
+)
+"gtkBaseProps.ml" 292 12987 12999 "gtkBaseProps.ml" 292 12987 13013
+type(
+  string
+)
+"gtkBaseProps.ml" 292 12987 13022 "gtkBaseProps.ml" 292 12987 13029
+type(
+  [> `window ] as 'g1
+)
+"gtkBaseProps.ml" 292 12987 13042 "gtkBaseProps.ml" 292 12987 13054
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 292 12987 12993 "gtkBaseProps.ml" 292 12987 13055
+type(
+  ('g1, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 293 13056 13064 "gtkBaseProps.ml" 293 13056 13074
+type(
+  ([> `window ], GtkEnums.direction_type -> unit) GtkSignal.t
+)
+ident(
+  def move_focus "gtkBaseProps.ml" 296 13211 13215 "gtkBaseProps.ml" 300 13394 13399
+)
+"gtkBaseProps.ml" 294 13077 13089 "gtkBaseProps.ml" 294 13077 13101
+type(
+  string
+)
+"gtkBaseProps.ml" 294 13077 13110 "gtkBaseProps.ml" 294 13077 13117
+type(
+  [> `window ] as 'h1
+)
+"gtkBaseProps.ml" 294 13077 13134 "gtkBaseProps.ml" 294 13077 13135
+type(
+  GtkEnums.direction_type -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 295 13139 13146 "gtkBaseProps.ml" 295 13139 13209
+)
+"gtkBaseProps.ml" 295 13139 13146 "gtkBaseProps.ml" 295 13139 13154
+type(
+  GtkEnums.direction_type Gobject.data_conv ->
+  string -> (GtkEnums.direction_type -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBaseProps.ml" 295 13139 13155 "gtkBaseProps.ml" 295 13139 13183
+type(
+  GtkEnums.direction_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.direction_type_conv
+)
+"gtkBaseProps.ml" 295 13139 13184 "gtkBaseProps.ml" 295 13139 13207
+type(
+  string
+)
+"gtkBaseProps.ml" 295 13139 13208 "gtkBaseProps.ml" 295 13139 13209
+type(
+  GtkEnums.direction_type -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 294 13077 13134 "gtkBaseProps.ml" 294 13077 13135
+)
+"gtkBaseProps.ml" 295 13139 13146 "gtkBaseProps.ml" 295 13139 13209
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 294 13077 13130 "gtkBaseProps.ml" 295 13139 13209
+type(
+  (GtkEnums.direction_type -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 294 13077 13083 "gtkBaseProps.ml" 295 13139 13210
+type(
+  ('h1, GtkEnums.direction_type -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 296 13211 13219 "gtkBaseProps.ml" 296 13211 13228
+type(
+  ([> `window ], Gtk.widget Gtk.obj option -> unit) GtkSignal.t
+)
+ident(
+  def set_focus "gtkBaseProps.ml" 299 13359 13393 "gtkBaseProps.ml" 300 13394 13399
+)
+"gtkBaseProps.ml" 297 13231 13243 "gtkBaseProps.ml" 297 13231 13254
+type(
+  string
+)
+"gtkBaseProps.ml" 297 13231 13263 "gtkBaseProps.ml" 297 13231 13270
+type(
+  [> `window ] as 'i1
+)
+"gtkBaseProps.ml" 297 13231 13287 "gtkBaseProps.ml" 297 13231 13288
+type(
+  Gtk.widget Gtk.obj option -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 298 13292 13299 "gtkBaseProps.ml" 299 13359 13392
+)
+"gtkBaseProps.ml" 298 13292 13299 "gtkBaseProps.ml" 298 13292 13307
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv ->
+  string -> (Gtk.widget Gtk.obj option -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBaseProps.ml" 298 13292 13309 "gtkBaseProps.ml" 298 13292 13323
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+type(
+  Gtk.widget Gtk.obj option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject_option
+)
+"gtkBaseProps.ml" 299 13359 13368 "gtkBaseProps.ml" 299 13359 13390
+type(
+  string
+)
+"gtkBaseProps.ml" 299 13359 13391 "gtkBaseProps.ml" 299 13359 13392
+type(
+  Gtk.widget Gtk.obj option -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 297 13231 13287 "gtkBaseProps.ml" 297 13231 13288
+)
+"gtkBaseProps.ml" 298 13292 13299 "gtkBaseProps.ml" 299 13359 13392
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 297 13231 13283 "gtkBaseProps.ml" 299 13359 13392
+type(
+  (Gtk.widget Gtk.obj option -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 297 13231 13237 "gtkBaseProps.ml" 299 13359 13393
+type(
+  ('i1, Gtk.widget Gtk.obj option -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 301 13400 13406 "gtkBaseProps.ml" 301 13400 13412
+type(
+  ?kind:GtkEnums.window_type ->
+  Gtk.window Gobject.param list -> Gtk.window Gtk.obj
+)
+ident(
+  def create "gtkBaseProps.ml" 304 13514 13516 "gtkBaseProps.ml" 349 15725 15728
+)
+"gtkBaseProps.ml" 301 13400 13414 "gtkBaseProps.ml" 301 13400 13418
+type(
+  GtkEnums.window_type option
+)
+ident(
+  def kind "gtkBaseProps.ml" 301 13400 13419 "gtkBaseProps.ml" 303 13483 13513
+)
+"gtkBaseProps.ml" 301 13400 13419 "gtkBaseProps.ml" 301 13400 13421
+type(
+  Gtk.window Gobject.param list
+)
+ident(
+  def pl "gtkBaseProps.ml" 301 13400 13422 "gtkBaseProps.ml" 303 13483 13513
+)
+"gtkBaseProps.ml" 302 13441 13449 "gtkBaseProps.ml" 302 13441 13451
+type(
+  Gtk.window Gobject.param list
+)
+"gtkBaseProps.ml" 302 13441 13455 "gtkBaseProps.ml" 302 13441 13463
+type(
+  (Gtk.window, GtkEnums.window_type) Gobject.property ->
+  GtkEnums.window_type option ->
+  Gtk.window Gobject.param list -> Gtk.window Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 302 13441 13464 "gtkBaseProps.ml" 302 13441 13470
+type(
+  (Gtk.window, GtkEnums.window_type) Gobject.property
+)
+ident(
+  ext_ref P.kind
+)
+"gtkBaseProps.ml" 302 13441 13471 "gtkBaseProps.ml" 302 13441 13475
+type(
+  GtkEnums.window_type option
+)
+ident(
+  int_ref kind "gtkBaseProps.ml" 301 13400 13414 "gtkBaseProps.ml" 301 13400 13418
+)
+"gtkBaseProps.ml" 302 13441 13476 "gtkBaseProps.ml" 302 13441 13478
+type(
+  Gtk.window Gobject.param list
+)
+ident(
+  int_ref pl "gtkBaseProps.ml" 301 13400 13419 "gtkBaseProps.ml" 301 13400 13421
+)
+"gtkBaseProps.ml" 302 13441 13454 "gtkBaseProps.ml" 302 13441 13479
+call(
+  stack
+)
+type(
+  Gtk.window Gobject.param list
+)
+"gtkBaseProps.ml" 303 13483 13487 "gtkBaseProps.ml" 303 13483 13498
+type(
+  classe:string -> Gtk.window Gobject.param list -> Gtk.window Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBaseProps.ml" 303 13483 13499 "gtkBaseProps.ml" 303 13483 13510
+type(
+  string
+)
+"gtkBaseProps.ml" 303 13483 13511 "gtkBaseProps.ml" 303 13483 13513
+type(
+  Gtk.window Gobject.param list
+)
+ident(
+  int_ref pl "gtkBaseProps.ml" 302 13441 13449 "gtkBaseProps.ml" 302 13441 13451
+)
+"gtkBaseProps.ml" 303 13483 13487 "gtkBaseProps.ml" 303 13483 13513
+call(
+  tail
+)
+type(
+  Gtk.window Gtk.obj
+)
+"gtkBaseProps.ml" 302 13441 13445 "gtkBaseProps.ml" 303 13483 13513
+type(
+  Gtk.window Gtk.obj
+)
+type(
+  Gtk.window Gtk.obj
+)
+"gtkBaseProps.ml" 330 14949 14955 "gtkBaseProps.ml" 330 14949 14966
+type(
+  cont:(([> `window ] as 'j1) Gobject.param list -> 'k1) ->
+  'j1 Gobject.param list ->
+  ?title:string ->
+  ?allow_grow:bool ->
+  ?allow_shrink:bool ->
+  ?decorated:bool ->
+  ?deletable:bool ->
+  ?focus_on_map:bool ->
+  ?icon:GdkPixbuf.pixbuf ->
+  ?icon_name:string ->
+  ?modal:bool ->
+  ?position:GtkEnums.window_position ->
+  ?resizable:bool ->
+  ?screen:Gdk.screen ->
+  ?type_hint:GdkEnums.window_type_hint -> ?urgency_hint:bool -> 'k1
+)
+ident(
+  def make_params "gtkBaseProps.ml" 348 15713 15724 "gtkBaseProps.ml" 349 15725 15728
+)
+"gtkBaseProps.ml" 330 14949 14968 "gtkBaseProps.ml" 330 14949 14972
+type(
+  'j1 Gobject.param list -> 'k1
+)
+ident(
+  def cont "gtkBaseProps.ml" 330 14949 14973 "gtkBaseProps.ml" 348 15713 15724
+)
+"gtkBaseProps.ml" 330 14949 14973 "gtkBaseProps.ml" 330 14949 14975
+type(
+  'j1 Gobject.param list
+)
+ident(
+  def pl "gtkBaseProps.ml" 330 14949 14976 "gtkBaseProps.ml" 348 15713 15724
+)
+"gtkBaseProps.ml" 330 14949 14977 "gtkBaseProps.ml" 330 14949 14982
+type(
+  string option
+)
+ident(
+  def title "gtkBaseProps.ml" 330 14949 14983 "gtkBaseProps.ml" 348 15713 15724
+)
+"gtkBaseProps.ml" 330 14949 14984 "gtkBaseProps.ml" 330 14949 14994
+type(
+  bool option
+)
+ident(
+  def allow_grow "gtkBaseProps.ml" 330 14949 14995 "gtkBaseProps.ml" 348 15713 15724
+)
+"gtkBaseProps.ml" 330 14949 14996 "gtkBaseProps.ml" 330 14949 15008
+type(
+  bool option
+)
+ident(
+  def allow_shrink "gtkBaseProps.ml" 330 14949 15009 "gtkBaseProps.ml" 348 15713 15724
+)
+"gtkBaseProps.ml" 330 14949 15010 "gtkBaseProps.ml" 330 14949 15019
+type(
+  bool option
+)
+ident(
+  def decorated "gtkBaseProps.ml" 331 15020 15026 "gtkBaseProps.ml" 348 15713 15724
+)
+"gtkBaseProps.ml" 331 15020 15027 "gtkBaseProps.ml" 331 15020 15036
+type(
+  bool option
+)
+ident(
+  def deletable "gtkBaseProps.ml" 331 15020 15037 "gtkBaseProps.ml" 348 15713 15724
+)
+"gtkBaseProps.ml" 331 15020 15038 "gtkBaseProps.ml" 331 15020 15050
+type(
+  bool option
+)
+ident(
+  def focus_on_map "gtkBaseProps.ml" 331 15020 15051 "gtkBaseProps.ml" 348 15713 15724
+)
+"gtkBaseProps.ml" 331 15020 15052 "gtkBaseProps.ml" 331 15020 15056
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  def icon "gtkBaseProps.ml" 331 15020 15057 "gtkBaseProps.ml" 348 15713 15724
+)
+"gtkBaseProps.ml" 331 15020 15058 "gtkBaseProps.ml" 331 15020 15067
+type(
+  string option
+)
+ident(
+  def icon_name "gtkBaseProps.ml" 331 15020 15068 "gtkBaseProps.ml" 348 15713 15724
+)
+"gtkBaseProps.ml" 331 15020 15069 "gtkBaseProps.ml" 331 15020 15074
+type(
+  bool option
+)
+ident(
+  def modal "gtkBaseProps.ml" 331 15020 15075 "gtkBaseProps.ml" 348 15713 15724
+)
+"gtkBaseProps.ml" 331 15020 15076 "gtkBaseProps.ml" 331 15020 15084
+type(
+  GtkEnums.window_position option
+)
+ident(
+  def position "gtkBaseProps.ml" 331 15020 15085 "gtkBaseProps.ml" 348 15713 15724
+)
+"gtkBaseProps.ml" 331 15020 15086 "gtkBaseProps.ml" 331 15020 15095
+type(
+  bool option
+)
+ident(
+  def resizable "gtkBaseProps.ml" 332 15096 15102 "gtkBaseProps.ml" 348 15713 15724
+)
+"gtkBaseProps.ml" 332 15096 15103 "gtkBaseProps.ml" 332 15096 15109
+type(
+  Gdk.screen option
+)
+ident(
+  def screen "gtkBaseProps.ml" 332 15096 15110 "gtkBaseProps.ml" 348 15713 15724
+)
+"gtkBaseProps.ml" 332 15096 15111 "gtkBaseProps.ml" 332 15096 15120
+type(
+  GdkEnums.window_type_hint option
+)
+ident(
+  def type_hint "gtkBaseProps.ml" 332 15096 15121 "gtkBaseProps.ml" 348 15713 15724
+)
+"gtkBaseProps.ml" 332 15096 15122 "gtkBaseProps.ml" 332 15096 15134
+type(
+  bool option
+)
+ident(
+  def urgency_hint "gtkBaseProps.ml" 333 15137 15141 "gtkBaseProps.ml" 348 15713 15724
+)
+"gtkBaseProps.ml" 333 15137 15145 "gtkBaseProps.ml" 333 15137 15147
+type(
+  'j1 Gobject.param list
+)
+"gtkBaseProps.ml" 334 15152 15158 "gtkBaseProps.ml" 334 15152 15166
+type(
+  ('j1, string) Gobject.property ->
+  string option -> 'j1 Gobject.param list -> 'j1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 334 15152 15167 "gtkBaseProps.ml" 334 15152 15174
+type(
+  ('j1, string) Gobject.property
+)
+ident(
+  ext_ref P.title
+)
+"gtkBaseProps.ml" 334 15152 15175 "gtkBaseProps.ml" 334 15152 15180
+type(
+  string option
+)
+ident(
+  int_ref title "gtkBaseProps.ml" 330 14949 14977 "gtkBaseProps.ml" 330 14949 14982
+)
+"gtkBaseProps.ml" 335 15183 15189 "gtkBaseProps.ml" 335 15183 15197
+type(
+  ('j1, bool) Gobject.property ->
+  bool option -> 'j1 Gobject.param list -> 'j1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 335 15183 15198 "gtkBaseProps.ml" 335 15183 15210
+type(
+  ('j1, bool) Gobject.property
+)
+ident(
+  ext_ref P.allow_grow
+)
+"gtkBaseProps.ml" 335 15183 15211 "gtkBaseProps.ml" 335 15183 15221
+type(
+  bool option
+)
+ident(
+  int_ref allow_grow "gtkBaseProps.ml" 330 14949 14984 "gtkBaseProps.ml" 330 14949 14994
+)
+"gtkBaseProps.ml" 336 15224 15230 "gtkBaseProps.ml" 336 15224 15238
+type(
+  ('j1, bool) Gobject.property ->
+  bool option -> 'j1 Gobject.param list -> 'j1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 336 15224 15239 "gtkBaseProps.ml" 336 15224 15253
+type(
+  ('j1, bool) Gobject.property
+)
+ident(
+  ext_ref P.allow_shrink
+)
+"gtkBaseProps.ml" 336 15224 15254 "gtkBaseProps.ml" 336 15224 15266
+type(
+  bool option
+)
+ident(
+  int_ref allow_shrink "gtkBaseProps.ml" 330 14949 14996 "gtkBaseProps.ml" 330 14949 15008
+)
+"gtkBaseProps.ml" 337 15269 15275 "gtkBaseProps.ml" 337 15269 15283
+type(
+  ('j1, bool) Gobject.property ->
+  bool option -> 'j1 Gobject.param list -> 'j1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 337 15269 15284 "gtkBaseProps.ml" 337 15269 15295
+type(
+  ('j1, bool) Gobject.property
+)
+ident(
+  ext_ref P.decorated
+)
+"gtkBaseProps.ml" 337 15269 15296 "gtkBaseProps.ml" 337 15269 15305
+type(
+  bool option
+)
+ident(
+  int_ref decorated "gtkBaseProps.ml" 330 14949 15010 "gtkBaseProps.ml" 330 14949 15019
+)
+"gtkBaseProps.ml" 338 15308 15314 "gtkBaseProps.ml" 338 15308 15322
+type(
+  ('j1, bool) Gobject.property ->
+  bool option -> 'j1 Gobject.param list -> 'j1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 338 15308 15323 "gtkBaseProps.ml" 338 15308 15334
+type(
+  ('j1, bool) Gobject.property
+)
+ident(
+  ext_ref P.deletable
+)
+"gtkBaseProps.ml" 338 15308 15335 "gtkBaseProps.ml" 338 15308 15344
+type(
+  bool option
+)
+ident(
+  int_ref deletable "gtkBaseProps.ml" 331 15020 15027 "gtkBaseProps.ml" 331 15020 15036
+)
+"gtkBaseProps.ml" 339 15347 15353 "gtkBaseProps.ml" 339 15347 15361
+type(
+  ('j1, bool) Gobject.property ->
+  bool option -> 'j1 Gobject.param list -> 'j1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 339 15347 15362 "gtkBaseProps.ml" 339 15347 15376
+type(
+  ('j1, bool) Gobject.property
+)
+ident(
+  ext_ref P.focus_on_map
+)
+"gtkBaseProps.ml" 339 15347 15377 "gtkBaseProps.ml" 339 15347 15389
+type(
+  bool option
+)
+ident(
+  int_ref focus_on_map "gtkBaseProps.ml" 331 15020 15038 "gtkBaseProps.ml" 331 15020 15050
+)
+"gtkBaseProps.ml" 340 15392 15398 "gtkBaseProps.ml" 340 15392 15410
+type(
+  ('j1, GdkPixbuf.pixbuf option) Gobject.property ->
+  GdkPixbuf.pixbuf option -> 'j1 Gobject.param list -> 'j1 Gobject.param list
+)
+ident(
+  int_ref may_cons_opt "gtkBaseProps.ml" 16 431 435 "gtkBaseProps.ml" 16 431 447
+)
+"gtkBaseProps.ml" 340 15392 15411 "gtkBaseProps.ml" 340 15392 15417
+type(
+  ('j1, GdkPixbuf.pixbuf option) Gobject.property
+)
+ident(
+  ext_ref P.icon
+)
+"gtkBaseProps.ml" 340 15392 15418 "gtkBaseProps.ml" 340 15392 15422
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  int_ref icon "gtkBaseProps.ml" 331 15020 15052 "gtkBaseProps.ml" 331 15020 15056
+)
+"gtkBaseProps.ml" 341 15425 15431 "gtkBaseProps.ml" 341 15425 15439
+type(
+  ('j1, string) Gobject.property ->
+  string option -> 'j1 Gobject.param list -> 'j1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 341 15425 15440 "gtkBaseProps.ml" 341 15425 15451
+type(
+  ('j1, string) Gobject.property
+)
+ident(
+  ext_ref P.icon_name
+)
+"gtkBaseProps.ml" 341 15425 15452 "gtkBaseProps.ml" 341 15425 15461
+type(
+  string option
+)
+ident(
+  int_ref icon_name "gtkBaseProps.ml" 331 15020 15058 "gtkBaseProps.ml" 331 15020 15067
+)
+"gtkBaseProps.ml" 342 15464 15470 "gtkBaseProps.ml" 342 15464 15478
+type(
+  ('j1, bool) Gobject.property ->
+  bool option -> 'j1 Gobject.param list -> 'j1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 342 15464 15479 "gtkBaseProps.ml" 342 15464 15486
+type(
+  ('j1, bool) Gobject.property
+)
+ident(
+  ext_ref P.modal
+)
+"gtkBaseProps.ml" 342 15464 15487 "gtkBaseProps.ml" 342 15464 15492
+type(
+  bool option
+)
+ident(
+  int_ref modal "gtkBaseProps.ml" 331 15020 15069 "gtkBaseProps.ml" 331 15020 15074
+)
+"gtkBaseProps.ml" 343 15495 15501 "gtkBaseProps.ml" 343 15495 15509
+type(
+  ('j1, GtkEnums.window_position) Gobject.property ->
+  GtkEnums.window_position option ->
+  'j1 Gobject.param list -> 'j1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 343 15495 15510 "gtkBaseProps.ml" 343 15495 15527
+type(
+  ('j1, GtkEnums.window_position) Gobject.property
+)
+ident(
+  ext_ref P.window_position
+)
+"gtkBaseProps.ml" 343 15495 15528 "gtkBaseProps.ml" 343 15495 15536
+type(
+  GtkEnums.window_position option
+)
+ident(
+  int_ref position "gtkBaseProps.ml" 331 15020 15076 "gtkBaseProps.ml" 331 15020 15084
+)
+"gtkBaseProps.ml" 344 15539 15545 "gtkBaseProps.ml" 344 15539 15553
+type(
+  ('j1, bool) Gobject.property ->
+  bool option -> 'j1 Gobject.param list -> 'j1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 344 15539 15554 "gtkBaseProps.ml" 344 15539 15565
+type(
+  ('j1, bool) Gobject.property
+)
+ident(
+  ext_ref P.resizable
+)
+"gtkBaseProps.ml" 344 15539 15566 "gtkBaseProps.ml" 344 15539 15575
+type(
+  bool option
+)
+ident(
+  int_ref resizable "gtkBaseProps.ml" 331 15020 15086 "gtkBaseProps.ml" 331 15020 15095
+)
+"gtkBaseProps.ml" 345 15578 15584 "gtkBaseProps.ml" 345 15578 15592
+type(
+  ('j1, Gdk.screen) Gobject.property ->
+  Gdk.screen option -> 'j1 Gobject.param list -> 'j1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 345 15578 15593 "gtkBaseProps.ml" 345 15578 15601
+type(
+  ('j1, Gdk.screen) Gobject.property
+)
+ident(
+  ext_ref P.screen
+)
+"gtkBaseProps.ml" 345 15578 15602 "gtkBaseProps.ml" 345 15578 15608
+type(
+  Gdk.screen option
+)
+ident(
+  int_ref screen "gtkBaseProps.ml" 332 15096 15103 "gtkBaseProps.ml" 332 15096 15109
+)
+"gtkBaseProps.ml" 346 15611 15617 "gtkBaseProps.ml" 346 15611 15625
+type(
+  ('j1, GdkEnums.window_type_hint) Gobject.property ->
+  GdkEnums.window_type_hint option ->
+  'j1 Gobject.param list -> 'j1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 346 15611 15626 "gtkBaseProps.ml" 346 15611 15637
+type(
+  ('j1, GdkEnums.window_type_hint) Gobject.property
+)
+ident(
+  ext_ref P.type_hint
+)
+"gtkBaseProps.ml" 346 15611 15638 "gtkBaseProps.ml" 346 15611 15647
+type(
+  GdkEnums.window_type_hint option
+)
+ident(
+  int_ref type_hint "gtkBaseProps.ml" 332 15096 15111 "gtkBaseProps.ml" 332 15096 15120
+)
+"gtkBaseProps.ml" 347 15650 15656 "gtkBaseProps.ml" 347 15650 15664
+type(
+  ('j1, bool) Gobject.property ->
+  bool option -> 'j1 Gobject.param list -> 'j1 Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 347 15650 15665 "gtkBaseProps.ml" 347 15650 15679
+type(
+  ('j1, bool) Gobject.property
+)
+ident(
+  ext_ref P.urgency_hint
+)
+"gtkBaseProps.ml" 347 15650 15680 "gtkBaseProps.ml" 347 15650 15692
+type(
+  bool option
+)
+ident(
+  int_ref urgency_hint "gtkBaseProps.ml" 332 15096 15122 "gtkBaseProps.ml" 332 15096 15134
+)
+"gtkBaseProps.ml" 347 15650 15693 "gtkBaseProps.ml" 347 15650 15695
+type(
+  'j1 Gobject.param list
+)
+ident(
+  int_ref pl "gtkBaseProps.ml" 330 14949 14973 "gtkBaseProps.ml" 330 14949 14975
+)
+"gtkBaseProps.ml" 346 15611 15648 "gtkBaseProps.ml" 347 15650 15696
+call(
+  stack
+)
+type(
+  'j1 Gobject.param list
+)
+"gtkBaseProps.ml" 345 15578 15609 "gtkBaseProps.ml" 347 15650 15697
+call(
+  stack
+)
+type(
+  'j1 Gobject.param list
+)
+"gtkBaseProps.ml" 344 15539 15576 "gtkBaseProps.ml" 347 15650 15698
+call(
+  stack
+)
+type(
+  'j1 Gobject.param list
+)
+"gtkBaseProps.ml" 343 15495 15537 "gtkBaseProps.ml" 347 15650 15699
+call(
+  stack
+)
+type(
+  'j1 Gobject.param list
+)
+"gtkBaseProps.ml" 342 15464 15493 "gtkBaseProps.ml" 347 15650 15700
+call(
+  stack
+)
+type(
+  'j1 Gobject.param list
+)
+"gtkBaseProps.ml" 341 15425 15462 "gtkBaseProps.ml" 347 15650 15701
+call(
+  stack
+)
+type(
+  'j1 Gobject.param list
+)
+"gtkBaseProps.ml" 340 15392 15423 "gtkBaseProps.ml" 347 15650 15702
+call(
+  stack
+)
+type(
+  'j1 Gobject.param list
+)
+"gtkBaseProps.ml" 339 15347 15390 "gtkBaseProps.ml" 347 15650 15703
+call(
+  stack
+)
+type(
+  'j1 Gobject.param list
+)
+"gtkBaseProps.ml" 338 15308 15345 "gtkBaseProps.ml" 347 15650 15704
+call(
+  stack
+)
+type(
+  'j1 Gobject.param list
+)
+"gtkBaseProps.ml" 337 15269 15306 "gtkBaseProps.ml" 347 15650 15705
+call(
+  stack
+)
+type(
+  'j1 Gobject.param list
+)
+"gtkBaseProps.ml" 336 15224 15267 "gtkBaseProps.ml" 347 15650 15706
+call(
+  stack
+)
+type(
+  'j1 Gobject.param list
+)
+"gtkBaseProps.ml" 335 15183 15222 "gtkBaseProps.ml" 347 15650 15707
+call(
+  stack
+)
+type(
+  'j1 Gobject.param list
+)
+"gtkBaseProps.ml" 334 15152 15181 "gtkBaseProps.ml" 347 15650 15708
+call(
+  stack
+)
+type(
+  'j1 Gobject.param list
+)
+"gtkBaseProps.ml" 333 15137 15150 "gtkBaseProps.ml" 347 15650 15709
+call(
+  stack
+)
+type(
+  'j1 Gobject.param list
+)
+"gtkBaseProps.ml" 348 15713 15717 "gtkBaseProps.ml" 348 15713 15721
+type(
+  'j1 Gobject.param list -> 'k1
+)
+ident(
+  int_ref cont "gtkBaseProps.ml" 330 14949 14968 "gtkBaseProps.ml" 330 14949 14972
+)
+"gtkBaseProps.ml" 348 15713 15722 "gtkBaseProps.ml" 348 15713 15724
+type(
+  'j1 Gobject.param list
+)
+ident(
+  int_ref pl "gtkBaseProps.ml" 333 15137 15145 "gtkBaseProps.ml" 333 15137 15147
+)
+"gtkBaseProps.ml" 348 15713 15717 "gtkBaseProps.ml" 348 15713 15724
+call(
+  tail
+)
+type(
+  'k1
+)
+"gtkBaseProps.ml" 333 15137 15141 "gtkBaseProps.ml" 348 15713 15724
+type(
+  'k1
+)
+"gtkBaseProps.ml" 352 15753 15759 "gtkBaseProps.ml" 352 15753 15763
+type(
+  'a Gobject.obj -> Gtk.dialog Gtk.obj
+)
+ident(
+  def cast "gtkBaseProps.ml" 353 15808 15810 "gtkBaseProps.ml" 365 16230 16233
+)
+"gtkBaseProps.ml" 352 15753 15764 "gtkBaseProps.ml" 352 15753 15765
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBaseProps.ml" 352 15753 15766 "gtkBaseProps.ml" 352 15753 15807
+)
+"gtkBaseProps.ml" 352 15753 15785 "gtkBaseProps.ml" 352 15753 15793
+type(
+  'a Gobject.obj -> string -> Gtk.dialog Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBaseProps.ml" 352 15753 15794 "gtkBaseProps.ml" 352 15753 15795
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBaseProps.ml" 352 15753 15764 "gtkBaseProps.ml" 352 15753 15765
+)
+"gtkBaseProps.ml" 352 15753 15796 "gtkBaseProps.ml" 352 15753 15807
+type(
+  string
+)
+"gtkBaseProps.ml" 352 15753 15785 "gtkBaseProps.ml" 352 15753 15807
+call(
+  tail
+)
+type(
+  Gtk.dialog Gtk.obj
+)
+type(
+  Gtk.dialog Gtk.obj
+)
+"gtkBaseProps.ml" 354 15828 15836 "gtkBaseProps.ml" 354 15828 15849
+type(
+  ([> `dialog ], bool) Gobject.property
+)
+ident(
+  def has_separator "gtkBaseProps.ml" 355 15878 15920 "gtkBaseProps.ml" 356 15921 15926
+)
+"gtkBaseProps.ml" 355 15878 15890 "gtkBaseProps.ml" 355 15878 15905
+type(
+  string
+)
+"gtkBaseProps.ml" 355 15878 15912 "gtkBaseProps.ml" 355 15878 15919
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 355 15878 15884 "gtkBaseProps.ml" 355 15878 15920
+type(
+  ([> `dialog ] as 'b, bool) Gobject.property
+)
+type(
+  ('b, bool) Gobject.property
+)
+"gtkBaseProps.ml" 359 15966 15974 "gtkBaseProps.ml" 359 15966 15979
+type(
+  ([> `dialog ], unit -> unit) GtkSignal.t
+)
+ident(
+  def close "gtkBaseProps.ml" 360 16038 16042 "gtkBaseProps.ml" 363 16162 16167
+)
+"gtkBaseProps.ml" 359 15966 15988 "gtkBaseProps.ml" 359 15966 15995
+type(
+  string
+)
+"gtkBaseProps.ml" 359 15966 16004 "gtkBaseProps.ml" 359 15966 16011
+type(
+  [> `dialog ] as 'c
+)
+"gtkBaseProps.ml" 359 15966 16024 "gtkBaseProps.ml" 359 15966 16036
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 359 15966 15982 "gtkBaseProps.ml" 359 15966 16037
+type(
+  ('c, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 360 16038 16046 "gtkBaseProps.ml" 360 16038 16054
+type(
+  ([> `dialog ], int -> unit) GtkSignal.t
+)
+ident(
+  def response "gtkBaseProps.ml" 362 16117 16161 "gtkBaseProps.ml" 363 16162 16167
+)
+"gtkBaseProps.ml" 361 16057 16069 "gtkBaseProps.ml" 361 16057 16079
+type(
+  string
+)
+"gtkBaseProps.ml" 361 16057 16088 "gtkBaseProps.ml" 361 16057 16095
+type(
+  [> `dialog ] as 'd
+)
+"gtkBaseProps.ml" 361 16057 16112 "gtkBaseProps.ml" 361 16057 16113
+type(
+  int -> unit
+)
+ident(
+  def f "gtkBaseProps.ml" 362 16117 16124 "gtkBaseProps.ml" 362 16117 16160
+)
+"gtkBaseProps.ml" 362 16117 16124 "gtkBaseProps.ml" 362 16117 16132
+type(
+  int Gobject.data_conv -> string -> (int -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal1
+)
+"gtkBaseProps.ml" 362 16117 16133 "gtkBaseProps.ml" 362 16117 16136
+type(
+  int Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.int
+)
+"gtkBaseProps.ml" 362 16117 16137 "gtkBaseProps.ml" 362 16117 16158
+type(
+  string
+)
+"gtkBaseProps.ml" 362 16117 16159 "gtkBaseProps.ml" 362 16117 16160
+type(
+  int -> unit
+)
+ident(
+  int_ref f "gtkBaseProps.ml" 361 16057 16112 "gtkBaseProps.ml" 361 16057 16113
+)
+"gtkBaseProps.ml" 362 16117 16124 "gtkBaseProps.ml" 362 16117 16160
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 361 16057 16108 "gtkBaseProps.ml" 362 16117 16160
+type(
+  (int -> unit) -> Gobject.Closure.argv -> unit
+)
+"gtkBaseProps.ml" 361 16057 16063 "gtkBaseProps.ml" 362 16117 16161
+type(
+  ('d, int -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 364 16168 16174 "gtkBaseProps.ml" 364 16168 16180
+type(
+  Gtk.dialog Gobject.param list -> Gtk.dialog Gtk.obj
+)
+ident(
+  def create "gtkBaseProps.ml" 364 16168 16229 "gtkBaseProps.ml" 365 16230 16233
+)
+"gtkBaseProps.ml" 364 16168 16181 "gtkBaseProps.ml" 364 16168 16183
+type(
+  Gtk.dialog Gobject.param list
+)
+ident(
+  def pl "gtkBaseProps.ml" 364 16168 16184 "gtkBaseProps.ml" 364 16168 16229
+)
+"gtkBaseProps.ml" 364 16168 16203 "gtkBaseProps.ml" 364 16168 16214
+type(
+  classe:string -> Gtk.dialog Gobject.param list -> Gtk.dialog Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBaseProps.ml" 364 16168 16215 "gtkBaseProps.ml" 364 16168 16226
+type(
+  string
+)
+"gtkBaseProps.ml" 364 16168 16227 "gtkBaseProps.ml" 364 16168 16229
+type(
+  Gtk.dialog Gobject.param list
+)
+ident(
+  int_ref pl "gtkBaseProps.ml" 364 16168 16181 "gtkBaseProps.ml" 364 16168 16183
+)
+"gtkBaseProps.ml" 364 16168 16203 "gtkBaseProps.ml" 364 16168 16229
+call(
+  tail
+)
+type(
+  Gtk.dialog Gtk.obj
+)
+type(
+  Gtk.dialog Gtk.obj
+)
+"gtkBaseProps.ml" 368 16265 16271 "gtkBaseProps.ml" 368 16265 16275
+type(
+  'a Gobject.obj -> Gtk.file_selection Gtk.obj
+)
+ident(
+  def cast "gtkBaseProps.ml" 369 16335 16337 "gtkBaseProps.ml" 383 16889 16892
+)
+"gtkBaseProps.ml" 368 16265 16276 "gtkBaseProps.ml" 368 16265 16277
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBaseProps.ml" 368 16265 16278 "gtkBaseProps.ml" 368 16265 16334
+)
+"gtkBaseProps.ml" 368 16265 16305 "gtkBaseProps.ml" 368 16265 16313
+type(
+  'a Gobject.obj -> string -> Gtk.file_selection Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBaseProps.ml" 368 16265 16314 "gtkBaseProps.ml" 368 16265 16315
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBaseProps.ml" 368 16265 16276 "gtkBaseProps.ml" 368 16265 16277
+)
+"gtkBaseProps.ml" 368 16265 16316 "gtkBaseProps.ml" 368 16265 16334
+type(
+  string
+)
+"gtkBaseProps.ml" 368 16265 16305 "gtkBaseProps.ml" 368 16265 16334
+call(
+  tail
+)
+type(
+  Gtk.file_selection Gtk.obj
+)
+type(
+  Gtk.file_selection Gtk.obj
+)
+"gtkBaseProps.ml" 370 16355 16363 "gtkBaseProps.ml" 370 16355 16371
+type(
+  ([> `fileselection ], string) Gobject.property
+)
+ident(
+  def filename "gtkBaseProps.ml" 372 16444 16448 "gtkBaseProps.ml" 376 16646 16651
+)
+"gtkBaseProps.ml" 371 16407 16419 "gtkBaseProps.ml" 371 16407 16429
+type(
+  string
+)
+"gtkBaseProps.ml" 371 16407 16436 "gtkBaseProps.ml" 371 16407 16442
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 371 16407 16413 "gtkBaseProps.ml" 371 16407 16443
+type(
+  ([> `fileselection ] as 'b, string) Gobject.property
+)
+type(
+  ('b, string) Gobject.property
+)
+"gtkBaseProps.ml" 372 16444 16452 "gtkBaseProps.ml" 372 16444 16467
+type(
+  ([> `fileselection ], bool) Gobject.property
+)
+ident(
+  def select_multiple "gtkBaseProps.ml" 374 16548 16552 "gtkBaseProps.ml" 376 16646 16651
+)
+"gtkBaseProps.ml" 373 16503 16515 "gtkBaseProps.ml" 373 16503 16532
+type(
+  string
+)
+"gtkBaseProps.ml" 373 16503 16539 "gtkBaseProps.ml" 373 16503 16546
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 373 16503 16509 "gtkBaseProps.ml" 373 16503 16547
+type(
+  ([> `fileselection ] as 'c, bool) Gobject.property
+)
+type(
+  ('c, bool) Gobject.property
+)
+"gtkBaseProps.ml" 374 16548 16556 "gtkBaseProps.ml" 374 16548 16568
+type(
+  ([> `fileselection ], bool) Gobject.property
+)
+ident(
+  def show_fileops "gtkBaseProps.ml" 375 16604 16645 "gtkBaseProps.ml" 376 16646 16651
+)
+"gtkBaseProps.ml" 375 16604 16616 "gtkBaseProps.ml" 375 16604 16630
+type(
+  string
+)
+"gtkBaseProps.ml" 375 16604 16637 "gtkBaseProps.ml" 375 16604 16644
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 375 16604 16610 "gtkBaseProps.ml" 375 16604 16645
+type(
+  ([> `fileselection ] as 'd, bool) Gobject.property
+)
+type(
+  ('d, bool) Gobject.property
+)
+"gtkBaseProps.ml" 377 16652 16658 "gtkBaseProps.ml" 377 16652 16669
+type(
+  cont:(([> `fileselection ] as 'e) Gobject.param list -> 'f) ->
+  'e Gobject.param list ->
+  ?filename:string -> ?select_multiple:bool -> ?show_fileops:bool -> 'f
+)
+ident(
+  def make_params "gtkBaseProps.ml" 382 16877 16888 "gtkBaseProps.ml" 383 16889 16892
+)
+"gtkBaseProps.ml" 377 16652 16671 "gtkBaseProps.ml" 377 16652 16675
+type(
+  'e Gobject.param list -> 'f
+)
+ident(
+  def cont "gtkBaseProps.ml" 377 16652 16676 "gtkBaseProps.ml" 382 16877 16888
+)
+"gtkBaseProps.ml" 377 16652 16676 "gtkBaseProps.ml" 377 16652 16678
+type(
+  'e Gobject.param list
+)
+ident(
+  def pl "gtkBaseProps.ml" 377 16652 16679 "gtkBaseProps.ml" 382 16877 16888
+)
+"gtkBaseProps.ml" 377 16652 16680 "gtkBaseProps.ml" 377 16652 16688
+type(
+  string option
+)
+ident(
+  def filename "gtkBaseProps.ml" 377 16652 16689 "gtkBaseProps.ml" 382 16877 16888
+)
+"gtkBaseProps.ml" 377 16652 16690 "gtkBaseProps.ml" 377 16652 16705
+type(
+  bool option
+)
+ident(
+  def select_multiple "gtkBaseProps.ml" 377 16652 16706 "gtkBaseProps.ml" 382 16877 16888
+)
+"gtkBaseProps.ml" 377 16652 16707 "gtkBaseProps.ml" 377 16652 16719
+type(
+  bool option
+)
+ident(
+  def show_fileops "gtkBaseProps.ml" 378 16722 16726 "gtkBaseProps.ml" 382 16877 16888
+)
+"gtkBaseProps.ml" 378 16722 16730 "gtkBaseProps.ml" 378 16722 16732
+type(
+  'e Gobject.param list
+)
+"gtkBaseProps.ml" 379 16737 16743 "gtkBaseProps.ml" 379 16737 16751
+type(
+  ('e, string) Gobject.property ->
+  string option -> 'e Gobject.param list -> 'e Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 379 16737 16752 "gtkBaseProps.ml" 379 16737 16762
+type(
+  ('e, string) Gobject.property
+)
+ident(
+  ext_ref P.filename
+)
+"gtkBaseProps.ml" 379 16737 16763 "gtkBaseProps.ml" 379 16737 16771
+type(
+  string option
+)
+ident(
+  int_ref filename "gtkBaseProps.ml" 377 16652 16680 "gtkBaseProps.ml" 377 16652 16688
+)
+"gtkBaseProps.ml" 380 16774 16780 "gtkBaseProps.ml" 380 16774 16788
+type(
+  ('e, bool) Gobject.property ->
+  bool option -> 'e Gobject.param list -> 'e Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 380 16774 16789 "gtkBaseProps.ml" 380 16774 16806
+type(
+  ('e, bool) Gobject.property
+)
+ident(
+  ext_ref P.select_multiple
+)
+"gtkBaseProps.ml" 380 16774 16807 "gtkBaseProps.ml" 380 16774 16822
+type(
+  bool option
+)
+ident(
+  int_ref select_multiple "gtkBaseProps.ml" 377 16652 16690 "gtkBaseProps.ml" 377 16652 16705
+)
+"gtkBaseProps.ml" 381 16825 16831 "gtkBaseProps.ml" 381 16825 16839
+type(
+  ('e, bool) Gobject.property ->
+  bool option -> 'e Gobject.param list -> 'e Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 381 16825 16840 "gtkBaseProps.ml" 381 16825 16854
+type(
+  ('e, bool) Gobject.property
+)
+ident(
+  ext_ref P.show_fileops
+)
+"gtkBaseProps.ml" 381 16825 16855 "gtkBaseProps.ml" 381 16825 16867
+type(
+  bool option
+)
+ident(
+  int_ref show_fileops "gtkBaseProps.ml" 377 16652 16707 "gtkBaseProps.ml" 377 16652 16719
+)
+"gtkBaseProps.ml" 381 16825 16868 "gtkBaseProps.ml" 381 16825 16870
+type(
+  'e Gobject.param list
+)
+ident(
+  int_ref pl "gtkBaseProps.ml" 377 16652 16676 "gtkBaseProps.ml" 377 16652 16678
+)
+"gtkBaseProps.ml" 380 16774 16823 "gtkBaseProps.ml" 381 16825 16871
+call(
+  stack
+)
+type(
+  'e Gobject.param list
+)
+"gtkBaseProps.ml" 379 16737 16772 "gtkBaseProps.ml" 381 16825 16872
+call(
+  stack
+)
+type(
+  'e Gobject.param list
+)
+"gtkBaseProps.ml" 378 16722 16735 "gtkBaseProps.ml" 381 16825 16873
+call(
+  stack
+)
+type(
+  'e Gobject.param list
+)
+"gtkBaseProps.ml" 382 16877 16881 "gtkBaseProps.ml" 382 16877 16885
+type(
+  'e Gobject.param list -> 'f
+)
+ident(
+  int_ref cont "gtkBaseProps.ml" 377 16652 16671 "gtkBaseProps.ml" 377 16652 16675
+)
+"gtkBaseProps.ml" 382 16877 16886 "gtkBaseProps.ml" 382 16877 16888
+type(
+  'e Gobject.param list
+)
+ident(
+  int_ref pl "gtkBaseProps.ml" 378 16722 16730 "gtkBaseProps.ml" 378 16722 16732
+)
+"gtkBaseProps.ml" 382 16877 16881 "gtkBaseProps.ml" 382 16877 16888
+call(
+  tail
+)
+type(
+  'f
+)
+"gtkBaseProps.ml" 378 16722 16726 "gtkBaseProps.ml" 382 16877 16888
+type(
+  'f
+)
+"gtkBaseProps.ml" 386 16931 16937 "gtkBaseProps.ml" 386 16931 16941
+type(
+  'a Gobject.obj -> Gtk.color_selection_dialog Gtk.obj
+)
+ident(
+  def cast "gtkBaseProps.ml" 388 17020 17022 "gtkBaseProps.ml" 390 17116 17119
+)
+"gtkBaseProps.ml" 386 16931 16942 "gtkBaseProps.ml" 386 16931 16943
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBaseProps.ml" 386 16931 16944 "gtkBaseProps.ml" 387 16979 17019
+)
+"gtkBaseProps.ml" 387 16979 16983 "gtkBaseProps.ml" 387 16979 16991
+type(
+  'a Gobject.obj -> string -> Gtk.color_selection_dialog Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBaseProps.ml" 387 16979 16992 "gtkBaseProps.ml" 387 16979 16993
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBaseProps.ml" 386 16931 16942 "gtkBaseProps.ml" 386 16931 16943
+)
+"gtkBaseProps.ml" 387 16979 16994 "gtkBaseProps.ml" 387 16979 17019
+type(
+  string
+)
+"gtkBaseProps.ml" 387 16979 16983 "gtkBaseProps.ml" 387 16979 17019
+call(
+  tail
+)
+type(
+  Gtk.color_selection_dialog Gtk.obj
+)
+type(
+  Gtk.color_selection_dialog Gtk.obj
+)
+"gtkBaseProps.ml" 388 17020 17026 "gtkBaseProps.ml" 388 17020 17032
+type(
+  Gtk.color_selection_dialog Gobject.param list ->
+  Gtk.color_selection_dialog Gtk.obj
+)
+ident(
+  def create "gtkBaseProps.ml" 389 17071 17115 "gtkBaseProps.ml" 390 17116 17119
+)
+"gtkBaseProps.ml" 388 17020 17033 "gtkBaseProps.ml" 388 17020 17035
+type(
+  Gtk.color_selection_dialog Gobject.param list
+)
+ident(
+  def pl "gtkBaseProps.ml" 388 17020 17036 "gtkBaseProps.ml" 389 17071 17115
+)
+"gtkBaseProps.ml" 389 17071 17075 "gtkBaseProps.ml" 389 17071 17086
+type(
+  classe:string ->
+  Gtk.color_selection_dialog Gobject.param list ->
+  Gtk.color_selection_dialog Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBaseProps.ml" 389 17071 17087 "gtkBaseProps.ml" 389 17071 17112
+type(
+  string
+)
+"gtkBaseProps.ml" 389 17071 17113 "gtkBaseProps.ml" 389 17071 17115
+type(
+  Gtk.color_selection_dialog Gobject.param list
+)
+ident(
+  int_ref pl "gtkBaseProps.ml" 388 17020 17033 "gtkBaseProps.ml" 388 17020 17035
+)
+"gtkBaseProps.ml" 389 17071 17075 "gtkBaseProps.ml" 389 17071 17115
+call(
+  tail
+)
+type(
+  Gtk.color_selection_dialog Gtk.obj
+)
+type(
+  Gtk.color_selection_dialog Gtk.obj
+)
+"gtkBaseProps.ml" 393 17157 17163 "gtkBaseProps.ml" 393 17157 17167
+type(
+  'a Gobject.obj -> Gtk.font_selection_dialog Gtk.obj
+)
+ident(
+  def cast "gtkBaseProps.ml" 395 17244 17246 "gtkBaseProps.ml" 397 17338 17341
+)
+"gtkBaseProps.ml" 393 17157 17168 "gtkBaseProps.ml" 393 17157 17169
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBaseProps.ml" 393 17157 17170 "gtkBaseProps.ml" 394 17204 17243
+)
+"gtkBaseProps.ml" 394 17204 17208 "gtkBaseProps.ml" 394 17204 17216
+type(
+  'a Gobject.obj -> string -> Gtk.font_selection_dialog Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBaseProps.ml" 394 17204 17217 "gtkBaseProps.ml" 394 17204 17218
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBaseProps.ml" 393 17157 17168 "gtkBaseProps.ml" 393 17157 17169
+)
+"gtkBaseProps.ml" 394 17204 17219 "gtkBaseProps.ml" 394 17204 17243
+type(
+  string
+)
+"gtkBaseProps.ml" 394 17204 17208 "gtkBaseProps.ml" 394 17204 17243
+call(
+  tail
+)
+type(
+  Gtk.font_selection_dialog Gtk.obj
+)
+type(
+  Gtk.font_selection_dialog Gtk.obj
+)
+"gtkBaseProps.ml" 395 17244 17250 "gtkBaseProps.ml" 395 17244 17256
+type(
+  Gtk.font_selection_dialog Gobject.param list ->
+  Gtk.font_selection_dialog Gtk.obj
+)
+ident(
+  def create "gtkBaseProps.ml" 396 17294 17337 "gtkBaseProps.ml" 397 17338 17341
+)
+"gtkBaseProps.ml" 395 17244 17257 "gtkBaseProps.ml" 395 17244 17259
+type(
+  Gtk.font_selection_dialog Gobject.param list
+)
+ident(
+  def pl "gtkBaseProps.ml" 395 17244 17260 "gtkBaseProps.ml" 396 17294 17337
+)
+"gtkBaseProps.ml" 396 17294 17298 "gtkBaseProps.ml" 396 17294 17309
+type(
+  classe:string ->
+  Gtk.font_selection_dialog Gobject.param list ->
+  Gtk.font_selection_dialog Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBaseProps.ml" 396 17294 17310 "gtkBaseProps.ml" 396 17294 17334
+type(
+  string
+)
+"gtkBaseProps.ml" 396 17294 17335 "gtkBaseProps.ml" 396 17294 17337
+type(
+  Gtk.font_selection_dialog Gobject.param list
+)
+ident(
+  int_ref pl "gtkBaseProps.ml" 395 17244 17257 "gtkBaseProps.ml" 395 17244 17259
+)
+"gtkBaseProps.ml" 396 17294 17298 "gtkBaseProps.ml" 396 17294 17337
+call(
+  tail
+)
+type(
+  Gtk.font_selection_dialog Gtk.obj
+)
+type(
+  Gtk.font_selection_dialog Gtk.obj
+)
+"gtkBaseProps.ml" 400 17373 17379 "gtkBaseProps.ml" 400 17373 17383
+type(
+  'a Gobject.obj -> Gtk.message_dialog Gtk.obj
+)
+ident(
+  def cast "gtkBaseProps.ml" 401 17443 17445 "gtkBaseProps.ml" 407 17693 17696
+)
+"gtkBaseProps.ml" 400 17373 17384 "gtkBaseProps.ml" 400 17373 17385
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBaseProps.ml" 400 17373 17386 "gtkBaseProps.ml" 400 17373 17442
+)
+"gtkBaseProps.ml" 400 17373 17413 "gtkBaseProps.ml" 400 17373 17421
+type(
+  'a Gobject.obj -> string -> Gtk.message_dialog Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBaseProps.ml" 400 17373 17422 "gtkBaseProps.ml" 400 17373 17423
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBaseProps.ml" 400 17373 17384 "gtkBaseProps.ml" 400 17373 17385
+)
+"gtkBaseProps.ml" 400 17373 17424 "gtkBaseProps.ml" 400 17373 17442
+type(
+  string
+)
+"gtkBaseProps.ml" 400 17373 17413 "gtkBaseProps.ml" 400 17373 17442
+call(
+  tail
+)
+type(
+  Gtk.message_dialog Gtk.obj
+)
+type(
+  Gtk.message_dialog Gtk.obj
+)
+"gtkBaseProps.ml" 402 17463 17471 "gtkBaseProps.ml" 402 17463 17478
+type(
+  ([> `messagedialog ], GtkEnums.buttons_type) Gobject.property
+)
+ident(
+  def buttons "gtkBaseProps.ml" 404 17570 17574 "gtkBaseProps.ml" 406 17687 17692
+)
+"gtkBaseProps.ml" 403 17514 17526 "gtkBaseProps.ml" 403 17514 17535
+type(
+  string
+)
+"gtkBaseProps.ml" 403 17514 17542 "gtkBaseProps.ml" 403 17514 17568
+type(
+  GtkEnums.buttons_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.buttons_type_conv
+)
+"gtkBaseProps.ml" 403 17514 17520 "gtkBaseProps.ml" 403 17514 17569
+type(
+  ([> `messagedialog ] as 'b, GtkEnums.buttons_type) Gobject.property
+)
+type(
+  ('b, GtkEnums.buttons_type) Gobject.property
+)
+"gtkBaseProps.ml" 404 17570 17578 "gtkBaseProps.ml" 404 17570 17590
+type(
+  ([> `messagedialog ], GtkEnums.message_type) Gobject.property
+)
+ident(
+  def message_type "gtkBaseProps.ml" 405 17626 17686 "gtkBaseProps.ml" 406 17687 17692
+)
+"gtkBaseProps.ml" 405 17626 17638 "gtkBaseProps.ml" 405 17626 17652
+type(
+  string
+)
+"gtkBaseProps.ml" 405 17626 17659 "gtkBaseProps.ml" 405 17626 17685
+type(
+  GtkEnums.message_type Gobject.data_conv
+)
+ident(
+  ext_ref GtkEnums.message_type_conv
+)
+"gtkBaseProps.ml" 405 17626 17632 "gtkBaseProps.ml" 405 17626 17686
+type(
+  ([> `messagedialog ] as 'c, GtkEnums.message_type) Gobject.property
+)
+type(
+  ('c, GtkEnums.message_type) Gobject.property
+)
+"gtkBaseProps.ml" 410 17726 17732 "gtkBaseProps.ml" 410 17726 17736
+type(
+  'a Gobject.obj -> Gtk.about_dialog Gtk.obj
+)
+ident(
+  def cast "gtkBaseProps.ml" 411 17792 17794 "gtkBaseProps.ml" 462 20103 20106
+)
+"gtkBaseProps.ml" 410 17726 17737 "gtkBaseProps.ml" 410 17726 17738
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBaseProps.ml" 410 17726 17739 "gtkBaseProps.ml" 410 17726 17791
+)
+"gtkBaseProps.ml" 410 17726 17764 "gtkBaseProps.ml" 410 17726 17772
+type(
+  'a Gobject.obj -> string -> Gtk.about_dialog Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBaseProps.ml" 410 17726 17773 "gtkBaseProps.ml" 410 17726 17774
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBaseProps.ml" 410 17726 17737 "gtkBaseProps.ml" 410 17726 17738
+)
+"gtkBaseProps.ml" 410 17726 17775 "gtkBaseProps.ml" 410 17726 17791
+type(
+  string
+)
+"gtkBaseProps.ml" 410 17726 17764 "gtkBaseProps.ml" 410 17726 17791
+call(
+  tail
+)
+type(
+  Gtk.about_dialog Gtk.obj
+)
+type(
+  Gtk.about_dialog Gtk.obj
+)
+"gtkBaseProps.ml" 412 17812 17820 "gtkBaseProps.ml" 412 17812 17832
+type(
+  ([> `aboutdialog ], string) Gobject.property
+)
+ident(
+  def program_name "gtkBaseProps.ml" 414 17907 17911 "gtkBaseProps.ml" 434 18848 18853
+)
+"gtkBaseProps.ml" 413 17866 17878 "gtkBaseProps.ml" 413 17866 17892
+type(
+  string
+)
+"gtkBaseProps.ml" 413 17866 17899 "gtkBaseProps.ml" 413 17866 17905
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 413 17866 17872 "gtkBaseProps.ml" 413 17866 17906
+type(
+  ([> `aboutdialog ] as 'b, string) Gobject.property
+)
+type(
+  ('b, string) Gobject.property
+)
+"gtkBaseProps.ml" 414 17907 17915 "gtkBaseProps.ml" 414 17907 17923
+type(
+  ([> `aboutdialog ], string) Gobject.property
+)
+ident(
+  def comments "gtkBaseProps.ml" 416 17994 17998 "gtkBaseProps.ml" 434 18848 18853
+)
+"gtkBaseProps.ml" 415 17957 17969 "gtkBaseProps.ml" 415 17957 17979
+type(
+  string
+)
+"gtkBaseProps.ml" 415 17957 17986 "gtkBaseProps.ml" 415 17957 17992
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 415 17957 17963 "gtkBaseProps.ml" 415 17957 17993
+type(
+  ([> `aboutdialog ] as 'c, string) Gobject.property
+)
+type(
+  ('c, string) Gobject.property
+)
+"gtkBaseProps.ml" 416 17994 18002 "gtkBaseProps.ml" 416 17994 18011
+type(
+  ([> `aboutdialog ], string) Gobject.property
+)
+ident(
+  def copyright "gtkBaseProps.ml" 418 18083 18087 "gtkBaseProps.ml" 434 18848 18853
+)
+"gtkBaseProps.ml" 417 18045 18057 "gtkBaseProps.ml" 417 18045 18068
+type(
+  string
+)
+"gtkBaseProps.ml" 417 18045 18075 "gtkBaseProps.ml" 417 18045 18081
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 417 18045 18051 "gtkBaseProps.ml" 417 18045 18082
+type(
+  ([> `aboutdialog ] as 'd, string) Gobject.property
+)
+type(
+  ('d, string) Gobject.property
+)
+"gtkBaseProps.ml" 418 18083 18091 "gtkBaseProps.ml" 418 18083 18098
+type(
+  ([> `aboutdialog ], string) Gobject.property
+)
+ident(
+  def license "gtkBaseProps.ml" 420 18168 18172 "gtkBaseProps.ml" 434 18848 18853
+)
+"gtkBaseProps.ml" 419 18132 18144 "gtkBaseProps.ml" 419 18132 18153
+type(
+  string
+)
+"gtkBaseProps.ml" 419 18132 18160 "gtkBaseProps.ml" 419 18132 18166
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 419 18132 18138 "gtkBaseProps.ml" 419 18132 18167
+type(
+  ([> `aboutdialog ] as 'e, string) Gobject.property
+)
+type(
+  ('e, string) Gobject.property
+)
+"gtkBaseProps.ml" 420 18168 18176 "gtkBaseProps.ml" 420 18168 18180
+type(
+  ([> `aboutdialog ], GdkPixbuf.pixbuf) Gobject.property
+)
+ident(
+  def logo "gtkBaseProps.ml" 422 18279 18283 "gtkBaseProps.ml" 434 18848 18853
+)
+"gtkBaseProps.ml" 421 18214 18226 "gtkBaseProps.ml" 421 18214 18232
+type(
+  string
+)
+"gtkBaseProps.ml" 421 18214 18240 "gtkBaseProps.ml" 421 18214 18247
+type(
+  GdkPixbuf.pixbuf Gobject.data_conv
+)
+type(
+  GdkPixbuf.pixbuf Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.gobject
+)
+"gtkBaseProps.ml" 421 18214 18220 "gtkBaseProps.ml" 421 18214 18278
+type(
+  ([> `aboutdialog ] as 'f, GdkPixbuf.pixbuf) Gobject.property
+)
+type(
+  ('f, GdkPixbuf.pixbuf) Gobject.property
+)
+"gtkBaseProps.ml" 422 18279 18287 "gtkBaseProps.ml" 422 18279 18301
+type(
+  ([> `aboutdialog ], string) Gobject.property
+)
+ident(
+  def logo_icon_name "gtkBaseProps.ml" 424 18378 18382 "gtkBaseProps.ml" 434 18848 18853
+)
+"gtkBaseProps.ml" 423 18335 18347 "gtkBaseProps.ml" 423 18335 18363
+type(
+  string
+)
+"gtkBaseProps.ml" 423 18335 18370 "gtkBaseProps.ml" 423 18335 18376
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 423 18335 18341 "gtkBaseProps.ml" 423 18335 18377
+type(
+  ([> `aboutdialog ] as 'g, string) Gobject.property
+)
+type(
+  ('g, string) Gobject.property
+)
+"gtkBaseProps.ml" 424 18378 18386 "gtkBaseProps.ml" 424 18378 18404
+type(
+  ([> `aboutdialog ], string) Gobject.property
+)
+ident(
+  def translator_credits "gtkBaseProps.ml" 426 18485 18489 "gtkBaseProps.ml" 434 18848 18853
+)
+"gtkBaseProps.ml" 425 18438 18450 "gtkBaseProps.ml" 425 18438 18470
+type(
+  string
+)
+"gtkBaseProps.ml" 425 18438 18477 "gtkBaseProps.ml" 425 18438 18483
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 425 18438 18444 "gtkBaseProps.ml" 425 18438 18484
+type(
+  ([> `aboutdialog ] as 'h, string) Gobject.property
+)
+type(
+  ('h, string) Gobject.property
+)
+"gtkBaseProps.ml" 426 18485 18493 "gtkBaseProps.ml" 426 18485 18500
+type(
+  ([> `aboutdialog ], string) Gobject.property
+)
+ident(
+  def version "gtkBaseProps.ml" 428 18570 18574 "gtkBaseProps.ml" 434 18848 18853
+)
+"gtkBaseProps.ml" 427 18534 18546 "gtkBaseProps.ml" 427 18534 18555
+type(
+  string
+)
+"gtkBaseProps.ml" 427 18534 18562 "gtkBaseProps.ml" 427 18534 18568
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 427 18534 18540 "gtkBaseProps.ml" 427 18534 18569
+type(
+  ([> `aboutdialog ] as 'i, string) Gobject.property
+)
+type(
+  ('i, string) Gobject.property
+)
+"gtkBaseProps.ml" 428 18570 18578 "gtkBaseProps.ml" 428 18570 18585
+type(
+  ([> `aboutdialog ], string) Gobject.property
+)
+ident(
+  def website "gtkBaseProps.ml" 430 18655 18659 "gtkBaseProps.ml" 434 18848 18853
+)
+"gtkBaseProps.ml" 429 18619 18631 "gtkBaseProps.ml" 429 18619 18640
+type(
+  string
+)
+"gtkBaseProps.ml" 429 18619 18647 "gtkBaseProps.ml" 429 18619 18653
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 429 18619 18625 "gtkBaseProps.ml" 429 18619 18654
+type(
+  ([> `aboutdialog ] as 'j, string) Gobject.property
+)
+type(
+  ('j, string) Gobject.property
+)
+"gtkBaseProps.ml" 430 18655 18663 "gtkBaseProps.ml" 430 18655 18676
+type(
+  ([> `aboutdialog ], string) Gobject.property
+)
+ident(
+  def website_label "gtkBaseProps.ml" 432 18752 18756 "gtkBaseProps.ml" 434 18848 18853
+)
+"gtkBaseProps.ml" 431 18710 18722 "gtkBaseProps.ml" 431 18710 18737
+type(
+  string
+)
+"gtkBaseProps.ml" 431 18710 18744 "gtkBaseProps.ml" 431 18710 18750
+type(
+  string Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.string
+)
+"gtkBaseProps.ml" 431 18710 18716 "gtkBaseProps.ml" 431 18710 18751
+type(
+  ([> `aboutdialog ] as 'k, string) Gobject.property
+)
+type(
+  ('k, string) Gobject.property
+)
+"gtkBaseProps.ml" 432 18752 18760 "gtkBaseProps.ml" 432 18752 18772
+type(
+  ([> `aboutdialog ], bool) Gobject.property
+)
+ident(
+  def wrap_license "gtkBaseProps.ml" 433 18806 18847 "gtkBaseProps.ml" 434 18848 18853
+)
+"gtkBaseProps.ml" 433 18806 18818 "gtkBaseProps.ml" 433 18806 18832
+type(
+  string
+)
+"gtkBaseProps.ml" 433 18806 18839 "gtkBaseProps.ml" 433 18806 18846
+type(
+  bool Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.boolean
+)
+"gtkBaseProps.ml" 433 18806 18812 "gtkBaseProps.ml" 433 18806 18847
+type(
+  ([> `aboutdialog ] as 'l, bool) Gobject.property
+)
+type(
+  ('l, bool) Gobject.property
+)
+"gtkBaseProps.ml" 447 19494 19500 "gtkBaseProps.ml" 447 19494 19511
+type(
+  cont:(([> `aboutdialog ] as 'm) Gobject.param list -> 'n) ->
+  'm Gobject.param list ->
+  ?comments:string ->
+  ?copyright:string ->
+  ?license:string ->
+  ?logo:GdkPixbuf.pixbuf ->
+  ?logo_icon_name:string ->
+  ?translator_credits:string ->
+  ?version:string ->
+  ?website:string -> ?website_label:string -> ?wrap_license:bool -> 'n
+)
+ident(
+  def make_params "gtkBaseProps.ml" 461 20091 20102 "gtkBaseProps.ml" 462 20103 20106
+)
+"gtkBaseProps.ml" 447 19494 19513 "gtkBaseProps.ml" 447 19494 19517
+type(
+  'm Gobject.param list -> 'n
+)
+ident(
+  def cont "gtkBaseProps.ml" 447 19494 19518 "gtkBaseProps.ml" 461 20091 20102
+)
+"gtkBaseProps.ml" 447 19494 19518 "gtkBaseProps.ml" 447 19494 19520
+type(
+  'm Gobject.param list
+)
+ident(
+  def pl "gtkBaseProps.ml" 447 19494 19521 "gtkBaseProps.ml" 461 20091 20102
+)
+"gtkBaseProps.ml" 447 19494 19522 "gtkBaseProps.ml" 447 19494 19530
+type(
+  string option
+)
+ident(
+  def comments "gtkBaseProps.ml" 447 19494 19531 "gtkBaseProps.ml" 461 20091 20102
+)
+"gtkBaseProps.ml" 447 19494 19532 "gtkBaseProps.ml" 447 19494 19541
+type(
+  string option
+)
+ident(
+  def copyright "gtkBaseProps.ml" 447 19494 19542 "gtkBaseProps.ml" 461 20091 20102
+)
+"gtkBaseProps.ml" 447 19494 19543 "gtkBaseProps.ml" 447 19494 19550
+type(
+  string option
+)
+ident(
+  def license "gtkBaseProps.ml" 447 19494 19551 "gtkBaseProps.ml" 461 20091 20102
+)
+"gtkBaseProps.ml" 447 19494 19552 "gtkBaseProps.ml" 447 19494 19556
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  def logo "gtkBaseProps.ml" 448 19557 19563 "gtkBaseProps.ml" 461 20091 20102
+)
+"gtkBaseProps.ml" 448 19557 19564 "gtkBaseProps.ml" 448 19557 19578
+type(
+  string option
+)
+ident(
+  def logo_icon_name "gtkBaseProps.ml" 448 19557 19579 "gtkBaseProps.ml" 461 20091 20102
+)
+"gtkBaseProps.ml" 448 19557 19580 "gtkBaseProps.ml" 448 19557 19598
+type(
+  string option
+)
+ident(
+  def translator_credits "gtkBaseProps.ml" 448 19557 19599 "gtkBaseProps.ml" 461 20091 20102
+)
+"gtkBaseProps.ml" 448 19557 19600 "gtkBaseProps.ml" 448 19557 19607
+type(
+  string option
+)
+ident(
+  def version "gtkBaseProps.ml" 448 19557 19608 "gtkBaseProps.ml" 461 20091 20102
+)
+"gtkBaseProps.ml" 448 19557 19609 "gtkBaseProps.ml" 448 19557 19616
+type(
+  string option
+)
+ident(
+  def website "gtkBaseProps.ml" 448 19557 19617 "gtkBaseProps.ml" 461 20091 20102
+)
+"gtkBaseProps.ml" 448 19557 19618 "gtkBaseProps.ml" 448 19557 19631
+type(
+  string option
+)
+ident(
+  def website_label "gtkBaseProps.ml" 449 19632 19638 "gtkBaseProps.ml" 461 20091 20102
+)
+"gtkBaseProps.ml" 449 19632 19639 "gtkBaseProps.ml" 449 19632 19651
+type(
+  bool option
+)
+ident(
+  def wrap_license "gtkBaseProps.ml" 450 19654 19658 "gtkBaseProps.ml" 461 20091 20102
+)
+"gtkBaseProps.ml" 450 19654 19662 "gtkBaseProps.ml" 450 19654 19664
+type(
+  'm Gobject.param list
+)
+"gtkBaseProps.ml" 451 19669 19675 "gtkBaseProps.ml" 451 19669 19683
+type(
+  ('m, string) Gobject.property ->
+  string option -> 'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 451 19669 19684 "gtkBaseProps.ml" 451 19669 19694
+type(
+  ('m, string) Gobject.property
+)
+ident(
+  ext_ref P.comments
+)
+"gtkBaseProps.ml" 451 19669 19695 "gtkBaseProps.ml" 451 19669 19703
+type(
+  string option
+)
+ident(
+  int_ref comments "gtkBaseProps.ml" 447 19494 19522 "gtkBaseProps.ml" 447 19494 19530
+)
+"gtkBaseProps.ml" 452 19706 19712 "gtkBaseProps.ml" 452 19706 19720
+type(
+  ('m, string) Gobject.property ->
+  string option -> 'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 452 19706 19721 "gtkBaseProps.ml" 452 19706 19732
+type(
+  ('m, string) Gobject.property
+)
+ident(
+  ext_ref P.copyright
+)
+"gtkBaseProps.ml" 452 19706 19733 "gtkBaseProps.ml" 452 19706 19742
+type(
+  string option
+)
+ident(
+  int_ref copyright "gtkBaseProps.ml" 447 19494 19532 "gtkBaseProps.ml" 447 19494 19541
+)
+"gtkBaseProps.ml" 453 19745 19751 "gtkBaseProps.ml" 453 19745 19759
+type(
+  ('m, string) Gobject.property ->
+  string option -> 'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 453 19745 19760 "gtkBaseProps.ml" 453 19745 19769
+type(
+  ('m, string) Gobject.property
+)
+ident(
+  ext_ref P.license
+)
+"gtkBaseProps.ml" 453 19745 19770 "gtkBaseProps.ml" 453 19745 19777
+type(
+  string option
+)
+ident(
+  int_ref license "gtkBaseProps.ml" 447 19494 19543 "gtkBaseProps.ml" 447 19494 19550
+)
+"gtkBaseProps.ml" 454 19780 19786 "gtkBaseProps.ml" 454 19780 19794
+type(
+  ('m, GdkPixbuf.pixbuf) Gobject.property ->
+  GdkPixbuf.pixbuf option -> 'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 454 19780 19795 "gtkBaseProps.ml" 454 19780 19801
+type(
+  ('m, GdkPixbuf.pixbuf) Gobject.property
+)
+ident(
+  ext_ref P.logo
+)
+"gtkBaseProps.ml" 454 19780 19802 "gtkBaseProps.ml" 454 19780 19806
+type(
+  GdkPixbuf.pixbuf option
+)
+ident(
+  int_ref logo "gtkBaseProps.ml" 447 19494 19552 "gtkBaseProps.ml" 447 19494 19556
+)
+"gtkBaseProps.ml" 455 19809 19815 "gtkBaseProps.ml" 455 19809 19823
+type(
+  ('m, string) Gobject.property ->
+  string option -> 'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 455 19809 19824 "gtkBaseProps.ml" 455 19809 19840
+type(
+  ('m, string) Gobject.property
+)
+ident(
+  ext_ref P.logo_icon_name
+)
+"gtkBaseProps.ml" 455 19809 19841 "gtkBaseProps.ml" 455 19809 19855
+type(
+  string option
+)
+ident(
+  int_ref logo_icon_name "gtkBaseProps.ml" 448 19557 19564 "gtkBaseProps.ml" 448 19557 19578
+)
+"gtkBaseProps.ml" 456 19858 19864 "gtkBaseProps.ml" 456 19858 19872
+type(
+  ('m, string) Gobject.property ->
+  string option -> 'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 456 19858 19873 "gtkBaseProps.ml" 456 19858 19893
+type(
+  ('m, string) Gobject.property
+)
+ident(
+  ext_ref P.translator_credits
+)
+"gtkBaseProps.ml" 456 19858 19894 "gtkBaseProps.ml" 456 19858 19912
+type(
+  string option
+)
+ident(
+  int_ref translator_credits "gtkBaseProps.ml" 448 19557 19580 "gtkBaseProps.ml" 448 19557 19598
+)
+"gtkBaseProps.ml" 457 19915 19921 "gtkBaseProps.ml" 457 19915 19929
+type(
+  ('m, string) Gobject.property ->
+  string option -> 'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 457 19915 19930 "gtkBaseProps.ml" 457 19915 19939
+type(
+  ('m, string) Gobject.property
+)
+ident(
+  ext_ref P.version
+)
+"gtkBaseProps.ml" 457 19915 19940 "gtkBaseProps.ml" 457 19915 19947
+type(
+  string option
+)
+ident(
+  int_ref version "gtkBaseProps.ml" 448 19557 19600 "gtkBaseProps.ml" 448 19557 19607
+)
+"gtkBaseProps.ml" 458 19950 19956 "gtkBaseProps.ml" 458 19950 19964
+type(
+  ('m, string) Gobject.property ->
+  string option -> 'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 458 19950 19965 "gtkBaseProps.ml" 458 19950 19974
+type(
+  ('m, string) Gobject.property
+)
+ident(
+  ext_ref P.website
+)
+"gtkBaseProps.ml" 458 19950 19975 "gtkBaseProps.ml" 458 19950 19982
+type(
+  string option
+)
+ident(
+  int_ref website "gtkBaseProps.ml" 448 19557 19609 "gtkBaseProps.ml" 448 19557 19616
+)
+"gtkBaseProps.ml" 459 19985 19991 "gtkBaseProps.ml" 459 19985 19999
+type(
+  ('m, string) Gobject.property ->
+  string option -> 'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 459 19985 20000 "gtkBaseProps.ml" 459 19985 20015
+type(
+  ('m, string) Gobject.property
+)
+ident(
+  ext_ref P.website_label
+)
+"gtkBaseProps.ml" 459 19985 20016 "gtkBaseProps.ml" 459 19985 20029
+type(
+  string option
+)
+ident(
+  int_ref website_label "gtkBaseProps.ml" 448 19557 19618 "gtkBaseProps.ml" 448 19557 19631
+)
+"gtkBaseProps.ml" 460 20032 20038 "gtkBaseProps.ml" 460 20032 20046
+type(
+  ('m, bool) Gobject.property ->
+  bool option -> 'm Gobject.param list -> 'm Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBaseProps.ml" 15 398 402 "gtkBaseProps.ml" 15 398 410
+)
+"gtkBaseProps.ml" 460 20032 20047 "gtkBaseProps.ml" 460 20032 20061
+type(
+  ('m, bool) Gobject.property
+)
+ident(
+  ext_ref P.wrap_license
+)
+"gtkBaseProps.ml" 460 20032 20062 "gtkBaseProps.ml" 460 20032 20074
+type(
+  bool option
+)
+ident(
+  int_ref wrap_license "gtkBaseProps.ml" 449 19632 19639 "gtkBaseProps.ml" 449 19632 19651
+)
+"gtkBaseProps.ml" 460 20032 20075 "gtkBaseProps.ml" 460 20032 20077
+type(
+  'm Gobject.param list
+)
+ident(
+  int_ref pl "gtkBaseProps.ml" 447 19494 19518 "gtkBaseProps.ml" 447 19494 19520
+)
+"gtkBaseProps.ml" 459 19985 20030 "gtkBaseProps.ml" 460 20032 20078
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkBaseProps.ml" 458 19950 19983 "gtkBaseProps.ml" 460 20032 20079
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkBaseProps.ml" 457 19915 19948 "gtkBaseProps.ml" 460 20032 20080
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkBaseProps.ml" 456 19858 19913 "gtkBaseProps.ml" 460 20032 20081
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkBaseProps.ml" 455 19809 19856 "gtkBaseProps.ml" 460 20032 20082
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkBaseProps.ml" 454 19780 19807 "gtkBaseProps.ml" 460 20032 20083
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkBaseProps.ml" 453 19745 19778 "gtkBaseProps.ml" 460 20032 20084
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkBaseProps.ml" 452 19706 19743 "gtkBaseProps.ml" 460 20032 20085
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkBaseProps.ml" 451 19669 19704 "gtkBaseProps.ml" 460 20032 20086
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkBaseProps.ml" 450 19654 19667 "gtkBaseProps.ml" 460 20032 20087
+call(
+  stack
+)
+type(
+  'm Gobject.param list
+)
+"gtkBaseProps.ml" 461 20091 20095 "gtkBaseProps.ml" 461 20091 20099
+type(
+  'm Gobject.param list -> 'n
+)
+ident(
+  int_ref cont "gtkBaseProps.ml" 447 19494 19513 "gtkBaseProps.ml" 447 19494 19517
+)
+"gtkBaseProps.ml" 461 20091 20100 "gtkBaseProps.ml" 461 20091 20102
+type(
+  'm Gobject.param list
+)
+ident(
+  int_ref pl "gtkBaseProps.ml" 450 19654 19662 "gtkBaseProps.ml" 450 19654 19664
+)
+"gtkBaseProps.ml" 461 20091 20095 "gtkBaseProps.ml" 461 20091 20102
+call(
+  tail
+)
+type(
+  'n
+)
+"gtkBaseProps.ml" 450 19654 19658 "gtkBaseProps.ml" 461 20091 20102
+type(
+  'n
+)
+"gtkBaseProps.ml" 465 20129 20135 "gtkBaseProps.ml" 465 20129 20139
+type(
+  'a Gobject.obj -> Gtk.plug Gtk.obj
+)
+ident(
+  def cast "gtkBaseProps.ml" 466 20180 20182 "gtkBaseProps.ml" 470 20301 20304
+)
+"gtkBaseProps.ml" 465 20129 20140 "gtkBaseProps.ml" 465 20129 20141
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBaseProps.ml" 465 20129 20142 "gtkBaseProps.ml" 465 20129 20179
+)
+"gtkBaseProps.ml" 465 20129 20159 "gtkBaseProps.ml" 465 20129 20167
+type(
+  'a Gobject.obj -> string -> Gtk.plug Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBaseProps.ml" 465 20129 20168 "gtkBaseProps.ml" 465 20129 20169
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBaseProps.ml" 465 20129 20140 "gtkBaseProps.ml" 465 20129 20141
+)
+"gtkBaseProps.ml" 465 20129 20170 "gtkBaseProps.ml" 465 20129 20179
+type(
+  string
+)
+"gtkBaseProps.ml" 465 20129 20159 "gtkBaseProps.ml" 465 20129 20179
+call(
+  tail
+)
+type(
+  Gtk.plug Gtk.obj
+)
+type(
+  Gtk.plug Gtk.obj
+)
+"gtkBaseProps.ml" 468 20219 20227 "gtkBaseProps.ml" 468 20219 20235
+type(
+  ([> `plug ], unit -> unit) GtkSignal.t
+)
+ident(
+  def embedded "gtkBaseProps.ml" 468 20219 20294 "gtkBaseProps.ml" 469 20295 20300
+)
+"gtkBaseProps.ml" 468 20219 20244 "gtkBaseProps.ml" 468 20219 20254
+type(
+  string
+)
+"gtkBaseProps.ml" 468 20219 20263 "gtkBaseProps.ml" 468 20219 20268
+type(
+  [> `plug ] as 'b
+)
+"gtkBaseProps.ml" 468 20219 20281 "gtkBaseProps.ml" 468 20219 20293
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 468 20219 20238 "gtkBaseProps.ml" 468 20219 20294
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 473 20329 20335 "gtkBaseProps.ml" 473 20329 20339
+type(
+  'a Gobject.obj -> Gtk.socket Gtk.obj
+)
+ident(
+  def cast "gtkBaseProps.ml" 474 20384 20386 "gtkBaseProps.ml" 483 20748 20751
+)
+"gtkBaseProps.ml" 473 20329 20340 "gtkBaseProps.ml" 473 20329 20341
+type(
+  'a Gobject.obj
+)
+ident(
+  def w "gtkBaseProps.ml" 473 20329 20342 "gtkBaseProps.ml" 473 20329 20383
+)
+"gtkBaseProps.ml" 473 20329 20361 "gtkBaseProps.ml" 473 20329 20369
+type(
+  'a Gobject.obj -> string -> Gtk.socket Gtk.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBaseProps.ml" 473 20329 20370 "gtkBaseProps.ml" 473 20329 20371
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref w "gtkBaseProps.ml" 473 20329 20340 "gtkBaseProps.ml" 473 20329 20341
+)
+"gtkBaseProps.ml" 473 20329 20372 "gtkBaseProps.ml" 473 20329 20383
+type(
+  string
+)
+"gtkBaseProps.ml" 473 20329 20361 "gtkBaseProps.ml" 473 20329 20383
+call(
+  tail
+)
+type(
+  Gtk.socket Gtk.obj
+)
+type(
+  Gtk.socket Gtk.obj
+)
+"gtkBaseProps.ml" 476 20423 20431 "gtkBaseProps.ml" 476 20423 20441
+type(
+  ([> `socket ], unit -> unit) GtkSignal.t
+)
+ident(
+  def plug_added "gtkBaseProps.ml" 478 20511 20515 "gtkBaseProps.ml" 480 20603 20608
+)
+"gtkBaseProps.ml" 477 20444 20456 "gtkBaseProps.ml" 477 20444 20468
+type(
+  string
+)
+"gtkBaseProps.ml" 477 20444 20477 "gtkBaseProps.ml" 477 20444 20484
+type(
+  [> `socket ] as 'b
+)
+"gtkBaseProps.ml" 477 20444 20497 "gtkBaseProps.ml" 477 20444 20509
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 477 20444 20450 "gtkBaseProps.ml" 477 20444 20510
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 478 20511 20519 "gtkBaseProps.ml" 478 20511 20531
+type(
+  ([> `socket ], unit -> unit) GtkSignal.t
+)
+ident(
+  def plug_removed "gtkBaseProps.ml" 479 20534 20602 "gtkBaseProps.ml" 480 20603 20608
+)
+"gtkBaseProps.ml" 479 20534 20546 "gtkBaseProps.ml" 479 20534 20560
+type(
+  string
+)
+"gtkBaseProps.ml" 479 20534 20569 "gtkBaseProps.ml" 479 20534 20576
+type(
+  [> `socket ] as 'c
+)
+"gtkBaseProps.ml" 479 20534 20589 "gtkBaseProps.ml" 479 20534 20601
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBaseProps.ml" 479 20534 20540 "gtkBaseProps.ml" 479 20534 20602
+type(
+  ('c, unit -> unit) GtkSignal.t
+)
+"gtkBaseProps.ml" 481 20609 20615 "gtkBaseProps.ml" 481 20609 20621
+type(
+  Gtk.socket Gobject.param list -> Gtk.socket Gtk.obj
+)
+ident(
+  def create "gtkBaseProps.ml" 482 20671 20673 "gtkBaseProps.ml" 483 20748 20751
+)
+"gtkBaseProps.ml" 481 20609 20622 "gtkBaseProps.ml" 481 20609 20624
+type(
+  Gtk.socket Gobject.param list
+)
+ident(
+  def pl "gtkBaseProps.ml" 481 20609 20625 "gtkBaseProps.ml" 481 20609 20670
+)
+"gtkBaseProps.ml" 481 20609 20644 "gtkBaseProps.ml" 481 20609 20655
+type(
+  classe:string -> Gtk.socket Gobject.param list -> Gtk.socket Gtk.obj
+)
+ident(
+  ext_ref Object.make
+)
+"gtkBaseProps.ml" 481 20609 20656 "gtkBaseProps.ml" 481 20609 20667
+type(
+  string
+)
+"gtkBaseProps.ml" 481 20609 20668 "gtkBaseProps.ml" 481 20609 20670
+type(
+  Gtk.socket Gobject.param list
+)
+ident(
+  int_ref pl "gtkBaseProps.ml" 481 20609 20622 "gtkBaseProps.ml" 481 20609 20624
+)
+"gtkBaseProps.ml" 481 20609 20644 "gtkBaseProps.ml" 481 20609 20670
+call(
+  tail
+)
+type(
+  Gtk.socket Gtk.obj
+)
+type(
+  Gtk.socket Gtk.obj
+)

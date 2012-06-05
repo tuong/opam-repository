@@ -1,0 +1,6 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: 1372bfc8d5982bc9c5c78e9c9131e75a) *)
+Authors of root1d
+Christophe Troestler <Christophe.Troestler@umons.ac.be>
+Edgar Friendly <thelema314@gmail.com>
+(* OASIS_STOP *)

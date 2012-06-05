@@ -1,0 +1,4392 @@
+"src/dot_parser.mly" 26 270 276 "src/dot_parser.mly" 26 270 286
+type(
+  Dot_ast.id -> Dot_ast.compass_pt
+)
+ident(
+  def compass_pt "src/dot_parser.ml" 37 536 536 --
+)
+"src/dot_parser.mly" 27 298 310 "src/dot_parser.mly" 27 298 313
+type(
+  string
+)
+"src/dot_parser.mly" 27 298 304 "src/dot_parser.mly" 27 298 313
+type(
+  Dot_ast.id
+)
+"src/dot_parser.mly" 27 298 317 "src/dot_parser.mly" 27 298 318
+type(
+  Dot_ast.compass_pt
+)
+"src/dot_parser.mly" 28 319 331 "src/dot_parser.mly" 28 319 335
+type(
+  string
+)
+"src/dot_parser.mly" 28 319 325 "src/dot_parser.mly" 28 319 335
+type(
+  Dot_ast.id
+)
+"src/dot_parser.mly" 28 319 339 "src/dot_parser.mly" 28 319 341
+type(
+  Dot_ast.compass_pt
+)
+"src/dot_parser.mly" 29 342 354 "src/dot_parser.mly" 29 342 357
+type(
+  string
+)
+"src/dot_parser.mly" 29 342 348 "src/dot_parser.mly" 29 342 357
+type(
+  Dot_ast.id
+)
+"src/dot_parser.mly" 29 342 361 "src/dot_parser.mly" 29 342 362
+type(
+  Dot_ast.compass_pt
+)
+"src/dot_parser.mly" 30 363 375 "src/dot_parser.mly" 30 363 379
+type(
+  string
+)
+"src/dot_parser.mly" 30 363 369 "src/dot_parser.mly" 30 363 379
+type(
+  Dot_ast.id
+)
+"src/dot_parser.mly" 30 363 383 "src/dot_parser.mly" 30 363 385
+type(
+  Dot_ast.compass_pt
+)
+"src/dot_parser.mly" 31 386 398 "src/dot_parser.mly" 31 386 401
+type(
+  string
+)
+"src/dot_parser.mly" 31 386 392 "src/dot_parser.mly" 31 386 401
+type(
+  Dot_ast.id
+)
+"src/dot_parser.mly" 31 386 405 "src/dot_parser.mly" 31 386 406
+type(
+  Dot_ast.compass_pt
+)
+"src/dot_parser.mly" 32 407 419 "src/dot_parser.mly" 32 407 423
+type(
+  string
+)
+"src/dot_parser.mly" 32 407 413 "src/dot_parser.mly" 32 407 423
+type(
+  Dot_ast.id
+)
+"src/dot_parser.mly" 32 407 427 "src/dot_parser.mly" 32 407 429
+type(
+  Dot_ast.compass_pt
+)
+"src/dot_parser.mly" 33 430 442 "src/dot_parser.mly" 33 430 445
+type(
+  string
+)
+"src/dot_parser.mly" 33 430 436 "src/dot_parser.mly" 33 430 445
+type(
+  Dot_ast.id
+)
+"src/dot_parser.mly" 33 430 449 "src/dot_parser.mly" 33 430 450
+type(
+  Dot_ast.compass_pt
+)
+"src/dot_parser.mly" 34 451 463 "src/dot_parser.mly" 34 451 467
+type(
+  string
+)
+"src/dot_parser.mly" 34 451 457 "src/dot_parser.mly" 34 451 467
+type(
+  Dot_ast.id
+)
+"src/dot_parser.mly" 34 451 471 "src/dot_parser.mly" 34 451 473
+type(
+  Dot_ast.compass_pt
+)
+"src/dot_parser.mly" 35 474 480 "src/dot_parser.mly" 35 474 481
+type(
+  Dot_ast.id
+)
+"src/dot_parser.mly" 35 474 485 "src/dot_parser.mly" 35 474 496
+type(
+  string -> Dot_ast.compass_pt
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/dot_parser.mly" 35 474 497 "src/dot_parser.mly" 35 474 509
+type(
+  string
+)
+"src/dot_parser.mly" 35 474 485 "src/dot_parser.mly" 35 474 509
+call(
+  tail
+)
+type(
+  Dot_ast.compass_pt
+)
+"src/dot_parser.mly" 26 270 289 "src/dot_parser.mly" 35 474 509
+type(
+  Dot_ast.id -> Dot_ast.compass_pt
+)
+"src/dot_parser.ml" 37 536 540 "src/dot_parser.ml" 37 536 554
+type(
+  int array
+)
+ident(
+  def yytransl_const "src/dot_parser.ml" 56 874 874 --
+)
+"src/dot_parser.ml" 38 560 562 "src/dot_parser.ml" 38 560 565
+type(
+  int
+)
+"src/dot_parser.ml" 39 579 581 "src/dot_parser.ml" 39 579 584
+type(
+  int
+)
+"src/dot_parser.ml" 40 598 600 "src/dot_parser.ml" 40 598 603
+type(
+  int
+)
+"src/dot_parser.ml" 41 617 619 "src/dot_parser.ml" 41 617 622
+type(
+  int
+)
+"src/dot_parser.ml" 42 640 642 "src/dot_parser.ml" 42 640 645
+type(
+  int
+)
+"src/dot_parser.ml" 43 660 662 "src/dot_parser.ml" 43 660 665
+type(
+  int
+)
+"src/dot_parser.ml" 44 680 682 "src/dot_parser.ml" 44 680 685
+type(
+  int
+)
+"src/dot_parser.ml" 45 699 701 "src/dot_parser.ml" 45 699 704
+type(
+  int
+)
+"src/dot_parser.ml" 46 720 722 "src/dot_parser.ml" 46 720 725
+type(
+  int
+)
+"src/dot_parser.ml" 47 738 740 "src/dot_parser.ml" 47 738 743
+type(
+  int
+)
+"src/dot_parser.ml" 48 756 758 "src/dot_parser.ml" 48 756 761
+type(
+  int
+)
+"src/dot_parser.ml" 49 773 775 "src/dot_parser.ml" 49 773 778
+type(
+  int
+)
+"src/dot_parser.ml" 50 790 792 "src/dot_parser.ml" 50 790 795
+type(
+  int
+)
+"src/dot_parser.ml" 51 808 810 "src/dot_parser.ml" 51 808 813
+type(
+  int
+)
+"src/dot_parser.ml" 52 826 828 "src/dot_parser.ml" 52 826 831
+type(
+  int
+)
+"src/dot_parser.ml" 53 848 852 "src/dot_parser.ml" 53 848 853
+type(
+  int
+)
+"src/dot_parser.ml" 54 865 869 "src/dot_parser.ml" 54 865 870
+type(
+  int
+)
+"src/dot_parser.ml" 37 536 557 "src/dot_parser.ml" 54 865 872
+type(
+  int array
+)
+"src/dot_parser.ml" 56 874 878 "src/dot_parser.ml" 56 874 892
+type(
+  int array
+)
+ident(
+  def yytransl_block "src/dot_parser.ml" 60 923 923 --
+)
+"src/dot_parser.ml" 57 898 900 "src/dot_parser.ml" 57 898 903
+type(
+  int
+)
+"src/dot_parser.ml" 58 914 918 "src/dot_parser.ml" 58 914 919
+type(
+  int
+)
+"src/dot_parser.ml" 56 874 895 "src/dot_parser.ml" 58 914 921
+type(
+  int array
+)
+"src/dot_parser.ml" 60 923 927 "src/dot_parser.ml" 60 923 932
+type(
+  string
+)
+ident(
+  def yylhs "src/dot_parser.ml" 68 1343 1343 --
+)
+"src/dot_parser.ml" 60 923 935 "src/dot_parser.ml" 66 1276 1341
+type(
+  string
+)
+"src/dot_parser.ml" 68 1343 1347 "src/dot_parser.ml" 68 1343 1352
+type(
+  string
+)
+ident(
+  def yylen "src/dot_parser.ml" 76 1763 1763 --
+)
+"src/dot_parser.ml" 68 1343 1355 "src/dot_parser.ml" 74 1696 1761
+type(
+  string
+)
+"src/dot_parser.ml" 76 1763 1767 "src/dot_parser.ml" 76 1763 1775
+type(
+  string
+)
+ident(
+  def yydefred "src/dot_parser.ml" 88 2410 2410 --
+)
+"src/dot_parser.ml" 76 1763 1778 "src/dot_parser.ml" 86 2383 2408
+type(
+  string
+)
+"src/dot_parser.ml" 88 2410 2414 "src/dot_parser.ml" 88 2410 2421
+type(
+  string
+)
+ident(
+  def yydgoto "src/dot_parser.ml" 93 2626 2626 --
+)
+"src/dot_parser.ml" 88 2410 2424 "src/dot_parser.ml" 91 2567 2624
+type(
+  string
+)
+"src/dot_parser.ml" 93 2626 2630 "src/dot_parser.ml" 93 2626 2638
+type(
+  string
+)
+ident(
+  def yysindex "src/dot_parser.ml" 105 3273 3273 --
+)
+"src/dot_parser.ml" 93 2626 2641 "src/dot_parser.ml" 103 3246 3271
+type(
+  string
+)
+"src/dot_parser.ml" 105 3273 3277 "src/dot_parser.ml" 105 3273 3285
+type(
+  string
+)
+ident(
+  def yyrindex "src/dot_parser.ml" 117 3920 3920 --
+)
+"src/dot_parser.ml" 105 3273 3288 "src/dot_parser.ml" 115 3893 3918
+type(
+  string
+)
+"src/dot_parser.ml" 117 3920 3924 "src/dot_parser.ml" 117 3920 3932
+type(
+  string
+)
+ident(
+  def yygindex "src/dot_parser.ml" 122 4137 4137 --
+)
+"src/dot_parser.ml" 117 3920 3935 "src/dot_parser.ml" 120 4078 4135
+type(
+  string
+)
+"src/dot_parser.ml" 122 4137 4141 "src/dot_parser.ml" 122 4137 4152
+type(
+  int
+)
+ident(
+  def yytablesize "src/dot_parser.ml" 123 4159 4159 --
+)
+"src/dot_parser.ml" 122 4137 4155 "src/dot_parser.ml" 122 4137 4158
+type(
+  int
+)
+"src/dot_parser.ml" 123 4159 4163 "src/dot_parser.ml" 123 4159 4170
+type(
+  string
+)
+ident(
+  def yytable "src/dot_parser.ml" 144 5399 5399 --
+)
+"src/dot_parser.ml" 123 4159 4173 "src/dot_parser.ml" 142 5372 5397
+type(
+  string
+)
+"src/dot_parser.ml" 144 5399 5403 "src/dot_parser.ml" 144 5399 5410
+type(
+  string
+)
+ident(
+  def yycheck "src/dot_parser.ml" 165 6639 6639 --
+)
+"src/dot_parser.ml" 144 5399 5413 "src/dot_parser.ml" 163 6612 6637
+type(
+  string
+)
+"src/dot_parser.ml" 165 6639 6643 "src/dot_parser.ml" 165 6639 6656
+type(
+  string
+)
+ident(
+  def yynames_const "src/dot_parser.ml" 184 6876 6876 --
+)
+"src/dot_parser.ml" 165 6639 6659 "src/dot_parser.ml" 182 6871 6874
+type(
+  string
+)
+"src/dot_parser.ml" 184 6876 6880 "src/dot_parser.ml" 184 6876 6893
+type(
+  string
+)
+ident(
+  def yynames_block "src/dot_parser.ml" 188 6914 6914 --
+)
+"src/dot_parser.ml" 184 6876 6896 "src/dot_parser.ml" 186 6909 6912
+type(
+  string
+)
+"src/dot_parser.ml" 188 6914 6918 "src/dot_parser.ml" 188 6914 6923
+type(
+  (Parsing.parser_env -> Obj.t) array
+)
+ident(
+  def yyact "src/dot_parser.ml" 533 18173 18173 --
+)
+"src/dot_parser.ml" 189 6929 6936 "src/dot_parser.ml" 189 6929 6937
+type(
+  Parsing.parser_env
+)
+"src/dot_parser.ml" 189 6929 6941 "src/dot_parser.ml" 189 6929 6949
+type(
+  string -> Obj.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/dot_parser.ml" 189 6929 6950 "src/dot_parser.ml" 189 6929 6958
+type(
+  string
+)
+"src/dot_parser.ml" 189 6929 6941 "src/dot_parser.ml" 189 6929 6958
+call(
+  tail
+)
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 189 6929 6931 "src/dot_parser.ml" 189 6929 6959
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 190 6960 6967 "src/dot_parser.ml" 190 6960 6984
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 191 6988 6992 "src/dot_parser.ml" 199 7390 7420
+)
+"src/dot_parser.ml" 191 6988 6996 "src/dot_parser.ml" 191 6988 6998
+type(
+  bool
+)
+"src/dot_parser.ml" 191 6988 7002 "src/dot_parser.ml" 191 6988 7018
+type(
+  Parsing.parser_env -> int -> bool
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 191 6988 7019 "src/dot_parser.ml" 191 6988 7036
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 190 6960 6967 "src/dot_parser.ml" 190 6960 6984
+)
+"src/dot_parser.ml" 191 6988 7037 "src/dot_parser.ml" 191 6988 7038
+type(
+  int
+)
+"src/dot_parser.ml" 191 6988 7002 "src/dot_parser.ml" 191 6988 7038
+call(
+  stack
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"src/dot_parser.ml" 192 7057 7065 "src/dot_parser.ml" 192 7057 7067
+type(
+  bool
+)
+"src/dot_parser.ml" 192 7057 7071 "src/dot_parser.ml" 192 7057 7087
+type(
+  Parsing.parser_env -> int -> bool
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 192 7057 7088 "src/dot_parser.ml" 192 7057 7105
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 190 6960 6967 "src/dot_parser.ml" 190 6960 6984
+)
+"src/dot_parser.ml" 192 7057 7106 "src/dot_parser.ml" 192 7057 7107
+type(
+  int
+)
+"src/dot_parser.ml" 192 7057 7071 "src/dot_parser.ml" 192 7057 7107
+call(
+  stack
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"src/dot_parser.ml" 193 7132 7140 "src/dot_parser.ml" 193 7132 7142
+type(
+  Dot_ast.id option
+)
+"src/dot_parser.ml" 193 7132 7146 "src/dot_parser.ml" 193 7132 7162
+type(
+  Parsing.parser_env -> int -> Dot_ast.id option
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 193 7132 7163 "src/dot_parser.ml" 193 7132 7180
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 190 6960 6967 "src/dot_parser.ml" 190 6960 6984
+)
+"src/dot_parser.ml" 193 7132 7181 "src/dot_parser.ml" 193 7132 7182
+type(
+  int
+)
+"src/dot_parser.ml" 193 7132 7146 "src/dot_parser.ml" 193 7132 7182
+call(
+  stack
+)
+type(
+  Dot_ast.id option
+)
+type(
+  Dot_ast.id option
+)
+"src/dot_parser.ml" 194 7197 7205 "src/dot_parser.ml" 194 7197 7207
+type(
+  Dot_ast.stmt list
+)
+"src/dot_parser.ml" 194 7197 7211 "src/dot_parser.ml" 194 7197 7227
+type(
+  Parsing.parser_env -> int -> Dot_ast.stmt list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 194 7197 7228 "src/dot_parser.ml" 194 7197 7245
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 190 6960 6967 "src/dot_parser.ml" 190 6960 6984
+)
+"src/dot_parser.ml" 194 7197 7246 "src/dot_parser.ml" 194 7197 7247
+type(
+  int
+)
+"src/dot_parser.ml" 194 7197 7211 "src/dot_parser.ml" 194 7197 7247
+call(
+  stack
+)
+type(
+  Dot_ast.stmt list
+)
+type(
+  Dot_ast.stmt list
+)
+"src/dot_parser.ml" 195 7265 7269 "src/dot_parser.ml" 195 7265 7277
+type(
+  Dot_ast.file -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 49 7305 7322 "src/dot_parser.mly" 49 7305 7324
+type(
+  bool
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 191 6988 6996 "src/dot_parser.ml" 191 6988 6998
+)
+"src/dot_parser.mly" 49 7305 7336 "src/dot_parser.mly" 49 7305 7338
+type(
+  bool
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 192 7057 7065 "src/dot_parser.ml" 192 7057 7067
+)
+"src/dot_parser.mly" 49 7305 7345 "src/dot_parser.mly" 49 7305 7347
+type(
+  Dot_ast.id option
+)
+ident(
+  int_ref _3 "src/dot_parser.ml" 193 7132 7140 "src/dot_parser.ml" 193 7132 7142
+)
+"src/dot_parser.mly" 49 7305 7357 "src/dot_parser.mly" 49 7305 7359
+type(
+  Dot_ast.stmt list
+)
+ident(
+  int_ref _5 "src/dot_parser.ml" 194 7197 7205 "src/dot_parser.ml" 194 7197 7207
+)
+"src/dot_parser.mly" 49 7305 7309 "src/dot_parser.mly" 49 7305 7363
+type(
+  Dot_ast.file
+)
+type(
+  Dot_ast.file
+)
+"src/dot_parser.ml" 195 7265 7269 "src/dot_parser.ml" 199 7390 7420
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 194 7197 7201 "src/dot_parser.ml" 199 7390 7420
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 193 7132 7136 "src/dot_parser.ml" 199 7390 7420
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 192 7057 7061 "src/dot_parser.ml" 199 7390 7420
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 191 6988 6992 "src/dot_parser.ml" 199 7390 7420
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 190 6960 6962 "src/dot_parser.ml" 199 7390 7421
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 200 7422 7429 "src/dot_parser.ml" 200 7422 7446
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 201 7450 7454 "src/dot_parser.ml" 205 7542 7571
+)
+"src/dot_parser.ml" 201 7450 7454 "src/dot_parser.ml" 201 7450 7462
+type(
+  bool -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 53 7490 7506 "src/dot_parser.mly" 53 7490 7515
+type(
+  bool
+)
+type(
+  bool
+)
+"src/dot_parser.ml" 201 7450 7454 "src/dot_parser.ml" 205 7542 7571
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 200 7422 7424 "src/dot_parser.ml" 205 7542 7572
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 206 7573 7580 "src/dot_parser.ml" 206 7573 7597
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 207 7601 7605 "src/dot_parser.ml" 211 7692 7721
+)
+"src/dot_parser.ml" 207 7601 7605 "src/dot_parser.ml" 207 7601 7613
+type(
+  bool -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 54 7641 7657 "src/dot_parser.mly" 54 7641 7665
+type(
+  bool
+)
+type(
+  bool
+)
+"src/dot_parser.ml" 207 7601 7605 "src/dot_parser.ml" 211 7692 7721
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 206 7573 7575 "src/dot_parser.ml" 211 7692 7722
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 212 7723 7730 "src/dot_parser.ml" 212 7723 7747
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 213 7751 7755 "src/dot_parser.ml" 217 7837 7872
+)
+"src/dot_parser.ml" 213 7751 7755 "src/dot_parser.ml" 213 7751 7763
+type(
+  bool -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 58 7791 7801 "src/dot_parser.mly" 58 7791 7810
+type(
+  bool
+)
+type(
+  bool
+)
+"src/dot_parser.ml" 213 7751 7755 "src/dot_parser.ml" 217 7837 7872
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 212 7723 7725 "src/dot_parser.ml" 217 7837 7873
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 218 7874 7881 "src/dot_parser.ml" 218 7874 7898
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 219 7902 7906 "src/dot_parser.ml" 223 7987 8022
+)
+"src/dot_parser.ml" 219 7902 7906 "src/dot_parser.ml" 219 7902 7914
+type(
+  bool -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 59 7942 7952 "src/dot_parser.mly" 59 7942 7960
+type(
+  bool
+)
+type(
+  bool
+)
+"src/dot_parser.ml" 219 7902 7906 "src/dot_parser.ml" 223 7987 8022
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 218 7874 7876 "src/dot_parser.ml" 223 7987 8023
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 224 8024 8031 "src/dot_parser.ml" 224 8024 8048
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 225 8052 8056 "src/dot_parser.ml" 229 8141 8169
+)
+"src/dot_parser.ml" 225 8052 8056 "src/dot_parser.ml" 225 8052 8064
+type(
+  Dot_ast.stmt list -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 63 8092 8108 "src/dot_parser.mly" 63 8092 8114
+type(
+  Dot_ast.stmt list
+)
+type(
+  Dot_ast.stmt list
+)
+"src/dot_parser.ml" 225 8052 8056 "src/dot_parser.ml" 229 8141 8169
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 224 8024 8026 "src/dot_parser.ml" 229 8141 8170
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 230 8171 8178 "src/dot_parser.ml" 230 8171 8195
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 231 8199 8203 "src/dot_parser.ml" 236 8357 8385
+)
+"src/dot_parser.ml" 231 8199 8207 "src/dot_parser.ml" 231 8199 8209
+type(
+  Dot_ast.stmt list
+)
+"src/dot_parser.ml" 231 8199 8213 "src/dot_parser.ml" 231 8199 8229
+type(
+  Parsing.parser_env -> int -> Dot_ast.stmt list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 231 8199 8230 "src/dot_parser.ml" 231 8199 8247
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 230 8171 8178 "src/dot_parser.ml" 230 8171 8195
+)
+"src/dot_parser.ml" 231 8199 8248 "src/dot_parser.ml" 231 8199 8249
+type(
+  int
+)
+"src/dot_parser.ml" 231 8199 8213 "src/dot_parser.ml" 231 8199 8249
+call(
+  stack
+)
+type(
+  Dot_ast.stmt list
+)
+type(
+  Dot_ast.stmt list
+)
+"src/dot_parser.ml" 232 8268 8272 "src/dot_parser.ml" 232 8268 8280
+type(
+  Dot_ast.stmt list -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 64 8308 8324 "src/dot_parser.mly" 64 8308 8330
+type(
+  Dot_ast.stmt list
+)
+type(
+  Dot_ast.stmt list
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 231 8199 8207 "src/dot_parser.ml" 231 8199 8209
+)
+"src/dot_parser.ml" 232 8268 8272 "src/dot_parser.ml" 236 8357 8385
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 231 8199 8203 "src/dot_parser.ml" 236 8357 8385
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 230 8171 8173 "src/dot_parser.ml" 236 8357 8386
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 237 8387 8394 "src/dot_parser.ml" 237 8387 8411
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 238 8415 8419 "src/dot_parser.ml" 244 8646 8675
+)
+"src/dot_parser.ml" 238 8415 8423 "src/dot_parser.ml" 238 8415 8425
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 238 8415 8429 "src/dot_parser.ml" 238 8415 8445
+type(
+  Parsing.parser_env -> int -> Dot_ast.stmt
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 238 8415 8446 "src/dot_parser.ml" 238 8415 8463
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 237 8387 8394 "src/dot_parser.ml" 237 8387 8411
+)
+"src/dot_parser.ml" 238 8415 8464 "src/dot_parser.ml" 238 8415 8465
+type(
+  int
+)
+"src/dot_parser.ml" 238 8415 8429 "src/dot_parser.ml" 238 8415 8465
+call(
+  stack
+)
+type(
+  Dot_ast.stmt
+)
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 239 8478 8486 "src/dot_parser.ml" 239 8478 8488
+type(
+  unit
+)
+"src/dot_parser.ml" 239 8478 8492 "src/dot_parser.ml" 239 8478 8508
+type(
+  Parsing.parser_env -> int -> unit
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 239 8478 8509 "src/dot_parser.ml" 239 8478 8526
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 237 8387 8394 "src/dot_parser.ml" 237 8387 8411
+)
+"src/dot_parser.ml" 239 8478 8527 "src/dot_parser.ml" 239 8478 8528
+type(
+  int
+)
+"src/dot_parser.ml" 239 8478 8492 "src/dot_parser.ml" 239 8478 8528
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"src/dot_parser.ml" 240 8550 8554 "src/dot_parser.ml" 240 8550 8562
+type(
+  Dot_ast.stmt list -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 68 8590 8614 "src/dot_parser.mly" 68 8590 8616
+type(
+  Dot_ast.stmt
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 238 8415 8423 "src/dot_parser.ml" 238 8415 8425
+)
+"src/dot_parser.mly" 68 8590 8611 "src/dot_parser.mly" 68 8590 8619
+type(
+  Dot_ast.stmt list
+)
+type(
+  Dot_ast.stmt list
+)
+"src/dot_parser.ml" 240 8550 8554 "src/dot_parser.ml" 244 8646 8675
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 239 8478 8482 "src/dot_parser.ml" 244 8646 8675
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 238 8415 8419 "src/dot_parser.ml" 244 8646 8675
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 237 8387 8389 "src/dot_parser.ml" 244 8646 8676
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 245 8677 8684 "src/dot_parser.ml" 245 8677 8701
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 246 8705 8709 "src/dot_parser.ml" 253 9020 9049
+)
+"src/dot_parser.ml" 246 8705 8713 "src/dot_parser.ml" 246 8705 8715
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 246 8705 8719 "src/dot_parser.ml" 246 8705 8735
+type(
+  Parsing.parser_env -> int -> Dot_ast.stmt
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 246 8705 8736 "src/dot_parser.ml" 246 8705 8753
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 245 8677 8684 "src/dot_parser.ml" 245 8677 8701
+)
+"src/dot_parser.ml" 246 8705 8754 "src/dot_parser.ml" 246 8705 8755
+type(
+  int
+)
+"src/dot_parser.ml" 246 8705 8719 "src/dot_parser.ml" 246 8705 8755
+call(
+  stack
+)
+type(
+  Dot_ast.stmt
+)
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 247 8768 8776 "src/dot_parser.ml" 247 8768 8778
+type(
+  unit
+)
+"src/dot_parser.ml" 247 8768 8782 "src/dot_parser.ml" 247 8768 8798
+type(
+  Parsing.parser_env -> int -> unit
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 247 8768 8799 "src/dot_parser.ml" 247 8768 8816
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 245 8677 8684 "src/dot_parser.ml" 245 8677 8701
+)
+"src/dot_parser.ml" 247 8768 8817 "src/dot_parser.ml" 247 8768 8818
+type(
+  int
+)
+"src/dot_parser.ml" 247 8768 8782 "src/dot_parser.ml" 247 8768 8818
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"src/dot_parser.ml" 248 8840 8848 "src/dot_parser.ml" 248 8840 8850
+type(
+  Dot_ast.stmt list
+)
+"src/dot_parser.ml" 248 8840 8854 "src/dot_parser.ml" 248 8840 8870
+type(
+  Parsing.parser_env -> int -> Dot_ast.stmt list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 248 8840 8871 "src/dot_parser.ml" 248 8840 8888
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 245 8677 8684 "src/dot_parser.ml" 245 8677 8701
+)
+"src/dot_parser.ml" 248 8840 8889 "src/dot_parser.ml" 248 8840 8890
+type(
+  int
+)
+"src/dot_parser.ml" 248 8840 8854 "src/dot_parser.ml" 248 8840 8890
+call(
+  stack
+)
+type(
+  Dot_ast.stmt list
+)
+type(
+  Dot_ast.stmt list
+)
+"src/dot_parser.ml" 249 8909 8913 "src/dot_parser.ml" 249 8909 8921
+type(
+  Dot_ast.stmt list -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 69 8949 8983 "src/dot_parser.mly" 69 8949 8985
+type(
+  Dot_ast.stmt
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 246 8705 8713 "src/dot_parser.ml" 246 8705 8715
+)
+"src/dot_parser.mly" 69 8949 8989 "src/dot_parser.mly" 69 8949 8991
+type(
+  Dot_ast.stmt list
+)
+ident(
+  int_ref _3 "src/dot_parser.ml" 248 8840 8848 "src/dot_parser.ml" 248 8840 8850
+)
+"src/dot_parser.mly" 69 8949 8981 "src/dot_parser.mly" 69 8949 8993
+type(
+  Dot_ast.stmt list
+)
+type(
+  Dot_ast.stmt list
+)
+"src/dot_parser.ml" 249 8909 8913 "src/dot_parser.ml" 253 9020 9049
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 248 8840 8844 "src/dot_parser.ml" 253 9020 9049
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 247 8768 8772 "src/dot_parser.ml" 253 9020 9049
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 246 8705 8709 "src/dot_parser.ml" 253 9020 9049
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 245 8677 8679 "src/dot_parser.ml" 253 9020 9050
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 254 9051 9058 "src/dot_parser.ml" 254 9051 9075
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 255 9079 9083 "src/dot_parser.ml" 259 9168 9200
+)
+"src/dot_parser.ml" 255 9079 9083 "src/dot_parser.ml" 255 9079 9091
+type(
+  unit -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 73 9119 9135 "src/dot_parser.mly" 73 9119 9141
+type(
+  unit
+)
+type(
+  unit
+)
+"src/dot_parser.ml" 255 9079 9083 "src/dot_parser.ml" 259 9168 9200
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 254 9051 9053 "src/dot_parser.ml" 259 9168 9201
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 260 9202 9209 "src/dot_parser.ml" 260 9202 9226
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 261 9230 9234 "src/dot_parser.ml" 265 9319 9351
+)
+"src/dot_parser.ml" 261 9230 9234 "src/dot_parser.ml" 261 9230 9242
+type(
+  unit -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 74 9270 9286 "src/dot_parser.mly" 74 9270 9292
+type(
+  unit
+)
+type(
+  unit
+)
+"src/dot_parser.ml" 261 9230 9234 "src/dot_parser.ml" 265 9319 9351
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 260 9202 9204 "src/dot_parser.ml" 265 9319 9352
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 266 9353 9360 "src/dot_parser.ml" 266 9353 9377
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 267 9381 9385 "src/dot_parser.ml" 272 9534 9557
+)
+"src/dot_parser.ml" 267 9381 9389 "src/dot_parser.ml" 267 9381 9391
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 267 9381 9395 "src/dot_parser.ml" 267 9381 9411
+type(
+  Parsing.parser_env -> int -> Dot_ast.stmt
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 267 9381 9412 "src/dot_parser.ml" 267 9381 9429
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 266 9353 9360 "src/dot_parser.ml" 266 9353 9377
+)
+"src/dot_parser.ml" 267 9381 9430 "src/dot_parser.ml" 267 9381 9431
+type(
+  int
+)
+"src/dot_parser.ml" 267 9381 9395 "src/dot_parser.ml" 267 9381 9431
+call(
+  stack
+)
+type(
+  Dot_ast.stmt
+)
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 268 9449 9453 "src/dot_parser.ml" 268 9449 9461
+type(
+  Dot_ast.stmt -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 78 9489 9501 "src/dot_parser.mly" 78 9489 9507
+type(
+  Dot_ast.stmt
+)
+type(
+  Dot_ast.stmt
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 267 9381 9389 "src/dot_parser.ml" 267 9381 9391
+)
+"src/dot_parser.ml" 268 9449 9453 "src/dot_parser.ml" 272 9534 9557
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 267 9381 9385 "src/dot_parser.ml" 272 9534 9557
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 266 9353 9355 "src/dot_parser.ml" 272 9534 9558
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 273 9559 9566 "src/dot_parser.ml" 273 9559 9583
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 274 9587 9591 "src/dot_parser.ml" 279 9740 9763
+)
+"src/dot_parser.ml" 274 9587 9595 "src/dot_parser.ml" 274 9587 9597
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 274 9587 9601 "src/dot_parser.ml" 274 9587 9617
+type(
+  Parsing.parser_env -> int -> Dot_ast.stmt
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 274 9587 9618 "src/dot_parser.ml" 274 9587 9635
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 273 9559 9566 "src/dot_parser.ml" 273 9559 9583
+)
+"src/dot_parser.ml" 274 9587 9636 "src/dot_parser.ml" 274 9587 9637
+type(
+  int
+)
+"src/dot_parser.ml" 274 9587 9601 "src/dot_parser.ml" 274 9587 9637
+call(
+  stack
+)
+type(
+  Dot_ast.stmt
+)
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 275 9655 9659 "src/dot_parser.ml" 275 9655 9667
+type(
+  Dot_ast.stmt -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 79 9695 9707 "src/dot_parser.mly" 79 9695 9713
+type(
+  Dot_ast.stmt
+)
+type(
+  Dot_ast.stmt
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 274 9587 9595 "src/dot_parser.ml" 274 9587 9597
+)
+"src/dot_parser.ml" 275 9655 9659 "src/dot_parser.ml" 279 9740 9763
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 274 9587 9591 "src/dot_parser.ml" 279 9740 9763
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 273 9559 9561 "src/dot_parser.ml" 279 9740 9764
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 280 9765 9772 "src/dot_parser.ml" 280 9765 9789
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 281 9793 9797 "src/dot_parser.ml" 286 9946 9969
+)
+"src/dot_parser.ml" 281 9793 9801 "src/dot_parser.ml" 281 9793 9803
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 281 9793 9807 "src/dot_parser.ml" 281 9793 9823
+type(
+  Parsing.parser_env -> int -> Dot_ast.stmt
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 281 9793 9824 "src/dot_parser.ml" 281 9793 9841
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 280 9765 9772 "src/dot_parser.ml" 280 9765 9789
+)
+"src/dot_parser.ml" 281 9793 9842 "src/dot_parser.ml" 281 9793 9843
+type(
+  int
+)
+"src/dot_parser.ml" 281 9793 9807 "src/dot_parser.ml" 281 9793 9843
+call(
+  stack
+)
+type(
+  Dot_ast.stmt
+)
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 282 9861 9865 "src/dot_parser.ml" 282 9861 9873
+type(
+  Dot_ast.stmt -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 80 9901 9913 "src/dot_parser.mly" 80 9901 9919
+type(
+  Dot_ast.stmt
+)
+type(
+  Dot_ast.stmt
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 281 9793 9801 "src/dot_parser.ml" 281 9793 9803
+)
+"src/dot_parser.ml" 282 9861 9865 "src/dot_parser.ml" 286 9946 9969
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 281 9793 9797 "src/dot_parser.ml" 286 9946 9969
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 280 9765 9767 "src/dot_parser.ml" 286 9946 9970
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 287 9971 9978 "src/dot_parser.ml" 287 9971 9995
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 288 9999 10003 "src/dot_parser.ml" 294 10234 10257
+)
+"src/dot_parser.ml" 288 9999 10007 "src/dot_parser.ml" 288 9999 10009
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 288 9999 10013 "src/dot_parser.ml" 288 9999 10029
+type(
+  Parsing.parser_env -> int -> Dot_ast.id
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 288 9999 10030 "src/dot_parser.ml" 288 9999 10047
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 287 9971 9978 "src/dot_parser.ml" 287 9971 9995
+)
+"src/dot_parser.ml" 288 9999 10048 "src/dot_parser.ml" 288 9999 10049
+type(
+  int
+)
+"src/dot_parser.ml" 288 9999 10013 "src/dot_parser.ml" 288 9999 10049
+call(
+  stack
+)
+type(
+  Dot_ast.id
+)
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 289 10067 10075 "src/dot_parser.ml" 289 10067 10077
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 289 10067 10081 "src/dot_parser.ml" 289 10067 10097
+type(
+  Parsing.parser_env -> int -> Dot_ast.id
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 289 10067 10098 "src/dot_parser.ml" 289 10067 10115
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 287 9971 9978 "src/dot_parser.ml" 287 9971 9995
+)
+"src/dot_parser.ml" 289 10067 10116 "src/dot_parser.ml" 289 10067 10117
+type(
+  int
+)
+"src/dot_parser.ml" 289 10067 10081 "src/dot_parser.ml" 289 10067 10117
+call(
+  stack
+)
+type(
+  Dot_ast.id
+)
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 290 10135 10139 "src/dot_parser.ml" 290 10135 10147
+type(
+  Dot_ast.stmt -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 81 10175 10198 "src/dot_parser.mly" 81 10175 10200
+type(
+  Dot_ast.id
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 288 9999 10007 "src/dot_parser.ml" 288 9999 10009
+)
+"src/dot_parser.mly" 81 10175 10202 "src/dot_parser.mly" 81 10175 10204
+type(
+  Dot_ast.id
+)
+ident(
+  int_ref _3 "src/dot_parser.ml" 289 10067 10075 "src/dot_parser.ml" 289 10067 10077
+)
+"src/dot_parser.mly" 81 10175 10189 "src/dot_parser.mly" 81 10175 10207
+type(
+  Dot_ast.stmt
+)
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 290 10135 10139 "src/dot_parser.ml" 294 10234 10257
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 289 10067 10071 "src/dot_parser.ml" 294 10234 10257
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 288 9999 10003 "src/dot_parser.ml" 294 10234 10257
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 287 9971 9973 "src/dot_parser.ml" 294 10234 10258
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 295 10259 10266 "src/dot_parser.ml" 295 10259 10283
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 296 10287 10291 "src/dot_parser.ml" 301 10448 10471
+)
+"src/dot_parser.ml" 296 10287 10295 "src/dot_parser.ml" 296 10287 10297
+type(
+  Dot_ast.subgraph
+)
+"src/dot_parser.ml" 296 10287 10301 "src/dot_parser.ml" 296 10287 10317
+type(
+  Parsing.parser_env -> int -> Dot_ast.subgraph
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 296 10287 10318 "src/dot_parser.ml" 296 10287 10335
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 295 10259 10266 "src/dot_parser.ml" 295 10259 10283
+)
+"src/dot_parser.ml" 296 10287 10336 "src/dot_parser.ml" 296 10287 10337
+type(
+  int
+)
+"src/dot_parser.ml" 296 10287 10301 "src/dot_parser.ml" 296 10287 10337
+call(
+  stack
+)
+type(
+  Dot_ast.subgraph
+)
+type(
+  Dot_ast.subgraph
+)
+"src/dot_parser.ml" 297 10354 10358 "src/dot_parser.ml" 297 10354 10366
+type(
+  Dot_ast.stmt -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 82 10394 10417 "src/dot_parser.mly" 82 10394 10419
+type(
+  Dot_ast.subgraph
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 296 10287 10295 "src/dot_parser.ml" 296 10287 10297
+)
+"src/dot_parser.mly" 82 10394 10406 "src/dot_parser.mly" 82 10394 10421
+type(
+  Dot_ast.stmt
+)
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 297 10354 10358 "src/dot_parser.ml" 301 10448 10471
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 296 10287 10291 "src/dot_parser.ml" 301 10448 10471
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 295 10259 10261 "src/dot_parser.ml" 301 10448 10472
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 302 10473 10480 "src/dot_parser.ml" 302 10473 10497
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 303 10501 10505 "src/dot_parser.ml" 309 10752 10780
+)
+"src/dot_parser.ml" 303 10501 10509 "src/dot_parser.ml" 303 10501 10511
+type(
+  Dot_ast.node_id
+)
+"src/dot_parser.ml" 303 10501 10515 "src/dot_parser.ml" 303 10501 10531
+type(
+  Parsing.parser_env -> int -> Dot_ast.node_id
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 303 10501 10532 "src/dot_parser.ml" 303 10501 10549
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 302 10473 10480 "src/dot_parser.ml" 302 10473 10497
+)
+"src/dot_parser.ml" 303 10501 10550 "src/dot_parser.ml" 303 10501 10551
+type(
+  int
+)
+"src/dot_parser.ml" 303 10501 10515 "src/dot_parser.ml" 303 10501 10551
+call(
+  stack
+)
+type(
+  Dot_ast.node_id
+)
+type(
+  Dot_ast.node_id
+)
+"src/dot_parser.ml" 304 10567 10575 "src/dot_parser.ml" 304 10567 10577
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 304 10567 10581 "src/dot_parser.ml" 304 10567 10597
+type(
+  Parsing.parser_env -> int -> Dot_ast.attr list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 304 10567 10598 "src/dot_parser.ml" 304 10567 10615
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 302 10473 10480 "src/dot_parser.ml" 302 10473 10497
+)
+"src/dot_parser.ml" 304 10567 10616 "src/dot_parser.ml" 304 10567 10617
+type(
+  int
+)
+"src/dot_parser.ml" 304 10567 10581 "src/dot_parser.ml" 304 10567 10617
+call(
+  stack
+)
+type(
+  Dot_ast.attr list
+)
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 305 10639 10643 "src/dot_parser.ml" 305 10639 10651
+type(
+  Dot_ast.stmt -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 86 10679 10716 "src/dot_parser.mly" 86 10679 10718
+type(
+  Dot_ast.node_id
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 303 10501 10509 "src/dot_parser.ml" 303 10501 10511
+)
+"src/dot_parser.mly" 86 10679 10720 "src/dot_parser.mly" 86 10679 10722
+type(
+  Dot_ast.attr list
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 304 10567 10575 "src/dot_parser.ml" 304 10567 10577
+)
+"src/dot_parser.mly" 86 10679 10703 "src/dot_parser.mly" 86 10679 10725
+type(
+  Dot_ast.stmt
+)
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 305 10639 10643 "src/dot_parser.ml" 309 10752 10780
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 304 10567 10571 "src/dot_parser.ml" 309 10752 10780
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 303 10501 10505 "src/dot_parser.ml" 309 10752 10780
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 302 10473 10475 "src/dot_parser.ml" 309 10752 10781
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 310 10782 10789 "src/dot_parser.ml" 310 10782 10806
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 311 10810 10814 "src/dot_parser.ml" 318 11135 11163
+)
+"src/dot_parser.ml" 311 10810 10818 "src/dot_parser.ml" 311 10810 10820
+type(
+  Dot_ast.node
+)
+"src/dot_parser.ml" 311 10810 10824 "src/dot_parser.ml" 311 10810 10840
+type(
+  Parsing.parser_env -> int -> Dot_ast.node
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 311 10810 10841 "src/dot_parser.ml" 311 10810 10858
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 310 10782 10789 "src/dot_parser.ml" 310 10782 10806
+)
+"src/dot_parser.ml" 311 10810 10859 "src/dot_parser.ml" 311 10810 10860
+type(
+  int
+)
+"src/dot_parser.ml" 311 10810 10824 "src/dot_parser.ml" 311 10810 10860
+call(
+  stack
+)
+type(
+  Dot_ast.node
+)
+type(
+  Dot_ast.node
+)
+"src/dot_parser.ml" 312 10873 10881 "src/dot_parser.ml" 312 10873 10883
+type(
+  Dot_ast.node list
+)
+"src/dot_parser.ml" 312 10873 10887 "src/dot_parser.ml" 312 10873 10903
+type(
+  Parsing.parser_env -> int -> Dot_ast.node list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 312 10873 10904 "src/dot_parser.ml" 312 10873 10921
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 310 10782 10789 "src/dot_parser.ml" 310 10782 10806
+)
+"src/dot_parser.ml" 312 10873 10922 "src/dot_parser.ml" 312 10873 10923
+type(
+  int
+)
+"src/dot_parser.ml" 312 10873 10887 "src/dot_parser.ml" 312 10873 10923
+call(
+  stack
+)
+type(
+  Dot_ast.node list
+)
+type(
+  Dot_ast.node list
+)
+"src/dot_parser.ml" 313 10940 10948 "src/dot_parser.ml" 313 10940 10950
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 313 10940 10954 "src/dot_parser.ml" 313 10940 10970
+type(
+  Parsing.parser_env -> int -> Dot_ast.attr list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 313 10940 10971 "src/dot_parser.ml" 313 10940 10988
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 310 10782 10789 "src/dot_parser.ml" 310 10782 10806
+)
+"src/dot_parser.ml" 313 10940 10989 "src/dot_parser.ml" 313 10940 10990
+type(
+  int
+)
+"src/dot_parser.ml" 313 10940 10954 "src/dot_parser.ml" 313 10940 10990
+call(
+  stack
+)
+type(
+  Dot_ast.attr list
+)
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 314 11012 11016 "src/dot_parser.ml" 314 11012 11024
+type(
+  Dot_ast.stmt -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 90 11052 11095 "src/dot_parser.mly" 90 11052 11097
+type(
+  Dot_ast.node
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 311 10810 10818 "src/dot_parser.ml" 311 10810 10820
+)
+"src/dot_parser.mly" 90 11052 11099 "src/dot_parser.mly" 90 11052 11101
+type(
+  Dot_ast.node list
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 312 10873 10881 "src/dot_parser.ml" 312 10873 10883
+)
+"src/dot_parser.mly" 90 11052 11103 "src/dot_parser.mly" 90 11052 11105
+type(
+  Dot_ast.attr list
+)
+ident(
+  int_ref _3 "src/dot_parser.ml" 313 10940 10948 "src/dot_parser.ml" 313 10940 10950
+)
+"src/dot_parser.mly" 90 11052 11082 "src/dot_parser.mly" 90 11052 11108
+type(
+  Dot_ast.stmt
+)
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 314 11012 11016 "src/dot_parser.ml" 318 11135 11163
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 313 10940 10944 "src/dot_parser.ml" 318 11135 11163
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 312 10873 10877 "src/dot_parser.ml" 318 11135 11163
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 311 10810 10814 "src/dot_parser.ml" 318 11135 11163
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 310 10782 10784 "src/dot_parser.ml" 318 11135 11164
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 319 11165 11172 "src/dot_parser.ml" 319 11165 11189
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 320 11193 11197 "src/dot_parser.ml" 325 11363 11391
+)
+"src/dot_parser.ml" 320 11193 11201 "src/dot_parser.ml" 320 11193 11203
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 320 11193 11207 "src/dot_parser.ml" 320 11193 11223
+type(
+  Parsing.parser_env -> int -> Dot_ast.attr list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 320 11193 11224 "src/dot_parser.ml" 320 11193 11241
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 319 11165 11172 "src/dot_parser.ml" 319 11165 11189
+)
+"src/dot_parser.ml" 320 11193 11242 "src/dot_parser.ml" 320 11193 11243
+type(
+  int
+)
+"src/dot_parser.ml" 320 11193 11207 "src/dot_parser.ml" 320 11193 11243
+call(
+  stack
+)
+type(
+  Dot_ast.attr list
+)
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 321 11261 11265 "src/dot_parser.ml" 321 11261 11273
+type(
+  Dot_ast.stmt -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 94 11301 11332 "src/dot_parser.mly" 94 11301 11334
+type(
+  Dot_ast.attr list
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 320 11193 11201 "src/dot_parser.ml" 320 11193 11203
+)
+"src/dot_parser.mly" 94 11301 11319 "src/dot_parser.mly" 94 11301 11336
+type(
+  Dot_ast.stmt
+)
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 321 11261 11265 "src/dot_parser.ml" 325 11363 11391
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 320 11193 11197 "src/dot_parser.ml" 325 11363 11391
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 319 11165 11167 "src/dot_parser.ml" 325 11363 11392
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 326 11393 11400 "src/dot_parser.ml" 326 11393 11417
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 327 11421 11425 "src/dot_parser.ml" 332 11590 11618
+)
+"src/dot_parser.ml" 327 11421 11429 "src/dot_parser.ml" 327 11421 11431
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 327 11421 11435 "src/dot_parser.ml" 327 11421 11451
+type(
+  Parsing.parser_env -> int -> Dot_ast.attr list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 327 11421 11452 "src/dot_parser.ml" 327 11421 11469
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 326 11393 11400 "src/dot_parser.ml" 326 11393 11417
+)
+"src/dot_parser.ml" 327 11421 11470 "src/dot_parser.ml" 327 11421 11471
+type(
+  int
+)
+"src/dot_parser.ml" 327 11421 11435 "src/dot_parser.ml" 327 11421 11471
+call(
+  stack
+)
+type(
+  Dot_ast.attr list
+)
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 328 11489 11493 "src/dot_parser.ml" 328 11489 11501
+type(
+  Dot_ast.stmt -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 95 11529 11559 "src/dot_parser.mly" 95 11529 11561
+type(
+  Dot_ast.attr list
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 327 11421 11429 "src/dot_parser.ml" 327 11421 11431
+)
+"src/dot_parser.mly" 95 11529 11547 "src/dot_parser.mly" 95 11529 11563
+type(
+  Dot_ast.stmt
+)
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 328 11489 11493 "src/dot_parser.ml" 332 11590 11618
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 327 11421 11425 "src/dot_parser.ml" 332 11590 11618
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 326 11393 11395 "src/dot_parser.ml" 332 11590 11619
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 333 11620 11627 "src/dot_parser.ml" 333 11620 11644
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 334 11648 11652 "src/dot_parser.ml" 339 11817 11845
+)
+"src/dot_parser.ml" 334 11648 11656 "src/dot_parser.ml" 334 11648 11658
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 334 11648 11662 "src/dot_parser.ml" 334 11648 11678
+type(
+  Parsing.parser_env -> int -> Dot_ast.attr list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 334 11648 11679 "src/dot_parser.ml" 334 11648 11696
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 333 11620 11627 "src/dot_parser.ml" 333 11620 11644
+)
+"src/dot_parser.ml" 334 11648 11697 "src/dot_parser.ml" 334 11648 11698
+type(
+  int
+)
+"src/dot_parser.ml" 334 11648 11662 "src/dot_parser.ml" 334 11648 11698
+call(
+  stack
+)
+type(
+  Dot_ast.attr list
+)
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 335 11716 11720 "src/dot_parser.ml" 335 11716 11728
+type(
+  Dot_ast.stmt -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 96 11756 11786 "src/dot_parser.mly" 96 11756 11788
+type(
+  Dot_ast.attr list
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 334 11648 11656 "src/dot_parser.ml" 334 11648 11658
+)
+"src/dot_parser.mly" 96 11756 11774 "src/dot_parser.mly" 96 11756 11790
+type(
+  Dot_ast.stmt
+)
+type(
+  Dot_ast.stmt
+)
+"src/dot_parser.ml" 335 11716 11720 "src/dot_parser.ml" 339 11817 11845
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 334 11648 11652 "src/dot_parser.ml" 339 11817 11845
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 333 11620 11622 "src/dot_parser.ml" 339 11817 11846
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 340 11847 11854 "src/dot_parser.ml" 340 11847 11871
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 341 11875 11879 "src/dot_parser.ml" 347 12116 12143
+)
+"src/dot_parser.ml" 341 11875 11883 "src/dot_parser.ml" 341 11875 11885
+type(
+  Dot_ast.node
+)
+"src/dot_parser.ml" 341 11875 11889 "src/dot_parser.ml" 341 11875 11905
+type(
+  Parsing.parser_env -> int -> Dot_ast.node
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 341 11875 11906 "src/dot_parser.ml" 341 11875 11923
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 340 11847 11854 "src/dot_parser.ml" 340 11847 11871
+)
+"src/dot_parser.ml" 341 11875 11924 "src/dot_parser.ml" 341 11875 11925
+type(
+  int
+)
+"src/dot_parser.ml" 341 11875 11889 "src/dot_parser.ml" 341 11875 11925
+call(
+  stack
+)
+type(
+  Dot_ast.node
+)
+type(
+  Dot_ast.node
+)
+"src/dot_parser.ml" 342 11938 11946 "src/dot_parser.ml" 342 11938 11948
+type(
+  Dot_ast.node list
+)
+"src/dot_parser.ml" 342 11938 11952 "src/dot_parser.ml" 342 11938 11968
+type(
+  Parsing.parser_env -> int -> Dot_ast.node list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 342 11938 11969 "src/dot_parser.ml" 342 11938 11986
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 340 11847 11854 "src/dot_parser.ml" 340 11847 11871
+)
+"src/dot_parser.ml" 342 11938 11987 "src/dot_parser.ml" 342 11938 11988
+type(
+  int
+)
+"src/dot_parser.ml" 342 11938 11952 "src/dot_parser.ml" 342 11938 11988
+call(
+  stack
+)
+type(
+  Dot_ast.node list
+)
+type(
+  Dot_ast.node list
+)
+"src/dot_parser.ml" 343 12009 12013 "src/dot_parser.ml" 343 12009 12021
+type(
+  Dot_ast.node list -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 100 12050 12079 "src/dot_parser.mly" 100 12050 12081
+type(
+  Dot_ast.node
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 341 11875 11883 "src/dot_parser.ml" 341 11875 11885
+)
+"src/dot_parser.mly" 100 12050 12085 "src/dot_parser.mly" 100 12050 12087
+type(
+  Dot_ast.node list
+)
+ident(
+  int_ref _3 "src/dot_parser.ml" 342 11938 11946 "src/dot_parser.ml" 342 11938 11948
+)
+"src/dot_parser.mly" 100 12050 12077 "src/dot_parser.mly" 100 12050 12089
+type(
+  Dot_ast.node list
+)
+type(
+  Dot_ast.node list
+)
+"src/dot_parser.ml" 343 12009 12013 "src/dot_parser.ml" 347 12116 12143
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 342 11938 11942 "src/dot_parser.ml" 347 12116 12143
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 341 11875 11879 "src/dot_parser.ml" 347 12116 12143
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 340 11847 11849 "src/dot_parser.ml" 347 12116 12144
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 348 12145 12152 "src/dot_parser.ml" 348 12145 12169
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 349 12173 12177 "src/dot_parser.ml" 353 12263 12294
+)
+"src/dot_parser.ml" 349 12173 12177 "src/dot_parser.ml" 349 12173 12185
+type(
+  Dot_ast.node list -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 104 12214 12230 "src/dot_parser.mly" 104 12214 12236
+type(
+  Dot_ast.node list
+)
+type(
+  Dot_ast.node list
+)
+"src/dot_parser.ml" 349 12173 12177 "src/dot_parser.ml" 353 12263 12294
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 348 12145 12147 "src/dot_parser.ml" 353 12263 12295
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 354 12296 12303 "src/dot_parser.ml" 354 12296 12320
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 355 12324 12328 "src/dot_parser.ml" 361 12565 12596
+)
+"src/dot_parser.ml" 355 12324 12332 "src/dot_parser.ml" 355 12324 12334
+type(
+  Dot_ast.node
+)
+"src/dot_parser.ml" 355 12324 12338 "src/dot_parser.ml" 355 12324 12354
+type(
+  Parsing.parser_env -> int -> Dot_ast.node
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 355 12324 12355 "src/dot_parser.ml" 355 12324 12372
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 354 12296 12303 "src/dot_parser.ml" 354 12296 12320
+)
+"src/dot_parser.ml" 355 12324 12373 "src/dot_parser.ml" 355 12324 12374
+type(
+  int
+)
+"src/dot_parser.ml" 355 12324 12338 "src/dot_parser.ml" 355 12324 12374
+call(
+  stack
+)
+type(
+  Dot_ast.node
+)
+type(
+  Dot_ast.node
+)
+"src/dot_parser.ml" 356 12387 12395 "src/dot_parser.ml" 356 12387 12397
+type(
+  Dot_ast.node list
+)
+"src/dot_parser.ml" 356 12387 12401 "src/dot_parser.ml" 356 12387 12417
+type(
+  Parsing.parser_env -> int -> Dot_ast.node list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 356 12387 12418 "src/dot_parser.ml" 356 12387 12435
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 354 12296 12303 "src/dot_parser.ml" 354 12296 12320
+)
+"src/dot_parser.ml" 356 12387 12436 "src/dot_parser.ml" 356 12387 12437
+type(
+  int
+)
+"src/dot_parser.ml" 356 12387 12401 "src/dot_parser.ml" 356 12387 12437
+call(
+  stack
+)
+type(
+  Dot_ast.node list
+)
+type(
+  Dot_ast.node list
+)
+"src/dot_parser.ml" 357 12458 12462 "src/dot_parser.ml" 357 12458 12470
+type(
+  Dot_ast.node list -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 105 12499 12528 "src/dot_parser.mly" 105 12499 12530
+type(
+  Dot_ast.node
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 355 12324 12332 "src/dot_parser.ml" 355 12324 12334
+)
+"src/dot_parser.mly" 105 12499 12534 "src/dot_parser.mly" 105 12499 12536
+type(
+  Dot_ast.node list
+)
+ident(
+  int_ref _3 "src/dot_parser.ml" 356 12387 12395 "src/dot_parser.ml" 356 12387 12397
+)
+"src/dot_parser.mly" 105 12499 12526 "src/dot_parser.mly" 105 12499 12538
+type(
+  Dot_ast.node list
+)
+type(
+  Dot_ast.node list
+)
+"src/dot_parser.ml" 357 12458 12462 "src/dot_parser.ml" 361 12565 12596
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 356 12387 12391 "src/dot_parser.ml" 361 12565 12596
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 355 12324 12328 "src/dot_parser.ml" 361 12565 12596
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 354 12296 12298 "src/dot_parser.ml" 361 12565 12597
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 362 12598 12605 "src/dot_parser.ml" 362 12598 12622
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 363 12626 12630 "src/dot_parser.ml" 368 12784 12807
+)
+"src/dot_parser.ml" 363 12626 12634 "src/dot_parser.ml" 363 12626 12636
+type(
+  Dot_ast.node_id
+)
+"src/dot_parser.ml" 363 12626 12640 "src/dot_parser.ml" 363 12626 12656
+type(
+  Parsing.parser_env -> int -> Dot_ast.node_id
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 363 12626 12657 "src/dot_parser.ml" 363 12626 12674
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 362 12598 12605 "src/dot_parser.ml" 362 12598 12622
+)
+"src/dot_parser.ml" 363 12626 12675 "src/dot_parser.ml" 363 12626 12676
+type(
+  int
+)
+"src/dot_parser.ml" 363 12626 12640 "src/dot_parser.ml" 363 12626 12676
+call(
+  stack
+)
+type(
+  Dot_ast.node_id
+)
+type(
+  Dot_ast.node_id
+)
+"src/dot_parser.ml" 364 12692 12696 "src/dot_parser.ml" 364 12692 12704
+type(
+  Dot_ast.node -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 109 12733 12753 "src/dot_parser.mly" 109 12733 12755
+type(
+  Dot_ast.node_id
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 363 12626 12634 "src/dot_parser.ml" 363 12626 12636
+)
+"src/dot_parser.mly" 109 12733 12744 "src/dot_parser.mly" 109 12733 12757
+type(
+  Dot_ast.node
+)
+type(
+  Dot_ast.node
+)
+"src/dot_parser.ml" 364 12692 12696 "src/dot_parser.ml" 368 12784 12807
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 363 12626 12630 "src/dot_parser.ml" 368 12784 12807
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 362 12598 12600 "src/dot_parser.ml" 368 12784 12808
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 369 12809 12816 "src/dot_parser.ml" 369 12809 12833
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 370 12837 12841 "src/dot_parser.ml" 375 12997 13020
+)
+"src/dot_parser.ml" 370 12837 12845 "src/dot_parser.ml" 370 12837 12847
+type(
+  Dot_ast.subgraph
+)
+"src/dot_parser.ml" 370 12837 12851 "src/dot_parser.ml" 370 12837 12867
+type(
+  Parsing.parser_env -> int -> Dot_ast.subgraph
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 370 12837 12868 "src/dot_parser.ml" 370 12837 12885
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 369 12809 12816 "src/dot_parser.ml" 369 12809 12833
+)
+"src/dot_parser.ml" 370 12837 12886 "src/dot_parser.ml" 370 12837 12887
+type(
+  int
+)
+"src/dot_parser.ml" 370 12837 12851 "src/dot_parser.ml" 370 12837 12887
+call(
+  stack
+)
+type(
+  Dot_ast.subgraph
+)
+type(
+  Dot_ast.subgraph
+)
+"src/dot_parser.ml" 371 12904 12908 "src/dot_parser.ml" 371 12904 12916
+type(
+  Dot_ast.node -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 110 12945 12966 "src/dot_parser.mly" 110 12945 12968
+type(
+  Dot_ast.subgraph
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 370 12837 12845 "src/dot_parser.ml" 370 12837 12847
+)
+"src/dot_parser.mly" 110 12945 12956 "src/dot_parser.mly" 110 12945 12970
+type(
+  Dot_ast.node
+)
+type(
+  Dot_ast.node
+)
+"src/dot_parser.ml" 371 12904 12908 "src/dot_parser.ml" 375 12997 13020
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 370 12837 12841 "src/dot_parser.ml" 375 12997 13020
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 369 12809 12811 "src/dot_parser.ml" 375 12997 13021
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 376 13022 13029 "src/dot_parser.ml" 376 13022 13046
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 377 13050 13054 "src/dot_parser.ml" 383 13277 13303
+)
+"src/dot_parser.ml" 377 13050 13058 "src/dot_parser.ml" 377 13050 13060
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 377 13050 13064 "src/dot_parser.ml" 377 13050 13080
+type(
+  Parsing.parser_env -> int -> Dot_ast.id
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 377 13050 13081 "src/dot_parser.ml" 377 13050 13098
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 376 13022 13029 "src/dot_parser.ml" 376 13022 13046
+)
+"src/dot_parser.ml" 377 13050 13099 "src/dot_parser.ml" 377 13050 13100
+type(
+  int
+)
+"src/dot_parser.ml" 377 13050 13064 "src/dot_parser.ml" 377 13050 13100
+call(
+  stack
+)
+type(
+  Dot_ast.id
+)
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 378 13118 13126 "src/dot_parser.ml" 378 13118 13128
+type(
+  Dot_ast.port option
+)
+"src/dot_parser.ml" 378 13118 13132 "src/dot_parser.ml" 378 13118 13148
+type(
+  Parsing.parser_env -> int -> Dot_ast.port option
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 378 13118 13149 "src/dot_parser.ml" 378 13118 13166
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 376 13022 13029 "src/dot_parser.ml" 376 13022 13046
+)
+"src/dot_parser.ml" 378 13118 13167 "src/dot_parser.ml" 378 13118 13168
+type(
+  int
+)
+"src/dot_parser.ml" 378 13118 13132 "src/dot_parser.ml" 378 13118 13168
+call(
+  stack
+)
+type(
+  Dot_ast.port option
+)
+type(
+  Dot_ast.port option
+)
+"src/dot_parser.ml" 379 13185 13189 "src/dot_parser.ml" 379 13185 13197
+type(
+  Dot_ast.node_id -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 114 13226 13242 "src/dot_parser.mly" 114 13226 13244
+type(
+  Dot_ast.id
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 377 13050 13058 "src/dot_parser.ml" 377 13050 13060
+)
+"src/dot_parser.mly" 114 13226 13246 "src/dot_parser.mly" 114 13226 13248
+type(
+  Dot_ast.port option
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 378 13118 13126 "src/dot_parser.ml" 378 13118 13128
+)
+"src/dot_parser.mly" 114 13226 13240 "src/dot_parser.mly" 114 13226 13250
+type(
+  Dot_ast.node_id
+)
+type(
+  Dot_ast.node_id
+)
+"src/dot_parser.ml" 379 13185 13189 "src/dot_parser.ml" 383 13277 13303
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 378 13118 13122 "src/dot_parser.ml" 383 13277 13303
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 377 13050 13054 "src/dot_parser.ml" 383 13277 13303
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 376 13022 13024 "src/dot_parser.ml" 383 13277 13304
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 384 13305 13312 "src/dot_parser.ml" 384 13305 13329
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 385 13333 13337 "src/dot_parser.ml" 389 13425 13452
+)
+"src/dot_parser.ml" 385 13333 13337 "src/dot_parser.ml" 385 13333 13345
+type(
+  Dot_ast.port option -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 118 13374 13390 "src/dot_parser.mly" 118 13374 13398
+type(
+  Dot_ast.port option
+)
+type(
+  Dot_ast.port option
+)
+"src/dot_parser.ml" 385 13333 13337 "src/dot_parser.ml" 389 13425 13452
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 384 13305 13307 "src/dot_parser.ml" 389 13425 13453
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 390 13454 13461 "src/dot_parser.ml" 390 13454 13478
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 391 13482 13486 "src/dot_parser.ml" 396 13640 13667
+)
+"src/dot_parser.ml" 391 13482 13490 "src/dot_parser.ml" 391 13482 13492
+type(
+  Dot_ast.port
+)
+"src/dot_parser.ml" 391 13482 13496 "src/dot_parser.ml" 391 13482 13512
+type(
+  Parsing.parser_env -> int -> Dot_ast.port
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 391 13482 13513 "src/dot_parser.ml" 391 13482 13530
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 390 13454 13461 "src/dot_parser.ml" 390 13454 13478
+)
+"src/dot_parser.ml" 391 13482 13531 "src/dot_parser.ml" 391 13482 13532
+type(
+  int
+)
+"src/dot_parser.ml" 391 13482 13496 "src/dot_parser.ml" 391 13482 13532
+call(
+  stack
+)
+type(
+  Dot_ast.port
+)
+type(
+  Dot_ast.port
+)
+"src/dot_parser.ml" 392 13545 13549 "src/dot_parser.ml" 392 13545 13557
+type(
+  Dot_ast.port option -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 119 13586 13609 "src/dot_parser.mly" 119 13586 13611
+type(
+  Dot_ast.port
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 391 13482 13490 "src/dot_parser.ml" 391 13482 13492
+)
+"src/dot_parser.mly" 119 13586 13602 "src/dot_parser.mly" 119 13586 13613
+type(
+  Dot_ast.port option
+)
+type(
+  Dot_ast.port option
+)
+"src/dot_parser.ml" 392 13545 13549 "src/dot_parser.ml" 396 13640 13667
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 391 13482 13486 "src/dot_parser.ml" 396 13640 13667
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 390 13454 13456 "src/dot_parser.ml" 396 13640 13668
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 397 13669 13676 "src/dot_parser.ml" 397 13669 13693
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 398 13697 13701 "src/dot_parser.ml" 404 13931 13954
+)
+"src/dot_parser.ml" 398 13697 13705 "src/dot_parser.ml" 398 13697 13707
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 398 13697 13711 "src/dot_parser.ml" 398 13697 13727
+type(
+  Parsing.parser_env -> int -> Dot_ast.id
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 398 13697 13728 "src/dot_parser.ml" 398 13697 13745
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 397 13669 13676 "src/dot_parser.ml" 397 13669 13693
+)
+"src/dot_parser.ml" 398 13697 13746 "src/dot_parser.ml" 398 13697 13747
+type(
+  int
+)
+"src/dot_parser.ml" 398 13697 13711 "src/dot_parser.ml" 398 13697 13747
+call(
+  stack
+)
+type(
+  Dot_ast.id
+)
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 399 13765 13769 "src/dot_parser.ml" 399 13765 13777
+type(
+  Dot_ast.port -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 123 13806 13830 "src/dot_parser.mly" 123 13806 13840
+type(
+  Dot_ast.id -> Dot_ast.compass_pt
+)
+ident(
+  int_ref compass_pt "src/dot_parser.mly" 26 270 276 "src/dot_parser.mly" 26 270 286
+)
+"src/dot_parser.mly" 123 13806 13841 "src/dot_parser.mly" 123 13806 13843
+type(
+  Dot_ast.id
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 398 13697 13705 "src/dot_parser.ml" 398 13697 13707
+)
+"src/dot_parser.mly" 123 13806 13829 "src/dot_parser.mly" 123 13806 13844
+call(
+  stack
+)
+type(
+  Dot_ast.compass_pt
+)
+"src/dot_parser.mly" 123 13806 13823 "src/dot_parser.mly" 123 13806 13844
+type(
+  Dot_ast.port
+)
+"src/dot_parser.mly" 124 13845 13880 "src/dot_parser.mly" 124 13845 13881
+type(
+  string
+)
+"src/dot_parser.mly" 124 13845 13863 "src/dot_parser.mly" 124 13845 13881
+type(
+  exn
+)
+"src/dot_parser.mly" 124 13845 13893 "src/dot_parser.mly" 124 13845 13895
+type(
+  Dot_ast.id
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 398 13697 13705 "src/dot_parser.ml" 398 13697 13707
+)
+"src/dot_parser.mly" 124 13845 13897 "src/dot_parser.mly" 124 13845 13901
+type(
+  Dot_ast.compass_pt option
+)
+"src/dot_parser.mly" 124 13845 13885 "src/dot_parser.mly" 124 13845 13902
+type(
+  Dot_ast.port
+)
+"src/dot_parser.mly" 123 13806 13817 "src/dot_parser.mly" 124 13845 13904
+type(
+  Dot_ast.port
+)
+type(
+  Dot_ast.port
+)
+"src/dot_parser.ml" 399 13765 13769 "src/dot_parser.ml" 404 13931 13954
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 398 13697 13701 "src/dot_parser.ml" 404 13931 13954
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 397 13669 13671 "src/dot_parser.ml" 404 13931 13955
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 405 13956 13963 "src/dot_parser.ml" 405 13956 13980
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 406 13984 13988 "src/dot_parser.ml" 415 14302 14325
+)
+"src/dot_parser.ml" 406 13984 13992 "src/dot_parser.ml" 406 13984 13994
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 406 13984 13998 "src/dot_parser.ml" 406 13984 14014
+type(
+  Parsing.parser_env -> int -> Dot_ast.id
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 406 13984 14015 "src/dot_parser.ml" 406 13984 14032
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 405 13956 13963 "src/dot_parser.ml" 405 13956 13980
+)
+"src/dot_parser.ml" 406 13984 14033 "src/dot_parser.ml" 406 13984 14034
+type(
+  int
+)
+"src/dot_parser.ml" 406 13984 13998 "src/dot_parser.ml" 406 13984 14034
+call(
+  stack
+)
+type(
+  Dot_ast.id
+)
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 407 14052 14060 "src/dot_parser.ml" 407 14052 14062
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 407 14052 14066 "src/dot_parser.ml" 407 14052 14082
+type(
+  Parsing.parser_env -> int -> Dot_ast.id
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 407 14052 14083 "src/dot_parser.ml" 407 14052 14100
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 405 13956 13963 "src/dot_parser.ml" 405 13956 13980
+)
+"src/dot_parser.ml" 407 14052 14101 "src/dot_parser.ml" 407 14052 14102
+type(
+  int
+)
+"src/dot_parser.ml" 407 14052 14066 "src/dot_parser.ml" 407 14052 14102
+call(
+  stack
+)
+type(
+  Dot_ast.id
+)
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 408 14120 14124 "src/dot_parser.ml" 408 14120 14132
+type(
+  Dot_ast.port -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 126 14161 14173 "src/dot_parser.mly" 126 14161 14175
+type(
+  Dot_ast.compass_pt
+)
+"src/dot_parser.mly" 127 14179 14188 "src/dot_parser.mly" 127 14179 14198
+type(
+  Dot_ast.id -> Dot_ast.compass_pt
+)
+ident(
+  int_ref compass_pt "src/dot_parser.mly" 26 270 276 "src/dot_parser.mly" 26 270 286
+)
+"src/dot_parser.mly" 127 14179 14199 "src/dot_parser.mly" 127 14179 14201
+type(
+  Dot_ast.id
+)
+ident(
+  int_ref _4 "src/dot_parser.ml" 407 14052 14060 "src/dot_parser.ml" 407 14052 14062
+)
+"src/dot_parser.mly" 127 14179 14188 "src/dot_parser.mly" 127 14179 14201
+call(
+  stack
+)
+type(
+  Dot_ast.compass_pt
+)
+"src/dot_parser.mly" 127 14179 14224 "src/dot_parser.mly" 127 14179 14225
+type(
+  string
+)
+"src/dot_parser.mly" 127 14179 14207 "src/dot_parser.mly" 127 14179 14225
+type(
+  exn
+)
+"src/dot_parser.mly" 127 14179 14229 "src/dot_parser.mly" 127 14179 14234
+type(
+  exn -> Dot_ast.compass_pt
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/dot_parser.mly" 127 14179 14235 "src/dot_parser.mly" 127 14179 14246
+type(
+  exn
+)
+"src/dot_parser.mly" 127 14179 14229 "src/dot_parser.mly" 127 14179 14246
+type(
+  Dot_ast.compass_pt
+)
+"src/dot_parser.mly" 127 14179 14184 "src/dot_parser.mly" 127 14179 14246
+type(
+  Dot_ast.compass_pt
+)
+"src/dot_parser.mly" 129 14252 14261 "src/dot_parser.mly" 129 14252 14263
+type(
+  Dot_ast.id
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 406 13984 13992 "src/dot_parser.ml" 406 13984 13994
+)
+"src/dot_parser.mly" 129 14252 14270 "src/dot_parser.mly" 129 14252 14272
+type(
+  Dot_ast.compass_pt
+)
+ident(
+  int_ref cp "src/dot_parser.mly" 126 14161 14173 "src/dot_parser.mly" 126 14161 14175
+)
+"src/dot_parser.mly" 129 14252 14265 "src/dot_parser.mly" 129 14252 14272
+type(
+  Dot_ast.compass_pt option
+)
+"src/dot_parser.mly" 129 14252 14253 "src/dot_parser.mly" 129 14252 14273
+type(
+  Dot_ast.port
+)
+"src/dot_parser.mly" 126 14161 14167 "src/dot_parser.mly" 129 14252 14275
+type(
+  Dot_ast.port
+)
+type(
+  Dot_ast.port
+)
+"src/dot_parser.ml" 408 14120 14124 "src/dot_parser.ml" 415 14302 14325
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 407 14052 14056 "src/dot_parser.ml" 415 14302 14325
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 406 13984 13988 "src/dot_parser.ml" 415 14302 14325
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 405 13956 13958 "src/dot_parser.ml" 415 14302 14326
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 416 14327 14334 "src/dot_parser.ml" 416 14327 14351
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 417 14355 14359 "src/dot_parser.ml" 421 14445 14477
+)
+"src/dot_parser.ml" 417 14355 14359 "src/dot_parser.ml" 417 14355 14367
+type(
+  Dot_ast.attr list -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 133 14396 14412 "src/dot_parser.mly" 133 14396 14418
+type(
+  Dot_ast.attr list
+)
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 417 14355 14359 "src/dot_parser.ml" 421 14445 14477
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 416 14327 14329 "src/dot_parser.ml" 421 14445 14478
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 422 14479 14486 "src/dot_parser.ml" 422 14479 14503
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 423 14507 14511 "src/dot_parser.ml" 428 14664 14696
+)
+"src/dot_parser.ml" 423 14507 14515 "src/dot_parser.ml" 423 14507 14517
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 423 14507 14521 "src/dot_parser.ml" 423 14507 14537
+type(
+  Parsing.parser_env -> int -> Dot_ast.attr list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 423 14507 14538 "src/dot_parser.ml" 423 14507 14555
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 422 14479 14486 "src/dot_parser.ml" 422 14479 14503
+)
+"src/dot_parser.ml" 423 14507 14556 "src/dot_parser.ml" 423 14507 14557
+type(
+  int
+)
+"src/dot_parser.ml" 423 14507 14521 "src/dot_parser.ml" 423 14507 14557
+call(
+  stack
+)
+type(
+  Dot_ast.attr list
+)
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 424 14575 14579 "src/dot_parser.ml" 424 14575 14587
+type(
+  Dot_ast.attr list -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 134 14616 14631 "src/dot_parser.mly" 134 14616 14637
+type(
+  Dot_ast.attr list
+)
+type(
+  Dot_ast.attr list
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 423 14507 14515 "src/dot_parser.ml" 423 14507 14517
+)
+"src/dot_parser.ml" 424 14575 14579 "src/dot_parser.ml" 428 14664 14696
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 423 14507 14511 "src/dot_parser.ml" 428 14664 14696
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 422 14479 14481 "src/dot_parser.ml" 428 14664 14697
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 429 14698 14705 "src/dot_parser.ml" 429 14698 14722
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 430 14726 14730 "src/dot_parser.ml" 435 14884 14912
+)
+"src/dot_parser.ml" 430 14726 14734 "src/dot_parser.ml" 430 14726 14736
+type(
+  Dot_ast.attr
+)
+"src/dot_parser.ml" 430 14726 14740 "src/dot_parser.ml" 430 14726 14756
+type(
+  Parsing.parser_env -> int -> Dot_ast.attr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 430 14726 14757 "src/dot_parser.ml" 430 14726 14774
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 429 14698 14705 "src/dot_parser.ml" 429 14698 14722
+)
+"src/dot_parser.ml" 430 14726 14775 "src/dot_parser.ml" 430 14726 14776
+type(
+  int
+)
+"src/dot_parser.ml" 430 14726 14740 "src/dot_parser.ml" 430 14726 14776
+call(
+  stack
+)
+type(
+  Dot_ast.attr
+)
+type(
+  Dot_ast.attr
+)
+"src/dot_parser.ml" 431 14791 14795 "src/dot_parser.ml" 431 14791 14803
+type(
+  Dot_ast.attr list -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 138 14832 14852 "src/dot_parser.mly" 138 14832 14854
+type(
+  Dot_ast.attr
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 430 14726 14734 "src/dot_parser.ml" 430 14726 14736
+)
+"src/dot_parser.mly" 138 14832 14849 "src/dot_parser.mly" 138 14832 14857
+type(
+  Dot_ast.attr list
+)
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 431 14791 14795 "src/dot_parser.ml" 435 14884 14912
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 430 14726 14730 "src/dot_parser.ml" 435 14884 14912
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 429 14698 14700 "src/dot_parser.ml" 435 14884 14913
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 436 14914 14921 "src/dot_parser.ml" 436 14914 14938
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 437 14942 14946 "src/dot_parser.ml" 443 15182 15210
+)
+"src/dot_parser.ml" 437 14942 14950 "src/dot_parser.ml" 437 14942 14952
+type(
+  Dot_ast.attr
+)
+"src/dot_parser.ml" 437 14942 14956 "src/dot_parser.ml" 437 14942 14972
+type(
+  Parsing.parser_env -> int -> Dot_ast.attr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 437 14942 14973 "src/dot_parser.ml" 437 14942 14990
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 436 14914 14921 "src/dot_parser.ml" 436 14914 14938
+)
+"src/dot_parser.ml" 437 14942 14991 "src/dot_parser.ml" 437 14942 14992
+type(
+  int
+)
+"src/dot_parser.ml" 437 14942 14956 "src/dot_parser.ml" 437 14942 14992
+call(
+  stack
+)
+type(
+  Dot_ast.attr
+)
+type(
+  Dot_ast.attr
+)
+"src/dot_parser.ml" 438 15007 15015 "src/dot_parser.ml" 438 15007 15017
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 438 15007 15021 "src/dot_parser.ml" 438 15007 15037
+type(
+  Parsing.parser_env -> int -> Dot_ast.attr list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 438 15007 15038 "src/dot_parser.ml" 438 15007 15055
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 436 14914 14921 "src/dot_parser.ml" 436 14914 14938
+)
+"src/dot_parser.ml" 438 15007 15056 "src/dot_parser.ml" 438 15007 15057
+type(
+  int
+)
+"src/dot_parser.ml" 438 15007 15021 "src/dot_parser.ml" 438 15007 15057
+call(
+  stack
+)
+type(
+  Dot_ast.attr list
+)
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 439 15075 15079 "src/dot_parser.ml" 439 15075 15087
+type(
+  Dot_ast.attr list -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 139 15116 15145 "src/dot_parser.mly" 139 15116 15147
+type(
+  Dot_ast.attr
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 437 14942 14950 "src/dot_parser.ml" 437 14942 14952
+)
+"src/dot_parser.mly" 139 15116 15151 "src/dot_parser.mly" 139 15116 15153
+type(
+  Dot_ast.attr list
+)
+ident(
+  int_ref _4 "src/dot_parser.ml" 438 15007 15015 "src/dot_parser.ml" 438 15007 15017
+)
+"src/dot_parser.mly" 139 15116 15143 "src/dot_parser.mly" 139 15116 15155
+type(
+  Dot_ast.attr list
+)
+type(
+  Dot_ast.attr list
+)
+"src/dot_parser.ml" 439 15075 15079 "src/dot_parser.ml" 443 15182 15210
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 438 15007 15011 "src/dot_parser.ml" 443 15182 15210
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 437 14942 14946 "src/dot_parser.ml" 443 15182 15210
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 436 14914 14916 "src/dot_parser.ml" 443 15182 15211
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 444 15212 15219 "src/dot_parser.ml" 444 15212 15236
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 445 15240 15244 "src/dot_parser.ml" 449 15332 15357
+)
+"src/dot_parser.ml" 445 15240 15244 "src/dot_parser.ml" 445 15240 15252
+type(
+  Dot_ast.id option -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 143 15281 15297 "src/dot_parser.mly" 143 15281 15305
+type(
+  Dot_ast.id option
+)
+type(
+  Dot_ast.id option
+)
+"src/dot_parser.ml" 445 15240 15244 "src/dot_parser.ml" 449 15332 15357
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 444 15212 15214 "src/dot_parser.ml" 449 15332 15358
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 450 15359 15366 "src/dot_parser.ml" 450 15359 15383
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 451 15387 15391 "src/dot_parser.ml" 456 15550 15575
+)
+"src/dot_parser.ml" 451 15387 15395 "src/dot_parser.ml" 451 15387 15397
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 451 15387 15401 "src/dot_parser.ml" 451 15387 15417
+type(
+  Parsing.parser_env -> int -> Dot_ast.id
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 451 15387 15418 "src/dot_parser.ml" 451 15387 15435
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 450 15359 15366 "src/dot_parser.ml" 450 15359 15383
+)
+"src/dot_parser.ml" 451 15387 15436 "src/dot_parser.ml" 451 15387 15437
+type(
+  int
+)
+"src/dot_parser.ml" 451 15387 15401 "src/dot_parser.ml" 451 15387 15437
+call(
+  stack
+)
+type(
+  Dot_ast.id
+)
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 452 15455 15459 "src/dot_parser.ml" 452 15455 15467
+type(
+  Dot_ast.id option -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 144 15496 15519 "src/dot_parser.mly" 144 15496 15521
+type(
+  Dot_ast.id
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 451 15387 15395 "src/dot_parser.ml" 451 15387 15397
+)
+"src/dot_parser.mly" 144 15496 15512 "src/dot_parser.mly" 144 15496 15523
+type(
+  Dot_ast.id option
+)
+type(
+  Dot_ast.id option
+)
+"src/dot_parser.ml" 452 15455 15459 "src/dot_parser.ml" 456 15550 15575
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 451 15387 15391 "src/dot_parser.ml" 456 15550 15575
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 450 15359 15361 "src/dot_parser.ml" 456 15550 15576
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 457 15577 15584 "src/dot_parser.ml" 457 15577 15601
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 458 15605 15609 "src/dot_parser.ml" 464 15837 15862
+)
+"src/dot_parser.ml" 458 15605 15613 "src/dot_parser.ml" 458 15605 15615
+type(
+  Dot_ast.id * Dot_ast.id option
+)
+"src/dot_parser.ml" 458 15605 15619 "src/dot_parser.ml" 458 15605 15635
+type(
+  Parsing.parser_env -> int -> Dot_ast.id * Dot_ast.id option
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 458 15605 15636 "src/dot_parser.ml" 458 15605 15653
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 457 15577 15584 "src/dot_parser.ml" 457 15577 15601
+)
+"src/dot_parser.ml" 458 15605 15654 "src/dot_parser.ml" 458 15605 15655
+type(
+  int
+)
+"src/dot_parser.ml" 458 15605 15619 "src/dot_parser.ml" 458 15605 15655
+call(
+  stack
+)
+type(
+  Dot_ast.id * Dot_ast.id option
+)
+type(
+  Dot_ast.id * Dot_ast.id option
+)
+"src/dot_parser.ml" 459 15672 15680 "src/dot_parser.ml" 459 15672 15682
+type(
+  unit
+)
+"src/dot_parser.ml" 459 15672 15686 "src/dot_parser.ml" 459 15672 15702
+type(
+  Parsing.parser_env -> int -> unit
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 459 15672 15703 "src/dot_parser.ml" 459 15672 15720
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 457 15577 15584 "src/dot_parser.ml" 457 15577 15601
+)
+"src/dot_parser.ml" 459 15672 15721 "src/dot_parser.ml" 459 15672 15722
+type(
+  int
+)
+"src/dot_parser.ml" 459 15672 15686 "src/dot_parser.ml" 459 15672 15722
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"src/dot_parser.ml" 460 15740 15744 "src/dot_parser.ml" 460 15740 15752
+type(
+  Dot_ast.attr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 148 15781 15805 "src/dot_parser.mly" 148 15781 15807
+type(
+  Dot_ast.id * Dot_ast.id option
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 458 15605 15613 "src/dot_parser.ml" 458 15605 15615
+)
+"src/dot_parser.mly" 148 15781 15802 "src/dot_parser.mly" 148 15781 15810
+type(
+  Dot_ast.attr
+)
+type(
+  Dot_ast.attr
+)
+"src/dot_parser.ml" 460 15740 15744 "src/dot_parser.ml" 464 15837 15862
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 459 15672 15676 "src/dot_parser.ml" 464 15837 15862
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 458 15605 15609 "src/dot_parser.ml" 464 15837 15862
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 457 15577 15579 "src/dot_parser.ml" 464 15837 15863
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 465 15864 15871 "src/dot_parser.ml" 465 15864 15888
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 466 15892 15896 "src/dot_parser.ml" 473 16200 16225
+)
+"src/dot_parser.ml" 466 15892 15900 "src/dot_parser.ml" 466 15892 15902
+type(
+  Dot_ast.id * Dot_ast.id option
+)
+"src/dot_parser.ml" 466 15892 15906 "src/dot_parser.ml" 466 15892 15922
+type(
+  Parsing.parser_env -> int -> Dot_ast.id * Dot_ast.id option
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 466 15892 15923 "src/dot_parser.ml" 466 15892 15940
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 465 15864 15871 "src/dot_parser.ml" 465 15864 15888
+)
+"src/dot_parser.ml" 466 15892 15941 "src/dot_parser.ml" 466 15892 15942
+type(
+  int
+)
+"src/dot_parser.ml" 466 15892 15906 "src/dot_parser.ml" 466 15892 15942
+call(
+  stack
+)
+type(
+  Dot_ast.id * Dot_ast.id option
+)
+type(
+  Dot_ast.id * Dot_ast.id option
+)
+"src/dot_parser.ml" 467 15959 15967 "src/dot_parser.ml" 467 15959 15969
+type(
+  unit
+)
+"src/dot_parser.ml" 467 15959 15973 "src/dot_parser.ml" 467 15959 15989
+type(
+  Parsing.parser_env -> int -> unit
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 467 15959 15990 "src/dot_parser.ml" 467 15959 16007
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 465 15864 15871 "src/dot_parser.ml" 465 15864 15888
+)
+"src/dot_parser.ml" 467 15959 16008 "src/dot_parser.ml" 467 15959 16009
+type(
+  int
+)
+"src/dot_parser.ml" 467 15959 15973 "src/dot_parser.ml" 467 15959 16009
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"src/dot_parser.ml" 468 16027 16035 "src/dot_parser.ml" 468 16027 16037
+type(
+  Dot_ast.attr
+)
+"src/dot_parser.ml" 468 16027 16041 "src/dot_parser.ml" 468 16027 16057
+type(
+  Parsing.parser_env -> int -> Dot_ast.attr
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 468 16027 16058 "src/dot_parser.ml" 468 16027 16075
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 465 15864 15871 "src/dot_parser.ml" 465 15864 15888
+)
+"src/dot_parser.ml" 468 16027 16076 "src/dot_parser.ml" 468 16027 16077
+type(
+  int
+)
+"src/dot_parser.ml" 468 16027 16041 "src/dot_parser.ml" 468 16027 16077
+call(
+  stack
+)
+type(
+  Dot_ast.attr
+)
+type(
+  Dot_ast.attr
+)
+"src/dot_parser.ml" 469 16092 16096 "src/dot_parser.ml" 469 16092 16104
+type(
+  Dot_ast.attr -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 149 16133 16163 "src/dot_parser.mly" 149 16133 16165
+type(
+  Dot_ast.id * Dot_ast.id option
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 466 15892 15900 "src/dot_parser.ml" 466 15892 15902
+)
+"src/dot_parser.mly" 149 16133 16169 "src/dot_parser.mly" 149 16133 16171
+type(
+  Dot_ast.attr
+)
+ident(
+  int_ref _3 "src/dot_parser.ml" 468 16027 16035 "src/dot_parser.ml" 468 16027 16037
+)
+"src/dot_parser.mly" 149 16133 16161 "src/dot_parser.mly" 149 16133 16173
+type(
+  Dot_ast.attr
+)
+type(
+  Dot_ast.attr
+)
+"src/dot_parser.ml" 469 16092 16096 "src/dot_parser.ml" 473 16200 16225
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 468 16027 16031 "src/dot_parser.ml" 473 16200 16225
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 467 15959 15963 "src/dot_parser.ml" 473 16200 16225
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 466 15892 15896 "src/dot_parser.ml" 473 16200 16225
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 465 15864 15866 "src/dot_parser.ml" 473 16200 16226
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 474 16227 16234 "src/dot_parser.ml" 474 16227 16251
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 475 16255 16259 "src/dot_parser.ml" 480 16408 16435
+)
+"src/dot_parser.ml" 475 16255 16263 "src/dot_parser.ml" 475 16255 16265
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 475 16255 16269 "src/dot_parser.ml" 475 16255 16285
+type(
+  Parsing.parser_env -> int -> Dot_ast.id
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 475 16255 16286 "src/dot_parser.ml" 475 16255 16303
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 474 16227 16234 "src/dot_parser.ml" 474 16227 16251
+)
+"src/dot_parser.ml" 475 16255 16304 "src/dot_parser.ml" 475 16255 16305
+type(
+  int
+)
+"src/dot_parser.ml" 475 16255 16269 "src/dot_parser.ml" 475 16255 16305
+call(
+  stack
+)
+type(
+  Dot_ast.id
+)
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 476 16323 16327 "src/dot_parser.ml" 476 16323 16335
+type(
+  Dot_ast.id * Dot_ast.id option -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 153 16364 16371 "src/dot_parser.mly" 153 16364 16373
+type(
+  Dot_ast.id
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 475 16255 16263 "src/dot_parser.ml" 475 16255 16265
+)
+"src/dot_parser.mly" 153 16364 16375 "src/dot_parser.mly" 153 16364 16379
+type(
+  Dot_ast.id option
+)
+"src/dot_parser.mly" 153 16364 16369 "src/dot_parser.mly" 153 16364 16381
+type(
+  Dot_ast.id * Dot_ast.id option
+)
+type(
+  Dot_ast.id * Dot_ast.id option
+)
+"src/dot_parser.ml" 476 16323 16327 "src/dot_parser.ml" 480 16408 16435
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 475 16255 16259 "src/dot_parser.ml" 480 16408 16435
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 474 16227 16229 "src/dot_parser.ml" 480 16408 16436
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 481 16437 16444 "src/dot_parser.ml" 481 16437 16461
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 482 16465 16469 "src/dot_parser.ml" 488 16698 16725
+)
+"src/dot_parser.ml" 482 16465 16473 "src/dot_parser.ml" 482 16465 16475
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 482 16465 16479 "src/dot_parser.ml" 482 16465 16495
+type(
+  Parsing.parser_env -> int -> Dot_ast.id
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 482 16465 16496 "src/dot_parser.ml" 482 16465 16513
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 481 16437 16444 "src/dot_parser.ml" 481 16437 16461
+)
+"src/dot_parser.ml" 482 16465 16514 "src/dot_parser.ml" 482 16465 16515
+type(
+  int
+)
+"src/dot_parser.ml" 482 16465 16479 "src/dot_parser.ml" 482 16465 16515
+call(
+  stack
+)
+type(
+  Dot_ast.id
+)
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 483 16533 16541 "src/dot_parser.ml" 483 16533 16543
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 483 16533 16547 "src/dot_parser.ml" 483 16533 16563
+type(
+  Parsing.parser_env -> int -> Dot_ast.id
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 483 16533 16564 "src/dot_parser.ml" 483 16533 16581
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 481 16437 16444 "src/dot_parser.ml" 481 16437 16461
+)
+"src/dot_parser.ml" 483 16533 16582 "src/dot_parser.ml" 483 16533 16583
+type(
+  int
+)
+"src/dot_parser.ml" 483 16533 16547 "src/dot_parser.ml" 483 16533 16583
+call(
+  stack
+)
+type(
+  Dot_ast.id
+)
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 484 16601 16605 "src/dot_parser.ml" 484 16601 16613
+type(
+  Dot_ast.id * Dot_ast.id option -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 154 16642 16658 "src/dot_parser.mly" 154 16642 16660
+type(
+  Dot_ast.id
+)
+ident(
+  int_ref _1 "src/dot_parser.ml" 482 16465 16473 "src/dot_parser.ml" 482 16465 16475
+)
+"src/dot_parser.mly" 154 16642 16667 "src/dot_parser.mly" 154 16642 16669
+type(
+  Dot_ast.id
+)
+ident(
+  int_ref _3 "src/dot_parser.ml" 483 16533 16541 "src/dot_parser.ml" 483 16533 16543
+)
+"src/dot_parser.mly" 154 16642 16662 "src/dot_parser.mly" 154 16642 16669
+type(
+  Dot_ast.id option
+)
+"src/dot_parser.mly" 154 16642 16656 "src/dot_parser.mly" 154 16642 16671
+type(
+  Dot_ast.id * Dot_ast.id option
+)
+type(
+  Dot_ast.id * Dot_ast.id option
+)
+"src/dot_parser.ml" 484 16601 16605 "src/dot_parser.ml" 488 16698 16725
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 483 16533 16537 "src/dot_parser.ml" 488 16698 16725
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 482 16465 16469 "src/dot_parser.ml" 488 16698 16725
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 481 16437 16439 "src/dot_parser.ml" 488 16698 16726
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 489 16727 16734 "src/dot_parser.ml" 489 16727 16751
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 490 16755 16759 "src/dot_parser.ml" 494 16845 16873
+)
+"src/dot_parser.ml" 490 16755 16759 "src/dot_parser.ml" 490 16755 16767
+type(
+  unit -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 158 16796 16812 "src/dot_parser.mly" 158 16796 16818
+type(
+  unit
+)
+type(
+  unit
+)
+"src/dot_parser.ml" 490 16755 16759 "src/dot_parser.ml" 494 16845 16873
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 489 16727 16729 "src/dot_parser.ml" 494 16845 16874
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 495 16875 16882 "src/dot_parser.ml" 495 16875 16899
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 496 16903 16907 "src/dot_parser.ml" 500 16993 17021
+)
+"src/dot_parser.ml" 496 16903 16907 "src/dot_parser.ml" 496 16903 16915
+type(
+  unit -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 159 16944 16960 "src/dot_parser.mly" 159 16944 16966
+type(
+  unit
+)
+type(
+  unit
+)
+"src/dot_parser.ml" 496 16903 16907 "src/dot_parser.ml" 500 16993 17021
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 495 16875 16877 "src/dot_parser.ml" 500 16993 17022
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 501 17023 17030 "src/dot_parser.ml" 501 17023 17047
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 502 17051 17055 "src/dot_parser.ml" 507 17218 17245
+)
+"src/dot_parser.ml" 502 17051 17059 "src/dot_parser.ml" 502 17051 17061
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 502 17051 17065 "src/dot_parser.ml" 502 17051 17081
+type(
+  Parsing.parser_env -> int -> Dot_ast.id
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 502 17051 17082 "src/dot_parser.ml" 502 17051 17099
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 501 17023 17030 "src/dot_parser.ml" 501 17023 17047
+)
+"src/dot_parser.ml" 502 17051 17100 "src/dot_parser.ml" 502 17051 17101
+type(
+  int
+)
+"src/dot_parser.ml" 502 17051 17065 "src/dot_parser.ml" 502 17051 17101
+call(
+  stack
+)
+type(
+  Dot_ast.id
+)
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 503 17119 17123 "src/dot_parser.ml" 503 17119 17131
+type(
+  Dot_ast.subgraph -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 164 17160 17187 "src/dot_parser.mly" 164 17160 17189
+type(
+  Dot_ast.id
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 502 17051 17059 "src/dot_parser.ml" 502 17051 17061
+)
+"src/dot_parser.mly" 164 17160 17174 "src/dot_parser.mly" 164 17160 17191
+type(
+  Dot_ast.subgraph
+)
+type(
+  Dot_ast.subgraph
+)
+"src/dot_parser.ml" 503 17119 17123 "src/dot_parser.ml" 507 17218 17245
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 502 17051 17055 "src/dot_parser.ml" 507 17218 17245
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 501 17023 17025 "src/dot_parser.ml" 507 17218 17246
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 508 17247 17254 "src/dot_parser.ml" 508 17247 17271
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 509 17275 17279 "src/dot_parser.ml" 515 17542 17569
+)
+"src/dot_parser.ml" 509 17275 17283 "src/dot_parser.ml" 509 17275 17285
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 509 17275 17289 "src/dot_parser.ml" 509 17275 17305
+type(
+  Parsing.parser_env -> int -> Dot_ast.id
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 509 17275 17306 "src/dot_parser.ml" 509 17275 17323
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 508 17247 17254 "src/dot_parser.ml" 508 17247 17271
+)
+"src/dot_parser.ml" 509 17275 17324 "src/dot_parser.ml" 509 17275 17325
+type(
+  int
+)
+"src/dot_parser.ml" 509 17275 17289 "src/dot_parser.ml" 509 17275 17325
+call(
+  stack
+)
+type(
+  Dot_ast.id
+)
+type(
+  Dot_ast.id
+)
+"src/dot_parser.ml" 510 17343 17351 "src/dot_parser.ml" 510 17343 17353
+type(
+  Dot_ast.stmt list
+)
+"src/dot_parser.ml" 510 17343 17357 "src/dot_parser.ml" 510 17343 17373
+type(
+  Parsing.parser_env -> int -> Dot_ast.stmt list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 510 17343 17374 "src/dot_parser.ml" 510 17343 17391
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 508 17247 17254 "src/dot_parser.ml" 508 17247 17271
+)
+"src/dot_parser.ml" 510 17343 17392 "src/dot_parser.ml" 510 17343 17393
+type(
+  int
+)
+"src/dot_parser.ml" 510 17343 17357 "src/dot_parser.ml" 510 17343 17393
+call(
+  stack
+)
+type(
+  Dot_ast.stmt list
+)
+type(
+  Dot_ast.stmt list
+)
+"src/dot_parser.ml" 511 17411 17415 "src/dot_parser.ml" 511 17411 17423
+type(
+  Dot_ast.subgraph -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 165 17452 17506 "src/dot_parser.mly" 165 17452 17508
+type(
+  Dot_ast.id
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 509 17275 17283 "src/dot_parser.ml" 509 17275 17285
+)
+"src/dot_parser.mly" 165 17452 17501 "src/dot_parser.mly" 165 17452 17508
+type(
+  Dot_ast.id option
+)
+"src/dot_parser.mly" 165 17452 17510 "src/dot_parser.mly" 165 17452 17512
+type(
+  Dot_ast.stmt list
+)
+ident(
+  int_ref _4 "src/dot_parser.ml" 510 17343 17351 "src/dot_parser.ml" 510 17343 17353
+)
+"src/dot_parser.mly" 165 17452 17486 "src/dot_parser.mly" 165 17452 17515
+type(
+  Dot_ast.subgraph
+)
+type(
+  Dot_ast.subgraph
+)
+"src/dot_parser.ml" 511 17411 17415 "src/dot_parser.ml" 515 17542 17569
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 510 17343 17347 "src/dot_parser.ml" 515 17542 17569
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 509 17275 17279 "src/dot_parser.ml" 515 17542 17569
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 508 17247 17249 "src/dot_parser.ml" 515 17542 17570
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 516 17571 17578 "src/dot_parser.ml" 516 17571 17595
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 517 17599 17603 "src/dot_parser.ml" 522 17792 17819
+)
+"src/dot_parser.ml" 517 17599 17607 "src/dot_parser.ml" 517 17599 17609
+type(
+  Dot_ast.stmt list
+)
+"src/dot_parser.ml" 517 17599 17613 "src/dot_parser.ml" 517 17599 17629
+type(
+  Parsing.parser_env -> int -> Dot_ast.stmt list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 517 17599 17630 "src/dot_parser.ml" 517 17599 17647
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 516 17571 17578 "src/dot_parser.ml" 516 17571 17595
+)
+"src/dot_parser.ml" 517 17599 17648 "src/dot_parser.ml" 517 17599 17649
+type(
+  int
+)
+"src/dot_parser.ml" 517 17599 17613 "src/dot_parser.ml" 517 17599 17649
+call(
+  stack
+)
+type(
+  Dot_ast.stmt list
+)
+type(
+  Dot_ast.stmt list
+)
+"src/dot_parser.ml" 518 17667 17671 "src/dot_parser.ml" 518 17667 17679
+type(
+  Dot_ast.subgraph -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 166 17708 17754 "src/dot_parser.mly" 166 17708 17758
+type(
+  Dot_ast.id option
+)
+"src/dot_parser.mly" 166 17708 17760 "src/dot_parser.mly" 166 17708 17762
+type(
+  Dot_ast.stmt list
+)
+ident(
+  int_ref _3 "src/dot_parser.ml" 517 17599 17607 "src/dot_parser.ml" 517 17599 17609
+)
+"src/dot_parser.mly" 166 17708 17739 "src/dot_parser.mly" 166 17708 17765
+type(
+  Dot_ast.subgraph
+)
+type(
+  Dot_ast.subgraph
+)
+"src/dot_parser.ml" 518 17667 17671 "src/dot_parser.ml" 522 17792 17819
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 517 17599 17603 "src/dot_parser.ml" 522 17792 17819
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 516 17571 17573 "src/dot_parser.ml" 522 17792 17820
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 523 17821 17828 "src/dot_parser.ml" 523 17821 17845
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 524 17849 17853 "src/dot_parser.ml" 529 18033 18060
+)
+"src/dot_parser.ml" 524 17849 17857 "src/dot_parser.ml" 524 17849 17859
+type(
+  Dot_ast.stmt list
+)
+"src/dot_parser.ml" 524 17849 17863 "src/dot_parser.ml" 524 17849 17879
+type(
+  Parsing.parser_env -> int -> Dot_ast.stmt list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 524 17849 17880 "src/dot_parser.ml" 524 17849 17897
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 523 17821 17828 "src/dot_parser.ml" 523 17821 17845
+)
+"src/dot_parser.ml" 524 17849 17898 "src/dot_parser.ml" 524 17849 17899
+type(
+  int
+)
+"src/dot_parser.ml" 524 17849 17863 "src/dot_parser.ml" 524 17849 17899
+call(
+  stack
+)
+type(
+  Dot_ast.stmt list
+)
+type(
+  Dot_ast.stmt list
+)
+"src/dot_parser.ml" 525 17917 17921 "src/dot_parser.ml" 525 17917 17929
+type(
+  Dot_ast.subgraph -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/dot_parser.mly" 167 17958 17995 "src/dot_parser.mly" 167 17958 17999
+type(
+  Dot_ast.id option
+)
+"src/dot_parser.mly" 167 17958 18001 "src/dot_parser.mly" 167 17958 18003
+type(
+  Dot_ast.stmt list
+)
+ident(
+  int_ref _2 "src/dot_parser.ml" 524 17849 17857 "src/dot_parser.ml" 524 17849 17859
+)
+"src/dot_parser.mly" 167 17958 17980 "src/dot_parser.mly" 167 17958 18006
+type(
+  Dot_ast.subgraph
+)
+type(
+  Dot_ast.subgraph
+)
+"src/dot_parser.ml" 525 17917 17921 "src/dot_parser.ml" 529 18033 18060
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 524 17849 17853 "src/dot_parser.ml" 529 18033 18060
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 523 17821 17823 "src/dot_parser.ml" 529 18033 18061
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 531 18079 18086 "src/dot_parser.ml" 531 18079 18103
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "src/dot_parser.ml" 531 18079 18107 "src/dot_parser.ml" 531 18079 18168
+)
+"src/dot_parser.ml" 531 18079 18107 "src/dot_parser.ml" 531 18079 18112
+type(
+  exn -> Obj.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/dot_parser.ml" 531 18079 18130 "src/dot_parser.ml" 531 18079 18146
+type(
+  Parsing.parser_env -> int -> Obj.t
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"src/dot_parser.ml" 531 18079 18147 "src/dot_parser.ml" 531 18079 18164
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "src/dot_parser.ml" 531 18079 18086 "src/dot_parser.ml" 531 18079 18103
+)
+"src/dot_parser.ml" 531 18079 18165 "src/dot_parser.ml" 531 18079 18166
+type(
+  int
+)
+"src/dot_parser.ml" 531 18079 18129 "src/dot_parser.ml" 531 18079 18167
+call(
+  stack
+)
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 531 18079 18113 "src/dot_parser.ml" 531 18079 18168
+type(
+  exn
+)
+"src/dot_parser.ml" 531 18079 18107 "src/dot_parser.ml" 531 18079 18168
+type(
+  Obj.t
+)
+"src/dot_parser.ml" 531 18079 18081 "src/dot_parser.ml" 531 18079 18169
+type(
+  Parsing.parser_env -> Obj.t
+)
+"src/dot_parser.ml" 188 6914 6926 "src/dot_parser.ml" 532 18170 18172
+type(
+  (Parsing.parser_env -> Obj.t) array
+)
+"src/dot_parser.ml" 533 18173 18177 "src/dot_parser.ml" 533 18173 18185
+type(
+  Parsing.parse_tables
+)
+ident(
+  def yytables "src/dot_parser.ml" 550 18694 18694 --
+)
+"src/dot_parser.ml" 534 18188 18208 "src/dot_parser.ml" 534 18188 18213
+type(
+  (Parsing.parser_env -> Obj.t) array
+)
+ident(
+  int_ref yyact "src/dot_parser.ml" 188 6914 6918 "src/dot_parser.ml" 188 6914 6923
+)
+"src/dot_parser.ml" 535 18215 18240 "src/dot_parser.ml" 535 18215 18254
+type(
+  int array
+)
+ident(
+  int_ref yytransl_const "src/dot_parser.ml" 37 536 540 "src/dot_parser.ml" 37 536 554
+)
+"src/dot_parser.ml" 536 18256 18281 "src/dot_parser.ml" 536 18256 18295
+type(
+  int array
+)
+ident(
+  int_ref yytransl_block "src/dot_parser.ml" 56 874 878 "src/dot_parser.ml" 56 874 892
+)
+"src/dot_parser.ml" 537 18297 18313 "src/dot_parser.ml" 537 18297 18318
+type(
+  string
+)
+ident(
+  int_ref yylhs "src/dot_parser.ml" 60 923 927 "src/dot_parser.ml" 60 923 932
+)
+"src/dot_parser.ml" 538 18320 18336 "src/dot_parser.ml" 538 18320 18341
+type(
+  string
+)
+ident(
+  int_ref yylen "src/dot_parser.ml" 68 1343 1347 "src/dot_parser.ml" 68 1343 1352
+)
+"src/dot_parser.ml" 539 18343 18362 "src/dot_parser.ml" 539 18343 18370
+type(
+  string
+)
+ident(
+  int_ref yydefred "src/dot_parser.ml" 76 1763 1767 "src/dot_parser.ml" 76 1763 1775
+)
+"src/dot_parser.ml" 540 18372 18390 "src/dot_parser.ml" 540 18372 18397
+type(
+  string
+)
+ident(
+  int_ref yydgoto "src/dot_parser.ml" 88 2410 2414 "src/dot_parser.ml" 88 2410 2421
+)
+"src/dot_parser.ml" 541 18399 18418 "src/dot_parser.ml" 541 18399 18426
+type(
+  string
+)
+ident(
+  int_ref yysindex "src/dot_parser.ml" 93 2626 2630 "src/dot_parser.ml" 93 2626 2638
+)
+"src/dot_parser.ml" 542 18428 18447 "src/dot_parser.ml" 542 18428 18455
+type(
+  string
+)
+ident(
+  int_ref yyrindex "src/dot_parser.ml" 105 3273 3277 "src/dot_parser.ml" 105 3273 3285
+)
+"src/dot_parser.ml" 543 18457 18476 "src/dot_parser.ml" 543 18457 18484
+type(
+  string
+)
+ident(
+  int_ref yygindex "src/dot_parser.ml" 117 3920 3924 "src/dot_parser.ml" 117 3920 3932
+)
+"src/dot_parser.ml" 544 18486 18508 "src/dot_parser.ml" 544 18486 18519
+type(
+  int
+)
+ident(
+  int_ref yytablesize "src/dot_parser.ml" 122 4137 4141 "src/dot_parser.ml" 122 4137 4152
+)
+"src/dot_parser.ml" 545 18521 18539 "src/dot_parser.ml" 545 18521 18546
+type(
+  string
+)
+ident(
+  int_ref yytable "src/dot_parser.ml" 123 4159 4163 "src/dot_parser.ml" 123 4159 4170
+)
+"src/dot_parser.ml" 546 18548 18566 "src/dot_parser.ml" 546 18548 18573
+type(
+  string
+)
+ident(
+  int_ref yycheck "src/dot_parser.ml" 144 5399 5403 "src/dot_parser.ml" 144 5399 5410
+)
+"src/dot_parser.ml" 547 18575 18602 "src/dot_parser.ml" 547 18575 18613
+type(
+  string -> unit
+)
+ident(
+  ext_ref Parsing.parse_error
+)
+"src/dot_parser.ml" 548 18615 18639 "src/dot_parser.ml" 548 18615 18652
+type(
+  string
+)
+ident(
+  int_ref yynames_const "src/dot_parser.ml" 165 6639 6643 "src/dot_parser.ml" 165 6639 6656
+)
+"src/dot_parser.ml" 549 18654 18678 "src/dot_parser.ml" 549 18654 18691
+type(
+  string
+)
+ident(
+  int_ref yynames_block "src/dot_parser.ml" 184 6876 6880 "src/dot_parser.ml" 184 6876 6893
+)
+"src/dot_parser.ml" 534 18188 18190 "src/dot_parser.ml" 549 18654 18693
+type(
+  Parsing.parse_tables
+)
+"src/dot_parser.ml" 550 18694 18698 "src/dot_parser.ml" 550 18694 18702
+type(
+  (Lexing.lexbuf -> token) -> Lexing.lexbuf -> Dot_ast.file
+)
+ident(
+  def file "src/dot_parser.ml" 551 18764 18824 --
+)
+"src/dot_parser.ml" 550 18694 18704 "src/dot_parser.ml" 550 18694 18710
+type(
+  Lexing.lexbuf -> token
+)
+ident(
+  def lexfun "src/dot_parser.ml" 550 18694 18737 "src/dot_parser.ml" 551 18764 18824
+)
+"src/dot_parser.ml" 550 18694 18738 "src/dot_parser.ml" 550 18694 18744
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/dot_parser.ml" 551 18764 18767 "src/dot_parser.ml" 551 18764 18824
+)
+"src/dot_parser.ml" 551 18764 18768 "src/dot_parser.ml" 551 18764 18783
+type(
+  Parsing.parse_tables ->
+  int -> (Lexing.lexbuf -> token) -> Lexing.lexbuf -> Dot_ast.file
+)
+ident(
+  ext_ref Parsing.yyparse
+)
+"src/dot_parser.ml" 551 18764 18784 "src/dot_parser.ml" 551 18764 18792
+type(
+  Parsing.parse_tables
+)
+ident(
+  int_ref yytables "src/dot_parser.ml" 533 18173 18177 "src/dot_parser.ml" 533 18173 18185
+)
+"src/dot_parser.ml" 551 18764 18793 "src/dot_parser.ml" 551 18764 18794
+type(
+  int
+)
+"src/dot_parser.ml" 551 18764 18795 "src/dot_parser.ml" 551 18764 18801
+type(
+  Lexing.lexbuf -> token
+)
+ident(
+  int_ref lexfun "src/dot_parser.ml" 550 18694 18704 "src/dot_parser.ml" 550 18694 18710
+)
+"src/dot_parser.ml" 551 18764 18802 "src/dot_parser.ml" 551 18764 18808
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/dot_parser.ml" 550 18694 18738 "src/dot_parser.ml" 550 18694 18744
+)
+"src/dot_parser.ml" 551 18764 18768 "src/dot_parser.ml" 551 18764 18808
+call(
+  tail
+)
+type(
+  Dot_ast.file
+)
+type(
+  Dot_ast.file
+)

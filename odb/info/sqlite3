@@ -1,0 +1,4 @@
+deps=make
+tarball=ocaml-sqlite3-release-1.6.1-oasis1.tar.gz
+is_library=true
+is_program=false

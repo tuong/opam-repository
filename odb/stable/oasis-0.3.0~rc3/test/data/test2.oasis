@@ -1,0 +1,23 @@
+
+Name: Stuff
+Version: 1.2.3.0
+OASISFormat: 0.1
+Copyrights: (C) 2003-2008 J. R. Hacker
+Homepage: http://foo.com
+Authors: J. R. Hacker <hacker@example.com>
+Maintainers: J. R. Hacker <hacker@example.com>
+LicenseFile: LICENSE
+License: LGPL with OCaml linking exception
+Buildtype: None (0.0.1)
+
+# blank lines are ignored, as are comments
+
+Synopsis: some stuff
+Description:
+  This is a rather short desc.
+  .
+  (with an empty line)
+
+Library stuff
+  Path: src/stuff
+  Modules: A, B, C

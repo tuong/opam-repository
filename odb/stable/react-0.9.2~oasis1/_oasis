@@ -1,0 +1,16 @@
+OASISFormat: 0.2
+Name:        React
+Version:     0.9.2~oasis1
+Synopsis:    Applicative events and signals for OCaml
+Authors:     Daniel Buenzli
+License:     BSD3
+Plugins:     DevFiles (0.2), META (0.2)
+
+Library react
+  Path:             src
+  BuildTools:       ocamlbuild
+  Modules:          React
+  XMETAType:        library
+  XMETADescription: Applicative events and signals for OCaml
+  FindlibName:      react
+

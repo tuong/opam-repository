@@ -1,0 +1,54 @@
+.PHONY: all install clean
+
+OCAMLINCLUDES +=
+
+OCAMLFLAGS    += -annot -w Ae
+OCAMLCFLAGS   +=
+OCAMLOPTFLAGS +=
+OCAML_LINK_FLAGS +=
+OCAML_BYTE_LINK_FLAGS +=
+OCAML_NATIVE_LINK_FLAGS +=
+
+CAMLP4PACKS[]=
+    sexplib
+
+OCAMLPACKS[]= 
+    sexplib
+    spotlib
+
+%.out.ml: %.ml ../pa_bind_inline/pa_bind_inline.cmo
+	camlp4o -printer OCaml ../pa_bind_inline/pa_bind_inline.cmo $< > $@
+
+OCAMLDEPFLAGS= -syntax camlp4o -package sexplib.syntax -ppopt ../pa_bind_inline/pa_bind_inline.cmo
+OCAMLPPFLAGS= -syntax camlp4o -package sexplib.syntax -ppopt ../pa_bind_inline/pa_bind_inline.cmo
+
+# OCamlGeneratedFiles(parser.ml lexer.ml)
+
+LIBFILES[] =
+   position
+   result
+   lazylist
+   stream_intf
+   stream
+   sstring
+   smemo
+   sbuffer
+   planck_intf
+   pbase
+   pbaseexn
+   pbaseref
+   pchar
+   pbuffer
+   pmemo
+   op_prec
+
+LIB = planck
+
+MyOCamlPackage($(LIB), $(LIBFILES), $(EMPTY), $(EMPTY))
+
+Subdirs()
+# Subdirs_except(ocaml) # If you are not interested in ocaml parser example
+
+# This must be after Subdirs(), so that it does not affect the build of pa_build_inline
+.SCANNER: scan-ocaml-%: ../pa_bind_inline/pa_bind_inline.cmo
+%.cmo %.cmx %.cmi : ../pa_bind_inline/pa_bind_inline.cmo

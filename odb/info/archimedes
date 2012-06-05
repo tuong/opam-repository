@@ -1,0 +1,4 @@
+deps=ocamlbuild,graphics,dynlink,cairo2,bigarray
+tarball=archimedes-0.4.12.tar.gz
+is_library=true
+is_program=false

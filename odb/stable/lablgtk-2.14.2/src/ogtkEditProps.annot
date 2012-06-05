@@ -1,0 +1,1989 @@
+"ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  def set "ogtkEditProps.ml" 5 52 52 --
+)
+"ogtkEditProps.ml" 4 38 48 "ogtkEditProps.ml" 4 38 51
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  def get "ogtkEditProps.ml" 6 66 66 --
+)
+"ogtkEditProps.ml" 5 52 62 "ogtkEditProps.ml" 5 52 65
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  ext_ref Gobject.get
+)
+"ogtkEditProps.ml" 6 66 70 "ogtkEditProps.ml" 6 66 75
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  def param "ogtkEditProps.ml" 8 85 85 --
+)
+"ogtkEditProps.ml" 6 66 78 "ogtkEditProps.ml" 6 66 83
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"ogtkEditProps.ml" 12 123 160 "ogtkEditProps.ml" 12 123 166
+type(
+  < changed : callback:(unit -> unit) -> GtkSignal.id;
+    delete_text : callback:(start:int -> stop:int -> unit) -> GtkSignal.id;
+    insert_text : callback:(string -> pos:int ref -> unit) -> GtkSignal.id;
+    .. >
+)
+"ogtkEditProps.ml" 15 261 280 "ogtkEditProps.ml" 15 261 284
+type(
+  < changed : callback:(unit -> unit) -> GtkSignal.id;
+    delete_text : callback:(start:int -> stop:int -> unit) -> GtkSignal.id;
+    insert_text : callback:(string -> pos:int ref -> unit) -> GtkSignal.id;
+    .. >
+  as 'a
+)
+"ogtkEditProps.ml" 15 261 280 "ogtkEditProps.ml" 15 261 292
+call(
+  tail
+)
+type(
+  ([> `editable ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 15 261 293 "ogtkEditProps.ml" 15 261 311
+type(
+  ([> `editable ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.Editable.S.changed
+)
+"ogtkEditProps.ml" 15 261 280 "ogtkEditProps.ml" 15 261 311
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 16 312 335 "ogtkEditProps.ml" 16 312 339
+type(
+  'a
+)
+"ogtkEditProps.ml" 16 312 335 "ogtkEditProps.ml" 16 312 347
+call(
+  tail
+)
+type(
+  ('b, start:int -> stop:int -> unit) GtkSignal.t ->
+  callback:(start:int -> stop:int -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 16 312 348 "ogtkEditProps.ml" 16 312 370
+type(
+  ('b, start:int -> stop:int -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.Editable.S.delete_text
+)
+"ogtkEditProps.ml" 16 312 335 "ogtkEditProps.ml" 16 312 370
+type(
+  callback:(start:int -> stop:int -> unit) -> GtkSignal.id
+)
+type(
+  callback:(start:int -> stop:int -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 17 371 394 "ogtkEditProps.ml" 17 371 398
+type(
+  'a
+)
+"ogtkEditProps.ml" 17 371 394 "ogtkEditProps.ml" 17 371 406
+call(
+  tail
+)
+type(
+  ('b, string -> pos:int ref -> unit) GtkSignal.t ->
+  callback:(string -> pos:int ref -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 17 371 407 "ogtkEditProps.ml" 17 371 429
+type(
+  ('b, string -> pos:int ref -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.Editable.S.insert_text
+)
+"ogtkEditProps.ml" 17 371 394 "ogtkEditProps.ml" 17 371 429
+type(
+  callback:(string -> pos:int ref -> unit) -> GtkSignal.id
+)
+type(
+  callback:(string -> pos:int ref -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 22 496 516 "ogtkEditProps.ml" 22 496 519
+type(
+  ([> `entry ] as 'a, string) Gobject.property ->
+  'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 22 496 520 "ogtkEditProps.ml" 22 496 532
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.text
+)
+"ogtkEditProps.ml" 22 496 533 "ogtkEditProps.ml" 22 496 536
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 22 496 516 "ogtkEditProps.ml" 22 496 536
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkEditProps.ml" 23 537 563 "ogtkEditProps.ml" 23 537 566
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 23 537 567 "ogtkEditProps.ml" 23 537 585
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.visibility
+)
+"ogtkEditProps.ml" 23 537 586 "ogtkEditProps.ml" 23 537 589
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 23 537 563 "ogtkEditProps.ml" 23 537 589
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkEditProps.ml" 24 590 616 "ogtkEditProps.ml" 24 590 619
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 24 590 620 "ogtkEditProps.ml" 24 590 638
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.max_length
+)
+"ogtkEditProps.ml" 24 590 639 "ogtkEditProps.ml" 24 590 642
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 24 590 616 "ogtkEditProps.ml" 24 590 642
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkEditProps.ml" 25 643 676 "ogtkEditProps.ml" 25 643 679
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 25 643 680 "ogtkEditProps.ml" 25 643 705
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.activates_default
+)
+"ogtkEditProps.ml" 25 643 706 "ogtkEditProps.ml" 25 643 709
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 25 643 676 "ogtkEditProps.ml" 25 643 709
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkEditProps.ml" 26 710 735 "ogtkEditProps.ml" 26 710 738
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 26 710 739 "ogtkEditProps.ml" 26 710 756
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.has_frame
+)
+"ogtkEditProps.ml" 26 710 757 "ogtkEditProps.ml" 26 710 760
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 26 710 735 "ogtkEditProps.ml" 26 710 760
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkEditProps.ml" 27 761 791 "ogtkEditProps.ml" 27 761 794
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 27 761 795 "ogtkEditProps.ml" 27 761 817
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.invisible_char
+)
+"ogtkEditProps.ml" 27 761 818 "ogtkEditProps.ml" 27 761 821
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 27 761 791 "ogtkEditProps.ml" 27 761 821
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkEditProps.ml" 28 822 849 "ogtkEditProps.ml" 28 822 852
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 28 822 853 "ogtkEditProps.ml" 28 822 872
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.width_chars
+)
+"ogtkEditProps.ml" 28 822 873 "ogtkEditProps.ml" 28 822 876
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 28 822 849 "ogtkEditProps.ml" 28 822 876
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkEditProps.ml" 29 877 899 "ogtkEditProps.ml" 29 877 902
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 29 877 903 "ogtkEditProps.ml" 29 877 917
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.xalign
+)
+"ogtkEditProps.ml" 29 877 918 "ogtkEditProps.ml" 29 877 921
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 29 877 899 "ogtkEditProps.ml" 29 877 921
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkEditProps.ml" 30 922 938 "ogtkEditProps.ml" 30 922 941
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 30 922 942 "ogtkEditProps.ml" 30 922 954
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.text
+)
+"ogtkEditProps.ml" 30 922 955 "ogtkEditProps.ml" 30 922 958
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 30 922 938 "ogtkEditProps.ml" 30 922 958
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkEditProps.ml" 31 959 981 "ogtkEditProps.ml" 31 959 984
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 31 959 985 "ogtkEditProps.ml" 31 959 1003
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.visibility
+)
+"ogtkEditProps.ml" 31 959 1004 "ogtkEditProps.ml" 31 959 1007
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 31 959 981 "ogtkEditProps.ml" 31 959 1007
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkEditProps.ml" 32 1008 1030 "ogtkEditProps.ml" 32 1008 1033
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 32 1008 1034 "ogtkEditProps.ml" 32 1008 1052
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.max_length
+)
+"ogtkEditProps.ml" 32 1008 1053 "ogtkEditProps.ml" 32 1008 1056
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 32 1008 1030 "ogtkEditProps.ml" 32 1008 1056
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkEditProps.ml" 33 1057 1086 "ogtkEditProps.ml" 33 1057 1089
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 33 1057 1090 "ogtkEditProps.ml" 33 1057 1115
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.activates_default
+)
+"ogtkEditProps.ml" 33 1057 1116 "ogtkEditProps.ml" 33 1057 1119
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 33 1057 1086 "ogtkEditProps.ml" 33 1057 1119
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkEditProps.ml" 34 1120 1141 "ogtkEditProps.ml" 34 1120 1144
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 34 1120 1145 "ogtkEditProps.ml" 34 1120 1162
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.has_frame
+)
+"ogtkEditProps.ml" 34 1120 1163 "ogtkEditProps.ml" 34 1120 1166
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 34 1120 1141 "ogtkEditProps.ml" 34 1120 1166
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkEditProps.ml" 35 1167 1193 "ogtkEditProps.ml" 35 1167 1196
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 35 1167 1197 "ogtkEditProps.ml" 35 1167 1219
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.invisible_char
+)
+"ogtkEditProps.ml" 35 1167 1220 "ogtkEditProps.ml" 35 1167 1223
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 35 1167 1193 "ogtkEditProps.ml" 35 1167 1223
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkEditProps.ml" 36 1224 1249 "ogtkEditProps.ml" 36 1224 1252
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 36 1224 1253 "ogtkEditProps.ml" 36 1224 1274
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.scroll_offset
+)
+"ogtkEditProps.ml" 36 1224 1275 "ogtkEditProps.ml" 36 1224 1278
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 36 1224 1249 "ogtkEditProps.ml" 36 1224 1278
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkEditProps.ml" 37 1279 1302 "ogtkEditProps.ml" 37 1279 1305
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 37 1279 1306 "ogtkEditProps.ml" 37 1279 1325
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.width_chars
+)
+"ogtkEditProps.ml" 37 1279 1326 "ogtkEditProps.ml" 37 1279 1329
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 37 1279 1302 "ogtkEditProps.ml" 37 1279 1329
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkEditProps.ml" 38 1330 1348 "ogtkEditProps.ml" 38 1330 1351
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 38 1330 1352 "ogtkEditProps.ml" 38 1330 1366
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Entry.P.xalign
+)
+"ogtkEditProps.ml" 38 1330 1367 "ogtkEditProps.ml" 38 1330 1370
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 38 1330 1348 "ogtkEditProps.ml" 38 1330 1370
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkEditProps.ml" 41 1376 1410 "ogtkEditProps.ml" 41 1376 1416
+type(
+  < activate : callback:(unit -> unit) -> GtkSignal.id;
+    copy_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    cut_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    delete_from_cursor : callback:(GtkEnums.delete_type -> int -> unit) ->
+                         GtkSignal.id;
+    insert_at_cursor : callback:(string -> unit) -> GtkSignal.id;
+    move_cursor : callback:(GtkEnums.movement_step ->
+                            int -> extend:bool -> unit) ->
+                  GtkSignal.id;
+    paste_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    toggle_overwrite : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkEditProps.ml" 44 1511 1531 "ogtkEditProps.ml" 44 1511 1535
+type(
+  < activate : callback:(unit -> unit) -> GtkSignal.id;
+    copy_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    cut_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    delete_from_cursor : callback:(GtkEnums.delete_type -> int -> unit) ->
+                         GtkSignal.id;
+    insert_at_cursor : callback:(string -> unit) -> GtkSignal.id;
+    move_cursor : callback:(GtkEnums.movement_step ->
+                            int -> extend:bool -> unit) ->
+                  GtkSignal.id;
+    paste_clipboard : callback:(unit -> unit) -> GtkSignal.id;
+    toggle_overwrite : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkEditProps.ml" 44 1511 1531 "ogtkEditProps.ml" 44 1511 1543
+call(
+  tail
+)
+type(
+  ([> `entry ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 44 1511 1544 "ogtkEditProps.ml" 44 1511 1560
+type(
+  ([> `entry ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.Entry.S.activate
+)
+"ogtkEditProps.ml" 44 1511 1531 "ogtkEditProps.ml" 44 1511 1560
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 45 1561 1587 "ogtkEditProps.ml" 45 1561 1591
+type(
+  'a
+)
+"ogtkEditProps.ml" 45 1561 1587 "ogtkEditProps.ml" 45 1561 1599
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 45 1561 1600 "ogtkEditProps.ml" 45 1561 1622
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.Entry.S.copy_clipboard
+)
+"ogtkEditProps.ml" 45 1561 1587 "ogtkEditProps.ml" 45 1561 1622
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 46 1623 1648 "ogtkEditProps.ml" 46 1623 1652
+type(
+  'a
+)
+"ogtkEditProps.ml" 46 1623 1648 "ogtkEditProps.ml" 46 1623 1660
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 46 1623 1661 "ogtkEditProps.ml" 46 1623 1682
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.Entry.S.cut_clipboard
+)
+"ogtkEditProps.ml" 46 1623 1648 "ogtkEditProps.ml" 46 1623 1682
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 47 1683 1713 "ogtkEditProps.ml" 47 1683 1717
+type(
+  'a
+)
+"ogtkEditProps.ml" 47 1683 1713 "ogtkEditProps.ml" 47 1683 1725
+call(
+  tail
+)
+type(
+  ('b, GtkEnums.delete_type -> int -> unit) GtkSignal.t ->
+  callback:(GtkEnums.delete_type -> int -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 47 1683 1726 "ogtkEditProps.ml" 47 1683 1752
+type(
+  ('b, GtkEnums.delete_type -> int -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.Entry.S.delete_from_cursor
+)
+"ogtkEditProps.ml" 47 1683 1713 "ogtkEditProps.ml" 47 1683 1752
+type(
+  callback:(GtkEnums.delete_type -> int -> unit) -> GtkSignal.id
+)
+type(
+  callback:(GtkEnums.delete_type -> int -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 48 1753 1781 "ogtkEditProps.ml" 48 1753 1785
+type(
+  'a
+)
+"ogtkEditProps.ml" 48 1753 1781 "ogtkEditProps.ml" 48 1753 1793
+call(
+  tail
+)
+type(
+  ('b, string -> unit) GtkSignal.t ->
+  callback:(string -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 48 1753 1794 "ogtkEditProps.ml" 48 1753 1818
+type(
+  ('b, string -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.Entry.S.insert_at_cursor
+)
+"ogtkEditProps.ml" 48 1753 1781 "ogtkEditProps.ml" 48 1753 1818
+type(
+  callback:(string -> unit) -> GtkSignal.id
+)
+type(
+  callback:(string -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 49 1819 1842 "ogtkEditProps.ml" 49 1819 1846
+type(
+  'a
+)
+"ogtkEditProps.ml" 49 1819 1842 "ogtkEditProps.ml" 49 1819 1854
+call(
+  tail
+)
+type(
+  ('b, GtkEnums.movement_step -> int -> extend:bool -> unit) GtkSignal.t ->
+  callback:(GtkEnums.movement_step -> int -> extend:bool -> unit) ->
+  GtkSignal.id
+)
+"ogtkEditProps.ml" 49 1819 1855 "ogtkEditProps.ml" 49 1819 1874
+type(
+  ('b, GtkEnums.movement_step -> int -> extend:bool -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.Entry.S.move_cursor
+)
+"ogtkEditProps.ml" 49 1819 1842 "ogtkEditProps.ml" 49 1819 1874
+type(
+  callback:(GtkEnums.movement_step -> int -> extend:bool -> unit) ->
+  GtkSignal.id
+)
+type(
+  callback:(GtkEnums.movement_step -> int -> extend:bool -> unit) ->
+  GtkSignal.id
+)
+"ogtkEditProps.ml" 50 1875 1902 "ogtkEditProps.ml" 50 1875 1906
+type(
+  'a
+)
+"ogtkEditProps.ml" 50 1875 1902 "ogtkEditProps.ml" 50 1875 1914
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 50 1875 1915 "ogtkEditProps.ml" 50 1875 1938
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.Entry.S.paste_clipboard
+)
+"ogtkEditProps.ml" 50 1875 1902 "ogtkEditProps.ml" 50 1875 1938
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 51 1939 1967 "ogtkEditProps.ml" 51 1939 1971
+type(
+  'a
+)
+"ogtkEditProps.ml" 51 1939 1967 "ogtkEditProps.ml" 51 1939 1979
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 51 1939 1980 "ogtkEditProps.ml" 51 1939 2004
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.Entry.S.toggle_overwrite
+)
+"ogtkEditProps.ml" 51 1939 1967 "ogtkEditProps.ml" 51 1939 2004
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 57 2103 2107 "ogtkEditProps.ml" 57 2103 2110
+type(
+  ([> `spinbutton ] as 'a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 57 2103 2112 "ogtkEditProps.ml" 57 2103 2135
+type(
+  (_[> `spinbutton ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.P.adjustment
+)
+"ogtkEditProps.ml" 57 2103 2146 "ogtkEditProps.ml" 57 2103 2167
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkEditProps.ml" 57 2103 2111 "ogtkEditProps.ml" 57 2103 2168
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkEditProps.ml" 57 2103 2169 "ogtkEditProps.ml" 57 2103 2172
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 57 2103 2107 "ogtkEditProps.ml" 57 2103 2172
+call(
+  tail
+)
+type(
+  GData.adjustment -> unit
+)
+type(
+  GData.adjustment -> unit
+)
+"ogtkEditProps.ml" 58 2173 2193 "ogtkEditProps.ml" 58 2173 2196
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 58 2173 2197 "ogtkEditProps.ml" 58 2173 2220
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.P.climb_rate
+)
+"ogtkEditProps.ml" 58 2173 2221 "ogtkEditProps.ml" 58 2173 2224
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 58 2173 2193 "ogtkEditProps.ml" 58 2173 2224
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkEditProps.ml" 59 2225 2247 "ogtkEditProps.ml" 59 2225 2250
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 59 2225 2251 "ogtkEditProps.ml" 59 2225 2270
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.P.digits
+)
+"ogtkEditProps.ml" 59 2225 2271 "ogtkEditProps.ml" 59 2225 2274
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 59 2225 2247 "ogtkEditProps.ml" 59 2225 2274
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkEditProps.ml" 60 2275 2298 "ogtkEditProps.ml" 60 2275 2301
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 60 2275 2302 "ogtkEditProps.ml" 60 2275 2322
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.P.numeric
+)
+"ogtkEditProps.ml" 60 2275 2323 "ogtkEditProps.ml" 60 2275 2326
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 60 2275 2298 "ogtkEditProps.ml" 60 2275 2326
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkEditProps.ml" 61 2327 2356 "ogtkEditProps.ml" 61 2327 2359
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 61 2327 2360 "ogtkEditProps.ml" 61 2327 2386
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.P.snap_to_ticks
+)
+"ogtkEditProps.ml" 61 2327 2387 "ogtkEditProps.ml" 61 2327 2390
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 61 2327 2356 "ogtkEditProps.ml" 61 2327 2390
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkEditProps.ml" 62 2391 2420 "ogtkEditProps.ml" 62 2391 2423
+type(
+  ('a, GtkEnums.spin_button_update_policy) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.spin_button_update_policy -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 62 2391 2424 "ogtkEditProps.ml" 62 2391 2450
+type(
+  ('a, GtkEnums.spin_button_update_policy) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.P.update_policy
+)
+"ogtkEditProps.ml" 62 2391 2451 "ogtkEditProps.ml" 62 2391 2454
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 62 2391 2420 "ogtkEditProps.ml" 62 2391 2454
+call(
+  tail
+)
+type(
+  GtkEnums.spin_button_update_policy -> unit
+)
+type(
+  GtkEnums.spin_button_update_policy -> unit
+)
+"ogtkEditProps.ml" 63 2455 2476 "ogtkEditProps.ml" 63 2455 2479
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 63 2455 2480 "ogtkEditProps.ml" 63 2455 2498
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.P.value
+)
+"ogtkEditProps.ml" 63 2455 2499 "ogtkEditProps.ml" 63 2455 2502
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 63 2455 2476 "ogtkEditProps.ml" 63 2455 2502
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkEditProps.ml" 64 2503 2523 "ogtkEditProps.ml" 64 2503 2526
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 64 2503 2527 "ogtkEditProps.ml" 64 2503 2544
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.P.wrap
+)
+"ogtkEditProps.ml" 64 2503 2545 "ogtkEditProps.ml" 64 2503 2548
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 64 2503 2523 "ogtkEditProps.ml" 64 2503 2548
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkEditProps.ml" 66 2571 2575 "ogtkEditProps.ml" 66 2571 2578
+type(
+  ('a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 66 2571 2580 "ogtkEditProps.ml" 66 2571 2603
+type(
+  (_[> `spinbutton ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.P.adjustment
+)
+"ogtkEditProps.ml" 66 2571 2614 "ogtkEditProps.ml" 66 2571 2635
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkEditProps.ml" 66 2571 2579 "ogtkEditProps.ml" 66 2571 2636
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkEditProps.ml" 66 2571 2637 "ogtkEditProps.ml" 66 2571 2640
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 66 2571 2575 "ogtkEditProps.ml" 66 2571 2640
+call(
+  tail
+)
+type(
+  GData.adjustment
+)
+type(
+  GData.adjustment
+)
+"ogtkEditProps.ml" 67 2641 2657 "ogtkEditProps.ml" 67 2641 2660
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 67 2641 2661 "ogtkEditProps.ml" 67 2641 2684
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.P.climb_rate
+)
+"ogtkEditProps.ml" 67 2641 2685 "ogtkEditProps.ml" 67 2641 2688
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 67 2641 2657 "ogtkEditProps.ml" 67 2641 2688
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkEditProps.ml" 68 2689 2707 "ogtkEditProps.ml" 68 2689 2710
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 68 2689 2711 "ogtkEditProps.ml" 68 2689 2730
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.P.digits
+)
+"ogtkEditProps.ml" 68 2689 2731 "ogtkEditProps.ml" 68 2689 2734
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 68 2689 2707 "ogtkEditProps.ml" 68 2689 2734
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkEditProps.ml" 69 2735 2754 "ogtkEditProps.ml" 69 2735 2757
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 69 2735 2758 "ogtkEditProps.ml" 69 2735 2778
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.P.numeric
+)
+"ogtkEditProps.ml" 69 2735 2779 "ogtkEditProps.ml" 69 2735 2782
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 69 2735 2754 "ogtkEditProps.ml" 69 2735 2782
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkEditProps.ml" 70 2783 2808 "ogtkEditProps.ml" 70 2783 2811
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 70 2783 2812 "ogtkEditProps.ml" 70 2783 2838
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.P.snap_to_ticks
+)
+"ogtkEditProps.ml" 70 2783 2839 "ogtkEditProps.ml" 70 2783 2842
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 70 2783 2808 "ogtkEditProps.ml" 70 2783 2842
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkEditProps.ml" 71 2843 2868 "ogtkEditProps.ml" 71 2843 2871
+type(
+  ('a, GtkEnums.spin_button_update_policy) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.spin_button_update_policy
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 71 2843 2872 "ogtkEditProps.ml" 71 2843 2898
+type(
+  ('a, GtkEnums.spin_button_update_policy) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.P.update_policy
+)
+"ogtkEditProps.ml" 71 2843 2899 "ogtkEditProps.ml" 71 2843 2902
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 71 2843 2868 "ogtkEditProps.ml" 71 2843 2902
+call(
+  tail
+)
+type(
+  GtkEnums.spin_button_update_policy
+)
+type(
+  GtkEnums.spin_button_update_policy
+)
+"ogtkEditProps.ml" 72 2903 2920 "ogtkEditProps.ml" 72 2903 2923
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 72 2903 2924 "ogtkEditProps.ml" 72 2903 2942
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.P.value
+)
+"ogtkEditProps.ml" 72 2903 2943 "ogtkEditProps.ml" 72 2903 2946
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 72 2903 2920 "ogtkEditProps.ml" 72 2903 2946
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkEditProps.ml" 73 2947 2963 "ogtkEditProps.ml" 73 2947 2966
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 73 2947 2967 "ogtkEditProps.ml" 73 2947 2984
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.P.wrap
+)
+"ogtkEditProps.ml" 73 2947 2985 "ogtkEditProps.ml" 73 2947 2988
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 73 2947 2963 "ogtkEditProps.ml" 73 2947 2988
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkEditProps.ml" 76 2994 3034 "ogtkEditProps.ml" 76 2994 3040
+type(
+  < change_value : callback:(GtkEnums.scroll_type -> unit) -> GtkSignal.id;
+    input : callback:(unit -> int) -> GtkSignal.id;
+    output : callback:(unit -> bool) -> GtkSignal.id;
+    value_changed : callback:(unit -> unit) -> GtkSignal.id;
+    wrapped : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkEditProps.ml" 79 3135 3159 "ogtkEditProps.ml" 79 3135 3163
+type(
+  < change_value : callback:(GtkEnums.scroll_type -> unit) -> GtkSignal.id;
+    input : callback:(unit -> int) -> GtkSignal.id;
+    output : callback:(unit -> bool) -> GtkSignal.id;
+    value_changed : callback:(unit -> unit) -> GtkSignal.id;
+    wrapped : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkEditProps.ml" 79 3135 3159 "ogtkEditProps.ml" 79 3135 3171
+call(
+  tail
+)
+type(
+  ([> `spinbutton ], GtkEnums.scroll_type -> unit) GtkSignal.t ->
+  callback:(GtkEnums.scroll_type -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 79 3135 3172 "ogtkEditProps.ml" 79 3135 3197
+type(
+  ([> `spinbutton ] as 'b, GtkEnums.scroll_type -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.S.change_value
+)
+"ogtkEditProps.ml" 79 3135 3159 "ogtkEditProps.ml" 79 3135 3197
+type(
+  callback:(GtkEnums.scroll_type -> unit) -> GtkSignal.id
+)
+type(
+  callback:(GtkEnums.scroll_type -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 80 3198 3215 "ogtkEditProps.ml" 80 3198 3219
+type(
+  'a
+)
+"ogtkEditProps.ml" 80 3198 3215 "ogtkEditProps.ml" 80 3198 3227
+call(
+  tail
+)
+type(
+  ('b, unit -> int) GtkSignal.t -> callback:(unit -> int) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 80 3198 3228 "ogtkEditProps.ml" 80 3198 3246
+type(
+  ('b, unit -> int) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.S.input
+)
+"ogtkEditProps.ml" 80 3198 3215 "ogtkEditProps.ml" 80 3198 3246
+type(
+  callback:(unit -> int) -> GtkSignal.id
+)
+type(
+  callback:(unit -> int) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 81 3247 3265 "ogtkEditProps.ml" 81 3247 3269
+type(
+  'a
+)
+"ogtkEditProps.ml" 81 3247 3265 "ogtkEditProps.ml" 81 3247 3277
+call(
+  tail
+)
+type(
+  ('b, unit -> bool) GtkSignal.t -> callback:(unit -> bool) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 81 3247 3278 "ogtkEditProps.ml" 81 3247 3297
+type(
+  ('b, unit -> bool) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.S.output
+)
+"ogtkEditProps.ml" 81 3247 3265 "ogtkEditProps.ml" 81 3247 3297
+type(
+  callback:(unit -> bool) -> GtkSignal.id
+)
+type(
+  callback:(unit -> bool) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 82 3298 3323 "ogtkEditProps.ml" 82 3298 3327
+type(
+  'a
+)
+"ogtkEditProps.ml" 82 3298 3323 "ogtkEditProps.ml" 82 3298 3335
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 82 3298 3336 "ogtkEditProps.ml" 82 3298 3362
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.S.value_changed
+)
+"ogtkEditProps.ml" 82 3298 3323 "ogtkEditProps.ml" 82 3298 3362
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 83 3363 3382 "ogtkEditProps.ml" 83 3363 3386
+type(
+  'a
+)
+"ogtkEditProps.ml" 83 3363 3382 "ogtkEditProps.ml" 83 3363 3394
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 83 3363 3395 "ogtkEditProps.ml" 83 3363 3415
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.SpinButton.S.wrapped
+)
+"ogtkEditProps.ml" 83 3363 3382 "ogtkEditProps.ml" 83 3363 3415
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 88 3482 3509 "ogtkEditProps.ml" 88 3482 3512
+type(
+  ([> `combo ] as 'a, bool) Gobject.property ->
+  'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 88 3482 3513 "ogtkEditProps.ml" 88 3482 3532
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Combo.P.allow_empty
+)
+"ogtkEditProps.ml" 88 3482 3533 "ogtkEditProps.ml" 88 3482 3536
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 88 3482 3509 "ogtkEditProps.ml" 88 3482 3536
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkEditProps.ml" 89 3537 3567 "ogtkEditProps.ml" 89 3537 3570
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 89 3537 3571 "ogtkEditProps.ml" 89 3537 3593
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Combo.P.case_sensitive
+)
+"ogtkEditProps.ml" 89 3537 3594 "ogtkEditProps.ml" 89 3537 3597
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 89 3537 3567 "ogtkEditProps.ml" 89 3537 3597
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkEditProps.ml" 90 3598 3631 "ogtkEditProps.ml" 90 3598 3634
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 90 3598 3635 "ogtkEditProps.ml" 90 3598 3660
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Combo.P.enable_arrow_keys
+)
+"ogtkEditProps.ml" 90 3598 3661 "ogtkEditProps.ml" 90 3598 3664
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 90 3598 3631 "ogtkEditProps.ml" 90 3598 3664
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkEditProps.ml" 91 3665 3694 "ogtkEditProps.ml" 91 3665 3697
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 91 3665 3698 "ogtkEditProps.ml" 91 3665 3719
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Combo.P.value_in_list
+)
+"ogtkEditProps.ml" 91 3665 3720 "ogtkEditProps.ml" 91 3665 3723
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 91 3665 3694 "ogtkEditProps.ml" 91 3665 3723
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkEditProps.ml" 92 3724 3747 "ogtkEditProps.ml" 92 3724 3750
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 92 3724 3751 "ogtkEditProps.ml" 92 3724 3770
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Combo.P.allow_empty
+)
+"ogtkEditProps.ml" 92 3724 3771 "ogtkEditProps.ml" 92 3724 3774
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 92 3724 3747 "ogtkEditProps.ml" 92 3724 3774
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkEditProps.ml" 93 3775 3801 "ogtkEditProps.ml" 93 3775 3804
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 93 3775 3805 "ogtkEditProps.ml" 93 3775 3827
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Combo.P.case_sensitive
+)
+"ogtkEditProps.ml" 93 3775 3828 "ogtkEditProps.ml" 93 3775 3831
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 93 3775 3801 "ogtkEditProps.ml" 93 3775 3831
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkEditProps.ml" 94 3832 3861 "ogtkEditProps.ml" 94 3832 3864
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 94 3832 3865 "ogtkEditProps.ml" 94 3832 3890
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Combo.P.enable_arrow_keys
+)
+"ogtkEditProps.ml" 94 3832 3891 "ogtkEditProps.ml" 94 3832 3894
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 94 3832 3861 "ogtkEditProps.ml" 94 3832 3894
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkEditProps.ml" 95 3895 3920 "ogtkEditProps.ml" 95 3895 3923
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 95 3895 3924 "ogtkEditProps.ml" 95 3895 3945
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.Combo.P.value_in_list
+)
+"ogtkEditProps.ml" 95 3895 3946 "ogtkEditProps.ml" 95 3895 3949
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 95 3895 3920 "ogtkEditProps.ml" 95 3895 3949
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkEditProps.ml" 100 4020 4042 "ogtkEditProps.ml" 100 4020 4045
+type(
+  ([> `combobox ] as 'a, int) Gobject.property ->
+  'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 100 4020 4046 "ogtkEditProps.ml" 100 4020 4063
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.ComboBox.P.active
+)
+"ogtkEditProps.ml" 100 4020 4064 "ogtkEditProps.ml" 100 4020 4067
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 100 4020 4042 "ogtkEditProps.ml" 100 4020 4067
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkEditProps.ml" 101 4068 4096 "ogtkEditProps.ml" 101 4068 4099
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 101 4068 4100 "ogtkEditProps.ml" 101 4068 4123
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.ComboBox.P.add_tearoffs
+)
+"ogtkEditProps.ml" 101 4068 4124 "ogtkEditProps.ml" 101 4068 4127
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 101 4068 4096 "ogtkEditProps.ml" 101 4068 4127
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkEditProps.ml" 102 4128 4158 "ogtkEditProps.ml" 102 4128 4161
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 102 4128 4162 "ogtkEditProps.ml" 102 4128 4187
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.ComboBox.P.focus_on_click
+)
+"ogtkEditProps.ml" 102 4128 4188 "ogtkEditProps.ml" 102 4128 4191
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 102 4128 4158 "ogtkEditProps.ml" 102 4128 4191
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkEditProps.ml" 103 4192 4217 "ogtkEditProps.ml" 103 4192 4220
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 103 4192 4221 "ogtkEditProps.ml" 103 4192 4241
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.ComboBox.P.has_frame
+)
+"ogtkEditProps.ml" 103 4192 4242 "ogtkEditProps.ml" 103 4192 4245
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 103 4192 4217 "ogtkEditProps.ml" 103 4192 4245
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkEditProps.ml" 104 4246 4272 "ogtkEditProps.ml" 104 4246 4275
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkEditProps.ml" 4 38 42 "ogtkEditProps.ml" 4 38 45
+)
+"ogtkEditProps.ml" 104 4246 4276 "ogtkEditProps.ml" 104 4246 4297
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.ComboBox.P.wrap_width
+)
+"ogtkEditProps.ml" 104 4246 4298 "ogtkEditProps.ml" 104 4246 4301
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 104 4246 4272 "ogtkEditProps.ml" 104 4246 4301
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkEditProps.ml" 105 4302 4320 "ogtkEditProps.ml" 105 4302 4323
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 105 4302 4324 "ogtkEditProps.ml" 105 4302 4341
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.ComboBox.P.active
+)
+"ogtkEditProps.ml" 105 4302 4342 "ogtkEditProps.ml" 105 4302 4345
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 105 4302 4320 "ogtkEditProps.ml" 105 4302 4345
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkEditProps.ml" 106 4346 4370 "ogtkEditProps.ml" 106 4346 4373
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 106 4346 4374 "ogtkEditProps.ml" 106 4346 4397
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.ComboBox.P.add_tearoffs
+)
+"ogtkEditProps.ml" 106 4346 4398 "ogtkEditProps.ml" 106 4346 4401
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 106 4346 4370 "ogtkEditProps.ml" 106 4346 4401
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkEditProps.ml" 107 4402 4428 "ogtkEditProps.ml" 107 4402 4431
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 107 4402 4432 "ogtkEditProps.ml" 107 4402 4457
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.ComboBox.P.focus_on_click
+)
+"ogtkEditProps.ml" 107 4402 4458 "ogtkEditProps.ml" 107 4402 4461
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 107 4402 4428 "ogtkEditProps.ml" 107 4402 4461
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkEditProps.ml" 108 4462 4483 "ogtkEditProps.ml" 108 4462 4486
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 108 4462 4487 "ogtkEditProps.ml" 108 4462 4507
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.ComboBox.P.has_frame
+)
+"ogtkEditProps.ml" 108 4462 4508 "ogtkEditProps.ml" 108 4462 4511
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 108 4462 4483 "ogtkEditProps.ml" 108 4462 4511
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkEditProps.ml" 109 4512 4534 "ogtkEditProps.ml" 109 4512 4537
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkEditProps.ml" 5 52 56 "ogtkEditProps.ml" 5 52 59
+)
+"ogtkEditProps.ml" 109 4512 4538 "ogtkEditProps.ml" 109 4512 4559
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkEditProps.ComboBox.P.wrap_width
+)
+"ogtkEditProps.ml" 109 4512 4560 "ogtkEditProps.ml" 109 4512 4563
+type(
+  'a Gobject.obj
+)
+"ogtkEditProps.ml" 109 4512 4534 "ogtkEditProps.ml" 109 4512 4563
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkEditProps.ml" 112 4569 4607 "ogtkEditProps.ml" 112 4569 4613
+type(
+  < changed : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkEditProps.ml" 115 4708 4727 "ogtkEditProps.ml" 115 4708 4731
+type(
+  < changed : callback:(unit -> unit) -> GtkSignal.id; .. > as 'a
+)
+"ogtkEditProps.ml" 115 4708 4727 "ogtkEditProps.ml" 115 4708 4739
+call(
+  tail
+)
+type(
+  ([> `combobox ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkEditProps.ml" 115 4708 4740 "ogtkEditProps.ml" 115 4708 4758
+type(
+  ([> `combobox ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkEditProps.ComboBox.S.changed
+)
+"ogtkEditProps.ml" 115 4708 4727 "ogtkEditProps.ml" 115 4708 4758
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)

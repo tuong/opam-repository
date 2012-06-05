@@ -1,0 +1,4 @@
+deps=unix,str,pcre,ocamlbuild,bigarray
+tarball=benchmark-1.1.tar.gz
+is_library=true
+is_program=false

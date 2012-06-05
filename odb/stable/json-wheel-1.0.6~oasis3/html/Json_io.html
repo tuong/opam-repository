@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Json_type.html">
+<link rel="next" href="Json_compat.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Json_type" rel="Chapter" href="Json_type.html">
+<link title="Json_io" rel="Chapter" href="Json_io.html">
+<link title="Json_compat" rel="Chapter" href="Json_compat.html"><title>Json_io</title>
+</head>
+<body>
+<div class="navbar"><a href="Json_type.html">Previous</a>
+&nbsp;<a href="index.html">Up</a>
+&nbsp;<a href="Json_compat.html">Next</a>
+</div>
+<center><h1>Module <a href="type_Json_io.html">Json_io</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Json_io: <code class="code">sig</code> <a href="Json_io.html">..</a> <code class="code">end</code></pre>Input and output functions for the JSON format 
+  as defined by <a href="http://www.json.org/">http://www.json.org/</a><br>
+<hr width="100%">
+<pre><span class="keyword">val</span> <a name="VALjson_of_string"></a>json_of_string : <code class="type">?allow_comments:bool -><br>       ?allow_nan:bool -><br>       ?big_int_mode:bool -> ?recursive:bool -> string -> <a href="Json_type.html#TYPEt">Json_type.t</a></code></pre><div class="info">
+<code class="code">json_of_string s</code> reads the given JSON string.
+<p>
+
+  If <code class="code">allow_comments</code> is <code class="code">true</code>, then C++ style comments are allowed, i.e.
+  <code class="code">/* blabla possibly on several lines */</code> or 
+  <code class="code">// blabla until the end of the line</code>. Comments are not part of the JSON
+  specification and are disabled by default.
+<p>
+
+  If <code class="code">allow_nan</code> is <code class="code">true</code>, then OCaml <code class="code">nan</code>, <code class="code">infinity</code> and <code class="code">neg_infinity</code> 
+  float values are represented using their Javascript counterparts
+  <code class="code">NaN</code>, <code class="code">Infinity</code> and <code class="code">-Infinity</code>.
+<p>
+
+  If <code class="code">big_int_mode</code> is <code class="code">true</code>, then JSON ints that cannot be represented
+  using OCaml's int type are represented by strings. 
+  This would happen only for ints that are out of the range defined
+  by <code class="code">min_int</code> and <code class="code">max_int</code>, i.e. [-1G, +1G[ on a 32-bit platform.
+  The default is <code class="code">false</code> and a <code class="code">Json_type.Json_error</code> exception
+  is raised if an int is too big.
+<p>
+
+  If <code class="code">recursive</code> is true, then all JSON values are accepted rather
+  than just arrays and objects as specified by the standard.
+  The default is <code class="code">false</code>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALload_json"></a>load_json : <code class="type">?allow_comments:bool -><br>       ?allow_nan:bool -><br>       ?big_int_mode:bool -> ?recursive:bool -> string -> <a href="Json_type.html#TYPEt">Json_type.t</a></code></pre><div class="info">
+Same as <code class="code">Json_io.json_of_string</code> but the argument is a file
+  to read from.<br>
+</div>
+<pre><span class="keyword">module</span> <a href="Json_io.Compact.html">Compact</a>: <code class="code">sig</code> <a href="Json_io.Compact.html">..</a> <code class="code">end</code></pre><div class="info">
+Conversion of JSON data to compact text.
+</div>
+<pre><span class="keyword">module</span> <a href="Json_io.Fast.html">Fast</a>: <code class="code">sig</code> <a href="Json_io.Fast.html">..</a> <code class="code">end</code></pre><div class="info">
+Conversion of JSON data to compact text, optimized for speed.
+</div>
+<pre><span class="keyword">module</span> <a href="Json_io.Pretty.html">Pretty</a>: <code class="code">sig</code> <a href="Json_io.Pretty.html">..</a> <code class="code">end</code></pre><div class="info">
+Conversion of JSON data to indented text.
+</div>
+<pre><span class="keyword">val</span> <a name="VALstring_of_json"></a>string_of_json : <code class="type">?allow_nan:bool -> ?compact:bool -> ?recursive:bool -> <a href="Json_type.html#TYPEt">Json_type.t</a> -> string</code></pre><div class="info">
+<code class="code">string_of_json</code> converts JSON data to a string.
+<p>
+
+  By default, the output is indented. If the <code class="code">compact</code> flag is set to true,
+  the output will not contain superfluous whitespace and will
+  be produced faster.
+<p>
+
+  If <code class="code">allow_nan</code> is <code class="code">true</code>, then OCaml <code class="code">nan</code>, <code class="code">infinity</code> and <code class="code">neg_infinity</code> 
+  float values are represented using their Javascript counterparts
+  <code class="code">NaN</code>, <code class="code">Infinity</code> and <code class="code">-Infinity</code>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALsave_json"></a>save_json : <code class="type">?allow_nan:bool -><br>       ?compact:bool -> ?recursive:bool -> string -> <a href="Json_type.html#TYPEt">Json_type.t</a> -> unit</code></pre><div class="info">
+<code class="code">save_json</code> works like <a href="Json_io.html#VALstring_of_json"><code class="code">Json_io.string_of_json</code></a> but 
+  saves the results directly into the file specified by the
+  argument of type string.<br>
+</div>
+</body></html>

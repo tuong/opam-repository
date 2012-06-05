@@ -1,0 +1,5 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: c13049d3d35083abd390f10254143726) *)
+Authors of ocamlmod
+Sylvain Le Gall
+(* OASIS_STOP *)

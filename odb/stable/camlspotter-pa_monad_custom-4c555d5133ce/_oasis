@@ -1,0 +1,28 @@
+OASISFormat:  0.2
+Name:         pa_monad_custom
+Version:      6.0.0
+Synopsis:     Syntactic Sugar for Monads with small extesions
+Authors:      Jacques Carette, <carette AT mcmaster DOT ca>,
+              Lydia E. van Dijk, <lvandijk AT freenet DOT de>,
+              Oleg Kiselyov, <oleg AT pobox DOT com>,
+              Jun FURUSE
+License:      MIT
+LicenseFile:  MIT
+Plugins:      StdFiles (0.2)
+XStdFilesAUTHORS: false
+XStdFilesINSTALLFilename: INSTALL
+XStdFilesREADME: false
+BuildType:    Custom (0.2)
+InstallType:    Custom (0.2)
+XCustomBuild: make all META
+XCustomInstall: make findlib-install
+XCustomUninstall: make findlib-uninstall
+BuildTools: make
+
+Library pa_monad_custom
+  Path:               .
+  Modules:            Pa_monad
+  FindlibName:        monad-custom
+  BuildDepends:       camlp4.lib,
+                      camlp4.quotations
+  CompiledObject:     byte

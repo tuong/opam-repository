@@ -1,0 +1,1742 @@
+"gtkBase.ml" 33 1782 1788 "gtkBase.ml" 33 1782 1796
+type(
+  'a Gobject.obj -> string -> 'b Gobject.obj
+)
+ident(
+  def try_cast "gtkBase.ml" 34 1816 1818 "gtkBase.ml" 44 2192 2195
+)
+"gtkBase.ml" 33 1782 1799 "gtkBase.ml" 33 1782 1815
+type(
+  'a Gobject.obj -> string -> 'b Gobject.obj
+)
+ident(
+  ext_ref Gobject.try_cast
+)
+"gtkBase.ml" 36 1949 1955 "gtkBase.ml" 36 1949 1963
+type(
+  [> `gtk ] Gtk.obj -> GtkEnums.widget_flags -> bool
+)
+ident(
+  def get_flag "gtkBase.ml" 39 2060 2062 "gtkBase.ml" 44 2192 2195
+)
+"gtkBase.ml" 36 1949 1964 "gtkBase.ml" 36 1949 1967
+type(
+  ([> `gtk ] as 'c) Gtk.obj
+)
+ident(
+  def obj "gtkBase.ml" 36 1949 1968 "gtkBase.ml" 38 2049 2059
+)
+"gtkBase.ml" 36 1949 1968 "gtkBase.ml" 36 1949 1970
+type(
+  GtkEnums.widget_flags
+)
+ident(
+  def wf "gtkBase.ml" 37 1973 1977 "gtkBase.ml" 38 2049 2059
+)
+"gtkBase.ml" 37 1973 1978 "gtkBase.ml" 37 1973 1987
+type(
+  'c Gtk.obj -> int
+)
+"gtkBase.ml" 37 1973 1988 "gtkBase.ml" 37 1973 1991
+type(
+  'c Gtk.obj
+)
+ident(
+  int_ref obj "gtkBase.ml" 36 1949 1964 "gtkBase.ml" 36 1949 1967
+)
+"gtkBase.ml" 37 1973 1977 "gtkBase.ml" 37 1973 1992
+type(
+  int
+)
+"gtkBase.ml" 37 1973 1993 "gtkBase.ml" 37 1973 1997
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"gtkBase.ml" 37 1973 1999 "gtkBase.ml" 37 1973 2022
+type(
+  GtkEnums.widget_flags Gpointer.variant_table ->
+  GtkEnums.widget_flags -> int
+)
+ident(
+  ext_ref Gpointer.encode_variant
+)
+"gtkBase.ml" 37 1973 2023 "gtkBase.ml" 37 1973 2044
+type(
+  GtkEnums.widget_flags Gpointer.variant_table
+)
+ident(
+  ext_ref GtkEnums.widget_flags
+)
+"gtkBase.ml" 37 1973 2045 "gtkBase.ml" 37 1973 2047
+type(
+  GtkEnums.widget_flags
+)
+ident(
+  int_ref wf "gtkBase.ml" 36 1949 1968 "gtkBase.ml" 36 1949 1970
+)
+"gtkBase.ml" 37 1973 1998 "gtkBase.ml" 37 1973 2048
+call(
+  stack
+)
+type(
+  int
+)
+"gtkBase.ml" 37 1973 1977 "gtkBase.ml" 37 1973 2048
+type(
+  int
+)
+"gtkBase.ml" 38 2049 2055 "gtkBase.ml" 38 2049 2057
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gtkBase.ml" 38 2049 2058 "gtkBase.ml" 38 2049 2059
+type(
+  int
+)
+"gtkBase.ml" 37 1973 1977 "gtkBase.ml" 38 2049 2059
+type(
+  bool
+)
+"gtkBase.ml" 41 2099 2107 "gtkBase.ml" 41 2099 2114
+type(
+  ([> `gtk ], unit -> unit) GtkSignal.t
+)
+ident(
+  def destroy "gtkBase.ml" 42 2117 2185 "gtkBase.ml" 43 2186 2191
+)
+"gtkBase.ml" 42 2117 2132 "gtkBase.ml" 42 2117 2141
+type(
+  string
+)
+"gtkBase.ml" 42 2117 2152 "gtkBase.ml" 42 2117 2156
+type(
+  [> `gtk ] as 'd
+)
+"gtkBase.ml" 42 2117 2171 "gtkBase.ml" 42 2117 2183
+type(
+  (unit -> unit) GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal_unit
+)
+"gtkBase.ml" 42 2117 2123 "gtkBase.ml" 42 2117 2185
+type(
+  ('d, unit -> unit) GtkSignal.t
+)
+"gtkBase.ml" 49 2238 2244 "gtkBase.ml" 49 2238 2255
+type(
+  cont:(([> `widget ] as 'a) Gobject.param list -> 'b) ->
+  'a Gobject.param list -> ?width:int -> ?height:int -> 'b
+)
+ident(
+  def size_params "gtkBase.ml" 55 2413 2415 "gtkBase.ml" 283 13269 13272
+)
+"gtkBase.ml" 49 2238 2257 "gtkBase.ml" 49 2238 2261
+type(
+  'a Gobject.param list -> 'b
+)
+ident(
+  def cont "gtkBase.ml" 49 2238 2262 "gtkBase.ml" 53 2370 2411
+)
+"gtkBase.ml" 49 2238 2262 "gtkBase.ml" 49 2238 2264
+type(
+  'a Gobject.param list
+)
+ident(
+  def pl "gtkBase.ml" 49 2238 2265 "gtkBase.ml" 53 2370 2411
+)
+"gtkBase.ml" 49 2238 2266 "gtkBase.ml" 49 2238 2271
+type(
+  int option
+)
+ident(
+  def width "gtkBase.ml" 49 2238 2272 "gtkBase.ml" 53 2370 2411
+)
+"gtkBase.ml" 49 2238 2273 "gtkBase.ml" 49 2238 2279
+type(
+  int option
+)
+ident(
+  def height "gtkBase.ml" 50 2282 2286 "gtkBase.ml" 53 2370 2411
+)
+"gtkBase.ml" 50 2282 2290 "gtkBase.ml" 50 2282 2298
+type(
+  ('c, 'd) Gobject.property ->
+  'd option -> 'c Gobject.param list -> 'c Gobject.param list
+)
+"gtkBase.ml" 50 2282 2301 "gtkBase.ml" 50 2282 2318
+type(
+  ('c, 'd) Gobject.property ->
+  'd option -> 'c Gobject.param list -> 'c Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gtkBase.ml" 51 2322 2326 "gtkBase.ml" 51 2322 2330
+type(
+  'a Gobject.param list -> 'b
+)
+ident(
+  int_ref cont "gtkBase.ml" 49 2238 2257 "gtkBase.ml" 49 2238 2261
+)
+"gtkBase.ml" 52 2333 2337 "gtkBase.ml" 52 2333 2345
+type(
+  ('a, int) Gobject.property ->
+  int option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBase.ml" 50 2282 2290 "gtkBase.ml" 50 2282 2298
+)
+"gtkBase.ml" 52 2333 2346 "gtkBase.ml" 52 2333 2361
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref P.width_request
+)
+"gtkBase.ml" 52 2333 2362 "gtkBase.ml" 52 2333 2367
+type(
+  int option
+)
+ident(
+  int_ref width "gtkBase.ml" 49 2238 2266 "gtkBase.ml" 49 2238 2271
+)
+"gtkBase.ml" 53 2370 2374 "gtkBase.ml" 53 2370 2382
+type(
+  ('a, int) Gobject.property ->
+  int option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  int_ref may_cons "gtkBase.ml" 50 2282 2290 "gtkBase.ml" 50 2282 2298
+)
+"gtkBase.ml" 53 2370 2383 "gtkBase.ml" 53 2370 2399
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref P.height_request
+)
+"gtkBase.ml" 53 2370 2400 "gtkBase.ml" 53 2370 2406
+type(
+  int option
+)
+ident(
+  int_ref height "gtkBase.ml" 49 2238 2273 "gtkBase.ml" 49 2238 2279
+)
+"gtkBase.ml" 53 2370 2407 "gtkBase.ml" 53 2370 2409
+type(
+  'a Gobject.param list
+)
+ident(
+  int_ref pl "gtkBase.ml" 49 2238 2262 "gtkBase.ml" 49 2238 2264
+)
+"gtkBase.ml" 52 2333 2368 "gtkBase.ml" 53 2370 2410
+call(
+  stack
+)
+type(
+  'a Gobject.param list
+)
+"gtkBase.ml" 51 2322 2331 "gtkBase.ml" 53 2370 2411
+call(
+  stack
+)
+type(
+  'a Gobject.param list
+)
+"gtkBase.ml" 51 2322 2326 "gtkBase.ml" 53 2370 2411
+call(
+  tail
+)
+type(
+  'b
+)
+"gtkBase.ml" 50 2282 2286 "gtkBase.ml" 53 2370 2411
+type(
+  'b
+)
+"gtkBase.ml" 196 8832 8840 "gtkBase.ml" 196 8832 8847
+type(
+  (Gtk.widget Gtk.obj -> 'e) ->
+  'f -> [> `OBJECT of 'g Gobject.obj option ] list -> 'e
+)
+ident(
+  def marshal "gtkBase.ml" 199 8964 8968 "gtkBase.ml" 282 13263 13268
+)
+"gtkBase.ml" 196 8832 8848 "gtkBase.ml" 196 8832 8849
+type(
+  Gtk.widget Gtk.obj -> 'e
+)
+ident(
+  def f "gtkBase.ml" 196 8832 8850 "gtkBase.ml" 198 8906 8963
+)
+"gtkBase.ml" 196 8832 8850 "gtkBase.ml" 196 8832 8851
+type(
+  'f
+)
+"gtkBase.ml" 197 8863 8884 "gtkBase.ml" 197 8863 8885
+type(
+  'g Gobject.obj
+)
+ident(
+  def p "gtkBase.ml" 197 8863 8895 "gtkBase.ml" 197 8863 8905
+)
+"gtkBase.ml" 197 8863 8878 "gtkBase.ml" 197 8863 8886
+type(
+  'g Gobject.obj option
+)
+"gtkBase.ml" 197 8863 8871 "gtkBase.ml" 197 8863 8886
+type(
+  [> `OBJECT of 'g Gobject.obj option ] as 'h
+)
+"gtkBase.ml" 197 8863 8890 "gtkBase.ml" 197 8863 8891
+type(
+  'h list
+)
+"gtkBase.ml" 197 8863 8871 "gtkBase.ml" 197 8863 8891
+type(
+  'h list
+)
+"gtkBase.ml" 197 8863 8895 "gtkBase.ml" 197 8863 8896
+type(
+  Gtk.widget Gtk.obj -> 'e
+)
+ident(
+  int_ref f "gtkBase.ml" 196 8832 8848 "gtkBase.ml" 196 8832 8849
+)
+"gtkBase.ml" 197 8863 8898 "gtkBase.ml" 197 8863 8902
+type(
+  'g Gobject.obj -> Gtk.widget Gtk.obj
+)
+"gtkBase.ml" 197 8863 8903 "gtkBase.ml" 197 8863 8904
+type(
+  'g Gobject.obj
+)
+ident(
+  int_ref p "gtkBase.ml" 197 8863 8884 "gtkBase.ml" 197 8863 8885
+)
+"gtkBase.ml" 197 8863 8897 "gtkBase.ml" 197 8863 8905
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gtkBase.ml" 197 8863 8895 "gtkBase.ml" 197 8863 8905
+call(
+  tail
+)
+type(
+  'e
+)
+"gtkBase.ml" 198 8906 8914 "gtkBase.ml" 198 8906 8915
+type(
+  'h list
+)
+"gtkBase.ml" 198 8906 8919 "gtkBase.ml" 198 8906 8930
+type(
+  string -> 'e
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gtkBase.ml" 198 8906 8931 "gtkBase.ml" 198 8906 8963
+type(
+  string
+)
+"gtkBase.ml" 198 8906 8919 "gtkBase.ml" 198 8906 8963
+call(
+  tail
+)
+type(
+  'e
+)
+"gtkBase.ml" 196 8832 8854 "gtkBase.ml" 198 8906 8963
+type(
+  'h list -> 'e
+)
+"gtkBase.ml" 199 8964 8972 "gtkBase.ml" 199 8964 8983
+type(
+  (Gtk.widget Gtk.obj option -> 'i) ->
+  'j -> [> `OBJECT of 'k Gobject.obj option ] list -> 'i
+)
+ident(
+  def marshal_opt "gtkBase.ml" 203 9151 9155 "gtkBase.ml" 282 13263 13268
+)
+"gtkBase.ml" 199 8964 8984 "gtkBase.ml" 199 8964 8985
+type(
+  Gtk.widget Gtk.obj option -> 'i
+)
+ident(
+  def f "gtkBase.ml" 199 8964 8986 "gtkBase.ml" 202 9089 9150
+)
+"gtkBase.ml" 199 8964 8986 "gtkBase.ml" 199 8964 8987
+type(
+  'j
+)
+"gtkBase.ml" 200 8999 9020 "gtkBase.ml" 200 8999 9023
+type(
+  'k Gobject.obj
+)
+ident(
+  def obj "gtkBase.ml" 200 8999 9033 "gtkBase.ml" 200 8999 9052
+)
+"gtkBase.ml" 200 8999 9014 "gtkBase.ml" 200 8999 9024
+type(
+  'k Gobject.obj option
+)
+"gtkBase.ml" 200 8999 9007 "gtkBase.ml" 200 8999 9024
+type(
+  [> `OBJECT of 'k Gobject.obj option ] as 'l
+)
+"gtkBase.ml" 200 8999 9028 "gtkBase.ml" 200 8999 9029
+type(
+  'l list
+)
+"gtkBase.ml" 200 8999 9007 "gtkBase.ml" 200 8999 9029
+type(
+  'l list
+)
+"gtkBase.ml" 200 8999 9033 "gtkBase.ml" 200 8999 9034
+type(
+  Gtk.widget Gtk.obj option -> 'i
+)
+ident(
+  int_ref f "gtkBase.ml" 199 8964 8984 "gtkBase.ml" 199 8964 8985
+)
+"gtkBase.ml" 200 8999 9042 "gtkBase.ml" 200 8999 9046
+type(
+  'k Gobject.obj -> Gtk.widget Gtk.obj
+)
+"gtkBase.ml" 200 8999 9047 "gtkBase.ml" 200 8999 9050
+type(
+  'k Gobject.obj
+)
+ident(
+  int_ref obj "gtkBase.ml" 200 8999 9020 "gtkBase.ml" 200 8999 9023
+)
+"gtkBase.ml" 200 8999 9041 "gtkBase.ml" 200 8999 9051
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gtkBase.ml" 200 8999 9035 "gtkBase.ml" 200 8999 9052
+type(
+  Gtk.widget Gtk.obj option
+)
+"gtkBase.ml" 200 8999 9033 "gtkBase.ml" 200 8999 9052
+call(
+  tail
+)
+type(
+  'i
+)
+"gtkBase.ml" 201 9053 9069 "gtkBase.ml" 201 9053 9073
+type(
+  'k Gobject.obj option
+)
+"gtkBase.ml" 201 9053 9061 "gtkBase.ml" 201 9053 9073
+type(
+  'l
+)
+"gtkBase.ml" 201 9053 9077 "gtkBase.ml" 201 9053 9078
+type(
+  'l list
+)
+"gtkBase.ml" 201 9053 9061 "gtkBase.ml" 201 9053 9078
+type(
+  'l list
+)
+"gtkBase.ml" 201 9053 9082 "gtkBase.ml" 201 9053 9083
+type(
+  Gtk.widget Gtk.obj option -> 'i
+)
+ident(
+  int_ref f "gtkBase.ml" 199 8964 8984 "gtkBase.ml" 199 8964 8985
+)
+"gtkBase.ml" 201 9053 9084 "gtkBase.ml" 201 9053 9088
+type(
+  Gtk.widget Gtk.obj option
+)
+"gtkBase.ml" 201 9053 9082 "gtkBase.ml" 201 9053 9088
+call(
+  tail
+)
+type(
+  'i
+)
+"gtkBase.ml" 202 9089 9097 "gtkBase.ml" 202 9089 9098
+type(
+  'l list
+)
+"gtkBase.ml" 202 9089 9102 "gtkBase.ml" 202 9089 9113
+type(
+  string -> 'i
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gtkBase.ml" 202 9089 9114 "gtkBase.ml" 202 9089 9150
+type(
+  string
+)
+"gtkBase.ml" 202 9089 9102 "gtkBase.ml" 202 9089 9150
+call(
+  tail
+)
+type(
+  'i
+)
+"gtkBase.ml" 199 8964 8990 "gtkBase.ml" 202 9089 9150
+type(
+  'l list -> 'i
+)
+"gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+type(
+  ([< Gdk.Tags.event_type ] Gdk.event -> bool) ->
+  Gobject.Closure.argv -> unit
+)
+ident(
+  def marshal "gtkBase.ml" 210 9423 9429 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 204 9177 9195 "gtkBase.ml" 204 9177 9196
+type(
+  ([< Gdk.Tags.event_type ] as 'm) Gdk.event -> bool
+)
+ident(
+  def f "gtkBase.ml" 204 9177 9197 "gtkBase.ml" 209 9372 9422
+)
+"gtkBase.ml" 204 9177 9197 "gtkBase.ml" 204 9177 9201
+type(
+  Gobject.Closure.argv
+)
+ident(
+  def argv "gtkBase.ml" 205 9204 9212 "gtkBase.ml" 209 9372 9422
+)
+"gtkBase.ml" 205 9204 9218 "gtkBase.ml" 205 9204 9234
+type(
+  Gobject.Closure.argv -> Gobject.data_get list
+)
+ident(
+  ext_ref Gobject.Closure.get_args
+)
+"gtkBase.ml" 205 9204 9235 "gtkBase.ml" 205 9204 9239
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkBase.ml" 204 9177 9197 "gtkBase.ml" 204 9177 9201
+)
+"gtkBase.ml" 205 9204 9218 "gtkBase.ml" 205 9204 9239
+call(
+  stack
+)
+type(
+  Gobject.data_get list
+)
+"gtkBase.ml" 206 9245 9255 "gtkBase.ml" 206 9245 9256
+type(
+  Gobject.data_get
+)
+"gtkBase.ml" 206 9245 9275 "gtkBase.ml" 206 9245 9276
+type(
+  Gpointer.boxed
+)
+ident(
+  def p "gtkBase.ml" 207 9282 9287 "gtkBase.ml" 208 9322 9371
+)
+"gtkBase.ml" 206 9245 9269 "gtkBase.ml" 206 9245 9277
+type(
+  Gpointer.boxed option
+)
+"gtkBase.ml" 206 9245 9261 "gtkBase.ml" 206 9245 9277
+type(
+  Gobject.data_get
+)
+"gtkBase.ml" 206 9245 9260 "gtkBase.ml" 206 9245 9278
+type(
+  Gobject.data_get list
+)
+"gtkBase.ml" 206 9245 9255 "gtkBase.ml" 206 9245 9278
+type(
+  Gobject.data_get list
+)
+"gtkBase.ml" 207 9282 9291 "gtkBase.ml" 207 9282 9293
+type(
+  [< Gdk.Tags.event_type ] Gdk.event
+)
+"gtkBase.ml" 207 9282 9296 "gtkBase.ml" 207 9282 9316
+type(
+  Gpointer.boxed -> ([< Gdk.Tags.event_type ] as 'n) Gdk.event
+)
+ident(
+  ext_ref GdkEvent.unsafe_copy
+)
+"gtkBase.ml" 207 9282 9317 "gtkBase.ml" 207 9282 9318
+type(
+  Gpointer.boxed
+)
+ident(
+  int_ref p "gtkBase.ml" 206 9245 9275 "gtkBase.ml" 206 9245 9276
+)
+"gtkBase.ml" 207 9282 9296 "gtkBase.ml" 207 9282 9318
+type(
+  'n Gdk.event
+)
+"gtkBase.ml" 208 9322 9334 "gtkBase.ml" 208 9322 9352
+type(
+  Gobject.Closure.argv -> '_o Gobject.data_set -> unit
+)
+ident(
+  ext_ref Gobject.Closure.set_result
+)
+"gtkBase.ml" 208 9322 9353 "gtkBase.ml" 208 9322 9357
+type(
+  Gobject.Closure.argv
+)
+ident(
+  int_ref argv "gtkBase.ml" 204 9177 9197 "gtkBase.ml" 204 9177 9201
+)
+"gtkBase.ml" 208 9322 9365 "gtkBase.ml" 208 9322 9366
+type(
+  'm Gdk.event -> bool
+)
+ident(
+  int_ref f "gtkBase.ml" 204 9177 9195 "gtkBase.ml" 204 9177 9196
+)
+"gtkBase.ml" 208 9322 9367 "gtkBase.ml" 208 9322 9369
+type(
+  'm Gdk.event
+)
+ident(
+  int_ref ev "gtkBase.ml" 207 9282 9291 "gtkBase.ml" 207 9282 9293
+)
+"gtkBase.ml" 208 9322 9364 "gtkBase.ml" 208 9322 9370
+call(
+  stack
+)
+type(
+  bool
+)
+"gtkBase.ml" 208 9322 9358 "gtkBase.ml" 208 9322 9371
+type(
+  '_o Gobject.data_set
+)
+"gtkBase.ml" 208 9322 9334 "gtkBase.ml" 208 9322 9371
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkBase.ml" 207 9282 9287 "gtkBase.ml" 208 9322 9371
+type(
+  unit
+)
+"gtkBase.ml" 209 9372 9375 "gtkBase.ml" 209 9372 9376
+type(
+  Gobject.data_get list
+)
+"gtkBase.ml" 209 9372 9380 "gtkBase.ml" 209 9372 9391
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"gtkBase.ml" 209 9372 9392 "gtkBase.ml" 209 9372 9422
+type(
+  string
+)
+"gtkBase.ml" 209 9372 9380 "gtkBase.ml" 209 9372 9422
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkBase.ml" 205 9204 9212 "gtkBase.ml" 209 9372 9422
+type(
+  unit
+)
+"gtkBase.ml" 210 9423 9433 "gtkBase.ml" 210 9423 9436
+type(
+  ([> `widget ], Gdk.Tags.event_type Gdk.event -> bool) GtkSignal.t
+)
+ident(
+  def any "gtkBase.ml" 212 9555 9561 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 211 9495 9505 "gtkBase.ml" 211 9495 9512
+type(
+  string
+)
+"gtkBase.ml" 211 9495 9523 "gtkBase.ml" 211 9495 9530
+type(
+  [> `widget ] as 'p
+)
+"gtkBase.ml" 211 9495 9545 "gtkBase.ml" 211 9495 9552
+type(
+  (Gdk.Tags.event_type Gdk.event -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 211 9495 9496 "gtkBase.ml" 211 9495 9554
+type(
+  ('p, Gdk.Tags.event_type Gdk.event -> bool) GtkSignal.t
+)
+type(
+  ('p, Gdk.Tags.event_type Gdk.event -> bool) GtkSignal.t
+)
+"gtkBase.ml" 212 9555 9565 "gtkBase.ml" 212 9555 9577
+type(
+  ([> `widget ], GdkEvent.Button.t -> bool) GtkSignal.t
+)
+ident(
+  def button_press "gtkBase.ml" 215 9707 9713 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 213 9624 9634 "gtkBase.ml" 213 9624 9654
+type(
+  string
+)
+"gtkBase.ml" 213 9624 9665 "gtkBase.ml" 213 9624 9672
+type(
+  [> `widget ] as 'q
+)
+"gtkBase.ml" 214 9674 9697 "gtkBase.ml" 214 9674 9704
+type(
+  (GdkEvent.Button.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 213 9624 9625 "gtkBase.ml" 214 9674 9706
+type(
+  ('q, GdkEvent.Button.t -> bool) GtkSignal.t
+)
+type(
+  ('q, GdkEvent.Button.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 215 9707 9717 "gtkBase.ml" 215 9707 9731
+type(
+  ([> `widget ], GdkEvent.Button.t -> bool) GtkSignal.t
+)
+ident(
+  def button_release "gtkBase.ml" 218 9863 9869 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 216 9778 9788 "gtkBase.ml" 216 9778 9810
+type(
+  string
+)
+"gtkBase.ml" 216 9778 9821 "gtkBase.ml" 216 9778 9828
+type(
+  [> `widget ] as 'r
+)
+"gtkBase.ml" 217 9830 9853 "gtkBase.ml" 217 9830 9860
+type(
+  (GdkEvent.Button.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 216 9778 9779 "gtkBase.ml" 217 9830 9862
+type(
+  ('r, GdkEvent.Button.t -> bool) GtkSignal.t
+)
+type(
+  ('r, GdkEvent.Button.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 218 9863 9873 "gtkBase.ml" 218 9863 9886
+type(
+  ([> `widget ], GdkEvent.Motion.t -> bool) GtkSignal.t
+)
+ident(
+  def motion_notify "gtkBase.ml" 221 10017 10023 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 219 9933 9943 "gtkBase.ml" 219 9933 9964
+type(
+  string
+)
+"gtkBase.ml" 219 9933 9975 "gtkBase.ml" 219 9933 9982
+type(
+  [> `widget ] as 's
+)
+"gtkBase.ml" 220 9984 10007 "gtkBase.ml" 220 9984 10014
+type(
+  (GdkEvent.Motion.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 219 9933 9934 "gtkBase.ml" 220 9984 10016
+type(
+  ('s, GdkEvent.Motion.t -> bool) GtkSignal.t
+)
+type(
+  ('s, GdkEvent.Motion.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 221 10017 10027 "gtkBase.ml" 221 10017 10033
+type(
+  ([> `widget ], [ `DELETE ] Gdk.event -> bool) GtkSignal.t
+)
+ident(
+  def delete "gtkBase.ml" 223 10149 10155 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 222 10082 10092 "gtkBase.ml" 222 10082 10106
+type(
+  string
+)
+"gtkBase.ml" 222 10082 10117 "gtkBase.ml" 222 10082 10124
+type(
+  [> `widget ] as 't
+)
+"gtkBase.ml" 222 10082 10139 "gtkBase.ml" 222 10082 10146
+type(
+  ([ `DELETE ] Gdk.event -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 222 10082 10083 "gtkBase.ml" 222 10082 10148
+type(
+  ('t, [ `DELETE ] Gdk.event -> bool) GtkSignal.t
+)
+type(
+  ('t, [ `DELETE ] Gdk.event -> bool) GtkSignal.t
+)
+"gtkBase.ml" 223 10149 10159 "gtkBase.ml" 223 10149 10166
+type(
+  ([> `widget ], [ `DESTROY ] Gdk.event -> bool) GtkSignal.t
+)
+ident(
+  def destroy "gtkBase.ml" 225 10284 10290 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 224 10216 10226 "gtkBase.ml" 224 10216 10241
+type(
+  string
+)
+"gtkBase.ml" 224 10216 10252 "gtkBase.ml" 224 10216 10259
+type(
+  [> `widget ] as 'u
+)
+"gtkBase.ml" 224 10216 10274 "gtkBase.ml" 224 10216 10281
+type(
+  ([ `DESTROY ] Gdk.event -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 224 10216 10217 "gtkBase.ml" 224 10216 10283
+type(
+  ('u, [ `DESTROY ] Gdk.event -> bool) GtkSignal.t
+)
+type(
+  ('u, [ `DESTROY ] Gdk.event -> bool) GtkSignal.t
+)
+"gtkBase.ml" 225 10284 10294 "gtkBase.ml" 225 10284 10300
+type(
+  ([> `widget ], GdkEvent.Expose.t -> bool) GtkSignal.t
+)
+ident(
+  def expose "gtkBase.ml" 227 10414 10420 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 226 10347 10357 "gtkBase.ml" 226 10347 10371
+type(
+  string
+)
+"gtkBase.ml" 226 10347 10382 "gtkBase.ml" 226 10347 10389
+type(
+  [> `widget ] as 'v
+)
+"gtkBase.ml" 226 10347 10404 "gtkBase.ml" 226 10347 10411
+type(
+  (GdkEvent.Expose.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 226 10347 10348 "gtkBase.ml" 226 10347 10413
+type(
+  ('v, GdkEvent.Expose.t -> bool) GtkSignal.t
+)
+type(
+  ('v, GdkEvent.Expose.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 227 10414 10424 "gtkBase.ml" 227 10414 10433
+type(
+  ([> `widget ], GdkEvent.Key.t -> bool) GtkSignal.t
+)
+ident(
+  def key_press "gtkBase.ml" 230 10557 10563 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 228 10477 10487 "gtkBase.ml" 228 10477 10504
+type(
+  string
+)
+"gtkBase.ml" 228 10477 10515 "gtkBase.ml" 228 10477 10522
+type(
+  [> `widget ] as 'w
+)
+"gtkBase.ml" 229 10524 10547 "gtkBase.ml" 229 10524 10554
+type(
+  (GdkEvent.Key.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 228 10477 10478 "gtkBase.ml" 229 10524 10556
+type(
+  ('w, GdkEvent.Key.t -> bool) GtkSignal.t
+)
+type(
+  ('w, GdkEvent.Key.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 230 10557 10567 "gtkBase.ml" 230 10557 10578
+type(
+  ([> `widget ], GdkEvent.Key.t -> bool) GtkSignal.t
+)
+ident(
+  def key_release "gtkBase.ml" 233 10704 10710 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 231 10622 10632 "gtkBase.ml" 231 10622 10651
+type(
+  string
+)
+"gtkBase.ml" 231 10622 10662 "gtkBase.ml" 231 10622 10669
+type(
+  [> `widget ] as 'x
+)
+"gtkBase.ml" 232 10671 10694 "gtkBase.ml" 232 10671 10701
+type(
+  (GdkEvent.Key.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 231 10622 10623 "gtkBase.ml" 232 10671 10703
+type(
+  ('x, GdkEvent.Key.t -> bool) GtkSignal.t
+)
+type(
+  ('x, GdkEvent.Key.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 233 10704 10714 "gtkBase.ml" 233 10704 10726
+type(
+  ([> `widget ], GdkEvent.Crossing.t -> bool) GtkSignal.t
+)
+ident(
+  def enter_notify "gtkBase.ml" 236 10858 10864 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 234 10775 10785 "gtkBase.ml" 234 10775 10805
+type(
+  string
+)
+"gtkBase.ml" 234 10775 10816 "gtkBase.ml" 234 10775 10823
+type(
+  [> `widget ] as 'y
+)
+"gtkBase.ml" 235 10825 10848 "gtkBase.ml" 235 10825 10855
+type(
+  (GdkEvent.Crossing.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 234 10775 10776 "gtkBase.ml" 235 10825 10857
+type(
+  ('y, GdkEvent.Crossing.t -> bool) GtkSignal.t
+)
+type(
+  ('y, GdkEvent.Crossing.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 236 10858 10868 "gtkBase.ml" 236 10858 10880
+type(
+  ([> `widget ], GdkEvent.Crossing.t -> bool) GtkSignal.t
+)
+ident(
+  def leave_notify "gtkBase.ml" 239 11012 11018 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 237 10929 10939 "gtkBase.ml" 237 10929 10959
+type(
+  string
+)
+"gtkBase.ml" 237 10929 10970 "gtkBase.ml" 237 10929 10977
+type(
+  [> `widget ] as 'z
+)
+"gtkBase.ml" 238 10979 11002 "gtkBase.ml" 238 10979 11009
+type(
+  (GdkEvent.Crossing.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 237 10929 10930 "gtkBase.ml" 238 10979 11011
+type(
+  ('z, GdkEvent.Crossing.t -> bool) GtkSignal.t
+)
+type(
+  ('z, GdkEvent.Crossing.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 239 11012 11022 "gtkBase.ml" 239 11012 11031
+type(
+  ([> `widget ], GdkEvent.Configure.t -> bool) GtkSignal.t
+)
+ident(
+  def configure "gtkBase.ml" 242 11161 11167 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 240 11081 11091 "gtkBase.ml" 240 11081 11108
+type(
+  string
+)
+"gtkBase.ml" 240 11081 11119 "gtkBase.ml" 240 11081 11126
+type(
+  [> `widget ] as 'a1
+)
+"gtkBase.ml" 241 11128 11151 "gtkBase.ml" 241 11128 11158
+type(
+  (GdkEvent.Configure.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 240 11081 11082 "gtkBase.ml" 241 11128 11160
+type(
+  ('a1, GdkEvent.Configure.t -> bool) GtkSignal.t
+)
+type(
+  ('a1, GdkEvent.Configure.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 242 11161 11171 "gtkBase.ml" 242 11161 11179
+type(
+  ([> `widget ], GdkEvent.Focus.t -> bool) GtkSignal.t
+)
+ident(
+  def focus_in "gtkBase.ml" 245 11304 11310 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 243 11225 11235 "gtkBase.ml" 243 11225 11251
+type(
+  string
+)
+"gtkBase.ml" 243 11225 11262 "gtkBase.ml" 243 11225 11269
+type(
+  [> `widget ] as 'b1
+)
+"gtkBase.ml" 244 11271 11294 "gtkBase.ml" 244 11271 11301
+type(
+  (GdkEvent.Focus.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 243 11225 11226 "gtkBase.ml" 244 11271 11303
+type(
+  ('b1, GdkEvent.Focus.t -> bool) GtkSignal.t
+)
+type(
+  ('b1, GdkEvent.Focus.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 245 11304 11314 "gtkBase.ml" 245 11304 11323
+type(
+  ([> `widget ], GdkEvent.Focus.t -> bool) GtkSignal.t
+)
+ident(
+  def focus_out "gtkBase.ml" 248 11449 11455 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 246 11369 11379 "gtkBase.ml" 246 11369 11396
+type(
+  string
+)
+"gtkBase.ml" 246 11369 11407 "gtkBase.ml" 246 11369 11414
+type(
+  [> `widget ] as 'c1
+)
+"gtkBase.ml" 247 11416 11439 "gtkBase.ml" 247 11416 11446
+type(
+  (GdkEvent.Focus.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 246 11369 11370 "gtkBase.ml" 247 11416 11448
+type(
+  ('c1, GdkEvent.Focus.t -> bool) GtkSignal.t
+)
+type(
+  ('c1, GdkEvent.Focus.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 248 11449 11459 "gtkBase.ml" 248 11449 11462
+type(
+  ([> `widget ], [ `MAP ] Gdk.event -> bool) GtkSignal.t
+)
+ident(
+  def map "gtkBase.ml" 250 11572 11578 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 249 11508 11518 "gtkBase.ml" 249 11508 11529
+type(
+  string
+)
+"gtkBase.ml" 249 11508 11540 "gtkBase.ml" 249 11508 11547
+type(
+  [> `widget ] as 'd1
+)
+"gtkBase.ml" 249 11508 11562 "gtkBase.ml" 249 11508 11569
+type(
+  ([ `MAP ] Gdk.event -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 249 11508 11509 "gtkBase.ml" 249 11508 11571
+type(
+  ('d1, [ `MAP ] Gdk.event -> bool) GtkSignal.t
+)
+type(
+  ('d1, [ `MAP ] Gdk.event -> bool) GtkSignal.t
+)
+"gtkBase.ml" 250 11572 11582 "gtkBase.ml" 250 11572 11587
+type(
+  ([> `widget ], [ `UNMAP ] Gdk.event -> bool) GtkSignal.t
+)
+ident(
+  def unmap "gtkBase.ml" 252 11701 11707 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 251 11635 11645 "gtkBase.ml" 251 11635 11658
+type(
+  string
+)
+"gtkBase.ml" 251 11635 11669 "gtkBase.ml" 251 11635 11676
+type(
+  [> `widget ] as 'e1
+)
+"gtkBase.ml" 251 11635 11691 "gtkBase.ml" 251 11635 11698
+type(
+  ([ `UNMAP ] Gdk.event -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 251 11635 11636 "gtkBase.ml" 251 11635 11700
+type(
+  ('e1, [ `UNMAP ] Gdk.event -> bool) GtkSignal.t
+)
+type(
+  ('e1, [ `UNMAP ] Gdk.event -> bool) GtkSignal.t
+)
+"gtkBase.ml" 252 11701 11711 "gtkBase.ml" 252 11701 11726
+type(
+  ([> `widget ], GdkEvent.Property.t -> bool) GtkSignal.t
+)
+ident(
+  def property_notify "gtkBase.ml" 255 11861 11867 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 253 11775 11785 "gtkBase.ml" 253 11775 11808
+type(
+  string
+)
+"gtkBase.ml" 253 11775 11819 "gtkBase.ml" 253 11775 11826
+type(
+  [> `widget ] as 'f1
+)
+"gtkBase.ml" 254 11828 11851 "gtkBase.ml" 254 11828 11858
+type(
+  (GdkEvent.Property.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 253 11775 11776 "gtkBase.ml" 254 11828 11860
+type(
+  ('f1, GdkEvent.Property.t -> bool) GtkSignal.t
+)
+type(
+  ('f1, GdkEvent.Property.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 255 11861 11871 "gtkBase.ml" 255 11861 11877
+type(
+  ([> `widget ], GdkEvent.Scroll.t -> bool) GtkSignal.t
+)
+ident(
+  def scroll "gtkBase.ml" 257 11991 11997 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 256 11924 11934 "gtkBase.ml" 256 11924 11948
+type(
+  string
+)
+"gtkBase.ml" 256 11924 11959 "gtkBase.ml" 256 11924 11966
+type(
+  [> `widget ] as 'g1
+)
+"gtkBase.ml" 256 11924 11981 "gtkBase.ml" 256 11924 11988
+type(
+  (GdkEvent.Scroll.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 256 11924 11925 "gtkBase.ml" 256 11924 11990
+type(
+  ('g1, GdkEvent.Scroll.t -> bool) GtkSignal.t
+)
+type(
+  ('g1, GdkEvent.Scroll.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 257 11991 12001 "gtkBase.ml" 257 11991 12016
+type(
+  ([> `widget ], GdkEvent.Selection.t -> bool) GtkSignal.t
+)
+ident(
+  def selection_clear "gtkBase.ml" 260 12152 12158 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 258 12066 12076 "gtkBase.ml" 258 12066 12099
+type(
+  string
+)
+"gtkBase.ml" 258 12066 12110 "gtkBase.ml" 258 12066 12117
+type(
+  [> `widget ] as 'h1
+)
+"gtkBase.ml" 259 12119 12142 "gtkBase.ml" 259 12119 12149
+type(
+  (GdkEvent.Selection.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 258 12066 12067 "gtkBase.ml" 259 12119 12151
+type(
+  ('h1, GdkEvent.Selection.t -> bool) GtkSignal.t
+)
+type(
+  ('h1, GdkEvent.Selection.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 260 12152 12162 "gtkBase.ml" 260 12152 12179
+type(
+  ([> `widget ], GdkEvent.Selection.t -> bool) GtkSignal.t
+)
+ident(
+  def selection_request "gtkBase.ml" 263 12317 12323 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 261 12229 12239 "gtkBase.ml" 261 12229 12264
+type(
+  string
+)
+"gtkBase.ml" 261 12229 12275 "gtkBase.ml" 261 12229 12282
+type(
+  [> `widget ] as 'i1
+)
+"gtkBase.ml" 262 12284 12307 "gtkBase.ml" 262 12284 12314
+type(
+  (GdkEvent.Selection.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 261 12229 12230 "gtkBase.ml" 262 12284 12316
+type(
+  ('i1, GdkEvent.Selection.t -> bool) GtkSignal.t
+)
+type(
+  ('i1, GdkEvent.Selection.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 263 12317 12327 "gtkBase.ml" 263 12317 12343
+type(
+  ([> `widget ], GdkEvent.Selection.t -> bool) GtkSignal.t
+)
+ident(
+  def selection_notify "gtkBase.ml" 266 12480 12486 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 264 12393 12403 "gtkBase.ml" 264 12393 12427
+type(
+  string
+)
+"gtkBase.ml" 264 12393 12438 "gtkBase.ml" 264 12393 12445
+type(
+  [> `widget ] as 'j1
+)
+"gtkBase.ml" 265 12447 12470 "gtkBase.ml" 265 12447 12477
+type(
+  (GdkEvent.Selection.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 264 12393 12394 "gtkBase.ml" 265 12447 12479
+type(
+  ('j1, GdkEvent.Selection.t -> bool) GtkSignal.t
+)
+type(
+  ('j1, GdkEvent.Selection.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 266 12480 12490 "gtkBase.ml" 266 12480 12502
+type(
+  ([> `widget ], GdkEvent.Proximity.t -> bool) GtkSignal.t
+)
+ident(
+  def proximity_in "gtkBase.ml" 269 12635 12641 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 267 12552 12562 "gtkBase.ml" 267 12552 12582
+type(
+  string
+)
+"gtkBase.ml" 267 12552 12593 "gtkBase.ml" 267 12552 12600
+type(
+  [> `widget ] as 'k1
+)
+"gtkBase.ml" 268 12602 12625 "gtkBase.ml" 268 12602 12632
+type(
+  (GdkEvent.Proximity.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 267 12552 12553 "gtkBase.ml" 268 12602 12634
+type(
+  ('k1, GdkEvent.Proximity.t -> bool) GtkSignal.t
+)
+type(
+  ('k1, GdkEvent.Proximity.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 269 12635 12645 "gtkBase.ml" 269 12635 12658
+type(
+  ([> `widget ], GdkEvent.Proximity.t -> bool) GtkSignal.t
+)
+ident(
+  def proximity_out "gtkBase.ml" 272 12792 12798 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 270 12708 12718 "gtkBase.ml" 270 12708 12739
+type(
+  string
+)
+"gtkBase.ml" 270 12708 12750 "gtkBase.ml" 270 12708 12757
+type(
+  [> `widget ] as 'l1
+)
+"gtkBase.ml" 271 12759 12782 "gtkBase.ml" 271 12759 12789
+type(
+  (GdkEvent.Proximity.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 270 12708 12709 "gtkBase.ml" 271 12759 12791
+type(
+  ('l1, GdkEvent.Proximity.t -> bool) GtkSignal.t
+)
+type(
+  ('l1, GdkEvent.Proximity.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 272 12792 12802 "gtkBase.ml" 272 12792 12808
+type(
+  ([> `widget ], GdkEvent.Client.t -> bool) GtkSignal.t
+)
+ident(
+  def client "gtkBase.ml" 275 12932 12938 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 273 12855 12865 "gtkBase.ml" 273 12855 12879
+type(
+  string
+)
+"gtkBase.ml" 273 12855 12890 "gtkBase.ml" 273 12855 12897
+type(
+  [> `widget ] as 'm1
+)
+"gtkBase.ml" 274 12899 12922 "gtkBase.ml" 274 12899 12929
+type(
+  (GdkEvent.Client.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 273 12855 12856 "gtkBase.ml" 274 12899 12931
+type(
+  ('m1, GdkEvent.Client.t -> bool) GtkSignal.t
+)
+type(
+  ('m1, GdkEvent.Client.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 275 12932 12942 "gtkBase.ml" 275 12932 12959
+type(
+  ([> `widget ], GdkEvent.Visibility.t -> bool) GtkSignal.t
+)
+ident(
+  def visibility_notify "gtkBase.ml" 278 13098 13104 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 276 13010 13020 "gtkBase.ml" 276 13010 13045
+type(
+  string
+)
+"gtkBase.ml" 276 13010 13056 "gtkBase.ml" 276 13010 13063
+type(
+  [> `widget ] as 'n1
+)
+"gtkBase.ml" 277 13065 13088 "gtkBase.ml" 277 13065 13095
+type(
+  (GdkEvent.Visibility.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 276 13010 13011 "gtkBase.ml" 277 13065 13097
+type(
+  ('n1, GdkEvent.Visibility.t -> bool) GtkSignal.t
+)
+type(
+  ('n1, GdkEvent.Visibility.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 278 13098 13108 "gtkBase.ml" 278 13098 13120
+type(
+  ([> `widget ], GdkEvent.WindowState.t -> bool) GtkSignal.t
+)
+ident(
+  def window_state "gtkBase.ml" 280 13222 13254 "gtkBase.ml" 281 13255 13262
+)
+"gtkBase.ml" 279 13172 13182 "gtkBase.ml" 279 13172 13202
+type(
+  string
+)
+"gtkBase.ml" 279 13172 13213 "gtkBase.ml" 279 13172 13220
+type(
+  [> `widget ] as 'o1
+)
+"gtkBase.ml" 280 13222 13245 "gtkBase.ml" 280 13222 13252
+type(
+  (GdkEvent.WindowState.t -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gtkBase.ml" 204 9177 9187 "gtkBase.ml" 204 9177 9194
+)
+"gtkBase.ml" 279 13172 13173 "gtkBase.ml" 280 13222 13254
+type(
+  ('o1, GdkEvent.WindowState.t -> bool) GtkSignal.t
+)
+type(
+  ('o1, GdkEvent.WindowState.t -> bool) GtkSignal.t
+)
+"gtkBase.ml" 287 13320 13326 "gtkBase.ml" 287 13320 13337
+type(
+  cont:(([> `container | `widget ] as 'a) Gobject.param list -> 'b) ->
+  'a Gobject.param list ->
+  ?border_width:int -> ?width:int -> ?height:int -> 'b
+)
+ident(
+  def make_params "gtkBase.ml" 291 13468 13470 "gtkBase.ml" 295 13567 13570
+)
+"gtkBase.ml" 287 13320 13339 "gtkBase.ml" 287 13320 13343
+type(
+  'a Gobject.param list -> 'b
+)
+ident(
+  def cont "gtkBase.ml" 287 13320 13344 "gtkBase.ml" 289 13405 13466
+)
+"gtkBase.ml" 287 13320 13344 "gtkBase.ml" 287 13320 13346
+type(
+  'a Gobject.param list
+)
+ident(
+  def pl "gtkBase.ml" 287 13320 13347 "gtkBase.ml" 289 13405 13466
+)
+"gtkBase.ml" 287 13320 13348 "gtkBase.ml" 287 13320 13360
+type(
+  int option
+)
+ident(
+  def border_width "gtkBase.ml" 288 13363 13367 "gtkBase.ml" 289 13405 13466
+)
+"gtkBase.ml" 288 13363 13367 "gtkBase.ml" 288 13363 13385
+type(
+  cont:('a Gobject.param list -> 'b) ->
+  'a Gobject.param list -> ?width:int -> ?height:int -> 'b
+)
+ident(
+  ext_ref Widget.size_params
+)
+"gtkBase.ml" 288 13363 13386 "gtkBase.ml" 288 13363 13388
+type(
+  'a Gobject.param list
+)
+ident(
+  int_ref pl "gtkBase.ml" 287 13320 13344 "gtkBase.ml" 287 13320 13346
+)
+"gtkBase.ml" 288 13363 13400 "gtkBase.ml" 288 13363 13401
+type(
+  'a Gobject.param list
+)
+ident(
+  def p "gtkBase.ml" 289 13405 13411 "gtkBase.ml" 289 13405 13465
+)
+"gtkBase.ml" 289 13405 13411 "gtkBase.ml" 289 13405 13415
+type(
+  'a Gobject.param list -> 'b
+)
+ident(
+  int_ref cont "gtkBase.ml" 287 13320 13339 "gtkBase.ml" 287 13320 13343
+)
+"gtkBase.ml" 289 13405 13417 "gtkBase.ml" 289 13405 13434
+type(
+  ('a, int) Gobject.property ->
+  int option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gtkBase.ml" 289 13405 13435 "gtkBase.ml" 289 13405 13449
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref P.border_width
+)
+"gtkBase.ml" 289 13405 13450 "gtkBase.ml" 289 13405 13462
+type(
+  int option
+)
+ident(
+  int_ref border_width "gtkBase.ml" 287 13320 13348 "gtkBase.ml" 287 13320 13360
+)
+"gtkBase.ml" 289 13405 13463 "gtkBase.ml" 289 13405 13464
+type(
+  'a Gobject.param list
+)
+ident(
+  int_ref p "gtkBase.ml" 288 13363 13400 "gtkBase.ml" 288 13363 13401
+)
+"gtkBase.ml" 289 13405 13416 "gtkBase.ml" 289 13405 13465
+call(
+  stack
+)
+type(
+  'a Gobject.param list
+)
+"gtkBase.ml" 289 13405 13411 "gtkBase.ml" 289 13405 13465
+call(
+  tail
+)
+type(
+  'b
+)
+"gtkBase.ml" 288 13363 13395 "gtkBase.ml" 289 13405 13466
+type(
+  'a Gobject.param list -> 'b
+)
+"gtkBase.ml" 288 13363 13367 "gtkBase.ml" 289 13405 13466
+call(
+  tail
+)
+type(
+  ?width:int -> ?height:int -> 'b
+)
+"gtkBase.ml" 291 13468 13474 "gtkBase.ml" 291 13468 13482
+type(
+  [> `container ] Gtk.obj -> Gtk.widget Gtk.obj list
+)
+ident(
+  def children "gtkBase.ml" 294 13551 13566 "gtkBase.ml" 295 13567 13570
+)
+"gtkBase.ml" 291 13468 13483 "gtkBase.ml" 291 13468 13484
+type(
+  ([> `container ] as 'c) Gtk.obj
+)
+ident(
+  def w "gtkBase.ml" 292 13487 13491 "gtkBase.ml" 294 13551 13566
+)
+"gtkBase.ml" 292 13487 13495 "gtkBase.ml" 292 13487 13496
+type(
+  Gtk.widget Gtk.obj list ref
+)
+"gtkBase.ml" 292 13487 13499 "gtkBase.ml" 292 13487 13502
+type(
+  Gtk.widget Gtk.obj list -> Gtk.widget Gtk.obj list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gtkBase.ml" 292 13487 13503 "gtkBase.ml" 292 13487 13505
+type(
+  Gtk.widget Gtk.obj list
+)
+"gtkBase.ml" 292 13487 13499 "gtkBase.ml" 292 13487 13505
+type(
+  Gtk.widget Gtk.obj list ref
+)
+"gtkBase.ml" 293 13509 13513 "gtkBase.ml" 293 13509 13520
+type(
+  'c Gtk.obj -> f:(Gtk.widget Gtk.obj -> unit) -> unit
+)
+"gtkBase.ml" 293 13509 13521 "gtkBase.ml" 293 13509 13522
+type(
+  'c Gtk.obj
+)
+ident(
+  int_ref w "gtkBase.ml" 291 13468 13483 "gtkBase.ml" 291 13468 13484
+)
+"gtkBase.ml" 293 13509 13531 "gtkBase.ml" 293 13509 13532
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  def c "gtkBase.ml" 293 13509 13536 "gtkBase.ml" 293 13509 13548
+)
+"gtkBase.ml" 293 13509 13536 "gtkBase.ml" 293 13509 13537
+type(
+  Gtk.widget Gtk.obj list ref
+)
+ident(
+  int_ref l "gtkBase.ml" 292 13487 13495 "gtkBase.ml" 292 13487 13496
+)
+"gtkBase.ml" 293 13509 13538 "gtkBase.ml" 293 13509 13540
+type(
+  Gtk.widget Gtk.obj list ref -> Gtk.widget Gtk.obj list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"gtkBase.ml" 293 13509 13541 "gtkBase.ml" 293 13509 13542
+type(
+  Gtk.widget Gtk.obj
+)
+ident(
+  int_ref c "gtkBase.ml" 293 13509 13531 "gtkBase.ml" 293 13509 13532
+)
+"gtkBase.ml" 293 13509 13546 "gtkBase.ml" 293 13509 13547
+type(
+  Gtk.widget Gtk.obj list ref -> Gtk.widget Gtk.obj list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkBase.ml" 293 13509 13547 "gtkBase.ml" 293 13509 13548
+type(
+  Gtk.widget Gtk.obj list ref
+)
+ident(
+  int_ref l "gtkBase.ml" 292 13487 13495 "gtkBase.ml" 292 13487 13496
+)
+"gtkBase.ml" 293 13509 13546 "gtkBase.ml" 293 13509 13548
+type(
+  Gtk.widget Gtk.obj list
+)
+"gtkBase.ml" 293 13509 13541 "gtkBase.ml" 293 13509 13548
+type(
+  Gtk.widget Gtk.obj list
+)
+"gtkBase.ml" 293 13509 13536 "gtkBase.ml" 293 13509 13548
+type(
+  unit
+)
+"gtkBase.ml" 293 13509 13526 "gtkBase.ml" 293 13509 13549
+type(
+  Gtk.widget Gtk.obj -> unit
+)
+"gtkBase.ml" 293 13509 13513 "gtkBase.ml" 293 13509 13549
+type(
+  unit
+)
+"gtkBase.ml" 294 13551 13555 "gtkBase.ml" 294 13551 13563
+type(
+  Gtk.widget Gtk.obj list -> Gtk.widget Gtk.obj list
+)
+ident(
+  ext_ref List.rev
+)
+"gtkBase.ml" 294 13551 13564 "gtkBase.ml" 294 13551 13565
+type(
+  Gtk.widget Gtk.obj list ref -> Gtk.widget Gtk.obj list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gtkBase.ml" 294 13551 13565 "gtkBase.ml" 294 13551 13566
+type(
+  Gtk.widget Gtk.obj list ref
+)
+ident(
+  int_ref l "gtkBase.ml" 292 13487 13495 "gtkBase.ml" 292 13487 13496
+)
+"gtkBase.ml" 294 13551 13564 "gtkBase.ml" 294 13551 13566
+type(
+  Gtk.widget Gtk.obj list
+)
+"gtkBase.ml" 294 13551 13555 "gtkBase.ml" 294 13551 13566
+call(
+  tail
+)
+type(
+  Gtk.widget Gtk.obj list
+)
+"gtkBase.ml" 293 13509 13513 "gtkBase.ml" 294 13551 13566
+type(
+  Gtk.widget Gtk.obj list
+)
+"gtkBase.ml" 292 13487 13491 "gtkBase.ml" 294 13551 13566
+type(
+  Gtk.widget Gtk.obj list
+)
+"gtkBase.ml" 412 18388 18394 "gtkBase.ml" 412 18388 18413
+type(
+  Gtk.tooltip -> GtkStock.id -> Gtk.Tags.icon_size -> unit
+)
+ident(
+  def set_icon_from_stock "gtkBase.ml" 414 18474 18476 "gtkBase.ml" 420 18762 18765
+)
+"gtkBase.ml" 412 18388 18414 "gtkBase.ml" 412 18388 18416
+type(
+  Gtk.tooltip
+)
+ident(
+  def tt "gtkBase.ml" 412 18388 18417 "gtkBase.ml" 413 18422 18473
+)
+"gtkBase.ml" 412 18388 18417 "gtkBase.ml" 412 18388 18419
+type(
+  GtkStock.id
+)
+ident(
+  def id "gtkBase.ml" 413 18422 18426 "gtkBase.ml" 413 18422 18473
+)
+"gtkBase.ml" 413 18422 18426 "gtkBase.ml" 413 18422 18445
+type(
+  Gtk.tooltip -> string -> Gtk.Tags.icon_size -> unit
+)
+"gtkBase.ml" 413 18422 18446 "gtkBase.ml" 413 18422 18448
+type(
+  Gtk.tooltip
+)
+ident(
+  int_ref tt "gtkBase.ml" 412 18388 18414 "gtkBase.ml" 412 18388 18416
+)
+"gtkBase.ml" 413 18422 18450 "gtkBase.ml" 413 18422 18469
+type(
+  GtkStock.id -> string
+)
+ident(
+  ext_ref GtkStock.convert_id
+)
+"gtkBase.ml" 413 18422 18470 "gtkBase.ml" 413 18422 18472
+type(
+  GtkStock.id
+)
+ident(
+  int_ref id "gtkBase.ml" 412 18388 18417 "gtkBase.ml" 412 18388 18419
+)
+"gtkBase.ml" 413 18422 18449 "gtkBase.ml" 413 18422 18473
+call(
+  stack
+)
+type(
+  string
+)
+"gtkBase.ml" 413 18422 18426 "gtkBase.ml" 413 18422 18473
+call(
+  tail
+)
+type(
+  Gtk.Tags.icon_size -> unit
+)

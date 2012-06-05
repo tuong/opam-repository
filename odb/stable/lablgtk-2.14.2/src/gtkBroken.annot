@@ -1,0 +1,262 @@
+"gtkBroken.ml" 32 1804 1808 "gtkBroken.ml" 32 1804 1810
+type(
+  unit
+)
+"gtkBroken.ml" 32 1804 1813 "gtkBroken.ml" 32 1804 1828
+type(
+  unit -> unit
+)
+"gtkBroken.ml" 32 1804 1829 "gtkBroken.ml" 32 1804 1831
+type(
+  unit
+)
+"gtkBroken.ml" 32 1804 1813 "gtkBroken.ml" 32 1804 1831
+type(
+  unit
+)
+"gtkBroken.ml" 38 1974 1980 "gtkBroken.ml" 38 1974 1986
+type(
+  ?label:string -> unit -> Gtk.tree_item Gtk.obj
+)
+ident(
+  def create "gtkBroken.ml" 41 2082 2084 "gtkBroken.ml" 43 2167 2170
+)
+"gtkBroken.ml" 38 1974 1988 "gtkBroken.ml" 38 1974 1993
+type(
+  string option
+)
+ident(
+  def label "gtkBroken.ml" 38 1974 1994 "gtkBroken.ml" 40 2038 2081
+)
+"gtkBroken.ml" 38 1974 1994 "gtkBroken.ml" 38 1974 1996
+type(
+  unit
+)
+"gtkBroken.ml" 39 1999 2009 "gtkBroken.ml" 39 1999 2014
+type(
+  string option
+)
+ident(
+  int_ref label "gtkBroken.ml" 38 1974 1988 "gtkBroken.ml" 38 1974 1993
+)
+"gtkBroken.ml" 39 1999 2020 "gtkBroken.ml" 39 1999 2024
+type(
+  string option
+)
+"gtkBroken.ml" 39 1999 2028 "gtkBroken.ml" 39 1999 2034
+type(
+  Gtk.tree_item Gobject.param list -> Gtk.tree_item Gtk.obj
+)
+"gtkBroken.ml" 39 1999 2035 "gtkBroken.ml" 39 1999 2037
+type(
+  Gtk.tree_item Gobject.param list
+)
+"gtkBroken.ml" 39 1999 2028 "gtkBroken.ml" 39 1999 2037
+call(
+  tail
+)
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gtkBroken.ml" 40 2038 2049 "gtkBroken.ml" 40 2038 2054
+type(
+  string
+)
+ident(
+  def label "gtkBroken.ml" 40 2038 2058 "gtkBroken.ml" 40 2038 2081
+)
+"gtkBroken.ml" 40 2038 2044 "gtkBroken.ml" 40 2038 2054
+type(
+  string option
+)
+"gtkBroken.ml" 40 2038 2058 "gtkBroken.ml" 40 2038 2075
+type(
+  string -> Gtk.tree_item Gtk.obj
+)
+"gtkBroken.ml" 40 2038 2076 "gtkBroken.ml" 40 2038 2081
+type(
+  string
+)
+ident(
+  int_ref label "gtkBroken.ml" 40 2038 2049 "gtkBroken.ml" 40 2038 2054
+)
+"gtkBroken.ml" 40 2038 2058 "gtkBroken.ml" 40 2038 2081
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gtkBroken.ml" 39 1999 2003 "gtkBroken.ml" 40 2038 2081
+type(
+  Gtk.tree_item Gtk.obj
+)
+"gtkBroken.ml" 67 3207 3213 "gtkBroken.ml" 67 3207 3216
+type(
+  ?selection_mode:Gtk.Tags.selection_mode ->
+  ?view_mode:[ `ITEM | `LINE ] ->
+  ?view_lines:bool -> [> `tree ] Gtk.obj -> unit
+)
+ident(
+  def set "gtkBroken.ml" 71 3380 3417 "gtkBroken.ml" 72 3418 3421
+)
+"gtkBroken.ml" 67 3207 3218 "gtkBroken.ml" 67 3207 3232
+type(
+  Gtk.Tags.selection_mode option
+)
+ident(
+  def selection_mode "gtkBroken.ml" 67 3207 3233 "gtkBroken.ml" 71 3380 3417
+)
+"gtkBroken.ml" 67 3207 3234 "gtkBroken.ml" 67 3207 3243
+type(
+  [ `ITEM | `LINE ] option
+)
+ident(
+  def view_mode "gtkBroken.ml" 67 3207 3244 "gtkBroken.ml" 71 3380 3417
+)
+"gtkBroken.ml" 67 3207 3245 "gtkBroken.ml" 67 3207 3255
+type(
+  bool option
+)
+ident(
+  def view_lines "gtkBroken.ml" 67 3207 3256 "gtkBroken.ml" 71 3380 3417
+)
+"gtkBroken.ml" 67 3207 3256 "gtkBroken.ml" 67 3207 3257
+type(
+  ([> `tree ] as 'a) Gtk.obj
+)
+ident(
+  def w "gtkBroken.ml" 68 3260 3264 "gtkBroken.ml" 71 3380 3417
+)
+"gtkBroken.ml" 68 3260 3268 "gtkBroken.ml" 68 3260 3275
+type(
+  ('a Gtk.obj -> 'b -> 'c) -> 'b option -> unit
+)
+"gtkBroken.ml" 68 3260 3276 "gtkBroken.ml" 68 3260 3277
+type(
+  'a Gtk.obj -> 'b -> 'c
+)
+ident(
+  def f "gtkBroken.ml" 68 3260 3280 "gtkBroken.ml" 68 3260 3292
+)
+"gtkBroken.ml" 68 3260 3280 "gtkBroken.ml" 68 3260 3283
+type(
+  f:('b -> 'c) -> 'b option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gtkBroken.ml" 68 3260 3288 "gtkBroken.ml" 68 3260 3289
+type(
+  'a Gtk.obj -> 'b -> 'c
+)
+ident(
+  int_ref f "gtkBroken.ml" 68 3260 3276 "gtkBroken.ml" 68 3260 3277
+)
+"gtkBroken.ml" 68 3260 3290 "gtkBroken.ml" 68 3260 3291
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref w "gtkBroken.ml" 67 3207 3256 "gtkBroken.ml" 67 3207 3257
+)
+"gtkBroken.ml" 68 3260 3287 "gtkBroken.ml" 68 3260 3292
+call(
+  stack
+)
+type(
+  'b -> 'c
+)
+"gtkBroken.ml" 68 3260 3280 "gtkBroken.ml" 68 3260 3292
+call(
+  tail
+)
+type(
+  'b option -> unit
+)
+"gtkBroken.ml" 69 3296 3300 "gtkBroken.ml" 69 3296 3307
+type(
+  ('a Gtk.obj -> Gtk.Tags.selection_mode -> unit) ->
+  Gtk.Tags.selection_mode option -> unit
+)
+ident(
+  int_ref may_set "gtkBroken.ml" 68 3260 3268 "gtkBroken.ml" 68 3260 3275
+)
+"gtkBroken.ml" 69 3296 3308 "gtkBroken.ml" 69 3296 3326
+type(
+  'a Gtk.obj -> Gtk.Tags.selection_mode -> unit
+)
+"gtkBroken.ml" 69 3296 3327 "gtkBroken.ml" 69 3296 3341
+type(
+  Gtk.Tags.selection_mode option
+)
+ident(
+  int_ref selection_mode "gtkBroken.ml" 67 3207 3218 "gtkBroken.ml" 67 3207 3232
+)
+"gtkBroken.ml" 69 3296 3300 "gtkBroken.ml" 69 3296 3341
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkBroken.ml" 70 3343 3347 "gtkBroken.ml" 70 3343 3354
+type(
+  ('a Gtk.obj -> [ `ITEM | `LINE ] -> unit) ->
+  [ `ITEM | `LINE ] option -> unit
+)
+ident(
+  int_ref may_set "gtkBroken.ml" 68 3260 3268 "gtkBroken.ml" 68 3260 3275
+)
+"gtkBroken.ml" 70 3343 3355 "gtkBroken.ml" 70 3343 3368
+type(
+  'a Gtk.obj -> [ `ITEM | `LINE ] -> unit
+)
+"gtkBroken.ml" 70 3343 3369 "gtkBroken.ml" 70 3343 3378
+type(
+  [ `ITEM | `LINE ] option
+)
+ident(
+  int_ref view_mode "gtkBroken.ml" 67 3207 3234 "gtkBroken.ml" 67 3207 3243
+)
+"gtkBroken.ml" 70 3343 3347 "gtkBroken.ml" 70 3343 3378
+call(
+  stack
+)
+type(
+  unit
+)
+"gtkBroken.ml" 71 3380 3384 "gtkBroken.ml" 71 3380 3391
+type(
+  ('a Gtk.obj -> bool -> unit) -> bool option -> unit
+)
+ident(
+  int_ref may_set "gtkBroken.ml" 68 3260 3268 "gtkBroken.ml" 68 3260 3275
+)
+"gtkBroken.ml" 71 3380 3392 "gtkBroken.ml" 71 3380 3406
+type(
+  'a Gtk.obj -> bool -> unit
+)
+"gtkBroken.ml" 71 3380 3407 "gtkBroken.ml" 71 3380 3417
+type(
+  bool option
+)
+ident(
+  int_ref view_lines "gtkBroken.ml" 67 3207 3245 "gtkBroken.ml" 67 3207 3255
+)
+"gtkBroken.ml" 71 3380 3384 "gtkBroken.ml" 71 3380 3417
+call(
+  tail
+)
+type(
+  unit
+)
+"gtkBroken.ml" 70 3343 3347 "gtkBroken.ml" 71 3380 3417
+type(
+  unit
+)
+"gtkBroken.ml" 69 3296 3300 "gtkBroken.ml" 71 3380 3417
+type(
+  unit
+)
+"gtkBroken.ml" 68 3260 3264 "gtkBroken.ml" 71 3380 3417
+type(
+  unit
+)

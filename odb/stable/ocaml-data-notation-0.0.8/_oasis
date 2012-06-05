@@ -1,0 +1,63 @@
+OASISFormat:  0.2
+OCamlVersion: >= 3.10.2
+Name:         ocaml-data-notation
+Version:      0.0.8
+Synopsis:     Store data using OCaml notation
+Copyrights:   (C) 2009-2010 OCamlCore SARL
+Authors:      Sylvain Le Gall
+License:      LGPL-2.1 with OCaml linking exception
+LicenseFile:  COPYING.txt
+Plugins:      StdFiles (0.2), DevFiles (0.2), META (0.2)
+FilesAB:      tests/TestConf.ml.ab
+BuildTools:   ocamlbuild
+Homepage:     http://forge.ocamlcore.org/projects/odn
+
+Description:
+  This library uses `type-conv` to dump OCaml data structures using OCaml data
+  notation. 
+  . 
+  This kind of data dumping helps to write OCaml code generator, like OASIS.
+
+Library odn
+  Path:    src
+  Modules: ODN
+  
+Library pa_odn
+  Path:               src
+  Modules:            Pa_odn
+  FindlibParent:      odn
+  FindlibContainers:  with
+  FindlibName:        syntax
+  BuildDepends:       type-conv (>= 3.0.4), camlp4.lib, camlp4.quotations.o 
+  CompiledObject:     byte
+  XMETAType:          syntax
+  XMETARequires:      type-conv, camlp4, odn
+  XMETADescription:   Syntax extension for odn
+
+Library pa_noodn
+  Path:               src
+  Modules:            Pa_noodn
+  FindlibParent:      odn
+  FindlibContainers:  without
+  FindlibName:        syntax
+  BuildDepends:       type-conv, camlp4.lib, camlp4.quotations.o 
+  CompiledObject:     byte
+  XMETAType:          syntax
+  XMETARequires:      type-conv, camlp4
+  XMETADescription:   Syntax extension that removes 'with odn'
+
+Executable test
+  Path:         tests
+  MainIs:       test.ml
+  Install:      false
+  Build$:       flag(tests)
+  BuildDepends: oUnit (>= 1.1.0), fileutils (>= 0.4.0), odn, str
+  
+Test main
+  Run$:    flag(tests)
+  Command: $test
+
+SourceRepository head
+  Type: darcs
+  Location: http://darcs.ocamlcore.org/repos/ocaml-data-notation
+  Browser: http://darcs.ocamlcore.org/cgi-bin/darcsweb.cgi?r=ocaml-data-notation;a=summary

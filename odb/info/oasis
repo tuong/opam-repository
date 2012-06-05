@@ -1,0 +1,4 @@
+deps=unix,pcre,odn(>=0.0.3),ocamlyacc,ocamlmod,ocamllex,ocamlify,ocamlgraph,ocamlbuild,make,fileutils(>=0.4.2),batteries
+tarball=oasis-0.3.0~rc3.tar.gz
+is_library=true
+is_program=true

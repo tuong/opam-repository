@@ -1,0 +1,4749 @@
+"ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  def set "ogtkTreeProps.ml" 5 52 52 --
+)
+"ogtkTreeProps.ml" 4 38 48 "ogtkTreeProps.ml" 4 38 51
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b -> unit
+)
+ident(
+  ext_ref Gobject.set
+)
+"ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  def get "ogtkTreeProps.ml" 6 66 66 --
+)
+"ogtkTreeProps.ml" 5 52 62 "ogtkTreeProps.ml" 5 52 65
+type(
+  ('a, 'b) Gobject.property -> 'a Gobject.obj -> 'b
+)
+ident(
+  ext_ref Gobject.get
+)
+"ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  def param "ogtkTreeProps.ml" 7 84 84 --
+)
+"ogtkTreeProps.ml" 6 66 78 "ogtkTreeProps.ml" 6 66 83
+type(
+  ('a, 'b) Gobject.property -> 'b -> 'a Gobject.param
+)
+ident(
+  ext_ref Gobject.param
+)
+"ogtkTreeProps.ml" 11 168 197 "ogtkTreeProps.ml" 11 168 200
+type(
+  ([> `treeview ] as 'a, bool) Gobject.property ->
+  'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 11 168 201 "ogtkTreeProps.ml" 11 168 225
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.enable_search
+)
+"ogtkTreeProps.ml" 11 168 226 "ogtkTreeProps.ml" 11 168 229
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 11 168 197 "ogtkTreeProps.ml" 11 168 229
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkTreeProps.ml" 12 230 263 "ogtkTreeProps.ml" 12 230 266
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 12 230 267 "ogtkTreeProps.ml" 12 230 295
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.fixed_height_mode
+)
+"ogtkTreeProps.ml" 12 230 296 "ogtkTreeProps.ml" 12 230 299
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 12 230 263 "ogtkTreeProps.ml" 12 230 299
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkTreeProps.ml" 14 327 331 "ogtkTreeProps.ml" 14 327 334
+type(
+  ('a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 14 327 336 "ogtkTreeProps.ml" 14 327 358
+type(
+  (_[> `treeview ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.hadjustment
+)
+"ogtkTreeProps.ml" 14 327 369 "ogtkTreeProps.ml" 14 327 390
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkTreeProps.ml" 14 327 335 "ogtkTreeProps.ml" 14 327 391
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkTreeProps.ml" 14 327 392 "ogtkTreeProps.ml" 14 327 395
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 14 327 331 "ogtkTreeProps.ml" 14 327 395
+call(
+  tail
+)
+type(
+  GData.adjustment -> unit
+)
+type(
+  GData.adjustment -> unit
+)
+"ogtkTreeProps.ml" 15 396 429 "ogtkTreeProps.ml" 15 396 432
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 15 396 433 "ogtkTreeProps.ml" 15 396 461
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.headers_clickable
+)
+"ogtkTreeProps.ml" 15 396 462 "ogtkTreeProps.ml" 15 396 465
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 15 396 429 "ogtkTreeProps.ml" 15 396 465
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkTreeProps.ml" 16 466 497 "ogtkTreeProps.ml" 16 466 500
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 16 466 501 "ogtkTreeProps.ml" 16 466 527
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.headers_visible
+)
+"ogtkTreeProps.ml" 16 466 528 "ogtkTreeProps.ml" 16 466 531
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 16 466 497 "ogtkTreeProps.ml" 16 466 531
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkTreeProps.ml" 17 532 559 "ogtkTreeProps.ml" 17 532 562
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 17 532 563 "ogtkTreeProps.ml" 17 532 585
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.reorderable
+)
+"ogtkTreeProps.ml" 17 532 586 "ogtkTreeProps.ml" 17 532 589
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 17 532 559 "ogtkTreeProps.ml" 17 532 589
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkTreeProps.ml" 18 590 616 "ogtkTreeProps.ml" 18 590 619
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 18 590 620 "ogtkTreeProps.ml" 18 590 641
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.rules_hint
+)
+"ogtkTreeProps.ml" 18 590 642 "ogtkTreeProps.ml" 18 590 645
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 18 590 616 "ogtkTreeProps.ml" 18 590 645
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkTreeProps.ml" 19 646 675 "ogtkTreeProps.ml" 19 646 678
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 19 646 679 "ogtkTreeProps.ml" 19 646 703
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.search_column
+)
+"ogtkTreeProps.ml" 19 646 704 "ogtkTreeProps.ml" 19 646 707
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 19 646 675 "ogtkTreeProps.ml" 19 646 707
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTreeProps.ml" 21 735 739 "ogtkTreeProps.ml" 21 735 742
+type(
+  ('a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 21 735 744 "ogtkTreeProps.ml" 21 735 766
+type(
+  (_[> `treeview ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.vadjustment
+)
+"ogtkTreeProps.ml" 21 735 777 "ogtkTreeProps.ml" 21 735 798
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkTreeProps.ml" 21 735 743 "ogtkTreeProps.ml" 21 735 799
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkTreeProps.ml" 21 735 800 "ogtkTreeProps.ml" 21 735 803
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 21 735 739 "ogtkTreeProps.ml" 21 735 803
+call(
+  tail
+)
+type(
+  GData.adjustment -> unit
+)
+type(
+  GData.adjustment -> unit
+)
+"ogtkTreeProps.ml" 22 804 832 "ogtkTreeProps.ml" 22 804 835
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 22 804 836 "ogtkTreeProps.ml" 22 804 859
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.hover_expand
+)
+"ogtkTreeProps.ml" 22 804 860 "ogtkTreeProps.ml" 22 804 863
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 22 804 832 "ogtkTreeProps.ml" 22 804 863
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkTreeProps.ml" 23 864 895 "ogtkTreeProps.ml" 23 864 898
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 23 864 899 "ogtkTreeProps.ml" 23 864 925
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.hover_selection
+)
+"ogtkTreeProps.ml" 23 864 926 "ogtkTreeProps.ml" 23 864 929
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 23 864 895 "ogtkTreeProps.ml" 23 864 929
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkTreeProps.ml" 24 930 960 "ogtkTreeProps.ml" 24 930 963
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 24 930 964 "ogtkTreeProps.ml" 24 930 989
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.tooltip_column
+)
+"ogtkTreeProps.ml" 24 930 990 "ogtkTreeProps.ml" 24 930 993
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 24 930 960 "ogtkTreeProps.ml" 24 930 993
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTreeProps.ml" 25 994 1019 "ogtkTreeProps.ml" 25 994 1022
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 25 994 1023 "ogtkTreeProps.ml" 25 994 1047
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.enable_search
+)
+"ogtkTreeProps.ml" 25 994 1048 "ogtkTreeProps.ml" 25 994 1051
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 25 994 1019 "ogtkTreeProps.ml" 25 994 1051
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkTreeProps.ml" 26 1052 1081 "ogtkTreeProps.ml" 26 1052 1084
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 26 1052 1085 "ogtkTreeProps.ml" 26 1052 1113
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.fixed_height_mode
+)
+"ogtkTreeProps.ml" 26 1052 1114 "ogtkTreeProps.ml" 26 1052 1117
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 26 1052 1081 "ogtkTreeProps.ml" 26 1052 1117
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkTreeProps.ml" 28 1141 1145 "ogtkTreeProps.ml" 28 1141 1148
+type(
+  ('a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 28 1141 1150 "ogtkTreeProps.ml" 28 1141 1172
+type(
+  (_[> `treeview ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.hadjustment
+)
+"ogtkTreeProps.ml" 28 1141 1183 "ogtkTreeProps.ml" 28 1141 1204
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkTreeProps.ml" 28 1141 1149 "ogtkTreeProps.ml" 28 1141 1205
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkTreeProps.ml" 28 1141 1206 "ogtkTreeProps.ml" 28 1141 1209
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 28 1141 1145 "ogtkTreeProps.ml" 28 1141 1209
+call(
+  tail
+)
+type(
+  GData.adjustment
+)
+type(
+  GData.adjustment
+)
+"ogtkTreeProps.ml" 29 1210 1237 "ogtkTreeProps.ml" 29 1210 1240
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 29 1210 1241 "ogtkTreeProps.ml" 29 1210 1267
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.headers_visible
+)
+"ogtkTreeProps.ml" 29 1210 1268 "ogtkTreeProps.ml" 29 1210 1271
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 29 1210 1237 "ogtkTreeProps.ml" 29 1210 1271
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkTreeProps.ml" 30 1272 1295 "ogtkTreeProps.ml" 30 1272 1298
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 30 1272 1299 "ogtkTreeProps.ml" 30 1272 1321
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.reorderable
+)
+"ogtkTreeProps.ml" 30 1272 1322 "ogtkTreeProps.ml" 30 1272 1325
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 30 1272 1295 "ogtkTreeProps.ml" 30 1272 1325
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkTreeProps.ml" 31 1326 1348 "ogtkTreeProps.ml" 31 1326 1351
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 31 1326 1352 "ogtkTreeProps.ml" 31 1326 1373
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.rules_hint
+)
+"ogtkTreeProps.ml" 31 1326 1374 "ogtkTreeProps.ml" 31 1326 1377
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 31 1326 1348 "ogtkTreeProps.ml" 31 1326 1377
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkTreeProps.ml" 32 1378 1403 "ogtkTreeProps.ml" 32 1378 1406
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 32 1378 1407 "ogtkTreeProps.ml" 32 1378 1431
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.search_column
+)
+"ogtkTreeProps.ml" 32 1378 1432 "ogtkTreeProps.ml" 32 1378 1435
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 32 1378 1403 "ogtkTreeProps.ml" 32 1378 1435
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTreeProps.ml" 34 1459 1463 "ogtkTreeProps.ml" 34 1459 1466
+type(
+  ('a, GData.adjustment) Gobject.property ->
+  'a Gobject.obj -> GData.adjustment
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 34 1459 1468 "ogtkTreeProps.ml" 34 1459 1490
+type(
+  (_[> `treeview ], Gtk.adjustment Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.vadjustment
+)
+"ogtkTreeProps.ml" 34 1459 1501 "ogtkTreeProps.ml" 34 1459 1522
+type(
+  GData.adjustment Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment
+)
+"ogtkTreeProps.ml" 34 1459 1467 "ogtkTreeProps.ml" 34 1459 1523
+type(
+  ('a, GData.adjustment) Gobject.property
+)
+"ogtkTreeProps.ml" 34 1459 1524 "ogtkTreeProps.ml" 34 1459 1527
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 34 1459 1463 "ogtkTreeProps.ml" 34 1459 1527
+call(
+  tail
+)
+type(
+  GData.adjustment
+)
+type(
+  GData.adjustment
+)
+"ogtkTreeProps.ml" 35 1528 1552 "ogtkTreeProps.ml" 35 1528 1555
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 35 1528 1556 "ogtkTreeProps.ml" 35 1528 1579
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.hover_expand
+)
+"ogtkTreeProps.ml" 35 1528 1580 "ogtkTreeProps.ml" 35 1528 1583
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 35 1528 1552 "ogtkTreeProps.ml" 35 1528 1583
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkTreeProps.ml" 36 1584 1611 "ogtkTreeProps.ml" 36 1584 1614
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 36 1584 1615 "ogtkTreeProps.ml" 36 1584 1641
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.hover_selection
+)
+"ogtkTreeProps.ml" 36 1584 1642 "ogtkTreeProps.ml" 36 1584 1645
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 36 1584 1611 "ogtkTreeProps.ml" 36 1584 1645
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkTreeProps.ml" 37 1646 1672 "ogtkTreeProps.ml" 37 1646 1675
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 37 1646 1676 "ogtkTreeProps.ml" 37 1646 1701
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.P.tooltip_column
+)
+"ogtkTreeProps.ml" 37 1646 1702 "ogtkTreeProps.ml" 37 1646 1705
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 37 1646 1672 "ogtkTreeProps.ml" 37 1646 1705
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTreeProps.ml" 40 1711 1749 "ogtkTreeProps.ml" 40 1711 1755
+type(
+  < columns_changed : callback:(unit -> unit) -> GtkSignal.id;
+    cursor_changed : callback:(unit -> unit) -> GtkSignal.id;
+    expand_collapse_cursor_row : callback:(logical:bool ->
+                                           expand:bool -> all:bool -> bool) ->
+                                 GtkSignal.id;
+    move_cursor : callback:(GtkEnums.movement_step -> int -> bool) ->
+                  GtkSignal.id;
+    row_collapsed : callback:(Gtk.tree_iter -> Gtk.tree_path -> unit) ->
+                    GtkSignal.id;
+    row_expanded : callback:(Gtk.tree_iter -> Gtk.tree_path -> unit) ->
+                   GtkSignal.id;
+    select_all : callback:(unit -> bool) -> GtkSignal.id;
+    select_cursor_parent : callback:(unit -> bool) -> GtkSignal.id;
+    select_cursor_row : callback:(start_editing:bool -> bool) -> GtkSignal.id;
+    set_scroll_adjustments : callback:(GData.adjustment option ->
+                                       GData.adjustment option -> unit) ->
+                             GtkSignal.id;
+    start_interactive_search : callback:(unit -> bool) -> GtkSignal.id;
+    test_collapse_row : callback:(Gtk.tree_iter -> Gtk.tree_path -> bool) ->
+                        GtkSignal.id;
+    test_expand_row : callback:(Gtk.tree_iter -> Gtk.tree_path -> bool) ->
+                      GtkSignal.id;
+    toggle_cursor_row : callback:(unit -> bool) -> GtkSignal.id;
+    unselect_all : callback:(unit -> bool) -> GtkSignal.id; .. >
+)
+"ogtkTreeProps.ml" 43 1850 1877 "ogtkTreeProps.ml" 43 1850 1881
+type(
+  < columns_changed : callback:(unit -> unit) -> GtkSignal.id;
+    cursor_changed : callback:(unit -> unit) -> GtkSignal.id;
+    expand_collapse_cursor_row : callback:(logical:bool ->
+                                           expand:bool -> all:bool -> bool) ->
+                                 GtkSignal.id;
+    move_cursor : callback:(GtkEnums.movement_step -> int -> bool) ->
+                  GtkSignal.id;
+    row_collapsed : callback:(Gtk.tree_iter -> Gtk.tree_path -> unit) ->
+                    GtkSignal.id;
+    row_expanded : callback:(Gtk.tree_iter -> Gtk.tree_path -> unit) ->
+                   GtkSignal.id;
+    select_all : callback:(unit -> bool) -> GtkSignal.id;
+    select_cursor_parent : callback:(unit -> bool) -> GtkSignal.id;
+    select_cursor_row : callback:(start_editing:bool -> bool) -> GtkSignal.id;
+    set_scroll_adjustments : callback:(GData.adjustment option ->
+                                       GData.adjustment option -> unit) ->
+                             GtkSignal.id;
+    start_interactive_search : callback:(unit -> bool) -> GtkSignal.id;
+    test_collapse_row : callback:(Gtk.tree_iter -> Gtk.tree_path -> bool) ->
+                        GtkSignal.id;
+    test_expand_row : callback:(Gtk.tree_iter -> Gtk.tree_path -> bool) ->
+                      GtkSignal.id;
+    toggle_cursor_row : callback:(unit -> bool) -> GtkSignal.id;
+    unselect_all : callback:(unit -> bool) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkTreeProps.ml" 43 1850 1877 "ogtkTreeProps.ml" 43 1850 1889
+call(
+  tail
+)
+type(
+  ([> `treeview ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 43 1850 1890 "ogtkTreeProps.ml" 43 1850 1916
+type(
+  ([> `treeview ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.S.columns_changed
+)
+"ogtkTreeProps.ml" 43 1850 1877 "ogtkTreeProps.ml" 43 1850 1916
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 44 1917 1943 "ogtkTreeProps.ml" 44 1917 1947
+type(
+  'a
+)
+"ogtkTreeProps.ml" 44 1917 1943 "ogtkTreeProps.ml" 44 1917 1955
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 44 1917 1956 "ogtkTreeProps.ml" 44 1917 1981
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.S.cursor_changed
+)
+"ogtkTreeProps.ml" 44 1917 1943 "ogtkTreeProps.ml" 44 1917 1981
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 46 2020 2024 "ogtkTreeProps.ml" 46 2020 2028
+type(
+  'a
+)
+"ogtkTreeProps.ml" 46 2020 2024 "ogtkTreeProps.ml" 46 2020 2036
+call(
+  tail
+)
+type(
+  ('b, logical:bool -> expand:bool -> all:bool -> bool) GtkSignal.t ->
+  callback:(logical:bool -> expand:bool -> all:bool -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 46 2020 2037 "ogtkTreeProps.ml" 46 2020 2074
+type(
+  ('b, logical:bool -> expand:bool -> all:bool -> bool) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.S.expand_collapse_cursor_row
+)
+"ogtkTreeProps.ml" 46 2020 2024 "ogtkTreeProps.ml" 46 2020 2074
+type(
+  callback:(logical:bool -> expand:bool -> all:bool -> bool) -> GtkSignal.id
+)
+type(
+  callback:(logical:bool -> expand:bool -> all:bool -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 47 2075 2098 "ogtkTreeProps.ml" 47 2075 2102
+type(
+  'a
+)
+"ogtkTreeProps.ml" 47 2075 2098 "ogtkTreeProps.ml" 47 2075 2110
+call(
+  tail
+)
+type(
+  ('b, GtkEnums.movement_step -> int -> bool) GtkSignal.t ->
+  callback:(GtkEnums.movement_step -> int -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 47 2075 2111 "ogtkTreeProps.ml" 47 2075 2133
+type(
+  ('b, GtkEnums.movement_step -> int -> bool) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.S.move_cursor
+)
+"ogtkTreeProps.ml" 47 2075 2098 "ogtkTreeProps.ml" 47 2075 2133
+type(
+  callback:(GtkEnums.movement_step -> int -> bool) -> GtkSignal.id
+)
+type(
+  callback:(GtkEnums.movement_step -> int -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 48 2134 2159 "ogtkTreeProps.ml" 48 2134 2163
+type(
+  'a
+)
+"ogtkTreeProps.ml" 48 2134 2159 "ogtkTreeProps.ml" 48 2134 2171
+call(
+  tail
+)
+type(
+  ('b, Gtk.tree_iter -> Gtk.tree_path -> unit) GtkSignal.t ->
+  callback:(Gtk.tree_iter -> Gtk.tree_path -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 48 2134 2172 "ogtkTreeProps.ml" 48 2134 2196
+type(
+  ('b, Gtk.tree_iter -> Gtk.tree_path -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.S.row_collapsed
+)
+"ogtkTreeProps.ml" 48 2134 2159 "ogtkTreeProps.ml" 48 2134 2196
+type(
+  callback:(Gtk.tree_iter -> Gtk.tree_path -> unit) -> GtkSignal.id
+)
+type(
+  callback:(Gtk.tree_iter -> Gtk.tree_path -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 49 2197 2221 "ogtkTreeProps.ml" 49 2197 2225
+type(
+  'a
+)
+"ogtkTreeProps.ml" 49 2197 2221 "ogtkTreeProps.ml" 49 2197 2233
+call(
+  tail
+)
+type(
+  ('b, Gtk.tree_iter -> Gtk.tree_path -> unit) GtkSignal.t ->
+  callback:(Gtk.tree_iter -> Gtk.tree_path -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 49 2197 2234 "ogtkTreeProps.ml" 49 2197 2257
+type(
+  ('b, Gtk.tree_iter -> Gtk.tree_path -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.S.row_expanded
+)
+"ogtkTreeProps.ml" 49 2197 2221 "ogtkTreeProps.ml" 49 2197 2257
+type(
+  callback:(Gtk.tree_iter -> Gtk.tree_path -> unit) -> GtkSignal.id
+)
+type(
+  callback:(Gtk.tree_iter -> Gtk.tree_path -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 50 2258 2280 "ogtkTreeProps.ml" 50 2258 2284
+type(
+  'a
+)
+"ogtkTreeProps.ml" 50 2258 2280 "ogtkTreeProps.ml" 50 2258 2292
+call(
+  tail
+)
+type(
+  ('b, unit -> bool) GtkSignal.t -> callback:(unit -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 50 2258 2293 "ogtkTreeProps.ml" 50 2258 2314
+type(
+  ('b, unit -> bool) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.S.select_all
+)
+"ogtkTreeProps.ml" 50 2258 2280 "ogtkTreeProps.ml" 50 2258 2314
+type(
+  callback:(unit -> bool) -> GtkSignal.id
+)
+type(
+  callback:(unit -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 51 2315 2347 "ogtkTreeProps.ml" 51 2315 2351
+type(
+  'a
+)
+"ogtkTreeProps.ml" 51 2315 2347 "ogtkTreeProps.ml" 51 2315 2359
+call(
+  tail
+)
+type(
+  ('b, unit -> bool) GtkSignal.t -> callback:(unit -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 51 2315 2360 "ogtkTreeProps.ml" 51 2315 2391
+type(
+  ('b, unit -> bool) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.S.select_cursor_parent
+)
+"ogtkTreeProps.ml" 51 2315 2347 "ogtkTreeProps.ml" 51 2315 2391
+type(
+  callback:(unit -> bool) -> GtkSignal.id
+)
+type(
+  callback:(unit -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 52 2392 2421 "ogtkTreeProps.ml" 52 2392 2425
+type(
+  'a
+)
+"ogtkTreeProps.ml" 52 2392 2421 "ogtkTreeProps.ml" 52 2392 2433
+call(
+  tail
+)
+type(
+  ('b, start_editing:bool -> bool) GtkSignal.t ->
+  callback:(start_editing:bool -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 52 2392 2434 "ogtkTreeProps.ml" 52 2392 2462
+type(
+  ('b, start_editing:bool -> bool) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.S.select_cursor_row
+)
+"ogtkTreeProps.ml" 52 2392 2421 "ogtkTreeProps.ml" 52 2392 2462
+type(
+  callback:(start_editing:bool -> bool) -> GtkSignal.id
+)
+type(
+  callback:(start_editing:bool -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 53 2463 2497 "ogtkTreeProps.ml" 53 2463 2501
+type(
+  'a
+)
+"ogtkTreeProps.ml" 53 2463 2497 "ogtkTreeProps.ml" 53 2463 2509
+call(
+  tail
+)
+type(
+  ('b, GData.adjustment option -> GData.adjustment option -> unit)
+  GtkSignal.t ->
+  callback:(GData.adjustment option -> GData.adjustment option -> unit) ->
+  GtkSignal.id
+)
+"ogtkTreeProps.ml" 54 2510 2515 "ogtkTreeProps.ml" 54 2510 2548
+type(
+  ('b,
+   Gtk.adjustment Gtk.obj option -> Gtk.adjustment Gtk.obj option -> unit)
+  GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.S.set_scroll_adjustments
+)
+"ogtkTreeProps.ml" 54 2510 2571 "ogtkTreeProps.ml" 54 2510 2572
+type(
+  GData.adjustment option -> GData.adjustment option -> unit
+)
+ident(
+  def f "ogtkTreeProps.ml" 55 2576 2581 "ogtkTreeProps.ml" 56 2648 2694
+)
+"ogtkTreeProps.ml" 55 2576 2581 "ogtkTreeProps.ml" 55 2576 2589
+type(
+  GData.adjustment option Gobject.data_conv ->
+  GData.adjustment option Gobject.data_conv ->
+  string ->
+  (GData.adjustment option -> GData.adjustment option -> unit)
+  GtkSignal.marshaller
+)
+ident(
+  ext_ref GtkSignal.marshal2
+)
+"ogtkTreeProps.ml" 55 2576 2590 "ogtkTreeProps.ml" 55 2576 2618
+type(
+  GData.adjustment option Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment_option
+)
+"ogtkTreeProps.ml" 55 2576 2619 "ogtkTreeProps.ml" 55 2576 2647
+type(
+  GData.adjustment option Gobject.data_conv
+)
+ident(
+  ext_ref GData.conv_adjustment_option
+)
+"ogtkTreeProps.ml" 56 2648 2655 "ogtkTreeProps.ml" 56 2648 2692
+type(
+  string
+)
+"ogtkTreeProps.ml" 56 2648 2693 "ogtkTreeProps.ml" 56 2648 2694
+type(
+  GData.adjustment option -> GData.adjustment option -> unit
+)
+ident(
+  int_ref f "ogtkTreeProps.ml" 54 2510 2571 "ogtkTreeProps.ml" 54 2510 2572
+)
+"ogtkTreeProps.ml" 55 2576 2581 "ogtkTreeProps.ml" 56 2648 2694
+call(
+  tail
+)
+type(
+  Gobject.Closure.argv -> unit
+)
+"ogtkTreeProps.ml" 54 2510 2567 "ogtkTreeProps.ml" 56 2648 2694
+type(
+  (GData.adjustment option -> GData.adjustment option -> unit) ->
+  Gobject.Closure.argv -> unit
+)
+"ogtkTreeProps.ml" 54 2510 2514 "ogtkTreeProps.ml" 56 2648 2695
+type(
+  ('b, GData.adjustment option -> GData.adjustment option -> unit)
+  GtkSignal.t
+)
+"ogtkTreeProps.ml" 53 2463 2497 "ogtkTreeProps.ml" 56 2648 2695
+type(
+  callback:(GData.adjustment option -> GData.adjustment option -> unit) ->
+  GtkSignal.id
+)
+type(
+  callback:(GData.adjustment option -> GData.adjustment option -> unit) ->
+  GtkSignal.id
+)
+"ogtkTreeProps.ml" 58 2732 2736 "ogtkTreeProps.ml" 58 2732 2740
+type(
+  'a
+)
+"ogtkTreeProps.ml" 58 2732 2736 "ogtkTreeProps.ml" 58 2732 2748
+call(
+  tail
+)
+type(
+  ('b, unit -> bool) GtkSignal.t -> callback:(unit -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 58 2732 2749 "ogtkTreeProps.ml" 58 2732 2784
+type(
+  ('b, unit -> bool) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.S.start_interactive_search
+)
+"ogtkTreeProps.ml" 58 2732 2736 "ogtkTreeProps.ml" 58 2732 2784
+type(
+  callback:(unit -> bool) -> GtkSignal.id
+)
+type(
+  callback:(unit -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 59 2785 2814 "ogtkTreeProps.ml" 59 2785 2818
+type(
+  'a
+)
+"ogtkTreeProps.ml" 59 2785 2814 "ogtkTreeProps.ml" 59 2785 2826
+call(
+  tail
+)
+type(
+  ('b, Gtk.tree_iter -> Gtk.tree_path -> bool) GtkSignal.t ->
+  callback:(Gtk.tree_iter -> Gtk.tree_path -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 59 2785 2827 "ogtkTreeProps.ml" 59 2785 2855
+type(
+  ('b, Gtk.tree_iter -> Gtk.tree_path -> bool) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.S.test_collapse_row
+)
+"ogtkTreeProps.ml" 59 2785 2814 "ogtkTreeProps.ml" 59 2785 2855
+type(
+  callback:(Gtk.tree_iter -> Gtk.tree_path -> bool) -> GtkSignal.id
+)
+type(
+  callback:(Gtk.tree_iter -> Gtk.tree_path -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 60 2856 2883 "ogtkTreeProps.ml" 60 2856 2887
+type(
+  'a
+)
+"ogtkTreeProps.ml" 60 2856 2883 "ogtkTreeProps.ml" 60 2856 2895
+call(
+  tail
+)
+type(
+  ('b, Gtk.tree_iter -> Gtk.tree_path -> bool) GtkSignal.t ->
+  callback:(Gtk.tree_iter -> Gtk.tree_path -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 60 2856 2896 "ogtkTreeProps.ml" 60 2856 2922
+type(
+  ('b, Gtk.tree_iter -> Gtk.tree_path -> bool) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.S.test_expand_row
+)
+"ogtkTreeProps.ml" 60 2856 2883 "ogtkTreeProps.ml" 60 2856 2922
+type(
+  callback:(Gtk.tree_iter -> Gtk.tree_path -> bool) -> GtkSignal.id
+)
+type(
+  callback:(Gtk.tree_iter -> Gtk.tree_path -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 61 2923 2952 "ogtkTreeProps.ml" 61 2923 2956
+type(
+  'a
+)
+"ogtkTreeProps.ml" 61 2923 2952 "ogtkTreeProps.ml" 61 2923 2964
+call(
+  tail
+)
+type(
+  ('b, unit -> bool) GtkSignal.t -> callback:(unit -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 61 2923 2965 "ogtkTreeProps.ml" 61 2923 2993
+type(
+  ('b, unit -> bool) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.S.toggle_cursor_row
+)
+"ogtkTreeProps.ml" 61 2923 2952 "ogtkTreeProps.ml" 61 2923 2993
+type(
+  callback:(unit -> bool) -> GtkSignal.id
+)
+type(
+  callback:(unit -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 62 2994 3018 "ogtkTreeProps.ml" 62 2994 3022
+type(
+  'a
+)
+"ogtkTreeProps.ml" 62 2994 3018 "ogtkTreeProps.ml" 62 2994 3030
+call(
+  tail
+)
+type(
+  ('b, unit -> bool) GtkSignal.t -> callback:(unit -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 62 2994 3031 "ogtkTreeProps.ml" 62 2994 3054
+type(
+  ('b, unit -> bool) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeView.S.unselect_all
+)
+"ogtkTreeProps.ml" 62 2994 3018 "ogtkTreeProps.ml" 62 2994 3054
+type(
+  callback:(unit -> bool) -> GtkSignal.id
+)
+type(
+  callback:(unit -> bool) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 65 3060 3064 "ogtkTreeProps.ml" 65 3060 3083
+type(
+  [< `CELL_BACKGROUND of string
+   | `CELL_BACKGROUND_GDK of Gdk.color
+   | `CELL_BACKGROUND_SET of bool
+   | `HEIGHT of int
+   | `IS_EXPANDED of bool
+   | `IS_EXPANDER of bool
+   | `MODE of GtkEnums.cell_renderer_mode
+   | `VISIBLE of bool
+   | `WIDTH of int
+   | `XALIGN of float
+   | `XPAD of int
+   | `YALIGN of float
+   | `YPAD of int ] ->
+  [> `cellrenderer ] Gobject.param
+)
+ident(
+  def cell_renderer_param "ogtkTreeProps.ml" 80 3785 3785 --
+)
+"ogtkTreeProps.ml" 66 3095 3116 "ogtkTreeProps.ml" 66 3095 3117
+type(
+  string
+)
+ident(
+  def p "ogtkTreeProps.ml" 66 3095 3121 "ogtkTreeProps.ml" 66 3095 3159
+)
+"ogtkTreeProps.ml" 66 3095 3099 "ogtkTreeProps.ml" 66 3095 3117
+type(
+  [< `CELL_BACKGROUND of string
+   | `CELL_BACKGROUND_GDK of Gdk.color
+   | `CELL_BACKGROUND_SET of bool
+   | `HEIGHT of int
+   | `IS_EXPANDED of bool
+   | `IS_EXPANDER of bool
+   | `MODE of GtkEnums.cell_renderer_mode
+   | `VISIBLE of bool
+   | `WIDTH of int
+   | `XALIGN of float
+   | `XPAD of int
+   | `YALIGN of float
+   | `YPAD of int ]
+  as 'a
+)
+"ogtkTreeProps.ml" 66 3095 3121 "ogtkTreeProps.ml" 66 3095 3126
+type(
+  ([> `cellrenderer ] as 'b, string) Gobject.property ->
+  string -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 66 3095 3127 "ogtkTreeProps.ml" 66 3095 3157
+type(
+  ('b, string) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRenderer.P.cell_background
+)
+"ogtkTreeProps.ml" 66 3095 3158 "ogtkTreeProps.ml" 66 3095 3159
+type(
+  string
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 66 3095 3116 "ogtkTreeProps.ml" 66 3095 3117
+)
+"ogtkTreeProps.ml" 66 3095 3121 "ogtkTreeProps.ml" 66 3095 3159
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 67 3160 3185 "ogtkTreeProps.ml" 67 3160 3186
+type(
+  Gdk.color
+)
+ident(
+  def p "ogtkTreeProps.ml" 67 3160 3190 "ogtkTreeProps.ml" 67 3160 3232
+)
+"ogtkTreeProps.ml" 67 3160 3164 "ogtkTreeProps.ml" 67 3160 3186
+type(
+  'a
+)
+"ogtkTreeProps.ml" 67 3160 3190 "ogtkTreeProps.ml" 67 3160 3195
+type(
+  ('b, Gdk.color) Gobject.property -> Gdk.color -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 67 3160 3196 "ogtkTreeProps.ml" 67 3160 3230
+type(
+  ('b, Gdk.color) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRenderer.P.cell_background_gdk
+)
+"ogtkTreeProps.ml" 67 3160 3231 "ogtkTreeProps.ml" 67 3160 3232
+type(
+  Gdk.color
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 67 3160 3185 "ogtkTreeProps.ml" 67 3160 3186
+)
+"ogtkTreeProps.ml" 67 3160 3190 "ogtkTreeProps.ml" 67 3160 3232
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 68 3233 3258 "ogtkTreeProps.ml" 68 3233 3259
+type(
+  bool
+)
+ident(
+  def p "ogtkTreeProps.ml" 68 3233 3263 "ogtkTreeProps.ml" 68 3233 3305
+)
+"ogtkTreeProps.ml" 68 3233 3237 "ogtkTreeProps.ml" 68 3233 3259
+type(
+  'a
+)
+"ogtkTreeProps.ml" 68 3233 3263 "ogtkTreeProps.ml" 68 3233 3268
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 68 3233 3269 "ogtkTreeProps.ml" 68 3233 3303
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRenderer.P.cell_background_set
+)
+"ogtkTreeProps.ml" 68 3233 3304 "ogtkTreeProps.ml" 68 3233 3305
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 68 3233 3258 "ogtkTreeProps.ml" 68 3233 3259
+)
+"ogtkTreeProps.ml" 68 3233 3263 "ogtkTreeProps.ml" 68 3233 3305
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 69 3306 3318 "ogtkTreeProps.ml" 69 3306 3319
+type(
+  int
+)
+ident(
+  def p "ogtkTreeProps.ml" 69 3306 3323 "ogtkTreeProps.ml" 69 3306 3352
+)
+"ogtkTreeProps.ml" 69 3306 3310 "ogtkTreeProps.ml" 69 3306 3319
+type(
+  'a
+)
+"ogtkTreeProps.ml" 69 3306 3323 "ogtkTreeProps.ml" 69 3306 3328
+type(
+  ('b, int) Gobject.property -> int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 69 3306 3329 "ogtkTreeProps.ml" 69 3306 3350
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRenderer.P.height
+)
+"ogtkTreeProps.ml" 69 3306 3351 "ogtkTreeProps.ml" 69 3306 3352
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 69 3306 3318 "ogtkTreeProps.ml" 69 3306 3319
+)
+"ogtkTreeProps.ml" 69 3306 3323 "ogtkTreeProps.ml" 69 3306 3352
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 70 3353 3370 "ogtkTreeProps.ml" 70 3353 3371
+type(
+  bool
+)
+ident(
+  def p "ogtkTreeProps.ml" 70 3353 3375 "ogtkTreeProps.ml" 70 3353 3409
+)
+"ogtkTreeProps.ml" 70 3353 3357 "ogtkTreeProps.ml" 70 3353 3371
+type(
+  'a
+)
+"ogtkTreeProps.ml" 70 3353 3375 "ogtkTreeProps.ml" 70 3353 3380
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 70 3353 3381 "ogtkTreeProps.ml" 70 3353 3407
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRenderer.P.is_expanded
+)
+"ogtkTreeProps.ml" 70 3353 3408 "ogtkTreeProps.ml" 70 3353 3409
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 70 3353 3370 "ogtkTreeProps.ml" 70 3353 3371
+)
+"ogtkTreeProps.ml" 70 3353 3375 "ogtkTreeProps.ml" 70 3353 3409
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 71 3410 3427 "ogtkTreeProps.ml" 71 3410 3428
+type(
+  bool
+)
+ident(
+  def p "ogtkTreeProps.ml" 71 3410 3432 "ogtkTreeProps.ml" 71 3410 3466
+)
+"ogtkTreeProps.ml" 71 3410 3414 "ogtkTreeProps.ml" 71 3410 3428
+type(
+  'a
+)
+"ogtkTreeProps.ml" 71 3410 3432 "ogtkTreeProps.ml" 71 3410 3437
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 71 3410 3438 "ogtkTreeProps.ml" 71 3410 3464
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRenderer.P.is_expander
+)
+"ogtkTreeProps.ml" 71 3410 3465 "ogtkTreeProps.ml" 71 3410 3466
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 71 3410 3427 "ogtkTreeProps.ml" 71 3410 3428
+)
+"ogtkTreeProps.ml" 71 3410 3432 "ogtkTreeProps.ml" 71 3410 3466
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 72 3467 3477 "ogtkTreeProps.ml" 72 3467 3478
+type(
+  GtkEnums.cell_renderer_mode
+)
+ident(
+  def p "ogtkTreeProps.ml" 72 3467 3482 "ogtkTreeProps.ml" 72 3467 3509
+)
+"ogtkTreeProps.ml" 72 3467 3471 "ogtkTreeProps.ml" 72 3467 3478
+type(
+  'a
+)
+"ogtkTreeProps.ml" 72 3467 3482 "ogtkTreeProps.ml" 72 3467 3487
+type(
+  ('b, GtkEnums.cell_renderer_mode) Gobject.property ->
+  GtkEnums.cell_renderer_mode -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 72 3467 3488 "ogtkTreeProps.ml" 72 3467 3507
+type(
+  ('b, GtkEnums.cell_renderer_mode) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRenderer.P.mode
+)
+"ogtkTreeProps.ml" 72 3467 3508 "ogtkTreeProps.ml" 72 3467 3509
+type(
+  GtkEnums.cell_renderer_mode
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 72 3467 3477 "ogtkTreeProps.ml" 72 3467 3478
+)
+"ogtkTreeProps.ml" 72 3467 3482 "ogtkTreeProps.ml" 72 3467 3509
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 73 3510 3523 "ogtkTreeProps.ml" 73 3510 3524
+type(
+  bool
+)
+ident(
+  def p "ogtkTreeProps.ml" 73 3510 3528 "ogtkTreeProps.ml" 73 3510 3558
+)
+"ogtkTreeProps.ml" 73 3510 3514 "ogtkTreeProps.ml" 73 3510 3524
+type(
+  'a
+)
+"ogtkTreeProps.ml" 73 3510 3528 "ogtkTreeProps.ml" 73 3510 3533
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 73 3510 3534 "ogtkTreeProps.ml" 73 3510 3556
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRenderer.P.visible
+)
+"ogtkTreeProps.ml" 73 3510 3557 "ogtkTreeProps.ml" 73 3510 3558
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 73 3510 3523 "ogtkTreeProps.ml" 73 3510 3524
+)
+"ogtkTreeProps.ml" 73 3510 3528 "ogtkTreeProps.ml" 73 3510 3558
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 74 3559 3570 "ogtkTreeProps.ml" 74 3559 3571
+type(
+  int
+)
+ident(
+  def p "ogtkTreeProps.ml" 74 3559 3575 "ogtkTreeProps.ml" 74 3559 3603
+)
+"ogtkTreeProps.ml" 74 3559 3563 "ogtkTreeProps.ml" 74 3559 3571
+type(
+  'a
+)
+"ogtkTreeProps.ml" 74 3559 3575 "ogtkTreeProps.ml" 74 3559 3580
+type(
+  ('b, int) Gobject.property -> int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 74 3559 3581 "ogtkTreeProps.ml" 74 3559 3601
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRenderer.P.width
+)
+"ogtkTreeProps.ml" 74 3559 3602 "ogtkTreeProps.ml" 74 3559 3603
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 74 3559 3570 "ogtkTreeProps.ml" 74 3559 3571
+)
+"ogtkTreeProps.ml" 74 3559 3575 "ogtkTreeProps.ml" 74 3559 3603
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 75 3604 3616 "ogtkTreeProps.ml" 75 3604 3617
+type(
+  float
+)
+ident(
+  def p "ogtkTreeProps.ml" 75 3604 3621 "ogtkTreeProps.ml" 75 3604 3650
+)
+"ogtkTreeProps.ml" 75 3604 3608 "ogtkTreeProps.ml" 75 3604 3617
+type(
+  'a
+)
+"ogtkTreeProps.ml" 75 3604 3621 "ogtkTreeProps.ml" 75 3604 3626
+type(
+  ('b, float) Gobject.property -> float -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 75 3604 3627 "ogtkTreeProps.ml" 75 3604 3648
+type(
+  ('b, float) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRenderer.P.xalign
+)
+"ogtkTreeProps.ml" 75 3604 3649 "ogtkTreeProps.ml" 75 3604 3650
+type(
+  float
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 75 3604 3616 "ogtkTreeProps.ml" 75 3604 3617
+)
+"ogtkTreeProps.ml" 75 3604 3621 "ogtkTreeProps.ml" 75 3604 3650
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 76 3651 3661 "ogtkTreeProps.ml" 76 3651 3662
+type(
+  int
+)
+ident(
+  def p "ogtkTreeProps.ml" 76 3651 3666 "ogtkTreeProps.ml" 76 3651 3693
+)
+"ogtkTreeProps.ml" 76 3651 3655 "ogtkTreeProps.ml" 76 3651 3662
+type(
+  'a
+)
+"ogtkTreeProps.ml" 76 3651 3666 "ogtkTreeProps.ml" 76 3651 3671
+type(
+  ('b, int) Gobject.property -> int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 76 3651 3672 "ogtkTreeProps.ml" 76 3651 3691
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRenderer.P.xpad
+)
+"ogtkTreeProps.ml" 76 3651 3692 "ogtkTreeProps.ml" 76 3651 3693
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 76 3651 3661 "ogtkTreeProps.ml" 76 3651 3662
+)
+"ogtkTreeProps.ml" 76 3651 3666 "ogtkTreeProps.ml" 76 3651 3693
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 77 3694 3706 "ogtkTreeProps.ml" 77 3694 3707
+type(
+  float
+)
+ident(
+  def p "ogtkTreeProps.ml" 77 3694 3711 "ogtkTreeProps.ml" 77 3694 3740
+)
+"ogtkTreeProps.ml" 77 3694 3698 "ogtkTreeProps.ml" 77 3694 3707
+type(
+  'a
+)
+"ogtkTreeProps.ml" 77 3694 3711 "ogtkTreeProps.ml" 77 3694 3716
+type(
+  ('b, float) Gobject.property -> float -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 77 3694 3717 "ogtkTreeProps.ml" 77 3694 3738
+type(
+  ('b, float) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRenderer.P.yalign
+)
+"ogtkTreeProps.ml" 77 3694 3739 "ogtkTreeProps.ml" 77 3694 3740
+type(
+  float
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 77 3694 3706 "ogtkTreeProps.ml" 77 3694 3707
+)
+"ogtkTreeProps.ml" 77 3694 3711 "ogtkTreeProps.ml" 77 3694 3740
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 78 3741 3751 "ogtkTreeProps.ml" 78 3741 3752
+type(
+  int
+)
+ident(
+  def p "ogtkTreeProps.ml" 78 3741 3756 "ogtkTreeProps.ml" 78 3741 3783
+)
+"ogtkTreeProps.ml" 78 3741 3745 "ogtkTreeProps.ml" 78 3741 3752
+type(
+  'a
+)
+"ogtkTreeProps.ml" 78 3741 3756 "ogtkTreeProps.ml" 78 3741 3761
+type(
+  ('b, int) Gobject.property -> int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 78 3741 3762 "ogtkTreeProps.ml" 78 3741 3781
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRenderer.P.ypad
+)
+"ogtkTreeProps.ml" 78 3741 3782 "ogtkTreeProps.ml" 78 3741 3783
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 78 3741 3751 "ogtkTreeProps.ml" 78 3741 3752
+)
+"ogtkTreeProps.ml" 78 3741 3756 "ogtkTreeProps.ml" 78 3741 3783
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 65 3060 3086 "ogtkTreeProps.ml" 78 3741 3783
+type(
+  'a -> 'b Gobject.param
+)
+"ogtkTreeProps.ml" 80 3785 3789 "ogtkTreeProps.ml" 80 3785 3815
+type(
+  [< `PIXBUF of GdkPixbuf.pixbuf
+   | `PIXBUF_EXPANDER_CLOSED of GdkPixbuf.pixbuf
+   | `PIXBUF_EXPANDER_OPEN of GdkPixbuf.pixbuf
+   | `STOCK_DETAIL of string
+   | `STOCK_ID of string
+   | `STOCK_SIZE of GtkEnums.icon_size ] ->
+  [> `cellrendererpixbuf ] Gobject.param
+)
+ident(
+  def cell_renderer_pixbuf_param "ogtkTreeProps.ml" 90 4242 4242 --
+)
+"ogtkTreeProps.ml" 81 3827 3839 "ogtkTreeProps.ml" 81 3827 3840
+type(
+  GdkPixbuf.pixbuf
+)
+ident(
+  def p "ogtkTreeProps.ml" 81 3827 3844 "ogtkTreeProps.ml" 81 3827 3879
+)
+"ogtkTreeProps.ml" 81 3827 3831 "ogtkTreeProps.ml" 81 3827 3840
+type(
+  [< `PIXBUF of GdkPixbuf.pixbuf
+   | `PIXBUF_EXPANDER_CLOSED of GdkPixbuf.pixbuf
+   | `PIXBUF_EXPANDER_OPEN of GdkPixbuf.pixbuf
+   | `STOCK_DETAIL of string
+   | `STOCK_ID of string
+   | `STOCK_SIZE of GtkEnums.icon_size ]
+  as 'a
+)
+"ogtkTreeProps.ml" 81 3827 3844 "ogtkTreeProps.ml" 81 3827 3849
+type(
+  ([> `cellrendererpixbuf ] as 'b, GdkPixbuf.pixbuf) Gobject.property ->
+  GdkPixbuf.pixbuf -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 81 3827 3850 "ogtkTreeProps.ml" 81 3827 3877
+type(
+  ('b, GdkPixbuf.pixbuf) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererPixbuf.P.pixbuf
+)
+"ogtkTreeProps.ml" 81 3827 3878 "ogtkTreeProps.ml" 81 3827 3879
+type(
+  GdkPixbuf.pixbuf
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 81 3827 3839 "ogtkTreeProps.ml" 81 3827 3840
+)
+"ogtkTreeProps.ml" 81 3827 3844 "ogtkTreeProps.ml" 81 3827 3879
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 82 3880 3908 "ogtkTreeProps.ml" 82 3880 3909
+type(
+  GdkPixbuf.pixbuf
+)
+ident(
+  def p "ogtkTreeProps.ml" 83 3913 3919 "ogtkTreeProps.ml" 83 3913 3970
+)
+"ogtkTreeProps.ml" 82 3880 3884 "ogtkTreeProps.ml" 82 3880 3909
+type(
+  'a
+)
+"ogtkTreeProps.ml" 83 3913 3919 "ogtkTreeProps.ml" 83 3913 3924
+type(
+  ('b, GdkPixbuf.pixbuf) Gobject.property ->
+  GdkPixbuf.pixbuf -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 83 3913 3925 "ogtkTreeProps.ml" 83 3913 3968
+type(
+  ('b, GdkPixbuf.pixbuf) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererPixbuf.P.pixbuf_expander_closed
+)
+"ogtkTreeProps.ml" 83 3913 3969 "ogtkTreeProps.ml" 83 3913 3970
+type(
+  GdkPixbuf.pixbuf
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 82 3880 3908 "ogtkTreeProps.ml" 82 3880 3909
+)
+"ogtkTreeProps.ml" 83 3913 3919 "ogtkTreeProps.ml" 83 3913 3970
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 84 3971 3997 "ogtkTreeProps.ml" 84 3971 3998
+type(
+  GdkPixbuf.pixbuf
+)
+ident(
+  def p "ogtkTreeProps.ml" 85 4002 4008 "ogtkTreeProps.ml" 85 4002 4057
+)
+"ogtkTreeProps.ml" 84 3971 3975 "ogtkTreeProps.ml" 84 3971 3998
+type(
+  'a
+)
+"ogtkTreeProps.ml" 85 4002 4008 "ogtkTreeProps.ml" 85 4002 4013
+type(
+  ('b, GdkPixbuf.pixbuf) Gobject.property ->
+  GdkPixbuf.pixbuf -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 85 4002 4014 "ogtkTreeProps.ml" 85 4002 4055
+type(
+  ('b, GdkPixbuf.pixbuf) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererPixbuf.P.pixbuf_expander_open
+)
+"ogtkTreeProps.ml" 85 4002 4056 "ogtkTreeProps.ml" 85 4002 4057
+type(
+  GdkPixbuf.pixbuf
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 84 3971 3997 "ogtkTreeProps.ml" 84 3971 3998
+)
+"ogtkTreeProps.ml" 85 4002 4008 "ogtkTreeProps.ml" 85 4002 4057
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 86 4058 4076 "ogtkTreeProps.ml" 86 4058 4077
+type(
+  string
+)
+ident(
+  def p "ogtkTreeProps.ml" 86 4058 4081 "ogtkTreeProps.ml" 86 4058 4122
+)
+"ogtkTreeProps.ml" 86 4058 4062 "ogtkTreeProps.ml" 86 4058 4077
+type(
+  'a
+)
+"ogtkTreeProps.ml" 86 4058 4081 "ogtkTreeProps.ml" 86 4058 4086
+type(
+  ('b, string) Gobject.property -> string -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 86 4058 4087 "ogtkTreeProps.ml" 86 4058 4120
+type(
+  ('b, string) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererPixbuf.P.stock_detail
+)
+"ogtkTreeProps.ml" 86 4058 4121 "ogtkTreeProps.ml" 86 4058 4122
+type(
+  string
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 86 4058 4076 "ogtkTreeProps.ml" 86 4058 4077
+)
+"ogtkTreeProps.ml" 86 4058 4081 "ogtkTreeProps.ml" 86 4058 4122
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 87 4123 4137 "ogtkTreeProps.ml" 87 4123 4138
+type(
+  string
+)
+ident(
+  def p "ogtkTreeProps.ml" 87 4123 4142 "ogtkTreeProps.ml" 87 4123 4179
+)
+"ogtkTreeProps.ml" 87 4123 4127 "ogtkTreeProps.ml" 87 4123 4138
+type(
+  'a
+)
+"ogtkTreeProps.ml" 87 4123 4142 "ogtkTreeProps.ml" 87 4123 4147
+type(
+  ('b, string) Gobject.property -> string -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 87 4123 4148 "ogtkTreeProps.ml" 87 4123 4177
+type(
+  ('b, string) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererPixbuf.P.stock_id
+)
+"ogtkTreeProps.ml" 87 4123 4178 "ogtkTreeProps.ml" 87 4123 4179
+type(
+  string
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 87 4123 4137 "ogtkTreeProps.ml" 87 4123 4138
+)
+"ogtkTreeProps.ml" 87 4123 4142 "ogtkTreeProps.ml" 87 4123 4179
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 88 4180 4196 "ogtkTreeProps.ml" 88 4180 4197
+type(
+  GtkEnums.icon_size
+)
+ident(
+  def p "ogtkTreeProps.ml" 88 4180 4201 "ogtkTreeProps.ml" 88 4180 4240
+)
+"ogtkTreeProps.ml" 88 4180 4184 "ogtkTreeProps.ml" 88 4180 4197
+type(
+  'a
+)
+"ogtkTreeProps.ml" 88 4180 4201 "ogtkTreeProps.ml" 88 4180 4206
+type(
+  ('b, GtkEnums.icon_size) Gobject.property ->
+  GtkEnums.icon_size -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 88 4180 4207 "ogtkTreeProps.ml" 88 4180 4238
+type(
+  ('b, GtkEnums.icon_size) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererPixbuf.P.stock_size
+)
+"ogtkTreeProps.ml" 88 4180 4239 "ogtkTreeProps.ml" 88 4180 4240
+type(
+  GtkEnums.icon_size
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 88 4180 4196 "ogtkTreeProps.ml" 88 4180 4197
+)
+"ogtkTreeProps.ml" 88 4180 4201 "ogtkTreeProps.ml" 88 4180 4240
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 80 3785 3818 "ogtkTreeProps.ml" 88 4180 4240
+type(
+  'a -> 'b Gobject.param
+)
+"ogtkTreeProps.ml" 90 4242 4246 "ogtkTreeProps.ml" 90 4242 4270
+type(
+  [< `BACKGROUND of string
+   | `BACKGROUND_GDK of Gdk.color
+   | `BACKGROUND_SET of bool
+   | `EDITABLE of bool
+   | `FAMILY of string
+   | `FONT of string
+   | `FONT_DESC of Pango.font_description
+   | `FOREGROUND of string
+   | `FOREGROUND_GDK of Gdk.color
+   | `FOREGROUND_SET of bool
+   | `MARKUP of string
+   | `RISE of int
+   | `SCALE of float
+   | `SINGLE_PARAGRAPH_MODE of bool
+   | `SIZE of int
+   | `SIZE_POINTS of float
+   | `STRETCH of PangoEnums.stretch
+   | `STRIKETHROUGH of bool
+   | `STYLE of PangoEnums.style
+   | `TEXT of string
+   | `UNDERLINE of PangoEnums.underline
+   | `VARIANT of PangoEnums.variant
+   | `WEIGHT of int ] ->
+  [> `cellrenderertext ] Gobject.param
+)
+ident(
+  def cell_renderer_text_param "ogtkTreeProps.ml" 116 5596 5596 --
+)
+"ogtkTreeProps.ml" 91 4282 4298 "ogtkTreeProps.ml" 91 4282 4299
+type(
+  string
+)
+ident(
+  def p "ogtkTreeProps.ml" 91 4282 4303 "ogtkTreeProps.ml" 91 4282 4340
+)
+"ogtkTreeProps.ml" 91 4282 4286 "ogtkTreeProps.ml" 91 4282 4299
+type(
+  [< `BACKGROUND of string
+   | `BACKGROUND_GDK of Gdk.color
+   | `BACKGROUND_SET of bool
+   | `EDITABLE of bool
+   | `FAMILY of string
+   | `FONT of string
+   | `FONT_DESC of Pango.font_description
+   | `FOREGROUND of string
+   | `FOREGROUND_GDK of Gdk.color
+   | `FOREGROUND_SET of bool
+   | `MARKUP of string
+   | `RISE of int
+   | `SCALE of float
+   | `SINGLE_PARAGRAPH_MODE of bool
+   | `SIZE of int
+   | `SIZE_POINTS of float
+   | `STRETCH of PangoEnums.stretch
+   | `STRIKETHROUGH of bool
+   | `STYLE of PangoEnums.style
+   | `TEXT of string
+   | `UNDERLINE of PangoEnums.underline
+   | `VARIANT of PangoEnums.variant
+   | `WEIGHT of int ]
+  as 'a
+)
+"ogtkTreeProps.ml" 91 4282 4303 "ogtkTreeProps.ml" 91 4282 4308
+type(
+  ([> `cellrenderertext ] as 'b, string) Gobject.property ->
+  string -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 91 4282 4309 "ogtkTreeProps.ml" 91 4282 4338
+type(
+  ('b, string) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.background
+)
+"ogtkTreeProps.ml" 91 4282 4339 "ogtkTreeProps.ml" 91 4282 4340
+type(
+  string
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 91 4282 4298 "ogtkTreeProps.ml" 91 4282 4299
+)
+"ogtkTreeProps.ml" 91 4282 4303 "ogtkTreeProps.ml" 91 4282 4340
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 92 4341 4361 "ogtkTreeProps.ml" 92 4341 4362
+type(
+  Gdk.color
+)
+ident(
+  def p "ogtkTreeProps.ml" 92 4341 4366 "ogtkTreeProps.ml" 92 4341 4407
+)
+"ogtkTreeProps.ml" 92 4341 4345 "ogtkTreeProps.ml" 92 4341 4362
+type(
+  'a
+)
+"ogtkTreeProps.ml" 92 4341 4366 "ogtkTreeProps.ml" 92 4341 4371
+type(
+  ('b, Gdk.color) Gobject.property -> Gdk.color -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 92 4341 4372 "ogtkTreeProps.ml" 92 4341 4405
+type(
+  ('b, Gdk.color) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.background_gdk
+)
+"ogtkTreeProps.ml" 92 4341 4406 "ogtkTreeProps.ml" 92 4341 4407
+type(
+  Gdk.color
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 92 4341 4361 "ogtkTreeProps.ml" 92 4341 4362
+)
+"ogtkTreeProps.ml" 92 4341 4366 "ogtkTreeProps.ml" 92 4341 4407
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 93 4408 4428 "ogtkTreeProps.ml" 93 4408 4429
+type(
+  bool
+)
+ident(
+  def p "ogtkTreeProps.ml" 93 4408 4433 "ogtkTreeProps.ml" 93 4408 4474
+)
+"ogtkTreeProps.ml" 93 4408 4412 "ogtkTreeProps.ml" 93 4408 4429
+type(
+  'a
+)
+"ogtkTreeProps.ml" 93 4408 4433 "ogtkTreeProps.ml" 93 4408 4438
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 93 4408 4439 "ogtkTreeProps.ml" 93 4408 4472
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.background_set
+)
+"ogtkTreeProps.ml" 93 4408 4473 "ogtkTreeProps.ml" 93 4408 4474
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 93 4408 4428 "ogtkTreeProps.ml" 93 4408 4429
+)
+"ogtkTreeProps.ml" 93 4408 4433 "ogtkTreeProps.ml" 93 4408 4474
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 94 4475 4489 "ogtkTreeProps.ml" 94 4475 4490
+type(
+  bool
+)
+ident(
+  def p "ogtkTreeProps.ml" 94 4475 4494 "ogtkTreeProps.ml" 94 4475 4529
+)
+"ogtkTreeProps.ml" 94 4475 4479 "ogtkTreeProps.ml" 94 4475 4490
+type(
+  'a
+)
+"ogtkTreeProps.ml" 94 4475 4494 "ogtkTreeProps.ml" 94 4475 4499
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 94 4475 4500 "ogtkTreeProps.ml" 94 4475 4527
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.editable
+)
+"ogtkTreeProps.ml" 94 4475 4528 "ogtkTreeProps.ml" 94 4475 4529
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 94 4475 4489 "ogtkTreeProps.ml" 94 4475 4490
+)
+"ogtkTreeProps.ml" 94 4475 4494 "ogtkTreeProps.ml" 94 4475 4529
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 95 4530 4542 "ogtkTreeProps.ml" 95 4530 4543
+type(
+  string
+)
+ident(
+  def p "ogtkTreeProps.ml" 95 4530 4547 "ogtkTreeProps.ml" 95 4530 4580
+)
+"ogtkTreeProps.ml" 95 4530 4534 "ogtkTreeProps.ml" 95 4530 4543
+type(
+  'a
+)
+"ogtkTreeProps.ml" 95 4530 4547 "ogtkTreeProps.ml" 95 4530 4552
+type(
+  ('b, string) Gobject.property -> string -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 95 4530 4553 "ogtkTreeProps.ml" 95 4530 4578
+type(
+  ('b, string) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.family
+)
+"ogtkTreeProps.ml" 95 4530 4579 "ogtkTreeProps.ml" 95 4530 4580
+type(
+  string
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 95 4530 4542 "ogtkTreeProps.ml" 95 4530 4543
+)
+"ogtkTreeProps.ml" 95 4530 4547 "ogtkTreeProps.ml" 95 4530 4580
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 96 4581 4591 "ogtkTreeProps.ml" 96 4581 4592
+type(
+  string
+)
+ident(
+  def p "ogtkTreeProps.ml" 96 4581 4596 "ogtkTreeProps.ml" 96 4581 4627
+)
+"ogtkTreeProps.ml" 96 4581 4585 "ogtkTreeProps.ml" 96 4581 4592
+type(
+  'a
+)
+"ogtkTreeProps.ml" 96 4581 4596 "ogtkTreeProps.ml" 96 4581 4601
+type(
+  ('b, string) Gobject.property -> string -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 96 4581 4602 "ogtkTreeProps.ml" 96 4581 4625
+type(
+  ('b, string) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.font
+)
+"ogtkTreeProps.ml" 96 4581 4626 "ogtkTreeProps.ml" 96 4581 4627
+type(
+  string
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 96 4581 4591 "ogtkTreeProps.ml" 96 4581 4592
+)
+"ogtkTreeProps.ml" 96 4581 4596 "ogtkTreeProps.ml" 96 4581 4627
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 97 4628 4643 "ogtkTreeProps.ml" 97 4628 4644
+type(
+  Pango.font_description
+)
+ident(
+  def p "ogtkTreeProps.ml" 97 4628 4648 "ogtkTreeProps.ml" 97 4628 4684
+)
+"ogtkTreeProps.ml" 97 4628 4632 "ogtkTreeProps.ml" 97 4628 4644
+type(
+  'a
+)
+"ogtkTreeProps.ml" 97 4628 4648 "ogtkTreeProps.ml" 97 4628 4653
+type(
+  ('b, Pango.font_description) Gobject.property ->
+  Pango.font_description -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 97 4628 4654 "ogtkTreeProps.ml" 97 4628 4682
+type(
+  ('b, Pango.font_description) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.font_desc
+)
+"ogtkTreeProps.ml" 97 4628 4683 "ogtkTreeProps.ml" 97 4628 4684
+type(
+  Pango.font_description
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 97 4628 4643 "ogtkTreeProps.ml" 97 4628 4644
+)
+"ogtkTreeProps.ml" 97 4628 4648 "ogtkTreeProps.ml" 97 4628 4684
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 98 4685 4701 "ogtkTreeProps.ml" 98 4685 4702
+type(
+  string
+)
+ident(
+  def p "ogtkTreeProps.ml" 98 4685 4706 "ogtkTreeProps.ml" 98 4685 4743
+)
+"ogtkTreeProps.ml" 98 4685 4689 "ogtkTreeProps.ml" 98 4685 4702
+type(
+  'a
+)
+"ogtkTreeProps.ml" 98 4685 4706 "ogtkTreeProps.ml" 98 4685 4711
+type(
+  ('b, string) Gobject.property -> string -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 98 4685 4712 "ogtkTreeProps.ml" 98 4685 4741
+type(
+  ('b, string) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.foreground
+)
+"ogtkTreeProps.ml" 98 4685 4742 "ogtkTreeProps.ml" 98 4685 4743
+type(
+  string
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 98 4685 4701 "ogtkTreeProps.ml" 98 4685 4702
+)
+"ogtkTreeProps.ml" 98 4685 4706 "ogtkTreeProps.ml" 98 4685 4743
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 99 4744 4764 "ogtkTreeProps.ml" 99 4744 4765
+type(
+  Gdk.color
+)
+ident(
+  def p "ogtkTreeProps.ml" 99 4744 4769 "ogtkTreeProps.ml" 99 4744 4810
+)
+"ogtkTreeProps.ml" 99 4744 4748 "ogtkTreeProps.ml" 99 4744 4765
+type(
+  'a
+)
+"ogtkTreeProps.ml" 99 4744 4769 "ogtkTreeProps.ml" 99 4744 4774
+type(
+  ('b, Gdk.color) Gobject.property -> Gdk.color -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 99 4744 4775 "ogtkTreeProps.ml" 99 4744 4808
+type(
+  ('b, Gdk.color) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.foreground_gdk
+)
+"ogtkTreeProps.ml" 99 4744 4809 "ogtkTreeProps.ml" 99 4744 4810
+type(
+  Gdk.color
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 99 4744 4764 "ogtkTreeProps.ml" 99 4744 4765
+)
+"ogtkTreeProps.ml" 99 4744 4769 "ogtkTreeProps.ml" 99 4744 4810
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 100 4811 4831 "ogtkTreeProps.ml" 100 4811 4832
+type(
+  bool
+)
+ident(
+  def p "ogtkTreeProps.ml" 100 4811 4836 "ogtkTreeProps.ml" 100 4811 4877
+)
+"ogtkTreeProps.ml" 100 4811 4815 "ogtkTreeProps.ml" 100 4811 4832
+type(
+  'a
+)
+"ogtkTreeProps.ml" 100 4811 4836 "ogtkTreeProps.ml" 100 4811 4841
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 100 4811 4842 "ogtkTreeProps.ml" 100 4811 4875
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.foreground_set
+)
+"ogtkTreeProps.ml" 100 4811 4876 "ogtkTreeProps.ml" 100 4811 4877
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 100 4811 4831 "ogtkTreeProps.ml" 100 4811 4832
+)
+"ogtkTreeProps.ml" 100 4811 4836 "ogtkTreeProps.ml" 100 4811 4877
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 101 4878 4890 "ogtkTreeProps.ml" 101 4878 4891
+type(
+  string
+)
+ident(
+  def p "ogtkTreeProps.ml" 101 4878 4895 "ogtkTreeProps.ml" 101 4878 4928
+)
+"ogtkTreeProps.ml" 101 4878 4882 "ogtkTreeProps.ml" 101 4878 4891
+type(
+  'a
+)
+"ogtkTreeProps.ml" 101 4878 4895 "ogtkTreeProps.ml" 101 4878 4900
+type(
+  ('b, string) Gobject.property -> string -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 101 4878 4901 "ogtkTreeProps.ml" 101 4878 4926
+type(
+  ('b, string) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.markup
+)
+"ogtkTreeProps.ml" 101 4878 4927 "ogtkTreeProps.ml" 101 4878 4928
+type(
+  string
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 101 4878 4890 "ogtkTreeProps.ml" 101 4878 4891
+)
+"ogtkTreeProps.ml" 101 4878 4895 "ogtkTreeProps.ml" 101 4878 4928
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 102 4929 4939 "ogtkTreeProps.ml" 102 4929 4940
+type(
+  int
+)
+ident(
+  def p "ogtkTreeProps.ml" 102 4929 4944 "ogtkTreeProps.ml" 102 4929 4975
+)
+"ogtkTreeProps.ml" 102 4929 4933 "ogtkTreeProps.ml" 102 4929 4940
+type(
+  'a
+)
+"ogtkTreeProps.ml" 102 4929 4944 "ogtkTreeProps.ml" 102 4929 4949
+type(
+  ('b, int) Gobject.property -> int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 102 4929 4950 "ogtkTreeProps.ml" 102 4929 4973
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.rise
+)
+"ogtkTreeProps.ml" 102 4929 4974 "ogtkTreeProps.ml" 102 4929 4975
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 102 4929 4939 "ogtkTreeProps.ml" 102 4929 4940
+)
+"ogtkTreeProps.ml" 102 4929 4944 "ogtkTreeProps.ml" 102 4929 4975
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 103 4976 4987 "ogtkTreeProps.ml" 103 4976 4988
+type(
+  float
+)
+ident(
+  def p "ogtkTreeProps.ml" 103 4976 4992 "ogtkTreeProps.ml" 103 4976 5024
+)
+"ogtkTreeProps.ml" 103 4976 4980 "ogtkTreeProps.ml" 103 4976 4988
+type(
+  'a
+)
+"ogtkTreeProps.ml" 103 4976 4992 "ogtkTreeProps.ml" 103 4976 4997
+type(
+  ('b, float) Gobject.property -> float -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 103 4976 4998 "ogtkTreeProps.ml" 103 4976 5022
+type(
+  ('b, float) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.scale
+)
+"ogtkTreeProps.ml" 103 4976 5023 "ogtkTreeProps.ml" 103 4976 5024
+type(
+  float
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 103 4976 4987 "ogtkTreeProps.ml" 103 4976 4988
+)
+"ogtkTreeProps.ml" 103 4976 4992 "ogtkTreeProps.ml" 103 4976 5024
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 104 5025 5052 "ogtkTreeProps.ml" 104 5025 5053
+type(
+  bool
+)
+ident(
+  def p "ogtkTreeProps.ml" 105 5057 5063 "ogtkTreeProps.ml" 105 5057 5111
+)
+"ogtkTreeProps.ml" 104 5025 5029 "ogtkTreeProps.ml" 104 5025 5053
+type(
+  'a
+)
+"ogtkTreeProps.ml" 105 5057 5063 "ogtkTreeProps.ml" 105 5057 5068
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 105 5057 5069 "ogtkTreeProps.ml" 105 5057 5109
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.single_paragraph_mode
+)
+"ogtkTreeProps.ml" 105 5057 5110 "ogtkTreeProps.ml" 105 5057 5111
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 104 5025 5052 "ogtkTreeProps.ml" 104 5025 5053
+)
+"ogtkTreeProps.ml" 105 5057 5063 "ogtkTreeProps.ml" 105 5057 5111
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 106 5112 5122 "ogtkTreeProps.ml" 106 5112 5123
+type(
+  int
+)
+ident(
+  def p "ogtkTreeProps.ml" 106 5112 5127 "ogtkTreeProps.ml" 106 5112 5158
+)
+"ogtkTreeProps.ml" 106 5112 5116 "ogtkTreeProps.ml" 106 5112 5123
+type(
+  'a
+)
+"ogtkTreeProps.ml" 106 5112 5127 "ogtkTreeProps.ml" 106 5112 5132
+type(
+  ('b, int) Gobject.property -> int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 106 5112 5133 "ogtkTreeProps.ml" 106 5112 5156
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.size
+)
+"ogtkTreeProps.ml" 106 5112 5157 "ogtkTreeProps.ml" 106 5112 5158
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 106 5112 5122 "ogtkTreeProps.ml" 106 5112 5123
+)
+"ogtkTreeProps.ml" 106 5112 5127 "ogtkTreeProps.ml" 106 5112 5158
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 107 5159 5176 "ogtkTreeProps.ml" 107 5159 5177
+type(
+  float
+)
+ident(
+  def p "ogtkTreeProps.ml" 107 5159 5181 "ogtkTreeProps.ml" 107 5159 5219
+)
+"ogtkTreeProps.ml" 107 5159 5163 "ogtkTreeProps.ml" 107 5159 5177
+type(
+  'a
+)
+"ogtkTreeProps.ml" 107 5159 5181 "ogtkTreeProps.ml" 107 5159 5186
+type(
+  ('b, float) Gobject.property -> float -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 107 5159 5187 "ogtkTreeProps.ml" 107 5159 5217
+type(
+  ('b, float) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.size_points
+)
+"ogtkTreeProps.ml" 107 5159 5218 "ogtkTreeProps.ml" 107 5159 5219
+type(
+  float
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 107 5159 5176 "ogtkTreeProps.ml" 107 5159 5177
+)
+"ogtkTreeProps.ml" 107 5159 5181 "ogtkTreeProps.ml" 107 5159 5219
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 108 5220 5233 "ogtkTreeProps.ml" 108 5220 5234
+type(
+  PangoEnums.stretch
+)
+ident(
+  def p "ogtkTreeProps.ml" 108 5220 5238 "ogtkTreeProps.ml" 108 5220 5272
+)
+"ogtkTreeProps.ml" 108 5220 5224 "ogtkTreeProps.ml" 108 5220 5234
+type(
+  'a
+)
+"ogtkTreeProps.ml" 108 5220 5238 "ogtkTreeProps.ml" 108 5220 5243
+type(
+  ('b, PangoEnums.stretch) Gobject.property ->
+  PangoEnums.stretch -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 108 5220 5244 "ogtkTreeProps.ml" 108 5220 5270
+type(
+  ('b, PangoEnums.stretch) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.stretch
+)
+"ogtkTreeProps.ml" 108 5220 5271 "ogtkTreeProps.ml" 108 5220 5272
+type(
+  PangoEnums.stretch
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 108 5220 5233 "ogtkTreeProps.ml" 108 5220 5234
+)
+"ogtkTreeProps.ml" 108 5220 5238 "ogtkTreeProps.ml" 108 5220 5272
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 109 5273 5292 "ogtkTreeProps.ml" 109 5273 5293
+type(
+  bool
+)
+ident(
+  def p "ogtkTreeProps.ml" 109 5273 5297 "ogtkTreeProps.ml" 109 5273 5337
+)
+"ogtkTreeProps.ml" 109 5273 5277 "ogtkTreeProps.ml" 109 5273 5293
+type(
+  'a
+)
+"ogtkTreeProps.ml" 109 5273 5297 "ogtkTreeProps.ml" 109 5273 5302
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 109 5273 5303 "ogtkTreeProps.ml" 109 5273 5335
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.strikethrough
+)
+"ogtkTreeProps.ml" 109 5273 5336 "ogtkTreeProps.ml" 109 5273 5337
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 109 5273 5292 "ogtkTreeProps.ml" 109 5273 5293
+)
+"ogtkTreeProps.ml" 109 5273 5297 "ogtkTreeProps.ml" 109 5273 5337
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 110 5338 5349 "ogtkTreeProps.ml" 110 5338 5350
+type(
+  PangoEnums.style
+)
+ident(
+  def p "ogtkTreeProps.ml" 110 5338 5354 "ogtkTreeProps.ml" 110 5338 5386
+)
+"ogtkTreeProps.ml" 110 5338 5342 "ogtkTreeProps.ml" 110 5338 5350
+type(
+  'a
+)
+"ogtkTreeProps.ml" 110 5338 5354 "ogtkTreeProps.ml" 110 5338 5359
+type(
+  ('b, PangoEnums.style) Gobject.property ->
+  PangoEnums.style -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 110 5338 5360 "ogtkTreeProps.ml" 110 5338 5384
+type(
+  ('b, PangoEnums.style) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.style
+)
+"ogtkTreeProps.ml" 110 5338 5385 "ogtkTreeProps.ml" 110 5338 5386
+type(
+  PangoEnums.style
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 110 5338 5349 "ogtkTreeProps.ml" 110 5338 5350
+)
+"ogtkTreeProps.ml" 110 5338 5354 "ogtkTreeProps.ml" 110 5338 5386
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 111 5387 5397 "ogtkTreeProps.ml" 111 5387 5398
+type(
+  string
+)
+ident(
+  def p "ogtkTreeProps.ml" 111 5387 5402 "ogtkTreeProps.ml" 111 5387 5433
+)
+"ogtkTreeProps.ml" 111 5387 5391 "ogtkTreeProps.ml" 111 5387 5398
+type(
+  'a
+)
+"ogtkTreeProps.ml" 111 5387 5402 "ogtkTreeProps.ml" 111 5387 5407
+type(
+  ('b, string) Gobject.property -> string -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 111 5387 5408 "ogtkTreeProps.ml" 111 5387 5431
+type(
+  ('b, string) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.text
+)
+"ogtkTreeProps.ml" 111 5387 5432 "ogtkTreeProps.ml" 111 5387 5433
+type(
+  string
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 111 5387 5397 "ogtkTreeProps.ml" 111 5387 5398
+)
+"ogtkTreeProps.ml" 111 5387 5402 "ogtkTreeProps.ml" 111 5387 5433
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 112 5434 5449 "ogtkTreeProps.ml" 112 5434 5450
+type(
+  PangoEnums.underline
+)
+ident(
+  def p "ogtkTreeProps.ml" 112 5434 5454 "ogtkTreeProps.ml" 112 5434 5490
+)
+"ogtkTreeProps.ml" 112 5434 5438 "ogtkTreeProps.ml" 112 5434 5450
+type(
+  'a
+)
+"ogtkTreeProps.ml" 112 5434 5454 "ogtkTreeProps.ml" 112 5434 5459
+type(
+  ('b, PangoEnums.underline) Gobject.property ->
+  PangoEnums.underline -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 112 5434 5460 "ogtkTreeProps.ml" 112 5434 5488
+type(
+  ('b, PangoEnums.underline) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.underline
+)
+"ogtkTreeProps.ml" 112 5434 5489 "ogtkTreeProps.ml" 112 5434 5490
+type(
+  PangoEnums.underline
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 112 5434 5449 "ogtkTreeProps.ml" 112 5434 5450
+)
+"ogtkTreeProps.ml" 112 5434 5454 "ogtkTreeProps.ml" 112 5434 5490
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 113 5491 5504 "ogtkTreeProps.ml" 113 5491 5505
+type(
+  PangoEnums.variant
+)
+ident(
+  def p "ogtkTreeProps.ml" 113 5491 5509 "ogtkTreeProps.ml" 113 5491 5543
+)
+"ogtkTreeProps.ml" 113 5491 5495 "ogtkTreeProps.ml" 113 5491 5505
+type(
+  'a
+)
+"ogtkTreeProps.ml" 113 5491 5509 "ogtkTreeProps.ml" 113 5491 5514
+type(
+  ('b, PangoEnums.variant) Gobject.property ->
+  PangoEnums.variant -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 113 5491 5515 "ogtkTreeProps.ml" 113 5491 5541
+type(
+  ('b, PangoEnums.variant) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.variant
+)
+"ogtkTreeProps.ml" 113 5491 5542 "ogtkTreeProps.ml" 113 5491 5543
+type(
+  PangoEnums.variant
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 113 5491 5504 "ogtkTreeProps.ml" 113 5491 5505
+)
+"ogtkTreeProps.ml" 113 5491 5509 "ogtkTreeProps.ml" 113 5491 5543
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 114 5544 5556 "ogtkTreeProps.ml" 114 5544 5557
+type(
+  int
+)
+ident(
+  def p "ogtkTreeProps.ml" 114 5544 5561 "ogtkTreeProps.ml" 114 5544 5594
+)
+"ogtkTreeProps.ml" 114 5544 5548 "ogtkTreeProps.ml" 114 5544 5557
+type(
+  'a
+)
+"ogtkTreeProps.ml" 114 5544 5561 "ogtkTreeProps.ml" 114 5544 5566
+type(
+  ('b, int) Gobject.property -> int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 114 5544 5567 "ogtkTreeProps.ml" 114 5544 5592
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererText.P.weight
+)
+"ogtkTreeProps.ml" 114 5544 5593 "ogtkTreeProps.ml" 114 5544 5594
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 114 5544 5556 "ogtkTreeProps.ml" 114 5544 5557
+)
+"ogtkTreeProps.ml" 114 5544 5561 "ogtkTreeProps.ml" 114 5544 5594
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 90 4242 4273 "ogtkTreeProps.ml" 114 5544 5594
+type(
+  'a -> 'b Gobject.param
+)
+"ogtkTreeProps.ml" 116 5596 5600 "ogtkTreeProps.ml" 116 5596 5626
+type(
+  [< `ACTIVATABLE of bool
+   | `ACTIVE of bool
+   | `INCONSISTENT of bool
+   | `RADIO of bool ] ->
+  [> `cellrenderertoggle ] Gobject.param
+)
+ident(
+  def cell_renderer_toggle_param "ogtkTreeProps.ml" 122 5871 5871 --
+)
+"ogtkTreeProps.ml" 117 5638 5655 "ogtkTreeProps.ml" 117 5638 5656
+type(
+  bool
+)
+ident(
+  def p "ogtkTreeProps.ml" 117 5638 5660 "ogtkTreeProps.ml" 117 5638 5700
+)
+"ogtkTreeProps.ml" 117 5638 5642 "ogtkTreeProps.ml" 117 5638 5656
+type(
+  [< `ACTIVATABLE of bool
+   | `ACTIVE of bool
+   | `INCONSISTENT of bool
+   | `RADIO of bool ]
+  as 'a
+)
+"ogtkTreeProps.ml" 117 5638 5660 "ogtkTreeProps.ml" 117 5638 5665
+type(
+  ([> `cellrenderertoggle ] as 'b, bool) Gobject.property ->
+  bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 117 5638 5666 "ogtkTreeProps.ml" 117 5638 5698
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererToggle.P.activatable
+)
+"ogtkTreeProps.ml" 117 5638 5699 "ogtkTreeProps.ml" 117 5638 5700
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 117 5638 5655 "ogtkTreeProps.ml" 117 5638 5656
+)
+"ogtkTreeProps.ml" 117 5638 5660 "ogtkTreeProps.ml" 117 5638 5700
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 118 5701 5713 "ogtkTreeProps.ml" 118 5701 5714
+type(
+  bool
+)
+ident(
+  def p "ogtkTreeProps.ml" 118 5701 5718 "ogtkTreeProps.ml" 118 5701 5753
+)
+"ogtkTreeProps.ml" 118 5701 5705 "ogtkTreeProps.ml" 118 5701 5714
+type(
+  'a
+)
+"ogtkTreeProps.ml" 118 5701 5718 "ogtkTreeProps.ml" 118 5701 5723
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 118 5701 5724 "ogtkTreeProps.ml" 118 5701 5751
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererToggle.P.active
+)
+"ogtkTreeProps.ml" 118 5701 5752 "ogtkTreeProps.ml" 118 5701 5753
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 118 5701 5713 "ogtkTreeProps.ml" 118 5701 5714
+)
+"ogtkTreeProps.ml" 118 5701 5718 "ogtkTreeProps.ml" 118 5701 5753
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 119 5754 5772 "ogtkTreeProps.ml" 119 5754 5773
+type(
+  bool
+)
+ident(
+  def p "ogtkTreeProps.ml" 119 5754 5777 "ogtkTreeProps.ml" 119 5754 5818
+)
+"ogtkTreeProps.ml" 119 5754 5758 "ogtkTreeProps.ml" 119 5754 5773
+type(
+  'a
+)
+"ogtkTreeProps.ml" 119 5754 5777 "ogtkTreeProps.ml" 119 5754 5782
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 119 5754 5783 "ogtkTreeProps.ml" 119 5754 5816
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererToggle.P.inconsistent
+)
+"ogtkTreeProps.ml" 119 5754 5817 "ogtkTreeProps.ml" 119 5754 5818
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 119 5754 5772 "ogtkTreeProps.ml" 119 5754 5773
+)
+"ogtkTreeProps.ml" 119 5754 5777 "ogtkTreeProps.ml" 119 5754 5818
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 120 5819 5830 "ogtkTreeProps.ml" 120 5819 5831
+type(
+  bool
+)
+ident(
+  def p "ogtkTreeProps.ml" 120 5819 5835 "ogtkTreeProps.ml" 120 5819 5869
+)
+"ogtkTreeProps.ml" 120 5819 5823 "ogtkTreeProps.ml" 120 5819 5831
+type(
+  'a
+)
+"ogtkTreeProps.ml" 120 5819 5835 "ogtkTreeProps.ml" 120 5819 5840
+type(
+  ('b, bool) Gobject.property -> bool -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 120 5819 5841 "ogtkTreeProps.ml" 120 5819 5867
+type(
+  ('b, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererToggle.P.radio
+)
+"ogtkTreeProps.ml" 120 5819 5868 "ogtkTreeProps.ml" 120 5819 5869
+type(
+  bool
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 120 5819 5830 "ogtkTreeProps.ml" 120 5819 5831
+)
+"ogtkTreeProps.ml" 120 5819 5835 "ogtkTreeProps.ml" 120 5819 5869
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 116 5596 5629 "ogtkTreeProps.ml" 120 5819 5869
+type(
+  'a -> 'b Gobject.param
+)
+"ogtkTreeProps.ml" 122 5871 5875 "ogtkTreeProps.ml" 122 5871 5903
+type(
+  [< `TEXT of string option | `VALUE of int ] ->
+  [> `cellrendererprogress ] Gobject.param
+)
+ident(
+  def cell_renderer_progress_param "ogtkTreeProps.ml" 126 6020 6020 --
+)
+"ogtkTreeProps.ml" 123 5915 5926 "ogtkTreeProps.ml" 123 5915 5927
+type(
+  int
+)
+ident(
+  def p "ogtkTreeProps.ml" 123 5915 5931 "ogtkTreeProps.ml" 123 5915 5967
+)
+"ogtkTreeProps.ml" 123 5915 5919 "ogtkTreeProps.ml" 123 5915 5927
+type(
+  [< `TEXT of string option | `VALUE of int ] as 'a
+)
+"ogtkTreeProps.ml" 123 5915 5931 "ogtkTreeProps.ml" 123 5915 5936
+type(
+  ([> `cellrendererprogress ] as 'b, int) Gobject.property ->
+  int -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 123 5915 5937 "ogtkTreeProps.ml" 123 5915 5965
+type(
+  ('b, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererProgress.P.value
+)
+"ogtkTreeProps.ml" 123 5915 5966 "ogtkTreeProps.ml" 123 5915 5967
+type(
+  int
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 123 5915 5926 "ogtkTreeProps.ml" 123 5915 5927
+)
+"ogtkTreeProps.ml" 123 5915 5931 "ogtkTreeProps.ml" 123 5915 5967
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 124 5968 5978 "ogtkTreeProps.ml" 124 5968 5979
+type(
+  string option
+)
+ident(
+  def p "ogtkTreeProps.ml" 124 5968 5983 "ogtkTreeProps.ml" 124 5968 6018
+)
+"ogtkTreeProps.ml" 124 5968 5972 "ogtkTreeProps.ml" 124 5968 5979
+type(
+  'a
+)
+"ogtkTreeProps.ml" 124 5968 5983 "ogtkTreeProps.ml" 124 5968 5988
+type(
+  ('b, string option) Gobject.property -> string option -> 'b Gobject.param
+)
+ident(
+  int_ref param "ogtkTreeProps.ml" 6 66 70 "ogtkTreeProps.ml" 6 66 75
+)
+"ogtkTreeProps.ml" 124 5968 5989 "ogtkTreeProps.ml" 124 5968 6016
+type(
+  ('b, string option) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.CellRendererProgress.P.text
+)
+"ogtkTreeProps.ml" 124 5968 6017 "ogtkTreeProps.ml" 124 5968 6018
+type(
+  string option
+)
+ident(
+  int_ref p "ogtkTreeProps.ml" 124 5968 5978 "ogtkTreeProps.ml" 124 5968 5979
+)
+"ogtkTreeProps.ml" 124 5968 5983 "ogtkTreeProps.ml" 124 5968 6018
+call(
+  tail
+)
+type(
+  'b Gobject.param
+)
+"ogtkTreeProps.ml" 122 5871 5906 "ogtkTreeProps.ml" 124 5968 6018
+type(
+  'a -> 'b Gobject.param
+)
+"ogtkTreeProps.ml" 128 6092 6117 "ogtkTreeProps.ml" 128 6092 6120
+type(
+  ([> `treeviewcolumn ] as 'a, float) Gobject.property ->
+  'a Gobject.obj -> float -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 128 6092 6121 "ogtkTreeProps.ml" 128 6092 6147
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.alignment
+)
+"ogtkTreeProps.ml" 128 6092 6148 "ogtkTreeProps.ml" 128 6092 6151
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 128 6092 6117 "ogtkTreeProps.ml" 128 6092 6151
+call(
+  tail
+)
+type(
+  float -> unit
+)
+type(
+  float -> unit
+)
+"ogtkTreeProps.ml" 129 6152 6177 "ogtkTreeProps.ml" 129 6152 6180
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 129 6152 6181 "ogtkTreeProps.ml" 129 6152 6207
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.clickable
+)
+"ogtkTreeProps.ml" 129 6152 6208 "ogtkTreeProps.ml" 129 6152 6211
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 129 6152 6177 "ogtkTreeProps.ml" 129 6152 6211
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkTreeProps.ml" 130 6212 6239 "ogtkTreeProps.ml" 130 6212 6242
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 130 6212 6243 "ogtkTreeProps.ml" 130 6212 6271
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.fixed_width
+)
+"ogtkTreeProps.ml" 130 6212 6272 "ogtkTreeProps.ml" 130 6212 6275
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 130 6212 6239 "ogtkTreeProps.ml" 130 6212 6275
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTreeProps.ml" 131 6276 6301 "ogtkTreeProps.ml" 131 6276 6304
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 131 6276 6305 "ogtkTreeProps.ml" 131 6276 6331
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.max_width
+)
+"ogtkTreeProps.ml" 131 6276 6332 "ogtkTreeProps.ml" 131 6276 6335
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 131 6276 6301 "ogtkTreeProps.ml" 131 6276 6335
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTreeProps.ml" 132 6336 6361 "ogtkTreeProps.ml" 132 6336 6364
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 132 6336 6365 "ogtkTreeProps.ml" 132 6336 6391
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.min_width
+)
+"ogtkTreeProps.ml" 132 6336 6392 "ogtkTreeProps.ml" 132 6336 6395
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 132 6336 6361 "ogtkTreeProps.ml" 132 6336 6395
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTreeProps.ml" 133 6396 6423 "ogtkTreeProps.ml" 133 6396 6426
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 133 6396 6427 "ogtkTreeProps.ml" 133 6396 6455
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.reorderable
+)
+"ogtkTreeProps.ml" 133 6396 6456 "ogtkTreeProps.ml" 133 6396 6459
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 133 6396 6423 "ogtkTreeProps.ml" 133 6396 6459
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkTreeProps.ml" 134 6460 6485 "ogtkTreeProps.ml" 134 6460 6488
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 134 6460 6489 "ogtkTreeProps.ml" 134 6460 6515
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.resizable
+)
+"ogtkTreeProps.ml" 134 6460 6516 "ogtkTreeProps.ml" 134 6460 6519
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 134 6460 6485 "ogtkTreeProps.ml" 134 6460 6519
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkTreeProps.ml" 135 6520 6542 "ogtkTreeProps.ml" 135 6520 6545
+type(
+  ('a, GtkEnums.tree_view_column_sizing) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.tree_view_column_sizing -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 135 6520 6546 "ogtkTreeProps.ml" 135 6520 6569
+type(
+  ('a, GtkEnums.tree_view_column_sizing) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.sizing
+)
+"ogtkTreeProps.ml" 135 6520 6570 "ogtkTreeProps.ml" 135 6520 6573
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 135 6520 6542 "ogtkTreeProps.ml" 135 6520 6573
+call(
+  tail
+)
+type(
+  GtkEnums.tree_view_column_sizing -> unit
+)
+type(
+  GtkEnums.tree_view_column_sizing -> unit
+)
+"ogtkTreeProps.ml" 136 6574 6604 "ogtkTreeProps.ml" 136 6574 6607
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 136 6574 6608 "ogtkTreeProps.ml" 136 6574 6639
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.sort_indicator
+)
+"ogtkTreeProps.ml" 136 6574 6640 "ogtkTreeProps.ml" 136 6574 6643
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 136 6574 6604 "ogtkTreeProps.ml" 136 6574 6643
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkTreeProps.ml" 137 6644 6670 "ogtkTreeProps.ml" 137 6644 6673
+type(
+  ('a, GtkEnums.sort_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.sort_type -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 137 6644 6674 "ogtkTreeProps.ml" 137 6644 6701
+type(
+  ('a, GtkEnums.sort_type) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.sort_order
+)
+"ogtkTreeProps.ml" 137 6644 6702 "ogtkTreeProps.ml" 137 6644 6705
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 137 6644 6670 "ogtkTreeProps.ml" 137 6644 6705
+call(
+  tail
+)
+type(
+  GtkEnums.sort_type -> unit
+)
+type(
+  GtkEnums.sort_type -> unit
+)
+"ogtkTreeProps.ml" 138 6706 6727 "ogtkTreeProps.ml" 138 6706 6730
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 138 6706 6731 "ogtkTreeProps.ml" 138 6706 6753
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.title
+)
+"ogtkTreeProps.ml" 138 6706 6754 "ogtkTreeProps.ml" 138 6706 6757
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 138 6706 6727 "ogtkTreeProps.ml" 138 6706 6757
+call(
+  tail
+)
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"ogtkTreeProps.ml" 139 6758 6781 "ogtkTreeProps.ml" 139 6758 6784
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 139 6758 6785 "ogtkTreeProps.ml" 139 6758 6809
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.visible
+)
+"ogtkTreeProps.ml" 139 6758 6810 "ogtkTreeProps.ml" 139 6758 6813
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 139 6758 6781 "ogtkTreeProps.ml" 139 6758 6813
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"ogtkTreeProps.ml" 141 6836 6840 "ogtkTreeProps.ml" 141 6836 6843
+type(
+  ('a, GObj.widget option) Gobject.property ->
+  'a Gobject.obj -> GObj.widget option -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 141 6836 6845 "ogtkTreeProps.ml" 141 6836 6868
+type(
+  (_[> `treeviewcolumn ], Gtk.widget Gtk.obj option) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.widget
+)
+"ogtkTreeProps.ml" 141 6836 6879 "ogtkTreeProps.ml" 141 6836 6902
+type(
+  GObj.widget option Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget_option
+)
+"ogtkTreeProps.ml" 141 6836 6844 "ogtkTreeProps.ml" 141 6836 6903
+type(
+  ('a, GObj.widget option) Gobject.property
+)
+"ogtkTreeProps.ml" 141 6836 6904 "ogtkTreeProps.ml" 141 6836 6907
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 141 6836 6840 "ogtkTreeProps.ml" 141 6836 6907
+call(
+  tail
+)
+type(
+  GObj.widget option -> unit
+)
+type(
+  GObj.widget option -> unit
+)
+"ogtkTreeProps.ml" 142 6908 6929 "ogtkTreeProps.ml" 142 6908 6932
+type(
+  ('a, float) Gobject.property -> 'a Gobject.obj -> float
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 142 6908 6933 "ogtkTreeProps.ml" 142 6908 6959
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.alignment
+)
+"ogtkTreeProps.ml" 142 6908 6960 "ogtkTreeProps.ml" 142 6908 6963
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 142 6908 6929 "ogtkTreeProps.ml" 142 6908 6963
+call(
+  tail
+)
+type(
+  float
+)
+type(
+  float
+)
+"ogtkTreeProps.ml" 143 6964 6985 "ogtkTreeProps.ml" 143 6964 6988
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 143 6964 6989 "ogtkTreeProps.ml" 143 6964 7015
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.clickable
+)
+"ogtkTreeProps.ml" 143 6964 7016 "ogtkTreeProps.ml" 143 6964 7019
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 143 6964 6985 "ogtkTreeProps.ml" 143 6964 7019
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkTreeProps.ml" 144 7020 7043 "ogtkTreeProps.ml" 144 7020 7046
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 144 7020 7047 "ogtkTreeProps.ml" 144 7020 7075
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.fixed_width
+)
+"ogtkTreeProps.ml" 144 7020 7076 "ogtkTreeProps.ml" 144 7020 7079
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 144 7020 7043 "ogtkTreeProps.ml" 144 7020 7079
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTreeProps.ml" 145 7080 7101 "ogtkTreeProps.ml" 145 7080 7104
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 145 7080 7105 "ogtkTreeProps.ml" 145 7080 7131
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.max_width
+)
+"ogtkTreeProps.ml" 145 7080 7132 "ogtkTreeProps.ml" 145 7080 7135
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 145 7080 7101 "ogtkTreeProps.ml" 145 7080 7135
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTreeProps.ml" 146 7136 7157 "ogtkTreeProps.ml" 146 7136 7160
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 146 7136 7161 "ogtkTreeProps.ml" 146 7136 7187
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.min_width
+)
+"ogtkTreeProps.ml" 146 7136 7188 "ogtkTreeProps.ml" 146 7136 7191
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 146 7136 7157 "ogtkTreeProps.ml" 146 7136 7191
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTreeProps.ml" 147 7192 7215 "ogtkTreeProps.ml" 147 7192 7218
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 147 7192 7219 "ogtkTreeProps.ml" 147 7192 7247
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.reorderable
+)
+"ogtkTreeProps.ml" 147 7192 7248 "ogtkTreeProps.ml" 147 7192 7251
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 147 7192 7215 "ogtkTreeProps.ml" 147 7192 7251
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkTreeProps.ml" 148 7252 7273 "ogtkTreeProps.ml" 148 7252 7276
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 148 7252 7277 "ogtkTreeProps.ml" 148 7252 7303
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.resizable
+)
+"ogtkTreeProps.ml" 148 7252 7304 "ogtkTreeProps.ml" 148 7252 7307
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 148 7252 7273 "ogtkTreeProps.ml" 148 7252 7307
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkTreeProps.ml" 149 7308 7326 "ogtkTreeProps.ml" 149 7308 7329
+type(
+  ('a, GtkEnums.tree_view_column_sizing) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.tree_view_column_sizing
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 149 7308 7330 "ogtkTreeProps.ml" 149 7308 7353
+type(
+  ('a, GtkEnums.tree_view_column_sizing) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.sizing
+)
+"ogtkTreeProps.ml" 149 7308 7354 "ogtkTreeProps.ml" 149 7308 7357
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 149 7308 7326 "ogtkTreeProps.ml" 149 7308 7357
+call(
+  tail
+)
+type(
+  GtkEnums.tree_view_column_sizing
+)
+type(
+  GtkEnums.tree_view_column_sizing
+)
+"ogtkTreeProps.ml" 150 7358 7384 "ogtkTreeProps.ml" 150 7358 7387
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 150 7358 7388 "ogtkTreeProps.ml" 150 7358 7419
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.sort_indicator
+)
+"ogtkTreeProps.ml" 150 7358 7420 "ogtkTreeProps.ml" 150 7358 7423
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 150 7358 7384 "ogtkTreeProps.ml" 150 7358 7423
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkTreeProps.ml" 151 7424 7446 "ogtkTreeProps.ml" 151 7424 7449
+type(
+  ('a, GtkEnums.sort_type) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.sort_type
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 151 7424 7450 "ogtkTreeProps.ml" 151 7424 7477
+type(
+  ('a, GtkEnums.sort_type) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.sort_order
+)
+"ogtkTreeProps.ml" 151 7424 7478 "ogtkTreeProps.ml" 151 7424 7481
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 151 7424 7446 "ogtkTreeProps.ml" 151 7424 7481
+call(
+  tail
+)
+type(
+  GtkEnums.sort_type
+)
+type(
+  GtkEnums.sort_type
+)
+"ogtkTreeProps.ml" 152 7482 7499 "ogtkTreeProps.ml" 152 7482 7502
+type(
+  ('a, string) Gobject.property -> 'a Gobject.obj -> string
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 152 7482 7503 "ogtkTreeProps.ml" 152 7482 7525
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.title
+)
+"ogtkTreeProps.ml" 152 7482 7526 "ogtkTreeProps.ml" 152 7482 7529
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 152 7482 7499 "ogtkTreeProps.ml" 152 7482 7529
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ogtkTreeProps.ml" 153 7530 7549 "ogtkTreeProps.ml" 153 7530 7552
+type(
+  ('a, bool) Gobject.property -> 'a Gobject.obj -> bool
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 153 7530 7553 "ogtkTreeProps.ml" 153 7530 7577
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.visible
+)
+"ogtkTreeProps.ml" 153 7530 7578 "ogtkTreeProps.ml" 153 7530 7581
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 153 7530 7549 "ogtkTreeProps.ml" 153 7530 7581
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"ogtkTreeProps.ml" 155 7600 7604 "ogtkTreeProps.ml" 155 7600 7607
+type(
+  ('a, GObj.widget option) Gobject.property ->
+  'a Gobject.obj -> GObj.widget option
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 155 7600 7609 "ogtkTreeProps.ml" 155 7600 7632
+type(
+  (_[> `treeviewcolumn ], Gtk.widget Gtk.obj option) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.widget
+)
+"ogtkTreeProps.ml" 155 7600 7643 "ogtkTreeProps.ml" 155 7600 7666
+type(
+  GObj.widget option Gobject.data_conv
+)
+ident(
+  ext_ref GObj.conv_widget_option
+)
+"ogtkTreeProps.ml" 155 7600 7608 "ogtkTreeProps.ml" 155 7600 7667
+type(
+  ('a, GObj.widget option) Gobject.property
+)
+"ogtkTreeProps.ml" 155 7600 7668 "ogtkTreeProps.ml" 155 7600 7671
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 155 7600 7604 "ogtkTreeProps.ml" 155 7600 7671
+call(
+  tail
+)
+type(
+  GObj.widget option
+)
+type(
+  GObj.widget option
+)
+"ogtkTreeProps.ml" 156 7672 7689 "ogtkTreeProps.ml" 156 7672 7692
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 156 7672 7693 "ogtkTreeProps.ml" 156 7672 7715
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.TreeViewColumn.P.width
+)
+"ogtkTreeProps.ml" 156 7672 7716 "ogtkTreeProps.ml" 156 7672 7719
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 156 7672 7689 "ogtkTreeProps.ml" 156 7672 7719
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTreeProps.ml" 159 7725 7764 "ogtkTreeProps.ml" 159 7725 7770
+type(
+  < row_changed : callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) ->
+                  GtkSignal.id;
+    row_deleted : callback:(Gtk.tree_path -> unit) -> GtkSignal.id;
+    row_has_child_toggled : callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) ->
+                            GtkSignal.id;
+    row_inserted : callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) ->
+                   GtkSignal.id;
+    rows_reordered : callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) ->
+                     GtkSignal.id;
+    .. >
+)
+"ogtkTreeProps.ml" 162 7865 7888 "ogtkTreeProps.ml" 162 7865 7892
+type(
+  < row_changed : callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) ->
+                  GtkSignal.id;
+    row_deleted : callback:(Gtk.tree_path -> unit) -> GtkSignal.id;
+    row_has_child_toggled : callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) ->
+                            GtkSignal.id;
+    row_inserted : callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) ->
+                   GtkSignal.id;
+    rows_reordered : callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) ->
+                     GtkSignal.id;
+    .. >
+  as 'a
+)
+"ogtkTreeProps.ml" 162 7865 7888 "ogtkTreeProps.ml" 162 7865 7900
+call(
+  tail
+)
+type(
+  ([> `treemodel ], Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t ->
+  callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 162 7865 7901 "ogtkTreeProps.ml" 162 7865 7924
+type(
+  ([> `treemodel ] as 'b, Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeModel.S.row_changed
+)
+"ogtkTreeProps.ml" 162 7865 7888 "ogtkTreeProps.ml" 162 7865 7924
+type(
+  callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) -> GtkSignal.id
+)
+type(
+  callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 163 7925 7948 "ogtkTreeProps.ml" 163 7925 7952
+type(
+  'a
+)
+"ogtkTreeProps.ml" 163 7925 7948 "ogtkTreeProps.ml" 163 7925 7960
+call(
+  tail
+)
+type(
+  ('b, Gtk.tree_path -> unit) GtkSignal.t ->
+  callback:(Gtk.tree_path -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 163 7925 7961 "ogtkTreeProps.ml" 163 7925 7984
+type(
+  ('b, Gtk.tree_path -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeModel.S.row_deleted
+)
+"ogtkTreeProps.ml" 163 7925 7948 "ogtkTreeProps.ml" 163 7925 7984
+type(
+  callback:(Gtk.tree_path -> unit) -> GtkSignal.id
+)
+type(
+  callback:(Gtk.tree_path -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 165 8018 8022 "ogtkTreeProps.ml" 165 8018 8026
+type(
+  'a
+)
+"ogtkTreeProps.ml" 165 8018 8022 "ogtkTreeProps.ml" 165 8018 8034
+call(
+  tail
+)
+type(
+  ('b, Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t ->
+  callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 165 8018 8035 "ogtkTreeProps.ml" 165 8018 8068
+type(
+  ('b, Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeModel.S.row_has_child_toggled
+)
+"ogtkTreeProps.ml" 165 8018 8022 "ogtkTreeProps.ml" 165 8018 8068
+type(
+  callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) -> GtkSignal.id
+)
+type(
+  callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 166 8069 8093 "ogtkTreeProps.ml" 166 8069 8097
+type(
+  'a
+)
+"ogtkTreeProps.ml" 166 8069 8093 "ogtkTreeProps.ml" 166 8069 8105
+call(
+  tail
+)
+type(
+  ('b, Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t ->
+  callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 166 8069 8106 "ogtkTreeProps.ml" 166 8069 8130
+type(
+  ('b, Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeModel.S.row_inserted
+)
+"ogtkTreeProps.ml" 166 8069 8093 "ogtkTreeProps.ml" 166 8069 8130
+type(
+  callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) -> GtkSignal.id
+)
+type(
+  callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 167 8131 8157 "ogtkTreeProps.ml" 167 8131 8161
+type(
+  'a
+)
+"ogtkTreeProps.ml" 167 8131 8157 "ogtkTreeProps.ml" 167 8131 8169
+call(
+  tail
+)
+type(
+  ('b, Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t ->
+  callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 167 8131 8170 "ogtkTreeProps.ml" 167 8131 8196
+type(
+  ('b, Gtk.tree_path -> Gtk.tree_iter -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeModel.S.rows_reordered
+)
+"ogtkTreeProps.ml" 167 8131 8157 "ogtkTreeProps.ml" 167 8131 8196
+type(
+  callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) -> GtkSignal.id
+)
+type(
+  callback:(Gtk.tree_path -> Gtk.tree_iter -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 170 8202 8244 "ogtkTreeProps.ml" 170 8202 8250
+type(
+  < sort_column_changed : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkTreeProps.ml" 174 8376 8380 "ogtkTreeProps.ml" 174 8376 8384
+type(
+  < sort_column_changed : callback:(unit -> unit) -> GtkSignal.id; .. > as 'a
+)
+"ogtkTreeProps.ml" 174 8376 8380 "ogtkTreeProps.ml" 174 8376 8392
+call(
+  tail
+)
+type(
+  ([> `treesortable ], unit -> unit) GtkSignal.t ->
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 174 8376 8393 "ogtkTreeProps.ml" 174 8376 8427
+type(
+  ([> `treesortable ] as 'b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.TreeSortable.S.sort_column_changed
+)
+"ogtkTreeProps.ml" 174 8376 8380 "ogtkTreeProps.ml" 174 8376 8427
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 179 8498 8528 "ogtkTreeProps.ml" 179 8498 8531
+type(
+  ([> `iconview ] as 'a, int) Gobject.property ->
+  'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 179 8498 8532 "ogtkTreeProps.ml" 179 8498 8557
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.IconView.P.column_spacing
+)
+"ogtkTreeProps.ml" 179 8498 8558 "ogtkTreeProps.ml" 179 8498 8561
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 179 8498 8528 "ogtkTreeProps.ml" 179 8498 8561
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTreeProps.ml" 180 8562 8585 "ogtkTreeProps.ml" 180 8562 8588
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 180 8562 8589 "ogtkTreeProps.ml" 180 8562 8607
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.IconView.P.columns
+)
+"ogtkTreeProps.ml" 180 8562 8608 "ogtkTreeProps.ml" 180 8562 8611
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 180 8562 8585 "ogtkTreeProps.ml" 180 8562 8611
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTreeProps.ml" 181 8612 8638 "ogtkTreeProps.ml" 181 8612 8641
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 181 8612 8642 "ogtkTreeProps.ml" 181 8612 8663
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.IconView.P.item_width
+)
+"ogtkTreeProps.ml" 181 8612 8664 "ogtkTreeProps.ml" 181 8612 8667
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 181 8612 8638 "ogtkTreeProps.ml" 181 8612 8667
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTreeProps.ml" 182 8668 8690 "ogtkTreeProps.ml" 182 8668 8693
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 182 8668 8694 "ogtkTreeProps.ml" 182 8668 8711
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.IconView.P.margin
+)
+"ogtkTreeProps.ml" 182 8668 8712 "ogtkTreeProps.ml" 182 8668 8715
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 182 8668 8690 "ogtkTreeProps.ml" 182 8668 8715
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTreeProps.ml" 183 8716 8743 "ogtkTreeProps.ml" 183 8716 8746
+type(
+  ('a, GtkEnums.orientation) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.orientation -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 183 8716 8747 "ogtkTreeProps.ml" 183 8716 8769
+type(
+  ('a, GtkEnums.orientation) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.IconView.P.orientation
+)
+"ogtkTreeProps.ml" 183 8716 8770 "ogtkTreeProps.ml" 183 8716 8773
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 183 8716 8743 "ogtkTreeProps.ml" 183 8716 8773
+call(
+  tail
+)
+type(
+  GtkEnums.orientation -> unit
+)
+type(
+  GtkEnums.orientation -> unit
+)
+"ogtkTreeProps.ml" 184 8774 8801 "ogtkTreeProps.ml" 184 8774 8804
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 184 8774 8805 "ogtkTreeProps.ml" 184 8774 8827
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.IconView.P.row_spacing
+)
+"ogtkTreeProps.ml" 184 8774 8828 "ogtkTreeProps.ml" 184 8774 8831
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 184 8774 8801 "ogtkTreeProps.ml" 184 8774 8831
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTreeProps.ml" 185 8832 8862 "ogtkTreeProps.ml" 185 8832 8865
+type(
+  ('a, GtkEnums.selection_mode) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.selection_mode -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 185 8832 8866 "ogtkTreeProps.ml" 185 8832 8891
+type(
+  ('a, GtkEnums.selection_mode) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.IconView.P.selection_mode
+)
+"ogtkTreeProps.ml" 185 8832 8892 "ogtkTreeProps.ml" 185 8832 8895
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 185 8832 8862 "ogtkTreeProps.ml" 185 8832 8895
+call(
+  tail
+)
+type(
+  GtkEnums.selection_mode -> unit
+)
+type(
+  GtkEnums.selection_mode -> unit
+)
+"ogtkTreeProps.ml" 186 8896 8919 "ogtkTreeProps.ml" 186 8896 8922
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int -> unit
+)
+ident(
+  int_ref set "ogtkTreeProps.ml" 4 38 42 "ogtkTreeProps.ml" 4 38 45
+)
+"ogtkTreeProps.ml" 186 8896 8923 "ogtkTreeProps.ml" 186 8896 8941
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.IconView.P.spacing
+)
+"ogtkTreeProps.ml" 186 8896 8942 "ogtkTreeProps.ml" 186 8896 8945
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 186 8896 8919 "ogtkTreeProps.ml" 186 8896 8945
+call(
+  tail
+)
+type(
+  int -> unit
+)
+type(
+  int -> unit
+)
+"ogtkTreeProps.ml" 187 8946 8972 "ogtkTreeProps.ml" 187 8946 8975
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 187 8946 8976 "ogtkTreeProps.ml" 187 8946 9001
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.IconView.P.column_spacing
+)
+"ogtkTreeProps.ml" 187 8946 9002 "ogtkTreeProps.ml" 187 8946 9005
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 187 8946 8972 "ogtkTreeProps.ml" 187 8946 9005
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTreeProps.ml" 188 9006 9025 "ogtkTreeProps.ml" 188 9006 9028
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 188 9006 9029 "ogtkTreeProps.ml" 188 9006 9047
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.IconView.P.columns
+)
+"ogtkTreeProps.ml" 188 9006 9048 "ogtkTreeProps.ml" 188 9006 9051
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 188 9006 9025 "ogtkTreeProps.ml" 188 9006 9051
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTreeProps.ml" 189 9052 9074 "ogtkTreeProps.ml" 189 9052 9077
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 189 9052 9078 "ogtkTreeProps.ml" 189 9052 9099
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.IconView.P.item_width
+)
+"ogtkTreeProps.ml" 189 9052 9100 "ogtkTreeProps.ml" 189 9052 9103
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 189 9052 9074 "ogtkTreeProps.ml" 189 9052 9103
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTreeProps.ml" 190 9104 9122 "ogtkTreeProps.ml" 190 9104 9125
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 190 9104 9126 "ogtkTreeProps.ml" 190 9104 9143
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.IconView.P.margin
+)
+"ogtkTreeProps.ml" 190 9104 9144 "ogtkTreeProps.ml" 190 9104 9147
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 190 9104 9122 "ogtkTreeProps.ml" 190 9104 9147
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTreeProps.ml" 191 9148 9171 "ogtkTreeProps.ml" 191 9148 9174
+type(
+  ('a, GtkEnums.orientation) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.orientation
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 191 9148 9175 "ogtkTreeProps.ml" 191 9148 9197
+type(
+  ('a, GtkEnums.orientation) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.IconView.P.orientation
+)
+"ogtkTreeProps.ml" 191 9148 9198 "ogtkTreeProps.ml" 191 9148 9201
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 191 9148 9171 "ogtkTreeProps.ml" 191 9148 9201
+call(
+  tail
+)
+type(
+  GtkEnums.orientation
+)
+type(
+  GtkEnums.orientation
+)
+"ogtkTreeProps.ml" 192 9202 9225 "ogtkTreeProps.ml" 192 9202 9228
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 192 9202 9229 "ogtkTreeProps.ml" 192 9202 9251
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.IconView.P.row_spacing
+)
+"ogtkTreeProps.ml" 192 9202 9252 "ogtkTreeProps.ml" 192 9202 9255
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 192 9202 9225 "ogtkTreeProps.ml" 192 9202 9255
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTreeProps.ml" 193 9256 9282 "ogtkTreeProps.ml" 193 9256 9285
+type(
+  ('a, GtkEnums.selection_mode) Gobject.property ->
+  'a Gobject.obj -> GtkEnums.selection_mode
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 193 9256 9286 "ogtkTreeProps.ml" 193 9256 9311
+type(
+  ('a, GtkEnums.selection_mode) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.IconView.P.selection_mode
+)
+"ogtkTreeProps.ml" 193 9256 9312 "ogtkTreeProps.ml" 193 9256 9315
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 193 9256 9282 "ogtkTreeProps.ml" 193 9256 9315
+call(
+  tail
+)
+type(
+  GtkEnums.selection_mode
+)
+type(
+  GtkEnums.selection_mode
+)
+"ogtkTreeProps.ml" 194 9316 9335 "ogtkTreeProps.ml" 194 9316 9338
+type(
+  ('a, int) Gobject.property -> 'a Gobject.obj -> int
+)
+ident(
+  int_ref get "ogtkTreeProps.ml" 5 52 56 "ogtkTreeProps.ml" 5 52 59
+)
+"ogtkTreeProps.ml" 194 9316 9339 "ogtkTreeProps.ml" 194 9316 9357
+type(
+  ('a, int) Gobject.property
+)
+ident(
+  ext_ref GtkTreeProps.IconView.P.spacing
+)
+"ogtkTreeProps.ml" 194 9316 9358 "ogtkTreeProps.ml" 194 9316 9361
+type(
+  'a Gobject.obj
+)
+"ogtkTreeProps.ml" 194 9316 9335 "ogtkTreeProps.ml" 194 9316 9361
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"ogtkTreeProps.ml" 197 9367 9405 "ogtkTreeProps.ml" 197 9367 9411
+type(
+  < item_activated : callback:(Gtk.tree_path -> unit) -> GtkSignal.id;
+    selection_changed : callback:(unit -> unit) -> GtkSignal.id; .. >
+)
+"ogtkTreeProps.ml" 200 9506 9532 "ogtkTreeProps.ml" 200 9506 9536
+type(
+  < item_activated : callback:(Gtk.tree_path -> unit) -> GtkSignal.id;
+    selection_changed : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"ogtkTreeProps.ml" 200 9506 9532 "ogtkTreeProps.ml" 200 9506 9544
+call(
+  tail
+)
+type(
+  ([> `iconview ], Gtk.tree_path -> unit) GtkSignal.t ->
+  callback:(Gtk.tree_path -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 200 9506 9545 "ogtkTreeProps.ml" 200 9506 9570
+type(
+  ([> `iconview ] as 'b, Gtk.tree_path -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.IconView.S.item_activated
+)
+"ogtkTreeProps.ml" 200 9506 9532 "ogtkTreeProps.ml" 200 9506 9570
+type(
+  callback:(Gtk.tree_path -> unit) -> GtkSignal.id
+)
+type(
+  callback:(Gtk.tree_path -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 201 9571 9600 "ogtkTreeProps.ml" 201 9571 9604
+type(
+  'a
+)
+"ogtkTreeProps.ml" 201 9571 9600 "ogtkTreeProps.ml" 201 9571 9612
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"ogtkTreeProps.ml" 201 9571 9613 "ogtkTreeProps.ml" 201 9571 9641
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkTreeProps.IconView.S.selection_changed
+)
+"ogtkTreeProps.ml" 201 9571 9600 "ogtkTreeProps.ml" 201 9571 9641
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)

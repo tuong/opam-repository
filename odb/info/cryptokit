@@ -1,0 +1,4 @@
+deps=unix,ocamldoc,ocamlbuild,num
+tarball=cryptokit-1.5.tar.gz
+is_library=true
+is_program=false

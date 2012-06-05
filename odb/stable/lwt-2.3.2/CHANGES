@@ -1,0 +1,198 @@
+===== 2.3.2 (2011-11-04) =====
+
+  * Add location informations in logs:
+    ** allow loggers to get the current location through local storage
+    ** pass current location to logging functions
+    ** pass the current location with the syntax extension
+  * Add Lwt.on_termination
+  * Add Lwt_unix.reinstall_signal_handler
+  * Add Lwt_io.flush_all
+  * Add assert_lwt keyword to the syntax extension
+  * Add Lwt.wrap
+  * Add Lwt_glib.iter and Lwt_glib.wakeup
+  * ocaml 3.13 ready
+  * Allow to compile without libev support
+  * Fix bugs in Lwt_io
+  * Better handling of forks
+  * Fix many problems on Windows
+
+===== 2.3.1 (2011-07-13) =====
+
+  * Fix building of documentation when using the tarball
+  * Add Lwt_unix.fsync and Lwt_unix.fdatasync
+  * Fix the stubs for Lwt_unix.send_msg when fd-passing is not
+    available
+  * Add -lwt-sequence-strict option to the syntax extension
+  * Use a custom PRNG state for Lwt.choose and Lwt.pick
+  * Fix a display glitch when starting the toplevel
+  * Add Lwt_unix.fork which should now be used when one want to use
+    Lwt in the child process
+  * Better implementation of Lwt_unix.readlink and
+    Lwt_unix.gethostbyname, which fixes compilation on Hurd
+  * Add Lwt.wakeup_later and Lwt.wakeup_later_exn to be used when one
+    need to do lot of nested wakeup, which fixes a buffer overflow in
+    Lwt_mutex
+  * Fix Lwt_unix.abort and Lwt_unix.close (threads was never wakeup)
+  * Fix Lwt_throttle for correct timings
+  * Fix subtle use of cancel
+
+===== 2.3.0 (2011-04-12) =====
+
+  * Add an extensible system of engines to:
+    ** allow the user to replace libev by another event system, such
+       as select
+    ** allow easier integration of external libraries supporting
+       asynchronous operations
+  * Lots of improvements for windows:
+    ** use the ocaml select instead of libev by default on windows
+    ** make asynchronous operations on non-socket file descriptors
+       such as pipes to work
+    ** make glib integration to work
+  * Better use of engines in Lwt_unix: now events are cached to minimize
+    the amount of calls to epoll_ctl
+  * Use an eventfd when possible for notifications for faster delivery
+  * Add modules:
+    ** Lwt_sys: allow to test availability of extra features
+    ** Lwt_react: replace Lwt_event and Lwt_signal
+  * Allow to configure logging rules at runtime in Lwt_log
+  * Add match_lwt and while_lwt to the syntax extension
+  * Fixes:
+    ** syntax extension: handle "lwt ... = ... in ..." at toplevel
+    ** make the notification system fork-proof
+    ** fix an issue with stubs not raising correctly exceptions
+
+===== 2.2.1 (2011-01-26) =====
+
+  * Better interaction with Js_of_ocaml.
+  * Add functions {{{Lwt.register_pause_notifier}}} and {{{Lwt.paused_count}}}.
+
+===== 2.2.0 (2010-12-13) =====
+
+  * Bugfixes:
+    ** Fix a bug with cancellable threads causing {{{Canceled}}}
+       exceptions to be raised randomly
+    ** Fix a fd-leak in Lwt_io.open_connection
+  * {{{Lwt_unix}}} now use libev instead of select
+  * Add thread local storage support to {{{Lwt}}}
+  * Add backtrace support to {{{Lwt}}}. Now {{{Lwt}}} exceptions can
+    be recored by using the syntax extension with the {{{-lwt-debug}}}
+    command line switch.
+  * Allow blocking system calls to be executed in parallels
+  * Change the type of many functions of {{{Lwt_unix}}}, which now
+    return a {{{Lwt}}} thread
+  * Add functions {{{Lwt_unix.readable}}} and {{{Lwt_unix.writable}}}
+  * Add function {{{Lwt_io.is_busy}}}
+  * Add functions {{{Lwt_event.delay}}} and {{{Lwt_signal.delay}}}
+  * Add function {{{Lwt_term.render_update}}}
+  * Add function {{{Lwt_ssl.embed_socket}}}
+  * Add module {{{Lwt_bytes}}} defining operations on bigarrays
+    instead of strings
+  * Use bigarrays in Lwt_io instead of strings for the internal buffer.
+    Lwt_io.make now takes a function that uses a bigarray.
+  * Add module {{{Lwt_switch}}}
+
+===== 2.1.1 (2010-06-13) =====
+
+  * Many bugfixes, including:
+    ** buggy behaviour of cancellable threads
+    ** file descriptor leakage in {{{Lwt_unix.accept_n}}}
+  * Add {{{Lwt.nchoose}}} and {{{Lwt.npick}}}
+  * Use {{{set_close_on_exec}}} for fds created by {{{Lwt_log}}}
+  * Better implementation of lwtized react functions
+
+===== 2.1.0 (2010-04-19) =====
+
+  * Rename {{{Lwt.select}}} to {{{Lwt.pick}}}
+  * Removing module {{{Lwt_monitor}}} in favour of {{{Lwt_mutex}}} and
+    new module {{{Lwt_condition}}}
+  * More react helpers:
+    ** {{{Lwt_event.next}}}
+    ** {{{Lwt_event.limit}}} and {{{Lwt_signal.limit}}}
+    ** {{{Lwt_event.from}}}
+  * Adding function {{{Lwt_main.fast_yield}}}
+  * Adding unit tests
+  * Optimisation of {{{Lwt}}}
+  * Adding module {{{Lwt_log}}} for logging
+  * Adding a camlp4 filter for remmoving logging statement or inlining
+    tests
+  * Adding module {{{Lwt_daemon}}}
+  * Adding function {{{Lwt_unix.recv_msg}}} and {{{Lwt_unix.send_msg}}}
+  * Adding function {{{Lwt_unix.wait4}}}
+  * Adding function {{{Lwt_io.establish_server}}}
+  * Adding module {{{Lwt_list}}}
+  * Enhancement in {{{Lwt_process}}}, it now support redirections and
+    timeouts
+  * Allow to use {{{select}}} on arbitrary high file descriptors
+  * More commands and features in {{{Lwt_read_line}}}:
+    ** Handle "undo" command
+    ** New controlable read-lines instances
+    ** More edition commands
+    ** Completion as you type
+    ** Backward search
+  * Enhancement in {{{Lwt_term}}}: more drawing functions and allow to
+    put the terminal into drawing mode
+  * Optimisation of {{{Lwt_stream}}}
+  * Optimisation of {{{Lwt_io.write_char}}} and {{{Lwt_io.read_char}}}
+  * Bugfix of {{{Lwt_stream}}}: two parallel {{{Lwt_stream.get}}}
+    returned the same value
+  * Bugfix in {{{Lwt_unix.connect}}}: it returned immediatly on EINPROGRESS
+  * Bugfixes in {{{Lwt_glib}}}: file descriptors were not monitored correctly
+
+===== 2.0.0 (2009-10-15) =====
+
+  * Adding modules:
+    ** {{{Lwt_stream}}}: lwt-aware version of the {{{Stream}}} module
+    ** {{{Lwt_gc}}} for using {{{finalise}}} without
+       {{{Lwt_unix.run}}}
+    ** {{{Lwt_io}}}: a new implementation of buffered channels with
+       more features and better handling of concurrent access
+    ** {{{Lwt_text}}}: implementation of text channels
+    ** {{{Lwt_process}}}: helpers to spawn processes and communicate
+       with them
+    ** {{{Lwt_main}}} for abstracting the main loop and allowing
+       replacement by a custom main loop
+    ** {{{Lwt_glib}}} for integration into the glib main event loop
+    ** {{{Lwt_term}}} for interaction with the terminal
+    ** {{{Lwt_read_line}}} for interactive user input
+    ** {{{Lwt_monitor}}}, {{{Lwt_mvar}}}: combined locks for
+       synchronization with conditional variables for notification
+    ** {{{Lwt_throttle}}} for limiting rate of execution
+       (e.g. for authentication procedure)
+    ** {{{Lwt_sequence}}}: mutable sequence of elements
+    ** {{{Lwt_event}}}, {{{Lwt_signal}}}: helpers for reactive
+       programming with lwt
+  * Adding a syntax extension {{{pa_lwt}}}:
+    ** handles anonymous bind {{{a >> b}}}
+    ** adds syntactic sugar for catching errors (ticket #6)
+    ** adds syntactic sugar for parallel let-binding construction
+    ** adds syntactic sugar for for-like loops
+  * Top-level integration:
+    ** threads can runs while reading user input
+    ** line editing support
+  * New enhanced OCaml toplevel with some basic completion features
+  * Adding C stubs to reimplement {{{Unix.read}}} and {{{Unix.write}}}
+    with assumption of non-blocking behaviour
+  * Adding more functions/helpers in {{{Lwt}}}
+  * Fixing memory leaks in {{{Lwt.choose}}}
+  * Bugfix in {{{Lwt_chan.close_*}}} (ticket #66)
+  * Separate the type of threads (covariant) from the type of thread
+    wakeners (contravariant); the type of many functions related to
+    {{{Lwt.wait}}} has been changed
+  * Add cancelable threads
+  * Unix-dependent part is now put in its own archive and findlib
+    package.
+
+===== 1.1.0 (2008-06-25) =====
+
+  * Adding module {{{Lwt_pool}}} for creating pools (for example pools
+    of connections)
+  * Adding a few functions in {{{Lwt_chan}}}
+  * Fixing bugs in {{{Lwt_util.map_serial}}} and
+    {{{Lwt_util.iter_serial}}}
+  * Putting {{{Lwt_preemptive}}}, {{{Lwt_lib}}} and {{{Lwt_ssl}}} in
+    separate libraries and findlib subpackages so that lwt.cma depends
+    only on unix.cma.
+
+===== 1.0.0 (and before) =====
+
+  * See Ocsigen changelog

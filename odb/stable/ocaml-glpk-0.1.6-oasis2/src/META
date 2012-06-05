@@ -1,0 +1,9 @@
+# OASIS_START
+# DO NOT EDIT (digest: bb5faad0e4c15334049d968f96493476)
+version = "0.1.6-oasis1"
+description = "OCaml bindings for GLPK"
+archive(byte) = "glpk.cma"
+archive(native) = "glpk.cmxa"
+exists_if = "glpk.cma"
+# OASIS_STOP
+

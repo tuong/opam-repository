@@ -1,0 +1,834 @@
+"gnomeCanvas.ml" 161 8874 8880 "gnomeCanvas.ml" 161 8874 8892
+type(
+  Gobject.g_type array
+)
+ident(
+  def canvas_types "gnomeCanvas.ml" 163 8914 8916 "gnomeCanvas.ml" 180 9439 9444
+)
+"gnomeCanvas.ml" 161 8874 8895 "gnomeCanvas.ml" 161 8874 8909
+type(
+  unit -> Gobject.g_type array
+)
+"gnomeCanvas.ml" 161 8874 8910 "gnomeCanvas.ml" 161 8874 8912
+type(
+  unit
+)
+"gnomeCanvas.ml" 161 8874 8895 "gnomeCanvas.ml" 161 8874 8912
+type(
+  Gobject.g_type array
+)
+"gnomeCanvas.ml" 163 8914 8920 "gnomeCanvas.ml" 163 8914 8925
+type(
+  Gobject.g_type
+)
+ident(
+  def group "gnomeCanvas.ml" 164 8945 8947 "gnomeCanvas.ml" 180 9439 9444
+)
+"gnomeCanvas.ml" 163 8914 8928 "gnomeCanvas.ml" 163 8914 8940
+type(
+  Gobject.g_type array
+)
+ident(
+  int_ref canvas_types "gnomeCanvas.ml" 161 8874 8880 "gnomeCanvas.ml" 161 8874 8892
+)
+"gnomeCanvas.ml" 163 8914 8942 "gnomeCanvas.ml" 163 8914 8943
+type(
+  int
+)
+"gnomeCanvas.ml" 163 8914 8928 "gnomeCanvas.ml" 163 8914 8944
+type(
+  Gobject.g_type
+)
+"gnomeCanvas.ml" 164 8945 8951 "gnomeCanvas.ml" 164 8945 8955
+type(
+  Gobject.g_type
+)
+ident(
+  def rect "gnomeCanvas.ml" 165 8976 8978 "gnomeCanvas.ml" 180 9439 9444
+)
+"gnomeCanvas.ml" 164 8945 8958 "gnomeCanvas.ml" 164 8945 8970
+type(
+  Gobject.g_type array
+)
+ident(
+  int_ref canvas_types "gnomeCanvas.ml" 161 8874 8880 "gnomeCanvas.ml" 161 8874 8892
+)
+"gnomeCanvas.ml" 164 8945 8972 "gnomeCanvas.ml" 164 8945 8974
+type(
+  int
+)
+"gnomeCanvas.ml" 164 8945 8958 "gnomeCanvas.ml" 164 8945 8975
+type(
+  Gobject.g_type
+)
+"gnomeCanvas.ml" 165 8976 8982 "gnomeCanvas.ml" 165 8976 8989
+type(
+  Gobject.g_type
+)
+ident(
+  def ellipse "gnomeCanvas.ml" 166 9009 9011 "gnomeCanvas.ml" 180 9439 9444
+)
+"gnomeCanvas.ml" 165 8976 8992 "gnomeCanvas.ml" 165 8976 9004
+type(
+  Gobject.g_type array
+)
+ident(
+  int_ref canvas_types "gnomeCanvas.ml" 161 8874 8880 "gnomeCanvas.ml" 161 8874 8892
+)
+"gnomeCanvas.ml" 165 8976 9006 "gnomeCanvas.ml" 165 8976 9007
+type(
+  int
+)
+"gnomeCanvas.ml" 165 8976 8992 "gnomeCanvas.ml" 165 8976 9008
+type(
+  Gobject.g_type
+)
+"gnomeCanvas.ml" 166 9009 9015 "gnomeCanvas.ml" 166 9009 9019
+type(
+  Gobject.g_type
+)
+ident(
+  def text "gnomeCanvas.ml" 167 9040 9042 "gnomeCanvas.ml" 180 9439 9444
+)
+"gnomeCanvas.ml" 166 9009 9022 "gnomeCanvas.ml" 166 9009 9034
+type(
+  Gobject.g_type array
+)
+ident(
+  int_ref canvas_types "gnomeCanvas.ml" 161 8874 8880 "gnomeCanvas.ml" 161 8874 8892
+)
+"gnomeCanvas.ml" 166 9009 9036 "gnomeCanvas.ml" 166 9009 9038
+type(
+  int
+)
+"gnomeCanvas.ml" 166 9009 9022 "gnomeCanvas.ml" 166 9009 9039
+type(
+  Gobject.g_type
+)
+"gnomeCanvas.ml" 167 9040 9046 "gnomeCanvas.ml" 167 9040 9050
+type(
+  Gobject.g_type
+)
+ident(
+  def line "gnomeCanvas.ml" 168 9070 9072 "gnomeCanvas.ml" 180 9439 9444
+)
+"gnomeCanvas.ml" 167 9040 9053 "gnomeCanvas.ml" 167 9040 9065
+type(
+  Gobject.g_type array
+)
+ident(
+  int_ref canvas_types "gnomeCanvas.ml" 161 8874 8880 "gnomeCanvas.ml" 161 8874 8892
+)
+"gnomeCanvas.ml" 167 9040 9067 "gnomeCanvas.ml" 167 9040 9068
+type(
+  int
+)
+"gnomeCanvas.ml" 167 9040 9053 "gnomeCanvas.ml" 167 9040 9069
+type(
+  Gobject.g_type
+)
+"gnomeCanvas.ml" 168 9070 9076 "gnomeCanvas.ml" 168 9070 9081
+type(
+  Gobject.g_type
+)
+ident(
+  def bpath "gnomeCanvas.ml" 169 9101 9103 "gnomeCanvas.ml" 180 9439 9444
+)
+"gnomeCanvas.ml" 168 9070 9084 "gnomeCanvas.ml" 168 9070 9096
+type(
+  Gobject.g_type array
+)
+ident(
+  int_ref canvas_types "gnomeCanvas.ml" 161 8874 8880 "gnomeCanvas.ml" 161 8874 8892
+)
+"gnomeCanvas.ml" 168 9070 9098 "gnomeCanvas.ml" 168 9070 9099
+type(
+  int
+)
+"gnomeCanvas.ml" 168 9070 9084 "gnomeCanvas.ml" 168 9070 9100
+type(
+  Gobject.g_type
+)
+"gnomeCanvas.ml" 169 9101 9107 "gnomeCanvas.ml" 169 9101 9113
+type(
+  Gobject.g_type
+)
+ident(
+  def pixbuf "gnomeCanvas.ml" 170 9133 9135 "gnomeCanvas.ml" 180 9439 9444
+)
+"gnomeCanvas.ml" 169 9101 9116 "gnomeCanvas.ml" 169 9101 9128
+type(
+  Gobject.g_type array
+)
+ident(
+  int_ref canvas_types "gnomeCanvas.ml" 161 8874 8880 "gnomeCanvas.ml" 161 8874 8892
+)
+"gnomeCanvas.ml" 169 9101 9130 "gnomeCanvas.ml" 169 9101 9131
+type(
+  int
+)
+"gnomeCanvas.ml" 169 9101 9116 "gnomeCanvas.ml" 169 9101 9132
+type(
+  Gobject.g_type
+)
+"gnomeCanvas.ml" 170 9133 9139 "gnomeCanvas.ml" 170 9133 9146
+type(
+  Gobject.g_type
+)
+ident(
+  def polygon "gnomeCanvas.ml" 171 9166 9168 "gnomeCanvas.ml" 180 9439 9444
+)
+"gnomeCanvas.ml" 170 9133 9149 "gnomeCanvas.ml" 170 9133 9161
+type(
+  Gobject.g_type array
+)
+ident(
+  int_ref canvas_types "gnomeCanvas.ml" 161 8874 8880 "gnomeCanvas.ml" 161 8874 8892
+)
+"gnomeCanvas.ml" 170 9133 9163 "gnomeCanvas.ml" 170 9133 9164
+type(
+  int
+)
+"gnomeCanvas.ml" 170 9133 9149 "gnomeCanvas.ml" 170 9133 9165
+type(
+  Gobject.g_type
+)
+"gnomeCanvas.ml" 171 9166 9172 "gnomeCanvas.ml" 171 9166 9177
+type(
+  Gobject.g_type
+)
+ident(
+  def shape "gnomeCanvas.ml" 172 9198 9200 "gnomeCanvas.ml" 180 9439 9444
+)
+"gnomeCanvas.ml" 171 9166 9180 "gnomeCanvas.ml" 171 9166 9192
+type(
+  Gobject.g_type array
+)
+ident(
+  int_ref canvas_types "gnomeCanvas.ml" 161 8874 8880 "gnomeCanvas.ml" 161 8874 8892
+)
+"gnomeCanvas.ml" 171 9166 9194 "gnomeCanvas.ml" 171 9166 9196
+type(
+  int
+)
+"gnomeCanvas.ml" 171 9166 9180 "gnomeCanvas.ml" 171 9166 9197
+type(
+  Gobject.g_type
+)
+"gnomeCanvas.ml" 172 9198 9204 "gnomeCanvas.ml" 172 9198 9216
+type(
+  Gobject.g_type
+)
+ident(
+  def rect_ellipse "gnomeCanvas.ml" 173 9237 9239 "gnomeCanvas.ml" 180 9439 9444
+)
+"gnomeCanvas.ml" 172 9198 9219 "gnomeCanvas.ml" 172 9198 9231
+type(
+  Gobject.g_type array
+)
+ident(
+  int_ref canvas_types "gnomeCanvas.ml" 161 8874 8880 "gnomeCanvas.ml" 161 8874 8892
+)
+"gnomeCanvas.ml" 172 9198 9233 "gnomeCanvas.ml" 172 9198 9235
+type(
+  int
+)
+"gnomeCanvas.ml" 172 9198 9219 "gnomeCanvas.ml" 172 9198 9236
+type(
+  Gobject.g_type
+)
+"gnomeCanvas.ml" 173 9237 9243 "gnomeCanvas.ml" 173 9237 9249
+type(
+  Gobject.g_type
+)
+ident(
+  def widget "gnomeCanvas.ml" 174 9269 9271 "gnomeCanvas.ml" 180 9439 9444
+)
+"gnomeCanvas.ml" 173 9237 9252 "gnomeCanvas.ml" 173 9237 9264
+type(
+  Gobject.g_type array
+)
+ident(
+  int_ref canvas_types "gnomeCanvas.ml" 161 8874 8880 "gnomeCanvas.ml" 161 8874 8892
+)
+"gnomeCanvas.ml" 173 9237 9266 "gnomeCanvas.ml" 173 9237 9267
+type(
+  int
+)
+"gnomeCanvas.ml" 173 9237 9252 "gnomeCanvas.ml" 173 9237 9268
+type(
+  Gobject.g_type
+)
+"gnomeCanvas.ml" 174 9269 9275 "gnomeCanvas.ml" 174 9269 9284
+type(
+  Gobject.g_type
+)
+ident(
+  def rich_text "gnomeCanvas.ml" 175 9305 9307 "gnomeCanvas.ml" 180 9439 9444
+)
+"gnomeCanvas.ml" 174 9269 9287 "gnomeCanvas.ml" 174 9269 9299
+type(
+  Gobject.g_type array
+)
+ident(
+  int_ref canvas_types "gnomeCanvas.ml" 161 8874 8880 "gnomeCanvas.ml" 161 8874 8892
+)
+"gnomeCanvas.ml" 174 9269 9301 "gnomeCanvas.ml" 174 9269 9303
+type(
+  int
+)
+"gnomeCanvas.ml" 174 9269 9287 "gnomeCanvas.ml" 174 9269 9304
+type(
+  Gobject.g_type
+)
+"gnomeCanvas.ml" 175 9305 9311 "gnomeCanvas.ml" 175 9305 9317
+type(
+  Gobject.g_type
+)
+ident(
+  def points "gnomeCanvas.ml" 177 9338 9340 "gnomeCanvas.ml" 180 9439 9444
+)
+"gnomeCanvas.ml" 175 9305 9320 "gnomeCanvas.ml" 175 9305 9332
+type(
+  Gobject.g_type array
+)
+ident(
+  int_ref canvas_types "gnomeCanvas.ml" 161 8874 8880 "gnomeCanvas.ml" 161 8874 8892
+)
+"gnomeCanvas.ml" 175 9305 9334 "gnomeCanvas.ml" 175 9305 9335
+type(
+  int
+)
+"gnomeCanvas.ml" 175 9305 9320 "gnomeCanvas.ml" 175 9305 9336
+type(
+  Gobject.g_type
+)
+"gnomeCanvas.ml" 177 9338 9344 "gnomeCanvas.ml" 177 9338 9348
+type(
+  'a Gobject.obj -> Gobject.g_type -> bool
+)
+ident(
+  def is_a "gnomeCanvas.ml" 179 9408 9410 "gnomeCanvas.ml" 180 9439 9444
+)
+"gnomeCanvas.ml" 177 9338 9349 "gnomeCanvas.ml" 177 9338 9352
+type(
+  'a Gobject.obj
+)
+ident(
+  def obj "gnomeCanvas.ml" 177 9338 9353 "gnomeCanvas.ml" 178 9359 9407
+)
+"gnomeCanvas.ml" 177 9338 9353 "gnomeCanvas.ml" 177 9338 9356
+type(
+  Gobject.g_type
+)
+ident(
+  def typ "gnomeCanvas.ml" 178 9359 9363 "gnomeCanvas.ml" 178 9359 9407
+)
+"gnomeCanvas.ml" 178 9359 9363 "gnomeCanvas.ml" 178 9359 9380
+type(
+  Gobject.g_type -> Gobject.g_type -> bool
+)
+ident(
+  ext_ref Gobject.Type.is_a
+)
+"gnomeCanvas.ml" 178 9359 9382 "gnomeCanvas.ml" 178 9359 9398
+type(
+  'a Gobject.obj -> Gobject.g_type
+)
+ident(
+  ext_ref Gobject.get_type
+)
+"gnomeCanvas.ml" 178 9359 9399 "gnomeCanvas.ml" 178 9359 9402
+type(
+  'a Gobject.obj
+)
+ident(
+  int_ref obj "gnomeCanvas.ml" 177 9338 9349 "gnomeCanvas.ml" 177 9338 9352
+)
+"gnomeCanvas.ml" 178 9359 9381 "gnomeCanvas.ml" 178 9359 9403
+call(
+  stack
+)
+type(
+  Gobject.g_type
+)
+"gnomeCanvas.ml" 178 9359 9404 "gnomeCanvas.ml" 178 9359 9407
+type(
+  Gobject.g_type
+)
+ident(
+  int_ref typ "gnomeCanvas.ml" 177 9338 9353 "gnomeCanvas.ml" 177 9338 9356
+)
+"gnomeCanvas.ml" 178 9359 9363 "gnomeCanvas.ml" 178 9359 9407
+call(
+  tail
+)
+type(
+  bool
+)
+"gnomeCanvas.ml" 179 9408 9414 "gnomeCanvas.ml" 179 9408 9418
+type(
+  Gobject.g_type -> string
+)
+ident(
+  def name "gnomeCanvas.ml" 179 9408 9438 "gnomeCanvas.ml" 180 9439 9444
+)
+"gnomeCanvas.ml" 179 9408 9421 "gnomeCanvas.ml" 179 9408 9438
+type(
+  Gobject.g_type -> string
+)
+ident(
+  ext_ref Gobject.Type.name
+)
+"gnomeCanvas.ml" 215 12007 12013 "gnomeCanvas.ml" 215 12007 12020
+type(
+  ([< Gdk.Tags.event_type ] Gdk.event -> bool) ->
+  Gobject.Closure.argv -> unit
+)
+ident(
+  def marshal "gnomeCanvas.ml" 216 12060 12062 "gnomeCanvas.ml" 220 12238 12243
+)
+"gnomeCanvas.ml" 215 12007 12023 "gnomeCanvas.ml" 215 12007 12059
+type(
+  (([< Gdk.Tags.event_type ] as 'a) Gdk.event -> bool) ->
+  Gobject.Closure.argv -> unit
+)
+ident(
+  ext_ref GtkBase.Widget.Signals.Event.marshal
+)
+"gnomeCanvas.ml" 216 12060 12066 "gnomeCanvas.ml" 216 12060 12071
+type(
+  ([> `canvasitem ], item_event -> bool) GtkSignal.t
+)
+ident(
+  def event "gnomeCanvas.ml" 219 12198 12237 "gnomeCanvas.ml" 220 12238 12243
+)
+"gnomeCanvas.ml" 217 12126 12149 "gnomeCanvas.ml" 217 12126 12156
+type(
+  string
+)
+"gnomeCanvas.ml" 218 12159 12184 "gnomeCanvas.ml" 218 12159 12195
+type(
+  [> `canvasitem ] as 'b
+)
+"gnomeCanvas.ml" 219 12198 12227 "gnomeCanvas.ml" 219 12198 12234
+type(
+  (item_event -> bool) GtkSignal.marshaller
+)
+ident(
+  int_ref marshal "gnomeCanvas.ml" 215 12007 12013 "gnomeCanvas.ml" 215 12007 12020
+)
+"gnomeCanvas.ml" 217 12126 12130 "gnomeCanvas.ml" 219 12198 12237
+type(
+  ('b, item_event -> bool) GtkSignal.t
+)
+type(
+  ('b, item_event -> bool) GtkSignal.t
+)
+"gnomeCanvas.ml" 231 12430 12438 "gnomeCanvas.ml" 231 12430 12448
+type(
+  ('a, float) Gobject.property
+)
+ident(
+  def text_width "gnomeCanvas.ml" 232 12519 12523 "gnomeCanvas.ml" 233 12610 12613
+)
+"gnomeCanvas.ml" 231 12430 12468 "gnomeCanvas.ml" 231 12430 12480
+type(
+  string
+)
+"gnomeCanvas.ml" 231 12430 12497 "gnomeCanvas.ml" 231 12430 12516
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gnomeCanvas.ml" 231 12430 12451 "gnomeCanvas.ml" 231 12430 12518
+type(
+  ('a, float) Gobject.property
+)
+"gnomeCanvas.ml" 232 12519 12527 "gnomeCanvas.ml" 232 12519 12538
+type(
+  ('b, float) Gobject.property
+)
+ident(
+  def text_height "gnomeCanvas.ml" 232 12519 12609 "gnomeCanvas.ml" 233 12610 12613
+)
+"gnomeCanvas.ml" 232 12519 12558 "gnomeCanvas.ml" 232 12519 12571
+type(
+  string
+)
+"gnomeCanvas.ml" 232 12519 12588 "gnomeCanvas.ml" 232 12519 12607
+type(
+  float Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.double
+)
+"gnomeCanvas.ml" 232 12519 12541 "gnomeCanvas.ml" 232 12519 12609
+type(
+  ('b, float) Gobject.property
+)
+"gnomeCanvas.ml" 256 13548 13552 "gnomeCanvas.ml" 256 13548 13558
+type(
+  float array option Gobject.data_conv
+)
+ident(
+  def points "gnomeCanvas.ml" 260 13740 13740 "gnomeCanvas.ml" 267 14080 14083
+)
+"gnomeCanvas.ml" 257 13561 13580 "gnomeCanvas.ml" 257 13561 13594
+type(
+  string -> Gobject.g_type
+)
+ident(
+  ext_ref Gobject.Type.from_name
+)
+"gnomeCanvas.ml" 257 13561 13595 "gnomeCanvas.ml" 257 13561 13614
+type(
+  string
+)
+"gnomeCanvas.ml" 257 13561 13579 "gnomeCanvas.ml" 257 13561 13615
+call(
+  stack
+)
+type(
+  Gobject.g_type
+)
+"gnomeCanvas.ml" 257 13561 13572 "gnomeCanvas.ml" 257 13561 13615
+type(
+  Gobject.data_kind
+)
+"gnomeCanvas.ml" 258 13617 13632 "gnomeCanvas.ml" 258 13617 13633
+type(
+  float array option
+)
+ident(
+  def x "gnomeCanvas.ml" 258 13617 13637 "gnomeCanvas.ml" 258 13617 13672
+)
+"gnomeCanvas.ml" 258 13617 13647 "gnomeCanvas.ml" 258 13617 13654
+type(
+  f:(float array -> Gpointer.boxed) ->
+  float array option -> Gpointer.boxed option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gnomeCanvas.ml" 258 13617 13655 "gnomeCanvas.ml" 258 13617 13669
+type(
+  float array -> Gpointer.boxed
+)
+"gnomeCanvas.ml" 258 13617 13670 "gnomeCanvas.ml" 258 13617 13671
+type(
+  float array option
+)
+ident(
+  int_ref x "gnomeCanvas.ml" 258 13617 13632 "gnomeCanvas.ml" 258 13617 13633
+)
+"gnomeCanvas.ml" 258 13617 13646 "gnomeCanvas.ml" 258 13617 13672
+call(
+  stack
+)
+type(
+  Gpointer.boxed option
+)
+"gnomeCanvas.ml" 258 13617 13637 "gnomeCanvas.ml" 258 13617 13672
+type(
+  unit Gobject.data_set
+)
+"gnomeCanvas.ml" 258 13617 13627 "gnomeCanvas.ml" 258 13617 13673
+type(
+  float array option -> unit Gobject.data_set
+)
+"gnomeCanvas.ml" 259 13675 13691 "gnomeCanvas.ml" 259 13675 13692
+type(
+  Gobject.data_conv_get
+)
+ident(
+  def x "gnomeCanvas.ml" 259 13675 13696 "gnomeCanvas.ml" 259 13675 13736
+)
+"gnomeCanvas.ml" 259 13675 13696 "gnomeCanvas.ml" 259 13675 13703
+type(
+  f:(Gpointer.boxed -> float array) ->
+  Gpointer.boxed option -> float array option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gnomeCanvas.ml" 259 13675 13704 "gnomeCanvas.ml" 259 13675 13714
+type(
+  Gpointer.boxed -> float array
+)
+"gnomeCanvas.ml" 259 13675 13716 "gnomeCanvas.ml" 259 13675 13728
+type(
+  Gpointer.boxed option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.pointer
+)
+"gnomeCanvas.ml" 259 13675 13716 "gnomeCanvas.ml" 259 13675 13733
+type(
+  Gobject.data_conv_get -> Gpointer.boxed option
+)
+"gnomeCanvas.ml" 259 13675 13734 "gnomeCanvas.ml" 259 13675 13735
+type(
+  Gobject.data_conv_get
+)
+ident(
+  int_ref x "gnomeCanvas.ml" 259 13675 13691 "gnomeCanvas.ml" 259 13675 13692
+)
+"gnomeCanvas.ml" 259 13675 13715 "gnomeCanvas.ml" 259 13675 13736
+call(
+  stack
+)
+type(
+  Gpointer.boxed option
+)
+"gnomeCanvas.ml" 259 13675 13696 "gnomeCanvas.ml" 259 13675 13736
+call(
+  tail
+)
+type(
+  float array option
+)
+"gnomeCanvas.ml" 259 13675 13686 "gnomeCanvas.ml" 259 13675 13737
+type(
+  Gobject.data_conv_get -> float array option
+)
+"gnomeCanvas.ml" 257 13561 13563 "gnomeCanvas.ml" 259 13675 13739
+type(
+  float array option Gobject.data_conv
+)
+"gnomeCanvas.ml" 260 13740 13744 "gnomeCanvas.ml" 260 13740 13758
+type(
+  (float * float array) option Gobject.data_conv
+)
+ident(
+  def art_vpath_dash "gnomeCanvas.ml" 264 13920 13920 "gnomeCanvas.ml" 267 14080 14083
+)
+"gnomeCanvas.ml" 261 13761 13772 "gnomeCanvas.ml" 261 13761 13780
+type(
+  Gobject.data_kind
+)
+"gnomeCanvas.ml" 262 13782 13797 "gnomeCanvas.ml" 262 13782 13798
+type(
+  (float * float array) option
+)
+ident(
+  def x "gnomeCanvas.ml" 262 13782 13802 "gnomeCanvas.ml" 262 13782 13854
+)
+"gnomeCanvas.ml" 262 13782 13812 "gnomeCanvas.ml" 262 13782 13819
+type(
+  f:(float * float array -> Gpointer.boxed) ->
+  (float * float array) option -> Gpointer.boxed option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gnomeCanvas.ml" 262 13782 13826 "gnomeCanvas.ml" 262 13782 13827
+type(
+  float
+)
+ident(
+  def x "gnomeCanvas.ml" 262 13782 13834 "gnomeCanvas.ml" 262 13782 13850
+)
+"gnomeCanvas.ml" 262 13782 13828 "gnomeCanvas.ml" 262 13782 13829
+type(
+  float array
+)
+ident(
+  def y "gnomeCanvas.ml" 262 13782 13834 "gnomeCanvas.ml" 262 13782 13850
+)
+"gnomeCanvas.ml" 262 13782 13825 "gnomeCanvas.ml" 262 13782 13830
+type(
+  float * float array
+)
+"gnomeCanvas.ml" 262 13782 13834 "gnomeCanvas.ml" 262 13782 13846
+type(
+  float -> float array -> Gpointer.boxed
+)
+"gnomeCanvas.ml" 262 13782 13847 "gnomeCanvas.ml" 262 13782 13848
+type(
+  float
+)
+ident(
+  int_ref x "gnomeCanvas.ml" 262 13782 13826 "gnomeCanvas.ml" 262 13782 13827
+)
+"gnomeCanvas.ml" 262 13782 13849 "gnomeCanvas.ml" 262 13782 13850
+type(
+  float array
+)
+ident(
+  int_ref y "gnomeCanvas.ml" 262 13782 13828 "gnomeCanvas.ml" 262 13782 13829
+)
+"gnomeCanvas.ml" 262 13782 13834 "gnomeCanvas.ml" 262 13782 13850
+type(
+  Gpointer.boxed
+)
+"gnomeCanvas.ml" 262 13782 13820 "gnomeCanvas.ml" 262 13782 13851
+type(
+  float * float array -> Gpointer.boxed
+)
+"gnomeCanvas.ml" 262 13782 13852 "gnomeCanvas.ml" 262 13782 13853
+type(
+  (float * float array) option
+)
+ident(
+  int_ref x "gnomeCanvas.ml" 262 13782 13797 "gnomeCanvas.ml" 262 13782 13798
+)
+"gnomeCanvas.ml" 262 13782 13811 "gnomeCanvas.ml" 262 13782 13854
+call(
+  stack
+)
+type(
+  Gpointer.boxed option
+)
+"gnomeCanvas.ml" 262 13782 13802 "gnomeCanvas.ml" 262 13782 13854
+type(
+  unit Gobject.data_set
+)
+"gnomeCanvas.ml" 262 13782 13792 "gnomeCanvas.ml" 262 13782 13855
+type(
+  (float * float array) option -> unit Gobject.data_set
+)
+"gnomeCanvas.ml" 263 13857 13873 "gnomeCanvas.ml" 263 13857 13874
+type(
+  Gobject.data_conv_get
+)
+ident(
+  def x "gnomeCanvas.ml" 263 13857 13878 "gnomeCanvas.ml" 263 13857 13916
+)
+"gnomeCanvas.ml" 263 13857 13878 "gnomeCanvas.ml" 263 13857 13885
+type(
+  f:(Gpointer.boxed -> float * float array) ->
+  Gpointer.boxed option -> (float * float array) option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gnomeCanvas.ml" 263 13857 13886 "gnomeCanvas.ml" 263 13857 13894
+type(
+  Gpointer.boxed -> float * float array
+)
+"gnomeCanvas.ml" 263 13857 13896 "gnomeCanvas.ml" 263 13857 13908
+type(
+  Gpointer.boxed option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.pointer
+)
+"gnomeCanvas.ml" 263 13857 13896 "gnomeCanvas.ml" 263 13857 13913
+type(
+  Gobject.data_conv_get -> Gpointer.boxed option
+)
+"gnomeCanvas.ml" 263 13857 13914 "gnomeCanvas.ml" 263 13857 13915
+type(
+  Gobject.data_conv_get
+)
+ident(
+  int_ref x "gnomeCanvas.ml" 263 13857 13873 "gnomeCanvas.ml" 263 13857 13874
+)
+"gnomeCanvas.ml" 263 13857 13895 "gnomeCanvas.ml" 263 13857 13916
+call(
+  stack
+)
+type(
+  Gpointer.boxed option
+)
+"gnomeCanvas.ml" 263 13857 13878 "gnomeCanvas.ml" 263 13857 13916
+call(
+  tail
+)
+type(
+  (float * float array) option
+)
+"gnomeCanvas.ml" 263 13857 13868 "gnomeCanvas.ml" 263 13857 13917
+type(
+  Gobject.data_conv_get -> (float * float array) option
+)
+"gnomeCanvas.ml" 261 13761 13763 "gnomeCanvas.ml" 263 13857 13919
+type(
+  (float * float array) option Gobject.data_conv
+)
+"gnomeCanvas.ml" 264 13920 13924 "gnomeCanvas.ml" 264 13920 13932
+type(
+  PathDef.t option Gobject.data_conv
+)
+ident(
+  def path_def "gnomeCanvas.ml" 266 14001 14079 "gnomeCanvas.ml" 267 14080 14083
+)
+"gnomeCanvas.ml" 265 13935 13946 "gnomeCanvas.ml" 265 13935 13954
+type(
+  Gobject.data_kind
+)
+"gnomeCanvas.ml" 265 13935 13962 "gnomeCanvas.ml" 265 13935 13988
+type(
+  PathDef.t option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer_option
+)
+"gnomeCanvas.ml" 265 13935 13962 "gnomeCanvas.ml" 265 13935 13992
+type(
+  PathDef.t option -> unit Gobject.data_set
+)
+"gnomeCanvas.ml" 266 14001 14010 "gnomeCanvas.ml" 266 14001 14011
+type(
+  Gobject.data_conv_get
+)
+ident(
+  def x "gnomeCanvas.ml" 266 14001 14015 "gnomeCanvas.ml" 266 14001 14076
+)
+"gnomeCanvas.ml" 266 14001 14015 "gnomeCanvas.ml" 266 14001 14022
+type(
+  f:(PathDef.t -> PathDef.t) -> PathDef.t option -> PathDef.t option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gnomeCanvas.ml" 266 14001 14023 "gnomeCanvas.ml" 266 14001 14040
+type(
+  PathDef.t -> PathDef.t
+)
+ident(
+  ext_ref PathDef.duplicate
+)
+"gnomeCanvas.ml" 266 14001 14042 "gnomeCanvas.ml" 266 14001 14068
+type(
+  PathDef.t option Gobject.data_conv
+)
+ident(
+  ext_ref Gobject.Data.unsafe_pointer_option
+)
+"gnomeCanvas.ml" 266 14001 14042 "gnomeCanvas.ml" 266 14001 14073
+type(
+  Gobject.data_conv_get -> PathDef.t option
+)
+"gnomeCanvas.ml" 266 14001 14074 "gnomeCanvas.ml" 266 14001 14075
+type(
+  Gobject.data_conv_get
+)
+ident(
+  int_ref x "gnomeCanvas.ml" 266 14001 14010 "gnomeCanvas.ml" 266 14001 14011
+)
+"gnomeCanvas.ml" 266 14001 14041 "gnomeCanvas.ml" 266 14001 14076
+call(
+  stack
+)
+type(
+  PathDef.t option
+)
+"gnomeCanvas.ml" 266 14001 14015 "gnomeCanvas.ml" 266 14001 14076
+call(
+  tail
+)
+type(
+  PathDef.t option
+)
+"gnomeCanvas.ml" 266 14001 14005 "gnomeCanvas.ml" 266 14001 14077
+type(
+  Gobject.data_conv_get -> PathDef.t option
+)
+"gnomeCanvas.ml" 265 13935 13937 "gnomeCanvas.ml" 266 14001 14079
+type(
+  PathDef.t option Gobject.data_conv
+)

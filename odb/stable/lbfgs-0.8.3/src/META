@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: f82b71a00862156c94add7e6c62aa065)
+version = "0.8.3"
+description
+ =
+ "Minimization of multidimensional functions on bounded or unbounded domains."
+requires = "bigarray"
+archive(byte) = "lbfgs.cma"
+archive(native) = "lbfgs.cmxa"
+exists_if = "lbfgs.cma"
+# OASIS_STOP
+

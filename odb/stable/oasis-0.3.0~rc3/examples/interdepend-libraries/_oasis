@@ -1,0 +1,52 @@
+OASISFormat: 0.1
+Name:        interdepend-libraries
+Version:     0.1
+Synopsis:    Executable and libraries with interdependencies
+Authors:     Sylvain Le Gall
+License:     LGPL with OCaml linking exception
+BuildTools:  ocamlbuild
+
+Library liba
+  Modules:         A
+  InternalModules: intern/A2, intern/A_parser, intern/A_lexer
+  Path:            src/liba
+  BuildDepends:    str
+  Install:         false
+  
+Library libb
+  Modules:      B
+  Path:         src/libb
+  BuildDepends: liba, unix
+  Install:      false
+  
+Library libc
+  Modules:      C
+  Path:         src/libc
+  BuildDepends: libb, num
+  Install:      false
+
+Library libd
+  Modules:           D
+  Path:              src/libd
+  Install:           false
+
+Library libe
+  Modules:           E
+  Path:              src/libe
+  Install:           false
+  BuildDepends:      libd
+  
+Executable execa
+  MainIs:       Main.ml
+  Path:         src/execa
+  BuildDepends: libc, libe
+  Install:      false
+
+Document interdepend
+  Title:                API reference for interdepend
+  Type:                 ocamlbuild (0.1.0)
+  InstallDir:           $htmldir/interdepend
+  Install:              false
+  BuildTools+:          ocamldoc
+  XOCamlbuildPath:      src
+  XOCamlbuildLibraries: liba, libb, libc, libd, libe

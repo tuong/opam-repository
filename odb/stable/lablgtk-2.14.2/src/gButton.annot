@@ -1,0 +1,5009 @@
+"gButton.ml" 34 1786 1804 "gButton.ml" 34 1786 1807
+type(
+  [> `bin | `button | `container | `gtk | `widget ] Gtk.obj
+)
+"gButton.ml" 34 1786 1817 "gButton.ml" 34 1786 1823
+type(
+  < add : GObj.widget -> unit; all_children : GObj.widget list;
+    as_widget : Gtk.widget Gtk.obj; border_width : int; child : GObj.widget;
+    children : GObj.widget list; clicked : unit -> unit;
+    coerce : GObj.widget; destroy : unit -> unit; drag : GObj.drag_ops;
+    event : GObj.event_ops; focus : GContainer.focus; focus_on_click : 
+    bool; get_oid : int; grab_default : unit -> unit; image : GObj.widget;
+    image_position : GtkEnums.position_type; label : string;
+    misc : GObj.misc_ops; relief : GtkEnums.relief_style;
+    remove : GObj.widget -> unit; resize_mode : Gtk.Tags.resize_mode;
+    set_border_width : int -> unit; set_focus_on_click : bool -> unit;
+    set_image : GObj.widget -> unit;
+    set_image_position : GtkEnums.position_type -> unit;
+    set_label : string -> unit; set_relief : GtkEnums.relief_style -> unit;
+    set_resize_mode : Gtk.Tags.resize_mode -> unit;
+    set_use_stock : bool -> unit; set_use_underline : bool -> unit;
+    set_xalign : float -> unit; set_yalign : float -> unit;
+    unset_image : unit -> unit; use_stock : bool; use_underline : bool;
+    xalign : float; yalign : float; .. >
+)
+"gButton.ml" 35 1824 1838 "gButton.ml" 35 1824 1841
+type(
+  ([> `bin | `button | `container | `gtk | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 34 1786 1804 "gButton.ml" 34 1786 1807
+)
+"gButton.ml" 37 1865 1882 "gButton.ml" 37 1865 1884
+type(
+  unit
+)
+"gButton.ml" 37 1865 1887 "gButton.ml" 37 1865 1901
+type(
+  'a Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkButton.Button.clicked
+)
+"gButton.ml" 37 1865 1902 "gButton.ml" 37 1865 1905
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 37 1865 1887 "gButton.ml" 37 1865 1905
+type(
+  unit
+)
+"gButton.ml" 38 1906 1928 "gButton.ml" 38 1906 1930
+type(
+  unit
+)
+"gButton.ml" 39 1933 1937 "gButton.ml" 39 1933 1940
+type(
+  ('a, bool) Gobject.property -> 'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref OgtkButtonProps.set
+)
+"gButton.ml" 39 1933 1941 "gButton.ml" 39 1933 1961
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBase.Widget.P.can_default
+)
+"gButton.ml" 39 1933 1962 "gButton.ml" 39 1933 1965
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 39 1933 1966 "gButton.ml" 39 1933 1970
+type(
+  bool
+)
+"gButton.ml" 39 1933 1937 "gButton.ml" 39 1933 1970
+call(
+  stack
+)
+type(
+  unit
+)
+"gButton.ml" 40 1972 1976 "gButton.ml" 40 1972 1979
+type(
+  ('a, bool) Gobject.property -> 'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref OgtkButtonProps.set
+)
+"gButton.ml" 40 1972 1980 "gButton.ml" 40 1972 2000
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkBase.Widget.P.has_default
+)
+"gButton.ml" 40 1972 2001 "gButton.ml" 40 1972 2004
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 40 1972 2005 "gButton.ml" 40 1972 2009
+type(
+  bool
+)
+"gButton.ml" 40 1972 1976 "gButton.ml" 40 1972 2009
+call(
+  tail
+)
+type(
+  unit
+)
+"gButton.ml" 39 1933 1937 "gButton.ml" 40 1972 2009
+type(
+  unit
+)
+"gButton.ml" 41 2010 2027 "gButton.ml" 41 2010 2045
+type(
+  'a Gtk.obj -> GObj.event_ops
+)
+"gButton.ml" 41 2010 2046 "gButton.ml" 41 2010 2049
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 41 2010 2027 "gButton.ml" 41 2010 2049
+call(
+  tail
+)
+type(
+  GObj.event_ops
+)
+type(
+  GObj.event_ops
+)
+"gButton.ml" 43 2051 2072 "gButton.ml" 43 2051 2074
+type(
+  unit
+)
+"gButton.ml" 44 2077 2081 "gButton.ml" 44 2077 2105
+type(
+  'a Gtk.obj -> string -> '_b Gobject.data_set -> unit
+)
+ident(
+  ext_ref Gobject.Property.set_dyn
+)
+"gButton.ml" 44 2077 2106 "gButton.ml" 44 2077 2109
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 45 2111 2117 "gButton.ml" 45 2111 2146
+type(
+  (_[> `button ], Gtk.widget Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkButtonProps.Button.P.image
+)
+"gButton.ml" 45 2111 2117 "gButton.ml" 45 2111 2159
+type(
+  string
+)
+"gButton.ml" 46 2160 2175 "gButton.ml" 46 2160 2179
+type(
+  '_b Gobject.obj option
+)
+"gButton.ml" 46 2160 2166 "gButton.ml" 46 2160 2180
+type(
+  '_b Gobject.data_set
+)
+"gButton.ml" 44 2077 2081 "gButton.ml" 46 2160 2180
+call(
+  tail
+)
+type(
+  unit
+)
+"gButton.ml" 49 2186 2207 "gButton.ml" 49 2186 2210
+type(
+  [> Gtk.button ] Gtk.obj
+)
+"gButton.ml" 50 2220 2254 "gButton.ml" 50 2220 2257
+type(
+  ([> Gtk.button ] as 'a) Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 49 2186 2207 "gButton.ml" 49 2186 2210
+)
+"gButton.ml" 54 2303 2316 "gButton.ml" 54 2303 2319
+type(
+  Gtk.button Gtk.obj
+)
+"gButton.ml" 55 2329 2352 "gButton.ml" 55 2329 2355
+type(
+  Gtk.button Gtk.obj
+)
+type(
+  Gtk.button Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 54 2303 2316 "gButton.ml" 54 2303 2319
+)
+"gButton.ml" 56 2374 2393 "gButton.ml" 56 2374 2411
+type(
+  Gtk.button Gtk.obj -> button_signals
+)
+"gButton.ml" 56 2374 2412 "gButton.ml" 56 2374 2415
+type(
+  Gtk.button Gtk.obj
+)
+"gButton.ml" 56 2374 2393 "gButton.ml" 56 2374 2415
+call(
+  tail
+)
+type(
+  button_signals
+)
+type(
+  button_signals
+)
+"gButton.ml" 59 2421 2425 "gButton.ml" 59 2421 2436
+type(
+  ('a -> (#GObj.widget as 'b)) ->
+  'a -> ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> 'b
+)
+ident(
+  def pack_return "gButton.ml" 62 2507 2507 --
+)
+"gButton.ml" 59 2421 2437 "gButton.ml" 59 2421 2443
+type(
+  'a -> 'b
+)
+ident(
+  def create "gButton.ml" 59 2421 2444 "gButton.ml" 60 2466 2505
+)
+"gButton.ml" 59 2421 2444 "gButton.ml" 59 2421 2445
+type(
+  'a
+)
+ident(
+  def p "gButton.ml" 59 2421 2446 "gButton.ml" 60 2466 2505
+)
+"gButton.ml" 59 2421 2447 "gButton.ml" 59 2421 2454
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  def packing "gButton.ml" 59 2421 2455 "gButton.ml" 60 2466 2505
+)
+"gButton.ml" 59 2421 2456 "gButton.ml" 59 2421 2460
+type(
+  bool option
+)
+ident(
+  def show "gButton.ml" 59 2421 2461 "gButton.ml" 60 2466 2505
+)
+"gButton.ml" 59 2421 2461 "gButton.ml" 59 2421 2463
+type(
+  unit
+)
+"gButton.ml" 60 2466 2468 "gButton.ml" 60 2466 2479
+type(
+  'b -> packing:(GObj.widget -> unit) option -> show:bool option -> 'b
+)
+ident(
+  ext_ref GObj.pack_return
+)
+"gButton.ml" 60 2466 2481 "gButton.ml" 60 2466 2487
+type(
+  'a -> 'b
+)
+ident(
+  int_ref create "gButton.ml" 59 2421 2437 "gButton.ml" 59 2421 2443
+)
+"gButton.ml" 60 2466 2488 "gButton.ml" 60 2466 2489
+type(
+  'a
+)
+ident(
+  int_ref p "gButton.ml" 59 2421 2444 "gButton.ml" 59 2421 2445
+)
+"gButton.ml" 60 2466 2480 "gButton.ml" 60 2466 2490
+call(
+  stack
+)
+type(
+  'b
+)
+"gButton.ml" 60 2466 2492 "gButton.ml" 60 2466 2499
+type(
+  (GObj.widget -> unit) option
+)
+ident(
+  int_ref packing "gButton.ml" 59 2421 2447 "gButton.ml" 59 2421 2454
+)
+"gButton.ml" 60 2466 2501 "gButton.ml" 60 2466 2505
+type(
+  bool option
+)
+ident(
+  int_ref show "gButton.ml" 59 2421 2456 "gButton.ml" 59 2421 2460
+)
+"gButton.ml" 60 2466 2468 "gButton.ml" 60 2466 2505
+call(
+  tail
+)
+type(
+  'b
+)
+"gButton.ml" 62 2507 2511 "gButton.ml" 62 2507 2517
+type(
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:GtkEnums.relief_style ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> button
+)
+ident(
+  def button "gButton.ml" 66 2622 2622 --
+)
+"gButton.ml" 62 2507 2519 "gButton.ml" 62 2507 2524
+type(
+  string option
+)
+ident(
+  def label "gButton.ml" 63 2527 2529 "gButton.ml" 64 2566 2620
+)
+"gButton.ml" 63 2527 2529 "gButton.ml" 63 2527 2547
+type(
+  cont:(Gtk.button Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> button) ->
+  Gtk.button Gobject.param list ->
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:GtkEnums.relief_style ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> button
+)
+ident(
+  ext_ref GtkButton.Button.make_params
+)
+"gButton.ml" 63 2527 2548 "gButton.ml" 63 2527 2550
+type(
+  Gtk.button Gobject.param list
+)
+"gButton.ml" 63 2527 2552 "gButton.ml" 63 2527 2557
+type(
+  string option
+)
+ident(
+  int_ref label "gButton.ml" 62 2507 2519 "gButton.ml" 62 2507 2524
+)
+"gButton.ml" 64 2566 2568 "gButton.ml" 64 2566 2579
+type(
+  (Gtk.button Gobject.param list -> button) ->
+  Gtk.button Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> button
+)
+ident(
+  int_ref pack_return "gButton.ml" 59 2421 2425 "gButton.ml" 59 2421 2436
+)
+"gButton.ml" 64 2566 2585 "gButton.ml" 64 2566 2586
+type(
+  Gtk.button Gobject.param list
+)
+ident(
+  def p "gButton.ml" 64 2566 2590 "gButton.ml" 64 2566 2618
+)
+"gButton.ml" 64 2566 2590 "gButton.ml" 64 2566 2600
+type(
+  Gtk.button Gtk.obj -> button
+)
+"gButton.ml" 64 2566 2602 "gButton.ml" 64 2566 2615
+type(
+  Gtk.button Gobject.param list -> Gtk.button Gtk.obj
+)
+ident(
+  ext_ref GtkButton.Button.create
+)
+"gButton.ml" 64 2566 2616 "gButton.ml" 64 2566 2617
+type(
+  Gtk.button Gobject.param list
+)
+ident(
+  int_ref p "gButton.ml" 64 2566 2585 "gButton.ml" 64 2566 2586
+)
+"gButton.ml" 64 2566 2601 "gButton.ml" 64 2566 2618
+call(
+  stack
+)
+type(
+  Gtk.button Gtk.obj
+)
+"gButton.ml" 64 2566 2590 "gButton.ml" 64 2566 2618
+call(
+  tail
+)
+type(
+  button
+)
+"gButton.ml" 64 2566 2580 "gButton.ml" 64 2566 2619
+type(
+  Gtk.button Gobject.param list -> button
+)
+"gButton.ml" 63 2527 2564 "gButton.ml" 64 2566 2620
+call(
+  stack
+)
+type(
+  Gtk.button Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> button
+)
+"gButton.ml" 63 2527 2529 "gButton.ml" 64 2566 2620
+call(
+  tail
+)
+type(
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:GtkEnums.relief_style ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> button
+)
+"gButton.ml" 66 2622 2650 "gButton.ml" 66 2622 2653
+type(
+  [> `bin | `button | `container | `gtk | `togglebutton | `widget ] Gtk.obj
+)
+"gButton.ml" 66 2622 2663 "gButton.ml" 66 2622 2669
+type(
+  < add : callback:(GObj.widget -> unit) -> GtkSignal.id; after : 'a;
+    clicked : callback:(unit -> unit) -> GtkSignal.id;
+    destroy : callback:(unit -> unit) -> GtkSignal.id;
+    enter : callback:(unit -> unit) -> GtkSignal.id;
+    leave : callback:(unit -> unit) -> GtkSignal.id;
+    pressed : callback:(unit -> unit) -> GtkSignal.id;
+    released : callback:(unit -> unit) -> GtkSignal.id;
+    remove : callback:(GObj.widget -> unit) -> GtkSignal.id;
+    toggled : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"gButton.ml" 67 2670 2695 "gButton.ml" 67 2670 2698
+type(
+  ([> `bin | `button | `container | `gtk | `togglebutton | `widget ] as 'b)
+  Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 66 2622 2650 "gButton.ml" 66 2622 2653
+)
+"gButton.ml" 68 2699 2718 "gButton.ml" 68 2699 2722
+type(
+  'a
+)
+"gButton.ml" 68 2699 2718 "gButton.ml" 68 2699 2730
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"gButton.ml" 68 2699 2731 "gButton.ml" 68 2699 2753
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkButton.ToggleButton.S.toggled
+)
+"gButton.ml" 68 2699 2718 "gButton.ml" 68 2699 2753
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gButton.ml" 71 2759 2779 "gButton.ml" 71 2759 2782
+type(
+  [> `bin | `button | `container | `gtk | `togglebutton | `widget ] Gtk.obj
+)
+"gButton.ml" 72 2792 2814 "gButton.ml" 72 2792 2817
+type(
+  ([> `bin | `button | `container | `gtk | `togglebutton | `widget ] as 'a)
+  Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 71 2759 2779 "gButton.ml" 71 2759 2782
+)
+"gButton.ml" 73 2818 2837 "gButton.ml" 73 2818 2862
+type(
+  'a Gtk.obj -> toggle_button_signals
+)
+"gButton.ml" 73 2818 2863 "gButton.ml" 73 2818 2866
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 73 2818 2837 "gButton.ml" 73 2818 2866
+call(
+  tail
+)
+type(
+  toggle_button_signals
+)
+type(
+  toggle_button_signals
+)
+"gButton.ml" 74 2867 2885 "gButton.ml" 74 2867 2888
+type(
+  ('a, bool) Gobject.property -> 'a Gtk.obj -> bool
+)
+ident(
+  ext_ref OgtkButtonProps.get
+)
+"gButton.ml" 74 2867 2889 "gButton.ml" 74 2867 2910
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButton.ToggleButton.P.active
+)
+"gButton.ml" 74 2867 2911 "gButton.ml" 74 2867 2914
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 74 2867 2885 "gButton.ml" 74 2867 2914
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"gButton.ml" 75 2915 2937 "gButton.ml" 75 2915 2940
+type(
+  ('a, bool) Gobject.property -> 'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref OgtkButtonProps.set
+)
+"gButton.ml" 75 2915 2941 "gButton.ml" 75 2915 2962
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButton.ToggleButton.P.active
+)
+"gButton.ml" 75 2915 2963 "gButton.ml" 75 2915 2966
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 75 2915 2937 "gButton.ml" 75 2915 2966
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gButton.ml" 76 2967 2997 "gButton.ml" 76 2967 3000
+type(
+  ('a, bool) Gobject.property -> 'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref OgtkButtonProps.set
+)
+"gButton.ml" 76 2967 3001 "gButton.ml" 76 2967 3030
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButton.ToggleButton.P.draw_indicator
+)
+"gButton.ml" 76 2967 3031 "gButton.ml" 76 2967 3034
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 76 2967 2997 "gButton.ml" 76 2967 3034
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gButton.ml" 79 3040 3044 "gButton.ml" 79 3040 3062
+type(
+  ([> `button | `togglebutton ] Gobject.param list ->
+   [> `bin | `button | `container | `gtk | `togglebutton | `widget ] Gtk.obj) ->
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:GtkEnums.relief_style ->
+  ?active:bool ->
+  ?draw_indicator:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toggle_button
+)
+ident(
+  def make_toggle_button "gButton.ml" 84 3210 3210 --
+)
+"gButton.ml" 79 3040 3063 "gButton.ml" 79 3040 3069
+type(
+  ([> `button | `togglebutton ] as 'a) Gobject.param list ->
+  ([> `bin | `button | `container | `gtk | `togglebutton | `widget ] as 'b)
+  Gtk.obj
+)
+ident(
+  def create "gButton.ml" 79 3040 3070 "gButton.ml" 82 3153 3208
+)
+"gButton.ml" 79 3040 3071 "gButton.ml" 79 3040 3076
+type(
+  string option
+)
+ident(
+  def label "gButton.ml" 80 3079 3081 "gButton.ml" 82 3153 3208
+)
+"gButton.ml" 80 3079 3081 "gButton.ml" 80 3079 3099
+type(
+  cont:('a Gobject.param list ->
+        ?active:bool ->
+        ?draw_indicator:bool ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toggle_button) ->
+  'a Gobject.param list ->
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:GtkEnums.relief_style ->
+  ?active:bool ->
+  ?draw_indicator:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toggle_button
+)
+ident(
+  ext_ref GtkButton.Button.make_params
+)
+"gButton.ml" 80 3079 3100 "gButton.ml" 80 3079 3102
+type(
+  'a Gobject.param list
+)
+"gButton.ml" 80 3079 3104 "gButton.ml" 80 3079 3109
+type(
+  string option
+)
+ident(
+  int_ref label "gButton.ml" 79 3040 3071 "gButton.ml" 79 3040 3076
+)
+"gButton.ml" 81 3118 3120 "gButton.ml" 81 3118 3144
+type(
+  cont:('a Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toggle_button) ->
+  'a Gobject.param list ->
+  ?active:bool ->
+  ?draw_indicator:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toggle_button
+)
+ident(
+  ext_ref GtkButton.ToggleButton.make_params
+)
+"gButton.ml" 82 3153 3155 "gButton.ml" 82 3153 3166
+type(
+  ('a Gobject.param list -> toggle_button) ->
+  'a Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toggle_button
+)
+ident(
+  int_ref pack_return "gButton.ml" 59 2421 2425 "gButton.ml" 59 2421 2436
+)
+"gButton.ml" 82 3153 3172 "gButton.ml" 82 3153 3173
+type(
+  'a Gobject.param list
+)
+ident(
+  def p "gButton.ml" 82 3153 3177 "gButton.ml" 82 3153 3205
+)
+"gButton.ml" 82 3153 3177 "gButton.ml" 82 3153 3194
+type(
+  'b Gtk.obj -> toggle_button
+)
+"gButton.ml" 82 3153 3196 "gButton.ml" 82 3153 3202
+type(
+  'a Gobject.param list -> 'b Gtk.obj
+)
+ident(
+  int_ref create "gButton.ml" 79 3040 3063 "gButton.ml" 79 3040 3069
+)
+"gButton.ml" 82 3153 3203 "gButton.ml" 82 3153 3204
+type(
+  'a Gobject.param list
+)
+ident(
+  int_ref p "gButton.ml" 82 3153 3172 "gButton.ml" 82 3153 3173
+)
+"gButton.ml" 82 3153 3195 "gButton.ml" 82 3153 3205
+call(
+  stack
+)
+type(
+  'b Gtk.obj
+)
+"gButton.ml" 82 3153 3177 "gButton.ml" 82 3153 3205
+call(
+  tail
+)
+type(
+  toggle_button
+)
+"gButton.ml" 82 3153 3167 "gButton.ml" 82 3153 3206
+type(
+  'a Gobject.param list -> toggle_button
+)
+"gButton.ml" 81 3118 3151 "gButton.ml" 82 3153 3207
+call(
+  stack
+)
+type(
+  'a Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toggle_button
+)
+"gButton.ml" 80 3079 3116 "gButton.ml" 82 3153 3208
+call(
+  stack
+)
+type(
+  'a Gobject.param list ->
+  ?active:bool ->
+  ?draw_indicator:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toggle_button
+)
+"gButton.ml" 80 3079 3081 "gButton.ml" 82 3153 3208
+call(
+  tail
+)
+type(
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:GtkEnums.relief_style ->
+  ?active:bool ->
+  ?draw_indicator:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toggle_button
+)
+"gButton.ml" 84 3210 3214 "gButton.ml" 84 3210 3227
+type(
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:GtkEnums.relief_style ->
+  ?active:bool ->
+  ?draw_indicator:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toggle_button
+)
+ident(
+  def toggle_button "gButton.ml" 85 3269 3269 --
+)
+"gButton.ml" 84 3210 3230 "gButton.ml" 84 3210 3248
+type(
+  (Gtk.toggle_button Gobject.param list -> Gtk.toggle_button Gtk.obj) ->
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:GtkEnums.relief_style ->
+  ?active:bool ->
+  ?draw_indicator:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toggle_button
+)
+ident(
+  int_ref make_toggle_button "gButton.ml" 79 3040 3044 "gButton.ml" 79 3040 3062
+)
+"gButton.ml" 84 3210 3249 "gButton.ml" 84 3210 3268
+type(
+  Gtk.toggle_button Gobject.param list -> Gtk.toggle_button Gtk.obj
+)
+ident(
+  ext_ref GtkButton.ToggleButton.create
+)
+"gButton.ml" 84 3210 3230 "gButton.ml" 84 3210 3268
+call(
+  stack
+)
+type(
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:GtkEnums.relief_style ->
+  ?active:bool ->
+  ?draw_indicator:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toggle_button
+)
+"gButton.ml" 85 3269 3273 "gButton.ml" 85 3269 3285
+type(
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:GtkEnums.relief_style ->
+  ?active:bool ->
+  ?draw_indicator:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toggle_button
+)
+ident(
+  def check_button "gButton.ml" 87 3334 3334 --
+)
+"gButton.ml" 85 3269 3288 "gButton.ml" 85 3269 3306
+type(
+  (Gtk.toggle_button Gobject.param list -> Gtk.toggle_button Gtk.obj) ->
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:GtkEnums.relief_style ->
+  ?active:bool ->
+  ?draw_indicator:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toggle_button
+)
+ident(
+  int_ref make_toggle_button "gButton.ml" 79 3040 3044 "gButton.ml" 79 3040 3062
+)
+"gButton.ml" 85 3269 3307 "gButton.ml" 85 3269 3332
+type(
+  Gtk.toggle_button Gobject.param list -> Gtk.toggle_button Gtk.obj
+)
+ident(
+  ext_ref GtkButton.ToggleButton.create_check
+)
+"gButton.ml" 85 3269 3288 "gButton.ml" 85 3269 3332
+call(
+  stack
+)
+type(
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:GtkEnums.relief_style ->
+  ?active:bool ->
+  ?draw_indicator:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toggle_button
+)
+"gButton.ml" 87 3334 3353 "gButton.ml" 87 3334 3356
+type(
+  Gtk.radio_button Gtk.obj
+)
+"gButton.ml" 88 3366 3391 "gButton.ml" 88 3366 3394
+type(
+  Gtk.radio_button Gtk.obj
+)
+type(
+  Gtk.radio_button Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 87 3334 3353 "gButton.ml" 87 3334 3356
+)
+"gButton.ml" 89 3419 3440 "gButton.ml" 89 3419 3443
+type(
+  (Gtk.radio_button, Gtk.radio_button Gtk.obj option) Gobject.property ->
+  Gtk.radio_button Gtk.obj -> Gtk.radio_button Gtk.obj option -> unit
+)
+ident(
+  ext_ref OgtkButtonProps.set
+)
+"gButton.ml" 89 3419 3444 "gButton.ml" 89 3419 3463
+type(
+  (Gtk.radio_button, Gtk.radio_button Gtk.obj option) Gobject.property
+)
+ident(
+  ext_ref GtkButton.RadioButton.P.group
+)
+"gButton.ml" 89 3419 3464 "gButton.ml" 89 3419 3467
+type(
+  Gtk.radio_button Gtk.obj
+)
+"gButton.ml" 89 3419 3440 "gButton.ml" 89 3419 3467
+call(
+  tail
+)
+type(
+  Gtk.radio_button Gtk.obj option -> unit
+)
+type(
+  Gtk.radio_button Gtk.obj option -> unit
+)
+"gButton.ml" 90 3468 3490 "gButton.ml" 90 3468 3493
+type(
+  Gtk.radio_button Gtk.obj
+)
+"gButton.ml" 90 3468 3485 "gButton.ml" 90 3468 3493
+type(
+  Gtk.radio_button Gtk.obj option
+)
+type(
+  Gtk.radio_button Gtk.obj option
+)
+"gButton.ml" 93 3499 3503 "gButton.ml" 93 3499 3515
+type(
+  ?group:Gtk.radio_button Gtk.obj option ->
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:GtkEnums.relief_style ->
+  ?active:bool ->
+  ?draw_indicator:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> radio_button
+)
+ident(
+  def radio_button "gButton.ml" 98 3667 3667 --
+)
+"gButton.ml" 93 3499 3517 "gButton.ml" 93 3499 3522
+type(
+  Gtk.radio_button Gtk.obj option option
+)
+ident(
+  def group "gButton.ml" 94 3525 3527 "gButton.ml" 96 3592 3665
+)
+"gButton.ml" 94 3525 3527 "gButton.ml" 94 3525 3545
+type(
+  cont:(Gtk.radio_button Gobject.param list ->
+        ?active:bool ->
+        ?draw_indicator:bool ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> radio_button) ->
+  Gtk.radio_button Gobject.param list ->
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:GtkEnums.relief_style ->
+  ?active:bool ->
+  ?draw_indicator:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> radio_button
+)
+ident(
+  ext_ref GtkButton.Button.make_params
+)
+"gButton.ml" 94 3525 3546 "gButton.ml" 94 3525 3548
+type(
+  Gtk.radio_button Gobject.param list
+)
+"gButton.ml" 95 3557 3559 "gButton.ml" 95 3557 3583
+type(
+  cont:(Gtk.radio_button Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> radio_button) ->
+  Gtk.radio_button Gobject.param list ->
+  ?active:bool ->
+  ?draw_indicator:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> radio_button
+)
+ident(
+  ext_ref GtkButton.ToggleButton.make_params
+)
+"gButton.ml" 96 3592 3594 "gButton.ml" 96 3592 3605
+type(
+  (Gtk.radio_button Gobject.param list -> radio_button) ->
+  Gtk.radio_button Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> radio_button
+)
+ident(
+  int_ref pack_return "gButton.ml" 59 2421 2425 "gButton.ml" 59 2421 2436
+)
+"gButton.ml" 96 3592 3611 "gButton.ml" 96 3592 3612
+type(
+  Gtk.radio_button Gobject.param list
+)
+ident(
+  def p "gButton.ml" 96 3592 3616 "gButton.ml" 96 3592 3662
+)
+"gButton.ml" 96 3592 3616 "gButton.ml" 96 3592 3632
+type(
+  Gtk.radio_button Gtk.obj -> radio_button
+)
+"gButton.ml" 96 3592 3634 "gButton.ml" 96 3592 3652
+type(
+  ?group:Gtk.radio_button Gtk.obj option ->
+  Gtk.radio_button Gobject.param list -> Gtk.radio_button Gtk.obj
+)
+ident(
+  ext_ref GtkButton.RadioButton.create
+)
+"gButton.ml" 96 3592 3654 "gButton.ml" 96 3592 3659
+type(
+  Gtk.radio_button Gtk.obj option option
+)
+ident(
+  int_ref group "gButton.ml" 93 3499 3517 "gButton.ml" 93 3499 3522
+)
+"gButton.ml" 96 3592 3660 "gButton.ml" 96 3592 3661
+type(
+  Gtk.radio_button Gobject.param list
+)
+ident(
+  int_ref p "gButton.ml" 96 3592 3611 "gButton.ml" 96 3592 3612
+)
+"gButton.ml" 96 3592 3633 "gButton.ml" 96 3592 3662
+call(
+  stack
+)
+type(
+  Gtk.radio_button Gtk.obj
+)
+"gButton.ml" 96 3592 3616 "gButton.ml" 96 3592 3662
+call(
+  tail
+)
+type(
+  radio_button
+)
+"gButton.ml" 96 3592 3606 "gButton.ml" 96 3592 3663
+type(
+  Gtk.radio_button Gobject.param list -> radio_button
+)
+"gButton.ml" 95 3557 3590 "gButton.ml" 96 3592 3664
+call(
+  stack
+)
+type(
+  Gtk.radio_button Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> radio_button
+)
+"gButton.ml" 94 3525 3555 "gButton.ml" 96 3592 3665
+call(
+  stack
+)
+type(
+  Gtk.radio_button Gobject.param list ->
+  ?active:bool ->
+  ?draw_indicator:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> radio_button
+)
+"gButton.ml" 94 3525 3527 "gButton.ml" 96 3592 3665
+call(
+  tail
+)
+type(
+  ?label:string ->
+  ?use_mnemonic:bool ->
+  ?stock:GtkStock.id ->
+  ?relief:GtkEnums.relief_style ->
+  ?active:bool ->
+  ?draw_indicator:bool ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> radio_button
+)
+"gButton.ml" 98 3667 3694 "gButton.ml" 98 3667 3697
+type(
+  [> `bin | `button | `colorbutton | `container | `gtk | `widget ] Gtk.obj
+)
+"gButton.ml" 98 3667 3707 "gButton.ml" 98 3667 3713
+type(
+  < add : callback:(GObj.widget -> unit) -> GtkSignal.id; after : 'a;
+    clicked : callback:(unit -> unit) -> GtkSignal.id;
+    color_set : callback:(unit -> unit) -> GtkSignal.id;
+    destroy : callback:(unit -> unit) -> GtkSignal.id;
+    enter : callback:(unit -> unit) -> GtkSignal.id;
+    leave : callback:(unit -> unit) -> GtkSignal.id;
+    pressed : callback:(unit -> unit) -> GtkSignal.id;
+    released : callback:(unit -> unit) -> GtkSignal.id;
+    remove : callback:(GObj.widget -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"gButton.ml" 99 3714 3739 "gButton.ml" 99 3714 3742
+type(
+  ([> `bin | `button | `colorbutton | `container | `gtk | `widget ] as 'b)
+  Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 98 3667 3694 "gButton.ml" 98 3667 3697
+)
+"gButton.ml" 100 3743 3764 "gButton.ml" 100 3743 3768
+type(
+  'a
+)
+"gButton.ml" 100 3743 3764 "gButton.ml" 100 3743 3776
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"gButton.ml" 100 3743 3777 "gButton.ml" 100 3743 3800
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkButton.ColorButton.S.color_set
+)
+"gButton.ml" 100 3743 3764 "gButton.ml" 100 3743 3800
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gButton.ml" 103 3806 3825 "gButton.ml" 103 3806 3828
+type(
+  [> `bin | `button | `colorbutton | `container | `gtk | `widget ] Gtk.obj
+)
+"gButton.ml" 104 3838 3860 "gButton.ml" 104 3838 3863
+type(
+  ([> `bin | `button | `colorbutton | `container | `gtk | `widget ] as 'a)
+  Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 103 3806 3825 "gButton.ml" 103 3806 3828
+)
+"gButton.ml" 106 3893 3912 "gButton.ml" 106 3893 3936
+type(
+  'a Gtk.obj -> color_button_signals
+)
+"gButton.ml" 106 3893 3937 "gButton.ml" 106 3893 3940
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 106 3893 3912 "gButton.ml" 106 3893 3940
+call(
+  tail
+)
+type(
+  color_button_signals
+)
+type(
+  color_button_signals
+)
+"gButton.ml" 109 3946 3950 "gButton.ml" 109 3946 3962
+type(
+  ?color:Gdk.color ->
+  ?title:string ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> color_button
+)
+ident(
+  def color_button "gButton.ml" 113 4071 4071 --
+)
+"gButton.ml" 110 3965 3967 "gButton.ml" 110 3965 3990
+type(
+  cont:(Gtk.color_button Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> color_button) ->
+  Gtk.color_button Gobject.param list ->
+  ?color:Gdk.color ->
+  ?title:string ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> color_button
+)
+ident(
+  ext_ref GtkButton.ColorButton.make_params
+)
+"gButton.ml" 110 3965 3991 "gButton.ml" 110 3965 3993
+type(
+  Gtk.color_button Gobject.param list
+)
+"gButton.ml" 111 4002 4004 "gButton.ml" 111 4002 4015
+type(
+  (Gtk.color_button Gobject.param list -> color_button) ->
+  Gtk.color_button Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> color_button
+)
+ident(
+  int_ref pack_return "gButton.ml" 59 2421 2425 "gButton.ml" 59 2421 2436
+)
+"gButton.ml" 111 4002 4021 "gButton.ml" 111 4002 4023
+type(
+  Gtk.color_button Gobject.param list
+)
+ident(
+  def pl "gButton.ml" 111 4002 4027 "gButton.ml" 111 4002 4067
+)
+"gButton.ml" 111 4002 4027 "gButton.ml" 111 4002 4043
+type(
+  Gtk.color_button Gtk.obj -> color_button
+)
+"gButton.ml" 111 4002 4045 "gButton.ml" 111 4002 4063
+type(
+  Gtk.color_button Gobject.param list -> Gtk.color_button Gtk.obj
+)
+ident(
+  ext_ref GtkButton.ColorButton.create
+)
+"gButton.ml" 111 4002 4064 "gButton.ml" 111 4002 4066
+type(
+  Gtk.color_button Gobject.param list
+)
+ident(
+  int_ref pl "gButton.ml" 111 4002 4021 "gButton.ml" 111 4002 4023
+)
+"gButton.ml" 111 4002 4044 "gButton.ml" 111 4002 4067
+call(
+  stack
+)
+type(
+  Gtk.color_button Gtk.obj
+)
+"gButton.ml" 111 4002 4027 "gButton.ml" 111 4002 4067
+call(
+  tail
+)
+type(
+  color_button
+)
+"gButton.ml" 111 4002 4016 "gButton.ml" 111 4002 4068
+type(
+  Gtk.color_button Gobject.param list -> color_button
+)
+"gButton.ml" 110 3965 4000 "gButton.ml" 111 4002 4069
+call(
+  stack
+)
+type(
+  Gtk.color_button Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> color_button
+)
+"gButton.ml" 110 3965 3967 "gButton.ml" 111 4002 4069
+call(
+  stack
+)
+type(
+  ?color:Gdk.color ->
+  ?title:string ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> color_button
+)
+"gButton.ml" 113 4071 4097 "gButton.ml" 113 4071 4100
+type(
+  [> `bin | `button | `container | `fontbutton | `gtk | `widget ] Gtk.obj
+)
+"gButton.ml" 113 4071 4110 "gButton.ml" 113 4071 4116
+type(
+  < add : callback:(GObj.widget -> unit) -> GtkSignal.id; after : 'a;
+    clicked : callback:(unit -> unit) -> GtkSignal.id;
+    destroy : callback:(unit -> unit) -> GtkSignal.id;
+    enter : callback:(unit -> unit) -> GtkSignal.id;
+    font_set : callback:(unit -> unit) -> GtkSignal.id;
+    leave : callback:(unit -> unit) -> GtkSignal.id;
+    pressed : callback:(unit -> unit) -> GtkSignal.id;
+    released : callback:(unit -> unit) -> GtkSignal.id;
+    remove : callback:(GObj.widget -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"gButton.ml" 114 4117 4142 "gButton.ml" 114 4117 4145
+type(
+  ([> `bin | `button | `container | `fontbutton | `gtk | `widget ] as 'b)
+  Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 113 4071 4097 "gButton.ml" 113 4071 4100
+)
+"gButton.ml" 115 4146 4166 "gButton.ml" 115 4146 4170
+type(
+  'a
+)
+"gButton.ml" 115 4146 4166 "gButton.ml" 115 4146 4178
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"gButton.ml" 115 4146 4179 "gButton.ml" 115 4146 4200
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkButton.FontButton.S.font_set
+)
+"gButton.ml" 115 4146 4166 "gButton.ml" 115 4146 4200
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gButton.ml" 118 4206 4224 "gButton.ml" 118 4206 4227
+type(
+  [> `bin | `button | `container | `fontbutton | `gtk | `widget ] Gtk.obj
+)
+"gButton.ml" 119 4237 4259 "gButton.ml" 119 4237 4262
+type(
+  ([> `bin | `button | `container | `fontbutton | `gtk | `widget ] as 'a)
+  Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 118 4206 4224 "gButton.ml" 118 4206 4227
+)
+"gButton.ml" 121 4291 4310 "gButton.ml" 121 4291 4333
+type(
+  'a Gtk.obj -> font_button_signals
+)
+"gButton.ml" 121 4291 4334 "gButton.ml" 121 4291 4337
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 121 4291 4310 "gButton.ml" 121 4291 4337
+call(
+  tail
+)
+type(
+  font_button_signals
+)
+type(
+  font_button_signals
+)
+"gButton.ml" 124 4343 4347 "gButton.ml" 124 4343 4358
+type(
+  ?font_name:string ->
+  ?title:string ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> font_button
+)
+ident(
+  def font_button "gButton.ml" 130 4479 4479 --
+)
+"gButton.ml" 125 4361 4363 "gButton.ml" 125 4361 4385
+type(
+  cont:(Gtk.font_button Gobject.param list ->
+        ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> font_button) ->
+  Gtk.font_button Gobject.param list ->
+  ?font_name:string ->
+  ?title:string ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> font_button
+)
+ident(
+  ext_ref GtkButton.FontButton.make_params
+)
+"gButton.ml" 125 4361 4386 "gButton.ml" 125 4361 4388
+type(
+  Gtk.font_button Gobject.param list
+)
+"gButton.ml" 126 4397 4399 "gButton.ml" 126 4397 4410
+type(
+  (Gtk.font_button Gobject.param list -> font_button) ->
+  Gtk.font_button Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> font_button
+)
+ident(
+  int_ref pack_return "gButton.ml" 59 2421 2425 "gButton.ml" 59 2421 2436
+)
+"gButton.ml" 126 4397 4416 "gButton.ml" 126 4397 4418
+type(
+  Gtk.font_button Gobject.param list
+)
+ident(
+  def pl "gButton.ml" 126 4397 4422 "gButton.ml" 126 4397 4460
+)
+"gButton.ml" 126 4397 4422 "gButton.ml" 126 4397 4437
+type(
+  Gtk.font_button Gtk.obj -> font_button
+)
+"gButton.ml" 126 4397 4439 "gButton.ml" 126 4397 4456
+type(
+  Gtk.font_button Gobject.param list -> Gtk.font_button Gtk.obj
+)
+ident(
+  ext_ref GtkButton.FontButton.create
+)
+"gButton.ml" 126 4397 4457 "gButton.ml" 126 4397 4459
+type(
+  Gtk.font_button Gobject.param list
+)
+ident(
+  int_ref pl "gButton.ml" 126 4397 4416 "gButton.ml" 126 4397 4418
+)
+"gButton.ml" 126 4397 4438 "gButton.ml" 126 4397 4460
+call(
+  stack
+)
+type(
+  Gtk.font_button Gtk.obj
+)
+"gButton.ml" 126 4397 4422 "gButton.ml" 126 4397 4460
+call(
+  tail
+)
+type(
+  font_button
+)
+"gButton.ml" 126 4397 4411 "gButton.ml" 126 4397 4461
+type(
+  Gtk.font_button Gobject.param list -> font_button
+)
+"gButton.ml" 125 4361 4395 "gButton.ml" 126 4397 4462
+call(
+  stack
+)
+type(
+  Gtk.font_button Gobject.param list ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> font_button
+)
+"gButton.ml" 125 4361 4363 "gButton.ml" 126 4397 4462
+call(
+  stack
+)
+type(
+  ?font_name:string ->
+  ?title:string ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> font_button
+)
+"gButton.ml" 134 4558 4580 "gButton.ml" 134 4558 4583
+type(
+  [> `container | `gtk | `toolbar | `widget ] Gtk.obj
+)
+"gButton.ml" 135 4593 4637 "gButton.ml" 135 4593 4640
+type(
+  ([> `container | `gtk | `toolbar | `widget ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 134 4558 4580 "gButton.ml" 134 4558 4583
+)
+"gButton.ml" 139 4669 4683 "gButton.ml" 139 4669 4686
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 140 4696 4717 "gButton.ml" 140 4696 4720
+type(
+  Gtk.toolbar Gtk.obj
+)
+type(
+  Gtk.toolbar Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 139 4669 4683 "gButton.ml" 139 4669 4686
+)
+"gButton.ml" 141 4740 4759 "gButton.ml" 141 4740 4778
+type(
+  Gtk.toolbar Gtk.obj -> toolbar_signals
+)
+"gButton.ml" 141 4740 4779 "gButton.ml" 141 4740 4782
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 141 4740 4759 "gButton.ml" 141 4740 4782
+call(
+  tail
+)
+type(
+  toolbar_signals
+)
+type(
+  toolbar_signals
+)
+"gButton.ml" 142 4783 4807 "gButton.ml" 142 4783 4814
+type(
+  string option
+)
+ident(
+  def tooltip "gButton.ml" 142 4783 4815 "gButton.ml" 143 4841 4915
+)
+"gButton.ml" 142 4783 4816 "gButton.ml" 142 4783 4831
+type(
+  string option
+)
+ident(
+  def tooltip_private "gButton.ml" 142 4783 4832 "gButton.ml" 143 4841 4915
+)
+"gButton.ml" 142 4783 4833 "gButton.ml" 142 4783 4836
+type(
+  int option
+)
+ident(
+  def pos "gButton.ml" 142 4783 4837 "gButton.ml" 143 4841 4915
+)
+"gButton.ml" 142 4783 4837 "gButton.ml" 142 4783 4838
+type(
+  GObj.widget
+)
+ident(
+  def w "gButton.ml" 143 4841 4845 "gButton.ml" 143 4841 4915
+)
+"gButton.ml" 143 4841 4845 "gButton.ml" 143 4841 4866
+type(
+  Gtk.toolbar Gtk.obj ->
+  ?tooltip:string ->
+  ?tooltip_private:string -> ?pos:int -> Gtk.widget Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkButton.Toolbar.insert_widget
+)
+"gButton.ml" 143 4841 4867 "gButton.ml" 143 4841 4870
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 143 4841 4872 "gButton.ml" 143 4841 4881
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gButton.ml" 143 4841 4882 "gButton.ml" 143 4841 4883
+type(
+  GObj.widget
+)
+ident(
+  int_ref w "gButton.ml" 142 4783 4837 "gButton.ml" 142 4783 4838
+)
+"gButton.ml" 143 4841 4871 "gButton.ml" 143 4841 4884
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj
+)
+"gButton.ml" 143 4841 4886 "gButton.ml" 143 4841 4893
+type(
+  string option
+)
+ident(
+  int_ref tooltip "gButton.ml" 142 4783 4807 "gButton.ml" 142 4783 4814
+)
+"gButton.ml" 143 4841 4895 "gButton.ml" 143 4841 4910
+type(
+  string option
+)
+ident(
+  int_ref tooltip_private "gButton.ml" 142 4783 4816 "gButton.ml" 142 4783 4831
+)
+"gButton.ml" 143 4841 4912 "gButton.ml" 143 4841 4915
+type(
+  int option
+)
+ident(
+  int_ref pos "gButton.ml" 142 4783 4833 "gButton.ml" 142 4783 4836
+)
+"gButton.ml" 143 4841 4845 "gButton.ml" 143 4841 4915
+call(
+  tail
+)
+type(
+  unit
+)
+"gButton.ml" 145 4917 4941 "gButton.ml" 145 4917 4945
+type(
+  string option
+)
+ident(
+  def text "gButton.ml" 145 4917 4946 "gButton.ml" 150 5122 5168
+)
+"gButton.ml" 145 4917 4947 "gButton.ml" 145 4917 4954
+type(
+  string option
+)
+ident(
+  def tooltip "gButton.ml" 145 4917 4955 "gButton.ml" 150 5122 5168
+)
+"gButton.ml" 145 4917 4956 "gButton.ml" 145 4917 4971
+type(
+  string option
+)
+ident(
+  def tooltip_private "gButton.ml" 145 4917 4972 "gButton.ml" 150 5122 5168
+)
+"gButton.ml" 145 4917 4973 "gButton.ml" 145 4917 4977
+type(
+  GObj.widget option
+)
+ident(
+  def icon "gButton.ml" 146 4978 4984 "gButton.ml" 150 5122 5168
+)
+"gButton.ml" 146 4978 4985 "gButton.ml" 146 4978 4988
+type(
+  int option
+)
+ident(
+  def pos "gButton.ml" 146 4978 4989 "gButton.ml" 150 5122 5168
+)
+"gButton.ml" 146 4978 4990 "gButton.ml" 146 4978 4998
+type(
+  (unit -> unit) option
+)
+ident(
+  def callback "gButton.ml" 146 4978 4999 "gButton.ml" 150 5122 5168
+)
+"gButton.ml" 146 4978 4999 "gButton.ml" 146 4978 5001
+type(
+  unit
+)
+"gButton.ml" 147 5004 5012 "gButton.ml" 147 5004 5016
+type(
+  Gtk.widget Gtk.obj option
+)
+"gButton.ml" 147 5004 5019 "gButton.ml" 147 5004 5026
+type(
+  f:(GObj.widget -> Gtk.widget Gtk.obj) ->
+  GObj.widget option -> Gtk.widget Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gButton.ml" 147 5004 5027 "gButton.ml" 147 5004 5031
+type(
+  GObj.widget option
+)
+ident(
+  int_ref icon "gButton.ml" 145 4917 4973 "gButton.ml" 145 4917 4977
+)
+"gButton.ml" 147 5004 5035 "gButton.ml" 147 5004 5044
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gButton.ml" 147 5004 5019 "gButton.ml" 147 5004 5044
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj option
+)
+"gButton.ml" 148 5048 5052 "gButton.ml" 148 5048 5062
+type(
+  Gtk.button Gtk.obj -> button
+)
+"gButton.ml" 149 5063 5070 "gButton.ml" 149 5063 5091
+type(
+  Gtk.toolbar Gtk.obj ->
+  ?kind:[ `BUTTON | `RADIOBUTTON | `TOGGLEBUTTON ] ->
+  ?text:string ->
+  ?tooltip:string ->
+  ?tooltip_private:string ->
+  ?icon:Gtk.widget Gtk.obj ->
+  ?pos:int -> ?callback:(unit -> unit) -> unit -> Gtk.button Gtk.obj
+)
+ident(
+  ext_ref GtkButton.Toolbar.insert_button
+)
+"gButton.ml" 149 5063 5092 "gButton.ml" 149 5063 5095
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 149 5063 5102 "gButton.ml" 149 5063 5109
+type(
+  [ `BUTTON | `RADIOBUTTON | `TOGGLEBUTTON ]
+)
+"gButton.ml" 149 5063 5111 "gButton.ml" 149 5063 5115
+type(
+  Gtk.widget Gtk.obj option
+)
+ident(
+  int_ref icon "gButton.ml" 147 5004 5012 "gButton.ml" 147 5004 5016
+)
+"gButton.ml" 149 5063 5117 "gButton.ml" 149 5063 5121
+type(
+  string option
+)
+ident(
+  int_ref text "gButton.ml" 145 4917 4941 "gButton.ml" 145 4917 4945
+)
+"gButton.ml" 150 5122 5125 "gButton.ml" 150 5122 5132
+type(
+  string option
+)
+ident(
+  int_ref tooltip "gButton.ml" 145 4917 4947 "gButton.ml" 145 4917 4954
+)
+"gButton.ml" 150 5122 5134 "gButton.ml" 150 5122 5149
+type(
+  string option
+)
+ident(
+  int_ref tooltip_private "gButton.ml" 145 4917 4956 "gButton.ml" 145 4917 4971
+)
+"gButton.ml" 150 5122 5151 "gButton.ml" 150 5122 5154
+type(
+  int option
+)
+ident(
+  int_ref pos "gButton.ml" 146 4978 4985 "gButton.ml" 146 4978 4988
+)
+"gButton.ml" 150 5122 5156 "gButton.ml" 150 5122 5164
+type(
+  (unit -> unit) option
+)
+ident(
+  int_ref callback "gButton.ml" 146 4978 4990 "gButton.ml" 146 4978 4998
+)
+"gButton.ml" 150 5122 5165 "gButton.ml" 150 5122 5167
+type(
+  unit
+)
+"gButton.ml" 149 5063 5069 "gButton.ml" 150 5122 5168
+call(
+  stack
+)
+type(
+  Gtk.button Gtk.obj
+)
+"gButton.ml" 148 5048 5052 "gButton.ml" 150 5122 5168
+call(
+  tail
+)
+type(
+  button
+)
+"gButton.ml" 147 5004 5008 "gButton.ml" 150 5122 5168
+type(
+  button
+)
+"gButton.ml" 152 5170 5201 "gButton.ml" 152 5170 5205
+type(
+  string option
+)
+ident(
+  def text "gButton.ml" 152 5170 5206 "gButton.ml" 158 5416 5466
+)
+"gButton.ml" 152 5170 5207 "gButton.ml" 152 5170 5214
+type(
+  string option
+)
+ident(
+  def tooltip "gButton.ml" 152 5170 5215 "gButton.ml" 158 5416 5466
+)
+"gButton.ml" 152 5170 5216 "gButton.ml" 152 5170 5231
+type(
+  string option
+)
+ident(
+  def tooltip_private "gButton.ml" 152 5170 5232 "gButton.ml" 158 5416 5466
+)
+"gButton.ml" 152 5170 5233 "gButton.ml" 152 5170 5237
+type(
+  GObj.widget option
+)
+ident(
+  def icon "gButton.ml" 153 5238 5244 "gButton.ml" 158 5416 5466
+)
+"gButton.ml" 153 5238 5245 "gButton.ml" 153 5238 5248
+type(
+  int option
+)
+ident(
+  def pos "gButton.ml" 153 5238 5249 "gButton.ml" 158 5416 5466
+)
+"gButton.ml" 153 5238 5250 "gButton.ml" 153 5238 5258
+type(
+  (unit -> unit) option
+)
+ident(
+  def callback "gButton.ml" 153 5238 5259 "gButton.ml" 158 5416 5466
+)
+"gButton.ml" 153 5238 5259 "gButton.ml" 153 5238 5261
+type(
+  unit
+)
+"gButton.ml" 154 5264 5272 "gButton.ml" 154 5264 5276
+type(
+  Gtk.widget Gtk.obj option
+)
+"gButton.ml" 154 5264 5279 "gButton.ml" 154 5264 5286
+type(
+  f:(GObj.widget -> Gtk.widget Gtk.obj) ->
+  GObj.widget option -> Gtk.widget Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gButton.ml" 154 5264 5287 "gButton.ml" 154 5264 5291
+type(
+  GObj.widget option
+)
+ident(
+  int_ref icon "gButton.ml" 152 5170 5233 "gButton.ml" 152 5170 5237
+)
+"gButton.ml" 154 5264 5295 "gButton.ml" 154 5264 5304
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gButton.ml" 154 5264 5279 "gButton.ml" 154 5264 5304
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj option
+)
+"gButton.ml" 155 5308 5312 "gButton.ml" 155 5308 5329
+type(
+  Gtk.toggle_button Gtk.obj -> toggle_button
+)
+"gButton.ml" 156 5330 5337 "gButton.ml" 156 5330 5354
+type(
+  Gtk.button Gtk.obj -> Gtk.toggle_button Gtk.obj
+)
+ident(
+  ext_ref GtkButton.ToggleButton.cast
+)
+"gButton.ml" 157 5355 5358 "gButton.ml" 157 5355 5379
+type(
+  Gtk.toolbar Gtk.obj ->
+  ?kind:[ `BUTTON | `RADIOBUTTON | `TOGGLEBUTTON ] ->
+  ?text:string ->
+  ?tooltip:string ->
+  ?tooltip_private:string ->
+  ?icon:Gtk.widget Gtk.obj ->
+  ?pos:int -> ?callback:(unit -> unit) -> unit -> Gtk.button Gtk.obj
+)
+ident(
+  ext_ref GtkButton.Toolbar.insert_button
+)
+"gButton.ml" 157 5355 5380 "gButton.ml" 157 5355 5383
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 157 5355 5390 "gButton.ml" 157 5355 5403
+type(
+  [ `BUTTON | `RADIOBUTTON | `TOGGLEBUTTON ]
+)
+"gButton.ml" 157 5355 5405 "gButton.ml" 157 5355 5409
+type(
+  Gtk.widget Gtk.obj option
+)
+ident(
+  int_ref icon "gButton.ml" 154 5264 5272 "gButton.ml" 154 5264 5276
+)
+"gButton.ml" 157 5355 5411 "gButton.ml" 157 5355 5415
+type(
+  string option
+)
+ident(
+  int_ref text "gButton.ml" 152 5170 5201 "gButton.ml" 152 5170 5205
+)
+"gButton.ml" 158 5416 5422 "gButton.ml" 158 5416 5429
+type(
+  string option
+)
+ident(
+  int_ref tooltip "gButton.ml" 152 5170 5207 "gButton.ml" 152 5170 5214
+)
+"gButton.ml" 158 5416 5431 "gButton.ml" 158 5416 5446
+type(
+  string option
+)
+ident(
+  int_ref tooltip_private "gButton.ml" 152 5170 5216 "gButton.ml" 152 5170 5231
+)
+"gButton.ml" 158 5416 5448 "gButton.ml" 158 5416 5451
+type(
+  int option
+)
+ident(
+  int_ref pos "gButton.ml" 153 5238 5245 "gButton.ml" 153 5238 5248
+)
+"gButton.ml" 158 5416 5453 "gButton.ml" 158 5416 5461
+type(
+  (unit -> unit) option
+)
+ident(
+  int_ref callback "gButton.ml" 153 5238 5250 "gButton.ml" 153 5238 5258
+)
+"gButton.ml" 158 5416 5462 "gButton.ml" 158 5416 5464
+type(
+  unit
+)
+"gButton.ml" 157 5355 5357 "gButton.ml" 158 5416 5465
+call(
+  stack
+)
+type(
+  Gtk.button Gtk.obj
+)
+"gButton.ml" 156 5330 5336 "gButton.ml" 158 5416 5466
+call(
+  stack
+)
+type(
+  Gtk.toggle_button Gtk.obj
+)
+"gButton.ml" 155 5308 5312 "gButton.ml" 158 5416 5466
+call(
+  tail
+)
+type(
+  toggle_button
+)
+"gButton.ml" 154 5264 5268 "gButton.ml" 158 5416 5466
+type(
+  toggle_button
+)
+"gButton.ml" 160 5468 5498 "gButton.ml" 160 5468 5502
+type(
+  string option
+)
+ident(
+  def text "gButton.ml" 160 5468 5503 "gButton.ml" 166 5710 5760
+)
+"gButton.ml" 160 5468 5504 "gButton.ml" 160 5468 5511
+type(
+  string option
+)
+ident(
+  def tooltip "gButton.ml" 160 5468 5512 "gButton.ml" 166 5710 5760
+)
+"gButton.ml" 160 5468 5513 "gButton.ml" 160 5468 5528
+type(
+  string option
+)
+ident(
+  def tooltip_private "gButton.ml" 160 5468 5529 "gButton.ml" 166 5710 5760
+)
+"gButton.ml" 160 5468 5530 "gButton.ml" 160 5468 5534
+type(
+  GObj.widget option
+)
+ident(
+  def icon "gButton.ml" 161 5535 5541 "gButton.ml" 166 5710 5760
+)
+"gButton.ml" 161 5535 5542 "gButton.ml" 161 5535 5545
+type(
+  int option
+)
+ident(
+  def pos "gButton.ml" 161 5535 5546 "gButton.ml" 166 5710 5760
+)
+"gButton.ml" 161 5535 5547 "gButton.ml" 161 5535 5555
+type(
+  (unit -> unit) option
+)
+ident(
+  def callback "gButton.ml" 161 5535 5556 "gButton.ml" 166 5710 5760
+)
+"gButton.ml" 161 5535 5556 "gButton.ml" 161 5535 5558
+type(
+  unit
+)
+"gButton.ml" 162 5561 5569 "gButton.ml" 162 5561 5573
+type(
+  Gtk.widget Gtk.obj option
+)
+"gButton.ml" 162 5561 5576 "gButton.ml" 162 5561 5583
+type(
+  f:(GObj.widget -> Gtk.widget Gtk.obj) ->
+  GObj.widget option -> Gtk.widget Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gButton.ml" 162 5561 5584 "gButton.ml" 162 5561 5588
+type(
+  GObj.widget option
+)
+ident(
+  int_ref icon "gButton.ml" 160 5468 5530 "gButton.ml" 160 5468 5534
+)
+"gButton.ml" 162 5561 5592 "gButton.ml" 162 5561 5601
+type(
+  GObj.widget -> Gtk.widget Gtk.obj
+)
+ident(
+  ext_ref GObj.as_widget
+)
+"gButton.ml" 162 5561 5576 "gButton.ml" 162 5561 5601
+call(
+  stack
+)
+type(
+  Gtk.widget Gtk.obj option
+)
+"gButton.ml" 163 5605 5609 "gButton.ml" 163 5605 5625
+type(
+  Gtk.radio_button Gtk.obj -> radio_button
+)
+"gButton.ml" 164 5626 5633 "gButton.ml" 164 5626 5649
+type(
+  Gtk.button Gtk.obj -> Gtk.radio_button Gtk.obj
+)
+ident(
+  ext_ref GtkButton.RadioButton.cast
+)
+"gButton.ml" 165 5650 5653 "gButton.ml" 165 5650 5674
+type(
+  Gtk.toolbar Gtk.obj ->
+  ?kind:[ `BUTTON | `RADIOBUTTON | `TOGGLEBUTTON ] ->
+  ?text:string ->
+  ?tooltip:string ->
+  ?tooltip_private:string ->
+  ?icon:Gtk.widget Gtk.obj ->
+  ?pos:int -> ?callback:(unit -> unit) -> unit -> Gtk.button Gtk.obj
+)
+ident(
+  ext_ref GtkButton.Toolbar.insert_button
+)
+"gButton.ml" 165 5650 5675 "gButton.ml" 165 5650 5678
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 165 5650 5685 "gButton.ml" 165 5650 5697
+type(
+  [ `BUTTON | `RADIOBUTTON | `TOGGLEBUTTON ]
+)
+"gButton.ml" 165 5650 5699 "gButton.ml" 165 5650 5703
+type(
+  Gtk.widget Gtk.obj option
+)
+ident(
+  int_ref icon "gButton.ml" 162 5561 5569 "gButton.ml" 162 5561 5573
+)
+"gButton.ml" 165 5650 5705 "gButton.ml" 165 5650 5709
+type(
+  string option
+)
+ident(
+  int_ref text "gButton.ml" 160 5468 5498 "gButton.ml" 160 5468 5502
+)
+"gButton.ml" 166 5710 5716 "gButton.ml" 166 5710 5723
+type(
+  string option
+)
+ident(
+  int_ref tooltip "gButton.ml" 160 5468 5504 "gButton.ml" 160 5468 5511
+)
+"gButton.ml" 166 5710 5725 "gButton.ml" 166 5710 5740
+type(
+  string option
+)
+ident(
+  int_ref tooltip_private "gButton.ml" 160 5468 5513 "gButton.ml" 160 5468 5528
+)
+"gButton.ml" 166 5710 5742 "gButton.ml" 166 5710 5745
+type(
+  int option
+)
+ident(
+  int_ref pos "gButton.ml" 161 5535 5542 "gButton.ml" 161 5535 5545
+)
+"gButton.ml" 166 5710 5747 "gButton.ml" 166 5710 5755
+type(
+  (unit -> unit) option
+)
+ident(
+  int_ref callback "gButton.ml" 161 5535 5547 "gButton.ml" 161 5535 5555
+)
+"gButton.ml" 166 5710 5756 "gButton.ml" 166 5710 5758
+type(
+  unit
+)
+"gButton.ml" 165 5650 5652 "gButton.ml" 166 5710 5759
+call(
+  stack
+)
+type(
+  Gtk.button Gtk.obj
+)
+"gButton.ml" 164 5626 5632 "gButton.ml" 166 5710 5760
+call(
+  stack
+)
+type(
+  Gtk.radio_button Gtk.obj
+)
+"gButton.ml" 163 5605 5609 "gButton.ml" 166 5710 5760
+call(
+  tail
+)
+type(
+  radio_button
+)
+"gButton.ml" 162 5561 5565 "gButton.ml" 166 5710 5760
+type(
+  radio_button
+)
+"gButton.ml" 168 5762 5786 "gButton.ml" 168 5762 5806
+type(
+  Gtk.toolbar Gtk.obj -> ?pos:int -> unit -> unit
+)
+ident(
+  ext_ref GtkButton.Toolbar.insert_space
+)
+"gButton.ml" 168 5762 5807 "gButton.ml" 168 5762 5810
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 168 5762 5786 "gButton.ml" 168 5762 5810
+call(
+  tail
+)
+type(
+  ?pos:int -> unit -> unit
+)
+type(
+  ?pos:int -> unit -> unit
+)
+"gButton.ml" 170 5812 5835 "gButton.ml" 170 5812 5838
+type(
+  (Gtk.toolbar, GtkEnums.orientation) Gobject.property ->
+  Gtk.toolbar Gtk.obj -> GtkEnums.orientation
+)
+ident(
+  ext_ref OgtkButtonProps.get
+)
+"gButton.ml" 170 5812 5839 "gButton.ml" 170 5812 5860
+type(
+  (Gtk.toolbar, GtkEnums.orientation) Gobject.property
+)
+ident(
+  ext_ref GtkButton.Toolbar.P.orientation
+)
+"gButton.ml" 170 5812 5861 "gButton.ml" 170 5812 5864
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 170 5812 5835 "gButton.ml" 170 5812 5864
+call(
+  tail
+)
+type(
+  GtkEnums.orientation
+)
+type(
+  GtkEnums.orientation
+)
+"gButton.ml" 171 5865 5892 "gButton.ml" 171 5865 5895
+type(
+  (Gtk.toolbar, GtkEnums.orientation) Gobject.property ->
+  Gtk.toolbar Gtk.obj -> GtkEnums.orientation -> unit
+)
+ident(
+  ext_ref OgtkButtonProps.set
+)
+"gButton.ml" 171 5865 5896 "gButton.ml" 171 5865 5917
+type(
+  (Gtk.toolbar, GtkEnums.orientation) Gobject.property
+)
+ident(
+  ext_ref GtkButton.Toolbar.P.orientation
+)
+"gButton.ml" 171 5865 5918 "gButton.ml" 171 5865 5921
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 171 5865 5892 "gButton.ml" 171 5865 5921
+call(
+  tail
+)
+type(
+  GtkEnums.orientation -> unit
+)
+type(
+  GtkEnums.orientation -> unit
+)
+"gButton.ml" 172 5922 5939 "gButton.ml" 172 5922 5942
+type(
+  (Gtk.toolbar, GtkEnums.toolbar_style) Gobject.property ->
+  Gtk.toolbar Gtk.obj -> GtkEnums.toolbar_style
+)
+ident(
+  ext_ref OgtkButtonProps.get
+)
+"gButton.ml" 172 5922 5943 "gButton.ml" 172 5922 5966
+type(
+  (Gtk.toolbar, GtkEnums.toolbar_style) Gobject.property
+)
+ident(
+  ext_ref GtkButton.Toolbar.P.toolbar_style
+)
+"gButton.ml" 172 5922 5967 "gButton.ml" 172 5922 5970
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 172 5922 5939 "gButton.ml" 172 5922 5970
+call(
+  tail
+)
+type(
+  GtkEnums.toolbar_style
+)
+type(
+  GtkEnums.toolbar_style
+)
+"gButton.ml" 173 5971 5992 "gButton.ml" 173 5971 5995
+type(
+  (Gtk.toolbar, GtkEnums.toolbar_style) Gobject.property ->
+  Gtk.toolbar Gtk.obj -> GtkEnums.toolbar_style -> unit
+)
+ident(
+  ext_ref OgtkButtonProps.set
+)
+"gButton.ml" 173 5971 5996 "gButton.ml" 173 5971 6019
+type(
+  (Gtk.toolbar, GtkEnums.toolbar_style) Gobject.property
+)
+ident(
+  ext_ref GtkButton.Toolbar.P.toolbar_style
+)
+"gButton.ml" 173 5971 6020 "gButton.ml" 173 5971 6023
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 173 5971 5992 "gButton.ml" 173 5971 6023
+call(
+  tail
+)
+type(
+  GtkEnums.toolbar_style -> unit
+)
+type(
+  GtkEnums.toolbar_style -> unit
+)
+"gButton.ml" 174 6024 6045 "gButton.ml" 174 6024 6047
+type(
+  unit
+)
+"gButton.ml" 174 6024 6050 "gButton.ml" 174 6024 6069
+type(
+  Gtk.toolbar Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkButton.Toolbar.unset_style
+)
+"gButton.ml" 174 6024 6070 "gButton.ml" 174 6024 6073
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 174 6024 6050 "gButton.ml" 174 6024 6073
+type(
+  unit
+)
+"gButton.ml" 175 6074 6098 "gButton.ml" 175 6074 6118
+type(
+  Gtk.toolbar Gtk.obj -> bool
+)
+ident(
+  ext_ref GtkButton.Toolbar.get_tooltips
+)
+"gButton.ml" 175 6074 6119 "gButton.ml" 175 6074 6122
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 175 6074 6098 "gButton.ml" 175 6074 6122
+type(
+  bool
+)
+type(
+  bool
+)
+"gButton.ml" 176 6123 6147 "gButton.ml" 176 6123 6167
+type(
+  Gtk.toolbar Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkButton.Toolbar.set_tooltips
+)
+"gButton.ml" 176 6123 6168 "gButton.ml" 176 6123 6171
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 176 6123 6147 "gButton.ml" 176 6123 6171
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gButton.ml" 177 6172 6193 "gButton.ml" 177 6172 6214
+type(
+  Gtk.toolbar Gtk.obj -> Gtk.Tags.icon_size
+)
+ident(
+  ext_ref GtkButton.Toolbar.get_icon_size
+)
+"gButton.ml" 177 6172 6215 "gButton.ml" 177 6172 6218
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 177 6172 6193 "gButton.ml" 177 6172 6218
+type(
+  Gtk.Tags.icon_size
+)
+type(
+  Gtk.Tags.icon_size
+)
+"gButton.ml" 178 6219 6244 "gButton.ml" 178 6219 6265
+type(
+  Gtk.toolbar Gtk.obj -> Gtk.Tags.icon_size -> unit
+)
+ident(
+  ext_ref GtkButton.Toolbar.set_icon_size
+)
+"gButton.ml" 178 6219 6266 "gButton.ml" 178 6219 6269
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 178 6219 6244 "gButton.ml" 178 6219 6269
+call(
+  tail
+)
+type(
+  Gtk.Tags.icon_size -> unit
+)
+type(
+  Gtk.Tags.icon_size -> unit
+)
+"gButton.ml" 179 6270 6295 "gButton.ml" 179 6270 6297
+type(
+  unit
+)
+"gButton.ml" 179 6270 6300 "gButton.ml" 179 6270 6323
+type(
+  Gtk.toolbar Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkButton.Toolbar.unset_icon_size
+)
+"gButton.ml" 179 6270 6324 "gButton.ml" 179 6270 6327
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 179 6270 6300 "gButton.ml" 179 6270 6327
+type(
+  unit
+)
+"gButton.ml" 182 6367 6389 "gButton.ml" 182 6367 6392
+type(
+  (Gtk.toolbar, bool) Gobject.property -> Gtk.toolbar Gtk.obj -> bool
+)
+ident(
+  ext_ref OgtkButtonProps.get
+)
+"gButton.ml" 182 6367 6393 "gButton.ml" 182 6367 6413
+type(
+  (Gtk.toolbar, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButton.Toolbar.P.show_arrow
+)
+"gButton.ml" 182 6367 6414 "gButton.ml" 182 6367 6417
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 182 6367 6389 "gButton.ml" 182 6367 6417
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"gButton.ml" 183 6418 6444 "gButton.ml" 183 6418 6447
+type(
+  (Gtk.toolbar, bool) Gobject.property -> Gtk.toolbar Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref OgtkButtonProps.set
+)
+"gButton.ml" 183 6418 6448 "gButton.ml" 183 6418 6468
+type(
+  (Gtk.toolbar, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButton.Toolbar.P.show_arrow
+)
+"gButton.ml" 183 6418 6469 "gButton.ml" 183 6418 6472
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 183 6418 6444 "gButton.ml" 183 6418 6472
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gButton.ml" 185 6538 6548 "gButton.ml" 185 6538 6551
+type(
+  int
+)
+"gButton.ml" 185 6538 6553 "gButton.ml" 185 6538 6555
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "gButton.ml" 185 6538 6553 "gButton.ml" 185 6538 6555
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "gButton.ml" 185 6538 6553 "gButton.ml" 185 6538 6555
+)
+"gButton.ml" 185 6538 6557 "gButton.ml" 185 6538 6558
+type(
+  #tool_item_o
+)
+ident(
+  def i "gButton.ml" 185 6538 6562 "gButton.ml" 185 6538 6600
+)
+"gButton.ml" 185 6538 6562 "gButton.ml" 185 6538 6576
+type(
+  Gtk.toolbar Gtk.obj -> Gtk.tool_item Gtk.obj -> pos:int -> unit
+)
+ident(
+  ext_ref GtkButton.Toolbar.insert
+)
+"gButton.ml" 185 6538 6577 "gButton.ml" 185 6538 6580
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 185 6538 6581 "gButton.ml" 185 6538 6582
+type(
+  #tool_item_o as 'a
+)
+ident(
+  int_ref i "gButton.ml" 185 6538 6557 "gButton.ml" 185 6538 6558
+)
+"gButton.ml" 185 6538 6581 "gButton.ml" 185 6538 6595
+call(
+  stack
+)
+type(
+  Gtk.tool_item Gtk.obj
+)
+"gButton.ml" 185 6538 6597 "gButton.ml" 185 6538 6600
+type(
+  int
+)
+ident(
+  int_ref pos "gButton.ml" 185 6538 6548 "gButton.ml" 185 6538 6551
+)
+"gButton.ml" 185 6538 6562 "gButton.ml" 185 6538 6600
+type(
+  unit
+)
+"gButton.ml" 185 6538 6542 "gButton.ml" 185 6538 6600
+type(
+  'b. ?pos:int -> (#tool_item_o as 'b) -> unit
+)
+type(
+  ?pos:int -> 'a -> unit
+)
+type(
+  'a -> unit
+)
+type(
+  int
+)
+type(
+  int option
+)
+ident(
+  int_ref *opt* "gButton.ml" 185 6538 6542 "gButton.ml" 185 6538 6600
+)
+type(
+  int option
+)
+ident(
+  def *opt* "gButton.ml" 185 6538 6542 "gButton.ml" 185 6538 6600
+)
+"gButton.ml" 187 6661 6669 "gButton.ml" 187 6661 6670
+type(
+  #tool_item_o
+)
+ident(
+  def i "gButton.ml" 187 6661 6674 "gButton.ml" 187 6661 6715
+)
+"gButton.ml" 187 6661 6674 "gButton.ml" 187 6661 6696
+type(
+  Gtk.toolbar Gtk.obj -> Gtk.tool_item Gtk.obj -> int
+)
+ident(
+  ext_ref GtkButton.Toolbar.get_item_index
+)
+"gButton.ml" 187 6661 6697 "gButton.ml" 187 6661 6700
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 187 6661 6701 "gButton.ml" 187 6661 6702
+type(
+  #tool_item_o as 'c
+)
+ident(
+  int_ref i "gButton.ml" 187 6661 6669 "gButton.ml" 187 6661 6670
+)
+"gButton.ml" 187 6661 6701 "gButton.ml" 187 6661 6715
+call(
+  stack
+)
+type(
+  Gtk.tool_item Gtk.obj
+)
+"gButton.ml" 187 6661 6674 "gButton.ml" 187 6661 6715
+type(
+  int
+)
+"gButton.ml" 187 6661 6665 "gButton.ml" 187 6661 6715
+type(
+  'd. (#tool_item_o as 'd) -> int
+)
+type(
+  'c -> int
+)
+"gButton.ml" 188 6716 6739 "gButton.ml" 188 6716 6758
+type(
+  Gtk.toolbar Gtk.obj -> int
+)
+ident(
+  ext_ref GtkButton.Toolbar.get_n_items
+)
+"gButton.ml" 188 6716 6759 "gButton.ml" 188 6716 6762
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 188 6716 6739 "gButton.ml" 188 6716 6762
+type(
+  int
+)
+type(
+  int
+)
+"gButton.ml" 189 6763 6787 "gButton.ml" 189 6763 6807
+type(
+  Gtk.toolbar Gtk.obj -> int -> [ `toolitem ] Gtk.obj
+)
+ident(
+  ext_ref GtkButton.Toolbar.get_nth_item
+)
+"gButton.ml" 189 6763 6808 "gButton.ml" 189 6763 6811
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 189 6763 6787 "gButton.ml" 189 6763 6811
+call(
+  tail
+)
+type(
+  int -> [ `toolitem ] Gtk.obj
+)
+type(
+  int -> [ `toolitem ] Gtk.obj
+)
+"gButton.ml" 190 6812 6838 "gButton.ml" 190 6812 6860
+type(
+  Gtk.toolbar Gtk.obj -> int -> int -> int
+)
+ident(
+  ext_ref GtkButton.Toolbar.get_drop_index
+)
+"gButton.ml" 190 6812 6861 "gButton.ml" 190 6812 6864
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 190 6812 6838 "gButton.ml" 190 6812 6864
+call(
+  tail
+)
+type(
+  int -> int -> int
+)
+type(
+  int -> int -> int
+)
+"gButton.ml" 193 6965 6973 "gButton.ml" 193 6965 6977
+type(
+  (#tool_item_o * int) option
+)
+"gButton.ml" 193 6965 6981 "gButton.ml" 193 6965 7012
+type(
+  Gtk.toolbar Gtk.obj -> _[> `toolitem ] Gtk.obj option -> int -> unit
+)
+ident(
+  ext_ref GtkButton.Toolbar.set_drop_highlight_item
+)
+"gButton.ml" 193 6965 7013 "gButton.ml" 193 6965 7016
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 193 6965 7017 "gButton.ml" 193 6965 7021
+type(
+  (_[> `toolitem ] as 'e) Gtk.obj option
+)
+"gButton.ml" 193 6965 7022 "gButton.ml" 193 6965 7023
+type(
+  int
+)
+"gButton.ml" 193 6965 6981 "gButton.ml" 193 6965 7023
+type(
+  unit
+)
+"gButton.ml" 194 7024 7038 "gButton.ml" 194 7024 7039
+type(
+  #tool_item_o as 'f
+)
+ident(
+  def i "gButton.ml" 194 7024 7049 "gButton.ml" 194 7024 7110
+)
+"gButton.ml" 194 7024 7041 "gButton.ml" 194 7024 7044
+type(
+  int
+)
+ident(
+  def pos "gButton.ml" 194 7024 7049 "gButton.ml" 194 7024 7110
+)
+"gButton.ml" 194 7024 7037 "gButton.ml" 194 7024 7045
+type(
+  'f * int
+)
+"gButton.ml" 194 7024 7032 "gButton.ml" 194 7024 7045
+type(
+  ('f * int) option
+)
+"gButton.ml" 194 7024 7049 "gButton.ml" 194 7024 7080
+type(
+  Gtk.toolbar Gtk.obj -> Gtk.tool_item Gtk.obj option -> int -> unit
+)
+ident(
+  ext_ref GtkButton.Toolbar.set_drop_highlight_item
+)
+"gButton.ml" 194 7024 7081 "gButton.ml" 194 7024 7084
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 194 7024 7091 "gButton.ml" 194 7024 7092
+type(
+  'f
+)
+ident(
+  int_ref i "gButton.ml" 194 7024 7038 "gButton.ml" 194 7024 7039
+)
+"gButton.ml" 194 7024 7091 "gButton.ml" 194 7024 7105
+call(
+  stack
+)
+type(
+  Gtk.tool_item Gtk.obj
+)
+"gButton.ml" 194 7024 7085 "gButton.ml" 194 7024 7106
+type(
+  Gtk.tool_item Gtk.obj option
+)
+"gButton.ml" 194 7024 7107 "gButton.ml" 194 7024 7110
+type(
+  int
+)
+ident(
+  int_ref pos "gButton.ml" 194 7024 7041 "gButton.ml" 194 7024 7044
+)
+"gButton.ml" 194 7024 7049 "gButton.ml" 194 7024 7110
+type(
+  unit
+)
+"gButton.ml" 192 6951 6955 "gButton.ml" 194 7024 7110
+type(
+  'g. ((#tool_item_o as 'g) * int) option -> unit
+)
+type(
+  ('f * int) option -> unit
+)
+"gButton.ml" 195 7111 7135 "gButton.ml" 195 7111 7159
+type(
+  Gtk.toolbar Gtk.obj -> GtkEnums.relief_style
+)
+ident(
+  ext_ref GtkButton.Toolbar.get_relief_style
+)
+"gButton.ml" 195 7111 7160 "gButton.ml" 195 7111 7163
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 195 7111 7135 "gButton.ml" 195 7111 7163
+type(
+  GtkEnums.relief_style
+)
+type(
+  GtkEnums.relief_style
+)
+"gButton.ml" 198 7169 7173 "gButton.ml" 198 7169 7180
+type(
+  ?orientation:GtkEnums.orientation ->
+  ?style:GtkEnums.toolbar_style ->
+  ?tooltips:bool ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toolbar
+)
+ident(
+  def toolbar "gButton.ml" 206 7387 7387 --
+)
+"gButton.ml" 198 7169 7182 "gButton.ml" 198 7169 7193
+type(
+  GtkEnums.orientation option
+)
+ident(
+  def orientation "gButton.ml" 198 7169 7194 "gButton.ml" 202 7332 7350
+)
+"gButton.ml" 198 7169 7195 "gButton.ml" 198 7169 7200
+type(
+  GtkEnums.toolbar_style option
+)
+ident(
+  def style "gButton.ml" 198 7169 7201 "gButton.ml" 202 7332 7350
+)
+"gButton.ml" 198 7169 7202 "gButton.ml" 198 7169 7210
+type(
+  bool option
+)
+ident(
+  def tooltips "gButton.ml" 199 7213 7215 "gButton.ml" 202 7332 7350
+)
+"gButton.ml" 199 7213 7215 "gButton.ml" 199 7213 7229
+type(
+  create:(Gtk.toolbar Gobject.param list -> toolbar) ->
+  Gtk.toolbar Gobject.param list ->
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toolbar
+)
+ident(
+  ext_ref GContainer.pack_container
+)
+"gButton.ml" 199 7213 7230 "gButton.ml" 199 7213 7232
+type(
+  Gtk.toolbar Gobject.param list
+)
+"gButton.ml" 199 7213 7246 "gButton.ml" 199 7213 7247
+type(
+  Gtk.toolbar Gobject.param list
+)
+ident(
+  def p "gButton.ml" 200 7251 7255 "gButton.ml" 202 7332 7349
+)
+"gButton.ml" 200 7251 7259 "gButton.ml" 200 7251 7260
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 200 7251 7263 "gButton.ml" 200 7251 7277
+type(
+  Gtk.toolbar Gobject.param list -> Gtk.toolbar Gtk.obj
+)
+ident(
+  ext_ref GtkButton.Toolbar.create
+)
+"gButton.ml" 200 7251 7278 "gButton.ml" 200 7251 7279
+type(
+  Gtk.toolbar Gobject.param list
+)
+ident(
+  int_ref p "gButton.ml" 199 7213 7246 "gButton.ml" 199 7213 7247
+)
+"gButton.ml" 200 7251 7263 "gButton.ml" 200 7251 7279
+call(
+  stack
+)
+type(
+  Gtk.toolbar Gtk.obj
+)
+"gButton.ml" 201 7283 7287 "gButton.ml" 201 7283 7298
+type(
+  ?orientation:GtkEnums.orientation ->
+  ?style:GtkEnums.toolbar_style ->
+  ?tooltips:bool -> Gtk.toolbar Gtk.obj -> unit
+)
+ident(
+  ext_ref GtkButton.Toolbar.set
+)
+"gButton.ml" 201 7283 7299 "gButton.ml" 201 7283 7300
+type(
+  Gtk.toolbar Gtk.obj
+)
+ident(
+  int_ref w "gButton.ml" 200 7251 7259 "gButton.ml" 200 7251 7260
+)
+"gButton.ml" 201 7283 7302 "gButton.ml" 201 7283 7313
+type(
+  GtkEnums.orientation option
+)
+ident(
+  int_ref orientation "gButton.ml" 198 7169 7182 "gButton.ml" 198 7169 7193
+)
+"gButton.ml" 201 7283 7315 "gButton.ml" 201 7283 7320
+type(
+  GtkEnums.toolbar_style option
+)
+ident(
+  int_ref style "gButton.ml" 198 7169 7195 "gButton.ml" 198 7169 7200
+)
+"gButton.ml" 201 7283 7322 "gButton.ml" 201 7283 7330
+type(
+  bool option
+)
+ident(
+  int_ref tooltips "gButton.ml" 198 7169 7202 "gButton.ml" 198 7169 7210
+)
+"gButton.ml" 201 7283 7287 "gButton.ml" 201 7283 7330
+call(
+  stack
+)
+type(
+  unit
+)
+"gButton.ml" 202 7332 7336 "gButton.ml" 202 7332 7347
+type(
+  Gtk.toolbar Gtk.obj -> toolbar
+)
+"gButton.ml" 202 7332 7348 "gButton.ml" 202 7332 7349
+type(
+  Gtk.toolbar Gtk.obj
+)
+ident(
+  int_ref w "gButton.ml" 200 7251 7259 "gButton.ml" 200 7251 7260
+)
+"gButton.ml" 202 7332 7336 "gButton.ml" 202 7332 7349
+call(
+  tail
+)
+type(
+  toolbar
+)
+"gButton.ml" 201 7283 7287 "gButton.ml" 202 7332 7349
+type(
+  toolbar
+)
+"gButton.ml" 200 7251 7255 "gButton.ml" 202 7332 7349
+type(
+  toolbar
+)
+"gButton.ml" 199 7213 7241 "gButton.ml" 202 7332 7350
+type(
+  Gtk.toolbar Gobject.param list -> toolbar
+)
+"gButton.ml" 199 7213 7215 "gButton.ml" 202 7332 7350
+call(
+  tail
+)
+type(
+  ?border_width:int ->
+  ?width:int ->
+  ?height:int ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> toolbar
+)
+"gButton.ml" 206 7387 7391 "gButton.ml" 206 7387 7399
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  def may_cons "gButton.ml" 208 7429 7429 --
+)
+"gButton.ml" 206 7387 7402 "gButton.ml" 206 7387 7427
+type(
+  ('a, 'b) Gobject.property ->
+  'b option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  ext_ref Gobject.Property.may_cons
+)
+"gButton.ml" 208 7429 7450 "gButton.ml" 208 7429 7453
+type(
+  [> Gtk.tool_item ] Gtk.obj
+)
+"gButton.ml" 209 7463 7513 "gButton.ml" 209 7463 7516
+type(
+  ([> Gtk.tool_item ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 208 7429 7450 "gButton.ml" 208 7429 7453
+)
+"gButton.ml" 211 7559 7584 "gButton.ml" 211 7559 7587
+type(
+  Gtk.tool_item Gtk.obj
+)
+type(
+  Gtk.tool_item Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 212 7610 7637 "gButton.ml" 212 7610 7661
+type(
+  'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkButton.ToolItem.set_homogeneous
+)
+"gButton.ml" 212 7610 7662 "gButton.ml" 212 7610 7665
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 212 7610 7637 "gButton.ml" 212 7610 7665
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gButton.ml" 213 7666 7693 "gButton.ml" 213 7666 7717
+type(
+  'a Gtk.obj -> bool
+)
+ident(
+  ext_ref GtkButton.ToolItem.get_homogeneous
+)
+"gButton.ml" 213 7666 7718 "gButton.ml" 213 7666 7721
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 213 7666 7693 "gButton.ml" 213 7666 7721
+type(
+  bool
+)
+type(
+  bool
+)
+"gButton.ml" 214 7722 7744 "gButton.ml" 214 7722 7763
+type(
+  'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkButton.ToolItem.set_expand
+)
+"gButton.ml" 214 7722 7764 "gButton.ml" 214 7722 7767
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 214 7722 7744 "gButton.ml" 214 7722 7767
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gButton.ml" 215 7768 7790 "gButton.ml" 215 7768 7809
+type(
+  'a Gtk.obj -> bool
+)
+ident(
+  ext_ref GtkButton.ToolItem.get_expand
+)
+"gButton.ml" 215 7768 7810 "gButton.ml" 215 7768 7813
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 215 7768 7790 "gButton.ml" 215 7768 7813
+type(
+  bool
+)
+type(
+  bool
+)
+"gButton.ml" 216 7814 7836 "gButton.ml" 216 7814 7837
+type(
+  GData.tooltips
+)
+ident(
+  def t "gButton.ml" 217 7858 7862 "gButton.ml" 217 7858 7900
+)
+"gButton.ml" 217 7858 7862 "gButton.ml" 217 7858 7882
+type(
+  'a Gtk.obj -> Gtk.tooltips Gtk.obj -> string -> string -> unit
+)
+ident(
+  ext_ref GtkButton.ToolItem.set_tooltip
+)
+"gButton.ml" 217 7858 7883 "gButton.ml" 217 7858 7886
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 217 7858 7887 "gButton.ml" 217 7858 7888
+type(
+  GData.tooltips
+)
+ident(
+  int_ref t "gButton.ml" 216 7814 7836 "gButton.ml" 216 7814 7837
+)
+"gButton.ml" 217 7858 7887 "gButton.ml" 217 7858 7900
+call(
+  stack
+)
+type(
+  Gtk.tooltips Gtk.obj
+)
+"gButton.ml" 217 7858 7862 "gButton.ml" 217 7858 7900
+call(
+  tail
+)
+type(
+  string -> string -> unit
+)
+"gButton.ml" 218 7901 7932 "gButton.ml" 218 7901 7960
+type(
+  'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkButton.ToolItem.set_use_drag_window
+)
+"gButton.ml" 218 7901 7961 "gButton.ml" 218 7901 7964
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 218 7901 7932 "gButton.ml" 218 7901 7964
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gButton.ml" 219 7965 7996 "gButton.ml" 219 7965 8024
+type(
+  'a Gtk.obj -> bool
+)
+ident(
+  ext_ref GtkButton.ToolItem.get_use_drag_window
+)
+"gButton.ml" 219 7965 8025 "gButton.ml" 219 7965 8028
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 219 7965 7996 "gButton.ml" 219 7965 8028
+type(
+  bool
+)
+type(
+  bool
+)
+"gButton.ml" 222 8034 8050 "gButton.ml" 222 8034 8053
+type(
+  [> Gtk.tool_item ] Gtk.obj
+)
+"gButton.ml" 223 8063 8088 "gButton.ml" 223 8063 8091
+type(
+  ([> Gtk.tool_item ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 222 8034 8050 "gButton.ml" 222 8034 8053
+)
+"gButton.ml" 224 8092 8111 "gButton.ml" 224 8092 8148
+type(
+  'a Gtk.obj -> GContainer.container_signals_impl
+)
+"gButton.ml" 224 8092 8149 "gButton.ml" 224 8092 8152
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 224 8092 8111 "gButton.ml" 224 8092 8152
+call(
+  tail
+)
+type(
+  GContainer.container_signals_impl
+)
+type(
+  GContainer.container_signals_impl
+)
+"gButton.ml" 227 8158 8162 "gButton.ml" 227 8158 8178
+type(
+  ('a ->
+   (< as_tool_item : [> Gtk.tool_item ] Gobject.obj;
+      misc : < show : unit -> unit; .. >; set_expand : 'c -> 'd;
+      set_homogeneous : 'e -> 'f; .. >
+    as 'b)) ->
+  'a ->
+  ?homogeneous:'e ->
+  ?expand:'c -> ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> 'b
+)
+ident(
+  def tool_item_params "gButton.ml" 235 8461 8461 --
+)
+"gButton.ml" 227 8158 8179 "gButton.ml" 227 8158 8185
+type(
+  'a -> 'b
+)
+ident(
+  def create "gButton.ml" 227 8158 8186 "gButton.ml" 233 8453 8459
+)
+"gButton.ml" 227 8158 8186 "gButton.ml" 227 8158 8188
+type(
+  'a
+)
+ident(
+  def pl "gButton.ml" 227 8158 8189 "gButton.ml" 233 8453 8459
+)
+"gButton.ml" 227 8158 8190 "gButton.ml" 227 8158 8201
+type(
+  'e option
+)
+ident(
+  def homogeneous "gButton.ml" 227 8158 8202 "gButton.ml" 233 8453 8459
+)
+"gButton.ml" 227 8158 8203 "gButton.ml" 227 8158 8209
+type(
+  'c option
+)
+ident(
+  def expand "gButton.ml" 227 8158 8210 "gButton.ml" 233 8453 8459
+)
+"gButton.ml" 227 8158 8211 "gButton.ml" 227 8158 8218
+type(
+  (tool_item_o -> unit) option
+)
+ident(
+  def packing "gButton.ml" 227 8158 8219 "gButton.ml" 233 8453 8459
+)
+"gButton.ml" 227 8158 8220 "gButton.ml" 227 8158 8224
+type(
+  bool option
+)
+ident(
+  def show "gButton.ml" 227 8158 8225 "gButton.ml" 233 8453 8459
+)
+"gButton.ml" 227 8158 8225 "gButton.ml" 227 8158 8227
+type(
+  unit
+)
+"gButton.ml" 228 8231 8237 "gButton.ml" 228 8231 8241
+type(
+  'b
+)
+"gButton.ml" 228 8231 8244 "gButton.ml" 228 8231 8250
+type(
+  'a -> 'b
+)
+ident(
+  int_ref create "gButton.ml" 227 8158 8179 "gButton.ml" 227 8158 8185
+)
+"gButton.ml" 228 8231 8251 "gButton.ml" 228 8231 8253
+type(
+  'a
+)
+ident(
+  int_ref pl "gButton.ml" 227 8158 8186 "gButton.ml" 227 8158 8188
+)
+"gButton.ml" 228 8231 8244 "gButton.ml" 228 8231 8253
+call(
+  stack
+)
+type(
+  'b
+)
+"gButton.ml" 229 8257 8259 "gButton.ml" 229 8257 8267
+type(
+  f:('e -> 'f) -> 'e option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gButton.ml" 229 8257 8268 "gButton.ml" 229 8257 8272
+type(
+  'b
+)
+ident(
+  int_ref item "gButton.ml" 228 8231 8237 "gButton.ml" 228 8231 8241
+)
+"gButton.ml" 229 8257 8268 "gButton.ml" 229 8257 8288
+call(
+  stack
+)
+type(
+  'e -> 'f
+)
+"gButton.ml" 229 8257 8289 "gButton.ml" 229 8257 8300
+type(
+  'e option
+)
+ident(
+  int_ref homogeneous "gButton.ml" 227 8158 8190 "gButton.ml" 227 8158 8201
+)
+"gButton.ml" 229 8257 8259 "gButton.ml" 229 8257 8300
+call(
+  stack
+)
+type(
+  unit
+)
+"gButton.ml" 230 8303 8305 "gButton.ml" 230 8303 8313
+type(
+  f:('c -> 'd) -> 'c option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gButton.ml" 230 8303 8314 "gButton.ml" 230 8303 8318
+type(
+  'b
+)
+ident(
+  int_ref item "gButton.ml" 228 8231 8237 "gButton.ml" 228 8231 8241
+)
+"gButton.ml" 230 8303 8314 "gButton.ml" 230 8303 8329
+call(
+  stack
+)
+type(
+  'c -> 'd
+)
+"gButton.ml" 230 8303 8330 "gButton.ml" 230 8303 8336
+type(
+  'c option
+)
+ident(
+  int_ref expand "gButton.ml" 227 8158 8203 "gButton.ml" 227 8158 8209
+)
+"gButton.ml" 230 8303 8305 "gButton.ml" 230 8303 8336
+call(
+  stack
+)
+type(
+  unit
+)
+"gButton.ml" 231 8339 8341 "gButton.ml" 231 8339 8349
+type(
+  f:((tool_item_o -> unit) -> unit) -> (tool_item_o -> unit) option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gButton.ml" 231 8339 8355 "gButton.ml" 231 8339 8356
+type(
+  tool_item_o -> unit
+)
+ident(
+  def f "gButton.ml" 231 8339 8360 "gButton.ml" 231 8339 8392
+)
+"gButton.ml" 231 8339 8361 "gButton.ml" 231 8339 8362
+type(
+  tool_item_o -> unit
+)
+ident(
+  int_ref f "gButton.ml" 231 8339 8355 "gButton.ml" 231 8339 8356
+)
+"gButton.ml" 231 8339 8364 "gButton.ml" 231 8339 8368
+type(
+  tool_item_o
+)
+type(
+  'b
+)
+ident(
+  int_ref item "gButton.ml" 228 8231 8237 "gButton.ml" 228 8231 8241
+)
+"gButton.ml" 231 8339 8361 "gButton.ml" 231 8339 8384
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"gButton.ml" 231 8339 8350 "gButton.ml" 231 8339 8393
+type(
+  (tool_item_o -> unit) -> unit
+)
+"gButton.ml" 231 8339 8394 "gButton.ml" 231 8339 8401
+type(
+  (tool_item_o -> unit) option
+)
+ident(
+  int_ref packing "gButton.ml" 227 8158 8211 "gButton.ml" 227 8158 8218
+)
+"gButton.ml" 231 8339 8341 "gButton.ml" 231 8339 8401
+call(
+  stack
+)
+type(
+  unit
+)
+"gButton.ml" 232 8404 8409 "gButton.ml" 232 8404 8413
+type(
+  bool option
+)
+ident(
+  int_ref show "gButton.ml" 227 8158 8220 "gButton.ml" 227 8158 8224
+)
+"gButton.ml" 232 8404 8414 "gButton.ml" 232 8404 8416
+type(
+  bool option -> bool option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"gButton.ml" 232 8404 8422 "gButton.ml" 232 8404 8427
+type(
+  bool
+)
+"gButton.ml" 232 8404 8417 "gButton.ml" 232 8404 8427
+type(
+  bool option
+)
+"gButton.ml" 232 8404 8409 "gButton.ml" 232 8404 8427
+type(
+  bool
+)
+"gButton.ml" 232 8404 8433 "gButton.ml" 232 8404 8437
+type(
+  'b
+)
+ident(
+  int_ref item "gButton.ml" 228 8231 8237 "gButton.ml" 228 8231 8241
+)
+"gButton.ml" 232 8404 8433 "gButton.ml" 232 8404 8442
+call(
+  stack
+)
+type(
+  < show : unit -> unit; .. > as 'g
+)
+"gButton.ml" 232 8404 8433 "gButton.ml" 232 8404 8447
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+"gButton.ml" 232 8404 8448 "gButton.ml" 232 8404 8450
+type(
+  unit
+)
+"gButton.ml" 232 8404 8433 "gButton.ml" 232 8404 8450
+type(
+  unit
+)
+"gButton.ml" 232 8404 8406 "gButton.ml" 232 8404 8450
+type(
+  unit
+)
+"gButton.ml" 233 8453 8455 "gButton.ml" 233 8453 8459
+type(
+  'b
+)
+ident(
+  int_ref item "gButton.ml" 228 8231 8237 "gButton.ml" 228 8231 8241
+)
+"gButton.ml" 232 8404 8406 "gButton.ml" 233 8453 8459
+type(
+  'b
+)
+"gButton.ml" 231 8339 8341 "gButton.ml" 233 8453 8459
+type(
+  'b
+)
+"gButton.ml" 230 8303 8305 "gButton.ml" 233 8453 8459
+type(
+  'b
+)
+"gButton.ml" 229 8257 8259 "gButton.ml" 233 8453 8459
+type(
+  'b
+)
+"gButton.ml" 228 8231 8233 "gButton.ml" 233 8453 8459
+type(
+  'b
+)
+"gButton.ml" 235 8461 8465 "gButton.ml" 235 8461 8474
+type(
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> tool_item
+)
+ident(
+  def tool_item "gButton.ml" 240 8556 8556 --
+)
+"gButton.ml" 236 8477 8479 "gButton.ml" 236 8477 8495
+type(
+  (Gtk.tool_item Gobject.param list -> tool_item) ->
+  Gtk.tool_item Gobject.param list ->
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> tool_item
+)
+ident(
+  int_ref tool_item_params "gButton.ml" 227 8158 8162 "gButton.ml" 227 8158 8178
+)
+"gButton.ml" 237 8497 8506 "gButton.ml" 237 8497 8508
+type(
+  Gtk.tool_item Gobject.param list
+)
+ident(
+  def pl "gButton.ml" 237 8497 8512 "gButton.ml" 237 8497 8546
+)
+"gButton.ml" 237 8497 8512 "gButton.ml" 237 8497 8525
+type(
+  Gtk.tool_item Gtk.obj -> tool_item
+)
+"gButton.ml" 237 8497 8527 "gButton.ml" 237 8497 8542
+type(
+  Gtk.tool_item Gobject.param list -> Gtk.tool_item Gtk.obj
+)
+ident(
+  ext_ref GtkButton.ToolItem.create
+)
+"gButton.ml" 237 8497 8543 "gButton.ml" 237 8497 8545
+type(
+  Gtk.tool_item Gobject.param list
+)
+ident(
+  int_ref pl "gButton.ml" 237 8497 8506 "gButton.ml" 237 8497 8508
+)
+"gButton.ml" 237 8497 8526 "gButton.ml" 237 8497 8546
+call(
+  stack
+)
+type(
+  Gtk.tool_item Gtk.obj
+)
+"gButton.ml" 237 8497 8512 "gButton.ml" 237 8497 8546
+call(
+  tail
+)
+type(
+  tool_item
+)
+"gButton.ml" 237 8497 8501 "gButton.ml" 237 8497 8547
+type(
+  Gtk.tool_item Gobject.param list -> tool_item
+)
+"gButton.ml" 238 8548 8552 "gButton.ml" 238 8548 8554
+type(
+  Gtk.tool_item Gobject.param list
+)
+"gButton.ml" 236 8477 8479 "gButton.ml" 238 8548 8554
+call(
+  stack
+)
+type(
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> tool_item
+)
+"gButton.ml" 240 8556 8582 "gButton.ml" 240 8556 8585
+type(
+  [> `bin | `container | `gtk | `separatortoolitem | `toolitem | `widget ]
+  Gtk.obj
+)
+"gButton.ml" 241 8595 8615 "gButton.ml" 241 8595 8618
+type(
+  ([> `bin | `container | `gtk | `separatortoolitem | `toolitem | `widget ]
+   as 'a)
+  Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 240 8556 8582 "gButton.ml" 240 8556 8585
+)
+"gButton.ml" 242 8619 8635 "gButton.ml" 242 8619 8638
+type(
+  ('a, bool) Gobject.property -> 'a Gtk.obj -> bool
+)
+ident(
+  ext_ref OgtkButtonProps.get
+)
+"gButton.ml" 242 8619 8639 "gButton.ml" 242 8619 8663
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButton.SeparatorToolItem.P.draw
+)
+"gButton.ml" 242 8619 8664 "gButton.ml" 242 8619 8667
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 242 8619 8635 "gButton.ml" 242 8619 8667
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"gButton.ml" 243 8668 8688 "gButton.ml" 243 8668 8691
+type(
+  ('a, bool) Gobject.property -> 'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref OgtkButtonProps.set
+)
+"gButton.ml" 243 8668 8692 "gButton.ml" 243 8668 8716
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButton.SeparatorToolItem.P.draw
+)
+"gButton.ml" 243 8668 8717 "gButton.ml" 243 8668 8720
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 243 8668 8688 "gButton.ml" 243 8668 8720
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gButton.ml" 246 8726 8730 "gButton.ml" 246 8726 8749
+type(
+  ?draw:bool ->
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> separator_tool_item
+)
+ident(
+  def separator_tool_item "gButton.ml" 252 8912 8912 --
+)
+"gButton.ml" 246 8726 8751 "gButton.ml" 246 8726 8755
+type(
+  bool option
+)
+ident(
+  def draw "gButton.ml" 247 8758 8760 "gButton.ml" 250 8904 8910
+)
+"gButton.ml" 247 8758 8764 "gButton.ml" 247 8758 8766
+type(
+  [> `separatortoolitem ] Gobject.param list
+)
+"gButton.ml" 247 8758 8769 "gButton.ml" 247 8758 8777
+type(
+  ([> `separatortoolitem ] as 'a, bool) Gobject.property ->
+  bool option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  int_ref may_cons "gButton.ml" 206 7387 7391 "gButton.ml" 206 7387 7399
+)
+"gButton.ml" 247 8758 8778 "gButton.ml" 247 8758 8802
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButton.SeparatorToolItem.P.draw
+)
+"gButton.ml" 247 8758 8803 "gButton.ml" 247 8758 8807
+type(
+  bool option
+)
+ident(
+  int_ref draw "gButton.ml" 246 8726 8751 "gButton.ml" 246 8726 8755
+)
+"gButton.ml" 247 8758 8808 "gButton.ml" 247 8758 8810
+type(
+  'a Gobject.param list
+)
+"gButton.ml" 247 8758 8769 "gButton.ml" 247 8758 8810
+call(
+  stack
+)
+type(
+  'a Gobject.param list
+)
+"gButton.ml" 248 8814 8816 "gButton.ml" 248 8814 8832
+type(
+  (Gtk.separator_tool_item Gobject.param list -> separator_tool_item) ->
+  Gtk.separator_tool_item Gobject.param list ->
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> separator_tool_item
+)
+ident(
+  int_ref tool_item_params "gButton.ml" 227 8158 8162 "gButton.ml" 227 8158 8178
+)
+"gButton.ml" 249 8834 8843 "gButton.ml" 249 8834 8845
+type(
+  Gtk.separator_tool_item Gobject.param list
+)
+ident(
+  def pl "gButton.ml" 249 8834 8849 "gButton.ml" 249 8834 8902
+)
+"gButton.ml" 249 8834 8849 "gButton.ml" 249 8834 8872
+type(
+  Gtk.separator_tool_item Gtk.obj -> separator_tool_item
+)
+"gButton.ml" 249 8834 8874 "gButton.ml" 249 8834 8898
+type(
+  Gtk.separator_tool_item Gobject.param list ->
+  Gtk.separator_tool_item Gtk.obj
+)
+ident(
+  ext_ref GtkButton.SeparatorToolItem.create
+)
+"gButton.ml" 249 8834 8899 "gButton.ml" 249 8834 8901
+type(
+  Gtk.separator_tool_item Gobject.param list
+)
+ident(
+  int_ref pl "gButton.ml" 249 8834 8843 "gButton.ml" 249 8834 8845
+)
+"gButton.ml" 249 8834 8873 "gButton.ml" 249 8834 8902
+call(
+  stack
+)
+type(
+  Gtk.separator_tool_item Gtk.obj
+)
+"gButton.ml" 249 8834 8849 "gButton.ml" 249 8834 8902
+call(
+  tail
+)
+type(
+  separator_tool_item
+)
+"gButton.ml" 249 8834 8838 "gButton.ml" 249 8834 8903
+type(
+  Gtk.separator_tool_item Gobject.param list -> separator_tool_item
+)
+"gButton.ml" 250 8904 8908 "gButton.ml" 250 8904 8910
+type(
+  Gtk.separator_tool_item Gobject.param list
+)
+ident(
+  int_ref pl "gButton.ml" 247 8758 8764 "gButton.ml" 247 8758 8766
+)
+"gButton.ml" 248 8814 8816 "gButton.ml" 250 8904 8910
+call(
+  tail
+)
+type(
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> separator_tool_item
+)
+"gButton.ml" 247 8758 8760 "gButton.ml" 250 8904 8910
+type(
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> separator_tool_item
+)
+"gButton.ml" 252 8912 8939 "gButton.ml" 252 8912 8942
+type(
+  [> Gtk.tool_button ] Gtk.obj
+)
+"gButton.ml" 252 8912 8979 "gButton.ml" 252 8912 8985
+type(
+  < add : callback:(GObj.widget -> unit) -> GtkSignal.id; after : 'a;
+    clicked : callback:(unit -> unit) -> GtkSignal.id;
+    destroy : callback:(unit -> unit) -> GtkSignal.id;
+    remove : callback:(GObj.widget -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"gButton.ml" 253 8986 9030 "gButton.ml" 253 8986 9033
+type(
+  ([> Gtk.tool_button ] as 'b) Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 252 8912 8939 "gButton.ml" 252 8912 8942
+)
+"gButton.ml" 254 9034 9053 "gButton.ml" 254 9034 9057
+type(
+  'a
+)
+"gButton.ml" 254 9034 9053 "gButton.ml" 254 9034 9065
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"gButton.ml" 254 9034 9066 "gButton.ml" 254 9034 9086
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkButton.ToolButton.S.clicked
+)
+"gButton.ml" 254 9034 9053 "gButton.ml" 254 9034 9086
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gButton.ml" 257 9092 9115 "gButton.ml" 257 9092 9118
+type(
+  [> `bin | `container | `gtk | `toolbutton | `toolitem | `widget ] Gtk.obj
+)
+"gButton.ml" 258 9128 9153 "gButton.ml" 258 9128 9156
+type(
+  ([> `bin | `container | `gtk | `toolbutton | `toolitem | `widget ] as 'a)
+  Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 257 9092 9115 "gButton.ml" 257 9092 9118
+)
+"gButton.ml" 262 9190 9208 "gButton.ml" 262 9190 9211
+type(
+  [> Gtk.tool_button ] Gtk.obj
+)
+"gButton.ml" 263 9221 9248 "gButton.ml" 263 9221 9251
+type(
+  ([> Gtk.tool_button ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 262 9190 9208 "gButton.ml" 262 9190 9211
+)
+"gButton.ml" 264 9252 9271 "gButton.ml" 264 9252 9294
+type(
+  'a Gtk.obj -> tool_button_signals
+)
+"gButton.ml" 264 9252 9295 "gButton.ml" 264 9252 9298
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 264 9252 9271 "gButton.ml" 264 9252 9298
+call(
+  tail
+)
+type(
+  tool_button_signals
+)
+type(
+  tool_button_signals
+)
+"gButton.ml" 267 9304 9308 "gButton.ml" 267 9304 9326
+type(
+  (([> `toolbutton ] as 'a) Gobject.param list ->
+   (< as_tool_item : [> Gtk.tool_item ] Gobject.obj;
+      misc : < show : unit -> unit; .. >; set_expand : 'c -> 'd;
+      set_homogeneous : 'e -> 'f; .. >
+    as 'b)) ->
+  'a Gobject.param list ->
+  ?label:string ->
+  ?stock:GtkStock.id ->
+  ?use_underline:bool ->
+  ?homogeneous:'e ->
+  ?expand:'c -> ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> 'b
+)
+ident(
+  def tool_button_params "gButton.ml" 273 9541 9541 --
+)
+"gButton.ml" 267 9304 9327 "gButton.ml" 267 9304 9333
+type(
+  'a Gobject.param list -> 'b
+)
+ident(
+  def create "gButton.ml" 267 9304 9334 "gButton.ml" 271 9479 9539
+)
+"gButton.ml" 267 9304 9334 "gButton.ml" 267 9304 9336
+type(
+  'a Gobject.param list
+)
+ident(
+  def pl "gButton.ml" 267 9304 9337 "gButton.ml" 271 9479 9539
+)
+"gButton.ml" 267 9304 9338 "gButton.ml" 267 9304 9343
+type(
+  string option
+)
+ident(
+  def label "gButton.ml" 267 9304 9344 "gButton.ml" 271 9479 9539
+)
+"gButton.ml" 267 9304 9345 "gButton.ml" 267 9304 9350
+type(
+  GtkStock.id option
+)
+ident(
+  def stock "gButton.ml" 267 9304 9351 "gButton.ml" 271 9479 9539
+)
+"gButton.ml" 267 9304 9352 "gButton.ml" 267 9304 9365
+type(
+  bool option
+)
+ident(
+  def use_underline "gButton.ml" 268 9368 9370 "gButton.ml" 271 9479 9539
+)
+"gButton.ml" 268 9368 9370 "gButton.ml" 268 9368 9386
+type(
+  ('a Gobject.param list -> 'b) ->
+  'a Gobject.param list ->
+  ?homogeneous:'e ->
+  ?expand:'c -> ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> 'b
+)
+ident(
+  int_ref tool_item_params "gButton.ml" 227 8158 8162 "gButton.ml" 227 8158 8178
+)
+"gButton.ml" 268 9368 9387 "gButton.ml" 268 9368 9393
+type(
+  'a Gobject.param list -> 'b
+)
+ident(
+  int_ref create "gButton.ml" 267 9304 9327 "gButton.ml" 267 9304 9333
+)
+"gButton.ml" 269 9394 9399 "gButton.ml" 269 9394 9407
+type(
+  ('a, string) Gobject.property ->
+  string option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  int_ref may_cons "gButton.ml" 206 7387 7391 "gButton.ml" 206 7387 7399
+)
+"gButton.ml" 269 9394 9408 "gButton.ml" 269 9394 9426
+type(
+  ('a, string) Gobject.property
+)
+ident(
+  ext_ref GtkButton.ToolButton.P.label
+)
+"gButton.ml" 269 9394 9427 "gButton.ml" 269 9394 9432
+type(
+  string option
+)
+ident(
+  int_ref label "gButton.ml" 267 9304 9338 "gButton.ml" 267 9304 9343
+)
+"gButton.ml" 270 9435 9440 "gButton.ml" 270 9435 9448
+type(
+  ('a, GtkStock.id) Gobject.property ->
+  GtkStock.id option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  int_ref may_cons "gButton.ml" 206 7387 7391 "gButton.ml" 206 7387 7399
+)
+"gButton.ml" 270 9435 9449 "gButton.ml" 270 9435 9470
+type(
+  ('a, GtkStock.id) Gobject.property
+)
+ident(
+  ext_ref GtkButton.ToolButton.P.stock_id
+)
+"gButton.ml" 270 9435 9471 "gButton.ml" 270 9435 9476
+type(
+  GtkStock.id option
+)
+ident(
+  int_ref stock "gButton.ml" 267 9304 9345 "gButton.ml" 267 9304 9350
+)
+"gButton.ml" 271 9479 9484 "gButton.ml" 271 9479 9492
+type(
+  ('a, bool) Gobject.property ->
+  bool option -> 'a Gobject.param list -> 'a Gobject.param list
+)
+ident(
+  int_ref may_cons "gButton.ml" 206 7387 7391 "gButton.ml" 206 7387 7399
+)
+"gButton.ml" 271 9479 9493 "gButton.ml" 271 9479 9519
+type(
+  ('a, bool) Gobject.property
+)
+ident(
+  ext_ref GtkButton.ToolButton.P.use_underline
+)
+"gButton.ml" 271 9479 9520 "gButton.ml" 271 9479 9533
+type(
+  bool option
+)
+ident(
+  int_ref use_underline "gButton.ml" 267 9304 9352 "gButton.ml" 267 9304 9365
+)
+"gButton.ml" 271 9479 9534 "gButton.ml" 271 9479 9536
+type(
+  'a Gobject.param list
+)
+ident(
+  int_ref pl "gButton.ml" 267 9304 9334 "gButton.ml" 267 9304 9336
+)
+"gButton.ml" 270 9435 9477 "gButton.ml" 271 9479 9537
+call(
+  stack
+)
+type(
+  'a Gobject.param list
+)
+"gButton.ml" 269 9394 9433 "gButton.ml" 271 9479 9538
+call(
+  stack
+)
+type(
+  'a Gobject.param list
+)
+"gButton.ml" 269 9394 9398 "gButton.ml" 271 9479 9539
+call(
+  stack
+)
+type(
+  'a Gobject.param list
+)
+"gButton.ml" 268 9368 9370 "gButton.ml" 271 9479 9539
+call(
+  tail
+)
+type(
+  ?homogeneous:'e ->
+  ?expand:'c -> ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> 'b
+)
+"gButton.ml" 273 9541 9545 "gButton.ml" 273 9541 9556
+type(
+  ?label:string ->
+  ?stock:GtkStock.id ->
+  ?use_underline:bool ->
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> tool_button
+)
+ident(
+  def tool_button "gButton.ml" 278 9644 9644 --
+)
+"gButton.ml" 274 9559 9561 "gButton.ml" 274 9559 9579
+type(
+  (Gtk.tool_button Gobject.param list -> tool_button) ->
+  Gtk.tool_button Gobject.param list ->
+  ?label:string ->
+  ?stock:GtkStock.id ->
+  ?use_underline:bool ->
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> tool_button
+)
+ident(
+  int_ref tool_button_params "gButton.ml" 267 9304 9308 "gButton.ml" 267 9304 9326
+)
+"gButton.ml" 275 9581 9590 "gButton.ml" 275 9581 9592
+type(
+  Gtk.tool_button Gobject.param list
+)
+ident(
+  def pl "gButton.ml" 275 9581 9596 "gButton.ml" 275 9581 9634
+)
+"gButton.ml" 275 9581 9596 "gButton.ml" 275 9581 9611
+type(
+  Gtk.tool_button Gtk.obj -> tool_button
+)
+"gButton.ml" 275 9581 9613 "gButton.ml" 275 9581 9630
+type(
+  Gtk.tool_button Gobject.param list -> Gtk.tool_button Gtk.obj
+)
+ident(
+  ext_ref GtkButton.ToolButton.create
+)
+"gButton.ml" 275 9581 9631 "gButton.ml" 275 9581 9633
+type(
+  Gtk.tool_button Gobject.param list
+)
+ident(
+  int_ref pl "gButton.ml" 275 9581 9590 "gButton.ml" 275 9581 9592
+)
+"gButton.ml" 275 9581 9612 "gButton.ml" 275 9581 9634
+call(
+  stack
+)
+type(
+  Gtk.tool_button Gtk.obj
+)
+"gButton.ml" 275 9581 9596 "gButton.ml" 275 9581 9634
+call(
+  tail
+)
+type(
+  tool_button
+)
+"gButton.ml" 275 9581 9585 "gButton.ml" 275 9581 9635
+type(
+  Gtk.tool_button Gobject.param list -> tool_button
+)
+"gButton.ml" 276 9636 9640 "gButton.ml" 276 9636 9642
+type(
+  Gtk.tool_button Gobject.param list
+)
+"gButton.ml" 274 9559 9561 "gButton.ml" 276 9636 9642
+call(
+  stack
+)
+type(
+  ?label:string ->
+  ?stock:GtkStock.id ->
+  ?use_underline:bool ->
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> tool_button
+)
+"gButton.ml" 278 9644 9677 "gButton.ml" 278 9644 9680
+type(
+  [> `bin
+   | `container
+   | `gtk
+   | `toggletoolbutton
+   | `toolbutton
+   | `toolitem
+   | `widget ]
+  Gtk.obj
+)
+"gButton.ml" 278 9644 9690 "gButton.ml" 278 9644 9696
+type(
+  < add : callback:(GObj.widget -> unit) -> GtkSignal.id; after : 'a;
+    clicked : callback:(unit -> unit) -> GtkSignal.id;
+    destroy : callback:(unit -> unit) -> GtkSignal.id;
+    remove : callback:(GObj.widget -> unit) -> GtkSignal.id;
+    toggled : callback:(unit -> unit) -> GtkSignal.id; .. >
+  as 'a
+)
+"gButton.ml" 279 9697 9727 "gButton.ml" 279 9697 9730
+type(
+  ([> `bin
+    | `container
+    | `gtk
+    | `toggletoolbutton
+    | `toolbutton
+    | `toolitem
+    | `widget ]
+   as 'b)
+  Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 278 9644 9677 "gButton.ml" 278 9644 9680
+)
+"gButton.ml" 280 9731 9750 "gButton.ml" 280 9731 9754
+type(
+  'a
+)
+"gButton.ml" 280 9731 9750 "gButton.ml" 280 9731 9762
+call(
+  tail
+)
+type(
+  ('b, unit -> unit) GtkSignal.t -> callback:(unit -> unit) -> GtkSignal.id
+)
+"gButton.ml" 280 9731 9763 "gButton.ml" 280 9731 9789
+type(
+  ('b, unit -> unit) GtkSignal.t
+)
+ident(
+  ext_ref GtkButton.ToggleToolButton.S.toggled
+)
+"gButton.ml" 280 9731 9750 "gButton.ml" 280 9731 9789
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+type(
+  callback:(unit -> unit) -> GtkSignal.id
+)
+"gButton.ml" 283 9795 9820 "gButton.ml" 283 9795 9823
+type(
+  [> `bin
+   | `container
+   | `gtk
+   | `toggletoolbutton
+   | `toolbutton
+   | `toolitem
+   | `widget ]
+  Gtk.obj
+)
+"gButton.ml" 284 9833 9860 "gButton.ml" 284 9833 9863
+type(
+  ([> `bin
+    | `container
+    | `gtk
+    | `toggletoolbutton
+    | `toolbutton
+    | `toolitem
+    | `widget ]
+   as 'a)
+  Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 283 9795 9820 "gButton.ml" 283 9795 9823
+)
+"gButton.ml" 285 9864 9883 "gButton.ml" 285 9864 9913
+type(
+  'a Gtk.obj -> toggle_tool_button_signals
+)
+"gButton.ml" 285 9864 9914 "gButton.ml" 285 9864 9917
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 285 9864 9883 "gButton.ml" 285 9864 9917
+call(
+  tail
+)
+type(
+  toggle_tool_button_signals
+)
+type(
+  toggle_tool_button_signals
+)
+"gButton.ml" 286 9918 9940 "gButton.ml" 286 9918 9967
+type(
+  'a Gtk.obj -> bool -> unit
+)
+ident(
+  ext_ref GtkButton.ToggleToolButton.set_active
+)
+"gButton.ml" 286 9918 9968 "gButton.ml" 286 9918 9971
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 286 9918 9940 "gButton.ml" 286 9918 9971
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+type(
+  bool -> unit
+)
+"gButton.ml" 287 9972 9994 "gButton.ml" 287 9972 10021
+type(
+  'a Gtk.obj -> bool
+)
+ident(
+  ext_ref GtkButton.ToggleToolButton.get_active
+)
+"gButton.ml" 287 9972 10022 "gButton.ml" 287 9972 10025
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 287 9972 9994 "gButton.ml" 287 9972 10025
+type(
+  bool
+)
+type(
+  bool
+)
+"gButton.ml" 290 10031 10035 "gButton.ml" 290 10031 10060
+type(
+  (([> `toolbutton ] as 'a) Gobject.param list ->
+   (< as_tool_item : [> Gtk.tool_item ] Gobject.obj;
+      misc : < show : unit -> unit; .. >; set_active : 'c -> 'd;
+      set_expand : 'e -> 'f; set_homogeneous : 'g -> 'h; .. >
+    as 'b)) ->
+  'a Gobject.param list ->
+  ?active:'c ->
+  ?label:string ->
+  ?stock:GtkStock.id ->
+  ?use_underline:bool ->
+  ?homogeneous:'g ->
+  ?expand:'e -> ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> 'b
+)
+ident(
+  def toggle_tool_button_params "gButton.ml" 298 10199 10199 --
+)
+"gButton.ml" 290 10031 10061 "gButton.ml" 290 10031 10067
+type(
+  'a Gobject.param list -> 'b
+)
+ident(
+  def create "gButton.ml" 290 10031 10068 "gButton.ml" 296 10191 10197
+)
+"gButton.ml" 290 10031 10068 "gButton.ml" 290 10031 10070
+type(
+  'a Gobject.param list
+)
+ident(
+  def pl "gButton.ml" 290 10031 10071 "gButton.ml" 296 10191 10197
+)
+"gButton.ml" 290 10031 10072 "gButton.ml" 290 10031 10078
+type(
+  'c option
+)
+ident(
+  def active "gButton.ml" 291 10081 10083 "gButton.ml" 296 10191 10197
+)
+"gButton.ml" 291 10081 10083 "gButton.ml" 291 10081 10101
+type(
+  ('a Gobject.param list -> 'b) ->
+  'a Gobject.param list ->
+  ?label:string ->
+  ?stock:GtkStock.id ->
+  ?use_underline:bool ->
+  ?homogeneous:'g ->
+  ?expand:'e -> ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> 'b
+)
+ident(
+  int_ref tool_button_params "gButton.ml" 267 9304 9308 "gButton.ml" 267 9304 9326
+)
+"gButton.ml" 292 10102 10111 "gButton.ml" 292 10102 10113
+type(
+  'a Gobject.param list
+)
+ident(
+  def pl "gButton.ml" 293 10118 10124 "gButton.ml" 295 10182 10189
+)
+"gButton.ml" 293 10118 10128 "gButton.ml" 293 10118 10129
+type(
+  'b
+)
+"gButton.ml" 293 10118 10132 "gButton.ml" 293 10118 10138
+type(
+  'a Gobject.param list -> 'b
+)
+ident(
+  int_ref create "gButton.ml" 290 10031 10061 "gButton.ml" 290 10031 10067
+)
+"gButton.ml" 293 10118 10139 "gButton.ml" 293 10118 10141
+type(
+  'a Gobject.param list
+)
+ident(
+  int_ref pl "gButton.ml" 292 10102 10111 "gButton.ml" 292 10102 10113
+)
+"gButton.ml" 293 10118 10132 "gButton.ml" 293 10118 10141
+call(
+  stack
+)
+type(
+  'b
+)
+"gButton.ml" 294 10145 10151 "gButton.ml" 294 10145 10159
+type(
+  f:('c -> 'd) -> 'c option -> unit
+)
+ident(
+  ext_ref Gaux.may
+)
+"gButton.ml" 294 10145 10160 "gButton.ml" 294 10145 10161
+type(
+  'b
+)
+ident(
+  int_ref o "gButton.ml" 293 10118 10128 "gButton.ml" 293 10118 10129
+)
+"gButton.ml" 294 10145 10160 "gButton.ml" 294 10145 10172
+call(
+  stack
+)
+type(
+  'c -> 'd
+)
+"gButton.ml" 294 10145 10173 "gButton.ml" 294 10145 10179
+type(
+  'c option
+)
+ident(
+  int_ref active "gButton.ml" 290 10031 10072 "gButton.ml" 290 10031 10078
+)
+"gButton.ml" 294 10145 10151 "gButton.ml" 294 10145 10179
+call(
+  stack
+)
+type(
+  unit
+)
+"gButton.ml" 295 10182 10188 "gButton.ml" 295 10182 10189
+type(
+  'b
+)
+ident(
+  int_ref o "gButton.ml" 293 10118 10128 "gButton.ml" 293 10118 10129
+)
+"gButton.ml" 294 10145 10151 "gButton.ml" 295 10182 10189
+type(
+  'b
+)
+"gButton.ml" 293 10118 10124 "gButton.ml" 295 10182 10189
+type(
+  'b
+)
+"gButton.ml" 292 10102 10106 "gButton.ml" 295 10182 10190
+type(
+  'a Gobject.param list -> 'b
+)
+"gButton.ml" 296 10191 10195 "gButton.ml" 296 10191 10197
+type(
+  'a Gobject.param list
+)
+ident(
+  int_ref pl "gButton.ml" 290 10031 10068 "gButton.ml" 290 10031 10070
+)
+"gButton.ml" 291 10081 10083 "gButton.ml" 296 10191 10197
+call(
+  tail
+)
+type(
+  ?label:string ->
+  ?stock:GtkStock.id ->
+  ?use_underline:bool ->
+  ?homogeneous:'g ->
+  ?expand:'e -> ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> 'b
+)
+"gButton.ml" 298 10199 10203 "gButton.ml" 298 10199 10221
+type(
+  ?active:bool ->
+  ?label:string ->
+  ?stock:GtkStock.id ->
+  ?use_underline:bool ->
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> toggle_tool_button
+)
+ident(
+  def toggle_tool_button "gButton.ml" 303 10329 10329 --
+)
+"gButton.ml" 299 10224 10226 "gButton.ml" 299 10224 10251
+type(
+  (Gtk.toggle_tool_button Gobject.param list -> toggle_tool_button) ->
+  Gtk.toggle_tool_button Gobject.param list ->
+  ?active:bool ->
+  ?label:string ->
+  ?stock:GtkStock.id ->
+  ?use_underline:bool ->
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> toggle_tool_button
+)
+ident(
+  int_ref toggle_tool_button_params "gButton.ml" 290 10031 10035 "gButton.ml" 290 10031 10060
+)
+"gButton.ml" 300 10253 10262 "gButton.ml" 300 10253 10264
+type(
+  Gtk.toggle_tool_button Gobject.param list
+)
+ident(
+  def pl "gButton.ml" 300 10253 10268 "gButton.ml" 300 10253 10319
+)
+"gButton.ml" 300 10253 10268 "gButton.ml" 300 10253 10290
+type(
+  Gtk.toggle_tool_button Gtk.obj -> toggle_tool_button
+)
+"gButton.ml" 300 10253 10292 "gButton.ml" 300 10253 10315
+type(
+  Gtk.toggle_tool_button Gobject.param list -> Gtk.toggle_tool_button Gtk.obj
+)
+ident(
+  ext_ref GtkButton.ToggleToolButton.create
+)
+"gButton.ml" 300 10253 10316 "gButton.ml" 300 10253 10318
+type(
+  Gtk.toggle_tool_button Gobject.param list
+)
+ident(
+  int_ref pl "gButton.ml" 300 10253 10262 "gButton.ml" 300 10253 10264
+)
+"gButton.ml" 300 10253 10291 "gButton.ml" 300 10253 10319
+call(
+  stack
+)
+type(
+  Gtk.toggle_tool_button Gtk.obj
+)
+"gButton.ml" 300 10253 10268 "gButton.ml" 300 10253 10319
+call(
+  tail
+)
+type(
+  toggle_tool_button
+)
+"gButton.ml" 300 10253 10257 "gButton.ml" 300 10253 10320
+type(
+  Gtk.toggle_tool_button Gobject.param list -> toggle_tool_button
+)
+"gButton.ml" 301 10321 10325 "gButton.ml" 301 10321 10327
+type(
+  Gtk.toggle_tool_button Gobject.param list
+)
+"gButton.ml" 299 10224 10226 "gButton.ml" 301 10321 10327
+call(
+  stack
+)
+type(
+  ?active:bool ->
+  ?label:string ->
+  ?stock:GtkStock.id ->
+  ?use_underline:bool ->
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> toggle_tool_button
+)
+"gButton.ml" 303 10329 10353 "gButton.ml" 303 10329 10356
+type(
+  [> Gtk.radio_tool_button ] Gtk.obj
+)
+"gButton.ml" 304 10366 10395 "gButton.ml" 304 10366 10398
+type(
+  ([> Gtk.radio_tool_button ] as 'a) Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 303 10329 10353 "gButton.ml" 303 10329 10356
+)
+"gButton.ml" 305 10399 10422 "gButton.ml" 305 10399 10425
+type(
+  Gtk.radio_tool_button Gtk.obj
+)
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 305 10399 10416 "gButton.ml" 305 10399 10459
+type(
+  Gtk.radio_tool_button Gtk.obj option
+)
+type(
+  Gtk.radio_tool_button Gtk.obj option
+)
+"gButton.ml" 306 10460 10481 "gButton.ml" 306 10460 10484
+type(
+  ('a, Gtk.radio_tool_button Gtk.obj option) Gobject.property ->
+  'a Gtk.obj -> Gtk.radio_tool_button Gtk.obj option -> unit
+)
+ident(
+  ext_ref OgtkButtonProps.set
+)
+"gButton.ml" 306 10460 10485 "gButton.ml" 306 10460 10508
+type(
+  ('a, Gtk.radio_tool_button Gtk.obj option) Gobject.property
+)
+ident(
+  ext_ref GtkButton.RadioToolButton.P.group
+)
+"gButton.ml" 306 10460 10509 "gButton.ml" 306 10460 10512
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 306 10460 10481 "gButton.ml" 306 10460 10512
+call(
+  tail
+)
+type(
+  Gtk.radio_tool_button Gtk.obj option -> unit
+)
+type(
+  Gtk.radio_tool_button Gtk.obj option -> unit
+)
+"gButton.ml" 309 10518 10522 "gButton.ml" 309 10518 10539
+type(
+  ?group:< group : Gtk.radio_tool_button Gtk.obj option; .. > ->
+  ?active:bool ->
+  ?label:string ->
+  ?stock:GtkStock.id ->
+  ?use_underline:bool ->
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> radio_tool_button
+)
+ident(
+  def radio_tool_button "gButton.ml" 316 10741 10741 --
+)
+"gButton.ml" 309 10518 10541 "gButton.ml" 309 10518 10546
+type(
+  (< group : Gtk.radio_tool_button Gtk.obj option; .. > as 'a) option
+)
+ident(
+  def group "gButton.ml" 310 10549 10551 "gButton.ml" 314 10729 10739
+)
+"gButton.ml" 310 10549 10551 "gButton.ml" 310 10549 10576
+type(
+  (Gtk.radio_tool_button Gobject.param list -> radio_tool_button) ->
+  Gtk.radio_tool_button Gobject.param list ->
+  ?active:bool ->
+  ?label:string ->
+  ?stock:GtkStock.id ->
+  ?use_underline:bool ->
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> radio_tool_button
+)
+ident(
+  int_ref toggle_tool_button_params "gButton.ml" 290 10031 10035 "gButton.ml" 290 10031 10060
+)
+"gButton.ml" 311 10577 10586 "gButton.ml" 311 10577 10588
+type(
+  Gtk.radio_tool_button Gobject.param list
+)
+ident(
+  def pl "gButton.ml" 311 10577 10592 "gButton.ml" 311 10577 10641
+)
+"gButton.ml" 311 10577 10592 "gButton.ml" 311 10577 10613
+type(
+  Gtk.radio_tool_button Gtk.obj -> radio_tool_button
+)
+"gButton.ml" 311 10577 10615 "gButton.ml" 311 10577 10637
+type(
+  Gtk.radio_tool_button Gobject.param list -> Gtk.radio_tool_button Gtk.obj
+)
+ident(
+  ext_ref GtkButton.RadioToolButton.create
+)
+"gButton.ml" 311 10577 10638 "gButton.ml" 311 10577 10640
+type(
+  Gtk.radio_tool_button Gobject.param list
+)
+ident(
+  int_ref pl "gButton.ml" 311 10577 10586 "gButton.ml" 311 10577 10588
+)
+"gButton.ml" 311 10577 10614 "gButton.ml" 311 10577 10641
+call(
+  stack
+)
+type(
+  Gtk.radio_tool_button Gtk.obj
+)
+"gButton.ml" 311 10577 10592 "gButton.ml" 311 10577 10641
+call(
+  tail
+)
+type(
+  radio_tool_button
+)
+"gButton.ml" 311 10577 10581 "gButton.ml" 311 10577 10642
+type(
+  Gtk.radio_tool_button Gobject.param list -> radio_tool_button
+)
+"gButton.ml" 312 10643 10648 "gButton.ml" 312 10643 10656
+type(
+  (Gtk.radio_tool_button, Gtk.radio_tool_button Gtk.obj option)
+  Gobject.property ->
+  Gtk.radio_tool_button Gtk.obj option option ->
+  Gtk.radio_tool_button Gobject.param list ->
+  Gtk.radio_tool_button Gobject.param list
+)
+ident(
+  int_ref may_cons "gButton.ml" 206 7387 7391 "gButton.ml" 206 7387 7399
+)
+"gButton.ml" 312 10643 10657 "gButton.ml" 312 10643 10680
+type(
+  (Gtk.radio_tool_button, Gtk.radio_tool_button Gtk.obj option)
+  Gobject.property
+)
+ident(
+  ext_ref GtkButton.RadioToolButton.P.group
+)
+"gButton.ml" 313 10682 10690 "gButton.ml" 313 10682 10702
+type(
+  f:('a -> Gtk.radio_tool_button Gtk.obj option) ->
+  'a option -> Gtk.radio_tool_button Gtk.obj option option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gButton.ml" 313 10682 10708 "gButton.ml" 313 10682 10709
+type(
+  'a
+)
+ident(
+  def g "gButton.ml" 313 10682 10713 "gButton.ml" 313 10682 10720
+)
+"gButton.ml" 313 10682 10713 "gButton.ml" 313 10682 10714
+type(
+  'a
+)
+ident(
+  int_ref g "gButton.ml" 313 10682 10708 "gButton.ml" 313 10682 10709
+)
+"gButton.ml" 313 10682 10713 "gButton.ml" 313 10682 10720
+call(
+  tail
+)
+type(
+  Gtk.radio_tool_button Gtk.obj option
+)
+"gButton.ml" 313 10682 10703 "gButton.ml" 313 10682 10721
+type(
+  'a -> Gtk.radio_tool_button Gtk.obj option
+)
+"gButton.ml" 313 10682 10722 "gButton.ml" 313 10682 10727
+type(
+  'a option
+)
+ident(
+  int_ref group "gButton.ml" 309 10518 10541 "gButton.ml" 309 10518 10546
+)
+"gButton.ml" 313 10682 10689 "gButton.ml" 313 10682 10728
+call(
+  stack
+)
+type(
+  Gtk.radio_tool_button Gtk.obj option option
+)
+"gButton.ml" 314 10729 10736 "gButton.ml" 314 10729 10738
+type(
+  Gtk.radio_tool_button Gobject.param list
+)
+"gButton.ml" 312 10643 10647 "gButton.ml" 314 10729 10739
+call(
+  stack
+)
+type(
+  Gtk.radio_tool_button Gobject.param list
+)
+"gButton.ml" 310 10549 10551 "gButton.ml" 314 10729 10739
+call(
+  tail
+)
+type(
+  ?active:bool ->
+  ?label:string ->
+  ?stock:GtkStock.id ->
+  ?use_underline:bool ->
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> radio_tool_button
+)
+"gButton.ml" 316 10741 10764 "gButton.ml" 316 10741 10767
+type(
+  [> `bin
+   | `container
+   | `gtk
+   | `menutoolbutton
+   | `toolbutton
+   | `toolitem
+   | `widget ]
+  Gtk.obj
+)
+"gButton.ml" 317 10777 10799 "gButton.ml" 317 10777 10802
+type(
+  ([> `bin
+    | `container
+    | `gtk
+    | `menutoolbutton
+    | `toolbutton
+    | `toolitem
+    | `widget ]
+   as 'a)
+  Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 316 10741 10764 "gButton.ml" 316 10741 10767
+)
+"gButton.ml" 318 10803 10819 "gButton.ml" 318 10803 10822
+type(
+  ('a, Gtk.menu Gtk.obj) Gobject.property -> 'a Gtk.obj -> Gtk.menu Gtk.obj
+)
+ident(
+  ext_ref OgtkButtonProps.get
+)
+"gButton.ml" 318 10803 10823 "gButton.ml" 318 10803 10844
+type(
+  ('a, Gtk.menu Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkButton.MenuToolButton.P.menu
+)
+"gButton.ml" 318 10803 10845 "gButton.ml" 318 10803 10848
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 318 10803 10819 "gButton.ml" 318 10803 10848
+call(
+  tail
+)
+type(
+  Gtk.menu Gtk.obj
+)
+type(
+  Gtk.menu Gtk.obj
+)
+"gButton.ml" 319 10849 10869 "gButton.ml" 319 10849 10872
+type(
+  ('a, Gtk.menu Gtk.obj) Gobject.property ->
+  'a Gtk.obj -> Gtk.menu Gtk.obj -> unit
+)
+ident(
+  ext_ref OgtkButtonProps.set
+)
+"gButton.ml" 319 10849 10873 "gButton.ml" 319 10849 10894
+type(
+  ('a, Gtk.menu Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkButton.MenuToolButton.P.menu
+)
+"gButton.ml" 319 10849 10895 "gButton.ml" 319 10849 10898
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 319 10849 10869 "gButton.ml" 319 10849 10898
+call(
+  tail
+)
+type(
+  Gtk.menu Gtk.obj -> unit
+)
+type(
+  Gtk.menu Gtk.obj -> unit
+)
+"gButton.ml" 320 10899 10927 "gButton.ml" 320 10899 10928
+type(
+  GData.tooltips
+)
+ident(
+  def t "gButton.ml" 321 10949 10953 "gButton.ml" 321 10949 11003
+)
+"gButton.ml" 321 10949 10953 "gButton.ml" 321 10949 10985
+type(
+  'a Gtk.obj -> Gtk.tooltips Gtk.obj -> string -> string -> unit
+)
+ident(
+  ext_ref GtkButton.MenuToolButton.set_arrow_tooltip
+)
+"gButton.ml" 321 10949 10986 "gButton.ml" 321 10949 10989
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 321 10949 10990 "gButton.ml" 321 10949 10991
+type(
+  GData.tooltips
+)
+ident(
+  int_ref t "gButton.ml" 320 10899 10927 "gButton.ml" 320 10899 10928
+)
+"gButton.ml" 321 10949 10990 "gButton.ml" 321 10949 11003
+call(
+  stack
+)
+type(
+  Gtk.tooltips Gtk.obj
+)
+"gButton.ml" 321 10949 10953 "gButton.ml" 321 10949 11003
+call(
+  tail
+)
+type(
+  string -> string -> unit
+)
+"gButton.ml" 324 11009 11013 "gButton.ml" 324 11009 11029
+type(
+  ?menu:< as_menu : Gtk.menu Gtk.obj; .. > ->
+  ?label:string ->
+  ?stock:GtkStock.id ->
+  ?use_underline:bool ->
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> menu_tool_button
+)
+ident(
+  def menu_tool_button "gButton.ml" 331 11224 11224 --
+)
+"gButton.ml" 324 11009 11031 "gButton.ml" 324 11009 11035
+type(
+  (< as_menu : Gtk.menu Gtk.obj; .. > as 'a) option
+)
+ident(
+  def menu "gButton.ml" 325 11038 11040 "gButton.ml" 329 11208 11218
+)
+"gButton.ml" 325 11038 11040 "gButton.ml" 325 11038 11058
+type(
+  (Gtk.menu_tool_button Gobject.param list -> menu_tool_button) ->
+  Gtk.menu_tool_button Gobject.param list ->
+  ?label:string ->
+  ?stock:GtkStock.id ->
+  ?use_underline:bool ->
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> menu_tool_button
+)
+ident(
+  int_ref tool_button_params "gButton.ml" 267 9304 9308 "gButton.ml" 267 9304 9326
+)
+"gButton.ml" 326 11060 11069 "gButton.ml" 326 11060 11071
+type(
+  Gtk.menu_tool_button Gobject.param list
+)
+ident(
+  def pl "gButton.ml" 326 11060 11075 "gButton.ml" 326 11060 11122
+)
+"gButton.ml" 326 11060 11075 "gButton.ml" 326 11060 11095
+type(
+  Gtk.menu_tool_button Gtk.obj -> menu_tool_button
+)
+"gButton.ml" 326 11060 11097 "gButton.ml" 326 11060 11118
+type(
+  Gtk.menu_tool_button Gobject.param list -> Gtk.menu_tool_button Gtk.obj
+)
+ident(
+  ext_ref GtkButton.MenuToolButton.create
+)
+"gButton.ml" 326 11060 11119 "gButton.ml" 326 11060 11121
+type(
+  Gtk.menu_tool_button Gobject.param list
+)
+ident(
+  int_ref pl "gButton.ml" 326 11060 11069 "gButton.ml" 326 11060 11071
+)
+"gButton.ml" 326 11060 11096 "gButton.ml" 326 11060 11122
+call(
+  stack
+)
+type(
+  Gtk.menu_tool_button Gtk.obj
+)
+"gButton.ml" 326 11060 11075 "gButton.ml" 326 11060 11122
+call(
+  tail
+)
+type(
+  menu_tool_button
+)
+"gButton.ml" 326 11060 11064 "gButton.ml" 326 11060 11123
+type(
+  Gtk.menu_tool_button Gobject.param list -> menu_tool_button
+)
+"gButton.ml" 327 11124 11129 "gButton.ml" 327 11124 11137
+type(
+  (Gtk.menu_tool_button, Gtk.menu Gtk.obj) Gobject.property ->
+  Gtk.menu Gtk.obj option ->
+  Gtk.menu_tool_button Gobject.param list ->
+  Gtk.menu_tool_button Gobject.param list
+)
+ident(
+  int_ref may_cons "gButton.ml" 206 7387 7391 "gButton.ml" 206 7387 7399
+)
+"gButton.ml" 327 11124 11138 "gButton.ml" 327 11124 11159
+type(
+  (Gtk.menu_tool_button, Gtk.menu Gtk.obj) Gobject.property
+)
+ident(
+  ext_ref GtkButton.MenuToolButton.P.menu
+)
+"gButton.ml" 328 11160 11168 "gButton.ml" 328 11160 11180
+type(
+  f:('a -> Gtk.menu Gtk.obj) -> 'a option -> Gtk.menu Gtk.obj option
+)
+ident(
+  ext_ref Gaux.may_map
+)
+"gButton.ml" 328 11160 11186 "gButton.ml" 328 11160 11187
+type(
+  'a
+)
+ident(
+  def m "gButton.ml" 328 11160 11191 "gButton.ml" 328 11160 11200
+)
+"gButton.ml" 328 11160 11191 "gButton.ml" 328 11160 11192
+type(
+  'a
+)
+ident(
+  int_ref m "gButton.ml" 328 11160 11186 "gButton.ml" 328 11160 11187
+)
+"gButton.ml" 328 11160 11191 "gButton.ml" 328 11160 11200
+call(
+  tail
+)
+type(
+  Gtk.menu Gtk.obj
+)
+"gButton.ml" 328 11160 11181 "gButton.ml" 328 11160 11201
+type(
+  'a -> Gtk.menu Gtk.obj
+)
+"gButton.ml" 328 11160 11202 "gButton.ml" 328 11160 11206
+type(
+  'a option
+)
+ident(
+  int_ref menu "gButton.ml" 324 11009 11031 "gButton.ml" 324 11009 11035
+)
+"gButton.ml" 328 11160 11167 "gButton.ml" 328 11160 11207
+call(
+  stack
+)
+type(
+  Gtk.menu Gtk.obj option
+)
+"gButton.ml" 329 11208 11215 "gButton.ml" 329 11208 11217
+type(
+  Gtk.menu_tool_button Gobject.param list
+)
+"gButton.ml" 327 11124 11128 "gButton.ml" 329 11208 11218
+call(
+  stack
+)
+type(
+  Gtk.menu_tool_button Gobject.param list
+)
+"gButton.ml" 325 11038 11040 "gButton.ml" 329 11208 11218
+call(
+  tail
+)
+type(
+  ?label:string ->
+  ?stock:GtkStock.id ->
+  ?use_underline:bool ->
+  ?homogeneous:bool ->
+  ?expand:bool ->
+  ?packing:(tool_item_o -> unit) -> ?show:bool -> unit -> menu_tool_button
+)
+"gButton.ml" 331 11224 11242 "gButton.ml" 331 11224 11245
+type(
+  [> `bin | `button | `container | `gtk | `linkbutton | `widget ] Gtk.obj
+)
+"gButton.ml" 332 11255 11277 "gButton.ml" 332 11255 11280
+type(
+  ([> `bin | `button | `container | `gtk | `linkbutton | `widget ] as 'a)
+  Gtk.obj
+)
+ident(
+  int_ref obj "gButton.ml" 331 11224 11242 "gButton.ml" 331 11224 11245
+)
+"gButton.ml" 336 11314 11318 "gButton.ml" 336 11314 11329
+type(
+  ?label:string ->
+  string ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> link_button
+)
+ident(
+  def link_button "gButton.ml" 341 11453 11509 --
+)
+"gButton.ml" 336 11314 11331 "gButton.ml" 336 11314 11336
+type(
+  string option
+)
+ident(
+  def label "gButton.ml" 337 11339 11341 "gButton.ml" 341 11453 11509
+)
+"gButton.ml" 337 11339 11341 "gButton.ml" 337 11339 11352
+type(
+  (string -> link_button) ->
+  string ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> link_button
+)
+ident(
+  int_ref pack_return "gButton.ml" 59 2421 2425 "gButton.ml" 59 2421 2436
+)
+"gButton.ml" 338 11354 11363 "gButton.ml" 338 11354 11366
+type(
+  string
+)
+ident(
+  def uri "gButton.ml" 338 11354 11370 "gButton.ml" 341 11453 11508
+)
+"gButton.ml" 338 11354 11370 "gButton.ml" 338 11354 11385
+type(
+  _[> `bin | `button | `container | `gtk | `linkbutton | `widget ] Gtk.obj ->
+  link_button
+)
+"gButton.ml" 339 11387 11401 "gButton.ml" 339 11387 11406
+type(
+  string option
+)
+ident(
+  int_ref label "gButton.ml" 336 11314 11331 "gButton.ml" 336 11314 11336
+)
+"gButton.ml" 340 11413 11423 "gButton.ml" 340 11413 11427
+type(
+  string option
+)
+"gButton.ml" 340 11413 11431 "gButton.ml" 340 11413 11448
+type(
+  string ->
+  (_[> `bin | `button | `container | `gtk | `linkbutton | `widget ] as 'a)
+  Gtk.obj
+)
+ident(
+  ext_ref GtkButton.LinkButton.create
+)
+"gButton.ml" 340 11413 11449 "gButton.ml" 340 11413 11452
+type(
+  string
+)
+ident(
+  int_ref uri "gButton.ml" 338 11354 11363 "gButton.ml" 338 11354 11366
+)
+"gButton.ml" 340 11413 11431 "gButton.ml" 340 11413 11452
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 341 11453 11468 "gButton.ml" 341 11453 11469
+type(
+  string
+)
+ident(
+  def s "gButton.ml" 341 11453 11473 "gButton.ml" 341 11453 11507
+)
+"gButton.ml" 341 11453 11463 "gButton.ml" 341 11453 11469
+type(
+  string option
+)
+"gButton.ml" 341 11453 11473 "gButton.ml" 341 11453 11501
+type(
+  string -> string -> 'a Gtk.obj
+)
+ident(
+  ext_ref GtkButton.LinkButton.create_with_label
+)
+"gButton.ml" 341 11453 11502 "gButton.ml" 341 11453 11505
+type(
+  string
+)
+ident(
+  int_ref uri "gButton.ml" 338 11354 11363 "gButton.ml" 338 11354 11366
+)
+"gButton.ml" 341 11453 11506 "gButton.ml" 341 11453 11507
+type(
+  string
+)
+ident(
+  int_ref s "gButton.ml" 341 11453 11468 "gButton.ml" 341 11453 11469
+)
+"gButton.ml" 341 11453 11473 "gButton.ml" 341 11453 11507
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 339 11387 11394 "gButton.ml" 341 11453 11508
+type(
+  'a Gtk.obj
+)
+"gButton.ml" 338 11354 11370 "gButton.ml" 341 11453 11508
+call(
+  tail
+)
+type(
+  link_button
+)
+"gButton.ml" 338 11354 11358 "gButton.ml" 341 11453 11509
+type(
+  string -> link_button
+)
+"gButton.ml" 337 11339 11341 "gButton.ml" 341 11453 11509
+call(
+  tail
+)
+type(
+  string ->
+  ?packing:(GObj.widget -> unit) -> ?show:bool -> unit -> link_button
+)

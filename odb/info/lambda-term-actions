@@ -1,0 +1,4 @@
+deps=zed(>=1.1),str,ocamlbuild,lwt(>=2.3.0)
+tarball=lambda-term-1.1.tar.gz
+is_library=false
+is_program=true

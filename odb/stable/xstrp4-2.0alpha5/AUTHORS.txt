@@ -1,0 +1,6 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: f0ae3434b70b0f210c1dd9fb4321b7f6) *)
+Authors of xstrp4
+Gerd Stolpmann
+Hezekiah M. Carty
+(* OASIS_STOP *)

@@ -1,0 +1,36 @@
+# OASIS_START
+# DO NOT EDIT (digest: 896d04dffebc97b1b1be3c857b624792)
+# Ignore VCS directories, you can use the same kind of rule outside 
+# OASIS_START/STOP if you want to exclude directories that contains 
+# useless stuff for the build process
+<**/.svn>: -traverse
+<**/.svn>: not_hygienic
+".bzr": -traverse
+".bzr": not_hygienic
+".hg": -traverse
+".hg": not_hygienic
+".git": -traverse
+".git": not_hygienic
+"_darcs": -traverse
+"_darcs": not_hygienic
+# Library xstrp4
+# Library xstrp4_batteries_quote
+# Library xstrp4_here_quote
+# Library xstrp4_batteries_strings
+# Library xstrp4_here
+# Library xstrp4_strings
+"src": include
+<src/*.ml{,i}>: use_xstrp4
+<src/*.ml{,i}>: pkg_camlp4.quotations
+<src/*.ml{,i}>: pkg_camlp4.lib
+<src/*.ml{,i}>: pkg_camlp4.extend
+# OASIS_STOP
+"src/xstrp4.ml": syntax_camlp4o
+"src/xstrp4_compat.ml": syntax_camlp4o
+"src/xstrp4_here.ml": syntax_camlp4o
+"src/xstrp4_here_quote.ml": syntax_camlp4o
+"src/xstrp4_batteries.ml": syntax_camlp4o
+"src/xstrp4_batteries_quote.ml": syntax_camlp4o
+"src/xstrp4_batteries_strings.ml": syntax_camlp4o
+"src/xstrp4_strings.ml": syntax_camlp4o
+<test/*.ml>: syntax_camlp4o

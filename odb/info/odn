@@ -1,0 +1,4 @@
+deps=type-conv(>=3.0.4),ocamlbuild,camlp4
+tarball=ocaml-data-notation-0.0.8.tar.gz
+is_library=true
+is_program=false
