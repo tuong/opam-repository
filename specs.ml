@@ -1,7 +1,8 @@
-type 'a package = Name of 'a
+type ('a, 'b) package = Name of 'a | Name_as of 'a * 'b
 
 type ('a, 'b) dependencies = 
   | Dep of 'a
+  | Findlib of 'b
   | No_dep
 
 type ('a, 'b, 'c) command = 
@@ -53,29 +54,35 @@ module M
       [ Name "ocamlgraph-1.8.2", 
         Or_inclusive
           (M.cmmi (** default compilation *), 
-           [ Dep "findlib", add_cmd (make_ [ "install-findlib" ])
+           [ Findlib ["ocamlgraph"], add_cmd (make_ [ "install-findlib" ])
            ; Dep "lablgtk2" (* needed for "lablgnomecanvas" *), fun l -> l ])
           
       ; Name "ocamlgsl-0.6.0",
         Or_exclusive
           (Cmd (make [[]]),
-           [ Dep "findlib", add_cmd (make_ [ "install-findlib" ])
+           [ Findlib ["gsl"], add_cmd (make_ [ "install-findlib" ])
            ; No_dep, add_cmd (make [ ["install" ; sprintf "INSTALLDIR=%s" (Opam.lib "gsl")] ]) ])
           
       ; Name "ocurl", 
         Or_exclusive
+          (Cmd [],
+           [ Findlib ["curl"], (fun _ -> Cmd (["./configure --with-findlib"] :: M.i))
+           ; No_dep, fun _ -> M.dot_cmmi ])
+
+      ; Name "camomile-0.8.3", (* REMARK "make install-data" can output some error messages which are not critical (as long as it exits with 0). *)
+        Or_exclusive
           (M.dot_cmmi,
-           [ Dep "findlib", (fun l -> l)
+           [ Findlib ["camomile"], (fun l -> l)
            ; No_dep, fun l -> l ])
       ] in
 
     let _ = (* WITH at least dependency to findlib *)
-      [ Name "ocamlnet-3.5.1",
+      [ Name_as ("ocamlnet-3.5.1", ["equeue"; "netcamlbox"; "netcgi2"; "netcgi2-plex"; "netclient"; "netgssapi"; "netmulticore"; "netplex"; "netshm"; "netstring"; "netsys"; "pop"; "rpc"; "rpc-auth-local"; "rpc-generator"; "shell"; "smtp"]),
         (* TO_CONTINUE *)
         let mk = make_ [ "all" ; "opt" ; "install" ] in
         Or_inclusive
           (Cmd [["./configure" ; "-disable-pcre"]],
-           [ Dep "pcre", (function Cmd [[c; _(*disable-pcre*)]] -> add_cmd mk (Cmd [[c]]) | _ -> assert false)
+           [ Dep "pcre", (function Cmd [[c; "-disable-pcre"]] -> add_cmd mk (Cmd [[c]]) | _ -> assert false)
            ; No_dep, add_cmd mk ])
       ] in
 
@@ -93,7 +100,8 @@ module M
       ] in
 
     let _ = (* WITH at least dependency to findlib *)
-      let name ?remove n cmd = Name n, cmd, remove in
+      let name ?(deps = []) ?remove n cmd = Name n, cmd, deps, remove in
+      let name_as ?(deps = []) ?remove (n, l) cmd = Name_as (n, l), cmd, deps, remove in
       [ name "calendar-2.03.1" M.dot_cmmi
       ; name "ocamlify-0.0.1" (* no META : generate in 'bin' only *) oasis
       ; name "lacaml-7.0.0" oasis
@@ -106,9 +114,12 @@ module M
       ; name "xmlm-1.1.0" oasis
       ; name "pcre-ocaml-6.2.5" M.mmi
       ; name "ANSITerminal-0.6" oasis
+      ; name_as ("lablgtk-2.14.2-oasis8", ["lablgtk2"]) oasis
+      ; Name_as ("cairo-0.4.1", ["cairo2"]), oasis, [Dep "lablgtk2"], None
+      ; Name_as ("archimedes-0.4.13", [ "archimedes" ; "archimedes.cairo" ; "archimedes.graphics" ; "archimedes.top" ]), oasis, [Dep "cairo2"], None
       ] in
 
-    let _ = (* WITH at least one dependency *)
+    let _ = (* WITH at least one dependency (which is not findlib) *)
       [ Name "cairo-ocaml-1.2.0", 
         Or_exclusive
           (add_cmd
@@ -118,7 +129,7 @@ module M
            [ Dep "lablgtk2", (fun l -> l)
            ; No_dep, fun _ -> 
              (* add the '--without-gtk' option *)
-             failwith "pkg-config --libs pangocairo | tr ' ' '\n' | grep -v pthread | tr '\n' ' '" (* INCFLAGS=... *) ]) 
+             failwith "pkg-config --libs pangocairo | tr ' ' '\n' | grep -v pthread | tr '\n' ' '" (* INCFLAGS=... *) ])       
       ] in
 
     ()
