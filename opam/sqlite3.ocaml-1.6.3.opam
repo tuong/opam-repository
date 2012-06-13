@@ -1,0 +1,12 @@
+opam-version: "1"
+package "sqlite3" {
+  version: "ocaml-1.6.3"
+  maintainer: "<none>"
+  substs: []
+  build: [["./configure" "--prefix" "%{lib}%"] ["make" "all"] ["make" "install"]]
+  depends: ["findlib"]
+  depopts: []
+  conflicts: []
+  libraries: []
+  syntax: []
+}

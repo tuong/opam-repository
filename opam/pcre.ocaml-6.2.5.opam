@@ -1,0 +1,12 @@
+opam-version: "1"
+package "pcre" {
+  version: "ocaml-6.2.5"
+  maintainer: "<none>"
+  substs: []
+  build: [["make"] ["make" "install"]]
+  depends: ["findlib"]
+  depopts: []
+  conflicts: []
+  libraries: []
+  syntax: []
+}

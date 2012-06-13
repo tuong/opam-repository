@@ -1,0 +1,12 @@
+opam-version: "1"
+package "ocaml" {
+  version: "glpk-0.1.6"
+  maintainer: "<none>"
+  substs: []
+  build: [["make"] ["make" "install"]]
+  depends: ["findlib"]
+  depopts: []
+  conflicts: []
+  libraries: []
+  syntax: []
+}

@@ -1,0 +1,12 @@
+opam-version: "1"
+package "cairo" {
+  version: "0.4.1"
+  maintainer: "<none>"
+  substs: []
+  build: [["ocaml" "setup.ml" "-configure" "--prefix" "%{lib}%"] ["ocaml" "setup.ml" "-build"] ["ocaml" "setup.ml" "-install"]]
+  depends: ["lablgtk2" "findlib"]
+  depopts: []
+  conflicts: []
+  libraries: []
+  syntax: []
+}
