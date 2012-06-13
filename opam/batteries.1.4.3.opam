@@ -4,7 +4,7 @@ package "batteries" {
   maintainer: "<none>"
   substs: []
   build: [["ocaml" "setup.ml" "-configure" "--prefix" "%{lib}%"] ["ocaml" "setup.ml" "-build"] ["ocaml" "setup.ml" "-install"]]
-  depends: ["camomile" "findlib"]
+  depends: ["camomile" "ocamlfind"]
   depopts: []
   conflicts: []
   libraries: []

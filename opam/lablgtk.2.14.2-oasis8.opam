@@ -4,7 +4,7 @@ package "lablgtk" {
   maintainer: "<none>"
   substs: []
   build: [["ocaml" "setup.ml" "-configure" "--prefix" "%{lib}%"] ["ocaml" "setup.ml" "-build"] ["ocaml" "setup.ml" "-install"]]
-  depends: ["findlib"]
+  depends: ["ocamlfind"]
   depopts: []
   conflicts: []
   libraries: []

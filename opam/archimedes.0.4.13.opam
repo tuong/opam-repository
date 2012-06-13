@@ -4,7 +4,7 @@ package "archimedes" {
   maintainer: "<none>"
   substs: []
   build: [["ocaml" "setup.ml" "-configure" "--prefix" "%{lib}%"] ["ocaml" "setup.ml" "-build"] ["ocaml" "setup.ml" "-install"]]
-  depends: ["cairo" "findlib"]
+  depends: ["cairo" "ocamlfind"]
   depopts: []
   conflicts: []
   libraries: []

@@ -4,7 +4,7 @@ package "extlib" {
   maintainer: "<none>"
   substs: []
   build: [["ocaml" "install.ml" "-b" "-n" "-doc"]]
-  depends: ["findlib"]
+  depends: ["ocamlfind"]
   depopts: []
   conflicts: []
   libraries: []

@@ -4,7 +4,7 @@ package "cairo" {
   maintainer: "<none>"
   substs: []
   build: [["ocaml" "setup.ml" "-configure" "--prefix" "%{lib}%"] ["ocaml" "setup.ml" "-build"] ["ocaml" "setup.ml" "-install"]]
-  depends: ["lablgtk2" "findlib"]
+  depends: ["lablgtk2" "ocamlfind"]
   depopts: []
   conflicts: []
   libraries: []
