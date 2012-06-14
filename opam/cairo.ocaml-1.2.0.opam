@@ -4,7 +4,7 @@ package "cairo" {
   maintainer: "<none>"
   substs: []
   build: [["aclocal" "-I" "support"] ["autoconf"] ["./configure"] ["make"] ["make" "install"]]
-  depends: ["lablgtk2"]
+  depends: ["lablgtk"]
   depopts: []
   conflicts: []
   libraries: []
