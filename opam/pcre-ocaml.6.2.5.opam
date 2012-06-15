@@ -1,6 +1,6 @@
 opam-version: "1"
-package "pcre" {
-  version: "ocaml-6.2.5"
+package "pcre-ocaml" {
+  version: "6.2.5"
   maintainer: "<none>"
   substs: []
   build: [["make"] ["make" "install"]]
