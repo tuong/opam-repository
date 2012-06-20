@@ -6,13 +6,13 @@ package "ocamlfind" {
   build:      [
     [ "./configure"
         "-bindir"  "%{bin}%"
-        "-sitelib" "%{lib}%"
-        "-mandir"  "%{doc}%"
-        "-config"  "%{lib}%/findlib.conf"
+        "-sitelib" "%{lib}%/ocamlfind"
+        "-mandir"  "%{lib}%/ocamlfind/doc"
+        "-config"  "%{lib}%/ocamlfind/findlib.conf"
         "-no-topfind" ]
     [ "make" "all"]
     [ "make" "opt" ]
     [ "make" "install" ]
-    [ "sed" "-i" "$ a\ldconf=\"ignore\"" "%{lib}%/findlib.conf" ]
+    [ "sed" "-i" "$ a\ldconf=\"ignore\"" "%{lib}%/ocamlfind/findlib.conf" ]
   ]
 }
