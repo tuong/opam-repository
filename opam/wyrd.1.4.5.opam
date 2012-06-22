@@ -3,7 +3,7 @@ package "wyrd" {
   version: "1.4.5"
   maintainer: "<none>"
   substs: []
-  build: [["./configure" "--prefix" "%{lib}%"] ["make"] ["make" "install"]]
+  build: [["./configure" "--prefix" "%{prefix}%"] ["make"] ["make" "install"]]
   depends: []
   depopts: []
   conflicts: []
