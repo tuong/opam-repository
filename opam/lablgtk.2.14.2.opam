@@ -4,6 +4,7 @@ package "lablgtk" {
   maintainer: "<none>"
   substs: []
   build: [["./configure" "--prefix" "%{prefix}%"] ["make" "world"] ["make" "install"]]
+  remove: []
   depends: []
   depopts: []
   conflicts: []

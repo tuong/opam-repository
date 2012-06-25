@@ -4,6 +4,7 @@ package "res" {
   maintainer: "<none>"
   substs: []
   build: [["make"] ["make" "install"]]
+  remove: [["ocamlfind" "remove" "res"]]
   depends: ["ocamlfind"]
   depopts: []
   conflicts: []

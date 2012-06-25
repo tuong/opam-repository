@@ -4,6 +4,7 @@ package "pa_monad_custom" {
   maintainer: "<none>"
   substs: []
   build: [["ocaml" "setup.ml" "-configure" "--prefix" "%{prefix}%"] ["ocaml" "setup.ml" "-build"] ["ocaml" "setup.ml" "-install"]]
+  remove: [["ocamlfind" "remove" "monad-custom"]]
   depends: ["ocamlfind"]
   depopts: []
   conflicts: []

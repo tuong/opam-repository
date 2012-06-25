@@ -4,6 +4,7 @@ package "root1d" {
   maintainer: "<none>"
   substs: []
   build: [["ocaml" "setup.ml" "-configure" "--prefix" "%{prefix}%"] ["ocaml" "setup.ml" "-build"] ["ocaml" "setup.ml" "-install"]]
+  remove: [["ocamlfind" "remove" "root1d"]]
   depends: ["ocamlfind"]
   depopts: []
   conflicts: []

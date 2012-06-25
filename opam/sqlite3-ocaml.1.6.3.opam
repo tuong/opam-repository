@@ -4,6 +4,7 @@ package "sqlite3-ocaml" {
   maintainer: "<none>"
   substs: []
   build: [["./configure" "--prefix" "%{prefix}%"] ["make" "all"] ["make" "install"]]
+  remove: [["make" "remove"]]
   depends: ["ocamlfind"]
   depopts: []
   conflicts: []

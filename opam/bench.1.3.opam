@@ -4,6 +4,7 @@ package "bench" {
   maintainer: "<none>"
   substs: []
   build: [["ocaml" "setup.ml" "-configure" "--prefix" "%{prefix}%"] ["ocaml" "setup.ml" "-build"] ["ocaml" "setup.ml" "-install"]]
+  remove: [["ocamlfind" "remove" "bench"]]
   depends: ["ocamlfind"]
   depopts: []
   conflicts: []
