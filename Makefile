@@ -4,9 +4,11 @@ all: index index-archive full
 	@
 
 index:
+	rm urls.txt
 	git ls-tree -r HEAD | awk '{print "0o"substr($$1,length($$1)-3,4) " " $$4}' > urls.txt
 
 index-archive:
+	rm index.tar.gz
 	tar cz opam descr url > index.tar.gz
 
 full:
