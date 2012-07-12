@@ -17,7 +17,7 @@ full:
 PUBLISH_DIR=../mirage.github.com/opam/
 publish: index index-archive
 	mkdir -p $(PUBLISH_DIR)
-	rsync -avz --delete urls.txt index.tar.gz archives descr opam url files $(PUBLISH_DIR)
+	rsync -avz --delete urls.txt index.tar.gz compilers archives descr opam url files $(PUBLISH_DIR)
 
 clean:
 	rm -rf archives tmp
