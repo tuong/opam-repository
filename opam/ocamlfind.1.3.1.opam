@@ -13,6 +13,5 @@ package "ocamlfind" {
     [ "make" "all"]
     [ "make" "opt" ]
     [ "make" "install" ]
-    [ "sed" "-i" "$ a\ldconf=\"ignore\"" "%{lib}%/ocamlfind/findlib.conf" ]
   ]
 }
