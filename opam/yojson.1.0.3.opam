@@ -1,11 +1,11 @@
 opam-version: "1"
-package "typehashlib" {
-  version: "108.00"
+package "yojson" {
+  version: "1.0.3"
   maintainer: "<none>"
   substs: []
   build: [["make"] ["make" "install"]]
-  remove: [["ocamlfind" "remove" "typehashlib"]]
-  depends: ["type_conv" "ocamlfind"]
+  remove: [["ocamlfind" "remove" "yojson"]]
+  depends: ["biniou" "easy-format" "cppo" "ocamlfind"]
   depopts: []
   conflicts: []
   libraries: []

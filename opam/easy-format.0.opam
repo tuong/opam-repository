@@ -1,10 +1,10 @@
 opam-version: "1"
-package "ounit" {
-  version: "1.1.0"
+package "easy-format" {
+  version: "0"
   maintainer: "<none>"
   substs: []
-  build: [["make" "build"] ["make" "install"]]
-  remove: [["ocamlfind" "remove" "oUnit"]]
+  build: [["make"] ["make" "install"]]
+  remove: [["ocamlfind" "remove" "easy-format"]]
   depends: ["ocamlfind"]
   depopts: []
   conflicts: []
