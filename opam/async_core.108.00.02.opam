@@ -1,6 +1,6 @@
 opam-version: "1"
 package "async_core" {
-  version: "108.00.01"
+  version: "108.00.02"
   maintainer: "<none>"
   substs: []
   build: [["make"] ["make" "install"]]
