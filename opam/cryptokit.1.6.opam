@@ -3,6 +3,7 @@ package "cryptokit" {
   version: "1.6"
   maintainer: "<none>"
   substs: []
+  build-env: []
   build: [["make"] ["make" "install"]]
   remove: [["ocamlfind" "remove" "cryptokit"]]
   depends: ["ocamlfind"]

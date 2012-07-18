@@ -3,6 +3,7 @@ package "extlib" {
   version: "1.5.2"
   maintainer: "<none>"
   substs: []
+  build-env: []
   build: [["ocaml" "install.ml" "-b" "-n" "-doc"]]
   remove: [["ocamlfind" "remove" "extlib"]]
   depends: ["ocamlfind"]

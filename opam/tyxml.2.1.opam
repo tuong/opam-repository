@@ -3,6 +3,7 @@ package "tyxml" {
   version: "2.1"
   maintainer: "<none>"
   substs: []
+  build-env: []
   build: [["make"] ["make" "install"]]
   remove: [["ocamlfind" "remove" "tyxml"]]
   depends: ["ocamlnet" "ocamlfind"]
