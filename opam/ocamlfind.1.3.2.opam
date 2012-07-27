@@ -7,11 +7,10 @@ package "ocamlfind" {
   build:      [
     [ "./configure"
         "-bindir"  "%{bin}%"
-        "-sitelib" "%{lib}%"
-        "-mandir"  "%{doc}%"
-        "-config"  "%{lib}%/findlib.conf"
-        "-no-topfind"
-    ]
+        "-sitelib" "%{lib}%/ocamlfind"
+        "-mandir"  "%{doc}%/ocamlfind"
+        "-config"  "%{lib}%/ocamlfind/findlib.conf"
+        "-no-topfind" ]
     [ "make" "all"]
     [ "make" "opt" ]
     [ "make" "install" ]
