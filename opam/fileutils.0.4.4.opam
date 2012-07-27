@@ -1,6 +1,6 @@
 opam-version: "1"
 package "fileutils" {
-  version: "0.4.1"
+  version: "0.4.4"
   maintainer: "<none>"
   substs: []
   build-env: []
