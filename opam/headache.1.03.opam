@@ -1,10 +1,10 @@
 opam-version: "1"
-package "ocp-build" {
-  version: "1.0.1"
+package "headache" {
+  version: "1.03"
   maintainer: "<none>"
   substs: []
   build-env: []
-  build: [["make"]]
+  build: [["mkdir" "-p" "%{bin}%"] ["./configure" "--bindir" "%{bin}%"] ["make"] ["make" "install"]]
   remove: []
   depends: []
   depopts: []

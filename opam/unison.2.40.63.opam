@@ -1,0 +1,14 @@
+opam-version: "1"
+package "unison" {
+  version: "2.40.63"
+  maintainer: "<none>"
+  substs: []
+  build-env: []
+  build: [["sed" "-i" "-e" "288s#+lablgtk#$(LABLGTKLIB)#" "-e" "295s#+lablgtk2#$(LABLGTK2LIB)#" "Makefile.OCaml"] ["make" "OCAMLLIBDIR=%{lib}%/ocamlfind"] ["make" "install" "HOME=%{prefix}%"]]
+  remove: []
+  depends: ["lablgtk" {= "2.14.2-oasis8"}]
+  depopts: []
+  conflicts: []
+  libraries: []
+  syntax: []
+}

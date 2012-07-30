@@ -1,0 +1,14 @@
+opam-version: "1"
+package "tyxml" {
+  version: "2.1+ocamlduce"
+  maintainer: "<none>"
+  substs: []
+  build-env: []
+  build: [["sed" "-i" "-e" "s#-thread#-thread -package ocamlduce#" "lib/Makefile"] ["make"] ["make" "install"]]
+  remove: [["ocamlfind" "remove" "tyxml"]]
+  depends: ["ocamlduce" "ocamlnet" "ocamlfind"]
+  depopts: []
+  conflicts: []
+  libraries: []
+  syntax: []
+}

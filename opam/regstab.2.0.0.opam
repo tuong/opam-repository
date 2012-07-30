@@ -1,0 +1,14 @@
+opam-version: "1"
+package "regstab" {
+  version: "2.0.0"
+  maintainer: "<none>"
+  substs: []
+  build-env: []
+  build: [["sed" "-i" "-e" "50s#\"man\"#\"lib\"/pkgbase/\"man\"#" "-e" "51s#\"man\"#\"lib\"/pkgbase/\"man\"#" "-e" "52s#\"man\"#\"lib\"/pkgbase/\"man\"#" "-e" "53s#\"man\"#\"lib\"/pkgbase/\"man\"#" "-e" "54s#\"man\"#\"lib\"/pkgbase/\"man\"#" "-e" "55s#\"man\"#\"lib\"/pkgbase/\"man\"#" "-e" "58s#\"share\"#\"lib\"/pkgbase/\"share\"#" "myocamlbuild.ml"] ["make" "all"] ["make" "opt"] ["make" "install" "PREFIX=%{prefix}%"]]
+  remove: []
+  depends: []
+  depopts: []
+  conflicts: []
+  libraries: []
+  syntax: []
+}
