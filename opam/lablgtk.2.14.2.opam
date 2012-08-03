@@ -4,7 +4,7 @@ package "lablgtk" {
   maintainer: "<none>"
   substs: []
   build-env: []
-  build: [["./configure" "--prefix" "%{prefix}%"] ["make" "world"] ["make" "install"]]
+  build: [["./configure" "--with-libdir=%{lib}%" "--prefix" "%{prefix}%" "--sbindir=%{lib}%/lablgtk/sbin" "--libexecdir=%{lib}%/lablgtk/libexec" "--sysconfdir=%{lib}%/lablgtk/etc" "--sharedstatedir=%{lib}%/lablgtk/com" "--localstatedir=%{lib}%/lablgtk/var" "--libdir=%{lib}%/lablgtk/lib" "--includedir=%{lib}%/lablgtk/include" "--datarootdir=%{lib}%/lablgtk/share"] ["make" "world"] ["make" "install"]]
   remove: []
   depends: []
   depopts: []
