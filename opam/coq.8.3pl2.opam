@@ -1,0 +1,14 @@
+opam-version: "1"
+package "coq" {
+  version: "8.3pl2"
+  maintainer: "<none>"
+  substs: []
+  build-env: []
+  build: [["sed" "-i" "-e" "630s#\\\\\"$LABLGTKLIB\\\\\"#'$LABLGTKLIB'#" "configure"] ["sed" "-i" "-e" "291s#) -o#) $(COQIDEINCLUDES) -o#" "-e" "296s#) -o#) $(COQIDEINCLUDES) -o#" "Makefile.build"] ["./configure" "-camlp5dir" "%{lib}%/camlp5" "-lablgtkdir" "%{lib}%/ocamlfind/lablgtk2" "--prefix" "%{prefix}%"] ["make" "world" "VERBOSE=1"] ["make" "install"]]
+  remove: []
+  depends: ["lablgtk" {= "2.14.2-oasis8"} "camlp5" {<= "6.04"}]
+  depopts: []
+  conflicts: []
+  libraries: []
+  syntax: []
+}
