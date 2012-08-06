@@ -6,7 +6,7 @@ package "ocamldap" {
   build-env: []
   build: [["make" "all"] ["make" "opt"] ["make" "install"]]
   remove: []
-  depends: ["ocaml-ssl" "ocamlnet" "ocamlfind"]
+  depends: ["ssl" "ocamlnet" "ocamlfind"]
   depopts: []
   conflicts: []
   libraries: []

@@ -6,7 +6,7 @@ package "lwt" {
   build-env: []
   build: [["./configure" "--prefix" "%{prefix}%" "--enable-all"] ["ocaml" "str.cma" "opam.ml" "sed" "_add_expr_" "681" "in" "in let compiler_libs = [\"%{lib}%/compiler-libs\"] in" "myocamlbuild.ml"] ["make"] ["make" "install"]]
   remove: [["ocamlfind" "remove" "lwt"]]
-  depends: ["compiler-libs" "ocaml-text" "ocaml-ssl" "react" "ocamlfind"]
+  depends: ["compiler-libs" "ocaml-text" "ssl" "react" "ocamlfind"]
   depopts: []
   conflicts: []
   libraries: []
