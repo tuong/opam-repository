@@ -4,7 +4,7 @@ package "annexlib" {
   maintainer: "<none>"
   substs: []
   build-env: []
-  build: [["./configure" "--prefix" "%{prefix}%"] ["make"] ["make" "install"]]
+  build: [["./configure" "--prefix" "%{prefix}%"] ["make" "all"] ["make" "opt"] ["make" "install"]]
   remove: [["ocamlfind" "remove" "annexlib"]]
   depends: ["pcre-ocaml" "ocamlfind"]
   depopts: []
