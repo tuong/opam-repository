@@ -4,9 +4,9 @@ package "csv" {
   maintainer: "<none>"
   substs: []
   build-env: []
-  build: [["ocaml" "setup.ml" "-configure" "--prefix" "%{prefix}%"] ["ocaml" "setup.ml" "-build"] ["ocaml" "setup.ml" "-install"]]
+  build: [["oasis" "setup"] ["ocaml" "setup.ml" "-configure" "--prefix" "%{prefix}%"] ["ocaml" "setup.ml" "-build"] ["ocaml" "setup.ml" "-install"]]
   remove: [["ocamlfind" "remove" "csv"]]
-  depends: ["ocamlfind"]
+  depends: ["oasis" {= "0.3.0"} "ocamlfind"]
   depopts: []
   conflicts: []
   libraries: []
