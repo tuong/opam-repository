@@ -1,0 +1,14 @@
+opam-version: "1"
+package "macaque" {
+  version: "0"
+  maintainer: "<none>"
+  substs: []
+  build-env: []
+  build: [["make" "-C" "src"] ["make" "-C" "src" "install"]]
+  remove: [["ocamlfind" "remove" "macaque"]]
+  depends: ["pgocaml" "ocamlfind"]
+  depopts: []
+  conflicts: []
+  libraries: []
+  syntax: []
+}

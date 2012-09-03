@@ -1,0 +1,14 @@
+opam-version: "1"
+package "weberizer" {
+  version: "0.6.1"
+  maintainer: "<none>"
+  substs: []
+  build-env: []
+  build: [["ocaml" "setup.ml" "-configure" "--prefix" "%{prefix}%"] ["ocaml" "setup.ml" "-build"] ["ocaml" "setup.ml" "-install"]]
+  remove: [["ocamlfind" "remove" "weberizer"]]
+  depends: ["ocamlnet" "ocamlfind"]
+  depopts: []
+  conflicts: []
+  libraries: []
+  syntax: []
+}
