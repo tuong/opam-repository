@@ -6,7 +6,7 @@ package "ocaml-expect" {
   build-env: []
   build: [["ocaml" "setup.ml" "-configure" "--prefix" "%{prefix}%"] ["ocaml" "setup.ml" "-build"] ["ocaml" "setup.ml" "-install"]]
   remove: [["ocamlfind" "remove" "expect"]]
-  depends: ["pcre-ocaml" "extlib" "ounit" "ocamlfind"]
+  depends: ["pcre-ocaml" "ounit" "extlib" {= "1.5.2"} "ocamlfind"]
   depopts: []
   conflicts: []
   libraries: []

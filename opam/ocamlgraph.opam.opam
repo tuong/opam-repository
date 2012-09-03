@@ -1,0 +1,14 @@
+opam-version: "1"
+package "ocamlgraph" {
+  version: "opam"
+  maintainer: "<none>"
+  substs: []
+  build-env: []
+  build: [["ocp-build" "-init" "-scan"]]
+  remove: []
+  depends: ["ocp-build"]
+  depopts: []
+  conflicts: []
+  libraries: []
+  syntax: []
+}

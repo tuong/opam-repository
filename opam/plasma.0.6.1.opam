@@ -6,7 +6,7 @@ package "plasma" {
   build-env: []
   build: [["./configure" "-bindir" "%{bin}%" "-sharedir" "%{lib}%/plasma/share"] ["omake"] ["omake" "install"]]
   remove: []
-  depends: ["xstrp4" "ocamlgraph" "omake" "ocamlnet" {= "3.5.1+all"} "ocamlfind"]
+  depends: ["xstrp4" "omake" "ocamlgraph" {= "1.8.2"} "ocamlnet" {= "3.5.1+all"} "ocamlfind"]
   depopts: []
   conflicts: []
   libraries: []

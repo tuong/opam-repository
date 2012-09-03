@@ -6,7 +6,7 @@ package "alt-ergo" {
   build-env: []
   build: [["./configure" "-prefix" "%{prefix}%"] ["make"] ["make" "install" "MANDIR=%{doc}%/alt-ergo"]]
   remove: []
-  depends: ["ocamlgraph"]
+  depends: ["ocamlgraph" {= "1.8.2"}]
   depopts: []
   conflicts: []
   libraries: []
