@@ -1,0 +1,10 @@
+begin library "re_perl"
+   sort = true
+   files = [
+     "lib/cset.ml"
+     "lib/automata.ml"
+     "lib/re.ml"
+     "lib/re_perl.ml"
+     "lib/pcre.ml"
+   ]
+end

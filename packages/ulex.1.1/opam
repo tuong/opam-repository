@@ -1,0 +1,11 @@
+opam-version: "1"
+maintainer: "contact@ocamlpro.com"
+build: [
+  ["make"]
+  ["make" "all.opt"]
+  ["make" "install"]
+]
+remove: [
+  ["ocamlfind" "remove" "ulex"]
+]
+depends: ["ocamlfind"]

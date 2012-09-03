@@ -1,0 +1,4 @@
+lib: []
+bin: ["_build/src/weberizer_compile"]
+toplevel: []
+misc: []

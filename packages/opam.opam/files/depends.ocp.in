@@ -1,0 +1,32 @@
+
+begin library "extlib"
+  dirname  += "%{lib}%/extlib"
+  generated = true
+end
+
+begin library "re_perl"
+  dirname  += "%{lib}%/re"
+  generated = true
+end
+
+begin library "arg"
+  dirname  += "%{lib}%/ocaml-arg"
+  generated = true
+end
+
+begin library "cudf"
+  dirname  += "%{lib}%/cudf"
+  generated = true
+  requires = ["extlib"]
+end
+
+begin library "graph"
+  dirname  += "%{lib}%/ocamlgraph"
+  generated = true
+end
+
+begin library "dose"
+  dirname  += "%{lib}%/dose"
+  generated = true
+  requires = ["extlib" "cudf" "unix" "re_perl"]
+end

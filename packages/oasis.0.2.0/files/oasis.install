@@ -1,0 +1,4 @@
+lib: []
+bin: ["_build/src/cli/oasis"]
+toplevel: []
+misc: []

@@ -1,0 +1,7 @@
+opam-version: "1"
+maintainer: "contact@ocamlpro.com"
+substs: ["depends.ocp"]
+build: [
+  ["ocp-build" "-init" "-scan"]
+]
+depends: ["ocaml-arg" {= "0.1"} "re" {= "0.9dev"} "extlib" {= "opam"} "cudf" {= "0.6.2"} "ocamlgraph" {= "opam"} "dose" {= "2.9.15"} "ocp-build"]

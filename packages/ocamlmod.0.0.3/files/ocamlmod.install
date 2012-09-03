@@ -1,0 +1,4 @@
+lib: []
+bin: ["_build/src/ocamlmod.byte" {"ocamlmod"}]
+toplevel: []
+misc: []

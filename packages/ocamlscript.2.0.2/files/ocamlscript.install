@@ -1,0 +1,4 @@
+lib: []
+bin: ["ocamlscript"]
+toplevel: []
+misc: []

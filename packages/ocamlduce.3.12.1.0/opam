@@ -1,0 +1,14 @@
+opam-version: "1"
+maintainer: "contact@ocamlpro.com"
+build: [
+  ["mkdir" "ocaml"]
+  ["cp" "-R" "%{lib}%/OCaml/asmcomp" "%{lib}%/OCaml/asmrun" "%{lib}%/OCaml/boot" "%{lib}%/OCaml/build" "%{lib}%/OCaml/bytecomp" "%{lib}%/OCaml/byterun" "%{lib}%/OCaml/camlp4" "%{lib}%/OCaml/Changes" "%{lib}%/OCaml/config" "%{lib}%/OCaml/configure" "%{lib}%/OCaml/.cvsignore" "%{lib}%/OCaml/debugger" "%{lib}%/OCaml/.depend" "%{lib}%/OCaml/driver" "%{lib}%/OCaml/emacs" "%{lib}%/OCaml/INSTALL" "%{lib}%/OCaml/lex" "%{lib}%/OCaml/LICENSE" "%{lib}%/OCaml/Makefile" "%{lib}%/OCaml/Makefile.nt" "%{lib}%/OCaml/man" "%{lib}%/OCaml/myocamlbuild_config.mli" "%{lib}%/OCaml/myocamlbuild.ml" "%{lib}%/OCaml/ocamlbuild" "%{lib}%/OCaml/ocamldoc" "%{lib}%/OCaml/otherlibs" "%{lib}%/OCaml/parsing" "%{lib}%/OCaml/README" "%{lib}%/OCaml/README.win32" "%{lib}%/OCaml/stdlib" "%{lib}%/OCaml/_tags" "%{lib}%/OCaml/testlabl" "%{lib}%/OCaml/testsuite" "%{lib}%/OCaml/tools" "%{lib}%/OCaml/toplevel" "%{lib}%/OCaml/typing" "%{lib}%/OCaml/Upgrading" "%{lib}%/OCaml/utils" "%{lib}%/OCaml/VERSION" "%{lib}%/OCaml/win32caml" "%{lib}%/OCaml/yacc" "ocaml"]
+  ["ocaml" "str.cma" "unix.cma" "opam.ml" "sed" "_add_expr_" "40" "\\t" "#\\t" "Makefile"]
+  ["make" "prepare" "OCAML_SOURCE=ocaml.tar.gz" "OCAML_SRCDIR=ocaml"]
+  ["make" "-C" "ocaml" "-f" "Makefile.ocamlduce" "world.opt"]
+  ["make" "-C" "ocaml" "-f" "Makefile.ocamlduce" "installbyte" "installopt" "LIBDIR=%{lib}%/ocamlfind" "BINDIR=%{bin}%"]
+]
+remove: [
+  ["ocamlfind" "remove" "ocamlduce"]
+]
+depends: ["ocamlfind" "OCaml" {= "3.12.1"}]
