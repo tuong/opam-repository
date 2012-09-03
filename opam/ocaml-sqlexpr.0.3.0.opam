@@ -6,7 +6,7 @@ package "ocaml-sqlexpr" {
   build-env: []
   build: [["make"] ["make" "install"]]
   remove: [["ocamlfind" "remove" "sqlexpr"]]
-  depends: ["sqlite3-ocaml" "lwt" "extlib" "batteries" "csv" "ocamlfind"]
+  depends: ["sqlite3-ocaml" "lwt" "batteries" "csv" "extlib" {= "1.5.2"} "ocamlfind"]
   depopts: []
   conflicts: []
   libraries: []
