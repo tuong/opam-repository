@@ -4,7 +4,7 @@ package "camlzip" {
   maintainer: "<none>"
   substs: []
   build-env: []
-  build: [["make" "all"] ["make" "allopt"] ["make" "install"] ["make" "installopt"]]
+  build: [["make" "all"] ["make" "allopt"] ["make" "install" "INSTALLDIR=%{lib}%/camlzip"] ["make" "installopt" "INSTALLDIR=%{lib}%/camlzip"]]
   remove: []
   depends: []
   depopts: []
