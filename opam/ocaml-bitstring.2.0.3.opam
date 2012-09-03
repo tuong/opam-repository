@@ -5,7 +5,7 @@ package "ocaml-bitstring" {
   substs: []
   build-env: []
   build: [["./configure" "--prefix" "%{prefix}%"] ["make"] ["make" "install"]]
-  remove: [["ocamlfind" "remove" "ocaml-bitstring"]]
+  remove: [["ocamlfind" "remove" "bitstring"]]
   depends: ["ocamlfind"]
   depopts: []
   conflicts: []
