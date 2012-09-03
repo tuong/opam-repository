@@ -1,0 +1,14 @@
+opam-version: "1"
+package "dose" {
+  version: "2.9.15"
+  maintainer: "<none>"
+  substs: ["dose.ocp"]
+  build-env: []
+  build: [["ocp-build" "-init" "-scan"]]
+  remove: []
+  depends: ["ocp-build" "ocamlgraph" {= "opam"} "cudf" {= "0.6.2"} "extlib" {= "opam"} "re" {= "0.9dev"}]
+  depopts: []
+  conflicts: []
+  libraries: []
+  syntax: []
+}

@@ -1,9 +1,14 @@
 opam-version: "1"
-
 package "ocaml-arg" {
-  version:    "0.1"
-  maintainer: "contact@ocamlpro.com"
-  substs:     [ "ocaml-arg.config" ]
-  build:      [[ "make" ]]
-  libraries:  [ "arg" ]
+  version: "0.1"
+  maintainer: "<none>"
+  substs: ["ocaml-arg.config"]
+  build-env: []
+  build: [["make"]]
+  remove: []
+  depends: []
+  depopts: []
+  conflicts: []
+  libraries: ["arg"]
+  syntax: []
 }

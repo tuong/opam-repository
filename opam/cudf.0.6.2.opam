@@ -1,0 +1,14 @@
+opam-version: "1"
+package "cudf" {
+  version: "0.6.2"
+  maintainer: "<none>"
+  substs: ["cudf.ocp"]
+  build-env: []
+  build: [["ocp-build" "-init" "-scan"]]
+  remove: []
+  depends: ["ocp-build" "extlib" {= "opam"}]
+  depopts: []
+  conflicts: []
+  libraries: []
+  syntax: []
+}
