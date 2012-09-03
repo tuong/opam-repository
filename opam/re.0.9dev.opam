@@ -1,0 +1,14 @@
+opam-version: "1"
+package "re" {
+  version: "0.9dev"
+  maintainer: "<none>"
+  substs: []
+  build-env: []
+  build: [["ocp-build" "-init" "-scan"]]
+  remove: []
+  depends: ["ocp-build"]
+  depopts: []
+  conflicts: []
+  libraries: []
+  syntax: []
+}

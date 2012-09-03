@@ -1,0 +1,14 @@
+opam-version: "1"
+package "re" {
+  version: "0.1"
+  maintainer: "<none>"
+  substs: []
+  build-env: []
+  build: [["make" "all"] ["make" "opt"] ["make" "install"]]
+  remove: [["ocamlfind" "remove" "re"]]
+  depends: ["ocamlfind"]
+  depopts: []
+  conflicts: []
+  libraries: []
+  syntax: []
+}

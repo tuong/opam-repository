@@ -1,0 +1,14 @@
+opam-version: "1"
+package "lablgtk-o" {
+  version: "2.14.2"
+  maintainer: "<none>"
+  substs: []
+  build-env: []
+  build: [["./configure" "--with-libdir=%{lib}%" "--prefix" "%{prefix}%" "--sbindir=%{lib}%/lablgtk-o/sbin" "--libexecdir=%{lib}%/lablgtk-o/libexec" "--sysconfdir=%{lib}%/lablgtk-o/etc" "--sharedstatedir=%{lib}%/lablgtk-o/com" "--localstatedir=%{lib}%/lablgtk-o/var" "--libdir=%{lib}%/lablgtk-o/lib" "--includedir=%{lib}%/lablgtk-o/include" "--datarootdir=%{lib}%/lablgtk-o/share"] ["make" "world"] ["make" "install"]]
+  remove: []
+  depends: []
+  depopts: []
+  conflicts: []
+  libraries: []
+  syntax: []
+}
