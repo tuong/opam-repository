@@ -5,4 +5,4 @@ build: [
   ["make"]
   ["make" "install"]
 ]
-depends: ["ocamlgraph" {= "1.8.2"} "lablgtk"]
+depends: ["lablgtk" "ocamlgraph" {= "1.8.2"}]

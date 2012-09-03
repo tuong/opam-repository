@@ -1,4 +1,1 @@
-lib: []
 bin: ["_build/src/top/lwt_toplevel.byte" {"lwt-toplevel"}]
-toplevel: []
-misc: []

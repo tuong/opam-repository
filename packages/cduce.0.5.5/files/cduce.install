@@ -1,4 +1,1 @@
-lib: []
 bin: ["cduce_mktop" "cduce"]
-toplevel: []
-misc: []

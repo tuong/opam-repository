@@ -15,4 +15,4 @@ build: [
 remove: [
   ["rm" "-rf" "%{lib}%/ocamlfind/cairo" "%{prefix}%/lib/stublibs/dllmlcairo_lablgtk.so" "%{prefix}%/lib/stublibs/dllmlcairo.so" "%{prefix}%/lib/stublibs/dllmlpangocairo.so"]
 ]
-depends: ["ocamlfind" "lablgtk-o" {= "2.14.2"}]
+depends: ["lablgtk-o" {= "2.14.2"} "ocamlfind"]

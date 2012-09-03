@@ -8,4 +8,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "tyxml"]
 ]
-depends: ["ocamlfind" "ocamlnet" "ocamlduce"]
+depends: ["ocamlduce" "ocamlnet" "ocamlfind"]

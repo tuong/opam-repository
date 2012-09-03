@@ -1,4 +1,1 @@
 lib: ["zlib.cmi" "zlib.cmx"]
-bin: []
-toplevel: []
-misc: []
