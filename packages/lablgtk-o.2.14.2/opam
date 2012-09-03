@@ -1,7 +1,0 @@
-opam-version: "1"
-maintainer: "contact@ocamlpro.com"
-build: [
-  ["./configure" "--with-libdir=%{lib}%" "--prefix" "%{prefix}%" "--sbindir=%{lib}%/lablgtk-o/sbin" "--libexecdir=%{lib}%/lablgtk-o/libexec" "--sysconfdir=%{lib}%/lablgtk-o/etc" "--sharedstatedir=%{lib}%/lablgtk-o/com" "--localstatedir=%{lib}%/lablgtk-o/var" "--libdir=%{lib}%/lablgtk-o/lib" "--includedir=%{lib}%/lablgtk-o/include" "--datarootdir=%{lib}%/lablgtk-o/share"]
-  ["make" "world"]
-  ["make" "install"]
-]
