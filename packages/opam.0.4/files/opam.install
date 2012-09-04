@@ -1,0 +1,1 @@
+bin: ["_obuild/opam-check/opam-check.asm" {"opam-check"} "_obuild/opam-mk-repo/opam-mk-repo.asm" {"opam-mk-repo"} "_obuild/opam/opam.asm" {"opam"} "_obuild/opam-repo-convert-0.3/opam-repo-convert-0.3.asm" {"opam-repo-convert-0.3"}]
