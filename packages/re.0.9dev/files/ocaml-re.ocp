@@ -8,3 +8,11 @@ begin library "re_perl"
      "lib/pcre.ml"
    ]
 end
+
+begin library "re_glob"
+  sort = true
+  files = [
+     "lib/re_glob.ml"
+  ]
+  requires = [ "re_perl" ]
+end

@@ -9,6 +9,12 @@ begin library "re_perl"
   generated = true
 end
 
+begin library "re_glob"
+  dirname  += "%{lib}%/re"
+  generated = true
+  requires = ["re_perl"]
+end
+
 begin library "arg"
   dirname  += "%{lib}%/ocaml-arg"
   generated = true
