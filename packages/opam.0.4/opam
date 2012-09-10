@@ -2,6 +2,6 @@ opam-version: "1"
 maintainer: "contact@ocamlpro.com"
 substs: ["depends.ocp"]
 build: [
-  ["make" "compile"]
+  ["%{make}%" "compile"]
 ]
 depends: ["dose" {= "2.9.15"} "ocamlgraph" {= "opam"} "cudf" {= "0.6.2"} "extlib" {= "opam"} "re" {= "0.9dev"} "ocaml-arg" {= "0.1"}]

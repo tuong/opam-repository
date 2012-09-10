@@ -1,7 +1,7 @@
 opam-version: "1"
 maintainer: "contact@ocamlpro.com"
 build: [
-  ["make"]
-  ["make" "install"]
+  ["%{make}%"]
+  ["%{make}%" "install"]
 ]
 depends: ["async_extra" "async_core" "async_unix" "ocamlfind"]

@@ -3,8 +3,8 @@ maintainer: "contact@ocamlpro.com"
 build: [
   ["./configure" "--prefix" "%{prefix}%" "--enable-all"]
   ["ocaml" "str.cma" "unix.cma" "opam.ml" "sed" "_add_expr_" "728" "in" "in let compiler_libs = [\"%{lib}%/compiler-libs\"] in" "myocamlbuild.ml"]
-  ["make"]
-  ["make" "install"]
+  ["%{make}%"]
+  ["%{make}%" "install"]
 ]
 remove: [
   ["ocamlfind" "remove" "lwt"]

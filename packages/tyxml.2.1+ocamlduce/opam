@@ -2,8 +2,8 @@ opam-version: "1"
 maintainer: "contact@ocamlpro.com"
 build: [
   ["ocaml" "str.cma" "unix.cma" "opam.ml" "sed" "_add_expr_no_pos_" "-thread" "-thread -package ocamlduce" "lib/Makefile"]
-  ["make"]
-  ["make" "install"]
+  ["%{make}%"]
+  ["%{make}%" "install"]
 ]
 remove: [
   ["ocamlfind" "remove" "tyxml"]
