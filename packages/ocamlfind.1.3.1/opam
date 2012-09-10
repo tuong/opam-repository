@@ -1,7 +1,7 @@
 opam-version: "1"
 maintainer: "contact@ocamlpro.com"
 build: [
-  ["./configure" "-bindir" "%{bin}%" "-sitelib" "%{lib}%/ocamlfind" "-mandir" "%{lib}%/ocamlfind/share/man" "-config" "%{lib}%/ocamlfind/findlib.conf"]
+  ["./configure" "-bindir" "%{bin}%" "-sitelib" "%{lib}%/ocamlfind" "-mandir" "%{man}%" "-config" "%{lib}%/ocamlfind/findlib.conf"]
   ["make" "all"]
   ["make" "opt"]
   ["make" "install"]
