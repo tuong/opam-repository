@@ -1,1 +1,4 @@
-bin: ["atdgen.run" "atdgen"]
+bin: [
+  "atdgen.run"
+  "atdgen"
+]

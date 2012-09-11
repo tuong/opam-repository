@@ -7,4 +7,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "rss"]
 ]
-depends: ["xmlm" "ocamlfind"]
+depends: ["ocamlfind" "xmlm"]

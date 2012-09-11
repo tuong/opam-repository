@@ -8,4 +8,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "benchmark"]
 ]
-depends: ["pcre-ocaml" "ocamlfind"]
+depends: ["ocamlfind" "pcre-ocaml"]

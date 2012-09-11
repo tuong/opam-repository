@@ -7,4 +7,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "obrowser"]
 ]
-depends: ["lwt" "menhir" "ocamlfind"]
+depends: ["ocamlfind" "menhir" "lwt"]

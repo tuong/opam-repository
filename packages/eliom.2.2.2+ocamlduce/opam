@@ -8,4 +8,4 @@ build: [
 remove: [
   ["rm" "-rf" "%{lib}%/ocamlfind/eliom"]
 ]
-depends: ["ocamlduce" "ocsigenserver" "calendar" "js_of_ocaml" "deriving-ocsigen" "ocamlfind"]
+depends: ["ocamlfind" "deriving-ocsigen" "js_of_ocaml" "calendar" "ocsigenserver" "ocamlduce"]

@@ -8,4 +8,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "inifiles"]
 ]
-depends: ["pcre-ocaml" "ocamlfind"]
+depends: ["ocamlfind" "pcre-ocaml"]

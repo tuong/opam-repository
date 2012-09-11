@@ -1,1 +1,3 @@
-bin: ["ocamlweb"]
+bin: [
+  "ocamlweb"
+]

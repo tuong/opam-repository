@@ -7,4 +7,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "netamqp"]
 ]
-depends: ["ocamlnet" "omake" "ocamlfind"]
+depends: ["ocamlfind" "omake" "ocamlnet"]

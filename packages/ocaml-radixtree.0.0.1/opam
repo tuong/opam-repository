@@ -8,4 +8,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "radixtree"]
 ]
-depends: ["benchmark" "ounit" "ocamlfind"]
+depends: ["ocamlfind" "ounit" "benchmark"]

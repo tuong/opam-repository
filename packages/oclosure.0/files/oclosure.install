@@ -1,1 +1,3 @@
-bin: ["oclosure_req"]
+bin: [
+  "oclosure_req"
+]

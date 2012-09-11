@@ -8,4 +8,4 @@ build: [
 remove: [
   ["rm" "-rf" "%{lib}%/ocamlfind/ocsigenserver"]
 ]
-depends: ["tyxml" "cryptokit" "ocamlnet" "lwt" "ssl" "react" "ocamlfind"]
+depends: ["ocamlfind" "react" "ssl" "lwt" "ocamlnet" "cryptokit" "tyxml"]

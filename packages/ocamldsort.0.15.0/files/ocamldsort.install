@@ -1,1 +1,4 @@
-bin: ["ocamldsort.opt" "ocamldsort"]
+bin: [
+  "ocamldsort.opt"
+  "ocamldsort"
+]

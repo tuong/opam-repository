@@ -8,4 +8,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "xdg-basedir"]
 ]
-depends: ["ounit" "fileutils" "ocamlfind"]
+depends: ["ocamlfind" "fileutils" "ounit"]

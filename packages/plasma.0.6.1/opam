@@ -5,4 +5,4 @@ build: [
   ["omake"]
   ["omake" "install"]
 ]
-depends: ["xstrp4" "omake" "ocamlgraph" {= "1.8.2"} "ocamlnet" {= "3.5.1+all"} "ocamlfind"]
+depends: ["ocamlfind" "ocamlnet" {= "3.5.1+all"} "ocamlgraph" {= "1.8.2"} "omake" "xstrp4"]

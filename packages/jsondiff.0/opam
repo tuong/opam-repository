@@ -7,4 +7,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "jsondiff"]
 ]
-depends: ["yojson" "biniou" "ocamlfind"]
+depends: ["ocamlfind" "biniou" "yojson"]

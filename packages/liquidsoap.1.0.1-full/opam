@@ -10,4 +10,4 @@ build: [
   ["%{make}%"]
   ["%{make}%" "install"]
 ]
-depends: ["camomile" "pcre-ocaml" "camlidl" "ocamlfind"]
+depends: ["ocamlfind" "camlidl" "pcre-ocaml" "camomile"]

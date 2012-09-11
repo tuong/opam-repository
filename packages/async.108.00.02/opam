@@ -4,4 +4,7 @@ build: [
   ["%{make}%"]
   ["%{make}%" "install"]
 ]
-depends: ["async_extra" "async_core" "async_unix" "ocamlfind"]
+remove: [
+  ["ocamlfind" "remove" "async"]
+]
+depends: ["ocamlfind" "async_unix" "async_core" "async_extra"]

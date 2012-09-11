@@ -1,1 +1,4 @@
-bin: ["unison" {"unison-2.40"} "unison"]
+bin: [
+  "unison" {"unison-2.40"}
+  "unison"
+]

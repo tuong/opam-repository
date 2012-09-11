@@ -8,4 +8,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "cfg"]
 ]
-depends: ["menhir" "ocamlfind"]
+depends: ["ocamlfind" "menhir"]

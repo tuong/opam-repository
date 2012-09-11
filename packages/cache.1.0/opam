@@ -8,4 +8,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "cache"]
 ]
-depends: ["ocamlnet" "omake" "ocamlfind"]
+depends: ["ocamlfind" "omake" "ocamlnet"]

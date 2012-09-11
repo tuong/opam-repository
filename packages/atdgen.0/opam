@@ -4,4 +4,4 @@ build: [
   ["%{make}%"]
   ["%{make}%" "install" "BINDIR=%{bin}%"]
 ]
-depends: ["yojson" "biniou" "atd" "ocamlfind"]
+depends: ["ocamlfind" "atd" "biniou" "yojson"]

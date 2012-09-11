@@ -8,4 +8,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "extunix"]
 ]
-depends: ["ounit" "ocamlfind"]
+depends: ["ocamlfind" "ounit"]

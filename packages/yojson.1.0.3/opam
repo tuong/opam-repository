@@ -7,4 +7,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "yojson"]
 ]
-depends: ["biniou" "easy-format" "cppo" "ocamlfind"]
+depends: ["ocamlfind" "cppo" "easy-format" "biniou"]

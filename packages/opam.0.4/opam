@@ -4,4 +4,4 @@ substs: ["depends.ocp"]
 build: [
   ["%{make}%" "compile"]
 ]
-depends: ["dose" {= "2.9.15"} "ocamlgraph" {= "opam"} "cudf" {= "0.6.2"} "extlib" {= "opam"} "re" {= "0.9dev"} "ocaml-arg" {= "0.1"}]
+depends: ["ocaml-arg" {= "0.1"} "re" {= "0.9dev"} "extlib" {= "opam"} "cudf" {= "0.6.2"} "ocamlgraph" {= "opam"} "dose" {= "2.9.15"}]

@@ -8,4 +8,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "xmlrpc"]
 ]
-depends: ["annexlib" "pxp" "ocamlnet" "ocamlfind"]
+depends: ["ocamlfind" "ocamlnet" "pxp" "annexlib"]

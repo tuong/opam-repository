@@ -1,1 +1,4 @@
-bin: ["cduce_mktop" "cduce"]
+bin: [
+  "cduce_mktop"
+  "cduce"
+]

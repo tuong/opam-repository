@@ -6,4 +6,4 @@ build: [
   ["%{make}%"]
   ["%{make}%" "install"]
 ]
-depends: ["sqlite3-ocaml" "alt-ergo" "coq" "ocamlgraph" {= "1.8.2"} "lablgtk" {= "2.14.2-oasis8"}]
+depends: ["lablgtk" {= "2.14.2-oasis8"} "ocamlgraph" {= "1.8.2"} "coq" "alt-ergo" "sqlite3-ocaml"]

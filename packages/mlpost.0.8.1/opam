@@ -15,4 +15,4 @@ remove: [
   ["ocamlfind" "remove" "mlpost_lablgtk"]
   ["ocamlfind" "remove" "mlpost"]
 ]
-depends: ["ocaml-bitstring" "cairo1" {= "ocaml-1.2.0"} "ocamlfind"]
+depends: ["ocamlfind" "cairo1" {= "ocaml-1.2.0"} "ocaml-bitstring"]

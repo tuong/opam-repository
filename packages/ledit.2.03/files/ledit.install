@@ -1,1 +1,3 @@
-bin: ["ledit.out" {"ledit"}]
+bin: [
+  "ledit.out" {"ledit"}
+]

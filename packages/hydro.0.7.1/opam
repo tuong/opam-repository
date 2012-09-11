@@ -10,4 +10,4 @@ remove: [
   ["ocamlfind" "remove" "hydromon"]
   ["ocamlfind" "remove" "hydro"]
 ]
-depends: ["ocamlnet" "omake" "ocamlfind"]
+depends: ["ocamlfind" "omake" "ocamlnet"]

@@ -11,4 +11,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "ocamlduce"]
 ]
-depends: ["OCaml" {= "3.12.1"} "ocamlfind"]
+depends: ["ocamlfind" "OCaml" {= "3.12.1"}]

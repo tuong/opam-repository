@@ -1,1 +1,3 @@
-bin: ["compiler/js_of_ocaml"]
+bin: [
+  "compiler/js_of_ocaml"
+]

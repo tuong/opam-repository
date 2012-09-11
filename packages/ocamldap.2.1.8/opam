@@ -8,4 +8,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "ocamldap"]
 ]
-depends: ["ssl" "ocamlnet" "ocamlfind"]
+depends: ["ocamlfind" "ocamlnet" "ssl"]

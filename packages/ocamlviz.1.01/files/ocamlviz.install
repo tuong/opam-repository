@@ -1,1 +1,4 @@
-bin: ["gui.opt" {"ocamlviz-gui"} "ascii.opt" {"ocamlviz-ascii"}]
+bin: [
+  "gui.opt" {"ocamlviz-gui"}
+  "ascii.opt" {"ocamlviz-ascii"}
+]

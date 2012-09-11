@@ -1,1 +1,3 @@
-bin: ["compiler/camlidl"]
+bin: [
+  "compiler/camlidl"
+]

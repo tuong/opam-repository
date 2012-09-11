@@ -9,4 +9,4 @@ build: [
   ["ocaml" "setup.ml" "-build"]
   ["ocaml" "setup.ml" "-install"]
 ]
-depends: ["ocaml-expect" "pcre-ocaml" "ocaml-data-notation" "ounit" "ocamlify" "fileutils" "ocamlgraph" {= "1.8.2"} "extlib" {= "1.5.2"} "ocamlfind"]
+depends: ["ocamlfind" "extlib" {= "1.5.2"} "ocamlgraph" {= "1.8.2"} "fileutils" "ocamlify" "ounit" "ocaml-data-notation" "pcre-ocaml" "ocaml-expect"]

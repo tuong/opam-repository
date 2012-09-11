@@ -11,4 +11,4 @@ remove: [
   ["ocamlfind" "remove" "wd-xmlcompiler"]
   ["ocamlfind" "remove" "wdialog"]
 ]
-depends: ["ocaml-inifiles" "ulex" "pxp" "ocamlnet" "pcre-ocaml" "ocamlfind"]
+depends: ["ocamlfind" "pcre-ocaml" "ocamlnet" "pxp" "ulex" "ocaml-inifiles"]

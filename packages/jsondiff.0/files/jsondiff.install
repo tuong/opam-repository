@@ -1,1 +1,3 @@
-bin: ["jsondiff"]
+bin: [
+  "jsondiff"
+]

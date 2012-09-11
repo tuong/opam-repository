@@ -1,1 +1,4 @@
-lib: ["zlib.cmi" "zlib.cmx"]
+lib: [
+  "zlib.cmi"
+  "zlib.cmx"
+]

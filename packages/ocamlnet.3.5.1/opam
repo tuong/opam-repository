@@ -25,4 +25,4 @@ remove: [
   ["ocamlfind" "remove" "shell"]
   ["ocamlfind" "remove" "smtp"]
 ]
-depends: ["pcre-ocaml" "ocamlfind"]
+depends: ["ocamlfind" "pcre-ocaml"]

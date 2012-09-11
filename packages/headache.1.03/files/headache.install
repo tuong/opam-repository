@@ -1,1 +1,3 @@
-bin: ["headache"]
+bin: [
+  "headache"
+]

@@ -7,4 +7,4 @@ build: [
   ["%{make}%"]
   ["%{make}%" "install"]
 ]
-depends: ["frama-c" "coq" "ocamlgraph" {= "1.8.2"} "lablgtk" {= "2.14.2-oasis8"}]
+depends: ["lablgtk" {= "2.14.2-oasis8"} "ocamlgraph" {= "1.8.2"} "coq" "frama-c"]

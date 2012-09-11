@@ -7,4 +7,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "atd"]
 ]
-depends: ["easy-format" "menhir" "ocamlfind"]
+depends: ["ocamlfind" "menhir" "easy-format"]

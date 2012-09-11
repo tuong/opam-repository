@@ -1,1 +1,3 @@
-bin: ["planets"]
+bin: [
+  "planets"
+]

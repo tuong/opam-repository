@@ -7,4 +7,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "oclosure"]
 ]
-depends: ["js_of_ocaml" "ocamlfind"]
+depends: ["ocamlfind" "js_of_ocaml"]

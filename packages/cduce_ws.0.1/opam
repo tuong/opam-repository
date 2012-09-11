@@ -4,4 +4,4 @@ build: [
   ["%{make}%"]
   ["%{make}%" "install"]
 ]
-depends: ["ocurl" "cduce"]
+depends: ["cduce" "ocurl"]

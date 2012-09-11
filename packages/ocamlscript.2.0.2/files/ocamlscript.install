@@ -1,1 +1,3 @@
-bin: ["ocamlscript"]
+bin: [
+  "ocamlscript"
+]

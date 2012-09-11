@@ -10,4 +10,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "cduce"]
 ]
-depends: ["pxp" "ocamlnet" "ulex" "pcre-ocaml" "OCaml" {= "3.12.1"} "ocamlfind"]
+depends: ["ocamlfind" "OCaml" {= "3.12.1"} "pcre-ocaml" "ulex" "ocamlnet" "pxp"]
