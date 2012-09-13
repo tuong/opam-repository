@@ -1,0 +1,23 @@
+opam-version: "1"
+maintainer: "contact@ocamlpro.com"
+build: [
+  ["%{make}%" "-C" "chapter1/start"]
+  ["%{make}%" "-C" "chapter1/no_oclosure"]
+  ["%{make}%" "-C" "chapter1/with_oclosure" "graffiti.type_mli"]
+  ["%{make}%" "-C" "chapter1/with_oclosure"]
+  ["%{make}%" "-C" "chapter3/multigraffiti"]
+  ["%{make}%" "-C" "chapter3/multigraffiti" "local"]
+  ["cp" "-R" "-n" "chapter3/multigraffiti/client.ml" "chapter3/multigraffiti/common.ml" "chapter3/multigraffiti/css" "chapter3/multigraffiti/graffiti.conf.in" "chapter3/multigraffiti/graffiti.eliom" "chapter3/multigraffiti/images" "chapter3/multigraffiti/Makefile" "chapter3/multigraffiti/Makefile.common" "chapter3/multigraffiti/server.ml" "chapter3/multigraffiti_audio"]
+  ["%{make}%" "-C" "chapter3/multigraffiti_audio"]
+  ["%{make}%" "-C" "chapter3/multigraffiti_audio" "local"]
+  ["cp" "-R" "-n" "chapter3/multigraffiti/client.ml" "chapter3/multigraffiti/common.ml" "chapter3/multigraffiti/css" "chapter3/multigraffiti/graffiti.conf.in" "chapter3/multigraffiti/graffiti.eliom" "chapter3/multigraffiti/images" "chapter3/multigraffiti/Makefile" "chapter3/multigraffiti/Makefile.common" "chapter3/multigraffiti/server.ml" "chapter3/multigraffiti_feed"]
+  ["%{make}%" "-C" "chapter3/multigraffiti_feed"]
+  ["%{make}%" "-C" "chapter3/multigraffiti_feed" "local"]
+  ["cp" "-R" "-n" "chapter3/multigraffiti/client.ml" "chapter3/multigraffiti/common.ml" "chapter3/multigraffiti/css" "chapter3/multigraffiti/graffiti.conf.in" "chapter3/multigraffiti/graffiti.eliom" "chapter3/multigraffiti/images" "chapter3/multigraffiti/Makefile" "chapter3/multigraffiti/Makefile.common" "chapter3/multigraffiti/server.ml" "chapter3/multigraffiti_macaque"]
+  ["%{make}%" "-C" "chapter3/multigraffiti_macaque"]
+  ["%{make}%" "-C" "chapter3/multigraffiti_macaque" "local"]
+  ["cp" "-R" "-n" "chapter3/multigraffiti/client.ml" "chapter3/multigraffiti/common.ml" "chapter3/multigraffiti/css" "chapter3/multigraffiti/graffiti.conf.in" "chapter3/multigraffiti/graffiti.eliom" "chapter3/multigraffiti/images" "chapter3/multigraffiti/Makefile" "chapter3/multigraffiti/Makefile.common" "chapter3/multigraffiti/server.ml" "chapter3/multigraffiti_ocsipersist"]
+  ["%{make}%" "-C" "chapter3/multigraffiti_ocsipersist"]
+  ["%{make}%" "-C" "chapter3/multigraffiti_ocsipersist" "local"]
+]
+depends: ["ocamlfind" "eliom" "oclosure" "cairo1" "macaque"]
