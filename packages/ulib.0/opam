@@ -11,4 +11,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "ulib"]
 ]
-depends: ["ocamlfind" "oasis" "core" "async"]
+depends: ["ocamlfind" "oasis" {= "0.3.0"} "core" "async"]
