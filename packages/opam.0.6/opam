@@ -1,0 +1,8 @@
+opam-version: "1"
+maintainer: "contact@ocamlpro.com"
+substs: ["depends.ocp"]
+build: [
+  ["./configure" "--prefix" "%{prefix}%" "--sbindir=%{lib}%/opam/sbin" "--libexecdir=%{lib}%/opam/libexec" "--sysconfdir=%{lib}%/opam/etc" "--sharedstatedir=%{lib}%/opam/com" "--localstatedir=%{lib}%/opam/var" "--libdir=%{lib}%/opam/lib" "--includedir=%{lib}%/opam/include" "--datarootdir=%{lib}%/opam/share"]
+  ["%{make}%" "compile"]
+]
+depends: ["ocaml-arg" {= "0.1"} "re" {= "0.9dev"} "extlib" {= "opam"} "cudf" {= "0.6.2"} "ocamlgraph" {= "opam"} "dose" {= "2.9.15"}]

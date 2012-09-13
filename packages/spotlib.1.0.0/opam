@@ -8,4 +8,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "spotlib"]
 ]
-depends: ["ocamlfind"]
+depends: ["ocamlfind" "omake"]
