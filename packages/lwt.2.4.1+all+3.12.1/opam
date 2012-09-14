@@ -1,0 +1,13 @@
+opam-version: "1"
+maintainer: "contact@ocamlpro.com"
+build: [
+  ["./configure" "--prefix" "%{prefix}%" "--enable-all"]
+  ["ocaml" "str.cma" "unix.cma" "opam.ml" "sed" "_add_expr_" "798" "in" "in let compiler_libs = [\"%{lib}%/compiler-libs\"] in" "myocamlbuild.ml"]
+  ["%{make}%"]
+  ["%{make}%" "install"]
+]
+remove: [
+  ["ocamlfind" "remove" "lwt"]
+]
+depends: ["ocamlfind" "compiler-libs" {= "3.12.1"} "react" "ssl" "ocaml-text"]
+ocaml-version: [= "3.12.1"]

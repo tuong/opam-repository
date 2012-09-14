@@ -9,3 +9,4 @@ remove: [
   ["ocamlfind" "remove" "uint"]
 ]
 depends: ["ocamlfind" "ospec"]
+ocaml-version: [= "3.12.1"]

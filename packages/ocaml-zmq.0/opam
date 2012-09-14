@@ -9,3 +9,4 @@ remove: [
   ["ocamlfind" "remove" "ZMQ"]
 ]
 depends: ["ocamlfind" "ounit" "ocaml-uint"]
+ocaml-version: [= "3.12.1"]

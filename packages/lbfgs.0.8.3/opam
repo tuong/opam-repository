@@ -8,3 +8,4 @@ remove: [
   ["ocamlfind" "remove" "lbfgs"]
 ]
 depends: ["ocamlfind" "lacaml"]
+ocaml-version: [= "3.12.1"]
