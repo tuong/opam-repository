@@ -11,4 +11,3 @@ build: [
   ["%{make}%" "install" "BINDIR=%{bin}%" "MANDIR=%{man}%" "OCAMLLIB=%{lib}%/ocamlviz"]
 ]
 depends: ["cairo" "lablgtk" {= "2.14.2-oasis8"}]
-ocaml-version: [= "3.12.1"]
