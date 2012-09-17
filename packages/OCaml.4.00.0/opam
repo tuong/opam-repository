@@ -1,0 +1,6 @@
+opam-version: "1"
+maintainer: "contact@ocamlpro.com"
+build: [
+  ["mkdir" "-p" "%{lib}%/OCaml"]
+  ["cp" "-R" "asmcomp" "asmrun" "boot" "build" "bytecomp" "byterun" "camlp4" "Changes" "compilerlibs" "config" "configure" "debugger" ".depend" "driver" "emacs" ".ignore" "INSTALL" "lex" "LICENSE" "Makefile" "Makefile.nt" "man" "myocamlbuild_config.mli" "myocamlbuild.ml" "ocamlbuild" "ocamldoc" "otherlibs" "parsing" "README" "README.win32" "stdlib" "_tags" "testsuite" "tools" "toplevel" "typing" "Upgrading" "utils" "VERSION" "yacc" "%{lib}%/OCaml"]
+]

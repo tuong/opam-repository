@@ -8,4 +8,5 @@ build: [
 remove: [
   ["ocamlfind" "remove" "shcaml"]
 ]
-depends: ["ocamlfind" "pcre-ocaml"]
+depends: ["ocamlfind" "compiler-libs" {= "4.00.0"} "pcre-ocaml"]
+ocaml-version: [= "3.12.1"]

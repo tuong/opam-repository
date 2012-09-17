@@ -6,10 +6,10 @@ begin library "typing"
   dirname = [ "typing" ]
 
   files = [
-    "ident.ml" (* no_mli = true *)
+    "ident.ml"; (* no_mli = true *)
     "path.ml";
     "primitive.ml";
-    "types.ml" (* no_mli = true *)
+    "types.ml"; (* no_mli = true *)
     "annot.mli";
     "btype.ml";
     "outcometree.mli";
@@ -17,7 +17,7 @@ begin library "typing"
     "subst.ml";
     "predef.ml";
     "datarepr.ml";
-     "env.ml"
+    "env.ml";
     "typedtree.ml";
     "cmi_format.ml";
     "cmt_format.ml";
@@ -34,6 +34,7 @@ begin library "typing"
     "typedecl.ml";
     "typeclass.ml";
     "typemod.ml";
+    "printtyped.ml";
   ]
 
   requires = [
@@ -46,7 +47,7 @@ begin library "utils"
 
   files = [
     "misc.ml";
-    "tbl.ml" (* no_mli = true *)
+    "tbl.ml"; (* no_mli = true *)
     "config.ml"; (* WARNING generated *)
     "clflags.ml";
     "terminfo.ml";
@@ -84,30 +85,30 @@ begin library "bytecomp"
   dirname = [ "bytecomp" ]
 
   files = [
-    "symtable.ml"
-    "cmo_format.mli"
-    "lambda.ml"
-    "dll.ml"
-    "runtimedef.ml"
-    "meta.ml"
-    "bytesections.ml"
-    "translmod.ml"
-    "translobj.ml"
-    "translcore.ml"
-    "translclass.ml"
-    "typeopt.ml"
-    "matching.ml"
-    "switch.ml"
-    "printlambda.ml"
-    "simplif.ml"
-    "bytegen.ml"
-    "instruct.ml"
-    "printinstr.ml"
-    "emitcode.ml"
-    "opcodes.ml"
-    "bytelink.ml"
-    "bytelibrarian.ml"
-    "bytepackager.ml"
+    "symtable.ml";
+    "cmo_format.mli";
+    "lambda.ml";
+    "dll.ml";
+    "runtimedef.ml";
+    "meta.ml";
+    "bytesections.ml";
+    "translmod.ml";
+    "translobj.ml";
+    "translcore.ml";
+    "translclass.ml";
+    "typeopt.ml";
+    "matching.ml";
+    "switch.ml";
+    "printlambda.ml";
+    "simplif.ml";
+    "bytegen.ml";
+    "instruct.ml";
+    "printinstr.ml";
+    "emitcode.ml";
+    "opcodes.ml";
+    "bytelink.ml";
+    "bytelibrarian.ml";
+    "bytepackager.ml";
   ]
 
   requires = [
@@ -120,9 +121,14 @@ begin library "driver"
   dirname = [ "driver" ]
 
   files = [
-    "pparse.ml"
-    "errors.ml"
-    "compile.ml"
+    "pparse.ml";
+    "errors.ml";
+    "compile.ml";
+    "main_args.ml";
+    "main.ml";
+(*    "optcompile.ml";*)
+(*    "opterrors.ml";*)
+(*    "optmain.ml";*)
   ]
 
   requires = [
@@ -136,8 +142,17 @@ begin library "toplevel"
   dirname = [ "toplevel" ]
 
   files = [
-    "genprintval.ml"
-    "toploop.ml"
+    "genprintval.ml";
+    "toploop.ml";
+    "topdirs.ml";
+    "trace.ml";
+    "expunge.ml";
+(*    "opttopdirs.ml";*)
+(*    "opttoploop.ml";*)
+(*    "opttopmain.ml";*)
+(*    "opttopstart.ml";*)
+    "topmain.ml";
+    "topstart.ml";
   ]
 
   requires = [
@@ -145,5 +160,61 @@ begin library "toplevel"
     "typing"
     "bytecomp"
     "driver"
+  ]
+end
+
+begin library "debugger"
+  dirname = [ "debugger" ]
+
+  files = [
+    "input_handling.ml";
+    "primitives.ml";
+    "question.ml";
+    "lexer.mll";
+    "parser.mly";
+    "parser_aux.mli";
+    "int64ops.ml";
+    "command_line.ml";
+    "debugger_config.ml";
+    "unix_tools.ml";
+    "debugcom.ml";
+    "program_loading.ml";
+    "program_management.ml";
+    "parameters.ml";
+    "show_source.ml";
+    "time_travel.ml";
+    "envaux.ml";
+    "source.ml";
+    "breakpoints.ml";
+    "events.ml";
+    "history.ml";
+    "checkpoints.ml";
+    "symbols.ml";
+    "show_information.ml";
+    "trap_barrier.ml";
+    "exec.ml";
+    "frames.ml";
+    "pos.ml";
+    "printval.ml";
+    "eval.ml";
+    "loadprinter.ml";
+    "main.ml";
+  ]
+
+  requires = [
+    "parsing"
+    "bytecomp"
+    "toplevel"
+  ]
+end
+
+begin library "toplevellib"
+  requires = [
+    "typing"
+    "utils"
+    "parsing"
+    "bytecomp"
+    "driver"
+    "toplevel"
   ]
 end
