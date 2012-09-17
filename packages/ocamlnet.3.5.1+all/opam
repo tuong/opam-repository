@@ -32,3 +32,4 @@ remove: [
   ["ocamlfind" "remove" "smtp"]
 ]
 depends: ["ocamlfind" "lablgtk" {= "2.14.2-oasis8"} "pcre-ocaml" "ssl" "camlzip" "cryptokit"]
+ocaml-version: [= "3.12.1"]

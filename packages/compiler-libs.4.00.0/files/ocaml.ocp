@@ -1,0 +1,149 @@
+begin library "config"
+
+end
+
+begin library "typing"
+  dirname = [ "typing" ]
+
+  files = [
+    "ident.ml" (* no_mli = true *)
+    "path.ml";
+    "primitive.ml";
+    "types.ml" (* no_mli = true *)
+    "annot.mli";
+    "btype.ml";
+    "outcometree.mli";
+    "oprint.ml";
+    "subst.ml";
+    "predef.ml";
+    "datarepr.ml";
+     "env.ml"
+    "typedtree.ml";
+    "cmi_format.ml";
+    "cmt_format.ml";
+    "ctype.ml";
+    "printtyp.ml";
+    "includeclass.ml";
+    "mtype.ml";
+    "includecore.ml";
+    "includemod.ml";
+    "parmatch.ml";
+    "typetexp.ml";
+    "stypes.ml";
+    "typecore.ml";
+    "typedecl.ml";
+    "typeclass.ml";
+    "typemod.ml";
+  ]
+
+  requires = [
+    "parsing"
+  ]
+end
+
+begin library "utils"
+  dirname = [ "utils" ]
+
+  files = [
+    "misc.ml";
+    "tbl.ml" (* no_mli = true *)
+    "config.ml"; (* WARNING generated *)
+    "clflags.ml";
+    "terminfo.ml";
+    "ccomp.ml";
+    "warnings.ml";
+    "consistbl.ml";
+  ]
+
+  requires = [
+    "config"
+  ]
+end
+
+begin library "parsing"
+  dirname = [ "parsing" ]
+
+  files = [
+    "location.ml";
+    "asttypes.mli";
+    "longident.ml";
+    "syntaxerr.ml";
+    "parsetree.mli";
+    "printast.ml";
+    "parser.mly";
+    "lexer.mll";
+    "parse.ml";
+  ]
+
+  requires = [
+    "utils"
+  ]
+end
+
+begin library "bytecomp"
+  dirname = [ "bytecomp" ]
+
+  files = [
+    "symtable.ml"
+    "cmo_format.mli"
+    "lambda.ml"
+    "dll.ml"
+    "runtimedef.ml"
+    "meta.ml"
+    "bytesections.ml"
+    "translmod.ml"
+    "translobj.ml"
+    "translcore.ml"
+    "translclass.ml"
+    "typeopt.ml"
+    "matching.ml"
+    "switch.ml"
+    "printlambda.ml"
+    "simplif.ml"
+    "bytegen.ml"
+    "instruct.ml"
+    "printinstr.ml"
+    "emitcode.ml"
+    "opcodes.ml"
+    "bytelink.ml"
+    "bytelibrarian.ml"
+    "bytepackager.ml"
+  ]
+
+  requires = [
+    "parsing"
+    "typing"
+  ]
+end
+
+begin library "driver"
+  dirname = [ "driver" ]
+
+  files = [
+    "pparse.ml"
+    "errors.ml"
+    "compile.ml"
+  ]
+
+  requires = [
+    "parsing"
+    "typing"
+    "bytecomp"
+  ]
+end
+
+begin library "toplevel"
+  dirname = [ "toplevel" ]
+
+  files = [
+    "genprintval.ml"
+    "toploop.ml"
+  ]
+
+  requires = [
+    "parsing"
+    "typing"
+    "bytecomp"
+    "driver"
+  ]
+end

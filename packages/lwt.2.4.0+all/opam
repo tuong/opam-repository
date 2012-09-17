@@ -9,4 +9,5 @@ build: [
 remove: [
   ["ocamlfind" "remove" "lwt"]
 ]
-depends: ["ocamlfind" "react" "ssl" "ocaml-text" "compiler-libs"]
+depends: ["ocamlfind" "compiler-libs" {= "3.12.1"} "react" "ssl" "ocaml-text"]
+ocaml-version: [= "3.12.1"]

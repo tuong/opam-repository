@@ -9,3 +9,4 @@ remove: [
   ["ocamlfind" "remove" "tyxml"]
 ]
 depends: ["ocamlfind" "ocamlnet" "ocamlduce"]
+ocaml-version: [= "3.12.1"]
