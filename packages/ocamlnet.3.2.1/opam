@@ -26,3 +26,4 @@ remove: [
   ["ocamlfind" "remove" "smtp"]
 ]
 depends: ["ocamlfind" "pcre-ocaml"]
+ocaml-version: [= "3.12.1"]
