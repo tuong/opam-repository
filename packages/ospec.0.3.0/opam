@@ -6,6 +6,6 @@ build: [
   ["ocaml" "setup.ml" "-install"]
 ]
 remove: [
-  ["ocamlfind" "remove" "ZMQ"]
+  ["ocamlfind" "remove" "ospec"]
 ]
-depends: ["ocamlfind" "ounit" "ocaml-uint"]
+depends: ["ocamlfind"]

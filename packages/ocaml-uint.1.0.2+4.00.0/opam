@@ -1,6 +1,8 @@
 opam-version: "1"
 maintainer: "contact@ocamlpro.com"
 build: [
+  ["rm" "setup.ml"]
+  ["oasis" "setup"]
   ["ocaml" "setup.ml" "-configure" "--prefix" "%{prefix}%"]
   ["ocaml" "setup.ml" "-build"]
   ["ocaml" "setup.ml" "-install"]
@@ -8,5 +10,5 @@ build: [
 remove: [
   ["ocamlfind" "remove" "uint"]
 ]
-depends: ["ocamlfind" "ospec"]
-ocaml-version: [= "3.12.1"]
+depends: ["ocamlfind" "ospec" {= "0.3.0"} "oasis" {= "0.3.0"}]
+ocaml-version: [= "4.00.0"]

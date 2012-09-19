@@ -9,4 +9,3 @@ remove: [
   ["ocamlfind" "remove" "lwt-zmq"]
 ]
 depends: ["ocamlfind" "oasis" {= "0.3.0"} "lwt" "ocaml-zmq"]
-ocaml-version: [= "3.12.1"]
