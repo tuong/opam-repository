@@ -6,4 +6,6 @@ build: [
   ["%{make}%" "all" "PREFIX=%{prefix}%"]
   ["%{make}%" "install" "PREFIX=%{prefix}%"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

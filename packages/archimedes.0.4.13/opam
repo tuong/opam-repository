@@ -8,5 +8,8 @@ build: [
 remove: [
   ["ocamlfind" "remove" "archimedes"]
 ]
-depends: ["ocamlfind" "cairo"]
+depends: [
+  "ocamlfind"
+  "cairo"
+]
 ocaml-version: [= "3.12.1"]

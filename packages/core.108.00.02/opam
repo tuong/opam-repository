@@ -7,4 +7,14 @@ build: [
 remove: [
   ["ocamlfind" "remove" "core"]
 ]
-depends: ["ocamlfind" "bin_prot" "fieldslib" "pa_ounit" "pipebang" "sexplib" "variantslib" "res" "ounit"]
+depends: [
+  "ocamlfind"
+  "bin_prot"
+  "fieldslib"
+  "pa_ounit"
+  "pipebang"
+  "sexplib"
+  "variantslib"
+  "res"
+  "ounit"
+]

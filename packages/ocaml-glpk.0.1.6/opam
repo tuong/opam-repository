@@ -7,4 +7,6 @@ build: [
 remove: [
   ["ocamlfind" "remove" "glpk"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

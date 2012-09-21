@@ -9,4 +9,7 @@ build: [
 remove: [
   ["ocamlfind" "remove" "annexlib"]
 ]
-depends: ["ocamlfind" "pcre-ocaml"]
+depends: [
+  "ocamlfind"
+  "pcre-ocaml"
+]

@@ -7,4 +7,10 @@ build: [
 remove: [
   ["ocamlfind" "remove" "webdav"]
 ]
-depends: ["ocamlfind" "ocamlnet" {= "3.2.1"} "omake" "pcre-ocaml" "pxp"]
+depends: [
+  "ocamlfind"
+  "ocamlnet" {= "3.2.1"}
+  "omake"
+  "pcre-ocaml"
+  "pxp"
+]

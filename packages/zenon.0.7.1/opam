@@ -9,4 +9,6 @@ build: [
 remove: [
   ["rm" "-rf" "%{lib}%/zenon-0.7.1"]
 ]
-depends: ["coq"]
+depends: [
+  "coq"
+]

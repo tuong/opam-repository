@@ -9,4 +9,6 @@ build: [
 remove: [
   ["ocamlfind" "remove" "bolt"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

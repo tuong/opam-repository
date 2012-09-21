@@ -8,5 +8,12 @@ build: [
 remove: [
   ["rm" "-rf" "%{lib}%/ocamlfind/eliom"]
 ]
-depends: ["ocamlfind" "deriving-ocsigen" "js_of_ocaml" "calendar" "ocsigenserver" "ocamlduce"]
+depends: [
+  "ocamlfind"
+  "deriving-ocsigen"
+  "js_of_ocaml"
+  "calendar"
+  "ocsigenserver"
+  "ocamlduce"
+]
 ocaml-version: [= "3.12.1"]

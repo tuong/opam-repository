@@ -7,4 +7,6 @@ build: [
 remove: [
   ["ocamlfind" "remove" "oUnit"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

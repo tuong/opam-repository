@@ -8,4 +8,6 @@ build: [
 remove: [
   ["ocamlfind" "remove" "ocamlgraph"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

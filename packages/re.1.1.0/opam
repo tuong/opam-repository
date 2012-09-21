@@ -3,4 +3,6 @@ maintainer: "anil@recoil.org"
 build: [
   ["ocp-build" "-init" "-scan"]
 ]
-depends: ["ocp-build"]
+depends: [
+  "ocp-build"
+]

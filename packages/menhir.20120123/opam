@@ -6,4 +6,6 @@ build: [
 remove: [
   ["ocamlfind" "remove" "menhirLib"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

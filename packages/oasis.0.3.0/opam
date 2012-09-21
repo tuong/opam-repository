@@ -10,4 +10,10 @@ remove: [
   ["ocamlfind" "remove" "userconf"]
   ["ocamlfind" "remove" "oasis"]
 ]
-depends: ["ocamlfind" "fileutils" "ocaml-data-notation" "ocamlify" "ocamlmod"]
+depends: [
+  "ocamlfind"
+  "fileutils"
+  "ocaml-data-notation"
+  "ocamlify"
+  "ocamlmod"
+]

@@ -3,4 +3,7 @@ maintainer: "contact@ocamlpro.com"
 build: [
   ["%{make}%"]
 ]
-depends: ["ocamlfind" "js_of_ocaml"]
+depends: [
+  "ocamlfind"
+  "js_of_ocaml"
+]

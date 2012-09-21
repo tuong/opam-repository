@@ -8,4 +8,6 @@ build: [
 remove: [
   ["ocamlfind" "remove" "bz2"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

@@ -7,4 +7,6 @@ build: [
 remove: [
   ["ocamlfind" "remove" "gsl"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

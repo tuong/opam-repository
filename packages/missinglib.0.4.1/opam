@@ -8,4 +8,7 @@ build: [
 remove: [
   ["ocamlfind" "remove" "missinglib"]
 ]
-depends: ["ocamlfind" "ounit"]
+depends: [
+  "ocamlfind"
+  "ounit"
+]

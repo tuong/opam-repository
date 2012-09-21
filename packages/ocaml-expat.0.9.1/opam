@@ -8,4 +8,6 @@ build: [
 remove: [
   ["ocamlfind" "remove" "ocaml-expat"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

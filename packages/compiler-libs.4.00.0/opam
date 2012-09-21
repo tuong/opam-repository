@@ -6,4 +6,6 @@ build: [
   ["%{make}%" "depend"]
   ["ocp-build" "-init" "-scan"]
 ]
-depends: ["ocp-build"]
+depends: [
+  "ocp-build"
+]

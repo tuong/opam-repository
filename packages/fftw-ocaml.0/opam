@@ -9,4 +9,6 @@ build: [
 remove: [
   ["ocamlfind" "remove" "fftw3"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

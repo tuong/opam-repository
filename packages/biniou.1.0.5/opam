@@ -7,4 +7,7 @@ build: [
 remove: [
   ["ocamlfind" "remove" "biniou"]
 ]
-depends: ["ocamlfind" "easy-format"]
+depends: [
+  "ocamlfind"
+  "easy-format"
+]

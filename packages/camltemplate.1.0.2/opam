@@ -11,4 +11,6 @@ build: [
 remove: [
   ["ocamlfind" "remove" "camltemplate"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

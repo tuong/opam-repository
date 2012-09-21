@@ -25,5 +25,8 @@ remove: [
   ["ocamlfind" "remove" "shell"]
   ["ocamlfind" "remove" "smtp"]
 ]
-depends: ["ocamlfind" "pcre-ocaml"]
+depends: [
+  "ocamlfind"
+  "pcre-ocaml"
+]
 ocaml-version: [= "3.12.1"]

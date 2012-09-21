@@ -7,4 +7,6 @@ build: [
 remove: [
   ["ocamlfind" "remove" "ocamlscript"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

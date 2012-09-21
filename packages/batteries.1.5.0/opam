@@ -9,4 +9,7 @@ remove: [
   ["ocamlfind" "remove" "estring"]
   ["ocamlfind" "remove" "batteries"]
 ]
-depends: ["ocamlfind" "camomile"]
+depends: [
+  "ocamlfind"
+  "camomile"
+]

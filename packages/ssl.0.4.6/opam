@@ -8,4 +8,6 @@ build: [
 remove: [
   ["ocamlfind" "remove" "ssl"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

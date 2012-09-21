@@ -4,4 +4,10 @@ substs: ["dose.ocp"]
 build: [
   ["ocp-build" "-init" "-scan"]
 ]
-depends: ["re" {= "1.1.0"} "extlib" {= "opam"} "cudf" {= "0.6.3"} "ocamlgraph" {= "opam"} "ocp-build"]
+depends: [
+  "re" {= "1.1.0"}
+  "extlib" {= "opam"}
+  "cudf" {= "0.6.3"}
+  "ocamlgraph" {= "opam"}
+  "ocp-build"
+]

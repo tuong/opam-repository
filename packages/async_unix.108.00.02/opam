@@ -7,4 +7,7 @@ build: [
 remove: [
   ["ocamlfind" "remove" "async_unix"]
 ]
-depends: ["ocamlfind" "async_core"]
+depends: [
+  "ocamlfind"
+  "async_core"
+]

@@ -7,4 +7,6 @@ build: [
   ["%{make}%"]
   ["%{make}%" "install" "MANDIR=%{man}%/man1"]
 ]
-depends: ["ocamlgraph" {= "1.8.2"}]
+depends: [
+  "ocamlgraph" {= "1.8.2"}
+]

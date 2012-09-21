@@ -20,4 +20,10 @@ build: [
   ["%{make}%" "-C" "chapter3/multigraffiti_ocsipersist"]
   ["%{make}%" "-C" "chapter3/multigraffiti_ocsipersist" "local"]
 ]
-depends: ["ocamlfind" "eliom" "oclosure" "cairo1" "macaque"]
+depends: [
+  "ocamlfind"
+  "eliom"
+  "oclosure"
+  "cairo1"
+  "macaque"
+]

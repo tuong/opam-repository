@@ -8,5 +8,9 @@ build: [
 remove: [
   ["ocamlfind" "remove" "ocamldap"]
 ]
-depends: ["ocamlfind" "ocamlnet" "ssl"]
+depends: [
+  "ocamlfind"
+  "ocamlnet"
+  "ssl"
+]
 ocaml-version: [= "3.12.1"]

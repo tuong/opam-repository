@@ -8,4 +8,6 @@ build: [
 remove: [
   ["ocamlfind" "remove" "getopt"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

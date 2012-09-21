@@ -10,5 +10,10 @@ build: [
   ["%{make}%"]
   ["%{make}%" "install"]
 ]
-depends: ["ocamlfind" "camlidl" "pcre-ocaml" "camomile"]
+depends: [
+  "ocamlfind"
+  "camlidl"
+  "pcre-ocaml"
+  "camomile"
+]
 ocaml-version: [= "3.12.1"]

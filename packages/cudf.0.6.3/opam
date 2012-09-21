@@ -4,4 +4,7 @@ substs: ["cudf.ocp"]
 build: [
   ["ocp-build" "-init" "-scan"]
 ]
-depends: ["extlib" {= "opam"} "ocp-build"]
+depends: [
+  "extlib" {= "opam"}
+  "ocp-build"
+]

@@ -8,5 +8,8 @@ build: [
 remove: [
   ["ocamlfind" "remove" "shcaml"]
 ]
-depends: ["ocamlfind" "pcre-ocaml"]
+depends: [
+  "ocamlfind"
+  "pcre-ocaml"
+]
 ocaml-version: [= "3.12.1"]

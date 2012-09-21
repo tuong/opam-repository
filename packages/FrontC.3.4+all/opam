@@ -8,4 +8,6 @@ build: [
 remove: [
   ["ocamlfind" "remove" "FrontC"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

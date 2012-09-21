@@ -11,5 +11,8 @@ build: [
 remove: [
   ["ocamlfind" "remove" "ocamlduce"]
 ]
-depends: ["ocamlfind" "OCaml" {= "3.12.1"}]
+depends: [
+  "ocamlfind"
+  "OCaml" {= "3.12.1"}
+]
 ocaml-version: [= "3.12.1"]

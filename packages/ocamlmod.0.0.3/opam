@@ -5,4 +5,7 @@ build: [
   ["ocaml" "setup.ml" "-build"]
   ["ocaml" "setup.ml" "-install"]
 ]
-depends: ["ocamlfind" "fileutils"]
+depends: [
+  "ocamlfind"
+  "fileutils"
+]

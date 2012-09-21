@@ -4,4 +4,6 @@ build: [
   ["ocaml" "str.cma" "unix.cma" "opam.ml" "sed" "_add_expr_" "38" "ExtHashtbl." "" "extLib.ml"]
   ["ocp-build" "-init" "-scan"]
 ]
-depends: ["ocp-build"]
+depends: [
+  "ocp-build"
+]

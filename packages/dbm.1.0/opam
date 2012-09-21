@@ -7,4 +7,6 @@ build: [
   ["%{make}%" "install" "STUBLIBDIR=%{lib}%/stublibs" "LIBDIR=%{lib}%/ocamlfind/dbm"]
   ["cp" "META" "%{lib}%/ocamlfind/dbm"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

@@ -8,5 +8,8 @@ build: [
 remove: [
   ["ocamlfind" "remove" "spotlib"]
 ]
-depends: ["ocamlfind" "omake"]
+depends: [
+  "ocamlfind"
+  "omake"
+]
 ocaml-version: [= "3.12.1"]

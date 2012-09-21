@@ -7,4 +7,7 @@ build: [
 remove: [
   ["ocamlfind" "remove" "dum"]
 ]
-depends: ["ocamlfind" "easy-format"]
+depends: [
+  "ocamlfind"
+  "easy-format"
+]

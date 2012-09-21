@@ -8,4 +8,7 @@ build: [
 remove: [
   ["ocamlfind" "remove" "fileutils"]
 ]
-depends: ["ocamlfind" "ounit"]
+depends: [
+  "ocamlfind"
+  "ounit"
+]

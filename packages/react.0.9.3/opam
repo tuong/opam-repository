@@ -9,4 +9,7 @@ build: [
 remove: [
   ["ocamlfind" "remove" "react"]
 ]
-depends: ["ocamlfind" "oasis" {= "0.3.0"}]
+depends: [
+  "ocamlfind"
+  "oasis" {= "0.3.0"}
+]

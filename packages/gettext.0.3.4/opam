@@ -10,4 +10,9 @@ remove: [
   ["ocamlfind" "remove" "gettext-stub"]
   ["ocamlfind" "remove" "gettext"]
 ]
-depends: ["ocamlfind" "ounit" "fileutils" "camomile"]
+depends: [
+  "ocamlfind"
+  "ounit"
+  "fileutils"
+  "camomile"
+]

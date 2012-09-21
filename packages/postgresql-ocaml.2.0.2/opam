@@ -8,4 +8,6 @@ build: [
 remove: [
   ["ocamlfind" "remove" "postgresql"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

@@ -8,4 +8,6 @@ build: [
 remove: [
   ["ocamlfind" "remove" "pomap"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]

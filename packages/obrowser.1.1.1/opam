@@ -7,5 +7,9 @@ build: [
 remove: [
   ["ocamlfind" "remove" "obrowser"]
 ]
-depends: ["ocamlfind" "menhir" "lwt"]
+depends: [
+  "ocamlfind"
+  "menhir"
+  "lwt"
+]
 ocaml-version: [= "3.12.1"]

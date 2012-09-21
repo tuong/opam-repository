@@ -9,5 +9,7 @@ build: [
 remove: [
   ["ocamlfind" "remove" "bolt"]
 ]
-depends: ["ocamlfind"]
+depends: [
+  "ocamlfind"
+]
 ocaml-version: [= "3.12.1"]

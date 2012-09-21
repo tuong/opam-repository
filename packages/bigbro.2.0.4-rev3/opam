@@ -6,4 +6,8 @@ build: [
   ["%{make}%"]
   ["%{make}%" "install" "PREFIX=%{prefix}%" "MANDIR=%{man}%/man1"]
 ]
-depends: ["ocamlfind" "pcre-ocaml" "camlp5"]
+depends: [
+  "ocamlfind"
+  "pcre-ocaml"
+  "camlp5"
+]
