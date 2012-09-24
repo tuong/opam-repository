@@ -1,12 +1,9 @@
 opam-version: "1"
 maintainer: "contact@ocamlpro.com"
 build: [
-  ["sh" "configure" "--prefix" "%{prefix}%" "--ocsigen-user" "%{user}%" "--ocsigen-group" "%{group}%" "--commandpipe" "%{lib}%/ocsigenserver/var/run/ocsigenserver_command" "--logdir" "%{lib}%/ocsigenserver/var/log/ocsigenserver" "--mandir" "%{man}%/man1" "--docdir" "%{lib}%/ocsigenserver/share/doc/ocsigenserver" "--commandpipe" "%{lib}%/ocsigenserver/var/run/ocsigenserver_command" "--staticpagesdir" "%{lib}%/ocsigenserver/var/www" "--datadir" "%{lib}%/ocsigenserver/var/lib/ocsigenserver" "--sysconfdir" "%{lib}%/ocsigenserver/etc/ocsigenserver"] {"%{ocaml-version}%" = "3.12.1"}
-  ["%{make}%"] {"%{ocaml-version}%" = "3.12.1"}
-  ["%{make}%" "install"] {"%{ocaml-version}%" = "3.12.1"}
-  ["sh" "configure" "--prefix" "%{prefix}%" "--ocsigen-user" "%{user}%" "--ocsigen-group" "%{group}%" "--commandpipe" "%{lib}%/ocsigenserver/var/run/ocsigenserver_command" "--logdir" "%{lib}%/ocsigenserver/var/log/ocsigenserver" "--mandir" "%{man}%/man1" "--docdir" "%{lib}%/ocsigenserver/share/doc/ocsigenserver" "--commandpipe" "%{lib}%/ocsigenserver/var/run/ocsigenserver_command" "--staticpagesdir" "%{lib}%/ocsigenserver/var/www" "--datadir" "%{lib}%/ocsigenserver/var/lib/ocsigenserver" "--sysconfdir" "%{lib}%/ocsigenserver/etc/ocsigenserver"] {"%{ocaml-version}%" = "4.00.0"}
-  ["%{make}%"] {"%{ocaml-version}%" = "4.00.0"}
-  ["%{make}%" "install"] {"%{ocaml-version}%" = "4.00.0"}
+  ["sh" "configure" "--prefix" "%{prefix}%" "--ocsigen-user" "%{user}%" "--ocsigen-group" "%{group}%" "--commandpipe" "%{lib}%/ocsigenserver/var/run/ocsigenserver_command" "--logdir" "%{lib}%/ocsigenserver/var/log/ocsigenserver" "--mandir" "%{man}%/man1" "--docdir" "%{lib}%/ocsigenserver/share/doc/ocsigenserver" "--commandpipe" "%{lib}%/ocsigenserver/var/run/ocsigenserver_command" "--staticpagesdir" "%{lib}%/ocsigenserver/var/www" "--datadir" "%{lib}%/ocsigenserver/var/lib/ocsigenserver" "--sysconfdir" "%{lib}%/ocsigenserver/etc/ocsigenserver"]
+  ["%{make}%"]
+  ["%{make}%" "install"]
 ]
 remove: [
   ["rm" "-rf" "%{lib}%/ocamlfind/ocsigenserver"]
