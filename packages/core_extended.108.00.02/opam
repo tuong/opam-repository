@@ -8,7 +8,6 @@ remove: [
   ["ocamlfind" "remove" "core_extended"]
 ]
 depends: [
-  "ocamlfind"
   "pcre-ocaml"
   "core"
 ]

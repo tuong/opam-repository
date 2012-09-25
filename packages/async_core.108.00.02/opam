@@ -8,6 +8,5 @@ remove: [
   ["ocamlfind" "remove" "async_core"]
 ]
 depends: [
-  "ocamlfind"
-  "core"
+  "core" {= "108.00.02"}
 ]
