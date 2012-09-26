@@ -1,18 +1,23 @@
 opam-version: "1"
 maintainer: "contact@ocamlpro.com"
 build: [
-  ["./configure" "-bindir" "%{bin}%"]
+  ["./configure" "-bindir" "%{bin}%" "-%{lablgtk:enable}%-gtk2" "-%{ssl:enable}%-ssl" "-%{cryptokit:enable}%-crypto" "-with-nethttpd"]
   ["%{make}%" "all"]
   ["%{make}%" "opt"]
   ["%{make}%" "install"]
 ]
 remove: [
   ["ocamlfind" "remove" "equeue"]
+  ["ocamlfind" "remove" "equeue-gtk2"] {"%{lablgtk:enable}%" = "%{enable}%"}
+  ["ocamlfind" "remove" "equeue-ssl"] {"%{ssl:enable}%" = "%{enable}%"}
   ["ocamlfind" "remove" "netcamlbox"]
   ["ocamlfind" "remove" "netcgi2"]
   ["ocamlfind" "remove" "netcgi2-plex"]
   ["ocamlfind" "remove" "netclient"]
   ["ocamlfind" "remove" "netgssapi"]
+  ["ocamlfind" "remove" "nethttpd"]
+  ["ocamlfind" "remove" "nethttpd-for-netcgi2"]
+  ["ocamlfind" "remove" "netmech-scram"] {"%{cryptokit:enable}%" = "%{enable}%"}
   ["ocamlfind" "remove" "netmulticore"]
   ["ocamlfind" "remove" "netplex"]
   ["ocamlfind" "remove" "netshm"]
@@ -22,11 +27,19 @@ remove: [
   ["ocamlfind" "remove" "rpc"]
   ["ocamlfind" "remove" "rpc-auth-local"]
   ["ocamlfind" "remove" "rpc-generator"]
+  ["ocamlfind" "remove" "rpc-ssl"] {"%{ssl:enable}%" = "%{enable}%"}
   ["ocamlfind" "remove" "shell"]
   ["ocamlfind" "remove" "smtp"]
 ]
 depends: [
   "ocamlfind"
   "pcre-ocaml"
+]
+depopts: [
+  "lablgtk" {= "2.14.2-oasis8"}
+  "pcre-ocaml"
+  "ssl"
+  "camlzip"
+  "cryptokit"
 ]
 ocaml-version: [< "4.00.0"]
