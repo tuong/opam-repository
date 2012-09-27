@@ -1,9 +1,12 @@
 opam-version: "1"
 maintainer: "contact@ocamlpro.com"
 build: [
+  ["./configure"]
+  ["ocaml" "str.cma" "unix.cma" "opam.ml" "sed" "_add_expr_" "4" "$(ROOT)" "%{lib}%/ocamlfind" "Makefile.config"]
+  ["ocaml" "str.cma" "unix.cma" "opam.ml" "sed" "_add_expr_" "4" "\t" "#\t" "_add_expr_" "5" "\t" "#\t" "_add_expr_" "28" "\t" "#\t" "_add_expr_" "31" "\t" "#\t" "Makefile"]
   ["%{make}%"]
 ]
 depends: [
   "ocamlfind"
-  "js_of_ocaml"
+  "js_of_ocaml" {= "1.2+linkall"}
 ]

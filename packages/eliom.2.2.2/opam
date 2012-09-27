@@ -11,7 +11,7 @@ remove: [
 depends: [
   "ocamlfind"
   "deriving-ocsigen"
-  "js_of_ocaml"
+  "js_of_ocaml" {= "1.2+nolinkall"}
   "calendar"
   "ocsigenserver"
 ]

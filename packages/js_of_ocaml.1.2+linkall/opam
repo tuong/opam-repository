@@ -1,0 +1,16 @@
+opam-version: "1"
+maintainer: "contact@ocamlpro.com"
+build: [
+  ["%{make}%" "-C" "js_of_ocaml"]
+  ["%{make}%" "-C" "js_of_ocaml/compiler" "compiler.cma"]
+  ["mkdir" "-p" "%{lib}%/ocamlfind/js_of_ocaml"]
+  ["cp" "-R" "js_of_ocaml/compiler" "js_of_ocaml/lib" "js_of_ocaml/Makefile" "js_of_ocaml/Makefile.conf" "js_of_ocaml/README" "js_of_ocaml/runtime" "%{lib}%/ocamlfind/js_of_ocaml"]
+]
+remove: [
+  ["ocamlfind" "remove" "js_of_ocaml"]
+]
+depends: [
+  "ocamlfind"
+  "deriving-ocsigen"
+  "lwt"
+]

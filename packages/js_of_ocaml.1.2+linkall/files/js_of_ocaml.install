@@ -1,0 +1,3 @@
+bin: [
+  "js_of_ocaml/compiler/js_of_ocaml"
+]

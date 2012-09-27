@@ -2,12 +2,11 @@ opam-version: "1"
 maintainer: "contact@ocamlpro.com"
 build: [
   ["%{make}%"]
-  ["%{make}%" "install" "BINDIR=%{bin}%"]
+  ["%{make}%" "install"]
 ]
 remove: [
-  ["ocamlfind" "remove" "oclosure"]
+  ["ocamlfind" "remove" "deriving-ocsigen"]
 ]
 depends: [
   "ocamlfind"
-  "js_of_ocaml" {= "1.2+nolinkall"}
 ]
