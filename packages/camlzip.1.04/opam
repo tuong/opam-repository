@@ -3,6 +3,10 @@ maintainer: "contact@ocamlpro.com"
 build: [
   ["%{make}%" "all"]
   ["%{make}%" "allopt"]
-  ["%{make}%" "install" "INSTALLDIR=%{lib}%/camlzip"]
-  ["%{make}%" "installopt" "INSTALLDIR=%{lib}%/camlzip"]
+  ["%{make}%" "install" "INSTALLDIR=%{lib}%/ocamlfind/camlzip"]
+  ["%{make}%" "installopt" "INSTALLDIR=%{lib}%/ocamlfind/camlzip"]
+  ["cp" "META" "zlib.cmi" "zlib.cmx" "%{lib}%/ocamlfind/camlzip"]
+]
+depends: [
+  "ocamlfind"
 ]

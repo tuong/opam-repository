@@ -1,7 +1,7 @@
 opam-version: "1"
 maintainer: "contact@ocamlpro.com"
 build: [
-  ["./configure" "-bindir" "%{bin}%" "-enable-pcre" "-enable-gtk2" "-enable-ssl" "-enable-crypto" "-with-nethttpd"]
+  ["./configure" "-bindir" "%{bin}%" "-enable-pcre" "-enable-gtk2" "-enable-ssl" "-enable-zip" "-enable-crypto" "-with-nethttpd"]
   ["%{make}%" "all"]
   ["%{make}%" "opt"]
   ["%{make}%" "install"]
@@ -24,6 +24,7 @@ remove: [
   ["ocamlfind" "remove" "netstring"]
   ["ocamlfind" "remove" "netstring-pcre"]
   ["ocamlfind" "remove" "netsys"]
+  ["ocamlfind" "remove" "netzip"]
   ["ocamlfind" "remove" "pop"]
   ["ocamlfind" "remove" "rpc"]
   ["ocamlfind" "remove" "rpc-auth-local"]
