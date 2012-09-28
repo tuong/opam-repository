@@ -6,3 +6,4 @@ build: [
   ["%{make}%" "opt"]
   ["%{make}%" "install"]
 ]
+ocaml-version: [= "3.12.1"]
