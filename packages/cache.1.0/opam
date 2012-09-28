@@ -11,5 +11,5 @@ remove: [
 depends: [
   "ocamlfind"
   "omake"
-  "ocamlnet"
+  "ocamlnet" {= "3.6.0"}
 ]

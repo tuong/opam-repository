@@ -7,7 +7,9 @@ build: [
 ]
 depends: [
   "ocamlfind"
-  "ocamlnet" {= "3.6.0+all"}
+  "ocamlnet" {= "3.6.0"}
+  "cryptokit"
+  "pcre-ocaml"
   "ocamlgraph" {= "1.8.2"}
   "omake"
   "xstrp4"

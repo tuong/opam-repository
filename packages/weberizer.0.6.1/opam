@@ -12,6 +12,6 @@ remove: [
 ]
 depends: [
   "ocamlfind"
-  "ocamlnet"
+  "ocamlnet" {= "3.6.0"}
   "oasis" {= "0.3.0"}
 ]
