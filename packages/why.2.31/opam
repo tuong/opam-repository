@@ -13,4 +13,3 @@ depends: [
   "coq" {= "8.3pl2"}
   "frama-c"
 ]
-ocaml-version: [= "3.12.1"]
