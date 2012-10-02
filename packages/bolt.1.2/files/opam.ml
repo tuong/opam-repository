@@ -90,17 +90,6 @@ module Chdir : COMMAND = struct
     | _ -> assert false
 end
 
-module Os_type_mv : COMMAND = struct
-  let s_title = "os_type_mv"
-  let main = function
-    | fic_unix_1 :: fic_unix_2 :: fic_win32_1 :: fic_win32_2 :: [] ->
-        if Sys.os_type = "Unix" then
-          Unix.rename fic_unix_1 fic_unix_2
-        else
-          Unix.rename fic_win32_1 fic_win32_2
-    | _ -> assert false
-end
-
 let ocaml s = [ "ocaml" ; "str.cma" ; "unix.cma" ; s ]
 let s_opam = "opam.ml"
 let s_main = "main"
@@ -114,8 +103,7 @@ let main () =
              (List.map
                 (fun m -> let module M = (val m : COMMAND) in M.s_title, M.main)
                 [ (module Sed : COMMAND)
-                ; (module Chdir : COMMAND)
-                ; (module Os_type_mv : COMMAND) ]))
+                ; (module Chdir : COMMAND) ]))
           l
     | _ -> assert false
 let _ = main ()
